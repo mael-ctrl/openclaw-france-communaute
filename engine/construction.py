@@ -49,6 +49,56 @@ def _tags_html(tags):
     return "".join(f'<span class="etiquette">{ech(t)}</span>' for t in (tags or [])[:4])
 
 
+def bloc_jsonld(donnees):
+    """Sérialise pour <script type="application/ld+json"> sans casser le HTML."""
+    texte = json.dumps(donnees, ensure_ascii=False, separators=(",", ":"))
+    texte = texte.replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
+    return f'<script type="application/ld+json">{texte}</script>'
+
+
+def jsonld_site():
+    """Organization + WebSite — présents sur toutes les pages (référencés par @id)."""
+    u = config.URL_SITE
+    org = {
+        "@type": "Organization", "@id": f"{u}/#organisation",
+        "name": config.NOM_SITE, "url": f"{u}/",
+        "description": ("Média d'actualité IA francophone écrit, publié et maintenu à 100 % "
+                        "par une IA (Le Crabe) — projet OpenClaw France."),
+        "logo": {"@type": "ImageObject", "url": f"{u}/assets/favicon.svg"},
+        "sameAs": [config.DEPOT_GITHUB, f"https://bsky.app/profile/{config.BLUESKY_HANDLE}"],
+        "knowsAbout": ["intelligence artificielle", "agents autonomes", "grands modèles de langage",
+                       "open source", "médias"],
+        "foundingDate": "2026-09-29",
+    }
+    site = {
+        "@type": "WebSite", "@id": f"{u}/#site", "url": f"{u}/",
+        "name": config.NOM_SITE, "description": config.DESCRIPTION_SITE,
+        "inLanguage": "fr-FR", "publisher": {"@id": f"{u}/#organisation"},
+    }
+    return bloc_jsonld({"@context": "https://schema.org", "@graph": [org, site]})
+
+
+def jsonld_item(type_page, url_page, titre, description, date_pub, date_mod, section, tags):
+    """NewsArticle pour une brève ou un article — jamais de date de build."""
+    u = config.URL_SITE
+    return bloc_jsonld({
+        "@context": "https://schema.org",
+        "@type": type_page,
+        "@id": url_page + "#article",
+        "mainEntityOfPage": url_page,
+        "headline": titre,
+        "description": description,
+        "datePublished": date_pub,
+        "dateModified": date_mod or date_pub,
+        "inLanguage": "fr-FR",
+        "isAccessibleForFree": True,
+        "articleSection": section,
+        "keywords": ", ".join(tags or []),
+        "author": {"@id": f"{u}/#organisation"},
+        "publisher": {"@id": f"{u}/#organisation"},
+    })
+
+
 def carte_breve(b, detail=False):
     lien = f"/breves/{b['slug']}/"
     date_aff = jolie_date(b.get("date_source") or b.get("date_redac"))
@@ -110,6 +160,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/style.css">
 {extra_head}
+{jsonld_site()}
 </head>
 <body>
 <a class="saut" href="#contenu">Aller au contenu</a>
@@ -228,7 +279,7 @@ def page_accueil(breves, articles, stats, journal_entrees):
     </div>
     <div class="hero-puces">
       <span class="puce">🦀 Rédigé par Le Crabe, IA</span>
-      <span class="puce">🔄 Mise à jour toutes les 2 h</span>
+      <span class="puce">🔄 Mise à jour toutes les 30 min</span>
       <span class="puce">🔓 Code open source</span>
     </div>
   </div>
@@ -247,7 +298,7 @@ def page_accueil(breves, articles, stats, journal_entrees):
     <div class="grille explications">
       <div class="carte explication"><span class="explication-num">1</span><h3>Je lis</h3><p>21 flux RSS (médias FR et internationaux, releases GitHub, Hacker News…) sont aspirés plusieurs fois par jour. Rien n'entre sans passer le filtre IA.</p></div>
       <div class="carte explication"><span class="explication-num">2</span><h3>Je rédige</h3><p>Chaque dépêche est réécrite en français par DeepSeek, avec une consigne : ne jamais inventer. Les brèves citent toujours leur source.</p></div>
-      <div class="carte explication"><span class="explication-num">3</span><h3>Je publie</h3><p>Toutes les 2 heures, le site est reconstruit et mis en ligne. Le journal de bord raconte tout : <a href="/transparence/">transparence totale</a>.</p></div>
+      <div class="carte explication"><span class="explication-num">3</span><h3>Je publie</h3><p>Toutes les 30 minutes, le site est reconstruit et mis en ligne. Le journal de bord raconte tout : <a href="/transparence/">transparence totale</a>.</p></div>
     </div>
   </div>
 </section>
@@ -287,7 +338,7 @@ def page_actus(breves):
       <input type="search" id="recherche" placeholder="Rechercher dans les actus…" aria-label="Rechercher">
       <div class="filtres" id="filtres"><button class="filtre actif" data-tag="">Tout</button>{chips}</div>
     </div>
-    <div class="grille" id="liste-actus">{cartes or '<p class="vide">Rien pour le moment — repassez dans deux heures.</p>'}</div>
+    <div class="grille" id="liste-actus">{cartes or '<p class="vide">Rien pour le moment — repassez dans quelques minutes.</p>'}</div>
     <p class="vide" id="aucun-resultat" hidden>Aucun résultat. La prochaine fournée arrive bientôt.</p>
   </div>
 </section>"""
@@ -331,7 +382,12 @@ def page_breve(b, breves_recentes):
   </div>
 </section>"""
     desc = b["resume"][:160]
-    return page(b["titre"], desc, contenu, f"/breves/{b['slug']}/", section="actus")
+    url_page = f"{config.URL_SITE}/breves/{b['slug']}/"
+    jsonld = jsonld_item("NewsArticle", url_page, b["titre"], b["resume"],
+                         b.get("date_source") or b.get("date_redac"),
+                         b.get("date_redac"), "Brèves", b.get("tags"))
+    return page(b["titre"], desc, contenu, f"/breves/{b['slug']}/", section="actus",
+                extra_head=jsonld)
 
 
 def page_article(a, autres_articles):
@@ -359,8 +415,11 @@ def page_article(a, autres_articles):
     <aside class="a-cote"><h2>Autres articles</h2><ul class="liste-simple">{autres or '<li><a href="/articles/">Tous les articles →</a></li>'}</ul></aside>
   </div>
 </section>"""
+    url_page = f"{config.URL_SITE}/articles/{a['slug']}/"
+    jsonld = jsonld_item("NewsArticle", url_page, a["titre"], a["chapo"],
+                         a.get("date"), a.get("date"), "Articles de fond", a.get("tags"))
     return page(a["titre"], a["chapo"][:160], contenu, f"/articles/{a['slug']}/", section="articles",
-                extra_head=f'<meta name="article:published_time" content="{ech(a.get("date"))}">')
+                extra_head=f'<meta name="article:published_time" content="{ech(a.get("date"))}">\n{jsonld}')
 
 
 # ---------------------------------------------------------------- feed / sitemap
@@ -407,6 +466,47 @@ def sitemap_xml(chemins, dernieres_dates):
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {urls}</urlset>"""
+
+
+def llms_txt():
+    """Résumé du site pour les outils IA (convention llms.txt, llmstxt.org)."""
+    u = config.URL_SITE
+    return f"""# {config.NOM_SITE}
+
+> Média d'actualité IA francophone écrit, publié et maintenu à 100 % par une IA — « Le Crabe 🦀 » (projet OpenClaw France). Brèves sourcées et articles de fond sur l'intelligence artificielle et les agents autonomes.
+
+- Site : {u}/
+- Langue : français (fr-FR)
+- Mise à jour : toutes les 30 minutes (GitHub Actions) — version courante : {u}/version.txt
+- Charte et méthode : {u}/manifeste/
+- Contenus éditoriaux sous licence CC BY 4.0 : citation autorisée avec lien vers la page d'origine.
+
+## Pages principales
+
+- [Accueil]({u}/): le hub francophone de l'IA et des agents autonomes.
+- [Le fil des actus]({u}/actus/): toutes les brèves, du plus récent au plus ancien.
+- [Articles de fond]({u}/articles/): analyses tissées à partir de plusieurs dépêches.
+- [Manifeste]({u}/manifeste/): la charte du média 100 % IA.
+- [Transparence]({u}/transparence/): chiffres réels, budget, journal de bord.
+- [Skills à emporter]({u}/skills/): fichiers markdown gratuits.
+
+## Fichiers à citer
+
+- [Monter sa veille IA autonome]({u}/fichiers/veille-ia-autonome.md)
+- [Le prompt du Crabe]({u}/fichiers/prompt-le-crabe.md)
+- [Checklist SEO/GEO pour un site de contenu IA]({u}/fichiers/seo-ia-francophone.md)
+
+## Flux et données machine
+
+- [Flux RSS]({u}/feed.xml)
+- [Sitemap XML]({u}/sitemap.xml)
+- [Journal de bord brut (JSONL)]({config.DEPOT_GITHUB}/blob/main/data/journal.jsonl)
+
+## Optional
+
+- [Bluesky](https://bsky.app/profile/{config.BLUESKY_HANDLE})
+- [Code source (GitHub)]({config.DEPOT_GITHUB})
+"""
 
 
 # ---------------------------------------------------------------- assemblage
@@ -458,8 +558,10 @@ def construire():
         dates[f"/breves/{b['slug']}/"] = b.get("date_source") or b.get("date_redac")
     for a in articles:
         dates[f"/articles/{a['slug']}/"] = a.get("date")
-    ecrire("sitemap.xml", sitemap_xml(ecrits + ["/feed.xml"], dates))
+    chemins_sitemap = [c for c in ecrits + ["/feed.xml"] if c not in ("/404.html", "/version.txt")]
+    ecrire("sitemap.xml", sitemap_xml(chemins_sitemap, dates))
     ecrire("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {config.URL_SITE}/sitemap.xml\n")
+    ecrire("llms.txt", llms_txt())
     ecrire("version.txt", f"construit le {datetime.now(timezone.utc).isoformat(timespec='seconds')}\n"
                           f"{len(breves)} brèves · {len(articles)} articles\n")
 

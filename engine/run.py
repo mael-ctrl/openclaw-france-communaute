@@ -14,6 +14,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+import archive           # noqa: E402
 import collecte          # noqa: E402
 import config            # noqa: E402
 import construction      # noqa: E402
@@ -149,7 +150,16 @@ def main():
         except Exception as e:
             journal.erreur(f"indexation : {e}")
 
-    # 8) Diffusion sociale — le Crabe parle au monde (Bluesky)
+    # 8) Archivage quotidien (Wayback Machine) — preuve horodatée indépendante
+    if not args.essai and not args.sans_deploiement:
+        try:
+            resultat_archive = archive.archiver_si_necessaire()
+            if resultat_archive:
+                print(f"   🗄️  Archive : {resultat_archive}")
+        except Exception as e:
+            journal.erreur(f"archivage : {e}")
+
+    # 9) Diffusion sociale — le Crabe parle au monde (Bluesky)
     if not args.essai and social.disponible():
         try:
             resume["publications"] = social.diffuser()

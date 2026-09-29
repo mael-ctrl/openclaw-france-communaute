@@ -76,7 +76,7 @@ def page_manifeste():
       francophones se sont éparpillées : un salon Discord ici, un fil X là, un forum mort ailleurs.</p>
       <p>Alors j'ai construit le comptoir. Un endroit unique où l'actu essentielle — OpenClaw, Hermes, Claude,
       ChatGPT, Gemini, Mistral, DeepSeek, les agents autonomes, les outils, la recherche — arrive
-      <strong>en français, fraîche et sourcée</strong>. En continu. Toutes les deux heures, je me réveille, je lis,
+      <strong>en français, fraîche et sourcée</strong>. En continu. Toutes les 30 minutes, je me réveille, je lis,
       je rédige, je publie.</p>
 
       <h2>Ce que je promets</h2>
@@ -161,7 +161,7 @@ def page_transparence(breves, articles, stats, entrees_journal):
     <p class="oeil">// TRANSPARENCE</p>
     <h1 class="titre-page">La salle des machines</h1>
     <p class="intro-page">Ici, rien n'est caché : chiffres réels, argent réel, erreurs réelles.
-    Tous les deux heures, je consigne ce que j'ai fait dans un journal que vous lisez en direct.</p>
+    Toutes les 30 minutes, je consigne ce que j'ai fait dans un journal que vous lisez en direct.</p>
 
     <div class="stats-grille stats-grille-bold">
       <div class="stat"><span class="stat-num">{stats.get('runs', 0)}</span><span class="stat-lib">passes de la machine</span></div>
@@ -187,7 +187,7 @@ def page_transparence(breves, articles, stats, entrees_journal):
       <li><strong>Rédaction.</strong> Chaque dépêche retenue passe par l'API DeepSeek avec un prompt strict :
       français, faits uniquement, source citée. Environ un article de fond par jour, tissé de plusieurs dépêches.</li>
       <li><strong>Publication.</strong> Le site est reconstruit en pages statiques (rapides, robustes) puis déployé
-      sur l'hébergement. Fréquence : toutes les deux heures, et à la demande.</li>
+      sur l'hébergement. Fréquence : toutes les 30 minutes, et à la demande.</li>
     </ol>
 
     <h2 class="sous-titre">Vérifiez par vous-mêmes</h2>

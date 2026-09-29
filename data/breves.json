@@ -127,6 +127,27 @@
   }
  },
  {
+  "id": "3452a107f7183ac8",
+  "slug": "un-post-reddit-affirme-que-gpt-6-1-sol-depasse-opus-5-5-sur-des-benchm-3452a1",
+  "titre": "Un post Reddit affirme que GPT-6.1 Sol dépasse Opus 5.5 sur des benchmarks internes",
+  "resume": "Sur le subreddit r/ClaudeAI, un internaute affirme que les benchmarks internes d'OpenAI placeraient GPT-6.1 Sol nettement devant Opus 5.5, avec une Anthropic en difficulté pour suivre. La publication ne fournit ni chiffres ni méthodologie, et rien ne permet de vérifier ces résultats. Elle illustre surtout la circulation de comparatifs non sourcés entre modèles, alors que la concurrence entre laboratoires reste vive.",
+  "tags": [
+   "claude",
+   "openai",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wtoi3e/open_ais_internal_benchmarks_show_gpt61_sol/",
+  "date_source": "2026-09-29T22:43:03+00:00",
+  "date_redac": "2026-09-29T22:51:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 636,
+   "sortie": 1018
+  }
+ },
+ {
   "id": "27de864be41fa683",
   "slug": "openai-lance-gpt-6-1-sol-cinq-fois-moins-cher-que-gpt-6-astra-27de86",
   "titre": "OpenAI lance GPT-6.1 Sol, cinq fois moins cher que GPT-6 Astra",
@@ -497,6 +518,113 @@
    "modele": "deepseek-flash",
    "entree": 657,
    "sortie": 646
+  }
+ },
+ {
+  "id": "172e253ff7010513",
+  "slug": "livenerf-un-outil-open-source-pour-mesurer-l-evolution-d-opus-5-5-172e25",
+  "titre": "LiveNerf, un outil open source pour mesurer l'évolution d'Opus 5.5",
+  "resume": "Un développeur a publié LiveNerf, un projet open source pour mesurer jour après jour les performances d'Opus 5.5, avec des benchmarks comme SWE-bench et SciCode, afin de savoir si le modèle est « nerfé » après sa sortie. La baseline sera figée au dixième jour, et les premières données permettant de trancher n'arriveront qu'au vingtième jour après la sortie, soit environ deux semaines plus tard.",
+  "tags": [
+   "claude",
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wtlrnu/is_opus_55_entering_a_nerfed_phase_livenerf/",
+  "date_source": "2026-09-29T20:51:07+00:00",
+  "date_redac": "2026-09-29T22:51:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 822,
+   "sortie": 835
+  }
+ },
+ {
+  "id": "76865cf25aa1abee",
+  "slug": "opus-5-5-mene-sur-l-indice-d-ia-d-artificial-analysis-gpt-6-1-sol-depl-76865c",
+  "titre": "Opus 5.5 mène sur l'indice d'IA d'Artificial Analysis, GPT-6.1 Sol déplace le coût",
+  "resume": "Un comparatif publié sur r/ClaudeAI croise l'Intelligence Index d'Artificial Analysis avec le coût par tâche de benchmark, en tenant compte du caching et du raisonnement. Opus 5.5 reste en tête sur l'indice d'intelligence, tandis que GPT-6.1 Sol déplace la frontière du coût. Ces montants ne sont pas des prix d'abonnement, mais des coûts calculés sur les benchmarks.",
+  "tags": [
+   "claude",
+   "chatgpt",
+   "openai",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wtkr74/opus_55_still_leads_on_aa_intelligence_but_gpt61/",
+  "date_source": "2026-09-29T20:11:46+00:00",
+  "date_redac": "2026-09-29T22:51:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 673,
+   "sortie": 683
+  }
+ },
+ {
+  "id": "f59e97d67c2f1c09",
+  "slug": "anthropic-un-modele-chinois-telechargeable-par-tous-peut-creer-seul-de-f59e97",
+  "titre": "Anthropic : un modèle chinois téléchargeable par tous peut créer seul des exploits",
+  "resume": "Anthropic affirme qu'un modèle d'IA chinois, téléchargeable par n'importe qui, peut désormais construire seul des attaques informatiques fonctionnelles. L'information, jugée préoccupante, a été relayée sur le forum Reddit r/ClaudeAI. Elle soulève la question de la diffusion libre de modèles capables de générer des exploits.",
+  "tags": [
+   "sécurité",
+   "open-source",
+   "agents"
+  ],
+  "importance": 4,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wtk9kd/anthropic_says_a_chinese_ai_model_anyone_can/",
+  "date_source": "2026-09-29T19:53:44+00:00",
+  "date_redac": "2026-09-29T22:51:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 666,
+   "sortie": 811
+  }
+ },
+ {
+  "id": "06a25e0699e73094",
+  "slug": "claude-cowork-les-taches-passent-dans-le-cloud-l-option-locale-dispara-06a25e",
+  "titre": "Claude Cowork : les tâches passent dans le cloud, l'option locale disparaît",
+  "resume": "Sur le subreddit r/ClaudeAI, un utilisateur rapporte que les nouvelles tâches Cowork s'exécutent dans le cloud et que l'option « Only on this computer » disparaît. Il en conclut que Claude contraint les utilisateurs à copier leurs données vers ses serveurs. Le fil porte donc sur le sort des traitements que certains gardaient jusqu'ici en local.",
+  "tags": [
+   "claude",
+   "société",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wtk12a/excuse_me/",
+  "date_source": "2026-09-29T19:44:38+00:00",
+  "date_redac": "2026-09-29T22:51:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 645,
+   "sortie": 841
+  }
+ },
+ {
+  "id": "00efd30e8643fee0",
+  "slug": "cowork-supprime-l-option-only-on-this-computer-les-taches-locales-depr-00efd3",
+  "titre": "Cowork supprime l'option « Only on this computer », les tâches locales dépréciées",
+  "resume": "Un utilisateur rapporte que l'option « Only on this computer » de Cowork a disparu, accompagnée d'un message indiquant que les tâches sur cet ordinateur sont dépréciées : elles continuent de fonctionner mais ne sont plus maintenues, et il ne sera plus possible d'en lancer de nouvelles à partir du 6 octobre. Pour tout nouveau travail local, l'outil renvoie vers Claude Code. Ce contournement avait été trouvé après le passage automatique des tâches sur le cloud il y a deux semaines, qui avait suscité le mécontentement.",
+  "tags": [
+   "claude",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wtjezc/coworks_only_on_this_computer_option_is_removed/",
+  "date_source": "2026-09-29T19:20:54+00:00",
+  "date_redac": "2026-09-29T22:51:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 800,
+   "sortie": 406
   }
  },
  {

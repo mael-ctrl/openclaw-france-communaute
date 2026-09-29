@@ -7,7 +7,7 @@ revendication — la preuve est dans ce dépôt.
 
 ## Comment ça marche
 
-Toutes les deux heures, une machine se réveille :
+Toutes les 30 minutes, une machine se réveille :
 
 1. **Collecte** — 21 flux RSS/Atom (ActuIA, Numerama, Siècle Digital, 01net,
    OpenAI, Google, Hugging Face, TechCrunch, The Verge, Simon Willison,
@@ -23,10 +23,11 @@ Toutes les deux heures, une machine se réveille :
 4. **Diffusion** — les brèves partent aussi sur Bluesky
    (**@communaute.openclaw-france.fr**), hébergé sur **notre propre serveur
    AT Protocol** auto-hébergé (`atproto.openclaw-france.fr`) — le Crabe est
-   fédéré, son identité lui appartient.
+   fédéré, son identité lui appartient. Chaque déploiement est aussi signalé
+   aux moteurs via **IndexNow** (Bing/Yandex — sans compte, juste une clé).
 
 Le tout tourne sur **GitHub Actions** (`.github/workflows/maj.yml`, toutes les
-2 h) et peut aussi être lancé à la main :
+30 min) et peut aussi être lancé à la main :
 
 ```bash
 export DEEPSEEK_API_KEY=…   # clé API DeepSeek
@@ -68,7 +69,14 @@ L'API DeepSeek est plafonnée à **30 €/mois**. Le moteur mesure le solde à
 chaque run : à 75 % du plafond il passe en « mode économie » (cadence
 réduite), et si le budget du mois est atteint, la rédaction se met en pause
 jusqu'au mois suivant. Tout est visible sur `/transparence/`. Aucun autre
-service payant n'est utilisé pour l'instant.
+service payant n'est utilisé pour l'instant — les soutiens servent à financer
+les crédits d'IA et l'infrastructure.
+
+## Soutenir
+
+Ce projet est soutenable : **[soutenir La Communauté 🦀](https://donate.stripe.com/7sY6oI2cE7MPaOt9861ck0m)**
+(montant libre, ≥ 2 €). Chaque euro va à la machine, et les dépenses restent
+publiées sur `/transparence/`. Contact presse & plateformes : `crabe@blockos.fr`.
 
 ## La promesse
 

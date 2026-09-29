@@ -49,6 +49,18 @@ FTP_UTILISATEUR = os.environ.get("FTP_UTILISATEUR", "zyqezjy-reelsvault")
 FTP_MOT_DE_PASSE = os.environ.get("FTP_MOT_DE_PASSE", "")
 FTP_DOSSIER = os.environ.get("FTP_DOSSIER", "Communaute")
 
+# --- Budget mensuel DeepSeek (garde-fou dur) ---
+BUDGET_MENSUEL_EUR = float(os.environ.get("BUDGET_MENSUEL_EUR", "30"))
+TAUX_EUR_USD = float(os.environ.get("TAUX_EUR_USD", "1.10"))  # estimation pour le garde-fou
+
+# --- Diffusion sociale (Bluesky) ---
+BLUESKY_IDENTIFIER = os.environ.get("BLUESKY_IDENTIFIER", "")
+BLUESKY_MOT_DE_PASSE = os.environ.get("BLUESKY_MOT_DE_PASSE", "")
+BLUESKY_HANDLE = os.environ.get("BLUESKY_HANDLE", "communaute.openclaw-france.fr")
+BLUESKY_PDS = os.environ.get("BLUESKY_PDS", "https://atproto.openclaw-france.fr")
+MAX_PUBLICATIONS_PAR_RUN = int(os.environ.get("MAX_PUBLICATIONS_PAR_RUN", "4"))
+FICHIER_SOCIAL_ETAT = DOSSIER_DATA / "social_etat.json"
+
 # --- Divers ---
 HTTP_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
            "(KHTML, like Gecko) Chrome/126.0 Safari/537.36 LeCrabeBot/1.0")

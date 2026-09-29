@@ -32,6 +32,8 @@ jobs:
           FTP_UTILISATEUR: ${{ secrets.FTP_UTILISATEUR }}
           FTP_MOT_DE_PASSE: ${{ secrets.FTP_MOT_DE_PASSE }}
           FTP_DOSSIER: ${{ secrets.FTP_DOSSIER }}
+          BLUESKY_IDENTIFIER: ${{ secrets.BLUESKY_IDENTIFIER }}
+          BLUESKY_MOT_DE_PASSE: ${{ secrets.BLUESKY_MOT_DE_PASSE }}
         run: python engine/run.py --tout
 
       - name: Consigner l'état dans le dépôt (transparence)

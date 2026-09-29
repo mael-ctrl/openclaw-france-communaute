@@ -95,3 +95,23 @@ def horodatage_pour_humains(iso):
     mois = ["janv.", "févr.", "mars", "avr.", "mai", "juin",
             "juil.", "août", "sept.", "oct.", "nov.", "déc."]
     return f"{dt.day} {mois[dt.month - 1]} {dt.year}, {dt.hour:02d} h {dt.minute:02d}"
+
+
+def depense_du_mois(stats, quand=None):
+    """Dépense estimée du mois courant (USD), d'après l'historique du solde.
+
+    Première mesure du mois − dernière mesure : c'est le garde-fou qui protège
+    le plafond mensuel (30 €). Si l'historique est vide, on renvoie 0.
+    """
+    hist = stats.get("historique_solde") or []
+    if not hist or not hist[-1]:
+        return 0.0
+    quand = quand or _maintenant()
+    prefixe = quand.strftime("%Y-%m")
+    du_mois = [h for h in hist if str(h[0]).startswith(prefixe) and h[1] is not None]
+    if not du_mois:
+        return 0.0
+    try:
+        return max(0.0, round(float(du_mois[0][1]) - float(hist[-1][1]), 4))
+    except (TypeError, ValueError):
+        return 0.0

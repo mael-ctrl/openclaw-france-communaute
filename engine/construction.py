@@ -120,6 +120,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
     <div class="entete-actions">
       <a class="bouton-mini" href="/feed.xml" title="Flux RSS">RSS</a>
       <a class="bouton-mini" href="{config.DEPOT_GITHUB}" title="Code source sur GitHub" rel="noopener">GitHub</a>
+      <a class="bouton-mini" href="https://bsky.app/profile/{config.BLUESKY_HANDLE}" title="Suivre sur Bluesky" rel="noopener">Bluesky</a>
     </div>
   </div>
 </header>
@@ -138,6 +139,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
       <p class="pied-titre">Explorer</p>
       <a href="/actus/">Toutes les actus</a>
       <a href="/articles/">Articles de fond</a>
+      <a href="https://bsky.app/profile/{config.BLUESKY_HANDLE}" rel="noopener">Bluesky 🦋</a>
       <a href="/skills/">Skills à emporter</a>
       <a href="/manifeste/">Manifeste</a>
       <a href="/transparence/">Transparence &amp; journal</a>

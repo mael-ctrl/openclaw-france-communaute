@@ -1,5 +1,106 @@
 [
  {
+  "id": "c36a8b74933c5782",
+  "slug": "google-ai-veut-depasser-la-traduction-de-texte-pour-comprendre-les-lan-c36a8b",
+  "titre": "Google AI veut dépasser la traduction de texte pour comprendre les langues vivantes",
+  "resume": "Google AI annonce vouloir aller au-delà de la traduction de texte traditionnelle. L'entreprise dit travailler à des modèles capables de comprendre les langues vivantes du monde telles qu'elles sont exprimées, avec leur richesse propre. L'approche ne consiste donc plus à traiter la langue comme un simple texte à convertir, mais comme un usage vivant à saisir tel quel.",
+  "tags": [
+   "recherche",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Google AI",
+  "lien_source": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+  "date_source": null,
+  "date_redac": "2026-09-29T22:02:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 601,
+   "sortie": 721
+  }
+ },
+ {
+  "id": "221091baff445af5",
+  "slug": "google-ai-veut-accelerer-la-science-et-ameliorer-les-vies-221091",
+  "titre": "Google AI veut accélérer la science et améliorer les vies",
+  "resume": "Dans un billet de blog, Google AI explique vouloir construire une IA capable d'accélérer la science et d'améliorer les vies. La firme affirme que la vraie mesure d'un système d'IA réside dans les personnes qu'il aide. Elle dit se concentrer sur les domaines clés où la technologie avancée peut permettre des progrès majeurs.",
+  "tags": [
+   "recherche",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Google AI",
+  "lien_source": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+  "date_source": null,
+  "date_redac": "2026-09-29T22:02:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 615,
+   "sortie": 874
+  }
+ },
+ {
+  "id": "943cdc8a0d6dadfe",
+  "slug": "google-met-en-avant-des-usages-de-l-ia-au-service-de-la-societe-943cdc",
+  "titre": "Google met en avant des usages de l'IA au service de la société",
+  "resume": "Google AI publie une collection consacrée aux applications de l'IA à impact sociétal. Elle montre comment des experts et des acteurs locaux s'appuient sur les avancées du domaine pour que tout le monde puisse profiter des opportunités qu'il ouvre. Le recueil rassemble ainsi des exemples d'usages tournés vers l'utilité collective.",
+  "tags": [
+   "société",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "Google AI",
+  "lien_source": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+  "date_source": null,
+  "date_redac": "2026-09-29T22:02:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 598,
+   "sortie": 466
+  }
+ },
+ {
+  "id": "5951ed2c50dd5b8b",
+  "slug": "grokipedia-l-encyclopedie-ia-de-spacexai-reprend-ses-mises-a-jour-5951ed",
+  "titre": "Grokipedia, l'encyclopédie IA de SpaceXAI, reprend ses mises à jour",
+  "resume": "Grokipedia, l'encyclopédie en ligne dopée à l'IA de SpaceXAI, semble de nouveau mettre à jour ses articles après une pause de plusieurs mois. En août, Lawfare rapportait que les articles n'avaient plus connu de révision depuis avril. Le site de suivi des modifications de la plateforme affiche désormais plusieurs changements récents, même si beaucoup restent mineurs.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again",
+  "date_source": "2026-09-29T21:49:09+00:00",
+  "date_redac": "2026-09-29T22:01:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 673,
+   "sortie": 693
+  }
+ },
+ {
+  "id": "3626ca36d2ea3267",
+  "slug": "config-qfn-sur-une-a40-48-go-un-utilisateur-demande-des-retours-3626ca",
+  "titre": "Config QFN sur une A40 48 Go : un utilisateur demande des retours",
+  "resume": "Sur r/LocalLLaMA, un utilisateur cherche des configurations éprouvées pour faire tourner du QFN sur une A40, une carte Ampere dotée de 48 Go de VRAM. La machine qui l'héberge dispose de 128 Go de RAM DDR3 et fait tourner pour l'instant un modèle de 27B. Il espère passer au QFN pour gagner en vitesse et obtenir un modèle un peu plus fin.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wtn3t3/good_setup_for_qfn_on_48gb_ampere_gpu_a40/",
+  "date_source": "2026-09-29T21:43:45+00:00",
+  "date_redac": "2026-09-29T22:02:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 716,
+   "sortie": 771
+  }
+ },
+ {
   "id": "2438a686db8a3348",
   "slug": "quel-modele-local-pour-generer-des-assets-3d-avec-blender-2438a6",
   "titre": "Quel modèle local pour générer des assets 3D avec Blender",
@@ -123,6 +224,27 @@
    "modele": "deepseek-flash",
    "entree": 941,
    "sortie": 448
+  }
+ },
+ {
+  "id": "42ddd1a3a90e5b13",
+  "slug": "amd-rachete-world-labs-de-fei-fei-li-pour-8-2-milliards-de-dollars-42ddd1",
+  "titre": "AMD rachète World Labs de Fei-Fei Li pour 8,2 milliards de dollars",
+  "resume": "AMD annonce le rachat de World Labs, le laboratoire fondé par Fei-Fei Li, pour 8,2 milliards de dollars. Sa fondatrice rejoint le groupe américain au poste d'executive vice president et chief scientist. L'opération amène une figure reconnue de la recherche en IA chez un fabricant de processeurs.",
+  "tags": [
+   "business",
+   "recherche",
+   "matériel"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+  "date_source": "2026-09-28T20:39:33+00:00",
+  "date_redac": "2026-09-29T22:02:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 636,
+   "sortie": 1013
   }
  },
  {

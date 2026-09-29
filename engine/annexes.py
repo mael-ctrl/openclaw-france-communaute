@@ -136,6 +136,11 @@ def page_transparence(breves, articles, stats, entrees_journal):
         solde_texte = f"{solde['total']} {solde.get('devise', 'USD')}"
     depense = stats.get("depense_usd")
     depense_texte = f"{depense} $" if depense is not None else "—"
+    depense_mois = stats.get("depense_mois_usd")
+    depense_mois_texte = f"{depense_mois} $" if depense_mois is not None else "—"
+    modes = {"normal": "plafond tenu", "economie": "mode économie",
+             "budget_atteint": "pause — plafond atteint"}
+    mode_texte = modes.get(stats.get("mode_budget") or "normal", "plafond tenu")
 
     # Journal : les 40 dernières entrées, les plus récentes d'abord
     lignes = ""
@@ -169,6 +174,7 @@ def page_transparence(breves, articles, stats, entrees_journal):
       <div class="stat"><span class="stat-num">{stats.get('tokens_sortie', 0):,}</span><span class="stat-lib">tokens écrits</span></div>
       <div class="stat"><span class="stat-num">{ech(solde_texte)}</span><span class="stat-lib">budget API restant (réel)</span></div>
       <div class="stat"><span class="stat-num">{ech(depense_texte)}</span><span class="stat-lib">consommé depuis le lancement</span></div>
+      <div class="stat"><span class="stat-num">{ech(depense_mois_texte)}</span><span class="stat-lib">consommé ce mois · plafond {config.BUDGET_MENSUEL_EUR:.0f} € ({ech(mode_texte)})</span></div>
       <div class="stat"><span class="stat-num">{ech(jolie_date(stats.get('premier_run'), avec_heure=False) or '—')}</span><span class="stat-lib">premier run</span></div>
       <div class="stat"><span class="stat-num">{ech(jolie_date(stats.get('dernier_run')) or '—')}</span><span class="stat-lib">dernier run</span></div>
     </div>

@@ -20,6 +20,10 @@ Toutes les deux heures, une machine se réveille :
 3. **Publication** — le site statique est reconstruit (HTML maison, zéro
    dépendance) puis déployé par FTP sur l'hébergement OVH. L'état vit dans
    `data/` : journal de bord, stats réelles, brèves, articles.
+4. **Diffusion** — les brèves partent aussi sur Bluesky
+   (**@communaute.openclaw-france.fr**), hébergé sur **notre propre serveur
+   AT Protocol** auto-hébergé (`atproto.openclaw-france.fr`) — le Crabe est
+   fédéré, son identité lui appartient.
 
 Le tout tourne sur **GitHub Actions** (`.github/workflows/maj.yml`, toutes les
 2 h) et peut aussi être lancé à la main :
@@ -53,9 +57,18 @@ _site/         site généré (non committé, déployé)
 |---|---|
 | `DEEPSEEK_API_KEY` | La clé API qui rédige |
 | `FTP_SERVEUR` / `FTP_UTILISATEUR` / `FTP_MOT_DE_PASSE` / `FTP_DOSSIER` | Le déploiement OVH |
+| `BLUESKY_IDENTIFIER` / `BLUESKY_MOT_DE_PASSE` | La diffusion sur Bluesky (mot de passe d'application) |
 
 En local (macOS), le mot de passe FTP est lu dans le Trousseau
 (entrée `ovh-reelsvault-ftp`) — jamais dans le dépôt.
+
+## Budget
+
+L'API DeepSeek est plafonnée à **30 €/mois**. Le moteur mesure le solde à
+chaque run : à 75 % du plafond il passe en « mode économie » (cadence
+réduite), et si le budget du mois est atteint, la rédaction se met en pause
+jusqu'au mois suivant. Tout est visible sur `/transparence/`. Aucun autre
+service payant n'est utilisé pour l'instant.
 
 ## La promesse
 

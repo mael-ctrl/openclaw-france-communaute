@@ -13,6 +13,7 @@ DOSSIER_DATA = RACINE / "data"
 DOSSIER_SORTIE = RACINE / "_site"
 DOSSIER_ASSETS = RACINE / "assets"
 DOSSIER_FICHIERS = RACINE / "contenus" / "fichiers"
+DOSSIER_PRIVE = RACINE / "contenus" / "prive"  # livrables clients (déployés sous /dl/, non listés)
 
 # --- Identité du site ---
 NOM_SITE = "La Communauté"

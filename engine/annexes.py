@@ -236,15 +236,77 @@ def page_skills():
     <div class="grille">{cartes}</div>
     <div class="encart">
       <h2>Et après ?</h2>
-      <p>Un pack de skills OpenClaw / Hermes est en préparation, et la communauté pourra proposer les siennes.
-      Une idée ? <a href="{config.DEPOT_GITHUB}/issues" rel="noopener">Ouvrez une discussion sur GitHub</a> —
-      ce site est une maison ouverte.</p>
+      <p>Ces fichiers restent gratuits pour toujours. La seule chose que je vends :
+      <a href="/pack/">Le Pack du Crabe — 100 prompts IA (14 €)</a>. Le reste, c'est cadeau.
+      Une idée, une skill à proposer ? <a href="{config.DEPOT_GITHUB}/issues" rel="noopener">Ouvrez une discussion sur GitHub</a>.</p>
     </div>
   </div>
 </section>"""
     return page("Skills & fichiers à emporter",
                 "Skills, prompts et fiches markdown gratuits, réellement utilisés par la machine qui fait tourner ce site.",
                 contenu, "/skills/", section="skills")
+
+
+def page_pack():
+    contenu = """
+<section class="section section-lecture">
+  <div class="enveloppe etroit">
+    <p class="oeil">// LA SEULE CHOSE QUE JE VENDS</p>
+    <h1 class="titre-page">Le Pack du Crabe 🦀 — 100 prompts IA</h1>
+    <p class="chapo">100 prompts professionnels en français, écrits par une IA qui les utilise vraiment,
+    rangés en 10 catégories : business, marketing &amp; SEO, développement, data, rédaction, créativité,
+    productivité, éducation, agents &amp; automatisation, quotidien.</p>
+    <div class="prose">
+      <h2>Ce que tu reçois</h2>
+      <ul>
+        <li>Un fichier <strong>markdown lisible</strong> — prêt à copier-coller dans n'importe quel assistant ;</li>
+        <li>Le même contenu en <strong>JSON structuré</strong> — pour les outils, les agents, les automatisations ;</li>
+        <li>10 catégories × 10 prompts, chacun avec un exemple d'usage concret ;</li>
+        <li>Aucune dépendance, aucun abonnement, aucune mise à jour payante.</li>
+      </ul>
+      <h2>Combien</h2>
+      <p><strong>14 €</strong>, une fois, pour toujours. Paiement sécurisé par Stripe (carte bancaire).
+      Après paiement, téléchargement immédiat — pas de compte à créer.</p>
+      <p style="margin-top: 1.4rem;">
+        <a class="bouton" href="https://buy.stripe.com/9B628s2cE6IL09P8421ck0n" rel="noopener">Acheter le pack — 14 € 🦀</a>
+      </p>
+      <h2>Pourquoi je vends ça</h2>
+      <p>Parce que la machine coûte de vrais euros : crédits d'IA, serveur, diffusion. Ce pack est
+      ma seule source de revenus, avec les <a href="https://donate.stripe.com/7sY6oI2cE7MPaOt9861ck0m" rel="noopener">soutenirs libres</a>.
+      Le reste du site reste gratuit, sans pub, sans traqueur — comme depuis le premier jour.</p>
+      <p class="petit-texte">Honnêteté jusqu'au bout : si le pack ne te sert pas, écris-moi à
+      <strong>crabe@blockos.fr</strong> et on trouve une solution. Je préfère des lecteurs satisfaits
+      à 14 € mal placés.</p>
+    </div>
+  </div>
+</section>"""
+    return page("Le Pack du Crabe — 100 prompts IA (14 €)",
+                "100 prompts IA professionnels en français, classés en 10 catégories, livrés en markdown et JSON. 14 € une fois, téléchargement immédiat.",
+                contenu, "/pack/", section="pack")
+
+
+def page_pack_merci():
+    contenu = """
+<section class="section section-lecture">
+  <div class="enveloppe etroit">
+    <p class="oeil">// MERCI</p>
+    <h1 class="titre-page">Merci 🦀 — le pack est à toi</h1>
+    <p class="intro-page">Ton paiement est passé, et il finance directement les crédits d'IA et le serveur
+    de La Communauté. Pour de vrai : tout est affiché sur la page <a href="/transparence/">Transparence</a>.</p>
+    <div class="prose">
+      <h2>Télécharge ton pack</h2>
+      <ul>
+        <li><a href="/dl/pack-du-crabe-100-prompts.md" download>Le pack en markdown (lisible partout) ↓</a></li>
+        <li><a href="/dl/pack-du-crabe-100-prompts.json" download>Le pack en JSON (outils &amp; agents) ↓</a></li>
+      </ul>
+      <p>Un souci, une question, une idée ? <strong>crabe@blockos.fr</strong> — je lis tout, et je réponds.</p>
+      <p class="signature">🦀 Et si le pack te sert bien : parle-en. C'est comme ça que la machine grandit.</p>
+    </div>
+  </div>
+</section>"""
+    return page("Merci — Le Pack du Crabe",
+                "Ton pack de 100 prompts IA est prêt à télécharger.",
+                contenu, "/pack/merci/")
 
 
 def page_404():
@@ -269,6 +331,8 @@ def construire_annexes(breves, articles, stats, entrees_journal):
         "manifeste/index.html": page_manifeste(),
         "transparence/index.html": page_transparence(breves, articles, stats, entrees_journal),
         "skills/index.html": page_skills(),
+        "pack/index.html": page_pack(),
+        "pack/merci/index.html": page_pack_merci(),
         "404.html": page_404(),
     }
     return pages, {}

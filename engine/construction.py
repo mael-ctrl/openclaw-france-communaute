@@ -137,6 +137,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
     nav = ""
     for cle, libelle, cible in [("accueil", "Accueil", "/"), ("actus", "Actus", "/actus/"),
                                 ("articles", "Articles", "/articles/"), ("skills", "Skills", "/skills/"),
+                                ("pack", "Pack 🦀", "/pack/"),
                                 ("manifeste", "Manifeste", "/manifeste/"),
                                 ("transparence", "Transparence", "/transparence/")]:
         actif = ' class="actif"' if section == cle else ""
@@ -560,7 +561,7 @@ def construire():
         dates[f"/articles/{a['slug']}/"] = a.get("date")
     chemins_sitemap = [c for c in ecrits + ["/feed.xml"] if c not in ("/404.html", "/version.txt")]
     ecrire("sitemap.xml", sitemap_xml(chemins_sitemap, dates))
-    ecrire("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {config.URL_SITE}/sitemap.xml\n")
+    ecrire("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /dl/\nSitemap: {config.URL_SITE}/sitemap.xml\n")
     ecrire("llms.txt", llms_txt())
     ecrire("version.txt", f"construit le {datetime.now(timezone.utc).isoformat(timespec='seconds')}\n"
                           f"{len(breves)} brèves · {len(articles)} articles\n")
@@ -574,6 +575,18 @@ def construire():
         if cible.exists():
             shutil.rmtree(cible)
         shutil.copytree(config.DOSSIER_FICHIERS, cible)
+    if config.DOSSIER_PRIVE.exists():
+        for source in config.DOSSIER_PRIVE.iterdir():
+            cible = sortie / source.name
+            if cible.exists():
+                if cible.is_dir():
+                    shutil.rmtree(cible)
+                else:
+                    cible.unlink()
+            if source.is_dir():
+                shutil.copytree(source, cible)
+            else:
+                shutil.copy2(source, cible)
 
     print(f"   🏗️  {len(ecrits)} page(s) + assets générés dans _site/")
     return len(ecrits)

@@ -1,0 +1,23 @@
+[
+ {"nom": "OpenAI", "url": "https://openai.com/blog/rss.xml", "langue": "en", "priorite": 5},
+ {"nom": "Google AI", "url": "https://blog.google/technology/ai/rss/", "langue": "en", "priorite": 5},
+ {"nom": "Hugging Face", "url": "https://huggingface.co/blog/feed.xml", "langue": "en", "priorite": 4},
+ {"nom": "ActuIA", "url": "https://www.actuia.com/feed/", "langue": "fr", "priorite": 5},
+ {"nom": "Numerama", "url": "https://www.numerama.com/feed/", "langue": "fr", "priorite": 4, "filtre_ia": true},
+ {"nom": "TechCrunch IA", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "langue": "en", "priorite": 4},
+ {"nom": "The Verge IA", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "langue": "en", "priorite": 4},
+ {"nom": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "langue": "en", "priorite": 4},
+ {"nom": "Hacker News — agents", "url": "https://hnrss.org/newest?q=AI+agent&points=80", "langue": "en", "priorite": 4},
+ {"nom": "Hacker News — OpenClaw", "url": "https://hnrss.org/newest?q=openclaw&points=20", "langue": "en", "priorite": 5},
+ {"nom": "Hermes Agent (releases)", "url": "https://github.com/NousResearch/hermes-agent/releases.atom", "langue": "en", "priorite": 5},
+ {"nom": "Claude Code (releases)", "url": "https://github.com/anthropics/claude-code/releases.atom", "langue": "en", "priorite": 5},
+ {"nom": "r/LocalLLaMA", "url": "https://www.reddit.com/r/LocalLLaMA/.rss", "langue": "en", "priorite": 3},
+ {"nom": "Latent Space", "url": "https://www.latent.space/feed", "langue": "en", "priorite": 3},
+ {"nom": "Journal du Geek", "url": "https://www.journaldugeek.com/feed/", "langue": "fr", "priorite": 3, "filtre_ia": true},
+ {"nom": "Siècle Digital", "url": "https://www.siecledigital.fr/feed/", "langue": "fr", "priorite": 4, "filtre_ia": true},
+ {"nom": "01net", "url": "https://www.01net.com/feed/", "langue": "fr", "priorite": 3, "filtre_ia": true},
+ {"nom": "Frandroid", "url": "https://www.frandroid.com/feed", "langue": "fr", "priorite": 3, "filtre_ia": true},
+ {"nom": "Maddyness", "url": "https://www.maddyness.com/feed/", "langue": "fr", "priorite": 3, "filtre_ia": true},
+ {"nom": "L'Usine Digitale", "url": "https://www.usine-digitale.fr/rss/", "langue": "fr", "priorite": 4, "filtre_ia": true},
+ {"nom": "Reddit — Claude", "url": "https://www.reddit.com/r/ClaudeAI/.rss", "langue": "en", "priorite": 3}
+]

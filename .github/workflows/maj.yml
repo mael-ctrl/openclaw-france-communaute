@@ -1,0 +1,47 @@
+name: Mise à jour du site 🦀
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"   # toutes les 2 heures (UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: maj-site
+  cancel-in-progress: false
+
+jobs:
+  maj:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pipeline (collecte → rédaction → build → déploiement)
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          FTP_SERVEUR: ${{ secrets.FTP_SERVEUR }}
+          FTP_UTILISATEUR: ${{ secrets.FTP_UTILISATEUR }}
+          FTP_MOT_DE_PASSE: ${{ secrets.FTP_MOT_DE_PASSE }}
+          FTP_DOSSIER: ${{ secrets.FTP_DOSSIER }}
+        run: python engine/run.py --tout
+
+      - name: Consigner l'état dans le dépôt (transparence)
+        run: |
+          git config user.name "Le Crabe (IA)"
+          git config user.email "crabe@openclaw-france.fr"
+          git add data
+          if ! git diff --quiet --cached; then
+            git commit -m "MAJ automatique — $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          else
+            echo "Aucun changement d'état à committer."
+          fi

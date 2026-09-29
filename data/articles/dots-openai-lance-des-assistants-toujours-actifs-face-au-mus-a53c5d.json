@@ -1,0 +1,29 @@
+{
+ "slug": "dots-openai-lance-des-assistants-toujours-actifs-face-au-mus-a53c5d",
+ "titre": "Dots : OpenAI lance des assistants toujours actifs face au Muse de Meta",
+ "chapo": "Lors de son keynote DevDay, OpenAI a dévoilé Dots, des assistants capables d'agir en arrière-plan dans les applications connectées. La présentation est cadrée comme une réponse au Muse de Meta, pendant qu'ailleurs, des utilisateurs comparent leurs modèles locaux à la main.",
+ "html": "<h2 id=\"un-assistant-qui-travaille-en-arriere-pl\">Un assistant qui travaille en arrière-plan</h2>\n<p>Lors de son keynote DevDay, OpenAI a présenté <strong>Dots</strong>. Ce sont des assistants IA décrits comme toujours actifs. Selon l'entreprise, ils peuvent « faire presque n'importe quoi » dans les applications connectées, en arrière-plan, tout en apprenant les préférences de l'utilisateur au fil du temps.</p>\n<p>Deux idées portent cette promesse. D'abord l'action en arrière-plan : l'assistant ne se contente pas de répondre quand on l'interpelle, il agit dans les applications connectées. Ensuite la mémoire des préférences, qui se construit à l'usage plutôt que dans une fenêtre de conversation.</p>\n<p>Dots s'appuie sur <strong>GPT-6 Astra</strong>, que la dépêche présente comme le modèle le plus capable d'OpenAI. C'est la seule indication technique disponible : rien sur l'architecture, la latence, les plateformes concernées ou la disponibilité.</p>\n<h2 id=\"le-muse-de-meta-comme-point-de-comparais\">Le Muse de Meta comme point de comparaison</h2>\n<p>La dépêche situe Dots comme la réponse d'OpenAI au <strong>Muse de Meta</strong>. Le cadrage est explicitement concurrentiel : l'annonce est lue par rapport à celle de Meta, pas dans l'absolu.</p>\n<p>Sur le contenu du Muse, la source reste muette. Rien sur ses capacités, sa disponibilité, ni sur le modèle qui le fait tourner. Le rapprochement tient donc au positionnement affiché, pas à une comparaison technique documentée.</p>\n<p>Ce que dit la dépêche reste limité mais net : OpenAI veut des assistants qui traînent en tâche de fond dans les applications, et le dit au moment où Meta occupe le même terrain.</p>\n<h2 id=\"pendant-ce-temps-sur-un-strix-halo\">Pendant ce temps, sur un Strix Halo</h2>\n<p>Sur r/LocalLLaMA, un utilisateur équipé d'un <strong>Strix Halo</strong> raconte l'exact inverse d'une annonce de keynote : il fait tourner ses modèles chez lui et compare. Son constat est que <strong>GLM 4.7 Flash</strong> tourne nettement mieux que <strong>Qwen 3.6 35 A3B</strong>.</p>\n<p>Il juge GLM 4.7 Flash désormais ancien, mais ses tests le donnent toujours devant sur deux points précis : l'<strong>appel d'outils</strong> et les <strong>connaissances générales</strong>. Il cherche donc un successeur de taille comparable — la contrainte de matériel pèse autant que celle du classement.</p>\n<p>Une réserve accompagne le tout : il n'exclut pas que sa configuration Qwen soit en cause. Autrement dit, l'écart mesuré ne tient peut-être pas uniquement au modèle, et il le reconnaît avant de trancher.</p>\n<h2 id=\"deux-echelles-une-meme-attente-d-action\">Deux échelles, une même attente d'action</h2>\n<p>Les deux dépêches ne parlent pas de la même chose : un assistant cloud grand public d'un côté, un modèle local choisi pour une machine précise de l'autre. Elles se rejoignent pourtant sur un point : ce qu'on demande à un modèle passe de plus en plus par l'action. Appel d'outils côté local, applications connectées côté Dots.</p>\n<p>La différence d'échelle est nette. Dots s'appuie sur le modèle le plus capable d'OpenAI et promet d'agir dans des applications qu'on ne maîtrise pas. Le fil LocalLLaMA parle de taille de modèle, de matériel et d'usage personnel. Même vocabulaire, contraintes sans rapport.</p>\n<p>Dans les deux cas, l'information disponible est partielle : la promesse de « faire presque n'importe quoi » n'est étayée par aucun détail, et l'utilisateur de Strix Halo ne sait pas encore si son classement tient au modèle ou à sa configuration.</p>\n<h2>Et maintenant ?</h2>\n<p>À DevDay, OpenAI a mis en avant ce qu'un assistant peut faire sans qu'on lui parle ; sur r/LocalLLaMA, un utilisateur juge un modèle sur l'appel d'outils et les connaissances générales. Dans les deux cas, l'évaluation porte moins sur la conversation que sur l'action. Restent deux questions non tranchées : ce que « faire presque n'importe quoi » recouvre réellement, et si Qwen 3.6 35 A3B déçoit sur Strix Halo à cause du modèle ou de la configuration.</p>",
+ "pivot": "a53c5d4c9388edbc",
+ "tags": [
+  "openai",
+  "meta",
+  "agents",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wtgb0y/recommended_replacements_for_glm_47_flash/"
+  }
+ ],
+ "date": "2026-09-29T21:22:14+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1021,
+  "sortie": 3922
+ }
+}

@@ -1,0 +1,128 @@
+[
+ {
+  "id": "2438a686db8a3348",
+  "slug": "quel-modele-local-pour-generer-des-assets-3d-avec-blender-2438a6",
+  "titre": "Quel modèle local pour générer des assets 3D avec Blender",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande quel modèle local utiliser avec Blender pour générer des assets de jeu vidéo, voire des modèles destinés à l'impression 3D. Sa contrainte principale : que le modèle tienne dans 64 Go de RAM. La vitesse n'est pas un critère, il cherche surtout une solution qui fonctionne bien, et en appelle aux suggestions de la communauté.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wtlxa9/best_model_for_blender/",
+  "date_source": "2026-09-29T20:57:14+00:00",
+  "date_redac": "2026-09-29T21:19:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 657,
+   "sortie": 646
+  }
+ },
+ {
+  "id": "d553c2734be94d38",
+  "slug": "remplacer-glm-4-7-flash-la-quete-d-un-utilisateur-de-strix-halo-d553c2",
+  "titre": "Remplacer GLM 4.7 Flash : la quête d'un utilisateur de Strix Halo",
+  "resume": "Sur r/LocalLLaMA, un utilisateur équipé d'un Strix Halo constate que GLM 4.7 Flash tourne nettement mieux que Qwen 3.6 35 A3B. Le modèle, qu'il juge désormais ancien, reste selon ses tests meilleur sur l'appel d'outils et les connaissances générales. Il cherche un successeur de taille comparable, sans exclure que sa configuration Qwen soit en cause.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wtgb0y/recommended_replacements_for_glm_47_flash/",
+  "date_source": "2026-09-29T17:25:05+00:00",
+  "date_redac": "2026-09-29T21:21:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 737,
+   "sortie": 705
+  }
+ },
+ {
+  "id": "b7815253fcab6fc0",
+  "slug": "les-moteurs-d-inference-a-usage-unique-bientot-la-norme-selon-r-locall-b78152",
+  "titre": "Les moteurs d'inférence à usage unique bientôt la norme, selon r/LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, ninfer, dwarfstar, Splash, llamAmpere ou gufo se multiplient : des forks de llama.cpp ou des moteurs écrits de zéro. Leur recette : viser un seul couple modèle/matériel plutôt que la généralité, et optimiser les kernels pour ce cas précis. Ces bases de code très « overfit » battent llama.cpp et vLLM, mais seront oubliées en six mois ; leur auteur parie que ces moteurs jetables deviendront la norme.",
+  "tags": [
+   "dev",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wtg7zu/inference_engines_will_become_a_series_of_oneoffs/",
+  "date_source": "2026-09-29T17:21:57+00:00",
+  "date_redac": "2026-09-29T21:21:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 856,
+   "sortie": 1444
+  }
+ },
+ {
+  "id": "43f5e9be54e29a5f",
+  "slug": "l-application-deepseek-harness-est-annoncee-comme-disponible-43f5e9",
+  "titre": "L'application Deepseek Harness est annoncée comme disponible",
+  "resume": "Un post publié le 29 septembre 2026 sur r/LocalLLaMA annonce la sortie de l'application Deepseek Harness. Dans l'extrait disponible, un utilisateur indique simplement qu'il la télécharge. Le fil ne précise ni les fonctions ni les plateformes concernées.",
+  "tags": [
+   "deepseek",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wtg1hs/deepseek_harness_app_is_out_now/",
+  "date_source": "2026-09-29T17:15:12+00:00",
+  "date_redac": "2026-09-29T21:21:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 650,
+   "sortie": 625
+  }
+ },
+ {
+  "id": "a53c5d4c9388edbc",
+  "slug": "openai-lance-dots-des-assistants-toujours-actifs-face-au-muse-de-meta-a53c5d",
+  "titre": "OpenAI lance Dots, des assistants toujours actifs face au Muse de Meta",
+  "resume": "Lors de son keynote DevDay, OpenAI a présenté Dots, sa réponse au Muse de Meta. Ces assistants IA toujours actifs peuvent, selon l'entreprise, « faire presque n'importe quoi » dans les applications connectées, en arrière-plan, tout en apprenant les préférences de l'utilisateur au fil du temps. Ils s'appuient sur GPT-6 Astra, le modèle le plus capable d'OpenAI.",
+  "tags": [
+   "openai",
+   "agents",
+   "meta"
+  ],
+  "importance": 4,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
+  "date_source": "2026-09-29T17:15:00+00:00",
+  "date_redac": "2026-09-29T21:21:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 526
+  }
+ },
+ {
+  "id": "b3f6a48c3cbbb800",
+  "slug": "vllm-ajoute-le-dechargement-ram-deepseek-v4-flash-tourne-sur-quatre-r9-b3f6a4",
+  "titre": "vLLM ajoute le déchargement RAM, DeepSeek-V4-Flash tourne sur quatre R9700",
+  "resume": "Grâce à tcclaviger, vLLM dispose désormais d'un support expert du déchargement vers la RAM. Ce mécanisme rend les modèles de pointe nettement plus accessibles sur une installation locale. Un utilisateur indique avoir fait tourner le modèle DeepSeek-V4-Flash-Vision-Exp sur quatre cartes R9700.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel",
+   "deepseek"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wtg12r/ram_offloading_with_vllm_tcclaviger_appreciation/",
+  "date_source": "2026-09-29T17:14:45+00:00",
+  "date_redac": "2026-09-29T21:21:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 941,
+   "sortie": 448
+  }
+ }
+]

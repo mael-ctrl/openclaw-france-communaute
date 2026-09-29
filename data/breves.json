@@ -124,5 +124,132 @@
    "entree": 941,
    "sortie": 448
   }
+ },
+ {
+  "id": "f5038c51974c0e11",
+  "slug": "claude-code-v2-1-284-sonnet-5-5-devient-le-sonnet-par-defaut-f5038c",
+  "titre": "Claude Code v2.1.284 : Sonnet 5.5 devient le Sonnet par défaut",
+  "resume": "Claude Code passe en v2.1.284 et adopte Claude Sonnet 5.5, désormais le modèle Sonnet par défaut de l'API Anthropic : 1 M de contexte, 2 $ en entrée et 10 $ en sortie par million de tokens, dont 0,20 $ pour la lecture du cache. Le mode auto gagne la réponse « Oui, mais redemander la prochaine fois » avant une lecture hors des dossiers de travail. Les dépenses de la passerelle s'affichent en dollars dans /usage et la barre d'état.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 4,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
+  "date_source": "2026-09-28T18:02:03+00:00",
+  "date_redac": "2026-09-29T21:24:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 812,
+   "sortie": 1184
+  }
+ },
+ {
+  "id": "29b12fd8a8cd2004",
+  "slug": "mistral-ouvre-une-antenne-a-munich-pour-accelerer-son-passage-a-l-eche-29b12f",
+  "titre": "Mistral ouvre une antenne à Munich pour accélérer son passage à l'échelle industrielle",
+  "resume": "D'après Maddyness, Mistral ouvre une antenne à Munich. L'objectif affiché : accélérer son passage à l'échelle industrielle. Le média français a publié l'information le 28 septembre 2026. Aucun détail supplémentaire sur les effectifs, les locaux ou le calendrier n'apparaît dans la dépêche.",
+  "tags": [
+   "mistral",
+   "business",
+   "france"
+  ],
+  "importance": 3,
+  "source": "Maddyness",
+  "lien_source": "https://www.maddyness.com/2026/09/28/ia-mistral-ouvre-une-antenne-a-munich-pour-accelerer-son-passage-a-lechelle-industrielle/",
+  "date_source": "2026-09-28T17:34:59+00:00",
+  "date_redac": "2026-09-29T21:24:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 707,
+   "sortie": 804
+  }
+ },
+ {
+  "id": "6ee182d6095bab4e",
+  "slug": "black-forest-labs-devoile-flux-3-action-un-world-model-pour-la-robotiq-6ee182",
+  "titre": "Black Forest Labs dévoile Flux 3 Action, un world model pour la robotique",
+  "resume": "La start-up allemande Black Forest Labs a présenté le 23 septembre Flux 3 Action, un « world action model » à poids ouverts de 7 milliards de paramètres. Basée à Fribourg-en-Brisgau, elle revendique des performances supérieures à Cosmos 3 Nano de Nvidia. Les jeunes pousses européennes spécialisées dans les modèles pour la robotique de nouvelle génération restent rares.",
+  "tags": [
+   "robots",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/robotique/robotique-avec-son-world-model-flux-3-action-lallemand-black-forest-labs-revendique-des-performances-superieures-a-cosmos-3-nano-de-nvidia.JOGBWN7AFFBMDKEEOA4ZCQZL54.html",
+  "date_source": "2026-09-28T16:01:54+00:00",
+  "date_redac": "2026-09-29T21:24:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 773,
+   "sortie": 513
+  }
+ },
+ {
+  "id": "d728c95c96dbe0d9",
+  "slug": "nvidia-veut-une-puce-de-surveillance-a-cote-de-chaque-agent-ia-d728c9",
+  "titre": "Nvidia veut une puce de surveillance à côté de chaque agent IA",
+  "resume": "Nvidia souhaite placer une puce de surveillance à côté de chaque agent IA, rapporte CNBC dans un article relayé sur Hacker News. Le titre ne donne aucune précision sur le nom du composant, son fonctionnement ou son calendrier. Sur Hacker News, la dépêche a réuni 220 points et 288 commentaires, ce qui indique que le sujet mobilise : surveiller ce que font les agents autonomes devient un enjeu à part entière.",
+  "tags": [
+   "agents",
+   "matériel",
+   "sécurité"
+  ],
+  "importance": 4,
+  "source": "Hacker News — agents",
+  "lien_source": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+  "date_source": "2026-09-28T15:46:36+00:00",
+  "date_redac": "2026-09-29T21:24:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 641,
+   "sortie": 548
+  }
+ },
+ {
+  "id": "9ef89fe615d2aded",
+  "slug": "nvidia-veut-surveiller-les-agents-ia-depuis-les-puces-avec-sa-platefor-9ef89f",
+  "titre": "Nvidia veut surveiller les agents IA depuis les puces avec sa plateforme Open Agent Safety",
+  "resume": "Les agents IA ne posent plus seulement un problème de fiabilité de leurs réponses. À mesure qu'ils obtiennent des accès à des fichiers, des bases de données, des API ou des outils capables d'exécuter du code, la question de ce qui se passe lorsqu'un agent sort du cadre fixé devient centrale. Nvidia répond de façon matérielle avec sa nouvelle Open Agent Safety Platform, annoncée le 28 septembre : les contrôles ne sont plus demandés à l'agent, mais placés en dehors de lui pour l'empêcher de les contourner.",
+  "tags": [
+   "agents",
+   "sécurité",
+   "matériel",
+   "openai"
+  ],
+  "importance": 4,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/electronique/nvidia/face-a-lirresponsabilite-danthropic-et-openai-nvidia-veut-mettre-les-agents-ia-sous-surveillance-jusque-dans-les-puces.IKXNFXQLVNCUPLSA56O6LRBVYQ.html",
+  "date_source": "2026-09-28T14:37:35+00:00",
+  "date_redac": "2026-09-29T21:24:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 814,
+   "sortie": 404
+  }
+ },
+ {
+  "id": "ba71a82dc70b41ad",
+  "slug": "l-ue-depasse-700-000-robots-industriels-la-france-troisieme-en-install-ba71a8",
+  "titre": "L'UE dépasse 700 000 robots industriels, la France troisième en installations",
+  "resume": "712 000 robots industriels étaient en service dans les 27 États membres de l'UE en 2025, selon l'étude annuelle World Robotics de l'International Federation of Robotics publiée le 24 septembre. La France se classe troisième en matière d'installations annuelles. L'IFR définit le robot industriel comme un manipulateur multifonctionnel reprogrammable, contrôlé automatiquement sur trois axes ou plus.",
+  "tags": [
+   "robots",
+   "france",
+   "business"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/robotique/lue-compte-desormais-plus-de-700-000-robots-industriels-en-service-la-france-troisieme-en-matiere-dinstallations-annuelles.QJZJXAJWSVDPPEVQRXEUWCIH6E.html",
+  "date_source": "2026-09-28T11:31:00+00:00",
+  "date_redac": "2026-09-29T21:25:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 837,
+   "sortie": 1058
+  }
  }
 ]

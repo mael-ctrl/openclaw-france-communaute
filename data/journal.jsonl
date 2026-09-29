@@ -3,3 +3,7 @@
 {"ts": "2026-09-29T21:22:15+00:00", "evenement": "construction", "details": {"fichiers": 18}}
 {"ts": "2026-09-29T21:22:16+00:00", "evenement": "erreur", "details": {"message": "déploiement : 553 Can't open that file: No such file or directory"}}
 {"ts": "2026-09-29T21:22:16+00:00", "evenement": "bilan", "details": {"duree_s": 74.6, "neufs": 40, "breves": 5, "articles": 1, "fichiers": 18}}
+{"ts": "2026-09-29T21:24:31+00:00", "evenement": "collecte", "details": {"neufs": 40}}
+{"ts": "2026-09-29T21:25:06+00:00", "evenement": "construction", "details": {"fichiers": 24}}
+{"ts": "2026-09-29T21:25:33+00:00", "evenement": "deploiement", "details": {"fichiers": 30, "octets": 206907}}
+{"ts": "2026-09-29T21:25:33+00:00", "evenement": "bilan", "details": {"duree_s": 71.9, "neufs": 40, "breves": 6, "articles": 0, "fichiers": 24, "envois": 30}}

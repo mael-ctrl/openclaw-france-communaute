@@ -1,14 +1,14 @@
 {
- "runs": 1,
- "items_collectes": 40,
- "breves_publiees": 5,
+ "runs": 2,
+ "items_collectes": 80,
+ "breves_publiees": 11,
  "articles_publies": 1,
- "tokens_entree": 4875,
- "tokens_sortie": 7670,
+ "tokens_entree": 9459,
+ "tokens_sortie": 12181,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-09-29T21:22:15+00:00",
+ "dernier_run": "2026-09-29T21:25:06+00:00",
  "solde": {
-  "total": "91.66",
+  "total": "91.64",
   "devise": "USD",
   "disponible": true
  },
@@ -21,5 +21,7 @@
    "ts": "2026-09-29T21:22:16+00:00",
    "message": "déploiement : 553 Can't open that file: No such file or directory"
   }
- ]
+ ],
+ "solde_initial": "91.66",
+ "depense_usd": 0.02
 }

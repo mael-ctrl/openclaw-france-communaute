@@ -19,6 +19,7 @@ import config            # noqa: E402
 import construction      # noqa: E402
 import deepseek          # noqa: E402
 import deploiement       # noqa: E402
+import indexnow          # noqa: E402
 import journal           # noqa: E402
 import redaction         # noqa: E402
 import social            # noqa: E402
@@ -124,6 +125,11 @@ def main():
         journal.erreur(f"construction : {e}")
         raise
 
+    try:
+        indexnow.ecrire_cle()
+    except Exception as e:
+        journal.erreur(f"indexnow (clé) : {e}")
+
     # 6) Déploiement
     if not args.essai and not args.sans_deploiement:
         try:
@@ -134,7 +140,16 @@ def main():
             journal.erreur(f"déploiement : {e}")
             print(f"   ⚠️  déploiement impossible : {e}")
 
-    # 7) Diffusion sociale — le Crabe parle au monde (Bluesky)
+    # 7) Signal d'indexation (IndexNow : Bing/Yandex, sans compte)
+    if not args.essai and not args.sans_deploiement:
+        try:
+            code = indexnow.signaler()
+            journal.ajouter("indexation", indexnow=code)
+            print(f"   🧭 IndexNow : {code}")
+        except Exception as e:
+            journal.erreur(f"indexation : {e}")
+
+    # 8) Diffusion sociale — le Crabe parle au monde (Bluesky)
     if not args.essai and social.disponible():
         try:
             resume["publications"] = social.diffuser()

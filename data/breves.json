@@ -1,5 +1,130 @@
 [
  {
+  "id": "27de864be41fa683",
+  "slug": "openai-lance-gpt-6-1-sol-cinq-fois-moins-cher-que-gpt-6-astra-27de86",
+  "titre": "OpenAI lance GPT-6.1 Sol, cinq fois moins cher que GPT-6 Astra",
+  "resume": "OpenAI lance GPT-6.1 Sol, un nouveau modèle d'IA destiné à propulser ses agents Dots. Il est presque aussi performant que GPT-6 Astra dans les domaines les plus importants, mais coûte cinq fois moins cher. Un positionnement qui mise sur le coût plutôt que sur la seule performance brute.",
+  "tags": [
+   "openai",
+   "agents",
+   "business"
+  ],
+  "importance": 4,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/09/29/openai-lance-une-nouvelle-ia-presque-aussi-puissante-que-gpt-6-astra-mais-5-fois-moins-chere/",
+  "date_source": null,
+  "date_redac": "2026-09-29T22:42:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 678,
+   "sortie": 658
+  }
+ },
+ {
+  "id": "52164e48da4c1a6c",
+  "slug": "un-standard-aef-1-pour-les-evaluateurs-tiers-cosigne-par-xai-openai-et-52164e",
+  "titre": "Un standard AEF-1 pour les évaluateurs tiers, cosigné par xAI, OpenAI et Anthropic",
+  "resume": "Un nouveau standard, l'AEF-1, se met en place pour les évaluateurs tiers. xAI, OpenAI et Anthropic l'ont toutes les trois cosigné. Le rythme s'accélère sur ce front : l'évaluation externe de l'IA se structure.",
+  "tags": [
+   "openai",
+   "claude",
+   "recherche",
+   "sécurité"
+  ],
+  "importance": 4,
+  "source": "Latent Space",
+  "lien_source": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
+  "date_source": null,
+  "date_redac": "2026-09-29T22:42:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 604,
+   "sortie": 1433
+  }
+ },
+ {
+  "id": "36f3f8bcf06d206d",
+  "slug": "design-d-entrainement-la-cle-du-transfert-d-un-jeu-vers-la-recherche-f-36f3f8",
+  "titre": "Design d'entraînement : la clé du transfert d'un jeu vers la recherche financière",
+  "resume": "Good Start Labs a entraîné une IA sur un jeu de chemin de fer. Une version du modèle a ensuite progressé en recherche financière. D'après le laboratoire, l'écart entre les versions ne vient pas du jeu lui-même mais du design de l'entraînement.",
+  "tags": [
+   "recherche",
+   "skills"
+  ],
+  "importance": 2,
+  "source": "Latent Space",
+  "lien_source": "https://www.latent.space/p/good-start-labs",
+  "date_source": null,
+  "date_redac": "2026-09-29T22:42:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 600,
+   "sortie": 1152
+  }
+ },
+ {
+  "id": "9c56af780d587806",
+  "slug": "xai-s-offre-le-domaine-dot-com-avant-le-lancement-de-dots-par-openai-9c56af",
+  "titre": "xAI s'offre le domaine dot.com avant le lancement de Dots par OpenAI",
+  "resume": "Avant le lancement de Dots mardi, le nouvel agent IA d'OpenAI, xAI — la société d'Elon Musk — avait déjà acquis le nom de domaine « dot.com ». Celui-ci redirige désormais vers la page de téléchargement du chatbot Grok. Sur internet, beaucoup y voient une pique adressée à OpenAI.",
+  "tags": [
+   "openai",
+   "agents",
+   "business"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+  "date_source": null,
+  "date_redac": "2026-09-29T22:42:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 648,
+   "sortie": 445
+  }
+ },
+ {
+  "id": "9080b4c66f43b2a5",
+  "slug": "trump-impose-super-intelligence-a-la-place-d-intelligence-artificielle-9080b4",
+  "titre": "Trump impose « Super Intelligence » à la place d'« intelligence artificielle »",
+  "resume": "Donald Trump a signé un décret présidentiel qui bannit l'expression « intelligence artificielle » du vocabulaire officiel de l'administration américaine. Les sites de politique publique, les documents et les communiqués ne parleront plus que de « Super Intelligence ». Le président justifie ce choix par la simplicité du mot : « super est le meilleur mot de tous », a-t-il déclaré.",
+  "tags": [
+   "société",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
+  "date_source": "2026-09-29T22:25:45+00:00",
+  "date_redac": "2026-09-29T22:42:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 668,
+   "sortie": 735
+  }
+ },
+ {
+  "id": "9b97a6c9dd66be95",
+  "slug": "glm-5-3-et-claude-mythos-franchissent-un-seuil-en-exploitation-binaire-9b97a6",
+  "titre": "GLM-5.3 et Claude Mythos franchissent un seuil en exploitation binaire",
+  "resume": "L'équipe Frontier Red Team d'Anthropic a évalué plusieurs modèles sur 100 tâches tirées au hasard de son benchmark interne d'exploitation binaire. GLM-5.3 obtient un détournement complet du flux de contrôle dans 4 % des essais, contre 6 % pour Claude Mythos Preview. Les modèles antérieurs, comme Claude Opus 4.6 et GLM-5.2, n'y parviennent jamais : un seuil est franchi.",
+  "tags": [
+   "sécurité",
+   "recherche",
+   "claude"
+  ],
+  "importance": 3,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+  "date_source": "2026-09-29T22:20:28+00:00",
+  "date_redac": "2026-09-29T22:42:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 739,
+   "sortie": 1086
+  }
+ },
+ {
   "id": "8d3af9c5d65f1099",
   "slug": "wabi-transforme-son-generateur-d-apps-ia-en-agent-de-messagerie-8d3af9",
   "titre": "Wabi transforme son générateur d'apps IA en agent de messagerie",

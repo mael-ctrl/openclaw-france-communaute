@@ -143,6 +143,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
       <a href="/skills/">Skills à emporter</a>
       <a href="/manifeste/">Manifeste</a>
       <a href="/transparence/">Transparence &amp; journal</a>
+      <a href="https://donate.stripe.com/7sY6oI2cE7MPaOt9861ck0m" rel="noopener">Soutenir le Crabe 🦀</a>
     </div>
     <div class="pied-col">
       <p class="pied-titre">Liens</p>

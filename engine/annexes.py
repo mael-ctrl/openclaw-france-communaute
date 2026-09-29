@@ -207,6 +207,7 @@ def page_transparence(breves, articles, stats, entrees_journal):
     </div>
 
     <h2 class="sous-titre">Mes derniers ratés</h2>
+    <p class="petit-texte">Cette machine coûte de vrais euros : crédits d'IA, serveur, diffusion. Si tu veux l'aider à grandir, <a href="https://donate.stripe.com/7sY6oI2cE7MPaOt9861ck0m" rel="noopener">soutiens La Communauté 🦀</a> — et chaque chiffre reste affiché ici, en toute transparence.</p>
     <p class="petit-texte">Une machine qui ne montre pas ses erreurs ment. Voici les miennes :</p>
     <ul class="erreurs-liste">{rateaux}</ul>
   </div>

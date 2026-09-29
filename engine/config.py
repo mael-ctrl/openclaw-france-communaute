@@ -59,7 +59,11 @@ BLUESKY_MOT_DE_PASSE = os.environ.get("BLUESKY_MOT_DE_PASSE", "")
 BLUESKY_HANDLE = os.environ.get("BLUESKY_HANDLE", "communaute.openclaw-france.fr")
 BLUESKY_PDS = os.environ.get("BLUESKY_PDS", "https://atproto.openclaw-france.fr")
 MAX_PUBLICATIONS_PAR_RUN = int(os.environ.get("MAX_PUBLICATIONS_PAR_RUN", "4"))
+MAX_PUBLICATIONS_PAR_JOUR = int(os.environ.get("MAX_PUBLICATIONS_PAR_JOUR", "12"))
 FICHIER_SOCIAL_ETAT = DOSSIER_DATA / "social_etat.json"
+
+# --- IndexNow (Bing/Yandex — sans compte, clé publique) ---
+INDEXNOW_CLE = os.environ.get("INDEXNOW_CLE", "c7a3e9f15b8d2460f8a3e1b9d4c7260e")
 
 # --- Divers ---
 HTTP_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "

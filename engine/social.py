@@ -76,11 +76,11 @@ def _ts(valeur):
         return 0.0
 
 
-def _composer(lien, titre, resume):
-    """Post ≤ 300 signes (limite Bluesky), avec lien et mots-clés."""
-    queue = f"\n\n🔗 {lien}\n#IA #OpenClaw"
+def _composer(titre, resume):
+    """Post ≤ 300 signes (limite Bluesky) ; le lien passe par la carte-riche."""
+    queue = "\n#IA #OpenClaw"
     tete = f"🦀 {titre}"
-    place = 300 - len(tete) - len(queue)
+    place = 290 - len(tete) - len(queue)
     corps = ""
     if place >= 60 and resume:
         corps = "\n\n" + resume
@@ -134,6 +134,17 @@ def diffuser(max_publications=None):
             etat = {}
     publies = etat.setdefault("publies", {})
 
+    # Quota quotidien : rester élégant (un média, pas un spammeur)
+    aujourd_hui = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    quota = etat.setdefault("quota", {"jour": "", "n": 0})
+    if quota.get("jour") != aujourd_hui:
+        quota["jour"], quota["n"] = aujourd_hui, 0
+    restant = max(0, config.MAX_PUBLICATIONS_PAR_JOUR - quota["n"])
+    if restant == 0:
+        print("   🦋 Quota quotidien atteint — pas de publication supplémentaire aujourd'hui")
+        return 0
+    max_publications = min(max_publications, restant)
+
     session = _poste("/com.atproto.server.createSession",
                      {"identifier": _identifiant(), "password": _mot_de_passe()})
     jeton, did = session["accessJwt"], session["did"]
@@ -144,7 +155,7 @@ def diffuser(max_publications=None):
             continue
         if envois >= max_publications:
             break
-        texte = _composer(lien, titre, resume)
+        texte = _composer(titre, resume)
         d = _poste("/com.atproto.repo.createRecord",
                    {"repo": did,
                     "collection": "app.bsky.feed.post",
@@ -152,6 +163,11 @@ def diffuser(max_publications=None):
                         "$type": "app.bsky.feed.post",
                         "text": texte,
                         "langs": ["fr"],
+                        "embed": {
+                            "$type": "app.bsky.embed.external",
+                            "external": {"uri": lien, "title": titre[:250],
+                                         "description": resume[:200]},
+                        },
                         "createdAt": datetime.now(timezone.utc).isoformat(
                             timespec="seconds").replace("+00:00", "Z"),
                     }},
@@ -162,6 +178,7 @@ def diffuser(max_publications=None):
         print(f"   🦋 Bluesky : {titre[:64]}")
         time.sleep(2)
     if envois:
+        quota["n"] = quota.get("n", 0) + envois
         config.FICHIER_SOCIAL_ETAT.write_text(
             json.dumps(etat, ensure_ascii=False, indent=1), encoding="utf-8")
         journal.ajouter("diffusion", reseau="bluesky", publications=envois)

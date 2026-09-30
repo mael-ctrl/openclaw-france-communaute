@@ -21,6 +21,27 @@
   }
  },
  {
+  "id": "7f38c1d25047e678",
+  "slug": "blender-et-game-dev-les-modeles-locaux-encore-a-la-peine-7f38c1",
+  "titre": "Blender et game dev : les modèles locaux encore à la peine",
+  "resume": "Sur r/LocalLLaMA, un développeur cherche le meilleur modèle local pour Blender et le game dev. Il constate que même les modèles les plus performants qu'il a testés, GLM5.3 Flash et DSv4 Flash, peinent à créer des modèles cohérents dans Blender et à les placer logiquement dans les moteurs de jeu. Il se demande si les modèles locaux sont simplement encore trop limités pour ce type de tâche.",
+  "tags": [
+   "dev",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuk9f1/best_local_model_for_blender_and_game_dev/",
+  "date_source": "2026-09-30T23:35:41+00:00",
+  "date_redac": "2026-09-30T23:54:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 674,
+   "sortie": 715
+  }
+ },
+ {
   "id": "003b0cb46d781e1c",
   "slug": "victoria-et-maple-deux-modeles-open-weights-affines-depuis-qwen3-8-fla-003b0c",
   "titre": "Victoria et Maple : deux modèles open-weights affinés depuis Qwen3.8-Flash-Next",

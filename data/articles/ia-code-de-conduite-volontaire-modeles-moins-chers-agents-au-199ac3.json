@@ -1,0 +1,41 @@
+{
+ "slug": "ia-code-de-conduite-volontaire-modeles-moins-chers-agents-au-199ac3",
+ "titre": "IA : code de conduite volontaire, modèles moins chers, agents autonomes",
+ "chapo": "Donald Trump a présenté un code de bonne conduite pour encadrer l'IA, avec quatre niveaux de régulation et une adhésion laissée au bon vouloir des entreprises. La même semaine, Anthropic et OpenAI ont mis en avant des modèles moins chers, pendant que Microsoft dévoilait un agent bâti sur OpenClaw.",
+ "html": "<h2 id=\"une-regulation-que-l-on-choisit-d-appliq\">Une régulation que l'on choisit d'appliquer</h2>\n<p>Donald Trump a présenté un code de bonne conduite destiné à encadrer le développement de l'IA, en présence des principaux acteurs américains du secteur. Le texte prévoit <strong>quatre niveaux de régulation</strong>, ce qui laisse imaginer une gradation dans les exigences plutôt qu'un cadre unique appliqué de la même façon à tout le monde.</p>\n<p>Reste l'essentiel : l'adhésion est <strong>volontaire</strong>. Chaque entreprise est libre d'y souscrire — mais si elle le fait, elle doit alors instaurer ses propres mesures de contrôle. Le contrôle se déplace donc du régulateur vers l'entreprise qui signe. Un tel montage ne dit rien, en soi, de l'effet réel du texte ; il dit seulement comment il est construit, et à qui il revient de le faire vivre.</p>\n<h2 id=\"le-prix-devient-l-argument-principal\">Le prix devient l'argument principal</h2>\n<p>Sur le front des modèles, la semaine est marquée par une bataille sur le coût. Anthropic a lancé Sonnet 5.5, un modèle présenté comme <strong>plus abordable</strong>, avec des performances qui restent proches de celles de Claude Opus 5.5 selon l'éditeur. Surtout, ce nouveau modèle est proposé sur la <strong>version gratuite de Claude</strong>, ce qui met une IA parmi les plus puissantes à disposition sans abonnement.</p>\n<p>OpenAI va dans le même sens avec GPT-6.1 Sol, un modèle destiné à propulser ses agents Dots. Il est presque aussi performant que GPT-6 Astra dans les domaines les plus importants, mais coûte <strong>cinq fois moins cher</strong>. Le positionnement affiché mise sur le coût plutôt que sur la seule performance brute.</p>\n<p>Deux annonces, deux éditeurs, une même direction : l'accès s'élargit par le bas de la grille tarifaire, pas par le haut.</p>\n<h2 id=\"microsoft-batit-scout-sur-openclaw\">Microsoft bâtit Scout sur OpenClaw</h2>\n<p>Microsoft annonce Scout, un <strong>agent IA autonome construit sur OpenClaw</strong>. L'annonce est publiée sur le blog Microsoft 365 et reprise par Wired et 404 Media. Sur Hacker News, la dépêche totalise 94 points et 87 commentaires.</p>\n<p>Que Microsoft bâtisse son agent sur OpenClaw donne du poids à l'écosystème. Un agent autonome signé par un acteur de cette taille, adossé à une base déjà existante plutôt qu'à une pile maison, c'est un signal pour tous ceux qui construisent sur les mêmes fondations. La reprise médiatique et le volume de discussion sur Hacker News disent au moins une chose : le sujet n'est pas passé inaperçu.</p>\n<h2 id=\"l-evaluation-externe-se-dote-d-un-standa\">L'évaluation externe se dote d'un standard</h2>\n<p>Un nouveau standard, l'<strong>AEF-1</strong>, se met en place pour les évaluateurs tiers. xAI, OpenAI et Anthropic l'ont toutes les trois cosigné. Trois concurrents directs sur la même signature, c'est un point notable en soi.</p>\n<p>Le rythme s'accélère sur ce front : l'évaluation externe de l'IA se structure, avec des acteurs qui acceptent un cadre commun au lieu de publier chacun ses propres chiffres.</p>\n<h2>Et maintenant ?</h2>\n<p>Mis bout à bout, ces dépêches dessinent une semaine où les modèles tirent vers le bas sur le prix, où les agents autonomes s'installent chez les grands éditeurs, et où l'encadrement se répartit entre un code volontaire côté politique et un standard cosigné côté industrie. Rien de tout cela ne dit ce que vaudront ces engagements dans six mois. Mais la construction est visible : moins de barrières à l'usage, plus de dépendance à des fondations communes, et des règles qui reposent largement sur ceux qui les appliquent.</p>",
+ "pivot": "199ac3353d33c85a",
+ "tags": [
+  "openclaw",
+  "openai",
+  "agents",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/pour-encadrer-lia-donald-trump-devoile-un-code-de-bonne-conduite.html"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/09/30/anthropic-propose-lune-des-ia-les-plus-puissantes-du-monde-gratuitement-le-modele-sonnet-5-5-debarque-sur-claude-et-promet-de-grosses-performances/"
+  },
+  {
+   "nom": "Hacker News — OpenClaw",
+   "url": "https://www.computerworld.com/article/4180103/microsoft-unveils-scout-an-autonomous-ai-agent-built-on-openclaw.html"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/09/29/openai-lance-une-nouvelle-ia-presque-aussi-puissante-que-gpt-6-astra-mais-5-fois-moins-chere/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for"
+  }
+ ],
+ "date": "2026-09-30T18:19:48+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1485,
+  "sortie": 3226
+ }
+}

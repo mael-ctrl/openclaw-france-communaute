@@ -1,5 +1,48 @@
 [
  {
+  "id": "0fa37d46192587cc",
+  "slug": "meta-et-openai-veulent-relancer-l-ia-sur-des-appareils-dedies-0fa37d",
+  "titre": "Meta et OpenAI veulent relancer l'IA sur des appareils dédiés",
+  "resume": "L'IA a largement conquis les téléphones et les ordinateurs, mais elle a échoué dans les appareils dédiés. Meta et OpenAI comptent changer la donne dans l'année à venir. Les deux entreprises misent sur la même piste : tester l'appétit du public pour du matériel physique animé par des agents logiciels « mignons ».",
+  "tags": [
+   "openai",
+   "meta",
+   "matériel",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
+  "date_source": "2026-09-30T18:07:38+00:00",
+  "date_redac": "2026-09-30T18:19:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 667,
+   "sortie": 365
+  }
+ },
+ {
+  "id": "ba61d18699216e2a",
+  "slug": "ling-3-1-flash-560b-de-parametres-gratuit-deux-semaines-avant-l-open-s-ba61d1",
+  "titre": "Ling-3.1-flash : 560B de paramètres, gratuit deux semaines avant l'open source",
+  "resume": "Le laboratoire chinois Ling dévoile Ling-3.1-flash, un modèle d'environ 560 milliards de paramètres dont 25 milliards activés par token, avec un contexte allant jusqu'à 1 million de tokens. Il affiche 1 673 Elo sur GDPVal-AA v2.1, 75,16 sur FrontierSWE et 65,35 sur HealthBench Professional. Comme pour les précédents Ling, l'accès est gratuit pendant deux semaines avant l'ouverture des poids.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuboum/another_ling_model_comes_out_same_receipt_2_weeks/",
+  "date_source": "2026-09-30T17:49:39+00:00",
+  "date_redac": "2026-09-30T18:19:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 711,
+   "sortie": 563
+  }
+ },
+ {
   "id": "fb5bd11836f0458f",
   "slug": "un-agent-ia-de-meta-aurait-liste-des-personnes-de-groupes-vulnerables--fb5bd1",
   "titre": "Un agent IA de Meta aurait listé des personnes de groupes vulnérables sur demande",
@@ -40,6 +83,27 @@
    "modele": "deepseek-flash",
    "entree": 584,
    "sortie": 349
+  }
+ },
+ {
+  "id": "f425970bef237258",
+  "slug": "reddit-coupe-les-flux-rss-et-l-acces-public-a-son-api-a-cause-des-bots-f42597",
+  "titre": "Reddit coupe les flux RSS et l'accès public à son API à cause des bots IA",
+  "resume": "Reddit met fin au support des flux RSS et à l'accès public à son API. La plateforme invoque les bots IA pour justifier cette fermeture, et poursuit ainsi le resserrement de l'accès à son stock de contenus générés par les utilisateurs.",
+  "tags": [
+   "société",
+   "business",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+  "date_source": "2026-09-30T17:45:00+00:00",
+  "date_redac": "2026-09-30T18:19:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 625,
+   "sortie": 812
   }
  },
  {
@@ -190,6 +254,27 @@
   }
  },
  {
+  "id": "b927b6e81281914a",
+  "slug": "sur-r-claudeai-un-scenariste-dit-avoir-ete-signale-dix-fois-comme-risq-b927b6",
+  "titre": "Sur r/ClaudeAI, un scénariste dit avoir été signalé dix fois comme risque biologique",
+  "resume": "Un utilisateur du subreddit r/ClaudeAI, /u/DeathNote_928, affirme dans le titre de son message que Claude l'a identifié dix fois en une journée comme un « risque de biosécurité ». La formule est ironique : il reproche au modèle de prendre enfin son travail de scénariste au sérieux. Le fil, publié le 30 septembre 2026, ne comporte pas d'autre contenu que ce titre.",
+  "tags": [
+   "claude",
+   "société",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wu9dso/ten_times_today_i_am_a_biosecurity_risk_finally/",
+  "date_source": "2026-09-30T16:23:37+00:00",
+  "date_redac": "2026-09-30T18:19:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 624,
+   "sortie": 925
+  }
+ },
+ {
   "id": "60946cfbab2d711a",
   "slug": "xiaomi-18-pro-une-app-pour-l-ecran-arriere-generee-par-ia-en-5-minutes-60946c",
   "titre": "Xiaomi 18 Pro : une app pour l'écran arrière générée par IA en 5 minutes",
@@ -207,6 +292,47 @@
    "modele": "deepseek-flash",
    "entree": 666,
    "sortie": 858
+  }
+ },
+ {
+  "id": "73749a07be69a02a",
+  "slug": "opus-5-5-produit-un-film-en-une-nuit-a-partir-d-un-prompt-publie-73749a",
+  "titre": "Opus 5.5 produit un film en une nuit à partir d'un prompt publié",
+  "resume": "L'utilisateur anabology a publié sur X le résultat d'une expérience menée avec Claude Opus 5.5 : il a fourni au modèle le prompt publié par Donald Jewkes, Midjourney et un moodboard. Environ douze heures plus tard, le film était produit. Le créateur a également mis en ligne un Drive public contenant les notes de fabrication, les prompts, les images générées, l'audio et le master MP4.",
+  "tags": [
+   "claude",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wu8rko/opus_55_directed_this_overnight_from_someone/",
+  "date_source": "2026-09-30T16:00:49+00:00",
+  "date_redac": "2026-09-30T18:19:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 777,
+   "sortie": 547
+  }
+ },
+ {
+  "id": "89c772e9e906abb3",
+  "slug": "il-deplace-l-extraction-de-donnees-hors-de-claude-et-cree-un-nouveau-g-89c772",
+  "titre": "Il déplace l'extraction de données hors de Claude et crée un nouveau goulot",
+  "resume": "Un développeur raconte sur r/ClaudeAI avoir déplacé l'extraction de champs, toujours identiques et faciles à valider, vers un modèle moins cher, en gardant Claude pour les entrées désordonnées et les jugements. Le gain dépasse ses attentes, mais un effet de bord est apparu : quand le petit modèle échoue à la validation, la requête repart vers Claude et coûte plus cher qu'avant. Il cite déjà les documents longs parmi les causes.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wu82wz/i_moved_our_extraction_step_off_claude/",
+  "date_source": "2026-09-30T15:33:41+00:00",
+  "date_redac": "2026-09-30T18:19:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 798,
+   "sortie": 1115
   }
  },
  {

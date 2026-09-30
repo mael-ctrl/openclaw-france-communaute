@@ -1,22 +1,18 @@
 {
- "runs": 23,
- "items_collectes": 327,
- "breves_publiees": 79,
+ "runs": 24,
+ "items_collectes": 331,
+ "breves_publiees": 83,
  "articles_publies": 1,
- "tokens_entree": 60470,
- "tokens_sortie": 70369,
+ "tokens_entree": 62995,
+ "tokens_sortie": 72907,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-09-30T17:30:49+00:00",
+ "dernier_run": "2026-09-30T17:49:12+00:00",
  "solde": {
-  "total": "90.00",
+  "total": "89.88",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-09-29T21:22:16+00:00",
-   "message": "déploiement : 553 Can't open that file: No such file or directory"
-  },
   {
    "ts": "2026-09-30T15:11:47+00:00",
    "message": "brève impossible (Penalties of PCIe generations? (2x R9700)) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-09-30T16:55:02+00:00",
    "message": "déploiement : [Errno 54] Connection reset by peer"
+  },
+  {
+   "ts": "2026-09-30T17:49:12+00:00",
+   "message": "article impossible : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 1.66,
+ "depense_usd": 1.78,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -116,10 +116,14 @@
   [
    "2026-09-30T17:30:49+00:00",
    "90.00"
+  ],
+  [
+   "2026-09-30T17:48:24+00:00",
+   "89.88"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 1.43,
+ "depense_mois_usd": 1.55,
  "archive_tentatives": {
   "jour": "2026-09-30",
   "n": 3

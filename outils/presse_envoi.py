@@ -9,6 +9,11 @@ Usage :
 Campagnes : tous les fichiers docs/press/campagne-*.json (ou --campagne FICHIER).
 Mot de passe : env BLOCKOS_SMTP_PASSWORD, sinon Trousseau macOS
 (service « blockos-crabe-email », compte « OVH »).
+
+Robustesse OVH : la session SMTP peut être coupée (421…) — une connexion NEUVE
+est ouverte pour chaque message, avec jusqu'à 3 tentatives et pauses croissantes.
+Seuls les envois réussis sont journalisés (docs/press/envois.jsonl) → relancer le
+script reprend exactement là où il s'est arrêté.
 """
 import argparse
 import datetime
@@ -21,6 +26,7 @@ import sys
 import time
 from email.message import EmailMessage
 from pathlib import Path
+from smtplib import SMTPAuthenticationError
 
 RACINE = Path(__file__).resolve().parent.parent
 DOSSIER_PRESS = RACINE / "docs" / "press"
@@ -44,7 +50,9 @@ def deja_envoyes() -> set:
     if JOURNAL.exists():
         for ligne in JOURNAL.read_text(encoding="utf-8").splitlines():
             try:
-                emails.add(json.loads(ligne)["email"])
+                entree = json.loads(ligne)
+                if entree.get("statut") == "envoye":
+                    emails.add(entree["email"])
             except (ValueError, KeyError):
                 continue
     return emails
@@ -69,6 +77,26 @@ def construire(cible: dict, corps_modele: str) -> EmailMessage:
     msg["Reply-To"] = EXPEDITEUR
     msg.set_content(corps_modele.replace("{accroche}", cible["accroche"]))
     return msg
+
+
+def envoyer_un(cible: dict, corps: str, mot: str):
+    """Une connexion NEUVE par message + jusqu'à 3 tentatives. Retourne (ok, erreur)."""
+    msg = construire(cible, corps)
+    derniere = ""
+    for tentative in (1, 2, 3):
+        try:
+            with smtplib.SMTP_SSL(HOTE, PORT, timeout=40) as serveur:
+                serveur.login(EXPEDITEUR, mot)
+                serveur.send_message(msg)
+            return True, ""
+        except SMTPAuthenticationError as e:
+            return False, f"authentification refusée ({e})"
+        except Exception as e:  # noqa: BLE001 — on retente avec une session neuve
+            derniere = str(e)
+            print(f"⚠️  {cible['media']} — tentative {tentative}/3 échouée : {e}")
+            if tentative < 3:
+                time.sleep(45 * tentative)
+    return False, derniere
 
 
 def main() -> int:
@@ -106,30 +134,32 @@ def main() -> int:
         return 2
 
     ok = 0
-    with smtplib.SMTP_SSL(HOTE, PORT, timeout=40) as serveur:
-        serveur.login(EXPEDITEUR, mot)
-        for i, (nom, corps, cible) in enumerate(a_faire):
-            try:
-                serveur.send_message(construire(cible, corps))
-            except Exception as e:  # noqa: BLE001 — on continue la vague
-                print(f"⚠️  ÉCHEC {cible['media']} <{cible['email']}> : {e}")
-                continue
-            ok += 1
-            if not args.test_vers:
-                ligne = {
-                    "ts": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
-                    "campagne": nom,
-                    "media": cible["media"],
-                    "email": cible["email"],
-                    "sujet": cible["sujet"],
-                    "statut": "envoye",
-                }
-                with JOURNAL.open("a", encoding="utf-8") as f:
-                    f.write(json.dumps(ligne, ensure_ascii=False) + "\n")
-            print(f"✅ {cible['media']} <{cible['email']}>")
-            if i < len(a_faire) - 1:
-                time.sleep(random.uniform(35, 70))
-    print(f"Terminé : {ok}/{len(a_faire)} envoyé(s).")
+    echecs = []
+    for i, (nom, corps, cible) in enumerate(a_faire):
+        reussi, erreur = envoyer_un(cible, corps, mot)
+        if not reussi:
+            echecs.append(cible["media"])
+            print(f"❌ {cible['media']} <{cible['email']}> : {erreur}")
+            continue
+        ok += 1
+        print(f"✅ {cible['media']} <{cible['email']}>")
+        if not args.test_vers:
+            ligne = {
+                "ts": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+                "campagne": nom,
+                "media": cible["media"],
+                "email": cible["email"],
+                "sujet": cible["sujet"],
+                "statut": "envoye",
+            }
+            with JOURNAL.open("a", encoding="utf-8") as f:
+                f.write(json.dumps(ligne, ensure_ascii=False) + "\n")
+        if i < len(a_faire) - 1:
+            time.sleep(random.uniform(30, 60))
+    resume = f"Terminé : {ok}/{len(a_faire)} envoyé(s)."
+    if echecs:
+        resume += f" Échecs (non journalisés, à relancer) : {', '.join(echecs)}."
+    print(resume)
     return 0
 
 

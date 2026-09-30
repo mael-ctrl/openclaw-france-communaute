@@ -1,8 +1,9 @@
 name: Presse 🦀 (envoi de campagne)
 
+# Déclenchement MANUEL uniquement (dispatch) : l'envoi depuis les IP GitHub est
+# limité par OVH (421 après le 1er message) → l'envoi fiable passe par le poste
+# local (outils/presse_envoi.py / filet Hermes presse_secours.sh).
 on:
-  schedule:
-    - cron: "0 6 * * *"   # 06:00 UTC = 08:00 Paris — heure de lecture des rédactions
   workflow_dispatch:
     inputs:
       simulation:

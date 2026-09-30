@@ -1,0 +1,119 @@
+# =============================================================================
+#  Kit OpenClaw France — docker-compose.yml                    (version 1.0)
+# -----------------------------------------------------------------------------
+#  Fait tourner OpenClaw en Docker. Fichier adapté du docker-compose.yml
+#  officiel du projet OpenClaw (github.com/openclaw/openclaw), simplifié et
+#  commenté en français.
+#
+#  DÉMARRAGE RAPIDE (dans ce dossier) :
+#    1. cp .env.example .env        puis chaque ligne expliquée dans GUIDE.md
+#    2. chmod 600 .env
+#    3. mkdir -p donnees/etat donnees/secrets-auth sauvegardes
+#       sudo chown -R 1000:1000 donnees sauvegardes      (Linux uniquement)
+#    4. docker compose pull
+#    5. docker compose up -d openclaw-gateway
+#
+#  SÉCURITÉ : le port n'est exposé QUE sur 127.0.0.1 (votre machine locale).
+#  Pour y accéder à distance, lisez « Exposition sécurisée » dans securite.md
+#  et le GUIDE.md — ne publiez jamais ce port directement sur Internet.
+#
+#  Doc officielle : https://docs.openclaw.ai/install/docker
+#  Support communauté : https://communaute-ia.fr
+# =============================================================================
+
+services:
+
+  # --- La passerelle : le cœur d'OpenClaw (agents, canaux, tableau de bord)
+  openclaw-gateway:
+    image: ${OPENCLAW_IMAGE:-ghcr.io/openclaw/openclaw:latest}
+    env_file:
+      - .env
+    environment:
+      # Chemins internes au conteneur — ne pas modifier.
+      HOME: /home/node
+      OPENCLAW_HOME: /home/node
+      TERM: xterm-256color
+      OPENCLAW_STATE_DIR: /home/node/.openclaw
+      OPENCLAW_CONFIG_PATH: /home/node/.openclaw/openclaw.json
+      OPENCLAW_CONFIG_DIR: /home/node/.openclaw
+      OPENCLAW_WORKSPACE_DIR: /home/node/.openclaw/workspace
+      OPENCLAW_GATEWAY_PORT: "18789"
+      # Jeton d'accès du tableau de bord (généré dans votre fichier .env).
+      OPENCLAW_GATEWAY_TOKEN: ${OPENCLAW_GATEWAY_TOKEN:-}
+      # Découverte Bonjour/mDNS : se coupe automatiquement en conteneur.
+      OPENCLAW_DISABLE_BONJOUR: ${OPENCLAW_DISABLE_BONJOUR:-}
+      TZ: ${OPENCLAW_TZ:-Europe/Paris}
+    volumes:
+      # Toutes vos données vivent dans ./donnees — faciles à sauvegarder.
+      - "./donnees/etat:/home/node/.openclaw"
+      - "./donnees/secrets-auth:/home/node/.config/openclaw"
+      # Dossier de sortie des sauvegardes (utilisé par scripts/sauvegarde.sh).
+      - "./sauvegardes:/home/node/sauvegardes"
+    cap_drop:
+      - NET_RAW
+      - NET_ADMIN
+    security_opt:
+      - no-new-privileges:true
+    extra_hosts:
+      # Permet de joindre un modèle local (Ollama, LM Studio…) sur la machine hôte.
+      - "host.docker.internal:host-gateway"
+    ports:
+      # Exposé UNIQUEMENT en local. Pour un accès à distance, passez par un
+      # tunnel SSH, Tailscale ou un reverse proxy HTTPS (voir securite.md).
+      - "127.0.0.1:${OPENCLAW_GATEWAY_PORT:-18789}:18789"
+      # Ports supplémentaires, à décommenter seulement si besoin (voir doc) :
+      # - "127.0.0.1:${OPENCLAW_BRIDGE_PORT:-18790}:18790"
+      # - "${OPENCLAW_MSTEAMS_PORT:-3978}:3978"
+    init: true
+    restart: unless-stopped
+    command:
+      [
+        "node",
+        "dist/index.js",
+        "gateway",
+        "--bind",
+        "lan",
+        "--port",
+        "18789",
+      ]
+    healthcheck:
+      test: ["CMD", "node", "dist/docker-healthcheck.js"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  # --- La ligne de commande : installation, réglages et commandes du quotidien
+  openclaw-cli:
+    image: ${OPENCLAW_IMAGE:-ghcr.io/openclaw/openclaw:latest}
+    network_mode: "service:openclaw-gateway"
+    env_file:
+      - .env
+    environment:
+      HOME: /home/node
+      OPENCLAW_HOME: /home/node
+      TERM: xterm-256color
+      OPENCLAW_STATE_DIR: /home/node/.openclaw
+      OPENCLAW_CONFIG_PATH: /home/node/.openclaw/openclaw.json
+      OPENCLAW_CONFIG_DIR: /home/node/.openclaw
+      OPENCLAW_WORKSPACE_DIR: /home/node/.openclaw/workspace
+      OPENCLAW_GATEWAY_PORT: "18789"
+      OPENCLAW_GATEWAY_TOKEN: ${OPENCLAW_GATEWAY_TOKEN:-}
+      OPENCLAW_DISABLE_BONJOUR: ${OPENCLAW_DISABLE_BONJOUR:-}
+      BROWSER: echo
+      TZ: ${OPENCLAW_TZ:-Europe/Paris}
+    volumes:
+      - "./donnees/etat:/home/node/.openclaw"
+      - "./donnees/secrets-auth:/home/node/.config/openclaw"
+      - "./sauvegardes:/home/node/sauvegardes"
+    cap_drop:
+      - NET_RAW
+      - NET_ADMIN
+    security_opt:
+      - no-new-privileges:true
+    stdin_open: true
+    tty: true
+    init: true
+    entrypoint: ["node", "dist/index.js"]
+    depends_on:
+      - openclaw-gateway

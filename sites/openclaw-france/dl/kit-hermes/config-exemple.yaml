@@ -1,0 +1,87 @@
+# =============================================================================
+# Kit Hermes Agent (OpenClaw France) — config-exemple.yaml
+# -----------------------------------------------------------------------------
+# EXEMPLE DE RÉFÉRENCE — ne recopiez PAS ce fichier tel quel dans
+# ~/.hermes/config.yaml : Hermes crée et gère déjà ce fichier à l'installation.
+#
+# Le moyen le plus sûr de modifier un réglage est la commande :
+#     hermes config set <clé> <valeur>    # écrit au bon endroit, automatiquement
+#     hermes config get <clé>             # relit la valeur résolue
+#
+# Règles d'or (documentation officielle) :
+#   - les RÉGLAGES (modèle, terminal, mises à jour…) → ~/.hermes/config.yaml
+#   - les SECRETS (clés API, jetons) → ~/.hermes/.env uniquement
+#     (« hermes config set » range automatiquement chaque clé au bon endroit :
+#      les noms en MAJUSCULES_AVEC_UNDERSCORES comme OPENROUTER_API_KEY vont
+#      dans .env, les réglages pointés comme model.default vont dans config.yaml.)
+#
+# Toutes les clés ci-dessous sont documentées sur :
+#   https://hermes-agent.nousresearch.com/docs/user-guide/configuration
+# =============================================================================
+
+# --- Modèle principal ---------------------------------------------------------
+# Équivalent CLI : hermes config set model <nom-du-modèle>
+model:
+  # Modèle par défaut. Valeur d'exemple reprise de l'exemple officiel de la
+  # doc — remplacez-la par le modèle de votre fournisseur (choisi via
+  # « hermes model », qui gère aussi le fournisseur et l'authentification).
+  default: "anthropic/claude-opus-4.6"
+
+  # Fournisseur : "auto" détecte automatiquement le fournisseur à partir des
+  # identifiants présents dans ~/.hermes/.env (recommandé au départ).
+  provider: "auto"
+
+  # Pour un endpoint compatible OpenAI (OpenRouter, etc.), la doc indique :
+  # base_url: "https://openrouter.ai/api/v1"
+  # La clé API correspondante se met dans ~/.hermes/.env (jamais ici).
+
+# --- Modèle local, 100 % gratuit (exemple repris de la FAQ officielle) --------
+# Décommentez ce bloc (et commentez le bloc « model: » ci-dessus : un seul
+# bloc model: actif à la fois) pour utiliser Ollama ou tout serveur compatible
+# OpenAI qui tourne sur votre machine. Flux documenté : hermes model →
+# « Custom endpoint ».
+#
+# model:
+#   default: "qwen3.5:27b"                      # nom du modèle servi en local
+#   provider: "custom"
+#   base_url: "http://localhost:11434/v1"        # Ollama ; adaptez si besoin
+#
+# Pour garder un filet de sécurité quand le modèle local cale, la doc décrit
+# une chaîne de repli vers un fournisseur cloud (exemple du guide officiel) :
+#
+# fallback_providers:
+#   - provider: openrouter
+#     model: anthropic/claude-sonnet-4
+
+# --- Terminal : où s'exécutent les commandes -----------------------------------
+# Équivalent CLI (exemple documenté) : hermes config set terminal.backend docker
+terminal:
+  # local (défaut : tout tourne directement sur votre machine)
+  # docker | ssh | modal | daytona | vercel_sandbox | singularity
+  # → valeurs documentées ; « docker » isole les commandes dans un conteneur,
+  #   utile pour exécuter du code que vous ne connaissez pas.
+  backend: local
+
+  # Délai maximal (secondes) pour une commande lancée par l'agent (défaut : 180).
+  timeout: 180
+
+# --- Mises à jour ---------------------------------------------------------------
+# Pour désactiver la vérification de mise à jour passive (une fois par 24 h) :
+#   hermes config set updates.check false
+# Pour régler la sauvegarde automatique avant chaque mise à jour :
+#   updates:
+#     pre_update_backup: quick      # quick (défaut) | full | off
+
+# --- Autres réglages documentés, à connaître ------------------------------------
+# database:
+#   journal_mode: "wal"             # "wal" (défaut) ou "delete" (systèmes de
+#                                   # fichiers réseau — voir la doc)
+# runtime:
+#   nofile_soft_limit: 4096         # limite de fichiers ouverts (défaut)
+# providers:
+#   <id>:
+#     request_timeout_seconds: 1800 # délai par fournisseur (voir la doc)
+
+# Pour vérifier la santé de cette configuration à tout moment :
+#     hermes doctor
+#     hermes config check

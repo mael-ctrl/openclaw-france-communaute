@@ -1,22 +1,18 @@
 {
- "runs": 20,
- "items_collectes": 310,
+ "runs": 22,
+ "items_collectes": 320,
  "breves_publiees": 79,
  "articles_publies": 1,
  "tokens_entree": 55922,
  "tokens_sortie": 65395,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-09-30T15:12:10+00:00",
+ "dernier_run": "2026-09-30T16:37:42+00:00",
  "solde": {
-  "total": "90.43",
+  "total": "90.21",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-09-29T21:21:23+00:00",
-   "message": "brève impossible (AI researchers put out videos saying superintelligence is ‘e) : réponse non-JSON"
-  },
   {
    "ts": "2026-09-29T21:22:16+00:00",
    "message": "déploiement : 553 Can't open that file: No such file or directory"
@@ -28,10 +24,18 @@
   {
    "ts": "2026-09-30T15:12:03+00:00",
    "message": "brève impossible (Follow-up: my native Rust + Vulkan Transformer training back) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-09-30T16:37:18+00:00",
+   "message": "construction : [Errno 60] Operation timed out: '/Users/maelsamir/Desktop/Openclaw/communaute/_site/index.html'"
+  },
+  {
+   "ts": "2026-09-30T16:55:02+00:00",
+   "message": "déploiement : [Errno 54] Connection reset by peer"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 1.23,
+ "depense_usd": 1.45,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -104,10 +108,14 @@
   [
    "2026-09-30T15:11:34+00:00",
    "90.43"
+  ],
+  [
+   "2026-09-30T16:37:42+00:00",
+   "90.21"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 1.0,
+ "depense_mois_usd": 1.22,
  "archive_tentatives": {
   "jour": "2026-09-30",
   "n": 3

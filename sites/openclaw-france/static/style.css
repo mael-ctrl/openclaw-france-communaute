@@ -1,0 +1,199 @@
+/* OpenClaw France — design maison, zéro dépendance.
+   Thème sombre, cartes "verre", accents bleu/cyan + crabe. */
+
+:root{
+  --fond:#07090f;
+  --fond-2:#0c1018;
+  --carte:rgba(255,255,255,.045);
+  --carte-bord:rgba(255,255,255,.09);
+  --texte:#e8edf6;
+  --texte-2:#9aa7bd;
+  --accent:#38bdf8;
+  --accent-2:#818cf8;
+  --crabe:#ff5c5c;
+  --vert:#34d399;
+  --rayon:18px;
+  --largeur:1120px;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:
+    radial-gradient(1100px 500px at 80% -10%, rgba(56,189,248,.14), transparent 60%),
+    radial-gradient(900px 500px at 10% 10%, rgba(129,140,248,.10), transparent 55%),
+    var(--fond);
+  color:var(--texte);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+img{max-width:100%}
+.wrap{max-width:var(--largeur);margin:0 auto;padding:0 20px}
+
+/* ---- barre communauté ---- */
+.barre{
+  display:block;padding:9px 16px;text-align:center;font-size:14px;
+  background:linear-gradient(90deg,rgba(56,189,248,.12),rgba(129,140,248,.12));
+  border-bottom:1px solid var(--carte-bord);color:var(--texte);
+}
+.barre strong{color:#fff}
+.barre a{color:#7dd3fc;font-weight:600}
+
+/* ---- entête ---- */
+.entete{
+  position:sticky;top:0;z-index:20;
+  background:rgba(7,9,15,.78);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--carte-bord);
+}
+.entete .wrap{display:flex;align-items:center;gap:18px;height:64px}
+.marque{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px;color:var(--texte)}
+.marque .logo{font-size:22px}
+.marque small{display:block;font-weight:500;font-size:11px;color:var(--texte-2);letter-spacing:.06em}
+.nav{display:flex;gap:18px;margin-left:auto;align-items:center}
+.nav a{color:var(--texte-2);font-size:14.5px;font-weight:500}
+.nav a:hover{color:var(--texte);text-decoration:none}
+.nav .actif{color:var(--texte)}
+.burger{display:none}
+
+/* ---- boutons ---- */
+.btn{
+  display:inline-flex;align-items:center;gap:9px;
+  padding:13px 22px;border-radius:999px;font-weight:700;font-size:15px;
+  border:1px solid transparent;transition:transform .12s ease,box-shadow .12s ease;
+}
+.btn:hover{transform:translateY(-1px);text-decoration:none}
+.btn-principal{
+  background:linear-gradient(135deg,#0ea5e9,#6366f1);color:#fff;
+  box-shadow:0 8px 30px rgba(56,189,248,.28);
+}
+.btn-secondaire{
+  background:var(--carte);border-color:var(--carte-bord);color:var(--texte);
+}
+.btn-vert{background:linear-gradient(135deg,#059669,#34d399);color:#04261a}
+.btn-large{padding:16px 28px;font-size:16px}
+.btn-petit{padding:9px 16px;font-size:13.5px}
+
+/* ---- héros ---- */
+.heros{padding:74px 0 30px;text-align:center}
+.surtitre{
+  display:inline-block;padding:7px 16px;border-radius:999px;font-size:13.5px;font-weight:700;
+  background:rgba(52,211,153,.12);border:1px solid rgba(52,211,153,.35);color:#6ee7b7;
+  letter-spacing:.02em;
+}
+.heros h1{
+  font-size:clamp(34px,5.4vw,58px);line-height:1.08;margin:22px 0 18px;
+  letter-spacing:-.02em;font-weight:850;
+}
+.heros h1 .degrade{
+  background:linear-gradient(120deg,#7dd3fc,#818cf8 55%,#f472b6);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.heros p.lead{
+  max-width:760px;margin:0 auto;color:var(--texte-2);font-size:18.5px;
+}
+.heros .actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:30px}
+.heros .mini{display:flex;gap:22px;justify-content:center;flex-wrap:wrap;margin-top:26px;color:var(--texte-2);font-size:14px}
+.heros .mini b{color:var(--texte)}
+
+/* ---- sections ---- */
+section{padding:56px 0}
+.titre-section{text-align:center;margin-bottom:40px}
+.titre-section .kicker{
+  font-size:13px;font-weight:800;letter-spacing:.14em;color:var(--accent);
+  text-transform:uppercase;
+}
+.titre-section h2{font-size:clamp(26px,3.6vw,38px);margin:10px 0 8px;letter-spacing:-.015em}
+.titre-section p{color:var(--texte-2);max-width:720px;margin:0 auto}
+
+/* ---- grille produits ---- */
+.grille-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:22px}
+.grille-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.carte{
+  background:var(--carte);border:1px solid var(--carte-bord);border-radius:var(--rayon);
+  padding:28px;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+}
+.carte h3{font-size:22px;margin:14px 0 8px}
+.carte .emoji{font-size:30px}
+.carte p{color:var(--texte-2);margin:8px 0 14px}
+.carte ul{padding-left:2px;list-style:none;margin:14px 0}
+.carte ul li{padding-left:26px;position:relative;margin:8px 0;color:var(--texte)}
+.carte ul li::before{content:"✅";position:absolute;left:0}
+.carte .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+
+/* ---- bande média ---- */
+.bande{
+  border-radius:22px;padding:40px;
+  background:linear-gradient(135deg,rgba(56,189,248,.10),rgba(244,114,182,.08));
+  border:1px solid var(--carte-bord);
+}
+.bande h2{font-size:28px;margin:0 0 10px}
+.bande p{color:var(--texte-2);max-width:640px}
+.bande .stats{display:flex;gap:26px;flex-wrap:wrap;margin:22px 0 6px}
+.bande .stats b{display:block;font-size:26px;color:#fff}
+.bande .stats span{color:var(--texte-2);font-size:13.5px}
+
+/* ---- confiance ---- */
+.confiance{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;padding:10px 0 0}
+.confiance span{
+  padding:9px 16px;border-radius:999px;background:var(--carte);border:1px solid var(--carte-bord);
+  font-size:14px;color:var(--texte-2);
+}
+
+/* ---- FAQ ---- */
+details.faq{
+  background:var(--carte);border:1px solid var(--carte-bord);border-radius:14px;
+  margin:10px 0;padding:0 20px;
+}
+details.faq summary{
+  cursor:pointer;font-weight:700;padding:17px 0;font-size:16.5px;list-style:none;
+  display:flex;justify-content:space-between;align-items:center;gap:12px;
+}
+details.faq summary::after{content:"+";font-size:20px;color:var(--accent);transition:transform .15s}
+details.faq[open] summary::after{transform:rotate(45deg)}
+details.faq .reponse{padding:0 0 18px;color:var(--texte-2)}
+
+/* ---- listes de fichiers ---- */
+.fichiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:18px 0}
+.fichier{
+  display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:12px;
+  background:var(--carte);border:1px solid var(--carte-bord);color:var(--texte);
+}
+.fichier:hover{border-color:rgba(56,189,248,.5);text-decoration:none}
+.fichier .ico{font-size:20px}
+.fichier small{display:block;color:var(--texte-2)}
+
+/* ---- étapes ---- */
+.etapes{counter-reset:etape;display:grid;gap:16px}
+.etape{
+  display:grid;grid-template-columns:52px 1fr;gap:16px;align-items:start;
+  background:var(--carte);border:1px solid var(--carte-bord);border-radius:14px;padding:20px;
+}
+.etape::before{
+  counter-increment:etape;content:counter(etape);
+  width:42px;height:42px;border-radius:12px;display:grid;place-items:center;
+  background:linear-gradient(135deg,#0ea5e9,#6366f1);color:#fff;font-weight:800;font-size:18px;
+}
+.etape h3{margin:2px 0 6px;font-size:17.5px}
+.etape p{margin:0;color:var(--texte-2)}
+
+/* ---- pied ---- */
+footer{margin-top:40px;border-top:1px solid var(--carte-bord);background:rgba(0,0,0,.25)}
+.pied{display:grid;grid-template-columns:2fr 1fr 1fr;gap:26px;padding:44px 0 26px}
+.pied h4{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--texte-2);margin:0 0 12px}
+.pied a{display:block;color:var(--texte-2);margin:7px 0;font-size:14.5px}
+.pied a:hover{color:var(--texte)}
+.pied .bas{
+  border-top:1px solid var(--carte-bord);padding:18px 0 30px;color:var(--texte-2);font-size:13.5px;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+}
+
+@media (max-width:760px){
+  .nav{display:none}
+  .pied{grid-template-columns:1fr 1fr}
+  .heros{padding-top:48px}
+}

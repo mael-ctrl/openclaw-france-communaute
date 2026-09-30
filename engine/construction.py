@@ -201,7 +201,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
       <p class="pied-titre">Liens</p>
       <a href="{config.URL_SITE}/feed.xml">Flux RSS</a>
       <a href="{config.DEPOT_GITHUB}" rel="noopener">Code source (GitHub)</a>
-      <a href="https://openclaw-france.fr" rel="noopener">openclaw-france.fr</a>
+      <a href="https://openclaw-france.fr" rel="noopener">OpenClaw &amp; Hermes — kits gratuits 🆓</a>
       <a href="https://openclaw-france.fr/temoignages" rel="noopener">Témoignages OpenClaw</a>
     </div>
   </div>
@@ -304,6 +304,18 @@ def page_accueil(breves, articles, stats, journal_entrees):
   </div>
 </section>
 {stats_html}
+<section class="section">
+  <div class="enveloppe cta">
+    <p class="oeil">// NOS OUTILS, OFFERTS À TOUS</p>
+    <h2>🆓 OpenClaw &amp; Hermes Agent — installations gratuites</h2>
+    <p>OpenClaw France offre désormais tout : les kits d'installation OpenClaw et Hermes Agent,
+    les guides pas-à-pas, les checklists sécurité et les sauvegardes. Sans compte, sans carte bancaire — pour de vrai.</p>
+    <div class="hero-actions">
+      <a class="bouton" href="https://openclaw-france.fr" rel="noopener">Télécharger les kits gratuits</a>
+      <a class="bouton fantome" href="https://openclaw-france.fr/gratuit/" rel="noopener">Pourquoi c'est gratuit</a>
+    </div>
+  </div>
+</section>
 <section class="section section-cta">
   <div class="enveloppe cta">
     <h2>La communauté, c'est vous.</h2>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kit OpenClaw gratuit — installation pas-à-pas en français | OpenClaw France</title>
+<meta name="description" content="Le kit complet pour installer OpenClaw sur ton VPS : guide pas-à-pas, docker-compose prêt, checklist sécurité, sauvegardes automatiques. 100 % gratuit.">
+<link rel="canonical" href="https://openclaw-france.fr/openclaw/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kit OpenClaw — 100 % gratuit">
+<meta property="og:description" content="Guide pas-à-pas + fichiers prêts + checklist sécurité. Offert à tous.">
+<meta property="og:image" content="/static/og-image.png">
+<link rel="icon" href="/static/favicon.svg">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<a class="barre" href="https://communaute-ia.fr">
+  🦀 Notre média <strong>La Communauté</strong> — l'actu de l'IA et des agents autonomes, écrite et publiée en continu par une IA — <strong>communaute-ia.fr →</strong>
+</a>
+
+<header class="entete">
+  <div class="wrap">
+    <a class="marque" href="/">
+      <span class="logo">🦀</span>
+      <span>OpenClaw France<small>100 % GRATUIT · FRANÇAIS</small></span>
+    </a>
+    <nav class="nav">
+      <a href="/">Accueil</a>
+      <a class="actif" href="/openclaw/">OpenClaw</a>
+      <a href="/hermes/">Hermes Agent</a>
+      <a href="/gratuit/">Pourquoi gratuit ?</a>
+      <a href="/temoignages">Témoignages</a>
+      <a class="btn btn-vert btn-petit" href="/dl/kit-openclaw.zip">⬇ Télécharger 🆓</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="heros">
+    <span class="surtitre">📦 Kit OpenClaw — 100 % gratuit</span>
+    <h1>Installe OpenClaw proprement.<br><span class="degrade">Chaque étape écrite, chaque fichier prêt.</span></h1>
+    <p class="lead">
+      L'assistant personnel open source qui vit sur ta machine — branché à tes messageries et tes outils.
+      Tout ce qu'on vendait 97 € est dans ce kit. Aujourd'hui : <b>0 €</b>.
+    </p>
+    <div class="actions">
+      <a class="btn btn-principal btn-large" href="/dl/kit-openclaw.zip">⬇ Télécharger le kit (.zip)</a>
+      <a class="btn btn-secondaire btn-large" href="/dl/kit-openclaw/">📂 Parcourir les fichiers</a>
+    </div>
+    <div class="mini">
+      <span>⏱️ <b>~30 min</b> d'installation</span>
+      <span>🔒 <b>Sécurisé par défaut</b></span>
+      <span>🇫🇷 <b>100 % en français</b></span>
+    </div>
+  </section>
+
+  <section>
+    <div class="titre-section">
+      <div class="kicker">Contenu du kit</div>
+      <h2>Tout est là. Rien à acheter.</h2>
+    </div>
+    <div class="fichiers">
+      <a class="fichier" href="/dl/kit-openclaw/GUIDE.md"><span class="ico">📖</span><span><b>GUIDE.md</b><small>Le guide pas-à-pas complet</small></span></a>
+      <a class="fichier" href="/dl/kit-openclaw/docker-compose.yml"><span class="ico">🐳</span><span><b>docker-compose.yml</b><small>Le fichier de démarrage prêt</small></span></a>
+      <a class="fichier" href="/dl/kit-openclaw/.env.example"><span class="ico">⚙️</span><span><b>.env.example</b><small>Modèle de configuration (à copier en .env)</small></span></a>
+      <a class="fichier" href="/dl/kit-openclaw/scripts/install.sh"><span class="ico">🚀</span><span><b>scripts/install.sh</b><small>Installation automatique des pré-requis</small></span></a>
+      <a class="fichier" href="/dl/kit-openclaw/scripts/sauvegarde.sh"><span class="ico">💾</span><span><b>scripts/sauvegarde.sh</b><small>Sauvegardes automatiques (cron)</small></span></a>
+      <a class="fichier" href="/dl/kit-openclaw/scripts/mise-a-jour.sh"><span class="ico">🔄</span><span><b>scripts/mise-a-jour.sh</b><small>Mises à jour en une commande</small></span></a>
+      <a class="fichier" href="/dl/kit-openclaw/securite.md"><span class="ico">🛡️</span><span><b>securite.md</b><small>La checklist sécurité (12 points)</small></span></a>
+      <a class="fichier" href="/dl/kit-openclaw/README.md"><span class="ico">🗂️</span><span><b>README.md</b><small>Vue d'ensemble des fichiers</small></span></a>
+    </div>
+  </section>
+
+  <section>
+    <div class="titre-section">
+      <div class="kicker">Comment ça se passe</div>
+      <h2>Trois étapes, et c'est chez toi</h2>
+    </div>
+    <div class="etapes">
+      <div class="etape">
+        <div></div>
+        <div>
+          <h3>Télécharge et décompresse le kit</h3>
+          <p>Le .zip contient le guide, les fichiers de configuration et les scripts. Rien d'exotique : du texte et du shell.</p>
+        </div>
+      </div>
+      <div class="etape">
+        <div></div>
+        <div>
+          <h3>Suis le GUIDE.md (ou lance install.sh)</h3>
+          <p>Étape par étape : pré-requis, Docker, HTTPS, démarrage. Si tu préfères l'automatique, le script fait le gros du travail.</p>
+        </div>
+      </div>
+      <div class="etape">
+        <div></div>
+        <div>
+          <h3>Vérifie la sécurité, programme la sauvegarde</h3>
+          <p>La checklist <b>securite.md</b> (pare-feu, SSH, accès) + <b>sauvegarde.sh</b> en cron : dix minutes qui t'évitent tous les ennuis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="bande">
+      <h2>🛡️ On ne te laisse pas le faire à l'aveugle</h2>
+      <p>
+        La partie qui manque partout ailleurs : la sécurité et les sauvegardes.
+        Le kit couvre le pare-feu, les clés SSH, le HTTPS, les mises à jour automatiques et une sauvegarde testable.
+      </p>
+      <div class="confiance" style="justify-content:flex-start">
+        <span>🔥 Pare-feu (ufw)</span>
+        <span>🔑 Clés SSH uniquement</span>
+        <span>🔒 HTTPS automatique</span>
+        <span>💾 Sauvegardes en cron</span>
+        <span>🔄 Mises à jour</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="titre-section">
+      <div class="kicker">Avant de commencer</div>
+      <h2>Les questions qu'on nous pose</h2>
+    </div>
+    <details class="faq" open>
+      <summary>Il me faut quoi pour commencer ?</summary>
+      <div class="reponse">Une machine à toi (ou un petit VPS à ~5-10 €/mois chez l'hébergeur de ton choix — le kit fonctionne avec n'importe lequel).
+      Et l'envie de suivre des étapes numérotées : le guide est écrit pour les non-techniques.</div>
+    </details>
+    <details class="faq">
+      <summary>C'est vraiment le pack qui était vendu 97 € ?</summary>
+      <div class="reponse">Oui — même contenu, même exigence, <a href="/gratuit/">désormais gratuit</a>. Pas de version bridée, pas de paiement caché.</div>
+    </details>
+    <details class="faq">
+      <summary>Et si je casse quelque chose ?</summary>
+      <div class="reponse">C'est pour ça que le kit inclut la sauvegarde automatique dès l'installation.
+      Et pour le reste : le support communautaire vit sur <a href="https://communaute-ia.fr">La Communauté</a> et le <a href="https://github.com/mael-ctrl/openclaw-france-communaute" rel="noopener">GitHub</a>.</div>
+    </details>
+  </section>
+
+  <section style="text-align:center">
+    <a class="btn btn-principal btn-large" href="/dl/kit-openclaw.zip">⬇ Télécharger le kit OpenClaw — gratuit</a>
+    <p style="color:var(--texte-2);margin-top:14px">Pas de compte. Pas de carte bancaire. Pas de limite de temps.</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="pied">
+      <div>
+        <a class="marque" href="/"><span class="logo">🦀</span><span>OpenClaw France<small>100 % GRATUIT · FRANÇAIS</small></span></a>
+        <p style="color:var(--texte-2);font-size:14px;margin-top:14px">
+          Les kits d'installation OpenClaw &amp; Hermes Agent, offerts à tous.<br>
+          Contact : <a href="mailto:support@openclaw-france.fr">support@openclaw-france.fr</a> · +33 7 45 88 68 20
+        </p>
+      </div>
+      <div>
+        <h4>Les kits</h4>
+        <a href="/openclaw/">Kit OpenClaw 🆓</a>
+        <a href="/hermes/">Kit Hermes Agent 🆓</a>
+        <a href="/gratuit/">Pourquoi c'est gratuit</a>
+        <a href="/temoignages">Témoignages</a>
+      </div>
+      <div>
+        <h4>Le projet</h4>
+        <a href="https://communaute-ia.fr" rel="noopener">La Communauté 🦀</a>
+        <a href="https://github.com/mael-ctrl/openclaw-france-communaute" rel="noopener">Code source (GitHub)</a>
+        <a href="/mentions-legales">Mentions légales</a>
+        <a href="/politique-de-confidentialite">Confidentialité</a>
+      </div>
+    </div>
+    <div class="bas">
+      <span>Propulsé par <b>BLOCKOS</b> · © 2026 OpenClaw France</span>
+      <span>Site statique · zéro cookie · <a href="/gratuit/">100 % gratuit</a></span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

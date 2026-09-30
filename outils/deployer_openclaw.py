@@ -9,6 +9,7 @@ import ftplib
 import pathlib
 import subprocess
 import sys
+import zipfile
 
 RACINE = pathlib.Path(__file__).resolve().parent.parent
 SOURCE = RACINE / "sites" / "openclaw-france"
@@ -28,7 +29,24 @@ def mot_de_passe():
     raise RuntimeError("mot de passe FTP introuvable au Trousseau")
 
 
+def preparer_zips() -> None:
+    """Fabrique dl/kit-openclaw.zip et dl/kit-hermes.zip à partir des dossiers."""
+    for kit in ("kit-openclaw", "kit-hermes"):
+        dossier = SOURCE / "dl" / kit
+        if not dossier.is_dir():
+            print(f"   (kit {kit} pas encore prêt — ignoré)")
+            continue
+        cible = SOURCE / "dl" / f"{kit}.zip"
+        with zipfile.ZipFile(cible, "w", zipfile.ZIP_DEFLATED) as z:
+            for f in sorted(dossier.rglob("*")):
+                if f.is_file():
+                    z.write(f, f.relative_to(dossier).as_posix())
+        print(f"   ⚡ {cible.name} → {cible.stat().st_size} octets")
+
+
 def main() -> int:
+    print("Préparation des archives téléchargeables :")
+    preparer_zips()
     ftp = ftplib.FTP(HOTE, timeout=120)
     ftp.login(UTILISATEUR, mot_de_passe())
     ftp.set_pasv(True)

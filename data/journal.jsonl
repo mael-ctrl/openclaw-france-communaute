@@ -113,3 +113,10 @@
 {"ts": "2026-09-30T15:14:18+00:00", "evenement": "deploiement", "details": {"fichiers": 104, "octets": 1216523}}
 {"ts": "2026-09-30T15:14:18+00:00", "evenement": "indexation", "details": {"indexnow": 200}}
 {"ts": "2026-09-30T15:14:18+00:00", "evenement": "bilan", "details": {"duree_s": 201.7, "neufs": 4, "breves": 2, "articles": 0, "fichiers": 95, "envois": 104, "publications": 0}}
+{"ts": "2026-09-30T16:37:15+00:00", "evenement": "collecte", "details": {"neufs": 0}}
+{"ts": "2026-09-30T16:37:18+00:00", "evenement": "erreur", "details": {"message": "construction : [Errno 60] Operation timed out: '/Users/maelsamir/Desktop/Openclaw/communaute/_site/index.html'"}}
+{"ts": "2026-09-30T16:37:42+00:00", "evenement": "collecte", "details": {"neufs": 10}}
+{"ts": "2026-09-30T16:37:42+00:00", "evenement": "construction", "details": {"fichiers": 95}}
+{"ts": "2026-09-30T16:55:02+00:00", "evenement": "erreur", "details": {"message": "déploiement : [Errno 54] Connection reset by peer"}}
+{"ts": "2026-09-30T16:55:02+00:00", "evenement": "indexation", "details": {"indexnow": 200}}
+{"ts": "2026-09-30T16:55:02+00:00", "evenement": "bilan", "details": {"duree_s": 1057.8, "neufs": 10, "breves": 0, "articles": 0, "fichiers": 95, "publications": 0}}

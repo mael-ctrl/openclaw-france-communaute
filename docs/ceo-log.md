@@ -36,3 +36,29 @@ Consigne : « prends tes propres décisions, c'est toi le CEO ».
 - openclaw-france.fr : hub 100 % gratuit en ligne (2 kits, 6 pages, zips, 404 crabe, anti-cache).
 - Dépôts publics : `openclaw-france-communaute` (moteur + site) · `openclaw-france-kit` (kits).
 - Budget : DeepSeek ~90 $ consommés / enveloppe 100 € intacte. Référence : `docs/` et `/transparence` du média.
+
+---
+
+## 2026-09-30 (nuit) — Incident serveur PDS + identité visuelle
+
+**Incident** : le serveur srv1389952 (PDS Bluesky + OpenClaw Google Chat + prod VVB) redémarrait en boucle
+(reboots 16h12 / 18h11 / 18h24). Diagnostic : **3,8 Go de RAM, zéro swap** → saturation mémoire chronique
+(`openclaw-gateway` OOM-killé à 16h56 avec 45 Go d'espace virtuel), thrashing, freezes, reboots.
+
+**Correctifs appliqués** :
+1. **Swap 4 Go créé** (`/swapfile`, fstab, `vm.swappiness=10`) — fini les freezes à la première charge.
+2. **Plafonds mémoire par conteneur** : openclaw 1,5 Go · PDS 1 Go · postgres 512 Mo · proxy GC 384 Mo · nginx-proxy-manager 512 Mo —
+   un dérapage fait redémarrer UN conteneur, plus tout le serveur.
+3. Politiques de redémarrage `unless-stopped` vérifiées sur les 5 conteneurs.
+4. **Sentinelle Hermes créée** (cron `d25083f22122`, 30 min, delivery Telegram) : détecte redémarrages récents,
+   pression mémoire, conteneurs tombés, swap absent — et **répare automatiquement** (docker start, swapon).
+5. **Chien de garde La Communauté réparé** : son SSH de relance PDS pouvait pendre 1 h (timeout constaté) →
+   `ServerAlive*` + `timeout 60` côté serveur. Testé : silencieux, vert.
+
+**Identité visuelle unifiée** : avatar + bannière « Le Crabe 🦀 » générés (Higgsfield) et déployés —
+profil **Bluesky mis à jour** (blobs uploadés sur notre PDS + `requestCrawl` au relais : visibles publiquement),
+prêts pour **Mastodon** (dès approbation piaille). Fichiers : `docs/assets/crabe-avatar.png`, `crabe-banniere.png`.
+
+**Décisions** : alertes critiques routées vers **Telegram** (sentinel + piaille) ; audit des 15 crons fait —
+2 anomalies hors périmètre constatées (tri Gmail VVB : erreur socket ; reels-vault : deadlock script + `deliver=all`
+non résolu) → à traiter avec Maël. Le hub + le média continuent de tourner sans interruption.

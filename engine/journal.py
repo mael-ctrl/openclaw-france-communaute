@@ -4,6 +4,7 @@
 Tout ce que fait le robot est consigné : c'est la matière première de la
 page /transparence. Aucun effacement : le journal s'allonge, c'est voulu.
 """
+import hashlib
 import json
 import time
 from datetime import datetime, timezone
@@ -42,9 +43,19 @@ def sauver_stats(stats):
 
 
 def ajouter(evenement, **details):
-    """Ajoute une entrée au journal (une ligne JSON)."""
+    """Ajoute une entrée au journal (une ligne JSON).
+
+    Depuis le 2026-10-01, chaque ligne porte un champ ``sha256`` :
+    l'auto-empreinte de son contenu (forme canonique, clés triées, sans le
+    champ lui-même). C'est la brique d'intégrité du dossier de record — les
+    lignes antérieures restent couvertes par les manifestes quotidiens
+    (``data/preuves/``).
+    """
     config.DOSSIER_DATA.mkdir(parents=True, exist_ok=True)
     entree = {"ts": _iso(_maintenant()), "evenement": evenement, "details": details}
+    entree["sha256"] = hashlib.sha256(
+        json.dumps(entree, ensure_ascii=False, sort_keys=True,
+                   separators=(",", ":")).encode("utf-8")).hexdigest()
     with open(config.FICHIER_JOURNAL, "a", encoding="utf-8") as f:
         f.write(json.dumps(entree, ensure_ascii=False) + "\n")
     return entree

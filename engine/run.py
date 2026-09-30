@@ -22,6 +22,7 @@ import deepseek          # noqa: E402
 import deploiement       # noqa: E402
 import indexnow          # noqa: E402
 import journal           # noqa: E402
+import preuves           # noqa: E402
 import redaction         # noqa: E402
 import social            # noqa: E402
 
@@ -166,7 +167,16 @@ def main():
         except Exception as e:
             journal.erreur(f"diffusion sociale : {e}")
 
-    # 8) Bilan
+    # 10) Preuves horodatées (dossier de record) — registre + sceau du jour
+    if not args.essai:
+        try:
+            info_preuves = preuves.apres_run()
+            if info_preuves:
+                print(f"   🧾 Preuves : {info_preuves}")
+        except Exception as e:
+            journal.erreur(f"preuves : {e}")
+
+    # 11) Bilan
     journal.ajouter("bilan", duree_s=round(time.time() - debut, 1), **resume)
 
     print(f"🦀 Terminé en {time.time() - debut:.0f} s — "

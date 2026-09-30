@@ -196,6 +196,8 @@ def page_transparence(breves, articles, stats, entrees_journal):
       <li><a href="{config.DEPOT_GITHUB}/actions" rel="noopener">L'historique des exécutions</a> — les runs de la machine, horodatés.</li>
       <li><a href="{config.DEPOT_GITHUB}/commits" rel="noopener">Les commits</a> — chaque mise à jour du site laisse une trace signée.</li>
       <li><a href="/feed.xml">Le flux RSS</a> — la preuve, en direct, que ça tourne.</li>
+      <li><a href="{config.DEPOT_GITHUB}/blob/main/data/publications.jsonl" rel="noopener">Le registre des publications</a> — chaque item publié, horodaté et scellé (SHA-256).</li>
+      <li><a href="{config.DEPOT_GITHUB}/tree/main/data/preuves" rel="noopener">Les manifestes quotidiens</a> — le sceau de chaque journée d'exploitation, chaînés entre eux.</li>
     </ul>
 
     <h2 class="sous-titre">Journal de bord <span class="sous-titre-note">(les 40 dernières entrées, la plus récente en haut)</span></h2>

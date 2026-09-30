@@ -161,3 +161,7 @@
 {"ts": "2026-09-30T23:01:00+00:00", "evenement": "deploiement", "details": {"fichiers": 138, "octets": 1553872}}
 {"ts": "2026-09-30T23:01:00+00:00", "evenement": "indexation", "details": {"indexnow": 200}}
 {"ts": "2026-09-30T23:01:00+00:00", "evenement": "bilan", "details": {"duree_s": 188.9, "neufs": 11, "breves": 6, "articles": 0, "fichiers": 129, "envois": 138, "publications": 0}}
+{"ts": "2026-09-30T23:42:38+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-09-30.json", "publications": 115}, "sha256": "4b64078fc8e87cef3b3b0cea98a4264f2bffa9a799ad8efbff07efbd2b2f2ce7"}
+{"ts": "2026-09-30T23:45:21+00:00", "evenement": "collecte", "details": {"neufs": 3}, "sha256": "97498a91061abacb88ea4ffd5cb00d629c2a214ae65600630c35c8029e0ecb5a"}
+{"ts": "2026-09-30T23:47:43+00:00", "evenement": "construction", "details": {"fichiers": 129}, "sha256": "d6b5cf5344d4df8e8d59f14229bad3a3739addda294bd0eb72731c05f50937de"}
+{"ts": "2026-09-30T23:47:52+00:00", "evenement": "bilan", "details": {"duree_s": 179.4, "neufs": 3, "breves": 0, "articles": 0, "fichiers": 129, "publications": 0}, "sha256": "1940763967cc058b0eb14a32c07238dfde9a38db777b70349639aa1749460c1c"}

@@ -1,9 +1,10 @@
 # 🦀 Dossier Guinness World Records — « La Communauté » / Le Crabe
 
 **Objet** : préparer une candidature de record Guinness pour « La Communauté »
-(`communaute.openclaw-france.fr`, dépôt `mael-ctrl/openclaw-france-communaute`) —
-média d'actualité IA francophone **entièrement écrit, édité, construit et publié
-par une IA** (« Le Crabe », OpenClaw France), sans relecture humaine.
+(`communaute-ia.fr` — l'ex-adresse `communaute.openclaw-france.fr` redirige
+en 301 —, dépôt `mael-ctrl/openclaw-france-communaute`) — média d'actualité IA
+francophone **entièrement écrit, édité, construit et publié par une IA**
+(« Le Crabe », OpenClaw France), sans relecture humaine.
 
 **Statut** : dossier de préparation. Aucune candidature, aucun paiement, aucun
 contact n'a été effectué. Toutes les informations « Guinness » ci-dessous ont été
@@ -184,30 +185,40 @@ recommandé).
       erreurs) + `data/stats.json` (compteurs, coûts, erreurs récentes).
 - [x] **Traçabilité par article** : chaque item cite sa source cliquable ;
       flux RSS (`/feed.xml`) + `sitemap.xml`.
-- [x] **Baseline chiffrée (au 30/09/2026)** : 5 runs, 29 brèves, 1 article
-      publiés depuis le premier run du 29/09/2026 21:22 UTC (`data/stats.json`).
-- [x] **Distribution tierce** : compte Bluesky `@communaute.openclaw-france.fr`
-      (PDS auto-hébergé) — chaque publication y crée un post horodaté,
-      vérifiable via l'API publique.
+- [x] **Baseline chiffrée (au 01/10/2026)** : 28 passes, 370 dépêches lues,
+      100 brèves + 1 article (compteurs `data/stats.json`) ; **115 publications
+      au registre scellé** (113 brèves + 2 articles, `data/publications.jsonl`),
+      depuis le premier run du 29/09/2026 21:22:15 UTC.
+- [x] **Distribution tierce** : compte Bluesky `@communaute-ia.fr` (PDS
+      auto-hébergé `atproto.openclaw-france.fr`) — chaque publication y crée un
+      post horodaté, vérifiable via l'API publique.
 
-### 3.2 Renforcements à mettre en place dès maintenant (preuves anticipées)
+### 3.2 Renforcements — routine de preuves (mise à jour du 01/10/2026)
 
-- [ ] **Chaînage d'intégrité du journal** : ajouter à chaque ligne de
-      `journal.jsonl` le `hash` de la ligne précédente (chaîne de hachage
-      type append-only log) → rend toute réécriture détectable.
-- [ ] **Tags Git signés mensuels** (`archive-AAAA-MM`) + notes de version avec
-      manifeste **SHA-256** de tous les items publiés dans le mois.
-- [ ] **Archivage web daté automatique** : capture quotidienne (Wayback Machine
-      « Save Page Now ») de la page d'accueil, de `/transparence/`, du flux RSS
-      et de chaque brève → preuve d'existence en ligne horodatée par un tiers
-      (Internet Archive).
-- [ ] **Exports mensuels des logs GitHub Actions** (résumé des runs : horodatage,
-      statut, durée) conservés dans le dépôt ou en release.
-- [ ] **Captures d'écran datées** mensuelles de `/transparence/` (montre
-      l'évolution des chiffres dans le temps).
-- [ ] **Jeu de données publiable** : `data/publications.jsonl`
-      (id, date, type, titre, source(s), hash du contenu) — téléchargeable,
-      c'est la « pièce maîtresse » du comptage.
+- [x] **Chaînage d'intégrité du journal** — **en place depuis le 01/10/2026** :
+      auto-empreinte SHA-256 sur chaque nouvelle ligne de `journal.jsonl`
+      (forme canonique, clés triées) + **manifestes quotidiens chaînés**
+      (`data/preuves/manifeste-AAAA-MM-JJ.json`) qui scellent l'ensemble
+      (journal, stats, registre) et embarquent le SHA-256 du sceau précédent.
+      Choix technique : le chaînage « lien vers la ligne précédente » a été
+      remplacé par le chaînage par manifestes (écritures concurrentes local +
+      GitHub Actions : un chaînage ligne à ligne créerait des fourches) ; les
+      lignes antérieures au 01/10 restent couvertes par les empreintes globales
+      du premier manifeste.
+- [x] **Tags Git mensuels** : premier tag posé (`archive-2026-09`, annoté,
+      poussé sur le dépôt). Pas de clé GPG sur ce poste à ce jour — tag annoté
+      + horodatage GitHub à défaut ; signature cryptographique à renforcer si
+      Guinness l'exige.
+- [x] **Archivage web daté automatique** : capture quotidienne Wayback Machine
+      (`engine/archive.py`, max 3 tentatives/jour ; les 429 anonymes sont
+      fréquents — comportement connu). v2 : étendre aux pages `/transparence/`
+      et au flux RSS.
+- [x] **Jeu de données publiable** : `data/publications.jsonl` — **115 lignes au
+      01/10/2026** (113 brèves, 2 articles ; id, date, type, titre, URL, sources,
+      SHA-256 du contenu). Régénéré à chaque passe, publié dans le dépôt.
+- [~] **Exports mensuels des runs GitHub Actions** → intégrés à la tournée
+      mensuelle de preuves (cron Hermes « record », 1er du mois).
+- [~] **Captures d'écran datées** mensuelles de `/transparence/` → même tournée.
 - [ ] **Attestation indépendante** (à prévoir pour la fenêtre de mesure) : un
       tiers qualifié (ex. commissaire de justice ou auditeur technique) atteste
       du dispositif « zéro relecture humaine » pendant la période mesurée.
@@ -215,6 +226,8 @@ recommandé).
       utiles pour la presse, non requises comme preuve du record lui-même.
 - [ ] *(Optionnel, plus tard, si Guinness l'exige)* : attestation d'hébergeur
       (OVH) ou relevé de logs serveur.
+
+> **Protocole détaillé** : `docs/protocole-mesure.md` (rédigé le 01/10/2026).
 
 ### 3.3 Correspondance avec les exigences officielles (« Guide to Your Evidence »)
 
@@ -248,15 +261,16 @@ expert indépendant qui atteste du dispositif ferme ce point.
 
 ### 3.5 URLs de référence (à inclure dans le dossier de candidature)
 
-- Site : `https://communaute.openclaw-france.fr/`
-- Manifeste : `https://communaute.openclaw-france.fr/manifeste/`
-- Transparence : `https://communaute.openclaw-france.fr/transparence/`
-- Flux RSS : `https://communaute.openclaw-france.fr/feed.xml` — `sitemap.xml`
+- Site : `https://communaute-ia.fr/`
+- Manifeste : `https://communaute-ia.fr/manifeste/`
+- Transparence : `https://communaute-ia.fr/transparence/`
+- Flux RSS : `https://communaute-ia.fr/feed.xml` — `sitemap.xml`
 - Dépôt : `https://github.com/mael-ctrl/openclaw-france-communaute`
 - Journal : `…/blob/main/data/journal.jsonl` — Stats : `…/blob/main/data/stats.json`
+- Registre des publications : `…/blob/main/data/publications.jsonl` — Manifestes : `…/tree/main/data/preuves`
 - Runs : `https://github.com/mael-ctrl/openclaw-france-communaute/actions`
-- Bluesky : `https://bsky.app/profile/communaute.openclaw-france.fr`
-- Archives web : `https://web.archive.org/web/*/communaute.openclaw-france.fr*`
+- Bluesky : `https://bsky.app/profile/communaute-ia.fr`
+- Archives web : `https://web.archive.org/web/*/communaute-ia.fr*`
 - (optionnel) Santé PDS : `https://atproto.openclaw-france.fr/xrpc/_health`
 
 ---
@@ -329,7 +343,7 @@ charge du candidat au moment de soumettre).
 > website written and published entirely by an artificial intelligence, without
 > human editorial intervention.*
 >
-> Since 29 September 2026, « La Communauté » (communaute.openclaw-france.fr), a
+> Since 29 September 2026, « La Communauté » (communaute-ia.fr), a
 > French-language news outlet covering the global AI ecosystem, has been
 > operated exclusively by an autonomous AI system (« Le Crabe », OpenClaw
 > France). Every task — source collection, writing and editing of all news
@@ -423,8 +437,9 @@ B en changeant la première phrase et la phrase « Measurement ».)*
 ## 8. Calendrier réaliste
 
 - **M+0 (fait)** : socle de preuves en place (dépôt, journal, workflow, transparence).
-- **M+0 à M+1** : renforcements §3.2 (chaînage du journal, archivage Wayback,
-  tags signés, dataset) ; protocole de mesure figé.
+- **M+0 à M+1** : renforcements §3.2 — **livrés dès le 01/10 (J+2)** : chaînage
+  (manifestes + auto-empreintes), dataset, premier tag mensuel, protocole de
+  mesure.
 - **M+3** : ~3 mois de journal continu (auto-exigence de crédibilité, pas une
   règle Guinness) → **soumission de la candidature** (compte + formulaire +
   frais de nouveau titre le cas échéant).
@@ -449,13 +464,16 @@ B en changeant la première phrase et la phrase « Measurement ».)*
 
 ## 10. Prochaine étape concrète
 
-1. **Valider la formulation du titre principal** (Option C, « Longest-running »)
-   — une phrase, une variable, zéro opinion.
-2. **Activer la routine de preuves horodatées** (§3.2) : chaînage du journal,
-   archivage Wayback quotidien, tag Git signé mensuel, dataset
-   `publications.jsonl`.
-3. **Rédiger le protocole de mesure** (définition précise de « sans intervention
-   éditoriale humaine ») et le faire relire par un tiers indépendant pressenti.
+1. **Formulation du titre principal** — Option C (« Longest-running ») actée
+   comme titre principal (décision CEO du 01/10/2026) ; formulation exacte
+   figée dans `docs/protocole-mesure.md`, à confirmer à la soumission.
+2. **Routine de preuves horodatées** — ✅ **activée le 01/10/2026** : registre
+   `data/publications.jsonl`, manifestes quotidiens chaînés (`data/preuves/`),
+   auto-empreinte du journal, premier tag mensuel `archive-2026-09` ; tournée
+   de contrôle mensuelle (cron « record ») pour le suivi et les exports.
+3. **Protocole de mesure** — ✅ **rédigé le 01/10/2026**
+   (`docs/protocole-mesure.md`) ; prochaine étape : relecture par un tiers
+   indépendant pressenti (M+1).
 4. **Soumettre la candidature** via un compte officiel dès ~3 mois de journal
    continu (≈ fin décembre 2026) — sans paiement en dehors des frais officiels
    éventuels de nouveau titre (5 £/5 $, à confirmer au moment du dépôt).

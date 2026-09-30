@@ -62,3 +62,37 @@ prêts pour **Mastodon** (dès approbation piaille). Fichiers : `docs/assets/cra
 **Décisions** : alertes critiques routées vers **Telegram** (sentinel + piaille) ; audit des 15 crons fait —
 2 anomalies hors périmètre constatées (tri Gmail VVB : erreur socket ; reels-vault : deadlock script + `deliver=all`
 non résolu) → à traiter avec Maël. Le hub + le média continuent de tourner sans interruption.
+
+---
+
+## 2026-10-01 (nuit) — Preuves du record + alertes assainies
+
+**Contexte** : Maël — « t'es un CEO, le but c'est le Guinness Book, pousse tout à fond ». Cap maintenu.
+
+**Décisions & livraisons** :
+1. **Routine de preuves du record activée** (§3.2 du dossier) : registre
+   `data/publications.jsonl` (**115 publications scellées SHA-256**), **manifestes quotidiens
+   chaînés** (`data/preuves/`), auto-empreinte SHA-256 de chaque nouvelle ligne du journal,
+   premier tag Git `archive-2026-09`. **Protocole de mesure rédigé** (`docs/protocole-mesure.md`).
+2. **Alertes assainies** : corrections de la décision du 30/09 — Telegram n'a **jamais eu de token**
+   sur ce Mac (les 2 jobs d'alerte étaient bloqués 9 fois avant exécution) ; livraison reroutée sur
+   **Discord #général** ; sentinelle `d25083f22122` en **mode alerte seule** (le VPS ne se touche pas :
+   la réparation appartient à la session Discord). Prouvé de bout en bout : passe réelle OK + `[SILENT]`
+   correct + test de livraison reçu.
+3. **Rebond presse consigné** : LeBigData — `contact@publithings.com` est **morte**
+   (550 5.1.1 « account does not exist », preuve MAILER-DAEMON du 30/09 17:27:42 UTC ; noté `rebond`
+   dans `envois.jsonl`, fiche contact corrigée). Canaux restants : formulaire (téléphone) ou X
+   `@lebigdata_fr`. **Aucun renvoi presse** avant la fenêtre de relance (~07/10) et accord explicite.
+4. **VPS** : relevés du 01/10 01:28 (Paris) verts — RAM dispo 1,3 Gio, swap actif, 5/5 conteneurs
+   (OpenClaw revenu). Aucune action serveur — lecture seule stricte.
+
+**Correction d'archive** : l'entrée du 30/09 « alertes routées vers Telegram » et « répare
+automatiquement » est **périmée** (voir ci-dessus). Les redémarrages du 30/09 16:11/18:11 UTC étaient
+**manuels (Maël)** ; les OOM des 23 et 30/09 sont confirmés ; les garde-fous mémoire installés ne
+prouvent pas à eux seuls une stabilité durable.
+
+**Mouvements en cours (priorité)** :
+- [ ] Distribution : création des comptes (Journal du Hacker, jlai.lu, Reddit, Product Hunt…) — batching coffre en une session
+- [ ] Page anglaise du hub (`/en/`) pour HN / Reddit
+- [ ] Tournée mensuelle « record » (cron Hermes, 1er du mois : sceaux + tag + exports)
+- [ ] Relances presse ~07/10 (accord explicite)

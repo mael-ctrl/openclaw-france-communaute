@@ -155,6 +155,14 @@ vague 2 ou pour l'angle francophonie).
 - **Pertinence** : moyenne
 - **Notes** : aimant les contenus « expertises & analyses », proposer un
   retour d'expérience technique chiffré.
+- **⚠️ Rebond constaté (vérifié le 01/10/2026)** : l'adresse
+  `contact(at)publithings(.)com` publiée ci-dessus est **morte** — Gmail a
+  répondu `550 5.1.1 account does not exist` le 30/09 à 17:27:42 UTC (preuve :
+  MAILER-DAEMON OVH dans la boîte du Crabe ; consigné `rebond` dans
+  `envois.jsonl`). La page « Qui sommes-nous » ne propose que le formulaire de
+  contact (téléphone obligatoire — à arbitrer) et le DM X `@lebigdata_fr`.
+  Piste non vérifiée : `mariano@publithings.com` (indice : slug auteur
+  « marianopublithings-com » du site) — ne pas utiliser sans confirmation.
 
 ### 10. Siècle Digital
 - **Description / audience** : média de l'actualité économique du numérique

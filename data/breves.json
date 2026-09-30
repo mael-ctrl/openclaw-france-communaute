@@ -1,5 +1,46 @@
 [
  {
+  "id": "9152772bed5fae48",
+  "slug": "qwen-3-8-27b-tourne-sur-les-npu-amd-via-fastflowlm-a-1-token-s-915277",
+  "titre": "Qwen 3.8 27B tourne sur les NPU AMD via FastFlowLM, à 1 token/s",
+  "resume": "Le projet FastFlowLM permet désormais d'exécuter le modèle Qwen 3.8 27B sur les NPU AMD, selon un signalement publié sur r/LocalLLaMA le 30 septembre 2026. La vitesse de décodage annoncée est d'environ un token par seconde, un rythme très lent en usage réel. L'intérêt tient surtout à la cible matérielle : faire tourner un modèle de cette taille sur les unités de calcul neural intégrées aux puces AMD plutôt que sur un GPU dédié.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wud77g/you_can_now_run_qwen_38_27b_on_amd_npus_via/",
+  "date_source": "2026-09-30T18:45:42+00:00",
+  "date_redac": "2026-09-30T18:50:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 643,
+   "sortie": 644
+  }
+ },
+ {
+  "id": "0e94909091ce297b",
+  "slug": "elevenlabs-double-sa-valorisation-a-22-milliards-de-dollars-0e9490",
+  "titre": "ElevenLabs double sa valorisation à 22 milliards de dollars",
+  "resume": "ElevenLabs, start-up d'IA vocale, double sa valorisation pour atteindre 22 milliards de dollars. Le rachat d'actions réservé aux salariés, d'un montant de 300 millions de dollars, est co-dirigé par Wellington et T. Rowe Price. Cette opération confirme l'intérêt des investisseurs pour les entreprises d'IA vocale.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+  "date_source": "2026-09-30T18:23:57+00:00",
+  "date_redac": "2026-09-30T18:50:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 614,
+   "sortie": 1055
+  }
+ },
+ {
   "id": "0fa37d46192587cc",
   "slug": "meta-et-openai-veulent-relancer-l-ia-sur-des-appareils-dedies-0fa37d",
   "titre": "Meta et OpenAI veulent relancer l'IA sur des appareils dédiés",
@@ -104,6 +145,28 @@
    "modele": "deepseek-flash",
    "entree": 625,
    "sortie": 812
+  }
+ },
+ {
+  "id": "f672c2dd4cca1f94",
+  "slug": "un-jeu-de-frappe-entier-construit-par-claude-opus-5-5-depuis-un-seul-p-f672c2",
+  "titre": "Un jeu de frappe entier construit par Claude Opus 5.5 depuis un seul prompt",
+  "resume": "Sur r/ClaudeAI, un utilisateur a demandé à Claude Opus 5.5 de construire de bout en bout un jeu de frappe, à partir d'un seul prompt. Le résultat : un site gratuit et responsive, avec classement mondial et pseudo GitHub ou X facultatif pour l'avatar, sans inscription. Le prompt prévoyait aussi des tests visuels et mécaniques, des itérations, et des tâches parallèles confiées à des sous-agents Sonnet 5.5.",
+  "tags": [
+   "claude",
+   "dev",
+   "open-source",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wubinx/i_asked_claude_opus_55_to_build_a_typing_game_end/",
+  "date_source": "2026-09-30T17:43:17+00:00",
+  "date_redac": "2026-09-30T18:50:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 799,
+   "sortie": 895
   }
  },
  {
@@ -333,6 +396,70 @@
    "modele": "deepseek-flash",
    "entree": 798,
    "sortie": 1115
+  }
+ },
+ {
+  "id": "617957b9720c7d75",
+  "slug": "un-developpeur-d-agents-deplore-les-limites-des-outils-de-memoire-ia-617957",
+  "titre": "Un développeur d'agents déplore les limites des outils de mémoire IA",
+  "resume": "Un développeur qui construit des agents sur l'API de Claude critique les outils de mémoire actuels, qu'il résume à des bases vectorielles avec une surcouche. Il rapporte qu'un utilisateur ayant annoncé son déménagement de Delhi à Mumbai a ensuite reçu une recommandation de restaurant à Delhi. Il réclame une extraction typée, la gestion des contradictions et une résolution d'entités.",
+  "tags": [
+   "claude",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wu7wnl/why_is_ai_memory_still_all_messed_up/",
+  "date_source": "2026-09-30T15:26:53+00:00",
+  "date_redac": "2026-09-30T18:50:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 809,
+   "sortie": 989
+  }
+ },
+ {
+  "id": "ee4e5ebc97a7bd57",
+  "slug": "sonnet-5-5-coute-30-fois-plus-cher-que-gpt-6-1-sol-sur-une-tache-3d-ee4e5e",
+  "titre": "Sonnet 5.5 coûte 30 fois plus cher que GPT 6.1 Sol sur une tâche 3D",
+  "resume": "Un utilisateur a confronté les deux modèles sur un même prompt : un clavier en acrylique transparent qui se construit touche par touche en Three.js. GPT 6.1 Sol a fini en 11 minutes avec 4 agents pour 1,78 dollar ; Sonnet 5.5 a découpé la tâche en 19 agents, tourné 78 minutes et coûté 57,34 dollars. Les rendus se ressemblent ; l'auteur préfère un peu ceux de Sonnet, mais juge l'écart de prix injustifiable.",
+  "tags": [
+   "claude",
+   "openai",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wu7ujz/sonnet_55_30x_more_expensive_than_gpt_61_sol_on/",
+  "date_source": "2026-09-30T15:24:36+00:00",
+  "date_redac": "2026-09-30T18:50:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 855,
+   "sortie": 863
+  }
+ },
+ {
+  "id": "a9b64ea3dcb9026f",
+  "slug": "un-court-metrage-anime-realise-avec-claude-connecte-au-mcp-de-magnific-a9b64e",
+  "titre": "Un court-métrage animé réalisé avec Claude connecté au MCP de Magnific",
+  "resume": "Un utilisateur de Reddit dit avoir réalisé un court-métrage animé en connectant Claude au MCP de Magnific. Presque tout le travail s'est fait dans Claude, grâce à une compétence Seedance 2.5 qui transforme des prompts en langage naturel en prompts visuels détaillés. Il estime que 99 % du processus s'est déroulé dans Claude, pour un film abouti en une cinquantaine de jours, post-production comprise.",
+  "tags": [
+   "claude",
+   "skills",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wu7tpd/i_made_this_animated_short_film_with_claude/",
+  "date_source": "2026-09-30T15:23:42+00:00",
+  "date_redac": "2026-09-30T18:50:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 769,
+   "sortie": 854
   }
  },
  {

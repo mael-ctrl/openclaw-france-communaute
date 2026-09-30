@@ -1,5 +1,108 @@
 [
  {
+  "id": "7b4fe7fe19d7ac2a",
+  "slug": "llama-halo-hybrid-strix-halo-r9700-depasse-le-dgx-spark-7b4fe7",
+  "titre": "llama-halo-hybrid : Strix Halo + R9700 dépasse le DGX Spark",
+  "resume": "Le projet llama-halo-hybrid, mis à jour après deux mois d'expérimentation sur Strix Halo, combine un GPU R9700 et l'APU : parties denses du modèle, KV et certaines couches sur le GPU, le reste sur l'APU, via PCIe, Occulink ou Thunderbolt. Annoncé : plus de 60 tok/s en décodage et 2000+ tok/s en prefill, avec 256k de contexte. C'est du llama.cpp modifié sous licence MIT, optimisé pour Qwen et GLM.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuet5g/update_strix_halo_r9700_with_llamahalohybrid_now/",
+  "date_source": "2026-09-30T19:46:31+00:00",
+  "date_redac": "2026-09-30T20:14:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 831,
+   "sortie": 1326
+  }
+ },
+ {
+  "id": "de25e71f211b8e06",
+  "slug": "framework-ouvre-les-precommandes-d-un-desktop-amd-ryzen-ai-max-400-a-1-de25e7",
+  "titre": "Framework ouvre les précommandes d'un Desktop AMD Ryzen AI Max 400 à 192 Go",
+  "resume": "Framework a ouvert les précommandes de son Desktop, en édition DIY, équipé d'un processeur AMD Ryzen AI Max 400 Series et de 192 Go de mémoire. L'information a été relayée sur le forum r/LocalLLaMA, où la communauté suit de près les machines capables de faire tourner des modèles en local. La capacité mémoire annoncée place cette configuration parmi les plus généreuses pour ce type d'usage.",
+  "tags": [
+   "matériel",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wue339/preorder_for_new_amd_ryzen_ai_max_400_series/",
+  "date_source": "2026-09-30T19:19:05+00:00",
+  "date_redac": "2026-09-30T20:14:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 646,
+   "sortie": 1087
+  }
+ },
+ {
+  "id": "842bfa8477b834ba",
+  "slug": "dgx-spark-prix-en-hausse-de-2-000-en-une-semaine-stocks-introuvables-842bfa",
+  "titre": "DGX Spark : prix en hausse de 2 000 $ en une semaine, stocks introuvables",
+  "resume": "Sur r/LocalLLaMA, un utilisateur qui veut acheter deux DGX Spark explique ne trouver aucun vendeur. Il rapporte une hausse de prix d'environ 2 000 dollars en une semaine. Un Microcenter local affichait plus de 25 unités en stock, puis zéro le lendemain. Il se demande si le stock est retiré de la vente.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wudurg/whats_going_on_with_dgx_spark_price_up_2k_in_1/",
+  "date_source": "2026-09-30T19:10:24+00:00",
+  "date_redac": "2026-09-30T20:14:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 677,
+   "sortie": 469
+  }
+ },
+ {
+  "id": "57be508c89747b5e",
+  "slug": "claude-code-v2-1-286-permissions-empilees-et-correctifs-de-session-57be50",
+  "titre": "Claude Code v2.1.286 : permissions empilées et correctifs de session",
+  "resume": "La version 2.1.286 de Claude Code ajoute un compteur du type « 2 of 5 » à l'invite de permission lorsque plusieurs demandes s'empilent, et le support de la souris sur les lignes « N more » des listes en mode plein écran. Plusieurs bugs sont corrigés : l'ouverture d'un navigateur de connexion par chaque processus et extension IDE quand les identifiants gcpAuthRefresh ou awsAuthRefresh expirent, la perte de tours après des appels d'outils parallèles avec claude --resume et --continue, ou encore des erreurs API 400 quand un outil renvoyait un objet, un nombre ou un booléen au lieu de texte.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+  "date_source": "2026-09-30T19:10:13+00:00",
+  "date_redac": "2026-09-30T20:14:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 755,
+   "sortie": 557
+  }
+ },
+ {
+  "id": "063e900af69477ac",
+  "slug": "openai-devoile-une-decisions-api-un-clone-de-jev-pour-ses-agents-063e90",
+  "titre": "OpenAI dévoile une « Decisions API », un clone de Jev pour ses agents",
+  "resume": "OpenAI présente une « Decisions API », décrite comme un clone de Jev, d'après TechCrunch. Cet outil pourrait aider le laboratoire à stopper ses agents fonctionnant en essaim. Il confirme surtout l'importance d'une intelligence rapide et bon marché.",
+  "tags": [
+   "openai",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+  "date_source": "2026-09-30T19:00:57+00:00",
+  "date_redac": "2026-09-30T20:14:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 716
+  }
+ },
+ {
   "id": "9152772bed5fae48",
   "slug": "qwen-3-8-27b-tourne-sur-les-npu-amd-via-fastflowlm-a-1-token-s-915277",
   "titre": "Qwen 3.8 27B tourne sur les NPU AMD via FastFlowLM, à 1 token/s",

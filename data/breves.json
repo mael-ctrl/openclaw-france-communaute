@@ -1,5 +1,67 @@
 [
  {
+  "id": "5e557c6279663ccd",
+  "slug": "apres-l-adoption-de-l-ia-transformer-l-organisation-devient-le-vrai-ch-5e557c",
+  "titre": "Après l'adoption de l'IA, transformer l'organisation devient le vrai chantier",
+  "resume": "Dans un article publié le 30 septembre 2026, Maddyness pose un constat : l'adoption de l'IA ne constitue qu'une étape. Selon le média, le véritable chantier commence ensuite, avec la transformation de l'organisation elle-même. Le sujet n'est donc pas seulement l'outil déployé, mais ce qu'il change une fois en place.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Maddyness",
+  "lien_source": "https://www.maddyness.com/?p=1442134",
+  "date_source": "2026-09-30T08:00:35+00:00",
+  "date_redac": "2026-09-30T08:15:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 628,
+   "sortie": 711
+  }
+ },
+ {
+  "id": "b75f1d837aefecf8",
+  "slug": "deepseek-entraine-desormais-ses-modeles-sur-ascend-950-b75f1d",
+  "titre": "DeepSeek entraîne désormais ses modèles sur Ascend 950",
+  "resume": "Selon un post publié sur le forum r/LocalLLaMA, DeepSeek entraîne désormais ses modèles sur Ascend 950. Le changement est mis en regard d'une déclaration de Liang Wenfeng, formulée il y a 26 mois : « Someone must step onto the frontier. » Le rapprochement des deux suggère une étape franchie par le laboratoire sur son matériel d'entraînement.",
+  "tags": [
+   "deepseek",
+   "matériel",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wtz1i3/deepseek_now_trained_on_ascend_950/",
+  "date_source": "2026-09-30T07:58:25+00:00",
+  "date_redac": "2026-09-30T08:15:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 639,
+   "sortie": 780
+  }
+ },
+ {
+  "id": "07d53110d5db0278",
+  "slug": "pi-llama-server-des-blocages-aleatoires-apres-les-appels-d-outils-07d531",
+  "titre": "Pi + llama-server : des blocages aléatoires après les appels d'outils",
+  "resume": "Un utilisateur de r/LocalLLaMA rapporte que son serveur llama-server, utilisé avec Pi, se bloque parfois après un appel d'outil. Les journaux le croient terminé alors que Pi attend encore une réponse : il faut alors arrêter et relancer avec « Continue ». Le problème reste rare, le serveur fonctionnant sans souci 99 % du temps, et l'auteur demande si d'autres l'ont rencontré.",
+  "tags": [
+   "dev",
+   "open-source",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wtyx6i/pi_llamaserver_randomly_hung/",
+  "date_source": "2026-09-30T07:50:43+00:00",
+  "date_redac": "2026-09-30T08:15:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 699,
+   "sortie": 1165
+  }
+ },
+ {
   "id": "07ea0f4b56acd4ea",
   "slug": "les-fuites-d-un-stack-llm-on-prem-viennent-des-integrations-tierces-07ea0f",
   "titre": "Les fuites d'un stack LLM on-prem viennent des intégrations tierces",
@@ -63,6 +125,26 @@
   }
  },
  {
+  "id": "c50a8cb288f78116",
+  "slug": "sante-et-ia-transformer-le-savoir-medical-en-meilleurs-soins-c50a8c",
+  "titre": "Santé et IA : transformer le savoir médical en meilleurs soins",
+  "resume": "Maddyness consacre un article à l'usage de l'IA dans la santé, sous le titre « Santé à l'ère de l'IA : transformer le savoir médical en meilleurs soins ». L'angle annoncé : convertir le savoir médical disponible en meilleurs soins. L'article est daté du 30 septembre 2026.",
+  "tags": [
+   "société",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "Maddyness",
+  "lien_source": "https://www.maddyness.com/2026/09/30/ia-sante-savoir-medical-soins/",
+  "date_source": "2026-09-30T07:00:39+00:00",
+  "date_redac": "2026-09-30T08:15:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 641,
+   "sortie": 1143
+  }
+ },
+ {
   "id": "69c2b49589d35865",
   "slug": "former-la-france-a-l-ia-passerait-par-une-interdiction-aux-moins-de-18-69c2b4",
   "titre": "Former la France à l'IA passerait par une interdiction aux moins de 18 ans",
@@ -80,6 +162,26 @@
    "modele": "deepseek-flash",
    "entree": 624,
    "sortie": 813
+  }
+ },
+ {
+  "id": "e8e90616538a19d9",
+  "slug": "former-la-france-a-l-ia-supposerait-d-en-interdire-l-usage-aux-moins-d-e8e906",
+  "titre": "Former la France à l'IA supposerait d'en interdire l'usage aux moins de 18 ans",
+  "resume": "Un article de Maddyness, publié le 30 septembre 2026, défend une position tranchée : former la France à l'intelligence artificielle imposerait d'en interdire l'usage aux moins de 18 ans. La publication place ainsi l'accès des mineurs aux outils d'IA au cœur de la question de la formation des Français.",
+  "tags": [
+   "france",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Maddyness",
+  "lien_source": "https://www.maddyness.com/2026/09/30/former-la-france-a-lia-impose-de-linterdire-aux-moins-de-18-ans/",
+  "date_source": "2026-09-30T07:00:26+00:00",
+  "date_redac": "2026-09-30T08:15:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 648,
+   "sortie": 800
   }
  },
  {

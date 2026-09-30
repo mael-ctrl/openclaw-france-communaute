@@ -1,5 +1,87 @@
 [
  {
+  "id": "2f8445c3c35e5681",
+  "slug": "le-patron-de-cerebras-parlera-du-mur-du-calcul-a-techcrunch-disrupt-2f8445",
+  "titre": "Le patron de Cerebras parlera du mur du calcul à TechCrunch Disrupt",
+  "resume": "À TechCrunch Disrupt 2026, Andrew Feldman, PDG et cofondateur de Cerebras Systems, viendra parler du besoin croissant de calcul, d'énergie et d'infrastructure. Il expliquera comment son entreprise aborde ces contraintes de façon différente, et ce qui se passera si le matériel IA actuel atteint ses limites. Un sujet qui touche directement la capacité des modèles à continuer de monter en puissance.",
+  "tags": [
+   "matériel",
+   "business",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026/",
+  "date_source": "2026-09-30T14:30:00+00:00",
+  "date_redac": "2026-09-30T14:35:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 644
+  }
+ },
+ {
+  "id": "225bac5dcf8832f2",
+  "slug": "instagram-ajoute-un-assistant-ia-a-son-app-edits-pour-conseiller-les-c-225bac",
+  "titre": "Instagram ajoute un assistant IA à son app Edits pour conseiller les créateurs",
+  "resume": "Instagram devient la dernière plateforme sociale à intégrer des fonctions IA directement dans ses outils, avec des retours sur les publications des utilisateurs. L'entreprise a annoncé mercredi que son application autonome Edits inclura désormais un « assistant créatif » propulsé par l'IA. Celui-ci récupère les données du compte Instagram de l'utilisateur et lui suggère ce qu'il faut modifier dans ses posts.",
+  "tags": [
+   "meta",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube",
+  "date_source": "2026-09-30T14:30:00+00:00",
+  "date_redac": "2026-09-30T14:35:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 659,
+   "sortie": 436
+  }
+ },
+ {
+  "id": "f787054140689f2d",
+  "slug": "restate-leve-20-m-pour-son-infrastructure-durable-face-a-temporal-f78705",
+  "titre": "Restate lève 20 M$ pour son infrastructure durable face à Temporal",
+  "resume": "La startup Restate annonce une levée de fonds de 20 millions de dollars. Elle a été fondée par des anciens d'Apache Flink et s'attaque au spécialiste des workflows Temporal. Son positionnement : une infrastructure durable, dont le besoin grandit à mesure que se multiplient les agents IA.",
+  "tags": [
+   "agents",
+   "dev",
+   "business"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
+  "date_source": "2026-09-30T14:27:11+00:00",
+  "date_redac": "2026-09-30T14:35:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 621,
+   "sortie": 318
+  }
+ },
+ {
+  "id": "0e0fdeabc58a94f5",
+  "slug": "techcrunch-disrupt-2026-trois-jours-pour-reserver-son-stand-0e0fde",
+  "titre": "TechCrunch Disrupt 2026 : trois jours pour réserver son stand",
+  "resume": "Il ne reste que trois jours pour s'inscrire comme exposant à TechCrunch Disrupt 2026. La date limite est fixée au 2 octobre à 23 h 59, heure du Pacifique. L'événement promet de mettre les startups en relation avec plus de 10 000 fondateurs, investisseurs, opérateurs et dirigeants tech. Pour une jeune pousse, c'est un levier direct de visibilité auprès de ce public.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 1,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/09/30/3-days-left-to-exhibit-at-techcrunch-disrupt-2026-2/",
+  "date_source": "2026-09-30T14:15:00+00:00",
+  "date_redac": "2026-09-30T14:35:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 655,
+   "sortie": 748
+  }
+ },
+ {
   "id": "c3fc1c372e0f0ba7",
   "slug": "detecter-les-textes-ecrits-par-ia-en-local-une-question-ouverte-sur-r--c3fc1c",
   "titre": "Détecter les textes écrits par IA, en local : une question ouverte sur r/LocalLLaMA",
@@ -164,6 +246,47 @@
    "modele": "deepseek-flash",
    "entree": 890,
    "sortie": 1060
+  }
+ },
+ {
+  "id": "c623c663e62df1d7",
+  "slug": "coordonner-un-essaim-d-agents-un-utilisateur-de-r-localllama-cherche-d-c623c6",
+  "titre": "Coordonner un essaim d'agents : un utilisateur de r/LocalLLaMA cherche des outils",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande des recommandations d'outils de coordination et de messagerie pour faire collaborer plusieurs agents sur des problèmes difficiles. Il aimerait un essaim hétérogène : des modèles locaux comme force de travail, et des modèles cloud pour la relecture, la coordination ou pour éviter de saturer son installation locale, relativement petite. Il sollicite des retours d'expérience.",
+  "tags": [
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wu3rio/agent_swarm_coordination/",
+  "date_source": "2026-09-30T12:34:55+00:00",
+  "date_redac": "2026-09-30T14:35:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 666,
+   "sortie": 653
+  }
+ },
+ {
+  "id": "8ff6ff77c0e2c82e",
+  "slug": "coupures-de-courant-frequentes-un-onduleur-est-il-utile-avec-deux-rtx--8ff6ff",
+  "titre": "Coupures de courant fréquentes : un onduleur est-il utile avec deux RTX 5080 ?",
+  "resume": "Un utilisateur de r/LocalLLaMA raconte que son nouveau logement subit des coupures de courant fréquentes : trois en une semaine, avec extinction de son PC. Sa machine embarque deux RTX 5080 et il se demande si un onduleur (UPS) est nécessaire. Peu lui importe l'interruption de ses workflows : ce qu'il craint, c'est un dommage matériel, et il se demande si une bonne alimentation suffit.",
+  "tags": [
+   "matériel",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wu25pe/do_i_need_a_ups/",
+  "date_source": "2026-09-30T11:13:22+00:00",
+  "date_redac": "2026-09-30T14:35:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 771,
+   "sortie": 1267
   }
  },
  {

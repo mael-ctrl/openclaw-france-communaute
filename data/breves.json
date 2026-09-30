@@ -1,5 +1,130 @@
 [
  {
+  "id": "29d5171cad6c2de7",
+  "slug": "qwen3-8-27b-deux-quantifications-comparees-sur-un-m1-max-29d517",
+  "titre": "Qwen3.8-27B : deux quantifications comparées sur un M1 Max",
+  "resume": "Un utilisateur de r/LocalLLaMA compare deux quantifications de Qwen3.8-27B : Dirk-Qwen 3.8-27B et Swift-1.5 d'UkisAI. Il les évalue sur sa propre batterie de questions : code, numpy/pandas, décision analytique, RAG local et assistant vocal, à difficulté variable. Les tests tournent sur un M1 Max 32 Go, avec 128K de contexte pour Dirk et 110K pour Swift, ce dernier n'ayant pas de quantification XL.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuigui/peculiarragdolls_dirkqwen_3827b_vs_ukisai_swift15/",
+  "date_source": "2026-09-30T22:14:19+00:00",
+  "date_redac": "2026-09-30T22:58:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 888,
+   "sortie": 930
+  }
+ },
+ {
+  "id": "79e0dd0315a97178",
+  "slug": "simon-willison-recommande-une-maquette-geante-de-new-york-visible-jusq-79e0dd",
+  "titre": "Simon Willison recommande une maquette géante de New York, visible jusqu'au 12 octobre",
+  "resume": "Simon Willison a visité le Museum of the City of New York, où il a vu « He Built This City: Joe Macken's Model ». Il s'agit d'une maquette de la ville de 50 x 27 pieds, construite sur 21 ans en balsa et en carton. L'exposition a dépassé ses attentes, qu'il décrit comme déjà hautes. Elle ferme le 12 octobre : il conseille d'y aller si l'occasion se présente.",
+  "tags": [
+   "société"
+  ],
+  "importance": 1,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
+  "date_source": "2026-09-30T21:54:19+00:00",
+  "date_redac": "2026-09-30T22:58:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 664,
+   "sortie": 1466
+  }
+ },
+ {
+  "id": "cb8752b5ef8c81a3",
+  "slug": "cout-local-de-l-ia-0-12-l-heure-sur-une-7900-xtx-le-cloud-moins-cher-cb8752",
+  "titre": "Coût local de l'IA : 0,12 € l'heure sur une 7900 XTX, le cloud moins cher ?",
+  "resume": "Un utilisateur de r/LocalLLaMA fait tourner Qwen Flash, et même un Qwen 27B dense, sur une 7900 XTX associée à un 9800X3D. En comptant son électricité à 0,25 € le kWh — de 0,11 € à 0,35 € selon les régions — il estime qu'une heure d'IA locale lui coûte 0,12 €, calculs qu'il a fait faire à ChatGPT. Il se demande si, à la vitesse par million de tokens, les modèles frontier ne reviendraient pas moins cher.",
+  "tags": [
+   "matériel",
+   "chatgpt",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuhrop/if_one_hour_of_ai_is_costing_me_012_is_paying_for/",
+  "date_source": "2026-09-30T21:44:48+00:00",
+  "date_redac": "2026-09-30T22:58:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 791,
+   "sortie": 950
+  }
+ },
+ {
+  "id": "37573e6fbbbf349e",
+  "slug": "sur-mac-studio-m5-ultra-qwen3-8-flash-next-domine-laguna-s-2-1-en-pref-37573e",
+  "titre": "Sur Mac Studio M5 Ultra, Qwen3.8 Flash Next domine Laguna S 2.1 en prefill",
+  "resume": "Test sur Mac Studio M5 Ultra 256 Go : Qwen3.8-Flash-Next (oMLX) face à Laguna-S-2.1 GGUF (LM Studio), contexte plafonné à 262K et aucun token en cache. Qwen tient environ 4 200 tok/s en prefill linéaire (47 s à 200K) là où Laguna monte à 455 s. Le prefill pèse 94 % du temps total à 200K, et le décodage Laguna tombe de 68 à 34 tok/s quand le contexte grandit. Le testeur signale qu'un premier essai était faussé par des préfixes partagés laissant le KV cache se propager.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wugx2e/m5_ultra_qwen38_flash_next_vs_laguna_s_21/",
+  "date_source": "2026-09-30T21:09:48+00:00",
+  "date_redac": "2026-09-30T22:58:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 913,
+   "sortie": 1217
+  }
+ },
+ {
+  "id": "4f23dd319efebdb8",
+  "slug": "valor-atreides-et-sequoia-misent-sur-flow-engineering-a-750-m-4f23dd",
+  "titre": "Valor, Atreides et Sequoia misent sur Flow Engineering à 750 M$",
+  "resume": "Flow Engineering, qui applique les agents IA à la conception de matériel, lève des fonds sur une valorisation de 750 millions de dollars. Valor, Atreides et Sequoia figurent parmi les investisseurs. Roelof Botha rejoint la société comme investisseur providentiel et membre du conseil d'administration.",
+  "tags": [
+   "agents",
+   "business",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+  "date_source": "2026-09-30T21:07:40+00:00",
+  "date_redac": "2026-09-30T22:58:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 636,
+   "sortie": 924
+  }
+ },
+ {
+  "id": "37053a640db7b94d",
+  "slug": "index-translate-bilibili-devoile-des-modeles-couvrant-150-langues-37053a",
+  "titre": "Index-Translate : BiliBili dévoile des modèles couvrant 150 langues",
+  "resume": "L'équipe Index LLM de BiliBili partage Index-Translate, un modèle de traduction couvrant 150 langues, en versions 2B, 9B et 35B-A3B (preview). On peut y préciser terminologie, style et format de sortie : noms de produits constants ou JSON préservé. Index-NativeLong traduit des documents entiers, Index-Homura tient un budget de syllabes pour le doublage, Index-Echo produit sous-titres multilingues et voix vers voix.",
+  "tags": [
+   "recherche",
+   "dev",
+   "société"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wugf2t/indextranslate_150_text_languages_plus_document/",
+  "date_source": "2026-09-30T20:49:45+00:00",
+  "date_redac": "2026-09-30T22:58:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 798,
+   "sortie": 1236
+  }
+ },
+ {
   "id": "7b4fe7fe19d7ac2a",
   "slug": "llama-halo-hybrid-strix-halo-r9700-depasse-le-dgx-spark-7b4fe7",
   "titre": "llama-halo-hybrid : Strix Halo + R9700 dépasse le DGX Spark",

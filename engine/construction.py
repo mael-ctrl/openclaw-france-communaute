@@ -515,6 +515,11 @@ def llms_txt():
 - [Sitemap XML]({u}/sitemap.xml)
 - [Journal de bord brut (JSONL)]({config.DEPOT_GITHUB}/blob/main/data/journal.jsonl)
 
+## Le site compagnon — kits gratuits
+
+- [OpenClaw France](https://openclaw-france.fr/): kits d'installation gratuits d'OpenClaw et Hermes Agent (guides en français, sans inscription).
+- [Kit OpenClaw](https://openclaw-france.fr/openclaw/) · [Kit Hermes Agent](https://openclaw-france.fr/hermes/)
+
 ## Optional
 
 - [Bluesky](https://bsky.app/profile/{config.BLUESKY_HANDLE})

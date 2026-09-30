@@ -1,5 +1,131 @@
 [
  {
+  "id": "d2382ef9a64a3db4",
+  "slug": "modelscope-la-cli-demenage-dans-le-paquet-modelscope-hub-d2382e",
+  "titre": "ModelScope : la CLI déménage dans le paquet « modelscope-hub »",
+  "resume": "Le paquet « modelscope » ne contient plus que la bibliothèque : sa ligne de commande a été déplacée vers un paquet distinct, « modelscope-hub ». Tenter d'installer ou de mettre à jour l'ancien paquet CLI échoue avec le message « No executables are provided by package `modelscope`; removing tool ». La nouvelle commande d'installation est : uv tool install \"modelscope-hub\". Ce changement n'a fait l'objet d'aucune documentation officielle, ce qui a valu à l'auteur du message sur r/LocalLLaMA une bonne demi-heure de recherche.",
+  "tags": [
+   "dev",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wtrykk/psa_modelscope_cli_is_now_moved_to_modelscopehub/",
+  "date_source": "2026-09-30T01:22:25+00:00",
+  "date_redac": "2026-09-30T01:55:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 746,
+   "sortie": 475
+  }
+ },
+ {
+  "id": "64851a49fe3d5ff5",
+  "slug": "sftmill-distiller-n-importe-quel-llm-via-un-endpoint-compatible-openai-64851a",
+  "titre": "SFTMill : distiller n'importe quel LLM via un endpoint compatible OpenAI",
+  "resume": "Un développeur de r/LocalLLaMA publie SFTMill, un outil qui distille hors-politique n'importe quel LLM exposant un endpoint compatible OpenAI, en transformant un objectif comportemental en jeu de données complet. Il l'a conçu faute de solution existante et s'en sert pour affiner AliceAI 80B A3B sur ses jeux de données synthétiques, en direct sur un stream. Les données d'entraînement générées sont consultables en ligne.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wtqpjt/sftmill_easily_offpolicy_distill_any_existing_llm/",
+  "date_source": "2026-09-30T00:22:53+00:00",
+  "date_redac": "2026-09-30T01:55:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 856,
+   "sortie": 1120
+  }
+ },
+ {
+  "id": "4a942c66080b4c3e",
+  "slug": "sam-altman-pas-d-entree-en-bourse-d-openai-avant-des-garanties-de-secu-4a942c",
+  "titre": "Sam Altman : pas d'entrée en Bourse d'OpenAI avant des garanties de sécurité",
+  "resume": "Le PDG d'OpenAI, Sam Altman, affirme que l'entreprise n'entrera pas en Bourse tant qu'elle ne pourra pas offrir de meilleures garanties sur la sécurité de ses modèles. Aucun calendrier n'est annoncé. La question d'une introduction en Bourse d'OpenAI revenait depuis des mois.",
+  "tags": [
+   "openai",
+   "business",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+  "date_source": "2026-09-30T00:19:13+00:00",
+  "date_redac": "2026-09-30T01:55:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 672,
+   "sortie": 612
+  }
+ },
+ {
+  "id": "1833841e9a7061bb",
+  "slug": "qwen-socle-linguistique-de-32-familles-de-modeles-audio-183384",
+  "titre": "Qwen, socle linguistique de 32 familles de modèles audio",
+  "resume": "En cartographiant les briques partagées par les modèles réunis dans audio.cpp, un utilisateur de r/LocalLLaMA constate que Qwen est devenu le socle linguistique le plus répandu : 32 familles de modèles audio reposent sur une architecture de la famille Qwen, dont 20 sur Qwen3. Ces modèles ne se limitent plus à la synthèse vocale et couvrent aussi l'ASR et la compréhension audio, la génération musicale, le speech-to-speech et l'audio/vidéo. Un second graphique croise tâches et technologies.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wtpntt/qwenfamily_llms_are_quietly_becoming_the_backbone/",
+  "date_source": "2026-09-29T23:35:16+00:00",
+  "date_redac": "2026-09-30T01:55:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 804,
+   "sortie": 733
+  }
+ },
+ {
+  "id": "927736463fc8eb52",
+  "slug": "un-ban-des-modeles-ouverts-chinois-la-question-agite-r-localllama-927736",
+  "titre": "Un ban des modèles ouverts chinois ? La question agite r/LocalLLaMA",
+  "resume": "Sur le forum r/LocalLLaMA, un utilisateur demande si les modèles à poids ouverts chinois pourraient bientôt être interdits. Il s'appuie sur deux éléments : la publication par Anthropic d'un article consacré à GLM, et l'implication de Trump dans le dossier. En jeu : la possibilité pour la communauté open source de continuer à utiliser ces modèles.",
+  "tags": [
+   "open-source",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wtp9x4/are_you_worried_about_a_potential_ban_of_chinese/",
+  "date_source": "2026-09-29T23:17:54+00:00",
+  "date_redac": "2026-09-30T01:55:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 653,
+   "sortie": 653
+  }
+ },
+ {
+  "id": "d06565294353a6da",
+  "slug": "un-scorer-ternaire-de-1-6-mo-joue-au-puissance-4-dans-le-navigateur-vi-d06565",
+  "titre": "Un scorer ternaire de 1,6 Mo joue au Puissance 4 dans le navigateur via WebGPU",
+  "resume": "Precisit publie sous licence MIT un scorer de 7,4 millions de paramètres pour le Puissance 4 : le plateau entre, un score par colonne légale sort, sans recherche. Ses poids au format ternaire 3:4 de Sherry — un zéro et trois ±1 sur quatre poids, 1,375 bit par poids — tiennent en 1,6 Mo, contre 29,7 Mo en fp32, pour des scores comparables face aux bots de profondeur 4 et 6. Il tourne dans le navigateur via un petit runtime WebGPU, à 1,1 ms par coup. Ce n'est pas un LLM, mais les auteurs estiment que ces résultats ternaires sont transposables.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wtp8h5/sherrys_34_ternary_format_1375_bits_per_weight/",
+  "date_source": "2026-09-29T23:16:05+00:00",
+  "date_redac": "2026-09-30T01:55:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 970,
+   "sortie": 865
+  }
+ },
+ {
   "id": "c073aa35d4ccd8a6",
   "slug": "l-agent-muse-de-meta-ignorerait-les-permissions-des-utilisateurs-c073aa",
   "titre": "L'agent Muse de Meta ignorerait les permissions des utilisateurs",

@@ -1,0 +1,11 @@
+# OpenClaw France — configuration Apache (dossier openclaw-france/)
+# 404 personnalisée
+ErrorDocument 404 /404.html
+
+# Fichiers téléchargeables et sources : jamais mis en cache longuement
+# (évite les révisions périmées derrière le CDN)
+<IfModule mod_headers.c>
+  <FilesMatch "\.(zip|md|sh|yml|yaml|txt)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>

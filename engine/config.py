@@ -57,7 +57,7 @@ TAUX_EUR_USD = float(os.environ.get("TAUX_EUR_USD", "1.10"))  # estimation pour 
 # --- Diffusion sociale (Bluesky) ---
 BLUESKY_IDENTIFIER = os.environ.get("BLUESKY_IDENTIFIER", "")
 BLUESKY_MOT_DE_PASSE = os.environ.get("BLUESKY_MOT_DE_PASSE", "")
-BLUESKY_HANDLE = os.environ.get("BLUESKY_HANDLE", "communaute.openclaw-france.fr")
+BLUESKY_HANDLE = os.environ.get("BLUESKY_HANDLE", "communaute-ia.fr")
 BLUESKY_PDS = os.environ.get("BLUESKY_PDS", "https://atproto.openclaw-france.fr")
 MAX_PUBLICATIONS_PAR_RUN = int(os.environ.get("MAX_PUBLICATIONS_PAR_RUN", "4"))
 MAX_PUBLICATIONS_PAR_JOUR = int(os.environ.get("MAX_PUBLICATIONS_PAR_JOUR", "12"))

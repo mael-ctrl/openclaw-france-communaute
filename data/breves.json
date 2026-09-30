@@ -1,5 +1,47 @@
 [
  {
+  "id": "c3fc1c372e0f0ba7",
+  "slug": "detecter-les-textes-ecrits-par-ia-en-local-une-question-ouverte-sur-r--c3fc1c",
+  "titre": "Détecter les textes écrits par IA, en local : une question ouverte sur r/LocalLLaMA",
+  "resume": "Sur le forum r/LocalLLaMA, un utilisateur demande s'il existe un modèle ou un outil capable de détecter un texte rédigé par une IA en s'exécutant en local sur sa machine. Il précise chercher une solution plutôt à jour. Aucun outil ni modèle n'est cité dans le message, qui reste une question posée à la communauté.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wu5yge/locally_runnable_ai_writing_detection/",
+  "date_source": "2026-09-30T14:09:54+00:00",
+  "date_redac": "2026-09-30T14:15:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 630,
+   "sortie": 665
+  }
+ },
+ {
+  "id": "db9b201d7c2d78df",
+  "slug": "neura-robotics-lance-une-unite-sante-et-un-robot-qui-deplace-les-lits--db9b20",
+  "titre": "Neura Robotics lance une unité santé et un robot qui déplace les lits d'hôpitaux",
+  "resume": "Selon l'OMS, l'Europe pourrait manquer de 4,1 millions de professionnels de santé en 2030, dont 2,3 millions d'infirmiers et 600 000 médecins. La robotique est perçue comme une réponse partielle : automatiser des tâches répétitives et chronophages pour les soignants. L'allemand Neura Robotics crée « Healthcare », une unité dédiée à la santé et aux sciences de la vie, avec un robot mobile qui déplace les lits d'hôpitaux inutilisés.",
+  "tags": [
+   "robots",
+   "société",
+   "business"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/robotique/un-robot-mobile-qui-deplace-des-lits-dhopitaux-non-utilises-lallemand-neura-robotics-se-lance-dans-la-sante.6LUCSJEWTRABVLM6SP75DDX4JM.html",
+  "date_source": "2026-09-30T14:07:14+00:00",
+  "date_redac": "2026-09-30T14:15:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 796,
+   "sortie": 960
+  }
+ },
+ {
   "id": "dbe6ff24c4c739a0",
   "slug": "anthropic-lance-sonnet-5-5-accessible-sur-la-version-gratuite-de-claud-dbe6ff",
   "titre": "Anthropic lance Sonnet 5.5, accessible sur la version gratuite de Claude",
@@ -351,6 +393,28 @@
   }
  },
  {
+  "id": "55b0ea08574239dc",
+  "slug": "openclaw-2026-9-7-securise-ses-mises-a-jour-et-ouvre-l-openai-agents-a-55b0ea",
+  "titre": "OpenClaw 2026.9.7 sécurise ses mises à jour et ouvre l'OpenAI Agents API",
+  "resume": "OpenClaw 2026.9.7 renforce la sécurité des mises à jour : chaque état et base de données d'agents est sauvegardé avant migration, puis restauré en cas de rollback, avec des instantanés cohérents pris pendant que la Gateway continue d'écrire. Les changements de schéma sont bloqués si le nettoyage des instantanés échoue. La version corrige des échecs de mise à jour depuis la 2026.9.5 et ajoute le support de l'OpenAI Agents API.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "agents",
+   "openai"
+  ],
+  "importance": 3,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.7",
+  "date_source": "2026-09-30T05:41:20+00:00",
+  "date_redac": "2026-09-30T14:15:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 846,
+   "sortie": 886
+  }
+ },
+ {
   "id": "d2382ef9a64a3db4",
   "slug": "modelscope-la-cli-demenage-dans-le-paquet-modelscope-hub-d2382e",
   "titre": "ModelScope : la CLI déménage dans le paquet « modelscope-hub »",
@@ -432,6 +496,27 @@
    "modele": "deepseek-flash",
    "entree": 804,
    "sortie": 733
+  }
+ },
+ {
+  "id": "ed68e28e4d7b1155",
+  "slug": "openclaw-l-outillage-vercel-cli-passe-a-undici-6-28-1-ed68e2",
+  "titre": "OpenClaw : l'outillage Vercel CLI passe à undici 6.28.1",
+  "resume": "OpenClaw publie une nouvelle version de son dépôt, étiquetée release-publish/2b4055f8dd70. Il s'agit d'un correctif : la version forcée d'undici employée par l'outillage Vercel CLI passe à 6.28.1. Le changement reste circonscrit à cet outillage de publication.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F2b4055f8dd70-1790734526",
+  "date_source": "2026-09-29T23:21:58+00:00",
+  "date_redac": "2026-09-30T14:15:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 629,
+   "sortie": 760
   }
  },
  {
@@ -1231,6 +1316,28 @@
   }
  },
  {
+  "id": "eb4237bd4792e9ed",
+  "slug": "openclaw-corrige-l-analyse-des-dependances-de-ses-outils-de-release-eb4237",
+  "titre": "OpenClaw corrige l'analyse des dépendances de ses outils de release",
+  "resume": "OpenClaw a publié une mise à jour de son outillage de release. Le correctif étend l'analyse aux dépendances verrouillées des outils de publication de confiance, sous la référence #160694. Les tests d'intégrité du verrou Vercel ont été rafraîchis, et un jeu de données de mesure de latence au premier saut a été ajouté aux tests de bout en bout.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source",
+   "sécurité"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fcb8e8c73243c-1790633540",
+  "date_source": "2026-09-28T21:09:00+00:00",
+  "date_redac": "2026-09-30T14:15:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 650,
+   "sortie": 451
+  }
+ },
+ {
   "id": "42ddd1a3a90e5b13",
   "slug": "amd-rachete-world-labs-de-fei-fei-li-pour-8-2-milliards-de-dollars-42ddd1",
   "titre": "AMD rachète World Labs de Fei-Fei Li pour 8,2 milliards de dollars",
@@ -1376,6 +1483,26 @@
    "modele": "deepseek-flash",
    "entree": 837,
    "sortie": 1058
+  }
+ },
+ {
+  "id": "4ceab466b8521af3",
+  "slug": "openclaw-corrige-sa-ci-pour-les-cibles-figees-et-le-redemarrage-manage-4ceab4",
+  "titre": "OpenClaw corrige sa CI pour les cibles figées et le redémarrage managé",
+  "resume": "OpenClaw corrige sa CI pour préserver la couverture de redémarrage managé des cibles figées dont le runtime précède la récupération des adhésions absentes. Les cibles actuelles restent sur le chemin strict d'absence-confinement, avec reçus d'avertissement et correspondance des identifiants d'exécution. Le résolveur de source vérifiée garde la sélection et l'acquisition sparse explicite.",
+  "tags": [
+   "openclaw",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F43d73d77a024-1790562934",
+  "date_source": "2026-09-28T02:34:45+00:00",
+  "date_redac": "2026-09-30T14:16:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 775,
+   "sortie": 1484
   }
  }
 ]

@@ -19,7 +19,7 @@ def _aujourd_hui():
 
 
 def archiver_si_necessaire():
-    """Sauvegarde https://communaute.openclaw-france.fr/ sur Wayback (max 3 tentatives/jour)."""
+    """Sauvegarde https://communaute-ia.fr/ sur Wayback (max 3 tentatives/jour)."""
     stats = journal.charger_stats()
     if stats.get("derniere_archive") == _aujourd_hui():
         return ""

@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 """Déploiement vers l'hébergement OVH (FTP incrémental).
 
-Le dossier distant visé est « Communaute/ » à la racine de l'hébergement
-zyqezjy.cluster029.hosting.ovh.net (serveur de communaute.openclaw-france.fr).
+Le dossier distant visé est « www/ » à la racine de l'hébergement
+communo.cluster131.hosting.ovh.net (serveur de communaute-ia.fr).
 
 En local (Mac), le mot de passe FTP est lu dans le Trousseau macOS
-(entrée « ovh-reelsvault-ftp », compte « zyqezjy-reelsvault ») — c'est
-l'identité d'automatisation historique de cet hébergement.
+(entrée « ovh-communo-ftp », compte « communo »).
 Dans GitHub Actions, il vient des secrets du dépôt.
 """
 import ftplib
@@ -16,8 +15,8 @@ import sys
 
 import config
 
-SERVICE_TROUSSEAU = "ovh-reelsvault-ftp"
-COMPTE_TROUSSEAU = "zyqezjy-reelsvault"
+SERVICE_TROUSSEAU = "ovh-communo-ftp"
+COMPTE_TROUSSEAU = "communo"
 
 
 def _mot_de_passe():

@@ -39,7 +39,7 @@ jobs:
       - name: Consigner l'état dans le dépôt (transparence)
         run: |
           git config user.name "Le Crabe (IA)"
-          git config user.email "crabe@openclaw-france.fr"
+          git config user.email "crabe@blockos.fr"
           git add data
           if ! git diff --quiet --cached; then
             git commit -m "MAJ automatique — $(date -u '+%Y-%m-%d %H:%M UTC')"

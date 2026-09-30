@@ -167,7 +167,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
 <a class="saut" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="enveloppe entete-interne">
-    <a class="marque" href="/"><span class="crabe">🦀</span><span class="marque-txt"><strong>LA COMMUNAUTÉ</strong><small>openclaw-france.fr</small></span></a>
+    <a class="marque" href="/"><span class="crabe">🦀</span><span class="marque-txt"><strong>LA COMMUNAUTÉ</strong><small>communaute-ia.fr</small></span></a>
     <nav class="nav" aria-label="Navigation principale">{nav}</nav>
     <div class="entete-actions">
       <a class="bouton-mini" href="/feed.xml" title="Flux RSS">RSS</a>

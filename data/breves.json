@@ -1,5 +1,129 @@
 [
  {
+  "id": "07ea0f4b56acd4ea",
+  "slug": "les-fuites-d-un-stack-llm-on-prem-viennent-des-integrations-tierces-07ea0f",
+  "titre": "Les fuites d'un stack LLM on-prem viennent des intégrations tierces",
+  "resume": "Faire tourner un modèle en local est la partie facile : les fuites viennent des briques tierces ajoutées autour. Un appel HTTP vers une API cloud, un juge hébergé pour les évals, un SaaS de tracing ou un service d'embeddings suffit à casser la promesse on-prem. L'ingestion de PDF et de scans, qui demande parsing et OCR avant le chunking, et l'évaluation sont les étapes les moins surveillées.",
+  "tags": [
+   "open-source",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wtyflt/on_prem_llm_stack_for_data_that_cant_leave_the/",
+  "date_source": "2026-09-30T07:18:29+00:00",
+  "date_redac": "2026-09-30T07:24:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 796,
+   "sortie": 1271
+  }
+ },
+ {
+  "id": "6efc25cda589f7bc",
+  "slug": "hermes-agent-publie-une-build-canari-v0-21-4-6efc25",
+  "titre": "Hermes Agent publie une build canari v0.21.4",
+  "resume": "Hermes Agent, le projet d'agents de NousResearch, a publié le 30 septembre 2026 une nouvelle build canari, taguée v0.21.4+canary.20260930T070235Z. Une version canari désigne une build de test diffusée en amont d'une version stable. Aucun détail sur les changements apportés n'accompagne cette publication.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.4%2Bcanary.20260930T070235Z",
+  "date_source": "2026-09-30T07:02:37+00:00",
+  "date_redac": "2026-09-30T07:24:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 648,
+   "sortie": 513
+  }
+ },
+ {
+  "id": "dbd3955e80ea4152",
+  "slug": "sante-et-ia-transformer-le-savoir-medical-en-meilleurs-soins-dbd395",
+  "titre": "Santé et IA : transformer le savoir médical en meilleurs soins",
+  "resume": "Dans un article publié le 30 septembre 2026, Maddyness se penche sur l'IA appliquée à la santé. Le média y annonce un sujet sur la manière de transformer le savoir médical en meilleurs soins. Aucun modèle, acteur ni chiffre n'est précisé dans l'extrait disponible.",
+  "tags": [
+   "société",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "Maddyness",
+  "lien_source": "https://www.maddyness.com/?p=1442037",
+  "date_source": "2026-09-30T07:00:39+00:00",
+  "date_redac": "2026-09-30T07:24:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 630,
+   "sortie": 1009
+  }
+ },
+ {
+  "id": "69c2b49589d35865",
+  "slug": "former-la-france-a-l-ia-passerait-par-une-interdiction-aux-moins-de-18-69c2b4",
+  "titre": "Former la France à l'IA passerait par une interdiction aux moins de 18 ans",
+  "resume": "Dans une publication datée du 30 septembre 2026, Maddyness soutient que former la France à l'IA suppose d'en interdire l'usage aux moins de 18 ans. Le média place ainsi l'accès des mineurs aux outils d'IA au cœur du débat sur la montée en compétences du pays. Le sujet recoupe deux enjeux distincts : l'éducation à l'IA et la protection des plus jeunes.",
+  "tags": [
+   "france",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Maddyness",
+  "lien_source": "https://www.maddyness.com/?p=1442071",
+  "date_source": "2026-09-30T07:00:26+00:00",
+  "date_redac": "2026-09-30T07:24:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 624,
+   "sortie": 813
+  }
+ },
+ {
+  "id": "ff6b42a99bf61654",
+  "slug": "mallow-lance-une-enceinte-de-jeux-audio-sans-ecran-dopee-a-l-ia-pour-l-ff6b42",
+  "titre": "Mallow lance une enceinte de jeux audio sans écran dopée à l'IA pour les enfants",
+  "resume": "La start-up française Mallow, cofondée par l'ancien secrétaire d'État au numérique Cédric O, lance ce mercredi 30 septembre une enceinte de jeux audio sans écran destinée aux enfants de 4 à 10 ans, vendue 119,99 euros. L'enfant fait avancer les histoires avec sa voix, face à une IA générative que Frandroid a pu essayer avant la sortie.",
+  "tags": [
+   "matériel",
+   "france",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/produits-android/3262393_on-a-essaye-mallow-la-console-audio-sans-ecran-pour-enfants-qui-fonctionne-avec-lia",
+  "date_source": "2026-09-30T07:00:00+00:00",
+  "date_redac": "2026-09-30T07:25:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 720,
+   "sortie": 998
+  }
+ },
+ {
+  "id": "18163abea54994f1",
+  "slug": "gddr7-un-deblocage-de-l-overclocking-booste-l-inference-locale-sur-506-18163a",
+  "titre": "GDDR7 : un déblocage de l'overclocking booste l'inférence locale sur 5060 Ti",
+  "resume": "Un déblocage baptisé mlock permet désormais de pousser l'overclocking de la mémoire GDDR7. Sur une 5060 Ti, un utilisateur atteint 1248 GB/s, soit +40 %, avec un overclock mémoire de +5500. La GDDR7 disposerait d'une marge de manœuvre importante. Ce gain profite surtout à l'inférence locale, en particulier à la génération de tokens.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wty1k6/1248_gbs_on_5060ti_40_with_5500_memory_overclocks/",
+  "date_source": "2026-09-30T06:54:35+00:00",
+  "date_redac": "2026-09-30T07:25:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 705,
+   "sortie": 659
+  }
+ },
+ {
   "id": "d2382ef9a64a3db4",
   "slug": "modelscope-la-cli-demenage-dans-le-paquet-modelscope-hub-d2382e",
   "titre": "ModelScope : la CLI déménage dans le paquet « modelscope-hub »",

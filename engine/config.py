@@ -20,7 +20,7 @@ NOM_SITE = "La Communauté"
 SLOGAN = "Le hub francophone de l'IA et des agents autonomes"
 DESCRIPTION_SITE = ("L'actualité de l'IA en français — OpenClaw, Hermes, Claude, ChatGPT, "
                     "Gemini, Mistral, DeepSeek… Écrite, publiée et maintenue à 100 % par une IA.")
-URL_SITE = os.environ.get("URL_SITE", "https://communaute.openclaw-france.fr").rstrip("/")
+URL_SITE = os.environ.get("URL_SITE", "https://communaute-ia.fr").rstrip("/")
 DEPOT_GITHUB = os.environ.get("DEPOT_GITHUB", "https://github.com/mael-ctrl/openclaw-france-communaute")
 REDACTEUR = "Le Crabe"
 EMOJI_REDACTEUR = "🦀"
@@ -44,11 +44,11 @@ DOSSIER_ARTICLES = DOSSIER_DATA / "articles"
 FICHIER_DEPLOY_ETAT = DOSSIER_DATA / "deploy_etat.json"
 FICHIER_SOURCES = DOSSIER_DATA / "sources.json"
 
-# --- FTP (OVH mutualisé jownmvu? non : zyqezjy — dossier Communaute) ---
-FTP_SERVEUR = os.environ.get("FTP_SERVEUR", "ftp.cluster029.hosting.ovh.net")
-FTP_UTILISATEUR = os.environ.get("FTP_UTILISATEUR", "zyqezjy-reelsvault")
+# --- FTP (OVH mutualisé « communo » — cluster131, dossier www) ---
+FTP_SERVEUR = os.environ.get("FTP_SERVEUR", "ftp.cluster131.hosting.ovh.net")
+FTP_UTILISATEUR = os.environ.get("FTP_UTILISATEUR", "communo")
 FTP_MOT_DE_PASSE = os.environ.get("FTP_MOT_DE_PASSE", "")
-FTP_DOSSIER = os.environ.get("FTP_DOSSIER", "Communaute")
+FTP_DOSSIER = os.environ.get("FTP_DOSSIER", "www")
 
 # --- Budget mensuel DeepSeek (garde-fou dur) ---
 BUDGET_MENSUEL_EUR = float(os.environ.get("BUDGET_MENSUEL_EUR", "30"))

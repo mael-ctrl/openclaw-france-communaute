@@ -30,6 +30,7 @@ jobs:
         run: python3 outils/presse_envoi.py ${{ github.event.inputs.simulation == 'true' && '--simulation' || '' }}
 
       - name: Consigner le journal d'envois
+        if: always()
         run: |
           git config user.name "Le Crabe 🦀"
           git config user.email "crabe@blockos.fr"

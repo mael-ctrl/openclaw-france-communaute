@@ -1,1088 +1,281 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Témoignages de la communauté | OpenClaw France</title>
-    <meta name="description" content="OpenClaw prêt en 24h — Pack Tout-Inclus (Installation PRO). Guide ultra simple + fichiers prêts + sécurité + sauvegardes + support France.">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Témoignages de la communauté | OpenClaw France">
-    <meta property="og:description" content="OpenClaw prêt en 24h — Pack Tout-Inclus (Installation PRO)">
-    <meta property="og:image" content="/static/og-image.png">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="Témoignages de la communauté | OpenClaw France">
-    <meta property="twitter:description" content="OpenClaw prêt en 24h — Pack Tout-Inclus (Installation PRO)">
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="icon" type="image/png" href="/static/favicon.svg">
-    
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: #0a0a0a;
-            color: #ffffff;
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-        
-        /* Effet grain subtil */
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: 
-                repeating-linear-gradient(0deg, rgba(255,255,255,0.03) 0px, transparent 1px, transparent 2px, rgba(255,255,255,0.03) 3px),
-                repeating-linear-gradient(90deg, rgba(255,255,255,0.03) 0px, transparent 1px, transparent 2px, rgba(255,255,255,0.03) 3px);
-            opacity: 0.4;
-            pointer-events: none;
-            z-index: 1;
-        }
-        
-        .container {
-            position: relative;
-            z-index: 2;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        /* Header */
-        header {
-            position: sticky;
-            top: 0;
-            background: rgba(10, 10, 10, 0.95);
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-            z-index: 100;
-            padding: 20px 0;
-        }
-        
-        .header-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .logo {
-            font-size: 24px;
-            font-weight: 800;
-            background: linear-gradient(135deg, #ff6b6b 0%, #ff8c42 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        
-        .phone {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-weight: 600;
-            color: #ff6b6b;
-            font-size: 16px;
-        }
-        
-        .btn-header {
-            background: linear-gradient(135deg, #ff6b6b 0%, #ff8c42 100%);
-            color: white;
-            padding: 12px 24px;
-            border-radius: 8px;
-            font-weight: 700;
-            text-decoration: none;
-            transition: transform 0.2s, box-shadow 0.2s;
-            box-shadow: 0 4px 20px rgba(255, 107, 107, 0.3);
-        }
-        
-        .btn-header:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 30px rgba(255, 107, 107, 0.5);
-        }
-        
-        /* Hero Section */
-        .hero {
-            padding: 80px 0;
-            text-align: center;
-        }
-        
-        .hero h1 {
-            font-size: 48px;
-            font-weight: 900;
-            line-height: 1.2;
-            margin-bottom: 20px;
-            background: linear-gradient(135deg, #ffffff 0%, #ff6b6b 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        
-        .hero-subtitle {
-            font-size: 20px;
-            color: #a0a0a0;
-            margin-bottom: 30px;
-            line-height: 1.6;
-        }
-        
-        .price-badge {
-            display: inline-block;
-            background: linear-gradient(135deg, #ff6b6b 0%, #ff8c42 100%);
-            padding: 20px 40px;
-            border-radius: 16px;
-            margin: 20px 0;
-            box-shadow: 0 8px 30px rgba(255, 107, 107, 0.4);
-        }
-        
-        .price-old {
-            text-decoration: line-through;
-            opacity: 0.7;
-            font-size: 18px;
-        }
-        
-        .price-new {
-            font-size: 48px;
-            font-weight: 900;
-            margin: 10px 0;
-        }
-        
-        .price-timer {
-            font-size: 14px;
-            opacity: 0.9;
-        }
-        
-        .btn-cta {
-            display: inline-block;
-            background: linear-gradient(135deg, #ff6b6b 0%, #ff8c42 100%);
-            color: white;
-            padding: 20px 50px;
-            border-radius: 12px;
-            font-weight: 800;
-            font-size: 20px;
-            text-decoration: none;
-            transition: all 0.3s;
-            box-shadow: 0 8px 30px rgba(255, 107, 107, 0.4);
-            margin: 20px 0;
-        }
-        
-        .btn-cta:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 40px rgba(255, 107, 107, 0.6);
-        }
-        
-        .reassurance {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin: 20px 0;
-            font-size: 14px;
-            color: #a0a0a0;
-        }
-        
-        .reassurance-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        
-        .micro-line {
-            font-size: 13px;
-            color: #808080;
-            margin-top: 10px;
-        }
-        
-        .powered-by {
-            font-size: 13px;
-            color: #606060;
-            margin-top: 15px;
-        }
-        
-        /* Sections */
-        .section {
-            padding: 80px 0;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        
-        .section-title {
-            font-size: 36px;
-            font-weight: 800;
-            margin-bottom: 40px;
-            text-align: center;
-        }
-        
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
-        }
-        
-        .feature-card {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 16px;
-            padding: 30px;
-            transition: all 0.3s;
-        }
-        
-        .feature-card:hover {
-            background: rgba(255, 255, 255, 0.08);
-            border-color: #ff6b6b;
-            transform: translateY(-5px);
-        }
-        
-        .feature-icon {
-            font-size: 32px;
-            margin-bottom: 15px;
-            color: #ff6b6b;
-        }
-        
-        .feature-title {
-            font-size: 20px;
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
-        
-        .feature-text {
-            color: #a0a0a0;
-            line-height: 1.6;
-        }
-        
-        /* Steps */
-        .steps {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
-        }
-        
-        .step {
-            text-align: center;
-            padding: 30px;
-        }
-        
-        .step-number {
-            width: 60px;
-            height: 60px;
-            background: linear-gradient(135deg, #ff6b6b 0%, #ff8c42 100%);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 28px;
-            font-weight: 800;
-            margin: 0 auto 20px;
-        }
-        
-        /* Comparison */
-        .comparison {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-top: 40px;
-        }
-        
-        .comparison-item {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
-            padding: 20px;
-            text-align: center;
-        }
-        
-        .comparison-icon {
-            font-size: 32px;
-            color: #4ade80;
-            margin-bottom: 10px;
-        }
-        
-        /* FAQ */
-        .faq-item {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
-            padding: 25px;
-            margin-bottom: 20px;
-        }
-        
-        .faq-question {
-            font-size: 18px;
-            font-weight: 700;
-            margin-bottom: 10px;
-            color: #ff6b6b;
-        }
-        
-        .faq-answer {
-            color: #a0a0a0;
-            line-height: 1.6;
-        }
-        
-        /* Footer */
-        footer {
-            background: rgba(0, 0, 0, 0.5);
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            padding: 60px 0 30px;
-            margin-top: 80px;
-        }
-        
-        .footer-content {
-            text-align: center;
-        }
-        
-        .footer-title {
-            font-size: 24px;
-            font-weight: 800;
-            margin-bottom: 20px;
-        }
-        
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-            margin: 30px 0;
-        }
-        
-        .footer-link {
-            color: #a0a0a0;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        
-        .footer-link:hover {
-            color: #ff6b6b;
-        }
-        
-        .footer-bottom {
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            color: #606060;
-            font-size: 14px;
-        }
-        
-        /* Sticky CTA Mobile */
-        .sticky-cta {
-            display: none;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: rgba(10, 10, 10, 0.98);
-            backdrop-filter: blur(10px);
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            padding: 15px 20px;
-            z-index: 99;
-        }
-        
-        .sticky-cta .btn-cta {
-            width: 100%;
-            text-align: center;
-            padding: 16px;
-            margin: 0;
-            font-size: 18px;
-        }
-        
-        /* Badge France */
-        .france-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: linear-gradient(90deg, #002395, #fff, #ED2939);
-            padding: 2px;
-            border-radius: 8px;
-            margin: 10px 0;
-        }
-        
-        .france-badge-inner {
-            background: #0a0a0a;
-            padding: 8px 16px;
-            border-radius: 6px;
-            font-size: 14px;
-            font-weight: 600;
-        }
-        
-        /* Legal pages */
-        .legal-content {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 60px 20px;
-        }
-        
-        .legal-content h1 {
-            font-size: 36px;
-            font-weight: 800;
-            margin-bottom: 40px;
-            color: #ff6b6b;
-        }
-        
-        .legal-content h2 {
-            font-size: 24px;
-            font-weight: 700;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            color: #ffffff;
-        }
-        
-        .legal-content h3 {
-            font-size: 18px;
-            font-weight: 600;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            color: #ff8c42;
-        }
-        
-        .legal-content p {
-            color: #a0a0a0;
-            line-height: 1.8;
-            margin-bottom: 15px;
-        }
-        
-        .legal-content ul, .legal-content ol {
-            color: #a0a0a0;
-            line-height: 1.8;
-            margin-left: 20px;
-            margin-bottom: 15px;
-        }
-        
-        .legal-content li {
-            margin-bottom: 10px;
-        }
-        
-        .legal-content strong {
-            color: #ffffff;
-        }
-        
-        .company-info {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
-            padding: 25px;
-            margin: 30px 0;
-        }
-        
-        .company-info p {
-            margin: 8px 0;
-        }
-        
-        /* Testimonials Section */
-        .testimonials-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 40px;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        
-        .testimonials-title-wrapper {
-            flex: 1;
-        }
-        
-        .testimonials-subtitle {
-            font-size: 14px;
-            color: #a0a0a0;
-            margin-top: 10px;
-        }
-        
-        .testimonials-view-all {
-            color: #ff6b6b;
-            text-decoration: none;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            transition: all 0.3s;
-        }
-        
-        .testimonials-view-all:hover {
-            color: #ff8c42;
-            transform: translateX(5px);
-        }
-        
-        .testimonials-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 20px;
-            margin-bottom: 20px;
-        }
-        
-        .testimonial-card {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
-            padding: 20px;
-            transition: all 0.3s;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-        
-        .testimonial-card:hover {
-            background: rgba(255, 255, 255, 0.06);
-            border-color: #ff6b6b;
-            transform: translateY(-3px);
-        }
-        
-        .testimonial-header {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-        
-        .testimonial-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, #ff6b6b 0%, #ff8c42 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 700;
-            font-size: 16px;
-            color: #ffffff;
-            flex-shrink: 0;
-        }
-        
-        .testimonial-info {
-            flex: 1;
-            min-width: 0;
-        }
-        
-        .testimonial-handle {
-            font-weight: 600;
-            color: #ffffff;
-            font-size: 14px;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
-        
-        .testimonial-source {
-            font-size: 12px;
-            color: #606060;
-            display: inline-block;
-            background: rgba(255, 107, 107, 0.1);
-            padding: 2px 8px;
-            border-radius: 4px;
-            margin-top: 4px;
-        }
-        
-        .testimonial-text {
-            color: #a0a0a0;
-            line-height: 1.6;
-            font-size: 14px;
-        }
-        
-        .testimonial-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            color: #ff6b6b;
-            text-decoration: none;
-            font-size: 13px;
-            font-weight: 600;
-            transition: all 0.3s;
-        }
-        
-        .testimonial-link:hover {
-            color: #ff8c42;
-            gap: 10px;
-        }
-        
-        .testimonial-view-all-card {
-            background: linear-gradient(135deg, rgba(255, 107, 107, 0.1) 0%, rgba(255, 140, 66, 0.1) 100%);
-            border: 2px dashed rgba(255, 107, 107, 0.5);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            gap: 15px;
-            min-height: 200px;
-        }
-        
-        .testimonial-view-all-card:hover {
-            border-color: #ff6b6b;
-            background: linear-gradient(135deg, rgba(255, 107, 107, 0.15) 0%, rgba(255, 140, 66, 0.15) 100%);
-        }
-        
-        .testimonial-view-all-icon {
-            font-size: 48px;
-            color: #ff6b6b;
-        }
-        
-        .testimonial-view-all-text {
-            font-size: 18px;
-            font-weight: 700;
-            color: #ffffff;
-        }
-        
-        /* Testimonials Page Search */
-        .testimonials-search {
-            max-width: 600px;
-            margin: 0 auto 40px;
-        }
-        
-        .search-input {
-            width: 100%;
-            padding: 15px 20px;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
-            color: #ffffff;
-            font-size: 16px;
-            font-family: 'Inter', sans-serif;
-            transition: all 0.3s;
-        }
-        
-        .search-input:focus {
-            outline: none;
-            border-color: #ff6b6b;
-            background: rgba(255, 255, 255, 0.08);
-        }
-        
-        .search-input::placeholder {
-            color: #606060;
-        }
-        
-        /* Responsive */
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 32px;
-            }
-            
-            .hero-subtitle {
-                font-size: 16px;
-            }
-            
-            .price-new {
-                font-size: 36px;
-            }
-            
-            .btn-cta {
-                padding: 16px 32px;
-                font-size: 18px;
-            }
-            
-            .section-title {
-                font-size: 28px;
-            }
-            
-            .feature-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .phone {
-                font-size: 14px;
-            }
-            
-            .btn-header {
-                padding: 10px 16px;
-                font-size: 14px;
-            }
-            
-            .sticky-cta {
-                display: block;
-            }
-            
-            .reassurance {
-                font-size: 12px;
-                gap: 10px;
-            }
-            
-            .footer-links {
-                flex-direction: column;
-                gap: 15px;
-            }
-            
-            .testimonials-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .testimonials-header {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-        }
-    </style>
-    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Témoignages — la communauté OpenClaw | OpenClaw France</title>
+<meta name="description" content="Les retours publics de la communauté sur OpenClaw : sources X cliquables et vérifiables. Le pack d'installation était vendu 97 € — les kits OpenClaw & Hermes Agent sont désormais 100 % gratuits.">
+<link rel="canonical" href="https://openclaw-france.fr/temoignages/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Témoignages — la communauté OpenClaw">
+<meta property="og:description" content="Retours publics vérifiables sur OpenClaw. Kits d'installation 100 % gratuits sur openclaw-france.fr.">
+<meta property="og:image" content="/static/og-image.png">
+<meta property="og:url" content="https://openclaw-france.fr/temoignages/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/static/favicon.svg">
+<link rel="stylesheet" href="/static/style.css">
+<style>
+.tes-grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin:28px 0}
+.tes-carte{display:flex;flex-direction:column;gap:12px;padding:22px}
+.tes-tete{display:flex;align-items:center;gap:12px}
+.tes-avatar{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;color:#04261a;background:linear-gradient(135deg,var(--accent),var(--accent-2));flex:0 0 auto}
+.tes-handle{font-weight:600;line-height:1.2}
+.tes-src{font-size:12px;color:var(--texte-2)}
+.tes-texte{font-size:15.5px;line-height:1.55;color:var(--texte);margin:0}
+.tes-lien{margin-top:auto;font-size:13.5px;color:var(--accent);text-decoration:none}
+.tes-lien:hover{text-decoration:underline}
+.tes-recherche{width:100%;max-width:420px;padding:13px 16px;border-radius:12px;border:1px solid var(--carte-bord);background:var(--carte);color:var(--texte);font-size:15px;outline:none}
+.tes-recherche:focus{border-color:var(--accent)}
+.note-gratuit{margin:18px 0 6px;padding:16px 20px;border-radius:14px;border:1px solid var(--carte-bord);background:var(--carte);color:var(--texte-2);font-size:14.5px}
+.note-gratuit b{color:var(--vert)}
+</style>
 </head>
 <body>
-    
-    <header>
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    🦞 OpenClaw FRANCE
-                </div>
-                <div style="display: flex; align-items: center; gap: 20px;">
-                    <a href="tel:+33745886820" class="phone">
-                        <i class="fas fa-phone"></i>
-                        <span>+33 7 45 88 68 20</span>
-                    </a>
-                    <a href="/#cta" class="btn-header">Payer 97€</a>
-                </div>
-            </div>
-        </div>
-    </header>
 
-    <main>
-        <div class="legal-content">
-            <h1>💬 Ce que la communauté dit d'OpenClaw</h1>
-            
-            <p style="font-size: 16px; color: #a0a0a0; margin-bottom: 40px;">
-                Découvrez les retours publics de la communauté sur OpenClaw. Toutes les sources sont cliquables et vérifiables.
-            </p>
-            
-            <!-- Recherche -->
-            <div class="testimonials-search">
-                <input 
-                    type="text" 
-                    class="search-input" 
-                    id="searchInput"
-                    placeholder="🔍 Rechercher par mot-clé..."
-                    onkeyup="filterTestimonials()"
-                >
-            </div>
-            
-            <!-- Grille de témoignages -->
-            <div class="testimonials-grid" id="testimonialsGrid">
-                
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">N</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@noahkagan</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">Premier outil AI où je vois vraiment l'avenir</p>
-        <a href="https://x.com/noahkagan/status/2020569213925314997" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">A</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@ayushtweetshere</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">La façon la plus impactante d'utiliser OpenClaw</p>
-        <a href="https://x.com/ayushtweetshere/status/2017780212042522692" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">E</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@ericosiu</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">Tout le monde est excité par OpenClaw</p>
-        <a href="https://x.com/ericosiu/status/2020883003346714666" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">0</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@0xZakk</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">Mon agent OpenClaw fonctionne mieux que prévu</p>
-        <a href="https://x.com/0xZakk/status/2020156182560714950" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">J</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@jamesjyu</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">J'expérimente OpenClaw pour l'écriture créative</p>
-        <a href="https://x.com/jamesjyu/status/2020173483301646613" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">C</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@checovenier</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">Agent autonome sur son propre hardware</p>
-        <a href="https://x.com/checovenier/status/2019756360427065576" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">A</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@AndreRetterath</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">OpenClaw est différent : agent ambiant toujours actif</p>
-        <a href="https://x.com/AndreRetterath/status/2020446525688561951" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">I</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@imcharliegraham</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">OpenClaw se sent transformationnel</p>
-        <a href="https://x.com/imcharliegraham/status/2020986677511192652" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">_</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@__Raiders</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">Assistant AI auto-hébergé sur votre propre matériel</p>
-        <a href="https://x.com/__Raiders/status/2018749618323112067" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">0</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@0xreso1ute</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">Changements fondamentaux dans le fonctionnement</p>
-        <a href="https://x.com/0xreso1ute/status/2018352579403776019" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">A</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@aitxcommunity</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">Automatise les tâches nécessitant intervention humaine</p>
-        <a href="https://x.com/aitxcommunity/status/2019092280053825788" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">I</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@IMJustinBrooke</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">Agent avec navigateur puissant et furtif</p>
-        <a href="https://x.com/IMJustinBrooke/status/2019191310679486930" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">T</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@troy_scott</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">Framework d'agents AI puissant</p>
-        <a href="https://x.com/troy_scott" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">P</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@plbiojout</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">Mon OpenClaw a fait ses premiers dollars</p>
-        <a href="https://x.com/plbiojout/highlights" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">N</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@NathanJClement</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">Expérimentation avec ClawdBot</p>
-        <a href="https://x.com/NathanJClement" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">V</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@vandigital</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">Incroyable pour l'exécution de tâches</p>
-        <a href="https://x.com/vandigital" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">J</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@JohnBej</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">Workflows OpenClaw 10x meilleurs</p>
-        <a href="https://x.com/JohnBej" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <div class="testimonial-avatar">R</div>
-          <div class="testimonial-info">
-            <div class="testimonial-handle">@rickmanelius</div>
-            <span class="testimonial-source">Source publique</span>
-          </div>
-        </div>
-        <p class="testimonial-text">Tournant dans l'histoire de l'IA</p>
-        <a href="https://x.com/rickmanelius" target="_blank" rel="noopener" class="testimonial-link">
-          Voir la source
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    
-            </div>
-            
-            <!-- CTA -->
-            <div style="text-align: center; margin-top: 60px; padding: 40px 20px; background: rgba(255, 107, 107, 0.05); border-radius: 16px;">
-                <h2 style="font-size: 28px; margin-bottom: 20px;">Prêt à rejoindre la communauté ?</h2>
-                <p style="font-size: 16px; color: #a0a0a0; margin-bottom: 30px;">
-                    Obtenez votre pack d'installation OpenClaw dès maintenant
-                </p>
-                <a href="/#cta" class="btn-cta">
-                    🔒 Payer 97€ et recevoir le pack
-                </a>
-            </div>
-        </div>
-    </main>
+<a class="barre" href="https://communaute-ia.fr">
+  🦀 Notre média <strong>La Communauté</strong> — l'actu de l'IA et des agents autonomes, écrite et publiée en continu par une IA — <strong>communaute-ia.fr →</strong>
+</a>
 
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-title">🦞 OpenClaw FRANCE</div>
-                <div class="footer-links">
-                    <a href="/" class="footer-link">Accueil</a>
-                    <a href="/mentions-legales" class="footer-link">Mentions légales</a>
-                    <a href="/cgv" class="footer-link">CGV</a>
-                    <a href="/politique-de-confidentialite" class="footer-link">Confidentialité</a>
-                </div>
-                <p class="powered-by">Propulsé par <strong>BLOCKOS</strong></p>
-                <p style="color: #606060; font-size: 14px; margin-top: 20px;">&copy; 2026 OpenClaw France. Tous droits réservés.</p>
-            </div>
+<header class="entete">
+  <div class="wrap">
+    <a class="marque" href="/">
+      <span class="logo">🦀</span>
+      <span>OpenClaw France<small>100 % GRATUIT · FRANÇAIS</small></span>
+    </a>
+    <nav class="nav">
+      <a href="/">Accueil</a>
+      <a href="/openclaw/">OpenClaw</a>
+      <a href="/hermes/">Hermes Agent</a>
+      <a href="/gratuit/">Pourquoi gratuit ?</a>
+      <a class="actif" href="/temoignages/">Témoignages</a>
+      <a class="btn btn-vert btn-petit" href="/openclaw/">Télécharger 🆓</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>💬 Ce que la communauté dit d'OpenClaw</h1>
+  <p style="color:var(--texte-2);max-width:760px">
+    Des retours <b>publics</b>, sources cliquables et vérifiables — rien d'inventé.
+  </p>
+
+  <div class="note-gratuit">
+    💡 Le pack d'installation a longtemps été vendu <s>97 €</s>. Il est désormais
+    <b>100 % gratuit</b> — les kits OpenClaw &amp; Hermes Agent sont offerts à tous,
+    sans compte ni carte bancaire. <a href="/gratuit/">Pourquoi ? →</a>
+  </div>
+
+  <div style="margin:26px 0 6px">
+    <input type="text" class="tes-recherche" id="recherche" placeholder="🔍 Rechercher par mot-clé..."
+           onkeyup="filtrer()">
+    <span id="compteur" style="color:var(--texte-2);font-size:13.5px;margin-left:12px"></span>
+  </div>
+
+  <div class="tes-grille" id="grille">
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">N</div>
+          <div><div class="tes-handle">@noahkagan</div><span class="tes-src">Source publique</span></div>
         </div>
-    <div style="text-align:center;padding:8px 0 2px;font-size:14px;"><a href="https://communaute-ia.fr" style="color:#0ea5e9;font-weight:600;">La Communauté 🦀 — le média IA gratuit</a></div>
+        <p class="tes-texte">« Premier outil AI où je vois vraiment l'avenir »</p>
+        <a class="tes-lien" href="https://x.com/noahkagan/status/2020569213925314997" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">A</div>
+          <div><div class="tes-handle">@ayushtweetshere</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« La façon la plus impactante d'utiliser OpenClaw »</p>
+        <a class="tes-lien" href="https://x.com/ayushtweetshere/status/2017780212042522692" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">E</div>
+          <div><div class="tes-handle">@ericosiu</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« Tout le monde est excité par OpenClaw »</p>
+        <a class="tes-lien" href="https://x.com/ericosiu/status/2020883003346714666" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">0</div>
+          <div><div class="tes-handle">@0xZakk</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« Mon agent OpenClaw fonctionne mieux que prévu »</p>
+        <a class="tes-lien" href="https://x.com/0xZakk/status/2020156182560714950" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">J</div>
+          <div><div class="tes-handle">@jamesjyu</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« J'expérimente OpenClaw pour l'écriture créative »</p>
+        <a class="tes-lien" href="https://x.com/jamesjyu/status/2020173483301646613" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">C</div>
+          <div><div class="tes-handle">@checovenier</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« Agent autonome sur son propre hardware »</p>
+        <a class="tes-lien" href="https://x.com/checovenier/status/2019756360427065576" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">A</div>
+          <div><div class="tes-handle">@AndreRetterath</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« OpenClaw est différent : agent ambiant toujours actif »</p>
+        <a class="tes-lien" href="https://x.com/AndreRetterath/status/2020446525688561951" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">I</div>
+          <div><div class="tes-handle">@imcharliegraham</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« OpenClaw se sent transformationnel »</p>
+        <a class="tes-lien" href="https://x.com/imcharliegraham/status/2020986677511192652" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">_</div>
+          <div><div class="tes-handle">@__Raiders</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« Assistant AI auto-hébergé sur votre propre matériel »</p>
+        <a class="tes-lien" href="https://x.com/__Raiders/status/2018749618323112067" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">0</div>
+          <div><div class="tes-handle">@0xreso1ute</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« Changements fondamentaux dans le fonctionnement »</p>
+        <a class="tes-lien" href="https://x.com/0xreso1ute/status/2018352579403776019" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">A</div>
+          <div><div class="tes-handle">@aitxcommunity</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« Automatise les tâches nécessitant intervention humaine »</p>
+        <a class="tes-lien" href="https://x.com/aitxcommunity/status/2019092280053825788" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">I</div>
+          <div><div class="tes-handle">@IMJustinBrooke</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« Agent avec navigateur puissant et furtif »</p>
+        <a class="tes-lien" href="https://x.com/IMJustinBrooke/status/2019191310679486930" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">T</div>
+          <div><div class="tes-handle">@troy_scott</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« Framework d'agents AI puissant »</p>
+        <a class="tes-lien" href="https://x.com/troy_scott" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">P</div>
+          <div><div class="tes-handle">@plbiojout</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« Mon OpenClaw a fait ses premiers dollars »</p>
+        <a class="tes-lien" href="https://x.com/plbiojout/highlights" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">N</div>
+          <div><div class="tes-handle">@NathanJClement</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« Expérimentation avec ClawdBot »</p>
+        <a class="tes-lien" href="https://x.com/NathanJClement" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">V</div>
+          <div><div class="tes-handle">@vandigital</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« Incroyable pour l'exécution de tâches »</p>
+        <a class="tes-lien" href="https://x.com/vandigital" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">J</div>
+          <div><div class="tes-handle">@JohnBej</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« Workflows OpenClaw 10x meilleurs »</p>
+        <a class="tes-lien" href="https://x.com/JohnBej" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+      <article class="carte tes-carte">
+        <div class="tes-tete">
+          <div class="tes-avatar">R</div>
+          <div><div class="tes-handle">@rickmanelius</div><span class="tes-src">Source publique</span></div>
+        </div>
+        <p class="tes-texte">« Tournant dans l'histoire de l'IA »</p>
+        <a class="tes-lien" href="https://x.com/rickmanelius" target="_blank" rel="noopener">Voir la source ↗</a>
+      </article>
+  </div>
+
+  <div class="section" style="margin-top:46px;text-align:center">
+    <h2>Prêt à rejoindre la communauté ?</h2>
+    <p style="color:var(--texte-2);max-width:640px;margin:10px auto 22px">
+      Tout est gratuit, immédiat et sans inscription. Prenez les kits, installez, et faites-en ce que vous voulez.
+    </p>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+      <a class="btn btn-principal btn-large" href="/openclaw/">📦 Kit OpenClaw — gratuit</a>
+      <a class="btn btn-vert btn-large" href="/hermes/">🤖 Kit Hermes Agent — gratuit</a>
+      <a class="btn btn-secondaire btn-large" href="https://communaute-ia.fr">Découvrir La Communauté 🦀</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="pied">
+      <div>
+        <a class="marque" href="/"><span class="logo">🦀</span><span>OpenClaw France<small>100 % GRATUIT · FRANÇAIS</small></span></a>
+        <p style="color:var(--texte-2);font-size:14px;margin-top:14px">
+          Les kits d'installation OpenClaw &amp; Hermes Agent, offerts à tous.<br>
+          Contact : <a href="mailto:support@openclaw-france.fr">support@openclaw-france.fr</a> · +33 7 45 88 68 20
+        </p>
+      </div>
+      <div>
+        <h4>Les kits</h4>
+        <a href="/openclaw/">Kit OpenClaw 🆓</a>
+        <a href="/hermes/">Kit Hermes Agent 🆓</a>
+        <a href="/gratuit/">Pourquoi c'est gratuit</a>
+        <a href="/temoignages/">Témoignages</a>
+      </div>
+      <div>
+        <h4>Le projet</h4>
+        <a href="https://communaute-ia.fr" rel="noopener">La Communauté 🦀</a>
+        <a href="https://github.com/mael-ctrl/openclaw-france-communaute">Code source (GitHub)</a>
+        <a href="/mentions-legales">Mentions légales</a>
+        <a href="/politique-de-confidentialite">Confidentialité</a>
+      </div>
+    </div>
+    <div class="bas">
+      <span>Propulsé par <b>BLOCKOS</b> · © 2026 OpenClaw France</span>
+      <span>Site statique · zéro cookie · <a href="/gratuit/">100 % gratuit</a></span>
+    </div>
+  </div>
 </footer>
-    
-    <script>
-        function filterTestimonials() {
-            const input = document.getElementById('searchInput')
-            const filter = input.value.toLowerCase()
-            const grid = document.getElementById('testimonialsGrid')
-            const cards = grid.getElementsByClassName('testimonial-card')
-            
-            for (let i = 0; i < cards.length; i++) {
-                const card = cards[i]
-                const text = card.textContent || card.innerText
-                if (text.toLowerCase().indexOf(filter) > -1) {
-                    card.style.display = ''
-                } else {
-                    card.style.display = 'none'
-                }
-            }
-        }
-    </script>
-  
+
+<script>
+function filtrer(){
+  var q = document.getElementById('recherche').value.toLowerCase();
+  var cartes = document.querySelectorAll('.tes-carte');
+  var n = 0;
+  cartes.forEach(function(c){
+    var ok = c.textContent.toLowerCase().indexOf(q) !== -1;
+    c.style.display = ok ? '' : 'none';
+    if (ok) n++;
+  });
+  document.getElementById('compteur').textContent = q ? (n + ' témoignage(s) trouvé(s)') : '';
+}
+</script>
+
 </body>
 </html>

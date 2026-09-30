@@ -60,3 +60,10 @@
 {"ts": "2026-09-29T23:07:03+00:00", "evenement": "deploiement", "details": {"fichiers": 67, "octets": 851511}}
 {"ts": "2026-09-29T23:07:03+00:00", "evenement": "indexation", "details": {"indexnow": 200}}
 {"ts": "2026-09-29T23:07:03+00:00", "evenement": "bilan", "details": {"duree_s": 74.5, "neufs": 0, "breves": 0, "articles": 0, "fichiers": 58, "envois": 67, "publications": 0}}
+{"ts": "2026-09-30T01:55:14+00:00", "evenement": "collecte", "details": {"neufs": 10}}
+{"ts": "2026-09-30T01:55:55+00:00", "evenement": "construction", "details": {"fichiers": 64}}
+{"ts": "2026-09-30T01:57:29+00:00", "evenement": "deploiement", "details": {"fichiers": 73, "octets": 922442}}
+{"ts": "2026-09-30T01:57:30+00:00", "evenement": "indexation", "details": {"indexnow": 200}}
+{"ts": "2026-09-30T01:57:38+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 1}}
+{"ts": "2026-09-30T01:57:49+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}}
+{"ts": "2026-09-30T01:57:49+00:00", "evenement": "bilan", "details": {"duree_s": 166.0, "neufs": 10, "breves": 6, "articles": 0, "fichiers": 64, "envois": 73, "publications": 4}}

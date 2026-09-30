@@ -1,14 +1,14 @@
 {
- "runs": 19,
- "items_collectes": 306,
- "breves_publiees": 77,
+ "runs": 20,
+ "items_collectes": 310,
+ "breves_publiees": 79,
  "articles_publies": 1,
- "tokens_entree": 54657,
- "tokens_sortie": 63849,
+ "tokens_entree": 55922,
+ "tokens_sortie": 65395,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-09-30T14:35:40+00:00",
+ "dernier_run": "2026-09-30T15:12:10+00:00",
  "solde": {
-  "total": "90.53",
+  "total": "90.43",
   "devise": "USD",
   "disponible": true
  },
@@ -20,10 +20,18 @@
   {
    "ts": "2026-09-29T21:22:16+00:00",
    "message": "déploiement : 553 Can't open that file: No such file or directory"
+  },
+  {
+   "ts": "2026-09-30T15:11:47+00:00",
+   "message": "brève impossible (Penalties of PCIe generations? (2x R9700)) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-09-30T15:12:03+00:00",
+   "message": "brève impossible (Follow-up: my native Rust + Vulkan Transformer training back) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 1.13,
+ "depense_usd": 1.23,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -92,10 +100,14 @@
   [
    "2026-09-30T14:35:16+00:00",
    "90.53"
+  ],
+  [
+   "2026-09-30T15:11:34+00:00",
+   "90.43"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 0.9,
+ "depense_mois_usd": 1.0,
  "archive_tentatives": {
   "jour": "2026-09-30",
   "n": 3

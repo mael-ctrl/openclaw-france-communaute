@@ -130,3 +130,9 @@
 {"ts": "2026-09-30T17:31:10+00:00", "evenement": "deploiement", "details": {"fichiers": 102, "octets": 1002360}}
 {"ts": "2026-09-30T17:31:11+00:00", "evenement": "indexation", "details": {"indexnow": 200}}
 {"ts": "2026-09-30T17:31:11+00:00", "evenement": "bilan", "details": {"duree_s": 38.0, "neufs": 7, "breves": 0, "articles": 0, "fichiers": 101, "envois": 102, "publications": 0}}
+{"ts": "2026-09-30T17:48:24+00:00", "evenement": "collecte", "details": {"neufs": 4}}
+{"ts": "2026-09-30T17:49:12+00:00", "evenement": "erreur", "details": {"message": "article impossible : réponse non-JSON"}}
+{"ts": "2026-09-30T17:49:12+00:00", "evenement": "construction", "details": {"fichiers": 105}}
+{"ts": "2026-09-30T17:51:41+00:00", "evenement": "deploiement", "details": {"fichiers": 114, "octets": 1325520}}
+{"ts": "2026-09-30T17:51:47+00:00", "evenement": "indexation", "details": {"indexnow": 200}}
+{"ts": "2026-09-30T17:51:47+00:00", "evenement": "bilan", "details": {"duree_s": 233.9, "neufs": 4, "breves": 4, "articles": 0, "fichiers": 105, "envois": 114, "publications": 0}}

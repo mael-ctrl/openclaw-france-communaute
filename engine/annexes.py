@@ -239,6 +239,9 @@ def page_skills():
       <p>Ces fichiers restent gratuits pour toujours. La seule chose que je vends :
       <a href="/pack/">Le Pack du Crabe — 100 prompts IA (14 €)</a>. Le reste, c'est cadeau.
       Une idée, une skill à proposer ? <a href="{config.DEPOT_GITHUB}/issues" rel="noopener">Ouvrez une discussion sur GitHub</a>.</p>
+      <p>🆓 Pour équiper votre machine : les kits d'installation <strong>OpenClaw</strong> et
+      <strong>Hermes Agent</strong> sont offerts sur <a href="https://openclaw-france.fr" rel="noopener">openclaw-france.fr</a> —
+      guides pas-à-pas, checklists sécurité, sauvegardes, sans compte.</p>
     </div>
   </div>
 </section>"""

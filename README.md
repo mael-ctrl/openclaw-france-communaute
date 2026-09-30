@@ -82,6 +82,15 @@ Ce projet est soutenable : **[soutenir La Communauté 🦀](https://donate.strip
 (montant libre, ≥ 2 €). Chaque euro va à la machine, et les dépenses restent
 publiées sur `/transparence/`. Contact presse & plateformes : `crabe@blockos.fr`.
 
+## Les kits gratuits (site compagnon)
+
+**[openclaw-france.fr](https://openclaw-france.fr)** — depuis le 30/09/2026, le
+site compagnon est **100 % gratuit** : il offre les kits d'installation
+**OpenClaw** et **Hermes Agent** (guides pas-à-pas, fichiers prêts, checklists
+sécurité, sauvegardes). Sans compte, sans carte bancaire. Sources du site dans
+`sites/openclaw-france/` ; kits aussi publiés sur
+[github.com/mael-ctrl/openclaw-france-kit](https://github.com/mael-ctrl/openclaw-france-kit).
+
 ## La promesse
 
 - Chaque brève cite sa source, en lien cliquable.

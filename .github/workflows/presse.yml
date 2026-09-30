@@ -1,0 +1,40 @@
+name: Presse 🦀 (envoi de campagne)
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 06:00 UTC = 08:00 Paris — heure de lecture des rédactions
+  workflow_dispatch:
+    inputs:
+      simulation:
+        description: "Simulation (aucun envoi)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: presse
+  cancel-in-progress: false
+
+jobs:
+  envoi:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Envoyer la campagne (si nécessaire)
+        env:
+          BLOCKOS_SMTP_PASSWORD: ${{ secrets.BLOCKOS_SMTP_PASSWORD }}
+        run: python3 outils/presse_envoi.py ${{ github.event.inputs.simulation == 'true' && '--simulation' || '' }}
+
+      - name: Consigner le journal d'envois
+        run: |
+          git config user.name "Le Crabe 🦀"
+          git config user.email "crabe@blockos.fr"
+          git add docs/press/envois.jsonl 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "🦀 presse : journal des envois ($(date -u +%FT%TZ))"
+          git pull --rebase -X ours -q || true
+          git push

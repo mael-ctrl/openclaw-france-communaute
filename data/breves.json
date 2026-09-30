@@ -1,5 +1,48 @@
 [
  {
+  "id": "3b8cac226ce51f79",
+  "slug": "une-liste-de-gpu-32-go-a-moins-de-1600-compilee-avec-claude-3b8cac",
+  "titre": "Une liste de GPU 32 Go à moins de 1600 $ compilée avec Claude",
+  "resume": "Un membre de r/LocalLLaMA a compilé un classement de GPU assez récents dotés de 32 Go de VRAM, du moins cher au plus cher, tous sous les 1600 $. Les prix proviennent d'annonces eBay : l'auteur a soumis des captures d'écran de ces annonces à Claude pour produire le graphique. Il le partage comme repère pour qui veut faire tourner des modèles en local.",
+  "tags": [
+   "matériel",
+   "claude",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuk9so/least_to_most_expensive_somewhat_modern_gpus_with/",
+  "date_source": "2026-09-30T23:36:12+00:00",
+  "date_redac": "2026-09-30T23:49:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 666,
+   "sortie": 679
+  }
+ },
+ {
+  "id": "003b0cb46d781e1c",
+  "slug": "victoria-et-maple-deux-modeles-open-weights-affines-depuis-qwen3-8-fla-003b0c",
+  "titre": "Victoria et Maple : deux modèles open-weights affinés depuis Qwen3.8-Flash-Next",
+  "resume": "Deux fine-tunes de Qwen Flash Next sortent du labo : Victoria, orientée code et agents, voit ses experts réduits de 44 % (de 512 à 288 par couche) via la technique REAP, puis est ré-entraînée en NVFP4. Elle atteint 70 % sur Terminal-Bench 2.1 et 159/164 sur HumanEval, pour 48 GiB de poids. Maple est un fine-tune « Canada-first ». Une version GGUF Q4_K_M accompagne Victoria.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wujph3/two_openweights_releases_victoria_qwen38flashnext/",
+  "date_source": "2026-09-30T23:10:03+00:00",
+  "date_redac": "2026-09-30T23:49:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 939,
+   "sortie": 767
+  }
+ },
+ {
   "id": "29d5171cad6c2de7",
   "slug": "qwen3-8-27b-deux-quantifications-comparees-sur-un-m1-max-29d517",
   "titre": "Qwen3.8-27B : deux quantifications comparées sur un M1 Max",

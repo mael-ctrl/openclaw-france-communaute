@@ -54,6 +54,12 @@ OpenRouter…), soit un modèle local via Ollama (prévoir 8 Go de RAM pour un p
 modèle, 32 Go ou plus pour les plus gros). Dans tous les cas, un modèle avec au
 moins 64 000 tokens de contexte est requis par Hermes.
 
+> 💡 **Où l'héberger ?** Votre ordinateur suffit pour commencer — c'est même le
+> mode recommandé. Pour qu'il tourne 24 h/24, un petit VPS fait l'affaire (dès
+> ~5 €/mois) : notre site passe par [Hostinger](https://www.hostinger.com/fr?REFERRALCODE=FGUOPENCL2M5)
+> — *lien partenaire, il finance la gratuité de ce kit* (rabais appliqué, zéro
+> surcoût).
+
 ## 3. Étape 1 — Installer Hermes Agent
 
 ### Méthode A — Application desktop (macOS)

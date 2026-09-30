@@ -36,6 +36,12 @@ de minimum matériel formel ; en cas de doute, prenez 4 Go). Vous recevez de vot
 hébergeur une adresse IP et un accès SSH. Le kit fonctionne avec n'importe quel
 hébergeur.
 
+> 💡 **Pas encore d'hébergeur ?** Notre site passe par **Hostinger** :
+> <https://www.hostinger.com/fr?REFERRALCODE=FGUOPENCL2M5> — *lien partenaire,
+> il finance la gratuité de ce kit* (rabais déjà appliqué, zéro surcoût pour
+> vous). Cela dit, n'importe quel hébergeur convient : prenez celui qui vous
+> plaît.
+
 **Dans les deux cas, il vous faut un accès à un modèle d'IA :** une clé API chez
 un fournisseur (OpenAI, Anthropic, Gemini, OpenRouter…), ou une connexion
 existante Claude Code / Codex CLI que l'assistant peut réutiliser tout seul.

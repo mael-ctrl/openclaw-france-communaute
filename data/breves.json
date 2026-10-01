@@ -1,5 +1,130 @@
 [
  {
+  "id": "20fa8fa2006ebc7d",
+  "slug": "un-serveur-8x-v100-achete-5-400-sur-ebay-depasse-200-tok-s-sur-un-27b-20fa8f",
+  "titre": "Un serveur 8x V100 acheté 5 400 $ sur eBay dépasse 200 tok/s sur un 27B",
+  "resume": "Un utilisateur de r/LocalLLaMA détaille les performances d'un serveur huit V100 acheté 5 400 dollars sur eBay, mis en route avec l'aide d'Opus 5.5. Avec seulement quatre GPU, il obtient un cache KV d'environ 120k avec l'image activée ; un modèle 27B en TP=4 dépasse les 200 tok/s avec dflash, pour un prefill entre 2,5 et 3,5k. Le tout tourne sur les checkpoints nvfp4 de Nvidia, via 1Cat-vLLM, un dépôt qui décompresse en fp16 à la volée.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuztnq/5400_ebay_8x_v100_server_cranks_on_flashnext/",
+  "date_source": "2026-10-01T13:44:36+00:00",
+  "date_redac": "2026-10-01T13:51:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 753,
+   "sortie": 1065
+  }
+ },
+ {
+  "id": "02b3f154b1e04bfb",
+  "slug": "un-tandy-286-fait-tourner-chat-et-generation-d-images-via-qwen-et-krea-02b3f1",
+  "titre": "Un Tandy 286 fait tourner chat et génération d'images via Qwen et Krea",
+  "resume": "Un passionné fait tourner un chat et de la génération d'images sur un Tandy 1000 TL/3, une machine DOS à processeur 286. Le programme natif DeskMind passe par WiFi (carte PicoMEM 2, mTCP) vers un serveur Python sur son PC, qui pilote Qwen3.8-27B et Krea 2. Le 286 ne voit jamais de JSON, de base64 ni de PNG : il reçoit du texte et des images prêtes pour la mémoire vidéo. Un logo demandé en chat arrive en 9 s.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuxzdg/why_am_i_like_this_full_chat_and_image_generation/",
+  "date_source": "2026-10-01T12:20:55+00:00",
+  "date_redac": "2026-10-01T13:51:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 859,
+   "sortie": 1266
+  }
+ },
+ {
+  "id": "4b9f65220d5a2f6f",
+  "slug": "llama-cpp-le-support-du-mtp-arrive-pour-qwen-flash-next-4b9f65",
+  "titre": "llama.cpp : le support du MTP arrive pour Qwen Flash Next",
+  "resume": "La pull request #29761 du dépôt ggml-org/llama.cpp, signée am17an, ajoute le support du MTP pour Qwen Flash Next. Elle a été fusionnée après 17 heures de développement. Des quants sont déjà disponibles sur Hugging Face (ggml-org/Qwen3.8-Flash-Next-GGUF), et l'auteur du post se demande s'il est temps de délaisser Qwen 3.8 27B.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuwrsk/qwen4exp_add_mtp_by_am17an_pull_request_29761/",
+  "date_source": "2026-10-01T11:18:34+00:00",
+  "date_redac": "2026-10-01T13:51:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 744,
+   "sortie": 857
+  }
+ },
+ {
+  "id": "c057301193060278",
+  "slug": "ressources-vllm-pour-configs-bi-gpu-nvidia-partagees-sur-github-c05730",
+  "titre": "Ressources vLLM pour configs bi-GPU Nvidia partagées sur GitHub",
+  "resume": "Un utilisateur de r/LocalLLaMA a publié sur GitHub un dépôt de ressources vLLM destiné aux configurations à deux GPU Nvidia. Il explique avoir voulu pousser son PC le plus loin possible et avoir constaté que la documentation existante était limitée, d'où la création de son propre matériel. Le dépôt est accessible à l'adresse github.com/ExTV/dual-gpus-vllm.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuvu86/dual_gpus_vllm_resources_for_50_40_nvidia_gpus/",
+  "date_source": "2026-10-01T10:25:39+00:00",
+  "date_redac": "2026-10-01T13:51:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 274
+  }
+ },
+ {
+  "id": "cd3bc7a40968f507",
+  "slug": "12-heures-avec-ling-3-1-flash-un-modele-560b-a25b-encore-a-venir-cd3bc7",
+  "titre": "12 heures avec Ling 3.1 Flash, un modèle 560B A25B encore à venir",
+  "resume": "Un utilisateur de r/LocalLLaMA raconte avoir passé 12 heures avec Ling 3.1 Flash, un modèle 560B A25B annoncé comme « coming soon », pour réaliser « l'instrument le plus difficile à jouer ». Il s'étonne qu'un modèle estampillé « flash » relève désormais de la catégorie des 500B, tout en constatant que ça fonctionne.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuuqpp/12hrs_with_ling_31_flash/",
+  "date_source": "2026-10-01T09:16:36+00:00",
+  "date_redac": "2026-10-01T13:51:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 674,
+   "sortie": 907
+  }
+ },
+ {
+  "id": "86f3bc35c69225c0",
+  "slug": "recherche-d-une-alternative-open-source-a-claude-cowork-86f3bc",
+  "titre": "Recherche d'une alternative open source à Claude Cowork",
+  "resume": "Un utilisateur de r/LocalLLaMA cherche une alternative open source à Claude Cowork, avec intégrations type Notion ou Gmail, recherche web et création de PDF. Il a repéré le projet Eigent sur GitHub, mais ne trouve aucun retour d'expérience à son sujet. Il a aussi testé OpenClaw, Hermes et l'interface d'OpenWebUI, jugés adaptés à d'autres usages, et veut connecter son propre serveur à Ollama ou Ninfer.",
+  "tags": [
+   "open-source",
+   "claude",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuu9ip/best_opensource_claude_cowork_alternative/",
+  "date_source": "2026-10-01T08:45:33+00:00",
+  "date_redac": "2026-10-01T13:51:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 752,
+   "sortie": 588
+  }
+ },
+ {
   "id": "f466c1d46a0e57c9",
   "slug": "securite-de-l-ia-washington-s-en-remet-a-ceux-qui-la-developpent-f466c1",
   "titre": "Sécurité de l'IA : Washington s'en remet à ceux qui la développent",

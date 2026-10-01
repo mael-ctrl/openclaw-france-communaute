@@ -1,5 +1,132 @@
 [
  {
+  "id": "d56c7ab4a2d00646",
+  "slug": "openclaw-corrige-la-verification-de-propriete-des-chunks-publies-herit-d56c7a",
+  "titre": "OpenClaw corrige la vérification de propriété des chunks publiés hérités",
+  "resume": "OpenClaw a poussé un correctif sur son canal de publication de versions. Ce correctif concerne la vérification de la propriété des chunks publiés au format hérité. Il porte la référence #163019 dans le dépôt du projet.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fa01081aac382-1790893897",
+  "date_source": "2026-10-01T22:29:41+00:00",
+  "date_redac": "2026-10-01T23:23:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 613,
+   "sortie": 450
+  }
+ },
+ {
+  "id": "8ea2271e6ae1d423",
+  "slug": "gufo-70-tok-s-sur-qwen3-8-27b-mais-le-chiffre-repose-sur-du-speculativ-8ea227",
+  "titre": "Gufo : 70 tok/s sur Qwen3.8 27B, mais le chiffre repose sur du speculative decoding",
+  "resume": "Un utilisateur de r/LocalLLaMA a testé Gufo 0.4.0 via son image podman, sur Qwen3.8 27B en Q4, avec le modèle de draft DFlash2 et le script de benchmark fourni par le projet. Il a bien mesuré 70,22 tok/s, conformément au chiffre affiché sur le GitHub de Gufo. Mais le prompt utilisé est « écrire le mot red exactement 1000 fois », et toute la vitesse vient du speculative decoding : le draft devine environ 7 tokens d'avance.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvbmi6/gufo_performance_70tps_qwen_38_27b_but_you_need/",
+  "date_source": "2026-10-01T21:18:54+00:00",
+  "date_redac": "2026-10-01T23:23:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 902,
+   "sortie": 732
+  }
+ },
+ {
+  "id": "85e8f7abc3377e7c",
+  "slug": "openclaw-corrige-une-relecture-npm-differee-dans-sa-chaine-de-publicat-85e8f7",
+  "titre": "OpenClaw corrige une relecture npm différée dans sa chaîne de publication",
+  "resume": "OpenClaw a publié un correctif intitulé « resume delayed npm readback », référencé sous le numéro #162990. La modification porte sur la chaîne de publication du projet, et plus précisément sur la relecture différée des paquets npm. Ce type de correctif touche à la distribution logicielle, une étape où un blocage suffit à retarder la mise à disposition d'une version.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F004549970362-1790888386",
+  "date_source": "2026-10-01T20:54:26+00:00",
+  "date_redac": "2026-10-01T23:23:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 583
+  }
+ },
+ {
+  "id": "2de227b36c3181e6",
+  "slug": "quel-modele-ia-local-pour-les-decompilations-et-recompilations-de-jeux-2de227",
+  "titre": "Quel modèle IA local pour les décompilations et recompilations de jeux ?",
+  "resume": "Sur r/LocalLLaMA, un internaute constate un essor des projets de decomp et recomp de jeux portés par l'IA, visibles selon lui sur les subreddits r/decomps et r/recomps, qui s'appuient surtout sur Claude ou Codex. Il demande si un modèle local comme Qwen 3.8 27B Abliterated pourrait faire le même travail. Sa configuration : une RTX 3060 avec 12 Go de VRAM et 24 Go de DDR4, suffisante selon lui pour faire tourner confortablement des modèles MoE.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvazuk/what_local_ai_model_is_good_for_game/",
+  "date_source": "2026-10-01T20:53:28+00:00",
+  "date_redac": "2026-10-01T23:23:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 772,
+   "sortie": 365
+  }
+ },
+ {
+  "id": "6b257e8a1cb87a53",
+  "slug": "ddr4-pcie4-vs-ddr5-pcie5-15-a-20-d-ecart-en-pre-entrainement-6b257e",
+  "titre": "DDR4/PCIe4 vs DDR5/PCIe5 : 15 à 20 % d'écart en pré-entraînement",
+  "resume": "Un utilisateur de r/LocalLLaMA a comparé deux machines louées sur Vast.ai pour du pré-entraînement : l'une en DDR4/PCIe4 (EPYC 7352, 192 Go de RAM, 26,3 Go/s), l'autre en DDR5/PCIe5 (9975WX, 256 Go, 54,3 Go/s). À nombre de GPU égal, la seconde est 15 à 20 % plus rapide. Mais au prix actuel de la RAM, 256 Go de DDR5 à 6400 MT/s coûtent une RTX PRO 6000 WS/Max-Q de plus, ce qui avantage le DDR4/PCIe4.",
+  "tags": [
+   "matériel",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvaqeb/ddr4pcie4_vs_ddr5pcie5_for_llms_i_benchmarked/",
+  "date_source": "2026-10-01T20:42:46+00:00",
+  "date_redac": "2026-10-01T23:23:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 927,
+   "sortie": 945
+  }
+ },
+ {
+  "id": "f95d466906b103b2",
+  "slug": "slipstream-4152-tok-s-pour-un-qwen-de-95-5-gib-sur-un-mac-64-go-f95d46",
+  "titre": "Slipstream : 41–52 tok/s pour un Qwen de 95,5 GiB sur un Mac 64 Go",
+  "resume": "Un développeur publie Slipstream, un moteur d'inférence C++ Metal compilé pour Apple Silicon, avec streaming d'experts depuis le SSD et drafting spéculatif. Ce checkpoint Qwen3.8-Flash-Next de 95,5 GiB, déjà téléchargé plus de 34 000 fois, tourne 1,76x plus vite que sur son fork llama.cpp : 41–52 tok/s contre 23,1 tok/s sur le même Mac 64 Go. Sur 3 086 requêtes de codage, la vitesse reste à 33–44 tok/s jusqu'à 130 000 tokens de contexte.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wva7l2/running_955_gib_qwen38flashnext_at_4152_toks_on_a/",
+  "date_source": "2026-10-01T20:21:42+00:00",
+  "date_redac": "2026-10-01T23:23:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 885,
+   "sortie": 1184
+  }
+ },
+ {
   "id": "b2540a074842f256",
   "slug": "un-modele-gratuit-en-essai-apparait-sur-oc-sans-laboratoire-identifie-b2540a",
   "titre": "Un modèle gratuit en essai apparaît sur OC, sans laboratoire identifié",

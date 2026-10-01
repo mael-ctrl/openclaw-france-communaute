@@ -1,5 +1,109 @@
 [
  {
+  "id": "f466c1d46a0e57c9",
+  "slug": "securite-de-l-ia-washington-s-en-remet-a-ceux-qui-la-developpent-f466c1",
+  "titre": "Sécurité de l'IA : Washington s'en remet à ceux qui la développent",
+  "resume": "Le gouvernement américain confie la sécurité de l'IA à ceux qui la développent, balayant les discours alarmistes. Donald Trump a réuni Dario Amodei, Greg Brockman, Sundar Pichai, Mark Zuckerberg, Jensen Huang et Elon Musk pour parler des risques liés à l'intelligence artificielle. Mais les extraits vidéo qui circulent montrent surtout une « grande famille » de l'IA, loin d'une réunion de crise.",
+  "tags": [
+   "sécurité",
+   "société",
+   "openai",
+   "meta"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/balayant-les-discours-alarmistes-le-gouvernement-americain-confie-la-securite-de-lia-a-ceux-qui-la-developpent.HBARNJFCAFEGZAOEGKPQFWMEX4.html",
+  "date_source": null,
+  "date_redac": "2026-10-01T06:25:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 757,
+   "sortie": 815
+  }
+ },
+ {
+  "id": "88a6e40007e74566",
+  "slug": "les-travaux-sur-mtp-pour-qwen-flash-next-reprennent-dans-llama-cpp-88a6e4",
+  "titre": "Les travaux sur MTP pour Qwen Flash Next reprennent dans llama.cpp",
+  "resume": "Les travaux sur MTP avec Qwen Flash Next et llama.cpp ont redémarré. Des quants GGUF sont publiés sur le dépôt ggml-org de Hugging Face, sous le nom Qwen3.8-Flash-Next-GGUF, et une pull request a été ouverte sur le dépôt llama.cpp. L'auteur de la dépêche précise qu'il s'agit encore de travaux en cours.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wur4lt/qwen_flash_next_mtp_work_restarted/",
+  "date_source": "2026-10-01T05:27:13+00:00",
+  "date_redac": "2026-10-01T06:25:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 685,
+   "sortie": 498
+  }
+ },
+ {
+  "id": "5dbdcf175a7242d8",
+  "slug": "quatre-tesla-t4-pour-64-go-de-vram-sur-une-machine-locale-5dbdcf",
+  "titre": "Quatre Tesla T4 pour 64 Go de VRAM sur une machine locale",
+  "resume": "Sur r/LocalLLaMA, un utilisateur détaille sa configuration : quatre Tesla T4 de 16 Go, soit 64 Go de VRAM, sur une carte mère SuperMicro X11SPA-T avec un Xeon W3225 et 768 Go de DDR4 ECC. Le tout tourne sous Ubuntu 26.04 avec llama.cpp et OpenWebUI. Il attendait les ventilateurs des T4 et renonce finalement à changer de CPU, les vitesses obtenues lui semblant suffisantes. Il veut déjà plus de cartes.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wupsay/finally_got_my_4th_card_in_64gb_total/",
+  "date_source": "2026-10-01T04:10:32+00:00",
+  "date_redac": "2026-10-01T06:25:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 780,
+   "sortie": 900
+  }
+ },
+ {
+  "id": "7d0a598b4aadbaef",
+  "slug": "astrabox-generateur-de-jeux-d-arcade-open-source-pilote-par-l-ia-7d0a59",
+  "titre": "Astrabox, générateur de jeux d'arcade open source piloté par l'IA",
+  "resume": "Astrabox est une interface d'arcade open source : on décrit un jeu, l'IA le construit, puis on demande des changements à la voix pendant la partie. Chaque jeu a ses visuels et son gameplay, un runtime partagé gérant manettes, scores et arrivée des joueurs. Bâti autour de Codex, le projet tourne en application web locale, sans borne d'arcade. Encore expérimental, il attend une adaptation à un modèle de code local.",
+  "tags": [
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wumex2/astrabox_open_source_arcade_game_generator/",
+  "date_source": "2026-10-01T01:17:44+00:00",
+  "date_redac": "2026-10-01T06:25:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 823,
+   "sortie": 1215
+  }
+ },
+ {
+  "id": "51020eb90b32e127",
+  "slug": "grokipedia-passe-en-v0-3-avec-un-nouveau-logo-et-une-page-d-accueil-re-51020e",
+  "titre": "Grokipedia passe en v0.3 avec un nouveau logo et une page d'accueil remaniée",
+  "resume": "Grokipedia, le concurrent de Wikipédia propulsé par l'IA de SpaceXAI, a reçu une mise à jour v0.3. Elle apporte un nouveau logo ainsi qu'une refonte de sa page d'accueil et de sa page des modifications en direct. Benji Taylor, responsable du design chez SpaceXAI, parle d'une « Grokipedia rafraîchie ». Le projet avait déjà recommencé à intégrer des modifications récemment.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
+  "date_source": "2026-10-01T00:23:45+00:00",
+  "date_redac": "2026-10-01T06:25:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 679,
+   "sortie": 545
+  }
+ },
+ {
   "id": "e7e678544434e6b8",
   "slug": "un-fil-r-localllama-sur-des-entretiens-de-dirigeants-d-ia-en-2026-e7e678",
   "titre": "Un fil r/LocalLLaMA sur des entretiens de dirigeants d'IA en 2026",

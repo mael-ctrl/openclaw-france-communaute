@@ -183,3 +183,11 @@
 {"ts": "2026-10-01T00:10:27+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "7ce935432a1bee680c6e0f7a6654d2ab3510a7bb319f492df6cd57195afa0cfb"}
 {"ts": "2026-10-01T00:10:27+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-01.json", "publications": 119}, "sha256": "25fbddca249d5d77b0f35768ac535cff4c44d82a187cf336251346aaed9102d1"}
 {"ts": "2026-10-01T00:10:27+00:00", "evenement": "bilan", "details": {"duree_s": 238.4, "neufs": 1, "breves": 1, "articles": 0, "fichiers": 133, "envois": 142, "publications": 4}, "sha256": "46f23a8b761096c14db7d0ad3828ffba25f76072c4cb8d93bb969efde8ead328"}
+{"ts": "2026-10-01T06:25:12+00:00", "evenement": "collecte", "details": {"neufs": 8}, "sha256": "48b363cc9b2c0bf42500b48480f319f6dedcf349a52769b28f51229163cf035f"}
+{"ts": "2026-10-01T06:25:41+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Trump et six dirigeants de l'IA signent un accord d'autocont) : réponse non-JSON"}, "sha256": "045ac3ae92f5b5247fb7695d88f7b823b649ab710fbc23ebd1949b8239c45580"}
+{"ts": "2026-10-01T06:25:46+00:00", "evenement": "construction", "details": {"fichiers": 138}, "sha256": "aa1ceb7fa6d49735de1c0211bb0d85d95478b6be94a0bccbf52cea4036a7435b"}
+{"ts": "2026-10-01T06:28:58+00:00", "evenement": "deploiement", "details": {"fichiers": 147, "octets": 1626099}, "sha256": "57bfcc89e0ffeeeabdf4e87ab94dd63e57f07cea1d966aded424f2e1372101a0"}
+{"ts": "2026-10-01T06:28:58+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "c33b82c6d3e6fc62e71791dc03f019d8042a68857d3a3f0d78c9dcca12c0db65"}
+{"ts": "2026-10-01T06:29:05+00:00", "evenement": "archivage", "details": {"wayback": 520, "tentative": 2}, "sha256": "acd00caca1bea200648cc5c3b2ca8b9b6c6f3bc5a8122a710bb23f33dd873714"}
+{"ts": "2026-10-01T06:29:16+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "376d3ef49a1f99432d31ce1d40eca12cb1eb9f7293f90b2d480252cac518bc62"}
+{"ts": "2026-10-01T06:29:16+00:00", "evenement": "bilan", "details": {"duree_s": 256.3, "neufs": 8, "breves": 5, "articles": 0, "fichiers": 138, "envois": 147, "publications": 4}, "sha256": "3b0dfca3927a5958f51040d14e9d68102fbb3bb675f023070cf305e0bd85b01c"}

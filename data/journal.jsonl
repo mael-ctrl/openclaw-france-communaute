@@ -198,3 +198,9 @@
 {"ts": "2026-10-01T13:55:19+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 3}, "sha256": "ad0810bcec97dd931242cac5b82768c22664e4a620d1a61ce64baefa6266bd78"}
 {"ts": "2026-10-01T13:55:30+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "0a3c29c14fbc17c3195834f03037a3c797e1e52ecb7b1a362a58251d3956dda0"}
 {"ts": "2026-10-01T13:55:30+00:00", "evenement": "bilan", "details": {"duree_s": 274.8, "neufs": 34, "breves": 6, "articles": 0, "fichiers": 144, "envois": 154, "publications": 4}, "sha256": "c5a211c5a665fca491039cb362b5b504a8ffe8cb0bda4c289d72ebd2aeb80ef6"}
+{"ts": "2026-10-01T19:22:08+00:00", "evenement": "collecte", "details": {"neufs": 36}, "sha256": "d0b00bdbc1d798583180e19294b17b5b5d810300b7e305476c2f1dad35160cd2"}
+{"ts": "2026-10-01T19:22:50+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Update #2: Post training yandex/AliceAI-80B-A3B [instruct!] ) : réponse non-JSON"}, "sha256": "4ebcd0b3048b58af173b0d48e1ee88f2447adc9e005f9f2efa804391885b916c"}
+{"ts": "2026-10-01T19:23:10+00:00", "evenement": "construction", "details": {"fichiers": 150}, "sha256": "76b2456141d906c40c2a97d517a219aae8ff3f14ca8f5de14aed507b50a12362"}
+{"ts": "2026-10-01T19:25:44+00:00", "evenement": "deploiement", "details": {"fichiers": 160, "octets": 2681289}, "sha256": "3c9dac5e35ac96560d94e65c704a69042641451448ad3902078a7afb402dc2ae"}
+{"ts": "2026-10-01T19:25:45+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "d86785f725cfa2c208e7fd93f83d77ed164a8e223b624769a2147f01c5879f30"}
+{"ts": "2026-10-01T19:25:45+00:00", "evenement": "bilan", "details": {"duree_s": 225.7, "neufs": 36, "breves": 5, "articles": 1, "fichiers": 150, "envois": 160, "publications": 0}, "sha256": "31168a2c4f98e0927589de0380e980ec942602cda007ecfb7ab56cb6574cdb4c"}

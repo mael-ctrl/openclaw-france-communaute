@@ -175,3 +175,11 @@
 {"ts": "2026-09-30T23:57:21+00:00", "evenement": "deploiement", "details": {"fichiers": 141, "octets": 1574606}, "sha256": "d5e5702e6d02f8a35e725c7feb200ff83ff262c6f56f7aa9de96c96992b78c0d"}
 {"ts": "2026-09-30T23:57:22+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "e3e2bc80a5a3446e773582e48ad51ca4e6a63ea67fd4e202611dd9bbcf129e81"}
 {"ts": "2026-09-30T23:57:22+00:00", "evenement": "bilan", "details": {"duree_s": 169.2, "neufs": 1, "breves": 1, "articles": 0, "fichiers": 132, "envois": 141, "publications": 0}, "sha256": "7cbd5184137293cd8ec0894ed79d48ccc0201dc4446947e14a3afdb2692628c2"}
+{"ts": "2026-10-01T00:06:50+00:00", "evenement": "collecte", "details": {"neufs": 1}, "sha256": "6f75dd014b9a7686d060652a7a8917add044b968e2a78937d64217289c34154b"}
+{"ts": "2026-10-01T00:06:55+00:00", "evenement": "construction", "details": {"fichiers": 133}, "sha256": "894b0e7f920dde59fd46105a83d0dab6302c84d18789397ca2062a1f8ab78a4d"}
+{"ts": "2026-10-01T00:09:56+00:00", "evenement": "deploiement", "details": {"fichiers": 142, "octets": 1580694}, "sha256": "9c29fa531c8f639fdb14abeaf019be303877c06c9b040a91300271479082fa1b"}
+{"ts": "2026-10-01T00:09:56+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "6b41b07c4bcb1cf49ccfaee60272684309415f0422df8284b3d51c9897e42000"}
+{"ts": "2026-10-01T00:10:16+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 1}, "sha256": "e9b39476f2b9f3b3baa0ff10973a97e4bad0930b37d16e59d3c6a5ce1a29e1c0"}
+{"ts": "2026-10-01T00:10:27+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "7ce935432a1bee680c6e0f7a6654d2ab3510a7bb319f492df6cd57195afa0cfb"}
+{"ts": "2026-10-01T00:10:27+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-01.json", "publications": 119}, "sha256": "25fbddca249d5d77b0f35768ac535cff4c44d82a187cf336251346aaed9102d1"}
+{"ts": "2026-10-01T00:10:27+00:00", "evenement": "bilan", "details": {"duree_s": 238.4, "neufs": 1, "breves": 1, "articles": 0, "fichiers": 133, "envois": 142, "publications": 4}, "sha256": "46f23a8b761096c14db7d0ad3828ffba25f76072c4cb8d93bb969efde8ead328"}

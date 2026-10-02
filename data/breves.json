@@ -1,5 +1,86 @@
 [
  {
+  "id": "8991a17ba9dc2839",
+  "slug": "un-qwen3-8-27b-coder-quantifie-tient-dans-une-carte-24-go-avec-262k-de-8991a1",
+  "titre": "Un Qwen3.8-27B Coder quantifié tient dans une carte 24 Go avec 262k de contexte",
+  "resume": "Un utilisateur a publié sur Hugging Face une version quantifiée, abliterated et ajustée de Qwen3.8-27B Coder, en IQ4_XS avec imatrix pour 18,35 Go, pensée pour remplir une seule carte de 24 Go à environ 240k tokens de contexte. La tête MTP est conservée en Q8_0, ce qui permet d'utiliser --spec-type draft-mtp sans modèle draft séparé. Sur une RX 7900 XTX, il décode à 36–41 tokens/s avec 110k à 170k tokens déjà en contexte, d'après 98 requêtes d'une session de codage agentique.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvtxkx/tunedabliterated_qwen3827b_into_a_24gb_card_262k/",
+  "date_source": "2026-10-02T13:32:37+00:00",
+  "date_redac": "2026-10-02T13:55:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 1001,
+   "sortie": 502
+  }
+ },
+ {
+  "id": "6da9564801c25143",
+  "slug": "microsoft-etend-son-advanced-shader-delivery-aux-gpu-nvidia-rtx-6da956",
+  "titre": "Microsoft étend son Advanced Shader Delivery aux GPU Nvidia RTX",
+  "resume": "Microsoft va étendre son Advanced Shader Delivery à toutes les cartes graphiques Nvidia RTX avant la fin du mois d'octobre 2026. Jusqu'ici, seuls les GPU AMD et les puces Snapdragon X2 de Qualcomm y avaient droit. Cette généralisation doit se traduire par des temps de chargement quasi instantanés.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/nvidia/3270735_des-temps-de-chargement-quasi-instantanes-microsoft-libere-enfin-les-gpu-nvidia",
+  "date_source": "2026-10-02T13:28:19+00:00",
+  "date_redac": "2026-10-02T13:55:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 515
+  }
+ },
+ {
+  "id": "ac23224f3db975c0",
+  "slug": "french-tech-l-ia-capte-pres-de-90-des-59-millions-leves-cette-semaine-ac2322",
+  "titre": "French Tech : l'IA capte près de 90 % des 59 millions levés cette semaine",
+  "resume": "D'après Maddyness, les start-up de la French Tech ont levé 59 millions d'euros cette semaine. Près de 90 % de ces fonds sont allés à des entreprises liées à l'IA. Le chiffre illustre le poids qu'occupe l'intelligence artificielle dans le financement de l'écosystème français.",
+  "tags": [
+   "france",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Maddyness",
+  "lien_source": "https://www.maddyness.com/2026/10/02/french-tech-lia-capte-pres-de-90-des-59-millions-deuros-leves-cette-semaine/",
+  "date_source": "2026-10-02T13:21:07+00:00",
+  "date_redac": "2026-10-02T13:55:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 665,
+   "sortie": 499
+  }
+ },
+ {
+  "id": "f5c910cb0b7c5907",
+  "slug": "todimart-t3-une-trottinette-electrique-25-km-h-a-92-sur-aliexpress-f5c910",
+  "titre": "Todimart T3 : une trottinette électrique 25 km/h à 92 € sur AliExpress",
+  "resume": "Les trottinettes électriques restent un moyen efficace de se déplacer d'un point à un autre sans devoir démarrer la voiture. Le modèle Todimart T3, annoncé à 25 km/h et vendu 92 €, est justement proposé à prix cassé sur AliExpress, rapporte 01net. De quoi s'équiper à moindre coût pour les trajets en ville.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/bons-plans/a-25-km-h-et-vendue-92-e-cette-trottinette-electrique-fait-parfaitement-le-job-en-ville.html",
+  "date_source": "2026-10-02T13:07:31+00:00",
+  "date_redac": "2026-10-02T13:55:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 685,
+   "sortie": 679
+  }
+ },
+ {
   "id": "6c525646da833f27",
   "slug": "tesla-model-3-ecran-16-pouces-et-v2l-en-chine-l-europe-attend-encore-6c5256",
   "titre": "Tesla Model 3 : écran 16 pouces et V2L en Chine, l'Europe attend encore",

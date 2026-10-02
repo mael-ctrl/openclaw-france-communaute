@@ -1,0 +1,41 @@
+{
+ "slug": "un-qwen3-8-27b-coder-dans-24-go-pi-face-a-claude-code-memoir-8991a1",
+ "titre": "Un Qwen3.8-27B Coder dans 24 Go, Pi face à Claude Code, mémoire rare",
+ "chapo": "Une quantisation IQ4_XS fait tenir un Qwen3.8-27B Coder dans une carte de 24 Go, avec environ 240k tokens de contexte. En parallèle, un agent autrichien se lance face à Claude Code, tandis que Micron et Samsung annoncent que la pénurie de mémoire va durer.",
+ "html": "<h2 id=\"18-35-go-sur-une-carte-de-24-go\">18,35 Go sur une carte de 24 Go</h2>\n<p>Sur r/LocalLLaMA, un utilisateur a mis en ligne une version quantifiée, abliterated et ajustée de Qwen3.8-27B Coder. Le choix de quantification est explicite : <strong>IQ4_XS avec imatrix</strong>, pour un fichier de <strong>18,35 Go</strong>, calibré pour occuper une seule carte de <strong>24 Go</strong> avec environ <strong>240k tokens de contexte</strong>.</p>\n<p>La particularité tient à la tête MTP, conservée en <strong>Q8_0</strong>. Elle permet d'appeler `--spec-type draft-mtp` sans charger un modèle draft séparé — une brique de moins à faire tenir en VRAM, donc.</p>\n<p>Les chiffres avancés proviennent d'une RX 7900 XTX : <strong>36 à 41 tokens/s</strong> en décodage, avec <strong>110k à 170k tokens</strong> déjà présents dans le contexte, sur la base de <strong>98 requêtes</strong> issues d'une session de codage agentique. Ce sont les mesures d'un utilisateur, pas un banc d'essai normalisé.</p>\n<h2 id=\"pi-ou-la-bataille-de-la-couche-logiciell\">Pi, ou la bataille de la couche logicielle</h2>\n<p>La société autrichienne <strong>Earendil</strong> a publié le 1er octobre la première version stable de <strong>Pi</strong>, un agent d'IA open source qui a fait sensation sur Hacker News. L'ambition affichée : tenir tête à <strong>Claude Code</strong> et à <strong>Codex</strong>, les agents de codage les mieux installés du moment.</p>\n<p>Mettre un agent sur le marché, c'est surtout livrer une couche logicielle : orchestration, appels d'outils, gestion du contexte, boucle d'exécution. C'est là que se joue une bataille moins visible que celle des modèles, mais tout aussi stratégique.</p>\n<h2 id=\"la-memoire-restera-rare\">La mémoire restera rare</h2>\n<p><strong>Micron</strong> et <strong>Samsung</strong> le disent sans détour : la pénurie de mémoire ne va pas se régler tout de suite. Les deux fabricants pointent la même dynamique — l'IA et les serveurs absorbent une part croissante de la production.</p>\n<p>Conséquence directe : il reste moins de place pour les PC, les smartphones, les consoles et les autres appareils du quotidien. Deux des principaux fabricants du secteur préviennent donc que la mémoire restera rare.</p>\n<p>Le sujet n'est pas étranger aux bricolages de la première partie : quand la mémoire est comptée, faire tenir un modèle de 27B dans 24 Go relève de l'exercice d'optimisation.</p>\n<h2 id=\"transcription-en-direct-et-correctifs-au\">Transcription en direct et correctifs au long cours</h2>\n<p>Microsoft a lancé ce jeudi 1er octobre <strong>MAI-Transcribe-2-Streaming</strong>, un modèle qui transcrit la parole en direct dans <strong>60 langues</strong>, accompagné de deux nouveaux modèles de synthèse vocale. Selon l'entreprise, il se classe numéro un en précision sur le comparateur Artificial Analysis — une affirmation qui reste celle de Microsoft.</p>\n<p>Du côté de l'outillage, <strong>OpenClaw 2026.8.34</strong> arrive comme « extended-stable », l'équivalent actuel du LTS. La version reprend l'état du projet fin août 2026, avec les correctifs de sécurité critiques, des correctifs de fiabilité et de performance, et le support de nouveaux modèles.</p>\n<p>Elle embarque <strong>113 unités de correctifs</strong> retenues par audit, et durcit les mises à niveau en préservant identifiants, état des agents, plugins et transcriptions.</p>\n<h2>Et maintenant ?</h2>\n<p>Ces dépêches convergent vers un même constat : ce qui décide de l'usage réel d'un modèle se joue rarement au moment de la publication des poids. Cela se joue dans une quantification qui tient dans 24 Go, dans un agent open source qui vient concurrencer les outils installés, dans 113 correctifs qui préservent l'état d'une installation. La contrainte matérielle, elle, ne bouge pas : tant que la mémoire reste rare, l'optimisation restera un terrain de jeu obligé.</p>",
+ "pivot": "8991a17ba9dc2839",
+ "tags": [
+  "openclaw",
+  "agents",
+  "open-source",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvtxkx/tunedabliterated_qwen3827b_into_a_24gb_card_262k/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2345455-pi-le-petit-agent-ia-autrichien-qui-veut-tenir-tete-a-claude-code-et-codex.html"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/02/la-memoire-se-fait-de-plus-en-plus-rare-et-ca-ne-va-pas-sarranger/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/microsoft/3269975_la-nouvelle-ia-de-microsoft-transcrit-vos-paroles-avant-meme-la-fin-de-vos-phrases"
+  },
+  {
+   "nom": "OpenClaw (releases)",
+   "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.8.34"
+  }
+ ],
+ "date": "2026-10-02T13:56:32+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1605,
+  "sortie": 4377
+ }
+}

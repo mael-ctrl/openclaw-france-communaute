@@ -1,26 +1,18 @@
 {
- "runs": 44,
- "items_collectes": 538,
- "breves_publiees": 157,
- "articles_publies": 10,
- "tokens_entree": 131355,
- "tokens_sortie": 168033,
+ "runs": 45,
+ "items_collectes": 558,
+ "breves_publiees": 161,
+ "articles_publies": 11,
+ "tokens_entree": 135981,
+ "tokens_sortie": 174605,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-02T11:31:52+00:00",
+ "dernier_run": "2026-10-02T13:56:32+00:00",
  "solde": {
   "total": "88.95",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-09-30T16:37:18+00:00",
-   "message": "construction : [Errno 60] Operation timed out: '/Users/maelsamir/Desktop/Openclaw/communaute/_site/index.html'"
-  },
-  {
-   "ts": "2026-09-30T16:55:02+00:00",
-   "message": "déploiement : [Errno 54] Connection reset by peer"
-  },
   {
    "ts": "2026-09-30T17:49:12+00:00",
    "message": "article impossible : réponse non-JSON"
@@ -32,6 +24,14 @@
   {
    "ts": "2026-10-01T19:22:50+00:00",
    "message": "brève impossible (Update #2: Post training yandex/AliceAI-80B-A3B [instruct!] ) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-02T13:56:00+00:00",
+   "message": "brève impossible (CalDec v1 - Fully Open Decision Model for Personal Assistant) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-02T13:56:12+00:00",
+   "message": "brève impossible (Two 96 GB Ascend cards crun Qwen3.8-flash-next hardware note) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -199,6 +199,10 @@
   ],
   [
    "2026-10-02T11:31:34+00:00",
+   "88.95"
+  ],
+  [
+   "2026-10-02T13:55:28+00:00",
    "88.95"
   ]
  ],

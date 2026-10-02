@@ -256,3 +256,10 @@
 {"ts": "2026-10-02T11:35:00+00:00", "evenement": "deploiement", "details": {"fichiers": 205, "octets": 3155229}, "sha256": "c7f831372190717042ffb25529a8452da1c41e151ea754094b681c7cd4b8ca1a"}
 {"ts": "2026-10-02T11:35:01+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "761f0d852a7d0ecc27669ff94993097964b56de5866f0da678858b51c7be089c"}
 {"ts": "2026-10-02T11:35:01+00:00", "evenement": "bilan", "details": {"duree_s": 246.6, "neufs": 4, "breves": 4, "articles": 0, "fichiers": 195, "envois": 205, "publications": 0}, "sha256": "e4f0182d5e8f1711c77cc4171991e6607549c3bc68afe90c277b6bdcede08dca"}
+{"ts": "2026-10-02T13:55:28+00:00", "evenement": "collecte", "details": {"neufs": 20}, "sha256": "6b246b620e5c3fde58566666e4cbf5394e1f135bda35d6bfe535f05b5dc5eb7e"}
+{"ts": "2026-10-02T13:56:00+00:00", "evenement": "erreur", "details": {"message": "brève impossible (CalDec v1 - Fully Open Decision Model for Personal Assistant) : réponse non-JSON"}, "sha256": "b6af021362c978217ffc8f0b0f40975bc66ff3ac61adaa8e1d694529da3c123c"}
+{"ts": "2026-10-02T13:56:12+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Two 96 GB Ascend cards crun Qwen3.8-flash-next hardware note) : réponse non-JSON"}, "sha256": "b1e28a588f94f8f37cac630ebfd86aa29fffca2ebec5289da59ccd71b9b11ce5"}
+{"ts": "2026-10-02T13:56:32+00:00", "evenement": "construction", "details": {"fichiers": 200}, "sha256": "1d0d5bea0ebb923f03898b100a6db6664e9c7a0e448b3e65e2cccd7fc72323d6"}
+{"ts": "2026-10-02T13:59:26+00:00", "evenement": "deploiement", "details": {"fichiers": 210, "octets": 3208290}, "sha256": "c3a442d225b7232c14a8ee29f93fb58b91876b1b06b68942003ef149df230a79"}
+{"ts": "2026-10-02T13:59:26+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "1046cb56e6d59420c9221c53d64716916627927f0a0af58d7c7efb3414d653cd"}
+{"ts": "2026-10-02T13:59:26+00:00", "evenement": "bilan", "details": {"duree_s": 254.6, "neufs": 20, "breves": 4, "articles": 1, "fichiers": 200, "envois": 210, "publications": 0}, "sha256": "6838eebd0b5f83ceae1f42a85092c3383df9bee2f05350245a0c75b269d4a0f3"}

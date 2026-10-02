@@ -1,5 +1,128 @@
 [
  {
+  "id": "42d5892a0441e6ce",
+  "slug": "des-alternatives-locales-sous-40b-a-qwen-et-deepseek-pour-le-code-et-l-42d589",
+  "titre": "Des alternatives locales sous 40B à Qwen et DeepSeek pour le code et les longs documents",
+  "resume": "Sur r/LocalLLaMA, un utilisateur cherche des modèles locaux de moins de 40B pour remplacer Qwen et DeepSeek, dont les modèles chinois sont interdits sur son lieu de travail. Deux usages précis sont visés : le code et le question-réponse sur de longs documents, comme un historique médical de 120 000 tokens. Il cite Gemma 31B, Muse Glimmer 30B et Nemotron, et demande si des fine-tunes de ces modèles peuvent dépasser qwen3.8 27B en code.",
+  "tags": [
+   "open-source",
+   "dev",
+   "deepseek"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvondv/best_40b_alternatives_to_qwendeepseek_for_1/",
+  "date_source": "2026-10-02T08:44:17+00:00",
+  "date_redac": "2026-10-02T08:46:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 758,
+   "sortie": 525
+  }
+ },
+ {
+  "id": "e36f2a1ebd2047f1",
+  "slug": "penurie-de-memoire-micron-et-samsung-previennent-que-ca-va-durer-e36f2a",
+  "titre": "Pénurie de mémoire : Micron et Samsung préviennent que ça va durer",
+  "resume": "Micron et Samsung alertent : la pénurie de mémoire ne va pas se régler tout de suite. L'IA et les serveurs absorbent une part croissante de la production, ce qui laisse moins de place pour les PC, smartphones, consoles et autres appareils du quotidien. Deux des principaux fabricants préviennent donc que la mémoire restera rare.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/02/la-memoire-se-fait-de-plus-en-plus-rare-et-ca-ne-va-pas-sarranger/",
+  "date_source": "2026-10-02T08:30:59+00:00",
+  "date_redac": "2026-10-02T08:46:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 676,
+   "sortie": 402
+  }
+ },
+ {
+  "id": "019c49de213a7ad8",
+  "slug": "tavus-presente-une-ia-capable-de-tenir-une-visio-et-de-passer-pour-un--019c49",
+  "titre": "Tavus présente une IA capable de tenir une visio et de passer pour un humain",
+  "resume": "Tavus a présenté ce jeudi 1er octobre une IA capable de dialoguer en visioconférence et de réagir aux gestes comme aux silences. Dans un test mené par l'entreprise, près de la moitié des participants ont cru parler à un humain après une minute d'échange.",
+  "tags": [
+   "agents",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2345381-cette-ia-a-discute-avec-eux-en-visio-pres-de-la-moitie-lont-prise-pour-un-humain.html",
+  "date_source": "2026-10-02T08:25:56+00:00",
+  "date_redac": "2026-10-02T08:46:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 687,
+   "sortie": 414
+  }
+ },
+ {
+  "id": "6a68626b2cfdd064",
+  "slug": "chatgpt-se-mue-en-cabine-d-essayage-virtuelle-6a6862",
+  "titre": "ChatGPT se mue en cabine d'essayage virtuelle",
+  "resume": "ChatGPT ajoute une fonction de cabine d'essayage virtuelle. L'assistant d'OpenAI permet désormais à ses utilisateurs de visualiser une tenue sur eux à partir de simples photos, avant de passer à l'achat. La fonctionnalité vient donc se placer en amont de la décision d'achat en ligne.",
+  "tags": [
+   "chatgpt",
+   "openai",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/openai/3269923_chatgpt-peut-maintenant-devenir-votre-cabine-dessayage-virtuelle",
+  "date_source": "2026-10-02T08:17:52+00:00",
+  "date_redac": "2026-10-02T08:46:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 653,
+   "sortie": 588
+  }
+ },
+ {
+  "id": "e2ac2de50f13839f",
+  "slug": "test-des-airpods-5-la-reduction-de-bruit-active-des-149-euros-e2ac2d",
+  "titre": "Test des AirPods 5 : la réduction de bruit active dès 149 euros",
+  "resume": "Frandroid a testé les AirPods 5, qui reprennent la réduction de bruit active déjà présente sur les AirPods 4, une prouesse sur des écouteurs ouverts. Apple propose cette technologie dès 149 euros. Le son progresse lui aussi, et l'écosystème Apple conserve toute sa richesse. Les AirPods Pro ont du souci à se faire, estime le site.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/apple/3266541_jai-teste-les-airpods-5-il-ne-reste-pas-grand-chose-aux-modeles-pro",
+  "date_source": "2026-10-02T08:12:55+00:00",
+  "date_redac": "2026-10-02T08:46:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 703,
+   "sortie": 784
+  }
+ },
+ {
+  "id": "62789537c28aef78",
+  "slug": "microsoft-lance-une-ia-qui-transcrit-la-parole-en-direct-dans-60-langu-627895",
+  "titre": "Microsoft lance une IA qui transcrit la parole en direct dans 60 langues",
+  "resume": "Microsoft a lancé ce jeudi 1er octobre MAI-Transcribe-2-Streaming, un modèle d'IA qui transcrit la parole en direct dans 60 langues. L'entreprise l'accompagne de deux nouveaux modèles de synthèse vocale. Selon Microsoft, ce premier modèle de transcription en direct se classe numéro un en précision sur le comparateur Artificial Analysis.",
+  "tags": [
+   "société",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/microsoft/3269975_la-nouvelle-ia-de-microsoft-transcrit-vos-paroles-avant-meme-la-fin-de-vos-phrases",
+  "date_source": "2026-10-02T08:04:09+00:00",
+  "date_redac": "2026-10-02T08:46:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 694,
+   "sortie": 540
+  }
+ },
+ {
   "id": "b185a1507e17c1e2",
   "slug": "ling-3-1-flash-se-classe-2e-de-la-mobile-app-arena-de-design-arena-b185a1",
   "titre": "Ling-3.1-flash se classe 2e de la Mobile App Arena de Design Arena",

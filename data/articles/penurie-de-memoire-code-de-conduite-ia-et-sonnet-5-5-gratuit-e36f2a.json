@@ -1,0 +1,41 @@
+{
+ "slug": "penurie-de-memoire-code-de-conduite-ia-et-sonnet-5-5-gratuit-e36f2a",
+ "titre": "Pénurie de mémoire, code de conduite IA et Sonnet 5.5 gratuit",
+ "chapo": "Micron et Samsung préviennent : la mémoire restera rare, et l'IA en consomme une part croissante. Pendant ce temps, Donald Trump présente un code de bonne conduite volontaire pour le secteur, Anthropic ouvre Sonnet 5.5 à tous, et un benchmark local rappelle qu'un chiffre de vitesse peut cacher beaucoup.",
+ "html": "<h2 id=\"la-memoire-ressource-sous-tension\">La mémoire, ressource sous tension</h2>\n<p>Deux des principaux fabricants de mémoire, Micron et Samsung, le disent sans détour : la pénurie <strong>ne va pas se régler tout de suite</strong>. L'IA et les serveurs absorbent une part croissante de la production, ce qui laisse moins de place pour les PC, les smartphones, les consoles et les autres appareils du quotidien. Les deux entreprises préviennent donc que la mémoire restera rare. Autrement dit, la ressource la plus banale de l'informatique personnelle devient un point de tension, parce qu'elle est devenue une entrée stratégique pour les infrastructures d'IA.</p>\n<p>Ce déséquilibre se lit jusque dans les arbitrages de ceux qui entraînent des modèles. Un utilisateur de r/LocalLLaMA a comparé deux machines louées sur Vast.ai pour du pré-entraînement. La première est en DDR4/PCIe4 : EPYC 7352, 192 Go de RAM, 26,3 Go/s. La seconde en DDR5/PCIe5 : 9975WX, 256 Go, 54,3 Go/s. À nombre de GPU égal, la seconde est <strong>15 à 20 % plus rapide</strong>.</p>\n<p>Sauf que le calcul ne s'arrête pas aux performances brutes. Au prix actuel de la RAM, 256 Go de DDR5 à 6400 MT/s coûtent une RTX PRO 6000 WS/Max-Q de plus. Ce surcoût fait basculer l'arbitrage du côté du DDR4/PCIe4 : la machine la plus lente à l'usage est aussi celle qui laisse le plus de budget pour le reste.</p>\n<h2 id=\"un-code-de-bonne-conduite-sur-adhesion-l\">Un code de bonne conduite, sur adhésion libre</h2>\n<p>En présence des principaux acteurs américains de l'IA, Donald Trump a présenté un code de bonne conduite destiné à encadrer le développement du secteur. Le texte prévoit <strong>quatre niveaux de régulation</strong>, ce qui dessine une gradation plutôt qu'un cadre unique.</p>\n<p>Le point saillant tient à la nature de l'engagement : l'adhésion reste volontaire. Chaque entreprise est libre d'y souscrire. Celles qui choisissent d'y entrer doivent en revanche instaurer leurs propres mesures de contrôle. La contrainte porte donc moins sur la participation que sur ce qu'implique la signature : les mesures de vérification sont à la charge de chaque entreprise, et non d'un organe central.</p>\n<h2 id=\"sonnet-5-5-debarque-sur-claude-gratuit\">Sonnet 5.5 débarque sur Claude gratuit</h2>\n<p>Anthropic a lancé cette semaine Sonnet 5.5, un modèle présenté comme plus abordable. Selon l'éditeur, ses performances restent proches de celles de Claude Opus 5.5. Le positionnement est explicite : proposer une option moins coûteuse sans creuser d'un coup un écart de qualité trop visible entre les deux modèles.</p>\n<p>Surtout, Sonnet 5.5 est proposé sur la version gratuite de Claude. Un modèle décrit comme parmi les plus puissants devient donc accessible sans abonnement. La question se déplace : ce n'est plus le péage d'entrée qui limite l'usage, mais ce que chacun choisit d'en faire.</p>\n<h2 id=\"70-tok-s-le-chiffre-et-ce-qu-il-cache\">70 tok/s : le chiffre et ce qu'il cache</h2>\n<p>Toujours sur r/LocalLLaMA, un utilisateur a testé Gufo 0.4.0 via son image podman, sur Qwen3.8 27B en Q4, avec le modèle de draft DFlash2 et le script de benchmark fourni par le projet. Il a bien mesuré <strong>70,22 tok/s</strong>, conformément au chiffre affiché sur le GitHub de Gufo. Le protocole est public, le résultat reproductible.</p>\n<p>Mais la lecture du score demande une précaution. Le prompt utilisé consiste à « écrire le mot red exactement 1000 fois », et toute la vitesse vient du speculative decoding : le draft devine environ 7 tokens d'avance. La performance mesurée repose donc sur une tâche où la suite est hautement prévisible — précisément le terrain favori de cette technique.</p>\n<h2>Et maintenant ?</h2>\n<p>Mis bout à bout, ces dépêches dessinent une semaine où les contraintes matérielles et les choix de cadre pèsent autant que les modèles eux-mêmes. La mémoire reste rare et chère, au point de réorienter des arbitrages d'entraînement ; la régulation américaine avance sur base volontaire, avec des mesures de contrôle laissées aux entreprises ; l'accès gratuit progresse avec Sonnet 5.5 ; et les chiffres de performance continuent d'exiger qu'on regarde le protocole avant de citer le score.</p>",
+ "pivot": "e36f2a1ebd2047f1",
+ "tags": [
+  "matériel",
+  "claude",
+  "dev",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/02/la-memoire-se-fait-de-plus-en-plus-rare-et-ca-ne-va-pas-sarranger/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/pour-encadrer-lia-donald-trump-devoile-un-code-de-bonne-conduite.html"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/09/30/anthropic-propose-lune-des-ia-les-plus-puissantes-du-monde-gratuitement-le-modele-sonnet-5-5-debarque-sur-claude-et-promet-de-grosses-performances/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvbmi6/gufo_performance_70tps_qwen_38_27b_but_you_need/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvaqeb/ddr4pcie4_vs_ddr5pcie5_for_llms_i_benchmarked/"
+  }
+ ],
+ "date": "2026-10-02T08:47:05+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1668,
+  "sortie": 4466
+ }
+}

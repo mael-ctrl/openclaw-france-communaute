@@ -1,0 +1,41 @@
+{
+ "slug": "microsoft-anthropic-openai-lancements-en-serie-et-garde-fous-627895",
+ "titre": "Microsoft, Anthropic, OpenAI : lancements en série et garde-fous",
+ "chapo": "Microsoft transcrit la parole en direct dans 60 langues, Anthropic place Sonnet 5.5 sur la version gratuite de Claude et OpenAI annonce des agents capables de travailler en continu. La même semaine, Donald Trump dévoile un code de bonne conduite pour encadrer l'IA, tandis qu'un faux modèle hébergé sur chatgpt.com sert de leurre à un cheval de Troie.",
+ "html": "<h2 id=\"microsoft-attaque-la-transcription-en-fl\">Microsoft attaque la transcription en flux</h2>\n<p>Microsoft a lancé ce jeudi 1er octobre <strong>MAI-Transcribe-2-Streaming</strong>, un modèle d'IA qui transcrit la parole en direct dans <strong>60 langues</strong>. L'entreprise l'accompagne de deux nouveaux modèles de synthèse vocale, qui couvrent l'autre versant du problème : faire parler une machine plutôt que l'écouter.</p>\n<p>La promesse affichée est celle d'une transcription qui suit le flux, jusqu'à capter les paroles avant même la fin des phrases. Sur la précision, Microsoft avance que ce premier modèle de transcription en direct se classe <strong>numéro un</strong> sur le comparateur Artificial Analysis. Le classement est revendiqué par l'éditeur lui-même : c'est une donnée à prendre pour ce qu'elle est.</p>\n<p>Reste que la combinaison transcription en direct et synthèse vocale dessine une brique complète pour tout ce qui se construit autour de la voix — réunions, sous-titrage, interfaces parlées.</p>\n<h2 id=\"anthropic-et-openai-la-bataille-se-joue-\">Anthropic et OpenAI : la bataille se joue sur le prix et l'accès</h2>\n<p>Anthropic a lancé cette semaine <strong>Sonnet 5.5</strong>, un modèle présenté comme plus abordable. Ses performances restent proches de celles de <strong>Claude Opus 5.5</strong>, selon l'éditeur. Surtout, Sonnet 5.5 est proposé sur la <strong>version gratuite de Claude</strong>, ce qui met une IA parmi les plus puissantes à disposition sans abonnement.</p>\n<p>De son côté, OpenAI a profité de son DevDay pour annoncer plusieurs chantiers :</p>\n<ul>\n<li>des agents capables de travailler <strong>en continu</strong> ;</li>\n<li>un nouveau modèle <strong>moins coûteux</strong> ;</li>\n<li>une <strong>inférence accélérée</strong> ;</li>\n<li>une évolution de <strong>Codex</strong> ;</li>\n<li>un espace de travail collaboratif et de nouvelles briques pour les développeurs ;</li>\n<li>un renforcement de la <strong>sécurité</strong> et de la <strong>confidentialité</strong>.</li>\n</ul>\n<p>Ces annonces dessinent une stratégie face à Anthropic et aux ambitions de Meta dans l'agentique personnelle. Les deux éditeurs convergent sur un même axe : faire baisser le coût d'accès et pousser les agents vers un usage prolongé plutôt que ponctuel.</p>\n<h2 id=\"washington-propose-un-code-pas-une-regle\">Washington propose un code, pas une règle</h2>\n<p>En présence des principaux acteurs américains de l'IA, <strong>Donald Trump</strong> a présenté un code de bonne conduite destiné à encadrer le développement du secteur. Le texte prévoit <strong>quatre niveaux de régulation</strong>.</p>\n<p>L'adhésion reste volontaire : chaque entreprise est libre d'y souscrire, mais doit alors instaurer ses propres mesures de contrôle. Autrement dit, le cadre fixe des paliers et laisse aux signataires le soin de définir comment ils les respectent.</p>\n<p>Le dispositif se situe donc à l'opposé d'une obligation réglementaire descendante. Il mise sur l'engagement public des entreprises concernées — un choix qui déplace la question du contrôle vers celles et ceux qui développent les modèles.</p>\n<h2 id=\"quand-la-notoriete-de-chatgpt-devient-un\">Quand la notoriété de ChatGPT devient un paravent</h2>\n<p>Des pirates ont créé un faux modèle baptisé <strong>« Plus 5.6 »</strong>, hébergé sur le vrai site <strong>chatgpt.com</strong>. Ils l'ont promu par des <strong>publicités Google</strong> pour faire installer un <strong>cheval de Troie</strong> sur des PC Windows.</p>\n<p>L'affaire montre comment la notoriété d'un service légitime peut servir de paravent à une campagne malveillante. Le leurre n'usurpe pas seulement un nom : il s'appuie sur le domaine authentique et sur de la publicité payante pour gagner la confiance de la victime.</p>\n<p>Pour un utilisateur, le signal d'alerte habituel — « est-ce bien le bon site ? » — ne fonctionne plus dans ce type de montage.</p>\n<h2>Et maintenant ?</h2>\n<p>La même semaine aura donc vu trois éditeurs pousser leurs modèles — transcription en direct, version gratuite, agents continus — et un quatrième sujet s'inviter dans l'actualité : celui des garde-fous, qu'ils soient volontaires côté Washington ou contournés côté pirates. Les deux mouvements ne s'opposent pas, ils cohabitent. Plus un service devient connu et accessible, plus il devient une surface utile à ceux qui cherchent à tromper. La baisse des coûts et l'ouverture des versions gratuites élargissent le public ; elles élargissent mécaniquement la cible.</p>",
+ "pivot": "62789537c28aef78",
+ "tags": [
+  "agents",
+  "openai",
+  "claude",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/microsoft/3269975_la-nouvelle-ia-de-microsoft-transcrit-vos-paroles-avant-meme-la-fin-de-vos-phrases"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/pour-encadrer-lia-donald-trump-devoile-un-code-de-bonne-conduite.html"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/09/30/anthropic-propose-lune-des-ia-les-plus-puissantes-du-monde-gratuitement-le-modele-sonnet-5-5-debarque-sur-claude-et-promet-de-grosses-performances/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/openai/devday-openai-peut-il-rattraper-anthropic-et-contrer-les-ambitions-de-meta-dans-lagentique-personnelle.TYN5VZ2N2VGTHIPRVRYQPTGWLM.html"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/3270053_des-pirates-utilisent-chatgpt-pour-prendre-le-controle-de-votre-pc"
+  }
+ ],
+ "date": "2026-10-02T09:48:09+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1565,
+  "sortie": 3232
+ }
+}

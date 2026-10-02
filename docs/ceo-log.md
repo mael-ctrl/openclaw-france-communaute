@@ -99,6 +99,30 @@ prouvent pas à eux seuls une stabilité durable.
 
 ---
 
+## 2026-10-01 — Croissance : une image pour les liens partagés
+
+**Constat vérifié en HTTPS** : les pages ont un titre et une description Open Graph,
+mais pas d'image ; la carte Twitter est limitée à `summary`.
+
+**Décision unique** : réutiliser la bannière existante du Crabe, recadrée en 1200 × 630
+(`assets/og-crabe.png`), dans le gabarit commun (`engine/construction.py`).
+Balises Open Graph et Twitter avec URL absolue, dimensions et texte alternatif ;
+pas d'ajout d'image au corps des pages, pas de nouvel appel IA, budget inchangé.
+Les publications automatiques Bluesky restent hors périmètre : leur vignette demande
+un envoi de blob distinct. Effet attendu : des aperçus plus reconnaissables sur les
+plateformes qui lisent ces métadonnées, sans promesse de hausse de trafic.
+
+**Validation locale** : test de régression vu rouge puis vert (`python3 -m unittest
+discover -s tests -v`) ; `--essai --sans-redaction` dans une copie isolée ; 133 pages
+HTML portent l'image, identique à l'asset construit. Les erreurs HTTP de certains
+flux tiers pendant l'essai n'empêchent pas le build ; aucun état de test de `data/`
+n'est repris. Le dépôt Desktop étant illisible (`Resource deadlock avoided`),
+travail depuis un clone GitHub sous le scratch Hermes ; changements locaux non
+lisibles laissés intacts et non repris. Livraison via `maj.yml`, puis contrôle HTTPS
+réel des métadonnées et de l'image avant d'annoncer la mise en production.
+
+---
+
 ## 2026-10-02 (matin) — Mission M1 : cap « 1 M€ en 12 mois » + la mesure est branchée
 
 **Mandat Maël** : « atteindre un chiffre d'affaires de 1 million en 1 an » ; les revenus du projet servent au projet ; autonomie accordée pour créer emails et (si besoin) numéros en ligne.

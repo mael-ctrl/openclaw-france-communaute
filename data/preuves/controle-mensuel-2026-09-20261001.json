@@ -1,0 +1,195 @@
+{
+  "period": "2026-09",
+  "audited_at_utc": "2026-10-01T08:05:56.957760+00:00",
+  "status": "ALERTE",
+  "findings": [
+    "Tag existant antérieur au dernier commit du mois ; préservé sans déplacement"
+  ],
+  "source_commit": "31e0aded9fab61d0b2d0b090334b1423b9cb2ef7",
+  "timezone": "UTC",
+  "month_start": "2026-09-01",
+  "month_end_exclusive": "2026-10-01",
+  "launch": "2026-09-29T21:22:15+00:00",
+  "coverage": {
+    "calendar_days": 30,
+    "operating_days": 2,
+    "sealed_days": 1,
+    "missing_calendar_days": [
+      "2026-09-01",
+      "2026-09-02",
+      "2026-09-03",
+      "2026-09-04",
+      "2026-09-05",
+      "2026-09-06",
+      "2026-09-07",
+      "2026-09-08",
+      "2026-09-09",
+      "2026-09-10",
+      "2026-09-11",
+      "2026-09-12",
+      "2026-09-13",
+      "2026-09-14",
+      "2026-09-15",
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26",
+      "2026-09-27",
+      "2026-09-28",
+      "2026-09-29"
+    ],
+    "missing_operating_days": [
+      "2026-09-29"
+    ],
+    "explanation": "Le média a démarré le 29/09/2026. Les 1–28 septembre précèdent le lancement. Le 29 septembre est antérieur à l’activation des sceaux ; premier sceau le 30/09 à 23:42:38 UTC. Un jour d’exploitation non scellé, expliqué, sans reconstitution rétroactive."
+  },
+  "seals": [
+    {
+      "file": "manifeste-2026-09-30.json",
+      "day": "2026-09-30",
+      "sha256": "0a075f53f2881edd752148183527799b5cc9c83b1c2a62dcdaa9915888cccc40",
+      "previous_valid": true,
+      "publications": {
+        "breves": 113,
+        "articles": 2,
+        "total": 115
+      },
+      "created_at": "2026-09-30T23:42:38+00:00"
+    },
+    {
+      "file": "manifeste-2026-10-01.json",
+      "day": "2026-10-01",
+      "sha256": "f7a9c5b0dce22ba7c1d83b4f3eac1c5bda2d36312ad318c574e0e067a2fdaeb5",
+      "previous_valid": true,
+      "publications": {
+        "breves": 117,
+        "articles": 2,
+        "total": 119
+      },
+      "created_at": "2026-10-01T00:10:27+00:00"
+    }
+  ],
+  "publications": {
+    "sealed_in_last_monthly_manifest": {
+      "breves": 113,
+      "articles": 2,
+      "total": 115
+    },
+    "current_registry_total": 124,
+    "current_registry_dated_in_month": 118,
+    "note": "Les compteurs des manifestes sont cumulatifs et ne doivent pas être additionnés. Le registre courant ne remplace pas le registre au moment du sceau."
+  },
+  "journal": {
+    "valid_hashes": 30,
+    "pre_hash_entries": 163,
+    "invalid_lines": [],
+    "last_entry": {
+      "ts": "2026-10-01T06:29:16+00:00",
+      "evenement": "bilan",
+      "details": {
+        "duree_s": 256.3,
+        "neufs": 8,
+        "breves": 5,
+        "articles": 0,
+        "fichiers": 138,
+        "envois": 147,
+        "publications": 4
+      },
+      "sha256": "3b0dfca3927a5958f51040d14e9d68102fbb3bb675f023070cf305e0bd85b01c"
+    },
+    "last_hash_recalculated": "3b0dfca3927a5958f51040d14e9d68102fbb3bb675f023070cf305e0bd85b01c",
+    "canonical_json": {
+      "ensure_ascii": false,
+      "sort_keys": true,
+      "separators": [
+        ",",
+        ":"
+      ]
+    }
+  },
+  "engine_check": {
+    "command": "python3 engine/preuves.py",
+    "exit_code": 0,
+    "stdout": "🧾 registre 124 publications (inchangé)",
+    "existing_journal_and_manifests_unchanged": true
+  },
+  "github_runs": {
+    "raw_export": "github-runs-2026-09.json",
+    "raw_export_count": 25,
+    "raw_export_sha256": "927efc80ad38563bbcd6b8a9b6aea4b00bc6b208d348f539ab8f1d2a03ec1d75",
+    "month_count": 23,
+    "month_statuses": {
+      "success": 22,
+      "failure": 1
+    },
+    "github_api_total_count": 23,
+    "all_monthly_ids_verified": true,
+    "per_day": {
+      "2026-09-30": 18,
+      "2026-09-29": 5
+    },
+    "monthly_run_ids": [
+      36793473951,
+      36793055052,
+      36788518287,
+      36771176722,
+      36761358470,
+      36757672674,
+      36753951624,
+      36750279231,
+      36735168028,
+      36734741097,
+      36730183912,
+      36727672425,
+      36726361743,
+      36688511485,
+      36684003407,
+      36675206194,
+      36674444329,
+      36657364878,
+      36643319435,
+      36642322431,
+      36641306407,
+      36637276996,
+      36633022664
+    ],
+    "note": "Export brut conforme à gh run list --limit 300 ; inclut aussi deux exécutions du 1er octobre. Sous-ensemble mensuel vérifié exhaustivement via API."
+  },
+  "tag": {
+    "name": "archive-2026-09",
+    "object": "b255c5bc0375533ba3262efed694d4f2aef9c605",
+    "target": "58217e816f653395c0469d3d44e39e90bd334aba",
+    "target_date": "2026-09-30T23:01:01Z",
+    "expected_last_monthly_commit": "97b78ea0c9172ed6652df5e8cb5f272d1b245c39",
+    "expected_date": "2026-09-30T23:57:22Z",
+    "valid_month_end_target": false,
+    "remote_ref": "b255c5bc0375533ba3262efed694d4f2aef9c605\trefs/tags/archive-2026-09\n58217e816f653395c0469d3d44e39e90bd334aba\trefs/tags/archive-2026-09^{}",
+    "action": "Tag annoté existant conservé ; aucun déplacement ni force-push. Écart documenté, clôture du mois à régulariser avec validation."
+  },
+  "capture": {
+    "url": "https://communaute-ia.fr/transparence/",
+    "title": "Transparence — la salle des machines — La Communauté",
+    "captured_at_utc": "2026-10-01T08:01:43.327529+00:00",
+    "timestamp_source": "mtime du PNG produit par browser_vision, corroboré par la lecture de l’horloge du navigateur à 08:02:14 UTC",
+    "file": "transparence-2026-10-01T080143Z.png",
+    "sha256": "83ed2603802bc702b2e95d785f484ed28ada7d0970b18b4534b3a275f66177d3",
+    "bytes": 1804286,
+    "note": "Capture réelle non retouchée ; page affichant 33 passes, 109 brèves, 1 article et dernier run du 01/10 à 06:25 UTC."
+  },
+  "execution": {
+    "original_repository": "/Users/maelsamir/Desktop/Openclaw/communaute",
+    "original_repository_issue": "git pull/status : not a git repository ; lecture Python du protocole : OSError errno 11 Resource deadlock avoided. Les chemins existent mais leur contenu est inaccessible.",
+    "fallback": "Clone GitHub isolé hors Desktop ; original laissé intact, aucun transfert de changements locaux non lisibles.",
+    "vps_actions": false,
+    "history_rewritten": false,
+    "existing_manifests_rewritten": false,
+    "journal_lines_rewritten": false
+  }
+}

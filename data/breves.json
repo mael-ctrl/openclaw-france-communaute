@@ -1,5 +1,590 @@
 [
  {
+  "id": "b185a1507e17c1e2",
+  "slug": "ling-3-1-flash-se-classe-2e-de-la-mobile-app-arena-de-design-arena-b185a1",
+  "titre": "Ling-3.1-flash se classe 2e de la Mobile App Arena de Design Arena",
+  "resume": "Le modèle Ling-3.1-flash fait son entrée à la deuxième place de la Mobile App Arena de Design Arena, dans la catégorie des modèles à poids ouverts. L'auteur du post publié sur r/LocalLLaMA note que peu de modèles ouverts se sont récemment attaqués à la génération d'applications mobiles avec un succès correct. Il y voit un pas dans la bonne direction et demande si d'autres personnes ont testé Ling-3.1-flash.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvh4y4/ling31flash_debuts_2nd_on_design_arenas_mobile/",
+  "date_source": "2026-10-02T01:30:49+00:00",
+  "date_redac": "2026-10-02T02:31:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 673,
+   "sortie": 501
+  }
+ },
+ {
+  "id": "f876e623af1fba10",
+  "slug": "une-radio-locale-generee-par-trois-llm-sur-dgx-spark-et-rtx-5090-f876e6",
+  "titre": "Une radio locale générée par trois LLM, sur DGX Spark et RTX 5090",
+  "resume": "Sur r/LocalLLaMA, l'utilisateur jwhh91 présente pilgrim.farm, une radio dont la musique, les voix et les effets sonores loufoques sont produits par trois modèles locaux. Le tout tourne sur une pile matérielle composée de deux DGX Spark, d'une RTX 5090 et d'une RTX 4070 Ti. L'auteur garde le ton potache : « c'est plus une ferme qu'un pèlerin ».",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvg5hn/i_built_a_local_llm_radio_like_the_pharaohs_built/",
+  "date_source": "2026-10-02T00:43:55+00:00",
+  "date_redac": "2026-10-02T02:31:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 686,
+   "sortie": 629
+  }
+ },
+ {
+  "id": "511f05a8b08ca6ad",
+  "slug": "perplexity-decider-27b-un-modele-de-decision-a-poids-ouverts-511f05",
+  "titre": "Perplexity Decider 27B : un modèle de décision à poids ouverts",
+  "resume": "Le forum r/LocalLLaMA relaie Perplexity Decider 27B, un modèle de décision à poids ouverts. Il s'agit d'un affinage de Qwen3.8 27B, annoncé par l'utilisateur u/rm-rf-rm. Les poids étant ouverts, le modèle peut être téléchargé et réutilisé.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvfz9n/perplexity_decider_27b_open_weights_decision/",
+  "date_source": "2026-10-02T00:35:39+00:00",
+  "date_redac": "2026-10-02T02:31:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 658,
+   "sortie": 1302
+  }
+ },
+ {
+  "id": "d01b6c1da806272d",
+  "slug": "openclaw-2026-8-34-113-correctifs-dans-une-extended-stable-d01b6c",
+  "titre": "OpenClaw 2026.8.34 : 113 correctifs dans une extended-stable",
+  "resume": "OpenClaw publie la 2026.8.34, une « extended-stable », l'équivalent actuel du LTS. Elle reprend l'état du projet fin août 2026, avec les correctifs de sécurité critiques, des correctifs de fiabilité et de performance, et le support de nouveaux modèles. Elle embarque 113 unités de correctifs retenues par audit et durcit les mises à niveau en préservant identifiants, état des agents, plugins et transcriptions.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "sécurité",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.8.34",
+  "date_source": "2026-10-02T00:13:33+00:00",
+  "date_redac": "2026-10-02T02:32:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 813,
+   "sortie": 1201
+  }
+ },
+ {
+  "id": "9faec4b2d2ec0709",
+  "slug": "pi-1-0-le-support-de-mcp-desormais-inclus-par-defaut-9faec4",
+  "titre": "Pi 1.0 : le support de MCP désormais inclus par défaut",
+  "resume": "Le projet Pi atteint la version 1.0, selon une annonce publiée le 2 octobre 2026 sur le forum r/LocalLLaMA. Le support de MCP est désormais inclus par défaut dans cette version. La publication, soumise par l'utilisateur psychohistorian8, renvoie vers un lien externe et n'apporte pas d'autre précision sur le contenu de la mise à jour.",
+  "tags": [
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvffcr/pi_10_released_mcp_support_now_included_by_default/",
+  "date_source": "2026-10-02T00:09:04+00:00",
+  "date_redac": "2026-10-02T02:32:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 619,
+   "sortie": 1441
+  }
+ },
+ {
+  "id": "6baa3769cd2f46e8",
+  "slug": "openclaw-un-correctif-pour-conserver-le-publisher-npm-admis-lors-d-une-6baa37",
+  "titre": "OpenClaw : un correctif pour conserver le publisher npm admis lors d'une reprise",
+  "resume": "Le dépôt OpenClaw a publié le 1er octobre 2026, à 23h36 UTC, une entrée de release sur GitHub intitulée release-publish/bd058c2d9999-1790897806. La note décrit un correctif (« fix ») référencé #163082, dont l'objet est de conserver le publisher npm admis lors d'une reprise de publication. Le changement porte donc sur la mécanique de publication npm du projet, côté outillage de release.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fbd058c2d9999-1790897806",
+  "date_source": "2026-10-01T23:36:03+00:00",
+  "date_redac": "2026-10-02T02:32:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 617,
+   "sortie": 839
+  }
+ },
+ {
+  "id": "d56c7ab4a2d00646",
+  "slug": "openclaw-corrige-la-verification-de-propriete-des-chunks-publies-herit-d56c7a",
+  "titre": "OpenClaw corrige la vérification de propriété des chunks publiés hérités",
+  "resume": "OpenClaw a poussé un correctif sur son canal de publication de versions. Ce correctif concerne la vérification de la propriété des chunks publiés au format hérité. Il porte la référence #163019 dans le dépôt du projet.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fa01081aac382-1790893897",
+  "date_source": "2026-10-01T22:29:41+00:00",
+  "date_redac": "2026-10-01T23:23:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 613,
+   "sortie": 450
+  }
+ },
+ {
+  "id": "8ea2271e6ae1d423",
+  "slug": "gufo-70-tok-s-sur-qwen3-8-27b-mais-le-chiffre-repose-sur-du-speculativ-8ea227",
+  "titre": "Gufo : 70 tok/s sur Qwen3.8 27B, mais le chiffre repose sur du speculative decoding",
+  "resume": "Un utilisateur de r/LocalLLaMA a testé Gufo 0.4.0 via son image podman, sur Qwen3.8 27B en Q4, avec le modèle de draft DFlash2 et le script de benchmark fourni par le projet. Il a bien mesuré 70,22 tok/s, conformément au chiffre affiché sur le GitHub de Gufo. Mais le prompt utilisé est « écrire le mot red exactement 1000 fois », et toute la vitesse vient du speculative decoding : le draft devine environ 7 tokens d'avance.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvbmi6/gufo_performance_70tps_qwen_38_27b_but_you_need/",
+  "date_source": "2026-10-01T21:18:54+00:00",
+  "date_redac": "2026-10-01T23:23:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 902,
+   "sortie": 732
+  }
+ },
+ {
+  "id": "85e8f7abc3377e7c",
+  "slug": "openclaw-corrige-une-relecture-npm-differee-dans-sa-chaine-de-publicat-85e8f7",
+  "titre": "OpenClaw corrige une relecture npm différée dans sa chaîne de publication",
+  "resume": "OpenClaw a publié un correctif intitulé « resume delayed npm readback », référencé sous le numéro #162990. La modification porte sur la chaîne de publication du projet, et plus précisément sur la relecture différée des paquets npm. Ce type de correctif touche à la distribution logicielle, une étape où un blocage suffit à retarder la mise à disposition d'une version.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F004549970362-1790888386",
+  "date_source": "2026-10-01T20:54:26+00:00",
+  "date_redac": "2026-10-01T23:23:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 583
+  }
+ },
+ {
+  "id": "2de227b36c3181e6",
+  "slug": "quel-modele-ia-local-pour-les-decompilations-et-recompilations-de-jeux-2de227",
+  "titre": "Quel modèle IA local pour les décompilations et recompilations de jeux ?",
+  "resume": "Sur r/LocalLLaMA, un internaute constate un essor des projets de decomp et recomp de jeux portés par l'IA, visibles selon lui sur les subreddits r/decomps et r/recomps, qui s'appuient surtout sur Claude ou Codex. Il demande si un modèle local comme Qwen 3.8 27B Abliterated pourrait faire le même travail. Sa configuration : une RTX 3060 avec 12 Go de VRAM et 24 Go de DDR4, suffisante selon lui pour faire tourner confortablement des modèles MoE.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvazuk/what_local_ai_model_is_good_for_game/",
+  "date_source": "2026-10-01T20:53:28+00:00",
+  "date_redac": "2026-10-01T23:23:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 772,
+   "sortie": 365
+  }
+ },
+ {
+  "id": "6b257e8a1cb87a53",
+  "slug": "ddr4-pcie4-vs-ddr5-pcie5-15-a-20-d-ecart-en-pre-entrainement-6b257e",
+  "titre": "DDR4/PCIe4 vs DDR5/PCIe5 : 15 à 20 % d'écart en pré-entraînement",
+  "resume": "Un utilisateur de r/LocalLLaMA a comparé deux machines louées sur Vast.ai pour du pré-entraînement : l'une en DDR4/PCIe4 (EPYC 7352, 192 Go de RAM, 26,3 Go/s), l'autre en DDR5/PCIe5 (9975WX, 256 Go, 54,3 Go/s). À nombre de GPU égal, la seconde est 15 à 20 % plus rapide. Mais au prix actuel de la RAM, 256 Go de DDR5 à 6400 MT/s coûtent une RTX PRO 6000 WS/Max-Q de plus, ce qui avantage le DDR4/PCIe4.",
+  "tags": [
+   "matériel",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvaqeb/ddr4pcie4_vs_ddr5pcie5_for_llms_i_benchmarked/",
+  "date_source": "2026-10-01T20:42:46+00:00",
+  "date_redac": "2026-10-01T23:23:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 927,
+   "sortie": 945
+  }
+ },
+ {
+  "id": "f95d466906b103b2",
+  "slug": "slipstream-4152-tok-s-pour-un-qwen-de-95-5-gib-sur-un-mac-64-go-f95d46",
+  "titre": "Slipstream : 41–52 tok/s pour un Qwen de 95,5 GiB sur un Mac 64 Go",
+  "resume": "Un développeur publie Slipstream, un moteur d'inférence C++ Metal compilé pour Apple Silicon, avec streaming d'experts depuis le SSD et drafting spéculatif. Ce checkpoint Qwen3.8-Flash-Next de 95,5 GiB, déjà téléchargé plus de 34 000 fois, tourne 1,76x plus vite que sur son fork llama.cpp : 41–52 tok/s contre 23,1 tok/s sur le même Mac 64 Go. Sur 3 086 requêtes de codage, la vitesse reste à 33–44 tok/s jusqu'à 130 000 tokens de contexte.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wva7l2/running_955_gib_qwen38flashnext_at_4152_toks_on_a/",
+  "date_source": "2026-10-01T20:21:42+00:00",
+  "date_redac": "2026-10-01T23:23:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 885,
+   "sortie": 1184
+  }
+ },
+ {
+  "id": "b2540a074842f256",
+  "slug": "un-modele-gratuit-en-essai-apparait-sur-oc-sans-laboratoire-identifie-b2540a",
+  "titre": "Un modèle gratuit en essai apparaît sur OC, sans laboratoire identifié",
+  "resume": "Un nouveau modèle, proposé en gratuit ou en essai, est apparu sur OC. Aucun détail n'a encore été communiqué à son sujet. Sur r/LocalLLaMA, l'auteur de la publication se demande quel laboratoire se trouve derrière et avance l'hypothèse d'un DeepSeek v4.1 pro.",
+  "tags": [
+   "openclaw",
+   "deepseek"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wv7t3a/now_which_lab_is_behind_fledge_alpha/",
+  "date_source": "2026-10-01T18:50:10+00:00",
+  "date_redac": "2026-10-01T19:22:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 639,
+   "sortie": 726
+  }
+ },
+ {
+  "id": "632a0c427f4c9c2a",
+  "slug": "claude-code-2-1-287-claude-mods-et-mod-you-should-know-632a0c",
+  "titre": "Claude Code 2.1.287 : Claude Mods et mod « You should know »",
+  "resume": "La version 2.1.287 de Claude Code introduit les Claude Mods : les plugins peuvent désormais modifier plus profondément le comportement de l'outil. Elle ajoute « You should know », un mod intégré où un agent secondaire signale ce que l'utilisateur ou Claude pourrait manquer, activable via /plugin enable cc-plugin-you-should-know@builtin. La vue agents gagne un filtre n:<text> qui porte sur les noms de session et les tâches.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+  "date_source": "2026-10-01T18:43:19+00:00",
+  "date_redac": "2026-10-01T19:22:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 810,
+   "sortie": 969
+  }
+ },
+ {
+  "id": "b4c75014a7f93de7",
+  "slug": "ornith1-5-9b-chercher-une-version-non-censuree-qui-passe-les-tests-b4c750",
+  "titre": "Ornith1.5-9B : chercher une version non censurée qui passe les tests",
+  "resume": "Sur r/LocalLLaMA, un utilisateur cherche des recommandations pour une version non censurée du modèle Ornith1.5-9B. Toutes celles qu'il a essayées, selon lui, échouent à des tests basiques — y compris des variantes affichées comme « 0/100 refusal ». Il demande donc quels modèles fonctionnent réellement pour les autres.",
+  "tags": [
+   "open-source",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wv6zkk/any_good_uncensored_ornith159b/",
+  "date_source": "2026-10-01T18:19:09+00:00",
+  "date_redac": "2026-10-01T19:22:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 642,
+   "sortie": 639
+  }
+ },
+ {
+  "id": "1750ab09c1e0d30f",
+  "slug": "qwen3-8-27b-sur-16-go-de-vram-un-utilisateur-cherche-le-bon-reglage-1750ab",
+  "titre": "Qwen3.8 27B sur 16 Go de VRAM : un utilisateur cherche le bon réglage",
+  "resume": "Sur r/LocalLLaMA, un utilisateur équipé d'une 5060 Ti 16 Go, d'un Ryzen 9600x et de 16 Go de RAM système cherche le meilleur réglage pour faire tourner Qwen3.8 27B. Il vise au moins 128k de contexte et privilégie llama.cpp, quitte à changer d'outil pour gagner en vitesse. Après une semaine d'essais, il hésite encore sur la quantification et veut une version non censurée du modèle.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wv6eyc/whats_the_best_setup_for_qwen38_27b_for_a_16_gig/",
+  "date_source": "2026-10-01T17:57:44+00:00",
+  "date_redac": "2026-10-01T19:22:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 859,
+   "sortie": 787
+  }
+ },
+ {
+  "id": "551b9e33eb92be1c",
+  "slug": "un-juge-federal-rejette-les-recours-antitrust-contre-les-ai-overviews--551b9e",
+  "titre": "Un juge fédéral rejette les recours antitrust contre les AI Overviews de Google",
+  "resume": "Un juge fédéral américain a rejeté deux recours antitrust déposés contre Google. Ils venaient de Chegg et de Penske Media Corporation, la maison mère de Rolling Stone, qui reprochaient au moteur de recherche ses fonctions dopées à l'IA, accusées de détourner le trafic web. Dans une décision rendue mercredi, le juge de district Amit Mehta s'est rangé du côté de Google.",
+  "tags": [
+   "business",
+   "société",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+  "date_source": "2026-10-01T17:12:21+00:00",
+  "date_redac": "2026-10-01T19:22:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 659,
+   "sortie": 615
+  }
+ },
+ {
+  "id": "20fa8fa2006ebc7d",
+  "slug": "un-serveur-8x-v100-achete-5-400-sur-ebay-depasse-200-tok-s-sur-un-27b-20fa8f",
+  "titre": "Un serveur 8x V100 acheté 5 400 $ sur eBay dépasse 200 tok/s sur un 27B",
+  "resume": "Un utilisateur de r/LocalLLaMA détaille les performances d'un serveur huit V100 acheté 5 400 dollars sur eBay, mis en route avec l'aide d'Opus 5.5. Avec seulement quatre GPU, il obtient un cache KV d'environ 120k avec l'image activée ; un modèle 27B en TP=4 dépasse les 200 tok/s avec dflash, pour un prefill entre 2,5 et 3,5k. Le tout tourne sur les checkpoints nvfp4 de Nvidia, via 1Cat-vLLM, un dépôt qui décompresse en fp16 à la volée.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuztnq/5400_ebay_8x_v100_server_cranks_on_flashnext/",
+  "date_source": "2026-10-01T13:44:36+00:00",
+  "date_redac": "2026-10-01T13:51:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 753,
+   "sortie": 1065
+  }
+ },
+ {
+  "id": "02b3f154b1e04bfb",
+  "slug": "un-tandy-286-fait-tourner-chat-et-generation-d-images-via-qwen-et-krea-02b3f1",
+  "titre": "Un Tandy 286 fait tourner chat et génération d'images via Qwen et Krea",
+  "resume": "Un passionné fait tourner un chat et de la génération d'images sur un Tandy 1000 TL/3, une machine DOS à processeur 286. Le programme natif DeskMind passe par WiFi (carte PicoMEM 2, mTCP) vers un serveur Python sur son PC, qui pilote Qwen3.8-27B et Krea 2. Le 286 ne voit jamais de JSON, de base64 ni de PNG : il reçoit du texte et des images prêtes pour la mémoire vidéo. Un logo demandé en chat arrive en 9 s.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuxzdg/why_am_i_like_this_full_chat_and_image_generation/",
+  "date_source": "2026-10-01T12:20:55+00:00",
+  "date_redac": "2026-10-01T13:51:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 859,
+   "sortie": 1266
+  }
+ },
+ {
+  "id": "4b9f65220d5a2f6f",
+  "slug": "llama-cpp-le-support-du-mtp-arrive-pour-qwen-flash-next-4b9f65",
+  "titre": "llama.cpp : le support du MTP arrive pour Qwen Flash Next",
+  "resume": "La pull request #29761 du dépôt ggml-org/llama.cpp, signée am17an, ajoute le support du MTP pour Qwen Flash Next. Elle a été fusionnée après 17 heures de développement. Des quants sont déjà disponibles sur Hugging Face (ggml-org/Qwen3.8-Flash-Next-GGUF), et l'auteur du post se demande s'il est temps de délaisser Qwen 3.8 27B.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuwrsk/qwen4exp_add_mtp_by_am17an_pull_request_29761/",
+  "date_source": "2026-10-01T11:18:34+00:00",
+  "date_redac": "2026-10-01T13:51:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 744,
+   "sortie": 857
+  }
+ },
+ {
+  "id": "c057301193060278",
+  "slug": "ressources-vllm-pour-configs-bi-gpu-nvidia-partagees-sur-github-c05730",
+  "titre": "Ressources vLLM pour configs bi-GPU Nvidia partagées sur GitHub",
+  "resume": "Un utilisateur de r/LocalLLaMA a publié sur GitHub un dépôt de ressources vLLM destiné aux configurations à deux GPU Nvidia. Il explique avoir voulu pousser son PC le plus loin possible et avoir constaté que la documentation existante était limitée, d'où la création de son propre matériel. Le dépôt est accessible à l'adresse github.com/ExTV/dual-gpus-vllm.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuvu86/dual_gpus_vllm_resources_for_50_40_nvidia_gpus/",
+  "date_source": "2026-10-01T10:25:39+00:00",
+  "date_redac": "2026-10-01T13:51:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 274
+  }
+ },
+ {
+  "id": "cd3bc7a40968f507",
+  "slug": "12-heures-avec-ling-3-1-flash-un-modele-560b-a25b-encore-a-venir-cd3bc7",
+  "titre": "12 heures avec Ling 3.1 Flash, un modèle 560B A25B encore à venir",
+  "resume": "Un utilisateur de r/LocalLLaMA raconte avoir passé 12 heures avec Ling 3.1 Flash, un modèle 560B A25B annoncé comme « coming soon », pour réaliser « l'instrument le plus difficile à jouer ». Il s'étonne qu'un modèle estampillé « flash » relève désormais de la catégorie des 500B, tout en constatant que ça fonctionne.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuuqpp/12hrs_with_ling_31_flash/",
+  "date_source": "2026-10-01T09:16:36+00:00",
+  "date_redac": "2026-10-01T13:51:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 674,
+   "sortie": 907
+  }
+ },
+ {
+  "id": "86f3bc35c69225c0",
+  "slug": "recherche-d-une-alternative-open-source-a-claude-cowork-86f3bc",
+  "titre": "Recherche d'une alternative open source à Claude Cowork",
+  "resume": "Un utilisateur de r/LocalLLaMA cherche une alternative open source à Claude Cowork, avec intégrations type Notion ou Gmail, recherche web et création de PDF. Il a repéré le projet Eigent sur GitHub, mais ne trouve aucun retour d'expérience à son sujet. Il a aussi testé OpenClaw, Hermes et l'interface d'OpenWebUI, jugés adaptés à d'autres usages, et veut connecter son propre serveur à Ollama ou Ninfer.",
+  "tags": [
+   "open-source",
+   "claude",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wuu9ip/best_opensource_claude_cowork_alternative/",
+  "date_source": "2026-10-01T08:45:33+00:00",
+  "date_redac": "2026-10-01T13:51:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 752,
+   "sortie": 588
+  }
+ },
+ {
+  "id": "f466c1d46a0e57c9",
+  "slug": "securite-de-l-ia-washington-s-en-remet-a-ceux-qui-la-developpent-f466c1",
+  "titre": "Sécurité de l'IA : Washington s'en remet à ceux qui la développent",
+  "resume": "Le gouvernement américain confie la sécurité de l'IA à ceux qui la développent, balayant les discours alarmistes. Donald Trump a réuni Dario Amodei, Greg Brockman, Sundar Pichai, Mark Zuckerberg, Jensen Huang et Elon Musk pour parler des risques liés à l'intelligence artificielle. Mais les extraits vidéo qui circulent montrent surtout une « grande famille » de l'IA, loin d'une réunion de crise.",
+  "tags": [
+   "sécurité",
+   "société",
+   "openai",
+   "meta"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/balayant-les-discours-alarmistes-le-gouvernement-americain-confie-la-securite-de-lia-a-ceux-qui-la-developpent.HBARNJFCAFEGZAOEGKPQFWMEX4.html",
+  "date_source": null,
+  "date_redac": "2026-10-01T06:25:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 757,
+   "sortie": 815
+  }
+ },
+ {
+  "id": "88a6e40007e74566",
+  "slug": "les-travaux-sur-mtp-pour-qwen-flash-next-reprennent-dans-llama-cpp-88a6e4",
+  "titre": "Les travaux sur MTP pour Qwen Flash Next reprennent dans llama.cpp",
+  "resume": "Les travaux sur MTP avec Qwen Flash Next et llama.cpp ont redémarré. Des quants GGUF sont publiés sur le dépôt ggml-org de Hugging Face, sous le nom Qwen3.8-Flash-Next-GGUF, et une pull request a été ouverte sur le dépôt llama.cpp. L'auteur de la dépêche précise qu'il s'agit encore de travaux en cours.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wur4lt/qwen_flash_next_mtp_work_restarted/",
+  "date_source": "2026-10-01T05:27:13+00:00",
+  "date_redac": "2026-10-01T06:25:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 685,
+   "sortie": 498
+  }
+ },
+ {
+  "id": "5dbdcf175a7242d8",
+  "slug": "quatre-tesla-t4-pour-64-go-de-vram-sur-une-machine-locale-5dbdcf",
+  "titre": "Quatre Tesla T4 pour 64 Go de VRAM sur une machine locale",
+  "resume": "Sur r/LocalLLaMA, un utilisateur détaille sa configuration : quatre Tesla T4 de 16 Go, soit 64 Go de VRAM, sur une carte mère SuperMicro X11SPA-T avec un Xeon W3225 et 768 Go de DDR4 ECC. Le tout tourne sous Ubuntu 26.04 avec llama.cpp et OpenWebUI. Il attendait les ventilateurs des T4 et renonce finalement à changer de CPU, les vitesses obtenues lui semblant suffisantes. Il veut déjà plus de cartes.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wupsay/finally_got_my_4th_card_in_64gb_total/",
+  "date_source": "2026-10-01T04:10:32+00:00",
+  "date_redac": "2026-10-01T06:25:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 780,
+   "sortie": 900
+  }
+ },
+ {
+  "id": "7d0a598b4aadbaef",
+  "slug": "astrabox-generateur-de-jeux-d-arcade-open-source-pilote-par-l-ia-7d0a59",
+  "titre": "Astrabox, générateur de jeux d'arcade open source piloté par l'IA",
+  "resume": "Astrabox est une interface d'arcade open source : on décrit un jeu, l'IA le construit, puis on demande des changements à la voix pendant la partie. Chaque jeu a ses visuels et son gameplay, un runtime partagé gérant manettes, scores et arrivée des joueurs. Bâti autour de Codex, le projet tourne en application web locale, sans borne d'arcade. Encore expérimental, il attend une adaptation à un modèle de code local.",
+  "tags": [
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wumex2/astrabox_open_source_arcade_game_generator/",
+  "date_source": "2026-10-01T01:17:44+00:00",
+  "date_redac": "2026-10-01T06:25:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 823,
+   "sortie": 1215
+  }
+ },
+ {
+  "id": "51020eb90b32e127",
+  "slug": "grokipedia-passe-en-v0-3-avec-un-nouveau-logo-et-une-page-d-accueil-re-51020e",
+  "titre": "Grokipedia passe en v0.3 avec un nouveau logo et une page d'accueil remaniée",
+  "resume": "Grokipedia, le concurrent de Wikipédia propulsé par l'IA de SpaceXAI, a reçu une mise à jour v0.3. Elle apporte un nouveau logo ainsi qu'une refonte de sa page d'accueil et de sa page des modifications en direct. Benji Taylor, responsable du design chez SpaceXAI, parle d'une « Grokipedia rafraîchie ». Le projet avait déjà recommencé à intégrer des modifications récemment.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
+  "date_source": "2026-10-01T00:23:45+00:00",
+  "date_redac": "2026-10-01T06:25:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 679,
+   "sortie": 545
+  }
+ },
+ {
   "id": "e7e678544434e6b8",
   "slug": "un-fil-r-localllama-sur-des-entretiens-de-dirigeants-d-ia-en-2026-e7e678",
   "titre": "Un fil r/LocalLLaMA sur des entretiens de dirigeants d'IA en 2026",

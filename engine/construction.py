@@ -156,7 +156,14 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
 <meta property="og:url" content="{ech(url_canonique)}">
 <meta property="og:site_name" content="{config.NOM_SITE}">
 <meta property="og:locale" content="fr_FR">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{ech(config.URL_SITE)}/assets/og-crabe.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="La Communauté — actualité IA en français, avec Le Crabe devant son ordinateur.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{ech(config.URL_SITE)}/assets/og-crabe.png">
+<meta name="twitter:image:alt" content="La Communauté — actualité IA en français, avec Le Crabe devant son ordinateur.">
 <link rel="alternate" type="application/rss+xml" title="{config.NOM_SITE} — RSS" href="/feed.xml">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/style.css">

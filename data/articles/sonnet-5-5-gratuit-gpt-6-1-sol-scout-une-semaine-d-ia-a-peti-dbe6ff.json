@@ -1,0 +1,41 @@
+{
+ "slug": "sonnet-5-5-gratuit-gpt-6-1-sol-scout-une-semaine-d-ia-a-peti-dbe6ff",
+ "titre": "Sonnet 5.5 gratuit, GPT-6.1 Sol, Scout : une semaine d'IA à petit prix",
+ "chapo": "Anthropic ouvre Sonnet 5.5 à tous, OpenAI brade GPT-6.1 Sol, Microsoft bâtit son agent sur OpenClaw, Trump esquisse un code de bonne conduite et l'AEF-1 fait consensus chez les évaluateurs tiers. Sur le front de l'IA, la semaine parle surtout de coûts, de contrôle et de méthode.",
+ "html": "<h2 id=\"anthropic-met-sonnet-5-5-en-acces-libre\">Anthropic met Sonnet 5.5 en accès libre</h2>\n<p>Anthropic a lancé cette semaine <strong>Sonnet 5.5</strong>, un modèle présenté comme plus abordable. Selon l'éditeur, ses performances restent proches de celles de Claude Opus 5.5. Surtout, le nouveau modèle est proposé sur la version gratuite de Claude, ce qui met une IA parmi les plus puissantes à disposition sans abonnement.</p>\n<p>Le geste commercial est net : la barrière d'entrée tombe pour les utilisateurs, pas seulement pour les développeurs. L'éditeur ne détaille pas les contreparties de cette gratuité, ni les limites qu'elle suppose.</p>\n<p>Anthropic figure aussi parmi les trois laboratoires à avoir cosigné <strong>l'AEF-1</strong>, le nouveau standard destiné aux évaluateurs tiers, aux côtés de xAI et d'OpenAI. Deux façons, la même semaine, de travailler sa position : élargir l'accès d'un côté, structurer la vérification de l'autre.</p>\n<h2 id=\"openai-arbitre-en-faveur-du-cout\">OpenAI arbitre en faveur du coût</h2>\n<p>De son côté, OpenAI lance <strong>GPT-6.1 Sol</strong>, un modèle destiné à propulser ses agents Dots. Il est presque aussi performant que GPT-6 Astra dans les domaines les plus importants, mais coûte <strong>cinq fois moins cher</strong>. Le positionnement mise sur le coût plutôt que sur la seule performance brute.</p>\n<p>La logique ressemble à celle d'Anthropic, avec une nuance : l'argument n'est pas l'accès gratuit, mais le prix à l'usage. Pour des agents qui enchaînent les appels, la facture compte autant que le score sur un benchmark.</p>\n<p>Reste que le coût n'est pas un critère isolé : il dépend de l'usage réel, du volume d'appels et de la longueur des échanges confiés au modèle.</p>\n<h2 id=\"scout-microsoft-batit-sur-openclaw\">Scout : Microsoft bâtit sur OpenClaw</h2>\n<p>Microsoft annonce <strong>Scout</strong>, un agent IA autonome construit sur OpenClaw. L'annonce est publiée sur le blog Microsoft 365 et reprise par Wired et 404 Media. Sur Hacker News, la dépêche totalise 94 points et 87 commentaires.</p>\n<p>Que Microsoft bâtisse son agent sur OpenClaw donne du poids à l'écosystème. L'épisode rappelle aussi qu'un agent ne se juge pas sur son seul modèle : l'infrastructure sur laquelle il repose fait partie de l'équation.</p>\n<p>Construire sur une brique externe, c'est aussi dépendre d'un écosystème qui n'est pas le sien. Le choix dit quelque chose du rapport de force entre les couches d'infrastructure et les modèles qui les animent.</p>\n<h2 id=\"regulation-et-evaluation-deux-chantiers-\">Régulation et évaluation, deux chantiers parallèles</h2>\n<p>En présence des principaux acteurs américains de l'IA, Donald Trump a présenté un <strong>code de bonne conduite</strong> destiné à encadrer le développement du secteur. Le texte prévoit quatre niveaux de régulation. L'adhésion reste volontaire : chaque entreprise est libre d'y souscrire, mais doit alors instaurer ses propres mesures de contrôle.</p>\n<p>Sur un autre registre, l'AEF-1 se met en place pour les évaluateurs tiers, cosigné par xAI, OpenAI et Anthropic. Le rythme s'accélère sur ce front : l'évaluation externe de l'IA se structure.</p>\n<p>Un texte volontaire côté politique, un standard technique côté laboratoires : deux manières d'organiser le secteur, sans qu'on puisse encore dire laquelle pèsera le plus.</p>\n<h2>Et maintenant ?</h2>\n<p>Les annonces de la semaine se répondent sans se commander : on baisse les prix (Sonnet 5.5, GPT-6.1 Sol), on industrialise les agents (Scout), on encadre (le code de Trump, l'AEF-1). Aucune ne tranche le débat sur la puissance des modèles ; elles déplacent la concurrence vers le coût, la distribution et la confiance. C'est peut-être là que se joue la suite : moins dans le point de performance gagné que dans le prix et les règles qui rendent un modèle réellement utilisable.</p>",
+ "pivot": "dbe6ff24c4c739a0",
+ "tags": [
+  "openclaw",
+  "agents",
+  "claude",
+  "openai"
+ ],
+ "sources": [
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/09/30/anthropic-propose-lune-des-ia-les-plus-puissantes-du-monde-gratuitement-le-modele-sonnet-5-5-debarque-sur-claude-et-promet-de-grosses-performances/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/pour-encadrer-lia-donald-trump-devoile-un-code-de-bonne-conduite.html"
+  },
+  {
+   "nom": "Hacker News — OpenClaw",
+   "url": "https://www.computerworld.com/article/4180103/microsoft-unveils-scout-an-autonomous-ai-agent-built-on-openclaw.html"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/09/29/openai-lance-une-nouvelle-ia-presque-aussi-puissante-que-gpt-6-astra-mais-5-fois-moins-chere/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for"
+  }
+ ],
+ "date": "2026-10-01T19:23:09+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1485,
+  "sortie": 3445
+ }
+}

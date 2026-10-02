@@ -1,0 +1,41 @@
+{
+ "slug": "agents-continus-chez-openai-l-inference-locale-se-mesure-en--615c8b",
+ "titre": "Agents continus chez OpenAI, l'inférence locale se mesure en tok/s",
+ "chapo": "OpenAI a profité de son DevDay pour annoncer des agents capables de travailler en continu, un modèle moins coûteux et une inférence accélérée. Pendant ce temps, sur r/LocalLLaMA, la performance se mesure en tokens par seconde, entre speculative decoding, streaming d'experts depuis le SSD et arbitrages matériels.",
+ "html": "<h2 id=\"ce-qu-openai-annonce-au-devday\">Ce qu'OpenAI annonce au DevDay</h2>\n<p>Au DevDay, OpenAI a dévoilé une série d'annonces : des agents capables de travailler en continu, un nouveau modèle moins coûteux, une inférence accélérée et une évolution de Codex. L'entreprise ajoute aussi un espace de travail collaboratif, de nouvelles briques à destination des développeurs, ainsi qu'un renforcement de la sécurité et de la confidentialité.</p>\n<p>L'Usine Digitale lit ces annonces comme une stratégie de positionnement : OpenAI cherche à rattraper Anthropic et à contrer les ambitions de Meta dans l'agentique personnelle. Le sujet n'est donc plus seulement la qualité d'un modèle isolé, mais la capacité à faire tourner des agents dans la durée — ce que la formule « agents continus » résume.</p>\n<h2 id=\"le-speculative-decoding-moteur-et-mirage\">Le speculative decoding, moteur et mirage</h2>\n<p>Sur r/LocalLLaMA, la performance se raconte en tokens par seconde, et les chiffres demandent à être lus de près. Un utilisateur a testé Gufo 0.4.0 via son image podman, sur Qwen3.8 27B en Q4, avec le modèle de draft DFlash2 et le script de benchmark fourni par le projet. Résultat : 70,22 tok/s, conformément au chiffre affiché sur le GitHub de Gufo.</p>\n<p>Sauf que le prompt consistait à « écrire le mot red exactement 1000 fois », et que toute la vitesse vient du speculative decoding : le draft devine environ 7 tokens d'avance. Le banc d'essai mesure donc surtout la mécanique d'anticipation, pas la charge d'un usage réel.</p>\n<p>Le même ressort est à l'œuvre dans Slipstream, moteur d'inférence C++ Metal compilé pour Apple Silicon, qui combine streaming d'experts depuis le SSD et drafting spéculatif. Un checkpoint Qwen3.8-Flash-Next de 95,5 GiB, déjà téléchargé plus de 34 000 fois, y tourne 1,76x plus vite que sur le fork llama.cpp de son auteur : 41–52 tok/s contre 23,1 tok/s sur le même Mac 64 Go. Sur 3 086 requêtes de codage, la vitesse tient entre 33 et 44 tok/s jusqu'à 130 000 tokens de contexte.</p>\n<h2 id=\"llama-cpp-fusionne-le-support-du-mtp\">llama.cpp fusionne le support du MTP</h2>\n<p>Ces moteurs bricolés s'appuient sur un écosystème qui bouge vite. La pull request #29761 du dépôt ggml-org/llama.cpp, signée am17an, ajoute le support du MTP pour Qwen Flash Next ; elle a été fusionnée après 17 heures de développement. Des quants sont déjà disponibles sur Hugging Face, dans le dépôt ggml-org/Qwen3.8-Flash-Next-GGUF.</p>\n<p>Reste la question que pose l'auteur du post : le moment est-il venu de délaisser Qwen 3.8 27B ? La réponse dépend moins des courbes que des usages, mais la cadence des fusions et la disponibilité immédiate des quants montrent qu'un modèle local peut changer de statut en quelques jours.</p>\n<h2 id=\"la-ram-decide-autant-que-le-gpu\">La RAM décide autant que le GPU</h2>\n<p>La performance dépend aussi du matériel, et l'arbitrage économique est serré. Un utilisateur a comparé deux machines louées sur Vast.ai pour du pré-entraînement : d'un côté DDR4/PCIe4 (EPYC 7352, 192 Go de RAM, 26,3 Go/s), de l'autre DDR5/PCIe5 (9975WX, 256 Go, 54,3 Go/s). À nombre de GPU égal, la seconde est 15 à 20 % plus rapide.</p>\n<p>Mais au prix actuel de la RAM, 256 Go de DDR5 à 6400 MT/s coûtent une RTX PRO 6000 WS/Max-Q de plus. Le gain de vitesse ne compense pas la dépense : le DDR4/PCIe4 garde l'avantage. Un calcul qui rappelle que dans l'IA locale, la question n'est jamais seulement de savoir quelle configuration est la plus rapide, mais à quel prix par point de performance.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux mondes avancent en parallèle. D'un côté, OpenAI empile les briques d'une plateforme pour agents : continuité, coût, outils, sécurité. De l'autre, la communauté open source optimise token par token, en poussant le speculative decoding, le streaming d'experts depuis le SSD et le choix des barrettes de RAM. Les deux récits se croisent rarement, mais ils traitent la même contrainte : faire tourner de l'IA longtemps, et à un coût tenable.</p>",
+ "pivot": "615c8b4425d4dabb",
+ "tags": [
+  "openai",
+  "agents",
+  "open-source",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/openai/devday-openai-peut-il-rattraper-anthropic-et-contrer-les-ambitions-de-meta-dans-lagentique-personnelle.TYN5VZ2N2VGTHIPRVRYQPTGWLM.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvbmi6/gufo_performance_70tps_qwen_38_27b_but_you_need/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvaqeb/ddr4pcie4_vs_ddr5pcie5_for_llms_i_benchmarked/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wva7l2/running_955_gib_qwen38flashnext_at_4152_toks_on_a/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wuwrsk/qwen4exp_add_mtp_by_am17an_pull_request_29761/"
+  }
+ ],
+ "date": "2026-10-01T23:23:54+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1783,
+  "sortie": 3313
+ }
+}

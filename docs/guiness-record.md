@@ -24,6 +24,16 @@ détenteurs de records et ne couvre aucuns frais.
 
 ---
 
+## Mission M1 — objectif de chiffre d'affaires (ajouté le 02/10/2026)
+
+**Nouveau mandat de Maël (02/10/2026)** : atteindre **1 M€ de chiffre d'affaires en 12 mois** (échéance 02/10/2027), les revenus du projet servant au projet. Plan complet : `docs/mission-1m.md`.
+
+- **Angle record associé (à qualifier auprès de GWR, non soumis)** : *« First AI-operated news medium to generate €1,000,000 in revenue in 12 months »* — formulation à valider avec Guinness (critères : mesurable / battable / vérifiable ; un CA relève d'une catégorie « business » à confirmer).
+- **Preuves déjà instrumentées** : registre scellé SHA-256 (`data/publications.jsonl`), manifestes quotidiens chaînés (`data/preuves/`), **trafic serveur agrégé** (`data/trafic.json` — logs OVH, sans cookie ni traceur), relevés Stripe (jalons : `mission-1m.md` §4.3), journal public + tags mensuels.
+- **Statut au 02/10** : 0 € encaissé (pack 14 € : 0 vente ; soutien : 0) ; **414 visiteurs uniques/jour** (01/10, +47 % vs 30/09). **Aucune candidature ni contact GWR sans accord explicite de Maël.**
+
+---
+
 ## 0. Résumé exécutif
 
 - **3 titres proposés** (§1) : un format « First » (antériorité), un format

@@ -96,3 +96,22 @@ prouvent pas à eux seuls une stabilité durable.
 - [ ] Page anglaise du hub (`/en/`) pour HN / Reddit
 - [ ] Tournée mensuelle « record » (cron Hermes, 1er du mois : sceaux + tag + exports)
 - [ ] Relances presse ~07/10 (accord explicite)
+
+---
+
+## 2026-10-02 (matin) — Mission M1 : cap « 1 M€ en 12 mois » + la mesure est branchée
+
+**Mandat Maël** : « atteindre un chiffre d'affaires de 1 million en 1 an » ; les revenus du projet servent au projet ; autonomie accordée pour créer emails et (si besoin) numéros en ligne.
+
+**Décisions & livraisons** :
+1. **Plan Mission M1 publié** (`docs/mission-1m.md`) : 1 M€ de CA à échéance 02/10/2027, décomposé en paliers (100 € → 500 €/m → 1 k€/m → 5 k€/m → 20 k€/m → 83 k€/m) ; média = acquisition, **services B2B « média/agent IA clé en main » = moteur de revenus**, distribution = carburant ; garde-fous maintenus (règles des plateformes, transparence, accords Maël pour tout engagement public).
+2. **La mesure est branchée** : accès aux **logs serveur OVH** obtenu (compte userLogs dédié) ; script `outils/metriques.py` + `data/trafic.json`. **Baseline réelle : 281 visiteurs uniques (30/09) → 414 (01/10), +47 %** ; 2 478 requêtes humaines vs 1 014 robots le 01/10 ; ~27 Mo servis ; indexation en cours (Googlebot, Bing, Apple, Ahrefs…). Croissance 100 % organique à ce stade (aucun référent externe significatif — la distribution commence).
+3. **Revenus : 0 € encaissés** à date (pack 14 € : 0 vente ; soutien : 1 session expirée impayée) — base honnête du plan.
+4. **Emails opérationnels** : 7 alias créés et **testés de bout en bout** (jlai/reddit/uneed/producthunt/guinness@blockos.fr ; contact/redaction@communaute-ia.fr → crabe@). Pas de numéro de téléphone nécessaire pour la vague actuelle (pas de service SMS gris — ligne rouge).
+5. **Nouveau cron** « 📈 Métriques — hebdo » (lundi 9h, Discord) : trafic + ventes + audience comparés aux paliers M1.
+
+**Mouvements en cours (priorité)** :
+- [ ] Sprint 1 du plan : finir la distribution (LinuxFr, Reddit, HN, Uneed, Microlaunch) + `/en/` + newsletter « La Brève du Crabe » + page B2B « Travailler avec le Crabe »
+- [ ] Quick wins SEO : favicon.ico + redirections des 404 utiles (/contact, /a-propos, /mentions-legales…)
+- [ ] Relances presse ~07/10 (accord explicite) ; LeBigData → formulaire/X
+- [ ] Mastodon : re-vérifier l'approbation

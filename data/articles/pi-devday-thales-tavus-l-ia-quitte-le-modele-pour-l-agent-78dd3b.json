@@ -1,0 +1,41 @@
+{
+ "slug": "pi-devday-thales-tavus-l-ia-quitte-le-modele-pour-l-agent-78dd3b",
+ "titre": "Pi, DevDay, Thales, Tavus : l'IA quitte le modèle pour l'agent",
+ "chapo": "Le 1er octobre, la même journée a vu un agent autrichien se hisser en haut de Hacker News, OpenAI repenser ses agents et Thales poser une ligne rouge. Derrière ces annonces dispersées, une même bascule : l'attention se déplace des modèles vers la couche logicielle qui les fait travailler.",
+ "html": "<h2 id=\"pi-la-bataille-se-joue-sous-le-capot\">Pi : la bataille se joue sous le capot</h2>\n<p>Le 1er octobre, la société Earendil a publié la première version stable de Pi, un agent d'IA open source autrichien qui a fait sensation sur Hacker News. L'ambition affichée : tenir tête à Claude Code et à Codex, les outils devenus la référence pour faire écrire du code par un modèle. Le positionnement open source de Pi est son principal argument dans cette confrontation.</p>\n<p>Pour Numerama, l'intérêt du lancement dépasse le seul duel entre agents. Il met en lumière une bataille moins visible que celle des modèles, mais tout aussi stratégique : celle de la <strong>couche logicielle qui les fait travailler</strong>. Le modèle produit du texte ; l'agent décide quoi en faire, dans quel ordre et avec quels outils. C'est précisément là que se joue une partie de l'autonomie réelle des systèmes, et donc de leur utilité au quotidien.</p>\n<h2 id=\"openai-met-le-cap-sur-l-agentique-contin\">OpenAI met le cap sur l'agentique continu</h2>\n<p>Le même jour, OpenAI a tenu son DevDay avec une série d'annonces centrées sur les agents. L'entreprise présente des agents capables de <strong>travailler en continu</strong>, un nouveau modèle moins coûteux, une inférence accélérée et une évolution de Codex.</p>\n<p>S'y ajoutent un espace de travail collaboratif, de nouvelles briques pour les développeurs et un renforcement de la sécurité et de la confidentialité. L'Usine Digitale lit dans ces annonces une stratégie face à Anthropic et aux ambitions de Meta dans l'agentique personnelle. Il ne s'agit plus seulement de publier un modèle performant, mais d'occuper le terrain des usages continus, ceux qui tournent en tâche de fond plutôt que le temps d'une requête.</p>\n<h2 id=\"le-controle-humain-ligne-rouge-assumee\">Le contrôle humain, ligne rouge assumée</h2>\n<p>Toujours le 1er octobre, au Thales Cyber Summit, Patrice Caine, PDG du groupe, a fixé sa ligne directrice : « <strong>l'humain doit garder le contrôle</strong> ». Une formule qu'il juge plus adaptée que le traditionnel « Human-in-the-loop ».</p>\n<p>Elle vaut, selon lui, autant pour les recommandations formulées par les systèmes que pour les actions confiées aux agents d'IA. Le contexte n'est pas anodin : Thales renforce son offre de cybersécurité face aux agents IA et aux attaques automatisées. Là où OpenAI pousse vers davantage d'autonomie et de travail en continu, le groupe insiste sur la supervision. Deux façons de répondre à la même question : jusqu'où laisser un agent agir seul ?</p>\n<h2 id=\"passer-pour-un-humain-transcrire-en-dire\">Passer pour un humain, transcrire en direct</h2>\n<p>Deux autres annonces, le même jour, déplacent le curseur du côté de l'interface. Tavus a présenté une IA capable de dialoguer en visioconférence et de réagir aux gestes comme aux silences. Dans un test mené par l'entreprise, <strong>près de la moitié des participants ont cru parler à un humain</strong> après une minute d'échange.</p>\n<p>Microsoft a de son côté lancé MAI-Transcribe-2-Streaming, un modèle qui transcrit la parole en direct dans 60 langues, accompagné de deux nouveaux modèles de synthèse vocale. Selon Microsoft, ce premier modèle de transcription en direct se classe numéro un en précision sur le comparateur Artificial Analysis. La voix devient à la fois une entrée et une sortie pour les agents — un canal de plus à surveiller.</p>\n<h2>Et maintenant ?</h2>\n<p>Prises séparément, ces annonces relèvent de chantiers distincts : orchestration d'agents, coût d'inférence, gouvernance, interfaces vocales et visuelles. Mises bout à bout, elles dessinent une même journée de travail sur la couche applicative de l'IA. Les performances des modèles restent le socle, mais la valeur se déplace vers ce qui les branche au monde réel — et vers les garde-fous qu'on accepte de leur adjoindre.</p>",
+ "pivot": "78dd3b6a79b7a15a",
+ "tags": [
+  "agents",
+  "open-source",
+  "openai",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2345455-pi-le-petit-agent-ia-autrichien-qui-veut-tenir-tete-a-claude-code-et-codex.html"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/openai/devday-openai-peut-il-rattraper-anthropic-et-contrer-les-ambitions-de-meta-dans-lagentique-personnelle.TYN5VZ2N2VGTHIPRVRYQPTGWLM.html"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/cybersecurite/lhumain-doit-garder-le-controle-thales-renforce-son-offre-de-cybersecurite-face-aux-agents-ia-et-aux-attaques-automatisees.7XJMG47Z65AFVCLJGDG6J4VGYI.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2345381-cette-ia-a-discute-avec-eux-en-visio-pres-de-la-moitie-lont-prise-pour-un-humain.html"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/microsoft/3269975_la-nouvelle-ia-de-microsoft-transcrit-vos-paroles-avant-meme-la-fin-de-vos-phrases"
+  }
+ ],
+ "date": "2026-10-02T10:19:50+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1605,
+  "sortie": 3974
+ }
+}

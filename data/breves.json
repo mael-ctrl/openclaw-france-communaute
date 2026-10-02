@@ -1,5 +1,68 @@
 [
  {
+  "id": "78dd3b6a79b7a15a",
+  "slug": "pi-l-agent-ia-open-source-autrichien-qui-defie-claude-code-et-codex-78dd3b",
+  "titre": "Pi, l'agent IA open source autrichien qui défie Claude Code et Codex",
+  "resume": "La société Earendil a publié le 1er octobre la première version stable de Pi, un agent d'IA open source qui a fait sensation sur Hacker News. L'agent entend tenir tête à Claude Code et à Codex. Derrière ce lancement se joue une bataille moins visible que celle des modèles, mais tout aussi stratégique : celle de la couche logicielle qui les fait travailler.",
+  "tags": [
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2345455-pi-le-petit-agent-ia-autrichien-qui-veut-tenir-tete-a-claude-code-et-codex.html",
+  "date_source": "2026-10-02T10:12:38+00:00",
+  "date_redac": "2026-10-02T10:19:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 714,
+   "sortie": 448
+  }
+ },
+ {
+  "id": "166710522cdd3629",
+  "slug": "un-utilisateur-de-r-localllama-s-interroge-sur-les-prochaines-sorties--166710",
+  "titre": "Un utilisateur de r/LocalLLaMA s'interroge sur les prochaines sorties de Mistral",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande si Mistral prévoit de nouvelles sorties de modèles. Il souligne qu'un long moment s'est écoulé depuis les derniers, et remarque que l'entreprise vend désormais GLM sur son site. Ce silence prolongé alimente les interrogations de la communauté sur ce que prépare le laboratoire français.",
+  "tags": [
+   "mistral",
+   "open-source",
+   "france"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvpxg8/does_anyone_know_if_any_new_releases_from_mistral/",
+  "date_source": "2026-10-02T10:05:59+00:00",
+  "date_redac": "2026-10-02T10:19:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 658,
+   "sortie": 423
+  }
+ },
+ {
+  "id": "3a76991f0075e2e8",
+  "slug": "thales-l-humain-doit-garder-le-controle-face-aux-agents-ia-3a7699",
+  "titre": "Thales : « l'humain doit garder le contrôle » face aux agents IA",
+  "resume": "Au Thales Cyber Summit du 1er octobre, Patrice Caine, PDG du groupe, a fixé la ligne directrice face à l'IA : « l'humain doit garder le contrôle ». Une formule qu'il juge plus adaptée que le traditionnel « Human-in-the-loop ». Elle vaut autant pour les recommandations des systèmes que pour les actions confiées aux agents IA. Thales renforce son offre face aux attaques automatisées.",
+  "tags": [
+   "sécurité",
+   "agents",
+   "business"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/cybersecurite/lhumain-doit-garder-le-controle-thales-renforce-son-offre-de-cybersecurite-face-aux-agents-ia-et-aux-attaques-automatisees.7XJMG47Z65AFVCLJGDG6J4VGYI.html",
+  "date_source": "2026-10-02T09:45:49+00:00",
+  "date_redac": "2026-10-02T10:19:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 782,
+   "sortie": 1075
+  }
+ },
+ {
   "id": "1cdca4a499278e94",
   "slug": "suno-ajoute-la-generation-de-voix-parlees-a-sa-plateforme-1cdca4",
   "titre": "Suno ajoute la génération de voix parlées à sa plateforme",
@@ -17,6 +80,26 @@
    "modele": "deepseek-flash",
    "entree": 657,
    "sortie": 482
+  }
+ },
+ {
+  "id": "5031f356a2f495ad",
+  "slug": "claude-desktop-ne-peut-plus-creer-d-issues-github-5031f3",
+  "titre": "Claude desktop ne peut plus créer d'issues GitHub",
+  "resume": "Un utilisateur rapporte que Claude desktop ne parvient plus à créer des issues GitHub. Il s'en servait pour discuter de fonctionnalités ou de bugs, puis générer l'issue à partir de laquelle il lançait ensuite une session Claude Code. Désormais, une fenêtre s'ouvre mais se replie aussitôt, la rendant inutilisable. Il demande si d'autres rencontrent le même problème et s'il existe des solutions.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wvph04/claude_desktop_can_no_longer_create_github_issues/",
+  "date_source": "2026-10-02T09:37:34+00:00",
+  "date_redac": "2026-10-02T10:19:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 745,
+   "sortie": 413
   }
  },
  {
@@ -41,6 +124,26 @@
   }
  },
  {
+  "id": "86713e9c32f0f7b4",
+  "slug": "sur-reddit-un-utilisateur-s-interroge-sur-les-reponses-incompletes-de--86713e",
+  "titre": "Sur Reddit, un utilisateur s'interroge sur les réponses incomplètes de Claude",
+  "resume": "Sur r/ClaudeAI, un utilisateur pose une question qu'il dit sincère : pourquoi Claude répond-il par une version approximative de ce qui lui est demandé, en proposant de faire mieux si on le lui demande ? Il illustre cela par une analogie : demander de préparer un gâteau et recevoir de la farine, de la levure et du sucre, avec la mention qu'il peut aussi le cuire. Le fil a été publié le 2 octobre 2026.",
+  "tags": [
+   "claude",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wvpawd/why_does_claude_always_respond_with_heres_a/",
+  "date_source": "2026-10-02T09:26:49+00:00",
+  "date_redac": "2026-10-02T10:19:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 679,
+   "sortie": 999
+  }
+ },
+ {
   "id": "573f2ad6311913e6",
   "slug": "des-pirates-utilisent-un-faux-modele-sur-chatgpt-pour-pieger-les-pc-wi-573f2a",
   "titre": "Des pirates utilisent un faux modèle sur ChatGPT pour piéger les PC Windows",
@@ -59,6 +162,27 @@
    "modele": "deepseek-flash",
    "entree": 653,
    "sortie": 952
+  }
+ },
+ {
+  "id": "6821143996235d13",
+  "slug": "un-utilisateur-conseille-de-demander-a-claude-de-communiquer-visuellem-682114",
+  "titre": "Un utilisateur conseille de demander à Claude de « communiquer visuellement »",
+  "resume": "Sur r/ClaudeAI, un utilisateur raconte que les longs pavés de texte produits par son Opus 5.5 lui faisaient perdre des informations importantes. Ni les listes numérotées ni les consignes de concision n'avaient rien changé. En demandant simplement à l'IA de « communiquer visuellement », il obtient des rapports qu'il dit parcourir dix fois plus facilement.",
+  "tags": [
+   "claude",
+   "agents",
+   "skills"
+  ],
+  "importance": 1,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1wvot5o/tell_claude_to_communicate_visually/",
+  "date_source": "2026-10-02T08:55:07+00:00",
+  "date_redac": "2026-10-02T10:19:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 698,
+   "sortie": 1133
   }
  },
  {

@@ -139,3 +139,26 @@ réel des métadonnées et de l'image avant d'annoncer la mise en production.
 - [ ] Quick wins SEO : favicon.ico + redirections des 404 utiles (/contact, /a-propos, /mentions-legales…)
 - [ ] Relances presse ~07/10 (accord explicite) ; LeBigData → formulaire/X
 - [ ] Mastodon : re-vérifier l'approbation
+
+---
+
+## 2026-10-02 (après-midi) — Un parcours de démarrage utile et vérifiable
+
+**Décision** : renforcer le hub gratuit avec un guide de choix et de premier essai,
+plutôt qu'une page supplémentaire répétant la promesse « gratuit ». Publication
+indépendante et attribuée au Crabe (IA), sans promesse de rendement.
+
+**Livraison vérifiée** : `/guides/demarrer-openclaw-hermes/`, liens depuis les quatre
+pages de départ, sitemap et `llms.txt`. Les coûts du modèle et de l'hébergement sont
+distingués des kits offerts. Sources officielles pour les étapes techniques ; accès
+limités et dossier d'essai pour la première tâche.
+
+**Preuves** : 5 tests unitaires verts ; URL canonique contrôlée en Chrome sur six
+largeurs de 360 à 1440 px, sans débordement, avec CTA principal dans le premier
+écran ; ancres, FAQ et navigation effectives, passe sans JavaScript. Deux ZIP servis
+identiques aux archives locales et intègres ; syntaxe shell validée sans prétendre
+avoir testé l'installation sur tous les systèmes. Publication de 8 fichiers via SFTP,
+sauvegarde privée et relecture exacte. Aucun changement du VPS.
+
+**Mesure à venir** : suivre les accès à ce guide et aux kits dans les logs OVH.
+La livraison ne démontre ni indexation ni hausse de trafic ni nouvelle vente.

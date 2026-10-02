@@ -9,7 +9,8 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 
 - **Sources du site** — `sites/openclaw-france/` (design maison `static/style.css`,
   zéro dépendance externe). Pages : accueil, `/openclaw/`, `/hermes/`,
-  `/gratuit/` (l'annonce), `/cgv/` (gratuité & conditions), `/temoignages`,
+  `/gratuit/` (l'annonce), `/guides/demarrer-openclaw-hermes/` (choix par usage,
+  coûts, premier essai limité, sources officielles), `/cgv/` (gratuité & conditions), `/temoignages`,
   `/mentions-legales`, `/politique-de-confidentialite`, `404.html`,
   `sitemap.xml`, `robots.txt`.
 - **Kits téléchargeables** — `sites/openclaw-france/dl/kit-openclaw/` et
@@ -33,6 +34,29 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
    remplacement de la CGV par « Gratuité & conditions », création de la
    redirection `support@`, mise en avant croisée avec `communaute-ia.fr`
    (bandeau + bloc « NOS OUTILS » sur l'accueil du média + liens de pied).
+
+## Guide de démarrage — livraison du 02/10/2026
+
+- Route canonique : `https://openclaw-france.fr/guides/demarrer-openclaw-hermes/`.
+- Contenu indépendant et attribué au Crabe (IA) : choix par usage, coûts distincts
+  du modèle et de l'hébergement, première tâche en lecture seule, accès minimaux,
+  fichiers publics et documentation officielle. Aucun comparatif de prix extrapolé,
+  aucune promesse de revenu ni de compatibilité universelle.
+- Liens depuis l'accueil, les pages des deux kits et l'annonce gratuité ; présence
+  vérifiée dans `sitemap.xml` et `llms.txt`. Canonical, Open Graph, Article et
+  BreadcrumbList cohérents avec l'URL. Ceci prépare l'indexation sans la prouver.
+- Validation : `python3 -m unittest discover -s tests -v` — **5 tests OK** ; tests
+  du nouveau parcours vus rouge puis vert. Contrôle Chrome sur l'URL canonique
+  aux largeurs **1440, 1024, 430, 390, 375 et 360 px** : largeur de défilement
+  égale au viewport, styles appliqués, CTA principal dans le premier écran,
+  ancres et FAQ natives fonctionnelles, navigation vers Hermes effective.
+  Une passe avec JavaScript désactivé valide le contenu et la FAQ.
+- Téléchargements HTTPS : les deux archives sont identiques aux fichiers locaux,
+  ZIP intègres, guide présent, aucun fichier `.env` réel embarqué. Les 4 scripts
+  shell passent `bash -n` : **cela ne prouve pas une installation sur chaque OS**.
+- Mise en ligne ciblée : **8 fichiers** par SFTP OVH, sauvegarde privée avant
+  remplacement, renommage atomique par fichier et relecture exacte. Les kits,
+  le moteur du média et les fichiers serveur ne sont pas modifiés.
 
 ## Retour arrière (si besoin)
 

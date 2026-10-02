@@ -1,0 +1,32 @@
+/* Le guide ajoute ses styles sans changer les autres pages du hub. */
+.page-guide a:focus-visible,.page-guide summary:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
+.skip-guide{position:absolute;top:-80px;left:16px;z-index:50;padding:12px 18px;background:var(--fond-2);border:2px solid var(--accent);border-radius:10px}
+.skip-guide:focus{top:12px}
+.fil-guide{display:flex;flex-wrap:wrap;gap:10px;font-size:13px;color:var(--texte-2);padding-top:24px}
+.page-guide .guide-heros{padding:42px 0 24px}
+.guide-meta{color:var(--texte-2);font-size:14px;margin:24px 0 10px}
+.guide-note{color:var(--texte-2);font-size:14px;max-width:820px;margin:18px auto 0}
+.sommaire-guide{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;padding:16px 0;border-top:1px solid var(--carte-bord);border-bottom:1px solid var(--carte-bord)}
+.sommaire-guide a{padding:10px 14px;border:1px solid var(--carte-bord);border-radius:10px;font-size:14px}
+.page-guide section[id],.page-guide li[id]{scroll-margin-top:90px}
+.page-guide .grille-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.page-guide .carte{min-width:0}
+.page-guide .bande p{max-width:920px}
+.page-guide .actions{display:flex;flex-wrap:wrap;gap:12px}
+.page-guide .btn{min-height:48px;justify-content:center;text-align:center}
+.page-guide code{font-size:.9em;background:rgba(255,255,255,.08);border-radius:5px;padding:3px 5px;overflow-wrap:anywhere}
+.page-guide sup a{padding:0 3px}
+.parcours-guide{list-style:none;counter-reset:parcours;display:grid;gap:16px;padding:0}
+.parcours-guide li{counter-increment:parcours;position:relative;padding:22px 24px 22px 76px;border:1px solid var(--carte-bord);border-radius:14px;background:var(--carte)}
+.parcours-guide li:before{content:counter(parcours);position:absolute;top:24px;left:22px;width:34px;height:34px;display:grid;place-items:center;border:1px solid var(--accent);border-radius:10px;color:var(--accent);font-weight:800}
+.parcours-guide h3{margin:0 0 10px;font-size:19px}
+.parcours-guide p{color:var(--texte-2);margin:0 0 12px}
+.parcours-guide p:last-child{margin-bottom:0}
+.parcours-guide blockquote{margin:14px 0;padding:16px;border-left:3px solid var(--accent);background:rgba(56,189,248,.06);border-radius:0 10px 10px 0}
+.sources-guide p,.sources-guide ol{color:var(--texte-2)}
+.sources-guide ol{padding-left:24px;margin-bottom:36px}
+.sources-guide li{padding:5px 0;overflow-wrap:anywhere}
+.page-guide .pied p{color:var(--texte-2);font-size:14px}
+@media(max-width:1000px){.page-guide .entete .wrap{height:auto;min-height:64px;flex-wrap:wrap;padding-top:12px;padding-bottom:12px}.page-guide .nav{margin-left:0;flex-wrap:wrap;gap:10px 18px}.page-guide .entete{position:static}}
+@media(max-width:760px){.page-guide .nav{display:flex}.page-guide .guide-heros{padding-top:30px}.page-guide .heros h1{font-size:clamp(30px,7.8vw,40px)}.page-guide .heros p.lead{font-size:17px}.page-guide .grille-2{grid-template-columns:1fr}.page-guide .carte{padding:22px}.page-guide .bande{padding:24px}.page-guide section{padding:34px 0}.page-guide .pied{grid-template-columns:1fr}.sommaire-guide{justify-content:flex-start}.parcours-guide li{padding:20px 20px 20px 62px}.parcours-guide li:before{left:14px}.page-guide .btn{max-width:100%;font-size:14px}.page-guide .btn-large{padding:14px 20px}.page-guide section[id],.page-guide li[id]{scroll-margin-top:16px}}
+@media(prefers-reduced-motion:reduce){.page-guide{scroll-behavior:auto}.page-guide .btn{transition:none}.page-guide .btn:hover{transform:none}}

@@ -1,5 +1,130 @@
 [
  {
+  "id": "0d474100a9b23657",
+  "slug": "swe-sweep-un-benchmark-ou-l-agent-chasse-les-bugs-avant-les-utilisateu-0d4741",
+  "titre": "SWE-sweep, un benchmark où l'agent chasse les bugs avant les utilisateurs",
+  "resume": "Un nouveau benchmark, SWE-sweep, propose de confier à un agent un large dépôt de code pour qu'il trouve et corrige un maximum de bugs par lui-même. Le score repose sur un ensemble caché de bugs réels, filtrés pour être détectables et corrigeables à la seule lecture du dépôt. Il est signé par des chercheurs de Meta, Stanford, Harvard et UW ; le classement s'étend encore à d'autres modèles locaux.",
+  "tags": [
+   "recherche",
+   "agents",
+   "dev",
+   "meta"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvxph8/new_benchmark_on_lms_fixing_bugs_before_users_run/",
+  "date_source": "2026-10-02T16:05:34+00:00",
+  "date_redac": "2026-10-02T16:10:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 840,
+   "sortie": 788
+  }
+ },
+ {
+  "id": "85aa31124e2fa229",
+  "slug": "anthropic-juge-glm-5-3-dangereux-et-defend-son-business-model-85aa31",
+  "titre": "Anthropic juge GLM-5.3 dangereux et défend son business model",
+  "resume": "Dans une analyse publiée le 29 septembre, Anthropic évalue le modèle chinois GLM-5.3, souligne les dangers qu'il présente et met en avant des résultats techniques préoccupants. L'entreprise à l'origine de Claude pose ensuite ses propres outils comme la réponse à ces risques. L'Usine Digitale y voit une démarche visant à protéger son business model et à empêcher la concurrence.",
+  "tags": [
+   "claude",
+   "sécurité",
+   "business"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/cybersecurite-anthropic-accuse-le-modele-chinois-glm-53-detre-dangereux-pour-proteger-son-business-model-et-empecher-la-competition.L5CPMKLMZVGO5IPPDTOG2K32MI.html",
+  "date_source": "2026-10-02T16:01:22+00:00",
+  "date_redac": "2026-10-02T16:10:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 751,
+   "sortie": 410
+  }
+ },
+ {
+  "id": "5b3f4af5a4caaf43",
+  "slug": "qwen3-8-27b-humanlike-chat-2-0-le-ton-humain-garde-les-tool-calls-repa-5b3f4a",
+  "titre": "Qwen3.8-27B Humanlike Chat 2.0 : le ton humain gardé, les tool calls réparés",
+  "resume": "Un LoRA pour Qwen3.8-27B fait parler le modèle comme une personne plutôt qu'un assistant : 700 votes, 248 commentaires et 44 000 téléchargements. Les critiques pointaient des réponses de quelques mots, une personnalité unique impossible à contourner et des appels d'outils inopérants. La version 2.0, travaillée pendant trois semaines, conserve ce ton et rend les tool calls fonctionnels, avec un meilleur suivi d'instructions.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvxl4n/qwen3827bhumanlikechat_20_texts_like_a_human_now/",
+  "date_source": "2026-10-02T16:00:50+00:00",
+  "date_redac": "2026-10-02T16:10:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 837,
+   "sortie": 710
+  }
+ },
+ {
+  "id": "f5a3722c5bb00cc9",
+  "slug": "la-mise-a-l-echelle-par-ia-debarque-sur-la-ps5-de-base-sony-l-ouvre-au-f5a372",
+  "titre": "La mise à l'échelle par IA débarque sur la PS5 de base, Sony l'ouvre aux studios",
+  "resume": "Réservée à la PS5 Pro depuis deux ans, la mise à l'échelle par intelligence artificielle arrive sur la PS5 de base, six ans après la sortie de la console. Deux jeux en profitent déjà, et Sony promet d'ouvrir sa technologie à tous les studios PlayStation. L'amélioration est proposée gratuitement aux joueurs.",
+  "tags": [
+   "matériel",
+   "société"
+  ],
+  "importance": 2,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/des-jeux-ps5-plus-beaux-que-jamais-comment-sony-va-doper-sa-console-gratuitement-6-ans-apres-sa-sortie.html",
+  "date_source": "2026-10-02T16:00:46+00:00",
+  "date_redac": "2026-10-02T16:10:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 689,
+   "sortie": 569
+  }
+ },
+ {
+  "id": "c121a30b302b7fbe",
+  "slug": "le-pape-leon-xiv-juge-l-art-genere-par-ia-sans-etincelle-humaine-c121a3",
+  "titre": "Le pape Léon XIV juge l'art généré par IA sans étincelle humaine",
+  "resume": "Le pape Léon XIV critique l'art produit par les machines, en y voyant une différence « ontologique, avant même qu'esthétique » avec l'art humain. Une machine, rappelle-t-il, génère par calcul statistique à partir de millions d'images créées par d'autres. « Les algorithmes n'ont pas l'étincelle de l'humanité », écrit-il.",
+  "tags": [
+   "société",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
+  "date_source": "2026-10-02T15:39:41+00:00",
+  "date_redac": "2026-10-02T16:11:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 638,
+   "sortie": 960
+  }
+ },
+ {
+  "id": "083b42e804fb6c35",
+  "slug": "strata-sur-une-5090-bridee-150-200-tok-s-avec-qwen3-8-flash-next-083b42",
+  "titre": "Strata sur une 5090 bridée : 150-200 tok/s avec Qwen3.8-Flash-Next",
+  "resume": "Sur r/LocalLLaMA, un utilisateur rapporte avoir fait tourner Strata sur une 5090 limitée en puissance, épaulée par 96 Go de DDR5-6400. Le modèle Qwen3.8-Flash-Next est servi en quantification IQ3_S avec un contexte de 128k tokens en 8 bits. La configuration atteint 150 à 200 tok/s en décodage et 5 000 à 6 000 en préfill, un repère pour l'inférence locale sur du matériel grand public.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvwssq/strata_on_a_power_limited_5090_and_96gb_of/",
+  "date_source": "2026-10-02T15:29:54+00:00",
+  "date_redac": "2026-10-02T16:11:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 668,
+   "sortie": 1433
+  }
+ },
+ {
   "id": "798fb1977f4a552a",
   "slug": "trump-a-interroge-grok-sur-le-venezuela-avant-la-capture-de-maduro-798fb1",
   "titre": "Trump a interrogé Grok sur le Venezuela avant la capture de Maduro",

@@ -1,0 +1,41 @@
+{
+ "slug": "agents-un-benchmark-pour-les-bugs-une-bataille-pour-la-couch-0d4741",
+ "titre": "Agents : un benchmark pour les bugs, une bataille pour la couche logicielle",
+ "chapo": "Un benchmark qui envoie un agent corriger seul les bugs d'un large dépôt, un modèle de code quantifié qui tient dans une carte de 24 Go, des agents qui prennent une persona chez OpenAI : en quelques jours, la course à l'IA s'est déplacée du modèle vers la couche qui le fait travailler.",
+ "html": "<h2 id=\"swe-sweep-la-chasse-aux-bugs-comme-epreu\">SWE-sweep : la chasse aux bugs comme épreuve</h2>\n<p>La proposition de <strong>SWE-sweep</strong> est simple à énoncer : confier à un agent un large dépôt de code et le laisser trouver et corriger un maximum de bugs par lui-même. Pas de consigne ligne à ligne, pas de piste fournie — l'agent explore, repère, répare. L'intérêt tient au périmètre : au lieu de micro-tâches isolées, il faut se débrouiller dans un dépôt entier, avec son organisation et ses conventions.</p>\n<p>Le score ne repose pas sur des cas de test écrits pour l'occasion, mais sur un <strong>ensemble caché de bugs réels</strong>, filtrés pour être détectables et corrigeables à la seule lecture du dépôt. Autrement dit : ce qu'un développeur pourrait repérer en lisant le code, sans rien exécuter.</p>\n<p>Le benchmark est signé par des chercheurs de <strong>Meta, Stanford, Harvard et UW</strong>, et son classement s'étend encore à d'autres modèles locaux — signe que l'exercice n'est pas réservé à une poignée de modèles propriétaires.</p>\n<h2 id=\"un-coder-de-27b-dans-une-seule-carte-24-\">Un coder de 27B dans une seule carte 24 Go</h2>\n<p>À côté des benchmarks, la question du matériel. Un utilisateur a publié sur <strong>Hugging Face</strong> une version quantifiée, <em>abliterated</em> et ajustée de <strong>Qwen3.8-27B Coder</strong>, en <strong>IQ4_XS avec imatrix</strong>, pour 18,35 Go — de quoi remplir une seule carte de 24 Go à environ <strong>240k tokens de contexte</strong>.</p>\n<p>Détail notable : la tête <strong>MTP</strong> est conservée en Q8_0, ce qui permet d'utiliser l'option --spec-type draft-mtp sans modèle draft séparé. Une façon de gagner en décodage sans empiler un second modèle sur la carte.</p>\n<p>Sur une <strong>RX 7900 XTX</strong>, l'utilisateur rapporte 36 à 41 tokens/s de décodage avec 110k à 170k tokens déjà en contexte, d'après 98 requêtes issues d'une session de codage agentique. Des chiffres déclaratifs, mais qui dessinent une tendance : faire tourner un agent de code costaud sur une seule carte grand public.</p>\n<h2 id=\"dots-et-pi-la-bataille-de-la-couche-logi\">Dots et Pi : la bataille de la couche logicielle</h2>\n<p>Chez <strong>OpenAI</strong>, les <strong>Dots</strong> lancés le 29 septembre assemblent des capacités déjà existantes — ChatGPT agent, tâches programmées, Pulse, workspace agents — sous une <strong>persona d'assistant</strong>. Le changement tient moins à la technique qu'à la posture : OpenAI humanise ses agents et ouvre la voie à une facturation à l'agent plutôt qu'au jeton. En France, l'accès passe par Business Premium ou la bêta Enterprise.</p>\n<p>En face, <strong>Pi</strong>. La société <strong>Earendil</strong> a publié le 1er octobre la première version stable de cet agent open source, remarqué sur Hacker News, qui entend tenir tête à <strong>Claude Code</strong> et <strong>Codex</strong>.</p>\n<p>Deux approches, une même couche disputée : celle du logiciel qui fait travailler le modèle. Moins visible que la course aux modèles, mais tout aussi stratégique.</p>\n<h2 id=\"l-etincelle-la-difference-ontologique\">L'étincelle, la différence ontologique</h2>\n<p>Le pape <strong>Léon XIV</strong> a critiqué l'art produit par les machines, y voyant une différence « <strong>ontologique, avant même qu'esthétique</strong> » avec l'art humain. Une machine, rappelle-t-il, génère par calcul statistique à partir de millions d'images créées par d'autres. « <strong>Les algorithmes n'ont pas l'étincelle de l'humanité</strong> », écrit-il.</p>\n<p>Le propos porte sur l'art, mais la distinction qu'il pose vaut pour la semaine : d'un côté des agents qui corrigent des bugs réels et tournent en local, de l'autre des personas d'assistant et des images générées.</p>\n<h2>Et maintenant ?</h2>\n<p>La semaine dessine plusieurs fronts qui ne se recouvrent pas tout à fait : mesurer ce qu'un agent sait réparer dans un dépôt, le faire tenir sur une carte de 24 Go, et décider sous quel visage il se présente à l'utilisateur — assistant nommé chez OpenAI, outil open source chez Earendil. Les benchmarks comme SWE-sweep déplacent l'évaluation vers le travail réel ; les quantifications publiées sur Hugging Face déplacent l'exécution vers le matériel local. Reste la question que Léon XIV pose à sa manière : ce que produit la machine et ce qu'y met l'humain ne se mesurent pas avec les mêmes outils.</p>",
+ "pivot": "0d474100a9b23657",
+ "tags": [
+  "agents",
+  "open-source",
+  "dev",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvxph8/new_benchmark_on_lms_fixing_bugs_before_users_run/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvtxkx/tunedabliterated_qwen3827b_into_a_24gb_card_262k/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/dots-un-bon-coup-produit-pas-une-rupture-technique/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2345455-pi-le-petit-agent-ia-autrichien-qui-veut-tenir-tete-a-claude-code-et-codex.html"
+  }
+ ],
+ "date": "2026-10-02T16:11:26+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1609,
+  "sortie": 3796
+ }
+}

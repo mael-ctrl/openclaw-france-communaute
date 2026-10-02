@@ -1,5 +1,90 @@
 [
  {
+  "id": "6c525646da833f27",
+  "slug": "tesla-model-3-ecran-16-pouces-et-v2l-en-chine-l-europe-attend-encore-6c5256",
+  "titre": "Tesla Model 3 : écran 16 pouces et V2L en Chine, l'Europe attend encore",
+  "resume": "Tesla a équipé toutes les Model 3 vendues en Chine d'un écran de 16 pouces, de nouvelles jantes et d'une fonction d'alimentation d'appareils électriques jusqu'à 2,2 kW. Les États-Unis ont reçu le nouvel écran 24 heures plus tard. L'Europe, pourtant livrée par la même usine de Shanghai, n'a encore rien reçu.",
+  "tags": [
+   "matériel",
+   "business",
+   "france"
+  ],
+  "importance": 2,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/vroom/2345537-ecran-16-pouces-nouvelles-jantes-et-v2l-la-tesla-model-3-progresse-en-chine-la-france-est-prochaine-sur-la-liste.html",
+  "date_source": "2026-10-02T11:30:00+00:00",
+  "date_redac": "2026-10-02T11:31:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 724,
+   "sortie": 740
+  }
+ },
+ {
+  "id": "3bb61afd3fd88b78",
+  "slug": "un-quant-low-bit-de-qwen-3-8-flash-pour-tourner-sur-un-seul-spark-3bb61a",
+  "titre": "Un quant low-bit de Qwen 3.8 Flash pour tourner sur un seul Spark",
+  "resume": "Un membre de r/LocalLLaMA publie un quant low-bit du modèle base Qwen 3.8 Flash, pensé pour tourner sur un seul Spark. Selon l'auteur, ce quant conserve 95 % de la précision b16 et ne subit pas de dégradation sur les contextes longs. Il laisse aussi la marge nécessaire pour faire tourner du 256k de contexte et du RoPE, avec un débit d'environ 40 tok/s. Les poids sont déposés sur Hugging Face.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvrbqc/qwen_38_flash_for_a_single_spark/",
+  "date_source": "2026-10-02T11:27:00+00:00",
+  "date_redac": "2026-10-02T11:31:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 710,
+   "sortie": 648
+  }
+ },
+ {
+  "id": "50a85332f1d7a64b",
+  "slug": "openai-lance-dots-des-agents-assembles-sous-une-persona-d-assistant-50a853",
+  "titre": "OpenAI lance Dots : des agents assemblés sous une persona d'assistant",
+  "resume": "Lancés le 29 septembre, les Dots d'OpenAI assemblent des capacités déjà existantes — ChatGPT agent, tâches programmées, Pulse, workspace agents — sous une persona d'assistant. Le changement tient moins à la technique qu'à la posture : OpenAI humanise ses agents et ouvre la voie à une facturation à l'agent plutôt qu'au jeton. En France, l'accès passe par Business Premium ou la bêta Enterprise.",
+  "tags": [
+   "openai",
+   "agents",
+   "business",
+   "france"
+  ],
+  "importance": 3,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/dots-un-bon-coup-produit-pas-une-rupture-technique/",
+  "date_source": "2026-10-02T11:24:20+00:00",
+  "date_redac": "2026-10-02T11:31:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 702,
+   "sortie": 678
+  }
+ },
+ {
+  "id": "1b2fc13bdcbc8973",
+  "slug": "qwen3-8-flash-next-sur-une-seule-r9700-863-t-s-en-prefill-34-7-t-s-en--1b2fc1",
+  "titre": "Qwen3.8-Flash-Next sur une seule R9700 : 863 t/s en prefill, 34,7 t/s en décodage",
+  "resume": "Sur r/LocalLLaMA, un utilisateur fait tourner Qwen3.8-Flash-Next sur une seule carte R9700, en exl3 5.05 bpw et avec le fork ROCm d'exllamav3. Il place 112 des 512 experts de chaque couche sur le GPU, les 400 autres sur le CPU via 16 threads, et lit en flux une table ngram de 102 Go depuis le NVMe. À 230k de contexte : 863 t/s en prefill sur les 101 000 nouveaux tokens, 34,7 t/s en décodage, acceptation MTP de 53-54 %.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvr77c/qwen38flashnext_505bpw_ngram_at_bf16_exl3_on_one/",
+  "date_source": "2026-10-02T11:19:52+00:00",
+  "date_redac": "2026-10-02T11:31:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 948,
+   "sortie": 1226
+  }
+ },
+ {
   "id": "c7ba655642641879",
   "slug": "trump-a-interroge-grok-sur-la-reaction-des-venezueliens-avant-la-captu-c7ba65",
   "titre": "Trump a interrogé Grok sur la réaction des Vénézuéliens avant la capture de Maduro",

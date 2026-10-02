@@ -1,5 +1,65 @@
 [
  {
+  "id": "c7ba655642641879",
+  "slug": "trump-a-interroge-grok-sur-la-reaction-des-venezueliens-avant-la-captu-c7ba65",
+  "titre": "Trump a interrogé Grok sur la réaction des Vénézuéliens avant la capture de Maduro",
+  "resume": "D'après le magazine Time, Donald Trump a demandé à Grok, le chatbot d'Elon Musk, comment les Vénézuéliens réagiraient à la capture de Nicolás Maduro. La question aurait été posée en décembre 2025, soit un mois avant l'opération. Le président américain en serait ressorti convaincu que cette IA était « ingénieuse ».",
+  "tags": [
+   "société",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/politique/2345489-avant-la-capture-de-maduro-trump-a-demande-a-grok-comment-les-venezueliens-reagiraient.html",
+  "date_source": "2026-10-02T10:30:00+00:00",
+  "date_redac": "2026-10-02T10:50:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 696,
+   "sortie": 558
+  }
+ },
+ {
+  "id": "52588211739091c5",
+  "slug": "llama-cpp-une-pr-ajoute-une-api-v1-systemone-et-cinq-modeles-gguf-525882",
+  "titre": "llama.cpp : une PR ajoute une API /v1/systemone et cinq modèles GGUF",
+  "resume": "La pull request #29818, signée ngxson, ajoute une API /v1/systemone au serveur de ggml-org/llama.cpp. Elle concerne cinq modèles : laya, julia-1, lev, openjev et kev. Leurs versions GGUF sont déjà disponibles sur Hugging Face, sous l'organisation ggml-org.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvqbrz/llama_server_add_v1systemone_api_models_laya/",
+  "date_source": "2026-10-02T10:29:47+00:00",
+  "date_redac": "2026-10-02T10:50:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 753,
+   "sortie": 792
+  }
+ },
+ {
+  "id": "bc70bfc71cb58191",
+  "slug": "samsung-augmente-les-prix-de-ses-galaxy-a-en-france-jusqu-a-70-euros-d-bc70bf",
+  "titre": "Samsung augmente les prix de ses Galaxy A en France, jusqu'à 70 euros de plus",
+  "resume": "Samsung a relevé le prix de presque tous ses Galaxy A sur sa boutique française, avec des hausses allant de 10 à 70 euros par rapport aux tarifs de lancement. Le Galaxy A17 5G, le moins cher de la liste, passe ainsi de 229 à 299 euros. C'est donc l'entrée de gamme qui encaisse la plus forte augmentation.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/3270347_samsung-augmente-les-prix-de-ses-galaxy-a-et-cest-le-modele-le-moins-cher-qui-prend-le-plus-cher",
+  "date_source": "2026-10-02T10:29:19+00:00",
+  "date_redac": "2026-10-02T10:50:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 677,
+   "sortie": 347
+  }
+ },
+ {
   "id": "78dd3b6a79b7a15a",
   "slug": "pi-l-agent-ia-open-source-autrichien-qui-defie-claude-code-et-codex-78dd3b",
   "titre": "Pi, l'agent IA open source autrichien qui défie Claude Code et Codex",
@@ -80,6 +140,26 @@
    "modele": "deepseek-flash",
    "entree": 657,
    "sortie": 482
+  }
+ },
+ {
+  "id": "92000e2f5683cf6a",
+  "slug": "generer-de-la-video-avec-muse-spark-1-3-gratuit-sur-opencode-92000e",
+  "titre": "Générer de la vidéo avec muse spark 1.3, gratuit sur opencode",
+  "resume": "Sur r/LocalLLaMA, un utilisateur raconte avoir vu des personnes générer des vidéos avec Opus 5.5, puis avoir tenté la même chose avec des modèles gratuits. Selon lui, muse spark 1.3 utilisé dans opencode donne un résultat moins parfait qu'Opus 5.5, mais fait du bon travail, et reste gratuit pour l'instant.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvpjoi/have_you_tried_generating_video_with_muse_13_free/",
+  "date_source": "2026-10-02T09:42:18+00:00",
+  "date_redac": "2026-10-02T10:50:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 703,
+   "sortie": 580
   }
  },
  {

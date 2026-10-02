@@ -1,5 +1,130 @@
 [
  {
+  "id": "6caf3c57cef16770",
+  "slug": "rtx-5090-une-declaration-de-non-export-demandee-chez-micro-center-6caf3c",
+  "titre": "RTX 5090 : une déclaration de non-export demandée chez Micro Center",
+  "resume": "Selon un post publié le 2 octobre 2026 sur r/LocalLLaMA, l'achat d'une RTX 5090 chez le revendeur Micro Center serait désormais soumis à des formalités, dont une déclaration de non-export. L'information est rapportée par un membre du forum et n'a pas été confirmée. La RTX 5090 est très demandée pour faire tourner des modèles d'IA en local.",
+  "tags": [
+   "matériel",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1ww4hne/buying_rtx_5090_at_micro_center_reportedly_now/",
+  "date_source": "2026-10-02T20:35:45+00:00",
+  "date_redac": "2026-10-02T20:53:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 657,
+   "sortie": 1252
+  }
+ },
+ {
+  "id": "bb34c87f1215e410",
+  "slug": "amd-met-a-jour-le-ryzen-ai-developer-platform-os-avec-rocm-10-0-et-lin-bb34c8",
+  "titre": "AMD met à jour le Ryzen AI Developer Platform OS avec ROCm 10.0 et Linux 7.2",
+  "resume": "AMD a publié une mise à jour du système d'exploitation de sa Ryzen AI Developer Platform. Cette nouvelle version embarque ROCm 10.0 ainsi que Linux 7.2. L'information a été relayée sur le subreddit r/LocalLLaMA, où elle concerne directement les développeurs qui font tourner des modèles d'IA en local sur du matériel AMD.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1ww49o9/amd_ryzen_ai_developer_platform_os_updated_with/",
+  "date_source": "2026-10-02T20:26:41+00:00",
+  "date_redac": "2026-10-02T20:53:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 627,
+   "sortie": 617
+  }
+ },
+ {
+  "id": "d725f95fa6a3b9c5",
+  "slug": "claude-code-v2-1-288-recuperation-des-prompts-annules-et-gh-api-integr-d725f9",
+  "titre": "Claude Code v2.1.288 : récupération des prompts annulés et gh api intégré",
+  "resume": "La version 2.1.288 de Claude Code apporte plusieurs ajustements d'usage. Un prompt effacé par Ctrl+C peut désormais être restauré en pressant la flèche haut sur un champ vide, textes collés et images compris. Les sessions cloud sans GitHub CLI disposent d'un gh api intégré, et une invite de réauthentification apparaît lorsqu'un serveur MCP réclame davantage de portée OAuth pendant un appel d'outil.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+  "date_source": "2026-10-02T20:19:57+00:00",
+  "date_redac": "2026-10-02T20:54:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 781,
+   "sortie": 849
+  }
+ },
+ {
+  "id": "ddc606f6e799cb04",
+  "slug": "microsoft-met-en-ligne-frognano-4b-2609-un-modele-agentique-pour-gpu-m-ddc606",
+  "titre": "Microsoft met en ligne FrogNano-4B-2609, un modèle agentique pour GPU modestes",
+  "resume": "Microsoft met en ligne FrogNano-4B-2609, un modèle agentique pour GPU modestes. Dérivé de Qwen3.5-4B, il reprend son architecture dense à 32 couches, mais son post-entraînement, textuel, cible l'ingénierie logicielle au niveau du dépôt. L'apprentissage par renforcement s'appuie sur environ 1 500 environnements de tâches SWE synthétiques générés via TaskPilot, avec le harnais Leaf et des récompenses fondées sur des tests.",
+  "tags": [
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1ww40o2/microsoftfrognano4b2609_hugging_face/",
+  "date_source": "2026-10-02T20:16:26+00:00",
+  "date_redac": "2026-10-02T20:54:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 829,
+   "sortie": 1259
+  }
+ },
+ {
+  "id": "8dab0d79a85ed1b4",
+  "slug": "apple-va-limiter-l-acces-complet-au-disque-sur-mac-face-aux-risques-de-8dab0d",
+  "titre": "Apple va limiter l'accès complet au disque sur Mac face aux risques des agents IA",
+  "resume": "Apple s'apprête à restreindre l'accès complet au disque (« full disk access ») sur Mac, en réponse aux risques que font peser les agents IA. Dans une mise à jour publiée vendredi, le constructeur indique déployer de nouveaux contrôles pour que seuls les utilisateurs souhaitant réellement accorder ce niveau d'accès exceptionnel à une application puissent le faire.",
+  "tags": [
+   "agents",
+   "sécurité",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+  "date_source": "2026-10-02T20:08:40+00:00",
+  "date_redac": "2026-10-02T20:54:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 659,
+   "sortie": 431
+  }
+ },
+ {
+  "id": "2b6ad35bde385aae",
+  "slug": "self-hosting-ia-ca-ne-fait-pas-economiser-d-argent-et-il-le-fait-quand-2b6ad3",
+  "titre": "Self-hosting IA : ça ne fait pas économiser d'argent, et il le fait quand même",
+  "resume": "Sur r/LocalLLaMA, l'utilisateur basnijholt écrit que faire tourner ses propres modèles d'IA ne revient pas moins cher. Il le fait quand même, notamment pour la confidentialité : il refuse d'envoyer 200 Go d'e-mails, de messages et d'historique de localisation à une API, même avec zéro rétention des données. Il juge aussi peu pertinente la comparaison entre un abonnement à 200 $ (Opus 5.5, Astra) et un Qwen 3.8 27B local.",
+  "tags": [
+   "open-source",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1ww2jsu/selfhosting_ai_does_not_save_money_and_i_do_it/",
+  "date_source": "2026-10-02T19:17:01+00:00",
+  "date_redac": "2026-10-02T20:54:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 799,
+   "sortie": 834
+  }
+ },
+ {
   "id": "0d474100a9b23657",
   "slug": "swe-sweep-un-benchmark-ou-l-agent-chasse-les-bugs-avant-les-utilisateu-0d4741",
   "titre": "SWE-sweep, un benchmark où l'agent chasse les bugs avant les utilisateurs",

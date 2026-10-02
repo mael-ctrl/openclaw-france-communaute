@@ -1,0 +1,41 @@
+{
+ "slug": "rocm-10-0-frognano-swe-sweep-l-ia-locale-et-ses-garde-fous-bb34c8",
+ "titre": "ROCm 10.0, FrogNano, SWE-sweep : l'IA locale et ses garde-fous",
+ "chapo": "AMD publie une mise à jour de sa Ryzen AI Developer Platform avec ROCm 10.0 et Linux 7.2, pendant que Microsoft met en ligne FrogNano-4B-2609, un modèle agentique taillé pour les GPU modestes. En parallèle, un nouveau benchmark mesure les agents qui corrigent les bugs, et Apple resserre l'accès au disque sur Mac.",
+ "html": "<h2 id=\"amd-remet-a-jour-sa-plateforme-developpe\">AMD remet à jour sa plateforme développeurs</h2>\n<p>AMD a publié une mise à jour du système d'exploitation de sa <strong>Ryzen AI Developer Platform</strong>. Cette version embarque <strong>ROCm 10.0</strong> ainsi que <strong>Linux 7.2</strong>. L'information a été relayée sur r/LocalLLaMA, où elle concerne directement les développeurs qui font tourner des modèles d'IA en local sur du matériel AMD.</p>\n<p>Sur le même subreddit, un utilisateur a mis en ligne une version <strong>quantifiée, abliterated et ajustée</strong> de Qwen3.8-27B Coder. Le fichier, en <strong>IQ4_XS avec imatrix</strong>, pèse 18,35 Go et vise une seule carte de 24 Go à environ 240k tokens de contexte. Détail notable : la tête MTP est conservée en Q8_0, ce qui permet d'utiliser `--spec-type draft-mtp` sans modèle draft séparé.</p>\n<p>Les mesures annoncées portent sur une <strong>RX 7900 XTX</strong> : 36 à 41 tokens/s en décodage, avec 110k à 170k tokens déjà en contexte, d'après 98 requêtes issues d'une session de codage agentique. Deux publications, donc, qui parlent du même terrain : ce qu'on peut réellement faire tourner sur une machine locale.</p>\n<h2 id=\"frognano-4b-2609-un-agent-pour-gpu-modes\">FrogNano-4B-2609, un agent pour GPU modestes</h2>\n<p>Microsoft met en ligne <strong>FrogNano-4B-2609</strong>, un modèle agentique présenté comme taillé pour les GPU modestes. Il dérive de <strong>Qwen3.5-4B</strong> et reprend son architecture dense à <strong>32 couches</strong>.</p>\n<p>La différence se joue après l'entraînement. Le post-entraînement, textuel, cible l'<strong>ingénierie logicielle au niveau du dépôt</strong>. L'apprentissage par renforcement s'appuie sur environ <strong>1 500 environnements de tâches SWE synthétiques</strong>, générés via <strong>TaskPilot</strong>, avec le harnais <strong>Leaf</strong> et des récompenses fondées sur des tests.</p>\n<p>Autrement dit : un petit modèle, mais entraîné pour un usage précis, celui de l'agent qui intervient sur un dépôt de code. Le nombre de paramètres n'est plus le seul critère — la nature des environnements d'entraînement pèse au moins autant.</p>\n<h2 id=\"swe-sweep-noter-les-bugs-que-l-agent-tro\">SWE-sweep : noter les bugs que l'agent trouve seul</h2>\n<p>Un nouveau benchmark, <strong>SWE-sweep</strong>, propose de confier à un agent un large dépôt de code pour qu'il trouve et corrige un maximum de bugs par lui-même. Le score repose sur un <strong>ensemble caché de bugs réels</strong>, filtrés pour être détectables et corrigeables à la seule lecture du dépôt.</p>\n<p>Le benchmark est signé par des chercheurs de <strong>Meta, Stanford, Harvard et UW</strong>. Le classement s'étend encore à d'autres modèles locaux.</p>\n<p>Le point intéressant tient au protocole : il ne s'agit pas de faire passer un test isolé à un modèle, mais de le lâcher dans un dépôt entier avec une consigne ouverte. C'est exactement le cadre que visent FrogNano-4B-2609 et les modèles de code quantifiés cités plus haut — un agent qui lit, cherche et corrige, avant que les utilisateurs ne tombent sur le bug.</p>\n<h2 id=\"apple-resserre-l-acces-complet-au-disque\">Apple resserre l'accès complet au disque</h2>\n<p>Apple s'apprête à restreindre l'<strong>accès complet au disque</strong> (« full disk access ») sur Mac, en réponse aux risques que font peser les agents IA. Dans une mise à jour publiée vendredi, le constructeur indique déployer de <strong>nouveaux contrôles</strong> pour que seuls les utilisateurs souhaitant réellement accorder ce niveau d'accès exceptionnel à une application puissent le faire.</p>\n<p>Cet accès est exceptionnel par nature : il ouvre à une application des portions du système normalement hors de sa portée. Le sujet devient sensible à mesure que des agents — y compris des agents de code — se voient confier des tâches longues et autonomes sur un ordinateur personnel.</p>\n<p>Rien, dans l'annonce, n'indique de changement pour les développeurs qui font tourner leurs modèles en local. Mais la logique est claire : plus les agents agissent seuls, plus les permissions qu'on leur donne deviennent un point de friction.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches de la semaine dessinent deux mouvements parallèles. D'un côté, l'IA locale gagne du terrain : plateforme AMD à jour, quantification qui tient dans une carte de 24 Go, petits modèles agentiques entraînés sur des dépôts de code. De l'autre, les garde-fous se durcissent, Apple en tête, sur les permissions accordées aux agents. Entre les deux reste la question de la mesure, que SWE-sweep propose de trancher sur des bugs réels, cachés, corrigeables à la seule lecture d'un dépôt.</p>",
+ "pivot": "bb34c87f1215e410",
+ "tags": [
+  "agents",
+  "dev",
+  "matériel",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww49o9/amd_ryzen_ai_developer_platform_os_updated_with/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww40o2/microsoftfrognano4b2609_hugging_face/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvxph8/new_benchmark_on_lms_fixing_bugs_before_users_run/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvtxkx/tunedabliterated_qwen3827b_into_a_24gb_card_262k/"
+  }
+ ],
+ "date": "2026-10-02T20:54:39+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1652,
+  "sortie": 4423
+ }
+}

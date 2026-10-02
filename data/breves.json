@@ -1,5 +1,130 @@
 [
  {
+  "id": "b185a1507e17c1e2",
+  "slug": "ling-3-1-flash-se-classe-2e-de-la-mobile-app-arena-de-design-arena-b185a1",
+  "titre": "Ling-3.1-flash se classe 2e de la Mobile App Arena de Design Arena",
+  "resume": "Le modèle Ling-3.1-flash fait son entrée à la deuxième place de la Mobile App Arena de Design Arena, dans la catégorie des modèles à poids ouverts. L'auteur du post publié sur r/LocalLLaMA note que peu de modèles ouverts se sont récemment attaqués à la génération d'applications mobiles avec un succès correct. Il y voit un pas dans la bonne direction et demande si d'autres personnes ont testé Ling-3.1-flash.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvh4y4/ling31flash_debuts_2nd_on_design_arenas_mobile/",
+  "date_source": "2026-10-02T01:30:49+00:00",
+  "date_redac": "2026-10-02T02:31:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 673,
+   "sortie": 501
+  }
+ },
+ {
+  "id": "f876e623af1fba10",
+  "slug": "une-radio-locale-generee-par-trois-llm-sur-dgx-spark-et-rtx-5090-f876e6",
+  "titre": "Une radio locale générée par trois LLM, sur DGX Spark et RTX 5090",
+  "resume": "Sur r/LocalLLaMA, l'utilisateur jwhh91 présente pilgrim.farm, une radio dont la musique, les voix et les effets sonores loufoques sont produits par trois modèles locaux. Le tout tourne sur une pile matérielle composée de deux DGX Spark, d'une RTX 5090 et d'une RTX 4070 Ti. L'auteur garde le ton potache : « c'est plus une ferme qu'un pèlerin ».",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvg5hn/i_built_a_local_llm_radio_like_the_pharaohs_built/",
+  "date_source": "2026-10-02T00:43:55+00:00",
+  "date_redac": "2026-10-02T02:31:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 686,
+   "sortie": 629
+  }
+ },
+ {
+  "id": "511f05a8b08ca6ad",
+  "slug": "perplexity-decider-27b-un-modele-de-decision-a-poids-ouverts-511f05",
+  "titre": "Perplexity Decider 27B : un modèle de décision à poids ouverts",
+  "resume": "Le forum r/LocalLLaMA relaie Perplexity Decider 27B, un modèle de décision à poids ouverts. Il s'agit d'un affinage de Qwen3.8 27B, annoncé par l'utilisateur u/rm-rf-rm. Les poids étant ouverts, le modèle peut être téléchargé et réutilisé.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvfz9n/perplexity_decider_27b_open_weights_decision/",
+  "date_source": "2026-10-02T00:35:39+00:00",
+  "date_redac": "2026-10-02T02:31:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 658,
+   "sortie": 1302
+  }
+ },
+ {
+  "id": "d01b6c1da806272d",
+  "slug": "openclaw-2026-8-34-113-correctifs-dans-une-extended-stable-d01b6c",
+  "titre": "OpenClaw 2026.8.34 : 113 correctifs dans une extended-stable",
+  "resume": "OpenClaw publie la 2026.8.34, une « extended-stable », l'équivalent actuel du LTS. Elle reprend l'état du projet fin août 2026, avec les correctifs de sécurité critiques, des correctifs de fiabilité et de performance, et le support de nouveaux modèles. Elle embarque 113 unités de correctifs retenues par audit et durcit les mises à niveau en préservant identifiants, état des agents, plugins et transcriptions.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "sécurité",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.8.34",
+  "date_source": "2026-10-02T00:13:33+00:00",
+  "date_redac": "2026-10-02T02:32:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 813,
+   "sortie": 1201
+  }
+ },
+ {
+  "id": "9faec4b2d2ec0709",
+  "slug": "pi-1-0-le-support-de-mcp-desormais-inclus-par-defaut-9faec4",
+  "titre": "Pi 1.0 : le support de MCP désormais inclus par défaut",
+  "resume": "Le projet Pi atteint la version 1.0, selon une annonce publiée le 2 octobre 2026 sur le forum r/LocalLLaMA. Le support de MCP est désormais inclus par défaut dans cette version. La publication, soumise par l'utilisateur psychohistorian8, renvoie vers un lien externe et n'apporte pas d'autre précision sur le contenu de la mise à jour.",
+  "tags": [
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvffcr/pi_10_released_mcp_support_now_included_by_default/",
+  "date_source": "2026-10-02T00:09:04+00:00",
+  "date_redac": "2026-10-02T02:32:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 619,
+   "sortie": 1441
+  }
+ },
+ {
+  "id": "6baa3769cd2f46e8",
+  "slug": "openclaw-un-correctif-pour-conserver-le-publisher-npm-admis-lors-d-une-6baa37",
+  "titre": "OpenClaw : un correctif pour conserver le publisher npm admis lors d'une reprise",
+  "resume": "Le dépôt OpenClaw a publié le 1er octobre 2026, à 23h36 UTC, une entrée de release sur GitHub intitulée release-publish/bd058c2d9999-1790897806. La note décrit un correctif (« fix ») référencé #163082, dont l'objet est de conserver le publisher npm admis lors d'une reprise de publication. Le changement porte donc sur la mécanique de publication npm du projet, côté outillage de release.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fbd058c2d9999-1790897806",
+  "date_source": "2026-10-01T23:36:03+00:00",
+  "date_redac": "2026-10-02T02:32:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 617,
+   "sortie": 839
+  }
+ },
+ {
   "id": "d56c7ab4a2d00646",
   "slug": "openclaw-corrige-la-verification-de-propriete-des-chunks-publies-herit-d56c7a",
   "titre": "OpenClaw corrige la vérification de propriété des chunks publiés hérités",

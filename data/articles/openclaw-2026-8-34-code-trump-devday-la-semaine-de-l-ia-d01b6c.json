@@ -1,0 +1,41 @@
+{
+ "slug": "openclaw-2026-8-34-code-trump-devday-la-semaine-de-l-ia-d01b6c",
+ "titre": "OpenClaw 2026.8.34, code Trump, DevDay : la semaine de l'IA",
+ "chapo": "Une extended-stable qui agrège 113 correctifs, un code de bonne conduite américain à l'adhésion libre, des agents OpenAI annoncés comme continus : la semaine mêle durcissement industriel et effets d'annonce. Côté modèles locaux, deux benchmarks rappellent qu'un chiffre ne vaut que par le protocole qui l'accompagne.",
+ "html": "<h2 id=\"openclaw-2026-8-34-113-correctifs-passes\">OpenClaw 2026.8.34 : 113 correctifs passés au filtre de l'audit</h2>\n<p>OpenClaw publie la <strong>2026.8.34</strong>, une « extended-stable », l'équivalent actuel du LTS. La release reprend l'état du projet <strong>fin août 2026</strong> et y agrège les correctifs de sécurité critiques, les correctifs de fiabilité et de performance, ainsi que le support de nouveaux modèles.</p>\n<p>Le chiffre mis en avant est celui des <strong>113 unités de correctifs retenues par audit</strong>. Autrement dit, un tri a été opéré en amont plutôt qu'un simple empilement de commits. Cette sélection porte sur trois familles distinctes — sécurité, fiabilité, performance — auxquelles s'ajoute l'arrivée de nouveaux modèles pris en charge.</p>\n<p>La mise à niveau est également durcie sur un point sensible : elle préserve les identifiants, l'état des agents, les plugins et les transcriptions. Pour un projet qui manipule ces quatre objets, la promesse d'une montée de version qui ne casse pas l'existant est au moins aussi structurante que le contenu du changelog.</p>\n<h2 id=\"trump-presente-un-code-de-bonne-conduite\">Trump présente un code de bonne conduite à quatre niveaux</h2>\n<p>En présence des principaux acteurs américains de l'IA, <strong>Donald Trump</strong> a présenté un code de bonne conduite destiné à encadrer le développement du secteur. Le texte prévoit <strong>quatre niveaux de régulation</strong>.</p>\n<p>L'adhésion reste volontaire : chaque entreprise est libre d'y souscrire. Mais celles qui signent doivent alors instaurer <strong>leurs propres mesures de contrôle</strong>. Le dispositif repose donc en partie sur les acteurs eux-mêmes, à la fois destinataires et exécutants des règles.</p>\n<p>Ce qui est acté, c'est le principe d'une adhésion libre adossée à des contrôles internes, avec une gradation en quatre niveaux. La dépêche ne détaille pas ce que recouvrent concrètement ces paliers, ni comment ils s'articulent entre eux.</p>\n<h2 id=\"devday-openai-annonce-des-agents-qui-ne-\">DevDay : OpenAI annonce des agents qui ne s'arrêtent pas</h2>\n<p>Au DevDay, <strong>OpenAI</strong> a annoncé des <strong>agents capables de travailler en continu</strong>, un nouveau modèle <strong>moins coûteux</strong>, une inférence accélérée et une évolution de <strong>Codex</strong>. S'y ajoutent un espace de travail collaboratif, de nouvelles briques pour les développeurs et un renforcement de la sécurité et de la confidentialité.</p>\n<p>L'annonce des agents continus déplace la question : il ne s'agit plus seulement de ce qu'un modèle sait produire à la demande, mais de ce qu'il fait d'un état persistant entre deux sollicitations. Le modèle moins coûteux et l'inférence accélérée vont dans le même sens, celui d'un usage répété plutôt que ponctuel.</p>\n<p>Ces annonces dessinent une stratégie face à <strong>Anthropic</strong> et aux ambitions de <strong>Meta</strong> dans l'agentique personnelle. Trois acteurs, trois approches d'un même terrain : l'agent qui dure.</p>\n<h2 id=\"deux-benchmarks-deux-chiffres-a-lire-ave\">Deux benchmarks, deux chiffres à lire avec précaution</h2>\n<p>Sur r/LocalLLaMA, un utilisateur a testé <strong>Gufo 0.4.0</strong> via son image podman, sur <strong>Qwen3.8 27B</strong> en Q4, avec le modèle de draft <strong>DFlash2</strong> et le script de benchmark fourni par le projet. Résultat : <strong>70,22 tok/s</strong>, conforme au chiffre affiché sur le GitHub de Gufo. Sauf que le prompt demandé était « écrire le mot red exactement 1000 fois », et que toute la vitesse vient du <strong>speculative decoding</strong> — le draft devine environ 7 tokens d'avance. Le chiffre est donc atteint, mais il mesure surtout le régime dans lequel le draft excelle.</p>\n<p>Second comparatif, autre terrain : le pré-entraînement. Un utilisateur a loué deux machines sur Vast.ai, l'une en <strong>DDR4/PCIe4</strong> (EPYC 7352, 192 Go de RAM, 26,3 Go/s), l'autre en <strong>DDR5/PCIe5</strong> (9975WX, 256 Go, 54,3 Go/s). À nombre de GPU égal, la seconde est <strong>15 à 20 % plus rapide</strong>.</p>\n<p>Mais au prix actuel de la RAM, 256 Go de DDR5 à 6400 MT/s coûtent <strong>une RTX PRO 6000 WS/Max-Q de plus</strong>. À budget constant, l'écart de débit s'inverse en faveur du DDR4/PCIe4. Deux mesures honnêtes, deux conclusions qui dépendent entièrement de ce qu'on met dans l'équation.</p>\n<h2>Et maintenant ?</h2>\n<p>Une extended-stable, un cadre politique volontaire, des agents annoncés comme continus et deux benchmarks locaux : la semaine ne raconte pas une seule histoire. Elle montre plutôt où se déplace l'effort. D'un côté, on audite, on trie, on garantit que la mise à jour ne détruira pas les identifiants ni les transcriptions. De l'autre, on écrit un cadre que personne n'est obligé de signer, avec quatre niveaux et des contrôles laissés aux entreprises. Et pendant ce temps, un tok/s sans mention du prompt et un gain de 15 % sans facture de RAM rappellent qu'un chiffre publié ne dit rien tant qu'on ignore ce qu'il a coûté.</p>",
+ "pivot": "d01b6c1da806272d",
+ "tags": [
+  "openclaw",
+  "openai",
+  "agents",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "OpenClaw (releases)",
+   "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.8.34"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/pour-encadrer-lia-donald-trump-devoile-un-code-de-bonne-conduite.html"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/openai/devday-openai-peut-il-rattraper-anthropic-et-contrer-les-ambitions-de-meta-dans-lagentique-personnelle.TYN5VZ2N2VGTHIPRVRYQPTGWLM.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvbmi6/gufo_performance_70tps_qwen_38_27b_but_you_need/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvaqeb/ddr4pcie4_vs_ddr5pcie5_for_llms_i_benchmarked/"
+  }
+ ],
+ "date": "2026-10-02T02:32:32+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1700,
+  "sortie": 3814
+ }
+}

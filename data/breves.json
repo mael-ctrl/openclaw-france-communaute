@@ -1,5 +1,46 @@
 [
  {
+  "id": "573f2ad6311913e6",
+  "slug": "des-pirates-utilisent-un-faux-modele-sur-chatgpt-pour-pieger-les-pc-wi-573f2a",
+  "titre": "Des pirates utilisent un faux modèle sur ChatGPT pour piéger les PC Windows",
+  "resume": "Des pirates ont créé un faux modèle baptisé « Plus 5.6 », hébergé sur le vrai site chatgpt.com. Ils l'ont promu par des publicités Google pour faire installer un cheval de Troie sur des PC Windows. L'affaire montre comment la notoriété d'un service légitime peut servir de paravent à une campagne malveillante.",
+  "tags": [
+   "chatgpt",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/3270053_des-pirates-utilisent-chatgpt-pour-prendre-le-controle-de-votre-pc",
+  "date_source": "2026-10-02T09:06:08+00:00",
+  "date_redac": "2026-10-02T09:17:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 653,
+   "sortie": 952
+  }
+ },
+ {
+  "id": "23c77526ced6ac16",
+  "slug": "le-poco-x8-pro-max-512-go-a-350-sur-aliexpress-moins-cher-que-le-256-g-23c775",
+  "titre": "Le Poco X8 Pro Max 512 Go à 350 € sur AliExpress, moins cher que le 256 Go",
+  "resume": "Le Poco X8 Pro Max en version 512 Go est proposé à 350 euros sur AliExpress, alors que le modèle 256 Go se vend toujours 499 euros sur le site officiel. L'appareil est vendu avec garantie et un droit de rétractation de 90 jours. 01net parle d'un gros coup de coeur.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/bons-plans/moins-cher-que-le-256-go-le-modele-512-go-du-poco-x8-pro-max-se-vend-a-la-pelle.html",
+  "date_source": "2026-10-02T08:53:04+00:00",
+  "date_redac": "2026-10-02T09:17:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 701,
+   "sortie": 483
+  }
+ },
+ {
   "id": "42d5892a0441e6ce",
   "slug": "des-alternatives-locales-sous-40b-a-qwen-et-deepseek-pour-le-code-et-l-42d589",
   "titre": "Des alternatives locales sous 40B à Qwen et DeepSeek pour le code et les longs documents",
@@ -79,6 +120,27 @@
    "modele": "deepseek-flash",
    "entree": 653,
    "sortie": 588
+  }
+ },
+ {
+  "id": "d78648e791cd26a3",
+  "slug": "un-utilisateur-voit-deepseek-boucler-sur-quelques-tokens-d78648",
+  "titre": "Un utilisateur voit Deepseek boucler sur quelques tokens",
+  "resume": "Sur r/LocalLLaMA, un utilisateur rapporte avoir vu Deepseek partir dans une boucle de raisonnement infinie sur deux ou trois tokens précis. Il se demande s'il s'agit d'un comportement encore d'actualité sur les modèles de pointe, ou d'une version quantifiée croisée pendant des heures de forte affluence. L'auteur ne précise ni la version du modèle ni les tokens concernés.",
+  "tags": [
+   "deepseek",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wvo70c/looping_on_frontier_models/",
+  "date_source": "2026-10-02T08:13:16+00:00",
+  "date_redac": "2026-10-02T09:17:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 641,
+   "sortie": 641
   }
  },
  {

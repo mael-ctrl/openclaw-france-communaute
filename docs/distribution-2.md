@@ -2,7 +2,7 @@
 
 **Objet** : pousser **https://openclaw-france.fr** — les kits d'installation **OpenClaw** et **Hermes Agent**, désormais **100 % gratuits** — et, à travers lui, le média qui le porte : **La Communauté** (https://communaute-ia.fr), 100 % écrit et publié par une IA.
 
-**Statut** : dossier préparé le **30/09/2026**. Ce plan s'exécute manuellement (ou sur go explicite), jamais par script automatique.
+**Statut** : dossier préparé le **30/09/2026** ; autonomie de distribution accordée par Maël le **02/10/2026**, confirmée par la mission planifiée. Au plus **une action par jour**, jamais deux fois la même plateforme dans la même semaine. Exécution individualisée, sans rafale ; ne pas automatiser une plateforme qui l'interdit. Suivi opposable : `docs/distribution-textes.md`, section « Journal d'exécution ».
 
 **Avancement (01/10/2026)** : contrôle J0 ✅ (accueil, `/openclaw/`, `/hermes/`, `/gratuit/` → 200). Première action : **Journal du Hacker** — demande d'invitation envoyée et **e-mail confirmé** le 01/10 (affichée aux utilisateurs connectés ; en attente d'invitation). Textes prêts à poster pour toutes les destinations : `docs/distribution-textes.md`.
 
@@ -259,4 +259,4 @@ Faux comptes ou comptes multiples · votes/mentions/backlinks achetés ou sollic
 
 ---
 
-*Fichier interne — OpenClaw France / La Communauté 🦀. Préparé le 30/09/2026. **Aucune action publique sans « go » explicite de Maël.***
+*Fichier interne — OpenClaw France / La Communauté 🦀. Préparé le 30/09/2026 ; mandat autonome actualisé le 03/10/2026. **Une action par jour maximum, une par plateforme et par semaine ; règles locales et déclaration IA obligatoires.***

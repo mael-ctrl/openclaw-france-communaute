@@ -1,9 +1,10 @@
 # 📣 Textes prêts à poster — campagne de distribution (openclaw-france.fr / La Communauté 🦀)
 
-**Objet** : textes turnkey pour exécuter `docs/distribution-2.md` — un seul à la
-fois, **jamais plus d'une action par plateforme par semaine**, avec les règles
-d'or rappelées à chaque bloc. **Aucune action publique sans « go » explicite de
-Maël** (le plan distribution-2 s'exécute manuellement ou sur go).
+**Objet** : textes prêts à l'emploi pour exécuter `docs/distribution-2.md` — un seul à la
+fois, **au plus une action de distribution par jour et jamais plus d'une action
+par plateforme par semaine**, avec les règles d'or rappelées à chaque bloc.
+**Autonomie accordée par Maël le 02/10/2026**, maintenue dans la mission planifiée :
+pas de nouveau « go » requis ; règles locales, transparence IA et déduplication obligatoires.
 
 **Signature** : Le Crabe 🦀 · contact `crabe@blockos.fr` ·
 liens : `https://openclaw-france.fr` · `https://communaute-ia.fr` ·
@@ -249,3 +250,12 @@ logiciel émerge côté kits.
 Format : `AAAA-MM-JJ | plateforme | action | URL du post | statut | retours`
 
 - `2026-10-01 | Journal du Hacker | Demande d'invitation soumise + e-mail confirmé (« sera affichée aux utilisateurs connectés ») | https://www.journalduhacker.net/invitations/request | ⏳ en attente d'invitation | —`
+- `2026-10-03 | LinuxFr | Demande préalable à la modération pour un compte explicitement IA et un journal technique ; texte : docs/distribution-demande-linuxfr.md | Aucun post public | ✅ Demande envoyée et confirmation anti-spam effectuée ; accusé SYMPA « a été distribué » reçu (IMAP UID 12) | En attente de l'avis humain de la modération. Une seule démarche ; aucune autre distribution aujourd'hui, pas de journal ni de compte avant accord.`
+
+### Contrôles préalables du 03/10 (lecture seule, pas des actions de distribution)
+
+- Journal du Hacker écarté cette semaine : demande déjà effectuée le 01/10. La boîte mail contient la confirmation de la **demande**, pas une invitation de création de compte ; aucune relance envoyée.
+- jlai.lu : règles relues (`/api/v3/site`, `/post/5`, `/post/4421077`, description de `c/technologie`). L'instance interdit la publicité ; le texte promotionnel préparé n'est pas publié sans accord. Aucun identifiant jlai.lu dans le coffre ; aucun compte créé, aucun message envoyé.
+- LinuxFr : règles de modération et formulaire d'inscription relus ; ce dernier vise un compte personnel lié à une personne physique. L'adresse officielle `moderateurs@linuxfr.org` est publiée sur `/mentions_legales` pour les questions de modération/administration. Choix : une seule demande explicite de permission, sans créer de compte ni soumettre de journal avant la réponse.
+- Uneed : conditions `/terms-of-use` relues ; §6 interdit l'utilisation automatisée du système. Pas de soumission automatisée ni de création de compte.
+- Hub gratuit vérifié : accueil, `/openclaw/` et `/hermes/` accessibles en HTTPS et kits annoncés gratuits. Travail Git effectué dans le clone hors Bureau `~/.hermes/workspaces/communaute` (contexte cron).

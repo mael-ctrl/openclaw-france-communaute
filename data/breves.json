@@ -1,5 +1,88 @@
 [
  {
+  "id": "2e0bf4d1172c2c43",
+  "slug": "amazon-dit-ne-plus-utiliser-de-nda-face-a-la-defiance-envers-les-data--2e0bf4",
+  "titre": "Amazon dit ne plus utiliser de NDA face à la défiance envers les data centers",
+  "resume": "Le patron d'Amazon Web Services a voulu répondre à la défiance très répandue à l'égard des data centers, rapporte TechCrunch. Amazon affirme de son côté ne plus recourir à des accords de confidentialité (NDA).",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+  "date_source": "2026-10-03T18:43:57+00:00",
+  "date_redac": "2026-10-03T18:47:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 1465
+  }
+ },
+ {
+  "id": "0967253a624c92ff",
+  "slug": "dette-technique-quand-les-modeles-de-code-masquent-la-logique-096725",
+  "titre": "Dette technique : quand les modèles de code masquent la logique",
+  "resume": "Un développeur raconte une revue de code récente : une PR d'environ 600 lignes générée, structurée et ouverte en moins de vingt minutes. Syntaxe propre, tests de base passés. Mais interrogé sur un cas limite du gestionnaire de requêtes, l'auteur a répondu « Attends, je demande au modèle ». Le fil contredit le discours des « 10x » : comprendre le système était le vrai goulot d'étranglement, pas la frappe.",
+  "tags": [
+   "dev",
+   "agents",
+   "société"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwum69/anyone_else_noticing_that_coding_models_are_just/",
+  "date_source": "2026-10-03T18:42:19+00:00",
+  "date_redac": "2026-10-03T18:47:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 798,
+   "sortie": 563
+  }
+ },
+ {
+  "id": "7a85e75eae4d7bb4",
+  "slug": "des-moteurs-d-inference-ultra-specialises-tailles-pour-un-seul-modele-7a85e7",
+  "titre": "Des moteurs d'inférence ultra-spécialisés, taillés pour un seul modèle",
+  "resume": "Une nouvelle catégorie de moteurs d'inférence très étroits émerge : Strata, ninfer, DwarfStar, Splash, llamAmpere ou gufo. Ils abandonnent volontairement la généralité qui fait la force de llama.cpp et vLLM pour optimiser un petit nombre de modèles, parfois une seule famille de matériel comme Strix Halo. L'auteur y voit un pas de plus vers la démocratisation et la décentralisation de l'intelligence.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwu6zj/the_rise_of_overfit_inference_engines/",
+  "date_source": "2026-10-03T18:24:42+00:00",
+  "date_redac": "2026-10-03T18:48:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 770,
+   "sortie": 1062
+  }
+ },
+ {
+  "id": "b5004f0a1315984e",
+  "slug": "un-rig-de-minage-recycle-en-3x-rtx-3060-fait-tourner-flash-next-a-40-t-b5004f",
+  "titre": "Un rig de minage recyclé en 3x RTX 3060 fait tourner flash next à 40 t/s",
+  "resume": "L'utilisateur MD_Reptile partage sur r/LocalLLaMA un rig assemblé avec du matériel de minage : trois RTX 3060 12 Go sur un châssis ouvert Kingwin 8x, une carte mère Asus Prime Z370-P, un i7 de 8e génération, 64 Go de DDR4 et une alimentation 1000 W. Avec strata, il annonce 38 à 40 t/s sur flash next en quantification IQ3, contre 13,2 t/s avec llama.cpp. Le matériel de minage d'occasion apparaît ainsi comme une base encore exploitable pour l'inférence locale.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwt19n/flash_next_rig_born_from_mining_parts/",
+  "date_source": "2026-10-03T17:36:49+00:00",
+  "date_redac": "2026-10-03T18:48:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 746,
+   "sortie": 739
+  }
+ },
+ {
   "id": "ccf8a2b6a213982c",
   "slug": "capcom-prepare-un-futur-ou-les-jeux-se-creeront-avec-l-ia-ccf8a2",
   "titre": "Capcom prépare un futur où les jeux se créeront avec l'IA",
@@ -1069,6 +1152,26 @@
    "modele": "deepseek-flash",
    "entree": 593,
    "sortie": 539
+  }
+ },
+ {
+  "id": "1911a32028235b12",
+  "slug": "un-ancien-kiosque-a-journaux-du-metro-new-yorkais-tenu-par-un-dinosaur-1911a3",
+  "titre": "Un ancien kiosque à journaux du métro new-yorkais tenu par un dinosaure",
+  "resume": "Juste avant les tourniquets de la station de métro Grand Army Plaza, à l'extrémité nord du Prospect Park, à Brooklyn, un ancien kiosque à journaux est désormais tenu par un dinosaure. Simon Willison, qui rapporte la scène, note une densité exceptionnelle de jeux de mots sur les dinosaures. L'endroit s'appelle Rex's Dino Store.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
+  "date_source": "2026-10-02T22:57:38+00:00",
+  "date_redac": "2026-10-03T18:48:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 636,
+   "sortie": 1431
   }
  },
  {

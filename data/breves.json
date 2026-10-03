@@ -1,5 +1,87 @@
 [
  {
+  "id": "5c1e8fb688dee2bf",
+  "slug": "tesla-model-3-restylee-ecran-plus-grand-et-recharge-bidirectionnelle-a-5c1e8f",
+  "titre": "Tesla Model 3 restylée : écran plus grand et recharge bidirectionnelle au menu",
+  "resume": "La Tesla Model 3 restylée, lancée en 2023, s'apprête à recevoir une mise à jour pour rester dans la course. La berline électrique gagnera un écran plus grand, assorti d'options de personnalisation étendues. La recharge bidirectionnelle fait également son entrée au catalogue.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/surprise-tesla-model-3-mise-a-jour-inattendue.html",
+  "date_source": "2026-10-03T06:27:08+00:00",
+  "date_redac": "2026-10-03T06:47:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 676,
+   "sortie": 540
+  }
+ },
+ {
+  "id": "30d10cf6bd02937a",
+  "slug": "qwen3-6-35b-a3b-en-q6-3095-tok-s-en-prefill-sur-strix-halo-30d10c",
+  "titre": "Qwen3.6-35B-A3B en Q6 : 3095 tok/s en prefill sur Strix Halo",
+  "resume": "Un membre du subreddit r/LocalLLaMA partage les performances d'une variante quantifiée en Q6 d'un modèle Qwen3.6-35B-A3B, diffusée sous le nom gufo-Qwen3.6-35B-A3B-Q6dense. Les chiffres annoncés sont de 3095 tokens par seconde en prefill et 190 tokens par seconde en décodage, mesurés sur une configuration Strix Halo. Ce genre de relevé intéresse directement ceux qui font tourner des modèles localement.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwfw06/gufoqwen3635ba3bq6dense_3095toks_prefill_190_toks/",
+  "date_source": "2026-10-03T06:13:45+00:00",
+  "date_redac": "2026-10-03T06:47:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 646,
+   "sortie": 765
+  }
+ },
+ {
+  "id": "19308a0655135f7c",
+  "slug": "bmw-prepare-l-i1-sa-future-electrique-la-moins-chere-19308a",
+  "titre": "BMW prépare l'i1, sa future électrique la moins chère",
+  "resume": "BMW s'apprête à attaquer le segment C électrique avec l'i1, une déclinaison à batterie de la Série 1. Ce modèle deviendra le véhicule électrique le moins cher de la marque. Il reprendra les codes Neue Klasse inaugurés par l'i3 et l'iX3.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/bmw-i1-voici-future-electrique-abordable-marque-pensee-europe.html",
+  "date_source": "2026-10-03T06:13:33+00:00",
+  "date_redac": "2026-10-03T06:47:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 677,
+   "sortie": 570
+  }
+ },
+ {
+  "id": "c678982d8aa16e5d",
+  "slug": "poco-pad-m1-une-tablette-a-prix-reduit-face-aux-ipad-et-galaxy-tab-s-c67898",
+  "titre": "POCO Pad M1 : une tablette à prix réduit face aux iPad et Galaxy Tab S",
+  "resume": "POCO propose une offre sur sa tablette Pad M1, l'un des modèles les plus vendus sur le marché français. Elle s'adresse à ceux qui cherchent une tablette pour le quotidien sans dépenser 400 € dans un iPad ou une Samsung Galaxy Tab S. 01net en fait l'un de ses coups de cœur du week-end.",
+  "tags": [
+   "matériel",
+   "france",
+   "business"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/bons-plans/oubliez-les-tablettes-pseudo-luxe-a-400e-ce-modele-poco-se-vend-pour-3x-rien.html",
+  "date_source": "2026-10-03T05:47:59+00:00",
+  "date_redac": "2026-10-03T06:47:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 700,
+   "sortie": 834
+  }
+ },
+ {
   "id": "9fc795104d1c5932",
   "slug": "le-oneplus-15-presque-deux-fois-moins-cher-que-l-iphone-18-pro-se-vend-9fc795",
   "titre": "Le OnePlus 15, presque deux fois moins cher que l'iPhone 18 Pro, se vend à la pelle",
@@ -17,6 +99,27 @@
    "modele": "deepseek-flash",
    "entree": 661,
    "sortie": 644
+  }
+ },
+ {
+  "id": "8486c960574145bc",
+  "slug": "un-mini-pc-fanless-pour-un-assistant-vocal-pilote-par-un-llm-100-local-8486c9",
+  "titre": "Un mini PC fanless pour un assistant vocal piloté par un LLM 100 % local",
+  "resume": "Un utilisateur de r/LocalLLaMA se lance dans la construction d'un assistant vocal entièrement hors ligne, exécuté en local sur un mini PC fanless : Celeron J6412 quatre cœurs, 16 Go de DDR4, SSD SATA de 512 Go et un iGPU Intel UHD. Il prévoit Ubuntu 24.04, llama.cpp et Python, et cherche quels modèles pourraient tenir une persona marquée tout en restant concis sur ce type de CPU, ainsi qu'un système de reconnaissance vocale capable de traiter des commandes courtes en temps réel sur une puce aussi modeste.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wweqcf/minipc_to_run_a_llm_w_voice_assistant_best_small/",
+  "date_source": "2026-10-03T05:04:55+00:00",
+  "date_redac": "2026-10-03T06:47:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 732,
+   "sortie": 353
   }
  },
  {
@@ -455,6 +558,26 @@
    "modele": "deepseek-flash",
    "entree": 689,
    "sortie": 569
+  }
+ },
+ {
+  "id": "5ad6fd52c4e22deb",
+  "slug": "le-ryzen-7-9800x3d-en-promotion-un-processeur-neuf-garanti-par-amd-5ad6fd",
+  "titre": "Le Ryzen 7 9800X3D en promotion : un processeur neuf garanti par AMD",
+  "resume": "Le Ryzen 7 9800X3D, processeur AMD haut de gamme, est proposé à un tarif qui défie toute concurrence. Il ne s'agit pas d'une erreur de prix : le composant est neuf et garanti par AMD. De quoi doper les performances d'une machine sans y laisser un bras.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/bons-plans/le-ryzen-7-9800x3d-a-41-nest-pas-une-erreur-de-prix-cest-un-gpu-neuf-et-garanti-par-amd.html",
+  "date_source": "2026-10-02T15:53:03+00:00",
+  "date_redac": "2026-10-03T06:47:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 697,
+   "sortie": 733
   }
  },
  {

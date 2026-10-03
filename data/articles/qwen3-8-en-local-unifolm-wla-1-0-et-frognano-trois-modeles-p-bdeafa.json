@@ -1,0 +1,41 @@
+{
+ "slug": "qwen3-8-en-local-unifolm-wla-1-0-et-frognano-trois-modeles-p-bdeafa",
+ "titre": "Qwen3.8 en local, UnifoLM-WLA-1.0 et FrogNano : trois modèles passés au banc",
+ "chapo": "Trois checkpoints Qwen3.8 comparés sur une RTX PRO 6000, un modèle humanoïde de 6B chez Unitree, un agent 4B signé Microsoft : la semaine a été dense du côté des modèles qu'on fait tourner soi-même. Tour d'horizon de ce que les développeurs ont réellement mesuré.",
+ "html": "<h2 id=\"qwen3-8-flash-next-devant-les-denses-au-\">Qwen3.8 : Flash-Next devant, les denses au coude à coude</h2>\n<p>Trois semaines de tests, dix épreuves identiques, une seule machine : un utilisateur de r/LocalLLaMA a comparé trois checkpoints Qwen3.8 sur une RTX PRO 6000. Le plateau comprend <strong>RadixArk/Qwen3.8-27B-NVFP4</strong> (dense), <strong>orcarouter/Qwen3.8-27B-Uncensored-NVFP4</strong> (dense, fine-tune non censuré) et <strong>RadixArk/Qwen3.8-Flash-Next-NVFP4</strong> (MoE).</p>\n<p>Au décompte final, Flash-Next remporte cinq tests, le 27B dense quatre, l'Uncensored aucun — avec une égalité. Sur le rappel en contexte long, les trois atteignent 100 % : aucun ne décroche quand la fenêtre se remplit.</p>\n<p>La différence se creuse sur le prefill en fenêtre complète : <strong>22,4 s</strong> pour Flash-Next, contre <strong>97 s et 99 s</strong> pour les deux modèles denses. Réserve importante : les trois ne tournaient pas sous le même plafond de puissance, ce qui invite à lire ces durées avec prudence.</p>\n<h2 id=\"le-draft-model-qui-deplace-la-performanc\">Le draft model qui déplace la performance</h2>\n<p>Toujours sur le 27B, un utilisateur rapporte un gain net en décodage spéculatif : avec le draft model <strong>DFlash2</strong>, Spec-Bench passe de <strong>75 à 210 tok/s</strong>, soit <strong>2,8×</strong>. Le même relevé place <strong>SGLang devant vLLM</strong>, à 210 contre 160 tok/s.</p>\n<p>Ces chiffres proviennent d'un retour d'expérience isolé, sur une configuration donnée. Ils indiquent surtout où se joue aujourd'hui la vitesse en local : moins dans le choix brut du checkpoint que dans la pile d'inférence qui l'entoure, moteur de serving et draft model compris.</p>\n<h2 id=\"unitree-un-seul-modele-pour-64-taches\">Unitree : un seul modèle pour 64 tâches</h2>\n<p>Unitree Robotics présente <strong>UnifoLM-WLA-1.0</strong>, un modèle de fondation humanoïde de <strong>6 milliards de paramètres</strong>, entraîné sur environ <strong>2 500 heures</strong> de données issues de robots réels.</p>\n<p>La particularité tient au périmètre couvert : un seul modèle traite <strong>64 tâches</strong>, dont 10 de corps entier et 54 réalisées sur table, avec des pincements parallèles ou deux mains dextres. Pas d'architecture dédiée par tâche, donc.</p>\n<p>La démonstration tourne sur le robot <strong>G1</strong>, sur des gestes du quotidien : faire le lit, charger la machine à laver, plier du linge, trier des objets. Le tout avec un modèle modeste au regard des standards des grands modèles de langage — rappel que la robotique se compte en heures de données réelles autant qu'en paramètres.</p>\n<h2 id=\"frognano-mlsubgen-rocm-la-pile-locale-s-\">FrogNano, mlsubgen, ROCm : la pile locale s'épaissit</h2>\n<p>Microsoft met en ligne <strong>FrogNano-4B-2609</strong>, un modèle agentique taillé pour des GPU modestes. Dérivé de <strong>Qwen3.5-4B</strong>, il conserve son architecture dense à 32 couches ; son post-entraînement, textuel, vise l'ingénierie logicielle au niveau du dépôt. L'apprentissage par renforcement s'appuie sur environ <strong>1 500 environnements</strong> de tâches SWE synthétiques générés via TaskPilot, avec le harnais Leaf et des récompenses fondées sur des tests.</p>\n<p>Côté outils, <strong>mlsubgen</strong> génère des sous-titres en <strong>45 langues</strong> entièrement en local, sous Linux et sur GPU NVIDIA. L'approche se distingue des wrappers Whisper habituels : détection de la langue de chaque passage parlé, appel à deux moteurs de reconnaissance vocale réconciliés par un LLM local, et priorité donnée aux sous-titres existants — OCR des pistes PGS inclus — avant d'écouter l'audio.</p>\n<p>Enfin, AMD a publié une mise à jour du système d'exploitation de sa <strong>Ryzen AI Developer Platform</strong>, embarquant <strong>ROCm 10.0</strong> et <strong>Linux 7.2</strong>. De quoi concerner directement ceux qui font tourner des modèles sur du matériel AMD.</p>\n<h2>Et maintenant ?</h2>\n<p>Prises ensemble, ces dépêches montrent une pile locale qui se répartit le travail : des checkpoints généralistes qui se départagent sur le prefill et le rappel en contexte long, un agent 4B qui vise une tâche précise, un modèle humanoïde qui apprend sur des heures de gestes réels, et des briques d'inférence — moteur de serving, draft model, couche ROCm — qui pèsent désormais autant que les poids eux-mêmes. Les chiffres cités restent des retours d'utilisateurs isolés, à répliquer sur d'autres configurations avant d'en tirer des règles générales.</p>",
+ "pivot": "bdeafa87c7fb95d3",
+ "tags": [
+  "open-source",
+  "robots",
+  "matériel",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww6750/i_spent_3_weeks_testing_local_qwen38_on_the_new/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwds6i/mlsubgen_subtitles_in_45_languages_for_your/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww49o9/amd_ryzen_ai_developer_platform_os_updated_with/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww40o2/microsoftfrognano4b2609_hugging_face/"
+  }
+ ],
+ "date": "2026-10-03T06:48:05+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1799,
+  "sortie": 3858
+ }
+}

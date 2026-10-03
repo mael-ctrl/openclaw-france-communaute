@@ -1,0 +1,41 @@
+{
+ "slug": "kolibri-1-unifolm-wla-et-lfm2-5-les-modeles-ouverts-passent--891f81",
+ "titre": "Kolibri-1, UnifoLM-WLA et LFM2.5 : les modèles ouverts passent à l'échelle",
+ "chapo": "Aleph Alpha met en ligne un modèle de 78 milliards de paramètres dont seulement 3,46 milliards sont actifs, sous Apache 2.0. Unitree dévoile de son côté un modèle de fondation humanoïde de 6B couvrant 64 tâches. Entre les deux, l'inférence locale gagne du terrain.",
+ "html": "<h2 id=\"kolibri-1-un-gros-moe-allemand-sous-apac\">Kolibri-1 : un gros MoE allemand sous Apache 2.0</h2>\n<p>Aleph Alpha met en ligne <strong>Kolibri-1</strong> sur Hugging Face. Le modèle affiche 78 milliards de paramètres, dont 3,46 milliards actifs — une architecture à activation parcimonieuse, où seule une fraction du réseau travaille à chaque token. La licence retenue est Apache 2.0.</p>\n<p>Le laboratoire allemand annonce un contexte allant jusqu'à 1 million de tokens, et accompagne la publication d'un rapport technique téléchargeable en PDF. Kolibri-1 rejoint donc la catégorie des gros modèles ouverts dont l'intérêt tient au rapport entre taille totale et coût d'inférence.</p>\n<h2 id=\"unitree-un-seul-modele-pour-64-taches-su\">Unitree : un seul modèle pour 64 tâches sur le G1</h2>\n<p>Unitree Robotics présente <strong>UnifoLM-WLA-1.0</strong>, un modèle de fondation humanoïde de 6 milliards de paramètres, entraîné sur environ 2 500 heures de données issues de robots réels. Un seul modèle couvre 64 tâches : 10 de corps entier et 54 sur table.</p>\n<p>Les configurations de préhension varient, pincements parallèles ou deux mains dextres. La démonstration tourne sur le robot <strong>G1</strong>, sur des scènes du quotidien : faire le lit, charger la machine à laver, plier du linge, trier des objets.</p>\n<p>Le choix d'un modèle unique pour l'ensemble de ces tâches tranche avec l'approche par politiques spécialisées. À 6B paramètres, on reste dans une gamme de taille que la robotique embarque plus volontiers qu'un réseau de plusieurs dizaines de milliards.</p>\n<h2 id=\"encodeurs-lfm2-5-et-qwen-177b-l-appareil\">Encodeurs LFM2.5 et Qwen 177B : l'appareil comme terrain de jeu</h2>\n<p>Liquid AI publie deux encodeurs multilingues, <strong>LFM2.5-Encoder-250M</strong> et <strong>350M</strong>, bâtis sur l'architecture LFM2. Ce sont des modèles de langue masqués à attention entièrement bidirectionnelle, pensés pour être affinés sur la classification, l'extraction d'entités, la recherche ou le reranking, dans 15 langues. Contexte de 8k tokens, inférence sur appareil, jusque dans le navigateur via WebGPU. Le débit annoncé égale ou dépasse celui de ModernBERT, avec un avantage sur CPU en contexte long.</p>\n<p>Ailleurs sur r/LocalLLaMA, un utilisateur fait tourner <strong>Qwen3.8-Flash-Next 177B</strong> en quantification UD-IQ3_XXS avec llama.cpp sous Windows, via un système de streaming d'experts. Sur une RTX 5070 12 Go, 32 Go de DDR4-2400 et un Ryzen 5 5600GT en PCIe Gen3, le benchmark atteint 11,5 tok/s, contre environ 7 tok/s sur la configuration héritée, et 14 à 15 tok/s en conversation courante. Un long prompt de code a généré 4 892 tokens à 10,15 tok/s, produisant un jeu Snake fonctionnel en un seul fichier.</p>\n<p>Deux échelles très différentes, une même logique : le matériel grand public redevient un terrain crédible, à condition d'accepter les compromis de quantification et de streaming.</p>\n<h2 id=\"hugging-face-formalise-le-rl-multi-harne\">Hugging Face formalise le RL multi-harness</h2>\n<p>Hugging Face publie un long guide consacré au <strong>RL multi-harness</strong> pour modèles ouverts. Lewis, de l'équipe post-training, y détaille l'entraînement de modèles ouverts dans différents coding harnesses. La méthode s'appuie sur des bibliothèques open source comme TRL et sur le framework <strong>Harbor</strong> pour les environnements de RL.</p>\n<p>L'objectif affiché : fournir une recette pour tirer la meilleure performance de son harness habituel. Le contexte est explicite — chacun bricole le sien, et les résultats d'entraînement dépendent largement de l'outillage employé. Formaliser cette étape évite de comparer des modèles entraînés dans des conditions qui n'ont rien à voir.</p>\n<h2>Et maintenant ?</h2>\n<p>Une même semaine, quatre publications qui ne se ressemblent pas : un gros MoE allemand sous licence permissive, un modèle humanoïde de taille modeste, deux encodeurs pensés pour l'appareil et un guide d'entraînement. Le point commun tient moins à une course au paramètre qu'à la question de l'usage — ce qu'on peut exécuter, où, et avec quel outillage. Les rapports techniques joints aux poids deviennent la pièce qui rend ces choix comparables.</p>",
+ "pivot": "891f81b10446600e",
+ "tags": [
+  "open-source",
+  "robots",
+  "recherche",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwl7y6/alephalphakolibri1_hugging_face_78b_parameters/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwk49n/the_ultimate_guide_to_multiharness_rl/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwgns1/liquidailfm25encoder_250m350m/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwggwt/qwen38flashnext_177b_running_at_1115_toks_on_a/"
+  }
+ ],
+ "date": "2026-10-03T12:08:33+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1722,
+  "sortie": 2999
+ }
+}

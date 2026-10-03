@@ -1,5 +1,86 @@
 [
  {
+  "id": "68fbabe67e6a6f2e",
+  "slug": "boox-picco-une-liseuse-minuscule-de-3-97-pouces-a-glisser-partout-68fbab",
+  "titre": "Boox Picco : une liseuse minuscule de 3,97 pouces à glisser partout",
+  "resume": "Boox poursuit la réduction du format de ses liseuses avec la Picco, équipée d'un écran de 3,97 pouces seulement. La petite machine mise sur la simplicité, des boutons physiques et une large compatibilité avec les livres numériques. En contrepartie, elle abandonne Android et les applications de lecture.",
+  "tags": [
+   "matériel",
+   "société"
+  ],
+  "importance": 1,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/03/boox-picco-une-liseuse-minuscule-a-glisser-partout/",
+  "date_source": "2026-10-03T12:02:21+00:00",
+  "date_redac": "2026-10-03T12:08:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 681,
+   "sortie": 937
+  }
+ },
+ {
+  "id": "a957e86ebd9bae9c",
+  "slug": "le-redmi-note-15-pro-512-go-a-40-sur-aliexpress-a957e8",
+  "titre": "Le Redmi Note 15 Pro 512 Go à -40 % sur AliExpress",
+  "resume": "Le Redmi Note 15 Pro n'est plus le dernier modèle de la gamme chez Xiaomi, mais il reste encore dans la course en 2026. À l'occasion du Local Day sur AliExpress, le smartphone est proposé à prix cassé, avec une remise annoncée de 40 % sur la version 512 Go. Une opération qui ressemble à un déstockage pour Xiaomi.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/bons-plans/le-redmi-note-15-pro-512-go-est-a-40-xiaomi-vide-le-stock-et-le-vend-au-prix-de-la-casse.html",
+  "date_source": "2026-10-03T11:51:15+00:00",
+  "date_redac": "2026-10-03T12:08:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 693,
+   "sortie": 379
+  }
+ },
+ {
+  "id": "891f81b10446600e",
+  "slug": "aleph-alpha-publie-kolibri-1-78b-parametres-3-46b-actifs-apache-2-0-891f81",
+  "titre": "Aleph Alpha publie Kolibri-1 : 78B paramètres, 3,46B actifs, Apache 2.0",
+  "resume": "Aleph Alpha met en ligne Kolibri-1 sur Hugging Face : 78 milliards de paramètres, dont 3,46 milliards actifs, sous licence Apache 2.0. Le modèle revendique un contexte allant jusqu'à 1 million de tokens. Le laboratoire allemand accompagne cette publication d'un rapport technique téléchargeable en PDF.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwl7y6/alephalphakolibri1_hugging_face_78b_parameters/",
+  "date_source": "2026-10-03T11:44:42+00:00",
+  "date_redac": "2026-10-03T12:08:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 690,
+   "sortie": 648
+  }
+ },
+ {
+  "id": "902771ab5308c9a7",
+  "slug": "anyworld-un-rpg-textuel-multijoueur-ou-un-llm-local-tient-le-role-du-m-902771",
+  "titre": "Anyworld : un RPG textuel multijoueur où un LLM local tient le rôle du maître du jeu",
+  "resume": "Anyworld est un jeu d'aventure textuel multijoueur dans le navigateur, inspiré d'AI Dungeon 2. L'hôte fait tourner le modèle via llama.cpp (les API cloud type OpenAI sont aussi prises en charge), les joueurs rejoignent par un lien et tapent leurs actions : le LLM arbitre et fait avancer l'histoire. La mise en place demande encore des compétences en Python, parfois en réseau ; Docker est envisagé.",
+  "tags": [
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwkudj/anyworld_a_selfhosted_multiplayer_text_rpg_where/",
+  "date_source": "2026-10-03T11:22:44+00:00",
+  "date_redac": "2026-10-03T12:08:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 828,
+   "sortie": 784
+  }
+ },
+ {
   "id": "e2f8c4045769a5ca",
   "slug": "strata-fait-tourner-qwen-flash-a-60-tokens-s-sur-une-7900-xtx-e2f8c4",
   "titre": "Strata fait tourner Qwen Flash à 60 tokens/s sur une 7900 XTX",

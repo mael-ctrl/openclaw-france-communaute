@@ -1,5 +1,26 @@
 [
  {
+  "id": "61cbb45ea64ea385",
+  "slug": "un-mini-pc-aliexpress-truque-ruine-un-nud-rag-pour-qwen3-8-27b-61cbb4",
+  "titre": "Un mini-PC AliExpress truqué ruine un nœud RAG pour Qwen3.8 27B",
+  "resume": "Un membre de r/LocalLLaMA voulait consacrer un mini-PC AliExpress à un nœud RAG/search pour Qwen3.8 27B. Annoncé avec un Intel N150 et de la DDR4/DDR5, il arrive avec un Core i3-7020U (Kaby Lake 2018, 2 cœurs/4 threads) et de la DDR3 1600 MHz. Le vendeur avait inscrit « New_N150 » en dur dans la chaîne de version du BIOS. La machine indexe à peine un fichier texte et l'acheteur réclame un chargeback.",
+  "tags": [
+   "matériel",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwgsas/i_tried_building_a_small_rag_search_node_for/",
+  "date_source": "2026-10-03T07:08:14+00:00",
+  "date_redac": "2026-10-03T07:23:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 850,
+   "sortie": 1248
+  }
+ },
+ {
   "id": "09175729caada88d",
   "slug": "hermes-agent-une-nouvelle-build-canary-v0-21-4-publiee-sur-github-091757",
   "titre": "Hermes Agent : une nouvelle build canary v0.21.4 publiée sur GitHub",

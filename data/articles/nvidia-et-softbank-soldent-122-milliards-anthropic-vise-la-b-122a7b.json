@@ -1,0 +1,41 @@
+{
+ "slug": "nvidia-et-softbank-soldent-122-milliards-anthropic-vise-la-b-122a7b",
+ "titre": "Nvidia et SoftBank soldent 122 milliards, Anthropic vise la Bourse",
+ "chapo": "Deux chèques de 10 milliards de dollars chacun bouclent la levée de 122 milliards annoncée en mars par OpenAI, pendant qu'Anthropic préparerait son entrée en Bourse. En parallèle, les modèles continuent de descendre : dans un robot humanoïde d'un côté, sur une carte graphique grand public de l'autre.",
+ "html": "<h2 id=\"122-milliards-soldes-nvidia-paie-son-mei\">122 milliards soldés, Nvidia paie son meilleur client</h2>\n<p>Nvidia et SoftBank ont versé le 1er octobre 2026 leurs dernières tranches de 10 milliards de dollars chacune — environ 9 milliards d'euros — à OpenAI. Ces paiements soldent la levée de 122 milliards de dollars annoncée en mars, dont près de 90 % provient de ces deux groupes et d'Amazon.</p>\n<p>Le détail de l'opération dit l'essentiel : Nvidia finance ainsi son meilleur client pour les GPU. Le fabricant de puces met de l'argent dans l'entreprise qui lui achète ses cartes, donc dans la demande qui soutient ses propres ventes. SoftBank et Amazon complètent le tour, ce qui laisse trois acteurs industriels majeurs au capital de l'un des principaux laboratoires de modèles de langage.</p>\n<h2 id=\"anthropic-2-000-milliards-et-une-cotatio\">Anthropic, 2 000 milliards et une cotation en vue</h2>\n<p>Anthropic, le créateur de Claude, ferait son entrée en Bourse avant la fin de l'année. L'entreprise est présentée comme un nouveau géant de la tech à 2 000 milliards de dollars, sur un secteur où les valorisations atteignent des niveaux inédits.</p>\n<p>Le conditionnel reste de mise : l'information porte sur une opération à venir, pas sur une cotation actée. Elle concerne en tout cas l'un des acteurs majeurs des modèles de langage, et interviendrait dans un contexte où les montants en jeu — les 122 milliards levés par OpenAI en sont l'illustration — ont changé d'échelle.</p>\n<h2 id=\"unitree-un-seul-modele-de-6b-pour-64-tac\">Unitree : un seul modèle de 6B pour 64 tâches</h2>\n<p>Unitree Robotics présente UnifoLM-WLA-1.0, un modèle de fondation humanoïde de 6 milliards de paramètres, entraîné sur environ 2 500 heures de données issues de robots réels. Un seul modèle couvre 64 tâches : 10 de corps entier et 54 sur table, avec pincements parallèles ou deux mains dextres.</p>\n<p>La démonstration tourne sur le robot G1, sur des gestes domestiques : faire le lit, charger la machine à laver, plier du linge, trier des objets. Le choix d'un modèle unique, plutôt que d'une collection de politiques spécialisées, est le point notable ici — et la taille du réseau, 6B, le place dans la même gamme que bien des modèles de langage open source.</p>\n<h2 id=\"le-local-tient-la-distance-177b-sur-12-g\">Le local tient la distance : 177B sur 12 Go, 45 langues de sous-titres</h2>\n<p>Un utilisateur de r/LocalLLaMA fait tourner Qwen3.8-Flash-Next 177B en quantification UD-IQ3_XXS avec llama.cpp sous Windows, via un système de streaming d'experts. Sur une RTX 5070 12 Go, 32 Go de DDR4-2400 et un Ryzen 5 5600GT en PCIe Gen3, le benchmark atteint 11,5 tokens par seconde, contre environ 7 tok/s sur la configuration héritée, et 14 à 15 tok/s en conversation courante. Un long prompt de code a généré 4 892 tokens à 10,15 tok/s, produisant un jeu Snake fonctionnel en un seul fichier.</p>\n<p>Sur le même forum, un développeur publie mlsubgen, un outil qui génère des sous-titres en 45 langues entièrement en local, sous Linux et avec un GPU NVIDIA. Contrairement aux wrappers Whisper habituels, il détecte la langue de chaque passage parlé et fait appel à deux moteurs de reconnaissance vocale, réconciliés par un LLM local. Il privilégie aussi les sous-titres existants, y compris l'OCR des pistes PGS, avant d'écouter l'audio.</p>\n<p>Deux approches, une même logique : se passer du cloud. Côté Qwen, la limite n'est plus la taille du modèle mais la mémoire et la bande passante ; côté sous-titres, c'est la chaîne de traitement qui est repensée plutôt que le moteur unique.</p>\n<h2>Et maintenant ?</h2>\n<p>Les mêmes journées produisent des milliards versés entre industriels et des modèles de 6 à 177 milliards de paramètres qui tournent sur du matériel de bureau. Les deux mouvements ne s'opposent pas : Nvidia vend les cartes qui servent à entraîner comme à faire tourner en local, et se retrouve à la fois au capital d'OpenAI et dans les configurations décrites sur r/LocalLLaMA. Ce qui se joue en ce moment, c'est la répartition de la valeur entre ceux qui financent les modèles, ceux qui les entraînent et ceux qui les exécutent.</p>",
+ "pivot": "122a7b6c36a471d3",
+ "tags": [
+  "openai",
+  "business",
+  "robots",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/openai/3271533_nvidia-investit-30-milliards-dans-openai-son-meilleur-client-pour-les-gpu"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/02/un-nouveau-geant-de-la-tech-a-2-000-milliards-de-dollars-anthropic-le-createur-de-claude-ferait-bientot-son-entree-en-bourse/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwggwt/qwen38flashnext_177b_running_at_1115_toks_on_a/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwds6i/mlsubgen_subtitles_in_45_languages_for_your/"
+  }
+ ],
+ "date": "2026-10-03T07:23:57+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1703,
+  "sortie": 2831
+ }
+}

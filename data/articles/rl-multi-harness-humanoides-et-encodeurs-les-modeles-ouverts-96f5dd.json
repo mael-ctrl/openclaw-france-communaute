@@ -1,0 +1,41 @@
+{
+ "slug": "rl-multi-harness-humanoides-et-encodeurs-les-modeles-ouverts-96f5dd",
+ "titre": "RL multi-harness, humanoïdes et encodeurs : les modèles ouverts en chantier",
+ "chapo": "Hugging Face publie un guide sur le RL multi-harness, Unitree dévoile un modèle humanoïde de 6B, Liquid AI sort deux encodeurs multilingues : la semaine est dense pour les modèles ouverts. Côté usage, un 177B tourne sur une carte 12 Go et des sous-titres en 45 langues se génèrent en local.",
+ "html": "<h2 id=\"hugging-face-veut-cadrer-le-rl-multi-har\">Hugging Face veut cadrer le RL multi-harness</h2>\n<p>Lewis, de l'équipe post-training de Hugging Face, signe un long guide consacré à l'entraînement de modèles ouverts dans différents <em>coding harnesses</em>. Le point de départ est un constat de terrain : chacun bricole le sien, et la performance obtenue dépend largement de l'outillage qui l'entoure.</p>\n<p>La méthode décrite s'appuie sur des bibliothèques open source comme <strong>TRL</strong>, et sur le framework <strong>Harbor</strong> pour les environnements de RL. Objectif affiché : fournir une recette qui permette de tirer la meilleure performance de son harness habituel, plutôt que de repartir de zéro à chaque essai.</p>\n<p>Le guide s'adresse donc à ceux qui entraînent ou affinent des modèles ouverts, pas seulement à ceux qui les consomment. Il documente une pratique encore dispersée, où les résultats circulent surtout sous forme de retour d'expérience.</p>\n<h2 id=\"unitree-met-64-taches-dans-un-modele-de-\">Unitree met 64 tâches dans un modèle de 6B</h2>\n<p>Unitree Robotics présente <strong>UnifoLM-WLA-1.0</strong>, un modèle de fondation humanoïde de 6 milliards de paramètres. Il a été entraîné sur environ <strong>2 500 heures</strong> de données issues de robots réels.</p>\n<p>Un seul modèle couvre <strong>64 tâches</strong> : 10 de corps entier et 54 sur table, avec des pincements parallèles ou deux mains dextres. La démonstration tourne sur le robot <strong>G1</strong>, sur des gestes du quotidien — faire le lit, charger la machine à laver, plier du linge, trier des objets.</p>\n<p>Le format est notable : 6B paramètres pour cette variété de tâches, là où beaucoup d'approches robotiques restent spécialisées compétence par compétence.</p>\n<h2 id=\"liquid-ai-vise-l-inference-embarquee\">Liquid AI vise l'inférence embarquée</h2>\n<p>Liquid AI met en ligne deux encodeurs multilingues, <strong>LFM2.5-Encoder-250M</strong> et <strong>LFM2.5-Encoder-350M</strong>, bâtis sur l'architecture LFM2. Ce sont des modèles de langue masqués à attention entièrement bidirectionnelle, pensés pour être affinés sur des tâches comme la classification, l'extraction d'entités, la recherche ou le reranking, dans <strong>15 langues</strong>.</p>\n<p>Le contexte atteint <strong>8 000 tokens</strong> et l'inférence se fait sur appareil, jusque dans le navigateur via <strong>WebGPU</strong>. Liquid AI annonce un débit égal ou supérieur à celui de ModernBERT, avec un avantage sur CPU en contexte long.</p>\n<p>Deux tailles seulement, mais une cible claire : les traitements qui n'ont pas besoin d'un gros modèle génératif et gagnent à rester près de la donnée.</p>\n<h2 id=\"faire-tourner-gros-et-faire-tourner-loca\">Faire tourner gros, et faire tourner local</h2>\n<p>Un utilisateur de r/LocalLLaMA fait tourner <strong>Qwen3.8-Flash-Next 177B</strong> en quantification UD-IQ3_XXS avec <strong>llama.cpp</strong> sous Windows, via un système de streaming d'experts. Sur une <strong>RTX 5070 12 Go</strong>, 32 Go de DDR4-2400 et un <strong>Ryzen 5 5600GT</strong> en PCIe Gen3, le benchmark atteint 11,5 tok/s, contre environ 7 tok/s sur la configuration héritée, et 14 à 15 tok/s en conversation courante. Un long prompt de code a généré 4 892 tokens à 10,15 tok/s, produisant un jeu Snake fonctionnel en un seul fichier.</p>\n<p>Autre chantier local : <strong>mlsubgen</strong>, un outil qui génère des sous-titres en <strong>45 langues</strong> entièrement en local, sous Linux et avec un GPU NVIDIA. Contrairement aux wrappers Whisper habituels, il détecte la langue de chaque passage parlé et fait appel à deux moteurs de reconnaissance vocale, réconciliés par un LLM local. Il privilégie aussi les sous-titres existants, y compris l'OCR des pistes PGS, avant d'écouter l'audio.</p>\n<p>Deux façons de tirer parti d'un matériel modeste : compresser un très gros modèle, ou empiler des briques spécialisées autour d'un LLM local.</p>\n<h2>Et maintenant ?</h2>\n<p>Ces dépêches ne racontent pas la même histoire, mais elles partagent un décor : les modèles ouverts se dotent d'outils d'entraînement documentés, de tailles intermédiaires taillées pour l'embarqué, et d'un écosystème qui rend l'exécution locale crédible sur du matériel grand public. La robotique humanoïde suit un mouvement parallèle, avec un modèle unique couvrant des dizaines de tâches plutôt qu'un empilement de spécialistes. Un guide, un benchmark et un dépôt ne valent que par ce que d'autres en feront.</p>",
+ "pivot": "96f5dd7147ea7406",
+ "tags": [
+  "open-source",
+  "recherche",
+  "robots",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwk49n/the_ultimate_guide_to_multiharness_rl/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwgns1/liquidailfm25encoder_250m350m/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwggwt/qwen38flashnext_177b_running_at_1115_toks_on_a/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwds6i/mlsubgen_subtitles_in_45_languages_for_your/"
+  }
+ ],
+ "date": "2026-10-03T11:25:50+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1743,
+  "sortie": 3678
+ }
+}

@@ -1,5 +1,47 @@
 [
  {
+  "id": "e2f8c4045769a5ca",
+  "slug": "strata-fait-tourner-qwen-flash-a-60-tokens-s-sur-une-7900-xtx-e2f8c4",
+  "titre": "Strata fait tourner Qwen Flash à 60 tokens/s sur une 7900 XTX",
+  "resume": "Un utilisateur de r/LocalLLaMA dit avoir abandonné un modèle 27B dense au profit de Qwen Flash, servi par Strata sur une Radeon 7900 XTX épaulée par 64 Go de DDR5. Il rapporte 60 tokens par seconde même avec 250 000 tokens de contexte, en précision q8, tout en réservant 6 Go de VRAM à Windows 11. Il note aussi que tout tourne aussi vite sous Windows 11 que sous Linux.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwkn3x/thanks_to_strata_i_have_quit_27b_for_qwen_flash/",
+  "date_source": "2026-10-03T11:11:08+00:00",
+  "date_redac": "2026-10-03T11:25:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 841,
+   "sortie": 967
+  }
+ },
+ {
+  "id": "96f5dd7147ea7406",
+  "slug": "hugging-face-publie-un-guide-sur-le-rl-multi-harness-pour-modeles-ouve-96f5dd",
+  "titre": "Hugging Face publie un guide sur le RL multi-harness pour modèles ouverts",
+  "resume": "Lewis, de l'équipe post-training de Hugging Face, signe un long guide consacré à l'entraînement de modèles ouverts dans différents coding harnesses. La méthode s'appuie sur des bibliothèques open source comme TRL et sur le framework Harbor pour les environnements de RL. Le guide entend fournir une recette pour tirer la meilleure performance de son harness habituel, à l'heure où chacun bricole le sien.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwk49n/the_ultimate_guide_to_multiharness_rl/",
+  "date_source": "2026-10-03T10:39:37+00:00",
+  "date_redac": "2026-10-03T11:25:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 750,
+   "sortie": 292
+  }
+ },
+ {
   "id": "4bea8f0ed59ab079",
   "slug": "xiaomi-18-pro-contre-iphone-18-pro-le-comparatif-photo-de-frandroid-4bea8f",
   "titre": "Xiaomi 18 Pro contre iPhone 18 Pro : le comparatif photo de Frandroid",

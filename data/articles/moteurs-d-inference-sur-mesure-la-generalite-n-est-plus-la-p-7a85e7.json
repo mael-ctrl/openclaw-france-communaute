@@ -1,0 +1,41 @@
+{
+ "slug": "moteurs-d-inference-sur-mesure-la-generalite-n-est-plus-la-p-7a85e7",
+ "titre": "Moteurs d'inférence sur-mesure : la généralité n'est plus la priorité",
+ "chapo": "Une nouvelle génération de moteurs d'inférence renonce à la généralité qui fait la force de llama.cpp ou vLLM, pour se tailler sur mesure autour d'un modèle, voire d'une seule famille de matériel comme Strix Halo. Sur un mini-PC de 128 Go, deux modèles MoE de classe 300B tournent désormais.",
+ "html": "<h2 id=\"le-pari-du-sur-mesure\">Le pari du sur-mesure</h2>\n<p>Pendant des années, la force de llama.cpp ou de vLLM tenait à leur généralité : un moteur, des dizaines de modèles, des architectures matérielles variées. Une nouvelle catégorie d'outils prend le chemin inverse. <strong>Strata, ninfer, DwarfStar, Splash, llamAmpere ou gufo</strong> assument de se spécialiser sur un petit nombre de modèles, parfois sur une seule famille de matériel, comme Strix Halo.</p>\n<p>Le compromis est explicite : on renonce à la couverture universelle pour gagner ce que la généralité interdit — des optimisations taillées pour une charge précise. Dans le fil r/LocalLLaMA qui documente cette tendance, l'auteur y voit un pas de plus vers la démocratisation et la décentralisation de l'intelligence. Moins de modèles supportés, donc, mais des modèles qui tournent réellement sur la machine de l'utilisateur.</p>\n<h2 id=\"kyojin-deux-moe-de-300b-sur-128-go\">Kyojin : deux MoE de 300B sur 128 Go</h2>\n<p>Le moteur <strong>Kyojin</strong> illustre concrètement ce que cette spécialisation permet. Construit sur ExLlamaV3 pour Strix Halo (gfx1151, ROCm), il fait tenir deux modèles MoE de classe 300B chacun sur une seule machine de 128 Go. Les mesures ont été prises sur un Ryzen AI Max+ 395.</p>\n<p>Les chiffres : <strong>GLM-5.3-Flash</strong>, avec ses 99,7 Go de poids, atteint 580 tok/s en prefill sur un contexte de 3,5K et 26 à 30 tok/s en décodage. <strong>MiMo-V2.6-Flash-MOPD</strong>, 105 Go, grimpe à 44 tok/s en code. Côté quantifications, les poids de MiMo viennent d'une quantification maison, tandis que le pack GLM mélange des tenseurs EXL3 publics de turboderp en 2,05 et 3,05 bpw.</p>\n<h2 id=\"ninfer-4080-100k-de-contexte-sur-16-go\">Ninfer 4080 : 100k de contexte sur 16 Go</h2>\n<p>La même logique s'applique à des GPU plus modestes. Un développeur publie <strong>Ninfer 4080</strong>, qui fait tourner ISTA-DASLab-Qwen-3.8-27B-GSQ sur une RTX 4080 de 16 Go avec 100 000 tokens de contexte. Il annonce jusqu'à 2 720 tok/s en prefill et 262 tok/s en génération.</p>\n<p>Le point notable, c'est la classe de matériel visée : les projets Ninfer 5090, 4090 et 3090 restaient hors de portée de cette catégorie de GPU. Le code est partagé sur GitHub. L'auteur précise avoir 20 ans d'expérience en ingénierie logicielle, mais aucune en développement de kernels GPU — un détail qui en dit long sur ce que la spécialisation rend accessible.</p>\n<h2 id=\"a-l-autre-extremite-les-capitaux-et-les-\">À l'autre extrémité, les capitaux et les robots</h2>\n<p>Nvidia et SoftBank ont versé le 1er octobre 2026 leurs dernières tranches de <strong>10 milliards de dollars chacune</strong> (environ 9 milliards d'euros) à OpenAI. Ces paiements soldent la levée de 122 milliards de dollars annoncée en mars, dont environ 90 % provient de ces deux groupes et d'Amazon. Nvidia finance ainsi son meilleur client pour les GPU.</p>\n<p>Sur le terrain robotique, Unitree Robotics présente <strong>UnifoLM-WLA-1.0</strong>, un modèle de fondation humanoïde de 6B paramètres entraîné sur environ 2 500 heures de données issues de robots réels. Un seul modèle couvre 64 tâches : 10 de corps entier et 54 sur table, avec pincements parallèles ou deux mains dextres. La démonstration tourne sur le robot G1 : faire le lit, charger la machine à laver, plier du linge, trier des objets.</p>\n<h2>Et maintenant ?</h2>\n<p>Les deux bouts de la chaîne se répondent sans se confondre. D'un côté, des moteurs qui refusent la généralité pour faire tenir des modèles de classe 300B sur 128 Go, ou du contexte long sur 16 Go de VRAM : le travail d'optimisation se déplace vers des cas d'usage précis, portés parfois par des développeurs isolés. De l'autre, des dizaines de milliards de dollars qui circulent entre un fabricant de GPU et son principal client, et des modèles de fondation robotiques nourris d'heures de gestes réels. Ce qui se joue en local avance sur un autre terrain, celui des contraintes matérielles et de l'ingénierie fine.</p>",
+ "pivot": "7a85e75eae4d7bb4",
+ "tags": [
+  "open-source",
+  "matériel",
+  "dev",
+  "robots"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwu6zj/the_rise_of_overfit_inference_engines/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwocik/two_300b_moe_models_each_on_one_128_gb_mini_pc/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/openai/3271533_nvidia-investit-30-milliards-dans-openai-son-meilleur-client-pour-les-gpu"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwv0fj/i_built_ninfer_4080_for_16gb_class_gpus/"
+  }
+ ],
+ "date": "2026-10-03T21:35:59+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1732,
+  "sortie": 4313
+ }
+}

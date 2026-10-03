@@ -20,6 +20,27 @@
   }
  },
  {
+  "id": "fdb9fcd9370eb56a",
+  "slug": "un-utilisateur-de-r-localllama-recommande-le-finetune-arex-2-pour-le-c-fdb9fc",
+  "titre": "Un utilisateur de r/LocalLLaMA recommande le finetune Arex-2 pour le code agentique",
+  "resume": "Sur r/LocalLLaMA, un utilisateur recommande Arex-2, un finetune qu'il présente comme le meilleur qu'il ait utilisé pour le codage agentique. Il ne donne ni benchmark ni évaluation et invite chacun à tester le modèle lui-même. Le fil, intitulé « Arex-2 vs swift vs qwen3.8 27b », renvoie vers la page Hugging Face du modèle, avec un remerciement aux créateurs de finetunes.",
+  "tags": [
+   "dev",
+   "agents",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwwgq7/arex2_vs_swift_vs_qwen38_27b/",
+  "date_source": "2026-10-03T19:59:35+00:00",
+  "date_redac": "2026-10-03T21:35:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 735,
+   "sortie": 1204
+  }
+ },
+ {
   "id": "78e3e1827b78cdba",
   "slug": "ninfer-4080-qwen-27b-sur-100k-de-contexte-avec-une-gpu-16-go-78e3e1",
   "titre": "Ninfer 4080 : Qwen 27B sur 100k de contexte avec une GPU 16 Go",

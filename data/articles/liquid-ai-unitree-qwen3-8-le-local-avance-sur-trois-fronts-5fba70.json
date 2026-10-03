@@ -1,0 +1,41 @@
+{
+ "slug": "liquid-ai-unitree-qwen3-8-le-local-avance-sur-trois-fronts-5fba70",
+ "titre": "Liquid AI, Unitree, Qwen3.8 : le local avance sur trois fronts",
+ "chapo": "Liquid AI publie deux encodeurs multilingues pensés pour tourner sur l'appareil, Unitree dévoile un modèle de fondation humanoïde de 6B paramètres, et la communauté Qwen3.8 continue de documenter ce qu'un matériel modeste peut avaler. Tour d'horizon de ce qui s'est dit sur r/LocalLLaMA.",
+ "html": "<h2 id=\"liquid-ai-deux-encodeurs-pour-l-appareil\">Liquid AI : deux encodeurs pour l'appareil</h2>\n<p>Liquid AI met en ligne <strong>LFM2.5-Encoder-250M</strong> et <strong>LFM2.5-Encoder-350M</strong>, deux encodeurs multilingues bâtis sur l'architecture LFM2. Ce sont des modèles de langue masqués à attention entièrement bidirectionnelle — la recette classique des encodeurs, où chaque token voit tout le contexte à gauche comme à droite, contrairement aux modèles génératifs.</p>\n<p>Ils sont pensés pour être affinés sur des tâches de classification, d'extraction d'entités, de recherche ou de reranking, dans <strong>15 langues</strong>. Le contexte atteint <strong>8k tokens</strong> et l'inférence se fait sur appareil, jusque dans le navigateur via <strong>WebGPU</strong>. Le débit annoncé égale ou dépasse celui de ModernBERT, avec un avantage sur CPU en contexte long.</p>\n<h2 id=\"unitree-6b-parametres-pour-64-taches\">Unitree : 6B paramètres pour 64 tâches</h2>\n<p>Unitree Robotics présente <strong>UnifoLM-WLA-1.0</strong>, un modèle de fondation humanoïde de <strong>6B paramètres</strong> entraîné sur environ <strong>2 500 heures</strong> de données issues de robots réels. Un seul modèle couvre 64 tâches : dix concernent le corps entier, cinquante-quatre se jouent sur table, avec pincements parallèles ou deux mains dextres.</p>\n<p>La démonstration tourne sur le robot <strong>G1</strong>, et les exemples cités restent volontairement domestiques : faire le lit, charger la machine à laver, plier du linge, trier des objets.</p>\n<h2 id=\"qwen3-8-en-local-du-177b-sur-une-carte-1\">Qwen3.8 en local : du 177B sur une carte 12 Go</h2>\n<p>Un utilisateur de r/LocalLLaMA fait tourner <strong>Qwen3.8-Flash-Next 177B</strong> en quantification UD-IQ3_XXS avec llama.cpp sous Windows, via un système de streaming d'experts. Sur une RTX 5070 12 Go, 32 Go de DDR4-2400 et un Ryzen 5 5600GT en PCIe Gen3, le benchmark atteint <strong>11,5 tok/s</strong>, contre environ 7 tok/s sur la configuration héritée, et 14 à 15 tok/s en conversation courante. Un long prompt de code a généré 4 892 tokens à 10,15 tok/s, produisant un jeu Snake fonctionnel en un seul fichier.</p>\n<p>À l'autre bout du spectre matériel, un utilisateur a fait passer trois checkpoints Qwen3.8 dans les mêmes dix épreuves sur une RTX PRO 6000, après trois semaines de tests : RadixArk/Qwen3.8-27B-NVFP4 (dense), orcarouter/Qwen3.8-27B-Uncensored-NVFP4 (dense, fine-tune non censuré) et RadixArk/Qwen3.8-Flash-Next-NVFP4 (MoE). Flash-Next remporte cinq tests, le 27B dense quatre, l'Uncensored aucun, avec une égalité. Le rappel en contexte long atteint 100 % pour les trois. Le prefill sur fenêtre complète prend 22,4 s à Flash-Next contre 97 s et 99 s pour les deux denses, à plafond de puissance différent.</p>\n<p>Sur le 27B, le draft model <strong>DFlash2</strong> fait passer Spec-Bench de 75 à 210 tok/s pour un utilisateur, soit 2,8×, et SGLang devance vLLM (210 contre 160 tok/s).</p>\n<h2 id=\"mlsubgen-45-langues-de-sous-titres-sans-\">mlsubgen : 45 langues de sous-titres, sans le cloud</h2>\n<p>Un développeur publie <strong>mlsubgen</strong>, un outil qui génère des sous-titres en <strong>45 langues</strong> entièrement en local, sous Linux et avec un GPU NVIDIA. La différence avec les wrappers Whisper habituels : il détecte la langue de chaque passage parlé et fait appel à deux moteurs de reconnaissance vocale, réconciliés par un LLM local.</p>\n<p>L'outil privilégie aussi les sous-titres existants — y compris l'OCR des pistes PGS — avant de se rabattre sur l'écoute de l'audio.</p>\n<h2>Et maintenant ?</h2>\n<p>Ces quatre dépêches n'ont pas grand-chose en commun sur le fond : encodeurs, robotique, quantification et sous-titres. Elles dessinent pourtant la même pente, celle de modèles plus petits, affinables ou exécutables sur du matériel qu'on a déjà. Les chiffres avancés — tok/s, secondes de prefill, langues couvertes — viennent d'utilisateurs isolés, pas de bancs d'essai normalisés, et les configurations matérielles varient trop pour être superposées telles quelles.</p>",
+ "pivot": "5fba7093be0073a2",
+ "tags": [
+  "open-source",
+  "matériel",
+  "robots",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwgns1/liquidailfm25encoder_250m350m/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwggwt/qwen38flashnext_177b_running_at_1115_toks_on_a/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwds6i/mlsubgen_subtitles_in_45_languages_for_your/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww6750/i_spent_3_weeks_testing_local_qwen38_on_the_new/"
+  }
+ ],
+ "date": "2026-10-03T10:44:39+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1896,
+  "sortie": 3733
+ }
+}

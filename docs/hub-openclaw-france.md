@@ -58,6 +58,30 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   remplacement, renommage atomique par fichier et relecture exacte. Les kits,
   le moteur du média et les fichiers serveur ne sont pas modifiés.
 
+## Aperçus de partage — livraison du 03/10/2026
+
+- Une amélioration : métadonnées de partage complètes sur `/`, `/openclaw/`,
+  `/hermes/` et `/gratuit/`. Images Open Graph en URL HTTPS absolue, URL de page
+  cohérente avec la canonical, langue, nom du site, type et dimensions PNG,
+  texte alternatif et cartes Twitter/X avec titre, description et image.
+  Aucun changement du contenu visible, des offres ou des kits.
+- Test de régression `tests/test_hub_partage.py` : défauts reproduits sur les
+  quatre pages avant correction ; suite complète **10 tests OK** après correction.
+  Les **2 tests de partage du hub** passent aussi sur les réponses HTTPS publiques.
+- Publication avec `python3 outils/deployer_openclaw.py` depuis le clone isolé
+  `~/.hermes/workspaces/hub-openclaw-20261003` (hors Bureau pour éviter FileProvider
+  en cron). Sauvegarde préalable et comparaison de la production à Git ;
+  **35 fichiers relus via FTP et identiques aux sources** après envoi.
+- Contrôle final : les quatre pages et les deux archives répondent **HTTP 200** ;
+  en-têtes HTML publics identiques aux sources ; image PNG **1200 × 630** accessible.
+  Les archives sont intègres et inchangées octet pour octet (dates/modes des sources
+  restaurés depuis les archives existantes avant leur régénération automatique).
+- Sitemap actualisé sur ces quatre URL. Notification **IndexNow HTTP 200** pour
+  ces pages ; acceptation de la notification, pas preuve de leur indexation.
+- **Aucune nouvelle distribution** : la demande LinuxFr du jour consomme déjà
+  le quota, selon `docs/distribution-textes.md`. Prochaine étape : vérifier le
+  retour de la modération avant toute publication LinuxFr, sans relance aujourd’hui.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

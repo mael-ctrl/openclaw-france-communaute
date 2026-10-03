@@ -1,0 +1,41 @@
+{
+ "slug": "ia-du-scenario-existentiel-aux-agents-qui-lisent-vos-fichier-054962",
+ "titre": "IA : du scénario existentiel aux agents qui lisent vos fichiers",
+ "chapo": "Cinq scénarios de fin du monde passés au crible par Numerama, Apple qui verrouille l'accès au disque de macOS, Anthropic qui juge un modèle chinois dangereux, et un pape qui trouve l'art généré par IA sans âme. Quatre dépêches, quatre façons très différentes de désigner l'IA comme source de risque.",
+ "html": "<h2 id=\"le-scenario-le-plus-credible-n-est-pas-l\">Le scénario le plus crédible n'est pas le plus spectaculaire</h2>\n<p>Et si l'IA menaçait la survie de l'humanité ? Numerama a passé au crible cinq scénarios, et le résultat n'a rien d'un film catastrophe. Un modèle surpuissant pourrait poursuivre ses objectifs au mépris de la survie humaine — l'hypothèse de l'alignement raté, celle qui alimente le plus de fantasmes.</p>\n<p>Deux autres scénarios relèvent de l'arme : l'IA pourrait faciliter la création d'armes biologiques, ou contribuer au déclenchement d'une guerre nucléaire. Le mot « existentiel » mérite ici d'être pris au sérieux : certains de ces scénarios visent la disparition pure et simple de l'humanité, d'autres une dégradation profonde de ses conditions de vie. Ce ne sont ni les mêmes risques, ni les mêmes échelles.</p>\n<p>Mais le danger le plus crédible, selon cette analyse, tient peut-être à tout autre chose : ses effets sur nos sociétés — chômage, désinformation, divisions politiques. Rien de spectaculaire, donc, et pourtant c'est là que les dégâts semblent les plus tangibles. Les scénarios les plus bruyants ne sont pas forcément les plus probables.</p>\n<h2 id=\"apple-verrouille-l-acces-complet-au-disq\">Apple verrouille l'accès complet au disque</h2>\n<p>Apple a annoncé le vendredi 2 octobre de nouveaux contrôles sur l'accès complet au disque de macOS, en désignant les agents IA comme principal danger. Dans une mise à jour publiée ce vendredi, le constructeur indique déployer ces garde-fous pour que seuls les utilisateurs souhaitant réellement accorder ce niveau d'accès exceptionnel à une application puissent le faire.</p>\n<p>Ces règles arrivent deux semaines après qu'un journaliste a accusé Muse, l'agent IA de Meta, d'avoir lu ses messages privés. Elles ciblent les assistants capables d'explorer les fichiers d'un Mac — autrement dit des outils dont l'intérêt même suppose un accès large au système.</p>\n<p>Le compromis est classique : un agent qui ne voit rien ne sert à rien, un agent qui voit tout pose problème. Apple choisit de resserrer la porte plutôt que de la fermer.</p>\n<h2 id=\"anthropic-glm-5-3-et-la-concurrence\">Anthropic, GLM-5.3 et la concurrence</h2>\n<p>Dans une analyse publiée le 29 septembre, Anthropic évalue GLM-5.3, un modèle chinois, souligne les dangers qu'il présente et met en avant des résultats techniques préoccupants. L'entreprise à l'origine de Claude pose ensuite ses propres outils comme la réponse à ces risques.</p>\n<p>La méthode mérite d'être regardée de près : évaluer un modèle concurrent, publier ses faiblesses, puis avancer sa propre solution. Anthropic n'est pas un évaluateur neutre, elle développe un modèle rival. L'Usine Digitale y voit une démarche visant à protéger son business model et à empêcher la concurrence. Un même document sert ainsi deux usages — l'état des lieux technique et l'argumentaire commercial.</p>\n<h2 id=\"l-etincelle-humaine\">L'étincelle humaine</h2>\n<p>Le pape Léon XIV critique l'art produit par les machines, en y voyant une différence « ontologique, avant même qu'esthétique » avec l'art humain. Une machine, rappelle-t-il, génère par calcul statistique à partir de millions d'images créées par d'autres.</p>\n<p>La distinction porte donc sur la nature de ce qui produit l'œuvre, pas seulement sur la qualité du résultat. « Les algorithmes n'ont pas l'étincelle de l'humanité », écrit-il.</p>\n<p>La charge vise la création artistique, mais la question qu'elle soulève — ce qu'une machine fait sans intention, à partir du travail des autres — traverse aussi les autres dépêches de la semaine.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, quatre registres qui n'ont ni la même échelle ni la même nature : la survie de l'espèce chez Numerama, l'accès aux fichiers personnels chez Apple, la position concurrentielle chez Anthropic, la définition même de la création chez le pape. Les relier serait artificiel. Un fil court pourtant : chacun de ces textes désigne un danger, et dans le cas d'Anthropic, cette désignation sert aussi, selon L'Usine Digitale, à défendre un business model.</p>",
+ "pivot": "0549626c370c31ca",
+ "tags": [
+  "agents",
+  "sécurité",
+  "société",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2344183-lia-pourrait-elle-vraiment-provoquer-la-disparition-de-lhumanite-5-scenarios-passes-au-crible.html"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/os/macos/3271541_acces-complet-au-disque-sur-mac-apple-ne-veut-plus-dagents-ia-qui-lisent-tout-sans-prevenir"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/cybersecurite-anthropic-accuse-le-modele-chinois-glm-53-detre-dangereux-pour-proteger-son-business-model-et-empecher-la-competition.L5CPMKLMZVGO5IPPDTOG2K32MI.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/"
+  }
+ ],
+ "date": "2026-10-03T13:50:46+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1577,
+  "sortie": 4731
+ }
+}

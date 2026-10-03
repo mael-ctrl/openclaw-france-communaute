@@ -1,5 +1,68 @@
 [
  {
+  "id": "883f9b89256d8bc7",
+  "slug": "quand-l-agent-dit-avoir-termine-et-que-la-base-de-donnees-le-contredit-883f9b",
+  "titre": "Quand l'agent dit avoir terminé et que la base de données le contredit",
+  "resume": "Un agent qui annonce avoir terminé, une base de données qui dit le contraire : c'est le décalage que pointe ce billet du blog de Hugging Face. Ce que raconte un agent sur son propre travail ne suffit pas à établir que la tâche est réellement accomplie. Pour qui déploie des agents sur des systèmes réels, l'écart entre le récit du modèle et l'état effectif des données est un point de vigilance concret.",
+  "tags": [
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hugging Face",
+  "lien_source": "https://huggingface.co/blog/microsoft/thinkingbox",
+  "date_source": null,
+  "date_redac": "2026-10-03T23:08:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 580,
+   "sortie": 1024
+  }
+ },
+ {
+  "id": "41a6f5ac3dc326eb",
+  "slug": "claude-code-v2-1-289-corrige-des-regles-de-refus-contournees-et-un-gel-41a6f5",
+  "titre": "Claude Code v2.1.289 corrige des règles de refus contournées et un gel du terminal",
+  "resume": "Claude Code passe en v2.1.289, une livraison corrective. Les règles deny et ask ne tenaient pas sur une partie imbriquée d'une commande shell composée, et les règles de refus de Read ne s'appliquaient pas aux fichiers mentionnés via un lien symbolique dans l'IDE. Le changement de la 2.1.288 sur claude auth status, qui pouvait multiplier les déconnexions, est annulé. La liste des plugins ne montre plus de copie périmée pour ceux installés depuis un marketplace local.",
+  "tags": [
+   "claude",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
+  "date_source": "2026-10-03T23:07:17+00:00",
+  "date_redac": "2026-10-03T23:08:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 796,
+   "sortie": 728
+  }
+ },
+ {
+  "id": "a1b65ab2b604b6a1",
+  "slug": "recherche-web-locale-securiser-sans-casser-les-appels-d-outils-a1b65a",
+  "titre": "Recherche web locale : sécuriser sans casser les appels d'outils",
+  "resume": "Un utilisateur de r/LocalLLaMA demande comment déployer la recherche web sans risque dans Hermes, Pi et d'autres harnais d'agents, et cherche un guide de configuration pour les modèles locaux. Sa propre tentative de recherche en sandbox a provoqué des appels d'outils sans fin. Deux objectifs affichés : se prémunir contre l'injection de prompt et garder les recherches privées.",
+  "tags": [
+   "sécurité",
+   "agents",
+   "hermes",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wx06ba/local_web_search_safety/",
+  "date_source": "2026-10-03T22:46:28+00:00",
+  "date_redac": "2026-10-03T23:08:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 665,
+   "sortie": 713
+  }
+ },
+ {
   "id": "2ab34a7bbf702554",
   "slug": "la-lettre-mensuelle-de-septembre-de-simon-willison-est-reservee-a-ses--2ab34a",
   "titre": "La lettre mensuelle de septembre de Simon Willison est réservée à ses sponsors",

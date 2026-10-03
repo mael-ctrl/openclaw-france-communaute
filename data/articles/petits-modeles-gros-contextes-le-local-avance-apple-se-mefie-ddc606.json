@@ -1,0 +1,41 @@
+{
+ "slug": "petits-modeles-gros-contextes-le-local-avance-apple-se-mefie-ddc606",
+ "titre": "Petits modèles, gros contextes : le local avance, Apple se méfie des agents",
+ "chapo": "Microsoft publie FrogNano-4B-2609, un modèle agentique taillé pour l'ingénierie logicielle sur GPU modestes. Pendant que Kyojin et Ninfer 4080 repoussent les limites du matériel grand public, Apple resserre l'accès au disque de macOS en pointant les agents IA du doigt.",
+ "html": "<h2 id=\"microsoft-vise-le-depot-pas-le-benchmark\">Microsoft vise le dépôt, pas le benchmark</h2>\n<p>FrogNano-4B-2609 est un modèle agentique publié par Microsoft et destiné aux <strong>GPU modestes</strong>. Il dérive de Qwen3.5-4B, dont il reprend l'architecture dense à 32 couches, mais son post-entraînement — purement textuel — cible l'ingénierie logicielle <strong>au niveau du dépôt</strong>, pas la conversation générale.</p>\n<p>L'apprentissage par renforcement s'appuie sur environ <strong>1 500 environnements de tâches SWE synthétiques</strong>, générés via TaskPilot, avec le harnais Leaf et des récompenses fondées sur des tests. Autrement dit : le modèle est jugé sur sa capacité à faire passer des tests, pas sur son éloquence.</p>\n<p>La mise en ligne est relayée sur r/LocalLLaMA, où la communauté suit de près ces petits modèles spécialisés, plus faciles à faire tourner en local qu'un modèle de frontier.</p>\n<h2 id=\"deux-moe-300b-sur-128-go-et-qwen-27b-sur\">Deux MoE 300B sur 128 Go, et Qwen 27B sur 16 Go</h2>\n<p>Le moteur <strong>Kyojin</strong>, construit sur ExLlamaV3 pour Strix Halo (gfx1151, ROCm), fait tenir <strong>deux modèles MoE de classe 300B chacun</strong> sur une seule machine de 128 Go. Les mesures ont été prises sur un Ryzen AI Max+ 395 : GLM-5.3-Flash (99,7 Go) atteint 580 tok/s en prefill à 3,5K et 26 à 30 tok/s en décodage, tandis que MiMo-V2.6-Flash-MOPD (105 Go) grimpe à 44 tok/s en code.</p>\n<p>Côté quantification, les poids de MiMo viennent d'une préparation maison ; le pack GLM mélange des tenseurs EXL3 publics de turboderp en 2,05 et 3,05 bpw. Le tout tient sur une seule machine, sans grappe.</p>\n<p>Autre approche, autre échelle : <strong>Ninfer 4080</strong> fait tourner ISTA-DASLab-Qwen-3.8-27B-GSQ sur une RTX 4080 de 16 Go avec 100k de contexte. L'auteur annonce jusqu'à <strong>2 720 tok/s en préfill</strong> et 262 tok/s en génération, là où les projets Ninfer 5090, 4090 et 3090 restaient hors de portée de cette classe de GPU. Le code est partagé sur GitHub ; le développeur revendique 20 ans d'expérience en ingénierie logicielle, mais aucune en développement de kernels GPU.</p>\n<h2 id=\"apple-resserre-la-vis-sur-les-agents\">Apple resserre la vis sur les agents</h2>\n<p>Apple a annoncé le <strong>vendredi 2 octobre</strong> de nouveaux contrôles sur l'accès complet au disque de macOS, en désignant les <strong>agents IA</strong> comme principal danger. Ces garde-fous arrivent deux semaines après qu'un journaliste a accusé <strong>Muse</strong>, l'agent IA de Meta, d'avoir lu ses messages privés.</p>\n<p>Les nouvelles règles ciblent les assistants capables d'explorer les fichiers d'un Mac. L'accès complet au disque, longtemps un simple réglage technique, devient un point de friction entre des agents toujours plus curieux et un système qui refuse de les laisser fouiller sans prévenir.</p>\n<h2 id=\"la-pr-de-600-lignes-et-la-question-qui-f\">La PR de 600 lignes et la question qui fâche</h2>\n<p>Sur r/LocalLLaMA, un développeur raconte une revue de code récente : une PR d'environ <strong>600 lignes</strong>, générée, structurée et ouverte en <strong>moins de vingt minutes</strong>. Syntaxe propre, tests de base passés. Rien qui saute aux yeux à la lecture.</p>\n<p>Sauf que, interrogé sur un cas limite du gestionnaire de requêtes, l'auteur de la PR a répondu : « <strong>Attends, je demande au modèle</strong> ». Le fil contredit le discours des « 10x » : comprendre le système était le vrai goulot d'étranglement, pas la frappe. La vitesse de production ne sert à rien si personne, derrière, ne sait plus pourquoi le code est là.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dépêches décrivent la même tendance : des modèles plus gros et plus spécialisés tiennent sur du matériel que l'on possède déjà — mini-PC de 128 Go, RTX 4080, GPU modestes. Deux autres montrent l'autre face : des agents qui lisent des fichiers ou écrivent du code sans que quiconque comprenne toujours ce qu'ils font. Rien n'indique ici de lien de cause à effet, mais les deux mouvements avancent ensemble.</p>",
+ "pivot": "ddc606f6e799cb04",
+ "tags": [
+  "agents",
+  "dev",
+  "matériel",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww40o2/microsoftfrognano4b2609_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwocik/two_300b_moe_models_each_on_one_128_gb_mini_pc/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/os/macos/3271541_acces-complet-au-disque-sur-mac-apple-ne-veut-plus-dagents-ia-qui-lisent-tout-sans-prevenir"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwv0fj/i_built_ninfer_4080_for_16gb_class_gpus/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwum69/anyone_else_noticing_that_coding_models_are_just/"
+  }
+ ],
+ "date": "2026-10-03T23:08:56+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1744,
+  "sortie": 5117
+ }
+}

@@ -1,5 +1,26 @@
 [
  {
+  "id": "78e3e1827b78cdba",
+  "slug": "ninfer-4080-qwen-27b-sur-100k-de-contexte-avec-une-gpu-16-go-78e3e1",
+  "titre": "Ninfer 4080 : Qwen 27B sur 100k de contexte avec une GPU 16 Go",
+  "resume": "Un développeur publie Ninfer 4080, qui fait tourner ISTA-DASLab-Qwen-3.8-27B-GSQ sur une RTX 4080 de 16 Go avec 100k de contexte. Il annonce jusqu'à 2720 tok/s en préfill et 262 tok/s en génération, là où les projets Ninfer 5090, 4090 et 3090 restaient hors de portée de cette classe de GPU. Le code est partagé sur GitHub ; l'auteur dit avoir 20 ans d'expérience en ingénierie logicielle, mais aucune en développement de kernels GPU.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwv0fj/i_built_ninfer_4080_for_16gb_class_gpus/",
+  "date_source": "2026-10-03T18:58:58+00:00",
+  "date_redac": "2026-10-03T19:31:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 834,
+   "sortie": 709
+  }
+ },
+ {
   "id": "2e0bf4d1172c2c43",
   "slug": "amazon-dit-ne-plus-utiliser-de-nda-face-a-la-defiance-envers-les-data--2e0bf4",
   "titre": "Amazon dit ne plus utiliser de NDA face à la défiance envers les data centers",

@@ -1,0 +1,41 @@
+{
+ "slug": "unifolm-wla-1-0-qwen3-8-en-local-apple-quatre-depeches-a-lir-dc2da3",
+ "titre": "UnifoLM-WLA-1.0, Qwen3.8 en local, Apple : quatre dépêches à lire",
+ "chapo": "Un humanoïde qui fait le lit, trois checkpoints Qwen3.8 passés au crible sur une RTX PRO 6000, Apple qui resserre l'accès disque et un benchmark où l'agent corrige les bugs seul : quatre dépêches pour prendre le pouls de l'IA appliquée.",
+ "html": "<h2 id=\"unitree-met-un-modele-de-fondation-dans-\">Unitree met un modèle de fondation dans le G1</h2>\n<p>Unitree Robotics présente <strong>UnifoLM-WLA-1.0</strong>, un modèle de fondation humanoïde de 6 milliards de paramètres, entraîné sur environ 2 500 heures de données issues de robots réels. La formulation compte : il ne s'agit pas d'un contrôleur par tâche, mais d'un seul modèle couvrant 64 tâches — 10 de corps entier et 54 sur table, avec pincements parallèles ou deux mains dextres.</p>\n<p>La démonstration tourne sur le robot G1, et le choix des scènes est parlant : faire le lit, charger la machine à laver, plier du linge, trier des objets. Du domestique, exécuté par un même jeu de poids.</p>\n<h2 id=\"qwen3-8-en-local-trois-semaines-de-tests\">Qwen3.8 en local : trois semaines de tests, dix épreuves</h2>\n<p>Trois semaines de tests, dix épreuves identiques, une RTX PRO 6000 : c'est le protocole suivi par un utilisateur de r/LocalLLaMA pour comparer trois checkpoints Qwen3.8.</p>\n<ul>\n<li>RadixArk/Qwen3.8-27B-NVFP4 (dense)</li>\n<li>orcarouter/Qwen3.8-27B-Uncensored-NVFP4 (dense, fine-tune non censuré)</li>\n<li>RadixArk/Qwen3.8-Flash-Next-NVFP4 (MoE)</li>\n</ul>\n<p>Bilan : <strong>Flash-Next remporte 5 tests</strong>, le 27B dense 4, l'Uncensored aucun, avec une égalité. Le rappel en contexte long atteint 100 % pour les trois — le fine-tune non censuré ne se distingue donc pas sur ce point.</p>\n<p>L'écart le plus net est ailleurs. Le prefill sur fenêtre complète prend 22,4 s à Flash-Next, contre 97 s et 99 s pour les deux modèles denses, à plafond de puissance différent. Sur le 27B, le draft model DFlash2 fait passer Spec-Bench de 75 à 210 tok/s, soit 2,8×, et SGLang devance vLLM (210 contre 160 tok/s).</p>\n<p>Côté matériel, AMD a publié une mise à jour du système d'exploitation de sa Ryzen AI Developer Platform, qui embarque ROCm 10.0 et Linux 7.2 — une information relayée sur r/LocalLLaMA, où elle concerne directement ceux qui font tourner des modèles en local sur du matériel AMD.</p>\n<h2 id=\"apple-resserre-l-acces-disque-face-aux-a\">Apple resserre l'accès disque face aux agents</h2>\n<p>Apple s'apprête à restreindre l'accès complet au disque (« full disk access ») sur Mac, en réponse aux risques que font peser les agents IA. Dans une mise à jour publiée vendredi, le constructeur indique déployer de nouveaux contrôles, pour que seuls les utilisateurs souhaitant réellement accorder ce niveau d'accès exceptionnel à une application puissent le faire.</p>\n<p>C'est précisément le type de permission qu'un agent doit obtenir pour lire, écrire et déplacer des fichiers sans friction. La dépêche ne détaille pas les scénarios visés, mais le lien avec les agents y est explicite.</p>\n<h2 id=\"swe-sweep-l-agent-chasse-les-bugs-avant-\">SWE-sweep : l'agent chasse les bugs avant les utilisateurs</h2>\n<p>SWE-sweep propose un exercice différent : confier à un agent un large dépôt de code et le laisser trouver et corriger un maximum de bugs par lui-même. Le score ne repose pas sur des cas fabriqués, mais sur un ensemble caché de bugs réels, filtrés pour être détectables et corrigeables à la seule lecture du dépôt.</p>\n<p>Le benchmark est signé par des chercheurs de Meta, Stanford, Harvard et UW. Son classement s'étend encore à d'autres modèles locaux, ce qui en fait un terrain de comparaison utilisable au-delà des modèles propriétaires.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux fronts avancent ici à des rythmes différents. Côté modèles : un modèle de fondation unique pour 64 tâches robotiques, des checkpoints locaux comparés sur le prefill et le débit, une pile ROCm qui monte en version. Côté garde-fous : Apple resserre une permission système au nom des risques liés aux agents, et un benchmark mesure ce qu'un agent peut corriger seul dans un dépôt. Les deux fronts ne se croisent pas encore, mais ils traitent du même sujet : ce qu'on laisse faire à une machine.</p>",
+ "pivot": "dc2da3be9ef6539b",
+ "tags": [
+  "robots",
+  "matériel",
+  "agents",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww6750/i_spent_3_weeks_testing_local_qwen38_on_the_new/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww49o9/amd_ryzen_ai_developer_platform_os_updated_with/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvxph8/new_benchmark_on_lms_fixing_bugs_before_users_run/"
+  }
+ ],
+ "date": "2026-10-03T00:20:21+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1738,
+  "sortie": 4452
+ }
+}

@@ -1,5 +1,130 @@
 [
  {
+  "id": "dc2da3be9ef6539b",
+  "slug": "unitree-devoile-unifolm-wla-1-0-un-modele-humanoide-de-6b-pour-64-tach-dc2da3",
+  "titre": "Unitree dévoile UnifoLM-WLA-1.0, un modèle humanoïde de 6B pour 64 tâches",
+  "resume": "Unitree Robotics présente UnifoLM-WLA-1.0, un modèle de fondation humanoïde de 6B paramètres entraîné sur environ 2 500 heures de données issues de robots réels. Un seul modèle couvre 64 tâches, dont 10 de corps entier et 54 sur table, avec pincements parallèles ou deux mains dextres. La démonstration tourne sur le robot G1 : faire le lit, charger la machine à laver, plier du linge, trier des objets.",
+  "tags": [
+   "robots",
+   "recherche",
+   "matériel"
+  ],
+  "importance": 4,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/",
+  "date_source": "2026-10-03T00:00:09+00:00",
+  "date_redac": "2026-10-03T00:19:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 876,
+   "sortie": 573
+  }
+ },
+ {
+  "id": "57982768264f5f14",
+  "slug": "r-localllama-des-cas-de-reussite-plutot-que-la-hype-de-la-semaine-579827",
+  "titre": "r/LocalLLaMA : des cas de réussite plutôt que la hype de la semaine",
+  "resume": "Sur r/LocalLLaMA, l'utilisateur JLeonsarmiento demande si la communauté doit tourner la page de la hype de la semaine écoulée ou si des membres ont des cas de réussite à partager pour inspirer les autres. La publication, datée du 2 octobre 2026, ne détaille ni projet, ni modèle, ni retour d'expérience. Elle traduit une envie de résultats concrets plutôt que de hype.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1ww86ny/so_should_we_turn_the_page_on_this_past_week_hype/",
+  "date_source": "2026-10-02T23:18:18+00:00",
+  "date_redac": "2026-10-03T00:19:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 631,
+   "sortie": 1049
+  }
+ },
+ {
+  "id": "77d0347aba53386e",
+  "slug": "openclaw-publie-la-version-2026-9-8-77d034",
+  "titre": "OpenClaw publie la version 2026.9.8",
+  "resume": "OpenClaw publie la version 2026.9.8, référencée sur le dépôt GitHub du projet sous l'étiquette v2026.9.8. La publication est datée du 2 octobre 2026. Les notes accompagnant cette version ne détaillent pas les changements apportés.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.8",
+  "date_source": "2026-10-02T23:03:52+00:00",
+  "date_redac": "2026-10-03T00:19:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 593,
+   "sortie": 539
+  }
+ },
+ {
+  "id": "52597d32cb28aee7",
+  "slug": "en-irlande-un-labo-d-ia-dans-un-college-public-cherche-quoi-enseigner-52597d",
+  "titre": "En Irlande, un labo d'IA dans un collège public cherche quoi enseigner",
+  "resume": "Un internaute raconte sur r/LocalLLaMA avoir obtenu un financement pour un petit labo d'IA au sein d'un établissement public d'enseignement supérieur en Irlande, l'équivalent d'un community college américain. Le matériel dont dispose le labo est décrit comme correct. L'objectif affiché : donner aux étudiants des compétences utiles qui vont au-delà du simple usage de ChatGPT. Il demande des idées à la communauté, reconnaissant que d'autres connaissent bien mieux le sujet que lui.",
+  "tags": [
+   "skills",
+   "société",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1ww6wvo/ive_ended_up_with_an_ai_lab_in_a_public_community/",
+  "date_source": "2026-10-02T22:18:29+00:00",
+  "date_redac": "2026-10-03T00:19:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 701,
+   "sortie": 397
+  }
+ },
+ {
+  "id": "0d69d2fc76d36b90",
+  "slug": "peacebell-un-petit-modele-de-langage-dedie-a-la-seconde-guerre-mondial-0d69d2",
+  "titre": "Peacebell, un petit modèle de langage dédié à la Seconde Guerre mondiale",
+  "resume": "Un développeur a passé onze mois, soirs et week-ends, à construire Peacebell, un petit modèle de langage spécialisé sur la Seconde Guerre mondiale, doté d'un pipeline d'entraînement maison. Il a choisi ce thème pour les articles Wikipédia sous licence permissive, les sources du domaine public, sa densité factuelle et la stabilité des faits, qui devrait bien vieillir. Son travail est documenté sur son blog.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1ww68lc/peacebell_a_fromscratch_small_language_model/",
+  "date_source": "2026-10-02T21:49:23+00:00",
+  "date_redac": "2026-10-03T00:19:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 798,
+   "sortie": 1104
+  }
+ },
+ {
+  "id": "bdeafa87c7fb95d3",
+  "slug": "qwen3-8-en-local-trois-checkpoints-compares-sur-rtx-pro-6000-bdeafa",
+  "titre": "Qwen3.8 en local : trois checkpoints comparés sur RTX PRO 6000",
+  "resume": "Après trois semaines de tests, un utilisateur a fait passer trois checkpoints Qwen3.8 dans les mêmes dix épreuves sur une RTX PRO 6000 : RadixArk/Qwen3.8-27B-NVFP4 (dense), orcarouter/Qwen3.8-27B-Uncensored-NVFP4 (dense, fine-tune non censuré) et RadixArk/Qwen3.8-Flash-Next-NVFP4 (MoE). Bilan : Flash-Next remporte 5 tests, le 27B dense 4, l'Uncensored aucun, avec une égalité — le rappel en contexte long atteint 100 % pour les trois. Le prefill sur fenêtre complète prend 22,4 s à Flash-Next contre 97 s et 99 s pour les deux denses, à plafond de puissance différent. Sur le 27B, le draft model DFlash2 fait passer Spec-Bench de 75 à 210 tok/s pour un utilisateur, soit 2,8×, et SGLang devance vLLM (210 contre 160 tok/s).",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1ww6750/i_spent_3_weeks_testing_local_qwen38_on_the_new/",
+  "date_source": "2026-10-02T21:47:32+00:00",
+  "date_redac": "2026-10-03T00:20:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 971,
+   "sortie": 729
+  }
+ },
+ {
   "id": "6caf3c57cef16770",
   "slug": "rtx-5090-une-declaration-de-non-export-demandee-chez-micro-center-6caf3c",
   "titre": "RTX 5090 : une déclaration de non-export demandée chez Micro Center",

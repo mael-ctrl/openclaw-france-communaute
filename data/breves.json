@@ -1,5 +1,27 @@
 [
  {
+  "id": "0bb22ba4afe942d0",
+  "slug": "un-serveur-wow-prive-pilote-par-des-agents-llm-dans-le-navigateur-0bb22b",
+  "titre": "Un serveur WoW privé piloté par des agents LLM dans le navigateur",
+  "resume": "Un membre de r/LocalLLaMA a monté son propre serveur privé World of Warcraft et un client jouable gratuitement dans le navigateur, sur PC comme sur mobile. Il a créé un MCP et un harness d'agent qui pilotent ce client par websocket pour faire jouer le modèle à sa place. Les modèles locaux peuvent s'y connecter si CORS est activé côté serveur. L'inférence tourne en local via HyperQwen et le modèle Qwen3.8-27B-GPTQ-W4A16.",
+  "tags": [
+   "agents",
+   "dev",
+   "open-source",
+   "claude"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwqclz/come_let_your_llms_play_world_of_warcraft/",
+  "date_source": "2026-10-03T15:42:52+00:00",
+  "date_redac": "2026-10-03T15:54:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 828,
+   "sortie": 982
+  }
+ },
+ {
   "id": "fe1686aebf7b6747",
   "slug": "pour-la-ceo-de-splice-les-e-mails-rediges-par-ia-tuent-la-conversation-fe1686",
   "titre": "Pour la CEO de Splice, les e-mails rédigés par IA tuent la conversation",
@@ -161,6 +183,27 @@
    "modele": "deepseek-flash",
    "entree": 702,
    "sortie": 597
+  }
+ },
+ {
+  "id": "5d8c7e593527552e",
+  "slug": "hillock-du-rag-local-sans-base-vectorielle-via-sqlite-et-hypervecteurs-5d8c7e",
+  "titre": "Hillock : du RAG local sans base vectorielle, via SQLite et hypervecteurs SIMD",
+  "resume": "Un développeur publie Hillock, un projet open source qui remplace les bases vectorielles par SQLite et des hypervecteurs SIMD, sous 1,2 Go de VRAM. Il extrait des faits relationnels propres via des bi-encodeurs légers en cinq secondes, sans passer par le LLM génératif. Objectif : ne pas mobiliser la VRAM du modèle principal et limiter les hallucinations, la similarité cosinus échouant souvent à rejeter les faux positifs.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwn7xf/replacing_vector_databases_with_sqlite_and_simd/",
+  "date_source": "2026-10-03T13:25:29+00:00",
+  "date_redac": "2026-10-03T15:54:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 786,
+   "sortie": 1044
   }
  },
  {

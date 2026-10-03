@@ -1,0 +1,41 @@
+{
+ "slug": "kyojin-fait-tenir-deux-moe-de-300b-sur-un-mini-pc-de-128-go-f7c7d9",
+ "titre": "Kyojin fait tenir deux MoE de 300B sur un mini-PC de 128 Go",
+ "chapo": "Deux modèles MoE de classe 300B tournent sur une seule machine de 128 Go, quand Aleph Alpha publie un 78B à 3,46B de paramètres actifs. En parallèle, le RAG local cherche à sortir la base vectorielle de l'équation, et Unitree met un modèle de fondation de 6B dans son humanoïde G1.",
+ "html": "<h2 id=\"300b-sur-un-bureau-3-46b-actifs-chez-ale\">300B sur un bureau, 3,46B actifs chez Aleph Alpha</h2>\n<p>Le moteur <strong>Kyojin</strong>, construit sur ExLlamaV3 pour Strix Halo (gfx1151, ROCm), fait tenir deux modèles MoE de classe 300B chacun sur une machine unique de 128 Go. Les mesures publiées sur un Ryzen AI Max+ 395 donnent 580 tok/s en prefill à 3,5K et 26 à 30 tok/s en décodage pour GLM-5.3-Flash (99,7 Go), contre jusqu'à 44 tok/s en code pour MiMo-V2.6-Flash-MOPD (105 Go). Les poids de MiMo viennent d'une quantification maison ; le pack GLM mélange des tenseurs EXL3 publics de turboderp en 2,05 et 3,05 bpw.</p>\n<p>La même semaine, <strong>Aleph Alpha</strong> met en ligne Kolibri-1 sur Hugging Face : 78 milliards de paramètres, dont 3,46 milliards actifs, sous licence Apache 2.0. Le modèle revendique un contexte allant jusqu'à 1 million de tokens, et le laboratoire allemand accompagne la publication d'un rapport technique téléchargeable en PDF.</p>\n<p>Deux approches pour un même objectif : ramener le coût d'inférence à ce qu'une machine unique peut absorber, en jouant sur la quantification côté Kyojin et sur une architecture à paramètres actifs réduits côté Kolibri.</p>\n<h2 id=\"hillock-le-rag-sans-base-vectorielle\">Hillock : le RAG sans base vectorielle</h2>\n<p>Un développeur publie <strong>Hillock</strong>, un projet open source qui remplace les bases vectorielles par SQLite et des hypervecteurs SIMD, sous 1,2 Go de VRAM. Le principe : extraire des faits relationnels propres via des bi-encodeurs légers, en cinq secondes, sans passer par le LLM génératif.</p>\n<p>Deux objectifs sont affichés. D'abord ne pas mobiliser la VRAM du modèle principal. Ensuite limiter les hallucinations : selon l'auteur, la similarité cosinus échoue souvent à rejeter les faux positifs, ce qui justifie une couche de faits explicites plutôt qu'un simple voisinage vectoriel.</p>\n<p>L'approche ne remplace pas le modèle, elle déplace la récupération d'information hors de son espace mémoire. Pour quiconque fait tourner un gros modèle en local sur une machine unique, la question du budget VRAM n'est pas théorique.</p>\n<h2 id=\"unitree-un-seul-modele-pour-64-taches\">Unitree : un seul modèle pour 64 tâches</h2>\n<p><strong>Unitree Robotics</strong> présente UnifoLM-WLA-1.0, un modèle de fondation humanoïde de 6B paramètres, entraîné sur environ 2 500 heures de données issues de robots réels. Un seul modèle couvre 64 tâches : 10 de corps entier et 54 sur table, avec pincements parallèles ou deux mains dextres.</p>\n<p>La démonstration tourne sur le robot G1 : faire le lit, charger la machine à laver, plier du linge, trier des objets. Les 64 tâches sont donc couvertes par un même modèle, là où l'on empile souvent des politiques spécialisées.</p>\n<p>À 6B paramètres, le format reste modeste comparé aux MoE de classe 300B évoqués plus haut — mais l'enjeu n'est pas la taille du modèle, il est dans les données d'entraînement, issues de machines réelles.</p>\n<h2 id=\"nvidia-et-softbank-soldent-la-levee-d-op\">Nvidia et SoftBank soldent la levée d'OpenAI</h2>\n<p><strong>Nvidia et SoftBank</strong> ont versé le 1er octobre 2026 leurs dernières tranches de 10 milliards de dollars (environ 9 milliards d'euros) chacune à OpenAI. Ces paiements soldent la levée de 122 milliards de dollars annoncée en mars, dont environ 90 % provient de ces deux groupes et d'Amazon.</p>\n<p>Le détail qui retient l'attention : Nvidia finance ainsi son meilleur client pour les GPU. Le montant et le calendrier sont publics, la lecture stratégique l'est moins.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux mouvements se croisent sans se confondre. D'un côté, une pression continue à l'efficacité : des modèles à paramètres actifs réduits, des tenseurs quantifiés en 2 bpw, un moteur comme Kyojin qui parie sur du matériel AMD grand public, et une couche de récupération qui refuse d'occuper la VRAM du modèle. De l'autre, une concentration de capital sans équivalent, où Nvidia et SoftBank pèsent à eux seuls l'essentiel d'une levée de 122 milliards de dollars. Les deux courbes peuvent coexister longtemps : l'optimisation locale ne pèse pas sur les montants investis dans les gros acteurs.</p>",
+ "pivot": "f7c7d900e2b64bdd",
+ "tags": [
+  "open-source",
+  "matériel",
+  "robots",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwocik/two_300b_moe_models_each_on_one_128_gb_mini_pc/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/openai/3271533_nvidia-investit-30-milliards-dans-openai-son-meilleur-client-pour-les-gpu"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwn7xf/replacing_vector_databases_with_sqlite_and_simd/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwl7y6/alephalphakolibri1_hugging_face_78b_parameters/"
+  }
+ ],
+ "date": "2026-10-03T15:54:43+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1693,
+  "sortie": 3581
+ }
+}

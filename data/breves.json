@@ -1,5 +1,47 @@
 [
  {
+  "id": "2ab34a7bbf702554",
+  "slug": "la-lettre-mensuelle-de-septembre-de-simon-willison-est-reservee-a-ses--2ab34a",
+  "titre": "La lettre mensuelle de septembre de Simon Willison est réservée à ses sponsors",
+  "resume": "Simon Willison a envoyé l'édition de septembre de sa lettre d'information mensuelle, accessible uniquement aux personnes qui le soutiennent financièrement. Au sommaire : des modèles de classe Fable, une guerre des prix, la 3D, Blender et le pixel art, les LLM qui s'attaquent aux mathématiques, de nombreuses cyberattaques accidentelles, la « vulnapocalypse » qui touche Datasette, ses outils du moment et ses sorties logicielles du mois. La lettre d'août est disponible gratuitement en aperçu, l'abonnement coûtant 10 dollars par mois pour avoir un mois d'avance sur la version gratuite.",
+  "tags": [
+   "dev",
+   "business",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/3/newsletter/",
+  "date_source": "2026-10-03T22:00:31+00:00",
+  "date_redac": "2026-10-03T22:04:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 701,
+   "sortie": 429
+  }
+ },
+ {
+  "id": "6f8422b9b71da5fd",
+  "slug": "deux-radeon-mi50-sous-vulkan-benchmarks-llama-cpp-jusqu-a-32-go-de-vra-6f8422",
+  "titre": "Deux Radeon MI50 sous Vulkan : benchmarks llama.cpp jusqu'à 32 Go de VRAM",
+  "resume": "Un utilisateur de r/LocalLLaMA partage des benchmarks llama.cpp sur deux Radeon MI50, bridées à 145 W chacune. Chaque carte embarque 16 Go de HBM2 cadencée à 1000 MHz (1,02 To/s), pour un total de 32 Go exploité avec un mélange de modèles denses et MoE. Le firmware de l'une des cartes a été modifié pour activer le port miniDP, avec xrandr pour obtenir du 1920x1080. Le refroidissement, lui, reste encore à améliorer.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwxuoh/dual_radeon_mi50_benchmarks/",
+  "date_source": "2026-10-03T20:59:13+00:00",
+  "date_redac": "2026-10-03T22:04:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 905,
+   "sortie": 795
+  }
+ },
+ {
   "id": "4d458e0e61804592",
   "slug": "un-modele-entraine-uniquement-sur-des-blagues-fait-reagir-r-localllama-4d458e",
   "titre": "Un modèle entraîné uniquement sur des blagues fait réagir r/LocalLLaMA",

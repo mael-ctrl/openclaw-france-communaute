@@ -1,0 +1,41 @@
+{
+ "slug": "rag-sans-base-vectorielle-moe-de-300b-sur-mini-pc-le-local-s-5d8c7e",
+ "titre": "RAG sans base vectorielle, MoE de 300B sur mini-PC : le local se débrouille",
+ "chapo": "Sur r/LocalLLaMA, quatre publications de la semaine dessinent une même trajectoire : faire plus avec moins de VRAM. Base vectorielle remplacée par SQLite, deux MoE de 300B sur un mini-PC de 128 Go, un 27B sur 100k de contexte avec une carte de 16 Go — et, en creux, la question de ce qu'on comprend encore de son propre code.",
+ "html": "<h2 id=\"hillock-le-rag-sans-base-vectorielle\">Hillock : le RAG sans base vectorielle</h2>\n<p>Un développeur publie <strong>Hillock</strong>, un projet open source qui se passe de base vectorielle. À la place : SQLite et des hypervecteurs SIMD, le tout sous 1,2 Go de VRAM. L'extraction des faits relationnels passe par des bi-encodeurs légers et prend cinq secondes, sans mobiliser le LLM génératif.</p>\n<p>Le raisonnement est double. D'abord ne pas consommer la VRAM du modèle principal, qui reste le poste le plus contraint quand on fait tourner un modèle en local. Ensuite limiter les hallucinations : la similarité cosinus, avance l'auteur, échoue souvent à rejeter les faux positifs — un passage proche par la distance mais hors sujet finit quand même dans le contexte envoyé au modèle.</p>\n<p>L'argument porte donc sur deux ressources rares en local : la mémoire de la carte graphique, et la tolérance aux faux positifs d'un retrieval qui ne sait dire que « proche » ou « loin ».</p>\n<h2 id=\"300b-sur-128-go-27b-sur-16-go\">300B sur 128 Go, 27B sur 16 Go</h2>\n<p>Le moteur <strong>Kyojin</strong>, construit sur ExLlamaV3 pour Strix Halo (gfx1151, ROCm), fait tenir deux modèles MoE de classe 300B chacun sur une seule machine de 128 Go. Les mesures, prises sur un Ryzen AI Max+ 395, donnent pour GLM-5.3-Flash (99,7 Go) 580 tok/s en prefill à 3,5K et 26 à 30 tok/s en décodage ; MiMo-V2.6-Flash-MOPD (105 Go) monte à 44 tok/s en code. Les poids de MiMo viennent d'une quantification maison, et le pack GLM mélange des tenseurs EXL3 publics de turboderp en 2,05 et 3,05 bpw.</p>\n<p>Toujours sur r/LocalLLaMA, <strong>Ninfer 4080</strong> place ISTA-DASLab-Qwen-3.8-27B-GSQ sur une RTX 4080 de 16 Go avec 100k de contexte. L'auteur annonce jusqu'à 2720 tok/s en préfill et 262 tok/s en génération, là où les variantes Ninfer 5090, 4090 et 3090 restaient hors de portée de cette classe de GPU. Le code est partagé sur GitHub. Le développeur revendique vingt ans d'ingénierie logicielle, mais aucune expérience en développement de kernels GPU.</p>\n<p>Les deux projets visent des machines qu'on possède déjà plutôt que des clusters : 128 Go de mémoire unifiée d'un côté, une carte grand public de 16 Go de l'autre. Dans les deux cas, l'essentiel du travail se joue sur la quantification et les kernels, pas sur l'entraînement.</p>\n<h2 id=\"unifolm-wla-1-0-6b-pour-64-taches\">UnifoLM-WLA-1.0 : 6B pour 64 tâches</h2>\n<p>Côté robotique, <strong>Unitree Robotics</strong> présente UnifoLM-WLA-1.0, un modèle de fondation humanoïde de 6B paramètres, entraîné sur environ 2 500 heures de données issues de robots réels. Un seul modèle couvre 64 tâches : dix de corps entier et cinquante-quatre sur table, avec pincements parallèles ou deux mains dextres. La démonstration tourne sur le robot G1 — faire le lit, charger la machine à laver, plier du linge, trier des objets.</p>\n<p>Le chiffre qui compte ici n'est pas la taille du modèle mais le nombre de tâches couvertes par un seul jeu de poids. 6B, c'est peu à l'échelle des MoE de 300B évoqués plus haut ; les 2 500 heures, elles, viennent de robots physiques et non de traces textuelles.</p>\n<h2 id=\"attends-je-demande-au-modele\">« Attends, je demande au modèle »</h2>\n<p>Un développeur raconte une revue de code récente : une PR d'environ 600 lignes générée, structurée et ouverte en moins de vingt minutes. Syntaxe propre, tests de base passés. Puis la question tombe sur un cas limite du gestionnaire de requêtes, et l'auteur répond : « Attends, je demande au modèle ».</p>\n<p>Le fil contredit le discours des « 10x » : comprendre le système était le vrai goulot d'étranglement, pas la frappe. La revue portait moins sur la syntaxe que sur la capacité de l'auteur à expliquer ce que fait son code quand l'entrée ne ressemble plus à celle du test.</p>\n<h2>Et maintenant ?</h2>\n<p>Pris ensemble, ces dépêches décrivent un local qui avance sur deux fronts : descendre le coût matériel de l'inférence, et déléguer à des composants plus petits ce qu'on faisait porter au grand modèle. Kyojin et Ninfer 4080 poussent le premier, Hillock le second. La revue de code rappelle l'autre versant : la vitesse d'écriture n'a de valeur que si la compréhension suit, et aucun chiffre de tok/s ne dit qui, dans l'équipe, sait encore pourquoi le gestionnaire de requêtes se comporte ainsi.</p>",
+ "pivot": "5d8c7e593527552e",
+ "tags": [
+  "open-source",
+  "matériel",
+  "robots",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwn7xf/replacing_vector_databases_with_sqlite_and_simd/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwocik/two_300b_moe_models_each_on_one_128_gb_mini_pc/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwv0fj/i_built_ninfer_4080_for_16gb_class_gpus/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwum69/anyone_else_noticing_that_coding_models_are_just/"
+  }
+ ],
+ "date": "2026-10-03T22:04:38+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1760,
+  "sortie": 4578
+ }
+}

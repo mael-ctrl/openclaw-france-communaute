@@ -1,5 +1,69 @@
 [
  {
+  "id": "09175729caada88d",
+  "slug": "hermes-agent-une-nouvelle-build-canary-v0-21-4-publiee-sur-github-091757",
+  "titre": "Hermes Agent : une nouvelle build canary v0.21.4 publiée sur GitHub",
+  "resume": "NousResearch a publié une nouvelle build canary de Hermes Agent, identifiée par le tag v0.21.4+canary.20261003T070620Z, sur la page des releases GitHub du projet. Le canal canary correspond aux versions de test publiées en amont d'une version stable. Aucune note ne détaille les changements apportés dans l'extrait disponible.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.4%2Bcanary.20261003T070620Z",
+  "date_source": "2026-10-03T07:06:22+00:00",
+  "date_redac": "2026-10-03T07:14:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 806
+  }
+ },
+ {
+  "id": "122a7b6c36a471d3",
+  "slug": "nvidia-et-softbank-versent-chacun-10-milliards-de-dollars-a-openai-122a7b",
+  "titre": "Nvidia et SoftBank versent chacun 10 milliards de dollars à OpenAI",
+  "resume": "Nvidia et SoftBank ont versé le 1er octobre 2026 leurs dernières tranches de 10 milliards de dollars (environ 9 milliards d'euros) chacune à OpenAI. Ces paiements soldent la levée de 122 milliards de dollars annoncée en mars, dont environ 90 % provient de ces deux groupes et d'Amazon. Nvidia finance ainsi son meilleur client pour les GPU.",
+  "tags": [
+   "openai",
+   "business",
+   "matériel"
+  ],
+  "importance": 4,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/openai/3271533_nvidia-investit-30-milliards-dans-openai-son-meilleur-client-pour-les-gpu",
+  "date_source": "2026-10-03T07:04:24+00:00",
+  "date_redac": "2026-10-03T07:14:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 717,
+   "sortie": 541
+  }
+ },
+ {
+  "id": "30d0fd8ed10fbf8f",
+  "slug": "qwen3-8-flash-next-177b-tourne-a-11-15-tok-s-sur-une-rtx-5070-12-go-30d0fd",
+  "titre": "Qwen3.8-Flash-Next 177B tourne à 11-15 tok/s sur une RTX 5070 12 Go",
+  "resume": "Un utilisateur de r/LocalLLaMA fait tourner Qwen3.8-Flash-Next 177B en quantification UD-IQ3_XXS avec llama.cpp sur Windows, via un système de streaming d'experts. Sur une RTX 5070 12 Go, 32 Go de DDR4-2400 et un Ryzen 5 5600GT en PCIe Gen3, le benchmark atteint 11,5 tok/s, contre environ 7 tok/s sur la configuration héritée, et 14 à 15 tok/s en conversation courante. Un long prompt de code a généré 4 892 tokens à 10,15 tok/s, produisant un jeu Snake fonctionnel en un seul fichier.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwggwt/qwen38flashnext_177b_running_at_1115_toks_on_a/",
+  "date_source": "2026-10-03T06:49:25+00:00",
+  "date_redac": "2026-10-03T07:15:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 903,
+   "sortie": 521
+  }
+ },
+ {
   "id": "5c1e8fb688dee2bf",
   "slug": "tesla-model-3-restylee-ecran-plus-grand-et-recharge-bidirectionnelle-a-5c1e8f",
   "titre": "Tesla Model 3 restylée : écran plus grand et recharge bidirectionnelle au menu",
@@ -17,6 +81,27 @@
    "modele": "deepseek-flash",
    "entree": 676,
    "sortie": 540
+  }
+ },
+ {
+  "id": "f6eeae0148f91f07",
+  "slug": "llama-cpp-une-pr-divise-par-deux-la-memoire-des-scores-d-indexation-de-f6eeae",
+  "titre": "llama.cpp : une PR divise par deux la mémoire des scores d'indexation de Qwen",
+  "resume": "Une pull request ouverte sur le dépôt ggml-org/llama.cpp propose de réduire de moitié la mémoire occupée par les scores de l'indexeur. Elle porte le numéro 29825 et est signée ServeurpersoCom. Le résultat annoncé : Qwen Flash Next consomme désormais moins de VRAM. Pour les utilisateurs de llama.cpp, cela laisse de la marge sur des machines dont la mémoire vidéo est limitée.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwfyv6/qwen4exp_halve_the_indexer_score_memory_by/",
+  "date_source": "2026-10-03T06:18:34+00:00",
+  "date_redac": "2026-10-03T07:15:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 645,
+   "sortie": 816
   }
  },
  {

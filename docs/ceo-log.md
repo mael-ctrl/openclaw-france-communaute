@@ -162,3 +162,31 @@ sauvegarde privée et relecture exacte. Aucun changement du VPS.
 
 **Mesure à venir** : suivre les accès à ce guide et aux kits dans les logs OVH.
 La livraison ne démontre ni indexation ni hausse de trafic ni nouvelle vente.
+
+---
+
+## 2026-10-03 — Croissance : ne plus confondre « j’ai » et « AI »
+
+**Constat réel** : le flux Frandroid fait passer un comparatif photo Xiaomi/iPhone
+et un test de machine à café uniquement parce que leur titre ou résumé contient
+« j’ai » / « J'ai ». Le préfiltre insensible à la casse reconnaissait l'auxiliaire
+français comme le sigle anglais AI ; les deux sujets se retrouvent dans le fil public.
+
+**Amélioration unique** : restreindre ce mot-clé dans `engine/collecte.py` pour
+exclure les formes `j'ai`, `n’ai`, `qu'ai` et `ai-je`, sans bloquer `AI`, `ai`,
+`l'AI` ni les textes contenant par ailleurs un vrai signal comme ChatGPT ou IA.
+Pas de modification des autres mots-clés, des sources spécialisées, des quotas,
+des contenus déjà publiés ou des preuves historiques.
+
+**Validation locale** : régression observée rouge sur les sept exemples français,
+puis huit tests verts (dont collecte/dédup dans un dossier temporaire) ; compilation
+Python et `git diff --check`. `--essai --sans-redaction` en copie isolée : 267 sorties
+construites, zéro rédaction, zéro envoi et aucun état de test repris. Quatre flux
+tiers ont échoué pendant cet essai (timeout/502/403/429), sans empêcher le build.
+Travail dans un clone dédié hors Bureau ; le clone partagé et son fichier trafic
+non committé sont laissés intacts. Livraison par `maj.yml`, suivie de la lecture
+des logs cloud et du contrôle HTTPS du site avant d'annoncer la mise en production.
+
+**Effet attendu** : moins de brèves hors sujet et d'appels de rédaction inutiles,
+donc une veille plus pertinente pour fidéliser les lecteurs. Ce filtre lexical
+reste imparfait ; aucune hausse de trafic ou économie chiffrée n'est revendiquée.

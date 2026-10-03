@@ -19,8 +19,11 @@ from email.utils import parsedate_to_datetime
 import config
 import reseau
 
+# « j'ai », « n’ai », « qu'ai » et « ai-je » ne désignent pas l'IA.
+# Ne pas exclure toutes les apostrophes : « l'AI » reste un signal valide.
 MOTS_IA = re.compile(
-    r"\b(ia|ai|intelligence artificielle|artificial intelligence|chatgpt|openai|claude|"
+    r"\b(ia|(?<!\b[jn]['’])(?<!\bqu['’])ai(?![-‑]je\b)|"
+    r"intelligence artificielle|artificial intelligence|chatgpt|openai|claude|"
     r"anthropic|gemini|google deepmind|mistral|deepseek|llm|large language|agent|agents|"
     r"agentique|agentic|machine learning|apprentissage|nvidia|copilot|groq|openrouter|"
     r"hugging ?face|meta ai|llama|gpt|modèle|model|prompt|chatbot|robot|automatisation|"

@@ -1,5 +1,25 @@
 [
  {
+  "id": "4d458e0e61804592",
+  "slug": "un-modele-entraine-uniquement-sur-des-blagues-fait-reagir-r-localllama-4d458e",
+  "titre": "Un modèle entraîné uniquement sur des blagues fait réagir r/LocalLLaMA",
+  "resume": "Sur le subreddit r/LocalLLaMA, un internaute demande si d'autres ont vu passer un nouveau modèle entraîné exclusivement sur des blagues. La publication, signée u/simonbreak, est accompagnée d'une formule lapidaire : « les blagues s'écrivent toutes seules ». Aucun détail technique n'est donné dans l'extrait. L'intérêt tient à la question de fond : que vaut un modèle spécialisé sur un seul registre ?",
+  "tags": [
+   "recherche",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwwko4/have_you_seen_the_new_model_that_was_trained/",
+  "date_source": "2026-10-03T20:03:46+00:00",
+  "date_redac": "2026-10-03T20:33:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 894
+  }
+ },
+ {
   "id": "78e3e1827b78cdba",
   "slug": "ninfer-4080-qwen-27b-sur-100k-de-contexte-avec-une-gpu-16-go-78e3e1",
   "titre": "Ninfer 4080 : Qwen 27B sur 100k de contexte avec une GPU 16 Go",

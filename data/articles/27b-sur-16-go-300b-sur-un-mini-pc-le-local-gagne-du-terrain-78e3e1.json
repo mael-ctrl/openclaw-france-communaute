@@ -1,0 +1,41 @@
+{
+ "slug": "27b-sur-16-go-300b-sur-un-mini-pc-le-local-gagne-du-terrain-78e3e1",
+ "titre": "27B sur 16 Go, 300B sur un mini-PC : le local gagne du terrain",
+ "chapo": "Un développeur fait tourner un Qwen de 27B sur 100k de contexte avec une seule carte de 16 Go. À côté, deux MoE de 300B tiennent chacun sur un mini-PC de 128 Go, et Unitree présente un modèle humanoïde de 6B couvrant 64 tâches. Dans le même temps, le débat sur la dette technique du code généré continue.",
+ "html": "<h2 id=\"ninfer-4080-100k-de-contexte-sur-une-car\">Ninfer 4080 : 100k de contexte sur une carte de 16 Go</h2>\n<p>Le projet <strong>Ninfer 4080</strong> fait tourner le modèle ISTA-DASLab-Qwen-3.8-27B-GSQ sur une <strong>RTX 4080 de 16 Go</strong>, avec 100k de contexte. L'auteur annonce jusqu'à <strong>2 720 tok/s en préfill</strong> et <strong>262 tok/s en génération</strong>, là où les projets Ninfer 5090, 4090 et 3090 restaient hors de portée de cette classe de GPU.</p>\n<p>Le code est partagé sur GitHub. Le détail qui rend l'affaire intéressante : son auteur dit avoir vingt ans d'expérience en ingénierie logicielle, mais <strong>aucune en développement de kernels GPU</strong>. L'optimisation qui permet de tenir un 27B en contexte long sur 16 Go de mémoire vidéo ne vient donc pas d'un spécialiste du genre.</p>\n<p>La contrainte mémoire est le point dur de l'exercice : plus le contexte s'allonge, plus elle se resserre. Ici, elle est tenue sans sortir de la classe 16 Go.</p>\n<h2 id=\"kyojin-deux-moe-de-classe-300b-sur-une-s\">Kyojin : deux MoE de classe 300B sur une seule machine</h2>\n<p><strong>Kyojin</strong> est construit sur ExLlamaV3 pour Strix Halo (gfx1151, ROCm), et fait tenir <strong>deux modèles MoE de classe 300B</strong> chacun sur une seule machine de 128 Go. Les mesures ont été prises sur un Ryzen AI Max+ 395 : GLM-5.3-Flash (99,7 Go) atteint 580 tok/s en préfill à 3,5K, puis 26 à 30 tok/s en décodage ; MiMo-V2.6-Flash-MOPD (105 Go) grimpe à 44 tok/s sur du code.</p>\n<p>Les poids MiMo viennent d'une quantification maison. Le pack GLM, lui, mélange des tenseurs EXL3 publics de turboderp en 2,05 et 3,05 bpw. Des débits et des volumes qui ne sortent pas d'un datacenter, mais d'un mini-PC.</p>\n<h2 id=\"unitree-un-modele-humanoide-de-6b-pour-6\">Unitree : un modèle humanoïde de 6B pour 64 tâches</h2>\n<p><strong>Unitree Robotics</strong> présente UnifoLM-WLA-1.0, un modèle de fondation humanoïde de <strong>6B paramètres</strong>, entraîné sur environ <strong>2 500 heures</strong> de données issues de robots réels. Un seul modèle couvre <strong>64 tâches</strong> : 10 de corps entier et 54 sur table, avec pincements parallèles ou deux mains dextres.</p>\n<p>La démonstration tourne sur le robot <strong>G1</strong> : faire le lit, charger la machine à laver, plier du linge, trier des objets. Le format 6B tranche avec la course au gigantisme, et les 2 500 heures d'entraînement viennent du monde physique, pas du web.</p>\n<h2 id=\"le-code-genere-et-la-logique-qui-manque\">Le code généré et la logique qui manque</h2>\n<p>Un développeur raconte une revue de code récente : une PR d'environ <strong>600 lignes</strong>, générée, structurée et ouverte en <strong>moins de vingt minutes</strong>. Syntaxe propre, tests de base passés — sur le papier, tout est en ordre.</p>\n<p>Jusqu'à la question sur un cas limite du gestionnaire de requêtes. Réponse de l'auteur : « <strong>Attends, je demande au modèle</strong> ». Le fil contredit le discours des « 10x » : le goulot d'étranglement n'était pas la frappe, mais la compréhension du système.</p>\n<p>C'est le revers de la génération rapide. Produire du code n'a jamais été aussi peu coûteux ; savoir ce qu'il fait dans un cas limite reste une autre affaire, et c'est là que se loge la dette.</p>\n<h2>Et maintenant ?</h2>\n<p>Nvidia et SoftBank ont versé le 1er octobre 2026 leurs dernières tranches de 10 milliards de dollars chacune à OpenAI, soit environ 9 milliards d'euros. Ces paiements soldent la levée de 122 milliards de dollars annoncée en mars, dont environ 90 % provient de ces deux groupes et d'Amazon. Nvidia finance ainsi son meilleur client pour les GPU. En bas de l'échelle, on fait tenir un 27B sur une RTX 4080 et deux MoE de 300B sur un mini-PC de 128 Go ; en haut, les montants se comptent en dizaines de milliards. Les deux mouvements ne s'opposent pas nécessairement, mais ils ne se racontent pas de la même façon.</p>",
+ "pivot": "78e3e1827b78cdba",
+ "tags": [
+  "open-source",
+  "matériel",
+  "robots",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwv0fj/i_built_ninfer_4080_for_16gb_class_gpus/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwocik/two_300b_moe_models_each_on_one_128_gb_mini_pc/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/openai/3271533_nvidia-investit-30-milliards-dans-openai-son-meilleur-client-pour-les-gpu"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwum69/anyone_else_noticing_that_coding_models_are_just/"
+  }
+ ],
+ "date": "2026-10-03T20:33:54+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1737,
+  "sortie": 4369
+ }
+}

@@ -1,22 +1,18 @@
 {
- "runs": 69,
- "items_collectes": 687,
- "breves_publiees": 245,
- "articles_publies": 28,
- "tokens_entree": 225747,
- "tokens_sortie": 306389,
+ "runs": 70,
+ "items_collectes": 689,
+ "breves_publiees": 246,
+ "articles_publies": 29,
+ "tokens_entree": 228102,
+ "tokens_sortie": 311652,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-03T19:31:26+00:00",
+ "dernier_run": "2026-10-03T20:33:54+00:00",
  "solde": {
   "total": "87.79",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-02T14:27:08+00:00",
-   "message": "article impossible : Expecting ',' delimiter: line 12 column 6 (char 1836)"
-  },
   {
    "ts": "2026-10-03T00:24:25+00:00",
    "message": "archivage wayback : The read operation timed out"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-03T17:58:57+00:00",
    "message": "brève impossible (Two local Qwen ( 3.8 27b unsloth Q6 and Qwen flash next stra) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-03T20:33:31+00:00",
+   "message": "brève impossible (Running Qwen3.8 Flash Next 176B on a 16GB RTX 3080 Laptop + ) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -299,6 +299,10 @@
   ],
   [
    "2026-10-03T19:31:22+00:00",
+   "87.79"
+  ],
+  [
+   "2026-10-03T20:33:19+00:00",
    "87.79"
   ]
  ],

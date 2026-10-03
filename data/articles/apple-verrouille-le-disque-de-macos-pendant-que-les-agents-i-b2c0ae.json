@@ -1,0 +1,41 @@
+{
+ "slug": "apple-verrouille-le-disque-de-macos-pendant-que-les-agents-i-b2c0ae",
+ "titre": "Apple verrouille le disque de macOS, pendant que les agents IA se spécialisent",
+ "chapo": "Apple resserre l'accès complet au disque sur macOS, en désignant les agents IA comme principal danger. La même semaine, Microsoft met en ligne un petit modèle agentique taillé pour le code, pendant qu'Anthropic règle ses comptes avec un modèle chinois.",
+ "html": "<h2 id=\"apple-met-un-verrou-sur-l-acces-complet-\">Apple met un verrou sur l'accès complet au disque</h2>\n<p>Apple a annoncé le <strong>vendredi 2 octobre</strong> de nouveaux contrôles sur l'accès complet au disque de macOS, en désignant les agents IA comme principal danger. Ces garde-fous arrivent deux semaines après qu'un journaliste a accusé <strong>Muse</strong>, l'agent IA de Meta, d'avoir lu ses messages privés. Les nouvelles règles ciblent les assistants capables d'explorer les fichiers d'un Mac.</p>\n<p>Dans une mise à jour publiée vendredi, le constructeur indique déployer de nouveaux contrôles pour que <strong>seuls les utilisateurs souhaitant réellement</strong> accorder ce niveau d'accès exceptionnel à une application puissent le faire. Il ne s'agit donc pas d'une interdiction, mais d'un cran de plus sur une permission accordée jusqu'ici en quelques clics.</p>\n<p>Pour un assistant qui lit et écrit à la place de l'utilisateur, cette autorisation n'est pas un détail d'installation : elle détermine l'étendue de ce qu'il peut atteindre sur la machine.</p>\n<h2 id=\"frognano-4b-2609-un-agent-de-code-pour-g\">FrogNano-4B-2609, un agent de code pour GPU modestes</h2>\n<p>Sur r/LocalLLaMA, Microsoft met en ligne <strong>FrogNano-4B-2609</strong>, un modèle agentique pensé pour des <strong>GPU modestes</strong>. Dérivé de <strong>Qwen3.5-4B</strong>, il reprend son architecture dense à 32 couches. Sa particularité tient au post-entraînement, textuel, qui cible l'ingénierie logicielle <strong>au niveau du dépôt</strong>.</p>\n<p>L'apprentissage par renforcement s'appuie sur environ <strong>1 500 environnements de tâches SWE synthétiques</strong>, générés via <strong>TaskPilot</strong>, avec le harnais <strong>Leaf</strong> et des récompenses fondées sur des tests. Autrement dit : l'agent est entraîné à modifier un dépôt de code, puis à vérifier que ses changements passent.</p>\n<p>Avec 4B de paramètres, le format le destine à tourner en local, hors des machines surpuissantes. C'est le même sujet que celui soulevé par Apple, vu depuis l'autre bout de la chaîne : des agents qui agissent sur des fichiers, avec des moyens de calcul réduits.</p>\n<h2 id=\"swe-sweep-le-benchmark-ou-l-agent-chasse\">SWE-sweep, le benchmark où l'agent chasse les bugs</h2>\n<p>Autre dépêche, autre approche. <strong>SWE-sweep</strong> propose de confier à un agent un <strong>large dépôt de code</strong> pour qu'il trouve et corrige un maximum de bugs <strong>par lui-même</strong>. Le score repose sur un ensemble <strong>caché de bugs réels</strong>, filtrés pour être détectables et corrigeables à la seule lecture du dépôt.</p>\n<p>Le benchmark est signé par des chercheurs de <strong>Meta, Stanford, Harvard et UW</strong>, et son classement s'étend encore à d'autres modèles locaux. La nuance du filtrage compte : on ne mesure pas la capacité à deviner une panne d'exécution, mais à repérer dans le code ce qui cloche sans avoir vu le crash.</p>\n<p>Les deux dépêches pointent dans la même direction : l'agent outillé pour le dépôt de code devient un objet de mesure, avec ses environnements d'entraînement et ses classements dédiés. Ce que cela donne hors du banc d'essai reste une autre question.</p>\n<h2 id=\"anthropic-glm-5-3-et-la-defense-d-un-bus\">Anthropic, GLM-5.3 et la défense d'un business model</h2>\n<p>Toujours du côté des modèles, <strong>Anthropic</strong> publie le <strong>29 septembre</strong> une analyse du modèle chinois <strong>GLM-5.3</strong>. Elle y souligne les dangers qu'il présente et met en avant des résultats techniques préoccupants. L'entreprise à l'origine de <strong>Claude</strong> pose ensuite ses propres outils comme la réponse à ces risques.</p>\n<p><strong>L'Usine Digitale</strong> y voit une démarche visant à protéger son business model et à empêcher la concurrence. Le point est là : une évaluation de sécurité signée par un concurrent direct du modèle évalué n'est jamais un document neutre.</p>\n<p>Rien dans la dépêche ne permet de trancher sur le fond technique de l'analyse. Ce qui est public, c'est la séquence : constat de danger, puis mise en avant de sa propre offre.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dépêches, trois étages de la même pile : un système d'exploitation qui reprend la main sur ses permissions, des modèles locaux entraînés à manipuler des dépôts de code, des benchmarks pour noter ce travail, et des éditeurs qui évaluent publiquement les modèles rivaux. Ce qui se joue n'est pas l'arrivée des agents, mais la répartition du contrôle : qui autorise, qui entraîne, qui mesure, qui juge.</p>",
+ "pivot": "b2c0aeaa20370b51",
+ "tags": [
+  "agents",
+  "sécurité",
+  "dev",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/os/macos/3271541_acces-complet-au-disque-sur-mac-apple-ne-veut-plus-dagents-ia-qui-lisent-tout-sans-prevenir"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww40o2/microsoftfrognano4b2609_hugging_face/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvxph8/new_benchmark_on_lms_fixing_bugs_before_users_run/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/cybersecurite-anthropic-accuse-le-modele-chinois-glm-53-detre-dangereux-pour-proteger-son-business-model-et-empecher-la-competition.L5CPMKLMZVGO5IPPDTOG2K32MI.html"
+  }
+ ],
+ "date": "2026-10-03T09:43:08+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1622,
+  "sortie": 4451
+ }
+}

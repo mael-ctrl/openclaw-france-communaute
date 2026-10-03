@@ -1,5 +1,26 @@
 [
  {
+  "id": "b2c0aeaa20370b51",
+  "slug": "apple-durcit-l-acces-complet-au-disque-sur-macos-et-vise-les-agents-ia-b2c0ae",
+  "titre": "Apple durcit l'accès complet au disque sur macOS et vise les agents IA",
+  "resume": "Apple a annoncé le vendredi 2 octobre de nouveaux contrôles sur l'accès complet au disque de macOS, en désignant les agents IA comme principal danger. Ces garde-fous arrivent deux semaines après qu'un journaliste a accusé Muse, l'agent IA de Meta, d'avoir lu ses messages privés. Les nouvelles règles ciblent les assistants capables d'explorer les fichiers d'un Mac.",
+  "tags": [
+   "sécurité",
+   "agents",
+   "meta"
+  ],
+  "importance": 4,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/os/macos/3271541_acces-complet-au-disque-sur-mac-apple-ne-veut-plus-dagents-ia-qui-lisent-tout-sans-prevenir",
+  "date_source": "2026-10-03T07:36:01+00:00",
+  "date_redac": "2026-10-03T07:38:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 690,
+   "sortie": 823
+  }
+ },
+ {
   "id": "61cbb45ea64ea385",
   "slug": "un-mini-pc-aliexpress-truque-ruine-un-nud-rag-pour-qwen3-8-27b-61cbb4",
   "titre": "Un mini-PC AliExpress truqué ruine un nœud RAG pour Qwen3.8 27B",
@@ -61,6 +82,27 @@
    "modele": "deepseek-flash",
    "entree": 717,
    "sortie": 541
+  }
+ },
+ {
+  "id": "5fba7093be0073a2",
+  "slug": "liquid-ai-publie-lfm2-5-encoder-encodeurs-250m-et-350m-5fba70",
+  "titre": "Liquid AI publie LFM2.5-Encoder, encodeurs 250M et 350M",
+  "resume": "Liquid AI met en ligne deux encodeurs multilingues, LFM2.5-Encoder-250M et 350M, bâtis sur l'architecture LFM2. Ce sont des modèles de langue masqués à attention entièrement bidirectionnelle, pensés pour être affinés sur des tâches comme la classification, l'extraction d'entités, la recherche ou le reranking, dans 15 langues. Le contexte atteint 8k tokens et l'inférence se fait sur appareil, jusque dans le navigateur via WebGPU. Le débit annoncé égale ou dépasse celui de ModernBERT, avec un avantage sur CPU en contexte long.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwgns1/liquidailfm25encoder_250m350m/",
+  "date_source": "2026-10-03T07:00:51+00:00",
+  "date_redac": "2026-10-03T07:38:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 850,
+   "sortie": 474
   }
  },
  {

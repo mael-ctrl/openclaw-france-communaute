@@ -1,0 +1,41 @@
+{
+ "slug": "177b-sur-une-rtx-5070-12-go-le-local-serre-les-boulons-30d0fd",
+ "titre": "177B sur une RTX 5070 12 Go : le local serre les boulons",
+ "chapo": "Sur r/LocalLLaMA, un utilisateur fait tourner un modèle de 177 milliards de paramètres sur une carte de 12 Go de VRAM, à plus de 10 tokens par seconde. Pendant que le matériel grand public impose ses limites, les modèles ouverts et les robots humanoïdes avancent, et les gros chèques continuent de tomber.",
+ "html": "<h2 id=\"177-milliards-de-parametres-sur-12-go-de\">177 milliards de paramètres sur 12 Go de VRAM</h2>\n<p>La configuration tient en quelques lignes, et elle a de quoi surprendre : <strong>Qwen3.8-Flash-Next 177B</strong> exécuté en quantification UD-IQ3_XXS avec <strong>llama.cpp sous Windows</strong>, via un système de streaming d'experts. Le matériel n'a rien d'un monstre : une <strong>RTX 5070 12 Go</strong>, 32 Go de DDR4-2400, un Ryzen 5 5600GT et un bus PCIe Gen3.</p>\n<p>Les mesures sont publiées : <strong>11,5 tokens par seconde</strong> en benchmark, contre environ <strong>7 tok/s sur la configuration héritée</strong>, et <strong>14 à 15 tok/s en conversation courante</strong>. Un long prompt de code a généré <strong>4 892 tokens à 10,15 tok/s</strong> — assez pour produire un jeu Snake fonctionnel tenant dans un seul fichier.</p>\n<p>Ce genre de montage n'a rien d'académique : il déplace la question de la mémoire vidéo vers la quantification et le streaming. Avec 12 Go de VRAM et un PCIe Gen3, ce sont les choix logiciels qui font tenir les 177 milliards de paramètres.</p>\n<h2 id=\"des-modeles-ouverts-qui-visent-la-parcim\">Des modèles ouverts qui visent la parcimonie</h2>\n<p><strong>Aleph Alpha</strong> met en ligne <strong>Kolibri-1</strong> sur Hugging Face : <strong>78 milliards de paramètres, dont 3,46 milliards actifs</strong>, sous licence <strong>Apache 2.0</strong>. Le laboratoire allemand revendique un contexte allant <strong>jusqu'à 1 million de tokens</strong> et accompagne la publication d'un rapport technique téléchargeable en PDF.</p>\n<p>Même logique d'efficacité côté entraînement. <strong>Lewis</strong>, de l'équipe post-training de Hugging Face, signe un long guide consacré à l'entraînement de modèles ouverts dans différents <em>coding harnesses</em>. La méthode s'appuie sur des bibliothèques open source comme <strong>TRL</strong> et sur le framework <strong>Harbor</strong> pour les environnements de RL.</p>\n<p>L'objectif affiché est simple : fournir une recette pour tirer la meilleure performance de son harness habituel, à l'heure où chacun bricole le sien. L'écosystème ouvert avance donc sur deux fronts à la fois — des modèles plus légers à l'usage, et des outils pour les domestiquer.</p>\n<h2 id=\"les-humanoides-apprennent-le-linge\">Les humanoïdes apprennent le linge</h2>\n<p><strong>Unitree Robotics</strong> présente <strong>UnifoLM-WLA-1.0</strong>, un modèle de fondation humanoïde de <strong>6 milliards de paramètres</strong>, entraîné sur environ <strong>2 500 heures de données issues de robots réels</strong>. Un seul modèle couvre <strong>64 tâches</strong> : 10 de corps entier et 54 sur table, avec pincements parallèles ou deux mains dextres.</p>\n<p>La démonstration tourne sur le robot <strong>G1</strong> : faire le lit, charger la machine à laver, plier du linge, trier des objets. Du linge et de la vaisselle, autrement dit le genre de tâches ménagères qui résistent depuis longtemps aux démonstrations scriptées.</p>\n<p>L'échelle mérite d'être notée : 6 milliards de paramètres pour 64 tâches, quand les modèles de langage dont on parle plus haut se comptent en centaines de milliards.</p>\n<h2 id=\"et-pendant-ce-temps-les-cheques-tombent\">Et pendant ce temps, les chèques tombent</h2>\n<p>La partie fermée de l'écosystème encaisse. <strong>Nvidia et SoftBank</strong> ont versé le <strong>1er octobre 2026</strong> leurs dernières tranches de <strong>10 milliards de dollars</strong> — environ 9 milliards d'euros — <strong>chacune</strong> à <strong>OpenAI</strong>. Ces paiements soldent la levée de <strong>122 milliards de dollars</strong> annoncée en mars.</p>\n<p>Environ <strong>90 %</strong> de cette levée provient de ces deux groupes et d'<strong>Amazon</strong>. Le détail qui résume la situation : Nvidia finance ainsi son meilleur client pour les GPU.</p>\n<p>Deux régimes cohabitent donc sans se croiser vraiment. D'un côté, des montants à onze chiffres échangés entre industriels et laboratoires ; de l'autre, une carte de 12 Go et un modèle quantifié pour faire tenir 177 milliards de paramètres dans une tour.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches de la semaine dessinent deux courants parallèles. Le local progresse à coups de quantification agressive et de streaming d'experts, le matériel grand public restant le facteur limitant. Les modèles ouverts publient sous Apache 2.0, les robots apprennent sur données réelles, les guides d'entraînement se multiplient. À l'autre bout, les 122 milliards de dollars levés par OpenAI disent à quoi ressemble le financement à l'échelle industrielle. Les deux mondes ne se croisent pas encore vraiment.</p>",
+ "pivot": "30d0fd8ed10fbf8f",
+ "tags": [
+  "open-source",
+  "matériel",
+  "robots",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwggwt/qwen38flashnext_177b_running_at_1115_toks_on_a/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/openai/3271533_nvidia-investit-30-milliards-dans-openai-son-meilleur-client-pour-les-gpu"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwl7y6/alephalphakolibri1_hugging_face_78b_parameters/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwk49n/the_ultimate_guide_to_multiharness_rl/"
+  }
+ ],
+ "date": "2026-10-03T12:48:46+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1668,
+  "sortie": 5190
+ }
+}

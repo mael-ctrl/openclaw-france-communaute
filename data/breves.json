@@ -40,6 +40,27 @@
   }
  },
  {
+  "id": "c0a94530568794a5",
+  "slug": "quantification-les-utilisateurs-fp8-bf16-face-a-une-inference-en-iq1-s-c0a945",
+  "titre": "Quantification : les utilisateurs FP8/BF16 face à une inférence en IQ1_S",
+  "resume": "Sur r/LocalLLaMA, l'utilisateur zyxciss s'interroge : pourquoi les personnes qui font tourner leurs modèles en FP8 ou BF16 réagissent-elles avec autant d'horreur face à quelqu'un qui infère en IQ1_S ? La question s'étend à toute quantification 4 bits, FP4 ou INT4. Le fil illustre le clivage entre fidélité des poids et compression extrême pour tenir sur du matériel modeste.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wwl9jf/fp8bf16_users_seeing_someone_run_iq1_s/",
+  "date_source": "2026-10-03T11:47:17+00:00",
+  "date_redac": "2026-10-03T12:48:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 730,
+   "sortie": 638
+  }
+ },
+ {
   "id": "891f81b10446600e",
   "slug": "aleph-alpha-publie-kolibri-1-78b-parametres-3-46b-actifs-apache-2-0-891f81",
   "titre": "Aleph Alpha publie Kolibri-1 : 78B paramètres, 3,46B actifs, Apache 2.0",

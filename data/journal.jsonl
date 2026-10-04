@@ -501,3 +501,9 @@
 {"ts": "2026-10-04T12:55:42+00:00", "evenement": "deploiement", "details": {"fichiers": 360, "octets": 5290207}, "sha256": "d7ff046538303356c5db6a4f00395b2b9eb5316a241f5c979e953a7abc55aeda"}
 {"ts": "2026-10-04T12:55:43+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "fa5f1ce49568e2e359f3b5d82c1ca26148b203a366e917ad43117f84e159cdc2"}
 {"ts": "2026-10-04T12:55:43+00:00", "evenement": "bilan", "details": {"duree_s": 363.0, "neufs": 1, "breves": 1, "articles": 1, "fichiers": 348, "envois": 360, "publications": 0}, "sha256": "7a776dd941c894265bf0d307e2278679e799aafe0cd93d8e4725bbbcebb49a3f"}
+{"ts": "2026-10-04T14:18:30+00:00", "evenement": "collecte", "details": {"neufs": 3}, "sha256": "e12c96cc2441c509c085f9d84538d68d8d39a4b62ae6525536751f9e6431149b"}
+{"ts": "2026-10-04T14:18:49+00:00", "evenement": "erreur", "details": {"message": "brève impossible (I Distilled an LLM into two 287M encoders (GLiNER + multiple) : réponse non-JSON"}, "sha256": "3be777b55a2496f263628b3feefda18101a0c7313b09c6ade54a404c9e754e55"}
+{"ts": "2026-10-04T14:18:54+00:00", "evenement": "construction", "details": {"fichiers": 350}, "sha256": "d520c302a83de534861d9566c1daefd7a77427708ef9f4809338f30865e98c00"}
+{"ts": "2026-10-04T14:24:51+00:00", "evenement": "deploiement", "details": {"fichiers": 362, "octets": 5315832}, "sha256": "405f404bf5253b3ca2b5fca5e4f47ee4b9e16cd2f742479788ed424f8a62a076"}
+{"ts": "2026-10-04T14:24:52+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "d57e7403bd5b81b9641eb028ef8517dd7e792f7a3f4b03fea79cccd7134bae41"}
+{"ts": "2026-10-04T14:24:52+00:00", "evenement": "bilan", "details": {"duree_s": 416.4, "neufs": 3, "breves": 2, "articles": 0, "fichiers": 350, "envois": 362, "publications": 0}, "sha256": "8fb224f0850af33944f97302640ffcfa71cc8060be15af3d83d495200080753c"}

@@ -1,22 +1,18 @@
 {
- "runs": 89,
- "items_collectes": 720,
- "breves_publiees": 277,
+ "runs": 90,
+ "items_collectes": 723,
+ "breves_publiees": 279,
  "articles_publies": 43,
- "tokens_entree": 273564,
- "tokens_sortie": 396851,
+ "tokens_entree": 275126,
+ "tokens_sortie": 398740,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-04T12:50:09+00:00",
+ "dernier_run": "2026-10-04T14:18:54+00:00",
  "solde": {
   "total": "87.72",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-03T08:40:52+00:00",
-   "message": "article impossible : Expecting ',' delimiter: line 8 column 6 (char 1649)"
-  },
   {
    "ts": "2026-10-03T17:58:37+00:00",
    "message": "brève impossible (I built a code knowledge graph tool that's actually MIT lice) : réponse non-JSON"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-04T03:47:54+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 8 column 6 (char 1461)"
+  },
+  {
+   "ts": "2026-10-04T14:18:49+00:00",
+   "message": "brève impossible (I Distilled an LLM into two 287M encoders (GLiNER + multiple) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -379,6 +379,10 @@
   ],
   [
    "2026-10-04T12:49:48+00:00",
+   "87.72"
+  ],
+  [
+   "2026-10-04T14:18:31+00:00",
    "87.72"
   ]
  ],

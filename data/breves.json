@@ -1,5 +1,48 @@
 [
  {
+  "id": "01943f112b3b0eec",
+  "slug": "llm-local-de-1x3090-a-20-dgx-sparks-le-tableau-electrique-premier-goul-01943f",
+  "titre": "LLM local : de 1x3090 à 20 DGX Sparks, le tableau électrique premier goulot",
+  "resume": "Un utilisateur de r/LocalLLaMA raconte son escalade matérielle : d'une RTX 3090 pour LLaMA 33B à seize 3090 sur des nœuds P620, puis un Threadripper et 512 Go de DDR4 pour DeepSeek 671B MoE. Il atteignait 8 t/s sur DeepSeek et 10-12 t/s sur Qwen 235B, utilisés pour coder au travail via OpenWebUI. Le codage agentique a rendu ces débits insuffisants, la génération chutant de moitié à 100k de contexte.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "deepseek",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxgm0h/from_1x3090_to_20_dgx_sparks_my_house_fuses_were/",
+  "date_source": "2026-10-04T14:09:31+00:00",
+  "date_redac": "2026-10-04T14:18:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 867,
+   "sortie": 1264
+  }
+ },
+ {
+  "id": "50114c005ef92ca0",
+  "slug": "ecriture-creative-des-modeles-locaux-la-question-d-un-utilisateur-de-q-50114c",
+  "titre": "Écriture créative des modèles locaux : la question d'un utilisateur de Qwen",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande comment améliorer l'écriture créative des modèles qu'il fait tourner en local, en ciblant spécifiquement Qwen. Il juge ces modèles bien meilleurs pour la recherche et la génération de fichiers HTML que Gemma ou Muse, qu'il reconnaît pourtant plus à l'aise sur l'écriture créative. Il utilise qwen 3.8 flash next en quantification q4 avec llama.cpp.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxfgn9/is_there_any_way_to_improve_creative_writing_for/",
+  "date_source": "2026-10-04T13:16:28+00:00",
+  "date_redac": "2026-10-04T14:18:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 695,
+   "sortie": 625
+  }
+ },
+ {
   "id": "6462fe3b145c72dd",
   "slug": "google-conteste-devant-la-justice-europeenne-l-ouverture-d-android-aux-6462fe",
   "titre": "Google conteste devant la justice européenne l'ouverture d'Android aux IA rivales",

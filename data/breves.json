@@ -1,5 +1,47 @@
 [
  {
+  "id": "9a60fd6ade7b00d5",
+  "slug": "hermes-agent-publie-une-version-canari-v0-21-4-9a60fd",
+  "titre": "Hermes Agent publie une version canari v0.21.4",
+  "resume": "Hermes Agent, dont le dépôt GitHub est hébergé par NousResearch, publie une version canari estampillée v0.21.4+canary.20261004T084456Z, datée du 4 octobre 2026. Ce canal de publication sert à diffuser des builds de test en amont des versions stables. La publication ne détaille pas les changements apportés.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.4%2Bcanary.20261004T084456Z",
+  "date_source": "2026-10-04T08:44:58+00:00",
+  "date_redac": "2026-10-04T08:57:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 1144
+  }
+ },
+ {
+  "id": "fb65a51ffe231263",
+  "slug": "il-descend-son-serveur-d-ia-au-sous-sol-redemarre-et-teste-son-modele-fb65a5",
+  "titre": "Il descend son serveur d'IA au sous-sol, redémarre et teste son modèle",
+  "resume": "Un utilisateur de r/LocalLLaMA raconte avoir monté son propre serveur d'IA, puis l'avoir éteint pour le descendre au sous-sol et le remettre dans sa baie de rack. Au redémarrage, il envoie un message de test depuis son application cliente et dit avoir adoré la réponse obtenue. Une illustration du self-hosting : faire tourner son modèle chez soi, sur sa propre machine.",
+  "tags": [
+   "matériel",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxao4m/haha_i_just_love_this_ai_stuff_recently_got_into/",
+  "date_source": "2026-10-04T08:35:40+00:00",
+  "date_redac": "2026-10-04T08:57:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 724,
+   "sortie": 885
+  }
+ },
+ {
   "id": "d2be8328ce606342",
   "slug": "bilibili-publie-index-translate-modeles-de-traduction-multilingue-sur--d2be83",
   "titre": "Bilibili publie Index-Translate, modèles de traduction multilingue sur Qwen3.5",

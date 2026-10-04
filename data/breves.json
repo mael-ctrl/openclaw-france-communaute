@@ -1,5 +1,25 @@
 [
  {
+  "id": "c731fe358637a777",
+  "slug": "qwen3-8-flash-next-les-optimisations-serviront-elles-a-qwen4-c731fe",
+  "titre": "Qwen3.8 Flash Next : les optimisations serviront-elles à Qwen4 ?",
+  "resume": "Sur r/LocalLLaMA, un utilisateur se demande si le travail d'optimisation consacré à Qwen3.8 Flash Next servira quand Qwen4 sortira. Il s'appuie sur la page de publication du modèle sur le blog de Qwen, où les échanges portent justement sur l'optimisation de son exécution. Une attente concrète : ne pas avoir à refaire l'adaptation des outils locaux à chaque version.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wx3sxu/is_all_the_work_thats_being_put_into_qwen38_flash/",
+  "date_source": "2026-10-04T01:52:48+00:00",
+  "date_redac": "2026-10-04T02:45:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 694,
+   "sortie": 1233
+  }
+ },
+ {
   "id": "fe11e51139727980",
   "slug": "aleph-alpha-publie-kolibri-1-un-modele-moe-europeen-de-78b-sur-hugging-fe11e5",
   "titre": "Aleph-Alpha publie Kolibri-1, un modèle MoE européen de 78B sur Hugging Face",

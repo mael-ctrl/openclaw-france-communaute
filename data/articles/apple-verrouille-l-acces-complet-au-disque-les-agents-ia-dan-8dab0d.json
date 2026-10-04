@@ -1,0 +1,41 @@
+{
+ "slug": "apple-verrouille-l-acces-complet-au-disque-les-agents-ia-dan-8dab0d",
+ "titre": "Apple verrouille l'accès complet au disque, les agents IA dans le viseur",
+ "chapo": "Apple resserre les contrôles sur l'accès complet au disque de macOS et désigne les agents IA comme principal danger. En parallèle, un responsable sécurité d'OpenAI quitte son poste et publie une tribune d'alerte, pendant que Kyojin fait tourner deux MoE de 300B sur un mini-PC de 128 Go.",
+ "html": "<h2 id=\"le-full-disk-access-n-est-plus-un-clic-c\">Le full disk access n'est plus un clic comme un autre</h2>\n<p>Apple s'apprête à restreindre l'accès complet au disque (« full disk access ») sur Mac. Dans une mise à jour publiée vendredi, le constructeur indique déployer de nouveaux contrôles pour que seuls les utilisateurs souhaitant réellement accorder ce niveau d'accès exceptionnel à une application puissent le faire. Autrement dit : la permission ne doit plus être accordée par réflexe.</p>\n<p><strong>Les agents IA sont désignés comme le principal danger.</strong> Frandroid précise que l'annonce date du vendredi 2 octobre et que ces garde-fous ciblent les assistants capables d'explorer les fichiers d'un Mac. Selon le même média, ils arrivent deux semaines après qu'un journaliste a accusé Muse, l'agent IA de Meta, d'avoir lu ses messages privés.</p>\n<p>L'enjeu n'est pas mince : le full disk access ouvre documents, sauvegardes, historiques de messagerie et fichiers système. Un agent capable de parcourir le disque peut donc lire bien plus que ce que son utilisateur imagine au moment où il valide la demande.</p>\n<h2 id=\"chez-openai-le-redacteur-des-rapports-de\">Chez OpenAI, le rédacteur des rapports de sécurité s'en va</h2>\n<p>David Robinson rédigeait les rapports de sécurité qui accompagnaient chaque sortie de modèle majeur chez OpenAI. Cette semaine, il a quitté son poste, rapporte The Verge IA. Il prend désormais la parole dans une tribune publiée par The Atlantic, où il alerte sur les risques liés à l'IA.</p>\n<p>Les sources ne relient pas ce départ aux décisions d'Apple, et il n'y a pas lieu de le faire à leur place. Les deux dossiers se répondent pourtant : d'un côté un constructeur qui réduit ce qu'un agent peut lire sur une machine, de l'autre un cadre sécurité qui estime nécessaire de s'exprimer publiquement après avoir quitté ses fonctions.</p>\n<p>Le rôle qu'occupait David Robinson est révélateur de la façon dont les laboratoires documentent leurs sorties de modèles : des rapports de sécurité accompagnent chaque version majeure. Que l'auteur de ces documents choisisse de partir puis de s'exprimer dans la presse dit quelque chose du climat interne, sans qu'on puisse en déduire davantage à partir des éléments disponibles.</p>\n<h2 id=\"deux-moe-de-300b-sur-un-mini-pc-de-128-g\">Deux MoE de 300B sur un mini-PC de 128 Go</h2>\n<p>Le moteur Kyojin, construit sur ExLlamaV3 pour Strix Halo (gfx1151, ROCm), fait tenir deux modèles MoE de classe 300B chacun sur une seule machine de 128 Go, rapporte r/LocalLLaMA. Les mesures ont été prises sur un Ryzen AI Max+ 395.</p>\n<ul>\n<li><strong>GLM-5.3-Flash</strong> (99,7 Go) : 580 tok/s en prefill à 3,5K, entre 26 et 30 tok/s en décodage.</li>\n<li><strong>MiMo-V2.6-Flash-MOPD</strong> (105 Go) : jusqu'à 44 tok/s en code.</li>\n</ul>\n<p>Les poids MiMo proviennent d'une quantification maison, tandis que le pack GLM mélange des tenseurs EXL3 publics de turboderp en 2,05 et 3,05 bpw. La démarche illustre une tendance de fond : des modèles de très grande taille, compressés et optimisés pour tenir sur du matériel local plutôt que sur des grappes de GPU.</p>\n<h2 id=\"nvidia-et-softbank-soldent-leurs-tranche\">Nvidia et SoftBank soldent leurs tranches chez OpenAI</h2>\n<p>Nvidia et SoftBank ont versé le 1er octobre 2026 leurs dernières tranches de 10 milliards de dollars (environ 9 milliards d'euros) chacune à OpenAI, d'après Frandroid. Ces paiements soldent la levée de 122 milliards de dollars annoncée en mars, dont environ 90 % provient de ces deux groupes et d'Amazon.</p>\n<p>Le détail qui fait tiquer : Nvidia finance ainsi son meilleur client pour les GPU. Un investisseur qui alimente en capital l'entreprise à laquelle il vend ses cartes se place dans une position inhabituelle, où la santé financière du client et la demande pour ses propres produits deviennent difficiles à démêler.</p>\n<p>Rapportée aux deux autres dépêches, la somme rappelle l'échelle de moyens dont disposent les laboratoires de première ligne. En face, la machine locale capable de faire tourner des MoE de 300B tient sur un bureau et coûte quelques milliers d'euros : deux économies qui coexistent sans s'annuler.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dossiers, trois façons de cadrer la même question. Apple agit sur le périmètre : ce qu'un agent peut atteindre sur un Mac se réduit. OpenAI perd un auteur de ses rapports de sécurité, qui choisit la tribune pour s'exprimer. Kyojin montre que la capacité de calcul se déplace aussi vers le local, pendant que Nvidia et SoftBank consolident par le capital la position d'OpenAI. Sécurité des accès, gouvernance des laboratoires, économie du matériel : les trois fronts avancent en parallèle, sans qu'aucun ne tranche vraiment les deux autres.</p>",
+ "pivot": "8dab0d79a85ed1b4",
+ "tags": [
+  "agents",
+  "sécurité",
+  "openai",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwocik/two_300b_moe_models_each_on_one_128_gb_mini_pc/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/os/macos/3271541_acces-complet-au-disque-sur-mac-apple-ne-veut-plus-dagents-ia-qui-lisent-tout-sans-prevenir"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/openai/3271533_nvidia-investit-30-milliards-dans-openai-son-meilleur-client-pour-les-gpu"
+  }
+ ],
+ "date": "2026-10-04T02:46:15+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1586,
+  "sortie": 3569
+ }
+}

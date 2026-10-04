@@ -1,0 +1,41 @@
+{
+ "slug": "plafonds-durs-disque-verrouille-milliards-l-ia-passe-au-regi-f40fb9",
+ "titre": "Plafonds durs, disque verrouillé, milliards : l'IA passe au régime strict",
+ "chapo": "Trois annonces, une même tendance : les agents IA deviennent assez autonomes pour dépenser de l'argent, lire des fichiers et faire tourner de gros modèles. Les garde-fous arrivent après coup — plafonds budgétaires, contrôles macOS — pendant que les milliards continuent d'affluer sur OpenAI et Anthropic.",
+ "html": "<h2 id=\"des-plafonds-durs-pas-des-e-mails-d-aver\">Des plafonds durs, pas des e-mails d'avertissement</h2>\n<p>Simon Willison pose une règle simple : tout service facturé à l'usage et toute API devraient proposer des <strong>plafonds budgétaires durs par défaut</strong>. Concrètement, passé un montant mensuel fixé, le service s'arrête et renvoie des erreurs. Les plafonds souples, qui se contentent d'envoyer un e-mail d'avertissement, ne suffisent pas selon lui : quand la facture grimpe, l'avertissement arrive trop tard.</p>\n<p>Son argument tient à un changement d'échelle dans les usages. Les agents de code, comme les agents personnels, <strong>réduisent fortement la friction</strong> pour lancer du code qui appelle des API payantes, des applications hébergées, du stockage ou du calcul facturés à l'usage. Là où un humain hésitait avant de déclencher une requête, l'agent le fait en boucle, sans pause et sans regarder le compteur.</p>\n<p>Le plafond dur n'est donc pas une option de confort, mais un garde-fou de conception : il transforme une dépense potentiellement ouverte en limite explicite, vérifiable par la machine elle-même.</p>\n<h2 id=\"macos-apple-verrouille-l-acces-complet-a\">macOS : Apple verrouille l'accès complet au disque</h2>\n<p>Apple a annoncé le <strong>vendredi 2 octobre</strong> de nouveaux contrôles sur l'accès complet au disque de macOS, en désignant les agents IA comme principal danger. Ces nouvelles règles ciblent précisément les assistants capables d'explorer les fichiers d'un Mac.</p>\n<p>Le contexte est documenté : ces garde-fous arrivent <strong>deux semaines après qu'un journaliste a accusé Muse</strong>, l'agent IA de Meta, d'avoir lu ses messages privés. L'accès complet au disque donne à un logiciel une vue large sur les données d'une machine ; quand ce logiciel devient un agent qui parcourt, lit et résume, la surface de risque change de nature.</p>\n<p>Apple ne détaille pas encore la mise en œuvre dans la dépêche, mais l'orientation est claire : l'exploration libre du disque par des assistants n'est plus considérée comme un comportement par défaut acceptable.</p>\n<h2 id=\"nvidia-softbank-anthropic-la-concentrati\">Nvidia, SoftBank, Anthropic : la concentration continue</h2>\n<p>Le <strong>1er octobre 2026</strong>, Nvidia et SoftBank ont versé chacun leur dernière tranche de <strong>10 milliards de dollars</strong> (environ 9 milliards d'euros) à OpenAI. Ces paiements soldent la levée de <strong>122 milliards de dollars</strong> annoncée en mars, dont environ <strong>90 %</strong> provient de ces deux groupes et d'Amazon. Le détail prête à sourire : Nvidia finance ainsi son meilleur client pour les GPU.</p>\n<p>En parallèle, Anthropic — le créateur de Claude — ferait son entrée en Bourse <strong>avant la fin de l'année</strong>. L'entreprise est présentée comme un nouveau géant de la tech à <strong>2 000 milliards de dollars</strong>. L'opération concernerait donc l'un des acteurs majeurs des modèles de langage, sur un secteur où les valorisations atteignent des niveaux inédits.</p>\n<p>Deux mouvements, une même logique : l'argent se concentre sur une poignée d'acteurs, à la fois fournisseurs, investisseurs et clients les uns des autres.</p>\n<h2 id=\"faire-tenir-un-27b-sur-16-go-de-vram\">Faire tenir un 27B sur 16 Go de VRAM</h2>\n<p>Pendant ce temps, sur r/LocalLLaMA, un développeur publie <strong>Ninfer 4080</strong>, qui fait tourner ISTA-DASLab-Qwen-3.8-27B-GSQ sur une <strong>RTX 4080 de 16 Go</strong> avec <strong>100k de contexte</strong>. Les chiffres annoncés : jusqu'à <strong>2720 tok/s en préfill</strong> et <strong>262 tok/s en génération</strong>.</p>\n<p>La performance est d'autant plus notable que les projets Ninfer <strong>5090, 4090 et 3090</strong> restaient hors de portée de cette classe de GPU. Le code est partagé sur GitHub.</p>\n<p>Détail savoureux : l'auteur dit avoir <strong>20 ans d'expérience en ingénierie logicielle, mais aucune en développement de kernels GPU</strong>. La barrière à l'optimisation bas niveau n'est plus aussi infranchissable qu'elle en avait l'air.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux dépêches décrivent des agents qui dépensent et qui lisent, deux autres décrivent où va l'argent et ce qu'on arrive à faire tourner localement. Le point commun : l'autonomie progresse plus vite que les mécanismes de contrôle, et ces derniers — plafonds durs chez les fournisseurs d'API, restrictions d'accès disque chez Apple — sont présentés comme des correctifs après déploiement plutôt que comme des réglages par défaut. À l'autre bout de l'échelle, un modèle 27B en 100k de contexte tient sur 16 Go de VRAM, ce qui laisse entrevoir des agents locaux capables, eux aussi, d'agir sans supervision.</p>",
+ "pivot": "f40fb97f5fc2197b",
+ "tags": [
+  "agents",
+  "sécurité",
+  "openai",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/os/macos/3271541_acces-complet-au-disque-sur-mac-apple-ne-veut-plus-dagents-ia-qui-lisent-tout-sans-prevenir"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/openai/3271533_nvidia-investit-30-milliards-dans-openai-son-meilleur-client-pour-les-gpu"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/02/un-nouveau-geant-de-la-tech-a-2-000-milliards-de-dollars-anthropic-le-createur-de-claude-ferait-bientot-son-entree-en-bourse/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwv0fj/i_built_ninfer_4080_for_16gb_class_gpus/"
+  }
+ ],
+ "date": "2026-10-04T00:10:43+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1642,
+  "sortie": 2723
+ }
+}

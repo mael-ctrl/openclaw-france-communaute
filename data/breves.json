@@ -1,5 +1,67 @@
 [
  {
+  "id": "fe11e51139727980",
+  "slug": "aleph-alpha-publie-kolibri-1-un-modele-moe-europeen-de-78b-sur-hugging-fe11e5",
+  "titre": "Aleph-Alpha publie Kolibri-1, un modèle MoE européen de 78B sur Hugging Face",
+  "resume": "Le dépôt Hugging Face d'Aleph-Alpha référence Kolibri-1, un nouveau modèle européen développé en Allemagne. Il s'agit d'un MoE dont la nomenclature annonce 78B de paramètres au total pour 3,5B activés. La carte du modèle est particulièrement fournie, avec de nombreux benchmarks détaillés. Un membre de r/LocalLLaMA relaie la sortie et invite à y jeter un œil.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wx1ora/alephalphakolibri1_hugging_face_78ba35b_moe/",
+  "date_source": "2026-10-04T00:02:08+00:00",
+  "date_redac": "2026-10-04T00:10:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 653,
+   "sortie": 805
+  }
+ },
+ {
+  "id": "906760f6539fb845",
+  "slug": "qwen-3-8-flash-next-en-q4-k-xl-80-a-110-tok-s-sur-deux-rtx-3090-906760",
+  "titre": "Qwen 3.8 Flash Next en Q4_K_XL : 80 à 110 tok/s sur deux RTX 3090",
+  "resume": "Un utilisateur de r/LocalLLaMA fait tourner Qwen 3.8 Flash Next en quantification Q4_K_XL avec Strata, sur deux RTX 3090 et 96 Go de DDR5. Il annonce 80 à 110 tokens par seconde pour un prompt de 2500 tokens, avec une intelligence supérieure au Qwen 3.8 27b selon lui. Le modèle reste accessible aux configurations à faible VRAM, ce qui pourrait permettre de remplacer le 27b comme modèle principal.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wx1bi1/strata_qwen_38_flash_next_is_the_biggest_thing/",
+  "date_source": "2026-10-03T23:44:20+00:00",
+  "date_redac": "2026-10-04T00:10:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 766,
+   "sortie": 638
+  }
+ },
+ {
+  "id": "f40fb97f5fc2197b",
+  "slug": "simon-willison-il-faut-des-plafonds-budgetaires-durs-par-defaut-f40fb9",
+  "titre": "Simon Willison : il faut des plafonds budgétaires durs par défaut",
+  "resume": "Simon Willison estime que les services facturés à l'usage et les API doivent proposer des plafonds budgétaires durs par défaut : passé un montant mensuel, le service s'arrête et renvoie des erreurs. Les plafonds souples, qui se contentent d'un e-mail d'avertissement, ne suffisent pas selon lui. Les agents de code, et les agents personnels, réduisent fortement la friction pour lancer du code qui appelle des API payantes, des applications hébergées ou du stockage et du calcul facturés à l'usage.",
+  "tags": [
+   "agents",
+   "dev",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+  "date_source": "2026-10-03T23:34:02+00:00",
+  "date_redac": "2026-10-04T00:10:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 774,
+   "sortie": 422
+  }
+ },
+ {
   "id": "883f9b89256d8bc7",
   "slug": "quand-l-agent-dit-avoir-termine-et-que-la-base-de-donnees-le-contredit-883f9b",
   "titre": "Quand l'agent dit avoir terminé et que la base de données le contredit",

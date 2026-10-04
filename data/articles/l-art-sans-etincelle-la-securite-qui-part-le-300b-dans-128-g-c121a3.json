@@ -1,0 +1,41 @@
+{
+ "slug": "l-art-sans-etincelle-la-securite-qui-part-le-300b-dans-128-g-c121a3",
+ "titre": "L'art sans étincelle, la sécurité qui part, le 300B dans 128 Go",
+ "chapo": "Le pape Léon XIV juge l'art généré par IA dépourvu d'une étincelle humaine, dans une critique qui porte sur la nature même de l'acte. Un responsable sécurité d'OpenAI démissionne et publie une tribune, la communauté locale fait tenir deux MoE de 300B sur un mini-PC de 128 Go, et Unitree dévoile un modèle humanoïde de 6B.",
+ "html": "<h2 id=\"l-etincelle-absente\">L'étincelle absente</h2>\n<p>Le Vatican n'a pas attendu les générateurs d'images pour s'intéresser à la technique, mais le propos de Léon XIV tranche avec les mises en garde éthiques habituelles. Le pape critique l'art produit par les machines et y voit une différence « ontologique, avant même qu'esthétique » avec l'art humain.</p>\n<p>Son argument tient en une observation : une machine génère par calcul statistique à partir de millions d'images créées par d'autres. Autrement dit, pas de modèle sans corpus, pas de sortie sans précédent. « Les algorithmes n'ont pas l'étincelle de l'humanité », écrit-il.</p>\n<p>Le raisonnement ne porte donc pas sur la qualité du résultat, ni sur la question des droits, mais sur la nature de l'acte. Ce qui distingue l'art humain, dans cette lecture, n'est pas le degré de finition mais l'origine de l'intention.</p>\n<h2 id=\"un-rapporteur-de-securite-s-en-va\">Un rapporteur de sécurité s'en va</h2>\n<p>Chez OpenAI, un départ qui parle. <strong>David Robinson</strong> rédigeait les rapports de sécurité qui accompagnaient chaque sortie de modèle majeur de l'entreprise. Cette semaine, il a quitté son poste.</p>\n<p>Il ne part pas en silence : il prend la parole dans une tribune publiée par <em>The Atlantic</em>, où il alerte sur les risques liés à l'IA. Le geste est notable parce qu'il vient de l'intérieur du processus — ces rapports sont précisément le mécanisme censé documenter les risques avant diffusion.</p>\n<p>On ne saura pas, à la lecture de la dépêche, ce que contient la tribune ni quels risques précis elle désigne. Ce qui reste, c'est le fait : un rédacteur de rapports de sécurité choisit de s'exprimer hors du cadre qui l'employait.</p>\n<h2 id=\"un-humanoide-de-6b-pour-64-taches\">Un humanoïde de 6B pour 64 tâches</h2>\n<p>Unitree Robotics présente <strong>UnifoLM-WLA-1.0</strong>, un modèle de fondation humanoïde de 6 milliards de paramètres. Il a été entraîné sur environ 2 500 heures de données issues de robots réels — pas de simulation, des machines en fonctionnement.</p>\n<p>Un seul modèle couvre 64 tâches : 10 de corps entier, 54 sur table, avec des pincements parallèles ou deux mains dextres. La démonstration tourne sur le robot G1, et les gestes montrés sont volontairement domestiques : faire le lit, charger la machine à laver, plier du linge, trier des objets.</p>\n<p>Le chiffre à retenir est la taille : 6B pour 64 tâches, là où l'on attendrait des architectures séparées par compétence. C'est la thèse du modèle de fondation appliquée au corps.</p>\n<h2 id=\"sur-r-localllama-la-vitesse-et-l-opacite\">Sur r/LocalLLaMA : la vitesse et l'opacité</h2>\n<p>Deux fils de la même communauté racontent la semaine sous deux angles.</p>\n<p>Le premier est une performance matérielle. Le moteur <strong>Kyojin</strong>, construit sur ExLlamaV3 pour Strix Halo (gfx1151, ROCm), fait tenir deux modèles MoE de classe 300B chacun sur une seule machine de 128 Go. Sur un Ryzen AI Max+ 395, GLM-5.3-Flash (99,7 Go) atteint 580 tok/s en prefill à 3,5K et 26 à 30 tok/s en décodage ; MiMo-V2.6-Flash-MOPD (105 Go) grimpe à 44 tok/s en code. Les poids MiMo viennent d'une quantification maison, et le pack GLM mélange des tenseurs EXL3 publics de turboderp en 2,05 et 3,05 bpw.</p>\n<p>Le second est un avertissement. Un développeur raconte une revue de code : une PR d'environ 600 lignes, générée, structurée et ouverte en moins de vingt minutes. Syntaxe propre, tests de base passés. Mais interrogé sur un cas limite du gestionnaire de requêtes, l'auteur répond : « Attends, je demande au modèle. » Le fil contredit le discours des « 10x » : comprendre le système était le vrai goulot d'étranglement, pas la frappe.</p>\n<p>Les deux histoires ne se contredisent pas : l'outil va vite, la compréhension non.</p>\n<h2>Et maintenant ?</h2>\n<p>Rien ne relie ces dépêches entre elles, sinon une même question posée sous plusieurs angles : ce que la machine fait, ce qu'elle ne fait pas, et ce que cela laisse à ceux qui s'en servent. Le pape trace la frontière du côté de l'intention, Robinson du côté du risque, Kyojin du côté de la capacité, le fil sur les PR du côté de la compréhension. Ces textes parlent moins de ce que les modèles produisent que de ce qu'ils exigent de leurs utilisateurs.</p>",
+ "pivot": "c121a30b302b7fbe",
+ "tags": [
+  "société",
+  "sécurité",
+  "robots",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwocik/two_300b_moe_models_each_on_one_128_gb_mini_pc/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwum69/anyone_else_noticing_that_coding_models_are_just/"
+  }
+ ],
+ "date": "2026-10-04T05:51:48+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1637,
+  "sortie": 4625
+ }
+}

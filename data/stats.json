@@ -1,26 +1,18 @@
 {
- "runs": 98,
- "items_collectes": 746,
- "breves_publiees": 300,
- "articles_publies": 46,
- "tokens_entree": 295448,
- "tokens_sortie": 431281,
+ "runs": 99,
+ "items_collectes": 750,
+ "breves_publiees": 302,
+ "articles_publies": 47,
+ "tokens_entree": 298933,
+ "tokens_sortie": 438594,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-04T21:50:15+00:00",
+ "dernier_run": "2026-10-04T23:14:21+00:00",
  "solde": {
   "total": "87.67",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-04T14:18:49+00:00",
-   "message": "brève impossible (I Distilled an LLM into two 287M encoders (GLiNER + multiple) : réponse non-JSON"
-  },
-  {
-   "ts": "2026-10-04T16:40:54+00:00",
-   "message": "brève impossible (A Strata fork for IBM AC922 running Qwen3.8-FN UD-Q4_K_XL is) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-04T16:41:21+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 20 column 6 (char 3705)"
@@ -32,6 +24,14 @@
   {
    "ts": "2026-10-04T18:19:19+00:00",
    "message": "article impossible : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-04T23:13:30+00:00",
+   "message": "brève impossible (SPOPI: UI and editor around Pi that Pi can change itself) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-04T23:13:43+00:00",
+   "message": "brève impossible (Is Strix Halo (GMKtec EVO-X2, etc.) the closest thing we hav) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -415,6 +415,10 @@
   ],
   [
    "2026-10-04T21:50:15+00:00",
+   "87.67"
+  ],
+  [
+   "2026-10-04T23:13:19+00:00",
    "87.67"
   ]
  ],

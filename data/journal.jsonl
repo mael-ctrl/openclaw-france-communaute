@@ -551,3 +551,10 @@
 {"ts": "2026-10-04T21:55:32+00:00", "evenement": "deploiement", "details": {"fichiers": 386, "octets": 5562662}, "sha256": "39e0ef10d50640b7861cdc39ad957d6139f1864fcabc7b4731838ba7855969b8"}
 {"ts": "2026-10-04T21:55:32+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "b598c21da63dc9d95080c9ce7a1d59839e1b4cd02ab660b581c03d4590469227"}
 {"ts": "2026-10-04T21:55:32+00:00", "evenement": "bilan", "details": {"duree_s": 342.6, "neufs": 0, "breves": 0, "articles": 0, "fichiers": 374, "envois": 386, "publications": 0}, "sha256": "bdfa4cccb8c2c912666094572d4ec8816e01c182665b698c7aa2aaf48fe3d1e7"}
+{"ts": "2026-10-04T23:13:18+00:00", "evenement": "collecte", "details": {"neufs": 4}, "sha256": "cc6356c4acc3201c2b140d3206c74015ed21ced2c96d988870537560b84bab29"}
+{"ts": "2026-10-04T23:13:30+00:00", "evenement": "erreur", "details": {"message": "brève impossible (SPOPI: UI and editor around Pi that Pi can change itself) : réponse non-JSON"}, "sha256": "58107630673c18f44968d219651794eb337ae00e70c7fa33b609199c19482158"}
+{"ts": "2026-10-04T23:13:43+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Is Strix Halo (GMKtec EVO-X2, etc.) the closest thing we hav) : réponse non-JSON"}, "sha256": "195a87386257c59c48e235e39f824d4dc436b387660dc689268aa53feb67bfe4"}
+{"ts": "2026-10-04T23:14:22+00:00", "evenement": "construction", "details": {"fichiers": 377}, "sha256": "e5966c8f6c178c49004c246d26004b8da4d4676a21e83f0a64250b67a19f25a8"}
+{"ts": "2026-10-04T23:19:54+00:00", "evenement": "deploiement", "details": {"fichiers": 389, "octets": 5580108}, "sha256": "ea7565c5e3cd7364b48225f7fddd8da4817a87483b9fd8c2730cb93fe32f4f85"}
+{"ts": "2026-10-04T23:19:55+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "dd2b5b94fe34090117b96af135cf777c87f7e498c0eaadee8b45945d0ef84571"}
+{"ts": "2026-10-04T23:19:55+00:00", "evenement": "bilan", "details": {"duree_s": 440.5, "neufs": 4, "breves": 2, "articles": 1, "fichiers": 377, "envois": 389, "publications": 0}, "sha256": "c6f33d170e1782c851fd159ca889b366ad3a1a2faf881f01e5f7969c744c9eec"}

@@ -1,5 +1,47 @@
 [
  {
+  "id": "f33c22af3435509e",
+  "slug": "sur-double-dgx-spark-glm-5-3-flash-gagne-plus-de-50-en-performance-f33c22",
+  "titre": "Sur double DGX Spark, GLM 5.3 flash gagne plus de 50 % en performance",
+  "resume": "Un utilisateur de deux DGX Spark partage ses mesures : après des mois sur DeepSeek v4.0 flash (65 tokens/s en décodage, 4 à 5 agents en parallèle), il est passé à GLM 5.3 flash, une nouvelle recette apportant 50 à 90 % de décodage en plus. Il juge le modèle plus intelligent que DeepSeek v4.1 flash, qui ne tourne pas sur cette configuration, et plus rapide en décodage que v4.0 flash, avec une légère baisse en prefill.",
+  "tags": [
+   "matériel",
+   "deepseek",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxrozq/for_dual_dgx_spark_users_glm_53_flash_got_a_50/",
+  "date_source": "2026-10-04T21:53:31+00:00",
+  "date_redac": "2026-10-04T23:13:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 892,
+   "sortie": 1395
+  }
+ },
+ {
+  "id": "c35a6dda21aeef6c",
+  "slug": "llama-cpp-regler-un-modele-quantifie-iq1-sur-deux-rtx-5060-ti-c35a6d",
+  "titre": "llama.cpp : régler un modèle quantifié IQ1 sur deux RTX 5060 Ti",
+  "resume": "Un utilisateur de r/LocalLLaMA fait tourner un modèle Qwen 3.8 Flash Next GSQ RCO IQ1_M de 27,58 Go sur deux RTX 5060 Ti 16 Go et 32 Go de DDR4. Il détaille ses paramètres llama.cpp : contexte de 98 304 tokens, cache K et V en q8_0, 999 couches sur GPU, embeddings sur CPU. Il demande si sa configuration est correcte, faute de retours cohérents sur ce modèle avec ce matériel.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxpvys/qfn_llamacpp_any_juice_left_to_squeeze/",
+  "date_source": "2026-10-04T20:35:41+00:00",
+  "date_redac": "2026-10-04T23:14:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 909,
+   "sortie": 1063
+  }
+ },
+ {
   "id": "e0406c3815e8412c",
   "slug": "google-gele-son-bug-bounty-open-source-face-a-l-afflux-de-signalements-e0406c",
   "titre": "Google gèle son bug bounty open source face à l'afflux de signalements générés par l'IA",

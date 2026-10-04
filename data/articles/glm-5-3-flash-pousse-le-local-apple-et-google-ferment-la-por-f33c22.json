@@ -1,0 +1,41 @@
+{
+ "slug": "glm-5-3-flash-pousse-le-local-apple-et-google-ferment-la-por-f33c22",
+ "titre": "GLM 5.3 flash pousse le local, Apple et Google ferment la porte",
+ "chapo": "Sur deux DGX Spark, GLM 5.3 flash gagne 50 à 90 % de décodage en local ; sur un mini-PC de 128 Go, le moteur Kyojin fait tenir deux MoE de 300B. La même semaine, Apple encadre l'accès disque de macOS contre les agents IA et Google attaque Bruxelles.",
+ "html": "<h2 id=\"deux-dgx-spark-un-nouveau-bareme\">Deux DGX Spark, un nouveau barème</h2>\n<p>Sur r/LocalLLaMA, un utilisateur équipé de <strong>deux DGX Spark</strong> raconte avoir passé des mois sur DeepSeek v4.0 flash, avec 65 tokens/s en décodage et 4 à 5 agents lancés en parallèle. Son passage à <strong>GLM 5.3 flash</strong> lui apporte, selon ses mesures, 50 à 90 % de décodage en plus — une nouvelle recette qui ne coûte qu'une légère baisse en prefill.</p>\n<p>Son verdict est double. Il juge GLM 5.3 flash plus intelligent que DeepSeek v4.1 flash, en précisant que ce dernier ne tourne pas sur sa configuration, et plus rapide en décodage que DeepSeek v4.0 flash. Sur cette machine, le gain se joue donc sur la vitesse de génération.</p>\n<p>Ces chiffres viennent d'un post unique, sur une configuration unique : ils ne valent pas benchmark. Ils donnent en revanche une idée du rythme auquel les recettes de modèles ouverts évoluent à matériel constant.</p>\n<h2 id=\"300b-de-parametres-chacun-sur-128-go\">300B de paramètres chacun, sur 128 Go</h2>\n<p>Toujours sur r/LocalLLaMA, le moteur <strong>Kyojin</strong> — construit sur ExLlamaV3 pour Strix Halo (gfx1151, ROCm) — fait tenir <strong>deux modèles MoE de classe 300B</strong> sur une seule machine de 128 Go. Les mesures ont été prises sur un Ryzen AI Max+ 395 : GLM-5.3-Flash (99,7 Go) atteint 580 tok/s en prefill à 3,5K et 26 à 30 tok/s en décodage, tandis que MiMo-V2.6-Flash-MOPD (105 Go) grimpe à 44 tok/s sur du code.</p>\n<p>Le détail des poids explique la prouesse. Les poids de MiMo proviennent d'une quantification maison, et le pack GLM mélange des tenseurs EXL3 publics signés turboderp, en 2,05 et 3,05 bpw. À ces niveaux de compression, tenir dans 128 Go relève autant du choix de précision que de la puce.</p>\n<p>On retrouve GLM 5.3 flash dans les deux dépêches, mesuré en décodage sur des matériels très différents.</p>\n<h2 id=\"la-plateforme-ne-se-laisse-pas-ouvrir\">La plateforme ne se laisse pas ouvrir</h2>\n<p>Pendant que l'inférence locale descend en gamme de prix, les systèmes fermés resserrent leurs règles. Apple a annoncé le <strong>vendredi 2 octobre</strong> de nouveaux contrôles sur l'<strong>accès complet au disque</strong> de macOS, en désignant les agents IA comme principal danger. Le calendrier compte : ces garde-fous arrivent deux semaines après qu'un journaliste a accusé <strong>Muse</strong>, l'agent IA de Meta, d'avoir lu ses messages privés. Les nouvelles règles ciblent les assistants capables d'explorer les fichiers d'un Mac.</p>\n<p>De l'autre côté, c'est une ouverture qui se négocie. <strong>Google</strong> a saisi le Tribunal de l'Union européenne pour contester les exigences de Bruxelles : forcer le groupe à ouvrir davantage <strong>Android</strong> aux assistants IA concurrents et à partager certaines données de recherche avec des moteurs rivaux. Le géant refuse de céder, ce qui prolonge la bataille réglementaire autour de l'accès aux données et de la place des assistants IA sur mobile.</p>\n<p>Un agent qui explore tout sur un poste, un assistant qui n'obtient pas la place qu'il réclame sur un téléphone : les deux fronts portent sur la même question, celle de la surface sur laquelle l'IA travaille.</p>\n<h2 id=\"pendant-ce-temps-la-facture\">Pendant ce temps, la facture</h2>\n<p>Le 1er octobre 2026, <strong>Nvidia</strong> et <strong>SoftBank</strong> ont versé chacun leur dernière tranche de <strong>10 milliards de dollars</strong> (environ 9 milliards d'euros) à OpenAI. Ces paiements soldent la levée de <strong>122 milliards de dollars</strong> annoncée en mars, dont environ 90 % proviennent de ces deux groupes et d'<strong>Amazon</strong>.</p>\n<p>Le détail à retenir : Nvidia finance ainsi son meilleur client pour les GPU. La boucle est décrite telle quelle dans les comptes, sans qu'il faille aller la chercher ailleurs. Face aux expérimentations à deux cartes et au mini-PC de 128 Go, les montants rappellent qu'il existe un tout autre ordre de grandeur dans le secteur.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois mouvements se superposent sans s'expliquer l'un l'autre. Le local gagne du terrain : GLM 5.3 flash annoncé 50 à 90 % plus rapide en décodage sur deux DGX Spark, deux MoE de classe 300B logés sur 128 Go grâce à ExLlamaV3 et à un mélange de tenseurs EXL3. Les plateformes ne lâchent rien : Apple encadre l'accès disque face aux agents, Google conteste Bruxelles plutôt que d'ouvrir Android. Et l'argent continue de circuler dans la même direction, avec 20 milliards de dollars versés par Nvidia et SoftBank le 1er octobre.</p>",
+ "pivot": "f33c22af3435509e",
+ "tags": [
+  "openai",
+  "agents",
+  "matériel",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxrozq/for_dual_dgx_spark_users_glm_53_flash_got_a_50/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/04/google-ne-veut-pas-partager-ses-recherches-et-saisit-la-justice-europeenne/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwocik/two_300b_moe_models_each_on_one_128_gb_mini_pc/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/os/macos/3271541_acces-complet-au-disque-sur-mac-apple-ne-veut-plus-dagents-ia-qui-lisent-tout-sans-prevenir"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/openai/3271533_nvidia-investit-30-milliards-dans-openai-son-meilleur-client-pour-les-gpu"
+  }
+ ],
+ "date": "2026-10-04T23:14:21+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1684,
+  "sortie": 4855
+ }
+}

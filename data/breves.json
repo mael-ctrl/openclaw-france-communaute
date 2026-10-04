@@ -1,5 +1,26 @@
 [
  {
+  "id": "2303b6ee0ba96fc5",
+  "slug": "un-utilisateur-de-r-localllama-doute-que-jev-differe-d-un-simple-model-2303b6",
+  "titre": "Un utilisateur de r/LocalLLaMA doute que JEV diffère d'un simple modèle d'embeddings",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande ce qui distingue JEV d'un simple modèle d'embeddings, affirmant ne voir aucune différence. Il met à disposition son serveur JEV, qui tourne avec ollama et le modèle nomic-embed-text. Les exemples partagés montrent un score de 0,89 pour find_phone sur « can you help me locate my phone », mais des scores serrés sur des phrases hors sujet.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxcn49/can_someone_explain_how_jev_is_different_from_a/",
+  "date_source": "2026-10-04T10:41:59+00:00",
+  "date_redac": "2026-10-04T10:56:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 896,
+   "sortie": 806
+  }
+ },
+ {
   "id": "fe6fcc01ba86df9d",
   "slug": "meta-xiaomi-18-pro-et-ps5-jailbreakee-le-recap-tech-de-la-semaine-fe6fcc",
   "titre": "Meta, Xiaomi 18 Pro et PS5 jailbreakée : le récap tech de la semaine",

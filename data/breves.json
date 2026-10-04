@@ -1,5 +1,48 @@
 [
  {
+  "id": "31ad539e259cc812",
+  "slug": "48-go-mac-mini-m4-pro-ou-64-go-mac-studio-m1-max-pour-lia-locale-31ad53",
+  "titre": "48 Go Mac mini M4 Pro ou 64 Go Mac Studio M1 Max pour l’IA locale",
+  "resume": "Un utilisateur de r/LocalLLaMA envisage d’échanger son Mac mini M4 Pro 48 Go contre un Mac Studio M1 Max 64 Go, sans a priori de supplément. Le vendeur ne lui a pas encore précisé s’il s’agit de la variante 24 ou 32 cœurs. Il pense pouvoir faire tourner un modèle 27b avec un contexte plus large, mais s’interroge sur les avantages et inconvénients, notamment la possible lenteur d’une machine plus ancienne.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wx6uzj/48gb_macmini_m4_pro_or_64gb_m1_max_studio/",
+  "date_source": "2026-10-04T04:42:01+00:00",
+  "date_redac": "2026-10-04T04:49:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 731,
+   "sortie": 880
+  }
+ },
+ {
+  "id": "b21acfd6abc54f17",
+  "slug": "un-moteur-d-inference-de-5-ko-en-assembleur-x86-64-pour-gemma-2b-b21acf",
+  "titre": "Un moteur d'inférence de 5 Ko en assembleur x86-64 pour Gemma-2B",
+  "resume": "Un développeur publie un moteur d'inférence pour Gemma-2B écrit entièrement en assembleur x86-64 à plat (FASM). Le binaire pèse 5,2 Ko, sans runtime C/C++ ni PyTorch, et s'exécute en AVX2 + F16C avec un GEMM 4 threads pour le prefill. Il tient 4,5 à 4,7 tokens/s en FP16 sur un i5 quad-core ancien. L'auteur y voit une exploration par les premiers principes, pas un concurrent de llama.cpp.",
+  "tags": [
+   "dev",
+   "matériel",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wx5x1p/discussion_a_5kb_pure_x8664_assembly_engine_for/",
+  "date_source": "2026-10-04T03:48:14+00:00",
+  "date_redac": "2026-10-04T04:49:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 874,
+   "sortie": 1065
+  }
+ },
+ {
   "id": "20d06bc52179177a",
   "slug": "un-utilisateur-cherche-le-modele-open-weights-le-moins-flagorneur-20d06b",
   "titre": "Un utilisateur cherche le modèle open weights le moins flagorneur",

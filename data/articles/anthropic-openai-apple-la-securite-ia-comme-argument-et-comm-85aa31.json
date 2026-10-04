@@ -1,0 +1,41 @@
+{
+ "slug": "anthropic-openai-apple-la-securite-ia-comme-argument-et-comm-85aa31",
+ "titre": "Anthropic, OpenAI, Apple : la sécurité IA comme argument et comme marché",
+ "chapo": "En quelques jours, Anthropic a publié une analyse sur le modèle chinois GLM-5.3 en posant ses propres outils comme la réponse aux risques, un responsable sécurité d'OpenAI a démissionné, et Apple a verrouillé l'accès au disque de macOS en ciblant les agents IA. Derrière ces mouvements, une même question : qui définit ce qu'est une IA sûre ?",
+ "html": "<h2 id=\"anthropic-evalue-glm-5-3-et-avance-ses-p\">Anthropic évalue GLM-5.3 et avance ses propres outils</h2>\n<p>Le 29 septembre, Anthropic a publié une analyse consacrée à GLM-5.3, un modèle chinois. L'entreprise y souligne les dangers que ce modèle présente et met en avant des résultats techniques qualifiés de préoccupants. Dans la foulée, elle pose ses propres outils — ceux qui accompagnent <strong>Claude</strong> — comme la réponse à ces risques.</p>\n<p>L'Usine Digitale y voit une démarche qui dépasse la seule question technique : protéger un business model et empêcher la concurrence. L'angle est donc autant commercial que scientifique. Documenter la dangerosité d'un modèle rival, c'est aussi se positionner sur le terrain de la confiance. Nuance de taille : l'analyse vient d'une entreprise dont le modèle occupe le même marché que celui qu'elle évalue.</p>\n<h2 id=\"chez-openai-le-redacteur-des-rapports-de\">Chez OpenAI, le rédacteur des rapports de sécurité s'en va</h2>\n<p>David Robinson rédigeait les rapports de sécurité qui accompagnaient chaque sortie de modèle majeur chez OpenAI. Cette semaine, il a quitté son poste. Il prend désormais la parole dans une tribune publiée par The Atlantic, où il alerte sur les risques liés à l'IA.</p>\n<p>Ces rapports constituent, à chaque nouvelle version d'un modèle, un point de repère extérieur sur ce qu'un système sait faire et sur ses limites. Que leur rédacteur s'exprime publiquement, hors de l'entreprise et dans un média généraliste, déplace le lieu du débat. On ne connaît pas encore le détail de son argumentation ; c'est le geste — partir et parler — qui fait l'information.</p>\n<h2 id=\"apple-resserre-la-vis-sur-les-agents-qui\">Apple resserre la vis sur les agents qui fouillent le disque</h2>\n<p>Apple a annoncé le vendredi 2 octobre de nouveaux contrôles sur l'accès complet au disque de macOS. Le principal danger désigné : les agents IA. Ces garde-fous arrivent deux semaines après qu'un journaliste a accusé Muse, l'agent IA de Meta, d'avoir lu ses messages privés.</p>\n<p>Les nouvelles règles ciblent les assistants capables d'explorer les fichiers d'un Mac : documents, messages, historiques. L'accès complet au disque, longtemps accordé sans discussion à des applications, devient un objet de sécurité à part entière — au moment précis où les agents deviennent la vitrine commerciale de tout l'écosystème.</p>\n<h2 id=\"pendant-ce-temps-les-capitaux-continuent\">Pendant ce temps, les capitaux continuent d'affluer</h2>\n<p>Le 1er octobre 2026, Nvidia et SoftBank ont versé chacun leur dernière tranche de 10 milliards de dollars — environ 9 milliards d'euros — à OpenAI. Ces paiements soldent la levée de 122 milliards de dollars annoncée en mars, dont environ 90 % provient de ces deux groupes et d'Amazon. Nvidia finance ainsi son meilleur client pour les GPU.</p>\n<p>De son côté, Anthropic — le créateur de Claude — ferait son entrée en Bourse avant la fin de l'année. L'entreprise est présentée comme un nouveau géant de la tech à 2 000 milliards de dollars. Autrement dit, celle qui documente les faiblesses d'un modèle concurrent prépare en parallèle une opération d'une tout autre nature, sur un secteur où les valorisations atteignent des niveaux inédits.</p>\n<h2>Et maintenant ?</h2>\n<p>Sur une même séquence : un éditeur qui invoque la sécurité pour disqualifier un modèle rival, un rédacteur de rapports de sécurité qui quitte son employeur pour alerter publiquement, un système d'exploitation qui restreint les agents capables de lire tout un disque, et vingt milliards de dollars versés au principal laboratoire du secteur. Ces mouvements ne s'expliquent pas les uns par les autres. Ils dessinent en revanche une même zone de tension : définir ce qu'est une IA sûre, et qui a autorité pour le définir, revient aussi à occuper une position sur le marché.</p>",
+ "pivot": "85aa31124e2fa229",
+ "tags": [
+  "claude",
+  "openai",
+  "agents",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/cybersecurite-anthropic-accuse-le-modele-chinois-glm-53-detre-dangereux-pour-proteger-son-business-model-et-empecher-la-competition.L5CPMKLMZVGO5IPPDTOG2K32MI.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/os/macos/3271541_acces-complet-au-disque-sur-mac-apple-ne-veut-plus-dagents-ia-qui-lisent-tout-sans-prevenir"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/openai/3271533_nvidia-investit-30-milliards-dans-openai-son-meilleur-client-pour-les-gpu"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/02/un-nouveau-geant-de-la-tech-a-2-000-milliards-de-dollars-anthropic-le-createur-de-claude-ferait-bientot-son-entree-en-bourse/"
+  }
+ ],
+ "date": "2026-10-04T04:49:58+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1569,
+  "sortie": 5965
+ }
+}

@@ -517,3 +517,10 @@
 {"ts": "2026-10-04T16:00:13+00:00", "evenement": "deploiement", "details": {"fichiers": 369, "octets": 5377560}, "sha256": "80446aa947c2c90a32881c68b5e7341b2e6a45cc933c141734c208ace4eee817"}
 {"ts": "2026-10-04T16:00:13+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "8552dc609a338eab58bbb564a61c38555b087adb43655bcb217f807545daceed"}
 {"ts": "2026-10-04T16:00:13+00:00", "evenement": "bilan", "details": {"duree_s": 393.2, "neufs": 5, "breves": 5, "articles": 1, "fichiers": 357, "envois": 369, "publications": 0}, "sha256": "fb315f9c2f4e8e0e6398efea95b34c82c0ddc5738279a85f2fc7e18fcecd3dbe"}
+{"ts": "2026-10-04T16:40:42+00:00", "evenement": "collecte", "details": {"neufs": 1}, "sha256": "b8eee1d7a0500af5941a94641918fac406c1f4376c2bb6778e3d03b5da54a707"}
+{"ts": "2026-10-04T16:40:54+00:00", "evenement": "erreur", "details": {"message": "brève impossible (A Strata fork for IBM AC922 running Qwen3.8-FN UD-Q4_K_XL is) : réponse non-JSON"}, "sha256": "513eb291d285658a8310b751d3c916cbaca38a9e18cac1d13c47b58edce8049c"}
+{"ts": "2026-10-04T16:41:21+00:00", "evenement": "erreur", "details": {"message": "article impossible : Expecting ',' delimiter: line 20 column 6 (char 3705)"}, "sha256": "5be08a220d13a0fc7d820f95d378bc339cb6593df09492a8ffba4bf2fd29c352"}
+{"ts": "2026-10-04T16:41:21+00:00", "evenement": "construction", "details": {"fichiers": 357}, "sha256": "43bc945bcb3e0e188ed0c96c1cbf9271524b54afd0429d8c51f90e4b3d1087ba"}
+{"ts": "2026-10-04T16:46:18+00:00", "evenement": "deploiement", "details": {"fichiers": 369, "octets": 5377686}, "sha256": "d5bfdcbdb4b95db347182646b4096ec1e6c6eff1637b7fecc43daf7d8c3d5936"}
+{"ts": "2026-10-04T16:46:19+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "2ab6c55dcf93fd18f9c8b6ff65d056d2ef988bfa4c4cff613853f48810549397"}
+{"ts": "2026-10-04T16:46:19+00:00", "evenement": "bilan", "details": {"duree_s": 350.7, "neufs": 1, "breves": 0, "articles": 0, "fichiers": 357, "envois": 369, "publications": 0}, "sha256": "b84976830ff061cbd7b99d4c17754427993c4d0a3b67c83774355cee548c0e56"}

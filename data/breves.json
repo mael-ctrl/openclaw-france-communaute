@@ -1,5 +1,110 @@
 [
  {
+  "id": "6376e87bf4f55e48",
+  "slug": "repox-un-outil-rust-qui-empaquette-un-depot-en-prompt-en-14-ms-6376e8",
+  "titre": "repOx, un outil Rust qui empaquette un dépôt en prompt en 14 ms",
+  "resume": "Un développeur publie repOx, un outil en ligne de commande écrit en Rust qui transforme un dépôt de code en prompt prêt à coller. Il écarte par défaut les lockfiles et les binaires grâce à une heuristique Git, ces fichiers pouvant consommer plus de 30 000 tokens pour rien, et traite un dépôt de 3 000 fichiers en environ 14 ms. Une interface TUI permet de décocher des dossiers, de prévisualiser les fichiers et de suivre un compteur de tokens avant la copie dans le presse-papiers.",
+  "tags": [
+   "dev",
+   "open-source",
+   "deepseek"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxl36c/built_a_quick_sub15ms_rust_clitui_to_pack_repos/",
+  "date_source": "2026-10-04T17:18:56+00:00",
+  "date_redac": "2026-10-04T17:34:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 882,
+   "sortie": 805
+  }
+ },
+ {
+  "id": "b9998b37d1fe8501",
+  "slug": "ds4-elague-pour-qwen3-8-flash-next-sur-metal-10-plus-rapide-sortie-bit-b9998b",
+  "titre": "ds4 élagué pour Qwen3.8 Flash Next sur Metal : ~10 % plus rapide, sortie bit-exacte",
+  "resume": "Un contributeur de ds4 (DwarfStar) a supprimé du code plutôt que de l'encadrer de ifdef : ds4.c passe de 85 000 à 45 000 lignes, réduit à Qwen3.8 Flash Next sur Metal. Sur un M5 Max avec 128 Go de RAM, il annonce environ 10 % de gain avec une sortie bit-exacte. Son raisonnement : le coût réel d'un patch inclut désormais les tokens que l'agent doit lire avant de savoir ce qu'il touche.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxkojd/i_took_antirezs_ds4_stripped_it_down_to_qwen38/",
+  "date_source": "2026-10-04T17:02:21+00:00",
+  "date_redac": "2026-10-04T17:34:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 875,
+   "sortie": 872
+  }
+ },
+ {
+  "id": "21e2427167f84ee6",
+  "slug": "mini-pc-le-comparatif-2026-des-modeles-testes-par-frandroid-21e242",
+  "titre": "Mini PC : le comparatif 2026 des modèles testés par Frandroid",
+  "resume": "Vous cherchez un ordinateur de bureau compact, efficace et pas trop cher ? Le mini PC, petit et livré clé en main, est présenté comme la solution adaptée à ce besoin. Frandroid publie son comparatif 2026 des meilleurs mini PC, testés et passés en revue un par un, avec un avis complet sur chaque modèle.",
+  "tags": [
+   "matériel",
+   "dev",
+   "france"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/guide-dachat/2472618_meilleurs-mini-pc-quel-modele-choisir",
+  "date_source": "2026-10-04T17:02:03+00:00",
+  "date_redac": "2026-10-04T17:34:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 672,
+   "sortie": 567
+  }
+ },
+ {
+  "id": "f38e98f1c8da70f2",
+  "slug": "qwen3-5-9b-en-int4-sur-un-fpga-a-280-2-tokens-par-seconde-f38e98",
+  "titre": "Qwen3.5 9B en INT4 sur un FPGA à 280 $ : 2 tokens par seconde",
+  "resume": "Un développeur de r/LocalLLaMA fait tourner un Qwen3.5 9B en INT4 sur un FPGA SQRL FK33 payé 280 $ sur eBay, une carte minière dotée de 8 Go de HBM2 et d'environ 400 Go/s de bande passante. Le débit atteint 2 tokens/s à 75 MHz ; monter la fréquence exigerait d'optimiser le RTL et d'augmenter la tension du cœur. L'objectif affiché : couvrir les modèles de 9B à 27B, faute de modèles de taille frontière justifiant jusqu'ici ce genre d'expérimentation.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxken1/qwen35_arch_implementation_in_fpga_fabric_for/",
+  "date_source": "2026-10-04T16:51:07+00:00",
+  "date_redac": "2026-10-04T17:34:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 860,
+   "sortie": 1140
+  }
+ },
+ {
+  "id": "e0c5f67c70e2a55c",
+  "slug": "le-lieutenant-gouverneur-du-new-jersey-cite-l-ia-pour-se-disculper-e0c5f6",
+  "titre": "Le lieutenant-gouverneur du New Jersey cite l'IA pour se disculper",
+  "resume": "Dale Caldwell, lieutenant-gouverneur du New Jersey, a été contraint à la démission le 25 septembre après une enquête concluant à du harcèlement sexuel envers un membre de son personnel et à des violations répétées des règles d'éthique. En tournée médiatique pour laver son nom, il a avancé un argument inattendu : selon lui, l'IA aurait dit qu'il n'avait pas commis de harcèlement sexuel.",
+  "tags": [
+   "société",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+  "date_source": "2026-10-04T16:16:04+00:00",
+  "date_redac": "2026-10-04T17:34:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 697,
+   "sortie": 781
+  }
+ },
+ {
   "id": "d3df956373c4df20",
   "slug": "apex-2-un-moe-de-3-87b-entraine-de-zero-sur-86-5-milliards-de-tokens-d3df95",
   "titre": "Apex-2 : un MoE de 3,87B entraîné de zéro sur 86,5 milliards de tokens",

@@ -1,0 +1,41 @@
+{
+ "slug": "fpga-a-280-deux-moe-de-300b-sur-128-go-l-ia-locale-avance-pa-f38e98",
+ "titre": "FPGA à 280 $, deux MoE de 300B sur 128 Go : l'IA locale avance par les bords",
+ "chapo": "Une carte de minage recyclée fait tourner un modèle 9B à 2 tokens par seconde ; un mini-PC de 128 Go héberge deux MoE de classe 300B. Pendant que le matériel détourné et l'ordonnancement logiciel progressent, Nvidia et SoftBank soldent leur levée record chez OpenAI.",
+ "html": "<h2 id=\"un-fpga-de-mineur-pour-qwen3-5-9b\">Un FPGA de mineur pour Qwen3.5 9B</h2>\n<p>Un développeur de r/LocalLLaMA fait tourner un <strong>Qwen3.5 9B en INT4</strong> sur une carte SQRL FK33 achetée <strong>280 $ sur eBay</strong>. La carte vient du minage de cryptomonnaies et embarque 8 Go de HBM2 pour environ 400 Go/s de bande passante.</p>\n<p>Le débit mesuré atteint <strong>2 tokens par seconde</strong>, à 75 MHz. Monter la fréquence exigerait deux chantiers distincts : optimiser le RTL et augmenter la tension du cœur. Rien qui se fasse en changeant un paramètre de compilation.</p>\n<p>L'objectif affiché est de couvrir la plage des modèles de 9B à 27B. Jusqu'ici, aucun modèle de taille frontière ne justifiait ce genre d'expérimentation sur FPGA.</p>\n<h2 id=\"kyojin-deux-moe-de-300b-sur-une-seule-ma\">Kyojin : deux MoE de 300B sur une seule machine</h2>\n<p>Le moteur <strong>Kyojin</strong> prend le problème par le logiciel. Construit sur <em>ExLlamaV3</em> pour Strix Halo (gfx1151, ROCm), il fait tenir deux modèles MoE de classe 300B chacun sur une seule machine de 128 Go.</p>\n<p>Les mesures ont été prises sur un Ryzen AI Max+ 395. <strong>GLM-5.3-Flash</strong>, 99,7 Go, atteint 580 tok/s en prefill à 3,5K et 26 à 30 tok/s en décodage. <strong>MiMo-V2.6-Flash-MOPD</strong>, 105 Go, grimpe à 44 tok/s sur du code.</p>\n<p>Côté poids, les deux packs ne viennent pas du même endroit : les MiMo sortent d'une quantification maison, quand le pack GLM mélange des tenseurs EXL3 publics de turboderp en 2,05 et 3,05 bits par poids. La mécanique tient autant à la quantification qu'au moteur qui la sert.</p>\n<h2 id=\"qwen3-5-comme-socle-des-robots-a-la-trad\">Qwen3.5 comme socle, des robots à la traduction</h2>\n<p>Deux dépêches de la semaine partagent un même socle : Qwen3.5. Bilibili publie <strong>Index-Translate</strong>, une famille de modèles de traduction multilingue bâtie dessus. Les modèles texte couvrent 150 langues et suivent des consignes de terminologie comme de formatage. La famille s'étend à la parole et au document entier : <strong>Index-Echo</strong> produit des sous-titres ou une voix à partir de la voix du locuteur, et <strong>Index-NativeLong</strong> traduit un document complet en conservant le contexte d'un passage à l'autre.</p>\n<p>Chez Unitree Robotics, c'est <strong>UnifoLM-WLA-1.0</strong> : un modèle de fondation humanoïde de 6B paramètres, entraîné sur environ 2 500 heures de données issues de robots réels. Un seul modèle couvre 64 tâches — dont 10 de corps entier et 54 sur table, avec pincements parallèles ou deux mains dextres.</p>\n<p>La démonstration tourne sur le robot G1, sur des gestes quotidiens : faire le lit, charger la machine à laver, plier du linge, trier des objets. Le même vocabulaire technique revient d'un bout à l'autre de l'écosystème — un modèle unique, plusieurs tâches, des données prises dans le réel.</p>\n<h2 id=\"pendant-ce-temps-l-argent-va-vers-openai\">Pendant ce temps, l'argent va vers OpenAI</h2>\n<p><strong>Nvidia et SoftBank</strong> ont versé le 1er octobre 2026 leurs dernières tranches de 10 milliards de dollars chacune — environ 9 milliards d'euros — à OpenAI. Ces paiements soldent la levée de <strong>122 milliards de dollars</strong> annoncée en mars, dont environ 90 % provient de ces deux groupes et d'Amazon.</p>\n<p>Le raccourci mérite d'être reposé tel quel : Nvidia finance ainsi son meilleur client pour les GPU.</p>\n<h2>Et maintenant ?</h2>\n<p>Entre un FPGA de récupération à 2 tokens par seconde et un mini-PC de 128 Go qui fait tenir deux MoE de 300B, l'inférence locale progresse sur deux fronts distincts : le matériel détourné et l'ordonnancement des poids. Le reste de l'écosystème suit la même pente, des modèles spécialisés adossés à des socles ouverts — un 6B humanoïde, de la traduction en 150 langues. À l'autre bout de l'échelle, les 122 milliards de dollars levés par OpenAI en mars rappellent que le calcul de pointe, lui, ne se bricole pas.</p>",
+ "pivot": "f38e98f1c8da70f2",
+ "tags": [
+  "matériel",
+  "open-source",
+  "robots",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxken1/qwen35_arch_implementation_in_fpga_fabric_for/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwocik/two_300b_moe_models_each_on_one_128_gb_mini_pc/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/openai/3271533_nvidia-investit-30-milliards-dans-openai-son-meilleur-client-pour-les-gpu"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxa1wr/bilibili_released_indextranslatea_a_multilingual/"
+  }
+ ],
+ "date": "2026-10-04T17:35:14+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1748,
+  "sortie": 4097
+ }
+}

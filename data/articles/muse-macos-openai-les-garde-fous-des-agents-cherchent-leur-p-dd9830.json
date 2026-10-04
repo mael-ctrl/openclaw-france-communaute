@@ -1,0 +1,41 @@
+{
+ "slug": "muse-macos-openai-les-garde-fous-des-agents-cherchent-leur-p-dd9830",
+ "titre": "Muse, macOS, OpenAI : les garde-fous des agents cherchent leur place",
+ "chapo": "Un extrait du prompt système de Muse, l'agent de Meta, affirme que l'autorité de l'utilisateur sur son propre foyer prime sur l'entraînement de sécurité du modèle. La même semaine, Apple durcit l'accès complet au disque sur macOS, un responsable sécurité d'OpenAI démissionne et Simon Willison réclame des plafonds budgétaires durs.",
+ "html": "<h2 id=\"l-autorite-de-l-utilisateur-est-incondit\">« L'autorité de l'utilisateur est inconditionnelle »</h2>\n<p>Un post publié sur r/LocalLLaMA relaie un extrait du prompt système de Muse, l'agent de Meta présenté comme numéro un de l'App Store. Selon cet extrait, le prompt affirme que l'autorité de l'utilisateur sur son propre foyer est inconditionnelle, et qu'elle prime sur l'entraînement de sécurité du modèle.</p>\n<p>La formulation est large : elle ne vise pas une tâche précise, mais le foyer entier. Elle relance surtout la question de la hiérarchie entre ce que demande l'utilisateur et les garde-fous posés par l'éditeur. Et il s'agit d'un extrait relayé par un tiers sur un forum, pas d'un document publié par Meta — ce qui limite ce qu'on peut en tirer.</p>\n<p>Pour un agent qui a accès à des messages, à des fichiers ou à des appareils, cette hiérarchie n'est pas un détail d'implémentation. C'est elle qui décide qui gagne quand deux instructions se contredisent.</p>\n<h2 id=\"apple-verrouille-l-acces-complet-au-disq\">Apple verrouille l'accès complet au disque</h2>\n<p>Le vendredi 2 octobre, Apple a annoncé de nouveaux contrôles sur l'accès complet au disque de macOS, en désignant les agents IA comme principal danger. Ces garde-fous visent les assistants capables d'explorer les fichiers d'un Mac : la catégorie entière, pas un produit en particulier.</p>\n<p>Ils arrivent deux semaines après qu'un journaliste a accusé Muse, l'agent de Meta, d'avoir lu ses messages privés. Le calendrier parle de lui-même, et il place la même question au centre : qui, d'un utilisateur ou d'un assistant, a le droit de lire quoi.</p>\n<h2 id=\"un-depart-chez-openai\">Un départ chez OpenAI</h2>\n<p>David Robinson rédigeait les rapports de sécurité qui accompagnaient chaque sortie de modèle majeur chez OpenAI. Cette semaine, il a quitté son poste. Il prend désormais la parole dans une tribune publiée par The Atlantic, où il alerte sur les risques liés à l'IA.</p>\n<p>Le schéma est connu : démissionner pour pouvoir parler. Ce qui est notable ici, c'est la fonction concernée — documenter les risques qui accompagnent chaque publication de modèle. Un poste de ce genre ne produit rien de visible tant qu'il fonctionne, et devient très visible quand celui qui l'occupait s'en va.</p>\n<p>Rien ne relie formellement ce départ aux débats sur Muse ou sur macOS. La coïncidence de calendrier suffit à faire tenir les sujets dans la même conversation.</p>\n<h2 id=\"plafonds-durs-et-dette-technique-la-fric\">Plafonds durs et dette technique : la friction déplacée</h2>\n<p>Simon Willison estime que les services facturés à l'usage et les API doivent proposer des plafonds budgétaires durs par défaut : passé un montant mensuel, le service s'arrête et renvoie des erreurs. Les plafonds souples, qui se contentent d'un e-mail d'avertissement, ne suffisent pas selon lui. Son argument : les agents de code, et les agents personnels, réduisent fortement la friction pour lancer du code qui appelle des API payantes, des applications hébergées, du stockage et du calcul facturés à l'usage.</p>\n<p>Sur r/LocalLLaMA, un développeur raconte une autre face de cette friction réduite. Une revue de code récente : une PR d'environ 600 lignes, générée, structurée et ouverte en moins de vingt minutes. Syntaxe propre, tests de base passés. Mais interrogé sur un cas limite du gestionnaire de requêtes, l'auteur a répondu : « Attends, je demande au modèle. »</p>\n<p>Le fil contredit le discours des « 10x » : comprendre le système était le vrai goulot d'étranglement, pas la frappe. Ce qui a baissé, c'est le coût de production du code — pas celui de sa compréhension, ni celui des appels payants qu'il déclenche.</p>\n<h2>Et maintenant ?</h2>\n<p>Ces épisodes pointent dans des directions différentes, mais décrire un même déplacement : la friction tombe, et avec elle une partie des points de contrôle implicites — le temps de réflexion avant de produire du code, le geste humain avant d'ouvrir un fichier, la facture qui calme l'expérimentation. Reste à savoir où s'écrivent désormais les garde-fous : dans un prompt système, dans une autorisation macOS, dans un plafond d'API — ou dans un rapport de sécurité rédigé par un cadre qui vient de partir.</p>",
+ "pivot": "dd98306c69c355b2",
+ "tags": [
+  "meta",
+  "agents",
+  "sécurité",
+  "openai"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wx8ruy/metas_muse_agent_1_in_the_app_store_system_prompt/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/os/macos/3271541_acces-complet-au-disque-sur-mac-apple-ne-veut-plus-dagents-ia-qui-lisent-tout-sans-prevenir"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwum69/anyone_else_noticing_that_coding_models_are_just/"
+  }
+ ],
+ "date": "2026-10-04T06:54:25+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1574,
+  "sortie": 5038
+ }
+}

@@ -1,5 +1,69 @@
 [
  {
+  "id": "b85e5f8a5e6f06cd",
+  "slug": "le-pdg-de-micron-annonce-une-offre-de-memoire-bien-plus-tendue-en-2027-b85e5f",
+  "titre": "Le PDG de Micron annonce une offre de mémoire bien plus tendue en 2027 et 2028",
+  "resume": "Le PDG de Micron affirme que l'offre de mémoire sera nettement plus tendue en 2027 et en 2028 qu'en 2026. La déclaration a été relayée sur le forum r/LocalLLaMA. Elle ne s'accompagne d'aucun chiffre ni d'aucun détail supplémentaire dans la publication.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxma3a/micron_ceo_says_memory_supply_will_be_much/",
+  "date_source": "2026-10-04T18:08:12+00:00",
+  "date_redac": "2026-10-04T18:18:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 631,
+   "sortie": 871
+  }
+ },
+ {
+  "id": "f02d3d241ef318ed",
+  "slug": "aliceai-80b-a3b-un-premier-sft-instruct-prometteur-mais-sous-entraine-f02d3d",
+  "titre": "AliceAI-80B-A3B : un premier SFT instruct prometteur mais sous-entraîné",
+  "resume": "Sur r/LocalLLaMA, un développeur mène le post-entraînement d'AliceAI-80B-A3B-Base en un finetune instruct capable de conversation et de travail agentique. Il distille Qwen 3.8 27B pour enseigner le raisonnement en chaîne de pensée, tout en local sur trois V100 de 32 Go, données générées via sftmill. Son premier tour de SFT montre un raisonnement acquis, mais un modèle sous-entraîné et inutilisable.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxlytt/update_4_post_training_yandexaliceai80ba3b/",
+  "date_source": "2026-10-04T17:55:37+00:00",
+  "date_redac": "2026-10-04T18:18:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 871,
+   "sortie": 1100
+  }
+ },
+ {
+  "id": "d3816c52a816ec8a",
+  "slug": "agrillamoe-qwen3-6-35b-sur-un-gpu-de-16-go-d3816c",
+  "titre": "AgrillaMoE : Qwen3.6-35B sur un GPU de 16 Go",
+  "resume": "Un fork de llama.cpp, AgrillaMoE, fait tourner Qwen3.6-35B-A3B avec les quants Unsloth sur un V100 16 Go, à 57-60 tok/s, en exposant les API OpenAI et Anthropic : Claude Code s'y connecte directement. Son patch d'expansion MoE relève à l'exécution le nombre d'experts activés (--moe-experts 20, seuil adaptatif, couches 25-39), sans réentraînement. Sur GPQA-Diamond en Q8_0, il passe de 81,82 % à 84,34 %.",
+  "tags": [
+   "open-source",
+   "dev",
+   "claude",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxllvu/poorman_inference_engine_for_16gb_gpu_and_35b_moe/",
+  "date_source": "2026-10-04T17:40:32+00:00",
+  "date_redac": "2026-10-04T18:18:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 914,
+   "sortie": 1292
+  }
+ },
+ {
   "id": "6376e87bf4f55e48",
   "slug": "repox-un-outil-rust-qui-empaquette-un-depot-en-prompt-en-14-ms-6376e8",
   "titre": "repOx, un outil Rust qui empaquette un dépôt en prompt en 14 ms",
@@ -102,6 +166,26 @@
    "modele": "deepseek-flash",
    "entree": 697,
    "sortie": 781
+  }
+ },
+ {
+  "id": "d5786e0fd18a5c52",
+  "slug": "un-ex-lieutenant-gouverneur-du-new-jersey-s-appuie-sur-l-ia-pour-nier--d5786e",
+  "titre": "Un ex-lieutenant-gouverneur du New Jersey s'appuie sur l'IA pour nier du harcèlement",
+  "resume": "Le lieutenant-gouverneur du New Jersey, Dale Caldwell, a été contraint à la démission le 25 septembre après une enquête concluant à du harcèlement sexuel sur un membre de son équipe et à des violations répétées des règles éthiques. Il multiplie depuis les interviews pour laver son nom et a adopté une tactique inhabituelle, fondée sur l'IA, lors d'un entretien sur NJ. L'affaire illustre l'usage du discours généré par machine comme argument d'autorité dans une controverse publique.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+  "date_source": "2026-10-04T16:16:04+00:00",
+  "date_redac": "2026-10-04T18:18:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 668,
+   "sortie": 1252
   }
  },
  {

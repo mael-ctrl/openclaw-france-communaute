@@ -529,3 +529,10 @@
 {"ts": "2026-10-04T17:42:22+00:00", "evenement": "deploiement", "details": {"fichiers": 375, "octets": 5429328}, "sha256": "d5d6241133fcc043a4115323600a2ce46ee9ec1f5ec19937612b85a0ce695018"}
 {"ts": "2026-10-04T17:42:22+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "93770673175078f31d7440cfd8fbcc20aaff2aa21c4c4330b0c3ee6520a5f6b5"}
 {"ts": "2026-10-04T17:42:22+00:00", "evenement": "bilan", "details": {"duree_s": 499.8, "neufs": 5, "breves": 5, "articles": 1, "fichiers": 363, "envois": 375, "publications": 0}, "sha256": "8c9fb6414c78003a966366ac2e498c87cb093b94263ec6618803c5f7ca9a01d3"}
+{"ts": "2026-10-04T18:18:05+00:00", "evenement": "collecte", "details": {"neufs": 5}, "sha256": "3dff5959fae59874309ac9abfc9a2e7411b94eff006f35c62b5610ea9f8f84a4"}
+{"ts": "2026-10-04T18:18:33+00:00", "evenement": "erreur", "details": {"message": "brève impossible (LFM2.5 2.6b vs MiniCPM5 2b) : réponse non-JSON"}, "sha256": "69faffca8c9696d8d03a3f4236f456abe1732793a4c5013c1d91bfcac5f26f2d"}
+{"ts": "2026-10-04T18:19:19+00:00", "evenement": "erreur", "details": {"message": "article impossible : réponse non-JSON"}, "sha256": "23c3ec0bbb568902e593259da4b9688b11a47cea1e17efa98c6761d54bd6e41c"}
+{"ts": "2026-10-04T18:19:19+00:00", "evenement": "construction", "details": {"fichiers": 367}, "sha256": "daa0c18801ff6dd06582a292b0bee5bed62f3a46ed9944824815ff7915e03335"}
+{"ts": "2026-10-04T18:25:43+00:00", "evenement": "deploiement", "details": {"fichiers": 379, "octets": 5457708}, "sha256": "75ff1dc80534b38f2da62e595b6dc8b77be11cb6f8286823390c47e89fa4d7be"}
+{"ts": "2026-10-04T18:25:44+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "73598f18eff45789471ec32522ecb8a6be9e2b4ad69e1cf1718e4ac52542ad42"}
+{"ts": "2026-10-04T18:25:44+00:00", "evenement": "bilan", "details": {"duree_s": 469.5, "neufs": 5, "breves": 4, "articles": 0, "fichiers": 367, "envois": 379, "publications": 0}, "sha256": "96e6b29ba91718879d26d29a8fe655cf8a185b3d15beb368ac70a70568e5ab9e"}

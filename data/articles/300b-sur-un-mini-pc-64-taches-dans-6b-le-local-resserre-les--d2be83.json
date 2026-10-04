@@ -1,0 +1,41 @@
+{
+ "slug": "300b-sur-un-mini-pc-64-taches-dans-6b-le-local-resserre-les--d2be83",
+ "titre": "300B sur un mini-PC, 64 tâches dans 6B : le local resserre les coûts",
+ "chapo": "Bilibili publie une famille de traduction multilingue couvrant 150 langues, Unitree fait tenir 64 tâches dans un modèle humanoïde de 6B, et deux MoE de classe 300B tournent chacun sur un mini-PC de 128 Go. Pendant ce temps, Simon Willison réclame des plafonds budgétaires durs par défaut sur les API facturées à l'usage.",
+ "html": "<h2 id=\"150-langues-et-le-document-entier\">150 langues, et le document entier</h2>\n<p>Bilibili publie <strong>Index-Translate</strong>, une famille de modèles de traduction multilingue bâtie sur Qwen3.5. Les modèles texte couvrent 150 langues et suivent des consignes de terminologie et de formatage : on peut donc leur imposer un vocabulaire et une mise en forme, pas seulement une langue cible.</p>\n<p>La famille ne s'arrête pas au texte. <strong>Index-Echo</strong> produit des sous-titres ou une voix à partir de la voix du locuteur, et <strong>Index-NativeLong</strong> traduit un document complet en gardant le contexte entre les passages. C'est ce dernier point qui structure l'ensemble : l'enjeu annoncé n'est pas de traiter chaque segment isolément, mais de conserver le fil à l'échelle d'un document entier. La traduction, la synthèse vocale et le traitement long document se retrouvent ainsi réunis sous une même famille de modèles.</p>\n<h2 id=\"du-300b-sur-un-mini-pc-du-27b-sur-une-rt\">Du 300B sur un mini-PC, du 27B sur une RTX 4080</h2>\n<p>Deux projets racontent la même poussée vers le matériel modeste. <strong>Kyojin</strong>, moteur construit sur ExLlamaV3 pour Strix Halo (gfx1151, ROCm), fait tenir deux modèles MoE de classe 300B chacun sur une seule machine de 128 Go. Sur un Ryzen AI Max+ 395, GLM-5.3-Flash (99,7 Go) atteint 580 tok/s en prefill à 3,5K et 26 à 30 tok/s en décodage, tandis que MiMo-V2.6-Flash-MOPD (105 Go) grimpe à 44 tok/s en code. Les poids MiMo viennent d'une quantification maison ; le pack GLM mélange des tenseurs EXL3 publics de turboderp en 2,05 et 3,05 bpw.</p>\n<p>Autre machine, autre contrainte : <strong>Ninfer 4080</strong> fait tourner ISTA-DASLab-Qwen-3.8-27B-GSQ sur une RTX 4080 de 16 Go avec 100k de contexte. Le développeur annonce jusqu'à 2720 tok/s en préfill et 262 tok/s en génération, là où les projets Ninfer 5090, 4090 et 3090 restaient hors de portée de cette classe de GPU. Le code est partagé sur GitHub, et l'auteur précise avoir 20 ans d'expérience en ingénierie logicielle — mais aucune en développement de kernels GPU.</p>\n<h2 id=\"un-humanoide-de-6b-pour-64-taches\">Un humanoïde de 6B pour 64 tâches</h2>\n<p><strong>Unitree Robotics</strong> présente <strong>UnifoLM-WLA-1.0</strong>, un modèle de fondation humanoïde de 6B paramètres entraîné sur environ 2 500 heures de données issues de robots réels. Un seul modèle couvre 64 tâches, dont 10 de corps entier et 54 sur table, avec pincements parallèles ou deux mains dextres.</p>\n<p>La démonstration tourne sur le robot G1 : faire le lit, charger la machine à laver, plier du linge, trier des objets. Le chiffre à retenir n'est pas la taille du réseau mais le nombre de gestes qu'il absorbe : 64 tâches pour 6B paramètres, là où l'on attendrait volontiers une architecture plusieurs fois plus lourde.</p>\n<h2 id=\"des-plafonds-durs-pas-des-e-mails\">Des plafonds durs, pas des e-mails</h2>\n<p><strong>Simon Willison</strong> estime que les services facturés à l'usage et les API doivent proposer des plafonds budgétaires durs par défaut : passé un montant mensuel, le service s'arrête et renvoie des erreurs. Les plafonds souples, qui se contentent d'un e-mail d'avertissement, ne suffisent pas selon lui.</p>\n<p>Son argument tient à ce que les agents changent. Les agents de code, et les agents personnels, réduisent fortement la friction pour lancer du code qui appelle des API payantes, des applications hébergées, ou du stockage et du calcul facturés à l'usage. Moins de friction pour déclencher, donc, mais aussi moins d'occasions de reprendre la main avant la facture — d'où la préférence pour un arrêt automatique plutôt qu'une alerte.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches dessinent deux mouvements parallèles. D'un côté la compression : traduction multilingue dans une famille unique, deux MoE de classe 300B sur 128 Go, 100k de contexte sur 16 Go, 64 tâches dans 6B de paramètres. De l'autre la facture : quand les agents multiplient les appels payants, le plafond budgétaire devient une fonctionnalité au même titre que la fenêtre de contexte. Le point commun est arithmétique. Ce qui compte n'est plus seulement ce qu'un modèle sait faire, mais ce qu'il coûte en mémoire ou en euros pour le faire.</p>",
+ "pivot": "d2be8328ce606342",
+ "tags": [
+  "open-source",
+  "matériel",
+  "robots",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxa1wr/bilibili_released_indextranslatea_a_multilingual/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwocik/two_300b_moe_models_each_on_one_128_gb_mini_pc/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ww91uw/unitree_just_dropped_unifolmwla10_a_single_6b/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwv0fj/i_built_ninfer_4080_for_16gb_class_gpus/"
+  }
+ ],
+ "date": "2026-10-04T08:16:03+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1758,
+  "sortie": 3923
+ }
+}

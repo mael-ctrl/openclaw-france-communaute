@@ -1,0 +1,41 @@
+{
+ "slug": "bug-bounties-satures-agents-surveilles-la-securite-cherche-l-e0406c",
+ "titre": "Bug bounties saturés, agents surveillés : la sécurité cherche le signal",
+ "chapo": "Google gèle son bug bounty open source, submergé par des signalements produits par l'IA, tandis qu'un responsable sécurité d'OpenAI démissionne en alertant sur les risques. À l'autre bout de l'échelle, des modèles de 300B tournent sur un mini-PC de 128 Go et Apple verrouille l'accès au disque de macOS.",
+ "html": "<h2 id=\"le-triage-devient-le-goulot-d-etrangleme\">Le triage devient le goulot d'étranglement</h2>\n<p>Google a gelé son programme de bug bounty dédié à l'open source. Le motif invoqué : une hausse significative des soumissions produites par l'IA. D'après TechCrunch, cet « AI slop » semble submerger les programmes de bug bounty.</p>\n<p>Le principe d'un bug bounty tient sur un contrat simple : une organisation ouvre ses dépôts, des chercheurs y signalent des vulnérabilités, et les rapports sérieux sont récompensés. Ce qui coince ici n'est pas le nombre de bugs trouvés, mais le volume de texte à lire pour les trouver. Un rapport généré en série coûte le même temps de triage qu'un rapport valide — et il en arrive davantage.</p>\n<p>La dépêche ne cite aucun chiffre : ni volume de soumissions, ni durée du gel. Le signal envoyé reste net. Quand la production de rapports devient bon marché, c'est la vérification qui devient la ressource rare.</p>\n<h2 id=\"chez-openai-un-depart-qui-parle\">Chez OpenAI, un départ qui parle</h2>\n<p>David Robinson rédigeait les rapports de sécurité qui accompagnaient chaque sortie de modèle majeur chez OpenAI. Cette semaine, il a quitté son poste.</p>\n<p>Il prend désormais la parole dans une tribune publiée par The Atlantic, où il alerte sur les risques liés à l'IA. Le geste — partir, puis écrire — pèse d'autant plus qu'il vient de l'intérieur : la personne dont le travail consistait à documenter les risques d'un modèle au moment de sa mise en circulation choisit de le faire hors du cadre de l'entreprise.</p>\n<p>Les deux dépêches ne partagent aucun acteur et ne se causent pas l'une l'autre. Elles posent pourtant la même question sous deux angles : qui lit, qui vérifie, et avec combien de temps disponible.</p>\n<h2 id=\"300b-sur-128-go-35b-sur-16-go\">300B sur 128 Go, 35B sur 16 Go</h2>\n<p>Pendant que la sécurité absorbe du texte, l'inférence locale absorbe des modèles. Le moteur Kyojin, construit sur ExLlamaV3 pour Strix Halo (gfx1151, ROCm), fait tenir deux modèles MoE de classe 300B chacun sur une seule machine de 128 Go. Les mesures sur Ryzen AI Max+ 395 sont précises : GLM-5.3-Flash (99,7 Go) atteint 580 tok/s en prefill à 3,5K et 26 à 30 tok/s en décodage, tandis que MiMo-V2.6-Flash-MOPD (105 Go) grimpe à 44 tok/s en code. Les poids de MiMo viennent d'une quantification maison, et le pack GLM mélange des tenseurs EXL3 publics de turboderp en 2,05 et 3,05 bpw.</p>\n<p>À l'autre bout du spectre matériel, AgrillaMoE, un fork de llama.cpp, fait tourner Qwen3.6-35B-A3B avec les quants Unsloth sur un V100 de 16 Go, à 57-60 tok/s. Le projet expose les API OpenAI et Anthropic : Claude Code s'y connecte directement. Son patch d'expansion MoE relève à l'exécution le nombre d'experts activés (--moe-experts 20, seuil adaptatif, couches 25-39), sans réentraînement. Sur GPQA-Diamond en Q8_0, le score passe de 81,82 % à 84,34 %.</p>\n<p>Deux approches distinctes, un même objectif : faire tenir sur une machine un modèle bien plus gros que ce que la mémoire laissait attendre.</p>\n<h2 id=\"apple-ferme-l-acces-complet-au-disque\">Apple ferme l'accès complet au disque</h2>\n<p>Apple, de son côté, resserre là où les agents opèrent. Le vendredi 2 octobre, la firme a annoncé de nouveaux contrôles sur l'accès complet au disque de macOS, en désignant les agents IA comme principal danger.</p>\n<p>Ces garde-fous arrivent deux semaines après qu'un journaliste a accusé Muse, l'agent IA de Meta, d'avoir lu ses messages privés. Les nouvelles règles ciblent les assistants capables d'explorer les fichiers d'un Mac — autrement dit, la catégorie d'outils qui gagne précisément en autonomie sur la machine.</p>\n<p>Le calendrier a quelque chose de tendu : au moment où des modèles de classe 300B tournent en local sur une machine de bureau, l'accès au disque devient un sujet de sécurité de premier plan.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois mouvements, une même bascule. La génération de texte rend la production de rapports quasi gratuite et déplace la valeur vers le triage humain. Les agents gagnent la capacité d'explorer un disque entier, et les systèmes d'exploitation commencent à leur opposer des barrières. L'inférence locale progresse assez pour que ces outils n'aient plus besoin de sortir de la machine. Ce qui reste rare, dans les trois cas, n'est ni le calcul ni le texte : c'est le temps de quelqu'un pour vérifier.</p>",
+ "pivot": "e0406c3815e8412c",
+ "tags": [
+  "sécurité",
+  "open-source",
+  "agents",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wwocik/two_300b_moe_models_each_on_one_128_gb_mini_pc/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/os/macos/3271541_acces-complet-au-disque-sur-mac-apple-ne-veut-plus-dagents-ia-qui-lisent-tout-sans-prevenir"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxllvu/poorman_inference_engine_for_16gb_gpu_and_35b_moe/"
+  }
+ ],
+ "date": "2026-10-04T21:10:15+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1632,
+  "sortie": 5263
+ }
+}

@@ -1,5 +1,88 @@
 [
  {
+  "id": "e0406c3815e8412c",
+  "slug": "google-gele-son-bug-bounty-open-source-face-a-l-afflux-de-signalements-e0406c",
+  "titre": "Google gèle son bug bounty open source face à l'afflux de signalements générés par l'IA",
+  "resume": "Google a gelé son programme de bug bounty dédié à l'open source. Motif invoqué : une hausse significative des soumissions produites par l'IA. D'après TechCrunch, ce « AI slop » semble submerger les programmes de bug bounty.",
+  "tags": [
+   "open-source",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+  "date_source": "2026-10-04T20:31:07+00:00",
+  "date_redac": "2026-10-04T21:09:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 620,
+   "sortie": 477
+  }
+ },
+ {
+  "id": "3dff43fd32feeae7",
+  "slug": "openclaw-test-d-interface-pour-le-parseur-d-extraits-en-chargement-dif-3dff43",
+  "titre": "OpenClaw : test d'interface pour le parseur d'extraits en chargement différé",
+  "resume": "OpenClaw a publié une nouvelle entrée de version sous l'identifiant release-publish/6cc10ab3e851-1791145446. L'extrait associé mentionne un test côté interface (ui) portant sur un parseur d'extraits de texte en chargement différé, référencé #165083. La publication ne fournit aucun détail supplémentaire sur la nature exacte ou la portée du changement.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F6cc10ab3e851-1791145446",
+  "date_source": "2026-10-04T20:23:24+00:00",
+  "date_redac": "2026-10-04T21:09:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 893
+  }
+ },
+ {
+  "id": "7f95409ab7c8065b",
+  "slug": "super-intelligence-et-pacte-de-securite-non-contraignant-l-ia-face-a-s-7f9540",
+  "titre": "Super intelligence et pacte de sécurité non contraignant : l'IA face à son image",
+  "resume": "Dans l'émission Equity de TechCrunch, la rédaction revient sur les tentatives de l'administration Trump de retravailler l'image de l'IA. La question posée est simple : la « super intelligence » et un pacte de sécurité non contraignant suffisent-ils à régler le problème d'image du secteur ?",
+  "tags": [
+   "société",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+  "date_source": "2026-10-04T20:08:34+00:00",
+  "date_redac": "2026-10-04T21:09:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 619,
+   "sortie": 824
+  }
+ },
+ {
+  "id": "32f8f6d3b5020210",
+  "slug": "un-parkour-sim-100-local-avec-glm-5-3-flash-sur-deux-dgx-spark-32f8f6",
+  "titre": "Un parkour sim 100 % local avec GLM 5.3 Flash sur deux DGX Spark",
+  "resume": "Un développeur a monté ce week-end une petite simulation de parkour entièrement locale, propulsée par GLM 5.3 Flash sur deux DGX Spark. Sa recette vLLM en tensor parallel 2 atteint environ 1 500 tokens/s en prefill et 40 tokens/s en decode à 100k de contexte, avec Claude Code comme échafaudage en 260k. L'auteur juge le modèle bon en code, avec une bonne compréhension de la vision et de la 3D.",
+  "tags": [
+   "matériel",
+   "dev",
+   "claude"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxp21n/fully_local_little_parkour_sim/",
+  "date_source": "2026-10-04T20:00:53+00:00",
+  "date_redac": "2026-10-04T21:09:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 807,
+   "sortie": 1038
+  }
+ },
+ {
   "id": "b85e5f8a5e6f06cd",
   "slug": "le-pdg-de-micron-annonce-une-offre-de-memoire-bien-plus-tendue-en-2027-b85e5f",
   "titre": "Le PDG de Micron annonce une offre de mémoire bien plus tendue en 2027 et 2028",
@@ -17,6 +100,26 @@
    "modele": "deepseek-flash",
    "entree": 631,
    "sortie": 871
+  }
+ },
+ {
+  "id": "8c8f592129590c61",
+  "slug": "un-tableau-de-bord-local-pour-l-inference-llm-plafonne-a-64-mo-8c8f59",
+  "titre": "Un tableau de bord local pour l'inférence LLM, plafonné à 64 Mo",
+  "resume": "Un développeur de r/LocalLLaMA travaille sur un tableau de bord d'inférence LLM : journaux détaillés, métriques, plafonné à 64 Mo, tout en local. Un collecteur lui permet de s'étendre via des endpoints d'API réseau, et il prend en charge plusieurs moteurs : llama, strata, moteurs CUDA maison, unsloth, LMS. Il juge sa journalisation plus complète que celle de l'API par défaut, mais le projet n'est pas encore public.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxm2og/llm_inference_dashboard/",
+  "date_source": "2026-10-04T18:00:03+00:00",
+  "date_redac": "2026-10-04T21:09:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 690,
+   "sortie": 1343
   }
  },
  {
@@ -39,6 +142,26 @@
    "modele": "deepseek-flash",
    "entree": 871,
    "sortie": 1100
+  }
+ },
+ {
+  "id": "0b50b2cef83c0a28",
+  "slug": "sur-r-localllama-un-benchmark-de-modeles-de-decision-oppose-clef-q8-a--0b50b2",
+  "titre": "Sur r/LocalLLaMA, un benchmark de modèles de décision oppose Clef Q8 à Jev",
+  "resume": "L'utilisateur /u/3VITAERC publie sur le subreddit r/LocalLLaMA une comparaison de modèles de décision, intitulée « Clef Q8 vs Jev ». Le message, mis en ligne le 4 octobre 2026, ne détaille dans son extrait ni la méthodologie ni les résultats obtenus. Il rejoint les nombreux tests comparatifs que la communauté partage régulièrement.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxloam/benchmarking_decision_models_is_fun_clef_q8_vs_jev/",
+  "date_source": "2026-10-04T17:43:17+00:00",
+  "date_redac": "2026-10-04T21:09:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 622,
+   "sortie": 687
   }
  },
  {

@@ -1,5 +1,47 @@
 [
  {
+  "id": "88ccb9e5a16668f9",
+  "slug": "llm-jacking-revente-de-comptes-d-ia-voles-et-detournement-de-serveurs--88ccb9",
+  "titre": "LLM-jacking : revente de comptes d'IA volés et détournement de serveurs cloud",
+  "resume": "Des comptes d'IA volés sont revendus à prix cassés, et des serveurs cloud sont détournés sans que leurs propriétaires s'en aperçoivent. Un analyste de Google a alerté fin septembre sur l'essor de cette pratique, baptisée LLM-jacking. Deux scénarios distincts se dégagent aujourd'hui.",
+  "tags": [
+   "sécurité",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/cyberguerre/2345263-le-fleau-cyber-prend-de-lampleur-et-deux-scenarios-se-distinguent-cest-quoi-le-llm-jacking.html",
+  "date_source": "2026-10-04T12:01:00+00:00",
+  "date_redac": "2026-10-04T12:05:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 673,
+   "sortie": 487
+  }
+ },
+ {
+  "id": "a472fe7858f01e96",
+  "slug": "tts-local-avec-breeze-un-dialogue-vocal-continu-avec-opus-5-5-a472fe",
+  "titre": "TTS local avec Breeze : un dialogue vocal continu avec Opus 5.5",
+  "resume": "Un utilisateur de r/LocalLLaMA combine Breeze, une synthèse vocale locale, avec de la reconnaissance vocale pour dialoguer avec Opus 5.5. Sans réflexion, le premier son sort après 500 ms ; en mode réflexion faible, il faut 1 à 1,5 seconde. Depuis son canapé, avec une télécommande BLE et un micro sans fil, il suit les sessions Claude qui se terminent : résumé parlé, puis transmission de ses décisions à la voix. Il note qu'Opus 5.5 garde le format court même au-delà de 500k de contexte.",
+  "tags": [
+   "claude",
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxd404/local_text_to_speech_with_breeze_is_truly/",
+  "date_source": "2026-10-04T11:10:03+00:00",
+  "date_redac": "2026-10-04T12:05:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 844,
+   "sortie": 689
+  }
+ },
+ {
   "id": "2303b6ee0ba96fc5",
   "slug": "un-utilisateur-de-r-localllama-doute-que-jev-differe-d-un-simple-model-2303b6",
   "titre": "Un utilisateur de r/LocalLLaMA doute que JEV diffère d'un simple modèle d'embeddings",

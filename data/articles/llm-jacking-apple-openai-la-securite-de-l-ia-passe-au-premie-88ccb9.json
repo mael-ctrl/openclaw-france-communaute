@@ -1,0 +1,41 @@
+{
+ "slug": "llm-jacking-apple-openai-la-securite-de-l-ia-passe-au-premie-88ccb9",
+ "titre": "LLM-jacking, Apple, OpenAI : la sécurité de l'IA passe au premier plan",
+ "chapo": "Des comptes d'IA volés revendus à prix cassés, des serveurs cloud détournés à l'insu de leurs propriétaires : le LLM-jacking s'installe. La même semaine, Apple verrouille l'accès complet au disque de macOS et un responsable sécurité d'OpenAI quitte son poste en alertant sur les risques.",
+ "html": "<h2 id=\"le-llm-jacking-ou-l-ia-aux-frais-d-un-au\">Le LLM-jacking, ou l'IA aux frais d'un autre</h2>\n<p>Un analyste de Google a alerté fin septembre sur une pratique en plein essor, baptisée <strong>LLM-jacking</strong>. Le ressort est simple : détourner de la puissance de calcul et des accès à des modèles de langage qui ne vous appartiennent pas. Deux scénarios distincts se dégagent aujourd'hui.</p>\n<p>D'un côté, des <strong>comptes d'IA volés</strong> sont revendus à prix cassés. De l'autre, des <strong>serveurs cloud sont détournés</strong> sans que leurs propriétaires s'en aperçoivent. Dans les deux cas, la ressource consommée ne se voit pas, et celui qui paie n'est pas celui qui en profite.</p>\n<p>Ce qui donne au phénomène son relief, c'est la nature de ce qui est dérobé : non pas des données personnelles, mais de la capacité de calcul et des accès à des modèles. Un actif dont la valeur marchande est désormais assez élevée pour qu'on le revende au rabais.</p>\n<h2 id=\"apple-resserre-l-acces-complet-au-disque\">Apple resserre l'accès complet au disque</h2>\n<p>Apple a annoncé le vendredi 2 octobre de nouveaux contrôles sur l'accès complet au disque de macOS, en désignant les <strong>agents IA</strong> comme principal danger. Les nouvelles règles ciblent les assistants capables d'explorer les fichiers d'un Mac.</p>\n<p>Le calendrier est documenté : ces garde-fous arrivent <strong>deux semaines après</strong> qu'un journaliste a accusé Muse, l'agent IA de Meta, d'avoir lu ses messages privés. Un système d'exploitation qui encadre nommément les agents dessine une ligne : l'assistant qui lit tout, sans prévenir, devient un cas à traiter sur le plan des permissions.</p>\n<h2 id=\"openai-le-depart-de-celui-qui-ecrivait-l\">OpenAI : le départ de celui qui écrivait les rapports de sécurité</h2>\n<p>David Robinson rédigeait les rapports de sécurité qui accompagnaient chaque sortie de modèle majeur chez OpenAI. Cette semaine, il a quitté son poste. Il prend désormais la parole dans une tribune publiée par <em>The Atlantic</em>, où il alerte sur les risques liés à l'IA.</p>\n<p>Le geste a un poids particulier : la fonction consistait précisément à documenter les risques au moment où un modèle était mis sur le marché. Un départ assorti d'une prise de parole publique place la question de la sécurité au même plan que les annonces de produits.</p>\n<h2 id=\"nvidia-softbank-anthropic-l-argent-conti\">Nvidia, SoftBank, Anthropic : l'argent continue d'affluer</h2>\n<p>Nvidia et SoftBank ont versé le 1er octobre leurs dernières tranches de <strong>10 milliards de dollars</strong> (environ 9 milliards d'euros) chacune à OpenAI. Ces paiements soldent la levée de <strong>122 milliards de dollars</strong> annoncée en mars, dont environ 90 % provient de ces deux groupes et d'Amazon. Nvidia finance ainsi son meilleur client pour les GPU.</p>\n<p>En parallèle, Anthropic, le créateur de Claude, ferait son entrée en Bourse avant la fin de l'année. L'entreprise est présentée comme un nouveau géant de la tech à 2 000 milliards de dollars. L'opération concernerait l'un des acteurs majeurs des modèles de langage, sur un secteur où les valorisations atteignent des niveaux inédits.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux mouvements de sens contraire traversent le secteur. D'un côté les capitaux : 122 milliards de dollars levés par OpenAI, une entrée en Bourse d'Anthropic présentée à 2 000 milliards. De l'autre la défiance : comptes détournés, serveurs siphonnés, un cadre sécurité qui part en publiant une tribune, un système d'exploitation qui resserre les permissions accordées aux agents. Les garde-fous ne se discutent plus seulement dans les colloques : ils s'écrivent dans le code et dans les bilans.</p>",
+ "pivot": "88ccb9e5a16668f9",
+ "tags": [
+  "sécurité",
+  "agents",
+  "openai",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2345263-le-fleau-cyber-prend-de-lampleur-et-deux-scenarios-se-distinguent-cest-quoi-le-llm-jacking.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/os/macos/3271541_acces-complet-au-disque-sur-mac-apple-ne-veut-plus-dagents-ia-qui-lisent-tout-sans-prevenir"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/openai/3271533_nvidia-investit-30-milliards-dans-openai-son-meilleur-client-pour-les-gpu"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/02/un-nouveau-geant-de-la-tech-a-2-000-milliards-de-dollars-anthropic-le-createur-de-claude-ferait-bientot-son-entree-en-bourse/"
+  }
+ ],
+ "date": "2026-10-04T12:06:16+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1532,
+  "sortie": 4348
+ }
+}

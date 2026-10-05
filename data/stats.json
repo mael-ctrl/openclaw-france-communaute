@@ -1,22 +1,18 @@
 {
- "runs": 99,
- "items_collectes": 750,
- "breves_publiees": 302,
+ "runs": 100,
+ "items_collectes": 753,
+ "breves_publiees": 305,
  "articles_publies": 47,
- "tokens_entree": 298933,
- "tokens_sortie": 438594,
+ "tokens_entree": 301639,
+ "tokens_sortie": 442000,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-04T23:14:21+00:00",
+ "dernier_run": "2026-10-05T00:38:11+00:00",
  "solde": {
-  "total": "87.67",
+  "total": "87.66",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-04T16:41:21+00:00",
-   "message": "article impossible : Expecting ',' delimiter: line 20 column 6 (char 3705)"
-  },
   {
    "ts": "2026-10-04T18:18:33+00:00",
    "message": "brève impossible (LFM2.5 2.6b vs MiniCPM5 2b) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-04T23:13:43+00:00",
    "message": "brève impossible (Is Strix Halo (GMKtec EVO-X2, etc.) the closest thing we hav) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-05T00:38:11+00:00",
+   "message": "article impossible : Expecting ',' delimiter: line 1 column 3532 (char 3531)"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 3.99,
+ "depense_usd": 4.0,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -420,12 +420,16 @@
   [
    "2026-10-04T23:13:19+00:00",
    "87.67"
+  ],
+  [
+   "2026-10-05T00:37:28+00:00",
+   "87.66"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 1.7,
+ "depense_mois_usd": 1.71,
  "archive_tentatives": {
-  "jour": "2026-10-04",
+  "jour": "2026-10-05",
   "n": 1
  },
  "derniere_archive": "2026-10-04"

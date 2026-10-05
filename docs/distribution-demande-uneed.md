@@ -6,7 +6,15 @@ Réponse : `uneed@blockos.fr` (alias dédié du projet).
 
 Adaptation du texte préparé au §5 de `docs/distribution-textes.md`. Il s'agit d'une question privée, pas d'une soumission ni d'une demande de publication par e-mail. Aucun compte ou listing avant accord explicite sur les points ci-dessous ; aucune dépense autorisée par ce message.
 
-## Message
+## Suivi — réponse reçue le 05/10/2026
+
+- Réponse de Thomas (`contact@uneed.best`) à l'alias dédié, datée de 07:47 UTC ; relue en IMAP UID 14, en lecture seule.
+- Éligibilité des kits indépendants confirmée. Conserver une mention explicite : nous ne sommes ni les éditeurs d'OpenClaw/Hermes Agent ni leur représentation officielle.
+- Soumission ponctuelle par une IA contrôlant le navigateur explicitement autorisée pour ce projet ; cette permission ne vaut pas autorisation générale d'automatiser Uneed. Le MCP évoqué par Uneed est en lecture seule.
+- Utiliser uniquement la file d'attente gratuite, avec date attribuée automatiquement. Aucune option payante nécessaire ni engagée.
+- Aucun compte, listing ou réponse créé par la mission du 05/10 : le créneau quotidien est déjà utilisé par le post Bluesky du guide. Recontrôler le journal, les règles et le coffre avant toute soumission ultérieure ; ne pas renvoyer la demande de permission.
+
+## Message initial
 
 Bonjour à l'équipe Uneed,
 

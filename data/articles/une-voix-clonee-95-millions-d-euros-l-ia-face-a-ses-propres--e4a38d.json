@@ -1,0 +1,41 @@
+{
+ "slug": "une-voix-clonee-95-millions-d-euros-l-ia-face-a-ses-propres--e4a38d",
+ "titre": "Une voix clonée, 95 millions d'euros : l'IA face à ses propres dégâts",
+ "chapo": "Une banque italienne a viré 95 millions d'euros à des fraudeurs qui avaient cloné la voix de ses dirigeants. La même semaine, Apple verrouille macOS contre les agents IA et Google attaque Bruxelles en justice. Trois signaux d'un même mouvement : l'IA s'installe partout, et les garde-fous cherchent encore leur place.",
+ "html": "<h2 id=\"quand-la-voix-d-un-dirigeant-suffit\">Quand la voix d'un dirigeant suffit</h2>\n<p>Des fraudeurs ont reproduit une voix et usurpé l'identité de dirigeants pour convaincre une grande banque italienne d'effectuer plusieurs virements à l'étranger. La facture s'élève à <strong>95 millions d'euros</strong>.</p>\n<p>Le détail qui compte, c'est le contexte : ces escroqueries sont rendues particulièrement crédibles par l'IA, y compris face à une institution de cette taille. La barrière n'est donc plus la vraisemblance d'un appel, mais la capacité d'une organisation à vérifier qui parle réellement au bout du fil.</p>\n<p>Rien dans cette affaire ne relève de la faille informatique spectaculaire. Il s'agit d'un détournement d'identité, appuyé sur une voix synthétique assez convaincante pour déclencher des mouvements de fonds internationaux.</p>\n<h2 id=\"apple-barricade-macos-contre-les-agents\">Apple barricade macOS contre les agents</h2>\n<p>Le vendredi 2 octobre, Apple a annoncé de nouveaux contrôles sur l'accès complet au disque de macOS. Particularité de ces garde-fous : ils désignent explicitement les <strong>agents IA</strong> comme principal danger. Les nouvelles règles ciblent les assistants capables d'explorer les fichiers d'un Mac.</p>\n<p>Le calendrier n'est pas anodin. Ces contrôles arrivent deux semaines après qu'un journaliste a accusé <strong>Muse</strong>, l'agent IA de Meta, d'avoir lu ses messages privés. Autrement dit, un agent qui a accès au disque peut lire bien plus que ce que son utilisateur imagine.</p>\n<p>Apple ne bloque pas les agents : l'entreprise encadre leur accès à l'ensemble du système de fichiers. C'est une distinction importante, car elle déplace le débat de la fonctionnalité vers la permission.</p>\n<h2 id=\"bruxelles-veut-ouvrir-android-google-ref\">Bruxelles veut ouvrir Android, Google refuse</h2>\n<p>Google a saisi le <strong>Tribunal de l'Union européenne</strong> pour contester les exigences de Bruxelles. La Commission veut forcer le groupe à ouvrir davantage Android aux assistants IA concurrents, et à partager certaines données de recherche avec des moteurs rivaux.</p>\n<p>Le géant du web refuse de céder. Sa plainte prolonge une bataille réglementaire déjà installée autour de deux ressources : l'accès aux données et la place des assistants IA sur mobile.</p>\n<p>Derrière le vocabulaire juridique, l'enjeu est simple à formuler. Sur un téléphone, la position de l'assistant par défaut détermine qui capte la demande de l'utilisateur — et Bruxelles comme Google le savent depuis longtemps.</p>\n<h2 id=\"un-milliard-en-orbite-un-depart-chez-ope\">Un milliard en orbite, un départ chez OpenAI</h2>\n<p>Deux autres mouvements, sans lien entre eux, complètent le tableau de la semaine.</p>\n<p><strong>Mistral AI</strong> s'associe à Loft Orbital et Marlan Space dans un programme d'un milliard de dollars : une constellation de <strong>50 satellites</strong> capables d'analyser leurs données directement dans l'espace, sans repasser par le sol. Les dix premiers sont déjà en production.</p>\n<p>Chez <strong>OpenAI</strong>, c'est un départ qui retient l'attention. David Robinson rédigeait les rapports de sécurité qui accompagnaient chaque sortie de modèle majeur. Il a quitté son poste cette semaine et prend la parole dans une tribune publiée par <em>The Atlantic</em>, où il alerte sur les risques liés à l'IA. Un profil qui documentait les modèles avant leur mise en circulation, et qui choisit de s'exprimer après l'avoir quitté.</p>\n<h2>Et maintenant ?</h2>\n<p>Une fraude à 95 millions d'euros, un durcissement d'Apple, une plainte de Google, un départ chez OpenAI, cinquante satellites en préparation : ces sujets n'ont pas grand-chose en commun, sinon que tous concernent des systèmes d'IA en prise directe avec de l'argent, des fichiers, des données de recherche ou des risques. Ce qui se joue en ce moment n'est pas une course à la performance, mais la répartition des responsabilités. Reste à savoir qui répond quand la voix est fausse, quand l'agent lit trop, ou quand les données restent captives.</p>",
+ "pivot": "e4a38d50b0cb22b1",
+ "tags": [
+  "sécurité",
+  "agents",
+  "openai",
+  "mistral"
+ ],
+ "sources": [
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/05/une-fraude-a-lia-coute-95-millions-deuros-a-une-banque-italienne/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/05/mistral-met-son-ia-en-orbite-avec-loft-orbital/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/04/google-ne-veut-pas-partager-ses-recherches-et-saisit-la-justice-europeenne/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/os/macos/3271541_acces-complet-au-disque-sur-mac-apple-ne-veut-plus-dagents-ia-qui-lisent-tout-sans-prevenir"
+  }
+ ],
+ "date": "2026-10-05T05:37:44+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1484,
+  "sortie": 3202
+ }
+}

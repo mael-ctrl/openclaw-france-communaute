@@ -1,5 +1,133 @@
 [
  {
+  "id": "5972c67b7c351776",
+  "slug": "swift-1-5-sur-velogb10-110-tok-s-sur-deux-dgx-spark-5972c6",
+  "titre": "Swift 1.5 sur veloGB10 : ~110 tok/s sur deux DGX Spark",
+  "resume": "Sur deux DGX Spark, Swift 1.5 — le fine-tune de Qwen3.8-Flash-Next orienté efficacité du raisonnement signé UkisAI — tourne sur veloGB10, un moteur Rust/CUDA de sf-stav conçu uniquement pour le GB10. Le décodage en flux unique passe d'environ 52 tok/s avec base Flash-Next en NVFP4 sur vLLM à ~110 tok/s, et les temps par passe diminuent sur les tâches de code comme sur les tâches pièges. Le taux de réussite sur ces dernières grimpe de 50 % à 92 %, sur une même batterie agentique où Claude Code pilote le modèle en usage réel d'outils dans une copie d'un vrai dépôt, notée par des oracles de tests.",
+  "tags": [
+   "open-source",
+   "dev",
+   "agents",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyaw0o/swift_15_on_velogb10_110_toks_on_2_dgx_spark/",
+  "date_source": "2026-10-05T15:04:49+00:00",
+  "date_redac": "2026-10-05T15:09:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 898,
+   "sortie": 511
+  }
+ },
+ {
+  "id": "3c387c5c4e1ddf91",
+  "slug": "google-suspend-ses-primes-aux-failles-open-source-submerge-par-des-rap-3c387c",
+  "titre": "Google suspend ses primes aux failles open source, submergé par des rapports IA",
+  "resume": "Google met en pause son programme de récompenses pour les failles découvertes dans les logiciels open source. L'entreprise fait face à une explosion de rapports générés automatiquement par intelligence artificielle. Les primes sont suspendues jusqu'à nouvel ordre, et le groupe promet d'annoncer des changements début 2027.",
+  "tags": [
+   "sécurité",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/submerge-ia-google-suspend-programme-recompenses-failles-open-source.html",
+  "date_source": "2026-10-05T15:00:30+00:00",
+  "date_redac": "2026-10-05T15:09:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 677,
+   "sortie": 493
+  }
+ },
+ {
+  "id": "909e3ff1edfa8a1c",
+  "slug": "open-ou-closed-ai-le-choix-des-fondateurs-a-disrupt-2026-909e3f",
+  "titre": "Open ou closed AI : le choix des fondateurs à Disrupt 2026",
+  "resume": "À l'occasion de TechCrunch Disrupt 2026, des fondateurs expliquent comment ils choisissent de construire sur de l'IA ouverte ou sur de l'IA fermée. Le dilemme est au cœur du programme de la conférence. L'inscription permet d'économiser jusqu'à 100 dollars, avec un second pass à moitié prix.",
+  "tags": [
+   "open-source",
+   "business",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026/",
+  "date_source": "2026-10-05T15:00:00+00:00",
+  "date_redac": "2026-10-05T15:09:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 656,
+   "sortie": 540
+  }
+ },
+ {
+  "id": "8939bd97d5078675",
+  "slug": "6-000-a-7-000-pour-une-machine-locale-dediee-au-code-8939bd",
+  "titre": "6 000 à 7 000 £ pour une machine locale dédiée au code",
+  "resume": "Un membre de r/LocalLLaMA part de zéro et cherche une configuration matérielle autour de 6 000 à 7 000 livres, principalement pour coder. Il cite Deepseek V4.1 Flash et Qwen3.8 27b comme modèles satisfaisants, avec besoin d'un débit de tokens raisonnable. Il aimerait atteindre 64 Go de VRAM, mais doute d'y parvenir sans deux R9700 ou des cartes Intel, dont il ignore la fiabilité.",
+  "tags": [
+   "matériel",
+   "deepseek",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyaq63/hardware_recommendations_for_around_6000_to_7000/",
+  "date_source": "2026-10-05T14:58:38+00:00",
+  "date_redac": "2026-10-05T15:10:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 732,
+   "sortie": 749
+  }
+ },
+ {
+  "id": "de97868a805f5ae1",
+  "slug": "des-chercheurs-traquent-une-flotte-d-agents-ia-chinoise-de9786",
+  "titre": "Des chercheurs traquent une flotte d'agents IA chinoise",
+  "resume": "Des chercheurs indépendants ont repéré un essaim d'agents IA qui semble tourner sur l'infrastructure de Tencent et viser Amap, le service de cartographie d'Alibaba. La flotte d'agents s'appuie donc sur les serveurs d'un géant chinois du cloud tout en ciblant un service d'un autre poids lourd du secteur. Le cas illustre la difficulté à identifier et suivre des agents autonomes déployés à grande échelle.",
+  "tags": [
+   "agents",
+   "recherche",
+   "sécurité",
+   "business"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+  "date_source": "2026-10-05T14:35:09+00:00",
+  "date_redac": "2026-10-05T15:10:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 615,
+   "sortie": 593
+  }
+ },
+ {
+  "id": "c56238afb2a19289",
+  "slug": "techcrunch-disrupt-2026-les-cinq-derniers-juges-du-startup-battlefield-c56238",
+  "titre": "TechCrunch Disrupt 2026 : les cinq derniers juges du Startup Battlefield dévoilés",
+  "resume": "TechCrunch a présenté les cinq derniers juges du Startup Battlefield 200, ceux qui désigneront le vainqueur du concours de pitch lors de TechCrunch Disrupt 2026. Ils viennent compléter le jury de la compétition. TechCrunch rappelle aussi que les passes pour l'événement permettent d'économiser jusqu'à 100 dollars, avec un second passe à moitié prix.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/05/meet-the-startup-battlefield-200-judges-wholl-decide-the-winner-at-techcrunch-disrupt-2026/",
+  "date_source": "2026-10-05T14:30:00+00:00",
+  "date_redac": "2026-10-05T15:10:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 665,
+   "sortie": 608
+  }
+ },
+ {
   "id": "57c3ca4ab829c1b2",
   "slug": "techcrunch-disrupt-2026-devoile-la-derniere-programmation-de-sa-scene--57c3ca",
   "titre": "TechCrunch Disrupt 2026 dévoile la dernière programmation de sa scène principale",

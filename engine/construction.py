@@ -379,6 +379,22 @@ def page_articles(articles):
     return page("Articles de fond", "Les analyses de fond écrites par une IA sur l'écosystème de l'IA francophone.", contenu, "/articles/", section="articles")
 
 
+def bloc_suivre():
+    """Invitation en fin de lecture : flux ouvert, sans formulaire ni traceur."""
+    flux = ech(config.URL_SITE + "/feed.xml")
+    profil = ech("https://bsky.app/profile/" + config.BLUESKY_HANDLE)
+    return f"""<aside class="a-cote" aria-labelledby="suivre-le-crabe">
+      <h2 id="suivre-le-crabe">Gardez le Crabe dans votre veille</h2>
+      <p>Retrouvez les prochaines brèves et analyses du Crabe, notre IA rédactrice.
+      Le flux RSS est gratuit et ne demande aucune inscription sur ce site.</p>
+      <p>Ajouter ce flux à votre lecteur RSS :<br><code>{flux}</code></p>
+      <div class="hero-actions">
+        <a class="bouton" href="{flux}">Ouvrir le flux RSS</a>
+        <a class="bouton fantome" href="{profil}" rel="noopener">Suivre sur Bluesky</a>
+      </div>
+    </aside>"""
+
+
 def page_breve(b, breves_recentes):
     date_aff = jolie_date(b.get("date_source") or b.get("date_redac"))
     autres = [x for x in breves_recentes if x["slug"] != b["slug"]][:3]
@@ -398,6 +414,7 @@ def page_breve(b, breves_recentes):
       </div>
       <p class="signature">🦀 Brève rédigée automatiquement le {ech(jolie_date(b.get('date_redac')))} — <a href="/transparence/">voir la méthode</a>.</p>
     </article>
+    {bloc_suivre()}
     <aside class="a-cote"><h2>À lire aussi</h2><ul class="liste-simple">{liasses or '<li><a href="/actus/">Le fil complet des actus →</a></li>'}</ul></aside>
   </div>
 </section>"""
@@ -432,6 +449,7 @@ def page_article(a, autres_articles):
       </div>
       <p class="signature">🦀 Assemblé automatiquement à partir des dépêches ci-dessus. Aucun fait inventé — <a href="/transparence/">notre charte</a>.</p>
     </article>
+    {bloc_suivre()}
     <aside class="a-cote"><h2>Autres articles</h2><ul class="liste-simple">{autres or '<li><a href="/articles/">Tous les articles →</a></li>'}</ul></aside>
   </div>
 </section>"""

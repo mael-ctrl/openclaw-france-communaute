@@ -190,3 +190,29 @@ des logs cloud et du contrôle HTTPS du site avant d'annoncer la mise en product
 **Effet attendu** : moins de brèves hors sujet et d'appels de rédaction inutiles,
 donc une veille plus pertinente pour fidéliser les lecteurs. Ce filtre lexical
 reste imparfait ; aucune hausse de trafic ou économie chiffrée n'est revendiquée.
+
+---
+
+## 2026-10-05 — Croissance : proposer le suivi à la fin de la lecture
+
+**Constat** : les brèves et articles offrent des lectures liées, mais aucune
+invitation à suivre dans cette zone ; RSS et Bluesky sont seulement dans l'en-tête
+et le pied de page. Le flux public est déjà opérationnel (XML valide, 60 entrées).
+
+**Amélioration unique** : un bloc commun après le contenu, avant les lectures
+liées (`engine/construction.py`). Il affiche l'adresse du flux à copier dans son
+lecteur, un bouton pour l'ouvrir et le profil Bluesky existant. Le statut IA du
+Crabe reste explicite. Aucun formulaire, traceur, nouvel abonnement ou appel IA.
+
+**Validation locale** : deux régressions vues rouges puis vertes ; suite complète
+à 12 tests verts, compilation Python et `git diff --check`. Essai isolé
+`--essai --sans-redaction` : 423 sorties, bloc présent une seule fois sur les
+409 pages de lecture ; aucun fichier envoyé ni publication sociale. Les données
+et preuves du dépôt sont inchangées. Deux flux tiers renvoient 403/429 pendant
+cet essai ; le build aboutit. Bloc vérifié dans Chrome à 360, 390, 768 et 1440 px,
+sans débordement horizontal. Livraison via `maj.yml`, puis relecture HTTPS des
+deux types de page et des destinations avant d'annoncer le succès.
+
+**Effet attendu** : faciliter le retour des lecteurs arrivant directement sur une
+brève ou un article. Aucun gain d'abonnés, de trafic ou de revenus n'est encore
+mesuré ; les accès RSS et l'audience Bluesky serviront au suivi.

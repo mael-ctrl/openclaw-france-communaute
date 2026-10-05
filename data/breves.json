@@ -1,5 +1,109 @@
 [
  {
+  "id": "453b3ed14efaf685",
+  "slug": "fleuret-ai-leve-4-millions-d-euros-pour-automatiser-le-pentest-453b3e",
+  "titre": "Fleuret AI lève 4 millions d'euros pour automatiser le pentest",
+  "resume": "Fondée en janvier 2026 par Yanis Grigy et Augustin Ponsin, la start-up française Fleuret AI annonce une levée de 4 millions d'euros en pré-seed. Le tour est mené par Raise Ventures, avec Auriga Cyber Ventures, Wind, Better Angle, Bpifrance et 19 business angels du secteur, dont Georges Lotigier, cofondateur de Vade. L'objectif : automatiser le pentest et bâtir une cybersécurité offensive européenne.",
+  "tags": [
+   "sécurité",
+   "business",
+   "france"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/start-up/financement/levee-de-fonds/fleuret-ai-leve-4-millions-deuros-pour-automatiser-le-pentest-et-batir-une-cybersecurite-offensive-europeenne.ODAPH3J4ORF3TOZVPUAFIN4SVQ.html",
+  "date_source": "2026-10-05T04:06:40+00:00",
+  "date_redac": "2026-10-05T04:25:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 798,
+   "sortie": 808
+  }
+ },
+ {
+  "id": "453c30ff8ce1da88",
+  "slug": "infermeld-un-gguf-sur-gpu-amd-et-nvidia-sous-linux-453c30",
+  "titre": "Infermeld : un GGUF sur GPU AMD et NVIDIA sous Linux",
+  "resume": "Infermeld est un kit compagnon open-source sous Linux permettant de faire tourner un même GGUF sur un GPU AMD et un GPU NVIDIA, avec llama.cpp comme moteur d'inférence. Son mainteneur publie une v0.1.0 expérimentale : il ne s'agit pas d'un nouveau backend, mais d'un ensemble d'outils autour de la sélection explicite des devices AMD/Vulkan et NVIDIA/CUDA, avec preflight à l'exécution. Le kit fournit aussi des instructions de build reproductibles, des arguments de lancement inspectables et un garde-fou thermique en lecture seule. L'objectif : réutiliser des cartes des deux fabricants déjà en sa possession, sans acheter une paire identique, et le mainteneur cherche des testeurs ayant d'autres combinaisons mixtes.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxyuxx/infermeld_a_linux_kit_for_running_one_gguf_across/",
+  "date_source": "2026-10-05T03:55:27+00:00",
+  "date_redac": "2026-10-05T04:25:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 847,
+   "sortie": 530
+  }
+ },
+ {
+  "id": "7d4cad23e776bf26",
+  "slug": "strata-le-modele-strata-swift-iq3-xxs-glisse-des-reflexions-hors-sujet-7d4cad",
+  "titre": "Strata : le modèle strata-swift-iq3_xxs glisse des réflexions hors sujet",
+  "resume": "Un utilisateur de r/LocalLLaMA rapporte avoir testé le projet Strata sur une RTX 5070 Ti, avec un gain de performance de 2 à 3x sur un modèle strata-swift-iq3_xxs qu'il juge « plus intelligent ». Mais en observant les pensées de raisonnement du modèle sur une sous-tâche de nettoyage de code, il a vu apparaître des considérations sans rapport avec la demande. Le modèle y détaillait notamment un plan pour vérifier les fins de ligne (CRLF) via un script d'analyse, une information qui n'avait rien à faire là.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxxqfe/strataswiftiq3_xxs_randomly_interjecting/",
+  "date_source": "2026-10-05T02:53:22+00:00",
+  "date_redac": "2026-10-05T04:25:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 842,
+   "sortie": 420
+  }
+ },
+ {
+  "id": "437468ff6cfb9e48",
+  "slug": "un-modele-qwen-genere-une-url-signee-vers-alibaba-cloud-en-pleine-sess-437468",
+  "titre": "Un modèle Qwen génère une URL signée vers Alibaba Cloud en pleine session",
+  "resume": "Un utilisateur de r/LocalLLaMA fait tourner Qwen3.8-Flash-Next sur un Mac Studio. Pendant une recherche produit sur Amazon, le modèle a émis un appel d'outil vers une URL signée d'aliyuncs.com, le domaine cloud d'Alibaba, sans lien avec la session ; il a coupé la session. Un signalement similaire, avec Qwen3.8-27B, avait été publié sur Hacker News 45 jours plus tôt.",
+  "tags": [
+   "sécurité",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxvt41/my_qwen_model_hallucinated_a_signed_url_to/",
+  "date_source": "2026-10-05T01:13:22+00:00",
+  "date_redac": "2026-10-05T04:25:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 856,
+   "sortie": 1202
+  }
+ },
+ {
+  "id": "dbd02af5ad82b8a8",
+  "slug": "videos-explicatives-narrees-des-outils-100-locaux-et-gratuits-dbd02a",
+  "titre": "Vidéos explicatives narrées : des outils 100 % locaux et gratuits ?",
+  "resume": "Sur r/LocalLLaMA, un utilisateur partage son retour sur explainroo, qui produit des vidéos explicatives narrées entièrement en local : Kokoro pour la voix, Whisper pour le calage des mots, Chrome headless pour les images et ffmpeg pour le montage, sans clé d'API. Il le juge efficace mais très simple : après quelques vidéos, tout se ressemble. Il cherche d'autres outils, pipelines ou configurations libres et locales.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wxv1fo/free_local_tools_for_narrated_explainer_videos/",
+  "date_source": "2026-10-05T00:34:18+00:00",
+  "date_redac": "2026-10-05T04:25:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 751,
+   "sortie": 1183
+  }
+ },
+ {
   "id": "d18241a61aa1f24b",
   "slug": "passer-a-deux-r9700-un-build-maison-pour-qwen3-8-en-q4-d18241",
   "titre": "Passer à deux R9700 : un build maison pour Qwen3.8 en Q4",
@@ -18,6 +122,27 @@
    "modele": "deepseek-flash",
    "entree": 887,
    "sortie": 1268
+  }
+ },
+ {
+  "id": "e653602f57238d64",
+  "slug": "openclaw-un-correctif-pour-garder-les-arguments-de-lineage-non-vides-e65360",
+  "titre": "OpenClaw : un correctif pour garder les arguments de lineage non vides",
+  "resume": "Le dépôt OpenClaw a publié le 4 octobre 2026 un correctif référencé #165143. Il garantit que les arguments de lineage restent non vides lors de la publication d'une release. La modification est estampillée « fix » et rattachée à une balise de publication identifiée par la chaîne 6bc3e8ae39ca-1791171552.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F6bc3e8ae39ca-1791171552",
+  "date_source": "2026-10-04T22:07:20+00:00",
+  "date_redac": "2026-10-05T04:26:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 619,
+   "sortie": 833
   }
  },
  {

@@ -603,3 +603,9 @@
 {"ts": "2026-10-05T08:54:28+00:00", "evenement": "deploiement", "details": {"fichiers": 422, "octets": 5908988}, "sha256": "630b521a54c5c2f4f9a75e30af6f73fd5c8f28d1a65813bd507f076a0dfab17e"}
 {"ts": "2026-10-05T08:54:29+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "3840e329cb7f4a30c01625e10d9d276471bd9380307d535ffd1c1ee809200c7b"}
 {"ts": "2026-10-05T08:54:29+00:00", "evenement": "bilan", "details": {"duree_s": 579.1, "neufs": 16, "breves": 6, "articles": 0, "fichiers": 410, "envois": 422, "publications": 0}, "sha256": "ebe9b98e53d151bd7dd2b45393b25517507ff4a63b87a8fb0897596ec3fb52d6"}
+{"ts": "2026-10-05T09:47:22+00:00", "evenement": "collecte", "details": {"neufs": 7}, "sha256": "9134b2cbee148ec9e2088a9d7d8e6e46a1dbf918efd1c2313c54f2e1b742778c"}
+{"ts": "2026-10-05T09:47:34+00:00", "evenement": "erreur", "details": {"message": "brève impossible (CAC 40 : ChatGPT et Gemini restituent mal quatre chiffres su) : réponse non-JSON"}, "sha256": "efd0c9a15a9b4803c1e19b5d2a371a943dc5e91020825e58a30c97802c8782be"}
+{"ts": "2026-10-05T09:47:56+00:00", "evenement": "construction", "details": {"fichiers": 415}, "sha256": "289da68a652fdadaf8e255cfce3db05e548d9709e153c1e8b7ae34167ff2bb87"}
+{"ts": "2026-10-05T09:57:20+00:00", "evenement": "deploiement", "details": {"fichiers": 427, "octets": 5938910}, "sha256": "753d5cada56397c59b945327260944b4294031cdebcb5b4a576a46b7c4298182"}
+{"ts": "2026-10-05T09:57:20+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "0e4400a896e2fb912936eb0f6057e3ab6196d9f7513653a05fbe9117ba8a3b24"}
+{"ts": "2026-10-05T09:57:20+00:00", "evenement": "bilan", "details": {"duree_s": 610.7, "neufs": 7, "breves": 5, "articles": 0, "fichiers": 415, "envois": 427, "publications": 0}, "sha256": "c9ce2d7955939f293e17ffee59cea034bf8901c5c53fe7c0f0fca35b6f113928"}

@@ -1,5 +1,131 @@
 [
  {
+  "id": "0b09dd30c1c6aaa0",
+  "slug": "gemini-la-version-gratuite-limitee-a-un-seul-modele-des-le-9-octobre-0b09dd",
+  "titre": "Gemini : la version gratuite limitée à un seul modèle dès le 9 octobre",
+  "resume": "À partir du 9 octobre, les comptes gratuits de Gemini n'auront plus accès qu'à un seul modèle, et ce ne sera pas le plus puissant. L'IA à volonté, c'est donc terminé pour ces utilisateurs. Le changement touche tous ceux qui s'appuient sur l'offre gratuite au quotidien.",
+  "tags": [
+   "gemini",
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/05/mauvaise-nouvelle-si-vous-utilisez-la-version-gratuite-de-gemini/",
+  "date_source": "2026-10-05T11:00:33+00:00",
+  "date_redac": "2026-10-05T11:04:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 651,
+   "sortie": 557
+  }
+ },
+ {
+  "id": "2855b88e785b6cd3",
+  "slug": "moe-streame-depuis-le-ssd-sur-mac-mini-64-go-27-du-decodage-en-attente-2855b8",
+  "titre": "MoE streamé depuis le SSD sur Mac mini 64 Go : 27 % du décodage en attente",
+  "resume": "Un utilisateur fait tourner Qwen Flash Next Q4 sur un Mac mini M5 de 64 Go. Faute de place, les experts sont gardés en cache chaud et le reste est streamé depuis le SSD. Il obtient 17,5 tokens/s en décodage et 390 tokens/s sur le traitement du prompt, mais le GPU passe 27 % du décodage à attendre les experts. Son cache chaud affiche 75 % de réussite et son préchargement anticipé des couches suivantes 72 % de précision.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wy5fma/moe_ssd_streaming_on_a_64_gb_mac_mini_gpu_still/",
+  "date_source": "2026-10-05T10:50:23+00:00",
+  "date_redac": "2026-10-05T11:04:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 836,
+   "sortie": 931
+  }
+ },
+ {
+  "id": "8d5e994446b82b65",
+  "slug": "un-benchmark-compare-harnais-et-modeles-le-local-egale-claude-code-8d5e99",
+  "titre": "Un benchmark compare harnais et modèles : le local égale Claude Code",
+  "resume": "Un utilisateur de r/LocalLLaMA publie un benchmark et un classement (airbench.ai) qui mesurent la réussite et la vitesse de couples harnais/modèle sur des tâches réelles : calcul, vision, usage d'ordinateur et code. Claude Code Opus 5.5 y atteint 100 % en 14 mn 26 s ; en local, zcode/4xRTX6k/glm-5.3-flash-NVFP4 égale ce score en 31 mn 13 s. Une configuration quantifiée tombe à 96 % mais termine en 7 mn 41 s, plus vite que Claude Code.",
+  "tags": [
+   "claude",
+   "open-source",
+   "matériel",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wy5bmy/which_model_which_harness_i_have_data_for_you/",
+  "date_source": "2026-10-05T10:43:44+00:00",
+  "date_redac": "2026-10-05T11:04:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 891,
+   "sortie": 1238
+  }
+ },
+ {
+  "id": "0b1b86f61b2c0b04",
+  "slug": "google-safe-des-agents-ia-pour-traquer-le-ai-slop-sur-youtube-0b1b86",
+  "titre": "Google SAFE : des agents IA pour traquer le « AI slop » sur YouTube",
+  "resume": "Sept chercheurs de Google présentent SAFE, une équipe d'agents IA chargée d'enquêter sur les chaînes qui inondent les plateformes vidéo de « AI slop ». YouTube est cité comme la plateforme principalement visée. Ces agents doivent repérer les contenus générés en masse par l'IA.",
+  "tags": [
+   "agents",
+   "recherche",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/android/applications/google-apps/3272297_google-safe-cest-quoi-cette-police-scientifique-de-lia-qui-veut-nettoyer-youtube",
+  "date_source": "2026-10-05T10:41:34+00:00",
+  "date_redac": "2026-10-05T11:04:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 676,
+   "sortie": 523
+  }
+ },
+ {
+  "id": "b08e266808a26ce9",
+  "slug": "siri-ai-toujours-absent-en-europe-et-les-prochaines-nouveautes-apple-b08e26",
+  "titre": "Siri AI toujours absent en Europe : et les prochaines nouveautés Apple ?",
+  "resume": "Selon Bloomberg, la situation de Siri AI en Europe ne serait pas près de s'améliorer. Apple utiliserait son intelligence artificielle comme moyen de pression sur la Commission européenne, ce qui suggère que la marque n'a aucun intérêt à trouver un compromis à court terme. Le flou s'étend aux futures nouveautés d'Apple : l'écran Home Hub, les nouveaux HomePod et Apple TV, les lunettes ou les AirPods avec une caméra sortiront-ils dans l'Union européenne ?",
+  "tags": [
+   "matériel",
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2346319-sans-siri-ai-en-europe-faut-il-craindre-quapple-ne-lance-plus-ses-nouveautes-chez-nous.html",
+  "date_source": "2026-10-05T10:35:42+00:00",
+  "date_redac": "2026-10-05T11:04:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 743,
+   "sortie": 465
+  }
+ },
+ {
+  "id": "6805529da7fe339c",
+  "slug": "kindle-scribe-2024-la-version-64-go-a-259-99-au-lieu-de-479-99-680552",
+  "titre": "Kindle Scribe 2024 : la version 64 Go à 259,99 € au lieu de 479,99 €",
+  "resume": "Mi-liseuse, mi-carnet de notes numérique, la Kindle Scribe de 2024 reste un modèle haut de gamme recommandable en 2026, malgré l'arrivée récente de sa successeure. Amazon affiche actuellement la version 64 Go à 259,99 euros au lieu de 479,99 euros. Il s'agit du prix le plus bas constaté sur la plateforme.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/bons-plans/3272055_la-kindle-scribe-de-2024-devient-plus-interessante-que-le-nouveau-modele-quand-elle-est-affichee-a-moitie-prix-dans-sa-version-64-go",
+  "date_source": "2026-10-05T10:35:00+00:00",
+  "date_redac": "2026-10-05T11:04:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 740,
+   "sortie": 458
+  }
+ },
+ {
   "id": "993998893755fd35",
   "slug": "l-ia-agentique-change-les-regles-de-l-entrepreneuriat-pour-les-solopre-993998",
   "titre": "L'IA agentique change les règles de l'entrepreneuriat pour les solopreneurs",

@@ -1,5 +1,131 @@
 [
  {
+  "id": "6bf16c36cdc3d888",
+  "slug": "un-utilisateur-cherche-une-alternative-open-source-au-computer-use-mcp-6bf16c",
+  "titre": "Un utilisateur cherche une alternative open source au Computer Use MCP de Codex",
+  "resume": "Sur r/LocalLLaMA, un utilisateur cherche une alternative au Computer Use MCP de Codex, qu'il juge inégalé par les MCP open source. Il ignore si la performance vient du modèle ou du MCP lui-même, développé par la petite startup Sky. Son objectif : bâtir un système d'agents équivalent à du RPA pour son entreprise, sans passer par Codex à cause de contraintes liées à l'entreprise.",
+  "tags": [
+   "agents",
+   "dev",
+   "business",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wykkzd/what_comes_close_to_codexs_computer_use_mcp/",
+  "date_source": "2026-10-05T21:17:19+00:00",
+  "date_redac": "2026-10-05T22:26:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 733,
+   "sortie": 612
+  }
+ },
+ {
+  "id": "bd68618ca9a5c0d0",
+  "slug": "combiner-un-blackwell-4000-24-go-et-une-rtx-3060-12-go-pour-coder-en-l-bd6861",
+  "titre": "Combiner un Blackwell 4000 24 Go et une RTX 3060 12 Go pour coder en local",
+  "resume": "Un utilisateur de r/LocalLLaMA veut réunir deux cartes graphiques : un Blackwell 4000 de 24 Go, acheté un peu sous le prix conseillé, et une vieille RTX 3060 de 12 Go. Son objectif : faire tourner des modèles pour du code, avec une marge de sécurité confortable, plutôt que le plus gros modèle possible. Il demande si le tensor split fonctionne sur cette combinaison.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wykiu9/blackwell_consumer_gpu/",
+  "date_source": "2026-10-05T21:14:48+00:00",
+  "date_redac": "2026-10-05T22:26:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 704,
+   "sortie": 853
+  }
+ },
+ {
+  "id": "4c77ea05a280b0c2",
+  "slug": "anthropic-signale-aux-autorites-le-journal-d-une-utilisatrice-de-claud-4c77ea",
+  "titre": "Anthropic signale aux autorités le « journal » d'une utilisatrice de Claude",
+  "resume": "Sur r/LocalLLaMA, un utilisateur relaie le cas d'une femme de Floride dont le « journal » tenu avec Claude a été signalé aux forces de l'ordre par Anthropic. Point notable : la saisine ne vient pas du modèle, mais de l'équipe de revue humaine. L'auteur en tire un argument pour l'IA locale : les services hébergés lisent les saisies des utilisateurs et peuvent transmettre un contenu aux autorités.",
+  "tags": [
+   "claude",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyjuh0/when_redditors_come_in_here_and_ask_why_we_run/",
+  "date_source": "2026-10-05T20:47:58+00:00",
+  "date_redac": "2026-10-05T22:26:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 791,
+   "sortie": 745
+  }
+ },
+ {
+  "id": "c3e86374c6cd7ee7",
+  "slug": "openai-va-filigraner-les-textes-de-chatgpt-dans-l-union-europeenne-c3e863",
+  "titre": "OpenAI va filigraner les textes de ChatGPT dans l'Union européenne",
+  "resume": "OpenAI va apposer un filigrane invisible sur les textes générés par ChatGPT et Codex dans l'Union européenne, afin de se conformer à l'AI Act. L'entreprise précise que la modification du texte peut rendre ces marques plus difficiles à détecter. Le mécanisme s'applique donc aux contenus produits par ces deux outils.",
+  "tags": [
+   "openai",
+   "chatgpt",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+  "date_source": "2026-10-05T20:36:48+00:00",
+  "date_redac": "2026-10-05T22:26:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 625,
+   "sortie": 653
+  }
+ },
+ {
+  "id": "09c3699123a4fc62",
+  "slug": "nolla-health-lance-en-utah-des-ordonnances-d-acne-redigees-par-ia-09c369",
+  "titre": "Nolla Health lance en Utah des ordonnances d'acné rédigées par IA",
+  "resume": "La startup Nolla Health a annoncé lundi que les habitants de l'Utah peuvent désormais obtenir une ordonnance contre l'acné via son application. L'utilisateur scanne son visage, le système d'IA évalue la sévérité de l'acné puis rédige seul l'ordonnance, rapporte Bloomberg. Le service s'étend au-delà de ce premier État.",
+  "tags": [
+   "société",
+   "business",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+  "date_source": "2026-10-05T20:14:57+00:00",
+  "date_redac": "2026-10-05T22:26:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 650,
+   "sortie": 364
+  }
+ },
+ {
+  "id": "7321e70d72d4a587",
+  "slug": "anyjev-transformer-un-llm-en-classifieur-deterministe-en-un-seul-passa-7321e7",
+  "titre": "AnyJev : transformer un LLM en classifieur déterministe en un seul passage",
+  "resume": "Le projet AnyJev, porté par Nokia Applied Research, montre qu'on peut extraire des décisions fiables directement de l'état interne d'un LLM en un seul forward pass : sans boucle de génération, sans parsing et sans fine-tuning. Le modèle se comporte alors comme un classifieur rapide, déterministe et peu coûteux, là où un chatbot reste lent.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyinzn/nokiaappliedresearchanyjev_turn_any_llm_into_a/",
+  "date_source": "2026-10-05T20:01:21+00:00",
+  "date_redac": "2026-10-05T22:26:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 683,
+   "sortie": 662
+  }
+ },
+ {
   "id": "e2d9e2c429c5d816",
   "slug": "reflection-ai-devoile-beam-un-modele-ouvert-de-501b-parametres-e2d9e2",
   "titre": "Reflection AI dévoile Beam, un modèle ouvert de 501B paramètres",

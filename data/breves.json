@@ -1,5 +1,108 @@
 [
  {
+  "id": "57c3ca4ab829c1b2",
+  "slug": "techcrunch-disrupt-2026-devoile-la-derniere-programmation-de-sa-scene--57c3ca",
+  "titre": "TechCrunch Disrupt 2026 dévoile la dernière programmation de sa scène principale",
+  "resume": "TechCrunch a publié la programmation complète de la scène Disrupt, qui occupera trois jours de conversations. La liste définitive fait notamment intervenir Max Hodak, Mark Wahlberg et des associés de Benchmark. L'inscription permet d'économiser jusqu'à 100 dollars sur le pass, et d'en obtenir un second à moitié prix. Le rendez-vous reste un temps fort pour les fondateurs et investisseurs de l'écosystème tech américain, dont les débats irriguent ensuite le reste du secteur.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 1,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/05/the-final-disrupt-stage-lineup-three-days-of-conversations-you-wont-hear-anywhere-outside-of-techcrunch-disrupt-2026/",
+  "date_source": "2026-10-05T14:00:00+00:00",
+  "date_redac": "2026-10-05T14:08:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 672,
+   "sortie": 626
+  }
+ },
+ {
+  "id": "61d722f23ac34d82",
+  "slug": "cyberattaque-en-region-parisienne-jusqu-a-700-000-victimes-potentielle-61d722",
+  "titre": "Cyberattaque en région parisienne : jusqu'à 700 000 victimes potentielles",
+  "resume": "Une cyberattaque en région parisienne pourrait avoir fait jusqu'à 700 000 victimes. Des RIB, des contrats d'apprentissage et des pièces d'identité auraient été dérobés. Le volume concerné et la nature des données touchées — coordonnées bancaires et documents d'identité — en font un incident de grande ampleur pour les personnes concernées.",
+  "tags": [
+   "france",
+   "sécurité",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/05/cyberattaque-en-region-parisienne-faites-vous-partie-des-700-000-victimes-potentielles/",
+  "date_source": "2026-10-05T14:00:00+00:00",
+  "date_redac": "2026-10-05T14:08:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 644,
+   "sortie": 657
+  }
+ },
+ {
+  "id": "733710305b72390c",
+  "slug": "oracle-va-alimenter-ses-centres-de-donnees-via-la-centrale-nucleaire-d-733710",
+  "titre": "Oracle va alimenter ses centres de données via la centrale nucléaire de Point Beach",
+  "resume": "Le 2 octobre 2026, Oracle a annoncé qu'il souscrira une partie de la production de la centrale nucléaire de Point Beach, dans le Wisconsin. Le groupe veut ainsi épargner environ 300 millions de dollars de coûts de combustible à ses clients. L'annonce illustre l'enjeu du financement de l'électricité consommée par les centres de données d'IA.",
+  "tags": [
+   "business",
+   "matériel",
+   "société"
+  ],
+  "importance": 3,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/centres-de-donnees-dia-la-facture-delectricite-cherche-son-payeur/",
+  "date_source": "2026-10-05T13:40:42+00:00",
+  "date_redac": "2026-10-05T14:08:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 664,
+   "sortie": 705
+  }
+ },
+ {
+  "id": "873d53a001c8a4ca",
+  "slug": "mlcommons-publie-les-resultats-de-son-jailbreak-benchmark-v1-0-873d53",
+  "titre": "MLCommons publie les résultats de son Jailbreak Benchmark v1.0",
+  "resume": "MLCommons a publié sur arXiv, le 2 octobre 2026, les résultats de son Jailbreak Benchmark v1.0, listé parmi les nouveautés du lundi 5 octobre. Le consortium, qui publie déjà les bancs MLPerf et AILuminate, documente aussi les erreurs de son juge. Le jailbreak — le contournement des garde-fous d'un modèle — est un point sensible pour la sécurité des systèmes d'IA.",
+  "tags": [
+   "sécurité",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/jailbreak-mlcommons-publie-ses-resultats-et-les-erreurs-de-son-juge/",
+  "date_source": "2026-10-05T13:39:42+00:00",
+  "date_redac": "2026-10-05T14:08:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 668,
+   "sortie": 998
+  }
+ },
+ {
+  "id": "134b835fb9d2e3bf",
+  "slug": "glm-5-3-flash-tourne-a-68-8-tok-s-sur-m5-ultra-256-via-omlx-0-7-0-134b83",
+  "titre": "GLM 5.3 Flash tourne à 68,8 tok/s sur M5 Ultra 256 via oMLX 0.7.0",
+  "resume": "Un utilisateur de r/LocalLLaMA rapporte avoir fait tourner GLM 5.3 Flash à 68,8 tok/s sur une machine M5 Ultra 256, en quantification oQ4e avec MTP, via oMLX 0.7.0. Le prefill est mesuré à 1 878 tokens. Il indique partager ces chiffres parce que d'autres benchmarks qu'il a vus lui semblaient en dessous de ses attentes, et qu'il reste selon lui de la marge d'optimisation.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wy8k3m/m5_ultra_256_running_glm_53_flash_688_toks/",
+  "date_source": "2026-10-05T13:27:44+00:00",
+  "date_redac": "2026-10-05T14:08:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 677,
+   "sortie": 814
+  }
+ },
+ {
   "id": "0fa5e6f9eb14f341",
   "slug": "openai-teste-des-publicites-visuelles-dans-chatgpt-0fa5e6",
   "titre": "OpenAI teste des publicités visuelles dans ChatGPT",

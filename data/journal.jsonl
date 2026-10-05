@@ -624,3 +624,9 @@
 {"ts": "2026-10-05T13:23:17+00:00", "evenement": "deploiement", "details": {"fichiers": 441, "octets": 6313766}, "sha256": "0f2c37e9b2dd593684db03fcc92682fef62d981919fca7f8f1617d8310e93609"}
 {"ts": "2026-10-05T13:23:17+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "2aa4770d7050a1ae0d16af2d38848a51d1a44d7d5a45b4d295438097dece090d"}
 {"ts": "2026-10-05T13:23:17+00:00", "evenement": "bilan", "details": {"duree_s": 402.0, "neufs": 7, "breves": 6, "articles": 0, "fichiers": 429, "envois": 441, "publications": 0}, "sha256": "60feff84781e8184eab4ee7c633b332d8abd0f1ee5c8727ca1717bb4fae1d80e"}
+{"ts": "2026-10-05T14:08:07+00:00", "evenement": "collecte", "details": {"neufs": 6}, "sha256": "6a6c3c58053d4c56a99df49a0dacdad59f9b3efc776a2a8056def3456263c249"}
+{"ts": "2026-10-05T14:08:37+00:00", "evenement": "erreur", "details": {"message": "brève impossible (ItoTTS: two natural English voices in 4.89 MB for a $5 ESP32) : réponse non-JSON"}, "sha256": "b231f41563ab9d3d63aeb568a3fca8669fdf788baa55fcace97a9115eee83bc2"}
+{"ts": "2026-10-05T14:08:42+00:00", "evenement": "construction", "details": {"fichiers": 434}, "sha256": "0bd652218a7b319af30160c9b3d70f1524b3ac433c90f84e21d73a53e59d7c99"}
+{"ts": "2026-10-05T14:14:40+00:00", "evenement": "deploiement", "details": {"fichiers": 446, "octets": 6406382}, "sha256": "741f031e49c0f3044d10b5c4593b526bbfb6098893ebd28b6560a3d5ded8bf95"}
+{"ts": "2026-10-05T14:14:40+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "76e5c9429e91f3039b3372a8a0528e0b2e9626abbfe881c64c6fbdac542aebaf"}
+{"ts": "2026-10-05T14:14:40+00:00", "evenement": "bilan", "details": {"duree_s": 420.5, "neufs": 6, "breves": 5, "articles": 0, "fichiers": 434, "envois": 446, "publications": 0}, "sha256": "c3b4bf8d083c0c09181717dea8a894dd77b7a0fd86ebaf9901d548c05689efb0"}

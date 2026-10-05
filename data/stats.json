@@ -1,22 +1,18 @@
 {
- "runs": 110,
- "items_collectes": 847,
- "breves_publiees": 352,
+ "runs": 111,
+ "items_collectes": 853,
+ "breves_publiees": 357,
  "articles_publies": 49,
- "tokens_entree": 338347,
- "tokens_sortie": 483712,
+ "tokens_entree": 341672,
+ "tokens_sortie": 487512,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-05T13:17:04+00:00",
+ "dernier_run": "2026-10-05T14:08:42+00:00",
  "solde": {
-  "total": "87.62",
+  "total": "87.61",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-04T23:13:43+00:00",
-   "message": "brève impossible (Is Strix Halo (GMKtec EVO-X2, etc.) the closest thing we hav) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-05T00:38:11+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 1 column 3532 (char 3531)"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-05T09:47:34+00:00",
    "message": "brève impossible (CAC 40 : ChatGPT et Gemini restituent mal quatre chiffres su) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-05T14:08:37+00:00",
+   "message": "brève impossible (ItoTTS: two natural English voices in 4.89 MB for a $5 ESP32) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 4.04,
+ "depense_usd": 4.05,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -464,10 +464,14 @@
   [
    "2026-10-05T13:16:42+00:00",
    "87.62"
+  ],
+  [
+   "2026-10-05T14:08:08+00:00",
+   "87.61"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 1.75,
+ "depense_mois_usd": 1.76,
  "archive_tentatives": {
   "jour": "2026-10-05",
   "n": 3

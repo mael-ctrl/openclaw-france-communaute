@@ -586,3 +586,10 @@
 {"ts": "2026-10-05T06:44:24+00:00", "evenement": "deploiement", "details": {"fichiers": 411, "octets": 5773605}, "sha256": "46156cb659e37a91e317e981ce7b00159909eab613632f8ccded1c3fcb0df317"}
 {"ts": "2026-10-05T06:44:25+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "fd80889a15987f276ed093cd642c3c939590de3d2ac6d4a9aa6a5ce557011df7"}
 {"ts": "2026-10-05T06:44:25+00:00", "evenement": "bilan", "details": {"duree_s": 601.6, "neufs": 5, "breves": 5, "articles": 0, "fichiers": 399, "envois": 411, "publications": 0}, "sha256": "7647757d98796d805a1700bafca5f0aab11abda651db39d3aa446cf76eaa3686"}
+{"ts": "2026-10-05T07:14:07+00:00", "evenement": "collecte", "details": {"neufs": 2}, "sha256": "bb284a266f2ab4ecde6821e2e5ac2f71bd48a33d01b7b2f43419986a1de26bf2"}
+{"ts": "2026-10-05T07:14:20+00:00", "evenement": "erreur", "details": {"message": "brève impossible (I got Qwen Flash Next Q4 running on a Mac Mini m5 64gb with ) : réponse non-JSON"}, "sha256": "2f56e03b945323e2a1daf1f31daac6e32653ba5310cbd07f44d9140d1e9f3415"}
+{"ts": "2026-10-05T07:14:33+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Does Claude burn through usage faster during US peak hours, ) : réponse non-JSON"}, "sha256": "72af035b5a1e4bf10bdf621fe429eb75279978a3fa2715764b3a5011f92e208e"}
+{"ts": "2026-10-05T07:14:34+00:00", "evenement": "construction", "details": {"fichiers": 399}, "sha256": "17409a8b9fd60f672a047fd142ae4824a925a59ea1264cebdfb6c392eae8c73a"}
+{"ts": "2026-10-05T07:30:35+00:00", "evenement": "deploiement", "details": {"fichiers": 411, "octets": 5773862}, "sha256": "f6fab977bac8b348fcca373209e7ea27a708f8e65a8a5919e5899c269a176688"}
+{"ts": "2026-10-05T07:30:37+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "e0633232772496ef0e74631d1143d3bc26f155f6bc863a0bf9b95d2959654177"}
+{"ts": "2026-10-05T07:30:37+00:00", "evenement": "bilan", "details": {"duree_s": 1193.1, "neufs": 2, "breves": 0, "articles": 0, "fichiers": 399, "envois": 411, "publications": 0}, "sha256": "b9d881ce031a6be9571d670aeaafe66c5ca888909583c22e355b0193e9ea7d0f"}

@@ -640,3 +640,9 @@
 {"ts": "2026-10-05T15:55:09+00:00", "evenement": "deploiement", "details": {"fichiers": 458, "octets": 6511590}, "sha256": "036dea77c39f604a3531067899f3995f09acf4f583a998beb37946de8c407b19"}
 {"ts": "2026-10-05T15:55:09+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "d1a4aaeaafa180e4a5bc069899ede0c9bfdddb5a3bb705afd36f5bdf685cce62"}
 {"ts": "2026-10-05T15:55:09+00:00", "evenement": "bilan", "details": {"duree_s": 566.8, "neufs": 9, "breves": 6, "articles": 0, "fichiers": 446, "envois": 458, "publications": 0}, "sha256": "648d34eadad07add241a88f6470255ad0cab2c36a1a8f5a6fea79025f5c678e1"}
+{"ts": "2026-10-05T16:46:21+00:00", "evenement": "collecte", "details": {"neufs": 7}, "sha256": "cf580af6fa149ba3f8220a4e55eeeb99cbb5fd2e3fe0388a178b9090df055bee"}
+{"ts": "2026-10-05T16:46:53+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Speakrail - a low-latency fully-local voice assistant that r) : réponse non-JSON"}, "sha256": "aa215f8c5ace7fc94e6130c8b56f1d9da34c30f94b4a3720b5344f5d97c6e998"}
+{"ts": "2026-10-05T16:46:54+00:00", "evenement": "construction", "details": {"fichiers": 451}, "sha256": "de9891b37d8f8d9eabde923702d2575ceb10429342303d5d954cb992c7a20c24"}
+{"ts": "2026-10-05T16:57:21+00:00", "evenement": "deploiement", "details": {"fichiers": 463, "octets": 6539897}, "sha256": "bef4e06d77d8d7b35bd4520803c274c5457dc2078ab38850e0e57780c22fdbc1"}
+{"ts": "2026-10-05T16:57:21+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "4a0be73ae2ebedc47cf3c09638afbdbc4c994166eccc8d5839db33fb68057e2b"}
+{"ts": "2026-10-05T16:57:21+00:00", "evenement": "bilan", "details": {"duree_s": 671.3, "neufs": 7, "breves": 5, "articles": 0, "fichiers": 451, "envois": 463, "publications": 0}, "sha256": "264cde683df16579fe3328c4e941a121f25bde6730f02cc799f72f14010bc209"}

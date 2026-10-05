@@ -1,22 +1,18 @@
 {
- "runs": 113,
- "items_collectes": 875,
- "breves_publiees": 369,
+ "runs": 114,
+ "items_collectes": 882,
+ "breves_publiees": 374,
  "articles_publies": 49,
- "tokens_entree": 350498,
- "tokens_sortie": 495950,
+ "tokens_entree": 353907,
+ "tokens_sortie": 499310,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-05T15:46:25+00:00",
+ "dernier_run": "2026-10-05T16:46:54+00:00",
  "solde": {
   "total": "87.60",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-05T00:38:11+00:00",
-   "message": "article impossible : Expecting ',' delimiter: line 1 column 3532 (char 3531)"
-  },
   {
    "ts": "2026-10-05T07:14:20+00:00",
    "message": "brève impossible (I got Qwen Flash Next Q4 running on a Mac Mini m5 64gb with ) : réponse non-JSON"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-05T14:08:37+00:00",
    "message": "brève impossible (ItoTTS: two natural English voices in 4.89 MB for a $5 ESP32) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-05T16:46:53+00:00",
+   "message": "brève impossible (Speakrail - a low-latency fully-local voice assistant that r) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -475,6 +475,10 @@
   ],
   [
    "2026-10-05T15:45:59+00:00",
+   "87.60"
+  ],
+  [
+   "2026-10-05T16:46:21+00:00",
    "87.60"
   ]
  ],

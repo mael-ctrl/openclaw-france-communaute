@@ -1,5 +1,129 @@
 [
  {
+  "id": "0fa5e6f9eb14f341",
+  "slug": "openai-teste-des-publicites-visuelles-dans-chatgpt-0fa5e6",
+  "titre": "OpenAI teste des publicités visuelles dans ChatGPT",
+  "resume": "OpenAI annonce un nouveau format publicitaire : des images de produits et services sponsorisés s'afficheront à l'écran. Les tests démarrent aux États-Unis plus tard ce mois-ci et concerneront « initialement » la génération d'images dans ChatGPT. L'entreprise avait introduit la publicité dans ChatGPT en février.",
+  "tags": [
+   "chatgpt",
+   "openai",
+   "business"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
+  "date_source": "2026-10-05T13:09:48+00:00",
+  "date_redac": "2026-10-05T13:16:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 655,
+   "sortie": 333
+  }
+ },
+ {
+  "id": "36ef2c79f871b7e9",
+  "slug": "siri-ai-n-arriverait-pas-avant-plusieurs-mois-en-france-36ef2c",
+  "titre": "Siri AI n'arriverait pas avant plusieurs mois en France",
+  "resume": "Apple a lancé Siri AI en septembre, mais pas en France. La firme doit encore trouver un moyen de proposer son nouvel assistant dans l'Union européenne tout en respectant les règles du bloc sur le numérique. Pour les utilisateurs français, l'arrivée de Siri AI n'est donc pas attendue avant plusieurs mois, et elle n'est même pas encore certaine.",
+  "tags": [
+   "france",
+   "matériel",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/05/mauvaise-nouvelle-pour-les-iphone-francais-siri-ai-narriverait-pas-avant-plusieurs-mois-et-ce-nest-meme-pas-encore-certain/",
+  "date_source": "2026-10-05T13:02:17+00:00",
+  "date_redac": "2026-10-05T13:16:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 693,
+   "sortie": 425
+  }
+ },
+ {
+  "id": "1c8bd93115626df8",
+  "slug": "agens-volundr-32b-seules-18-couches-sur-72-gardent-un-kv-cache-1c8bd9",
+  "titre": "Agens Volundr 32B : seules 18 couches sur 72 gardent un KV cache",
+  "resume": "Blockway, petite équipe de Hong Kong, publie Agens Volundr 32B Preview, son premier modèle sur architecture hybride maison, en Apache-2.0. Sur 72 couches denses (~32B), 54 utilisent une attention linéaire à état récurrent sans KV cache, 17 une attention compressée-éparse et une seule une attention complète. Le pari : en contexte long, c'est le KV cache, pas les poids, qui décide de ce qui tient en mémoire.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wy7wn0/agens_volundr_32b_preview_our_small_teams_first/",
+  "date_source": "2026-10-05T12:58:57+00:00",
+  "date_redac": "2026-10-05T13:16:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 862,
+   "sortie": 1127
+  }
+ },
+ {
+  "id": "0f23335c61bf186b",
+  "slug": "cohere-devoile-north-2-et-veut-devancer-mistral-sur-la-souverainete-0f2333",
+  "titre": "Cohere dévoile North 2 et veut devancer Mistral sur la souveraineté",
+  "resume": "Le 30 septembre, le canadien Cohere lançait Embed 5, sa nouvelle famille de modèles d'embeddings pour la recherche dans des données d'entreprise complexes. Cinq jours plus tard, il dévoile North 2, présenté comme sa plus importante mise à niveau à ce jour. Deux annonces visant un même objectif : faire de Cohere une plateforme plutôt qu'un simple fournisseur de modèles, face à Mistral sur la souveraineté.",
+  "tags": [
+   "mistral",
+   "business",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/avec-sa-plateforme-dintelligence-artificielle-north-2-le-canadien-cohere-veut-devancer-mistral-sur-les-enjeux-de-souverainete.5BKLBRTNEFHYJGU7TOPKYR6IZY.html",
+  "date_source": "2026-10-05T12:49:30+00:00",
+  "date_redac": "2026-10-05T13:16:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 797,
+   "sortie": 1055
+  }
+ },
+ {
+  "id": "3eb7f6a65bb3b134",
+  "slug": "les-meilleurs-smartphones-a-moins-de-800-le-comparatif-de-frandroid-3eb7f6",
+  "titre": "Les meilleurs smartphones à moins de 800 € : le comparatif de Frandroid",
+  "resume": "Frandroid a rassemblé dans un comparatif les meilleurs smartphones à moins de 800 euros du marché. La sélection couvre plusieurs budgets : autour de 600 euros, de 700 euros, et jusqu'à 800 €. Elle s'adresse à ceux qui veulent un téléphone haut de gamme sans exploser totalement le budget.",
+  "tags": [
+   "matériel",
+   "société"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/guide-dachat/smartphones/924089_quels-sont-les-meilleurs-smartphones-a-moins-de-800-euros-notre-selection",
+  "date_source": "2026-10-05T12:17:04+00:00",
+  "date_redac": "2026-10-05T13:17:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 689,
+   "sortie": 498
+  }
+ },
+ {
+  "id": "d8e048e515d9a12b",
+  "slug": "garmin-destocke-la-forerunner-255-passe-sous-les-155-euros-d8e048",
+  "titre": "Garmin déstocke : la Forerunner 255 passe sous les 155 euros",
+  "resume": "Garmin a lancé un déstockage qui fait tomber la Forerunner 255 sous la barre des 155 euros. Cette montre connectée haut de gamme compte parmi les best-sellers de la marque, et son prix devient le seul élément qui n'a plus rien de premium. L'occasion de s'équiper à moindre coût sur un modèle habituellement positionné sur le haut de gamme.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/bons-plans/gros-destockage-en-cours-chez-garmin-la-forerunner-255-est-vendue-pour-3x-rien.html",
+  "date_source": "2026-10-05T12:14:24+00:00",
+  "date_redac": "2026-10-05T13:17:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 677,
+   "sortie": 468
+  }
+ },
+ {
   "id": "032282381d297abb",
   "slug": "dji-osmo-pocket-3-une-vente-flash-sous-les-285-euros-sur-aliexpress-032282",
   "titre": "DJI Osmo Pocket 3 : une vente flash sous les 285 euros sur AliExpress",

@@ -82,6 +82,33 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   le quota, selon `docs/distribution-textes.md`. Prochaine étape : vérifier le
   retour de la modération avant toute publication LinuxFr, sans relance aujourd’hui.
 
+## Dépannage Hermes — livraison du 06/10/2026
+
+- **Une amélioration** : aide de dépannage sur `/hermes/#depannage`, accessible
+  depuis le haut de page. Trois cas : commande introuvable, fournisseur/modèle
+  non configuré, diagnostic et demande de support sans exposer de secrets.
+  Commandes et chemins recoupés avec la documentation officielle d’installation
+  Nous Research, consultée le 06/10. Aucun changement des kits ni de leurs scripts.
+- Tests : les 3 nouveaux contrôles ont échoué avant ajout, puis réussi ; suite
+  complète **15 tests OK**. Les 3 contrôles passent aussi sur le HTML public
+  après décodage de la protection e-mail Cloudflare (seule transformation HTML).
+- Chrome sans JavaScript : ancre et FAQ au clavier vérifiées localement à 1440,
+  1024, 430, 390, 375 et 360 px ; en production à **1440, 390 et 360 px**.
+  Aucun débordement horizontal constaté. Ceci ne teste pas une installation Hermes.
+- Déploiement via `python3 outils/deployer_openclaw.py` depuis le clone cron
+  hors Bureau ; sauvegarde privée et comparaison préalable production/Git.
+  **35 fichiers relus via FTP**, identiques aux sources après envoi. Archives
+  régénérées après restauration de leurs dates/modes : ZIP intègres et inchangés.
+- Santé finale : les 4 pages demandées et les 2 ZIP répondent **HTTP 200**.
+  Page Hermes publique conforme après normalisation Cloudflare ; sitemap et ZIP
+  identiques octet pour octet. Sitemap actualisé pour Hermes uniquement.
+  **IndexNow HTTP 200** pour `/hermes/` (notification acceptée, pas indexation prouvée).
+- **Aucune distribution supplémentaire** : Bluesky a déjà été utilisé cette
+  semaine (05/10). La tentative Uneed du 06/10 est documentée comme bloquée avant
+  envoi dans `docs/distribution-textes.md` ; aucun nouveau contact ni formulaire.
+  Prochaine priorité de distribution : finaliser l’accès sécurisé Uneed avant
+  la soumission gratuite autorisée, sans nouvelle promotion Bluesky cette semaine.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

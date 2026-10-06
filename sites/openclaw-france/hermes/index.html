@@ -62,7 +62,8 @@
       <a class="btn btn-principal btn-large" href="/dl/kit-hermes.zip?v=2">⬇ Télécharger le kit (.zip)</a>
       <a class="btn btn-secondaire btn-large" href="/dl/kit-hermes/">📂 Parcourir les fichiers</a>
     </div>
-    <p style="margin:20px 0 0"><a href="/guides/demarrer-openclaw-hermes/">Avant d’installer : coûts, premier essai et vérifications →</a></p>
+    <p style="margin:20px 0 0"><a href="/guides/demarrer-openclaw-hermes/">Avant d’installer : coûts, premier essai et vérifications →</a><br>
+      <a href="#depannage">Installation bloquée ? Trois vérifications pour démarrer →</a></p>
     <div class="mini">
       <span>⚡ <b>Démarrage en ~15 min</b></span>
       <span>🧠 <b>Skills &amp; MCP</b></span>
@@ -111,6 +112,52 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section id="depannage" aria-labelledby="titre-depannage" style="scroll-margin-top:88px">
+    <div class="titre-section">
+      <div class="kicker">Dépannage Hermes Agent</div>
+      <h2 id="titre-depannage">Installation bloquée ? Commence ici</h2>
+      <p>Trois vérifications après une installation en terminal sur macOS ou Linux.
+      Exécute les commandes dans ton terminal personnel, pas dans une conversation avec l’agent.</p>
+    </div>
+    <details class="faq" open>
+      <summary>Le terminal affiche « hermes: command not found »</summary>
+      <div class="reponse">
+        <p>Ouvre un nouveau terminal, puis réessaie <code>hermes</code>.
+        Tu peux aussi recharger la configuration du shell que tu utilises :
+        <code>source ~/.zshrc</code> pour zsh, ou <code>source ~/.bashrc</code> pour bash.</p>
+        <p>Si la commande reste introuvable, vérifie que le dossier <code>~/.local/bin</code>
+        du lanceur figure dans ton <code>PATH</code>. La documentation officielle détaille ce contrôle :
+        une commande introuvable ne signifie pas forcément que tu dois tout réinstaller.</p>
+      </div>
+    </details>
+    <details class="faq">
+      <summary>Hermes démarre, mais le modèle ou la clé API manque</summary>
+      <div class="reponse">
+        <p>Lance <code>hermes model</code> pour choisir ou reconfigurer ton fournisseur et ton modèle.
+        Si tu utilises une API en ligne, vérifie aussi la validité de ta clé et les limites de ton compte
+        chez ce fournisseur. Pour un modèle local, vérifie que son serveur est démarré.</p>
+        <p>Garde la clé dans la configuration privée de Hermes : ne la colle ni dans les fichiers
+        publics du kit ni dans une demande d’aide.</p>
+      </div>
+    </details>
+    <details class="faq">
+      <summary>Un autre blocage, ou une installation incomplète ?</summary>
+      <div class="reponse">
+        <p>Lance <code>hermes doctor</code> pour obtenir un diagnostic, puis consulte
+        <code>logs/install.log</code> dans le dossier de données Hermes si l’installation a échoué.
+        Le dossier habituel est <code>~/.hermes</code>. Ne supprime pas ce dossier pour tenter
+        de réparer : il contient aussi ta configuration et tes données.</p>
+        <p>Besoin d’aide en français ? Écris à <a href="mailto:support@openclaw-france.fr">notre support</a>
+        en indiquant ton système, la méthode d’installation et le message d’erreur exact.
+        <strong>Masque les clés API, les jetons et les données personnelles</strong> dans tout extrait
+        ou capture ; ne joins pas ton fichier <code>.env</code> ni une sauvegarde complète.</p>
+      </div>
+    </details>
+    <p>Source : <a href="https://hermes-agent.nousresearch.com/docs/getting-started/installation#troubleshooting" rel="noopener">dépannage dans la documentation officielle de Nous Research</a>,
+    consultée le <time datetime="2026-10-06">06/10/2026</time>.
+    Cette aide indépendante ne remplace pas la documentation officielle, qui prévaut en cas d’écart.</p>
   </section>
 
   <section>

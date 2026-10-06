@@ -1,0 +1,41 @@
+{
+ "slug": "mistral-large-4-embeddinggemma-2-et-l-ai-act-l-ia-ouverte-fa-d71109",
+ "titre": "Mistral Large 4, EmbeddingGemma 2 et l'AI Act : l'IA ouverte face au droit",
+ "chapo": "En quelques jours, deux modèles ouverts de très grande taille ont été dévoilés, côté français et côté américain, tandis que Google poussait l'embedding multimodal vers les appareils grand public. En parallèle, l'AI Act entre dans une phase concrète pour les entreprises françaises et OpenAI annonce un filigrane dans l'UE.",
+ "html": "<h2 id=\"mistral-large-4-1050-milliards-de-parame\">Mistral Large 4 : 1050 milliards de paramètres en aperçu</h2>\n<p>Mistral a ouvert le 6 octobre l'aperçu de <strong>Mistral Large 4</strong>, un modèle de 1050 milliards de paramètres. Le laboratoire le présente comme le plus capable des modèles ouverts hors de Chine. Les mesures indépendantes confirment un rattrapage, et la cybersécurité s'impose comme argument commercial face aux modèles ouverts chinois.</p>\n<p>La veille, le 5 octobre, <strong>Reflection AI</strong> a dévoilé <strong>Beam</strong>, son premier modèle open-weight. Ce Mixture-of-Experts compte 501 milliards de paramètres au total, dont 23 milliards actifs, et cible en priorité l'agentic coding, le raisonnement et les tâches agentiques. La start-up présente cette sortie comme la première étape d'une série de modèles destinés à faire émerger une « open intelligence » occidentale.</p>\n<p>Deux sorties rapprochées, donc, qui portent la même ambition : des poids ouverts, des tailles de modèle qui n'ont plus grand-chose à envier aux gros systèmes fermés, et une mise en avant de l'usage professionnel — cybersécurité d'un côté, code agentique de l'autre.</p>\n<h2 id=\"embeddinggemma-2-le-multimodal-tient-dan\">EmbeddingGemma 2 : le multimodal tient dans 740M de paramètres</h2>\n<p>Google DeepMind publie <strong>EmbeddingGemma 2</strong>, un modèle d'embedding multimodal open source qui projette texte (code inclus), images, vidéo et audio dans un espace vectoriel unique de 768 dimensions. La démarche tranche avec la course aux paramètres : ici, l'enjeu est la compacité.</p>\n<p>Fort de 740M paramètres — 270M pour le texte, 170M pour la vision, 300M pour l'audio — le modèle vise les appareils grand public comme les mobiles et les laptops. Ses cas d'usage annoncés : la recherche, le RAG ou la classification, exécutés en local.</p>\n<p>EmbeddingGemma 2 s'appuie sur les avancées de <strong>Gemma 4</strong>. Là où Mistral Large 4 et Beam occupent le haut de l'échelle, ce modèle illustre l'autre extrémité : des briques spécialisées, petites, capables de tourner sur du matériel ordinaire.</p>\n<h2 id=\"ai-act-ce-qui-s-applique-deja-en-france\">AI Act : ce qui s'applique déjà en France</h2>\n<p>Depuis le 6 octobre 2026, une entreprise française qui fournit ou utilise un système d'IA doit déjà respecter trois blocs du règlement (UE) 2024/1689, parmi lesquels les pratiques interdites et la maîtrise de l'IA. L'échéance n'est donc plus théorique pour les organisations qui déploient ces systèmes.</p>\n<p>L'omnibus 2026/1744 reporte toutefois une partie des échéances prévues initialement. Autrement dit, le calendrier européen se déploie par étapes : certains blocs sont applicables, d'autres ont été repoussés. Ce décalage touche directement les entreprises françaises, qui doivent composer avec un cadre partiellement en vigueur.</p>\n<p>La même date revient dans l'actualité des modèles : Mistral ouvrait son aperçu le 6 octobre, l'AI Act franchissait une étape le même jour. Les deux calendriers avancent désormais de front, sans qu'on puisse y lire autre chose qu'une coïncidence.</p>\n<h2 id=\"openai-met-un-filigrane-invisible-sur-le\">OpenAI met un filigrane invisible sur les textes générés dans l'UE</h2>\n<p>OpenAI a annoncé l'arrivée d'une signature invisible sur <strong>ChatGPT</strong> et <strong>Codex</strong>. Tous les textes produits par l'IA dans l'Union européenne seront marqués d'un filigrane « dans les prochaines semaines », pour les abonnements gratuits comme payants.</p>\n<p>La mesure vise explicitement à répondre aux exigences de l'AI Act, le règlement européen sur l'IA. Elle concerne donc un périmètre géographique précis — l'UE — et s'applique à la génération de texte, pas à l'ensemble des usages du modèle.</p>\n<p>Le filigrane rejoint la logique de traçabilité portée par le règlement : savoir qu'un contenu a été produit par une IA, et par quel système. Reste à voir comment cette signature se comporte une fois le texte copié, réécrit ou reformulé — un point que l'annonce ne détaille pas.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre annonces, deux mouvements qui se croisent. D'un côté, les modèles ouverts gagnent en taille et en ambition, portés par des acteurs français et américains qui revendiquent une alternative aux systèmes chinois et aux grandes plateformes fermées. De l'autre, la régulation européenne avance par blocs et par reports, et pousse les fournisseurs à intégrer des mécanismes de conformité directement dans leurs produits. Les appareils locaux, eux, continuent d'accueillir des briques toujours plus petites et plus polyvalentes.</p>",
+ "pivot": "d71109d8f052e291",
+ "tags": [
+  "mistral",
+  "open-source",
+  "openai",
+  "france"
+ ],
+ "sources": [
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/mistral-large-4-ce-que-vaut-le-meilleur-modele-ouvert-hors-chine/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/calendrier-ai-act-ce-qui-sapplique-ce-que-lomnibus-reporte/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz5va3/googleembeddinggemma2_hugging_face/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/chatgpt-filigrane-invisible-textes-union-europeenne-ai-act.html"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/le-deepseek-americain-reflection-ai-devoile-son-premier-modele-open-weight-avec-lambition-de-depasser-la-chine.WIU2SYBM3RAQXPF4H3FZBL54CA.html"
+  }
+ ],
+ "date": "2026-10-06T18:57:00+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1594,
+  "sortie": 3033
+ }
+}

@@ -1,5 +1,111 @@
 [
  {
+  "id": "aaa1de3392b117d0",
+  "slug": "openai-et-ironclad-entrainent-des-agents-sur-les-workflows-contractuel-aaa1de",
+  "titre": "OpenAI et Ironclad entraînent des agents sur les workflows contractuels",
+  "resume": "OpenAI et Ironclad collaborent à l'entraînement et à l'évaluation d'agents IA sur des workflows contractuels complexes. L'objectif affiché est de faire progresser le « computer use » — la capacité d'un agent à agir sur un ordinateur — pour le travail professionnel. Le partenariat s'appuie donc sur un cas d'usage concret, la contractualisation, pour tester les agents hors des démonstrations.",
+  "tags": [
+   "openai",
+   "agents",
+   "business",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/advancing-computer-use-with-ironclad",
+  "date_source": null,
+  "date_redac": "2026-10-06T18:56:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 589,
+   "sortie": 452
+  }
+ },
+ {
+  "id": "cc3f5e5a928a3b1a",
+  "slug": "embeddinggemma-2-un-modele-ouvert-pour-les-embeddings-multimodaux-cc3f5e",
+  "titre": "EmbeddingGemma 2 : un modèle ouvert pour les embeddings multimodaux",
+  "resume": "Un post publié sur r/LocalLLaMA le 6 octobre 2026 présente EmbeddingGemma 2 comme un modèle ouvert de premier plan pour les embeddings nativement multimodaux. La publication provient de l'utilisateur sn2006gy et se limite à cette annonce : elle ne précise ni les performances, ni les modalités prises en charge, ni les conditions de licence.",
+  "tags": [
+   "gemini",
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz9jvx/embeddinggemma_2_is_a_bestinclass_open_model_for/",
+  "date_source": "2026-10-06T18:03:13+00:00",
+  "date_redac": "2026-10-06T18:56:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 625,
+   "sortie": 633
+  }
+ },
+ {
+  "id": "9269ff6635f92b1e",
+  "slug": "une-conference-sur-llama-cpp-et-les-bases-de-l-inference-locale-partag-9269ff",
+  "titre": "Une conférence sur llama.cpp et les bases de l'inférence locale partagée par Hugging Face",
+  "resume": "Merve, de Hugging Face, a donné une conférence pour développeurs consacrée à llama.cpp. Le propos dépasse l'outil : elle y revient sur des notions de base comme le prefill face au decode, les types de mémoire et le décodage spéculatif. Le support est disponible dans les commentaires du fil, avec une demande d'attribution si vous le réutilisez.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz9j0u/local_ai_ecosystem_overview/",
+  "date_source": "2026-10-06T18:02:17+00:00",
+  "date_redac": "2026-10-06T18:56:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 386
+  }
+ },
+ {
+  "id": "57947cadff11aa45",
+  "slug": "bev-le-modele-affine-sur-qwen3-5-9b-pour-choisir-la-pire-reponse-57947c",
+  "titre": "Bev, le modèle affiné sur Qwen3.5-9B pour choisir la pire réponse",
+  "resume": "Un développeur a publié Bev, un modèle de décision du type Jev ou Nimble : on lui donne une situation et une question, elle renvoie une probabilité pour chaque réponse. Affinée sur Qwen3.5-9B, elle est entraînée à choisir délibérément la pire option. Sur 324 décisions tenues à l'écart, elle n'a vu juste que 1,9 % du temps, avec 96 % de confiance. À tester dans le navigateur ou en local via Ollama.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz8wsb/i_trained_a_model_to_be_wrong_98_of_the_time_and/",
+  "date_source": "2026-10-06T17:38:46+00:00",
+  "date_redac": "2026-10-06T18:56:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 848,
+   "sortie": 1203
+  }
+ },
+ {
+  "id": "9b01c6e2145bc4b0",
+  "slug": "un-modele-de-21m-egale-un-dense-de-114m-grace-a-une-table-de-6-4b-de-p-9b01c6",
+  "titre": "Un modèle de 21M égale un dense de 114M grâce à une table de 6,4B de paramètres",
+  "resume": "Un projet amateur donne à un modèle de 21M une table de 16,8M de vecteurs appris, soit 6,4B de paramètres dont 33M utilisés par token. Sur les mêmes 500M tokens Wikipédia, il fait aussi bien qu'un modèle dense de 114M. La table n'a pas besoin de VRAM : en 4 bits, mappée depuis un SSD NVMe, il tourne à ~140 tok/s sur une RX 9070 avec 0,4 Go de VRAM, mais la lecture de longs prompts reste lente.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz7tvs/i_gave_a_21m_model_a_64bparameter_lookup_table_it/",
+  "date_source": "2026-10-06T16:57:34+00:00",
+  "date_redac": "2026-10-06T18:56:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 905,
+   "sortie": 871
+  }
+ },
+ {
   "id": "e1454d999625823b",
   "slug": "llama-cpp-une-pr-ajoute-le-support-des-k2-horizon-d-ifm-dense-et-mova-e1454d",
   "titre": "llama.cpp : une PR ajoute le support des K2 Horizon d'IFM, dense et MoVA",
@@ -188,6 +294,26 @@
    "modele": "deepseek-flash",
    "entree": 627,
    "sortie": 714
+  }
+ },
+ {
+  "id": "f9870c8f79b16eba",
+  "slug": "factorengram-une-memoire-n-gram-factorisee-pour-les-modeles-de-langage-f9870c",
+  "titre": "FactorEngram : une mémoire n-gram factorisée pour les modèles de langage",
+  "resume": "Les mémoires à recherche font grossir les modèles de langage en récupérant des motifs locaux comme les n-grams. Mais Engram et ses semblables traitent chaque embedding comme une unité monolithique, modulée par une seule porte scalaire : les motifs polysémiques ne peuvent pas lire les composantes utiles. FactorEngram factorise cette mémoire et applique des portes contextuelles au niveau des bases.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz59xj/paper_factorengram_factorized_ngram_memory_with/",
+  "date_source": "2026-10-06T15:18:03+00:00",
+  "date_redac": "2026-10-06T18:56:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 782,
+   "sortie": 864
   }
  },
  {

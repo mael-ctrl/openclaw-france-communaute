@@ -1,5 +1,89 @@
 [
  {
+  "id": "c82e50c3e931b7b3",
+  "slug": "r-localllama-alerte-sur-les-risques-des-modeles-abliterated-c82e50",
+  "titre": "r/LocalLLaMA alerte sur les risques des modèles « abliterated »",
+  "resume": "Sur r/LocalLLaMA, un post intitulé « How abliterated models can get you pwned » met en garde contre les modèles dont les garde-fous ont été retirés. L'extrait se limite à un appel à la prudence : « Be safe out there boys and girls. » La question posée est celle de la sécurité liée à l'usage de ces modèles allégés en refus.",
+  "tags": [
+   "open-source",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzdywk/how_abliterated_models_can_get_you_pwned/",
+  "date_source": "2026-10-06T20:52:55+00:00",
+  "date_redac": "2026-10-06T21:09:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 943
+  }
+ },
+ {
+  "id": "dd552f84be32ae97",
+  "slug": "mistral-large-4-en-preview-1-000-milliards-de-parametres-poids-ouverts-dd552f",
+  "titre": "Mistral Large 4 en preview : 1 000 milliards de paramètres, poids ouverts promis",
+  "resume": "Mistral publie en preview Mistral Large 4, un modèle d'un billion de paramètres dont 49 milliards actifs, entraîné sur son propre cluster de 3 800 GPU NVIDIA Grace Blackwell. Les poids ouverts sont promis pour la fin du mois ; l'API n'expose que deux niveaux de raisonnement, « none » et « high ». Sur Artificial Analysis, il score 38, juste derrière DeepSeek 4.1 Flash, contre 9 pour Mistral Large 3 en décembre.",
+  "tags": [
+   "mistral",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 4,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+  "date_source": "2026-10-06T20:18:19+00:00",
+  "date_redac": "2026-10-06T21:09:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 803,
+   "sortie": 901
+  }
+ },
+ {
+  "id": "44a0c1f851bf9548",
+  "slug": "gpt-6-1-sol-et-les-rumeurs-d-une-architecture-de-transformer-boucle-44a0c1",
+  "titre": "GPT-6.1 Sol et les rumeurs d'une architecture de transformer bouclé",
+  "resume": "Des rumeurs relayées sur r/LocalLLaMA décrivent GPT-6 Astra comme un transformer « bouclé » : il produirait un token après plusieurs passes au lieu d'une seule. La récurrence donnerait plus de profondeur effective, en exploitant mieux les poids au prix d'un calcul accru. Des « fuites » d'Azure Foundry évoquent 3 passes par token pour GPT-6-Sol contre 2 pour 6.1-Sol ; certains y voient plutôt ASTRA.",
+  "tags": [
+   "chatgpt",
+   "openai",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzbvu7/gpt61_sol_looped_leak_hints_at_nested_models/",
+  "date_source": "2026-10-06T19:31:34+00:00",
+  "date_redac": "2026-10-06T21:10:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 812,
+   "sortie": 1214
+  }
+ },
+ {
+  "id": "d505b691f65452d1",
+  "slug": "simon-willison-branche-les-traces-opentelemetry-de-datasette-sur-parse-d505b6",
+  "titre": "Simon Willison branche les traces OpenTelemetry de Datasette sur Parseable",
+  "resume": "Simon Willison a repéré Parseable sur Show HN : une plateforme d'observabilité avec une implémentation open source en Rust (AGPL) livrée en un binaire unique d'environ 180 Mo, une version « Enterprise » et une offre hébergée. Datasette 1.0a41 a ajouté le support d'OpenTelemetry grâce à Alex Garcia. Il a utilisé Codex pour lancer Parseable et lui envoyer les traces de Datasette, TIL et capture d'écran à l'appui.",
+  "tags": [
+   "dev",
+   "open-source",
+   "openai"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/",
+  "date_source": "2026-10-06T19:07:31+00:00",
+  "date_redac": "2026-10-06T21:10:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 783,
+   "sortie": 1052
+  }
+ },
+ {
   "id": "aaa1de3392b117d0",
   "slug": "openai-et-ironclad-entrainent-des-agents-sur-les-workflows-contractuel-aaa1de",
   "titre": "OpenAI et Ironclad entraînent des agents sur les workflows contractuels",

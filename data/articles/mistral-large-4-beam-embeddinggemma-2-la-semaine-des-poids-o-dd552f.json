@@ -1,0 +1,41 @@
+{
+ "slug": "mistral-large-4-beam-embeddinggemma-2-la-semaine-des-poids-o-dd552f",
+ "titre": "Mistral Large 4, Beam, EmbeddingGemma 2 : la semaine des poids ouverts",
+ "chapo": "Mistral ouvre l'aperçu de Mistral Large 4, un modèle d'un billion de paramètres dont les poids sont promis pour la fin du mois. Dans la même semaine, Reflection AI dévoile Beam et Google DeepMind publie EmbeddingGemma 2 : côté modèles ouverts, le rythme ne faiblit pas.",
+ "html": "<h2 id=\"mistral-large-4-un-billion-de-parametres\">Mistral Large 4 : un billion de paramètres, des poids pour plus tard</h2>\n<p>Mistral a ouvert le 6 octobre l'aperçu de <strong>Mistral Large 4</strong>. Le laboratoire le présente comme le plus capable des modèles ouverts hors de Chine, une formulation qui dit aussi où se situe la concurrence. Selon Simon Willison, le modèle compte un billion de paramètres, dont 49 milliards actifs — ActuIA avance de son côté 1050 milliards de paramètres. L'entraînement s'est fait sur le propre cluster de Mistral, 3 800 GPU NVIDIA Grace Blackwell.</p>\n<p>Côté usage, l'API n'expose que deux niveaux de raisonnement : « none » et « high ». Pas de curseur intermédiaire, donc.</p>\n<p>Les mesures indépendantes confirment un rattrapage : sur Artificial Analysis, Mistral Large 4 score 38, juste derrière DeepSeek 4.1 Flash, contre 9 pour Mistral Large 3 en décembre. Les poids ouverts, eux, sont promis pour la fin du mois — ils ne sont pas encore disponibles. ActuIA note que la cybersécurité s'impose comme argument commercial face aux modèles ouverts chinois.</p>\n<h2 id=\"reflection-ai-degaine-beam-501-milliards\">Reflection AI dégaine Beam, 501 milliards de paramètres</h2>\n<p>Reflection AI a dévoilé le 5 octobre <strong>Beam</strong>, son premier modèle open-weight. C'est un Mixture-of-Experts de 501 milliards de paramètres au total, dont 23 milliards actifs — un ratio d'activation très différent de celui de Mistral Large 4. La start-up cible en priorité l'agentic coding, le raisonnement et les tâches agentiques.</p>\n<p>La sortie est présentée comme la première étape d'une série de modèles destinés à faire émerger une « open intelligence » occidentale. Le vocabulaire est assumé : L'Usine Digitale parle d'un « DeepSeek américain ».</p>\n<p>Beam et Mistral Large 4 ne visent pas exactement le même terrain — l'un met en avant les agents, l'autre la cybersécurité — mais les deux reposent sur la même promesse : des poids que l'on peut télécharger.</p>\n<h2 id=\"embeddinggemma-2-l-embedding-multimodal-\">EmbeddingGemma 2 : l'embedding multimodal en local</h2>\n<p>Google DeepMind publie <strong>EmbeddingGemma 2</strong>, un modèle d'embedding multimodal open source. Son travail : projeter texte (code inclus), images, vidéo et audio dans un espace vectoriel unique de 768 dimensions. L'intérêt d'un espace unique, c'est de pouvoir comparer directement une requête écrite et un contenu visuel ou sonore, sans passer par des encodages séparés.</p>\n<p>Le modèle pèse 740M paramètres, répartis en 270M pour le texte, 170M pour la vision et 300M pour l'audio. Ces ordres de grandeur le destinent aux appareils grand public — mobiles et laptops — pour la recherche, le RAG ou la classification en local. Il s'appuie sur les avancées de Gemma 4.</p>\n<h2 id=\"gpt-6-microsoft-confirme-les-looped-tran\">GPT-6 : Microsoft confirme les Looped Transformers</h2>\n<p>Microsoft a confirmé, sur une page web publique, qu'OpenAI utilise des <strong>Looped Transformers</strong> dans la série GPT-6, validant les informations du média The Information. La page a depuis été modifiée pour retirer ces éléments.</p>\n<p>Ce qu'elle indiquait : GPT-6.1 Sol effectuerait deux passes d'inférence, avec une mention évoquant « au lieu de trois ». GPT-6 et GPT-6.1 reposeraient sur le même modèle de base pré-entraîné, mais avec un post-entraînement différent et une boucle en moins.</p>\n<p>C'est le seul des quatre sujets à ne concerner aucun poids ouvert. L'information vient d'une page produit, pas d'une publication de recherche, et elle a été retirée depuis : la démonstration technique reste à la charge d'OpenAI.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois annonces de modèles ouverts en quelques jours, dont une seule — Beam — est réellement disponible, Mistral ayant renvoyé ses poids à la fin du mois. Le score de 38 sur Artificial Analysis donne un repère concret pour juger du rattrapage annoncé, à condition que les poids arrivent et que la communauté puisse refaire la mesure elle-même. Du côté de GPT-6, la confirmation de Microsoft reste une ligne dans une page produit depuis retirée.</p>",
+ "pivot": "dd552f84be32ae97",
+ "tags": [
+  "mistral",
+  "openai",
+  "open-source",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/mistral-large-4-ce-que-vaut-le-meilleur-modele-ouvert-hors-chine/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz5va3/googleembeddinggemma2_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz00vv/microsoft_confirms_openai_has_been_using_looped/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/le-deepseek-americain-reflection-ai-devoile-son-premier-modele-open-weight-avec-lambition-de-depasser-la-chine.WIU2SYBM3RAQXPF4H3FZBL54CA.html"
+  }
+ ],
+ "date": "2026-10-06T21:10:27+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1629,
+  "sortie": 3572
+ }
+}

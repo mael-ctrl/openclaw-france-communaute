@@ -1,26 +1,18 @@
 {
- "runs": 131,
- "items_collectes": 1045,
- "breves_publiees": 461,
- "articles_publies": 58,
- "tokens_entree": 430592,
- "tokens_sortie": 597935,
+ "runs": 132,
+ "items_collectes": 1058,
+ "breves_publiees": 465,
+ "articles_publies": 59,
+ "tokens_entree": 435242,
+ "tokens_sortie": 605617,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-06T18:57:01+00:00",
+ "dernier_run": "2026-10-06T21:10:27+00:00",
  "solde": {
   "total": "87.47",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-06T09:04:36+00:00",
-   "message": "brève impossible (Closed-form trajectory weight surgery: transferring 4B capab) : réponse non-JSON"
-  },
-  {
-   "ts": "2026-10-06T09:05:17+00:00",
-   "message": "article impossible : réponse non-JSON"
-  },
   {
    "ts": "2026-10-06T14:42:27+00:00",
    "message": "brève impossible ([Paper] WaveFront Decoding: Parallelized Self-Speculative De) : réponse non-JSON"
@@ -32,6 +24,14 @@
   {
    "ts": "2026-10-06T17:31:00+00:00",
    "message": "brève impossible (54gb vram for 35$) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-06T21:09:40+00:00",
+   "message": "brève impossible (Local AI World Model Part 2 - Deep NN to turn Images into Pl) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-06T21:09:52+00:00",
+   "message": "brève impossible (EmbeddingGemma 2) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -547,6 +547,10 @@
   ],
   [
    "2026-10-06T18:56:18+00:00",
+   "87.47"
+  ],
+  [
+   "2026-10-06T21:09:23+00:00",
    "87.47"
   ]
  ],

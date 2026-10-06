@@ -1,5 +1,86 @@
 [
  {
+  "id": "c31dc3cf0698431b",
+  "slug": "les-poids-de-mistral-large-4-0-attendus-dans-environ-25-jours-c31dc3",
+  "titre": "Les poids de Mistral-Large-4.0 attendus dans environ 25 jours",
+  "resume": "Une publication du subreddit r/LocalLLaMA annonce que les poids du modèle Mistral-Large-4.0 seraient attendus dans environ 25 jours. Le message, daté du 6 octobre 2026, ne fournit aucun détail sur les modalités de diffusion ni sur les caractéristiques du modèle.",
+  "tags": [
+   "mistral",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz31lf/mistrallarge40_weights_excepted_in_25_days/",
+  "date_source": "2026-10-06T13:47:05+00:00",
+  "date_redac": "2026-10-06T14:41:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 648,
+   "sortie": 800
+  }
+ },
+ {
+  "id": "437ed8a2001c4c62",
+  "slug": "mistral-large-4-l-entrainement-rl-continue-sortie-annoncee-fin-de-mois-437ed8",
+  "titre": "Mistral Large 4 : l'entraînement RL continue, sortie annoncée fin de mois",
+  "resume": "Un message relayé sur r/LocalLLaMA rapporte que Mistral Large 4 est toujours en phase d'entraînement par renforcement. Le compte X @qtnx_ indique observer des améliorations par rapport à la version preview du modèle. La sortie est annoncée pour la fin du mois.",
+  "tags": [
+   "mistral",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz2y2v/q_qtnx_on_x_mistral_large_4_is_still_doing_rl/",
+  "date_source": "2026-10-06T13:42:57+00:00",
+  "date_redac": "2026-10-06T14:42:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 647,
+   "sortie": 550
+  }
+ },
+ {
+  "id": "7fb7a3612ad77346",
+  "slug": "lechonk-1t-a49b-des-poids-ouverts-mistral-annonces-pour-la-fin-du-mois-7fb7a3",
+  "titre": "LeChonk-1T-A49B : des poids ouverts Mistral annoncés pour la fin du mois",
+  "resume": "Un post du subreddit r/LocalLLaMA annonce la sortie des poids du modèle LeChonk-1T-A49B, signé Mistral, d'ici la fin du mois. Le fil évoque aussi la disparition probable d'un précédent modèle, surnommé le « fat kitten », et revient sur le film d'annonce qui accompagne la publication. L'information circule via la communauté, sans confirmation officielle dans l'extrait.",
+  "tags": [
+   "mistral",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz2x69/mistral_releasing_new_open_weights_model_le_chonk/",
+  "date_source": "2026-10-06T13:41:48+00:00",
+  "date_redac": "2026-10-06T14:42:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 651,
+   "sortie": 1123
+  }
+ },
+ {
+  "id": "f2870b1ed24f2638",
+  "slug": "mistral-large-4-annonce-en-preview-sur-r-localllama-f2870b",
+  "titre": "Mistral Large 4 annoncé en preview sur r/LocalLLaMA",
+  "resume": "Le 6 octobre 2026, un message publié sur le subreddit r/LocalLLaMA annonce « Introducing Mistral Large 4 (Preview) ». Le message source ne fournit pour l'instant aucun détail technique : ni taille du modèle, ni licence, ni performances annoncées. Il signale simplement l'existence d'une version preview de Mistral Large 4.",
+  "tags": [
+   "mistral",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz2x2l/introducing_mistral_large_4_preview/",
+  "date_source": "2026-10-06T13:41:41+00:00",
+  "date_redac": "2026-10-06T14:42:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 614,
+   "sortie": 905
+  }
+ },
+ {
   "id": "55c3ae06eb8998be",
   "slug": "le-chonk-strikes-back-un-fil-publie-sur-r-localllama-55c3ae",
   "titre": "« Le Chonk strikes back » : un fil publié sur r/LocalLLaMA",
@@ -17,6 +98,26 @@
    "modele": "deepseek-flash",
    "entree": 603,
    "sortie": 739
+  }
+ },
+ {
+  "id": "133ce1d8657d033c",
+  "slug": "gemini-l-acces-gratuit-reduit-au-seul-modele-flash-lite-des-le-9-octob-133ce1",
+  "titre": "Gemini : l'accès gratuit réduit au seul modèle Flash Lite dès le 9 octobre",
+  "resume": "À partir du 9 octobre, les utilisateurs du plan gratuit de Google Gemini seront limités au modèle Flash Lite. Aujourd'hui, ils peuvent encore choisir entre Flash Lite, Flash et Pro. Pour retrouver le modèle Flash standard, il faudra souscrire à l'abonnement Google AI Plus, facturé 4,99 dollars par mois. Concrètement, les modèles les plus capables de Gemini deviennent payants, et l'offre gratuite se réduit à son option la plus légère.",
+  "tags": [
+   "gemini",
+   "business"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+  "date_source": "2026-10-06T13:19:01+00:00",
+  "date_redac": "2026-10-06T14:42:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 662,
+   "sortie": 647
   }
  },
  {

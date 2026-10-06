@@ -724,3 +724,9 @@
 {"ts": "2026-10-06T13:42:19+00:00", "evenement": "deploiement", "details": {"fichiers": 485, "octets": 7198225}, "sha256": "e66c77a3f6f180169e3dbf17546cc2ed557220f90a513e4d8833016bb45f28e1"}
 {"ts": "2026-10-06T13:42:20+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "deefc957444c9f3c2204efbeddd4bebd3664d14b98ab878920ff640bb357b242"}
 {"ts": "2026-10-06T13:42:20+00:00", "evenement": "bilan", "details": {"duree_s": 587.8, "neufs": 16, "breves": 6, "articles": 1, "fichiers": 473, "envois": 485, "publications": 0}, "sha256": "f849afb40f2d5abe14087b9d7f158ef4eda0029192b219426a4d6bd3bf1dec9c"}
+{"ts": "2026-10-06T14:41:45+00:00", "evenement": "collecte", "details": {"neufs": 13}, "sha256": "cca1a6722a789da3240611ddb8708c3a7a4b81a50c817bd7d14fb65152ad0c3a"}
+{"ts": "2026-10-06T14:42:27+00:00", "evenement": "erreur", "details": {"message": "brève impossible ([Paper] WaveFront Decoding: Parallelized Self-Speculative De) : réponse non-JSON"}, "sha256": "34c1e9f039bfadcc50d5a507721dc4a4e94fb3232d6dcae85b1e68672fd7a048"}
+{"ts": "2026-10-06T14:42:44+00:00", "evenement": "construction", "details": {"fichiers": 474}, "sha256": "9e35918aac3e89a63bce6494da9258a642f969d357c8fd589d19acd86d0a2532"}
+{"ts": "2026-10-06T14:53:57+00:00", "evenement": "deploiement", "details": {"fichiers": 486, "octets": 7233458}, "sha256": "e5e16b89c69b594546e2a9ce5ad45417a5df548b1d38bf5268f34574505822e9"}
+{"ts": "2026-10-06T14:53:58+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "1cba9b0c7c2fbecc94b4434913479011e7212ceca95a2fa3245302a55b7bf5b9"}
+{"ts": "2026-10-06T14:53:58+00:00", "evenement": "bilan", "details": {"duree_s": 773.0, "neufs": 13, "breves": 5, "articles": 1, "fichiers": 474, "envois": 486, "publications": 0}, "sha256": "41951f0c50c745c6112fea3dfb2bd06ce33fe29b8a2d8c4065fdc587e862f06d"}

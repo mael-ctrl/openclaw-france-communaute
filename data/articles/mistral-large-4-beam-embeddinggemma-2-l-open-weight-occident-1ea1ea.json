@@ -1,0 +1,41 @@
+{
+ "slug": "mistral-large-4-beam-embeddinggemma-2-l-open-weight-occident-1ea1ea",
+ "titre": "Mistral Large 4, Beam, EmbeddingGemma 2 : l'open-weight occidental accélère",
+ "chapo": "En deux jours, trois sorties de modèles ouverts : Mistral ouvre l'aperçu de Mistral Large 4, Reflection AI dévoile Beam, Google DeepMind publie EmbeddingGemma 2. Derrière les chiffres, une même question : que pèsent réellement les poids ouverts hors de Chine ?",
+ "html": "<h2 id=\"chonky-le-nom-fait-sourire-les-scores-mo\">« Chonky » : le nom fait sourire, les scores moins</h2>\n<p><strong>Mistral Large 4</strong> est ouvert en aperçu depuis le 6 octobre. Le modèle compte 1 000 milliards de paramètres, dont 49 milliards actifs, selon les dépêches anglophones ; ActuIA avance pour sa part 1 050 milliards. Mistral l'a entraîné sur son propre cluster, 3 800 GPU NVIDIA Grace Blackwell. Les poids ouverts sont annoncés pour la fin du mois : promis, pas encore livrés.</p>\n<p>Sur r/LocalLLaMA, la communauté a surtout retenu le nom retenu : « Chonky ». Un surnom qui dit tout de l'encombrement du modèle et rien de ses performances.</p>\n<p>Celles-ci sont mesurées ailleurs. Sur Artificial Analysis, Mistral Large 4 score 38, juste derrière DeepSeek 4.1 Flash. Mistral Large 3, en décembre, plafonnait à 9. L'API n'expose pour l'instant que deux niveaux de raisonnement : « none » et « high ».</p>\n<h2 id=\"la-cybersecurite-comme-argument-de-vente\">La cybersécurité comme argument de vente</h2>\n<p>ActuIA résume la position revendiquée : le laboratoire présente Mistral Large 4 comme le plus capable des modèles ouverts hors de Chine. Les mesures indépendantes confirment un rattrapage, mais le score de 38 le laisse derrière DeepSeek 4.1 Flash, le modèle chinois auquel la comparaison s'impose.</p>\n<p>L'argument commercial mis en avant n'est pas le classement brut : c'est la cybersécurité. Un axe que Mistral oppose explicitement aux modèles ouverts chinois.</p>\n<h2 id=\"beam-reflection-ai-entre-dans-la-danse\">Beam : Reflection AI entre dans la danse</h2>\n<p>Deux jours plus tôt, le 5 octobre, Reflection AI dévoilait Beam, son premier modèle open-weight. L'Usine Digitale en détaille l'architecture : un Mixture-of-Experts de 501 milliards de paramètres au total, dont 23 milliards actifs. La cible affichée : l'agentic coding, le raisonnement et les tâches agentiques.</p>\n<p>La start-up présente cette sortie comme la première étape d'une série de modèles destinés à faire émerger une « open intelligence » occidentale. Même terrain que Mistral, donc, et même échelle de grandeur : deux laboratoires qui misent sur des modèles massifs à poids ouverts pour tenir leur rang.</p>\n<h2 id=\"embeddinggemma-2-l-embedding-multimodal-\">EmbeddingGemma 2 : l'embedding multimodal en local</h2>\n<p>Google DeepMind joue une autre partition. EmbeddingGemma 2 est un modèle d'embedding multimodal open source, qui projette texte (code inclus), images, vidéo et audio dans un espace vectoriel unique de 768 dimensions.</p>\n<p>Avec 740 millions de paramètres — 270M pour le texte, 170M pour la vision, 300M pour l'audio — il vise les appareils grand public, mobiles et laptops. Ses cas d'usage annoncés : la recherche, le RAG et la classification, en local. Le modèle s'appuie sur les avancées de Gemma 4.</p>\n<p>Trois échelles, donc, pour une même tendance : des modèles ouverts qui descendent jusqu'au terminal et remontent jusqu'au cluster de plusieurs milliers de GPU.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux jours, trois modèles ouverts, trois échelles : 1 050 milliards de paramètres pour Mistral Large 4 selon ActuIA, 501 pour Beam, 740 millions pour EmbeddingGemma 2. Pour le modèle de Mistral, les poids ouverts restent promis et non livrés. C'est à la fin du mois, une fois les fichiers disponibles, que le rattrapage annoncé par les mesures indépendantes pourra être vérifié sur d'autres machines que le cluster du laboratoire.</p>",
+ "pivot": "1ea1eafffc38e8e9",
+ "tags": [
+  "mistral",
+  "open-source",
+  "gemini",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzginu/europe_rejoins_the_fight_with_chonky_mistral/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/mistral-large-4-ce-que-vaut-le-meilleur-modele-ouvert-hors-chine/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz5va3/googleembeddinggemma2_hugging_face/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/le-deepseek-americain-reflection-ai-devoile-son-premier-modele-open-weight-avec-lambition-de-depasser-la-chine.WIU2SYBM3RAQXPF4H3FZBL54CA.html"
+  }
+ ],
+ "date": "2026-10-06T22:51:01+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1587,
+  "sortie": 4652
+ }
+}

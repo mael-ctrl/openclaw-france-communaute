@@ -1,5 +1,85 @@
 [
  {
+  "id": "bf36372fc262719c",
+  "slug": "des-ex-ingenieurs-de-ramp-levent-20-m-pour-melius-apres-un-pivot-bf3637",
+  "titre": "Des ex-ingénieurs de Ramp lèvent 20 M$ pour Melius après un pivot",
+  "resume": "Des anciens ingénieurs de Ramp ont levé 20 millions de dollars pour Melius, leur nouvelle plateforme. L'équipe avait abandonné son premier produit avant de pivoter. Deux mois après le lancement de cette version, la startup a dépassé le million de dollars de revenus annualisés. Le montant levé montre l'intérêt des investisseurs pour des équipes capables de repartir vite sur un nouveau produit.",
+  "tags": [
+   "business",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+  "date_source": null,
+  "date_redac": "2026-10-06T22:50:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 616,
+   "sortie": 634
+  }
+ },
+ {
+  "id": "cf8535d59878ef71",
+  "slug": "openai-publie-des-resultats-sur-des-problemes-ouverts-de-mathematiques-cf8535",
+  "titre": "OpenAI publie des résultats sur des problèmes ouverts de mathématiques",
+  "resume": "OpenAI publie de nouveaux résultats portant sur des problèmes ouverts en mathématiques, issus d'un modèle de frontière interne. L'entreprise partage aussi les formalisations des preuves en Lean ainsi que les détails de ses recherches sur GitHub.",
+  "tags": [
+   "openai",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+  "date_source": null,
+  "date_redac": "2026-10-06T22:50:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 585,
+   "sortie": 627
+  }
+ },
+ {
+  "id": "1ea1eafffc38e8e9",
+  "slug": "mistral-large-4-1-000-milliards-de-parametres-poids-ouverts-fin-du-moi-1ea1ea",
+  "titre": "Mistral Large 4 : 1 000 milliards de paramètres, poids ouverts fin du mois",
+  "resume": "Mistral publie Mistral Large 4, un modèle de 1 000 milliards de paramètres dont 49 milliards actifs. Les poids ouverts sont annoncés pour la fin du mois. Sur r/LocalLLaMA, la communauté relève surtout l'humour du nom retenu, « Chonky ».",
+  "tags": [
+   "mistral",
+   "open-source"
+  ],
+  "importance": 4,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzginu/europe_rejoins_the_fight_with_chonky_mistral/",
+  "date_source": "2026-10-06T22:40:46+00:00",
+  "date_redac": "2026-10-06T22:50:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 669,
+   "sortie": 586
+  }
+ },
+ {
+  "id": "23d6fc450fa08a11",
+  "slug": "llm-mistral-0-16-prend-en-charge-les-modeles-de-raisonnement-23d6fc",
+  "titre": "llm-mistral 0.16 prend en charge les modèles de raisonnement",
+  "resume": "llm-mistral passe en version 0.16 : le projet ajoute la prise en charge des modèles de raisonnement, à commencer par Mistral Large 4, tout juste publié. L'annonce, datée du 6 octobre 2026, porte les étiquettes llm, mistral et llm-reasoning. Les modèles capables de raisonner deviennent donc accessibles depuis cet outil dédié à Mistral.",
+  "tags": [
+   "mistral",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+  "date_source": "2026-10-06T21:32:34+00:00",
+  "date_redac": "2026-10-06T22:50:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 622,
+   "sortie": 690
+  }
+ },
+ {
   "id": "c82e50c3e931b7b3",
   "slug": "r-localllama-alerte-sur-les-risques-des-modeles-abliterated-c82e50",
   "titre": "r/LocalLLaMA alerte sur les risques des modèles « abliterated »",
@@ -166,6 +246,26 @@
    "modele": "deepseek-flash",
    "entree": 848,
    "sortie": 1203
+  }
+ },
+ {
+  "id": "cc2f3aec08431f27",
+  "slug": "datasette-atom-0-11a0-correctif-de-compatibilite-avec-datasette-1-0a41-cc2f3a",
+  "titre": "datasette-atom 0.11a0 : correctif de compatibilité avec Datasette 1.0a41",
+  "resume": "Le plugin datasette-atom passe en version 0.11a0, avec un correctif mineur destiné à assurer sa compatibilité avec les dernières versions alpha de Datasette. Ce petit ajustement a permis de mettre à jour le site datasette.io vers Datasette 1.0a41.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/6/datasette-atom/",
+  "date_source": "2026-10-06T17:35:39+00:00",
+  "date_redac": "2026-10-06T22:50:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 634,
+   "sortie": 268
   }
  },
  {

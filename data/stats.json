@@ -1,26 +1,18 @@
 {
- "runs": 124,
- "items_collectes": 955,
- "breves_publiees": 422,
+ "runs": 125,
+ "items_collectes": 963,
+ "breves_publiees": 427,
  "articles_publies": 53,
- "tokens_entree": 394750,
- "tokens_sortie": 547074,
+ "tokens_entree": 398428,
+ "tokens_sortie": 550257,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-06T08:01:54+00:00",
+ "dernier_run": "2026-10-06T09:05:17+00:00",
  "solde": {
   "total": "87.54",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-05T16:46:53+00:00",
-   "message": "brève impossible (Speakrail - a low-latency fully-local voice assistant that r) : réponse non-JSON"
-  },
-  {
-   "ts": "2026-10-05T20:02:03+00:00",
-   "message": "brève impossible (openclaw 2026.10.1-beta.1) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-06T01:29:05+00:00",
    "message": "brève impossible (Quoting Felix Rieseberg) : réponse non-JSON"
@@ -32,6 +24,14 @@
   {
    "ts": "2026-10-06T07:01:03+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 8 column 6 (char 1275)"
+  },
+  {
+   "ts": "2026-10-06T09:04:36+00:00",
+   "message": "brève impossible (Closed-form trajectory weight surgery: transferring 4B capab) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-06T09:05:17+00:00",
+   "message": "article impossible : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -519,6 +519,10 @@
   ],
   [
    "2026-10-06T08:01:23+00:00",
+   "87.54"
+  ],
+  [
+   "2026-10-06T09:04:13+00:00",
    "87.54"
   ]
  ],

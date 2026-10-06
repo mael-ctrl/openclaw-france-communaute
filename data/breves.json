@@ -1,5 +1,108 @@
 [
  {
+  "id": "70baf53f48e37345",
+  "slug": "jours-flash-prime-quatre-aspirateurs-dreame-de-299-a-1-099-70baf5",
+  "titre": "Jours Flash Prime : quatre aspirateurs Dreame de 299 à 1 099 €",
+  "resume": "À l'occasion des Jours Flash Prime, quatre offres d'aspirateurs Dreame sont mises en avant, de 299 à 1 099 €. La marque couvre plusieurs usages ménagers : aspirateur balai pour le quotidien, laveur pour s'attaquer aux sols, robot pour déléguer le ménage. Les réductions annoncées vont jusqu'à 400 €. Il s'agit d'un contenu sponsorisé.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/produits-android/maison-connectee/robot-aspirateur/3272925_quel-aspirateur-dreame-choisir-pendant-les-jours-flash-prime-voici-4-offres-de-299-a-1-099-e",
+  "date_source": null,
+  "date_redac": "2026-10-06T09:04:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 712,
+   "sortie": 458
+  }
+ },
+ {
+  "id": "5e72d3c818965f09",
+  "slug": "ubisoft-veut-deployer-son-ia-generative-dans-tous-ses-jeux-avec-mother-5e72d3",
+  "titre": "Ubisoft veut déployer son IA générative dans tous ses jeux avec Motherbrain",
+  "resume": "Ubisoft ne désemplit pas de son envie d'exploiter l'IA générative dans ses jeux vidéo. L'éditeur français présente Motherbrain, un nouvel outil décrit comme surpuissant. L'ambition affichée : le déployer dans l'ensemble de ses jeux.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/06/ubisoft-veut-deployer-son-ia-generative-dans-tous-ses-jeux-avec-motherbrain/",
+  "date_source": null,
+  "date_redac": "2026-10-06T09:04:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 650,
+   "sortie": 678
+  }
+ },
+ {
+  "id": "1bacb0c623e7c4b1",
+  "slug": "une-ia-bientot-autorisee-a-prescrire-contre-l-acne-dans-l-utah-1bacb0",
+  "titre": "Une IA bientôt autorisée à prescrire contre l'acné dans l'Utah",
+  "resume": "L'entreprise américaine Nolla Health annonce une expérimentation dans l'Utah : des premières ordonnances contre l'acné seront délivrées grâce à l'IA. Le contrôle médical, systématique au départ, pourrait progressivement diminuer. Le sujet touche à la délégation de l'acte de prescription à un système automatisé.",
+  "tags": [
+   "société",
+   "business",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2347069-cette-ia-va-pouvoir-prescrire-elle-meme-des-traitements-contre-lacne.html",
+  "date_source": null,
+  "date_redac": "2026-10-06T09:04:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 654,
+   "sortie": 399
+  }
+ },
+ {
+  "id": "a76241bc02a0e2e3",
+  "slug": "des-tourelles-robotisees-guidees-par-ia-abattent-des-drones-russes-ger-a76241",
+  "titre": "Des tourelles robotisées guidées par IA abattent des drones russes Geran-5",
+  "resume": "L'armée de l'air ukrainienne a affirmé ce lundi 5 octobre que des tourelles de mitrailleuses robotisées, aidées par l'intelligence artificielle, ont abattu des drones russes à réaction, dont le Geran-5. Son porte-parole reconnaît qu'il était lui-même très sceptique. Le Geran-5 compte parmi les drones les plus difficiles à abattre pour l'Ukraine.",
+  "tags": [
+   "robots",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2347063-des-mitrailleuses-robotisees-guidees-par-ia-interceptent-les-drones-geran-5-les-plus-difficiles-a-abattre-pour-lukraine.html",
+  "date_source": null,
+  "date_redac": "2026-10-06T09:04:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 705,
+   "sortie": 457
+  }
+ },
+ {
+  "id": "97d2f3c97f677443",
+  "slug": "ollama-sur-orange-pi-5-plus-le-core-pinning-triple-la-vitesse-d-infere-97d2f3",
+  "titre": "Ollama sur Orange Pi 5 Plus : le core pinning triple la vitesse d'inférence",
+  "resume": "Sur un Orange Pi 5 Plus (RK3588, 16 Go), limiter Ollama à 4 threads sur les cœurs A76 apporte jusqu'à +318 % de vitesse face aux 8 threads par défaut : DeepSeek-Coder 1.3B atteint 16,9 tok/s et Llama 3.2 1B 14,6 tok/s. Llama 3.1 8B chute à 2,3 tok/s en poussant le SoC à 85 °C, la bande passante LPDDR4x (25-30 GB/s mesurés) faisant plafond. Le NPU via le runtime RKLLM monte à 21,55 tok/s sur Qwen 0.5B.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev",
+   "deepseek"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyxbp6/benchmark_running_local_llms_on_orange_pi_5_plus/",
+  "date_source": "2026-10-06T08:31:53+00:00",
+  "date_redac": "2026-10-06T09:04:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 957,
+   "sortie": 1191
+  }
+ },
+ {
   "id": "edcf28a7cfdad13b",
   "slug": "chatgpt-va-marquer-d-un-filigrane-invisible-les-textes-generes-dans-l--edcf28",
   "titre": "ChatGPT va marquer d'un filigrane invisible les textes générés dans l'UE",

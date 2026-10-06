@@ -1,22 +1,18 @@
 {
- "runs": 128,
- "items_collectes": 1008,
- "breves_publiees": 444,
+ "runs": 129,
+ "items_collectes": 1022,
+ "breves_publiees": 450,
  "articles_publies": 56,
- "tokens_entree": 415003,
- "tokens_sortie": 575862,
+ "tokens_entree": 419243,
+ "tokens_sortie": 580387,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-06T14:42:44+00:00",
+ "dernier_run": "2026-10-06T16:12:20+00:00",
  "solde": {
-  "total": "87.50",
+  "total": "87.49",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-06T07:00:22+00:00",
-   "message": "brève impossible (Why 38% of AI Agent container escapes didn't need kernel 0-d) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-06T07:01:03+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 8 column 6 (char 1275)"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-06T14:42:27+00:00",
    "message": "brève impossible ([Paper] WaveFront Decoding: Parallelized Self-Speculative De) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-06T16:12:20+00:00",
+   "message": "article impossible : Expecting ',' delimiter: line 20 column 6 (char 3978)"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 4.16,
+ "depense_usd": 4.17,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -536,10 +536,14 @@
   [
    "2026-10-06T14:41:45+00:00",
    "87.50"
+  ],
+  [
+   "2026-10-06T16:11:32+00:00",
+   "87.49"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 1.87,
+ "depense_mois_usd": 1.88,
  "archive_tentatives": {
   "jour": "2026-10-06",
   "n": 3

@@ -1,5 +1,133 @@
 [
  {
+  "id": "42637fec4d3e91e0",
+  "slug": "ai-act-ce-qui-s-applique-deja-aux-entreprises-francaises-42637f",
+  "titre": "AI Act : ce qui s'applique déjà aux entreprises françaises",
+  "resume": "Depuis le 6 octobre 2026, une entreprise française qui fournit ou utilise un système d'IA doit déjà respecter trois blocs du règlement (UE) 2024/1689, parmi lesquels les pratiques interdites et la maîtrise de l'IA. L'omnibus 2026/1744 reporte une partie des échéances prévues. Le calendrier européen touche donc directement les organisations qui déploient de l'IA en France.",
+  "tags": [
+   "france",
+   "business",
+   "société"
+  ],
+  "importance": 4,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/calendrier-ai-act-ce-qui-sapplique-ce-que-lomnibus-reporte/",
+  "date_source": null,
+  "date_redac": "2026-10-06T16:11:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 656,
+   "sortie": 561
+  }
+ },
+ {
+  "id": "d71109d8f052e291",
+  "slug": "mistral-large-4-un-modele-ouvert-de-1050-milliards-de-parametres-en-ap-d71109",
+  "titre": "Mistral Large 4 : un modèle ouvert de 1050 milliards de paramètres en aperçu",
+  "resume": "Mistral a ouvert le 6 octobre l'aperçu de Mistral Large 4, un modèle de 1050 milliards de paramètres. Le laboratoire le présente comme le plus capable des modèles ouverts hors de Chine. Les mesures indépendantes confirment un rattrapage, et la cybersécurité s'impose comme argument commercial face aux modèles ouverts chinois.",
+  "tags": [
+   "mistral",
+   "open-source",
+   "sécurité",
+   "business"
+  ],
+  "importance": 4,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/mistral-large-4-ce-que-vaut-le-meilleur-modele-ouvert-hors-chine/",
+  "date_source": null,
+  "date_redac": "2026-10-06T16:11:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 405
+  }
+ },
+ {
+  "id": "903435241aa4f46a",
+  "slug": "embeddinggemma-2-le-modele-d-embedding-multimodal-de-google-deepmind-903435",
+  "titre": "EmbeddingGemma 2, le modèle d'embedding multimodal de Google DeepMind",
+  "resume": "Google DeepMind publie EmbeddingGemma 2, un modèle d'embedding multimodal open source qui projette texte (code inclus), images, vidéo et audio dans un espace vectoriel unique de 768 dimensions. Fort de 740M paramètres — 270M pour le texte, 170M pour la vision, 300M pour l'audio — il vise les appareils grand public comme les mobiles et les laptops, pour la recherche, le RAG ou la classification en local. Le modèle s'appuie sur les avancées de Gemma 4.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev",
+   "matériel"
+  ],
+  "importance": 4,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz5va3/googleembeddinggemma2_hugging_face/",
+  "date_source": "2026-10-06T15:41:20+00:00",
+  "date_redac": "2026-10-06T16:11:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 796,
+   "sortie": 806
+  }
+ },
+ {
+  "id": "9bfa695018878ea2",
+  "slug": "une-femme-utilisait-claude-comme-journal-intime-son-contenu-signale-a--9bfa69",
+  "titre": "Une femme utilisait Claude comme journal intime, son contenu signalé à la police",
+  "resume": "Un post publié sur r/LocalLLaMA, relayé par l'utilisateur Timely_Impression_92, rapporte qu'une femme se servait de Claude comme journal intime. Le contenu de ce journal aurait donné lieu à un signalement auprès de la police. Le message ne précise ni les circonstances du signalement, ni son auteur, ni les suites éventuelles.",
+  "tags": [
+   "claude",
+   "société",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz5b30/woman_used_claude_as_her_diary_and_got_reported/",
+  "date_source": "2026-10-06T15:19:12+00:00",
+  "date_redac": "2026-10-06T16:11:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 627,
+   "sortie": 714
+  }
+ },
+ {
+  "id": "4c888e76eaf46bd5",
+  "slug": "simon-willison-teste-la-composition-musicale-avec-claude-opus-5-5-4c888e",
+  "titre": "Simon Willison teste la composition musicale avec Claude Opus 5.5",
+  "resume": "Simon Willison a testé si Claude Opus 5.5 savait composer de la musique. Il lui a demandé de la musique de jeu vidéo, un format texte pour la noter et un artefact la jouant, avec des pistes d'exemple, en visant la qualité de The Secret of Monkey Island. Le résultat penche plus que prévu vers ce thème, mais il le juge étonnamment bon. Il se demande si cette capacité est comparable à la 3D pour les modèles de texte.",
+  "tags": [
+   "claude",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+  "date_source": "2026-10-06T15:17:39+00:00",
+  "date_redac": "2026-10-06T16:11:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 768,
+   "sortie": 1309
+  }
+ },
+ {
+  "id": "25e35b6b02b13607",
+  "slug": "support-experimental-de-qwen3-8-flash-next-sur-strix-halo-via-strata-25e35b",
+  "titre": "Support expérimental de Qwen3.8-Flash-Next sur Strix Halo via Strata",
+  "resume": "Strata ajoute un support officiel des machines Strix Halo pour Qwen3.8-Flash-Next. Les meilleurs résultats sont obtenus en décodage long contexte avec les poids quantifiés Q4 et GSQ-RCO d'Unsloth, et le modèle peut atteindre 1M de contexte sans grosse perte de vitesse. Le support est encore marqué expérimental et n'a été testé que sous Linux. L'auteur attend retours et pull requests.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz4rvx/qwen38flashnext_on_strata/",
+  "date_source": "2026-10-06T14:58:43+00:00",
+  "date_redac": "2026-10-06T16:11:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 723,
+   "sortie": 730
+  }
+ },
+ {
   "id": "c31dc3cf0698431b",
   "slug": "les-poids-de-mistral-large-4-0-attendus-dans-environ-25-jours-c31dc3",
   "titre": "Les poids de Mistral-Large-4.0 attendus dans environ 25 jours",

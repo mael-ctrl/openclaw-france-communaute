@@ -1,5 +1,89 @@
 [
  {
+  "id": "9a21b0c53f6f7f99",
+  "slug": "renault-twingo-electrique-un-toit-vitre-a-550-euros-et-gemini-a-bord-9a21b0",
+  "titre": "Renault Twingo électrique : un toit vitré à 550 euros et Gemini à bord",
+  "resume": "Renault présente au Mondial de l'Auto un toit vitré panoramique de 0,7 m² pour sa Twingo E-Tech electric. L'option sera commandable dès le 13 octobre, pour 550 ou 600 euros selon les pays. La citadine reçoit en même temps Gemini, l'assistant IA de Google, via une mise à jour à distance.",
+  "tags": [
+   "gemini",
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/renault/3273441_un-toit-en-verre-a-550-euros-pour-la-renault-twingo-electrique-mais-sans-aucun-rideau",
+  "date_source": null,
+  "date_redac": "2026-10-06T07:10:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 697,
+   "sortie": 462
+  }
+ },
+ {
+  "id": "42c3ca54f25e72d6",
+  "slug": "mark-cuban-voit-la-fin-des-robots-humanoides-d-ici-dix-ans-elon-musk-p-42c3ca",
+  "titre": "Mark Cuban voit la fin des robots humanoïdes d'ici dix ans, Elon Musk pense l'inverse",
+  "resume": "Le milliardaire américain Mark Cuban estime que les robots humanoïdes n'ont que cinq à dix ans devant eux. Selon lui, ils seront remplacés par des machines conçues pour une seule tâche. C'est le pari inverse d'Elon Musk, qui présente son robot Optimus comme le futur de Tesla. Deux visions opposées de la robotique s'affrontent donc publiquement.",
+  "tags": [
+   "robots",
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/06/ce-milliardaire-predit-deja-la-fin-des-robots-humanoides-dici-10-ans-pourtant-elon-musk-affirme-le-contraire/",
+  "date_source": null,
+  "date_redac": "2026-10-06T07:10:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 701,
+   "sortie": 347
+  }
+ },
+ {
+  "id": "5e1fbefe12358886",
+  "slug": "dataiku-et-scaleway-officialisent-leur-partenariat-cloud-souverain-5e1fbe",
+  "titre": "Dataiku et Scaleway officialisent leur partenariat cloud souverain",
+  "resume": "Après des années de collaboration informelle, Dataiku, spécialiste de la science des données, et Scaleway, fournisseur cloud, officialisent leur partenariat. Objectif : une plateforme data et IA opérable sur une infrastructure cloud entièrement européenne. L'annonce illustre les mutations du marché de l'IA en Europe, où la souveraineté numérique s'impose comme un nouveau standard.",
+  "tags": [
+   "france",
+   "business"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/dataiku-et-scaleway-officialisent-leur-alliance-la-souverainete-numerique-simpose-comme-nouveau-standard-du-marche-de-lia.GMJAR7VRRVDORFGFRORNBBUOLY.html",
+  "date_source": null,
+  "date_redac": "2026-10-06T07:10:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 766,
+   "sortie": 751
+  }
+ },
+ {
+  "id": "ff6d431685b631cf",
+  "slug": "hermes-agent-une-nouvelle-build-canary-publiee-v0-21-4-ff6d43",
+  "titre": "Hermes Agent : une nouvelle build canary publiée (v0.21.4)",
+  "resume": "Hermes Agent, l'agent de NousResearch, a publié une build canary référencée v0.21.4+canary.20261006T070224Z. La publication ne précise pas les changements apportés par cette version. La mention canary renvoie au canal de test du projet, distinct des versions stables.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.4%2Bcanary.20261006T070224Z",
+  "date_source": "2026-10-06T07:02:25+00:00",
+  "date_redac": "2026-10-06T07:10:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 752
+  }
+ },
+ {
   "id": "905ec7d905e20883",
   "slug": "localmind-fait-tourner-un-moe-de-37-go-dans-un-onglet-sur-un-mac-de-24-905ec7",
   "titre": "LocalMind fait tourner un MoE de 37 Go dans un onglet, sur un Mac de 24 Go",
@@ -202,6 +286,27 @@
    "modele": "deepseek-flash",
    "entree": 672,
    "sortie": 494
+  }
+ },
+ {
+  "id": "1868bbf329c14b6b",
+  "slug": "memoria-1-0-0-une-couche-memoire-locale-et-agnostique-pour-les-llm-1868bb",
+  "titre": "Memoria 1.0.0, une couche mémoire locale et agnostique pour les LLM",
+  "resume": "Memoria 1.0.0 est une couche mémoire locale et agnostique du modèle, sans service cloud ni clé API, qui peut tourner sans LLM. Les tests sur LongMemEval-S, menés sur un Celeron N4020 à 1,10 GHz avec 3,7 Gio de RAM et sans GPU, donnent 468 réponses sur 470 questions et un Recall@1 de 89,8 %. Le pic de mémoire atteint 2,65 Gio pour la charge complète, contre environ 580 Mio par requête.",
+  "tags": [
+   "dev",
+   "recherche",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyt020/memoria_100_a_local_modelagnostic_memory_system/",
+  "date_source": "2026-10-06T04:01:23+00:00",
+  "date_redac": "2026-10-06T07:10:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 895,
+   "sortie": 987
   }
  },
  {

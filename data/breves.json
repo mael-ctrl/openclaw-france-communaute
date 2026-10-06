@@ -1,5 +1,110 @@
 [
  {
+  "id": "9951c931b562a9dc",
+  "slug": "kolibri-1-joue-a-breakout-sans-fine-tuning-a-25-ms-par-decision-9951c9",
+  "titre": "Kolibri-1 joue à Breakout sans fine-tuning, à 25 ms par décision",
+  "resume": "Le modèle Kolibri-1 joue à Breakout de façon autonome, sans fine-tuning, dans le cadre de l'expérience « Less Talk. More Breakout ». L'inférence a été optimisée pour les probabilités d'action : environ 25 ms par décision, sans texte généré, sur quatre mouvements et une partie partagée. Les poids sont ouverts et une démo de gameplay est accessible en ligne.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wynppg/less_talk_more_breakout_kolibri1_turns/",
+  "date_source": "2026-10-05T23:35:19+00:00",
+  "date_redac": "2026-10-06T01:29:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 783,
+   "sortie": 588
+  }
+ },
+ {
+  "id": "a20059506722d443",
+  "slug": "ik-llama-cpp-un-fork-ajoute-la-residence-d-experts-moe-et-le-support-q-a20059",
+  "titre": "ik_llama.cpp : un fork ajoute la résidence d'experts MoE et le support Q2_0",
+  "resume": "Un développeur publie un fork d'ik_llama.cpp dédié aux modèles MoE : exécution CPU/GPU adaptée à la bande passante, cache borné et idées de résidence d'experts issues d'un papier arXiv, intégrées à son profileur. Le fork ajoute le support Q2_0, notamment pour faire tourner des modèles comme Qwen3.8-Flash-Next-GSQ-RCO-Coder. Un plafond VRAM de résidence d'experts est configurable via --moe-resident-mib.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wynomx/k_llamacpp_moe_optimizations_expert_residency/",
+  "date_source": "2026-10-05T23:33:54+00:00",
+  "date_redac": "2026-10-06T01:29:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 859,
+   "sortie": 896
+  }
+ },
+ {
+  "id": "5bae1d9382f858e5",
+  "slug": "claude-code-v2-1-290-bouton-deny-hooks-de-plugins-enrichis-et-commande-5bae1d",
+  "titre": "Claude Code v2.1.290 : bouton Deny, hooks de plugins enrichis et commandes attach et logs",
+  "resume": "La version 2.1.290 de Claude Code ajoute un bouton Deny à la page d'approbation de la passerelle Claude : il met fin à la connexion en attente et arrête le terminal en quelques secondes. Les hooks de plugins gagnent serverToolUses, un agentId dans tool.check et un « ceiling » désignant l'approbation exigée par une organisation. Deux commandes apparaissent : claude attach <nom> et claude logs <nom>.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
+  "date_source": "2026-10-05T23:33:17+00:00",
+  "date_redac": "2026-10-06T01:29:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 783,
+   "sortie": 1286
+  }
+ },
+ {
+  "id": "88fae27d12953fa6",
+  "slug": "civbench-un-benchmark-controle-ou-les-llm-jouent-a-civilization-v-88fae2",
+  "titre": "CivBench : un benchmark contrôlé où les LLM jouent à Civilization V",
+  "resume": "Une version contrôlée de CivBench évalue des modèles sur des parties complètes de Civilization V. Ce jeu de stratégie au tour par tour sert à tester des décisions dont les conséquences n'apparaissent qu'après 50 ou 100 tours. GLM-5.3 devance Opus-5.5, et Qwen-3.8-27B résiste étonnamment bien. Les auteurs testent aussi GPT-6.1-Sol et GPT-6-Astra, et invitent à suggérer d'autres modèles, notamment ouverts.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "claude"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wynbvq/a_benchmark_for_llms_playing_civilization_v_glm53/",
+  "date_source": "2026-10-05T23:16:48+00:00",
+  "date_redac": "2026-10-06T01:29:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 832,
+   "sortie": 558
+  }
+ },
+ {
+  "id": "b57a976a6b1341a4",
+  "slug": "google-teste-l-extension-de-gemini-call-for-me-aux-appels-personnels-b57a97",
+  "titre": "Google teste l'extension de Gemini Call for Me aux appels personnels",
+  "resume": "Google pourrait étendre sa fonction « Call for Me » au-delà des appels professionnels, pour envoyer des messages à ses proches. Android Authority dit avoir repéré un écran d'introduction « Gemini Calling » lors d'un démontage d'APK. Les exemples cités incluent : « Appelle maman et dis-lui que j'aurai 15 minutes de retard ».",
+  "tags": [
+   "gemini",
+   "agents",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+  "date_source": "2026-10-05T23:09:55+00:00",
+  "date_redac": "2026-10-06T01:29:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 665,
+   "sortie": 429
+  }
+ },
+ {
   "id": "6bf16c36cdc3d888",
   "slug": "un-utilisateur-cherche-une-alternative-open-source-au-computer-use-mcp-6bf16c",
   "titre": "Un utilisateur cherche une alternative open source au Computer Use MCP de Codex",

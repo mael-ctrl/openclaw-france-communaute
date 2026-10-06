@@ -662,3 +662,12 @@
 {"ts": "2026-10-05T22:35:11+00:00", "evenement": "deploiement", "details": {"fichiers": 476, "octets": 6697865}, "sha256": "3b3e24af9674c259278fe23961d719123c7e87f838588b1d235b2d2e6368da93"}
 {"ts": "2026-10-05T22:35:11+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "1e348b2cdd051bb6212ab7ef28aef5e803acd0f369f9d1370268ce4a38302f57"}
 {"ts": "2026-10-05T22:35:11+00:00", "evenement": "bilan", "details": {"duree_s": 541.4, "neufs": 7, "breves": 6, "articles": 0, "fichiers": 464, "envois": 476, "publications": 0}, "sha256": "5e7473664b91af17bd752903d41fcad71b4cd3b3eb3c2bb6bf3e09e02db35575"}
+{"ts": "2026-10-06T01:28:52+00:00", "evenement": "collecte", "details": {"neufs": 9}, "sha256": "2844d9a31deda465727d291fc34e48ed1da38b39c576c42a3eb6c9418f6c66ea"}
+{"ts": "2026-10-06T01:29:05+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Quoting Felix Rieseberg) : réponse non-JSON"}, "sha256": "973902f3ab3679821bbe082420cc3ae7349b5d721cb81c204469f61bf9ec1135"}
+{"ts": "2026-10-06T01:29:25+00:00", "evenement": "construction", "details": {"fichiers": 464}, "sha256": "646b13534a51d51244235a45f3f6a69427acbf573c08c3aff074351a1bf229cd"}
+{"ts": "2026-10-06T01:39:59+00:00", "evenement": "deploiement", "details": {"fichiers": 476, "octets": 6696422}, "sha256": "6d5041600b6e6b5fa00b87c2814fdcf87e2da3490b76d9c9ecf0516bba4f654e"}
+{"ts": "2026-10-06T01:40:00+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "17e0c0d6b8e5c38509c2eb42e5f3a9b920ce43a517fb9961f9b855f31a0c1ac9"}
+{"ts": "2026-10-06T01:40:20+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 1}, "sha256": "d3bc95d892a867ef4e9102dee80e34f37ef64c6f8f308a3a4d939090faa36348"}
+{"ts": "2026-10-06T01:40:32+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "a826e762852326aedc7be0642f6710d34359b7a3b214e39e9f7fc1abee2158ec"}
+{"ts": "2026-10-06T01:40:32+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-06.json", "publications": 459}, "sha256": "d5f62c6bc6f36fb75d9a976d409667a130822544248fd5d76b2abc97d75b4964"}
+{"ts": "2026-10-06T01:40:32+00:00", "evenement": "bilan", "details": {"duree_s": 713.3, "neufs": 9, "breves": 5, "articles": 0, "fichiers": 464, "envois": 476, "publications": 4}, "sha256": "cf60d91b3b8141cb1788aee19739f3ebdd44b51424b2ed339d75f060bc32ee03"}

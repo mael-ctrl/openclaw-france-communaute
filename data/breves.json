@@ -1,5 +1,130 @@
 [
  {
+  "id": "3782b2c35e3b3ed8",
+  "slug": "un-bug-d-alexa-plus-fait-repeter-lalala-aux-enceintes-echo-3782b2",
+  "titre": "Un bug d'Alexa Plus fait répéter « lalala » aux enceintes Echo",
+  "resume": "Un bug touchant Alexa Plus fait que certaines enceintes connectées Amazon Echo se mettent à répéter « lalala », parfois en le chantant, pendant plusieurs minutes d'affilée. Le phénomène survient souvent au milieu d'une conversation avec l'utilisateur. Interrogée sur ce comportement, Alexa semble ignore ce qu'elle vient de faire.",
+  "tags": [
+   "matériel",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end",
+  "date_source": "2026-10-06T10:53:11+00:00",
+  "date_redac": "2026-10-06T11:22:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 450
+  }
+ },
+ {
+  "id": "3170d605a1e95182",
+  "slug": "tencent-publie-octop-un-assistant-ia-auto-heberge-et-multi-agents-3170d6",
+  "titre": "Tencent publie Octop, un assistant IA auto-hébergé et multi-agents",
+  "resume": "Tencent publie Octop, un assistant IA open source et auto-hébergé. Son architecture multi-agents vise un environnement à la fois indépendant et collaboratif pour équipes, familles ou particuliers, exécuté entièrement sur la machine. Interface web, clients desktop (Windows, macOS, Linux), CLI et API HTTP/SSE/WebSocket sont accessibles via un démarrage en un seul processus ; déploiement par application de bureau ou Docker.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyzef4/tencent_releases_octop_a_selfhosted_ai_assistant/",
+  "date_source": "2026-10-06T10:45:43+00:00",
+  "date_redac": "2026-10-06T11:22:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 798,
+   "sortie": 726
+  }
+ },
+ {
+  "id": "5e971edafae004f0",
+  "slug": "kolibri-le-modele-d-aleph-alpha-ecrit-un-outil-en-nim-chez-tesseracted-5e971e",
+  "titre": "Kolibri, le modèle d'Aleph Alpha, écrit un outil en Nim chez Tesseracted",
+  "resume": "Sur r/LocalLLaMA, un internaute rapporte que Kolibri, le modèle allemand d'Aleph Alpha, hébergé par Tesseracted, a produit un petit outil en ligne de commande en Nim sur 3code. Le modèle est de petite taille, ce qui rend d'autant plus notable l'obtention d'un code fonctionnel dans un langage aussi peu répandu. Modèle, hébergeur, harnais et langage : toute la chaîne est allemande.",
+  "tags": [
+   "dev",
+   "recherche",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyzdjx/hosted_kolibri_writing_nim_code/",
+  "date_source": "2026-10-06T10:44:19+00:00",
+  "date_redac": "2026-10-06T11:22:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 678,
+   "sortie": 585
+  }
+ },
+ {
+  "id": "2bcd094806a1b2e5",
+  "slug": "un-fork-de-ninfer-atteint-400-tok-s-sur-qwen-3-8-flash-next-avec-une-r-2bcd09",
+  "titre": "Un fork de NInfer atteint 400 tok/s sur Qwen 3.8 Flash Next avec une RTX6000",
+  "resume": "Un développeur partage sur r/LocalLLaMA son fork de NInfer, un moteur d'inférence d'abord pensé pour les RTX 5090 de 32 Go. Sa version ajoute le support de Qwen 3.8 Flash Next et des cartes RTX6000 de 96 Go, avec un débit annoncé de 400 tokens par seconde en conditions idéales. Le passage du 16 bits au 8 bits apporte jusqu'à +39 % en décodage, mais coûte jusqu'à -12 % en prefill sur les courtes invites.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyz9av/ninfer6000_qwen_38_flash_next_400_tgs_13k_pps/",
+  "date_source": "2026-10-06T10:37:10+00:00",
+  "date_redac": "2026-10-06T11:22:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 959,
+   "sortie": 1265
+  }
+ },
+ {
+  "id": "f604cb69065f352c",
+  "slug": "mistral-le-ceo-affirme-qu-un-nouveau-modele-depasse-les-chinois-sur-ce-f604cb",
+  "titre": "Mistral : le CEO affirme qu'un nouveau modèle dépasse les chinois sur certains points",
+  "resume": "Sur le forum r/LocalLLaMA, un internaute relaie une déclaration du patron de Mistral selon laquelle un nouveau modèle de l'entreprise dépasse les modèles chinois sur certains points. La publication ne précise ni le nom du modèle concerné, ni les domaines visés, ni les benchmarks utilisés. Aucune source directe de la déclaration n'est fournie dans le message.",
+  "tags": [
+   "mistral",
+   "deepseek",
+   "business"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyz1y6/mistral_ceo_says_new_ai_model_beats_chinese_ones/",
+  "date_source": "2026-10-06T10:24:42+00:00",
+  "date_redac": "2026-10-06T11:22:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 622,
+   "sortie": 864
+  }
+ },
+ {
+  "id": "73450cd7713edeb5",
+  "slug": "betty-un-correcteur-local-base-sur-qwen3-5-4b-pour-manuscrits-de-roman-73450c",
+  "titre": "Betty, un correcteur local basé sur Qwen3.5 4B pour manuscrits de romans",
+  "resume": "Un data scientist qui auto-édite ses romans de fantasy a créé Betty, un correcteur qui fait tourner Qwen3.5 4B en local sur des manuscrits entiers, jusqu'à 120 000 mots. L'outil se veut gratuit et entièrement hors ligne, alors que les auteurs se méfient des entreprises d'IA. Premier défi rencontré : le découpage du texte. L'approche est testée sur des erreurs volontairement insérées dans cinq langues.",
+  "tags": [
+   "dev",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyyow7/fully_local_copyediting_app_for_booklength/",
+  "date_source": "2026-10-06T10:02:19+00:00",
+  "date_redac": "2026-10-06T11:22:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 819,
+   "sortie": 1300
+  }
+ },
+ {
   "id": "70baf53f48e37345",
   "slug": "jours-flash-prime-quatre-aspirateurs-dreame-de-299-a-1-099-70baf5",
   "titre": "Jours Flash Prime : quatre aspirateurs Dreame de 299 à 1 099 €",

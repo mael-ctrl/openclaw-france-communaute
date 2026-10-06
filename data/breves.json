@@ -1,5 +1,68 @@
 [
  {
+  "id": "0cc684f017d08e76",
+  "slug": "un-utilisateur-affirme-avoir-vide-98-du-kv-cache-sans-que-le-modele-ec-0cc684",
+  "titre": "Un utilisateur affirme avoir vidé 98 % du KV cache sans que le modèle échoue à RULER",
+  "resume": "Sur r/LocalLLaMA, un utilisateur affirme avoir appliqué un « forget » à 98 % du KV cache de son modèle, qui a malgré tout réussi le benchmark RULER. Il assure que le résultat est bien réel, tout en précisant qu'il ne faut pas le croire sur parole. Aucune vérification indépendante n'accompagne la publication.",
+  "tags": [
+   "recherche",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyqjsc/i_cast_forget_on_98_of_the_kv_cache_the_model/",
+  "date_source": "2026-10-06T01:52:04+00:00",
+  "date_redac": "2026-10-06T02:27:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 641,
+   "sortie": 738
+  }
+ },
+ {
+  "id": "45b036a25cc51655",
+  "slug": "une-quantization-mlx-de-swift-1-5-calibree-pour-le-mac-studio-m5-ultra-45b036",
+  "titre": "Une quantization MLX de Swift 1.5 calibrée pour le Mac Studio M5 Ultra 96 Go",
+  "resume": "Un utilisateur de r/LocalLLaMA a publié sur Hugging Face un pack MLX en 4,7 bpw de Swift 1.5 d'UkisAI, calibré pour le Mac Studio 96 Go équipé d'une puce M5 Ultra. Sur sa machine et avec mlx-serve 26.10.1, le préfill atteint 3 191 tok/s sur un prompt de 25k tokens et 2 928 tok/s sur 95k, contre 1 427 et 1 307 tok/s pour le pack llama.cpp IQ3_XXS. En décodage, il mesure 113,7 tok/s après un prompt de 4k et 81,1 tok/s après 95k, contre 62,7 et 44,7 tok/s côté llama.cpp. L'accord top-1 avec Swift BF16 est de 91,0 % pour le pack MLX contre 84,1 %, mesuré sur 680 positions de validation.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyqgl6/swift15_qwen38_flash_next_tailored_for_the_96gb/",
+  "date_source": "2026-10-06T01:47:42+00:00",
+  "date_redac": "2026-10-06T02:27:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 898,
+   "sortie": 584
+  }
+ },
+ {
+  "id": "5927966ef8bee8a2",
+  "slug": "qwen-3-8-27b-des-benchmarks-brillants-un-usage-reel-en-retrait-592796",
+  "titre": "Qwen 3.8 27b : des benchmarks brillants, un usage réel en retrait",
+  "resume": "Un développeur partage son expérience de Qwen 3.8 27b sur 32 Go de VRAM, avec la version Q6 d'Unsloth et OpenCode. Sur de petites tâches, le modèle tient la route, à 30-40 tokens/s en décodage. Mais dès qu'une requête demande de la nuance, il s'enferme dans des boucles de réflexion et peut consommer tout son contexte de 95k sans rien produire. L'écart entre le discours public et l'efficacité réelle interroge.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyp4n2/qwen_38_27b_just_feels_ok/",
+  "date_source": "2026-10-06T00:41:42+00:00",
+  "date_redac": "2026-10-06T02:27:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 820,
+   "sortie": 1015
+  }
+ },
+ {
   "id": "9951c931b562a9dc",
   "slug": "kolibri-1-joue-a-breakout-sans-fine-tuning-a-25-ms-par-decision-9951c9",
   "titre": "Kolibri-1 joue à Breakout sans fine-tuning, à 25 ms par décision",
@@ -102,6 +165,27 @@
    "modele": "deepseek-flash",
    "entree": 665,
    "sortie": 429
+  }
+ },
+ {
+  "id": "abc7bc394acb396a",
+  "slug": "une-arene-de-vote-compare-les-agents-ia-qui-modelisent-dans-blender-abc7bc",
+  "titre": "Une arène de vote compare les agents IA qui modélisent dans Blender",
+  "resume": "Un développeur a mis en ligne une arène A/B en aveugle où des agents IA construisent des objets dans Blender et où le public vote pour le meilleur résultat : plus de 1 200 exécutions ont été menées. L'expérience, inspirée de minebench.ai dont les prompts initiaux sont repris, ne compare pas seulement les modèles mais aussi les harnais : pi, opencode, omp, codex, Claude Code et dsh, avec des agents qui écrivent des scripts directement dans Blender face à d'autres équipés d'un MCP. Les niveaux de raisonnement sont aussi couverts, pour identifier les bons compromis entre coût et temps. Toutes les combinaisons ne sont pas testées pour chaque prompt, et les contributions extérieures sont acceptées pour combler les manques ; un second mode, avec image de référence, vient d'être ajouté.",
+  "tags": [
+   "agents",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyklnj/i_ran_1200_blender_modeling_runs_across_llms_and/",
+  "date_source": "2026-10-05T21:18:05+00:00",
+  "date_redac": "2026-10-06T02:27:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 820,
+   "sortie": 519
   }
  },
  {

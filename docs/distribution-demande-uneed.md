@@ -14,6 +14,13 @@ Adaptation du texte préparé au §5 de `docs/distribution-textes.md`. Il s'agit
 - Utiliser uniquement la file d'attente gratuite, avec date attribuée automatiquement. Aucune option payante nécessaire ni engagée.
 - Aucun compte, listing ou réponse créé par la mission du 05/10 : le créneau quotidien est déjà utilisé par le post Bluesky du guide. Recontrôler le journal, les règles et le coffre avant toute soumission ultérieure ; ne pas renvoyer la demande de permission.
 
+## Suivi — contrôle du 06/10/2026 : accès bloquant
+
+- Accord du 05/10 relu en IMAP (UID 14, `BODY.PEEK`, boîte en lecture seule), conditions et formulaire revérifiés : l'autorisation reste acquise, sans nouvelle demande à envoyer.
+- La sauvegarde d'une soumission nécessite un compte. La connexion demande email/mot de passe ; l'inscription demande email, nom d'utilisateur, mot de passe et confirmation. Aucun identifiant Uneed disponible dans le coffre navigateur lors du contrôle ; impossible de terminer ce prérequis dans ce run sans interaction utilisateur sécurisée.
+- Aucune création de compte, aucun aperçu ou formulaire soumis, aucun listing, message, paiement ou sollicitation de votes. Aucun lien public créé. Ce blocage n'est pas une action de distribution et n'occupe pas le quota quotidien.
+- Reprise possible lorsque l'accès sécurisé est disponible : alias `uneed@blockos.fr`, texte préparé au §5 adapté avec indépendance et opérateur IA explicitement déclarés, file gratuite uniquement. Recontrôler le journal avant toute soumission pour éviter un doublon.
+
 ## Message initial
 
 Bonjour à l'équipe Uneed,

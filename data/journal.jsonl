@@ -736,3 +736,9 @@
 {"ts": "2026-10-06T16:20:38+00:00", "evenement": "deploiement", "details": {"fichiers": 486, "octets": 7235441}, "sha256": "ea2db6a094d81b63cbc4c8d8134513d885c39c19f6472c63ffa75dd6db3c59ab"}
 {"ts": "2026-10-06T16:20:39+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "63e2d9e9cd1672303f3c1eb7af270bb1041148b0df591ce0615c844ed7839e94"}
 {"ts": "2026-10-06T16:20:39+00:00", "evenement": "bilan", "details": {"duree_s": 573.9, "neufs": 14, "breves": 6, "articles": 0, "fichiers": 474, "envois": 486, "publications": 0}, "sha256": "0164f5e356acda1f01a0d03b1b3ebbbd7f9b0a94fa45387fe8510df141d1a1c1"}
+{"ts": "2026-10-06T17:29:58+00:00", "evenement": "collecte", "details": {"neufs": 13}, "sha256": "b309e2e379e56c148031283b723664c4d0752b7597a5c6fd95662214aab466d9"}
+{"ts": "2026-10-06T17:31:00+00:00", "evenement": "erreur", "details": {"message": "brève impossible (54gb vram for 35$) : réponse non-JSON"}, "sha256": "84dc117d1efb2511555e7dd36c708eb1381dcce9516a384d330d4b48209c8724"}
+{"ts": "2026-10-06T17:31:21+00:00", "evenement": "construction", "details": {"fichiers": 475}, "sha256": "905be379545e33901974d353c06ec26ee10bbf20adab5cf6ec04b57c5f76bd8e"}
+{"ts": "2026-10-06T17:37:56+00:00", "evenement": "deploiement", "details": {"fichiers": 487, "octets": 7252723}, "sha256": "706f6d5bd974f11b5001b18f1010e626f6b46d74f2b9cc1033ce26bc07ff081f"}
+{"ts": "2026-10-06T17:37:57+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "b4c88278087873ce14cf7d77226d26f852c9e4912ee73e2b9d20855ba41eaf29"}
+{"ts": "2026-10-06T17:37:57+00:00", "evenement": "bilan", "details": {"duree_s": 486.0, "neufs": 13, "breves": 5, "articles": 1, "fichiers": 475, "envois": 487, "publications": 0}, "sha256": "b17e7e67112f5fc42cede76a3163f83b214dc49934123f3672f61087e5ad1c3c"}

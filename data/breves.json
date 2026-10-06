@@ -1,5 +1,110 @@
 [
  {
+  "id": "e1454d999625823b",
+  "slug": "llama-cpp-une-pr-ajoute-le-support-des-k2-horizon-d-ifm-dense-et-mova-e1454d",
+  "titre": "llama.cpp : une PR ajoute le support des K2 Horizon d'IFM, dense et MoVA",
+  "resume": "La pull request #29535, portée par bitalov, propose d'ajouter à llama.cpp le support des modèles K2 Horizon d'IFM, en variantes dense et MoVA. Les poids sont publiés sur Hugging Face en GGUF, du 0,9B au 32B, auxquels s'ajoute un MoVA-36B-A4B. La famille K2 Horizon avait déjà été discutée sur r/LocalLLaMA le mois dernier.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz7pha/model_add_k2_horizon_dense_and_mova_support_by/",
+  "date_source": "2026-10-06T16:52:57+00:00",
+  "date_redac": "2026-10-06T17:30:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 805,
+   "sortie": 974
+  }
+ },
+ {
+  "id": "89e2ba8a51a59b1e",
+  "slug": "google-devoile-embeddinggemma-2-un-modele-d-embeddings-multimodaux-ouv-89e2ba",
+  "titre": "Google dévoile EmbeddingGemma 2, un modèle d'embeddings multimodaux ouvert",
+  "resume": "Google DeepMind publie EmbeddingGemma 2, un modèle d'embeddings multimodal ouvert : texte (code inclus), images, vidéo et audio, seuls ou combinés, sont projetés dans un espace vectoriel unifié de 768 dimensions. Il totalise 740 M de paramètres : 270 M pour le texte, plus des encodeurs vision (170 M) et audio (300 M). Conçu pour tourner sur mobile ou ordinateur portable, il cible la recherche et le RAG en local.",
+  "tags": [
+   "gemini",
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz7faa/introducing_embeddinggemma_2_a_bestinclass_open/",
+  "date_source": "2026-10-06T16:42:13+00:00",
+  "date_redac": "2026-10-06T17:30:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 801,
+   "sortie": 1135
+  }
+ },
+ {
+  "id": "89d5ce6b899b951b",
+  "slug": "avec-l-ia-la-definition-de-enregistrement-devient-floue-89d5ce",
+  "titre": "Avec l'IA, la définition de « enregistrement » devient floue",
+  "resume": "Avec le matériel dopé à l'IA, les entreprises tech poussent à redéfinir ce qui constitue ou non un enregistrement. Pendant la majeure partie de l'histoire du gadget, il était raisonnable de penser qu'un appareil doté d'un micro ou d'une caméra enregistre, ou pas : allumé ou éteint, sans grande zone grise.",
+  "tags": [
+   "matériel",
+   "société",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/column/1005697/we-cant-just-change-the-definition-of-recording",
+  "date_source": "2026-10-06T16:29:44+00:00",
+  "date_redac": "2026-10-06T17:30:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 690,
+   "sortie": 859
+  }
+ },
+ {
+  "id": "4138be4da9fb7521",
+  "slug": "embeddinggemma-2-de-google-tourne-dans-le-navigateur-via-webgpu-4138be",
+  "titre": "EmbeddingGemma 2 de Google tourne dans le navigateur via WebGPU",
+  "resume": "Le modèle EmbeddingGemma 2 de Google est disponible sur Hugging Face, et une démo portée par webml-community le fait tourner directement dans le navigateur grâce à WebGPU. Tout s'exécute en local, sans serveur distant. Le partage vient de r/LocalLLaMA, un subreddit où l'exécution de modèles sur sa propre machine est suivie de près.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz6uxn/embeddinggemma_2_running_locally_inbrowser_on/",
+  "date_source": "2026-10-06T16:20:11+00:00",
+  "date_redac": "2026-10-06T17:30:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 690,
+   "sortie": 834
+  }
+ },
+ {
+  "id": "d3649fd2edd84ccf",
+  "slug": "petits-modeles-de-raisonnement-que-faut-il-vraiment-mesurer-d3649f",
+  "titre": "Petits modèles de raisonnement : que faut-il vraiment mesurer ?",
+  "resume": "Sur r/LocalLLaMA, un fil explore l'intérêt des petits modèles de raisonnement (SRM). Il part d'un échange entre Ben Lorica, conseiller chez Databricks, et Zuzanna Stamirowska (Pathway) sur l'IA spécialisée, de plus en plus facile à construire. Le résultat de Pathway sur ARC-AGI-1 est cité comme un cas de petit modèle atteignant la frontière de Pareto coût-précision. La question posée : que faut-il réellement mesurer ?",
+  "tags": [
+   "recherche",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wz6nxm/are_small_reasoning_models_the_next_big_shift/",
+  "date_source": "2026-10-06T16:12:30+00:00",
+  "date_redac": "2026-10-06T17:30:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 829,
+   "sortie": 1181
+  }
+ },
+ {
   "id": "42637fec4d3e91e0",
   "slug": "ai-act-ce-qui-s-applique-deja-aux-entreprises-francaises-42637f",
   "titre": "AI Act : ce qui s'applique déjà aux entreprises françaises",

@@ -339,30 +339,49 @@ def page_accueil(breves, articles, stats, journal_entrees):
 
 # ---------------------------------------------------------------- actus / articles
 
-def page_actus(breves):
+def page_actus(breves, numero=1):
+    # Même périmètre que les pages individuelles construites ci-dessous.
+    breves = breves[:400]
+    total_pages = max(1, (len(breves) + 99) // 100)
+    selection = breves[(numero - 1) * 100:numero * 100]
+    chemin = "/actus/" if numero == 1 else f"/actus/page/{numero}/"
+    titre = "Le fil des actus" + (f" — page {numero}" if numero > 1 else "")
+    pagination = ""
+    if total_pages > 1:
+        precedent = "/actus/" if numero == 2 else f"/actus/page/{numero - 1}/"
+        liens = (f'<a class="bouton fantome" rel="prev" href="{precedent}">← Plus récentes</a>'
+                 if numero > 1 else "")
+        liens += f'<span aria-current="page">Page {numero} sur {total_pages}</span>'
+        if numero < total_pages:
+            liens += f'<a class="bouton fantome" rel="next" href="/actus/page/{numero + 1}/">Plus anciennes →</a>'
+        pagination = f'<nav class="hero-actions" aria-label="Pagination des actus">{liens}</nav>'
     tags_vues, chips = [], ""
-    for b in breves:
+    for b in selection:
         for t in b.get("tags") or []:
             if t not in tags_vues:
                 tags_vues.append(t)
     for t in sorted(tags_vues)[:14]:
         chips += f'<button class="filtre" data-tag="{ech(t)}">{ech(t)}</button>'
-    cartes = "".join(carte_breve(b) for b in breves[:100])
+    cartes = "".join(carte_breve(b) for b in selection)
     contenu = f"""
 <section class="section">
   <div class="enveloppe">
     <p class="oeil">// ACTUS</p>
-    <h1 class="titre-page">Le fil des actus</h1>
-    <p class="intro-page">Tout ce que la machine a lu et réécrit, du plus récent au plus ancien. Les brèves citent leur source d'origine — cliquez, vérifiez, comparez.</p>
+    <h1 class="titre-page">{titre}</h1>
+    <p class="intro-page">Les brèves disponibles, du plus récent au plus ancien, par pages de 100. Elles citent leur source d'origine — cliquez, vérifiez, comparez.</p>
     <div class="barre-outils">
-      <input type="search" id="recherche" placeholder="Rechercher dans les actus…" aria-label="Rechercher">
+      <input type="search" id="recherche" placeholder="Rechercher sur cette page…" aria-label="Rechercher sur cette page">
       <div class="filtres" id="filtres"><button class="filtre actif" data-tag="">Tout</button>{chips}</div>
     </div>
     <div class="grille" id="liste-actus">{cartes or '<p class="vide">Rien pour le moment — repassez dans quelques minutes.</p>'}</div>
-    <p class="vide" id="aucun-resultat" hidden>Aucun résultat. La prochaine fournée arrive bientôt.</p>
+    <p class="vide" id="aucun-resultat" hidden>Aucun résultat sur cette page. Essayez une autre page du fil.</p>
+    {pagination}
   </div>
 </section>"""
-    return page("Le fil des actus", "Toute l'actualité IA collectée et réécrite en français par Le Crabe, la rédactrice IA de La Communauté.", contenu, "/actus/", section="actus")
+    description = "L'actualité IA collectée et réécrite en français par Le Crabe, la rédactrice IA de La Communauté."
+    if numero > 1:
+        description += f" Page {numero} : les brèves plus anciennes."
+    return page(titre, description, contenu, chemin, section="actus")
 
 
 def page_articles(articles):
@@ -583,6 +602,8 @@ def construire():
 
     ecrire("index.html", page_accueil(breves, articles, stats, entrees_journal))
     ecrire("actus/index.html", page_actus(breves))
+    for numero in range(2, (len(breves[:400]) + 99) // 100 + 1):
+        ecrire(f"actus/page/{numero}/index.html", page_actus(breves, numero))
     ecrire("articles/index.html", page_articles(articles))
     for b in breves[:400]:
         ecrire(f"breves/{b['slug']}/index.html", page_breve(b, breves))

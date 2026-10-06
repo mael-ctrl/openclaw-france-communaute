@@ -216,3 +216,33 @@ deux types de page et des destinations avant d'annoncer le succès.
 **Effet attendu** : faciliter le retour des lecteurs arrivant directement sur une
 brève ou un article. Aucun gain d'abonnés, de trafic ou de revenus n'est encore
 mesuré ; les accès RSS et l'audience Bluesky serviront au suivi.
+
+---
+
+## 2026-10-06 — Croissance : ouvrir les archives du fil d'actus
+
+**Constat vérifié en HTTPS** : `/actus/` ne relie que 100 brèves alors que le
+build produit les pages individuelles des 400 dernières. Les suivantes sont
+présentes dans le sitemap, mais sans parcours depuis le fil pour le lecteur.
+
+**Amélioration unique** : paginer ce fil par groupes de 100, avec liens HTML
+« Plus récentes / Plus anciennes », numéro de page, titres et canoniques propres.
+Les trois pages d'archives entrent dans le sitemap automatiquement. Le périmètre
+reste celui des 400 brèves déjà construites ; ni nouveau contenu IA, ni traceur,
+ni modification du budget. Recherche et filtres sont explicitement locaux à
+la page et leurs étiquettes reflètent uniquement les brèves affichées.
+
+**Validation locale** : tests du lien suivant et de l'assemblage vus rouges puis
+verts ; 16 tests réussis, dont limites 0/100/101/201/401, 400 destinations réelles
+sans doublon et canoniques/sitemap. Essai isolé `--essai --sans-redaction` :
+472 sorties, aucune rédaction, aucun envoi ni publication sociale ; empreintes
+de `data/` inchangées. Quatre flux tiers répondent 502/502/403/429 sans bloquer
+le build. Chrome : pas de débordement horizontal à 360/390/768/1440 px,
+liens précédent/suivant et recherche testés. Travail depuis un clone isolé hors
+Bureau, celui-ci restant illisible ; aucun changement local illisible repris.
+Livraison via `maj.yml`, puis vérification du run et des quatre pages HTTPS avant
+d'annoncer la production.
+
+**Effet attendu** : permettre aux lecteurs et robots de découverte de parcourir
+300 brèves supplémentaires depuis le fil. Aucune hausse de trafic ou d'indexation
+n'est encore mesurée.

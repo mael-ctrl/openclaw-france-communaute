@@ -1,5 +1,108 @@
 [
  {
+  "id": "905ec7d905e20883",
+  "slug": "localmind-fait-tourner-un-moe-de-37-go-dans-un-onglet-sur-un-mac-de-24-905ec7",
+  "titre": "LocalMind fait tourner un MoE de 37 Go dans un onglet, sur un Mac de 24 Go",
+  "resume": "LocalMind, page web statique sans serveur ni installation, exécute des modèles via WebGPU. Deux moteurs streamant les poids d'experts depuis le disque permettent à un onglet de dépasser la RAM : un Gemma 4 26B-A4B et un Qwen3.6 MoE de 37 Go tournent sur un MacBook M4 Pro de 24 Go, avec une sortie identique à llama.cpp. Poids denses, routeurs et KV cache vont au GPU, les experts routés restent sur disque.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 4,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyvo42/gemma_4_26ba4b_and_a_37_gb_qwen36_moe_running_in/",
+  "date_source": "2026-10-06T06:41:26+00:00",
+  "date_redac": "2026-10-06T06:59:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 888,
+   "sortie": 1472
+  }
+ },
+ {
+  "id": "a39bece828f838ae",
+  "slug": "reflection-annonce-la-sortie-d-un-modele-open-weight-beam-501b-a23b-a39bec",
+  "titre": "Reflection annonce la sortie d'un modèle open-weight, Beam 501B-A23B",
+  "resume": "Reflection a publié un billet de blog et un tweet pour annoncer la sortie, ce mois-ci, d'un modèle open-weight baptisé Beam 501B-A23B. L'information a été relayée sur le forum r/LocalLLaMA. Les liens partagés n'apportent pour l'instant aucun détail technique sur le modèle.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyvkpp/reflections_beam_501ba23b_openweight_model/",
+  "date_source": "2026-10-06T06:35:20+00:00",
+  "date_redac": "2026-10-06T07:00:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 651,
+   "sortie": 867
+  }
+ },
+ {
+  "id": "70ec43c276bc82e3",
+  "slug": "overclocker-la-ddr5-pour-accelerer-prefill-et-decode-des-modeles-moe-70ec43",
+  "titre": "Overclocker la DDR5 pour accélérer prefill et decode des modèles MoE",
+  "resume": "Un utilisateur de llama.cpp (backend SYCL personnalisé sur Intel B70 32 Go) a overclocké sa DDR5 de 3600 à 4800 MHz sur un AMD 7950X avec 128 Go en 4x dual-rank. Gain mesuré : 36 % de bande passante mémoire, environ 10 % en prefill et 5 % en génération. Les gains restent modestes et concernent surtout les modèles MoE qui ne tiennent pas en VRAM, le prefill progressant avec la profondeur du contexte.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyuvul/overclocking_ddr5_for_faster_moe_prefill_and/",
+  "date_source": "2026-10-06T05:51:42+00:00",
+  "date_redac": "2026-10-06T07:00:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 908,
+   "sortie": 833
+  }
+ },
+ {
+  "id": "4212e1a2f44b0522",
+  "slug": "glm-5-3-flash-plutot-que-des-modeles-frontiere-sur-une-base-de-code-ma-4212e1",
+  "titre": "GLM-5.3 Flash plutôt que des modèles frontière sur une base de code massive",
+  "resume": "Dans son entreprise, GLM-5.3 Flash est utilisé en interne pour l'ingénierie logicielle, sur des projets totalisant des millions de lignes de code, sans recourir aux modèles frontière. Le modèle assure le codage quotidien, avec une grande rapidité qui ne semble pas se payer en capacité. Il s'en sort bien sur les gros dépôts, l'exploration de code, l'implémentation de fonctionnalités et le refactoring.",
+  "tags": [
+   "dev",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyuqha/were_using_glm53_flash_instead_of_frontier_models/",
+  "date_source": "2026-10-06T05:42:30+00:00",
+  "date_redac": "2026-10-06T07:00:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 826,
+   "sortie": 1466
+  }
+ },
+ {
+  "id": "e59399cf975ab075",
+  "slug": "unsloth-met-a-jour-qwen3-8-flash-next-gguf-pour-llama-cpp-e59399",
+  "titre": "Unsloth met à jour Qwen3.8-Flash-Next-GGUF pour llama.cpp",
+  "resume": "Le dépôt Hugging Face unsloth/Qwen3.8-Flash-Next-GGUF est en cours de mise à jour pour fonctionner avec llama.cpp. L'objectif affiché est de régler le problème de la coexistence de deux versions GGUF différentes de Qwen Flash Next. Pour les utilisateurs de modèles quantifiés en local, cela devrait supprimer une source de confusion sur la version à télécharger.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wyuoht/unslothqwen38flashnextgguf_is_being_updated/",
+  "date_source": "2026-10-06T05:39:02+00:00",
+  "date_redac": "2026-10-06T07:00:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 676,
+   "sortie": 278
+  }
+ },
+ {
   "id": "ec596c8c36612a21",
   "slug": "grok-musk-renomme-spacexai-en-spacexsi-apres-le-decret-de-donald-trump-ec596c",
   "titre": "Grok : Musk renomme SpaceXAI en SpaceXSI après le décret de Donald Trump",

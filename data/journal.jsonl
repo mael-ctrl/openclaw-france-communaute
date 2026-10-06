@@ -690,3 +690,10 @@
 {"ts": "2026-10-06T05:26:09+00:00", "evenement": "deploiement", "details": {"fichiers": 479, "octets": 6722956}, "sha256": "9a925d80f404aae97f74d168d2e20da0f14295b40e06071356ffc2aed191410a"}
 {"ts": "2026-10-06T05:26:10+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "9071b3ae916a8adb314a41904c318a7850d3d36b51e9c1e1491ff4ceccee19fd"}
 {"ts": "2026-10-06T05:26:10+00:00", "evenement": "bilan", "details": {"duree_s": 584.7, "neufs": 3, "breves": 3, "articles": 1, "fichiers": 467, "envois": 479, "publications": 0}, "sha256": "160d20434346f6d4f12720234a9996b1dd2898eb03bdcffcd8e26f4b9dafaf7e"}
+{"ts": "2026-10-06T06:59:45+00:00", "evenement": "collecte", "details": {"neufs": 14}, "sha256": "57128dd0e4c41845f837c62e06efab6943712001a74cad9617377a8f854e70d4"}
+{"ts": "2026-10-06T07:00:22+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Why 38% of AI Agent container escapes didn't need kernel 0-d) : réponse non-JSON"}, "sha256": "af2fd30e893910b9f73e45a31c68423d57f1d25f351909b5ab5c1cf463db55b3"}
+{"ts": "2026-10-06T07:01:03+00:00", "evenement": "erreur", "details": {"message": "article impossible : Expecting ',' delimiter: line 8 column 6 (char 1275)"}, "sha256": "9187fb72ac3e2d3c8e2197ebe51ee46abdaef72264d0d5554d85275fb34d5296"}
+{"ts": "2026-10-06T07:01:03+00:00", "evenement": "construction", "details": {"fichiers": 467}, "sha256": "3d6d4823adb487ff3c7a78b92ed41fdbc6818cf8a6a9737164637e977ba5f4e7"}
+{"ts": "2026-10-06T07:07:25+00:00", "evenement": "deploiement", "details": {"fichiers": 479, "octets": 6739374}, "sha256": "7b95fb0190c4ac0a27149fb442be0b9ebe5f61351168736be4c0f4c528204817"}
+{"ts": "2026-10-06T07:07:25+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "72b8b88dda1f1e0853ee92824ef81fecb7de06082693d2463b5f000fab582464"}
+{"ts": "2026-10-06T07:07:25+00:00", "evenement": "bilan", "details": {"duree_s": 490.9, "neufs": 14, "breves": 5, "articles": 0, "fichiers": 467, "envois": 479, "publications": 0}, "sha256": "354e6e76e36788aba2444808a341afb48d1fea4006ce03971cfd24d556fd6cbd"}

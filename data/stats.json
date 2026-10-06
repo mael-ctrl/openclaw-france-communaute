@@ -1,26 +1,18 @@
 {
- "runs": 121,
- "items_collectes": 933,
- "breves_publiees": 409,
+ "runs": 122,
+ "items_collectes": 947,
+ "breves_publiees": 414,
  "articles_publies": 52,
- "tokens_entree": 383518,
- "tokens_sortie": 532497,
+ "tokens_entree": 387467,
+ "tokens_sortie": 537413,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-06T05:17:06+00:00",
+ "dernier_run": "2026-10-06T07:01:03+00:00",
  "solde": {
   "total": "87.56",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-05T09:47:34+00:00",
-   "message": "brève impossible (CAC 40 : ChatGPT et Gemini restituent mal quatre chiffres su) : réponse non-JSON"
-  },
-  {
-   "ts": "2026-10-05T14:08:37+00:00",
-   "message": "brève impossible (ItoTTS: two natural English voices in 4.89 MB for a $5 ESP32) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-05T16:46:53+00:00",
    "message": "brève impossible (Speakrail - a low-latency fully-local voice assistant that r) : réponse non-JSON"
@@ -32,6 +24,14 @@
   {
    "ts": "2026-10-06T01:29:05+00:00",
    "message": "brève impossible (Quoting Felix Rieseberg) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-06T07:00:22+00:00",
+   "message": "brève impossible (Why 38% of AI Agent container escapes didn't need kernel 0-d) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-06T07:01:03+00:00",
+   "message": "article impossible : Expecting ',' delimiter: line 8 column 6 (char 1275)"
   }
  ],
  "solde_initial": "91.66",
@@ -507,6 +507,10 @@
   ],
   [
    "2026-10-06T05:16:37+00:00",
+   "87.56"
+  ],
+  [
+   "2026-10-06T06:59:46+00:00",
    "87.56"
   ]
  ],

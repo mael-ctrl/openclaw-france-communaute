@@ -1,0 +1,41 @@
+{
+ "slug": "embeddinggemma-2-mistral-large-4-et-les-boucles-cachees-de-g-903435",
+ "titre": "EmbeddingGemma 2, Mistral Large 4 et les boucles cachées de GPT-6",
+ "chapo": "Google DeepMind ouvre EmbeddingGemma 2, un modèle d'embedding multimodal de 740 millions de paramètres pensé pour tourner en local, sur mobile comme sur laptop. En Europe, Mistral met en aperçu Mistral Large 4 et ses 1 000 milliards de paramètres, tandis que Microsoft laisse échapper une confirmation sur les Looped Transformers de GPT-6.",
+ "html": "<h2 id=\"embeddinggemma-2-768-dimensions-pour-le-\">EmbeddingGemma 2 : 768 dimensions pour le texte, l'image, la vidéo et l'audio</h2>\n<p>Google DeepMind publie <strong>EmbeddingGemma 2</strong>, un modèle d'embedding multimodal open source. Sa particularité tient en une phrase : il projette dans un <strong>espace vectoriel unique de 768 dimensions</strong> du texte — code inclus —, des images, de la vidéo et de l'audio. Un même espace pour toutes les modalités, donc, plutôt qu'un modèle par type de contenu.</p>\n<p>Le gabarit reste modeste : <strong>740 millions de paramètres</strong> au total, répartis en 270 millions pour le texte, 170 millions pour la vision et 300 millions pour l'audio. La cible est explicitement le matériel grand public — mobiles et laptops — pour de la recherche, du RAG ou de la classification exécutés en local, sans dépendre d'une API distante.</p>\n<p>Le modèle s'appuie sur les avancées de <strong>Gemma 4</strong>. Google DeepMind ne donne pas d'indication sur la licence ni sur une date de disponibilité au-delà de la publication sur Hugging Face.</p>\n<h2 id=\"mistral-large-4-1-000-milliards-de-param\">Mistral Large 4 : 1 000 milliards de paramètres et un surnom</h2>\n<p>Mistral a ouvert le <strong>6 octobre</strong> l'aperçu de <strong>Mistral Large 4</strong>. Le chiffre donne le vertige : 1 000 milliards de paramètres, dont <strong>49 milliards actifs</strong> — ActuIA avance de son côté 1 050 milliards. Le laboratoire le présente comme le plus capable des modèles ouverts hors de Chine, et l'entraînement s'est fait sur son propre cluster de <strong>3 800 GPU NVIDIA Grace Blackwell</strong>.</p>\n<p>Les <strong>poids ouverts sont annoncés pour la fin du mois</strong>. En attendant, l'API n'expose que deux niveaux de raisonnement : « none » et « high ». Sur Artificial Analysis, le modèle score <strong>38</strong>, juste derrière DeepSeek 4.1 Flash, contre 9 pour Mistral Large 3 en décembre. Les mesures indépendantes confirment un rattrapage, et la cybersécurité s'impose comme argument commercial face aux modèles ouverts chinois.</p>\n<p>Sur r/LocalLLaMA, la blague a vite tourné : le nom retenu pour le modèle, « <strong>Chonky</strong> », amuse une communauté qui n'attendait pas tant d'autodérision de la part d'un laboratoire européen.</p>\n<h2 id=\"gpt-6-microsoft-confirme-les-looped-tran\">GPT-6 : Microsoft confirme les Looped Transformers, puis efface</h2>\n<p>Microsoft a confirmé, sur une <strong>page web publique</strong>, qu'OpenAI utilise des <strong>Looped Transformers</strong> dans la série GPT-6. La confirmation valide les informations du média The Information. La page a depuis été modifiée pour retirer ces éléments.</p>\n<p>Ce qui y figurait : <strong>GPT-6.1 Sol</strong> effectuerait <strong>deux passes d'inférence</strong>, avec une mention évoquant « au lieu de trois ». GPT-6 et GPT-6.1 reposeraient sur le <strong>même modèle de base pré-entraîné</strong>, mais avec un post-entraînement différent et une boucle en moins.</p>\n<p>La séquence est banale dans le secteur — une documentation interne se retrouve en ligne, puis disparaît — mais elle reste le seul point d'accès public documenté à l'architecture de la génération GPT-6.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dépêches, trois régimes de publicité. Un modèle d'embedding de 740 millions de paramètres qu'on télécharge et qu'on fait tourner sur son laptop ; un modèle de 1 000 milliards de paramètres dont les poids sont promis pour la fin du mois ; une architecture de frontier dont on ne connaît l'existence que par une page web supprimée depuis. La taille des modèles continue de grimper — la transparence sur leur fabrication, beaucoup moins.</p>",
+ "pivot": "903435241aa4f46a",
+ "tags": [
+  "mistral",
+  "openai",
+  "open-source",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz5va3/googleembeddinggemma2_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzginu/europe_rejoins_the_fight_with_chonky_mistral/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/mistral-large-4-ce-que-vaut-le-meilleur-modele-ouvert-hors-chine/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz00vv/microsoft_confirms_openai_has_been_using_looped/"
+  }
+ ],
+ "date": "2026-10-07T02:34:52+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1572,
+  "sortie": 4888
+ }
+}

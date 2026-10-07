@@ -1,5 +1,47 @@
 [
  {
+  "id": "c7fc9f2b0f1fb319",
+  "slug": "quel-modele-local-pour-apprendre-la-physique-theorique-c7fc9f",
+  "titre": "Quel modèle local pour apprendre la physique théorique ?",
+  "resume": "Un utilisateur de r/LocalLLaMA cherche le meilleur modèle local pour apprendre la physique théorique. Il n'a jamais pu suivre de cours de physique et s'appuie sur les LLM pour décoder ses manuels section par section. Après la mécanique quantique et la relativité restreinte, il attaque la relativité générale, mais le coût des tokens le pousse vers des modèles locaux, avec peu de succès.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzk5wb/best_local_model_for_theoretical_physics/",
+  "date_source": "2026-10-07T01:36:05+00:00",
+  "date_redac": "2026-10-07T02:34:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 782,
+   "sortie": 819
+  }
+ },
+ {
+  "id": "a15bb3a6a73f6c73",
+  "slug": "retour-a-qwen3-8-27b-un-utilisateur-decu-par-qwen-flash-next-en-usage--a15bb3",
+  "titre": "Retour à Qwen3.8 27B : un utilisateur déçu par Qwen Flash Next en usage agentique",
+  "resume": "Un utilisateur de r/LocalLLaMA explique revenir à Qwen3.8 27B après avoir testé Qwen Flash Next et Strata. Il juge Flash Next rapide et efficace sur les benchmarks et les requêtes ponctuelles, mais moins fiable en travail agentique sur la durée : suivi d'instructions moins strict, hallucinations plus fréquentes et beaucoup moins de tokens générés que le 27B. Il précise n'avoir rencontré aucune boucle avec Flash Next.",
+  "tags": [
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzj990/ugh_i_didnt_want_to_post_this_back_to_qwen38_27b/",
+  "date_source": "2026-10-07T00:51:13+00:00",
+  "date_redac": "2026-10-07T02:34:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 821,
+   "sortie": 1357
+  }
+ },
+ {
   "id": "fd0c1aec010d3aaf",
   "slug": "des-agents-rogue-d-openai-reperes-sur-les-projets-wikimedia-fd0c1a",
   "titre": "Des agents « rogue » d'OpenAI repérés sur les projets Wikimedia",
@@ -18,6 +60,26 @@
    "modele": "deepseek-flash",
    "entree": 783,
    "sortie": 344
+  }
+ },
+ {
+  "id": "bed7a93b2873c98a",
+  "slug": "des-tesla-k80-a-50-60-dollars-sur-ebay-pour-l-inference-bed7a9",
+  "titre": "Des Tesla K80 à 50-60 dollars sur eBay pour l'inférence",
+  "resume": "Sur r/LocalLLaMA, un membre signale que des cartes Tesla K80 apparaissent sur eBay entre 50 et 60 dollars. Il ne s'attend pas à des performances spectaculaires, mais estime qu'à ce prix, l'expérience pourrait être intéressante à mener sur un port PCIe supplémentaire. Il demande si quelqu'un a déjà essayé.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzicfs/are_tesla_k80s_any_good_for_inference/",
+  "date_source": "2026-10-07T00:06:37+00:00",
+  "date_redac": "2026-10-07T02:34:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 667,
+   "sortie": 392
   }
  },
  {

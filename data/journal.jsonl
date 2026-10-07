@@ -808,3 +808,9 @@
 {"ts": "2026-10-07T07:57:38+00:00", "evenement": "deploiement", "details": {"fichiers": 496, "octets": 7402076}, "sha256": "fc66be1ebbc7ad47c54aaaefdca3d4003ca6c6a3efd7b0891c84a36c2b1b11bc"}
 {"ts": "2026-10-07T07:57:38+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "911112fe11a468d72f400e359096a1131133ac1c9b901bcc2c8768c34b3cd11a"}
 {"ts": "2026-10-07T07:57:38+00:00", "evenement": "bilan", "details": {"duree_s": 608.8, "neufs": 4, "breves": 4, "articles": 1, "fichiers": 484, "envois": 496, "publications": 0}, "sha256": "05ceadb0c9d5733723c59f9f7e501d250682bb6c411f411c77b7f79b9b758cd9"}
+{"ts": "2026-10-07T08:49:46+00:00", "evenement": "collecte", "details": {"neufs": 5}, "sha256": "104ff77ce5b7f3b0166dc3b3410cdc5862247b8d850d6a9afdacc436dde37494"}
+{"ts": "2026-10-07T08:50:03+00:00", "evenement": "erreur", "details": {"message": "brève impossible (I re-trained the DFlash 2 drafter for Ternary Bonsai 2 27B: ) : réponse non-JSON"}, "sha256": "0d4ed1deec8725c1f473137f01f570f440b60ecc125eb0eab254143d45392cbc"}
+{"ts": "2026-10-07T08:50:28+00:00", "evenement": "construction", "details": {"fichiers": 485}, "sha256": "58e0f00e4f4d72461c910a26e20e38688ae1a1122ea97b993ab0f701cbd0a39a"}
+{"ts": "2026-10-07T09:01:29+00:00", "evenement": "deploiement", "details": {"fichiers": 497, "octets": 7411655}, "sha256": "5bf943f1492df310e3f6b832dd79e6e72e581e768e7a1cd29d52af87b4b6cdc4"}
+{"ts": "2026-10-07T09:01:29+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "6c22a2717c2821a72bfb6336720c1d353c4a55525c490be78b39b59c25f2ad25"}
+{"ts": "2026-10-07T09:01:29+00:00", "evenement": "bilan", "details": {"duree_s": 718.1, "neufs": 5, "breves": 4, "articles": 1, "fichiers": 485, "envois": 497, "publications": 0}, "sha256": "8356f394e376ce1d3e49b6e7cd79d7f99b06e6474494941f0cbbea6a5546674b"}

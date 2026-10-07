@@ -1,5 +1,131 @@
 [
  {
+  "id": "66a0d6060cdf818d",
+  "slug": "liquidai-presente-d1-3b-et-d1-omni-des-modeles-de-decision-pour-l-edge-66a0d6",
+  "titre": "LiquidAI présente d1-3B et d1-omni, des modèles de décision pour l'edge",
+  "resume": "LiquidAI présente d1-3B et d1-omni, deux modèles de décision taillés pour l'edge. d1-omni-600M, bâti sur LFM2.5-Encoder-350M, reçoit un état (texte ou JSON, images ou extrait vocal) et des questions nommées : il renvoie des réponses typées sans générer un seul token, lues dans la distribution sur les options. Vision et audio (30 s max) passent en une seule fois, avec les mêmes poids de tronc.",
+  "tags": [
+   "recherche",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x01zg6/d13b_and_d1omni_from_liquidai/",
+  "date_source": "2026-10-07T17:02:15+00:00",
+  "date_redac": "2026-10-07T17:28:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 904,
+   "sortie": 1323
+  }
+ },
+ {
+  "id": "c5fd704af4011904",
+  "slug": "liquidai-publie-deux-modeles-de-decision-d1-3b-et-d1-omni-600m-c5fd70",
+  "titre": "LiquidAI publie deux modèles de décision : d1-3B et d1-omni-600M",
+  "resume": "LiquidAI met en ligne deux nouveaux modèles de décision : d1-3B et d1-omni-600M, publiés sur Hugging Face. Les versions GGUF sont également disponibles, ce qui ouvre la voie à une exécution en local. Aucun nouveau modèle de la famille LFM n'accompagne cette sortie, un point relevé par l'auteur du post sur r/LocalLLaMA.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x01z7m/liquidai_release/",
+  "date_source": "2026-10-07T17:02:02+00:00",
+  "date_redac": "2026-10-07T17:28:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 667,
+   "sortie": 690
+  }
+ },
+ {
+  "id": "1b422aa834b24165",
+  "slug": "liquidai-d1-3b-un-depot-hugging-face-partage-sur-r-localllama-1b422a",
+  "titre": "LiquidAI/d1-3B : un dépôt Hugging Face partagé sur r/LocalLLaMA",
+  "resume": "Un membre du subreddit r/LocalLLaMA a partagé le 7 octobre 2026 la page Hugging Face du modèle LiquidAI/d1-3B. La publication se limite à ce lien : aucune fiche technique, aucun benchmark ni détail d'entraînement ne l'accompagne dans l'extrait disponible. Le nom du dépôt renvoie à LiquidAI, l'information complète restant à consulter directement sur la page Hugging Face.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x01xg3/liquidaid13b_hugging_face/",
+  "date_source": "2026-10-07T17:00:23+00:00",
+  "date_redac": "2026-10-07T17:28:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 610,
+   "sortie": 948
+  }
+ },
+ {
+  "id": "666c753a2f3d3a2b",
+  "slug": "meta-deploie-des-outils-ia-contre-les-pubs-menant-a-des-contenus-pedoc-666c75",
+  "titre": "Meta déploie des outils IA contre les pubs menant à des contenus pédocriminels",
+  "resume": "Meta déploie de nouveaux outils d'IA après avoir repéré, sur ses plateformes, des publicités d'apparence normale qui orientent les utilisateurs vers des contenus pédocriminels hébergés ailleurs. Le dispositif doit servir à détecter ces annonces trompeuses.",
+  "tags": [
+   "meta",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
+  "date_source": "2026-10-07T16:53:46+00:00",
+  "date_redac": "2026-10-07T17:28:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 636,
+   "sortie": 1257
+  }
+ },
+ {
+  "id": "6fd92ed3821fcfed",
+  "slug": "xpeng-lance-le-l03-en-france-sous-les-35-000-euros-face-au-tesla-model-6fd92e",
+  "titre": "Xpeng lance le L03 en France sous les 35 000 euros face au Tesla Model Y",
+  "resume": "Xpeng lance son L03 en France avec un tarif agressif, sous la barre des 35 000 euros. Ce SUV électrique coupé vient se positionner face au Tesla Model Y, best-seller du marché. Frandroid propose une réponse en vidéo à la question de savoir s'il peut le bousculer.",
+  "tags": [
+   "france",
+   "business",
+   "matériel"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/video/3276469_en-video-la-xpeng-l03-peut-il-faire-trembler-la-tesla-model-y",
+  "date_source": "2026-10-07T16:34:00+00:00",
+  "date_redac": "2026-10-07T17:28:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 664,
+   "sortie": 421
+  }
+ },
+ {
+  "id": "50ad9c91253da5f7",
+  "slug": "abonnements-ia-claude-offrirait-cinq-fois-plus-de-valeur-que-chatgpt-50ad9c",
+  "titre": "Abonnements IA : Claude offrirait cinq fois plus de valeur que ChatGPT",
+  "resume": "Dans une analyse publiée le 5 octobre 2026, le cabinet SemiAnalysis estime que les abonnements Claude d'Anthropic donnent environ cinq fois plus de valeur que ceux d'OpenAI sur les modèles de milieu de gamme. Le comparatif porte donc sur les offres de milieu de gamme des deux acteurs, Anthropic et OpenAI, et chiffre pour la première fois l'écart de valeur perçue entre les deux formules d'abonnement.",
+  "tags": [
+   "claude",
+   "chatgpt",
+   "openai",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3277077_abonnements-ia-claude-donnerait-cinq-fois-plus-que-chatgpt",
+  "date_source": "2026-10-07T16:24:35+00:00",
+  "date_redac": "2026-10-07T17:28:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 660,
+   "sortie": 527
+  }
+ },
+ {
   "id": "8d0ec4a5aa923d5c",
   "slug": "gemini-dans-gmail-google-preparerait-des-taches-confiees-en-autonomie-8d0ec4",
   "titre": "Gemini dans Gmail : Google préparerait des tâches confiées en autonomie",

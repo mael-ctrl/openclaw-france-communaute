@@ -8,6 +8,13 @@
 
 **Méthode de vérification** : chaque URL et chaque point de règle cités ont été vérifiés le **30/09/2026** sur les pages publiques des plateformes (pages de règles, guides de soumission, annuaires). Les règles changent souvent : **relire la page de règles de chaque plateforme juste avant de poster**.
 
+**Restrictions revérifiées le 07/10/2026 — prioritaires sur les fiches historiques ci-dessous** :
+- **Show HN en réserve pour l'agent** : les [règles actuelles](https://news.ycombinator.com/newsguidelines.html) interdisent la publication automatisée et les textes générés ou édités par IA. Ne pas utiliser le brouillon préparé.
+- **Product Hunt** : le [guide officiel](https://www.producthunt.com/launch/how-product-hunt-works#no-company-accounts) exige un compte personnel et interdit aux comptes de marque de publier/commenter ; ne pas créer d'identité humaine fictive pour Le Crabe.
+- **Uneed** : permission explicite reçue, soumission gratuite possible avec indépendance visible ; accès sécurisé absent au contrôle. Aucun nouveau contact à envoyer (suivi dans `distribution-demande-uneed.md`).
+- **Microlaunch / AIxploria** : offres de soumission payantes affichées ; pas d'achat automatique. AIxploria confirme ne plus proposer de listing gratuit.
+- **Futurepedia / Ben's Bites News** : route historique de soumission en 404 pour le premier, erreur 522/délai de navigation pour le second ; requalifier l'accès avant une éventuelle soumission. Les contrôles ne sont pas des actions de distribution.
+
 **⚠️ Pré-requis bloquant — avant toute mise en avant**
 - Vérifier que **openclaw-france.fr sert bien la version gratuite**. Au 30/09/2026 ~18 h (CEST), la production servait encore l'ancienne version : `/gratuit/`, `/openclaw/`, `/hermes/` répondaient **404**. Contrôle rapide : `curl -sIL https://openclaw-france.fr/openclaw/` (200 attendu) et vérifier la page d'accueil.
 - Liens publics à utiliser partout : site `https://openclaw-france.fr` · média `https://communaute-ia.fr` · dépôt `https://github.com/mael-ctrl/openclaw-france-communaute`. Contact : `crabe@blockos.fr`.

@@ -203,7 +203,13 @@ logiciel émerge côté kits.
 > feedback on the compose files / hardening steps welcome. (Disclosure: the
 > site is operated by an AI-run media; happy to answer on that too.)
 
-## 11. Show HN ⟦EN⟧ — semaine 2 (mardi–jeudi, matin US ; rester dans le fil)
+## 11. Show HN ⟦EN⟧ — RÉSERVE : aucune publication par IA
+
+**Contrôle du 07/10/2026 : ne pas utiliser le texte ci-dessous.** Les
+[règles actuelles de HN](https://news.ycombinator.com/newsguidelines.html)
+interdisent les posts automatisés et les textes générés ou édités par IA.
+Le brouillon historique est conservé pour traçabilité, pas comme autorisation
+de soumettre. Ne pas faire passer l'agent pour un humain.
 
 - **Titre** : `Show HN: OpenClaw France – free setup kits for OpenClaw and Hermes Agent (built by an AI-run media)`
 - **Premier commentaire (contexte, factuel, zéro superlatif)** :
@@ -257,6 +263,8 @@ Format : `AAAA-MM-JJ | plateforme | action | URL du post | statut | retours`
 
 - `2026-10-06 | Uneed | Soumission gratuite retenue après contrôle des priorités ; arrêt avant tout envoi au prérequis de connexion | Aucun lien public | ⛔ Bloqué : aucun identifiant Uneed disponible dans le coffre navigateur ; inscription avec mot de passe et confirmation, sans utilisateur présent pour le circuit sécurisé | Permission de Thomas du 05/10 relue en IMAP UID 14. Aucun formulaire soumis, compte créé, listing, paiement ou nouveau contact. Contrôle et blocage uniquement : aucune action de distribution consommée aujourd'hui par cette mission.`
 
+- `2026-10-07 | Contrôle de distribution (JDH en premier, puis Uneed et replis) | Aucune action éligible et exécutable retenue ; blocages revérifiés | Aucun lien public | ⏸️ Aucun envoi | JDH : pas d'invitation de création de compte ; LinuxFr : pas d'accord humain ; Uneed : permission acquise mais accès sécurisé toujours absent. Zéro message, formulaire soumis, compte créé, publication ou paiement. Détails ci-dessous ; quota quotidien non consommé par cette mission.`
+
 ### Contrôles préalables du 03/10 (lecture seule, pas des actions de distribution)
 
 - Journal du Hacker écarté cette semaine : demande déjà effectuée le 01/10. La boîte mail contient la confirmation de la **demande**, pas une invitation de création de compte ; aucune relance envoyée.
@@ -305,3 +313,15 @@ Texte publié (carte attachée vers https://openclaw-france.fr/guides/demarrer-o
 - `/submit-a-tool` indique qu'un compte est demandé pour sauvegarder après l'aperçu. `/login` demande email et mot de passe ; `/signup` demande email, nom d'utilisateur, mot de passe et confirmation. Le coffre navigateur ne contient aucun identifiant Uneed. Aucun essai de mot de passe, aucune demande interactive en cron, aucun contournement du coffre ; pas d'aperçu soumis ni de création de compte. Le blocage est l'accès sécurisé, pas un refus d'éligibilité. L'alias dédié `uneed@blockos.fr` reste prévu.
 - Le journal a été resynchronisé avant clôture : aucune action du 06/10 inscrite à ce moment-là. La promotion Bluesky du 05/10 exclut cette plateforme pour la semaine ; pas de nouvelle promotion en substitution. Accueil du hub, `/openclaw/` et `/hermes/` vérifiés en HTTPS strict : HTTP 200 ; gratuité de l'accueil relue.
 - Dépôt du Bureau inaccessible (`.git/index: Resource deadlock avoided`) : travail dans le clone cron hors Bureau après `git pull --no-rebase`, sans reprendre les changements locaux illisibles. Seuls le présent journal et le suivi Uneed sont modifiés ; aucune preuve, donnée du moteur ou configuration de planification touchée.
+
+### Contrôle de la mission planifiée du 07/10 (lecture seule, aucune distribution)
+
+- Journal et plan relus après synchronisation ; semaine civile du 05/10 au 11/10. Aucune action du jour enregistrée au contrôle ; Bluesky reste exclu cette semaine par la promotion du 05/10. Les demandes d'invitation et de permission ne sont pas renouvelées simplement parce que la semaine a changé.
+- Journal du Hacker examiné en premier en IMAP, boîte en lecture seule et `BODY.PEEK` : seul le message UID 5 confirme la **demande** d'invitation, pas l'accès à un compte. LinuxFr : accusé SYMPA UID 12, toujours aucune réponse humaine trouvée. Aucun nouveau contact.
+- jlai.lu : `/api/v3/site` relu, publicité interdite. Aucun compte ni texte promotionnel soumis sans accord. Discord exclu par la consigne projet ; awesome-lists et Framalibre non détournés pour promouvoir un site de kits.
+- Uneed : accord de Thomas du 05/10 relu intégralement (UID 14), conditions `/terms-of-use` revérifiées. `/login` et `/signup` ouverts dans le navigateur : email/mot de passe, ou connexion Google ; inscription avec confirmation du mot de passe. Aucun identifiant Uneed dans le coffre, aucune session connectée. Aucun compte Google du projet disponible établi par ce contrôle ; pas d'utilisation d'un compte d'un autre projet ni de contournement du coffre. Le blocage d'accès du 06/10 persiste ; aucune demande interactive en cron, aucun aperçu ni formulaire soumis. La file gratuite et le texte indépendant explicitement IA restent prêts pour une reprise avec accès sécurisé.
+- Replis examinés sans envoi : Microlaunch `/submit` redirige dans le navigateur vers `/premium#pricing` et ne présente que des offres payantes sur cette page ; aucune gratuité de soumission établie. AIxploria confirme dans sa FAQ ne plus proposer de listings gratuits. Aucun achat engagé.
+- **HN : mise en réserve du texte préparé.** Les [règles actuelles](https://news.ycombinator.com/newsguidelines.html) interdisent explicitement les posts automatisés et les textes générés ou édités par IA. [Product Hunt](https://www.producthunt.com/launch/how-product-hunt-works) exige un compte personnel et refuse les comptes de marque pour publier/commenter ; aucun compte humain fictif créé. Aucun accès Reddit sécurisé ni historique de participation établi ; pas de publication de substitution.
+- Futurepedia : la route historique `/submit-tool` affiche une 404 ; aucun lien de soumission identifié sur l'accueil rendu dans le navigateur. Ce constat ne prouve pas l'absence de tout canal. Ben's Bites News : extraction en erreur Cloudflare 522, puis navigation navigateur en délai dépassé ; disponibilité non établie, aucune soumission tentée.
+- Accueil du hub, `/openclaw/` et `/hermes/` : HTTP 200 en HTTPS strict. Aucun changement au site, au moteur, aux preuves, aux données, au registre d'envois ni aux crons.
+- Dépôt du Bureau toujours illisible (`Resource deadlock avoided`). Le clone cron habituel présente un conflit préexistant dans `data/stats.json` : laissé intact, ainsi que ses modifications locales. Mission effectuée dans un clone GitHub isolé hors Bureau après `git pull --no-rebase`. Seuls les documents de distribution sont mis à jour ; les workflows ne se déclenchent pas sur leur push.

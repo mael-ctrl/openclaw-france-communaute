@@ -1,5 +1,47 @@
 [
  {
+  "id": "59e9c850e3440774",
+  "slug": "cagliostro-v3-5-135m-detrone-smollm2-135m-sur-l-open-slm-leaderboard-59e9c8",
+  "titre": "Cagliostro V3.5 135M détrône SmolLM2-135M sur l'Open SLM Leaderboard",
+  "resume": "Le modèle Cagliostro V3.5 135M, signé BenchLabs, prend la première place de l'Open SLM Leaderboard. Il déloge SmolLM2-135M, le petit modèle de Hugging Face qui occupait jusqu'ici la tête de ce classement. Son Intelligence Index est mesuré à 27,49.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzljhn/benchlabs_cagliostro_v35_135m_finally_takes/",
+  "date_source": "2026-10-07T02:46:46+00:00",
+  "date_redac": "2026-10-07T03:23:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 651,
+   "sortie": 760
+  }
+ },
+ {
+  "id": "6ccd96a03f47d5a1",
+  "slug": "ik-llama-cpp-plus-rapide-que-le-mainline-le-test-d-un-utilisateur-dit--6ccd96",
+  "titre": "ik_llama.cpp plus rapide que le mainline ? Le test d'un utilisateur dit l'inverse",
+  "resume": "Sur r/LocalLLaMA, un utilisateur s'interroge : ik_llama.cpp, le fork d'ikawrakow, est présenté partout comme le roi de l'offloading hybride CPU/GPU et des performances MoE. Pourtant, sur sa machine multi-GPU asymétrique, le mainline de ggml-org le bat à chaque benchmark, et de loin. Il se demande s'il lui manque des flags, ou si ce fork n'est simplement pas conçu pour le layer splitting sur plusieurs GPU.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzkywp/why_is_ik_llamacpp_said_to_be_faster_than/",
+  "date_source": "2026-10-07T02:17:16+00:00",
+  "date_redac": "2026-10-07T03:23:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 869,
+   "sortie": 427
+  }
+ },
+ {
   "id": "c7fc9f2b0f1fb319",
   "slug": "quel-modele-local-pour-apprendre-la-physique-theorique-c7fc9f",
   "titre": "Quel modèle local pour apprendre la physique théorique ?",

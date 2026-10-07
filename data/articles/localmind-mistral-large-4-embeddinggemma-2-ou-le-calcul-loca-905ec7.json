@@ -1,0 +1,41 @@
+{
+ "slug": "localmind-mistral-large-4-embeddinggemma-2-ou-le-calcul-loca-905ec7",
+ "titre": "LocalMind, Mistral Large 4, EmbeddingGemma 2 : où le calcul local s'élargit",
+ "chapo": "Trois publications, un même mouvement : faire tenir plus de modèles là où on ne les attendait pas. Un onglet qui dépasse la RAM de la machine, un modèle ouvert de 1 000 milliards de paramètres, un embedding multimodal de 740M paramètres pensé pour les mobiles.",
+ "html": "<h2 id=\"un-moe-de-37-go-dans-un-onglet-sur-24-go\">Un MoE de 37 Go dans un onglet, sur 24 Go de RAM</h2>\n<p><strong>LocalMind</strong> est une page web statique : pas de serveur, pas d'installation. Le projet exécute des modèles via <strong>WebGPU</strong>, et va plus loin qu'un simple portage dans le navigateur : deux moteurs streamant les poids d'experts depuis le disque permettent à un onglet de dépasser la RAM de la machine.</p>\n<p>Le résultat tient en une configuration : un <strong>Gemma 4 26B-A4B</strong> et un <strong>Qwen3.6 MoE de 37 Go</strong> tournent sur un MacBook M4 Pro de <strong>24 Go</strong>, avec une sortie identique à celle de <strong>llama.cpp</strong>. La répartition est explicite — les poids denses, les routeurs et le KV cache restent sur le GPU, tandis que les experts routés demeurent sur disque.</p>\n<p>La conséquence pratique : le modèle n'a plus besoin de tenir en mémoire. Le disque fait office de réservoir, le GPU ne conserve que ce qui doit être parcouru à chaque token.</p>\n<h2 id=\"mistral-large-4-1-000-milliards-de-param\">Mistral Large 4 : 1 000 milliards de paramètres, poids ouverts promis</h2>\n<p><strong>Mistral Large 4</strong> affiche <strong>1 000 milliards de paramètres</strong>, dont <strong>49 milliards actifs</strong> — un rapport typique d'architecture MoE, où seule une fraction des paramètres est mobilisée à chaque token. Les <strong>poids ouverts</strong> sont annoncés pour la fin du mois ; l'aperçu est déjà ouvert depuis le 6 octobre selon ActuIA, qui avance de son côté <strong>1 050 milliards de paramètres</strong>.</p>\n<p>Le laboratoire a entraîné le modèle sur son propre cluster de <strong>3 800 GPU NVIDIA Grace Blackwell</strong>. Côté API, deux niveaux de raisonnement seulement sont exposés : « none » et « high ».</p>\n<p>Sur <strong>Artificial Analysis</strong>, Mistral Large 4 score <strong>38</strong>, juste derrière <strong>DeepSeek 4.1 Flash</strong>. Pour situer le chemin parcouru, Mistral Large 3 pointait à <strong>9</strong> en décembre.</p>\n<h2 id=\"chonky-la-cybersecurite-et-les-modeles-c\">« Chonky », la cybersécurité et les modèles chinois</h2>\n<p>Sur r/LocalLLaMA, la communauté relève surtout l'humour du nom retenu : <strong>« Chonky »</strong>. Le reste de la discussion porte sur la place du modèle dans le paysage.</p>\n<p>ActuIA rapporte que Mistral le présente comme <strong>le plus capable des modèles ouverts hors de Chine</strong>, et que les mesures indépendantes confirment un rattrapage. La <strong>cybersécurité</strong> s'impose comme argument commercial face aux modèles ouverts chinois, à côté des mesures de performance.</p>\n<h2 id=\"embeddinggemma-2-texte-images-audio-dans\">EmbeddingGemma 2 : texte, images, audio dans 768 dimensions</h2>\n<p>Avec <strong>EmbeddingGemma 2</strong>, Google DeepMind publie un modèle d'embedding <strong>multimodal open source</strong> qui projette texte — code inclus —, images, vidéo et audio dans un <strong>espace vectoriel unique de 768 dimensions</strong>. Le modèle totalise <strong>740M paramètres</strong>, répartis en 270M pour le texte, 170M pour la vision et 300M pour l'audio.</p>\n<p>La cible est explicitement grand public : mobiles et laptops, pour la recherche, le <strong>RAG</strong> ou la classification <strong>en local</strong>. EmbeddingGemma 2 s'appuie sur les avancées de <strong>Gemma 4</strong>.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois publications, trois façons de déplacer le calcul : dans l'onglet, dans des poids ouverts, dans un espace vectoriel compact. LocalMind contourne la RAM en gardant les experts sur disque, Mistral joue l'échelle du millier de milliards de paramètres avec des poids annoncés ouverts, EmbeddingGemma 2 ramène le multimodal dans 740M de paramètres. Chacune déplace la contrainte plutôt qu'elle ne la supprime — bande passante disque d'un côté, accès aux poids de l'autre.</p>",
+ "pivot": "905ec7d905e20883",
+ "tags": [
+  "mistral",
+  "open-source",
+  "matériel",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyvo42/gemma_4_26ba4b_and_a_37_gb_qwen36_moe_running_in/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzginu/europe_rejoins_the_fight_with_chonky_mistral/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/mistral-large-4-ce-que-vaut-le-meilleur-modele-ouvert-hors-chine/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz5va3/googleembeddinggemma2_hugging_face/"
+  }
+ ],
+ "date": "2026-10-07T03:24:16+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1593,
+  "sortie": 5576
+ }
+}

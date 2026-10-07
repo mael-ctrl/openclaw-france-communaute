@@ -1,5 +1,88 @@
 [
  {
+  "id": "1fce2f86ead01bd3",
+  "slug": "falcon-asr-un-modele-de-reconnaissance-vocale-annonce-sur-hugging-face-1fce2f",
+  "titre": "Falcon ASR : un modèle de reconnaissance vocale annoncé sur Hugging Face",
+  "resume": "Hugging Face annonce la sortie de Falcon ASR, un modèle de reconnaissance automatique de la parole, dans un billet publié sur son blog. Le nom le rattache à la famille Falcon, déjà connue sur la plateforme. La reconnaissance vocale reste un maillon clé pour les interfaces qui doivent traiter la parole en langage naturel.",
+  "tags": [
+   "recherche",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "Hugging Face",
+  "lien_source": "https://huggingface.co/blog/tiiuae/falcon-asr",
+  "date_source": null,
+  "date_redac": "2026-10-07T13:37:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 576,
+   "sortie": 1063
+  }
+ },
+ {
+  "id": "189d2b40adaba173",
+  "slug": "sony-deux-produits-playstation-inedits-reperes-dans-une-base-de-certif-189d2b",
+  "titre": "Sony : deux produits PlayStation inédits repérés dans une base de certification",
+  "resume": "Deux références inédites déposées par Sony Interactive Entertainment viennent d'apparaître dans une base de certification. Leur numérotation renvoie à la famille PlayStation Portal. Cette fuite relance la piste d'un modèle OLED, évoquée depuis janvier.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/sony-cache-deux-produits-playstation-inedits-une-fuite-vend-la-meche.html",
+  "date_source": "2026-10-07T13:30:37+00:00",
+  "date_redac": "2026-10-07T13:37:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 657,
+   "sortie": 402
+  }
+ },
+ {
+  "id": "14e36b6555f06f9a",
+  "slug": "orange-business-elargit-son-cloud-secnumcloud-a-des-environnements-iaa-14e36b",
+  "titre": "Orange Business élargit son cloud SecNumCloud à des environnements IaaS",
+  "resume": "Orange Business, la filiale BtoB d'Orange, annonce ce 7 octobre 2026 élargir son offre de cloud qualifié SecNumCloud, destinée aux applications critiques et à l'intelligence artificielle. La qualification est désormais obtenue pour des environnements IaaS de Cloud Avenue.",
+  "tags": [
+   "business",
+   "france",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/informatique/cloud/orange-muscle-son-offre-secnumcloud-pour-les-applications-critiques-et-lintelligence-artificielle.CTOAOCTNYREDDANZ5R3EB3VB4M.html",
+  "date_source": "2026-10-07T13:16:30+00:00",
+  "date_redac": "2026-10-07T13:37:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 688,
+   "sortie": 702
+  }
+ },
+ {
+  "id": "f63ef8bcdaf827fe",
+  "slug": "qwen-3-8-27b-en-local-contre-l-api-deepseek-flash-le-match-se-resserre-f63ef8",
+  "titre": "Qwen 3.8 27B en local contre l'API DeepSeek Flash : le match se resserre",
+  "resume": "Sur 25 tâches appariées, quatre charges de travail, mêmes prompts et un juge indépendant, le constat est posé sans détour : pour le travail quotidien, le modèle local suffit. Qualité : 89,5 contre 92,6 sur 100 face à l'API DeepSeek Flash, la suite de 12 items donnant six victoires de chaque côté. Côté exécution, les 10/10 runs agentiques finissent au vert et les 4 bugs sont corrigés à l'identique en 5/5 tours.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "agents",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzvs45/local_qwen_38_27b_vs_deepseek_flash_api_is_local/",
+  "date_source": "2026-10-07T12:54:55+00:00",
+  "date_redac": "2026-10-07T13:37:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 838,
+   "sortie": 921
+  }
+ },
+ {
   "id": "bddf7f711647e52e",
   "slug": "llama-cpp-une-pull-request-ajoute-le-support-mtp-de-glm-5-flash-en-loc-bddf7f",
   "titre": "llama.cpp : une pull request ajoute le support MTP de GLM 5 Flash en local",
@@ -57,6 +140,26 @@
    "modele": "deepseek-flash",
    "entree": 600,
    "sortie": 539
+  }
+ },
+ {
+  "id": "5dda49a86f98745e",
+  "slug": "l-ia-pourrait-bouleverser-la-livraison-de-repas-face-a-doordash-5dda49",
+  "titre": "L'IA pourrait bouleverser la livraison de repas face à DoorDash",
+  "resume": "DoorDash, l'application dominante de livraison de repas, a traité 970 millions de commandes lors de son deuxième trimestre cette année, pour 4,5 milliards de dollars de revenus. À côté, la startup Bites, dix personnes et environ 300 restaurants inscrits dans la baie de San Francisco, fait figure de point minuscule : elle opère au stade de pre-seed.",
+  "tags": [
+   "business",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1005726/doordash-ai-agentic-food-delivery-bites",
+  "date_source": "2026-10-07T12:00:00+00:00",
+  "date_redac": "2026-10-07T13:37:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 696,
+   "sortie": 499
   }
  },
  {

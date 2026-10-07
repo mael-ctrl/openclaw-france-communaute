@@ -1,5 +1,109 @@
 [
  {
+  "id": "4e771c57cb449efb",
+  "slug": "un-post-r-localllama-relaie-une-publication-de-ggerganov-sur-llama-cpp-4e771c",
+  "titre": "Un post r/LocalLLaMA relaie une publication de ggerganov sur llama.cpp",
+  "resume": "Sur le subreddit r/LocalLLaMA, un fil intitulé « llama.cpp on the stage » a été publié par l'utilisateur jacek2023. Il renvoie vers une publication de ggerganov sur X. L'extrait disponible ne détaille ni le contenu de ce post ni ce que recouvre cette mention d'une « scène ».",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x079wc/llamacpp_on_the_stage/",
+  "date_source": "2026-10-07T20:25:51+00:00",
+  "date_redac": "2026-10-07T20:31:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 619,
+   "sortie": 628
+  }
+ },
+ {
+  "id": "46088d4ed4be5401",
+  "slug": "microsoft-devoile-specs-et-prix-du-surface-laptop-ultra-pc-ia-a-puce-n-46088d",
+  "titre": "Microsoft dévoile specs et prix du Surface Laptop Ultra, PC IA à puce Nvidia",
+  "resume": "Microsoft a dévoilé les caractéristiques et le prix de son Surface Laptop Ultra, un PC IA équipé d'une puce Nvidia. Ces machines sont conçues pour faire tourner des modèles d'IA et des agents. Le constructeur accompagne le lancement d'une version remaniée de Windows 11. Avec ce positionnement, Microsoft mise sur le silicium de Nvidia pour ses PC dédiés à l'IA.",
+  "tags": [
+   "matériel",
+   "business",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+  "date_source": "2026-10-07T20:22:37+00:00",
+  "date_redac": "2026-10-07T20:31:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 630,
+   "sortie": 547
+  }
+ },
+ {
+  "id": "5b420e55f7d790dc",
+  "slug": "microsoft-sort-une-version-locale-de-mai-code-1-1-flash-mais-il-faut-7-5b420e",
+  "titre": "Microsoft sort une version locale de MAI-Code-1.1-Flash, mais il faut 75 Go de RAM",
+  "resume": "Microsoft a présenté une version locale de MAI-Code-1.1-Flash, son modèle d'IA dédié au code, annoncé comme ultra-abordable et rapide. Elle débarquera d'ici fin octobre dans GitHub Copilot, sur les PC équipés d'une puce Nvidia RTX Spark. Le modèle se positionne face à Claude Haiku 5.5, tout juste sorti, et à GPT-6 Luna. La contrepartie est lourde : 75 Go de RAM sont réclamés.",
+  "tags": [
+   "claude",
+   "dev",
+   "matériel",
+   "openai"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/microsoft/3277299_microsoft-defie-claude-et-gpt-en-local-mais-reclame-75-go-de-ram-avec-son-nouveau-modele-mai-code-1-1-flash",
+  "date_source": "2026-10-07T20:14:27+00:00",
+  "date_redac": "2026-10-07T20:31:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 717,
+   "sortie": 638
+  }
+ },
+ {
+  "id": "21930c5ef876d3c6",
+  "slug": "kandinsky-6-0-generation-et-upscaling-video-modeles-pro-29b-et-lite-3b-21930c",
+  "titre": "Kandinsky 6.0 : génération et upscaling vidéo, modèles Pro 29B et Lite 3B",
+  "resume": "La famille Kandinsky 6.0 se décline en deux modèles : Pro (29B) et Lite (3B). Elle couvre la génération de vidéo ainsi que l'upscaling vidéo. Le support de ComfyUI et Diffusers est déjà assuré, et le projet est publié sur le dépôt GitHub kandinskylab/kandinsky-6.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x06h7i/kandinsky_60_video_gen_video_upscaler/",
+  "date_source": "2026-10-07T19:58:11+00:00",
+  "date_redac": "2026-10-07T20:31:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 655,
+   "sortie": 412
+  }
+ },
+ {
+  "id": "98f3da053c64e30d",
+  "slug": "claude-haiku-5-5-anthropic-aligne-son-tarif-sur-gpt-6-luna-98f3da",
+  "titre": "Claude Haiku 5.5 : Anthropic aligne son tarif sur GPT-6 Luna",
+  "resume": "Anthropic a lancé ce mercredi 7 octobre Claude Haiku 5.5, son plus petit modèle d'IA. Facturé 0,10 dollar le million de tokens en entrée (environ 0,09 euro HT), il est dix fois moins cher que Haiku 4.5. C'est exactement le tarif de GPT-6 Luna, le petit modèle qu'OpenAI a sorti quinze jours plus tôt.",
+  "tags": [
+   "claude",
+   "openai",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/anthropic-claude-ai/3277279_claude-haiku-5-5-10-fois-moins-cher-pour-faire-plier-gpt-6-luna-sur-son-terrain",
+  "date_source": "2026-10-07T19:35:26+00:00",
+  "date_redac": "2026-10-07T20:31:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 730,
+   "sortie": 427
+  }
+ },
+ {
   "id": "4c57b12cefaef480",
   "slug": "chatgpt-deploie-une-intelligent-ui-avec-graphiques-et-boutons-4c57b1",
   "titre": "ChatGPT déploie une « Intelligent UI » avec graphiques et boutons",

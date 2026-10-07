@@ -1,22 +1,16 @@
 {
- "runs": 138,
+ "runs": 139,
  "items_collectes": 1084,
  "breves_publiees": 486,
  "articles_publies": 64,
  "tokens_entree": 458118,
  "tokens_sortie": 642451,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-07T05:34:34+00:00",
+ "dernier_run": "2026-10-07T07:21:13+00:00",
  "solde": {
-  "total": "87.43",
-  "devise": "USD",
-  "disponible": true
+  "erreur": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-06T21:09:40+00:00",
-   "message": "brève impossible (Local AI World Model Part 2 - Deep NN to turn Images into Pl) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-06T21:09:52+00:00",
    "message": "brève impossible (EmbeddingGemma 2) : réponse non-JSON"
@@ -32,6 +26,10 @@
   {
    "ts": "2026-10-07T00:58:35+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 12 column 6 (char 2069)"
+  },
+  {
+   "ts": "2026-10-07T07:30:44+00:00",
+   "message": "déploiement : timed out"
   }
  ],
  "solde_initial": "91.66",

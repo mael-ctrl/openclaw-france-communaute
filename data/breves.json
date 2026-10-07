@@ -1,5 +1,67 @@
 [
  {
+  "id": "09cb4731b5c88667",
+  "slug": "un-utilisateur-de-rtx-3090-envisage-128-go-de-ddr5-pour-ses-modeles-lo-09cb47",
+  "titre": "Un utilisateur de RTX 3090 envisage 128 Go de DDR5 pour ses modèles locaux",
+  "resume": "Un utilisateur de r/LocalLLaMA fait tourner un modèle Qwen 27B quantifié sur une seule RTX 3090, avec environ 150k de contexte et 60 tokens par seconde, sur un Intel 12400 et 32 Go de DDR4. Il envisage d'acheter 128 Go de DDR5 à 6000 MHz et un Ryzen 9700X pour tester des quantifications plus lourdes. Il demande des retours sur la qualité de sortie, et non la vitesse, pour du code et son assistant Hermes.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev",
+   "hermes"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzq2ts/single_3090_qwen_27b_user_considering_buying/",
+  "date_source": "2026-10-07T07:14:41+00:00",
+  "date_redac": "2026-10-07T07:48:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 875,
+   "sortie": 1126
+  }
+ },
+ {
+  "id": "3f33355e452fda86",
+  "slug": "un-nouveau-modele-minicpm-v-4-7-35b-a3b-apparait-sur-hugging-face-3f3335",
+  "titre": "Un nouveau modèle MiniCPM-V-4.7-35B-A3B apparaît sur Hugging Face",
+  "resume": "Repéré sur le subreddit r/LocalLLaMA, un nouveau modèle nommé MiniCPM-V-4.7-35B-A3B est apparu sur Hugging Face. Aucune carte de modèle n'accompagne encore le dépôt, et l'extrait ne donne aucune indication sur ses performances ni sur sa date de disponibilité. La communauté qui suit les modèles exécutables en local surveille ce type d'apparition.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzpyzk/new_35ba3b_model_is_comming_on_huggingface/",
+  "date_source": "2026-10-07T07:07:41+00:00",
+  "date_redac": "2026-10-07T07:48:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 639,
+   "sortie": 1387
+  }
+ },
+ {
+  "id": "9cdcb8c04ff37a9a",
+  "slug": "google-preparerait-un-bracelet-connecte-fitbit-edge-barde-de-capteurs--9cdcb8",
+  "titre": "Google préparerait un bracelet connecté Fitbit Edge bardé de capteurs et de Gemini",
+  "resume": "Google n'a toujours pas annoncé le Fitbit Edge, mais le futur bracelet connecté serait déjà largement connu. Il embarquerait un écran AMOLED, une batterie remplaçable et une belle collection de capteurs. S'y ajouterait une bonne dose de Gemini, signe que l'IA s'installe jusque dans les objets portables.",
+  "tags": [
+   "gemini",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/07/fitbit-edge-google-prepare-un-bracelet-connecte-rempli-de-capteurs-et-de-gemini/",
+  "date_source": "2026-10-07T07:05:50+00:00",
+  "date_redac": "2026-10-07T07:48:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 707,
+   "sortie": 321
+  }
+ },
+ {
   "id": "ea6b66d9be0f48e4",
   "slug": "anthropic-claude-mythos-a-debusque-au-moins-129-000-failles-ea6b66",
   "titre": "Anthropic : Claude Mythos a débusqué au moins 129 000 failles",
@@ -81,6 +143,26 @@
    "modele": "deepseek-flash",
    "entree": 670,
    "sortie": 370
+  }
+ },
+ {
+  "id": "50d8b247e9d9ec4a",
+  "slug": "honor-ajoute-le-play20c-un-smartphone-a-100-euros-avec-un-ecran-au-dos-50d8b2",
+  "titre": "Honor ajoute le Play20C, un smartphone à 100 euros avec un écran au dos",
+  "resume": "Honor a ajouté le Play20C à son site international. Ce smartphone d'entrée de gamme embarque un petit écran tactile au dos et est déjà vendu environ 100 euros au Nigeria. C'est le deuxième modèle de la marque à reprendre cette idée en six semaines, après le Play20A fin août.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/3275503_honor-met-un-ecran-au-dos-dun-smartphone-a-100-euros",
+  "date_source": "2026-10-07T06:49:18+00:00",
+  "date_redac": "2026-10-07T07:48:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 672,
+   "sortie": 375
   }
  },
  {

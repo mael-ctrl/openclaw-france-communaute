@@ -1,5 +1,108 @@
 [
  {
+  "id": "cce2b6b2cf4fcb26",
+  "slug": "openai-publie-722-articles-de-maths-et-resout-90-des-500-problemes-ouv-cce2b6",
+  "titre": "OpenAI publie 722 articles de maths et résout 90 des 500 problèmes ouverts",
+  "resume": "Selon Latent Space, OpenAI a publié 722 articles de mathématiques qui résolvent 90 des 500 principaux problèmes ouverts du domaine. La publication est décrite comme « le moment le plus significatif » en plus de 100 ans de mathématiques. C'est le volume de travaux et le nombre de problèmes ouverts traités qui donnent son poids à l'annonce.",
+  "tags": [
+   "openai",
+   "recherche"
+  ],
+  "importance": 4,
+  "source": "Latent Space",
+  "lien_source": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+  "date_source": null,
+  "date_redac": "2026-10-07T05:34:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 609,
+   "sortie": 752
+  }
+ },
+ {
+  "id": "e995100c62af953d",
+  "slug": "consulter-le-cse-avant-un-deploiement-d-ia-une-page-de-reference-e99510",
+  "titre": "Consulter le CSE avant un déploiement d'IA : une page de référence",
+  "resume": "ActuIA met en ligne une page de référence, mise à jour le 7 octobre 2026, consacrée à la consultation du CSE avant le déploiement d'une IA. Elle recense les décisions françaises publiées sur ce sujet. Pour les organisations qui déploient des outils d'IA, le moment et les conditions de cette consultation deviennent un point de passage concret.",
+  "tags": [
+   "france",
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/quand-consulter-le-cse-avant-de-deployer-lia-octobre-2026/",
+  "date_source": "2026-10-07T05:00:00+00:00",
+  "date_redac": "2026-10-07T05:33:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 659,
+   "sortie": 726
+  }
+ },
+ {
+  "id": "8b218d113f07e6d1",
+  "slug": "conjecture-de-barnette-supposement-resolue-le-temoignage-de-jake-bogga-8b218d",
+  "titre": "Conjecture de Barnette supposément résolue : le témoignage de Jake Boggan",
+  "resume": "Passionné de théorie des graphes, Jake Boggan s'était installé à Budapest pour étudier auprès des meilleurs. Il a ensuite consacré 24 ans, par intermittence, à la conjecture de Barnette, et a même cru quelques jours l'avoir résolue l'été dernier. Le problème 180 serait désormais prouvé dans le dépôt openai/math. « J'ai passé des milliers d'heures là-dessus », écrit-il sur Hacker News.",
+  "tags": [
+   "openai",
+   "recherche",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
+  "date_source": "2026-10-07T04:47:55+00:00",
+  "date_redac": "2026-10-07T05:33:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 768,
+   "sortie": 1012
+  }
+ },
+ {
+  "id": "9f8c97d5db421ee2",
+  "slug": "rag-100-local-quel-embedder-et-quelle-fusion-hybride-pour-un-second-br-9f8c97",
+  "titre": "RAG 100 % local : quel embedder et quelle fusion hybride pour un second brain",
+  "resume": "Un utilisateur de r/LocalLLaMA décrit son RAG entièrement local pour ses notes personnelles : SQLite, sqlite-vec et FTS5, Ollama pour les embeddings et la génération, sur Mac Apple Silicon. Il hésite entre nomic-embed-text, qwen3-embedding:0.6b et embeddinggemma, sans benchmark sur notes anglaises plutôt que BEIR. Côté recherche hybride, il combine BM25 et similarité cosinus et se demande si l'ajout de trigram et spellfix vaut le coup.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzn14o/local_rag_for_a_personal_second_brain_embedder/",
+  "date_source": "2026-10-07T04:08:07+00:00",
+  "date_redac": "2026-10-07T05:34:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 857,
+   "sortie": 931
+  }
+ },
+ {
+  "id": "8ab978fd521b7a1f",
+  "slug": "r-localllama-un-fil-how-far-we-ve-come-sans-contenu-exploitable-8ab978",
+  "titre": "r/LocalLLaMA : un fil « How far we've come » sans contenu exploitable",
+  "resume": "Sur le subreddit r/LocalLLaMA, un membre publie un fil intitulé « How far we've come ». L'extrait disponible ne contient ni chiffre, ni lien vers un projet, ni argument : seule la signature de l'auteur, /u/like_a_tensor, accompagne le titre. En l'état, cette dépêche ne permet pas de documenter un progrès précis dans les modèles locaux.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzm56n/how_far_weve_come/",
+  "date_source": "2026-10-07T03:18:52+00:00",
+  "date_redac": "2026-10-07T05:34:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 603,
+   "sortie": 586
+  }
+ },
+ {
   "id": "59e9c850e3440774",
   "slug": "cagliostro-v3-5-135m-detrone-smollm2-135m-sur-l-open-slm-leaderboard-59e9c8",
   "titre": "Cagliostro V3.5 135M détrône SmolLM2-135M sur l'Open SLM Leaderboard",

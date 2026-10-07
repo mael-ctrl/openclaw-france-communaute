@@ -768,3 +768,11 @@
 {"ts": "2026-10-07T00:33:49+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "b9140b273df77c3dfd947fb04b95fe78705f2b3e8d9c82ad563c4b196031886a"}
 {"ts": "2026-10-07T00:33:49+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-07.json", "publications": 550}, "sha256": "e5bccc4ad51ac57a72e0107f4087e1fea920cfda10df6bed7098078a80fc5357"}
 {"ts": "2026-10-07T00:33:49+00:00", "evenement": "bilan", "details": {"duree_s": 505.2, "neufs": 9, "breves": 5, "articles": 1, "fichiers": 479, "envois": 491, "publications": 4}, "sha256": "7a7614ded93a1f524002f860b29c55a774a67d7e375b624891659c0d35f5f73f"}
+{"ts": "2026-10-07T00:57:52+00:00", "evenement": "collecte", "details": {"neufs": 2}, "sha256": "7b0858b087a488fce21eb358b6924361d654f43ea632e1c04d57dc79ac3b587d"}
+{"ts": "2026-10-07T00:58:05+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Ruach Studio: a whole song studio around YuE2 on your own GP) : réponse non-JSON"}, "sha256": "233675e6786bc1ae5024d1bcce7f22ed20f9b7d05d6cb678221e594cddb9de24"}
+{"ts": "2026-10-07T00:58:35+00:00", "evenement": "erreur", "details": {"message": "article impossible : Expecting ',' delimiter: line 12 column 6 (char 2069)"}, "sha256": "a016ee9ff77cf24c8807dfa723493ea704e4b1aade6adc845c8cc84a1bb2980b"}
+{"ts": "2026-10-07T00:58:35+00:00", "evenement": "construction", "details": {"fichiers": 479}, "sha256": "cd304d243328ec2e18b3a86b138f90e99dae9da840965d03702e247349976da5"}
+{"ts": "2026-10-07T01:06:17+00:00", "evenement": "deploiement", "details": {"fichiers": 491, "octets": 7283169}, "sha256": "e0095626e9396a6b94abe466cf3a5f402b9ee29ba9cd04d3f143535082ba9599"}
+{"ts": "2026-10-07T01:06:18+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "8ca02485c0bcf20588ce7bb00a4726217af303b2f9f21b9ed82630561e331eb3"}
+{"ts": "2026-10-07T01:06:29+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "a8a798ae5514cad0b940f99a634366ec5c0e95341c21ccb3bc927595384708be"}
+{"ts": "2026-10-07T01:06:29+00:00", "evenement": "bilan", "details": {"duree_s": 557.8, "neufs": 2, "breves": 1, "articles": 0, "fichiers": 479, "envois": 491, "publications": 4}, "sha256": "ffd643e8639994a9c2ca40db9559c1261d8f65a242334ece94b359947ce411d1"}

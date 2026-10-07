@@ -105,6 +105,27 @@
   }
  },
  {
+  "id": "c9dd0ea7240cc942",
+  "slug": "un-plugin-llm-pour-la-nouvelle-decisions-api-d-openai-c9dd0e",
+  "titre": "Un plugin LLM pour la nouvelle Decisions API d'OpenAI",
+  "resume": "OpenAI a publié sa Decisions API, présentée la semaine précédente au DevDay. Simon Willison a fait lire la documentation par GPT-6 Astra pour bâtir un plugin llm-openai-decisions, inspiré de son llm-typesafe dédié à Jev. Le modèle gpt-6-luna accepte aussi des images, et seule l'entrée est facturée : 10 cents par million de tokens, contre 4,2 cents chez Jev.",
+  "tags": [
+   "openai",
+   "dev",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+  "date_source": "2026-10-06T23:04:13+00:00",
+  "date_redac": "2026-10-07T00:58:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 805,
+   "sortie": 872
+  }
+ },
+ {
   "id": "bf36372fc262719c",
   "slug": "des-ex-ingenieurs-de-ramp-levent-20-m-pour-melius-apres-un-pivot-bf3637",
   "titre": "Des ex-ingénieurs de Ramp lèvent 20 M$ pour Melius après un pivot",

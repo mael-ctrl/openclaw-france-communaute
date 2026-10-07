@@ -1,0 +1,41 @@
+{
+ "slug": "copilot-dans-windows-agents-personnels-l-ia-se-rapproche-de--f6b50b",
+ "titre": "Copilot dans Windows, agents personnels : l'IA se rapproche de la machine",
+ "chapo": "Microsoft veut que Copilot accède à tes fichiers et agisse dans tout Windows. Au même moment, Meta et Sierra posent les bases d'un protocole commun pour les agents personnels, tandis que la sécurité de ces mêmes agents devient un sujet très concret.",
+ "html": "<h2 id=\"copilot-met-les-mains-dans-windows\">Copilot met les mains dans Windows</h2>\n<p>Lors de son événement Windows et Surface, Microsoft a présenté une évolution de Copilot : l'assistant pourra accéder aux fichiers présents sur le PC et effectuer des actions dans l'ensemble du système d'exploitation. Le périmètre ne s'arrête plus à une requête isolée ni à la fenêtre d'un logiciel : c'est la machine entière qui devient terrain d'action.</p>\n<p>Cette nouveauté s'inscrit dans un concept que l'entreprise nomme « Hybrid Intelligence ». Le Journal du Geek en retient un point que l'éditeur met en avant : cette brique de Windows est capable de tourner <strong>en local</strong>, et pas uniquement dans le cloud. L'objectif affiché est explicite — faire du système d'exploitation la plateforme des agents IA.</p>\n<p>La définition donnée par Microsoft insiste sur le mélange : les applications et les outils s'appuient sur plusieurs sources à la fois. Appliqué à un OS, cela déplace la question du logiciel vers celle de l'accès : ce que l'agent peut lire, et ce qu'il peut modifier. Les dépêches disponibles ne détaillent pas la liste des actions concernées.</p>\n<h2 id=\"un-protocole-commun-pour-des-agents-qui-\">Un protocole commun pour des agents qui se multiplient</h2>\n<p>Meta, géant des réseaux sociaux, s'associe à Sierra, spécialiste des agents IA pour le service client, pour annoncer le lancement d'un standard ouvert baptisé <strong>Personal Agent Protocol</strong>.</p>\n<p>Bret Taylor, CEO de Sierra, en donne la fonction : le protocole permettra de définir les modalités d'interaction entre les agents personnels et les entreprises. Chacun peut y contribuer, ce qui en fait un chantier ouvert plutôt qu'une spécification propriétaire.</p>\n<p>L'enjeu est posé tel quel : poser des règles communes à un moment où les agents se multiplient côté grand public comme côté entreprises. Deux approches distinctes, donc — un assistant intégré à un OS chez Microsoft, un protocole d'échange entre acteurs chez Meta et Sierra — mais un même mouvement de fond : des agents qui sortent de la démonstration pour s'ancrer dans des produits et des systèmes.</p>\n<h2 id=\"fuites-annoncees-failles-detectees\">Fuites annoncées, failles détectées</h2>\n<p>Le revers de ce déploiement est documenté, et il vient aussi de Meta. Muse, l'agent personnel lancé il y a un mois à peine, inquiète jusqu'au sein des propres équipes de l'entreprise. Selon 01net, des documents internes et des failles colmatées dans l'urgence alimentent un pronostic sombre : la fuite massive de données serait une question de temps.</p>\n<p>La dépêche range le cas dans une catégorie plus large, celle des risques de sécurité que portent les agents IA déployés à grande échelle. Elle en fait un cas d'école, à l'heure où ce type d'agent personnel se généralise.</p>\n<p>Le même type de modèle est ailleurs présenté comme un outil de défense. Anthropic annonce que son modèle Claude Mythos a identifié au moins 129 000 failles en quelques mois, et a décidé, en réaction à ce bilan, d'élargir l'accès à son IA conçue pour la cybersécurité. Le volume de vulnérabilités détectées donne la mesure de ce que ces modèles peuvent apporter aux équipes qui défendent des systèmes.</p>\n<h2>Et maintenant ?</h2>\n<p>Ces annonces dessinent un même déplacement : l'agent cesse d'être une démonstration pour devenir une pièce du système, avec un accès aux fichiers, des actions dans l'OS et un protocole d'interaction à définir entre particuliers et entreprises. Les deux dépêches consacrées à la sécurité en donnent la contrepartie : 129 000 failles détectées d'un côté, une fuite massive annoncée comme une question de temps de l'autre. La discussion ne porte plus seulement sur ce que les agents savent faire, mais sur le périmètre qu'on leur concède.</p>",
+ "pivot": "f6b50b62044c8e89",
+ "tags": [
+  "agents",
+  "meta",
+  "sécurité",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/07/oubliez-lia-windows-presente-son-intelligence-hybride-capable-de-tourner-en-local/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/un-standard-pour-les-gouverner-tous-meta-et-sierra-font-alliance-autour-des-agents-personnels.JUOYUYGHLZHQVCAJS7RQREUZQQ.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/129-000-failles-debusquees-anthropic-devoile-le-bilan-impressionnant-claude-mythos.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/une-fuite-massive-inevitable-chez-meta-des-ingenieurs-sinquietent-de-lia-muse.html"
+  }
+ ],
+ "date": "2026-10-07T18:12:17+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1543,
+  "sortie": 5537
+ }
+}

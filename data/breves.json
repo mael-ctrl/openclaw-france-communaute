@@ -1,5 +1,129 @@
 [
  {
+  "id": "f42bbcedf87c5261",
+  "slug": "claude-code-v2-1-293-haiku-5-5-devient-le-modele-haiku-par-defaut-f42bbc",
+  "titre": "Claude Code v2.1.293 : Haiku 5.5 devient le modèle Haiku par défaut",
+  "resume": "Claude Code 2.1.293 intègre Haiku 5.5 (claude-haiku-5-5), désormais le modèle Haiku par défaut de l'API Anthropic : 1M de contexte, 0,10 $/0,50 $ par million de tokens, 0,50 $/2,50 $ au-delà de 100K. La version expose aussi agentType dans le payload subagentStatusLine et corrige plusieurs bugs, dont une fuite mémoire des connexions HTTP MCP et un message perdu lors du passage en arrière-plan.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+  "date_source": "2026-10-07T18:10:20+00:00",
+  "date_redac": "2026-10-07T18:11:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 821,
+   "sortie": 1311
+  }
+ },
+ {
+  "id": "deac634d96299ea9",
+  "slug": "liquid-ai-d1-omni-600m-tourne-dans-le-navigateur-via-webgpu-deac63",
+  "titre": "Liquid AI d1-omni-600M tourne dans le navigateur via WebGPU",
+  "resume": "Liquid AI a publié d1-omni-600M, un modèle de décision, porté sur runntime, une bibliothèque d'inférence WebGPU en TypeScript, sans WASM. Les poids se chargent directement depuis les safetensors Hugging Face. La démo modère un faux fil de commentaires avec quatre questions par message (toxique, spam, question, ton), à environ 45 ms par question. Le portage n'est pas encore dans la version npm.",
+  "tags": [
+   "dev",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x03mrh/omnid1_600m_by_liquid_ai_running_in_the_browser/",
+  "date_source": "2026-10-07T18:04:05+00:00",
+  "date_redac": "2026-10-07T18:11:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 824,
+   "sortie": 1050
+  }
+ },
+ {
+  "id": "f6b50b62044c8e89",
+  "slug": "microsoft-donne-a-copilot-l-acces-aux-fichiers-locaux-de-windows-f6b50b",
+  "titre": "Microsoft donne à Copilot l'accès aux fichiers locaux de Windows",
+  "resume": "Lors de son événement Windows et Surface, Microsoft a présenté une évolution de son système d'IA Copilot : il pourra accéder aux fichiers présents sur le PC et effectuer des actions dans l'ensemble du système d'exploitation. Cette nouveauté s'inscrit dans un concept que l'entreprise nomme « Hybrid Intelligence », où les applications et les outils s'appuient sur un mélange de plusieurs sources.",
+  "tags": [
+   "agents",
+   "sécurité",
+   "société"
+  ],
+  "importance": 4,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+  "date_source": "2026-10-07T18:01:20+00:00",
+  "date_redac": "2026-10-07T18:11:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 658,
+   "sortie": 544
+  }
+ },
+ {
+  "id": "7b3323c3e15f4fa0",
+  "slug": "chatgpt-se-dote-d-une-nouvelle-interface-plus-visuelle-7b3323",
+  "titre": "ChatGPT se dote d'une nouvelle interface plus visuelle",
+  "resume": "OpenAI lance une nouvelle interface utilisateur pour ChatGPT. Elle doit apporter des visuels interactifs directement dans l'outil, d'après TechCrunch. La mise à jour porte donc sur la présentation des échanges, qui gagne une dimension visuelle en plus du texte.",
+  "tags": [
+   "chatgpt",
+   "openai"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+  "date_source": "2026-10-07T18:00:19+00:00",
+  "date_redac": "2026-10-07T18:11:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 482
+  }
+ },
+ {
+  "id": "1e3c13a42ca1f84a",
+  "slug": "windows-mise-sur-une-intelligence-hybride-capable-de-tourner-en-local-1e3c13",
+  "titre": "Windows mise sur une « Intelligence Hybride » capable de tourner en local",
+  "resume": "Microsoft présente « Intelligence Hybride », une brique de Windows capable de tourner en local. L'objectif affiché par l'éditeur : faire de son système d'exploitation la plateforme des agents IA. Le fait que cette intelligence s'exécute sur la machine, et non dans le cloud, est le point mis en avant.",
+  "tags": [
+   "agents",
+   "matériel"
+  ],
+  "importance": 4,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/07/oubliez-lia-windows-presente-son-intelligence-hybride-capable-de-tourner-en-local/",
+  "date_source": "2026-10-07T17:55:34+00:00",
+  "date_redac": "2026-10-07T18:11:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 661,
+   "sortie": 1067
+  }
+ },
+ {
+  "id": "fcb763fe7724021f",
+  "slug": "la-surface-rtx-spark-dev-box-de-microsoft-en-precommande-a-5-999-dolla-fcb763",
+  "titre": "La Surface RTX Spark Dev Box de Microsoft en précommande à 5 999 dollars",
+  "resume": "Microsoft ouvre les précommandes de sa Surface RTX Spark Dev Box, une machine propulsée par Nvidia, annoncée à environ 6 000 dollars et expédiée en novembre. Elle coûte plus cher que le mini PC DGX Spark lancé par Nvidia l'an dernier, dans un contexte de hausse des prix des PC liée aux pénuries de RAM et d'autres composants.",
+  "tags": [
+   "matériel",
+   "business",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder",
+  "date_source": "2026-10-07T17:46:44+00:00",
+  "date_redac": "2026-10-07T18:11:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 705,
+   "sortie": 602
+  }
+ },
+ {
   "id": "66a0d6060cdf818d",
   "slug": "liquidai-presente-d1-3b-et-d1-omni-des-modeles-de-decision-pour-l-edge-66a0d6",
   "titre": "LiquidAI présente d1-3B et d1-omni, des modèles de décision pour l'edge",

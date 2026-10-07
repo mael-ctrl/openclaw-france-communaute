@@ -1,5 +1,85 @@
 [
  {
+  "id": "bddf7f711647e52e",
+  "slug": "llama-cpp-une-pull-request-ajoute-le-support-mtp-de-glm-5-flash-en-loc-bddf7f",
+  "titre": "llama.cpp : une pull request ajoute le support MTP de GLM 5 Flash en local",
+  "resume": "La pull request #29928 du dépôt ggml-org/llama.cpp, signée pwilkin, ajoute la prise en charge de MTP pour GLM5Next. Le message relayé sur r/LocalLLaMA le résume ainsi : on peut désormais utiliser GLM 5 Flash MTP en local. La dépêche provient du subreddit r/LocalLLaMA, où elle a été publiée par l'utilisateur jacek2023.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzvdqe/feat_add_glm5next_mtp_optimize_by_pwilkin_pull/",
+  "date_source": "2026-10-07T12:36:13+00:00",
+  "date_redac": "2026-10-07T12:56:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 651,
+   "sortie": 1233
+  }
+ },
+ {
+  "id": "965d5e05d27db47f",
+  "slug": "liquidai-un-nouveau-lfm-attendu-dans-la-journee-965d5e",
+  "titre": "LiquidAI : un nouveau LFM attendu dans la journée",
+  "resume": "Le forum r/LocalLLaMA signale la sortie imminente d'un nouveau LFM, les modèles de LiquidAI. Un message publié sur X demande quelle taille de modèle les utilisateurs souhaitent, en renvoyant vers la page Hugging Face de l'entreprise. Ni les paramètres ni les capacités de cette nouvelle version ne sont précisés.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzuto0/new_lfm_to_be_released_today/",
+  "date_source": "2026-10-07T12:08:41+00:00",
+  "date_redac": "2026-10-07T12:56:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 640,
+   "sortie": 736
+  }
+ },
+ {
+  "id": "bc50a9fecbec5e4f",
+  "slug": "google-lance-playground-une-plateforme-experimentale-pour-creer-ses-je-bc50a9",
+  "titre": "Google lance Playground, une plateforme expérimentale pour créer ses jeux",
+  "resume": "Playground est une nouvelle plateforme de jeu expérimentale signée Google. Elle permet de créer, de jouer et de partager des jeux personnalisés. L'annonce a été publiée le 7 octobre 2026 sur le blog Google AI.",
+  "tags": [
+   "société",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Google AI",
+  "lien_source": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+  "date_source": "2026-10-07T12:00:00+00:00",
+  "date_redac": "2026-10-07T12:57:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 600,
+   "sortie": 539
+  }
+ },
+ {
+  "id": "d2b457aa72702136",
+  "slug": "micron-le-nvhbm-booste-la-bande-passante-et-reduit-la-consommation-d2b457",
+  "titre": "Micron : le NVHBM booste la bande passante et réduit la consommation",
+  "resume": "Le NVHBM déplace le contrôleur mémoire du die de calcul principal vers le die de base : 15 % de consommation en moins et jusqu'à 30 % de bande passante en plus, selon Micron. Sa couche physique d'E/S personnalisée réduit de jusqu'à 67 % la surface du boîtier qui lui était réservée. NVIDIA annonce de son côté jusqu'à 30 % de bande passante et 15 % de consommation HBM en moins face au HBM4E standard.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzudla/micron_says_nvhbm_to_improve_profitability_even/",
+  "date_source": "2026-10-07T11:46:13+00:00",
+  "date_redac": "2026-10-07T12:57:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 751,
+   "sortie": 1116
+  }
+ },
+ {
   "id": "a7d121ae13af3ce6",
   "slug": "cmpunlocker-passe-en-v0-5-avec-le-support-ecc-et-quatre-sm-debloques-a7d121",
   "titre": "cmpunlocker passe en v0.5 avec le support ECC et quatre SM débloqués",
@@ -161,6 +241,28 @@
    "modele": "deepseek-flash",
    "entree": 736,
    "sortie": 1046
+  }
+ },
+ {
+  "id": "8d7498371e5f9ff6",
+  "slug": "un-glm-edge-1-5b-fait-un-panier-amazon-sur-un-galaxy-a04e-de-4-go-8d7498",
+  "titre": "Un GLM-Edge-1.5B fait un panier Amazon sur un Galaxy A04e de 4 Go",
+  "resume": "La veille, TechCrunch publiait un article sur les sites qui commencent à bloquer les agents IA, avec Amazon bloquant le Muse de Meta. Presque au même moment, GLM-Edge-1.5B-Chat, lancé en local sur un Galaxy A04e de 4 Go, a mené à bien une vraie tâche de panier Amazon. Le modèle officiel de Z.ai, en Q4_K_M GGUF sous llama.cpp et sans fine-tuning, s'inscrit dans le développement d'E2LLM/SiFR, une couche de perception navigateur.",
+  "tags": [
+   "agents",
+   "open-source",
+   "matériel",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1wzrw6x/a_stock_glmedge15bchat_on_a_4gb_galaxy_a04e/",
+  "date_source": "2026-10-07T09:15:53+00:00",
+  "date_redac": "2026-10-07T12:57:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 850,
+   "sortie": 1273
   }
  },
  {

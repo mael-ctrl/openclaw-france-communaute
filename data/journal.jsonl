@@ -824,3 +824,9 @@
 {"ts": "2026-10-07T11:38:49+00:00", "evenement": "deploiement", "details": {"fichiers": 499, "octets": 7455162}, "sha256": "12066314bff72bde632e98431f5347da53d5896b393d242b0119a15b371ff124"}
 {"ts": "2026-10-07T11:38:49+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "827c88390b3fbaf3b2eb16fc86933f9aa3a99c675c07c8cc82085c17e43d8ec3"}
 {"ts": "2026-10-07T11:38:49+00:00", "evenement": "bilan", "details": {"duree_s": 592.6, "neufs": 2, "breves": 2, "articles": 1, "fichiers": 487, "envois": 499, "publications": 0}, "sha256": "af0f7b1c01a694362e659839864a47289ed8d7e478d12a79eb360baad1d0cb4c"}
+{"ts": "2026-10-07T12:56:47+00:00", "evenement": "collecte", "details": {"neufs": 6}, "sha256": "33af4f23c3e5117c05ac6227db95e48e972239572540ae7f139fc666787c2355"}
+{"ts": "2026-10-07T12:57:29+00:00", "evenement": "erreur", "details": {"message": "brève impossible (One Model Family, Two Gold-Level Results: Fine-Tuning Nemotr) : réponse non-JSON"}, "sha256": "5243ca49a7fc7394ac31f708777f0dd2bdd810aace122afd70a9711e5067a93f"}
+{"ts": "2026-10-07T12:57:55+00:00", "evenement": "construction", "details": {"fichiers": 488}, "sha256": "f2e5867fadbdeed94613b05d91fa79719ff825fef9638904ec4e6757454269c8"}
+{"ts": "2026-10-07T13:05:00+00:00", "evenement": "deploiement", "details": {"fichiers": 500, "octets": 7460135}, "sha256": "34f2bf584706881b53c4bdfe68ebb7a71f6c17f1e0d498e9e8b2f16eddcc41fd"}
+{"ts": "2026-10-07T13:05:01+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "96b51a034bc2ae267d8c329d0258e7eee9a0a40f25777c118cfa994b1729c58b"}
+{"ts": "2026-10-07T13:05:01+00:00", "evenement": "bilan", "details": {"duree_s": 521.1, "neufs": 6, "breves": 5, "articles": 1, "fichiers": 488, "envois": 500, "publications": 0}, "sha256": "37490a805b345fc4d73eba7e0a34a63745f83268de731769ffdcbedb07150c39"}

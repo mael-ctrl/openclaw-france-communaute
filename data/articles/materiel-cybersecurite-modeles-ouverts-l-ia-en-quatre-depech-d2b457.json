@@ -1,0 +1,41 @@
+{
+ "slug": "materiel-cybersecurite-modeles-ouverts-l-ia-en-quatre-depech-d2b457",
+ "titre": "Matériel, cybersécurité, modèles ouverts : l'IA en quatre dépêches",
+ "chapo": "Micron annonce 15 % de consommation mémoire en moins et jusqu'à 30 % de bande passante en plus avec son NVHBM. Dans le même temps, Anthropic chiffre à au moins 129 000 les failles détectées par Claude Mythos, Mistral ouvre l'aperçu de Mistral Large 4 et l'AI Act entre en application partielle.",
+ "html": "<h2 id=\"micron-deplace-le-controleur-memoire-hor\">Micron déplace le contrôleur mémoire hors du die de calcul</h2>\n<p>Le <strong>NVHBM</strong> de Micron déplace le contrôleur mémoire du die de calcul principal vers le die de base. Le fabricant annonce <strong>15 % de consommation en moins</strong> et jusqu'à <strong>30 % de bande passante en plus</strong>. Sa couche physique d'E/S personnalisée réduit par ailleurs de jusqu'à <strong>67 % la surface du boîtier</strong> qui lui était réservée.</p>\n<p>Le principe est simple à énoncer : ce qui était logé sur le die de calcul principal migre vers le die de base, et Micron en tire à la fois un gain de consommation, un gain de bande passante et une réduction de la surface occupée.</p>\n<p>NVIDIA avance des ordres de grandeur proches, mais sur un autre périmètre : jusqu'à <strong>30 % de bande passante</strong> et <strong>15 % de consommation HBM en moins</strong> face au HBM4E standard. Les deux annonces ne se comparent donc pas terme à terme — l'une décrit une architecture mémoire, l'autre un écart à une norme existante.</p>\n<h2 id=\"claude-mythos-et-le-mur-des-129-000-fail\">Claude Mythos et le mur des 129 000 failles</h2>\n<p>Anthropic annonce que son modèle <strong>Claude Mythos</strong> a identifié <strong>au moins 129 000 failles</strong> en quelques mois. En réaction à ce bilan, la start-up a décidé d'élargir l'accès à son IA conçue pour la cybersécurité.</p>\n<p>Le volume de vulnérabilités détectées donne la mesure de ce que ces modèles peuvent apporter aux équipes qui défendent des systèmes. Le bilan communiqué porte sur un nombre, pas sur la nature des failles ni sur ce qu'il en a été fait côté exploitants.</p>\n<p>La cybersécurité revient d'ailleurs comme argument commercial dans une autre annonce de la même période, côté Mistral.</p>\n<h2 id=\"mistral-large-4-et-embeddinggemma-2-deux\">Mistral Large 4 et EmbeddingGemma 2 : deux échelles de modèles ouverts</h2>\n<p>Mistral a ouvert le 6 octobre l'aperçu de <strong>Mistral Large 4</strong>, un modèle de <strong>1 050 milliards de paramètres</strong>. Le laboratoire le présente comme le plus capable des modèles ouverts hors de Chine. Les mesures indépendantes confirment un rattrapage, et la cybersécurité s'impose comme argument commercial face aux modèles ouverts chinois.</p>\n<p>À l'autre bout de l'échelle, Google DeepMind publie <strong>EmbeddingGemma 2</strong>, un modèle d'embedding multimodal open source. Il projette texte (code inclus), images, vidéo et audio dans un espace vectoriel unique de <strong>768 dimensions</strong>. Ses <strong>740M paramètres</strong> se répartissent en 270M pour le texte, 170M pour la vision et 300M pour l'audio.</p>\n<p>La cible n'est pas la même : Mistral Large 4 vise le haut de gamme ouvert, EmbeddingGemma 2 les appareils grand public — mobiles et laptops — pour la recherche, le RAG ou la classification en local. Le second s'appuie sur les avancées de Gemma 4.</p>\n<h2 id=\"ai-act-ce-qui-s-applique-deja-ce-que-l-o\">AI Act : ce qui s'applique déjà, ce que l'omnibus reporte</h2>\n<p>Depuis le <strong>6 octobre 2026</strong>, une entreprise française qui fournit ou utilise un système d'IA doit déjà respecter trois blocs du règlement <strong>(UE) 2024/1689</strong>, parmi lesquels les pratiques interdites et la maîtrise de l'IA. L'omnibus <strong>2026/1744</strong> reporte une partie des échéances prévues.</p>\n<p>Le calendrier européen touche donc directement les organisations qui déploient de l'IA en France : une part des obligations est déjà en vigueur, une autre a été repoussée. Les deux dates citées — celle du règlement et celle de l'omnibus — encadrent un même ensemble de textes.</p>\n<h2>Et maintenant ?</h2>\n<p>Ces quatre dépêches ne racontent pas la même histoire. Deux décrivent des briques — une architecture mémoire, un modèle d'embedding embarqué ; deux décrivent des usages et un cadre — détection de failles à grande échelle, conformité européenne. Ce qui les relie tient à des questions de dimensionnement : bande passante mémoire disponible, nombre de paramètres qu'un laptop peut porter, volume de failles qu'un modèle peut traiter, obligations qu'une entreprise doit déjà respecter. Ces échelles évoluent en parallèle, chacune avec ses propres contraintes.</p>",
+ "pivot": "d2b457aa72702136",
+ "tags": [
+  "matériel",
+  "sécurité",
+  "mistral",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzudla/micron_says_nvhbm_to_improve_profitability_even/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/129-000-failles-debusquees-anthropic-devoile-le-bilan-impressionnant-claude-mythos.html"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/calendrier-ai-act-ce-qui-sapplique-ce-que-lomnibus-reporte/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/mistral-large-4-ce-que-vaut-le-meilleur-modele-ouvert-hors-chine/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz5va3/googleembeddinggemma2_hugging_face/"
+  }
+ ],
+ "date": "2026-10-07T12:57:54+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1588,
+  "sortie": 5937
+ }
+}

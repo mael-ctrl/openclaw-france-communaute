@@ -246,3 +246,35 @@ d'annoncer la production.
 **Effet attendu** : permettre aux lecteurs et robots de découverte de parcourir
 300 brèves supplémentaires depuis le fil. Aucune hausse de trafic ou d'indexation
 n'est encore mesurée.
+
+---
+
+## 2026-10-07 — Croissance : des lectures liées par sujet
+
+**Constat vérifié en HTTPS** : le bloc « À lire aussi » d'une brève sur les GPU
+renvoie à deux actualités automobiles et une grille de tarifs d'API : seuls les
+contenus les plus récents sont retenus. Les articles utilisent aussi la récence,
+avec seulement deux suggestions lorsque l'article courant occupe l'une des trois
+premières places.
+
+**Amélioration unique** : sélectionner jusqu'à trois lectures selon le nombre de
+tags communs, puis conserver l'ordre récent en cas d'égalité ou faute de sujet
+commun (`engine/construction.py`). La page courante est exclue avant la limite.
+Les brèves candidates restent strictement dans les 400 pages construites. Aucun
+appel IA supplémentaire, traceur, modification de budget ou ajout de contenu.
+
+**Validation locale** : sélection thématique et exclusion d'une brève hors
+périmètre vues rouges puis vertes ; suite complète à 25 tests réussis. Essai isolé
+`--essai --sans-redaction` : 487 sorties, zéro rédaction/envoi/publication sociale,
+empreintes de `data/` du dépôt inchangées. Les liens des 400 brèves et 70 articles
+construits ont été contrôlés : aucune auto-recommandation, aucun doublon, toutes
+les destinations existent ; davantage de tags communs sur chacune de ces pages
+qu'avec la sélection précédente. Cela mesure la cohérence des tags, pas la
+qualité éditoriale ni les clics. Un timeout RSS et deux réponses tierces 403/429
+n'ont pas bloqué le build. Clone isolé hors Bureau : le dépôt Bureau est illisible
+et le clone partagé a un conflit préexistant ; aucun de ces deux arbres n'est
+modifié par cette intervention. Livraison via `maj.yml`, suivie d'une relecture
+HTTPS des deux types de page et de leurs destinations avant annonce de succès.
+
+**Effet attendu** : encourager une deuxième lecture sur le même sujet et mieux
+relier les archives. Aucun gain de pages vues ou d'indexation encore mesuré.

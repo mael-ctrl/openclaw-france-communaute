@@ -414,9 +414,17 @@ def bloc_suivre():
     </aside>"""
 
 
+def lectures_liees(courant, candidats):
+    """Trois lectures par tags communs ; l'ordre récent départage les égalités."""
+    tags = set(courant.get("tags") or [])
+    autres = [x for x in candidats if x["slug"] != courant["slug"]]
+    return sorted(autres, key=lambda x: len(tags & set(x.get("tags") or [])),
+                  reverse=True)[:3]
+
+
 def page_breve(b, breves_recentes):
     date_aff = jolie_date(b.get("date_source") or b.get("date_redac"))
-    autres = [x for x in breves_recentes if x["slug"] != b["slug"]][:3]
+    autres = lectures_liees(b, breves_recentes[:400])
     liasses = "".join(f'<li><a href="/breves/{x["slug"]}/">{ech(x["titre"])}</a></li>' for x in autres)
     contenu = f"""
 <section class="section section-lecture">
@@ -448,7 +456,7 @@ def page_breve(b, breves_recentes):
 
 def page_article(a, autres_articles):
     sources = "".join(f'<li><a href="{ech(s["url"])}" rel="noopener">{ech(s["nom"])}</a></li>' for s in a.get("sources") or [])
-    autres = "".join(f'<li><a href="/articles/{x["slug"]}/">{ech(x["titre"])}</a></li>' for x in autres_articles[:3] if x["slug"] != a["slug"])
+    autres = "".join(f'<li><a href="/articles/{x["slug"]}/">{ech(x["titre"])}</a></li>' for x in lectures_liees(a, autres_articles))
     contenu = f"""
 <section class="section section-lecture">
   <div class="enveloppe etroit">

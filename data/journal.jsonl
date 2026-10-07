@@ -759,3 +759,12 @@
 {"ts": "2026-10-06T23:02:12+00:00", "evenement": "deploiement", "details": {"fichiers": 490, "octets": 7303736}, "sha256": "6d523c75e212e08cb9cbd56c20a5937b0e514e11f51ff32968b86e03ec5f343e"}
 {"ts": "2026-10-06T23:02:13+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "eb42b6b1e487ab74376350c35913dc0e938e5e69f18dc93b732ffcc03d93b025"}
 {"ts": "2026-10-06T23:02:13+00:00", "evenement": "bilan", "details": {"duree_s": 726.5, "neufs": 5, "breves": 5, "articles": 1, "fichiers": 478, "envois": 490, "publications": 0}, "sha256": "e36a50246dace3c7ba98b0731bc7e2ff17cd23566fcd9cb9289422e97345d6aa"}
+{"ts": "2026-10-07T00:25:32+00:00", "evenement": "collecte", "details": {"neufs": 9}, "sha256": "b7625e74e205bfbc747a338b94d846e6b63659c08a8e0197a28f89d4cb9d8361"}
+{"ts": "2026-10-07T00:26:02+00:00", "evenement": "erreur", "details": {"message": "brève impossible (OpenAI drops another batch of mathematical breakthroughs) : réponse non-JSON"}, "sha256": "bb3d0613257ac5765f62d5b97a3d9aa708a3ecd79bac7e57faee7aa3382519a8"}
+{"ts": "2026-10-07T00:26:27+00:00", "evenement": "construction", "details": {"fichiers": 479}, "sha256": "3e8a952349aca8dec7390f285e4369a85772af20b7d86177ce9d07c442e59a3e"}
+{"ts": "2026-10-07T00:33:19+00:00", "evenement": "deploiement", "details": {"fichiers": 491, "octets": 7283534}, "sha256": "22e197a22984ecce2d0fc8b902172bb00cf5c5264ffea3e269491b098cfbdec1"}
+{"ts": "2026-10-07T00:33:19+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "30cac44b237750a24f887e32103931536c1baf95e4bda1beccb8a5704f71b50d"}
+{"ts": "2026-10-07T00:33:39+00:00", "evenement": "archivage", "details": {"wayback": 200}, "sha256": "cd1846d41975bee859d25f353b687aca6318a46679cd5cc42fe75b598fb74460"}
+{"ts": "2026-10-07T00:33:49+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "b9140b273df77c3dfd947fb04b95fe78705f2b3e8d9c82ad563c4b196031886a"}
+{"ts": "2026-10-07T00:33:49+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-07.json", "publications": 550}, "sha256": "e5bccc4ad51ac57a72e0107f4087e1fea920cfda10df6bed7098078a80fc5357"}
+{"ts": "2026-10-07T00:33:49+00:00", "evenement": "bilan", "details": {"duree_s": 505.2, "neufs": 9, "breves": 5, "articles": 1, "fichiers": 479, "envois": 491, "publications": 4}, "sha256": "7a7614ded93a1f524002f860b29c55a774a67d7e375b624891659c0d35f5f73f"}

@@ -61,7 +61,8 @@
       <a class="btn btn-principal btn-large" href="/dl/kit-openclaw.zip?v=2">⬇ Télécharger le kit (.zip)</a>
       <a class="btn btn-secondaire btn-large" href="/dl/kit-openclaw/">📂 Parcourir les fichiers</a>
     </div>
-    <p style="margin:20px 0 0"><a href="/guides/demarrer-openclaw-hermes/">Avant d’installer : coûts, premier essai et vérifications →</a></p>
+    <p style="margin:20px 0 0"><a href="/guides/demarrer-openclaw-hermes/">Avant d’installer : coûts, premier essai et vérifications →</a><br>
+      <a href="#depannage">OpenClaw installé, mais inaccessible ? Trois contrôles →</a></p>
     <div class="mini">
       <span>⏱️ <b>~30 min</b> d'installation</span>
       <span>🔒 <b>Sécurisé par défaut</b></span>
@@ -114,6 +115,69 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section id="depannage" aria-labelledby="titre-depannage" style="scroll-margin-top:88px">
+    <div class="titre-section">
+      <div class="kicker">Dépannage OpenClaw</div>
+      <h2 id="titre-depannage">Installé, mais inaccessible ? Commence ici</h2>
+      <p>Identifie le blocage avant de relancer une installation. Choisis les commandes de ta méthode :
+      installation classique ou Docker. Exécute-les dans ton terminal, pas dans une conversation avec l’agent.</p>
+    </div>
+    <details class="faq" open>
+      <summary>La passerelle ne semble pas démarrée</summary>
+      <div class="reponse">
+        <p><strong>Installation classique :</strong> sur la machine où OpenClaw est installé,
+        lance <code>openclaw gateway status</code>. Consulte ensuite <code>openclaw logs --follow</code>
+        pour repérer une erreur répétée ; <kbd>Ctrl+C</kbd> quitte la lecture des journaux.</p>
+        <p><strong>Avec Docker :</strong> dans le dossier du kit contenant <code>docker-compose.yml</code>,
+        lance <code>docker compose ps --all</code>, puis
+        <code>docker compose logs --tail 50 openclaw-gateway</code>.
+        Le premier affiche aussi les conteneurs arrêtés ; le second limite la lecture aux dernières lignes.
+        Si le kit est sur un VPS, ces commandes se lancent <strong>sur le serveur</strong> via SSH.</p>
+        <p>Ne supprime pas tes dossiers de données ou tes sauvegardes pour tenter de réparer.
+        Note le message exact et consulte le <a href="/dl/kit-openclaw/GUIDE.md">guide du kit</a>
+        avant toute modification.</p>
+      </div>
+    </details>
+    <details class="faq">
+      <summary>Le tableau de bord du VPS ne s’ouvre pas sur mon ordinateur</summary>
+      <div class="reponse">
+        <p><code>127.0.0.1</code> désigne la machine sur laquelle tu ouvres le navigateur, pas ton VPS.
+        Le kit Docker garde volontairement le port accessible seulement en local sur le serveur.</p>
+        <p>Avec le port par défaut, ouvre un tunnel <strong>depuis ton ordinateur</strong> :
+        <code>ssh -N -L 18789:127.0.0.1:18789 utilisateur@votre-serveur</code>.
+        Remplace <code>utilisateur@votre-serveur</code> par ton accès SSH, laisse ce terminal ouvert,
+        puis ouvre <code>http://127.0.0.1:18789</code> dans ton navigateur.</p>
+        <p>Si tu as changé <code>OPENCLAW_GATEWAY_PORT</code> dans le kit Docker,
+        adapte le dernier port du tunnel au port publié sur le serveur.
+        Ne publie pas le port de la passerelle sur Internet pour contourner le problème.</p>
+      </div>
+    </details>
+    <details class="faq">
+      <summary>La page s’ouvre, mais affiche « unauthorized » ou « pairing required »</summary>
+      <div class="reponse">
+        <p>La page accessible ne prouve pas que ton navigateur est autorisé.
+        Vérifie le jeton de cette installation, sans le confondre avec la clé API du modèle.
+        Avec Docker et une passerelle démarrée, retrouve le lien avec
+        <code>docker compose run --rm openclaw-cli dashboard --no-open</code>, depuis le dossier du kit.
+        Si tu as personnalisé le port Docker, adapte celui du lien au port local de ton tunnel.</p>
+        <p>Pour une demande d’appairage, suis le
+        <a href="https://docs.openclaw.ai/install/docker/sandbox-and-troubleshooting" rel="noopener">dépannage officiel Docker</a>
+        et n’autorise que ton propre navigateur après vérification de la demande.
+        Ne désactive pas l’authentification pour faire disparaître l’erreur.</p>
+      </div>
+    </details>
+    <p>Besoin d’aide en français ? <a href="mailto:support@openclaw-france.fr">Contacte notre support</a>
+    avec ton système, ta méthode d’installation et le message exact.
+    <strong>Masque les clés API, les jetons et les données personnelles</strong> dans les extraits ou captures ;
+    ne joins pas ton fichier <code>.env</code>, un lien contenant un jeton ou une sauvegarde complète.</p>
+    <p>Sources : <a href="https://docs.openclaw.ai/help/troubleshooting" rel="noopener">diagnostic OpenClaw</a>,
+    <a href="https://docs.openclaw.ai/gateway/remote" rel="noopener">accès distant officiel</a>,
+    <a href="https://docs.docker.com/reference/cli/docker/compose/ps/" rel="noopener">état des conteneurs</a> et
+    <a href="https://docs.docker.com/reference/cli/docker/compose/logs/" rel="noopener">journaux Docker</a>,
+    consultés le <time datetime="2026-10-07">07/10/2026</time>.
+    Cette aide indépendante ne remplace pas la documentation officielle, qui prévaut en cas d’écart.</p>
   </section>
 
   <section>

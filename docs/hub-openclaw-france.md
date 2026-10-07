@@ -109,6 +109,42 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   Prochaine priorité de distribution : finaliser l’accès sécurisé Uneed avant
   la soumission gratuite autorisée, sans nouvelle promotion Bluesky cette semaine.
 
+## Dépannage OpenClaw — livraison du 07/10/2026
+
+- **Une amélioration** : aide sur `/openclaw/#depannage`, reliée depuis le haut
+  de page. Trois cas : passerelle arrêtée, tableau de bord inaccessible depuis
+  un VPS, refus d’authentification ou appairage. Les instructions distinguent
+  installation classique et Docker, ordinateur et serveur. Pas d’ouverture de
+  port public, de désactivation de sécurité, de suppression de données ni
+  d’approbation aveugle ; consignes de masquage des secrets avant toute aide.
+- Sources officielles OpenClaw (diagnostic, Docker, accès distant) et Docker
+  Compose (état et journaux) consultées le 07/10. Les services cités correspondent
+  au Compose du kit ; aucun kit ni script d’installation modifié.
+- Tests : **3 nouveaux tests** échouent avant ajout puis passent ; suite complète
+  **22 tests OK**. Les 3 nouveaux tests passent aussi sur le HTML public après
+  décodage de la protection e-mail Cloudflare ; section publiée identique.
+- Chrome sans JavaScript : ancre, FAQ au clavier et styles vérifiés localement
+  à **1440, 1024, 430, 390, 375 et 360 px**, puis en production à **1440, 390 et
+  360 px**. Aucun débordement horizontal détecté, FAQ ouvertes comprises.
+  Ceci valide la page, pas une installation réelle d’OpenClaw ou de Docker.
+- Déploiement avec `python3 outils/deployer_openclaw.py` depuis le clone cron
+  `~/.hermes/workspaces/hub-openclaw-20261003`, hors Bureau. Le conflit préexistant
+  de l’autre clone dans `data/stats.json` est laissé intact. Sauvegarde privée
+  préalable et absence de divergence production/Git vérifiées ; **35 fichiers
+  relus via FTP et identiques aux sources** après envoi. Les deux ZIP sont
+  intègres et inchangés octet pour octet (dates/modes restaurés avant régénération).
+- Santé finale via curl : les quatre pages et les deux ZIP demandés répondent
+  **HTTP 200** ; sitemap et clé IndexNow aussi. Une lecture urllib sans en-tête
+  particulier a reçu 403 ; vérification reprise avec curl et Chrome, sans
+  désactiver TLS ni changer les règles de sécurité du site.
+- Sitemap actualisé pour OpenClaw uniquement. **IndexNow HTTP 200** pour
+  `/openclaw/` : notification acceptée, pas preuve d’indexation.
+- **Aucune distribution supplémentaire** : journal du 07/10 relu après mise à
+  jour Git ; les accès/permissions bloquants y sont déjà documentés. Bluesky
+  reste exclu cette semaine après le post du 05/10. Prochaine priorité : accès
+  sécurisé Uneed pour la soumission gratuite autorisée, sans nouveau contact
+  ni répétition promotionnelle en attendant.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

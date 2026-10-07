@@ -1,5 +1,107 @@
 [
  {
+  "id": "7a2b73b3a637cfe2",
+  "slug": "un-3090-et-32-go-de-ram-peut-on-faire-tourner-qwen3-6-35b-a3b-en-q8-7a2b73",
+  "titre": "Un 3090 et 32 Go de RAM : peut-on faire tourner Qwen3.6-35B-A3B en Q8 ?",
+  "resume": "Sur r/LocalLLaMA, un utilisateur disposant d'un seul RTX 3090 et de 32 Go de RAM cherche un moteur d'inférence capable de faire tourner Qwen/Qwen3.6-35B-A3B en Q8 rapidement. Il évoque strata et ninfer, mais juge insuffisants les résultats obtenus avec Qwen Flash en Q2 comme ceux d'un modèle 27B en Q4. Il demande donc si un moteur permet d'y parvenir sur sa configuration.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x08bns/i_have_single_3090_and_32gb_of_ram_are_there_any/",
+  "date_source": "2026-10-07T21:05:23+00:00",
+  "date_redac": "2026-10-07T22:18:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 708,
+   "sortie": 1163
+  }
+ },
+ {
+  "id": "d012aa3c8170e8a8",
+  "slug": "un-utilisateur-decouvre-winnow-12b-par-hasard-et-s-etonne-du-silence-d-d012aa",
+  "titre": "Un utilisateur découvre Winnow-12B par hasard et s'étonne du silence du forum",
+  "resume": "Sur r/LocalLLaMA, un utilisateur raconte avoir trouvé le modèle Winnow-12B par pure hasard, alors qu'il cherchait un modèle de décision à intégrer dans un projet de simulation. Il s'étonne de ne tomber sur aucune discussion consacrée à ce modèle sur le forum et demande si quelqu'un l'utilise.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x08agc/why_cant_i_find_anything_about_winnow12b_on_this/",
+  "date_source": "2026-10-07T21:04:06+00:00",
+  "date_redac": "2026-10-07T22:18:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 653,
+   "sortie": 589
+  }
+ },
+ {
+  "id": "e4957e2588c236e0",
+  "slug": "un-test-simple-pour-reperer-les-modeles-optimises-pour-les-classements-e4957e",
+  "titre": "Un test simple pour repérer les modèles optimisés pour les classements",
+  "resume": "Un membre de r/LocalLLaMA partage sa question rituelle pour tester un modèle fraîchement publié : lui demander de décrire le casting principal d'un dessin animé des années 2010 un peu connu, comme Totally Spies, Randy Cunningham ou Slugterra. La plupart des modèles de la gamme 30B échouent complètement, Qwen inclus selon lui. Ceux qui y arrivent tiendraient une vraie conversation humaine.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x088rd/whats_your_go_to_question_to_check_if_newly/",
+  "date_source": "2026-10-07T21:02:10+00:00",
+  "date_redac": "2026-10-07T22:19:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 706,
+   "sortie": 1117
+  }
+ },
+ {
+  "id": "d46ad0e2d4b7e3ea",
+  "slug": "nous-research-valorise-1-5-md-et-lance-des-agents-ia-pour-les-entrepri-d46ad0",
+  "titre": "Nous Research valorisé 1,5 Md$ et lance des agents IA pour les entreprises",
+  "resume": "Nous Research, développeur de Hermes Agent, confirme avoir atteint une valorisation de 1,5 milliard de dollars et annonce une levée de 90 millions de dollars en série B. La société lance simultanément des agents IA destinés aux utilisateurs professionnels.",
+  "tags": [
+   "hermes",
+   "agents",
+   "business"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+  "date_source": "2026-10-07T20:48:45+00:00",
+  "date_redac": "2026-10-07T22:19:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 621,
+   "sortie": 1479
+  }
+ },
+ {
+  "id": "6a6ff95ff66cff96",
+  "slug": "qwen-3-8-flash-next-face-a-un-35b-a3b-le-dilemme-d-une-config-16-go-6a6ff9",
+  "titre": "Qwen 3.8 Flash-Next face à un 35B-A3B : le dilemme d'une config 16 Go",
+  "resume": "Sur r/LocalLLaMA, un utilisateur équipé d'une RTX 4080 16 Go et de 64 Go de RAM demande si le passage à Qwen 3.8 Flash-Next vaut le coup. Il fait tourner aujourd'hui Qwen 3.6 35B-A3B dans une quantification Unsloth qui tient entièrement en VRAM, et il en est satisfait. La question porte sur Flash-Next en Q2/Q3 sur une configuration comparable, posée avant d'engager un téléchargement de plus de 30 Go.",
+  "tags": [
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x07qlh/qwen_38_flashnext_on_64gb_ram_16gb_vram_worth_it/",
+  "date_source": "2026-10-07T20:43:17+00:00",
+  "date_redac": "2026-10-07T22:19:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 723,
+   "sortie": 663
+  }
+ },
+ {
   "id": "4e771c57cb449efb",
   "slug": "un-post-r-localllama-relaie-une-publication-de-ggerganov-sur-llama-cpp-4e771c",
   "titre": "Un post r/LocalLLaMA relaie une publication de ggerganov sur llama.cpp",

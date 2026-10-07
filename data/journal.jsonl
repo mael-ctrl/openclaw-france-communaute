@@ -865,3 +865,10 @@
 {"ts": "2026-10-07T20:40:27+00:00", "evenement": "deploiement", "details": {"fichiers": 507, "octets": 7566024}, "sha256": "d9b4fe8ef7ef3b8bc250ce33edb8edf4b4b020f639f84b93d38bbe9d90fe82a7"}
 {"ts": "2026-10-07T20:40:27+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "95c3d7b86e4ae5125ba6cda5d655867d02020fda8c542c3194abc0112e786cdc"}
 {"ts": "2026-10-07T20:40:27+00:00", "evenement": "bilan", "details": {"duree_s": 552.6, "neufs": 5, "breves": 5, "articles": 1, "fichiers": 495, "envois": 507, "publications": 0}, "sha256": "ba9b2bacc20c3dd233e05d6d530d6396dbe932d519183d8453914b3312df08f6"}
+{"ts": "2026-10-07T22:18:48+00:00", "evenement": "collecte", "details": {"neufs": 6}, "sha256": "c3953870f2197ea0a8ac553fbedb1773e4127b899ff9228f537ba3e3fb00f0f9"}
+{"ts": "2026-10-07T22:19:14+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Claude Haiku 5.5) : réponse non-JSON"}, "sha256": "e9bbc076a874cfd1784fc3b2c72449dd4365e6c9ba9c9ca4a156882d851508e9"}
+{"ts": "2026-10-07T22:19:48+00:00", "evenement": "erreur", "details": {"message": "article impossible : réponse non-JSON"}, "sha256": "74a51a79b4d7206bc9e6a7a5eca165f355b1149c1060cd740eafac7dcfd62cb9"}
+{"ts": "2026-10-07T22:19:48+00:00", "evenement": "construction", "details": {"fichiers": 495}, "sha256": "9d6a876d606c7670c94dfc8994cf17ef659ac7706faa57c559a2e57fefc09dd7"}
+{"ts": "2026-10-07T22:29:04+00:00", "evenement": "deploiement", "details": {"fichiers": 507, "octets": 7566246}, "sha256": "d522c2abc8b2ebdbaa2ac5f54dcfff2ba95f30a730565e62c8d166ba9eb16abb"}
+{"ts": "2026-10-07T22:29:04+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "645ad9416068cf583aa137ee140afd2e229d54c0df77a6dfb6339f06bc012771"}
+{"ts": "2026-10-07T22:29:04+00:00", "evenement": "bilan", "details": {"duree_s": 625.5, "neufs": 6, "breves": 5, "articles": 0, "fichiers": 495, "envois": 507, "publications": 0}, "sha256": "b1ca82c1421709932957ac38aa0e47d99071f7911fd29d24cacb3b3439fbeddf"}

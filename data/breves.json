@@ -1,5 +1,27 @@
 [
  {
+  "id": "309d0fdd417595cf",
+  "slug": "openclaw-2026-10-1-beta-2-memoire-medias-et-diagnostics-309d0f",
+  "titre": "OpenClaw 2026.10.1-beta.2 : mémoire, médias et diagnostics",
+  "resume": "OpenClaw publie la bêta 2 de la version 2026.10.1. Côté sessions et mémoire, l'usage survit aux changements de registre, les pièces jointes des espaces distants arrivent, et les annulations en file ne bloquent plus les tours actifs. La migration des caches d'embeddings se fait par lots bornés, avec signalement des lignes trop grosses. Les vidéos locales se relisent dans le fil et les liens média refusés renvoient une erreur utile.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.1-beta.2",
+  "date_source": "2026-10-08T00:41:22+00:00",
+  "date_redac": "2026-10-08T00:52:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 821,
+   "sortie": 1139
+  }
+ },
+ {
   "id": "f0816bd844c1fa83",
   "slug": "ben-affleck-raconte-comment-les-reseaux-convolutifs-ont-servi-les-effe-f0816b",
   "titre": "Ben Affleck raconte comment les réseaux convolutifs ont servi les effets spéciaux",

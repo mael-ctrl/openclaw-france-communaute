@@ -1,30 +1,18 @@
 {
- "runs": 167,
- "items_collectes": 1347,
- "breves_publiees": 625,
+ "runs": 168,
+ "items_collectes": 1353,
+ "breves_publiees": 630,
  "articles_publies": 89,
- "tokens_entree": 594152,
- "tokens_sortie": 855253,
+ "tokens_entree": 597849,
+ "tokens_sortie": 858659,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-08T18:47:57+00:00",
+ "dernier_run": "2026-10-08T20:02:27+00:00",
  "solde": {
-  "total": "87.15",
+  "total": "87.14",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-08T02:26:57+00:00",
-   "message": "article impossible : réponse non-JSON"
-  },
-  {
-   "ts": "2026-10-08T13:25:32+00:00",
-   "message": "brève impossible (Hermes Agent v0.21.6) : réponse non-JSON"
-  },
-  {
-   "ts": "2026-10-08T13:25:53+00:00",
-   "message": "brève impossible (openclaw 2026.9.9) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-08T14:12:10+00:00",
    "message": "brève impossible (Auto mode plugin for the Pi coding agent that uses Kev/Laya ) : réponse non-JSON"
@@ -32,10 +20,22 @@
   {
    "ts": "2026-10-08T18:47:13+00:00",
    "message": "brève impossible (chatgpt's new intelligent ui was reverse engineered in less ) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-08T20:01:37+00:00",
+   "message": "brève impossible (v2.1.295) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-08T20:02:27+00:00",
+   "message": "article impossible : Expecting ',' delimiter: line 16 column 6 (char 3210)"
+  },
+  {
+   "ts": "2026-10-08T20:04:14+00:00",
+   "message": "déploiement : [Errno 104] Connection reset by peer"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 4.51,
+ "depense_usd": 4.52,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -692,10 +692,14 @@
   [
    "2026-10-08T18:47:01+00:00",
    "87.15"
+  ],
+  [
+   "2026-10-08T20:01:25+00:00",
+   "87.14"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.22,
+ "depense_mois_usd": 2.23,
  "archive_tentatives": {
   "jour": "2026-10-08",
   "n": 1

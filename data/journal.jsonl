@@ -952,3 +952,10 @@
 {"ts": "2026-10-08T18:57:26+00:00", "evenement": "deploiement", "details": {"fichiers": 519, "octets": 7911607}, "sha256": "6bab1903f6e579f9e63f230d6110d4154c434d3944442d9dbfe7f15c2813074e"}
 {"ts": "2026-10-08T18:57:26+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "04d13f72e789dd5ddf8bfc53e093537f2c97471f1d337e238916dc7f38793b0f"}
 {"ts": "2026-10-08T18:57:26+00:00", "evenement": "bilan", "details": {"duree_s": 651.6, "neufs": 40, "breves": 5, "articles": 1, "fichiers": 507, "envois": 519, "publications": 0}, "sha256": "d745eb6f983532a2e28e91c601ee9c8524f51e7ba72201037e4ab76965237af0"}
+{"ts": "2026-10-08T20:01:25+00:00", "evenement": "collecte", "details": {"neufs": 6}, "sha256": "b70396ec476b548b9709911093b76611e5ab708c300ed2baca4f99f1da7e1a7a"}
+{"ts": "2026-10-08T20:01:37+00:00", "evenement": "erreur", "details": {"message": "brève impossible (v2.1.295) : réponse non-JSON"}, "sha256": "f1a0fbe00bb0b5c532ca575f80e0b8037c36c70333b490398f7a7a46be3d9361"}
+{"ts": "2026-10-08T20:02:27+00:00", "evenement": "erreur", "details": {"message": "article impossible : Expecting ',' delimiter: line 16 column 6 (char 3210)"}, "sha256": "b8fa2d3789b34b7b540d7f57c59c8152c2d94061347cc0c2eb5e7b7e0ec1539e"}
+{"ts": "2026-10-08T20:02:27+00:00", "evenement": "construction", "details": {"fichiers": 507}, "sha256": "551c843b09edf032080c0fda0479e16abc3f764adb68a1a7ff10a90c90fd02d1"}
+{"ts": "2026-10-08T20:04:14+00:00", "evenement": "erreur", "details": {"message": "déploiement : [Errno 104] Connection reset by peer"}, "sha256": "73b7d73aaf29e57a2b1ce27bc7a1796986f2b5649fd05b22a97b4980fcd7cfbb"}
+{"ts": "2026-10-08T20:04:14+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "a4d5a9c22dde4cb48cd1e80fa58cf9a9d353ee7caf94182e2e08f84fd8027465"}
+{"ts": "2026-10-08T20:04:15+00:00", "evenement": "bilan", "details": {"duree_s": 213.8, "neufs": 6, "breves": 5, "articles": 0, "fichiers": 507, "publications": 0}, "sha256": "56f68b317bc77ee88439df019226b4063a09493e8ddd340211aa4aa74fe22ed3"}

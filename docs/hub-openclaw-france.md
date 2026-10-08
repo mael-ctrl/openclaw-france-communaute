@@ -145,6 +145,46 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   sécurisé Uneed pour la soumission gratuite autorisée, sans nouveau contact
   ni répétition promotionnelle en attendant.
 
+## Parcours de consultation des kits — livraison du 08/10/2026
+
+- **Une amélioration** : le bouton « Parcourir les fichiers » des pages
+  `/openclaw/` et `/hermes/` mène désormais à leur catalogue expliqué
+  (`#fichiers`), plutôt qu’à un index Apache sans contexte. Ordre de lecture
+  indiqué (README puis GUIDE avant les scripts), accès sans compte ni ZIP et
+  rappel de ne pas exposer les clés API. Le fichier `config-exemple.yaml`
+  manquant du catalogue Hermes est maintenant lié : les **8 fichiers OpenClaw**
+  et les **5 fichiers Hermes** sont tous accessibles avec une description.
+  Aucun ajout dans les archives, aucune commande ni configuration de kit modifiée.
+- Les **3 nouveaux tests** de `tests/test_hub_fichiers.py` reproduisent les
+  manques avant correction ; suite complète **31 tests OK** après correction.
+  Catalogue exhaustif comparé aux dossiers réels, liens locaux valides, ancres
+  uniques et section nommée pour les technologies d’assistance. Les 4 scripts
+  shell passent `bash -n` ; cela ne teste pas une installation des logiciels.
+- Chrome sans JavaScript : accès au catalogue au clavier, styles et absence de
+  débordement vérifiés sur les deux pages à **1440, 1024, 430, 390, 375 et 360 px**
+  en local, puis à **1440, 390 et 360 px** en production. L’ancre positionne le
+  titre sous l’en-tête fixe ; captures mobiles conservées hors dépôt.
+- Déploiement avec `python3 outils/deployer_openclaw.py` depuis le clone cron
+  `~/.hermes/workspaces/hub-openclaw-20261003`, hors Bureau. Le clone partagé
+  avec conflit préexistant reste intact. Sauvegarde privée préalable et absence
+  de divergence production/Git vérifiées ; **35 fichiers relus via FTP** et
+  identiques aux sources après envoi. FTPS essayé mais non pris en charge par
+  ce serveur ; lecture reprise avec le protocole du déployeur existant.
+  Les deux ZIP sont intègres et inchangés octet pour octet après restauration
+  des dates/modes avant régénération.
+- Santé finale : **HTTP 200** pour les six URL demandées. Les **21 URL** du
+  contrôle étendu (pages, archives, fichiers des kits, sitemap et clé IndexNow)
+  répondent 200 ; les fichiers non HTML sont identiques aux sources. Les deux
+  liens ZIP effectivement utilisés par les boutons (`?v=2`) sont aussi relus,
+  HTTP 200 et identiques. Catalogues et nouveaux boutons publics conformes aux
+  sources. Sitemap actualisé sur les deux pages ; **IndexNow HTTP 200** pour
+  `/openclaw/` et `/hermes/` : notification acceptée, pas indexation prouvée.
+- **Aucune distribution supplémentaire** : le contrôle du 08/10 est déjà
+  consigné dans `docs/distribution-textes.md` ; accès et permissions bloquants
+  inchangés selon ce journal. Pas de répétition Bluesky après le post du 05/10,
+  ni de nouveau contact. Prochaine priorité : disposer d’un accès sécurisé
+  Uneed pour la soumission gratuite autorisée, avec indépendance explicite.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

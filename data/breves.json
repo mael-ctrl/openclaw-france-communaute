@@ -1,5 +1,132 @@
 [
  {
+  "id": "9dff27ddbb180fb8",
+  "slug": "hugging-face-quand-le-modele-n-existe-pas-on-le-construit-soi-meme-9dff27",
+  "titre": "Hugging Face : quand le modèle n'existe pas, on le construit soi-même",
+  "resume": "Hugging Face consacre un billet de blog à un cas de figure parlant : celui d'un modèle qui n'existe pas encore. Plutôt que d'attendre une solution toute faite, l'article explore la démarche consistant à le construire soi-même. Le sujet concerne quiconque cherche un modèle adapté à un besoin précis et ne le trouve pas dans l'offre existante.",
+  "tags": [
+   "dev",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "Hugging Face",
+  "lien_source": "https://huggingface.co/blog/building-with-ml-intern",
+  "date_source": null,
+  "date_redac": "2026-10-08T22:50:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 582,
+   "sortie": 974
+  }
+ },
+ {
+  "id": "fac8860cc4b22582",
+  "slug": "anthropic-lance-oss-scanner-des-scans-de-securite-gratuits-pour-l-open-fac886",
+  "titre": "Anthropic lance OSS Scanner, des scans de sécurité gratuits pour l'open-source",
+  "resume": "Anthropic propose un nouveau service, OSS Scanner, pour aider les projets open-source à traquer des vulnérabilités de sécurité. Les projets qui s'inscrivent reçoivent, selon l'entreprise, des scans de sécurité réguliers et approfondis réalisés par ses modèles les plus puissants, sans frais. Les mainteneurs pourraient ainsi être alertés plus tôt de problèmes potentiels.",
+  "tags": [
+   "open-source",
+   "sécurité",
+   "claude",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+  "date_source": "2026-10-08T21:53:51+00:00",
+  "date_redac": "2026-10-08T22:49:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 662,
+   "sortie": 752
+  }
+ },
+ {
+  "id": "a7718a3aec17af62",
+  "slug": "mlx-stager-les-poids-quantifies-en-fp8-dope-le-prefill-de-40-a7718a",
+  "titre": "MLX : stager les poids quantifiés en FP8 dope le prefill de 40 %",
+  "resume": "Sur MLX, la multiplication de matrices quantifiées restage les opérandes en FP16. En les stagant en FP8, on accède au chemin matriciel FP8 deux fois plus rapide du matériel Apple Silicon M6. La même idée en int8 sur M5 donne un gain comparable de prefill : +40 % sur Qwen3-8B, jusqu'à +50 % sur un modèle 27B. Ce fork, non upstream (mlx#4627), augmente la perplexité de moins de 1 %.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x13fo2/staging_quantized_weights_to_fp8_instead_of_fp16/",
+  "date_source": "2026-10-08T21:31:17+00:00",
+  "date_redac": "2026-10-08T22:50:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 854,
+   "sortie": 1263
+  }
+ },
+ {
+  "id": "76e7596432227989",
+  "slug": "un-waterblock-pour-la-r9700-ouvrant-la-voie-a-des-configurations-4x-ou-76e759",
+  "titre": "Un waterblock pour la R9700, ouvrant la voie à des configurations 4x ou 6x silencieuses",
+  "resume": "Un waterblock dédié à la R9700 vient d'être présenté sur r/LocalLLaMA. Le design tiendrait sur un seul slot, ce qui laisse la place d'en empiler plusieurs dans un même boîtier. La publication évoque ainsi des configurations 4x ou 6x, plus silencieuses.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x135oh/bois_theres_now_a_waterblock_for_the_r9700_quiet/",
+  "date_source": "2026-10-08T21:19:58+00:00",
+  "date_redac": "2026-10-08T22:50:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 649,
+   "sortie": 1244
+  }
+ },
+ {
+  "id": "1b6910e88bc556c9",
+  "slug": "carson-gross-la-programmation-reste-un-metier-viable-malgre-l-ia-1b6910",
+  "titre": "Carson Gross : la programmation reste un métier viable malgré l'IA",
+  "resume": "Pour Carson Gross, cité par Simon Willison, la programmation repose sur deux choses : résoudre des problèmes avec des ordinateurs et apprendre à maîtriser la complexité de ces solutions. Il voit mal un futur où ces compétences vaudraient moins qu'aujourd'hui. Le métier restera donc viable, même avec l'arrivée des outils d'IA.",
+  "tags": [
+   "dev",
+   "société",
+   "skills"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/8/carson-gross/",
+  "date_source": "2026-10-08T21:05:44+00:00",
+  "date_redac": "2026-10-08T22:50:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 665,
+   "sortie": 847
+  }
+ },
+ {
+  "id": "c094acddb0351bc1",
+  "slug": "llama-cpp-sous-vulkan-les-gpu-classes-par-leur-rapport-performance-pri-c094ac",
+  "titre": "Llama.cpp sous Vulkan : les GPU classés par leur rapport performance-prix",
+  "resume": "Un tableau publié sur r/LocalLLaMA classe 76 modèles de GPU selon leur rapport performance-prix pour l'inférence locale sous Vulkan, à partir du fil de discussion llama.cpp #10879. Le test s'appuie sur le modèle Llama 2 7B en quantification Q4_0. Selon ces données, le backend Vulkan bouleverse la hiérarchie : les cartes grand public de milieu de gamme sont bridées par leurs bus étroits (128 ou 192 bits) en décodage (tg128), tandis que les composants professionnels et les anciens flagships à bus large dominent en performance-prix, sur la base du marché de l'occasion 2026.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x12dkh/gpu_vulkan_llamacpp_benchmarks_sorted_by_price_to/",
+  "date_source": "2026-10-08T20:49:04+00:00",
+  "date_redac": "2026-10-08T22:50:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 831,
+   "sortie": 449
+  }
+ },
+ {
   "id": "e173082eaf751c21",
   "slug": "trois-chercheurs-securite-vires-d-openai-contestent-les-accusations-e17308",
   "titre": "Trois chercheurs sécurité virés d'OpenAI contestent les accusations",

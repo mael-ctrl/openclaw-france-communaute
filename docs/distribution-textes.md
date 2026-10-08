@@ -265,6 +265,17 @@ Format : `AAAA-MM-JJ | plateforme | action | URL du post | statut | retours`
 
 - `2026-10-07 | Contrôle de distribution (JDH en premier, puis Uneed et replis) | Aucune action éligible et exécutable retenue ; blocages revérifiés | Aucun lien public | ⏸️ Aucun envoi | JDH : pas d'invitation de création de compte ; LinuxFr : pas d'accord humain ; Uneed : permission acquise mais accès sécurisé toujours absent. Zéro message, formulaire soumis, compte créé, publication ou paiement. Détails ci-dessous ; quota quotidien non consommé par cette mission.`
 
+- `2026-10-08 | Contrôle de distribution (JDH en premier, puis Uneed et replis) | Blocages inchangés ; aucune action éligible et exécutable | Aucun lien public | ⏸️ Aucun envoi | JDH : confirmation de demande uniquement, pas d'invitation de compte ; LinuxFr : pas d'accord humain ; Uneed : accord acquis mais accès sécurisé absent. Aucun compte, formulaire soumis, message, post ou paiement ; quota quotidien non consommé.`
+
+### Contrôle de la mission planifiée du 08/10 (lecture seule)
+
+- Journal et plan relus après `git pull --no-rebase`, puis resynchronisés avant journalisation. Aucune distribution du jour inscrite au contrôle ; Bluesky exclu pour la semaine du 05/10 au 11/10 par le post du 05/10. Aucune relance automatique des demandes anciennes.
+- IMAP en lecture seule avec `BODY.PEEK`, recherches élargies aux objets des messages : JDH UID 5 = confirmation de **demande** uniquement ; LinuxFr UID 12 = accusé de distribution SYMPA, aucune réponse humaine retrouvée ; Uneed UID 14 = permission du 05/10 relue, sans nouveau message. Les liens transactionnels et jetons ne sont pas recopiés ici.
+- JDH `/login`, Uneed `/login` et `/signup` revérifiés au navigateur : pas de session connectée ni d'identifiant correspondant dans le coffre. L'inscription Uneed demande un mot de passe et sa confirmation ; pas de demande interactive en cron ni de contournement du circuit sécurisé. Les conditions Uneed restent subordonnées à la permission spécifique reçue ; file gratuite et déclaration d'indépendance conservées pour la reprise.
+- Replis : jlai.lu interdit toujours la publicité (`/api/v3/site`) ; HN interdit les posts automatisés et les textes IA ; Product Hunt requiert un compte personnel, pas de compte de marque. Aucun accès Reddit sécurisé ni historique de participation établi. Discord reste exclu, awesome-lists et Framalibre en réserve selon le plan. Microlaunch et AIxploria affichent des soumissions payantes ; aucun achat. Futurepedia : `/submit-tool` et la variante `/submittool` trouvée par recherche affichent une 404 ; aucun canal compatible établi. Ben's Bites News : erreur 522 à l'extraction et délai de navigation dépassé, aucune soumission.
+- Accueil, `/openclaw/` et `/hermes/` : HTTP 200 en HTTPS strict ; gratuité relue sur l'accueil dans le navigateur. Aucun déploiement, changement moteur, donnée, preuve, registre d'envois ou cron modifié.
+- Clone cron partagé laissé intact : conflit préexistant `data/stats.json` et modifications locales. Mission effectuée dans un clone GitHub isolé sous le scratch, hors Bureau ; seul ce journal est modifié. Les workflows du dépôt ne se déclenchent pas sur ce push documentaire.
+
 ### Contrôles préalables du 03/10 (lecture seule, pas des actions de distribution)
 
 - Journal du Hacker écarté cette semaine : demande déjà effectuée le 01/10. La boîte mail contient la confirmation de la **demande**, pas une invitation de création de compte ; aucune relance envoyée.

@@ -1,5 +1,133 @@
 [
  {
+  "id": "109a3edd00604290",
+  "slug": "cloudflare-clef-teste-via-llama-cpp-un-premier-resultat-decevant-109a3e",
+  "titre": "Cloudflare Clef testé via llama.cpp : un premier résultat décevant",
+  "resume": "Un utilisateur de r/LocalLLaMA a testé Cloudflare Clef avec llama.cpp 0.6.0 et le quant Q4_K_M de bartowski, sur un cas simple de tri de ticket support : demande de remboursement, équipe à saisir, niveau d'urgence. Le score obtenu sur la question de type « noul » plafonne à 0,57, contre 0,99 lors de son test avec Jev. L'auteur dit avoir perdu confiance après ce premier essai basique.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0jhna/cloudflare_clef_experience/",
+  "date_source": "2026-10-08T06:16:41+00:00",
+  "date_redac": "2026-10-08T06:46:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 852,
+   "sortie": 1056
+  }
+ },
+ {
+  "id": "447ee5d7fbe9e67f",
+  "slug": "hermes-agent-publie-la-version-candidate-rc-2-v0-21-6-447ee5",
+  "titre": "Hermes Agent publie la version candidate rc.2-v0.21.6",
+  "resume": "Hermes Agent, le projet d'agent de NousResearch, publie sur GitHub le tag de version rc.2-v0.21.6, daté du 8 octobre 2026. L'extrait associé ne contient que des métadonnées techniques : deuxième tentative de publication, autopublication désactivée et identifiant de commit. Aucun détail sur le contenu du correctif ou d'éventuelles fonctionnalités n'est précisé à ce stade.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.2-v0.21.6",
+  "date_source": "2026-10-08T06:09:23+00:00",
+  "date_redac": "2026-10-08T06:46:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 612,
+   "sortie": 854
+  }
+ },
+ {
+  "id": "2077ce15454ccd03",
+  "slug": "decompilation-de-jeux-les-modeles-ouverts-peuvent-ils-suivre-2077ce",
+  "titre": "Décompilation de jeux : les modèles ouverts peuvent-ils suivre ?",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande si des modèles à poids ouverts peuvent mener un projet de décompilation-recompilation de jeux. Opus5.5, Sol6.1, Fable et Astra en seraient capables, la scène s'étant emballée cette semaine, en partie grâce à la maturation des outils. Il cite K3, GLM5.3, Qwen3.8-Max et Mimo-2.6, et s'interroge sur les modèles plus petits face à des cibles simples comme la GBA et la PSP.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0iygt/can_any_openweight_models_handle_a_decomprecomp/",
+  "date_source": "2026-10-08T05:44:23+00:00",
+  "date_redac": "2026-10-08T06:46:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 786,
+   "sortie": 1323
+  }
+ },
+ {
+  "id": "376872e19a31ef6a",
+  "slug": "deepseek-v4-1-flash-garde-l-avantage-face-a-haiku-5-5-sur-un-petit-tes-376872",
+  "titre": "DeepSeek V4.1 Flash garde l'avantage face à Haiku 5.5 sur un petit test d'agent",
+  "resume": "Un utilisateur de r/LocalLLaMA a comparé Haiku 5.5 à DeepSeek V4.1 Flash sur un poste d'agent de recherche, mêmes outils (Exa, Brave, lecture de pages, analyse d'images) et quatre briefs réels. En effort faible, Haiku gagne une comparaison, en perd trois, mais se montre plus rapide (480 s contre 721 s) et quatre fois moins cher (0,09 $ contre 0,35 $). Le test reste petit.",
+  "tags": [
+   "claude",
+   "deepseek",
+   "agents",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ixh6/deepseek_v41_flash_beat_haiku_55_as_my_research/",
+  "date_source": "2026-10-08T05:42:42+00:00",
+  "date_redac": "2026-10-08T06:47:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 885,
+   "sortie": 1457
+  }
+ },
+ {
+  "id": "f5e8f95ec65e55b5",
+  "slug": "claude-code-v2-1-294-corrige-les-hooks-ecrits-en-langage-naturel-f5e8f9",
+  "titre": "Claude Code v2.1.294 corrige les hooks écrits en langage naturel",
+  "resume": "La version 2.1.294 de Claude Code corrige les hooks de prompt et d'agent rédigés sous forme d'instructions, du type « Block commands that… » : ces règles laissaient passer des commandes qu'elles étaient censées bloquer. La façon dont sont évalués les hooks de prompt Stop et SubagentStop formulés en instructions, par exemple « Carry on if the build is broken », a également été revue. Claude serait ainsi moins enclin à s'arrêter trop tôt. Une correction qui compte pour tous ceux qui pilotent l'agent via des consignes en langage naturel plutôt que du code.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+  "date_source": "2026-10-08T05:03:54+00:00",
+  "date_redac": "2026-10-08T06:47:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 642,
+   "sortie": 460
+  }
+ },
+ {
+  "id": "67cfadb5ab51a52f",
+  "slug": "hermes-agent-une-release-candidate-abandonnee-taguee-rc-915-v0-21-5-67cfad",
+  "titre": "Hermes Agent : une release candidate abandonnée, taguée rc.915-v0.21.5",
+  "resume": "Le dépôt Hermes Agent, porté par NousResearch, affiche une entrée de release intitulée « abandoned-rc.915-v0.21.5 ». Les métadonnées jointes se limitent à quelques champs : une tentative numérotée 915, la référence rc.915-v0.21.5 et un schéma 1. Aucune note de version ni description des changements n'accompagne cette publication.",
+  "tags": [
+   "hermes",
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.915-v0.21.5",
+  "date_source": "2026-10-08T04:16:51+00:00",
+  "date_redac": "2026-10-08T06:47:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 620,
+   "sortie": 946
+  }
+ },
+ {
   "id": "0a0aa823d6ea4a9b",
   "slug": "localllama-les-moderateurs-veulent-moins-de-posts-can-i-run-strata-0a0aa8",
   "titre": "LocalLLaMA : les modérateurs veulent moins de posts « can I run Strata »",

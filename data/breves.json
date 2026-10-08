@@ -1,5 +1,111 @@
 [
  {
+  "id": "c7dafa4340b48780",
+  "slug": "usa-today-poursuit-openai-pour-usage-non-autorise-de-ses-articles-c7dafa",
+  "titre": "USA Today poursuit OpenAI pour usage non autorisé de ses articles",
+  "resume": "USA Today Co., accompagné de plusieurs quotidiens locaux qu'il détient, attaque OpenAI en justice. L'éditeur affirme que l'entreprise a copié « des centaines de milliers » d'articles pour entraîner ses modèles d'IA, selon Reuters. Dans une plainte déposée jeudi, il réclame plus de 250 millions de dollars de dommages et intérêts, dénonçant un usage non autorisé de ses contenus. Une nouvelle procédure qui s'ajoute aux recours déjà engagés par des éditeurs contre OpenAI.",
+  "tags": [
+   "openai",
+   "business",
+   "société"
+  ],
+  "importance": 4,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
+  "date_source": "2026-10-08T17:58:33+00:00",
+  "date_redac": "2026-10-08T18:47:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 658,
+   "sortie": 319
+  }
+ },
+ {
+  "id": "5271d708b90df3b8",
+  "slug": "hermes-agent-une-release-candidate-0-21-7-publiee-sur-github-5271d7",
+  "titre": "Hermes Agent : une release candidate 0.21.7 publiée sur GitHub",
+  "resume": "Le dépôt hermes-agent de NousResearch publie une version taguée rc.3-v0.21.7. Le préfixe « rc » renvoie à une release candidate. Les métadonnées jointes mentionnent une tentative, un commit et une époque de revendication : la publication semble outillée. Le détail des changements n'est pas fourni ici.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.3-v0.21.7",
+  "date_source": "2026-10-08T17:58:06+00:00",
+  "date_redac": "2026-10-08T18:47:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 886
+  }
+ },
+ {
+  "id": "4103dc1a92a50cb5",
+  "slug": "spacexai-rejoint-la-fondation-omacom-et-offre-1-5-m-de-tokens-grok-a-o-4103dc",
+  "titre": "SpaceXAI rejoint la fondation Omacom et offre 1,5 M$ de tokens Grok à Omarchy",
+  "resume": "SpaceXAI rejoint l'Omacom Foundation, qui encadre la distribution Linux Omarchy, en tant que Founding Corporate Patron. L'entreprise apporte l'équivalent de 1,5 million de dollars en tokens Grok au projet Linux de David Heinemeier Hansson. Omarchy est présentée comme une distribution controversée, ce qui rend ce parrainage notable pour l'écosystème open source.",
+  "tags": [
+   "open-source",
+   "dev",
+   "business"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
+  "date_source": "2026-10-08T17:57:01+00:00",
+  "date_redac": "2026-10-08T18:47:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 683,
+   "sortie": 652
+  }
+ },
+ {
+  "id": "32d33575659b3733",
+  "slug": "hermes-agent-la-release-candidate-rc-2-v0-21-7-publiee-sur-github-32d335",
+  "titre": "Hermes Agent : la release candidate rc.2-v0.21.7 publiée sur GitHub",
+  "resume": "Hermes Agent, l'agent de Nous Research, passe en release candidate rc.2-v0.21.7, publiée sur GitHub le 8 octobre 2026. Les métadonnées de la publication signalent une deuxième tentative, l'auto-publication désactivée et une référence à un commit. L'extrait transmis ne détaille pas le contenu des modifications apportées.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.2-v0.21.7",
+  "date_source": "2026-10-08T17:52:11+00:00",
+  "date_redac": "2026-10-08T18:47:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 889
+  }
+ },
+ {
+  "id": "d0d64a1f17c4ef73",
+  "slug": "hugging-face-propose-de-chatter-avec-un-modele-via-une-simple-commande-d0d64a",
+  "titre": "Hugging Face propose de chatter avec un modèle via une simple commande SSH",
+  "resume": "Un membre de l'équipe Hugging Face présente sur r/LocalLLaMA une façon de discuter avec un modèle hébergé via les Inference Providers de Hugging Face, sans configuration, sans clé d'API et sans installation. Il suffit de taper `ssh chat.hf.co` dans un terminal pour démarrer la conversation. L'auteur de la publication invite les utilisateurs à partager leur avis sur ce dispositif.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0xk7d/chat_with_llm_model_with_zero_setup/",
+  "date_source": "2026-10-08T17:46:14+00:00",
+  "date_redac": "2026-10-08T18:47:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 676,
+   "sortie": 1453
+  }
+ },
+ {
   "id": "8c6cb4464b21e9c2",
   "slug": "hermes-agent-publie-une-release-candidate-rc-1-v0-21-7-sur-github-8c6cb4",
   "titre": "Hermes Agent publie une release candidate rc.1-v0.21.7 sur GitHub",

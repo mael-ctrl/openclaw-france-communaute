@@ -797,3 +797,12 @@
 {"ts": "2026-10-07T07:30:44+00:00", "evenement": "erreur", "details": {"message": "déploiement : timed out"}, "sha256": "6e798b11f18480538dcb3af719e2e35704cafde98e0af3ec0a6e0760fdda7da7"}
 {"ts": "2026-10-07T07:30:53+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "a68b28f99448b7ea49335e264109e4d3264f2b02590391142186dad9f59572a9"}
 {"ts": "2026-10-07T07:30:53+00:00", "evenement": "bilan", "details": {"duree_s": 819.6, "neufs": 0, "breves": 0, "articles": 0, "fichiers": 482, "publications": 0}, "sha256": "3f916afdfb5936c8462466b8b59ce390a205fead290b75157376df8e0862156c"}
+{"ts": "2026-10-08T07:11:31+00:00", "evenement": "collecte", "details": {"neufs": 40}, "sha256": "9573b72eda9d837bbcde6f72567528aa27a3fc430864e4666bec0215fd71d684"}
+{"ts": "2026-10-08T07:12:46+00:00", "evenement": "erreur", "details": {"message": "article impossible : Expecting ',' delimiter: line 1 column 2775 (char 2774)"}, "sha256": "8f4ae963bc5926012b5bbe834038ce07e6bb112826f9257fa39f00c78d5567b1"}
+{"ts": "2026-10-08T07:12:46+00:00", "evenement": "construction", "details": {"fichiers": 482}, "sha256": "4aa9dbebcce8ec99bda7856117b73899a65a2498a3d3b57bac608498e2335adf"}
+{"ts": "2026-10-08T07:15:57+00:00", "evenement": "erreur", "details": {"message": "déploiement : timed out"}, "sha256": "7f798f57ec94c1286e48e173165702d05d869928211f652ddda1f1fd992f26ae"}
+{"ts": "2026-10-08T07:15:58+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "76e0a3e3427db6c4102020e1b7de7bd96c04bbc689b7b72d31efb2bc3bf6bda6"}
+{"ts": "2026-10-08T07:16:18+00:00", "evenement": "archivage", "details": {"wayback": 200}, "sha256": "4ee2387c3bf95eab2d43398ea3308cefbde5ecd220b39a5b432237bdf0e4a6ce"}
+{"ts": "2026-10-08T07:16:27+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "78d4b39fda1950537e75be8517a03f014cc730f962566984a876cc5ba095cc1f"}
+{"ts": "2026-10-08T07:16:27+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-08.json", "publications": 570}, "sha256": "f2670e84e40d3fddad4fcc49774a814a9ebf12b97ad065ab6ab5c618e0177539"}
+{"ts": "2026-10-08T07:16:27+00:00", "evenement": "bilan", "details": {"duree_s": 338.7, "neufs": 40, "breves": 6, "articles": 0, "fichiers": 482, "publications": 4}, "sha256": "684ce4c662a423c27ff151d4d3c2bc7d71ce1e902fff07d1dd8d00395bc53319"}

@@ -1,5 +1,133 @@
 [
  {
+  "id": "7c32e4df0990ffe4",
+  "slug": "hermes-agent-une-build-canari-v0-21-5-canary-20261008t070449z-7c32e4",
+  "titre": "Hermes Agent : une build canari v0.21.5+canary.20261008T070449Z",
+  "resume": "Le dépôt Hermes Agent a publié une nouvelle version canari, estampillée v0.21.5+canary.20261008T070449Z. Les builds canari servent à tester des changements avant leur stabilisation dans une version classique. La publication ne précise pas le contenu de cette révision.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.5%2Bcanary.20261008T070449Z",
+  "date_source": "2026-10-08T07:04:50+00:00",
+  "date_redac": "2026-10-08T07:11:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 648,
+   "sortie": 829
+  }
+ },
+ {
+  "id": "109a3edd00604290",
+  "slug": "cloudflare-clef-teste-via-llama-cpp-un-utilisateur-juge-la-sortie-medi-109a3e",
+  "titre": "Cloudflare Clef testé via llama.cpp : un utilisateur juge la sortie médiocre",
+  "resume": "Un utilisateur de r/LocalLLaMA a testé Cloudflare Clef via llama.cpp 0.6.0, avec la quantification Q4_K_M de bartowski. Sur un exemple basique — un message client réclamant le remboursement d'un double prélèvement, soumis à l'endpoint /v1/systemone — le résultat est jugé médiocre : le score « noul » plafonne à 0,57. Le même test avec Jev atteindrait 0,99. L'auteur dit avoir perdu confiance après ce premier essai.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0jhna/cloudflare_clef_experience/",
+  "date_source": "2026-10-08T06:16:41+00:00",
+  "date_redac": "2026-10-08T07:11:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 882,
+   "sortie": 873
+  }
+ },
+ {
+  "id": "447ee5d7fbe9e67f",
+  "slug": "hermes-agent-publie-la-release-candidate-rc-2-de-la-version-0-21-6-447ee5",
+  "titre": "Hermes Agent publie la release candidate rc.2 de la version 0.21.6",
+  "resume": "Hermes Agent, le projet d'agent de NousResearch, met en ligne une release candidate : rc.2 de la version 0.21.6, sur GitHub. La note de version ne détaille pas les changements et se limite aux métadonnées de publication, avec un second essai et la publication automatique désactivée. Il s'agit donc d'une pré-version, pas d'une version stable.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.2-v0.21.6",
+  "date_source": "2026-10-08T06:09:23+00:00",
+  "date_redac": "2026-10-08T07:12:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 612,
+   "sortie": 898
+  }
+ },
+ {
+  "id": "2077ce15454ccd03",
+  "slug": "decomp-recomp-les-modeles-open-weight-sont-ils-a-la-hauteur-2077ce",
+  "titre": "Decomp/recomp : les modèles open-weight sont-ils à la hauteur ?",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande si des modèles open-weight savent mener un projet de decomp/recomp. Selon lui, Opus5.5, Sol6.1, Fable et Astra y parviennent, la scène ayant explosé cette semaine, portée par la maturation des outils et des boucles de feedback. Il cite K3, GLM5.3, Qwen3.8-Max et Mimo-2.6, et se demande si des cas plus simples comme la GBA ou la PSP passeraient aussi.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0iygt/can_any_openweight_models_handle_a_decomprecomp/",
+  "date_source": "2026-10-08T05:44:23+00:00",
+  "date_redac": "2026-10-08T07:12:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 756,
+   "sortie": 1164
+  }
+ },
+ {
+  "id": "376872e19a31ef6a",
+  "slug": "deepseek-v4-1-flash-bat-haiku-5-5-comme-sous-agent-de-recherche-petit--376872",
+  "titre": "DeepSeek V4.1 Flash bat Haiku 5.5 comme sous-agent de recherche (petit test)",
+  "resume": "Un utilisateur de r/LocalLLaMA a comparé DeepSeek V4.1 Flash et Haiku 5.5 sur deux petites tâches de son application, dont un sous-agent de recherche web. Sur quatre briefs réels et des outils identiques (Exa, Brave, lecture de pages, analyse d'images), DeepSeek l'emporte, mais Haiku en effort faible est plus rapide et quatre fois moins cher.",
+  "tags": [
+   "deepseek",
+   "claude",
+   "agents",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ixh6/deepseek_v41_flash_beat_haiku_55_as_my_research/",
+  "date_source": "2026-10-08T05:42:42+00:00",
+  "date_redac": "2026-10-08T07:12:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 885,
+   "sortie": 812
+  }
+ },
+ {
+  "id": "f5e8f95ec65e55b5",
+  "slug": "claude-code-v2-1-294-correctif-sur-les-hooks-et-les-arrets-prematures-f5e8f9",
+  "titre": "Claude Code v2.1.294 : correctif sur les hooks et les arrêts prématurés",
+  "resume": "Claude Code passe en v2.1.294. Le correctif porte sur les hooks — prompt et agent — rédigés sous forme d'instructions, du type « Block commands that… » : ils laissaient passer ce qu'ils devaient bloquer. L'évaluation des hooks prompt sur Stop et SubagentStop a aussi été revue, pour mieux juger des consignes comme « Carry on if the build is broken ». Claude interrompt donc moins souvent sa tâche trop tôt.",
+  "tags": [
+   "claude",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+  "date_source": "2026-10-08T05:03:54+00:00",
+  "date_redac": "2026-10-08T07:12:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 642,
+   "sortie": 894
+  }
+ },
+ {
   "id": "cce2b6b2cf4fcb26",
   "slug": "openai-publie-722-articles-de-maths-et-resout-90-des-500-problemes-ouv-cce2b6",
   "titre": "OpenAI publie 722 articles de maths et résout 90 des 500 problèmes ouverts",

@@ -1,24 +1,18 @@
 {
- "runs": 139,
- "items_collectes": 1084,
- "breves_publiees": 486,
+ "runs": 140,
+ "items_collectes": 1124,
+ "breves_publiees": 492,
  "articles_publies": 64,
- "tokens_entree": 458118,
- "tokens_sortie": 642451,
+ "tokens_entree": 462543,
+ "tokens_sortie": 647921,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-07T07:21:13+00:00",
+ "dernier_run": "2026-10-08T07:12:46+00:00",
  "solde": {
-  "erreur": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  "total": "87.24",
+  "devise": "USD",
+  "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-06T21:09:52+00:00",
-   "message": "brève impossible (EmbeddingGemma 2) : réponse non-JSON"
-  },
-  {
-   "ts": "2026-10-07T00:26:02+00:00",
-   "message": "brève impossible (OpenAI drops another batch of mathematical breakthroughs) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-07T00:58:05+00:00",
    "message": "brève impossible (Ruach Studio: a whole song studio around YuE2 on your own GP) : réponse non-JSON"
@@ -30,10 +24,18 @@
   {
    "ts": "2026-10-07T07:30:44+00:00",
    "message": "déploiement : timed out"
+  },
+  {
+   "ts": "2026-10-08T07:12:46+00:00",
+   "message": "article impossible : Expecting ',' delimiter: line 1 column 2775 (char 2774)"
+  },
+  {
+   "ts": "2026-10-08T07:15:57+00:00",
+   "message": "déploiement : timed out"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 4.23,
+ "depense_usd": 4.42,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -574,13 +576,17 @@
   [
    "2026-10-07T05:33:47+00:00",
    "87.43"
+  ],
+  [
+   "2026-10-08T07:11:31+00:00",
+   "87.24"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 1.94,
+ "depense_mois_usd": 2.13,
  "archive_tentatives": {
-  "jour": "2026-10-07",
+  "jour": "2026-10-08",
   "n": 1
  },
- "derniere_archive": "2026-10-07"
+ "derniere_archive": "2026-10-08"
 }

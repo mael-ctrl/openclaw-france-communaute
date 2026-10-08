@@ -1,5 +1,68 @@
 [
  {
+  "id": "2185ac7cca14e869",
+  "slug": "deux-mois-de-test-distingue-t-on-vraiment-les-modeles-d-ia-2185ac",
+  "titre": "Deux mois de test : distingue-t-on vraiment les modèles d'IA ?",
+  "resume": "Un membre de r/LocalLLaMA a mené sur deux mois un test pour savoir si des personnes ordinaires distinguent les modèles d'IA haut de gamme. Échantillon : huit participants. Dans son pays, l'accueil réservé à l'IA est plutôt neutre, sauf une réserve notable pour les images de produits générées à la va-vite. Il a abandonné OpenRouter au bout de deux semaines, sa RTX 3090 étant peu sollicitée : 5 à 6 requêtes par heure.",
+  "tags": [
+   "recherche",
+   "société",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0etwe/2_months_memed_research_do_people_notice_the/",
+  "date_source": "2026-10-08T02:00:33+00:00",
+  "date_redac": "2026-10-08T02:26:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 802,
+   "sortie": 974
+  }
+ },
+ {
+  "id": "1ddf9310397334dc",
+  "slug": "371-modeles-d-ia-interroges-avec-les-memes-prompts-depuis-mai-2024-1ddf93",
+  "titre": "371 modèles d'IA interrogés avec les mêmes prompts depuis mai 2024",
+  "resume": "Le site museumofmodels.com, gratuit et sans inscription, rassemble les réponses de 371 modèles à des prompts identiques, posés depuis mai 2024. Chaque modèle n'a droit qu'à un seul essai, sans system prompt, avec une température de 0,7. Le corpus inclut de nombreux modèles à poids ouverts, mais aussi 93 modèles qu'il n'est plus possible d'exécuter.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ejor/same_prompts_to_371_models_since_may_2024_all_the/",
+  "date_source": "2026-10-08T01:46:37+00:00",
+  "date_redac": "2026-10-08T02:26:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 924
+  }
+ },
+ {
+  "id": "46ebce0bddd488b7",
+  "slug": "deepseek-harness-un-plugin-ajoute-29-langues-a-l-interface-desktop-46ebce",
+  "titre": "DeepSeek Harness : un plugin ajoute 29 langues à l'interface desktop",
+  "resume": "Un plugin ajoute 29 langues au sélecteur de langue de l'app desktop DeepSeek Harness, sans modifier le code principal. Chaque dictionnaire compte 2 528 clés, soit 73 312 entrées. Les chaînes non traduites basculent en anglais : une langue est donc utilisable avant d'être complète. Un contrôle qualité s'exécute avant chaque commit ; l'arabe, l'urdu, l'hébreu et le persan sont gérés en écriture droite-gauche.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0e9tx/29_ui_languages_for_the_deepseek_harness_desktop/",
+  "date_source": "2026-10-08T01:33:02+00:00",
+  "date_redac": "2026-10-08T02:26:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 796,
+   "sortie": 989
+  }
+ },
+ {
   "id": "309d0fdd417595cf",
   "slug": "openclaw-2026-10-1-beta-2-memoire-medias-et-diagnostics-309d0f",
   "titre": "OpenClaw 2026.10.1-beta.2 : mémoire, médias et diagnostics",

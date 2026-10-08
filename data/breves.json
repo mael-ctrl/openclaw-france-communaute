@@ -1,5 +1,109 @@
 [
  {
+  "id": "0420c8a50ba36a97",
+  "slug": "six-modeles-de-decision-s-affrontent-sur-pac-man-classement-ouvert-0420c8",
+  "titre": "Six modèles de décision s'affrontent sur Pac-Man, classement ouvert",
+  "resume": "Après une première comparaison Jev vs Kev, l'auteur a fait s'affronter six modèles de décision sur Pac-Man : kev 1.13, Kev 4B, Clef, Clef Flash, GPT-6 Luna et Laya. Ces modèles répondent en quelques millisecondes, assez vite pour jouer en temps réel. Un classement a été publié, établi sur 100 parties par modèle avec une moyenne à 95 % de marge d'erreur. Le dépôt est open source : chacun peut y faire tourner son propre modèle, local ou hébergé.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0sm1b/jevman_ai_decision_models_play_pacman/",
+  "date_source": "2026-10-08T14:37:15+00:00",
+  "date_redac": "2026-10-08T14:49:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 862,
+   "sortie": 1392
+  }
+ },
+ {
+  "id": "20b031b4495980eb",
+  "slug": "google-lance-un-agent-gemini-universel-pour-les-taches-professionnelle-20b031",
+  "titre": "Google lance un agent Gemini universel pour les tâches professionnelles",
+  "resume": "Google a annoncé, lors de l'événement Gemini at Work, un agent IA Gemini « universel » capable de travailler en arrière-plan sur plusieurs applications et appareils. Il sera intégré à l'application Gemini Enterprise : l'utilisateur pourra discuter avec l'agent et lui confier des tâches depuis une interface unique.",
+  "tags": [
+   "gemini",
+   "agents",
+   "business"
+  ],
+  "importance": 4,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+  "date_source": "2026-10-08T14:28:03+00:00",
+  "date_redac": "2026-10-08T14:49:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 652,
+   "sortie": 365
+  }
+ },
+ {
+  "id": "ea5e3793032fcb91",
+  "slug": "littlebit-une-quantification-ultra-basse-precision-par-factorisation-l-ea5e37",
+  "titre": "LittleBit : une quantification ultra basse précision par factorisation latente",
+  "resume": "Un article arXiv présente LittleBit, une méthode de quantification ultra basse précision fondée sur une factorisation latente. Sur r/LocalLLaMA, un utilisateur salue les progrès de la recherche sur l'entraînement conscient de la quantification (QAT), qui permet de produire des modèles vraiment minuscules. Le fil renvoie vers le papier référencé 2506.13771.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0sa6g/250613771_littlebit_ultra_lowbit_quantization_via/",
+  "date_source": "2026-10-08T14:23:58+00:00",
+  "date_redac": "2026-10-08T14:49:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 650,
+   "sortie": 1121
+  }
+ },
+ {
+  "id": "3d84d38944d4cd89",
+  "slug": "quel-modele-d-image-local-pour-illustrer-une-landing-page-3d84d3",
+  "titre": "Quel modèle d'image local pour illustrer une landing page ?",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande quels modèles d'image il peut exécuter en local pour générer des images et des illustrations destinées au web design. Il explique préparer une landing page et chercher des ressources pour l'aider. La question porte donc sur un usage concret de la génération d'images hors du cloud, au service de la production de contenus web.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0s965/image_model_for_landing_page_design/",
+  "date_source": "2026-10-08T14:22:51+00:00",
+  "date_redac": "2026-10-08T14:49:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 640,
+   "sortie": 394
+  }
+ },
+ {
+  "id": "156b3e521eba7b7c",
+  "slug": "seahaven-un-framework-open-source-pour-creer-des-environnements-rl-156b3e",
+  "titre": "Seahaven, un framework open source pour créer des environnements RL",
+  "resume": "Un développeur passé par Apple, aujourd'hui chez Kiln, publie Seahaven, un framework open source pour construire des environnements d'évaluation d'agents. Nommé d'après la ville fictive du Truman Show, il doit offrir des données réalistes, des écritures avec état et un redémarrage depuis le même point de départ à chaque exécution. La production et le staging ne conviennent pas : partagés, impossibles à réinitialiser.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0s61w/i_built_an_open_source_framework_for_building_rl/",
+  "date_source": "2026-10-08T14:19:26+00:00",
+  "date_redac": "2026-10-08T14:50:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 814,
+   "sortie": 1094
+  }
+ },
+ {
   "id": "e9bc11785632f44d",
   "slug": "windows-11-la-barre-de-recherche-s-offre-un-agent-ia-e9bc11",
   "titre": "Windows 11 : la barre de recherche s'offre un agent IA",
@@ -79,6 +183,27 @@
    "modele": "deepseek-flash",
    "entree": 674,
    "sortie": 603
+  }
+ },
+ {
+  "id": "e1bbf98fb25f5a95",
+  "slug": "les-cartes-cmp-170hx-10-go-bientot-debloquees-de-40-a-48-go-e1bbf9",
+  "titre": "Les cartes CMP 170Hx 10 Go bientôt débloquées de 40 à 48 Go",
+  "resume": "Sur r/LocalLLaMA, un utilisateur annonce que les propriétaires de cartes CMP 170Hx en version 10 Go, jusqu'ici laissés de côté, devraient bientôt profiter d'un déblocage de mémoire. Le gain annoncé : 8 Go supplémentaires, la carte passant de 40 à 48 Go. L'auteur indique que le chantier avance bien et invite à rester attentif.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0rjzb/attn_cmp170hx_10gb_card_owners_unlock_from_40gb/",
+  "date_source": "2026-10-08T13:54:54+00:00",
+  "date_redac": "2026-10-08T14:50:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 718,
+   "sortie": 1116
   }
  },
  {

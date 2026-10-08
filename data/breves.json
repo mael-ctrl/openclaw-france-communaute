@@ -1,5 +1,134 @@
 [
  {
+  "id": "8c6cb4464b21e9c2",
+  "slug": "hermes-agent-publie-une-release-candidate-rc-1-v0-21-7-sur-github-8c6cb4",
+  "titre": "Hermes Agent publie une release candidate rc.1-v0.21.7 sur GitHub",
+  "resume": "L'agent Hermes met en ligne une release candidate taguée rc.1-v0.21.7 sur son dépôt GitHub, datée du 8 octobre 2026 à 17h31 UTC. La note de version ne contient que des métadonnées techniques : un numéro de tentative, une référence de commit et un horodatage. Aucun détail sur les changements fonctionnels ou les corrections n'accompagne cette publication.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.1-v0.21.7",
+  "date_source": "2026-10-08T17:31:20+00:00",
+  "date_redac": "2026-10-08T17:44:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 880
+  }
+ },
+ {
+  "id": "a1e6e88f7daee15e",
+  "slug": "moe-en-faible-vram-des-debits-mitiges-avec-le-cache-gpu-d-experts-de-l-a1e6e8",
+  "titre": "MoE en faible VRAM : des débits mitigés avec le cache GPU d'experts de llama.cpp",
+  "resume": "Un utilisateur de r/LocalLLaMA teste la PR #29887, qui ajoute un cache GPU pour les experts MoE conservés en mémoire hôte. Sur une RTX 4060 (8 Go de VRAM) et 32 Go de RAM DDR5, avec Qwen3.6-35B-A3B en IQ4_XS, il n'obtient pas les débits espérés : 45 t/s en évaluation de prompt et 23 t/s en génération. Il demande de l'aide et invite les autres à partager leurs mesures.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0wyge/probably_im_doing_something_wrong_using_pr29887/",
+  "date_source": "2026-10-08T17:23:57+00:00",
+  "date_redac": "2026-10-08T17:45:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 968,
+   "sortie": 1098
+  }
+ },
+ {
+  "id": "c697acef0ddda238",
+  "slug": "8-radeon-pro-v620-256-go-de-vram-et-un-fork-vllm-pour-faire-tourner-qw-c697ac",
+  "titre": "8 Radeon Pro V620, 256 Go de VRAM et un fork vLLM pour faire tourner Qwen en local",
+  "resume": "Un utilisateur de r/LocalLLaMA détaille une machine à 2 800 dollars bâtie sur huit Radeon Pro V620, des cartes RDNA2 d'entreprise de 32 Go de VRAM, soit 256 Go au total. Avec llama.cpp, le prefill plafonnait à 350-450 t/s et la concurrence était mal gérée ; vLLM ne fonctionnait pas sur ces cartes. Il a fini par écrire avec Claude un fork compatible, bien plus rapide.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev",
+   "claude"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0wnz1/2800_rig_with_8x_radeon_pro_v620_256_gb_vram/",
+  "date_source": "2026-10-08T17:12:46+00:00",
+  "date_redac": "2026-10-08T17:45:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 869,
+   "sortie": 1240
+  }
+ },
+ {
+  "id": "42706ff63eb8e269",
+  "slug": "quatre-modeles-de-decision-open-source-compares-mot-a-mot-sur-une-rtx--42706f",
+  "titre": "Quatre modèles de décision open source comparés mot à mot sur une RTX 4090",
+  "resume": "Un utilisateur de r/LocalLLaMA a testé sur une même RTX 4090 quatre modèles de décision sortis récemment : laya, d1 de Liquid, clef-flash de Cloudflare et lev d'Interfaze. La tâche : lire mot à mot neuf articles Wikipédia sur les centipèdes (9 534 mots) et signaler chaque mot qui en nomme un, avec un appel par mot. Laya affiche 3,9 ms par mot en p50 contre 6,0 ms pour d1 3B, tous deux sous llama.cpp b11495.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0wg85/running_decision_model_locally_on_an_rtx_4090_to/",
+  "date_source": "2026-10-08T17:04:32+00:00",
+  "date_redac": "2026-10-08T17:45:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 878,
+   "sortie": 1234
+  }
+ },
+ {
+  "id": "3fb0996e24794a1c",
+  "slug": "anthropic-interdit-les-comportements-abusifs-envers-claude-3fb099",
+  "titre": "Anthropic interdit les comportements abusifs envers Claude",
+  "resume": "Anthropic met à jour sa politique d'usage pour la première fois depuis plus d'un an, afin de couvrir de nouveaux cas de détournement à haut risque : ingérence électorale, développement d'armes, surveillance, usages médicaux et financiers. Le changement le plus notable interdit désormais les « comportements abusifs ou cruels, soutenus et inutiles » envers Claude.",
+  "tags": [
+   "claude",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+  "date_source": "2026-10-08T17:00:00+00:00",
+  "date_redac": "2026-10-08T17:45:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 663,
+   "sortie": 509
+  }
+ },
+ {
+  "id": "aa70310080ee11dd",
+  "slug": "mtp-dans-llama-cpp-decode-desormais-de-facon-competitive-face-a-ds4-av-aa7031",
+  "titre": "MTP dans llama.cpp décode désormais de façon compétitive face à ds4 avec GLM 5.3 Flash",
+  "resume": "Sur r/LocalLLaMA, un utilisateur constate que MTP dans llama.cpp décode désormais de façon compétitive face à ds4 avec GLM 5.3 Flash. Le prompt processing reste plus lent, mais c'est la première fois qu'il voit un modèle surpasser ds4 — avec le tuning M3U d'IngeniousIdiocy — alors que MTP n'apportait jusqu'ici aucun avantage sur Apple Silicon. Qwen38FN sera le vrai test : ds4 vanilla sort 65 t/s, 75 en concurrence.",
+  "tags": [
+   "dev",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0unn5/mtp_in_llamacpp_now_decodes_competitively_with/",
+  "date_source": "2026-10-08T15:56:19+00:00",
+  "date_redac": "2026-10-08T17:45:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 729,
+   "sortie": 1231
+  }
+ },
+ {
   "id": "8c6e3065bd80c1e2",
   "slug": "timekettle-lance-les-livetalk-ai-des-ecouteurs-ouverts-qui-traduisent--8c6e30",
   "titre": "Timekettle lance les LiveTalk AI, des écouteurs ouverts qui traduisent 54 langues",

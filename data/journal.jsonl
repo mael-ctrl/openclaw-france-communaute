@@ -918,3 +918,10 @@
 {"ts": "2026-10-08T10:18:57+00:00", "evenement": "deploiement", "details": {"fichiers": 514, "octets": 7681031}, "sha256": "d60a3ead9455d6f074fd5b15605a7e1418b74b0e5c0be441fcd5a3bceed47001"}
 {"ts": "2026-10-08T10:18:58+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "2ff6fa4f9cd6eadcdbcf520e12e02334a742811c206051b6e16d2011a5d0cf7c"}
 {"ts": "2026-10-08T10:18:58+00:00", "evenement": "bilan", "details": {"duree_s": 778.6, "neufs": 13, "breves": 6, "articles": 1, "fichiers": 502, "envois": 514, "publications": 0}, "sha256": "5423a5581aea59f0d64b9161c26ea9d62a719e2363add61f2d184d368c98c8cd"}
+{"ts": "2026-10-08T13:25:20+00:00", "evenement": "collecte", "details": {"neufs": 23}, "sha256": "8f08b2a567d9583bd5483b678c3831ca759944f2188113988179cc4ca88905ed"}
+{"ts": "2026-10-08T13:25:32+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Hermes Agent v0.21.6) : réponse non-JSON"}, "sha256": "0fbafd3d53256bcdc2afbe90dab9e1d8806564b267e3d03ac2ad796ac07204fe"}
+{"ts": "2026-10-08T13:25:53+00:00", "evenement": "erreur", "details": {"message": "brève impossible (openclaw 2026.9.9) : réponse non-JSON"}, "sha256": "3678be47092423b1e5a0222107f01252eea4177c8456ed9ade9103199571b42f"}
+{"ts": "2026-10-08T13:26:15+00:00", "evenement": "construction", "details": {"fichiers": 503}, "sha256": "6150df27cc43a2c2482b8e2728fcbbfb862fe76a973ecd8a8d58b148339b1649"}
+{"ts": "2026-10-08T13:33:22+00:00", "evenement": "deploiement", "details": {"fichiers": 515, "octets": 7840934}, "sha256": "fac6602d0fecbd825b015afaadaa1fd5b86bc9b444be4a0c2c50bf2a77c4076a"}
+{"ts": "2026-10-08T13:33:23+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "cb5a1165b735ebf2a9a34d4c9f736068f9b70c502a831fcc8c1e5104ca8380bc"}
+{"ts": "2026-10-08T13:33:23+00:00", "evenement": "bilan", "details": {"duree_s": 492.5, "neufs": 23, "breves": 4, "articles": 1, "fichiers": 503, "envois": 515, "publications": 0}, "sha256": "5409769f2f7bfbd583e5fc6c4212442cd2285b5a27b9d853a8da2c4725984f2f"}

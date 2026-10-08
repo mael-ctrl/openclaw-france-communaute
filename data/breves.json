@@ -1,5 +1,90 @@
 [
  {
+  "id": "76df2cc7c3b1c508",
+  "slug": "audio-cpp-higgs-audio-tts-sous-6-go-de-vram-htdemucs-et-pockettts-plus-76df2c",
+  "titre": "audio.cpp : Higgs Audio TTS sous 6 Go de VRAM, HTDemucs et PocketTTS plus rapides",
+  "resume": "audio.cpp a reçu une série d'optimisations de performance. Higgs Audio TTS tourne désormais avec environ 6 Go de VRAM, soit 48 % de mémoire de pointe en moins, grâce à une contribution de mirek190. HTDemucs gagne 2,21× sur CUDA et PocketTTS 2,23× sur CPU, sans compromis sur la parité ni la justesse. D'autres modèles (ACE-Step, MOSS-TTS, Echo-TTS, Qwen3-TTS) réduisent aussi leur empreinte mémoire.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0q91x/audiocpp_recent_updates_you_might_have_missed/",
+  "date_source": "2026-10-08T12:58:35+00:00",
+  "date_redac": "2026-10-08T13:25:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 944,
+   "sortie": 1432
+  }
+ },
+ {
+  "id": "c471492c66cb1308",
+  "slug": "un-framework-java-revendique-90-des-perfs-de-llama-cpp-en-local-c47149",
+  "titre": "Un framework Java revendique 90 % des perfs de llama.cpp en local",
+  "resume": "Le projet TornadoVM se présente comme un moteur de compilation de Java vers CUDA, et jitLLM comme le moteur d'inférence qui l'exploite. Les deux revendiquent 90 % des performances de llama.cpp pour l'inférence locale sur GPU NVIDIA. Une conférence technique détaillée accompagne les dépôts de code.",
+  "tags": [
+   "dev",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0okz9/java_vllmlike_framework_claims_90_of_perfomance/",
+  "date_source": "2026-10-08T11:35:16+00:00",
+  "date_redac": "2026-10-08T13:25:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 703,
+   "sortie": 496
+  }
+ },
+ {
+  "id": "870079a9372aa9a9",
+  "slug": "un-tts-turc-entraine-de-zero-avec-la-methode-drifting-sur-une-rtx-5090-870079",
+  "titre": "Un TTS turc entraîné de zéro avec la méthode Drifting sur une RTX 5090",
+  "resume": "L'utilisateur kadir_nar, sur r/LocalLLaMA, a entraîné de zéro un modèle de synthèse vocale (TTS) en turc en utilisant la méthode Drifting, sur une carte graphique RTX 5090. Le code est publié sur GitHub et une démo est accessible sur Hugging Face. Le projet montre qu'un TTS peut être entraîné de bout en bout sur une seule carte graphique, pour une langue qui reste peu couverte par les modèles vocaux grand public.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0oaum/i_trained_turkish_tts_from_scratch_using_the/",
+  "date_source": "2026-10-08T11:19:32+00:00",
+  "date_redac": "2026-10-08T13:25:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 661,
+   "sortie": 673
+  }
+ },
+ {
+  "id": "8f1352df9acafd41",
+  "slug": "neuphonic-ouvre-neudecide-modele-audio-vers-outil-de-43-mo-8f1352",
+  "titre": "Neuphonic ouvre NeuDecide, modèle audio-vers-outil de 43 Mo",
+  "resume": "L'équipe de Neuphonic ouvre sous licence Apache 2.0 NeuDecide : il reçoit de l'audio et des définitions d'outils et renvoie un appel d'outil avec ses arguments, sans transcription intermédiaire. Les fichiers pèsent 43 Mo et l'inférence tourne sur un seul thread CPU, avec une démo WASM. Sur la tâche tool-only de SLURP (10 outils), il atteint 72,4 % de précision, contre 24,4 % pour Parakeet + FunctionGemma.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0o8zr/were_open_sourcing_neudecide_a_43_mb_audiototool/",
+  "date_source": "2026-10-08T11:16:50+00:00",
+  "date_redac": "2026-10-08T13:26:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 880,
+   "sortie": 1040
+  }
+ },
+ {
   "id": "0a37a45323ca3f0d",
   "slug": "netflix-consacrera-un-documentaire-a-l-attaque-d-agents-openai-contre--0a37a4",
   "titre": "Netflix consacrera un documentaire à l'attaque d'agents OpenAI contre Hugging Face",

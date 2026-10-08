@@ -1,26 +1,18 @@
 {
- "runs": 161,
- "items_collectes": 1249,
- "breves_publiees": 595,
- "articles_publies": 84,
- "tokens_entree": 565134,
- "tokens_sortie": 811700,
+ "runs": 162,
+ "items_collectes": 1272,
+ "breves_publiees": 599,
+ "articles_publies": 85,
+ "tokens_entree": 569905,
+ "tokens_sortie": 817506,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-08T10:07:33+00:00",
+ "dernier_run": "2026-10-08T13:26:15+00:00",
  "solde": {
-  "total": "87.20",
+  "total": "87.19",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-07T08:50:03+00:00",
-   "message": "brève impossible (I re-trained the DFlash 2 drafter for Ternary Bonsai 2 27B: ) : réponse non-JSON"
-  },
-  {
-   "ts": "2026-10-07T12:57:29+00:00",
-   "message": "brève impossible (One Model Family, Two Gold-Level Results: Fine-Tuning Nemotr) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-07T22:19:14+00:00",
    "message": "brève impossible (Claude Haiku 5.5) : réponse non-JSON"
@@ -32,10 +24,18 @@
   {
    "ts": "2026-10-08T02:26:57+00:00",
    "message": "article impossible : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-08T13:25:32+00:00",
+   "message": "brève impossible (Hermes Agent v0.21.6) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-08T13:25:53+00:00",
+   "message": "brève impossible (openclaw 2026.9.9) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 4.46,
+ "depense_usd": 4.47,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -668,10 +668,14 @@
   [
    "2026-10-08T10:06:47+00:00",
    "87.20"
+  ],
+  [
+   "2026-10-08T13:25:20+00:00",
+   "87.19"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.17,
+ "depense_mois_usd": 2.18,
  "archive_tentatives": {
   "jour": "2026-10-08",
   "n": 1

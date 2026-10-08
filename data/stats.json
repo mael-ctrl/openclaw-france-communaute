@@ -1,22 +1,18 @@
 {
- "runs": 162,
- "items_collectes": 1272,
- "breves_publiees": 599,
- "articles_publies": 85,
- "tokens_entree": 569905,
- "tokens_sortie": 817506,
+ "runs": 163,
+ "items_collectes": 1277,
+ "breves_publiees": 603,
+ "articles_publies": 86,
+ "tokens_entree": 574121,
+ "tokens_sortie": 823946,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-08T13:26:15+00:00",
+ "dernier_run": "2026-10-08T14:12:34+00:00",
  "solde": {
-  "total": "87.19",
+  "total": "87.18",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-07T22:19:14+00:00",
-   "message": "brève impossible (Claude Haiku 5.5) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-07T22:19:48+00:00",
    "message": "article impossible : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-08T13:25:53+00:00",
    "message": "brève impossible (openclaw 2026.9.9) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-08T14:12:10+00:00",
+   "message": "brève impossible (Auto mode plugin for the Pi coding agent that uses Kev/Laya ) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 4.47,
+ "depense_usd": 4.48,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -672,10 +672,14 @@
   [
    "2026-10-08T13:25:20+00:00",
    "87.19"
+  ],
+  [
+   "2026-10-08T14:11:47+00:00",
+   "87.18"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.18,
+ "depense_mois_usd": 2.19,
  "archive_tentatives": {
   "jour": "2026-10-08",
   "n": 1

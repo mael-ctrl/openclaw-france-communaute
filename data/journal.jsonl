@@ -925,3 +925,9 @@
 {"ts": "2026-10-08T13:33:22+00:00", "evenement": "deploiement", "details": {"fichiers": 515, "octets": 7840934}, "sha256": "fac6602d0fecbd825b015afaadaa1fd5b86bc9b444be4a0c2c50bf2a77c4076a"}
 {"ts": "2026-10-08T13:33:23+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "cb5a1165b735ebf2a9a34d4c9f736068f9b70c502a831fcc8c1e5104ca8380bc"}
 {"ts": "2026-10-08T13:33:23+00:00", "evenement": "bilan", "details": {"duree_s": 492.5, "neufs": 23, "breves": 4, "articles": 1, "fichiers": 503, "envois": 515, "publications": 0}, "sha256": "5409769f2f7bfbd583e5fc6c4212442cd2285b5a27b9d853a8da2c4725984f2f"}
+{"ts": "2026-10-08T14:11:47+00:00", "evenement": "collecte", "details": {"neufs": 5}, "sha256": "d7fd92ae3f84a07015a893548e051e13d559f855a7dcd31d37d92cf4a7f253db"}
+{"ts": "2026-10-08T14:12:10+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Auto mode plugin for the Pi coding agent that uses Kev/Laya ) : réponse non-JSON"}, "sha256": "5cda1e069d7223235a1fceceabb60a0c0d347aed8452655d4fd6d2ae81eec812"}
+{"ts": "2026-10-08T14:12:34+00:00", "evenement": "construction", "details": {"fichiers": 504}, "sha256": "3376745756ed0e5840fd38c51fdc44bbabb47c810f99430ca918cbef5104369e"}
+{"ts": "2026-10-08T14:19:29+00:00", "evenement": "deploiement", "details": {"fichiers": 516, "octets": 7858549}, "sha256": "dfc5b3f8e3aa9790a60484ba24410015b5f712eeceda0073a4c04580ee194d86"}
+{"ts": "2026-10-08T14:19:30+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "f8e49d6b478022dde1bea3a3cf95f9b7affae32b33d228f09fab4d5eaa8288c6"}
+{"ts": "2026-10-08T14:19:30+00:00", "evenement": "bilan", "details": {"duree_s": 477.2, "neufs": 5, "breves": 4, "articles": 1, "fichiers": 504, "envois": 516, "publications": 0}, "sha256": "e9cc284ecc7b3627aa2326ebd6d629fbc7a03810a2008c79ce6f1471c61d4fd1"}

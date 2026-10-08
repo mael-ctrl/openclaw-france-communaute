@@ -1,5 +1,108 @@
 [
  {
+  "id": "9befc638c04b85c4",
+  "slug": "claude-haiku-5-5-anthropic-lance-un-modele-4-fois-moins-cher-9befc6",
+  "titre": "Claude Haiku 5.5 : Anthropic lance un modèle 4 fois moins cher",
+  "resume": "Anthropic dévoile Claude Haiku 5.5, un nouveau modèle d'IA plus rapide et plus performant que son prédécesseur, mais surtout 75 % moins cher — soit un coût divisé par quatre. La start-up rivale d'OpenAI veut ainsi rendre l'IA abordable pour les tâches du quotidien, celles qu'on répète des millions de fois dans la journée.",
+  "tags": [
+   "claude",
+   "openai",
+   "business"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/claude-haiku-5-5-anthropic-ia-4-fois-moins-chere.html",
+  "date_source": null,
+  "date_redac": "2026-10-08T08:53:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 686,
+   "sortie": 467
+  }
+ },
+ {
+  "id": "40548a5f482ba338",
+  "slug": "claude-haiku-5-5-donne-meilleur-que-gpt-6-luna-a-tarif-egal-40548a",
+  "titre": "Claude Haiku 5.5 donné meilleur que GPT-6 Luna à tarif égal",
+  "resume": "La newsletter AINews de Latent Space met en avant Claude Haiku 5.5, présenté comme meilleur que GPT-6 Luna pour un tarif équivalent. La publication accompagne cette annonce d'un commentaire bref et enthousiaste sur les petits modèles. L'angle retenu porte donc sur le segment des modèles compacts, où le rapport entre performance et prix constitue l'argument central.",
+  "tags": [
+   "claude",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Latent Space",
+  "lien_source": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+  "date_source": null,
+  "date_redac": "2026-10-08T08:53:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 589,
+   "sortie": 995
+  }
+ },
+ {
+  "id": "a9077664b929bfe7",
+  "slug": "chatgpt-gpt-6-arrive-pour-tous-mais-pas-le-meme-selon-l-abonnement-a90776",
+  "titre": "ChatGPT : GPT-6 arrive pour tous, mais pas le même selon l'abonnement",
+  "resume": "OpenAI a annoncé le 7 octobre 2026 l'arrivée de GPT-6 pour tous les utilisateurs de ChatGPT, y compris ceux qui n'ont pas d'abonnement. Le nouveau modèle apporte des réponses interactives et un accès élargi à l'ensemble du public. Les modèles proposés restent toutefois différents selon le niveau d'abonnement choisi.",
+  "tags": [
+   "chatgpt",
+   "openai"
+  ],
+  "importance": 4,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2348987-chatgpt-accueille-un-nouveau-gpt-6-et-des-reponses-interactives-meme-sans-abonnement.html",
+  "date_source": null,
+  "date_redac": "2026-10-08T08:53:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 660,
+   "sortie": 358
+  }
+ },
+ {
+  "id": "9e17ca0582a950f6",
+  "slug": "un-utilisateur-cherche-un-modele-de-narration-qui-tient-sur-8-go-de-vr-9e17ca",
+  "titre": "Un utilisateur cherche un modèle de narration qui tient sur 8 Go de VRAM",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande quels modèles font aujourd'hui référence pour l'écriture d'histoires et la construction d'univers. Il note que Gemini et Grok lui répondent toujours avec des modèles très anciens. Il veut pouvoir le faire tourner sur une carte de 8 Go de VRAM, et monter à 16 Go si le gain de qualité le justifie, avec peu de refus mais sans tomber dans la vulgarité.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "gemini"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0lqwv/recommendation_for_storyworld_building_models/",
+  "date_source": "2026-10-08T08:41:34+00:00",
+  "date_redac": "2026-10-08T08:53:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 684,
+   "sortie": 653
+  }
+ },
+ {
+  "id": "d3a27c1b1bcc4bc2",
+  "slug": "llama-cpp-un-utilisateur-bloque-sur-les-fichiers-mtp-de-qwen3-8-flash--d3a27c",
+  "titre": "llama.cpp : un utilisateur bloque sur les fichiers MTP de Qwen3.8-Flash-Next sur deux DGX Spark",
+  "resume": "Un utilisateur de r/LocalLLaMA fait tourner deux DGX Spark en cluster, où deepseek-flash fonctionne déjà. Il cherche à tester la version MTP de Qwen3.8-Flash-Next (unsloth) avec llama-server, mais sa commande de lancement provoque un blocage de la machine. Il dispose de deux fichiers MTP — un « shared » et un classique — sans savoir comment les utiliser.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0l335/struggling_with_llamacpp_2_x_dgx_spark_mtp_files/",
+  "date_source": "2026-10-08T07:58:29+00:00",
+  "date_redac": "2026-10-08T08:53:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 934,
+   "sortie": 264
+  }
+ },
+ {
   "id": "bf1dddc47eb98fd9",
   "slug": "maddyness-demonte-le-mythe-l-ia-en-entreprise-ne-se-resume-pas-a-l-ia--bf1ddd",
   "titre": "Maddyness démonte le mythe : l'IA en entreprise ne se résume pas à l'IA générative",
@@ -59,6 +162,27 @@
    "modele": "deepseek-flash",
    "entree": 852,
    "sortie": 1056
+  }
+ },
+ {
+  "id": "edeea74aa9e2fffa",
+  "slug": "openclaw-corrige-les-blocages-d-affichage-des-projets-recents-edeea7",
+  "titre": "OpenClaw corrige les blocages d'affichage des projets récents",
+  "resume": "OpenClaw publie une mise à jour centrée sur les performances. Le correctif évite les blocages de rafraîchissement de l'affichage dans la liste des projets récents, une gêne qui touchait donc l'interface. Il correspond à la pull request #166 du dépôt. La note de version ne donne pas d'autre détail sur le contenu de la publication.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F2b988ee83444-1791449196",
+  "date_source": "2026-10-08T06:16:36+00:00",
+  "date_redac": "2026-10-08T08:53:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 617,
+   "sortie": 601
   }
  },
  {

@@ -78,10 +78,10 @@ def jsonld_site():
     return bloc_jsonld({"@context": "https://schema.org", "@graph": [org, site]})
 
 
-def jsonld_item(type_page, url_page, titre, description, date_pub, date_mod, section, tags):
+def jsonld_item(type_page, url_page, titre, description, date_pub, date_mod, section, tags, sources=None):
     """NewsArticle pour une brève ou un article — jamais de date de build."""
     u = config.URL_SITE
-    return bloc_jsonld({
+    donnees = {
         "@context": "https://schema.org",
         "@type": type_page,
         "@id": url_page + "#article",
@@ -96,7 +96,12 @@ def jsonld_item(type_page, url_page, titre, description, date_pub, date_mod, sec
         "keywords": ", ".join(tags or []),
         "author": {"@id": f"{u}/#organisation"},
         "publisher": {"@id": f"{u}/#organisation"},
-    })
+    }
+    citations = [{"@type": "CreativeWork", "url": s["url"], "name": s["nom"]}
+                 for s in (sources or []) if s.get("url")]
+    if citations:
+        donnees["citation"] = citations
+    return bloc_jsonld(donnees)
 
 
 def carte_breve(b, detail=False):
@@ -449,7 +454,8 @@ def page_breve(b, breves_recentes):
     url_page = f"{config.URL_SITE}/breves/{b['slug']}/"
     jsonld = jsonld_item("NewsArticle", url_page, b["titre"], b["resume"],
                          b.get("date_source") or b.get("date_redac"),
-                         b.get("date_redac"), "Brèves", b.get("tags"))
+                         b.get("date_redac"), "Brèves", b.get("tags"),
+                         [{"nom": b["source"], "url": b["lien_source"]}])
     return page(b["titre"], desc, contenu, f"/breves/{b['slug']}/", section="actus",
                 extra_head=jsonld)
 
@@ -482,7 +488,8 @@ def page_article(a, autres_articles):
 </section>"""
     url_page = f"{config.URL_SITE}/articles/{a['slug']}/"
     jsonld = jsonld_item("NewsArticle", url_page, a["titre"], a["chapo"],
-                         a.get("date"), a.get("date"), "Articles de fond", a.get("tags"))
+                         a.get("date"), a.get("date"), "Articles de fond", a.get("tags"),
+                         a.get("sources"))
     return page(a["titre"], a["chapo"][:160], contenu, f"/articles/{a['slug']}/", section="articles",
                 extra_head=f'<meta name="article:published_time" content="{ech(a.get("date"))}">\n{jsonld}')
 

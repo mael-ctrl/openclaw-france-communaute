@@ -278,3 +278,31 @@ HTTPS des deux types de page et de leurs destinations avant annonce de succès.
 
 **Effet attendu** : encourager une deuxième lecture sur le même sujet et mieux
 relier les archives. Aucun gain de pages vues ou d'indexation encore mesuré.
+
+---
+
+## 2026-10-08 — Croissance : rendre les sources lisibles dans le JSON-LD
+
+**Constat vérifié en HTTPS** : les sources sont cliquables dans les pages, mais
+le bloc `NewsArticle` ne les décrit pas. Les moteurs doivent les retrouver dans
+le HTML au lieu de disposer d'une relation de citation explicite.
+
+**Amélioration unique** : ajouter `citation` au JSON-LD des brèves et articles
+(`engine/construction.py`), avec des objets `CreativeWork` reprenant exactement
+les noms et URL déjà affichés. Contrat de vocabulaire : https://schema.org/citation.
+Aucune source inventée lorsqu'elle manque, aucun changement éditorial, de date,
+de mise en page, de quota ou de budget ; aucun appel IA supplémentaire.
+
+**Validation locale** : tests brève puis article vus rouges puis verts ; 33 tests
+réussis. Essai `--essai --sans-redaction` dans une copie isolée : 502 sorties,
+zéro rédaction/envoi/publication sociale. Comparaison de 485 pages de lecture
+(400 brèves, 85 articles) : corps HTML et métadonnées antérieures inchangés,
+citations identiques aux sources. Échappement des caractères spéciaux et absence
+de source couverts ; empreintes de `data/` inchangées. Deux flux tiers ont répondu
+403/429, sans bloquer le build. Clone dédié hors Bureau illisible : aucun
+changement local non lisible repris. Livraison via `maj.yml`, puis contrôle des
+logs cloud et du JSON-LD servi en HTTPS avant annonce de mise en production.
+
+**Effet attendu** : faciliter l'identification automatique de la provenance des
+informations par les moteurs et outils IA. Ni validation factuelle des sources,
+ni hausse de classement, de citations externes ou de trafic démontrée.

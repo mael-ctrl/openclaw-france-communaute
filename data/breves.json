@@ -1,5 +1,47 @@
 [
  {
+  "id": "e173082eaf751c21",
+  "slug": "trois-chercheurs-securite-vires-d-openai-contestent-les-accusations-e17308",
+  "titre": "Trois chercheurs sécurité virés d'OpenAI contestent les accusations",
+  "resume": "Trois chercheurs chargés de la sécurité chez OpenAI, licenciés, contestent les accusations de mauvaise gestion d'informations sensibles. Dans une lettre ouverte, ils affirment que ces licenciements créent un effet dissuasif sur la culture de sécurité de l'entreprise. La façon dont les laboratoires d'IA encadrent leurs équipes dédiées aux risques est directement concernée.",
+  "tags": [
+   "openai",
+   "sécurité",
+   "société"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+  "date_source": null,
+  "date_redac": "2026-10-08T20:37:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 626,
+   "sortie": 421
+  }
+ },
+ {
+  "id": "abed258d317b007a",
+  "slug": "californie-une-commission-veut-stopper-les-combats-humain-robot-abed25",
+  "titre": "Californie : une commission veut stopper les combats humain-robot",
+  "resume": "La California State Athletic Commission a envoyé une lettre de mise en demeure à une startup qui a organisé, le 18 septembre, un combat entre un humain et un robot, rapporte The New York Times. L'affrontement opposait Frankie LaPenna à un robot humanoïde de Rek, une jeune entreprise technologique. Le régulateur californien applique donc aux spectacles impliquant des robots humanoïdes les mêmes règles qu'aux sports de combat.",
+  "tags": [
+   "robots",
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
+  "date_source": "2026-10-08T20:06:56+00:00",
+  "date_redac": "2026-10-08T20:36:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 668,
+   "sortie": 481
+  }
+ },
+ {
   "id": "5925af0d6161feeb",
   "slug": "ecosia-quitte-mistral-pour-des-modeles-ouverts-dont-des-ia-chinoises-5925af",
   "titre": "Ecosia quitte Mistral pour des modèles ouverts, dont des IA chinoises",
@@ -81,6 +123,49 @@
    "modele": "deepseek-flash",
    "entree": 763,
    "sortie": 645
+  }
+ },
+ {
+  "id": "6583b688e96eae38",
+  "slug": "mac-studio-ou-dgx-sparks-le-local-vaut-il-le-cout-face-aux-api-cloud-6583b6",
+  "titre": "Mac Studio ou DGX Sparks : le local vaut-il le coût face aux API cloud ?",
+  "resume": "Un développeur de r/LocalLLaMA hésite à acheter du matériel local pour du codage agentique intensif plutôt que de payer Claude Code et ChatGPT. Il chiffre les factures d'API cloud à plus de 500 dollars par mois, avec des limites atteintes après deux à quatre jours de travail. Son budget maximal est de 14 000 à 15 000 dollars, pour un Mac Studio M5 Ultra à 512 Go de RAM ou deux DGX Sparks.",
+  "tags": [
+   "matériel",
+   "agents",
+   "dev",
+   "claude"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x10vw6/local_hardware_vs_cloud_apis_is_it_actually_worth/",
+  "date_source": "2026-10-08T19:52:12+00:00",
+  "date_redac": "2026-10-08T20:36:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 838,
+   "sortie": 815
+  }
+ },
+ {
+  "id": "4a9377f52b563dc1",
+  "slug": "un-finetune-veriloop-e2-repere-dans-un-coin-de-hugging-face-4a9377",
+  "titre": "Un finetune VeriLoop-E2 repéré dans un coin de Hugging Face",
+  "resume": "Sur r/LocalLLaMA, un utilisateur dit obtenir de bons résultats avec un finetune peu connu déniché sur Hugging Face : VeriLoop-E2, publié par tsinghua-sigs-robot-lab. Il recommande une quantisation plus petite, iq3_s, qu'il juge efficace sur ses bases de code, et partage les deux dépôts. Une illustration de la façon dont les modèles spécialisés circulent hors des vitrines habituelles.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x10r5t/currently_having_high_success_with_this_little/",
+  "date_source": "2026-10-08T19:47:10+00:00",
+  "date_redac": "2026-10-08T20:37:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 728,
+   "sortie": 442
   }
  },
  {

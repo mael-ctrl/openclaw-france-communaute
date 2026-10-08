@@ -959,3 +959,9 @@
 {"ts": "2026-10-08T20:04:14+00:00", "evenement": "erreur", "details": {"message": "déploiement : [Errno 104] Connection reset by peer"}, "sha256": "73b7d73aaf29e57a2b1ce27bc7a1796986f2b5649fd05b22a97b4980fcd7cfbb"}
 {"ts": "2026-10-08T20:04:14+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "a4d5a9c22dde4cb48cd1e80fa58cf9a9d353ee7caf94182e2e08f84fd8027465"}
 {"ts": "2026-10-08T20:04:15+00:00", "evenement": "bilan", "details": {"duree_s": 213.8, "neufs": 6, "breves": 5, "articles": 0, "fichiers": 507, "publications": 0}, "sha256": "56f68b317bc77ee88439df019226b4063a09493e8ddd340211aa4aa74fe22ed3"}
+{"ts": "2026-10-08T20:36:51+00:00", "evenement": "collecte", "details": {"neufs": 4}, "sha256": "4c4f0a42a167ce0fe5950aa7dcfea9a316a1f3f83a0a68855e13de176cc04def"}
+{"ts": "2026-10-08T20:37:28+00:00", "evenement": "erreur", "details": {"message": "article impossible : réponse non-JSON"}, "sha256": "20c1e2ca97d36b520700ff6df43f7b9e434004db335110c51a395dd236f6ac3c"}
+{"ts": "2026-10-08T20:37:29+00:00", "evenement": "construction", "details": {"fichiers": 507}, "sha256": "80e7450def91aa83ba26afe8e5298a35779d72b170b02afb3b48b26560bf94e0"}
+{"ts": "2026-10-08T20:45:03+00:00", "evenement": "deploiement", "details": {"fichiers": 519, "octets": 7908457}, "sha256": "35b69eb80ccb7be9bb8c38079f982dbd4b417bee40a1ab8f03657a6f59946f19"}
+{"ts": "2026-10-08T20:45:03+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "ce387e46190d26ab87951bdc12d146ea8b850c41037c77a251c025cd6d43ac0f"}
+{"ts": "2026-10-08T20:45:03+00:00", "evenement": "bilan", "details": {"duree_s": 512.0, "neufs": 4, "breves": 4, "articles": 0, "fichiers": 507, "envois": 519, "publications": 0}, "sha256": "f1fcd3afc7aa09bd6549b26c4e7fbd6a7d822365518b6214fdd37fdac485b695"}

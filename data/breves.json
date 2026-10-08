@@ -1,5 +1,88 @@
 [
  {
+  "id": "f0816bd844c1fa83",
+  "slug": "ben-affleck-raconte-comment-les-reseaux-convolutifs-ont-servi-les-effe-f0816b",
+  "titre": "Ben Affleck raconte comment les réseaux convolutifs ont servi les effets spéciaux",
+  "resume": "Dans un extrait cité par Simon Willison, Ben Affleck raconte que son intérêt pour l'informatique vient du passage du cinéma analogique au numérique. Il rappelle que les effets visuels s'appuient depuis des années sur l'apprentissage automatique : les réseaux convolutifs, précurseurs des transformeurs, y détectent contours et motifs dans les tenseurs, la traduction numérique d'une image. Il dit pouvoir écrire lui-même de petits scripts Python.",
+  "tags": [
+   "recherche",
+   "société",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
+  "date_source": "2026-10-07T23:14:58+00:00",
+  "date_redac": "2026-10-07T23:54:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 749,
+   "sortie": 906
+  }
+ },
+ {
+  "id": "7c60706420800a48",
+  "slug": "deux-cmp-170hx-de-64-go-font-tourner-glm-5-3-flash-en-384k-de-contexte-7c6070",
+  "titre": "Deux CMP 170HX de 64 Go font tourner GLM-5.3-Flash en 384K de contexte",
+  "resume": "Un utilisateur de r/LocalLLaMA fait tourner GLM-5.3-Flash sur deux cartes CMP 170HX de 64 Go : 384K de contexte et environ 90 tok/s, avec une approche « HBM-first ». Il compare ce montage à son setup Qwen3.8-Flash-Next sur vLLM (AWQ INT4 + FP8 PLE), via des mesures PP/TG et les mêmes tâches de code et d'agent sur DSH. Il reconnaît que la comparaison n'est pas équitable : moteurs et décodage spéculatif diffèrent.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0b1ws/2x_cmp_170hx_64gb_glm53flash_at_384k_context_90/",
+  "date_source": "2026-10-07T22:59:08+00:00",
+  "date_redac": "2026-10-07T23:54:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 860,
+   "sortie": 1350
+  }
+ },
+ {
+  "id": "ed2b2fc7858fa679",
+  "slug": "tested-in-coding-un-retour-d-essai-sur-strata-sous-llama-cpp-ed2b2f",
+  "titre": "Tested in Coding : un retour d'essai sur Strata sous llama.cpp",
+  "resume": "Sur r/LocalLLaMA, l'auteur de la série « Tested in Coding » consacre un nouveau retour à Strata. Il détaille sa configuration : Qwen3.8-Flash-Next-UD-IQ3_XXS, KV-cache Q8_0 sous llama.cpp, 30 à 40 tokens/s en génération, 530 tokens/s en prefill et 220 000 tokens de contexte, une limite liée à la VRAM. Il dit avoir étudié en amont le réglage des paramètres d'échantillonnage propres à Strata.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x0b0iq/tested_in_coding_strata/",
+  "date_source": "2026-10-07T22:57:22+00:00",
+  "date_redac": "2026-10-07T23:54:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 872,
+   "sortie": 869
+  }
+ },
+ {
+  "id": "0a88ca8f67d8f1d5",
+  "slug": "surface-rtx-spark-dev-box-la-puce-gb10-a-5-995-livree-en-novembre-0a88ca",
+  "titre": "Surface RTX Spark Dev Box : la puce GB10 à 5 995 $, livrée en novembre",
+  "resume": "Microsoft dévoile la Surface RTX Spark Dev Box, une machine pour développeurs à 5 995 $, expédiée en novembre. Elle embarque une puce GB10 sous la marque N1X et prend en charge WSL dès la sortie, avec probablement Ubuntu et CUDA sous le capot, en plus des briques Copilot et GitHub natives de Windows. Le commentateur regrette l'absence du support ConnectX7 : le GB10 Spark donne son meilleur avec deux machines ou plus, et le 10 Gb Ethernet ne remplace pas cette interconnexion.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x09g09/surface_rtx_spark_dev_box_the_dev_box_built_for/",
+  "date_source": "2026-10-07T21:50:00+00:00",
+  "date_redac": "2026-10-07T23:54:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 722,
+   "sortie": 358
+  }
+ },
+ {
   "id": "7a2b73b3a637cfe2",
   "slug": "un-3090-et-32-go-de-ram-peut-on-faire-tourner-qwen3-6-35b-a3b-en-q8-7a2b73",
   "titre": "Un 3090 et 32 Go de RAM : peut-on faire tourner Qwen3.6-35B-A3B en Q8 ?",
@@ -58,6 +141,27 @@
    "modele": "deepseek-flash",
    "entree": 706,
    "sortie": 1117
+  }
+ },
+ {
+  "id": "12525f78396e918c",
+  "slug": "open-slm-evaluations-un-jeu-de-donnees-pour-106-petits-modeles-12525f",
+  "titre": "Open SLM Evaluations : un jeu de données pour 106 petits modèles",
+  "resume": "Open SLM Evaluations est un jeu de données qui rassemble les résultats de benchmarks de 106 petits modèles de langue, de 150M de paramètres ou moins. Pour chaque modèle, il fournit les scores, les noms, le nombre de paramètres et des liens. Les évaluations ont été menées indépendamment en 30 minutes de GPU sur un Runpod B200, et les données sont publiées sous licence Apache 2.0 sur Hugging Face.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x07x1z/open_slm_evalulations/",
+  "date_source": "2026-10-07T20:49:58+00:00",
+  "date_redac": "2026-10-07T23:54:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 697,
+   "sortie": 627
   }
  },
  {

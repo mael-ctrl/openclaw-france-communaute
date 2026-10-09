@@ -1,0 +1,41 @@
+{
+ "slug": "benchmark-open-weight-deluge-mathematique-chez-openai-ecosia-4a9212",
+ "titre": "Benchmark open-weight, déluge mathématique chez OpenAI, Ecosia quitte Mistral",
+ "chapo": "Un benchmark communautaire des modèles open-weight publie ses résultats en direct, pendant qu'OpenAI déverse ses résultats mathématiques sans prévenir. Sur le terrain de la souveraineté, Ecosia quitte Mistral pour des modèles chinois quand Sesterce engage plus de 10 milliards d'euros en Finlande.",
+ "html": "<h2 id=\"un-banc-d-essai-ouvert-tenu-par-la-commu\">Un banc d'essai ouvert, tenu par la communauté</h2>\n<p>Un benchmark des modèles open-weight est en ligne, avec des résultats mis à jour en direct. Il couvre le code et les tâches agentiques, et propose des filtres par domaine, par langue ou par intention — de quoi observer un modèle sur le terrain plutôt que sur une moyenne globale.</p>\n<p>Premier constat : <strong>DeepSeek-V4-Vision-Exp</strong> domine le classement. Mais l'intérêt du dispositif tient justement à ce que chaque modèle garde ses domaines de prédilection : la hiérarchie dépend de ce qu'on lui demande.</p>\n<p>Côté coulisses, tout tourne sur un PC équipé de deux RTX 3090 et de 128 Go de RAM. Les limites sont assumées : la couverture des questions reste incomplète et l'interface peu développée.</p>\n<h2 id=\"openai-deverse-ses-resultats-mathematiqu\">OpenAI déverse ses résultats mathématiques</h2>\n<p>OpenAI a diffusé cette semaine un afflux massif de résultats mathématiques, sans prévenir. Plus de trois dizaines de mathématiciens interrogés par The Verge en parlent avec des mots forts : « stupéfiant », « accablant », « sans précédent », « surréel », « pure folie ».</p>\n<p>Le sentiment général balance entre émerveillement et excitation, mais c'est le doute qui domine, porté par l'ampleur même de la publication. Il faudra des années pour en saisir la portée, selon les chercheurs interrogés.</p>\n<h2 id=\"ecosia-part-sesterce-construit\">Ecosia part, Sesterce construit</h2>\n<p>Deux mouvements à la même période. Ecosia abandonne les modèles de Mistral pour se tourner vers des modèles chinois. Son dirigeant explique que l'IA française n'a pas répondu aux attentes, et met en avant l'énergie nucléaire ainsi que des enjeux de souveraineté numérique. L'annonce intervient le jour du lancement de Large 4, le nouveau modèle de Mistral.</p>\n<p>À l'autre bout de la chaîne, le français Sesterce ne veut plus seulement louer des GPU. Il se présente désormais comme constructeur et opérateur d'« AI Factories » : approvisionnement électrique, bâtiment, refroidissement, accélérateurs et orchestration informatique dans une même offre. L'entreprise engage plus de 10 milliards d'euros en Finlande, devenue le nouvel aimant des data centers IA.</p>\n<p>Dans les deux cas, l'énergie et l'infrastructure occupent le centre du raisonnement — l'électricité comme argument chez Ecosia, comme brique produit chez Sesterce.</p>\n<h2 id=\"trois-chercheurs-de-securite-ecartes-ope\">Trois chercheurs de sécurité écartés, OpenAI assume</h2>\n<p>OpenAI maintient le licenciement de trois chercheurs en sécurité : Jasmine Wang, Tomek Korbak et Mikita Balesni. Une enquête interne a conclu à « une grave rupture de confiance ».</p>\n<p>Dans un message publié sur X vendredi, l'entreprise affirme que les trois ont été écartés pour avoir violé ses « politiques claires » sur le traitement des informations sensibles. C'est, à ce stade, le seul motif rendu public.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux manières de travailler se dessinent dans ces dépêches : celle qui expose ses modèles et ses mesures à une communauté, sur du matériel qu'un particulier peut assembler, et celle qui publie par vagues, tranche en interne et communique ensuite. Entre les deux, les data centers et l'électricité sont devenus le terrain des arbitrages — un moteur de recherche qui change de fournisseur, un opérateur qui se met à bâtir. Pour le reste, il faudra du temps : des années, disent les mathématiciens, pour mesurer ce qui vient d'être mis sur la table.</p>",
+ "pivot": "4a9212e9d7b58efd",
+ "tags": [
+  "open-source",
+  "openai",
+  "mistral",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1tf1t/just_another_purely_openweight_models_benchmark/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/nous-sommes-decus-mistral-moteur-recherche-ecosia-abandonne-mistral-profit-ia-chinoises.html"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/sesterce-investit-plus-de-10-milliards-deuros-en-finlande-devenue-le-nouvel-aimant-des-data-centers-ia.FZC3HZTSSZGGLOLMG2MIJRCKYI.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers"
+  }
+ ],
+ "date": "2026-10-09T20:59:22+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1566,
+  "sortie": 3314
+ }
+}

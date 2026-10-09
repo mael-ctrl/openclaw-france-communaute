@@ -1,22 +1,18 @@
 {
- "runs": 192,
- "items_collectes": 1482,
- "breves_publiees": 727,
- "articles_publies": 105,
- "tokens_entree": 691418,
- "tokens_sortie": 1000057,
+ "runs": 193,
+ "items_collectes": 1485,
+ "breves_publiees": 729,
+ "articles_publies": 106,
+ "tokens_entree": 694219,
+ "tokens_sortie": 1005490,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-09T20:17:49+00:00",
+ "dernier_run": "2026-10-09T20:59:22+00:00",
  "solde": {
-  "total": "86.73",
+  "total": "86.72",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-09T12:47:44+00:00",
-   "message": "brève impossible (tencent/Youtu-Parsing-Omni · Hugging Face) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-09T13:49:47+00:00",
    "message": "brève impossible (Qwen-Image-2.1-Turbo released!) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-09T20:17:29+00:00",
    "message": "brève impossible (v2.1.296) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-09T20:59:07+00:00",
+   "message": "brève impossible (H2O-Lightning-4B: Apache-2.0 4B Decision model, official #1 ) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 4.93,
+ "depense_usd": 4.94,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -792,10 +792,14 @@
   [
    "2026-10-09T20:16:59+00:00",
    "86.73"
+  ],
+  [
+   "2026-10-09T20:58:46+00:00",
+   "86.72"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.64,
+ "depense_mois_usd": 2.65,
  "archive_tentatives": {
   "jour": "2026-10-09",
   "n": 1

@@ -1092,3 +1092,9 @@
 {"ts": "2026-10-09T20:30:25+00:00", "evenement": "deploiement", "details": {"fichiers": 536, "octets": 8379661}, "sha256": "ee99295ae154f6d53ebd261bfcd2732d5499007d409425d80cd99ab0634116a1"}
 {"ts": "2026-10-09T20:30:26+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "45a715b15352c406fa2df67a95781fb9b4527cee9b8fa3e792cae7ecc18de398"}
 {"ts": "2026-10-09T20:30:26+00:00", "evenement": "bilan", "details": {"duree_s": 823.2, "neufs": 5, "breves": 4, "articles": 1, "fichiers": 524, "envois": 536, "publications": 0}, "sha256": "40d9581c665b6449dd36413d693c304de15b0b504647148f2eb4c46acd2b8bde"}
+{"ts": "2026-10-09T20:58:45+00:00", "evenement": "collecte", "details": {"neufs": 3}, "sha256": "ed3cfe183e12cc69af7dd0e722f17c9f5d0cbb735414809be668e8f277b9f0c9"}
+{"ts": "2026-10-09T20:59:07+00:00", "evenement": "erreur", "details": {"message": "brève impossible (H2O-Lightning-4B: Apache-2.0 4B Decision model, official #1 ) : réponse non-JSON"}, "sha256": "7f6af3395e2a416ef6b223564fc2501b7797ebdee098d25e2350e57d1df71dd0"}
+{"ts": "2026-10-09T20:59:22+00:00", "evenement": "construction", "details": {"fichiers": 525}, "sha256": "4bf46c6c187afccd9fe756e549424c50c8bc6aa6075d5f8b280388b4b4d1ae04"}
+{"ts": "2026-10-09T21:07:00+00:00", "evenement": "deploiement", "details": {"fichiers": 537, "octets": 8396519}, "sha256": "d9477ea7bcaf6df9f90b830b7f01655ca743d41d4c11a71f06520115692a8223"}
+{"ts": "2026-10-09T21:07:00+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "245561cb16f15cfce85bdc20a9e693273d9dcde615aab842ca3000f4a6626bdc"}
+{"ts": "2026-10-09T21:07:00+00:00", "evenement": "bilan", "details": {"duree_s": 510.6, "neufs": 3, "breves": 2, "articles": 1, "fichiers": 525, "envois": 537, "publications": 0}, "sha256": "9f6a4c4d283491a18276e59f3a4499d66089cdfba5c6b9bccf4720306f1f564f"}

@@ -1,5 +1,88 @@
 [
  {
+  "id": "0345c6287016015b",
+  "slug": "ordonnancement-des-clusters-gpu-un-billet-d-allen-ai-sur-hugging-face-0345c6",
+  "titre": "Ordonnancement des clusters GPU : un billet d'Allen AI sur Hugging Face",
+  "resume": "Allen AI publie sur le blog de Hugging Face un billet consacré à l'ordonnancement des clusters de GPU. Autrement dit, à la manière de répartir les tâches sur ces machines. Le sujet compte parce que la puissance de calcul est devenue un facteur limitant pour l'entraînement comme pour l'inférence des modèles : la façon dont un cluster est organisé détermine ce qu'on peut réellement en tirer.",
+  "tags": [
+   "recherche",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hugging Face",
+  "lien_source": "https://huggingface.co/blog/allenai/impactful-scheduling",
+  "date_source": null,
+  "date_redac": "2026-10-09T15:54:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 607,
+   "sortie": 822
+  }
+ },
+ {
+  "id": "70614f617bef7785",
+  "slug": "mellum2-1-12b-a2-5b-teste-sur-pi-bon-en-agentique-faible-en-one-shot-70614f",
+  "titre": "Mellum2.1-12B-A2.5B testé sur Pi : bon en agentique, faible en one-shot",
+  "resume": "Mellum2.1-12B-A2.5B, testé en local en Q8 via Pi et llama-server, donne des résultats mitigés sur cinq tâches one-shot : Pelican SVG, Browser OS et Minecraft sont jugés pauvres. L'auteur salue en revanche son comportement agentique, avec un appel d'outils fiable et des corrections spontanées de ses erreurs d'édition. Sur un projet de jeu existant, le modèle a exploré le code et triplé la hauteur de saut.",
+  "tags": [
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1owjv/tested_mellum2112ba25b_on_pi_coding_agent/",
+  "date_source": "2026-10-09T15:50:15+00:00",
+  "date_redac": "2026-10-09T15:53:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 830,
+   "sortie": 1137
+  }
+ },
+ {
+  "id": "95b6d2aac8820eec",
+  "slug": "olivia-moore-a16z-l-ia-grand-public-un-relais-de-croissance-au-dela-de-95b6d2",
+  "titre": "Olivia Moore (a16z) : l'IA grand public, un relais de croissance au-delà des abonnements",
+  "resume": "Olivia Moore, du fonds d'investissement a16z, s'exprime sur l'état de l'IA grand public. Elle y voit une opportunité importante. Cette opportunité dépend toutefois d'une condition : que le secteur parvienne à capter des revenus au-delà des seuls abonnements et de la facturation des API.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
+  "date_source": "2026-10-09T15:43:33+00:00",
+  "date_redac": "2026-10-09T15:53:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 619,
+   "sortie": 893
+  }
+ },
+ {
+  "id": "771a77d809efb5cf",
+  "slug": "un-llm-de-24-ko-dans-un-seul-fichier-html-genere-des-histoires-coheren-771a77",
+  "titre": "Un LLM de 24 Ko dans un seul fichier HTML génère des histoires cohérentes",
+  "resume": "Un développeur a publié sur r/LocalLLaMA un LLM autonome de 24 Ko, contenu dans un seul fichier HTML, qui génère des histoires cohérentes à plus de 60 tokens par seconde, smartphone compris. Compresser le modèle à 20 Ko a été simple, mais gagner 5 Ko de plus sans perdre en qualité a demandé beaucoup de temps, via quantification adaptative et QAT. L'auteur assume : c'est possible, et amusant.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1obep/a_24kb_standalone_htmlllm_that_can_generate/",
+  "date_source": "2026-10-09T15:27:09+00:00",
+  "date_redac": "2026-10-09T15:53:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 853,
+   "sortie": 1323
+  }
+ },
+ {
   "id": "074fcf3a832fef3c",
   "slug": "l-ia-porte-47-de-la-croissance-en-valeur-du-commerce-de-biens-074fcf",
   "titre": "L'IA porte 47 % de la croissance en valeur du commerce de biens",

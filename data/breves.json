@@ -1,5 +1,130 @@
 [
  {
+  "id": "9c7952e3755c0990",
+  "slug": "openai-publie-une-avalanche-de-resultats-mathematiques-les-chercheurs--9c7952",
+  "titre": "OpenAI publie une avalanche de résultats mathématiques, les chercheurs perplexes",
+  "resume": "OpenAI a diffusé cette semaine un afflux massif de résultats mathématiques, sans prévenir. Plus de trois dizaines de mathématiciens interrogés par The Verge parlent de « stupéfiant », « accablant », « sans précédent », « surréel » ou de « pure folie ». Entre émerveillement et excitation, le doute domine face à l'ampleur de la publication : il faudra des années pour en saisir la portée.",
+  "tags": [
+   "openai",
+   "recherche",
+   "société"
+  ],
+  "importance": 4,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+  "date_source": "2026-10-09T19:09:44+00:00",
+  "date_redac": "2026-10-09T19:21:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 676,
+   "sortie": 351
+  }
+ },
+ {
+  "id": "4a9212e9d7b58efd",
+  "slug": "un-benchmark-communautaire-pour-les-modeles-open-weight-4a9212",
+  "titre": "Un benchmark communautaire pour les modèles open-weight",
+  "resume": "Un benchmark communautaire des modèles open-weight est en ligne, avec résultats en direct. Il couvre le code et les tâches agentiques, avec des filtres par domaine, langue ou intention. DeepSeek-V4-Vision-Exp y domine, chaque modèle gardant ses domaines de prédilection. Tout tourne sur un PC à deux RTX 3090 et 128 Go de RAM, mais la couverture des questions reste incomplète et l'interface peu développée.",
+  "tags": [
+   "open-source",
+   "deepseek",
+   "recherche",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1tf1t/just_another_purely_openweight_models_benchmark/",
+  "date_source": "2026-10-09T18:43:54+00:00",
+  "date_redac": "2026-10-09T19:21:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 786,
+   "sortie": 845
+  }
+ },
+ {
+  "id": "a4e4a7f15088636e",
+  "slug": "qwen-3-8-flash-next-un-moe-125b-a-21-tok-s-sur-une-rtx-3060-a4e4a7",
+  "titre": "Qwen 3.8 Flash Next : un MoE 125B à 21 tok/s sur une RTX 3060",
+  "resume": "Un développeur de r/LocalLLaMA fait tourner Qwen 3.8 Flash Next, un MoE de 125B à 512 experts, à environ 21 tokens/s sur une seule RTX 3060 12 Go et 16 Go de DDR4. Sans élagage des experts et 100 % bit-exact ; avec un cache chaud, il annonce plus de 24 tokens/s. Il avait abandonné un projet similaire deux mois plus tôt, ses chiffres venant en réalité d'un élagage agressif des experts qui dégradait la qualité du modèle quantifié.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1tclb/qwen_38_flash_nextgsqrcoiq2_xs_at_21_toks_on_just/",
+  "date_source": "2026-10-09T18:41:18+00:00",
+  "date_redac": "2026-10-09T19:21:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 848,
+   "sortie": 1000
+  }
+ },
+ {
+  "id": "3bd7d982afbeb55b",
+  "slug": "un-tower-defense-martien-cree-avec-claude-approuve-sur-l-app-store-3bd7d9",
+  "titre": "Un tower defense martien créé avec Claude approuvé sur l'App Store",
+  "resume": "Un tower defense situé sur Mars, où l'on désintègre des vagues d'insectes extraterrestres, a été approuvé sur l'App Store iOS. Artworks, code et supports marketing : tout a été produit par Claude, connecté via Cursor, en environ un mois de prompts et de tests par intermittence. Bilan de l'auteur : passer par Cursor plutôt qu'un abonnement direct à Claude lui a coûté plus de 1000 dollars.",
+  "tags": [
+   "claude",
+   "dev",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x1t371/claude_created_my_dream_game_and_got_approved_for/",
+  "date_source": "2026-10-09T18:31:14+00:00",
+  "date_redac": "2026-10-09T19:21:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 798,
+   "sortie": 878
+  }
+ },
+ {
+  "id": "95ad8d38b5ff1355",
+  "slug": "nikon-disqualifie-le-gagnant-de-son-concours-de-video-microscopique-po-95ad8d",
+  "titre": "Nikon disqualifie le gagnant de son concours de vidéo microscopique pour usage d'IA",
+  "resume": "Nikon a disqualifié la vidéo qui avait remporté la première place de son concours Small World in Motion : selon le fabricant, elle « ne respectait pas les règles du concours concernant l'IA générative ». D'après la BBC, l'œuvre du Dr Ning Xu montrait des structures ciliées en mouvement dans les voies respiratoires d'un enfant. Le concours récompense des vidéos de microscopie.",
+  "tags": [
+   "société",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
+  "date_source": "2026-10-09T18:06:57+00:00",
+  "date_redac": "2026-10-09T19:21:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 655,
+   "sortie": 874
+  }
+ },
+ {
+  "id": "fdc3fcad7fef7087",
+  "slug": "llamatale-v0-43-0-un-serveur-mcp-pour-creer-des-recits-interactifs-fdc3fc",
+  "titre": "LlamaTale v0.43.0 : un serveur MCP pour créer des récits interactifs",
+  "resume": "LlamaTale v0.43.0 est un serveur MCP dédié à la création d'histoires, partagé sur r/LocalLLaMA. Son auteur avait forké Tale, une bibliothèque de fiction interactive et de MUD, à l'époque de Llama 2, pour expérimenter la génération de contenu par LLM : une aventure textuelle au contenu dynamique. Avec l'arrivée des agents, il a repris le projet et implémenté cette version avec Qwen3.8 27B.",
+  "tags": [
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1s09m/llamatale_v0430_mcp_server_for_story_creation/",
+  "date_source": "2026-10-09T17:49:31+00:00",
+  "date_redac": "2026-10-09T19:21:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 809,
+   "sortie": 577
+  }
+ },
+ {
   "id": "4a471207f0475e9a",
   "slug": "hermes-agent-la-release-candidate-rc-7-v0-21-7-est-publiee-sur-github-4a4712",
   "titre": "Hermes Agent : la release candidate rc.7-v0.21.7 est publiée sur GitHub",

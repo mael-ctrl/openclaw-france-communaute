@@ -1,5 +1,91 @@
 [
  {
+  "id": "302533456163cb8d",
+  "slug": "cloud-temple-thales-bull-vates-et-le-cea-mobilisent-47-millions-d-euro-302533",
+  "titre": "Cloud Temple, Thales, Bull, Vates et le CEA mobilisent 47 millions d'euros",
+  "resume": "Cloud Temple, fournisseur de services cloud qualifiés SecNumCloud, s'associe à Thales, Bull, Vates et au CEA pour développer le cloud et l'IA de confiance. Le consortium s'inscrit dans l'appel à projets « Renforcement de l'offre de services cloud », opéré par Bpifrance pour le compte de l'État. L'annonce a été faite le 9 octobre 2026.",
+  "tags": [
+   "france",
+   "business",
+   "sécurité"
+  ],
+  "importance": 4,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/informatique/cloud/cloud-temple-thales-bull-vates-et-le-cea-mobilisent-47-millions-deuros-pour-developper-le-cloud-et-lia-de-confiance.DF6Y3QN5IRAPJKF2KTJNTWHDYQ.html",
+  "date_source": "2026-10-09T04:00:00+00:00",
+  "date_redac": "2026-10-09T04:51:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 754,
+   "sortie": 319
+  }
+ },
+ {
+  "id": "7788943445a9c5f7",
+  "slug": "lora-sur-gguf-entrainer-qwen3-8-flash-next-dans-40-gio-de-vram-778894",
+  "titre": "LoRA sur GGUF : entraîner Qwen3.8-Flash-Next dans 40 Gio de VRAM",
+  "resume": "Une nouvelle étape de la série « LoRA over GGUF » permet d'entraîner Qwen3.8-Flash-Next (125B-A6B + 51B d'engram) dans 40 Gio de VRAM, sans déchargement CPU, avec l'engram sur disque sans perte de vitesse. Sur Strix Halo, l'entraînement tourne à 9,5 s/it sur des chunks de contexte de 2048, soit 200 tokens/s, loin des plus de 1600 tokens/s atteints en prefill. Depuis transformers 5.18, le support initial des GGUF modernes est fusionné, et le dépôt torch-ggml-ops contient GGTensile, une optimisation assembleur des kernels MMQ déjà plus rapide que HIP dans de nombreux cas.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1bdvl/lora_over_gguf_train_qwen38flashnext_in_40g_vram/",
+  "date_source": "2026-10-09T03:54:39+00:00",
+  "date_redac": "2026-10-09T04:51:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 871,
+   "sortie": 932
+  }
+ },
+ {
+  "id": "b4cb168e75f88422",
+  "slug": "hermes-agent-publie-la-version-rc-5-v0-21-7-b4cb16",
+  "titre": "Hermes Agent publie la version rc.5-v0.21.7",
+  "resume": "Le dépôt Hermes Agent, hébergé sur le compte GitHub de NousResearch, a publié le tag rc.5-v0.21.7 le 9 octobre 2026. L'entrée de version ne fournit qu'un bloc de métadonnées techniques : cinquième tentative, autopublication désactivée, horodatage de revendication et identifiant de commit. Aucun détail sur le contenu des changements ni sur les modèles concernés n'accompagne cette publication.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.5-v0.21.7",
+  "date_source": "2026-10-09T03:53:41+00:00",
+  "date_redac": "2026-10-09T04:51:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 759
+  }
+ },
+ {
+  "id": "7e51707d836ec2ce",
+  "slug": "hermes-agent-abandonne-une-release-candidate-de-la-version-0-21-7-7e5170",
+  "titre": "Hermes Agent abandonne une release candidate de la version 0.21.7",
+  "resume": "Hermes Agent a publié sur GitHub une entrée de release intitulée « abandoned-rc.4-v0.21.7 », explicitement marquée comme abandonnée. Les métadonnées jointes indiquent une quatrième tentative (attempt: 4), référencée rc.4-v0.21.7, pour une version 0.21.7 et un schéma 1. Le dépôt conserve donc une trace publique de cette tentative écartée, sans autre information sur son contenu.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.4-v0.21.7",
+  "date_source": "2026-10-09T03:53:27+00:00",
+  "date_redac": "2026-10-09T04:51:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 689
+  }
+ },
+ {
   "id": "e2d3382e1af9138d",
   "slug": "hermes-agent-publie-la-release-candidate-rc-4-de-la-v0-21-7-e2d338",
   "titre": "Hermes Agent publie la release candidate rc.4 de la v0.21.7",
@@ -124,6 +210,27 @@
    "modele": "deepseek-flash",
    "entree": 804,
    "sortie": 1388
+  }
+ },
+ {
+  "id": "30249163482a540a",
+  "slug": "ttok-passe-en-1-0-et-bascule-par-defaut-sur-le-tokenizer-gpt-5-302491",
+  "titre": "ttok passe en 1.0 et bascule par défaut sur le tokenizer GPT-5",
+  "resume": "Simon Willison publie ttok 1.0, après avoir constaté que la version 0.4 s'appuyait par défaut sur le tokenizer de GPT-4 plutôt que sur celui de GPT-5/GPT-6. OpenAI n'a pas confirmé que GPT-6 partage le tokenizer de la famille GPT-5, mais un commit de William Liu rapporte une expérience : les sept modèles GPT testés affichent 44 794 tokens et concordent sur les 31 fixtures.",
+  "tags": [
+   "openai",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/9/ttok/",
+  "date_source": "2026-10-09T00:34:43+00:00",
+  "date_redac": "2026-10-09T04:51:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 787,
+   "sortie": 853
   }
  },
  {

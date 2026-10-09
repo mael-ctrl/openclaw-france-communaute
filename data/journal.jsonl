@@ -1032,3 +1032,8 @@
 {"ts": "2026-10-09T10:46:23+00:00", "evenement": "erreur", "details": {"message": "déploiement : [Errno 110] Connection timed out"}, "sha256": "56b4b2a23569dc5384d98d5df4c87183378702f9f64425abaad570b6088c7a89"}
 {"ts": "2026-10-09T10:46:24+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "d76b18fd336ba93d7223e59295339d2b2e4cb3fce079cf3ea908b71a847f76e4"}
 {"ts": "2026-10-09T10:46:24+00:00", "evenement": "bilan", "details": {"duree_s": 188.6, "neufs": 6, "breves": 6, "articles": 1, "fichiers": 513, "publications": 0}, "sha256": "2800349a285e3dd680be17bec9453d83352f16ce8d89e81ffea86703bbc837d4"}
+{"ts": "2026-10-09T11:45:32+00:00", "evenement": "collecte", "details": {"neufs": 2}, "sha256": "c543e2efe47caee06fdc09145b340aefd8c46a7041cb47fbc3da8928bd76b3f3"}
+{"ts": "2026-10-09T11:46:08+00:00", "evenement": "construction", "details": {"fichiers": 514}, "sha256": "1ea43cd90d85e8ea922f1a67dc7e8da442d8b7b2cd67688640dff930b25ee9d4"}
+{"ts": "2026-10-09T11:53:20+00:00", "evenement": "deploiement", "details": {"fichiers": 526, "octets": 8025838}, "sha256": "d48af1e0b1b81f69f1f81da74b7afbe946f5136e3504020074c4f9866aec57dd"}
+{"ts": "2026-10-09T11:53:20+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "13dca6bc1bd0e0088a2228949814c85e3241ef606b1fe7f8087a0c95eec46f55"}
+{"ts": "2026-10-09T11:53:20+00:00", "evenement": "bilan", "details": {"duree_s": 485.6, "neufs": 2, "breves": 2, "articles": 1, "fichiers": 514, "envois": 526, "publications": 0}, "sha256": "93ea265d598006ba3abb0abaff467a5ddedfc3fb1da96198d521f36f588ae86c"}

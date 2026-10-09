@@ -1,5 +1,48 @@
 [
  {
+  "id": "37bede9d8a0df07a",
+  "slug": "un-format-de-memoire-portable-pour-ia-qui-transfere-aussi-les-competen-37bede",
+  "titre": "Un format de mémoire portable pour IA qui transfère aussi les compétences",
+  "resume": "Un membre de r/LocalLLaMA a mis au point « Memory Journal », un format de mémoire portable qui tient dans un simple fichier .txt, présenté sous la forme d'une carte de compétence. Il s'agit en pratique d'un long prompt encapsulé dans un fichier texte, conçu pour un usage général et capable de gérer aussi bien des sessions casual que techniques. Au-delà du contexte, l'auteur indique qu'il peut reproduire des compétences, transmettre des erreurs, ainsi que des faits prouvés, non prouvés et réfutés.",
+  "tags": [
+   "skills",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1j2lx/i_made_a_portable_ai_memory_format_that_transfers/",
+  "date_source": "2026-10-09T11:38:22+00:00",
+  "date_redac": "2026-10-09T11:45:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 803,
+   "sortie": 426
+  }
+ },
+ {
+  "id": "4947f7daf4f3efa2",
+  "slug": "aws-lance-physical-ai-toolchain-une-suite-open-source-pour-la-robotiqu-4947f7",
+  "titre": "AWS lance « Physical AI Toolchain », une suite open source pour la robotique",
+  "resume": "Amazon Web Services a présenté le 7 octobre « Physical AI Toolchain », une suite open source pour les développeurs d'IA physique : robots humanoïdes, véhicules autonomes, automatisation industrielle. Elle réunit recommandations d'architecture, outils d'automatisation du déploiement et code prêt à l'emploi, pour concevoir des modèles robotiques sans se soucier de l'infrastructure. Le tout s'intègre aux solutions Nvidia.",
+  "tags": [
+   "robots",
+   "dev",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/robotique/aws-lance-une-suite-doutils-integree-aux-solutions-nvidia-pour-accelerer-le-developpement-robotique.O6QIDJVMSFCZTHK2YEKUN72LQQ.html",
+  "date_source": "2026-10-09T11:38:01+00:00",
+  "date_redac": "2026-10-09T11:45:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 807,
+   "sortie": 732
+  }
+ },
+ {
   "id": "e5da3c1b129a876f",
   "slug": "sesterce-investit-plus-de-10-milliards-d-euros-dans-des-ai-factories-e-e5da3c",
   "titre": "Sesterce investit plus de 10 milliards d'euros dans des AI Factories en Finlande",

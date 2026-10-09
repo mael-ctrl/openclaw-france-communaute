@@ -1,22 +1,18 @@
 {
- "runs": 178,
- "items_collectes": 1393,
- "breves_publiees": 669,
+ "runs": 179,
+ "items_collectes": 1398,
+ "breves_publiees": 674,
  "articles_publies": 94,
- "tokens_entree": 633317,
- "tokens_sortie": 911610,
+ "tokens_entree": 636642,
+ "tokens_sortie": 915659,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-09T07:54:45+00:00",
+ "dernier_run": "2026-10-09T08:40:18+00:00",
  "solde": {
-  "total": "87.07",
+  "total": "87.05",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-08T20:01:37+00:00",
-   "message": "brève impossible (v2.1.295) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-08T20:02:27+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 16 column 6 (char 3210)"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-09T07:54:45+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 8 column 6 (char 1188)"
+  },
+  {
+   "ts": "2026-10-09T08:40:18+00:00",
+   "message": "article impossible : Expecting ',' delimiter: line 8 column 6 (char 1669)"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 4.59,
+ "depense_usd": 4.61,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -736,10 +736,14 @@
   [
    "2026-10-09T07:53:55+00:00",
    "87.07"
+  ],
+  [
+   "2026-10-09T08:39:31+00:00",
+   "87.05"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.3,
+ "depense_mois_usd": 2.32,
  "archive_tentatives": {
   "jour": "2026-10-09",
   "n": 1

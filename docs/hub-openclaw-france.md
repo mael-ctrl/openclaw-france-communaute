@@ -185,6 +185,42 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   ni de nouveau contact. Prochaine priorité : disposer d’un accès sécurisé
   Uneed pour la soumission gratuite autorisée, avec indépendance explicite.
 
+## Gratuité et budget sur l’accueil — livraison du 09/10/2026
+
+- **Une amélioration** : distinguer le prix des kits des coûts d’usage dès
+  l’accueil. Mention visible **avant les boutons** : kits et guides à 0 €,
+  modèle IA et hébergement potentiellement payants. Lien direct vers le guide
+  existant `#couts` ; FAQ gratuité et serveur rendues cohérentes. Retrait du
+  tarif VPS approximatif et du rabais non vérifié, lien partenaire conservé
+  et signalé, sans obligation. Aucun kit, script ou style modifié.
+- Contenu recoupé avec le guide existant et les documentations officielles
+  OpenClaw Getting started et Hermes Quickstart (choix du fournisseur), relues
+  le 09/10. Aucune estimation de coût universelle ni installation réelle prétendue.
+- Les **3 nouveaux tests** de `tests/test_hub_couts.py` échouent avant la
+  correction, puis passent ; suite complète **42 tests OK**. Les 3 tests
+  passent aussi sur les pages HTTPS téléchargées ; contenu `<main>` public
+  de l’accueil strictement identique aux sources locales.
+- Chrome sans JavaScript : mention avant les CTA, liens vers `#couts`, FAQ
+  ouverte au clavier et absence de débordement horizontal vérifiés à
+  **1440, 1024, 430, 390, 375 et 360 px** localement, puis à **1440, 390 et
+  360 px** en production. Captures mobiles conservées hors dépôt.
+- Déploiement avec `python3 outils/deployer_openclaw.py` depuis le clone cron
+  `~/.hermes/workspaces/hub-openclaw-20261003`, hors Bureau. Le clone partagé
+  avec conflit préexistant reste intact. Sauvegarde privée et comparaison
+  production/Git avant envoi : aucune divergence ; **35 fichiers relus via
+  FTP**, identiques aux sources après déploiement. Les dates et modes des
+  fichiers des kits sont restaurés avant régénération : les deux ZIP restent
+  intègres et identiques octet pour octet aux archives précédentes.
+- Santé finale : **HTTP 200 pour les six URL demandées**, ainsi que pour le
+  guide, le sitemap et la clé IndexNow. Sitemap actualisé pour l’accueil
+  uniquement ; **IndexNow HTTP 200** pour `https://openclaw-france.fr/`.
+  Notification acceptée, pas preuve d’indexation ni de hausse du trafic.
+- **Aucune distribution supplémentaire** : contrôle du 09/10 déjà consigné
+  dans `docs/distribution-textes.md`, avec accès et permissions bloquants.
+  Pas de répétition Bluesky après la promotion du 05/10, ni de nouveau contact.
+  Prochaine priorité sur le hub : vérifier les prérequis des kits face aux
+  documentations officielles ; Uneed reste en attente d’un accès sécurisé.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

@@ -1048,3 +1048,9 @@
 {"ts": "2026-10-09T13:00:20+00:00", "evenement": "deploiement", "details": {"fichiers": 529, "octets": 8248581}, "sha256": "fbe5d3025893ef23e540219d5c091c76978a51d9e43f482766949519503ee09c"}
 {"ts": "2026-10-09T13:00:20+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "7ca98936a31c9fb264a5016959a55eff6421fb3501e1399699e66e1a60e3b276"}
 {"ts": "2026-10-09T13:00:20+00:00", "evenement": "bilan", "details": {"duree_s": 785.1, "neufs": 2, "breves": 1, "articles": 1, "fichiers": 517, "envois": 529, "publications": 0}, "sha256": "4dafb42f7365ccd03a9957afa56df59124ad2ee5513da0f3b514c8adf82943b7"}
+{"ts": "2026-10-09T13:49:25+00:00", "evenement": "collecte", "details": {"neufs": 7}, "sha256": "0aadd85d5ea6b2cc2a173e06833a2ab0990753fc8d7e394dbc1b61baefef82c0"}
+{"ts": "2026-10-09T13:49:47+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Qwen-Image-2.1-Turbo released!) : réponse non-JSON"}, "sha256": "d12afe6ab4b8021f22b4a78087b5f39f0fbcacffa185136600bba0fb813c10a6"}
+{"ts": "2026-10-09T13:50:14+00:00", "evenement": "construction", "details": {"fichiers": 518}, "sha256": "0a8a4a8ee058a5fa55bc896ce4a432621e176a888f337cfeff498ccb53983756"}
+{"ts": "2026-10-09T13:59:09+00:00", "evenement": "deploiement", "details": {"fichiers": 530, "octets": 8266320}, "sha256": "b1816b6cfb868279c8c384a989276a7c4749a9bb591f20c66ceafb0d590adf8b"}
+{"ts": "2026-10-09T13:59:10+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "76faa4338ad7fcf9cd356707ddcbce802c01aa7edcd55a553945e01860d49210"}
+{"ts": "2026-10-09T13:59:10+00:00", "evenement": "bilan", "details": {"duree_s": 595.0, "neufs": 7, "breves": 5, "articles": 1, "fichiers": 518, "envois": 530, "publications": 0}, "sha256": "ddd6311e3092ad5335c6480ddf86591a711d205655390e1c696d5821621cc8c7"}

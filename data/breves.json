@@ -1,5 +1,88 @@
 [
  {
+  "id": "894c00702438aef1",
+  "slug": "un-depot-hugging-face-qwen-image-2-1-turbo-repere-sur-r-localllama-894c00",
+  "titre": "Un dépôt Hugging Face Qwen-Image-2.1-Turbo repéré sur r/LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, un post publié le 9 octobre 2026 par /u/chocofoxy renvoie vers une page Hugging Face intitulée Qwen/Qwen-Image-2.1-Turbo. Le message d'accompagnement ne donne aucun détail sur le modèle : ni taille, ni licence, ni résultats. Le nom du dépôt le rattache à la famille Qwen, mais rien d'autre ne figure dans la source.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1ldef/qwenqwenimage21turbo_hugging_face/",
+  "date_source": "2026-10-09T13:28:14+00:00",
+  "date_redac": "2026-10-09T13:49:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 1115
+  }
+ },
+ {
+  "id": "ee39388bd1253119",
+  "slug": "un-rig-d-inference-epyc-7443-avec-72-go-de-vram-sur-quatre-gpu-ee3938",
+  "titre": "Un rig d'inférence Epyc 7443 avec 72 Go de VRAM sur quatre GPU",
+  "resume": "Un membre de r/LocalLLaMA a commandé une configuration d'inférence autour d'un Epyc 7443 (24 cœurs, 128 lignes PCIe) et d'une carte H12SSL-NT-B, avec 256 Go de RAM. Il y ajoutera quatre GPU totalisant 72 Go de VRAM : une 3090, une 5070 Ti et deux 5060 Ti. En attendant la carte mère, il espère doubler la bande passante PCIe des GPU et gagner au moins 50 % de bande passante mémoire.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1ld3q/epyc_inference_rigs/",
+  "date_source": "2026-10-09T13:27:55+00:00",
+  "date_redac": "2026-10-09T13:49:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 852,
+   "sortie": 760
+  }
+ },
+ {
+  "id": "f9f422becf9067ec",
+  "slug": "on-migre-24-services-cloud-avec-des-agents-ia-et-google-cloud-f9f422",
+  "titre": "On migre 24 services cloud avec des agents IA et Google Cloud",
+  "resume": "La marque suisse de vêtements et chaussures de sport haut de gamme On a migré 24 services critiques vers Google Cloud en s'appuyant sur des agents IA plutôt que sur une armée de consultants. Selon les deux partenaires, la durée de migration est passée de trois mois à deux semaines par service, avec moins de cinq minutes d'interruption planifiée par service.",
+  "tags": [
+   "agents",
+   "business",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/informatique/cloud/google-cloud/comment-la-marque-de-sport-on-a-utilise-des-agents-ia-pour-migrer-son-infrastructure-cloud.O2ZNEZHMWZCC5HKN2RRLHLDNBI.html",
+  "date_source": "2026-10-09T13:25:02+00:00",
+  "date_redac": "2026-10-09T13:49:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 746,
+   "sortie": 469
+  }
+ },
+ {
+  "id": "0b169af6e8ed393c",
+  "slug": "simon-willison-construit-une-page-de-son-blog-en-pilotant-codex-a-la-v-0b169a",
+  "titre": "Simon Willison construit une page de son blog en pilotant Codex à la voix",
+  "resume": "Simon Willison a mis en ligne une page Newsletters qui indexe ses envois : la lettre hebdomadaire gratuite et les mises à jour mensuelles réservées aux sponsors. Il l'a construite presque entièrement à la voix, depuis l'onglet Codex de l'application ChatGPT, contre un environnement de développement local. Il a lancé le serveur de dev du dépôt simonwillisonblog avant d'ouvrir la session vocale, tout en cuisinant.",
+  "tags": [
+   "chatgpt",
+   "dev",
+   "openai",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+  "date_source": "2026-10-09T12:54:06+00:00",
+  "date_redac": "2026-10-09T13:49:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 779,
+   "sortie": 1203
+  }
+ },
+ {
   "id": "8db4998186a7edce",
   "slug": "openai-defend-le-licenciement-de-trois-chercheurs-en-securite-8db499",
   "titre": "OpenAI défend le licenciement de trois chercheurs en sécurité",
@@ -18,6 +101,26 @@
    "modele": "deepseek-flash",
    "entree": 667,
    "sortie": 463
+  }
+ },
+ {
+  "id": "ef162a6c38e7bb8c",
+  "slug": "rtx-4090-huawei-atlas-duo-quelle-config-pour-l-inference-locale-ef162a",
+  "titre": "RTX 4090 + Huawei Atlas Duo : quelle config pour l'inférence locale ?",
+  "resume": "Un utilisateur de r/LocalLLaMA équipé d'une RTX 4090 et de 64 Go de DDR4 juge que les quants les plus légers tiennent sur sa machine, mais qu'ils sont décevants : il est revenu à Qwen 3.8. Il se demande s'il doit acheter un Huawei Atlas Duo, soit 96 Go de mémoire deux fois plus rapide que la RAM système et un accélérateur IA plus rapide que le CPU.",
+  "tags": [
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1jlek/rtx_4090_huawei_atlas_duo_for_qwen_flash_next/",
+  "date_source": "2026-10-09T12:05:05+00:00",
+  "date_redac": "2026-10-09T13:50:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 718,
+   "sortie": 996
   }
  },
  {

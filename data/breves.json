@@ -1,5 +1,67 @@
 [
  {
+  "id": "bfb8a05cd3215db1",
+  "slug": "ainews-une-journee-calme-sans-actualite-marquante-bfb8a0",
+  "titre": "AINews : une journée calme, sans actualité marquante",
+  "resume": "Le bulletin AINews de Latent Space ne signale rien de marquant : son titre indique sobrement que « pas grand-chose ne s'est passé aujourd'hui », et l'extrait se limite à un « jour calme ». La newsletter fait donc relâche, sans annonce à se mettre sous la dent.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Latent Space",
+  "lien_source": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
+  "date_source": null,
+  "date_redac": "2026-10-09T00:09:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 576,
+   "sortie": 559
+  }
+ },
+ {
+  "id": "9e78866399485bbe",
+  "slug": "legalon-reduit-de-65-ses-couts-codex-sans-ralentir-le-developpement-9e7886",
+  "titre": "LegalOn réduit de 65 % ses coûts Codex sans ralentir le développement",
+  "resume": "LegalOn a réduit d'environ 65 % ses coûts quotidiens estimés liés à Codex, tout en conservant sa vitesse de développement. L'entreprise a réparti les tâches entre Astra, Sol et Luna, et piloté ses budgets de façon stratégique. Un cas concret d'optimisation des dépenses liées aux agents de code.",
+  "tags": [
+   "openai",
+   "dev",
+   "business"
+  ],
+  "importance": 2,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/legalon-halves-codex-costs",
+  "date_source": null,
+  "date_redac": "2026-10-09T00:09:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 597,
+   "sortie": 503
+  }
+ },
+ {
+  "id": "80e8dc31eef83e9f",
+  "slug": "strata-accuse-d-avoir-reecrit-son-historique-github-pour-effacer-claud-80e8dc",
+  "titre": "Strata accusé d'avoir réécrit son historique GitHub pour effacer Claude",
+  "resume": "u/dasbin, sur r/LocalLLaMA, a vu le script « UPDATE » intégré à Strata échouer : git ne trouvait plus d'ancêtre commun. Selon lui, tous les commits historiques du projet ont été réécrits pour supprimer la mention « Co-Authored by Claude » des descriptions. Il juge la pratique « assez grossière » et n'y voit pas d'autre raison qu'une volonté de dissimuler les origines du projet.",
+  "tags": [
+   "claude",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x15a8w/strata_rewrote_their_github_history_to_wipe/",
+  "date_source": "2026-10-08T22:52:03+00:00",
+  "date_redac": "2026-10-09T00:09:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 706,
+   "sortie": 630
+  }
+ },
+ {
   "id": "9dff27ddbb180fb8",
   "slug": "hugging-face-quand-le-modele-n-existe-pas-on-le-construit-soi-meme-9dff27",
   "titre": "Hugging Face : quand le modèle n'existe pas, on le construit soi-même",

@@ -1,0 +1,41 @@
+{
+ "slug": "strata-gomme-claude-de-son-git-anthropic-traque-129-000-fail-80e8dc",
+ "titre": "Strata gomme Claude de son Git, Anthropic traque 129 000 failles",
+ "chapo": "Un script de mise à jour qui casse sur un dépôt sans ancêtre commun : c'est par ce détail que Strata est accusé d'avoir réécrit son historique Git pour effacer Claude. Pendant ce temps, Anthropic revendique 129 000 failles débusquées et ouvre un scanner gratuit à l'open-source.",
+ "html": "<h2 id=\"l-ancetre-commun-qui-disparait\">L'ancêtre commun qui disparaît</h2>\n<p>Sous le pseudo u/dasbin, un membre de r/LocalLLaMA raconte avoir vu le script « UPDATE » intégré à Strata échouer : git ne trouvait plus d'ancêtre commun entre les versions du dépôt.</p>\n<p>Pour lui, l'explication est simple : <strong>tous les commits historiques du projet ont été réécrits</strong> pour supprimer la mention « Co-Authored by Claude » des descriptions. Il juge la pratique « assez grossière » et n'y voit pas d'autre raison qu'une volonté de dissimuler les origines du projet.</p>\n<p>L'accusation circule sur un forum, portée par un utilisateur, et la dépêche ne rapporte aucune réponse de Strata. C'est le détail technique qui lui donne du poids : un historique réécrit à ce point rompt l'ancêtre commun, et casse donc les outils qui s'appuient dessus.</p>\n<h2 id=\"129-000-failles-et-un-scanner-offert\">129 000 failles, et un scanner offert</h2>\n<p>Anthropic annonce que <strong>Claude Mythos a identifié au moins 129 000 failles</strong> en quelques mois. En réaction à ce bilan, la start-up a décidé d'élargir l'accès à son IA conçue pour la cybersécurité. Le volume de vulnérabilités détectées donne la mesure de ce que ces modèles peuvent apporter aux équipes qui défendent des systèmes.</p>\n<p>Dans la même veine, l'entreprise lance <strong>OSS Scanner</strong> : les projets open-source qui s'inscrivent reçoivent, selon Anthropic, des scans de sécurité réguliers et approfondis, réalisés par ses modèles les plus puissants, sans frais. Les mainteneurs pourraient ainsi être alertés plus tôt de problèmes potentiels.</p>\n<p>Sur les deux annonces, une même précaution de lecture : les chiffres comme les modalités viennent de l'entreprise elle-même, et la dépêche les lui attribue explicitement.</p>\n<h2 id=\"ecosia-change-de-camp-en-cinq-mois\">Ecosia change de camp en cinq mois</h2>\n<p>Ecosia, le moteur de recherche allemand qui finance la reforestation, abandonne Mistral <strong>cinq mois après l'avoir choisi</strong>. Le service bascule vers des modèles ouverts, dont plusieurs chinois.</p>\n<p>Frandroid souligne que sur les trois raisons avancées, une seule résiste à l'examen — la dépêche ne détaille pas lesquelles. La réponse d'Arthur Mensch tient en une phrase : « Désolé si le nucléaire est un vrai point de blocage ».</p>\n<p>Le revirement, cinq mois après la décision inverse, dit quelque chose de la volatilité des arbitrages côté modèles : un moteur de recherche qui met en avant son bilan écologique peut passer d'un acteur français à des modèles ouverts, dont certains viennent de Chine.</p>\n<h2 id=\"mlx-le-prefill-se-gagne-avant-le-calcul\">MLX : le prefill se gagne avant le calcul</h2>\n<p>Sur MLX, la multiplication de matrices quantifiées restage les opérandes en FP16. En les stagant en <strong>FP8</strong>, on accède au chemin matriciel FP8 deux fois plus rapide du matériel Apple Silicon M6.</p>\n<p>La même idée en int8 sur M5 donne un gain de prefill comparable : <strong>+40 % sur Qwen3-8B</strong>, jusqu'à <strong>+50 % sur un modèle 27B</strong>. Ce fork n'est pas upstream (mlx#4627) et augmente la perplexité de moins de 1 %.</p>\n<p>Le changement se joue donc sur la façon dont les opérandes sont rangées avant le calcul matriciel, sur du matériel déjà en place, et pour un coût en qualité annoncé comme marginal.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dépêches, trois rapports différents au même écosystème. Anthropic apparaît à la fois comme la signature qu'on efface d'un historique Git et comme l'acteur qui outille la sécurité de l'open-source ; ses chiffres, comme l'accusation portée contre Strata, restent des déclarations. Ecosia, lui, tranche en cinq mois entre Mistral et des modèles ouverts. La question qui traverse tout ça : qui signe ce qu'on livre, et qui vérifie ce qu'on publie.</p>",
+ "pivot": "80e8dc31eef83e9f",
+ "tags": [
+  "claude",
+  "open-source",
+  "sécurité",
+  "mistral"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x15a8w/strata_rewrote_their_github_history_to_wipe/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/129-000-failles-debusquees-anthropic-devoile-le-bilan-impressionnant-claude-mythos.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x13fo2/staging_quantized_weights_to_fp8_instead_of_fp16/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3278721_ecosia-quitte-mistral-pour-des-ia-chinoises-arthur-mensch-repond-desole-si-le-nucleaire-est-un-vrai-point-de-blocage"
+  }
+ ],
+ "date": "2026-10-09T00:09:46+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1600,
+  "sortie": 5040
+ }
+}

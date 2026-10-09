@@ -1,22 +1,18 @@
 {
- "runs": 191,
- "items_collectes": 1477,
- "breves_publiees": 723,
- "articles_publies": 104,
- "tokens_entree": 687148,
- "tokens_sortie": 993360,
+ "runs": 192,
+ "items_collectes": 1482,
+ "breves_publiees": 727,
+ "articles_publies": 105,
+ "tokens_entree": 691418,
+ "tokens_sortie": 1000057,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-09T19:21:49+00:00",
+ "dernier_run": "2026-10-09T20:17:49+00:00",
  "solde": {
-  "total": "86.74",
+  "total": "86.73",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-09T10:46:23+00:00",
-   "message": "déploiement : [Errno 110] Connection timed out"
-  },
   {
    "ts": "2026-10-09T12:47:44+00:00",
    "message": "brève impossible (tencent/Youtu-Parsing-Omni · Hugging Face) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-09T15:09:46+00:00",
    "message": "brève impossible (Que devient InstaDeep, trois ans après son rachat record par) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-09T20:17:29+00:00",
+   "message": "brève impossible (v2.1.296) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 4.92,
+ "depense_usd": 4.93,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -788,10 +788,14 @@
   [
    "2026-10-09T19:21:01+00:00",
    "86.74"
+  ],
+  [
+   "2026-10-09T20:16:59+00:00",
+   "86.73"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.63,
+ "depense_mois_usd": 2.64,
  "archive_tentatives": {
   "jour": "2026-10-09",
   "n": 1

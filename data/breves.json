@@ -1,5 +1,48 @@
 [
  {
+  "id": "1a3a6f1cf56b1e48",
+  "slug": "furieux-contre-adobe-un-developpeur-recree-photoshop-et-six-logiciels--1a3a6f",
+  "titre": "Furieux contre Adobe, un développeur recrée Photoshop et six logiciels avec Claude",
+  "resume": "Un développeur d'Atlanta a publié des clones gratuits et open source de sept logiciels phares d'Adobe, dont Photoshop. Le tout a été codé en Rust avec l'aide de Claude. Détail piquant : Adobe et Anthropic sont officiellement partenaires depuis avril.",
+  "tags": [
+   "claude",
+   "open-source",
+   "dev",
+   "business"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/furieux-contre-adobe-il-recree-photoshop-et-six-autres-logiciels-avec-lia.html",
+  "date_source": "2026-10-09T05:35:20+00:00",
+  "date_redac": "2026-10-09T06:03:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 656,
+   "sortie": 333
+  }
+ },
+ {
+  "id": "0a160406f0f28801",
+  "slug": "le-qwen3-8-27b-non-censure-de-hauhaucs-tourne-a-262k-de-contexte-sur-u-0a1604",
+  "titre": "Le Qwen3.8-27B non censuré de HauhauCS tourne à 262K de contexte sur une 4090",
+  "resume": "HauhauCS ne distribue son Qwen3.8-27B non censuré qu'en GGUF ; NInfer, moteur d'inférence C++/CUDA, réclame son propre format. La conversion tient la fenêtre native de 262K sur une RTX 4090 : ~130 tok/s en décodage (MTP3, 70,8 % d'acceptation) et 3 591 tok/s en prefill sur un prompt de 9K, contre 91,6 tok/s et 131K sous llama.cpp. La perplexité reste à 1,3 % de l'artefact officiel, et vision et appels d'outils fonctionnent.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1d0u4/running_the_uncensored_qwen3827b_hauhaucs_on_a/",
+  "date_source": "2026-10-09T05:27:28+00:00",
+  "date_redac": "2026-10-09T06:03:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 807,
+   "sortie": 1105
+  }
+ },
+ {
   "id": "302533456163cb8d",
   "slug": "cloud-temple-thales-bull-vates-et-le-cea-mobilisent-47-millions-d-euro-302533",
   "titre": "Cloud Temple, Thales, Bull, Vates et le CEA mobilisent 47 millions d'euros",

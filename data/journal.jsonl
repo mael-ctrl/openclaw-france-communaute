@@ -1059,3 +1059,10 @@
 {"ts": "2026-10-09T15:02:52+00:00", "evenement": "deploiement", "details": {"fichiers": 531, "octets": 8284950}, "sha256": "fb01932ec64d56047c649904f0d22fe8060f2f51e649a104d1bf2a2fbf3b4768"}
 {"ts": "2026-10-09T15:02:56+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "27f554f58f462dd384409178e970b247598197bb9599fca6ad2a2a44d728ed99"}
 {"ts": "2026-10-09T15:02:56+00:00", "evenement": "bilan", "details": {"duree_s": 702.1, "neufs": 5, "breves": 5, "articles": 1, "fichiers": 519, "envois": 531, "publications": 0}, "sha256": "11e7cc3fa4f9e801794f1e56af00975ec4e3a5e6d56ed6405995a3d0c4172196"}
+{"ts": "2026-10-09T15:09:16+00:00", "evenement": "collecte", "details": {"neufs": 5}, "sha256": "6173e8e341d944b986ade22103c8d0796c50141caa724856b629d9397ee64f37"}
+{"ts": "2026-10-09T15:09:29+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Quoting Matthew Green) : réponse non-JSON"}, "sha256": "30da55ffa09d9db6b9590bc6229c8e778eaf5280b854e99d04961005cbf60084"}
+{"ts": "2026-10-09T15:09:46+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Que devient InstaDeep, trois ans après son rachat record par) : réponse non-JSON"}, "sha256": "1a45aa3e8aaa65ac641e43ae91323fe8a355f4e2bc429b043700a0728e976a12"}
+{"ts": "2026-10-09T15:10:13+00:00", "evenement": "construction", "details": {"fichiers": 520}, "sha256": "be498611b33ec803684b125f7bf1d8d7947f3075e45196ef2c30e0b696427478"}
+{"ts": "2026-10-09T15:22:38+00:00", "evenement": "deploiement", "details": {"fichiers": 532, "octets": 8302346}, "sha256": "44a77f2e6b8f20d33a57e50186db9c51203592c852e0b133f116ac85d8342ae5"}
+{"ts": "2026-10-09T15:22:38+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "4e08870361fcb95c86edd793fc1f3c24abf6a2d55123942b73c55f1ec72db9f5"}
+{"ts": "2026-10-09T15:22:38+00:00", "evenement": "bilan", "details": {"duree_s": 816.0, "neufs": 5, "breves": 3, "articles": 1, "fichiers": 520, "envois": 532, "publications": 0}, "sha256": "fc49937539aeaf80ca5e37cfe045c0d2109afa38c8651f60756961ba28dacb4f"}

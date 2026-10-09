@@ -1,26 +1,18 @@
 {
- "runs": 186,
- "items_collectes": 1425,
- "breves_publiees": 698,
- "articles_publies": 100,
- "tokens_entree": 663328,
- "tokens_sortie": 954833,
+ "runs": 187,
+ "items_collectes": 1430,
+ "breves_publiees": 701,
+ "articles_publies": 101,
+ "tokens_entree": 666966,
+ "tokens_sortie": 961996,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-09T14:52:21+00:00",
+ "dernier_run": "2026-10-09T15:10:13+00:00",
  "solde": {
   "total": "86.78",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-09T08:40:18+00:00",
-   "message": "article impossible : Expecting ',' delimiter: line 8 column 6 (char 1669)"
-  },
-  {
-   "ts": "2026-10-09T09:44:33+00:00",
-   "message": "déploiement : [Errno 110] Connection timed out"
-  },
   {
    "ts": "2026-10-09T10:46:23+00:00",
    "message": "déploiement : [Errno 110] Connection timed out"
@@ -32,6 +24,14 @@
   {
    "ts": "2026-10-09T13:49:47+00:00",
    "message": "brève impossible (Qwen-Image-2.1-Turbo released!) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-09T15:09:29+00:00",
+   "message": "brève impossible (Quoting Matthew Green) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-09T15:09:46+00:00",
+   "message": "brève impossible (Que devient InstaDeep, trois ans après son rachat record par) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -767,6 +767,10 @@
   ],
   [
    "2026-10-09T14:51:45+00:00",
+   "86.78"
+  ],
+  [
+   "2026-10-09T15:09:17+00:00",
    "86.78"
   ]
  ],

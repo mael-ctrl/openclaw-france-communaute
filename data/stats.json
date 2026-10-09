@@ -1,22 +1,18 @@
 {
- "runs": 179,
- "items_collectes": 1398,
- "breves_publiees": 674,
+ "runs": 180,
+ "items_collectes": 1401,
+ "breves_publiees": 677,
  "articles_publies": 94,
- "tokens_entree": 636642,
- "tokens_sortie": 915659,
+ "tokens_entree": 638748,
+ "tokens_sortie": 917544,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-09T08:40:18+00:00",
+ "dernier_run": "2026-10-09T09:42:17+00:00",
  "solde": {
-  "total": "87.05",
+  "total": "87.04",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-08T20:02:27+00:00",
-   "message": "article impossible : Expecting ',' delimiter: line 16 column 6 (char 3210)"
-  },
   {
    "ts": "2026-10-08T20:04:14+00:00",
    "message": "déploiement : [Errno 104] Connection reset by peer"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-09T08:40:18+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 8 column 6 (char 1669)"
+  },
+  {
+   "ts": "2026-10-09T09:44:33+00:00",
+   "message": "déploiement : [Errno 110] Connection timed out"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 4.61,
+ "depense_usd": 4.62,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -740,10 +740,14 @@
   [
    "2026-10-09T08:39:31+00:00",
    "87.05"
+  ],
+  [
+   "2026-10-09T09:41:59+00:00",
+   "87.04"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.32,
+ "depense_mois_usd": 2.33,
  "archive_tentatives": {
   "jour": "2026-10-09",
   "n": 1

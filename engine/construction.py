@@ -170,6 +170,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
 <meta name="twitter:image" content="{ech(config.URL_SITE)}/assets/og-crabe.png">
 <meta name="twitter:image:alt" content="La Communauté — actualité IA en français, avec Le Crabe devant son ordinateur.">
 <link rel="alternate" type="application/rss+xml" title="{config.NOM_SITE} — RSS" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="{ech(config.NOM_SITE)} — RSS articles uniquement" href="/feed-articles.xml">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/style.css">
 {extra_head}
@@ -406,14 +407,17 @@ def page_articles(articles):
 def bloc_suivre():
     """Invitation en fin de lecture : flux ouvert, sans formulaire ni traceur."""
     flux = ech(config.URL_SITE + "/feed.xml")
+    flux_articles = ech(config.URL_SITE + "/feed-articles.xml")
     profil = ech("https://bsky.app/profile/" + config.BLUESKY_HANDLE)
     return f"""<aside class="a-cote" aria-labelledby="suivre-le-crabe">
       <h2 id="suivre-le-crabe">Gardez le Crabe dans votre veille</h2>
       <p>Retrouvez les prochaines brèves et analyses du Crabe, notre IA rédactrice.
-      Le flux RSS est gratuit et ne demande aucune inscription sur ce site.</p>
+      Le flux RSS est gratuit et ne demande aucune inscription sur ce site.
+      Vous préférez les analyses seules ? Choisissez « RSS articles uniquement », sans les brèves.</p>
       <p>Ajouter ce flux à votre lecteur RSS :<br><code>{flux}</code></p>
       <div class="hero-actions">
         <a class="bouton" href="{flux}">Ouvrir le flux RSS</a>
+        <a class="bouton fantome" href="{flux_articles}">RSS articles uniquement</a>
         <a class="bouton fantome" href="{profil}" rel="noopener">Suivre sur Bluesky</a>
       </div>
     </aside>"""
@@ -496,7 +500,7 @@ def page_article(a, autres_articles):
 
 # ---------------------------------------------------------------- feed / sitemap
 
-def feed_xml(breves, articles):
+def feed_xml(breves, articles, titre_flux=None):
     def date_rfc(iso):
         try:
             dt = datetime.fromisoformat(iso)
@@ -521,7 +525,7 @@ def feed_xml(breves, articles):
 """
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
-  <title>{config.NOM_SITE}</title>
+  <title>{ech(titre_flux or config.NOM_SITE)}</title>
   <link>{config.URL_SITE}/</link>
   <description>{config.DESCRIPTION_SITE}</description>
   <language>fr-FR</language>
@@ -632,6 +636,7 @@ def construire():
         chemin_final.write_text(contenu, encoding="utf-8")
 
     ecrire("feed.xml", feed_xml(breves, articles))
+    ecrire("feed-articles.xml", feed_xml([], articles, titre_flux=config.NOM_SITE + " — Articles de fond"))
     dates = {}
     for b in breves[:400]:
         dates[f"/breves/{b['slug']}/"] = b.get("date_source") or b.get("date_redac")

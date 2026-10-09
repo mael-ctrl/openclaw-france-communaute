@@ -306,3 +306,32 @@ logs cloud et du JSON-LD servi en HTTPS avant annonce de mise en production.
 **Effet attendu** : faciliter l'identification automatique de la provenance des
 informations par les moteurs et outils IA. Ni validation factuelle des sources,
 ni hausse de classement, de citations externes ou de trafic démontrée.
+
+---
+
+## 2026-10-09 — Croissance : suivre uniquement les articles de fond
+
+**Constat** : le flux général mélange brèves et analyses. Les lecteurs souhaitant
+seulement les articles de fond n'ont pas de flux dédié, malgré l'invitation RSS
+présente en fin de lecture.
+
+**Amélioration unique** : `/feed-articles.xml` expose les 20 articles les plus
+récents, sans brève, avec les mêmes URL et identifiants stables que le flux
+général. Un bouton « RSS articles uniquement » le propose après chaque lecture ;
+une balise de découverte RSS le déclare dans le HTML. Le flux général et le lien
+Bluesky restent disponibles. Aucun compte, traceur ou appel IA supplémentaire ;
+aucune promesse de cadence quotidienne.
+
+**Validation locale** : génération du flux et découverte vues rouges puis vertes ;
+39 tests réussis. Contrôles du tri, de la limite, des destinations construites,
+des identifiants, de l'échappement XML et du flux vide. Essai isolé
+`--essai --sans-redaction` : 515 sorties, 20 entrées dans le nouveau flux et
+509 fichiers HTML contrôlés ; zéro rédaction, envoi ou publication sociale.
+Empreintes de `data/` du clone de livraison inchangées. Quatre réponses de flux
+tiers (502, 502, 403, 429) n'ont pas bloqué le build. Clone dédié hors Bureau
+illisible ; changements locaux non lisibles laissés intacts et non repris.
+Livraison par `maj.yml`, puis lecture des logs et contrôles HTTPS du XML,
+des liens et des balises avant d'annoncer la production.
+
+**Effet attendu** : faciliter un abonnement ciblé et limiter le bruit pour les
+lecteurs des analyses. Aucun gain d'abonnements ou de trafic encore mesuré.

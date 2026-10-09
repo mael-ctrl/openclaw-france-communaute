@@ -1,5 +1,87 @@
 [
  {
+  "id": "6669d050c8eb2787",
+  "slug": "mistral-large-4-passe-au-crible-des-benchmarks-independants-6669d0",
+  "titre": "Mistral Large 4 passé au crible des benchmarks indépendants",
+  "resume": "Trois jours après sa sortie, Mistral Large 4 a été passé au crible par des évaluateurs indépendants. Ces benchmarks donnent une meilleure vision de ce que le modèle de langage est capable de faire. La question soulevée : le modèle est-il surcoté ?",
+  "tags": [
+   "mistral",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/3278907_mistral-large-4-est-il-surcote-voici-ce-que-disent-les-benchmarks-independants",
+  "date_source": "2026-10-09T07:49:07+00:00",
+  "date_redac": "2026-10-09T07:53:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 655,
+   "sortie": 635
+  }
+ },
+ {
+  "id": "9daa5477cbb2519f",
+  "slug": "stepped-moe-un-cadre-qui-combine-modeles-elastiques-et-routage-parcimo-9daa54",
+  "titre": "Stepped MoE : un cadre qui combine modèles élastiques et routage parcimonieux",
+  "resume": "Un papier propose un cadre unifié combinant structures élastiques et architectures à activation parcimonieuse. Le modèle se conditionne sur le contexte et les spécifications d'efficacité visées, pour piloter finement le compromis précision-efficacité à l'inférence. Objectif : répondre aux contraintes mémoire et calcul des appareils, notamment pour l'inférence embarquée.",
+  "tags": [
+   "recherche",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1f5gz/paper_stepped_moe_segmentlevel_routing_with/",
+  "date_source": "2026-10-09T07:39:16+00:00",
+  "date_redac": "2026-10-09T07:54:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 745,
+   "sortie": 861
+  }
+ },
+ {
+  "id": "6c62fb626a5924a8",
+  "slug": "anthropic-interdit-les-abus-repetes-envers-claude-qui-pourra-couper-co-6c62fb",
+  "titre": "Anthropic interdit les abus répétés envers Claude, qui pourra couper court",
+  "resume": "Anthropic interdit désormais les comportements abusifs répétés envers Claude, son assistant IA. La règle entre en vigueur le 12 novembre. Elle s'appuie sur une fonction déjà en place, qui permet au chatbot de mettre fin à un échange.",
+  "tags": [
+   "claude",
+   "société",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/anthropic-claude-ai/3278885_vous-insultez-votre-ia-claude-va-desormais-pouvoir-couper-court-a-vos-echanges",
+  "date_source": "2026-10-09T07:21:39+00:00",
+  "date_redac": "2026-10-09T07:54:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 684,
+   "sortie": 537
+  }
+ },
+ {
+  "id": "6f200e1922d2178d",
+  "slug": "dloop-plusieurs-etapes-de-brouillon-avant-verification-en-decodage-spe-6f200e",
+  "titre": "DLoop : plusieurs étapes de brouillon avant vérification en décodage spéculatif",
+  "resume": "Le décodage spéculatif accélère la génération autoregressive des grands modèles de langage : un modèle brouillon propose des tokens que le modèle cible vérifie ensuite. Avec des brouillons de plus en plus performants, le modèle cible accepte souvent tous les tokens produits, mais une vérification suit quand même chaque étape, ce qui impose des passes inutiles. Les méthodes à longueur adaptative n'améliorent la vitesse que pour les brouillons autoregressifs. DLoop propose une forme bouclée qui enchaîne plusieurs étapes de brouillon avant la vérification.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1eu7o/paper_dloop_looped_speculative_decoding/",
+  "date_source": "2026-10-09T07:18:42+00:00",
+  "date_redac": "2026-10-09T07:54:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 779,
+   "sortie": 677
+  }
+ },
+ {
   "id": "26179195a5ad3de5",
   "slug": "anthropic-interdira-les-comportements-abusifs-envers-claude-des-le-12--261791",
   "titre": "Anthropic interdira les comportements abusifs envers Claude dès le 12 novembre",
@@ -101,6 +183,26 @@
    "modele": "deepseek-flash",
    "entree": 681,
    "sortie": 524
+  }
+ },
+ {
+  "id": "657da14a19b6aac0",
+  "slug": "aspirateurs-robots-pas-chers-la-selection-2026-de-frandroid-sous-400-e-657da1",
+  "titre": "Aspirateurs robots pas chers : la sélection 2026 de Frandroid sous 400 euros",
+  "resume": "Frandroid publie son comparatif des aspirateurs robots pas chers à acheter en 2026. Les modèles retenus ont été testés et sélectionnés pour offrir le meilleur rapport qualité/prix, avec un plafond de 400 euros. Le guide vise les appareils d'entrée de gamme.",
+  "tags": [
+   "robots",
+   "matériel"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/guide-dachat/2767881_les-meilleurs-aspirateurs-robots-pas-chers-notre-selection",
+  "date_source": "2026-10-09T06:20:55+00:00",
+  "date_redac": "2026-10-09T07:54:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 652,
+   "sortie": 395
   }
  },
  {

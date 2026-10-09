@@ -1,5 +1,88 @@
 [
  {
+  "id": "4d195bb374ccacc4",
+  "slug": "peut-on-s-empecher-de-traiter-l-ia-comme-un-humain-4d195b",
+  "titre": "Peut-on s'empêcher de traiter l'IA comme un humain ?",
+  "resume": "Cité par TechCrunch, Sherry Turkle observe que nous ne pouvons pas nous empêcher de prêter des sentiments à l'IA. Dès les échanges les plus simples avec un « artefact relationnel », écrit-elle, nous croyons qu'elle se soucie de nous. Et nous serions câblés pour le lui rendre. Une question de fond sur notre rapport aux modèles conversationnels.",
+  "tags": [
+   "société",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
+  "date_source": "2026-10-09T16:40:14+00:00",
+  "date_redac": "2026-10-09T16:48:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 642,
+   "sortie": 643
+  }
+ },
+ {
+  "id": "b161c8e1869783bf",
+  "slug": "steamos-installe-sur-un-pc-incompatible-en-trois-semaines-grace-a-clau-b161c8",
+  "titre": "SteamOS installé sur un PC incompatible en trois semaines grâce à Claude Code",
+  "resume": "Frandroid a passé trois semaines à installer SteamOS, le système de Valve, sur un Dell XPS 15 de 2018 équipé de puces graphiques Intel et Nvidia, que Valve ne prend pas officiellement en charge. Le récit de ces bidouillages a été largement facilité par l'IA Claude. Il illustre comment un assistant IA peut aider à contourner des incompatibilités matérielles.",
+  "tags": [
+   "claude",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/produits-android/console/3280129_on-a-installe-steamos-sur-un-pc-incompatible-grace-a-claude-code-voila-ce-quon-a-appris",
+  "date_source": "2026-10-09T16:13:00+00:00",
+  "date_redac": "2026-10-09T16:48:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 684,
+   "sortie": 867
+  }
+ },
+ {
+  "id": "7b9c1071cde3bc0a",
+  "slug": "quel-modele-de-generation-d-images-pour-produire-des-infographies-7b9c10",
+  "titre": "Quel modèle de génération d'images pour produire des infographies ?",
+  "resume": "Un utilisateur de r/LocalLLaMA décrit son workflow scolaire : Gemini résume un cours, puis génère des infographies à partir de ce résumé. Il le juge peu fiable, le style changeant sans cesse et les limites vite atteintes. Il cherche un modèle d'image capable de produire des infographies complexes et un modèle qui traduirait sa demande en prompt adapté. Il utilise Qwen 27B pour le texte et craint de saturer sa VRAM.",
+  "tags": [
+   "gemini",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1pg53/which_image_gen_model_is_best_for_infographics/",
+  "date_source": "2026-10-09T16:10:26+00:00",
+  "date_redac": "2026-10-09T16:48:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 767,
+   "sortie": 1012
+  }
+ },
+ {
+  "id": "6e7e23e5c186c947",
+  "slug": "pony-ai-veut-lancer-ses-taxis-autonomes-a-londres-avec-uber-6e7e23",
+  "titre": "Pony.ai veut lancer ses taxis autonomes à Londres avec Uber",
+  "resume": "Pony.ai a annoncé le 8 octobre vouloir faire circuler ses taxis autonomes de 7e génération dans les rues de Londres, ville de 8 millions d'habitants. Le sino-américain rejoint Waymo et Wayve dans la course au premier service de taxis sans conducteur de la capitale britannique. L'échéance se rapproche, mais l'issue reste incertaine tant la concurrence s'intensifie.",
+  "tags": [
+   "business",
+   "robots",
+   "société"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/vehicule-autonome/apres-waymo-et-wayve-ponyai-se-lance-a-son-tour-dans-la-course-aux-taxis-autonomes-a-londres-avec-uber.2CYL7QOLGFBUZFLXSVDMHZ2PEE.html",
+  "date_source": "2026-10-09T16:02:53+00:00",
+  "date_redac": "2026-10-09T16:48:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 765,
+   "sortie": 197
+  }
+ },
+ {
   "id": "0345c6287016015b",
   "slug": "ordonnancement-des-clusters-gpu-un-billet-d-allen-ai-sur-hugging-face-0345c6",
   "titre": "Ordonnancement des clusters GPU : un billet d'Allen AI sur Hugging Face",
@@ -18,6 +101,27 @@
    "modele": "deepseek-flash",
    "entree": 607,
    "sortie": 822
+  }
+ },
+ {
+  "id": "fdedc260c7cb8e6c",
+  "slug": "google-publie-ml-drift-moteur-gpu-on-device-pour-l-inference-ia-fdedc2",
+  "titre": "Google publie ML Drift, moteur GPU on-device pour l'inférence IA",
+  "resume": "L'équipe Google AI Edge annonce la sortie en open source de ML Drift, sous licence Apache 2.0. Ce moteur de calcul GPU multiplateforme vise l'inférence IA/ML embarquée et abstrait les API bas niveau des GPU on-device : OpenGL ES, OpenCL, Metal et WebGPU. Il constitue déjà le cœur de l'accélération GPU de LiteRT, tout en restant disponible comme bibliothèque autonome pour des runtimes d'inférence et usages graphiques personnalisés.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1owzm/github_googleaiedgemldrift_gpuaccelerated_aiml/",
+  "date_source": "2026-10-09T15:50:37+00:00",
+  "date_redac": "2026-10-09T16:48:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 817,
+   "sortie": 708
   }
  },
  {
@@ -59,6 +163,26 @@
    "modele": "deepseek-flash",
    "entree": 619,
    "sortie": 893
+  }
+ },
+ {
+  "id": "85e2c103bdb16ba5",
+  "slug": "ia-grand-public-pour-olivia-moore-a16z-depasser-les-abonnements-85e2c1",
+  "titre": "IA grand public : pour Olivia Moore (a16z), dépasser les abonnements",
+  "resume": "Olivia Moore, associée chez a16z, s'exprime sur l'état de l'IA grand public. Elle y voit une opportunité considérable, à condition que le secteur parvienne à capter des sources de revenus allant au-delà des abonnements et des frais d'API. Le modèle économique des produits d'IA destinés au grand public est donc au cœur de son analyse.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
+  "date_source": "2026-10-09T15:43:33+00:00",
+  "date_redac": "2026-10-09T16:48:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 619,
+   "sortie": 507
   }
  },
  {

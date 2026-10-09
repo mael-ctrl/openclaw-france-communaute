@@ -1,5 +1,107 @@
 [
  {
+  "id": "1a49b1667e569824",
+  "slug": "le-president-d-intercert-france-appelle-au-realisme-sur-les-attaques-i-1a49b1",
+  "titre": "Le président d'InterCERT France appelle au réalisme sur les attaques IA",
+  "resume": "Thibaud Binétruy, président d'InterCERT France — la première communauté de CERT et CSIRT en France — estime qu'on ne voit pas encore émerger d'attaques complètement autonomes. En revanche, des attaques augmentées par l'intelligence artificielle sont clairement observées. Ce constat tranche avec le marketing de certains laboratoires d'IA qui annoncent l'avènement de cyberattaques conduites par des agents.",
+  "tags": [
+   "sécurité",
+   "france",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/cybersecurite/on-ne-voit-pas-encore-emerger-dattaques-completement-autonomes-le-president-dintercert-france-appelle-au-realisme-face-au-marketing-des-laboratoires-dia.7RZF3KP5B5H7DPD37AVIQ65YOE.html",
+  "date_source": "2026-10-09T14:38:19+00:00",
+  "date_redac": "2026-10-09T14:51:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 777,
+   "sortie": 477
+  }
+ },
+ {
+  "id": "3010adfedc09126e",
+  "slug": "qwen3-8-flash-en-iq3-s-20-30-tok-s-de-decodage-sur-12-go-de-vram-3010ad",
+  "titre": "Qwen3.8-Flash en IQ3_S : 20-30 tok/s de décodage sur 12 Go de VRAM",
+  "resume": "Un membre de r/LocalLLaMA fait tourner Qwen3.8-Flash-Next-GSQ-RCO-Abliterated en quantification IQ3_S avec seulement 12 Go de VRAM et 32 Go de RAM système. Il rapporte 20 à 30 tok/s en décodage, 39 à 45 tok/s en Q2, et un prefill de 300 à près de 90 000 tok/s sur un contexte de 131k. Le tout passe par un fork expérimental de Strata, dont les nombreux changements architecturaux sont annoncés comme instables.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1mzsg/qwen38flashnextgsqrco_iq3_s_2030_toksec_decode/",
+  "date_source": "2026-10-09T14:34:14+00:00",
+  "date_redac": "2026-10-09T14:51:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 821,
+   "sortie": 637
+  }
+ },
+ {
+  "id": "5995fdfa78fa4d35",
+  "slug": "trump-tente-de-rebaptiser-l-ia-et-the-verge-n-y-croit-pas-5995fd",
+  "titre": "Trump tente de rebaptiser l'IA, et The Verge n'y croit pas",
+  "resume": "Selon The Verge, Donald Trump cherche à rebaptiser l'intelligence artificielle, une opération que le média juge « artificielle ». Le président américain est coutumier du fait : il a bâti sa première campagne sur des surnoms comme « Little Marco » et « Crooked Hillary », et a détourné l'expression « fake news » pour en faire une attaque contre la presse. Nommer une technologie, c'est déjà cadrer le débat.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
+  "date_source": "2026-10-09T14:25:43+00:00",
+  "date_redac": "2026-10-09T14:51:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 660,
+   "sortie": 986
+  }
+ },
+ {
+  "id": "4c04d8ab4fef069b",
+  "slug": "techcrunch-disrupt-2026-plus-que-quatre-jours-pour-profiter-des-tarifs-4c04d8",
+  "titre": "TechCrunch Disrupt 2026 : plus que quatre jours pour profiter des tarifs réduits",
+  "resume": "TechCrunch Disrupt 2026 démarre dans quatre jours, du 13 au 15 octobre au Moscone West de San Francisco. L'événement doit réunir 10 000 fondateurs, investisseurs et dirigeants du secteur technologique. Les organisateurs proposent jusqu'à 100 dollars de réduction sur le prix du pass, et 50 % de remise sur un second pass de même type, avant la hausse des tarifs.",
+  "tags": [
+   "business",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
+  "date_source": "2026-10-09T14:00:00+00:00",
+  "date_redac": "2026-10-09T14:52:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 691,
+   "sortie": 561
+  }
+ },
+ {
+  "id": "e2b406e40b587f3a",
+  "slug": "instinct-l-agent-ia-qui-a-perce-sans-marketing-pourra-t-il-survivre-a--e2b406",
+  "titre": "Instinct, l'agent IA qui a percé sans marketing, pourra-t-il survivre à Muse ?",
+  "resume": "En août, la start-up Instinct a lancé son agent IA avec une méthode inhabituelle : sur invitation, sans marketing et presque sans site web. L'agent est pourtant rapidement devenu le sujet le plus commenté du secteur, salué pour son interface par SMS, directe et simple. The Verge se demande aujourd'hui si Instinct pourra tenir face à Muse.",
+  "tags": [
+   "agents",
+   "business"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+  "date_source": "2026-10-09T14:00:00+00:00",
+  "date_redac": "2026-10-09T14:52:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 668,
+   "sortie": 487
+  }
+ },
+ {
   "id": "894c00702438aef1",
   "slug": "un-depot-hugging-face-qwen-image-2-1-turbo-repere-sur-r-localllama-894c00",
   "titre": "Un dépôt Hugging Face Qwen-Image-2.1-Turbo repéré sur r/LocalLLaMA",

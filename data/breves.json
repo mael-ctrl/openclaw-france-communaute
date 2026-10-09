@@ -1,5 +1,135 @@
 [
  {
+  "id": "4a471207f0475e9a",
+  "slug": "hermes-agent-la-release-candidate-rc-7-v0-21-7-est-publiee-sur-github-4a4712",
+  "titre": "Hermes Agent : la release candidate rc.7-v0.21.7 est publiée sur GitHub",
+  "resume": "Le dépôt NousResearch/hermes-agent a publié la release candidate rc.7-v0.21.7, datée du 9 octobre 2026 à 17h47 UTC. L'extrait fourni ne comporte pas de notes de version rédigées : c'est un bloc de métadonnées techniques, qui mentionne un numéro de tentative (7), une autopublication désactivée et une référence de commit.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.7-v0.21.7",
+  "date_source": "2026-10-09T17:47:20+00:00",
+  "date_redac": "2026-10-09T18:24:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 727
+  }
+ },
+ {
+  "id": "ec5c4f8b267ac514",
+  "slug": "hermes-agent-abandonne-la-sixieme-release-candidate-de-sa-version-0-21-ec5c4f",
+  "titre": "Hermes Agent abandonne la sixième release candidate de sa version 0.21.7",
+  "resume": "Hermes Agent a marqué comme « abandoned » la release candidate rc.6 de sa version 0.21.7. Le champ attempt indique qu'il s'agit de la sixième tentative pour cet identifiant. Le schéma associé à cette publication porte le numéro 1.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.6-v0.21.7",
+  "date_source": "2026-10-09T17:47:04+00:00",
+  "date_redac": "2026-10-09T18:24:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 939
+  }
+ },
+ {
+  "id": "20df6d024226b5aa",
+  "slug": "glm-5-3-flash-en-tete-du-cyber-index-d-artificial-analysis-devant-clau-20df6d",
+  "titre": "GLM 5.3 Flash en tête du Cyber Index d'Artificial Analysis, devant Claude",
+  "resume": "Deux modèles ouverts occupent le sommet du Cyber Index d'Artificial Analysis, dépassant tous les modèles d'Anthropic, selon un post publié sur r/LocalLLaMA. GLM 5.3 Flash est cité en tête du classement, et Mistral Large 4 ferait lui aussi mieux que les modèles d'Anthropic. L'auteur du post y voit la confirmation de la stratégie « trop puissant pour vous » attribuée à Dario, et souligne que l'open source l'emporte.",
+  "tags": [
+   "open-source",
+   "claude",
+   "mistral",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1rwof/glm_53_flash_opensource_the_top_of_artificial/",
+  "date_source": "2026-10-09T17:45:37+00:00",
+  "date_redac": "2026-10-09T18:25:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 705,
+   "sortie": 838
+  }
+ },
+ {
+  "id": "85b88c832864bdcd",
+  "slug": "openai-des-resultats-mathematiques-batis-sur-des-donnees-d-utilisateur-85b88c",
+  "titre": "OpenAI : des résultats mathématiques bâtis sur des données d'utilisateurs volées ?",
+  "resume": "Sur le subreddit r/LocalLLaMA, une publication affirme que les résultats mathématiques d'OpenAI reposerait sur des données d'utilisateurs dérobées. Le message se limite à ce titre, accompagné d'un lien, sans précision sur les faits invoqués. Il relance la question de la provenance des données servant à entraîner les grands modèles.",
+  "tags": [
+   "openai",
+   "recherche",
+   "société"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1rk4o/openais_math_findings_built_on_stolen_user_data/",
+  "date_source": "2026-10-09T17:32:13+00:00",
+  "date_redac": "2026-10-09T18:25:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 645,
+   "sortie": 749
+  }
+ },
+ {
+  "id": "8783aecc0dee9659",
+  "slug": "hermes-agent-publie-la-release-candidate-rc-6-v0-21-7-sur-github-8783ae",
+  "titre": "Hermes Agent publie la release candidate rc.6-v0.21.7 sur GitHub",
+  "resume": "Le projet Hermes Agent, rattaché à NousResearch, a mis en ligne le 9 octobre 2026 une release candidate taguée rc.6-v0.21.7. Les notes de version ne figurent pas dans l'extrait transmis, qui se limite à un objet JSON : champ attempt à 6, autopublish désactivé, claimEpoch et identifiant de commit tronqué. Aucun détail sur les changements apportés n'est donc disponible.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.6-v0.21.7",
+  "date_source": "2026-10-09T17:09:53+00:00",
+  "date_redac": "2026-10-09T18:25:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 719
+  }
+ },
+ {
+  "id": "d8813dbe57a23aef",
+  "slug": "hermes-agent-la-release-candidate-5-de-la-version-0-21-7-abandonnee-d8813d",
+  "titre": "Hermes Agent : la release candidate 5 de la version 0.21.7 abandonnée",
+  "resume": "Le dépôt Hermes Agent, porté par NousResearch, a publié une étiquette de version intitulée abandoned-rc.5-v0.21.7. La candidate de publication porte la référence rc.5 et vise la version 0.21.7, avec un cinquième essai enregistré. Le statut « abandoned » indique que cette candidate n'a pas été retenue. Pour les utilisateurs du projet, la version stable 0.21.7 n'est donc pas encore disponible via ce canal.",
+  "tags": [
+   "hermes",
+   "dev",
+   "open-source",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.5-v0.21.7",
+  "date_source": "2026-10-09T17:09:39+00:00",
+  "date_redac": "2026-10-09T18:25:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 754
+  }
+ },
+ {
   "id": "4d195bb374ccacc4",
   "slug": "peut-on-s-empecher-de-traiter-l-ia-comme-un-humain-4d195b",
   "titre": "Peut-on s'empêcher de traiter l'IA comme un humain ?",

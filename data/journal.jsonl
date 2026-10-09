@@ -1042,3 +1042,9 @@
 {"ts": "2026-10-09T12:18:27+00:00", "evenement": "deploiement", "details": {"fichiers": 528, "octets": 8230942}, "sha256": "d0d8e0ad559c3b0f30718d1f7dd46d683b33e0f9ff50531d94428ee4a9a7e1a5"}
 {"ts": "2026-10-09T12:18:28+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "9cd14e8489ebef76bedf608dffb32d67c469da7fe3eb7106f1c847f86f1a9c69"}
 {"ts": "2026-10-09T12:18:28+00:00", "evenement": "bilan", "details": {"duree_s": 768.7, "neufs": 2, "breves": 2, "articles": 1, "fichiers": 516, "envois": 528, "publications": 0}, "sha256": "34b0985a2487a0ff9e1208cb6e0a1d4dc8c6f3c3322449d460dd8264da43a2b2"}
+{"ts": "2026-10-09T12:47:29+00:00", "evenement": "collecte", "details": {"neufs": 2}, "sha256": "71d34e590170e0492de9b0f6c8a492277b79c921c9e4b1a3889b57c7863b9490"}
+{"ts": "2026-10-09T12:47:44+00:00", "evenement": "erreur", "details": {"message": "brève impossible (tencent/Youtu-Parsing-Omni · Hugging Face) : réponse non-JSON"}, "sha256": "75d10fe106c3104553053f5274c9d2cc434c0303e006a5e19ec8619a94606e35"}
+{"ts": "2026-10-09T12:47:59+00:00", "evenement": "construction", "details": {"fichiers": 517}, "sha256": "fd0b206f1b9a826e17300c9541e504cedd7f3e21663e3e7d35996b79631f6b70"}
+{"ts": "2026-10-09T13:00:20+00:00", "evenement": "deploiement", "details": {"fichiers": 529, "octets": 8248581}, "sha256": "fbe5d3025893ef23e540219d5c091c76978a51d9e43f482766949519503ee09c"}
+{"ts": "2026-10-09T13:00:20+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "7ca98936a31c9fb264a5016959a55eff6421fb3501e1399699e66e1a60e3b276"}
+{"ts": "2026-10-09T13:00:20+00:00", "evenement": "bilan", "details": {"duree_s": 785.1, "neufs": 2, "breves": 1, "articles": 1, "fichiers": 517, "envois": 529, "publications": 0}, "sha256": "4dafb42f7365ccd03a9957afa56df59124ad2ee5513da0f3b514c8adf82943b7"}

@@ -1,22 +1,18 @@
 {
- "runs": 183,
- "items_collectes": 1411,
- "breves_publiees": 687,
- "articles_publies": 97,
- "tokens_entree": 650595,
- "tokens_sortie": 937670,
+ "runs": 184,
+ "items_collectes": 1413,
+ "breves_publiees": 688,
+ "articles_publies": 98,
+ "tokens_entree": 652753,
+ "tokens_sortie": 940813,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-09T12:06:22+00:00",
+ "dernier_run": "2026-10-09T12:47:59+00:00",
  "solde": {
   "total": "86.80",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-08T20:37:28+00:00",
-   "message": "article impossible : réponse non-JSON"
-  },
   {
    "ts": "2026-10-09T07:54:45+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 8 column 6 (char 1188)"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-09T10:46:23+00:00",
    "message": "déploiement : [Errno 110] Connection timed out"
+  },
+  {
+   "ts": "2026-10-09T12:47:44+00:00",
+   "message": "brève impossible (tencent/Youtu-Parsing-Omni · Hugging Face) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -755,6 +755,10 @@
   ],
   [
    "2026-10-09T12:05:51+00:00",
+   "86.80"
+  ],
+  [
+   "2026-10-09T12:47:29+00:00",
    "86.80"
   ]
  ],

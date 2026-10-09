@@ -1,0 +1,37 @@
+{
+ "slug": "anthropic-encadre-l-usage-de-claude-claude-code-corrige-ses--261791",
+ "titre": "Anthropic encadre l'usage de Claude, Claude Code corrige ses hooks",
+ "chapo": "Anthropic s'apprête à réécrire les règles d'usage de Claude, et interdit les comportements « abusifs ou cruels » répétés envers le modèle. En parallèle, Claude Code corrige des hooks capricieux, et un test maison place DeepSeek V4.1 Flash devant Haiku 5.5.",
+ "html": "<h2 id=\"une-politique-d-usage-reecrite-le-12-nov\">Une politique d'usage réécrite le 12 novembre</h2>\n<p>Anthropic publiera le 12 novembre 2026 la première mise à jour de sa politique d'usage depuis plus d'un an. Le changement le plus commenté concerne le rapport des utilisateurs au modèle : les comportements « abusifs ou cruels » répétés envers Claude y seront interdits.</p>\n<p>Il ne s'agit pas d'un réglage activé dans un coin de l'interface, mais d'un texte qui définit ce qui est autorisé et ce qui ne l'est pas. Trois autres domaines entrent dans son périmètre : <strong>la propagande, la surveillance et les armes</strong>. La dépêche de Frandroid ne détaille pas les formulations retenues, mais le principe est celui d'un cadre posé en amont, distinct des garde-fous embarqués dans le produit.</p>\n<p>Reste une question que la dépêche ne tranche pas. Insulter un modèle n'a rien d'un dommage au sens classique, et l'interdit ne dit pas où passe la frontière entre une injure isolée et un usage répété.</p>\n<h2 id=\"claude-code-v2-1-294-les-hooks-qui-laiss\">Claude Code v2.1.294 : les hooks qui laissaient passer</h2>\n<p>Claude Code passe en v2.1.294 avec un correctif qui vise les hooks — ces règles écrites pour encadrer automatiquement l'agent. Le problème portait sur les hooks <em>prompt</em> et <em>agent</em> rédigés sous forme d'instructions. Une consigne du type « Block commands that… », censée bloquer certaines commandes, laissait passer exactement ce qu'elle devait bloquer.</p>\n<p>L'évaluation des hooks prompt sur les événements Stop et SubagentStop a également été revue, pour mieux juger des consignes formulées comme « Carry on if the build is broken ». Résultat annoncé : Claude interrompt moins souvent sa tâche trop tôt.</p>\n<p>La leçon technique prolonge la question posée plus haut. Une instruction en langage naturel n'est pas un contrat exécutable. Écrire « bloque ceci » ne garantit pas que le blocage ait lieu, surtout quand la règle est elle-même évaluée par le modèle.</p>\n<h2 id=\"deepseek-v4-1-flash-devant-haiku-5-5-sur\">DeepSeek V4.1 Flash devant Haiku 5.5, sur un test précis</h2>\n<p>Sur r/LocalLLaMA, un utilisateur a comparé DeepSeek V4.1 Flash et Haiku 5.5 sur deux petites tâches de son application, dont un sous-agent dédié à la recherche web. Le protocole : quatre briefs réels, et des outils identiques de part et d'autre — Exa, Brave, lecture de pages, analyse d'images.</p>\n<p>Verdict : DeepSeek l'emporte. Le détail qui compte est ailleurs. Haiku 5.5 en effort faible est plus rapide et <strong>quatre fois moins cher</strong>. Le meilleur résultat et la meilleure économie ne se trouvent donc pas du même côté du comparatif.</p>\n<p>Attention à la portée de l'exercice : un utilisateur, deux tâches, quatre briefs. C'est une observation utile pour calibrer un sous-agent de recherche, pas un classement général des deux modèles.</p>\n<h2 id=\"machinarium-2-17-ans-apres\">Machinarium 2, 17 ans après</h2>\n<p>Près de 17 ans après le premier épisode, Machinarium 2 a été officiellement annoncé. Ce point-and-click remettra en scène le petit robot Josef et sa compagne Berta, avec des énigmes inédites et une direction artistique toujours aussi soignée.</p>\n<p>Le rapprochement avec les dépêches précédentes s'arrête à un mot. Ici, le robot est un personnage dessiné, dont on attend surtout l'ambiance. Aucune politique d'usage à réécrire, aucun hook à corriger — juste une suite attendue de longue date par les amateurs du genre.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois des quatre dépêches parlent de cadre : un texte qui définit les usages autorisés, un correctif qui répare des règles automatiques, un test qui arbitre entre qualité, vitesse et coût. La gouvernance des agents se joue donc autant dans la formulation des consignes que dans leur exécution. Quant aux arbitrages entre modèles, ils restent locaux : meilleur sur un sous-agent de recherche d'un côté, quatre fois moins cher de l'autre. Rien, dans ces dépêches, ne dit que ces équilibres tiennent sur la durée.</p>",
+ "pivot": "26179195a5ad3de5",
+ "tags": [
+  "claude",
+  "deepseek",
+  "agents",
+  "robots"
+ ],
+ "sources": [
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/anthropic-claude-ai/3278833_insulter-claude-en-boucle-sera-interdit-des-le-12-novembre-voici-ce-que-vous-risquez-vraiment"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ixh6/deepseek_v41_flash_beat_haiku_55_as_my_research/"
+  },
+  {
+   "nom": "Claude Code (releases)",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/pop-culture/2349857-machinarium-2-17-ans-apres-le-point-and-click-daventure-culte-annonce-enfin-sa-suite.html"
+  }
+ ],
+ "date": "2026-10-09T07:11:36+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1360,
+  "sortie": 4029
+ }
+}

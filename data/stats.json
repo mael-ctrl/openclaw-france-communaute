@@ -1,22 +1,18 @@
 {
- "runs": 140,
- "items_collectes": 1124,
- "breves_publiees": 492,
- "articles_publies": 64,
- "tokens_entree": 462543,
- "tokens_sortie": 647921,
+ "runs": 141,
+ "items_collectes": 1164,
+ "breves_publiees": 497,
+ "articles_publies": 65,
+ "tokens_entree": 467400,
+ "tokens_sortie": 655410,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-08T07:12:46+00:00",
+ "dernier_run": "2026-10-09T07:11:36+00:00",
  "solde": {
-  "total": "87.24",
+  "total": "87.08",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-07T00:58:05+00:00",
-   "message": "brève impossible (Ruach Studio: a whole song studio around YuE2 on your own GP) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-07T00:58:35+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 12 column 6 (char 2069)"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-08T07:15:57+00:00",
    "message": "déploiement : timed out"
+  },
+  {
+   "ts": "2026-10-09T07:11:10+00:00",
+   "message": "brève impossible ([Paper] EngramEdit: Decoupled Knowledge Updates in LLMs thro) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 4.42,
+ "depense_usd": 4.58,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -580,13 +580,17 @@
   [
    "2026-10-08T07:11:31+00:00",
    "87.24"
+  ],
+  [
+   "2026-10-09T07:10:44+00:00",
+   "87.08"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.13,
+ "depense_mois_usd": 2.29,
  "archive_tentatives": {
-  "jour": "2026-10-08",
+  "jour": "2026-10-09",
   "n": 1
  },
- "derniere_archive": "2026-10-08"
+ "derniere_archive": "2026-10-09"
 }

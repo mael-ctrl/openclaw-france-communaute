@@ -806,3 +806,12 @@
 {"ts": "2026-10-08T07:16:27+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "78d4b39fda1950537e75be8517a03f014cc730f962566984a876cc5ba095cc1f"}
 {"ts": "2026-10-08T07:16:27+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-08.json", "publications": 570}, "sha256": "f2670e84e40d3fddad4fcc49774a814a9ebf12b97ad065ab6ab5c618e0177539"}
 {"ts": "2026-10-08T07:16:27+00:00", "evenement": "bilan", "details": {"duree_s": 338.7, "neufs": 40, "breves": 6, "articles": 0, "fichiers": 482, "publications": 4}, "sha256": "684ce4c662a423c27ff151d4d3c2bc7d71ce1e902fff07d1dd8d00395bc53319"}
+{"ts": "2026-10-09T07:10:43+00:00", "evenement": "collecte", "details": {"neufs": 40}, "sha256": "813df4852563b590efaa263e16c0d1eda89871c90ad9e2bb5d37e6af3319028f"}
+{"ts": "2026-10-09T07:11:10+00:00", "evenement": "erreur", "details": {"message": "brève impossible ([Paper] EngramEdit: Decoupled Knowledge Updates in LLMs thro) : réponse non-JSON"}, "sha256": "62bdd8f99110846600cb1d155b5020267e4cf826147e08b659cb0a2c452f9ec0"}
+{"ts": "2026-10-09T07:11:36+00:00", "evenement": "construction", "details": {"fichiers": 483}, "sha256": "66ed5ac5550200829c00fbd1c92cdae7baf399543705d006053e277cf76b5df6"}
+{"ts": "2026-10-09T07:13:37+00:00", "evenement": "deploiement", "details": {"fichiers": 570, "octets": 8107457}, "sha256": "d666bf14a104f539061244cd07d54930d781de14d76a9e9570dd4f7812710f49"}
+{"ts": "2026-10-09T07:13:38+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "9094669a134e01c0620fc67b0a5738da0963158ba3e12b906f0fc0797038085e"}
+{"ts": "2026-10-09T07:13:58+00:00", "evenement": "archivage", "details": {"wayback": 200}, "sha256": "b50fee227996b4f02cacbdb01c35c231dd9225bf305cc1d4500d843669ba012f"}
+{"ts": "2026-10-09T07:14:07+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "55b4fe8ccab0098def5d096fd13cc110e8459dd21dbc773a35bfb6c793aa78ae"}
+{"ts": "2026-10-09T07:14:07+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-09.json", "publications": 576}, "sha256": "1a803750e723681eb6fada72a7c01c8aa8a0358824e1cc25d1114010115d513f"}
+{"ts": "2026-10-09T07:14:07+00:00", "evenement": "bilan", "details": {"duree_s": 213.4, "neufs": 40, "breves": 5, "articles": 1, "fichiers": 483, "envois": 570, "publications": 4}, "sha256": "74e26d250caffe96974504d480f8f238f9a6178bae35a44873ffa6b1656450c7"}

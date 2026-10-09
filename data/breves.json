@@ -1,5 +1,27 @@
 [
  {
+  "id": "e2d3382e1af9138d",
+  "slug": "hermes-agent-publie-la-release-candidate-rc-4-de-la-v0-21-7-e2d338",
+  "titre": "Hermes Agent publie la release candidate rc.4 de la v0.21.7",
+  "resume": "Le projet Hermes Agent, porté par NousResearch, met en ligne une release candidate : le tag rc.4-v0.21.7. Les métadonnées de publication associées indiquent une quatrième tentative (attempt : 4), la désactivation de la publication automatique (autopublish : false) et un commit identifié par « 90… ». Une release candidate correspond à une version proposée au test avant stabilisation.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.4-v0.21.7",
+  "date_source": "2026-10-09T02:34:59+00:00",
+  "date_redac": "2026-10-09T03:43:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 649
+  }
+ },
+ {
   "id": "b839921c0422a3f1",
   "slug": "un-apercu-de-stepfun-step-5-apparait-sur-openrouter-b83992",
   "titre": "Un aperçu de StepFun Step 5 apparaît sur OpenRouter",
@@ -59,6 +81,28 @@
    "modele": "deepseek-flash",
    "entree": 612,
    "sortie": 1238
+  }
+ },
+ {
+  "id": "3fe77daa3039365a",
+  "slug": "entrainer-un-modele-a-son-image-un-qlora-sur-qwen3-5-9b-ne-suffit-pas-3fe77d",
+  "titre": "Entraîner un modèle à son image : un qLoRA sur Qwen3.5-9B ne suffit pas",
+  "resume": "Un utilisateur de r/LocalLLaMA cherche comment entraîner un modèle qui pense et parle comme lui. Il part de son historique internet complet — posts Reddit, e-mails, chats — et fait tourner un qLoRA sur une base Qwen3.5-9B, avec une 2080 Ti 11 Go et une 5070 Ti 16 Go. Ses tests A/B montrent que le résultat ne lui ressemble toujours pas. Il veut rester en local, son corpus contenant beaucoup de données personnelles.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1835z/best_method_to_train_a_persona_model/",
+  "date_source": "2026-10-09T01:05:14+00:00",
+  "date_redac": "2026-10-09T03:43:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 765,
+   "sortie": 1038
   }
  },
  {

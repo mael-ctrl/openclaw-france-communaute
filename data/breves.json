@@ -1,5 +1,88 @@
 [
  {
+  "id": "0805b540d361dea3",
+  "slug": "latent-space-reunit-ses-abonnes-a-new-york-ces-prochains-jours-0805b5",
+  "titre": "Latent Space réunit ses abonnés à New York ces prochains jours",
+  "resume": "La newsletter Latent Space annonce des rencontres avec ses abonnés à New York, prévues demain et mardi. La publication est réservée aux abonnés, et son message précise que ceux qui le voient sont de la partie. Le lieu et le programme ne sont pas détaillés dans l'annonce.",
+  "tags": [
+   "dev",
+   "société"
+  ],
+  "importance": 1,
+  "source": "Latent Space",
+  "lien_source": "https://www.latent.space/p/nyc2026",
+  "date_source": null,
+  "date_redac": "2026-10-10T23:44:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 578,
+   "sortie": 635
+  }
+ },
+ {
+  "id": "fbe6534d759d6c14",
+  "slug": "embedding-gemma-2-dans-lm-studio-un-utilisateur-cherche-la-cause-fbe653",
+  "titre": "Embedding Gemma 2 dans LM Studio : un utilisateur cherche la cause",
+  "resume": "Un utilisateur de r/LocalLLaMA demande si LM Studio prend en charge Embedding Gemma 2 dans sa version actuelle. Son modèle Qwen 3.8 27b n'a pas réussi à l'utiliser. Il se demande s'il s'agit d'un problème propre à LM Studio, position défendue par son agent, ou d'une erreur dans la façon dont cet agent tente de l'appeler.",
+  "tags": [
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2t895/embedding_gemma_2_on_lm_studio/",
+  "date_source": "2026-10-10T23:32:38+00:00",
+  "date_redac": "2026-10-10T23:44:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 676,
+   "sortie": 465
+  }
+ },
+ {
+  "id": "c31aad4c889a3370",
+  "slug": "gemma-4-echoue-sur-swebench-verified-face-a-qwen3-8-27b-c31aad",
+  "titre": "Gemma 4 échoue sur SWEBench Verified face à Qwen3.8 27b",
+  "resume": "Un utilisateur de r/LocalLLaMA a comparé gemma 4 31b qat q4 et qwen3.8 27b iq4_nl sur SWEBench Verified. Le template de chat d'origine de gemma 4 ne gère pas la conservation du raisonnement, et l'update publié par Google pour l'agentic coding ne suffit pas : il n'obtient que des erreurs LimitExceeded, malgré l'essai d'autres templates disponibles en ligne. Qwen3.8 27b, lui, soumet 388 tâches sur 500 et en résout 333.",
+  "tags": [
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2s3ru/how_to_make_gemma_4_works_with_swebench/",
+  "date_source": "2026-10-10T22:38:08+00:00",
+  "date_redac": "2026-10-10T23:44:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 898,
+   "sortie": 859
+  }
+ },
+ {
+  "id": "73edd16d36327c2d",
+  "slug": "satya-nadella-il-faut-presumer-que-tous-les-modeles-d-ia-sont-compromi-73edd1",
+  "titre": "Satya Nadella : il faut présumer que tous les modèles d'IA sont compromis",
+  "resume": "Dans un long message publié sur X, le PDG de Microsoft expose son point de vue sur les dangers que représentent les modèles d'IA très avancés et sur la manière d'y faire face. Selon lui, on ne peut plus accepter un monde où l'IA est traitée comme un « ensemble de boîtes noires imbriquées » dont on se contenterait d'accepter les conseils et les actions.",
+  "tags": [
+   "sécurité",
+   "société",
+   "business"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+  "date_source": "2026-10-10T22:10:17+00:00",
+  "date_redac": "2026-10-10T23:44:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 644
+  }
+ },
+ {
   "id": "f20e03cfc7f6085e",
   "slug": "quel-petit-modele-pour-l-agent-hermes-sur-r9700-et-rx-7800-xt-f20e03",
   "titre": "Quel petit modèle pour l'agent Hermes sur R9700 et RX 7800 XT ?",
@@ -19,6 +102,28 @@
    "modele": "deepseek-flash",
    "entree": 817,
    "sortie": 727
+  }
+ },
+ {
+  "id": "9781b85db5e93da9",
+  "slug": "qwen3-8-flash-next-plus-rapide-que-claude-code-sur-airbench-en-local-9781b8",
+  "titre": "Qwen3.8-Flash-Next plus rapide que Claude Code sur airbench, en local",
+  "resume": "Un utilisateur de r/LocalLLaMA fait tourner Qwen3.8-Flash-Next avec le harnais Strata et pi : le modèle atteint 100 % sur la suite de tests airbench en 11 minutes. Claude Code obtient le même score sur la même tâche, mais en 14 minutes. L'auteur a modifié son titre pour préciser qu'airbench compare des modèles sur des tâches du quotidien, et non des modèles de frontière. La reproduction demande un GPU de 24 Go ou plus, environ 64 Go de RAM système et 90 Go de disque libre.",
+  "tags": [
+   "claude",
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2r5jx/qwen38flashnext_strata_pi_beat_claudecode_opus_55/",
+  "date_source": "2026-10-10T21:54:06+00:00",
+  "date_redac": "2026-10-10T23:44:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 871,
+   "sortie": 649
   }
  },
  {

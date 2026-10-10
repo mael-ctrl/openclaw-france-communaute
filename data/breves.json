@@ -1,5 +1,89 @@
 [
  {
+  "id": "175bdb58593fd6bc",
+  "slug": "typesafe-jev-plus-de-100-m-d-arr-et-7-5-md-de-valorisation-peu-apres-l-175bdb",
+  "titre": "TypeSafe/Jev : plus de 100 M$ d'ARR et 7,5 Md$ de valorisation peu après le lancement",
+  "resume": "TypeSafe, aussi appelé Jev, dépasse les 100 millions de dollars de revenus récurrents annuels et affiche une valorisation de 7,5 milliards de dollars, trois semaines seulement après son lancement. Ces chiffres sont relayés par le récapitulatif AINews de Latent Space.",
+  "tags": [
+   "business",
+   "dev"
+  ],
+  "importance": 4,
+  "source": "Latent Space",
+  "lien_source": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
+  "date_source": null,
+  "date_redac": "2026-10-10T07:03:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 594,
+   "sortie": 985
+  }
+ },
+ {
+  "id": "854789660bde17fa",
+  "slug": "hermes-agent-publie-une-version-canari-v0-21-6-854789",
+  "titre": "Hermes Agent publie une version canari v0.21.6",
+  "resume": "Hermes Agent, le projet d'agents de NousResearch, a publié une version canari identifiée v0.21.6+canary.20261010T070026Z. Une construction canari désigne une pré-version destinée aux tests, diffusée avant une éventuelle stabilisation. Aucun détail sur les changements n'accompagne cette publication.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.6%2Bcanary.20261010T070026Z",
+  "date_source": "2026-10-10T07:00:27+00:00",
+  "date_redac": "2026-10-10T07:03:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 724
+  }
+ },
+ {
+  "id": "97b7938726de2824",
+  "slug": "kasumi-une-app-open-source-qui-fait-tourner-geforce-now-sur-nintendo-3-97b793",
+  "titre": "Kasumi, une app open source qui fait tourner GeForce Now sur Nintendo 3DS",
+  "resume": "Une application open source nommée Kasumi permet de lancer Nvidia GeForce Now sur la Nintendo 3DS, et donc de jouer en cloud gaming à des jeux Steam et Xbox sur la console portable. Le projet tient du bricolage, mais il fonctionne et ramène la 3DS d'entre les morts. Kasumi est même compatible avec l'offre gratuite du service de Nvidia.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/produits-android/console/cloud-gaming/3280519_nvidia-geforce-now-sur-nintendo-3ds-une-application-100-open-source-fait-tourner-des-jeux-steam-et-xbox-sur-la-console-portable",
+  "date_source": "2026-10-10T06:58:00+00:00",
+  "date_redac": "2026-10-10T07:03:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 719,
+   "sortie": 510
+  }
+ },
+ {
+  "id": "063c36d4bd7ea7b3",
+  "slug": "microsoft-et-nvidia-poussent-l-ia-locale-avec-des-portables-jusqu-a-7--063c36",
+  "titre": "Microsoft et Nvidia poussent l'IA locale, avec des portables jusqu'à 7 000 dollars",
+  "resume": "Microsoft et Nvidia misent sur l'IA locale avec de nouveaux portables Surface et RTX Spark : à partir de 2 600 dollars, et jusqu'à près de 7 000 dollars pour les modèles à 128 Go de mémoire unifiée. La tension sur la mémoire écarte les développeurs ordinaires de ces prix. Un utilisateur dit tester des configurations locales avec qwen3.6-27b et kimi k2.5 pour gérer ses dépôts hors du cloud.",
+  "tags": [
+   "matériel",
+   "dev",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x280nz/microsoft_doubles_down_on_local_ai_with_nvidia/",
+  "date_source": "2026-10-10T06:23:41+00:00",
+  "date_redac": "2026-10-10T07:03:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 842,
+   "sortie": 732
+  }
+ },
+ {
   "id": "f64cc2dc4ed777dd",
   "slug": "servir-qwen3-5-9b-a-10-15-personnes-sur-un-serveur-8x-t4-f64cc2",
   "titre": "Servir Qwen3.5-9B à 10-15 personnes sur un serveur 8x T4",

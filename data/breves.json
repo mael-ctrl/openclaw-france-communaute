@@ -1,5 +1,89 @@
 [
  {
+  "id": "f20e03cfc7f6085e",
+  "slug": "quel-petit-modele-pour-l-agent-hermes-sur-r9700-et-rx-7800-xt-f20e03",
+  "titre": "Quel petit modèle pour l'agent Hermes sur R9700 et RX 7800 XT ?",
+  "resume": "Un utilisateur de r/LocalLLaMA décrit sa configuration : un modèle Qwen tourne sur une R9700 de 32 Go épaulée par 64 Go de RAM, et il dispose aussi d'une RX 7800 XT de 16 Go. Ce modèle sert uniquement d'exécutant à son agent Hermes, avec besoin de plusieurs sessions parallèles. Il hésite entre trois répartitions, dont minicpm5-2b ou un qwen3.8 27b en q4/q3 sur la seconde carte.",
+  "tags": [
+   "hermes",
+   "agents",
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2r63t/best_small_model_setup_together_with/",
+  "date_source": "2026-10-10T21:54:52+00:00",
+  "date_redac": "2026-10-10T22:08:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 817,
+   "sortie": 727
+  }
+ },
+ {
+  "id": "3ac4762a27fd4a94",
+  "slug": "satya-nadella-juge-que-les-modeles-d-ia-ont-besoin-d-un-frein-d-urgenc-3ac476",
+  "titre": "Satya Nadella juge que les modèles d'IA ont besoin d'un « frein d'urgence »",
+  "resume": "Dans un billet publié un samedi matin, le PDG de Microsoft Satya Nadella estime qu'il est temps de « prendre du recul et d'évaluer l'architecture de confiance » de l'IA. Il y écrit que les modèles d'IA ont besoin d'un « frein d'urgence ». La prise de parole d'un des principaux acteurs du secteur intervient alors que la question de la confiance accordée aux systèmes d'IA est de plus en plus discutée.",
+  "tags": [
+   "sécurité",
+   "business",
+   "société"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+  "date_source": "2026-10-10T21:47:51+00:00",
+  "date_redac": "2026-10-10T22:08:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 662,
+   "sortie": 489
+  }
+ },
+ {
+  "id": "ebded4e2a5a7dd10",
+  "slug": "llama-cpp-une-pull-request-ajoute-le-support-de-minicpm-v-4-7-ebded4",
+  "titre": "llama.cpp : une pull request ajoute le support de MiniCPM-V 4.7",
+  "resume": "Une pull request signée tc-mb (#29416) ajoute le support du modèle MiniCPM-V 4.7 à llama.cpp. Le contributeur rappelle que MiniCPM-V-4.7-35B-A3B avait été repéré sur r/LocalLLaMA quelques jours plus tôt, avant d'être ensuite retiré de Hugging Face. Le code côté moteur est donc prêt, mais les poids du modèle ne sont pas encore accessibles.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2qsh3/model_support_minicpmv_47_by_tcmb_pull_request/",
+  "date_source": "2026-10-10T21:37:21+00:00",
+  "date_redac": "2026-10-10T22:08:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 688,
+   "sortie": 843
+  }
+ },
+ {
+  "id": "bbaf69ccc66d8446",
+  "slug": "openclaw-publie-la-version-2026-10-1-de-son-projet-bbaf69",
+  "titre": "OpenClaw publie la version 2026.10.1 de son projet",
+  "resume": "OpenClaw a mis en ligne la version 2026.10.1 de son projet, publiée le 10 octobre 2026. La page de version est accessible sur le dépôt GitHub du projet. L'extrait transmis ne détaille pas le changelog : impossible, en l'état, de savoir quelles fonctionnalités ou corrections cette mise à jour apporte.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.1",
+  "date_source": "2026-10-10T21:35:45+00:00",
+  "date_redac": "2026-10-10T22:08:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 593,
+   "sortie": 772
+  }
+ },
+ {
   "id": "8fd0f0a846dcc143",
   "slug": "openclaw-corrige-un-test-e2e-de-recuperation-du-toast-au-demarrage-8fd0f0",
   "titre": "OpenClaw corrige un test E2E de récupération du toast au démarrage",

@@ -1,22 +1,18 @@
 {
- "runs": 195,
- "items_collectes": 1493,
- "breves_publiees": 736,
- "articles_publies": 108,
- "tokens_entree": 702817,
- "tokens_sortie": 1020916,
+ "runs": 196,
+ "items_collectes": 1497,
+ "breves_publiees": 740,
+ "articles_publies": 109,
+ "tokens_entree": 707416,
+ "tokens_sortie": 1028365,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-10T00:15:39+00:00",
+ "dernier_run": "2026-10-10T01:16:35+00:00",
  "solde": {
-  "total": "86.71",
+  "total": "86.69",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-09T15:09:29+00:00",
-   "message": "brève impossible (Quoting Matthew Green) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-09T15:09:46+00:00",
    "message": "brève impossible (Que devient InstaDeep, trois ans après son rachat record par) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-10T00:14:50+00:00",
    "message": "brève impossible (My \"Anthropic/ChatGPT in a box\" is... now open source and pu) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-10T01:26:55+00:00",
+   "message": "diffusion sociale : <urlopen error timed out>"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 4.95,
+ "depense_usd": 4.97,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -804,13 +804,17 @@
   [
    "2026-10-10T00:14:39+00:00",
    "86.71"
+  ],
+  [
+   "2026-10-10T01:15:55+00:00",
+   "86.69"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.66,
+ "depense_mois_usd": 2.68,
  "archive_tentatives": {
   "jour": "2026-10-10",
-  "n": 1
+  "n": 2
  },
- "derniere_archive": "2026-10-09"
+ "derniere_archive": "2026-10-10"
 }

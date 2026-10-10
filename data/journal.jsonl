@@ -1103,3 +1103,12 @@
 {"ts": "2026-10-09T22:27:34+00:00", "evenement": "deploiement", "details": {"fichiers": 538, "octets": 8411381}, "sha256": "ddd510b38306ce846eca5c9b929d32174848254b7b1511454ea53bde552d50b3"}
 {"ts": "2026-10-09T22:27:34+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "bbb36502a2d7236ccfb4b83fcd759db7ddffeaac90fe842ce89b0a12a05e069a"}
 {"ts": "2026-10-09T22:27:34+00:00", "evenement": "bilan", "details": {"duree_s": 804.9, "neufs": 4, "breves": 4, "articles": 1, "fichiers": 526, "envois": 538, "publications": 0}, "sha256": "d2e1bb20646be6f83ea8400ef752ca91dd4a29bdf719a0a2ff53da57ace1944f"}
+{"ts": "2026-10-10T00:14:38+00:00", "evenement": "collecte", "details": {"neufs": 4}, "sha256": "8c180072c502093f6d1a9b3592d9ec23ed1c46e490cc329f6367e2c851b9e075"}
+{"ts": "2026-10-10T00:14:50+00:00", "evenement": "erreur", "details": {"message": "brève impossible (My \"Anthropic/ChatGPT in a box\" is... now open source and pu) : réponse non-JSON"}, "sha256": "fa9e11a85b83169cbbd8a8fcd1bc22670be34e5fe3fd4a3e398149a1c6c85085"}
+{"ts": "2026-10-10T00:15:39+00:00", "evenement": "construction", "details": {"fichiers": 527}, "sha256": "7bf26c1e0fff6da29ac10732026260d3b4c1c1963c789de8b1b13a186194e7b9"}
+{"ts": "2026-10-10T00:25:58+00:00", "evenement": "deploiement", "details": {"fichiers": 539, "octets": 8431862}, "sha256": "f03dd8dfc6762e4dcf1fc8317c2643c0e4cc401a2cea7015f846f3735afd98dc"}
+{"ts": "2026-10-10T00:25:59+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "6aa565694f05799cc627009506841c32d2f9ac228479eaa3b395e954f4488db5"}
+{"ts": "2026-10-10T00:26:18+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 1}, "sha256": "e57105bb77652951a6933a5913c3fffeaabc7dbb84db7999afdd9124d6c32d65"}
+{"ts": "2026-10-10T00:26:30+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "250142fc284cbf5aa9af8d470e70fd05d49c819130d63bd1c334b223334579cb"}
+{"ts": "2026-10-10T00:26:30+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-10.json", "publications": 858}, "sha256": "9f380299539ec2e094583d9eac71290a32dac888c2f5d09cac9eb00c203c5ec0"}
+{"ts": "2026-10-10T00:26:30+00:00", "evenement": "bilan", "details": {"duree_s": 724.9, "neufs": 4, "breves": 3, "articles": 1, "fichiers": 527, "envois": 539, "publications": 4}, "sha256": "de3dc0270c03b50d42fcf9b9e89d35fd9665c3572bc41ab80e6f6b66a3e20cb4"}

@@ -1,5 +1,68 @@
 [
  {
+  "id": "26c1412b2f822bda",
+  "slug": "qwen3-8-27b-des-quants-4-bits-tailles-pour-tenir-avec-mtp-sur-16-go-26c141",
+  "titre": "Qwen3.8-27B : des quants 4 bits taillés pour tenir avec MTP sur 16 Go",
+  "resume": "Dès qu'on garde la tête MTP, aucun quant publié de Qwen3.8-27B ne tenait sur 16 Go : l'IQ4_XS ne laisse pas la place, les autres passent en 3 bits. Un utilisateur a donc répliqué la recette UD par tenseur d'Unsloth sur le BF16 du build Heretic de llmfan46, en versions 12, 16 et 24 Go. Mesuré en KLD face à un Q8_0, son 16 Go donne 0,0268 en prose et 0,0192 en code, contre 0,0639 et 0,0456 pour le Q3_K_M de llmfan46.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1zhnx/qwen3827b_udiq4_xs_heretic_mtp_on_a_16_gb_card/",
+  "date_source": "2026-10-09T22:54:37+00:00",
+  "date_redac": "2026-10-10T00:15:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 993,
+   "sortie": 1300
+  }
+ },
+ {
+  "id": "80f4a1269a8d7114",
+  "slug": "cloudflare-rachete-deno-et-cessera-de-maintenir-son-runtime-dans-un-an-80f4a1",
+  "titre": "Cloudflare rachète Deno et cessera de maintenir son runtime dans un an",
+  "resume": "Cloudflare rachète Deno, le runtime JavaScript créé par Ryan Dahl, également créateur de Node.js. L'objectif : s'appuyer sur celld, l'implémentation open source du modèle Durable Objects publiée en août, pour faire de workerd auto-hébergé un moyen de premier ordre de bâtir des applications via le modèle Workers. Deno ne sera maintenu qu'un an encore, puis son développement s'arrêtera ; il reste open source.",
+  "tags": [
+   "dev",
+   "open-source",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+  "date_source": "2026-10-09T22:48:37+00:00",
+  "date_redac": "2026-10-10T00:15:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 768,
+   "sortie": 1484
+  }
+ },
+ {
+  "id": "929459b62d339eb4",
+  "slug": "une-cmp-170-hx-debloquee-a-64-go-pour-faire-tourner-des-modeles-en-loc-929459",
+  "titre": "Une CMP 170 HX débloquée à 64 Go pour faire tourner des modèles en local",
+  "resume": "Un utilisateur de r/LocalLLaMA raconte avoir acheté une CMP 170 HX 8 Go pour environ 500 $ sur Alibaba, puis l'avoir débloquée à 64 Go avec l'outil cmpunlocker, ce qui a restauré ses capacités de calcul. La carte tourne sur un dock eGPU USB4 limité au PCIe 2x4, avec un Framework Desktop 128 Go comme machine principale. Il y fait tourner gpt-oss-120b, puis qwen 3.5 122b, qwen 3.6 35B et 3.8 FN. Un second exemplaire lui a échappé : sa commande a été annulée et les prix ont grimpé.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x1z0mx/strix_halo_cmp_170hx_setup/",
+  "date_source": "2026-10-09T22:32:32+00:00",
+  "date_redac": "2026-10-10T00:15:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 902,
+   "sortie": 1033
+  }
+ },
+ {
   "id": "bde7cce60ac25ff0",
   "slug": "typesafe-ai-leve-870-m-et-valorise-son-modele-jev-a-7-5-md-bde7cc",
   "titre": "TypeSafe AI lève 870 M$ et valorise son modèle Jev à 7,5 Md$",

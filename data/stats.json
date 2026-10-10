@@ -1,22 +1,18 @@
 {
- "runs": 203,
- "items_collectes": 1527,
- "breves_publiees": 762,
+ "runs": 204,
+ "items_collectes": 1533,
+ "breves_publiees": 768,
  "articles_publies": 113,
- "tokens_entree": 729750,
- "tokens_sortie": 1062746,
+ "tokens_entree": 734083,
+ "tokens_sortie": 1067089,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-10T12:58:05+00:00",
+ "dernier_run": "2026-10-10T14:45:01+00:00",
  "solde": {
-  "total": "86.65",
+  "total": "86.64",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-10T03:41:31+00:00",
-   "message": "article impossible : Expecting ',' delimiter: line 1 column 2652 (char 2651)"
-  },
   {
    "ts": "2026-10-10T06:17:00+00:00",
    "message": "brève impossible (Qwen 3.6 35B A3B: 131K context + vision on 6GB VRAM) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-10T12:57:39+00:00",
    "message": "brève impossible (Fully local conversational AI: Whisper + Hermes 8B + Kokoro,) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-10T14:45:01+00:00",
+   "message": "article impossible : Expecting ',' delimiter: line 1 column 2793 (char 2792)"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.01,
+ "depense_usd": 5.02,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -836,10 +836,14 @@
   [
    "2026-10-10T12:57:09+00:00",
    "86.65"
+  ],
+  [
+   "2026-10-10T14:43:55+00:00",
+   "86.64"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.72,
+ "depense_mois_usd": 2.73,
  "archive_tentatives": {
   "jour": "2026-10-10",
   "n": 2

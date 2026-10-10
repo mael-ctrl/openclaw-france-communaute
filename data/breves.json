@@ -1,5 +1,132 @@
 [
  {
+  "id": "1abbd2553e7fff3a",
+  "slug": "standard-bots-des-modeles-pre-entraines-pour-les-taches-d-usine-1abbd2",
+  "titre": "Standard Bots : des modèles pré-entraînés pour les tâches d'usine",
+  "resume": "Latent Space ouvre la pile IA de Standard Bots, une entreprise de robotique industrielle. Ses modèles pré-entraînés apprennent des tâches d'usine à partir de démonstrations. Ils s'améliorent ensuite grâce aux corrections issues de déploiements réels sur les lignes de production.",
+  "tags": [
+   "robots",
+   "matériel",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "Latent Space",
+  "lien_source": "https://www.latent.space/p/standard-bots",
+  "date_source": null,
+  "date_redac": "2026-10-10T14:44:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 619,
+   "sortie": 530
+  }
+ },
+ {
+  "id": "047dcce4e7eedd10",
+  "slug": "apres-microsoft-msi-lance-un-portable-a-puce-rtx-spark-de-nvidia-047dcc",
+  "titre": "Après Microsoft, MSI lance un portable à puce RTX Spark de Nvidia",
+  "resume": "Dans la foulée du Surface Laptop Ultra de Microsoft, MSI dégaine à son tour un portable équipé de la puce RTX Spark de Nvidia. Le Prestige N16 Flip AI+ reprend la même promesse de grosse puissance IA locale, mais dans un format convertible avec écran OLED tactile et stylet fourni. Comme son concurrent, la machine s'annonce hors de prix.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/10/msi-aussi-a-son-portable-rtx-spark-hors-de-prix/",
+  "date_source": "2026-10-10T14:01:29+00:00",
+  "date_redac": "2026-10-10T14:43:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 674,
+   "sortie": 595
+  }
+ },
+ {
+  "id": "1c2c0a8959e68076",
+  "slug": "techcrunch-recense-les-agents-ia-qui-s-installent-dans-tes-sms-1c2c0a",
+  "titre": "TechCrunch recense les agents IA qui s'installent dans tes SMS",
+  "resume": "TechCrunch a dressé une liste des agents IA les plus notables capables de vivre dans tes messageries texte. Le média y distingue les assistants généralistes des agents conçus pour la famille, le voyage ou le travail. Le format SMS montre que l'IA conversationnelle ne reste plus cantonnée aux applications dédiées.",
+  "tags": [
+   "agents",
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+  "date_source": "2026-10-10T14:00:00+00:00",
+  "date_redac": "2026-10-10T14:44:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 656,
+   "sortie": 441
+  }
+ },
+ {
+  "id": "c6da9f53a9332c06",
+  "slug": "un-utilisateur-cherche-mieux-que-llama-cpp-pour-les-modeles-locaux-sur-c6da9f",
+  "titre": "Un utilisateur cherche mieux que llama.cpp pour les modèles locaux sur 4 Go de VRAM",
+  "resume": "Un utilisateur de r/LocalLLaMA cherche une alternative à llama.cpp pour les modèles locaux sur une RTX de 4 Go de VRAM, avec un meilleur débit de tokens. Il veut éviter les dépendances lourdes comme PyTorch, qui épuisent sa VRAM avant même le chargement du modèle. Ses recherches n'ont rien donné : solutions Python/PyTorch, modèles non quantifiés, projets obsolètes, cibles inadaptées (MNN) ou papiers sans implémentation.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2f194/is_there_a_better_option_than_llamacpp_for_4gb/",
+  "date_source": "2026-10-10T13:14:30+00:00",
+  "date_redac": "2026-10-10T14:44:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 802,
+   "sortie": 1096
+  }
+ },
+ {
+  "id": "980cc328af7b003a",
+  "slug": "un-megakernel-cuda-pousse-qwen3-8-27b-a-140-tok-s-sur-une-rtx-3090-980cc3",
+  "titre": "Un megakernel CUDA pousse Qwen3.8-27B à 140 tok/s sur une RTX 3090",
+  "resume": "Un utilisateur de r/LocalLLaMA a fait écrire à Claude Opus 5.5 un megakernel CUDA qui accélère Qwen3.8-27B sur une RTX 3090. Sur le code, il mesure 140 tok/s contre 73 pour llama.cpp, et 95 contre 56 avec 4 000 tokens en contexte, le gain venant d'un cycle de speculative decoding exécuté en un seul kernel. Le serveur est compatible OpenAI, mais n'est prévu que pour le Q4_K_M d'unsloth sur 3090.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source",
+   "claude"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2erdj/qwen3827b_on_a_single_3090_140_toks_on_code_with/",
+  "date_source": "2026-10-10T13:01:23+00:00",
+  "date_redac": "2026-10-10T14:44:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 917,
+   "sortie": 1239
+  }
+ },
+ {
+  "id": "3ff38c3f59345da6",
+  "slug": "openai-promet-la-confidentialite-pour-son-agent-dots-3ff38c",
+  "titre": "OpenAI promet la confidentialité pour son agent Dots",
+  "resume": "Lors de son DevDay, OpenAI a dévoilé Dots, son nouvel agent IA, présenté par Sam Altman. Le dirigeant affirme vouloir « établir un nouveau standard de confidentialité dans l'IA de pointe ». La société a profité de la journée pour adresser des critiques voilées à Meta et à son Muse, son principal concurrent, lui reprochant de mal protéger les données de ses utilisateurs. La confidentialité s'installe ainsi comme argument de bataille entre fabricants d'agents.",
+  "tags": [
+   "openai",
+   "meta",
+   "agents",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+  "date_source": "2026-10-10T13:00:00+00:00",
+  "date_redac": "2026-10-10T14:44:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 665,
+   "sortie": 442
+  }
+ },
+ {
   "id": "b5a958d0493c308a",
   "slug": "digup-une-app-mac-open-source-pour-chercher-ses-fichiers-par-leur-cont-b5a958",
   "titre": "DigUp : une app Mac open source pour chercher ses fichiers par leur contenu",

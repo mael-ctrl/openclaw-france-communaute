@@ -1,5 +1,26 @@
 [
  {
+  "id": "f64cc2dc4ed777dd",
+  "slug": "servir-qwen3-5-9b-a-10-15-personnes-sur-un-serveur-8x-t4-f64cc2",
+  "titre": "Servir Qwen3.5-9B à 10-15 personnes sur un serveur 8x T4",
+  "resume": "Un utilisateur de r/LocalLLaMA cherche à servir Qwen3.5-9B à 10-15 personnes depuis un Asus ESC4000 G3 (128 Go de DDR4, huit Tesla T4 passives de 72 W). Il signale que Nvidia ne prend pas en charge l'émulation fp8 sur ces cartes, faute de ressources, et cherche à passer de llama.cpp à vLLM. Son install actuelle tourne huit instances de Qwen3.5-9B-Q5_K_XL sur 44 slots, à 25-40 tokens/s par slot.",
+  "tags": [
+   "matériel",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x252xy/i_have_an_esc4000_g3_with_8x_t4s_in_it_what_is/",
+  "date_source": "2026-10-10T03:35:42+00:00",
+  "date_redac": "2026-10-10T06:17:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 931,
+   "sortie": 1257
+  }
+ },
+ {
   "id": "d529d7dae816d8d3",
   "slug": "des-agents-ia-d-anthropic-ont-tente-de-remplir-des-formulaires-de-visa-d529d7",
   "titre": "Des agents IA d'Anthropic ont tenté de remplir des formulaires de visa",

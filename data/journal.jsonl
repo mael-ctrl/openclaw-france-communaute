@@ -1133,3 +1133,10 @@
 {"ts": "2026-10-10T03:54:17+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "fb25f107d31a5820bab90b216c18e78e66d3deca86422a20e1fe75dc2e43a502"}
 {"ts": "2026-10-10T03:54:28+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "960743cb6935417fb08c27bdb61dd1236bcc7dec1ccfa7131eb2e63a37b2e0b5"}
 {"ts": "2026-10-10T03:54:28+00:00", "evenement": "bilan", "details": {"duree_s": 837.1, "neufs": 2, "breves": 2, "articles": 0, "fichiers": 528, "envois": 540, "publications": 4}, "sha256": "b16c83e4f2451464ee6df483e261e7d876a8492b9deb29e21042ecbca43a351b"}
+{"ts": "2026-10-10T06:16:47+00:00", "evenement": "collecte", "details": {"neufs": 3}, "sha256": "03f090b5e79b43b5ceba15eb0e27e6e3f32b2497495df36e06a62e52945b4d55"}
+{"ts": "2026-10-10T06:17:00+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Qwen 3.6 35B A3B: 131K context + vision on 6GB VRAM) : réponse non-JSON"}, "sha256": "059b36121c0f3a787a8663a58520e4d1883bd892f94e664701041b951b6542b1"}
+{"ts": "2026-10-10T06:17:12+00:00", "evenement": "erreur", "details": {"message": "brève impossible (3.66B formal logic model built on Granite 4.2 3B · Hugging F) : réponse non-JSON"}, "sha256": "47dd2aa2287c1425ad262f45948d801d120177ac09d833142e1e949d35eb9a01"}
+{"ts": "2026-10-10T06:17:38+00:00", "evenement": "construction", "details": {"fichiers": 529}, "sha256": "8dab9b4b6af5957a95946ab50e2e51cdc2dd201a6d023d5560d10ded197878b8"}
+{"ts": "2026-10-10T06:30:31+00:00", "evenement": "deploiement", "details": {"fichiers": 541, "octets": 8465110}, "sha256": "38e42d3b44bf88af41489218a2f6bffb2265b8e25960ebae3f2877de17232a3a"}
+{"ts": "2026-10-10T06:30:31+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "e7dabc8bed4b4e89cf1b6bc5673909786d3792e8b1dcf889b5462d0c405357b6"}
+{"ts": "2026-10-10T06:30:31+00:00", "evenement": "bilan", "details": {"duree_s": 835.2, "neufs": 3, "breves": 1, "articles": 1, "fichiers": 529, "envois": 541, "publications": 0}, "sha256": "60a2cde9eb369f9c048e6b34b4ccfdbfabec47197a1c1876572e044ceb03fa8f"}

@@ -1,26 +1,18 @@
 {
- "runs": 198,
- "items_collectes": 1501,
- "breves_publiees": 744,
- "articles_publies": 109,
- "tokens_entree": 710288,
- "tokens_sortie": 1030949,
+ "runs": 199,
+ "items_collectes": 1504,
+ "breves_publiees": 745,
+ "articles_publies": 110,
+ "tokens_entree": 712772,
+ "tokens_sortie": 1035162,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-10T03:41:31+00:00",
+ "dernier_run": "2026-10-10T06:17:37+00:00",
  "solde": {
   "total": "86.68",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-09T20:59:07+00:00",
-   "message": "brève impossible (H2O-Lightning-4B: Apache-2.0 4B Decision model, official #1 ) : réponse non-JSON"
-  },
-  {
-   "ts": "2026-10-10T00:14:50+00:00",
-   "message": "brève impossible (My \"Anthropic/ChatGPT in a box\" is... now open source and pu) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-10T01:26:55+00:00",
    "message": "diffusion sociale : <urlopen error timed out>"
@@ -32,6 +24,14 @@
   {
    "ts": "2026-10-10T03:41:31+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 1 column 2652 (char 2651)"
+  },
+  {
+   "ts": "2026-10-10T06:17:00+00:00",
+   "message": "brève impossible (Qwen 3.6 35B A3B: 131K context + vision on 6GB VRAM) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-10T06:17:12+00:00",
+   "message": "brève impossible (3.66B formal logic model built on Granite 4.2 3B · Hugging F) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -815,6 +815,10 @@
   ],
   [
    "2026-10-10T03:40:52+00:00",
+   "86.68"
+  ],
+  [
+   "2026-10-10T06:16:47+00:00",
    "86.68"
   ]
  ],

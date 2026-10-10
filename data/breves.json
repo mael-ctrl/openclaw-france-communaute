@@ -1,5 +1,131 @@
 [
  {
+  "id": "877059bafe6b609f",
+  "slug": "un-utilisateur-de-llm-locaux-hesite-a-depasser-qwen-3-8-flash-next-877059",
+  "titre": "Un utilisateur de LLM locaux hésite à dépasser Qwen 3.8 Flash next",
+  "resume": "Sur r/LocalLLaMA, un développeur qui utilise des modèles locaux pour ses projets personnels et ses questions de santé raconte son parcours. Après Qwen 3.8 27b en NVFP4 sur Ninfer, il est passé à Flash next, dont il juge l'analyse plus large et la prévoyance meilleure. Le 27b suivait mal les instructions d'AGENTS.md et les agent skills. Avec une RTX 5090, il hésite à investir dans un modèle plus gros sans retours d'expérience.",
+  "tags": [
+   "agents",
+   "dev",
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2nn4b/benefits_of_using_bigger_models_than_qwen_38/",
+  "date_source": "2026-10-10T19:21:28+00:00",
+  "date_redac": "2026-10-10T19:29:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 804,
+   "sortie": 1429
+  }
+ },
+ {
+  "id": "6b5491af15287228",
+  "slug": "distrokid-retire-des-morceaux-apres-la-plainte-d-umg-6b5491",
+  "titre": "DistroKid retire des morceaux après la plainte d'UMG",
+  "resume": "Des artistes se plaignent sur les réseaux sociaux : DistroKid a retiré leurs morceaux sans les prévenir. La plateforme a confirmé à The Verge que ces retraits répondent directement aux accusations d'Universal Music Group, qui a porté plainte en septembre. Le label affirme que DistroKid a bâti un « pipeline de slop IA ».",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+  "date_source": "2026-10-10T18:52:07+00:00",
+  "date_redac": "2026-10-10T19:29:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 832
+  }
+ },
+ {
+  "id": "a4a7e17afae3a47e",
+  "slug": "un-ingenieur-compare-gemma4-31b-et-qwen3-8-27b-sur-du-code-en-local-a4a7e1",
+  "titre": "Un ingénieur compare Gemma4-31B et Qwen3.8-27B sur du code en local",
+  "resume": "Un ingénieur logiciel, de formation mécanique et en poste depuis une vingtaine d'années, a testé des modèles locaux sur des tâches proches de son travail réel. Il compare Gemma4-31B et Qwen3.8-27B à quantification identique (Unsloth, Q4), via Codex CLI et OpenCode CLI, sur deux exercices : expliquer un code existant et créer du nouveau. Les différences entre harnais lui paraissent peu concluantes ; GPT 6.1-Sol doit entrer en jeu plus tard.",
+  "tags": [
+   "dev",
+   "open-source",
+   "matériel",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2mw1o/engineer_developer_observations_of_gemma431b/",
+  "date_source": "2026-10-10T18:49:52+00:00",
+  "date_redac": "2026-10-10T19:29:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 834,
+   "sortie": 1201
+  }
+ },
+ {
+  "id": "76b54385c31b49e6",
+  "slug": "la-communaute-slm-s-agite-autour-des-propos-de-banaxi-tech-76b543",
+  "titre": "La communauté SLM s'agite autour des propos de banaxi-tech",
+  "resume": "Sur r/LocalLLaMA, un membre constate que la communauté des petits modèles de langage (SLM) connaît du « drama » chaque semaine. Il pointe des déclarations de banaxi-tech qu'il juge choquantes et renvoie vers une discussion sur Hugging Face. Le post est soumis par u/Time-Toe-1276.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2m4q8/slm_community_telenovela_what_do_you_guys_think/",
+  "date_source": "2026-10-10T18:18:07+00:00",
+  "date_redac": "2026-10-10T19:29:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 708,
+   "sortie": 948
+  }
+ },
+ {
+  "id": "68c2de72964508e8",
+  "slug": "qwen-3-8-trois-modeles-testes-sur-des-problemes-atcoder-a-quatre-nivea-68c2de",
+  "titre": "Qwen 3.8 : trois modèles testés sur des problèmes AtCoder à quatre niveaux de réflexion",
+  "resume": "Un utilisateur de r/LocalLLaMA a comparé trois modèles Qwen 3.8 quantifiés sur sa RTX 5060 Ti 16 Go, en les confrontant à des problèmes AtCoder récents. Il a aussi fait varier les quatre niveaux d'effort de réflexion disponibles (aucun, faible, moyen, très élevé). Son mini-benchmark s'appuie sur LiveCodeBench et 14 problèmes des 30 derniers jours, avec un budget de réflexion plafonné à 32k tokens.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2ly4g/i_asked_3_qwen_38_models_to_solve_recent_atcoder/",
+  "date_source": "2026-10-10T18:10:24+00:00",
+  "date_redac": "2026-10-10T19:29:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 869,
+   "sortie": 955
+  }
+ },
+ {
+  "id": "0dd706c1ad75deb5",
+  "slug": "qwen3-8-flash-next-un-contexte-de-1m-via-yarn-0dd706",
+  "titre": "Qwen3.8 Flash Next : un contexte de 1M via YaRN ?",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande si quelqu'un fait tourner Qwen3.8 Flash Next avec un contexte d'un million de tokens. Une réponse d'IA croisée en cherchant la fiche du modèle affirme que celui-ci gère nativement environ 244 000 tokens, mais pourrait atteindre 1M via la méthode YaRN — deux notions qu'il découvre. Il envisage ce modèle pour un agent Hermes, où un long contexte serait utile, mais attend sa carte mère.",
+  "tags": [
+   "open-source",
+   "hermes",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2lgca/is_anyone_running_qwen38_flash_next_with_a_1m/",
+  "date_source": "2026-10-10T17:49:48+00:00",
+  "date_redac": "2026-10-10T19:29:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 760,
+   "sortie": 834
+  }
+ },
+ {
   "id": "34e9b61257c5e4bc",
   "slug": "quelles-tv-qled-choisir-en-2026-le-comparatif-de-frandroid-34e9b6",
   "titre": "Quelles TV QLED choisir en 2026 : le comparatif de Frandroid",

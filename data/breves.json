@@ -1,5 +1,88 @@
 [
  {
+  "id": "71c841fed655c010",
+  "slug": "strata-mlx-un-moteur-mlx-non-officiel-pour-faire-tourner-strata-sur-ma-71c841",
+  "titre": "strata-mlx, un moteur MLX non officiel pour faire tourner Strata sur Mac",
+  "resume": "Un développeur a publié strata-mlx, un moteur MLX non officiel inspiré de Strata, qui lit directement ses fichiers GGUF sans modifier les poids. Strata fait tourner Qwen3.8-Flash-Next, un modèle mixture-of-experts de 125B paramètres, sur une carte graphique de 12 Go, mais ses auteurs laissent macOS de côté. Le projet a été écrit en un jour et demi sur un MacBook Pro M4 Max de 128 Go.",
+  "tags": [
+   "dev",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x29nii/sharing_my_latest_project_stratamlx/",
+  "date_source": "2026-10-10T08:03:30+00:00",
+  "date_redac": "2026-10-10T08:10:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 852,
+   "sortie": 1460
+  }
+ },
+ {
+  "id": "77f5e2eafca6de36",
+  "slug": "qwen-interroge-sa-communaute-sur-la-taille-de-modele-souhaitee-77f5e2",
+  "titre": "Qwen interroge sa communauté sur la taille de modèle souhaitée",
+  "resume": "Sur r/LocalLLaMA, un internaute relaie une publication du compte X de Qwen (QwenDevs) : l'équipe y demande quelle taille de modèle les utilisateurs veulent. Le fil s'intitule simplement « big or small? ». La taille d'un modèle reste un critère central pour ceux qui le font tourner en local, entre qualité de réponse et ressources nécessaires.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x29hx8/big_or_small/",
+  "date_source": "2026-10-10T07:54:15+00:00",
+  "date_redac": "2026-10-10T08:10:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 627,
+   "sortie": 879
+  }
+ },
+ {
+  "id": "117e7e0189d86046",
+  "slug": "les-geants-de-l-ia-simulent-en-prive-l-apres-premier-accident-117e7e",
+  "titre": "Les géants de l'IA simulent en privé l'après-premier-accident",
+  "resume": "Selon Axios, les dirigeants d'Anthropic, d'OpenAI et d'autres entreprises de l'IA simulent en privé la crise politique qui suivrait un premier accident majeur causé par l'IA. Deux scénarios sont particulièrement redoutés par ces dirigeants. L'exercice porte donc sur la réaction des autorités et de l'opinion publique après un tel incident.",
+  "tags": [
+   "openai",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2350763-les-geants-de-lia-preparent-deja-lapres-catastrophe-et-redoutent-deux-scenarios-en-particulier.html",
+  "date_source": "2026-10-10T07:31:37+00:00",
+  "date_redac": "2026-10-10T08:10:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 512
+  }
+ },
+ {
+  "id": "666438e28e133194",
+  "slug": "vega-un-modele-decisionnel-open-source-de-800-m-de-parametres-666438",
+  "titre": "Vega : un modèle décisionnel open source de 800 M de paramètres",
+  "resume": "Trois semaines après avoir présenté Laya, version open source de son architecture JEV, l'auteur publie Vega. Ce modèle de décision typé, fondé sur la physique, ne compte que 800 millions de paramètres (une variante 4B existe), avec 73k tokens de contexte et le support des images. Il dépasse plusieurs benchmarks de JEV en single-shot, via une architecture de test-time training.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x28zr9/created_laya_now_introducing_a_new_800_million/",
+  "date_source": "2026-10-10T07:22:42+00:00",
+  "date_redac": "2026-10-10T08:10:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 819,
+   "sortie": 830
+  }
+ },
+ {
   "id": "175bdb58593fd6bc",
   "slug": "typesafe-jev-plus-de-100-m-d-arr-et-7-5-md-de-valorisation-peu-apres-l-175bdb",
   "titre": "TypeSafe/Jev : plus de 100 M$ d'ARR et 7,5 Md$ de valorisation peu après le lancement",

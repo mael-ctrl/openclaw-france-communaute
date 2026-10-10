@@ -1,22 +1,18 @@
 {
- "runs": 200,
- "items_collectes": 1508,
- "breves_publiees": 749,
+ "runs": 201,
+ "items_collectes": 1512,
+ "breves_publiees": 753,
  "articles_publies": 111,
- "tokens_entree": 717152,
- "tokens_sortie": 1042462,
+ "tokens_entree": 720121,
+ "tokens_sortie": 1046143,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-10T07:04:06+00:00",
+ "dernier_run": "2026-10-10T08:11:01+00:00",
  "solde": {
-  "total": "86.67",
+  "total": "86.66",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-10T01:26:55+00:00",
-   "message": "diffusion sociale : <urlopen error timed out>"
-  },
   {
    "ts": "2026-10-10T02:17:47+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 16 column 6 (char 3322)"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-10T06:17:12+00:00",
    "message": "brève impossible (3.66B formal logic model built on Granite 4.2 3B · Hugging F) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-10T08:11:01+00:00",
+   "message": "article impossible : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 4.99,
+ "depense_usd": 5.0,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -824,10 +824,14 @@
   [
    "2026-10-10T07:03:26+00:00",
    "86.67"
+  ],
+  [
+   "2026-10-10T08:10:15+00:00",
+   "86.66"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.7,
+ "depense_mois_usd": 2.71,
  "archive_tentatives": {
   "jour": "2026-10-10",
   "n": 2

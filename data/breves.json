@@ -62,6 +62,26 @@
   }
  },
  {
+  "id": "9ea3979b7a5f57f0",
+  "slug": "vllm-une-pull-request-fusionnee-ajoute-le-support-de-v1-systemone-9ea397",
+  "titre": "vLLM : une pull request fusionnée ajoute le support de /v1/systemone",
+  "resume": "Un message publié sur r/LocalLLaMA le 10 octobre 2026 signale la fusion d'une pull request dans vLLM. Elle ajoute la prise en charge du point d'accès /v1/systemone. La fonctionnalité rejoint donc le code principal du projet, au lieu de rester une contribution en attente. L'annonce ne précise pas d'autre détail sur son usage.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x21of7/pr_merged_v1systemone_support_in_vllm/",
+  "date_source": "2026-10-10T00:37:40+00:00",
+  "date_redac": "2026-10-10T03:41:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 644,
+   "sortie": 628
+  }
+ },
+ {
   "id": "aec63d2db310715b",
   "slug": "anthropic-coupe-l-acces-internet-a-ses-evaluations-internes-aec63d",
   "titre": "Anthropic coupe l'accès internet à ses évaluations internes",
@@ -80,6 +100,27 @@
    "modele": "deepseek-flash",
    "entree": 647,
    "sortie": 592
+  }
+ },
+ {
+  "id": "0f5037524e8d6a75",
+  "slug": "strata-vs-infernix-qwen-flash-next-a-137-tok-s-sur-rtx-5090-sous-windo-0f5037",
+  "titre": "Strata vs Infernix : Qwen Flash Next à 137 tok/s sur RTX 5090 sous Windows",
+  "resume": "Un utilisateur de r/LocalLLaMA a comparé deux moteurs d'inférence, Strata et Infernix, sur un même modèle Qwen3.8-Flash-Next, en A/B à 262k et 512k de contexte. Sur une RTX 5090 32 Go, 189,6 Go de RAM et Windows 11, les deux tournent sans installation douloureuse, avec llama-swap en façade. Chiffres annoncés : 137 tok/s en décodage, 3 497 tok/s de prefill à 512k.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x217go/qwen_flash_next_137_toks_3497_toks_prefill_w_512k/",
+  "date_source": "2026-10-10T00:14:28+00:00",
+  "date_redac": "2026-10-10T03:41:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 907,
+   "sortie": 863
   }
  },
  {

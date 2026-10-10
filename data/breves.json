@@ -1,5 +1,46 @@
 [
  {
+  "id": "8fd0f0a846dcc143",
+  "slug": "openclaw-corrige-un-test-e2e-de-recuperation-du-toast-au-demarrage-8fd0f0",
+  "titre": "OpenClaw corrige un test E2E de récupération du toast au démarrage",
+  "resume": "La release-publish/9cf7fc279c26 d'OpenClaw corrige l'échec du test E2E de récupération du toast de démarrage cloud, après un rechargement déclenché par l'abandon d'un brouillon privé. Ce bug bloquait des pull requests d'interface sans rapport. Aucun changement visible pour l'utilisateur. La cause vient de 4606ea5 (#168506), qui a rendu paresseux l'observateur de disponibilité de l'automatisation.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F9cf7fc279c26-1791664994",
+  "date_source": "2026-10-10T20:37:42+00:00",
+  "date_redac": "2026-10-10T21:25:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 791,
+   "sortie": 903
+  }
+ },
+ {
+  "id": "9e7afe8a5aba975f",
+  "slug": "apple-recrute-l-equipe-de-huxe-et-licence-sa-techno-de-podcast-personn-9e7afe",
+  "titre": "Apple recrute l'équipe de Huxe et licence sa techno de podcast personnalisé",
+  "resume": "Apple a divulgué un accord portant sur le recrutement de l'équipe et la licence de la technologie de Huxe, une startup spécialisée dans les podcasts personnalisés. TechCrunch se demande si le groupe compte ainsi se positionner sur les podcasts générés par IA.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+  "date_source": "2026-10-10T19:50:00+00:00",
+  "date_redac": "2026-10-10T21:26:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 1210
+  }
+ },
+ {
   "id": "877059bafe6b609f",
   "slug": "un-utilisateur-de-llm-locaux-hesite-a-depasser-qwen-3-8-flash-next-877059",
   "titre": "Un utilisateur de LLM locaux hésite à dépasser Qwen 3.8 Flash next",

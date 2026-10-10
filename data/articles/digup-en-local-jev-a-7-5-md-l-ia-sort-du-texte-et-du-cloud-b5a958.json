@@ -1,0 +1,41 @@
+{
+ "slug": "digup-en-local-jev-a-7-5-md-l-ia-sort-du-texte-et-du-cloud-b5a958",
+ "titre": "DigUp en local, Jev à 7,5 Md$ : l'IA sort du texte et du cloud",
+ "chapo": "Une app Mac gratuite indexe tes fichiers — texte, images, audio, vidéo — par leur contenu, en local et sans Python. La même semaine, un modèle non textuel lève 870 M$ trois semaines après son lancement, OpenAI noie les mathématiciens sous ses résultats, et Ecosia quitte Mistral pour des modèles chinois.",
+ "html": "<h2 id=\"digup-chercher-dans-ses-fichiers-pas-sur\">DigUp : chercher dans ses fichiers, pas sur le web</h2>\n<p>DigUp est une app <strong>Mac gratuite et open source</strong> qui fait tourner <strong>EmbeddingGemma 2</strong>, le modèle de Google DeepMind, en local sur tes fichiers. Le principe : chercher par le contenu, pas par le nom du fichier. Texte, images, audio et vidéo partagent un même espace, si bien qu'une requête comme « un zèbre dans une vidéo » ouvre directement le passage concerné.</p>\n<p>Le multilinguisme suit le même chemin : la même requête fonctionne en bengali ou en arabe. Tout tourne sur la machine, pas sur un serveur distant.</p>\n<p>Côté technique, l'app s'appuie sur le GGUF <strong>Q8_0</strong> de ggml-org (865 Mo), exécuté via <strong>llama.cpp</strong> et <strong>Metal</strong>, dans une app <strong>Swift native</strong>. Pas de Python dans l'équation.</p>\n<h2 id=\"jev-870-m-leves-trois-semaines-apres-le-\">Jev : 870 M$ levés, trois semaines après le lancement</h2>\n<p>TypeSafe, aussi appelé <strong>Jev</strong>, dépasse les <strong>100 millions de dollars de revenus récurrents annuels</strong> et affiche une valorisation de <strong>7,5 milliards de dollars</strong>, trois semaines seulement après son lancement. Ces chiffres sont relayés par le récapitulatif AINews de Latent Space.</p>\n<p>TechCrunch apporte le détail de l'opération : le créateur du modèle <strong>Jev</strong>, décrit comme un modèle d'IA <strong>non textuel</strong>, a levé <strong>870 millions de dollars</strong> lors d'un tour mené par <strong>a16z</strong>. La start-up est valorisée 7,5 milliards de dollars, quelques semaines après le lancement de son modèle.</p>\n<p>Pour TechCrunch, cette levée traduit l'intérêt des investisseurs pour des modèles qui ne reposent pas sur le texte — un signal de plus que la course aux modèles ne se joue plus uniquement sur le langage.</p>\n<h2 id=\"openai-inonde-les-mathematiciens-sans-pr\">OpenAI inonde les mathématiciens, sans prévenir</h2>\n<p>OpenAI a diffusé cette semaine un afflux massif de résultats mathématiques, sans prévenir. The Verge a interrogé plus de trois dizaines de mathématiciens : les qualificatifs employés vont de « stupéfiant » à « accablant », en passant par « sans précédent », « surréel » et « pure folie ».</p>\n<p>Entre émerveillement et excitation, le doute domine face à l'ampleur de la publication. Et il faudra des années pour en saisir la portée.</p>\n<h2 id=\"ecosia-quitte-mistral-le-jour-du-lanceme\">Ecosia quitte Mistral le jour du lancement de Large 4</h2>\n<p>Le moteur de recherche <strong>Ecosia</strong> abandonne les modèles de <strong>Mistral</strong> pour se tourner vers des <strong>modèles chinois</strong>. Son dirigeant explique que l'IA française n'a pas répondu aux attentes, et évoque l'énergie nucléaire ainsi que des enjeux de <strong>souveraineté numérique</strong>.</p>\n<p>Le calendrier est particulier : l'annonce intervient le jour du lancement de <strong>Large 4</strong>, le nouveau modèle de Mistral.</p>\n<h2>Et maintenant ?</h2>\n<p>Ces dépêches dessinent deux mouvements distincts. D'un côté, des modèles qui débordent du texte et du cloud : EmbeddingGemma 2 fait chercher dans l'audio et la vidéo depuis un Mac, Jev se passe du texte et attire 870 millions de dollars. De l'autre, des dépendances renégociées : Ecosia change de fournisseur au nom de la souveraineté numérique, tandis qu'OpenAI publie sans prévenir des résultats que les mathématiciens mettront des années à digérer. Le point commun n'est pas la performance brute, mais la question du contrôle : où tourne le modèle, sur quoi il travaille, et qui décide de ce qu'on en sait.</p>",
+ "pivot": "b5a958d0493c308a",
+ "tags": [
+  "open-source",
+  "business",
+  "openai",
+  "mistral"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2eeds/opensource_mac_app_that_runs_embeddinggemma_2/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/nous-sommes-decus-mistral-moteur-recherche-ecosia-abandonne-mistral-profit-ia-chinoises.html"
+  }
+ ],
+ "date": "2026-10-10T12:58:05+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1539,
+  "sortie": 5175
+ }
+}

@@ -1156,3 +1156,9 @@
 {"ts": "2026-10-10T09:28:02+00:00", "evenement": "deploiement", "details": {"fichiers": 543, "octets": 8499002}, "sha256": "c4693271201884808a172d8d73440e2c1f48e1ce082a3f606abd459257c6de06"}
 {"ts": "2026-10-10T09:28:03+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "01c60158d0abe20ff54c20e9d532bb9e6d900c5e030bcc8d34b4cb22ea25b72a"}
 {"ts": "2026-10-10T09:28:03+00:00", "evenement": "bilan", "details": {"duree_s": 830.0, "neufs": 4, "breves": 4, "articles": 1, "fichiers": 531, "envois": 543, "publications": 0}, "sha256": "1fc97adf8d093a30e3ecd530415b3b57ec868ea2f3e3a01731ca1f2aa6eabe4c"}
+{"ts": "2026-10-10T12:57:08+00:00", "evenement": "collecte", "details": {"neufs": 11}, "sha256": "86c17a1b6de5d5bc3f099d2ca1e41c97db78af89c9c218515b37f25b9fd47f39"}
+{"ts": "2026-10-10T12:57:39+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Fully local conversational AI: Whisper + Hermes 8B + Kokoro,) : réponse non-JSON"}, "sha256": "690c8b83f3f1faea4abf81f1dd73707f6d563aa7f803dee13317b098ca029da3"}
+{"ts": "2026-10-10T12:58:06+00:00", "evenement": "construction", "details": {"fichiers": 532}, "sha256": "9c57d5a04cd0392675a8369b05bcc298591628bfaad6031a0d173df6360bfbc2"}
+{"ts": "2026-10-10T13:10:27+00:00", "evenement": "deploiement", "details": {"fichiers": 544, "octets": 8518342}, "sha256": "9ac88bb48ad1b9290fb042a6f4e6fcdd7c19d307128c280eea7dc085879cd72b"}
+{"ts": "2026-10-10T13:10:28+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "25ca4e307f283136b6769b6b0b6eee4264dbd037a60d36dc4cc108638c92093c"}
+{"ts": "2026-10-10T13:10:28+00:00", "evenement": "bilan", "details": {"duree_s": 817.5, "neufs": 11, "breves": 5, "articles": 1, "fichiers": 532, "envois": 544, "publications": 0}, "sha256": "4295d0ec83c62be7be0deb19e1ccdf3c2c344b498ee0a67276cc7c6494715ed2"}

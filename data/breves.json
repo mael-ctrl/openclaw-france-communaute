@@ -1,5 +1,108 @@
 [
  {
+  "id": "b5a958d0493c308a",
+  "slug": "digup-une-app-mac-open-source-pour-chercher-ses-fichiers-par-leur-cont-b5a958",
+  "titre": "DigUp : une app Mac open source pour chercher ses fichiers par leur contenu",
+  "resume": "DigUp est une app Mac gratuite qui fait tourner EmbeddingGemma 2, le modèle de Google DeepMind, en local sur tes fichiers. Texte, images, audio et vidéo partagent un même espace : « un zèbre dans une vidéo » ouvre le passage concerné et la même requête marche en bengali ou en arabe. Le tout tourne sur le GGUF Q8_0 de ggml-org (865 Mo) via llama.cpp et Metal, dans une app Swift native, sans Python.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2eeds/opensource_mac_app_that_runs_embeddinggemma_2/",
+  "date_source": "2026-10-10T12:43:33+00:00",
+  "date_redac": "2026-10-10T12:57:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 839,
+   "sortie": 1006
+  }
+ },
+ {
+  "id": "3586509e97f363e2",
+  "slug": "30-tokens-s-en-local-sur-une-rx-6700-xt-un-utilisateur-vise-40-sans-to-358650",
+  "titre": "30 tokens/s en local sur une RX 6700 XT : un utilisateur vise 40 sans toucher au quant",
+  "resume": "Sur r/LocalLLaMA, un utilisateur raconte un mois de réglages pour atteindre 30 tokens par seconde avec llama.cpp via Vulkan, sur une RX 6700 XT 12 Go, un Ryzen 5 5600X et 32 Go de DDR4 3200, sous Windows 11 sans WSL. Il fait tourner un Tiel-Coder-35B-A3B en Q4_K_XL avec un contexte de 100 000 tokens et six threads, la meilleure valeur testée face à 4, 8 et 12. Il cherche désormais à viser 40 tokens/s sans toucher à la quantification.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2donu/improve_token_per_second_without_touching_quant/",
+  "date_source": "2026-10-10T12:05:52+00:00",
+  "date_redac": "2026-10-10T12:57:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 909,
+   "sortie": 859
+  }
+ },
+ {
+  "id": "1901fddeed90f6b0",
+  "slug": "la-norvege-prepare-une-interdiction-temporaire-des-lunettes-connectees-1901fd",
+  "titre": "La Norvège prépare une interdiction temporaire des lunettes connectées",
+  "resume": "Les lunettes connectées, capables de filmer et d'enregistrer discrètement, commencent à poser de sérieuses questions. En Norvège, le gouvernement prépare une interdiction temporaire de ces appareils dans de nombreux lieux publics. Cette mesure provisoire doit précéder la mise au point de règles destinées à durer.",
+  "tags": [
+   "société",
+   "matériel",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/10/la-norvege-ne-veut-pas-de-lunettes-ia-partout/",
+  "date_source": "2026-10-10T12:01:37+00:00",
+  "date_redac": "2026-10-10T12:57:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 663,
+   "sortie": 481
+  }
+ },
+ {
+  "id": "4e25635097cd442e",
+  "slug": "vente-flash-le-robot-aspirateur-laveur-jonr-avec-plus-de-60-de-remise-4e2563",
+  "titre": "Vente flash : le robot aspirateur laveur Jonr avec plus de 60 % de remise",
+  "resume": "Le robot aspirateur laveur Jonr est proposé sur le site Joybuy dans le cadre d'une vente flash, avec une remise annoncée de plus de 60 % sur son prix. 01net signale ce bon plan dans sa rubrique dédiée. Le produit est présenté comme un modèle tout-en-un, qui aspire et lave.",
+  "tags": [
+   "matériel",
+   "robots"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/bons-plans/avec-cette-remise-de-61-ce-robot-aspirateur-laveur-tout-en-un-est-a-un-prix-irresistible.html",
+  "date_source": "2026-10-10T11:37:45+00:00",
+  "date_redac": "2026-10-10T12:57:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 653,
+   "sortie": 1067
+  }
+ },
+ {
+  "id": "669fd469d5b83b15",
+  "slug": "typesafe-ai-leverait-870-m-sur-la-hype-selon-r-localllama-669fd4",
+  "titre": "Typesafe AI lèverait 870 M$ sur la hype, selon r/LocalLLaMA",
+  "resume": "Un post du subreddit r/LocalLLaMA relaie la levée de fonds de Typesafe AI, présentée comme 870 M$ obtenus sur la hype. Son auteur souligne qu'un membre du subreddit affirme avoir développé la même architecture il y a un an déjà. Il y voit la preuve que l'IA traverse un pic de hype, où ceux qui crient le plus fort captent l'essentiel des investissements.",
+  "tags": [
+   "business",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2cyy4/typesafe_ai_raised_870m_on_hype_jev/",
+  "date_source": "2026-10-10T11:27:15+00:00",
+  "date_redac": "2026-10-10T12:57:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 685,
+   "sortie": 750
+  }
+ },
+ {
   "id": "ba60f26e224cbede",
   "slug": "rea-l-outil-open-source-qui-met-la-retro-ingenierie-a-portee-de-tous-ba60f2",
   "titre": "REA, l'outil open source qui met la rétro-ingénierie à portée de tous",

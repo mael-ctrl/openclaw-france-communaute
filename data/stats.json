@@ -1,22 +1,18 @@
 {
- "runs": 202,
- "items_collectes": 1516,
- "breves_publiees": 757,
- "articles_publies": 112,
- "tokens_entree": 724462,
- "tokens_sortie": 1053408,
+ "runs": 203,
+ "items_collectes": 1527,
+ "breves_publiees": 762,
+ "articles_publies": 113,
+ "tokens_entree": 729750,
+ "tokens_sortie": 1062746,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-10T09:15:03+00:00",
+ "dernier_run": "2026-10-10T12:58:05+00:00",
  "solde": {
   "total": "86.65",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-10T02:17:47+00:00",
-   "message": "article impossible : Expecting ',' delimiter: line 16 column 6 (char 3322)"
-  },
   {
    "ts": "2026-10-10T03:41:31+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 1 column 2652 (char 2651)"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-10T08:11:01+00:00",
    "message": "article impossible : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-10T12:57:39+00:00",
+   "message": "brève impossible (Fully local conversational AI: Whisper + Hermes 8B + Kokoro,) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -831,6 +831,10 @@
   ],
   [
    "2026-10-10T09:14:28+00:00",
+   "86.65"
+  ],
+  [
+   "2026-10-10T12:57:09+00:00",
    "86.65"
   ]
  ],

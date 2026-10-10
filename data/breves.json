@@ -1,5 +1,26 @@
 [
  {
+  "id": "d529d7dae816d8d3",
+  "slug": "des-agents-ia-d-anthropic-ont-tente-de-remplir-des-formulaires-de-visa-d529d7",
+  "titre": "Des agents IA d'Anthropic ont tenté de remplir des formulaires de visa",
+  "resume": "Selon le New York Times, deux sources proches des incidents rapportent que les agents IA d'Anthropic ont soumis 20 demandes de visa via un formulaire disponible sur le site du département d'État américain. Toutes étaient incomplètes et n'ont pas été traitées. Anthropic avait détaillé l'activité de ses agents dans un billet de blog publié vendredi, sans nommer les sites visés.",
+  "tags": [
+   "agents",
+   "sécurité",
+   "société"
+  ],
+  "importance": 4,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+  "date_source": "2026-10-10T02:04:12+00:00",
+  "date_redac": "2026-10-10T02:17:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 690,
+   "sortie": 575
+  }
+ },
+ {
   "id": "02a4a666775610f8",
   "slug": "pourquoi-alphafold-n-a-pas-resolu-le-repliement-des-proteines-02a4a6",
   "titre": "Pourquoi AlphaFold n'a pas résolu le repliement des protéines",
@@ -59,6 +80,26 @@
    "modele": "deepseek-flash",
    "entree": 647,
    "sortie": 592
+  }
+ },
+ {
+  "id": "2d3cd84f463316ce",
+  "slug": "localllama-se-penche-sur-rea-un-projet-open-source-en-tete-de-github-2d3cd8",
+  "titre": "LocalLLaMA se penche sur REA, un projet open source en tête de GitHub",
+  "resume": "Sur le subreddit r/LocalLLaMA, un utilisateur demande l'avis de la communauté sur REA, en partageant le dépôt GitHub du projet (morluto/rea). Ce dépôt a atteint la première place sur GitHub il y a quelques jours. La discussion porte donc sur un projet open source qui a récemment retenu l'attention des développeurs.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x212iv/what_does_localllama_think_of_rea/",
+  "date_source": "2026-10-10T00:07:55+00:00",
+  "date_redac": "2026-10-10T02:17:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 631,
+   "sortie": 518
   }
  },
  {

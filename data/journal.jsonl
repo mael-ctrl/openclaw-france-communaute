@@ -1119,3 +1119,10 @@
 {"ts": "2026-10-10T01:24:34+00:00", "evenement": "archivage", "details": {"wayback": 200}, "sha256": "49855afc8d8356b4fa2a88a94d34f4cfedb41203a2c9fd7aa906527c053a55ad"}
 {"ts": "2026-10-10T01:26:55+00:00", "evenement": "erreur", "details": {"message": "diffusion sociale : <urlopen error timed out>"}, "sha256": "4f4bde91bbb0bd5d21c149f5505911d9845a973272356faac51ce33ba34ccc96"}
 {"ts": "2026-10-10T01:26:55+00:00", "evenement": "bilan", "details": {"duree_s": 668.2, "neufs": 4, "breves": 4, "articles": 1, "fichiers": 528, "envois": 540}, "sha256": "8b939d72c6d371dec881009dc9b4b8139a7a194a7a78357032eef27cee0322f5"}
+{"ts": "2026-10-10T02:17:15+00:00", "evenement": "collecte", "details": {"neufs": 2}, "sha256": "537f56b9266a172f811f643fd3db95ea0775c9cd0f855730e4c6a481d301ba18"}
+{"ts": "2026-10-10T02:17:47+00:00", "evenement": "erreur", "details": {"message": "article impossible : Expecting ',' delimiter: line 16 column 6 (char 3322)"}, "sha256": "d09a588089e367f3b0165c637279bbd47bbf5f42d84b36766de4d8d7168d6ea3"}
+{"ts": "2026-10-10T02:17:47+00:00", "evenement": "construction", "details": {"fichiers": 528}, "sha256": "6b36db637719d7263fe2aff4d45b62b1ae29c9357e96306dd8a5711ef160fb63"}
+{"ts": "2026-10-10T02:30:19+00:00", "evenement": "deploiement", "details": {"fichiers": 540, "octets": 8448589}, "sha256": "cb68573045c0d84f5c1cc2bf199ac1b5760a99a35a0b6fc0a901339a4de69d93"}
+{"ts": "2026-10-10T02:30:19+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "16b974567ec7a950e15ca86a62ec3cc3e332f905b15e4141b153d6503154d6b8"}
+{"ts": "2026-10-10T02:30:30+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "1954329436d3dedb1fba456276e8ac2271d5a708726fa900377a46e12153c5a0"}
+{"ts": "2026-10-10T02:30:30+00:00", "evenement": "bilan", "details": {"duree_s": 808.9, "neufs": 2, "breves": 2, "articles": 0, "fichiers": 528, "envois": 540, "publications": 4}, "sha256": "293fbb4c496466fe336f4f0ab22184c33950406f0bf6377fc902fb7ef046de3b"}

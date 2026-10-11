@@ -1,5 +1,131 @@
 [
  {
+  "id": "0659d41d6d9bfa91",
+  "slug": "m5-ultra-256-go-ou-deux-dgx-spark-pour-le-codage-agentique-0659d4",
+  "titre": "M5 Ultra 256 Go ou deux DGX Spark pour le codage agentique ?",
+  "resume": "Un utilisateur de r/LocalLLaMA hésite entre un M5 Ultra 256 Go et deux DGX Spark pour compléter sa RTX 5090. Après plusieurs jours de recherche, il penche pour les deux Sparks : meilleur débit pour le codage agentique et les requêtes parallèles, et avantage sur le traitement des prompts. La génération de tokens reste proche, voire légèrement meilleure, sur le M5 Ultra. Il accepte de perdre les deux tiers de la vitesse de sa 5090 pour pouvoir faire tourner des modèles plus gros, et demande l'avis de propriétaires.",
+  "tags": [
+   "matériel",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x30cv1/m5_ultra_256gb_or_2x_dgx_spark_which_one/",
+  "date_source": "2026-10-11T05:55:30+00:00",
+  "date_redac": "2026-10-11T06:16:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 804,
+   "sortie": 378
+  }
+ },
+ {
+  "id": "07a1d9309bb6f770",
+  "slug": "convertir-des-modeles-denses-en-mixture-of-experts-sur-une-rtx-4060-07a1d9",
+  "titre": "Convertir des modèles denses en Mixture-of-Experts sur une RTX 4060",
+  "resume": "Un développeur a converti deux petits modèles denses en Mixture-of-Experts sans pré-entraînement depuis zéro : Qwen2.5-0.5B et SmolLM2-360M. Chacun compte 32 experts avec top-8 et un expert partagé ; les couches les plus difficiles à convertir sont restées denses. Objectif : un coût par token plus faible pour des connaissances équivalentes, sans les gros budgets de calcul des grands laboratoires.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x3078i/converting_dense_models_into_mixtureofexperts/",
+  "date_source": "2026-10-11T05:45:52+00:00",
+  "date_redac": "2026-10-11T06:16:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 844,
+   "sortie": 676
+  }
+ },
+ {
+  "id": "0fc83aa4c4da9d01",
+  "slug": "un-utilisateur-de-r-localllama-detaille-son-parc-multi-gpu-et-cherche--0fc83a",
+  "titre": "Un utilisateur de r/LocalLLaMA détaille son parc multi-GPU et cherche la suite",
+  "resume": "Sur r/LocalLLaMA, un utilisateur expose son parc matériel : deux RTX 3090 24 Go dans la machine principale, deux RTX 3060 12 Go sur un serveur secondaire, une RTX 3080 10 Go en daily driver et une troisième 3060 en réserve. Il y fait tourner un modèle Qwen 27B en FP8 via vLLM pour des agents de code concurrents et des tâches à contexte long. Il envisage une enchère pour un Supermicro d'occasion afin de tester de plus gros MoE.",
+  "tags": [
+   "matériel",
+   "dev",
+   "agents",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2zc0v/2x_3090_3x_3060_potential_smart_and_informed/",
+  "date_source": "2026-10-11T04:54:57+00:00",
+  "date_redac": "2026-10-11T06:16:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 877,
+   "sortie": 755
+  }
+ },
+ {
+  "id": "c2aa2c0286529eaf",
+  "slug": "un-gpu-nvidia-rtx-5060-ferait-tourner-macos-15-avec-metal-3-via-un-pil-c2aa2c",
+  "titre": "Un GPU Nvidia RTX 5060 ferait tourner macOS 15 avec Metal 3 via un pilote non officiel",
+  "resume": "Sur r/LocalLLaMA, un message affirme qu'une carte graphique Nvidia GeForce RTX 5060 fait tourner macOS 15 avec l'accélération Metal 3 activée, grâce à un pilote non officiel. Son titre invite à imaginer une telle configuration associée à une puce M5 Ultra. Le fil est publié dans un forum consacré à l'exécution locale de modèles d'IA.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2z64z/imagine_m5_ultra_this_nvidia_geforce_rtx_5060/",
+  "date_source": "2026-10-11T04:45:37+00:00",
+  "date_redac": "2026-10-11T06:16:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 638,
+   "sortie": 1261
+  }
+ },
+ {
+  "id": "3b318a6b4f7ce071",
+  "slug": "des-modeles-de-100-milliards-de-parametres-sur-mobile-d-ici-2028-selon-3b318a",
+  "titre": "Des modèles de 100 milliards de paramètres sur mobile d'ici 2028, selon Qualcomm",
+  "resume": "Le PDG de Qualcomm affirme que des entreprises d'IA veulent que les smartphones fassent tourner en continu des modèles de 100 milliards de paramètres d'ici 2028. L'information a été relayée sur X, puis reprise sur le forum r/LocalLLaMA. Elle donne la mesure des attentes de l'industrie en matière d'inférence locale sur téléphone.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2z14s/qualcomm_ceo_reveals_ai_companies_want_phones/",
+  "date_source": "2026-10-11T04:37:21+00:00",
+  "date_redac": "2026-10-11T06:17:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 675,
+   "sortie": 599
+  }
+ },
+ {
+  "id": "31e7d519b82f51e8",
+  "slug": "cluster-de-4-cartes-bc-250-d-occasion-next-flash-et-qwen-3-6-35b-en-lo-31e7d5",
+  "titre": "Cluster de 4 cartes BC-250 d'occasion : Next Flash et Qwen 3.6 35B en local",
+  "resume": "Avec quatre cartes BC-250 issues de rigs de minage, reliées par des adaptateurs et un switch 2,5 Gb, cet utilisateur fait tourner llama.cpp en Vulkan avec RPC. Il atteint 60 à 70 tok/s sur Next Flash en quantification IQ3_XXS avec 100k de contexte, ou deux instances de Qwen 3.6 35B A3B IQ4 à 145 tok/s, qui descendent sous 100 tok/s à 150k de contexte. Les cartes lui ont coûté moins de 100 $ pièce, contre environ 150 $ vues récemment sur AliExpress.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2yv1b/running_next_flash_iq3_xxs_at_70_toks_with_100k/",
+  "date_source": "2026-10-11T04:27:44+00:00",
+  "date_redac": "2026-10-11T06:17:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 896,
+   "sortie": 1101
+  }
+ },
+ {
   "id": "3406ff828bf3618e",
   "slug": "un-utilisateur-repare-son-extension-gnome-cassee-avec-deepseek-harness-3406ff",
   "titre": "Un utilisateur répare son extension GNOME cassée avec DeepSeek Harness",

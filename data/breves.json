@@ -1,5 +1,110 @@
 [
  {
+  "id": "2f0267120cf962fb",
+  "slug": "openclaw-corrige-la-limite-de-taille-du-manifeste-de-publication-des-p-2f0267",
+  "titre": "OpenClaw corrige la limite de taille du manifeste de publication des plugins",
+  "resume": "OpenClaw publie un correctif dans sa branche release-publish. Le changement concerne la taille maximale du manifeste de publication des plugins, en lien avec leurs fichiers. Le commit est référencé d29e2d5be0f6-1791720622.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fd29e2d5be0f6-1791720622",
+  "date_source": "2026-10-11T12:08:33+00:00",
+  "date_redac": "2026-10-11T12:49:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 508
+  }
+ },
+ {
+  "id": "586dc4935a44c6fe",
+  "slug": "openclaw-publie-la-pre-version-2026-10-5-beta-1-586dc4",
+  "titre": "OpenClaw publie la pré-version 2026.10.5-beta.1",
+  "resume": "OpenClaw met en ligne la version 2026.10.5-beta.1 sur son dépôt GitHub, le 11 octobre 2026. Il s'agit d'une pré-version bêta : l'extrait de la note de version ne détaille ni les changements apportés, ni les fonctions concernées. Aucune indication sur un passage éventuel en version stable n'accompagne cette publication.",
+  "tags": [
+   "openclaw",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.5-beta.1",
+  "date_source": "2026-10-11T11:28:30+00:00",
+  "date_redac": "2026-10-11T12:49:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 949
+  }
+ },
+ {
+  "id": "64e609c1d11f6c8e",
+  "slug": "openclaw-deplace-les-ecritures-sqlite-de-son-sdk-de-plugins-vers-des-w-64e609",
+  "titre": "OpenClaw déplace les écritures SQLite de son SDK de plugins vers des workers",
+  "resume": "OpenClaw déplace les écritures SQLite à l'exécution de son SDK de plugins vers des workers existants. La préparation des politiques de nœuds, les approbations expirant des lignes, la retraite des placements et le nettoyage au redémarrage passent par ces mêmes workers. Les signatures natives publiées et l'ordre des callbacks sont conservés, avec des avertissements de dépréciation partagés et les contrôles d'autorité au moment de l'effet.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fa17bd679979e-1791717771",
+  "date_source": "2026-10-11T11:17:16+00:00",
+  "date_redac": "2026-10-11T12:49:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 772,
+   "sortie": 1036
+  }
+ },
+ {
+  "id": "d623f11b361051ab",
+  "slug": "tester-l-ia-en-local-un-journal-de-bord-entre-promesses-et-frustration-d623f1",
+  "titre": "Tester l'IA en local : un journal de bord entre promesses et frustrations",
+  "resume": "Un journaliste de The Verge raconte s'être lancé dans l'usage régulier de l'IA, une démarche qu'il a longtemps hésitée à entreprendre. Son principal frein : confier ses données les plus personnelles à des services cloud. Il teste donc des modèles exécutés en local, dont Hermes et Qwen sur un Mac Studio, pour voir ce dont cette technologie est capable.",
+  "tags": [
+   "hermes",
+   "open-source",
+   "matériel",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+  "date_source": "2026-10-11T11:00:00+00:00",
+  "date_redac": "2026-10-11T12:50:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 667,
+   "sortie": 546
+  }
+ },
+ {
+  "id": "dd4adce5a715d6e6",
+  "slug": "un-modele-bitnet-v2-recursif-de-102m-entraine-pour-100-dd4adc",
+  "titre": "Un modèle BitNet-v2 récursif de 102M entraîné pour 100 €",
+  "resume": "Un développeur publie Recursive BitNet N-Gram 102M, un modèle entraîné de zéro sur moins de 5 milliards de tokens pour un budget d'environ 100 €. L'architecture combine poids ternaires, couches de transformer partagées et embeddings n-gram hachés : six blocs exécutés deux fois, soit douze applications, pour 102,28 M de paramètres et un contexte de 64K. Les poids, le code d'inférence, la fiche du modèle et les évaluations sont sur Hugging Face.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x34nyx/i_trained_a_102m_recursive_bitnetv2_model_from/",
+  "date_source": "2026-10-11T10:19:08+00:00",
+  "date_redac": "2026-10-11T12:50:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 834,
+   "sortie": 736
+  }
+ },
+ {
   "id": "1f7af6721dbbd21a",
   "slug": "des-mini-frigos-minecraft-halo-et-fallout-en-precommande-chez-microman-1f7af6",
   "titre": "Des mini-frigos Minecraft, Halo et Fallout en précommande chez Micromania",

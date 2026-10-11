@@ -1,22 +1,18 @@
 {
- "runs": 218,
- "items_collectes": 1597,
- "breves_publiees": 824,
- "articles_publies": 126,
- "tokens_entree": 795048,
- "tokens_sortie": 1162583,
+ "runs": 219,
+ "items_collectes": 1603,
+ "breves_publiees": 829,
+ "articles_publies": 127,
+ "tokens_entree": 800131,
+ "tokens_sortie": 1168618,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-11T10:31:03+00:00",
+ "dernier_run": "2026-10-11T12:50:17+00:00",
  "solde": {
   "total": "86.54",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-11T00:24:20+00:00",
-   "message": "brève impossible (openclaw 2026.10.1) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-11T04:17:47+00:00",
    "message": "brève impossible ([vllm] Is it possible to run Qwen3.8-27B-FP8 on a 5090?) : réponse non-JSON"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-11T09:26:04+00:00",
    "message": "déploiement : timed out"
+  },
+  {
+   "ts": "2026-10-11T12:49:53+00:00",
+   "message": "brève impossible (microsoft/AesCode 8B and 32B) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -895,6 +895,10 @@
   ],
   [
    "2026-10-11T10:30:21+00:00",
+   "86.54"
+  ],
+  [
+   "2026-10-11T12:49:32+00:00",
    "86.54"
   ]
  ],

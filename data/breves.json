@@ -1,5 +1,68 @@
 [
  {
+  "id": "48d4314031e70233",
+  "slug": "openmed-3-0-un-outil-d-ia-clinique-en-local-sous-licence-apache-2-0-48d431",
+  "titre": "OpenMed 3.0 : un outil d'IA clinique en local, sous licence Apache-2.0",
+  "resume": "OpenMed, boîte à outils d'IA médicale sous licence Apache-2.0, sort sa version 3.0. Les données patients restent sur la machine : pas de clé API, pas d'appel au cloud, l'outil fonctionne hors ligne. La 3.0 ajoute Patient Journey, qui reconstitue une chronologie par patient à partir de notes cliniques, flux FHIR, messages HL7, CSV de laboratoire et comptes rendus d'imagerie.",
+  "tags": [
+   "open-source",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x37z7z/openmed_30_is_out_apache20_clinical_ai_that_runs/",
+  "date_source": "2026-10-11T13:16:26+00:00",
+  "date_redac": "2026-10-11T13:21:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 863,
+   "sortie": 1106
+  }
+ },
+ {
+  "id": "85531c246abe77fa",
+  "slug": "rtx-5090-a-5-000-les-entreprises-d-ia-achetent-des-gpu-gaming-par-pale-85531c",
+  "titre": "RTX 5090 à 5 000 $ : les entreprises d'IA achètent des GPU gaming par palettes",
+  "resume": "Sur r/LocalLLaMA, une discussion avance une explication au prix de la RTX 5090 : des entreprises d'IA achèteraient des GPU gaming par palettes entières. La demande côté IA détournerait ainsi des cartes grand public vers d'autres usages, ce qui pèserait sur leur prix. La somme évoquée atteint 5 000 dollars.",
+  "tags": [
+   "matériel",
+   "business",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x37tg6/heres_why_rtx_5090_costs_5000_ai_firms_are_buying/",
+  "date_source": "2026-10-11T13:08:43+00:00",
+  "date_redac": "2026-10-11T13:21:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 1085
+  }
+ },
+ {
+  "id": "d874218a57212f28",
+  "slug": "openclaw-2026-10-5-beta-1-mises-a-jour-et-redemarrages-plus-fiables-d87421",
+  "titre": "OpenClaw 2026.10.5-beta.1 : mises à jour et redémarrages plus fiables",
+  "resume": "La version 2026.10.5-beta.1 d'OpenClaw met l'accent sur la robustesse des mises à jour : elles vont désormais au bout sur plusieurs appareils, systèmes de fichiers et cas d'élévation Windows, y compris après des activations interrompues, et l'outil récupère de baux périmés ou de preuves modifiées au lieu de bloquer l'installation ou les mises à jour suivantes. Les conversations résistent aussi au redémarrage : tours interrompus, premiers messages envoyés pendant la préparation du worktree et tâches différées reprennent après un redémarrage de la Gateway, et les saisies utilisateur comme les données de session validées survivent aux redémarrages, aux écritures concurrentes et aux publications échouées. La Gateway est par ailleurs annoncée plus rapide et plus stable sur les sessions, transcriptions, historiques et métadonnées.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.5-beta.1",
+  "date_source": "2026-10-11T13:08:24+00:00",
+  "date_redac": "2026-10-11T13:21:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 837,
+   "sortie": 527
+  }
+ },
+ {
   "id": "2f0267120cf962fb",
   "slug": "openclaw-corrige-la-limite-de-taille-du-manifeste-de-publication-des-p-2f0267",
   "titre": "OpenClaw corrige la limite de taille du manifeste de publication des plugins",

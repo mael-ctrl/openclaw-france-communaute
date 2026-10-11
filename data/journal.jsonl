@@ -815,3 +815,13 @@
 {"ts": "2026-10-09T07:14:07+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "55b4fe8ccab0098def5d096fd13cc110e8459dd21dbc773a35bfb6c793aa78ae"}
 {"ts": "2026-10-09T07:14:07+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-09.json", "publications": 576}, "sha256": "1a803750e723681eb6fada72a7c01c8aa8a0358824e1cc25d1114010115d513f"}
 {"ts": "2026-10-09T07:14:07+00:00", "evenement": "bilan", "details": {"duree_s": 213.4, "neufs": 40, "breves": 5, "articles": 1, "fichiers": 483, "envois": 570, "publications": 4}, "sha256": "74e26d250caffe96974504d480f8f238f9a6178bae35a44873ffa6b1656450c7"}
+{"ts": "2026-10-10T08:59:06+00:00", "evenement": "collecte", "details": {"neufs": 40}, "sha256": "6a04baa6809bdf981573a2ccba82b907739fefbdb4a21478034d799c8e95ee3b"}
+{"ts": "2026-10-10T15:09:55+00:00", "evenement": "erreur", "details": {"message": "brève impossible (While everyone is building AI SAAS B2B services to get rich,) : [Errno 54] Connection reset by peer"}, "sha256": "7f0056a07894843a5f37fe3105a7fb6736df5adcce7c5e852f4d259a722adf4e"}
+{"ts": "2026-10-11T05:11:18+00:00", "evenement": "erreur", "details": {"message": "article impossible : [Errno 54] Connection reset by peer"}, "sha256": "4e52e42b987add7759f95504cf97b14a95835134eea425f3eeb6c68bd7661e1d"}
+{"ts": "2026-10-11T05:11:18+00:00", "evenement": "construction", "details": {"fichiers": 483}, "sha256": "0ea8a58214d05006c807da0da781bd1d7e1ce817f130ab611ad74b7d270ba6e3"}
+{"ts": "2026-10-11T05:24:58+00:00", "evenement": "erreur", "details": {"message": "déploiement : [Errno 54] Connection reset by peer"}, "sha256": "952b0098224c7e9090060e7f3d520d3472be9de64550b7c1fab6fdd384477e47"}
+{"ts": "2026-10-11T05:24:58+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "b87b362959351206cd288b153f80c517782afbd12e8d508ee58bd79e23e2b92a"}
+{"ts": "2026-10-11T06:48:20+00:00", "evenement": "erreur", "details": {"message": "archivage wayback : The read operation timed out"}, "sha256": "a68db8874b715b00e9045d2f20690d4f99de83272e114e5309a7873e9a14cc4d"}
+{"ts": "2026-10-11T06:54:37+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "057384a21af20a85e2b8d33609c19b633786100838677a09a7f93a8c8d12610e"}
+{"ts": "2026-10-11T06:54:37+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-11.json", "publications": 581}, "sha256": "69eb7a70f08dc2f097618c2186ecfdb8b628fc531e3f85e09030ab5714e7cda8"}
+{"ts": "2026-10-11T06:54:37+00:00", "evenement": "bilan", "details": {"duree_s": 81886.6, "neufs": 40, "breves": 5, "articles": 0, "fichiers": 483, "publications": 4}, "sha256": "d51aa4cdc9f3ae214fdf32395405aa23198ee34e26be9d70a71a84ecee65fadc"}

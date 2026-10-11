@@ -1,5 +1,109 @@
 [
  {
+  "id": "51b442268912e13b",
+  "slug": "nvidia-arreterait-la-rtx-5090-pour-reserver-sa-puce-gb202-aux-cartes-p-51b442",
+  "titre": "Nvidia arrêterait la RTX 5090 pour réserver sa puce GB202 aux cartes pro",
+  "resume": "Selon une fuite relayée le 10 octobre 2026, Nvidia cesserait de fabriquer la GeForce RTX 5090 afin de réserver l'ensemble de ses puces GB202 à ses cartes professionnelles RTX Pro. L'entreprise n'a rien confirmé. Elle avait déjà démenti une rumeur de ce type en novembre 2025. En jeu : l'arbitrage entre grand public et cartes professionnelles, bien plus rentables.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/produits-android/hardware/3280565_nvidia-arreterait-la-rtx-5090-pour-reserver-sa-puce-aux-cartes-professionnelles-bien-plus-rentables",
+  "date_source": "2026-10-10T08:35:56+00:00",
+  "date_redac": "2026-10-10T08:59:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 715,
+   "sortie": 380
+  }
+ },
+ {
+  "id": "75e7fba45814a282",
+  "slug": "asus-promet-100-fps-en-1440p-a-140-w-sur-son-mini-pc-proart-gr1x-75e7fb",
+  "titre": "Asus promet 100 FPS en 1440p à 140 W sur son mini-PC ProArt GR1X",
+  "resume": "Asus affirme que son mini-PC ProArt GR1X, équipé de la puce Nvidia RTX Spark, fait tourner des jeux AAA en 1440p à plus de 100 images par seconde avec un TDP de 140 watts. Le constructeur ne précise pas comment il obtient ce résultat. Jusqu'ici, la machine était surtout vendue pour faire tourner des agents IA en local.",
+  "tags": [
+   "matériel",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/asus/3280559_asus-promet-100-fps-en-1440p-avec-140-watts-sur-son-mini-pc-rtx-spark-sans-dire-comment",
+  "date_source": "2026-10-10T08:32:09+00:00",
+  "date_redac": "2026-10-10T08:59:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 711,
+   "sortie": 649
+  }
+ },
+ {
+  "id": "345c67798c55b3df",
+  "slug": "un-utilisateur-apprend-a-claude-a-ecouter-des-morceaux-via-des-visuali-345c67",
+  "titre": "Un utilisateur apprend à Claude à « écouter » des morceaux via des visualisations",
+  "resume": "Sur le subreddit r/ClaudeAI, un utilisateur présente deux représentations visuelles de morceaux destinées à donner à Claude une compréhension rapide d'une chanson. La première est un spectrogramme à échelle logarithmique, car la partie haute du spectre contient moins d'informations pertinentes. La seconde est une forme d'onde colorée selon la hauteur dominante, basses et aigus traités séparément. L'auteur invite à proposer d'autres pistes de lecture « en un coup d'œil ».",
+  "tags": [
+   "claude",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x29x26/teaching_claude_to_listen_to_songs_1_a/",
+  "date_source": "2026-10-10T08:20:07+00:00",
+  "date_redac": "2026-10-10T08:59:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 665,
+   "sortie": 821
+  }
+ },
+ {
+  "id": "117e7e0189d86046",
+  "slug": "les-geants-de-l-ia-simulent-en-prive-la-crise-d-apres-accident-117e7e",
+  "titre": "Les géants de l'IA simulent en privé la crise d'après-accident",
+  "resume": "Selon Axios, les dirigeants d'Anthropic, d'OpenAI et d'autres entreprises de l'IA simulent en privé la crise politique qui suivrait un premier accident majeur causé par l'IA. Ces exercices se déroulent en interne et restent confidentiels. Le secteur se prépare donc aux réactions politiques et institutionnelles qu'un tel incident pourrait déclencher.",
+  "tags": [
+   "openai",
+   "sécurité",
+   "business",
+   "société"
+  ],
+  "importance": 4,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2350763-les-geants-de-lia-preparent-deja-lapres-catastrophe-et-redoutent-deux-scenarios-en-particulier.html",
+  "date_source": "2026-10-10T07:31:37+00:00",
+  "date_redac": "2026-10-10T15:09:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 562
+  }
+ },
+ {
+  "id": "d2dce1ca57bc18ee",
+  "slug": "claude-code-invente-une-echeance-a-un-pipeline-d-agents-devops-d2dce1",
+  "titre": "Claude Code invente une échéance à un pipeline d'agents DevOps",
+  "resume": "Un utilisateur raconte sur Reddit que Claude Code s'est mis à lui imposer des dates limites qu'il n'avait jamais fixées. Il travaille sur un projet personnel organisé en pipeline DevOps, où plusieurs agents opèrent en parallèle, et n'avait donné aucune échéance. Le modèle en a pourtant supposé une, réclamant certaines livraisons à des dates précises. L'utilisateur précise que ce pipeline lui sert depuis un moment et que le comportement est nouveau.",
+  "tags": [
+   "claude",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x294bu/claude_code_started_giving_me_deadlines/",
+  "date_source": "2026-10-10T07:30:34+00:00",
+  "date_redac": "2026-10-10T16:46:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 705,
+   "sortie": 310
+  }
+ },
+ {
   "id": "26179195a5ad3de5",
   "slug": "anthropic-interdit-les-comportements-abusifs-envers-claude-des-le-12-n-261791",
   "titre": "Anthropic interdit les comportements abusifs envers Claude dès le 12 novembre",

@@ -1,5 +1,131 @@
 [
  {
+  "id": "fa57b83021a41587",
+  "slug": "qwen-3-8-flash-next-en-local-sur-une-amd-7900-xtx-avec-500k-de-context-fa57b8",
+  "titre": "Qwen 3.8 Flash-Next en local sur une AMD 7900 XTX, avec 500k de contexte",
+  "resume": "Qwen 3.8 Flash-Next tourne en local sur une AMD 7900 XTX : 500 000 tokens de contexte et 105 à 160 tokens/s en décodage. Le modèle totalise 176 milliards de paramètres mais n'en active que 6 milliards par token, avec 23,8 GiB résidents en VRAM et le reste (experts et table PLE) en RAM système. L'auteur relate aussi un bug d'écho venu de preserve_thinking, qui réinjectait les raisonnements passés dans chaque prompt.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x3ker0/i_ran_qwen_38_flashnext_on_my_amd_7900_xtx_at/",
+  "date_source": "2026-10-11T21:44:02+00:00",
+  "date_redac": "2026-10-11T22:21:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 868,
+   "sortie": 1188
+  }
+ },
+ {
+  "id": "d7d62089dd4fc666",
+  "slug": "selon-bloomberg-apple-devoilerait-mardi-homeview-son-hub-domotique-d7d620",
+  "titre": "Selon Bloomberg, Apple dévoilerait mardi HomeView, son hub domotique",
+  "resume": "Selon Mark Gurman, de Bloomberg, Apple annoncera mardi un nouveau hub domotique baptisé HomeView. Le produit était évoqué depuis plusieurs années dans plusieurs rapports, mais il a désormais un nom et une date de lancement. TechCrunch se demande s'il sera le premier succès d'Apple sur le marché de la maison connectée.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+  "date_source": "2026-10-11T21:14:40+00:00",
+  "date_redac": "2026-10-11T22:21:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 659,
+   "sortie": 1110
+  }
+ },
+ {
+  "id": "38b7d021c31cb9fa",
+  "slug": "sur-r-localllama-un-utilisateur-signale-des-comptes-soupconnes-d-etre--38b7d0",
+  "titre": "Sur r/LocalLLaMA, un utilisateur signale des comptes soupçonnés d'être des bots RP",
+  "resume": "Sur le subreddit r/LocalLLaMA, un utilisateur alerte sur des comptes qu'il soupçonne d'être des bots. Ces profils auraient environ un mois d'existence et pas plus de 25 points de karma de commentaire, et répètent des phrases du type « ça perturbe vraiment mon RP ». L'auteur dit en avoir trouvé plusieurs exemples en quelques minutes et publie les liens correspondants.",
+  "tags": [
+   "société",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x3iu7f/meta_whats_with_the_rp_bot_accounts/",
+  "date_source": "2026-10-11T20:37:54+00:00",
+  "date_redac": "2026-10-11T22:21:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 843,
+   "sortie": 1209
+  }
+ },
+ {
+  "id": "55bb6bbcb9610a12",
+  "slug": "hermes-agent-publie-la-release-candidate-rc-13-en-v0-21-7-55bb6b",
+  "titre": "Hermes Agent publie la release candidate rc.13 en v0.21.7",
+  "resume": "Le dépôt NousResearch/hermes-agent a mis en ligne la release candidate rc.13 estampillée v0.21.7, datée du 11 octobre 2026 à 20h32 UTC. Les métadonnées de publication mentionnent une treizième tentative (attempt 13) et une publication automatique désactivée (autopublish false). L'extrait ne détaille pas le contenu du commit associé.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.13-v0.21.7",
+  "date_source": "2026-10-11T20:32:53+00:00",
+  "date_redac": "2026-10-11T22:21:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 728
+  }
+ },
+ {
+  "id": "2097122319b57677",
+  "slug": "hermes-agent-la-version-candidate-rc-12-v0-21-7-abandonnee-209712",
+  "titre": "Hermes Agent : la version candidate rc.12-v0.21.7 abandonnée",
+  "resume": "Le dépôt GitHub de Hermes Agent, projet porté par NousResearch, affiche une étiquette de publication intitulée « abandoned-rc.12-v0.21.7 ». Les métadonnées jointes mentionnent une tentative numéro 12 pour la référence rc.12-v0.21.7, sur un schéma numéroté 1 et une version 0.21. Le terme « abandoned » indique que cette candidate n'a pas été retenue.",
+  "tags": [
+   "hermes",
+   "dev",
+   "open-source",
+   "agents"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.12-v0.21.7",
+  "date_source": "2026-10-11T20:32:21+00:00",
+  "date_redac": "2026-10-11T22:21:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 621,
+   "sortie": 700
+  }
+ },
+ {
+  "id": "ae119dd94a613b16",
+  "slug": "quants-de-qwen-3-8-27b-un-test-de-qualite-sur-r9700-ae119d",
+  "titre": "Quants de Qwen 3.8 27B : un test de qualité sur R9700",
+  "resume": "Un utilisateur de r/LocalLLaMA a comparé trois quants de Qwen 3.8 27B sur sa R9700, en notant que les discussions portent souvent sur le gain de vitesse en FP4 mais rarement sur la qualité. Les tests gsm8k (maths) et humaneval (code) tournaient dans un même conteneur Docker, via Llama.cpp pour deux modèles et whirl pour le quant MXFP4. Contre son hypothèse, c'est le MXFP4 qui obtient le meilleur score en maths, le Q6_K_L arrivant dernier.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x3ij13/i_tested_different_qwen_38_27b_quants/",
+  "date_source": "2026-10-11T20:24:54+00:00",
+  "date_redac": "2026-10-11T22:21:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 964,
+   "sortie": 860
+  }
+ },
+ {
   "id": "30730556b97033cb",
   "slug": "glm-5-3-flash-tourne-sur-deux-cartes-ascend-310p-via-vllm-ascend-307305",
   "titre": "GLM-5.3-Flash tourne sur deux cartes Ascend 310P via vllm-ascend",

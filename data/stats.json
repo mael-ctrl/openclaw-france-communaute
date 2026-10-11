@@ -1,22 +1,18 @@
 {
- "runs": 212,
- "items_collectes": 1562,
- "breves_publiees": 796,
- "articles_publies": 121,
- "tokens_entree": 766919,
- "tokens_sortie": 1120408,
+ "runs": 213,
+ "items_collectes": 1570,
+ "breves_publiees": 801,
+ "articles_publies": 122,
+ "tokens_entree": 772080,
+ "tokens_sortie": 1128584,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-11T00:24:39+00:00",
+ "dernier_run": "2026-10-11T04:18:16+00:00",
  "solde": {
-  "total": "86.59",
+  "total": "86.58",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-10T06:17:12+00:00",
-   "message": "brève impossible (3.66B formal logic model built on Granite 4.2 3B · Hugging F) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-10T08:11:01+00:00",
    "message": "article impossible : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-11T00:24:20+00:00",
    "message": "brève impossible (openclaw 2026.10.1) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-11T04:17:47+00:00",
+   "message": "brève impossible ([vllm] Is it possible to run Qwen3.8-27B-FP8 on a 5090?) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.07,
+ "depense_usd": 5.08,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -872,13 +872,17 @@
   [
    "2026-10-11T00:23:43+00:00",
    "86.59"
+  ],
+  [
+   "2026-10-11T04:17:11+00:00",
+   "86.58"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.78,
+ "depense_mois_usd": 2.79,
  "archive_tentatives": {
   "jour": "2026-10-11",
-  "n": 1
+  "n": 2
  },
  "derniere_archive": "2026-10-10"
 }

@@ -1212,3 +1212,11 @@
 {"ts": "2026-10-11T00:33:42+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "738a1cdfbe0a242d34556d57d6bd0454bce03dc0eae6498827985114d55bde27"}
 {"ts": "2026-10-11T00:33:42+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-11.json", "publications": 931}, "sha256": "2a98a84555175071ec839b9783040afc60c430173a669938457194f5851fa823"}
 {"ts": "2026-10-11T00:33:42+00:00", "evenement": "bilan", "details": {"duree_s": 625.9, "neufs": 5, "breves": 4, "articles": 1, "fichiers": 540, "envois": 552, "publications": 4}, "sha256": "2804cbc68dd4166a363eb677d9172a6650090f5daf41084d789d2d93c4c610f6"}
+{"ts": "2026-10-11T04:17:10+00:00", "evenement": "collecte", "details": {"neufs": 8}, "sha256": "68c3e73f156bb80f690bbc59c80892fd54d3db5b70f6b219524d90896ce2b980"}
+{"ts": "2026-10-11T04:17:47+00:00", "evenement": "erreur", "details": {"message": "brève impossible ([vllm] Is it possible to run Qwen3.8-27B-FP8 on a 5090?) : réponse non-JSON"}, "sha256": "0dc5a67c245f813ae91f9056a02ea67f29e7850f04450b2620ef919ad88148c9"}
+{"ts": "2026-10-11T04:18:17+00:00", "evenement": "construction", "details": {"fichiers": 541}, "sha256": "1ee35fd69b8c1d9c519735b0ade14f39def80b1297fbb5504745ec4a9fd0e169"}
+{"ts": "2026-10-11T04:27:59+00:00", "evenement": "deploiement", "details": {"fichiers": 553, "octets": 8663905}, "sha256": "b9db8f902336a5702837b15977a51b8e9f3292f3cf81db366085eb718a816c7e"}
+{"ts": "2026-10-11T04:27:59+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "0a40369b22afd24a870e9f2152e40477a7f6f61a5fc89906dfccdfa16f427c7d"}
+{"ts": "2026-10-11T04:28:07+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 2}, "sha256": "883932708220e70abf4688bcc94a5a2c1fa337ce65e06a8dc65d671104484448"}
+{"ts": "2026-10-11T04:28:19+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "af91b67c30ee0af131dc2a72b8fb29c810e71525f2024e92043777f31f574206"}
+{"ts": "2026-10-11T04:28:19+00:00", "evenement": "bilan", "details": {"duree_s": 679.9, "neufs": 8, "breves": 5, "articles": 1, "fichiers": 541, "envois": 553, "publications": 4}, "sha256": "1fb54815388c8c4df484b97fc585a74598b298728c812b224114149170e8d58a"}

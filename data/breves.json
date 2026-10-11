@@ -1,5 +1,109 @@
 [
  {
+  "id": "3406ff828bf3618e",
+  "slug": "un-utilisateur-repare-son-extension-gnome-cassee-avec-deepseek-harness-3406ff",
+  "titre": "Un utilisateur répare son extension GNOME cassée avec DeepSeek Harness",
+  "resume": "Après une mise à jour majeure de GNOME, l'extension Dash2Dock Lite d'un utilisateur a cessé de fonctionner. Son mainteneur, Icedman, a l'habitude d'accuser une à deux semaines de retard sur les mises à jour. L'utilisateur a donc demandé à DeepSeek Harness de tout réparer, après avoir lancé pacman sans savoir que GNOME venait d'être mis à jour. Il n'a été privé de son dock qu'une heure environ.",
+  "tags": [
+   "deepseek",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xxql/qwen38_flash_next_fixed_my_gnome_extension/",
+  "date_source": "2026-10-11T03:36:51+00:00",
+  "date_redac": "2026-10-11T04:17:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 711,
+   "sortie": 1036
+  }
+ },
+ {
+  "id": "1616019d70138a53",
+  "slug": "des-contrefacons-de-rtx-4090-circulent-presque-impossibles-a-distingue-161601",
+  "titre": "Des contrefaçons de RTX 4090 circulent, presque impossibles à distinguer",
+  "resume": "Un membre du forum r/LocalLLaMA alerte sur l'arrivée de fausses cartes RTX 4090 sur le marché. Les puces comme la mémoire de ces copies seraient quasiment impossibles à différencier des composants d'origine. L'avertissement vise particulièrement les bonnes affaires trop alléchantes : si le prix paraît trop beau, c'est probablement une contrefaçon.",
+  "tags": [
+   "matériel",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xniv/be_careful_fam_new_rtx_4090_fakes_hit_the_market/",
+  "date_source": "2026-10-11T03:21:02+00:00",
+  "date_redac": "2026-10-11T04:17:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 655,
+   "sortie": 378
+  }
+ },
+ {
+  "id": "d7f28d30de49000c",
+  "slug": "amd-releverait-les-prix-de-la-gddr6-pour-ses-partenaires-d7f28d",
+  "titre": "AMD relèverait les prix de la GDDR6 pour ses partenaires",
+  "resume": "Selon des informations rapportées, AMD aurait augmenté les prix de la GDDR6 pour les fabricants de cartes partenaires. En parallèle, Nvidia vient d'arrêter la RTX 5090 au profit des RTX Pro. La question d'une hausse de prix côté AMD se pose aussi.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xatx/amd_reportedly_raises_gddr6_prices_for_board/",
+  "date_source": "2026-10-11T03:02:30+00:00",
+  "date_redac": "2026-10-11T04:17:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 640,
+   "sortie": 777
+  }
+ },
+ {
+  "id": "98ac43aa7ffcd458",
+  "slug": "mac-studio-m5-ultra-64-ou-80-curs-pour-l-inference-locale-98ac43",
+  "titre": "Mac Studio M5 Ultra : 64 ou 80 cœurs pour l'inférence locale ?",
+  "resume": "Sur r/LocalLLaMA, un utilisateur compare les deux versions du Mac Studio M5 Ultra 256 Go. La version 64 cœurs affiche 6 à 7 semaines de délai de livraison, contre 15 à 17 pour la 80 cœurs, avec 1 200 $ et dix semaines d'écart. Comme les deux partagent la même bande passante mémoire, il se demande si le gain en traitement du prompt et en génération de tokens justifie l'attente.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2wzsa/m5_ultra_mac_256gb_studio_64_core_vs_80_core/",
+  "date_source": "2026-10-11T02:46:42+00:00",
+  "date_redac": "2026-10-11T04:17:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 746,
+   "sortie": 1127
+  }
+ },
+ {
+  "id": "8c1b390ff70aa928",
+  "slug": "recall-recherche-semantique-de-fichiers-sous-linux-en-rust-8c1b39",
+  "titre": "Recall : recherche sémantique de fichiers sous Linux, en Rust",
+  "resume": "Recall indexe sous Linux PDF, fichiers Office, scans, captures d'écran, audio et vidéo, et les retrouve par contenu. Une requête comme « quand ont-ils décidé de geler les recrutements » ouvre l'enregistrement à la seconde près. EmbeddingGemma 2 place texte, images, images vidéo et fenêtres audio de 30 s dans un même espace vectoriel, via llama.cpp, avec un classement hybride vecteurs + SQLite FTS5.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2vz3y/local_semantic_file_search_for_linux_rust/",
+  "date_source": "2026-10-11T01:52:00+00:00",
+  "date_redac": "2026-10-11T04:18:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 884,
+   "sortie": 1392
+  }
+ },
+ {
   "id": "72d545f78b3fb9b4",
   "slug": "un-rig-4x-radeon-r9700-pour-faire-tourner-de-l-ia-locale-a-dix-personn-72d545",
   "titre": "Un rig 4x Radeon R9700 pour faire tourner de l'IA locale à dix personnes",

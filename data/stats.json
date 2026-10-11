@@ -1,22 +1,18 @@
 {
- "runs": 216,
- "items_collectes": 1586,
- "breves_publiees": 816,
- "articles_publies": 124,
- "tokens_entree": 786164,
- "tokens_sortie": 1147403,
+ "runs": 217,
+ "items_collectes": 1588,
+ "breves_publiees": 818,
+ "articles_publies": 125,
+ "tokens_entree": 789472,
+ "tokens_sortie": 1154192,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-11T08:12:05+00:00",
+ "dernier_run": "2026-10-11T09:20:54+00:00",
  "solde": {
-  "total": "86.56",
+  "total": "86.55",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-10T14:45:01+00:00",
-   "message": "article impossible : Expecting ',' delimiter: line 1 column 2793 (char 2792)"
-  },
   {
    "ts": "2026-10-11T00:24:20+00:00",
    "message": "brève impossible (openclaw 2026.10.1) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-11T08:12:05+00:00",
    "message": "article impossible : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-11T09:26:04+00:00",
+   "message": "déploiement : timed out"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.1,
+ "depense_usd": 5.11,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -888,10 +888,14 @@
   [
    "2026-10-11T08:11:09+00:00",
    "86.56"
+  ],
+  [
+   "2026-10-11T09:20:19+00:00",
+   "86.55"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.81,
+ "depense_mois_usd": 2.82,
  "archive_tentatives": {
   "jour": "2026-10-11",
   "n": 3

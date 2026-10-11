@@ -1,5 +1,131 @@
 [
  {
+  "id": "30730556b97033cb",
+  "slug": "glm-5-3-flash-tourne-sur-deux-cartes-ascend-310p-via-vllm-ascend-307305",
+  "titre": "GLM-5.3-Flash tourne sur deux cartes Ascend 310P via vllm-ascend",
+  "resume": "Un développeur partage ses avancées sur vllm-ascend avec deux cartes Ascend 310P de 96 Go en DDR4x. GLM-5.3-Flash est un modèle MoE de 320 milliards de paramètres, dont environ 18 milliards actifs par token, en configuration 45 couches, 288 experts et routage top-8. Sa quantification W2/W3/W4 réduit le stockage des poids sans changer le nombre de paramètres. Le changement à chaud des modules, CANNs ou serveurs, en gardant les poids du modèle résidents, lui a permis d'avancer en une semaine sur GLM.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x3dpv3/vllmascend_updates_glm53flash_on_dual_310p_ascend/",
+  "date_source": "2026-10-11T17:14:40+00:00",
+  "date_redac": "2026-10-11T18:22:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 873,
+   "sortie": 595
+  }
+ },
+ {
+  "id": "e83044783171461d",
+  "slug": "hermes-agent-publie-la-release-candidate-rc-12-de-la-version-v0-21-7-e83044",
+  "titre": "Hermes Agent publie la release candidate rc.12 de la version v0.21.7",
+  "resume": "Hermes Agent, le projet d'agents de NousResearch, met en ligne sur GitHub la release candidate rc.12 rattachée à la version v0.21.7. Les métadonnées de cette publication indiquent une tentative numéro 12, une autopublication désactivée et une référence de commit. L'extrait disponible ne détaille pas le contenu des changements apportés.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.12-v0.21.7",
+  "date_source": "2026-10-11T17:08:06+00:00",
+  "date_redac": "2026-10-11T18:22:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 1284
+  }
+ },
+ {
+  "id": "9bcb4dded8e4702a",
+  "slug": "hermes-agent-la-release-candidate-rc-11-v0-21-7-abandonnee-9bcb4d",
+  "titre": "Hermes Agent : la release candidate rc.11-v0.21.7 abandonnée",
+  "resume": "Le dépôt GitHub hermes-agent de NousResearch a publié une version étiquetée « abandoned-rc.11-v0.21.7 ». Le préfixe « abandoned » signale une release candidate abandonnée, et les métadonnées jointes évoquent une onzième tentative (« attempt » : 11). Le numéro renvoie à la série v0.21.7, avec un schéma de version 1 ; le détail complet reste tronqué dans l'extrait fourni.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.11-v0.21.7",
+  "date_source": "2026-10-11T17:07:52+00:00",
+  "date_redac": "2026-10-11T18:22:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 621,
+   "sortie": 1308
+  }
+ },
+ {
+  "id": "3f6fe0c48476924b",
+  "slug": "filedig-la-version-windows-de-digup-publiee-sur-github-3f6fe0",
+  "titre": "FileDig, la version Windows de DigUp, publiée sur GitHub",
+  "resume": "Sur r/LocalLLaMA, la sortie de FileDig est signalée : le projet est présenté comme la version Windows de DigUp. Le dépôt correspondant, rupeshs/filedig, est hébergé sur GitHub. La publication, datée du 11 octobre 2026, ne précise ni les fonctions de l'outil ni les modèles qu'il prend en charge.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x3djpz/filedig_windows_version_of_digup/",
+  "date_source": "2026-10-11T17:07:50+00:00",
+  "date_redac": "2026-10-11T18:22:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 621,
+   "sortie": 938
+  }
+ },
+ {
+  "id": "dee47dd4652d16dd",
+  "slug": "citroen-devoile-un-concept-de-2cv-electrique-modele-de-serie-vise-pour-dee47d",
+  "titre": "Citroën dévoile un concept de 2CV électrique, modèle de série visé pour 2028",
+  "resume": "Citroën dévoile la future 2CV électrique. Ce concept préfigure un modèle de série prévu pour 2028 et réinterprète l'esprit populaire de la Deuche, du toit en toile jusqu'aux pneus. Le prix devrait s'approcher des 10 000 €, aides comprises.",
+  "tags": [
+   "matériel",
+   "société"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/retour-icone-populaire-10-000-euros-citroen-revolutionne-automobile-future-2cv-electrique.html",
+  "date_source": "2026-10-11T17:00:06+00:00",
+  "date_redac": "2026-10-11T18:22:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 710,
+   "sortie": 431
+  }
+ },
+ {
+  "id": "cb19291871672063",
+  "slug": "citroen-devoile-la-2-cv-concept-au-mondial-de-l-auto-deux-ans-avant-le-cb1929",
+  "titre": "Citroën dévoile la 2 CV Concept au Mondial de l'Auto, deux ans avant le modèle à 15 000 €",
+  "resume": "Citroën profite du Mondial de l'Auto 2026 pour dévoiler la 2 CV Concept, deux ans avant le lancement du modèle de série. La rédaction de Frandroid l'a découverte en avant-première au centre de design de Stellantis. Ses designers ont expliqué ce qui perdurera, et ce qui disparaîtra, sur la voiture électrique de série annoncée à 15 000 €.",
+  "tags": [
+   "matériel",
+   "société",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/citroen/3279563_on-a-vu-la-citroen-2-cv-concept-ses-designers-nous-devoilent-ce-qui-va-vraiment-arriver-sur-la-voiture-electrique-de-serie-a-15-000-e",
+  "date_source": "2026-10-11T17:00:00+00:00",
+  "date_redac": "2026-10-11T18:22:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 744,
+   "sortie": 995
+  }
+ },
+ {
   "id": "48d4314031e70233",
   "slug": "openmed-3-0-un-outil-d-ia-clinique-en-local-sous-licence-apache-2-0-48d431",
   "titre": "OpenMed 3.0 : un outil d'IA clinique en local, sous licence Apache-2.0",

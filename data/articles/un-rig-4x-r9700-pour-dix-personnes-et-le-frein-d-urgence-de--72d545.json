@@ -1,0 +1,41 @@
+{
+ "slug": "un-rig-4x-r9700-pour-dix-personnes-et-le-frein-d-urgence-de--72d545",
+ "titre": "Un rig 4x R9700 pour dix personnes, et le « frein d'urgence » de Nadella",
+ "chapo": "D'un côté, un serveur monté à la main pour faire tourner des modèles à dix personnes. De l'autre, un PDG qui réclame un « frein d'urgence » pour les modèles d'IA, et une start-up valorisée 7,5 milliards de dollars trois semaines après son lancement. La semaine dit beaucoup de l'écart entre le terrain et les grands discours.",
+ "html": "<h2 id=\"128-go-de-vram-1600-w-dix-personnes\">128 Go de VRAM, 1600 W, dix personnes</h2>\n<p>Un membre de r/LocalLLaMA détaille le montage réalisé pour un client : un Threadripper 9970X, 128 Go de DDR5 ECC et quatre Radeon R9700 AI Pro de 32 Go. Quatre cartes, donc, pour <strong>128 Go de VRAM</strong> au total, le tout sur une alimentation de 1600 W — les GPU étant sous-voltées à moins de 210 W chacune.</p>\n<p>Le serveur tourne sur un fork de Radiance, avec une KV en BF16, et sert Qwen 3.8 Next flash/27b ainsi que DSV4 Flash. L'objectif affiché : <strong>16 sessions simultanées</strong> pour une équipe de dix personnes. Autrement dit, un usage professionnel dimensionné à la main, carte par carte et watt par watt, plutôt qu'alloué à l'heure via une API.</p>\n<p>Ce genre de montage reste l'exception, mais il documente une tendance réelle du milieu local : la capacité de calcul se choisit désormais en fonction des sessions à servir, pas seulement du modèle à charger.</p>\n<h2 id=\"nadella-et-l-idee-d-un-frein-d-urgence\">Nadella et l'idée d'un frein d'urgence</h2>\n<p>Dans un billet publié un samedi matin, le PDG de Microsoft Satya Nadella estime qu'il est temps de « prendre du recul et d'évaluer l'architecture de confiance » de l'IA. Il y écrit que les modèles d'IA ont besoin d'un « <strong>frein d'urgence</strong> ».</p>\n<p>La prise de parole d'un des principaux acteurs du secteur intervient alors que la question de la confiance accordée aux systèmes d'IA est de plus en plus discutée. Le même milieu qui déploie massivement ces modèles se retrouve donc à réclamer des garde-fous publiquement, par la voix de l'un de ses dirigeants les plus en vue.</p>\n<h2 id=\"typesafe-jev-100-m-d-arr-en-trois-semain\">TypeSafe/Jev : 100 M$ d'ARR en trois semaines</h2>\n<p>TypeSafe, aussi appelé Jev, dépasse les <strong>100 millions de dollars de revenus récurrents annuels</strong> et affiche une valorisation de 7,5 milliards de dollars, trois semaines seulement après son lancement. Ces chiffres sont relayés par le récapitulatif AINews de Latent Space.</p>\n<p>Une seconde dépêche complète le tableau : TypeSafe AI, créateur du modèle d'IA non textuel Jev, a levé <strong>870 millions de dollars</strong> lors d'un tour mené par a16z. Même valorisation — 7,5 milliards de dollars — quelques semaines après le lancement du modèle. Les deux sources concordent sur les ordres de grandeur.</p>\n<p>Ce que TechCrunch retient de l'opération : l'intérêt des investisseurs pour des modèles qui ne reposent pas sur le texte. Deux dépêches, deux angles, un même chiffre qui circule.</p>\n<h2 id=\"ecosia-quitte-mistral-pour-des-modeles-c\">Ecosia quitte Mistral pour des modèles chinois</h2>\n<p>Le moteur de recherche Ecosia quitte les modèles de Mistral pour se tourner vers des modèles chinois. Son dirigeant explique que l'IA française n'a pas répondu aux attentes, et évoque l'énergie nucléaire ainsi que des enjeux de souveraineté numérique.</p>\n<p>Le calendrier est notable : l'annonce intervient <strong>le jour du lancement de Large 4</strong>, le nouveau modèle de Mistral. Le même jour, un laboratoire français sort donc une génération supplémentaire de modèle et un de ses utilisateurs annonce qu'il va chercher ailleurs.</p>\n<h2>Et maintenant ?</h2>\n<p>Mis côte à côte, ces faits dessinent trois échelles distinctes. Celle d'une machine de 1600 W assemblée pour dix personnes, où la capacité se compte en cartes graphiques. Celle d'un billet de blog réclamant des garde-fous sur des modèles déjà largement déployés. Et celle des marchés, où une start-up atteint les 100 M$ de revenus récurrents en trois semaines et lève 870 M$ pour un modèle non textuel. Pendant ce temps, un client français de l'IA arbitre entre fournisseurs, un jour de sortie de modèle.</p>",
+ "pivot": "72d545f78b3fb9b4",
+ "tags": [
+  "matériel",
+  "open-source",
+  "business",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2u742/building_a_4x_r9700_setup_for_a_10_person_startup/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/nous-sommes-decus-mistral-moteur-recherche-ecosia-abandonne-mistral-profit-ia-chinoises.html"
+  }
+ ],
+ "date": "2026-10-11T00:24:38+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1589,
+  "sortie": 4164
+ }
+}

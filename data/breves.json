@@ -1,5 +1,88 @@
 [
  {
+  "id": "72d545f78b3fb9b4",
+  "slug": "un-rig-4x-radeon-r9700-pour-faire-tourner-de-l-ia-locale-a-dix-personn-72d545",
+  "titre": "Un rig 4x Radeon R9700 pour faire tourner de l'IA locale à dix personnes",
+  "resume": "Un membre de r/LocalLLaMA détaille le montage réalisé pour un client : Threadripper 9970X, 128 Go de DDR5 ECC et quatre Radeon R9700 AI Pro de 32 Go, soit 128 Go de VRAM, sur une alimentation de 1600 W (GPU sous-voltées à moins de 210 W). Le serveur tourne sur un fork de Radiance pour servir Qwen 3.8 Next flash/27b et DSV4 Flash, KV en BF16. Il vise 16 sessions simultanées pour une équipe de dix personnes.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2u742/building_a_4x_r9700_setup_for_a_10_person_startup/",
+  "date_source": "2026-10-11T00:20:07+00:00",
+  "date_redac": "2026-10-11T00:23:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 837,
+   "sortie": 1427
+  }
+ },
+ {
+  "id": "f553b48ded70c1e5",
+  "slug": "tensorsharp-prend-en-charge-qwen-image-2-1-turbo-et-les-lora-f553b4",
+  "titre": "TensorSharp prend en charge Qwen Image 2.1 Turbo et les LoRA",
+  "resume": "TensorSharp, moteur d'inférence local, prend en charge Qwen Image 2.1 Turbo et les LoRA. Une vidéo montre l'édition d'image : sélection d'une zone via l'éditeur de masque intégré, modification par consigne en langage naturel, résultat affiché dans l'outil. Le projet vise un moteur unifié pour LLM, modèles multimodaux et génération d'images, avec une inférence locale plus accessible.",
+  "tags": [
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2u0x0/tensorsharp_now_supports_qwen_image_21_turbo_lora/",
+  "date_source": "2026-10-11T00:11:26+00:00",
+  "date_redac": "2026-10-11T00:24:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 809,
+   "sortie": 983
+  }
+ },
+ {
+  "id": "57b692ea4d55953c",
+  "slug": "qwen3-8-flash-next-tourne-sur-un-mac-m3-max-64-go-via-omlx-57b692",
+  "titre": "Qwen3.8-Flash-Next tourne sur un Mac M3 Max 64 Go via oMLX",
+  "resume": "Un utilisateur de r/LocalLLaMA est parvenu à lancer Qwen3.8-Flash-Next-oQ4e-mtp sur un Mac M3 Max de 64 Go avec oMLX, alors qu'il ne se lançait pas quelques semaines plus tôt — c'est le dernier commit qui a débloqué la situation. Le modèle, environ 100 Go, tourne avec 58 Go alloués au GPU, jusqu'à 130k de contexte. Sur une courte session : 140 tok/s en préremplissage, 15,8 tok/s en génération, 90,9 % d'efficacité du cache.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x2tstj/omg_if_you_have_a_mac_with_64gb_try/",
+  "date_source": "2026-10-11T00:00:40+00:00",
+  "date_redac": "2026-10-11T00:24:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 857,
+   "sortie": 1458
+  }
+ },
+ {
+  "id": "1d7fa82b47d6184b",
+  "slug": "python-3-15-0-arrive-dans-actions-python-versions-1d7fa8",
+  "titre": "Python 3.15.0 arrive dans actions/python-versions",
+  "resume": "Le dépôt actions/python-versions de GitHub intègre désormais Python 3.15.0. Simon Willison, qui attendait cette publication depuis quelques jours, avait demandé à ChatGPT de surveiller le dépôt et de le prévenir dès l'ajout de la version stable 3.15. Cette arrivée permet d'ajouter « 3.15 » à une matrice de tests GitHub Actions afin de lancer ses tests contre la nouvelle version de Python.",
+  "tags": [
+   "dev",
+   "chatgpt",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/10/python-actions/",
+  "date_source": "2026-10-10T23:58:04+00:00",
+  "date_redac": "2026-10-11T00:24:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 696,
+   "sortie": 363
+  }
+ },
+ {
   "id": "0805b540d361dea3",
   "slug": "latent-space-reunit-ses-abonnes-a-new-york-ces-prochains-jours-0805b5",
   "titre": "Latent Space réunit ses abonnés à New York ces prochains jours",

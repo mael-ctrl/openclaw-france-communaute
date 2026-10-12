@@ -825,3 +825,12 @@
 {"ts": "2026-10-11T06:54:37+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "057384a21af20a85e2b8d33609c19b633786100838677a09a7f93a8c8d12610e"}
 {"ts": "2026-10-11T06:54:37+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-11.json", "publications": 581}, "sha256": "69eb7a70f08dc2f097618c2186ecfdb8b628fc531e3f85e09030ab5714e7cda8"}
 {"ts": "2026-10-11T06:54:37+00:00", "evenement": "bilan", "details": {"duree_s": 81886.6, "neufs": 40, "breves": 5, "articles": 0, "fichiers": 483, "publications": 4}, "sha256": "d51aa4cdc9f3ae214fdf32395405aa23198ee34e26be9d70a71a84ecee65fadc"}
+{"ts": "2026-10-11T08:11:13+00:00", "evenement": "collecte", "details": {"neufs": 40}, "sha256": "dc00d782620d3b4f97b8b398c5ece31a91b06676e5a485b48fcfa5a74f45ccab"}
+{"ts": "2026-10-11T16:35:13+00:00", "evenement": "erreur", "details": {"message": "brève impossible (v0.21.6+canary.20261011T070142Z) : [Errno 54] Connection reset by peer"}, "sha256": "0c856ff66cd715237df18d84637cfd815fe202e7604489a72400b0dbd72405ab"}
+{"ts": "2026-10-12T03:26:22+00:00", "evenement": "construction", "details": {"fichiers": 484}, "sha256": "8cb99c997d5e009ebea8a4f20792f6e4835c799ea106ca597d029af62157ba61"}
+{"ts": "2026-10-12T03:43:26+00:00", "evenement": "erreur", "details": {"message": "déploiement : [Errno 54] Connection reset by peer"}, "sha256": "6caf5299fd1de0aa0146b95795a15a5745f43240f259e037b40ad859745ed184"}
+{"ts": "2026-10-12T03:43:26+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "3dc9111c13ae8d390987f0140952cd1698056388165a2e65bbd95d266d94a1ca"}
+{"ts": "2026-10-12T03:54:57+00:00", "evenement": "erreur", "details": {"message": "archivage wayback : <urlopen error [Errno 54] Connection reset by peer>"}, "sha256": "ff3d98c8cf8a3a6e512e23f8261aa0a25f661975f6ece306ab6798a8089cca93"}
+{"ts": "2026-10-12T06:31:19+00:00", "evenement": "erreur", "details": {"message": "diffusion sociale : <urlopen error [Errno 8] nodename nor servname provided, or not known>"}, "sha256": "e497f8baeb8c504c399fa30fcbcf914d2ce9e87d3baa3d2b476a973a1ac80c0f"}
+{"ts": "2026-10-12T06:31:19+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-12.json", "publications": 587}, "sha256": "f22cf07e4695670a6c5ba0306b1eae5729169e7d6faa63c9bce3a50885e726ad"}
+{"ts": "2026-10-12T06:31:19+00:00", "evenement": "bilan", "details": {"duree_s": 80439.8, "neufs": 40, "breves": 5, "articles": 1, "fichiers": 484}, "sha256": "7842fde579243eacf03235233b6b0190687d1a11370bc48e75945bf4c79d2762"}

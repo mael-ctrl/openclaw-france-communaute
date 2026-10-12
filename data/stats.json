@@ -1,41 +1,41 @@
 {
- "runs": 142,
- "items_collectes": 1204,
- "breves_publiees": 502,
- "articles_publies": 65,
- "tokens_entree": 470867,
- "tokens_sortie": 658132,
+ "runs": 143,
+ "items_collectes": 1244,
+ "breves_publiees": 507,
+ "articles_publies": 66,
+ "tokens_entree": 475930,
+ "tokens_sortie": 663353,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-11T05:11:18+00:00",
+ "dernier_run": "2026-10-12T03:26:22+00:00",
  "solde": {
-  "total": "86.66",
+  "total": "86.56",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
   {
-   "ts": "2026-10-09T07:11:10+00:00",
-   "message": "brève impossible ([Paper] EngramEdit: Decoupled Knowledge Updates in LLMs thro) : réponse non-JSON"
+   "ts": "2026-10-11T06:48:20+00:00",
+   "message": "archivage wayback : The read operation timed out"
   },
   {
-   "ts": "2026-10-10T15:09:55+00:00",
-   "message": "brève impossible (While everyone is building AI SAAS B2B services to get rich,) : [Errno 54] Connection reset by peer"
+   "ts": "2026-10-11T16:35:13+00:00",
+   "message": "brève impossible (v0.21.6+canary.20261011T070142Z) : [Errno 54] Connection reset by peer"
   },
   {
-   "ts": "2026-10-11T05:11:18+00:00",
-   "message": "article impossible : [Errno 54] Connection reset by peer"
-  },
-  {
-   "ts": "2026-10-11T05:24:58+00:00",
+   "ts": "2026-10-12T03:43:26+00:00",
    "message": "déploiement : [Errno 54] Connection reset by peer"
   },
   {
-   "ts": "2026-10-11T06:48:20+00:00",
-   "message": "archivage wayback : The read operation timed out"
+   "ts": "2026-10-12T03:54:57+00:00",
+   "message": "archivage wayback : <urlopen error [Errno 54] Connection reset by peer>"
+  },
+  {
+   "ts": "2026-10-12T06:31:19+00:00",
+   "message": "diffusion sociale : <urlopen error [Errno 8] nodename nor servname provided, or not known>"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.0,
+ "depense_usd": 5.1,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -588,12 +588,16 @@
   [
    "2026-10-10T08:59:07+00:00",
    "86.66"
+  ],
+  [
+   "2026-10-11T08:11:13+00:00",
+   "86.56"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.71,
+ "depense_mois_usd": 2.81,
  "archive_tentatives": {
-  "jour": "2026-10-11",
+  "jour": "2026-10-12",
   "n": 1
  },
  "derniere_archive": "2026-10-09"

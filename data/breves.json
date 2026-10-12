@@ -1,5 +1,132 @@
 [
  {
+  "id": "4b9d50d73ac1c1e0",
+  "slug": "hermes-agent-publie-la-release-candidate-rc-14-v0-21-7-4b9d50",
+  "titre": "Hermes Agent publie la release candidate rc.14-v0.21.7",
+  "resume": "Le dépôt hermes-agent de NousResearch a mis en ligne une version taguée rc.14-v0.21.7. Les métadonnées jointes à cette release mentionnent une quatorzième tentative, un autopublish désactivé et une référence de commit. La note ne précise pas le détail des changements apportés.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.14-v0.21.7",
+  "date_source": "2026-10-12T00:32:49+00:00",
+  "date_redac": "2026-10-12T01:13:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 677
+  }
+ },
+ {
+  "id": "864d88f310fcf78e",
+  "slug": "hermes-agent-une-release-candidate-0-21-7-abandonnee-sur-github-864d88",
+  "titre": "Hermes Agent : une release candidate 0.21.7 abandonnée sur GitHub",
+  "resume": "Le dépôt hermes-agent de NousResearch a tagué une release candidate abandonnée : abandoned-rc.13-v0.21.7, datée du 12 octobre 2026. Le champ attempt indique qu'il s'agit de la treizième tentative pour la version 0.21.7, et le tag précise que celle-ci n'a pas été retenue. Aucune note de version n'accompagne cette publication sur GitHub.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.13-v0.21.7",
+  "date_source": "2026-10-12T00:32:28+00:00",
+  "date_redac": "2026-10-12T01:13:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 621,
+   "sortie": 770
+  }
+ },
+ {
+  "id": "2e688ccb86f1cc28",
+  "slug": "opencode-2-0-26-l-agent-s-arrete-en-pleine-tache-et-reclame-un-continu-2e688c",
+  "titre": "OpenCode 2.0.26 : l'agent s'arrête en pleine tâche et réclame un « continue »",
+  "resume": "Un utilisateur passé à OpenCode 2.0.26 rapporte que ses bots s'interrompent au milieu du travail : l'agent annonce « Great, I'll implement that », puis attend un « Yes, go ahead » pour reprendre. Même scénario après un « Fixing the test: », ce qui oblige à relancer la conversation en boucle. Le titre original précise que le phénomène ne semble pas propre à un seul bot.",
+  "tags": [
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x3n8ex/opencode_2026_is_out_if_you_need_to_constantly/",
+  "date_source": "2026-10-11T23:56:26+00:00",
+  "date_redac": "2026-10-12T01:13:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 718,
+   "sortie": 591
+  }
+ },
+ {
+  "id": "87ab8380aff13de5",
+  "slug": "openclaw-corrige-la-recuperation-des-journaux-sqlite-sous-windows-87ab83",
+  "titre": "OpenClaw corrige la récupération des journaux SQLite sous Windows",
+  "resume": "OpenClaw publie un correctif qui fait respecter les permissions Windows lors de la récupération des instantanés SQLite. La mise à jour permet de récupérer les journaux de rollback SQLite sur Windows. Côté documentation, le périmètre immuable de la récupération reste inchangé.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F99d262df8760-1791761551",
+  "date_source": "2026-10-11T23:31:56+00:00",
+  "date_redac": "2026-10-12T01:13:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 637,
+   "sortie": 335
+  }
+ },
+ {
+  "id": "72f163c251ab6d9f",
+  "slug": "un-developpeur-reconstruit-en-open-source-le-serveur-d-inference-megac-72f163",
+  "titre": "Un développeur reconstruit en open source le serveur d'inférence MegaCapybara",
+  "resume": "Dans la communauté open source LocalLLaMA, un utilisateur a publié un binaire sans code source en demandant de lui faire confiance pour l'exécuter en local, se disant le plus rapide sans avoir le temps de partager ses sources. Le développeur giveen répond avec Decapybara, une reconstruction en C++20 et CUDA du serveur d'inférence MegaCapybara, publiée sur GitHub.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x3mikv/github_giveendecapybara_opensource_c20_and_cuda/",
+  "date_source": "2026-10-11T23:20:49+00:00",
+  "date_redac": "2026-10-12T01:13:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 689,
+   "sortie": 494
+  }
+ },
+ {
+  "id": "113aa0f637ede9ae",
+  "slug": "auroraimg-6m-un-modele-texte-image-de-6-millions-de-parametres-113aa0",
+  "titre": "AuroraIMG-6M : un modèle texte-image de 6 millions de paramètres",
+  "resume": "Un nouveau modèle texte-image, AuroraIMG-6M, est publié sur r/LocalLLaMA. Avec seulement 6 millions de paramètres, il produit des images reconnaissables en 64x64. Ce total couvre l'ensemble du modèle : pas d'encodeur de texte ni de VAE surdimensionné. La carte du modèle fournit des exemples, une explication détaillée de l'architecture et de l'entraînement, ainsi qu'un guide de démarrage.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x3lzmk/auroraimg6m_releases/",
+  "date_source": "2026-10-11T22:56:03+00:00",
+  "date_redac": "2026-10-12T01:13:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 675,
+   "sortie": 606
+  }
+ },
+ {
   "id": "fa57b83021a41587",
   "slug": "qwen-3-8-flash-next-en-local-sur-une-amd-7900-xtx-avec-500k-de-context-fa57b8",
   "titre": "Qwen 3.8 Flash-Next en local sur une AMD 7900 XTX, avec 500k de contexte",

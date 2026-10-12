@@ -1308,3 +1308,9 @@
 {"ts": "2026-10-12T09:04:37+00:00", "evenement": "deploiement", "details": {"fichiers": 566, "octets": 8889249}, "sha256": "89a17e9ca443b7dc936f60e20385df83a5b526eefbaafba293f2a7c5bcf71e01"}
 {"ts": "2026-10-12T09:04:37+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "c3a918df84e003e0b047066f339a4b893b44e0cbd68a7cbb251fff7cf84a99f6"}
 {"ts": "2026-10-12T09:04:37+00:00", "evenement": "bilan", "details": {"duree_s": 574.4, "neufs": 3, "breves": 2, "articles": 1, "fichiers": 554, "envois": 566, "publications": 0}, "sha256": "3060d3f93b25f2b6bf733e7c225f80bdf5b50c75f33042918b12143700cda09f"}
+{"ts": "2026-10-12T09:46:52+00:00", "evenement": "collecte", "details": {"neufs": 4}, "sha256": "f6566fa102f6eb04a05ee487901afe5cbb00c45ee0ff3ea81537e052b7bbd1e4"}
+{"ts": "2026-10-12T09:47:16+00:00", "evenement": "erreur", "details": {"message": "brève impossible (I made an open-source AI leaderboard that shows the best mod) : réponse non-JSON"}, "sha256": "e15201c4845758dd75f748a4241bf63fc07f5e1f7692cdd356ef1db75759c6fb"}
+{"ts": "2026-10-12T09:47:36+00:00", "evenement": "construction", "details": {"fichiers": 555}, "sha256": "e97431b307b9f4e756fd7aa32ff2794814d317ad2a0883dbbf9a236c2a550a21"}
+{"ts": "2026-10-12T10:00:51+00:00", "evenement": "deploiement", "details": {"fichiers": 567, "octets": 8909378}, "sha256": "b0a70394c048677a2c6c6ec27b86cb2c522af624033ba82521c92115af2a5cac"}
+{"ts": "2026-10-12T10:00:52+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "67b492a7aa655fa53411ef4954181610b8a104c91772d87defd066db4195e9db"}
+{"ts": "2026-10-12T10:00:52+00:00", "evenement": "bilan", "details": {"duree_s": 852.4, "neufs": 4, "breves": 3, "articles": 1, "fichiers": 555, "envois": 567, "publications": 0}, "sha256": "b6aa114131b3bbef8411f37bc88b9e407a035af1177f409f1cc289d22b7ff582"}

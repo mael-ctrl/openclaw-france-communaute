@@ -1,5 +1,67 @@
 [
  {
+  "id": "b0ec1704a99eeef7",
+  "slug": "un-utilisateur-cherche-la-doc-pour-compiler-strata-depuis-les-sources-b0ec17",
+  "titre": "Un utilisateur cherche la doc pour compiler strata depuis les sources",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande où se trouve la documentation permettant de compiler strata depuis les sources. Il affirme ne rien trouver dans les docs existantes et reproche au script setup.sh de surtout télécharger un gros binaire non audité, qu'il refuse de lancer sur sa machine. Il précise ne pas vouloir confier cette recherche à un LLM et sollicite directement la communauté open source.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x3xkpy/building_strata_from_source/",
+  "date_source": "2026-10-12T09:43:03+00:00",
+  "date_redac": "2026-10-12T09:46:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 712,
+   "sortie": 503
+  }
+ },
+ {
+  "id": "0a75d01cf631a73c",
+  "slug": "google-preparerait-un-nouveau-tv-streamer-avec-micros-integres-0a75d0",
+  "titre": "Google préparerait un nouveau TV Streamer avec micros intégrés",
+  "resume": "Google préparerait une nouvelle version de son Google TV Streamer. Selon une fuite, le boîtier embarquerait des microphones intégrés, une puce plus rapide et une fonction de détection de présence. Cette fuite intervient juste après une forte hausse de prix du modèle actuel.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/nouveau-google-tv-streame-preparation-avec-3-nouveautes.html",
+  "date_source": "2026-10-12T09:25:21+00:00",
+  "date_redac": "2026-10-12T09:46:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 654,
+   "sortie": 410
+  }
+ },
+ {
+  "id": "25d61afbd0559570",
+  "slug": "karpathy-decrit-le-fosse-entre-l-ia-vue-par-le-public-et-celle-des-lab-25d61a",
+  "titre": "Karpathy décrit le fossé entre l'IA vue par le public et celle des laboratoires",
+  "resume": "Dans un message publié sur X, le chercheur Andrej Karpathy décrit le fossé qui se crée dans la perception des capacités de l'IA. L'immense majorité de l'humanité voit encore un chatbot parfois maladroit, alors que quelques milliers de personnes ayant accès aux systèmes internes des laboratoires voient déjà des agents capables de mener des cyberattaques.",
+  "tags": [
+   "agents",
+   "recherche",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2351069-le-vertige-face-a-une-courbe-qui-semballe-andrej-karpathy-decrit-lia-que-9999-de-lhumanite-na-jamais-vue.html",
+  "date_source": "2026-10-12T09:15:00+00:00",
+  "date_redac": "2026-10-12T09:47:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 745,
+   "sortie": 1021
+  }
+ },
+ {
   "id": "f01b30ef2049ffed",
   "slug": "google-traduction-une-ia-reperee-pour-reformuler-les-phrases-dictees-a-f01b30",
   "titre": "Google Traduction : une IA repérée pour reformuler les phrases dictées à l'oral",

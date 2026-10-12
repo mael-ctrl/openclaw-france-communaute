@@ -273,6 +273,8 @@ Format : `AAAA-MM-JJ | plateforme | action | URL du post | statut | retours`
 
 - `2026-10-12 | Contrôle de distribution — mission démarrée le 10/10 | Aucune distribution supplémentaire : quota du jour déjà consommé par la promotion Bluesky du catalogue Hermes | Aucun nouveau lien public | ⏸️ Aucun envoi | Journal resynchronisé à la reprise ; post du 12/10 relu dans l’AppView public (URI, CID et carte conformes). Aucun message, formulaire soumis, compte créé, publication ou paiement par cette mission ; blocages JDH/LinuxFr/Uneed inchangés lors des contrôles.`
 
+- `2026-10-12 | Contrôle de distribution — mission planifiée de 11h20 CEST | Aucune action éligible : créneau quotidien déjà consommé par le post Bluesky du catalogue Hermes | Aucun nouveau lien public | ⏸️ Aucun envoi | Plan et journal relus après git pull --no-rebase ; post 3mxnw4jcu2dd2 relu dans l’AppView public à 11h22 CEST (HTTP 200, URI, CID, date et carte conformes). Aucun message, formulaire soumis, compte créé, publication ou paiement ; pas de relance des plateformes. Bureau inaccessible à Git et clone cron partagé en conflits : laissés intacts, journalisation seule dans un clone GitHub isolé hors Bureau.`
+
 ### Contrôle de la mission démarrée le 10/10, clôturée le 12/10 (lecture seule)
 
 - L’horloge locale indiquait le 10/10 à 12:02 CEST au démarrage, puis le 12/10 à 08:48 CEST à la reprise. Le journal a été resynchronisé avant toute écriture externe : la publication Bluesky du 12/10 à 06:43:43 UTC occupait déjà l’unique créneau quotidien. Son URI, son CID et sa carte vers `/hermes/#fichiers` ont été vérifiés par `app.bsky.feed.getPosts` public (HTTP 200). Aucune action de distribution de rattrapage ni seconde promotion effectuée.

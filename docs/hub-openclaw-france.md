@@ -221,6 +221,37 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   Prochaine priorité sur le hub : vérifier les prérequis des kits face aux
   documentations officielles ; Uneed reste en attente d’un accès sécurisé.
 
+## Prérequis Hermes visibles avant téléchargement — livraison du 12/10/2026
+
+- **Une amélioration** : `/hermes/#prerequis`, avec un lien avant le bouton ZIP.
+  Systèmes et outils nécessaires, distinction Bash/WSL2 et Windows natif, lien
+  vers la méthode officielle Windows, dépendances système possibles sous Linux.
+  Sources officielles installation et matrice des plateformes relues le 12/10.
+- **CONTRADICTOIRE — Mac Intel** : le guide officiel d’installation le déclare
+  non pris en charge, tandis que la matrice décrit encore CLI et bundles Intel
+  conditionnels. La page montre cette réserve et signale les indications plus
+  anciennes du kit, sans inventer une garantie ou interdire une méthode sur la
+  base d’une seule source. Aucun script ni fichier des kits modifié ; aucune
+  installation réelle sur ces plateformes prétendue.
+- Les **3 nouveaux tests** reproduisent le manque avant ajout, puis passent ;
+  suite complète **49 tests OK**. Les 3 passent aussi sur le HTML public et la
+  section publiée est identique à la source. Chrome sans JavaScript : ancre et
+  FAQ au clavier, styles et absence de débordement vérifiés à **1440, 1024,
+  430, 390, 375 et 360 px** localement, puis **1440, 390 et 360 px** en production.
+- Déploiement par `python3 outils/deployer_openclaw.py` depuis le clone cron
+  hors Bureau `~/.hermes/workspaces/hub-openclaw-20261003` ; clone partagé en
+  conflit laissé intact. Sauvegarde privée et comparaison production/Git avant
+  envoi : aucune divergence. **35 fichiers relus via FTP**, identiques aux
+  sources. Dates/modes des fichiers de kits restaurés avant régénération :
+  les deux ZIP restent intègres et inchangés octet pour octet, y compris en HTTPS.
+- Santé : **HTTP 200 pour les six URL demandées**, le sitemap et la clé.
+  Sitemap actualisé pour Hermes uniquement ; **IndexNow HTTP 200** pour cette
+  page. Notification acceptée, aucune indexation ni hausse de trafic prétendue.
+- **Aucune distribution supplémentaire** : le post Bluesky de 06:43 UTC,
+  consigné dans `docs/distribution-textes.md`, occupe déjà le quota du jour et
+  celui de Bluesky cette semaine. Prochaine priorité : contrôler les prérequis
+  OpenClaw ; suivre les retours du post existant sans republier.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

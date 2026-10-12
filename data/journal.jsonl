@@ -1335,3 +1335,10 @@
 {"ts": "2026-10-12T13:15:30+00:00", "evenement": "deploiement", "details": {"fichiers": 571, "octets": 8971738}, "sha256": "00ca65ca0f42e4d0a53c7998d9a8537da7902f1928ecf14ffe4bab24c8b8ba81"}
 {"ts": "2026-10-12T13:15:35+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "c0e6821745d51dcc37960da7e229babae0e4230e146da2f001125e278de3e1b4"}
 {"ts": "2026-10-12T13:15:35+00:00", "evenement": "bilan", "details": {"duree_s": 769.0, "neufs": 6, "breves": 6, "articles": 1, "fichiers": 558, "envois": 571, "publications": 0}, "sha256": "b12816b295051d1e818ca485d4570e18b0259af0b8629f077a4b0cc3cb1615d9"}
+{"ts": "2026-10-12T14:05:00+00:00", "evenement": "collecte", "details": {"neufs": 9}, "sha256": "7b2e2e1d87cd1b5cc48b78b0679d81275037c63fbfe624b7afe3a67b3ff1d77c"}
+{"ts": "2026-10-12T14:05:29+00:00", "evenement": "erreur", "details": {"message": "brève impossible (graphsignal-top: a `top` for inference GPUs in the open-sour) : réponse non-JSON"}, "sha256": "05c0347a71726cdf8d6c761a887a2bc2df9627314c5300ba8b2ad8bed0e861e4"}
+{"ts": "2026-10-12T14:05:44+00:00", "evenement": "erreur", "details": {"message": "brève impossible (BrokenML: can agents fix broken ML jobs?) : réponse non-JSON"}, "sha256": "d60872cbd14b93721c3936dc1105c6f1542c60095bb665429dbdfbc25ca26104"}
+{"ts": "2026-10-12T14:06:18+00:00", "evenement": "construction", "details": {"fichiers": 559}, "sha256": "eab2db1fa50977548326b3b4174315303e075e1e509954640ebeef68ad37ccde"}
+{"ts": "2026-10-12T14:15:23+00:00", "evenement": "deploiement", "details": {"fichiers": 572, "octets": 8987300}, "sha256": "996facfb9e34ba214765fb05b4fb907ed2f618c4a4e922188cde7cc637060a8f"}
+{"ts": "2026-10-12T14:15:23+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "10c9b1911c8c4ba81f66ffbd4e42b38c93b1b58ad815fad85bd16bfba4d31389"}
+{"ts": "2026-10-12T14:15:23+00:00", "evenement": "bilan", "details": {"duree_s": 638.6, "neufs": 9, "breves": 4, "articles": 1, "fichiers": 559, "envois": 572, "publications": 0}, "sha256": "b583c9b326c1c7ebc87e238dc8c81e58062aa5ab951bdc9f905a1135b58c46b4"}

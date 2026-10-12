@@ -252,8 +252,41 @@ def page_skills():
                 contenu, "/skills/", section="skills")
 
 
+def extraits_pack():
+    """Trois extraits du JSON effectivement livré, sans copie éditoriale parallèle."""
+    livrable = construction._lire_json(
+        config.DOSSIER_PRIVE / "dl" / "pack-du-crabe-100-prompts.json", [])
+    if not isinstance(livrable, list):
+        return ""
+    ids = (5, 13, 61)
+    par_id = {p["id"]: p for p in livrable
+              if isinstance(p, dict) and p.get("id") in ids}
+    if any(ident not in par_id or any(not isinstance(par_id[ident].get(cle), str)
+                                     or not par_id[ident][cle].strip()
+                                     for cle in ("titre", "categorie", "prompt"))
+           for ident in ids):
+        return ""
+    extraits = ""
+    for ident in ids:
+        p = par_id[ident]
+        extraits += f"""<details class="extrait-pack" data-prompt-id="{ident}">
+        <summary style="cursor: pointer; padding: .8rem 0;"><strong>{ech(p['titre'])}</strong></summary>
+        <p class="petit-texte">{ech(p['categorie'])} · Prompt {ident} du pack</p>
+        <pre style="white-space: pre-wrap; overflow-wrap: anywhere; font: inherit;">{ech(p['prompt'])}</pre>
+      </details>"""
+    return f"""<section aria-labelledby="extraits-pack">
+      <h2 id="extraits-pack">3 prompts à essayer avant d’acheter</h2>
+      <p>Voici trois prompts complets du pack, accessibles gratuitement et sans inscription.
+      Ouvre un titre, copie le texte dans ton assistant IA et teste-le sur ton propre cas.
+      Remplace les champs entre crochets par tes informations, sans données confidentielles.</p>
+      {extraits}
+      <p class="petit-texte">Vérifie les réponses : ces prompts guident l’IA, ils ne garantissent pas
+      un résultat. L’utilisation de ton assistant peut entraîner ses propres frais.</p>
+    </section>"""
+
+
 def page_pack():
-    contenu = """
+    contenu = f"""
 <section class="section section-lecture">
   <div class="enveloppe etroit">
     <p class="oeil">// LA SEULE CHOSE QUE JE VENDS</p>
@@ -269,6 +302,7 @@ def page_pack():
         <li>10 catégories × 10 prompts, chacun avec un exemple d'usage concret ;</li>
         <li>Aucune dépendance, aucun abonnement, aucune mise à jour payante.</li>
       </ul>
+      {extraits_pack()}
       <h2>Combien</h2>
       <p><strong>14 €</strong>, une fois, pour toujours. Paiement sécurisé par Stripe (carte bancaire).
       Après paiement, téléchargement immédiat — pas de compte à créer.</p>

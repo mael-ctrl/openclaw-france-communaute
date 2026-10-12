@@ -1,5 +1,110 @@
 [
  {
+  "id": "cba4f1734f4975c5",
+  "slug": "qwen3-8-27b-face-aux-modeles-de-frontiere-un-test-maison-sur-le-code-e-cba4f1",
+  "titre": "Qwen3.8-27B face aux modèles de frontière : un test maison sur le code et la data",
+  "resume": "Un utilisateur de r/LocalLLaMA publie les résultats de son test final comparant Qwen3.8-27B aux modèles de frontière sur le code, pandas/numpy, l'analyse de données et le RAG local. Affiné à partir de plus de 500 épreuves, il ne garde que les exercices qui différencient vraiment les modèles. Verdict : le travail produit en local doit être relu par Claude ou GPT. Les modèles d'OpenRouter ne déclarent pas toujours leur quantification.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x49pmn/qwen3827b_vs_frontier_vs_others/",
+  "date_source": "2026-10-12T18:26:32+00:00",
+  "date_redac": "2026-10-12T18:50:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 829,
+   "sortie": 1302
+  }
+ },
+ {
+  "id": "0bea742445b52119",
+  "slug": "python-3-15-arrive-avec-les-imports-paresseux-explicites-du-pep-810-0bea74",
+  "titre": "Python 3.15 arrive, avec les imports paresseux explicites du PEP 810",
+  "resume": "Python 3.15 est disponible, avec un guide « What's new » coordonné par Hugo van Kemenade, release manager des versions 3.14 et 3.15. Simon Willison retient surtout les imports paresseux explicites du PEP 810, qui ne chargent un module qu'à la première utilisation de ses symboles. Il cite son outil LLM CLI, où des plugins lourds comme sentence_transformers ajoutaient plusieurs secondes à chaque appel.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+  "date_source": "2026-10-12T18:15:38+00:00",
+  "date_redac": "2026-10-12T18:50:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 787,
+   "sortie": 973
+  }
+ },
+ {
+  "id": "3f0fcf659e249234",
+  "slug": "minicpm-v-4-7-une-variante-1b-pour-la-vision-sur-appareil-3f0fcf",
+  "titre": "MiniCPM-V 4.7 : une variante 1B pour la vision sur appareil",
+  "resume": "OpenBMB publie MiniCPM-V 4.7, dernier modèle de sa série vision-langage, dans une variante 1B également proposée en GGUF. Elle conserve la compréhension d'images isolées, multiples et de vidéos, avec un encodage visuel efficace pensé pour l'inférence sur appareil. En mode Instruct, cette version 1B améliore les capacités de base par rapport à MiniCPM-V 4.6, déplaçant la frontière performance-efficacité des modèles multimodaux.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x492f9/openbmbminicpmv471b/",
+  "date_source": "2026-10-12T18:03:02+00:00",
+  "date_redac": "2026-10-12T18:50:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 807,
+   "sortie": 942
+  }
+ },
+ {
+  "id": "2eeee5e3373b5c10",
+  "slug": "meta-presente-muse-wonder-deux-modeles-pour-agents-et-se-dit-au-niveau-2eeee5",
+  "titre": "Meta présente Muse Wonder, deux modèles pour agents, et se dit au niveau d'OpenAI",
+  "resume": "Meta a présenté ce lundi Muse Wonder et Muse Wonder Full, deux modèles d'IA conçus pour les agents, qu'il dit au niveau des meilleurs d'OpenAI et d'Anthropic. Le premier classement indépendant nuance cette prétention : il place la version Full deuxième, juste derrière Claude Opus 5.5.",
+  "tags": [
+   "meta",
+   "agents",
+   "openai",
+   "claude"
+  ],
+  "importance": 4,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/meta/3282445_meta-annonce-muse-wonder-et-dit-avoir-rattrape-les-meilleurs-en-ia-le-premier-test-independant-nuance",
+  "date_source": "2026-10-12T17:59:38+00:00",
+  "date_redac": "2026-10-12T18:50:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 694,
+   "sortie": 458
+  }
+ },
+ {
+  "id": "ff523ad91d4a650b",
+  "slug": "meta-lance-muse-wonder-son-premier-modele-frontiere-ff523a",
+  "titre": "Meta lance Muse Wonder, son premier modèle frontière",
+  "resume": "Meta publie Muse Wonder, présenté comme son premier modèle frontière. Là où Muse Spark visait un modèle léger capable de fonctionner à faible latence, les modèles Wonder sont plus grands et annoncés comme plus capables. Ils obtiennent de meilleurs scores sur les benchmarks et de meilleurs résultats sur des tâches complexes comme le code.",
+  "tags": [
+   "meta",
+   "recherche",
+   "dev"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+  "date_source": "2026-10-12T17:56:56+00:00",
+  "date_redac": "2026-10-12T18:50:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 629,
+   "sortie": 367
+  }
+ },
+ {
   "id": "955f4603d3924e1b",
   "slug": "windborne-decroche-un-contrat-militaire-de-pres-de-50-m-avec-l-us-air--955f46",
   "titre": "WindBorne décroche un contrat militaire de près de 50 M$ avec l'US Air Force",
@@ -102,6 +207,26 @@
    "modele": "deepseek-flash",
    "entree": 672,
    "sortie": 439
+  }
+ },
+ {
+  "id": "08c55be89ac22a16",
+  "slug": "honeyjar-propose-des-outils-ia-pour-la-communication-et-les-relations--08c55b",
+  "titre": "Honeyjar propose des outils IA pour la communication et les relations presse",
+  "resume": "Honeyjar propose des outils d'IA destinés à améliorer les relations presse et la communication en entreprise. Le constat de départ est connu : journalistes, entrepreneurs et même certains professionnels du secteur jugent le processus de relations presse cassé. La question posée est de savoir si l'IA peut réellement y remédier.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+  "date_source": "2026-10-12T15:45:00+00:00",
+  "date_redac": "2026-10-12T18:50:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 629,
+   "sortie": 739
   }
  },
  {

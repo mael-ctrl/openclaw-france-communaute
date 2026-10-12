@@ -834,3 +834,10 @@
 {"ts": "2026-10-12T06:31:19+00:00", "evenement": "erreur", "details": {"message": "diffusion sociale : <urlopen error [Errno 8] nodename nor servname provided, or not known>"}, "sha256": "e497f8baeb8c504c399fa30fcbcf914d2ce9e87d3baa3d2b476a973a1ac80c0f"}
 {"ts": "2026-10-12T06:31:19+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-12.json", "publications": 587}, "sha256": "f22cf07e4695670a6c5ba0306b1eae5729169e7d6faa63c9bce3a50885e726ad"}
 {"ts": "2026-10-12T06:31:19+00:00", "evenement": "bilan", "details": {"duree_s": 80439.8, "neufs": 40, "breves": 5, "articles": 1, "fichiers": 484}, "sha256": "7842fde579243eacf03235233b6b0190687d1a11370bc48e75945bf4c79d2762"}
+{"ts": "2026-10-12T07:11:14+00:00", "evenement": "collecte", "details": {"neufs": 40}, "sha256": "440a9a4ee1f77f0157963dab028e98a1f9d07192b490a26ca1287822339e7acb"}
+{"ts": "2026-10-12T07:11:45+00:00", "evenement": "construction", "details": {"fichiers": 484}, "sha256": "4dfce96a3c464a67c092758aaaa0bec29411a8274455f28acb1cf7012af89a7a"}
+{"ts": "2026-10-12T07:13:33+00:00", "evenement": "deploiement", "details": {"fichiers": 496, "octets": 5864071}, "sha256": "840fbdbad504032c2e568dfcfd124d3eea809e8e7c01c164fb1e742645df72d0"}
+{"ts": "2026-10-12T07:13:34+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "1ab1a7eba74abc09fc9e61e80f0886f20bcf051d469e27dbb1223c7b7d326900"}
+{"ts": "2026-10-12T07:14:01+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 2}, "sha256": "366809218ed8c1d356f6223f5f82d2d8887509c147f542444783a8d4d5bca8a6"}
+{"ts": "2026-10-12T07:14:11+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "a3fbcd735e4dfd979ecd803e67ee95558edbe83cf60e634997b8641c60e01393"}
+{"ts": "2026-10-12T07:14:11+00:00", "evenement": "bilan", "details": {"duree_s": 188.4, "neufs": 40, "breves": 6, "articles": 0, "fichiers": 484, "envois": 496, "publications": 4}, "sha256": "857e33859f3228a23471fd6a1ded051a25ea1aff3f30eef8b59edbddf4341e1e"}

@@ -1,0 +1,41 @@
+{
+ "slug": "microsoft-maitre-de-son-calcul-puces-maia-copilot-et-le-frei-b8f7fa",
+ "titre": "Microsoft, maître de son calcul : puces Maia, Copilot et le frein d'urgence",
+ "chapo": "D'un côté, des puces maison que Microsoft veut déployer à l'échelle du gigawatt d'ici 2027 ; de l'autre, un Copilot qui absorbe Word, Excel et PowerPoint. Entre les deux, Satya Nadella réclame un « frein d'urgence » pour les modèles d'IA.",
+ "html": "<h2 id=\"maia-300-ou-l-ambition-du-gigawatt\">Maia 300, ou l'ambition du gigawatt</h2>\n<p>Microsoft ne veut pas seulement vendre des logiciels et des services d'IA : la firme veut maîtriser une part croissante des puces et des infrastructures qui font tourner ses modèles. Pour cela, elle prévoit de porter ses déploiements d'accélérateurs maison Azure Maia à <strong>plusieurs gigawatts dès 2027</strong>. Maia 300 est présentée comme la prochaine étape clé de cette stratégie.</p>\n<p>Trois objectifs sont mis en avant : gagner en efficacité, sécuriser ses capacités de calcul et desserrer l'étau Nvidia. La formulation est révélatrice : il s'agit de reprendre la main sur le coût de l'IA non pas au niveau des applications, mais à celui du silicium et des centres de données.</p>\n<h2 id=\"copilot-avale-la-suite-bureautique\">Copilot avale la suite bureautique</h2>\n<p>Deuxième étage de la fusée : l'interface. La nouvelle application Copilot de Microsoft va embarquer l'ensemble des fonctionnalités de <strong>Word, Excel et PowerPoint</strong>. Les utilisateurs de l'assistant pourront ainsi concevoir et ajuster leurs documents grâce à l'IA, depuis Copilot.</p>\n<p>La frontière entre l'assistant et la suite bureautique s'efface donc un peu plus. Les deux dépêches décrivent la même trajectoire à deux niveaux : Microsoft consolide en parallèle la couche matérielle de son offre d'IA et la couche logicielle qui la rend visible à ses clients.</p>\n<h2 id=\"un-frein-d-urgence-et-des-modeles-qui-bo\">Un « frein d'urgence », et des modèles qui bougent</h2>\n<p>Satya Nadella, PDG de Microsoft, a publié un billet un samedi matin pour appeler à « prendre du recul et évaluer l'architecture de confiance » de l'IA. Il y écrit que les modèles ont besoin d'un « <strong>frein d'urgence</strong> ». La prise de parole d'un des principaux acteurs du secteur intervient alors que la question de la confiance accordée aux systèmes d'IA est de plus en plus discutée.</p>\n<p>Dans le même temps, la course ne ralentit pas. Mistral AI signe son retour avec <strong>Mistral Large 4</strong>, son premier modèle depuis de longs mois, et se repositionne dans les classements. OpenAI a de son côté impressionné le monde scientifique avec 772 manuscrits mathématiques. Orange a dévoilé son premier décodeur « home cinéma ».</p>\n<h2 id=\"21b-de-parametres-sur-un-seul-gh200\">21B de paramètres sur un seul GH200</h2>\n<p>À l'opposé des gigawatts, un chercheur indépendant documente l'inverse : faire beaucoup avec très peu. Contraint par son budget, il a déplacé le pré-entraînement de son MoE de 21B — initialement prévu sur 64 H100 — vers <strong>un seul GPU NVIDIA GH200</strong>, loué 2,29 $ l'heure.</p>\n<p>Il a compilé dans un papier les métriques relevées à chaque étape, avec le code et les logs. Le MFU passe ainsi de 21,1 % à 50,7 %. Le modèle compte 20,99B de paramètres, dont 3,36B actifs, et les 238,5 GiB de données d'entraînement en FP32 restent en mémoire CPU, mises à jour directement par le GPU via NVLink-C2C.</p>\n<h2>Et maintenant ?</h2>\n<p>Les deux extrémités du spectre cohabitent dans l'actualité : Microsoft, qui veut aligner des gigawatts de calcul maison et fondre sa suite bureautique dans son assistant, face à un chercheur seul qui publie comment il a fait passer son MFU de 21 % à 50 % sur une machine louée à l'heure. Entre les deux, Mistral revient dans les classements, OpenAI avance sur le terrain mathématique et Nadella demande un frein d'urgence. Coût et confiance progressent ensemble, sans arbitrage visible pour l'instant.</p>",
+ "pivot": "b8f7fac6fc5e53bb",
+ "tags": [
+  "matériel",
+  "business",
+  "sécurité",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/microsoft/avec-sa-puce-maia-300-microsoft-veut-reprendre-la-main-sur-le-cout-de-lia-et-desserrer-letau-nvidia.FK3CDM7OINCT5LTZ2KN3WV6CAE.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/microsoft-integre-les-applis-office-directement-dans-copilot.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2350633-percees-mathematiques-dopenai-modele-mistral-large-4-et-orange-home-cinema-le-recap-tech-de-la-semaine.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x411cv/a_record_of_the_process_of_increasing_mfu_from_21/"
+  }
+ ],
+ "date": "2026-10-12T13:04:05+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1633,
+  "sortie": 4823
+ }
+}

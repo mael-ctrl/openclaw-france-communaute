@@ -1,5 +1,129 @@
 [
  {
+  "id": "5dea68c522a103ee",
+  "slug": "google-lance-le-fitbit-edge-un-bracelet-sante-dope-a-l-ia-sous-180-dol-5dea68",
+  "titre": "Google lance le Fitbit Edge, un bracelet santé dopé à l'IA sous 180 dollars",
+  "resume": "Google officialise le Fitbit Edge, un bracelet connecté axé sur le suivi santé et sportif, dopé à l'intelligence artificielle. Affiché sous la barre des 180 dollars, il se place entre la Pixel Watch et le traqueur d'activité. Le constructeur fait néanmoins quelques concessions notables sur les fonctionnalités connectées du quotidien.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/fibtbit-edge-google-lancement.html",
+  "date_source": "2026-10-12T13:00:24+00:00",
+  "date_redac": "2026-10-12T13:03:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 672,
+   "sortie": 533
+  }
+ },
+ {
+  "id": "b8f7fac6fc5e53bb",
+  "slug": "microsoft-veut-porter-ses-puces-maia-a-plusieurs-gigawatts-des-2027-b8f7fa",
+  "titre": "Microsoft veut porter ses puces Maia à plusieurs gigawatts dès 2027",
+  "resume": "Microsoft veut maîtriser une part croissante des puces et infrastructures de l'IA, pas seulement ses logiciels et services. La firme prévoit de porter ses déploiements d'accélérateurs maison Azure Maia à plusieurs gigawatts dès 2027, Maia 300 étant la prochaine étape clé de cette stratégie. Objectif : gagner en efficacité, sécuriser ses capacités de calcul et desserrer l'étau Nvidia.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 4,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/big-tech/microsoft/avec-sa-puce-maia-300-microsoft-veut-reprendre-la-main-sur-le-cout-de-lia-et-desserrer-letau-nvidia.FK3CDM7OINCT5LTZ2KN3WV6CAE.html",
+  "date_source": "2026-10-12T13:00:00+00:00",
+  "date_redac": "2026-10-12T13:03:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 809,
+   "sortie": 1162
+  }
+ },
+ {
+  "id": "88576b009f474589",
+  "slug": "un-plugin-vllm-pour-obtenir-des-embeddings-multimodaux-d-un-llm-deja-s-88576b",
+  "titre": "Un plugin vLLM pour obtenir des embeddings multimodaux d'un LLM déjà servi",
+  "resume": "Un développeur de NuMind propose un plugin vLLM qui expose le dernier état caché d'un LLM déjà servi, via l'API de chat compatible OpenAI. L'idée : le modèle calcule déjà ces représentations internes pour prédire le premier token de sortie, il suffit de les rendre accessibles. Une PR upstream est également en cours, et le travail s'appuie notamment sur les papiers E5-V, PromptEOL et PromptReps.",
+  "tags": [
+   "dev",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x416s0/a_free_multimodal_embedding_model_already/",
+  "date_source": "2026-10-12T12:59:09+00:00",
+  "date_redac": "2026-10-12T13:03:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 817,
+   "sortie": 725
+  }
+ },
+ {
+  "id": "6fe9f247871c54fc",
+  "slug": "llc-l-alternative-legere-a-open-webui-ajoute-agents-mcp-et-rag-6fe9f2",
+  "titre": "LLC, l'alternative légère à Open WebUI, ajoute agents, MCP et RAG",
+  "resume": "LocalLightChat (LLC) est un frontend de chat pour modèles locaux : on le télécharge, on le lance, sans installation ni dépendances, même sur du matériel ancien. Son auteur l'a créé parce qu'Open WebUI lui semblait plus lourd que les modèles qu'il faisait tourner. Les agents, MCP et RAG, qui manquaient, sont désormais intégrés : système agentique économe en tokens, RAG compatible Qwen3, édition d'images via ComfyUI.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x415dd/llc_lightweight_open_webui_alt_now_with/",
+  "date_source": "2026-10-12T12:57:20+00:00",
+  "date_redac": "2026-10-12T13:03:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 829,
+   "sortie": 902
+  }
+ },
+ {
+  "id": "8af8e94ebcebac13",
+  "slug": "pre-entrainer-un-moe-de-21b-sur-un-seul-gh200-mfu-porte-de-21-a-50-8af8e9",
+  "titre": "Pré-entraîner un MoE de 21B sur un seul GH200 : MFU porté de 21 % à 50 %",
+  "resume": "Un chercheur indépendant, contraint par son budget, a déplacé le pré-entraînement de son MoE de 21B — initialement prévu sur 64 H100 — vers un seul GPU NVIDIA GH200 loué 2,29 $ l'heure. Il a compilé dans un papier les métriques relevées à chaque étape, avec le code et les logs. Le MFU passe ainsi de 21,1 % à 50,7 %, le modèle comptant 20,99B de paramètres dont 3,36B actifs, et les 238,5 GiB de données d'entraînement FP32 restant en mémoire CPU, mises à jour directement par le GPU via NVLink-C2C.",
+  "tags": [
+   "recherche",
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x411cv/a_record_of_the_process_of_increasing_mfu_from_21/",
+  "date_source": "2026-10-12T12:52:10+00:00",
+  "date_redac": "2026-10-12T13:03:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 876,
+   "sortie": 901
+  }
+ },
+ {
+  "id": "657267a18e4d9fe8",
+  "slug": "un-ancien-cadre-de-plaud-leve-26-m-pour-ambi-app-ia-d-ecoute-en-contin-657267",
+  "titre": "Un ancien cadre de Plaud lève 26 M$ pour Ambi, app IA d'écoute en continu",
+  "resume": "Ambi, application d'IA qui écoute en arrière-plan, lève 26 millions de dollars. Le projet est porté par un ancien cadre de Plaud. La société lance des applications pour iPhone, Mac et Apple Watch, pensées pour la capture ambiante. Le tour de table illustre l'intérêt actuel pour les outils qui enregistrent et traitent le quotidien sans action de l'utilisateur.",
+  "tags": [
+   "business",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+  "date_source": "2026-10-12T12:47:59+00:00",
+  "date_redac": "2026-10-12T13:03:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 625,
+   "sortie": 344
+  }
+ },
+ {
   "id": "6dbbf2e9b66f229e",
   "slug": "petits-modeles-locaux-metrillm-est-il-un-benchmark-credible-6dbbf2",
   "titre": "Petits modèles locaux : MetriLLM est-il un benchmark crédible ?",

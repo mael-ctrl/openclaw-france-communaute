@@ -1325,3 +1325,8 @@
 {"ts": "2026-10-12T12:17:11+00:00", "evenement": "erreur", "details": {"message": "déploiement : [Errno 104] Connection reset by peer"}, "sha256": "ce8719748e0e63a7804ebc53edeb3c0f2f008514de66b9c762debf8026c85a83"}
 {"ts": "2026-10-12T12:17:12+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "d56edc05a38a7a95a2a50476d7d019f1ef37b3e0c240865535f689d4b492b287"}
 {"ts": "2026-10-12T12:17:12+00:00", "evenement": "bilan", "details": {"duree_s": 79.3, "neufs": 3, "breves": 2, "articles": 1, "fichiers": 557, "publications": 0}, "sha256": "1ed7ed7c2fc88b0cb3ee79a8c5a46ad5506c23610e2fc71e91adcb564bc2f9cf"}
+{"ts": "2026-10-12T12:18:57+00:00", "evenement": "collecte", "details": {"neufs": 0}, "sha256": "2a6c874fac1be269a1e4c6325c39d5cc4a57dda0d94dd0557c25be01428d195f"}
+{"ts": "2026-10-12T12:18:57+00:00", "evenement": "construction", "details": {"fichiers": 557}, "sha256": "7897ede4c5ec772c42b44e636d51b6993d5f6e873c146ce29589972b8dcda4ad"}
+{"ts": "2026-10-12T12:26:38+00:00", "evenement": "deploiement", "details": {"fichiers": 570, "octets": 8949170}, "sha256": "c93b50ff95d444561d7ebd623bbe5108957d8b9befd1f8032ea836d2d02e8461"}
+{"ts": "2026-10-12T12:26:39+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "8b1c17d53dd954cdcffb9b8116b02af9137aa3e4fb7a76600aaf529cf73a92b1"}
+{"ts": "2026-10-12T12:26:39+00:00", "evenement": "bilan", "details": {"duree_s": 470.2, "neufs": 0, "breves": 0, "articles": 0, "fichiers": 557, "envois": 570, "publications": 0}, "sha256": "5a42102c9729253ff9e0da54c7db7533df4e4991d3e2590d5cfad1a914387b69"}

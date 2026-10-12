@@ -1,5 +1,88 @@
 [
  {
+  "id": "c73ace4cceb52a8e",
+  "slug": "boole-1-7b-un-modele-1-bit-derive-de-qwen3-1-7b-a-247-mo-c73ace",
+  "titre": "Boole-1.7B : un modèle 1-bit dérivé de Qwen3-1.7B, à 247 Mo",
+  "resume": "Precision Numerics lance Boole-1.7B, une version 1-bit du modèle Qwen3-1.7B. Les poids compressés pèsent 247 Mo, soit 13,9 fois moins qu'en BF16, pour 85,9 % du score moyen du modèle BF16 sur une évaluation de dix tâches. Il dépasse le Bonsai-1.7B en 1-bit et approche le Bonsai-1.7B en 1,58-bit. Le modèle tourne dans le navigateur, ou via vLLM et llama.cpp.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x452zj/boole17b_a_1bit_qwen317b_model_that_outperforms/",
+  "date_source": "2026-10-12T15:35:58+00:00",
+  "date_redac": "2026-10-12T15:50:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 856,
+   "sortie": 751
+  }
+ },
+ {
+  "id": "c6b1320963f02895",
+  "slug": "alpine-presente-au-mondial-de-l-auto-l-a310-vision-clin-d-il-a-la-gt-d-c6b132",
+  "titre": "Alpine présente au Mondial de l'Auto l'A310 Vision, clin d'œil à la GT des années 1970",
+  "resume": "Alpine a dévoilé au Mondial de l'Auto l'A310 Vision, une étude de style qui confirme l'avenir de la marque. Le concept reprend mot pour mot la philosophie de la GT des années 1970 et se présente comme une alternative à la Porsche 911. Aussi réussi soit-il, il ne débouchera pas sur un modèle de série, du moins pour l'instant.",
+  "tags": [
+   "matériel",
+   "business",
+   "société"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/alpine-sensation-mondial-a310-vision-superbe-alternative-porsche-911.html",
+  "date_source": "2026-10-12T15:32:50+00:00",
+  "date_redac": "2026-10-12T15:50:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 682,
+   "sortie": 829
+  }
+ },
+ {
+  "id": "f967341bbff608c8",
+  "slug": "pour-brad-smith-le-royaume-uni-est-le-mieux-place-pour-porter-la-regul-f96734",
+  "titre": "Pour Brad Smith, le Royaume-Uni est le mieux placé pour porter la régulation de l'IA",
+  "resume": "Le président de Microsoft, Brad Smith, réclame une régulation urgente de l'IA. Il fait valoir que le lait ou les machines à laver sont aujourd'hui davantage encadrés que les entreprises du secteur. Pour lui, le Royaume-Uni est le mieux placé pour porter ce chantier réglementaire.",
+  "tags": [
+   "business",
+   "société",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+  "date_source": "2026-10-12T15:31:19+00:00",
+  "date_redac": "2026-10-12T15:50:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 615,
+   "sortie": 654
+  }
+ },
+ {
+  "id": "75e3de058d12ee34",
+  "slug": "blueprints-ai-genere-des-plans-de-construction-conformes-depuis-une-ph-75e3de",
+  "titre": "Blueprints AI génère des plans de construction conformes depuis une photo",
+  "resume": "Blueprints AI, une startup basée à Santa Monica, a développé un logiciel qui produit des plans de construction conformes aux normes à partir d'une photo, d'un PDF ou d'un croquis. L'entreprise s'est financée sans lever de fonds. D'après TechCrunch, l'outil génère en quelques minutes des plans prêts à être déposés pour obtenir un permis de construire.",
+  "tags": [
+   "business",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+  "date_source": "2026-10-12T15:27:59+00:00",
+  "date_redac": "2026-10-12T15:51:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 632,
+   "sortie": 514
+  }
+ },
+ {
   "id": "ddd7e048c1912448",
   "slug": "microsoft-surface-laptop-ultra-la-reponse-a-apple-avec-nvidia-ddd7e0",
   "titre": "Microsoft Surface Laptop Ultra : la réponse à Apple, avec Nvidia",

@@ -321,7 +321,8 @@ def page_pack():
 </section>"""
     return page("Le Pack du Crabe — 100 prompts IA (14 €)",
                 "100 prompts IA professionnels en français, classés en 10 catégories, livrés en markdown et JSON. 14 € une fois, téléchargement immédiat.",
-                contenu, "/pack/", section="pack")
+                contenu, "/pack/", section="pack",
+                extra_head='<script src="/assets/pack-copie.js" defer></script>')
 
 
 def page_pack_merci():

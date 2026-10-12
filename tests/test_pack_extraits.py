@@ -15,6 +15,12 @@ import config
 
 
 class PackExtraitsTest(unittest.TestCase):
+    def test_aide_de_copie_chargee_uniquement_sur_la_boutique(self):
+        script = '<script src="/assets/pack-copie.js" defer></script>'
+        self.assertIn(script, annexes.page_pack())
+        self.assertNotIn(script, annexes.page_skills())
+        self.assertNotIn(script, annexes.page_pack_merci())
+
     def test_page_propose_trois_prompts_exacts_avant_le_paiement(self):
         livrable = json.loads((config.DOSSIER_PRIVE / "dl" /
                                "pack-du-crabe-100-prompts.json").read_text(encoding="utf-8"))

@@ -1319,3 +1319,9 @@
 {"ts": "2026-10-12T12:15:00+00:00", "evenement": "deploiement", "details": {"fichiers": 568, "octets": 8929757}, "sha256": "34c348b83e6b24ab709eaca972692ed561908442e022c3f963d3c14e39458ea1"}
 {"ts": "2026-10-12T12:15:01+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "16259caa1046164b6e24d9ddc1eba58fea90547a03f9a19c1b308cf0d3e5423a"}
 {"ts": "2026-10-12T12:15:01+00:00", "evenement": "bilan", "details": {"duree_s": 849.9, "neufs": 6, "breves": 6, "articles": 1, "fichiers": 556, "envois": 568, "publications": 0}, "sha256": "ef3570af3ba104f331857b134ffa8066205e0397969c451103395db76f27a1af"}
+{"ts": "2026-10-12T12:16:14+00:00", "evenement": "collecte", "details": {"neufs": 3}, "sha256": "40231112bd6a94a4fff7f00657abb4dec59d0af35553fd384e36939aba80e1b8"}
+{"ts": "2026-10-12T12:16:28+00:00", "evenement": "erreur", "details": {"message": "brève impossible (openclaw 2026.10.5-beta.2) : réponse non-JSON"}, "sha256": "bc57d34e9f6377b53273f469e40221041d47675bd44183980f84a0530e668e72"}
+{"ts": "2026-10-12T12:16:56+00:00", "evenement": "construction", "details": {"fichiers": 557}, "sha256": "21504a9a8504271041239f866eb1aaec6d2df39435de78f624a92522bad54cd8"}
+{"ts": "2026-10-12T12:17:11+00:00", "evenement": "erreur", "details": {"message": "déploiement : [Errno 104] Connection reset by peer"}, "sha256": "ce8719748e0e63a7804ebc53edeb3c0f2f008514de66b9c762debf8026c85a83"}
+{"ts": "2026-10-12T12:17:12+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "d56edc05a38a7a95a2a50476d7d019f1ef37b3e0c240865535f689d4b492b287"}
+{"ts": "2026-10-12T12:17:12+00:00", "evenement": "bilan", "details": {"duree_s": 79.3, "neufs": 3, "breves": 2, "articles": 1, "fichiers": 557, "publications": 0}, "sha256": "1ed7ed7c2fc88b0cb3ee79a8c5a46ad5506c23610e2fc71e91adcb564bc2f9cf"}

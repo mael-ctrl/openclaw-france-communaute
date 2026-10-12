@@ -1,26 +1,18 @@
 {
- "runs": 230,
- "items_collectes": 1680,
- "breves_publiees": 874,
- "articles_publies": 137,
- "tokens_entree": 848090,
- "tokens_sortie": 1244233,
+ "runs": 231,
+ "items_collectes": 1683,
+ "breves_publiees": 876,
+ "articles_publies": 138,
+ "tokens_entree": 850970,
+ "tokens_sortie": 1248951,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-12T12:02:33+00:00",
+ "dernier_run": "2026-10-12T12:16:55+00:00",
  "solde": {
-  "total": "86.29",
+  "total": "86.28",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-11T09:26:04+00:00",
-   "message": "déploiement : timed out"
-  },
-  {
-   "ts": "2026-10-11T12:49:53+00:00",
-   "message": "brève impossible (microsoft/AesCode 8B and 32B) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-12T01:27:27+00:00",
    "message": "archivage wayback : The read operation timed out"
@@ -32,10 +24,18 @@
   {
    "ts": "2026-10-12T09:47:16+00:00",
    "message": "brève impossible (I made an open-source AI leaderboard that shows the best mod) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-12T12:16:28+00:00",
+   "message": "brève impossible (openclaw 2026.10.5-beta.2) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-12T12:17:11+00:00",
+   "message": "déploiement : [Errno 104] Connection reset by peer"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.37,
+ "depense_usd": 5.38,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -944,10 +944,14 @@
   [
    "2026-10-12T12:01:22+00:00",
    "86.29"
+  ],
+  [
+   "2026-10-12T12:16:14+00:00",
+   "86.28"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 3.08,
+ "depense_mois_usd": 3.09,
  "archive_tentatives": {
   "jour": "2026-10-12",
   "n": 3

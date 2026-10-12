@@ -1302,3 +1302,9 @@
 {"ts": "2026-10-12T08:25:48+00:00", "evenement": "deploiement", "details": {"fichiers": 565, "octets": 8871686}, "sha256": "0c263478dcfd5e3cf795419c0751aa753baf204e69ae2e4c38dbcc4547ab9c18"}
 {"ts": "2026-10-12T08:25:49+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "c861b95e66915c04508dd676acbc7cd6051920c4c38fbdee807749ce94b5c5dc"}
 {"ts": "2026-10-12T08:25:49+00:00", "evenement": "bilan", "details": {"duree_s": 893.5, "neufs": 8, "breves": 6, "articles": 1, "fichiers": 553, "envois": 565, "publications": 0}, "sha256": "316bc1962d5f94cb9632f34d8e3b62e00f7ed99d6c532db700667e56217065d3"}
+{"ts": "2026-10-12T08:55:32+00:00", "evenement": "collecte", "details": {"neufs": 3}, "sha256": "6dbbb8f4be2eed460fe99b365becd0cf9bde4934b159fad09836debb06a65327"}
+{"ts": "2026-10-12T08:55:47+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Qwen3.8-Flash-Next on six 3090s with vLLM: 7 users at 262k, ) : réponse non-JSON"}, "sha256": "c6308d5e7a216d7e6c0356199827849f1c8cbf80a1e8ec21ea098c0edd4e3756"}
+{"ts": "2026-10-12T08:56:17+00:00", "evenement": "construction", "details": {"fichiers": 554}, "sha256": "3f3e554a00f9d28ad973c1de19fe9ef92349cf75eb253ce70d22296c05811fc9"}
+{"ts": "2026-10-12T09:04:37+00:00", "evenement": "deploiement", "details": {"fichiers": 566, "octets": 8889249}, "sha256": "89a17e9ca443b7dc936f60e20385df83a5b526eefbaafba293f2a7c5bcf71e01"}
+{"ts": "2026-10-12T09:04:37+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "c3a918df84e003e0b047066f339a4b893b44e0cbd68a7cbb251fff7cf84a99f6"}
+{"ts": "2026-10-12T09:04:37+00:00", "evenement": "bilan", "details": {"duree_s": 574.4, "neufs": 3, "breves": 2, "articles": 1, "fichiers": 554, "envois": 566, "publications": 0}, "sha256": "3060d3f93b25f2b6bf733e7c225f80bdf5b50c75f33042918b12143700cda09f"}

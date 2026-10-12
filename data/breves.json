@@ -82,6 +82,27 @@
   }
  },
  {
+  "id": "5b4759317ac38e1a",
+  "slug": "un-plugin-analyse-la-qualite-d-ecriture-dans-deepseek-harness-5b4759",
+  "titre": "Un plugin analyse la qualité d'écriture dans DeepSeek Harness",
+  "resume": "Un développeur a publié DSH Novel Quality Analyzer, un plugin open source pour DeepSeek Harness. Il ajoute un bouton « Analyze writing » à la barre d'outils de conversation : collez un chapitre ou un extrait et l'outil signale la diversité lexicale, les clichés, les mots de contenu et les phrases répétés, avec copie du rapport. Le code est sur GitHub et le paquet sur npm.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x3vriw/i_built_a_novel_writing_analyzer_plugin_for/",
+  "date_source": "2026-10-12T07:46:41+00:00",
+  "date_redac": "2026-10-12T08:55:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 737,
+   "sortie": 614
+  }
+ },
+ {
   "id": "cbbbd8a3aedc27f1",
   "slug": "keynote-apple-du-13-octobre-siri-ai-homepod-et-apple-tv-au-menu-cbbbd8",
   "titre": "Keynote Apple du 13 octobre : Siri AI, HomePod et Apple TV au menu",
@@ -121,6 +142,26 @@
    "modele": "deepseek-flash",
    "entree": 866,
    "sortie": 745
+  }
+ },
+ {
+  "id": "8b29905ce8c52602",
+  "slug": "quel-dumbphone-choisir-en-2026-le-guide-des-telephones-basiques-8b2990",
+  "titre": "Quel dumbphone choisir en 2026 ? Le guide des téléphones basiques",
+  "resume": "Les dumbphones, aussi appelés téléphones basiques ou téléphones à touches sans internet, sont les ancêtres du smartphone. La plupart sont dépourvus d'accès à internet, d'applications et même d'écran tactile. Frandroid publie un guide d'achat pour choisir le meilleur modèle en 2026 selon ses besoins.",
+  "tags": [
+   "matériel",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/guide-dachat/3224065_meilleurs-dumbphones-quel-telephone-portable-basique-choisir",
+  "date_source": "2026-10-12T07:30:00+00:00",
+  "date_redac": "2026-10-12T08:55:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 686,
+   "sortie": 506
   }
  },
  {

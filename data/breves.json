@@ -1,5 +1,66 @@
 [
  {
+  "id": "c0fd754f20c42066",
+  "slug": "intel-nomme-sa-gpu-crescent-island-d-series-jusqu-a-480-go-de-lpddr5x-c0fd75",
+  "titre": "Intel nomme sa GPU Crescent Island « D-Series » : jusqu'à 480 Go de LPDDR5X",
+  "resume": "La GPU Crescent Island d'Intel prend le nom de D-Series. Elle embarque jusqu'à 480 Go de mémoire LPDDR5X, 1,5 To/s de bande passante et une puissance annoncée allant jusqu'à 1,3 pétaFLOPS en FP8, avec prise en charge des formats FP4 à FP64. La carte compte 32 cœurs Xe3P, 256 moteurs XMX et 32 Mo de cache L2 unifié. Aucun tarif n'est communiqué pour l'instant, et l'auteur du post espère une variante générique à soufflante pour les stations de travail prosumer.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4g90u/intel_crescent_island_gpu_gets_dseries_name/",
+  "date_source": "2026-10-12T22:42:31+00:00",
+  "date_redac": "2026-10-12T23:03:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 756,
+   "sortie": 474
+  }
+ },
+ {
+  "id": "11e703155ed40ae5",
+  "slug": "un-compilateur-gpu-construit-de-zero-des-graphes-pytorch-aux-kernels-c-11e703",
+  "titre": "Un compilateur GPU construit de zéro, des graphes PyTorch aux kernels CUDA",
+  "resume": "Un développeur a construit un compilateur GPU, présenté dans un article qui s'appuie sur les concepts de TVM, Modular et PyTorch Inductor. L'outil fonctionne avec vLLM pour le service complet de modèles, ce qui peut servir aux moteurs d'inférence LLM. L'article découpe la génération de kernels CUDA en passes : RMSNorm, matmul et attention sont abaissés progressivement, chaque passe ayant son propre IR optimisé.",
+  "tags": [
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4fp3r/lecture_building_a_gpu_compiler_from_scratch/",
+  "date_source": "2026-10-12T22:18:03+00:00",
+  "date_redac": "2026-10-12T23:03:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 908,
+   "sortie": 1050
+  }
+ },
+ {
+  "id": "983af9651812119c",
+  "slug": "taille-des-modeles-ia-une-echelle-en-go-pour-sortir-du-flou-983af9",
+  "titre": "Taille des modèles IA : une échelle en Go pour sortir du flou",
+  "resume": "Sur r/LocalLLaMA, un internaute constate qu'aucun consensus ne s'est imposé pour distinguer un modèle « petit » d'un modèle « grand », ce qui entretient la confusion. Il propose donc une table arbitraire fondée sur la mémoire nécessaire : Tiny tient dans 2 Go de (v)RAM, Small dans 8 Go, Medium dans 32 Go, Large dans 128 Go et Huge dans 512 Go. Au-delà, il laisse les générations futures se disputer la question.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4f80v/size_of_ai_models_what_we_mean_by_large/",
+  "date_source": "2026-10-12T21:57:43+00:00",
+  "date_redac": "2026-10-12T23:03:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 775,
+   "sortie": 496
+  }
+ },
+ {
   "id": "e7244dd383af11f5",
   "slug": "un-outil-explore-l-adn-avec-alphagenome-et-medgemma-en-local-via-webgp-e7244d",
   "titre": "Un outil explore l'ADN avec AlphaGenome et MedGemma en local via WebGPU",

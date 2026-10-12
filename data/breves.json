@@ -1,5 +1,26 @@
 [
  {
+  "id": "e7244dd383af11f5",
+  "slug": "un-outil-explore-l-adn-avec-alphagenome-et-medgemma-en-local-via-webgp-e7244d",
+  "titre": "Un outil explore l'ADN avec AlphaGenome et MedGemma en local via WebGPU",
+  "resume": "AskCyph Health Explorer est un outil pédagogique qui explore comment une mutation d'une lettre d'ADN mène à une maladie et altère l'anatomie 3D. AlphaGenome, l'API de Google DeepMind, prédit les effets des variants et les disruptions d'épissage, tandis que MedGemma 1.5 4B tourne à 100 % dans le navigateur via WebGPU, protégeant la vie privée.",
+  "tags": [
+   "recherche",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4ec7b/explore_dna_with_deepminds_alphagenome_and/",
+  "date_source": "2026-10-12T21:20:33+00:00",
+  "date_redac": "2026-10-12T22:01:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 835,
+   "sortie": 952
+  }
+ },
+ {
   "id": "7882efda665c5d7c",
   "slug": "linus-torvalds-publie-des-patchs-du-noyau-linux-ecrits-avec-claude-cod-7882ef",
   "titre": "Linus Torvalds publie des patchs du noyau Linux écrits avec Claude Code",
@@ -18,6 +39,49 @@
    "modele": "deepseek-flash",
    "entree": 738,
    "sortie": 417
+  }
+ },
+ {
+  "id": "68bc68003ee8c93d",
+  "slug": "optimisations-llama-cpp-ciblees-p100-pour-un-qwen3-6-35b-68bc68",
+  "titre": "Optimisations llama.cpp ciblées P100 pour un Qwen3.6 35B",
+  "resume": "Un utilisateur de r/LocalLLaMA partage des optimisations de llama.cpp taillées pour son matériel — une paire de P100 — et un modèle précis, Unsloth Qwen3.6 35b A3B UD Q4 K XL. Le travail, qu'il décrit lui-même comme « vibe codé », a été mené en pilotant Claude Opus sur les détails techniques, l'auteur se disant peu qualifié pour expliquer les spécificités. Il revendique des gains notables en ciblant les forces des cartes et en corrigeant l'usage inefficace qu'en fait llama.cpp sur ce modèle.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4cwiy/llamacpp_optimizations_for_specific_hardware_and/",
+  "date_source": "2026-10-12T20:24:57+00:00",
+  "date_redac": "2026-10-12T22:01:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 808,
+   "sortie": 502
+  }
+ },
+ {
+  "id": "ec01dbbaf78f0c0a",
+  "slug": "qwen3-27b-en-q4-avec-262k-de-contexte-sur-16-go-de-vram-grace-a-un-for-ec01db",
+  "titre": "Qwen3 27B en Q4 avec 262k de contexte sur 16 Go de VRAM grâce à un fork de llama.cpp",
+  "resume": "Sur r/LocalLLaMA, un utilisateur affirme faire tourner un quant Q4 de Qwen3 27B avec 262k de contexte, la vision et deux écrans, sur une seule carte 16 Go, à 80 t/s. La clé serait llama.cpp-adaptive-kv-streaming, un fork qu'il a modifié pour gérer un KV en q4_0. Il dit subir des accusations de mensonge et vouloir aider les autres possesseurs de 16 Go, bloqués à 60k de contexte en q3.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4cmfc/running_unslothqwen3827budiq4_xs_262k_q4_0_kv/",
+  "date_source": "2026-10-12T20:14:03+00:00",
+  "date_redac": "2026-10-12T22:02:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 913,
+   "sortie": 1298
   }
  },
  {

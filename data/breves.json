@@ -1,5 +1,68 @@
 [
  {
+  "id": "0faa42abfa42b658",
+  "slug": "openclaw-publie-la-beta-2026-10-5-beta-3-sur-github-0faa42",
+  "titre": "OpenClaw publie la bêta 2026.10.5-beta.3 sur GitHub",
+  "resume": "OpenClaw met en ligne la version 2026.10.5-beta.3 de son logiciel, publiée sur son dépôt GitHub. Le suffixe beta signale une mouture de test, pas une version stable. La release est datée du 13 octobre 2026. Aucun détail sur le contenu des changements n'accompagne cette publication.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.5-beta.3",
+  "date_source": "2026-10-13T08:54:45+00:00",
+  "date_redac": "2026-10-13T08:59:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 718
+  }
+ },
+ {
+  "id": "9150a20f0a8fdf53",
+  "slug": "dodaios-app-d-agents-ia-locale-open-source-pour-le-bureau-9150a2",
+  "titre": "dodaios, app d'agents IA locale open-source pour le bureau",
+  "resume": "dodaios (ex-personal jarvis) est une app d'agents IA pour bureau, open-source en Apache 2.0, sous Windows, macOS et Linux, sans compte ni cloud. Elle réunit des agents persistants dotés de chat, outils, mémoire et planning, un IDE agentique à neuf CLI de code, la voix locale (whisper, piper) et plus de 40 plugins et serveurs MCP. La démo fait tourner deux agents sur qwen3.5:9b et qwen3.8 sur une carte de 16 Go.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4r3ht/opensource_desktop_agent_app_running_its_agents/",
+  "date_source": "2026-10-13T08:24:24+00:00",
+  "date_redac": "2026-10-13T08:59:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 882,
+   "sortie": 1350
+  }
+ },
+ {
+  "id": "7e81a0320ad4432e",
+  "slug": "sipeed-annonce-maixstation-presentee-comme-comparable-a-strix-halo-et--7e81a0",
+  "titre": "Sipeed annonce MaixStation, présentée comme comparable à Strix Halo et DGX Spark",
+  "resume": "Sur r/LocalLLaMA, Sipeed annonce MaixStation, un matériel présenté comme comparable à Strix Halo et à DGX Spark. Le fil ne fournit ni fiche technique, ni prix, ni date de disponibilité : l'annonce tient pour l'instant à un titre. Elle retient l'attention de la communauté qui suit les machines capables de faire tourner des modèles en local.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4r1o5/sipeed_announces_maixstation_comparable_to_strix/",
+  "date_source": "2026-10-13T08:21:05+00:00",
+  "date_redac": "2026-10-13T08:59:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 622,
+   "sortie": 1002
+  }
+ },
+ {
   "id": "216aa4218572f83a",
   "slug": "shop-this-gemini-pourrait-reperer-un-produit-a-l-ecran-et-ou-l-acheter-216aa4",
   "titre": "« Shop this » : Gemini pourrait repérer un produit à l'écran et où l'acheter",
@@ -103,6 +166,28 @@
   }
  },
  {
+  "id": "89a54100be506afb",
+  "slug": "viewer-anonyme-bati-avec-claude-code-1m-d-utilisateurs-meta-supprime-s-89a541",
+  "titre": "Viewer anonyme bâti avec Claude Code : 1M d'utilisateurs, Meta supprime ses comptes",
+  "resume": "Un développeur scraping affirme avoir bâti spybroski.com avec Claude Code : un site qui affiche les contenus publics Instagram, TikTok ou Snapchat sans compte, et sans apparaître dans les vues de stories. Quelques posts Reddit plus tard, il dit avoir atteint environ 1 million d'utilisateurs actifs en un an. Claude Code a servi surtout au backend de scraping, pour les parseurs propres à chaque plateforme.",
+  "tags": [
+   "claude",
+   "dev",
+   "meta",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x4qx7t/built_an_anonymous_social_media_viewer_with/",
+  "date_source": "2026-10-13T08:12:38+00:00",
+  "date_redac": "2026-10-13T08:59:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 816,
+   "sortie": 1335
+  }
+ },
+ {
   "id": "13a58313cccac389",
   "slug": "strata-revendique-une-lecture-de-prompt-trois-fois-plus-rapide-que-lla-13a583",
   "titre": "Strata revendique une lecture de prompt trois fois plus rapide que llama.cpp",
@@ -121,6 +206,27 @@
    "modele": "deepseek-flash",
    "entree": 926,
    "sortie": 809
+  }
+ },
+ {
+  "id": "adb002e1e120fe08",
+  "slug": "claude-redemande-une-autorisation-pour-chaque-page-web-visitee-adb002",
+  "titre": "Claude redemande une autorisation pour chaque page web visitée",
+  "resume": "Sur le subreddit r/ClaudeAI, un utilisateur rapporte que Claude réclame désormais une autorisation d'accès aux sites web, et pas seulement pour un site en général : pour chaque page individuellement. Conséquence, il ne peut plus laisser l'outil travailler pendant qu'il fait autre chose et doit surveiller chaque demande de permission. Il demande ce qui explique ce comportement et s'il est possible de le désactiver.",
+  "tags": [
+   "claude",
+   "agents",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x4qlei/why_has_claude_stated_asking_for_my_permission_to/",
+  "date_source": "2026-10-13T07:50:33+00:00",
+  "date_redac": "2026-10-13T08:59:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 691,
+   "sortie": 505
   }
  },
  {
@@ -182,6 +288,27 @@
    "modele": "deepseek-flash",
    "entree": 689,
    "sortie": 502
+  }
+ },
+ {
+  "id": "49b3a25f8386c34b",
+  "slug": "openclaw-un-registre-d-adaptateurs-de-liaison-par-demarrage-de-moniteu-49b3a2",
+  "titre": "OpenClaw : un registre d'adaptateurs de liaison par démarrage de moniteur Feishu",
+  "resume": "OpenClaw publie un correctif pour son intégration Feishu. Chaque démarrage de moniteur dispose désormais de son propre registre d'adaptateurs de liaison (binding adapter registry). La modification est référencée sous le tag release-publish/b3abdb9c77aa-1791881245 dans le dépôt GitHub du projet.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fb3abdb9c77aa-1791881245",
+  "date_source": "2026-10-13T07:17:22+00:00",
+  "date_redac": "2026-10-13T08:59:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 621,
+   "sortie": 736
   }
  },
  {

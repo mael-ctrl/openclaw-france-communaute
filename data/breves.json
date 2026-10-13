@@ -1,5 +1,69 @@
 [
  {
+  "id": "8951a440a7ebf128",
+  "slug": "un-simple-message-de-remerciement-sur-r-localllama-sans-contenu-exploi-8951a4",
+  "titre": "Un simple message de remerciement sur r/LocalLLaMA, sans contenu exploitable",
+  "resume": "Le subreddit r/LocalLLaMA a vu la publication d'un message de remerciement signé par l'utilisateur JLeonsarmiento, publié le 13 octobre 2026. Le billet, intitulé « Thanks 🙏 », ne contient aucun détail technique ni lien vers un projet, un modèle ou une discussion développée. En l'état, il n'apporte donc pas d'information exploitable sur l'écosystème de l'IA locale.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x59lsn/thanks/",
+  "date_source": "2026-10-13T21:40:31+00:00",
+  "date_redac": "2026-10-13T22:16:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 594,
+   "sortie": 662
+  }
+ },
+ {
+  "id": "e8be5bbc2470886f",
+  "slug": "hermes-agent-la-release-candidate-0-22-0-est-publiee-e8be5b",
+  "titre": "Hermes Agent : la release candidate 0.22.0 est publiée",
+  "resume": "NousResearch a publié le 13 octobre 2026 une release candidate de son agent Hermes, taguée rc.1-v0.22.0, sur le dépôt GitHub hermes-agent. Cette étape précède la stabilisation de la version 0.22.0 du projet. Les métadonnées de publication ne détaillent pas le contenu de cette mise à jour.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.1-v0.22.0",
+  "date_source": "2026-10-13T21:24:15+00:00",
+  "date_redac": "2026-10-13T22:16:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 560
+  }
+ },
+ {
+  "id": "323671f228c4089b",
+  "slug": "un-utilisateur-remercie-deepseek-pour-v4-flash-0731-et-partage-son-mon-323671",
+  "titre": "Un utilisateur remercie DeepSeek pour V4-Flash-0731 et partage son montage sur Mac",
+  "resume": "Sur r/LocalLLaMA, l'utilisateur AleksandrNikitin adresse un remerciement à l'équipe DeepSeek pour DeepSeek-V4-Flash-0731 et DSpark, en l'invitant à ne pas abandonner le projet. Il décrit un montage fonctionnel sur Mac : pi.dev en entrée, DeepSeek-V4-Flash-0731 comme « cerveau » et Qwen 3.6 35B A3B comme « corps ». Le montage combine donc deux modèles locaux sur une seule machine Mac.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x592dl/thankyou_post_for_deepseekv4flash0731_with_dspark/",
+  "date_source": "2026-10-13T21:18:18+00:00",
+  "date_redac": "2026-10-13T22:17:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 678,
+   "sortie": 1394
+  }
+ },
+ {
   "id": "c91621ede834a5a0",
   "slug": "apple-obtient-l-acces-aux-dossiers-d-embauche-d-openai-dans-une-affair-c91621",
   "titre": "Apple obtient l'accès aux dossiers d'embauche d'OpenAI dans une affaire de secrets",
@@ -1784,6 +1848,27 @@
    "modele": "deepseek-flash",
    "entree": 660,
    "sortie": 491
+  }
+ },
+ {
+  "id": "252e2cd8e348e9f6",
+  "slug": "simon-willison-teste-le-profileur-de-python-3-15-sur-son-app-web-edit-252e2c",
+  "titre": "Simon Willison teste le profileur de Python 3.15 sur son app web-edit",
+  "resume": "Simon Willison a mis à l'épreuve le nouveau profileur de Python 3.15. Il a demandé à GPT-6 Astra Extra High, dans Codex, de l'exécuter sur sa nouvelle application web-edit publiée sur PyPI : d'abord une phase de recherche, puis la production d'une flame graph et d'une heatmap de démonstration. Les deux exemples obtenus sont publiés sur son blog.",
+  "tags": [
+   "dev",
+   "recherche",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
+  "date_source": "2026-10-12T16:58:00+00:00",
+  "date_redac": "2026-10-13T22:17:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 732,
+   "sortie": 854
   }
  },
  {

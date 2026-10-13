@@ -1498,3 +1498,10 @@
 {"ts": "2026-10-13T21:28:18+00:00", "evenement": "deploiement", "details": {"fichiers": 592, "octets": 9341644}, "sha256": "866647e8066b7b6f6e4b86bae387d3d43f228ce13fccb5e425cc080ce71fa8d3"}
 {"ts": "2026-10-13T21:28:18+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "c260fa72521aef1ea75d3c0eb952a8f908e7f4874f11c193a7037d500eea8d14"}
 {"ts": "2026-10-13T21:28:18+00:00", "evenement": "bilan", "details": {"duree_s": 821.5, "neufs": 3, "breves": 3, "articles": 0, "fichiers": 579, "envois": 592, "publications": 0}, "sha256": "1146c6ddd31569ed5476f6eb1f953ce7491b7380005ffb5ab2c2788a46e9aebc"}
+{"ts": "2026-10-13T22:16:48+00:00", "evenement": "collecte", "details": {"neufs": 6}, "sha256": "c5ca85795807c7f721db9c00b79c152a0f022dde2c193c9b272c5042d2789bcf"}
+{"ts": "2026-10-13T22:17:19+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Instead of waiting for an M5 Ultra 512 GB: pairing a new M5 ) : réponse non-JSON"}, "sha256": "2e5142da07e37ed980f06f8539b5eed427e559dfe4e41d3d29b6df66fe096025"}
+{"ts": "2026-10-13T22:17:36+00:00", "evenement": "erreur", "details": {"message": "brève impossible (It’s ‘incomprehensible’ that Instagram allowed an AI image o) : réponse non-JSON"}, "sha256": "6b77414ef8ae8ac5a8baf65906a8f10d2600c2c01895ec717d8ed6aa41bf33bb"}
+{"ts": "2026-10-13T22:17:51+00:00", "evenement": "construction", "details": {"fichiers": 579}, "sha256": "9fb675394df4636e4b354f1de4d61c289285d99876e54e6cdbb5f781601f32f6"}
+{"ts": "2026-10-13T22:28:28+00:00", "evenement": "deploiement", "details": {"fichiers": 592, "octets": 9343523}, "sha256": "559182d06db83944c3c49a30111701730614bb12ce29d3bbd2f8c9c9454910d6"}
+{"ts": "2026-10-13T22:28:28+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "35587879d2a178788bc021113959c9cae5849c550b1ec195423a234ddcf61062"}
+{"ts": "2026-10-13T22:28:28+00:00", "evenement": "bilan", "details": {"duree_s": 712.7, "neufs": 6, "breves": 4, "articles": 0, "fichiers": 579, "envois": 592, "publications": 0}, "sha256": "1fa998e916c79934bcf0d34d9d5066ffb3253d5762f31e53ab49d02a897c21d2"}

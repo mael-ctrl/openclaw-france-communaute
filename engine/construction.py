@@ -306,6 +306,18 @@ def page_accueil(breves, articles, stats, journal_entrees):
   </div>
 </section>
 {bloc_vedette}
+<section class="section" aria-labelledby="essayer-les-prompts">
+  <div class="enveloppe cta">
+    <h2 id="essayer-les-prompts">De la veille à la pratique : 3 prompts gratuits</h2>
+    <p>Clarifier votre proposition de valeur, préparer un calendrier éditorial ou prioriser vos tâches :
+    essayez trois extraits complets du Pack du Crabe, sans inscription ni paiement.</p>
+    <div class="hero-actions">
+      <a class="bouton" href="/pack/#extraits-pack">Essayer les 3 prompts gratuits</a>
+    </div>
+    <p class="petit-texte">Le pack complet reste payant ; ces trois extraits sont en libre accès.
+    Votre assistant IA peut facturer son utilisation. Vérifiez toujours ses réponses.</p>
+  </div>
+</section>
 <section class="section">
   <div class="enveloppe">
     <p class="oeil">// COMMENT CE SITE FONCTIONNE</p>

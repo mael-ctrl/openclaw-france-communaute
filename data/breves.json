@@ -1,5 +1,48 @@
 [
  {
+  "id": "a999582b2655a91f",
+  "slug": "dual-a100-80-go-70-tk-s-en-solo-10-15-tk-s-a-trois-utilisateurs-a99958",
+  "titre": "Dual A100 80 Go : 70 tk/s en solo, 10-15 tk/s à trois utilisateurs",
+  "resume": "Un utilisateur de r/LocalLLaMA fait tourner deux A100X PCIe 80 Go dans un boîtier 2U EPYC 7402P, sous Proxmox avec les GPU passés à Debian 13. Avec llama.cpp, il atteint 50 à 70 tk/s en solo, mais la génération chute à 10-15 tk/s dès deux ou trois sessions simultanées. Il cherche à servir son équipe pour du codage agentique en sessions longues, et hésite entre vLLM et une instance de qwen3.6-35b-a3b par carte.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4h9k4/how_to_get_more_performance_from_dual_a100_80gb/",
+  "date_source": "2026-10-12T23:29:11+00:00",
+  "date_redac": "2026-10-13T00:05:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 885,
+   "sortie": 1286
+  }
+ },
+ {
+  "id": "2a59150683320f68",
+  "slug": "qwen3-8-flash-next-en-q3-s-sur-strata-90-tk-s-sur-un-r9700-2a5915",
+  "titre": "Qwen3.8-Flash-Next en Q3_S sur Strata : 90 tk/s sur un R9700",
+  "resume": "Un utilisateur de r/LocalLLaMA a installé Strata, l'a connecté à un AMD R9700 32 Go épaulé de 64 Go de RAM, puis y a fait tourner Qwen3.8-Flash-Next en quantification IQ3_S. Verdict : environ 90 tokens/s en décodage, soit à peu près trois fois le débit d'un modèle 27B. Les premières réponses au prompt habituel de l'auteur étaient décevantes ; le résultat a nettement progressé en demandant d'abord un plan, puis en le faisant exécuter.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4h1c2/qwen_38_flash_next_q3_s_benchmark_creation/",
+  "date_source": "2026-10-12T23:18:32+00:00",
+  "date_redac": "2026-10-13T00:05:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 844,
+   "sortie": 636
+  }
+ },
+ {
   "id": "c0fd754f20c42066",
   "slug": "intel-nomme-sa-gpu-crescent-island-d-series-jusqu-a-480-go-de-lpddr5x-c0fd75",
   "titre": "Intel nomme sa GPU Crescent Island « D-Series » : jusqu'à 480 Go de LPDDR5X",

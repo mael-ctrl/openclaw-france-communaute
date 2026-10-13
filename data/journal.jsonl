@@ -1482,3 +1482,9 @@
 {"ts": "2026-10-13T18:19:48+00:00", "evenement": "deploiement", "details": {"fichiers": 592, "octets": 9340389}, "sha256": "e6878300196c4b9521058d0858a8238081b3caae7e11eec1b4fd98475e5dca40"}
 {"ts": "2026-10-13T18:19:48+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "9688a3f9e83019c96b247530b72e78dec2500203c2da18581a967bcdf2287054"}
 {"ts": "2026-10-13T18:19:49+00:00", "evenement": "bilan", "details": {"duree_s": 672.6, "neufs": 12, "breves": 5, "articles": 0, "fichiers": 579, "envois": 592, "publications": 0}, "sha256": "1362d3fb9a1e5b3312074791d33f0e5abc64fc54bdc7c4d28791f2e5a67cb6da"}
+{"ts": "2026-10-13T19:10:51+00:00", "evenement": "collecte", "details": {"neufs": 6}, "sha256": "21547096596465581a5e76478d0d375833565d5c7e3f34193eec49a8a1ea8de8"}
+{"ts": "2026-10-13T19:11:10+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Quartermaster 1.7 update now lets you run llama.cpp's new de) : réponse non-JSON"}, "sha256": "032912af0f233754ce015f8c2974ca547237852db25f694c45ef88e4264a6028"}
+{"ts": "2026-10-13T19:11:38+00:00", "evenement": "construction", "details": {"fichiers": 579}, "sha256": "5ebfaa49d1d9c27501166eb6c8168d8ca0f13e0949568d2414585f3c2bc2bc57"}
+{"ts": "2026-10-13T19:25:31+00:00", "evenement": "deploiement", "details": {"fichiers": 592, "octets": 9341188}, "sha256": "b7a5dfdcea01d61c3bc980c7503e6e499f02ddef897cca8c4c24d542733c90eb"}
+{"ts": "2026-10-13T19:25:33+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "21c3faae7ecb4621923e52b04ea8bb5d1fff51807cc5c88e611e0f0ed2c62d95"}
+{"ts": "2026-10-13T19:25:33+00:00", "evenement": "bilan", "details": {"duree_s": 894.9, "neufs": 6, "breves": 5, "articles": 0, "fichiers": 579, "envois": 592, "publications": 0}, "sha256": "55f9b975e9b366cc1de6823cfdc982e06f85a4d321ccbc2964ae6e9b0733bb6b"}

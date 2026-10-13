@@ -1464,3 +1464,10 @@
 {"ts": "2026-10-13T12:42:25+00:00", "evenement": "erreur", "details": {"message": "déploiement : 421 Home directory not available - aborting"}, "sha256": "24e32a15c7f96c9b4d7e37d57052a72d7a345de4eb975bf0bb136b2e22e07dc9"}
 {"ts": "2026-10-13T12:42:26+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "90ac6faf7300fb8902453faa4c7304d85fca3c8098f9faffd5e0c0bb29dbbb43"}
 {"ts": "2026-10-13T12:42:26+00:00", "evenement": "bilan", "details": {"duree_s": 20.5, "neufs": 0, "breves": 0, "articles": 0, "fichiers": 579, "publications": 0}, "sha256": "7e2055b15f02a80c1ae728c87c059814b9da522bee571c2e7ec90d45a21643f9"}
+{"ts": "2026-10-13T16:19:27+00:00", "evenement": "collecte", "details": {"neufs": 40}, "sha256": "4639e6041895f41454a70b52792dca6f3f3d2b02076f62e3f7911d8d19995ae7"}
+{"ts": "2026-10-13T16:19:46+00:00", "evenement": "erreur", "details": {"message": "brève impossible (TwIL-LM3-Pro from webAI, a 3.66B formal logic model built on) : réponse non-JSON"}, "sha256": "7bc8515ea7edb065a4aa9e9ab0554878abc5ace5d2391a41657b5aecd59ef926"}
+{"ts": "2026-10-13T16:20:12+00:00", "evenement": "erreur", "details": {"message": "brève impossible (PSA for 3090 FE owners: Running LLMs overheats your VRAM) : réponse non-JSON"}, "sha256": "96cbd7f6293e3bdab1b865da06c5c68187e84507ae888cc328441f4407dc46fd"}
+{"ts": "2026-10-13T16:20:13+00:00", "evenement": "construction", "details": {"fichiers": 579}, "sha256": "cd42f073f776b2c3d55080258f6c62a0afd6340cd9bd8b3ac720483347496aae"}
+{"ts": "2026-10-13T16:28:50+00:00", "evenement": "deploiement", "details": {"fichiers": 592, "octets": 9341762}, "sha256": "9a1d8a68b7f391c1bbb838cb40267efb2647e2069f2b9c68b31ca2bb20277ba5"}
+{"ts": "2026-10-13T16:28:50+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "69a9516eea56c1a3b2b9698384a7d538c43a62bce4b0167586cd969c087a90ef"}
+{"ts": "2026-10-13T16:28:50+00:00", "evenement": "bilan", "details": {"duree_s": 577.5, "neufs": 40, "breves": 4, "articles": 0, "fichiers": 579, "envois": 592, "publications": 0}, "sha256": "94ccabe174e992cc217df9f164e6b9aeeb3c57fa72e54e7584a096e36d88faa9"}

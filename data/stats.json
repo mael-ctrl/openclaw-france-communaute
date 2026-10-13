@@ -1,26 +1,18 @@
 {
- "runs": 256,
- "items_collectes": 1817,
- "breves_publiees": 953,
+ "runs": 257,
+ "items_collectes": 1857,
+ "breves_publiees": 957,
  "articles_publies": 160,
- "tokens_entree": 941127,
- "tokens_sortie": 1392396,
+ "tokens_entree": 943729,
+ "tokens_sortie": 1394779,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-13T12:42:24+00:00",
+ "dernier_run": "2026-10-13T16:20:12+00:00",
  "solde": {
   "total": "85.62",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-13T09:02:25+00:00",
-   "message": "déploiement : [Errno 110] Connection timed out"
-  },
-  {
-   "ts": "2026-10-13T10:01:42+00:00",
-   "message": "brève impossible (openclaw 2026.10.5-beta.3) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-13T10:04:30+00:00",
    "message": "déploiement : [Errno 104] Connection reset by peer"
@@ -32,6 +24,14 @@
   {
    "ts": "2026-10-13T12:42:25+00:00",
    "message": "déploiement : 421 Home directory not available - aborting"
+  },
+  {
+   "ts": "2026-10-13T16:19:46+00:00",
+   "message": "brève impossible (TwIL-LM3-Pro from webAI, a 3.66B formal logic model built on) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-13T16:20:12+00:00",
+   "message": "brève impossible (PSA for 3090 FE owners: Running LLMs overheats your VRAM) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -1047,6 +1047,10 @@
   ],
   [
    "2026-10-13T12:42:24+00:00",
+   "85.62"
+  ],
+  [
+   "2026-10-13T16:19:27+00:00",
    "85.62"
   ]
  ],

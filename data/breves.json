@@ -1,5 +1,88 @@
 [
  {
+  "id": "36e6e6801ad079ab",
+  "slug": "google-lance-enfin-gemini-4-argon-son-modele-de-frontiere-36e6e6",
+  "titre": "Google lance enfin Gemini 4 Argon, son modèle de frontière",
+  "resume": "Après des mois en retrait de la course à l'IA de frontière, Google lance Gemini 4 Argon, un modèle longtemps attendu. Le groupe affirme qu'il peut rivaliser avec ce que l'industrie fait de mieux. Argon promet « un raisonnement de frontière » et de meilleures performances sur les flux de travail complexes, avec moins de précautions excessives, de répétitions et de clichés.",
+  "tags": [
+   "gemini",
+   "business"
+  ],
+  "importance": 4,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+  "date_source": "2026-10-13T16:00:00+00:00",
+  "date_redac": "2026-10-13T16:19:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 658,
+   "sortie": 763
+  }
+ },
+ {
+  "id": "e966af2500b868c3",
+  "slug": "meta-ne-publiera-pas-muse-wonder-en-open-source-les-poids-de-muse-spar-e966af",
+  "titre": "Meta ne publiera pas Muse Wonder en open source, les poids de Muse Spark à venir",
+  "resume": "Meta ne prévoit pas de publier Muse Wonder en open source, invoquant des préoccupations liées à la sécurité. Les poids d'un autre modèle, Muse Spark, doivent en revanche être diffusés prochainement. L'information est relayée sur r/LocalLLaMA, où les arbitrages entre ouverture et sécurité chez les grands laboratoires sont suivis de près.",
+  "tags": [
+   "meta",
+   "open-source",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4zrxr/meta_muse_wonder_will_not_be_opensourced_due_to/",
+  "date_source": "2026-10-13T15:30:57+00:00",
+  "date_redac": "2026-10-13T16:19:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 624,
+   "sortie": 683
+  }
+ },
+ {
+  "id": "21ab553a1c26b3c1",
+  "slug": "oh-my-pocket-un-harnais-mobile-pour-coder-depuis-son-telephone-21ab55",
+  "titre": "Oh-My-Pocket, un harnais mobile pour coder depuis son téléphone",
+  "resume": "Un développeur présente Oh-My-Pocket, un fork de Pi-Pocket qu'il décrit comme un harnais mobile pour iOS et Android. L'outil permet de coder depuis son téléphone et embarque un éditeur de routeur personnalisé, une meilleure base de contexte, des définitions d'agents, un élagage avant résumé et un support distant. Le code est publié sur GitHub.",
+  "tags": [
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4zkwi/ohmypocket_mobile_harness_ios_android/",
+  "date_source": "2026-10-13T15:23:45+00:00",
+  "date_redac": "2026-10-13T16:19:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 661,
+   "sortie": 359
+  }
+ },
+ {
+  "id": "51a4cb8bba97acfa",
+  "slug": "epic-games-bascule-vers-le-developpement-accelere-par-ia-pour-un-jeu-d-51a4cb",
+  "titre": "Epic Games bascule vers le « développement accéléré par IA » pour un jeu Disney",
+  "resume": "Epic Games prévoit de recourir à l'IA pour générer du code et des éléments artistiques d'un jeu Disney non annoncé, selon Bloomberg. Le projet, dont la sortie était initialement prévue en mars, est repoussé. Les développeurs ont reçu une consigne « AI-first » : utiliser davantage d'outils comme Claude, d'Anthropic, pour terminer le jeu.",
+  "tags": [
+   "claude",
+   "dev",
+   "business"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
+  "date_source": "2026-10-13T15:12:59+00:00",
+  "date_redac": "2026-10-13T16:19:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 659,
+   "sortie": 578
+  }
+ },
+ {
   "id": "255cf94e55ae8ea1",
   "slug": "openclaw-publie-la-version-2026-10-3-255cf9",
   "titre": "OpenClaw publie la version 2026.10.3",

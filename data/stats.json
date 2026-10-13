@@ -1,26 +1,18 @@
 {
- "runs": 253,
- "items_collectes": 1786,
- "breves_publiees": 942,
- "articles_publies": 158,
- "tokens_entree": 930250,
- "tokens_sortie": 1378282,
+ "runs": 254,
+ "items_collectes": 1794,
+ "breves_publiees": 947,
+ "articles_publies": 159,
+ "tokens_entree": 935192,
+ "tokens_sortie": 1383726,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-13T09:00:08+00:00",
+ "dernier_run": "2026-10-13T10:02:21+00:00",
  "solde": {
-  "total": "85.65",
+  "total": "85.63",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-13T01:08:00+00:00",
-   "message": "brève impossible (web-edit 0.1a0) : réponse non-JSON"
-  },
-  {
-   "ts": "2026-10-13T02:10:01+00:00",
-   "message": "brève impossible (Weird blog post from OrcaRouter) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-13T04:13:41+00:00",
    "message": "brève impossible (I clustered two old Android phones to run a 27B LLM locally.) : réponse non-JSON"
@@ -32,10 +24,18 @@
   {
    "ts": "2026-10-13T09:02:25+00:00",
    "message": "déploiement : [Errno 110] Connection timed out"
+  },
+  {
+   "ts": "2026-10-13T10:01:42+00:00",
+   "message": "brève impossible (openclaw 2026.10.5-beta.3) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-13T10:04:30+00:00",
+   "message": "déploiement : [Errno 104] Connection reset by peer"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 6.01,
+ "depense_usd": 6.03,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1036,10 +1036,14 @@
   [
    "2026-10-13T08:59:03+00:00",
    "85.65"
+  ],
+  [
+   "2026-10-13T10:01:28+00:00",
+   "85.63"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 3.72,
+ "depense_mois_usd": 3.74,
  "archive_tentatives": {
   "jour": "2026-10-13",
   "n": 3

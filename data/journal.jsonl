@@ -1476,3 +1476,9 @@
 {"ts": "2026-10-13T17:20:32+00:00", "evenement": "deploiement", "details": {"fichiers": 592, "octets": 9341782}, "sha256": "c1299ead8fbc10493e36ad3cd4018ebd37aad78e2ab9ceb153f4befaf2604723"}
 {"ts": "2026-10-13T17:20:32+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "2ff048c85c1a4821eb3237dce3e08b4f06f382f57c837b2e30df7dbc0c868ce3"}
 {"ts": "2026-10-13T17:20:32+00:00", "evenement": "bilan", "details": {"duree_s": 835.2, "neufs": 22, "breves": 6, "articles": 0, "fichiers": 579, "envois": 592, "publications": 0}, "sha256": "9cb1a243b42c1de3d7737f802ffce4b0951b7724ad2a42ff61f37e4554a82155"}
+{"ts": "2026-10-13T18:08:52+00:00", "evenement": "collecte", "details": {"neufs": 12}, "sha256": "054b4cae942f4e30dea152d706835fe29cb6ae8d5748aa0cf76db403ffe8e394"}
+{"ts": "2026-10-13T18:09:26+00:00", "evenement": "erreur", "details": {"message": "brève impossible (LiquidAI/LFM2.5-24B-A2B) : réponse non-JSON"}, "sha256": "d384be4d7f1eead97c03fb8cad6eaeaaca9fcd2af839c5c9237adbabe6db5021"}
+{"ts": "2026-10-13T18:09:40+00:00", "evenement": "construction", "details": {"fichiers": 579}, "sha256": "2146d5afe4a3f251e10fa2afc0caa786a528d412d5c23fabe1ae264f9079c9fa"}
+{"ts": "2026-10-13T18:19:48+00:00", "evenement": "deploiement", "details": {"fichiers": 592, "octets": 9340389}, "sha256": "e6878300196c4b9521058d0858a8238081b3caae7e11eec1b4fd98475e5dca40"}
+{"ts": "2026-10-13T18:19:48+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "9688a3f9e83019c96b247530b72e78dec2500203c2da18581a967bcdf2287054"}
+{"ts": "2026-10-13T18:19:49+00:00", "evenement": "bilan", "details": {"duree_s": 672.6, "neufs": 12, "breves": 5, "articles": 0, "fichiers": 579, "envois": 592, "publications": 0}, "sha256": "1362d3fb9a1e5b3312074791d33f0e5abc64fc54bdc7c4d28791f2e5a67cb6da"}

@@ -1,22 +1,18 @@
 {
- "runs": 258,
- "items_collectes": 1879,
- "breves_publiees": 963,
+ "runs": 259,
+ "items_collectes": 1891,
+ "breves_publiees": 968,
  "articles_publies": 160,
- "tokens_entree": 947831,
- "tokens_sortie": 1399468,
+ "tokens_entree": 951361,
+ "tokens_sortie": 1403669,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-13T17:07:34+00:00",
+ "dernier_run": "2026-10-13T18:09:40+00:00",
  "solde": {
-  "total": "85.61",
+  "total": "85.38",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-13T10:04:30+00:00",
-   "message": "déploiement : [Errno 104] Connection reset by peer"
-  },
   {
    "ts": "2026-10-13T12:35:05+00:00",
    "message": "déploiement : 421 Home directory not available - aborting"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-13T16:20:12+00:00",
    "message": "brève impossible (PSA for 3090 FE owners: Running LLMs overheats your VRAM) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-13T18:09:26+00:00",
+   "message": "brève impossible (LiquidAI/LFM2.5-24B-A2B) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 6.05,
+ "depense_usd": 6.28,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1056,10 +1056,14 @@
   [
    "2026-10-13T17:07:04+00:00",
    "85.61"
+  ],
+  [
+   "2026-10-13T18:08:53+00:00",
+   "85.38"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 3.76,
+ "depense_mois_usd": 3.99,
  "archive_tentatives": {
   "jour": "2026-10-13",
   "n": 3

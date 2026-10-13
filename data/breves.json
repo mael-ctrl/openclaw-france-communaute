@@ -1,5 +1,88 @@
 [
  {
+  "id": "235e8f21681179f0",
+  "slug": "a-l-ere-de-l-ia-la-credibilite-devient-le-nouvel-actif-mediatique-des--235e8f",
+  "titre": "À l'ère de l'IA, la crédibilité devient le nouvel actif médiatique des entreprises",
+  "resume": "Maddyness consacre un article à la crédibilité des entreprises à l'ère de l'IA, qu'il présente comme leur nouvel actif médiatique. Autrement dit, la capacité d'une organisation à être perçue comme fiable compterait désormais autant que sa visibilité. Un enjeu qui touche directement la communication et la réputation des entreprises.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Maddyness",
+  "lien_source": "https://www.maddyness.com/?p=1442739",
+  "date_source": null,
+  "date_redac": "2026-10-13T07:19:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 624,
+   "sortie": 610
+  }
+ },
+ {
+  "id": "85710695809dc2f5",
+  "slug": "le-casque-gamer-steelseries-arctis-nova-5-repasse-sous-les-90-857106",
+  "titre": "Le casque gamer SteelSeries Arctis Nova 5 repasse sous les 90 €",
+  "resume": "Le SteelSeries Arctis Nova 5 est un casque gamer de milieu de gamme qui avait convaincu Frandroid il y a deux ans. Noté 9/10, il est aujourd'hui proposé à 89,89 € au lieu de 139,99 € chez Amazon et Boulanger, ce qui renforce encore son rapport qualité-prix.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/bons-plans/3282111_steelseries-arctis-nova-5-note-9-10-ce-casque-gamer-de-2024-reste-toujours-aussi-recommandable-surtout-a-moins-de-90-e",
+  "date_source": null,
+  "date_redac": "2026-10-13T07:19:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 720,
+   "sortie": 718
+  }
+ },
+ {
+  "id": "f8c7c6415426428c",
+  "slug": "humilies-par-trois-ia-le-test-de-frandroid-drole-mais-inquietant-f8c7c6",
+  "titre": "Humiliés par trois IA : le test de Frandroid, drôle mais inquiétant",
+  "resume": "Frandroid a demandé à trois IA de « roaster » ses journalistes, une pratique qui refait le tour des réseaux sociaux. Les résultats sont drôles, mais le média les juge aussi inquiétants. Derrière la vanne, l'exercice offre surtout un aperçu gratuit de tout ce que l'IA a retenu de ses utilisateurs.",
+  "tags": [
+   "chatgpt",
+   "société",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3282655_on-a-demande-a-trois-ia-de-nous-humilier-les-resultats-sont-droles-mais-inquietants",
+  "date_source": null,
+  "date_redac": "2026-10-13T07:19:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 689,
+   "sortie": 502
+  }
+ },
+ {
+  "id": "bb9b673e2ef7bf03",
+  "slug": "hermes-agent-publie-une-version-canari-0-21-7-bb9b67",
+  "titre": "Hermes Agent publie une version canari 0.21.7",
+  "resume": "Hermes Agent, le projet d'agents de NousResearch, a publié une version canari estampillée v0.21.7+canary.20261013T070740Z. Ce canal canari sert à diffuser des builds de pré-version avant une éventuelle stabilisation. Aucun détail sur les changements n'accompagne cette publication.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.7%2Bcanary.20261013T070740Z",
+  "date_source": "2026-10-13T07:07:42+00:00",
+  "date_redac": "2026-10-13T07:18:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 434
+  }
+ },
+ {
   "id": "9a2736a97cea50e2",
   "slug": "le-surface-laptop-ultra-a-puce-nvidia-rtx-spark-n1x-est-en-precommande-9a2736",
   "titre": "Le Surface Laptop Ultra à puce Nvidia RTX Spark N1X est en précommande à 2 899 €",
@@ -38,6 +121,27 @@
    "modele": "deepseek-flash",
    "entree": 695,
    "sortie": 558
+  }
+ },
+ {
+  "id": "37f80c4a02777fd0",
+  "slug": "un-tesla-v100-sxm2-en-panne-xid-44-et-puissance-illisible-sous-nvidia--37f80c",
+  "titre": "Un Tesla V100 SXM2 en panne : Xid 44 et puissance illisible sous nvidia-smi",
+  "resume": "Un utilisateur de r/LocalLLaMA signale des problèmes avec l'un de ses modules Tesla V100 SXM2. nvidia-smi affiche la consommation et le plafond de puissance en « N/A / N/A », et dmesg remonte une erreur NVRM Xid 44 sur le bus PCI, avec llama-cli en cours d'exécution. Le changement de port PCIe, la réinstallation du module et plusieurs redémarrages n'ont rien changé, sous Ubuntu 26.04 avec les pilotes 580 et CUDA 13 comme dans un virtualenv CUDA 12.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4oma6/problems_with_tesla_v100_sxm2/",
+  "date_source": "2026-10-13T05:45:32+00:00",
+  "date_redac": "2026-10-13T07:19:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 801,
+   "sortie": 394
   }
  },
  {

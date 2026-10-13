@@ -1,22 +1,18 @@
 {
- "runs": 250,
- "items_collectes": 1743,
- "breves_publiees": 925,
- "articles_publies": 155,
- "tokens_entree": 913702,
- "tokens_sortie": 1355555,
+ "runs": 251,
+ "items_collectes": 1749,
+ "breves_publiees": 930,
+ "articles_publies": 156,
+ "tokens_entree": 918752,
+ "tokens_sortie": 1361444,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-13T06:18:06+00:00",
+ "dernier_run": "2026-10-13T07:20:04+00:00",
  "solde": {
-  "total": "85.69",
+  "total": "85.67",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-12T14:05:29+00:00",
-   "message": "brève impossible (graphsignal-top: a `top` for inference GPUs in the open-sour) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-12T14:05:44+00:00",
    "message": "brève impossible (BrokenML: can agents fix broken ML jobs?) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-13T04:13:41+00:00",
    "message": "brève impossible (I clustered two old Android phones to run a 27B LLM locally.) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-13T07:19:12+00:00",
+   "message": "brève impossible (Running decision models: Picking quant, VRAM usage) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.97,
+ "depense_usd": 5.99,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1024,10 +1024,14 @@
   [
    "2026-10-13T06:17:37+00:00",
    "85.69"
+  ],
+  [
+   "2026-10-13T07:18:53+00:00",
+   "85.67"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 3.68,
+ "depense_mois_usd": 3.7,
  "archive_tentatives": {
   "jour": "2026-10-13",
   "n": 3

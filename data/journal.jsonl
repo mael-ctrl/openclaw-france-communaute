@@ -1432,3 +1432,9 @@
 {"ts": "2026-10-13T06:29:23+00:00", "evenement": "deploiement", "details": {"fichiers": 587, "octets": 9260500}, "sha256": "443ac8dd04239967192f93c1830714c8e49bae3711b3de12affb6f99cdacf256"}
 {"ts": "2026-10-13T06:29:27+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "8ae82e511bd404248f67620166988e2ccad8ad8ec59ed923c36e187761d4cff8"}
 {"ts": "2026-10-13T06:29:27+00:00", "evenement": "bilan", "details": {"duree_s": 727.9, "neufs": 3, "breves": 3, "articles": 1, "fichiers": 574, "envois": 587, "publications": 0}, "sha256": "87e948be11acf57a0b1c931763b7b4c26d6b87880efe1f8d012f702082475568"}
+{"ts": "2026-10-13T07:18:52+00:00", "evenement": "collecte", "details": {"neufs": 6}, "sha256": "4b0435d3c03607e7a372315a50cb040e168fc9579824d5791f509571155634ee"}
+{"ts": "2026-10-13T07:19:12+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Running decision models: Picking quant, VRAM usage) : réponse non-JSON"}, "sha256": "c029c3b0ab1ffbc32bf6de2e259fde4be415423227782c5013b00026f56574c2"}
+{"ts": "2026-10-13T07:20:04+00:00", "evenement": "construction", "details": {"fichiers": 575}, "sha256": "8063daffbb33e6b69a203c8e9c995645b10bef4df533edd6d13433f2a3ea41ba"}
+{"ts": "2026-10-13T07:33:02+00:00", "evenement": "deploiement", "details": {"fichiers": 588, "octets": 9274064}, "sha256": "a86566dbebd80fa58ce37f619398f5c7c0fbc470b843807bb2243958fca3b3bb"}
+{"ts": "2026-10-13T07:33:02+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "16ce9da0006d45e7160abfea454d2fc9e00e853690f96b92c171e20000966f73"}
+{"ts": "2026-10-13T07:33:02+00:00", "evenement": "bilan", "details": {"duree_s": 861.6, "neufs": 6, "breves": 5, "articles": 1, "fichiers": 575, "envois": 588, "publications": 0}, "sha256": "79309cebbf0563de95efdd41511c1843be6e298b5b41b0a7d29c0c6445dd484d"}

@@ -1,5 +1,26 @@
 [
  {
+  "id": "78086402f617b43d",
+  "slug": "mac-mini-pour-llm-en-local-prioriser-la-ram-ou-la-puissance-du-chip-780864",
+  "titre": "Mac mini pour LLM en local : prioriser la RAM ou la puissance du chip ?",
+  "resume": "Un utilisateur prévoit d'acheter un Mac mini pour faire tourner des LLM locaux et des agents IA 24 h/24, sur des modèles allant jusqu'à 27 milliards de paramètres en quantification Q4, surtout pour des tâches courantes et l'exploration. Il hésite entre un M4 avec 32 Go de RAM et un M4 Pro avec 24 Go : privilégier la mémoire pour de plus gros modèles, ou la puissance CPU/GPU pour une inférence plus rapide ? Il cherche des retours d'expérience comparables.",
+  "tags": [
+   "matériel",
+   "agents",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4ly8i/mac_mini_for_running_llms_and_ai_agents_247/",
+  "date_source": "2026-10-13T03:17:11+00:00",
+  "date_redac": "2026-10-13T04:13:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 765,
+   "sortie": 939
+  }
+ },
+ {
   "id": "dcc4d9af069518cf",
   "slug": "un-modele-local-peut-il-optimiser-sa-propre-stack-d-execution-dcc4d9",
   "titre": "Un modèle local peut-il optimiser sa propre stack d'exécution ?",

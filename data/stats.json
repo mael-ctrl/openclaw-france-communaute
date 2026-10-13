@@ -1,22 +1,18 @@
 {
- "runs": 247,
- "items_collectes": 1733,
- "breves_publiees": 916,
- "articles_publies": 152,
- "tokens_entree": 902728,
- "tokens_sortie": 1336351,
+ "runs": 248,
+ "items_collectes": 1735,
+ "breves_publiees": 917,
+ "articles_publies": 153,
+ "tokens_entree": 904904,
+ "tokens_sortie": 1342196,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-13T03:11:32+00:00",
+ "dernier_run": "2026-10-13T04:14:11+00:00",
  "solde": {
   "total": "85.71",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-12T12:17:11+00:00",
-   "message": "déploiement : [Errno 104] Connection reset by peer"
-  },
   {
    "ts": "2026-10-12T14:05:29+00:00",
    "message": "brève impossible (graphsignal-top: a `top` for inference GPUs in the open-sour) : réponse non-JSON"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-13T02:10:01+00:00",
    "message": "brève impossible (Weird blog post from OrcaRouter) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-13T04:13:41+00:00",
+   "message": "brève impossible (I clustered two old Android phones to run a 27B LLM locally.) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -1011,6 +1011,10 @@
   ],
   [
    "2026-10-13T03:11:32+00:00",
+   "85.71"
+  ],
+  [
+   "2026-10-13T04:13:28+00:00",
    "85.71"
   ]
  ],

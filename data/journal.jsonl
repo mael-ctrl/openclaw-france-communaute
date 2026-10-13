@@ -1416,3 +1416,9 @@
 {"ts": "2026-10-13T03:22:43+00:00", "evenement": "deploiement", "details": {"fichiers": 584, "octets": 9200510}, "sha256": "1bcf71dc033abda7369d46054d1b3213259a3478a0645612ed24012adfaa31ff"}
 {"ts": "2026-10-13T03:22:43+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "715ef39fe872510964b802272ef419e196003479f4e789c64e82ae6d4887eb91"}
 {"ts": "2026-10-13T03:22:43+00:00", "evenement": "bilan", "details": {"duree_s": 683.7, "neufs": 0, "breves": 0, "articles": 0, "fichiers": 571, "envois": 584, "publications": 0}, "sha256": "7f5cbed07ca3f2efee3794f46a46a646a1894fed27f2c633eab73f259a4ddfee"}
+{"ts": "2026-10-13T04:13:28+00:00", "evenement": "collecte", "details": {"neufs": 2}, "sha256": "a7c44e1639f10c2be07611b4ebc5539fa6adb63e08df723cd111b7148e2d6af9"}
+{"ts": "2026-10-13T04:13:41+00:00", "evenement": "erreur", "details": {"message": "brève impossible (I clustered two old Android phones to run a 27B LLM locally.) : réponse non-JSON"}, "sha256": "0eb37747c2d0a0420799f7b244eae1a5515017485d3c02bb9fa2f465bcb0462d"}
+{"ts": "2026-10-13T04:14:11+00:00", "evenement": "construction", "details": {"fichiers": 572}, "sha256": "eb12739a4d871d5bde684dc3afe8559e52e33ead27f95e34a1242781d080dac2"}
+{"ts": "2026-10-13T04:24:15+00:00", "evenement": "deploiement", "details": {"fichiers": 585, "octets": 9218188}, "sha256": "9b826eb7bf36a0c0cb9d4b69d87aa29a983a2b6322582128987e9bda5ee8d88f"}
+{"ts": "2026-10-13T04:24:15+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "b5b70d883c5c85af453c2ad15d3802b3014b33a0de725435a94c2a4ab1d1c5be"}
+{"ts": "2026-10-13T04:24:15+00:00", "evenement": "bilan", "details": {"duree_s": 655.8, "neufs": 2, "breves": 1, "articles": 1, "fichiers": 572, "envois": 585, "publications": 0}, "sha256": "75b8129b588931a3c4d2ca6632267334d1b26c70cc922ecb4d948f04922c19c0"}

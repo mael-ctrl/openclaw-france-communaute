@@ -57,6 +57,7 @@
       L'assistant personnel open source qui vit sur ta machine — branché à tes messageries et tes outils.
       Tout ce qu'on vendait 97 € est dans ce kit. Aujourd'hui : <b>0 €</b>.
     </p>
+    <p><a href="#prerequis">Avant de télécharger : vérifie ton système et les prérequis →</a></p>
     <div class="actions">
       <a class="btn btn-principal btn-large" href="/dl/kit-openclaw.zip?v=2">⬇ Télécharger le kit (.zip)</a>
       <a class="btn btn-secondaire btn-large" href="#fichiers">📂 Parcourir les fichiers</a>
@@ -68,6 +69,62 @@
       <span>🔒 <b>Sécurisé par défaut</b></span>
       <span>🇫🇷 <b>100 % en français</b></span>
     </div>
+  </section>
+
+  <section id="prerequis" aria-labelledby="titre-prerequis" style="scroll-margin-top:88px">
+    <div class="titre-section">
+      <div class="kicker">Avant de télécharger</div>
+      <h2 id="titre-prerequis">Quel système et quels outils préparer ?</h2>
+      <p>Choisis ton chemin avant de lancer un script. Le logiciel OpenClaw propose plusieurs méthodes ;
+      ce kit indépendant ne les automatise pas toutes. Lis le
+      <a href="/dl/kit-openclaw/GUIDE.md">GUIDE.md</a> et les réserves ci-dessous.</p>
+    </div>
+    <details class="faq" open>
+      <summary>Le script du kit : macOS ou Linux, dans un terminal Bash</summary>
+      <div class="reponse">
+        <p><code>scripts/install.sh</code> vérifie macOS ou Linux et la présence de <code>curl</code>,
+        puis lance l’installateur officiel. Lis le script avant de l’exécuter ;
+        sur un VPS, travaille sur le serveur via <strong>SSH</strong>, avec un compte dédié.</p>
+        <p>Pour le chemin classique utilisant Node.js, la documentation indique
+        <strong>Node.js 24.16+ dans la branche 24, ou 26.1+ dans la branche 26</strong>.
+        Vérifie ta version avec <code>node -v</code> si Node est déjà installé ;
+        l’installateur officiel peut le provisionner s’il manque. Docker n’est pas obligatoire.</p>
+      </div>
+    </details>
+    <details class="faq">
+      <summary>Windows : méthode officielle native ou terminal Linux dans WSL2</summary>
+      <div class="reponse">
+        <p>Le kit fournit un script <strong>Bash</strong>, pas un installateur PowerShell.
+        Si tu choisis WSL2, les commandes Bash se lancent dans le terminal Linux,
+        <strong>pas dans PowerShell</strong>.</p>
+        <p>OpenClaw propose aussi des applications Windows et un installateur PowerShell :
+        suis la <a href="https://docs.openclaw.ai/platforms/windows" rel="noopener">documentation Windows officielle</a>
+        pour choisir et préparer ta méthode. Ces parcours natifs ne sont pas fournis par le script du kit.</p>
+      </div>
+    </details>
+    <details class="faq">
+      <summary>Option Docker : Compose v2, stockage et mémoire selon l’usage</summary>
+      <div class="reponse">
+        <p>Prévois Docker Engine ou Docker Desktop, avec <strong>Docker Compose v2</strong>.
+        Vérifie <code>docker compose version</code> et que le moteur Docker est démarré.
+        Garde de l’espace disque pour les images, les journaux et les sauvegardes.</p>
+        <p>La documentation demande <strong>au moins 6 Go de mémoire pour la construction locale
+        d’une image depuis les sources</strong>. Le Compose du kit utilise par défaut une
+        <strong>image officielle préconstruite</strong> : il évite cette construction,
+        mais ne garantit pas une consommation mémoire fixe à l’exécution.</p>
+        <p>Les indications plus anciennes de 2 ou 4 Go dans le guide ne sont
+        <strong>pas une garantie</strong> de dimensionnement. Les outils activés, le navigateur,
+        les autres services et un éventuel modèle local changent les besoins : vérifie ton usage
+        avant de choisir une offre d’hébergement.</p>
+      </div>
+    </details>
+    <p>Les kits restent gratuits ; l’accès au <strong>modèle IA</strong> et l’<strong>hébergement</strong>
+    peuvent être payants. <a href="/guides/demarrer-openclaw-hermes/#couts">Prépare ton budget et tes accès →</a></p>
+    <p>Sources : <a href="https://docs.openclaw.ai/install" rel="noopener">installation officielle</a> et
+    <a href="https://docs.openclaw.ai/install/docker" rel="noopener">prérequis Docker</a>,
+    consultés le <time datetime="2026-10-13">13/10/2026</time>, ainsi que les fichiers du kit.
+    Cette synthèse indépendante est une vérification documentaire, <strong>pas une installation testée</strong>
+    sur chaque plateforme. La documentation officielle prévaut en cas d’écart.</p>
   </section>
 
   <section id="fichiers" aria-labelledby="titre-fichiers" style="scroll-margin-top:88px">
@@ -224,9 +281,10 @@
     </div>
     <details class="faq" open>
       <summary>Il me faut quoi pour commencer ?</summary>
-      <div class="reponse">Une machine à toi (ou un petit VPS à ~5-10 €/mois chez l'hébergeur de ton choix — le kit fonctionne avec n'importe lequel).
-      Pas encore de serveur ? <a href="https://www.hostinger.com/fr?REFERRALCODE=FGUOPENCL2M5" rel="sponsored noopener" target="_blank">Hostinger — lien partenaire qui finance ce site 🦀 (rabais inclus)</a>.
-      Et l'envie de suivre des étapes numérotées : le guide est écrit pour les non-techniques.</div>
+      <div class="reponse">Une machine à toi ou un VPS adapté à ton usage, un terminal et un accès à un modèle IA.
+      Vérifie d’abord les <a href="#prerequis">systèmes et outils nécessaires</a> : le script Bash du kit,
+      Windows natif et Docker suivent des chemins différents. Le guide est gratuit ; le modèle et
+      l’hébergement peuvent être payants.</div>
     </details>
     <details class="faq">
       <summary>C'est vraiment le pack qui était vendu 97 € ?</summary>

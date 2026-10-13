@@ -252,6 +252,52 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   celui de Bluesky cette semaine. Prochaine priorité : contrôler les prérequis
   OpenClaw ; suivre les retours du post existant sans republier.
 
+## Prérequis OpenClaw — préparés le 13/10/2026, publication bloquée
+
+- **Une amélioration préparée, non publiée** : `/openclaw/#prerequis`, avec
+  accès avant le bouton ZIP et FAQ cohérente. Distinction entre script Bash
+  macOS/Linux, Windows natif/WSL2 et Docker facultatif. Versions Node.js
+  documentées ; les 6 Go cités par la doc Docker concernent la construction
+  locale depuis les sources, pas un minimum universel à l’exécution.
+  Réserve explicite sur les anciennes estimations mémoire du guide.
+- Sources officielles `https://docs.openclaw.ai/install`, `/install/docker`
+  et `/platforms/windows` relues le 13/10 via leurs versions `.md` (HTTP 200).
+  Aucun script, fichier de kit ni style modifié ; aucune installation réelle
+  d’OpenClaw ou Docker prétendue.
+- Les **3 nouveaux tests** échouent avant ajout puis passent ; suite complète
+  **52 tests OK**. Chrome sans JavaScript, à **1440, 1024, 430, 390, 375 et
+  360 px** : ancre au clavier, trois FAQ ouvertes au clavier, styles,
+  absence de débordement et accès au guide vérifiés **localement seulement**.
+- **Incident OVH confirmé** : les six URL de santé répondent **HTTP 503**
+  dès 14h35 CEST, encore à 14h44 ; la clé IndexNow répond également 503.
+  Réponse identique sur l’origine HTTP directe, sans Cloudflare. L’API OVH
+  rattache `communo.cluster131.hosting.ovh.net` au **filer 1593 / cluster131**,
+  service toujours actif. Incident matériel officiel commencé à **10h53 UTC**,
+  statut `identified` au contrôle :
+  <https://web-cloud.status-ovhcloud.com/incidents/tv9r4xs5t6r3>.
+  L’accueil du média `communaute-ia.fr` répond aussi 503.
+- `python3 outils/deployer_openclaw.py` exécuté depuis le clone cron hors
+  Bureau : **sortie 1, FTP `421 Home directory not available - aborting`**
+  avant tout transfert. Aucun fichier distant changé, aucune sauvegarde FTP
+  possible pendant cette panne. Les deux ZIP régénérés sont intègres et
+  inchangés octet pour octet après restauration des dates/modes des sources.
+  Les conflits préexistants du clone partagé restent intacts.
+- Repli Cloudflare Pages examiné en lecture seule : les deux jetons disponibles
+  retournent **403** sur le projet `openclaw-france`. Aucun DNS, droit, jeton,
+  serveur ou hébergement modifié ; surtout ne pas basculer vers l’ancien site
+  payant sans avoir publié et vérifié la version gratuite sur le repli.
+- **IndexNow HTTP 200** pour `/openclaw/` à 12h44 UTC : notification acceptée
+  uniquement. Cela ne prouve ni disponibilité, ni publication de la nouvelle
+  section, ni indexation (la page publique et la clé restent en 503).
+- **Aucune distribution** : site indisponible ; le contrôle des accès du jour
+  figure déjà dans `docs/distribution-textes.md`, et Bluesky a été utilisé le
+  12/10. Aucun nouveau contact ni publication de substitution.
+- **À reprendre en priorité** : une fois OVH rétabli, sauvegarder et comparer
+  les fichiers distants, déployer cette modification avant d’en ajouter une
+  autre, puis relire la section publique, les ZIP et les six URL de santé.
+  Refaire le ping IndexNow après publication effective. Preuves privées sous
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-13/hub-prerequis-openclaw/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

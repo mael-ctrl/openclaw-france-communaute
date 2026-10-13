@@ -1,26 +1,18 @@
 {
- "runs": 144,
- "items_collectes": 1284,
- "breves_publiees": 513,
- "articles_publies": 66,
- "tokens_entree": 480299,
- "tokens_sortie": 667835,
+ "runs": 145,
+ "items_collectes": 1324,
+ "breves_publiees": 518,
+ "articles_publies": 67,
+ "tokens_entree": 485499,
+ "tokens_sortie": 674871,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-12T07:11:45+00:00",
+ "dernier_run": "2026-10-13T07:11:57+00:00",
  "solde": {
-  "total": "86.45",
+  "total": "85.69",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-11T06:48:20+00:00",
-   "message": "archivage wayback : The read operation timed out"
-  },
-  {
-   "ts": "2026-10-11T16:35:13+00:00",
-   "message": "brève impossible (v0.21.6+canary.20261011T070142Z) : [Errno 54] Connection reset by peer"
-  },
   {
    "ts": "2026-10-12T03:43:26+00:00",
    "message": "déploiement : [Errno 54] Connection reset by peer"
@@ -32,10 +24,18 @@
   {
    "ts": "2026-10-12T06:31:19+00:00",
    "message": "diffusion sociale : <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+   "ts": "2026-10-13T07:11:34+00:00",
+   "message": "brève impossible (release-publish/ff338bdb01f2-1791867901: fix: preserve cron ) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-13T07:14:29+00:00",
+   "message": "archivage wayback : The read operation timed out"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.21,
+ "depense_usd": 5.97,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -596,13 +596,17 @@
   [
    "2026-10-12T07:11:15+00:00",
    "86.45"
+  ],
+  [
+   "2026-10-13T07:10:57+00:00",
+   "85.69"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.92,
+ "depense_mois_usd": 3.68,
  "archive_tentatives": {
-  "jour": "2026-10-12",
-  "n": 2
+  "jour": "2026-10-13",
+  "n": 1
  },
  "derniere_archive": "2026-10-09"
 }

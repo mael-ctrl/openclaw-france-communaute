@@ -1,5 +1,110 @@
 [
  {
+  "id": "bb9b673e2ef7bf03",
+  "slug": "hermes-agent-publie-une-version-canari-v0-21-7-bb9b67",
+  "titre": "Hermes Agent publie une version canari v0.21.7",
+  "resume": "Hermes Agent publie une nouvelle version canari, estampillée v0.21.7+canary.20261013T070740Z. La build porte l'horodatage du 13 octobre 2026. Il s'agit d'un canal de pré-version, distinct des versions stables de l'agent.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.7%2Bcanary.20261013T070740Z",
+  "date_source": "2026-10-13T07:07:42+00:00",
+  "date_redac": "2026-10-13T07:11:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 829
+  }
+ },
+ {
+  "id": "fd056784338e7d7e",
+  "slug": "modeles-de-decision-quantization-et-vram-les-questions-d-un-utilisateu-fd0567",
+  "titre": "Modèles de décision : quantization et VRAM, les questions d'un utilisateur",
+  "resume": "Sur r/LocalLLaMA, un utilisateur remarque que vLLM a publié d3, une famille de modèles de décision, et que llama.cpp les prend déjà en charge. Il se demande si ces modèles sont sensibles à la quantization comme les modèles FIM type qwen-2.5-coder, pour lesquels Q8 est conseillé. Il veut aussi savoir s'ils consomment plus de VRAM que leur taille, pour faire tenir un GGUF Q8 de 5,16 Go sur un GPU de 6 Go.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4pbla/running_decision_models_picking_quant_vram_usage/",
+  "date_source": "2026-10-13T06:28:27+00:00",
+  "date_redac": "2026-10-13T07:11:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 835,
+   "sortie": 694
+  }
+ },
+ {
+  "id": "37f80c4a02777fd0",
+  "slug": "un-tesla-v100-sxm2-muet-sur-la-consommation-et-en-erreur-xid-44-avec-l-37f80c",
+  "titre": "Un Tesla V100 SXM2 muet sur la consommation et en erreur Xid 44 avec llama-cli",
+  "resume": "Un utilisateur de r/LocalLLaMA signale des problèmes avec l'un de ses modules Tesla V100 SXM2 : nvidia-smi affiche « N/A / N/A » pour la consommation (Pwr:Usage/Cap), et le lancement de llama-cli provoque une erreur Xid 44 dans dmesg. Il a déjà testé un autre port PCIe, un réenfichage du module et plusieurs redémarrages, sans succès. Son système tourne sous Ubuntu 26.04 avec les pilotes Nvidia 580 et CUDA 13, et le dysfonctionnement persiste dans un virtualenv sous CUDA 12.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4oma6/problems_with_tesla_v100_sxm2/",
+  "date_source": "2026-10-13T05:45:32+00:00",
+  "date_redac": "2026-10-13T07:11:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 771,
+   "sortie": 402
+  }
+ },
+ {
+  "id": "b1847c1ca4506e64",
+  "slug": "vramble-un-ordonnanceur-de-vram-pour-enchainer-les-modeles-en-local-b1847c",
+  "titre": "vramble, un ordonnanceur de VRAM pour enchaîner les modèles en local",
+  "resume": "Sur r/LocalLLaMA, un développeur présente vramble, une couche de répartition des requêtes qui charge et décharge automatiquement les modèles, avec une file d'attente par priorités. L'idée : éviter que chaque outil réclame toute la VRAM disponible. Publié sous licence MIT sur GitHub, le projet est récent et l'auteur ne garantit pas qu'il fonctionne sur n'importe quelle machine.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4ocgn/built_a_vram_scheduler_vramble_to_automate_model/",
+  "date_source": "2026-10-13T05:28:39+00:00",
+  "date_redac": "2026-10-13T07:11:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 770,
+   "sortie": 1350
+  }
+ },
+ {
+  "id": "d6103485ed855346",
+  "slug": "sur-r-localllama-un-appel-a-reverse-engineer-cuda-avec-l-ia-d61034",
+  "titre": "Sur r/LocalLLaMA, un appel à reverse-engineer CUDA avec l'IA",
+  "resume": "Un membre de r/LocalLLaMA, /u/Odd-World4925, lance un appel pour reconstruire une implémentation open source de CUDA à l'aide de l'IA. Il cite en exemple les moddeurs qui s'en servent déjà pour reverse-engineer des jeux et des logiciels, évoquant photocraft, gridcraft et un mod GTA5 mettant en scène Sonic. Propriétaire d'une carte AMD Radeon, il explique vouloir contourner sa dépendance à NVIDIA — non sans souligner l'ironie qu'il y aurait à faire tourner cette reconstruction sur des cœurs CUDA.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4n6sg/anyone_feel_like_reverseengineering_cuda/",
+  "date_source": "2026-10-13T04:23:26+00:00",
+  "date_redac": "2026-10-13T07:11:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 705,
+   "sortie": 373
+  }
+ },
+ {
   "id": "cd554ad3f96bc5b9",
   "slug": "google-preparerait-une-nouvelle-box-tv-encore-plus-intrusive-que-le-tv-cd554a",
   "titre": "Google préparerait une nouvelle box TV, encore plus intrusive que le TV Streamer",

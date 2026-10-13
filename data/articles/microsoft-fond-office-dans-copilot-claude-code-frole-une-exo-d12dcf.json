@@ -1,0 +1,41 @@
+{
+ "slug": "microsoft-fond-office-dans-copilot-claude-code-frole-une-exo-d12dcf",
+ "titre": "Microsoft fond Office dans Copilot, Claude Code frôle une exoplanète",
+ "chapo": "Microsoft ne veut plus d'une suite bureautique faite d'applications séparées : Word, Excel et PowerPoint deviennent une brique de Copilot. La même semaine, un chercheur indépendant obtient du temps d'observation sur le télescope TESS après avoir repéré une exoplanète candidate avec Claude Code.",
+ "html": "<h2 id=\"office-devient-une-brique-de-copilot\">Office devient une brique de Copilot</h2>\n<p>Microsoft va embarquer l'ensemble des fonctionnalités de Word, Excel et PowerPoint dans la nouvelle application Copilot, rapporte 01net. Concrètement, les utilisateurs de l'assistant de l'éditeur pourront concevoir et ajuster leurs documents grâce à l'IA, sans passer par une application distincte.</p>\n<p>Le changement n'est pas seulement ergonomique. La bureautique ne se présente plus comme une série d'applis séparées, mais comme une brique de l'assistant. Word, Excel et PowerPoint cessent d'être des destinations à ouvrir pour devenir des capacités invoquées depuis un point d'entrée unique.</p>\n<p>C'est une manière de trancher un débat qui traverse tout le secteur : l'IA n'est pas un panneau latéral ajouté à un logiciel existant, elle devient le logiciel lui-même.</p>\n<h2 id=\"une-exoplanete-candidate-sortie-des-arch\">Une exoplanète candidate sortie des archives de la NASA</h2>\n<p>Un chercheur indépendant affirme avoir identifié une exoplanète candidate dans des données publiques de la NASA, avec l'aide de Claude Code, l'agent IA d'Anthropic, rapporte le Journal du Geek. Il s'agit pour l'instant d'une affirmation, pas d'une découverte confirmée.</p>\n<p>Le fait rare est ailleurs. L'agence spatiale américaine a accepté de consacrer à ce chercheur un créneau d'observation sur son télescope TESS, entre fin octobre et fin novembre, pour vérifier si la découverte s'avère réelle. Un particulier, des données publiques, un agent IA comme outil d'exploration, et un instrument orbital qui arbitre : la chaîne complète est inhabituelle.</p>\n<p>Le vocabulaire compte ici. On parle d'une candidate, et l'observation à venir tranchera.</p>\n<h2 id=\"ce-que-les-abonnements-autorisent-vraime\">Ce que les abonnements autorisent vraiment</h2>\n<p>Les limites d'usage de ChatGPT Pro seront divisées par deux à la fin du mois, et un nouveau palier d'abonnement à 500 dollars fait son entrée, selon 01net. Au même moment, une analyse indépendante chiffre la générosité des formules d'abonnement de son rival Claude.</p>\n<p>Le comparatif ne porte donc pas sur les capacités des modèles, mais sur ce que chaque offre autorise réellement, rapporté à son prix. C'est une grille de lecture différente : à mesure que les assistants s'installent dans le travail quotidien, la question du quota devient aussi structurante que celle de la qualité des réponses.</p>\n<p>Un plafond divisé par deux et un palier à 500 dollars dessinent une segmentation par l'usage plutôt que par la fonctionnalité.</p>\n<h2 id=\"des-notes-de-version-ecrites-aussi-pour-\">Des notes de version écrites aussi pour les agents</h2>\n<p>OpenClaw publie la version 2026.10.1, qui totalise 3 055 commits, 2 425 pull requests et 402 contributeurs. Détail notable : les notes de version et le changelog présentent le même contenu sous deux formats — des notes lisibles par les humains, avec sections dépliables, et un changelog en Markdown brut destiné aux agents IA et aux outils. Le projet remercie nommément ses contributeurs.</p>\n<p>De son côté, Hermes Agent publie une version canari estampillée v0.21.7+canary.20261013T070740Z, portant l'horodatage du 13 octobre 2026. Il s'agit d'un canal de pré-version, distinct des versions stables de l'agent.</p>\n<p>Les deux dépêches se répondent sans se croiser : d'un côté un format de documentation pensé pour être consommé par des agents, de l'autre un canal de publication qui assume de livrer des builds horodatées.</p>\n<h2>Et maintenant ?</h2>\n<p>Sur une même semaine, l'assistant entre dans les documents, explore des archives scientifiques publiques, se discute en termes de quotas et de dollars, et publie des notes de version destinées à des lecteurs non humains. Ce ne sont ni les mêmes acteurs ni les mêmes enjeux, mais un point commun apparaît : l'IA cesse d'être une fonctionnalité que l'on ouvre pour devenir une couche par laquelle passent les documents, les données et jusqu'à la documentation des outils.</p>",
+ "pivot": "d12dcfa1fc82485f",
+ "tags": [
+  "claude",
+  "chatgpt",
+  "openclaw",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/microsoft-integre-les-applis-office-directement-dans-copilot.html"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/11/claude-code-internaute-affirme-avoir-trouve-planete-dont-personne-soupconnait-lexistence-lenquete-archives-nasa-secoue-reddit/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/chatgpt-vs-claude-quel-abonnement-ia-est-le-plus-genereux-une-etude-a-tranche.html"
+  },
+  {
+   "nom": "OpenClaw (releases)",
+   "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.1"
+  },
+  {
+   "nom": "Hermes Agent (releases)",
+   "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.7%2Bcanary.20261013T070740Z"
+  }
+ ],
+ "date": "2026-10-13T07:11:57+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1501,
+  "sortie": 3388
+ }
+}

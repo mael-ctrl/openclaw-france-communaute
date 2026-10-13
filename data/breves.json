@@ -1,5 +1,132 @@
 [
  {
+  "id": "a3acaa4f6e41de2c",
+  "slug": "un-agent-qwen3-8fn-local-moins-cher-que-le-cloud-pour-un-utilisateur-d-a3acaa",
+  "titre": "Un agent Qwen3.8FN local moins cher que le cloud pour un utilisateur de r/LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, un utilisateur affirme que faire tourner Qwen3.8FN en Q4 sur sa machine lui coûte moins cher que tous les modèles cloud, sauf Luna et le nouveau Haiku, aux tarifs électriques de pointe et mi-pointe. En heures creuses, son installation devient le modèle le moins cher. La machine : un Tesla P40 de 24 Go, un Xeon Silver, environ 200 Go de RAM ECC DDR4 et moins de 250 W en charge.",
+  "tags": [
+   "agents",
+   "matériel",
+   "business",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5blg4/my_local_qwen38fn_agent_is_significantly_cheaper/",
+  "date_source": "2026-10-13T23:07:45+00:00",
+  "date_redac": "2026-10-13T23:18:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 851,
+   "sortie": 945
+  }
+ },
+ {
+  "id": "aa4410a3a48a859e",
+  "slug": "anthropic-remplace-git-par-son-propre-systeme-de-controle-de-source-aa4410",
+  "titre": "Anthropic remplace Git par son propre système de contrôle de source",
+  "resume": "Anthropic a construit sa propre alternative à Git, rapporte Simon Willison, parce que le rythme de modification de son code a explosé : environ 2 500 changements fusionnés par jour en mai 2026, plus de 30 000 en septembre. Le système de contrôle de source s'appelle Scion, la revue de code passe par Antique. Willison voit dans les modèles de classe Fable/Mythos un facteur clé de cette accélération.",
+  "tags": [
+   "dev",
+   "claude",
+   "business"
+  ],
+  "importance": 4,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+  "date_source": "2026-10-13T23:00:06+00:00",
+  "date_redac": "2026-10-13T23:19:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 775,
+   "sortie": 964
+  }
+ },
+ {
+  "id": "bd035c46cbe07c8b",
+  "slug": "steerclaw-mobile-un-agent-ia-qui-tourne-entierement-sur-le-telephone-bd035c",
+  "titre": "SteerClaw Mobile : un agent IA qui tourne entièrement sur le téléphone",
+  "resume": "Un développeur solo présente SteerClaw Mobile, une app qui exécute toute la boucle d'un agent directement sur le téléphone. On y branche son modèle local, ses serveurs MCP et ses fournisseurs de recherche ; les données restent sur l'appareil, le traitement du modèle tourne sur le serveur local, et l'app ne collecte ni données ni statistiques. L'auteur, qui utilise Qwen 3.8 sur une RTX4090, attend retours et signalements de bugs.",
+  "tags": [
+   "agents",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5bawd/claude_cowork_for_local_llms_that_runs_on_your/",
+  "date_source": "2026-10-13T22:54:38+00:00",
+  "date_redac": "2026-10-13T23:19:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 840,
+   "sortie": 1093
+  }
+ },
+ {
+  "id": "69e5cd08bfb68d21",
+  "slug": "hermes-agent-publie-la-release-candidate-rc-2-de-sa-version-0-22-0-69e5cd",
+  "titre": "Hermes Agent publie la release candidate rc.2 de sa version 0.22.0",
+  "resume": "NousResearch met en ligne sur GitHub la release candidate rc.2 rattachée à Hermes Agent v0.22.0. Les métadonnées jointes à la publication signalent une deuxième tentative (« attempt » : 2), l'absence de publication automatique et un commit identifié par une empreinte commençant par e0. L'extrait ne détaille ni le contenu fonctionnel ni les correctifs apportés par cette version.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.2-v0.22.0",
+  "date_source": "2026-10-13T22:34:10+00:00",
+  "date_redac": "2026-10-13T23:19:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 612,
+   "sortie": 554
+  }
+ },
+ {
+  "id": "0da009565889c220",
+  "slug": "hermes-agent-la-release-candidate-0-22-0-abandonnee-0da009",
+  "titre": "Hermes Agent : la release candidate 0.22.0 abandonnée",
+  "resume": "Le dépôt Hermes Agent a publié le 13 octobre 2026 une entrée de version intitulée abandoned-rc.1-v0.22.0, rattachée à la version 0.22.0 du projet. Le préfixe « abandoned » signale une release candidate abandonnée plutôt qu'une publication stable. L'extrait disponible se limite aux métadonnées techniques de cette release : schéma 1, tentative 1.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.1-v0.22.0",
+  "date_source": "2026-10-13T22:33:48+00:00",
+  "date_redac": "2026-10-13T23:19:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 794
+  }
+ },
+ {
+  "id": "4758fb7d7d843d68",
+  "slug": "un-modele-qwen-27b-a-20-tokens-s-sur-le-gpu-d-une-ps5-jailbreakee-4758fb",
+  "titre": "Un modèle Qwen 27B à ~20 tokens/s sur le GPU d'une PS5 jailbreakée",
+  "resume": "Un post du forum r/LocalLLaMA affirme qu'un modèle Qwen 27B tourne à environ 20 tokens par seconde sur le GPU d'une PS5 jailbreakée. L'information est publiée par l'utilisateur /u/LatentSpacer. Elle alimente les discussions de la communauté sur l'inférence locale de grands modèles sur du matériel grand public détourné de son usage initial.",
+  "tags": [
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5ak2n/someone_is_running_qwen_27b_at_20_toks_on_a/",
+  "date_source": "2026-10-13T22:21:00+00:00",
+  "date_redac": "2026-10-13T23:19:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 629,
+   "sortie": 1389
+  }
+ },
+ {
   "id": "8951a440a7ebf128",
   "slug": "un-simple-message-de-remerciement-sur-r-localllama-sans-contenu-exploi-8951a4",
   "titre": "Un simple message de remerciement sur r/LocalLLaMA, sans contenu exploitable",

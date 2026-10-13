@@ -1395,3 +1395,11 @@
 {"ts": "2026-10-13T00:20:03+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "18aedf947777fcb9f01a4783d930b866e471b973044d6b651f11254fd1acf83f"}
 {"ts": "2026-10-13T00:20:03+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-13.json", "publications": 1078}, "sha256": "c9ee5c03cc30e3cc82218ec8980c644b7ec4e3a18d79b7a182e90cfacd05f5c1"}
 {"ts": "2026-10-13T00:20:03+00:00", "evenement": "bilan", "details": {"duree_s": 883.2, "neufs": 2, "breves": 2, "articles": 1, "fichiers": 569, "envois": 582, "publications": 4}, "sha256": "e8a9af247e58abf064c427384d4c532f17d41188b7d45d2e21222df88b4d154a"}
+{"ts": "2026-10-13T01:07:36+00:00", "evenement": "collecte", "details": {"neufs": 2}, "sha256": "e9398482d102149ab22bfea1d89dfc6ce8acab9c3b825524751bbf0158ccbb13"}
+{"ts": "2026-10-13T01:08:00+00:00", "evenement": "erreur", "details": {"message": "brève impossible (web-edit 0.1a0) : réponse non-JSON"}, "sha256": "1e08986361ca7608fa3148261a43b1d6d01273dccd4f48a47008f42254205e97"}
+{"ts": "2026-10-13T01:08:26+00:00", "evenement": "construction", "details": {"fichiers": 570}, "sha256": "94af2c6bb97b34775013ee3155c40c73a3fae696ba87b8b55a4e161667a251f2"}
+{"ts": "2026-10-13T01:20:24+00:00", "evenement": "deploiement", "details": {"fichiers": 583, "octets": 9181997}, "sha256": "86e74521794592bd9fb40418bd3918c8501108f18af8d71c1366124f526dd12e"}
+{"ts": "2026-10-13T01:20:25+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "c138317949169d39c89aefd794627d9f211e20faaea96ff9335aafb87e50928f"}
+{"ts": "2026-10-13T01:20:33+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 2}, "sha256": "0086e7a6a154e7ce0030118d9b2e57deb0386ac114ceb5e5c2f2eeb703bcf9e5"}
+{"ts": "2026-10-13T01:20:45+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "4d45155d406df3657f5b8f2b5fbfcf289ff05c6dbaa092ac0231418e1a6db27f"}
+{"ts": "2026-10-13T01:20:45+00:00", "evenement": "bilan", "details": {"duree_s": 804.1, "neufs": 2, "breves": 1, "articles": 1, "fichiers": 570, "envois": 583, "publications": 4}, "sha256": "8f6e2e79bffe58fd02d733e90d7365eb9a4d955b7482c38565ed8f691d2296b0"}

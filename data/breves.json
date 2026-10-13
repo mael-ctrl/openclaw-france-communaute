@@ -1,5 +1,27 @@
 [
  {
+  "id": "dcc4d9af069518cf",
+  "slug": "un-modele-local-peut-il-optimiser-sa-propre-stack-d-execution-dcc4d9",
+  "titre": "Un modèle local peut-il optimiser sa propre stack d'exécution ?",
+  "resume": "Un internaute de r/LocalLLaMA se demande quand un modèle exécutable en local saura optimiser sa propre stack d'exécution. Il note que les forks spécialisés par configuration matérielle sont produits avec Claude ou les plus gros modèles d'OpenAI, l'open source comptant selon lui 4 à 6 mois de retard. Il cite deepseek4.1, glm5.3 et leurs versions réduites, v4vision et 5.3flash, ainsi que Qwen 4, attendu fin octobre.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4j70c/how_far_are_we_from_a_local_model_being_able_to/",
+  "date_source": "2026-10-13T01:01:00+00:00",
+  "date_redac": "2026-10-13T02:09:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 822,
+   "sortie": 1297
+  }
+ },
+ {
   "id": "03ea612acacd1cee",
   "slug": "anthropic-publie-sur-les-defenses-contre-la-distillation-r-localllama--03ea61",
   "titre": "Anthropic publie sur les défenses contre la distillation, r/LocalLLaMA ironise",

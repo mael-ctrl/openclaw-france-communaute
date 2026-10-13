@@ -1459,3 +1459,8 @@
 {"ts": "2026-10-13T12:35:05+00:00", "evenement": "erreur", "details": {"message": "déploiement : 421 Home directory not available - aborting"}, "sha256": "e64549786417bc56fd1f9ece0e2a60fca5aa691735aeca34ca9edba397e8013a"}
 {"ts": "2026-10-13T12:35:05+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "c3ecbda583623d0c9451218e333fb1eed9aa5e353bfeee02ced99264a7ffb896"}
 {"ts": "2026-10-13T12:35:05+00:00", "evenement": "bilan", "details": {"duree_s": 79.6, "neufs": 23, "breves": 6, "articles": 1, "fichiers": 579, "publications": 0}, "sha256": "dc5694f1f8b8db58f8c15636eeda70c2ff931ade2cd3f5e2fc9d8be5e10b5a0f"}
+{"ts": "2026-10-13T12:42:23+00:00", "evenement": "collecte", "details": {"neufs": 0}, "sha256": "79979cf5ffdcbb0eaf0dec24c0ca12b925c7b6959dc4da2a79ed2db5c28b1b25"}
+{"ts": "2026-10-13T12:42:24+00:00", "evenement": "construction", "details": {"fichiers": 579}, "sha256": "1e53104f88ff85ea16ceb96bb41b541724e514ae5873cdea34cb906f6501a5f7"}
+{"ts": "2026-10-13T12:42:25+00:00", "evenement": "erreur", "details": {"message": "déploiement : 421 Home directory not available - aborting"}, "sha256": "24e32a15c7f96c9b4d7e37d57052a72d7a345de4eb975bf0bb136b2e22e07dc9"}
+{"ts": "2026-10-13T12:42:26+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "90ac6faf7300fb8902453faa4c7304d85fca3c8098f9faffd5e0c0bb29dbbb43"}
+{"ts": "2026-10-13T12:42:26+00:00", "evenement": "bilan", "details": {"duree_s": 20.5, "neufs": 0, "breves": 0, "articles": 0, "fichiers": 579, "publications": 0}, "sha256": "7e2055b15f02a80c1ae728c87c059814b9da522bee571c2e7ec90d45a21643f9"}

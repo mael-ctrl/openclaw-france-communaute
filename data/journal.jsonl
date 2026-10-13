@@ -1454,3 +1454,8 @@
 {"ts": "2026-10-13T10:04:30+00:00", "evenement": "erreur", "details": {"message": "déploiement : [Errno 104] Connection reset by peer"}, "sha256": "de11dc59fdbc2a0cd9825d27d9168b5c29fd84305ea61726fbe36c40f86c6ec3"}
 {"ts": "2026-10-13T10:04:34+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "6351aa508d45068261dc27f99969f5abf9e256a12f99612b1b2508974c43fab0"}
 {"ts": "2026-10-13T10:04:34+00:00", "evenement": "bilan", "details": {"duree_s": 233.6, "neufs": 8, "breves": 5, "articles": 1, "fichiers": 578, "publications": 0}, "sha256": "10af45d17331c9ceb3dd6608141ff5033e92acf41a44171366c4de759263e93a"}
+{"ts": "2026-10-13T12:34:00+00:00", "evenement": "collecte", "details": {"neufs": 23}, "sha256": "be700e3b01f0b5e17ba60608f1d23e848105c0f5b3db7ff290e38eb0154fc53b"}
+{"ts": "2026-10-13T12:35:03+00:00", "evenement": "construction", "details": {"fichiers": 579}, "sha256": "3fbc22d9650a18c45fc81e57a42c6069f3143290376e4eae70c71153a8ec9f04"}
+{"ts": "2026-10-13T12:35:05+00:00", "evenement": "erreur", "details": {"message": "déploiement : 421 Home directory not available - aborting"}, "sha256": "e64549786417bc56fd1f9ece0e2a60fca5aa691735aeca34ca9edba397e8013a"}
+{"ts": "2026-10-13T12:35:05+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "c3ecbda583623d0c9451218e333fb1eed9aa5e353bfeee02ced99264a7ffb896"}
+{"ts": "2026-10-13T12:35:05+00:00", "evenement": "bilan", "details": {"duree_s": 79.6, "neufs": 23, "breves": 6, "articles": 1, "fichiers": 579, "publications": 0}, "sha256": "dc5694f1f8b8db58f8c15636eeda70c2ff931ade2cd3f5e2fc9d8be5e10b5a0f"}

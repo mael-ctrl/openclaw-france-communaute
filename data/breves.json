@@ -1,5 +1,130 @@
 [
  {
+  "id": "255cf94e55ae8ea1",
+  "slug": "openclaw-publie-la-version-2026-10-3-255cf9",
+  "titre": "OpenClaw publie la version 2026.10.3",
+  "resume": "OpenClaw publie la version 2026.10.3 sur son dépôt GitHub, avec une date de publication au 13 octobre 2026. La note de version disponible ne détaille ni le contenu ni la portée des changements. Aucune information complémentaire n'accompagne cette publication.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.3",
+  "date_source": "2026-10-13T12:18:25+00:00",
+  "date_redac": "2026-10-13T12:34:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 593,
+   "sortie": 1250
+  }
+ },
+ {
+  "id": "d0b119e6c9406e0c",
+  "slug": "anima-un-skill-claude-code-qui-transforme-la-biologie-en-figures-inter-d0b119",
+  "titre": "Anima : un skill Claude Code qui transforme la biologie en figures interactives",
+  "resume": "Anima, un skill open-source pour Claude Code, génère des figures scientifiques interactives au lieu de simples explications ou schémas. Le workflow collecte des références, modélise le mécanisme, produit une géométrie SVG isométrique et une page HTML interactive autonome, puis vérifie la cohérence visuelle et biologique. Six exemples accompagnent le skill, avec contrôles, animations et citations.",
+  "tags": [
+   "claude",
+   "skills",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x4v18f/i_built_a_claude_code_skill_that_turns_biology/",
+  "date_source": "2026-10-13T12:15:23+00:00",
+  "date_redac": "2026-10-13T12:34:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 759,
+   "sortie": 1146
+  }
+ },
+ {
+  "id": "3638711f9122e911",
+  "slug": "un-utilisateur-reddit-trouve-claude-doue-pour-ecrire-des-histoires-363871",
+  "titre": "Un utilisateur Reddit trouve Claude doué pour écrire des histoires",
+  "resume": "Sur le subreddit r/ClaudeAI, un utilisateur raconte qu'il se sert d'outils d'IA pour écrire des histoires, par simple divertissement. Il passait jusqu'ici par ChatGPT avant de tester Claude. Il se dit impressionné par la qualité des récits obtenus avec peu d'instructions, et note que le modèle les garde sans spoilers.",
+  "tags": [
+   "claude",
+   "chatgpt"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x4uujp/claude_writes_addictive_stories/",
+  "date_source": "2026-10-13T12:06:15+00:00",
+  "date_redac": "2026-10-13T12:34:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 655,
+   "sortie": 524
+  }
+ },
+ {
+  "id": "ccd698661dc3a60b",
+  "slug": "le-fork-strata-teste-sur-le-horsey-challenge-avec-qwen-en-nvfp4-ccd698",
+  "titre": "Le fork Strata testé sur le « horsey challenge » avec Qwen en NVFP4",
+  "resume": "Un utilisateur de r/LocalLLaMA a testé le « horsey challenge » sur un fork de Strata signé sergqwer, avec un modèle Qwen en NVFP4. La première tentative a été gâchée : le modèle voulait laisser plus de quinze fenêtres headless ouvertes pendant les tests HTML, et le test a été arrêté au bout d'environ 45 minutes. Relancé avec un nouveau prompt, il s'est montré bien plus rapide, après quelques réglages de compaction autour des 220k-230k.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4uipn/horsey_challenge_strata_fork_qwen_38_fn_nvfp4/",
+  "date_source": "2026-10-13T11:50:07+00:00",
+  "date_redac": "2026-10-13T12:34:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 865,
+   "sortie": 835
+  }
+ },
+ {
+  "id": "2b70b4829e9af51e",
+  "slug": "des-qwen2-5-denses-convertis-en-moe-avec-40-de-perplexite-en-plus-2b70b4",
+  "titre": "Des Qwen2.5 denses convertis en MoE, avec 40 % de perplexité en plus",
+  "resume": "L'utilisateur bayliner1980 poursuit ses travaux de conversion de modèles denses en Mixture-of-Experts et présente un Qwen2.5-1.5B-MoE-A0.9B, avec des versions GGUF pour les variantes 0,5B et 1,5B. Le bilan est mitigé : la perplexité sur WikiText-2 et C4 grimpe d'environ 40 à 45 %, et la précision moyenne en zero-shot passe de 0,565 à 0,462. Les chutes les plus marquées concernent les tâches ARC.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4uint/update_converting_dense_models_into/",
+  "date_source": "2026-10-13T11:50:03+00:00",
+  "date_redac": "2026-10-13T12:34:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 927,
+   "sortie": 759
+  }
+ },
+ {
+  "id": "b734481a263e4165",
+  "slug": "trop-calme-de-l-autre-cote-du-pacifique-un-fil-sur-r-localllama-b73448",
+  "titre": "« Trop calme de l'autre côté du Pacifique » : un fil sur r/LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, un fil publié le 13 octobre 2026 par u/Nunki08 s'intitule « It's been too quiet on the other side of the Pacific ». Le message associé ne contient qu'un lien vers la discussion, sans chiffre, citation ni source. En l'état, il n'apporte aucun élément vérifiable sur l'actualité des modèles.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x4u6vi/its_been_too_quiet_on_the_other_side_of_the/",
+  "date_source": "2026-10-13T11:32:31+00:00",
+  "date_redac": "2026-10-13T12:34:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 616,
+   "sortie": 1083
+  }
+ },
+ {
   "id": "799cec67026f7cac",
   "slug": "trois-lecteurs-testent-la-batterie-zendure-solarflow-2400-ac-et-son-ia-799cec",
   "titre": "Trois lecteurs testent la batterie Zendure SolarFlow 2400 AC+ et son IA maison",

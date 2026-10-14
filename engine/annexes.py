@@ -385,7 +385,8 @@ def page_404():
     </div>
   </div>
 </section>"""
-    return page("Page introuvable", "Oups — cette page n'existe pas (ou plus).", contenu, "/404.html")
+    return page("Page introuvable", "Oups — cette page n'existe pas (ou plus).", contenu, "/404.html",
+                robots="noindex,follow")
 
 
 def construire_annexes(breves, articles, stats, entrees_journal):

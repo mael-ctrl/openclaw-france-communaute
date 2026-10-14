@@ -136,7 +136,7 @@ def carte_article(a):
 
 # ---------------------------------------------------------------- gabarit
 
-def page(titre, description, contenu, chemin_canonique, section="", extra_head=""):
+def page(titre, description, contenu, chemin_canonique, section="", extra_head="", robots="index,follow,max-image-preview:large"):
     t = f"{ech(titre)} — {config.NOM_SITE}" if titre else f"{config.NOM_SITE} — {config.SLOGAN}"
     url_canonique = config.URL_SITE + chemin_canonique
     nav = ""
@@ -155,6 +155,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
 <title>{t}</title>
 <meta name="description" content="{ech(description)}">
 <link rel="canonical" href="{ech(url_canonique)}">
+<meta name="robots" content="{robots}">
 <meta property="og:title" content="{t}">
 <meta property="og:description" content="{ech(description)}">
 <meta property="og:type" content="website">

@@ -1,5 +1,26 @@
 [
  {
+  "id": "ba2dbdf37dbbae8a",
+  "slug": "nvidia-investit-dans-doctolib-entalpic-genesis-ai-et-pigment-ba2dbd",
+  "titre": "Nvidia investit dans Doctolib, Entalpic, Genesis AI et Pigment",
+  "resume": "Nvidia a annoncé mardi 13 octobre au soir, en marge d'un événement « Build-a-Claw » organisé à Paris, des investissements dans quatre start-up françaises : Doctolib, Entalpic, Genesis AI et Pigment. Les montants engagés dans chaque société n'ont pas été divulgués. Ces opérations portent les investissements de Nvidia en Europe à 10 milliards de dollars, une semaine avant la conférence GTC Berlin.",
+  "tags": [
+   "business",
+   "france",
+   "matériel"
+  ],
+  "importance": 4,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/electronique/nvidia/nvidia-investit-dans-les-pepites-francaises-doctolib-entalpic-genesis-ai-et-pigment-portant-ses-investissements-en-europe-a-10-milliards-de-dollars.35EROQMSSBBXXKMXF6YBGMMSM4.html",
+  "date_source": "2026-10-14T04:42:33+00:00",
+  "date_redac": "2026-10-14T05:31:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 768,
+   "sortie": 598
+  }
+ },
+ {
   "id": "c3153951290c8d5f",
   "slug": "hermes-agent-publie-la-release-candidate-rc-1-de-sa-version-0-22-1-c31539",
   "titre": "Hermes Agent publie la release candidate rc.1 de sa version 0.22.1",
@@ -108,6 +129,47 @@
   }
  },
  {
+  "id": "c6a058b6fc041c02",
+  "slug": "un-pere-recree-subway-surfers-avec-claude-code-la-musique-genere-les-n-c6a058",
+  "titre": "Un père recrée Subway Surfers avec Claude Code, la musique génère les niveaux",
+  "resume": "Un développeur raconte avoir recréé Subway Surfers pour son fils de 7 ans, entièrement avec Claude Code et jouable gratuitement dans le navigateur. Le principe : c'est la musique qui construit les niveaux, chaque obstacle tombant sur le tempo — les kicks deviennent des sauts, les caisses des glissades, une note tenue un plafond sous lequel se glisser. Juste avant un drop, le méchant, un curseur IA nommé Struna, supprime le sol. Le modèle a écrit l'analyse audio, le générateur de niveaux et l'animation du personnage ; un bot teste chaque morceau dans un navigateur headless pour vérifier qu'un parcours parfait reste possible.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x5ev66/my_son_got_hooked_on_subway_surfers_so_i_built/",
+  "date_source": "2026-10-14T01:43:46+00:00",
+  "date_redac": "2026-10-14T05:31:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 816,
+   "sortie": 498
+  }
+ },
+ {
+  "id": "6047b5ccff7d9ddd",
+  "slug": "un-connecteur-transforme-claude-en-testeur-produit-qui-s-inscrit-a-vot-6047b5",
+  "titre": "Un connecteur transforme Claude en testeur produit qui s'inscrit à votre app",
+  "resume": "Un développeur a mis au point un connecteur qui fait de Claude un testeur produit : on lui donne un profil, on le pointe vers un site, et il s'inscrit, exécute des actions réelles, capture chaque étape et rend une revue classée par ce qui bloque vraiment. L'outil analyse aussi homepage ou page de tarifs. Les tests d'inscription exigent un navigateur ; tout a été codé avec Claude Code.",
+  "tags": [
+   "claude",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x5eblc/i_made_claude_sign_up_for_my_app_as_a_brandnew/",
+  "date_source": "2026-10-14T01:16:20+00:00",
+  "date_redac": "2026-10-14T05:31:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 858,
+   "sortie": 1294
+  }
+ },
+ {
   "id": "28b874a64fd7c1b9",
   "slug": "mesa-etend-ses-capacites-npu-au-support-de-yolox-avec-pytorch-28b874",
   "titre": "Mesa étend ses capacités NPU au support de YOLOX avec PyTorch",
@@ -170,6 +232,27 @@
    "modele": "deepseek-flash",
    "entree": 623,
    "sortie": 730
+  }
+ },
+ {
+  "id": "203cc22a53336875",
+  "slug": "sur-r-claudeai-un-utilisateur-demande-comment-apprendre-a-utiliser-l-i-203cc2",
+  "titre": "Sur r/ClaudeAI, un utilisateur demande comment apprendre à utiliser l'IA",
+  "resume": "Un utilisateur du subreddit r/ClaudeAI explique avoir utilisé des chatbots comme ChatGPT de façon occasionnelle pendant des années. Il dit avoir pris conscience de l'importance de ce qui se passe et souhaite apprendre à s'en servir correctement. Il demande à des utilisateurs avancés de l'orienter.",
+  "tags": [
+   "claude",
+   "chatgpt",
+   "skills"
+  ],
+  "importance": 1,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x5cxjn/where_to_start/",
+  "date_source": "2026-10-14T00:08:51+00:00",
+  "date_redac": "2026-10-14T05:31:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 673,
+   "sortie": 1227
   }
  },
  {

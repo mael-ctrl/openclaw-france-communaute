@@ -1,22 +1,18 @@
 {
- "runs": 270,
- "items_collectes": 1946,
- "breves_publiees": 1007,
+ "runs": 271,
+ "items_collectes": 1950,
+ "breves_publiees": 1011,
  "articles_publies": 162,
- "tokens_entree": 981227,
- "tokens_sortie": 1447012,
+ "tokens_entree": 984342,
+ "tokens_sortie": 1450629,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-14T04:29:00+00:00",
+ "dernier_run": "2026-10-14T05:32:06+00:00",
  "solde": {
-  "total": "85.30",
+  "total": "85.29",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-13T16:20:12+00:00",
-   "message": "brève impossible (PSA for 3090 FE owners: Running LLMs overheats your VRAM) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-13T18:09:26+00:00",
    "message": "brève impossible (LiquidAI/LFM2.5-24B-A2B) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-13T22:17:36+00:00",
    "message": "brève impossible (It’s ‘incomprehensible’ that Instagram allowed an AI image o) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-14T05:32:06+00:00",
+   "message": "article impossible : Expecting ',' delimiter: line 1 column 3208 (char 3207)"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 6.36,
+ "depense_usd": 6.37,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1104,10 +1104,14 @@
   [
    "2026-10-14T04:28:50+00:00",
    "85.30"
+  ],
+  [
+   "2026-10-14T05:31:03+00:00",
+   "85.29"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 4.07,
+ "depense_mois_usd": 4.08,
  "archive_tentatives": {
   "jour": "2026-10-14",
   "n": 1

@@ -1,26 +1,18 @@
 {
- "runs": 276,
- "items_collectes": 1983,
- "breves_publiees": 1038,
- "articles_publies": 167,
- "tokens_entree": 1010150,
- "tokens_sortie": 1486730,
+ "runs": 277,
+ "items_collectes": 1987,
+ "breves_publiees": 1040,
+ "articles_publies": 168,
+ "tokens_entree": 1013003,
+ "tokens_sortie": 1492597,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-14T10:10:25+00:00",
+ "dernier_run": "2026-10-14T11:13:23+00:00",
  "solde": {
   "total": "85.23",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-13T18:09:26+00:00",
-   "message": "brève impossible (LiquidAI/LFM2.5-24B-A2B) : réponse non-JSON"
-  },
-  {
-   "ts": "2026-10-13T19:11:10+00:00",
-   "message": "brève impossible (Quartermaster 1.7 update now lets you run llama.cpp's new de) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-13T22:17:19+00:00",
    "message": "brève impossible (Instead of waiting for an M5 Ultra 512 GB: pairing a new M5 ) : réponse non-JSON"
@@ -32,6 +24,14 @@
   {
    "ts": "2026-10-14T05:32:06+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 1 column 3208 (char 3207)"
+  },
+  {
+   "ts": "2026-10-14T11:12:33+00:00",
+   "message": "brève impossible (Galaxy S21 + Gemma 4 E2B Q3_K_M + Qwen3.5-0.8B Q4_K_M: same ) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-14T11:13:02+00:00",
+   "message": "brève impossible (Anthropic prévient : l’IA pourrait bientôt se nourrir de vos) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -1127,6 +1127,10 @@
   ],
   [
    "2026-10-14T10:09:55+00:00",
+   "85.23"
+  ],
+  [
+   "2026-10-14T11:12:18+00:00",
    "85.23"
   ]
  ],

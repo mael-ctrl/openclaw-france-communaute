@@ -1576,3 +1576,10 @@
 {"ts": "2026-10-14T10:21:50+00:00", "evenement": "deploiement", "details": {"fichiers": 599, "octets": 9466420}, "sha256": "06a34275743de5e41a6e8e5b9962451c23abb3bdf02104fc7cf0a0c29e2cc1a4"}
 {"ts": "2026-10-14T10:21:54+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "a2222934c87728b0e6168ff0c158371c172b77b82133bc438b6d8c48abdb0238"}
 {"ts": "2026-10-14T10:21:54+00:00", "evenement": "bilan", "details": {"duree_s": 739.3, "neufs": 4, "breves": 4, "articles": 1, "fichiers": 586, "envois": 599, "publications": 0}, "sha256": "d8f8a47c46d3a9126092095dbb89808e6972888a1e19859740e0a02ceaf4f252"}
+{"ts": "2026-10-14T11:12:18+00:00", "evenement": "collecte", "details": {"neufs": 4}, "sha256": "59a189f21857b4e2f43ca1458e9c22feccb184f2f37fe8fb54664866afff29a8"}
+{"ts": "2026-10-14T11:12:33+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Galaxy S21 + Gemma 4 E2B Q3_K_M + Qwen3.5-0.8B Q4_K_M: same ) : réponse non-JSON"}, "sha256": "4227cf8ead22e98b59f393fbaa3cff49580d6f2ce4f2fa811a1bfd06b9128cd7"}
+{"ts": "2026-10-14T11:13:02+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Anthropic prévient : l’IA pourrait bientôt se nourrir de vos) : réponse non-JSON"}, "sha256": "c8ce7610d12753a69557d1a3423c4bc6042160829744205d3ec29072015254ac"}
+{"ts": "2026-10-14T11:13:24+00:00", "evenement": "construction", "details": {"fichiers": 587}, "sha256": "05bcc4046a4f3974afdb3613472b6579dbd143f6d7169e4967c3663032fb8ecf"}
+{"ts": "2026-10-14T11:22:52+00:00", "evenement": "deploiement", "details": {"fichiers": 600, "octets": 9481814}, "sha256": "641155e85bdb91dc43c078e647b2361c1770e53a4f06c1686c95a0aa1fab9dc1"}
+{"ts": "2026-10-14T11:22:52+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "4cdcf0d8f7117df26cd62b45e938531a36e18e9f23d4d1d72430a7fb1482d65d"}
+{"ts": "2026-10-14T11:22:52+00:00", "evenement": "bilan", "details": {"duree_s": 675.0, "neufs": 4, "breves": 2, "articles": 1, "fichiers": 587, "envois": 600, "publications": 0}, "sha256": "989cf1a7afb882159a991a33cf6a21128e015a0e17e056f83dd58ac788cd35b0"}

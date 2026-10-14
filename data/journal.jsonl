@@ -1614,3 +1614,9 @@
 {"ts": "2026-10-14T16:34:20+00:00", "evenement": "deploiement", "details": {"fichiers": 607, "octets": 9590268}, "sha256": "2bbbbd1fd2d9a6ca31a2c0fab82e6f97020787a0b40fefed6972b893d5623d43"}
 {"ts": "2026-10-14T16:34:20+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "853434bb1a9518df50e0bd5c450a6f52a06a9befd445896e4bc33e748acabd85"}
 {"ts": "2026-10-14T16:34:20+00:00", "evenement": "bilan", "details": {"duree_s": 760.3, "neufs": 12, "breves": 6, "articles": 1, "fichiers": 593, "envois": 607, "publications": 0}, "sha256": "b1c1134b6e800bde86e658a47ded2017cbdcba83bfcbae553d2d86ca321c7fc6"}
+{"ts": "2026-10-14T16:55:53+00:00", "evenement": "collecte", "details": {"neufs": 5}, "sha256": "8a0197061fe1fe98752ed046826880b673f5ca27730a1469951ffe2324ddfe8f"}
+{"ts": "2026-10-14T16:56:22+00:00", "evenement": "erreur", "details": {"message": "brève impossible (qwen3.8-flash-next-iq3_s vs -27B-GGUF:UD-Q4_K_XL) : réponse non-JSON"}, "sha256": "dba37135960ef1764fc91c7c8e688fe0f5ee5fad43d09819f4c36b0cdb0f8a15"}
+{"ts": "2026-10-14T16:56:56+00:00", "evenement": "construction", "details": {"fichiers": 594}, "sha256": "22ad83866cdf5a85e7e1f020da2a42e4f5b723617e888b1dbfc9222c43ce3003"}
+{"ts": "2026-10-14T17:05:42+00:00", "evenement": "deploiement", "details": {"fichiers": 608, "octets": 9611763}, "sha256": "bdc6efc362b1e156060ac3741236b8102424e815fac83ee46cec6f89d2359537"}
+{"ts": "2026-10-14T17:05:43+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "87cc6c6d1da2f9cd9d3b360987343f35dc1c11751b5c2c1e6627fb0f8ae6388f"}
+{"ts": "2026-10-14T17:05:43+00:00", "evenement": "bilan", "details": {"duree_s": 621.6, "neufs": 5, "breves": 4, "articles": 1, "fichiers": 594, "envois": 608, "publications": 0}, "sha256": "372b20d4fa4518a459b99286c4c542d2f8c0397331bf751e68667e0694c8273f"}

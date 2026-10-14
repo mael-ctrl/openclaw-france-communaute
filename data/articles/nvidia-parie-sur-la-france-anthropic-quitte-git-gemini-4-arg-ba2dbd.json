@@ -1,0 +1,41 @@
+{
+ "slug": "nvidia-parie-sur-la-france-anthropic-quitte-git-gemini-4-arg-ba2dbd",
+ "titre": "Nvidia parie sur la France, Anthropic quitte Git, Gemini 4 Argon débarque",
+ "chapo": "Nvidia annonce quatre investissements dans des start-up françaises et porte son total européen à 10 milliards de dollars. La même semaine, Anthropic abandonne Git pour son propre outil, Google sort Gemini 4 Argon et Meta revient avec deux modèles. Character.AI, lui, serait au bord du gouffre.",
+ "html": "<h2 id=\"nvidia-met-10-milliards-sur-l-europe-et-\">Nvidia met 10 milliards sur l'Europe, et regarde la France</h2>\n<p>Nvidia a annoncé mardi 13 octobre au soir, en marge d'un événement « Build-a-Claw » organisé à Paris, des investissements dans quatre start-up françaises : <strong>Doctolib, Entalpic, Genesis AI et Pigment</strong>. Les montants engagés dans chaque société n'ont pas été divulgués — un silence qui laisse la porte ouverte à toutes les interprétations sur la taille réelle des tickets.</p>\n<p>Ce que Nvidia accepte de dire, c'est le total : ces opérations portent ses investissements en Europe à <strong>10 milliards de dollars</strong>. L'annonce tombe une semaine avant la conférence GTC Berlin, le rendez-vous européen du fabricant de puces.</p>\n<h2 id=\"anthropic-debranche-git-pour-scion\">Anthropic débranche Git pour Scion</h2>\n<p>Simon Willison rapporte qu'Anthropic a construit sa propre alternative à Git. La raison invoquée n'est pas idéologique : le rythme de modification du code a explosé. Environ <strong>2 500 changements fusionnés par jour en mai 2026</strong>, plus de <strong>30 000 en septembre</strong>. À cette échelle, l'outil historique devient un goulot d'étranglement.</p>\n<p>Le système de contrôle de source s'appelle <strong>Scion</strong> ; la revue de code passe par <strong>Antique</strong>. Deux briques maison, là où la plupart des équipes se contentent de l'existant.</p>\n<p>Willison voit dans les modèles de classe Fable/Mythos un facteur clé de cette accélération. Autrement dit : ce n'est pas seulement l'organisation qui change, c'est le volume de code produit qui impose de repenser l'outillage.</p>\n<h2 id=\"gemini-4-argon-et-muse-wonder-la-frontie\">Gemini 4 Argon et Muse Wonder : la frontière se repeuple</h2>\n<p>Après des mois en retrait de la course à l'IA de frontière, Google lance <strong>Gemini 4 Argon</strong>, un modèle longtemps attendu. Le groupe affirme qu'il peut rivaliser avec ce que l'industrie fait de mieux. Au programme annoncé : « un raisonnement de frontière », de meilleures performances sur les flux de travail complexes, et moins de précautions excessives, de répétitions et de clichés — trois travers qui collent souvent aux modèles de frontière.</p>\n<p>Meta arrive de son côté avec deux modèles, <strong>Muse Wonder</strong> et <strong>Muse Wonder Full</strong>, présentés après quatorze mois de réorganisation et des dizaines de milliards de dollars investis. L'objectif affiché est explicite : rivaliser avec ChatGPT et Claude.</p>\n<h2 id=\"character-ai-signal-faible-ou-vraie-aler\">Character.AI, signal faible ou vraie alerte ?</h2>\n<p>Une publication du subreddit r/LocalLLaMA affirme que <strong>Character.AI</strong> aurait déposé le bilan et s'apprêterait à céder une partie de ses actifs à <strong>Disney</strong> pour 20 millions de dollars. Il s'agit d'un post de forum, sans confirmation indépendante à ce stade.</p>\n<p>L'auteur du fil y voit un possible signe avant-coureur de l'éclatement de la bulle IA. La prudence s'impose : 20 millions de dollars, c'est peu au regard des sommes évoquées ailleurs dans la même semaine, et rien ne dit que l'opération reflète l'état de l'ensemble du secteur.</p>\n<h2>Et maintenant ?</h2>\n<p>En une seule semaine, la dépêche raconte deux mouvements distincts : l'argent qui continue d'affluer vers les modèles de frontière et l'infrastructure, et une pression technique — le volume de code produit — qui pousse un laboratoire à réécrire ses outils les plus fondamentaux. Que Character.AI soit ou non au bord du gouffre, la question de ce qui reste debout quand la vague retombe reste posée.</p>",
+ "pivot": "ba2dbdf37dbbae8a",
+ "tags": [
+  "france",
+  "dev",
+  "business",
+  "gemini"
+ ],
+ "sources": [
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/electronique/nvidia/nvidia-investit-dans-les-pepites-francaises-doctolib-entalpic-genesis-ai-et-pigment-portant-ses-investissements-en-europe-a-10-milliards-de-dollars.35EROQMSSBBXXKMXF6YBGMMSM4.html"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x57zpx/characterai_files_for_bankruptcy_to_sell_some/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/meta-degaine-muse-wonder-revient-force-course-ia.html"
+  }
+ ],
+ "date": "2026-10-14T07:05:16+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1541,
+  "sortie": 4765
+ }
+}

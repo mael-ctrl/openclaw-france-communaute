@@ -1,5 +1,129 @@
 [
  {
+  "id": "d33346e28c751d65",
+  "slug": "breezeblue-tts-2-meilleur-modele-tts-local-mais-sous-licence-non-comme-d33346",
+  "titre": "BreezeBlue-TTS-2, meilleur modèle TTS local, mais sous licence non commerciale",
+  "resume": "Sur r/LocalLLaMA, un post place BreezeBlue-TTS-2 comme le meilleur modèle de synthèse vocale utilisable en local actuellement. Le bémol est de taille : sa licence est non commerciale. Pour un usage libre, c'est Moss TTS 1.5 qui est présenté comme le meilleur modèle du moment. Le modèle est hébergé sur Hugging Face sous la référence BreezeBlue/Breeze-TTS-2, avec deux exemples de voix issue de chaînes YouTube.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5qr7b/breezebluetts2_is_currently_the_best_tts_model/",
+  "date_source": "2026-10-14T13:07:19+00:00",
+  "date_redac": "2026-10-14T13:15:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 715,
+   "sortie": 579
+  }
+ },
+ {
+  "id": "847c5243f5a116a2",
+  "slug": "un-salarie-d-openai-arrete-par-le-fbi-pour-espionnage-847c52",
+  "titre": "Un salarié d'OpenAI arrêté par le FBI pour espionnage",
+  "resume": "Un employé d'OpenAI a été arrêté par le FBI pour espionnage. Le dossier judiciaire repose notamment sur un sac oublié contenant une carte d'identité et sur des recherches en ligne compromettantes. Des modèles d'IA ont aussi été lâchés sur l'enquête. L'affaire, par son accumulation de détails, frôle la parodie d'espionnage.",
+  "tags": [
+   "openai",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/scandale-chez-openai-le-fbi-arrete-un-employe-pour-espionnage.html",
+  "date_source": "2026-10-14T13:00:21+00:00",
+  "date_redac": "2026-10-14T13:15:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 673,
+   "sortie": 473
+  }
+ },
+ {
+  "id": "1fea58699b510812",
+  "slug": "gemini-4-argon-deploye-mondialement-le-prix-de-l-api-doublera-le-1er-d-1fea58",
+  "titre": "Gemini 4 Argon déployé mondialement, le prix de l'API doublera le 1er décembre",
+  "resume": "Google déploie Gemini 4 Argon à grande échelle : depuis le 13 octobre 2026, le modèle, dévoilé au début du mois, est accessible dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants de plusieurs produits de la firme. Google veut en faire un outil de travail pour les tâches complexes et le moteur de ses agents IA. Le prix de l'API doit toutefois doubler le 1er décembre.",
+  "tags": [
+   "gemini",
+   "agents",
+   "business"
+  ],
+  "importance": 4,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html",
+  "date_source": "2026-10-14T13:00:00+00:00",
+  "date_redac": "2026-10-14T13:16:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 732,
+   "sortie": 757
+  }
+ },
+ {
+  "id": "a31dff888c40e18d",
+  "slug": "rumeur-zen-6-remplacerait-l-igpu-par-un-npu-sur-les-processeurs-deskto-a31dff",
+  "titre": "Rumeur : Zen 6 remplacerait l'iGPU par un NPU sur les processeurs desktop",
+  "resume": "Une rumeur relayée sur r/LocalLLaMA évoque des processeurs desktop Zen 6 qui abandonneraient l'iGPU au profit d'un NPU. L'auteur du message s'interroge sur l'utilité réelle d'un tel choix : à moins de pouvoir répartir la charge entre le NPU et un GPU dédié, il doute que l'unité puisse faire tourner autre chose que de petits modèles.",
+  "tags": [
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5qd8l/rumor_is_that_zen_6_will_replace_the_igpu_with_an/",
+  "date_source": "2026-10-14T12:50:01+00:00",
+  "date_redac": "2026-10-14T13:16:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 673,
+   "sortie": 431
+  }
+ },
+ {
+  "id": "fda8387757b670c0",
+  "slug": "openclaw-corrige-un-report-de-lint-du-doctor-lors-d-une-mise-a-jour-fda838",
+  "titre": "OpenClaw corrige un report de lint du Doctor lors d'une mise à jour",
+  "resume": "OpenClaw a publié une correction dans son canal de mises à jour. La note de version mentionne un lint du Doctor reporté alors qu'il ne restait que 0 ms, après un instantané d'état lent. Le libellé de la publication est tronqué et ne précise ni les versions concernées ni le détail du correctif.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fc7dd7b94c8f3-1791980780",
+  "date_source": "2026-10-14T12:26:18+00:00",
+  "date_redac": "2026-10-14T13:16:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 656,
+   "sortie": 527
+  }
+ },
+ {
+  "id": "c032c8fb47c1d3ab",
+  "slug": "les-modeles-ouverts-chinois-a-sept-mois-des-modeles-fermes-americains-c032c8",
+  "titre": "Les modèles ouverts chinois à sept mois des modèles fermés américains",
+  "resume": "Le classement open source whatmodel.sh chiffre l'écart entre les modèles ouverts chinois et les modèles fermés américains : sept mois seulement. Le graphique s'appuie sur 18 755 résultats portant sur 1 211 modèles de texte et 617 benchmarks. Sur les 22 113 résultats publiés référencés, 14 436 viennent d'évaluations indépendantes et 7 677 de scores rapportés par les labos eux-mêmes. Données et code sont ouverts.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5pjv7/the_ai_race_chinas_openweight_models_trail_us/",
+  "date_source": "2026-10-14T12:10:53+00:00",
+  "date_redac": "2026-10-14T13:16:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 823,
+   "sortie": 825
+  }
+ },
+ {
   "id": "4fa16f72ab5a59ad",
   "slug": "une-alternative-open-source-au-computer-use-de-codex-recherchee-4fa16f",
   "titre": "Une alternative open source au computer use de Codex recherchée",

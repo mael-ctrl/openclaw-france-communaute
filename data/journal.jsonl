@@ -1620,3 +1620,10 @@
 {"ts": "2026-10-14T17:05:42+00:00", "evenement": "deploiement", "details": {"fichiers": 608, "octets": 9611763}, "sha256": "bdc6efc362b1e156060ac3741236b8102424e815fac83ee46cec6f89d2359537"}
 {"ts": "2026-10-14T17:05:43+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "87cc6c6d1da2f9cd9d3b360987343f35dc1c11751b5c2c1e6627fb0f8ae6388f"}
 {"ts": "2026-10-14T17:05:43+00:00", "evenement": "bilan", "details": {"duree_s": 621.6, "neufs": 5, "breves": 4, "articles": 1, "fichiers": 594, "envois": 608, "publications": 0}, "sha256": "372b20d4fa4518a459b99286c4c542d2f8c0397331bf751e68667e0694c8273f"}
+{"ts": "2026-10-14T17:55:13+00:00", "evenement": "collecte", "details": {"neufs": 8}, "sha256": "fabfc9d97bc0c584cc8b235d0712d723d2674e784242e555f6967aa9a63c43ac"}
+{"ts": "2026-10-14T17:55:53+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Using Absorbing Markov Chains + EmbeddingGemma 2 as a Decisi) : réponse non-JSON"}, "sha256": "4d614b5547fbf1e2cbd7c79b900e76009c1dbd8e62c943d16b65c27328c5a137"}
+{"ts": "2026-10-14T17:56:06+00:00", "evenement": "erreur", "details": {"message": "brève impossible (New model from Telperion: Qwen3.8-27B-MLA & Qwen3.8-27B-GLA-) : réponse non-JSON"}, "sha256": "75327cee78f252ba6711bc76a7f039ab143e521dc96a2aaf6bcb203c7694d46c"}
+{"ts": "2026-10-14T17:56:35+00:00", "evenement": "construction", "details": {"fichiers": 595}, "sha256": "4731cd854d198a14cc3e53b00f59ba8cb50bb523255405d33cbff79a7fb74973"}
+{"ts": "2026-10-14T18:08:38+00:00", "evenement": "deploiement", "details": {"fichiers": 609, "octets": 9628800}, "sha256": "ec51110dc89195fb791cc1062982a4e5ff2c6ab5aa900aa17e7621deffcfb407"}
+{"ts": "2026-10-14T18:08:39+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "af006b76bb5d79498041439d309138cc2a26e21a21c259bdd956693725e278e4"}
+{"ts": "2026-10-14T18:08:39+00:00", "evenement": "bilan", "details": {"duree_s": 841.4, "neufs": 8, "breves": 4, "articles": 1, "fichiers": 595, "envois": 609, "publications": 0}, "sha256": "34d9b1510ca767fe312c2fa065308f5fcba1f130083279dfd66cbeac8f58e34c"}

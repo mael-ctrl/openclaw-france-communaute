@@ -1,0 +1,41 @@
+{
+ "slug": "decompilation-assistee-par-ia-fuites-chez-openai-le-logiciel-7641a5",
+ "titre": "Décompilation assistée par IA, fuites chez OpenAI : le logiciel devient terrain miné",
+ "chapo": "L'IA ne se contente plus d'écrire du code : elle le défait. Une vague de décompilation assistée par IA permet de reconstruire des jeux, au profit de la préservation comme des mashups — et au risque des éditeurs. En parallèle, OpenAI découvre un micro caché dans ses bureaux et accuse un ex-salarié d'avoir emporté ses plans produits chez Apple.",
+ "html": "<h2 id=\"decompiler-un-jeu-desormais-une-affaire-\">Décompiler un jeu, désormais une affaire d'IA</h2>\n<p>Le développeur indé Popcar décrit une vague récente de décompilation de jeux assistée par IA. Le point de départ est toujours un logiciel existant ; le point d'arrivée, une version suffisamment lisible pour être modifiée, recombinée, réutilisée. Cette pratique permet des mashups inattendus entre jeux existants, et elle relance dans le même mouvement les projets de préservation, souvent via WebAssembly, directement dans le navigateur.</p>\n<p>Simon Willison, qui relaie cette observation, en souligne le revers. Si n'importe qui peut décompiler un logiciel et le réutiliser, cette capacité s'exerce <strong>y compris contre la volonté de son éditeur</strong>. La dépêche parle d'une vague, pas de cas isolés : c'est l'échelle qui change, et avec elle la nature du problème posé aux studios.</p>\n<p>Les mêmes outils servent donc deux causes que beaucoup opposent : garder vivant un jeu que son éditeur ne distribue plus, et s'approprier un logiciel que son éditeur veut garder fermé. La technique, elle, ne fait pas la différence entre les deux.</p>\n<h2 id=\"chez-openai-une-fuite-de-plus-de-100-fic\">Chez OpenAI, une fuite de plus de 100 fichiers</h2>\n<p>OpenAI affirme qu'un ancien salarié a emporté <strong>plus de 100 fichiers</strong> liés à ses plans produits avant de rejoindre Apple. Dans un document déposé mercredi, l'entreprise indique qu'il les a envoyés sur un compte personnel, puis les a présentés à la direction d'Apple, dont le vice-président des opérations pour l'Asie. Le salarié n'est pas nommé.</p>\n<p>Le schéma est celui d'une fuite classique — un départ, des fichiers, un employeur concurrent — sauf qu'il se joue entre deux acteurs majeurs du secteur. Le contenu exact des plans produits concernés n'est pas décrit.</p>\n<h2 id=\"un-micro-dans-le-papier-toilette-d-une-s\">Un micro dans le papier toilette d'une salle de réunion</h2>\n<p>Un second dossier, sans lien avec le premier, concerne cette fois un dispositif d'écoute. OpenAI a mis la main sur un appareil caché destiné à enregistrer les conversations audio dans l'une de ses salles de réunion. Un ingénieur de l'entreprise a été licencié, puis arrêté après un signalement au FBI.</p>\n<p>Numerama apporte des précisions : le micro était dissimulé dans du papier toilette, dans une salle de réunion de la direction, et le suspect est présenté comme saoudien. L'entreprise affirme que <strong>ses propres modèles ont contribué à l'identifier</strong>. Plusieurs questions restent ouvertes sur ses motivations.</p>\n<h2 id=\"a-l-elysee-l-ia-classee-domaine-strategi\">À l'Élysée, l'IA classée domaine stratégique</h2>\n<p>Emmanuel Macron réunit un conseil de défense et de sécurité nationale entièrement consacré à l'intelligence artificielle. Pour l'Élysée, l'IA est désormais un « domaine stratégique » pour la France, <strong>au même titre que le spatial et le nucléaire</strong>.</p>\n<p>La comparaison situe le sujet : ni gadget, ni simple enjeu industriel, mais une capacité qu'un État entend désormais traiter avec les instruments réservés aux dossiers sensibles.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches ne racontent pas la même histoire : une pratique de décompilation documentée par un développeur indé, deux dossiers distincts chez OpenAI, et un conseil de défense à l'Élysée. Mais elles dessinent un même déplacement : la valeur d'un logiciel, d'un modèle ou d'une salle de réunion se mesure à ce qu'il contient de sensible. La préservation du patrimoine logiciel et la protection des secrets d'entreprise mobilisent des outils d'analyse comparables. Reste la question du droit d'en user, et de ce qu'on en fait.</p>",
+ "pivot": "7641a50733efad75",
+ "tags": [
+  "openai",
+  "sécurité",
+  "société",
+  "france"
+ ],
+ "sources": [
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/14/openai-decouvre-un-mouchard-tres-indiscret-cache-dans-ses-bureaux/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/domaine-strategique-emmanuel-macron-convoque-conseil-defense-securite-ia.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2352825-un-micro-cache-dans-du-papier-toilette-chez-openai-un-ingenieur-saoudien-arrete-par-le-fbi.html"
+  }
+ ],
+ "date": "2026-10-14T17:56:35+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1529,
+  "sortie": 5483
+ }
+}

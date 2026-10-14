@@ -1,26 +1,18 @@
 {
- "runs": 284,
- "items_collectes": 2034,
- "breves_publiees": 1071,
- "articles_publies": 175,
- "tokens_entree": 1045321,
- "tokens_sortie": 1540647,
+ "runs": 285,
+ "items_collectes": 2042,
+ "breves_publiees": 1075,
+ "articles_publies": 176,
+ "tokens_entree": 1049600,
+ "tokens_sortie": 1550233,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-14T16:56:56+00:00",
+ "dernier_run": "2026-10-14T17:56:35+00:00",
  "solde": {
-  "total": "85.19",
+  "total": "85.18",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-14T05:32:06+00:00",
-   "message": "article impossible : Expecting ',' delimiter: line 1 column 3208 (char 3207)"
-  },
-  {
-   "ts": "2026-10-14T11:12:33+00:00",
-   "message": "brève impossible (Galaxy S21 + Gemma 4 E2B Q3_K_M + Qwen3.5-0.8B Q4_K_M: same ) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-14T11:13:02+00:00",
    "message": "brève impossible (Anthropic prévient : l’IA pourrait bientôt se nourrir de vos) : réponse non-JSON"
@@ -32,10 +24,18 @@
   {
    "ts": "2026-10-14T16:56:22+00:00",
    "message": "brève impossible (qwen3.8-flash-next-iq3_s vs -27B-GGUF:UD-Q4_K_XL) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-14T17:55:53+00:00",
+   "message": "brève impossible (Using Absorbing Markov Chains + EmbeddingGemma 2 as a Decisi) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-14T17:56:06+00:00",
+   "message": "brève impossible (New model from Telperion: Qwen3.8-27B-MLA & Qwen3.8-27B-GLA-) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 6.47,
+ "depense_usd": 6.48,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1160,10 +1160,14 @@
   [
    "2026-10-14T16:55:54+00:00",
    "85.19"
+  ],
+  [
+   "2026-10-14T17:55:14+00:00",
+   "85.18"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 4.18,
+ "depense_mois_usd": 4.19,
  "archive_tentatives": {
   "jour": "2026-10-14",
   "n": 1

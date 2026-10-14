@@ -1,5 +1,91 @@
 [
  {
+  "id": "9e5afd1008160eae",
+  "slug": "hermes-agent-publie-la-release-candidate-2-de-sa-version-0-22-1-9e5afd",
+  "titre": "Hermes Agent publie la release candidate 2 de sa version 0.22.1",
+  "resume": "Hermes Agent, le projet d'agents de NousResearch, publie une nouvelle release sur GitHub : la release candidate 2 de la version 0.22.1, datée du 14 octobre 2026. La note publiée se limite à des métadonnées techniques, sans description des changements. Aucun détail sur les fonctionnalités ou les corrections n'est fourni.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.2-v0.22.1",
+  "date_source": "2026-10-14T17:43:35+00:00",
+  "date_redac": "2026-10-14T17:55:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 1478
+  }
+ },
+ {
+  "id": "57d08ecec9c2bc92",
+  "slug": "hermes-agent-la-release-candidate-rc-1-de-la-version-0-22-1-abandonnee-57d08e",
+  "titre": "Hermes Agent : la release candidate rc.1 de la version 0.22.1 abandonnée",
+  "resume": "Le dépôt Hermes Agent de NousResearch a publié le 14 octobre 2026 une release candidate étiquetée « abandoned », rattachée à la version 0.22.1. Les métadonnées jointes mentionnent une première tentative (attempt 1), une référence de tentative rc.1-v0.22.1 et un schéma en version 1. Le numéro de version reste 0.22.1. Le libellé indique que cette build intermédiaire du cycle de publication n'est pas poursuivie.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.1-v0.22.1",
+  "date_source": "2026-10-14T17:43:30+00:00",
+  "date_redac": "2026-10-14T17:55:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 745
+  }
+ },
+ {
+  "id": "96b49e44463ecb96",
+  "slug": "tessera-27b-b-cjk-zellige-ai-fait-penser-qwen-en-cjk-compresse-96b49e",
+  "titre": "Tessera-27B-B-CJK : Zellige AI fait penser Qwen en CJK compressé",
+  "resume": "Zellige AI publie Tessera-27B-B-CJK, un agent de code dérivé de Qwen3.8-27B qui réfléchit dans un raccourci mêlant anglais, chinois et symboles. L'objectif : dépenser moins de tokens à chaque tour d'une boucle d'agent. Pensée et sortie restent séparées : le modèle raisonne en CJK compressé, mais ses réponses et ses appels d'outils demeurent en anglais et en code. Poids ouverts sous Apache-2.0.",
+  "tags": [
+   "open-source",
+   "agents",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5xm28/tessera27bbcjk_zellige_ais_new_finetune_of_qwen/",
+  "date_source": "2026-10-14T17:35:08+00:00",
+  "date_redac": "2026-10-14T17:55:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 858,
+   "sortie": 712
+  }
+ },
+ {
+  "id": "87ecbb4380d0118d",
+  "slug": "une-journaliste-confie-son-alimentation-a-son-double-numerique-pendant-87ecbb",
+  "titre": "Une journaliste confie son alimentation à son double numérique pendant 100 jours",
+  "resume": "Dans sa newsletter Optimizer, Victoria Song, critique senior chez The Verge, ausculte les gadgets et « potions » qui promettent de changer la vie. Elle y raconte comment, depuis une centaine de jours, ses matins ont changé de rythme : un double numérique lui dit quoi manger. Un aperçu concret de l'IA appliquée au quotidien.",
+  "tags": [
+   "société",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health",
+  "date_source": "2026-10-14T17:00:00+00:00",
+  "date_redac": "2026-10-14T17:55:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 658,
+   "sortie": 1168
+  }
+ },
+ {
   "id": "4f6d453bcefc337b",
   "slug": "oppo-find-x10-pro-max-face-au-find-x9-ultra-le-duel-photo-a-trois-capt-4f6d45",
   "titre": "Oppo Find X10 Pro Max face au Find X9 Ultra : le duel photo à trois capteurs de 200 MP",

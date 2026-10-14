@@ -60,7 +60,7 @@ class OpenClawPrerequisTest(unittest.TestCase):
                     "https://docs.openclaw.ai/platforms/windows", "/dl/kit-openclaw/GUIDE.md",
                     "/guides/demarrer-openclaw-hermes/#couts"):
             self.assertIn(url, links)
-        self.assertIn('datetime="2026-10-13"', self.block)
+        self.assertIn('datetime="2026-10-14"', self.block)
         self.assertIn("indépendante", self.text)
         faq = self.html.split("Il me faut quoi pour commencer ?</summary>", 1)[1].split("</details>", 1)[0]
         self.assertIn('href="#prerequis"', faq)

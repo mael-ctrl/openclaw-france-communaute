@@ -298,6 +298,43 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   Refaire le ping IndexNow après publication effective. Preuves privées sous
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-13/hub-prerequis-openclaw/`.
 
+## Prérequis OpenClaw — publiés le 14/10/2026 après reprise OVH
+
+- **Une amélioration livrée** : publication de `/openclaw/#prerequis`, préparée
+  le 13/10 mais bloquée par la panne OVH. Le lien avant téléchargement et la FAQ
+  distinguent Bash macOS/Linux, Windows natif/WSL2 et Docker facultatif, avec
+  versions Node.js, mémoire de construction et réserves sur les anciennes
+  estimations du guide. Sources officielles installation, Docker et Windows
+  relues le 14/10 ; date de consultation et sitemap actualisés. Aucun autre
+  contenu du hub ni fichier de kit modifié ; aucune installation réelle prétendue.
+- **Santé rétablie au contrôle** : les six URL demandées répondent HTTP 200
+  avant et après publication. Ceci constate la disponibilité du hub, sans
+  attribuer à cette mission la réparation de l’infrastructure OVH.
+- Déploiement par `python3 outils/deployer_openclaw.py` depuis le clone cron
+  hors Bureau `~/.hermes/workspaces/hub-openclaw-20261003`. Le clone partagé et
+  ses conflits préexistants restent intacts. Sauvegarde privée des **35 fichiers**
+  et comparaison à la version Git précédant la panne : aucune divergence.
+  Après envoi, les **35 fichiers relus via FTP** sont identiques aux sources.
+- Dates/modes des sources des kits restaurés avant régénération : les deux ZIP
+  restent intègres et inchangés octet pour octet, vérifiés aussi en HTTPS sur les
+  URL simples et celles des boutons (`?v=2`). Sitemap et clé IndexNow relus en
+  HTTPS, HTTP 200 et contenu exact.
+- Suite complète : **54 tests OK**. Les **3 tests des prérequis OpenClaw** passent
+  aussi sur les ressources HTTPS publiques ; section publiée identique à la
+  source. Les 4 scripts shell passent `bash -n`, sans exécution d’installation.
+  Chrome sans JavaScript en production à **1440, 1024, 430, 390, 375 et 360 px** :
+  ancre et trois FAQ utilisables au clavier, styles appliqués, aucun débordement
+  horizontal, guide accessible en HTTP 200.
+- **IndexNow HTTP 200** pour `/openclaw/` après publication effective :
+  notification acceptée, pas preuve d’indexation ou de hausse du trafic.
+- **Aucune distribution supplémentaire** : journal du 14/10 relu après
+  synchronisation Git ; les accès et permissions bloquants y sont déjà consignés.
+  Bluesky a été utilisé le 12/10 : pas de nouvelle promotion cette semaine.
+  Prochaine priorité : aligner les indications anciennes du guide OpenClaw avec
+  ces prérequis, en conservant la distinction entre documentation et installation
+  réellement testée. Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-14/hub-prerequis-openclaw/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

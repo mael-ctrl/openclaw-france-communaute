@@ -1,5 +1,89 @@
 [
  {
+  "id": "814c2e94d91aaf46",
+  "slug": "gemini-4-argon-passe-en-disponibilite-generale-814c2e",
+  "titre": "Gemini 4 Argon passe en disponibilité générale",
+  "resume": "Gemini 4 Argon est désormais en disponibilité générale. Les benchmarks, à l'image de CursorBench, confirment indépendamment les performances annoncées. Latent Space indique avoir déjà consacré son sujet principal à ce modèle il y a deux semaines.",
+  "tags": [
+   "gemini",
+   "dev",
+   "recherche"
+  ],
+  "importance": 4,
+  "source": "Latent Space",
+  "lien_source": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+  "date_source": null,
+  "date_redac": "2026-10-14T05:58:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 621,
+   "sortie": 628
+  }
+ },
+ {
+  "id": "63dc254ac0c6e0e2",
+  "slug": "smart-relance-sa-mini-citadine-2-290-km-d-autonomie-des-19-990-63dc25",
+  "titre": "Smart relance sa mini citadine #2 : 290 km d'autonomie dès 19 990 €",
+  "resume": "Smart revient aux sources avec la #2, une mini citadine électrique de 2,75 mètres de long qui annonce 290 km d'autonomie pour 19 990 €. Présentée comme la véritable descendante de l'iconique Fortwo, elle mise sur une agilité exceptionnelle. Son prix, lui, n'a rien de mini pour ce format.",
+  "tags": [
+   "matériel",
+   "business",
+   "société"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/290-km-autonomie-2-75-metres-long-smart-relance-modele-culte-19-990-euros.html",
+  "date_source": "2026-10-14T05:31:58+00:00",
+  "date_redac": "2026-10-14T05:57:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 689,
+   "sortie": 495
+  }
+ },
+ {
+  "id": "53f5f325965fe176",
+  "slug": "google-va-accueillir-les-apps-creees-avec-l-ia-sur-le-play-store-d-abo-53f5f3",
+  "titre": "Google va accueillir les apps créées avec l'IA sur le Play Store, d'abord en privé",
+  "resume": "Le Play Store de Google va bientôt s'enrichir d'une nouvelle section dédiée aux applications créées par les utilisateurs à l'aide de l'IA. Le magasin d'applications les accueillera d'abord en privé. Pour le géant de la recherche, il s'agit de transformer tout le monde en développeur logiciel.",
+  "tags": [
+   "dev",
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/google/3283937_google-va-accueillir-vos-applications-vibe-codees-sur-le-play-store-en-prive-dabord",
+  "date_source": "2026-10-14T05:31:42+00:00",
+  "date_redac": "2026-10-14T05:57:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 681,
+   "sortie": 887
+  }
+ },
+ {
+  "id": "1c6e7660158f428a",
+  "slug": "plus-de-280-serveurs-mcp-officiels-recenses-dans-une-liste-a-jour-1c6e76",
+  "titre": "Plus de 280 serveurs MCP officiels recensés dans une liste à jour",
+  "resume": "Le dépôt GitHub VoltAgent/official-mcp-servers recense plus de 280 serveurs MCP connus et largement utilisés. La sélection ne retient que des projets portés par les entreprises derrière les produits concernés, ou activement maintenus en open source. La liste est mise à jour au fil de l'eau, et les retours comme les pull requests sont encouragés.",
+  "tags": [
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5j0p7/updated_list_of_official_mcp_servers_300/",
+  "date_source": "2026-10-14T05:28:58+00:00",
+  "date_redac": "2026-10-14T05:57:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 676,
+   "sortie": 512
+  }
+ },
+ {
   "id": "ba2dbdf37dbbae8a",
   "slug": "nvidia-investit-dans-doctolib-entalpic-genesis-ai-et-pigment-ba2dbd",
   "titre": "Nvidia investit dans Doctolib, Entalpic, Genesis AI et Pigment",
@@ -18,6 +102,27 @@
    "modele": "deepseek-flash",
    "entree": 768,
    "sortie": 598
+  }
+ },
+ {
+  "id": "93f549101c80b435",
+  "slug": "jitllm-deplace-les-couches-d-un-modele-entre-gpu-en-pleine-generation-93f549",
+  "titre": "jitllm déplace les couches d'un modèle entre GPU en pleine génération",
+  "resume": "Un développeur présente jitllm, un moteur d'inférence inspiré des systèmes d'exploitation et des compilateurs JIT : il génère les kernels adaptés au matériel présent et traite les couches comme des processus qu'il peut placer et déplacer. En pleine réponse, les couches de Llama-3.2-3B passent d'un GPU T4 à l'autre et reviennent, en 8,1 et 8,4 ms, sans qu'aucun token ne soit recalculé. Le cache KV est paginé et se déplace avec les couches, donc le prompt n'est pas retraité et la sortie reste identique à une exécution sans déplacement.",
+  "tags": [
+   "dev",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5i7o9/moving_a_running_models_layers_between_gpus/",
+  "date_source": "2026-10-14T04:40:53+00:00",
+  "date_redac": "2026-10-14T05:58:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 904,
+   "sortie": 572
   }
  },
  {

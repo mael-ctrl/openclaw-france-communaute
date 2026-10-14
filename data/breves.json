@@ -1,5 +1,113 @@
 [
  {
+  "id": "9980660ca07e79cf",
+  "slug": "huit-etats-americains-poursuivent-openai-sur-la-securite-de-chatgpt-998066",
+  "titre": "Huit États américains poursuivent OpenAI sur la sécurité de ChatGPT",
+  "resume": "Huit États américains poursuivent OpenAI, l'accusant de nuire aux enfants et d'avoir induit ses clients en erreur sur la sécurité de ChatGPT. L'Iowa, le Kansas, le Nebraska, la Virginie-Occidentale, l'Arkansas, l'Arizona, l'Idaho et le Montana ont déposé des plaintes séparées. Ils reprochent à l'entreprise d'avoir placé ses profits avant la sécurité.",
+  "tags": [
+   "openai",
+   "chatgpt",
+   "sécurité",
+   "société"
+  ],
+  "importance": 4,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+  "date_source": "2026-10-14T21:11:28+00:00",
+  "date_redac": "2026-10-14T21:25:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 663,
+   "sortie": 395
+  }
+ },
+ {
+  "id": "5ebdc6ed49bf2985",
+  "slug": "sabi-noema-un-fine-tune-de-qwen-3-8-27b-axe-capacites-et-efficacite-5ebdc6",
+  "titre": "Sabi-Noema, un fine-tune de Qwen 3.8 27B axé capacités et efficacité",
+  "resume": "Deux versions post-entraînées de Qwen 3.8 27B, Sabi-Noema et Sabi-Noema-MLA, sont publiées. Elles visent la frontière des modèles de moins de 30B avec une verbosité divisée par deux, et sont entraînées uniquement sur des environnements open source. Gains en codage, tâches agentiques et appels d'outils, hallucinations en baisse. Sabi-Noema dépasse GPT 6 Luna-medium sur DeepSWE et Luna-high sur des benchmarks agentiques.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x62zrz/sabinoema_a_capability_and_efficiency_focused/",
+  "date_source": "2026-10-14T21:01:32+00:00",
+  "date_redac": "2026-10-14T21:26:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 856,
+   "sortie": 903
+  }
+ },
+ {
+  "id": "cfd239c5881ef116",
+  "slug": "une-ps5-jailbreakee-fait-tourner-qwen-3-8-27b-sur-son-gpu-a-20-tok-s-cfd239",
+  "titre": "Une PS5 jailbreakée fait tourner Qwen 3.8 27B sur son GPU à 20 tok/s",
+  "resume": "Sur le subreddit r/LocalLLaMA, l'utilisateur u/98Saman rapporte avoir jailbreaké une PS5 pour faire tourner le modèle Qwen 3.8 27B directement sur le GPU de la console, à 20 tokens par seconde. La publication ne détaille pas la méthode employée. La performance est notable pour du matériel de jeu détourné de son usage d'origine.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x62uhc/someone_jailbroke_a_ps5_and_got_qwen_38_27b/",
+  "date_source": "2026-10-14T20:55:40+00:00",
+  "date_redac": "2026-10-14T21:26:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 636,
+   "sortie": 785
+  }
+ },
+ {
+  "id": "bd2adc1b96a4720a",
+  "slug": "hermes-agent-publie-une-version-candidate-0-22-1-sur-github-bd2adc",
+  "titre": "Hermes Agent publie une version candidate 0.22.1 sur GitHub",
+  "resume": "Hermes Agent, le projet d'agents de NousResearch, publie sur GitHub une version candidate de son tag 0.22.1, datée du 14 octobre 2026. L'extrait transmis ne contient que des métadonnées techniques : troisième tentative de publication, autopublication désactivée, horodatage de revendication et début de hash de commit. Le contenu de la mise à jour n'est pas détaillé.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.3-v0.22.1",
+  "date_source": "2026-10-14T19:33:42+00:00",
+  "date_redac": "2026-10-14T21:26:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 612,
+   "sortie": 1027
+  }
+ },
+ {
+  "id": "9fe2570f819ab775",
+  "slug": "hermes-agent-la-release-candidate-rc-2-de-la-v0-22-1-abandonnee-9fe257",
+  "titre": "Hermes Agent : la release candidate rc.2 de la v0.22.1 abandonnée",
+  "resume": "Le dépôt Hermes Agent a publié un tag de release intitulé abandoned-rc.2-v0.22.1. Les métadonnées associées indiquent une version 0.22.1, un schéma 1 et une deuxième tentative, référencée rc.2-v0.22.1. Le tag porte explicitement la mention « abandoned », ce qui indique que cette release candidate n'a pas été retenue.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.2-v0.22.1",
+  "date_source": "2026-10-14T19:33:40+00:00",
+  "date_redac": "2026-10-14T21:26:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 771
+  }
+ },
+ {
   "id": "5f0855d7d30bea33",
   "slug": "patch-tuesday-plus-de-1-400-failles-corrigees-dans-windows-5f0855",
   "titre": "Patch Tuesday : plus de 1 400 failles corrigées dans Windows",

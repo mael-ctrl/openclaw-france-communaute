@@ -1,5 +1,91 @@
 [
  {
+  "id": "3ad15c8b90178a2b",
+  "slug": "hermes-agent-v0-22-0-installation-guidee-connecteurs-et-modeles-locaux-3ad15c",
+  "titre": "Hermes Agent v0.22.0 : installation guidée, connecteurs et modèles locaux",
+  "resume": "Hermes Agent passe en v0.22.0, « The Threshold Release ». Une installation desktop ouvre sur un chat de configuration guidée, sur un modèle en essai gratuit, sans clé API. Des connecteurs amènent l'agent dans les applications déjà utilisées, sans compte requis, et les modèles locaux tournent via un runtime llama.cpp en un clic. Les paquets desktop sont signés et les versions stables suivent SemVer.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0",
+  "date_source": "2026-10-14T03:21:46+00:00",
+  "date_redac": "2026-10-14T03:27:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 844,
+   "sortie": 1203
+  }
+ },
+ {
+  "id": "9438792a3299e141",
+  "slug": "claude-code-v2-1-299-mentions-de-fichiers-et-compactage-automatique-943879",
+  "titre": "Claude Code v2.1.299 : mentions de fichiers et compactage automatique",
+  "resume": "Claude Code v2.1.299 introduit une variable d'environnement qui transmet à Claude les chemins des fichiers mentionnés avec @ plutôt que leur contenu. Le terminal gagne aussi un compactage automatique : une conversation de plus de 200 000 tokens laissée inactive environ 54 minutes est compactée avant l'expiration du cache de prompt d'une heure. Le seuil est réglable et l'option désactivable.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
+  "date_source": "2026-10-14T02:49:42+00:00",
+  "date_redac": "2026-10-14T03:27:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 780,
+   "sortie": 1146
+  }
+ },
+ {
+  "id": "762c6a37dcf8e60b",
+  "slug": "openclaw-precise-le-contrat-fail-closed-de-la-preparation-de-lecture-d-762c6a",
+  "titre": "OpenClaw précise le contrat fail-closed de la préparation de lecture de placement",
+  "resume": "La référence worker-access d'OpenClaw indiquait encore que la préparation d'une lecture de placement rejoignait le règlement d'une publication chevauchante en relisant des faits frais. Le changement #168747 a supprimé cette boucle, assumant qu'une lecture de placement en course avec une mutation de la même session signale un changement d'autorité. La doc décrit ce contrat fail-closed et pourquoi relire la seule préparation ne supprimerait pas la fenêtre.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fc33cd2c41ad8-1791945514",
+  "date_source": "2026-10-14T02:35:09+00:00",
+  "date_redac": "2026-10-14T03:27:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 687,
+   "sortie": 1285
+  }
+ },
+ {
+  "id": "fad8638f29e6e2dc",
+  "slug": "discover-ai-51-labos-pratiques-pour-comprendre-le-fonctionnement-de-l--fad863",
+  "titre": "« Discover AI » : 51 labos pratiques pour comprendre le fonctionnement de l'IA",
+  "resume": "Une application hors ligne de 51 labos pratiques pour comprendre le fonctionnement de l'IA, des neurones aux agents. Répartis en six groupes, ils vont des bases (neurone, descente de gradient) à l'attention, au RAG, aux agents, au fine-tuning ou à la quantization, chacun accompagné d'une courte leçon. Certains exécutent vraiment du code : le labo attention fait tourner un petit transformer de 1,37 million de paramètres. Sans compte ni télémétrie.",
+  "tags": [
+   "claude",
+   "agents",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5ft3e/discover_ai_a_learning_guide_51_handson_labs_for/",
+  "date_source": "2026-10-14T02:31:03+00:00",
+  "date_redac": "2026-10-14T03:27:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 814,
+   "sortie": 1209
+  }
+ },
+ {
   "id": "28b874a64fd7c1b9",
   "slug": "mesa-etend-ses-capacites-npu-au-support-de-yolox-avec-pytorch-28b874",
   "titre": "Mesa étend ses capacités NPU au support de YOLOX avec PyTorch",

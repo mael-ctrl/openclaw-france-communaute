@@ -255,6 +255,27 @@
   }
  },
  {
+  "id": "649ffe1ddf8ab436",
+  "slug": "kokon-editer-des-photos-en-local-avec-qwen-image-2-1-sans-setup-649ffe",
+  "titre": "Kokon : éditer des photos en local avec Qwen-Image 2.1, sans setup",
+  "resume": "Kokon, appli de bureau gratuite et open source, automatise l'usage local de Qwen-Image 2.1 : au premier lancement, elle détecte le GPU et la mémoire, puis télécharge les GGUFs adaptés (Turbo Q4_K, encodeur texte Qwen3-VL 8B, ~12 Go, avec sommes de contrôle). Le moteur stable-diffusion.cpp (ggml) évite Python et PyTorch, avec des builds CUDA, Vulkan et Metal. Côté éditeur, on tape la modification ou on peint une zone (Change, Remove, Replace, Add), la zone peinte étant reportée sur une seconde image de référence.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5wyii/gptimagestyle_photo_editing_on_your_own_gpu_12_gb/",
+  "date_source": "2026-10-14T17:10:15+00:00",
+  "date_redac": "2026-10-14T20:32:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 865,
+   "sortie": 1337
+  }
+ },
+ {
   "id": "87ecbb4380d0118d",
   "slug": "une-journaliste-confie-son-alimentation-a-son-double-numerique-pendant-87ecbb",
   "titre": "Une journaliste confie son alimentation à son double numérique pendant 100 jours",

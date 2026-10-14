@@ -1,22 +1,18 @@
 {
- "runs": 287,
- "items_collectes": 2052,
- "breves_publiees": 1084,
- "articles_publies": 178,
- "tokens_entree": 1058780,
- "tokens_sortie": 1565539,
+ "runs": 288,
+ "items_collectes": 2054,
+ "breves_publiees": 1085,
+ "articles_publies": 179,
+ "tokens_entree": 1061221,
+ "tokens_sortie": 1569192,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-14T19:59:56+00:00",
+ "dernier_run": "2026-10-14T20:33:07+00:00",
  "solde": {
-  "total": "85.17",
+  "total": "85.16",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-14T11:13:02+00:00",
-   "message": "brève impossible (Anthropic prévient : l’IA pourrait bientôt se nourrir de vos) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-14T15:21:01+00:00",
    "message": "brève impossible (NVIDIA Nemotron Bolt 3.5 74B A9B releases Oct. 15th) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-14T17:56:06+00:00",
    "message": "brève impossible (New model from Telperion: Qwen3.8-27B-MLA & Qwen3.8-27B-GLA-) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-14T20:32:46+00:00",
+   "message": "brève impossible (Qwen 3.8 Flash Next, DeepSeekV4 Flash and Time) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 6.49,
+ "depense_usd": 6.5,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1172,10 +1172,14 @@
   [
    "2026-10-14T19:59:15+00:00",
    "85.17"
+  ],
+  [
+   "2026-10-14T20:32:33+00:00",
+   "85.16"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 4.2,
+ "depense_mois_usd": 4.21,
  "archive_tentatives": {
   "jour": "2026-10-14",
   "n": 1

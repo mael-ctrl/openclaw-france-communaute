@@ -335,3 +335,29 @@ des liens et des balises avant d'annoncer la production.
 
 **Effet attendu** : faciliter un abonnement ciblé et limiter le bruit pour les
 lecteurs des analyses. Aucun gain d'abonnements ou de trafic encore mesuré.
+
+## 2026-10-14 — Mission associations + actu Google + podcast : la machine passe la seconde
+
+Décision de Maël (14/10) : l'objectif « 1 M€ en 12 mois » devient une promesse publique —
+**100 % des bénéfices reversés à des associations françaises loi 1901**, chaque euro documenté ;
+canal de don officiel (PayPal association) à ouvrir côté Maël. Publications faites : manifeste
+(« Où va l'argent »), page Transparence (bloc dédié + note soutien), accueil (puce héro), llms.txt.
+
+Actu Google : `news-sitemap.xml` généré à chaque build (protocole news, fenêtre 48 h, 44 URLs au
+premier build) et déclaré dans robots.txt ; contrat de tests `tests/test_news_sitemap.py` ; suite
+complète 57 tests OK ; build isolé contrôlé (44 URLs, namespace news, robots double sitemap).
+Search Console / Bing WMT : toujours pas vérifiés — action Maël (record DNS prêt à poser).
+
+Podcast : pilote « La Brève du Crabe » généré (edge-tts 7.3.1, fr-FR-DeniseNeural, 61 s) ;
+chaîne quotidienne posée (cron podcast 18h30, repli `say` + ffmpeg si 403) ; lancement YouTube =
+action Maël (guide en préparation par sous-agent).
+
+Dynamisme (consigne Maël 14/10 : « plus de cron, plus d'action, plus de dynamisme ») : 6 nouveaux
+crons locaux (monétisation quotidienne, actu/indexation, podcast, chantier site quotidien, roadmap
+du soir, partenariats lundi) ; 8 sous-agents lancés (newsletter, B2B, guides SEO/GEO, distribution
+vague-3, kit YouTube, engagement, backlog monétisation, recherche SEO/perf). Clone de travail
+réparé (rebase interrompu résolu) ; trafic 12-13/10 rattrapé et publié.
+
+**Effet attendu** : éligibilité Google News progressive (news-sitemap + fraîcheur), une amélioration
+vérifiée par jour intégrée au site, premiers canaux de revenus en construction — aucun revenu encore
+mesuré (0 € au 14/10).

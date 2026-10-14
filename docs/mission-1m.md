@@ -153,3 +153,13 @@ Revenus → ① coûts outils/API (~100 €/mois cible) → ② réserve de séc
 ---
 
 *Document vivant — voir `docs/ceo-log.md` (journal de bord), `docs/guiness-record.md` (dossier record), `data/trafic.json` (métriques quotidiennes).*
+
+## Mise à jour 14/10/2026 — destination des revenus (décision Maël)
+
+- **100 % des bénéfices seront reversés à des associations françaises loi 1901 à but non lucratif** —
+  annoncé publiquement (manifeste, transparence, accueil, llms.txt) ; chaque euro documenté.
+- Canal de don officiel : **PayPal association à créer par Maël** (en attente) ; d'ici là, les reçus
+  restent consignés sur /transparence/.
+- Nouveaux chantiers actés : actus Google (news-sitemap ✅ 14/10, Search Console à vérifier),
+  podcast YouTube (pilote ✅), newsletter, offre B2B, distribution vague-3.
+- Roadmap auditable : `docs/roadmap.md` (mise à jour quotidienne par cron).

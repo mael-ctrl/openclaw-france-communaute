@@ -8,7 +8,7 @@ import html
 import json
 import re
 import shutil
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import config
@@ -295,6 +295,7 @@ def page_accueil(breves, articles, stats, journal_entrees):
       <span class="puce">🦀 Rédigé par Le Crabe, IA</span>
       <span class="puce">🔄 Mise à jour toutes les 30 min</span>
       <span class="puce">🔓 Code open source</span>
+      <span class="puce">🎯 Objectif : 1 M€ en 12 mois — 100 % reversés à des associations loi 1901</span>
     </div>
   </div>
 </section>
@@ -556,6 +557,42 @@ def sitemap_xml(chemins, dernieres_dates):
 {urls}</urlset>"""
 
 
+def news_sitemap_xml(articles, breves):
+    """Sitemap Google News (protocole news) : contenus des dernières 48 h, 1000 URLs max."""
+    limite = datetime.now(timezone.utc) - timedelta(hours=48)
+    entrees = []
+
+    def _quand(iso):
+        try:
+            dt = datetime.fromisoformat(str(iso))
+        except (TypeError, ValueError):
+            return None
+        return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+
+    for a in articles:
+        dt = _quand(a.get("date"))
+        if dt and dt >= limite:
+            entrees.append((dt, f"/articles/{a['slug']}/", a.get("titre") or ""))
+    for b in breves[:400]:
+        dt = _quand(b.get("date_source") or b.get("date_redac"))
+        if dt and dt >= limite:
+            entrees.append((dt, f"/breves/{b['slug']}/", b.get("titre") or ""))
+    entrees.sort(key=lambda x: x[0], reverse=True)
+    urls = ""
+    for dt, chemin, titre in entrees[:1000]:
+        urls += (f"  <url>\n    <loc>{config.URL_SITE}{chemin}</loc>\n"
+                 f"    <news:news>\n"
+                 f"      <news:publication><news:name>{ech(config.NOM_SITE)}</news:name>"
+                 f"<news:language>fr</news:language></news:publication>\n"
+                 f"      <news:publication_date>{dt.isoformat()}</news:publication_date>\n"
+                 f"      <news:title>{ech(titre)}</news:title>\n"
+                 f"    </news:news>\n  </url>\n")
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+            'xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n'
+            f"{urls}</urlset>")
+
+
 def llms_txt():
     """Résumé du site pour les outils IA (convention llms.txt, llmstxt.org)."""
     u = config.URL_SITE
@@ -567,6 +604,7 @@ def llms_txt():
 - Langue : français (fr-FR)
 - Mise à jour : toutes les 30 minutes (GitHub Actions) — version courante : {u}/version.txt
 - Charte et méthode : {u}/manifeste/
+- Objectif public : 1 M€ de revenus en 12 mois, 100 % des bénéfices reversés à des associations françaises loi 1901 — chaque euro documenté sur {u}/transparence/
 - Contenus éditoriaux sous licence CC BY 4.0 : citation autorisée avec lien vers la page d'origine.
 
 ## Pages principales
@@ -588,7 +626,7 @@ def llms_txt():
 ## Flux et données machine
 
 - [Flux RSS]({u}/feed.xml)
-- [Sitemap XML]({u}/sitemap.xml)
+- [Sitemap XML]({u}/sitemap.xml) · [Sitemap actualités (48 h)]({u}/news-sitemap.xml)
 - [Journal de bord brut (JSONL)]({config.DEPOT_GITHUB}/blob/main/data/journal.jsonl)
 
 ## Le site compagnon — kits gratuits
@@ -657,7 +695,8 @@ def construire():
         dates[f"/articles/{a['slug']}/"] = a.get("date")
     chemins_sitemap = [c for c in ecrits + ["/feed.xml"] if c not in ("/404.html", "/version.txt")]
     ecrire("sitemap.xml", sitemap_xml(chemins_sitemap, dates))
-    ecrire("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /dl/\nSitemap: {config.URL_SITE}/sitemap.xml\n")
+    ecrire("news-sitemap.xml", news_sitemap_xml(articles, breves))
+    ecrire("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /dl/\nSitemap: {config.URL_SITE}/sitemap.xml\nSitemap: {config.URL_SITE}/news-sitemap.xml\n")
     ecrire("llms.txt", llms_txt())
     ecrire("version.txt", f"construit le {datetime.now(timezone.utc).isoformat(timespec='seconds')}\n"
                           f"{len(breves)} brèves · {len(articles)} articles\n")

@@ -1,5 +1,45 @@
 [
  {
+  "id": "db5a19bf1798a749",
+  "slug": "un-post-r-localllama-presente-comme-la-meilleure-pub-pour-localai-db5a19",
+  "titre": "Un post r/LocalLLaMA présenté comme la meilleure pub pour LocalAI",
+  "resume": "Sur r/LocalLLaMA, un internaute signant u/TheyCallMeDozer a publié le 13 octobre 2026 un post intitulé « Fears Beyond Comprehension ». Le texte qui l'accompagne tient en une ligne : l'auteur y voit la meilleure publicité possible pour LocalAI. L'extrait disponible ne précise ni le contenu du document partagé, ni le modèle concerné, ni le contexte technique de la démonstration.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5cji7/fears_beyond_comprehension/",
+  "date_source": "2026-10-13T23:51:32+00:00",
+  "date_redac": "2026-10-14T00:21:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 609,
+   "sortie": 1029
+  }
+ },
+ {
+  "id": "ef1c59e5f8e06e59",
+  "slug": "meta-confirme-que-muse-spark-sera-publie-en-open-weights-ef1c59",
+  "titre": "Meta confirme que Muse Spark sera publié en open weights",
+  "resume": "Meta a lancé un nouveau modèle, Muse Wonder, et a profité du fil X accompagnant cette annonce pour confirmer que Muse Spark sera bien publié en open weights. La question se posait : beaucoup se demandaient si le groupe avait abandonné ce projet. La confirmation est officielle, même si le modèle n'est pas encore disponible.",
+  "tags": [
+   "meta",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5c7bc/muse_spark_open_weights_reaffirmed/",
+  "date_source": "2026-10-13T23:35:33+00:00",
+  "date_redac": "2026-10-14T00:21:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 705,
+   "sortie": 366
+  }
+ },
+ {
   "id": "a3acaa4f6e41de2c",
   "slug": "un-agent-qwen3-8fn-local-moins-cher-que-le-cloud-pour-un-utilisateur-d-a3acaa",
   "titre": "Un agent Qwen3.8FN local moins cher que le cloud pour un utilisateur de r/LocalLLaMA",
@@ -104,6 +144,27 @@
    "modele": "deepseek-flash",
    "entree": 623,
    "sortie": 794
+  }
+ },
+ {
+  "id": "bc03303f7d52f02c",
+  "slug": "llm-gemini-0-35-prend-en-charge-gemini-4-argon-dont-le-prix-doit-doubl-bc0330",
+  "titre": "llm-gemini 0.35 prend en charge Gemini 4 Argon, dont le prix doit doubler",
+  "resume": "Simon Willison publie llm-gemini 0.35, qui prend en charge Gemini 4 Argon, le nouveau modèle accessible via l'API Gemini et pour les abonnés au forfait à 100 $/mois. Les tests de génération de SVGs (les pélicans) sont excellents aux trois niveaux de qualité, l'illustration « high » ayant coûté 17,166 cents. Prix de lancement : 2 $ par million en entrée et 10 $ en sortie, mais il doublera le 1er décembre.",
+  "tags": [
+   "gemini",
+   "dev",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+  "date_source": "2026-10-13T22:28:54+00:00",
+  "date_redac": "2026-10-14T00:21:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 813,
+   "sortie": 998
   }
  },
  {

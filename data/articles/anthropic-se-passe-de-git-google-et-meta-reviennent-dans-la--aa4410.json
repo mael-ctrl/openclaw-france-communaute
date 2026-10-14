@@ -1,0 +1,41 @@
+{
+ "slug": "anthropic-se-passe-de-git-google-et-meta-reviennent-dans-la--aa4410",
+ "titre": "Anthropic se passe de Git, Google et Meta reviennent dans la course",
+ "chapo": "Anthropic a remplacé Git par son propre système de contrôle de source, Scion, face à un rythme de modifications de code devenu ingérable. Dans le même mouvement de dépêches, Google lance Gemini 4 Argon, Meta présente Muse Wonder, et Character.AI déposerait le bilan.",
+ "html": "<h2 id=\"scion-et-antique-quand-le-code-arrive-tr\">Scion et Antique : quand le code arrive trop vite pour Git</h2>\n<p>Simon Willison rapporte qu'Anthropic a construit sa propre alternative à Git. La raison tient dans deux chiffres : environ <strong>2 500 changements fusionnés par jour en mai 2026</strong>, puis <strong>plus de 30 000 en septembre</strong>. À ce rythme, l'outil de contrôle de source historique ne suffit plus.</p>\n<p>Le système s'appelle <strong>Scion</strong>, et la revue de code passe par un second outil, <strong>Antique</strong>. Willison voit dans les modèles de classe <strong>Fable/Mythos</strong> un facteur clé de cette accélération : ce sont eux qui produisent le volume que l'infrastructure doit absorber.</p>\n<p>L'épisode dépasse le seul cas d'Anthropic. Quand le nombre de modifications fusionnées quotidiennement passe du millier à la dizaine de milliers en quelques mois, ce n'est plus seulement la relecture humaine qui devient un goulot d'étranglement, mais toute la chaîne outillée autour du dépôt.</p>\n<h2 id=\"gemini-4-argon-et-muse-wonder-deux-retou\">Gemini 4 Argon et Muse Wonder : deux retours au premier plan</h2>\n<p>Google sort enfin de son silence. Après des mois en retrait de la course à l'IA de frontière, le groupe lance <strong>Gemini 4 Argon</strong>, un modèle longtemps attendu. Il affirme qu'il peut rivaliser avec ce que l'industrie fait de mieux. Argon promet « un raisonnement de frontière » et de meilleures performances sur les flux de travail complexes, avec <strong>moins de précautions excessives, de répétitions et de clichés</strong>.</p>\n<p>Meta revient par un autre chemin. Après quatorze mois de réorganisation et des dizaines de milliards de dollars investis, le groupe présente <strong>Muse Wonder</strong> et <strong>Muse Wonder Full</strong>, avec l'objectif affiché de rivaliser avec ChatGPT et Claude. La newsletter AINews de Latent Space les décrit comme le modèle frontalier de MSL, annoncé comme équivalent au niveau de <strong>Claude 5.5</strong> ; pour la publication, l'émergence de MSL comme laboratoire de frontière est désormais actée.</p>\n<p>Les deux annonces partagent le même vocabulaire : frontière, flux complexes, comparaison directe avec les modèles dominants. Ce que valent ces promesses se vérifiera à l'usage.</p>\n<h2 id=\"character-ai-le-signal-inverse\">Character.AI : le signal inverse</h2>\n<p>Une dépêche connexe signale à l'inverse un mouvement de repli. D'après une publication du subreddit r/LocalLLaMA, <strong>Character.AI aurait déposé le bilan</strong> et s'apprêterait à céder une partie de ses actifs à <strong>Disney, pour 20 millions de dollars</strong>. L'auteur du fil y voit un possible signe avant-coureur de l'éclatement de la bulle IA.</p>\n<p>L'information circule via un fil communautaire, sans confirmation dans les autres dépêches relayées ici : elle est à prendre comme telle. Le montant avancé, 20 millions de dollars, situe en tout cas l'opération très loin des dizaines de milliards engagés par Meta sur la même séquence d'annonces.</p>\n<p>Les deux mouvements ne sont pas liés mécaniquement, mais ils décrivent le même marché : des laboratoires capables de réoutiller leur production pour absorber des volumes inédits de code et de calcul, et un service de chat qui, selon ce fil, chercherait à céder ses actifs.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois modèles de frontière annoncés coup sur coup — Gemini 4 Argon, Muse Wonder, Muse Wonder Full — et, à côté, un outillage interne repensé parce que le code arrive trop vite pour Git. La question posée par ces volumes n'est pas seulement celle de la performance brute, mais celle de la capacité à relire, tester et fusionner ce que produisent les modèles. Côté économie, la rumeur Character.AI rappelle que la course ne se joue pas à armes égales.</p>",
+ "pivot": "aa4410a3a48a859e",
+ "tags": [
+  "dev",
+  "business",
+  "meta",
+  "gemini"
+ ],
+ "sources": [
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x57zpx/characterai_files_for_bankruptcy_to_sell_some/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/meta-degaine-muse-wonder-revient-force-course-ia.html"
+  }
+ ],
+ "date": "2026-10-14T00:21:40+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1448,
+  "sortie": 4900
+ }
+}

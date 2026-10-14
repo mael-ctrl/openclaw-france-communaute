@@ -1,0 +1,41 @@
+{
+ "slug": "des-agents-partout-43-mo-sur-cpu-windows-en-plateforme-et-le-8f1352",
+ "titre": "Des agents partout : 43 Mo sur CPU, Windows en plateforme, et les doutes de Meta",
+ "chapo": "Pendant que Neuphonic ouvre un modèle audio-vers-outil de 43 Mo qui tourne sur un seul thread CPU, Microsoft veut faire de Windows la plateforme des agents, avec un Copilot capable de lire les fichiers du PC. Entre les deux, Meta et Sierra posent un standard — alors que l'agent Muse inquiète jusque dans ses propres équipes.",
+ "html": "<h2 id=\"neudecide-43-mo-pour-sauter-l-etape-de-l\">NeuDecide : 43 Mo pour sauter l'étape de la transcription</h2>\n<p>L'équipe de <strong>Neuphonic</strong> ouvre sous licence <strong>Apache 2.0</strong> un modèle au nom de <strong>NeuDecide</strong>. Son principe : il reçoit de l'audio et des définitions d'outils, puis renvoie directement un appel d'outil accompagné de ses arguments. Pas de transcription intermédiaire, donc, là où un pipeline classique fait passer la voix par du texte avant de décider quoi appeler.</p>\n<p>Les fichiers pèsent <strong>43 Mo</strong> et l'inférence tourne sur <strong>un seul thread CPU</strong>, une démonstration <strong>WASM</strong> étant fournie. Sur la tâche <em>tool-only</em> de <strong>SLURP</strong> — dix outils en jeu — le modèle atteint <strong>72,4 % de précision</strong>, contre <strong>24,4 %</strong> pour l'approche associant <strong>Parakeet</strong> et <strong>FunctionGemma</strong>.</p>\n<p>Ce que dit ce chiffre, c'est qu'un modèle minuscule, entraîné pour une seule chose, peut tenir une tâche étroite sans empiler les étages. Ce qu'il ne dit pas : ce qui se passe hors de la tâche mesurée, et comment le système se comporte quand l'audio est bruité ou l'outil mal défini.</p>\n<h2 id=\"windows-veut-devenir-la-plateforme-des-a\">Windows veut devenir la plateforme des agents</h2>\n<p>Lors de son événement <strong>Windows et Surface</strong>, <strong>Microsoft</strong> a présenté une évolution de son assistant : <strong>Copilot</strong> pourra accéder aux fichiers présents sur le PC et effectuer des actions dans l'ensemble du système d'exploitation. L'entreprise range cela sous un concept qu'elle nomme « <strong>Hybrid Intelligence</strong> », où applications et outils s'appuient sur un mélange de plusieurs sources.</p>\n<p>Vu depuis la France, <strong>Journal du Geek</strong> insiste sur un autre aspect : cette « Intelligence Hybride » est présentée comme une brique de Windows capable de <strong>tourner en local</strong>, et non dans le cloud. L'éditeur affiche un objectif : faire de son système d'exploitation la plateforme des agents IA.</p>\n<p>Les deux dépêches décrivent donc deux mouvements qui se croisent : un assistant qui descend dans la machine pour toucher fichiers et actions système, et un modèle audio de quelques dizaines de mégaoctets qui revendique le CPU et le navigateur comme terrain de jeu. Aucune des deux sources ne dit que l'un alimente l'autre.</p>\n<h2 id=\"meta-et-sierra-posent-un-protocole-pour-\">Meta et Sierra posent un protocole pour agents personnels</h2>\n<p><strong>Meta</strong> et <strong>Sierra</strong>, spécialiste des agents IA pour le service client, annoncent le lancement d'un standard ouvert baptisé <strong>Personal Agent Protocol</strong>. Selon <strong>Bret Taylor</strong>, CEO de Sierra, il permettra de définir les modalités d'interaction entre les agents personnels et les entreprises — et <strong>chacun peut y contribuer</strong>.</p>\n<p>L'enjeu annoncé est simple à formuler : poser des règles communes à un moment où les agents se multiplient, côté grand public comme côté entreprises. Quand un agent personnel doit parler au système d'une entreprise, quelqu'un doit décrire le format de l'échange, les droits engagés et la manière de s'authentifier. C'est précisément ce que le protocole prétend cadrer.</p>\n<p>Reste que la dépêche dit ce que le standard vise, pas ce qu'il contient déjà : ni spécification détaillée, ni liste de partenaires au-delà des deux acteurs à l'origine de l'annonce.</p>\n<h2 id=\"muse-quand-l-inquietude-vient-de-l-inter\">Muse : quand l'inquiétude vient de l'intérieur</h2>\n<p>Le contraste est net. Lancé il y a <strong>un mois à peine</strong>, <strong>Muse</strong>, l'agent personnel de Meta, inquiète jusqu'au sein des propres équipes de l'entreprise. <strong>01net</strong> rapporte que des documents internes et des <strong>failles colmatées dans l'urgence</strong> alimentent un pronostic sombre : la fuite massive de données serait une question de temps.</p>\n<p>Aucun incident public n'est décrit dans la dépêche, et l'agent n'a donc rien d'un cas de compromission avérée. Ce qui est décrit, c'est un climat : des ingénieurs qui doutent, et des correctifs appliqués vite. Pour un agent déployé à grande échelle et branché sur des données personnelles, cette combinaison mérite d'être notée pour ce qu'elle est — un signal de risque, pas une preuve.</p>\n<p>Il y a là une forme de cas d'école : les mêmes acteurs qui poussent un standard ouvert pour encadrer les interactions entre agents et entreprises sont aussi ceux dont les agents personnels font l'objet d'alertes internes.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches dessinent un moment précis : les agents quittent la fenêtre de chat. Ils descendent dans le système d'exploitation, lisent des fichiers locaux, tournent sur un thread de CPU, et cherchent des règles communes pour parler à des services tiers. Ce mouvement a une conséquence mécanique : plus un agent touche de données et d'actions, plus la surface à protéger s'élargit. Microsoft décrit un mélange de sources d'exécution, Neuphonic mise sur un modèle minuscule et spécialisé, Meta et Sierra sur un protocole, et les ingénieurs de Meta signalent, eux, la difficulté. Quatre approches, quatre positions différentes sur la même question : qui tient les clés quand l'agent agit.</p>",
+ "pivot": "8f1352df9acafd41",
+ "tags": [
+  "agents",
+  "open-source",
+  "meta",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0o8zr/were_open_sourcing_neudecide_a_43_mb_audiototool/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/07/oubliez-lia-windows-presente-son-intelligence-hybride-capable-de-tourner-en-local/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/un-standard-pour-les-gouverner-tous-meta-et-sierra-font-alliance-autour-des-agents-personnels.JUOYUYGHLZHQVCAJS7RQREUZQQ.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/une-fuite-massive-inevitable-chez-meta-des-ingenieurs-sinquietent-de-lia-muse.html"
+  }
+ ],
+ "date": "2026-10-08T13:26:15+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1583,
+  "sortie": 2165
+ }
+}

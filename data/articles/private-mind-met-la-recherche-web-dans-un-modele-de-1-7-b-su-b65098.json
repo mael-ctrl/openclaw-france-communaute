@@ -1,0 +1,41 @@
+{
+ "slug": "private-mind-met-la-recherche-web-dans-un-modele-de-1-7-b-su-b65098",
+ "titre": "Private Mind met la recherche web dans un modèle de 1,7 B, sur mobile",
+ "chapo": "Une application mobile fait tourner un modèle de 1,7 milliard de paramètres en local, avec recherche web et citation des sources, sans API ni backend. À l'autre bout de l'échelle, Gemini 4 Argon passe en disponibilité générale et Anthropic remplace Git par son propre système de contrôle de source.",
+ "html": "<h2 id=\"un-webview-cache-plutot-qu-une-api\">Un WebView caché plutôt qu'une API</h2>\n<p>Private Mind, l'application open source qui fait tourner des LLM en local sur iOS et Android, ajoute la recherche web à ses modèles. La méthode surprend : <strong>aucune API, aucun backend</strong>. Un WebView caché interroge DuckDuckGo et parse la page de résultats, comme le ferait un navigateur.</p>\n<p>Pour la sélection, l'app s'appuie sur un modèle d'embedding embarqué, LFM2.5 (415 Mo), complété par du matching de mots-clés. Le dispositif retient six extraits de 500 caractères, transmis au modèle, qui répond ensuite <strong>en citant ses sources</strong>.</p>\n<p>La démonstration est parlante : Qwen 3 1.7B, web désactivée, invente l'événement Apple de septembre ; web activée, il le retrouve correctement. Sur un modèle de cette taille, la différence tient donc moins à la puissance du raisonnement qu'à l'accès à l'information.</p>\n<h2 id=\"gemini-4-argon-en-ga-meta-muse-wonder-au\">Gemini 4 Argon en GA, Meta Muse Wonder au niveau annoncé de Claude 5.5</h2>\n<p>Chez Latent Space, deux dépêches dessinent le haut de l'échelle. Gemini 4 Argon est désormais en <strong>disponibilité générale</strong>. Les benchmarks, à l'image de CursorBench, confirment indépendamment les performances annoncées. La publication précise avoir déjà consacré son sujet principal à ce modèle il y a deux semaines.</p>\n<p>La même source se penche sur Meta Muse Wonder et Wonder Full, présentés comme le modèle frontalier de MSL et annoncés comme équivalents au niveau de Claude 5.5. Pour Latent Space, l'émergence de MSL comme laboratoire de frontière est désormais actée.</p>\n<p>Autrement dit : le sommet de la pile se recompose, pendant qu'un modèle de 1,7 milliard de paramètres apprend à citer ses sources depuis un téléphone.</p>\n<h2 id=\"anthropic-quand-le-code-va-plus-vite-que\">Anthropic : quand le code va plus vite que Git</h2>\n<p>Anthropic a construit sa propre alternative à Git, rapporte Simon Willison. La raison : le rythme de modification de son code a explosé, avec <strong>environ 2 500 changements fusionnés par jour en mai 2026</strong>, et plus de 30 000 en septembre. Le système de contrôle de source s'appelle Scion, et la revue de code passe par Antique.</p>\n<p>Willison voit dans les modèles de classe Fable/Mythos un facteur clé de cette accélération. Le sujet n'est pas anecdotique : quand un outil de gestion de versions devient le goulot d'étranglement, c'est l'outillage lui-même qu'il faut repenser, pas seulement le modèle qui produit le code.</p>\n<h2 id=\"nvidia-10-milliards-de-dollars-en-europe\">Nvidia : 10 milliards de dollars en Europe, dont quatre noms français</h2>\n<p>Nvidia a annoncé mardi 13 octobre au soir, en marge d'un événement « Build-a-Claw » organisé à Paris, des investissements dans quatre start-up françaises : <strong>Doctolib, Entalpic, Genesis AI et Pigment</strong>. Les montants engagés dans chaque société n'ont pas été divulgués.</p>\n<p>Ces opérations portent les investissements de Nvidia en Europe à <strong>10 milliards de dollars</strong>, une semaine avant la conférence GTC Berlin. Le périmètre des quatre noms retenus — santé, matériaux, robotique et outils financiers — donne une idée des verticales que le fabricant regarde de près sur le continent.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches du jour se répondent sans se suivre. D'un côté, la course au front : Gemini 4 Argon en disponibilité générale, MSL qui s'installe comme laboratoire de frontière. De l'autre, l'outillage qui encaisse la pression — Anthropic qui remplace Git, Nvidia qui place 10 milliards de dollars en Europe. Et à l'opposé exact de cette démesure, une app open source qui fait tenir un modèle de 1,7 B, une recherche DuckDuckGo et des citations de sources dans un téléphone, sans backend.</p>",
+ "pivot": "b65098ac2efcff02",
+ "tags": [
+  "open-source",
+  "agents",
+  "france",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5oqiy/web_search_for_a_17b_model_running_fully_on_a/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/electronique/nvidia/nvidia-investit-dans-les-pepites-francaises-doctolib-entalpic-genesis-ai-et-pigment-portant-ses-investissements-en-europe-a-10-milliards-de-dollars.35EROQMSSBBXXKMXF6YBGMMSM4.html"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+  }
+ ],
+ "date": "2026-10-14T12:06:48+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1544,
+  "sortie": 3097
+ }
+}

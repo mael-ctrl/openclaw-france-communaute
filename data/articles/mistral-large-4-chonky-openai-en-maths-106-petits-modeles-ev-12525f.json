@@ -1,0 +1,41 @@
+{
+ "slug": "mistral-large-4-chonky-openai-en-maths-106-petits-modeles-ev-12525f",
+ "titre": "Mistral Large 4 « Chonky », OpenAI en maths, 106 petits modèles évalués",
+ "chapo": "Un billion de paramètres annoncés, des poids ouverts promis pour la fin du mois, et un nom que la communauté ne lâche plus : Mistral Large 4 occupe le terrain. Pendant ce temps, OpenAI revendique 722 articles de maths, et un jeu de données passe 106 petits modèles au crible.",
+ "html": "<h2 id=\"mistral-large-4-un-billion-deux-niveaux-\">Mistral Large 4 : un billion, deux niveaux de raisonnement</h2>\n<p>Mistral a ouvert le 6 octobre l'aperçu de <strong>Mistral Large 4</strong>. Le chiffre varie selon les sources : 1 000 milliards de paramètres chez Simon Willison comme sur r/LocalLLaMA, 1 050 milliards chez ActuIA. Toutes s'accordent en revanche sur les <strong>49 milliards de paramètres actifs</strong>, c'est-à-dire la fraction du réseau réellement sollicitée à chaque passage.</p>\n<p>L'entraînement s'est déroulé sur le cluster maison du laboratoire, <strong>3 800 GPU NVIDIA Grace Blackwell</strong>, rapporte Simon Willison. Côté API, deux niveaux de raisonnement seulement sont exposés : « none » et « high ». Pas de réglage intermédiaire, pas de curseur de budget de réflexion.</p>\n<p>Les poids ouverts sont annoncés pour la fin du mois. À ce stade, c'est une promesse : le modèle est en aperçu, et rien n'est encore déposé. Un aperçu reste un aperçu — le modèle n'est pas encore téléchargeable.</p>\n<h2 id=\"38-sur-artificial-analysis-9-pour-la-ver\">38 sur Artificial Analysis, 9 pour la version précédente</h2>\n<p>Sur Artificial Analysis, Mistral Large 4 score <strong>38</strong>, juste derrière DeepSeek 4.1 Flash, contre 9 pour Mistral Large 3 en décembre. ActuIA parle d'un rattrapage confirmé par des mesures indépendantes et présente le modèle comme le plus capable des modèles ouverts hors de Chine.</p>\n<p>L'argument commercial mis en avant n'est pas le raisonnement général mais la <strong>cybersécurité</strong>, face aux modèles ouverts chinois. Un positionnement qui dit quelque chose du marché européen de l'IA : se distinguer par un usage précis plutôt que par le score brut.</p>\n<p>Sur r/LocalLLaMA, la communauté a surtout retenu le nom du modèle — « Chonky ». Un billion de paramètres, ça se voit dans le titre.</p>\n<h2 id=\"openai-722-articles-de-maths-90-probleme\">OpenAI : 722 articles de maths, 90 problèmes ouverts</h2>\n<p>Selon Latent Space, OpenAI a publié <strong>722 articles de mathématiques</strong> qui résolvent 90 des 500 principaux problèmes ouverts du domaine. La publication est décrite comme « le moment le plus significatif » en plus de 100 ans de mathématiques.</p>\n<p>Ce qui donne son poids à l'annonce, selon la même source, c'est le volume de travaux et le nombre de problèmes ouverts traités — pas un résultat unique, mais une production massive. La formulation est celle de la source, qui situe elle-même la portée de l'annonce.</p>\n<h2 id=\"106-petits-modeles-passes-au-crible-en-3\">106 petits modèles passés au crible en 30 minutes de GPU</h2>\n<p><strong>Open SLM Evaluations</strong> rassemble les résultats de benchmarks de <strong>106 petits modèles de langage</strong>, de 150M de paramètres ou moins. Pour chaque modèle, le jeu de données fournit les scores, le nom, le nombre de paramètres et des liens.</p>\n<p>Les évaluations ont été menées indépendamment, en <strong>30 minutes de GPU sur un Runpod B200</strong>. Les données sont publiées sous licence <strong>Apache 2.0</strong> sur Hugging Face, donc réutilisables librement.</p>\n<p>L'intérêt est double : comparer des modèles qui tournent sur une machine modeste, et disposer de chiffres produits hors des éditeurs. À 150M de paramètres ou moins, on parle d'une autre échelle que Mistral Large 4 — mais c'est précisément là que les évaluations publiques manquent le plus souvent.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois actualités, trois façons d'occuper le terrain de la mesure et de l'ouverture. Mistral promet des poids qu'il faut encore attendre ; OpenAI avance un volume de publications que sa source qualifie de tournant ; un contributeur publie des benchmarks sous licence permissive pour des modèles que personne ne couvre. Dans les trois cas, le chiffre est l'argument. Les dépôts et les reproductions diront le reste.</p>",
+ "pivot": "12525f78396e918c",
+ "tags": [
+  "mistral",
+  "openai",
+  "open-source",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x07x1z/open_slm_evalulations/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzginu/europe_rejoins_the_fight_with_chonky_mistral/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/mistral-large-4-ce-que-vaut-le-meilleur-modele-ouvert-hors-chine/"
+  }
+ ],
+ "date": "2026-10-08T06:47:36+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1493,
+  "sortie": 5634
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "mistral-large-4-frein-d-urgence-et-qwen-en-local-la-semaine--f75e4c",
+ "titre": "Mistral Large 4, frein d'urgence et Qwen en local : la semaine IA",
+ "chapo": "Mistral fait son retour dans les classements avec Large 4, mais se retrouve aussi sous le feu de deux critiques, signées Ecosia et Free. Pendant ce temps, Satya Nadella réclame un « frein d'urgence » pour les modèles d'IA, et Qwen 3.8 Flash-Next se fait tourner en local sur une carte AMD grand public.",
+ "html": "<h2 id=\"mistral-un-retour-dans-la-course-deux-cr\">Mistral : un retour dans la course, deux critiques dans la foulée</h2>\n<p><strong>Ecosia tourne le dos à Mistral</strong>, cinq mois après l'avoir choisi. C'est Frandroid qui le relève, en pointant des rapports de force qui ont pris « un drôle de tour » ces sept derniers jours. Free, de son côté, reproche à Mistral son rapport au nucléaire. Deux reproches distincts : l'un porte sur un changement de fournisseur, l'autre sur la trajectoire industrielle du labo.</p>\n<p>Dans le même temps, <strong>Mistral Large 4</strong> marque le retour de Mistral AI dans la course. Numerama note qu'il s'agit de son premier modèle depuis de longs mois, et qu'il permet au labo de se repositionner dans les classements. Les deux mouvements dessinent une semaine chargée pour l'éditeur français.</p>\n<p>À côté de ça, Frandroid signale que Google et Free ont « donné de quoi lire ». La dépêche n'en dit pas plus : on s'en tiendra là.</p>\n<h2 id=\"chez-microsoft-on-parle-de-frein-d-urgen\">Chez Microsoft, on parle de « frein d'urgence »</h2>\n<p>Dans un billet publié un samedi matin, <strong>Satya Nadella</strong> estime qu'il est temps de « prendre du recul et d'évaluer l'architecture de confiance » de l'IA. Le PDG de Microsoft écrit que les modèles d'IA ont besoin d'un « frein d'urgence ».</p>\n<p>La prise de parole d'un des principaux acteurs du secteur intervient alors que la question de la confiance accordée aux systèmes d'IA est de plus en plus discutée. TechCrunch IA ne rapporte ni mécanisme précis ni calendrier : le billet pose un principe, pas une spécification.</p>\n<h2 id=\"qwen-3-8-flash-next-tourne-sur-une-7900-\">Qwen 3.8 Flash-Next tourne sur une 7900 XTX</h2>\n<p>Sur r/LocalLLaMA, un utilisateur fait tourner <strong>Qwen 3.8 Flash-Next</strong> en local sur une AMD 7900 XTX : <strong>500 000 tokens de contexte</strong> et <strong>105 à 160 tokens/s</strong> en décodage. Le modèle totalise 176 milliards de paramètres, mais n'en active que 6 milliards par token.</p>\n<p>Le détail de l'installation compte : <strong>23,8 GiB résidents en VRAM</strong>, le reste — experts et table PLE — logé en RAM système. C'est ce découpage qui rend l'exercice possible sur une carte grand public.</p>\n<p>L'auteur relate aussi un bug d'écho venu de `preserve_thinking`, qui réinjectait les raisonnements passés dans chaque prompt. Les mécanismes de conservation du raisonnement ne sont donc pas neutres.</p>\n<h2 id=\"brevets-valorisation-manuscrits-les-autr\">Brevets, valorisation, manuscrits : les autres mouvements</h2>\n<p><strong>Qualcomm rachète des brevets à Huawei</strong>, rapporte Frandroid. Le montant et le périmètre exact ne sont pas détaillés dans la dépêche, mais l'opération concerne deux acteurs majeurs des composants et des télécoms.</p>\n<p>Côté financement, Latent Space relaie les chiffres de <strong>TypeSafe</strong>, aussi appelé <strong>Jev</strong> : plus de <strong>100 millions de dollars de revenus récurrents annuels</strong> et <strong>7,5 milliards de dollars de valorisation</strong>, trois semaines seulement après le lancement. Ces chiffres viennent du récapitulatif AINews de Latent Space.</p>\n<p>Numerama rappelle par ailleurs qu'<strong>OpenAI</strong> a impressionné le monde scientifique avec <strong>772 manuscrits mathématiques</strong>. Et qu'Orange a dévoilé son premier décodeur « home cinéma » — une actualité matérielle qui complète la semaine.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois signaux se croisent : un labo français qui doit répondre à ses clients tout en sortant un modèle, un dirigeant américain qui demande un frein d'urgence, et des modèles toujours plus gros qui tournent sur du matériel personnel. Les 176 milliards de paramètres de Qwen, dont 6 activés par token, disent quelque chose de la direction prise : ce n'est plus la taille brute qui bloque le local, c'est l'architecture. Le reste de la semaine — brevets, valorisation à trois semaines d'existence, manuscrits mathématiques — rappelle que le rythme n'a pas ralenti.</p>",
+ "pivot": "f75e4cbbc69738d6",
+ "tags": [
+  "mistral",
+  "openai",
+  "matériel",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/actualites-generales/3280125_ecosia-vs-mistral-qualcomm-et-huawei-et-free-reproche-le-nucleaire-a-mistral-freebox-super-player"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2350633-percees-mathematiques-dopenai-modele-mistral-large-4-et-orange-home-cinema-le-recap-tech-de-la-semaine.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3ker0/i_ran_qwen_38_flashnext_on_my_amd_7900_xtx_at/"
+  }
+ ],
+ "date": "2026-10-12T02:49:22+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1570,
+  "sortie": 3715
+ }
+}

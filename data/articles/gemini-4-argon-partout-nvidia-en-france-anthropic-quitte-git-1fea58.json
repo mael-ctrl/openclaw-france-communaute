@@ -1,0 +1,41 @@
+{
+ "slug": "gemini-4-argon-partout-nvidia-en-france-anthropic-quitte-git-1fea58",
+ "titre": "Gemini 4 Argon partout, Nvidia en France, Anthropic quitte Git",
+ "chapo": "Google ouvre Gemini 4 Argon à la planète entière, mais annonce déjà que son API coûtera deux fois plus cher au 1er décembre. La même semaine, Nvidia met 10 milliards de dollars sur la table en Europe et Anthropic explique pourquoi Git ne tient plus la cadence de son propre code.",
+ "html": "<h2 id=\"gemini-4-argon-le-deploiement-puis-la-fa\">Gemini 4 Argon : le déploiement, puis la facture</h2>\n<p><strong>Gemini 4 Argon</strong> est désormais accessible dans le monde entier. Depuis le 13 octobre 2026, le modèle — dévoilé au début du mois — est servi via l'API Gemini, ainsi qu'aux abonnés payants de plusieurs produits de la firme. Google veut en faire un outil de travail pour les tâches complexes et le moteur de ses agents IA.</p>\n<p>Latent Space confirme le passage en disponibilité générale. Le média note que les benchmarks, à l'image de <strong>CursorBench</strong>, valident indépendamment les performances annoncées, et rappelle qu'il avait déjà consacré son sujet principal à ce modèle deux semaines plus tôt.</p>\n<p>La mauvaise nouvelle est tarifaire : le prix de l'API doit doubler le <strong>1er décembre</strong>. Un déploiement mondial, donc, dont le coût d'usage va mécaniquement grimper pour ceux qui construisent dessus.</p>\n<h2 id=\"nvidia-met-10-milliards-sur-l-europe-don\">Nvidia met 10 milliards sur l'Europe, dont quatre start-up françaises</h2>\n<p>Nvidia a annoncé <strong>mardi 13 octobre au soir</strong>, en marge d'un événement « Build-a-Claw » organisé à Paris, des investissements dans quatre start-up françaises : <strong>Doctolib</strong>, <strong>Entalpic</strong>, <strong>Genesis AI</strong> et <strong>Pigment</strong>. Les montants engagés dans chaque société n'ont pas été divulgués.</p>\n<p>Ces opérations portent les investissements de Nvidia en Europe à <strong>10 milliards de dollars</strong>. Le timing n'est pas anodin : l'annonce tombe une semaine avant la conférence <strong>GTC Berlin</strong>.</p>\n<p>Quatre noms, quatre profils différents — santé, matériaux, robotique, finance — sans que l'on sache, en l'état, ce que Nvidia compte en faire précisément.</p>\n<h2 id=\"chez-anthropic-le-code-va-trop-vite-pour\">Chez Anthropic, le code va trop vite pour Git</h2>\n<p>Anthropic a construit sa propre alternative à Git, rapporte <strong>Simon Willison</strong>. La raison : le rythme de modification de son code a explosé. Environ <strong>2 500 changements fusionnés par jour en mai 2026</strong>, plus de <strong>30 000 en septembre</strong>.</p>\n<p>Le système de contrôle de source s'appelle <strong>Scion</strong>, et la revue de code passe par <strong>Antique</strong>. Willison voit dans les modèles de classe <strong>Fable/Mythos</strong> un facteur clé de cette accélération.</p>\n<p>Le sujet dépasse le cas d'Anthropic : les outils de développement pensés pour un rythme humain de commits montrent leurs limites quand une partie du code est produite à cadence machine.</p>\n<h2 id=\"character-ai-une-rumeur-pas-un-fait-etab\">Character.AI : une rumeur, pas un fait établi</h2>\n<p>Selon une publication du subreddit <strong>r/LocalLLaMA</strong>, Character.AI aurait déposé le bilan et s'apprêterait à céder une partie de ses actifs à <strong>Disney</strong> pour <strong>20 millions de dollars</strong>. L'information circule via ce fil, sans confirmation extérieure dans les dépêches dont nous disposons — à prendre comme telle.</p>\n<p>L'auteur du fil y voit un possible signe avant-coureur de l'éclatement de la <strong>bulle IA</strong>. Un parallèle qui mérite d'être signalé, pas validé : la trajectoire d'un acteur du chat grand public vers la cession d'actifs pour une somme modeste, si elle se confirme, dit quelque chose du marché, mais elle ne le résume pas.</p>\n<h2>Et maintenant ?</h2>\n<p>Le 13 octobre 2026 restera une journée dense : Google ouvre Gemini 4 Argon partout depuis cette date, Nvidia annonce le soir même quatre investissements français. Aucun lien de cause à effet entre les deux, sinon un calendrier partagé et une même question posée aux équipes techniques : combien coûte l'usage d'un modèle frontière, et qui absorbe la facture quand elle double ? La réponse d'Anthropic est ailleurs — dans ses outils internes. Celle du marché, elle, n'est pas encore écrite.</p>",
+ "pivot": "1fea58699b510812",
+ "tags": [
+  "gemini",
+  "business",
+  "dev",
+  "france"
+ ],
+ "sources": [
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/electronique/nvidia/nvidia-investit-dans-les-pepites-francaises-doctolib-entalpic-genesis-ai-et-pigment-portant-ses-investissements-en-europe-a-10-milliards-de-dollars.35EROQMSSBBXXKMXF6YBGMMSM4.html"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x57zpx/characterai_files_for_bankruptcy_to_sell_some/"
+  }
+ ],
+ "date": "2026-10-14T13:16:37+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1575,
+  "sortie": 2478
+ }
+}

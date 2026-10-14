@@ -1,0 +1,41 @@
+{
+ "slug": "intel-d-series-torvalds-chez-claude-code-muse-wonder-le-calc-c0fd75",
+ "titre": "Intel D-Series, Torvalds chez Claude Code, Muse Wonder : le calcul change de camp",
+ "chapo": "Une carte Intel à 480 Go de mémoire, un noyau Linux patché avec Claude Code, un premier modèle frontière chez Meta et Microsoft qui vise plusieurs gigawatts de puces maison. Quatre dépêches, un même mouvement : la maîtrise du calcul et des modèles se redistribue.",
+ "html": "<h2 id=\"intel-nomme-sa-carte-d-series-480-go-de-\">Intel nomme sa carte : D-Series, 480 Go de LPDDR5X</h2>\n<p>Intel donne un nom définitif à <strong>Crescent Island</strong> : la carte s'appellera <strong>D-Series</strong>. Le point qui fait parler dans r/LocalLLaMA, c'est la mémoire — jusqu'à <strong>480 Go de LPDDR5X</strong>, un ordre de grandeur qui change la donne pour qui veut faire tourner des modèles en local.</p>\n<p>La fiche technique annonce <strong>1,5 To/s de bande passante</strong>, une puissance allant jusqu'à <strong>1,3 pétaFLOPS en FP8</strong>, et la prise en charge des formats <strong>FP4 à FP64</strong>. La carte compte <strong>32 cœurs Xe3P</strong>, <strong>256 moteurs XMX</strong> et <strong>32 Mo de cache L2 unifié</strong>.</p>\n<p>Aucun tarif n'est communiqué pour l'instant. L'auteur du post, lui, espère une variante générique à soufflante, pensée pour les stations de travail prosumer.</p>\n<h2 id=\"torvalds-claude-code-et-huit-patchs-dans\">Torvalds, Claude Code et huit patchs dans le noyau</h2>\n<p>Linus Torvalds a publié une série de <strong>huit patchs pour le noyau Linux</strong>, écrits avec <strong>Claude Code</strong>, l'assistant de programmation d'Anthropic. Le détail qui pique : en 2024, le créateur de Linux décrivait encore l'IA comme « <strong>90 % de marketing</strong> ».</p>\n<p>Le symbole est difficile à ignorer. Une figure longtemps sceptique de l'écosystème open source s'appuie désormais sur un modèle d'IA pour contribuer au kernel — le cœur du logiciel libre, l'endroit où les contributions se discutent ligne par ligne.</p>\n<h2 id=\"meta-passe-a-l-echelle-frontiere-mistral\">Meta passe à l'échelle frontière, Mistral revient</h2>\n<p>Meta publie <strong>Muse Wonder</strong>, présenté comme son <strong>premier modèle frontière</strong>. La famille ne sort pas de nulle part : <strong>Muse Spark</strong> visait un modèle léger, capable de fonctionner à faible latence. Les modèles <strong>Wonder</strong> sont plus grands et annoncés comme plus capables.</p>\n<p>Les résultats avancés vont dans ce sens : de meilleurs scores sur les benchmarks et de meilleurs résultats sur des tâches complexes comme le <strong>code</strong>. Meta se place donc sur le segment le plus disputé, celui des grands modèles généralistes.</p>\n<p>Sur le même terrain, <strong>Mistral AI</strong> signe son retour dans la course avec <strong>Mistral Large 4</strong>, son premier modèle depuis de longs mois, et se repositionne dans les classements. <strong>OpenAI</strong> a de son côté mis en avant <strong>772 manuscrits mathématiques</strong>. Deux manières différentes d'occuper le terrain : la place dans les classements d'un côté, la démonstration scientifique de l'autre.</p>\n<h2 id=\"microsoft-veut-ses-puces-maia-a-plusieur\">Microsoft veut ses puces Maia à plusieurs gigawatts</h2>\n<p>Microsoft veut maîtriser une part croissante des puces et infrastructures de l'IA, pas seulement ses logiciels et services. La firme prévoit de porter ses déploiements d'accélérateurs maison <strong>Azure Maia</strong> à <strong>plusieurs gigawatts dès 2027</strong>, <strong>Maia 300</strong> étant la prochaine étape clé de cette stratégie.</p>\n<p>Trois objectifs : gagner en efficacité, sécuriser ses capacités de calcul et desserrer l'étau <strong>Nvidia</strong>. Autrement dit, ne plus dépendre entièrement d'un fournisseur unique pour la ressource la plus tendue du moment.</p>\n<h2>Et maintenant ?</h2>\n<p>Lue d'un bloc, la semaine dessine une redistribution. Intel pousse la mémoire au plus près des machines ; Microsoft veut ses propres accélérateurs dans ses propres datacenters ; Meta monte en gamme sur les modèles frontière ; Mistral revient dans les classements. Et pendant ce temps, huit patchs du noyau Linux passent par un assistant de programmation. Le silicium, les modèles, l'outillage : les trois étages bougent en même temps.</p>",
+ "pivot": "c0fd754f20c42066",
+ "tags": [
+  "matériel",
+  "open-source",
+  "meta",
+  "mistral"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4g90u/intel_crescent_island_gpu_gets_dseries_name/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/os/gnu-linux/3282511_linus-torvalds-qui-reduisait-lia-a-90-de-marketing-publie-un-patch-du-noyau-linux-ecrit-avec-claude-code"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/microsoft/avec-sa-puce-maia-300-microsoft-veut-reprendre-la-main-sur-le-cout-de-lia-et-desserrer-letau-nvidia.FK3CDM7OINCT5LTZ2KN3WV6CAE.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2350633-percees-mathematiques-dopenai-modele-mistral-large-4-et-orange-home-cinema-le-recap-tech-de-la-semaine.html"
+  }
+ ],
+ "date": "2026-10-12T23:04:07+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1635,
+  "sortie": 3319
+ }
+}

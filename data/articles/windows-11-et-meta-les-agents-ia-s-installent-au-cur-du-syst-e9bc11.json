@@ -1,0 +1,41 @@
+{
+ "slug": "windows-11-et-meta-les-agents-ia-s-installent-au-cur-du-syst-e9bc11",
+ "titre": "Windows 11 et Meta : les agents IA s'installent au cœur du système",
+ "chapo": "D'un côté, Microsoft transforme la barre de recherche de Windows 11 en point d'entrée pour l'IA et donne à Copilot l'accès aux fichiers locaux. De l'autre, Meta et Sierra poussent un standard ouvert pour les agents personnels — pendant que l'agent Muse inquiète en interne.",
+ "html": "<h2 id=\"la-recherche-nouvelle-porte-d-entree-de-\">La recherche, nouvelle porte d'entrée de l'IA</h2>\n<p>Microsoft a dévoilé une importante mise à jour de la barre de recherche de Windows 11. Au programme : prévisualisation de fichiers, aperçus web, un relooking et un agent IA. La recherche devient ainsi un point d'entrée supplémentaire pour l'IA dans le système d'exploitation.</p>\n<p>L'annonce ne s'arrête pas là. Lors de son événement Windows et Surface, Microsoft a présenté une évolution de Copilot : l'assistant pourra accéder aux fichiers présents sur le PC et effectuer des actions dans l'ensemble du système. On passe d'un assistant qui répond à un agent qui agit — avec, en creux, toute la question du périmètre et des permissions.</p>\n<p>La barre de recherche n'est plus un simple champ de saisie : elle devient une interface parmi d'autres pour piloter la machine.</p>\n<h2 id=\"l-intelligence-hybride-ou-l-ia-qui-tourn\">L'Intelligence Hybride, ou l'IA qui tourne en local</h2>\n<p>Microsoft met en avant un concept baptisé « Hybrid Intelligence », restitué en français par « Intelligence Hybride ». Dans cette approche, les applications et les outils s'appuient sur un mélange de plusieurs sources.</p>\n<p>Le point que l'éditeur souligne : cette brique de Windows est capable de tourner en local, sur la machine, et non dans le cloud. L'objectif affiché est explicite — faire du système d'exploitation la plateforme des agents IA.</p>\n<p>Le déplacement est intéressant. La concurrence ne porte plus seulement sur la qualité d'un modèle, mais sur l'endroit où les agents s'exécutent et sur ce à quoi ils ont accès. Exécuter en local change la donne en matière de latence, de coût et de traitement des données, même si le concept d'intelligence hybride suppose justement de combiner plusieurs sources, locales et distantes.</p>\n<h2 id=\"meta-et-sierra-veulent-des-regles-commun\">Meta et Sierra veulent des règles communes</h2>\n<p>Pendant que Microsoft étend son emprise sur le poste de travail, un autre chantier s'ouvre côté standards. Meta et Sierra, spécialiste des agents IA pour le service client, annoncent le lancement d'un standard ouvert baptisé <strong>Personal Agent Protocol</strong>.</p>\n<p>Selon Bret Taylor, CEO de Sierra, ce protocole permettra de définir les modalités d'interaction entre les agents personnels et les entreprises, et chacun peut y contribuer. L'enjeu annoncé : poser des règles communes à un moment où les agents se multiplient côté grand public comme côté entreprises.</p>\n<p>L'idée sous-jacente est simple à formuler : un agent personnel qui doit réserver, acheter ou transmettre une information a besoin d'interlocuteurs capables de le comprendre — et de cadrer ce qu'il a le droit de faire. Reste à savoir qui adoptera réellement un protocole ouvert porté par deux acteurs seulement.</p>\n<h2 id=\"muse-le-revers-de-la-medaille\">Muse : le revers de la médaille</h2>\n<p>Le tableau serait incomplet sans le versant sécurité. Chez Meta, Muse, l'agent personnel lancé il y a un mois à peine, inquiète jusqu'au sein des propres équipes de l'entreprise. Des documents internes et des failles colmatées dans l'urgence alimentent un pronostic sombre : la fuite massive de données serait une question de temps.</p>\n<p>Le cas est instructif parce qu'il ne porte pas sur un modèle de langage isolé, mais sur un agent déployé à grande échelle, avec des accès. Plus un agent dispose de permissions — fichiers locaux, actions système, échanges avec des services tiers —, plus la surface exposée s'élargit.</p>\n<p>Les deux mouvements décrits plus haut, l'accès étendu au système et la standardisation des échanges entre agents, rendent ce paramètre d'autant plus sensible : chaque capacité ajoutée est aussi une porte à surveiller.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux dynamiques avancent en parallèle. Côté Microsoft, l'IA descend dans le système d'exploitation : recherche, fichiers, actions, avec l'exécution locale comme argument de vente. Côté Meta, on tente d'organiser les échanges entre agents via un protocole ouvert, tout en gérant les conséquences d'un déploiement massif. Entre les deux, la question qui revient est identique : qui définit ce qu'un agent peut voir, et ce qu'il peut faire.</p>",
+ "pivot": "e9bc11785632f44d",
+ "tags": [
+  "agents",
+  "meta",
+  "sécurité",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/windows-11-la-nouvelle-barre-de-recherche-va-pouvoir-controler-votre-pc.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/07/oubliez-lia-windows-presente-son-intelligence-hybride-capable-de-tourner-en-local/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/un-standard-pour-les-gouverner-tous-meta-et-sierra-font-alliance-autour-des-agents-personnels.JUOYUYGHLZHQVCAJS7RQREUZQQ.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/une-fuite-massive-inevitable-chez-meta-des-ingenieurs-sinquietent-de-lia-muse.html"
+  }
+ ],
+ "date": "2026-10-08T14:12:34+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1511,
+  "sortie": 3327
+ }
+}

@@ -48,7 +48,9 @@ class SuivreTest(unittest.TestCase):
         self.assertEqual(bloc.blocs, 1, "Une invitation à suivre doit figurer après la brève")
         self.assertEqual([a["href"] for a in bloc.liens],
                          [config.URL_SITE + "/feed.xml",
+                          config.URL_SITE + "/feed-articles.xml",
                           "https://bsky.app/profile/" + config.BLUESKY_HANDLE])
+        self.assertIn("RSS articles uniquement", " ".join(bloc.texte))
         self.assertIn("Ajouter ce flux à votre lecteur RSS", " ".join(bloc.texte))
         self.assertIn("https://communaute-ia.fr/feed.xml", " ".join(bloc.texte))
         self.assertLess(document.index('</article>'), document.index('aria-labelledby="suivre-le-crabe"'))
@@ -66,7 +68,9 @@ class SuivreTest(unittest.TestCase):
         self.assertEqual(bloc.blocs, 1, "Une invitation à suivre doit figurer après l'article")
         self.assertEqual([a["href"] for a in bloc.liens],
                          [config.URL_SITE + "/feed.xml",
+                          config.URL_SITE + "/feed-articles.xml",
                           "https://bsky.app/profile/" + config.BLUESKY_HANDLE])
+        self.assertIn("RSS articles uniquement", " ".join(bloc.texte))
         self.assertLess(document.index('</article>'), document.index('aria-labelledby="suivre-le-crabe"'))
         self.assertLess(document.index('aria-labelledby="suivre-le-crabe"'), document.index('Autres articles'))
         self.assertNotIn('onclick', document)

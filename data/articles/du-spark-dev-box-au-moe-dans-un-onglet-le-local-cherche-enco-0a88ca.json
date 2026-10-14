@@ -1,0 +1,41 @@
+{
+ "slug": "du-spark-dev-box-au-moe-dans-un-onglet-le-local-cherche-enco-0a88ca",
+ "titre": "Du Spark Dev Box au MoE dans un onglet : le local cherche encore sa forme",
+ "chapo": "Microsoft met 5 995 dollars sur la table pour une station de développement à puce GB10, pendant que Windows se présente comme la plateforme des agents. En face, Google DeepMind compresse le multimodal dans 740 millions de paramètres et LocalMind fait tenir un MoE de 37 Go dans un onglet de navigateur.",
+ "html": "<h2 id=\"windows-veut-etre-la-plateforme-des-agen\">Windows veut être la plateforme des agents</h2>\n<p>Microsoft a dévoilé la Surface RTX Spark Dev Box, une machine pour développeurs à 5 995 dollars, expédiée en novembre. Elle embarque une puce GB10 sous la marque N1X et prend en charge WSL dès la sortie, avec probablement Ubuntu et CUDA sous le capot, en plus des briques Copilot et GitHub natives de Windows.</p>\n<p>Le point de friction vient de l'interconnexion. Sur r/LocalLLaMA, un commentateur regrette l'absence du support ConnectX7 : le GB10 Spark donne son meilleur avec deux machines ou plus, et le 10 Gb Ethernet ne remplace pas ce lien. Autrement dit, la configuration à une seule boîte laisse de la performance de côté.</p>\n<p>Cette annonce accompagne une brique logicielle : Microsoft présente « Intelligence Hybride », un composant de Windows capable de tourner en local. L'objectif affiché par l'éditeur est de faire de son système d'exploitation la plateforme des agents IA, le fait que cette intelligence s'exécute sur la machine, et non dans le cloud, étant le point mis en avant.</p>\n<h2 id=\"embeddinggemma-2-le-multimodal-compresse\">EmbeddingGemma 2 : le multimodal compressé pour les appareils</h2>\n<p>Google DeepMind publie EmbeddingGemma 2, un modèle d'embedding multimodal open source. Il projette texte — code inclus —, images, vidéo et audio dans un espace vectoriel unique de 768 dimensions.</p>\n<p>Le gabarit est volontairement réduit : 740 millions de paramètres au total, dont 270M pour le texte, 170M pour la vision et 300M pour l'audio. La cible est claire — les appareils grand public, mobiles et laptops — pour la recherche, le RAG ou la classification en local. Le modèle s'appuie sur les avancées de Gemma 4.</p>\n<p>Là où la Surface RTX Spark Dev Box vise le poste de travail lourd, EmbeddingGemma 2 joue une autre partition : celle du embedding qui tient dans une poche et sert de brique de base à des pipelines qui ne remontent pas vers un serveur.</p>\n<h2 id=\"reflection-ai-et-l-open-intelligence-occ\">Reflection AI et l'« open intelligence » occidentale</h2>\n<p>Reflection AI a dévoilé le 5 octobre Beam, son premier modèle open-weight. Ce Mixture-of-Experts compte 501 milliards de paramètres au total, dont 23 milliards actifs, et cible en priorité l'agentic coding, le raisonnement et les tâches agentiques.</p>\n<p>La start-up présente cette sortie comme la première étape d'une série de modèles destinés à faire émerger une « open intelligence » occidentale. L'Usine Digitale la surnomme le « DeepSeek américain », une formule qui dit surtout la course de positionnement en cours sur les poids ouverts.</p>\n<p>Le contraste avec EmbeddingGemma 2 est net : deux ordres de grandeur séparent les deux publications, et deux philosophies d'usage — un modèle d'embedding léger pour tourner partout, un MoE massif pour les charges agentiques.</p>\n<h2 id=\"un-moe-de-37-go-dans-un-onglet-de-naviga\">Un MoE de 37 Go dans un onglet de navigateur</h2>\n<p>LocalMind, page web statique sans serveur ni installation, exécute des modèles via WebGPU. Deux moteurs streamant les poids d'experts depuis le disque permettent à un onglet de dépasser la RAM disponible.</p>\n<p>La démonstration : un Gemma 4 26B-A4B et un Qwen3.6 MoE de 37 Go tournent sur un MacBook M4 Pro de 24 Go, avec une sortie identique à celle de llama.cpp. La répartition est explicite — poids denses, routeurs et KV cache vont au GPU, les experts routés restent sur disque.</p>\n<p>C'est la même idée que celle poursuivie par les stations de développement : déplacer le calcul localement. La différence tient au support. Là où Microsoft vend une machine dédiée, LocalMind se contente d'un navigateur et d'un SSD, ce qui déplace la contrainte du matériel vers la bande passante de stockage.</p>\n<h2>Et maintenant ?</h2>\n<p>Ces quatre annonces dessinent un local à plusieurs étages : une station de développement à 5 995 dollars, une couche système qui revendique l'exécution sur la machine, un modèle d'embedding de 740 millions de paramètres taillé pour les mobiles et les laptops, un MoE de 501 milliards de paramètres en open-weight, et un onglet capable de servir 37 Go d'experts depuis le disque. Les échelles n'ont rien à voir, les contraintes non plus — interconnexion réseau d'un côté, bande passante de stockage de l'autre. Reste à voir lesquelles de ces approches survivront à l'usage réel.</p>",
+ "pivot": "0a88ca8f67d8f1d5",
+ "tags": [
+  "matériel",
+  "open-source",
+  "agents",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x09g09/surface_rtx_spark_dev_box_the_dev_box_built_for/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/07/oubliez-lia-windows-presente-son-intelligence-hybride-capable-de-tourner-en-local/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz5va3/googleembeddinggemma2_hugging_face/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/le-deepseek-americain-reflection-ai-devoile-son-premier-modele-open-weight-avec-lambition-de-depasser-la-chine.WIU2SYBM3RAQXPF4H3FZBL54CA.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wyvo42/gemma_4_26ba4b_and_a_37_gb_qwen36_moe_running_in/"
+  }
+ ],
+ "date": "2026-10-08T00:53:06+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1681,
+  "sortie": 2727
+ }
+}

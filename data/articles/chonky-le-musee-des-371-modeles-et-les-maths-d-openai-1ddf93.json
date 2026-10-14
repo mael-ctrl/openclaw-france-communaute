@@ -1,0 +1,41 @@
+{
+ "slug": "chonky-le-musee-des-371-modeles-et-les-maths-d-openai-1ddf93",
+ "titre": "« Chonky », le musée des 371 modèles et les maths d'OpenAI",
+ "chapo": "Un aperçu de modèle à 1 000 milliards de paramètres, un site qui archive les réponses de 371 modèles aux mêmes questions, et 722 articles de mathématiques publiés d'un coup. Trois façons très différentes de mesurer où en est l'IA, où les chiffres vérifiables pèsent plus que les annonces.",
+ "html": "<h2 id=\"mistral-large-4-un-millier-de-milliards-\">Mistral Large 4, un millier de milliards de paramètres</h2>\n<p>Mistral a ouvert le 6 octobre l'aperçu de <strong>Mistral Large 4</strong>. Le chiffre qui circule : un millier de milliards de paramètres. Simon Willison parle d'un modèle d'un billion de paramètres dont 49 milliards actifs ; ActuIA avance 1050 milliards. Dans les deux cas, l'essentiel est le même : une très grande réserve de paramètres, dont une petite fraction seulement est activée à chaque passage.</p>\n<p>L'entraînement s'est déroulé sur le cluster propre du laboratoire, 3 800 GPU NVIDIA Grace Blackwell. Un aperçu, donc, pas une sortie définitive : le modèle est accessible, mais les poids, eux, ne le sont pas encore. Les poids ouverts sont promis pour la fin du mois. En attendant, l'API n'expose que deux niveaux de raisonnement, « none » et « high » — pas de curseur intermédiaire pour doser le temps de calcul.</p>\n<h2 id=\"38-sur-artificial-analysis-et-un-nom\">38 sur Artificial Analysis, et un nom</h2>\n<p>Sur Artificial Analysis, Mistral Large 4 score 38, juste derrière DeepSeek 4.1 Flash. Pour situer : Mistral Large 3 était à 9 en décembre. Le laboratoire présente ce nouveau modèle comme le plus capable des modèles ouverts hors de Chine, et les mesures indépendantes confirment un rattrapage. Un score agrégé reste un score agrégé : il range des modèles les uns par rapport aux autres, il ne dit rien de ce qu'ils font dans un usage précis.</p>\n<p>Le positionnement commercial se déplace en partie sur la cybersécurité, avancée face aux modèles ouverts chinois. Sur r/LocalLLaMA, la réaction la plus visible porte sur autre chose : le nom retenu, « Chonky », que la communauté a trouvé suffisamment drôle pour en faire un sujet à part entière.</p>\n<h2 id=\"371-modeles-dans-le-formol\">371 modèles dans le formol</h2>\n<p>À côté de ces annonces, museumofmodels.com fait un travail d'un autre genre. Le site, gratuit et sans inscription, rassemble les réponses de <strong>371 modèles</strong> à des prompts identiques, posés depuis mai 2024. Le protocole est verrouillé : un seul essai par modèle, aucun system prompt, température de 0,7.</p>\n<p>Ces contraintes sont ce qui rend la collection lisible : tout le monde répond dans les mêmes conditions, sans réglage fin ni seconde chance. Le corpus inclut de nombreux modèles à poids ouverts, mais aussi <strong>93 modèles qu'il n'est plus possible d'exécuter</strong>. La collection documente donc deux choses à la fois : ce que les modèles produisent, et la vitesse à laquelle certains disparaissent des machines.</p>\n<h2 id=\"722-articles-de-maths-d-un-coup\">722 articles de maths d'un coup</h2>\n<p>Latent Space rapporte qu'OpenAI a publié 722 articles de mathématiques, qui résolvent 90 des 500 principaux problèmes ouverts du domaine. La publication y est décrite comme « le moment le plus significatif » en plus de 100 ans de mathématiques.</p>\n<p>Selon cette lecture, ce qui donne son poids à l'annonce, c'est le volume de travaux et le nombre de problèmes ouverts traités — pas un résultat unique mis en avant. Les 500 problèmes visés donnent l'échelle : 90 traités, c'est moins d'un cinquième du corpus.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois signaux qui ne se ressemblent pas. Un laboratoire européen qui annonce un modèle d'un millier de milliards de paramètres et promet des poids ouverts avant la fin du mois ; un site sans inscription qui fige les réponses de 371 modèles, dont 93 déjà impossibles à relancer ; une publication massive d'articles de mathématiques. Les deux derniers ne dépendent d'aucune communication d'entreprise, et c'est précisément ce qui les rend utiles : ils mesurent les modèles dans des conditions identiques, sur la durée, y compris après leur retrait.</p>",
+ "pivot": "1ddf9310397334dc",
+ "tags": [
+  "mistral",
+  "openai",
+  "open-source",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0ejor/same_prompts_to_371_models_since_may_2024_all_the/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzginu/europe_rejoins_the_fight_with_chonky_mistral/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/mistral-large-4-ce-que-vaut-le-meilleur-modele-ouvert-hors-chine/"
+  }
+ ],
+ "date": "2026-10-08T03:49:22+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1500,
+  "sortie": 5040
+ }
+}

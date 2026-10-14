@@ -1,0 +1,41 @@
+{
+ "slug": "un-ipad-fait-tourner-un-27b-sur-gpu-externe-windows-parie-su-66caca",
+ "titre": "Un iPad fait tourner un 27B sur GPU externe, Windows parie sur le local",
+ "chapo": "Un iPad Pro fait tourner un modèle 27B sur une Radeon AI PRO R9700 branchée en Thunderbolt, à 158,5 tok/s. Le même jour, Microsoft met en avant une « Intelligence Hybride » exécutée sur la machine, Anthropic ouvre des scans de sécurité gratuits pour l'open-source, et un projet réécrit son historique GitHub pour effacer Claude.",
+ "html": "<h2 id=\"l-inference-locale-sort-du-pc\">L'inférence locale sort du PC</h2>\n<p>LemonSeed Studio, un éditeur et IDE pour iPad, exécute l'inférence directement sur un GPU AMD placé dans un boîtier Thunderbolt. Le pilote Linux amdgpu et amdkfd, non modifié, est embarqué via une extension PCIDriverKit, et le moteur LSE tourne sur la carte. Sur un iPad Pro avec une Radeon AI PRO R9700, Qwen3.8-27B en Q4 accompagné d'un draft Q8 DFlash2 atteint <strong>158,5 tok/s</strong>, contre 31,2 en baseline, avec 131k de contexte.</p>\n<p>Sur un autre terrain, le framework MLX restage les opérandes en FP16 lors de la multiplication de matrices quantifiées. En les stagant en FP8, on accède au chemin matriciel FP8 deux fois plus rapide du matériel Apple Silicon M6. La même idée appliquée en int8 sur M5 donne un gain de prefill comparable : <strong>+40 %</strong> sur Qwen3-8B, et jusqu'à <strong>+50 %</strong> sur un modèle 27B. Ce fork n'est pas upstream (mlx#4627) et augmente la perplexité de moins de 1 %.</p>\n<p>Les chiffres donnent la mesure de l'écart : 158,5 tok/s contre 31,2 en baseline, sur un contexte de 131k tokens, avec un Q4 épaulé par un draft Q8 DFlash2. Côté MLX, l'astuce tient en une ligne — changer le format de staging des opérandes — et se paie de moins de 1 % de perplexité en plus, sans être intégrée en amont du framework. Dans les deux cas, la cible n'est plus le serveur.</p>\n<h2 id=\"windows-veut-garder-l-ia-sur-la-machine\">Windows veut garder l'IA sur la machine</h2>\n<p>Microsoft présente « Intelligence Hybride », une brique de Windows capable de tourner en local. L'objectif affiché par l'éditeur : faire de son système d'exploitation la plateforme des agents IA.</p>\n<p>Le point sur lequel l'entreprise insiste n'est pas telle ou telle capacité, mais l'endroit où elles s'exécutent : cette intelligence tourne sur la machine, et non dans le cloud. C'est cet argument qui est mis en avant dans la présentation.</p>\n<p>Cette insistance sur le local résonne avec les travaux d'inférence décrits plus haut, sans qu'on puisse parler de réponse ou de course coordonnée : les acteurs ne se citent pas, et les échelles n'ont rien à voir, d'un iPad modifié à un système d'exploitation grand public.</p>\n<h2 id=\"des-scans-de-securite-gratuits-pour-l-op\">Des scans de sécurité gratuits pour l'open-source</h2>\n<p>Anthropic propose un nouveau service, OSS Scanner, destiné à aider les projets open-source à traquer des vulnérabilités de sécurité. Les projets qui s'inscrivent reçoivent, selon l'entreprise, des scans de sécurité réguliers et approfondis, réalisés par ses modèles les plus puissants, et sans frais.</p>\n<p>L'intérêt affiché est le tempo : des mainteneurs alertés plus tôt de problèmes potentiels, sur des bases de code qu'ils ne peuvent pas toujours surveiller seuls. Le périmètre exact des projets éligibles et la fréquence précise des scans ne sont pas détaillés au-delà du caractère « régulier » annoncé.</p>\n<h2 id=\"strata-et-l-historique-qui-perd-ses-ance\">Strata et l'historique qui perd ses ancêtres</h2>\n<p>Sur r/LocalLLaMA, u/dasbin raconte avoir vu le script « UPDATE » intégré à Strata échouer : git ne trouvait plus d'ancêtre commun. Selon lui, tous les commits historiques du projet ont été réécrits pour supprimer la mention « Co-Authored by Claude » des descriptions.</p>\n<p>Il juge la pratique « assez grossière » et n'y voit pas d'autre raison qu'une volonté de dissimuler les origines du projet. Réécrire l'historique d'un dépôt casse au passage les outils qui s'appuient dessus, à commencer par les scripts de mise à jour du projet lui-même.</p>\n<h2>Et maintenant ?</h2>\n<p>Mise bout à bout, la journée dessine un paysage où le lieu d'exécution et la traçabilité pèsent autant que les performances brutes. Un iPad qui pilote un GPU externe, un Windows qui promet de garder l'IA sur la machine, un laboratoire qui met ses modèles au service de l'audit du code open-source, un projet qui efface les traces de l'assistant qui l'a écrit : la même question revient sous quatre formes — qui exécute quoi, où, et avec quelles traces visibles.</p>",
+ "pivot": "66caca539c0160b7",
+ "tags": [
+  "matériel",
+  "agents",
+  "open-source",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x18e95/qwen3827b_159_toks_on_r9700_64_toks_on_strix_halo/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/07/oubliez-lia-windows-presente-son-intelligence-hybride-capable-de-tourner-en-local/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x15a8w/strata_rewrote_their_github_history_to_wipe/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x13fo2/staging_quantized_weights_to_fp8_instead_of_fp16/"
+  }
+ ],
+ "date": "2026-10-09T02:32:51+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1604,
+  "sortie": 5255
+ }
+}

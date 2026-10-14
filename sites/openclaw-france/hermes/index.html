@@ -58,9 +58,11 @@
       navigue le web, orchestre des sous-agents et s'étend avec des <b>skills</b>.
       Notre guide français te fait tout brancher, proprement.
     </p>
+    <p style="margin:20px 0 0">Ce kit utilise Bash sur macOS, Linux ou WSL2.
+      <a href="#prerequis">Vérifie ton système et les prérequis avant de télécharger →</a></p>
     <div class="actions">
       <a class="btn btn-principal btn-large" href="/dl/kit-hermes.zip?v=2">⬇ Télécharger le kit (.zip)</a>
-      <a class="btn btn-secondaire btn-large" href="/dl/kit-hermes/">📂 Parcourir les fichiers</a>
+      <a class="btn btn-secondaire btn-large" href="#fichiers">📂 Parcourir les fichiers</a>
     </div>
     <p style="margin:20px 0 0"><a href="/guides/demarrer-openclaw-hermes/">Avant d’installer : coûts, premier essai et vérifications →</a><br>
       <a href="#depannage">Installation bloquée ? Trois vérifications pour démarrer →</a></p>
@@ -71,14 +73,57 @@
     </div>
   </section>
 
-  <section>
+  <section id="prerequis" aria-labelledby="titre-prerequis" style="scroll-margin-top:88px">
+    <div class="titre-section">
+      <div class="kicker">Avant de lancer le script</div>
+      <h2 id="titre-prerequis">Ton ordinateur est-il prêt pour Hermes ?</h2>
+      <p>Le kit accompagne la méthode en terminal. Vérifie ces points, puis lis le
+      <a href="/dl/kit-hermes/GUIDE.md">GUIDE.md</a> avant toute exécution.</p>
+    </div>
+    <ul>
+      <li><strong>macOS Apple Silicon :</strong> la méthode officielle en terminal est prise en charge.
+      Pour un Mac Intel, lis la réserve ci-dessous avant de lancer le kit.</li>
+      <li><strong>Linux ou WSL2 :</strong> architectures x86_64 ou arm64 (aarch64).
+      La documentation indique des tests sur Ubuntu récent et WSL2 ; cela ne garantit pas chaque distribution.</li>
+      <li><strong>Outils requis :</strong> Git, curl, tar et un utilitaire SHA-256.
+      L’installateur fournit son environnement Python et Node.js ; la compilation peut aussi demander
+      un compilateur et des bibliothèques système. Sur Linux, certains composants nécessitent des paquets
+      système et les droits d’un administrateur.</li>
+      <li><strong>Windows natif :</strong> le script Bash du kit ne se lance pas directement dans PowerShell.
+      Utilise le kit dans WSL2, ou suis la
+      <a href="https://hermes-agent.nousresearch.com/docs/getting-started/installation#windows-native" rel="noopener">méthode officielle Windows</a>
+      hors de ce kit.</li>
+    </ul>
+    <details class="faq" open>
+      <summary>Mac Intel : compatibilité non garantie</summary>
+      <div class="reponse">
+        <p>Au contrôle du 12/10/2026, les pages officielles divergent : le guide d’installation
+        présente macOS Intel comme non pris en charge, tandis que la matrice des plateformes
+        décrit encore une installation CLI et des bundles Intel disponibles seulement sur certaines releases.</p>
+        <p>Les indications du kit sur Mac Intel sont plus anciennes : elles ne constituent pas une garantie.
+        Vérifie ces deux sources pour ta machine et ta version avant de lancer un installateur ;
+        en cas de doute, demande confirmation au projet Hermes.</p>
+      </div>
+    </details>
+    <p>Sources : <a href="https://hermes-agent.nousresearch.com/docs/getting-started/installation#prerequisites" rel="noopener">installation et prérequis officiels</a>
+    et <a href="https://hermes-agent.nousresearch.com/docs/getting-started/platform-support" rel="noopener">matrice des plateformes de Nous Research</a>,
+    consultées le <time datetime="2026-10-12">12/10/2026</time>.
+    Cette synthèse indépendante est un contrôle documentaire, pas une installation testée sur chaque système.</p>
+  </section>
+
+  <section id="fichiers" aria-labelledby="titre-fichiers" style="scroll-margin-top:88px">
     <div class="titre-section">
       <div class="kicker">Contenu du kit</div>
-      <h2>Le guide, le script, la mise en route</h2>
+      <h2 id="titre-fichiers">Le guide, le script, la mise en route</h2>
+      <p>Consulte chaque fichier gratuitement, sans compte ni téléchargement du ZIP.
+      Commence par <a href="/dl/kit-hermes/README.md">README.md</a> pour la vue d’ensemble,
+      puis lis <a href="/dl/kit-hermes/GUIDE.md">GUIDE.md</a> avant de lancer les scripts.
+      Ne place jamais tes clés API dans des fichiers publics ou une demande d’aide.</p>
     </div>
     <div class="fichiers">
       <a class="fichier" href="/dl/kit-hermes/GUIDE.md"><span class="ico">📖</span><span><b>GUIDE.md</b><small>Installation pas-à-pas (macOS / Linux)</small></span></a>
       <a class="fichier" href="/dl/kit-hermes/scripts/install.sh"><span class="ico">🚀</span><span><b>scripts/install.sh</b><small>Script d'installation</small></span></a>
+      <a class="fichier" href="/dl/kit-hermes/config-exemple.yaml"><span class="ico">⚙️</span><span><b>config-exemple.yaml</b><small>Exemple de configuration commenté, à adapter</small></span></a>
       <a class="fichier" href="/dl/kit-hermes/demarrage.md"><span class="ico">🏁</span><span><b>demarrage.md</b><small>Première session + usages concrets</small></span></a>
       <a class="fichier" href="/dl/kit-hermes/README.md"><span class="ico">🗂️</span><span><b>README.md</b><small>Vue d'ensemble du kit</small></span></a>
     </div>

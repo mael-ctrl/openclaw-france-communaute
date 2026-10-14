@@ -1,0 +1,41 @@
+{
+ "slug": "agents-ia-google-microsoft-et-meta-posent-leurs-pieces-20b031",
+ "titre": "Agents IA : Google, Microsoft et Meta posent leurs pièces",
+ "chapo": "Google dégaine un agent Gemini « universel » pour le travail pendant que Microsoft ouvre Windows à Copilot et que Meta s'allie à Sierra autour d'un standard ouvert. La bataille se déplace du modèle vers l'endroit où l'agent travaille.",
+ "html": "<h2 id=\"google-un-agent-qui-uvre-en-arriere-plan\">Google : un agent qui œuvre en arrière-plan</h2>\n<p>Lors de l'événement <strong>Gemini at Work</strong>, Google a présenté un agent IA Gemini qualifié d'« universel », capable de travailler en arrière-plan sur plusieurs applications et plusieurs appareils. La promesse tient en une idée : l'agent ne reste pas enfermé dans une seule fenêtre.</p>\n<p>Il sera intégré à l'application <strong>Gemini Enterprise</strong>. L'utilisateur discute avec lui depuis une interface unique et lui confie des tâches, sans avoir à naviguer d'un outil à l'autre. Google positionne donc l'agent non pas comme un assistant à interroger, mais comme une couche qui agit pendant que l'on fait autre chose.</p>\n<h2 id=\"windows-veut-devenir-la-plateforme-des-a\">Windows veut devenir la plateforme des agents</h2>\n<p>Même mouvement chez Microsoft, à l'occasion de son événement Windows et Surface. Copilot évolue : il pourra accéder aux fichiers présents sur le PC et effectuer des actions dans l'ensemble du système d'exploitation. Microsoft range cette nouveauté sous un nom, <strong>« Hybrid Intelligence »</strong>, un concept où applications et outils s'appuient sur un mélange de plusieurs sources.</p>\n<p>Le Journal du Geek apporte une précision qui change la lecture : cette « Intelligence Hybride » est une brique de Windows capable de tourner <strong>en local</strong>, et non dans le cloud. C'est le point que l'éditeur met en avant.</p>\n<p>L'objectif affiché ne laisse guère de doute : faire du système d'exploitation la plateforme des agents IA. Après les applications, c'est donc le poste de travail entier qui devient un terrain d'action pour ces programmes.</p>\n<h2 id=\"meta-et-sierra-veulent-des-regles-commun\">Meta et Sierra veulent des règles communes</h2>\n<p>Sur un registre différent, <strong>Meta</strong> et <strong>Sierra</strong>, spécialiste des agents IA pour le service client, annoncent le lancement d'un standard ouvert baptisé <strong>Personal Agent Protocol</strong>. Selon Bret Taylor, CEO de Sierra, il permettra de définir les modalités d'interaction entre les agents personnels et les entreprises, et chacun peut y contribuer.</p>\n<p>L'enjeu est de poser des règles communes à un moment où les agents se multiplient, côté grand public comme côté entreprises. Là où Google et Microsoft construisent leurs environnements respectifs, Meta et Sierra tentent d'installer un protocole partagé — la question de savoir qui parle à qui, et selon quels termes, devenant aussi importante que la puissance des modèles.</p>\n<h2 id=\"anthropic-129-000-failles-au-compteur\">Anthropic : 129 000 failles au compteur</h2>\n<p>Un quatrième front, plus inattendu : la cybersécurité. Anthropic annonce que son modèle <strong>Claude Mythos</strong> a identifié au moins <strong>129 000 failles</strong> en quelques mois. En réaction à ce bilan, la start-up a décidé d'élargir l'accès à son IA conçue pour la cybersécurité.</p>\n<p>Le chiffre parle de lui-même. Il donne la mesure de ce que ces modèles peuvent apporter aux équipes qui défendent des systèmes, sur un terrain où le volume de vulnérabilités détectées dépasse largement ce qu'une analyse humaine peut absorber. Autrement dit, l'agent peut aussi bien exécuter une tâche que fouiller une base de code à la recherche de ce qui ne va pas.</p>\n<h2>Et maintenant ?</h2>\n<p>Mis bout à bout, ces quatre mouvements dessinent une même trajectoire : l'agent sort du chatbot. Il touche aux applications chez Google, aux fichiers et au système chez Microsoft, se dote d'un protocole d'interaction chez Meta et Sierra, et passe au crible des failles chez Anthropic. Aucune de ces annonces ne porte sur la course aux paramètres ou aux benchmarks : toutes concernent l'accès — à quoi l'agent se branche, où il s'exécute, avec quelles règles. C'est là que se jouera la suite, davantage que dans les courbes de performance.</p>",
+ "pivot": "20b031b4495980eb",
+ "tags": [
+  "agents",
+  "gemini",
+  "meta",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/07/oubliez-lia-windows-presente-son-intelligence-hybride-capable-de-tourner-en-local/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/un-standard-pour-les-gouverner-tous-meta-et-sierra-font-alliance-autour-des-agents-personnels.JUOYUYGHLZHQVCAJS7RQREUZQQ.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/129-000-failles-debusquees-anthropic-devoile-le-bilan-impressionnant-claude-mythos.html"
+  }
+ ],
+ "date": "2026-10-08T14:50:31+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1501,
+  "sortie": 2046
+ }
+}

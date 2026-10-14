@@ -1,0 +1,41 @@
+{
+ "slug": "micron-claude-mythos-mistral-large-4-quatre-depeches-quatre--3e8aea",
+ "titre": "Micron, Claude Mythos, Mistral Large 4 : quatre dépêches, quatre fronts",
+ "chapo": "Un syndicat de Micron à Taïwan obtient le droit de grève sur fond de boom de l'IA, Claude Mythos revendique 129 000 failles détectées, Mistral ouvre l'aperçu de son plus gros modèle. Pendant ce temps, le calendrier de l'AI Act rattrape déjà les entreprises françaises.",
+ "html": "<h2 id=\"la-memoire-nouveau-point-de-friction-soc\">La mémoire, nouveau point de friction sociale</h2>\n<p>Le syndicat de Micron implanté à Taoyuan, à Taïwan, a obtenu le droit de déclencher une grève. Les résultats du vote ont été rapportés le 7 octobre 2026. La revendication portée par les salariés : un partage durable des bénéfices liés au boom de l'IA.</p>\n<p>Le contexte donne du relief à ce mouvement. Une menace pèse déjà sur Samsung, et un conflit social chez Micron pourrait ajouter des tensions sur un marché de la mémoire déjà en manque de capacités. La demande tirée par l'IA ne se traduit donc pas uniquement en commandes : elle remonte jusqu'aux discussions salariales de ceux qui fabriquent les composants.</p>\n<h2 id=\"claude-mythos-et-le-compte-des-vulnerabi\">Claude Mythos et le compte des vulnérabilités</h2>\n<p>Anthropic annonce que son modèle Claude Mythos a identifié au moins 129 000 failles en quelques mois. Le bilan est publié par la start-up elle-même, et il a une conséquence immédiate : Anthropic a décidé d'élargir l'accès à son IA conçue pour la cybersécurité.</p>\n<p>Le volume de vulnérabilités détectées donne la mesure de ce que ces modèles peuvent apporter aux équipes qui défendent des systèmes. À cette échelle, ce n'est plus la découverte isolée qui compte, mais le flux de signalements à traiter et à qualifier.</p>\n<h2 id=\"le-camp-ouvert-s-etoffe-du-serveur-au-la\">Le camp ouvert s'étoffe, du serveur au laptop</h2>\n<p>Le 6 octobre, Mistral a ouvert l'aperçu de Mistral Large 4, un modèle de 1050 milliards de paramètres. Le laboratoire le présente comme le plus capable des modèles ouverts hors de Chine. Les mesures indépendantes confirment un rattrapage, et la cybersécurité s'impose comme argument commercial face aux modèles ouverts chinois.</p>\n<p>Google DeepMind publie de son côté EmbeddingGemma 2, un modèle d'embedding multimodal open source. Il projette texte — code inclus —, images, vidéo et audio dans un espace vectoriel unique de 768 dimensions. Avec 740M paramètres, répartis en 270M pour le texte, 170M pour la vision et 300M pour l'audio, il vise les appareils grand public : mobiles et laptops. Ses cas d'usage annoncés : la recherche, le RAG ou la classification, en local. Le modèle s'appuie sur les avancées de Gemma 4.</p>\n<p>Deux approches, deux échelles : un très gros modèle ouvert côté serveur, un petit modèle multimodal taillé pour tourner directement sur la machine de l'utilisateur.</p>\n<h2 id=\"ai-act-les-obligations-ne-sont-plus-un-h\">AI Act : les obligations ne sont plus un horizon</h2>\n<p>Depuis le 6 octobre 2026, une entreprise française qui fournit ou utilise un système d'IA doit déjà respecter trois blocs du règlement (UE) 2024/1689, parmi lesquels les pratiques interdites et la maîtrise de l'IA. L'omnibus 2026/1744 reporte une partie des échéances prévues.</p>\n<p>Le calendrier européen touche donc directement les organisations qui déploient de l'IA en France, sans attendre l'application complète du texte. Les obligations ne relèvent plus d'un futur lointain : elles concernent des systèmes déjà en production.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, quatre couches d'un même mouvement : une capacité mémoire qui se tend, une détection de failles qui change d'échelle, des modèles ouverts qui se disputent le terrain et un cadre juridique qui entre en application. Aucune de ces couches ne se règle indépendamment des autres, et toutes avancent au même moment.</p>",
+ "pivot": "3e8aeac0c6c6e229",
+ "tags": [
+  "matériel",
+  "sécurité",
+  "mistral",
+  "france"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2348219-apres-samsung-micron-sous-la-menace-dune-greve-faut-il-sinquieter-pour-la-ram.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/129-000-failles-debusquees-anthropic-devoile-le-bilan-impressionnant-claude-mythos.html"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/calendrier-ai-act-ce-qui-sapplique-ce-que-lomnibus-reporte/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/mistral-large-4-ce-que-vaut-le-meilleur-modele-ouvert-hors-chine/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz5va3/googleembeddinggemma2_hugging_face/"
+  }
+ ],
+ "date": "2026-10-07T08:50:27+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1574,
+  "sortie": 3983
+ }
+}

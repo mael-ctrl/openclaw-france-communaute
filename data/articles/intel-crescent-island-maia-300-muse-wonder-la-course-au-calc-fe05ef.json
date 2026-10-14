@@ -1,0 +1,41 @@
+{
+ "slug": "intel-crescent-island-maia-300-muse-wonder-la-course-au-calc-fe05ef",
+ "titre": "Intel Crescent Island, Maia 300, Muse Wonder : la course au calcul",
+ "chapo": "Intel dégaine Crescent Island, Microsoft vise plusieurs gigawatts de puces Maia dès 2027, Meta publie son premier modèle frontière. Pendant ce temps, Linus Torvalds fait écrire des patchs du noyau Linux par Claude Code — un symbole pour l'open source.",
+ "html": "<h2 id=\"crescent-island-intel-mise-sur-la-memoir\">Crescent Island : Intel mise sur la mémoire</h2>\n<p>Un post publié sur r/LocalLLaMA met en avant les caractéristiques annoncées d'<strong>Intel Crescent Island</strong> : <strong>1,3 PFLOPs en FP8</strong> pour une enveloppe de <strong>350 W</strong>. La puce <strong>D270</strong> y est associée à de la <strong>LPDDR5X allant jusqu'à 480 Go</strong>, avec un positionnement assumé sur le rapport capacité-prix.</p>\n<p>L'argument parle directement à ceux qui font tourner des modèles en local, là où la mémoire est souvent le facteur limitant bien avant la puissance de calcul brute. Beaucoup de capacité, une consommation contenue : la fiche technique vise un usage précis.</p>\n<p>Reste la question que l'auteur du fil soulève lui-même : il espère que le support logiciel sera à la hauteur. Une puce, aussi bien dotée soit-elle, ne vaut que par ses pilotes, ses frameworks et ses bibliothèques.</p>\n<h2 id=\"microsoft-veut-plusieurs-gigawatts-de-ma\">Microsoft veut plusieurs gigawatts de Maia</h2>\n<p>Microsoft ne veut pas seulement vendre des services d'IA : la firme veut maîtriser une part croissante des puces et des infrastructures. Objectif affiché, porter ses déploiements d'accélérateurs maison <strong>Azure Maia</strong> à <strong>plusieurs gigawatts dès 2027</strong>, avec <strong>Maia 300</strong> comme prochaine étape clé.</p>\n<p>Trois motivations se dessinent : gagner en efficacité, sécuriser ses capacités de calcul et desserrer l'étau <strong>Nvidia</strong>. Autrement dit, reprendre la main sur le coût de l'IA en amont de la pile logicielle, et pas uniquement dans les services.</p>\n<p>Intel d'un côté, Microsoft de l'autre : deux façons de peser sur le coût du calcul, l'une par la capacité mémoire, l'autre par l'échelle des déploiements.</p>\n<h2 id=\"meta-passe-au-modele-frontiere\">Meta passe au modèle frontière</h2>\n<p>Meta publie <strong>Muse Wonder</strong>, présenté comme son <strong>premier modèle frontière</strong>. La nuance compte : <strong>Muse Spark</strong> visait un modèle léger, capable de fonctionner à faible latence. Les modèles Wonder sont plus grands et annoncés comme plus capables.</p>\n<p>Meta revendique de meilleurs scores sur les benchmarks et de meilleurs résultats sur des tâches complexes <strong>comme le code</strong>. C'est la première incursion de l'entreprise sur le segment des modèles de tête, celui où se joue la comparaison directe entre laboratoires.</p>\n<h2 id=\"torvalds-claude-code-et-le-reste-de-la-s\">Torvalds, Claude Code et le reste de la semaine</h2>\n<p>Autre registre, autre symbole : <strong>Linus Torvalds</strong> a publié une série de <strong>huit patchs pour le noyau Linux</strong>, écrits avec <strong>Claude Code</strong>, l'assistant de programmation d'Anthropic. En 2024, le créateur de Linux décrivait encore l'IA comme « <strong>90 % de marketing</strong> ». Le basculement est notable pour une figure longtemps sceptique de l'écosystème open source, qui s'appuie désormais sur un modèle d'IA pour contribuer au kernel.</p>\n<p>Côté recherche, <strong>OpenAI</strong> a mis en avant <strong>772 manuscrits mathématiques</strong>. <strong>Mistral AI</strong> signe son retour dans la course avec <strong>Mistral Large 4</strong>, son premier modèle depuis de longs mois, et se repositionne dans les classements. La même semaine, <strong>Orange</strong> a dévoilé son premier décodeur « home cinéma ».</p>\n<h2>Et maintenant ?</h2>\n<p>Le fil rouge, c'est un déplacement du centre de gravité. Le calcul se joue de plus en plus sur le silicium et la mémoire — Crescent Island, Maia — pendant que les modèles frontière se multiplient et que les outils de génération de code entrent dans des projets aussi sensibles qu'un noyau Linux. Ces annonces ne sont pas isolées : elles décrivent une pile où le matériel, le modèle et l'outil de développement se répondent. La question du support logiciel, posée par un développeur sur Reddit, vaut d'ailleurs à tous les étages.</p>",
+ "pivot": "fe05ef1f14f8042b",
+ "tags": [
+  "matériel",
+  "meta",
+  "open-source",
+  "openai"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4n0bq/hope_the_software_support_is_good_but_intel/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/os/gnu-linux/3282511_linus-torvalds-qui-reduisait-lia-a-90-de-marketing-publie-un-patch-du-noyau-linux-ecrit-avec-claude-code"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/microsoft/avec-sa-puce-maia-300-microsoft-veut-reprendre-la-main-sur-le-cout-de-lia-et-desserrer-letau-nvidia.FK3CDM7OINCT5LTZ2KN3WV6CAE.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2350633-percees-mathematiques-dopenai-modele-mistral-large-4-et-orange-home-cinema-le-recap-tech-de-la-semaine.html"
+  }
+ ],
+ "date": "2026-10-13T07:20:03+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1598,
+  "sortie": 3231
+ }
+}

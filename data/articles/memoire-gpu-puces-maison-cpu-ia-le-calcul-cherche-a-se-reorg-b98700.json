@@ -1,0 +1,41 @@
+{
+ "slug": "memoire-gpu-puces-maison-cpu-ia-le-calcul-cherche-a-se-reorg-b98700",
+ "titre": "Mémoire GPU, puces maison, CPU IA : le calcul cherche à se réorganiser",
+ "chapo": "Une RTX 5080 à 24 Go annoncée pour 2027, des accélérateurs Microsoft à plusieurs gigawatts, une start-up de CPU pour l'IA valorisée 2,5 milliards sans le moindre produit : la bataille se joue sous les modèles. Et pendant ce temps, un plugin vLLM propose de recycler ce que le modèle calcule déjà.",
+ "html": "<h2 id=\"24-go-sur-une-rtx-5080-en-2027-et-sous-r\">24 Go sur une RTX 5080, en 2027 et sous réserve</h2>\n<p>Une publication du forum r/LocalLLaMA rapporte qu'une RTX 5080 dotée de <strong>24 Go de mémoire</strong> serait lancée au premier trimestre 2027. Rien d'officiel : l'information reste non confirmée par NVIDIA, et les partenaires fabricants de cartes attendraient toujours les détails de la part du constructeur.</p>\n<p>Sur ce forum, la mémoire embarquée sur les cartes grand public est un sujet de discussion récurrent : c'est elle qui détermine ce qu'on peut faire tourner en local. Une version 24 Go de la 5080 s'inscrirait donc dans une attente ancienne de la communauté. Mais le calendrier évoqué, début 2027, laisse surtout voir un cycle produit encore flou — au point que même les assembleurs n'auraient pas leurs spécifications. La dépêche ne fournit pas d'autre détail technique, et le constructeur n'a rien annoncé.</p>\n<h2 id=\"microsoft-veut-ses-propres-puces-a-grand\">Microsoft veut ses propres puces, à grande échelle</h2>\n<p>Microsoft ne veut pas seulement vendre des logiciels et des services d'IA : la firme veut <strong>maîtriser une part croissante des puces et des infrastructures</strong>. Elle prévoit de porter ses déploiements d'accélérateurs maison Azure Maia à plusieurs gigawatts dès 2027, Maia 300 étant la prochaine étape clé de cette stratégie.</p>\n<p>Trois objectifs affichés : gagner en efficacité, sécuriser ses capacités de calcul et desserrer l'étau Nvidia. Le passage à l'échelle en <strong>gigawatts</strong> dit quelque chose de la taille du parc nécessaire pour entraîner et servir des modèles, et de l'enjeu qu'il y a, pour un acteur de cette taille, à ne pas dépendre d'un fournisseur unique pour son matériel. C'est un mouvement de fond : reprendre la main sur le coût du calcul, pas seulement sur la couche logicielle.</p>\n<h2 id=\"nuvacore-2-5-milliards-de-valorisation-z\">Nuvacore : 2,5 milliards de valorisation, zéro produit</h2>\n<p>Selon Reuters, la start-up américaine <strong>Nuvacore</strong> chercherait à lever plusieurs centaines de millions de dollars sur la base d'une valorisation d'environ <strong>2,5 milliards de dollars</strong>. Fondée en 2026, l'entreprise veut rebattre les cartes des CPU pour l'IA — et n'a pas encore de produit commercialisé.</p>\n<p>L'opération n'est pas finalisée : montant et valorisation peuvent encore évoluer. Le cas illustre une séquence courante dans le secteur : le capital arrive avant le produit, sur la promesse d'un segment où les positions ne sont pas encore figées. Les processeurs dédiés à l'IA restent en effet largement dominés par quelques acteurs, et une entrée sur ce terrain se joue autant sur la levée de fonds que sur la silicon.</p>\n<h2 id=\"faire-remonter-ce-que-le-modele-calcule-\">Faire remonter ce que le modèle calcule déjà</h2>\n<p>Un développeur de NuMind propose un <strong>plugin vLLM</strong> qui expose le dernier état caché d'un LLM déjà servi, via l'API de chat compatible OpenAI. L'idée est simple à énoncer : le modèle calcule déjà ces représentations internes pour prédire le premier token de sortie, il suffit de les rendre accessibles. Une PR upstream est en cours, et le travail s'appuie notamment sur les papiers E5-V, PromptEOL et PromptReps.</p>\n<p>Autrement dit, des <strong>embeddings multimodaux</strong> sans second modèle dédié — en réutilisant celui qui tourne déjà. C'est le même réflexe que dans le reste de l'écosystème : tirer davantage de ce qu'on a, plutôt que d'ajouter une brique.</p>\n<p>Côté modèles, la semaine a aussi vu <strong>Mistral AI</strong> revenir avec Mistral Large 4, son premier modèle depuis de longs mois, et se repositionner dans les classements, tandis qu'OpenAI a impressionné le monde scientifique avec <strong>772 manuscrits mathématiques</strong>. Orange a de son côté dévoilé son premier décodeur « home cinéma ».</p>\n<h2>Et maintenant ?</h2>\n<p>Prises ensemble, ces dépêches décrivent un empilement en recomposition. En bas, la mémoire des cartes grand public, dont une évolution reste à confirmer pour 2027. Au milieu, des hyperscalers qui fabriquent leurs propres accélérateurs pour peser sur les coûts et l'approvisionnement. À côté, des puces IA encore à l'état de promesse, valorisées avant d'exister. Et en haut, des modèles qui continuent de sortir, avec à la marge l'idée de tirer davantage de ceux qui tournent déjà. Plusieurs de ces mouvements ne sont pas confirmés : c'est aussi ce que dit l'état du marché.</p>",
+ "pivot": "b98700781d25925d",
+ "tags": [
+  "matériel",
+  "business",
+  "openai",
+  "mistral"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x41n6l/nvidia_rtx_5080_24gb_reportedly_launching_in_q1/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/microsoft/avec-sa-puce-maia-300-microsoft-veut-reprendre-la-main-sur-le-cout-de-lia-et-desserrer-letau-nvidia.FK3CDM7OINCT5LTZ2KN3WV6CAE.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2350633-percees-mathematiques-dopenai-modele-mistral-large-4-et-orange-home-cinema-le-recap-tech-de-la-semaine.html"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/start-up/financement/levee-de-fonds/deja-valorisee-25-milliards-de-dollars-la-start-up-nuvacore-veut-rebattre-les-cartes-des-cpu-pour-lia.TZ3JVVCD2JAZ3DYZ3Y4BK6NMRY.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x416s0/a_free_multimodal_embedding_model_already/"
+  }
+ ],
+ "date": "2026-10-12T15:02:35+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1621,
+  "sortie": 4090
+ }
+}

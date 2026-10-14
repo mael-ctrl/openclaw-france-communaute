@@ -1,0 +1,41 @@
+{
+ "slug": "falcon-asr-mistral-large-4-et-les-722-articles-d-openai-1fce2f",
+ "titre": "Falcon ASR, Mistral Large 4 et les 722 articles d'OpenAI",
+ "chapo": "Hugging Face annonce Falcon ASR, un modèle de reconnaissance automatique de la parole rattaché à la famille Falcon. Ailleurs, Mistral ouvre l'aperçu de Mistral Large 4 à 49 milliards de paramètres actifs, et OpenAI publie 722 articles de mathématiques.",
+ "html": "<h2 id=\"falcon-asr-une-declinaison-vocale\">Falcon ASR, une déclinaison vocale</h2>\n<p><strong>Une annonce de plateforme.</strong> Hugging Face annonce la sortie de Falcon ASR, un modèle de reconnaissance automatique de la parole, dans un billet publié sur son blog. Le nom le rattache à la famille Falcon, déjà connue sur la plateforme : on a affaire à une déclinaison identifiée, pas à un modèle isolé lâché dans la nature.</p>\n<p><strong>La parole comme maillon d'interface.</strong> La reconnaissance vocale reste un maillon clé pour les interfaces qui doivent traiter la parole en langage naturel. C'est la brique qui transforme une voix en texte exploitable, en amont de tout raisonnement et de toute réponse. Un agent qui écoute dépend d'abord de la qualité de cette transcription.</p>\n<h2 id=\"mistral-large-4-49-milliards-actifs-poid\">Mistral Large 4 : 49 milliards actifs, poids ouverts promis</h2>\n<p><strong>L'aperçu est ouvert.</strong> Mistral publie en preview Mistral Large 4, un modèle d'un billion de paramètres — 1 000 milliards selon Latent Space, 1 050 milliards selon ActuIA — dont 49 milliards actifs. ActuIA précise que l'aperçu a été ouvert le 6 octobre. Simon Willison indique que l'entraînement s'est fait sur le cluster propre du laboratoire, 3 800 GPU NVIDIA Grace Blackwell.</p>\n<p><strong>Deux réglages de raisonnement.</strong> L'API n'expose que deux niveaux, « none » et « high ». Deux positions, donc, pour un modèle de cette taille.</p>\n<p><strong>Les poids ouverts, promis pour la fin du mois.</strong> Le laboratoire annonce la publication des poids ouverts pour la fin du mois. Sur r/LocalLLaMA, la communauté relève surtout l'humour du nom retenu, « Chonky ». En attendant les fichiers, la promesse reste une promesse.</p>\n<h2 id=\"un-rattrapage-qui-se-mesure\">Un rattrapage qui se mesure</h2>\n<p><strong>38 sur Artificial Analysis.</strong> Sur Artificial Analysis, Mistral Large 4 score 38, juste derrière DeepSeek 4.1 Flash, contre 9 pour Mistral Large 3 en décembre. Le saut est net, et il porte sur une mesure indépendante, pas sur une courbe maison.</p>\n<p><strong>L'argument de la cybersécurité.</strong> ActuIA rapporte que le laboratoire présente Mistral Large 4 comme le plus capable des modèles ouverts hors de Chine, et que la cybersécurité s'impose comme argument commercial face aux modèles ouverts chinois. Les mesures indépendantes confirment un rattrapage.</p>\n<p>Une nuance de calendrier : le score existe, l'aperçu est ouvert, mais les poids ne sont pas encore disponibles. Le rattrapage se lit donc pour l'instant dans un accès en preview.</p>\n<h2 id=\"722-articles-de-maths-90-problemes-ouver\">722 articles de maths, 90 problèmes ouverts</h2>\n<p><strong>Le volume comme argument.</strong> Selon Latent Space, OpenAI a publié 722 articles de mathématiques qui résolvent 90 des 500 principaux problèmes ouverts du domaine. La dépêche relaie une description forte : « le moment le plus significatif » en plus de 100 ans de mathématiques.</p>\n<p><strong>Ce qui donne du poids à l'annonce.</strong> C'est le volume de travaux et le nombre de problèmes ouverts traités. L'évaluation ne porte pas sur un résultat isolé, mais sur un corpus entier, publié d'un bloc.</p>\n<p>Deux chiffres suffisent à cadrer le débat : 722 articles, et 90 problèmes ouverts traités sur 500.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois annonces, trois régimes de preuve. Falcon ASR arrive sous forme de billet de blog sur Hugging Face. Mistral Large 4 existe en aperçu, avec un score de 38 sur Artificial Analysis et des poids ouverts annoncés pour la fin du mois. Les 722 articles de mathématiques d'OpenAI, eux, se jugent sur un comptage : 90 problèmes ouverts traités sur 500. Dans les trois cas, la vérification prendra du temps.</p>",
+ "pivot": "1fce2f86ead01bd3",
+ "tags": [
+  "mistral",
+  "openai",
+  "open-source",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "Hugging Face",
+   "url": "https://huggingface.co/blog/tiiuae/falcon-asr"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wzginu/europe_rejoins_the_fight_with_chonky_mistral/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/mistral-large-4-ce-que-vaut-le-meilleur-modele-ouvert-hors-chine/"
+  }
+ ],
+ "date": "2026-10-07T13:38:09+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1454,
+  "sortie": 5766
+ }
+}

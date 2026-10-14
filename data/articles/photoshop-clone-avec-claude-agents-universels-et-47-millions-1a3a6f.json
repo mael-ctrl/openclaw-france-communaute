@@ -1,0 +1,41 @@
+{
+ "slug": "photoshop-clone-avec-claude-agents-universels-et-47-millions-1a3a6f",
+ "titre": "Photoshop cloné avec Claude, agents universels et 47 millions pour le cloud",
+ "chapo": "Un développeur d'Atlanta recrée sept logiciels Adobe en Rust avec l'aide de Claude, pendant que USA Today réclame plus de 250 millions de dollars à OpenAI. Google et Meta dessinent les règles des agents, et un consortium français mise 47 millions d'euros sur un cloud de confiance.",
+ "html": "<h2 id=\"sept-clones-d-adobe-codes-en-rust-avec-c\">Sept clones d'Adobe, codés en Rust avec Claude</h2>\n<p>Un développeur installé à Atlanta a publié des clones gratuits et open source de sept logiciels phares d'Adobe, Photoshop compris. Le choix technique est assumé : le tout a été codé en Rust, avec l'aide de Claude. Le geste se veut une réponse à la colère contre l'éditeur.</p>\n<p>Le détail piquant tient à l'écosystème : <strong>Adobe et Anthropic sont officiellement partenaires depuis avril</strong>. L'assistant d'Anthropic sert donc ici à reproduire, en open source, les produits d'un partenaire commercial. La dépêche ne dit rien d'une éventuelle réaction d'Adobe, ni des fonctionnalités réellement couvertes par les clones, ni des conditions de licence qui les accompagnent.</p>\n<p>Ce qui frappe, c'est le périmètre : sept applications reproduites par une seule personne, là où ce type de chantier mobilisait auparavant des équipes entières. Le volume et la vitesse de production deviennent eux-mêmes le propos.</p>\n<h2 id=\"usa-today-attaque-openai-en-justice\">USA Today attaque OpenAI en justice</h2>\n<p>USA Today Co., accompagné de plusieurs quotidiens locaux qu'il détient, attaque OpenAI en justice. L'éditeur affirme que l'entreprise a copié « des centaines de milliers » d'articles pour entraîner ses modèles d'IA, selon Reuters. Dans une plainte déposée jeudi, il réclame plus de 250 millions de dollars de dommages et intérêts et dénonce un usage non autorisé de ses contenus.</p>\n<p>La procédure s'ajoute aux recours déjà engagés par des éditeurs de presse contre OpenAI. C'est la même question de fond que dans le dossier Adobe : ce que les modèles doivent, ou non, aux contenus et aux logiciels sur lesquels ils s'appuient. Les réponses se construisent aujourd'hui devant les tribunaux, faute d'accord amont.</p>\n<h2 id=\"les-agents-cherchent-un-mode-d-emploi\">Les agents cherchent un mode d'emploi</h2>\n<p>Google a profité de son événement Gemini at Work pour annoncer un agent IA Gemini « universel », capable de travailler en arrière-plan sur plusieurs applications et appareils. Il sera intégré à l'application Gemini Enterprise : l'utilisateur pourra discuter avec l'agent et lui confier des tâches depuis une interface unique.</p>\n<p>Sur le terrain de l'interopérabilité, Meta et Sierra — spécialiste des agents IA pour le service client — lancent un standard ouvert baptisé <strong>Personal Agent Protocol</strong>. Selon Bret Taylor, CEO de Sierra, il permettra de définir les modalités d'interaction entre les agents personnels et les entreprises, et chacun peut y contribuer.</p>\n<p>L'enjeu affiché est le même des deux côtés : poser des règles communes à un moment où les agents se multiplient côté grand public comme côté entreprises. Un agent intégré à une suite et un protocole ouvert ne répondent pas pour autant aux mêmes logiques de contrôle.</p>\n<h2 id=\"47-millions-pour-le-cloud-de-confiance-a\">47 millions pour le cloud de confiance à la française</h2>\n<p>En France, Cloud Temple, fournisseur de services cloud qualifiés SecNumCloud, s'associe à Thales, Bull, Vates et au CEA pour développer le cloud et l'IA de confiance. Le consortium mobilise <strong>47 millions d'euros</strong> dans le cadre de l'appel à projets « Renforcement de l'offre de services cloud », opéré par Bpifrance pour le compte de l'État. L'annonce a été faite le 9 octobre 2026.</p>\n<p>La qualification SecNumCloud et la présence du CEA situent le projet sur le terrain de la souveraineté : héberger et entraîner des modèles hors des infrastructures des grands fournisseurs américains. Aucune indication n'a été donnée sur le calendrier de livraison ni sur les briques logicielles qui seront employées.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, quatre rapports de force. Un développeur seul clone sept logiciels avec l'aide d'un modèle ; un éditeur réclame 250 millions de dollars pour ses articles ; Google et Meta tentent de normaliser les agents avant leur généralisation ; un consortium français place 47 millions d'euros sur un cloud de confiance. Les mêmes outils qui accélèrent la production logicielle nourrissent les contentieux sur les contenus qui les ont entraînés. La suite se jouera autant dans les tribunaux que dans les protocoles.</p>",
+ "pivot": "1a3a6f1cf56b1e48",
+ "tags": [
+  "claude",
+  "agents",
+  "openai",
+  "france"
+ ],
+ "sources": [
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/furieux-contre-adobe-il-recree-photoshop-et-six-autres-logiciels-avec-lia.html"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/informatique/cloud/cloud-temple-thales-bull-vates-et-le-cea-mobilisent-47-millions-deuros-pour-developper-le-cloud-et-lia-de-confiance.DF6Y3QN5IRAPJKF2KTJNTWHDYQ.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/un-standard-pour-les-gouverner-tous-meta-et-sierra-font-alliance-autour-des-agents-personnels.JUOYUYGHLZHQVCAJS7RQREUZQQ.html"
+  }
+ ],
+ "date": "2026-10-09T06:04:10+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1566,
+  "sortie": 3539
+ }
+}

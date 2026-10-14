@@ -78,10 +78,10 @@ def jsonld_site():
     return bloc_jsonld({"@context": "https://schema.org", "@graph": [org, site]})
 
 
-def jsonld_item(type_page, url_page, titre, description, date_pub, date_mod, section, tags):
+def jsonld_item(type_page, url_page, titre, description, date_pub, date_mod, section, tags, sources=None):
     """NewsArticle pour une brève ou un article — jamais de date de build."""
     u = config.URL_SITE
-    return bloc_jsonld({
+    donnees = {
         "@context": "https://schema.org",
         "@type": type_page,
         "@id": url_page + "#article",
@@ -96,7 +96,12 @@ def jsonld_item(type_page, url_page, titre, description, date_pub, date_mod, sec
         "keywords": ", ".join(tags or []),
         "author": {"@id": f"{u}/#organisation"},
         "publisher": {"@id": f"{u}/#organisation"},
-    })
+    }
+    citations = [{"@type": "CreativeWork", "url": s["url"], "name": s["nom"]}
+                 for s in (sources or []) if s.get("url")]
+    if citations:
+        donnees["citation"] = citations
+    return bloc_jsonld(donnees)
 
 
 def carte_breve(b, detail=False):
@@ -165,6 +170,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
 <meta name="twitter:image" content="{ech(config.URL_SITE)}/assets/og-crabe.png">
 <meta name="twitter:image:alt" content="La Communauté — actualité IA en français, avec Le Crabe devant son ordinateur.">
 <link rel="alternate" type="application/rss+xml" title="{config.NOM_SITE} — RSS" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="{ech(config.NOM_SITE)} — RSS articles uniquement" href="/feed-articles.xml">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/style.css">
 {extra_head}
@@ -300,6 +306,18 @@ def page_accueil(breves, articles, stats, journal_entrees):
   </div>
 </section>
 {bloc_vedette}
+<section class="section" aria-labelledby="essayer-les-prompts">
+  <div class="enveloppe cta">
+    <h2 id="essayer-les-prompts">De la veille à la pratique : 3 prompts gratuits</h2>
+    <p>Clarifier votre proposition de valeur, préparer un calendrier éditorial ou prioriser vos tâches :
+    essayez trois extraits complets du Pack du Crabe, sans inscription ni paiement.</p>
+    <div class="hero-actions">
+      <a class="bouton" href="/pack/#extraits-pack">Essayer les 3 prompts gratuits</a>
+    </div>
+    <p class="petit-texte">Le pack complet reste payant ; ces trois extraits sont en libre accès.
+    Votre assistant IA peut facturer son utilisation. Vérifiez toujours ses réponses.</p>
+  </div>
+</section>
 <section class="section">
   <div class="enveloppe">
     <p class="oeil">// COMMENT CE SITE FONCTIONNE</p>
@@ -401,22 +419,33 @@ def page_articles(articles):
 def bloc_suivre():
     """Invitation en fin de lecture : flux ouvert, sans formulaire ni traceur."""
     flux = ech(config.URL_SITE + "/feed.xml")
+    flux_articles = ech(config.URL_SITE + "/feed-articles.xml")
     profil = ech("https://bsky.app/profile/" + config.BLUESKY_HANDLE)
     return f"""<aside class="a-cote" aria-labelledby="suivre-le-crabe">
       <h2 id="suivre-le-crabe">Gardez le Crabe dans votre veille</h2>
       <p>Retrouvez les prochaines brèves et analyses du Crabe, notre IA rédactrice.
-      Le flux RSS est gratuit et ne demande aucune inscription sur ce site.</p>
+      Le flux RSS est gratuit et ne demande aucune inscription sur ce site.
+      Vous préférez les analyses seules ? Choisissez « RSS articles uniquement », sans les brèves.</p>
       <p>Ajouter ce flux à votre lecteur RSS :<br><code>{flux}</code></p>
       <div class="hero-actions">
         <a class="bouton" href="{flux}">Ouvrir le flux RSS</a>
+        <a class="bouton fantome" href="{flux_articles}">RSS articles uniquement</a>
         <a class="bouton fantome" href="{profil}" rel="noopener">Suivre sur Bluesky</a>
       </div>
     </aside>"""
 
 
+def lectures_liees(courant, candidats):
+    """Trois lectures par tags communs ; l'ordre récent départage les égalités."""
+    tags = set(courant.get("tags") or [])
+    autres = [x for x in candidats if x["slug"] != courant["slug"]]
+    return sorted(autres, key=lambda x: len(tags & set(x.get("tags") or [])),
+                  reverse=True)[:3]
+
+
 def page_breve(b, breves_recentes):
     date_aff = jolie_date(b.get("date_source") or b.get("date_redac"))
-    autres = [x for x in breves_recentes if x["slug"] != b["slug"]][:3]
+    autres = lectures_liees(b, breves_recentes[:400])
     liasses = "".join(f'<li><a href="/breves/{x["slug"]}/">{ech(x["titre"])}</a></li>' for x in autres)
     contenu = f"""
 <section class="section section-lecture">
@@ -441,14 +470,15 @@ def page_breve(b, breves_recentes):
     url_page = f"{config.URL_SITE}/breves/{b['slug']}/"
     jsonld = jsonld_item("NewsArticle", url_page, b["titre"], b["resume"],
                          b.get("date_source") or b.get("date_redac"),
-                         b.get("date_redac"), "Brèves", b.get("tags"))
+                         b.get("date_redac"), "Brèves", b.get("tags"),
+                         [{"nom": b["source"], "url": b["lien_source"]}])
     return page(b["titre"], desc, contenu, f"/breves/{b['slug']}/", section="actus",
                 extra_head=jsonld)
 
 
 def page_article(a, autres_articles):
     sources = "".join(f'<li><a href="{ech(s["url"])}" rel="noopener">{ech(s["nom"])}</a></li>' for s in a.get("sources") or [])
-    autres = "".join(f'<li><a href="/articles/{x["slug"]}/">{ech(x["titre"])}</a></li>' for x in autres_articles[:3] if x["slug"] != a["slug"])
+    autres = "".join(f'<li><a href="/articles/{x["slug"]}/">{ech(x["titre"])}</a></li>' for x in lectures_liees(a, autres_articles))
     contenu = f"""
 <section class="section section-lecture">
   <div class="enveloppe etroit">
@@ -474,14 +504,15 @@ def page_article(a, autres_articles):
 </section>"""
     url_page = f"{config.URL_SITE}/articles/{a['slug']}/"
     jsonld = jsonld_item("NewsArticle", url_page, a["titre"], a["chapo"],
-                         a.get("date"), a.get("date"), "Articles de fond", a.get("tags"))
+                         a.get("date"), a.get("date"), "Articles de fond", a.get("tags"),
+                         a.get("sources"))
     return page(a["titre"], a["chapo"][:160], contenu, f"/articles/{a['slug']}/", section="articles",
                 extra_head=f'<meta name="article:published_time" content="{ech(a.get("date"))}">\n{jsonld}')
 
 
 # ---------------------------------------------------------------- feed / sitemap
 
-def feed_xml(breves, articles):
+def feed_xml(breves, articles, titre_flux=None):
     def date_rfc(iso):
         try:
             dt = datetime.fromisoformat(iso)
@@ -506,7 +537,7 @@ def feed_xml(breves, articles):
 """
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
-  <title>{config.NOM_SITE}</title>
+  <title>{ech(titre_flux or config.NOM_SITE)}</title>
   <link>{config.URL_SITE}/</link>
   <description>{config.DESCRIPTION_SITE}</description>
   <language>fr-FR</language>
@@ -549,6 +580,7 @@ def llms_txt():
 
 ## Fichiers à citer
 
+- [Vérifier une actualité IA avant de la partager]({u}/fichiers/verifier-actualite-ia.md)
 - [Monter sa veille IA autonome]({u}/fichiers/veille-ia-autonome.md)
 - [Le prompt du Crabe]({u}/fichiers/prompt-le-crabe.md)
 - [Checklist SEO/GEO pour un site de contenu IA]({u}/fichiers/seo-ia-francophone.md)
@@ -617,6 +649,7 @@ def construire():
         chemin_final.write_text(contenu, encoding="utf-8")
 
     ecrire("feed.xml", feed_xml(breves, articles))
+    ecrire("feed-articles.xml", feed_xml([], articles, titre_flux=config.NOM_SITE + " — Articles de fond"))
     dates = {}
     for b in breves[:400]:
         dates[f"/breves/{b['slug']}/"] = b.get("date_source") or b.get("date_redac")

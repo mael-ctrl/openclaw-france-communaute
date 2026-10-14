@@ -246,3 +246,92 @@ d'annoncer la production.
 **Effet attendu** : permettre aux lecteurs et robots de découverte de parcourir
 300 brèves supplémentaires depuis le fil. Aucune hausse de trafic ou d'indexation
 n'est encore mesurée.
+
+---
+
+## 2026-10-07 — Croissance : des lectures liées par sujet
+
+**Constat vérifié en HTTPS** : le bloc « À lire aussi » d'une brève sur les GPU
+renvoie à deux actualités automobiles et une grille de tarifs d'API : seuls les
+contenus les plus récents sont retenus. Les articles utilisent aussi la récence,
+avec seulement deux suggestions lorsque l'article courant occupe l'une des trois
+premières places.
+
+**Amélioration unique** : sélectionner jusqu'à trois lectures selon le nombre de
+tags communs, puis conserver l'ordre récent en cas d'égalité ou faute de sujet
+commun (`engine/construction.py`). La page courante est exclue avant la limite.
+Les brèves candidates restent strictement dans les 400 pages construites. Aucun
+appel IA supplémentaire, traceur, modification de budget ou ajout de contenu.
+
+**Validation locale** : sélection thématique et exclusion d'une brève hors
+périmètre vues rouges puis vertes ; suite complète à 25 tests réussis. Essai isolé
+`--essai --sans-redaction` : 487 sorties, zéro rédaction/envoi/publication sociale,
+empreintes de `data/` du dépôt inchangées. Les liens des 400 brèves et 70 articles
+construits ont été contrôlés : aucune auto-recommandation, aucun doublon, toutes
+les destinations existent ; davantage de tags communs sur chacune de ces pages
+qu'avec la sélection précédente. Cela mesure la cohérence des tags, pas la
+qualité éditoriale ni les clics. Un timeout RSS et deux réponses tierces 403/429
+n'ont pas bloqué le build. Clone isolé hors Bureau : le dépôt Bureau est illisible
+et le clone partagé a un conflit préexistant ; aucun de ces deux arbres n'est
+modifié par cette intervention. Livraison via `maj.yml`, suivie d'une relecture
+HTTPS des deux types de page et de leurs destinations avant annonce de succès.
+
+**Effet attendu** : encourager une deuxième lecture sur le même sujet et mieux
+relier les archives. Aucun gain de pages vues ou d'indexation encore mesuré.
+
+---
+
+## 2026-10-08 — Croissance : rendre les sources lisibles dans le JSON-LD
+
+**Constat vérifié en HTTPS** : les sources sont cliquables dans les pages, mais
+le bloc `NewsArticle` ne les décrit pas. Les moteurs doivent les retrouver dans
+le HTML au lieu de disposer d'une relation de citation explicite.
+
+**Amélioration unique** : ajouter `citation` au JSON-LD des brèves et articles
+(`engine/construction.py`), avec des objets `CreativeWork` reprenant exactement
+les noms et URL déjà affichés. Contrat de vocabulaire : https://schema.org/citation.
+Aucune source inventée lorsqu'elle manque, aucun changement éditorial, de date,
+de mise en page, de quota ou de budget ; aucun appel IA supplémentaire.
+
+**Validation locale** : tests brève puis article vus rouges puis verts ; 33 tests
+réussis. Essai `--essai --sans-redaction` dans une copie isolée : 502 sorties,
+zéro rédaction/envoi/publication sociale. Comparaison de 485 pages de lecture
+(400 brèves, 85 articles) : corps HTML et métadonnées antérieures inchangés,
+citations identiques aux sources. Échappement des caractères spéciaux et absence
+de source couverts ; empreintes de `data/` inchangées. Deux flux tiers ont répondu
+403/429, sans bloquer le build. Clone dédié hors Bureau illisible : aucun
+changement local non lisible repris. Livraison via `maj.yml`, puis contrôle des
+logs cloud et du JSON-LD servi en HTTPS avant annonce de mise en production.
+
+**Effet attendu** : faciliter l'identification automatique de la provenance des
+informations par les moteurs et outils IA. Ni validation factuelle des sources,
+ni hausse de classement, de citations externes ou de trafic démontrée.
+
+---
+
+## 2026-10-09 — Croissance : suivre uniquement les articles de fond
+
+**Constat** : le flux général mélange brèves et analyses. Les lecteurs souhaitant
+seulement les articles de fond n'ont pas de flux dédié, malgré l'invitation RSS
+présente en fin de lecture.
+
+**Amélioration unique** : `/feed-articles.xml` expose les 20 articles les plus
+récents, sans brève, avec les mêmes URL et identifiants stables que le flux
+général. Un bouton « RSS articles uniquement » le propose après chaque lecture ;
+une balise de découverte RSS le déclare dans le HTML. Le flux général et le lien
+Bluesky restent disponibles. Aucun compte, traceur ou appel IA supplémentaire ;
+aucune promesse de cadence quotidienne.
+
+**Validation locale** : génération du flux et découverte vues rouges puis vertes ;
+39 tests réussis. Contrôles du tri, de la limite, des destinations construites,
+des identifiants, de l'échappement XML et du flux vide. Essai isolé
+`--essai --sans-redaction` : 515 sorties, 20 entrées dans le nouveau flux et
+509 fichiers HTML contrôlés ; zéro rédaction, envoi ou publication sociale.
+Empreintes de `data/` du clone de livraison inchangées. Quatre réponses de flux
+tiers (502, 502, 403, 429) n'ont pas bloqué le build. Clone dédié hors Bureau
+illisible ; changements locaux non lisibles laissés intacts et non repris.
+Livraison par `maj.yml`, puis lecture des logs et contrôles HTTPS du XML,
+des liens et des balises avant d'annoncer la production.
+
+**Effet attendu** : faciliter un abonnement ciblé et limiter le bruit pour les
+lecteurs des analyses. Aucun gain d'abonnements ou de trafic encore mesuré.

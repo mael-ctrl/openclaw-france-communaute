@@ -1,0 +1,41 @@
+{
+ "slug": "du-minage-recycle-aux-ai-factories-le-materiel-ia-cherche-sa-31e7d5",
+ "titre": "Du minage recyclé aux AI Factories : le matériel IA cherche sa voie",
+ "chapo": "Quatre cartes de minage d'occasion suffisent à faire tourner des modèles en local à 70 tok/s. Au même moment, Sesterce engage plus de 10 milliards d'euros en Finlande et des contrefaçons de RTX 4090 circulent. Le calcul local n'a jamais été aussi disputé.",
+ "html": "<h2 id=\"quatre-bc-250-et-70-tok-s\">Quatre BC-250 et 70 tok/s</h2>\n<p>Le matériel de minage n'a pas fini de servir. Sur r/LocalLLaMA, un utilisateur détaille son montage : quatre cartes <strong>BC-250</strong> issues de rigs de minage, reliées par des adaptateurs et un switch 2,5 Gb, avec <strong>llama.cpp</strong> en Vulkan via RPC. Le résultat : 60 à 70 tok/s sur Next Flash en quantification IQ3_XXS, avec 100 000 tokens de contexte.</p>\n<p>La même machine fait tourner deux instances de Qwen 3.6 35B A3B en IQ4, à 145 tok/s. La performance retombe sous 100 tok/s lorsque le contexte grimpe à 150 000 tokens — un plafond classique quand on empile les cartes et répartit le calcul.</p>\n<p>Le prix rend l'exercice intéressant : moins de 100 dollars pièce pour ces BC-250, là où AliExpress les affiche autour de 150 dollars. C'est moins une prouesse technique qu'un rappel : le matériel déclassé du minage reste une porte d'entrée crédible vers l'inférence locale.</p>\n<h2 id=\"le-local-du-telephone-au-marche-gris\">Le local, du téléphone au marché gris</h2>\n<p>Le PDG de <strong>Qualcomm</strong> affirme que des entreprises d'IA veulent que les smartphones fassent tourner en continu des modèles de 100 milliards de paramètres d'ici 2028. L'information a circulé sur X avant d'être reprise sur r/LocalLLaMA. Elle mesure surtout les attentes de l'industrie : l'inférence locale sur téléphone n'est plus une démonstration, c'est un objectif formulé par les clients.</p>\n<p>Le revers de cet engouement, c'est un marché où la confiance devient difficile. Un membre du même forum alerte sur des <strong>fausses RTX 4090</strong> arrivées sur le marché : les puces comme la mémoire de ces copies seraient quasiment impossibles à distinguer des composants d'origine. La règle qui en découle est simple — si le prix paraît trop alléchant, il s'agit probablement d'une contrefaçon.</p>\n<h2 id=\"sesterce-engage-10-milliards-en-finlande\">Sesterce engage 10 milliards en Finlande</h2>\n<p>Pendant que certains assemblent quatre cartes d'occasion, d'autres construisent des usines. Le français <strong>Sesterce</strong> ne veut plus seulement louer des GPU : l'entreprise se présente désormais comme constructeur et opérateur d'« AI Factories », une offre qui intègre l'approvisionnement électrique, le bâtiment, le refroidissement, les accélérateurs et l'orchestration informatique.</p>\n<p>Elle engage plus de 10 milliards d'euros en Finlande, décrite comme le nouvel aimant des data centers IA. Le contraste avec les BC-250 est net : d'un côté l'optimisation de matériel existant, de l'autre des infrastructures pensées comme un bloc, de l'électricité jusqu'à l'orchestration.</p>\n<h2 id=\"typesafe-jev-7-5-milliards-de-dollars-en\">TypeSafe/Jev : 7,5 milliards de dollars en trois semaines</h2>\n<p>L'argent ne circule pas qu'en Finlande. Selon le récapitulatif AINews de <strong>Latent Space</strong>, TypeSafe — aussi appelé Jev — dépasse les 100 millions de dollars de revenus récurrents annuels et affiche une valorisation de 7,5 milliards de dollars, trois semaines seulement après son lancement.</p>\n<p>Deux chiffres, deux échelles. Les 100 millions d'ARR traduisent une trajectoire commerciale déjà engagée ; les 7,5 milliards de valorisation disent surtout à quelle vitesse le capital se positionne. À côté, des BC-250 à moins de 100 dollars pièce font presque figure d'anecdote.</p>\n<h2>Et maintenant ?</h2>\n<p>Entre rigs de minage recyclés, contrefaçons de GPU et engagements à dix chiffres, une même tension traverse le matériel IA : tout le monde veut du calcul, à toutes les échelles. Les quatre BC-250 et les AI Factories finlandaises ne répondent pas à la même question, mais elles montrent deux voies parallèles — l'inférence locale bricolée et l'infrastructure industrielle. Ce qui les sépare tient au capital mobilisable, pas à l'intention.</p>",
+ "pivot": "31e7d519b82f51e8",
+ "tags": [
+  "matériel",
+  "business",
+  "france",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2yv1b/running_next_flash_iq3_xxs_at_70_toks_with_100k/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/sesterce-investit-plus-de-10-milliards-deuros-en-finlande-devenue-le-nouvel-aimant-des-data-centers-ia.FZC3HZTSSZGGLOLMG2MIJRCKYI.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2z14s/qualcomm_ceo_reveals_ai_companies_want_phones/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xniv/be_careful_fam_new_rtx_4090_fakes_hit_the_market/"
+  }
+ ],
+ "date": "2026-10-11T07:02:16+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1638,
+  "sortie": 3490
+ }
+}

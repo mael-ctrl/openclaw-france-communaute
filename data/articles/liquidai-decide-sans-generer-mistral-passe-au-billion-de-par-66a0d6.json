@@ -1,0 +1,41 @@
+{
+ "slug": "liquidai-decide-sans-generer-mistral-passe-au-billion-de-par-66a0d6",
+ "titre": "LiquidAI décide sans générer, Mistral passe au billion de paramètres",
+ "chapo": "LiquidAI dévoile d1-3B et d1-omni, deux modèles de décision qui renvoient des réponses typées sans générer un seul token. En parallèle, Mistral met en preview un modèle d'un billion de paramètres et Google DeepMind pousse un embedding multimodal de 740M vers les appareils grand public.",
+ "html": "<h2 id=\"decider-plutot-que-generer\">Décider plutôt que générer</h2>\n<p>LiquidAI présente <strong>d1-3B</strong> et <strong>d1-omni</strong>, deux modèles de décision taillés pour l'edge. La nuance compte : il ne s'agit pas de faire tenir un chatbot dans un téléphone, mais de répondre à des questions nommées à partir d'un état donné.</p>\n<p>Le fonctionnement de <strong>d1-omni-600M</strong> est explicite. Bâti sur LFM2.5-Encoder-350M, il reçoit un état — texte ou JSON, images ou extrait vocal — accompagné de questions nommées, et renvoie des réponses typées. Aucun token n'est généré : les réponses sont lues directement dans la distribution sur les options.</p>\n<p>Vision et audio passent en une seule fois, l'audio étant limité à 30 secondes, et les deux modalités partagent les mêmes poids de tronc. Pour un agent embarqué qui doit trancher — router une requête, classer une scène, valider une condition — l'économie est double : moins de calcul, et une sortie directement exploitable par du code.</p>\n<h2 id=\"un-billion-de-parametres-des-poids-promi\">Un billion de paramètres, des poids promis</h2>\n<p>Mistral publie en preview <strong>Mistral Large 4</strong>, un modèle d'un billion de paramètres dont 49 milliards actifs. L'entraînement s'est fait sur son propre cluster de 3 800 GPU NVIDIA Grace Blackwell, et les poids ouverts sont promis pour la fin du mois.</p>\n<p>Côté usage, l'API n'expose que deux niveaux de raisonnement, « none » et « high », sans graduation intermédiaire. Sur Artificial Analysis, le modèle score 38, juste derrière DeepSeek 4.1 Flash. Pour situer le bond : Mistral Large 3 affichait 9 en décembre.</p>\n<h2 id=\"openai-722-articles-et-des-boucles-confi\">OpenAI : 722 articles, et des boucles confirmées par Microsoft</h2>\n<p>Selon Latent Space, OpenAI a publié 722 articles de mathématiques qui résolvent 90 des 500 principaux problèmes ouverts du domaine. La publication est décrite comme « le moment le plus significatif » en plus de 100 ans de mathématiques. C'est le volume de travaux et le nombre de problèmes ouverts traités qui donnent son poids à l'annonce.</p>\n<p>Sur un autre terrain, Microsoft a confirmé sur une page web publique qu'OpenAI utilise des <strong>Looped Transformers</strong> dans la série GPT-6, validant les informations du média The Information. GPT-6.1 Sol effectuerait deux passes d'inférence, avec une mention évoquant « au lieu de trois ». GPT-6 et GPT-6.1 reposeraient sur le même modèle de base pré-entraîné, mais avec un post-entraînement différent et une boucle en moins. La page a depuis été modifiée pour retirer ces éléments.</p>\n<h2 id=\"embeddinggemma-2-tout-projeter-en-768-di\">EmbeddingGemma 2 : tout projeter en 768 dimensions</h2>\n<p>Google DeepMind publie <strong>EmbeddingGemma 2</strong>, un modèle d'embedding multimodal open source qui projette texte (code inclus), images, vidéo et audio dans un espace vectoriel unique de 768 dimensions.</p>\n<p>Ses 740M paramètres se répartissent en 270M pour le texte, 170M pour la vision et 300M pour l'audio. La cible est explicitement grand public : mobiles et laptops, pour la recherche, le RAG ou la classification en local. Le modèle s'appuie sur les avancées de Gemma 4.</p>\n<h2>Et maintenant ?</h2>\n<p>Les annonces de la semaine ne racontent pas une seule histoire. D'un côté, LiquidAI retire la génération de la boucle et vise l'appareil ; de l'autre, Mistral pousse un billion de paramètres et promet l'ouverture des poids pour la fin du mois. EmbeddingGemma 2 se glisse entre les deux, avec 740M paramètres pour unifier texte, image, vidéo et audio en local. Deux précautions : les poids de Mistral Large 4 sont annoncés, pas disponibles, et la page Microsoft documentant les Looped Transformers de GPT-6 a été modifiée depuis.</p>",
+ "pivot": "66a0d6060cdf818d",
+ "tags": [
+  "open-source",
+  "recherche",
+  "openai",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x01zg6/d13b_and_d1omni_from_liquidai/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz5va3/googleembeddinggemma2_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz00vv/microsoft_confirms_openai_has_been_using_looped/"
+  }
+ ],
+ "date": "2026-10-07T17:28:59+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1611,
+  "sortie": 3238
+ }
+}

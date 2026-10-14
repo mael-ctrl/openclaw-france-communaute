@@ -1,0 +1,41 @@
+{
+ "slug": "ia-l-attachement-la-souverainete-et-les-conflits-qui-couvent-4d195b",
+ "titre": "IA : l'attachement, la souveraineté et les conflits qui couvent",
+ "chapo": "On prête des sentiments à un modèle, on change de fournisseur pour des raisons d'énergie et de souveraineté, on se déchire sur les équipes sécurité et sur le droit d'auteur. Quatre dépêches qui montrent que l'IA se joue autant dans nos affects que dans nos contrats.",
+ "html": "<h2 id=\"cables-pour-y-croire\">Câblés pour y croire</h2>\n<p>Citée par TechCrunch, Sherry Turkle pose une question simple : peut-on s'empêcher de traiter l'IA comme un humain ? Sa réponse est non. Nous ne pouvons pas nous empêcher de prêter des sentiments à un modèle, écrit-elle, et cela dès les échanges les plus simples avec ce qu'elle nomme un « artefact relationnel ».</p>\n<p>Le mécanisme décrit n'a rien de mystérieux : face à un interlocuteur qui répond, reformule et relance, nous finissons par croire qu'il se soucie de nous. Mieux — ou pire —, nous serions câblés pour le lui rendre. L'attachement ne serait pas un accident de parcours, mais le prolongement automatique d'une conversation réussie.</p>\n<p>C'est une question de fond sur notre rapport aux modèles conversationnels, pas un détail anecdotique. Elle déplace le débat : avant de savoir ce que ces systèmes comprennent, il faut accepter de regarder ce que nous, nous y projetons.</p>\n<h2 id=\"ecosia-quitte-mistral-le-jour-de-large-4\">Ecosia quitte Mistral le jour de Large 4</h2>\n<p>Ecosia abandonne les modèles de Mistral pour se tourner vers des modèles chinois. L'annonce intervient le jour du lancement de Large 4, le nouveau modèle de Mistral — la dépêche juxtapose les deux événements sans établir de lien entre eux.</p>\n<p>La justification tient en deux volets. D'un côté, le dirigeant d'Ecosia explique que l'IA française n'a pas répondu aux attentes. De l'autre, il évoque l'énergie nucléaire et des enjeux de souveraineté numérique. Deux arguments qui élargissent la comparaison : il n'est plus seulement question de performance d'un modèle, mais d'électricité, de dépendance et de juridiction.</p>\n<p>Pour un acteur européen, l'arbitrage porte donc aussi sur des questions qui ne se règlent pas dans un benchmark : où tourne l'inférence, avec quelle énergie, et sous quelles règles.</p>\n<h2 id=\"trois-licenciements-deux-versions\">Trois licenciements, deux versions</h2>\n<p>OpenAI campe sur sa décision de licencier trois chercheurs en sécurité. Une enquête interne a conclu à « une grave rupture de confiance ». Dans un message publié sur X vendredi, l'entreprise affirme que Jasmine Wang, Tomek Korbak et Mikita Balesni ont été écartés pour avoir violé ses « politiques claires » sur le traitement des informations sensibles.</p>\n<p>Les intéressés contestent. Dans une lettre ouverte, ils récusent les accusations de mauvaise gestion d'informations sensibles et affirment que ces licenciements créent un effet dissuasif sur la culture de sécurité de l'entreprise.</p>\n<p>Deux récits, une même question de fond : la façon dont les laboratoires d'IA encadrent leurs équipes dédiées aux risques. Le désaccord ne porte pas seulement sur trois personnes, mais sur le traitement réservé, en interne, à celles et ceux dont le travail porte sur ces sujets.</p>\n<h2 id=\"usa-today-reclame-250-millions-a-openai\">USA Today réclame 250 millions à OpenAI</h2>\n<p>USA Today Co., accompagné de plusieurs quotidiens locaux qu'il détient, attaque OpenAI en justice. Selon Reuters, l'éditeur affirme que l'entreprise a copié « des centaines de milliers » d'articles pour entraîner ses modèles d'IA. La plainte a été déposée jeudi : elle réclame plus de 250 millions de dollars de dommages et intérêts et dénonce un usage non autorisé de ces contenus.</p>\n<p>Cette procédure s'ajoute aux recours déjà engagés par des éditeurs contre OpenAI. Le dossier ne repose pas sur une question technique nouvelle, mais sur une addition qui continue de grossir, plainte après plainte, sans que le montant final de l'ardoise soit connu.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, quatre registres. Sherry Turkle décrit ce que nous projetons sur un modèle ; Ecosia décide de ce qu'elle achète et avec quelle énergie ; les chercheurs d'OpenAI parlent de ce qu'un laboratoire fait à ceux qui s'occupent des risques ; USA Today parle de ce que les modèles ont absorbé. Aucun de ces plans ne se règle par une amélioration technique. Attachement, dépendance, gouvernance interne et droit d'auteur restent des questions humaines posées à des systèmes qui, eux, ne se les posent pas.</p>",
+ "pivot": "4d195bb374ccacc4",
+ "tags": [
+  "société",
+  "mistral",
+  "openai",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/nous-sommes-decus-mistral-moteur-recherche-ecosia-abandonne-mistral-profit-ia-chinoises.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit"
+  }
+ ],
+ "date": "2026-10-09T16:49:01+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1523,
+  "sortie": 3805
+ }
+}

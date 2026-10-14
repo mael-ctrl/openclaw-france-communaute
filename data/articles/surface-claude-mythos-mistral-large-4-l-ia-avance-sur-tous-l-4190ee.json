@@ -1,0 +1,41 @@
+{
+ "slug": "surface-claude-mythos-mistral-large-4-l-ia-avance-sur-tous-l-4190ee",
+ "titre": "Surface, Claude Mythos, Mistral Large 4 : l'IA avance sur tous les fronts",
+ "chapo": "Microsoft présente ce soir son premier modèle RTX Spark, mais la configuration la plus abordable du Surface Laptop Ultra a déjà fuité : 18 cœurs et 24 Go de VRAM. En parallèle, Anthropic annonce 129 000 failles débusquées par Claude Mythos, Mistral ouvre Mistral Large 4, et l'AI Act s'applique déjà à trois blocs en France.",
+ "html": "<h2 id=\"une-fuite-avant-la-conference-et-un-mode\">Une fuite avant la conférence, et un modèle qui vise le mobile</h2>\n<p>Microsoft doit tenir une conférence ce soir, consacrée selon toute logique à la présentation détaillée de son premier modèle RTX Spark : le Surface Laptop Ultra. La configuration la plus abordable de l'appareil a toutefois fuité avant l'annonce. Elle est annoncée avec <strong>18 cœurs et 24 Go de VRAM</strong> — de quoi situer la machine du côté des usages lourds, jeu compris.</p>\n<p>En parallèle, Google DeepMind publie EmbeddingGemma 2, un modèle d'embedding <strong>multimodal open source</strong> qui projette texte (code inclus), images, vidéo et audio dans un espace vectoriel unique de <strong>768 dimensions</strong>. Fort de 740M paramètres — 270M pour le texte, 170M pour la vision, 300M pour l'audio — il vise les appareils grand public : mobiles et laptops, pour la recherche, le RAG ou la classification en local. Le modèle s'appuie sur les avancées de Gemma 4.</p>\n<p>Les deux annonces ne répondent pas au même besoin : l'une équipe une machine de travail, l'autre fournit une brique logicielle légère. Elles pointent toutefois dans la même direction, celle de capacités qui descendent sur l'appareil de l'utilisateur plutôt que de rester dans le cloud.</p>\n<h2 id=\"claude-mythos-et-les-129-000-failles\">Claude Mythos et les 129 000 failles</h2>\n<p>Anthropic annonce que son modèle Claude Mythos a identifié <strong>au moins 129 000 failles</strong> en quelques mois. En réaction à ce bilan, la start-up a décidé d'élargir l'accès à son IA conçue pour la cybersécurité.</p>\n<p>Le volume de vulnérabilités détectées donne la mesure de ce que ces modèles peuvent apporter aux équipes qui défendent des systèmes. Le chiffre situe aussi l'échelle à laquelle travaillent désormais les outils d'analyse automatisée : 129 000 failles en quelques mois, ce n'est plus un exercice de laboratoire, c'est un flux continu.</p>\n<h2 id=\"mistral-large-4-1050-milliards-de-parame\">Mistral Large 4 : 1050 milliards de paramètres en aperçu</h2>\n<p>Mistral a ouvert le <strong>6 octobre</strong> l'aperçu de Mistral Large 4, un modèle de <strong>1050 milliards de paramètres</strong>. Le laboratoire le présente comme le plus capable des modèles ouverts hors de Chine, et les mesures indépendantes confirment un rattrapage.</p>\n<p>La cybersécurité s'impose comme argument commercial face aux modèles ouverts chinois. Anthropic, de son côté, a fait de la détection de vulnérabilités le terrain de Claude Mythos : la sécurité devient un axe de différenciation pour les laboratoires, qu'ils commercialisent un modèle fermé ou un modèle ouvert.</p>\n<h2 id=\"ai-act-trois-blocs-deja-applicables-en-f\">AI Act : trois blocs déjà applicables en France</h2>\n<p>Depuis le <strong>6 octobre 2026</strong>, une entreprise française qui fournit ou utilise un système d'IA doit déjà respecter trois blocs du règlement (UE) 2024/1689, parmi lesquels les <strong>pratiques interdites</strong> et la <strong>maîtrise de l'IA</strong>.</p>\n<p>L'omnibus 2026/1744 reporte une partie des échéances prévues. Le calendrier européen touche donc directement les organisations qui déploient de l'IA en France — pas seulement celles qui construisent des modèles, mais aussi celles qui les intègrent dans leurs outils.</p>\n<h2>Et maintenant ?</h2>\n<p>Entre un laptop annoncé avec 24 Go de VRAM, un modèle d'embedding taillé pour le mobile, un modèle ouvert à 1050 milliards de paramètres et une IA qui compte les failles par dizaines de milliers, une ligne se dessine : les capacités quittent les démonstrations pour se rapprocher des appareils et des métiers. Le cadre réglementaire, lui, est déjà partiellement en vigueur en France depuis le 6 octobre 2026.</p>",
+ "pivot": "4190ee680ba54a9d",
+ "tags": [
+  "claude",
+  "mistral",
+  "sécurité",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/microsoft/3275677_microsoft-surface-laptop-ultra-18-coeurs-et-24-go-de-vram-le-modele-que-les-joueurs-se-paieront-a-fuite"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/129-000-failles-debusquees-anthropic-devoile-le-bilan-impressionnant-claude-mythos.html"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/calendrier-ai-act-ce-qui-sapplique-ce-que-lomnibus-reporte/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/mistral-large-4-ce-que-vaut-le-meilleur-modele-ouvert-hors-chine/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz5va3/googleembeddinggemma2_hugging_face/"
+  }
+ ],
+ "date": "2026-10-07T11:29:36+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1572,
+  "sortie": 4823
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "attaques-autonomes-agents-mistral-le-reel-rattrape-le-market-1a49b1",
+ "titre": "Attaques autonomes, agents, Mistral : le réel rattrape le marketing de l'IA",
+ "chapo": "D'un côté, un président de CERT qui appelle au réalisme : les attaques entièrement autonomes ne sont pas encore là. De l'autre, des agents qui revendiquent l'autonomie, un moteur de recherche qui change de modèles et une infrastructure qui se construit à coups de milliards.",
+ "html": "<h2 id=\"on-ne-voit-pas-encore-emerger-d-attaques\">« On ne voit pas encore émerger d'attaques complètement autonomes »</h2>\n<p>Thibaud Binétruy, président d'InterCERT France — la première communauté de CERT et CSIRT en France — appelle au réalisme. Son constat est net : <strong>on ne voit pas encore émerger d'attaques complètement autonomes</strong>. Ce qui est observé, en revanche, ce sont des attaques <em>augmentées</em> par l'intelligence artificielle, où le modèle vient assister l'attaquant sans conduire l'opération seul.</p>\n<p>Cette nuance compte parce qu'elle tranche avec un discours commercial bien installé. Certains laboratoires d'IA annoncent l'avènement de cyberattaques conduites par des agents. Entre la démonstration et l'incident constaté sur le terrain, l'écart reste donc ouvert — et ce sont les équipes de réponse qui le mesurent en premier.</p>\n<h2 id=\"chez-openai-la-confiance-rompue-reste-ro\">Chez OpenAI, la confiance rompue reste rompue</h2>\n<p>La question de la confiance se pose aussi à l'intérieur des laboratoires. OpenAI <strong>maintient le licenciement de trois chercheurs en sécurité</strong> : Jasmine Wang, Tomek Korbak et Mikita Balesni. Une enquête interne a conclu à « une grave rupture de confiance ».</p>\n<p>Dans un message publié sur X vendredi, l'entreprise affirme que les trois intéressés ont été écartés pour avoir violé ses « politiques claires » sur le traitement des informations sensibles. La formulation reste corporate, la décision l'est moins : elle est assumée et maintenue.</p>\n<h2 id=\"gemini-agent-l-autonomie-comme-argument-\">Gemini Agent : l'autonomie comme argument produit</h2>\n<p>Côté produit, l'autonomie devient un argument de vente. Google dévoile <strong>Gemini Agent</strong>, qui transforme son chatbot Gemini en outil capable de gérer des tâches complexes. L'objectif affiché : avancer sans devoir attendre la validation d'un humain à chaque étape du processus.</p>\n<p>Concrètement, le chatbot ne se contente plus de répondre. Il prend en charge <em>l'enchaînement des opérations</em>. C'est exactement le terrain que décrit Thibaud Binétruy lorsqu'il évoque des agents — à ceci près que sa prudence porte sur les usages offensifs, quand Google l'affiche comme une feuille de route produit.</p>\n<h2 id=\"souverainete-des-modeles-souverainete-de\">Souveraineté des modèles, souveraineté de l'électricité</h2>\n<p>Les dépendances se redessinent aussi, et pas seulement sur le plan technique. <strong>Ecosia</strong> quitte les modèles de Mistral pour se tourner vers des modèles chinois. Son dirigeant explique que l'IA française n'a pas répondu aux attentes, et évoque l'énergie nucléaire ainsi que des enjeux de souveraineté numérique. L'annonce intervient le jour du lancement de Large 4, le nouveau modèle de Mistral.</p>\n<p>En amont de l'usage, l'infrastructure suit le mouvement. Le français <strong>Sesterce</strong> ne veut plus seulement louer des GPU : il se présente désormais comme constructeur et opérateur d'« AI Factories », une offre qui intègre l'approvisionnement électrique, le bâtiment, le refroidissement, les accélérateurs et l'orchestration informatique. L'entreprise engage plus de 10 milliards d'euros en Finlande, devenue le nouvel aimant des data centers IA.</p>\n<p>Du modèle retenu au bâtiment qui l'héberge, la chaîne se recompose donc sur deux tableaux : celui du choix fournisseur et celui du foncier électrique.</p>\n<h2>Et maintenant ?</h2>\n<p>Le point commun de ces dépêches n'est pas une causalité, c'est un décalage : l'autonomie progresse plus vite dans les annonces que dans les incidents observés. Les agents deviennent un argument produit, la sécurité un sujet de gouvernance interne, et la dépendance à un modèle ou à une source d'électricité un choix stratégique assumé. Ce que Thibaud Binétruy appelle au réalisme n'est pas un frein : c'est une méthode, regarder ce qui est observé plutôt que ce qui est promis.</p>",
+ "pivot": "1a49b1667e569824",
+ "tags": [
+  "agents",
+  "sécurité",
+  "france",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/cybersecurite/on-ne-voit-pas-encore-emerger-dattaques-completement-autonomes-le-president-dintercert-france-appelle-au-realisme-face-au-marketing-des-laboratoires-dia.7RZF3KP5B5H7DPD37AVIQ65YOE.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/nous-sommes-decus-mistral-moteur-recherche-ecosia-abandonne-mistral-profit-ia-chinoises.html"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/sesterce-investit-plus-de-10-milliards-deuros-en-finlande-devenue-le-nouvel-aimant-des-data-centers-ia.FZC3HZTSSZGGLOLMG2MIJRCKYI.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/google/3278897_google-transforme-gemini-en-collegue-capable-de-travailler-a-votre-place-voici-gemini-agent"
+  }
+ ],
+ "date": "2026-10-09T14:52:20+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1608,
+  "sortie": 3666
+ }
+}

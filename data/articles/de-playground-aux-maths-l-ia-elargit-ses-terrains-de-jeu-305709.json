@@ -1,0 +1,41 @@
+{
+ "slug": "de-playground-aux-maths-l-ia-elargit-ses-terrains-de-jeu-305709",
+ "titre": "De Playground aux maths : l'IA élargit ses terrains de jeu",
+ "chapo": "Google Labs planche sur une plateforme de jeux pilotée aux requêtes textuelles, OpenAI annonce 722 articles de mathématiques, Mistral publie un modèle d'un billion de paramètres. Quatre annonces, quatre échelles — et un paysage qui ne se résume plus à une seule course.",
+ "html": "<h2 id=\"playground-decrire-un-jeu-plutot-que-le-\">Playground : décrire un jeu plutôt que le coder</h2>\n<p>Google Labs travaille sur <strong>Playground</strong>, une plateforme de création de jeux propulsée par l'IA. Le principe tient en une phrase : bâtir des jeux jouables directement dans le navigateur à partir de simples requêtes textuelles. Pas d'éditeur à installer, pas de moteur à configurer — on décrit ce qu'on veut obtenir, et le système produit un jeu qui tourne dans le navigateur.</p>\n<p>Le projet est présenté comme une expérimentation de Google Labs, pas comme un produit fini. Il illustre surtout une trajectoire déjà à l'œuvre : la création assistée par IA continue de s'étendre à de nouveaux usages. Après le texte, l'image et le code, c'est ici le jeu vidéo dans le navigateur qui devient un terrain d'essai.</p>\n<p>Rien n'indique pour l'instant de calendrier de sortie ni de périmètre d'accès. Ce qui est notable, c'est la direction : déplacer l'effort de l'apprentissage d'un outil vers la seule formulation d'une intention.</p>\n<h2 id=\"mathematiques-722-articles-et-90-problem\">Mathématiques : 722 articles et 90 problèmes ouverts</h2>\n<p>Sur un registre très différent, <strong>Latent Space</strong> rapporte qu'OpenAI a publié 722 articles de mathématiques. Ces travaux résolvent 90 des 500 principaux problèmes ouverts du domaine. La publication est décrite comme « le moment le plus significatif » en plus de 100 ans de mathématiques.</p>\n<p>Ce qui donne son poids à l'annonce, c'est le volume : 722 articles d'un coup, et le nombre de problèmes ouverts traités. Le rapport entre ces deux chiffres — 90 sur 500 — situe l'ampleur de ce qui est avancé, sans qu'il soit besoin d'en dire davantage.</p>\n<p>On est ici à l'opposé du geste grand public de Playground : même technologie de base, mais une visée de recherche fondamentale et une échelle de vérification qui n'a rien à voir.</p>\n<h2 id=\"mistral-large-4-et-embeddinggemma-2-deux\">Mistral Large 4 et EmbeddingGemma 2 : deux tailles, deux cibles</h2>\n<p>Chez <strong>Mistral</strong>, la preview de <strong>Mistral Large 4</strong> annonce un modèle d'un billion de paramètres, dont 49 milliards actifs. L'entraînement s'est fait sur son propre cluster de 3 800 GPU NVIDIA Grace Blackwell. Les poids ouverts sont promis pour la fin du mois. L'API n'expose pour l'instant que deux niveaux de raisonnement, « none » et « high ».</p>\n<p>Sur Artificial Analysis, le modèle score <strong>38</strong> — juste derrière DeepSeek 4.1 Flash — contre <strong>9</strong> pour Mistral Large 3 en décembre. Le saut est net, et il se mesure sur une même échelle que la concurrence.</p>\n<p>Chez <strong>Google DeepMind</strong>, le profil est inverse : <strong>EmbeddingGemma 2</strong> est un modèle d'embedding multimodal open source qui projette texte (code inclus), images, vidéo et audio dans un espace vectoriel unique de <strong>768 dimensions</strong>. Ses 740M paramètres se répartissent en 270M pour le texte, 170M pour la vision et 300M pour l'audio. La cible : les appareils grand public, mobiles et laptops, pour la recherche, le RAG ou la classification en local. Le modèle s'appuie sur les avancées de Gemma 4.</p>\n<p>Un billion de paramètres d'un côté, 740M de l'autre, et tous deux avec des poids ouverts annoncés ou effectifs : la question de la taille n'est plus la seule à trancher.</p>\n<h2 id=\"gpt-6-les-looped-transformers-confirmes-\">GPT-6 : les Looped Transformers confirmés par erreur</h2>\n<p><strong>Microsoft</strong> a confirmé, sur une page web publique, qu'OpenAI utilise des <strong>Looped Transformers</strong> dans la série GPT-6, validant les informations du média The Information. La page a depuis été modifiée pour retirer ces éléments.</p>\n<p>D'après ce qu'elle indiquait, <strong>GPT-6.1 Sol</strong> effectuerait deux passes d'inférence, avec une mention évoquant « au lieu de trois ». GPT-6 et GPT-6.1 reposeraient sur le même modèle de base pré-entraîné, mais avec un post-entraînement différent et une boucle en moins.</p>\n<p>Autrement dit, une partie de l'écart entre deux versions se jouerait moins sur le pré-entraînement que sur la manière de faire tourner le modèle — un axe que les annonces de modèles mettent rarement en avant.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre annonces, quatre échelles : une plateforme de jeux grand public chez Google Labs, 722 articles de mathématiques chez OpenAI, un modèle d'un billion de paramètres en preview chez Mistral, un modèle d'embedding de 740M paramètres pensé pour tourner en local chez DeepMind, plus une confirmation discrète côté Microsoft sur l'architecture de GPT-6. Le tableau ne se lit pas comme une course unique au plus gros modèle. Il se joue aussi sur la variété des formats, des tailles et des usages visés — du navigateur d'un côté, du RAG en local de l'autre.</p>",
+ "pivot": "305709bf4cb2eddd",
+ "tags": [
+  "openai",
+  "mistral",
+  "gemini",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/6/le-chonk/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz5va3/googleembeddinggemma2_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz00vv/microsoft_confirms_openai_has_been_using_looped/"
+  }
+ ],
+ "date": "2026-10-07T14:40:09+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1553,
+  "sortie": 2832
+ }
+}

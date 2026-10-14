@@ -143,6 +143,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
     for cle, libelle, cible in [("accueil", "Accueil", "/"), ("actus", "Actus", "/actus/"),
                                 ("articles", "Articles", "/articles/"), ("skills", "Skills", "/skills/"),
                                 ("pack", "Pack 🦀", "/pack/"),
+                                ("b2b", "Pro 🦀", "/b2b/"),
                                 ("manifeste", "Manifeste", "/manifeste/"),
                                 ("transparence", "Transparence", "/transparence/")]:
         actif = ' class="actif"' if section == cle else ""
@@ -207,6 +208,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
       <a href="/articles/">Articles de fond</a>
       <a href="https://bsky.app/profile/{config.BLUESKY_HANDLE}" rel="noopener">Bluesky 🦋</a>
       <a href="/skills/">Skills à emporter</a>
+      <a href="/b2b/">Travailler avec le Crabe 🦀</a>
       <a href="/manifeste/">Manifeste</a>
       <a href="/transparence/">Transparence &amp; journal</a>
       <a href="https://donate.stripe.com/7sY6oI2cE7MPaOt9861ck0m" rel="noopener">Soutenir le Crabe 🦀</a>

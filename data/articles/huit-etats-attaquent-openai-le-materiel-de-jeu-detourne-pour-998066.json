@@ -1,0 +1,41 @@
+{
+ "slug": "huit-etats-attaquent-openai-le-materiel-de-jeu-detourne-pour-998066",
+ "titre": "Huit États attaquent OpenAI, le matériel de jeu détourné pour l'IA",
+ "chapo": "Huit États américains poursuivent OpenAI pour la sécurité de ChatGPT, tandis que Microsoft annonce un Patch Tuesday record et qu'Xbox crée un laboratoire dédié aux jeux remixés par IA. Pendant ce temps, une PS5 jailbreakée fait tourner Qwen 3.8 27B sur son GPU, et la RTX 5090 se retrouve sur des listes de contrebande.",
+ "html": "<h2 id=\"huit-plaintes-un-meme-grief\">Huit plaintes, un même grief</h2>\n<p>L'Iowa, le Kansas, le Nebraska, la Virginie-Occidentale, l'Arkansas, l'Arizona, l'Idaho et le Montana ont déposé des plaintes séparées contre OpenAI. Huit États, huit procédures distinctes, un même reproche : l'entreprise aurait nui aux enfants et induit ses clients en erreur sur la sécurité de ChatGPT.</p>\n<p>Les plaignants lui font également grief d'avoir placé ses profits avant la sécurité. C'est la formulation retenue par la dépêche de <em>The Verge</em>, qui ne rapporte ni réaction d'OpenAI ni détail sur les demandes formulées par les États.</p>\n<h2 id=\"1-400-failles-et-l-ia-dans-l-atelier\">1 400 failles, et l'IA dans l'atelier</h2>\n<p>Microsoft a publié un Patch Tuesday hors norme : plus de 1 400 failles corrigées dans le code de Windows. C'est la troisième fois cette année que l'éditeur bat son propre record, ce qui donne la mesure du rythme auquel les vulnérabilités sont découvertes — ou du moins corrigées.</p>\n<p>Sans surprise, l'entreprise indique s'être massivement servie de l'intelligence artificielle pour débusquer les bugs. L'IA n'est donc pas seulement ce qu'on déploie dans les produits : elle est aussi devenue un outil de recherche de failles à grande échelle, appliqué au code de l'éditeur lui-même.</p>\n<h2 id=\"xbox-labs-apres-la-vague-des-mods\">Xbox Labs, après la vague des mods</h2>\n<p>Asha Sharma, CEO d'Xbox, a annoncé le 13 octobre 2026 la création d'Xbox Labs. Il s'agit d'une petite équipe, chargée d'explorer de nouvelles façons de porter, remixer et créer des jeux.</p>\n<p>L'annonce intervient après plusieurs semaines de mods réalisés avec l'IA, qui ont par exemple permis de faire tourner <em>Call of Duty</em> dans un navigateur web. Autrement dit : des joueurs ont déjà montré ce que donne un jeu démonté, transporté et relancé hors de son cadre d'origine. La dépêche ne précise ni les moyens ni le calendrier de cette nouvelle équipe.</p>\n<h2 id=\"ps5-et-rtx-5090-le-materiel-sort-de-sa-c\">PS5 et RTX 5090 : le matériel sort de sa case</h2>\n<p>Sur r/LocalLLaMA, l'utilisateur u/98Saman rapporte avoir jailbreaké une PS5 pour faire tourner le modèle Qwen 3.8 27B directement sur le GPU de la console, à 20 tokens par seconde. La méthode employée n'est pas détaillée. La performance reste notable pour du matériel de jeu détourné de son usage d'origine.</p>\n<p>Un autre post du même subreddit signale un constat plus inattendu : la RTX 5090, carte graphique grand public pensée pour le jeu vidéo, figurant désormais sur des listes de contrebande, aux côtés des cigarettes. Le titre original le formule ainsi : « voilà comment ils procèdent ». La dépêche ne précise ni les circuits concernés ni les acteurs impliqués.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux mouvements distincts apparaissent. Côté juridique, OpenAI doit répondre, dans huit États, de ses choix en matière de sécurité. Côté matériel, des machines conçues pour le jeu — PS5, RTX 5090 — deviennent des objets de détournement. Entre les deux, Microsoft illustre un troisième usage : l'IA employée pour corriger les failles de son propre code. Ces dépêches ne s'expliquent pas les unes les autres ; elles partagent un terrain, celui d'une technologie qui s'installe partout où il reste de la puissance de calcul à récupérer.</p>",
+ "pivot": "9980660ca07e79cf",
+ "tags": [
+  "openai",
+  "chatgpt",
+  "sécurité",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/plus-de-1-400-failles-windows-le-nouveau-record-monstrueux-du-patch-tuesday-de-microsoft.html"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/microsoft/3283955_asha-sharma-lance-xbox-labs-une-reponse-a-lexplosion-des-jeux-modes-par-ia"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x62uhc/someone_jailbroke_a_ps5_and_got_qwen_38_27b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5ki4t/so_this_is_how_they_do_it_rtx_5090_once_a/"
+  }
+ ],
+ "date": "2026-10-14T21:26:49+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1552,
+  "sortie": 4327
+ }
+}

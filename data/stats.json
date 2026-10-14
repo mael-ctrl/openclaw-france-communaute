@@ -1,22 +1,18 @@
 {
- "runs": 146,
- "items_collectes": 1364,
- "breves_publiees": 524,
- "articles_publies": 67,
- "tokens_entree": 489433,
- "tokens_sortie": 678381,
+ "runs": 147,
+ "items_collectes": 1404,
+ "breves_publiees": 529,
+ "articles_publies": 68,
+ "tokens_entree": 494375,
+ "tokens_sortie": 686589,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-14T07:11:41+00:00",
+ "dernier_run": "2026-10-14T21:26:49+00:00",
  "solde": {
-  "total": "85.27",
+  "total": "84.38",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-12T03:54:57+00:00",
-   "message": "archivage wayback : <urlopen error [Errno 54] Connection reset by peer>"
-  },
   {
    "ts": "2026-10-12T06:31:19+00:00",
    "message": "diffusion sociale : <urlopen error [Errno 8] nodename nor servname provided, or not known>"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-14T07:11:41+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 1 column 2109 (char 2108)"
+  },
+  {
+   "ts": "2026-10-14T21:26:18+00:00",
+   "message": "brève impossible (Qwen 3.8 Flash Next, DeepSeekV4 Flash and Time) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 6.39,
+ "depense_usd": 7.28,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -604,10 +604,14 @@
   [
    "2026-10-14T07:10:38+00:00",
    "85.27"
+  ],
+  [
+   "2026-10-14T21:25:53+00:00",
+   "84.38"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 4.1,
+ "depense_mois_usd": 4.99,
  "archive_tentatives": {
   "jour": "2026-10-14",
   "n": 1

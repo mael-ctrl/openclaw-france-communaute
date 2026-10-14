@@ -1710,3 +1710,10 @@
 {"ts": "2026-10-14T20:41:24+00:00", "evenement": "deploiement", "details": {"fichiers": 612, "octets": 9682377}, "sha256": "8322b2c90307625cd35fd9ac6102b4e2caef6a6ee6f2727146c9415c521ad6e2"}
 {"ts": "2026-10-14T20:41:25+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "e5b677b1954700eab8399e8af58eeb4c0c761f2561fddf03300f80c61b1ab777"}
 {"ts": "2026-10-14T20:41:25+00:00", "evenement": "bilan", "details": {"duree_s": 540.8, "neufs": 2, "breves": 1, "articles": 1, "fichiers": 598, "envois": 612, "publications": 0}, "sha256": "5eb7f533ec59492168530f16e6377dc9f256d3c4060a5b75a0d042b96e7937ff"}
+{"ts": "2026-10-14T21:25:53+00:00", "evenement": "collecte", "details": {"neufs": 40}, "sha256": "5131cfe45329ed5b35cc0c00ae943dd86815659c8095eec11d17e0f760b3012b"}
+{"ts": "2026-10-14T21:26:18+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Qwen 3.8 Flash Next, DeepSeekV4 Flash and Time) : réponse non-JSON"}, "sha256": "80dde3586c80bc5f29308e3b54cc43c0e5e6c708865a4b549dd0a9f9239d2275"}
+{"ts": "2026-10-14T21:26:50+00:00", "evenement": "construction", "details": {"fichiers": 603}, "sha256": "670ca8b70ce55b07143853dc60aa0073e6d5b0e649d86ec77ac73f362419d6ea"}
+{"ts": "2026-10-14T21:40:27+00:00", "evenement": "deploiement", "details": {"fichiers": 618, "octets": 10184297}, "sha256": "2b2572e63e8c3e5633adbb3e267780fe9b21bd24b5e6d73d07302f1e831c9300"}
+{"ts": "2026-10-14T21:40:28+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "e0d36038b788becf2139323141d61bf7e68ae7b614aaabc3942af766325408f6"}
+{"ts": "2026-10-14T21:40:39+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "e3c542d2751d9274f9ae7e2f8d232ba02839f495d843d44e927155badc5ce7aa"}
+{"ts": "2026-10-14T21:40:39+00:00", "evenement": "bilan", "details": {"duree_s": 930.7, "neufs": 40, "breves": 5, "articles": 1, "fichiers": 603, "envois": 618, "publications": 4}, "sha256": "6ce64b26428f70bbeaa62ab6c2dbbd574b261a52211cd90bc82d092b43eb82e0"}

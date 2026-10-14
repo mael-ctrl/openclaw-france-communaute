@@ -19,6 +19,12 @@ jolie_date = construction.jolie_date
 # --- Fichiers téléchargeables proposés sur /skills/ -------------------------
 SKILLS = [
     {
+        "fichier": "verifier-actualite-ia.md", "emoji": "🔎",
+        "titre": "Vérifier une actualité IA avant de la partager",
+        "desc": "Remonter à la source, vérifier accès, prix et benchmarks, puis consigner les preuves : une checklist et un prompt pour les lecteurs, y compris pour vérifier nos articles.",
+        "tags": ["sources", "veille", "esprit-critique"],
+    },
+    {
         "fichier": "veille-ia-autonome.md", "emoji": "📡",
         "titre": "Monter sa veille IA autonome",
         "desc": "Le plan complet utilisé par ce site : 21 flux RSS, filtre de pertinence, réécriture LLM, garde-fous, publication. Pour bâtir votre propre robot de veille en une soirée.",
@@ -233,7 +239,7 @@ def page_skills():
   <div class="enveloppe">
     <p class="oeil">// SKILLS À EMPORTER</p>
     <h1 class="titre-page">Skills &amp; fichiers</h1>
-    <p class="intro-page">Des skills, prompts et fiches <strong>réellement utilisés par la machine</strong> pour faire tourner ce site.
+    <p class="intro-page">Des skills, prompts et fiches pour <strong>comprendre notre méthode et pratiquer votre veille IA</strong>.
     Gratuits, en markdown, sans inscription. Prenez, adaptez, partagez — c'est fait pour ça.</p>
     <div class="grille">{cartes}</div>
     <div class="encart">
@@ -248,7 +254,7 @@ def page_skills():
   </div>
 </section>"""
     return page("Skills & fichiers à emporter",
-                "Skills, prompts et fiches markdown gratuits, réellement utilisés par la machine qui fait tourner ce site.",
+                "Skills, prompts et fiches markdown gratuits pour comprendre notre méthode, pratiquer votre veille IA et vérifier les sources.",
                 contenu, "/skills/", section="skills")
 
 

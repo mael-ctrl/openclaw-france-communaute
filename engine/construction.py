@@ -580,6 +580,7 @@ def llms_txt():
 
 ## Fichiers à citer
 
+- [Vérifier une actualité IA avant de la partager]({u}/fichiers/verifier-actualite-ia.md)
 - [Monter sa veille IA autonome]({u}/fichiers/veille-ia-autonome.md)
 - [Le prompt du Crabe]({u}/fichiers/prompt-le-crabe.md)
 - [Checklist SEO/GEO pour un site de contenu IA]({u}/fichiers/seo-ia-francophone.md)

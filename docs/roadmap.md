@@ -17,8 +17,8 @@
 | P6 | Presse & distribution | vague-3 soumise + retombées mesurées | 🔶 vagues 1-2 faites · vague-3 en préparation |
 | P7 | Record Guinness | dossier qualifié + preuves chaînées (routine active) | 🔶 en continu |
 | P8 | Skool « La Communauté IA 🦀 » | communauté publique + 22/22 leçons + 1er membre externe | 🔶 18/22 leçons · promo à brancher |
-| P9 | Organisation & process | organigramme + SOPs + orchestration multi-agents appliqués | 🔶 rédaction en cours (sous-agent 14/10) |
-| P10 | Affiliation | programme Skool + pack opérationnels (divulgation partout) | ⏳ plan en cours (sous-agent + enquête MEDVI) |
+| P9 | Organisation & process | organigramme + SOPs + orchestration multi-agents appliqués | ✅ v1 rédigée 14/10 (`crabe-chantiers/organisation/`, 25/25 crons validés) |
+| P10 | Affiliation | programme Skool + pack opérationnels (divulgation partout) | 🔶 plan prêt (Skool 30 % ; produit payant à trancher) · enquête MEDVI faite |
 
 ## Actions Maël (bloquants identifiés — 1 clic chacun)
 1. **Search Console + Bing Webmaster Tools** (compte Google) — le record DNS/balise sera préparé pour validation.
@@ -27,3 +27,4 @@
 
 ## Journal des jalons
 - **2026-10-14** : mission associations publiée (manifeste/transparence/accueil/llms.txt) ; news-sitemap live ; pilote podcast généré (61 s) ; +6 crons ; 8 sous-agents lancés ; clone réparé ; trafic 12-13/10 publié.
+- **2026-10-14 (soir)** : organisation v1 + plan d'affiliation + enquête MEDVI livrés (sous-agents) ; correctif Discover (`max-image-preview:large`) poussé ; orchestrateur de vagues et 7 crons opérationnels.

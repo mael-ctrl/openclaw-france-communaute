@@ -1,0 +1,41 @@
+{
+ "slug": "anthropic-gemini-4-argon-meta-muse-wonder-coordonner-les-age-d9addd",
+ "titre": "Anthropic, Gemini 4 Argon, Meta Muse Wonder : coordonner les agents",
+ "chapo": "Anthropic a profité de l'AI Engineer New York pour détailler ses « dynamic workflows », une méthode de coordination d'agents Claude inspirée d'Unix. Au même moment, Google déploie Gemini 4 Argon dans le monde entier et McKinsey fait passer des entretiens à ses candidats face à un faux client généré par IA.",
+ "html": "<h2 id=\"anthropic-emprunte-a-unix-pour-faire-ten\">Anthropic emprunte à Unix pour faire tenir plusieurs agents ensemble</h2>\n<p>Anthropic a utilisé l'AI Engineer New York pour présenter ses « dynamic workflows », une approche destinée à coordonner des agents Claude. L'entreprise s'appuie sur des leçons tirées d'<strong>Unix et de Linux</strong> pour expliquer comment ces agents peuvent mener des projets plus ambitieux. L'objectif annoncé est net : éviter que la complexité de ces projets ne submerge les développeurs.</p>\n<p>Le déplacement est subtil. Le débat sur les agents a longtemps porté sur ce qu'un modèle sait faire seul ; il porte ici sur l'organisation du travail entre plusieurs agents, et sur la manière dont un développeur humain garde la main quand le nombre de briques augmente.</p>\n<p>L'ancrage Unix n'est pas un détail de vocabulaire : c'est une culture d'outils composables, de processus qui se parlent entre eux, de petites pièces qu'on assemble. Une référence utile dès lors qu'on cherche à coordonner des agents plutôt qu'à tout faire tenir dans un seul appel.</p>\n<h2 id=\"gemini-4-argon-deploye-partout-facture-p\">Gemini 4 Argon déployé partout, facturé plus cher en décembre</h2>\n<p>Google, de son côté, déploie <strong>Gemini 4 Argon</strong> à grande échelle. Dévoilé au début du mois, le modèle est accessible depuis le 13 octobre 2026 dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme. Google veut en faire un outil de travail pour les tâches complexes — et le moteur de ses agents IA.</p>\n<p>La nuance est tarifaire : le prix de l'API doit doubler au 1er décembre. Pour les équipes qui construisent sur ce modèle, la question du coût se pose donc au moment même où il est présenté comme la brique de base d'agents, c'est-à-dire d'usages qui multiplient les appels.</p>\n<p>Chez Meta, Latent Space consacre une dépêche à <strong>Meta Muse Wonder et Wonder Full</strong>, les modèles de MSL. Selon le média, l'émergence de MSL comme laboratoire de pointe est désormais actée, et son modèle frontalier est présenté comme comparable à la génération Claude 5.5.</p>\n<h2 id=\"microsoft-trouve-1-400-failles-dans-wind\">Microsoft trouve 1 400 failles dans Windows, avec l'IA dans la boucle</h2>\n<p>Microsoft a publié un Patch Tuesday hors norme, avec plus de <strong>1 400 failles</strong> corrigées dans le code de Windows. C'est la troisième fois cette année que l'éditeur bat son propre record.</p>\n<p>Sans surprise, l'entreprise indique s'être massivement servie de l'intelligence artificielle pour débusquer les bugs. Le chiffre donne la mesure de ce qui change : la recherche de vulnérabilités, longtemps affaire de relecture et d'expérience accumulée, s'industrialise elle aussi, avec des séries de correctifs à quatre chiffres.</p>\n<h2 id=\"chez-mckinsey-l-entretien-d-embauche-pas\">Chez McKinsey, l'entretien d'embauche passe par un faux client IA</h2>\n<p>Le cabinet <strong>McKinsey & Company</strong> va demander à certains candidats juniors de mener une conversation de dix minutes avec une simulation d'IA jouant le rôle d'un client, selon le Wall Street Journal. Cette simulation vise à refléter <strong>80 % des scénarios</strong> que les consultants McKinsey rencontrent au quotidien, indique le cabinet.</p>\n<p>Le recrutement devient ainsi un terrain de test pour les interactions avec des agents. La scène est parlante : une machine tient le rôle d'en face, un humain doit conduire l'échange, et l'évaluation porte sur cette conversation-là.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, un même mouvement : les agents passent du statut de démonstration à celui d'infrastructure. Anthropic travaille leur coordination, Google en fait le moteur de ses produits et ajuste sa grille tarifaire, Microsoft s'en sert pour trouver des failles, McKinsey s'en sert pour évaluer des candidats. À mesure que ces briques se banalisent, la question se déplace de « que sait faire le modèle ? » vers « comment tient-on l'ensemble, et à quel prix ? ». Le doublement annoncé du prix de l'API Gemini au 1er décembre en donne un premier ordre de grandeur.</p>",
+ "pivot": "d9adddc628d1097c",
+ "tags": [
+  "agents",
+  "claude",
+  "gemini",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/claude-dynamic-workflows"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/plus-de-1-400-failles-windows-le-nouveau-record-monstrueux-du-patch-tuesday-de-microsoft.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview"
+  }
+ ],
+ "date": "2026-10-14T23:49:41+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1471,
+  "sortie": 5770
+ }
+}

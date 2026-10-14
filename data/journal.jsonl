@@ -1728,3 +1728,9 @@
 {"ts": "2026-10-14T23:16:18+00:00", "evenement": "deploiement", "details": {"fichiers": 621, "octets": 10299537}, "sha256": "0e86cfc2341ba646067f5c4bd8974e3319a2f38890904e4f9c9a85fd443169b0"}
 {"ts": "2026-10-14T23:16:18+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "c4336b4e908d9dfd846a745fec61ca5364491dada8354d04026aec812d2b5456"}
 {"ts": "2026-10-14T23:16:18+00:00", "evenement": "bilan", "details": {"duree_s": 703.2, "neufs": 40, "breves": 6, "articles": 1, "fichiers": 606, "envois": 621, "publications": 0}, "sha256": "bceb188e6e49e1247d34ba1d21324d1ab2668b7e883310253707572b0bdf19ca"}
+{"ts": "2026-10-14T23:48:15+00:00", "evenement": "collecte", "details": {"neufs": 17}, "sha256": "a6e59aba348da5c6054df79643f80a68522bed47921ced05e46a71cf1204614a"}
+{"ts": "2026-10-14T23:48:49+00:00", "evenement": "erreur", "details": {"message": "brève impossible (microsoft/UserRepGen-4B) : réponse non-JSON"}, "sha256": "db116d4c99f238f210652afdfeebf1d8b17fbee45f593f8c2ced6ddd72c88550"}
+{"ts": "2026-10-14T23:49:42+00:00", "evenement": "construction", "details": {"fichiers": 607}, "sha256": "ac438a7845f3857bc95af8d53ef1a298912062550e04b39ccdb714ca36daa12a"}
+{"ts": "2026-10-14T23:58:14+00:00", "evenement": "deploiement", "details": {"fichiers": 622, "octets": 10313910}, "sha256": "7828813b219590562d9ef29c8f0b90c08460b9715da42234ae9853fa90473f76"}
+{"ts": "2026-10-14T23:58:15+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "af3905bb1c2ab9d25f4f55030f7ab04b3e570a29188ec4de34fa3de2018de5c4"}
+{"ts": "2026-10-14T23:58:15+00:00", "evenement": "bilan", "details": {"duree_s": 617.7, "neufs": 17, "breves": 5, "articles": 1, "fichiers": 607, "envois": 622, "publications": 0}, "sha256": "77cc82350660e162598f9d24a31a55585537cf4ef2708ced1d8e709848b0d6a8"}

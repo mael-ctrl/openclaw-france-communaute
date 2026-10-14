@@ -1,22 +1,18 @@
 {
- "runs": 149,
- "items_collectes": 1484,
- "breves_publiees": 541,
- "articles_publies": 70,
- "tokens_entree": 505874,
- "tokens_sortie": 703172,
+ "runs": 150,
+ "items_collectes": 1501,
+ "breves_publiees": 546,
+ "articles_publies": 71,
+ "tokens_entree": 510343,
+ "tokens_sortie": 711709,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-14T23:06:06+00:00",
+ "dernier_run": "2026-10-14T23:49:42+00:00",
  "solde": {
-  "total": "84.30",
+  "total": "84.29",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-12T06:31:19+00:00",
-   "message": "diffusion sociale : <urlopen error [Errno 8] nodename nor servname provided, or not known>"
-  },
   {
    "ts": "2026-10-13T07:11:34+00:00",
    "message": "brève impossible (release-publish/ff338bdb01f2-1791867901: fix: preserve cron ) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-14T21:26:18+00:00",
    "message": "brève impossible (Qwen 3.8 Flash Next, DeepSeekV4 Flash and Time) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-14T23:48:49+00:00",
+   "message": "brève impossible (microsoft/UserRepGen-4B) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 7.36,
+ "depense_usd": 7.37,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -616,10 +616,14 @@
   [
    "2026-10-14T23:05:07+00:00",
    "84.30"
+  ],
+  [
+   "2026-10-14T23:48:16+00:00",
+   "84.29"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 5.07,
+ "depense_mois_usd": 5.08,
  "archive_tentatives": {
   "jour": "2026-10-14",
   "n": 1

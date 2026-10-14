@@ -1,22 +1,18 @@
 {
- "runs": 281,
- "items_collectes": 2008,
- "breves_publiees": 1056,
- "articles_publies": 172,
- "tokens_entree": 1030324,
- "tokens_sortie": 1516722,
+ "runs": 282,
+ "items_collectes": 2017,
+ "breves_publiees": 1061,
+ "articles_publies": 173,
+ "tokens_entree": 1035180,
+ "tokens_sortie": 1522542,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-14T14:19:07+00:00",
+ "dernier_run": "2026-10-14T15:21:15+00:00",
  "solde": {
-  "total": "85.21",
+  "total": "85.20",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-13T22:17:19+00:00",
-   "message": "brève impossible (Instead of waiting for an M5 Ultra 512 GB: pairing a new M5 ) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-13T22:17:36+00:00",
    "message": "brève impossible (It’s ‘incomprehensible’ that Instagram allowed an AI image o) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-14T11:13:02+00:00",
    "message": "brève impossible (Anthropic prévient : l’IA pourrait bientôt se nourrir de vos) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-14T15:21:01+00:00",
+   "message": "brève impossible (NVIDIA Nemotron Bolt 3.5 74B A9B releases Oct. 15th) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 6.45,
+ "depense_usd": 6.46,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1148,10 +1148,14 @@
   [
    "2026-10-14T14:18:19+00:00",
    "85.21"
+  ],
+  [
+   "2026-10-14T15:20:15+00:00",
+   "85.20"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 4.16,
+ "depense_mois_usd": 4.17,
  "archive_tentatives": {
   "jour": "2026-10-14",
   "n": 1

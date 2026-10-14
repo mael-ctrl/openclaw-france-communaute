@@ -1603,3 +1603,9 @@
 {"ts": "2026-10-14T14:32:46+00:00", "evenement": "deploiement", "details": {"fichiers": 605, "octets": 9558726}, "sha256": "cd2fb2f37e63a90c5d566dcf2498d0957b4c30da19c05c915c326c3388b79f51"}
 {"ts": "2026-10-14T14:32:47+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "234d03cb9e053edf4e58171d39481cd9120173a1cfb04d7622ea84fedcff5e2c"}
 {"ts": "2026-10-14T14:32:47+00:00", "evenement": "bilan", "details": {"duree_s": 899.3, "neufs": 9, "breves": 6, "articles": 1, "fichiers": 591, "envois": 605, "publications": 0}, "sha256": "763f97d68e1dcfc9848ed7718e5398aecaa7f309b6e62733e45c98bd5368689e"}
+{"ts": "2026-10-14T15:20:14+00:00", "evenement": "collecte", "details": {"neufs": 9}, "sha256": "b51ab0bbb22707df1cf15d5839e5dc0abe3ec6adf9d9246c7a1afea1d219846e"}
+{"ts": "2026-10-14T15:21:01+00:00", "evenement": "erreur", "details": {"message": "brève impossible (NVIDIA Nemotron Bolt 3.5 74B A9B releases Oct. 15th) : réponse non-JSON"}, "sha256": "57563d80241dcf8ba6a5ba2d23bc4a64847aaecd8ee6a3de6c1447eb99053a5b"}
+{"ts": "2026-10-14T15:21:15+00:00", "evenement": "construction", "details": {"fichiers": 592}, "sha256": "540236ca40b07738a735211580cbf6d0c60f91f1454801f459bb623b8a593cde"}
+{"ts": "2026-10-14T15:34:33+00:00", "evenement": "deploiement", "details": {"fichiers": 606, "octets": 9573320}, "sha256": "2e8265eec6542c5ae9d1cf317f6b4edd84d279a129f895da9296c2273432d44b"}
+{"ts": "2026-10-14T15:34:35+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "f1f08949391d82faf5e0f0c79d84d4c5cc1a578d7c2d8a2d6b359601482036b9"}
+{"ts": "2026-10-14T15:34:35+00:00", "evenement": "bilan", "details": {"duree_s": 897.7, "neufs": 9, "breves": 5, "articles": 1, "fichiers": 592, "envois": 606, "publications": 0}, "sha256": "4f7070782f450b310c6d876cc975e2e03b3ab2c68dda098c95357fe3b913c11b"}

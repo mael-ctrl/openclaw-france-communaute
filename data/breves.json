@@ -1,5 +1,49 @@
 [
  {
+  "id": "694e6f40a6eb543f",
+  "slug": "hermes-agent-publie-la-version-candidate-rc-3-v0-22-0-694e6f",
+  "titre": "Hermes Agent publie la version candidate rc.3-v0.22.0",
+  "resume": "Le dépôt NousResearch/hermes-agent a publié sur GitHub la version candidate rc.3-v0.22.0, datée du 14 octobre 2026 à 00:35 UTC. Les métadonnées jointes à la publication mentionnent une troisième tentative (attempt: 3), un champ autopublish désactivé et un identifiant de commit commençant par e0. Le détail des changements apportés n'apparaît pas dans l'extrait disponible.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.3-v0.22.0",
+  "date_source": "2026-10-14T00:35:32+00:00",
+  "date_redac": "2026-10-14T01:23:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 612,
+   "sortie": 857
+  }
+ },
+ {
+  "id": "e007819c46f53f29",
+  "slug": "hermes-agent-une-release-candidate-0-22-0-abandonnee-e00781",
+  "titre": "Hermes Agent : une release candidate 0.22.0 abandonnée",
+  "resume": "Le dépôt Hermes Agent, porté par NousResearch, publie sur GitHub une entrée intitulée « abandoned-rc.2-v0.22.0 ». Les métadonnées jointes mentionnent une version 0.22.0, un schéma 1 et un second essai (« attempt » : 2) référencé rc.2-v0.22.0. Le libellé renvoie donc à une release candidate abandonnée plutôt qu'à une version diffusée.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.2-v0.22.0",
+  "date_source": "2026-10-14T00:35:18+00:00",
+  "date_redac": "2026-10-14T01:23:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 730
+  }
+ },
+ {
   "id": "db5a19bf1798a749",
   "slug": "un-post-r-localllama-presente-comme-la-meilleure-pub-pour-localai-db5a19",
   "titre": "Un post r/LocalLLaMA présenté comme la meilleure pub pour LocalAI",
@@ -37,6 +81,47 @@
    "modele": "deepseek-flash",
    "entree": 705,
    "sortie": 366
+  }
+ },
+ {
+  "id": "b3dc2849002c517c",
+  "slug": "pourquoi-choisir-muse-ou-grokbot-plutot-que-claude-et-ses-connecteurs--b3dc28",
+  "titre": "Pourquoi choisir Muse ou GrokBot plutôt que Claude et ses connecteurs MCP",
+  "resume": "Sur le forum r/ClaudeAI, un utilisateur demande pourquoi il préférerait Muse ou GrokBot à Claude, alors qu'il a déjà configuré ses connecteurs et ses serveurs MCP. Il se demande si le seul avantage de ces outils est l'accès à des ordinateurs virtuels. Il évoque aussi ses hooks qui déclenchent des sessions Claude headless sur Cloud Run ou d'autres infrastructures.",
+  "tags": [
+   "claude",
+   "agents",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x5c28n/can_someone_explain_to_me_why_id_want_to_use_muse/",
+  "date_source": "2026-10-13T23:29:02+00:00",
+  "date_redac": "2026-10-14T01:23:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 665,
+   "sortie": 651
+  }
+ },
+ {
+  "id": "9930a7e685e6e93a",
+  "slug": "un-utilisateur-de-claude-se-demande-si-l-ia-reste-un-usage-de-niche-9930a7",
+  "titre": "Un utilisateur de Claude se demande si l'IA reste un usage de niche",
+  "resume": "Un utilisateur de r/ClaudeAI dit mobiliser Claude quasiment 24/7, au travail comme dans sa vie personnelle. Il demande si les membres du forum forment encore un petit cercle d'early adopters, et s'ils ont interrogé leurs proches sur leur usage de l'IA. Son ressenti : la majorité des gens ne l'utilisent pas, et ceux qui le font s'en tiennent au chat.",
+  "tags": [
+   "claude",
+   "société"
+  ],
+  "importance": 1,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x5c232/are_we_early_adopters/",
+  "date_source": "2026-10-13T23:28:51+00:00",
+  "date_redac": "2026-10-14T01:23:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 709,
+   "sortie": 788
   }
  },
  {
@@ -101,6 +186,26 @@
    "modele": "deepseek-flash",
    "entree": 840,
    "sortie": 1093
+  }
+ },
+ {
+  "id": "29729acb68e79309",
+  "slug": "anthropic-remplacerait-git-en-interne-par-un-outil-nomme-scion-29729a",
+  "titre": "Anthropic remplacerait git en interne par un outil nommé Scion",
+  "resume": "Un post publié sur le subreddit r/ClaudeAI annonce qu'Anthropic remplace git par un outil interne baptisé Scion. L'information concerne le contrôle de source utilisé en interne chez Anthropic et ne s'accompagne d'aucun détail supplémentaire dans l'extrait disponible. Elle touche à l'outillage de développement de l'entreprise, sur un terrain où git reste la référence.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x5b5ek/redesigning_source_control_at_anthropic/",
+  "date_source": "2026-10-13T22:47:36+00:00",
+  "date_redac": "2026-10-14T01:23:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 617,
+   "sortie": 634
   }
  },
  {
@@ -270,6 +375,27 @@
    "modele": "deepseek-flash",
    "entree": 620,
    "sortie": 683
+  }
+ },
+ {
+  "id": "97d24ddd7810d6c7",
+  "slug": "extrudo-un-outil-de-cao-parametrique-dans-le-navigateur-construit-avec-97d24d",
+  "titre": "Extrudo, un outil de CAO paramétrique dans le navigateur construit avec Claude",
+  "resume": "Extrudo est un outil de CAO paramétrique pour l'impression 3D qui tourne dans le navigateur : on esquisse avec contraintes, on extrude, on nomme ses cotes, et un curseur reconstruit la pièce. Sous licence GPL-3.0, il a demandé environ un mois de travail, avec 322 commits depuis le 25 septembre, l'essentiel revenant à Opus 5.5. Gratuit et sans compte, il fonctionne hors ligne, les fichiers restant sur la machine.",
+  "tags": [
+   "claude",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x58kqn/extrudoorg_built_with_claude_and_some_imagination/",
+  "date_source": "2026-10-13T20:59:05+00:00",
+  "date_redac": "2026-10-14T01:23:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 808,
+   "sortie": 1200
   }
  },
  {

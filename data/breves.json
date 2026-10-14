@@ -1,5 +1,135 @@
 [
  {
+  "id": "777fe7ef3dc7fb1e",
+  "slug": "mckinsey-fait-passer-des-entretiens-face-a-un-faux-client-ia-777fe7",
+  "titre": "McKinsey fait passer des entretiens face à un faux client IA",
+  "resume": "Le cabinet de conseil McKinsey & Company va demander à certains candidats juniors de mener une conversation de dix minutes avec une simulation d'IA jouant le rôle d'un client, selon le Wall Street Journal. Cette simulation vise à refléter 80 % des scénarios que les consultants McKinsey rencontrent au quotidien, indique le cabinet. Le recrutement devient ainsi un terrain de test pour les interactions avec des agents.",
+  "tags": [
+   "business",
+   "agents",
+   "skills"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
+  "date_source": "2026-10-14T22:53:31+00:00",
+  "date_redac": "2026-10-14T23:05:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 656,
+   "sortie": 331
+  }
+ },
+ {
+  "id": "d633191ea0d68396",
+  "slug": "qwen-3-8-flash-next-juge-plus-collaboratif-que-glm-5-3-flash-d63319",
+  "titre": "Qwen 3.8 Flash-Next jugé plus collaboratif que GLM 5.3 Flash",
+  "resume": "Sur r/LocalLLaMA, un utilisateur compare Qwen 3.8 Flash-Next, qu'il héberge lui-même en q4_k_xl, à GLM 5.3 Flash via OpenRouter. Il trouve le premier plus collaboratif : il accepte la conversation et se comporte comme un assistant. GLM 5.3 Flash serait plus orienté action, partant chercher dans le dépôt puis reprenant le développement sans discuter. L'auteur demande si d'autres ont fait le même constat et quels prompts rendraient GLM 5.3 Flash plus interactif.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6533a/qwen_38_flashnext_compared_to_glm_53_flash/",
+  "date_source": "2026-10-14T22:29:11+00:00",
+  "date_redac": "2026-10-14T23:05:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 848,
+   "sortie": 684
+  }
+ },
+ {
+  "id": "e81039881fee4c68",
+  "slug": "hermes-agent-publie-la-release-candidate-rc-5-de-la-version-0-22-1-e81039",
+  "titre": "Hermes Agent publie la release candidate rc.5 de la version 0.22.1",
+  "resume": "NousResearch a mis en ligne la release candidate rc.5 de Hermes Agent, estampillée v0.22.1, sur GitHub. Les métadonnées de publication signalent une cinquième tentative, un commit référencé « 29… » et l'autopublication désactivée. Le détail des changements n'apparaît pas dans ces informations.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.5-v0.22.1",
+  "date_source": "2026-10-14T22:14:32+00:00",
+  "date_redac": "2026-10-14T23:05:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 768
+  }
+ },
+ {
+  "id": "e63886616ac55d78",
+  "slug": "hermes-agent-une-release-candidate-0-22-1-abandonnee-e63886",
+  "titre": "Hermes Agent : une release candidate 0.22.1 abandonnée",
+  "resume": "Le dépôt GitHub Hermes Agent, rattaché à NousResearch, affiche une release candidate abandonnée sous la référence rc.4-v0.22.1, liée à la version 0.22.1. L'extrait mentionne une quatrième tentative (attempt 4) et un schéma de version numéro 1. Aucun autre détail n'accompagne cette publication.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.4-v0.22.1",
+  "date_source": "2026-10-14T22:14:30+00:00",
+  "date_redac": "2026-10-14T23:05:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 714
+  }
+ },
+ {
+  "id": "56393e1ed054023f",
+  "slug": "hermes-agent-publie-la-version-candidate-rc-4-v0-22-1-sur-github-56393e",
+  "titre": "Hermes Agent publie la version candidate rc.4-v0.22.1 sur GitHub",
+  "resume": "Le dépôt NousResearch/hermes-agent a mis en ligne le 14 octobre 2026 la version candidate rc.4-v0.22.1. Les métadonnées accompagnant la publication signalent une quatrième tentative, la désactivation de la publication automatique ainsi qu'un identifiant de commit. Le préfixe rc indique qu'il s'agit d'une pré-version, et non d'une version stable.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.4-v0.22.1",
+  "date_source": "2026-10-14T22:12:33+00:00",
+  "date_redac": "2026-10-14T23:05:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 705
+  }
+ },
+ {
+  "id": "29d535ba75f52a95",
+  "slug": "hermes-agent-la-release-candidate-rc-3-de-la-v0-22-1-abandonnee-29d535",
+  "titre": "Hermes Agent : la release candidate rc.3 de la v0.22.1 abandonnée",
+  "resume": "Le dépôt Hermes Agent de NousResearch a publié le 14 octobre 2026 une entrée de release intitulée « abandoned-rc.3-v0.22.1 ». Les métadonnées jointes indiquent une troisième tentative (« attempt » : 3) référencée sous rc.3-v0.22.1, rattachée à la version 0.22.1 et au schéma 1. Le tag GitHub correspondant est explicitement marqué comme abandonné.",
+  "tags": [
+   "hermes",
+   "dev",
+   "open-source",
+   "agents"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.3-v0.22.1",
+  "date_source": "2026-10-14T22:12:31+00:00",
+  "date_redac": "2026-10-14T23:05:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 934
+  }
+ },
+ {
   "id": "55220264de067807",
   "slug": "flock-le-pdg-dit-que-ses-micros-ne-detectent-que-les-tirs-son-site-dif-552202",
   "titre": "Flock : le PDG dit que ses micros ne détectent que les tirs, son site diffère",

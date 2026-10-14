@@ -1,0 +1,41 @@
+{
+ "slug": "un-client-ia-a-l-entretien-mckinsey-gemini-4-argon-en-deploi-777fe7",
+ "titre": "Un client IA à l'entretien McKinsey, Gemini 4 Argon en déploiement mondial",
+ "chapo": "McKinsey fait passer à certains candidats juniors un entretien face à un client simulé par IA, selon le Wall Street Journal. Le même jour, Google généralise Gemini 4 Argon dans le monde entier — et prévient que le prix de son API doublera au 1er décembre. En parallèle, la communauté open source affine ses propres agents.",
+ "html": "<h2 id=\"chez-mckinsey-dix-minutes-avec-un-faux-c\">Chez McKinsey, dix minutes avec un faux client</h2>\n<p>Selon le Wall Street Journal, McKinsey & Company va demander à certains candidats juniors de mener une conversation de dix minutes avec une simulation d'IA jouant le rôle d'un client. Le cabinet indique que cette mise en situation vise à refléter 80 % des scénarios que ses consultants rencontrent au quotidien.</p>\n<p>Ce n'est pas un détail de procédure. L'exercice déplace l'évaluation : il ne s'agit plus seulement de structurer une réponse, mais de conduire un échange avec un agent — poser les bonnes questions, tenir dix minutes, ne pas se laisser entraîner hors sujet. Le recrutement devient ainsi un <strong>terrain de test pour les interactions avec des agents</strong>, à une échelle où l'entretien classique ne suffisait visiblement plus.</p>\n<p>Le WSJ ne précise pas comment la conversation est notée. C'est pourtant là que se logera la vraie difficulté : juger une interaction, pas une réponse.</p>\n<h2 id=\"gemini-4-argon-deploiement-mondial-factu\">Gemini 4 Argon : déploiement mondial, facture doublée</h2>\n<p>Google déploie Gemini 4 Argon à grande échelle. Dévoilé au début du mois, le modèle est accessible depuis le <strong>13 octobre 2026</strong> dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme. Google veut en faire un outil de travail pour les tâches complexes et le moteur de ses agents IA.</p>\n<p>La nuance est de taille : le prix de l'API doit <strong>doubler au 1er décembre</strong>. Le déploiement s'accompagne donc d'un signal économique clair, adressé à ceux qui construisent sur le modèle. Pour les équipes déjà intégrées, la question du coût par appel arrive avant celle des performances brutes.</p>\n<p>Le calendrier est serré : le modèle est disponible partout, la hausse tombe dans quelques semaines. Ceux qui ont calibré leur produit sur l'ancien tarif n'ont pas beaucoup de marge.</p>\n<h2 id=\"cote-open-source-l-efficacite-plutot-que\">Côté open source, l'efficacité plutôt que le volume</h2>\n<p>Sur r/LocalLLaMA, deux versions post-entraînées de Qwen 3.8 27B circulent : <strong>Sabi-Noema</strong> et <strong>Sabi-Noema-MLA</strong>. Elles visent la frontière des modèles de moins de 30B avec une verbosité divisée par deux, et sont entraînées uniquement sur des environnements open source. Les gains annoncés portent sur le codage, les tâches agentiques et les appels d'outils, avec des hallucinations en baisse. Sabi-Noema dépasserait GPT 6 Luna-medium sur DeepSWE et Luna-high sur des benchmarks agentiques.</p>\n<p>Dans le même subreddit, un utilisateur compare Qwen 3.8 Flash-Next, qu'il héberge lui-même en q4_k_xl, à GLM 5.3 Flash via OpenRouter. Verdict : le premier est plus collaboratif, il accepte la conversation et se comporte comme un assistant. Le second est plus orienté action — il va chercher dans le dépôt puis reprend le développement sans discuter. L'auteur demande si d'autres ont fait le même constat, et quels prompts rendraient GLM 5.3 Flash plus interactif.</p>\n<p>Deux styles, deux usages. Un agent qui discute et un agent qui exécute ne se pilotent pas de la même façon, et l'écart se joue autant sur les prompts que sur les tableaux de scores.</p>\n<h2 id=\"xbox-labs-dans-le-sillage-des-mods-gener\">Xbox Labs, dans le sillage des mods générés par IA</h2>\n<p>Asha Sharma, CEO d'Xbox, a annoncé le <strong>13 octobre 2026</strong> la création de <strong>Xbox Labs</strong>, une petite équipe chargée d'explorer de nouvelles façons de porter, remixer et créer des jeux. L'annonce intervient après plusieurs semaines de mods réalisés avec l'IA, qui ont par exemple permis de faire tourner Call of Duty dans un navigateur web.</p>\n<p>Une petite équipe, un mandat d'exploration : la structure annoncée est légère, très loin d'un nouveau studio. Mais le contexte dit quelque chose du moment — les modifications de jeux assistées par IA se sont multipliées assez vite pour qu'un constructeur choisisse d'y consacrer une cellule dédiée.</p>\n<h2>Et maintenant ?</h2>\n<p>Ce qui relie ces dépêches, ce n'est pas une annonce commune, mais une même bascule : l'IA cesse d'être un objet de démonstration pour devenir un interlocuteur et un outil de production. On la retrouve dans un entretien d'embauche, dans un moteur d'agents vendu à l'API, dans un fine-tune hébergé sur une machine personnelle, dans un mod de jeu. Les questions ouvertes sont moins techniques qu'organisationnelles : quel prix par appel, quel style d'agent, et qui garde la main sur la conversation.</p>",
+ "pivot": "777fe7ef3dc7fb1e",
+ "tags": [
+  "agents",
+  "business",
+  "open-source",
+  "gemini"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x62zrz/sabinoema_a_capability_and_efficiency_focused/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/microsoft/3283955_asha-sharma-lance-xbox-labs-une-reponse-a-lexplosion-des-jeux-modes-par-ia"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6533a/qwen_38_flashnext_compared_to_glm_53_flash/"
+  }
+ ],
+ "date": "2026-10-14T23:06:06+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1657,
+  "sortie": 3912
+ }
+}

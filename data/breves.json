@@ -1,5 +1,26 @@
 [
  {
+  "id": "28b874a64fd7c1b9",
+  "slug": "mesa-etend-ses-capacites-npu-au-support-de-yolox-avec-pytorch-28b874",
+  "titre": "Mesa étend ses capacités NPU au support de YOLOX avec PyTorch",
+  "resume": "Une publication relayée sur le forum LocalLLaMA annonce que Mesa étend ses capacités NPU en ajoutant le support de YOLOX avec PyTorch. YOLOX rejoint donc les modèles que Mesa peut faire tourner sur les unités de traitement neuronal. L'annonce reste succincte : l'extrait ne fournit ni détail technique ni calendrier.",
+  "tags": [
+   "dev",
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5e5gp/mesa_expands_npu_capabilities_with_support_for/",
+  "date_source": "2026-10-14T01:07:58+00:00",
+  "date_redac": "2026-10-14T02:25:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 619,
+   "sortie": 1021
+  }
+ },
+ {
   "id": "694e6f40a6eb543f",
   "slug": "hermes-agent-publie-la-version-candidate-rc-3-v0-22-0-694e6f",
   "titre": "Hermes Agent publie la version candidate rc.3-v0.22.0",
@@ -61,6 +82,27 @@
    "modele": "deepseek-flash",
    "entree": 609,
    "sortie": 1029
+  }
+ },
+ {
+  "id": "19c848f7014a3727",
+  "slug": "strata-des-retours-contrastes-sur-ses-vrais-inconvenients-19c848",
+  "titre": "Strata : des retours contrastés sur ses vrais inconvénients",
+  "resume": "Un utilisateur de r/LocalLLaMA cherche les vrais inconvénients de Strata, un modèle qui tourne à 100 t/s en charge agentique là où un 27B plafonne à 40-60 t/s sur llama.cpp. Il rapporte des boucles étranges dans le chat et des ports déjà occupés réutilisés par le modèle, deux soucis absents avec Qwen 27B 3.8 Q4 UD. Il teste la quantification Swift Q3 Next.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5cdht/real_downsides_of_strata/",
+  "date_source": "2026-10-13T23:43:29+00:00",
+  "date_redac": "2026-10-14T02:25:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 806,
+   "sortie": 911
   }
  },
  {

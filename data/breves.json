@@ -1,5 +1,27 @@
 [
  {
+  "id": "c3153951290c8d5f",
+  "slug": "hermes-agent-publie-la-release-candidate-rc-1-de-sa-version-0-22-1-c31539",
+  "titre": "Hermes Agent publie la release candidate rc.1 de sa version 0.22.1",
+  "resume": "Le dépôt Hermes Agent de NousResearch publie une release candidate, référencée rc.1-v0.22.1. Les métadonnées de la publication mentionnent une première tentative et une autopublication désactivée. Une release candidate constitue un jalon de test avant une éventuelle version stable.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.1-v0.22.1",
+  "date_source": "2026-10-14T04:22:20+00:00",
+  "date_redac": "2026-10-14T04:28:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 612,
+   "sortie": 679
+  }
+ },
+ {
   "id": "3ad15c8b90178a2b",
   "slug": "hermes-agent-v0-22-0-installation-guidee-connecteurs-et-modeles-locaux-3ad15c",
   "titre": "Hermes Agent v0.22.0 : installation guidée, connecteurs et modèles locaux",
@@ -250,6 +272,27 @@
    "modele": "deepseek-flash",
    "entree": 709,
    "sortie": 788
+  }
+ },
+ {
+  "id": "26d0a40ec64ddfe4",
+  "slug": "transformer-n-importe-quel-logiciel-en-serveur-mcp-une-methode-en-quat-26d0a4",
+  "titre": "Transformer n'importe quel logiciel en serveur MCP : une méthode en quatre étapes",
+  "resume": "Un internaute de r/LocalLLaMA décrit une méthode en quatre temps pour exposer n'importe quel logiciel via le Model Context Protocol. Il propose d'abord de rétro-ingénierer le code, puis de demander à un LLM de repérer les fonctionnalités à exposer et d'imaginer des usages pertinents, avant de laisser le modèle écrire le code du serveur MCP. Objectif affiché : garder le contrôle total.",
+  "tags": [
+   "dev",
+   "agents",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5bwqx/everything_can_be_an_mcp/",
+  "date_source": "2026-10-13T23:21:58+00:00",
+  "date_redac": "2026-10-14T04:28:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 822
   }
  },
  {

@@ -1,5 +1,25 @@
 [
  {
+  "id": "55220264de067807",
+  "slug": "flock-le-pdg-dit-que-ses-micros-ne-detectent-que-les-tirs-son-site-dif-552202",
+  "titre": "Flock : le PDG dit que ses micros ne détectent que les tirs, son site diffère",
+  "resume": "Interrogé sur les microphones de Flock, le PDG Langley assure qu'ils ne détectent « que les tirs ». Le site de l'entreprise dit autre chose. Ces propos interviennent alors que Flock subit des critiques croissantes de défenseurs de la vie privée, dont l'ACLU, et de membres du public inquiets d'un usage détourné de sa technologie.",
+  "tags": [
+   "sécurité",
+   "société"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+  "date_source": "2026-10-14T21:30:33+00:00",
+  "date_redac": "2026-10-14T21:59:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 644,
+   "sortie": 1050
+  }
+ },
+ {
   "id": "9980660ca07e79cf",
   "slug": "huit-etats-americains-poursuivent-openai-sur-la-securite-de-chatgpt-998066",
   "titre": "Huit États américains poursuivent OpenAI sur la sécurité de ChatGPT",
@@ -105,6 +125,110 @@
    "modele": "deepseek-flash",
    "entree": 623,
    "sortie": 771
+  }
+ },
+ {
+  "id": "a8347d76ccc816ed",
+  "slug": "un-chercheur-independant-decouvre-une-nouvelle-planete-grace-a-l-ia-a8347d",
+  "titre": "Un chercheur indépendant découvre une nouvelle planète grâce à l'IA",
+  "resume": "Pavel Rabtsevich, chercheur indépendant, a découvert une nouvelle planète en travaillant depuis son bureau avec l'aide de l'IA. Sa méthode semble avoir fait ses preuves, au point d'intriguer la NASA. Elle pourrait ouvrir la voie à des dizaines d'autres chercheurs indépendants.",
+  "tags": [
+   "recherche",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/14/nouvelle-planete-decouverte-chercheur-bureau-ia/",
+  "date_source": "2026-10-14T14:01:26+00:00",
+  "date_redac": "2026-10-14T21:59:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 654,
+   "sortie": 388
+  }
+ },
+ {
+  "id": "1fea58699b510812",
+  "slug": "gemini-4-argon-deploye-mondialement-le-prix-de-l-api-doublera-le-1er-d-1fea58",
+  "titre": "Gemini 4 Argon déployé mondialement, le prix de l'API doublera le 1er décembre",
+  "resume": "Google déploie Gemini 4 Argon à grande échelle. Dévoilé au début du mois, le modèle est accessible depuis le 13 octobre 2026 dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme. Google veut en faire un outil de travail pour les tâches complexes et le moteur de ses agents IA. Le prix de l'API doit toutefois doubler au 1er décembre.",
+  "tags": [
+   "gemini",
+   "agents",
+   "business",
+   "dev"
+  ],
+  "importance": 4,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html",
+  "date_source": "2026-10-14T13:53:36+00:00",
+  "date_redac": "2026-10-14T21:59:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 732,
+   "sortie": 601
+  }
+ },
+ {
+  "id": "bf35e3935e01839d",
+  "slug": "tesla-fait-evoluer-la-model-3-en-europe-une-fonction-reste-reservee-au-bf35e3",
+  "titre": "Tesla fait évoluer la Model 3 en Europe, une fonction reste réservée aux Américains",
+  "resume": "Tesla fait évoluer sa Model 3 en Europe, dix ans après sa présentation. L'écran central passe à 16 pouces et le ciel de toit devient noir. La version Performance atteint 600 km d'autonomie WLTP, tandis que la Premium à transmission intégrale gagne 0,4 seconde sur le 0 à 100 km/h. Une fonction reste toutefois réservée aux Américains.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/14/tesla-ameliore-la-model-3-mais-garde-sa-meilleure-fonction-pour-les-americains/",
+  "date_source": "2026-10-14T13:44:53+00:00",
+  "date_redac": "2026-10-14T21:59:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 701,
+   "sortie": 879
+  }
+ },
+ {
+  "id": "8a67c892aa979e31",
+  "slug": "neura-robotics-devoile-neuron-ai-un-modele-multimodal-pour-robots-8a67c8",
+  "titre": "Neura Robotics dévoile Neuron AI, un modèle multimodal pour robots",
+  "resume": "Neura Robotics a dévoilé le 14 octobre Neuron AI, un modèle de fondation multimodal fondé sur une architecture « Perception-Language-Action ». Il réunit les sens du robot — vue, toucher, ouïe, parole, état — et sa mémoire dans une seule architecture, quand les modèles classiques traitent les capteurs séparément. La start-up allemande, connue pour son humanoïde 4NE1, relie ces perceptions aux actions passées.",
+  "tags": [
+   "robots",
+   "recherche",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/robotique/neura-robotics-passe-un-cap-avec-son-modele-multimodal-neuron-ai-qui-regroupe-tous-les-modes-de-perception-dans-une-seule-architecture.SX6E4PGX2ZADJPTX5Z7OOQMSOA.html",
+  "date_source": "2026-10-14T13:15:00+00:00",
+  "date_redac": "2026-10-14T22:00:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 815,
+   "sortie": 1422
+  }
+ },
+ {
+  "id": "d33346e28c751d65",
+  "slug": "breeze-tts-2-meilleur-tts-local-mais-sous-licence-non-commerciale-d33346",
+  "titre": "Breeze-TTS-2, meilleur TTS local mais sous licence non commerciale",
+  "resume": "Sur r/LocalLLaMA, un utilisateur estime que Breeze-TTS-2 est le meilleur modèle de synthèse vocale utilisable en local, mais il pointe sa licence non commerciale. Pour un usage libre, moss tts 1.5 reste selon lui la meilleure option. Testé face à omnivoice, Breeze-TTS-2 ne garde qu'une avance limitée : omnivoice atteindrait 80 % de sa qualité, avec deux fois plus de vitesse et moins de mémoire.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5qr7b/breezebluetts2_is_currently_the_best_tts_model/",
+  "date_source": "2026-10-14T13:07:19+00:00",
+  "date_redac": "2026-10-14T22:00:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 752,
+   "sortie": 905
   }
  },
  {

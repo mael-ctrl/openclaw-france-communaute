@@ -1,5 +1,48 @@
 [
  {
+  "id": "4fa16f72ab5a59ad",
+  "slug": "une-alternative-open-source-au-computer-use-de-codex-recherchee-4fa16f",
+  "titre": "Une alternative open source au computer use de Codex recherchée",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande s'il existe une alternative open source aux capacités de computer use de Codex. Il cherche un outil capable de s'appuyer sur l'arbre d'accessibilité, sur l'analyse de captures d'écran d'interface, et sur le clic de souris en solution de repli. Il indique avoir essayé trycua CUA associé à Qwen 3.6 27B, sans obtenir de bons résultats.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5oy54/best_open_sourced_computer_use_alternative/",
+  "date_source": "2026-10-14T11:40:03+00:00",
+  "date_redac": "2026-10-14T12:06:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 677,
+   "sortie": 636
+  }
+ },
+ {
+  "id": "b65098ac2efcff02",
+  "slug": "private-mind-ajoute-la-recherche-web-aux-modeles-locaux-sur-mobile-b65098",
+  "titre": "Private Mind ajoute la recherche web aux modèles locaux sur mobile",
+  "resume": "Private Mind, l'application open source qui fait tourner des LLM en local sur iOS et Android, ajoute une recherche web sans API ni backend : un WebView caché interroge DuckDuckGo et parse la page de résultats. Un modèle d'embedding embarqué (LFM2.5, 415 Mo) et du matching de mots-clés sélectionnent six extraits de 500 caractères, puis le modèle répond en citant ses sources. La démonstration montre Qwen 3 1.7B inventer l'événement Apple de septembre web désactivée, et le retrouver correctement web activée.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5oqiy/web_search_for_a_17b_model_running_fully_on_a/",
+  "date_source": "2026-10-14T11:28:43+00:00",
+  "date_redac": "2026-10-14T12:06:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 834,
+   "sortie": 579
+  }
+ },
+ {
   "id": "c537c9b8436c30df",
   "slug": "llama-cpp-une-option-spec-draft-n-ubatch-pour-optimiser-la-vram-c537c9",
   "titre": "llama.cpp : une option --spec-draft-n-ubatch pour optimiser la VRAM",

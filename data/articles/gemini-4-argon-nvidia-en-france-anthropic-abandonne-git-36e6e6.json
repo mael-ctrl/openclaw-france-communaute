@@ -1,0 +1,41 @@
+{
+ "slug": "gemini-4-argon-nvidia-en-france-anthropic-abandonne-git-36e6e6",
+ "titre": "Gemini 4 Argon, Nvidia en France, Anthropic abandonne Git",
+ "chapo": "Google lance enfin Gemini 4 Argon, son modèle de frontière, déjà en disponibilité générale. En parallèle, Nvidia annonce des investissements dans quatre start-up françaises, Anthropic remplace Git, et une rumeur annonce la faillite de Character.AI.",
+ "html": "<h2 id=\"gemini-4-argon-sort-du-silence\">Gemini 4 Argon sort du silence</h2>\n<p>Après des mois en retrait de la course à l'IA de frontière, Google lance Gemini 4 Argon, un modèle longtemps attendu. Le groupe affirme qu'il peut rivaliser avec ce que l'industrie fait de mieux. Le discours officiel promet « un raisonnement de frontière » et de meilleures performances sur les flux de travail complexes.</p>\n<p>La nouveauté tient aussi à ce qu'Argon fait moins : moins de précautions excessives, moins de répétitions, moins de clichés. Trois travers qui reviennent régulièrement dans les critiques adressées aux modèles conversationnels. Reste que ce sont des affirmations de l'éditeur, pas des mesures.</p>\n<p>Latent Space apporte le contrepoint utile : Gemini 4 Argon est désormais en <strong>disponibilité générale</strong>, et les benchmarks, à l'image de <strong>CursorBench</strong>, « confirment indépendamment les performances annoncées ». Le média précise avoir déjà consacré son sujet principal à ce modèle il y a deux semaines — Argon avait donc circulé avant l'annonce.</p>\n<h2 id=\"nvidia-et-ses-10-milliards-europeens\">Nvidia et ses 10 milliards européens</h2>\n<p>Nvidia a annoncé mardi 13 octobre au soir, en marge d'un événement « Build-a-Claw » organisé à Paris, des investissements dans quatre start-up françaises : <strong>Doctolib, Entalpic, Genesis AI et Pigment</strong>. Les montants engagés dans chaque société n'ont pas été divulgués.</p>\n<p>Ces opérations portent les investissements de Nvidia en Europe à <strong>10 milliards de dollars</strong>. Le chiffre englobe l'ensemble des engagements européens du fabricant, pas seulement les quatre tickets français annoncés ce soir-là.</p>\n<p>Le timing n'est pas anodin : l'annonce tombe une semaine avant la conférence <strong>GTC Berlin</strong>, le rendez-vous que Nvidia organise en Allemagne.</p>\n<h2 id=\"anthropic-abandonne-git-pour-scion\">Anthropic abandonne Git pour Scion</h2>\n<p>Anthropic a construit sa propre alternative à Git, rapporte Simon Willison. Le système de contrôle de source s'appelle <strong>Scion</strong>, et la revue de code passe par un outil nommé <strong>Antique</strong>.</p>\n<p>La raison tient au volume. Le rythme de modification du code a explosé chez l'éditeur de Claude : environ <strong>2 500 changements fusionnés par jour en mai 2026</strong>, <strong>plus de 30 000 en septembre</strong>. Git, conçu pour un monde où quelques dizaines de contributions humaines se croisent chaque jour, n'a pas été pensé pour ce régime.</p>\n<p>Willison voit dans les modèles de classe <strong>Fable/Mythos</strong> un facteur clé de cette accélération : c'est l'outil lui-même qui rend la cadence intenable pour l'outillage d'hier.</p>\n<h2 id=\"character-ai-une-rumeur-pas-un-fait\">Character.AI : une rumeur, pas un fait</h2>\n<p>Sur le subreddit <strong>r/LocalLLaMA</strong>, une publication affirme que Character.AI aurait déposé le bilan et s'apprêterait à céder une partie de ses actifs à <strong>Disney pour 20 millions de dollars</strong>. L'auteur du fil y voit un possible signe avant-coureur de l'éclatement de la bulle IA.</p>\n<p>À ce stade, il s'agit d'une rumeur : l'information provient d'un fil de discussion, pas d'un communiqué de l'entreprise ni d'une décision de justice documentée. Ni le dépôt de bilan, ni la cession, ni le montant ne sont confirmés par une source officielle.</p>\n<p>La dépêche mérite d'être lue comme telle — un signal à surveiller, pas un fait acquis. La prudence s'impose d'autant plus que le reste de l'actualité du jour raconte l'inverse : des modèles de frontière et des milliards qui circulent.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, quatre échelles : un modèle de frontière qui arrive avec ses promesses et ses benchmarks, un fabricant de puces qui consolide ses positions européennes, un laboratoire qui réécrit ses outils internes parce que son propre code va trop vite, et une rumeur de faillite qui circule sans confirmation. Trois sont documentées, une ne l'est pas. Ce qui relie les premières : la course à l'IA de frontière pousse les infrastructures — industrielles, financières, logicielles — au-delà de ce pour quoi elles avaient été conçues. Jusqu'où, personne ne le sait encore.</p>",
+ "pivot": "36e6e6801ad079ab",
+ "tags": [
+  "gemini",
+  "business",
+  "france",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/electronique/nvidia/nvidia-investit-dans-les-pepites-francaises-doctolib-entalpic-genesis-ai-et-pigment-portant-ses-investissements-en-europe-a-10-milliards-de-dollars.35EROQMSSBBXXKMXF6YBGMMSM4.html"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x57zpx/characterai_files_for_bankruptcy_to_sell_some/"
+  }
+ ],
+ "date": "2026-10-14T11:41:31+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1511,
+  "sortie": 4635
+ }
+}

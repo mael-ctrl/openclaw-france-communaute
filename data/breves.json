@@ -1,5 +1,46 @@
 [
  {
+  "id": "c537c9b8436c30df",
+  "slug": "llama-cpp-une-option-spec-draft-n-ubatch-pour-optimiser-la-vram-c537c9",
+  "titre": "llama.cpp : une option --spec-draft-n-ubatch pour optimiser la VRAM",
+  "resume": "Un post de r/LocalLLaMA signale la pull request #30459 du dépôt ggml-org/llama.cpp, signée ggerganov et intitulée « common : add --spec-draft-n-ubatch ». Elle ajoute une nouvelle option présentée comme un moyen d'optimiser l'usage de la VRAM. Le sujet concerne directement ceux qui font tourner des modèles en local.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5odh2/common_add_specdraftnubatch_by_ggerganov_pull/",
+  "date_source": "2026-10-14T11:08:21+00:00",
+  "date_redac": "2026-10-14T11:40:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 645,
+   "sortie": 499
+  }
+ },
+ {
+  "id": "cc948f775b0c371e",
+  "slug": "scimplify-leve-25-m-pour-defier-la-mainmise-chinoise-sur-les-materiaux-cc948f",
+  "titre": "Scimplify lève 25 M$ pour défier la mainmise chinoise sur les matériaux critiques",
+  "resume": "Scimplify lève 25 millions de dollars pour s'attaquer, avec l'IA, à la mainmise chinoise sur les matériaux critiques. Son chiffre d'affaires annualisé a triplé, à 200 millions de dollars. La start-up vise désormais une expansion aux États-Unis.",
+  "tags": [
+   "business",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+  "date_source": "2026-10-14T11:00:00+00:00",
+  "date_redac": "2026-10-14T11:41:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 629,
+   "sortie": 758
+  }
+ },
+ {
   "id": "c8a9080557bf04e5",
   "slug": "un-cadre-d-anthropic-estime-que-les-modeles-open-source-presentent-plu-c8a908",
   "titre": "Un cadre d'Anthropic estime que les modèles open-source présentent plus de risques",

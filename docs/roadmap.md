@@ -17,6 +17,8 @@
 | P6 | Presse & distribution | vague-3 soumise + retombées mesurées | 🔶 vagues 1-2 faites · vague-3 en préparation |
 | P7 | Record Guinness | dossier qualifié + preuves chaînées (routine active) | 🔶 en continu |
 | P8 | Skool « La Communauté IA 🦀 » | communauté publique + 22/22 leçons + 1er membre externe | 🔶 18/22 leçons · promo à brancher |
+| P9 | Organisation & process | organigramme + SOPs + orchestration multi-agents appliqués | 🔶 rédaction en cours (sous-agent 14/10) |
+| P10 | Affiliation | programme Skool + pack opérationnels (divulgation partout) | ⏳ plan en cours (sous-agent + enquête MEDVI) |
 
 ## Actions Maël (bloquants identifiés — 1 clic chacun)
 1. **Search Console + Bing Webmaster Tools** (compte Google) — le record DNS/balise sera préparé pour validation.

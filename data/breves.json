@@ -1,5 +1,129 @@
 [
  {
+  "id": "ef53a3c5234e7bc1",
+  "slug": "faillite-de-character-ai-40-procureurs-generaux-veillent-sur-les-donne-ef53a3",
+  "titre": "Faillite de Character.AI : 40 procureurs généraux veillent sur les données",
+  "resume": "La procureure générale de New York, Letitia James, révèle une enquête de plusieurs années menée par plusieurs États contre Character.AI. L'entreprise étant en faillite, elle fait partie des 40 procureurs généraux bipartisans à avoir déposé une notification d'intérêt dans la procédure. Objectif affiché : exiger des protections sur les données des consommateurs vendues dans le cadre de cette faillite, et mettre toutes les parties au courant des enjeux réglementaires.",
+  "tags": [
+   "business",
+   "société",
+   "sécurité"
+  ],
+  "importance": 4,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+  "date_source": "2026-10-14T18:47:54+00:00",
+  "date_redac": "2026-10-14T18:57:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 691,
+   "sortie": 756
+  }
+ },
+ {
+  "id": "559d7801c8c2bbc4",
+  "slug": "claude-code-v2-1-300-prompt-texte-rtl-et-traces-opentelemetry-enrichis-559d78",
+  "titre": "Claude Code v2.1.300 : prompt, texte RTL et tracés OpenTelemetry enrichis",
+  "resume": "Claude Code publie la v2.1.300. Les mods gagnent des décorations de prompt : un virtualText s'affiche dans la zone de saisie sans jamais entrer dans le brouillon ni dans le prompt envoyé, et la propriété dir gère le texte de droite à gauche sous Windows et dans le terminal VS Code. Côté observabilité, les événements api_request d'OpenTelemetry séparent les écritures de cache sur 5 minutes et sur 1 heure.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+  "date_source": "2026-10-14T18:24:25+00:00",
+  "date_redac": "2026-10-14T18:57:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 791,
+   "sortie": 1202
+  }
+ },
+ {
+  "id": "7fffa2c124702b4d",
+  "slug": "youtube-music-etiquette-les-morceaux-generes-par-ia-7fffa2",
+  "titre": "YouTube Music étiquette les morceaux générés par IA",
+  "resume": "YouTube Music ajoute de nouveaux étiquetages sur ses pages de lecture pour signaler les morceaux générés par IA. Ces labels distinguent les titres entièrement produits par une IA de ceux où elle n'intervient que partiellement, par exemple sur la composition ou les voix. La mesure arrive alors que la musique générée par IA afflue sur les plateformes de streaming.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+  "date_source": "2026-10-14T18:23:46+00:00",
+  "date_redac": "2026-10-14T18:57:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 624,
+   "sortie": 387
+  }
+ },
+ {
+  "id": "681dee8175a91068",
+  "slug": "youtube-etiquette-made-with-ai-les-morceaux-generes-par-ia-681dee",
+  "titre": "YouTube étiquette « Made with AI » les morceaux générés par IA",
+  "resume": "YouTube ajoute une étiquette « Made with AI » aux morceaux « modifiés ou entièrement générés » par IA. La plateforme reprend l'approche déjà employée pour appliquer des labels IA aux vidéos. Le dispositif ne devrait pas couvrir tout recours aux outils d'IA dans la création musicale, indique YouTube.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
+  "date_source": "2026-10-14T18:22:56+00:00",
+  "date_redac": "2026-10-14T18:57:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 651,
+   "sortie": 560
+  }
+ },
+ {
+  "id": "748749e61986aa77",
+  "slug": "apate-envoie-ses-agents-ia-sous-couverture-pour-se-faire-arnaquer-748749",
+  "titre": "Apate envoie ses agents IA sous couverture pour se faire arnaquer",
+  "resume": "Apate.ai envoie des agents IA sous couverture avec une mission inhabituelle : se faire arnaquer, afin de récolter du renseignement sur la fraude. La démarche tranche avec l'usage le plus répandu des agents, que la plupart des entreprises déploient pour livrer des produits plus vite ou accélérer leurs workflows.",
+  "tags": [
+   "agents",
+   "sécurité",
+   "business"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+  "date_source": "2026-10-14T18:00:00+00:00",
+  "date_redac": "2026-10-14T18:57:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 632,
+   "sortie": 435
+  }
+ },
+ {
+  "id": "a2aa383276824107",
+  "slug": "mr-chatterbox-2-7b-un-modele-entraine-de-zero-sur-des-textes-victorien-a2aa38",
+  "titre": "Mr. Chatterbox 2.7B : un modèle entraîné de zéro sur des textes victoriens",
+  "resume": "Un nouveau checkpoint de Mr. Chatterbox, modèle de 2,7 milliards de paramètres entraîné de zéro, est pré-entraîné puis affiné sur des textes victoriens pour une fidélité historique maximale. Son auteur, /u/centerstate, remercie la communauté r/LocalLLaMA pour l'aide apportée à ses questions sur le projet. Une documentation narrative et le code du modèle sont publiés en ligne.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x5y904/mrchatterbox27bchat_a_model_trained_from_scratch/",
+  "date_source": "2026-10-14T17:58:58+00:00",
+  "date_redac": "2026-10-14T18:57:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 729,
+   "sortie": 558
+  }
+ },
+ {
   "id": "9e5afd1008160eae",
   "slug": "hermes-agent-publie-la-release-candidate-2-de-sa-version-0-22-1-9e5afd",
   "titre": "Hermes Agent publie la release candidate 2 de sa version 0.22.1",

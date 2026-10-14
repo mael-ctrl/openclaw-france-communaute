@@ -1,22 +1,18 @@
 {
- "runs": 145,
- "items_collectes": 1324,
- "breves_publiees": 518,
+ "runs": 146,
+ "items_collectes": 1364,
+ "breves_publiees": 524,
  "articles_publies": 67,
- "tokens_entree": 485499,
- "tokens_sortie": 674871,
+ "tokens_entree": 489433,
+ "tokens_sortie": 678381,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-13T07:11:57+00:00",
+ "dernier_run": "2026-10-14T07:11:41+00:00",
  "solde": {
-  "total": "85.69",
+  "total": "85.27",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-12T03:43:26+00:00",
-   "message": "déploiement : [Errno 54] Connection reset by peer"
-  },
   {
    "ts": "2026-10-12T03:54:57+00:00",
    "message": "archivage wayback : <urlopen error [Errno 54] Connection reset by peer>"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-13T07:14:29+00:00",
    "message": "archivage wayback : The read operation timed out"
+  },
+  {
+   "ts": "2026-10-14T07:11:41+00:00",
+   "message": "article impossible : Expecting ',' delimiter: line 1 column 2109 (char 2108)"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.97,
+ "depense_usd": 6.39,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -600,13 +600,17 @@
   [
    "2026-10-13T07:10:57+00:00",
    "85.69"
+  ],
+  [
+   "2026-10-14T07:10:38+00:00",
+   "85.27"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 3.68,
+ "depense_mois_usd": 4.1,
  "archive_tentatives": {
-  "jour": "2026-10-13",
+  "jour": "2026-10-14",
   "n": 1
  },
- "derniere_archive": "2026-10-09"
+ "derniere_archive": "2026-10-14"
 }

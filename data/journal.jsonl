@@ -850,3 +850,12 @@
 {"ts": "2026-10-13T07:14:39+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "e22e66c422e9412d62f2dbfb7052630fd2f22077110c6a4a57c73785f37db87e"}
 {"ts": "2026-10-13T07:14:39+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-13.json", "publications": 599}, "sha256": "b3acf9f6dfd9d8b71b455c29ce18d45b5de301255c8ca1a6f0f6ff1ca7597526"}
 {"ts": "2026-10-13T07:14:39+00:00", "evenement": "bilan", "details": {"duree_s": 248.3, "neufs": 40, "breves": 5, "articles": 1, "fichiers": 485, "envois": 486, "publications": 4}, "sha256": "14f8f38f90a168dead73d92037371436b2e48c029b56154fc248fa948730f739"}
+{"ts": "2026-10-14T07:10:38+00:00", "evenement": "collecte", "details": {"neufs": 40}, "sha256": "f3ad99e06c20150260e0ab978e8f397ed713f2aa820e848c75edd93834815f0c"}
+{"ts": "2026-10-14T07:11:41+00:00", "evenement": "erreur", "details": {"message": "article impossible : Expecting ',' delimiter: line 1 column 2109 (char 2108)"}, "sha256": "7ca7b61e360196fe31bf27231e818b9fc532a6e2394d07b2f126c5e61dda8f11"}
+{"ts": "2026-10-14T07:11:41+00:00", "evenement": "construction", "details": {"fichiers": 485}, "sha256": "e878ee313e077c3c1844b73321bf78002d565dc8ea6d9525b230e08aebf9363c"}
+{"ts": "2026-10-14T07:13:27+00:00", "evenement": "deploiement", "details": {"fichiers": 486, "octets": 5763522}, "sha256": "2dac7cbe1d657bbe38563c92b0378208d817a9b291ed27fb29fb8a78a38dc610"}
+{"ts": "2026-10-14T07:13:27+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "e1e37667a74c6d56e7d5e72682b89f3aa07aa88aa5f0b982d84cea001dc6630d"}
+{"ts": "2026-10-14T07:13:47+00:00", "evenement": "archivage", "details": {"wayback": 200}, "sha256": "518700d000b538dd6018ce31613784726e01dd5bcb2aafc68c742a2ca32b15dd"}
+{"ts": "2026-10-14T07:13:57+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "b023d817fe282a92a1a6654cc2b9c25e6b7e36f4740b5533fb47d86c4459e169"}
+{"ts": "2026-10-14T07:13:57+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-14.json", "publications": 605}, "sha256": "10336a204ef26cdf2798cbe96cd8d4c117055ee7c17f91be8e54af123ad36e7c"}
+{"ts": "2026-10-14T07:13:57+00:00", "evenement": "bilan", "details": {"duree_s": 211.5, "neufs": 40, "breves": 6, "articles": 0, "fichiers": 485, "envois": 486, "publications": 4}, "sha256": "41e35de8331e00b2f093828df96ebccd92492a3b9bb0a0beaa8baa2aab0e2443"}

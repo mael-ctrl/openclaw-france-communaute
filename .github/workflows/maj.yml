@@ -43,7 +43,19 @@ jobs:
           git add data
           if ! git diff --quiet --cached; then
             git commit -m "MAJ automatique — $(date -u '+%Y-%m-%d %H:%M UTC')"
-            git push
+            pousse_ok=0
+            for essai in 1 2 3; do
+              if git pull --no-rebase -X ours --quiet && git push; then
+                pousse_ok=1
+                break
+              fi
+              echo "Push refusé (essai $essai, souvent un commit concurrent) — nouvelle tentative dans 10 s…"
+              sleep 10
+            done
+            if [ "$pousse_ok" != "1" ]; then
+              echo "Échec de la sauvegarde d'état après 3 essais."
+              exit 1
+            fi
           else
             echo "Aucun changement d'état à committer."
           fi

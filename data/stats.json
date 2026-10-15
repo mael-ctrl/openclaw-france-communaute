@@ -1,22 +1,18 @@
 {
- "runs": 166,
- "items_collectes": 1640,
- "breves_publiees": 618,
+ "runs": 167,
+ "items_collectes": 1645,
+ "breves_publiees": 622,
  "articles_publies": 85,
- "tokens_entree": 582096,
- "tokens_sortie": 827117,
+ "tokens_entree": 584733,
+ "tokens_sortie": 829686,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-15T18:34:41+00:00",
+ "dernier_run": "2026-10-15T19:07:53+00:00",
  "solde": {
-  "total": "86.16",
+  "total": "86.15",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-15T12:09:04+00:00",
-   "message": "brève impossible (No model is better than another its the god damn tools templ) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-15T14:21:59+00:00",
    "message": "brève impossible (Anthropic tells investors quarterly revenue up nearly 50% to) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-15T18:15:15+00:00",
    "message": "brève impossible (openclaw 2026.10.10-beta.1) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-15T19:07:34+00:00",
+   "message": "brève impossible (I turned a transformer into a game console that runs Pong, T) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.5,
+ "depense_usd": 5.51,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -684,10 +684,14 @@
   [
    "2026-10-15T18:33:48+00:00",
    "86.16"
+  ],
+  [
+   "2026-10-15T19:07:21+00:00",
+   "86.15"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 3.21,
+ "depense_mois_usd": 3.22,
  "archive_tentatives": {
   "jour": "2026-10-15",
   "n": 3

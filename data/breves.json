@@ -1,5 +1,66 @@
 [
  {
+  "id": "aa4aab04954bdf1f",
+  "slug": "bluesky-ouvre-attie-a-tous-pour-creer-jeux-quiz-et-sites-web-aa4aab",
+  "titre": "Bluesky ouvre Attie à tous pour créer jeux, quiz et sites web",
+  "resume": "Bluesky étend son application expérimentale Attie à tous : cette plateforme dopée à l'IA permet de créer des expériences interactives comme des jeux, des quiz ou des sites web. La firme parle de « social vibe coding », avec des créations capables de s'appuyer sur l'audience du réseau social. L'idée : rendre la fabrication d'applications accessible au plus grand nombre, directement dans un espace social.",
+  "tags": [
+   "dev",
+   "agents",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+  "date_source": null,
+  "date_redac": "2026-10-15T19:07:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 641,
+   "sortie": 580
+  }
+ },
+ {
+  "id": "4812e4201de74ee9",
+  "slug": "inference-llm-locale-et-distribuee-avec-mlx-et-rdma-sur-mac-studio-4812e4",
+  "titre": "Inférence LLM locale et distribuée avec MLX et RDMA sur Mac Studio",
+  "resume": "Un post publié sur r/LocalLLaMA le 15 octobre 2026 traite de l'inférence locale et distribuée de grands modèles de langage avec MLX et RDMA sur Mac Studio. Il est signé u/onethousandmonkey. L'extrait disponible ne contient ni protocole, ni chiffres de performance, ni dépôt de code associé.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6tw8z/local_and_distributed_large_llm_inference_with/",
+  "date_source": "2026-10-15T18:42:48+00:00",
+  "date_redac": "2026-10-15T19:07:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 619,
+   "sortie": 1056
+  }
+ },
+ {
+  "id": "737aee60f796be81",
+  "slug": "hp-met-en-vente-un-portable-rtx-spark-avec-128-go-de-ram-a-3-832-737aee",
+  "titre": "HP met en vente un portable RTX Spark avec 128 Go de RAM à 3 832 $",
+  "resume": "HP propose un portable RTX Spark fraîchement annoncé configuré avec 128 Go de RAM, à 3 832,49 dollars au lieu de 5 109,99 dollars grâce au coupon anniversary25, qui applique 25 % de remise. Le partage s'adresse à ceux qui regrettent d'avoir manqué les DGX Spark à moins de 4 000 dollars. Ce type de machine vise l'exécution locale de modèles volumineux, un point sensible pour la communauté r/LocalLLaMA.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6trqq/128gb_rtx_spark_laptop_for_3832/",
+  "date_source": "2026-10-15T18:38:05+00:00",
+  "date_redac": "2026-10-15T19:07:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 736,
+   "sortie": 381
+  }
+ },
+ {
   "id": "ad85ad1d38ac5368",
   "slug": "apple-intelligence-la-chine-pourrait-etre-servie-avant-l-europe-ad85ad",
   "titre": "Apple Intelligence : la Chine pourrait être servie avant l'Europe",
@@ -79,6 +140,27 @@
    "modele": "deepseek-flash",
    "entree": 663,
    "sortie": 465
+  }
+ },
+ {
+  "id": "892a37e6a8b320e1",
+  "slug": "les-poids-de-flux-3-image-klein-publies-sur-hugging-face-892a37",
+  "titre": "Les poids de FLUX.3 Image Klein publiés sur Hugging Face",
+  "resume": "Un utilisateur du subreddit r/LocalLLaMA signale la publication des poids de FLUX.3 Image Klein sur Hugging Face, sous le compte black-forest-labs. Le modèle de génération d'images devient ainsi accessible publiquement via la plateforme.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 4,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6t5fc/flux3_image_klein_just_got_weights_published_on/",
+  "date_source": "2026-10-15T18:14:35+00:00",
+  "date_redac": "2026-10-15T19:07:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 641,
+   "sortie": 552
   }
  },
  {

@@ -33,4 +33,13 @@ Le Bureau n'était pas lisible comme dépôt dans le contexte cron ; clone isol�
 - `python3 engine/run.py --essai --sans-redaction` dans cette copie : **code 0, 618 fichiers de pages/flux générés**, aucune rédaction payante, aucun FTP, aucune annonce, aucun sceau créé. Journal seulement complété ; manifestes identiques ; `data/` du dépôt conservé intact.
 - Deux flux externes ont répondu 403 (Siècle Digital) et 429 (Reddit Claude) pendant cet essai ; cela ne constitue pas une validation exhaustive des sources RSS et n'a pas été modifié par ce chantier.
 
-La production doit être vérifiée après le workflow cloud : type et unicité des métadonnées en HTTPS sur brève/article, date identique aux données sauvegardées, index toujours `website`, image existante disponible.
+## Production vérifiée
+
+- Code : commit `110efb4e51e6de68426d34e6fe534bca0adaf6de` ; les trois fichiers poussés ont été relus via l'API GitHub et comparés octet pour octet.
+- [Run cloud 38732416279](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/38732416279) : **succès**, 636 fichiers envoyés, IndexNow 200, sauvegarde d'état `086208e` à 12:18 UTC. Aucune publication Bluesky dans ce run.
+- **9 URL HTTPS vérifiées** après la fin du run : une brève, un article, accueil, actus, index articles, skills, pack, B2B et image de partage.
+- Les deux pages éditoriales répondent 200 avec un unique `og:type=article` ; leurs HTML complets sont identiques aux rendus des données du commit cloud `086208e`. La date Open Graph de l'article est bien celle enregistrée, `2026-10-15T11:46:14+00:00`, sans balise `name` résiduelle.
+- Les six pages non éditoriales restent en `website`. L'image répond en `image/png`, 860 771 octets identiques au fichier versionné.
+- Captures HTTP brutes, empreintes et journal cloud conservés hors dépôt public : `crabe-chantiers/croissance/2026-10-15/`.
+
+Ces contrôles portent sur les balises livrées, pas sur l'apparence effective d'un partage chez Facebook/LinkedIn ni sur une hausse de visites.

@@ -32,5 +32,7 @@
 
 - **Jalon monétisation du 15/10** : une démonstration de veille publiée depuis `/b2b/`, avec deux téléchargements et qualification facultative ; run `38728943975` et HTTPS vérifiés. Prix, contrats et paiements inchangés ; aucun email ni promotion supplémentaire. [Compte-rendu](monetisation.md).
 
+- **Croissance du 15/10** : métadonnées Open Graph corrigées pour les pages éditoriales (type `article`, propriété de date des articles). Commit `110efb4`, 78 tests Python + 4 Node OK ; run `38732416279` réussi, 9 URL HTTPS contrôlées. Textes et JSON-LD préservés ; aucun gain de trafic mesuré. [Preuve](open-graph-editorial.md).
+
 ## Prochain chantier SEO (ordre d'impact conservé)
 - Actions #1 (grands aperçus) et #2 (news-sitemap) déjà en place ; **#3 images de couverture automatiques** reste la première intégration SEO à réaliser, puis #4 JSON-LD/dates visibles et #5 autoindex/couverture des archives. Ne pas annoncer ces fonctionnalités comme livrées sur la base d'un brouillon de sous-agent.

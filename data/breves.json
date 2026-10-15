@@ -1,5 +1,65 @@
 [
  {
+  "id": "ddd881d94b44d433",
+  "slug": "openai-lance-un-plan-academique-pour-gpt-rosalind-en-sciences-de-la-vi-ddd881",
+  "titre": "OpenAI lance un plan académique pour GPT-Rosalind en sciences de la vie",
+  "resume": "OpenAI annonce le Rosalind Academic Plan, un dispositif qui donne aux laboratoires académiques éligibles un accès sponsorisé à GPT-Rosalind. Le programme comprend aussi des outils destinés à faire avancer la recherche en sciences de la vie.",
+  "tags": [
+   "openai",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+  "date_source": null,
+  "date_redac": "2026-10-15T22:02:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 592,
+   "sortie": 507
+  }
+ },
+ {
+  "id": "5e4ea3241e2cfe15",
+  "slug": "ternary-bonsai-2-des-modeles-2b-4b-et-9b-derives-de-qwen-3-5-5e4ea3",
+  "titre": "Ternary Bonsai 2 : des modèles 2B, 4B et 9B dérivés de Qwen 3.5",
+  "resume": "La famille Ternary Bonsai 2 arrive sur r/LocalLLaMA avec trois modèles de 2B, 4B et 9B paramètres dérivés de Qwen 3.5. Elle exige le fork maison de llama.cpp (branche prism) et ne tourne pas avec la version vanilla. dFlash, MTP et MLX sont annoncés pour gagner en tokens par seconde. L'auteur du post veut tester sur iOS via LocallyAI si ces modèles évitent les boucles des précédents Bonsai.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6yk1f/ternary_bonsai_2_family_2b_4b_9b_based_on_qwen_35/",
+  "date_source": "2026-10-15T21:45:44+00:00",
+  "date_redac": "2026-10-15T22:01:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 815,
+   "sortie": 1259
+  }
+ },
+ {
+  "id": "6f1f70f2f7c9073e",
+  "slug": "trump-publie-une-photo-retouchee-par-ia-pour-vanter-les-travaux-de-la--6f1f70",
+  "titre": "Trump publie une photo retouchée par IA pour vanter les travaux de la Maison-Blanche",
+  "resume": "Donald Trump a publié sur Truth Social une série de photos montrant les rénovations de la Maison-Blanche. L'une d'elles semble modifiée par IA : elle compare une ancienne colonne du bâtiment à une colonne « restaurée ». Le cliché comporte plusieurs incohérences et a été signalé par le détecteur d'IA de Google.",
+  "tags": [
+   "société",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
+  "date_source": "2026-10-15T21:09:33+00:00",
+  "date_redac": "2026-10-15T22:02:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 659,
+   "sortie": 555
+  }
+ },
+ {
   "id": "208b43e472c43975",
   "slug": "quels-modeles-open-weight-tiennent-sur-48-64-ou-96-go-de-ram-208b43",
   "titre": "Quels modèles open weight tiennent sur 48, 64 ou 96 Go de RAM ?",
@@ -59,6 +119,27 @@
    "modele": "deepseek-flash",
    "entree": 883,
    "sortie": 867
+  }
+ },
+ {
+  "id": "b19ffbdda6bf0b9f",
+  "slug": "capy-flash-fait-tourner-qwen3-8-flash-next-125b-en-nvfp4-sur-deux-gpu--b19ffb",
+  "titre": "capy-flash fait tourner Qwen3.8-Flash-Next 125B en NVFP4 sur deux GPU 16 Go",
+  "resume": "capy-flash, évolution du moteur ninfer-tp2, fait tourner Qwen3.8-Flash-Next 125B-A6B avec les experts en RAM, depuis le checkpoint NVFP4 de NVIDIA et en tensor parallel sur deux GPU. Sur 2× RTX 5070 Ti 16 Go, il atteint ~100 tok/s en génération contre 78 pour Strata, et ~3,4k tok/s en prefill sur un prompt de 15k. La qualité est vérifiée face à une référence NVFP4 de datacenter (GSM8K, MMLU-Pro, code agentique).",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6wh1z/capyflash_qwen38flashnext_125b_moe_in_full_nvfp4/",
+  "date_source": "2026-10-15T20:20:40+00:00",
+  "date_redac": "2026-10-15T22:02:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 896,
+   "sortie": 1283
   }
  },
  {
@@ -469,6 +550,28 @@
    "modele": "deepseek-flash",
    "entree": 787,
    "sortie": 812
+  }
+ },
+ {
+  "id": "d07ac9cd90df3952",
+  "slug": "openclaw-publie-une-release-de-maintenance-sur-ses-tests-agents-et-ski-d07ac9",
+  "titre": "OpenClaw publie une release de maintenance sur ses tests, agents et skills",
+  "resume": "OpenClaw a publié une nouvelle version référencée sur son dépôt GitHub. Le message associé, tronqué dans l'extrait, commence par « remove low-va… » et cible les tests, les agents, les skills, les migrations, les suites, Telegram et les scripts. La publication est horodatée du 15 octobre 2026 à 17h07 UTC. Aucune autre information n'accompagne le tag.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "agents",
+   "skills"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fc870d46e3a1d-1792099949",
+  "date_source": "2026-10-15T17:07:35+00:00",
+  "date_redac": "2026-10-15T22:02:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 627,
+   "sortie": 595
   }
  },
  {

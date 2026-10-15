@@ -1,0 +1,41 @@
+{
+ "slug": "sabi-noema-gemini-4-argon-msl-trois-facons-d-occuper-le-terr-5ebdc6",
+ "titre": "Sabi-Noema, Gemini 4 Argon, MSL : trois façons d'occuper le terrain",
+ "chapo": "Un fine-tune open source qui divise sa verbosité par deux, un déploiement mondial dont le tarif va doubler, un laboratoire qui rejoint la cour des grands : les annonces de la semaine dessinent des stratégies très différentes. Efficacité, échelle, coordination d'agents : trois terrains, trois approches.",
+ "html": "<h2 id=\"sabi-noema-l-efficacite-comme-argument\">Sabi-Noema : l'efficacité comme argument</h2>\n<p>Deux versions post-entraînées de <strong>Qwen 3.8 27B</strong> sont publiées : Sabi-Noema et Sabi-Noema-MLA. Leur objectif affiché est la frontière des modèles de moins de 30B, avec un argument central — une verbosité divisée par deux. Le tout entraîné uniquement sur des environnements open source, un détail qui compte pour quiconque suit l'écosystème local.</p>\n<p>Les gains annoncés portent sur le codage, les tâches agentiques et les appels d'outils, avec des hallucinations en baisse. Sur les benchmarks cités, Sabi-Noema dépasse GPT 6 Luna-medium sur DeepSWE et Luna-high sur des benchmarks agentiques.</p>\n<p>Le positionnement est explicite : viser le haut du segment des moins de 30B, là où la question n'est plus seulement ce que le modèle sait faire, mais ce qu'il consomme pour le faire. Une verbosité divisée par deux n'est pas un détail cosmétique quand on fait tourner un modèle en local ou qu'on enchaîne les appels d'outils.</p>\n<h2 id=\"gemini-4-argon-mondial-d-abord-plus-cher\">Gemini 4 Argon : mondial d'abord, plus cher ensuite</h2>\n<p>Google déploie <strong>Gemini 4 Argon</strong> à grande échelle. Dévoilé au début du mois, le modèle est accessible depuis le <strong>13 octobre 2026</strong> dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme.</p>\n<p>L'ambition affichée est double : en faire un outil de travail pour les tâches complexes et le moteur des agents IA de Google. Le modèle n'est donc pas seulement un produit d'appel, mais une brique d'infrastructure appelée à porter d'autres usages.</p>\n<p>Un point de calendrier nuance l'ensemble : le prix de l'API doit doubler au <strong>1er décembre</strong>. Déploiement mondial d'un côté, doublement tarifaire de l'autre, à quelques semaines d'intervalle.</p>\n<h2 id=\"msl-rejoint-les-laboratoires-de-pointe\">MSL rejoint les laboratoires de pointe</h2>\n<p>Latent Space consacre une dépêche à <strong>Meta Muse Wonder</strong> et <strong>Wonder Full</strong>, les modèles de MSL. Selon le média, l'émergence de MSL comme laboratoire de pointe est désormais actée. Le modèle frontalier de MSL y est présenté comme comparable à la génération <strong>Claude 5.5</strong>.</p>\n<p>La formulation mérite d'être prise pour ce qu'elle est : une appréciation de média, pas un classement officiel. Elle installe en tout cas MSL dans la conversation des laboratoires de premier rang, aux côtés d'acteurs déjà installés.</p>\n<h2 id=\"des-agents-coordonnes-aux-taches-d-usine\">Des agents coordonnés aux tâches d'usine</h2>\n<p>Lors de l'AI Engineer New York, <strong>Anthropic</strong> a présenté ses « dynamic workflows », une approche pour coordonner des agents Claude. L'entreprise s'appuie sur des leçons tirées d'Unix et de Linux pour expliquer comment ces agents peuvent mener des projets plus ambitieux. L'objectif annoncé : éviter que la complexité de ces projets ne submerge les développeurs.</p>\n<p>Le problème visé est connu de quiconque a tenté d'orchestrer plusieurs agents : à mesure que le projet grandit, la coordination devient elle-même une charge. Chercher des principes d'organisation dans des systèmes d'exploitation vieux de plusieurs décennies, c'est traiter l'orchestration comme un problème d'architecture plutôt que comme une fonctionnalité.</p>\n<p>Ailleurs dans la pile, Latent Space détaille l'approche de <strong>Standard Bots</strong>. Des modèles pré-entraînés y apprennent des tâches d'usine à partir de démonstrations, puis progressent grâce aux corrections issues de déploiements réels. Une approche centrée sur l'exécution fiable en environnement industriel, où l'apprentissage ne s'arrête pas à la mise en service.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois mouvements, trois logiques. Des modèles plus compacts qui misent sur l'efficacité et un entraînement open source ; des déploiements mondiaux dont la tarification suit la montée en gamme ; des agents qu'on cherche désormais à coordonner plutôt qu'à empiler. La question du coût par tâche, elle, traverse l'ensemble.</p>",
+ "pivot": "5ebdc6ed49bf2985",
+ "tags": [
+  "open-source",
+  "gemini",
+  "meta",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x62zrz/sabinoema_a_capability_and_efficiency_focused/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/standard-bots"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/claude-dynamic-workflows"
+  }
+ ],
+ "date": "2026-10-15T00:39:49+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1513,
+  "sortie": 5423
+ }
+}

@@ -1,22 +1,18 @@
 {
- "runs": 150,
- "items_collectes": 1501,
- "breves_publiees": 546,
- "articles_publies": 71,
- "tokens_entree": 510343,
- "tokens_sortie": 711709,
+ "runs": 151,
+ "items_collectes": 1505,
+ "breves_publiees": 549,
+ "articles_publies": 72,
+ "tokens_entree": 514195,
+ "tokens_sortie": 720247,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-14T23:49:42+00:00",
+ "dernier_run": "2026-10-15T00:39:49+00:00",
  "solde": {
-  "total": "84.29",
+  "total": "84.28",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-13T07:11:34+00:00",
-   "message": "brève impossible (release-publish/ff338bdb01f2-1791867901: fix: preserve cron ) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-13T07:14:29+00:00",
    "message": "archivage wayback : The read operation timed out"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-14T23:48:49+00:00",
    "message": "brève impossible (microsoft/UserRepGen-4B) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-15T00:38:48+00:00",
+   "message": "brève impossible (Strata performance finetuning - try it out) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 7.37,
+ "depense_usd": 7.38,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -620,12 +620,16 @@
   [
    "2026-10-14T23:48:16+00:00",
    "84.29"
+  ],
+  [
+   "2026-10-15T00:38:08+00:00",
+   "84.28"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 5.08,
+ "depense_mois_usd": 5.09,
  "archive_tentatives": {
-  "jour": "2026-10-14",
+  "jour": "2026-10-15",
   "n": 1
  },
  "derniere_archive": "2026-10-14"

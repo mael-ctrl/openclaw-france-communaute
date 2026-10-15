@@ -1,5 +1,108 @@
 [
  {
+  "id": "a44c11ab51ee1e68",
+  "slug": "un-mini-pc-snapdragon-a-300-fait-tourner-un-modele-35b-en-local-a44c11",
+  "titre": "Un mini PC Snapdragon à 300 £ fait tourner un modèle 35B en local",
+  "resume": "Un Lenovo IdeaCentre Mini à 299,99 £ (Snapdragon X1-26-100, 32 Go) fait tourner des modèles en local, uniquement sur CPU : son GPU Adreno X1-45 et son NPU restent inexploités pour les LLM. Sous llama.cpp (prompt de 512 tokens, 8 threads), un Qwen3.6 35B A3B coder en Q4_0 lit ~118 tok/s et écrit 24,5 tok/s, jusqu'à 29-33 avec MTP. Un Qwen3-Next 80B A3B, trop gros pour la RAM, sort 17-18 tok/s.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6stod/what_a_300_35w_snapdragon_mini_pc_can_actually_do/",
+  "date_source": "2026-10-15T18:02:21+00:00",
+  "date_redac": "2026-10-15T18:15:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 927,
+   "sortie": 1361
+  }
+ },
+ {
+  "id": "0d23d155365c760b",
+  "slug": "muse-spark-open-une-collection-de-meta-modeles-arrive-sur-hugging-face-0d23d1",
+  "titre": "Muse Spark Open : une collection de méta-modèles arrive sur Hugging Face",
+  "resume": "La collection Muse Spark Open, décrite comme un ensemble de méta-modèles, est désormais disponible sur Hugging Face. L'annonce a été publiée sur le forum r/LocalLLaMA par l'utilisateur sn2006gy. Le message d'origine ne détaille ni le contenu de la collection ni les modèles qu'elle rassemble.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6srp0/muse_spark_open_a_metamodels_collection/",
+  "date_source": "2026-10-15T18:00:30+00:00",
+  "date_redac": "2026-10-15T18:15:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 616,
+   "sortie": 756
+  }
+ },
+ {
+  "id": "bec04ce7c550152d",
+  "slug": "flux-3-image-klein-un-modele-ouvert-de-5-6-milliards-de-parametres-bec04c",
+  "titre": "Flux 3 Image Klein : un modèle ouvert de 5,6 milliards de paramètres",
+  "resume": "Black Forest Labs met en ligne Flux 3 Image Klein, un modèle à poids ouverts de 5,6 milliards de paramètres pour la génération et l'édition d'images. Il prend en entrée un prompt et jusqu'à 10 images de référence, et renvoie une seule image. Génération texte-image, édition à partir d'une référence et compositions multi-références passent par le même modèle, avec Qwen3-VL-4B-Instruct comme encodeur de texte.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6s7el/flux3_image_klein_is_now_out/",
+  "date_source": "2026-10-15T17:38:48+00:00",
+  "date_redac": "2026-10-15T18:15:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 703,
+   "sortie": 656
+  }
+ },
+ {
+  "id": "28932e2ffac10eca",
+  "slug": "un-utilisateur-de-codex-passe-a-claude-pointe-des-refus-frequents-28932e",
+  "titre": "Un utilisateur de Codex passé à Claude pointe des refus fréquents",
+  "resume": "Un utilisateur intensif de Codex raconte son passage à Claude pour des tâches variées : travail de connaissance, rapports, code, data science. Il salue la capacité d'Opus à produire en une seule tentative un résultat proche du but, tant sur la forme que sur le fond. Il pointe en revanche des refus fréquents : sans connecteur Google Docs, Claude n'édite pas le document et suggère un copier-coller.",
+  "tags": [
+   "claude",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x6rjdp/claude_tells_me_no_more_often_than_codex/",
+  "date_source": "2026-10-15T17:13:34+00:00",
+  "date_redac": "2026-10-15T18:15:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 787,
+   "sortie": 812
+  }
+ },
+ {
+  "id": "5453248918b6b5c1",
+  "slug": "unsloth-muse-spark-open-annonce-sur-r-localllama-545324",
+  "titre": "Unsloth Muse Spark Open annoncé sur r/LocalLLaMA",
+  "resume": "Un post publié sur r/LocalLLaMA annonce la sortie de « Unsloth Muse Spark Open », partagé par l'utilisateur /u/Bob_SUS. Le message d'origine ne fournit aucune précision sur la nature du projet, son contenu ou ses performances. Il renvoie uniquement vers un lien et les commentaires du fil.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6rcid/unsloth_muse_spark_open_is_out/",
+  "date_source": "2026-10-15T17:06:32+00:00",
+  "date_redac": "2026-10-15T18:15:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 606,
+   "sortie": 764
+  }
+ },
+ {
   "id": "15c0ca5aa8a64229",
   "slug": "des-agents-ia-arrivent-dans-les-voitures-de-rivian-15c0ca",
   "titre": "Des agents IA arrivent dans les voitures de Rivian",

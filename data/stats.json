@@ -1,22 +1,18 @@
 {
- "runs": 164,
- "items_collectes": 1591,
- "breves_publiees": 607,
- "articles_publies": 83,
- "tokens_entree": 571285,
- "tokens_sortie": 810736,
+ "runs": 165,
+ "items_collectes": 1631,
+ "breves_publiees": 612,
+ "articles_publies": 84,
+ "tokens_entree": 576572,
+ "tokens_sortie": 819115,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-15T15:31:43+00:00",
+ "dernier_run": "2026-10-15T18:15:58+00:00",
  "solde": {
-  "total": "86.17",
+  "total": "86.16",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-15T08:53:19+00:00",
-   "message": "brève impossible (I tested Qwen3.8 27B KLD for 21 Models at 9 different KV qua) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-15T12:09:04+00:00",
    "message": "brève impossible (No model is better than another its the god damn tools templ) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-15T15:31:00+00:00",
    "message": "brève impossible (nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB · Hugging Face) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-15T18:15:15+00:00",
+   "message": "brève impossible (openclaw 2026.10.10-beta.1) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.49,
+ "depense_usd": 5.5,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -676,10 +676,14 @@
   [
    "2026-10-15T15:30:38+00:00",
    "86.17"
+  ],
+  [
+   "2026-10-15T18:15:03+00:00",
+   "86.16"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 3.2,
+ "depense_mois_usd": 3.21,
  "archive_tentatives": {
   "jour": "2026-10-15",
   "n": 3

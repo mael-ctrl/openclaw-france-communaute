@@ -1823,3 +1823,9 @@
 {"ts": "2026-10-15T15:46:21+00:00", "evenement": "deploiement", "details": {"fichiers": 639, "octets": 10582358}, "sha256": "dde2cdf2baf69495519b2a606e7fe525c848073783ca9789bf62df5fd8797419"}
 {"ts": "2026-10-15T15:46:22+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "368073b51cf268f34141eb7e59b70c3277acd133ca5daf09b3b8137c8cba4367"}
 {"ts": "2026-10-15T15:46:22+00:00", "evenement": "bilan", "details": {"duree_s": 958.0, "neufs": 8, "breves": 5, "articles": 1, "fichiers": 621, "envois": 639, "publications": 0}, "sha256": "9ad32863869517b183304ffd7b4711adbea49b44f43a8425845c7fc4573ac6f4"}
+{"ts": "2026-10-15T18:15:02+00:00", "evenement": "collecte", "details": {"neufs": 40}, "sha256": "36862db689d6bac9bc9c8c418e8fa480f6f588b8923f93e65a00736e2f3c941e"}
+{"ts": "2026-10-15T18:15:15+00:00", "evenement": "erreur", "details": {"message": "brève impossible (openclaw 2026.10.10-beta.1) : réponse non-JSON"}, "sha256": "98c3beece3c7164916c5e3e088bd38c92af1dec9cd94249f2e1c8d025e5316dd"}
+{"ts": "2026-10-15T18:15:59+00:00", "evenement": "construction", "details": {"fichiers": 622}, "sha256": "8f52524fb088bc03e12d752bc28d03b282eecbff5d44d749c6aa39b26eed1fcb"}
+{"ts": "2026-10-15T18:24:49+00:00", "evenement": "deploiement", "details": {"fichiers": 640, "octets": 10601178}, "sha256": "cdf2bb81068ae15ca8f2d7fc762fea29892506e86f4d4eea1d6e1b74a8e94831"}
+{"ts": "2026-10-15T18:24:49+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "c064ed32472d65df70dc819e57671cbf7390755979e787bd2c471fdcee396599"}
+{"ts": "2026-10-15T18:24:49+00:00", "evenement": "bilan", "details": {"duree_s": 597.6, "neufs": 40, "breves": 5, "articles": 1, "fichiers": 622, "envois": 640, "publications": 0}, "sha256": "ef8e703bf9b6adab130707c22a4343f9729f5b30da3885a9364d98788900921d"}

@@ -1,0 +1,41 @@
+{
+ "slug": "un-mini-pc-a-300-fait-tourner-du-35b-gemini-4-argon-se-deplo-a44c11",
+ "titre": "Un mini PC à 300 £ fait tourner du 35B, Gemini 4 Argon se déploie partout",
+ "chapo": "Un Lenovo IdeaCentre Mini à 299,99 £ fait tourner des modèles 35B sur son seul CPU, sans toucher à son GPU Adreno ni à son NPU. Au même moment, Google déploie Gemini 4 Argon dans le monde entier, en annonçant que le prix de son API doublera au 1er décembre.",
+ "html": "<h2 id=\"300-un-snapdragon-et-32-go-pour-faire-to\">300 £, un Snapdragon et 32 Go pour faire tourner du 35B</h2>\n<p>Sur r/LocalLLaMA, un utilisateur détaille ce qu'un Lenovo IdeaCentre Mini à <strong>299,99 £</strong> parvient à faire tourner. La machine embarque un Snapdragon X1-26-100 et 32 Go de mémoire, et l'inférence se fait <strong>uniquement sur CPU</strong> : le GPU Adreno X1-45 et le NPU restent inexploités pour les LLM.</p>\n<p>Sous <strong>llama.cpp</strong>, avec un prompt de 512 tokens et 8 threads, un Qwen3.6 35B A3B coder quantifié en Q4_0 lit environ <strong>118 tokens par seconde</strong> et en écrit <strong>24,5</strong> — jusqu'à 29-33 avec MTP. L'écart entre lecture et écriture est net : la machine absorbe vite le contexte, mais produit le texte beaucoup plus lentement.</p>\n<p>Un second essai montre la limite du format. Un <strong>Qwen3-Next 80B A3B</strong>, trop gros pour la RAM disponible, sort <strong>17-18 tok/s</strong>. La taille du modèle reste donc le facteur contraignant, avant même la puissance de calcul.</p>\n<h2 id=\"nvidia-rtx-spark-128-go-de-memoire-unifi\">Nvidia RTX Spark : 128 Go de mémoire unifiée dans un boîtier</h2>\n<p>Sur un autre terrain, Nvidia signe avec le <strong>RTX Spark</strong> sa première puce complète destinée aux PC portables Windows. Elle réunit un GPU Blackwell, un processeur Arm et <strong>jusqu'à 128 Go de mémoire unifiée</strong> dans un seul boîtier.</p>\n<p>Le test publié par Frandroid a été mené dans un <strong>Asus ProArt P16</strong>, sur trois terrains : le jeu, l'IA locale et l'autonomie. La comparaison porte sur un portable gamer en <strong>RTX 5070</strong>, un Mac Apple Silicon et un PC <strong>Ryzen AI Max+ 395</strong>.</p>\n<p>Ce format — mémoire unifiée dans un boîtier unique — est précisément celui que réclame l'inférence locale, puisque c'est lui qui conditionne la taille du modèle qu'on peut charger en mémoire.</p>\n<h2 id=\"gemini-4-argon-mondial-et-deux-fois-plus\">Gemini 4 Argon : mondial, et deux fois plus cher au 1er décembre</h2>\n<p>Google a déployé <strong>Gemini 4 Argon</strong> à grande échelle. Dévoilé au début du mois, le modèle est accessible depuis le <strong>13 octobre 2026</strong> dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme. La firme veut en faire un outil de travail pour les tâches complexes et le moteur de ses agents IA.</p>\n<p>La contrepartie est tarifaire : le prix de l'API doit <strong>doubler au 1er décembre</strong>. Un déploiement mondial et un doublement de prix annoncés dans la même séquence donnent la mesure de l'équation économique du cloud.</p>\n<h2 id=\"flux-3-klein-en-poids-ouverts-1-400-fail\">Flux 3 Klein en poids ouverts, 1 400 failles corrigées chez Microsoft</h2>\n<p>Côté modèles ouverts, <strong>Black Forest Labs</strong> met en ligne <em>Flux 3 Image Klein</em>, un modèle à poids ouverts de <strong>5,6 milliards de paramètres</strong> pour la génération et l'édition d'images. Il prend en entrée un prompt et <strong>jusqu'à 10 images de référence</strong>, et renvoie une seule image. Génération texte-image, édition à partir d'une référence et compositions multi-références passent par le même modèle, avec <strong>Qwen3-VL-4B-Instruct</strong> comme encodeur de texte.</p>\n<p>Autre actualité, autre échelle : Microsoft a publié un Patch Tuesday avec <strong>plus de 1 400 failles corrigées</strong> dans le code de Windows. C'est la troisième fois cette année que l'éditeur bat son propre record, et l'entreprise indique s'être massivement servie de l'intelligence artificielle pour débusquer les bugs.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux dynamiques se croisent. D'un côté, des modèles à poids ouverts — Qwen, Flux 3 Image Klein — tournent sur du matériel à quelques centaines d'euros, à condition d'accepter le CPU seul et une RAM limitée. De l'autre, les grands fournisseurs déploient mondialement leurs modèles et ajustent leurs tarifs d'API à la hausse. Entre les deux, une puce comme le RTX Spark et ses 128 Go de mémoire unifiée rappelle que la capacité à charger un gros modèle reste, pour l'instant, une affaire de matériel.</p>",
+ "pivot": "a44c11ab51ee1e68",
+ "tags": [
+  "open-source",
+  "matériel",
+  "gemini",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6stod/what_a_300_35w_snapdragon_mini_pc_can_actually_do/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/test/3283093_test-nvidia-rtx-spark"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/plus-de-1-400-failles-windows-le-nouveau-record-monstrueux-du-patch-tuesday-de-microsoft.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6s7el/flux3_image_klein_is_now_out/"
+  }
+ ],
+ "date": "2026-10-15T18:15:58+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1648,
+  "sortie": 4030
+ }
+}

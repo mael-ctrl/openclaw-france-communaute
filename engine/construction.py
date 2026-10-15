@@ -136,7 +136,7 @@ def carte_article(a):
 
 # ---------------------------------------------------------------- gabarit
 
-def page(titre, description, contenu, chemin_canonique, section="", extra_head="", robots="index,follow,max-image-preview:large"):
+def page(titre, description, contenu, chemin_canonique, section="", extra_head="", robots="index,follow,max-image-preview:large", type_og="website"):
     t = f"{ech(titre)} — {config.NOM_SITE}" if titre else f"{config.NOM_SITE} — {config.SLOGAN}"
     url_canonique = config.URL_SITE + chemin_canonique
     nav = ""
@@ -159,7 +159,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
 <meta name="robots" content="{robots}">
 <meta property="og:title" content="{t}">
 <meta property="og:description" content="{ech(description)}">
-<meta property="og:type" content="website">
+<meta property="og:type" content="{ech(type_og)}">
 <meta property="og:url" content="{ech(url_canonique)}">
 <meta property="og:site_name" content="{config.NOM_SITE}">
 <meta property="og:locale" content="fr_FR">
@@ -477,7 +477,7 @@ def page_breve(b, breves_recentes):
                          b.get("date_redac"), "Brèves", b.get("tags"),
                          [{"nom": b["source"], "url": b["lien_source"]}])
     return page(b["titre"], desc, contenu, f"/breves/{b['slug']}/", section="actus",
-                extra_head=jsonld)
+                extra_head=jsonld, type_og="article")
 
 
 def page_article(a, autres_articles):
@@ -510,8 +510,10 @@ def page_article(a, autres_articles):
     jsonld = jsonld_item("NewsArticle", url_page, a["titre"], a["chapo"],
                          a.get("date"), a.get("date"), "Articles de fond", a.get("tags"),
                          a.get("sources"))
+    date_og = (f'<meta property="article:published_time" content="{ech(a["date"])}">\n'
+               if a.get("date") else "")
     return page(a["titre"], a["chapo"][:160], contenu, f"/articles/{a['slug']}/", section="articles",
-                extra_head=f'<meta name="article:published_time" content="{ech(a.get("date"))}">\n{jsonld}')
+                extra_head=date_og + jsonld, type_og="article")
 
 
 # ---------------------------------------------------------------- feed / sitemap

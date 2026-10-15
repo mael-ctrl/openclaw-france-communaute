@@ -1799,3 +1799,9 @@
 {"ts": "2026-10-15T11:44:26+00:00", "evenement": "deploiement", "details": {"fichiers": 631, "octets": 10477129}, "sha256": "4d9f5440c77e63faef06c3ae3acd617090e5a24e60e006412d2f0f28024072cf"}
 {"ts": "2026-10-15T11:44:26+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "0e21068345dd3606420f07eb6dd9447c0816c5e35c9a867ee27514890e145d2d"}
 {"ts": "2026-10-15T11:44:26+00:00", "evenement": "bilan", "details": {"duree_s": 951.1, "neufs": 7, "breves": 6, "articles": 1, "fichiers": 616, "envois": 631, "publications": 0}, "sha256": "349c7e4b489b9eb1784965894e552facc10631c5e9b14c9c50a26d85e953a966"}
+{"ts": "2026-10-15T12:08:47+00:00", "evenement": "collecte", "details": {"neufs": 4}, "sha256": "d270c4166387099490e582d3b66909d550ef70486a95b76d6abe5028e6484b0e"}
+{"ts": "2026-10-15T12:09:04+00:00", "evenement": "erreur", "details": {"message": "brève impossible (No model is better than another its the god damn tools templ) : réponse non-JSON"}, "sha256": "919e15083f6c2fcafaeeab8cb305110db27cce106b2a69f35957d5c6eb38f39d"}
+{"ts": "2026-10-15T12:09:18+00:00", "evenement": "construction", "details": {"fichiers": 618}, "sha256": "c89025dbeda55ae7389598fece824e291e01f40cd4a7af391f27d06dbb46fc21"}
+{"ts": "2026-10-15T12:18:02+00:00", "evenement": "deploiement", "details": {"fichiers": 636, "octets": 10529390}, "sha256": "e09f44e95977cde126e9fe9493edb64a8dc7b0042ca43048f1b3f29abe0c7246"}
+{"ts": "2026-10-15T12:18:02+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "49e9ff054fbf3b3bcf8414857932d36973156ffc0cb278684015e92d1d24fa87"}
+{"ts": "2026-10-15T12:18:02+00:00", "evenement": "bilan", "details": {"duree_s": 562.0, "neufs": 4, "breves": 3, "articles": 0, "fichiers": 618, "envois": 636, "publications": 0}, "sha256": "fb8bb0b9618766ab87693934cfb07147f882028ad15a6cdf744ca8917fabf76d"}

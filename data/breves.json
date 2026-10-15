@@ -1,5 +1,108 @@
 [
  {
+  "id": "262ccc20f8f8ba4e",
+  "slug": "withings-assume-de-faire-payer-la-synchronisation-avec-apple-sante-et--262ccc",
+  "titre": "Withings assume de faire payer la synchronisation avec Apple Santé et Strava",
+  "resume": "Après la polémique du 13 octobre, Withings parle pour la première fois à Numerama. La marque réserve la synchronisation vers Apple Santé, Health Connect et Strava aux abonnés Withings+, à 10 euros par mois. Elle assume cette décision, « la plus dure » de son histoire, et ne prévoit pas de marche arrière : à l'heure de l'IA générative, ne pas monétiser ses données menacerait une entreprise de santé.",
+  "tags": [
+   "business",
+   "société",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2353527-la-vraie-valeur-cest-la-donnee-withings-defend-sa-decision-de-faire-payer-la-synchronisation-avec-apple-et-strava.html",
+  "date_source": null,
+  "date_redac": "2026-10-15T10:27:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 755,
+   "sortie": 1021
+  }
+ },
+ {
+  "id": "f0309944ade1b4bd",
+  "slug": "gpt-usenet-6-un-modele-de-0-4-md-de-parametres-entraine-sur-des-posts--f03099",
+  "titre": "GPT-USENET-6, un modèle de 0,4 Md de paramètres entraîné sur des posts USENET",
+  "resume": "Publié sur r/LocalLLaMA, le modèle GPT-USENET-6 revendique 0,4 milliard de paramètres seulement, pour une fenêtre de contexte de 16 384 tokens. Il a été entraîné sur des posts USENET — dont le corpus UTZOO —, des extractions web et de la fiction. Ses auteurs le présentent comme un compromis entre polyvalence, connaissances et mémoire.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6hrly/hdteneightypgptusenet6_a_new_lightweight_model/",
+  "date_source": "2026-10-15T10:09:05+00:00",
+  "date_redac": "2026-10-15T10:26:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 530
+  }
+ },
+ {
+  "id": "ae04f71e99bb2284",
+  "slug": "une-alternative-au-dgx-batie-sur-les-puces-axera-ae04f7",
+  "titre": "Une « alternative » au DGX bâtie sur les puces Axera",
+  "resume": "Un membre de r/LocalLLaMA présente une « alternative » au DGX construite autour des puces Axera. Les guillemets sont assumés : porter des projets sur le framework Axera restera une bataille de longue haleine. L'auteur estime toutefois que les puces Axera sont très performantes et que l'offre pourrait intéresser certains utilisateurs.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6hbrd/axerabased_dgx_alternative/",
+  "date_source": "2026-10-15T09:42:42+00:00",
+  "date_redac": "2026-10-15T10:26:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 649,
+   "sortie": 504
+  }
+ },
+ {
+  "id": "223f0021299d527c",
+  "slug": "prefill-un-utilisateur-gagne-2x-en-vitesse-sur-qwen-au-prix-de-la-prec-223f00",
+  "titre": "Prefill : un utilisateur gagne 2x en vitesse sur Qwen, au prix de la précision",
+  "resume": "Sur r/LocalLLaMA, un utilisateur constate que le décodage progresse grâce à des modèles adaptés comme Sushi ou Splash avec Qwen 27B et Qwen Flash Next, jusqu'à 40 tokens/s sur son M3 Max. Le prefill, lui, semble stagnant : en approximant le KV cache avec QFN, il atteint ~850 tokens/s contre 400, mais les tests « needle » échouent. La vitesse se paie en précision ; il se demande s'il s'agit d'une limite matérielle.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6h9hr/is_anyone_working_on_improving_prefill_speed_qwen/",
+  "date_source": "2026-10-15T09:38:32+00:00",
+  "date_redac": "2026-10-15T10:27:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 776,
+   "sortie": 938
+  }
+ },
+ {
+  "id": "bbf8af0c2bfa4725",
+  "slug": "microsoft-devoile-mai-code-1-1-flash-un-modele-local-de-137b-parametre-bbf8af",
+  "titre": "Microsoft dévoile MAI Code 1.1 Flash, un modèle local de 137B paramètres",
+  "resume": "Microsoft AI a développé une version locale de MAI Code 1.1 Flash, un modèle à mélange d'experts optimisé pour le code. Il compte 137 milliards de paramètres au total, dont 6,8 milliards actifs au moment de l'inférence. La page liée évoque des modèles locaux et des outils sandboxés sur GitHub et Windows. Le sujet agite r/LocalLLaMA, où la taille du modèle interroge sur son exécution en local.",
+  "tags": [
+   "dev",
+   "matériel",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6h51s/137b_a68b_model_from_microsoft/",
+  "date_source": "2026-10-15T09:30:24+00:00",
+  "date_redac": "2026-10-15T10:27:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 676,
+   "sortie": 668
+  }
+ },
+ {
   "id": "4a2aee66d1630ff3",
   "slug": "gemini-pour-home-google-ameliore-la-detection-de-la-commande-stop-4a2aee",
   "titre": "Gemini pour Home : Google améliore la détection de la commande STOP",
@@ -38,6 +141,27 @@
    "modele": "deepseek-flash",
    "entree": 679,
    "sortie": 344
+  }
+ },
+ {
+  "id": "226a46648bbdc1c3",
+  "slug": "jais-3-publie-en-gguf-de-0-9b-a-32b-de-parametres-226a46",
+  "titre": "Jais-3 publié en GGUF, de 0,9B à 32B de paramètres",
+  "resume": "Un post du subreddit r/LocalLLaMA signale la mise en ligne des versions GGUF de la famille de modèles Jais-3, sous le compte Hugging Face IFM. Quatre tailles sont proposées : 0,9B, 3,7B, 7B et 32B de paramètres. Le format GGUF est destiné à l'exécution locale de modèles. Le fil renvoie aussi à plusieurs captures d'écran.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6gxj3/ifmjais3/",
+  "date_source": "2026-10-15T09:17:07+00:00",
+  "date_redac": "2026-10-15T10:27:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 911,
+   "sortie": 1051
   }
  },
  {

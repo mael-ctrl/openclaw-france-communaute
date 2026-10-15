@@ -1,0 +1,41 @@
+{
+ "slug": "withings-openai-gemini-l-acces-et-le-prix-les-deux-fronts-de-262ccc",
+ "titre": "Withings, OpenAI, Gemini : l'accès et le prix, les deux fronts de la semaine",
+ "chapo": "Withings fait payer la synchronisation de ses montres vers Apple Santé et Strava, huit États américains poursuivent OpenAI, et Google déploie Gemini 4 Argon en doublant le prix de son API. Trois façons de poser la même question : qui paie, et pour quel accès ?",
+ "html": "<h2 id=\"withings-assume-et-le-dit-enfin\">Withings assume, et le dit enfin</h2>\n<p>Après la polémique du 13 octobre, Withings a parlé pour la première fois à <em>Numerama</em>. La marque réserve la synchronisation de ses données vers <strong>Apple Santé</strong>, <strong>Health Connect</strong> et <strong>Strava</strong> aux abonnés Withings+, facturés 10 euros par mois. Elle assume cette décision, qu'elle qualifie de « la plus dure » de son histoire, et ne prévoit pas de marche arrière.</p>\n<p>L'argument avancé : à l'heure de l'IA générative, ne pas monétiser ses données menacerait une entreprise de santé. Le titre de l'article de Numerama résume la ligne directrice — « la vraie valeur, c'est la donnée ».</p>\n<p>Autrement dit, ce n'est pas la montre qui devient payante, ni la mesure : c'est la sortie du silo, la circulation de la donnée vers des tiers comme Apple, Google ou Strava qui est mise derrière un abonnement. Un choix assumé, présenté comme irréversible.</p>\n<h2 id=\"huit-etats-americains-attaquent-openai-s\">Huit États américains attaquent OpenAI sur la sécurité</h2>\n<p>Huit États américains poursuivent OpenAI. L'<strong>Iowa</strong>, le <strong>Kansas</strong>, le <strong>Nebraska</strong>, la <strong>Virginie-Occidentale</strong>, l'<strong>Arkansas</strong>, l'<strong>Arizona</strong>, l'<strong>Idaho</strong> et le <strong>Montana</strong> ont déposé des plaintes séparées, selon <em>The Verge</em>.</p>\n<p>Deux reproches sont formulés : l'entreprise nuirait aux enfants, et aurait induit ses clients en erreur sur la sécurité de ChatGPT. Les plaignants lui font également grief d'avoir placé ses profits avant la sécurité.</p>\n<p>Le détail qui compte dans la procédure : ce ne sont pas des plaintes conjointes, mais des dépôts distincts, État par État. Huit dossiers séparés sur le même sujet.</p>\n<h2 id=\"gemini-4-argon-deploye-partout-plus-cher\">Gemini 4 Argon déployé partout, plus cher dès décembre</h2>\n<p>Google déploie <strong>Gemini 4 Argon</strong> à grande échelle. Dévoilé au début du mois, le modèle est accessible depuis le 13 octobre 2026 dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme, rapporte <em>L'Usine Digitale</em>.</p>\n<p>Deux ambitions sont affichées : faire de Gemini 4 Argon un outil de travail pour les tâches complexes, et en faire le moteur des agents IA de Google.</p>\n<p>Mais le calendrier commercial suit son cours : le prix de l'API doit doubler au 1er décembre. Déploiement mondial d'un côté, tarif revu à la hausse quelques semaines plus tard de l'autre.</p>\n<h2 id=\"en-face-le-local-avance-ses-pions\">En face, le local avance ses pions</h2>\n<p>Microsoft AI a développé une version locale de <strong>MAI Code 1.1 Flash</strong>, un modèle à mélange d'experts optimisé pour le code. Il compte 137 milliards de paramètres au total, dont 6,8 milliards actifs au moment de l'inférence. La page liée évoque des modèles locaux et des outils sandboxés sur GitHub et Windows. Sur r/LocalLLaMA, la taille du modèle interroge justement sur sa capacité à tourner en local.</p>\n<p>Autre signal sur le même subreddit : les versions <strong>GGUF</strong> de la famille de modèles <strong>Jais-3</strong> ont été mises en ligne sous le compte Hugging Face IFM, en quatre tailles — 0,9B, 3,7B, 7B et 32B de paramètres. Le GGUF est précisément un format destiné à l'exécution locale de modèles.</p>\n<p>Là où Gemini passe par une API facturée, ces publications misent sur des poids qui s'exécutent sur la machine de l'utilisateur.</p>\n<h2>Et maintenant ?</h2>\n<p>Ces dépêches ne racontent pas la même histoire, mais elles tournent toutes autour de la même question : qui contrôle l'accès, et à quel prix. Withings transforme la synchronisation en abonnement, OpenAI est contesté en justice sur la sécurité de ChatGPT, Google rend Gemini 4 Argon mondial tout en annonçant un doublement tarifaire de son API au 1er décembre, pendant que des modèles locaux et des publications GGUF proposent une voie sans API du tout. Le débat sur les modèles se double désormais d'un débat sur leurs conditions d'accès.</p>",
+ "pivot": "262ccc20f8f8ba4e",
+ "tags": [
+  "business",
+  "openai",
+  "gemini",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2353527-la-vraie-valeur-cest-la-donnee-withings-defend-sa-decision-de-faire-payer-la-synchronisation-avec-apple-et-strava.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6h51s/137b_a68b_model_from_microsoft/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6gxj3/ifmjais3/"
+  }
+ ],
+ "date": "2026-10-15T10:27:45+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1638,
+  "sortie": 3142
+ }
+}

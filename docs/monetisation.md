@@ -39,7 +39,13 @@ Les trois publications primaires ont été relues avant publication : Anthropic 
 
 ### Mise en ligne
 
-**En attente de la recette cloud et HTTPS au premier commit de ce document.** Ne pas déduire une publication du seul succès local.
+**En ligne, vérifié le 15/10/2026 à 11:59 UTC.** Code `26fbaa0aab43d4ecc9750825a96a669f5ae37180`, [run cloud 38728943975](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/38728943975) réussi à 11:58:33 UTC ; sauvegarde d'état `d51ee96`, fusion distante `3280d6d`. Logs relus : les cinq fichiers du parcours ont été envoyés ; le pipeline complet a transféré 635 fichiers, sans publication Bluesky supplémentaire (quota quotidien atteint).
+
+- Les six URL canoniques (page B2B, échantillon, deux Markdown, CSS, sitemap) répondent **200 en HTTPS strict**. Les cinq fichiers du parcours sont identiques octet pour octet aux contenus testés. Le sitemap contient la page HTML, pas les Markdown.
+- Le HTML B2B public, une fois le seul bloc et son lien CSS retirés, reste identique au HTML précédent. Aucun nouveau tarif ni changement de contrat.
+- Chrome anonyme sur le site public, sans JS : clic réel vers l'échantillon aux largeurs 320/390/1440 px, absence de débordement horizontal, ancres et focus clavier confirmés ; captures mobile et desktop relues. `mailto:` inspecté, jamais activé.
+- Réserve technique mineure : OVH ne renvoie pas d'en-tête `Content-Type` sur les deux Markdown. Leur statut et leurs octets sont vérifiés ; les liens de téléchargement portent l'attribut `download`. Ce contrôle ne constitue pas une validation universelle de leur ouverture dans tous les navigateurs.
+- Preuves brutes, captures et logs conservés hors dépôt public : `crabe-chantiers/monetisation/2026-10-15-demo/` (`verification-locale.json`, `verification-https.json`, `browser-live/result.json`, `cloud-complet.log`, `push-code.json`).
 
 ### Prochaine action
 

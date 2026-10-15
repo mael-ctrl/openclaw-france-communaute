@@ -281,6 +281,8 @@ Format : `AAAA-MM-JJ | plateforme | action | URL du post | statut | retours`
 
 - `2026-10-15 | Contrôle de distribution — mission planifiée de 11h20 CEST, priorités vague-3 | Aucune action sûre et exécutable retenue | Aucun nouveau lien public | ⏸️ Aucun envoi | Uneed : accord relu, mais compte requis et aucun accès sécurisé disponible. JDH : pas d'invitation ; LinuxFr : pas d'accord humain ; piaille : pas de mail d'approbation retrouvé. Bluesky exclu cette semaine par le post du 12/10. Aucun compte, formulaire soumis, message, publication ou paiement ; quota quotidien non consommé par cette mission.`
 
+- `2026-10-15 | Site propre — monétisation | Échantillon B2B sourcé publié et lié depuis /b2b/, sans diffusion tierce | https://communaute-ia.fr/b2b/echantillon-veille/ | ✅ Run cloud 38728943975 et HTTPS vérifiés, parcours mobile/desktop sans JS | Amélioration du site uniquement, pas une nouvelle action de distribution ; aucun email, post promotionnel ou formulaire soumis. Bluesky reste exclu cette semaine. Détails : docs/monetisation.md.`
+
 ### Contrôle de la mission planifiée du 15/10 (lecture seule)
 
 - Clone cron hors Bureau propre, `git pull --no-rebase` effectué puis répété à 11h23 CEST ; plans vague-2 et vague-3, journal d'exécution et registre presse relus. Aucun nouvel envoi de distribution du jour journalisé au contrôle ; aucun contact ancien relancé.

@@ -13,7 +13,7 @@
 | P2 | Revue site (perf, SEO, UX, engagement) | 1 amélioration vs testée **par jour** intégrée (cron chantier) | 🔶 15/10 : fiabilité du déploiement ✅, 72 tests OK, run 38708738646 et HTTPS vérifiés ([preuve](verification-deploiement.md)) |
 | P3 | Podcast + YouTube | pilote ✅ · 1er épisode publié + chaîne créée + RSS podcast | 🔶 pilote 14/10 · chaîne : action Maël |
 | P4 | Newsletter « La Brève du Crabe » | plan + 1er numéro + formulaire en ligne + 100 abonnés | ⏳ plan en cours (sous-agent) |
-| P5 | Monétisation | 1er 100 € encaissés, puis paliers M2→M12 du plan | ⏳ backlog + offres B2B en cours (sous-agents) |
+| P5 | Monétisation | 1er 100 € encaissés, puis paliers M2→M12 du plan | 🔶 15/10 : échantillon B2B sourcé en ligne, parcours et téléchargements vérifiés ; encaissement non démontré ([preuve](monetisation.md)) |
 | P6 | Presse & distribution | vague-3 soumise + retombées mesurées | 🔶 vagues 1-2 faites · vague-3 en préparation |
 | P7 | Record Guinness | dossier qualifié + preuves chaînées (routine active) | 🔶 en continu |
 | P8 | Skool « La Communauté IA 🦀 » | communauté publique + 22/22 leçons + 1er membre externe | 🔶 18/22 leçons · promo à brancher |
@@ -29,6 +29,8 @@
 - **2026-10-14** : mission associations publiée (manifeste/transparence/accueil/llms.txt) ; news-sitemap live ; pilote podcast généré (61 s) ; +6 crons ; 8 sous-agents lancés ; clone réparé ; trafic 12-13/10 publié.
 - **2026-10-14 (soir)** : organisation v1 + plan d'affiliation + enquête MEDVI livrés (sous-agents) ; correctif Discover (`max-image-preview:large`) poussé ; orchestrateur de vagues et 7 crons opérationnels.
 - **2026-10-15 (chantier unique, livré)** : faux succès FTP reproduit puis corrigé ; arrêt des annonces après échec, code processus 1 et sauvegarde d'état du workflow maintenue. Commit `3e79f4b`, **72 tests OK**, build isolé et essai sans rédaction validés ; **run 38708738646 réussi, 628 fichiers envoyés, 5 URL HTTPS vérifiées**, HTML brève/article identiques au rendu du commit cloud `8546b36`. [Contrat et preuves](verification-deploiement.md). Priorité donnée au prérequis de livraison fiable identifié par la vague du matin ; aucun lot podcast/B2B/newsletter intégré.
+
+- **Jalon monétisation du 15/10** : une démonstration de veille publiée depuis `/b2b/`, avec deux téléchargements et qualification facultative ; run `38728943975` et HTTPS vérifiés. Prix, contrats et paiements inchangés ; aucun email ni promotion supplémentaire. [Compte-rendu](monetisation.md).
 
 ## Prochain chantier SEO (ordre d'impact conservé)
 - Actions #1 (grands aperçus) et #2 (news-sitemap) déjà en place ; **#3 images de couverture automatiques** reste la première intégration SEO à réaliser, puis #4 JSON-LD/dates visibles et #5 autoindex/couverture des archives. Ne pas annoncer ces fonctionnalités comme livrées sur la base d'un brouillon de sous-agent.

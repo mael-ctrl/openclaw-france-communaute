@@ -1,0 +1,13 @@
+/* Styles exclusivement préfixés : aucun sélecteur global, aucun script. */
+#demo-veille.p5-demo{margin:2rem 0;padding:clamp(1rem,4vw,1.7rem);border:1px solid #b8ccca;border-left:4px solid #075e55;border-radius:.6rem;background:#f2f7f6;color:#17293a;overflow-wrap:anywhere}
+#demo-veille p{color:#17293a}
+#demo-veille strong{color:inherit}
+#demo-veille .p5-demo-label{color:#075e55;font-size:.85rem;font-weight:700;margin-top:0}
+#demo-veille h2{color:#17293a;line-height:1.25;margin-top:.5rem}
+#demo-veille .p5-demo-parcours{display:grid;gap:.75rem;padding-left:1.4rem}
+#demo-veille .p5-demo-parcours>li::marker{color:#435466}
+#demo-veille .p5-demo-action{display:inline-flex;align-items:center;min-height:48px;padding:.65rem .9rem;border:2px solid #075e55;border-radius:.3rem;color:#075e55;font-weight:650;line-height:1.45;text-decoration:underline;text-underline-offset:.2em}
+#demo-veille .p5-demo-principal{background:#075e55;color:#fff;text-decoration:none}
+#demo-veille a:focus-visible{outline:3px solid #a83b00;outline-offset:4px}
+#demo-veille a:hover{text-decoration:underline;text-decoration-thickness:2px}
+#demo-veille .p5-demo-note{color:#435466;font-size:.92rem;line-height:1.6}

@@ -373,6 +373,11 @@ def page_pack_merci():
                 contenu, "/pack/merci/")
 
 
+def _fichier_demo_b2b(nom):
+    """Échantillon statique daté ; aucune génération ni collecte au build."""
+    return (config.RACINE / "contenus" / "b2b" / nom).read_text(encoding="utf-8")
+
+
 def page_b2b():
     contenu = """
 <section class="section section-lecture">
@@ -543,10 +548,15 @@ def page_b2b():
     </div>
   </div>
 </section>"""
+    marqueur = '      <h2 id="offres">Trois offres. Aucun baratin.</h2>'
+    if contenu.count(marqueur) != 1:
+        raise ValueError("Emplacement de la démonstration B2B à revalider")
+    contenu = contenu.replace(marqueur, _fichier_demo_b2b("bloc-demo.html") + "\n" + marqueur, 1)
     return page("Travailler avec le Crabe 🦀 — veille IA sur mesure, contenu sponsorisé déclaré, ateliers",
                 "Le média 100 % IA ouvre son offre B2B : veille IA sur mesure, sponsoring marqué, ateliers. "
                 "Prix indicatifs, preuves publiques (journal, code source, compteurs), déontologie à livres ouverts.",
-                contenu, "/b2b/", section="b2b")
+                contenu, "/b2b/", section="b2b",
+                extra_head='<link rel="stylesheet" href="/assets/b2b-demo.css">')
 
 
 def page_404():
@@ -575,6 +585,10 @@ def construire_annexes(breves, articles, stats, entrees_journal):
         "pack/index.html": page_pack(),
         "pack/merci/index.html": page_pack_merci(),
         "b2b/index.html": page_b2b(),
+        "b2b/echantillon-veille/index.html": _fichier_demo_b2b("echantillon-veille.html"),
         "404.html": page_404(),
     }
-    return pages, {}
+    return pages, {
+        "b2b/echantillon-veille/echantillon-veille.md": _fichier_demo_b2b("echantillon-veille.md"),
+        "b2b/echantillon-veille/questionnaire-qualification.md": _fichier_demo_b2b("questionnaire-qualification.md"),
+    }

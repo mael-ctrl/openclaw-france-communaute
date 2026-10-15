@@ -4,7 +4,7 @@
 Usage :
     python engine/run.py --tout                # collecte + rédaction + build + déploiement
     python engine/run.py --essai               # mode test : 2 brèves max, pas de déploiement
-    python engine/run.py --sans-deploiement    # tout sauf l'envoi FTP
+    python engine/run.py --sans-deploiement    # sans FTP ni annonces de pages
     python engine/run.py --sans-redaction      # collecte + build + déploiement seulement
 """
 import argparse
@@ -133,17 +133,22 @@ def main():
         journal.erreur(f"indexnow (clé) : {e}")
 
     # 6) Déploiement
+    code_retour = 0
+    deploiement_reussi = False
     if not args.essai and not args.sans_deploiement:
         try:
             envois, octets = deploiement.deployer()
             journal.ajouter("deploiement", fichiers=envois, octets=octets)
             resume["envois"] = envois
+            deploiement_reussi = True  # (0, 0) reste un succès incrémental
         except Exception as e:
+            code_retour = 1
+            resume["deploiement"] = "echec"
             journal.erreur(f"déploiement : {e}")
             print(f"   ⚠️  déploiement impossible : {e}")
 
     # 7) Signal d'indexation (IndexNow : Bing/Yandex, sans compte)
-    if not args.essai and not args.sans_deploiement:
+    if deploiement_reussi:
         try:
             code = indexnow.signaler()
             journal.ajouter("indexation", indexnow=code)
@@ -152,7 +157,7 @@ def main():
             journal.erreur(f"indexation : {e}")
 
     # 8) Archivage quotidien (Wayback Machine) — preuve horodatée indépendante
-    if not args.essai and not args.sans_deploiement:
+    if deploiement_reussi:
         try:
             resultat_archive = archive.archiver_si_necessaire()
             if resultat_archive:
@@ -161,7 +166,7 @@ def main():
             journal.erreur(f"archivage : {e}")
 
     # 9) Diffusion sociale — le Crabe parle au monde (Bluesky)
-    if not args.essai and social.disponible():
+    if deploiement_reussi and social.disponible():
         try:
             resume["publications"] = social.diffuser()
         except Exception as e:
@@ -179,11 +184,12 @@ def main():
     # 11) Bilan
     journal.ajouter("bilan", duree_s=round(time.time() - debut, 1), **resume)
 
-    print(f"🦀 Terminé en {time.time() - debut:.0f} s — "
+    statut = "Échec du déploiement" if code_retour else "Terminé"
+    print(f"🦀 {statut} en {time.time() - debut:.0f} s — "
           f"{resume['neufs']} neuf(s), {resume['breves']} brève(s), "
           f"{resume['articles']} article(s), {resume.get('envois', 0)} fichier(s) envoyé(s), "
           f"{resume.get('publications', 0)} publication(s) Bluesky")
-    return 0
+    return code_retour
 
 
 if __name__ == "__main__":

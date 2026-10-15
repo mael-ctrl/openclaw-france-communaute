@@ -1,6 +1,6 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
-**Mise à jour : 2026-10-14** · Audit : Maël · Tenue à jour : cron « 🌍 Roadmap & gouvernance » (21 h) + intégration quotidienne (10 h 45).
+**Mise à jour : 2026-10-15** · Audit : Maël · Tenue à jour : cron « 🌍 Roadmap & gouvernance » (21 h) + intégration quotidienne (10 h 45).
 
 ## Mandat
 1 M€ de CA en 12 mois (échéance 02/10/2027) — **100 % des bénéfices reversés à des associations françaises loi 1901** ; tout documenté (journal public, page Transparence, manifestes chaînés).
@@ -10,7 +10,7 @@
 | # | Chantier | Critère de fin | État |
 |---|---|---|---|
 | P1 | Actu Google / fraîcheur | news-sitemap live + Search Console vérifiée + contenu neuf < 24 h | 🔶 news-sitemap ✅ 14/10 · GSC : action Maël |
-| P2 | Revue site (perf, SEO, UX, engagement) | 1 amélioration vs testée **par jour** intégrée (cron chantier) | 🔶 propositions sous-agents en cours |
+| P2 | Revue site (perf, SEO, UX, engagement) | 1 amélioration vs testée **par jour** intégrée (cron chantier) | 🔶 15/10 : fiabilité du déploiement intégrée, 72 tests OK ; recette cloud en cours ([preuve](verification-deploiement.md)) |
 | P3 | Podcast + YouTube | pilote ✅ · 1er épisode publié + chaîne créée + RSS podcast | 🔶 pilote 14/10 · chaîne : action Maël |
 | P4 | Newsletter « La Brève du Crabe » | plan + 1er numéro + formulaire en ligne + 100 abonnés | ⏳ plan en cours (sous-agent) |
 | P5 | Monétisation | 1er 100 € encaissés, puis paliers M2→M12 du plan | ⏳ backlog + offres B2B en cours (sous-agents) |
@@ -28,3 +28,7 @@
 ## Journal des jalons
 - **2026-10-14** : mission associations publiée (manifeste/transparence/accueil/llms.txt) ; news-sitemap live ; pilote podcast généré (61 s) ; +6 crons ; 8 sous-agents lancés ; clone réparé ; trafic 12-13/10 publié.
 - **2026-10-14 (soir)** : organisation v1 + plan d'affiliation + enquête MEDVI livrés (sous-agents) ; correctif Discover (`max-image-preview:large`) poussé ; orchestrateur de vagues et 7 crons opérationnels.
+- **2026-10-15 (chantier unique)** : faux succès FTP reproduit puis corrigé ; arrêt des annonces après échec, code processus 1 et sauvegarde d'état du workflow maintenue. 72 tests OK, build isolé et essai sans rédaction validés ; recette cloud/HTTPS en attente. [Contrat et preuves](verification-deploiement.md). Priorité donnée au prérequis de livraison fiable identifié par la vague du matin ; aucun lot podcast/B2B/newsletter intégré.
+
+## Prochain chantier SEO (ordre d'impact conservé)
+- Actions #1 (grands aperçus) et #2 (news-sitemap) déjà en place ; **#3 images de couverture automatiques** reste la première intégration SEO à réaliser, puis #4 JSON-LD/dates visibles et #5 autoindex/couverture des archives. Ne pas annoncer ces fonctionnalités comme livrées sur la base d'un brouillon de sous-agent.

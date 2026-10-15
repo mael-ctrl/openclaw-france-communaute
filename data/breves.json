@@ -1,5 +1,129 @@
 [
  {
+  "id": "208b43e472c43975",
+  "slug": "quels-modeles-open-weight-tiennent-sur-48-64-ou-96-go-de-ram-208b43",
+  "titre": "Quels modèles open weight tiennent sur 48, 64 ou 96 Go de RAM ?",
+  "resume": "Sur r/LocalLLaMA, un utilisateur relance le débat sur le matériel nécessaire aux modèles open weight pour le développement. Un précédent fil confirmait qu'une machine de 128 Go de RAM fait tourner de bons modèles locaux, surtout pilotés par un modèle de pointe. Sa question : lesquels tiennent encore sur 48, 64 ou 96 Go, et avec quelle empreinte mémoire réelle.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6x5tk/anyone_running_good_open_weight_models_for/",
+  "date_source": "2026-10-15T20:47:59+00:00",
+  "date_redac": "2026-10-15T20:59:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 777,
+   "sortie": 811
+  }
+ },
+ {
+  "id": "ec3a88e935722686",
+  "slug": "granite-switch-4-1-chat-decisions-et-audio-sur-un-seul-endpoint-ec3a88",
+  "titre": "Granite Switch 4.1 : chat, décisions et audio sur un seul endpoint",
+  "resume": "IBM publie Granite Switch 4.1 30B, un modèle modulaire qui assemble un modèle de base, des adaptateurs et un encodeur audio derrière un seul endpoint hébergé. Il bascule ainsi entre réponses en langage naturel, décisions et reconnaissance vocale. Les adaptateurs, en aLoRA, s'activent via des tokens de contrôle dans le template de chat. Sortie le 14 octobre 2026 sous licence Apache 2.0.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6wwx2/ibmgranitegraniteswitch41_30b8b/",
+  "date_source": "2026-10-15T20:38:05+00:00",
+  "date_redac": "2026-10-15T20:59:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 856,
+   "sortie": 1066
+  }
+ },
+ {
+  "id": "7962c430c5d01e12",
+  "slug": "ninfer6000-compare-a-vllm-et-llama-cpp-sur-qwen3-8-flash-next-7962c4",
+  "titre": "Ninfer6000 comparé à vLLM et llama.cpp sur Qwen3.8-Flash-Next",
+  "resume": "Un utilisateur de r/LocalLLaMA a comparé Ninfer6000, un fork de Ninfer optimisé pour les GPU Blackwell 6000 et le modèle Qwen3.8-Flash-Next, à vLLM et llama.cpp. Le décodage est excellent et le prefill, en retrait face à vLLM, reste assez proche pour que l'ensemble soit gagnant. Les benchmarks de précision sont équivalents, mais il signale d'importants problèmes de formatage des appels d'outils en usage réel.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6wtqd/qwen38fn_vllm_vs_llamacpp_vs_ninfer6000/",
+  "date_source": "2026-10-15T20:34:35+00:00",
+  "date_redac": "2026-10-15T20:59:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 883,
+   "sortie": 867
+  }
+ },
+ {
+  "id": "812c93c5263ce444",
+  "slug": "ternary-bonsai-2-les-modeles-2b-4b-et-9b-quantifies-en-ternaire-sont-s-812c93",
+  "titre": "Ternary Bonsai 2 : les modèles 2B, 4B et 9B quantifiés en ternaire sont sur Hugging Face",
+  "resume": "La collection Bonsai 2 de prism-ml est publiée sur Hugging Face avec trois tailles : 2B, 4B et 9B. Le plus petit tourne entièrement dans le navigateur, jusqu'à 500 tokens par seconde sur un M4 Max, grâce à des kernels WebGPU custom. Une démo WebGPU est accessible en ligne.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/",
+  "date_source": "2026-10-15T20:09:00+00:00",
+  "date_redac": "2026-10-15T21:00:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 720,
+   "sortie": 636
+  }
+ },
+ {
+  "id": "ce360f256595372a",
+  "slug": "bluesky-l-outil-ia-attie-permet-de-creer-jeux-et-applis-a-partager-ce360f",
+  "titre": "Bluesky : l'outil IA Attie permet de créer jeux et applis à partager",
+  "resume": "Attie, l'outil IA de Bluesky lancé plus tôt cette année pour bâtir ses propres fils d'actualité, s'étend à la création de « petites » applis sociales : jeux, sondages, tableaux de bord. Elles peuvent ensuite être partagées comme des sites web à part entière. L'annonce a été faite par le CEO de Bluesky, Toni Schneider, lors d'un entretien à TechCrunch Disrupt.",
+  "tags": [
+   "dev",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
+  "date_source": "2026-10-15T19:57:16+00:00",
+  "date_redac": "2026-10-15T21:00:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 668,
+   "sortie": 560
+  }
+ },
+ {
+  "id": "b4a98584900c4ef3",
+  "slug": "un-quant-fp4-qad-de-qwen3-8-flash-next-de-nvidia-a-102-go-b4a985",
+  "titre": "Un quant FP4 QAD de Qwen3.8-Flash-Next de Nvidia à 102 Go",
+  "resume": "Sur r/LocalLLaMA, un post signale une quantification FP4 QAD de Qwen3.8-Flash-Next, le modèle de Nvidia, pour 102 Go seulement. À titre de comparaison, la version nvidia/Qwen3.8-Flash-Next-NVFP4 pèse 133 Go. L'auteur aimerait voir les moteurs d'inférence spécifiques à Qwen3.8-FN prendre en charge ce format, qui allège sérieusement l'empreinte du modèle.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6vqft/fp4_qad_quant_of_qwen38flashnext_from_nvidia/",
+  "date_source": "2026-10-15T19:52:44+00:00",
+  "date_redac": "2026-10-15T21:00:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 673,
+   "sortie": 653
+  }
+ },
+ {
   "id": "b0f4d4c86ca06934",
   "slug": "chirp-pong-un-pong-a-deux-telephones-synchronise-par-le-microphone-b0f4d4",
   "titre": "Chirp Pong : un pong à deux téléphones synchronisé par le microphone",

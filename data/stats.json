@@ -1,26 +1,18 @@
 {
- "runs": 167,
- "items_collectes": 1645,
- "breves_publiees": 622,
- "articles_publies": 85,
- "tokens_entree": 584733,
- "tokens_sortie": 829686,
+ "runs": 168,
+ "items_collectes": 1654,
+ "breves_publiees": 626,
+ "articles_publies": 86,
+ "tokens_entree": 589003,
+ "tokens_sortie": 837574,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-15T19:07:53+00:00",
+ "dernier_run": "2026-10-15T19:58:50+00:00",
  "solde": {
-  "total": "86.15",
+  "total": "86.07",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-15T14:21:59+00:00",
-   "message": "brève impossible (Anthropic tells investors quarterly revenue up nearly 50% to) : réponse non-JSON"
-  },
-  {
-   "ts": "2026-10-15T14:22:17+00:00",
-   "message": "brève impossible (Qwen3.8 Flash Next Unsloth quants KLD&Top1% with default wik) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-15T15:31:00+00:00",
    "message": "brève impossible (nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB · Hugging Face) : réponse non-JSON"
@@ -32,10 +24,18 @@
   {
    "ts": "2026-10-15T19:07:34+00:00",
    "message": "brève impossible (I turned a transformer into a game console that runs Pong, T) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-15T19:58:01+00:00",
+   "message": "brève impossible (v2.1.301) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-15T19:58:28+00:00",
+   "message": "brève impossible (QUASAR 4-bit QAT checkpoints for Qwen3.5, Gemma 4 and Muse G) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.51,
+ "depense_usd": 5.59,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -688,10 +688,14 @@
   [
    "2026-10-15T19:07:21+00:00",
    "86.15"
+  ],
+  [
+   "2026-10-15T19:57:33+00:00",
+   "86.07"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 3.22,
+ "depense_mois_usd": 3.3,
  "archive_tentatives": {
   "jour": "2026-10-15",
   "n": 3

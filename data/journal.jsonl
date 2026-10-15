@@ -1840,3 +1840,10 @@
 {"ts": "2026-10-15T19:16:41+00:00", "evenement": "deploiement", "details": {"fichiers": 642, "octets": 11388619}, "sha256": "5350a5c8a3a65f19b6fc14d9979d69d64da0515f45e8cd9ba9858d9e8779761e"}
 {"ts": "2026-10-15T19:16:41+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "b773d7dd4956cd48ce198304c20e92c6d2de2d82031a7847f7ab0715923339ac"}
 {"ts": "2026-10-15T19:16:41+00:00", "evenement": "bilan", "details": {"duree_s": 570.1, "neufs": 5, "breves": 4, "articles": 0, "fichiers": 623, "envois": 642, "publications": 0}, "sha256": "1bee6fc83b34bceb72221c8b3f3e2c8de5bc3f3630e7fab70d85ecdb93a83ef2"}
+{"ts": "2026-10-15T19:57:32+00:00", "evenement": "collecte", "details": {"neufs": 9}, "sha256": "9469241b0f1c4ca77a5a11e13bfaafc94766e9fab76dda902ff4ed8c441ed6ee"}
+{"ts": "2026-10-15T19:58:01+00:00", "evenement": "erreur", "details": {"message": "brève impossible (v2.1.301) : réponse non-JSON"}, "sha256": "71d66233efb1d96f44e7375b24fb8c79bc830bbe503c63f33d56b3360981ffdb"}
+{"ts": "2026-10-15T19:58:28+00:00", "evenement": "erreur", "details": {"message": "brève impossible (QUASAR 4-bit QAT checkpoints for Qwen3.5, Gemma 4 and Muse G) : réponse non-JSON"}, "sha256": "4aaf1a2bc673592a3e4b24f4004956a8cc7e86fd74321e250f556f13e9de1f0b"}
+{"ts": "2026-10-15T19:58:51+00:00", "evenement": "construction", "details": {"fichiers": 624}, "sha256": "64af0b4ad347f7e974eaac033bd271ca34bd5993e0311a0208860dd44c51ce33"}
+{"ts": "2026-10-15T20:07:40+00:00", "evenement": "deploiement", "details": {"fichiers": 643, "octets": 11411281}, "sha256": "2a4ab26c0a8c01472f648f52f24294cd169702929d0effd8bcd9cd05f7985c14"}
+{"ts": "2026-10-15T20:07:40+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "0cc356a42287a19701b3b2bea24b6d83c84c15505a9c153a01c6503814dcda81"}
+{"ts": "2026-10-15T20:07:40+00:00", "evenement": "bilan", "details": {"duree_s": 617.7, "neufs": 9, "breves": 4, "articles": 1, "fichiers": 624, "envois": 643, "publications": 0}, "sha256": "35d83a8c9fcaaa05899f848737d4c8208ace4b762716085e19b847f74fe04270"}

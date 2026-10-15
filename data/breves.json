@@ -1,5 +1,45 @@
 [
  {
+  "id": "b0f4d4c86ca06934",
+  "slug": "chirp-pong-un-pong-a-deux-telephones-synchronise-par-le-microphone-b0f4d4",
+  "titre": "Chirp Pong : un pong à deux téléphones synchronisé par le microphone",
+  "resume": "Simon Willison publie Chirp Pong, un prototype où deux joueurs s'affrontent sur deux téléphones distincts, en HTML statique. La synchronisation passe par le microphone : les appareils, posés près l'un de l'autre, échangent l'état du jeu via des sons interprétés par l'API web du micro. Le tout, construit avec Claude Opus 5.5 Extra dans Claude Code, ajoute des variantes graphiques et de gameplay au pong.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+  "date_source": "2026-10-15T19:47:52+00:00",
+  "date_redac": "2026-10-15T19:57:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 708,
+   "sortie": 1282
+  }
+ },
+ {
+  "id": "02036e1edd17e850",
+  "slug": "qwen-3-8-fn-surpasserait-muse-spark-open-avec-un-modele-huit-fois-plus-02036e",
+  "titre": "Qwen 3.8 FN surpasserait Muse Spark Open avec un modèle huit fois plus petit",
+  "resume": "Un post de r/LocalLLaMA avance que Qwen 3.8 FN dépasse Muse Spark Open, alors qu'il serait huit fois plus petit que ce dernier. L'extrait ne précise ni les benchmarks, ni les conditions de test, ni la taille exacte des modèles. Le message se limite à un partage de lien.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6v8nu/qwen_38_fn_beats_muse_spark_open_despite_being/",
+  "date_source": "2026-10-15T19:33:29+00:00",
+  "date_redac": "2026-10-15T19:57:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 626,
+   "sortie": 799
+  }
+ },
+ {
   "id": "aa4aab04954bdf1f",
   "slug": "bluesky-ouvre-attie-a-tous-pour-creer-jeux-quiz-et-sites-web-aa4aab",
   "titre": "Bluesky ouvre Attie à tous pour créer jeux, quiz et sites web",
@@ -18,6 +58,47 @@
    "modele": "deepseek-flash",
    "entree": 641,
    "sortie": 580
+  }
+ },
+ {
+  "id": "6ebe6e3f40679412",
+  "slug": "compression-sans-perte-pour-la-vram-un-appel-a-retours-sur-r-localllam-6ebe6e",
+  "titre": "Compression sans perte pour la VRAM : un appel à retours sur r/LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande si quelqu'un a déjà testé « neural-weight-compression », présenté comme une méthode de compression sans perte par entropie appliquée à la VRAM. Le message, publié par u/Miserable-School-665, ne fournit ni benchmark ni dépôt de code. La question vise les personnes qui font tourner des modèles en local, où la mémoire vidéo reste le principal facteur limitant.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6ubyp/has_anyone_tried_neuralweightcompression_lossless/",
+  "date_source": "2026-10-15T18:58:54+00:00",
+  "date_redac": "2026-10-15T19:58:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 624,
+   "sortie": 936
+  }
+ },
+ {
+  "id": "5ec5bf11dedae11a",
+  "slug": "fade-un-agent-de-code-qui-discute-pendant-qu-un-second-ecrit-le-code-5ec5bf",
+  "titre": "Fade : un agent de code qui discute pendant qu'un second écrit le code",
+  "resume": "Sur r/LocalLLaMA, un développeur présente Fade, un agent de code qui fait tourner deux agents en parallèle dans le terminal. L'un discute avec l'utilisateur, lit le projet et planifie ; l'autre écrit le code dans une barre latérale. On n'attend plus la fin d'un tour : on peut planifier la suite pendant que le Builder travaille. Chaque changement est validé par une preuve (test ou commande) relancée sur le commit.",
+  "tags": [
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6uazz/i_built_a_coding_agent_you_can_keep_talking_to/",
+  "date_source": "2026-10-15T18:57:53+00:00",
+  "date_redac": "2026-10-15T19:58:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 811,
+   "sortie": 989
   }
  },
  {

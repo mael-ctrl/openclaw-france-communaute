@@ -1,5 +1,88 @@
 [
  {
+  "id": "5e4ea3241e2cfe15",
+  "slug": "ternary-bonsai-2-une-famille-2b-4b-et-9b-basee-sur-qwen-3-5-5e4ea3",
+  "titre": "Ternary Bonsai 2 : une famille 2B, 4B et 9B basée sur Qwen 3.5",
+  "resume": "La famille Ternary Bonsai 2 arrive en versions 2B, 4B et 9B, construites sur Qwen 3.5. Ces modèles ternaires nécessitent le fork de llama.cpp du projet (branche prism) et ne tournent pas sur llama.cpp vanilla. dFlash, MTP et le support MLX sont annoncés. L'auteur du fil signale des comportements de bouclage sur les précédents Bonsai et doute de la tenue des performances en déploiement réel.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6yk1f/ternary_bonsai_2_family_2b_4b_9b_based_on_qwen_35/",
+  "date_source": "2026-10-15T21:45:44+00:00",
+  "date_redac": "2026-10-15T22:12:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 815,
+   "sortie": 911
+  }
+ },
+ {
+  "id": "f51a94ac7b1aebbe",
+  "slug": "openclaw-publie-la-version-2026-10-4-de-son-projet-f51a94",
+  "titre": "OpenClaw publie la version 2026.10.4 de son projet",
+  "resume": "OpenClaw a mis en ligne la version 2026.10.4, datée du 15 octobre 2026 et accessible depuis le dépôt GitHub du projet. La note de version se limite au numéro de version : aucun détail sur les changements, correctifs ou ajouts n'y figure. Il s'agit donc d'une publication technique dont le contenu n'est pas documenté.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.4",
+  "date_source": "2026-10-15T21:43:55+00:00",
+  "date_redac": "2026-10-15T22:12:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 593,
+   "sortie": 704
+  }
+ },
+ {
+  "id": "3577aef4bcaa5f60",
+  "slug": "la-critique-de-la-tech-s-invite-au-cinema-cette-annee-3577ae",
+  "titre": "La critique de la tech s'invite au cinéma cette année",
+  "resume": "Les films sur les fondateurs de la tech disruptive ne sont pas une nouveauté, mais 2026 en compte un nombre inhabituel. Hollywood y porte un regard nettement plus critique sur la façon dont la Silicon Valley remodèle notre réalité. Dans The Social Reckoning, Aaron Sorkin campe Mark Zuckerberg en méchant robotique dont les ambitions déstabilisent la société. Nathan Fielder et Lance Oppenheim signent également un long-métrage sur le même thème.",
+  "tags": [
+   "société",
+   "meta",
+   "business"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
+  "date_source": "2026-10-15T21:39:52+00:00",
+  "date_redac": "2026-10-15T22:12:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 668,
+   "sortie": 1358
+  }
+ },
+ {
+  "id": "6f1f70f2f7c9073e",
+  "slug": "trump-publie-une-photo-retouchee-par-ia-pour-vanter-les-travaux-de-la--6f1f70",
+  "titre": "Trump publie une photo retouchée par IA pour vanter les travaux de la Maison-Blanche",
+  "resume": "Donald Trump a publié sur Truth Social une série de photos présentant les rénovations de la Maison-Blanche. L'une d'elles, qui compare une ancienne colonne à une version présentée comme restaurée, semble toutefois modifiée par IA. Le cliché comporte plusieurs incohérences et a été signalé par le détecteur de Google comme « créé ou modifié » par intelligence artificielle.",
+  "tags": [
+   "société",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
+  "date_source": "2026-10-15T21:09:33+00:00",
+  "date_redac": "2026-10-15T22:12:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 689,
+   "sortie": 877
+  }
+ },
+ {
   "id": "208b43e472c43975",
   "slug": "quels-modeles-open-weight-tiennent-sur-48-64-ou-96-go-de-ram-208b43",
   "titre": "Quels modèles open weight tiennent sur 48, 64 ou 96 Go de RAM ?",
@@ -59,6 +142,27 @@
    "modele": "deepseek-flash",
    "entree": 883,
    "sortie": 867
+  }
+ },
+ {
+  "id": "b19ffbdda6bf0b9f",
+  "slug": "capy-flash-fait-tourner-qwen3-8-flash-next-125b-en-nvfp4-sur-deux-gpu--b19ffb",
+  "titre": "capy-flash fait tourner Qwen3.8-Flash-Next 125B en NVFP4 sur deux GPU 16 Go",
+  "resume": "capy-flash, évolution du moteur ninfer-tp2, fait tourner Qwen3.8-Flash-Next 125B-A6B en NVFP4, experts déchargés en RAM, sur deux GPU grand public de 16 Go en tensor parallel, avec le checkpoint NVFP4 officiel de NVIDIA. Un flag suffit pour revenir à Qwen3.8-27B. Sur 2× RTX 5070 Ti, l'auteur mesure ~100 tok/s en génération contre 78 pour Strata, et ~3,4k tok/s en prefill sur un prompt de 15k.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6wh1z/capyflash_qwen38flashnext_125b_moe_in_full_nvfp4/",
+  "date_source": "2026-10-15T20:20:40+00:00",
+  "date_redac": "2026-10-15T22:13:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 896,
+   "sortie": 1441
   }
  },
  {
@@ -469,6 +573,28 @@
    "modele": "deepseek-flash",
    "entree": 787,
    "sortie": 812
+  }
+ },
+ {
+  "id": "d07ac9cd90df3952",
+  "slug": "openclaw-suppression-de-tests-peu-utiles-dans-agents-skills-et-scripts-d07ac9",
+  "titre": "OpenClaw : suppression de tests peu utiles dans agents, skills et scripts",
+  "resume": "OpenClaw a publié une nouvelle version référencée release-publish/c870d46e3a1d-1792099949, datée du 15 octobre 2026. Le commit associé annonce la suppression de tests jugés peu utiles dans plusieurs composants : agents, skills, migrations, suites, telegram et scripts. Il s'agit donc d'une passe de nettoyage de la base de tests, l'extrait ne mentionnant aucun changement fonctionnel.",
+  "tags": [
+   "openclaw",
+   "agents",
+   "skills",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fc870d46e3a1d-1792099949",
+  "date_source": "2026-10-15T17:07:35+00:00",
+  "date_redac": "2026-10-15T22:13:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 627,
+   "sortie": 661
   }
  },
  {

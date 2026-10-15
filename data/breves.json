@@ -1,5 +1,46 @@
 [
  {
+  "id": "27dd35e5561d8314",
+  "slug": "prises-connectees-le-guide-d-achat-2026-de-frandroid-27dd35",
+  "titre": "Prises connectées : le guide d'achat 2026 de Frandroid",
+  "resume": "Une prise connectée transforme n'importe quel appareil en appareil connecté, rappelle Frandroid. Mais quel modèle choisir ? Le site publie un guide d'achat consacré aux meilleures prises connectées de 2026. Objectif affiché : aider chacun à trouver la prise qui lui convient.",
+  "tags": [
+   "matériel",
+   "société"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/guide-dachat/1458810_prise-connectee-quel-est-le-meilleur-modele",
+  "date_source": null,
+  "date_redac": "2026-10-15T07:52:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 625,
+   "sortie": 921
+  }
+ },
+ {
+  "id": "bfce8fbc2afe6fae",
+  "slug": "fish-devoile-drama-3-un-modele-text-to-speech-moe-de-35b3a-bfce8f",
+  "titre": "Fish dévoile Drama 3, un modèle text-to-speech MoE de 35B3A",
+  "resume": "Fish a publié Drama 3, un modèle de synthèse vocale en architecture MoE de type 35B3A. Malgré sa taille, il tourne correctement sur un DGX Spark, et ses quantifications en 4 bits restent très proches du modèle original. Une démo est disponible sur Hugging Face Spaces, et le modèle peut aussi être téléchargé pour un usage local.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6f9p2/new_tts_king_in_town_fishs_drama_3_35b3a/",
+  "date_source": "2026-10-15T07:30:12+00:00",
+  "date_redac": "2026-10-15T07:51:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 725,
+   "sortie": 325
+  }
+ },
+ {
   "id": "79928c0188f1009d",
   "slug": "hermes-agent-une-version-canari-0-22-1-publiee-79928c",
   "titre": "Hermes Agent : une version canari 0.22.1 publiée",
@@ -39,6 +80,26 @@
    "modele": "deepseek-flash",
    "entree": 689,
    "sortie": 488
+  }
+ },
+ {
+  "id": "ef2ec133031558d6",
+  "slug": "un-egpu-blackwell-pour-l-inference-et-l-affichage-faisable-en-thunderb-ef2ec1",
+  "titre": "Un eGPU Blackwell pour l'inférence et l'affichage : faisable en Thunderbolt ?",
+  "resume": "Un utilisateur de r/LocalLLaMA veut remplir ses ports PCIe de cartes RTX 6000 Blackwell pour faire du tp4. Il demande si un dock eGPU type Razer V2, relié en Thunderbolt à l'USB4 de sa carte mère, peut accueillir une autre Blackwell (5070Ti). Celle-ci servirait aux modèles sidecar et d'affichage, pour éviter une machine sans écran. Un fil sur des plantages d'eGPU RTX Pro 6000 l'a refroidi.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6emqg/egpu_on_blackwell_for_inferencingdisplay/",
+  "date_source": "2026-10-15T06:48:51+00:00",
+  "date_redac": "2026-10-15T07:51:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 788,
+   "sortie": 1280
   }
  },
  {

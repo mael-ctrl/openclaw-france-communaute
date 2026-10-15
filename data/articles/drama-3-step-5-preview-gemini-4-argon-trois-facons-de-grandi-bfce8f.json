@@ -1,0 +1,41 @@
+{
+ "slug": "drama-3-step-5-preview-gemini-4-argon-trois-facons-de-grandi-bfce8f",
+ "titre": "Drama 3, Step-5-Preview, Gemini 4 Argon : trois façons de grandir",
+ "chapo": "Un modèle vocal de 35 milliards de paramètres qui tourne sur une station de bureau, un autre de 600 milliards taillé pour les agents : la même semaine, le local et le cloud se répondent. Pendant ce temps, Google déploie Gemini 4 Argon dans le monde entier, en annonçant déjà une hausse de tarif.",
+ "html": "<h2 id=\"deux-sorties-deux-echelles\">Deux sorties, deux échelles</h2>\n<p>Fish a publié <strong>Drama 3</strong>, un modèle de synthèse vocale en architecture MoE de type 35B3A. Malgré cette taille, il tourne correctement sur un DGX Spark, et ses quantifications en 4 bits restent très proches du modèle original. Une démo est disponible sur Hugging Face Spaces, et le modèle peut aussi être téléchargé pour un usage local — de quoi travailler la voix sans dépendre d'une API distante.</p>\n<p>En face, StepFun a mis en ligne <strong>Step-5-Preview</strong>, présenté comme son modèle phare pour le travail agentique. Selon l'annonce, il offre des performances de premier plan en ingénierie logicielle et en travail de connaissance professionnel, avec une force particulière dans la finance. D'après le titre du fil, il affiche 600B de paramètres et un contexte de 1M. Il vise donc les usages d'agents sur des tâches longues et spécialisées.</p>\n<p>Deux poids lourds, deux philosophies : une synthèse vocale qu'on exécute chez soi, et un très gros modèle pensé pour des chaînes de travail professionnelles. L'architecture MoE et la quantification 4 bits expliquent en partie pourquoi des tailles pareilles restent manipulables sur du matériel raisonnable.</p>\n<h2 id=\"gemini-4-argon-deploye-puis-plus-cher\">Gemini 4 Argon : déployé, puis plus cher</h2>\n<p>Google déploie <strong>Gemini 4 Argon</strong> à grande échelle. Dévoilé au début du mois, le modèle est accessible depuis le 13 octobre 2026 dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme. L'ambition affichée est claire : en faire un outil de travail pour les tâches complexes et le moteur de ses agents IA.</p>\n<p>La contrepartie est tarifaire. Le prix de l'API doit doubler au 1er décembre. Pour les équipes qui construisent sur cette API, la question du coût par tâche se pose donc dès maintenant, à mesure que les agents enchaînent les appels et que le modèle devient la brique de base de plusieurs produits.</p>\n<h2 id=\"l-ia-dans-les-correctifs-et-sur-les-nez\">L'IA dans les correctifs et sur les nez</h2>\n<p>Côté sécurité, Microsoft a publié un Patch Tuesday hors norme, avec plus de 1 400 failles corrigées dans le code de Windows. C'est la troisième fois cette année que l'éditeur bat son propre record. Sans surprise, l'entreprise indique s'être massivement servie de l'intelligence artificielle pour débusquer les bugs.</p>\n<p>Le matériel n'est pas en reste. Une fuite dévoile les premières <strong>lunettes connectées de Samsung</strong>, avant même leur présentation officielle. Les montures seraient signées Gentle Monster et Warby Parker, pour un poids de 41 grammes seulement, et Gemini serait intégré dans les branches. La sortie est attendue dès le mois prochain.</p>\n<p>Un même mouvement se dessine : l'IA quitte la fenêtre de conversation pour se glisser dans les correctifs, les API et les montures. Elle devient une couche d'infrastructure, moins visible et plus difficile à facturer au détail.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois lignes de force se croisent. Les modèles continuent de grossir — 35B pour une voix, 600B pour un agent — pendant que l'exécution locale et la quantification 4 bits rendent ces tailles plus abordables qu'on ne l'imagine. Les API, elles, deviennent un poste de coût à surveiller, comme le montre le doublement annoncé du prix de Gemini 4 Argon au 1er décembre. Et l'IA s'installe dans des endroits moins visibles : les correctifs de Windows, où elle aide à débusquer plus de 1 400 failles, et bientôt des lunettes de 41 grammes.</p>",
+ "pivot": "bfce8fbc2afe6fae",
+ "tags": [
+  "gemini",
+  "agents",
+  "sécurité",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6f9p2/new_tts_king_in_town_fishs_drama_3_35b3a/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/plus-de-1-400-failles-windows-le-nouveau-record-monstrueux-du-patch-tuesday-de-microsoft.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6dx5x/stepfun_step5preview_released_600b27b1m_context/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/15/les-lunettes-connectees-de-samsung-sortent-de-lombre/"
+  }
+ ],
+ "date": "2026-10-15T07:52:23+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1566,
+  "sortie": 3667
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "de-l-administration-aux-tribunaux-l-ia-change-d-echelle-bb66b4",
+ "titre": "De l'administration aux tribunaux, l'IA change d'échelle",
+ "chapo": "Un assistant mutualisé par sept Länder allemands, une puce Nvidia pour portables, un modèle de Google déployé mondialement, huit États américains en procès : la même semaine, l'IA a changé de terrain. Elle sort de la démonstration pour s'installer dans les administrations, les machines et les prétoires.",
+ "html": "<h2 id=\"sept-lander-un-seul-assistant\">Sept Länder, un seul assistant</h2>\n<p>Dataport revendique <strong>100 000 utilisateurs</strong> de LLMoin, l'assistant IA mutualisé par sept Länder allemands et 17 clients communaux. Développé avec Hambourg, il s'appuie sur un produit réutilisable à espaces séparés — chaque entité dispose donc de son instance, sur une base commune.</p>\n<p>Le chiffre donne la mesure d'un déploiement qui n'a rien d'un pilote : à cette échelle, l'assistant est un outil de travail quotidien pour des agents publics répartis sur plusieurs administrations. Ce montage illustre les choix de mutualisation et d'intégration des administrations allemandes, sur un périmètre distinct de celui de L'Assistant français.</p>\n<p>Deux approches souveraines, donc, qui ne se recouvrent pas : la comparaison porte sur des dispositifs séparés, pas sur deux versions d'un même projet.</p>\n<h2 id=\"gemini-4-argon-modele-et-moteur-d-agents\">Gemini 4 Argon, modèle et moteur d'agents</h2>\n<p>Google déploie Gemini 4 Argon à grande échelle. Dévoilé au début du mois, le modèle est accessible depuis le <strong>13 octobre 2026</strong> dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme.</p>\n<p>La firme veut en faire un outil de travail pour les tâches complexes et le moteur de ses agents IA. Autrement dit : le modèle ne sert plus seulement à répondre, il est censé porter l'infrastructure d'agents qui exécutent des tâches.</p>\n<p>Reste la variable économique. Le prix de l'API doit <strong>doubler au 1er décembre</strong>. Un renchérissement qui intervient au moment même où le modèle est présenté comme le socle d'usages professionnels — la question du coût par tâche devient aussi structurante que celle des capacités.</p>\n<h2 id=\"securite-deux-signaux-dans-la-meme-semai\">Sécurité : deux signaux dans la même semaine</h2>\n<p>Selon 01net, <strong>Claude a reproduit en 28 minutes</strong> la cyberattaque qui a fait surchauffer les frigos de centaines de supermarchés français. L'expérimentation montre que l'offensive restait à la portée de n'importe quel cybercriminel, même sans compétences techniques. Le résultat illustre à quelle vitesse un modèle peut désormais abaisser la barrière technique d'une attaque visant des équipements du quotidien.</p>\n<p>En parallèle, huit États américains poursuivent OpenAI, l'accusant de nuire aux enfants et d'avoir induit ses clients en erreur sur la sécurité de ChatGPT. L'Iowa, le Kansas, le Nebraska, la Virginie-Occidentale, l'Arkansas, l'Arizona, l'Idaho et le Montana ont déposé des <strong>plaintes séparées</strong>. Ils reprochent à l'entreprise d'avoir placé ses profits avant la sécurité.</p>\n<p>Les deux dossiers ne se répondent pas : l'un porte sur ce qu'un modèle permet de faire à des infrastructures, l'autre sur ce qu'un éditeur dit de la sûreté de son produit. Mais tous deux déplacent la question de la performance vers celle de la responsabilité.</p>\n<h2 id=\"nvidia-pousse-l-ia-locale-dans-le-portab\">Nvidia pousse l'IA locale dans le portable</h2>\n<p>Nvidia signe avec le <strong>RTX Spark</strong> sa première puce complète destinée aux PC portables Windows. Elle réunit un GPU Blackwell, un processeur Arm et jusqu'à 128 Go de mémoire unifiée dans un seul boîtier.</p>\n<p>Le test, mené dans un Asus ProArt P16, couvre le jeu, l'IA locale et l'autonomie, face à un portable gamer équipé d'une RTX 5070, un Mac Apple Silicon et un PC Ryzen AI Max+ 395.</p>\n<p>Le mouvement est cohérent avec le reste de la semaine : pendant que certains modèles passent par l'API et voient leur tarif grimper, d'autres capacités s'installent directement dans la machine. Deux trajectoires techniques, deux modèles économiques, qui coexistent sans s'exclure.</p>\n<h2>Et maintenant ?</h2>\n<p>Cette semaine dessine quatre fronts simultanés : la mutualisation administrative à l'échelle de sept Länder, l'industrialisation d'un modèle via une API dont le prix double, la sécurité prise en étau entre une attaque reproduite en 28 minutes et huit plaintes étatiques, et le calcul qui descend dans le châssis d'un portable. Aucun de ces mouvements ne dépend des autres, mais tous réduisent la distance entre l'IA et les infrastructures qui font tourner le quotidien — frigos de supermarché, postes de travail d'agents publics, machines personnelles.</p>",
+ "pivot": "bb66b4a486d92bd2",
+ "tags": [
+  "gemini",
+  "claude",
+  "sécurité",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/llmoin-lassistant-ia-que-sept-lander-allemands-mutualisent/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/test/3283093_test-nvidia-rtx-spark"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/frigos-de-supermarches-pirates-claude-a-reproduit-la-cyberattaque-en-28-minutes.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  }
+ ],
+ "date": "2026-10-15T23:04:15+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1593,
+  "sortie": 2869
+ }
+}

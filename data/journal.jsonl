@@ -1743,3 +1743,10 @@
 {"ts": "2026-10-15T00:54:31+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "2b92505db7ceff3560e38aac7d5db5ad16fe61a2572110db6c8d993f6dce9c0b"}
 {"ts": "2026-10-15T00:54:31+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-15.json", "publications": 750}, "sha256": "77589009adc589c337600c2f6526123bd0755d056dd5464e8f310cd37e4e8fd4"}
 {"ts": "2026-10-15T00:54:31+00:00", "evenement": "bilan", "details": {"duree_s": 1012.8, "neufs": 4, "breves": 3, "articles": 1, "fichiers": 608, "envois": 623, "publications": 4}, "sha256": "ceaa6733612ca0a15d6ac884a6635bd92148a4ca628cc1930d48a6067ea3305e"}
+{"ts": "2026-10-15T04:45:43+00:00", "evenement": "collecte", "details": {"neufs": 8}, "sha256": "a6fdc5d93c749d57ae29a27213daff3c2d7b23171307e5bd4041c88be0d38c8b"}
+{"ts": "2026-10-15T04:50:52+00:00", "evenement": "construction", "details": {"fichiers": 609}, "sha256": "342beaf9a020cdd051d7441d5fbe7aec83e2f8fea4a136ffb98755f37bc6b190"}
+{"ts": "2026-10-15T04:59:23+00:00", "evenement": "deploiement", "details": {"fichiers": 624, "octets": 10356520}, "sha256": "c40654198413d51a9a6a65de5cc8b9f0798dc548d4079d18de711de1a5418288"}
+{"ts": "2026-10-15T04:59:24+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "2c42271b45a6201eee817f0bff2cf6f512db126e684f6fb35eb985205a8bae74"}
+{"ts": "2026-10-15T05:00:14+00:00", "evenement": "erreur", "details": {"message": "archivage wayback : The read operation timed out"}, "sha256": "fa76c8ea88ae4ff677465f13fcc3c93d112bf0877851d074b24bf72f9748cd03"}
+{"ts": "2026-10-15T05:00:25+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "422b77911a5125f57a6d250aff42d6b021989cac229a22a7d99e3f04a60045d9"}
+{"ts": "2026-10-15T05:00:25+00:00", "evenement": "bilan", "details": {"duree_s": 891.5, "neufs": 8, "breves": 6, "articles": 1, "fichiers": 609, "envois": 624, "publications": 4}, "sha256": "f618fa64d395cbdaf6fddcd5c63946e6a2ffe3a493ad181126e9523fb94a5db5"}

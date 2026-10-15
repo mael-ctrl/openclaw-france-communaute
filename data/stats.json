@@ -1,22 +1,18 @@
 {
- "runs": 151,
- "items_collectes": 1505,
- "breves_publiees": 549,
- "articles_publies": 72,
- "tokens_entree": 514195,
- "tokens_sortie": 720247,
+ "runs": 152,
+ "items_collectes": 1513,
+ "breves_publiees": 555,
+ "articles_publies": 73,
+ "tokens_entree": 520165,
+ "tokens_sortie": 731019,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-15T00:39:49+00:00",
+ "dernier_run": "2026-10-15T04:50:52+00:00",
  "solde": {
   "total": "84.28",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-13T07:14:29+00:00",
-   "message": "archivage wayback : The read operation timed out"
-  },
   {
    "ts": "2026-10-14T07:11:41+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 1 column 2109 (char 2108)"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-15T00:38:48+00:00",
    "message": "brève impossible (Strata performance finetuning - try it out) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-15T05:00:14+00:00",
+   "message": "archivage wayback : The read operation timed out"
   }
  ],
  "solde_initial": "91.66",
@@ -624,13 +624,17 @@
   [
    "2026-10-15T00:38:08+00:00",
    "84.28"
+  ],
+  [
+   "2026-10-15T04:45:44+00:00",
+   "84.28"
   ]
  ],
  "mode_budget": "normal",
  "depense_mois_usd": 5.09,
  "archive_tentatives": {
   "jour": "2026-10-15",
-  "n": 1
+  "n": 2
  },
  "derniere_archive": "2026-10-14"
 }

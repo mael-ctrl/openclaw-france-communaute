@@ -1,0 +1,41 @@
+{
+ "slug": "serveurs-d-occasion-api-qui-double-l-ia-cherche-son-cout-ree-7314e5",
+ "titre": "Serveurs d'occasion, API qui double : l'IA cherche son coût réel",
+ "chapo": "Sur r/LocalLLaMA, un utilisateur détaille trois serveurs à quatre R9700, bâtis sur des EPYC d'occasion à 127 dollars : 384 Go de VRAM cumulés, environ 10 700 dollars la machine. Au même moment, Google déploie Gemini 4 Argon dans le monde entier — en annonçant que le prix de son API doublera le 1er décembre.",
+ "html": "<h2 id=\"384-go-de-vram-des-epyc-a-127-dollars\">384 Go de VRAM, des EPYC à 127 dollars</h2>\n<p>Le montage tient en quelques choix. Quatre cartes R9700 par machine, pas de Threadripper mais des <strong>EPYC d'occasion à 127 dollars</strong>, et une facture d'environ <strong>10 700 dollars par serveur</strong>, pour <strong>384 Go de VRAM</strong> cumulés sur les trois machines.</p>\n<p>Ce n'est pas un banc d'essai : l'utilisateur fait tourner l'IA de son entreprise, <strong>USA Arms</strong>, qui recense des dizaines de milliers de sociétés liées aux armes à feu. Les modèles y font un travail ingrat et vérifiable — vérifier les faits sources, démêler les identités, extraire services et horaires. Trois tâches où l'erreur se paie, et où le coût par token cesse d'être un détail d'ingénieur.</p>\n<h2 id=\"l-autre-voie-l-api-plus-simple-plus-revi\">L'autre voie : l'API, plus simple, plus révisable</h2>\n<p>À l'autre bout de l'échelle, la voie de l'API. Google a déployé <strong>Gemini 4 Argon</strong> à grande échelle : dévoilé au début du mois, le modèle est accessible depuis le <strong>13 octobre 2026</strong> dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme.</p>\n<p>Google veut en faire un outil de travail pour les tâches complexes, et le moteur de ses agents IA. Un point de calendrier mérite d'être noté : <strong>le prix de l'API doit doubler au 1er décembre</strong>. Pour qui a bâti son outillage autour d'un modèle, la trajectoire commerciale compte autant que la fiche technique. Les serveurs du dessus et les API ne s'opposent pas — ils se répartissent selon le volume, la latence attendue et le contrôle que l'on veut garder sur ses données.</p>\n<h2 id=\"agents-coordonnes-robots-qui-apprennent-\">Agents coordonnés, robots qui apprennent à l'usine</h2>\n<p><strong>Anthropic</strong> a profité de l'AI Engineer New York pour présenter ses « dynamic workflows », une approche destinée à coordonner des agents <strong>Claude</strong>. L'entreprise dit s'appuyer sur des leçons tirées d'Unix et de Linux pour expliquer comment ces agents peuvent mener des projets plus ambitieux. Objectif affiché : éviter que la complexité de ces projets ne submerge les développeurs.</p>\n<p>Du côté industriel, <strong>Standard Bots</strong> illustre une autre manière de faire progresser des modèles. Latent Space détaille sa pile IA, où des modèles pré-entraînés apprennent des tâches d'usine <strong>à partir de démonstrations</strong>, puis progressent grâce aux corrections issues de déploiements réels. L'accent porte sur l'exécution fiable en environnement industriel.</p>\n<p>Dans les deux cas, le même déplacement : la valeur ne se mesure plus à la démonstration, mais à la tenue en production.</p>\n<h2 id=\"1-400-failles-et-l-ia-qui-les-debusque\">1 400 failles, et l'IA qui les débusque</h2>\n<p>Microsoft a publié un <strong>Patch Tuesday hors norme</strong>, avec plus de <strong>1 400 failles</strong> corrigées dans le code de Windows. C'est la troisième fois cette année que l'éditeur bat son propre record. Sans surprise, l'entreprise indique s'être massivement servie de l'intelligence artificielle pour débusquer les bugs.</p>\n<p>Le même outil qui coordonne des agents et apprend des gestes d'usine sert donc aussi à fouiller du code existant. Le nombre de correctifs ne dit rien, à lui seul, du stock de failles encore ouvertes.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux façons de payer l'IA se dessinent. D'un côté du capital fixe : des cartes, des EPYC d'occasion, une facture unique et de la VRAM que l'on possède. De l'autre, un service révisable — Gemini 4 Argon, avec un prix d'API qui double au 1er décembre. Entre les deux, l'écosystème avance sur les agents et les robots d'usine, où le critère n'est plus la démonstration mais la tenue en production. Et sur la sécurité, avec plus de 1 400 correctifs Windows trouvés largement à l'aide de l'IA.</p>",
+ "pivot": "7314e5b0b2862521",
+ "tags": [
+  "matériel",
+  "agents",
+  "gemini",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x67qeu/4x_r9700_builds_with_127_used_epycs_107k_allin/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/plus-de-1-400-failles-windows-le-nouveau-record-monstrueux-du-patch-tuesday-de-microsoft.html"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/standard-bots"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/claude-dynamic-workflows"
+  }
+ ],
+ "date": "2026-10-15T04:50:52+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1546,
+  "sortie": 4975
+ }
+}

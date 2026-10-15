@@ -1,5 +1,128 @@
 [
  {
+  "id": "d26fa214e34c75dc",
+  "slug": "zero-motorcycles-bat-le-record-de-distance-en-moto-electrique-436-5-km-d26fa2",
+  "titre": "Zero Motorcycles bat le record de distance en moto électrique : 436,5 km sur une charge",
+  "resume": "Zero Motorcycles a battu le record de distance parcourue sur une seule charge pour une moto électrique, avec 436,5 kilomètres. La marque a utilisé sa Zero DS, le modèle le plus endurant de sa gamme. Le précédent record s'arrêtait à 310,7 kilomètres. Le trajet a toutefois nécessité certaines conditions.",
+  "tags": [
+   "matériel",
+   "société"
+  ],
+  "importance": 1,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/vroom/2353625-436-km-sans-recharger-zero-prouve-quune-moto-electrique-peut-aller-loin-tant-quon-roule-doucement.html",
+  "date_source": null,
+  "date_redac": "2026-10-15T11:45:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 712,
+   "sortie": 434
+  }
+ },
+ {
+  "id": "2f10a9dd54c0dbdd",
+  "slug": "eiliko-le-robot-compagnon-qui-envoie-vos-confidences-sur-des-serveurs--2f10a9",
+  "titre": "Eiliko, le robot-compagnon qui envoie vos confidences sur des serveurs chinois",
+  "resume": "Eiliko est un nouveau robot-compagnon en forme de marshmallow, capable d'adapter ses expressions cartoon à l'humeur de son utilisateur. Mais dès qu'on lui parle en Wi-Fi, l'appareil transmet la conversation vers la Chine : son compagnon IA peut stocker tout ce qu'on lui confie sur des serveurs chinois, exposés au piratage. Un point sensible pour un objet qui s'adresse aussi aux enfants.",
+  "tags": [
+   "robots",
+   "sécurité",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+  "date_source": "2026-10-15T11:00:00+00:00",
+  "date_redac": "2026-10-15T11:45:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 599
+  }
+ },
+ {
+  "id": "2e5db6ecaf244189",
+  "slug": "nvidia-annonce-plusieurs-modeles-cette-semaine-et-prepare-le-sien-2e5db6",
+  "titre": "NVIDIA annonce plusieurs modèles cette semaine et prépare le sien",
+  "resume": "NVIDIA AI a indiqué sur X que « de nombreux modèles » allaient sortir cette semaine, et que l'entreprise en prépare un de son côté. Le compte officiel ne donne ni nom, ni date précise, ni caractéristiques. Le message relayé sur r/LocalLLaMA se limite à cette annonce.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6ijlk/nvidia_ai_so_many_models_launching_this_week_and/",
+  "date_source": "2026-10-15T10:54:47+00:00",
+  "date_redac": "2026-10-15T11:45:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 651,
+   "sortie": 1110
+  }
+ },
+ {
+  "id": "ec4dacd350d73a18",
+  "slug": "sur-r-localllama-une-question-sur-le-sur-apprentissage-et-la-creativit-ec4dac",
+  "titre": "Sur r/LocalLLaMA, une question sur le sur-apprentissage et la créativité des modèles",
+  "resume": "Un internaute de r/LocalLLaMA s'interroge sur le lien entre sur-apprentissage et créativité. Selon lui, GPT-2, entraîné sur un jeu de données bien plus petit, produisait des résultats très créatifs. Les modèles actuels excellent à prédire, surtout du code, mais généralisent mal. Il demande si un entraînement sur d'énormes jeux de données avec un ajustement moindre serait plus créatif, et interroge la communauté sur les epochs et le taux d'apprentissage.",
+  "tags": [
+   "recherche",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6iieq/overfitting_and_creativity/",
+  "date_source": "2026-10-15T10:52:49+00:00",
+  "date_redac": "2026-10-15T11:45:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 803,
+   "sortie": 955
+  }
+ },
+ {
+  "id": "cee0fd48fb945b0e",
+  "slug": "openclaw-2026-9-33-correctifs-de-securite-sur-la-branche-stable-etendu-cee0fd",
+  "titre": "OpenClaw 2026.9.33 : correctifs de sécurité sur la branche stable étendue",
+  "resume": "OpenClaw publie la version 2026.9.33, une release « gateway-only » étendue stable, son équivalent du LTS : l'état du projet fin septembre 2026, plus des correctifs de sécurité critiques, de fiabilité et de performance, et le support de nouveaux modèles. Les mises à jour de la ligne 2026.9 préservent état, données de plugins, propriété des services et chemins d'état Windows. La version la plus récente à ce jour est 2026.10.3.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "sécurité",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.33",
+  "date_source": "2026-10-15T10:39:22+00:00",
+  "date_redac": "2026-10-15T11:45:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 822,
+   "sortie": 1338
+  }
+ },
+ {
+  "id": "ba6ccf7db19e268d",
+  "slug": "la-page-du-sipeed-maixstation-est-en-ligne-ba6ccf",
+  "titre": "La page du Sipeed Maixstation est en ligne",
+  "resume": "Sur le subreddit r/LocalLLaMA, un post signale que la page dédiée au Sipeed Maixstation est désormais accessible en ligne. Publié le 15 octobre 2026, le message se limite à cette annonce : l'extrait disponible ne contient ni fiche technique, ni tarif, ni date de disponibilité. Aucun détail supplémentaire n'est donc fourni sur le contenu réel de cette page.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6i6ll/sipeed_maixstation_page_is_live/",
+  "date_source": "2026-10-15T10:33:17+00:00",
+  "date_redac": "2026-10-15T11:45:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 607,
+   "sortie": 888
+  }
+ },
+ {
   "id": "262ccc20f8f8ba4e",
   "slug": "withings-assume-de-faire-payer-la-synchronisation-avec-apple-sante-et--262ccc",
   "titre": "Withings assume de faire payer la synchronisation avec Apple Santé et Strava",

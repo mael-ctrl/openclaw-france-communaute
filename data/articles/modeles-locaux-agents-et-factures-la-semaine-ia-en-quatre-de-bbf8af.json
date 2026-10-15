@@ -1,0 +1,41 @@
+{
+ "slug": "modeles-locaux-agents-et-factures-la-semaine-ia-en-quatre-de-bbf8af",
+ "titre": "Modèles locaux, agents et factures : la semaine IA en quatre dépêches",
+ "chapo": "Microsoft développe une version locale de son modèle de code à 137 milliards de paramètres, Meta est présenté comme un laboratoire de pointe, Gemini 4 Argon se déploie dans le monde entier et le prix de son API doit doubler. Voici les dépêches qui ont marqué la semaine.",
+ "html": "<h2 id=\"mai-code-1-1-flash-137-milliards-de-para\">MAI Code 1.1 Flash : 137 milliards de paramètres, 6,8 actifs</h2>\n<p>Microsoft AI a développé une version locale de <strong>MAI Code 1.1 Flash</strong>, un modèle à mélange d'experts optimisé pour le code. Le chiffre qui retient l'attention : <strong>137 milliards de paramètres</strong> au total, dont <strong>6,8 milliards actifs au moment de l'inférence</strong>.</p>\n<p>La page liée dans la discussion évoque des modèles locaux et des outils sandboxés sur GitHub et Windows. L'orientation est claire : un assistant de code qui tourne sur la machine plutôt que dans l'infrastructure d'un fournisseur.</p>\n<p>Sur r/LocalLLaMA, c'est justement la taille du modèle qui agite les échanges. La question posée est simple : que signifie « local » quand le modèle annonce 137 milliards de paramètres ? L'architecture à mélange d'experts ne sollicite qu'une fraction des paramètres à chaque inférence, mais le débat sur ce que cela implique concrètement pour l'exécution en local reste entier.</p>\n<h2 id=\"meta-muse-wonder-msl-rejoint-les-laborat\">Meta Muse Wonder : MSL rejoint les laboratoires de pointe</h2>\n<p>C'est Latent Space qui le formule ainsi : <strong>Meta Muse Wonder</strong> et <strong>Wonder Full</strong>, les modèles de MSL, installent MSL parmi les laboratoires de pointe. Le média considère que cette émergence est désormais actée — une appréciation, pas une mesure, mais elle donne le ton de la dépêche.</p>\n<p>Le modèle frontalier de MSL y est présenté comme comparable à la génération <strong>Claude 5.5</strong>. C'est la seule référence de niveau avancé présente dans la source : pas de détail sur les benchmarks, les tailles de modèles ou les modalités de diffusion.</p>\n<p>Reste le positionnement. Là où Microsoft met en avant une exécution locale pour du code, Latent Space place Meta sur le terrain du modèle frontalier. Deux entrées différentes dans la même conversation sur ce que « modèle de pointe » veut dire en cette fin d'année.</p>\n<h2 id=\"patch-tuesday-plus-de-1-400-failles-reco\">Patch Tuesday : plus de 1 400 failles, record battu</h2>\n<p>Microsoft a publié un Patch Tuesday hors norme : <strong>plus de 1 400 failles corrigées</strong> dans le code de Windows. C'est la <strong>troisième fois cette année</strong> que l'éditeur bat son propre record — un rythme qui en dit long sur la quantité de code à maintenir.</p>\n<p>Sans surprise, l'entreprise indique s'être massivement servie de l'intelligence artificielle pour débusquer les bugs. L'IA comme outil de recherche de vulnérabilités, donc, et non comme produit fini.</p>\n<p>Le même groupe apparaît ainsi dans deux dépêches de la semaine pour deux usages bien distincts : les modèles locaux d'un côté, la maintenance de Windows de l'autre. Rien ne relie les deux sujets, sinon l'acteur.</p>\n<h2 id=\"gemini-4-argon-et-withings-le-prix-des-m\">Gemini 4 Argon et Withings : le prix des modèles et celui des données</h2>\n<p>Google déploie <strong>Gemini 4 Argon</strong> à grande échelle. Dévoilé au début du mois, le modèle est accessible depuis le <strong>13 octobre 2026</strong> dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme. Google veut en faire un outil de travail pour les tâches complexes et le moteur de ses agents IA. Une réserve de taille : le prix de l'API doit <strong>doubler au 1er décembre</strong>.</p>\n<p>Chez Withings, la facture se présente autrement. Après la polémique du 13 octobre, la marque parle pour la première fois à Numerama : la synchronisation vers <strong>Apple Santé</strong>, <strong>Health Connect</strong> et <strong>Strava</strong> est réservée aux abonnés <strong>Withings+</strong>, à <strong>10 euros par mois</strong>.</p>\n<p>Withings assume cette décision, qualifiée de « la plus dure » de son histoire, et ne prévoit pas de marche arrière. À l'heure de l'IA générative, ne pas monétiser ses données menacerait une entreprise de santé, fait valoir la marque. Un raisonnement qui n'est pas sans rappeler celui d'un fournisseur de modèle qui ajuste le tarif de son API.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, quatre angles, et une même question posée en filigrane : qui paie, et pour quoi. Google double le tarif de son API au moment où il veut faire de Gemini 4 Argon le moteur de ses agents ; Withings facture la synchronisation de données de santé ; Microsoft mobilise l'IA pour colmater Windows et développe par ailleurs un modèle de code à exécuter en local. Le déploiement se fait, la note arrive aussi — reste à savoir ce que les utilisateurs accepteront de prendre en charge.</p>",
+ "pivot": "bbf8af0c2bfa4725",
+ "tags": [
+  "meta",
+  "gemini",
+  "sécurité",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6h51s/137b_a68b_model_from_microsoft/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/plus-de-1-400-failles-windows-le-nouveau-record-monstrueux-du-patch-tuesday-de-microsoft.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2353527-la-vraie-valeur-cest-la-donnee-withings-defend-sa-decision-de-faire-payer-la-synchronisation-avec-apple-et-strava.html"
+  }
+ ],
+ "date": "2026-10-15T11:46:14+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1571,
+  "sortie": 5923
+ }
+}

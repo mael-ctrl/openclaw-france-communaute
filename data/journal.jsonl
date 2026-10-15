@@ -1817,3 +1817,9 @@
 {"ts": "2026-10-15T14:37:09+00:00", "evenement": "deploiement", "details": {"fichiers": 638, "octets": 10570458}, "sha256": "9e0306363698d4d428fabb93cb5590321345eaa4680a2030a31defda74464216"}
 {"ts": "2026-10-15T14:37:10+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "9ebffd1356bc67d2ed624edcac49ed2e261bd8f7922d82bc67620e8d1475c590"}
 {"ts": "2026-10-15T14:37:10+00:00", "evenement": "bilan", "details": {"duree_s": 991.4, "neufs": 10, "breves": 4, "articles": 1, "fichiers": 620, "envois": 638, "publications": 0}, "sha256": "8c32a02018e853bd7c510a5cc6863868426bbc352346a14f30cbb1c91e08a7b7"}
+{"ts": "2026-10-15T15:30:38+00:00", "evenement": "collecte", "details": {"neufs": 8}, "sha256": "87ed288e750fe968323a0b27cce28e685ca47a6e2f0372545df18bb5f498e414"}
+{"ts": "2026-10-15T15:31:00+00:00", "evenement": "erreur", "details": {"message": "brève impossible (nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB · Hugging Face) : réponse non-JSON"}, "sha256": "ed33f381b55b09598a4d63248b5620034dd369aca01b820d09402b89e849e320"}
+{"ts": "2026-10-15T15:31:43+00:00", "evenement": "construction", "details": {"fichiers": 621}, "sha256": "50e1f834164e491c87d033cfb0dd6cd89526dc10c1f46d6bd72dbe02b22a5038"}
+{"ts": "2026-10-15T15:46:21+00:00", "evenement": "deploiement", "details": {"fichiers": 639, "octets": 10582358}, "sha256": "dde2cdf2baf69495519b2a606e7fe525c848073783ca9789bf62df5fd8797419"}
+{"ts": "2026-10-15T15:46:22+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "368073b51cf268f34141eb7e59b70c3277acd133ca5daf09b3b8137c8cba4367"}
+{"ts": "2026-10-15T15:46:22+00:00", "evenement": "bilan", "details": {"duree_s": 958.0, "neufs": 8, "breves": 5, "articles": 1, "fichiers": 621, "envois": 639, "publications": 0}, "sha256": "9ad32863869517b183304ffd7b4711adbea49b44f43a8425845c7fc4573ac6f4"}

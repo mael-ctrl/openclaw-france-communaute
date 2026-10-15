@@ -1,5 +1,108 @@
 [
  {
+  "id": "15c0ca5aa8a64229",
+  "slug": "des-agents-ia-arrivent-dans-les-voitures-de-rivian-15c0ca",
+  "titre": "Des agents IA arrivent dans les voitures de Rivian",
+  "resume": "Rivian va intégrer des agents IA à ses voitures, rapporte TechCrunch. Le fonctionnement précis de cette intégration n'est pas encore détaillé par l'entreprise. On en saura davantage lors de son événement « AI & Autonomy Day », prévu en décembre.",
+  "tags": [
+   "agents",
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+  "date_source": null,
+  "date_redac": "2026-10-15T15:31:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 605,
+   "sortie": 605
+  }
+ },
+ {
+  "id": "38ef1a595edfb8b0",
+  "slug": "flux-3-image-klein-integre-diffusers-38ef1a",
+  "titre": "FLUX.3 Image Klein intègre Diffusers",
+  "resume": "Hugging Face annonce l'arrivée de FLUX.3 Image Klein dans Diffusers, sa bibliothèque dédiée aux modèles de diffusion. Concrètement, ce modèle d'image peut désormais être chargé et utilisé via Diffusers. L'information est publiée sur le blog de la plateforme.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hugging Face",
+  "lien_source": "https://huggingface.co/blog/flux-3",
+  "date_source": null,
+  "date_redac": "2026-10-15T15:31:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 577,
+   "sortie": 511
+  }
+ },
+ {
+  "id": "2099c57101f02e6d",
+  "slug": "une-version-gguf-de-ling-3-1-flash-publiee-sur-hugging-face-2099c5",
+  "titre": "Une version GGUF de Ling-3.1-flash publiée sur Hugging Face",
+  "resume": "Le dépôt AtomicChat/Ling-3.1-flash-GGUF est apparu sur Hugging Face, et son partage a été relayé sur r/LocalLLaMA. Le format GGUF est celui utilisé pour faire tourner un modèle en local. L'utilisateur à l'origine du signalement indiquait la veille qu'il était difficile de faire tourner Ling-3.1-flash ; il annonce aujourd'hui que ça arrive.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6of05/atomicchatling31flashgguf_hugging_face/",
+  "date_source": "2026-10-15T15:16:42+00:00",
+  "date_redac": "2026-10-15T15:30:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 646,
+   "sortie": 1033
+  }
+ },
+ {
+  "id": "0a6a9ebc71e1a519",
+  "slug": "nvidia-publie-la-famille-de-modeles-nemotron-3-5-super-vl-120b-a12b-0a6a9e",
+  "titre": "NVIDIA publie la famille de modèles Nemotron 3.5 Super VL 120B A12B",
+  "resume": "NVIDIA a mis en ligne la famille de modèles Nemotron 3.5 Super VL 120B A12B, relayée sur r/LocalLLaMA. Elle se décline en une version de base, en variantes NVFP4 et BF16, et inclut un décodage spéculatif LiLiCorr. Ces déclinaisons couvrent plusieurs formats de précision et une méthode d'inférence accélérée, deux points qui pèsent pour ceux qui font tourner des modèles en local.",
+  "tags": [
+   "matériel",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6nl8m/nvidianvidianemotron35supervl120ba12b_model/",
+  "date_source": "2026-10-15T14:46:04+00:00",
+  "date_redac": "2026-10-15T15:31:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 646,
+   "sortie": 1421
+  }
+ },
+ {
+  "id": "b161697e9a023710",
+  "slug": "windows-se-prepare-pour-les-pc-portables-rtx-spark-de-nvidia-b16169",
+  "titre": "Windows se prépare pour les PC portables RTX Spark de Nvidia",
+  "resume": "Microsoft et Nvidia ont organisé la semaine dernière à San Francisco une soirée de lancement pour la première vague d'ordinateurs portables RTX Spark, où une nouvelle génération de PC IA a occupé le devant de la scène. Le lendemain de cet événement presse, The Verge a été convié à un rendez-vous Nvidia plus discret. Windows fait l'objet d'optimisations dédiées à cette plateforme.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
+  "date_source": "2026-10-15T14:30:00+00:00",
+  "date_redac": "2026-10-15T15:31:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 657,
+   "sortie": 648
+  }
+ },
+ {
   "id": "00051b9d22302c85",
   "slug": "openai-decline-ai-for-educators-en-portugais-du-bresil-pour-la-journee-00051b",
   "titre": "OpenAI décline AI for Educators en portugais du Brésil pour la Journée des enseignants",

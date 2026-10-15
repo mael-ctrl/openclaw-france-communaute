@@ -1,22 +1,18 @@
 {
- "runs": 163,
- "items_collectes": 1583,
- "breves_publiees": 602,
- "articles_publies": 82,
- "tokens_entree": 566605,
- "tokens_sortie": 802688,
+ "runs": 164,
+ "items_collectes": 1591,
+ "breves_publiees": 607,
+ "articles_publies": 83,
+ "tokens_entree": 571285,
+ "tokens_sortie": 810736,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-15T14:22:43+00:00",
+ "dernier_run": "2026-10-15T15:31:43+00:00",
  "solde": {
-  "total": "86.18",
+  "total": "86.17",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-15T08:53:03+00:00",
-   "message": "brève impossible (Hermes Agent v0.22.2) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-15T08:53:19+00:00",
    "message": "brève impossible (I tested Qwen3.8 27B KLD for 21 Models at 9 different KV qua) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-15T14:22:17+00:00",
    "message": "brève impossible (Qwen3.8 Flash Next Unsloth quants KLD&Top1% with default wik) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-15T15:31:00+00:00",
+   "message": "brève impossible (nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB · Hugging Face) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.48,
+ "depense_usd": 5.49,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -672,10 +672,14 @@
   [
    "2026-10-15T14:21:22+00:00",
    "86.18"
+  ],
+  [
+   "2026-10-15T15:30:38+00:00",
+   "86.17"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 3.19,
+ "depense_mois_usd": 3.2,
  "archive_tentatives": {
   "jour": "2026-10-15",
   "n": 3

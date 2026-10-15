@@ -1,0 +1,41 @@
+{
+ "slug": "nemotron-3-5-rtx-spark-et-gemini-4-argon-la-semaine-des-anno-0a6a9e",
+ "titre": "Nemotron 3.5, RTX Spark et Gemini 4 Argon : la semaine des annonces",
+ "chapo": "Nvidia met en ligne la famille Nemotron 3.5 Super VL 120B A12B et sort le RTX Spark, sa première puce complète pour PC portable Windows. Pendant ce temps, MSL s'installe parmi les laboratoires de pointe, Gemini 4 Argon part à l'échelle mondiale et Microsoft corrige plus de 1 400 failles d'un coup.",
+ "html": "<h2 id=\"nemotron-3-5-super-vl-du-choix-dans-les-\">Nemotron 3.5 Super VL : du choix dans les formats</h2>\n<p>Nvidia a mis en ligne la famille de modèles <strong>Nemotron 3.5 Super VL 120B A12B</strong>, relayée sur r/LocalLLaMA. Elle se décline en une version de base, en variantes NVFP4 et BF16, et inclut un décodage spéculatif LiLiCorr.</p>\n<p>Pour qui fait tourner des modèles en local, ces deux éléments pèsent. Les formats de précision déterminent ce qui passe ou non sur une machine donnée, et le décodage spéculatif LiLiCorr relève de l'inférence accélérée. La publication ne se limite donc pas à un poids unique : elle propose plusieurs façons de l'exécuter.</p>\n<p>Les volumes mémoire nécessaires et les débits atteints ne figurent pas dans la dépêche. La famille est publiée, c'est ce qu'on sait.</p>\n<h2 id=\"rtx-spark-nvidia-vise-le-portable-window\">RTX Spark : Nvidia vise le portable Windows</h2>\n<p>Nvidia signe avec le <strong>RTX Spark</strong> sa première puce complète destinée aux PC portables Windows. Elle réunit un GPU Blackwell, un processeur Arm et jusqu'à 128 Go de mémoire unifiée dans un seul boîtier.</p>\n<p>Le test mené dans un Asus ProArt P16 couvre le jeu, l'IA locale et l'autonomie. La comparaison s'établit face à un portable gamer en RTX 5070, un Mac Apple Silicon et un PC Ryzen AI Max+ 395.</p>\n<p>Les deux dépêches Nvidia pointent dans la même direction, sans qu'on puisse établir de lien de cause à effet entre elles : des modèles d'un côté, du silicium capable de les faire tourner de l'autre. Une enveloppe de 128 Go de mémoire unifiée dans un boîtier portable, voilà qui concerne directement l'inférence locale.</p>\n<h2 id=\"msl-et-gemini-4-argon-le-haut-de-gamme-s\">MSL et Gemini 4 Argon : le haut de gamme se resserre</h2>\n<p>Latent Space consacre une dépêche à <strong>Meta Muse Wonder</strong> et <strong>Wonder Full</strong>, les modèles de MSL. Selon le média, l'émergence de MSL comme laboratoire de pointe est désormais actée. Son modèle frontalier y est présenté comme comparable à la génération Claude 5.5.</p>\n<p>De son côté, Google déploie <strong>Gemini 4 Argon</strong> à grande échelle. Dévoilé au début du mois, le modèle est accessible depuis le 13 octobre 2026 dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme. Google veut en faire un outil de travail pour les tâches complexes et le moteur de ses agents IA.</p>\n<p>Une nuance accompagne l'annonce : le prix de l'API doit doubler au 1er décembre. Le déploiement mondial et la hausse tarifaire sont deux informations distinctes, mais elles arrivent ensemble.</p>\n<h2 id=\"patch-tuesday-1-400-failles-et-l-ia-en-r\">Patch Tuesday : 1 400 failles et l'IA en renfort</h2>\n<p>Microsoft a publié un <strong>Patch Tuesday hors norme</strong>, avec plus de 1 400 failles corrigées dans le code de Windows. C'est la troisième fois cette année que l'éditeur bat son propre record.</p>\n<p>L'entreprise indique s'être massivement servie de l'intelligence artificielle pour débusquer les bugs. Le volume donne la mesure : un correctif mensuel qui dépasse le millier d'entrées n'a plus rien d'exceptionnel chez Microsoft cette année.</p>\n<p>L'IA intervient ici du côté de la détection, pas de l'exploitation. La dépêche ne dit rien des failles qui resteraient ouvertes.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux mouvements ressortent de ces dépêches. D'un côté, la capacité de calcul se rapproche de la machine personnelle : Nvidia publie des modèles déclinés en plusieurs formats et pousse une puce complète pour portable Windows avec jusqu'à 128 Go de mémoire unifiée. De l'autre, le haut de gamme se concentre entre quelques acteurs — MSL rejoint, selon Latent Space, les laboratoires de pointe, tandis que Google déploie Gemini 4 Argon mondialement avant de doubler le prix de son API au 1er décembre. Entre les deux, la sécurité reste un chantier à part entière : plus de 1 400 failles corrigées par Microsoft en un seul Patch Tuesday.</p>",
+ "pivot": "0a6a9ebc71e1a519",
+ "tags": [
+  "matériel",
+  "meta",
+  "gemini",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6nl8m/nvidianvidianemotron35supervl120ba12b_model/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/test/3283093_test-nvidia-rtx-spark"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/plus-de-1-400-failles-windows-le-nouveau-record-monstrueux-du-patch-tuesday-de-microsoft.html"
+  }
+ ],
+ "date": "2026-10-15T15:31:42+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1549,
+  "sortie": 3830
+ }
+}

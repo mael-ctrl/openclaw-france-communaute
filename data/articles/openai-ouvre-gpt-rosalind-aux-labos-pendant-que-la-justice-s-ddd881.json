@@ -1,0 +1,41 @@
+{
+ "slug": "openai-ouvre-gpt-rosalind-aux-labos-pendant-que-la-justice-s-ddd881",
+ "titre": "OpenAI ouvre GPT-Rosalind aux labos, pendant que la justice s'accumule",
+ "chapo": "OpenAI annonce un plan académique pour GPT-Rosalind, son modèle dédié aux sciences de la vie, avec un accès sponsorisé pour les laboratoires éligibles. Au même moment, huit États américains poursuivent l'entreprise sur la sécurité de ChatGPT, et Apple et OpenAI s'accusent mutuellement de vol de documents confidentiels.",
+ "html": "<h2 id=\"un-acces-sponsorise-pour-la-recherche-en\">Un accès sponsorisé pour la recherche en sciences de la vie</h2>\n<p>OpenAI annonce le <strong>Rosalind Academic Plan</strong>, un dispositif qui donne aux laboratoires académiques éligibles un accès sponsorisé à <strong>GPT-Rosalind</strong>. Le programme comprend aussi des outils destinés à faire avancer la recherche en sciences de la vie, selon la publication de l'entreprise.</p>\n<p>Le principe est donc celui d'un accès facilité pour le monde académique, financé côté OpenAI, sur un modèle orienté biologie et recherche. La communication ne précise ni les critères d'éligibilité, ni le nombre de laboratoires concernés, ni la durée du dispositif. Elle ne dit pas non plus si l'accès est limité dans le temps ou dans le volume d'usage.</p>\n<h2 id=\"huit-etats-americains-huit-plaintes-sepa\">Huit États américains, huit plaintes séparées</h2>\n<p>Sur un tout autre terrain, <strong>The Verge</strong> rapporte que huit États américains poursuivent OpenAI. Ils l'accusent de nuire aux enfants et d'avoir induit ses clients en erreur sur la sécurité de ChatGPT. Les plaintes ont été déposées séparément par :</p>\n<ul>\n<li>l'Iowa</li>\n<li>le Kansas</li>\n<li>le Nebraska</li>\n<li>la Virginie-Occidentale</li>\n<li>l'Arkansas</li>\n<li>l'Arizona</li>\n<li>l'Idaho</li>\n<li>le Montana</li>\n</ul>\n<p>Ces États reprochent à l'entreprise d'avoir placé ses profits avant la sécurité. C'est la nature coordonnée de la démarche — huit procédures distinctes, portées par huit États différents — qui donne au dossier son poids, davantage que le contenu pris isolément.</p>\n<h2 id=\"apple-et-openai-les-accusations-devienne\">Apple et OpenAI : les accusations deviennent réciproques</h2>\n<p>Le climat judiciaire ne se limite pas aux États. Quelques mois après qu'Apple a accusé OpenAI de vol de secrets commerciaux en juillet, c'est OpenAI qui met à son tour Apple en cause, rapporte <strong>01net</strong>. Un ancien employé d'OpenAI aurait transféré plus de <strong>100 documents confidentiels</strong> sur ses comptes personnels et présenté les projets de l'entreprise devant de hauts responsables d'Apple.</p>\n<p>Les deux groupes s'accusent désormais mutuellement, ce qui alourdit leurs relations. Là encore, il s'agit pour l'instant d'accusations : aucune décision de justice n'est mentionnée dans les dépêches disponibles.</p>\n<h2 id=\"meta-msl-et-flux-3-la-concurrence-ne-s-a\">Meta MSL et FLUX.3 : la concurrence ne s'arrête pas</h2>\n<p>Pendant ce temps, le reste de l'écosystème avance. <strong>Latent Space</strong> consacre une dépêche à <strong>Meta Muse Wonder</strong> et <strong>Wonder Full</strong>, les modèles de MSL. Selon le média, l'émergence de MSL comme laboratoire de pointe est désormais actée, et son modèle frontalier y est présenté comme comparable à la génération <strong>Claude 5.5</strong>.</p>\n<p>Du côté de l'image, un utilisateur du subreddit <strong>r/LocalLLaMA</strong> signale la publication des poids de <strong>FLUX.3 Image Klein</strong> sur <strong>Hugging Face</strong>, sous le compte <em>black-forest-labs</em>. Le modèle de génération d'images devient ainsi accessible publiquement via la plateforme. Les deux mouvements n'ont pas de lien entre eux, mais ils dessinent le même contexte : celui d'une offre qui se densifie et d'une partie des poids qui sort des serveurs fermés.</p>\n<h2>Et maintenant ?</h2>\n<p>Ce qui frappe dans ces dépêches, c'est la simultanéité. OpenAI élargit son accès académique sur un modèle spécialisé dans les sciences de la vie, tandis que huit États américains portent des plaintes séparées sur la sécurité de ChatGPT et qu'un conflit réciproque s'installe avec Apple sur des documents confidentiels. Trois fronts distincts, sur une même période. Autour, Meta MSL est décrit comme un laboratoire de pointe à part entière, et les poids de FLUX.3 Image Klein rejoignent Hugging Face. La concurrence et les contentieux avancent au même rythme, sans s'attendre.</p>",
+ "pivot": "ddd881d94b44d433",
+ "tags": [
+  "openai",
+  "meta",
+  "open-source",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "OpenAI",
+   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6t5fc/flux3_image_klein_just_got_weights_published_on/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/openai-accuse-a-son-tour-apple-de-vol-et-despionnage.html"
+  }
+ ],
+ "date": "2026-10-15T22:02:42+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1377,
+  "sortie": 2606
+ }
+}

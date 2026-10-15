@@ -1857,3 +1857,9 @@
 {"ts": "2026-10-15T22:22:18+00:00", "evenement": "deploiement", "details": {"fichiers": 644, "octets": 11431658}, "sha256": "384bba1063845bf07826dda93793d86d6f47c5f3d862de1c8789871c372c63f0"}
 {"ts": "2026-10-15T22:22:19+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "d2e2610c4c981a3d95150742ef67774cf3dc89e846ae6448d60eb861b7760dec"}
 {"ts": "2026-10-15T22:22:19+00:00", "evenement": "bilan", "details": {"duree_s": 618.1, "neufs": 7, "breves": 6, "articles": 1, "fichiers": 625, "envois": 644, "publications": 0}, "sha256": "04c9ed2ac8385b221450418c55f4bed2bc6b7d30802af8843f67e10e7f768641"}
+{"ts": "2026-10-15T22:01:45+00:00", "evenement": "collecte", "details": {"neufs": 6}, "sha256": "1d6c6cafd0e7e67a14187bae84579d21c14d7b496e00ee4d39965fe03ee8f201"}
+{"ts": "2026-10-15T22:02:08+00:00", "evenement": "erreur", "details": {"message": "brève impossible (The tech backlash is now in theaters) : réponse non-JSON"}, "sha256": "da25c407e83dc89d6c29381ea693c38f8e9855d202130853b3a4e60e4b8eb64e"}
+{"ts": "2026-10-15T22:02:43+00:00", "evenement": "construction", "details": {"fichiers": 625}, "sha256": "e466ca3104d3f80a5226f12a657bfb4b94714bf5469862fb72d92db94d6d48e6"}
+{"ts": "2026-10-15T22:11:52+00:00", "evenement": "deploiement", "details": {"fichiers": 644, "octets": 11432105}, "sha256": "7758a1c9971af557a37857a9ab8b2a3be6079fb882f5c9f7985e35b23bd65d25"}
+{"ts": "2026-10-15T22:11:52+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "e15732f4858cd3af107af819407c198ff762f7da78b6dbaadb002cc84cb64124"}
+{"ts": "2026-10-15T22:11:52+00:00", "evenement": "bilan", "details": {"duree_s": 630.0, "neufs": 6, "breves": 5, "articles": 1, "fichiers": 625, "envois": 644, "publications": 0}, "sha256": "5cc8e7fd790993978812a74955893afcc9864bfd90c091c4934d560c6d1d49a5"}

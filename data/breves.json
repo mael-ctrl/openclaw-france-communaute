@@ -1,5 +1,88 @@
 [
  {
+  "id": "4a2aee66d1630ff3",
+  "slug": "gemini-pour-home-google-ameliore-la-detection-de-la-commande-stop-4a2aee",
+  "titre": "Gemini pour Home : Google améliore la détection de la commande STOP",
+  "resume": "Gemini pour Home avait parfois du mal à comprendre quand il fallait s'arrêter. Google corrige le tir avec une amélioration qui permet à son assistant vocal de mieux interpréter la commande « STOP ». Concrètement, l'assistant met ainsi fin à ses interventions au bon moment.",
+  "tags": [
+   "gemini",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/google/3285929_google-gemini-pour-home-comprend-enfin-le-sens-du-mot-stop",
+  "date_source": null,
+  "date_redac": "2026-10-15T09:20:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 642,
+   "sortie": 639
+  }
+ },
+ {
+  "id": "a0d12e13c447e9b8",
+  "slug": "claude-reproduit-en-28-minutes-la-cyberattaque-des-frigos-de-supermarc-a0d12e",
+  "titre": "Claude reproduit en 28 minutes la cyberattaque des frigos de supermarchés français",
+  "resume": "Selon 01net, Claude a reproduit en 28 minutes la cyberattaque qui a fait surchauffer les frigos de centaines de supermarchés français. L'expérimentation montre que l'offensive restait à la portée de n'importe quel cybercriminel, même sans compétences techniques. Un résultat qui illustre à quelle vitesse un modèle peut désormais abaisser la barrière technique d'une attaque visant des équipements du quotidien.",
+  "tags": [
+   "claude",
+   "sécurité",
+   "france"
+  ],
+  "importance": 4,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/frigos-de-supermarches-pirates-claude-a-reproduit-la-cyberattaque-en-28-minutes.html",
+  "date_source": null,
+  "date_redac": "2026-10-15T09:19:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 679,
+   "sortie": 344
+  }
+ },
+ {
+  "id": "40d0d997755a7a48",
+  "slug": "tyger-un-modele-asr-open-weights-qui-gere-aussi-le-tour-de-parole-40d0d9",
+  "titre": "TYGER, un modèle ASR open-weights qui gère aussi le tour de parole",
+  "resume": "TYGER est un modèle ASR à poids ouverts qui gère aussi le contrôle de tour en full-duplex : il détecte quand tu as fini de parler, quand tu interromps et quand tu dis juste « mm-hm ». Sa latence médiane de fin de tour est de 250 ms, avec des trames de 80 ms et sans lookahead. L'agent vocal tyger-s2s combine TYGER, Gemma 4 E4B et VoxCPM2, tient sur un seul GPU de 32 Go et gère jusqu'à 4 conversations — en anglais uniquement pour l'instant.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6gpqq/tyger_openweights_asr_fullduplex_turn_control_in/",
+  "date_source": "2026-10-15T09:04:21+00:00",
+  "date_redac": "2026-10-15T09:19:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 753,
+   "sortie": 1006
+  }
+ },
+ {
+  "id": "e7c6fac63d90c0a0",
+  "slug": "openclaw-publie-la-version-2026-9-33-e7c6fa",
+  "titre": "OpenClaw publie la version 2026.9.33",
+  "resume": "OpenClaw a mis en ligne la version 2026.9.33 de son logiciel. La release est datée du 15 octobre 2026 et publiée sur le dépôt GitHub du projet. L'extrait disponible ne précise pas le contenu de cette mise à jour.",
+  "tags": [
+   "openclaw",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.33",
+  "date_source": "2026-10-15T08:58:49+00:00",
+  "date_redac": "2026-10-15T09:19:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 593,
+   "sortie": 489
+  }
+ },
+ {
   "id": "5177bebef3eb541b",
   "slug": "nvidia-ouvre-sa-plateforme-d-orchestration-de-gpu-run-ai-en-open-sourc-5177be",
   "titre": "Nvidia ouvre sa plateforme d'orchestration de GPU Run:ai en open source",
@@ -58,6 +141,26 @@
    "modele": "deepseek-flash",
    "entree": 674,
    "sortie": 431
+  }
+ },
+ {
+  "id": "154697712dc9be6f",
+  "slug": "gpu-nvidia-les-rtx-5060-ti-et-5080-bondissent-au-japon-154697",
+  "titre": "GPU Nvidia : les RTX 5060 Ti et 5080 bondissent au Japon",
+  "resume": "Sur le subreddit r/LocalLLaMA, un internaute se demande si un Black Friday aura lieu cette année. Le contexte : au Japon, la RTX 5060 Ti 16 Go a vu son prix grimper jusqu'à 144 %, à 1 292 dollars, tandis que la RTX 5080 dépasse désormais les 2 400 dollars. Des tarifs qui pèsent directement sur celles et ceux qui veulent faire tourner des modèles en local.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6gf0y/will_there_be_a_blackfriday_this_year_nvidia_rtx/",
+  "date_source": "2026-10-15T08:45:18+00:00",
+  "date_redac": "2026-10-15T09:19:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 668,
+   "sortie": 812
   }
  },
  {
@@ -414,6 +517,27 @@
    "modele": "deepseek-flash",
    "entree": 681,
    "sortie": 1054
+  }
+ },
+ {
+  "id": "0eeab7f967a50e0a",
+  "slug": "openclaw-evite-la-desinfection-repetee-apres-les-blocs-de-code-en-flux-0eeab7",
+  "titre": "OpenClaw évite la désinfection répétée après les blocs de code en flux",
+  "resume": "OpenClaw publie un correctif de performance qui évite de relancer la désinfection après chaque bloc de code Markdown traité en flux. Les marqueurs d'activation repérés dans un bloc de code stabilisé sont retirés via le prédicat XML existant, sans toucher au filtrage canonique des fuites réelles ni au code en ligne modifiable. Le patch préserve les réinitialisations de remplacement, ajoute des tests de régression déterministes et corrige le ticket #172663.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F59a60de16f7d-1792054731",
+  "date_source": "2026-10-15T02:29:13+00:00",
+  "date_redac": "2026-10-15T09:19:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 672,
+   "sortie": 1231
   }
  },
  {

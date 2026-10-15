@@ -1,26 +1,18 @@
 {
- "runs": 162,
- "items_collectes": 1573,
- "breves_publiees": 598,
- "articles_publies": 81,
- "tokens_entree": 562432,
- "tokens_sortie": 795036,
+ "runs": 163,
+ "items_collectes": 1583,
+ "breves_publiees": 602,
+ "articles_publies": 82,
+ "tokens_entree": 566605,
+ "tokens_sortie": 802688,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-15T13:02:59+00:00",
+ "dernier_run": "2026-10-15T14:22:43+00:00",
  "solde": {
-  "total": "86.19",
+  "total": "86.18",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-15T00:38:48+00:00",
-   "message": "brève impossible (Strata performance finetuning - try it out) : réponse non-JSON"
-  },
-  {
-   "ts": "2026-10-15T05:00:14+00:00",
-   "message": "archivage wayback : The read operation timed out"
-  },
   {
    "ts": "2026-10-15T08:53:03+00:00",
    "message": "brève impossible (Hermes Agent v0.22.2) : réponse non-JSON"
@@ -32,10 +24,18 @@
   {
    "ts": "2026-10-15T12:09:04+00:00",
    "message": "brève impossible (No model is better than another its the god damn tools templ) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-15T14:21:59+00:00",
+   "message": "brève impossible (Anthropic tells investors quarterly revenue up nearly 50% to) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-15T14:22:17+00:00",
+   "message": "brève impossible (Qwen3.8 Flash Next Unsloth quants KLD&Top1% with default wik) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.47,
+ "depense_usd": 5.48,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -668,10 +668,14 @@
   [
    "2026-10-15T13:02:00+00:00",
    "86.19"
+  ],
+  [
+   "2026-10-15T14:21:22+00:00",
+   "86.18"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 3.18,
+ "depense_mois_usd": 3.19,
  "archive_tentatives": {
   "jour": "2026-10-15",
   "n": 3

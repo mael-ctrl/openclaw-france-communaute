@@ -1,0 +1,41 @@
+{
+ "slug": "nemotron-dans-llama-cpp-meta-muse-wonder-gemini-4-argon-le-r-cd81fd",
+ "titre": "Nemotron dans llama.cpp, Meta Muse Wonder, Gemini 4 Argon : le rythme s'accélère",
+ "chapo": "Une pull request ajoute deux modèles Nemotron à llama.cpp le jour même de leur dépôt, pendant que Latent Space acte l'arrivée de MSL parmi les laboratoires de pointe et que Google déploie Gemini 4 Argon dans le monde entier. Chez Microsoft, l'IA sert surtout à trouver les bugs de Windows — et à faire tourner un modèle de code en local.",
+ "html": "<h2 id=\"llama-cpp-prend-les-nemotron-au-depot\">llama.cpp prend les Nemotron au dépôt</h2>\n<p>La pull request déposée sur llama.cpp ajoute le support de deux modèles Nemotron : <strong>Super 3.5 VL</strong> et <strong>Bolt 74B A9B</strong>. Le détail qui compte, c'est le calendrier : ce support arrive le jour même du dépôt, signe que l'écosystème open source s'aligne vite sur les nouvelles sorties.</p>\n<p>Il manque encore une pièce au tableau : les poids du 74B A9B. Un 120B A12B est également évoqué comme probable, sans certitude à ce stade.</p>\n<p>Pour les utilisateurs de llama.cpp, la conséquence est concrète : le délai entre l'annonce d'un modèle et sa disponibilité en local se réduit à presque rien. La question des poids reste, elle, entière pour le 74B A9B — le support dans l'outil ne suffit pas à faire tourner le modèle.</p>\n<h2 id=\"msl-entre-dans-la-cour-des-grands\">MSL entre dans la cour des grands</h2>\n<p>Latent Space consacre une dépêche à <strong>Meta Muse Wonder</strong> et <strong>Wonder Full</strong>, les modèles de MSL. Pour le média, l'émergence de MSL comme laboratoire de pointe est désormais actée : ce n'est plus une hypothèse à discuter, mais un constat.</p>\n<p>Le modèle frontalier de MSL y est présenté comme comparable à la génération <strong>Claude 5.5</strong>. Un positionnement qui place le laboratoire au niveau des concurrents les plus avancés, du moins dans la lecture qu'en fait Latent Space.</p>\n<p>Aucun chiffre d'usage ni benchmark détaillé n'accompagne cette appréciation dans la dépêche. Elle relève de l'évaluation éditoriale, pas de la mesure.</p>\n<h2 id=\"gemini-4-argon-mondial-et-plus-cher\">Gemini 4 Argon : mondial, et plus cher</h2>\n<p>Google déploie <strong>Gemini 4 Argon</strong> à grande échelle. Dévoilé au début du mois, le modèle est accessible depuis le 13 octobre 2026 dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme.</p>\n<p>L'ambition affichée est double : en faire un outil de travail pour les tâches complexes, et le moteur des agents IA de Google. Argon n'est donc pas seulement un modèle que l'on interroge, c'est une brique d'infrastructure sur laquelle la firme veut faire reposer ses agents.</p>\n<p>La facture, elle, doit doubler. Le prix de l'API augmentera au 1er décembre. Entre un déploiement mondial et un tarif revu à la hausse, les équipes qui ont construit sur cette API ont un calcul à refaire avant l'échéance.</p>\n<h2 id=\"microsoft-l-ia-en-interne-sur-deux-front\">Microsoft : l'IA en interne, sur deux fronts</h2>\n<p>Microsoft publie un Patch Tuesday hors norme : plus de <strong>1 400 failles</strong> corrigées dans le code de Windows. C'est la troisième fois cette année que l'éditeur bat son propre record. Sans surprise, l'entreprise indique s'être massivement servie de l'intelligence artificielle pour débusquer les bugs.</p>\n<p>Le même acteur avance par ailleurs sur un tout autre terrain. Microsoft AI a développé une version locale de <strong>MAI Code 1.1 Flash</strong>, un modèle à mélange d'experts optimisé pour le code : 137 milliards de paramètres au total, dont 6,8 milliards actifs au moment de l'inférence. La page liée évoque des modèles locaux et des outils sandboxés sur GitHub et Windows.</p>\n<p>Sur r/LocalLLaMA, le sujet agite surtout pour une raison : la taille. L'exécution en local d'un modèle de cette ampleur interroge, et la discussion porte précisément là-dessus.</p>\n<h2>Et maintenant ?</h2>\n<p>Sur une même séquence, deux rythmes coexistent. D'un côté, llama.cpp absorbe de nouveaux modèles le jour de leur dépôt. De l'autre, Google déploie Gemini 4 Argon mondialement tout en annonçant un doublement du prix de son API, tandis que Microsoft utilise l'IA en interne pour auditer Windows et conçoit un modèle de code exécutable en local. Le support communautaire et le déploiement industriel avancent en parallèle, mais leurs contraintes n'ont rien à voir : disponibilité des poids d'un côté, tarification et accès de l'autre.</p>",
+ "pivot": "cd81fd2abeeb7f5c",
+ "tags": [
+  "open-source",
+  "gemini",
+  "meta",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6mlby/add_nemotron_super_35_vl_and_nemotron_bolt_74b/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/plus-de-1-400-failles-windows-le-nouveau-record-monstrueux-du-patch-tuesday-de-microsoft.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6h51s/137b_a68b_model_from_microsoft/"
+  }
+ ],
+ "date": "2026-10-15T14:22:43+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1561,
+  "sortie": 3593
+ }
+}

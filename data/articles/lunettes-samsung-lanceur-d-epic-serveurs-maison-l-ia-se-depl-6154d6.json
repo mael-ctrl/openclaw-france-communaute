@@ -1,0 +1,41 @@
+{
+ "slug": "lunettes-samsung-lanceur-d-epic-serveurs-maison-l-ia-se-depl-6154d6",
+ "titre": "Lunettes Samsung, lanceur d'Epic, serveurs maison : l'IA se déploie partout",
+ "chapo": "Une fuite dévoile les lunettes connectées de Samsung, Gemini 4 Argon arrive dans le monde entier avec un tarif qui va doubler, et Epic Games fait écrire son nouveau lanceur par l'IA. Pendant ce temps, l'IA tourne aussi dans des ateliers d'usine et sur des serveurs montés à la main.",
+ "html": "<h2 id=\"des-lunettes-a-41-grammes-gemini-dans-le\">Des lunettes à 41 grammes, Gemini dans les branches</h2>\n<p>Les premières lunettes connectées de Samsung n'ont pas attendu leur présentation officielle pour se montrer. Une fuite dévoile des montures signées <strong>Gentle Monster</strong> et <strong>Warby Parker</strong>, pour <strong>41 grammes</strong> seulement, avec <strong>Gemini</strong> intégré dans les branches. La sortie est annoncée pour le mois prochain.</p>\n<p>Sur un objet porté toute la journée, le poids et le choix des montures ne sont pas des détails : ce sont deux signatures d'un produit pensé pour le quotidien plutôt que pour la démonstration technique. Samsung s'appuie sur des noms de la lunetterie, pas sur des références purement tech.</p>\n<p>Reste que Gemini, à cette date, n'est pas un modèle isolé : Google en déploie une nouvelle version à très grande échelle, ce qui donne un contexte utile à cette fuite.</p>\n<h2 id=\"gemini-4-argon-un-moteur-et-un-prix-qui-\">Gemini 4 Argon : un moteur, et un prix qui double</h2>\n<p>Google a déployé <strong>Gemini 4 Argon</strong> à grande échelle. Dévoilé au début du mois d'octobre 2026, le modèle est accessible depuis le <strong>13 octobre 2026</strong> dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme.</p>\n<p>Les ambitions affichées sont claires : Google veut en faire un <strong>outil de travail pour les tâches complexes</strong> et le <strong>moteur de ses agents IA</strong>. Une brique d'infrastructure autant qu'un produit.</p>\n<p>Le doublement du prix de l'API annoncé pour le <strong>1er décembre</strong> change la donne pour ceux qui construisent dessus. Passer à l'échelle sur une API qui renchérit, ce n'est pas la même équation que prototyper.</p>\n<h2 id=\"epic-games-et-le-vibe-coding-en-producti\">Epic Games et le vibe coding en production</h2>\n<p>Epic Games a confié l'écriture et la relecture du code de son <strong>nouveau lanceur à l'IA</strong>, avec une supervision humaine. Le résultat est disponible en <strong>préversion sur Windows, macOS et Linux</strong>, et l'entreprise promet un lanceur <strong>beaucoup plus rapide</strong> qu'auparavant.</p>\n<p>C'est une démonstration de ce que le « <strong>vibe coding</strong> » peut produire chez un éditeur de cette taille : un usage assumé, encadré, mais bien réel. Le code généré n'est plus réservé aux démos — il sort en préversion sur trois systèmes d'exploitation.</p>\n<h2 id=\"384-go-de-vram-a-la-maison-des-modeles-p\">384 Go de VRAM à la maison, des modèles pré-entraînés à l'usine</h2>\n<p>Sur r/LocalLLaMA, un utilisateur détaille <strong>trois machines à quatre R9700</strong>, montées avec des <strong>EPYC d'occasion à 127 dollars</strong> plutôt qu'avec des Threadripper. Compte : environ <strong>10 700 dollars par machine</strong>, pour <strong>384 Go de VRAM cumulés</strong>.</p>\n<p>Ces serveurs font tourner l'IA de son entreprise, <strong>USA Arms</strong>, qui recense <strong>des dizaines de milliers de sociétés liées aux armes à feu</strong>. Les modèles y vérifient les faits sources, démêlent les identités et extraient services et horaires — un travail de structuration de données, loin des démonstrations de chatbot.</p>\n<p>Ailleurs, <strong>Latent Space</strong> détaille la pile IA de <strong>Standard Bots</strong> : des <strong>modèles pré-entraînés</strong> apprennent des <strong>tâches d'usine à partir de démonstrations</strong>, puis progressent grâce aux <strong>corrections issues de déploiements réels</strong>. Objectif annoncé : l'exécution fiable en environnement industriel.</p>\n<h2>Et maintenant ?</h2>\n<p>Les mêmes briques apparaissent à des endroits très différents : une monture de lunettes, un lanceur de jeux, un rack de serveurs d'occasion, un bras d'usine. La question du coût, elle, revient partout — tarif d'API qui double, EPYC d'occasion plutôt que Threadripper, modèles affinés par les corrections du terrain. Ce qui distingue ces projets n'est pas le modèle choisi, mais l'endroit précis où il doit tenir.</p>",
+ "pivot": "6154d6367890c3ed",
+ "tags": [
+  "gemini",
+  "matériel",
+  "dev",
+  "robots"
+ ],
+ "sources": [
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/15/les-lunettes-connectees-de-samsung-sortent-de-lombre/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/15/epic-a-vibe-code-son-nouveau-lanceur-qui-debarque-aussi-sur-linux/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x67qeu/4x_r9700_builds_with_127_used_epycs_107k_allin/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/standard-bots"
+  }
+ ],
+ "date": "2026-10-15T05:48:09+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1569,
+  "sortie": 3877
+ }
+}

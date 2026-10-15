@@ -1750,3 +1750,10 @@
 {"ts": "2026-10-15T05:00:14+00:00", "evenement": "erreur", "details": {"message": "archivage wayback : The read operation timed out"}, "sha256": "fa76c8ea88ae4ff677465f13fcc3c93d112bf0877851d074b24bf72f9748cd03"}
 {"ts": "2026-10-15T05:00:25+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "422b77911a5125f57a6d250aff42d6b021989cac229a22a7d99e3f04a60045d9"}
 {"ts": "2026-10-15T05:00:25+00:00", "evenement": "bilan", "details": {"duree_s": 891.5, "neufs": 8, "breves": 6, "articles": 1, "fichiers": 609, "envois": 624, "publications": 4}, "sha256": "f618fa64d395cbdaf6fddcd5c63946e6a2ffe3a493ad181126e9523fb94a5db5"}
+{"ts": "2026-10-15T05:47:43+00:00", "evenement": "collecte", "details": {"neufs": 2}, "sha256": "a34e3d9c3917ad7e46a64953526eb8a479b5966e2b3ad8ecd4eb468c32ee23f4"}
+{"ts": "2026-10-15T05:48:10+00:00", "evenement": "construction", "details": {"fichiers": 610}, "sha256": "553676a5cbce97579d2c29512792e4e793f765f96d84f74aa2129a871011eee8"}
+{"ts": "2026-10-15T05:59:13+00:00", "evenement": "deploiement", "details": {"fichiers": 625, "octets": 10374232}, "sha256": "0a1a15c97d2f79100ee7968cb3ba9af70b2d4edfc57c6d9962de0243e6aaa48d"}
+{"ts": "2026-10-15T05:59:13+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "d0a6854fd6716d00099913c2a0ad6fbe8defca073579d84483134902cd74cc80"}
+{"ts": "2026-10-15T05:59:21+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 3}, "sha256": "decf487f98e1184b21b780f832c7fa84bca6dc2dda9bbdb079756c15ed60fad4"}
+{"ts": "2026-10-15T05:59:32+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "0021d3b7e77fb9076b0003a8139863ae5094dd323412a326e6b385f20a8030a9"}
+{"ts": "2026-10-15T05:59:32+00:00", "evenement": "bilan", "details": {"duree_s": 719.2, "neufs": 2, "breves": 2, "articles": 1, "fichiers": 610, "envois": 625, "publications": 4}, "sha256": "d54dc9176887da0591f843964d43d886128f713e6bab49ffbb074a7467f80e19"}

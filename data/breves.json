@@ -1,5 +1,108 @@
 [
  {
+  "id": "ad85ad1d38ac5368",
+  "slug": "apple-intelligence-la-chine-pourrait-etre-servie-avant-l-europe-ad85ad",
+  "titre": "Apple Intelligence : la Chine pourrait être servie avant l'Europe",
+  "resume": "Dévoilé le 13 octobre, le HomeView, l'écran connecté d'Apple, n'a aucune date de sortie en Europe. En cause : le blocage de Siri AI dans l'Union européenne. Pendant ce temps, la Chine s'apprête à recevoir sa propre intelligence artificielle maison. Le déploiement des fonctions IA d'Apple dépend donc aussi des régulateurs, pas seulement de son calendrier produit.",
+  "tags": [
+   "matériel",
+   "société"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/la-chine-aurait-le-droit-a-apple-intelligence-avant-leurope.html",
+  "date_source": null,
+  "date_redac": "2026-10-15T18:34:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 644,
+   "sortie": 564
+  }
+ },
+ {
+  "id": "b171e0b446bf165e",
+  "slug": "openai-accuse-apple-de-vol-de-documents-confidentiels-b171e0",
+  "titre": "OpenAI accuse Apple de vol de documents confidentiels",
+  "resume": "Quelques mois après qu'Apple a accusé OpenAI de vol de secrets commerciaux en juillet, c'est OpenAI qui met en cause Apple. Un ancien employé d'OpenAI aurait transféré plus de 100 documents confidentiels sur ses comptes personnels et présenté les projets de l'entreprise devant de hauts responsables d'Apple. Les deux groupes s'accusent désormais mutuellement, ce qui alourdit leurs relations.",
+  "tags": [
+   "openai",
+   "business",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/openai-accuse-a-son-tour-apple-de-vol-et-despionnage.html",
+  "date_source": null,
+  "date_redac": "2026-10-15T18:34:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 676,
+   "sortie": 477
+  }
+ },
+ {
+  "id": "7c9aef606dca957d",
+  "slug": "nvidia-devoile-rtx-spark-sa-plateforme-pour-le-jeu-la-creation-et-l-ia-7c9aef",
+  "titre": "Nvidia dévoile RTX Spark, sa plateforme pour le jeu, la création et l'IA locale",
+  "resume": "Nvidia a officiellement dévoilé les contours de sa nouvelle plateforme RTX Spark. Elle est présentée comme destinée au jeu, à la création et surtout à l'IA. Le constructeur mise sur un usage de l'IA en local, directement chez soi.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/test/on-decouvre-le-nvidia-rtx-spark-la-plateforme-pour-le-jeu-la-creation-et-surtout-lia/",
+  "date_source": null,
+  "date_redac": "2026-10-15T18:34:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 648,
+   "sortie": 570
+  }
+ },
+ {
+  "id": "276f28a777b0b438",
+  "slug": "meta-devoile-muse-spark-un-modele-ouvert-qui-tourne-sur-deux-mac-studi-276f28",
+  "titre": "Meta dévoile Muse Spark, un modèle ouvert qui tourne sur deux Mac Studio M5 Ultra",
+  "resume": "Meta annonce Muse Spark, présenté comme le modèle ouvert américain le plus capable à ce jour. La firme affirme aussi qu'il est le premier de sa catégorie à pouvoir tourner sur un ordinateur de bureau, via deux Mac Studio dotés de la puce Apple M5 Ultra et du framework MLX. Ce rapprochement entre Meta et Apple porte sur l'exécution locale des modèles.",
+  "tags": [
+   "meta",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+  "date_source": "2026-10-15T18:15:36+00:00",
+  "date_redac": "2026-10-15T18:33:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 663,
+   "sortie": 465
+  }
+ },
+ {
+  "id": "ad672077b27f3532",
+  "slug": "un-assistant-vocal-maison-type-alexa-a-base-d-esp32-et-100-local-ad6720",
+  "titre": "Un assistant vocal maison type Alexa, à base d'ESP32 et 100 % local",
+  "resume": "Sur r/LocalLLaMA, un utilisateur veut monter un assistant vocal domestique de type Alexa fonctionnant en local, sans que ses échanges soient captés par un service tiers. Son idée : des ESP32 avec micros et haut-parleurs dans chaque pièce, reliés à un serveur central qui fait tourner le modèle. Il utilise Qwen3.8-27B pour le code mais n'a jamais touché aux modèles vocaux, et demande si un tel projet existe déjà.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "société"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6svrs/local_alexa_type_ai/",
+  "date_source": "2026-10-15T18:04:32+00:00",
+  "date_redac": "2026-10-15T18:34:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 747,
+   "sortie": 1076
+  }
+ },
+ {
   "id": "a44c11ab51ee1e68",
   "slug": "un-mini-pc-snapdragon-a-300-fait-tourner-un-modele-35b-en-local-a44c11",
   "titre": "Un mini PC Snapdragon à 300 £ fait tourner un modèle 35B en local",
@@ -100,6 +203,28 @@
    "modele": "deepseek-flash",
    "entree": 606,
    "sortie": 764
+  }
+ },
+ {
+  "id": "0371b4e595434ace",
+  "slug": "meta-muse-les-assistants-ia-qui-collectent-aussi-les-donnees-de-vos-pr-0371b4",
+  "titre": "Meta Muse : les assistants IA qui collectent aussi les données de vos proches",
+  "resume": "Dans la tech grand public, les gadgets conçus pour surveiller tout et tout le monde autour d'eux se multiplient, sans que les personnes concernées y aient consenti. Avec l'arrivée d'assistants personnels IA comme Muse, de Meta, les utilisateurs sont désormais invités à céder non seulement leurs propres données, mais aussi celles de leur entourage.",
+  "tags": [
+   "meta",
+   "agents",
+   "société",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
+  "date_source": "2026-10-15T16:21:45+00:00",
+  "date_redac": "2026-10-15T18:34:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 656,
+   "sortie": 677
   }
  },
  {

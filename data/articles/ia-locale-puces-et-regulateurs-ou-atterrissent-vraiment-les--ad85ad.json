@@ -1,0 +1,41 @@
+{
+ "slug": "ia-locale-puces-et-regulateurs-ou-atterrissent-vraiment-les--ad85ad",
+ "titre": "IA locale, puces et régulateurs : où atterrissent vraiment les modèles",
+ "chapo": "Apple Intelligence pourrait arriver en Chine avant l'Europe, Nvidia dégaine sa première puce complète pour PC portable et Meta fait tourner son modèle ouvert sur deux Mac Studio. Derrière ces annonces, une même question : où l'IA s'exécute-t-elle, et qui en décide ?",
+ "html": "<h2 id=\"nvidia-met-l-ia-locale-dans-un-boitier\">Nvidia met l'IA locale dans un boîtier</h2>\n<p>Nvidia présente le <strong>RTX Spark</strong>, sa première puce complète pensée pour les PC portables Windows. Elle rassemble dans un seul boîtier un GPU Blackwell, un processeur Arm et jusqu'à 128 Go de mémoire unifiée — une configuration qui vise autant le jeu que l'IA locale.</p>\n<p>Le test a été mené dans un Asus ProArt P16, avec pour points de comparaison un portable gamer équipé d'une RTX 5070, un Mac Apple Silicon et un PC en Ryzen AI Max+ 395. Trois familles de machines mises côte à côte sur le jeu, l'IA en local et l'autonomie, histoire de voir ce que donne concrètement une puce qui réunit CPU, GPU et mémoire dans le même ensemble.</p>\n<p>Nvidia présente par ailleurs RTX Spark comme une plateforme destinée au jeu, à la création et surtout à l'IA, avec un usage pensé en local, directement chez soi. Le message est clair : faire tourner les modèles sur la machine, pas seulement dans un datacenter.</p>\n<h2 id=\"meta-fait-tourner-son-modele-ouvert-sur-\">Meta fait tourner son modèle ouvert sur du matériel Apple</h2>\n<p>Meta a dévoilé <strong>Muse Spark</strong>, présenté comme le modèle ouvert américain le plus capable à ce jour. La firme affirme aussi qu'il est le premier de sa catégorie à pouvoir tourner sur un ordinateur de bureau : deux Mac Studio équipés de la puce Apple M5 Ultra et du framework MLX suffisent à l'exécuter.</p>\n<p>Ce rapprochement entre Meta et Apple porte précisément sur l'exécution locale des modèles. Là où Nvidia mise sur une puce Arm et un GPU Blackwell dans un portable Windows, Meta s'appuie sur du matériel Apple et une pile logicielle dédiée pour faire tourner un modèle ouvert posé sur un bureau.</p>\n<p>Deux fabricants, deux stratégies matérielles, un même mouvement : déplacer une partie de l'inférence hors du cloud.</p>\n<h2 id=\"chez-apple-le-regulateur-decale-le-calen\">Chez Apple, le régulateur décale le calendrier</h2>\n<p>Du côté d'Apple, le calendrier ne dépend plus seulement de la production. Le <strong>HomeView</strong>, l'écran connecté dévoilé le 13 octobre, n'a aucune date de sortie en Europe. En cause : le blocage de Siri AI dans l'Union européenne.</p>\n<p>Pendant ce temps, la Chine s'apprête à recevoir sa propre intelligence artificielle maison. Autrement dit, Apple Intelligence pourrait y être disponible avant l'Europe.</p>\n<p>Le déploiement des fonctions IA d'Apple dépend donc aussi des régulateurs, pas seulement de son calendrier produit.</p>\n<h2 id=\"huit-etats-americains-attaquent-openai\">Huit États américains attaquent OpenAI</h2>\n<p>Huit États américains poursuivent <strong>OpenAI</strong>. L'Iowa, le Kansas, le Nebraska, la Virginie-Occidentale, l'Arkansas, l'Arizona, l'Idaho et le Montana ont déposé des plaintes séparées.</p>\n<p>Les accusations portent sur deux points : l'entreprise nuirait aux enfants et aurait induit ses clients en erreur sur la sécurité de ChatGPT. Les plaignants lui reprochent d'avoir placé ses profits avant la sécurité.</p>\n<p>Le dossier illustre un autre versant du déploiement de l'IA : la question n'est pas seulement de savoir où tourne un modèle, mais aussi ce qu'on peut exiger de ceux qui le mettent à disposition.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dossiers, trois rapports de force distincts. Nvidia et Meta poussent l'inférence vers le poste de travail, avec des choix matériels opposés. Apple voit son déploiement IA dépendre d'un régulateur européen, quand la Chine avance sur son propre terrain. Et aux États-Unis, la justice de huit États vient rappeler que la sécurité d'un assistant se plaide aussi devant les tribunaux. Ce qui se joue n'est pas seulement la performance des modèles, mais l'endroit où ils s'exécutent et les règles qu'on leur applique.</p>",
+ "pivot": "ad85ad1d38ac5368",
+ "tags": [
+  "matériel",
+  "open-source",
+  "openai",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/la-chine-aurait-le-droit-a-apple-intelligence-avant-leurope.html"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/test/3283093_test-nvidia-rtx-spark"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/test/on-decouvre-le-nvidia-rtx-spark-la-plateforme-pour-le-jeu-la-creation-et-surtout-lia/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx"
+  }
+ ],
+ "date": "2026-10-15T18:34:41+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1490,
+  "sortie": 4173
+ }
+}

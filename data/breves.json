@@ -1,5 +1,128 @@
 [
  {
+  "id": "d26fa214e34c75dc",
+  "slug": "zero-motorcycles-signe-un-record-de-436-km-en-moto-electrique-sur-une--d26fa2",
+  "titre": "Zero Motorcycles signe un record de 436 km en moto électrique sur une seule charge",
+  "resume": "Zero Motorcycles a parcouru 436,5 kilomètres avec une seule charge, un record de distance pour une moto électrique. La performance a été réalisée avec la Zero DS, le modèle le plus endurant de la marque, et dépasse l'ancien record de 310,7 kilomètres. Le trajet a toutefois exigé des conditions particulières : rouler doucement.",
+  "tags": [
+   "matériel",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/vroom/2353625-436-km-sans-recharger-zero-prouve-quune-moto-electrique-peut-aller-loin-tant-quon-roule-doucement.html",
+  "date_source": null,
+  "date_redac": "2026-10-15T11:29:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 712,
+   "sortie": 940
+  }
+ },
+ {
+  "id": "2f10a9dd54c0dbdd",
+  "slug": "eiliko-le-robot-compagnon-qui-envoie-en-chine-tout-ce-qu-on-lui-racont-2f10a9",
+  "titre": "Eiliko, le robot-compagnon qui envoie en Chine tout ce qu'on lui raconte",
+  "resume": "Eiliko est un petit robot-compagnon tout rond, dont les expressions cartoon s'adaptent à l'humeur de son propriétaire. Mais selon The Verge, dès qu'on lui parle en Wi-Fi, il transmet les échanges vers la Chine : son IA peut stocker tout ce qu'on lui confie sur des serveurs chinois, exposés au piratage. Le sujet devient sensible quand ce sont des enfants qui discutent avec lui.",
+  "tags": [
+   "robots",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+  "date_source": "2026-10-15T11:00:00+00:00",
+  "date_redac": "2026-10-15T11:29:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 685
+  }
+ },
+ {
+  "id": "2e5db6ecaf244189",
+  "slug": "nvidia-tease-plusieurs-lancements-de-modeles-cette-semaine-2e5db6",
+  "titre": "NVIDIA tease plusieurs lancements de modèles cette semaine",
+  "resume": "Le compte NVIDIA AI a publié sur X un message annonçant que de nombreux modèles seront lancés cette semaine, en précisant que le fabricant en prépare un de son côté. La publication a été relayée sur le subreddit r/LocalLLaMA. L'annonce ne contient aucun détail : ni noms des modèles, ni dates, ni indications sur leur nature ou leur ouverture.",
+  "tags": [
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6ijlk/nvidia_ai_so_many_models_launching_this_week_and/",
+  "date_source": "2026-10-15T10:54:47+00:00",
+  "date_redac": "2026-10-15T11:29:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 651,
+   "sortie": 1216
+  }
+ },
+ {
+  "id": "ec4dacd350d73a18",
+  "slug": "sur-apprentissage-et-creativite-un-debat-sur-r-localllama-ec4dac",
+  "titre": "Sur-apprentissage et créativité : un débat sur r/LocalLLaMA",
+  "resume": "Un utilisateur de r/LocalLLaMA demande si un modèle créatif doit être entraîné sur un très grand jeu de données, mais ajusté moins que les modèles actuels. Il rappelle que GPT-2, entraîné sur un corpus bien plus petit, était selon lui très créatif. Le sur-apprentissage empêche la généralisation : bon sur le jeu de test, faux sur des données nouvelles. Il interroge la communauté sur les epochs et le learning rate.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "openai"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6iieq/overfitting_and_creativity/",
+  "date_source": "2026-10-15T10:52:49+00:00",
+  "date_redac": "2026-10-15T11:29:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 773,
+   "sortie": 1291
+  }
+ },
+ {
+  "id": "cee0fd48fb945b0e",
+  "slug": "openclaw-publie-la-2026-9-33-sa-version-extended-stable-cee0fd",
+  "titre": "OpenClaw publie la 2026.9.33, sa version extended-stable",
+  "resume": "OpenClaw publie la 2026.9.33, une version « extended-stable », son équivalent actuel de la LTS. Elle reprend l'état du projet fin septembre 2026, avec des correctifs de sécurité critiques, des corrections de fiabilité et de performance et un support de nouveaux modèles. La version la plus récente à sa sortie est la 2026.10.3. Les mises à jour de la branche 2026.9 préservent l'état et les données de plugins.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.33",
+  "date_source": "2026-10-15T10:39:22+00:00",
+  "date_redac": "2026-10-15T11:29:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 852,
+   "sortie": 905
+  }
+ },
+ {
+  "id": "ba6ccf7db19e268d",
+  "slug": "la-page-sipeed-maixstation-est-en-ligne-ba6ccf",
+  "titre": "La page Sipeed Maixstation est en ligne",
+  "resume": "La page du Sipeed Maixstation est désormais accessible en ligne. L'information a été relayée sur le subreddit r/LocalLLaMA par l'utilisateur xlltt. La publication ne contient pour l'instant aucun détail technique sur ce que recouvre cette page.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6i6ll/sipeed_maixstation_page_is_live/",
+  "date_source": "2026-10-15T10:33:17+00:00",
+  "date_redac": "2026-10-15T11:29:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 607,
+   "sortie": 665
+  }
+ },
+ {
   "id": "262ccc20f8f8ba4e",
   "slug": "withings-assume-de-faire-payer-la-synchronisation-avec-apple-sante-et--262ccc",
   "titre": "Withings assume de faire payer la synchronisation avec Apple Santé et Strava",

@@ -1,0 +1,41 @@
+{
+ "slug": "eiliko-frigos-pirates-openai-poursuivi-l-ia-face-a-ses-angle-2f10a9",
+ "titre": "Eiliko, frigos piratés, OpenAI poursuivi : l'IA face à ses angles morts",
+ "chapo": "Un robot-compagnon qui transmet à la Chine ce que lui racontent les enfants, Claude qui rejoue en 28 minutes une cyberattaque contre des frigos de supermarchés, huit États américains qui poursuivent OpenAI. Trois façons de voir où l'IA appuie là où ça fait mal.",
+ "html": "<h2 id=\"eiliko-un-compagnon-des-serveurs-a-l-aut\">Eiliko : un compagnon, des serveurs à l'autre bout du monde</h2>\n<p>Eiliko, c'est un petit robot-compagnon tout rond, dont les expressions cartoon s'adaptent à l'humeur de son propriétaire. Un objet pensé pour la maison, pour la chambre, pour ces moments où l'on parle à voix haute sans trop réfléchir. Selon The Verge, dès qu'on lui parle en Wi-Fi, il transmet les échanges vers la Chine : son IA peut stocker tout ce qu'on lui confie sur des serveurs chinois, exposés au piratage.</p>\n<p>Le sujet devient sensible quand ce sont des enfants qui discutent avec lui. Ce ne sont pas seulement des commandes qui partent, mais des conversations entières, avec ce qu'elles portent d'intime et de spontané. La question n'est pas tant ce que le robot comprend que ce qu'il conserve — et où il le conserve. Un objet de compagnie se trouve ainsi branché sur une infrastructure que son propriétaire ne contrôle ni ne voit.</p>\n<h2 id=\"claude-et-les-frigos-quand-la-barriere-t\">Claude et les frigos : quand la barrière technique s'effondre</h2>\n<p>Autre registre, autre dépêche. Selon 01net, Claude a reproduit en 28 minutes la cyberattaque qui a fait surchauffer les frigos de centaines de supermarchés français. Vingt-huit minutes pour rejouer une offensive menée contre des équipements du quotidien, dans des magasins bien réels.</p>\n<p>Ce que l'expérimentation met en évidence n'est pas la puissance du modèle, mais le niveau d'accès qu'il ouvre : l'attaque restait à la portée de n'importe quel cybercriminel, même sans compétences techniques. C'est le point important. Un résultat qui illustre à quelle vitesse un modèle peut désormais abaisser la barrière technique d'une attaque visant des équipements du quotidien — ici des frigos, ailleurs autre chose.</p>\n<h2 id=\"huit-etats-americains-attaquent-openai-e\">Huit États américains attaquent OpenAI en justice</h2>\n<p>Sur le terrain juridique, huit États américains poursuivent OpenAI. L'Iowa, le Kansas, le Nebraska, la Virginie-Occidentale, l'Arkansas, l'Arizona, l'Idaho et le Montana ont déposé des plaintes séparées, selon The Verge. Ils accusent l'entreprise de nuire aux enfants et de les avoir induits en erreur, ses clients, sur la sécurité de ChatGPT.</p>\n<p>Le reproche formulé est explicite : OpenAI aurait placé ses profits avant la sécurité. Huit procédures distinctes plutôt qu'une seule, ce qui dit quelque chose de la fragmentation du sujet aux États-Unis — chaque État avançant avec ses propres arguments et son propre calendrier.</p>\n<h2 id=\"la-donnee-a-la-fois-valeur-et-vulnerabil\">La donnée, à la fois valeur et vulnérabilité</h2>\n<p>Deux autres dépêches éclairent le même motif par des bouts opposés. Côté Microsoft, le Patch Tuesday vient de corriger plus de 1 400 failles dans le code de Windows, selon 01net. C'est la troisième fois cette année que l'éditeur bat son propre record, et l'entreprise indique sans surprise s'être massivement servie de l'intelligence artificielle pour débusquer les bugs. L'IA comme outil défensif, donc, à une échelle qui n'a plus grand-chose d'artisanal.</p>\n<p>Côté Withings, la logique s'inverse. Après la polémique du 13 octobre, la marque parle pour la première fois à Numerama et assume de réserver la synchronisation vers Apple Santé, Health Connect et Strava aux abonnés Withings+, à 10 euros par mois. Elle qualifie cette décision de « la plus dure » de son histoire et ne prévoit pas de marche arrière : à l'heure de l'IA générative, ne pas monétiser ses données menacerait une entreprise de santé.</p>\n<p>Deux positions, une même matière première. D'un côté l'IA qui traque les failles, de l'autre des données de santé dont l'accès devient un service payant.</p>\n<h2>Et maintenant ?</h2>\n<p>Un robot qui envoie les confidences des enfants vers des serveurs distants, un modèle qui rejoue en 28 minutes une attaque sur des frigos, huit plaintes contre OpenAI, 1 400 failles corrigées et une synchronisation de données de santé passée derrière un abonnement : la donnée traverse tous ces sujets, tantôt comme ressource à protéger, tantôt comme ressource à vendre. Ce qui relie ces dépêches, ce n'est pas une causalité, mais une même question devenue concrète — qui détient quoi, où, et à quel prix.</p>",
+ "pivot": "2f10a9dd54c0dbdd",
+ "tags": [
+  "sécurité",
+  "robots",
+  "openai",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/frigos-de-supermarches-pirates-claude-a-reproduit-la-cyberattaque-en-28-minutes.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/plus-de-1-400-failles-windows-le-nouveau-record-monstrueux-du-patch-tuesday-de-microsoft.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2353527-la-vraie-valeur-cest-la-donnee-withings-defend-sa-decision-de-faire-payer-la-synchronisation-avec-apple-et-strava.html"
+  }
+ ],
+ "date": "2026-10-15T11:30:08+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1555,
+  "sortie": 2803
+ }
+}

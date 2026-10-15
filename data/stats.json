@@ -1,26 +1,18 @@
 {
- "runs": 156,
- "items_collectes": 1525,
- "breves_publiees": 567,
- "articles_publies": 76,
- "tokens_entree": 532971,
- "tokens_sortie": 751969,
+ "runs": 157,
+ "items_collectes": 1537,
+ "breves_publiees": 571,
+ "articles_publies": 77,
+ "tokens_entree": 537259,
+ "tokens_sortie": 758224,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-15T07:52:24+00:00",
+ "dernier_run": "2026-10-15T08:53:58+00:00",
  "solde": {
-  "total": "84.17",
+  "total": "86.30",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-14T07:11:41+00:00",
-   "message": "article impossible : Expecting ',' delimiter: line 1 column 2109 (char 2108)"
-  },
-  {
-   "ts": "2026-10-14T21:26:18+00:00",
-   "message": "brève impossible (Qwen 3.8 Flash Next, DeepSeekV4 Flash and Time) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-14T23:48:49+00:00",
    "message": "brève impossible (microsoft/UserRepGen-4B) : réponse non-JSON"
@@ -32,10 +24,18 @@
   {
    "ts": "2026-10-15T05:00:14+00:00",
    "message": "archivage wayback : The read operation timed out"
+  },
+  {
+   "ts": "2026-10-15T08:53:03+00:00",
+   "message": "brève impossible (Hermes Agent v0.22.2) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-15T08:53:19+00:00",
+   "message": "brève impossible (I tested Qwen3.8 27B KLD for 21 Models at 9 different KV qua) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 7.49,
+ "depense_usd": 5.36,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -644,10 +644,14 @@
   [
    "2026-10-15T07:51:46+00:00",
    "84.17"
+  ],
+  [
+   "2026-10-15T08:52:48+00:00",
+   "86.30"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 5.2,
+ "depense_mois_usd": 3.07,
  "archive_tentatives": {
   "jour": "2026-10-15",
   "n": 3

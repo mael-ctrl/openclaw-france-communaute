@@ -1772,3 +1772,10 @@
 {"ts": "2026-10-15T08:04:02+00:00", "evenement": "deploiement", "details": {"fichiers": 627, "octets": 10405783}, "sha256": "d92269ea895d0c2c49e0defc876b5d8aa6d863810b78ec44872b0c7cb4f64d30"}
 {"ts": "2026-10-15T08:04:02+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "03e38506bacc0b5cc055f5b7373ac160471a61130328f3daad07e7c7ea90f403"}
 {"ts": "2026-10-15T08:04:02+00:00", "evenement": "bilan", "details": {"duree_s": 749.0, "neufs": 3, "breves": 3, "articles": 1, "fichiers": 612, "envois": 627, "publications": 0}, "sha256": "98b078e62207269229181c11c68bbbe7fc6818d019d51364ccaf434fefc6e727"}
+{"ts": "2026-10-15T08:52:48+00:00", "evenement": "collecte", "details": {"neufs": 12}, "sha256": "57f1bf9e1dbd5f7191446196b4a2473bcac405d24212713042fd78ffdf98fd6f"}
+{"ts": "2026-10-15T08:53:03+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Hermes Agent v0.22.2) : réponse non-JSON"}, "sha256": "4888b5845f645b5af8381457ae9a49ed9365d4f26b0d85d4cd127b54902c6e9d"}
+{"ts": "2026-10-15T08:53:19+00:00", "evenement": "erreur", "details": {"message": "brève impossible (I tested Qwen3.8 27B KLD for 21 Models at 9 different KV qua) : réponse non-JSON"}, "sha256": "4f2a1cce8d373e0bf99774ad1800b765380c3f4ce1b271f78f1fbb86ecc8b1fb"}
+{"ts": "2026-10-15T08:53:59+00:00", "evenement": "construction", "details": {"fichiers": 613}, "sha256": "247e363e2d020cb0a0817fb9f9f84c77e32997703d1d897055c986607583da6a"}
+{"ts": "2026-10-15T09:03:04+00:00", "evenement": "deploiement", "details": {"fichiers": 628, "octets": 10423636}, "sha256": "7bc71fc98621187ee47f3f31d87f7c4bd7ce22c35b5560d8e2e556ca547f6c66"}
+{"ts": "2026-10-15T09:03:05+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "5f5b847722f7606af112c7a0aaa4bc4cc741932b5b48f64b70ff3018947a5048"}
+{"ts": "2026-10-15T09:03:05+00:00", "evenement": "bilan", "details": {"duree_s": 655.1, "neufs": 12, "breves": 4, "articles": 1, "fichiers": 613, "envois": 628, "publications": 0}, "sha256": "4d5ab4342d0f62eb17dba8df5d0dfc73f4e4c4c5a32d0151ce553708c963fb4f"}

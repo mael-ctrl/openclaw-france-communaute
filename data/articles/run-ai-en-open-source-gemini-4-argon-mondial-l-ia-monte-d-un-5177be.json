@@ -1,0 +1,41 @@
+{
+ "slug": "run-ai-en-open-source-gemini-4-argon-mondial-l-ia-monte-d-un-5177be",
+ "titre": "Run:ai en open source, Gemini 4 Argon mondial : l'IA monte d'un étage",
+ "chapo": "Nvidia ouvre son orchestrateur de GPU, Google déploie Gemini 4 Argon dans le monde entier en doublant le prix de son API, et deux modèles ouverts débarquent sur Hugging Face. Pendant ce temps, YouTube Music commence à dire lesquels de ses morceaux sortent d'une IA.",
+ "html": "<h2 id=\"nvidia-ouvre-run-ai-pour-peser-sur-toute\">Nvidia ouvre Run:ai pour peser sur toute la chaîne</h2>\n<p>Nvidia place <strong>Run:ai</strong>, sa plateforme d'orchestration des GPU, en open source. Le mouvement dépasse la seule question des licences : l'entreprise ne se contente plus de vendre les puces qui font tourner les modèles d'intelligence artificielle. Elle veut désormais peser sur l'ensemble de la chaîne de valeur, et cela commence par la manière dont les entreprises et les fournisseurs de cloud utilisent ces ressources.</p>\n<p>C'est un déplacement de positionnement. Un orchestrateur, c'est la couche qui décide quel GPU prend quel travail, comment les ressources sont découpées, qui attend quoi. En ouvrant cet outil, Nvidia ne diffuse plus seulement du silicium : il installe aussi l'outillage qui organise son usage.</p>\n<h2 id=\"gemini-4-argon-en-mondial-l-api-deux-foi\">Gemini 4 Argon en mondial, l'API deux fois plus chère au 1er décembre</h2>\n<p>Google déploie <strong>Gemini 4 Argon</strong> à grande échelle. Dévoilé au début du mois, le modèle est accessible depuis le <strong>13 octobre 2026</strong> dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme. Google veut en faire un outil de travail pour les tâches complexes et le moteur de ses agents IA.</p>\n<p>L'annonce vient avec une contrepartie tarifaire : le prix de l'API doit <strong>doubler au 1er décembre</strong>. Un déploiement mondial assorti d'un doublement des coûts d'accès dessine deux choses à la fois — une montée en puissance sur les usages professionnels, et une pression nouvelle sur les budgets de ceux qui construisent dessus.</p>\n<h2 id=\"les-modeles-ouverts-avancent-sur-leurs-t\">Les modèles ouverts avancent sur leurs terrains</h2>\n<p>Côté modèles ouverts, deux sorties sur Hugging Face. <strong>Jais 3</strong>, publié par IFM, est présenté comme particulièrement performant sur les usages agentiques et centré sur la langue arabe. Ses poids sont accessibles dans la collection IFM/jais-3. Un axe clair : les agents, dans une langue que les grands modèles occidentaux traitent rarement en priorité.</p>\n<ul>\n<li><strong>Drama 3</strong>, de Fish, est un modèle de synthèse vocale en architecture MoE de type 35B3A.</li>\n<li>Malgré sa taille, il tourne correctement sur un DGX Spark.</li>\n<li>Ses quantifications en 4 bits restent très proches du modèle original.</li>\n<li>Une démo est disponible sur Hugging Face Spaces, et le modèle peut être téléchargé pour un usage local.</li>\n</ul>\n<p>Deux approches différentes, un même terrain : des modèles que l'on peut récupérer et faire tourner soi-même.</p>\n<h2 id=\"youtube-music-etiquette-ce-qui-sort-d-un\">YouTube Music étiquette ce qui sort d'une IA</h2>\n<p>YouTube Music a annoncé ce <strong>mercredi 14 octobre 2026</strong> le déploiement d'étiquettes indiquant si des morceaux ont été principalement créés par intelligence artificielle. L'étiquette s'affiche directement dans le lecteur. La plateforme met en avant la transparence face à la multiplication des titres générés par IA.</p>\n<p>Le geste reste simple : un marqueur visible au moment de l'écoute. Il installe l'idée que l'origine d'un contenu fait partie de ce que l'auditeur est en droit de savoir.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois couches bougent en même temps, à des rythmes différents. Nvidia travaille l'infrastructure et l'orchestration, Google pousse un modèle d'usage général assorti d'un signal-prix, IFM et Fish occupent des niches — arabe et agents d'un côté, voix de l'autre — pendant que les plateformes grand public commencent à documenter ce qui est généré. Les modèles se multiplient, les coûts d'accès se discutent, et la question de la provenance s'invite désormais dans l'interface.</p>",
+ "pivot": "5177bebef3eb541b",
+ "tags": [
+  "open-source",
+  "gemini",
+  "agents",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/electronique/nvidia/nvidia-passe-sa-plateforme-runai-en-open-source-pour-mieux-diffuser-ses-outils-dorchestration-des-gpu.6HUD5N5DRVBT7ITEFN4Q6NRJ3M.html"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6fuy2/jais_3_is_out/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6f9p2/new_tts_king_in_town_fishs_drama_3_35b3a/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/google/3285767_youtube-music-va-vous-dire-si-le-morceau-que-vous-ecoutez-a-ete-cree-par-une-ia"
+  }
+ ],
+ "date": "2026-10-15T08:53:58+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1568,
+  "sortie": 3525
+ }
+}

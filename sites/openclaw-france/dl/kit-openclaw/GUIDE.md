@@ -19,34 +19,64 @@ Deux principes avant de commencer :
 
 ## 1. Ce dont vous avez besoin (prérequis)
 
-OpenClaw tourne « chez vous » : soit sur **votre ordinateur**, soit sur un
-**petit serveur loué** (un « VPS »). Pour un assistant disponible 24 h/24, branché
-à vos messageries, le VPS est le choix habituel — mais on peut commencer sur un
-ordinateur et déménager plus tard.
+Choisissez une **machine compatible à vous** ou un **VPS Linux** auquel vous
+accédez par SSH. Un serveur loué n’est pas obligatoire pour un premier essai.
+Sur un VPS, lancez les commandes sur le serveur, avec un compte dédié.
 
-**Option A — votre ordinateur (macOS ou Linux).**
-Rien de particulier à préparer : l'installateur officiel installe lui-même ce qui
-manque (Node.js, etc.). Sous Windows, la doc officielle propose une méthode
-PowerShell dédiée et une application de bureau ; ce guide-ci vise macOS/Linux.
+### Chemin classique : macOS ou Linux
 
-**Option B — un VPS Ubuntu/Debian (~5–10 €/mois).**
-Prenez une petite formule : 2 Go de RAM est le minimum constaté en pratique pour
-un usage tranquille — **[À VÉRIFIER]** (la documentation officielle ne publie pas
-de minimum matériel formel ; en cas de doute, prenez 4 Go). Vous recevez de votre
-hébergeur une adresse IP et un accès SSH. Le kit fonctionne avec n'importe quel
-hébergeur.
+Le script `scripts/install.sh` du kit attend un terminal **Bash** et **curl**.
+Il vérifie macOS ou Linux, puis appelle l’installateur officiel ; lisez le
+script avant de le lancer. Pour le chemin Node.js, la documentation indique
+**Node.js 24.16+ dans la branche 24, ou 26.1+ dans la branche 26**. Vérifiez
+`node -v` si Node est déjà installé. L’installateur officiel peut le
+provisionner s’il manque ; les droits nécessaires dépendent de votre système.
 
-> 💡 **Pas encore d'hébergeur ?** Notre site passe par **Hostinger** :
-> <https://www.hostinger.com/fr?REFERRALCODE=FGUOPENCL2M5> — *lien partenaire,
-> il finance la gratuité de ce kit* (rabais déjà appliqué, zéro surcoût pour
-> vous). Cela dit, n'importe quel hébergeur convient : prenez celui qui vous
-> plaît.
+### Windows : ne pas confondre Bash et PowerShell
 
-**Dans les deux cas, il vous faut un accès à un modèle d'IA :** une clé API chez
-un fournisseur (OpenAI, Anthropic, Gemini, OpenRouter…), ou une connexion
-existante Claude Code / Codex CLI que l'assistant peut réutiliser tout seul.
-Les clés API sont en général facturées à l'usage par le fournisseur — c'est le
-seul coût possible, OpenClaw lui-même étant gratuit.
+OpenClaw propose un installateur PowerShell et une application Windows Hub.
+Ce ne sont pas les scripts fournis par ce kit. Si vous choisissez **WSL2**,
+lancez les commandes Bash dans le terminal Linux, **pas dans PowerShell**.
+Suivez la [documentation Windows officielle](https://docs.openclaw.ai/platforms/windows)
+pour préparer la méthode choisie, notamment le service sous WSL2.
+
+### Docker est facultatif : distinguer construction et utilisation
+
+Prévoyez **Docker Engine ou Docker Desktop + Docker Compose v2**, un moteur
+Docker démarré et de la place sur le disque pour les images, les journaux et
+les sauvegardes. `docker compose version` vérifie la présence de Compose.
+
+La documentation demande **au moins 6 Go de mémoire pour la construction locale
+d’une image depuis les sources**. Le Compose du kit utilise une **image officielle
+préconstruite** (`ghcr.io/openclaw/openclaw:latest`) : il évite cette construction.
+Ce chiffre n’est pas un minimum universel à l’exécution. Navigateur, outils,
+autres services et éventuel modèle local changent les besoins. Les anciennes
+estimations de 2 ou 4 Go ne constituent pas un dimensionnement validé : mesurez
+votre usage avant de choisir une offre. Aucune quantité de RAM ne garantit à
+elle seule la compatibilité de toute l’installation.
+
+### Accès au modèle et budget
+
+Le kit et ses guides sont gratuits ; le **modèle IA** et l’**hébergement** peuvent
+être **payants**. Préparez un accès pris en charge par votre fournisseur et par
+OpenClaw, puis configurez-le dans l’assistant. Ne supposez pas qu’un abonnement
+à une application de chat ou une connexion existante donne automatiquement
+accès à son API. Vérifiez les tarifs, quotas et conditions du fournisseur ;
+fixez un **plafond de dépense** pour le premier essai. Ne partagez jamais vos
+clés API, jetons, fichier `.env` ou sauvegardes.
+
+> Hébergement facultatif : [Hostinger](https://www.hostinger.com/fr?REFERRALCODE=FGUOPENCL2M5)
+> est un **lien partenaire** qui peut soutenir ce kit. Comparez les offres et
+> leurs conditions actuelles ; aucun tarif ni rabais n’est garanti ici et vous
+> restez libre de choisir un autre hébergeur compatible.
+
+**Sources des prérequis consultées le 2026-10-15 :**
+[installation officielle](https://docs.openclaw.ai/install),
+[Docker](https://docs.openclaw.ai/install/docker) et
+[Windows](https://docs.openclaw.ai/platforms/windows).
+Il s’agit d’une vérification documentaire indépendante, **pas une installation testée**
+sur chaque plateforme. Cette relecture porte sur les prérequis ; elle ne valide
+pas tous les parcours du guide. La documentation officielle prévaut en cas d’écart.
 
 ---
 

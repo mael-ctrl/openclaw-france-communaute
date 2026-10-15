@@ -46,7 +46,7 @@ class OpenClawPrerequisTest(unittest.TestCase):
                      "6 Go", "construction", "préconstruite", "mémoire", "disque", "SSH"):
             self.assertIn(word, self.text)
         for phrase in ("pas dans PowerShell", "pas une garantie", "pas une installation testée",
-                       "plus anciennes", "modèle IA", "hébergement"):
+                       "prérequis du guide", "modèle IA", "hébergement"):
             self.assertIn(phrase, self.text)
         self.assertNotIn("curl -fsSL", self.block)
         compose = (SITE / "dl/kit-openclaw/docker-compose.yml").read_text()
@@ -60,7 +60,7 @@ class OpenClawPrerequisTest(unittest.TestCase):
                     "https://docs.openclaw.ai/platforms/windows", "/dl/kit-openclaw/GUIDE.md",
                     "/guides/demarrer-openclaw-hermes/#couts"):
             self.assertIn(url, links)
-        self.assertIn('datetime="2026-10-14"', self.block)
+        self.assertIn('datetime="2026-10-15"', self.block)
         self.assertIn("indépendante", self.text)
         faq = self.html.split("Il me faut quoi pour commencer ?</summary>", 1)[1].split("</details>", 1)[0]
         self.assertIn('href="#prerequis"', faq)

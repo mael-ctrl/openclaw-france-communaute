@@ -335,6 +335,52 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   réellement testée. Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-14/hub-prerequis-openclaw/`.
 
+## Prérequis dans le kit OpenClaw — livraison du 15/10/2026
+
+- **Une amélioration livrée** : les prérequis du `GUIDE.md` et du `README.md`
+  sont désormais cohérents avec `/openclaw/#prerequis`, y compris dans le ZIP.
+  Bash/curl, Windows natif/WSL2, Node.js et Docker facultatif sont distingués ;
+  la mémoire de construction ne devient pas une promesse de dimensionnement.
+  Le README place ces vérifications avant les commandes de démarrage.
+- Budget clarifié dans ces deux fichiers : modèle et hébergement potentiellement
+  payants, plafond conseillé, pas de réutilisation automatique garantie d’un
+  abonnement. Retrait des tarifs, rabais et minima RAM non vérifiés du bloc
+  remplacé ; lien partenaire conservé et déclaré. Les sections d’installation,
+  les scripts, le Compose et la configuration restent inchangés.
+- Sources officielles relues le 15/10 : installation, Docker et Windows. Une
+  extraction intermédiaire renvoyait des versions/mémoires divergentes : les
+  réponses HTTPS directes `.md` et les fichiers du dépôt officiel GitHub ont
+  été comparés, identiques pour installation/Docker (Node 24.16+ ou 26.1+ ;
+  6 Go pour construire localement). Aucune installation réelle revendiquée.
+- Tests : trois nouveaux contrôles de contenu échouent avant correction ;
+  **82 tests OK** après correction, dont quatre nouveaux tests sur le kit.
+  **7 tests OK sur les fichiers HTTPS publics**, intégrité/exhaustivité du ZIP
+  et correspondance exacte avec ses sources. Les deux seules entrées modifiées
+  dans le ZIP OpenClaw sont `GUIDE.md` et `README.md` ; ZIP Hermes inchangé.
+  Les quatre scripts passent `bash -n`, sans exécuter d’installation.
+- Chrome sans JavaScript : ancre et FAQ au clavier, styles appliqués et absence
+  de débordement horizontal contrôlés localement puis en production à **1440,
+  1024, 430, 390, 375 et 360 px**. Le guide téléchargé par le navigateur public
+  correspond exactement à la source.
+- Déploiement par `python3 outils/deployer_openclaw.py` depuis le clone cron
+  hors Bureau `~/.hermes/workspaces/hub-openclaw-20261003`. Sauvegarde privée
+  et comparaison des **35 fichiers** avant envoi : aucune divergence. Les
+  **35 fichiers relus via FTP** après envoi correspondent tous aux sources.
+  Aucun autre clone, moteur, donnée ni cron modifié.
+- Santé : les **six URL demandées répondent HTTP 200**, avant et après envoi.
+  Contrôle étendu : **18 URL en HTTP 200**, dont les fichiers du kit, sitemap,
+  clé et les deux ZIP avec/sans `?v=2`. Section publiée et fichiers non HTML
+  identiques aux sources. Sitemap actualisé pour OpenClaw uniquement.
+  **IndexNow HTTP 200** pour la page et les deux fichiers Markdown : notification
+  acceptée, sans prétendre à l’indexation ni à une hausse du trafic.
+- **Aucune nouvelle distribution** : journal du 15/10 relu, accès bloquants
+  déjà consignés ; promotion Bluesky du 12/10 excluante cette semaine. Son fil
+  public est relu en HTTPS : URI/CID conformes, zéro réponse au contrôle.
+  Prochaine priorité : aligner à son tour le guide téléchargeable Hermes sur
+  les prérequis et réserves de sa page, sans inventer une compatibilité testée.
+  Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-15/hub-kit-openclaw/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

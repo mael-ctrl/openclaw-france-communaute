@@ -32,6 +32,32 @@ pilotez depuis un tableau de bord ou vos messageries. Prévoyez environ
 
 ---
 
+## ✅ Ce qu’il vous faut — avant de lancer les scripts
+
+- **macOS ou Linux, Bash et curl** pour `scripts/install.sh`. Sur un VPS,
+  travaillez sur le serveur via **SSH**, avec un compte dédié.
+- Pour le chemin classique, **Node.js 24.16+ dans la branche 24 ou 26.1+ dans
+  la branche 26** ; vérifiez `node -v` s’il est déjà installé. L’installateur
+  officiel peut le provisionner s’il manque.
+- **Windows** : méthode officielle native (PowerShell / Windows Hub) ou **WSL2**.
+  Dans WSL2, les commandes Bash se lancent dans le terminal Linux,
+  **pas dans PowerShell**. Le kit ne fournit pas d’installateur PowerShell.
+- **Docker reste une option** : Docker Engine ou Desktop, **Docker Compose v2**,
+  moteur démarré et espace disque. Les **6 Go** indiqués par la documentation
+  concernent la **construction locale depuis les sources** ; le kit utilise
+  une image officielle **préconstruite**. Ce n’est pas une garantie de mémoire
+  suffisante à l’exécution : les outils et les autres services changent les besoins.
+- Un accès à un **modèle IA** compatible. Le modèle et l’**hébergement** peuvent
+  être **payants**, contrairement au kit. Vérifiez les conditions et quotas ;
+  fixez un **plafond de dépense**. Un abonnement à une application ne garantit
+  pas un accès à son API.
+
+Prérequis relus le **2026-10-15**, d’après les sources officielles liées dans
+[GUIDE.md](GUIDE.md). C’est une vérification documentaire, **pas une installation testée**
+sur chaque plateforme. Lisez la section 1 du guide avant toute exécution.
+
+---
+
 ## 🚀 Démarrage express
 
 ### 1. Lisez le guide
@@ -76,16 +102,6 @@ bash scripts/mise-a-jour.sh       # pour mettre à jour en toute sécurité
 ```
 
 Et parcourez **securite.md** : 12 points, 5 minutes, et vous dormez tranquille.
-
----
-
-## ✅ Ce qu'il vous faut
-
-- Une **machine à vous** (macOS ou Linux ; Windows fonctionne aussi via la
-  méthode officielle — voir la doc) **ou** un petit **VPS** Linux (~5-10 €/mois).
-- Un **accès à un modèle d'IA** : une clé API chez un fournisseur, ou une
-  connexion existante (Claude Code / Codex) que l'assistant peut réutiliser.
-- 30 minutes de calme. C'est tout.
 
 ---
 

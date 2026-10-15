@@ -26,7 +26,14 @@ Sorties brutes locales : `crabe-chantiers/integration-site/2026-10-15-fiabilite/
 
 ## Recette cloud et HTTPS
 
-En attente du push et du run `maj.yml` de cette intégration. Ne pas confondre les tests de panne injectée avec un incident provoqué chez OVH. La validation de production doit consigner ici le run, sa conclusion, le déploiement effectif et les URL HTTPS relues.
+- Code intégré : [`3e79f4b4167decdb3395cd243c9b29cfa652bd4e`](https://github.com/mael-ctrl/openclaw-france-communaute/commit/3e79f4b4167decdb3395cd243c9b29cfa652bd4e).
+- [`maj.yml` — run 38708738646](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/38708738646), dispatch du 15/10 à 08:52:03 UTC : **success**, terminé à 09:03:09 UTC. Pipeline et sauvegarde d'état réussis.
+- Déploiement confirmé par log **et** journal : **628 fichiers, 10 423 636 octets** envoyés ; entrée `deploiement` à 09:03:04 UTC. État cloud sauvegardé au commit [`8546b3643c68c3b09f05a727d24a302bb44b3725`](https://github.com/mael-ctrl/openclaw-france-communaute/commit/8546b3643c68c3b09f05a727d24a302bb44b3725).
+- Contrôle TLS strict à **09:05:04 UTC** : accueil, `/version.txt`, `/news-sitemap.xml`, dernière brève et dernier article **HTTP 200**. Le marqueur de build correspond à l'entrée `construction` du run ; les deux nouveaux contenus figurent au news-sitemap.
+- Les HTML HTTPS de la [brève](https://communaute-ia.fr/breves/nvidia-ouvre-sa-plateforme-d-orchestration-de-gpu-run-ai-en-open-sourc-5177be/) et de l'[article](https://communaute-ia.fr/articles/run-ai-en-open-source-gemini-4-argon-mondial-l-ia-monte-d-un-5177be/) sont **identiques octet pour octet** au rendu des données du commit sauvegardé. Cela vérifie la livraison, pas la véracité éditoriale de ces contenus.
+- Preuves locales brutes : `06-cloud-complet.log`, `07-cloud.json`, `08-verification-https.json`, corps HTTPS et en-têtes associés dans le dossier de recette. SHA-256 des HTML : brève `b613537180b663ab37a8ffb430a04ee22879111b41f48e7aa9d4dcca8181f0e0` ; article `4b02415a55a6d8908e14d99d976b213e7cf4cdda36ee70d4b945f70a8f9b65cc`.
+
+Le run garde des incidents éditoriaux/collecte non bloquants documentés : deux réponses de rédaction non JSON et les refus 403/429 déjà observés. Le scénario FTP en échec est éprouvé par injection locale et contrat du workflow, **pas par une panne provoquée en production**. Aucun gain de trafic ou de revenus n'est revendiqué.
 
 ## Limites conservées
 

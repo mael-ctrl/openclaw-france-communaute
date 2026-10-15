@@ -1,29 +1,32 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
-**Mise à jour : 2026-10-15** · Audit : Maël · Tenue à jour : cron « 🌍 Roadmap & gouvernance » (21 h) + intégration quotidienne (10 h 45).
+**Mise à jour : 2026-10-15, revue de 21 h CEST** · Audit : Maël · Tenue à jour : cron « 🌍 Roadmap & gouvernance » + intégration quotidienne. État arrêté aux contrôles de 21 h 02 ; le podcast tourne encore, son résultat n'est pas présumé.
 
 ## Mandat
 1 M€ de CA en 12 mois (échéance 02/10/2027) — **100 % des bénéfices reversés à des associations françaises loi 1901** ; tout documenté (journal public, page Transparence, manifestes chaînés).
 
 ## Phases (critère de fin = preuve vérifiable)
 
-| # | Chantier | Critère de fin | État |
-|---|---|---|---|
-| P1 | Actu Google / fraîcheur | news-sitemap live + Search Console vérifiée + contenu neuf < 24 h | 🔶 news-sitemap ✅ 14/10 · GSC : action Maël |
-| P2 | Revue site (perf, SEO, UX, engagement) | 1 amélioration vs testée **par jour** intégrée (cron chantier) | 🔶 15/10 : fiabilité du déploiement ✅, 72 tests OK, run 38708738646 et HTTPS vérifiés ([preuve](verification-deploiement.md)) |
-| P3 | Podcast + YouTube | pilote ✅ · 1er épisode publié + chaîne créée + RSS podcast | 🔶 pilote 14/10 · chaîne : action Maël |
-| P4 | Newsletter « La Brève du Crabe » | plan + 1er numéro + formulaire en ligne + 100 abonnés | ⏳ plan en cours (sous-agent) |
-| P5 | Monétisation | 1er 100 € encaissés, puis paliers M2→M12 du plan | 🔶 15/10 : échantillon B2B sourcé en ligne, parcours et téléchargements vérifiés ; encaissement non démontré ([preuve](monetisation.md)) |
-| P6 | Presse & distribution | vague-3 soumise + retombées mesurées | 🔶 vagues 1-2 faites · vague-3 en préparation |
-| P7 | Record Guinness | dossier qualifié + preuves chaînées (routine active) | 🔶 en continu |
-| P8 | Skool « La Communauté IA 🦀 » | communauté publique + 22/22 leçons + 1er membre externe | 🔶 18/22 leçons · promo à brancher |
-| P9 | Organisation & process | organigramme + SOPs + orchestration multi-agents appliqués | ✅ v1 rédigée 14/10 (`crabe-chantiers/organisation/`, 25/25 crons validés) |
-| P10 | Affiliation | programme Skool + pack opérationnels (divulgation partout) | 🔶 plan prêt (Skool 30 % ; produit payant à trancher) · enquête MEDVI faite |
+| # | Chantier | Critère de fin | État au 15/10 soir | Prochaine étape / dépendance |
+|---|---|---|---|---|
+| P1 | Actu Google / fraîcheur | news-sitemap live + Search Console vérifiée + contenu neuf < 24 h | 🔶 HTTPS 200, 138 URL au news-sitemap ; dernier contenu daté 18:34:41 UTC. TXT Google posé et visible publiquement ; validation GSC non attestée | **16/10 :** obtenir la validation GSC, puis soumettre les deux sitemaps ; Bing par import ensuite. Une seule action humaine prioritaire ci-dessous |
+| P2 | Revue site (perf, SEO, UX, engagement) | 1 amélioration testée **par jour** intégrée | ✅ Jalon du 15/10 : fiabilité FTP, Open Graph éditorial et prérequis du ZIP OpenClaw livrés ; recettes distinctes documentées | **16/10 :** première intégration SEO restante = couvertures par article. Côté hub : aligner le guide Hermes ; aucun gain de trafic attribué aux correctifs |
+| P3 | Podcast + YouTube | pilote + 1er épisode publié + chaîne créée + RSS podcast | 🔶 Lot page/RSS préparé et testé par l'orchestrateur ; `/podcast/` et son flux répondent encore 404. Cron du soir déclaré `running`, dispatch retardé de 1 h 26 | **16/10 :** relire son résultat avant toute reprise ; intégrer le RSS en préservant les fichiers B2B dans `annexes.py`. Chaîne/OAuth non attestés ; ne bloquent pas la page locale |
+| P4 | Newsletter « La Brève du Crabe » | 1er numéro + formulaire en ligne + 100 abonnés | 🔶 Compositeur local + numéro 01 livrés, 15 tests et reproduction exacte consignés par l'orchestrateur ; plus un simple plan en cours | **16/10 :** revue éditoriale et intégration locale du compositeur. Envoi désactivé tant que compte, consentement, confidentialité et désinscription ne sont pas éprouvés |
+| P5 | Monétisation | 1er 100 € encaissés, puis paliers M2→M12 | 🔶 Échantillon B2B en ligne et revérifié HTTP 200 ; aucun encaissement démontré par cette livraison. Cumul du projet indisponible, attribution incomplète | **16/10 :** auditer les anciennes promesses B2B puis qualifier une cible et son canal ; compléter l'attribution des paiements. Aucun nouveau prix ni facturation activés |
+| P6 | Presse & distribution | vague-3 soumise + retombées mesurées | 🔶 Vague-3 non soumise ; contrôles du 15/10 sans envoi. Accès Uneed absent, invitations/accords JDH et LinuxFr non obtenus ; rebond de courrier signalé le soir, cause à qualifier | **16/10 :** qualifier ce rebond et revérifier les accès sans relance doublonnée. Pas de nouvelle promotion Bluesky jusqu'au 18/10 inclus ; Mastodon toujours sans approbation attestée |
+| P7 | Record Guinness | dossier qualifié + preuves chaînées | 🔶 Routine active ; aucune reconnaissance Guinness ni qualification finale attestée | **16/10 :** poursuivre la conservation des preuves et la qualification du dossier ; jamais de sceau rétroactif ni de réécriture du journal |
+| P8 | Skool « La Communauté IA 🦀 » | communauté publique + 22/22 leçons + 1er membre externe | 🔶 Dernier état consigné : 18/22 leçons ; pas de recomptage ce soir. Brouillon du 15/10 produit, pas une publication | **Prochaine session authentifiée :** compléter et recompter les leçons, vérifier le premier membre externe et brancher la promo. La roadmap Skool datée du 12/10 est périmée, à réconcilier sans reprendre ses anciens blocages comme état actuel |
+| P9 | Organisation & process | organigramme + SOPs + orchestration appliqués | ✅ v1 écrite ; vague du 15/10 exécutée : 4 missions, 32 artefacts dont les empreintes sont revérifiées ce soir. Fiabilité et B2B intégrés ensuite ; podcast/newsletter restent distincts | **16/10 :** sélectionner les lots depuis le rapport/manifeste, revalider leur combinaison et contrôler les retards des jobs. Aucun cron créé ou modifié par cette revue |
+| P10 | Affiliation | programme Skool + pack opérationnels, divulgation partout | 🔶 Plan prêt, pas de programme opérationnel attesté ; le taux Skool proposé n'est pas une configuration validée | **Prochaine revue monétisation :** travailler le parcours Pack ; ne pas transformer Skool gratuit en offre payante ni activer de commissions sans décision explicite |
 
-## Actions Maël (bloquants identifiés — 1 clic chacun)
-1. **Search Console + Bing Webmaster Tools** (compte Google) — le record DNS/balise sera préparé pour validation.
-2. **Chaîne YouTube « La Brève du Crabe »** + projet OAuth (guide pas-à-pas prêt : `crabe-chantiers/youtube/guide-lancement.md`).
-3. **PayPal de l'association loi 1901** (nom à valider) — canal de don officiel.
+## Une seule action humaine prioritaire — validation Search Console
+
+**Message exact pour Maël :** « Maël, ouvre la propriété `communaute-ia.fr` dans Google Search Console et clique sur **Valider**. Le TXT DNS est déjà posé et visible publiquement ; seule la validation du compte reste non attestée. »
+
+Ce prérequis bloque la clôture de P1, pas la publication du média ni les lots locaux. Si son absence empêche l'étape d'indexation prévue, **l'email URGENCE à l'adresse d'escalade convenue doit partir** avec ce message unique. Cette revue prépare l'escalade mais n'envoie aucun email ni message Discord ; livraison locale uniquement. Le destinataire exact reste dans le compte-rendu local.
+
+Les autres dépendances (chaîne/OAuth, accès newsletter, accès de distribution, offre Skool payante et canal de don associatif) restent dans leur chantier ou dans le backlog : aucune demande humaine groupée ce soir. L'ouverture de PayPal ne bloque pas les liens Stripe existants et n'est pas une preuve de reversement à une association.
 
 ## Journal des jalons
 - **2026-10-14** : mission associations publiée (manifeste/transparence/accueil/llms.txt) ; news-sitemap live ; pilote podcast généré (61 s) ; +6 crons ; 8 sous-agents lancés ; clone réparé ; trafic 12-13/10 publié.
@@ -33,6 +36,10 @@
 - **Jalon monétisation du 15/10** : une démonstration de veille publiée depuis `/b2b/`, avec deux téléchargements et qualification facultative ; run `38728943975` et HTTPS vérifiés. Prix, contrats et paiements inchangés ; aucun email ni promotion supplémentaire. [Compte-rendu](monetisation.md).
 
 - **Croissance du 15/10** : métadonnées Open Graph corrigées pour les pages éditoriales (type `article`, propriété de date des articles). Commit `110efb4`, 78 tests Python + 4 Node OK ; run `38732416279` réussi, 9 URL HTTPS contrôlées. Textes et JSON-LD préservés ; aucun gain de trafic mesuré. [Preuve](open-graph-editorial.md).
+
+- **Revue du 15/10 à 21 h** : pull sans conflit jusqu'à `8df40f8` ; 31 commits datés du jour observés. API GitHub exhaustive sur les runs créés entre 00 h et 21 h CEST : 22 runs, 18 réussis et 4 annulés ; dernière réussite `38786459738` à 20:43 CEST. Les succès antérieurs au correctif FTP ne sont pas une preuve suffisante de déploiement. Accueil, version, news-sitemap, démonstration B2B et PDS répondent 200 ; alerte HTTP du chien de garde de 20:24 non reproduite, cause non établie.
+- **Mesure disponible le 15/10** : 923 IP uniques estimées le **14/10**, contre 490 le 13/10 (+433 ; +88,4 %), ensemble média + hub, robots identifiés exclus ; pas une mesure garantie de personnes. Trafic du 15/10 non consolidé. Brief ventes de 08:45 : 0 € sur ses 24 h observées, **cumul indisponible** ; ne pas reprendre « 0 € cumulé » comme état courant. Bluesky : 4 abonnés au contrôle du soir.
+- **Hub du 15/10** : commit `b04248c`, prérequis des README/GUIDE alignés dans le ZIP OpenClaw ; recettes du téléchargement documentées dans [le journal du hub](hub-openclaw-france.md). Aucun test d'installation multi-OS revendiqué.
 
 ## Prochain chantier SEO (ordre d'impact conservé)
 - Actions #1 (grands aperçus) et #2 (news-sitemap) déjà en place ; **#3 images de couverture automatiques** reste la première intégration SEO à réaliser, puis #4 JSON-LD/dates visibles et #5 autoindex/couverture des archives. Ne pas annoncer ces fonctionnalités comme livrées sur la base d'un brouillon de sous-agent.

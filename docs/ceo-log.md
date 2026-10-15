@@ -361,3 +361,94 @@ réparé (rebase interrompu résolu) ; trafic 12-13/10 rattrapé et publié.
 **Effet attendu** : éligibilité Google News progressive (news-sitemap + fraîcheur), une amélioration
 vérifiée par jour intégrée au site, premiers canaux de revenus en construction — aucun revenu encore
 mesuré (0 € au 14/10).
+
+---
+
+## 2026-10-15 (21 h CEST) — Livraisons vérifiées, préparation distincte de la production
+
+**Périmètre de la revue :** clone cron hors Bureau, `git pull --no-rebase` réussi
+jusqu'à `8df40f8`, arbre propre avant édition. Mise à jour documentaire uniquement :
+aucun déploiement, envoi, changement de cron ou d'infrastructure. Les entrées
+historiques ne constituent pas l'état courant ; la roadmap datée fait foi.
+
+### Livré aujourd'hui
+
+- **Fiabilité du pipeline** (`3e79f4b`) : une erreur FTP rend désormais le CLI
+  non nul et empêche les annonces ; sauvegarde d'état maintenue sans masquer
+  l'échec. Recette du chantier : 72 tests, run `38708738646`, logs de transfert
+  et HTTPS. Voir [verification-deploiement.md](verification-deploiement.md).
+- **Démonstration B2B** (`26fbaa0`) : échantillon sourcé, téléchargements et
+  qualification facultative en ligne ; run `38728943975`. Aucun nouveau prix,
+  paiement, email ou résultat client. Voir [monetisation.md](monetisation.md).
+- **Open Graph éditorial** (`110efb4`) : types et dates corrigés sans changement
+  des textes/JSON-LD ; run `38732416279`. Voir
+  [open-graph-editorial.md](open-graph-editorial.md).
+- **Kit OpenClaw** (`b04248c`) : prérequis et coûts clarifiés dans le README,
+  le guide et leur ZIP ; téléchargement public vérifié par le chantier hub.
+  Cela ne prouve pas une installation réussie sur chaque OS. Voir
+  [hub-openclaw-france.md](hub-openclaw-france.md).
+
+Les comptes-rendus de recette ont été relus ce soir ; leurs suites de tests
+ne sont pas présentées comme rejouées par cette revue de gouvernance.
+
+### Automatisation et sous-agents
+
+- **31 commits datés du 15/10 observés** avant ce bilan, mises à jour et fusions
+  comprises. API GitHub filtrée de 00 h à 21 h CEST : **22 runs créés**, total
+  annoncé et liste concordants ; **18 réussis, 4 annulés**. Dernière réussite :
+  `38786459738`, terminée à 18:43:38 UTC. Ce comptage décrit les statuts GitHub,
+  pas une validation HTTPS de chaque run, notamment avant le correctif FTP.
+- **Vague du matin : 4 missions**, rapport et manifeste relus ; **32 artefacts**
+  encore présents, SHA-256 tous conformes au manifeste. L'orchestrateur a rejoué
+  les contrôles consignés, dont 15 tests du compositeur newsletter et sa
+  reproduction exacte. Fiabilité et B2B ont ensuite été intégrés ; page/RSS
+  podcast et newsletter restent des lots préparés, pas des canaux lancés.
+- **Podcast du soir : en cours**, selon `hermes cron list` ; dispatch de 18:30
+  rattrapé à 19:56:55 CEST (1 h 26 de retard), aucun résultat final disponible
+  au contrôle. `/podcast/` et `/podcast/feed.xml` répondent encore 404. Relire
+  le résultat avant de reprendre le lot ; fusionner les fichiers annexes avec
+  ceux de B2B, ne jamais écraser `annexes.py` avec la copie du sous-agent.
+- **Surveillance :** contrôle indexation matinal silencieux ; veilles ventes
+  de 06 h, 12 h et 18 h silencieuses. Le chien de garde a signalé une erreur
+  HTTP à 20:24, **non reproduite** à la revue : accueil, version, news-sitemap,
+  démonstration B2B et PDS en HTTPS 200. Dernier build public : 18:34:42 UTC ;
+  news-sitemap : 138 URL. Cause de l'alerte non établie, pas de réparation
+  improvisée. Retards de dispatch à suivre, pas assimilés à une panne du site.
+- **Distribution :** contrôles du jour sans nouvel envoi (voir le journal
+  dédié). Accès/permissions toujours requis ; pas de deuxième promotion
+  Bluesky cette semaine. Le courrier du soir signale un retour non distribué :
+  destinataire et cause à qualifier avant toute relance. Brouillon Skool du
+  15/10 produit, sans prétendre qu'il a été publié.
+
+### Mesure et décisions
+
+- **Trafic disponible : 14/10, pas 15/10** — `data/trafic.json`, actualisé à
+  06:40:55 UTC : **923** IP uniques estimées, contre **490** le 13/10
+  (**+433 ; +88,4 %**). Périmètre média + hub, robots identifiés exclus,
+  pas une mesure garantie de personnes. Google : **9 requêtes référentes**,
+  pas neuf visiteurs attribués. Bluesky : **4 abonnés** au contrôle public
+  du soir. Aucun effet causal attribué aux améliorations du site.
+- **Ventes :** le brief de 08:45 rapporte **0 € sur les 24 h qu'il a contrôlées** ;
+  ce n'est pas le bilan complet du 15/10. **Cumul du projet indisponible,
+  attribution incomplète** : ne pas reconduire le « 0 € » historique ni
+  convertir le silence des veilles en preuve d'un cumul nul. Priorité de
+  mesure : rattacher les paiements avant d'afficher un chiffre d'affaires.
+- **Prochaines étapes du 16/10 :** relire le résultat podcast avant intégration,
+  avancer les couvertures par article (première priorité SEO restante),
+  auditer les anciennes promesses B2B avant approche ciblée et préparer
+  localement la newsletter sans activer l'envoi. Mettre à jour la roadmap
+  Skool depuis une session authentifiée ; son document du 12/10 est périmé.
+- **Un seul blocage remonté à Maël : validation Search Console.** Le TXT a
+  été posé aujourd'hui et sa présence publique est revérifiée ; la validation
+  du compte n'est pas attestée. Message exact : « Maël, ouvre la propriété
+  `communaute-ia.fr` dans Google Search Console et clique sur **Valider**.
+  Le TXT DNS est déjà posé et visible publiquement ; seule la validation du
+  compte reste non attestée. » Si ce prérequis bloque l'étape d'indexation,
+  l'email **URGENCE** à l'adresse convenue doit partir ; préparé seulement
+  dans cette revue, aucun email envoyé. Publication du média et préparation
+  locale continuent ; livraison du bilan **locale uniquement, jamais Discord**.
+
+**Sources de suivi :** rapport/manifeste privé `crabe-chantiers/rapports/2026-10-15`,
+sorties locales des crons du jour, API GitHub, agrégats de trafic versionnés et
+sondes HTTPS/DNS du soir. Aucun fichier de test ni donnée privée de paiement
+repris dans le dépôt public.

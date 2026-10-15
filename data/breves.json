@@ -1,5 +1,86 @@
 [
  {
+  "id": "7ff8bef88cd70c2a",
+  "slug": "bee-filiale-d-amazon-lance-deux-appareils-ia-personnels-des-75-dollars-7ff8be",
+  "titre": "Bee, filiale d'Amazon, lance deux appareils IA personnels dès 75 dollars",
+  "resume": "Bee, passé sous le giron d'Amazon, sort ses premiers appareils IA depuis le rachat. Deux produits : un wearable mis à jour et un enregistreur de la taille d'une carte bancaire qui se fixe au smartphone. Ils savent résumer des conversations et générer des listes de tâches, et s'intègrent à Alexa comme aux achats Amazon. Les prix démarrent à 74,99 dollars.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+  "date_source": null,
+  "date_redac": "2026-10-15T13:02:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 648,
+   "sortie": 715
+  }
+ },
+ {
+  "id": "6de8e25af64756f1",
+  "slug": "test-du-rog-xbox-ally-x20-oled-asus-sort-enfin-sa-console-pc-a-1-400-6de8e2",
+  "titre": "Test du ROG Xbox Ally X20 OLED : Asus sort enfin sa console PC à 1 400 €",
+  "resume": "Asus lance enfin un modèle de son PC portable déguisé en console équipé d'un écran OLED. La dalle tant attendue est désormais au rendez-vous sur le ROG Xbox Ally X20, comme le relève le test de Numerama. Ce choix fait grimper la facture à 1 400 €, un tarif élevé pour cet appareil hybride entre PC et console portable.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2353483-test-du-rog-xbox-ally-x20-avec-ecran-oled-laboutissement.html",
+  "date_source": null,
+  "date_redac": "2026-10-15T13:02:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 634,
+   "sortie": 568
+  }
+ },
+ {
+  "id": "0e4a8e32166a07e4",
+  "slug": "google-deploie-son-panier-d-achat-universel-dans-gemini-et-search-0e4a8e",
+  "titre": "Google déploie son panier d'achat universel dans Gemini et Search",
+  "resume": "Présenté lors de l'I/O de mai, le panier d'achat « universel » de Google est désormais disponible aux États-Unis. L'outil, décrit comme un panier d'achat intelligent, est intégré à l'application Gemini et à la recherche Google. Son objectif : simplifier les achats en ligne, à l'approche du Black Friday et des dépenses de fin d'année.",
+  "tags": [
+   "gemini",
+   "business"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
+  "date_source": "2026-10-15T13:00:00+00:00",
+  "date_redac": "2026-10-15T13:02:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 656,
+   "sortie": 440
+  }
+ },
+ {
+  "id": "54c7fad986ed50ff",
+  "slug": "strata-et-project-maya-sur-amd-mi50-appel-a-retours-d-experience-54c7fa",
+  "titre": "Strata et Project-Maya sur AMD MI50 : appel à retours d'expérience",
+  "resume": "Un utilisateur de r/LocalLLaMA demande si quelqu'un fait tourner Strata ou Project-Maya sur un ou plusieurs GPU AMD MI50. Il souhaitait tester ces projets lui-même, mais n'a pas réussi à les faire fonctionner. Le fil reste ouvert aux retours de ceux qui ont tenté l'installation sur ce matériel.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6km4b/strata_on_mi50/",
+  "date_source": "2026-10-15T12:43:06+00:00",
+  "date_redac": "2026-10-15T13:02:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 636,
+   "sortie": 335
+  }
+ },
+ {
   "id": "252d3e2749174893",
   "slug": "nvidia-lance-le-rtx-spark-sa-premiere-puce-complete-pour-pc-portable-w-252d3e",
   "titre": "Nvidia lance le RTX Spark, sa première puce complète pour PC portable Windows",
@@ -38,6 +119,48 @@
    "modele": "deepseek-flash",
    "entree": 716,
    "sortie": 439
+  }
+ },
+ {
+  "id": "2ff5a1eea16cf705",
+  "slug": "strata-juge-rapide-mais-moins-bon-que-le-27b-en-code-par-un-utilisateu-2ff5a1",
+  "titre": "Strata jugé rapide mais moins bon que le 27B en code par un utilisateur",
+  "resume": "Un utilisateur de r/LocalLLaMA juge Strata très rapide mais moins bon que le 27B : il a eu du mal à coder un jeu 3D simple et un platformer 2D, là où Deepseek Flash V4 ne chutait pas autant en Q2. Des tests indépendants cités montrent qu'il faut aussi plus de tentatives qu'avec le 27B. Il conseille de préférer le 27B ou les modèles flash classiques et d'éviter Swift ou Bottlecap si l'on n'est pas pressé.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6jump/strata_might_be_actually_really_detrimental_for/",
+  "date_source": "2026-10-15T12:05:20+00:00",
+  "date_redac": "2026-10-15T13:02:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 902,
+   "sortie": 1225
+  }
+ },
+ {
+  "id": "a44dfe57b8e94811",
+  "slug": "amazon-annonce-deux-nouveaux-bee-et-un-abonnement-a-partir-de-74-99-a44dfe",
+  "titre": "Amazon annonce deux nouveaux Bee et un abonnement, à partir de 74,99 $",
+  "resume": "Amazon avait racheté l'an dernier Bee, une jeune pousse alors peu connue, et son wearable IA à 50 $ qui écoutait en continu pour résumer toutes vos conversations. Le géant du e-commerce annonce aujourd'hui deux nouveaux appareils Bee, accompagnés d'un nouvel abonnement. Le premier est le Bee Frontier, à 74,99 $, une version mise à jour du Bee original.",
+  "tags": [
+   "business",
+   "matériel",
+   "société"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs",
+  "date_source": "2026-10-15T12:00:00+00:00",
+  "date_redac": "2026-10-15T13:02:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 663,
+   "sortie": 500
   }
  },
  {

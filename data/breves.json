@@ -1,5 +1,135 @@
 [
  {
+  "id": "5b16cd6bd7831fe3",
+  "slug": "youtube-music-va-etiqueter-les-morceaux-crees-par-ia-5b16cd",
+  "titre": "YouTube Music va étiqueter les morceaux créés par IA",
+  "resume": "Ce mercredi 14 octobre 2026, YouTube Music a annoncé le déploiement d'étiquettes indiquant si des morceaux ont été principalement créés par intelligence artificielle. L'étiquette s'affiche directement dans le lecteur. La plateforme met en avant la transparence face à la multiplication des titres générés par IA.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/google/3285767_youtube-music-va-vous-dire-si-le-morceau-que-vous-ecoutez-a-ete-cree-par-une-ia",
+  "date_source": null,
+  "date_redac": "2026-10-15T06:50:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 689,
+   "sortie": 488
+  }
+ },
+ {
+  "id": "02773df295891218",
+  "slug": "hermes-agent-la-release-candidate-rc-2-v0-22-2-est-publiee-02773d",
+  "titre": "Hermes Agent : la release candidate rc.2-v0.22.2 est publiée",
+  "resume": "Le dépôt hermes-agent de NousResearch a publié, le 15 octobre 2026, une release candidate estampillée rc.2-v0.22.2. Les métadonnées jointes mentionnent une deuxième tentative (« attempt »: 2), l'autopublication désactivée (« autopublish »: false), une valeur claimEpoch ainsi qu'un commit dont l'empreinte commence par d9. Le détail des changements n'apparaît pas dans l'extrait disponible.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.2-v0.22.2",
+  "date_source": "2026-10-15T06:13:23+00:00",
+  "date_redac": "2026-10-15T06:49:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 642,
+   "sortie": 671
+  }
+ },
+ {
+  "id": "0d681094f2c05aff",
+  "slug": "hermes-agent-la-release-candidate-0-22-2-abandonnee-0d6810",
+  "titre": "Hermes Agent : la release candidate 0.22.2 abandonnée",
+  "resume": "Hermes Agent a publié une étiquette de publication intitulée abandoned-rc.1-v0.22.2, marquant l'abandon de cette release candidate. Les métadonnées jointes précisent la version 0.22.2, une première tentative (attempt 1) et un schéma 1. La publication est datée du 15 octobre 2026.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.1-v0.22.2",
+  "date_source": "2026-10-15T06:13:05+00:00",
+  "date_redac": "2026-10-15T06:50:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 845
+  }
+ },
+ {
+  "id": "5c3b8b86ca9b2494",
+  "slug": "openclaw-2026-10-5-beta-4-fiabilise-mises-a-jour-et-runtime-codex-5c3b8b",
+  "titre": "OpenClaw 2026.10.5-beta.4 fiabilise mises à jour et runtime Codex",
+  "resume": "OpenClaw 2026.10.5-beta.4 fiabilise ses mises à jour : plus de dépassement de délai sur macOS, installations systemd qui récupèrent les runtimes abandonnés, paquets pacman et FreeBSD laissés à leur gestionnaire. Les échecs de snapshot sont identifiés avant activation, avec des conseils de récupération adaptés. Les modèles ChatGPT fonctionnent désormais sur le runtime Codex par défaut.",
+  "tags": [
+   "openclaw",
+   "chatgpt",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.5-beta.4",
+  "date_source": "2026-10-15T06:10:42+00:00",
+  "date_redac": "2026-10-15T06:50:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 798,
+   "sortie": 1480
+  }
+ },
+ {
+  "id": "bf9698408d13af4d",
+  "slug": "stepfun-sort-step-5-preview-un-modele-de-600b-a-1m-de-contexte-bf9698",
+  "titre": "StepFun sort Step-5-Preview, un modèle de 600B à 1M de contexte",
+  "resume": "StepFun a publié Step-5-Preview, présenté comme son modèle phare pour le travail agentique. Selon l'annonce, il offre des performances de premier plan en ingénierie logicielle et en travail de connaissance professionnel, avec une force particulière dans la finance. D'après le titre du fil, il affiche 600B de paramètres et un contexte de 1M. Il vise donc les usages d'agents sur des tâches longues et spécialisées.",
+  "tags": [
+   "agents",
+   "dev",
+   "business",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6dx5x/stepfun_step5preview_released_600b27b1m_context/",
+  "date_source": "2026-10-15T06:04:04+00:00",
+  "date_redac": "2026-10-15T06:50:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 662,
+   "sortie": 938
+  }
+ },
+ {
+  "id": "c056daacd0d09ff0",
+  "slug": "hermes-agent-une-release-candidate-rc-1-pour-la-v0-22-2-c056da",
+  "titre": "Hermes Agent : une release candidate rc.1 pour la v0.22.2",
+  "resume": "Hermes Agent, le projet d'agents de NousResearch, a publié le 15 octobre 2026 une release candidate étiquetée rc.1-v0.22.2 sur GitHub. L'extrait transmis ne contient que des métadonnées techniques : numéro de tentative, horodatage de revendication et début de hash de commit. Aucun détail sur les changements apportés n'y figure.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.1-v0.22.2",
+  "date_source": "2026-10-15T06:00:08+00:00",
+  "date_redac": "2026-10-15T06:50:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 612,
+   "sortie": 760
+  }
+ },
+ {
   "id": "6154d6367890c3ed",
   "slug": "les-lunettes-connectees-de-samsung-fuient-gentle-monster-warby-parker--6154d6",
   "titre": "Les lunettes connectées de Samsung fuient : Gentle Monster, Warby Parker et Gemini",

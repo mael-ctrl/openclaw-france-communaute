@@ -1,22 +1,18 @@
 {
- "runs": 185,
- "items_collectes": 1718,
- "breves_publiees": 683,
+ "runs": 186,
+ "items_collectes": 1720,
+ "breves_publiees": 685,
  "articles_publies": 98,
- "tokens_entree": 647507,
- "tokens_sortie": 934374,
+ "tokens_entree": 648908,
+ "tokens_sortie": 935531,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-16T11:59:27+00:00",
+ "dernier_run": "2026-10-16T12:15:07+00:00",
  "solde": {
   "total": "85.92",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-16T03:43:08+00:00",
-   "message": "article impossible : réponse non-JSON"
-  },
   {
    "ts": "2026-10-16T04:44:47+00:00",
    "message": "brève impossible (BlenderWorld Benchmark from Alibaba) : réponse non-JSON"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-16T10:58:34+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 16 column 6 (char 3546)"
+  },
+  {
+   "ts": "2026-10-16T12:15:07+00:00",
+   "message": "article impossible : Expecting ',' delimiter: line 8 column 6 (char 1405)"
   }
  ],
  "solde_initial": "91.66",
@@ -759,6 +759,10 @@
   ],
   [
    "2026-10-16T11:58:58+00:00",
+   "85.92"
+  ],
+  [
+   "2026-10-16T12:14:27+00:00",
    "85.92"
   ]
  ],

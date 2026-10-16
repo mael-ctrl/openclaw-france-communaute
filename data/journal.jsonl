@@ -2037,3 +2037,9 @@
 {"ts": "2026-10-16T22:01:43+00:00", "evenement": "deploiement", "details": {"fichiers": 671, "octets": 13469503}, "sha256": "f30e77a869e4d693bcb9a2383b909551d3c946a5568d2f70583775b3480fb4ca"}
 {"ts": "2026-10-16T22:01:43+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "7d73d992e39dcbbf6a356a0587c556d2de9c04828f5695124de9b0bd6d4c4191"}
 {"ts": "2026-10-16T22:01:43+00:00", "evenement": "bilan", "details": {"duree_s": 842.1, "neufs": 5, "breves": 4, "articles": 1, "fichiers": 646, "envois": 671, "publications": 0}, "sha256": "38e6b171fb2595ee5cc3359ff7a848f14f10c18f5bae0547e1f0dde53362ffa7"}
+{"ts": "2026-10-16T22:50:15+00:00", "evenement": "collecte", "details": {"neufs": 3}, "sha256": "d04f639ad3d059515a7d535cf47a85e981beed69ce32ff83f85726bacd1c9019"}
+{"ts": "2026-10-16T22:50:43+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Why naive cosine routing fails: Using Absorbing Markov Chain) : réponse non-JSON"}, "sha256": "2773e64d41cd5082606e2eee52fd0a12eaef68728b0c9b267e9c7a6893cf232d"}
+{"ts": "2026-10-16T22:51:30+00:00", "evenement": "construction", "details": {"fichiers": 648}, "sha256": "b9588d8ea02ff73f7b2338473b3f2f5198447bc1ee4117e1d06fc310adfd244e"}
+{"ts": "2026-10-16T23:04:59+00:00", "evenement": "deploiement", "details": {"fichiers": 673, "octets": 13513012}, "sha256": "bdfea065521c5fdab40392097ed44e6a492edf73e48594d93ee1a0dd4dd29568"}
+{"ts": "2026-10-16T23:05:00+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "ce69944735525d088092c1928f1c9f1fc0394cad73e7a90804910e7ec6d1c00f"}
+{"ts": "2026-10-16T23:05:00+00:00", "evenement": "bilan", "details": {"duree_s": 908.0, "neufs": 3, "breves": 2, "articles": 1, "fichiers": 648, "envois": 673, "publications": 0}, "sha256": "93907dbfef5c76fc1b4d25d293423d660a4f49bd250cfc0486f2f90f124e4253"}

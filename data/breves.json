@@ -1,5 +1,26 @@
 [
  {
+  "id": "059de615c048f187",
+  "slug": "l-equipe-claude-code-repense-la-revue-de-code-a-l-ere-des-agents-059de6",
+  "titre": "L'équipe Claude Code repense la revue de code à l'ère des agents",
+  "resume": "Pour l'équipe Claude Code, « un humain a-t-il lu le code ? » est un critère imprécis. Addy Osmani, Morgan Westlee Lunt et Qing Wang posent une autre question : que peut-il mal se passer, et quelle vérification, automatique ou humaine, est la mieux placée pour l'attraper ? La revue tourne désormais en continu, comme un correcteur orthographique, et la plupart des changements ont déjà été revus et corrigés par Claude avant l'humain.",
+  "tags": [
+   "claude",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/16/code-review/",
+  "date_source": "2026-10-16T22:06:37+00:00",
+  "date_redac": "2026-10-16T22:50:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 805,
+   "sortie": 963
+  }
+ },
+ {
   "id": "c774a995e725e998",
   "slug": "dix-usages-concrets-de-qwen-3-6-27b-pour-les-nouveaux-venus-c774a9",
   "titre": "Dix usages concrets de Qwen 3.6 27B pour les nouveaux venus",
@@ -3580,6 +3601,27 @@
    "modele": "deepseek-flash",
    "entree": 672,
    "sortie": 1231
+  }
+ },
+ {
+  "id": "07ad9ae53fcdeb92",
+  "slug": "simon-willison-construit-un-rendu-latex-inspire-de-tiny-little-office-07ad9a",
+  "titre": "Simon Willison construit un rendu LaTeX inspiré de Tiny Little Office",
+  "resume": "Simon Willison a construit un rendu LaTeX, inspiré de Tiny Little Office, l'app web de Paul Ford et Aboard Foundry. Celle-ci stocke les données de chaque document dans le fragment # de l'URL, ce qui rend chaque document partageable par un lien, et fournit un llms.txt expliquant aux agents comment construire ces URL ; Claude s'en est servi pour générer un deck sur ce format. Willison a fait produire l'équivalent LaTeX par Claude Code (Opus 5.5 Extra).",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/15/latex/",
+  "date_source": "2026-10-15T02:07:28+00:00",
+  "date_redac": "2026-10-16T22:51:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 801,
+   "sortie": 1318
   }
  },
  {

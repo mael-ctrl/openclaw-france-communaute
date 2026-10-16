@@ -59,5 +59,21 @@ de première mise en ligne sur notre site.
 
 Dates moins ambiguës pour le lectorat francophone et exploitables directement par
 les outils qui lisent le HTML. Aucun gain de classement, de trafic ou d'apparence
-dans Google n'est mesuré ni garanti. La livraison cloud/HTTPS est à vérifier après
-push ; les preuves de production seront consignées ci-dessous.
+dans Google n'est mesuré ni garanti.
+
+## Production vérifiée
+
+- Code livré : [`d904dfe`](https://github.com/mael-ctrl/openclaw-france-communaute/commit/d904dfe42fefbfd0c0937bbd49faeaa20ac8481c).
+- [Run `38899031992`](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/38899031992)
+  terminé avec succès : **99 tests Python**, **659 fichiers envoyés**, sauvegarde
+  cloud `324c29f45ce742cc930b88aa2717a975c48b9b7c` à 12:30 UTC.
+- Après le pull précédant le push, les 99 tests Python et 4 Node ont été rejoués ;
+  les trois blobs code/test/document ont été relus depuis GitHub et comparés.
+- Rebuild indépendant du commit cloud : **638 fichiers générés**. **9 URL HTTPS**
+  comparées octet pour octet au rendu de cet état : accueil, actus, deuxième page
+  d'archives, index articles, skills, pack, deux brèves et un article. Toutes 200
+  et identiques, y compris les balises sémantiques.
+- Nouvelle recette navigateur **sur le domaine public** : cinq pages × deux
+  largeurs (390/1440), JavaScript désactivé, aucune largeur débordante et toutes
+  les dates éditoriales dotées de `datetime` et du libellé Paris. Captures prises
+  sans masquer l'en-tête.

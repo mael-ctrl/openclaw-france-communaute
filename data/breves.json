@@ -1,5 +1,110 @@
 [
  {
+  "id": "c774a995e725e998",
+  "slug": "dix-usages-concrets-de-qwen-3-6-27b-pour-les-nouveaux-venus-c774a9",
+  "titre": "Dix usages concrets de Qwen 3.6 27B pour les nouveaux venus",
+  "resume": "Sur r/LocalLLaMA, un utilisateur partage dix usages de Qwen 3.6 27B, alors que la version 3.8 monopolise l'attention. Il dit continuer à affiner la 3.6, dont il préfère le ton, et recommande llama.cpp pour ces manipulations. Son premier agent était Qwen 3.5 27B, lancé il y a plus de quatre mois. Premier exemple : se fabriquer de petites applications, comme l'éditeur de texte où il a rédigé son message.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sq8e/10_things_you_maybe_didnt_know_you_can_do_with/",
+  "date_source": "2026-10-16T21:35:36+00:00",
+  "date_redac": "2026-10-16T22:03:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 850,
+   "sortie": 869
+  }
+ },
+ {
+  "id": "c224e94a1259139b",
+  "slug": "replit-met-fin-a-sa-collaboration-avec-anthropic-selon-son-pdg-c224e9",
+  "titre": "Replit met fin à sa collaboration avec Anthropic, selon son PDG",
+  "resume": "Replit ne travaille plus avec Anthropic. Le PDG, Masad, explique que la décision a été prise pour plusieurs raisons, dont le coût. La plateforme avait annoncé un partenariat avec OpenAI en août, sans que rien n'indique jusqu'ici qu'elle avait quitté Anthropic.",
+  "tags": [
+   "openai",
+   "business",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+  "date_source": "2026-10-16T21:22:28+00:00",
+  "date_redac": "2026-10-16T22:04:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 634,
+   "sortie": 606
+  }
+ },
+ {
+  "id": "60115de87cf8148d",
+  "slug": "mimo-2-6-pro-566-go-tourne-sur-un-jetson-agx-thor-a-0-646-token-s-60115d",
+  "titre": "MiMo-2.6-Pro (566 Go) tourne sur un Jetson AGX Thor à 0,646 token/s",
+  "resume": "Un utilisateur de r/LocalLLaMA a chargé MiMo-2.6-Pro, un modèle d'environ 566 Go en FP8, sur un Jetson AGX Thor doté de 128 Go de mémoire. Le modèle se charge et génère bien des tokens, mais à 0,646 token par seconde, avec des lectures depuis le disque en cours d'inférence. Chaque couche de décodeur, expert routé et accès SSD est tracé et rejouable pas à pas, là où, comme le rappelle la dépêche en citant Dario, on ne voit pas l'intérieur d'un modèle fermé.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sbxs/dario_with_open_source_you_can_see_the_source/",
+  "date_source": "2026-10-16T21:18:51+00:00",
+  "date_redac": "2026-10-16T22:04:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 860,
+   "sortie": 830
+  }
+ },
+ {
+  "id": "d2aa1fce46e0a84b",
+  "slug": "qwen3-8-flash-next-gsq-rco-en-iq3-s-tourne-sur-12-go-de-vram-d2aa1f",
+  "titre": "Qwen3.8-Flash-Next-GSQ-RCO en IQ3_S tourne sur 12 Go de VRAM",
+  "resume": "Un utilisateur de r/LocalLLaMA fait tourner Qwen3.8-Flash-Next-GSQ-RCO en quantification IQ3_S sur 12 Go de VRAM, 32 Go de RAM et un SSD NVMe, via un fork expérimental de Strata. Il annonce 40 à 50 tokens/s en décodage et 1300 à 1500 tokens/s en prefill, sur un contexte de 131k. Cette version abliterated du GSQ-RCO Qwen3.8-FN garderait environ 99 % du BF16, pour environ 44 Go de mémoire cumulée.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sbdc/qwen38flashnextgsqrco_iq3_s_4050_toksec_decode/",
+  "date_source": "2026-10-16T21:18:11+00:00",
+  "date_redac": "2026-10-16T22:04:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 912,
+   "sortie": 1192
+  }
+ },
+ {
+  "id": "116a65f219d1169c",
+  "slug": "claude-code-2-1-302-modele-du-mode-auto-compaction-en-veille-et-correc-116a65",
+  "titre": "Claude Code 2.1.302 : modèle du mode auto, compaction en veille et correctifs",
+  "resume": "Claude Code 2.1.302 ajoute CLAUDE_CODE_AUTO_MODE_MODEL, qui choisit le modèle du classifieur du mode auto côté client, sans changer celui côté serveur. Une ligne Idle compaction apparaît dans /config pour désactiver ou réactiver cette compaction, et les messages affichés expliquent comment la couper. Les commandes /design-sync et /design-login signalent la fermeture de Claude Design autonome au 14 décembre 2026.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+  "date_source": "2026-10-16T20:53:06+00:00",
+  "date_redac": "2026-10-16T22:04:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 778,
+   "sortie": 973
+  }
+ },
+ {
   "id": "8009c1a04f4c91a6",
   "slug": "anthropic-explique-comment-ses-dynamic-workflows-coordonnent-les-agent-8009c1",
   "titre": "Anthropic explique comment ses Dynamic Workflows coordonnent les agents Claude",

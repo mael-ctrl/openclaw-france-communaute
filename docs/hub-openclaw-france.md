@@ -381,6 +381,48 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-15/hub-kit-openclaw/`.
 
+## Prérequis dans le kit Hermes — livraison du 16/10/2026
+
+- **Une amélioration livrée** : prérequis du `GUIDE.md` et du `README.md`
+  alignés sur `/hermes/#prerequis`, en ligne et dans le ZIP. Lecture avant
+  exécution, Bash/WSL2 versus PowerShell, outils requis, compilateur et
+  bibliothèques système Linux (dont libatomic), contexte du modèle et budget.
+  Les étapes suivantes et les scripts restent inchangés ; pas de nouvelle
+  promesse de compatibilité, de mémoire minimale ou de tarif VPS.
+- **CONTRADICTOIRE — Mac Intel** : les pages officielles installation et matrice
+  divergent encore au contrôle HTTPS direct du 16/10. Le kit reprend cette
+  réserve et précise que son message de script ne valide pas la machine.
+  Installation, matrice et Quickstart officiels relus et archivés hors dépôt.
+  Il s’agit de documentation, pas d’une installation réalisée sur chaque OS.
+- Tests : les trois nouveaux contrôles de contenu ont reproduit les manques
+  avant correction ; **103 tests OK** après correction, dont quatre nouveaux
+  tests du kit. Première passe bloquée par le chemin temporaire macOS sous
+  `/var` (lien symbolique), puis reprise avec `TMPDIR` dans le scratch Hermes
+  et les dépendances déclarées du dépôt : aucun code moteur changé pour cela.
+  **7 tests OK sur les ressources HTTPS publiques** ; ZIP intègre, exhaustif,
+  identique aux sources. Seuls README/GUIDE changent dans le ZIP Hermes ;
+  ZIP OpenClaw inchangé octet pour octet. Quatre scripts valides avec `bash -n`.
+- Chrome sans JavaScript : ancre au clavier, FAQ visible, styles et absence de
+  débordement vérifiés localement puis en production aux largeurs **1440, 1024,
+  430, 390, 375 et 360 px**. Le guide public téléchargé est identique à la source.
+- Bureau inaccessible au cron (`Resource deadlock avoided`) : déploiement par
+  `python3 outils/deployer_openclaw.py` depuis le clone cron hors Bureau
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Sauvegarde des **35 fichiers**
+  avant envoi, sans divergence production/Git ; **35 fichiers relus via FTP**
+  après envoi, tous identiques aux sources. Aucun autre clone ou cron modifié.
+- Santé : les **six URL demandées sont en HTTP 200**, avant et après envoi.
+  Contrôle étendu : **15 URL en HTTP 200**, dont les fichiers Hermes, sitemap,
+  clé IndexNow et ZIP avec/sans `?v=2`. Section publiée et fichiers non HTML
+  conformes aux sources. Sitemap actualisé pour Hermes uniquement.
+  **IndexNow HTTP 200** pour la page et les deux Markdown : notification
+  acceptée, pas preuve d’indexation ou de croissance du trafic.
+- **Aucune distribution supplémentaire** : contrôle du 16/10 déjà consigné
+  dans `docs/distribution-textes.md`, avec accès bloquants ; le post du 12/10
+  exclut une nouvelle promotion Bluesky cette semaine. Prochaine priorité :
+  aligner le message Mac Intel du script avec la réserve documentaire, sans
+  inventer une compatibilité testée. Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-16/hub-kit-hermes/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

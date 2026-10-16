@@ -32,10 +32,35 @@ kit-hermes/
 └── demarrage.md         ← premiers pas + 10 usages concrets
 ```
 
+## Prérequis — à lire avant le script
+
+- **Bash** sur macOS, Linux ou WSL2 : le script du kit ne se lance pas dans PowerShell.
+  Sur Windows natif, utilisez la
+  [méthode officielle Windows](https://hermes-agent.nousresearch.com/docs/getting-started/installation#windows-native)
+  hors de ce kit, ou passez par WSL2.
+- **macOS Apple Silicon** ; **Linux / WSL2 x86_64 ou arm64** (aarch64).
+  Les tests Ubuntu/WSL2 cités par Nous Research ne couvrent pas chaque distribution.
+- **Mac Intel : compatibilité non garantie.** Au 2026-10-16, les sources officielles
+  divergent : le guide d’installation dit « non pris en charge », la matrice décrit
+  encore la CLI et des bundles Intel conditionnels. Le message du script sur Intel
+  ne valide pas votre machine ; lisez la réserve détaillée dans `GUIDE.md`.
+- **Git, curl, tar et un utilitaire SHA-256**. Python et Node.js sont gérés par
+  l’installateur, mais un compilateur et des bibliothèques système peuvent aussi
+  être nécessaires. Certains paquets Linux demandent un administrateur ; les
+  vérifications du kit ne garantissent pas toutes ces dépendances.
+- Un modèle adapté : fournisseur ou serveur local, appel d’outils et contexte
+  requis à vérifier dans `GUIDE.md`. Modèle IA, outils externes et hébergement
+  peuvent être payants : vérifiez les conditions et fixez un plafond de dépenses.
+
+Sources consultées le **2026-10-16** :
+[installation et prérequis](https://hermes-agent.nousresearch.com/docs/getting-started/installation#prerequisites)
+et [matrice des plateformes](https://hermes-agent.nousresearch.com/docs/getting-started/platform-support).
+C’est un contrôle documentaire, pas une installation testée sur chaque système.
+
 ## Démarrage rapide
 
 1. **Lisez `GUIDE.md`** — tout le parcours y est expliqué (comptez ~15 minutes).
-2. **Ou lancez directement le script** depuis le dossier du kit :
+2. **Après lecture des prérequis et du guide**, lancez le script depuis le dossier du kit :
 
    ```bash
    bash scripts/install.sh
@@ -52,14 +77,6 @@ kit-hermes/
    ```
 4. **Lancez votre première session** : `hermes` — puis suivez `demarrage.md`
    pour dix usages concrets immédiatement utiles.
-
-## Prérequis
-
-- **macOS** (Apple Silicon en priorité ; les Mac Intel passent par l'installation
-  CLI ou le bundle `darwin-x64`) ou **Linux / WSL2** (x86_64 ou arm64).
-- Git, curl, tar et un utilitaire SHA-256 (la doc officielle les exige ; le
-  script du kit les vérifie pour vous).
-- Pas besoin d'installer Python ou Node à la main : l'installateur s'en charge.
 
 ## Ce que ce kit n'est pas
 

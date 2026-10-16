@@ -43,7 +43,7 @@ class HubPrerequisTest(unittest.TestCase):
     def test_prerequis_et_limites_explicites(self):
         for word in ("Apple Silicon", "Linux", "WSL2", "x86_64", "arm64", "Git", "curl", "tar", "SHA-256", "PowerShell", "Bash"):
             self.assertIn(word, self.text)
-        for phrase in ("Mac Intel", "divergent", "compatibilité non garantie", "kit", "plus anciennes", "bibliothèques système", "pas une installation testée"):
+        for phrase in ("Mac Intel", "divergent", "compatibilité non garantie", "kit", "prérequis du guide", "bibliothèques système", "pas une installation testée"):
             self.assertIn(phrase, self.text)
         self.assertNotIn("curl -fsSL", self.block)
 
@@ -51,7 +51,7 @@ class HubPrerequisTest(unittest.TestCase):
         links = [attrs.get("href") for tag, attrs in self.doc.tags if tag == "a"]
         for url in (DOCS + "installation#prerequisites", DOCS + "platform-support", DOCS + "installation#windows-native", "/dl/kit-hermes/GUIDE.md"):
             self.assertIn(url, links)
-        self.assertIn('datetime="2026-10-12"', self.block)
+        self.assertIn('datetime="2026-10-16"', self.block)
         self.assertIn("indépendante", self.text)
 
 

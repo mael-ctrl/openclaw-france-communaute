@@ -36,29 +36,71 @@ du modèle que vous branchez — et les modèles locaux sont 100 % gratuits.
 
 ## 2. Avant de commencer
 
-**Systèmes supportés** (selon la doc officielle) :
+**Périmètre du kit** : son script utilise **Bash** sur macOS, Linux ou WSL2,
+pas dans PowerShell. Lisez ces prérequis avant de le lancer avec votre compte
+utilisateur normal. Le script ne vérifie pas toutes les dépendances ni la
+compatibilité de chaque version du système.
 
-- **macOS Apple Silicon** (M1 et suivants) — plateforme Tier 1.
-- **Mac Intel** : fonctionne aussi via l'installation en ligne de commande
-  (celle de ce guide) ou le bundle `darwin-x64` ; l'installeur graphique `.dmg`
-  est réservé aux puces Apple Silicon.
-- **Linux et WSL2** (x86_64 ou arm64) — testé sur Ubuntu récent.
-- Windows natif existe (PowerShell) mais ce kit vise macOS et Linux.
+### Système et architecture
 
-**Prérequis logiciels** : Git, curl, tar et un utilitaire SHA-256. C'est tout — vous
-n'avez **pas** besoin d'installer Python ou Node.js : l'installateur fournit son
-propre environnement isolé.
+- **macOS Apple Silicon** (M1 et suivants) : méthode officielle en terminal
+  classée Tier 1 par Nous Research.
+- **Linux / WSL2** (x86_64 ou arm64, aussi appelé aarch64) : la documentation
+  indique des tests sur Ubuntu récent et WSL2. Cela ne garantit pas chaque
+  distribution ni toutes les fonctions optionnelles.
+- **Windows natif** : suivez la
+  [méthode officielle PowerShell](https://hermes-agent.nousresearch.com/docs/getting-started/installation#windows-native),
+  hors de ce script Bash ; ou utilisez le kit dans WSL2.
+- **Mac Intel — compatibilité non garantie** : les pages officielles divergent
+  au contrôle du 2026-10-16. Le guide d’installation présente macOS Intel comme
+  non pris en charge, alors que la matrice décrit encore la CLI et des bundles
+  `darwin-x64` construits seulement pour certaines releases. Le message du
+  script du kit sur Intel ne vaut pas validation : consultez les deux sources
+  ci-dessous et demandez confirmation au projet Hermes pour votre machine et
+  votre version avant de lancer un installateur.
 
-**Prérequis pour le modèle** : soit une clé API chez un fournisseur (DeepSeek,
-OpenRouter…), soit un modèle local via Ollama (prévoir 8 Go de RAM pour un petit
-modèle, 32 Go ou plus pour les plus gros). Dans tous les cas, un modèle avec au
-moins 64 000 tokens de contexte est requis par Hermes.
+### Outils et dépendances
 
-> 💡 **Où l'héberger ?** Votre ordinateur suffit pour commencer — c'est même le
-> mode recommandé. Pour qu'il tourne 24 h/24, un petit VPS fait l'affaire (dès
-> ~5 €/mois) : notre site passe par [Hostinger](https://www.hostinger.com/fr?REFERRALCODE=FGUOPENCL2M5)
-> — *lien partenaire, il finance la gratuité de ce kit* (rabais appliqué, zéro
-> surcoût).
+Préparez **Git, curl, tar et un utilitaire SHA-256** (`shasum` ou `sha256sum`).
+L’installateur officiel gère son environnement Python et Node.js ; cela ne
+remplace pas les prérequis système. Une construction depuis les sources peut
+nécessiter un **compilateur** et des **bibliothèques système**. Sur Linux,
+Chromium dépend aussi de bibliothèques fournies par la distribution.
+
+Sur Linux glibc, le Node.js géré peut nécessiter `libatomic.so.1`. La documentation
+indique que l’installateur tente de fournir le paquet adapté s’il manque ; cela
+peut demander des droits administrateur. Si vous ne les avez pas, transmettez
+à votre administrateur la commande indiquée par l’erreur, sans relancer tout
+le kit en root. Les vérifications du kit ne garantissent pas une installation
+complète de ces composants.
+
+### Modèle et budget avant le premier essai
+
+Choisissez un fournisseur ou un serveur de modèle local avec appel d’outils.
+Le [démarrage officiel](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart)
+exige au moins **64 000 tokens de contexte** : vérifiez aussi le contexte réellement
+configuré côté serveur. La mémoire nécessaire dépend du modèle, de sa
+quantification et du contexte ; aucun minimum RAM universel n’est garanti ici.
+
+Le kit et le logiciel sont gratuits ; le **modèle IA, les outils externes et
+l’hébergement peuvent être payants**. Vérifiez les conditions du fournisseur,
+fixez un **plafond** de dépenses et ne supposez pas que votre abonnement habituel
+couvre automatiquement cet usage. Un modèle local évite sa facturation API,
+mais demande des ressources matérielles et de l’électricité.
+
+> **Où le faire tourner ?** Commencez sur une machine compatible dont vous
+> contrôlez les accès. Un serveur toujours allumé est une option, pas un prérequis.
+> Dimensionnez-le selon votre usage, sans tarif ni performance garantis ici.
+> [Hostinger](https://www.hostinger.com/fr?REFERRALCODE=FGUOPENCL2M5) est un lien
+> partenaire qui peut financer le kit ; son utilisation reste facultative.
+
+**Sources officielles consultées le 2026-10-16** :
+[installation et prérequis](https://hermes-agent.nousresearch.com/docs/getting-started/installation#prerequisites),
+[matrice des plateformes](https://hermes-agent.nousresearch.com/docs/getting-started/platform-support)
+et [démarrage](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart).
+Ce contrôle documentaire indépendant n’est pas une installation testée sur chaque
+système. Les sections suivantes décrivent la procédure ; elles ne prouvent pas
+sa réussite sur votre machine.
 
 ## 3. Étape 1 — Installer Hermes Agent
 

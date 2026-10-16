@@ -1,0 +1,41 @@
+{
+ "slug": "meta-et-les-sites-d-editeurs-beam-en-open-source-pekin-encad-8f38ee",
+ "titre": "Meta et les sites d'éditeurs, Beam en open source, Pékin encadre l'export IA",
+ "chapo": "Meta pourrait bientôt entraîner ses modèles sur le contenu des sites d'éditeurs, sans contrepartie évoquée. La même semaine, un modèle ouvert de 501 milliards de paramètres sort, Pékin propose d'encadrer l'export de technologies IA et Mistral multiplie les annonces.",
+ "html": "<h2 id=\"meta-et-les-sites-associes\">Meta et les sites « associés »</h2>\n<p>Les nouveaux termes d'utilisation de Meta entrent en vigueur le <strong>30 octobre</strong>. Selon un rapport de Nieman Lab, ils semblent autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes — une catégorie qui englobe les éditeurs en ligne. Relayée par The Verge, cette lecture des nouveaux termes va plus loin qu'une simple mise à jour juridique : Meta pourrait utiliser ce contenu externe pour « développer, améliorer, rechercher » et « entraîner ».</p>\n<p>Tout dépend donc du périmètre que recouvre cette notion de site « associé » à une entreprise utilisant les plateformes de Meta. Le rapport de Nieman Lab constitue la source de cette interprétation.</p>\n<p>Pour les éditeurs, l'enjeu est direct : leurs contenus, s'ils tombent dans ce périmètre, alimenteraient l'entraînement d'un modèle sans qu'aucune contrepartie ne soit mentionnée dans les éléments disponibles.</p>\n<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Reflection publie <strong>Beam</strong>, un modèle ouvert texte-texte en architecture <em>mixture-of-experts</em> sparse. Le total atteint 501 milliards de paramètres, mais seuls 23 milliards sont activés, pour une fenêtre de contexte d'un million de tokens.</p>\n<p>Dans un modèle sparse de ce type, seule une fraction du réseau est mobilisée à chaque token traité ; c'est ce découpage qui sépare le total de paramètres du volume réellement activé. La version <em>instruction-tuned</em> de Beam sort en trois formats : BF16, FP8 et NVFP4.</p>\n<p>Reflection annonce un modèle surtout développé pour l'anglais, avec trois usages visés : un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques.</p>\n<h2 id=\"pekin-liste-23-technologies-ia-l-open-so\">Pékin liste 23 technologies IA, l'open source épargné</h2>\n<p>Le <strong>16 octobre 2026</strong>, Pékin propose de réviser le catalogue des technologies restreintes à l'export. La révision compte 40 ajouts, dont 23 liés à l'IA : grands modèles, agents, clusters de calcul.</p>\n<p>Un point retient l'attention : les technologies déjà rendues publiques via l'open source ou des publications académiques sont explicitement exemptées. Ce qui est déjà sorti dans le domaine public ne basculerait donc pas dans le régime des restrictions proposées.</p>\n<p>La consultation publique court jusqu'au <strong>15 novembre</strong>. L'enregistrement préalable à l'export, lui, s'applique déjà, sans attendre la version définitive du catalogue.</p>\n<h2 id=\"mistral-quatrieme-acquisition-et-un-mode\">Mistral : quatrième acquisition et un modèle pour le CERN</h2>\n<p>Selon Maddyness, Mistral a bouclé sa <strong>quatrième acquisition en huit mois</strong>. Le média économique français a publié l'information le 16 octobre 2026. Le détail de l'opération et l'identité de l'entreprise rachetée ne sont pas précisés dans l'extrait disponible.</p>\n<p>La veille, le <strong>CERN</strong> et Mistral AI ont signé une déclaration d'intention pour créer un « grand modèle de physique ». Le modèle serait entraîné sur des milliards de collisions simulées au LHC. Aucun budget ni calendrier n'a été communiqué.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, quatre rapports aux données et à leur circulation. Meta élargit, par contrat, le périmètre des contenus qu'elle pourrait exploiter ; Pékin réserve un régime à part à ce qui est déjà public ; Reflection mise sur l'ouverture d'un modèle à 501 milliards de paramètres ; Mistral avance par acquisitions et par partenariats scientifiques. Rien n'indique de lien direct entre ces mouvements, mais tous posent la même question sous des angles différents : qui peut entraîner sur quoi, et à quelles conditions.</p>",
+ "pivot": "8f38ee5a37c24e1e",
+ "tags": [
+  "meta",
+  "open-source",
+  "mistral",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/10/16/mistral-realise-sa-quatrieme-acquisition-en-huit-mois/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/sciences/2354527-des-milliards-de-simulations-de-collision-mistral-sassocie-au-cern-pour-creer-un-modele-dia-de-pointe-pour-la-physique-des-particules.html"
+  }
+ ],
+ "date": "2026-10-16T15:06:05+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1509,
+  "sortie": 4353
+ }
+}

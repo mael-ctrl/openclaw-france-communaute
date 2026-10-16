@@ -1,5 +1,111 @@
 [
  {
+  "id": "db4bd911bde98e98",
+  "slug": "le-cern-et-mistral-ai-s-associent-pour-un-grand-modele-de-physique-db4bd9",
+  "titre": "Le CERN et Mistral AI s'associent pour un « grand modèle de physique »",
+  "resume": "Le CERN et Mistral AI ont signé jeudi 15 octobre 2026 une déclaration d'intention pour créer un « grand modèle de physique ». Ce modèle serait entraîné sur des milliards de collisions simulées au LHC. Aucun budget ni calendrier n'a été communiqué. L'accord illustre la volonté de Mistral de positionner ses modèles sur la recherche scientifique de pointe.",
+  "tags": [
+   "mistral",
+   "recherche",
+   "france",
+   "société"
+  ],
+  "importance": 4,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/sciences/2354527-des-milliards-de-simulations-de-collision-mistral-sassocie-au-cern-pour-creer-un-modele-dia-de-pointe-pour-la-physique-des-particules.html",
+  "date_source": "2026-10-16T08:34:01+00:00",
+  "date_redac": "2026-10-16T08:52:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 704,
+   "sortie": 331
+  }
+ },
+ {
+  "id": "3aee2eafb07b6547",
+  "slug": "anthropic-verrouille-claude-contre-la-distillation-les-requetes-bloque-3aee2e",
+  "titre": "Anthropic verrouille Claude contre la distillation, les requêtes bloquées facturées",
+  "resume": "Anthropic affirme avoir réduit de 90 à 99 % les données captées par les distillateurs de Claude, huit mois après sa première alerte sur le sujet. L'entreprise reconnaît toutefois que ces défenses imposent des changements aux développeurs : les requêtes bloquées sont désormais facturées.",
+  "tags": [
+   "claude",
+   "business",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/anthropic-verrouille-claude-contre-la-distillation-ses-clients-paient-une-part/",
+  "date_source": "2026-10-16T08:14:25+00:00",
+  "date_redac": "2026-10-16T08:52:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 621
+  }
+ },
+ {
+  "id": "63e291d73a7b4e7d",
+  "slug": "vente-des-renouvelables-nord-americaines-d-edf-a-kkr-un-cas-test-pour--63e291",
+  "titre": "Vente des renouvelables nord-américaines d'EDF à KKR : un cas test pour la FERC",
+  "resume": "Le moniteur indépendant du marché PJM demande à la FERC de conditionner le rachat des renouvelables nord-américaines d'EDF par KKR au maintien de 938 MW sur le marché. En juillet, la Commission avait refusé la même condition dans un autre dossier. Ce cas fait donc office de test pour la doctrine de la FERC sur les cessions d'actifs électriques.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 1,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/vente-des-renouvelables-nord-americaines-dedf-a-kkr-un-cas-test-pour-la-ferc/",
+  "date_source": "2026-10-16T08:12:23+00:00",
+  "date_redac": "2026-10-16T08:52:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 708,
+   "sortie": 488
+  }
+ },
+ {
+  "id": "a38c397c9466a378",
+  "slug": "stanford-together-ai-uiuc-et-meta-presentent-les-agents-a-raisonnement-a38c39",
+  "titre": "Stanford, Together AI, UIUC et Meta présentent les agents à raisonnement hybride",
+  "resume": "Un nouveau papier de Stanford, Together AI, UIUC et Meta présente des agents à raisonnement hybride : ils réfléchissent surtout en interne, de façon cachée, plus vite et à moindre coût, et ne passent au texte que pour appeler des outils ou donner la réponse finale. Sur des tests en maths, sciences ou médecine, ils obtiennent environ 10 % de mieux, consomment deux fois moins de tokens et tournent deux fois plus vite.",
+  "tags": [
+   "recherche",
+   "agents",
+   "meta"
+  ],
+  "importance": 4,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7a8i8/new_paper_from_stanford_together_ai_uiuc_and_meta/",
+  "date_source": "2026-10-16T07:58:04+00:00",
+  "date_redac": "2026-10-16T08:52:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 721,
+   "sortie": 1253
+  }
+ },
+ {
+  "id": "320eeaf1ac5a864e",
+  "slug": "llama-cpp-une-pull-request-optimise-les-accumulateurs-avx2-cote-cpu-320eea",
+  "titre": "llama.cpp : une pull request optimise les accumulateurs AVX2 côté CPU",
+  "resume": "Sur r/LocalLLaMA, un post relaie la pull request #30296 de trivalik dans le dépôt ggml-org/llama.cpp : elle propose de réduire ensemble les accumulateurs tuilés AVX2. L'annonce met en avant un gain de tokens par seconde sur CPU, à destination des utilisateurs privés de GPU. llama.cpp est un moteur d'inférence local open source.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7a59i/cpu_reduce_avx2_tiled_accumulators_together_by/",
+  "date_source": "2026-10-16T07:52:47+00:00",
+  "date_redac": "2026-10-16T08:52:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 646,
+   "sortie": 458
+  }
+ },
+ {
   "id": "678c577a3e590d59",
   "slug": "l-aspirateur-robot-xiaomi-gagne-des-jambes-une-camera-et-frole-les-1-0-678c57",
   "titre": "L'aspirateur robot Xiaomi gagne des jambes, une caméra et frôle les 1 000 €",

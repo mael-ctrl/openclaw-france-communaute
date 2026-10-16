@@ -1,0 +1,41 @@
+{
+ "slug": "du-cern-aux-frigos-pirates-ce-que-disent-les-dernieres-depec-db4bd9",
+ "titre": "Du CERN aux frigos piratés : ce que disent les dernières dépêches IA",
+ "chapo": "Une déclaration d'intention entre le CERN et Mistral AI pour un modèle dédié à la physique des particules, un papier sur des agents qui pensent en silence, des poids d'images publiés sur Hugging Face et une cyberattaque reproduite en 28 minutes : la semaine dit beaucoup de ce que l'IA sait déjà faire.",
+ "html": "<h2 id=\"le-cern-et-mistral-visent-un-grand-model\">Le CERN et Mistral visent un « grand modèle de physique »</h2>\n<p>Le CERN et Mistral AI ont signé <strong>jeudi 15 octobre 2026</strong> une déclaration d'intention pour créer un « grand modèle de physique ». L'idée : entraîner un modèle sur des <strong>milliards de collisions simulées au LHC</strong>.</p>\n<p>Rien de plus pour l'instant. <strong>Aucun budget ni calendrier n'a été communiqué</strong> — une déclaration d'intention n'est pas un projet financé, et mieux vaut le rappeler avant d'imaginer un modèle disponible demain.</p>\n<p>Ce que l'accord dit en revanche, c'est la stratégie. L'accord illustre la volonté de Mistral de positionner ses modèles sur la recherche scientifique de pointe, un terrain où les laboratoires cherchent des outils capables d'absorber des volumes de données simulées que personne ne peut lire à la main.</p>\n<h2 id=\"des-agents-qui-reflechissent-sans-ecrire\">Des agents qui réfléchissent sans écrire</h2>\n<p>Un nouveau papier signé <strong>Stanford, Together AI, UIUC et Meta</strong> présente des <strong>agents à raisonnement hybride</strong>. Le principe : ces agents réfléchissent surtout <strong>en interne, de façon cachée</strong>, et ne passent au texte que dans deux cas — appeler des outils, ou donner la réponse finale.</p>\n<p>Le gain annoncé est double : sur des tests en <strong>maths, sciences ou médecine</strong>, environ <strong>10 % de mieux</strong>, avec <strong>deux fois moins de tokens</strong> et une exécution <strong>deux fois plus rapide</strong>. Le raisonnement visible, qui a occupé beaucoup de monde ces dernières années, coûte cher en tokens ; le déplacer hors de la vue de l'utilisateur réduit la facture.</p>\n<p>C'est une bascule discrète mais structurante pour tout ce qui tourne en production : à qualité égale ou meilleure, le coût et la latence deviennent des arguments de choix.</p>\n<h2 id=\"poids-ouverts-chez-black-forest-labs-lab\">Poids ouverts chez Black Forest Labs, labo de pointe chez Meta</h2>\n<p>Chez Meta, <strong>Latent Space</strong> consacre une dépêche à <strong>Meta Muse Wonder</strong> et <strong>Wonder Full</strong>, les modèles de MSL. Pour le média, l'émergence de MSL comme <strong>laboratoire de pointe</strong> est désormais actée, et son modèle frontalier y est présenté comme comparable à la génération <strong>Claude 5.5</strong>.</p>\n<p>En parallèle, un utilisateur de r/LocalLLaMA signale la publication des <strong>poids de FLUX.3 Image Klein</strong> sur Hugging Face, sous le compte <strong>black-forest-labs</strong>. Le modèle de génération d'images devient ainsi accessible publiquement via la plateforme.</p>\n<p>Les deux informations ne racontent pas la même histoire. D'un côté, une course frontalière qui se joue entre laboratoires, évaluée par des observateurs. De l'autre, des poids qui sortent et qu'on peut télécharger — la partie de l'écosystème qui ne se contente pas d'être annoncée.</p>\n<h2 id=\"28-minutes-pour-rejouer-l-attaque-des-fr\">28 minutes pour rejouer l'attaque des frigos</h2>\n<p>Selon <strong>01net</strong>, <strong>Claude a reproduit en 28 minutes</strong> la cyberattaque qui a fait surchauffer les frigos de centaines de supermarchés français. L'expérimentation montre que l'offensive restait <strong>à la portée de n'importe quel cybercriminel</strong>, même sans compétences techniques.</p>\n<p>Le chiffre à retenir n'est pas la vitesse en soi, mais ce qu'elle déplace : la <strong>barrière technique</strong> d'une attaque visant des équipements du quotidien. Quand un modèle abaisse ce seuil, la question n'est plus seulement de savoir qui possède les compétences, mais qui a l'intention.</p>\n<p>Le sujet n'est pas propre à un éditeur : il concerne tout modèle capable de raisonner sur des systèmes industriels connectés. Les frigos de supermarchés sont un exemple, pas une catégorie à part.</p>\n<h2>Et maintenant ?</h2>\n<p>Mis bout à bout, ces dépêches dessinent trois mouvements simultanés : des modèles qui descendent dans la recherche scientifique de pointe avec le CERN et Mistral, des agents qui apprennent à penser à moindre coût, des poids qui sortent publiquement quand les laboratoires le décident. Et, en parallèle, une capacité offensive qui devient plus accessible à mesure que les modèles progressent. Ces mouvements ne sont pas coordonnés, et rien dans ces dépêches ne permet de dire lequel prendra le dessus.</p>",
+ "pivot": "db4bd911bde98e98",
+ "tags": [
+  "mistral",
+  "recherche",
+  "agents",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/sciences/2354527-des-milliards-de-simulations-de-collision-mistral-sassocie-au-cern-pour-creer-un-modele-dia-de-pointe-pour-la-physique-des-particules.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7a8i8/new_paper_from_stanford_together_ai_uiuc_and_meta/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6t5fc/flux3_image_klein_just_got_weights_published_on/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/frigos-de-supermarches-pirates-claude-a-reproduit-la-cyberattaque-en-28-minutes.html"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+  }
+ ],
+ "date": "2026-10-16T08:53:17+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1506,
+  "sortie": 4020
+ }
+}

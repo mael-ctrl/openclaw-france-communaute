@@ -1884,3 +1884,11 @@
 {"ts": "2026-10-16T00:54:06+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 2}, "sha256": "bcf5d99497bb9de60b3729f13fcd540422a002d0fd79cfb02b712a2886daa9a4"}
 {"ts": "2026-10-16T00:54:17+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "1e0f2291f622ecb3c44d4e55d974448fa7f21920ae2ca128b388143973301bf5"}
 {"ts": "2026-10-16T00:54:17+00:00", "evenement": "bilan", "details": {"duree_s": 957.0, "neufs": 2, "breves": 1, "articles": 1, "fichiers": 629, "envois": 648, "publications": 4}, "sha256": "fe7815b12968bbb74dbe62e9c8f1b0d2f00f06cd11941c7861b35f82dc82e1c9"}
+{"ts": "2026-10-16T01:39:06+00:00", "evenement": "collecte", "details": {"neufs": 1}, "sha256": "e8bea2242a2c6c362dcdc5694793432df28c1dc85ca3a41e7461b350c48873b4"}
+{"ts": "2026-10-16T01:39:46+00:00", "evenement": "erreur", "details": {"message": "article impossible : Expecting ',' delimiter: line 20 column 6 (char 3810)"}, "sha256": "43258def30dcd7ef5c396dad40ce3ada38059a3bf3126e218ed746c44c628ca7"}
+{"ts": "2026-10-16T01:39:46+00:00", "evenement": "construction", "details": {"fichiers": 629}, "sha256": "fa11d4368813228f2d1584ea8dbcd215f8ec8844d1a3b4f01fe16466d5f38b11"}
+{"ts": "2026-10-16T01:52:36+00:00", "evenement": "deploiement", "details": {"fichiers": 648, "octets": 11506369}, "sha256": "e41428a2efbb87d5a769f51e600fc4e017f0a6c18adae3b404df4dc1f9fe83ce"}
+{"ts": "2026-10-16T01:52:36+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "23a07a88c1f15d1a65cedd935bbc20673046d9e4d86884683630575093fe3604"}
+{"ts": "2026-10-16T01:52:44+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 3}, "sha256": "20a6822ab6646045dddd8959cbef1c5e6824f2a707e36f4c8ea889e9682a4960"}
+{"ts": "2026-10-16T01:52:56+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "7d1007000fcc3f1b53dbdd7fbe7e66eef16c5c63f4732995b18d23b3327ee814"}
+{"ts": "2026-10-16T01:52:56+00:00", "evenement": "bilan", "details": {"duree_s": 872.8, "neufs": 1, "breves": 1, "articles": 0, "fichiers": 629, "envois": 648, "publications": 4}, "sha256": "02d2576eb47ee77529224f337758d56044db81164a5eb144dcdd176cc3ec5742"}

@@ -40,6 +40,26 @@
   }
  },
  {
+  "id": "c763468d5eaf1357",
+  "slug": "nvidia-publie-nemotron-3-5-embed-1b-un-modele-d-embedding-multimodal-c76346",
+  "titre": "NVIDIA publie Nemotron-3.5-Embed-1B, un modèle d'embedding multimodal",
+  "resume": "NVIDIA publie Nemotron-3.5-Embed-1B-BF16, un modèle d'embedding destiné à la recherche de réponses. Il encode une page de document sous forme d'image, de texte ou des deux à la fois, et permet de la retrouver à partir d'une requête textuelle. Il gère les pages contenant du texte, des tableaux, des graphiques ou des infographies. Le modèle a été évalué sur 34 langues en texte, dont le français, et sur 18 langues en image.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x70qhu/nvidianemotron35embed1bbf16_hugging_face/",
+  "date_source": "2026-10-15T23:22:20+00:00",
+  "date_redac": "2026-10-16T01:39:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 818,
+   "sortie": 986
+  }
+ },
+ {
   "id": "14eaedf60b8b3028",
   "slug": "deepseek-v4-flash-quantifie-tourne-sur-4-radeon-ai-pro-r9700-79-tok-s-14eaed",
   "titre": "DeepSeek-V4-Flash quantifié tourne sur 4 Radeon AI PRO R9700, ~79 tok/s",

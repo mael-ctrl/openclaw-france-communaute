@@ -1,22 +1,18 @@
 {
- "runs": 195,
- "items_collectes": 1761,
- "breves_publiees": 718,
- "articles_publies": 104,
- "tokens_entree": 681266,
- "tokens_sortie": 986163,
+ "runs": 196,
+ "items_collectes": 1766,
+ "breves_publiees": 722,
+ "articles_publies": 105,
+ "tokens_entree": 685661,
+ "tokens_sortie": 993841,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-16T20:46:38+00:00",
+ "dernier_run": "2026-10-16T21:49:08+00:00",
  "solde": {
   "total": "85.85",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-16T16:35:52+00:00",
-   "message": "brève impossible (The challenge where LLMs try to beat a 2D platformer game is) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-16T19:01:09+00:00",
    "message": "brève impossible (release-publish/c544916c9070-1792176107: test: expose skill ) : réponse non-JSON"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-16T19:44:47+00:00",
    "message": "article impossible : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-16T21:48:30+00:00",
+   "message": "brève impossible (Kimi K3, three months after the hype: too big for almost any) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -799,6 +799,10 @@
   ],
   [
    "2026-10-16T20:46:09+00:00",
+   "85.85"
+  ],
+  [
+   "2026-10-16T21:48:00+00:00",
    "85.85"
   ]
  ],

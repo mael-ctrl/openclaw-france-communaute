@@ -2014,3 +2014,9 @@
 {"ts": "2026-10-16T18:59:15+00:00", "evenement": "deploiement", "details": {"fichiers": 669, "octets": 13499649}, "sha256": "f454e913f8850f4fdb9e944f791ee3d2e0a7e844f13f77068a32b73444b6d02b"}
 {"ts": "2026-10-16T18:59:15+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "417f47b3bf65cd7ba8d37616d62d84c1821b9b12a3cc0eec312adc34251d7635"}
 {"ts": "2026-10-16T18:59:15+00:00", "evenement": "bilan", "details": {"duree_s": 1041.9, "neufs": 6, "breves": 5, "articles": 1, "fichiers": 643, "envois": 669, "publications": 0}, "sha256": "6610a1f6dc17ea302213724eea10da0a90dcbbc4033dc774da9268dfcfc853f3"}
+{"ts": "2026-10-16T19:44:08+00:00", "evenement": "collecte", "details": {"neufs": 2}, "sha256": "c937ba6721b1e28606627a1526fae79cfbe2e37db444af0d706a8b1ed58c6d46"}
+{"ts": "2026-10-16T19:44:47+00:00", "evenement": "erreur", "details": {"message": "article impossible : réponse non-JSON"}, "sha256": "c9a167b9c5fcbe14c444d8e4b172b786ce64acad0568aae95563665875ef7425"}
+{"ts": "2026-10-16T19:44:54+00:00", "evenement": "construction", "details": {"fichiers": 644}, "sha256": "8afc346787b27927fa64ab010191f03bcca4192231acd38c0620c8764ebf520a"}
+{"ts": "2026-10-16T20:00:44+00:00", "evenement": "deploiement", "details": {"fichiers": 667, "octets": 13350379}, "sha256": "912f24eca775f3c2a1ddddf616da5c103d54f00afe275f0ec76b170bf8279e6e"}
+{"ts": "2026-10-16T20:00:45+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "1a898684aa2897902927cfcfd7c3fb284e20dcc5321f750ef11b43f4f6d8621c"}
+{"ts": "2026-10-16T20:00:45+00:00", "evenement": "bilan", "details": {"duree_s": 1014.2, "neufs": 2, "breves": 2, "articles": 0, "fichiers": 644, "envois": 667, "publications": 0}, "sha256": "e450414274513bcf43e996aaccb2b650a8734e8940a9a197af4fe579ca028694"}

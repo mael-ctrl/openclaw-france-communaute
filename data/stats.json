@@ -1,22 +1,18 @@
 {
- "runs": 193,
- "items_collectes": 1757,
- "breves_publiees": 714,
+ "runs": 194,
+ "items_collectes": 1759,
+ "breves_publiees": 716,
  "articles_publies": 103,
- "tokens_entree": 676864,
- "tokens_sortie": 979564,
+ "tokens_entree": 678309,
+ "tokens_sortie": 980911,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-16T19:02:15+00:00",
+ "dernier_run": "2026-10-16T19:44:47+00:00",
  "solde": {
-  "total": "85.87",
+  "total": "85.86",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-16T14:04:46+00:00",
-   "message": "article impossible : réponse non-JSON"
-  },
   {
    "ts": "2026-10-16T16:35:52+00:00",
    "message": "brève impossible (The challenge where LLMs try to beat a 2D platformer game is) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-16T19:01:54+00:00",
    "message": "brève impossible (Nemotron 3.5 Bolt Evaluation using real-world tasks) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-16T19:44:47+00:00",
+   "message": "article impossible : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.79,
+ "depense_usd": 5.8,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -792,10 +792,14 @@
   [
    "2026-10-16T19:00:55+00:00",
    "85.87"
+  ],
+  [
+   "2026-10-16T19:44:08+00:00",
+   "85.86"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 3.5,
+ "depense_mois_usd": 3.51,
  "archive_tentatives": {
   "jour": "2026-10-16",
   "n": 3

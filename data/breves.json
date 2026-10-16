@@ -1,5 +1,48 @@
 [
  {
+  "id": "81c659edf9c354e4",
+  "slug": "stack-overflow-for-agents-triple-ses-inscriptions-grace-a-son-plugin-c-81c659",
+  "titre": "Stack Overflow for Agents triple ses inscriptions grâce à son plugin ChatGPT",
+  "resume": "Deux ingénieurs ont développé Stack Overflow for Agents en quelques semaines, en s'appuyant sur Codex. Le plugin ChatGPT de la plateforme a contribué à une croissance pouvant atteindre 10× du nombre de créations d'agents. Un cas concret d'un petit outil lancé vite, dont l'intégration à ChatGPT change l'échelle.",
+  "tags": [
+   "openai",
+   "chatgpt",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+  "date_source": null,
+  "date_redac": "2026-10-16T19:44:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 596,
+   "sortie": 484
+  }
+ },
+ {
+  "id": "76bd3962439645c8",
+  "slug": "orl-un-modele-de-diffusion-atteint-2-788-tokens-s-sur-une-seule-rtx-50-76bd39",
+  "titre": "ORL : un modèle de diffusion atteint 2 788 tokens/s sur une seule RTX 5090",
+  "resume": "L'équipe derrière ORL (On-Policy Residual Learning) publie une méthode qui accélère les modèles de langage à diffusion sans sacrifier la qualité de génération. Avec son moteur d'inférence dlmrt, elle atteint 2 788 tokens/s sur une seule RTX 5090 avec LLaDA-2.1-mini et 7 708 tokens/s sur 8× B200, pour une requête unique (batch size 1). Modèles, code d'entraînement, pipeline d'évaluation et moteur d'inférence sont open source.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/",
+  "date_source": "2026-10-16T19:33:04+00:00",
+  "date_redac": "2026-10-16T19:44:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 849,
+   "sortie": 863
+  }
+ },
+ {
   "id": "6bf278b1c2d281af",
   "slug": "ibm-un-modele-granite-switch-arrive-dans-llama-cpp-pour-l-execution-en-6bf278",
   "titre": "IBM : un modèle Granite « switch » arrive dans llama.cpp pour l'exécution en local",

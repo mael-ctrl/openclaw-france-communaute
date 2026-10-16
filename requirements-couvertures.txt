@@ -1,0 +1,3 @@
+# Seule dépendance supplémentaire du build ; licence MIT-CMU.
+# Installer en venv. Wheels uniquement dans le workflow (pas de compilation).
+Pillow==12.3.0

@@ -1,5 +1,47 @@
 [
  {
+  "id": "ba25e19b93f876e9",
+  "slug": "le-patron-de-replit-imagine-l-entreprise-autonome-pilotee-par-des-agen-ba25e1",
+  "titre": "Le patron de Replit imagine l'entreprise « autonome » pilotée par des agents IA",
+  "resume": "Amjad Masad, PDG de Replit, décrit l'avenir du travail comme celui de la « self-driving company », l'entreprise qui se conduit toute seule. Dans sa vision, les agents IA prennent en charge les tâches du quotidien, tandis que les humains se consacrent aux décisions de plus haut niveau. La formule résume une tendance de fond : déléguer l'exécution aux modèles et recentrer les équipes sur l'arbitrage.",
+  "tags": [
+   "agents",
+   "business",
+   "dev",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+  "date_source": "2026-10-16T12:55:09+00:00",
+  "date_redac": "2026-10-16T13:01:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 632,
+   "sortie": 525
+  }
+ },
+ {
+  "id": "1efc5fd537fb5bff",
+  "slug": "openmoss-publie-moss-image-un-modele-d-image-sous-licence-apache-1efc5f",
+  "titre": "OpenMOSS publie MOSS-Image, un modèle d'image sous licence Apache",
+  "resume": "OpenMOSS annonce la sortie de MOSS-Image, un modèle de génération d'images. Comme pour les autres publications d'OpenMOSS, la licence retenue est Apache, et un modèle de base est également disponible. Sur r/LocalLLaMA, la question posée est de savoir comment il se situe face à Qwen Image 2.1 et Flux Klein 3.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7ey7i/openmoss_releases_mossimage/",
+  "date_source": "2026-10-16T12:30:53+00:00",
+  "date_redac": "2026-10-16T13:01:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 642,
+   "sortie": 489
+  }
+ },
+ {
   "id": "09b3cf27aa6bd512",
   "slug": "test-de-l-asus-proart-p16-le-soc-rtx-spark-de-nvidia-et-mediatek-a-l-e-09b3cf",
   "titre": "Test de l'Asus ProArt P16 : le SoC RTX Spark de NVIDIA et Mediatek à l'épreuve",
@@ -99,6 +141,27 @@
    "modele": "deepseek-flash",
    "entree": 678,
    "sortie": 634
+  }
+ },
+ {
+  "id": "8c72367cf0931197",
+  "slug": "les-moderateurs-de-r-nvidia-suppriment-un-post-sur-un-serveur-mcp-alwa-8c7236",
+  "titre": "Les modérateurs de r/nvidia suppriment un post sur un serveur MCP always-on",
+  "resume": "Un post consacré à un serveur MCP « always on » a été supprimé par les modérateurs du subreddit r/nvidia. L'information a été relayée sur r/LocalLLaMA par l'utilisateur u/parepeg. Le MCP est le protocole qui relie un modèle à des outils externes, et un serveur toujours actif y tient un rôle central : la disparition du sujet de r/nvidia alimente donc les discussions sur la modération de ces communautés.",
+  "tags": [
+   "dev",
+   "agents",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7ccaj/rnvidia_mods_delete_post_about_always_on_mcp/",
+  "date_source": "2026-10-16T10:11:19+00:00",
+  "date_redac": "2026-10-16T13:01:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 614,
+   "sortie": 786
   }
  },
  {

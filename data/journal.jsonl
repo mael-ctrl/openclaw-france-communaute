@@ -2000,3 +2000,11 @@
 {"ts": "2026-10-16T17:50:40+00:00", "evenement": "deploiement", "details": {"fichiers": 669, "octets": 13514252}, "sha256": "b3828023014bc918bada38d5dc0812eb381004176f72a69f2b4a68130037031f"}
 {"ts": "2026-10-16T17:50:40+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "554abf46f4de47250b31c02899426a2e09183f91ecb93251c69ed277f62dc2f9"}
 {"ts": "2026-10-16T17:50:40+00:00", "evenement": "bilan", "details": {"duree_s": 649.2, "neufs": 6, "breves": 6, "articles": 1, "fichiers": 642, "envois": 669, "publications": 0}, "sha256": "d242964a1a1b60df1a6084aa44e2bb09781205a8fd555051743721b3db4fec5f"}
+{"ts": "2026-10-16T19:00:55+00:00", "evenement": "collecte", "details": {"neufs": 6}, "sha256": "f2bf0d2f176e55693234a6d19ba8020669d8d033fda89ef4245c12443b2ce348"}
+{"ts": "2026-10-16T19:01:09+00:00", "evenement": "erreur", "details": {"message": "brève impossible (release-publish/c544916c9070-1792176107: test: expose skill ) : réponse non-JSON"}, "sha256": "e0d50c5542441e606fd97324f2482e009b858003e96940b208afc9e6676447b9"}
+{"ts": "2026-10-16T19:01:40+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Tyger: open-weights streaming ASR + full-duplex turn-control) : réponse non-JSON"}, "sha256": "67a14d334717c39c3e62c7cb68f6526adb0445ac47bcb519a1c6feac98cb0f89"}
+{"ts": "2026-10-16T19:01:54+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Nemotron 3.5 Bolt Evaluation using real-world tasks) : réponse non-JSON"}, "sha256": "2f4c9ca151e60cae6fde699e0e14999b72d089a0463455ec6a725202124a89d7"}
+{"ts": "2026-10-16T19:02:22+00:00", "evenement": "construction", "details": {"fichiers": 643}, "sha256": "fa66fb820c20a1e3a64026e2d18337cd42d3e39231e4b026064331b50e588dcc"}
+{"ts": "2026-10-16T19:15:34+00:00", "evenement": "deploiement", "details": {"fichiers": 667, "octets": 13405684}, "sha256": "c0ba18972679d6c960f375fbf515befa0961f7f96121a538932b04b589eac808"}
+{"ts": "2026-10-16T19:15:34+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "a7123e13efac91bb67983ec3b1bd0a2fc132faefb7f1566fce8b8b91cae0ed2c"}
+{"ts": "2026-10-16T19:15:34+00:00", "evenement": "bilan", "details": {"duree_s": 936.7, "neufs": 6, "breves": 3, "articles": 1, "fichiers": 643, "envois": 667, "publications": 0}, "sha256": "b494476e5f4604542841c54f0c44d2cabdbcf1973b8ee01a633d3b30df1a2233"}

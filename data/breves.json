@@ -1,5 +1,47 @@
 [
  {
+  "id": "cec3f5f15ba31f3a",
+  "slug": "pre-entrainement-indic-2-800-milliards-de-tokens-et-un-pipeline-de-don-cec3f5",
+  "titre": "Pré-entraînement indic : 2 800 milliards de tokens et un pipeline de données ouvert",
+  "resume": "Sur le blog de Hugging Face, NVIDIA présente un travail de mise à l'échelle du pré-entraînement pour les langues indiennes, fondé sur 2 800 milliards de tokens. L'entreprise y décrit également un pipeline ouvert de génération de données.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Hugging Face",
+  "lien_source": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+  "date_source": null,
+  "date_redac": "2026-10-16T02:40:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 591,
+   "sortie": 566
+  }
+ },
+ {
+  "id": "769b2ea5d51b7235",
+  "slug": "muse-spark-open-un-modele-open-weight-americain-annonce-sur-r-locallla-769b2e",
+  "titre": "Muse Spark Open : un modèle open-weight américain annoncé sur r/LocalLLaMA",
+  "resume": "Le forum r/LocalLLaMA relaie l'annonce de Muse Spark Open, présenté dans le titre du fil comme le modèle open-weight américain le plus capable à ce jour. Le message a été publié le 16 octobre par l'utilisateur u/paranoidray. Aucun autre élément n'accompagne cette annonce.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x74l0c/introducing_muse_spark_open_the_most_capable_us/",
+  "date_source": "2026-10-16T02:30:50+00:00",
+  "date_redac": "2026-10-16T02:40:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 621,
+   "sortie": 1325
+  }
+ },
+ {
   "id": "b5361f00b4cceaee",
   "slug": "sullivan-cromwell-developpe-agreement-analyzer-avec-openai-b5361f",
   "titre": "Sullivan & Cromwell développe Agreement Analyzer avec OpenAI",
@@ -17,6 +59,27 @@
    "modele": "deepseek-flash",
    "entree": 583,
    "sortie": 844
+  }
+ },
+ {
+  "id": "f6280e2eaa5b0bfd",
+  "slug": "un-petit-modele-quantifie-code-une-demo-du-systeme-solaire-en-un-seul--f6280e",
+  "titre": "Un petit modèle quantifié code une démo du système solaire en un seul prompt sur iGPU",
+  "resume": "Sur r/LocalLLaMA, un utilisateur a soumis un unique prompt à Kwaipilot_KAT-Coder-V2.5-Dev en quantisation Q4_K_M (GGUF de bartowski), servi par llama.cpp sur un iGPU. Le modèle a produit en moins de dix minutes une démo HTML/JavaScript du système solaire : planètes en orbite, vitesses et ellipses modifiables au clic, explosions en cas de collision. Le tout a tourné sur un simple CPU 8 cœurs, à 14 tokens par seconde.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x721co/single_shot_response_given_by_a_simple_model_on_a/",
+  "date_source": "2026-10-16T00:22:12+00:00",
+  "date_redac": "2026-10-16T02:40:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 830,
+   "sortie": 387
   }
  },
  {

@@ -283,6 +283,15 @@ Format : `AAAA-MM-JJ | plateforme | action | URL du post | statut | retours`
 
 - `2026-10-15 | Site propre — monétisation | Échantillon B2B sourcé publié et lié depuis /b2b/, sans diffusion tierce | https://communaute-ia.fr/b2b/echantillon-veille/ | ✅ Run cloud 38728943975 et HTTPS vérifiés, parcours mobile/desktop sans JS | Amélioration du site uniquement, pas une nouvelle action de distribution ; aucun email, post promotionnel ou formulaire soumis. Bluesky reste exclu cette semaine. Détails : docs/monetisation.md.`
 
+- `2026-10-16 | Contrôle de distribution — mission de 11h20 CEST | Aucune action sûre et exécutable retenue | Aucun nouveau lien public | ⏸️ Aucun envoi | Uneed : accord acquis, compte requis, aucun identifiant au coffre. JDH : pas d'invitation ; LinuxFr : pas d'accord humain ; piaille : pas de mail d'approbation retrouvé. Bluesky exclu cette semaine par le post du 12/10. Aucun compte, formulaire soumis, message, publication ou paiement ; quota quotidien non consommé par cette mission.`
+
+### Contrôle de la mission planifiée du 16/10 (lecture seule)
+
+- Clone cron propre, plans vague-2/vague-3 et registre presse relus ; `git pull --no-rebase` répété à 11h22 CEST. Aucune nouvelle action du jour journalisée à ce contrôle.
+- IMAP en lecture seule, `BODY.PEEK`, recherche depuis le 30/09 sur expéditeurs/objets/corps, y compris HTML : accord Uneed du 05/10 relu (UID 14) ; JDH UID 5 = confirmation de demande seulement ; LinuxFr UID 12 = accusé SYMPA, pas un avis humain ; piaille UID 4 = confirmation initiale, sans approbation retrouvée. Aucune relance ni jeton publié.
+- Uneed : conditions, soumission, connexion et inscription revérifiées en HTTPS ; un compte reste nécessaire à la sauvegarde. Aucun identifiant Uneed dans le coffre. Navigation sur le profil personnel refusée car Chrome est verrouillé ; tentative de lecture ciblée des seuls onglets Uneed via AppleScript expirée. Navigateur personnel laissé ouvert, sessions non inspectées ; aucune configuration modifiée ni demande interactive. Pas de contournement du circuit des mots de passe.
+- Replis : interdiction de publicité jlai.lu relue via les API site/communauté ; post Bluesky du 12/10 relu dans l'AppView (URI, CID et carte conformes, aucune réponse au contrôle). Newsletter toujours au stade de brouillon non envoyé dans le rapport d'orchestration du 16/10 : annuaires non sollicités. Aucun accès aux autres forums disponible dans le coffre ; aucune tentative HN, Product Hunt, r/france_tech ou Discord. Accueils hub/média : HTTPS strict 200. Seul ce journal est modifié ; aucun workflow déclenché par son push documentaire.
+
 ### Contrôle de la mission planifiée du 15/10 (lecture seule)
 
 - Clone cron hors Bureau propre, `git pull --no-rebase` effectué puis répété à 11h23 CEST ; plans vague-2 et vague-3, journal d'exécution et registre presse relus. Aucun nouvel envoi de distribution du jour journalisé au contrôle ; aucun contact ancien relancé.

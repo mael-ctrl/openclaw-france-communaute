@@ -1,5 +1,29 @@
 # Journal des actions de monétisation
 
+## 16 octobre 2026 — une approche B2B préparée, sans envoi
+
+**Action unique :** préparer un dossier pour une seule piste du secteur de la formation : qualification à partir du programme officiel, exemple pédagogique de veille sourcée terminé et message personnalisé. Aucun intérêt d'achat, client ou partenariat n'est présumé. Les coordonnées, le nom de la cible, le texte d'approche et l'exemple non sollicité restent hors dépôt public.
+
+### Livré et réellement vérifié
+
+- Fiche de démonstration rédigée par IA à partir des sections 2, 6 et 7 de la [FAQ IA générative de la CNIL](https://www.cnil.fr/fr/les-questions-reponses-de-la-cnil-sur-lutilisation-dun-systeme-dia-generative) : faits, analyse, limites, exercice et correction proposée. Date affichée de la source : 18/07/2024 ; consultation : 16/10/2026. Ce n'est pas une nouvelle du jour ni un support validé par le régulateur ou un client.
+- Programme de formation relu en HTTPS strict et rubrique partenariat observée dans le DOM d'un Chrome isolé. Formulaire laissé vide ; aucun envoi. Champs d'identité et téléphone requis : aucune valeur inventée ni reprise d'un autre projet.
+- **24 contrôles documentaires et de sources réussis** ; ce ne sont ni une recette du moteur ni une validation juridique ou pédagogique. Le message préparé compte 165 mots, déclare l'IA et l'intention commerciale, prévoit l'opposition et n'annonce aucun nouveau prix, SLA ou résultat.
+- Journal de distribution relu ; aucune promotion Bluesky supplémentaire cette semaine. Contrôle des 23 documents et registres du dépôt sans occurrence de la cible ; pas de boîte email inspectée, donc anti-doublon complet à refaire avant toute démarche.
+- Correctif des promesses B2B déjà préparé par l'orchestration du matin : matrice relue et 69 artefacts du manifeste vérifiés sans divergence. Aucun second patch créé ; les tests de cette autre mission ne sont pas présentés comme rejoués ici.
+
+### Garde-fou commercial toujours fermé
+
+Contrôles du 16/10 vers 11:33 UTC, base `e6de569fe1afe882a56fbd03cd4a4dad16afba21` : `/b2b/` et l'échantillon répondent **200 en HTTPS**, mais les formulations « alertes sous 30 minutes », « la seule rédaction » et « 0 € encaissés » sont encore présentes. Leur présence est constatée, leur vérité n'est pas validée. `/mentions-legales/` répond **404** et aucune route légale n'a été trouvée dans le sitemap contrôlé.
+
+La revue Claude du 15/10 ne remplace pas les preuves : aucune panne email ou recette cumulée n'est déduite de cet avis. Vendeur, régime de TVA, informations contractuelles et modalités/canal de reversement restent à valider. **Pas d'email B2B, de demande via formulaire, de DM, de mise en campagne ou de relance tant que tous les prérequis ne sont pas levés.** Les anciens modèles d'approche privés sont signalés comme archives non envoyables.
+
+Préservés : site et moteur, prix existants, Pack 14 €, liens Stripe, gratuité Skool et kits, registre presse, données et preuves. Aucun paiement, compte, facturation, nouveau tarif ou cron créé/modifié. Seuls les deux journaux documentaires du dépôt sont modifiés ; leur push ne déclenche pas les workflows relus. Aucun gain commercial mesuré par ce lot.
+
+### Prochaine étape
+
+Priorité humaine : désigner l'entité vendeuse et son régime de TVA, avec un contact contractuel autorisé. Compléter ensuite les autres prérequis et vérifier les corrections publiées avant de reprendre le dossier. Livrables et preuves dans le workspace privé de monétisation daté du 16/10 ; envoi explicitement désactivé, sans branchement à un outil de campagne.
+
 ## 15 octobre 2026 — une démonstration B2B consultable avant contact
 
 **Action unique :** publier un échantillon réel de veille sourcée, explicitement rédigé par IA, lié depuis `/b2b/`, avec son téléchargement Markdown et un questionnaire de qualification facultatif. Objectif : montrer le format proposé avant une prise de contact, sans nouveau prix ni encaissement.

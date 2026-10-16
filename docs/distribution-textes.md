@@ -285,6 +285,11 @@ Format : `AAAA-MM-JJ | plateforme | action | URL du post | statut | retours`
 
 - `2026-10-16 | Contrôle de distribution — mission de 11h20 CEST | Aucune action sûre et exécutable retenue | Aucun nouveau lien public | ⏸️ Aucun envoi | Uneed : accord acquis, compte requis, aucun identifiant au coffre. JDH : pas d'invitation ; LinuxFr : pas d'accord humain ; piaille : pas de mail d'approbation retrouvé. Bluesky exclu cette semaine par le post du 12/10. Aucun compte, formulaire soumis, message, publication ou paiement ; quota quotidien non consommé par cette mission.`
 
+### Monétisation du 16/10 — préparation uniquement
+
+- Une seule piste B2B qualifiée sur sources publiques, avec exemple pédagogique sourcé et brouillon personnalisé, conservés hors dépôt. Aucune sollicitation, aucun formulaire soumis, aucun envoi ni promotion. Détails et vérifications : `docs/monetisation.md`.
+- Garde-fou maintenu : page B2B 200 mais corrections non publiées et mentions légales 404 ; vendeur/TVA et modalités de reversement non validés. La préparation ne consomme aucun quota de distribution. Bluesky reste exclu cette semaine par le post du 12/10.
+
 ### Contrôle de la mission planifiée du 16/10 (lecture seule)
 
 - Clone cron propre, plans vague-2/vague-3 et registre presse relus ; `git pull --no-rebase` répété à 11h22 CEST. Aucune nouvelle action du jour journalisée à ce contrôle.

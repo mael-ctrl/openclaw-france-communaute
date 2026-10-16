@@ -1,0 +1,41 @@
+{
+ "slug": "ai-act-proces-openai-cyberattaque-la-regulation-court-apres--fffe9f",
+ "titre": "AI Act, procès OpenAI, cyberattaque : la régulation court après les modèles",
+ "chapo": "L'Europe retouche les délais de sanction de l'AI Act pendant que huit États américains poursuivent OpenAI. Pendant ce temps, les capacités avancent : Nvidia sort sa première puce complète pour portables Windows, Gemini 4 Argon se déploie mondialement et Claude reproduit une cyberattaque en 28 minutes.",
+ "html": "<h2 id=\"ai-act-la-prescription-comme-variable-d-\">AI Act : la prescription comme variable d'ajustement</h2>\n<p>Le Bureau de l'IA prépare un projet européen qui permettrait aux actes d'enquête de <strong>faire repartir le délai de prescription</strong> de cinq ans prévu par l'AI Act. Une interruption rendue possible jusqu'à dix ans.</p>\n<p>Le mécanisme a l'air purement technique. Il ne l'est pas. Un délai de prescription court à partir des faits ; si l'enquête s'étale, elle peut se terminer une fois la fenêtre de sanction refermée. En permettant aux actes d'enquête de relancer le compteur, le texte donne au régulateur le temps d'aller au bout de son travail.</p>\n<p>Le projet encadre aussi l'accès au dossier, un point qui touche directement les entreprises visées. Il reste en consultation jusqu'au 9 novembre.</p>\n<h2 id=\"huit-etats-americains-contre-openai-en-o\">Huit États américains contre OpenAI, en ordre dispersé</h2>\n<p>Huit États américains poursuivent OpenAI. L'Iowa, le Kansas, le Nebraska, la Virginie-Occidentale, l'Arkansas, l'Arizona, l'Idaho et le Montana ont déposé des <strong>plaintes séparées</strong>, ce qui donne à l'offensive une forme décentralisée plutôt qu'un front unique.</p>\n<p>Les reproches portent sur deux points : l'entreprise est accusée de nuire aux enfants et d'avoir induit ses clients en erreur sur la sécurité de ChatGPT. Les États lui font également grief d'avoir placé ses profits avant la sécurité.</p>\n<p>Aucun de ces griefs ne porte sur les capacités du modèle. C'est la promesse de sécurité qui entoure le produit qui est contestée.</p>\n<h2 id=\"28-minutes-pour-reproduire-l-attaque-des\">28 minutes pour reproduire l'attaque des frigos</h2>\n<p>Claude a reproduit en <strong>28 minutes</strong> la cyberattaque qui a fait surchauffer les frigos de centaines de supermarchés français, rapporte 01net. L'expérimentation ne mesure pas la puissance brute du modèle, mais le temps qu'il faut désormais pour monter une offensive.</p>\n<p>Le résultat est plus gênant qu'il n'y paraît : l'attaque restait à la portée de n'importe quel cybercriminel, même sans compétences techniques. C'est le point central. La barrière technique qui protégeait des équipements du quotidien — ici la chaîne du froid — s'abaisse à mesure que les modèles progressent.</p>\n<p>Un modèle ne décide pas d'attaquer. Il rend l'attaque accessible.</p>\n<h2 id=\"gemini-4-argon-et-rtx-spark-la-course-co\">Gemini 4 Argon et RTX Spark : la course continue</h2>\n<p>De l'autre côté du décor, le rythme ne faiblit pas. Google déploie <strong>Gemini 4 Argon</strong> à grande échelle : le modèle, dévoilé au début du mois, est accessible depuis le 13 octobre dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme. Google veut en faire un outil de travail pour les tâches complexes et le moteur de ses agents IA. Le prix de l'API doit toutefois doubler au 1er décembre.</p>\n<p>Côté matériel, Nvidia lance le <strong>RTX Spark</strong>, sa première puce complète destinée aux PC portables Windows. Elle réunit un GPU Blackwell, un processeur Arm et jusqu'à 128 Go de mémoire unifiée dans un seul boîtier. Le test, mené dans un Asus ProArt P16, couvre le jeu, l'IA locale et l'autonomie, face à un portable gamer en RTX 5070, un Mac Apple Silicon et un PC Ryzen AI Max+ 395.</p>\n<h2>Et maintenant ?</h2>\n<p>Les calendriers ne s'alignent pas. D'un côté, des procédures : une consultation ouverte jusqu'au 9 novembre, des plaintes étatiques déposées séparément, un délai de prescription qu'on étire pour laisser les enquêtes aboutir. De l'autre, des sorties produits, des prix d'API qui changent et des puces qui arrivent en quelques semaines. Entre les deux, un fil revient dans chaque dépêche : ce n'est plus seulement la puissance des modèles qui compte, mais la vitesse à laquelle elle se diffuse — dans un PC portable, dans une API, ou entre les mains d'un attaquant.</p>",
+ "pivot": "fffe9ff7167de9c3",
+ "tags": [
+  "sécurité",
+  "openai",
+  "gemini",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/ai-act-les-enquetes-pourraient-prolonger-le-delai-de-sanction/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/test/3283093_test-nvidia-rtx-spark"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/frigos-de-supermarches-pirates-claude-a-reproduit-la-cyberattaque-en-28-minutes.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  }
+ ],
+ "date": "2026-10-16T00:39:14+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1573,
+  "sortie": 4204
+ }
+}

@@ -1,22 +1,18 @@
 {
- "runs": 172,
- "items_collectes": 1678,
- "breves_publiees": 647,
- "articles_publies": 89,
- "tokens_entree": 608831,
- "tokens_sortie": 867821,
+ "runs": 173,
+ "items_collectes": 1680,
+ "breves_publiees": 648,
+ "articles_publies": 90,
+ "tokens_entree": 610987,
+ "tokens_sortie": 872869,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-16T00:06:22+00:00",
+ "dernier_run": "2026-10-16T00:39:15+00:00",
  "solde": {
   "total": "86.03",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-15T19:07:34+00:00",
-   "message": "brève impossible (I turned a transformer into a game console that runs Pong, T) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-15T19:58:01+00:00",
    "message": "brève impossible (v2.1.301) : réponse non-JSON"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-16T00:15:59+00:00",
    "message": "archivage wayback : The read operation timed out"
+  },
+  {
+   "ts": "2026-10-16T00:38:45+00:00",
+   "message": "brève impossible (openclaw 2026.10.4) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -708,13 +708,17 @@
   [
    "2026-10-16T00:05:37+00:00",
    "86.03"
+  ],
+  [
+   "2026-10-16T00:38:32+00:00",
+   "86.03"
   ]
  ],
  "mode_budget": "normal",
  "depense_mois_usd": 3.34,
  "archive_tentatives": {
   "jour": "2026-10-16",
-  "n": 1
+  "n": 2
  },
  "derniere_archive": "2026-10-14"
 }

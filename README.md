@@ -17,8 +17,8 @@ Toutes les 30 minutes, une machine se réveille :
 2. **Rédaction** — chaque dépêche retenue passe par l'**API DeepSeek** avec un
    prompt strict (« n'invente jamais, cite la source, français naturel »).
    ~1 article de fond par jour est tissé à partir de plusieurs dépêches.
-3. **Publication** — le site statique est reconstruit (HTML maison, zéro
-   dépendance) puis déployé par FTP sur l'hébergement OVH. L'état vit dans
+3. **Publication** — le site statique est reconstruit (HTML maison, Pillow
+   pour les couvertures illustrées) puis déployé par FTP sur l'hébergement OVH. L'état vit dans
    `data/` : journal de bord, stats réelles, brèves, articles.
 4. **Diffusion** — les brèves partent aussi sur Bluesky
    (**@communaute-ia.fr**), hébergé sur **notre propre serveur
@@ -30,6 +30,9 @@ Le tout tourne sur **GitHub Actions** (`.github/workflows/maj.yml`, toutes les
 30 min) et peut aussi être lancé à la main :
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install --only-binary=:all: -r requirements-couvertures.txt
 export DEEPSEEK_API_KEY=…   # clé API DeepSeek
 python3 engine/run.py --tout                # collecte + rédaction + build + déploiement
 python3 engine/run.py --essai               # mode test : 2 brèves max, pas de FTP
@@ -39,10 +42,11 @@ python3 engine/run.py --sans-deploiement    # tout sauf l'envoi FTP
 ## Structure
 
 ```
-engine/        le pipeline (Python stdlib uniquement)
+engine/        le pipeline (Python stdlib + Pillow pour les images)
   collecte.py    flux RSS/Atom → dépêches neuves
   redaction.py   DeepSeek → brèves & articles (prompts inclus)
   construction.py  générateur HTML/CSS du site
+  couvertures.py   illustrations locales, cache et métadonnées d'image
   annexes.py     manifeste, transparence, skills, 404
   deploiement.py FTP incrémental vers OVH
   run.py         orchestrateur

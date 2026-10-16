@@ -37,4 +37,12 @@ Preuves détaillées conservées localement dans `crabe-chantiers/integration-co
 
 ## Publication
 
-Déploiement et vérification HTTPS à consigner après retour du workflow. Les recettes locales ci-dessus ne sont pas une preuve de mise en ligne.
+- Code `d2dae09f912e4b33bbe80de42f2c1849d0ef9c1e` poussé ; neuf blobs relus par l'API GitHub et identiques au commit local.
+- [Run 38876861356](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/38876861356) **réussi**, fin à **09:23:14 UTC**. Ubuntu/Python 3.12.15, Pillow 12.3.0 ; **93 tests réussis dans le cloud** avant publication.
+- Pipeline : **634 sorties**, **1 266 fichiers envoyés dont 613 JPEG** ; 4 nouvelles brèves et 1 article ont été rédigés par le pipeline habituel. Durée pipeline **1 212 s** pour ce premier envoi des couvertures. Zéro publication Bluesky dans ce run.
+- État du pipeline committé dans `7d4c96f6a0fcfa614d3e2d9adc650c67ce08c98a`, puis sauvegardé sur main par fusion `245675d`. Le contrôle reproductible utilise **le commit de sortie du pipeline avant fusion**, pas les données concurrentes ajoutées à main.
+- Reconstruction propre de `7d4c96f` : **613 images**, toutes leurs empreintes taille/mtime concordent avec l'état FTP sauvegardé. Cela valide l'état consigné, pas à lui seul la présence distante ni les transferts du prochain run.
+- **20 URL HTTPS contrôlées après succès** : 8 pages couvrant les six familles et les nouveaux contenus, leurs 8 images, accueil, CSS, news-sitemap et version. Les **8 HTML et 8 JPEG** sont identiques octet pour octet au rendu reconstruit ; JPEG décodés intégralement, MIME `image/jpeg`, 1280×720. CSS également identique. Preuve locale `https-resultat.json`, datée **09:24:11 UTC** ; réponses sauvegardées dans `https/`.
+- Production inspectée sans JS sur mobile 390 px et desktop 1440 px : brève et article, images chargées, légendes visibles, aucun débordement horizontal. Captures `browser/live-*.png`, contrôles `browser/live.json`.
+
+La génération automatique est livrée ; les variantes de formats/ratios restent non retenues et les motifs demeurent symboliques. Les dates visibles/JSON-LD hors image et la fermeture de l'autoindex appartiennent aux prochains chantiers. Aucun gain SEO ou trafic mesuré par cette livraison.

@@ -1903,3 +1903,9 @@
 {"ts": "2026-10-16T03:51:58+00:00", "evenement": "deploiement", "details": {"fichiers": 648, "octets": 11512269}, "sha256": "7856b92176b4cba58c7a6d9a7702c73cc5c9ab7865e336eb81c04f75f02f1b66"}
 {"ts": "2026-10-16T03:51:59+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "f13f42fa4f529bc427f4b88c6d8116afc637325bb4f25b1885b62ab549f0e9b1"}
 {"ts": "2026-10-16T03:51:59+00:00", "evenement": "bilan", "details": {"duree_s": 577.2, "neufs": 1, "breves": 1, "articles": 0, "fichiers": 629, "envois": 648, "publications": 0}, "sha256": "6552d583ba79f594ca850accb978bd09d9ef4dca5d16888d5abd5c2a2f7a7c4d"}
+{"ts": "2026-10-16T04:44:32+00:00", "evenement": "collecte", "details": {"neufs": 4}, "sha256": "3fd2f7733748b3941b41ece12ff2cb93640707308401e654fd9f4efbde8232e1"}
+{"ts": "2026-10-16T04:44:47+00:00", "evenement": "erreur", "details": {"message": "brève impossible (BlenderWorld Benchmark from Alibaba) : réponse non-JSON"}, "sha256": "2a28619fcb17ef039faeb54aafe2ca8c4f58962422293d652ab2f91532da5b5d"}
+{"ts": "2026-10-16T04:45:35+00:00", "evenement": "construction", "details": {"fichiers": 630}, "sha256": "475477e3884d5bac7cacbdf5ec7fed3869a465ad8c21d8bcda05f37ee5bb4a21"}
+{"ts": "2026-10-16T04:54:26+00:00", "evenement": "deploiement", "details": {"fichiers": 649, "octets": 11534653}, "sha256": "d364bb8c085bddfeb9fbde377c416c2099faee0837ac6b8e095fa0d49598ea85"}
+{"ts": "2026-10-16T04:54:26+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "705fec4fbe6f33bd3800659a4e941ac629806064f47442a8dda94b0db567644b"}
+{"ts": "2026-10-16T04:54:26+00:00", "evenement": "bilan", "details": {"duree_s": 604.2, "neufs": 4, "breves": 3, "articles": 1, "fichiers": 630, "envois": 649, "publications": 0}, "sha256": "f1c51c8577d8dd1143f905c033f6472a5bcd4a2cd773f2b22d185b2baf8e59b4"}

@@ -1,5 +1,47 @@
 [
  {
+  "id": "53527e2a4e36d803",
+  "slug": "des-agents-remettraient-en-cause-la-polysemanticite-et-boosteraient-l--53527e",
+  "titre": "Des agents remettraient en cause la polysémanticité et boosteraient l'interprétabilité",
+  "resume": "Nick Cammarata formule des affirmations présentées comme majeures : les agents remettraient en cause la polysémanticité et amélioreraient nettement l'interprétabilité comme l'alignement. Ces déclarations, rapportées par Latent Space, surviennent sans préambule. Elles touchent deux chantiers centraux du travail sur les modèles d'IA.",
+  "tags": [
+   "agents",
+   "recherche",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "Latent Space",
+  "lien_source": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+  "date_source": null,
+  "date_redac": "2026-10-16T04:45:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 595,
+   "sortie": 1113
+  }
+ },
+ {
+  "id": "42538c9189634169",
+  "slug": "drama3-arrive-dans-audio-cpp-jusqu-a-5-le-temps-reel-sur-rtx-5090-42538c",
+  "titre": "Drama3 arrive dans audio.cpp : jusqu'à 5× le temps réel sur RTX 5090",
+  "resume": "Drama3 est désormais pris en charge dans audio.cpp, via une contribution de JarodMica. Sur une RTX 5090 en quantification Q4_k, le modèle atteint jusqu'à 5× la vitesse temps réel, ou 2× en consommant moins de 8 Go de VRAM. Les optimisations se sont surtout concentrées sur CUDA, mais le modèle tourne aussi sur Vulkan et Metal. Les auteurs signalent encore des marges de progression en performance et en efficacité mémoire, ainsi que des silences inattendus en génération multi-locuteurs.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x75uyi/drama3_in_audiocpp_up_to_5_faster_than_real_time/",
+  "date_source": "2026-10-16T03:38:04+00:00",
+  "date_redac": "2026-10-16T04:44:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 824,
+   "sortie": 431
+  }
+ },
+ {
   "id": "26872d351a6b4971",
   "slug": "alodlm-8b-un-modele-de-diffusion-annonce-3x-plus-rapide-que-qwen3-8b-26872d",
   "titre": "ALoDLM 8B : un modèle de diffusion annoncé ~3x plus rapide que Qwen3-8B",
@@ -59,6 +101,27 @@
    "modele": "deepseek-flash",
    "entree": 621,
    "sortie": 1325
+  }
+ },
+ {
+  "id": "521700c70180b6b0",
+  "slug": "datainventor-ajoute-un-mode-visualize-a-son-generateur-de-datasets-ope-521700",
+  "titre": "DataInventor ajoute un mode Visualize à son générateur de datasets open source",
+  "resume": "DataInventor, un générateur de jeux de données open source hébergé sur Hugging Face Spaces, se dote désormais d'un mode Visualize. L'annonce a été relayée sur le forum r/LocalLLaMA. L'outil sert à produire des datasets, une brique de base pour qui entraîne ou affine des modèles.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x74esr/datainventor_opensource_dataset_generator_on_hf/",
+  "date_source": "2026-10-16T02:21:35+00:00",
+  "date_redac": "2026-10-16T04:44:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 622,
+   "sortie": 844
   }
  },
  {

@@ -1,22 +1,18 @@
 {
- "runs": 176,
- "items_collectes": 1685,
- "breves_publiees": 653,
- "articles_publies": 90,
- "tokens_entree": 614493,
- "tokens_sortie": 876722,
+ "runs": 177,
+ "items_collectes": 1689,
+ "breves_publiees": 656,
+ "articles_publies": 91,
+ "tokens_entree": 617984,
+ "tokens_sortie": 884567,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-16T03:43:08+00:00",
+ "dernier_run": "2026-10-16T04:45:35+00:00",
  "solde": {
-  "total": "86.01",
+  "total": "86.00",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-15T22:02:08+00:00",
-   "message": "brève impossible (The tech backlash is now in theaters) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-16T00:15:59+00:00",
    "message": "archivage wayback : The read operation timed out"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-16T03:43:08+00:00",
    "message": "article impossible : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-16T04:44:47+00:00",
+   "message": "brève impossible (BlenderWorld Benchmark from Alibaba) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.65,
+ "depense_usd": 5.66,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -724,10 +724,14 @@
   [
    "2026-10-16T03:42:32+00:00",
    "86.01"
+  ],
+  [
+   "2026-10-16T04:44:33+00:00",
+   "86.00"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 3.36,
+ "depense_mois_usd": 3.37,
  "archive_tentatives": {
   "jour": "2026-10-16",
   "n": 3

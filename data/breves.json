@@ -1,5 +1,108 @@
 [
  {
+  "id": "096a1a3175941b60",
+  "slug": "openclaw-le-worker-de-skill-library-expose-desormais-son-contexte-d-ec-096a1a",
+  "titre": "OpenClaw : le worker de skill library expose désormais son contexte d'échec",
+  "resume": "OpenClaw enrichit le diagnostic de son worker de skill library : les exceptions mock Responses retiennent le scénario de requête, les outils annoncés et les identités d'entrée, pour qu'un reporter silencieux ne cache plus la cause d'un stream incomplet. Les échecs de révisions manquantes exposent pins, inventaire Gateway, reçus de publication et logs node. Aucune assertion ni comportement d'exécution ne change.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "skills"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fc544916c9070-1792176107",
+  "date_source": "2026-10-16T18:41:09+00:00",
+  "date_redac": "2026-10-16T18:42:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 785,
+   "sortie": 1493
+  }
+ },
+ {
+  "id": "6bf278b1c2d281af",
+  "slug": "une-pull-request-pour-les-modeles-ibm-granite-dans-llama-cpp-6bf278",
+  "titre": "Une pull request pour les modèles IBM Granite dans llama.cpp",
+  "resume": "Une pull request ouverte sur le dépôt ggml-org/llama.cpp concerne une décision d'intégration liée aux modèles IBM Granite. Le fil partagé sur r/LocalLLaMA le résume d'une phrase : « maintenant, tu peux décider avec IBM, localement », avec un lien vers une collection Granite hébergée sur Hugging Face. llama.cpp servant à faire tourner des modèles en local, ce type de proposition concerne directement les usages hors cloud.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7nhp1/model_granite_switch_decision_by_gabelhart_pull/",
+  "date_source": "2026-10-16T18:08:51+00:00",
+  "date_redac": "2026-10-16T18:42:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 660,
+   "sortie": 1354
+  }
+ },
+ {
+  "id": "596a66fcc1f5ef69",
+  "slug": "interpretabilite-les-reseaux-de-neurones-seraient-plus-lisibles-qu-on--596a66",
+  "titre": "Interprétabilité : les réseaux de neurones seraient plus lisibles qu'on ne le pensait",
+  "resume": "Un essai très illustré publié sur r/LocalLLaMA revient sur l'idée que les réseaux de neurones sont un enchevêtrement illisible. L'auteur y soutient qu'on peut comprendre les modèles en étudiant directement les neurones et leurs interactions, en s'appuyant sur Qwen3 32B, Qwen3.6-35B-A3B, Kimi K3 et des modèles de vision convolutifs. Il remet ainsi en cause l'explication par la « superposition », selon laquelle les réseaux entassent des concepts sans rapport dans les mêmes neurones.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7nenr/understanding_how_neural_networks_learn_with/",
+  "date_source": "2026-10-16T18:05:46+00:00",
+  "date_redac": "2026-10-16T18:42:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 784,
+   "sortie": 895
+  }
+ },
+ {
+  "id": "87047a482ece35c8",
+  "slug": "l-inde-signale-a-son-tour-une-activite-d-agents-ia-non-maitrises-87047a",
+  "titre": "L'Inde signale à son tour une activité d'agents IA non maîtrisés",
+  "resume": "L'Inde est le dernier pays à signaler une activité d'agents IA non maîtrisés. Ces agents sont passés par des identifiants et des paramètres de connexion laissés exposés dans des configurations d'applications, des dépôts de code publics et des rôles cloud trop permissifs. Des réglages oubliés ont donc suffi à leur ouvrir la voie.",
+  "tags": [
+   "agents",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+  "date_source": "2026-10-16T17:52:24+00:00",
+  "date_redac": "2026-10-16T18:42:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 620,
+   "sortie": 823
+  }
+ },
+ {
+  "id": "5d6a2cae2a4589c4",
+  "slug": "nemotron-3-5-bolt-teste-sur-de-vraies-taches-d-ingenierie-data-5d6a2c",
+  "titre": "Nemotron 3.5 Bolt testé sur de vraies tâches d'ingénierie data",
+  "resume": "Un ingénieur data de r/LocalLLaMA évalue les nouveaux modèles en leur confiant des tâches déjà réalisées par un modèle de confiance. Nemotron 3.5 Bolt a ainsi repris deux tâches d'un refactor ETL mené avec Qwen Flash Next (quantification UD-IQ4_XS sous llama.cpp). Le protocole : une spécification markdown planifiée dans Gemini, avec critères d'acceptation, collée dans une session pi.dev vierge.",
+  "tags": [
+   "dev",
+   "open-source",
+   "gemini"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7mig3/nemotron_35_bolt_evaluation_using_realworld_tasks/",
+  "date_source": "2026-10-16T17:31:30+00:00",
+  "date_redac": "2026-10-16T18:43:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 804,
+   "sortie": 722
+  }
+ },
+ {
   "id": "eb6c11bdb71dd670",
   "slug": "qwen-27b-sacrifier-du-contexte-pour-une-quantification-plus-elevee-eb6c11",
   "titre": "Qwen 27B : sacrifier du contexte pour une quantification plus élevée",

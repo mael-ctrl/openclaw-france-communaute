@@ -1,22 +1,18 @@
 {
- "runs": 192,
- "items_collectes": 1751,
- "breves_publiees": 711,
- "articles_publies": 102,
- "tokens_entree": 673245,
- "tokens_sortie": 972608,
+ "runs": 193,
+ "items_collectes": 1757,
+ "breves_publiees": 716,
+ "articles_publies": 103,
+ "tokens_entree": 678430,
+ "tokens_sortie": 981470,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-16T17:41:18+00:00",
+ "dernier_run": "2026-10-16T18:43:29+00:00",
  "solde": {
   "total": "85.88",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-16T09:03:50+00:00",
-   "message": "brève impossible (New paper from Stanford, Together AI, UIUC, and Meta introdu) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-16T10:58:34+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 16 column 6 (char 3546)"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-16T16:35:52+00:00",
    "message": "brève impossible (The challenge where LLMs try to beat a 2D platformer game is) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-16T18:43:06+00:00",
+   "message": "brève impossible (Tyger: open-weights streaming ASR + full-duplex turn-control) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -787,6 +787,10 @@
   ],
   [
    "2026-10-16T17:40:17+00:00",
+   "85.88"
+  ],
+  [
+   "2026-10-16T18:42:22+00:00",
    "85.88"
   ]
  ],

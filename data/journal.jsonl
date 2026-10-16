@@ -2000,3 +2000,9 @@
 {"ts": "2026-10-16T17:50:40+00:00", "evenement": "deploiement", "details": {"fichiers": 669, "octets": 13514252}, "sha256": "b3828023014bc918bada38d5dc0812eb381004176f72a69f2b4a68130037031f"}
 {"ts": "2026-10-16T17:50:40+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "554abf46f4de47250b31c02899426a2e09183f91ecb93251c69ed277f62dc2f9"}
 {"ts": "2026-10-16T17:50:40+00:00", "evenement": "bilan", "details": {"duree_s": 649.2, "neufs": 6, "breves": 6, "articles": 1, "fichiers": 642, "envois": 669, "publications": 0}, "sha256": "d242964a1a1b60df1a6084aa44e2bb09781205a8fd555051743721b3db4fec5f"}
+{"ts": "2026-10-16T18:42:22+00:00", "evenement": "collecte", "details": {"neufs": 6}, "sha256": "dd74335478519d12490ed8bec6d5b92766906b0de2289475f2ce39f3dae1dad0"}
+{"ts": "2026-10-16T18:43:06+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Tyger: open-weights streaming ASR + full-duplex turn-control) : réponse non-JSON"}, "sha256": "2cb4efac398356430893e06c2b32e0ee760236fd137e4761a2bee043c2e71fd9"}
+{"ts": "2026-10-16T18:43:36+00:00", "evenement": "construction", "details": {"fichiers": 643}, "sha256": "6a4079c580a7612c2bd11aa630e136109c07c06d081e0c1fc577a95c390a0bea"}
+{"ts": "2026-10-16T18:59:15+00:00", "evenement": "deploiement", "details": {"fichiers": 669, "octets": 13499649}, "sha256": "f454e913f8850f4fdb9e944f791ee3d2e0a7e844f13f77068a32b73444b6d02b"}
+{"ts": "2026-10-16T18:59:15+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "417f47b3bf65cd7ba8d37616d62d84c1821b9b12a3cc0eec312adc34251d7635"}
+{"ts": "2026-10-16T18:59:15+00:00", "evenement": "bilan", "details": {"duree_s": 1041.9, "neufs": 6, "breves": 5, "articles": 1, "fichiers": 643, "envois": 669, "publications": 0}, "sha256": "6610a1f6dc17ea302213724eea10da0a90dcbbc4033dc774da9268dfcfc853f3"}

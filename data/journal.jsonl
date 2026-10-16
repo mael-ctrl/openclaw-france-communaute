@@ -1929,3 +1929,10 @@
 {"ts": "2026-10-16T08:02:31+00:00", "evenement": "deploiement", "details": {"fichiers": 652, "octets": 11588096}, "sha256": "0a48ef16853046d082c09b47de52e48200c2e14bc375a651ba9569c7c072af9e"}
 {"ts": "2026-10-16T08:02:31+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "3a9769bce739003a25ab2e5b9a267134974d93eb1fe9d9abd0d2c89c2128216b"}
 {"ts": "2026-10-16T08:02:31+00:00", "evenement": "bilan", "details": {"duree_s": 729.4, "neufs": 3, "breves": 3, "articles": 1, "fichiers": 633, "envois": 652, "publications": 0}, "sha256": "46c8098c2ceaebc387d22e06272b204704690cc14a2a082cc64ce6ed5fb34def"}
+{"ts": "2026-10-16T09:03:08+00:00", "evenement": "collecte", "details": {"neufs": 6}, "sha256": "ebc89caf8107383775a88cdfc4cc3ec7ca93dcc53a117dea0b9c5de3ff87e69e"}
+{"ts": "2026-10-16T09:03:28+00:00", "evenement": "erreur", "details": {"message": "brève impossible (model : MTP support for Mellum2.1 by Xarbirus · Pull Request) : réponse non-JSON"}, "sha256": "1c200d357c6a6d0bda5337874e72815efae4032682ced68486dd9471263ab5d2"}
+{"ts": "2026-10-16T09:03:50+00:00", "evenement": "erreur", "details": {"message": "brève impossible (New paper from Stanford, Together AI, UIUC, and Meta introdu) : réponse non-JSON"}, "sha256": "868e4279e74cb1d238d8ea8993a4cc68ef010f15543edbc8a5e5804e8671eca9"}
+{"ts": "2026-10-16T09:04:26+00:00", "evenement": "construction", "details": {"fichiers": 634}, "sha256": "49f64d1d5428dc48a2cf9074044eef577503ddbc379d67864764f9a867cc6b7d"}
+{"ts": "2026-10-16T09:23:09+00:00", "evenement": "deploiement", "details": {"fichiers": 1266, "octets": 40853208}, "sha256": "e5562a0a41dc99faa73d45e2edb04a20dc30ddd7e4ce0d65d4c726f79805953e"}
+{"ts": "2026-10-16T09:23:09+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "965623c416225c8879d4af8e93a678c9bde5b14ebf3d0a4912e9a909e93d2f58"}
+{"ts": "2026-10-16T09:23:09+00:00", "evenement": "bilan", "details": {"duree_s": 1211.6, "neufs": 6, "breves": 4, "articles": 1, "fichiers": 634, "envois": 1266, "publications": 0}, "sha256": "43b86c693cd2c10f24033a3016a8fc90970ab3a236f25a9f9f93b8cb2e11ab1a"}

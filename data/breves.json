@@ -1,5 +1,89 @@
 [
  {
+  "id": "db4bd911bde98e98",
+  "slug": "le-cern-et-mistral-ai-s-associent-pour-un-grand-modele-de-physique-db4bd9",
+  "titre": "Le CERN et Mistral AI s'associent pour un grand modèle de physique",
+  "resume": "Le CERN et Mistral AI ont signé jeudi 15 octobre 2026 une déclaration d'intention pour créer un « grand modèle de physique ». Le modèle serait entraîné sur des milliards de collisions simulées au LHC. Aucun budget ni calendrier n'a été communiqué.",
+  "tags": [
+   "mistral",
+   "recherche",
+   "france"
+  ],
+  "importance": 4,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/sciences/2354527-des-milliards-de-simulations-de-collision-mistral-sassocie-au-cern-pour-creer-un-modele-dia-de-pointe-pour-la-physique-des-particules.html",
+  "date_source": "2026-10-16T08:34:01+00:00",
+  "date_redac": "2026-10-16T09:03:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 704,
+   "sortie": 420
+  }
+ },
+ {
+  "id": "3aee2eafb07b6547",
+  "slug": "anthropic-reduit-de-90-a-99-les-donnees-captees-par-les-distillateurs--3aee2e",
+  "titre": "Anthropic réduit de 90 à 99 % les données captées par les distillateurs de Claude",
+  "resume": "Anthropic affirme avoir réduit de 90 à 99 % les données que les distillateurs parviennent à capter depuis Claude, huit mois après une première alerte sur le sujet. L'entreprise reconnaît toutefois que ces défenses imposent des changements aux développeurs, puisque les requêtes bloquées sont désormais facturées. La lutte contre la distillation se répercute donc directement sur les usages et la facturation des clients.",
+  "tags": [
+   "claude",
+   "sécurité",
+   "business",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/anthropic-verrouille-claude-contre-la-distillation-ses-clients-paient-une-part/",
+  "date_source": "2026-10-16T08:14:25+00:00",
+  "date_redac": "2026-10-16T09:03:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 469
+  }
+ },
+ {
+  "id": "63e291d73a7b4e7d",
+  "slug": "vente-des-renouvelables-d-edf-a-kkr-un-cas-test-pour-la-ferc-63e291",
+  "titre": "Vente des renouvelables d'EDF à KKR : un cas test pour la FERC",
+  "resume": "Le moniteur indépendant du marché PJM demande à la FERC de conditionner le rachat des renouvelables nord-américaines d'EDF par KKR au maintien de 938 MW sur le marché. En juillet, la Commission avait refusé la même condition dans un autre dossier. Ce dossier fait donc figure de test pour la doctrine de la FERC sur les cessions d'actifs électriques.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/vente-des-renouvelables-nord-americaines-dedf-a-kkr-un-cas-test-pour-la-ferc/",
+  "date_source": "2026-10-16T08:12:23+00:00",
+  "date_redac": "2026-10-16T09:03:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 708,
+   "sortie": 382
+  }
+ },
+ {
+  "id": "320eeaf1ac5a864e",
+  "slug": "llama-cpp-une-pull-request-accelere-l-inference-cpu-via-avx2-320eea",
+  "titre": "llama.cpp : une pull request accélère l'inférence CPU via AVX2",
+  "resume": "Sur r/LocalLLaMA, une pull request signée trivalik (n° 30296) dans le dépôt ggml-org/llama.cpp propose de réduire ensemble les accumulateurs tuilés AVX2. Objectif affiché : davantage de tokens par seconde sur CPU, pour celles et ceux qui font tourner des modèles sans GPU — les « GPU poor », selon les mots du billet.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7a59i/cpu_reduce_avx2_tiled_accumulators_together_by/",
+  "date_source": "2026-10-16T07:52:47+00:00",
+  "date_redac": "2026-10-16T09:03:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 646,
+   "sortie": 752
+  }
+ },
+ {
   "id": "678c577a3e590d59",
   "slug": "l-aspirateur-robot-xiaomi-gagne-des-jambes-une-camera-et-frole-les-1-0-678c57",
   "titre": "L'aspirateur robot Xiaomi gagne des jambes, une caméra et frôle les 1 000 €",

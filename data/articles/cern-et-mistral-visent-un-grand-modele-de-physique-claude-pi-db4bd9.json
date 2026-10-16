@@ -1,0 +1,41 @@
+{
+ "slug": "cern-et-mistral-visent-un-grand-modele-de-physique-claude-pi-db4bd9",
+ "titre": "CERN et Mistral visent un grand modèle de physique, Claude pirate en 28 minutes",
+ "chapo": "Le CERN et Mistral AI ont signé une déclaration d'intention pour un « grand modèle de physique », entraîné sur des milliards de collisions simulées au LHC. En parallèle, les poids de FLUX.3 Image Klein sont publiés sur Hugging Face, et Claude reproduit en 28 minutes la cyberattaque des frigos de supermarchés français.",
+ "html": "<h2 id=\"un-grand-modele-de-physique-sans-budget-\">Un grand modèle de physique, sans budget ni calendrier</h2>\n<p>Le CERN et Mistral AI ont signé <strong>jeudi 15 octobre 2026</strong> une déclaration d'intention. L'objectif affiché : un « grand modèle de physique ». Le principe est simple à énoncer, beaucoup moins à tenir — le modèle serait entraîné sur des <strong>milliards de collisions simulées au LHC</strong>.</p>\n<p>Rien d'autre n'a filtré. Ni budget, ni calendrier. Une déclaration d'intention n'engage pas à grand-chose, et c'est exactement ce que rapporte Numerama : l'accord existe, la suite reste à écrire.</p>\n<p>Ce qui est notable, c'est le sens du mouvement. Un organisme comme le CERN ne cherche pas un chatbot de vulgarisation, mais un outil taillé pour un domaine où les données sont massives, coûteuses à produire et difficiles à simuler. Mistral y trouve un terrain d'entraînement que peu d'acteurs peuvent proposer.</p>\n<h2 id=\"flux-3-image-klein-les-poids-sortent-sur\">FLUX.3 Image Klein : les poids sortent sur Hugging Face</h2>\n<p>Sur le subreddit <strong>r/LocalLLaMA</strong>, un utilisateur signale la publication des poids de <strong>FLUX.3 Image Klein</strong> sur Hugging Face. Les fichiers sont hébergés sous le compte <strong>black-forest-labs</strong>.</p>\n<p>Concrètement, le modèle de génération d'images devient accessible publiquement via la plateforme. Pas d'annonce tonitruante, pas de communiqué : c'est la communauté qui repère le dépôt.</p>\n<p>Pour ceux qui font tourner des modèles en local, l'information compte. Des poids publiés, c'est la possibilité de télécharger, d'inspecter, d'adapter — sans dépendre d'une API ni d'une autorisation. La dépêche ne dit rien des licences, des performances ni des conditions d'usage ; elle constate une mise à disposition.</p>\n<h2 id=\"28-minutes-pour-refaire-tomber-les-frigo\">28 minutes pour refaire tomber les frigos</h2>\n<p><strong>01net</strong> rapporte que <strong>Claude</strong> a reproduit en <strong>28 minutes</strong> la cyberattaque qui a fait surchauffer les frigos de centaines de supermarchés français.</p>\n<p>Le point saillant n'est pas la performance du modèle. Il est dans la conclusion de l'expérimentation : l'offensive restait à la portée de <strong>n'importe quel cybercriminel, même sans compétences techniques</strong>. Ce qui demandait autrefois un savoir-faire se réduit à une requête.</p>\n<p>Le sujet dépasse le cas des frigos. Il dit à quelle vitesse un modèle peut abaisser la barrière technique d'une attaque visant des équipements du quotidien — ceux qu'on ne surveille pas, qu'on ne met pas à jour, et qui pilotent des chaînes du froid.</p>\n<h2 id=\"msl-laboratoire-de-pointe-aux-yeux-de-la\">MSL, laboratoire de pointe aux yeux de Latent Space</h2>\n<p><strong>Latent Space</strong> consacre une dépêche à <strong>Meta Muse Wonder</strong> et <strong>Wonder Full</strong>, les modèles de <strong>MSL</strong>. Selon le média, l'émergence de MSL comme laboratoire de pointe est désormais <strong>actée</strong> : le débat ne porte plus sur sa légitimité, mais sur sa place.</p>\n<p>Le modèle frontalier de MSL y est présenté comme <strong>comparable à la génération Claude 5.5</strong>. Une comparaison, pas une mesure : la dépêche ne s'appuie pas sur des benchmarks publics et ne fournit aucun classement chiffré.</p>\n<p>Reste le signal. La liste des laboratoires capables de sortir un modèle frontalier s'allonge, et les écarts entre eux se discutent en fractions de génération plutôt qu'en années.</p>\n<h2>Et maintenant ?</h2>\n<p>Le 16 octobre 2026, <strong>Maddyness</strong> titrait que la présidentielle de 2027 se jouerait « sous haute intelligence artificielle ». Un titre, pas une analyse — mais un titre qui situe la conversation. À côté, un grand modèle de physique se négocie entre un laboratoire européen et un acteur privé, sans budget ni calendrier publiés ; des poids d'image partent en public sur Hugging Face ; un assistant reproduit en moins d'une demi-heure une attaque visant des équipements du quotidien. Quatre dépêches, quatre terrains : recherche, open source, sécurité, politique.</p>",
+ "pivot": "db4bd911bde98e98",
+ "tags": [
+  "mistral",
+  "recherche",
+  "open-source",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/sciences/2354527-des-milliards-de-simulations-de-collision-mistral-sassocie-au-cern-pour-creer-un-modele-dia-de-pointe-pour-la-physique-des-particules.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6t5fc/flux3_image_klein_just_got_weights_published_on/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/frigos-de-supermarches-pirates-claude-a-reproduit-la-cyberattaque-en-28-minutes.html"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+  },
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/10/16/la-presidentielle-2027-se-jouera-sous-haute-intelligence-artificielle/"
+  }
+ ],
+ "date": "2026-10-16T09:04:19+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1435,
+  "sortie": 4220
+ }
+}

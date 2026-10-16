@@ -1,0 +1,41 @@
+{
+ "slug": "gemini-4-argon-l-api-ouvre-au-monde-le-tarif-double-au-1er-d-1a1625",
+ "titre": "Gemini 4 Argon : l'API ouvre au monde, le tarif double au 1er décembre",
+ "chapo": "Google a ouvert Gemini 4 Argon aux développeurs et aux entreprises du 13 octobre 2026, à 2 dollars le million de tokens en entrée et 10 dollars en sortie. Le 1er décembre, ces tarifs doublent : les équipes qui bâtissent sur l'API doivent recalculer leur coût d'usage.",
+ "html": "<h2 id=\"ouvrir-en-octobre-doubler-en-decembre\">Ouvrir en octobre, doubler en décembre</h2>\n<p>Google a ouvert Gemini 4 Argon aux développeurs et aux entreprises du monde entier le <strong>13 octobre 2026</strong>. Le tarif affiché au lancement était de <strong>2 dollars par million de tokens en entrée</strong> et de <strong>10 dollars en sortie</strong>. Ces prix doubleront le <strong>1er décembre</strong>, ce qui pèse directement sur le coût d'usage du modèle pour les équipes qui bâtissent dessus.</p>\n<p>L'Usine Digitale précise le cadre : le modèle, dévoilé au début du mois, est accessible depuis le 13 octobre dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme. Deux canaux de distribution, donc, pour un même modèle.</p>\n<p>Autrement dit, la grille annoncée à l'ouverture n'aura tenu que quelques semaines. Les équipes qui ont dimensionné leur budget sur les prix de lancement doivent désormais le revoir à l'aune du mois de décembre.</p>\n<h2 id=\"des-agents-qui-consomment-des-tokens\">Des agents qui consomment des tokens</h2>\n<p>Google veut faire de Gemini 4 Argon un <strong>outil de travail pour les tâches complexes</strong>. Le modèle doit aussi servir de <strong>moteur à ses agents IA</strong> — un usage qui déplace la question du coût, puisque des appels enchaînés en continu font varier la facture avec les volumes.</p>\n<p>Le doublement du 1er décembre tombe donc entre l'ouverture mondiale du 13 octobre et la généralisation des usages. Rien, dans les dépêches disponibles, ne dit si Google justifie cette hausse par les coûts d'inférence, par la demande ou par un choix commercial.</p>\n<p>Ce qui est établi, c'est le mouvement de la grille : les prix doublent, en entrée comme en sortie.</p>\n<h2 id=\"poids-ouverts-et-puce-locale\">Poids ouverts et puce locale</h2>\n<p>En parallèle du cloud, l'écosystème ouvert avance. Un utilisateur du subreddit <strong>r/LocalLLaMA</strong> signale la publication des poids de <strong>FLUX.3 Image Klein</strong> sur Hugging Face, sous le compte black-forest-labs. Le modèle de génération d'images devient ainsi accessible publiquement via la plateforme.</p>\n<p>Côté matériel, Nvidia signe avec le <strong>RTX Spark</strong> sa première puce complète destinée aux PC portables Windows. Elle réunit un GPU Blackwell, un processeur Arm et jusqu'à <strong>128 Go de mémoire unifiée</strong> dans un seul boîtier. Le test mené dans un Asus ProArt P16 couvre le jeu, l'IA locale et l'autonomie, avec pour comparatifs un portable gamer en RTX 5070, un Mac Apple Silicon et un PC Ryzen AI Max+ 395.</p>\n<p>Deux mouvements distincts, mais une même direction : des modèles et du calcul qui ne dépendent pas uniquement d'une API distante.</p>\n<h2 id=\"microsoft-et-ses-1-400-failles\">Microsoft et ses 1 400 failles</h2>\n<p>Microsoft a publié un <strong>Patch Tuesday hors norme</strong>, avec plus de <strong>1 400 failles corrigées</strong> dans le code de Windows. C'est la troisième fois cette année que l'éditeur bat son propre record.</p>\n<p>L'entreprise indique s'être massivement servie de l'intelligence artificielle pour débusquer les bugs. Le volume donne la mesure du chantier : à cette échelle, la correction de failles n'a plus grand-chose d'artisanal.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois signaux, trois échelles. Le doublement du tarif de l'API Gemini 4 Argon rappelle que l'accès au cloud a un coût, révisable, dont dépendent les budgets des équipes. La publication des poids de FLUX.3 Image Klein et l'arrivée du RTX Spark tracent un autre chemin, avec des modèles et du calcul plus proches de la machine. Les 1 400 failles corrigées par Microsoft montrent enfin une IA déjà installée dans les chaînes de production logicielles, côté défense. Ces mouvements ne tranchent pas la question du coût : ils la déplacent.</p>",
+ "pivot": "1a16257b374c640e",
+ "tags": [
+  "gemini",
+  "open-source",
+  "matériel",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/lapi-gemini-4-argon-doublera-ses-tarifs-le-1er-decembre/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6t5fc/flux3_image_klein_just_got_weights_published_on/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/test/3283093_test-nvidia-rtx-spark"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/plus-de-1-400-failles-windows-le-nouveau-record-monstrueux-du-patch-tuesday-de-microsoft.html"
+  }
+ ],
+ "date": "2026-10-16T05:41:23+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1528,
+  "sortie": 4368
+ }
+}

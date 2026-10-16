@@ -1,22 +1,18 @@
 {
- "runs": 175,
- "items_collectes": 1684,
- "breves_publiees": 652,
+ "runs": 176,
+ "items_collectes": 1685,
+ "breves_publiees": 653,
  "articles_publies": 90,
- "tokens_entree": 613847,
- "tokens_sortie": 876133,
+ "tokens_entree": 614493,
+ "tokens_sortie": 876722,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-16T02:40:49+00:00",
+ "dernier_run": "2026-10-16T03:43:08+00:00",
  "solde": {
-  "total": "86.02",
+  "total": "86.01",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-15T19:58:28+00:00",
-   "message": "brève impossible (QUASAR 4-bit QAT checkpoints for Qwen3.5, Gemma 4 and Muse G) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-15T22:02:08+00:00",
    "message": "brève impossible (The tech backlash is now in theaters) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-16T01:39:46+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 20 column 6 (char 3810)"
+  },
+  {
+   "ts": "2026-10-16T03:43:08+00:00",
+   "message": "article impossible : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.64,
+ "depense_usd": 5.65,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -720,10 +720,14 @@
   [
    "2026-10-16T02:40:33+00:00",
    "86.02"
+  ],
+  [
+   "2026-10-16T03:42:32+00:00",
+   "86.01"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 3.35,
+ "depense_mois_usd": 3.36,
  "archive_tentatives": {
   "jour": "2026-10-16",
   "n": 3

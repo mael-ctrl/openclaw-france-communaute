@@ -1,5 +1,25 @@
 [
  {
+  "id": "26872d351a6b4971",
+  "slug": "alodlm-8b-un-modele-de-diffusion-annonce-3x-plus-rapide-que-qwen3-8b-26872d",
+  "titre": "ALoDLM 8B : un modèle de diffusion annoncé ~3x plus rapide que Qwen3-8B",
+  "resume": "Sur le subreddit LocalLLaMA, un utilisateur présente ALoDLM 8B, un modèle de langage à diffusion en boucle. Il annonce une vitesse d'inférence environ trois fois supérieure à celle de son modèle de base, Qwen3-8B, accompagnée de meilleurs résultats aux benchmarks. L'auteur résume sa position d'une phrase : les modèles de langage à diffusion sont l'avenir.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x75bme/alodlm_8b_looped_diffusion_language_model_3x/",
+  "date_source": "2026-10-16T03:09:36+00:00",
+  "date_redac": "2026-10-16T03:42:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 646,
+   "sortie": 589
+  }
+ },
+ {
   "id": "cec3f5f15ba31f3a",
   "slug": "pre-entrainement-indic-2-800-milliards-de-tokens-et-un-pipeline-de-don-cec3f5",
   "titre": "Pré-entraînement indic : 2 800 milliards de tokens et un pipeline de données ouvert",

@@ -1,0 +1,41 @@
+{
+ "slug": "mistral-enchaine-nvidia-frappe-gemini-4-argon-debarque-la-se-018c44",
+ "titre": "Mistral enchaîne, Nvidia frappe, Gemini 4 Argon débarque : la semaine IA",
+ "chapo": "Mistral boucle une quatrième acquisition en huit mois et signe avec le CERN un projet de grand modèle de physique. Pendant ce temps, Nvidia lance sa première puce complète pour portables, Google déploie Gemini 4 Argon dans le monde, et Claude reproduit en 28 minutes une cyberattaque visant des frigos de supermarchés.",
+ "html": "<h2 id=\"mistral-quatrieme-rachat-et-un-partenari\">Mistral : quatrième rachat, et un partenariat avec le CERN</h2>\n<p><strong>Mistral AI</strong> a bouclé sa quatrième acquisition en huit mois, rapporte Maddyness dans une publication datée du 16 octobre 2026. Le média économique français ne précise ni l'identité de l'entreprise rachetée, ni le montant de l'opération, ni la nature exacte de la technologie visée. Le rythme, lui, est un fait : quatre rachats en huit mois.</p>\n<p>Le 15 octobre 2026, la veille, Mistral AI avait signé avec le <strong>CERN</strong> une déclaration d'intention portant sur la création d'un « grand modèle de physique ». D'après Numerama, ce modèle serait entraîné sur des milliards de collisions simulées au <strong>LHC</strong>. Aucun budget, aucun calendrier n'a été communiqué.</p>\n<p>Les deux dépêches ne disent pas si ces mouvements participent d'une même stratégie. Elles décrivent en revanche deux façons de grandir pour un acteur européen : racheter des briques existantes, et s'associer à une infrastructure scientifique de premier plan.</p>\n<h2 id=\"rtx-spark-nvidia-met-l-ia-locale-dans-un\">RTX Spark : Nvidia met l'IA locale dans un seul boîtier</h2>\n<p>Nvidia a présenté le <strong>RTX Spark</strong>, sa première puce complète destinée aux PC portables sous Windows. Selon Frandroid, elle réunit dans un seul boîtier un GPU <strong>Blackwell</strong>, un processeur <strong>Arm</strong> et jusqu'à <strong>128 Go de mémoire unifiée</strong>.</p>\n<p>Le test a été mené dans un <strong>Asus ProArt P16</strong>, sur trois terrains : le jeu, l'IA locale et l'autonomie. La comparaison inclut un portable gamer équipé d'une <strong>RTX 5070</strong>, un Mac Apple Silicon et un PC <strong>Ryzen AI Max+ 395</strong>. Le format — un seul boîtier, mémoire partagée — correspond précisément à ce que réclame l'exécution de modèles en local, là où les cartes graphiques dédiées restent contraintes par leur VRAM.</p>\n<h2 id=\"claude-et-les-frigos-28-minutes-pour-rep\">Claude et les frigos : 28 minutes pour reproduire l'attaque</h2>\n<p>Selon 01net, <strong>Claude</strong> a reproduit en <strong>28 minutes</strong> la cyberattaque qui avait fait surchauffer les frigos de centaines de supermarchés français. Le point notable n'est pas la prouesse technique : c'est le constat que l'offensive restait à la portée de n'importe quel cybercriminel, même sans compétences techniques.</p>\n<p>Le schéma est connu — des équipements connectés, peu ou pas surveillés, qui deviennent des points d'entrée. Ce qui change, c'est le temps nécessaire pour transformer une intention en attaque fonctionnelle. Vingt-huit minutes suffisent désormais à abaisser la barrière d'entrée sur un parc d'équipements du quotidien.</p>\n<p>La question posée porte moins sur la capacité des modèles que sur la protection des objets qu'ils peuvent viser. Un frigo de supermarché n'a jamais été conçu comme une cible.</p>\n<h2 id=\"gemini-4-argon-mondial-et-deux-fois-plus\">Gemini 4 Argon : mondial, et deux fois plus cher au 1er décembre</h2>\n<p>Google a déployé <strong>Gemini 4 Argon</strong> à grande échelle. Dévoilé au début du mois, le modèle est accessible depuis le <strong>13 octobre 2026</strong> dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme, rapporte L'Usine Digitale.</p>\n<p>Deux éléments à retenir. D'abord la position visée : Google veut en faire un outil de travail pour les tâches complexes et le moteur de ses <strong>agents IA</strong>. Ensuite le signal tarifaire — le prix de l'API doit <strong>doubler au 1er décembre</strong>, soit quelques semaines après la mise à disposition générale du modèle.</p>\n<p>Entre un fournisseur qui annonce une hausse de ses tarifs et un constructeur qui pousse la mémoire unifiée dans les portables, le coût réel de l'IA se déplace. Il ne se joue plus seulement sur la qualité du modèle.</p>\n<h2>Et maintenant ?</h2>\n<p>Mistral multiplie les acquisitions et signe avec le CERN, Nvidia veut équiper les portables, Google déploie Gemini 4 Argon, Claude montre qu'une attaque industrielle tient en 28 minutes. Ces dépêches ne racontent pas la même histoire, mais elles pointent dans la même direction : l'IA sort des démonstrations. Elle entre dans les infrastructures scientifiques, dans le silicium des machines personnelles, dans les tarifs des API et dans les failles des objets connectés.</p>",
+ "pivot": "018c449fcb88e798",
+ "tags": [
+  "mistral",
+  "gemini",
+  "claude",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/10/16/mistral-realise-sa-quatrieme-acquisition-en-huit-mois/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/sciences/2354527-des-milliards-de-simulations-de-collision-mistral-sassocie-au-cern-pour-creer-un-modele-dia-de-pointe-pour-la-physique-des-particules.html"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/test/3283093_test-nvidia-rtx-spark"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/frigos-de-supermarches-pirates-claude-a-reproduit-la-cyberattaque-en-28-minutes.html"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  }
+ ],
+ "date": "2026-10-16T11:15:02+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1561,
+  "sortie": 3808
+ }
+}

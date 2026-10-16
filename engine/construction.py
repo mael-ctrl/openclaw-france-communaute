@@ -10,6 +10,7 @@ import re
 import shutil
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import config
 import journal
@@ -35,6 +36,21 @@ def jolie_date(iso, avec_heure=True):
     if avec_heure:
         base += f" · {dt.hour:02d}:{dt.minute:02d}"
     return base
+
+
+def date_html(iso):
+    """Conserve l'instant machine ; affiche l'heure de Paris, été/hiver compris."""
+    if not iso:
+        return ""
+    try:
+        dt = datetime.fromisoformat(iso)
+    except (TypeError, ValueError):
+        return ech(iso)
+    if dt.tzinfo is None:
+        return ech(iso)  # Ne pas déduire un fuseau de la machine qui construit.
+    locale = dt.astimezone(ZoneInfo("Europe/Paris"))
+    return (f'<time datetime="{ech(iso)}" title="Heure de Paris (Europe/Paris)">'
+            f'{ech(jolie_date(locale.isoformat()))} (Paris)</time>')
 
 
 def _lire_json(chemin, defaut):
@@ -111,7 +127,7 @@ def jsonld_item(type_page, url_page, titre, description, date_pub, date_mod, sec
 
 def carte_breve(b, detail=False):
     lien = f"/breves/{b['slug']}/"
-    date_aff = jolie_date(b.get("date_source") or b.get("date_redac"))
+    date_aff = date_html(b.get("date_source") or b.get("date_redac"))
     if detail:
         corps = f'<p class="resume">{ech(b["resume"])}</p>'
     else:
@@ -120,7 +136,7 @@ def carte_breve(b, detail=False):
     tags_attr = ech(",".join(b.get("tags") or []))
     texte_attr = ech((b["titre"] + " " + b["resume"]).lower())
     return f"""<article class="carte breve" data-tags="{tags_attr}" data-texte="{texte_attr}">
-  <div class="carte-meta"><span class="source">{ech(b['source'])}</span><span class="point">·</span><time>{ech(date_aff)}</time></div>
+  <div class="carte-meta"><span class="source">{ech(b['source'])}</span><span class="point">·</span>{date_aff}</div>
   <h3><a href="{lien}">{ech(b['titre'])}</a></h3>
   {corps}
   <div class="carte-pied">{_tags_html(b.get('tags'))}<a class="lire" href="{lien}">Lire <span class="fleche">→</span></a></div>
@@ -132,7 +148,7 @@ def carte_article(a):
     tags_attr = ech(",".join(a.get("tags") or []))
     texte_attr = ech((a["titre"] + " " + a["chapo"]).lower())
     return f"""<article class="carte article-carte" data-tags="{tags_attr}" data-texte="{texte_attr}">
-  <div class="carte-meta"><span class="ruban">ARTICLE</span><span class="point">·</span><time>{ech(jolie_date(a.get('date')))}</time></div>
+  <div class="carte-meta"><span class="ruban">ARTICLE</span><span class="point">·</span>{date_html(a.get('date'))}</div>
   <h3><a href="{lien}">{ech(a['titre'])}</a></h3>
   <p class="resume">{ech(a['chapo'][:220])}{"…" if len(a['chapo']) > 220 else ""}</p>
   <div class="carte-pied">{_tags_html(a.get('tags'))}<a class="lire" href="{lien}">Lire <span class="fleche">→</span></a></div>
@@ -261,7 +277,7 @@ def page_accueil(breves, articles, stats, journal_entrees):
     <p class="oeil">// À LA UNE</p>
     <article class="vedette">
       <div class="vedette-texte">
-        <div class="carte-meta"><span class="ruban">ARTICLE DE FOND</span><time>{ech(jolie_date(vedette.get('date')))}</time></div>
+        <div class="carte-meta"><span class="ruban">ARTICLE DE FOND</span>{date_html(vedette.get('date'))}</div>
         <h2><a href="/articles/{vedette['slug']}/">{ech(vedette['titre'])}</a></h2>
         <p class="chapo">{ech(vedette['chapo'][:300])}</p>
         <a class="bouton" href="/articles/{vedette['slug']}/">Lire l'article</a>
@@ -464,7 +480,7 @@ def bloc_couverture(couverture):
 
 
 def page_breve(b, breves_recentes, couverture=None):
-    date_aff = jolie_date(b.get("date_source") or b.get("date_redac"))
+    date_aff = date_html(b.get("date_source") or b.get("date_redac"))
     autres = lectures_liees(b, breves_recentes[:400])
     liasses = "".join(f'<li><a href="/breves/{x["slug"]}/">{ech(x["titre"])}</a></li>' for x in autres)
     contenu = f"""
@@ -472,7 +488,7 @@ def page_breve(b, breves_recentes, couverture=None):
   <div class="enveloppe etroit">
     <p class="fil-ariane"><a href="/actus/">← Toutes les actus</a></p>
     <article class="lecture">
-      <div class="carte-meta"><span class="source">{ech(b['source'])}</span><span class="point">·</span><time>{ech(date_aff)}</time></div>
+      <div class="carte-meta"><span class="source">{ech(b['source'])}</span><span class="point">·</span>{date_aff}</div>
       <h1>{ech(b['titre'])}</h1>
       <p class="chapo">{ech(b['resume'])}</p>{bloc_couverture(couverture)}
       <div class="carte-pied">{_tags_html(b.get('tags'))}</div>
@@ -480,7 +496,7 @@ def page_breve(b, breves_recentes, couverture=None):
         <p><strong>Source :</strong> {ech(b['source'])}</p>
         <a class="bouton fantome" href="{ech(b['lien_source'])}" rel="noopener">Lire la source d'origine ↗</a>
       </div>
-      <p class="signature">🦀 Brève rédigée automatiquement le {ech(jolie_date(b.get('date_redac')))} — <a href="/transparence/">voir la méthode</a>.</p>
+      <p class="signature">🦀 Brève rédigée automatiquement le {date_html(b.get('date_redac'))} — <a href="/transparence/">voir la méthode</a>.</p>
     </article>
     {bloc_suivre()}
     <aside class="a-cote"><h2>À lire aussi</h2><ul class="liste-simple">{liasses or '<li><a href="/actus/">Le fil complet des actus →</a></li>'}</ul></aside>
@@ -504,10 +520,10 @@ def page_article(a, autres_articles, couverture=None):
   <div class="enveloppe etroit">
     <p class="fil-ariane"><a href="/articles/">← Tous les articles</a></p>
     <article class="lecture">
-      <div class="carte-meta"><span class="ruban">ARTICLE DE FOND</span><span class="point">·</span><time>{ech(jolie_date(a.get('date')))}</time></div>
+      <div class="carte-meta"><span class="ruban">ARTICLE DE FOND</span><span class="point">·</span>{date_html(a.get('date'))}</div>
       <h1>{ech(a['titre'])}</h1>
       <p class="chapo">{ech(a['chapo'])}</p>{bloc_couverture(couverture)}
-      <p class="signature signature-haut">Par <strong>Le Crabe 🦀</strong> — IA rédactrice · {ech(jolie_date(a.get('date')))}</p>
+      <p class="signature signature-haut">Par <strong>Le Crabe 🦀</strong> — IA rédactrice · {date_html(a.get('date'))}</p>
       <div class="corps-article">
 {a['html']}
       </div>

@@ -1,5 +1,133 @@
 [
  {
+  "id": "8fbd10a7014cec15",
+  "slug": "veritas-etend-sa-puce-anti-contrefacon-aux-bijoux-trophees-et-flacons--8fbd10",
+  "titre": "Veritas étend sa puce anti-contrefaçon aux bijoux, trophées et flacons de parfum",
+  "resume": "La startup Veritas développe une puce capable de vérifier l'authenticité de marchandises. Elle élargit son usage aux bijoux, aux trophées et aux flacons de parfum. La contrefaçon de produits de luxe est un problème majeur pour les maisons de mode, alors que les faussaires produisent des « superfakes » de plus en plus difficiles à distinguer des originaux. Veritas a été fondée par Luci Holland, passée par Tesla.",
+  "tags": [
+   "business",
+   "matériel",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+  "date_source": "2026-10-16T14:00:00+00:00",
+  "date_redac": "2026-10-16T14:03:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 673,
+   "sortie": 665
+  }
+ },
+ {
+  "id": "329dbf202414f684",
+  "slug": "nvidia-son-patron-predit-que-chaque-entreprise-deviendra-une-entrepris-329dbf",
+  "titre": "Nvidia : son patron prédit que chaque entreprise deviendra une entreprise d'IA",
+  "resume": "Le patron de Nvidia prédit que chaque entreprise deviendra un jour une entreprise d'IA, rapporte Maddyness. La formule est mise en avant comme titre par le média, qui la présente comme une prédiction du dirigeant. Elle interroge la place de l'IA dans les entreprises, sans que l'extrait disponible précise de calendrier ni de secteurs concernés.",
+  "tags": [
+   "business",
+   "matériel",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Maddyness",
+  "lien_source": "https://www.maddyness.com/2026/10/16/chaque-entreprise-sera-un-jour-une-entreprise-dia-la-prediction-du-patron-de-nvidia/",
+  "date_source": "2026-10-16T13:49:47+00:00",
+  "date_redac": "2026-10-16T14:03:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 695,
+   "sortie": 1329
+  }
+ },
+ {
+  "id": "12b93f687268f27d",
+  "slug": "xiaomi-place-mimo-v2-6-pro-en-tete-des-modeles-ouverts-sur-lmarena-12b93f",
+  "titre": "Xiaomi place MiMo-V2.6-Pro en tête des modèles ouverts sur LMArena",
+  "resume": "Xiaomi ne veut plus seulement faire parler de lui pour ses smartphones : le groupe chinois entend aussi compter dans la course aux grands modèles d'IA. Son modèle de dernière génération, MiMo-V2.6-Pro, s'est hissé à la première place du classement Agent Arena de LMArena parmi les modèles ouverts, selon une publication du compte officiel de la plateforme de comparaison. Il bouscule ainsi Moonshot et DeepSeek sur ce terrain.",
+  "tags": [
+   "open-source",
+   "deepseek",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/hardware/constructeurs-it/xiaomi/xiaomi-bouscule-moonshot-et-deepseek-dans-les-modeles-dia-open-source.62OAPTBEZVHTHBOWBUQ3R4RU4E.html",
+  "date_source": "2026-10-16T13:38:55+00:00",
+  "date_redac": "2026-10-16T14:03:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 741,
+   "sortie": 518
+  }
+ },
+ {
+  "id": "605446d566f1e673",
+  "slug": "pourquoi-les-modeles-sous-15b-se-font-si-rares-sur-le-marche-605446",
+  "titre": "Pourquoi les modèles sous 15B se font si rares sur le marché",
+  "resume": "Sur r/LocalLLaMA, un utilisateur constate que les laboratoires semblent s'accorder sur un seuil minimal de 24 à 27 milliards de paramètres : plus rien en dessous. Il s'interroge donc sur la date à laquelle un nouveau modèle sous 14 milliards de paramètres sortira d'un lab de pointe. La question touche directement ceux qui font tourner des modèles en local, sur leur propre matériel.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g8cc/why_do_we_have_models_under_15b_so_rarely_anymore/",
+  "date_source": "2026-10-16T13:28:12+00:00",
+  "date_redac": "2026-10-16T14:03:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 672,
+   "sortie": 411
+  }
+ },
+ {
+  "id": "9da32319129aac92",
+  "slug": "reflection-devoile-beam-un-modele-moe-ouvert-de-501b-parametres-9da323",
+  "titre": "Reflection dévoile Beam, un modèle MoE ouvert de 501B paramètres",
+  "resume": "Reflection publie Beam, un modèle ouvert texte-texte en architecture mixture-of-experts sparse : 501 milliards de paramètres au total, 23 milliards activés, pour une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en BF16, FP8 et NVFP4. Développé surtout pour l'anglais, il vise un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev",
+   "recherche"
+  ],
+  "importance": 4,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/",
+  "date_source": "2026-10-16T13:23:33+00:00",
+  "date_redac": "2026-10-16T14:04:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 813,
+   "sortie": 1310
+  }
+ },
+ {
+  "id": "3fbf3c0339977edc",
+  "slug": "la-chine-propose-de-controler-l-export-de-23-technologies-ia-l-open-so-3fbf3c",
+  "titre": "La Chine propose de contrôler l'export de 23 technologies IA, l'open source exempté",
+  "resume": "Le 16 octobre 2026, Pékin propose de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA (grands modèles, agents, clusters de calcul). Les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées. La consultation publique court jusqu'au 15 novembre ; l'enregistrement préalable à l'export s'applique déjà.",
+  "tags": [
+   "open-source",
+   "agents",
+   "business",
+   "sécurité"
+  ],
+  "importance": 4,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/",
+  "date_source": "2026-10-16T13:22:48+00:00",
+  "date_redac": "2026-10-16T14:04:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 779,
+   "sortie": 1150
+  }
+ },
+ {
   "id": "ba25e19b93f876e9",
   "slug": "le-patron-de-replit-imagine-l-entreprise-autonome-pilotee-par-des-agen-ba25e1",
   "titre": "Le patron de Replit imagine l'entreprise « autonome » pilotée par des agents IA",

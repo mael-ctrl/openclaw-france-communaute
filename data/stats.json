@@ -1,22 +1,18 @@
 {
- "runs": 187,
- "items_collectes": 1723,
- "breves_publiees": 688,
+ "runs": 188,
+ "items_collectes": 1731,
+ "breves_publiees": 694,
  "articles_publies": 99,
- "tokens_entree": 652322,
- "tokens_sortie": 940395,
+ "tokens_entree": 656695,
+ "tokens_sortie": 945778,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-16T13:01:41+00:00",
+ "dernier_run": "2026-10-16T14:04:46+00:00",
  "solde": {
   "total": "85.91",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-16T04:44:47+00:00",
-   "message": "brève impossible (BlenderWorld Benchmark from Alibaba) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-16T09:03:28+00:00",
    "message": "brève impossible (model : MTP support for Mellum2.1 by Xarbirus · Pull Request) : réponse non-JSON"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-16T12:15:07+00:00",
    "message": "article impossible : Expecting ',' delimiter: line 8 column 6 (char 1405)"
+  },
+  {
+   "ts": "2026-10-16T14:04:46+00:00",
+   "message": "article impossible : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -767,6 +767,10 @@
   ],
   [
    "2026-10-16T13:01:07+00:00",
+   "85.91"
+  ],
+  [
+   "2026-10-16T14:03:21+00:00",
    "85.91"
   ]
  ],

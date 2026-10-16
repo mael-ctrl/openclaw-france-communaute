@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .venv/
+.cache-couvertures/
 
 # Archives générées au déploiement (ne pas versionner)
 sites/openclaw-france/dl/*.zip

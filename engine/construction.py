@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Construction du site statique — tout en HTML/CSS maison, zéro dépendance.
+"""Construction du site statique — HTML/CSS maison, Pillow pour les couvertures.
 
 Produit _site/ : accueil, actus, articles, pages individuelles, flux RSS,
 sitemap, robots.txt. Les assets (style.css, app.js) sont copiés tels quels.
@@ -13,6 +13,7 @@ from pathlib import Path
 
 import config
 import journal
+import couvertures
 
 
 # ---------------------------------------------------------------- utilitaires
@@ -78,7 +79,7 @@ def jsonld_site():
     return bloc_jsonld({"@context": "https://schema.org", "@graph": [org, site]})
 
 
-def jsonld_item(type_page, url_page, titre, description, date_pub, date_mod, section, tags, sources=None):
+def jsonld_item(type_page, url_page, titre, description, date_pub, date_mod, section, tags, sources=None, couverture=None):
     """NewsArticle pour une brève ou un article — jamais de date de build."""
     u = config.URL_SITE
     donnees = {
@@ -101,6 +102,10 @@ def jsonld_item(type_page, url_page, titre, description, date_pub, date_mod, sec
                  for s in (sources or []) if s.get("url")]
     if citations:
         donnees["citation"] = citations
+    if couverture:
+        donnees["image"] = {"@type": "ImageObject", "url": config.URL_SITE + couverture["path"],
+                            "width": couverture["width"], "height": couverture["height"],
+                            "caption": couverture["caption"]}
     return bloc_jsonld(donnees)
 
 
@@ -136,9 +141,11 @@ def carte_article(a):
 
 # ---------------------------------------------------------------- gabarit
 
-def page(titre, description, contenu, chemin_canonique, section="", extra_head="", robots="index,follow,max-image-preview:large", type_og="website"):
+def page(titre, description, contenu, chemin_canonique, section="", extra_head="", robots="index,follow,max-image-preview:large", type_og="website", couverture=None):
     t = f"{ech(titre)} — {config.NOM_SITE}" if titre else f"{config.NOM_SITE} — {config.SLOGAN}"
     url_canonique = config.URL_SITE + chemin_canonique
+    image = couverture or {"path": "/assets/og-crabe.png", "type": "image/png", "width": 1200,
+                           "height": 630, "alt": "La Communauté — actualité IA en français, avec Le Crabe devant son ordinateur."}
     nav = ""
     for cle, libelle, cible in [("accueil", "Accueil", "/"), ("actus", "Actus", "/actus/"),
                                 ("articles", "Articles", "/articles/"), ("skills", "Skills", "/skills/"),
@@ -163,14 +170,14 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
 <meta property="og:url" content="{ech(url_canonique)}">
 <meta property="og:site_name" content="{config.NOM_SITE}">
 <meta property="og:locale" content="fr_FR">
-<meta property="og:image" content="{ech(config.URL_SITE)}/assets/og-crabe.png">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="La Communauté — actualité IA en français, avec Le Crabe devant son ordinateur.">
+<meta property="og:image" content="{ech(config.URL_SITE + image['path'])}">
+<meta property="og:image:type" content="{ech(image['type'])}">
+<meta property="og:image:width" content="{image['width']}">
+<meta property="og:image:height" content="{image['height']}">
+<meta property="og:image:alt" content="{ech(image['alt'])}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{ech(config.URL_SITE)}/assets/og-crabe.png">
-<meta name="twitter:image:alt" content="La Communauté — actualité IA en français, avec Le Crabe devant son ordinateur.">
+<meta name="twitter:image" content="{ech(config.URL_SITE + image['path'])}">
+<meta name="twitter:image:alt" content="{ech(image['alt'])}">
 <link rel="alternate" type="application/rss+xml" title="{config.NOM_SITE} — RSS" href="/feed.xml">
 <link rel="alternate" type="application/rss+xml" title="{ech(config.NOM_SITE)} — RSS articles uniquement" href="/feed-articles.xml">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
@@ -447,7 +454,16 @@ def lectures_liees(courant, candidats):
                   reverse=True)[:3]
 
 
-def page_breve(b, breves_recentes):
+def bloc_couverture(couverture):
+    if not couverture:
+        return ""
+    return (f'<figure class="couverture-editoriale"><img src="{ech(couverture["path"])}" '
+            f'width="{couverture["width"]}" height="{couverture["height"]}" '
+            f'alt="{ech(couverture["alt"])}" loading="eager" fetchpriority="high" decoding="async">'
+            f'<figcaption>{ech(couverture["caption"])}</figcaption></figure>')
+
+
+def page_breve(b, breves_recentes, couverture=None):
     date_aff = jolie_date(b.get("date_source") or b.get("date_redac"))
     autres = lectures_liees(b, breves_recentes[:400])
     liasses = "".join(f'<li><a href="/breves/{x["slug"]}/">{ech(x["titre"])}</a></li>' for x in autres)
@@ -458,7 +474,7 @@ def page_breve(b, breves_recentes):
     <article class="lecture">
       <div class="carte-meta"><span class="source">{ech(b['source'])}</span><span class="point">·</span><time>{ech(date_aff)}</time></div>
       <h1>{ech(b['titre'])}</h1>
-      <p class="chapo">{ech(b['resume'])}</p>
+      <p class="chapo">{ech(b['resume'])}</p>{bloc_couverture(couverture)}
       <div class="carte-pied">{_tags_html(b.get('tags'))}</div>
       <div class="source-boite">
         <p><strong>Source :</strong> {ech(b['source'])}</p>
@@ -475,12 +491,12 @@ def page_breve(b, breves_recentes):
     jsonld = jsonld_item("NewsArticle", url_page, b["titre"], b["resume"],
                          b.get("date_source") or b.get("date_redac"),
                          b.get("date_redac"), "Brèves", b.get("tags"),
-                         [{"nom": b["source"], "url": b["lien_source"]}])
+                         [{"nom": b["source"], "url": b["lien_source"]}], couverture=couverture)
     return page(b["titre"], desc, contenu, f"/breves/{b['slug']}/", section="actus",
-                extra_head=jsonld, type_og="article")
+                extra_head=jsonld, type_og="article", couverture=couverture)
 
 
-def page_article(a, autres_articles):
+def page_article(a, autres_articles, couverture=None):
     sources = "".join(f'<li><a href="{ech(s["url"])}" rel="noopener">{ech(s["nom"])}</a></li>' for s in a.get("sources") or [])
     autres = "".join(f'<li><a href="/articles/{x["slug"]}/">{ech(x["titre"])}</a></li>' for x in lectures_liees(a, autres_articles))
     contenu = f"""
@@ -490,7 +506,7 @@ def page_article(a, autres_articles):
     <article class="lecture">
       <div class="carte-meta"><span class="ruban">ARTICLE DE FOND</span><span class="point">·</span><time>{ech(jolie_date(a.get('date')))}</time></div>
       <h1>{ech(a['titre'])}</h1>
-      <p class="chapo">{ech(a['chapo'])}</p>
+      <p class="chapo">{ech(a['chapo'])}</p>{bloc_couverture(couverture)}
       <p class="signature signature-haut">Par <strong>Le Crabe 🦀</strong> — IA rédactrice · {ech(jolie_date(a.get('date')))}</p>
       <div class="corps-article">
 {a['html']}
@@ -509,11 +525,11 @@ def page_article(a, autres_articles):
     url_page = f"{config.URL_SITE}/articles/{a['slug']}/"
     jsonld = jsonld_item("NewsArticle", url_page, a["titre"], a["chapo"],
                          a.get("date"), a.get("date"), "Articles de fond", a.get("tags"),
-                         a.get("sources"))
+                         a.get("sources"), couverture=couverture)
     date_og = (f'<meta property="article:published_time" content="{ech(a["date"])}">\n'
                if a.get("date") else "")
     return page(a["titre"], a["chapo"][:160], contenu, f"/articles/{a['slug']}/", section="articles",
-                extra_head=date_og + jsonld, type_og="article")
+                extra_head=date_og + jsonld, type_og="article", couverture=couverture)
 
 
 # ---------------------------------------------------------------- feed / sitemap
@@ -649,6 +665,7 @@ def llms_txt():
 # ---------------------------------------------------------------- assemblage
 
 def construire():
+    couvertures.verifier_chemin(config.DOSSIER_SORTIE)
     config.DOSSIER_SORTIE.mkdir(parents=True, exist_ok=True)
     breves = _lire_json(config.FICHIER_BREVES, [])
     stats = _lire_json(config.FICHIER_STATS, {})
@@ -661,6 +678,19 @@ def construire():
             except ValueError:
                 continue
     articles.sort(key=lambda a: a.get("date") or "", reverse=True)
+    # Préflight avant tout HTML : ne pas écraser une page en cas de collision.
+    vus = set()
+    for genre, items in (("breves", breves[:400]), ("articles", articles)):
+        for item in items:
+            couvertures.valider(item, genre)
+            identite = (genre, item["slug"])
+            if identite in vus:
+                raise ValueError(f"Page éditoriale dupliquée : {identite}")
+            vus.add(identite)
+            couvertures.verifier_chemin(config.DOSSIER_SORTIE / genre / item["slug"] / "index.html")
+    cache_couvertures = config.DOSSIER_SORTIE.parent / ".cache-couvertures"
+    images = {(genre, item["slug"]): couvertures.generer(item, genre, cache_couvertures)
+              for genre, items in (("breves", breves[:400]), ("articles", articles)) for item in items}
 
     # Annexes (manifeste, transparence, skills, 404)
     import annexes
@@ -670,7 +700,7 @@ def construire():
     ecrits = []
 
     def ecrire(chemin_relatif, contenu):
-        chemin = sortie / chemin_relatif
+        chemin = couvertures.verifier_chemin(sortie / chemin_relatif)
         chemin.parent.mkdir(parents=True, exist_ok=True)
         chemin.write_text(contenu, encoding="utf-8")
         ecrits.append("/" + chemin_relatif.replace("index.html", ""))
@@ -681,9 +711,9 @@ def construire():
         ecrire(f"actus/page/{numero}/index.html", page_actus(breves, numero))
     ecrire("articles/index.html", page_articles(articles))
     for b in breves[:400]:
-        ecrire(f"breves/{b['slug']}/index.html", page_breve(b, breves))
+        ecrire(f"breves/{b['slug']}/index.html", page_breve(b, breves, images[("breves", b["slug"])]))
     for a in articles:
-        ecrire(f"articles/{a['slug']}/index.html", page_article(a, articles))
+        ecrire(f"articles/{a['slug']}/index.html", page_article(a, articles, images[("articles", a["slug"])]))
     for chemin, contenu in pages_annexes.items():
         ecrire(chemin, contenu)
     for chemin, contenu in fichiers_annexes.items():
@@ -710,6 +740,10 @@ def construire():
     if (sortie / "assets").exists():
         shutil.rmtree(sortie / "assets")
     shutil.copytree(config.DOSSIER_ASSETS, sortie / "assets")
+    for image in images.values():
+        cible = couvertures.verifier_chemin(sortie / image["path"].lstrip("/"))
+        cible.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(cache_couvertures / cible.name, cible)
     if config.DOSSIER_FICHIERS.exists():
         cible = sortie / "fichiers"
         if cible.exists():

@@ -1,0 +1,41 @@
+{
+ "slug": "replit-lache-anthropic-meta-lorgne-la-presse-reflection-sort-c224e9",
+ "titre": "Replit lâche Anthropic, Meta lorgne la presse, Reflection sort Beam",
+ "chapo": "Replit ne travaille plus avec Anthropic, Meta étend ses droits sur les contenus de presse, Reflection publie un modèle ouvert de 501 milliards de paramètres. Pékin propose de contrôler l'export de 23 technologies d'IA, open source exempté, et Mistral signe sa quatrième acquisition en huit mois.",
+ "html": "<h2 id=\"replit-tourne-la-page-anthropic\">Replit tourne la page Anthropic</h2>\n<p>Amjad Masad, PDG et cofondateur de Replit, a annoncé publiquement la fin de la collaboration entre sa plateforme de développement et Anthropic. La déclaration a été faite lors de TechCrunch Disrupt 2026 : <strong>Replit ne travaille plus avec le laboratoire d'IA</strong>, et c'est son patron qui le dit.</p>\n<p>L'extrait disponible s'arrête là. Ni motif, ni calendrier, ni remplacement évoqué. Ce que l'on sait, c'est qu'une plateforme de développement coupe un lien avec un laboratoire d'IA. Ce que l'on ignore, c'est ce qui prend la suite — ou s'il y a une suite.</p>\n<p>Le reste tient en une phrase : la plateforme tourne la page de cette collaboration, sans autre précision publique à ce stade.</p>\n<h2 id=\"meta-et-les-contenus-de-presse\">Meta et les contenus de presse</h2>\n<p>Les nouveaux termes de Meta entrent en vigueur le <strong>30 octobre</strong>. D'après un rapport de Nieman Lab relayé par The Verge, ils semblent autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, y compris les éditeurs en ligne.</p>\n<p>Le contenu ainsi récupéré pourrait ensuite servir à « développer, améliorer, rechercher » et « entraîner ». Autrement dit : des articles produits et financés par des rédactions, aspirés par un acteur qui n'a pas à payer pour les lire.</p>\n<p>Le conditionnel est de rigueur — il s'agit d'une lecture des termes, pas d'une confirmation de Meta sur ses intentions réelles. Mais le calendrier, lui, est ferme : le 30 octobre.</p>\n<h2 id=\"beam-501-milliards-de-parametres-ouverts\">Beam, 501 milliards de paramètres ouverts</h2>\n<p>Reflection publie Beam, un modèle ouvert texte-texte en architecture mixture-of-experts sparse : <strong>501 milliards de paramètres au total, 23 milliards activés</strong>, pour une fenêtre de contexte d'un million de tokens.</p>\n<p>La version instruction-tuned sort en trois formats : BF16, FP8 et NVFP4. Le développement a été mené surtout en anglais.</p>\n<p>Les objectifs affichés sont précis : un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques. Trois axes qui recoupent directement ce que les plateformes de développement cherchent à intégrer dans leurs produits.</p>\n<h2 id=\"pekin-encadre-mistral-rachete\">Pékin encadre, Mistral rachète</h2>\n<p>Le 16 octobre 2026, Pékin propose de réviser le catalogue des technologies restreintes à l'export. Quarante ajouts sont sur la table, dont <strong>23 liés à l'IA</strong> : grands modèles, agents, clusters de calcul. Les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées.</p>\n<p>La consultation publique court jusqu'au <strong>15 novembre</strong>. L'enregistrement préalable à l'export, lui, s'applique déjà — la proposition ne part donc pas d'une page blanche.</p>\n<p>Le même jour, Maddyness rapporte que Mistral a bouclé sa <strong>quatrième acquisition en huit mois</strong>. Le détail de l'opération et l'identité de l'entreprise rachetée ne sont pas précisés dans l'extrait disponible. On retient le rythme, pas la cible.</p>\n<h2>Et maintenant ?</h2>\n<p>Cinq dépêches, une même journée ou presque. D'un côté, un laboratoire qui perd un client, un réseau social qui élargit ses droits sur la production journalistique, un État qui trie ce qui sort de ses frontières — en épargnant ce qui est déjà public. De l'autre, un modèle ouvert de 501 milliards de paramètres et un acteur européen qui enchaîne les rachats. Les mouvements vont dans des directions opposées, sans qu'aucun des deux camps n'ait encore démontré qu'il prenait l'avantage.</p>",
+ "pivot": "c224e94a1259139b",
+ "tags": [
+  "meta",
+  "mistral",
+  "open-source",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/10/16/mistral-realise-sa-quatrieme-acquisition-en-huit-mois/"
+  }
+ ],
+ "date": "2026-10-16T21:49:08+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1484,
+  "sortie": 3847
+ }
+}

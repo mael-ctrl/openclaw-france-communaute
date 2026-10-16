@@ -126,6 +126,27 @@
   }
  },
  {
+  "id": "b4acb721dd32429b",
+  "slug": "intel-publie-llm-scaler-vllm-pv-1-5-b4acb7",
+  "titre": "Intel publie LLM-Scaler-vLLM PV 1.5",
+  "resume": "Sur r/LocalLLaMA, un billet signale la sortie d'Intel LLM-Scaler-vLLM PV 1.5, présentée comme apportant d'importantes améliorations. L'extrait disponible ne détaille ni la nature de ces gains ni les configurations concernées. La publication vise les utilisateurs qui font tourner des modèles en local.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7qsh8/intel_llmscalervllm_pv_15_brings_big_improvements/",
+  "date_source": "2026-10-16T20:16:18+00:00",
+  "date_redac": "2026-10-16T21:48:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 628,
+   "sortie": 844
+  }
+ },
+ {
   "id": "3323c90fcab243a1",
   "slug": "un-template-de-chat-ameliore-pour-qwen3-8-flash-next-avec-un-mode-conc-3323c9",
   "titre": "Un template de chat amélioré pour Qwen3.8-Flash-Next, avec un mode concis",

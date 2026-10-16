@@ -2031,3 +2031,9 @@
 {"ts": "2026-10-16T22:20:35+00:00", "evenement": "deploiement", "details": {"fichiers": 672, "octets": 13515371}, "sha256": "a765b0454bf43b7ea6d854f4387bc19bd0b776058d81e2d137c0acc023c1a1d6"}
 {"ts": "2026-10-16T22:20:35+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "dc5c4025a43b0b971d7b7371aadf73da1ead659ef698a806fc4e71de4c298f27"}
 {"ts": "2026-10-16T22:20:35+00:00", "evenement": "bilan", "details": {"duree_s": 1094.0, "neufs": 7, "breves": 5, "articles": 1, "fichiers": 646, "envois": 672, "publications": 0}, "sha256": "22d6966d366c05c651838712a22ab497cce7723bf548f46c18c928151a8bffc4"}
+{"ts": "2026-10-16T21:47:59+00:00", "evenement": "collecte", "details": {"neufs": 5}, "sha256": "2018edf1f7b9b5c5fbed0055238952ddfd904e26c6207fbc98535396712a9223"}
+{"ts": "2026-10-16T21:48:30+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Kimi K3, three months after the hype: too big for almost any) : réponse non-JSON"}, "sha256": "163962564a6cc701957d4444f5c02bb26294091d09727a1f3d19be986d42f634"}
+{"ts": "2026-10-16T21:49:13+00:00", "evenement": "construction", "details": {"fichiers": 646}, "sha256": "c96340b4f715bc8a3da46a104cada04060604a851a49d73f53e387a6dad04128"}
+{"ts": "2026-10-16T22:01:43+00:00", "evenement": "deploiement", "details": {"fichiers": 671, "octets": 13469503}, "sha256": "f30e77a869e4d693bcb9a2383b909551d3c946a5568d2f70583775b3480fb4ca"}
+{"ts": "2026-10-16T22:01:43+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "7d73d992e39dcbbf6a356a0587c556d2de9c04828f5695124de9b0bd6d4c4191"}
+{"ts": "2026-10-16T22:01:43+00:00", "evenement": "bilan", "details": {"duree_s": 842.1, "neufs": 5, "breves": 4, "articles": 1, "fichiers": 646, "envois": 671, "publications": 0}, "sha256": "38e6b171fb2595ee5cc3359ff7a848f14f10c18f5bae0547e1f0dde53362ffa7"}

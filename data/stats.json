@@ -1,22 +1,18 @@
 {
- "runs": 183,
- "items_collectes": 1711,
- "breves_publiees": 676,
+ "runs": 184,
+ "items_collectes": 1716,
+ "breves_publiees": 681,
  "articles_publies": 96,
- "tokens_entree": 639544,
- "tokens_sortie": 919768,
+ "tokens_entree": 643103,
+ "tokens_sortie": 924698,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-16T09:55:50+00:00",
+ "dernier_run": "2026-10-16T10:58:34+00:00",
  "solde": {
-  "total": "85.94",
+  "total": "85.93",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-16T01:39:46+00:00",
-   "message": "article impossible : Expecting ',' delimiter: line 20 column 6 (char 3810)"
-  },
   {
    "ts": "2026-10-16T03:43:08+00:00",
    "message": "article impossible : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-16T09:03:50+00:00",
    "message": "brève impossible (New paper from Stanford, Together AI, UIUC, and Meta introdu) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-16T10:58:34+00:00",
+   "message": "article impossible : Expecting ',' delimiter: line 16 column 6 (char 3546)"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 5.72,
+ "depense_usd": 5.73,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -752,10 +752,14 @@
   [
    "2026-10-16T09:55:07+00:00",
    "85.94"
+  ],
+  [
+   "2026-10-16T10:57:24+00:00",
+   "85.93"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 3.43,
+ "depense_mois_usd": 3.44,
  "archive_tentatives": {
   "jour": "2026-10-16",
   "n": 3

@@ -1,0 +1,41 @@
+{
+ "slug": "presidentielle-2027-puce-nvidia-claude-pirate-l-ia-avance-su-375357",
+ "titre": "Présidentielle 2027, puce Nvidia, Claude pirate : l'IA avance sur tous les fronts",
+ "chapo": "L'IA s'invite dans la campagne présidentielle française, Nvidia glisse un PC complet dans une puce portable et Claude reproduit en 28 minutes une cyberattaque visant des frigos de supermarchés. La même semaine, huit États américains poursuivent OpenAI et Google annonce le doublement du prix de son API Gemini.",
+ "html": "<h2 id=\"2027-une-campagne-placee-sous-le-signe-d\">2027, une campagne placée sous le signe de l'IA</h2>\n<p>Le 16 octobre 2026, Maddyness publie un article dont le titre ne fait aucun détour : « La présidentielle 2027 se jouera sous haute intelligence artificielle ». Le média spécialisé dans l'économie de demain place ainsi l'IA au cœur de la prochaine campagne présidentielle française.</p>\n<p>Outre-Atlantique, la question se règle pour l'instant devant les tribunaux. Huit États américains poursuivent OpenAI. L'Iowa, le Kansas, le Nebraska, la Virginie-Occidentale, l'Arkansas, l'Arizona, l'Idaho et le Montana ont déposé des plaintes séparées. Ils accusent l'entreprise de nuire aux enfants et d'avoir induit ses clients en erreur sur la sécurité de ChatGPT, en plaçant selon eux ses profits avant la sécurité.</p>\n<h2 id=\"claude-abaisse-la-barriere-technique\">Claude abaisse la barrière technique</h2>\n<p>Autre terrain, autre démonstration. Selon 01net, Claude a reproduit en 28 minutes la cyberattaque qui a fait surchauffer les frigos de centaines de supermarchés français. Le point notable n'est pas la prouesse en elle-même, mais le niveau requis pour y parvenir : l'expérimentation montre que l'offensive restait à la portée de n'importe quel cybercriminel, même sans compétences techniques.</p>\n<p>C'est là tout l'enjeu. Un modèle capable de reconstituer une attaque en moins d'une demi-heure abaisse la barrière technique d'une offensive visant des équipements du quotidien. Les frigos de supermarchés ne sont pas des cibles exotiques : ce sont des machines connectées, banales, et c'est précisément ce qui les rend intéressantes pour qui cherche un point d'entrée.</p>\n<h2 id=\"gemini-4-argon-deploye-la-facture-double\">Gemini 4 Argon déployé, la facture double</h2>\n<p>Côté modèles, Google déploie Gemini 4 Argon à grande échelle. Dévoilé au début du mois, le modèle est accessible depuis le 13 octobre 2026 dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme. L'ambition affichée est double : en faire un outil de travail pour les tâches complexes et le moteur de ses agents IA.</p>\n<p>La contrepartie est tarifaire. Le prix de l'API doit doubler au 1er décembre. Pour les équipes qui ont bâti une chaîne de production sur Gemini, le coût par appel change de nature, et avec lui le calcul économique de ce qui peut être confié au modèle.</p>\n<h2 id=\"nvidia-met-un-pc-complet-dans-une-puce\">Nvidia met un PC complet dans une puce</h2>\n<p>Sur le matériel, Nvidia signe avec le RTX Spark sa première puce complète destinée aux PC portables Windows. Elle réunit un GPU Blackwell, un processeur Arm et jusqu'à 128 Go de mémoire unifiée dans un seul boîtier. Frandroid a testé la puce dans un Asus ProArt P16, en couvrant trois axes : le jeu, l'IA locale et l'autonomie.</p>\n<p>La comparaison porte sur trois machines : un portable gamer en RTX 5070, un Mac Apple Silicon et un PC Ryzen AI Max+ 395. Le fait que l'IA locale figure parmi les axes de test dit quelque chose du positionnement visé : la mémoire unifiée n'est pas là que pour les jeux.</p>\n<h2>Et maintenant ?</h2>\n<p>Une même semaine aura aligné une campagne présidentielle qui se prépare à l'IA, huit États américains en procès contre OpenAI, un modèle qui reconstruit une cyberattaque visant des équipements du quotidien en 28 minutes, un déploiement mondial assorti d'un doublement de tarif et une puce qui réunit GPU, processeur et mémoire dans un boîtier portable. Ces dépêches ne racontent pas la même histoire, mais elles se répondent : la puissance disponible progresse, son coût aussi, et les cadres politiques, juridiques et tarifaires courent après.</p>",
+ "pivot": "375357379b968ff8",
+ "tags": [
+  "sécurité",
+  "openai",
+  "gemini",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/10/16/la-presidentielle-2027-se-jouera-sous-haute-intelligence-artificielle/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/test/3283093_test-nvidia-rtx-spark"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/frigos-de-supermarches-pirates-claude-a-reproduit-la-cyberattaque-en-28-minutes.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  }
+ ],
+ "date": "2026-10-16T07:51:19+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1566,
+  "sortie": 3594
+ }
+}

@@ -1,5 +1,87 @@
 [
  {
+  "id": "eb6c11bdb71dd670",
+  "slug": "qwen-27b-sacrifier-du-contexte-pour-une-quantification-plus-elevee-eb6c11",
+  "titre": "Qwen 27B : sacrifier du contexte pour une quantification plus élevée",
+  "resume": "Un utilisateur de r/LocalLLaMA raconte être passé d'Unsloth IQ4_XS, qui lui offrait 96K de contexte sur 20 Go de VRAM, à une quantification plus élevée avec moins de contexte. Verdict : le résultat s'est révélé meilleur que prévu. Le contexte étendu évite compactage et interruptions, mais seulement si la VRAM permet un quant élevé comme Q8. Sinon, la qualité du code baisse, d'où des erreurs et des délais.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7m3gf/qwen_27b_sacrificing_context_in_order_run_better/",
+  "date_source": "2026-10-16T17:15:33+00:00",
+  "date_redac": "2026-10-16T17:40:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 804,
+   "sortie": 838
+  }
+ },
+ {
+  "id": "56c4438c836f8134",
+  "slug": "sur-r-localllama-les-configs-maison-totalisent-223-go-de-vram-56c443",
+  "titre": "Sur r/LocalLLaMA, les configs maison totalisent 223 Go de VRAM",
+  "resume": "Le fil « Show me your rack » de r/LocalLLaMA rassemble les configurations de ses membres. On y croise des GPU grand public — CMP 170HX, Vega 56, RTX 3070 et 2080 Ti, Radeon 7900 XTX, 5600 XT — montés sur des Ryzen 9600X, 5700 ou 7500X3D et un Intel i7 9700, avec 32 Go de DDR4 ou DDR5 en dual channel. Le posteur, /u/negus123, annonce 223 Go de VRAM au total.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7lw9g/show_me_your_rack/",
+  "date_source": "2026-10-16T17:07:47+00:00",
+  "date_redac": "2026-10-16T17:40:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 704,
+   "sortie": 1054
+  }
+ },
+ {
+  "id": "07f20397c79f1f72",
+  "slug": "test-des-nothing-ear-3a-transparence-assumee-et-basses-percutantes-07f203",
+  "titre": "Test des Nothing Ear (3a) : transparence assumée et basses percutantes",
+  "resume": "Nothing lance les Ear (3a), des écouteurs intra-auriculaires qui prolongent ce qu'avaient entamé les Ear (a). Le fabricant mise sur un design transparent et un son revendiqué comme haute qualité, pour un prix inférieur à 100 euros. Frandroid les a testés dans un marché des écouteurs intra-auriculaires saturé.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/nothing/3264895_jai-teste-les-ecouteurs-nothing-ear-3a-la-transparence-assumee-le-grave-qui-frappe",
+  "date_source": "2026-10-16T17:00:00+00:00",
+  "date_redac": "2026-10-16T17:40:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 702,
+   "sortie": 410
+  }
+ },
+ {
+  "id": "33b4c350746ffd1f",
+  "slug": "le-boom-de-l-ia-finance-par-la-dette-montre-des-fissures-33b4c3",
+  "titre": "Le boom de l'IA financé par la dette montre des fissures",
+  "resume": "Sur r/LocalLLaMA, un fil publié le 16 octobre 2026 annonce que « le boom de l'IA financé par la dette se fissure ». La publication, signée de l'utilisateur slippery, renvoie vers un lien externe sans développement supplémentaire dans l'extrait disponible. Le sujet renvoie au poids de l'endettement dans la croissance actuelle des infrastructures d'IA.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7lcdu/the_debtfueled_ai_boom_is_cracking/",
+  "date_source": "2026-10-16T16:47:11+00:00",
+  "date_redac": "2026-10-16T17:40:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 638,
+   "sortie": 869
+  }
+ },
+ {
   "id": "78d277a136617369",
   "slug": "robotique-pour-cette-ex-nvidia-devenue-investisseuse-on-est-encore-dan-78d277",
   "titre": "Robotique : pour cette ex-Nvidia devenue investisseuse, on est encore dans l'« ère Lego »",
@@ -40,6 +122,28 @@
    "modele": "deepseek-flash",
    "entree": 679,
    "sortie": 1309
+  }
+ },
+ {
+  "id": "9c0111bfb2412535",
+  "slug": "robotique-une-ancienne-de-nvidia-douche-l-idee-d-un-moment-chatgpt-9c0111",
+  "titre": "Robotique : une ancienne de Nvidia douche l'idée d'un « moment ChatGPT »",
+  "resume": "Amulya Vishwanath, sept ans à la tête du marketing produit des plateformes robotiques de Nvidia avant de passer au capital-risque, estime que la robotique vit encore son « ère Lego ». Actionneurs, mains robotiques, logiciels et normes de sécurité restent selon elle des briques en reconstruction. Une lecture qui contredit ceux qui attendent un « moment ChatGPT » de la robotique, porté par un modèle de fondation généraliste.",
+  "tags": [
+   "robots",
+   "matériel",
+   "sécurité",
+   "business"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+  "date_source": "2026-10-16T16:30:00+00:00",
+  "date_redac": "2026-10-16T17:40:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 685,
+   "sortie": 856
   }
  },
  {
@@ -160,6 +264,27 @@
    "modele": "deepseek-flash",
    "entree": 723,
    "sortie": 1044
+  }
+ },
+ {
+  "id": "04dd1dea7829957f",
+  "slug": "un-modele-de-decision-de-0-6b-fine-tune-depasse-son-homologue-de-27b-04dd1d",
+  "titre": "Un modèle de décision de 0,6B fine-tuné dépasse son homologue de 27B",
+  "resume": "En prenant vLLM-SR d3-edge (0,6B) et en le fine-tunant avec un simple SFT et LoRA, un utilisateur a comparé ses performances à celles de d3 (27B). Avec quelques milliers d'exemples d'entraînement, le petit modèle dépasse le 27B sur les décisions typées et l'égale presque sur Banking77. L'auteur plaide pour le fine-tuning de petits modèles spécialisés plutôt que le recours à de grands modèles généralistes.",
+  "tags": [
+   "recherche",
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7hz2t/d3edge_06b_finetuned_outperformed_d3_27b_decision/",
+  "date_source": "2026-10-16T14:38:34+00:00",
+  "date_redac": "2026-10-16T17:40:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 770,
+   "sortie": 1157
   }
  },
  {

@@ -1,0 +1,41 @@
+{
+ "slug": "pekin-encadre-23-technologies-ia-l-open-source-passe-au-trav-3fbf3c",
+ "titre": "Pékin encadre 23 technologies IA, l'open source passe au travers",
+ "chapo": "Pékin propose de placer 23 technologies d'IA sous contrôle à l'export, mais exempte explicitement ce qui est déjà public. Pendant ce temps, Meta veut entraîner ses modèles sur les sites d'actualité et Reflection ouvre un MoE de 501 milliards de paramètres.",
+ "html": "<h2 id=\"chine-23-entrees-ia-dans-le-catalogue-a-\">Chine : 23 entrées IA dans le catalogue à l'export</h2>\n<p>Le 16 octobre 2026, Pékin a proposé une révision de son catalogue des technologies restreintes à l'export. Sur les 40 ajouts envisagés, <strong>23 concernent directement l'IA</strong> : grands modèles, agents, clusters de calcul. Le cadre est déjà actif, puisque l'enregistrement préalable à l'export s'applique d'ores et déjà.</p>\n<p>La nuance qui compte tient en une ligne : les technologies déjà rendues publiques via l'open source ou des publications académiques en sont <strong>explicitement exemptées</strong>. Ce qui est sorti reste dehors ; ce sont les savoir-faire non publiés qui entrent dans le champ du contrôle.</p>\n<p>La consultation publique court jusqu'au <strong>15 novembre</strong>. D'ici là, le périmètre exact des 23 entrées peut encore évoluer.</p>\n<h2 id=\"meta-et-le-contenu-des-editeurs-en-ligne\">Meta et le contenu des éditeurs en ligne</h2>\n<p>Les nouveaux termes de Meta entrent en vigueur le 30 octobre. Selon un rapport de Nieman Lab relayé par The Verge, ils <em>semblent</em> autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes — éditeurs en ligne compris.</p>\n<p>Le contenu externe ainsi récupéré pourrait servir à « développer, améliorer, rechercher » et « entraîner ». Le conditionnel reste de mise : il s'agit d'une lecture des termes, pas d'une annonce de Meta.</p>\n<p>The Verge place un mot qui pèse dans son titre : gratuitement. Le périmètre visé est celui des sites associés aux entreprises présentes sur les plateformes de Meta, ce qui inclut l'édition en ligne.</p>\n<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Reflection publie Beam, un modèle ouvert texte-texte en architecture mixture-of-experts sparse : <strong>501 milliards de paramètres</strong> au total, <strong>23 milliards activés</strong>, pour une fenêtre de contexte d'un million de tokens.</p>\n<p>La version instruction-tuned sort en BF16, FP8 et NVFP4. Le modèle a surtout été développé pour l'anglais, et vise un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques.</p>\n<p>Le profil correspond à une pratique installée dans l'écosystème ouvert : des parcs de paramètres très larges, dont seule une fraction s'active à chaque token.</p>\n<h2 id=\"cote-europeen-mistral-et-l-ai-act\">Côté européen : Mistral et l'AI Act</h2>\n<p>Maddyness rapporte le 16 octobre 2026 que Mistral a bouclé sa <strong>quatrième acquisition en huit mois</strong>. Le détail de l'opération et l'identité de l'entreprise rachetée ne sont pas précisés dans l'extrait disponible.</p>\n<p>Sur le volet réglementaire, L'Usine Digitale pose une question directe : Bruxelles peut-elle contrôler la sécurité des modèles d'IA avant leur commercialisation ? Les incidents provoqués par des agents d'OpenAI et d'Anthropic donnent à ce débat une portée concrète.</p>\n<p>Ces intrusions mettent l'AI Act à l'épreuve, alors que le règlement européen encadre la mise sur le marché des modèles. La question du contrôle en amont se pose face à des systèmes dont le comportement en production peut différer de ce qui a été évalué.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dépêches du jour pointent dans des directions différentes. Pékin verrouille ce qui n'est pas publié et laisse filer l'open source ; Reflection ouvre un MoE de 501 milliards de paramètres ; Meta cherche dans les termes de ses contrats un droit d'usage sur du contenu éditorial. La frontière se dessine moins sur la technique que sur le statut de ce qui est déjà public. Bruxelles doit encore trancher : comment évaluer un modèle avant sa mise sur le marché quand ses agents agissent après.</p>",
+ "pivot": "3fbf3c0339977edc",
+ "tags": [
+  "open-source",
+  "sécurité",
+  "meta",
+  "mistral"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/10/16/mistral-realise-sa-quatrieme-acquisition-en-huit-mois/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/lue-peut-elle-controler-les-modeles-dintelligence-artificielle-avant-leur-commercialisation-les-intrusions-provoquees-par-des-agents-ia-mettent-lai-act-a-lepreuve.V25T6MKNZ5GQHATLU4TK65WFAA.html"
+  }
+ ],
+ "date": "2026-10-16T17:41:18+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1564,
+  "sortie": 4551
+ }
+}

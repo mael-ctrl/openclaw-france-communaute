@@ -1,22 +1,18 @@
 {
- "runs": 190,
- "items_collectes": 1738,
- "breves_publiees": 700,
- "articles_publies": 100,
- "tokens_entree": 662443,
- "tokens_sortie": 953358,
+ "runs": 191,
+ "items_collectes": 1745,
+ "breves_publiees": 705,
+ "articles_publies": 101,
+ "tokens_entree": 667378,
+ "tokens_sortie": 962873,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-16T15:28:53+00:00",
+ "dernier_run": "2026-10-16T16:36:33+00:00",
  "solde": {
   "total": "85.89",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-16T09:03:28+00:00",
-   "message": "brève impossible (model : MTP support for Mellum2.1 by Xarbirus · Pull Request) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-16T09:03:50+00:00",
    "message": "brève impossible (New paper from Stanford, Together AI, UIUC, and Meta introdu) : réponse non-JSON"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-16T14:04:46+00:00",
    "message": "article impossible : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-16T16:35:52+00:00",
+   "message": "brève impossible (The challenge where LLMs try to beat a 2D platformer game is) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -779,6 +779,10 @@
   ],
   [
    "2026-10-16T15:28:53+00:00",
+   "85.89"
+  ],
+  [
+   "2026-10-16T16:35:28+00:00",
    "85.89"
   ]
  ],

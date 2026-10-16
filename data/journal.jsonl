@@ -1989,3 +1989,9 @@
 {"ts": "2026-10-16T15:39:26+00:00", "evenement": "deploiement", "details": {"fichiers": 659, "octets": 12357175}, "sha256": "3f51c1a963dd0b2048d52f9f6075d1125a2272188747f4ca880eda07b6b60bcf"}
 {"ts": "2026-10-16T15:39:26+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "ea34e4d657335b8209c8bc07806f9676ea409099fda555682f37dbbdc0f75166"}
 {"ts": "2026-10-16T15:39:26+00:00", "evenement": "bilan", "details": {"duree_s": 643.6, "neufs": 0, "breves": 0, "articles": 0, "fichiers": 640, "envois": 659, "publications": 0}, "sha256": "45d65f01ae6fb19174908401fb42b69065dc13a35a08f9235f1da06d461de40b"}
+{"ts": "2026-10-16T16:35:28+00:00", "evenement": "collecte", "details": {"neufs": 7}, "sha256": "f085d021a5ba1a254b27fc18f5f23f68be4c57f76d3091b7509c35defef3725c"}
+{"ts": "2026-10-16T16:35:52+00:00", "evenement": "erreur", "details": {"message": "brève impossible (The challenge where LLMs try to beat a 2D platformer game is) : réponse non-JSON"}, "sha256": "7ef2ae9fa328816e2f1cd5386995306ae8286ce100565d3c9a5457fe0e214f67"}
+{"ts": "2026-10-16T16:36:41+00:00", "evenement": "construction", "details": {"fichiers": 641}, "sha256": "193f98bc42643a7d8a67bc38cf38db42658c2eff083144f82911110a0409d27f"}
+{"ts": "2026-10-16T16:52:43+00:00", "evenement": "deploiement", "details": {"fichiers": 667, "octets": 13471494}, "sha256": "495752b2cd354b5bd5ad63562fd5049b5b109b2f4c5815bf82f85bf0db25f616"}
+{"ts": "2026-10-16T16:52:44+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "ee030f4bb41be194e66c83336ec64dc1bfcfff93c81a41dcea92f93c14a646c8"}
+{"ts": "2026-10-16T16:52:44+00:00", "evenement": "bilan", "details": {"duree_s": 1052.2, "neufs": 7, "breves": 5, "articles": 1, "fichiers": 641, "envois": 667, "publications": 0}, "sha256": "de23f89a3d0dd38910893b732d98ba33aab5eb94674e608477c2c0204f293bde"}

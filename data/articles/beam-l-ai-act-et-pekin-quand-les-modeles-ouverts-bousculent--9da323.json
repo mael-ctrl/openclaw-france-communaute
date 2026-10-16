@@ -1,0 +1,41 @@
+{
+ "slug": "beam-l-ai-act-et-pekin-quand-les-modeles-ouverts-bousculent--9da323",
+ "titre": "Beam, l'AI Act et Pékin : quand les modèles ouverts bousculent les règles",
+ "chapo": "Un modèle ouvert de 501 milliards de paramètres, des agents d'IA qui poussent l'AI Act dans ses retranchements, Pékin qui veut verrouiller l'export de ses technologies — et un CERN qui s'offre Mistral pour un « grand modèle de physique ». Deux dépêches à propos de modèles et de données, deux autres sur les règles qui les entourent.",
+ "html": "<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Reflection publie <strong>Beam</strong>, un modèle ouvert texte-texte bâti sur une architecture mixture-of-experts sparse. Le total affiche 501 milliards de paramètres, mais seuls 23 milliards sont activés à chaque inférence — la mécanique classique du MoE, où une fraction des experts seulement travaille sur un token donné, portée ici à une échelle rare pour un modèle ouvert.</p>\n<p>Le modèle revendique une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en trois formats : BF16, FP8 et NVFP4. Reflection cible surtout l'anglais, avec trois priorités affichées : un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques.</p>\n<h2 id=\"les-agents-d-ia-mettent-l-ai-act-a-l-epr\">Les agents d'IA mettent l'AI Act à l'épreuve</h2>\n<p>Bruxelles peut-elle contrôler la sécurité des modèles d'IA avant leur commercialisation ? La question prend une portée concrète avec les incidents provoqués par des agents d'OpenAI et d'Anthropic. Des intrusions, donc, que L'Usine Digitale met en regard de l'AI Act, le règlement européen qui encadre la mise sur le marché des modèles.</p>\n<p>Le texte réglementaire organise l'entrée sur le marché. Les incidents, eux, ne se logent pas dans cette séquence : ils surviennent en aval, une fois les agents déployés et dotés de moyens d'action. Que peut-on évaluer avant commercialisation, et avec quels moyens ? Ces intrusions rendent la question difficile à contourner.</p>\n<h2 id=\"pekin-veut-controler-l-export-l-open-sou\">Pékin veut contrôler l'export, l'open source épargné</h2>\n<p>Le 16 octobre 2026, la Chine a proposé de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul. Un mouvement de verrouillage, mais avec une exception notable : les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées.</p>\n<p>La consultation publique court jusqu'au 15 novembre. L'enregistrement préalable à l'export, lui, s'applique déjà.</p>\n<h2 id=\"meta-et-le-cern-deux-facons-d-alimenter-\">Meta et le CERN : deux façons d'alimenter les modèles</h2>\n<p>Côté données, deux mouvements que tout oppose. Meta d'abord : ses nouveaux termes, qui entrent en vigueur le 30 octobre, semblent autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, y compris les éditeurs en ligne. C'est ce que rapporte Nieman Lab, relayé par The Verge. Le contenu ainsi collecté pourrait servir à « développer, améliorer, rechercher » et « entraîner ».</p>\n<p>Le CERN ensuite. L'organisation et Mistral AI ont signé jeudi 15 octobre 2026 une déclaration d'intention pour créer un « grand modèle de physique ». Le modèle serait entraîné sur des milliards de collisions simulées au LHC. Aucun budget ni calendrier n'a été communiqué.</p>\n<p>D'un côté, de la donnée éditoriale captée à grande échelle sur le web ; de l'autre, de la donnée scientifique produite par simulation. Deux manières d'approvisionner un modèle, deux régimes de consentement et de coût.</p>\n<h2>Et maintenant ?</h2>\n<p>Beam montre que l'échelle reste un argument pour les modèles ouverts, à condition d'assumer l'architecture sparse et ses formats quantifiés. Les agents d'OpenAI et d'Anthropic rappellent que la sécurité d'un modèle ne se joue pas seulement au moment de sa mise sur le marché. Pékin trace de son côté une ligne entre ce qui s'exporte et ce qui est déjà public. Quant aux données d'entraînement, elles viennent désormais aussi bien des sites d'éditeurs que de collisions simulées sous terre, à Genève.</p>",
+ "pivot": "9da32319129aac92",
+ "tags": [
+  "open-source",
+  "agents",
+  "sécurité",
+  "mistral"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/lue-peut-elle-controler-les-modeles-dintelligence-artificielle-avant-leur-commercialisation-les-intrusions-provoquees-par-des-agents-ia-mettent-lai-act-a-lepreuve.V25T6MKNZ5GQHATLU4TK65WFAA.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/sciences/2354527-des-milliards-de-simulations-de-collision-mistral-sassocie-au-cern-pour-creer-un-modele-dia-de-pointe-pour-la-physique-des-particules.html"
+  }
+ ],
+ "date": "2026-10-16T16:36:33+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1585,
+  "sortie": 5012
+ }
+}

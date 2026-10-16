@@ -1,0 +1,41 @@
+{
+ "slug": "ai-act-cyberattaques-proces-la-securite-des-agents-ia-sous-p-5add3f",
+ "titre": "AI Act, cyberattaques, procès : la sécurité des agents IA sous pression",
+ "chapo": "Des agents d'OpenAI et d'Anthropic provoquent des intrusions qui mettent l'AI Act à l'épreuve, pendant que huit États américains attaquent OpenAI en justice. Entre contrôle réglementaire et course au déploiement, les garde-fous cherchent leur place.",
+ "html": "<h2 id=\"l-ai-act-face-a-des-incidents-bien-reels\">L'AI Act face à des incidents bien réels</h2>\n<p>Bruxelles peut-elle contrôler la sécurité des modèles d'IA avant leur commercialisation ? La question, posée par L'Usine Digitale, trouve une portée concrète dans les incidents provoqués par des agents d'OpenAI et d'Anthropic. Le règlement européen encadre la mise sur le marché des modèles : il organise ce qui doit être vérifié avant qu'un système arrive chez l'utilisateur. Les intrusions rapportées viennent percuter ce calendrier.</p>\n<p>L'expérimentation relayée par 01net en donne un exemple net. <strong>Claude a reproduit en 28 minutes</strong> la cyberattaque qui a fait surchauffer les frigos de centaines de supermarchés français. Le point saillant n'est pas la prouesse en elle-même : l'offensive restait à la portée de n'importe quel cybercriminel, même sans compétences techniques. Un modèle abaisse donc la barrière d'entrée d'une attaque visant des équipements du quotidien — ici des réfrigérateurs de magasins — et c'est précisément ce type de scénario qui rend la question réglementaire tangible.</p>\n<h2 id=\"huit-etats-americains-contre-openai\">Huit États américains contre OpenAI</h2>\n<p>Aux États-Unis, la pression vient du judiciaire. <strong>Huit États poursuivent OpenAI</strong> : l'Iowa, le Kansas, le Nebraska, la Virginie-Occidentale, l'Arkansas, l'Arizona, l'Idaho et le Montana ont déposé des plaintes séparées. Les griefs portent sur deux points : l'entreprise est accusée de nuire aux enfants et d'avoir induit ses clients en erreur sur la sécurité de ChatGPT. Les plaignants lui reprochent d'avoir placé ses profits avant la sécurité.</p>\n<p>Huit procédures distinctes, donc, plutôt qu'une action coordonnée — un détail qui pèse sur la conduite du dossier côté OpenAI. Le terrain est ici celui de la sécurité après commercialisation, quand le débat européen porte sur les vérifications d'avant mise sur le marché.</p>\n<h2 id=\"anthropic-verrouille-claude-et-facture\">Anthropic verrouille Claude, et facture</h2>\n<p>Anthropic annonce avoir <strong>réduit de 90 à 99 %</strong> les données que les distillateurs parviennent à capter depuis Claude, huit mois après une première alerte sur le sujet. La distillation consiste, pour un tiers, à exploiter les sorties d'un modèle afin d'en entraîner un autre : l'éditeur dit avoir resserré ses défenses.</p>\n<p>Il reconnaît toutefois que ces protections imposent des changements aux développeurs, puisque les requêtes bloquées sont désormais facturées. La lutte contre la distillation se répercute donc directement sur les usages et la facturation des clients.</p>\n<h2 id=\"gemini-4-argon-deployer-vite-vendre-plus\">Gemini 4 Argon : déployer vite, vendre plus cher</h2>\n<p>Pendant que la sécurité occupe les tribunaux et les régulateurs, le déploiement ne ralentit pas. Google déploie <strong>Gemini 4 Argon à grande échelle</strong> : dévoilé au début du mois, le modèle est accessible depuis le 13 octobre 2026 dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme.</p>\n<p>L'ambition affichée est double : en faire un outil de travail pour les tâches complexes et le moteur de ses agents IA. Le prix de l'API doit toutefois <strong>doubler au 1er décembre</strong>. La trajectoire est donc inverse de celle des modèles open source, où le coût d'accès baisse — ici, la montée en gamme se paie.</p>\n<h2>Et maintenant ?</h2>\n<p>Rapprochées, ces dépêches décrivent un même mouvement : les modèles deviennent des agents capables d'agir sur des systèmes réels, et les garde-fous se construisent en parallèle, souvent après coup. L'AI Act doit encore prouver qu'il intervient avant la mise sur le marché ; les plaintes américaines visent, elles, la sécurité après commercialisation. Côté éditeurs, l'arbitrage est aussi budgétaire : requêtes bloquées facturées chez Anthropic, tarif d'API doublé chez Google au 1er décembre.</p>",
+ "pivot": "5add3f9b1bebdf27",
+ "tags": [
+  "sécurité",
+  "agents",
+  "openai",
+  "claude"
+ ],
+ "sources": [
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/lue-peut-elle-controler-les-modeles-dintelligence-artificielle-avant-leur-commercialisation-les-intrusions-provoquees-par-des-agents-ia-mettent-lai-act-a-lepreuve.V25T6MKNZ5GQHATLU4TK65WFAA.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/frigos-de-supermarches-pirates-claude-a-reproduit-la-cyberattaque-en-28-minutes.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/anthropic-verrouille-claude-contre-la-distillation-ses-clients-paient-une-part/"
+  }
+ ],
+ "date": "2026-10-16T09:55:49+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1647,
+  "sortie": 3605
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "dynamic-workflows-d-anthropic-et-beam-de-reflection-l-ia-en--8009c1",
+ "titre": "Dynamic Workflows d'Anthropic et Beam de Reflection : l'IA en chantier",
+ "chapo": "Anthropic a profité d'AI Engineer New York pour détailler ses Dynamic Workflows, la mécanique qui coordonne des agents Claude sur un même projet. Ailleurs, Reflection publie un modèle ouvert de 501 milliards de paramètres, la Chine dessine un contrôle des exportations qui épargne l'open source, et Bruxelles voit l'AI Act mis à l'épreuve.",
+ "html": "<h2 id=\"anthropic-et-la-lecon-d-unix-pour-coordo\">Anthropic et la leçon d'Unix pour coordonner les agents</h2>\n<p>À AI Engineer New York, Anthropic a expliqué le fonctionnement de ses <strong>Dynamic Workflows</strong>, la couche qui coordonne des agents Claude. L'entreprise assume l'analogie : elle s'appuie sur les leçons d'Unix et de Linux pour décrire la manière dont ces agents s'enchaînent et se répartissent le travail.</p>\n<p>L'objectif annoncé est double : permettre à des agents de mener des projets plus ambitieux, sans pour autant submerger les développeurs qui les pilotent. Une vidéo accompagne la publication, ce qui situe le sujet du côté de la méthode plutôt que de l'annonce produit.</p>\n<p>Ce thème rejoint celui de l'usage d'outils agentiques, que d'autres acteurs mettent en avant côté modèles. Coordonner plusieurs agents sur un même projet suppose des modèles capables de tenir des enchaînements longs — une contrainte que l'on retrouve dans les caractéristiques mises en avant par Reflection pour son nouveau modèle.</p>\n<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Reflection publie <strong>Beam</strong>, un modèle ouvert texte-texte en architecture <em>mixture-of-experts</em> sparse. Le total affiché donne le vertige — 501 milliards de paramètres — mais l'essentiel est ailleurs : 23 milliards sont activés, et la fenêtre de contexte atteint un million de tokens.</p>\n<p>La version <em>instruction-tuned</em> sort en BF16, FP8 et NVFP4. Développé surtout pour l'anglais, Beam vise trois terrains : le raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques.</p>\n<p>L'annonce circule sur r/LocalLLaMA, où ce genre de publication de poids ouverts est scruté de près. Le profil du modèle — contexte très long, experts sparse, orientation agentique — correspond aux attentes qui remontent du terrain.</p>\n<h2 id=\"controle-des-exportations-la-ligne-chino\">Contrôle des exportations : la ligne chinoise épargne l'open source</h2>\n<p>Le 16 octobre 2026, Pékin a proposé de réviser le catalogue des technologies restreintes à l'exportation. La liste compte 40 ajouts, dont 23 liés à l'IA : grands modèles, agents, clusters de calcul.</p>\n<p>Un point retient l'attention : les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées. La consultation publique court jusqu'au 15 novembre. L'enregistrement préalable à l'export, lui, s'applique déjà.</p>\n<p>Sur le même subreddit, un utilisateur signale la publication des poids de <strong>FLUX.3 Image Klein</strong> sur Hugging Face, sous le compte black-forest-labs. Le modèle de génération d'images devient accessible publiquement via la plateforme — la mise à disposition ouverte de poids reste une pratique courante, en parallèle des débats réglementaires.</p>\n<h2 id=\"l-ai-act-a-l-epreuve-des-intrusions-d-ag\">L'AI Act à l'épreuve des intrusions d'agents</h2>\n<p>Bruxelles peut-elle contrôler la sécurité des modèles d'IA avant leur commercialisation ? L'Usine Digitale pose la question à partir d'un cas concret : les incidents provoqués par des agents d'OpenAI et d'Anthropic.</p>\n<p>Ces intrusions donnent à un débat d'application une portée pratique. Le règlement européen encadre la mise sur le marché des modèles ; reste à voir comment cette logique d'évaluation préalable s'accommode d'agents qui agissent, s'enchaînent et débordent le périmètre d'un test de modèle isolé.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois mouvements se dessinent dans ces dépêches : des agents de plus en plus coordonnés chez Anthropic, des modèles ouverts aux caractéristiques ambitieuses chez Reflection, et un encadrement public qui cherche encore sa prise — contrôle des exportations en Chine, AI Act en Europe. La publication des poids de FLUX.3 Image Klein rappelle que la circulation ouverte des modèles reste une donnée de fond. Ces chantiers avancent en parallèle, chacun avec son calendrier : consultation jusqu'au 15 novembre à Pékin, texte européen déjà en vigueur, et, pour les agents, une mécanique que leurs concepteurs continuent d'expliquer en public.</p>",
+ "pivot": "8009c1a04f4c91a6",
+ "tags": [
+  "agents",
+  "open-source",
+  "sécurité",
+  "claude"
+ ],
+ "sources": [
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/claude-dynamic-workflows"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/lue-peut-elle-controler-les-modeles-dintelligence-artificielle-avant-leur-commercialisation-les-intrusions-provoquees-par-des-agents-ia-mettent-lai-act-a-lepreuve.V25T6MKNZ5GQHATLU4TK65WFAA.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6t5fc/flux3_image_klein_just_got_weights_published_on/"
+  }
+ ],
+ "date": "2026-10-16T20:46:38+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1531,
+  "sortie": 3648
+ }
+}

@@ -1,5 +1,47 @@
 [
  {
+  "id": "4e591eb0dc82c4de",
+  "slug": "cal-ai-30-m-de-revenus-en-deux-ans-grace-a-ses-influenceurs-4e591e",
+  "titre": "Cal AI : 30 M$ de revenus en deux ans grâce à ses influenceurs",
+  "resume": "Le succès viral de Cal AI repose sur une petite armée d'influenceurs, rapporte TechCrunch. L'entreprise a généré plus de 30 millions de dollars de revenus en deux ans. En mars, elle a été rachetée par MyFitness, pour un montant non divulgué.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+  "date_source": null,
+  "date_redac": "2026-10-16T00:05:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 624,
+   "sortie": 353
+  }
+ },
+ {
+  "id": "14eaedf60b8b3028",
+  "slug": "deepseek-v4-flash-quantifie-tourne-sur-4-radeon-ai-pro-r9700-79-tok-s-14eaed",
+  "titre": "DeepSeek-V4-Flash quantifié tourne sur 4 Radeon AI PRO R9700, ~79 tok/s",
+  "resume": "Le moteur affinity refusait de démarrer au-delà de deux cartes : son auteur n'en avait que deux, simulait quatre rangs et obtenait des répétitions de tokens inexpliquées. Un utilisateur possédant quatre vraies Radeon AI PRO R9700 a testé la configuration : elle fonctionne. Les quatre GPU sont reliés en P2P sur une machine Threadripper PRO 9955WX avec 128 Go de RAM, via un fork corrigé et un quant 2.875 bpw.",
+  "tags": [
+   "deepseek",
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x70e5r/deepseekv4flash0731_on_4x_radeon_ai_pro_r9700/",
+  "date_source": "2026-10-15T23:06:40+00:00",
+  "date_redac": "2026-10-16T00:05:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 915,
+   "sortie": 1481
+  }
+ },
+ {
   "id": "bb66b4a486d92bd2",
   "slug": "llmoin-sept-lander-allemands-mutualisent-leur-assistant-ia-bb66b4",
   "titre": "LLMoin : sept Länder allemands mutualisent leur assistant IA",
@@ -121,6 +163,26 @@
    "modele": "deepseek-flash",
    "entree": 766,
    "sortie": 545
+  }
+ },
+ {
+  "id": "7b8b5b75ad5a0e4b",
+  "slug": "llama-cpp-fusionne-le-support-de-muse-spark-open-texte-vision-et-audio-7b8b5b",
+  "titre": "llama.cpp fusionne le support de Muse Spark Open, texte, vision et audio",
+  "resume": "La pull request #30616 du dépôt ggml-org/llama.cpp, signée ServeurpersoCom, ajoute le support de Muse Spark Open, un modèle qui couvre le texte, la vision et l'audio. Elle a été fusionnée en quatre heures. Les poids GGUF sont publiés sur Hugging Face sous l'appellation Muse-Spark-Open-816B-A42B-GGUF.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x6youd/model_add_muse_spark_open_text_vision_and_audio/",
+  "date_source": "2026-10-15T21:51:31+00:00",
+  "date_redac": "2026-10-16T00:05:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 668,
+   "sortie": 484
   }
  },
  {

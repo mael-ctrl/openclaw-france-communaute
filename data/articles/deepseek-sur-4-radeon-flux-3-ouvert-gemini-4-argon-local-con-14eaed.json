@@ -1,0 +1,41 @@
+{
+ "slug": "deepseek-sur-4-radeon-flux-3-ouvert-gemini-4-argon-local-con-14eaed",
+ "titre": "DeepSeek sur 4 Radeon, FLUX.3 ouvert, Gemini 4 Argon : local contre cloud",
+ "chapo": "Pendant que DeepSeek-V4-Flash se fait tourner sur quatre Radeon AI PRO R9700, les poids de FLUX.3 Image Klein arrivent sur Hugging Face et Nvidia présente le RTX Spark. Chez Google et Microsoft, l'échelle change aussi : Gemini 4 Argon se déploie partout, et l'IA sert à corriger plus de 1 400 failles.",
+ "html": "<h2 id=\"quatre-cartes-un-fork-79-tok-s\">Quatre cartes, un fork, 79 tok/s</h2>\n<p>Le moteur <em>affinity</em> refusait de démarrer au-delà de deux cartes graphiques. Son auteur n'en possédait que deux : faute de matériel, il simulait quatre rangs, et obtenait des répétitions de tokens inexpliquées. Une limite de banc de test autant que de code.</p>\n<p>Un utilisateur équipé de quatre vraies Radeon AI PRO R9700 a repris la configuration. Elle fonctionne : les quatre GPU communiquent en P2P sur une machine Threadripper PRO 9955WX avec 128 Go de RAM, via un fork corrigé et un quant 2.875 bpw. Le débit rapporté tourne autour de <strong>79 tokens par seconde</strong>.</p>\n<p>Autrement dit, une partie du problème tenait au matériel — ou plutôt à son absence chez celui qui écrivait le moteur. Il aura fallu un fork corrigé et quatre cartes réellement présentes dans la machine.</p>\n<h2 id=\"ia-locale-des-poids-ouverts-et-une-puce-\">IA locale : des poids ouverts et une puce hybride</h2>\n<p><strong>FLUX.3 Image Klein.</strong> Un utilisateur de r/LocalLLaMA signale la publication des poids du modèle de génération d'images sur Hugging Face, sous le compte black-forest-labs. Le modèle devient accessible publiquement via la plateforme. La nouvelle est brève, mais elle concerne ceux qui préfèrent récupérer un modèle plutôt que consommer une API.</p>\n<p><strong>Nvidia RTX Spark.</strong> De son côté, Nvidia signe avec le RTX Spark sa première puce complète destinée aux PC portables Windows. Elle réunit un GPU Blackwell, un processeur Arm et jusqu'à 128 Go de mémoire unifiée dans un seul boîtier. Frandroid a testé la puce dans un Asus ProArt P16, sur le jeu, l'IA locale et l'autonomie, face à un portable gamer en RTX 5070, un Mac Apple Silicon et un PC Ryzen AI Max+ 395.</p>\n<p>Les deux mouvements n'ont pas la même nature — un modèle ouvert d'un côté, du silicium de l'autre — mais ils pointent dans la même direction : faire tenir l'inférence sur la machine qu'on a sous la main.</p>\n<h2 id=\"gemini-4-argon-se-deploie-le-tarif-de-l-\">Gemini 4 Argon se déploie, le tarif de l'API double</h2>\n<p>Google passe à l'échelle avec Gemini 4 Argon. Dévoilé au début du mois, le modèle est accessible depuis le <strong>13 octobre 2026</strong> dans le monde entier via l'API Gemini, ainsi qu'aux abonnés payants dans plusieurs produits de la firme.</p>\n<p>L'ambition affichée : en faire un outil de travail pour les tâches complexes et le moteur de ses agents IA. La contrepartie est déjà datée — le prix de l'API doublera le 1er décembre.</p>\n<h2 id=\"plus-de-1-400-failles-corrigees-dans-win\">Plus de 1 400 failles corrigées dans Windows</h2>\n<p>Microsoft a publié un Patch Tuesday hors norme : plus de <strong>1 400 failles</strong> corrigées dans le code de Windows. C'est la troisième fois cette année que l'éditeur bat son propre record.</p>\n<p>L'entreprise indique s'être massivement servie de l'intelligence artificielle pour débusquer les bugs. Un usage moins visible que les agents conversationnels, mais qui porte sur un périmètre autrement plus large.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux façons de faire de l'IA se dessinent côte à côte. D'un côté, des modèles qu'on télécharge et qu'on exécute sur son propre matériel — DeepSeek-V4-Flash sur quatre Radeon, FLUX.3 Image Klein sur Hugging Face, une puce Nvidia qui vise le portable. De l'autre, des plateformes qui facturent l'accès, à l'image de Gemini 4 Argon et de son API bientôt deux fois plus chère. Entre les deux, Microsoft rappelle que l'IA sert aussi à trouver des failles — plus de 1 400 en un seul Patch Tuesday.</p>",
+ "pivot": "14eaedf60b8b3028",
+ "tags": [
+  "deepseek",
+  "matériel",
+  "gemini",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x70e5r/deepseekv4flash0731_on_4x_radeon_ai_pro_r9700/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6t5fc/flux3_image_klein_just_got_weights_published_on/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/test/3283093_test-nvidia-rtx-spark"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/big-tech/google/google-deploie-gemini-4-argon-a-grande-echelle-mais-le-prix-de-lapi-va-doubler-le-1er-decembre.OWFAMXUYN5DDVCHVLJM2RA4LIM.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/plus-de-1-400-failles-windows-le-nouveau-record-monstrueux-du-patch-tuesday-de-microsoft.html"
+  }
+ ],
+ "date": "2026-10-16T00:06:21+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1572,
+  "sortie": 5663
+ }
+}

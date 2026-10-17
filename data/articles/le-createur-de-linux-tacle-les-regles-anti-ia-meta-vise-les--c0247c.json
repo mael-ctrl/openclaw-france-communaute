@@ -1,0 +1,41 @@
+{
+ "slug": "le-createur-de-linux-tacle-les-regles-anti-ia-meta-vise-les--c0247c",
+ "titre": "Le créateur de Linux tacle les règles anti-IA, Meta vise les éditeurs",
+ "chapo": "Le créateur de Linux a qualifié de « débiles » les règles anti-IA dans un fil publié le 17 octobre sur r/LocalLLaMA, sans préciser lesquelles il visait. La même semaine, Meta ajuste ses termes pour pouvoir aspirer le contenu des éditeurs, Pékin propose de restreindre l'export de 23 technologies IA et deux modèles ouverts débarquent.",
+ "html": "<h2 id=\"idiotic-la-sortie-du-createur-de-linux\">« Idiotic » : la sortie du créateur de Linux</h2>\n<p>Le créateur de Linux n'a pas mâché ses mots. Dans un fil publié sur r/LocalLLaMA le 17 octobre 2026, il qualifie de « débiles » (<em>idiotic</em>) les règles anti-IA. Le post ne dit pas quelles règles sont visées : pas de nom de projet, pas de politique précise, juste un jugement. Et c'est bien ce qui en fait un signal.</p>\n<p>Car la sortie pèse. Elle tombe dans un débat où les positions anti-IA gagnent du terrain chez les développeurs et dans l'open source — refus de contributions générées, chartes internes, projets qui ferment la porte aux modèles. Que le créateur du noyau Linux, dont la parole porte dans le monde du logiciel libre, tranche publiquement de ce côté déplace un peu l'équilibre.</p>\n<p>Rien n'indique pour autant un ralliement massif. Le fil ne documente ni vote, ni pétition, ni changement de règle dans un projet donné. C'est une opinion, exprimée sur un forum, à un moment où les lignes bougent.</p>\n<h2 id=\"meta-et-les-sites-associes-les-termes-du\">Meta et les sites « associés » : les termes du 30 octobre</h2>\n<p>Les nouveaux termes de Meta entrent en vigueur le 30 octobre. Selon un rapport de Nieman Lab, ils semblent autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes — éditeurs en ligne compris. Le contenu récupéré pourrait ensuite servir à « développer, améliorer, rechercher » et « entraîner ».</p>\n<p>Le mot important est « semblent ». La formulation laisse la porte ouverte à plusieurs lectures, et le périmètre exact des sites « associés » n'est pas arrêté dans la dépêche. Reste la direction : Meta se donne les moyens contractuels d'aspirer du contenu éditorial, sans contrepartie décrite pour ceux dont les pages sont moissonnées. Les éditeurs n'apparaissent pas dans l'équation, du moins pas en position de négocier.</p>\n<p>À noter un décalage de calendrier : la entrée en vigueur est fixée au 30 octobre, soit peu ou prou au moment où la Chine clôt sa propre consultation sur les technologies sensibles.</p>\n<h2 id=\"beam-et-flux-3-les-poids-continuent-de-s\">Beam et FLUX.3 : les poids continuent de sortir</h2>\n<p>Reflection publie Beam, un modèle ouvert texte-texte en architecture <em>mixture-of-experts</em> sparse : 501 milliards de paramètres au total, 23 milliards activés, pour une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en BF16, FP8 et NVFP4. Développé surtout pour l'anglais, Beam vise un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques.</p>\n<p>À côté, du plus terre-à-terre : un utilisateur de r/LocalLLaMA signale la publication des poids de FLUX.3 Image Klein sur Hugging Face, sous le compte black-forest-labs. Le modèle de génération d'images devient accessible publiquement via la plateforme.</p>\n<p>Deux échelles, une même logique : le poids ouvert reste une option sur la table, du modèle de raisonnement à 501 milliards de paramètres au générateur d'images.</p>\n<h2 id=\"pekin-ajoute-23-technologies-ia-a-son-ca\">Pékin ajoute 23 technologies IA à son catalogue, l'open source exempté</h2>\n<p>Le 16 octobre 2026, la Chine propose de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul. Les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées. La consultation publique court jusqu'au 15 novembre ; l'enregistrement préalable à l'export s'applique déjà.</p>\n<p>Le geste est double. D'un côté, Pékin étend la liste des briques sensibles. De l'autre, il inscrit noir sur blanc que ce qui est déjà publié échappe au filtre. Autrement dit, la publication ouverte devient une voie de sortie légale pour des technologies qui, gardées propriétaires, tomberaient sous enregistrement préalable.</p>\n<p>Le périmètre reste à écrire : les 23 entrées ne sont pas détaillées une à une dans la dépêche, et la consultation peut encore bouger les curseurs.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, une même question : qui met la main sur quoi. Un créateur de logiciel libre juge les règles anti-IA débiles ; Meta élargit ses termes pour aspirer du contenu éditorial ; Pékin exempte l'open source tout en ajoutant 23 technologies IA à son catalogue d'export ; Reflection et Black Forest Labs publient des poids. Le débat ne porte plus seulement sur les modèles, mais sur les flux qui les nourrissent et les règles qui les encadrent. Les échéances s'échelonnent : 30 octobre pour Meta, 15 novembre pour la consultation chinoise.</p>",
+ "pivot": "c0247c31348594bb",
+ "tags": [
+  "open-source",
+  "meta",
+  "agents",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8e4wd/linux_creator_says_antiai_rules_are_idiotic/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6t5fc/flux3_image_klein_just_got_weights_published_on/"
+  }
+ ],
+ "date": "2026-10-17T16:41:11+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1517,
+  "sortie": 3616
+ }
+}

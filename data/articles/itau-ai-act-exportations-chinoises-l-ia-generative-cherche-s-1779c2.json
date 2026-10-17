@@ -1,0 +1,41 @@
+{
+ "slug": "itau-ai-act-exportations-chinoises-l-ia-generative-cherche-s-1779c2",
+ "titre": "Itaú, AI Act, exportations chinoises : l'IA générative cherche ses garde-fous",
+ "chapo": "Itaú met l'IA générative entre les mains de tous ses clients brésiliens, dans l'un des secteurs les plus réglementés du pays. Au même moment, Bruxelles s'interroge sur sa capacité à contrôler les modèles, Pékin propose de restreindre l'export de 23 technologies IA et Meta lorgne les contenus des éditeurs.",
+ "html": "<h2 id=\"itau-l-ia-generative-a-l-echelle-sous-co\">Itaú : l'IA générative à l'échelle, sous contrainte réglementaire</h2>\n<p>OpenAI documente le déploiement d'Itaú, et le cas mérite qu'on s'y arrête. La banque brésilienne met l'IA générative à disposition de <strong>tous ses clients</strong>, avec deux briques : <em>ia.i</em>, une interface conversationnelle côté usage, et <em>IARA</em>, une plateforme de gouvernance côté contrôle. L'ensemble s'inscrit dans une stratégie « AI First » qui couvre les clients comme les employés.</p>\n<p>Le contexte pèse autant que l'outil : le déploiement se fait dans <strong>l'un des secteurs les plus réglementés du Brésil</strong>. La question n'est donc pas seulement de savoir si le modèle répond correctement, mais comment on encadre, trace et documente ce qu'il produit — ce que porte précisément IARA. OpenAI en fait un cas d'usage documenté, ce qui vaut démonstration autant que vitrine commerciale.</p>\n<h2 id=\"l-ai-act-face-a-des-agents-qui-eux-agiss\">L'AI Act face à des agents qui, eux, agissent</h2>\n<p>L'Usine Digitale pose la question sans détour : <strong>Bruxelles peut-elle contrôler la sécurité des modèles d'IA avant leur commercialisation ?</strong> Le règlement européen encadre bien la mise sur le marché des modèles. Mais les intrusions provoquées par des agents d'OpenAI et d'Anthropic donnent à cette interrogation une portée très concrète, et mettent l'AI Act à l'épreuve.</p>\n<p>Le texte organise l'entrée sur le marché ; les incidents, eux, surviennent après. C'est tout l'écart que la dépêche souligne : un cadre pensé pour la mise à disposition se retrouve jugé sur des comportements d'agents déjà déployés.</p>\n<h2 id=\"pekin-veut-filtrer-23-technologies-ia-l-\">Pékin veut filtrer 23 technologies IA, l'open source épargné</h2>\n<p>Le 16 octobre 2026, la Chine a proposé de réviser le catalogue des technologies restreintes à l'export : <strong>40 ajouts</strong>, dont <strong>23 liés à l'IA</strong>. Sont concernés les grands modèles, les agents et les clusters de calcul. La consultation publique court jusqu'au <strong>15 novembre</strong>.</p>\n<p>Une précision change la portée du texte : les technologies déjà rendues publiques via <strong>l'open source ou des publications académiques</strong> en sont explicitement exemptées. Le contrôle viserait donc ce qui n'est pas déjà sorti, pas ce qui circule ouvertement. L'enregistrement préalable à l'export, lui, s'applique déjà.</p>\n<h2 id=\"donnees-et-rachats-les-moyens-d-abord\">Données et rachats : les moyens d'abord</h2>\n<p>Chez Meta, l'enjeu porte sur la matière première. Selon un rapport de <strong>Nieman Lab</strong> relayé par <em>The Verge</em>, les nouveaux termes du groupe, <strong>en vigueur le 30 octobre</strong>, semblent autoriser le crawl et le scraping des sites « associés » aux entreprises qui utilisent ses plateformes — éditeurs en ligne compris. Ces contenus externes pourraient ensuite servir à « développer, améliorer, rechercher » et « entraîner ».</p>\n<p>En Europe, Mistral avance par acquisitions. Selon <strong>Maddyness</strong>, le groupe a bouclé sa <strong>quatrième acquisition en huit mois</strong>, information publiée le 16 octobre 2026. Le détail de l'opération et l'identité de l'entreprise rachetée n'ont pas été précisés.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, quatre façons de poser la même question : qui tient les rênes ? Itaú montre l'échelle, avec un déploiement étendu à toute la clientèle dans un secteur très réglementé. L'AI Act montre la limite : un cadre de mise sur le marché face à des agents qui agissent. La Chine montre le levier : filtrer l'export de modèles, d'agents et de clusters, en laissant l'open source dehors. Meta montre la matière première, les contenus des éditeurs. Mistral montre le rythme : quatre acquisitions en huit mois.</p>",
+ "pivot": "1779c240f89f7d1d",
+ "tags": [
+  "openai",
+  "agents",
+  "mistral",
+  "meta"
+ ],
+ "sources": [
+  {
+   "nom": "OpenAI",
+   "url": "https://openai.com/index/itau-generative-ai"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/10/16/mistral-realise-sa-quatrieme-acquisition-en-huit-mois/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/lue-peut-elle-controler-les-modeles-dintelligence-artificielle-avant-leur-commercialisation-les-intrusions-provoquees-par-des-agents-ia-mettent-lai-act-a-lepreuve.V25T6MKNZ5GQHATLU4TK65WFAA.html"
+  }
+ ],
+ "date": "2026-10-16T23:52:22+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1506,
+  "sortie": 4432
+ }
+}

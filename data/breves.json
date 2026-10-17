@@ -1,5 +1,48 @@
 [
  {
+  "id": "1779c240f89f7d1d",
+  "slug": "itau-deploie-l-ia-generative-pour-tous-ses-clients-avec-openai-1779c2",
+  "titre": "Itaú déploie l'IA générative pour tous ses clients avec OpenAI",
+  "resume": "Avec ia.i, une interface conversationnelle, et la plateforme de gouvernance IARA, Itaú applique sa stratégie « AI First » auprès de ses clients comme de ses employés. Le déploiement se fait dans l'un des secteurs les plus réglementés du Brésil. OpenAI documente ce cas d'usage.",
+  "tags": [
+   "openai",
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/itau-generative-ai",
+  "date_source": null,
+  "date_redac": "2026-10-16T23:52:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 603,
+   "sortie": 841
+  }
+ },
+ {
+  "id": "0f41d25d3831fb76",
+  "slug": "qwen-3-8-flash-next-teste-sur-4x-3090-decevant-face-au-27b-q8-0f41d2",
+  "titre": "Qwen 3.8 Flash Next testé sur 4x 3090 : décevant face au 27b Q8",
+  "resume": "Un utilisateur de r/LocalLLaMA a testé Qwen 3.8 Flash Next en quantification UD-Q4_K_XL sur quatre RTX 3090, face à Qwen 3.8 27b Q8. Verdict : l'écart n'est « même pas proche », le 27b corrigeant seul deux bugs de gameplay dès le second prompt. Sur le moteur strata, les résultats sont pires qu'avec llama.cpp malgré des générations plus rapides, et un run de quatre heures n'a produit aucun exécutable jouable.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel",
+   "deepseek"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7uf15/i_dont_get_the_qwen_38_flash_next_hype/",
+  "date_source": "2026-10-16T22:48:28+00:00",
+  "date_redac": "2026-10-16T23:51:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 822,
+   "sortie": 753
+  }
+ },
+ {
   "id": "059de615c048f187",
   "slug": "l-equipe-claude-code-repense-la-revue-de-code-a-l-ere-des-agents-059de6",
   "titre": "L'équipe Claude Code repense la revue de code à l'ère des agents",

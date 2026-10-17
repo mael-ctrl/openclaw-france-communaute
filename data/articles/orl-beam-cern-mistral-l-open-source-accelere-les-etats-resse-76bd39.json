@@ -1,0 +1,41 @@
+{
+ "slug": "orl-beam-cern-mistral-l-open-source-accelere-les-etats-resse-76bd39",
+ "titre": "ORL, Beam, CERN-Mistral : l'open source accélère, les États resserrent",
+ "chapo": "Une méthode de diffusion qui dépasse 2 700 tokens par seconde sur une seule carte graphique, un modèle ouvert de 501 milliards de paramètres, un CERN qui s'allie à Mistral : la recherche ne ralentit pas. Au même moment, Meta et Pékin redessinent discrètement les règles d'accès aux données et aux technologies.",
+ "html": "<h2 id=\"la-diffusion-passe-la-seconde\">La diffusion passe la seconde</h2>\n<p>L'équipe derrière ORL (<em>On-Policy Residual Learning</em>) publie une méthode qui accélère les modèles de langage à diffusion sans sacrifier la qualité de génération. ORL s'attaque précisément à ce compromis : gagner en vitesse sans perdre en qualité. Le résultat se lit dans le débit : avec son moteur d'inférence dlmrt, la méthode atteint <strong>2 788 tokens par seconde sur une seule RTX 5090</strong> avec LLaDA-2.1-mini, et <strong>7 708 tokens par seconde sur 8× B200</strong>.</p>\n<p>Ces mesures sont prises pour une requête unique, en batch size 1. Les modèles, le code d'entraînement, le pipeline d'évaluation et le moteur d'inférence sont tous publiés en open source — de quoi reproduire les chiffres plutôt que les croire sur parole.</p>\n<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Reflection dévoile Beam, un modèle ouvert texte-texte en architecture <em>mixture-of-experts</em> sparse : <strong>501 milliards de paramètres au total, 23 milliards activés</strong>, pour une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en trois formats : BF16, FP8 et NVFP4.</p>\n<p>Le modèle est développé surtout pour l'anglais et vise trois terrains : le raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques. Comme ORL, Beam arrive avec ses poids ouverts — dans une même séquence où la question de l'accès, au calcul comme aux modèles, revient partout.</p>\n<h2 id=\"donnees-et-technologies-deux-verrous\">Données et technologies : deux verrous</h2>\n<p>Les nouveaux termes de Meta, qui entrent en vigueur le 30 octobre, semblent autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, y compris les éditeurs en ligne. C'est ce que rapporte Nieman Lab. Meta pourrait ensuite utiliser ce contenu externe pour « développer, améliorer, rechercher » et « entraîner ».</p>\n<p>Sur un autre front, Pékin a proposé le 16 octobre 2026 de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul. Deux précisions comptent. Les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées, et la consultation publique court jusqu'au 15 novembre. L'enregistrement préalable à l'export, lui, s'applique déjà.</p>\n<p>Deux mouvements distincts, une même logique : définir qui peut accéder à quoi. D'un côté, Meta élargit ce qu'elle peut aspirer ; de l'autre, Pékin liste ce qui ne sortira pas sans autorisation, tout en laissant une porte ouverte à l'open source.</p>\n<h2 id=\"le-cern-et-mistral-visent-un-grand-model\">Le CERN et Mistral visent un « grand modèle de physique »</h2>\n<p>Le CERN et Mistral AI ont signé jeudi 15 octobre 2026 une déclaration d'intention pour créer un « grand modèle de physique ». L'entraînement reposerait sur des milliards de collisions simulées au LHC.</p>\n<p>Aucun budget ni calendrier n'a été communiqué. L'annonce porte donc sur une intention de collaboration, pas encore sur un programme chiffré.</p>\n<h2>Et maintenant ?</h2>\n<p>Prises ensemble, ces dépêches racontent moins une course à la taille qu'une bataille sur les conditions d'accès : au calcul pour ORL, aux poids pour Beam, aux contenus éditoriaux pour Meta, aux technologies pour Pékin. Les exemptions open source inscrites dans le texte chinois et la publication complète des travaux d'ORL vont dans le même sens ; les termes de Meta élargissent au contraire un périmètre de collecte. Le projet CERN-Mistral reste, lui, une déclaration d'intention.</p>",
+ "pivot": "76bd3962439645c8",
+ "tags": [
+  "open-source",
+  "recherche",
+  "meta",
+  "mistral"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/sciences/2354527-des-milliards-de-simulations-de-collision-mistral-sassocie-au-cern-pour-creer-un-modele-dia-de-pointe-pour-la-physique-des-particules.html"
+  }
+ ],
+ "date": "2026-10-17T00:44:10+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1588,
+  "sortie": 5145
+ }
+}

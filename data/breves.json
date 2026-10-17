@@ -1,5 +1,46 @@
 [
  {
+  "id": "1bc75449d61c89b6",
+  "slug": "astuce-de-decodage-sur-qwen-3-8-flash-next-jusqu-a-55-en-changeant-ada-1bc754",
+  "titre": "Astuce de décodage sur Qwen 3.8 Flash Next : jusqu'à +55 % en changeant --adapt-every",
+  "resume": "Sur r/LocalLLaMA, un utilisateur rapporte des gains de vitesse de décodage sur Qwen 3.8 Flash Next en passant le paramètre --adapt-every de la valeur calibrée 1 à 6. Sur quatre prompts consécutifs en slovaque, dont un décrivant 20 000 tokens de code source, les mesures vont de +9 % à +55 % selon la quantification utilisée. Les tests tournent sur un i7-11700F et une RTX 4070 Ti Super.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x86yor/strata_qwen_38_flash_next_boosting_decoding_speed/",
+  "date_source": "2026-10-17T10:31:33+00:00",
+  "date_redac": "2026-10-17T10:42:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 950,
+   "sortie": 1019
+  }
+ },
+ {
+  "id": "4fa124a16d7c9db5",
+  "slug": "nvidia-injecte-8-milliards-de-dollars-dans-les-entreprises-europeennes-4fa124",
+  "titre": "Nvidia injecte 8 milliards de dollars dans les entreprises européennes",
+  "resume": "En quelques mois, Nvidia a injecté 8 milliards de dollars dans des entreprises européennes. Ce sera 10 milliards dès l'an prochain, rapporte 01net. Derrière ces prises de participation un peu partout, le média voit autre chose qu'un simple éparpillement : les montants engagés donnent la mesure des moyens que le groupe déploie sur le Vieux Continent.",
+  "tags": [
+   "business",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/pourquoi-nvidia-investit-ses-milliards-de-dollars-un-peu-partout.html",
+  "date_source": "2026-10-17T10:08:59+00:00",
+  "date_redac": "2026-10-17T10:42:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 660,
+   "sortie": 1229
+  }
+ },
+ {
   "id": "88492fdbf2c1b316",
   "slug": "strata-et-qwen-3-8-flash-next-la-vitesse-cache-t-elle-une-perte-de-qua-88492f",
   "titre": "Strata et Qwen 3.8 Flash Next : la vitesse cache-t-elle une perte de qualité",

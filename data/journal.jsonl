@@ -2114,3 +2114,9 @@
 {"ts": "2026-10-17T09:47:58+00:00", "evenement": "deploiement", "details": {"fichiers": 683, "octets": 13652001}, "sha256": "5eff9e3698ff373977acf828c8c8cb52358996e650e4b133d9a70224e80f23dc"}
 {"ts": "2026-10-17T09:47:59+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "de26503ac5b688afc46d52a3898540d696326b0e6aec6daad6f22ba3c21722b6"}
 {"ts": "2026-10-17T09:47:59+00:00", "evenement": "bilan", "details": {"duree_s": 624.5, "neufs": 2, "breves": 2, "articles": 1, "fichiers": 659, "envois": 683, "publications": 0}, "sha256": "d49bf62515a712d44f560d41d67ad0c1e70a29d1f602b407a60bcc21c362c990"}
+{"ts": "2026-10-17T10:41:59+00:00", "evenement": "collecte", "details": {"neufs": 3}, "sha256": "feef42d8898db1eb99fdcdb455a4aea35d7e903be10ef398d8699b5cf5ee32d8"}
+{"ts": "2026-10-17T10:42:23+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Gen-Verse/DiscoveryRSI-27B (finetune)) : réponse non-JSON"}, "sha256": "ddb7f46c4939995ff18dfa5047a2602d644f9630632797e9abec858c25549235"}
+{"ts": "2026-10-17T10:42:53+00:00", "evenement": "construction", "details": {"fichiers": 660}, "sha256": "40284ed28b0acf0e9c923724a5c2522681ee2e298e30199a977c5bd311f0553b"}
+{"ts": "2026-10-17T10:55:20+00:00", "evenement": "deploiement", "details": {"fichiers": 683, "octets": 13589126}, "sha256": "7d5dda117a547b5698eac46cfcd8471ae20bfa2f907f9e000aa1c706f0c65656"}
+{"ts": "2026-10-17T10:55:20+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "659d9c836526cdc968f1d2cae8c7adb2a0212e46543779e8100c88824e85dc80"}
+{"ts": "2026-10-17T10:55:20+00:00", "evenement": "bilan", "details": {"duree_s": 812.7, "neufs": 3, "breves": 2, "articles": 1, "fichiers": 660, "envois": 683, "publications": 0}, "sha256": "9806b2830d968baa0d4d361df696107cf86c2f710fc5334959159bce7430d479"}

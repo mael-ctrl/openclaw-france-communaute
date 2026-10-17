@@ -1,0 +1,41 @@
+{
+ "slug": "262k-de-contexte-sur-une-rx-9070-xt-le-kv-streaming-arrive-s-8d42bf",
+ "titre": "262k de contexte sur une RX 9070 XT : le KV streaming arrive sur ROCm",
+ "chapo": "Un développeur a porté l'adaptive KV streaming de llama.cpp sur ROCm/HIP, jusqu'ici réservé à CUDA. Résultat : Qwen 27B en IQ4_XS tient 262 144 tokens de contexte sur une seule RX 9070 XT de 16 Go, à plus de 80 t/s en décodage.",
+ "html": "<h2 id=\"le-cache-kv-sort-de-la-carte\">Le cache KV sort de la carte</h2>\n<p>Sur CUDA, l'adaptive KV streaming de llama.cpp permet déjà de déporter le cache KV hors de la mémoire vidéo. Sur ROCm/HIP, il fallait s'en passer. Un développeur a porté la fonctionnalité, et le résultat donne la mesure de ce que le procédé change : Qwen 27B en quantification IQ4_XS tourne avec 262 144 tokens de contexte sur une seule RX 9070 XT de 16 Go, à plus de 80 tokens par seconde en décodage.</p>\n<p>Le mécanisme est simple à décrire. Le cache KV complet, environ 7,4 Go, reste en RAM hôte ; seuls des ensembles de travail bornés sont streamés vers le GPU au fil du décodage. Sans ce va-et-vient, llama.cpp tombait en OOM dès qu'on dépassait ~65 000 tokens : la carte a la place pour les poids, pas pour un cache de cette taille.</p>\n<p>Le chiffre à retenir n'est pas tant les 262k tokens que le rapport entre VRAM disponible et contexte atteignable. 16 Go de mémoire vidéo, et un contexte multiplié par quatre par rapport à la limite précédente, sans changer de carte.</p>\n<h2 id=\"en-face-un-moe-ouvert-de-501-milliards\">En face, un MoE ouvert de 501 milliards</h2>\n<p>Reflection publie Beam, un modèle ouvert texte-texte en architecture mixture-of-experts sparse : 501 milliards de paramètres au total, 23 milliards activés, pour une fenêtre d'un million de tokens. La version instruction-tuned sort en BF16, FP8 et NVFP4. Le positionnement annoncé vise le raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques, avec un développement centré sur l'anglais.</p>\n<p>Les deux dépêches ne décrivent pas le même monde. D'un côté, un bricolage assumé pour faire tenir un 27B sur une carte grand public ; de l'autre, un MoE ouvert à 501 milliards de paramètres et un million de tokens de contexte, qui suppose autre chose que 16 Go de VRAM.</p>\n<p>Entre les deux, c'est la même question qui revient : où vit le cache, et qui paie la mémoire.</p>\n<h2 id=\"pekin-liste-23-technologies-ia\">Pékin liste 23 technologies IA</h2>\n<p>Le 16 octobre 2026, la Chine propose de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul. Les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées.</p>\n<p>La consultation publique court jusqu'au 15 novembre ; l'enregistrement préalable à l'export, lui, s'applique déjà. La frontière entre ce qui est publié et ce qui reste interne devient donc l'élément décisif : un modèle dont les poids sont dehors échappe à la liste, un modèle gardé à l'intérieur y entre.</p>\n<h2 id=\"poids-dehors-cartes-toujours-livrees\">Poids dehors, cartes toujours livrées</h2>\n<p>Sur Hugging Face, les poids de FLUX.3 Image Klein ont été publiés sous le compte black-forest-labs, signale un utilisateur du subreddit r/LocalLLaMA. Le modèle de génération d'images devient ainsi accessible publiquement via la plateforme.</p>\n<p>Côté matériel, Nvidia a démenti les rumeurs d'arrêt de la RTX 5090 : la carte continuera d'être expédiée. C'est Jeff Fisher, vice-président senior en charge du calcul personnel, qui a clarifié la situation lors d'un entretien après l'événement RTX Spark Launch Party: Taipei, le 16 octobre 2026.</p>\n<h2>Et maintenant ?</h2>\n<p>Ce qui relie ces dépêches, c'est une question de placement : où vivent les poids, où vit le cache, et ce que la loi considère comme dehors. Un cache KV déporté en RAM hôte fait tenir 262k tokens sur 16 Go ; des poids publiés sur Hugging Face sortent un modèle du catalogue export ; une carte dont la production est confirmée reste une option d'achat. Rien de tout cela ne relève de la performance brute — plutôt de la logistique de la mémoire et du droit.</p>",
+ "pivot": "8d42bfd942abdc2d",
+ "tags": [
+  "matériel",
+  "open-source",
+  "recherche",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x89ptz/qwen_27b_iq4_xs_q8q4_kv_at_full_262k_context_on_a/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6t5fc/flux3_image_klein_just_got_weights_published_on/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x88txd/nvidia_has_officially_confirmed_that_the_5090_is/"
+  }
+ ],
+ "date": "2026-10-17T13:34:07+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1597,
+  "sortie": 3022
+ }
+}

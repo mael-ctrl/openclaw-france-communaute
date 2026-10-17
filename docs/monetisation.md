@@ -1,5 +1,33 @@
 # Journal des actions de monétisation
 
+## 17 octobre 2026 — corriger la présentation B2B avant toute prospection
+
+**Action unique :** intégrer le correctif factuel déjà préparé, plutôt qu'ajouter une nouvelle piste à une file commercialement bloquée. Les délais deviennent des objectifs à confirmer ; superlatifs, chiffres de volume/budget et affirmation de revenu nul non étayés sont retirés. Le texte distingue formats proposés, service actif et engagement de reversement des **bénéfices**, sans prétendre à des dons réalisés.
+
+### Vérifications réellement rejouées
+
+- Rapport d'orchestration du 17/10 et revue Claude du 15/10 relus ; **63 artefacts B2B** vérifiés contre le manifeste parent. Patch ciblé repris sans recopier tout le module : seule `page_b2b()` change, avec son contrat de six tests. Base `ba7eb5e9256d20593f7672c087b9912ad0354b67`.
+- Provenance recontrôlée via API : [Casper](https://github.com/TryGhost/Casper), MIT, dernier push observé le 16/10/2026 ; [newsroom-source-graph](https://github.com/Sidshah29/newsroom-source-graph), MIT, dernier push le 10/05/2026. Concepts déjà couverts ; aucun fragment tiers, moteur ou dépendance ajouté.
+- Contrat exécuté rouge puis vert dans une archive isolée ; **111 tests Python + 4 Node réussis**, deux builds et comparaisons. Paragraphes de prix, périmètres, liens de contact, bloc de démonstration, HTML/téléchargements/CSS de l'échantillon inchangés. Texte du module hors fonction et fichiers `data/` identiques. Le libellé HT est préservé, pas validé fiscalement.
+- Vrai CLI `--essai --sans-redaction` dans une autre copie : retour 0, 660 pages + assets, aucune rédaction, aucun envoi FTP ou Bluesky. Collecte partielle (403 Siècle Digital, 429 Reddit Claude). Préfixe du journal, registre et manifestes préservés ; aucun état de recette repris. Un premier essai utilisait le mauvais interpréteur sans Pillow : échec conservé, reprise avec le Python local déjà équipé, aucune installation.
+- Chrome anonyme dédié, scripts du site désactivés, largeurs **320/390/1440 px** : absence de débordement horizontal, clic réel vers l'échantillon, ancre des offres et FAQ fonctionnelles, CSS et focus clavier vérifiés. Captures mobile/desktop relues. L'en-tête sans JS reste volumineux sur mobile (préexistant) ; aucun mailto ouvert. Chrome personnel verrouillé laissé intact, aucune configuration changée.
+
+### Publication
+
+**Correction en ligne, vérifiée le 17/10 à 11:55 UTC.** Code `12a794398cc92fe520d2c3ec1df06310e281a155`, deux blobs relus à l'identique sur GitHub. [Run 39029373316](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/39029373316) **réussi** à 11:54:31 UTC, sauvegarde d'état `50f1f73b37976322944290d4f0bedf214a3cf5e4`. Logs relus : 111 tests cloud, `b2b/index.html` envoyé, 688 fichiers transférés par le pipeline, aucune publication Bluesky. Les timeouts locaux de `gh run watch` n'étaient pas des échecs du workflow.
+
+- Page B2B et quatre fichiers de démonstration : **HTTPS strict 200**, octets identiques au build testé ; `/b2b/` également identique au rendu du commit cloud sauvegardé. Prix, liens et échantillon inchangés. `/mentions-legales/` demeure **404** à la même vérification.
+- Recette navigateur rejouée sur les URL publiques aux trois largeurs : six vues sans débordement horizontal, trois clics vers l'échantillon, ancre offres et FAQ fonctionnelles, focus clavier vérifié. Captures publiques mobile/desktop relues. Aucun mailto activé, ni formulaire ou paiement.
+- Preuves : `verification-https-final.json`, `cloud.json`, `cloud.log`, `browser-live/result.json` et les captures dans le dossier privé indiqué ci-dessous. Aucun nouveau résultat commercial démontré.
+
+### Ce qui reste fermé
+
+La correction rédactionnelle **n'autorise aucun contact B2B**. Aux contrôles préalable et final, `/mentions-legales/` répondait 404. Identité du vendeur, TVA, mentions/conditions, modalités/canal de reversement, marquage publicitaire et traitement des données/droits restent à valider. Aucun vendeur déduit du compte de paiement, aucune décision humaine remplacée par le silence. Le constat de cumul indisponible est explicitement daté du 15/10, pas présenté comme une mesure actuelle.
+
+Prix publics existants, Pack 14 €, liens Stripe, Skool gratuit et kits préservés ; aucune nouvelle offre, facturation, paiement, commission ou campagne activée. La relance JDH du matin consomme la distribution du jour ; Bluesky exclu cette semaine. Aucun email, DM, formulaire soumis ou nouvelle promotion dans cette mission. Les prérequis privés restent fermés et hors dépôt ; aucun gain commercial mesuré.
+
+**Prochaine action :** Maël confirme l'entité facturante et son régime de TVA ; compléter ensuite les mentions et autres prérequis avec preuves, avant de reprendre la piste privée préparée le 16/10. Preuves conservées dans le workspace de monétisation `2026-10-17-promesses/`.
+
 ## 16 octobre 2026 — une approche B2B préparée, sans envoi
 
 **Action unique :** préparer un dossier pour une seule piste du secteur de la formation : qualification à partir du programme officiel, exemple pédagogique de veille sourcée terminé et message personnalisé. Aucun intérêt d'achat, client ou partenariat n'est présumé. Les coordonnées, le nom de la cible, le texte d'approche et l'exemple non sollicité restent hors dépôt public.

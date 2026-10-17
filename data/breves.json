@@ -1,5 +1,47 @@
 [
  {
+  "id": "54e15954e450a358",
+  "slug": "meta-retire-des-clauses-qui-inquietaient-sur-le-scraping-et-l-entraine-54e159",
+  "titre": "Meta retire des clauses qui inquiétaient sur le scraping et l'entraînement IA",
+  "resume": "Meta a retiré de ses conditions d'utilisation des formulations qui soulevaient des inquiétudes autour du scraping et de l'entraînement de modèles d'IA. Un porte-parole du groupe assure que cette mise à jour ne traduit aucun changement dans la manière dont Meta explore le web. Les termes ont donc été modifiés sans que l'entreprise reconnaisse une évolution de ses pratiques.",
+  "tags": [
+   "meta",
+   "recherche",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+  "date_source": "2026-10-17T21:31:32+00:00",
+  "date_redac": "2026-10-17T21:40:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 617,
+   "sortie": 479
+  }
+ },
+ {
+  "id": "5c0edf164cae13e1",
+  "slug": "qwen-3-8-flash-next-reparti-sur-deux-pc-un-macbook-et-deux-iphone-5c0edf",
+  "titre": "Qwen 3.8 Flash Next réparti sur deux PC, un MacBook et deux iPhone",
+  "resume": "Un membre de r/LocalLLaMA fait tourner Qwen 3.8 Flash Next, un modèle MoE de 48 couches à 512 experts, sur cinq machines reliées entre elles : deux PC gaming, un MacBook Pro M4 Pro et deux iPhone 17 Pro Max. Le modèle dépasse pourtant les 24 Go du MacBook, même quantifié en 3 bits. Résultat affiché : 37 à 39 tokens/s sur 60k de contexte, avec une répartition en couches par machine.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8ley0/2_gaming_pcs_an_m4_pro_macbook_over_ethernet_2/",
+  "date_source": "2026-10-17T21:13:35+00:00",
+  "date_redac": "2026-10-17T21:40:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 907,
+   "sortie": 812
+  }
+ },
+ {
   "id": "7351062e8afb4d12",
   "slug": "passer-de-32-a-64-go-de-ram-fait-tourner-qwen3-8-flash-next-en-4-bits--735106",
   "titre": "Passer de 32 à 64 Go de RAM fait tourner Qwen3.8-Flash-Next en 4 bits sur une RTX 4090",
@@ -123,6 +165,26 @@
    "modele": "deepseek-flash",
    "entree": 632,
    "sortie": 459
+  }
+ },
+ {
+  "id": "fc72cd042d0f166e",
+  "slug": "17-ia-jouent-7-700-mains-de-poker-frontieres-low-cost-locales-et-jev-fc72cd",
+  "titre": "17 IA jouent 7 700 mains de poker : frontières, low-cost, locales et jev",
+  "resume": "Un membre de r/LocalLLaMA dit avoir fait disputer 7 700 mains de poker à 17 IA. L'expérience place dans la même partie des modèles frontières, des modèles bon marché, des modèles locaux et jev. Le format retenu — une même tâche imposée à des modèles de coûts et d'hébergements très différents — sort des benchmarks habituels.",
+  "tags": [
+   "recherche",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8j6j8/i_made_17_ais_play_7700_hands_of_poker_frontier/",
+  "date_source": "2026-10-17T19:38:58+00:00",
+  "date_redac": "2026-10-17T21:41:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 634,
+   "sortie": 666
   }
  },
  {

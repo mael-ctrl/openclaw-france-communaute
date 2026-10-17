@@ -1,0 +1,41 @@
+{
+ "slug": "le-web-se-ferme-meta-ajuste-ses-clauses-la-chine-encadre-l-e-54e159",
+ "titre": "Le web se ferme, Meta ajuste ses clauses, la Chine encadre l'export",
+ "chapo": "Meta a retiré de ses conditions d'utilisation des formulations qui inquiétaient sur le scraping et l'entraînement de modèles. Au même moment, des sites refusent l'entrée aux agents autonomes, Reflection publie un modèle ouvert de 501 milliards de paramètres et Pékin propose de contrôler l'export de 23 technologies d'IA.",
+ "html": "<h2 id=\"meta-retire-des-mots-pas-des-pratiques\">Meta retire des mots, pas des pratiques</h2>\n<p>Meta a supprimé de ses conditions d'utilisation les formulations qui nourrissaient les inquiétudes autour du scraping et de l'entraînement de modèles d'IA. Un porte-parole du groupe assure que cette mise à jour ne traduit aucun changement dans la manière dont Meta explore le web. Autrement dit : les termes bougent, la description des pratiques reste identique, et l'entreprise ne reconnaît aucune évolution.</p>\n<p>En parallèle, un rapport de Nieman Lab relayé par The Verge examine un autre jeu de conditions, entrant en vigueur le 30 octobre. Celles-ci semblent autoriser Meta à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, éditeurs en ligne compris. Le contenu récupéré pourrait servir à « développer, améliorer, rechercher » et « entraîner ». Le conditionnel reste de mise : il s'agit d'une lecture de texte juridique, pas d'une annonce de feuille de route.</p>\n<h2 id=\"les-agents-autonomes-trouvent-porte-clos\">Les agents autonomes trouvent porte close</h2>\n<p>OpenAI, Meta, Google et Instinct promettent tous des agents capables de parcourir le web à ta place : réserver une table, trier une boîte mail, enchaîner des tâches. Sauf qu'une partie des sites refuse désormais de les laisser entrer, rapporte The Verge. Filtrage des user-agents, authentification, blocages : les propriétaires de sites reprennent la main sur qui consomme leur contenu et à quelles conditions.</p>\n<p>La conséquence est mécanique. Sans accès au web, ces agents perdent une bonne part de leur intérêt : un assistant qui ne peut ouvrir ni page ni formulaire n'est plus qu'un chatbot avec des ambitions. Le bras de fer porte sur la même ressource que celle visée par les clauses de Meta — le contenu publié — mais il se joue cette fois au niveau technique, pas juridique.</p>\n<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Pendant que le web se hérissonne, les modèles ouverts continuent de grossir. Reflection publie Beam, un modèle texte-texte en architecture mixture-of-experts sparse : 501 milliards de paramètres au total, mais 23 milliards activés par inférence, pour une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en BF16, FP8 et NVFP4.</p>\n<p>Le positionnement est explicite : raisonnement économe en tokens, génie logiciel et usage d'outils agentiques, principalement en anglais. Un modèle de cette taille, avec un ratio d'activation aussi faible, vise précisément les charges où l'on enchaîne les appels — ce que font les agents. Encore faut-il qu'ils aient des sites à visiter.</p>\n<h2 id=\"pekin-liste-23-technologies-ia-l-open-so\">Pékin liste 23 technologies IA, l'open source épargné</h2>\n<p>Le 16 octobre 2026, la Chine a proposé de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA, parmi lesquels les grands modèles, les agents et les clusters de calcul. La consultation publique court jusqu'au 15 novembre, et l'enregistrement préalable à l'export s'applique déjà.</p>\n<p>Point notable : les technologies déjà rendues publiques via l'open source ou des publications académiques sont explicitement exemptées. Le texte distingue donc ce qui circule librement de ce qui reste contrôlable — une frontière qui n'est pas sans rapport avec les débats occidentaux sur les modèles à poids ouverts. Reste à voir quelles versions du catalogue sortiront de la consultation.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois signaux qui pointent dans la même direction : la matière première de l'IA — pages web, articles, code — devient un terrain disputé. Les éditeurs ferment l'accès aux robots, Meta ajuste ses clauses sans décrire de changement, et Pékin entend garder la main sur la diffusion de technologies jugées sensibles, tout en laissant l'open source hors du filet. Pour les agents, l'enjeu n'est plus seulement la qualité du modèle mais l'autorisation d'entrer quelque part.</p>",
+ "pivot": "54e15954e450a358",
+ "tags": [
+  "meta",
+  "agents",
+  "open-source",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  }
+ ],
+ "date": "2026-10-17T21:41:15+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1512,
+  "sortie": 2217
+ }
+}

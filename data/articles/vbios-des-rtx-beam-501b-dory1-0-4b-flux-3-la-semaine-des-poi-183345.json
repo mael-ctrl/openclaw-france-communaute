@@ -1,0 +1,41 @@
+{
+ "slug": "vbios-des-rtx-beam-501b-dory1-0-4b-flux-3-la-semaine-des-poi-183345",
+ "titre": "VBIOS des RTX, Beam 501B, Dory1.0-4B, FLUX.3 : la semaine des poids ouverts",
+ "chapo": "Modifier le VBIOS d'une RTX sans toucher au firmware d'origine, publier un MoE de 501 milliards de paramètres, accélérer les quantifications basses sous llama.cpp : sur r/LocalLLaMA, la semaine parle surtout de contrôle matériel et de modèles ouverts. Deux sorties de poids et une pull request complètent le tableau.",
+ "html": "<h2 id=\"rtx-30-40-50-le-vbios-sans-passer-par-le\">RTX 30, 40, 50 : le VBIOS sans passer par le flash</h2>\n<p>Un post de r/LocalLLaMA détaille trois outils pour modifier le VBIOS des cartes NVIDIA RTX 30, 40 et 50. Au menu : limites de puissance, tensions, offsets mémoire et canaux de ventilateurs. Le flash direct étant bloqué par <strong>Falcon</strong>, l'auteur propose une autre voie : des chargeurs qui patchent le registre sous Windows, ou qui s'attaquent au démarrage du firmware GSP sous Fedora.</p>\n<p>Le point important, c'est que le VBIOS d'origine n'est jamais touché. La méthode se distingue donc d'un flash classique, avec l'argument qui va avec : de quoi descendre sous 400 W sur une RTX 5090, c'est-à-dire reprendre la main sur la courbe de consommation d'une carte qui impose sinon ses propres réglages.</p>\n<p>Le reste du champ couvert — tensions, offsets mémoire, ventilation — relève du même geste : ajuster finement ce que le constructeur verrouille.</p>\n<h2 id=\"beam-et-dory-deux-facons-de-reduire-le-c\">Beam et Dory : deux façons de réduire le calcul</h2>\n<p>Deux publications de poids, deux stratégies opposées pour alléger la facture de calcul.</p>\n<p><strong>Beam</strong>, de Reflection, est un modèle ouvert texte-texte en architecture mixture-of-experts sparse : 501 milliards de paramètres au total, mais 23 milliards activés, pour une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en BF16, FP8 et NVFP4. Développé surtout pour l'anglais, il vise un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques.</p>\n<p><strong>Dory1.0-4B</strong>, de NVIDIA, prend l'autre bout de l'échelle : 4 milliards de paramètres sous licence OpenMDW 1.1, ouverte à un usage commercial. Son architecture « bouclée » réapplique un même bloc de couches partagées, ce qui augmente le calcul par token. L'attention alterne fenêtres glissantes et couches complètes, avec un contexte jusqu'à 256K tokens en BF16. Anglais uniquement, pour du raisonnement généraliste sur une empreinte réduite.</p>\n<p>D'un côté, un modèle massif qu'on n'active qu'en partie ; de l'autre, un petit modèle qu'on fait travailler plusieurs fois sur lui-même. Les deux répondent à la même contrainte, par des chemins inverses.</p>\n<h2 id=\"llama-cpp-un-noyau-cuda-pour-les-quantif\">llama.cpp : un noyau CUDA pour les quantifications basses</h2>\n<p>La pull request #30517, signée am17an, propose un noyau MMVQ CUDA plus rapide pour llama.cpp, le projet open source porté par ggml-org. Le gain de vitesse annoncé est important, mais il ne vaut que pour certaines quantifications basses précision, comme Q2_K et Q3_K. L'info a été relayée sur r/LocalLLaMA par l'utilisateur jacek2023.</p>\n<p>Le sujet rejoint les deux publications précédentes, vu depuis la couche du dessous. Un noyau plus rapide sur Q2_K ou Q3_K ne change pas l'architecture d'un modèle, mais il déplace le curseur de ce qu'on peut exécuter en basse précision — donc de ce qui tient dans une mémoire donnée.</p>\n<h2 id=\"flux-3-image-klein-les-poids-sont-sortis\">FLUX.3 Image Klein : les poids sont sortis</h2>\n<p>Un utilisateur de r/LocalLLaMA signale la publication des poids de <strong>FLUX.3 Image Klein</strong> sur Hugging Face, sous le compte black-forest-labs. Le modèle de génération d'images devient ainsi accessible publiquement via la plateforme.</p>\n<p>Le signalement relayé s'arrête à ce constat : pas de détail, dans la dépêche, sur la licence, la taille du modèle ou ses conditions d'usage. La publication des poids suffit en soi à changer le statut du modèle pour qui veut l'exécuter localement.</p>\n<h2>Et maintenant ?</h2>\n<p>Ce qui relie ces dépêches, c'est moins un acteur unique qu'un même terrain : la pile qu'on peut réellement contrôler, du firmware d'une carte graphique jusqu'au format de quantification des poids. D'un côté, des outils qui contournent un verrou constructeur sans le franchir ; de l'autre, des modèles publiés en plusieurs précisions pour épouser le matériel disponible. Entre les deux, la communauté open source rabote toujours les mêmes murs : la mémoire, la consommation, le débit.</p>",
+ "pivot": "183345b91676a5df",
+ "tags": [
+  "matériel",
+  "open-source",
+  "recherche",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8ca9a/modify_and_load_custom_vbios_on_windows_and_linux/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6t5fc/flux3_image_klein_just_got_weights_published_on/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8bqqs/cuda_faster_mmvq_for_lowbit_types_by_am17an_pull/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8bg1u/nvidianvidianemotronlabsdory104bbf16_hugging_face/"
+  }
+ ],
+ "date": "2026-10-17T16:23:38+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1582,
+  "sortie": 4004
+ }
+}

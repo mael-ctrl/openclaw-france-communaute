@@ -1,5 +1,26 @@
 [
  {
+  "id": "62d567829e60d786",
+  "slug": "quantifications-et-temperatures-de-qwen-flash-next-passees-au-banc-d-e-62d567",
+  "titre": "Quantifications et températures de Qwen Flash Next passées au banc d'essai",
+  "resume": "Un utilisateur de r/LocalLLaMA a comparé trois quantifications de Qwen Flash Next (q3_xxs, q3_s, q4_xs) sur du matériel personnel, avec 12 tâches de test. Pour chaque modèle, il a fait varier la température : paramètres d'échantillonnage conseillés d'un côté, température à 0 de l'autre, avec trois exécutions par combinaison. La tâche consistait à produire un jeu Tetris jouable dans le navigateur, avec des exigences précises de gameplay, de réglages et d'effets visuels ; la qualité a été jugée sur les fonctionnalités livrées face aux exigences. Toutes les quantifications s'en sortent à peu près, selon l'auteur.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x88fvj/qwen_flash_next_quant_and_temp_comparison/",
+  "date_source": "2026-10-17T11:58:07+00:00",
+  "date_redac": "2026-10-17T12:07:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 820,
+   "sortie": 225
+  }
+ },
+ {
   "id": "e29b5905b02d0e22",
   "slug": "le-hisense-65ur8s-2026-a-1-299-grace-a-une-offre-de-remboursement-e29b59",
   "titre": "Le Hisense 65UR8S 2026 à 1 299 € grâce à une offre de remboursement",
@@ -79,6 +100,46 @@
    "modele": "deepseek-flash",
    "entree": 660,
    "sortie": 1229
+  }
+ },
+ {
+  "id": "92e1613eebeb7187",
+  "slug": "un-benchmark-ouvert-pour-reproduire-les-mesures-de-calibration-de-jev-92e161",
+  "titre": "Un benchmark ouvert pour reproduire les mesures de calibration de jev ?",
+  "resume": "Sur r/LocalLLaMA, un internaute réclame un benchmark ouvert reproduisant ce que mesurent les benchmarks officiels de jev, notamment la calibration. Ceux-ci suggèrent que les modèles ouverts sont mal calibrés, et leur classement ne recoupe pas celui des benchmarks ouverts. Faute de modèle local aligné, il veut au moins savoir quelles données un benchmark doit contenir pour retrouver ces résultats.",
+  "tags": [
+   "recherche",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x86877/id_like_a_jevlikes_benchmark_that_tests_for_what/",
+  "date_source": "2026-10-17T09:46:33+00:00",
+  "date_redac": "2026-10-17T12:07:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 812,
+   "sortie": 1234
+  }
+ },
+ {
+  "id": "91acd517e8f7b77a",
+  "slug": "otaku-une-interface-pour-llm-locaux-pensee-pour-l-ecriture-creative-91acd5",
+  "titre": "Otaku, une interface pour LLM locaux pensée pour l'écriture créative",
+  "resume": "Otaku est une interface pour moteurs LLM locaux, présentée sur r/LocalLLaMA et pensée d'abord pour l'écriture créative. Elle repose sur trois principes : préserver la qualité d'écriture à mesure que l'histoire s'allonge, garder un contexte réduit même sur les récits longs sans perdre les détails importants, et offrir des interfaces soignées dans le navigateur comme dans le terminal. Les deux interfaces partagent les mêmes fonctions, à une exception près : la bibliothèque de personnages n'existe que dans le web pour l'instant. En désactivant l'extraction de lore dans les réglages, l'outil sert aussi aux conversations générales.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x865rk/otaku_an_llm_frontend_for_creative_writing/",
+  "date_source": "2026-10-17T09:42:14+00:00",
+  "date_redac": "2026-10-17T12:07:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 784,
+   "sortie": 604
   }
  },
  {

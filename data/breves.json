@@ -1,5 +1,47 @@
 [
  {
+  "id": "a0706a8aabcd0895",
+  "slug": "un-dev-sceptique-raconte-son-passage-a-l-ia-locale-avec-llama-cpp-a0706a",
+  "titre": "Un dev sceptique raconte son passage à l'IA locale avec llama.cpp",
+  "resume": "Développeur depuis dix ans, l'auteur se méfiait de l'IA jusqu'à ce qu'un ami lui en parle début 2025. En mars 2025, il lance Mistral Nemo Q4_K_M avec un contexte de 8K en F16 sur une AMD Radeon RX 7800 XT 16 Go, d'abord via Ollama puis LM Studio. Surpris de pouvoir dialoguer avec sa machine, il détourne ensuite SillyTavern et koboldcpp pour retrouver ses parties de jeu de rôle.",
+  "tags": [
+   "open-source",
+   "dev",
+   "mistral",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7xbf0/llamacpp_has_come_a_long_way/",
+  "date_source": "2026-10-17T01:08:07+00:00",
+  "date_redac": "2026-10-17T01:25:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 826,
+   "sortie": 771
+  }
+ },
+ {
+  "id": "77bd1d3fbd0445bf",
+  "slug": "r-localllama-un-post-sans-contenu-verifiable-77bd1d",
+  "titre": "r/LocalLLaMA : un post sans contenu vérifiable",
+  "resume": "Le 17 octobre 2026, un fil intitulé « It's funny because it's true » a été publié sur le subreddit r/LocalLLaMA par l'utilisateur LatentSpacer. L'extrait transmis ne contient ni texte, ni image, ni citation : seuls le lien vers la discussion et ses commentaires sont disponibles. Aucun élément factuel ne peut donc être restitué ni vérifié en l'état.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7x1a6/its_funny_because_its_true/",
+  "date_source": "2026-10-17T00:53:44+00:00",
+  "date_redac": "2026-10-17T01:25:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 610,
+   "sortie": 863
+  }
+ },
+ {
   "id": "4369a164ba284f40",
   "slug": "nvidia-met-en-ligne-dory-1-0-un-modele-nemotron-labs-4b-en-bf16-4369a1",
   "titre": "NVIDIA met en ligne Dory 1.0, un modèle Nemotron Labs 4B en BF16",

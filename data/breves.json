@@ -1,5 +1,131 @@
 [
  {
+  "id": "7351062e8afb4d12",
+  "slug": "passer-de-32-a-64-go-de-ram-fait-tourner-qwen3-8-flash-next-en-4-bits--735106",
+  "titre": "Passer de 32 à 64 Go de RAM fait tourner Qwen3.8-Flash-Next en 4 bits sur une RTX 4090",
+  "resume": "Un utilisateur de r/LocalLLaMA est passé de 32 à 64 Go de DDR5-5800 sur sa machine (RTX 4090 24 Go, i9-14900K, Arch) et a pu abandonner la quantification IQ2_XS au profit de Unsloth UD-IQ4_XS. Son budget de 40 GiB de RAM pour les experts, complété par les 24 Go de la carte, suffit : le journal indique 40,00 GiB d'experts en RAM et aucune lecture depuis le SSD SATA. Avec Strata 0.1.45 en contexte natif de 262K, il mesure 87 à 98 t/s en décodage et retrouve l'aiguille sur des tests de 36K et 136K tokens, avec un taux de succès du cache d'experts d'environ 91 %.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8l18e/32gb_to_64gb_of_ram_took_qwen38flashnext_from_iq2/",
+  "date_source": "2026-10-17T20:57:25+00:00",
+  "date_redac": "2026-10-17T21:12:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 986,
+   "sortie": 855
+  }
+ },
+ {
+  "id": "92b70c878e42fb86",
+  "slug": "deepseek-v4-1-flash-1017-le-support-arrive-dans-ds4-via-une-pr-92b70c",
+  "titre": "DeepSeek V4.1 Flash 1017 : le support arrive dans ds4 via une PR",
+  "resume": "Une pull request ajoute le support de DeepSeek-v4.1-Flash-1017 à dwarfstar (ds4), avec ses nouveaux engrams et une tour de vision mise à jour. Le patch se limite à la compatibilité des révisions de fichiers et à des contrôles vérifiant la cohérence entre modèles vision et langage, avec erreur en cas d'appariement mixte. La révision est majeure : environ 40 % des tenseurs d'experts routés, 30 % des engrams et 50 % de ceux de la tour de vision changent, mais l'architecture reste identique et se branche sur les kernels existants. Les fichiers quantifiés avec la suite ds4 se chargent sans modification, sans régression sur le checkpoint précédent.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8koix/deepseek_v41_flash_1017_support_for_ds4_pr_1225/",
+  "date_source": "2026-10-17T20:42:23+00:00",
+  "date_redac": "2026-10-17T21:12:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 824,
+   "sortie": 447
+  }
+ },
+ {
+  "id": "696012da52530ce9",
+  "slug": "intel-razor-lake-ax-environ-46-tokens-s-sur-un-modele-dense-de-27b-en--696012",
+  "titre": "Intel Razor Lake-AX : environ 46 tokens/s sur un modèle dense de 27B en 2028",
+  "resume": "Selon un post de r/LocalLLaMA, l'Intel Razor Lake-AX attendu en 2028 afficherait 700 TOPS, bien au-delà des 275 TOPS du Jetson AGX Orin de NVIDIA. En rapportant ce chiffre au débit du Jetson sur un modèle dense de 27B (environ 18 tokens/s), l'auteur aboutit à environ 46 tokens/s, soit près du double de Strix Halo. AMD Medusa Halo viserait le même doublement, mais plutôt fin 2027.",
+  "tags": [
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8kiuh/intel_razor_lake_ax_in_2028_ruff_estimate_about/",
+  "date_source": "2026-10-17T20:35:38+00:00",
+  "date_redac": "2026-10-17T21:12:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 732,
+   "sortie": 1105
+  }
+ },
+ {
+  "id": "003b6b0afa6b7bf6",
+  "slug": "deepseek-v4-1-flash-1017-une-version-abliterated-et-des-quants-gguf-003b6b",
+  "titre": "DeepSeek V4.1 Flash 1017 : une version « abliterated » et des quants GGUF",
+  "resume": "Un utilisateur de r/LocalLLaMA publie une version « abliterated » de DeepSeek V4.1 Flash 1017, sorti la veille, avec des quants GGUF pour la version de base comme pour la version modifiée. Les refus tombent de 97 à 4 sur 100 prompts en mode chat, et de 98 à 9 en mode think. L'auteur dit avoir privilégié la préservation du modèle, en retirant le sous-espace de rang 2 que couvrent les deux directions de refus.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8ke24/deepseek_v41_flash_1017_gguf_abliterated/",
+  "date_source": "2026-10-17T20:29:49+00:00",
+  "date_redac": "2026-10-17T21:12:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 825,
+   "sortie": 970
+  }
+ },
+ {
+  "id": "1d17ae53d7c4902a",
+  "slug": "drama-3-de-fish-audio-tourne-sur-une-radeon-16-go-via-un-portage-maiso-1d17ae",
+  "titre": "Drama 3 de Fish Audio tourne sur une Radeon 16 Go via un portage maison",
+  "resume": "Le modèle vocal Drama 3 de Fish Audio réclame officiellement une NVIDIA de 48 Go. Son portage « Red Curtain », écrit avec Claude, tourne sur une Radeon RX 9070 de 16 Go : les experts FP8 (32 Go) restent en RAM système, seuls ceux utilisés sont mis en cache sur le GPU. Résultat : 37 s de calcul pour 11,6 s d'audio et 11-12 Go de VRAM. Une interface web ajoute clonage de voix et scripts multi-locuteurs.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev",
+   "claude"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8kces/fish_audio_drama_3_says_it_needs_a_48_gb_nvidia/",
+  "date_source": "2026-10-17T20:27:46+00:00",
+  "date_redac": "2026-10-17T21:13:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 873,
+   "sortie": 1231
+  }
+ },
+ {
+  "id": "29392570ab9d3e03",
+  "slug": "anthropic-des-effectifs-moins-juniors-et-plus-de-temps-en-reunion-293925",
+  "titre": "Anthropic : des effectifs moins juniors et plus de temps en réunion",
+  "resume": "Anthropic indique que la composition de ses effectifs a sensiblement changé au cours de l'année écoulée : l'entreprise estime que son personnel est devenu moins junior et passe davantage de temps en réunion. Le type de travail effectivement réalisé a lui aussi évolué de façon marquée sur la même période.",
+  "tags": [
+   "business",
+   "société",
+   "claude"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+  "date_source": "2026-10-17T20:21:19+00:00",
+  "date_redac": "2026-10-17T21:13:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 632,
+   "sortie": 459
+  }
+ },
+ {
   "id": "92061a0ffc10f342",
   "slug": "r-localllama-la-quete-de-modeles-plus-anciens-pour-l-ecriture-techniqu-92061a",
   "titre": "r/LocalLLaMA : la quête de modèles plus anciens pour l'écriture technique",

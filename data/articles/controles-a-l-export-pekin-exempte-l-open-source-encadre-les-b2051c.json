@@ -1,0 +1,41 @@
+{
+ "slug": "controles-a-l-export-pekin-exempte-l-open-source-encadre-les-b2051c",
+ "titre": "Contrôles à l'export : Pékin exempte l'open source, encadre les modèles frontière",
+ "chapo": "Pékin propose d'ajouter 23 technologies IA à son catalogue de restrictions à l'export, tout en exemptant explicitement ce qui est déjà public. Les poids déjà téléchargeables ne bougent pas et l'usage via API sort du périmètre — mais les prochains modèles frontière chinois pourraient devoir passer par une licence et un enregistrement.",
+ "html": "<h2 id=\"quarante-ajouts-dont-23-sur-l-ia\">Quarante ajouts, dont 23 sur l'IA</h2>\n<p>Le 16 octobre 2026, Pékin a mis en consultation une révision de son catalogue de technologies restreintes à l'export. Le texte prévoit <strong>40 ajouts</strong>, dont <strong>23 liés à l'IA</strong> : grands modèles, agents, clusters de calcul. La consultation publique court jusqu'au <strong>15 novembre 2026</strong>.</p>\n<p>Un détail change tout : les technologies déjà rendues publiques via l'open source ou des publications académiques sont <strong>explicitement exemptées</strong>. Autrement dit, publier les poids d'un modèle le sort du périmètre des restrictions. C'est la lecture que fait un post de r/LocalLLaMA, qui décrypte la portée concrète du dispositif plutôt que son intention affichée.</p>\n<p>Attention aux calendriers. Le catalogue révisé n'est pas encore adopté, mais l'<strong>enregistrement préalable à l'export s'applique déjà</strong>. La proposition ne crée donc pas un régime de zéro : elle empile de nouvelles catégories sur un mécanisme en vigueur.</p>\n<h2 id=\"ce-qui-ne-bouge-pas-et-ce-qui-pourrait-b\">Ce qui ne bouge pas — et ce qui pourrait bouger</h2>\n<p>Premier point rassurant pour qui fait tourner des modèles chez soi : les <strong>poids déjà publiés ne sont pas touchés</strong>. Et l'usage des modèles via API sort du périmètre. Un développeur qui interroge un modèle chinois depuis un endpoint européen n'est pas concerné par ce dispositif.</p>\n<p>La suite est plus floue. Le post évoque, pour les <strong>prochains modèles frontière chinois</strong>, des exigences de licence, un enregistrement à l'export et des <strong>délais avant tout téléchargement des poids depuis l'étranger</strong>. Trois leviers qui ne bloquent pas la publication, mais qui en modifient le calendrier : un modèle pourrait sortir avec une couche administrative, ou sortir localement avant d'être accessible ailleurs.</p>\n<p>Toute la différence est entre interdire et ralentir. Le texte ne ferme pas la porte à l'open source chinois : il en conditionne la vitesse de diffusion.</p>\n<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Pendant que Pékin discute de la sortie des poids, les sorties continuent. <strong>Reflection</strong> publie <strong>Beam</strong>, un modèle ouvert texte-texte en architecture mixture-of-experts sparse : <strong>501 milliards de paramètres au total, 23 milliards activés</strong>, pour une fenêtre de contexte d'<strong>un million de tokens</strong>. La version instruction-tuned est proposée en <strong>BF16, FP8 et NVFP4</strong>.</p>\n<p>Le positionnement est explicite : développement surtout pour l'<strong>anglais</strong>, avec un objectif de <strong>raisonnement économe en tokens</strong>, du <strong>génie logiciel</strong> et de l'<strong>usage d'outils agentiques</strong>. Le ratio 501/23 place Beam dans la famille des modèles où l'on paie la mémoire de la totalité des experts mais où seule une fraction est mobilisée à chaque token.</p>\n<p>À noter : la dépêche ne précise pas l'origine géographique de Reflection. Rien ne permet donc de ranger Beam du côté chinois ou non — la question du catalogue à l'export ne lui est, en l'état des informations disponibles, pas applicable.</p>\n<h2 id=\"meta-ratisse-mistral-rachete\">Meta ratisse, Mistral rachète</h2>\n<p><strong>Meta</strong>, d'abord. Les nouveaux termes du groupe, qui entrent en vigueur le <strong>30 octobre</strong>, semblent autoriser Meta à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, <strong>y compris les éditeurs en ligne</strong>, selon un rapport de Nieman Lab. Le contenu récupéré pourrait servir à « développer, améliorer, rechercher » et « entraîner ». Les guillemets sont ceux de la source. La formulation est large, et c'est précisément ce qui retient l'attention : elle ouvre la voie à un entraînement sur de la production journalistique sans contrepartie identifiée.</p>\n<p><strong>Mistral</strong>, ensuite. Le média économique français Maddyness rapporte, le 16 octobre 2026, une <strong>quatrième acquisition en huit mois</strong> pour le laboratoire parisien. Le détail de l'opération et l'identité de l'entreprise rachetée ne sont pas précisés dans l'extrait disponible.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dossiers, une même question de fond : qui met la main sur la matière première. Pékin veut garder le contrôle de la sortie des modèles frontière sans toucher à ce qui est déjà public. Meta élargit son accès aux contenus éditoriaux par voie contractuelle. Mistral avance à coups de rachats. Aucun de ces mouvements ne se traduit encore par une règle stabilisée : la consultation chinoise court jusqu'au 15 novembre, les termes de Meta s'appliquent au 30 octobre.</p>",
+ "pivot": "b2051c524f427a68",
+ "tags": [
+  "open-source",
+  "sécurité",
+  "business",
+  "mistral"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x84nhg/for_people_worried_about_china_export_controls/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/10/16/mistral-realise-sa-quatrieme-acquisition-en-huit-mois/"
+  }
+ ],
+ "date": "2026-10-17T09:38:33+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1555,
+  "sortie": 3948
+ }
+}

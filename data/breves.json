@@ -1,5 +1,26 @@
 [
  {
+  "id": "88492fdbf2c1b316",
+  "slug": "strata-et-qwen-3-8-flash-next-la-vitesse-cache-t-elle-une-perte-de-qua-88492f",
+  "titre": "Strata et Qwen 3.8 Flash Next : la vitesse cache-t-elle une perte de qualité",
+  "resume": "Sur r/LocalLLaMA, un utilisateur s'interroge sur le coût réel de Strata et Qwen 3.8 Flash Next. Les démonstrations publiées mettent surtout en avant des débits en tokens par seconde et des needle tests, rarement la qualité de sortie. Faire tourner le même GGUF sur llama.cpp devrait trancher la question de la quantification ; reste à savoir si l'élagage d'experts opéré par Strata se paie en usage réel.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x85hfj/strata_qwen_38_flash_next_fast_but_whats_it/",
+  "date_source": "2026-10-17T08:59:02+00:00",
+  "date_redac": "2026-10-17T09:38:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 688,
+   "sortie": 577
+  }
+ },
+ {
   "id": "e4aa1da3864039ad",
   "slug": "latent-space-teste-un-nouveau-format-high-taste-testers-e4aa1d",
   "titre": "Latent Space teste un nouveau format, High Taste Testers",
@@ -38,6 +59,27 @@
    "modele": "deepseek-flash",
    "entree": 626,
    "sortie": 1051
+  }
+ },
+ {
+  "id": "b2051c524f427a68",
+  "slug": "controles-a-l-export-chinois-ce-que-ca-change-pour-les-modeles-ouverts-b2051c",
+  "titre": "Contrôles à l'export chinois : ce que ça change pour les modèles ouverts",
+  "resume": "Un post de r/LocalLLaMA décrypte la portée des contrôles à l'export annoncés par Pékin. Les poids déjà publiés ne sont pas touchés, et l'usage des modèles via API sort du périmètre. En revanche, les prochains modèles frontière chinois pourraient être soumis à des exigences de licence, à un enregistrement à l'export et à des délais avant tout téléchargement des poids depuis l'étranger. La consultation publique est ouverte jusqu'au 15 novembre 2026.",
+  "tags": [
+   "open-source",
+   "sécurité",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x84nhg/for_people_worried_about_china_export_controls/",
+  "date_source": "2026-10-17T08:05:45+00:00",
+  "date_redac": "2026-10-17T09:38:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 725,
+   "sortie": 419
   }
  },
  {

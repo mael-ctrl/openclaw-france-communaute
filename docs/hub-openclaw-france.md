@@ -423,6 +423,38 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   inventer une compatibilité testée. Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-16/hub-kit-hermes/`.
 
+## Réserve Mac Intel dans le script Hermes — livraison du 17/10/2026
+
+- **Une amélioration livrée** : le script et son `--help` signalent maintenant
+  explicitement la compatibilité Mac Intel non garantie, les sources officielles
+  divergentes et leurs deux URL. Une architecture macOS inconnue ne se présente
+  plus comme un Mac Intel. La réserve reste informative : aucun nouveau blocage,
+  aucune option ajoutée, téléchargement et transmission des arguments inchangés.
+- Installation et matrice officielles relues en HTTPS direct le 17/10 : divergence
+  toujours présente. Aucune installation réelle sur Intel ou autre OS revendiquée.
+  La page, le guide et le README portaient déjà cette réserve et restent inchangés.
+- Tests : les trois nouveaux contrôles de message ont échoué avant correction ;
+  **129 tests OK** après correction, dont six sur le wrapper avec OS, identité et
+  téléchargement simulés. Options avec espaces, aide sans réseau, refus root,
+  erreurs et chemins Apple Silicon/Linux contrôlés sans installer Hermes.
+  Les **six tests passent aussi sur le script HTTPS public** ; `--help` exécuté
+  directement, quatre scripts validés par `bash -n`.
+- Bureau inaccessible au cron (`Resource deadlock avoided`) : déploiement avec
+  `python3 outils/deployer_openclaw.py` depuis le clone hors Bureau
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Sauvegarde privée des **35 fichiers**,
+  sans divergence initiale ; **35 fichiers relus via FTP**, identiques aux sources.
+  Seule entrée modifiée du ZIP Hermes : `scripts/install.sh`. ZIP OpenClaw inchangé
+  octet pour octet ; intégrité et contenu exhaustif des deux ZIP publics contrôlés.
+- Santé : les **six URL demandées répondent HTTP 200**, avant et après envoi ;
+  **neuf URL HTTP 200** au contrôle étendu, dont le script et les ZIP avec `?v=2`.
+  Aucun HTML ni sitemap modifié : aucune notification IndexNow requise aujourd’hui.
+- **Aucune distribution supplémentaire** : la relance JDH du matin, déjà inscrite
+  dans `docs/distribution-textes.md`, occupe le quota du jour ; pas de répétition
+  Bluesky après le post du 12/10. Prochaine priorité : vérifier les indications
+  de coût encore présentes dans la FAQ Hermes, sans estimation universelle.
+  Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-17/hub-script-hermes/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

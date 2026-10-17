@@ -35,6 +35,7 @@ set -euo pipefail
 
 readonly OFFICIAL_INSTALL_URL="https://hermes-agent.nousresearch.com/install.sh"
 readonly DOCS_URL="https://hermes-agent.nousresearch.com/docs/getting-started/installation"
+readonly PLATFORMS_URL="https://hermes-agent.nousresearch.com/docs/getting-started/platform-support"
 
 # --- Affichage (français, sobre) ---------------------------------------------
 if [ -t 1 ]; then
@@ -55,7 +56,7 @@ Usage :
   bash scripts/install.sh [options]
 
 Déroulé :
-  1. vérifie que votre système et vos prérequis sont bons
+  1. identifie le système et contrôle la présence des outils requis
      (Git, curl, tar et un utilitaire SHA-256 — requis par la doc officielle) ;
   2. télécharge l'installateur officiel de Nous Research depuis
      https://hermes-agent.nousresearch.com/install.sh ;
@@ -66,8 +67,14 @@ Déroulé :
 Ce script ne demande et ne stocke aucun secret. Les clés API se configurent
 après l'installation, avec « hermes setup » ou « hermes model ».
 
+Mac Intel : compatibilité non garantie. Les pages officielles divergent
+(contrôle documentaire du 2026-10-17). Lisez GUIDE.md et les deux sources
+ci-dessous avant de lancer une installation. Le script affiche une réserve,
+mais poursuit ensuite : ce contrôle ne valide pas la compatibilité de la machine.
+
 Documentation officielle :
   https://hermes-agent.nousresearch.com/docs/getting-started/installation
+  https://hermes-agent.nousresearch.com/docs/getting-started/platform-support
 
 Support communautaire francophone : https://communaute-ia.fr
 EOT
@@ -97,9 +104,16 @@ case "$systeme" in
   Darwin)
     if [ "$machine" = "arm64" ]; then
       ok "macOS détecté (Apple Silicon) — plateforme Tier 1 de la doc officielle."
+    elif [ "$machine" = "x86_64" ]; then
+      warn "macOS Intel détecté ($machine) — compatibilité non garantie."
+      info "Au contrôle du 2026-10-17, les pages officielles divergent : le guide présente macOS Intel comme non pris en charge ; la matrice décrit encore une CLI et des bundles Intel conditionnels."
+      info "Ce contrôle ne valide pas la compatibilité de votre machine. Lisez la réserve de GUIDE.md et vérifiez les sources pour votre version."
+      info "Installation : $DOCS_URL"
+      info "Matrice des plateformes : $PLATFORMS_URL"
+      warn "Réserve informative : ce script poursuit ensuite avec l’installateur officiel."
     else
-      warn "macOS Intel détecté ($machine)."
-      info "L'installeur graphique Hermes-Setup.dmg est réservé aux Mac Apple Silicon ; sur Intel, la doc officielle prévoit le bundle darwin-x64 ou l'installation CLI (celle-ci, justement)."
+      warn "Architecture macOS détectée : $machine — compatibilité non garantie."
+      info "Ce contrôle ne valide pas cette architecture ; consultez : $PLATFORMS_URL"
     fi
     ;;
   Linux)

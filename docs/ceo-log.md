@@ -563,3 +563,120 @@ les lectures Git/GitHub, les empreintes des lots et les sondes HTTPS.
 export GitHub brut, empreintes et réponses HTTPS). Aucun lot de test, prospect,
 secret ou donnée privée de paiement ajouté au dépôt ; seules cette entrée et
 la roadmap sont modifiées.
+
+---
+
+## 2026-10-17 (21 h CEST) — Trois lots intégrés, preuves à auditer
+
+**Périmètre :** pull réussi sur le clone cron hors Bureau, base `c620464`, arbre
+propre avant édition. Fenêtre Git/GitHub : 00:00–21:00:23 CEST ; état des runs
+à 21:01:55, HTTPS à 21:02:53. Revue documentaire : aucun déploiement déclenché,
+contact envoyé, cron modifié, paiement ou intervention serveur. Seuls ce journal
+et la roadmap sont modifiés dans le dépôt public.
+
+### Livraisons du jour
+
+- **Dates JSON-LD** (`0c27d70`) : dates non étayées omises sur les pages
+  reconstruites ; recette du chantier : 105 Python + 4 Node, run `39018865370`
+  réussi, 14 URL HTTPS dont 8 HTML comparés. Une ancienne brève hors fenêtre
+  conserve l'ancien balisage : archives/autoindex restent à traiter, de même
+  que la dette distincte OG/RSS/News/lastmod. [Preuves](dates-jsonld.md).
+- **Présentation B2B** (`12a7943`) : promesses corrigées, prix/démonstration
+  préservés ; 111 Python + 4 Node consignés, run `39029373316` réussi.
+  Ce soir, page et démonstration en HTTPS 200, **mentions légales 404**.
+  Aucun contact ni nouveau paiement autorisé par ce correctif.
+  [Compte-rendu](monetisation.md).
+- **Podcast** : page et RSS livrés (`5a0bfa4`, run `39031238936`), puis épisode
+  du 17/10 (`9a6f300`, run `39050026731`). Recettes consignées : 123 Python
+  + 4 Node pour la fonctionnalité, 129 tests pour l'épisode. Relecture directe
+  du soir : quatre GUID distincts, trois épisodes + pilote, sans `pubDate`
+  inventé ; MP3 de **751 680 octets** identique au dépôt, `audio/mpeg`.
+  Durée de 125,280 s mesurée par le chantier, pas remesurée ici. YouTube et
+  soumissions aux annuaires non attestés. [Preuves](podcast.md).
+- **Kit Hermes** (`7bdf59a`) : avertissement Mac Intel aligné sur la réserve
+  documentaire ; recette du chantier de 129 tests, script/ZIP publics vérifiés.
+  Ce soir, script HTTPS identique au dépôt ; aucune installation multi-OS
+  revendiquée. Prochain point : coûts de la FAQ. [Journal du hub](hub-openclaw-france.md).
+
+Ces suites ont été **relues**, non rejouées par la gouvernance. Les contrôles
+refaits ici portent sur Git/API, empreintes des pièces, liens des manifestes et
+réponses HTTPS ; ils ne démontrent ni hausse d'audience ni conformité commerciale.
+
+### Automatisation, sous-agents et intégrité
+
+- **43 commits** datés du jour observés, fusions et mises à jour comprises.
+  API GitHub exhaustive dans la fenêtre : **26 runs**, total et liste égaux ;
+  **25 réussis et 1 en cours**, 20 `workflow_dispatch` et 6 `schedule`.
+  Dernier succès `39055845668` ; `39060345897` encore en cours au relevé,
+  sans anticiper son résultat. Les statuts CI ne remplacent pas une recette
+  de production pour chaque run.
+- **Secours : 16 relances rapportées sur 41 passages** ; **20 sorties du chien
+  de garde silencieuses**. Mise à jour locale : 5 brèves, 757 fichiers envoyés,
+  quota Bluesky atteint selon la sortie du job. Forte dépendance au secours
+  à examiner, pas preuve de panne ; aucun réglage changé dans cette revue.
+- **Vague du matin : 4 missions**, sur base `12b60dc`. Rapport/manifeste relus ;
+  **307/307 artefacts enfants et 20/20 pièces parent** revérifiés par SHA-256.
+  L'orchestrateur a rejoué la combinaison : 140 Python + 4 Node, build et essai
+  CLI. Podcast, B2B et JSON-LD ont ensuite été intégrés ; la newsletter reste
+  préparée. Son compositeur de trois fichiers et son brouillon de deux sujets
+  sont prêts pour une intégration locale, pas pour un envoi.
+- **Avertissement du cron audio** : une tentative d'écrasement du vérificateur
+  préparatoire a été refusée. La pièce reste conforme au manifeste ; la
+  présence réelle du MP3 et de son entrée RSS a été vérifiée. Ne pas transformer
+  ce refus local en échec de déploiement, ni effacer l'avertissement du rapport.
+- **Deux anomalies de preuve confirmées au SHA figé** : le sceau du 10/10
+  porte une empreinte du 09/10 différente du fichier présent ; celui du 11/10
+  saute le 10/10 et référence le 09/10. Ce constat du matin a été recalculé
+  indépendamment ce soir. **Cause inconnue**, aucune réécriture ou réparation.
+  La routine active ne permet donc pas de qualifier toute la chaîne d'intacte.
+  Priorité interne : examiner l'historique des 09–11/10 avant de présenter
+  le dossier record comme entièrement vérifié ; pas une nouvelle tâche humaine.
+
+### Distribution et mesure disponible
+
+- **Une seule relance JDH** (`5b74b37`) : SMTP accepté et copie IMAP relue selon
+  le journal de distribution ; livraison au destinataire et invitation non
+  confirmées. Attendre sans nouvelle demande ni relance. Uneed sans accès
+  sécurisé, LinuxFr sans accord ; veilles piaille/courrier silencieuses.
+  Le rebond du 15/10 reste à qualifier. Aucune nouvelle promotion Bluesky
+  jusqu'au 18/10 inclus ; les posts éditoriaux automatiques sont distincts.
+- **Skool :** brouillon du 17/10 produit, pas une publication. Dernier état
+  consigné 18/22 leçons, non recompté ; roadmap Skool toujours datée du 12/10.
+  Réconcilier depuis une session authentifiée, sans reprendre son ancien
+  blocage de connexion comme état actuel.
+- **Trafic du 16/10**, agrégats actualisés à 06:40:44 UTC le 17/10 : **415 IP
+  uniques estimées**, contre 537 le 15/10 (**−122 ; −22,7 %**). Média + hub,
+  robots identifiés exclus ; pas des personnes certifiées. Google : **8 requêtes
+  référentes**, pas huit visiteurs attribués. Le 17/10 n'est pas consolidé.
+  Bluesky : **4 abonnés** au contrôle public du soir ; aucun gain attribué aux
+  améliorations du jour.
+- **Ventes :** brief de 08:43 = **0 € sur les 24 h qu'il a contrôlées**, pas un
+  bilan de toute la journée. **Cumul indisponible (attribution incomplète)** ;
+  les quatre veilles silencieuses ne prouvent pas zéro revenu cumulé. Aucun
+  chiffre ni paiement hors projet publié.
+- **Santé HTTPS :** accueil, version, news-sitemap, B2B/démo, podcast/page/RSS/MP3,
+  hub Hermes/script, PDS et flux Bluesky en 200. Build annoncé 17:56:56 UTC ;
+  news-sitemap : **218 URL**, dernière date déclarée 17:56:48 UTC. Mentions
+  légales 404 : livrable manquant, pas masqué par la santé générale.
+
+### Décisions pour le prochain relais
+
+1. **18/10 :** audit historique des liens de preuve en lecture seule ; archives/
+   autoindex #5 ; intégration du compositeur newsletter local, envoi désactivé.
+   Ne pas recréer les lots podcast/B2B/JSON-LD déjà livrés. Coûts FAQ Hermes
+   et réconciliation Skool restent dans leurs chantiers.
+2. **Un seul blocage humain prioritaire : vendeur B2B/TVA.** Message exact :
+   « Maël, pour débloquer la prospection B2B du Crabe, confirme en une réponse
+   l'entité qui doit facturer (raison sociale + SIREN) et son régime de TVA.
+   Aucun contact commercial ne part avant cette validation et la levée des
+   autres prérequis. » Les corrections publiques ne lèvent pas les mentions/
+   conditions et modalités de reversement. Aucun accord déduit du silence.
+3. **L'email URGENCE à l'adresse d'escalade convenue doit partir si ce blocage
+   empêche l'étape commerciale.** Message et destinataire exact préparés dans
+   `crabe-chantiers/gouvernance/2026-10-17/escalade-mael.txt`, **non envoyés**.
+   Le média et la préparation continuent ; bilan local uniquement, jamais Discord.
+
+**Pièces privées de revue :** `crabe-chantiers/gouvernance/2026-10-17/` : export
+GitHub borné, liste de commits, réponses et états cron, `revue-2100.json`, corps
+HTTPS et `proof-anomalies.json`. Aucun patch, état de test, prospect, secret ou
+paiement privé ajouté au dépôt public ; journal et manifestes historiques intacts.

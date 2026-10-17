@@ -602,7 +602,11 @@ def construire_annexes(breves, articles, stats, entrees_journal):
         "b2b/echantillon-veille/index.html": _fichier_demo_b2b("echantillon-veille.html"),
         "404.html": page_404(),
     }
+    import podcast
+    episodes = podcast.charger_episodes(config.RACINE)
+    pages["podcast/index.html"] = podcast.page_ecoute(episodes, config.URL_SITE)
     return pages, {
+        "podcast/feed.xml": podcast.flux_xml(episodes, config.URL_SITE),
         "b2b/echantillon-veille/echantillon-veille.md": _fichier_demo_b2b("echantillon-veille.md"),
         "b2b/echantillon-veille/questionnaire-qualification.md": _fichier_demo_b2b("questionnaire-qualification.md"),
     }

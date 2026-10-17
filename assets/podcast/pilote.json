@@ -1,0 +1,21 @@
+{
+  "titre": "La Brève du Crabe — Pilote",
+  "description": "Pilote audio de La Communauté, média francophone sur l’intelligence artificielle. Texte produit par IA et voix synthétique ; ce pilote n’est pas un épisode éditorial d’actualité.",
+  "guid": "urn:communaute-ia:podcast:la-breve-du-crabe:pilote",
+  "fichier": "la-breve-du-crabe-pilote.mp3",
+  "octets": 366768,
+  "mime": "audio/mpeg",
+  "duree_secondes": 61.128,
+  "sha256": "7f40ff240698c28ce4c7172bda9d7fa63a9b7be597929f324f9a4fb2e4cecea6",
+  "publie_le": null,
+  "provenance": {
+    "titre": "docs/ceo-log.md, entrée du 2026-10-14 : pilote « La Brève du Crabe »",
+    "statut": "Pilote de format ; aucune date de première publication documentée. La génération du 14/10 n’est pas une preuve de première publication.",
+    "audio": "afinfo local : estimated duration 61.128000 sec, MP3 mono 24000 Hz 48000 bit/s ; file : audio/mpeg",
+    "verification_https": "2026-10-15T07:35:53.380208+00:00",
+    "url_verifiee": "https://communaute-ia.fr/assets/podcast/la-breve-du-crabe-pilote.mp3",
+    "controle": "HTTP 200, Content-Type audio/mpeg, 366768 octets, SHA-256 identique au local ; Range 0-1023 : HTTP 206 et octets identiques.",
+    "date": "Last-Modified HTTP exclu comme source de pubDate ; ne pas remplacer null par la date du build.",
+    "guid": "Identifiant éditorial fixé pour cette intégration ; à conserver lors des corrections, changements de domaine ou déplacements du MP3. Ce n’est pas un identifiant de plateforme externe."
+  }
+}

@@ -241,6 +241,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
     <div class="pied-col">
       <p class="pied-titre">Liens</p>
       <a href="{config.URL_SITE}/feed.xml">Flux RSS</a>
+      <a href="/podcast/">Podcast — écouter La Brève du Crabe</a>
       <a href="{config.DEPOT_GITHUB}" rel="noopener">Code source (GitHub)</a>
       <a href="https://openclaw-france.fr" rel="noopener">OpenClaw &amp; Hermes — kits gratuits 🆓</a>
       <a href="https://openclaw-france.fr/temoignages" rel="noopener">Témoignages OpenClaw</a>

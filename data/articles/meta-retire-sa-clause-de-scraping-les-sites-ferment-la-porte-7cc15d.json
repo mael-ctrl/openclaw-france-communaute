@@ -1,0 +1,41 @@
+{
+ "slug": "meta-retire-sa-clause-de-scraping-les-sites-ferment-la-porte-7cc15d",
+ "titre": "Meta retire sa clause de scraping, les sites ferment la porte aux agents",
+ "chapo": "Meta retire de ses conditions commerciales la formule qui laissait entendre qu'il pouvait récupérer le contenu de sites, presse comprise, pour entraîner son IA. Une reculade après les critiques, sur fond de bras de fer plus large : qui a le droit de lire le web, et à quel prix.",
+ "html": "<h2 id=\"chez-meta-une-phrase-s-en-va\">Chez Meta, une phrase s'en va</h2>\n<p>Après une vague de critiques, Meta modifie à nouveau ses conditions d'utilisation. L'entreprise a retiré la formulation qui laissait entendre qu'elle pouvait récupérer le contenu de sites — y compris de sites de presse — pour entraîner son IA. La mention autorisant l'usage de tout contenu de ces domaines ou URL pour fournir et améliorer ses services ne figure plus sur la page des conditions commerciales.</p>\n<p>Le contexte, lui, reste documenté. Les nouveaux termes de Meta, qui entrent en vigueur le 30 octobre, semblaient autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, éditeurs en ligne compris. C'est un rapport de Nieman Lab qui avait mis le sujet au jour, décrivant un contenu externe mobilisable pour « développer, améliorer, rechercher » et « entraîner ».</p>\n<p>Ce qui disparaît, c'est donc une formulation — pas l'ensemble du dispositif. Et la séquence dit quelque chose du rapport de force : les conditions d'utilisation sont devenues un terrain de négociation publique, où chaque virgule se lit à la loupe.</p>\n<h2 id=\"les-agents-autonomes-restent-a-la-porte\">Les agents autonomes restent à la porte</h2>\n<p>Les agents autonomes sont la grande promesse du moment. OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail. Sauf qu'une partie des sites refuse désormais de les laisser entrer.</p>\n<p>Les deux dossiers ne se confondent pas : l'un parle d'entraînement, l'autre d'accès en temps réel. Mais ils posent la même question. D'un côté, un éditeur qui découvre qu'un modèle a ingéré ses pages ; de l'autre, un agent qui se voit barrer l'entrée d'un site au moment où il veut agir pour un utilisateur.</p>\n<p>La conséquence pratique est immédiate : sans accès au web, ces agents perdent une bonne part de leur intérêt. Le web reste largement ouvert aux humains, beaucoup moins aux programmes qui prétendent agir à leur place.</p>\n<h2 id=\"pekin-liste-23-technologies-ia\">Pékin liste 23 technologies IA</h2>\n<p>Le 16 octobre 2026, Pékin a proposé de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul.</p>\n<p>Le détail qui compte : les technologies déjà rendues publiques via l'open source ou des publications académiques sont explicitement exemptées. Un modèle publié ouvertement ou décrit dans un papier n'entre donc pas dans le périmètre ; la même architecture gardée en interne, si.</p>\n<p>La consultation publique court jusqu'au 15 novembre. L'enregistrement préalable à l'export, lui, s'applique déjà — la proposition de révision ne part pas d'une page blanche.</p>\n<h2 id=\"mistral-enchaine\">Mistral enchaîne</h2>\n<p>Le même 16 octobre 2026, Maddyness rapporte que Mistral a bouclé sa quatrième acquisition en huit mois. Le rythme est l'information : quatre opérations en huit mois pour un acteur français de l'IA.</p>\n<p>Le média économique ne précise ni l'identité de l'entreprise rachetée, ni le détail de l'opération. On reste donc sur le fait brut — et sur ce qu'il dessine : une croissance menée par achats successifs, à un rythme que peu d'acteurs européens affichent.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois mouvements, une même ligne de partage. Meta ajuste à la marge l'usage de contenus qu'il convoite, les sites apprennent à filtrer qui les visite, et Pékin écrit noir sur blanc ce qui peut sortir du pays — sauf ce qui est déjà public. Reste une constante : la valeur se joue sur l'accès à la matière première, pages web et modèles compris. Mistral, lui, continue d'empiler les acquisitions sans que le détail de la quatrième soit public.</p>",
+ "pivot": "7cc15d40c9c66059",
+ "tags": [
+  "meta",
+  "agents",
+  "open-source",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/10/16/mistral-realise-sa-quatrieme-acquisition-en-huit-mois/"
+  }
+ ],
+ "date": "2026-10-17T15:22:02+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1474,
+  "sortie": 3651
+ }
+}

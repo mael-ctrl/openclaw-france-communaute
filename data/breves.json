@@ -1,5 +1,88 @@
 [
  {
+  "id": "7cc15d40c9c66059",
+  "slug": "meta-retire-de-ses-conditions-la-mention-qui-pouvait-autoriser-le-scra-7cc15d",
+  "titre": "Meta retire de ses conditions la mention qui pouvait autoriser le scraping de sites",
+  "resume": "Après une vague de critiques, Meta modifie à nouveau ses conditions d'utilisation. L'entreprise retire la formulation qui laissait entendre qu'elle pouvait récupérer le contenu de sites, y compris de sites de presse, pour entraîner son IA. La mention autorisant l'usage de tout contenu de ces domaines ou URL pour fournir et améliorer ses services ne figure plus sur la page des conditions commerciales.",
+  "tags": [
+   "meta",
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+  "date_source": "2026-10-17T15:04:36+00:00",
+  "date_redac": "2026-10-17T15:21:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 696,
+   "sortie": 809
+  }
+ },
+ {
+  "id": "183345b91676a5df",
+  "slug": "vbios-modifie-sans-flash-des-outils-pour-les-rtx-30-40-et-50-183345",
+  "titre": "VBIOS modifié sans flash : des outils pour les RTX 30, 40 et 50",
+  "resume": "Trois outils pour modifier le VBIOS des cartes NVIDIA RTX 30, 40 et 50 : limites de puissance, tensions, offsets mémoire, canaux de ventilateurs. Le flash direct étant bloqué par Falcon, l'auteur propose des chargeurs qui patchent le registre sous Windows ou le démarrage du firmware GSP sous Fedora, sans toucher au VBIOS d'origine. De quoi descendre sous 400 W sur une RTX 5090.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8ca9a/modify_and_load_custom_vbios_on_windows_and_linux/",
+  "date_source": "2026-10-17T14:57:22+00:00",
+  "date_redac": "2026-10-17T15:21:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 874,
+   "sortie": 863
+  }
+ },
+ {
+  "id": "2400844a4248a68b",
+  "slug": "llama-cpp-un-gain-de-vitesse-cuda-pour-les-quantifications-basses-q2-k-240084",
+  "titre": "llama.cpp : un gain de vitesse CUDA pour les quantifications basses (Q2_K, Q3_K)",
+  "resume": "Une pull request (#30517) signée am17an propose un noyau MMVQ CUDA plus rapide pour llama.cpp, le projet open source porté par ggml-org. Le gain de vitesse annoncé est important, mais il ne vaut que pour certaines quantifications basses précision, comme Q2_K et Q3_K. L'info a été relayée sur r/LocalLLaMA par l'utilisateur jacek2023.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8bqqs/cuda_faster_mmvq_for_lowbit_types_by_am17an_pull/",
+  "date_source": "2026-10-17T14:33:53+00:00",
+  "date_redac": "2026-10-17T15:21:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 657,
+   "sortie": 628
+  }
+ },
+ {
+  "id": "57c3359f3a172edc",
+  "slug": "nvidia-publie-dory1-0-4b-un-modele-boucle-de-4-milliards-de-parametres-57c335",
+  "titre": "NVIDIA publie Dory1.0-4B, un modèle « bouclé » de 4 milliards de paramètres",
+  "resume": "NVIDIA publie Dory1.0-4B, un LLM de 4 milliards de paramètres sous licence OpenMDW 1.1, ouvert à un usage commercial. Son architecture bouclée réapplique un même bloc de couches partagées : plus de calcul par token. L'attention alterne fenêtres glissantes et couches complètes, avec un contexte jusqu'à 256K tokens en BF16 — anglais uniquement, pour du raisonnement généraliste sur une empreinte réduite.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8bg1u/nvidianvidianemotronlabsdory104bbf16_hugging_face/",
+  "date_source": "2026-10-17T14:20:54+00:00",
+  "date_redac": "2026-10-17T15:21:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 816,
+   "sortie": 1295
+  }
+ },
+ {
   "id": "3220c01738ed1da6",
   "slug": "deepseek-v4-1-flash-1017-prend-la-tete-des-modeles-a-poids-ouverts-3220c0",
   "titre": "DeepSeek V4.1 Flash (1017) prend la tête des modèles à poids ouverts",

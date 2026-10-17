@@ -1,0 +1,41 @@
+{
+ "slug": "un-depot-deepseek-v4-1-flash-apparait-sur-hugging-face-sans--2c3435",
+ "titre": "Un dépôt DeepSeek-V4.1-Flash apparaît sur Hugging Face, sans fiche technique",
+ "chapo": "Un post de r/LocalLLaMA signale un dépôt nommé deepseek-ai/DeepSeek-V4.1-Flash-1017 sur Hugging Face, hébergé sous l'organisation de DeepSeek. Aucune fiche technique, aucune taille, aucun résultat : juste un nom et un lien. La même semaine, Reflection sort Beam, Pékin propose de filtrer l'export de 23 technologies IA et ORL bat des records de débit.",
+ "html": "<h2 id=\"chez-deepseek-un-nom-de-depot-et-rien-d-\">Chez DeepSeek, un nom de dépôt et rien d'autre</h2>\n<p>L'information tient en une ligne. Un membre de r/LocalLLaMA pointe vers une page Hugging Face à l'adresse deepseek-ai/DeepSeek-V4.1-Flash-1017. Le dépôt est hébergé sous l'organisation <strong>deepseek-ai</strong>, ce qui le rattache à DeepSeek. Voilà pour le certain.</p>\n<p>Pour le reste, l'extrait partagé est vide de tout contenu utile : pas de fiche technique, pas d'indication de taille de modèle, pas de résultats de benchmark. On ne sait donc pas ce que ce dépôt contient réellement — un modèle abouti, un espace de travail, une simple réservation de nom. Rien dans la source ne permet de trancher.</p>\n<p>Un dépôt qui apparaît sous ce type de nom suffit pourtant à agiter le subreddit, parce qu'il suggère une nouvelle génération de modèles là où l'on n'attendait rien. C'est un signal, pas une annonce : DeepSeek n'a rien publié pour l'accompagner.</p>\n<h2 id=\"reflection-beam-501-milliards-de-paramet\">Reflection Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>À côté de ce nom sans contenu, Reflection livre un modèle documenté. <strong>Beam</strong> est un modèle ouvert texte-texte en architecture mixture-of-experts sparse : 501 milliards de paramètres au total, mais 23 milliards activés par passage. La fenêtre de contexte atteint un million de tokens.</p>\n<p>La version instruction-tuned est publiée en trois formats de précision : BF16, FP8 et NVFP4. Le positionnement est clair dans la dépêche : Beam est développé surtout pour l'anglais, et visé sur trois usages précis — le raisonnement économe en tokens, le génie logiciel et l'appel d'outils dans un cadre agentique.</p>\n<p>Le rapport entre les deux chiffres est l'argument central : un modèle de 501 milliards qui n'en active que 23 reste dans une enveloppe de calcul proche d'un modèle bien plus petit. C'est exactement la promesse de l'architecture MoE sparse, et Beam en donne les paramètres sans détour.</p>\n<h2 id=\"pekin-propose-de-controler-23-technologi\">Pékin propose de contrôler 23 technologies IA, l'open source exempté</h2>\n<p>Le 16 octobre 2026, la Chine a proposé une révision de son catalogue de technologies restreintes à l'export. Le texte prévoit 40 ajouts, dont <strong>23 liés à l'IA</strong> : grands modèles, agents, clusters de calcul.</p>\n<p>La disposition la plus intéressante pour l'écosystème ouvert est l'exemption. Les technologies déjà rendues publiques via l'open source ou des publications académiques sortent explicitement du périmètre. Autrement dit, ce qui est déjà sur Hugging Face ou dans un papier n'entre pas dans le catalogue.</p>\n<p>Le calendrier, lui, est déjà en partie contraignant : la consultation publique court jusqu'au 15 novembre, mais l'enregistrement préalable à l'export s'applique d'ores et déjà. La proposition ne crée donc pas le régime, elle l'étend.</p>\n<h2 id=\"flux-3-et-orl-ce-qui-tombe-vraiment-sur-\">FLUX.3 et ORL : ce qui tombe vraiment sur les plateformes</h2>\n<p>Deux publications concrètes complètent la semaine. Côté image, les poids de <strong>FLUX.3 Image Klein</strong> ont été publiés sur Hugging Face sous le compte `black-forest-labs`, signalés sur le même subreddit. Le modèle de génération d'images devient accessible publiquement via la plateforme.</p>\n<p>Côté inférence, l'équipe derrière <strong>ORL (On-Policy Residual Learning)</strong> publie une méthode qui accélère les modèles de langage à diffusion sans sacrifier la qualité de génération. Les chiffres, mesurés avec son moteur `dlmrt` : <strong>2 788 tokens/s sur une seule RTX 5090</strong> avec LLaDA-2.1-mini, et <strong>7 708 tokens/s sur 8× B200</strong>, à chaque fois pour une requête unique (batch size 1).</p>\n<p>Modèles, code d'entraînement, pipeline d'évaluation et moteur d'inférence sont tous open source. La précision « batch size 1 » compte : ces débits décrivent une latence de requête isolée, pas un throughput de serving en charge.</p>\n<h2>Et maintenant ?</h2>\n<p>La semaine dessine deux rythmes. D'un côté, les publications complètes : Beam et ses 501 milliards documentés jusqu'aux formats de quantification, ORL et son moteur d'inférence livrés avec le code d'entraînement, FLUX.3 Image Klein posé sur Hugging Face. De l'autre, les signaux sans matière : un dépôt DeepSeek dont on ne connaît que le nom. Entre les deux, la révision chinoise du 16 octobre rappelle que la frontière du contrôle à l'export passe désormais par la question de savoir si du code et des poids sont publics ou non.</p>",
+ "pivot": "2c343517c1b18b4f",
+ "tags": [
+  "deepseek",
+  "open-source",
+  "recherche",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x84po4/deepseekaideepseekv41flash1017_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6t5fc/flux3_image_klein_just_got_weights_published_on/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/"
+  }
+ ],
+ "date": "2026-10-17T08:39:03+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1595,
+  "sortie": 2191
+ }
+}

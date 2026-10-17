@@ -1,5 +1,68 @@
 [
  {
+  "id": "3220c01738ed1da6",
+  "slug": "deepseek-v4-1-flash-1017-prend-la-tete-des-modeles-a-poids-ouverts-3220c0",
+  "titre": "DeepSeek V4.1 Flash (1017) prend la tête des modèles à poids ouverts",
+  "resume": "Sur r/LocalLLaMA, un post daté du 17 octobre 2026 signale que DeepSeek V4.1 Flash (1017) passe devant les autres modèles à poids ouverts. Le fil, ouvert par l'utilisateur Informal-Trouble2183, ne détaille dans son extrait ni benchmarks ni méthodologie de classement. Cela compte pour l'écosystème open-weight, où le modèle de tête sert de référence aux usages auto-hébergés.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8bb6b/deepseek_v41_flash_1017_now_leads_openweight/",
+  "date_source": "2026-10-17T14:15:01+00:00",
+  "date_redac": "2026-10-17T14:19:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 626,
+   "sortie": 986
+  }
+ },
+ {
+  "id": "2676a39126eea79b",
+  "slug": "byd-devoile-le-design-de-son-premier-robot-humanoide-2676a3",
+  "titre": "BYD dévoile le design de son premier robot humanoïde",
+  "resume": "BYD ne fabrique pas seulement des voitures électriques et des batteries. Le géant chinois a dévoilé le design de son premier robot humanoïde développé en interne, une annonce qui suit la publication d'un brevet. Le constructeur élargit ainsi son terrain de jeu au matériel robotique.",
+  "tags": [
+   "robots",
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/17/byd-aussi-a-son-propre-robot-humanoide/",
+  "date_source": "2026-10-17T14:02:15+00:00",
+  "date_redac": "2026-10-17T14:19:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 646,
+   "sortie": 600
+  }
+ },
+ {
+  "id": "52b638d708579c9b",
+  "slug": "qwen-3-8-flash-next-la-table-n-gram-en-fp8-ameliore-les-resultats-52b638",
+  "titre": "Qwen 3.8 Flash Next : la table n-gram en FP8 améliore les résultats",
+  "resume": "Un utilisateur de r/LocalLLaMA a reconstruit en FP8 la PLE de Qwen 3.8 Flash Next — la table n-gram stockée sur le SSD — avec son script ple_fp8_pack.py. Dans les GGUF courants, cette table est fortement quantifiée, avec un impact mesurable sur les performances déjà documenté par un autre membre. Résultat : moins d'erreurs grossières en iq3_s et aucun impact sur la vitesse.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8am0i/why_not_run_qwen_38_flash_next_with_the_full/",
+  "date_source": "2026-10-17T13:44:17+00:00",
+  "date_redac": "2026-10-17T14:19:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 864,
+   "sortie": 908
+  }
+ },
+ {
   "id": "8d42bfd942abdc2d",
   "slug": "262k-de-contexte-sur-une-rx-9070-xt-16-go-grace-au-kv-streaming-adapta-8d42bf",
   "titre": "262k de contexte sur une RX 9070 XT 16 Go grâce au KV streaming adaptatif",

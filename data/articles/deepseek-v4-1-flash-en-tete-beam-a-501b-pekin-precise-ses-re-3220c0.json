@@ -1,0 +1,41 @@
+{
+ "slug": "deepseek-v4-1-flash-en-tete-beam-a-501b-pekin-precise-ses-re-3220c0",
+ "titre": "DeepSeek V4.1 Flash en tête, Beam à 501B, Pékin précise ses règles",
+ "chapo": "DeepSeek V4.1 Flash (1017) prend la tête des modèles à poids ouverts selon un fil r/LocalLLaMA, pendant que Reflection sort Beam, un MoE de 501 milliards de paramètres. Pékin propose d'encadrer l'export de 23 technologies IA — open source excepté — et Meta ouvre la porte au scraping des éditeurs.",
+ "html": "<h2 id=\"deepseek-en-tete-sans-tableau-de-benchma\">DeepSeek en tête, sans tableau de benchmarks</h2>\n<p>Le 17 octobre 2026, un post publié sur r/LocalLLaMA par l'utilisateur Informal-Trouble2183 place <strong>DeepSeek V4.1 Flash (1017)</strong> devant les autres modèles à poids ouverts. Le fil ne donne, dans son extrait, ni benchmarks ni méthodologie de classement : on sait qu'un modèle est annoncé en tête, pas sur quelle base.</p>\n<p>Dans l'écosystème open-weight, cette position n'est pas décorative : le modèle de tête sert de référence aux usages auto-hébergés, à ceux qui font tourner les poids chez eux plutôt que d'appeler une API. D'où la prudence nécessaire — sans protocole d'évaluation publié, la première place reste une affirmation à vérifier, pas un résultat reproductible.</p>\n<h2 id=\"reflection-beam-501-milliards-de-paramet\">Reflection Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Reflection publie <strong>Beam</strong>, un modèle ouvert texte-texte en architecture mixture-of-experts sparse. Le chiffre qui compte est double : 501 milliards de paramètres au total, 23 milliards activés. Le modèle revendique une fenêtre de contexte d'un million de tokens.</p>\n<p>La version instruction-tuned sort en trois formats : BF16, FP8 et NVFP4. Beam est développé surtout pour l'anglais, avec trois cibles affichées : un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques.</p>\n<p>Le rapport entre paramètres totaux et paramètres activés est ce qui distingue un MoE sparse d'un modèle dense : tout le poids du réseau n'est pas mobilisé à chaque token. C'est cette dissociation qui rend l'échelle du modèle compatible avec un coût d'inférence contenu — le 501B et le 23B ne décrivent pas la même chose.</p>\n<h2 id=\"pekin-liste-23-technologies-ia-l-open-so\">Pékin liste 23 technologies IA, l'open source épargné</h2>\n<p>Le 16 octobre 2026, la Chine a proposé de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul. Un point mérite l'attention : les technologies déjà rendues publiques via l'open source ou des publications académiques sont explicitement exemptées.</p>\n<p>Le calendrier n'est pas neutre. La consultation publique court jusqu'au 15 novembre, mais l'enregistrement préalable à l'export s'applique déjà. Le cadre actuel tourne donc pendant que sa révision se discute.</p>\n<p>Pour l'écosystème open-weight, cette exemption écrit noir sur blanc une règle que le milieu suppose souvent sans preuve textuelle. Elle porte sur des technologies déjà publiques : le texte proposé ne dit rien du sort des modèles qui ne le sont pas encore.</p>\n<h2 id=\"meta-et-le-contenu-des-editeurs-le-cern-\">Meta et le contenu des éditeurs, le CERN et les collisions</h2>\n<p>Chez Meta, les nouveaux termes entrent en vigueur le 30 octobre. Selon un rapport de Nieman Lab relayé par The Verge, ils <em>semblent</em> autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, éditeurs en ligne compris. Ce contenu externe pourrait ensuite servir à « développer, améliorer, rechercher » et « entraîner ».</p>\n<p>Le conditionnel reste de mise : l'interprétation vient d'un rapport externe, pas d'une annonce de Meta, et le vocabulaire employé — développer, améliorer, rechercher, entraîner — est large. Reste que la formulation place les sites d'actualité dans le périmètre potentiel du corpus.</p>\n<p>À l'autre bout de l'échelle des données, le CERN et Mistral AI ont signé jeudi 15 octobre 2026 une déclaration d'intention pour créer un « grand modèle de physique », entraîné sur des milliards de collisions simulées au LHC. Aucun budget ni calendrier n'a été communiqué.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre annonces, quatre degrés de solidité. Le classement de DeepSeek V4.1 Flash repose sur un fil sans méthodologie publiée ; Beam arrive avec des chiffres d'architecture précis ; l'exemption open source chinoise reste une proposition soumise à consultation jusqu'au 15 novembre ; les termes de Meta ne sont, pour l'heure, qu'une lecture de Nieman Lab. Entre-temps, le CERN et Mistral posent une intention sans budget ni date. L'open-weight avance vite ; les cadres qui l'entourent, nettement moins.</p>",
+ "pivot": "3220c01738ed1da6",
+ "tags": [
+  "deepseek",
+  "open-source",
+  "meta",
+  "mistral"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8bb6b/deepseek_v41_flash_1017_now_leads_openweight/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/sciences/2354527-des-milliards-de-simulations-de-collision-mistral-sassocie-au-cern-pour-creer-un-modele-dia-de-pointe-pour-la-physique-des-particules.html"
+  }
+ ],
+ "date": "2026-10-17T14:19:38+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1562,
+  "sortie": 4141
+ }
+}

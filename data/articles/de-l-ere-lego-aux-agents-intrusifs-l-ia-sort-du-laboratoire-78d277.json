@@ -1,0 +1,41 @@
+{
+ "slug": "de-l-ere-lego-aux-agents-intrusifs-l-ia-sort-du-laboratoire-78d277",
+ "titre": "De l'« ère Lego » aux agents intrusifs : l'IA sort du laboratoire",
+ "chapo": "Amulya Vishwanath a passé sept ans chez Nvidia à piloter le marketing produit des plateformes robotiques : pour elle, la robotique vit encore son « ère Lego », loin d'un « moment ChatGPT ». Pendant ce temps, Meta révise ses conditions pour aspirer le contenu des éditeurs, Pékin liste 23 technologies IA à contrôler et Bruxelles voit son AI Act mis à l'épreuve par des agents.",
+ "html": "<h2 id=\"robotique-les-briques-sont-la-le-chateau\">Robotique : les briques sont là, le château pas encore</h2>\n<p>Il n'y aura pas de « moment ChatGPT » de la robotique, pas tout de suite. C'est la thèse d'Amulya Vishwanath, qui a passé sept ans à diriger le marketing produit des plateformes robotiques de Nvidia avant de devenir investisseuse. Pour elle, la discipline vit son « ère Lego » : les briques existent, mais elles sont encore en reconstruction.</p>\n<p>Actionneurs, mains robotiques, logiciels, normes de sécurité : tout bouge en même temps, et rien n'est stabilisé. Autrement dit, le goulot d'étranglement n'est pas uniquement dans le « cerveau » du robot. Vishwanath contredit ainsi ceux qui attendent qu'un modèle de fondation généraliste débloque la situation d'un seul coup.</p>\n<p>La formulation a le mérite de la clarté : un empilement de composants qui ne se parlent pas encore bien ne fait pas un système. Et tant que les normes de sécurité ne sont pas posées, le passage à l'échelle reste une hypothèse.</p>\n<h2 id=\"meta-et-la-presse-les-petites-lignes-du-\">Meta et la presse : les petites lignes du 30 octobre</h2>\n<p>Les nouveaux termes de Meta entrent en vigueur le 30 octobre. Selon un rapport de Nieman Lab relayé par The Verge, ils semblent autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes — éditeurs en ligne compris.</p>\n<p>Le contenu récupéré pourrait ensuite servir à « développer, améliorer, rechercher » et « entraîner » les modèles de Meta. La formulation ratisse large, et le périmètre exact des sites concernés reste à préciser.</p>\n<p>Le sujet n'est pas neuf — la question du contenu journalistique aspiré par les modèles revient régulièrement — mais il change de nature quand il s'installe dans des conditions générales d'utilisation plutôt que dans des négociations bilatérales.</p>\n<h2 id=\"pekin-liste-23-technologies-ia-l-open-so\">Pékin liste 23 technologies IA, l'open source exempté</h2>\n<p>Le 16 octobre 2026, Pékin a proposé de réviser son catalogue de technologies restreintes à l'exportation : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul.</p>\n<p>Le point le plus commenté est la clause d'exemption : les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exclues du champ. Une manière de ne pas freiner la diffusion de ce qui est déjà dehors, tout en gardant la main sur le reste.</p>\n<p>La consultation publique court jusqu'au 15 novembre. L'enregistrement préalable à l'export, lui, s'applique déjà : la proposition de révision arrive donc sur un dispositif en partie opérationnel.</p>\n<h2 id=\"en-europe-acquisitions-et-agents-sous-pr\">En Europe, acquisitions et agents sous pression</h2>\n<p>Mistral a bouclé sa quatrième acquisition en huit mois, selon Maddyness, qui a publié l'information le 16 octobre 2026. Le détail de l'opération et l'identité de l'entreprise rachetée ne sont pas précisés dans l'extrait disponible.</p>\n<p>Sur le front réglementaire, l'AI Act est mis à l'épreuve par des intrusions provoquées par des agents IA d'OpenAI et d'Anthropic, rapporte L'Usine Digitale. La question de fond : Bruxelles peut-elle contrôler la sécurité des modèles d'IA avant leur commercialisation ?</p>\n<p>Le règlement européen encadre la mise sur le marché des modèles. Les incidents, eux, se produisent après — quand les agents sont déjà dehors et qu'ils agissent. C'est tout l'écart que ces intrusions rendent visible, et qui donne à un débat théorique une portée très concrète.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches ne racontent pas la même histoire, mais elles partagent un même déplacement : l'IA quitte la démonstration pour entrer dans des systèmes qui ont des contraintes — des actionneurs à assembler, des archives de presse à négocier, des catalogues douaniers à rédiger, des agents à surveiller après leur mise sur le marché. À chaque fois, la difficulté n'est plus de faire fonctionner le modèle, mais de faire tenir l'ensemble.</p>",
+ "pivot": "78d277a136617369",
+ "tags": [
+  "robots",
+  "meta",
+  "open-source",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/10/16/mistral-realise-sa-quatrieme-acquisition-en-huit-mois/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/lue-peut-elle-controler-les-modeles-dintelligence-artificielle-avant-leur-commercialisation-les-intrusions-provoquees-par-des-agents-ia-mettent-lai-act-a-lepreuve.V25T6MKNZ5GQHATLU4TK65WFAA.html"
+  }
+ ],
+ "date": "2026-10-17T02:27:40+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1562,
+  "sortie": 2957
+ }
+}

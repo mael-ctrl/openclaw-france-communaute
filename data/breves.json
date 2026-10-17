@@ -1,5 +1,25 @@
 [
  {
+  "id": "455fbe34017c8025",
+  "slug": "openclaw-publie-la-beta-2026-10-10-beta-2-455fbe",
+  "titre": "OpenClaw publie la bêta 2026.10.10-beta.2",
+  "resume": "OpenClaw met en ligne la version 2026.10.10-beta.2, datée du 17 octobre 2026, sur sa page GitHub de releases. Il s'agit d'une pré-version bêta rattachée à la branche 2026.10.10. L'extrait transmis se limite au nom de la version : le détail des changements n'y figure pas et aucune information n'est donnée sur le périmètre des correctifs.",
+  "tags": [
+   "openclaw",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.10-beta.2",
+  "date_source": "2026-10-17T01:51:47+00:00",
+  "date_redac": "2026-10-17T02:27:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 665
+  }
+ },
+ {
   "id": "a0706a8aabcd0895",
   "slug": "un-dev-sceptique-raconte-son-passage-a-l-ia-locale-avec-llama-cpp-a0706a",
   "titre": "Un dev sceptique raconte son passage à l'IA locale avec llama.cpp",
@@ -80,6 +100,27 @@
    "modele": "deepseek-flash",
    "entree": 603,
    "sortie": 841
+  }
+ },
+ {
+  "id": "bac8b0387d862d61",
+  "slug": "openclaw-simplifie-les-cycles-de-vie-reactifs-de-ses-pages-hors-chat-bac8b0",
+  "titre": "OpenClaw simplifie les cycles de vie réactifs de ses pages hors chat",
+  "resume": "OpenClaw publie une nouvelle livraison de son interface : le commit refactor(ui) simplifie les cycles de vie réactifs des pages hors chat. La même livraison embarque une passe de nettoyage (chore) destinée à satisfaire les contrôles de lint liés à ce remaniement. Il s'agit de travail interne sur le code de l'interface, sans changement fonctionnel annoncé.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F442d0dc6f645-1792201171",
+  "date_source": "2026-10-16T23:06:22+00:00",
+  "date_redac": "2026-10-17T02:27:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 644,
+   "sortie": 361
   }
  },
  {

@@ -1,5 +1,89 @@
 [
  {
+  "id": "19f78a77b09534dd",
+  "slug": "retirer-les-refus-d-un-modele-via-lora-plutot-qu-en-modifiant-le-model-19f78a",
+  "titre": "Retirer les refus d'un modèle via LoRA plutôt qu'en modifiant le modèle lui-même",
+  "resume": "Sur r/LocalLLaMA, un utilisateur compare deux méthodes pour lever les refus d'un modèle : l'outil générique « heretic », coûteux à mesure que le modèle grossit, et l'approche par LoRA. Il a repéré le dépôt weightless, destiné à réduire les refus dans un cadre cyber, et note qu'un LoRA se charge et se décharge sans modifier le modèle d'origine. Il demande si des tests existent, notamment sur glm 5.3 Flash.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x83ign/uncensored_models_via_lora/",
+  "date_source": "2026-10-17T06:57:03+00:00",
+  "date_redac": "2026-10-17T07:10:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 795,
+   "sortie": 1020
+  }
+ },
+ {
+  "id": "39fc9a908544d9b5",
+  "slug": "les-garde-fous-de-nemotron-nvidia-bloquent-une-tache-de-dev-banale-39fc9a",
+  "titre": "Les garde-fous de Nemotron (Nvidia) bloquent une tâche de dev banale",
+  "resume": "Un utilisateur de r/LocalLLaMA rapporte avoir lancé le modèle Nemotron 120B de Nvidia pour refondre l'interface d'une page. Pour accéder à cette page, le modèle devait se connecter à un serveur de développement ; l'utilisateur lui a fourni les identifiants. Le modèle a refusé de se connecter. Le fil illustre le débat sur les garde-fous, jugés ici trop stricts pour un usage de développement courant.",
+  "tags": [
+   "dev",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x83hz1/nvdias_nemotron_is_guard_railed_to_uselessness/",
+  "date_source": "2026-10-17T06:56:15+00:00",
+  "date_redac": "2026-10-17T07:10:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 661,
+   "sortie": 554
+  }
+ },
+ {
+  "id": "39cccde538107235",
+  "slug": "hermes-agent-publie-une-build-canary-v0-22-2-39cccd",
+  "titre": "Hermes Agent publie une build canary v0.22.2",
+  "resume": "Hermes Agent a mis en ligne une nouvelle build canary, estampillée v0.22.2+canary.20261017T065512Z et datée du 17 octobre 2026. Ce canal correspond à des publications de pré-version, diffusées en amont d'une hypothétique stabilisation. L'extrait fourni ne détaille ni le contenu ni les correctifs de cette build.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261017T065512Z",
+  "date_source": "2026-10-17T06:55:14+00:00",
+  "date_redac": "2026-10-17T07:10:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 539
+  }
+ },
+ {
+  "id": "f3ecad9aaffd332f",
+  "slug": "one-ui-9-arrive-sur-les-galaxy-s23-et-une-partie-des-galaxy-a-f3ecad",
+  "titre": "One UI 9 arrive sur les Galaxy S23 et une partie des Galaxy A",
+  "resume": "Samsung déploie One UI 9, sa surcouche basée sur Android 17, sur les Galaxy S23, S23+ et S23 Ultra, ainsi que sur les Galaxy A57, A56, A37, A36 et A27. Au total, 28 modèles sont concernés par cette mise à jour. Les fonctions d'IA les plus gourmandes en calcul restent toutefois réservées aux Galaxy S récents et aux pliables actuels.",
+  "tags": [
+   "matériel",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/samsung/3289953_galaxy-s23-a57-a36-ces-28-modeles-peuvent-passer-a-samsung-one-ui-9",
+  "date_source": "2026-10-17T06:50:18+00:00",
+  "date_redac": "2026-10-17T07:10:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 699,
+   "sortie": 482
+  }
+ },
+ {
   "id": "b61603aa86883741",
   "slug": "benefit-street-partners-s-appuie-sur-codex-pour-analyser-les-contrats--b61603",
   "titre": "Benefit Street Partners s'appuie sur Codex pour analyser les contrats de crédit",
@@ -39,6 +123,27 @@
    "modele": "deepseek-flash",
    "entree": 838,
    "sortie": 1238
+  }
+ },
+ {
+  "id": "f203578169a4c87c",
+  "slug": "prefill-bloque-a-200-tps-sur-4070-et-v100-un-utilisateur-cherche-la-ca-f20357",
+  "titre": "Prefill bloqué à ~200 tps sur 4070 et V100, un utilisateur cherche la cause",
+  "resume": "Sur r/LocalLLaMA, un utilisateur rapporte un prefill plafonnant autour de 200 tps sur un modèle quantifié en iq3_xxs, aussi bien sur une RTX 4070 12 Go que sur une V100 16 Go, en simple comme en double GPU. Il s'étonne de ne jamais approcher le millier de tps vu chez d'autres, et soupçonne d'abord le PCIe de la V100, sans effet sur la 4070. Sa machine : i5-12400F, 32 Go de RAM DDR4 3200, SSD en lecture 3,6 Go/s. Il partage ses flags de lancement (expert-cache, prefill auto, kv int8, mmap-experts, layer_split auto) et demande des pistes de réglage.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8278w/150tps_prefill_on_dual_and_single_gpu_on_strata/",
+  "date_source": "2026-10-17T05:36:38+00:00",
+  "date_redac": "2026-10-17T07:10:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 897,
+   "sortie": 522
   }
  },
  {

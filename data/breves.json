@@ -1,5 +1,47 @@
 [
  {
+  "id": "f51e0a34f8e99b9c",
+  "slug": "un-chatbot-support-promet-des-reparations-gratuites-a-tort-l-entrepris-f51e0a",
+  "titre": "Un chatbot support promet des réparations gratuites à tort, l'entreprise honore",
+  "resume": "Une entreprise a basculé son chatbot de support sur un modèle auto-hébergé pour garder les données clients en interne, avec des réponses en RAG sur sa documentation. Un client a envoyé une capture où le bot promettait la réparation gratuite des dommages accidentels : ce n'est pas couvert. Le document récupéré portait sur une extension qu'il n'avait pas, et le modèle a mélangé les deux. L'entreprise a honoré la promesse.",
+  "tags": [
+   "business",
+   "sécurité",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8f7cc/how_do_teams_catch_ai_chatbots_giving_customers/",
+  "date_source": "2026-10-17T16:55:59+00:00",
+  "date_redac": "2026-10-17T17:56:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 803,
+   "sortie": 1116
+  }
+ },
+ {
+  "id": "88aa06878783b68e",
+  "slug": "xt-luna-1b-un-minicpm5-affine-pour-le-code-et-les-agents-88aa06",
+  "titre": "XT-Luna 1B : un MiniCPM5 affiné pour le code et les agents",
+  "resume": "XtrCom publie XT-Luna 1B, un modèle affiné à partir de MiniCPM5 1B et orienté vers les charges agentiques et le code. L'auteur l'a comparé au MiniCPM5 1B SFT officiel et à Qwen 3.5 4B sur des benchmarks de raisonnement, captures à l'appui dans la model card. La sortie est assumée précoce : le travail continue, les retours et rapports de bugs sont attendus. Mode réflexion recommandé.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8e813/finetuned_minicpm5_1b_testing/",
+  "date_source": "2026-10-17T16:16:36+00:00",
+  "date_redac": "2026-10-17T17:56:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 729,
+   "sortie": 804
+  }
+ },
+ {
   "id": "c0247c31348594bb",
   "slug": "le-createur-de-linux-juge-debiles-les-regles-anti-ia-c0247c",
   "titre": "Le créateur de Linux juge « débiles » les règles anti-IA",

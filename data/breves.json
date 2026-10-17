@@ -1,5 +1,67 @@
 [
  {
+  "id": "b61603aa86883741",
+  "slug": "benefit-street-partners-s-appuie-sur-codex-pour-analyser-les-contrats--b61603",
+  "titre": "Benefit Street Partners s'appuie sur Codex pour analyser les contrats de crédit",
+  "resume": "Chez Benefit Street Partners, Anant Kumar construit des outils pour comparer des valorisations de prêts et analyser des contrats de crédit. Il utilise Codex d'OpenAI pour la revue de code et pour accélérer le traitement des demandes de suivi. Un cas d'usage concret de l'IA appliquée aux métiers de la finance.",
+  "tags": [
+   "openai",
+   "business",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/benefit-street-partners",
+  "date_source": null,
+  "date_redac": "2026-10-17T06:35:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 586,
+   "sortie": 545
+  }
+ },
+ {
+  "id": "bd36e34b96aaaad1",
+  "slug": "defiance-greffe-les-modes-ai-construct-de-davidau-sur-le-qwen3-8-27b-n-bd36e3",
+  "titre": "Defiance greffe les modes AI Construct de DavidAU sur le Qwen3.8-27B non censuré",
+  "resume": "Defiance combine les poids non censurés Qwen3.8-27B de HauhauCS, repris octet pour octet, et le template de chat de DavidAU, retouché en neuf endroits. À chaque requête on choisit un mode — Joker, Dr House, un panel de 20 agents Einstein, un tuteur socratique — et les poids répondent sans se couvrir. Le template est embarqué dans chaque GGUF, donc llama.cpp, LM Studio et Ollama le prennent sans option supplémentaire. L'auteur dit avoir vérifié les 866 tenseurs face aux fichiers d'origine.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x82yxx/qwen3827bdefianceuncensoredmtpgguf/",
+  "date_source": "2026-10-17T06:23:41+00:00",
+  "date_redac": "2026-10-17T06:35:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 838,
+   "sortie": 1238
+  }
+ },
+ {
+  "id": "42cd7a965ca8e92c",
+  "slug": "deepseek-des-utilisateurs-signalent-une-possible-v4-1-flash-1017-sur-l-42cd7a",
+  "titre": "DeepSeek : des utilisateurs signalent une possible V4.1-Flash-1017 sur l'API",
+  "resume": "Des utilisateurs de DeepSeek rapportent l'arrivée possible d'une déclinaison V4.1-Flash-1017 sur l'API du modèle, dans un fil de r/LocalLLaMA. Le message d'origine, publié par u/chemist_slime, se limite à quelques mots : l'auteur dit attendre cette mise à jour. Aucun détail technique ni annonce de l'éditeur n'accompagne le signalement.",
+  "tags": [
+   "deepseek",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x825su/deepseek_41_flash_1017_incoming_deepseek_users/",
+  "date_source": "2026-10-17T05:34:11+00:00",
+  "date_redac": "2026-10-17T06:35:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 645,
+   "sortie": 728
+  }
+ },
+ {
   "id": "7367a4cda2656fef",
   "slug": "sur-r-localllama-on-demande-qui-possede-vraiment-une-rtx-5090-7367a4",
   "titre": "Sur r/LocalLLaMA, on demande qui possède vraiment une RTX 5090",

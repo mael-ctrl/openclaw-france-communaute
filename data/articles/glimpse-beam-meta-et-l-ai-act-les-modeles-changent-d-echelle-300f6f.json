@@ -1,0 +1,41 @@
+{
+ "slug": "glimpse-beam-meta-et-l-ai-act-les-modeles-changent-d-echelle-300f6f",
+ "titre": "Glimpse, Beam, Meta et l'AI Act : les modèles changent d'échelle",
+ "chapo": "Elorian revendique un modèle qui raisonne avec les images, Reflection publie un MoE ouvert de 501 milliards de paramètres, et Meta se donnerait le droit de scraper les sites d'éditeurs. Pendant ce temps, l'AI Act cherche encore comment contrôler les agents avant leur mise sur le marché.",
+ "html": "<h2 id=\"glimpse-ou-l-image-comme-materiau-de-rai\">Glimpse, ou l'image comme matériau de raisonnement</h2>\n<p>Elorian sort son premier modèle, Glimpse, avec une ambition formulée sans détour : raisonner <strong>avec</strong> les images, pas seulement à leur sujet. La nuance n'est pas cosmétique. Elle déplace la question de la description vers celle de l'inférence : que peut-on déduire d'un graphique, d'une courbe, d'une séquence vidéo courte ?</p>\n<p>Selon les évaluations de l'entreprise, Glimpse dépasse GPT-6 Astra sur deux exercices précis : le raisonnement à partir de graphiques scientifiques et le sous-titrage de vidéos courtes. Sur les autres tâches de raisonnement visuel, les résultats sont annoncés comme comparables. Un nouvel entrant revendique donc des performances supérieures à celles d'un modèle majeur, sur un périmètre délimité.</p>\n<p>Reste que ces chiffres viennent d'Elorian lui-même. Aucune évaluation indépendante n'est mentionnée, et la comparaison porte sur des tâches choisies par l'entreprise. La prudence est de rigueur avant d'en tirer des conclusions générales sur la hiérarchie des modèles.</p>\n<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Reflection publie Beam, un modèle ouvert texte-texte en architecture mixture-of-experts sparse. Les chiffres donnent le vertige : <strong>501 milliards de paramètres au total, 23 milliards activés</strong>, pour une fenêtre de contexte d'un million de tokens. Autrement dit, un modèle qui ne réveille qu'une fraction de ses poids à chaque inférence.</p>\n<p>La version instruction-tuned sort en trois formats — BF16, FP8 et NVFP4 — ce qui laisse de la marge selon le matériel disponible. Reflection annonce trois cibles : un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques. Le modèle est surtout développé pour l'anglais, précision qui limite d'emblée son intérêt pour un usage francophone sans travail supplémentaire.</p>\n<h2 id=\"meta-et-le-contenu-des-editeurs\">Meta et le contenu des éditeurs</h2>\n<p>Les nouveaux termes de Meta entrent en vigueur le 30 octobre. D'après un rapport de Nieman Lab, ils sembleraient autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes — éditeurs en ligne compris. Le contenu externe ainsi récupéré pourrait servir à « développer, améliorer, rechercher » et « entraîner ».</p>\n<p>Le conditionnel est essentiel ici : rien n'indique encore comment Meta interprétera ces termes, ni quels éditeurs seront effectivement concernés. Mais le périmètre décrit est large, et il inclut précisément ceux qui produisent l'information que les modèles consomment.</p>\n<p>Pour les éditeurs, la question du scraping n'est pas nouvelle. Ce qui change, c'est la finalité affichée : le texte récupéré n'alimente plus seulement un index de recherche, il alimente un entraînement.</p>\n<h2 id=\"l-europe-ai-act-sous-pression-physique-d\">L'Europe : AI Act sous pression, physique des particules en projet</h2>\n<p>Bruxelles peut-elle contrôler la sécurité des modèles d'IA avant leur commercialisation ? La question est posée depuis un moment ; les incidents provoqués par des agents d'OpenAI et d'Anthropic lui donnent une portée concrète. Ces intrusions mettent l'AI Act à l'épreuve, alors que le règlement européen encadre la mise sur le marché des modèles.</p>\n<p>En parallèle, le CERN et Mistral AI ont signé le jeudi 15 octobre 2026 une déclaration d'intention pour créer un « grand modèle de physique », qui serait entraîné sur des milliards de collisions simulées au LHC. Aucun budget ni calendrier n'a été communiqué : le projet en est au stade de l'intention.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre annonces, quatre périmètres : un modèle fermé qui revendique la première place sur un créneau visuel précis, un modèle ouvert qui pousse le mixture-of-experts à 501 milliards de paramètres, une plateforme qui élargit son accès aux contenus d'éditeurs, et un régulateur qui cherche encore la prise sur des agents déjà à l'œuvre. Aucune ne répond à la question de fond : qui vérifie quoi, et sur quels chiffres.</p>",
+ "pivot": "300f6f24ed290c2a",
+ "tags": [
+  "recherche",
+  "open-source",
+  "meta",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/lue-peut-elle-controler-les-modeles-dintelligence-artificielle-avant-leur-commercialisation-les-intrusions-provoquees-par-des-agents-ia-mettent-lai-act-a-lepreuve.V25T6MKNZ5GQHATLU4TK65WFAA.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/sciences/2354527-des-milliards-de-simulations-de-collision-mistral-sassocie-au-cern-pour-creer-un-modele-dia-de-pointe-pour-la-physique-des-particules.html"
+  }
+ ],
+ "date": "2026-10-17T06:35:42+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1592,
+  "sortie": 3692
+ }
+}

@@ -1,0 +1,168 @@
+[
+  {
+    "id": "57c3359f3a172edc",
+    "slug": "nvidia-publie-dory1-0-4b-un-modele-boucle-de-4-milliards-de-parametres-57c335",
+    "titre": "NVIDIA publie Dory1.0-4B, un modèle « bouclé » de 4 milliards de paramètres",
+    "resume": "NVIDIA publie Dory1.0-4B, un LLM de 4 milliards de paramètres sous licence OpenMDW 1.1, ouvert à un usage commercial. Son architecture bouclée réapplique un même bloc de couches partagées : plus de calcul par token. L'attention alterne fenêtres glissantes et couches complètes, avec un contexte jusqu'à 256K tokens en BF16 — anglais uniquement, pour du raisonnement généraliste sur une empreinte réduite.",
+    "tags": [
+      "open-source",
+      "recherche",
+      "dev"
+    ],
+    "importance": 3,
+    "source": "r/LocalLLaMA",
+    "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8bg1u/nvidianvidianemotronlabsdory104bbf16_hugging_face/",
+    "date_source": "2026-10-17T14:20:54+00:00",
+    "date_redac": "2026-10-17T15:21:44+00:00",
+    "gen": {
+      "modele": "deepseek-flash",
+      "entree": 816,
+      "sortie": 1295
+    }
+  },
+  {
+    "id": "2400844a4248a68b",
+    "slug": "llama-cpp-un-gain-de-vitesse-cuda-pour-les-quantifications-basses-q2-k-240084",
+    "titre": "llama.cpp : un gain de vitesse CUDA pour les quantifications basses (Q2_K, Q3_K)",
+    "resume": "Une pull request (#30517) signée am17an propose un noyau MMVQ CUDA plus rapide pour llama.cpp, le projet open source porté par ggml-org. Le gain de vitesse annoncé est important, mais il ne vaut que pour certaines quantifications basses précision, comme Q2_K et Q3_K. L'info a été relayée sur r/LocalLLaMA par l'utilisateur jacek2023.",
+    "tags": [
+      "open-source",
+      "dev",
+      "matériel"
+    ],
+    "importance": 3,
+    "source": "r/LocalLLaMA",
+    "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8bqqs/cuda_faster_mmvq_for_lowbit_types_by_am17an_pull/",
+    "date_source": "2026-10-17T14:33:53+00:00",
+    "date_redac": "2026-10-17T15:21:38+00:00",
+    "gen": {
+      "modele": "deepseek-flash",
+      "entree": 657,
+      "sortie": 628
+    }
+  },
+  {
+    "id": "183345b91676a5df",
+    "slug": "vbios-modifie-sans-flash-des-outils-pour-les-rtx-30-40-et-50-183345",
+    "titre": "VBIOS modifié sans flash : des outils pour les RTX 30, 40 et 50",
+    "resume": "Trois outils pour modifier le VBIOS des cartes NVIDIA RTX 30, 40 et 50 : limites de puissance, tensions, offsets mémoire, canaux de ventilateurs. Le flash direct étant bloqué par Falcon, l'auteur propose des chargeurs qui patchent le registre sous Windows ou le démarrage du firmware GSP sous Fedora, sans toucher au VBIOS d'origine. De quoi descendre sous 400 W sur une RTX 5090.",
+    "tags": [
+      "matériel",
+      "dev"
+    ],
+    "importance": 3,
+    "source": "r/LocalLLaMA",
+    "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8ca9a/modify_and_load_custom_vbios_on_windows_and_linux/",
+    "date_source": "2026-10-17T14:57:22+00:00",
+    "date_redac": "2026-10-17T15:21:33+00:00",
+    "gen": {
+      "modele": "deepseek-flash",
+      "entree": 874,
+      "sortie": 863
+    }
+  },
+  {
+    "id": "7cc15d40c9c66059",
+    "slug": "meta-retire-de-ses-conditions-la-mention-qui-pouvait-autoriser-le-scra-7cc15d",
+    "titre": "Meta retire de ses conditions la mention qui pouvait autoriser le scraping de sites",
+    "resume": "Après une vague de critiques, Meta modifie à nouveau ses conditions d'utilisation. L'entreprise retire la formulation qui laissait entendre qu'elle pouvait récupérer le contenu de sites, y compris de sites de presse, pour entraîner son IA. La mention autorisant l'usage de tout contenu de ces domaines ou URL pour fournir et améliorer ses services ne figure plus sur la page des conditions commerciales.",
+    "tags": [
+      "meta",
+      "business",
+      "société"
+    ],
+    "importance": 3,
+    "source": "The Verge IA",
+    "lien_source": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+    "date_source": "2026-10-17T15:04:36+00:00",
+    "date_redac": "2026-10-17T15:21:29+00:00",
+    "gen": {
+      "modele": "deepseek-flash",
+      "entree": 696,
+      "sortie": 809
+    }
+  },
+  {
+    "id": "52b638d708579c9b",
+    "slug": "qwen-3-8-flash-next-la-table-n-gram-en-fp8-ameliore-les-resultats-52b638",
+    "titre": "Qwen 3.8 Flash Next : la table n-gram en FP8 améliore les résultats",
+    "resume": "Un utilisateur de r/LocalLLaMA a reconstruit en FP8 la PLE de Qwen 3.8 Flash Next — la table n-gram stockée sur le SSD — avec son script ple_fp8_pack.py. Dans les GGUF courants, cette table est fortement quantifiée, avec un impact mesurable sur les performances déjà documenté par un autre membre. Résultat : moins d'erreurs grossières en iq3_s et aucun impact sur la vitesse.",
+    "tags": [
+      "open-source",
+      "dev",
+      "recherche"
+    ],
+    "importance": 2,
+    "source": "r/LocalLLaMA",
+    "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8am0i/why_not_run_qwen_38_flash_next_with_the_full/",
+    "date_source": "2026-10-17T13:44:17+00:00",
+    "date_redac": "2026-10-17T14:19:19+00:00",
+    "gen": {
+      "modele": "deepseek-flash",
+      "entree": 864,
+      "sortie": 908
+    }
+  },
+  {
+    "id": "2676a39126eea79b",
+    "slug": "byd-devoile-le-design-de-son-premier-robot-humanoide-2676a3",
+    "titre": "BYD dévoile le design de son premier robot humanoïde",
+    "resume": "BYD ne fabrique pas seulement des voitures électriques et des batteries. Le géant chinois a dévoilé le design de son premier robot humanoïde développé en interne, une annonce qui suit la publication d'un brevet. Le constructeur élargit ainsi son terrain de jeu au matériel robotique.",
+    "tags": [
+      "robots",
+      "matériel",
+      "business"
+    ],
+    "importance": 2,
+    "source": "Journal du Geek",
+    "lien_source": "https://www.journaldugeek.com/2026/10/17/byd-aussi-a-son-propre-robot-humanoide/",
+    "date_source": "2026-10-17T14:02:15+00:00",
+    "date_redac": "2026-10-17T14:19:14+00:00",
+    "gen": {
+      "modele": "deepseek-flash",
+      "entree": 646,
+      "sortie": 600
+    }
+  },
+  {
+    "id": "3220c01738ed1da6",
+    "slug": "deepseek-v4-1-flash-1017-prend-la-tete-des-modeles-a-poids-ouverts-3220c0",
+    "titre": "DeepSeek V4.1 Flash (1017) prend la tête des modèles à poids ouverts",
+    "resume": "Sur r/LocalLLaMA, un post daté du 17 octobre 2026 signale que DeepSeek V4.1 Flash (1017) passe devant les autres modèles à poids ouverts. Le fil, ouvert par l'utilisateur Informal-Trouble2183, ne détaille dans son extrait ni benchmarks ni méthodologie de classement. Cela compte pour l'écosystème open-weight, où le modèle de tête sert de référence aux usages auto-hébergés.",
+    "tags": [
+      "deepseek",
+      "open-source",
+      "recherche"
+    ],
+    "importance": 3,
+    "source": "r/LocalLLaMA",
+    "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8bb6b/deepseek_v41_flash_1017_now_leads_openweight/",
+    "date_source": "2026-10-17T14:15:01+00:00",
+    "date_redac": "2026-10-17T14:19:10+00:00",
+    "gen": {
+      "modele": "deepseek-flash",
+      "entree": 626,
+      "sortie": 986
+    }
+  },
+  {
+    "id": "09247335f2cb8719",
+    "slug": "les-prix-de-la-r9700-ai-pro-bondissent-de-plus-de-1-000-euros-092473",
+    "titre": "Les prix de la R9700 AI Pro bondissent de plus de 1 000 euros",
+    "resume": "Sur r/LocalLLaMA, un internaute s'alarme de la flambée des prix de la R9700 AI Pro. Il dit avoir acheté la sienne environ 1 500 euros il y a deux mois, contre 2 500 à 2 800 euros aujourd'hui, soit plus de 1 000 euros de hausse. Le fil, publié selon son auteur après l'arrêt de la RTX 5090 par Nvidia, illustre la tension sur le matériel dédié à l'IA locale.",
+    "tags": [
+      "matériel",
+      "business"
+    ],
+    "importance": 2,
+    "source": "r/LocalLLaMA",
+    "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x88zh6/holy_shit_what_happened_to_the_r9700_ai_pro_gpu/",
+    "date_source": "2026-10-17T12:25:58+00:00",
+    "date_redac": "2026-10-17T13:33:53+00:00",
+    "gen": {
+      "modele": "deepseek-flash",
+      "entree": 687,
+      "sortie": 1049
+    }
+  }
+]

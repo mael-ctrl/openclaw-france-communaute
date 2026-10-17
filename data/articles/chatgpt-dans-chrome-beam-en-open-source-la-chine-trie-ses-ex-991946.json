@@ -1,0 +1,41 @@
+{
+ "slug": "chatgpt-dans-chrome-beam-en-open-source-la-chine-trie-ses-ex-991946",
+ "titre": "ChatGPT dans Chrome, Beam en open source, la Chine trie ses exports IA",
+ "chapo": "OpenAI enterre Atlas et pousse ChatGPT plus profondément dans Google Chrome : lire les pages ne lui suffit plus, il veut remplir les formulaires et ranger les onglets. Pendant ce temps, Reflection publie Beam, un modèle ouvert de 501 milliards de paramètres, et Pékin propose de filtrer l'export de 23 technologies IA.",
+ "html": "<h2 id=\"chatgpt-s-installe-dans-les-onglets-faut\">ChatGPT s'installe dans les onglets, faute de navigateur maison</h2>\n<p>Avec l'abandon d'Atlas, OpenAI n'a plus de navigateur maison. Conséquence directe : ChatGPT s'installe plus profondément dans Google Chrome, rapporte 01net. Le périmètre annoncé va au-delà de la lecture de pages, que l'assistant savait déjà faire. Il veut désormais <strong>remplir les formulaires</strong>, <strong>envoyer les messages</strong> et <strong>ranger les onglets</strong> de l'utilisateur.</p>\n<p>Le déplacement est notable. L'assistant ne travaille plus dans un environnement qu'OpenAI maîtrise de bout en bout, mais dans celui d'un concurrent. Et il ne se contente plus de commenter ce qu'il lit : il agit sur la page, dans les champs que l'utilisateur remplit habituellement lui-même.</p>\n<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Reflection publie Beam, un modèle ouvert texte-texte en architecture mixture-of-experts sparse. Les chiffres donnés : <strong>501 milliards de paramètres au total</strong>, <strong>23 milliards activés</strong>, pour une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en BF16, FP8 et NVFP4.</p>\n<p>Le positionnement est explicite : un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques. Le modèle est développé surtout pour l'anglais, un point à garder en tête avant de le brancher sur des corpus francophones.</p>\n<p>L'écart entre 501 et 23 milliards se lit simplement : la taille du modèle et le coût de calcul d'un token ne sont pas la même chose. Toute la logique du sparse tient dans cet écart.</p>\n<h2 id=\"pekin-liste-23-technologies-ia-a-l-expor\">Pékin liste 23 technologies IA à l'export</h2>\n<p>Le 16 octobre 2026, la Chine a proposé de réviser son catalogue des technologies restreintes à l'export. Le projet compte <strong>40 ajouts</strong>, dont <strong>23 liés à l'IA</strong> : grands modèles, agents, clusters de calcul. La consultation publique court jusqu'au 15 novembre ; l'enregistrement préalable à l'export, lui, s'applique déjà.</p>\n<p>La nuance importante est dans l'exemption. Les technologies déjà rendues publiques via l'open source ou des publications académiques sont explicitement écartées du dispositif. Autrement dit, la publication ouverte reste une porte de sortie — ce qui n'est pas anodin quand le même mois sortent des modèles de la taille de Beam.</p>\n<h2 id=\"agents-le-point-de-friction-se-deplace-v\">Agents : le point de friction se déplace vers les modèles</h2>\n<p>Bruxelles peut-elle contrôler la sécurité des modèles d'IA avant leur commercialisation ? La question est théorique depuis des mois ; les incidents provoqués par des agents d'OpenAI et d'Anthropic lui donnent une portée concrète, selon L'Usine Digitale. Ces intrusions mettent l'AI Act à l'épreuve, alors que le règlement européen encadre la mise sur le marché des modèles.</p>\n<p>En parallèle, les agents deviennent un produit d'abonnement. Les plans <strong>Max</strong> et <strong>Team</strong> de Claude intègrent désormais des crédits API mensuels gratuits pour la Claude Platform, de quoi construire Claude dans ses propres applications et agents via l'API. Un utilisateur indique avoir testé le dispositif et qu'il fonctionne.</p>\n<p>Les trois briques — un assistant qui agit dans le navigateur, un modèle ouvert de 501 milliards de paramètres, des agents facturés à l'usage — avancent plus vite que les cadres censés les encadrer. L'AI Act raisonne en mise sur le marché ; les agents, eux, s'exécutent chez l'utilisateur.</p>\n<h2>Et maintenant ?</h2>\n<p>Ce qui se dessine n'est pas une rupture mais un déplacement : l'assistant quitte la page de chat pour les champs de formulaire, le modèle ouvert grossit sans exploser en coût de calcul, et l'export comme la réglementation tentent de suivre des objets qui circulent déjà. Reste une question que personne ne tranche encore publiquement : qui répond quand un agent remplit un formulaire à la place de l'utilisateur, ou quand un modèle de 501 milliards de paramètres sort en trois formats de quantification le même jour ?</p>",
+ "pivot": "991946bcc7a55234",
+ "tags": [
+  "chatgpt",
+  "openai",
+  "agents",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/avec-atlas-enterre-chatgpt-sinstalle-dans-vos-onglets-google-chrome.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/lue-peut-elle-controler-les-modeles-dintelligence-artificielle-avant-leur-commercialisation-les-intrusions-provoquees-par-des-agents-ia-mettent-lai-act-a-lepreuve.V25T6MKNZ5GQHATLU4TK65WFAA.html"
+  },
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1x864rc/great_news_free_monthly_api_credits_for_claude/"
+  }
+ ],
+ "date": "2026-10-17T11:38:37+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1553,
+  "sortie": 3072
+ }
+}

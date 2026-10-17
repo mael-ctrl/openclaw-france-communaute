@@ -1,0 +1,41 @@
+{
+ "slug": "robotique-puces-et-donnees-l-ia-avance-par-petits-blocs-34ad13",
+ "titre": "Robotique, puces et données : l'IA avance par petits blocs",
+ "chapo": "Une vétérane de Nvidia douche les attentes : la robotique reste un chantier, loin d'une bascule portée par un modèle de fondation généraliste. Pendant ce temps, la Chine encadre l'export de 23 technologies IA, Meta s'ouvre les sites d'actualité et Mistral enchaîne les rachats.",
+ "html": "<h2 id=\"chez-nvidia-on-parle-d-ere-lego\">Chez Nvidia, on parle d'« ère Lego »</h2>\n<p>Amulya Vishwanath a passé sept ans au marketing produit des plateformes robotiques de Nvidia. Son diagnostic, livré dans le podcast de TechCrunch, tranche avec le récit dominant : la robotique vit encore son « ère Lego ». Autrement dit, les briques élémentaires — actionneurs, mains robotiques, logiciels, normes de sécurité — sont toujours en reconstruction.</p>\n<p>Le constat va à l'encontre de ceux qui attendent une bascule imminente, portée par un modèle de fondation généraliste qui suffirait à tout débloquer. Vishwanath ne prétend pas que rien n'avance : elle situe le chantier ailleurs, dans l'assemblage. Elle investit désormais dans ce qu'elle nomme la « physical AI », une catégorie qui, selon elle, dépasse largement les robots.</p>\n<h2 id=\"le-materiel-descend-nvidia-aussi\">Le matériel descend, Nvidia aussi</h2>\n<p>Sur le terrain du matériel, Nvidia vient justement de franchir une étape différente, côté PC. Le RTX Spark est sa première puce complète destinée aux portables Windows : un GPU Blackwell, un processeur Arm et jusqu'à 128 Go de mémoire unifiée réunis dans un seul boîtier.</p>\n<p>Le test de Frandroid, mené dans un Asus ProArt P16, couvre trois usages — le jeu, l'IA locale et l'autonomie — avec pour points de comparaison un portable gamer en RTX 5070, un Mac Apple Silicon et un PC Ryzen AI Max+ 395. Deux mouvements distincts, donc : d'un côté des briques robotiques encore à assembler, de l'autre une architecture intégrée qui rapproche le calcul IA de la machine locale. Rien n'indique que l'un entraîne l'autre.</p>\n<h2 id=\"pekin-liste-23-technologies-ia-l-open-so\">Pékin liste 23 technologies IA, l'open source épargné</h2>\n<p>Le 16 octobre 2026, la Chine a proposé de réviser son catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul. Point notable, les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées.</p>\n<p>La consultation publique court jusqu'au 15 novembre. L'enregistrement préalable à l'export, lui, s'applique déjà : la proposition prolonge un dispositif existant plutôt qu'elle ne l'instaure. Pour les équipes qui publient leurs poids et leur code, la frontière entre ce qui est « déjà public » et ce qui ne l'est pas devient un critère de travail à part entière.</p>\n<h2 id=\"meta-elargit-ses-termes-mistral-empile-l\">Meta élargit ses termes, Mistral empile les rachats</h2>\n<p>Du côté des données, Meta a discrètement bougé les lignes. Ses nouveaux termes, en vigueur le 30 octobre, semblent autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes — éditeurs en ligne compris, selon un rapport de Nieman Lab relayé par The Verge. Ce contenu externe pourrait servir à « développer, améliorer, rechercher » et « entraîner ».</p>\n<p>En France, Mistral a bouclé sa quatrième acquisition en huit mois, rapporte Maddyness dans une information publiée le 16 octobre 2026. Le montant, la nature exacte de l'opération et l'identité de l'entreprise rachetée ne sont pas précisés dans l'extrait disponible. Le rythme, lui, est difficile à ignorer : quatre opérations en huit mois, quand la plupart des acteurs européens en revendiquent une ou deux.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches de la semaine ne racontent pas une bascule, mais des empilements : des briques robotiques encore à standardiser, une puce qui intègre ce qui était éparpillé, un catalogue exportatoire qui distingue le public du reste, des conditions d'usage qui s'élargissent et des acquisitions qui s'enchaînent. Aucun de ces mouvements ne règle le problème des autres. Ils fixent surtout le décor dans lequel les prochains modèles et les prochains robots devront s'assembler.</p>",
+ "pivot": "34ad1393b9c4d7ea",
+ "tags": [
+  "robots",
+  "matériel",
+  "meta",
+  "mistral"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/10/16/mistral-realise-sa-quatrieme-acquisition-en-huit-mois/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/test/3283093_test-nvidia-rtx-spark"
+  }
+ ],
+ "date": "2026-10-17T03:29:20+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1518,
+  "sortie": 3218
+ }
+}

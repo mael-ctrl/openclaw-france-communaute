@@ -1,5 +1,26 @@
 [
  {
+  "id": "0be32eb29a5d98f1",
+  "slug": "vllm-fonctionne-enfin-sur-quatre-gpu-intel-b70-en-fp8-0be32e",
+  "titre": "vLLM fonctionne enfin sur quatre GPU Intel B70 en FP8",
+  "resume": "Un utilisateur de r/LocalLLaMA annonce faire tourner vLLM sur quatre cartes Intel B70 en FP8 : 128 Go de VRAM, 128 Go de RAM, en conteneur et de façon reproductible, avec un contexte de 256k. Débits mesurés : 450 t/s en prefill, 20 t/s en génération. Plusieurs dépassements d'entiers 32 bits, sources de plantages, ont été corrigés et rétroportés avec l'aide d'un LLM. Ses tests multi-cartes échouaient jusqu'ici.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x7yxxl/vllm_finally_working_on_4_x_intel_b70_qfn_38_fp8/",
+  "date_source": "2026-10-17T02:33:05+00:00",
+  "date_redac": "2026-10-17T03:29:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 845,
+   "sortie": 1047
+  }
+ },
+ {
   "id": "455fbe34017c8025",
   "slug": "openclaw-publie-la-beta-2026-10-10-beta-2-455fbe",
   "titre": "OpenClaw publie la bêta 2026.10.10-beta.2",

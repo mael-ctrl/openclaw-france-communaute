@@ -1,0 +1,41 @@
+{
+ "slug": "opencode-invite-a-changer-ses-cles-beam-sort-en-ouvert-pekin-9bcf11",
+ "titre": "Opencode invite à changer ses clés, Beam sort en ouvert, Pékin cadre l'export",
+ "chapo": "Une intrusion visant Opencode pousse la plateforme à recommander la rotation des clés d'accès, sans qu'aucun détail technique ne filtre. La même semaine, Reflection ouvre Beam, un modèle MoE de 501 milliards de paramètres, et Pékin propose de restreindre l'export de 23 technologies d'IA.",
+ "html": "<h2 id=\"opencode-rotation-de-cles-perimetre-inco\">Opencode : rotation de clés, périmètre inconnu</h2>\n<p>Un message publié le 17 octobre 2026 sur r/LocalLLaMA signale une intrusion visant Opencode et invite les utilisateurs à changer leurs clés d'accès. L'extrait disponible s'arrête là : ni la nature de la faille, ni les composants concernés, ni l'ampleur de l'incident n'y sont précisés.</p>\n<p>La consigne, elle, est un réflexe classique : faire tourner les clés avant même que le périmètre exact de l'incident soit établi. C'est la mesure de précaution immédiate retenue, en attendant d'en savoir plus sur ce qui s'est réellement passé.</p>\n<p>En l'état, impossible d'aller plus loin sans spéculer : on ne sait pas ce qui a été exposé, ni combien de comptes sont concernés, ni si l'accès litigieux est toujours ouvert. Les utilisateurs d'Opencode n'ont, pour l'instant, que cette recommandation à appliquer.</p>\n<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Reflection publie Beam, un modèle ouvert texte-texte en architecture mixture-of-experts sparse. Le total atteint 501 milliards de paramètres, pour 23 milliards activés à chaque inférence, et une fenêtre de contexte d'un million de tokens.</p>\n<p>La version instruction-tuned est diffusée en trois formats : BF16, FP8 et NVFP4. Le modèle est développé surtout pour l'anglais, avec trois axes affichés : un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques.</p>\n<p>Le positionnement est cohérent avec la tendance du moment : des modèles à très grand nombre de paramètres, mais dont seule une fraction travaille à chaque passage, pour contenir le coût de calcul. La fenêtre d'un million de tokens place Beam dans la catégorie des contextes longs, où les dépôts de code entiers tiennent dans une seule requête.</p>\n<h2 id=\"pekin-liste-23-technologies-ia-a-l-expor\">Pékin liste 23 technologies IA à l'export</h2>\n<p>Le 16 octobre 2026, la Chine a proposé de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul. La consultation publique court jusqu'au 15 novembre ; l'enregistrement préalable à l'export, lui, s'applique déjà.</p>\n<p>Le point notable tient à l'exception prévue : les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées. Autrement dit, publier un modèle ou un article le soustrait, en principe, au futur régime de restriction.</p>\n<p>Cette exemption crée une incitation claire pour les laboratoires chinois : diffuser ouvertement plutôt que garder en interne. Elle dessine aussi une ligne de partage entre ce qui relève du secret industriel et ce qui appartient déjà au domaine public.</p>\n<h2 id=\"agents-fautifs-ai-act-sous-pression\">Agents fautifs, AI Act sous pression</h2>\n<p>Bruxelles peut-elle contrôler la sécurité des modèles d'IA avant leur commercialisation ? C'est la question que pose L'Usine Digitale, et les incidents provoqués par des agents d'OpenAI et d'Anthropic lui donnent une portée concrète. Le règlement européen encadre la mise sur le marché des modèles ; ces intrusions mettent ce cadre à l'épreuve.</p>\n<p>Sur le front commercial, Replit a changé de fournisseur par défaut. Son PDG, Masad, a indiqué ce week-end qu'OpenAI remplace Anthropic ; la plateforme cesse donc de travailler avec Anthropic, Claude restant accessible à ses clients.</p>\n<p>Les deux sujets n'ont pas de lien direct, mais ils pointent la même zone grise : qui répond de ce que fait un agent, et qui décide du modèle qui l'anime.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, quatre angles d'un même mouvement : les clés se font pirater, les modèles ouverts grossissent, les États listent ce qu'ils veulent retenir, et les régulateurs cherchent où poser la main. L'exception open source inscrite dans la proposition chinoise mérite l'attention : elle transforme la publication en stratégie de contournement, au moment même où un MoE de 501 milliards de paramètres sort en poids ouverts. Reste la question laissée en suspens par l'incident Opencode : une intrusion dont on ne connaît ni la faille ni l'ampleur, et pour laquelle la seule consigne disponible est de changer ses clés.</p>",
+ "pivot": "9bcf1149d399dd84",
+ "tags": [
+  "sécurité",
+  "open-source",
+  "agents",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8gtvs/opencode_breached_rotate_keys_to_be_safe/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/lue-peut-elle-controler-les-modeles-dintelligence-artificielle-avant-leur-commercialisation-les-intrusions-provoquees-par-des-agents-ia-mettent-lai-act-a-lepreuve.V25T6MKNZ5GQHATLU4TK65WFAA.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+  }
+ ],
+ "date": "2026-10-17T20:11:48+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1564,
+  "sortie": 2717
+ }
+}

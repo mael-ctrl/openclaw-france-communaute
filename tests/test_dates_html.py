@@ -50,8 +50,8 @@ class DatesHTMLTest(unittest.TestCase):
         news = [json.loads(s) for s in re.findall(
             r'<script type="application/ld\+json">(.*?)</script>', contenu)]
         news = next(s for s in news if s.get("@type") == "NewsArticle")
-        self.assertEqual(news["datePublished"], ARTICLE["date"])
-        self.assertEqual(news["dateModified"], ARTICLE["date"])
+        self.assertNotIn("datePublished", news)
+        self.assertNotIn("dateModified", news)
 
     def test_tous_les_emplacements_editoriaux_partagent_le_meme_rendu(self):
         for contenu, attendues in (
@@ -81,13 +81,13 @@ class DatesHTMLTest(unittest.TestCase):
                 self.assertEqual(date["attrs"]["datetime"], iso)
                 self.assertEqual(date["texte"], visible)
 
-    def test_breve_garde_les_dates_jsonld_et_le_lien_source(self):
+    def test_breve_garde_la_date_visible_et_le_lien_source_sans_publication_inventee(self):
         contenu = construction.page_breve(BREVE, [])
         news = next(json.loads(s) for s in re.findall(
             r'<script type="application/ld\+json">(.*?)</script>', contenu)
             if json.loads(s).get("@type") == "NewsArticle")
-        self.assertEqual(news["datePublished"], BREVE["date_source"])
-        self.assertEqual(news["dateModified"], BREVE["date_redac"])
+        self.assertNotIn("datePublished", news)
+        self.assertNotIn("dateModified", news)
         self.assertIn('href="https://example.org/source"', contenu)
         self.assertIn("16 oct. 2026 · 00:30 (Paris)", contenu)
 

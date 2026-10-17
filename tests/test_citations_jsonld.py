@@ -50,8 +50,8 @@ class CitationsJsonldTest(unittest.TestCase):
         self.assertEqual(donnees.get("citation"), [{
             "@type": "CreativeWork", "url": breve["lien_source"], "name": breve["source"],
         }])
-        self.assertEqual(donnees["datePublished"], breve["date_redac"])
-        self.assertEqual(donnees["dateModified"], breve["date_redac"])
+        self.assertNotIn("datePublished", donnees)
+        self.assertNotIn("dateModified", donnees)
 
     def test_article_declare_toutes_les_sources_visibles(self):
         sources = [
@@ -70,8 +70,8 @@ class CitationsJsonldTest(unittest.TestCase):
         self.assertEqual(donnees.get("citation"), [
             {"@type": "CreativeWork", "url": s["url"], "name": s["nom"]} for s in sources
         ])
-        self.assertEqual(donnees["datePublished"], article["date"])
-        self.assertEqual(donnees["dateModified"], article["date"])
+        self.assertNotIn("datePublished", donnees)
+        self.assertNotIn("dateModified", donnees)
 
     def test_aucune_citation_inventee_si_source_absente(self):
         for sources in (None, [], [{"nom": "Source sans lien", "url": ""}]):

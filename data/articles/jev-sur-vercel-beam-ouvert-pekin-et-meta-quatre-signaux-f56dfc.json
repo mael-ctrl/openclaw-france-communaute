@@ -1,0 +1,41 @@
+{
+ "slug": "jev-sur-vercel-beam-ouvert-pekin-et-meta-quatre-signaux-f56dfc",
+ "titre": "Jev sur Vercel, Beam ouvert, Pékin et Meta : quatre signaux",
+ "chapo": "Jev devient le modèle le plus rapidement adopté jamais enregistré sur Vercel, Reflection publie un MoE ouvert de 501 milliards de paramètres, Pékin propose de contrôler 23 technologies IA à l'export et Meta élargit ses conditions d'utilisation. Quatre dépêches, quatre points d'observation.",
+ "html": "<h2 id=\"vercel-jev-l-adoption-la-plus-rapide-jam\">Vercel : Jev, l'adoption la plus rapide jamais mesurée</h2>\n<p>Vercel tient un thermomètre, et il affiche un nom : <strong>Jev</strong>. Le modèle est le plus rapidement adopté jamais enregistré sur la plateforme, selon les données de son <em>AI gateway</em> — le service d'API unifié qui joue le même rôle qu'OpenRouter. Cette passerelle sert de point d'accès unique à plusieurs modèles pour les développeurs.</p>\n<p>Ce que mesure Vercel, c'est donc l'adoption <strong>à travers sa passerelle</strong>, pas le marché mondial des modèles. La nuance compte : un modèle peut y décoller vite sans qu'on sache quoi que ce soit de son usage ailleurs. La dépêche ne fournit ni volume d'appels, ni identité de l'éditeur de Jev, ni période sur laquelle l'adoption a été calculée.</p>\n<p>Reste un signal sur la couche d'infrastructure : les passerelles ne sont plus seulement un confort de développeur, elles deviennent un lieu où l'on observe quels modèles sont réellement appelés.</p>\n<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Reflection publie <strong>Beam</strong>, un modèle ouvert texte-texte en architecture <em>mixture-of-experts</em> sparse : 501 milliards de paramètres au total, 23 milliards activés au passage, pour une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en trois formats, BF16, FP8 et NVFP4.</p>\n<p>Le positionnement annoncé est précis : raisonnement économe en tokens, génie logiciel, usage d'outils agentiques. Le modèle est surtout développé pour l'anglais. À cette échelle, l'écart entre paramètres totaux et activés est l'argument central de l'architecture : la capacité d'un très gros modèle, mais du calcul engagé sur une fraction des experts seulement.</p>\n<p>Pour les équipes qui font tourner des modèles en local ou sur leur propre infrastructure, la question pratique n'est pas la taille du total mais les 23 milliards activés — et les formats de quantification proposés, qui conditionnent le matériel nécessaire.</p>\n<h2 id=\"pekin-liste-23-technologies-ia-l-open-so\">Pékin liste 23 technologies IA, l'open source exempté</h2>\n<p>Le 16 octobre 2026, Pékin a proposé de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont <strong>23 liés à l'IA</strong> — grands modèles, agents, clusters de calcul. Les technologies déjà rendues publiques via l'open source ou des publications académiques sont explicitement exemptées.</p>\n<p>Deux dates encadrent le texte : la consultation publique court jusqu'au 15 novembre, et l'enregistrement préalable à l'export s'applique déjà. L'exemption open source est la partie la plus commentée, puisqu'elle maintient hors du régime les poids et méthodes déjà publiés — au moment où circulent des modèles ouverts de très grande taille.</p>\n<p>L'extrait disponible ne précise pas comment cette exemption serait vérifiée, ni comment elle s'articule avec l'enregistrement préalable déjà en vigueur.</p>\n<h2 id=\"meta-et-mistral-deux-facons-de-bouger\">Meta et Mistral : deux façons de bouger</h2>\n<p>Les nouveaux termes de Meta entrent en vigueur le <strong>30 octobre</strong>. D'après un rapport de Nieman Lab, ils semblent autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, éditeurs en ligne compris. Le contenu récupéré pourrait ensuite servir à « développer, améliorer, rechercher » et « entraîner ».</p>\n<p>Côté français, Mistral a bouclé sa <strong>quatrième acquisition en huit mois</strong>, rapporte Maddyness dans une publication du 16 octobre 2026. Le détail de l'opération et l'identité de l'entreprise rachetée ne figurent pas dans l'extrait disponible. Le rythme, lui, est un fait : quatre rachats en huit mois.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, quatre points d'observation distincts : une passerelle qui compte les appels, des poids ouverts à 501 milliards de paramètres, un catalogue export qui tente de tracer la frontière à la publication, des conditions d'utilisation qui élargissent le périmètre des contenus récupérables. Aucune ne dit à elle seule où va le secteur. Mises bout à bout, elles rappellent que les points de passage — API, poids, régime export, CGU — sont devenus les endroits où se décident les usages.</p>",
+ "pivot": "f56dfc61f128655e",
+ "tags": [
+  "open-source",
+  "meta",
+  "mistral",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/10/16/mistral-realise-sa-quatrieme-acquisition-en-huit-mois/"
+  }
+ ],
+ "date": "2026-10-17T08:56:17+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1491,
+  "sortie": 3852
+ }
+}

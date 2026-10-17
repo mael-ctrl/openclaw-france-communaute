@@ -41,3 +41,13 @@ Choix : module interne stdlib préparé, pas de nouvelle bibliothèque. Codes re
 Contrôle TLS strict : **9 URL distinctes, 12 requêtes** avec trois lectures Range supplémentaires. Page et RSS identiques octet pour octet au rendu testé ; trois GUID distincts. Les trois MP3 sont identiques aux fichiers sources, servis en `audio/mpeg`, et les plages 0–1023 répondent 206 avec tailles exactes. Lien d'accueil et entrée unique du sitemap présents ; téléchargements B2B préservés.
 
 Chrome sur la **production HTTPS réelle**, sans substitution des réponses et sans JavaScript : clic depuis l'accueil, démarrage des trois lecteurs et six téléchargements identiques à 390/1440 px, ouverture du RSS ; aucune erreur console ni débordement. Page et flux sont livrés, pas seulement préparés. Aucune nouvelle génération audio, soumission à un annuaire, chaîne YouTube ou mesure de gain d'audience dans cette mission.
+
+## Épisode quotidien du 17 octobre — publié à la suite
+
+Épisode `breve-2026-10-17`, commit `9a6f300bbc9b357ac363aa07b6719052da329efb` : quatre sujets (Meta, Nvidia Dory, llama.cpp, BYD), sélectionnés parmi les huit brèves les plus récemment rédigées au SHA `1156f5d2bed9130cd995fab01434b1d2d1c98c6f`. [Script](../contenus/podcast/2026-10-17/script.txt), [sources et recette](../contenus/podcast/2026-10-17/sources.md) conservés. Sortie de Dory le 16 octobre distinguée de son relais du 17 ; objectif de CA distinct du reversement des bénéfices.
+
+Voix Denise, débit +8 %, sans repli : **125,280 s**, **751 680 octets**, MP3 intégralement décodé et mesuré. **129 tests réussis localement et dans le cloud** ; cinq fichiers du commit relus sur GitHub, identiques.
+
+[Run 39050026731](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/39050026731) **réussi**, terminé à 16:57:50 UTC ; 695 fichiers envoyés, dont le MP3 et les deux sorties podcast. Sauvegarde d’état `06e1509`, intégrée dans `00eba4b`. Les attentes bornées du suivi et la disponibilité partielle pendant l’envoi n’étaient pas des échecs du pipeline.
+
+**Contrôle HTTPS strict à 16:58:35 UTC** : MP3 identique au fichier source (`audio/mpeg`, SHA-256 `b704b4e272682e0f92990358ed430ea1818990c96c6e154306a599f6457fb378`) ; plage 0–1023 servie en 206 avec taille exacte. Épisode présent dans `/podcast/` et en tête de `/podcast/feed.xml`, quatre GUID distincts (trois épisodes + pilote), enclosure correcte, sans `pubDate` fabriqué. La recette navigateur de la fonctionnalité reste celle de la section précédente ; cette livraison de contenu n’a pas refait les clics navigateur ni soumis le flux à un annuaire.

@@ -80,7 +80,7 @@ après contrôle de ses **127 artefacts** (taille et SHA-256), sans importer ses
   restent non réparées ; la recette ne certifie pas toute la chaîne historique.
 
 Recette et logs privés : `crabe-chantiers/dates-jsonld/integration-2026-10-17/`,
-résultat `dates-jsonld-_2nh3bk8/resultat.json`. Publication cloud/HTTPS à confirmer.
+résultat `dates-jsonld-_2nh3bk8/resultat.json`. Publication confirmée ci-dessous.
 
 Provenance réinterrogée le 17/10 : `garmeeh/next-seo` (**MIT**, dernier push
 `2026-07-29T19:47:06Z`) et `jekyll/jekyll-seo-tag` (**MIT**, dernier push
@@ -88,6 +88,35 @@ Provenance réinterrogée le 17/10 : `garmeeh/next-seo` (**MIT**, dernier push
 La recommandation initiale « headline ≤ 110 » n'est pas imposée ici : conserver
 le titre réel, sans le tronquer pour un seuil non démontré comme obligatoire.
 L'ajout d'`author.url` reste une amélioration distincte, pas une condition de ce correctif.
+
+## Publication et vérification HTTPS — 17/10, 11:07 CEST
+
+- Code : `0c27d70a30982e070174c4495cc0456ddbe84f39` ; les six fichiers du commit
+  ont été relus via l'API GitHub et comparés aux octets locaux après push.
+- [Run 39018865370](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/39018865370)
+  **réussi** : 105 tests Python, pipeline terminé, **682 fichiers envoyés** et
+  sauvegarde d'état réussie (`a1a32012cfd9582270cb15f009cdb20c3da66ca1`).
+  Les timeouts d'attente locaux n'étaient pas des échecs du workflow.
+- **14 URL HTTPS strictes contrôlées** : accueil, version, quatre brèves, quatre
+  articles, deux RSS, sitemap et news-sitemap. Les **8 HTML éditoriaux** sont
+  identiques octet pour octet au vrai rebuild du commit cloud sauvegardé ; absence
+  des deux dates JSON-LD, images et `<time>` conservés. Le rendu cloud contient
+  400 brèves + 236 articles (636 pages éditoriales), contre 635 avant la collecte.
+- Sitemap (651 entrées) et News (220) identiques au rebuild à horloge de recette
+  alignée sur la version servie ; les 60 et 20 items des deux RSS sont identiques.
+  Cette égalité ne valide pas leur sémantique de publication, dette décrite plus haut.
+- Version servie : `2026-10-17T08:56:25+00:00`. Captures brutes, empreintes,
+  URLs et résultats conservés dans `https-results.json`, `production.json` et
+  `cloud.log` du dossier privé d'intégration. Pas de nouveau contrôle visuel requis :
+  le corps HTML a été comparé intégralement avant/après, sans modification visible.
+
+**Périmètre important :** le déployeur ne reconstruit que 400 brèves. Un contrôle
+supplémentaire hors de cette fenêtre retrouve une ancienne page encore en 200 avec
+les anciens champs JSON-LD : [exemple Siri](https://communaute-ia.fr/breves/siri-ai-n-arriverait-pas-avant-plusieurs-mois-en-france-36ef2c/),
+observé à 09:07:25 UTC (`legacy-probe.json`). Ce correctif est donc livré pour les
+pages reconstruites, **pas pour toutes les anciennes URL conservées sur OVH**.
+Le chantier #5 doit réconcilier archives, build, sitemap et fichiers distants avant
+d'affirmer une couverture exhaustive. Aucun fichier distant ancien supprimé ici.
 
 ## Sources
 

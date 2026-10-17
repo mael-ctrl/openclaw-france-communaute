@@ -42,6 +42,26 @@
   }
  },
  {
+  "id": "294fcc6abfaf6898",
+  "slug": "deepseek-v4-1-flash-un-utilisateur-doute-de-l-efficacite-en-tokens-294fcc",
+  "titre": "DeepSeek V4.1 Flash : un utilisateur doute de l'efficacité en tokens",
+  "resume": "Sur r/LocalLLaMA, un utilisateur s'interroge sur l'efficacité en tokens de DeepSeek V4.1 Flash (1017). Il n'a trouvé qu'une seule chaîne ayant publié dessus, qui vante son coût via un benchmark qu'il juge absurde — signe d'un « token slopper ». Il demande s'il existe un meilleur benchmark et doute que AA le reteste. Il veut surtout savoir si ce checkpoint bat le précédent, moins bon selon lui que GLM 5.3 Flash.",
+  "tags": [
+   "deepseek",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8dh83/deepseek_v41_flash_1017_token_efficiency/",
+  "date_source": "2026-10-17T15:46:46+00:00",
+  "date_redac": "2026-10-17T16:58:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 784,
+   "sortie": 1414
+  }
+ },
+ {
   "id": "7cc15d40c9c66059",
   "slug": "meta-retire-de-ses-conditions-la-mention-qui-pouvait-autoriser-le-scra-7cc15d",
   "titre": "Meta retire de ses conditions la mention qui pouvait autoriser le scraping de sites",

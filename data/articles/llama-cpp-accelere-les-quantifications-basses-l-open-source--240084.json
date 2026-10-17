@@ -1,0 +1,41 @@
+{
+ "slug": "llama-cpp-accelere-les-quantifications-basses-l-open-source--240084",
+ "titre": "llama.cpp accélère les quantifications basses, l'open source tient le cap",
+ "chapo": "Une pull request signée am17an promet un noyau MMVQ CUDA plus rapide dans llama.cpp, mais uniquement pour les quantifications basses comme Q2_K et Q3_K. En parallèle, Reflection publie Beam, un MoE ouvert de 501 milliards de paramètres, et les poids de FLUX.3 Image Klein arrivent sur Hugging Face.",
+ "html": "<h2 id=\"dans-llama-cpp-le-gain-se-cache-dans-les\">Dans llama.cpp, le gain se cache dans les bits bas</h2>\n<p>La dépêche vient de r/LocalLLaMA, relayée par l'utilisateur jacek2023 : la pull request <strong>#30517</strong>, signée am17an, propose un noyau <strong>MMVQ CUDA</strong> plus rapide pour llama.cpp, le projet open source porté par ggml-org. Le gain de vitesse annoncé est important.</p>\n<p>La nuance compte autant que le chiffre : ce noyau ne vaut que pour <strong>certaines quantifications basses précision</strong>, typiquement Q2_K et Q3_K. Autrement dit, ceux qui font tourner des modèles compressés à l'extrême sur GPU NVIDIA sont les premiers concernés — pas les utilisateurs de quantifications plus confortables.</p>\n<p>C'est un détail d'implémentation, mais il dit quelque chose du terrain : l'optimisation se joue désormais au niveau du noyau, pas seulement du modèle. Et elle se décide dans des pull requests, pas dans des communiqués.</p>\n<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Reflection publie <strong>Beam</strong>, un modèle ouvert texte-texte en architecture <em>mixture-of-experts</em> sparse : <strong>501 milliards de paramètres au total, 23 milliards activés</strong>, pour une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en <strong>BF16, FP8 et NVFP4</strong>.</p>\n<p>Le positionnement est explicite : développement surtout pour l'<strong>anglais</strong>, avec un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques comme cibles. On est donc sur un modèle pensé pour les chaînes d'agents et le code, pas pour le grand public.</p>\n<p>Le rapport entre les deux nombres — 501 au total, 23 activés — résume la logique du MoE : beaucoup de capacité stockée, une fraction seulement sollicitée à chaque token. C'est précisément le genre d'architecture qui rend la question du matériel et de la quantification basse incontournable.</p>\n<h2 id=\"pekin-liste-23-technologies-ia-l-open-so\">Pékin liste 23 technologies IA, l'open source explicitement exempté</h2>\n<p>Le <strong>16 octobre 2026</strong>, Pékin a proposé de réviser le catalogue des technologies restreintes à l'export : <strong>40 ajouts, dont 23 liés à l'IA</strong> — grands modèles, agents, clusters de calcul. Les technologies déjà rendues publiques via l'open source ou des publications académiques en sont <strong>explicitement exemptées</strong>.</p>\n<p>La consultation publique court jusqu'au <strong>15 novembre</strong>. À noter que l'enregistrement préalable à l'export s'applique déjà, indépendamment de cette révision.</p>\n<p>Cette exemption open source mérite d'être soulignée : elle trace une frontière entre ce qui circule déjà publiquement et ce qui reste contrôlable. Une frontière qui n'est pas sans rappeler, à une autre échelle, la logique des dépôts de poids ouverts qui se multiplient sur Hugging Face.</p>\n<h2 id=\"flux-3-image-klein-et-le-vbios-le-local-\">FLUX.3 Image Klein et le VBIOS : le local se bricole aussi</h2>\n<p>Un utilisateur du subreddit signale la publication des poids de <strong>FLUX.3 Image Klein</strong> sur Hugging Face, sous le compte <strong>black-forest-labs</strong>. Le modèle de génération d'images devient ainsi accessible publiquement via la plateforme.</p>\n<p>Côté matériel, trois outils circulent pour modifier le <strong>VBIOS</strong> des cartes NVIDIA <strong>RTX 30, 40 et 50</strong> : limites de puissance, tensions, offsets mémoire, canaux de ventilateurs. Le flash direct étant bloqué par <strong>Falcon</strong>, l'auteur propose des chargeurs qui patchent le registre sous <strong>Windows</strong> ou le démarrage du firmware <strong>GSP sous Fedora</strong>, sans toucher au VBIOS d'origine.</p>\n<p>De quoi descendre sous <strong>400 W</strong> sur une RTX 5090, selon la dépêche. Trois briques différentes — un noyau CUDA, des poids d'image, des outils VBIOS — mais une même logique : reprendre la main sur la pile, du firmware au modèle.</p>\n<h2>Et maintenant ?</h2>\n<p>Prises ensemble, ces dépêches dessinent un écosystème où l'optimisation descend d'un cran : noyaux CUDA spécialisés pour les quantifications basses, architectures MoE qui n'activent qu'une fraction de leurs paramètres, poids publiés ouvertement, firmware contourné. Le mouvement est technique avant d'être politique — mais il finit par le devenir, quand un régulateur choisit explicitement d'exempter l'open source de ses restrictions à l'export. Reste une question ouverte : ces gains de vitesse annoncés pour Q2_K et Q3_K tiennent-ils leurs promesses hors du banc d'essai ? La pull request n'est, pour l'instant, qu'une pull request.</p>",
+ "pivot": "2400844a4248a68b",
+ "tags": [
+  "open-source",
+  "matériel",
+  "recherche",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8bqqs/cuda_faster_mmvq_for_lowbit_types_by_am17an_pull/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6t5fc/flux3_image_klein_just_got_weights_published_on/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8ca9a/modify_and_load_custom_vbios_on_windows_and_linux/"
+  }
+ ],
+ "date": "2026-10-17T16:59:06+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1562,
+  "sortie": 1955
+ }
+}

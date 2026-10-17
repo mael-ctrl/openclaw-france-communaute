@@ -1,5 +1,46 @@
 [
  {
+  "id": "7367a4cda2656fef",
+  "slug": "sur-r-localllama-on-demande-qui-possede-vraiment-une-rtx-5090-7367a4",
+  "titre": "Sur r/LocalLLaMA, on demande qui possède vraiment une RTX 5090",
+  "resume": "Sur le subreddit r/LocalLLaMA, un fil publié le 17 octobre 2026 pose une question simple : qui, parmi les membres, a la chance de disposer d'une RTX 5090 ? Le message, soumis par l'utilisateur /u/chemist_slime, ne livre aucun détail supplémentaire. La formulation dit assez de l'intérêt de cette communauté pour le matériel, un sujet central pour qui fait tourner des modèles en local.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x80iu0/lets_be_honest_which_of_you_is_the_lucky_fellow/",
+  "date_source": "2026-10-17T04:00:57+00:00",
+  "date_redac": "2026-10-17T04:31:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 624,
+   "sortie": 1032
+  }
+ },
+ {
+  "id": "fb6b4ebffb52f590",
+  "slug": "quelles-interfaces-de-chat-pour-discuter-avec-un-modele-la-question-ag-fb6b4e",
+  "titre": "Quelles interfaces de chat pour discuter avec un modèle ? La question agite r/LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande quelles interfaces de chat servent à discuter avec des modèles, hors code. Il rappelle les options non orientées code citées il y a quelques mois : OpenWebUI pour l'usage général, SillyTavern pour le roleplay, Hermes Agent pour l'assistant autonome. Il cherche lui-même une interface proche de Claude, sans savoir si le rendu vient de l'interface ou du modèle.",
+  "tags": [
+   "open-source",
+   "agents",
+   "claude"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x80ci1/what_do_you_guys_use_for_chat_interface/",
+  "date_source": "2026-10-17T03:51:15+00:00",
+  "date_redac": "2026-10-17T04:31:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 764,
+   "sortie": 1061
+  }
+ },
+ {
   "id": "0be32eb29a5d98f1",
   "slug": "vllm-fonctionne-enfin-sur-quatre-gpu-intel-b70-en-fp8-0be32e",
   "titre": "vLLM fonctionne enfin sur quatre GPU Intel B70 en FP8",

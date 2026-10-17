@@ -1,5 +1,68 @@
 [
  {
+  "id": "8d42bfd942abdc2d",
+  "slug": "262k-de-contexte-sur-une-rx-9070-xt-16-go-grace-au-kv-streaming-adapta-8d42bf",
+  "titre": "262k de contexte sur une RX 9070 XT 16 Go grâce au KV streaming adaptatif",
+  "resume": "Un développeur a porté sur ROCm/HIP l'adaptive KV streaming de llama.cpp, jusqu'ici réservé à CUDA. Résultat : Qwen 27B en IQ4_XS tourne avec 262 144 tokens de contexte sur une seule RX 9070 XT 16 Go, à plus de 80 t/s en décodage. Le cache KV complet (~7,4 Go) reste en RAM hôte, seuls des ensembles de travail bornés sont streamés vers le GPU ; sans quoi llama.cpp tombait en OOM au-delà de ~65k tokens.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x89ptz/qwen_27b_iq4_xs_q8q4_kv_at_full_262k_context_on_a/",
+  "date_source": "2026-10-17T13:01:59+00:00",
+  "date_redac": "2026-10-17T13:17:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 920,
+   "sortie": 1475
+  }
+ },
+ {
+  "id": "b0bd315f68921e07",
+  "slug": "des-sites-web-ferment-leurs-portes-aux-agents-ia-autonomes-b0bd31",
+  "titre": "Des sites web ferment leurs portes aux agents IA autonomes",
+  "resume": "Les agents autonomes sont la grande promesse du moment : OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail. Mais une partie des sites refuse désormais de les laisser entrer. Sans accès au web, ces agents perdent une bonne part de leur intérêt.",
+  "tags": [
+   "agents",
+   "openai",
+   "meta",
+   "business"
+  ],
+  "importance": 4,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+  "date_source": "2026-10-17T13:00:00+00:00",
+  "date_redac": "2026-10-17T13:17:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 652,
+   "sortie": 624
+  }
+ },
+ {
+  "id": "fb560849be182486",
+  "slug": "nvidia-confirme-que-la-rtx-5090-n-est-pas-arretee-et-reste-livree-fb5608",
+  "titre": "Nvidia confirme que la RTX 5090 n'est pas arrêtée et reste livrée",
+  "resume": "Nvidia a officiellement démenti les rumeurs d'arrêt de la RTX 5090 : la carte continuera d'être expédiée. C'est Jeff Fisher, vice-président senior en charge du calcul personnel, qui a clarifié la situation lors d'un entretien après l'événement RTX Spark Launch Party: Taipei, le 16 octobre 2026. Il y dément explicitement les rumeurs de fin de commercialisation apparues récemment.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x88txd/nvidia_has_officially_confirmed_that_the_5090_is/",
+  "date_source": "2026-10-17T12:18:00+00:00",
+  "date_redac": "2026-10-17T13:17:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 669,
+   "sortie": 496
+  }
+ },
+ {
   "id": "62d567829e60d786",
   "slug": "quantifications-et-temperatures-de-qwen-flash-next-passees-au-banc-d-e-62d567",
   "titre": "Quantifications et températures de Qwen Flash Next passées au banc d'essai",
@@ -59,6 +122,27 @@
    "modele": "deepseek-flash",
    "entree": 657,
    "sortie": 362
+  }
+ },
+ {
+  "id": "a915a80c04452897",
+  "slug": "llama-cpp-prend-en-charge-kolibri-1-le-modele-moe-d-aleph-alpha-a915a8",
+  "titre": "llama.cpp prend en charge Kolibri-1, le modèle MoE d'Aleph Alpha",
+  "resume": "Le support de Kolibri-1 vient d'être ajouté à llama.cpp via une pull request. Ce modèle d'Aleph Alpha est un MoE de 78 milliards de paramètres dont 3,46 milliards actifs par token, orienté allemand et anglais, avec mode de raisonnement explicite et appel d'outils. Il encaisse jusqu'à 1 048 576 tokens de contexte, même si le fournisseur recommande de rester sous 262 144. Les GGUF ne sont pas encore disponibles.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x87kgj/model_add_kolibri1_alephalpha_support_by_riteme/",
+  "date_source": "2026-10-17T11:07:59+00:00",
+  "date_redac": "2026-10-17T13:17:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 851,
+   "sortie": 649
   }
  },
  {

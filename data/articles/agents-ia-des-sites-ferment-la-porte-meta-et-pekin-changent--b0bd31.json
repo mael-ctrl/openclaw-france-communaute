@@ -1,0 +1,41 @@
+{
+ "slug": "agents-ia-des-sites-ferment-la-porte-meta-et-pekin-changent--b0bd31",
+ "titre": "Agents IA : des sites ferment la porte, Meta et Pékin changent les règles",
+ "chapo": "Les agents autonomes promettent de naviguer le web à ta place. Une partie des sites en a décidé autrement et leur ferme la porte — pendant que Meta élargit ses droits de crawling et que Pékin encadre l'export de technologies IA. Sans accès au web, ces agents perdent une bonne part de leur intérêt.",
+ "html": "<h2 id=\"la-promesse-se-heurte-aux-portes-closes\">La promesse se heurte aux portes closes</h2>\n<p>Les agents autonomes sont la grande promesse du moment. OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail. Sur le papier, l'argument tient en une ligne : un agent qui ne peut pas cliquer n'est pas un agent, juste un modèle qui répond à des questions.</p>\n<p>Sauf qu'une partie des sites refuse désormais de les laisser entrer. Le mouvement n'est pas anecdotique : sans accès au web, ces agents perdent une bonne part de leur intérêt. C'est le point de friction le plus concret entre les plateformes qui construisent des agents et les éditeurs qui hébergent le contenu que ces agents viennent consommer.</p>\n<p>Le paradoxe est net. Les mêmes entreprises qui promettent des agents capables de réserver une table doivent obtenir, site par site, le droit d'y accéder. La promesse produit se heurte à une réalité simple : le web n'est pas un terrain de jeu ouvert, c'est une somme de propriétés privées qui fixent leurs propres règles d'accès.</p>\n<h2 id=\"meta-et-les-sites-d-actualite-les-nouvel\">Meta et les sites d'actualité : les nouvelles conditions</h2>\n<p>Pendant ce temps, Meta avance dans l'autre sens. Les nouveaux termes du groupe, qui entrent en vigueur le 30 octobre, <strong>semblent autoriser</strong> l'entreprise à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, y compris les éditeurs en ligne. C'est un rapport de Nieman Lab qui met le doigt dessus.</p>\n<p>Le libellé sur l'usage est explicite : Meta pourrait utiliser ce contenu externe pour « développer, améliorer, rechercher » et « entraîner ». L'accès au contenu se joue donc à deux niveaux bien distincts : les agents qui veulent lire les pages en temps réel, et les modèles qui veulent s'entraîner dessus en amont.</p>\n<p>Les deux mouvements se répondent, sans qu'on puisse parler de cause à effet. D'un côté, des sites qui ferment la porte aux agents autonomes. De l'autre, un géant qui se ménage contractuellement un droit de passage sur le contenu des entreprises présentes sur ses plateformes.</p>\n<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Sur le front des modèles, Reflection publie Beam, un modèle ouvert texte-texte en architecture mixture-of-experts sparse : 501 milliards de paramètres au total, 23 milliards activés, pour une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en BF16, FP8 et NVFP4.</p>\n<p>Le modèle est développé surtout pour l'anglais et vise trois chantiers : un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques. Ce dernier point recoupe directement le reste de l'actualité — un modèle pensé pour piloter des outils est précisément le genre de système qui a besoin d'un web accessible.</p>\n<p>Le lien reste technique, pas causal : les restrictions d'accès imposées par les sites et les choix d'architecture des laboratoires sont deux dossiers séparés, portés par des acteurs différents.</p>\n<h2 id=\"export-controls-a-pekin-quatrieme-rachat\">Export controls à Pékin, quatrième rachat pour Mistral</h2>\n<p>Le 16 octobre 2026, Pékin a proposé de réviser le catalogue des technologies restreintes à l'export : <strong>40 ajouts</strong>, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul. Point notable, les technologies déjà rendues publiques via l'open source ou des publications académiques sont <strong>explicitement exemptées</strong>.</p>\n<p>La consultation publique court jusqu'au 15 novembre. L'enregistrement préalable à l'export, lui, s'applique déjà : la proposition ne part donc pas d'une page blanche.</p>\n<p>Le même jour, autre actualité, française cette fois : selon Maddyness, <strong>Mistral</strong> a bouclé sa quatrième acquisition en huit mois. Le média économique n'a pas précisé le détail de l'opération ni l'identité de l'entreprise rachetée dans l'extrait disponible. Reste le rythme, qui se passe de commentaire.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches du jour dessinent trois rapports de force distincts : les éditeurs face aux agents, Meta face aux éditeurs, Pékin face à l'export de technologies. Aucun ne se règle sur le terrain technique. Les agents ont besoin d'un web qui les laisse passer, les modèles ont besoin de contenus pour s'entraîner, et les États entendent garder la main sur ce qui franchit leurs frontières. Entre-temps, les publications de modèles ouverts continuent leur route, exemptions à l'appui.</p>",
+ "pivot": "b0bd315f68921e07",
+ "tags": [
+  "agents",
+  "meta",
+  "open-source",
+  "mistral"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/10/16/mistral-realise-sa-quatrieme-acquisition-en-huit-mois/"
+  }
+ ],
+ "date": "2026-10-17T13:18:13+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1489,
+  "sortie": 3459
+ }
+}

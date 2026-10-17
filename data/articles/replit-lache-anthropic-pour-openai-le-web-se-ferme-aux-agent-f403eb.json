@@ -1,0 +1,41 @@
+{
+ "slug": "replit-lache-anthropic-pour-openai-le-web-se-ferme-aux-agent-f403eb",
+ "titre": "Replit lâche Anthropic pour OpenAI, le web se ferme aux agents",
+ "chapo": "Replit fait d'OpenAI son fournisseur de modèle par défaut et met fin à son partenariat avec Anthropic ; Claude reste accessible, mais la place change de mains. Au même moment, des sites refusent l'entrée aux agents autonomes, et Meta s'ouvre un accès au contenu des éditeurs.",
+ "html": "<h2 id=\"replit-openai-par-defaut-claude-en-optio\">Replit : OpenAI par défaut, Claude en option</h2>\n<p>Le PDG de Replit, Masad, a confirmé ce week-end qu'OpenAI devient le fournisseur de modèle par défaut de la plateforme, rapporte TechCrunch. Conséquence directe : Replit cesse de travailler avec Anthropic. Le changement porte sur la configuration par défaut, pas sur un bannissement — Claude reste accessible aux clients de la plateforme.</p>\n<p>Pour une plateforme comme Replit, qui fait tourner génération de code et exécution de projets dans le navigateur, le modèle par défaut est celui que croisent les utilisateurs qui ne touchent à rien. Le déplacer d'Anthropic vers OpenAI revient à changer le point d'entrée de tous ceux qui ne choisissent pas explicitement leur moteur.</p>\n<h2 id=\"des-portes-qui-se-ferment-devant-les-age\">Des portes qui se ferment devant les agents</h2>\n<p>Les agents autonomes sont la grande promesse du moment : OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail, rapporte The Verge. Mais une partie des sites refuse désormais de les laisser entrer.</p>\n<p>Le blocage ne relève pas de l'incident technique : c'est un refus opposé à des agents identifiés comme tels. Or la promesse commerciale de ces outils repose entièrement sur l'accès au web. Sans lui, les agents perdent une bonne part de leur intérêt — et la démonstration s'arrête à la porte.</p>\n<h2 id=\"meta-s-ouvre-un-droit-sur-le-contenu-des\">Meta s'ouvre un droit sur le contenu des éditeurs</h2>\n<p>Les nouveaux termes de Meta, qui entrent en vigueur le 30 octobre, <strong>semblent</strong> autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, y compris les éditeurs en ligne, selon un rapport de Nieman Lab relayé par The Verge. Meta pourrait ensuite utiliser ce contenu externe pour « développer, améliorer, rechercher » et « entraîner ».</p>\n<p>Le conditionnel reste de mise : il s'agit d'une lecture des nouvelles conditions, pas d'une annonce d'intention. Mais le contraste avec la dépêche précédente est net. D'un côté, des sites barrent l'entrée aux agents qui viennent chercher de l'information ; de l'autre, un groupe s'octroie par contrat un accès large au contenu des éditeurs. Deux façons opposées de régler la même question : qui peut lire quoi, et à quel prix.</p>\n<h2 id=\"beam-501-milliards-de-parametres-et-l-ex\">Beam, 501 milliards de paramètres, et l'export chinois</h2>\n<p>Reflection publie Beam, un modèle ouvert texte-texte en architecture mixture-of-experts sparse : 501 milliards de paramètres au total, 23 milliards activés, pour une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en BF16, FP8 et NVFP4. Développé surtout pour l'anglais, Beam vise un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques.</p>\n<p>De son côté, Pékin propose de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul. Les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées. La consultation publique court jusqu'au 15 novembre ; l'enregistrement préalable à l'export, lui, s'applique déjà.</p>\n<p>Deux textes qui dessinent les mêmes frontières : ce qui circule librement d'un côté, ce qui reste sous contrôle de l'autre. La clause sur l'open source n'est pas un détail, elle fixe la ligne entre publication et transfert.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, une même question : qui contrôle l'accès. Replit choisit qui fournit le modèle par défaut, des sites choisissent qui entre, Meta négocie par contrat l'accès au contenu des éditeurs, et Pékin dessine les contours de ce qui peut sortir — en laissant passer ce qui est déjà public. Les agents autonomes, eux, dépendent de toutes ces portes à la fois.</p>",
+ "pivot": "f403ebaf15b6ec98",
+ "tags": [
+  "openai",
+  "meta",
+  "agents",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  }
+ ],
+ "date": "2026-10-17T18:58:55+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1479,
+  "sortie": 3267
+ }
+}

@@ -1,5 +1,48 @@
 [
  {
+  "id": "f403ebaf15b6ec98",
+  "slug": "replit-remplace-anthropic-par-openai-comme-fournisseur-par-defaut-f403eb",
+  "titre": "Replit remplace Anthropic par OpenAI comme fournisseur par défaut",
+  "resume": "Le PDG de Replit, Masad, a précisé ce week-end qu'OpenAI remplace Anthropic comme fournisseur de modèle par défaut de la plateforme. Replit cesse donc de travailler avec Anthropic. Claude reste néanmoins accessible aux clients de la plateforme.",
+  "tags": [
+   "openai",
+   "claude",
+   "business",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+  "date_source": "2026-10-17T18:48:08+00:00",
+  "date_redac": "2026-10-17T18:58:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 622,
+   "sortie": 307
+  }
+ },
+ {
+  "id": "9bcf1149d399dd84",
+  "slug": "opencode-vise-par-une-intrusion-les-cles-a-changer-9bcf11",
+  "titre": "Opencode visé par une intrusion, les clés à changer",
+  "resume": "Un message publié sur r/LocalLLaMA le 17 octobre 2026 signale une intrusion visant Opencode et invite les utilisateurs à changer leurs clés. L'extrait disponible ne précise ni la nature de la faille, ni les composants concernés, ni l'ampleur de l'incident. La rotation des clés d'accès y apparaît comme la mesure de précaution immédiate.",
+  "tags": [
+   "sécurité",
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8gtvs/opencode_breached_rotate_keys_to_be_safe/",
+  "date_source": "2026-10-17T18:02:37+00:00",
+  "date_redac": "2026-10-17T18:58:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 616,
+   "sortie": 682
+  }
+ },
+ {
   "id": "f51e0a34f8e99b9c",
   "slug": "un-chatbot-support-promet-des-reparations-gratuites-a-tort-l-entrepris-f51e0a",
   "titre": "Un chatbot support promet des réparations gratuites à tort, l'entreprise honore",
@@ -18,6 +61,27 @@
    "modele": "deepseek-flash",
    "entree": 803,
    "sortie": 1116
+  }
+ },
+ {
+  "id": "dddddb388f79b9dd",
+  "slug": "quels-anciens-modeles-gardez-vous-malgre-leur-obsolescence-dddddb",
+  "titre": "Quels anciens modèles gardez-vous malgré leur obsolescence ?",
+  "resume": "Sur r/LocalLLaMA, un utilisateur raconte qu'il continue de charger un finetune de Mistral 7b, Hermes Trismegistos, et le réinstallera sur ses prochains systèmes. Ses capacités sont désormais dépassées par des modèles plus petits et plus complets, mais il lui trouve une structure et une créativité qui justifient de le garder. Il demande à la communauté quels anciens modèles restent en usage.",
+  "tags": [
+   "mistral",
+   "hermes",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8eyr9/older_models_that_can_be_considered_obsolete_you/",
+  "date_source": "2026-10-17T16:46:18+00:00",
+  "date_redac": "2026-10-17T18:58:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 771,
+   "sortie": 823
   }
  },
  {

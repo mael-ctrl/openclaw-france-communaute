@@ -36,4 +36,8 @@ Choix : module interne stdlib préparé, pas de nouvelle bibliothèque. Codes re
 
 ## Production
 
-Les validations ci-dessus sont locales. Le run cloud et les lectures HTTPS de la page, du flux et des audios doivent être consignés ici après leur réussite ; un commit ou un dispatch seul ne prouve pas la mise en ligne.
+**Livraison confirmée le 17/10/2026 à 14:18 CEST.** Commit fonctionnel `5a0bfa43724d9c9e7dffc8800efdf62120c2ec23` ; [run cloud 39031238936](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/39031238936) réussi, **123 tests Python sur Linux**, **689 fichiers envoyés**, sauvegarde d'état `5adfaa1`. Les logs attestent l'envoi de `podcast/index.html` et `podcast/feed.xml` ; huit blobs du commit relus sur GitHub, identiques.
+
+Contrôle TLS strict : **9 URL distinctes, 12 requêtes** avec trois lectures Range supplémentaires. Page et RSS identiques octet pour octet au rendu testé ; trois GUID distincts. Les trois MP3 sont identiques aux fichiers sources, servis en `audio/mpeg`, et les plages 0–1023 répondent 206 avec tailles exactes. Lien d'accueil et entrée unique du sitemap présents ; téléchargements B2B préservés.
+
+Chrome sur la **production HTTPS réelle**, sans substitution des réponses et sans JavaScript : clic depuis l'accueil, démarrage des trois lecteurs et six téléchargements identiques à 390/1440 px, ouverture du RSS ; aucune erreur console ni débordement. Page et flux sont livrés, pas seulement préparés. Aucune nouvelle génération audio, soumission à un annuaire, chaîne YouTube ou mesure de gain d'audience dans cette mission.

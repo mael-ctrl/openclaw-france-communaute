@@ -1,5 +1,26 @@
 [
  {
+  "id": "8ab1520afea5d4f3",
+  "slug": "strata-avant-la-0-1-45-l-echantillonnage-par-defaut-tombait-en-greedy-8ab152",
+  "titre": "Strata : avant la 0.1.45, l'échantillonnage par défaut tombait en greedy",
+  "resume": "Avant Strata 0.1.45, une config de run sans bloc sampling décodait en greedy quand la requête ne fixait pas sa température — d'où les boucles de ces modèles. Le correctif upstream #2685 applique les valeurs de la fiche modèle : temp 1.0, top_p 0.95, top_k 20 en thinking ; temp 0.7, top_p 0.8, top_k 20 et presence penalty 1.5 sinon. Ce que le client envoie reste prioritaire.",
+  "tags": [
+   "dev",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8lwa1/if_youre_on_strata_before_0145_and_your_client/",
+  "date_source": "2026-10-17T21:34:49+00:00",
+  "date_redac": "2026-10-17T22:46:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 909,
+   "sortie": 1053
+  }
+ },
+ {
   "id": "54e15954e450a358",
   "slug": "meta-retire-des-clauses-qui-inquietaient-sur-le-scraping-et-l-entraine-54e159",
   "titre": "Meta retire des clauses qui inquiétaient sur le scraping et l'entraînement IA",

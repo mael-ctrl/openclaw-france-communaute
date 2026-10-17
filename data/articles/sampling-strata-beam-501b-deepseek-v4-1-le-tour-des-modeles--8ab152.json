@@ -1,0 +1,41 @@
+{
+ "slug": "sampling-strata-beam-501b-deepseek-v4-1-le-tour-des-modeles--8ab152",
+ "titre": "Sampling Strata, Beam 501B, DeepSeek V4.1 : le tour des modèles ouverts",
+ "chapo": "Strata corrige un défaut de sampling qui faisait boucler les modèles, Qwen3.8-Flash-Next passe en quantification 4 bits grâce à 64 Go de RAM, Reflection sort Beam à 501 milliards de paramètres et Pékin propose de filtrer 23 technologies IA à l'export. Tour d'horizon de ce qui bouge côté modèles ouverts et côté machines qui les font tourner.",
+ "html": "<h2 id=\"strata-0-1-45-le-greedy-par-defaut-c-eta\">Strata 0.1.45 : le greedy par défaut, c'était un bug</h2>\n<p>Avant la version 0.1.45, une configuration de run sans bloc <em>sampling</em> partait en décodage greedy dès que la requête ne fixait pas explicitement sa température. C'est l'origine des boucles observées sur ces modèles : sans consigne, le décodeur prenait systématiquement le token le plus probable, et un modèle peut tourner longtemps dans cette logique.</p>\n<p>Le correctif upstream #2685 change la règle. En l'absence de valeurs fournies, Strata applique désormais celles de la fiche modèle : en mode <em>thinking</em>, température 1.0, top_p 0.95, top_k 20 ; sinon, température 0.7, top_p 0.8, top_k 20 et une <em>presence penalty</em> de 1.5. Ce que le client envoie reste prioritaire — le correctif ne réécrit pas les réglages explicites, il comble le vide.</p>\n<h2 id=\"64-go-de-ram-et-qwen3-8-flash-next-passe\">64 Go de RAM, et Qwen3.8-Flash-Next passe en 4 bits</h2>\n<p>Un utilisateur de r/LocalLLaMA est passé de 32 à 64 Go de DDR5-5800 sur sa machine — RTX 4090 24 Go, i9-14900K, Arch — et a pu abandonner la quantification IQ2_XS au profit d'Unsloth UD-IQ4_XS. Son budget de 40 GiB de RAM réservé aux experts, complété par les 24 Go de la carte, suffit : le journal indique 40,00 GiB d'experts en mémoire et aucune lecture depuis le SSD SATA.</p>\n<p>Avec Strata 0.1.45 en contexte natif de 262K, il mesure 87 à 98 t/s en décodage et retrouve l'aiguille sur des tests de 36K et 136K tokens, avec un taux de succès du cache d'experts d'environ 91 %. Le gain ne vient donc pas d'une carte plus grosse, mais de la RAM système : c'est elle qui décide si les experts tiennent en mémoire ou doivent être relus sur le disque.</p>\n<h2 id=\"beam-a-501b-deepseek-v4-1-flash-dans-ds4\">Beam à 501B, DeepSeek V4.1 Flash dans ds4</h2>\n<p>Reflection publie Beam, un modèle ouvert texte-texte en architecture mixture-of-experts sparse : 501 milliards de paramètres au total, 23 milliards activés, pour une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en BF16, FP8 et NVFP4. Développé surtout pour l'anglais, il vise un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques.</p>\n<p>Côté DeepSeek, l'avancée passe par une pull request : le support de DeepSeek-v4.1-Flash-1017 arrive dans dwarfstar (ds4), avec ses nouveaux <em>engrams</em> et une tour de vision mise à jour. Le patch se limite à la compatibilité des révisions de fichiers et à des contrôles vérifiant la cohérence entre modèles vision et langage, avec erreur en cas d'appariement mixte.</p>\n<p>La révision est majeure — environ 40 % des tenseurs d'experts routés, 30 % des engrams et 50 % de ceux de la tour de vision changent — mais l'architecture reste identique et se branche sur les kernels existants. Les fichiers quantifiés avec la suite ds4 se chargent sans modification, sans régression sur le checkpoint précédent.</p>\n<h2 id=\"la-chine-propose-de-filtrer-23-technolog\">La Chine propose de filtrer 23 technologies IA à l'export</h2>\n<p>Le 16 octobre 2026, Pékin propose de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul. Les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées.</p>\n<p>La consultation publique court jusqu'au 15 novembre, mais l'enregistrement préalable à l'export s'applique déjà. Le texte est donc au stade de la proposition ; le régime d'enregistrement qui l'accompagne, lui, n'attend pas la fin des discussions.</p>\n<h2>Et maintenant ?</h2>\n<p>Ces dépêches racontent la même bascule vue de deux endroits. D'un côté, un écosystème local qui gagne en fiabilité par des détails — un défaut de sampling corrigé, 32 Go de RAM en plus — et qui rend utilisables des modèles qu'on aurait sinon relégués en quantification extrême. De l'autre, des modèles ouverts toujours plus gros et des États qui commencent à tracer la frontière entre ce qui sort et ce qui reste public. Entre les deux, le contexte d'exécution — kernels, quantifications, révisions de fichiers — pèse désormais autant que le nombre de paramètres.</p>",
+ "pivot": "8ab1520afea5d4f3",
+ "tags": [
+  "open-source",
+  "matériel",
+  "deepseek",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8lwa1/if_youre_on_strata_before_0145_and_your_client/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8l18e/32gb_to_64gb_of_ram_took_qwen38flashnext_from_iq2/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8koix/deepseek_v41_flash_1017_support_for_ds4_pr_1225/"
+  }
+ ],
+ "date": "2026-10-17T22:46:18+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1816,
+  "sortie": 3563
+ }
+}

@@ -2195,3 +2195,9 @@
 {"ts": "2026-10-17T21:57:12+00:00", "evenement": "deploiement", "details": {"fichiers": 702, "octets": 14721346}, "sha256": "9d04892fd0863a70b984f0718cea3de90b3bfa8a2bdd5d02017abb826952d2f3"}
 {"ts": "2026-10-17T21:57:12+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "f85a254a2cab5ac074c9b1a06b37904355b42e80837e5738ef8804fb40edac18"}
 {"ts": "2026-10-17T21:57:12+00:00", "evenement": "bilan", "details": {"duree_s": 1032.6, "neufs": 3, "breves": 3, "articles": 1, "fichiers": 675, "envois": 702, "publications": 0}, "sha256": "1cba9c21ab039bb4f73fa65b2dd8c059f3fb4bdb43fe9783a67f265db485fd39"}
+{"ts": "2026-10-17T22:45:45+00:00", "evenement": "collecte", "details": {"neufs": 2}, "sha256": "fbd3802f4ca58d82ba9e4df6c7b21068a697c9b0a6aaa7b1a2d6ad11ab352108"}
+{"ts": "2026-10-17T22:45:57+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Xolotl (Strata based) - DeepSeek-V4.1-Flash (552B) on a sing) : réponse non-JSON"}, "sha256": "6130d59bc69b7afbb9ddf24fa3285308e76316ba926ab6b986aab1256b29f210"}
+{"ts": "2026-10-17T22:46:27+00:00", "evenement": "construction", "details": {"fichiers": 676}, "sha256": "71e67c623815073a73b3068b9b93e89d204fbfe225f058e31df647b903b59f70"}
+{"ts": "2026-10-17T23:02:21+00:00", "evenement": "deploiement", "details": {"fichiers": 701, "octets": 14640431}, "sha256": "f7bd081bd98eb0c63929d005a1659ef2ae39fac40448e12427c8099c1c05c090"}
+{"ts": "2026-10-17T23:02:22+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "80a750bc77db33dddcbc8c5517ae3348caf7d112c96a48f9796305c79d743e02"}
+{"ts": "2026-10-17T23:02:22+00:00", "evenement": "bilan", "details": {"duree_s": 1011.3, "neufs": 2, "breves": 1, "articles": 1, "fichiers": 676, "envois": 701, "publications": 0}, "sha256": "c57e84a4784c09b5752d0c6c8de58c15ca61519f4e935a88309af7751ecdc5ef"}

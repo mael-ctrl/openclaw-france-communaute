@@ -1,5 +1,46 @@
 [
  {
+  "id": "584cccb1b51c6ed8",
+  "slug": "a-cologne-un-robot-saisi-apres-une-agression-sexuelle-584ccc",
+  "titre": "À Cologne, un robot saisi après une agression sexuelle",
+  "resume": "À Cologne, la police a saisi un robot d'1,20 mètre après une agression sexuelle. L'appareil a fini dans un coffre de voiture, puis sous scellés. Deux adolescents sont visés par une enquête inédite, suspendue à une question : qui commandait la machine.",
+  "tags": [
+   "robots",
+   "société",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/du-jamais-vu-pour-la-police-un-robot-saisi-apres-une-agression-sexuelle.html",
+  "date_source": "2026-10-17T07:29:56+00:00",
+  "date_redac": "2026-10-17T07:37:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 660,
+   "sortie": 372
+  }
+ },
+ {
+  "id": "e68d178e0c9e7bfb",
+  "slug": "nvidia-retire-la-rtx-5090-de-sa-boutique-americaine-les-prix-s-envolen-e68d17",
+  "titre": "Nvidia retire la RTX 5090 de sa boutique américaine, les prix s'envolent en Europe",
+  "resume": "Nvidia a retiré cette semaine la GeForce RTX 5090 de la boutique en ligne de son site américain, sans annoncer l'arrêt de la carte. En Europe, elle reste en vente, mais à près de 6 700 euros minimum en Allemagne, presque le double de son prix de janvier.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/produits-android/hardware/cartes-graphiques/3289971_nvidia-retire-la-rtx-5090-de-sa-boutique-americaine-et-la-carte-frole-deja-les-10-000-euros-en-europe",
+  "date_source": "2026-10-17T07:12:04+00:00",
+  "date_redac": "2026-10-17T07:37:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 715,
+   "sortie": 906
+  }
+ },
+ {
   "id": "19f78a77b09534dd",
   "slug": "retirer-les-refus-d-un-modele-via-lora-plutot-qu-en-modifiant-le-model-19f78a",
   "titre": "Retirer les refus d'un modèle via LoRA plutôt qu'en modifiant le modèle lui-même",
@@ -102,6 +143,27 @@
    "modele": "deepseek-flash",
    "entree": 586,
    "sortie": 545
+  }
+ },
+ {
+  "id": "7f96dc5041a14ea1",
+  "slug": "un-site-pour-estimer-les-tokens-s-d-un-llm-local-avant-d-acheter-le-ma-7f96dc",
+  "titre": "Un site pour estimer les tokens/s d'un LLM local avant d'acheter le matériel",
+  "resume": "Un développeur de r/LocalLLaMA a mis en ligne un petit site qui estime la vitesse d'un LLM local, en tokens par seconde, avant l'achat du matériel. Il l'avait d'abord conçu pour lui et un ami, avant de le partager. L'outil reste une estimation : les résultats varient selon la configuration de chaque utilisateur. Le code est publié sur GitHub.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x83321/i_built_a_tiny_site_that_lets_you_feel_the/",
+  "date_source": "2026-10-17T06:30:47+00:00",
+  "date_redac": "2026-10-17T07:37:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 695,
+   "sortie": 370
   }
  },
  {

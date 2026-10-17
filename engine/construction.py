@@ -96,7 +96,7 @@ def jsonld_site():
 
 
 def jsonld_item(type_page, url_page, titre, description, date_pub, date_mod, section, tags, sources=None, couverture=None):
-    """NewsArticle pour une brève ou un article — jamais de date de build."""
+    """Dates facultatives : fournir None si l'événement n'est pas établi."""
     u = config.URL_SITE
     donnees = {
         "@context": "https://schema.org",
@@ -105,8 +105,6 @@ def jsonld_item(type_page, url_page, titre, description, date_pub, date_mod, sec
         "mainEntityOfPage": url_page,
         "headline": titre,
         "description": description,
-        "datePublished": date_pub,
-        "dateModified": date_mod or date_pub,
         "inLanguage": "fr-FR",
         "isAccessibleForFree": True,
         "articleSection": section,
@@ -114,6 +112,10 @@ def jsonld_item(type_page, url_page, titre, description, date_pub, date_mod, sec
         "author": {"@id": f"{u}/#organisation"},
         "publisher": {"@id": f"{u}/#organisation"},
     }
+    if date_pub:
+        donnees["datePublished"] = date_pub
+    if date_mod:
+        donnees["dateModified"] = date_mod
     citations = [{"@type": "CreativeWork", "url": s["url"], "name": s["nom"]}
                  for s in (sources or []) if s.get("url")]
     if citations:
@@ -504,9 +506,9 @@ def page_breve(b, breves_recentes, couverture=None):
 </section>"""
     desc = b["resume"][:160]
     url_page = f"{config.URL_SITE}/breves/{b['slug']}/"
+    # Source et rédaction ne prouvent ni mise en ligne ni modification publique.
     jsonld = jsonld_item("NewsArticle", url_page, b["titre"], b["resume"],
-                         b.get("date_source") or b.get("date_redac"),
-                         b.get("date_redac"), "Brèves", b.get("tags"),
+                         None, None, "Brèves", b.get("tags"),
                          [{"nom": b["source"], "url": b["lien_source"]}], couverture=couverture)
     return page(b["titre"], desc, contenu, f"/breves/{b['slug']}/", section="actus",
                 extra_head=jsonld, type_og="article", couverture=couverture)
@@ -539,8 +541,9 @@ def page_article(a, autres_articles, couverture=None):
   </div>
 </section>"""
     url_page = f"{config.URL_SITE}/articles/{a['slug']}/"
+    # « date » est créée à la rédaction, avant tout déploiement (docs/dates-jsonld.md).
     jsonld = jsonld_item("NewsArticle", url_page, a["titre"], a["chapo"],
-                         a.get("date"), a.get("date"), "Articles de fond", a.get("tags"),
+                         None, None, "Articles de fond", a.get("tags"),
                          a.get("sources"), couverture=couverture)
     date_og = (f'<meta property="article:published_time" content="{ech(a["date"])}">\n'
                if a.get("date") else "")

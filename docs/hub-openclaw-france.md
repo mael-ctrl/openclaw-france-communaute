@@ -455,6 +455,44 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-17/hub-script-hermes/`.
 
+## Budget Hermes sans promesse de coût universel — livraison du 18/10/2026
+
+- **Une amélioration livrée** : distinction entre kit gratuit et coûts d’usage
+  avant les boutons de `/hermes/`, reliée à la FAQ `#budget`. API, abonnement,
+  modèle local, outils et hébergement sont distingués ; contrôle des tarifs,
+  limite de dépense lorsque le fournisseur la permet et premier essai court.
+  Retrait des « centimes par jour », du tarif VPS approximatif et du rabais
+  non vérifié. Lien partenaire conservé, signalé et explicitement facultatif.
+  Aucun kit, script, style ou contenu du média modifié.
+- Source officielle Quickstart relue le 18/10, également en HTTPS direct
+  **200**, ancre fournisseur confirmée. Pas de tarif universel, de gratuité
+  du matériel ou de l’électricité, ni de compatibilité serveur garantie.
+- Les **3 nouveaux tests** échouent avant correction, puis passent ; suite
+  complète **137 tests OK**. Première passe bloquée par les chemins temporaires
+  macOS sous `/var` ; reprise avec `TMPDIR` dans le scratch Hermes, sans modifier
+  le moteur. Les **3 tests budget passent aussi sur le HTML HTTPS public**.
+- Chrome sans JavaScript : mention avant les boutons, ancre budget et deux FAQ
+  au clavier, navigation vers le guide des coûts et absence de débordement
+  vérifiées localement puis en production à **1440, 1024, 430, 390, 375 et 360 px**.
+  Sections publiées identiques aux sources ; aucune installation Hermes prétendue.
+- Bureau inaccessible au cron (`Resource deadlock avoided`) : déploiement par
+  `python3 outils/deployer_openclaw.py` depuis le clone hors Bureau
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Sauvegarde des **35 fichiers**
+  sans divergence production/Git ; **35 fichiers relus via FTP**, tous identiques
+  aux sources après envoi. Les deux ZIP sont intègres et inchangés octet pour octet,
+  après restauration des dates et modes avant leur régénération.
+- Santé : **six URL demandées en HTTP 200**, avant et après déploiement ;
+  **11 URL en HTTP 200** au contrôle étendu, dont les ZIP avec `?v=2`, le guide,
+  le sitemap et la clé. Sitemap actualisé pour Hermes uniquement ;
+  **IndexNow HTTP 200** pour `/hermes/` : notification acceptée, pas indexation prouvée.
+- **Aucune distribution supplémentaire** : contrôle du 18/10 relu dans le journal,
+  accès bloquants déjà consignés ; pas de répétition Bluesky après le 12/10.
+  Fil public de ce post relu aujourd’hui : URI/CID conformes, zéro réponse.
+  Prochaine priorité : aligner l’explication des coûts dans le guide téléchargeable
+  Hermes, notamment la formule « sans dépenser un centime » sur le modèle local.
+  Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-18/hub-budget-hermes/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

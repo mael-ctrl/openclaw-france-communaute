@@ -1,0 +1,173 @@
+{
+  "source_commit": "255125c2f08e1a5a2a61f2d01539e2495e35f517",
+  "capture_utc": "2026-10-18T16:30:44.599730+00:00",
+  "tri": "date_redac decroissante",
+  "breves": [
+    {
+      "id": "a50bd9ab59a83370",
+      "slug": "une-ia-locale-sans-internet-testee-sur-la-puce-nvidia-rtx-spark-a50bd9",
+      "titre": "Une IA locale sans internet testée sur la puce Nvidia RTX Spark",
+      "resume": "Frandroid a tenté de remplacer ChatGPT par une IA gratuite et fonctionnant sans internet, sur une puce Nvidia RTX Spark. Le site a embarqué un ordinateur portable Asus équipé de cette puce ARM dans un vol de 11 heures, sans connexion, pour confronter la promesse au réel. L'enjeu : se passer des abonnements à ChatGPT ou Claude.",
+      "tags": [
+        "matériel",
+        "chatgpt",
+        "claude"
+      ],
+      "importance": 2,
+      "source": "Frandroid",
+      "lien_source": "https://www.frandroid.com/marques/nvidia/3290147_on-a-tente-de-remplacer-chatgpt-par-une-ia-gratuite-et-sans-internet-sur-le-nvidia-rtx-spark-video",
+      "date_source": "2026-10-18T14:37:11+00:00",
+      "date_redac": "2026-10-18T15:08:48+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 706,
+        "sortie": 447
+      }
+    },
+    {
+      "id": "57ca33cb64eeacdc",
+      "slug": "un-depot-gguf-deepseek-v4-1-flash-sur-hugging-face-sans-annonce-d-unsl-57ca33",
+      "titre": "Un dépôt GGUF DeepSeek-V4.1-Flash sur Hugging Face, sans annonce d'unsloth",
+      "resume": "Un dépôt nommé unsloth/DeepSeek-V4.1-Flash-1017-GGUF a été repéré sur Hugging Face, puis relayé sur r/LocalLLaMA le 18 octobre. Aucun document ni annonce de l'équipe unsloth n'accompagne cette publication pour l'instant. Le contenu exact du dépôt n'est donc pas documenté.",
+      "tags": [
+        "deepseek",
+        "open-source",
+        "dev"
+      ],
+      "importance": 2,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x95491/unslothdeepseekv41flash1017gguf_hugging_face/",
+      "date_source": "2026-10-18T14:51:58+00:00",
+      "date_redac": "2026-10-18T15:08:45+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 637,
+        "sortie": 1199
+      }
+    },
+    {
+      "id": "5ac7901a53d7b4f2",
+      "slug": "quel-niveau-de-quantification-les-utilisateurs-de-llm-locaux-font-ils--5ac790",
+      "titre": "Quel niveau de quantification les utilisateurs de LLM locaux font-ils tourner au quotidien",
+      "resume": "Sur r/LocalLLaMA, un utilisateur demande quels formats de quantification les praticiens utilisent réellement, pour le chat, le code ou les agents. Il interroge aussi l'usage du 2-bit et du 3-bit — suffisant pour coder ou bon à renvoyer au 4-bit — et demande quel score KLD mérite selon eux le label « quasi sans perte » : 0,1 ou plutôt 0,01-0,03. Il privilégie les retours d'expérience aux benchmarks.",
+      "tags": [
+        "open-source",
+        "matériel",
+        "dev"
+      ],
+      "importance": 2,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x92rdf/what_quant_do_you_actually_use_day_to_day_anyone/",
+      "date_source": "2026-10-18T13:05:32+00:00",
+      "date_redac": "2026-10-18T14:07:06+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 765,
+        "sortie": 708
+      }
+    },
+    {
+      "id": "796c54fb951e03ff",
+      "slug": "le-winbot-w2s-pro-omni-d-ecovacs-un-robot-a-599-pour-laver-les-vitres-796c54",
+      "titre": "Le Winbot W2S Pro Omni d'Ecovacs, un robot à 599 € pour laver les vitres",
+      "resume": "Numerama a testé le Winbot W2S Pro Omni, le robot lave-vitres d'Ecovacs vendu 599 euros. La rédaction cherchait à savoir si cette « drôle de machine » peut réellement épargner la corvée des vitres. Le test complet est à lire sur Numerama.",
+      "tags": [
+        "robots",
+        "matériel",
+        "société"
+      ],
+      "importance": 2,
+      "source": "Numerama",
+      "lien_source": "https://www.numerama.com/tech/2351719-peut-on-laisser-un-robot-laver-ses-vitres-jai-teste-le-winbot-w2s-pro-omni.html",
+      "date_source": "2026-10-18T14:01:00+00:00",
+      "date_redac": "2026-10-18T14:07:02+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 671,
+        "sortie": 595
+      }
+    },
+    {
+      "id": "3706d6bf1dcb50e6",
+      "slug": "microsoft-propose-une-methode-ia-pour-fiabiliser-la-meteo-au-dela-de-q-3706d6",
+      "titre": "Microsoft propose une méthode IA pour fiabiliser la météo au-delà de quinze jours",
+      "resume": "Savoir s'il pleuvra dans trois semaines reste compliqué, même pour les meilleurs modèles météo. Microsoft propose une méthode fondée sur l'IA qui corrige les erreurs de ces modèles, sans exiger une grosse puissance informatique. Les résultats sont encourageants, mais ils ne permettent pas de prévoir le temps avec certitude.",
+      "tags": [
+        "recherche",
+        "société"
+      ],
+      "importance": 3,
+      "source": "Journal du Geek",
+      "lien_source": "https://www.journaldugeek.com/2026/10/18/microsoft-veut-rendre-la-meteo-plus-fiable-au-dela-de-quinze-jours/",
+      "date_source": "2026-10-18T14:02:23+00:00",
+      "date_redac": "2026-10-18T14:06:58+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 688,
+        "sortie": 465
+      }
+    },
+    {
+      "id": "b247fa52ce0ebeb0",
+      "slug": "deux-palettes-de-rtx-5090-zotac-470-000-dollars-disparaissent-dans-un--b247fa",
+      "titre": "Deux palettes de RTX 5090 ZOTAC, 470 000 dollars, disparaissent dans un aéroport brésilien",
+      "resume": "Deux palettes de cartes graphiques ZOTAC RTX 5090, pour une valeur déclarée de 470 000 dollars, ont disparu dans un aéroport brésilien. L'affaire a été relayée sur le subreddit r/LocalLLaMA. Elle intéresse la communauté de l'IA locale : ces cartes sont très recherchées pour faire tourner des modèles sur sa propre machine, et une cargaison de cette taille représente un volume de GPU rare.",
+      "tags": [
+        "matériel",
+        "sécurité"
+      ],
+      "importance": 2,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x91svd/two_pallets_of_zotac_rtx_5090_graphics_cards/",
+      "date_source": "2026-10-18T12:16:59+00:00",
+      "date_redac": "2026-10-18T13:23:58+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 631,
+        "sortie": 656
+      }
+    },
+    {
+      "id": "12eddb495c6b9015",
+      "slug": "frigos-pirates-fosse-de-l-ia-bots-russes-la-semaine-cyberguerre-12eddb",
+      "titre": "Frigos piratés, fossé de l'IA, bots russes : la semaine cyberguerre",
+      "resume": "Dans sa revue hebdomadaire, Numerama revient sur trois dossiers cyber. Un piratage a fait grimper la température des rayons frais de centaines de supermarchés français. Andrej Karpathy décrit le fossé grandissant entre l'IA que connaît le grand public et celle que voient les laboratoires. L'effondrement du trafic de bots russes, lui, mérite d'être nuancé.",
+      "tags": [
+        "sécurité",
+        "société",
+        "france"
+      ],
+      "importance": 2,
+      "source": "Numerama",
+      "lien_source": "https://www.numerama.com/cyberguerre/2354083-des-frigos-de-supermarches-pirates-partout-en-france-le-fosse-invisible-de-lia-et-les-bots-russes-toujours-actifs-malgre-les-frappes-sur-yandex-on-vous-raconte-la-semaine-cyberguerre.html",
+      "date_source": "2026-10-18T12:30:00+00:00",
+      "date_redac": "2026-10-18T13:23:54+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 777,
+        "sortie": 474
+      }
+    },
+    {
+      "id": "abaaf2107c0e78bb",
+      "slug": "auroraasr-1m-la-reconnaissance-vocale-sous-le-megaoctet-abaaf2",
+      "titre": "AuroraASR-1M : la reconnaissance vocale sous le mégaoctet",
+      "resume": "AuroraASR-1M est un modèle de reconnaissance vocale de 949 000 paramètres seulement, publié sur r/LocalLLaMA et bâti sur une architecture Conformer-CTC à poids partagés. Ses poids quantifiés en INT8 pèsent 1,06 Mo et il tourne à environ 436 fois le temps réel sur un seul thread CPU. Il atteint 11,43 % de WER sur LibriSpeech test-clean en décodage glouton, sans modèle de langue externe, et sort sous licence Apache 2.0.",
+      "tags": [
+        "open-source",
+        "recherche",
+        "dev"
+      ],
+      "importance": 2,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x92ejs/auroraasr1m_releases/",
+      "date_source": "2026-10-18T12:48:33+00:00",
+      "date_redac": "2026-10-18T13:23:51+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 691,
+        "sortie": 489
+      }
+    }
+  ]
+}

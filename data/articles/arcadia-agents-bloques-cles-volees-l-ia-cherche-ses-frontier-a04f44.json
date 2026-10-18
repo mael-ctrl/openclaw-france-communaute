@@ -1,0 +1,41 @@
+{
+ "slug": "arcadia-agents-bloques-cles-volees-l-ia-cherche-ses-frontier-a04f44",
+ "titre": "Arcadia, agents bloqués, clés volées : l'IA cherche ses frontières",
+ "chapo": "La France présente Arcadia, son futur logiciel de commandement militaire dopé à l'IA, pour ne pas dépendre de Palantir. Au même moment, des sites refusent les agents autonomes, Meta étend ses droits sur le contenu des éditeurs et Pékin encadre l'export de 23 technologies IA.",
+ "html": "<h2 id=\"arcadia-le-commandement-militaire-a-la-f\">Arcadia, le commandement militaire à la française</h2>\n<p>Le Commissariat au numérique de défense a présenté fin septembre <strong>Arcadia</strong>, le futur logiciel de commandement des armées françaises. Sa particularité tient dans le suffixe : l'outil est dopé à l'IA. Il ne s'agit pas d'une démonstration de laboratoire, mais d'un programme destiné au commandement militaire, présenté comme à venir.</p>\n<p>La référence est explicitement américaine. Arcadia doit répondre à <strong>Maven</strong>, l'outil de l'américain Palantir que l'OTAN utilise déjà. Derrière la comparaison technique, l'enjeu est politique : la France cherche à ne pas dépendre de solutions américaines pour une brique aussi sensible. La formule qui accompagne le projet résume l'intention — refuser de dépendre de solutions américaines — et déplace le débat des fonctionnalités vers la souveraineté.</p>\n<p>Rien dans les éléments publics ne dit en revanche quand Arcadia sera opérationnel, ni sur quelles données le logiciel sera entraîné.</p>\n<h2 id=\"d-un-cote-on-ferme-la-porte-de-l-autre-o\">D'un côté on ferme la porte, de l'autre on la force</h2>\n<p>Les agents autonomes sont présentés comme la grande promesse du moment. OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail. Mais une partie des sites refuse désormais de les laisser entrer. Et sans accès au web, ces agents perdent une bonne part de leur intérêt.</p>\n<p>En parallèle, Meta avance dans l'autre sens. Ses nouveaux termes, qui entrent en vigueur le 30 octobre, <strong>semblent autoriser</strong> le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, y compris les éditeurs en ligne, selon un rapport de Nieman Lab. Le contenu récupéré pourrait ensuite servir à « développer, améliorer, rechercher » et « entraîner ».</p>\n<p>Les deux mouvements ne relèvent pas de la même logique — l'un bloque des robots, l'autre élargit un droit de collecte — mais ils portent sur le même objet : qui accède au contenu web, et à quelles conditions.</p>\n<h2 id=\"opencode-des-cles-api-volees-pour-entrai\">OpenCode : des clés API volées pour entraîner un autre modèle</h2>\n<p>OpenCode, un agent de programmation open source, a confirmé samedi 17 octobre une intrusion. Des clés API OpenAI, Anthropic et Google appartenant à 1,4 % des utilisateurs de sa Console ont pu être exposées.</p>\n<p>L'entreprise relie l'incident à une « attaque par distillation », une méthode qui consiste à exploiter un modèle pour en entraîner un autre. Dans ce schéma, les requêtes passent par les clés dérobées, et les réponses servent de matériau d'entraînement. Des victimes signalent déjà des frais de plusieurs centaines de dollars.</p>\n<p>Le point notable : ce ne sont pas des identifiants de comptes utilisateurs qui ont été visés, mais des accès facturés à l'usage. Le coût de l'attaque est supporté par les victimes, pas par l'attaquant.</p>\n<h2 id=\"la-chine-trie-ce-qui-sort-l-open-source-\">La Chine trie ce qui sort, l'open source passe</h2>\n<p>Le 16 octobre, Pékin a proposé de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul. La consultation publique court jusqu'au 15 novembre. L'enregistrement préalable à l'export, lui, s'applique déjà.</p>\n<p>Le détail qui compte est l'exemption : les technologies déjà rendues publiques via l'open source ou des publications académiques sortent explicitement du champ des restrictions. La mesure vise donc les transferts non publics, pas le code déjà diffusé.</p>\n<p>Autrement dit, un modèle publié sur un dépôt ouvert n'entre pas dans le même régime qu'un modèle gardé en interne et livré à un client étranger. La frontière passe par le mode de diffusion, pas par la puissance du modèle.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, un même motif : la question n'est plus seulement de savoir ce que les modèles savent faire, mais qui peut y accéder et à quelles conditions. La France veut son propre logiciel de commandement, des sites refusent les agents autonomes, Meta pourrait élargir son droit de collecte sur le contenu des éditeurs, Pékin trie ce qui sort du territoire. Dans chaque cas, ce sont les mêmes objets qui circulent — modèles, données, clés API — et les mêmes acteurs qui tentent d'en verrouiller l'accès.</p>",
+ "pivot": "a04f44f1a54769df",
+ "tags": [
+  "france",
+  "agents",
+  "sécurité",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  }
+ ],
+ "date": "2026-10-18T08:48:35+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1538,
+  "sortie": 4221
+ }
+}

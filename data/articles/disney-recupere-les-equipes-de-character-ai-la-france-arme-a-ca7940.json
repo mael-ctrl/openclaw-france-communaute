@@ -1,0 +1,41 @@
+{
+ "slug": "disney-recupere-les-equipes-de-character-ai-la-france-arme-a-ca7940",
+ "titre": "Disney récupère les équipes de Character.AI, la France arme Arcadia",
+ "chapo": "Character.AI dépose le bilan et Disney récupère l'essentiel de ses équipes ; la France dévoile Arcadia, son logiciel de commandement militaire. Pendant ce temps, des sites ferment la porte aux agents autonomes et Microsoft s'attaque aux limites de la météo.",
+ "html": "<h2 id=\"character-ai-au-tapis-disney-embauche\">Character.AI au tapis, Disney embauche</h2>\n<p>Character.AI, la startup de chatbots, a déposé le bilan en début de semaine. Dans la foulée, Disney s'est engagé à recruter la majorité de ses salariés. Le géant du divertissement avait déjà annoncé acquérir une partie de ses actifs, pour 20 millions de dollars.</p>\n<p>Le détail le plus parlant n'est pas dans le prix, mais dans les personnes : <strong>Karandeep Anand</strong>, l'ancien CEO de Character.AI, est récemment devenu le premier CTO de Disney. Ce n'est donc pas seulement une technologie que le groupe récupère, mais une équipe constituée, avec à sa tête quelqu'un qui connaît déjà le produit.</p>\n<p>L'opération se lit comme une intégration par petites touches — des actifs d'un côté, des compétences de l'autre. Elle rappelle aussi une réalité moins réjouissante pour l'écosystème : la notoriété grand public ne protège pas d'un dépôt de bilan.</p>\n<h2 id=\"replit-change-de-moteur-par-defaut\">Replit change de moteur par défaut</h2>\n<p>Changement de fournisseur chez Replit. Son PDG, <strong>Masad</strong>, a précisé ce week-end qu'<strong>OpenAI</strong> remplace <strong>Anthropic</strong> comme fournisseur de modèle par défaut de la plateforme. Conséquence directe : Replit cesse de travailler avec Anthropic.</p>\n<p>La nuance compte : Claude reste accessible aux clients de la plateforme. Il n'y a donc pas de rupture d'accès, mais un changement de ce que l'on obtient quand on ne choisit pas. Dans un outil de développement assisté, ce réglage pèse lourd : il détermine le modèle que la majorité des utilisateurs mobiliseront sans y penser.</p>\n<p>Sur ce terrain, la concurrence ne se joue pas sur les benchmarks mais sur les accords d'intégration. Un fournisseur par défaut change, et c'est une population entière de développeurs qui change de modèle sans avoir rien décidé.</p>\n<h2 id=\"arcadia-la-reponse-francaise-a-maven\">Arcadia, la réponse française à Maven</h2>\n<p>Fin septembre, le Commissariat au numérique de défense a présenté <strong>Arcadia</strong>, le futur logiciel de commandement des armées françaises dopé à l'IA. L'outil a une cible nommée : <strong>Maven</strong>, la solution de l'américain <strong>Palantir</strong> que l'OTAN utilise déjà.</p>\n<p>L'enjeu affiché est explicitement politique : sortir d'une dépendance aux solutions américaines dans le commandement militaire. Ce n'est pas un détail d'achat public. Un logiciel de commandement, c'est l'endroit où l'on agrège l'information, où l'on propose des options et où l'on décide — donc, à la marge, l'endroit où se logent des biais d'analyse et des dépendances techniques.</p>\n<p>Arcadia n'est pour l'instant qu'un projet : la dépêche parle d'un logiciel « futur ». Il faudra juger sur pièces, à commencer par la capacité à fonctionner sans les briques américaines que l'on cherche justement à quitter. Mais le fait de poser le sujet publiquement, avec un concurrent nommé, marque une étape : la souveraineté en IA cesse d'être un thème de colloque pour devenir un cahier des charges.</p>\n<h2 id=\"les-agents-se-heurtent-aux-portes-closes\">Les agents se heurtent aux portes closes</h2>\n<p>Les agents autonomes sont la grande promesse du moment. OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail. Sauf qu'une partie des sites refuse désormais de les laisser entrer. Et sans accès au web, ces agents perdent une bonne part de leur intérêt : l'autonomie ne sert à rien si le terrain de jeu est verrouillé.</p>\n<p>Le problème n'est pas technique, il tient aux règles d'accès. Un site peut décider qui entre, et il le fait.</p>\n<p>La même semaine, Microsoft rappelle l'autre limite, celle de la fiabilité. Savoir s'il pleuvra dans trois semaines reste compliqué, même pour les meilleurs modèles météo. Microsoft propose une méthode fondée sur l'IA qui corrige les erreurs de ces modèles, sans exiger une grosse puissance informatique. Les résultats sont encourageants, mais ils ne permettent pas de prévoir le temps avec certitude. Corriger les erreurs d'un modèle n'est pas le remplacer.</p>\n<h2>Et maintenant ?</h2>\n<p>Ce qui relie ces dépêches, ce n'est pas une technologie commune, mais un même déplacement : l'IA quitte la démonstration et entre dans des structures qui ont des règles. Un grand groupe absorbe des équipes, une plateforme change de fournisseur par défaut, un ministère écrit un cahier des charges face à un concurrent nommé, des sites ferment leur porte. À chaque fois, la question n'est plus « le modèle en est-il capable ? » mais « qui contrôle l'accès, et à quelles conditions ? »</p>",
+ "pivot": "ca7940b2558768db",
+ "tags": [
+  "business",
+  "france",
+  "agents",
+  "openai"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/18/microsoft-veut-rendre-la-meteo-plus-fiable-au-dela-de-quinze-jours/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+  }
+ ],
+ "date": "2026-10-18T16:36:07+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1462,
+  "sortie": 4920
+ }
+}

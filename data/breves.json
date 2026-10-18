@@ -1,5 +1,109 @@
 [
  {
+  "id": "28fac2f99bc90fea",
+  "slug": "opencode-confirme-une-intrusion-et-une-possible-fuite-de-cles-api-28fac2",
+  "titre": "OpenCode confirme une intrusion et une possible fuite de clés API",
+  "resume": "OpenCode, un agent de programmation open source, a confirmé samedi 17 octobre une intrusion qui a pu exposer les clés API OpenAI, Anthropic et Google de 1,4 % des utilisateurs de sa Console. L'entreprise relie l'incident à une « attaque par distillation », une méthode qui consiste à exploiter un modèle pour en entraîner un autre. Des victimes signalent déjà des frais de plusieurs centaines de dollars.",
+  "tags": [
+   "sécurité",
+   "open-source",
+   "agents",
+   "openai"
+  ],
+  "importance": 4,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia",
+  "date_source": "2026-10-18T07:04:47+00:00",
+  "date_redac": "2026-10-18T07:10:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 702,
+   "sortie": 143
+  }
+ },
+ {
+  "id": "77278a3e3dcead78",
+  "slug": "un-qwen3-8-27b-local-flashe-un-routeur-quand-claude-refuse-77278a",
+  "titre": "Un Qwen3.8 27b local flashe un routeur quand Claude refuse",
+  "resume": "Un utilisateur de r/LocalLLaMA voulait flasher son routeur sous OpenWrt. Claude a refusé, garde-fou oblige, y compris en version Opus 4.8. Il a alors donné la même consigne à Qwen3.8 27b avec le lien du guide : le modèle local a flashé le firmware sans difficulté, alors qu'il s'agit de la version standard, non débridée. L'auteur se demande si les futurs Qwen garderont un garde-fou sur les usages cyber.",
+  "tags": [
+   "claude",
+   "sécurité",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8wmbp/told_qwen38_27b_to_hack_my_router/",
+  "date_source": "2026-10-18T07:02:09+00:00",
+  "date_redac": "2026-10-18T07:11:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 722,
+   "sortie": 892
+  }
+ },
+ {
+  "id": "19bcd04466edf2ef",
+  "slug": "nyxi-hyperion-3-ultra-une-alternative-aux-joy-con-2-avec-protocole-off-19bcd0",
+  "titre": "Nyxi Hyperion 3 Ultra : une alternative aux Joy-Con 2 avec protocole officiel Switch 2",
+  "resume": "Nyxi commercialise l'Hyperion 3 Ultra, déclinaison haut de gamme de son alternative aux Joy-Con, après une première version Hyperion 3. Ce modèle intègre le protocole officiel de la Nintendo Switch 2, des sticks à technologie TMR, un retour haptique HD Rumble 2, un capteur optique pour le mode souris et une puce NFC. Frandroid a publié le test de cette nouvelle version.",
+  "tags": [
+   "matériel"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/produits-android/console/3276047_test-de-la-nyxi-hyperion-3-ultra-la-fin-definitive-des-compromis-face-aux-joy-con-2-officiels-de-la-switch-2",
+  "date_source": "2026-10-18T07:01:00+00:00",
+  "date_redac": "2026-10-18T07:11:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 736,
+   "sortie": 927
+  }
+ },
+ {
+  "id": "823ab07bb93f3136",
+  "slug": "hermes-agent-publie-une-build-canary-v0-22-2-823ab0",
+  "titre": "Hermes Agent publie une build canary v0.22.2",
+  "resume": "Le projet Hermes Agent, hébergé sur le dépôt GitHub NousResearch, a publié une nouvelle build canary estampillée v0.22.2. Le numéro de version embarque un horodatage complet, 20261018T065527Z, qui identifie la compilation du 18 octobre 2026. L'extrait de publication ne mentionne ni correctif ni fonctionnalité : il s'agit d'une version canary, donc d'une build de test diffusée en amont. Aucune note de version détaillée n'accompagne cette sortie.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261018T065527Z",
+  "date_source": "2026-10-18T06:55:28+00:00",
+  "date_redac": "2026-10-18T07:11:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 754
+  }
+ },
+ {
+  "id": "45e43e177fb632c2",
+  "slug": "un-projet-perso-herbert-en-demo-sur-hugging-face-l-auteur-cherche-des--45e43e",
+  "titre": "Un projet perso « herbert » en démo sur Hugging Face, l'auteur cherche des retours",
+  "resume": "Sur r/LocalLLaMA, un utilisateur partage un projet maison présenté comme surpassant « Jev », terme qu'il ne détaille pas, avec une démo hébergée sur Hugging Face Spaces. Il précise qu'il ne s'agit pas d'autopromotion et demande surtout des retours : pistes d'amélioration, bugs rencontrés et cas où le modèle craque.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8vl4i/made_sum_crap_that_beats_jev/",
+  "date_source": "2026-10-18T06:00:00+00:00",
+  "date_redac": "2026-10-18T07:11:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 656,
+   "sortie": 629
+  }
+ },
+ {
   "id": "8cedb33f50dae948",
   "slug": "un-serveur-4x-v620-recycle-en-chauffage-pilote-via-vllm-8cedb3",
   "titre": "Un serveur 4x V620 recyclé en chauffage piloté via vLLM",

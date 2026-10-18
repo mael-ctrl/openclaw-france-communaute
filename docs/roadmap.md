@@ -61,6 +61,13 @@ Les autres dépendances (GSC, chaîne/OAuth, newsletter, distribution, offre Sko
 - Base `5ff2102`, 127 artefacts de préparation vérifiés ; 105 Python + 4 Node, deux builds isolés (635 pages éditoriales, 675 autres fichiers inchangés), essai sans rédaction réussi. 266 fichiers de données inchangés ; avertissements de chaînage des 10/11 octobre conservés, pas de réparation ni certification historique. [Détail et limites](dates-jsonld.md).
 - **Livraison confirmée à 11:07 CEST** : `0c27d70`, run `39018865370` et sauvegarde `a1a3201` ; 105 tests cloud, 682 fichiers envoyés, 14 URL HTTPS vérifiées. Huit pages éditoriales identiques au rebuild du commit sauvegardé, flux/sitemaps comparés. Sonde supplémentaire d'une ancienne brève hors plafond : 200 et anciens champs encore présents ; couverture historique reportée explicitement à #5, sans suppression ni deuxième intégration.
 
+## Chantier quotidien du 18/10 — #5, archives sans listing
+
+- **Intégration locale terminée, production à vérifier** : deux configurations d'archives générées ; `/breves/` redirige exactement vers le fil `/actus/`, le parent `/actus/page/` perd son listing. Cibles distantes lues avant intégration, absentes ; racine sauvegardée et préservée. [Contrat, inventaire et preuves](archives-autoindex.md).
+- **130 tests Python + 4 Node**, deux builds isolés : 1 368 sorties existantes identiques, deux ajouts seulement ; 294 fichiers de données inchangés. Vrai essai sans rédaction réussi, collecte partiellement en erreur consignée, aucun transfert ni sceau modifié.
+- **Cap de 400 documenté et maintenu** : égalité build/pagination/sitemap vérifiée ; 432 chemins connus hors fenêtre, 700 répertoires supplémentaires observés dans le listing préparatoire. Aucune purge ni prétendue correction de toutes les métadonnées historiques. La réconciliation complète et les listings hors archives restent des suites distinctes.
+- Une seule intégration dans ce passage ; newsletter, hub et audit historique non importés. Validation cloud/HTTPS à consigner avant de déclarer livré.
+
 ## Revue de gouvernance du 16/10 — preuves et relais
 
 - **Exploitation :** pull réussi, 39 commits observés dans la fenêtre du jour. API GitHub exhaustive : **27 runs créés avant 21:00:23 CEST**, dont **26 réussis et 1 en cours** au relevé de 21:02 ; 6 `schedule`, 21 `workflow_dispatch`. Dernier succès `38949237292`, run `38951427779` non terminé au relevé. Les 21 sorties du chien de garde sont silencieuses ; le secours rapporte 18 relances sur 41 passages. Ce besoin de secours mérite un examen, mais ne prouve pas une panne de production.

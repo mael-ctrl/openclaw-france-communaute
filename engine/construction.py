@@ -782,5 +782,17 @@ def construire():
             else:
                 shutil.copy2(source, cible)
 
+    # Configuration ciblée, après vérification des cibles distantes à l'intégration.
+    # Ne pas remplacer les redirections de domaine du .htaccess racine.
+    regles_archives = {
+        "breves": ("Options -Indexes\n"
+                   f"RedirectMatch 301 ^/breves/?$ {config.URL_SITE}/actus/\n"),
+        "actus/page": "Options -Indexes\n",
+    }
+    for repertoire, contenu in regles_archives.items():
+        regle = couvertures.verifier_chemin(sortie / repertoire / ".htaccess")
+        regle.parent.mkdir(parents=True, exist_ok=True)
+        regle.write_text(contenu, encoding="utf-8")
+
     print(f"   🏗️  {len(ecrits)} page(s) + assets générés dans _site/")
     return len(ecrits)

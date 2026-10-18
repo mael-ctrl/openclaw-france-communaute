@@ -1,5 +1,25 @@
 [
  {
+  "id": "ca7940b2558768db",
+  "slug": "disney-embauche-la-majorite-des-salaries-de-character-ai-ca7940",
+  "titre": "Disney embauche la majorité des salariés de Character.AI",
+  "resume": "Character.AI, qui a déposé le bilan plus tôt cette semaine, voit la majorité de ses salariés pouvoir rejoindre Disney. Le géant du divertissement avait déjà accepté de racheter une partie de ses actifs pour 20 millions de dollars. Son ancien PDG, Karandeep Anand, est récemment devenu le premier CTO de Disney.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+  "date_source": "2026-10-18T16:30:00+00:00",
+  "date_redac": "2026-10-18T16:53:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 668,
+   "sortie": 355
+  }
+ },
+ {
   "id": "57ca33cb64eeacdc",
   "slug": "un-depot-gguf-deepseek-v4-1-flash-sur-hugging-face-sans-annonce-d-unsl-57ca33",
   "titre": "Un dépôt GGUF DeepSeek-V4.1-Flash sur Hugging Face, sans annonce d'unsloth",
@@ -39,6 +59,28 @@
    "modele": "deepseek-flash",
    "entree": 706,
    "sortie": 447
+  }
+ },
+ {
+  "id": "c1213a381eb314ac",
+  "slug": "un-sous-ensemble-de-15-requetes-pour-comparer-les-agents-de-recherche-c1213a",
+  "titre": "Un sous-ensemble de 15 requêtes pour comparer les agents de recherche",
+  "resume": "Un contributeur a isolé 15 requêtes sur les 830 de BrowseComp-Plus pour comparer des agents de recherche sans y passer des heures. Sur 30 découpages, ce sous-ensemble retrouve le classement du benchmark complet avec un accord de rang de 0,88, contre 0,75 pour un tirage aléatoire de 15. Les réponses font 1 à 4 mots, notées par correspondance exacte, sans LLM juge, pour moins de 2 % du coût d'une exécution complète.",
+  "tags": [
+   "agents",
+   "recherche",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x94mu0/browsecompplusmini_15_of_browsecomppluss_830/",
+  "date_source": "2026-10-18T14:30:57+00:00",
+  "date_redac": "2026-10-18T16:53:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 800,
+   "sortie": 1213
   }
  },
  {

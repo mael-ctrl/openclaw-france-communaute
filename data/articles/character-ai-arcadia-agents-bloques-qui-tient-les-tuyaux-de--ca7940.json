@@ -1,0 +1,41 @@
+{
+ "slug": "character-ai-arcadia-agents-bloques-qui-tient-les-tuyaux-de--ca7940",
+ "titre": "Character.AI, Arcadia, agents bloqués : qui tient les tuyaux de l'IA ?",
+ "chapo": "Un dépôt de bilan qui se solde par un transfert d'équipes chez Disney, une armée française qui veut son propre logiciel de commandement, des sites qui claquent la porte aux agents autonomes. Derrière ces actualités dispersées, une même question : qui contrôle l'infrastructure sur laquelle tourne l'IA ?",
+ "html": "<h2 id=\"character-ai-les-actifs-d-abord-les-equi\">Character.AI : les actifs d'abord, les équipes ensuite</h2>\n<p>Character.AI a déposé le bilan plus tôt cette semaine. Disney, qui avait déjà accepté de racheter une partie de ses actifs pour 20 millions de dollars, peut désormais embaucher la majorité des salariés de l'entreprise. Le mouvement n'est pas une fusion ni un rachat classique : c'est une reprise d'équipes après la chute d'un service.</p>\n<p>Le détail qui donne le ton : Karandeep Anand, l'ancien PDG de Character.AI, est récemment devenu le premier CTO de Disney. Le géant du divertissement récupère donc des compétences et un dirigeant, pas une plateforme grand public.</p>\n<p>Pour 20 millions de dollars, la somme reste modeste à l'échelle du divertissement américain. Elle en dit long sur ce qui garde de la valeur dans une jeune pousse de l'IA quand le produit s'arrête : les gens qui l'ont construit.</p>\n<h2 id=\"arcadia-ou-la-dependance-militaire-posee\">Arcadia, ou la dépendance militaire posée sur la table</h2>\n<p>Le Commissariat au numérique de défense a présenté fin septembre <strong>Arcadia</strong>, le futur logiciel de commandement des armées françaises dopé à l'IA. L'outil doit répondre à <strong>Maven</strong>, la solution de l'américain Palantir que l'OTAN utilise déjà.</p>\n<p>L'enjeu affiché est explicitement politique : sortir d'une dépendance aux solutions américaines dans le commandement militaire. Là où la question du fournisseur par défaut se règle souvent par des considérations de performance, elle se pose ici en termes de souveraineté.</p>\n<p>Rien n'indique, dans la dépêche, de calendrier de déploiement ni de comparaison technique entre les deux outils. Ce qui est acté, c'est le cadre : la France ne veut pas que la couche de décision de ses armées repose sur un logiciel qu'elle ne maîtrise pas.</p>\n<h2 id=\"les-agents-autonomes-trouvent-des-portes\">Les agents autonomes trouvent des portes fermées</h2>\n<p>Les agents autonomes sont la grande promesse du moment. OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail. Mais une partie des sites refuse désormais de les laisser entrer.</p>\n<p>Le problème est mécanique : sans accès au web, ces agents perdent une bonne part de leur intérêt. Un agent qui ne peut plus lire une page ni remplir un formulaire redevient un assistant limité à son propre terrain de jeu.</p>\n<p>La promesse commerciale de ces produits repose donc sur une permission que personne ne leur a formellement accordée : celle des sites qu'ils doivent traverser. C'est un point de friction que les annonces n'évoquent guère.</p>\n<h2 id=\"replit-et-microsoft-le-fournisseur-par-d\">Replit et Microsoft : le fournisseur par défaut n'est jamais acquis</h2>\n<p>Le PDG de Replit, Masad, a précisé ce week-end qu'<strong>OpenAI remplace Anthropic</strong> comme fournisseur de modèle par défaut de la plateforme. Replit cesse donc de travailler avec Anthropic. Claude reste néanmoins accessible aux clients de la plateforme.</p>\n<p>Un changement de fournisseur par défaut, c'est un déplacement de volume d'un coup, sans que l'utilisateur final ait nécessairement voté. La nuance entre « par défaut » et « disponible » suffit à redistribuer les usages.</p>\n<p>Ailleurs, la dépendance est d'une autre nature. Microsoft propose une méthode fondée sur l'IA qui corrige les erreurs des modèles météo, sans exiger une grosse puissance informatique, pour fiabiliser les prévisions au-delà de quinze jours. Les résultats sont encourageants, mais ils ne permettent pas de prévoir le temps avec certitude. Là encore, l'IA s'ajoute à un système existant plutôt que de le remplacer.</p>\n<h2>Et maintenant ?</h2>\n<p>Ces quatre dépêches décrivent la même mécanique sous des angles différents : la valeur se déplace vers ceux qui possèdent les équipes, les modèles par défaut et les points de passage. Disney récupère des salariés formés, la France tente de reprendre la main sur sa couche de commandement, les sites mesurent leur capacité à fermer leur porte, et Replit montre qu'un fournisseur par défaut tient à une décision. Aucun de ces mouvements ne relève de la performance brute des modèles. Tous concernent le contrôle de ce qui les fait tourner.</p>",
+ "pivot": "ca7940b2558768db",
+ "tags": [
+  "business",
+  "agents",
+  "france",
+  "openai"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/18/microsoft-veut-rendre-la-meteo-plus-fiable-au-dela-de-quinze-jours/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+  }
+ ],
+ "date": "2026-10-18T16:54:01+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1460,
+  "sortie": 2463
+ }
+}

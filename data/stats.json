@@ -1,22 +1,18 @@
 {
- "runs": 235,
- "items_collectes": 1904,
- "breves_publiees": 817,
- "articles_publies": 138,
- "tokens_entree": 808059,
- "tokens_sortie": 1177904,
+ "runs": 236,
+ "items_collectes": 1914,
+ "breves_publiees": 822,
+ "articles_publies": 139,
+ "tokens_entree": 813580,
+ "tokens_sortie": 1184518,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-18T07:50:27+00:00",
+ "dernier_run": "2026-10-18T09:01:08+00:00",
  "solde": {
   "total": "85.50",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-17T22:45:57+00:00",
-   "message": "brève impossible (Xolotl (Strata based) - DeepSeek-V4.1-Flash (552B) on a sing) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-18T00:09:54+00:00",
    "message": "archivage wayback : The read operation timed out"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-18T03:35:19+00:00",
    "message": "brève impossible (The whale girl mode in DeepSeek-V4.1-Flash-1017 is still the) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-18T09:00:17+00:00",
+   "message": "brève impossible (The new local coding LLM's are pretty decent and a huge jump) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -959,6 +959,10 @@
   ],
   [
    "2026-10-18T07:50:27+00:00",
+   "85.50"
+  ],
+  [
+   "2026-10-18T09:00:03+00:00",
    "85.50"
   ]
  ],

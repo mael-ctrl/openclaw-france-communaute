@@ -1,0 +1,41 @@
+{
+ "slug": "arcadia-opencode-agents-bloques-qui-garde-la-main-sur-l-ia-a04f44",
+ "titre": "Arcadia, OpenCode, agents bloqués : qui garde la main sur l'IA ?",
+ "chapo": "La France dévoile Arcadia, son logiciel de commandement militaire dopé à l'IA, pour sortir de sa dépendance à Palantir. En parallèle, OpenCode confirme une fuite de clés API, des sites ferment leurs portes aux agents autonomes et Meta pourrait aspirer les contenus des éditeurs.",
+ "html": "<h2 id=\"arcadia-le-commandement-militaire-franca\">Arcadia : le commandement militaire français veut sa propre chaîne d'outils</h2>\n<p>Le Commissariat au numérique de défense a présenté fin septembre <strong>Arcadia</strong>, le futur logiciel de commandement des armées françaises dopé à l'IA. L'outil doit répondre à <strong>Maven</strong>, la solution de l'américain Palantir que l'OTAN utilise déjà.</p>\n<p>L'enjeu affiché est explicitement politique : sortir d'une dépendance aux solutions américaines dans le commandement militaire. Derrière la question de la performance du modèle, il y a donc celle de la chaîne d'outils sur laquelle repose une décision opérationnelle — et de celui qui la fournit.</p>\n<h2 id=\"opencode-quand-l-agent-concentre-les-cle\">OpenCode : quand l'agent concentre les clés, il devient la cible</h2>\n<p><strong>OpenCode</strong>, un agent de programmation open source, a confirmé samedi 17 octobre une intrusion qui a pu exposer les clés API OpenAI, Anthropic et Google de <strong>1,4 % des utilisateurs</strong> de sa Console.</p>\n<p>L'entreprise relie l'incident à une « <strong>attaque par distillation</strong> », une méthode qui consiste à exploiter un modèle pour en entraîner un autre. Des victimes signalent déjà des frais de plusieurs centaines de dollars.</p>\n<p>Le point commun avec Arcadia : dès qu'un outil concentre des accès sensibles, il devient une cible. Et la facture n'est pas seulement technique — elle est directement financière pour les utilisateurs concernés.</p>\n<h2 id=\"les-agents-autonomes-se-heurtent-a-des-p\">Les agents autonomes se heurtent à des portes fermées</h2>\n<p>Les agents autonomes sont la grande promesse du moment : OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail. Sauf qu'une partie des sites refuse désormais de les laisser entrer.</p>\n<p>Sans accès au web, ces agents perdent une bonne part de leur intérêt. La promesse d'un assistant qui agit pour toi se heurte donc à un droit d'entrée que les propriétaires de sites entendent bien garder.</p>\n<h2 id=\"meta-et-pekin-verrouiller-le-contenu-ver\">Meta et Pékin : verrouiller le contenu, verrouiller les modèles</h2>\n<p>Côté plateformes, les nouveaux termes de <strong>Meta</strong>, en vigueur le 30 octobre, semblent autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, y compris les éditeurs en ligne, selon un rapport de Nieman Lab. Ce contenu externe pourrait ensuite servir à « développer, améliorer, rechercher » et « entraîner ».</p>\n<p>Côté États, Pékin a proposé le 16 octobre de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont <strong>23 liés à l'IA</strong> (grands modèles, agents, clusters de calcul). Les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées. La consultation publique court jusqu'au 15 novembre, alors que l'enregistrement préalable à l'export s'applique déjà.</p>\n<h2>Et maintenant ?</h2>\n<p>Mis bout à bout, ces dépêches dessinent une même bataille : celle des points de passage. Logiciel de commandement, clés API, accès au web, droits de crawl, catalogue d'export — autant d'endroits où se décide ce qu'un modèle peut voir, apprendre et faire. Les capacités des agents progressent vite ; les verrous se posent tout aussi vite, et souvent plus discrètement.</p>",
+ "pivot": "a04f44f1a54769df",
+ "tags": [
+  "france",
+  "sécurité",
+  "agents",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  }
+ ],
+ "date": "2026-10-18T09:01:07+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1544,
+  "sortie": 3578
+ }
+}

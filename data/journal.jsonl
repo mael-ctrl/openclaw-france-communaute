@@ -2267,3 +2267,9 @@
 {"ts": "2026-10-18T08:00:14+00:00", "evenement": "deploiement", "details": {"fichiers": 707, "octets": 14692735}, "sha256": "36bd0a8fa1fe6d6b69c6b8d9db7daa2c7d1f9f7c1b7a872ddaa9cec38bc770ff"}
 {"ts": "2026-10-18T08:00:14+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "a517184726b8121190d7cc24558a10566f775c992df923fff4a68a1b7b262631"}
 {"ts": "2026-10-18T08:00:14+00:00", "evenement": "bilan", "details": {"duree_s": 598.9, "neufs": 0, "breves": 0, "articles": 0, "fichiers": 684, "envois": 707, "publications": 0}, "sha256": "6cc30961215e78de3a84c98f6b1fac2fb8d865cc62177d7331e752fc2db074dd"}
+{"ts": "2026-10-18T09:00:03+00:00", "evenement": "collecte", "details": {"neufs": 10}, "sha256": "a7859acb994e779d4725612044c7a9e0212fb405e6a89449144e987ee16d60e7"}
+{"ts": "2026-10-18T09:00:17+00:00", "evenement": "erreur", "details": {"message": "brève impossible (The new local coding LLM's are pretty decent and a huge jump) : réponse non-JSON"}, "sha256": "57fed4cf42c0c89b6ff8a7589a2c00ef1586ec34de3b2c5aa1a97f1cf392b53f"}
+{"ts": "2026-10-18T09:01:15+00:00", "evenement": "construction", "details": {"fichiers": 685}, "sha256": "96f9c08d738c28fdfe3871d27d359fecfb90d6bb89a7de4ab9278a88ac2fe9a0"}
+{"ts": "2026-10-18T09:13:07+00:00", "evenement": "deploiement", "details": {"fichiers": 716, "octets": 15004595}, "sha256": "3bb6dc22665dbd16019fcf2552804198a00a12fd0fe2bf1e38ce6bd71288b0c0"}
+{"ts": "2026-10-18T09:13:07+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "1b3bd0e31e20d46322f4b951895f4db42f0fc37c545e7f3fa870819539dfc5f0"}
+{"ts": "2026-10-18T09:13:07+00:00", "evenement": "bilan", "details": {"duree_s": 824.7, "neufs": 10, "breves": 5, "articles": 1, "fichiers": 685, "envois": 716, "publications": 0}, "sha256": "bb19434c9e392b82c2844f732058f451773dc1e027edb47554ed44a321c10c12"}

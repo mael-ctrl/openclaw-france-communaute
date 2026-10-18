@@ -1,5 +1,47 @@
 [
  {
+  "id": "57ca33cb64eeacdc",
+  "slug": "un-depot-gguf-deepseek-v4-1-flash-sur-hugging-face-sans-annonce-d-unsl-57ca33",
+  "titre": "Un dépôt GGUF DeepSeek-V4.1-Flash sur Hugging Face, sans annonce d'unsloth",
+  "resume": "Un dépôt nommé unsloth/DeepSeek-V4.1-Flash-1017-GGUF a été repéré sur Hugging Face, puis relayé sur r/LocalLLaMA le 18 octobre. Aucun document ni annonce de l'équipe unsloth n'accompagne cette publication pour l'instant. Le contenu exact du dépôt n'est donc pas documenté.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x95491/unslothdeepseekv41flash1017gguf_hugging_face/",
+  "date_source": "2026-10-18T14:51:58+00:00",
+  "date_redac": "2026-10-18T15:08:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 637,
+   "sortie": 1199
+  }
+ },
+ {
+  "id": "a50bd9ab59a83370",
+  "slug": "une-ia-locale-sans-internet-testee-sur-la-puce-nvidia-rtx-spark-a50bd9",
+  "titre": "Une IA locale sans internet testée sur la puce Nvidia RTX Spark",
+  "resume": "Frandroid a tenté de remplacer ChatGPT par une IA gratuite et fonctionnant sans internet, sur une puce Nvidia RTX Spark. Le site a embarqué un ordinateur portable Asus équipé de cette puce ARM dans un vol de 11 heures, sans connexion, pour confronter la promesse au réel. L'enjeu : se passer des abonnements à ChatGPT ou Claude.",
+  "tags": [
+   "matériel",
+   "chatgpt",
+   "claude"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/nvidia/3290147_on-a-tente-de-remplacer-chatgpt-par-une-ia-gratuite-et-sans-internet-sur-le-nvidia-rtx-spark-video",
+  "date_source": "2026-10-18T14:37:11+00:00",
+  "date_redac": "2026-10-18T15:08:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 706,
+   "sortie": 447
+  }
+ },
+ {
   "id": "3706d6bf1dcb50e6",
   "slug": "microsoft-propose-une-methode-ia-pour-fiabiliser-la-meteo-au-dela-de-q-3706d6",
   "titre": "Microsoft propose une méthode IA pour fiabiliser la météo au-delà de quinze jours",

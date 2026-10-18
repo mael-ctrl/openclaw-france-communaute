@@ -1,0 +1,41 @@
+{
+ "slug": "nvidia-arcadia-agents-bloques-ou-se-gagne-le-controle-de-l-i-085048",
+ "titre": "Nvidia, Arcadia, agents bloqués : où se gagne le contrôle de l'IA",
+ "chapo": "Nvidia a investi 8 milliards de dollars dans des entreprises européennes et vise 10 milliards l'an prochain. Pendant ce temps, la France présente Arcadia pour son commandement militaire, des sites ferment la porte aux agents autonomes, et un MoE de 560B tourne sur quatre DGX Spark.",
+ "html": "<h2 id=\"nvidia-8-milliards-pour-prendre-des-posi\">Nvidia : 8 milliards pour prendre des positions, pas seulement des commandes</h2>\n<p>Nvidia a injecté 8 milliards de dollars dans des entreprises européennes en quelques mois. Le fabricant de puces prévoit de porter la somme à 10 milliards dès l'an prochain — et le lot ne se limite pas à des data centers : <strong>Doctolib</strong> figure parmi les prises de participation, rapporte 01net.</p>\n<p>La formulation du média mérite d'être retenue : derrière ces investissements, il y a « autre chose qu'un simple éparpillement ». Nvidia ne se contente pas de vendre des GPU : il entre au capital d'entreprises du continent, sur plusieurs mois, en enchaînant les prises de participation.</p>\n<p>Ce n'est pas un détail de calendrier. Le mouvement place le fabricant au cœur de l'écosystème européen, à un moment où la question de la dépendance aux technologies américaines revient régulièrement dans le débat public.</p>\n<h2 id=\"arcadia-l-armee-francaise-veut-sa-propre\">Arcadia : l'armée française veut sa propre chaîne de décision</h2>\n<p>Fin septembre, le Commissariat au numérique de défense a présenté <strong>Arcadia</strong>, le futur logiciel de commandement des armées françaises dopé à l'IA. L'outil doit répondre à <strong>Maven</strong>, la solution de l'américain Palantir que l'OTAN utilise déjà.</p>\n<p>L'enjeu affiché est explicite : sortir d'une dépendance aux solutions américaines dans le commandement militaire. Autrement dit, le sujet n'est pas seulement la performance du modèle, mais qui contrôle la chaîne de décision — et où elle est hébergée, opérée, modifiée.</p>\n<p>Les deux dépêches se répondent sans se confondre. D'un côté, un fournisseur américain de puces qui investit massivement en Europe ; de l'autre, une armée qui cherche à réduire sa dépendance aux solutions américaines. Deux versants du même mot d'ordre, la souveraineté, avec des logiques qui n'ont rien à voir.</p>\n<h2 id=\"les-agents-autonomes-se-cassent-le-nez-s\">Les agents autonomes se cassent le nez sur des portes fermées</h2>\n<p>Les agents autonomes sont la grande promesse du moment. OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail.</p>\n<p>Sauf qu'une partie des sites refuse désormais de les laisser entrer, rapporte <strong>The Verge</strong>. Et sans accès au web, ces agents perdent une bonne part de leur intérêt : un agent qui réserve une table a besoin d'atteindre le site qui prend les réservations.</p>\n<p>Le point de friction est concret. L'agentivité suppose un web ouvert, mais rien n'oblige les sites à ouvrir leur porte. La promesse produit se heurte à des décisions prises ailleurs, par ceux qui contrôlent les points de passage.</p>\n<h2 id=\"en-local-560b-sur-quatre-machines-un-ava\">En local : 560B sur quatre machines, un avatar sur ta GPU</h2>\n<p>Sur r/LocalLLaMA, deux projets montrent ce qui se passe quand on veut faire tourner les choses chez soi plutôt que chez un fournisseur.</p>\n<p>L'utilisateur <strong>sudoing</strong> a chargé <strong>Ling 3.1 Flash</strong>, un MoE de 560 milliards de paramètres dont 25 milliards actifs par token, sur quatre <strong>DGX Spark</strong>. Faute de build FP4 officiel pour vLLM, il est passé par le GGUF Q4 d'Atomic Chat, distribué sur les quatre machines via <strong>llama.cpp RPC</strong>. Il attend des débits bridés par la bande passante, et veut comparer avec Ling 3.0 Flash (124B) sur la qualité des réponses et le temps d'attente réel.</p>\n<p><strong>Openspline</strong> prend un tout autre chemin : c'est un projet open source qui ajoute une couche d'avatar aux agents vocaux existants. Il suffit de sélectionner une image pour générer une vidéo d'avatar parlant en temps réel, avec synchronisation labiale, calculée en local sur la GPU. L'intégration à un agent vocal se ferait en cinq lignes de code, et le modèle lite dépasserait 90 FPS sur une RTX 4090. Le projet est encore à un stade très précoce, publié sur GitHub avec une démo en ligne.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, un même motif : la question n'est plus seulement de savoir quel modèle est le meilleur, mais qui tient les points de passage — le capital des entreprises, la chaîne de commandement, l'accès à un site, le matériel sur lequel tourne l'inférence. Nvidia place ses billes en amont, l'armée française cherche une sortie, des sites ferment leur porte, et le local absorbe ce que le reste ne laisse pas passer.</p>",
+ "pivot": "085048c4ca8459e6",
+ "tags": [
+  "business",
+  "france",
+  "agents",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/pourquoi-nvidia-investit-ses-milliards-de-dollars-un-peu-partout.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8v7cp/ling_31_flash_560b_moe_loaded_across_4_dgx_sparks/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8oqng/openspline_host_a_realtime_talking_avatar_on_a/"
+  }
+ ],
+ "date": "2026-10-18T15:09:05+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1600,
+  "sortie": 3677
+ }
+}

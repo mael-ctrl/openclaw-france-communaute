@@ -1,0 +1,41 @@
+{
+ "slug": "volundr-32b-corrige-ses-boucles-le-web-ferme-la-porte-aux-ag-f7d7c1",
+ "titre": "Volundr 32B corrige ses boucles, le web ferme la porte aux agents",
+ "chapo": "Deux semaines après une Preview très critiquée, Blockway corrige les boucles de répétition de Volundr 32B et allège nettement son raisonnement. Au même moment, un agent de programmation open source laisse échapper des clés API et une partie du web décide de refuser l'entrée aux agents autonomes.",
+ "html": "<h2 id=\"volundr-32b-les-boucles-de-repetition-ra\">Volundr 32B : les boucles de répétition rayées</h2>\n<p>Blockway publie la v1 de <strong>Volundr 32B</strong>, deux semaines seulement après une Preview que r/LocalLLaMA n'avait pas épargnée. Le point le plus scruté — les boucles de répétition sur les tâches SWE-bench — disparaît : on passe de 36/50 à 0/50. L'étape de raisonnement médiane tombe à 120 tokens, avec un plafond à 12K.</p>\n<p>Côté déploiement, le build SGLang ajoute la <strong>continuation de session</strong> : les tours suivants réutilisent l'état du modèle au lieu de refaire le préremplissage, pour un gain annoncé de 2,9× sur le rejeu d'agent de l'équipe. Pour ceux qui tournent en GGUF, le cache de prompt s'appuie sur l'option `--ctx-checkpoints` de llama-server.</p>\n<p>La correction porte donc autant sur la génération que sur l'économie de calcul en contexte agentique : un modèle qui boucle coûte cher, un modèle qui repart de zéro à chaque tour aussi.</p>\n<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Reflection dévoile <strong>Beam</strong>, un modèle ouvert texte-texte en mixture-of-experts sparse : 501 milliards de paramètres au total, mais 23 milliards activés, avec une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en BF16, FP8 et NVFP4.</p>\n<p>Le positionnement est explicite : développement surtout pour l'anglais, raisonnement économe en tokens, génie logiciel et usage d'outils agentiques. Autrement dit, un modèle dimensionné pour tenir la longueur d'une session d'agent plutôt que pour briller sur une réponse unique.</p>\n<p>Volundr et Beam n'ont pas la même échelle — 32B dense contre 501B en MoE — mais posent la même question pratique : combien de tokens faut-il brûler pour qu'un agent termine sa tâche sans dérailler.</p>\n<h2 id=\"opencode-1-4-des-utilisateurs-des-cles-e\">OpenCode : 1,4 % des utilisateurs, des clés exposées</h2>\n<p>OpenCode, un agent de programmation open source, a confirmé le 17 octobre une intrusion qui a pu exposer les clés API OpenAI, Anthropic et Google de <strong>1,4 % des utilisateurs de sa Console</strong>. L'entreprise relie l'incident à une « attaque par distillation », une méthode qui consiste à exploiter un modèle pour en entraîner un autre.</p>\n<p>Des victimes signalent déjà des frais de plusieurs centaines de dollars. Le problème n'est pas théorique : dès qu'un agent manipule des identifiants pour le compte de son utilisateur, ces identifiants deviennent la cible. Un agent open source qui a accès à trois fournisseurs de modèles concentre trois facturations derrière une seule clé mal gardée.</p>\n<p>Aucune information n'a été donnée sur le nombre exact de comptes concernés ni sur la façon dont les clés ont été atteintes.</p>\n<h2 id=\"le-web-se-referme-pekin-legifere\">Le web se referme, Pékin légifère</h2>\n<p>Les agents autonomes sont la promesse du moment : OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail. Mais selon The Verge, <strong>une partie des sites refuse désormais de les laisser entrer</strong>. Sans accès au web, ces agents perdent une bonne part de leur intérêt.</p>\n<p>En parallèle, Pékin a proposé le 16 octobre 2026 de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA (grands modèles, agents, clusters de calcul). Les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées. La consultation publique court jusqu'au 15 novembre ; l'enregistrement préalable à l'export s'applique déjà.</p>\n<p>Les deux mouvements vont dans le même sens : ce n'est plus seulement la qualité du modèle qui détermine ce qu'un agent peut faire, mais les portes qu'on lui laisse franchir.</p>\n<h2>Et maintenant ?</h2>\n<p>La capacité progresse d'un côté — boucles supprimées, raisonnement raccourci, contexte à un million de tokens — tandis que les contraintes se déplacent de l'autre : un site qui bloque, une clé API qui fuit, un catalogue d'export qui s'allonge. La compétence d'un agent se mesure de moins en moins à son score sur un benchmark et de plus en plus à ce qu'il parvient à faire dans un environnement qui ne l'attend pas. Les exemptions open source du texte chinois et les builds SGLang ou GGUF de Volundr vont dans le sens d'un déploiement local, hors des quotas et des listes d'accès.</p>",
+ "pivot": "f7d7c10067149935",
+ "tags": [
+  "agents",
+  "open-source",
+  "sécurité",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8yc8d/agens_volundr_32b_v1_we_fixed_what_you_flagged_in/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  }
+ ],
+ "date": "2026-10-18T12:03:31+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1629,
+  "sortie": 2789
+ }
+}

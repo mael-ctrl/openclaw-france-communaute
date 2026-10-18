@@ -1,0 +1,41 @@
+{
+ "slug": "tzar-reconstruit-avec-claude-code-le-desassemblage-comme-pla-f3e9fd",
+ "titre": "Tzar reconstruit avec Claude Code : le désassemblage comme plan de travail",
+ "chapo": "Refaire un jeu de 2000 en le lisant à l'envers : c'est la méthode qu'a suivie un développeur pour porter Tzar en Rust avec Claude Code. La même semaine, un agent de programmation open source confirmait une fuite de clés API et un modèle MoE de 501 milliards de paramètres sortait en ouvert.",
+ "html": "<h2 id=\"un-rts-de-2000-porte-systeme-par-systeme\">Un RTS de 2000 porté système par système</h2>\n<p>L'utilisateur ColCarlo99 s'est attaqué à <strong>Tzar: The Burden of the Crown</strong>, un jeu de stratégie en temps réel sorti en 2000, et l'a reconstruit en Rust sur le moteur Bevy. La particularité du projet tient à la matière première : pas de code source d'origine, mais le désassemblage de l'exécutable original, que Claude Code lit pour porter les systèmes un par un.</p>\n<p>Le découpage annoncé couvre les briques classiques du genre : le combat, l'IA, le générateur de cartes et les scripts de mission. Le développeur garde la main sur la validation — il compare chaque comportement avec le jeu d'origine et signale les écarts au modèle, qui corrige.</p>\n<p>Le résultat est gratuit et open source, et fait tourner les campagnes comme les cartes aléatoires sous Windows 10/11, jusqu'en 4K. Une condition subsiste : il faut posséder une copie de Tzar.</p>\n<h2 id=\"plus-de-600-tests-pour-contenir-la-deriv\">Plus de 600 tests pour contenir la dérive</h2>\n<p>Ce genre de portage au long cours pose un problème connu de quiconque fait travailler un modèle sur un projet qui s'étale : la cohérence se perd entre deux sessions. La réponse apportée ici est double — <strong>plus de 600 tests</strong>, et des notes de mémoire qui conservent le contexte d'une session à l'autre.</p>\n<p>Ce sont ces garde-fous qui rendent le flux de travail présentable : le modèle ne travaille pas seul sur un dépôt qu'il découvre, il s'appuie sur un filet de tests et sur un historique écrit. Le développeur reste l'arbitre, avec le jeu original comme référence de comportement.</p>\n<p>À noter que le procédé — lire un binaire désassemblé pour en réimplémenter la logique — n'est pas une nouveauté que l'IA aurait fait naître. Ce qui change, c'est le volume de code à écrire pour suivre ce plan.</p>\n<h2 id=\"le-revers-quand-l-agent-de-code-expose-l\">Le revers : quand l'agent de code expose les clés</h2>\n<p>La même semaine, OpenCode, un agent de programmation open source, a confirmé <strong>samedi 17 octobre</strong> une intrusion ayant pu exposer les clés API OpenAI, Anthropic et Google de <strong>1,4 % des utilisateurs</strong> de sa Console. L'entreprise relie l'incident à une « attaque par distillation » — une méthode qui consiste à exploiter un modèle pour en entraîner un autre.</p>\n<p>Des victimes signalent déjà des frais de plusieurs centaines de dollars. Le point commun avec le projet Tzar s'arrête à l'outil : dans un cas un modèle lit du code ancien pour le réécrire, dans l'autre des attaquants cherchent à récupérer des accès à des modèles. Aucun lien de cause à effet entre les deux affaires ne peut être tiré des faits rapportés.</p>\n<p>Reste une réalité matérielle : les agents de développement ont désormais des identifiants qui valent de l'argent, stockés dans des consoles tierces.</p>\n<h2 id=\"beam-pekin-et-les-quants-le-reste-de-l-a\">Beam, Pékin et les quants : le reste de l'actualité</h2>\n<p>Côté modèles, <strong>Reflection</strong> publie Beam, un modèle ouvert texte-texte en architecture mixture-of-experts sparse : 501 milliards de paramètres au total, 23 milliards activés, pour une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en BF16, FP8 et NVFP4. Développé surtout pour l'anglais, il vise un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques.</p>\n<p>Côté régulation, Pékin a proposé le <strong>16 octobre 2026</strong> de réviser son catalogue de technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul. Les technologies déjà rendues publiques via l'open source ou des publications académiques sont explicitement exemptées. La consultation publique court jusqu'au 15 novembre, l'enregistrement préalable à l'export s'appliquant déjà.</p>\n<p>Enfin, une proposition soumise à <strong>llama.cpp</strong> ajoute cinq types de quantification, IQ2_K à IQ6_K. Testés pour l'instant sur un seul modèle, ils afficheraient des tailles de fichiers identiques aux quants Q avec une divergence KL nettement meilleure, au prix d'une légère baisse de performance. Leur création reste assez lente.</p>\n<h2>Et maintenant ?</h2>\n<p>Les trois fils de cette semaine dessinent un même déplacement : le code et les modèles circulent plus librement qu'avant — un jeu de 2000 réimplémenté en ouvert, un MoE de 501 milliards de paramètres publié sur Hugging Face, des exemptions open source dans le catalogue chinois. Mais les points de contrôle se déplacent eux aussi, vers les identifiants d'accès et les règles d'export. Ce ne sont plus les poids seuls qui font la valeur, ni les seuls binaires qui font la propriété.</p>",
+ "pivot": "f3e9fd38ecde28c4",
+ "tags": [
+  "claude",
+  "dev",
+  "open-source",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1x91lor/rebuilt_a_2000_rts_from_scratch_with_claude_code/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8zj9j/new_quant_types_suggested_iq2_k_iq3_k_iq4_k_iq5_k/"
+  }
+ ],
+ "date": "2026-10-18T12:15:48+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1637,
+  "sortie": 1939
+ }
+}

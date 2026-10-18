@@ -1,5 +1,130 @@
 [
  {
+  "id": "46ce9f01e1393a39",
+  "slug": "mellum2-de-jetbrains-la-communaute-demande-des-retours-d-usage-46ce9f",
+  "titre": "Mellum2 de JetBrains : la communauté demande des retours d'usage",
+  "resume": "Un membre de r/LocalLLaMA a repéré Mellum2, le modèle de JetBrains, sur Hugging Face, et interroge la communauté : quelqu'un l'a-t-il réellement utilisé ? La question posée est simple — le modèle vaut-il le détour ou n'a-t-il rien de particulier ? Le fil ne contient pour l'instant aucun retour d'expérience, seulement la sollicitation.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x91ou3/mellum2_model_from_jetbrains/",
+  "date_source": "2026-10-18T12:10:56+00:00",
+  "date_redac": "2026-10-18T12:15:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 639,
+   "sortie": 581
+  }
+ },
+ {
+  "id": "f3e9fd38ecde28c4",
+  "slug": "un-rts-de-2000-reconstruit-avec-claude-code-depuis-le-desassemblage-f3e9fd",
+  "titre": "Un RTS de 2000 reconstruit avec Claude Code depuis le désassemblage",
+  "resume": "L'utilisateur ColCarlo99 a refait Tzar: The Burden of the Crown (2000) en Rust avec le moteur Bevy, en s'appuyant sur Claude Code. Son flux de travail : le modèle lit le désassemblage de l'exécutable original et porte les systèmes un par un — combat, IA, générateur de cartes, scripts de mission — pendant que le développeur compare avec le jeu d'origine et signale les écarts. Plus de 600 tests et des notes de mémoire entre sessions limitent la dérive sur la durée. Le projet, gratuit et open source, fait tourner campagnes et cartes aléatoires sous Windows 10/11 jusqu'en 4K, mais requiert une copie de Tzar.",
+  "tags": [
+   "claude",
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x91lor/rebuilt_a_2000_rts_from_scratch_with_claude_code/",
+  "date_source": "2026-10-18T12:06:21+00:00",
+  "date_redac": "2026-10-18T12:15:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 772,
+   "sortie": 417
+  }
+ },
+ {
+  "id": "0602573bb0fb42fd",
+  "slug": "muse-spark-atteint-18-tokens-s-sur-un-seul-mac-studio-060257",
+  "titre": "Muse Spark atteint 18 tokens/s sur un seul Mac Studio",
+  "resume": "Muse Spark, un modèle texte, tourne sur un seul Mac Studio et atteint 18 tokens/s en décodage, d'après son auteur. Le débit a depuis légèrement reculé, le temps de piocher dans d'autres arbres de travail ds4. Le code sera publié une fois le fléchissement du prefill corrigé et les 18 t/s retrouvés. Les poids restent verrouillés sur Hugging Face, l'auteur hésitant entre les publier ou partager la recette.",
+  "tags": [
+   "matériel",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x91ky6/muse_spark_on_a_single_mac_studio/",
+  "date_source": "2026-10-18T12:05:13+00:00",
+  "date_redac": "2026-10-18T12:15:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 718,
+   "sortie": 1022
+  }
+ },
+ {
+  "id": "d646cc7d2066d4ce",
+  "slug": "un-jeu-de-peche-et-d-exploration-semaine-12-du-developpement-avec-clau-d646cc",
+  "titre": "Un jeu de pêche et d'exploration, semaine 12 du développement avec Claude",
+  "resume": "Semaine 12 du développement d'un jeu de pêche et d'exploration mené avec Claude. Nouveauté : une mécanique d'exploration — repérer une icône, s'en approcher, appuyer et patienter pour obtenir un objet, une note ou une progression de quête. S'ajoute une scène 3D « Cabinet » où le joueur range ses collections, dont l'« Island Diorama », miniature d'une île visitée, et le « Ship in the bottle ». Démo alpha gratuite.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x91f2n/week_12_of_making_my_fishing_and_exploration_game/",
+  "date_source": "2026-10-18T11:57:05+00:00",
+  "date_redac": "2026-10-18T12:15:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 796,
+   "sortie": 1398
+  }
+ },
+ {
+  "id": "7daadbd093a90526",
+  "slug": "sur-reddit-une-rumeur-sur-la-fin-du-recrutement-de-juniors-techniques--7daadb",
+  "titre": "Sur Reddit, une rumeur sur la fin du recrutement de juniors techniques chez Anthropic",
+  "resume": "Une discussion publiée le 18 octobre 2026 sur le forum r/ClaudeAI affirme qu'Anthropic serait en passe de cesser de recruter des profils techniques juniors dès l'année prochaine. Le fil, ouvert par un utilisateur sous pseudonyme, ne s'appuie dans l'extrait disponible sur aucune annonce officielle de l'entreprise. Aucun chiffre ni document interne n'y est cité.",
+  "tags": [
+   "claude",
+   "société",
+   "dev",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x90vwp/anthropic_is_on_track_to_stop_hiring_technical/",
+  "date_source": "2026-10-18T11:27:05+00:00",
+  "date_redac": "2026-10-18T12:15:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 616,
+   "sortie": 717
+  }
+ },
+ {
+  "id": "6249b3870e25d57a",
+  "slug": "un-utilisateur-de-claude-lance-tout-en-max-effort-par-anxiete-6249b3",
+  "titre": "Un utilisateur de Claude lance tout en « Max Effort » par anxiété",
+  "resume": "Sur r/ClaudeAI, un utilisateur explique régler systématiquement Claude sur « Max Effort », par crainte qu'un niveau medium ou high donne un résultat moins bon. Il épuise son plan Max 20x en trois jours, mais préfère cela au doute sur la qualité du travail rendu. Le contexte : une activité e-commerce à sept chiffres, où les réponses du modèle pèsent directement sur des décisions qui touchent à l'argent.",
+  "tags": [
+   "claude",
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x8zjox/i_run_everything_on_max_effort_because_i_have/",
+  "date_source": "2026-10-18T10:06:47+00:00",
+  "date_redac": "2026-10-18T12:15:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 690,
+   "sortie": 395
+  }
+ },
+ {
   "id": "400c76e98220fe40",
   "slug": "de-nouveaux-types-de-quantification-iq-k-proposes-pour-llama-cpp-400c76",
   "titre": "De nouveaux types de quantification IQ_K proposés pour llama.cpp",

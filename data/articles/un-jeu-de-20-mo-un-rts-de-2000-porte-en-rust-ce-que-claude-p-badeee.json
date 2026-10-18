@@ -1,0 +1,41 @@
+{
+ "slug": "un-jeu-de-20-mo-un-rts-de-2000-porte-en-rust-ce-que-claude-p-badeee",
+ "titre": "Un jeu de 20 Mo, un RTS de 2000 porté en Rust : ce que Claude produit vraiment",
+ "chapo": "Un jeu de navigateur de 20 Mo dont 99 % du code et du contenu sortent d'Opus ; un RTS de l'an 2000 reconstruit en Rust depuis le désassemblage de son exécutable. Deux projets montrent ce que produit un modèle quand on le laisse tourner des semaines. Côté local, Volundr 32B corrige ses boucles et llama.cpp examine de nouveaux quants.",
+ "html": "<h2 id=\"mecha-royale-20-mo-une-semaine-de-boucle\">Mecha Royale : 20 Mo, une semaine de boucles</h2>\n<p><strong>Mecha Royale</strong> tient dans 20 Mo. Environ 99 % du code et du contenu du jeu ont été produits avec Opus, en quatre mois — sons et musiques compris, ces derniers passant par ElevenLabs et Suno. Les modèles et animations des pilotes, des mechas et des bâtiments sont générés procéduralement, via des boucles qui ont tourné une semaine sans interruption.</p>\n<p>Le résultat annoncé : une carte d'un rayon d'environ 15 km réunissant des millions d'objets dans ces 20 Mo, un jeu qui tourne dans le navigateur et se joue en multijoueur. La contrainte technique est ici moins le rendu que la densité : faire tenir une carte de cette taille dans un poids que le navigateur avale.</p>\n<p>L'intérêt du post tient à la méthode autant qu'au résultat. La génération procédurale n'est pas lancée à la main, objet par objet : elle tourne en continu pendant des jours, et c'est le volume produit qui rend le jeu habitable.</p>\n<h2 id=\"tzar-porter-un-jeu-de-2000-depuis-le-des\">Tzar : porter un jeu de 2000 depuis le désassemblage</h2>\n<p>Autre registre, autre méthode. L'utilisateur <strong>ColCarlo99</strong> a refait <em>Tzar: The Burden of the Crown</em> (2000) en Rust avec le moteur Bevy, en s'appuyant sur Claude Code. Le point de départ n'est pas une page blanche mais le désassemblage de l'exécutable original : le modèle le lit et porte les systèmes un par un — combat, IA, générateur de cartes, scripts de mission — pendant que le développeur compare avec le jeu d'origine et signale les écarts.</p>\n<p>La différence avec Mecha Royale tient à la durée et au contrôle. Ici, plus de 600 tests et des notes de mémoire entre sessions servent à limiter la dérive sur un chantier qui s'étale : le modèle reprend là où il s'était arrêté, et les tests disent ce qui a cassé.</p>\n<p>Le projet est gratuit et open source. Il fait tourner campagnes et cartes aléatoires sous Windows 10/11 jusqu'en 4K, mais réclame une copie de Tzar — le portage ne remplace pas l'original, il le rejoue avec un autre moteur.</p>\n<h2 id=\"cote-local-moins-de-boucles-des-quants-p\">Côté local : moins de boucles, des quants plus fins</h2>\n<p>Sur r/LocalLLaMA, <strong>Volundr 32B v1</strong> arrive deux semaines après une Preview très critiquée. L'équipe Blockway annonce que les boucles de répétition sur les tâches SWE-bench passent de 36/50 à 0/50, et que l'étape de raisonnement médiane tombe à 120 tokens, avec un maximum à 12K. Le build SGLang ajoute la continuation de session : les tours suivants réutilisent l'état du modèle au lieu de refaire le préremplissage, pour un gain de 2,9× sur leur rejeu d'agent. Côté GGUF, c'est le cache de prompt `--ctx-checkpoints` de llama-server qui est utilisé.</p>\n<p>Toujours sur le même subreddit, une proposition soumise à <strong>llama.cpp</strong> ajoute cinq types de quantification, d'IQ2_K à IQ6_K. Testés pour l'instant sur un seul modèle, ils afficheraient des tailles de fichiers identiques à celles des quants Q, avec une divergence KL nettement meilleure — au prix d'une légère baisse de performance. Leur création reste toutefois assez lente, ce qui en fait pour l'heure une piste plus qu'un remplacement.</p>\n<h2 id=\"anthropic-a-2-000-milliards-face-a-35-ed\">Anthropic à 2 000 milliards face à 35 éditeurs de SaaS</h2>\n<p>Un post de r/ClaudeAI pose une comparaison sèche : la valorisation d'<strong>Anthropic</strong>, 2 000 milliards de dollars, contre les 948 milliards que pèsent 35 sociétés de SaaS. Ces 35 entreprises — Salesforce, Adobe, SAP, ServiceNow et Intuit en tête — totalisent 53,4 milliards de chiffre d'affaires trimestriel, quand Anthropic en déclare 11,5.</p>\n<p>L'auteur du post s'interroge sur cet écart entre valorisation et revenus. Le multiple n'est pas la seule lecture possible : d'un côté un éditeur de modèles en croissance, de l'autre un ensemble d'acteurs installés dont les revenus sont déjà là. Mais le rapprochement a le mérite de chiffrer ce que le marché anticipe.</p>\n<h2>Et maintenant ?</h2>\n<p>Les deux projets de jeux décrivent une même bascule : le modèle n'est plus seulement un assistant qui répond, mais un exécutant qu'on laisse tourner — une semaine de boucles pour Mecha Royale, plus de 600 tests pour tenir un portage dans la durée. Volundr et les quants IQ_K montrent que le camp local avance sur les mêmes critères : moins de répétitions, moins de tokens gaspillés, des fichiers plus compacts. Reste la comparaison du post sur Anthropic, où 2 000 milliards de valorisation font face à 948 milliards de SaaS pour 11,5 milliards de revenus trimestriels contre 53,4.</p>",
+ "pivot": "badeeef0665d846f",
+ "tags": [
+  "claude",
+  "dev",
+  "open-source",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8602z/procedural_generation_with_opus_is_insane_this/"
+  },
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1x9ain3/anthropic_at_2_trillion_vs_35_saas_companies_at/"
+  },
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1x91lor/rebuilt_a_2000_rts_from_scratch_with_claude_code/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8zj9j/new_quant_types_suggested_iq2_k_iq3_k_iq4_k_iq5_k/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8yc8d/agens_volundr_32b_v1_we_fixed_what_you_flagged_in/"
+  }
+ ],
+ "date": "2026-10-18T19:22:10+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1725,
+  "sortie": 4154
+ }
+}

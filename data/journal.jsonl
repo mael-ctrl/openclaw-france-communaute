@@ -2217,3 +2217,10 @@
 {"ts": "2026-10-18T00:10:06+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "b8f8a3061efefb8cbe487714f7111e4982bc17d2c45d0cf9c4bb3e8f1b46dc54"}
 {"ts": "2026-10-18T00:10:06+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-18.json", "publications": 1065}, "sha256": "74ff43593a7d2fcc07ad3706069fd8b5d4c904e4c072f56a07d03c477f0b78a5"}
 {"ts": "2026-10-18T00:10:06+00:00", "evenement": "bilan", "details": {"duree_s": 1065.6, "neufs": 1, "breves": 1, "articles": 1, "fichiers": 677, "envois": 702, "publications": 4}, "sha256": "36b85acab6a858adc3a027eec0debfab8717b7d869bf029818d96ce5a7aac561"}
+{"ts": "2026-10-18T01:07:51+00:00", "evenement": "collecte", "details": {"neufs": 1}, "sha256": "5b94633a52d93996e2b0f50da70789fcbf64f40e6bf8daeb0673ad4c082f32bf"}
+{"ts": "2026-10-18T01:08:04+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Basalt: NVFP4 + faster prefill for Qwen3.8 Flash-Next on Bla) : réponse non-JSON"}, "sha256": "ab41eeb051019e776cab34b0f1633cc2c52c71a6e57b19603ee6d9491e53d13c"}
+{"ts": "2026-10-18T01:08:31+00:00", "evenement": "construction", "details": {"fichiers": 679}, "sha256": "56fe3d98c5a2adcb3bb480261adf06d4a103ec8f4f5f79865b4a05c11693097c"}
+{"ts": "2026-10-18T01:21:04+00:00", "evenement": "deploiement", "details": {"fichiers": 704, "octets": 14694736}, "sha256": "09750b1f5da9ea76ff9c038996ead192e63531f1f1243fd360ae43ecf876f24d"}
+{"ts": "2026-10-18T01:21:05+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "2e9941d604afeca943bb3e9303b485fc0071ae839c95c5a169faeda115c21763"}
+{"ts": "2026-10-18T01:21:15+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "e0f969b31a4b7dd0287bf8a567a4503dd0492f929c12cdc612bf4d6d99cc3380"}
+{"ts": "2026-10-18T01:21:15+00:00", "evenement": "bilan", "details": {"duree_s": 817.0, "neufs": 1, "breves": 0, "articles": 1, "fichiers": 679, "envois": 704, "publications": 4}, "sha256": "bff19da86b43e0f98be99fc943c3d767e1afc8a3ab451f2fb0a590fa0d35b91e"}

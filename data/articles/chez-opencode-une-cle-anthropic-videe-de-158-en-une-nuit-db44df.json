@@ -1,0 +1,41 @@
+{
+ "slug": "chez-opencode-une-cle-anthropic-videe-de-158-en-une-nuit-db44df",
+ "titre": "Chez OpenCode, une clé Anthropic vidée de 158 $ en une nuit",
+ "chapo": "Une clé Anthropic stockée dans une console tierce et jamais utilisée a suffi à vider un solde de 158 $ pendant la nuit, avant toute notification. En parallèle, Reflection publie un modèle ouvert de 501 milliards de paramètres et Pékin propose de cadrer l'export de 23 technologies IA, open source exempté.",
+ "html": "<h2 id=\"une-cle-au-repos-un-solde-a-zero\">Une clé au repos, un solde à zéro</h2>\n<p>OpenCode a prévenu ses utilisateurs par e-mail le 17 octobre : un accès non autorisé a touché <strong>un ancien système de sa console</strong>, l'exposition démarrant le 17 octobre à 00h30 UTC. Le détail qui rend l'affaire désagréable, c'est ce que rapporte un utilisateur sur r/ClaudeAI. Sa clé Anthropic, stockée uniquement dans cette console et jamais utilisée auparavant, a servi pendant la nuit à des appels Opus. Au réveil, le solde affichait zéro, contre 158 $ la veille, et ce avant toute notification.</p>\n<p>Autrement dit, la clé n'a pas fuité via du code applicatif ou un dépôt public : elle dormait dans un service tiers, et c'est ce service qui a été atteint. Les clés OpenAI et Google enregistrées dans la même console sont également concernées, ce qui élargit le périmètre bien au-delà d'Anthropic.</p>\n<h2 id=\"qui-paie-les-tokens-brules-par-un-autre\">Qui paie les tokens brûlés par un autre</h2>\n<p>La question du remboursement reste ouverte. Dans une première réponse, Anthropic indique que les crédits consommés ne sont <strong>généralement pas remboursables</strong>. OpenCode, de son côté, dit discuter avec les fournisseurs d'un dédommagement. Rien n'est arbitré publiquement à ce stade.</p>\n<p>Cette histoire de clés recoupe une question plus large, posée par <em>L'Usine Digitale</em> : Bruxelles peut-elle contrôler la sécurité des modèles avant leur commercialisation ? Les incidents provoqués par des agents d'OpenAI et d'Anthropic donnent à cette interrogation une portée concrète, alors que l'AI Act encadre la mise sur le marché des modèles. Le règlement parle de modèles ; les incidents, eux, arrivent par des agents et des identifiants.</p>\n<h2 id=\"beam-501-milliards-sur-l-etiquette-23-en\">Beam : 501 milliards sur l'étiquette, 23 en travail</h2>\n<p>Reflection publie <strong>Beam</strong>, un modèle ouvert texte-texte en architecture mixture-of-experts sparse : 501 milliards de paramètres au total, 23 milliards activés, et une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en BF16, FP8 et NVFP4. Le modèle est développé surtout pour l'anglais, avec trois cibles annoncées : un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques.</p>\n<p>À l'autre bout de l'échelle, <strong>Openspline</strong> ajoute une couche d'avatar aux agents vocaux existants. On choisit une image, le projet génère une vidéo d'avatar parlant en temps réel, synchronisation labiale comprise, calculée en local sur la GPU. L'intégration à un agent vocal tiendrait en cinq lignes de code, et le modèle lite dépasserait les 90 FPS sur une RTX 4090. Le projet est publié sur GitHub avec une démo en ligne, à un stade très précoce.</p>\n<h2 id=\"pekin-liste-23-technologies-ia-l-open-so\">Pékin liste 23 technologies IA, l'open source passe à côté</h2>\n<p>Le 16 octobre 2026, Pékin a proposé de réviser le catalogue des technologies restreintes à l'export : <strong>40 ajouts, dont 23 liés à l'IA</strong> — grands modèles, agents, clusters de calcul. Les technologies déjà rendues publiques via l'open source ou des publications académiques sont explicitement exemptées. La consultation publique court jusqu'au 15 novembre, et l'enregistrement préalable à l'export s'applique déjà.</p>\n<p>La ligne de partage esquissée porte donc sur ce qui est publié ou non. Un modèle à poids ouverts comme Beam et un projet sur GitHub comme Openspline ne relèvent pas du même régime qu'un modèle gardé derrière une API.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dépêches, un même déplacement du regard : là où l'on commentait des modèles, on finit par examiner des clés, des poids et la machine qui calcule. Une clé oubliée dans une console tierce coûte 158 $ en une nuit ; un modèle ouvert de 501 milliards de paramètres se télécharge ; un catalogue d'export exempte ce qui est déjà public. Le contrôle, lui, se joue de plus en plus en amont, dans les identifiants, les architectures et les listes de technologies.</p>",
+ "pivot": "db44df239dd6f133",
+ "tags": [
+  "sécurité",
+  "open-source",
+  "agents",
+  "claude"
+ ],
+ "sources": [
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8o35r/psa_opencode_breach_my_stored_anthropic_key_was/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/lue-peut-elle-controler-les-modeles-dintelligence-artificielle-avant-leur-commercialisation-les-intrusions-provoquees-par-des-agents-ia-mettent-lai-act-a-lepreuve.V25T6MKNZ5GQHATLU4TK65WFAA.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8oqng/openspline_host_a_realtime_talking_avatar_on_a/"
+  }
+ ],
+ "date": "2026-10-18T01:08:25+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1715,
+  "sortie": 4389
+ }
+}

@@ -2224,3 +2224,10 @@
 {"ts": "2026-10-18T01:21:05+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "2e9941d604afeca943bb3e9303b485fc0071ae839c95c5a169faeda115c21763"}
 {"ts": "2026-10-18T01:21:15+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "e0f969b31a4b7dd0287bf8a567a4503dd0492f929c12cdc612bf4d6d99cc3380"}
 {"ts": "2026-10-18T01:21:15+00:00", "evenement": "bilan", "details": {"duree_s": 817.0, "neufs": 1, "breves": 0, "articles": 1, "fichiers": 679, "envois": 704, "publications": 4}, "sha256": "bff19da86b43e0f98be99fc943c3d767e1afc8a3ab451f2fb0a590fa0d35b91e"}
+{"ts": "2026-10-18T02:16:32+00:00", "evenement": "collecte", "details": {"neufs": 3}, "sha256": "a88d850875afc5d9345df7834598924458cb759f49e7ebb15a63334a838ea703"}
+{"ts": "2026-10-18T02:16:49+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Nine models, five coding tasks, one 16GB GPU) : réponse non-JSON"}, "sha256": "f32e7dd2b05820e99c9b6bd27167ef9c317176e6d380983a991edf360f25004a"}
+{"ts": "2026-10-18T02:17:18+00:00", "evenement": "construction", "details": {"fichiers": 680}, "sha256": "f725e9d7970fd0c29517c014a8c3a71a279b89d0bd423f3f3b41359160474421"}
+{"ts": "2026-10-18T02:30:07+00:00", "evenement": "deploiement", "details": {"fichiers": 706, "octets": 14759816}, "sha256": "82628cdfd5a07e4af9e25d41f6fcd058bb11f9dcdc674113cf657caf18895712"}
+{"ts": "2026-10-18T02:30:08+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "6d9803851d30f7c6f2e6179dbf6f54e30a00632f30acca1f58e7762723da7765"}
+{"ts": "2026-10-18T02:30:18+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "9bca67552239f3a05ec2430713d45057a734a45e9d07b64cd65c481de4010d84"}
+{"ts": "2026-10-18T02:30:18+00:00", "evenement": "bilan", "details": {"duree_s": 844.8, "neufs": 3, "breves": 2, "articles": 1, "fichiers": 680, "envois": 706, "publications": 4}, "sha256": "9057a8b9d2a4aef15e9322ac3e54270ce64ce531b66ac18abab707d6545f57bf"}

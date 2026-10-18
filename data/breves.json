@@ -1,5 +1,26 @@
 [
  {
+  "id": "93c97b1657bf4934",
+  "slug": "muse-spark-open-816b-a42b-atteint-4-tokens-s-sur-256-go-de-memoire-93c97b",
+  "titre": "Muse Spark Open 816B-A42B atteint 4 tokens/s sur 256 Go de mémoire",
+  "resume": "Un utilisateur de r/LocalLLaMA rapporte avoir fait tourner pour la première fois Muse Spark Open 816B-A42B sur une machine disposant de 256 Go de mémoire, avec un débit de 4 tokens par seconde en phase de décodage. Il espère multiplier ce chiffre par 4 ou 5 et prévoit d'augmenter la taille des chunks de prefill, sans compter sur des gains aussi marqués de ce côté. Le résultat illustre le plafond de vitesse rencontré quand on fait tourner un très gros modèle en local.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8qvaj/muse_spark_on_m3u_256_gb/",
+  "date_source": "2026-10-18T01:35:44+00:00",
+  "date_redac": "2026-10-18T02:16:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 710,
+   "sortie": 619
+  }
+ },
+ {
   "id": "867676b22019fd3e",
   "slug": "openspline-un-avatar-parlant-en-temps-reel-genere-en-local-sur-ta-gpu-867676",
   "titre": "Openspline : un avatar parlant en temps réel généré en local sur ta GPU",
@@ -143,6 +164,26 @@
    "modele": "deepseek-flash",
    "entree": 907,
    "sortie": 812
+  }
+ },
+ {
+  "id": "54b9b66ec3df6359",
+  "slug": "document-currentscript-un-script-en-ligne-qui-se-remplace-lui-meme-54b9b6",
+  "titre": "document.currentScript : un script en ligne qui se remplace lui-même",
+  "resume": "Lean Rada détaille une astuce JavaScript qui exploite la propriété document.currentScript : un script en ligne minuscule peut se remplacer lui-même au chargement de la page. Dans l'exemple cité, il affiche l'année courante. En définissant un raccourci comme $=(...n)=>document.currentScript.replaceWith(...n), on obtient un mini langage de gabarit.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+  "date_source": "2026-10-17T21:11:12+00:00",
+  "date_redac": "2026-10-18T02:16:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 695,
+   "sortie": 861
   }
  },
  {

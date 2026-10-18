@@ -1,0 +1,41 @@
+{
+ "slug": "drama-3-sur-une-radeon-de-16-go-le-local-contourne-le-mur-de-1d17ae",
+ "titre": "Drama 3 sur une Radeon de 16 Go : le local contourne le mur de la VRAM",
+ "chapo": "Fish Audio annonce 48 Go de VRAM NVIDIA pour son modèle vocal Drama 3. Un portage maison le fait tourner sur une Radeon de 16 Go. La même semaine, Reflection publie un modèle ouvert de 501 milliards de paramètres et Pékin exempte l'open source de ses contrôles à l'export.",
+ "html": "<h2 id=\"48-go-exiges-16-go-suffisent\">48 Go exigés, 16 Go suffisent</h2>\n<p>Le modèle vocal Drama 3 de Fish Audio réclame officiellement une NVIDIA de 48 Go. Un portage maison, baptisé « Red Curtain » et écrit avec Claude, le fait tourner sur une Radeon RX 9070 de 16 Go.</p>\n<p>La ficelle est connue, mais l'exécution est propre : les experts FP8 — 32 Go au total — restent en RAM système, et seuls ceux réellement utilisés sont mis en cache sur le GPU. Résultat annoncé : 37 secondes de calcul pour 11,6 secondes d'audio généré, avec 11 à 12 Go de VRAM occupés. Une interface web vient par-dessus, avec clonage de voix et scripts multi-locuteurs.</p>\n<p>Pour qui veut faire tourner de la synthèse vocale chez soi, la différence n'est pas anecdotique : elle sépare une carte professionnelle hors de prix d'une carte grand public.</p>\n<h2 id=\"501-milliards-de-parametres-23-actives\">501 milliards de paramètres, 23 activés</h2>\n<p>Reflection publie Beam, un modèle ouvert texte-texte en architecture mixture-of-experts sparse : 501 milliards de paramètres au total, mais 23 milliards activés, pour une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en BF16, FP8 et NVFP4 — trois formats qui laissent de la marge selon le matériel dont tu disposes.</p>\n<p>Le positionnement est explicite : développement surtout en anglais, raisonnement économe en tokens, génie logiciel et usage d'outils agentiques. Autrement dit, un modèle pensé pour les chaînes d'agents, là où chaque token consommé se paie.</p>\n<h2 id=\"un-avatar-qui-parle-calcule-sur-ta-carte\">Un avatar qui parle, calculé sur ta carte</h2>\n<p>Openspline ajoute une couche d'avatar aux agents vocaux existants : tu sélectionnes une image, le projet génère une vidéo d'avatar parlant en temps réel, synchronisation labiale comprise, calculée en local sur la GPU. L'intégration à un agent vocal tiendrait en cinq lignes de code, et le modèle lite dépasserait les 90 FPS sur une RTX 4090.</p>\n<p>Le projet ne remplace pas l'agent vocal, il s'y greffe. Il faut le prendre pour ce qu'il est : un stade très précoce, publié sur GitHub avec une démo en ligne.</p>\n<h2 id=\"export-controls-et-cles-qui-s-evaporent\">Export controls et clés qui s'évaporent</h2>\n<p>Le 16 octobre, Pékin a proposé de réviser son catalogue de technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul. Les technologies déjà rendues publiques via l'open source ou des publications académiques sont explicitement exemptées. La consultation publique court jusqu'au 15 novembre ; l'enregistrement préalable à l'export s'applique déjà.</p>\n<p>Même semaine, côté sécurité : OpenCode a prévenu ses utilisateurs par e-mail le 17 octobre d'un accès non autorisé à un ancien système de sa console, l'exposition ayant débuté le 17 octobre à 00h30 UTC. Un utilisateur rapporte que sa clé Anthropic — stockée uniquement là, jamais utilisée auparavant — a servi pendant la nuit à des appels Opus, faisant tomber son solde de 158 $ à zéro avant toute notification. Anthropic indique dans une première réponse que les crédits consommés ne sont généralement pas remboursables ; OpenCode dit discuter avec les fournisseurs d'un dédommagement. Les clés OpenAI et Google enregistrées dans la console sont également concernées.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois des cinq dépêches racontent la même histoire sous des angles différents : la contrainte n'est plus seulement le calcul, c'est la mémoire et le coût par token. Le portage de Drama 3 déplace les experts hors du GPU, Beam n'active que 23 milliards de paramètres sur 501, Openspline vise 90 FPS sur une carte grand public. Le matériel reste le mur ; l'ingénierie consiste à passer à côté. Les clés API, elles, ne se mettent pas en cache en RAM système.</p>",
+ "pivot": "1d17ae53d7c4902a",
+ "tags": [
+  "open-source",
+  "matériel",
+  "sécurité",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8kces/fish_audio_drama_3_says_it_needs_a_48_gb_nvidia/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8oqng/openspline_host_a_realtime_talking_avatar_on_a/"
+  },
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1x8o35r/psa_opencode_breach_my_stored_anthropic_key_was/"
+  }
+ ],
+ "date": "2026-10-18T02:17:12+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1706,
+  "sortie": 3835
+ }
+}

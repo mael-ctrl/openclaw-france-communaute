@@ -1,0 +1,41 @@
+{
+ "slug": "quants-iq-k-beam-501b-controle-export-l-open-source-sous-ten-400c76",
+ "titre": "Quants IQ_K, Beam 501B, contrôle export : l'open source sous tension",
+ "chapo": "Cinq types de quantification IQ_K proposés pour llama.cpp, un modèle MoE ouvert de 501 milliards de paramètres chez Reflection, et Pékin qui veut encadrer l'export de 23 technologies IA tout en exemptant l'open source. À côté, Meta élargit ses termes et OpenCode confirme une fuite de clés API.",
+ "html": "<h2 id=\"llama-cpp-cinq-quants-iq-k-sur-la-table\">llama.cpp : cinq quants IQ_K sur la table</h2>\n<p>Une proposition soumise à llama.cpp ajoute cinq types de quantification : <strong>IQ2_K, IQ3_K, IQ4_K, IQ5_K et IQ6_K</strong>. Le point notable, c'est le compromis annoncé : des tailles de fichiers identiques à celles des quants Q, mais une <strong>divergence KL nettement meilleure</strong>, au prix d'une légère baisse de performance.</p>\n<p>Deux réserves accompagnent la proposition. Les tests n'ont pour l'instant porté que sur <strong>un seul modèle</strong>, ce qui reste mince pour juger d'un comportement général. Et la création de ces quants demeure <strong>assez lente</strong> — un détail qui compte quand on empile les variantes.</p>\n<p>Rien n'indique encore de calendrier de fusion ni de validation plus large. En l'état, c'est une piste à suivre pour qui fait tourner des modèles en local et arbitre en permanence entre taille sur disque et qualité de sortie.</p>\n<h2 id=\"reflection-beam-501b-au-total-23b-active\">Reflection Beam : 501B au total, 23B activés</h2>\n<p>Reflection publie <strong>Beam</strong>, un modèle ouvert texte-texte en architecture mixture-of-experts sparse : <strong>501 milliards de paramètres au total, 23 milliards activés</strong>, pour une fenêtre de contexte d'<strong>un million de tokens</strong>. La version instruction-tuned sort en trois formats : BF16, FP8 et NVFP4.</p>\n<p>Les cibles annoncées sont explicites : un raisonnement <strong>économe en tokens</strong>, le génie logiciel et l'usage d'<strong>outils agentiques</strong>. Le modèle est surtout développé pour l'anglais, ce qui limite d'emblée la portée pour un usage francophone.</p>\n<p>Le rapport entre paramètres totaux et paramètres activés place Beam dans la famille des MoE dits sparse, où seule une fraction du réseau travaille à chaque token. C'est ce qui rend le nom « 501B » trompeur si on le lit comme un coût d'inférence.</p>\n<h2 id=\"pekin-liste-23-technologies-ia-a-control\">Pékin liste 23 technologies IA à contrôler, l'open source exempté</h2>\n<p>Le <strong>16 octobre 2026</strong>, Pékin a proposé de réviser le catalogue des technologies restreintes à l'export : <strong>40 ajouts, dont 23 liés à l'IA</strong> — grands modèles, agents, clusters de calcul. La consultation publique court <strong>jusqu'au 15 novembre</strong>.</p>\n<p>La nuance importante figure dans le texte : les technologies <strong>déjà rendues publiques</strong> via l'open source ou des publications académiques sont <strong>explicitement exemptées</strong>. Autrement dit, la publication ouverte reste une porte de sortie, ce qui n'est pas neutre pour les labos chinois qui diffusent leurs poids.</p>\n<p>À noter que l'enregistrement préalable à l'export, lui, <strong>s'applique déjà</strong> : la proposition de révision ne part pas d'une page blanche administrativement. Elle ajoute des lignes à un dispositif en vigueur.</p>\n<h2 id=\"meta-et-opencode-les-donnees-d-un-cote-l\">Meta et OpenCode : les données d'un côté, les clés de l'autre</h2>\n<p>Les nouveaux termes de <strong>Meta</strong>, en vigueur le <strong>30 octobre</strong>, semblent autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, <strong>y compris les éditeurs en ligne</strong>, selon un rapport de <strong>Nieman Lab</strong>. Meta pourrait ensuite exploiter ce contenu externe pour « développer, améliorer, rechercher » et « entraîner ». Le conditionnel reste de mise : il s'agit d'une lecture des termes, pas d'une annonce d'entraînement effectif.</p>\n<p>Côté sécurité, <strong>OpenCode</strong>, agent de programmation open source, a confirmé <strong>samedi 17 octobre</strong> une intrusion ayant pu exposer les clés API <strong>OpenAI, Anthropic et Google</strong> de <strong>1,4 % des utilisateurs</strong> de sa Console. L'entreprise relie l'incident à une « <strong>attaque par distillation</strong> », méthode consistant à exploiter un modèle pour en entraîner un autre. Des victimes signalent déjà des frais de <strong>plusieurs centaines de dollars</strong>.</p>\n<p>Les deux affaires n'ont pas de lien entre elles, mais elles dessinent les deux extrémités du même fil : d'un côté la matière première — pages web, textes — que l'on veut capter ; de l'autre les clés d'accès aux modèles, que l'on revend ou que l'on détourne.</p>\n<h2>Et maintenant ?</h2>\n<p>Sur les quatre dépêches, trois concernent des ressources que quelqu'un cherche à cadrer : les poids (quantifications plus fines, MoE sparse àDiffusion ouverte), les technologies (catalogue d'export chinois avec exemption open source) et les contenus (termes Meta). La quatrième montre ce qui arrive quand l'accès fuit : 1,4 % des utilisateurs d'OpenCode, des clés OpenAI, Anthropic et Google possiblement exposées, et des factures à trois chiffres. Le mouvement général va vers plus de modèles ouverts, donc plus de surface à protéger.</p>",
+ "pivot": "400c76e98220fe40",
+ "tags": [
+  "open-source",
+  "sécurité",
+  "meta",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8zj9j/new_quant_types_suggested_iq2_k_iq3_k_iq4_k_iq5_k/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  }
+ ],
+ "date": "2026-10-18T10:56:49+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1554,
+  "sortie": 2201
+ }
+}

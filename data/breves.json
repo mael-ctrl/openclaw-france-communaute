@@ -1,5 +1,26 @@
 [
  {
+  "id": "400c76e98220fe40",
+  "slug": "de-nouveaux-types-de-quantification-iq-k-proposes-pour-llama-cpp-400c76",
+  "titre": "De nouveaux types de quantification IQ_K proposés pour llama.cpp",
+  "resume": "Une proposition soumise à llama.cpp ajoute cinq types de quantification — IQ2_K à IQ6_K — pour l'instant testés sur un seul modèle. Leurs tailles de fichiers seraient identiques à celles des quants Q, avec une divergence KL nettement meilleure, au prix d'une légère baisse de performance. Leur création reste toutefois assez lente.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8zj9j/new_quant_types_suggested_iq2_k_iq3_k_iq4_k_iq5_k/",
+  "date_source": "2026-10-18T10:06:03+00:00",
+  "date_redac": "2026-10-18T10:56:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 741,
+   "sortie": 424
+  }
+ },
+ {
   "id": "8b7503bc0204439b",
   "slug": "la-barre-de-son-samsung-hw-q600h-perd-100-chez-darty-8b7503",
   "titre": "La barre de son Samsung HW-Q600H perd 100 € chez Darty",

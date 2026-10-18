@@ -116,6 +116,18 @@ def charger_episodes(racine):
             'duree_secondes': entree['durée'], 'publie_le': entree.get('publie_le'),
         }
         valider_metadonnees(episode)
+        if 'script' in entree:
+            chemin_script = entree['script']
+            if not isinstance(chemin_script, str) or not re.fullmatch(
+                    r'contenus/podcast/[0-9]{4}-[0-9]{2}-[0-9]{2}/script\.txt', chemin_script):
+                raise ValueError('Script attendu sous contenus/podcast/AAAA-MM-JJ/script.txt')
+            script = racine / chemin_script
+            if script.resolve() != script:
+                raise ValueError('Liens symboliques interdits pour les scripts')
+            texte = script.read_text(encoding='utf-8')
+            if not texte.strip():
+                raise ValueError('Le script déclaré ne doit pas être vide')
+            episode['texte'] = texte
         episodes.append(episode)
     episodes.sort(key=lambda e: (e['date'], e['id']), reverse=True)
     episodes.append(pilote)
@@ -177,6 +189,12 @@ def carte_episode(episode, base):
     statut = ('Épisode éditorial' if 'id' in episode else
               'Un pilote de format, pas un épisode éditorial d’actualité.')
     libelle = 'l’épisode' if 'id' in episode else 'le pilote'
+    lecture = ''
+    if episode.get('texte'):
+        lecture = ('<details><summary>Lire le texte de l’épisode</summary>'
+                   '<p>Script éditorial utilisé pour la voix synthétique, '
+                   'pas une transcription synchronisée.</p>'
+                   f'<div class="podcast-script">{escape(episode["texte"])}</div></details>')
     return f'''<article id="{identifiant}" class="prose">
     <p class="oeil">{statut}</p>
     <h2 id="ecoute-{identifiant}">{titre}</h2>
@@ -189,6 +207,7 @@ def carte_episode(episode, base):
     <p>MP3 · durée mesurée : {duree} s · {taille} octets.</p>
     <p>{publication}</p>
     <p><a href="{audio}" download>Télécharger {libelle} (MP3)</a></p>
+    {lecture}
   </article>'''
 
 
@@ -209,7 +228,7 @@ def page_ecoute(episodes, url_site):
   <link rel="alternate" type="application/rss+xml" title="La Brève du Crabe — Podcast" href="/podcast/feed.xml">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/style.css">
-  <style>audio {{display:block;width:100%;max-width:100%;margin:1.25rem 0}} .podcast-liens {{display:flex;flex-wrap:wrap;gap:1rem}} .podcast-page {{overflow-wrap:anywhere}} .podcast-page > header, .podcast-page > footer {{padding-inline:22px}} .podcast-page article {{padding-block:2rem;border-top:1px solid currentColor}}</style>
+  <style>audio {{display:block;width:100%;max-width:100%;margin:1.25rem 0}} .podcast-liens {{display:flex;flex-wrap:wrap;gap:1rem}} .podcast-page {{overflow-wrap:anywhere}} .podcast-page > header, .podcast-page > footer {{padding-inline:22px}} .podcast-page article {{padding-block:2rem;border-top:1px solid currentColor}} .podcast-script {{white-space:pre-wrap}} .podcast-page summary {{cursor:pointer}}</style>
 </head>
 <body class="podcast-page">
 <a class="saut" href="#contenu">Aller au contenu</a>

@@ -14,7 +14,8 @@ import podcast
 class PodcastIndexTest(unittest.TestCase):
     def index_temp(self, root, entries):
         import shutil
-        (root / 'contenus/podcast').mkdir(parents=True, exist_ok=True)
+        # L’index réel peut déclarer un script : copier ses dépendances de contenu.
+        shutil.copytree(ROOT / 'contenus/podcast', root / 'contenus/podcast', dirs_exist_ok=True)
         if not (root / 'assets/podcast').exists():
             shutil.copytree(ROOT / 'assets/podcast', root / 'assets/podcast')
         (root / 'contenus/podcast/episodes.json').write_text(json.dumps(entries), encoding='utf-8')

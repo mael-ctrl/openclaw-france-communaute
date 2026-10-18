@@ -1,0 +1,41 @@
+{
+ "slug": "nvidia-dement-l-arret-de-la-rtx-5090-le-web-se-referme-sur-l-fb5608",
+ "titre": "Nvidia dément l'arrêt de la RTX 5090, le web se referme sur les agents",
+ "chapo": "Nvidia dément l'arrêt de la RTX 5090 par la voix de Jeff Fisher. Au même moment, des sites ferment leurs portes aux agents IA, Meta s'autorise à aspirer la presse et Pékin encadre 23 technologies IA à l'export, open source excepté.",
+ "html": "<h2 id=\"rtx-5090-nvidia-coupe-court-aux-rumeurs\">RTX 5090 : Nvidia coupe court aux rumeurs</h2>\n<p>Nvidia a officiellement démenti les rumeurs d'arrêt de la RTX 5090. La carte continuera d'être expédiée. C'est Jeff Fisher, vice-président senior en charge du calcul personnel, qui a clarifié la situation dans un entretien accordé après le RTX Spark Launch Party: Taipei, le 16 octobre 2026.</p>\n<p>Il y dément explicitement les rumeurs de fin de commercialisation apparues récemment. Le démenti porte sur la commercialisation de la carte, et sur elle seule : la dépêche ne fournit ni calendrier de production, ni volumes, ni indication sur l'origine des rumeurs. Pour l'instant, donc, la seule information solide est negative — la carte n'est pas arrêtée.</p>\n<h2 id=\"les-agents-ia-trouvent-portes-closes\">Les agents IA trouvent portes closes</h2>\n<p>Les agents autonomes sont la grande promesse du moment. OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail. Une promesse qui repose sur un postulat simple : avoir accès aux sites.</p>\n<p>Or une partie des sites refuse désormais de les laisser entrer. Sans accès au web, ces agents perdent une bonne part de leur intérêt — l'argument vaut aussi bien pour la réservation que pour le tri du courrier, dès lors que la tâche suppose d'aller chercher l'information quelque part.</p>\n<p>La dépêche ne dit pas combien de sites bloquent, ni selon quelles modalités techniques. Elle constate un mouvement : la porte d'entrée du web n'est pas ouverte par défaut, et les éditeurs ont leur mot à dire sur qui la franchit.</p>\n<h2 id=\"meta-et-les-sites-d-actualite-ce-que-dis\">Meta et les sites d'actualité : ce que disent les nouveaux termes</h2>\n<p>Les nouveaux termes de Meta entrent en vigueur le 30 octobre. Selon un rapport de Nieman Lab, ils <strong>semblent</strong> autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, y compris les éditeurs en ligne.</p>\n<p>Meta pourrait ensuite utiliser ce contenu externe pour « développer, améliorer, rechercher » et « entraîner ». Le conditionnel reste de mise : la formulation retenue par Nieman Lab décrit une lecture des termes, pas une confirmation de l'entreprise.</p>\n<p>Rapproché du blocage des agents, le sujet dessine deux attitudes opposées face au même web : fermer l'accès, ou s'y servir sans demander. Les deux mouvements sont documentés séparément, et rien n'indique qu'ils procèdent d'une même intention.</p>\n<h2 id=\"pekin-encadre-23-technologies-ia-l-open-\">Pékin encadre 23 technologies IA, l'open source passe</h2>\n<p>Le 16 octobre 2026, Pékin a proposé de réviser le catalogue des technologies restreintes à l'export. Au total, 40 ajouts, dont 23 liés à l'IA : grands modèles, agents, clusters de calcul.</p>\n<p>Point notable : les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées. La consultation publique court jusqu'au 15 novembre, et l'enregistrement préalable à l'export s'applique déjà — la proposition de révision ne crée donc pas l'obligation, elle en élargit le périmètre.</p>\n<p>Côté français, Mistral a bouclé sa quatrième acquisition en huit mois, selon Maddyness, qui a publié l'information le 16 octobre 2026. Le détail de l'opération et l'identité de l'entreprise rachetée ne sont pas précisés dans l'extrait disponible : on sait le rythme, pas la cible.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, une même journée, et une ligne de partage qui se dessine autour de l'accès. D'un côté, ceux qui contrôlent ce qui entre : les sites qui refusent les agents, Pékin qui liste ce qui peut sortir, l'open source qui échappe à la liste parce qu'il est déjà dehors. De l'autre, ceux qui voudraient entrer sans frapper, comme Meta avec les contenus de la presse. Entre les deux, Nvidia et Mistral rappellent que le matériel et les rachats continuent leur route, indifférents aux débats d'accès.</p>",
+ "pivot": "fb560849be182486",
+ "tags": [
+  "matériel",
+  "agents",
+  "meta",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x88txd/nvidia_has_officially_confirmed_that_the_5090_is/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/10/16/mistral-realise-sa-quatrieme-acquisition-en-huit-mois/"
+  }
+ ],
+ "date": "2026-10-18T05:47:02+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1497,
+  "sortie": 2944
+ }
+}

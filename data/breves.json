@@ -1,5 +1,67 @@
 [
  {
+  "id": "73cc908822bf8de8",
+  "slug": "technics-eah-a1000-un-casque-a-449-euros-face-a-sony-et-bose-73cc90",
+  "titre": "Technics EAH-A1000 : un casque à 449 euros face à Sony et Bose",
+  "resume": "Technics revient sur le segment des casques sans fil haut de gamme avec l'EAH-A1000, un circum-aural vendu 449 euros. Il embarque des haut-parleurs à fluide magnétique issus de la hi-fi, une réduction de bruit active adaptative et une connectivité multipoint à trois appareils. Le son est annoncé haute résolution, l'autonomie généreuse. 01net l'a testé face à Sony et Bose.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/tests/test-technics-eah-a1000-avis.html",
+  "date_source": "2026-10-18T05:19:55+00:00",
+  "date_redac": "2026-10-18T05:46:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 720,
+   "sortie": 858
+  }
+ },
+ {
+  "id": "9440c234c6c56e4b",
+  "slug": "qwen-4-un-utilisateur-espere-des-modeles-moins-gourmands-en-raisonneme-9440c2",
+  "titre": "Qwen 4 : un utilisateur espère des modèles moins gourmands en raisonnement",
+  "resume": "Sur r/LocalLLaMA, un utilisateur se demande si les futurs modèles Qwen 4 seront moins bavards dans leur raisonnement. Aucune date de sortie n'a été annoncée, mais la communauté espère une arrivée avant Noël. Il fait tourner qwen flash next 3.8 à environ 28 tokens par seconde et constate que l'essentiel part dans le raisonnement. Moins de réflexion à intelligence égale serait la meilleure amélioration possible.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8uqig/what_are_the_odds_qwen_4_models_are_going_to/",
+  "date_source": "2026-10-18T05:09:25+00:00",
+  "date_redac": "2026-10-18T05:46:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 701,
+   "sortie": 1017
+  }
+ },
+ {
+  "id": "1581e37dd039a291",
+  "slug": "un-5070-ti-et-une-vieille-3070-reunis-pour-faire-tourner-qwen-3-6-35b--1581e3",
+  "titre": "Un 5070 Ti et une vieille 3070 réunis pour faire tourner Qwen 3.6 35B-A3B en local",
+  "resume": "Un utilisateur de r/LocalLLaMA décrit son montage : une RTX 5070 Ti à 750 dollars TTC, épaulée par son ancienne 3070 montée hors boîtier sur un riser PCIe, en x1. Ollama et llama.cpp répartissent le modèle sur ces deux GPU sans difficulté, le découpage par couches échangeant peu de données entre les cartes. Qwen 3.6 35B-A3B, un MoE à 3B de paramètres actifs, tourne à environ 82 tokens/s en 16k de contexte.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8u6eg/my_5070_ti3070_chimera_build/",
+  "date_source": "2026-10-18T04:37:04+00:00",
+  "date_redac": "2026-10-18T05:46:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 833,
+   "sortie": 1214
+  }
+ },
+ {
   "id": "a307a9f96386be09",
   "slug": "deepseek-v4-1-flash-1017-quantise-pour-dwarfstar-jusqu-a-20-t-s-sur-m5-a307a9",
   "titre": "DeepSeek v4.1 Flash 1017 quantisé pour Dwarfstar, jusqu'à 20 t/s sur M5 Max",
@@ -1016,6 +1078,27 @@
    "modele": "deepseek-flash",
    "entree": 660,
    "sortie": 1229
+  }
+ },
+ {
+  "id": "085048c4ca8459e6",
+  "slug": "nvidia-a-investi-8-milliards-de-dollars-en-europe-et-vise-10-milliards-085048",
+  "titre": "Nvidia a investi 8 milliards de dollars en Europe, et vise 10 milliards",
+  "resume": "Nvidia a injecté 8 milliards de dollars dans des entreprises européennes en quelques mois, et prévoit de porter la somme à 10 milliards dès l'an prochain. Le fabricant de puces enchaîne les prises de participation sur le continent, Doctolib compris. Derrière ces investissements, il y a autre chose qu'un simple éparpillement.",
+  "tags": [
+   "business",
+   "matériel",
+   "france"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/pourquoi-nvidia-investit-ses-milliards-de-dollars-un-peu-partout.html",
+  "date_source": "2026-10-17T10:08:59+00:00",
+  "date_redac": "2026-10-18T05:46:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 667,
+   "sortie": 911
   }
  },
  {

@@ -1,5 +1,47 @@
 [
  {
+  "id": "8cedb33f50dae948",
+  "slug": "un-serveur-4x-v620-recycle-en-chauffage-pilote-via-vllm-8cedb3",
+  "titre": "Un serveur 4x V620 recyclé en chauffage piloté via vLLM",
+  "resume": "Un utilisateur de r/LocalLLaMA a publié gpu-furnace-v2, un projet qui transforme son serveur 4x V620 en chauffage d'appoint contrôlé. Le système s'appuie sur un capteur de température de carte mère avec un offset, et met le chauffage en pause quand une inférence est nécessaire. Une page locale protégée par token permet de régler la température cible, que sa compagne peut aussi utiliser. L'ensemble tourne sur un backend vLLM, et l'auteur présente son dépôt comme une démo technique née d'une blague.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8v97a/we_all_joke_about_our_rigs_being_space_heaters_so/",
+  "date_source": "2026-10-18T05:40:13+00:00",
+  "date_redac": "2026-10-18T06:48:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 808,
+   "sortie": 754
+  }
+ },
+ {
+  "id": "bccf413b71b6d830",
+  "slug": "ling-3-1-flash-un-moe-de-560b-reparti-sur-quatre-dgx-spark-via-llama-c-bccf41",
+  "titre": "Ling 3.1 Flash, un MoE de 560B, réparti sur quatre DGX Spark via llama.cpp RPC",
+  "resume": "L'utilisateur sudoing a chargé Ling 3.1 Flash, un MoE de 560B de paramètres dont 25B actifs par token, sur quatre DGX Spark. Faute de build FP4 officiel pour vLLM, il est passé par le GGUF Q4 d'Atomic Chat, distribué sur les quatre machines via llama.cpp RPC. Il attend des débits bridés par la bande passante et veut comparer avec Ling 3.0 Flash (124B) sur la qualité des réponses et le temps d'attente réel.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8v7cp/ling_31_flash_560b_moe_loaded_across_4_dgx_sparks/",
+  "date_source": "2026-10-18T05:37:02+00:00",
+  "date_redac": "2026-10-18T06:48:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 832,
+   "sortie": 646
+  }
+ },
+ {
   "id": "73cc908822bf8de8",
   "slug": "technics-eah-a1000-un-casque-a-449-euros-face-a-sony-et-bose-73cc90",
   "titre": "Technics EAH-A1000 : un casque à 449 euros face à Sony et Bose",

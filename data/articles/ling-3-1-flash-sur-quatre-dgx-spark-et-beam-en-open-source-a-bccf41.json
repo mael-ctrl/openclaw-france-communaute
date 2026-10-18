@@ -1,0 +1,41 @@
+{
+ "slug": "ling-3-1-flash-sur-quatre-dgx-spark-et-beam-en-open-source-a-bccf41",
+ "titre": "Ling 3.1 Flash sur quatre DGX Spark, et Beam en open source à 501B",
+ "chapo": "Un MoE de 560 milliards de paramètres réparti sur quatre DGX Spark, pendant que Reflection publie Beam, 501 milliards de paramètres ouverts. Entre bricolage réseau, exemptions open source et classements douteux, la semaine dit beaucoup de l'état du calcul local.",
+ "html": "<h2 id=\"560-milliards-de-parametres-quatre-machi\">560 milliards de paramètres, quatre machines et un GGUF</h2>\n<p>L'utilisateur sudoing a chargé <strong>Ling 3.1 Flash</strong>, un MoE de 560 milliards de paramètres dont 25 milliards actifs par token, sur quatre DGX Spark. Faute de build FP4 officiel pour vLLM, il est passé par le GGUF Q4 d'Atomic Chat, distribué sur les quatre machines via llama.cpp RPC.</p>\n<p>Le résultat n'a rien d'une démo de datacenter : c'est du raccordement entre machines, avec ce que cela implique de dépendances. L'auteur attend des débits bridés par la bande passante et veut comparer avec Ling 3.0 Flash (124B) sur deux critères concrets : la qualité des réponses et le temps d'attente réel.</p>\n<p>La question derrière est simple : à partir de quel seuil de paramètres le jeu en vaut-il la peine quand le goulot d'étranglement devient le réseau plutôt que la mémoire ? La réponse viendra des mesures, pas des fiches techniques.</p>\n<h2 id=\"beam-501b-au-total-23b-actives\">Beam : 501B au total, 23B activés</h2>\n<p>Reflection publie <strong>Beam</strong>, un modèle ouvert texte-texte en architecture mixture-of-experts sparse : 501 milliards de paramètres au total, 23 milliards activés, pour une fenêtre de contexte d'un million de tokens.</p>\n<p>La version instruction-tuned sort en trois précisions — BF16, FP8 et NVFP4 — ce qui laisse de la marge entre l'expérimentation sur grosses machines et le déploiement sur accélérateurs récents. Le modèle est développé surtout pour l'anglais, et vise explicitement un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques.</p>\n<p>Le ratio paramètres totaux / paramètres activés rappelle celui de Ling 3.1 Flash (560B / 25B). Deux modèles ouverts, deux architectures creuses, deux façons de faire tenir de la capacité dans un budget de calcul par token limité. La comparaison s'arrête là : les dépêches ne disent rien de leurs performances respectives.</p>\n<h2 id=\"pekin-liste-23-technologies-ia-l-open-so\">Pékin liste 23 technologies IA, l'open source exempté</h2>\n<p>Le 16 octobre 2026, Pékin a proposé de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul.</p>\n<p>Le point notable est l'exemption : les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exclues. Autrement dit, publier reste une porte de sortie, ce qui n'est pas neutre pour des labos qui arbitrent entre poids ouverts et accès contrôlé.</p>\n<p>La consultation publique court jusqu'au 15 novembre. L'enregistrement préalable à l'export, lui, s'applique déjà : le cadre bouge par étapes, et la partie déjà en vigueur n'attend pas la fin des discussions.</p>\n<h2 id=\"likes-farmes-sur-hugging-face-avatars-lo\">Likes farmés sur Hugging Face, avatars locaux sur GitHub</h2>\n<p>Sur Hugging Face, un post de r/LocalLLaMA pointe les modèles de l'organisation <strong>AutoTrust</strong>, qui figuraient en tête de la page d'accueil avec des résultats présentés comme très bons. En cliquant sur les likes, l'auteur remarque des comptes au profil trop régulier : un nom réaliste qui semble sortir d'un générateur aléatoire, un pseudo dérivé de ce nom, et un profil de réseau social souvent inexistant ou sans rapport avec le sujet. Le procédé interroge la valeur des classements de modèles sur la plateforme.</p>\n<p>Côté démo, <strong>Openspline</strong> ajoute une couche d'avatar aux agents vocaux existants : on sélectionne une image, on obtient une vidéo d'avatar parlant en temps réel avec synchronisation labiale, calculée en local sur la GPU. L'intégration à un agent vocal tiendrait en cinq lignes de code, et le modèle lite dépasserait 90 FPS sur une RTX 4090. Le projet est publié sur GitHub avec une démo en ligne, à un stade très précoce.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois signaux, une même tendance de fond : les modèles ouverts grossissent plus vite que le matériel grand public, et le bricolage réseau redevient une compétence à part entière. En parallèle, la vitrine des classements perd en fiabilité à mesure qu'elle pèse dans les choix, et les États commencent à distinguer publication et export. Rien de tout cela ne se tranche dans un fil Reddit : ce sont les mesures de débit, les évaluations indépendantes et les textes publiés qui donneront le verdict.</p>",
+ "pivot": "bccf413b71b6d830",
+ "tags": [
+  "open-source",
+  "matériel",
+  "recherche",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8v7cp/ling_31_flash_560b_moe_loaded_across_4_dgx_sparks/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8sq4z/autotrusts_hf_models_are_trending_thanks_to/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8oqng/openspline_host_a_realtime_talking_avatar_on_a/"
+  }
+ ],
+ "date": "2026-10-18T06:48:59+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1684,
+  "sortie": 3398
+ }
+}

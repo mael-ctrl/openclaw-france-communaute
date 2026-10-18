@@ -2231,3 +2231,9 @@
 {"ts": "2026-10-18T02:30:08+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "6d9803851d30f7c6f2e6179dbf6f54e30a00632f30acca1f58e7762723da7765"}
 {"ts": "2026-10-18T02:30:18+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "9bca67552239f3a05ec2430713d45057a734a45e9d07b64cd65c481de4010d84"}
 {"ts": "2026-10-18T02:30:18+00:00", "evenement": "bilan", "details": {"duree_s": 844.8, "neufs": 3, "breves": 2, "articles": 1, "fichiers": 680, "envois": 706, "publications": 4}, "sha256": "9057a8b9d2a4aef15e9322ac3e54270ce64ce531b66ac18abab707d6545f57bf"}
+{"ts": "2026-10-18T03:34:48+00:00", "evenement": "collecte", "details": {"neufs": 4}, "sha256": "338788073b71b9cd98b314a704535fc7c567ab172b297cb876e304c3232a11b7"}
+{"ts": "2026-10-18T03:35:19+00:00", "evenement": "erreur", "details": {"message": "brève impossible (The whale girl mode in DeepSeek-V4.1-Flash-1017 is still the) : réponse non-JSON"}, "sha256": "bdf160095938f65bc711cd5e7863df4a96451411c869d6a887f4b78ec7e92242"}
+{"ts": "2026-10-18T03:35:48+00:00", "evenement": "construction", "details": {"fichiers": 681}, "sha256": "8eb8cc153b0d003b59d680f3dbe0fb1871b259a5dafcba02435470943d6a468e"}
+{"ts": "2026-10-18T03:47:15+00:00", "evenement": "deploiement", "details": {"fichiers": 708, "octets": 14824492}, "sha256": "32a0bd2f557f9501826e786dce75737bf8ca79f996a43157edc2484bdf049d22"}
+{"ts": "2026-10-18T03:47:16+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "60487426219dea57e09dff7adb016e99881fdfd101e062943ce9e628d0235bdf"}
+{"ts": "2026-10-18T03:47:16+00:00", "evenement": "bilan", "details": {"duree_s": 791.9, "neufs": 4, "breves": 3, "articles": 1, "fichiers": 681, "envois": 708, "publications": 0}, "sha256": "297989bb8a296d2438eed4cbc8bb822e40426765fdf38391fdb0ba98e6267e80"}

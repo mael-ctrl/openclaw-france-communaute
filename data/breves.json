@@ -1,5 +1,47 @@
 [
  {
+  "id": "86312bd99edb431f",
+  "slug": "hugging-face-les-modeles-autotrust-portes-par-des-likes-farmes-86312b",
+  "titre": "Hugging Face : les modèles AutoTrust portés par des likes farmés",
+  "resume": "Un post de r/LocalLLaMA pointe les modèles de l'organisation AutoTrust, qui figuraient en tête de la page d'accueil de Hugging Face avec des résultats présentés comme très bons. En cliquant sur les likes, l'auteur remarque des comptes au profil trop régulier : un nom réaliste qui semble sortir d'un générateur aléatoire, un pseudo dérivé de ce nom, et un profil de réseau social souvent inexistant ou sans rapport avec le sujet. Le procédé interroge la valeur des classements de modèles sur Hugging Face.",
+  "tags": [
+   "open-source",
+   "sécurité",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8sq4z/autotrusts_hf_models_are_trending_thanks_to/",
+  "date_source": "2026-10-18T03:15:28+00:00",
+  "date_redac": "2026-10-18T03:34:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 860,
+   "sortie": 611
+  }
+ },
+ {
+  "id": "3ebc4e96c8b716a1",
+  "slug": "du-262k-de-contexte-en-local-sur-une-seule-gpu-de-16-go-3ebc4e",
+  "titre": "Du 262k de contexte en local sur une seule GPU de 16 Go",
+  "resume": "Un membre de r/LocalLLaMA détaille sa configuration pour faire tourner Qwen 3.8 27B en local avec 262k de contexte, sur une seule GPU de 16 Go (9060 XT) et 24 Go de DDR5 pour tout son homelab. Avec quantification unsloth iq4XS, cache KV streaming et prédiction ngram, il annonce 42,7 t/s en génération et 658 t/s en prefill à 20k. Il s'appuie sur un fork de llama.cpp, dont les bugs de PCIe atomics ont été corrigés par un bot.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8s73i/you_dont_need_that_expensive_of_a_build_for_local/",
+  "date_source": "2026-10-18T02:46:36+00:00",
+  "date_redac": "2026-10-18T03:35:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 839,
+   "sortie": 810
+  }
+ },
+ {
   "id": "93c97b1657bf4934",
   "slug": "muse-spark-open-816b-a42b-atteint-4-tokens-s-sur-256-go-de-memoire-93c97b",
   "titre": "Muse Spark Open 816B-A42B atteint 4 tokens/s sur 256 Go de mémoire",
@@ -726,6 +768,26 @@
    "modele": "deepseek-flash",
    "entree": 864,
    "sortie": 908
+  }
+ },
+ {
+  "id": "e10e04d85d265ea7",
+  "slug": "web-edit-0-1a2-un-mini-outil-web-pour-editer-des-fichiers-a-distance-e10e04",
+  "titre": "web-edit 0.1a2 : un mini-outil web pour éditer des fichiers à distance",
+  "resume": "Simon Willison publie web-edit 0.1a2, une petite application web pour parcourir et éditer les fichiers d'un dossier. Il l'a surtout conçue pour modifier des fichiers sur différentes machines via Tailscale. Cette version ajoute une option « copier dans le presse-papiers » pour le texte comme pour les images. Il en avait besoin pour copier depuis son téléphone les logs de prompts pelican vers un Gist.",
+  "tags": [
+   "dev",
+   "deepseek"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/17/web-edit/",
+  "date_source": "2026-10-17T13:16:49+00:00",
+  "date_redac": "2026-10-18T03:35:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 700,
+   "sortie": 1307
   }
  },
  {

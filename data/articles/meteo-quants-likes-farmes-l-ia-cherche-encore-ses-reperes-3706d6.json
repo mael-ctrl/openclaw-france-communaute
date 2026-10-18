@@ -1,0 +1,41 @@
+{
+ "slug": "meteo-quants-likes-farmes-l-ia-cherche-encore-ses-reperes-3706d6",
+ "titre": "Météo, quants, likes farmés : l'IA cherche encore ses repères",
+ "chapo": "Microsoft propose une méthode fondée sur l'IA pour corriger les erreurs des modèles météo au-delà de quinze jours. La même semaine, un post de r/LocalLLaMA pointe des likes farmés sur des modèles mis en avant par Hugging Face : d'un côté on corrige les erreurs, de l'autre les signaux de qualité se salissent.",
+ "html": "<h2 id=\"prevoir-a-trois-semaines-corriger-plutot\">Prévoir à trois semaines : corriger plutôt que prédire</h2>\n<p>Savoir s'il pleuvra dans trois semaines reste compliqué, même pour les meilleurs modèles météo. C'est le point de départ de la méthode proposée par Microsoft, rapportée par le Journal du Geek : plutôt que de construire un modèle météo de plus, l'approche s'appuie sur l'IA pour <strong>corriger les erreurs</strong> des modèles existants.</p>\n<p>L'argument avancé est double. D'un côté, allonger l'horizon de prévision au-delà de la quinzaine ; de l'autre, ne pas exiger une grosse puissance informatique pour y arriver. Les résultats sont jugés encourageants — mais ils ne permettent pas de prévoir le temps avec certitude. La nuance compte : on parle d'amélioration d'un existant faillible, pas de don de voyance.</p>\n<h2 id=\"quantification-cinq-types-de-plus-a-l-es\">Quantification : cinq types de plus à l'essai sur llama.cpp</h2>\n<p>Sur r/LocalLLaMA, une proposition soumise à llama.cpp ajoute cinq types de quantification, d'IQ2_K à IQ6_K. Le principe est connu de ceux qui font tourner des modèles sur du matériel modeste : compresser les poids pour réduire l'empreinte, en acceptant une perte de qualité.</p>\n<p>Ce qui retient l'attention ici, c'est la façon dont le compromis est posé. Les tailles de fichiers seraient <strong>identiques à celles des quants Q</strong>, avec une divergence KL nettement meilleure — autrement dit, une distribution de sortie plus proche de celle du modèle d'origine — au prix d'une légère baisse de performance. Deux réserves subsistent : les tests ont été menés sur un seul modèle, et la création de ces quants reste assez lente.</p>\n<p>Rien de définitif donc, mais une démonstration de méthode : annoncer une taille, annoncer une métrique, annoncer le coût. Le tout encore à l'état de proposition.</p>\n<h2 id=\"hugging-face-quand-le-like-ne-veut-plus-\">Hugging Face : quand le like ne veut plus dire grand-chose</h2>\n<p>Le troisième signal vient aussi de r/LocalLLaMA, et il est nettement moins réjouissant. Un post pointe les modèles de l'organisation <strong>AutoTrust</strong>, qui figuraient en tête de la page d'accueil de Hugging Face avec des résultats présentés comme très bons.</p>\n<p>En cliquant sur les likes, l'auteur du post remarque des comptes au profil trop régulier : un nom réaliste qui semble sortir d'un générateur aléatoire, un pseudo dérivé de ce nom, et un profil de réseau social souvent inexistant ou sans rapport avec le sujet. Le faisceau d'indices dessine un procédé de likes farmés.</p>\n<p>La conséquence dépasse le cas AutoTrust : c'est la valeur des classements de modèles sur Hugging Face qui est interrogée. Or ces classements servent de repère à une bonne partie de l'écosystème open source, qui n'a pas toujours les moyens de refaire les évaluations lui-même.</p>\n<h2 id=\"meta-et-le-createur-de-linux-les-regles-\">Meta et le créateur de Linux : les règles bougent, les pratiques non</h2>\n<p>Côté conditions d'usage, Meta a retiré de ses termes des formulations qui soulevaient des inquiétudes autour du scraping et de l'entraînement de modèles d'IA, rapporte TechCrunch. Un porte-parole du groupe assure que cette mise à jour <strong>ne traduit aucun changement</strong> dans la manière dont Meta explore le web. Les termes ont donc été modifiés sans que l'entreprise reconnaisse une évolution de ses pratiques : le périmètre juridique se déplace, le discours sur le fond reste identique.</p>\n<p>En parallèle, le créateur de Linux a qualifié de « débiles » (<em>idiotic</em>) les règles anti-IA, dans un fil publié sur r/LocalLLaMA le 17 octobre 2026. Le post ne précise pas quelles règles sont visées. La sortie pèse dans un débat où les positions anti-IA gagnent du terrain chez les développeurs et dans l'open source — sans qu'on puisse en tirer une position détaillée sur tel ou tel texte.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches ne racontent pas la même histoire, mais elles posent la même question : comment savoir si un système est fiable ? Pour la météo, on sait quoi mesurer — l'erreur du modèle, que l'IA vient corriger. Pour les quants IQ_K, on sait aussi : divergence KL, taille de fichier, performance. Pour les classements de Hugging Face, la métrique existe (des likes) mais l'écosystème qui la produit est manipulable. Reste le cas des conditions d'usage, où l'indicateur n'est plus technique mais déclaratif : un porte-parole affirme l'absence de changement. Le déséquilibre est là.</p>",
+ "pivot": "3706d6bf1dcb50e6",
+ "tags": [
+  "recherche",
+  "open-source",
+  "dev",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/18/microsoft-veut-rendre-la-meteo-plus-fiable-au-dela-de-quinze-jours/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8zj9j/new_quant_types_suggested_iq2_k_iq3_k_iq4_k_iq5_k/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8sq4z/autotrusts_hf_models_are_trending_thanks_to/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8e4wd/linux_creator_says_antiai_rules_are_idiotic/"
+  }
+ ],
+ "date": "2026-10-18T14:07:19+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1552,
+  "sortie": 2353
+ }
+}

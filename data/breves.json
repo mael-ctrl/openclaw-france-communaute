@@ -1,5 +1,26 @@
 [
  {
+  "id": "a307a9f96386be09",
+  "slug": "deepseek-v4-1-flash-1017-quantise-pour-dwarfstar-jusqu-a-20-t-s-sur-m5-a307a9",
+  "titre": "DeepSeek v4.1 Flash 1017 quantisé pour Dwarfstar, jusqu'à 20 t/s sur M5 Max",
+  "resume": "Un contributeur de r/LocalLLaMA publie une quantization de DeepSeek v4.1 Flash 1017 pour Dwarfstar (ds4), avec la tour vision fonctionnelle grâce à sa PR. La recette reprend celle d'antirez pour son DS4.1 Q2 : experts routés en 2-bit, reste en 8-bit minimum, table d'engrams FP8 d'origine. Le backbone dépasse 150 Go et streame depuis le SSD sur les machines à 128 Go, avec jusqu'à 20 t/s en décodage sur M5 Max.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8tr2c/deepseek_v41_flash_1017_for_dwarfstar_ds4/",
+  "date_source": "2026-10-18T04:12:24+00:00",
+  "date_redac": "2026-10-18T04:44:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 838,
+   "sortie": 1010
+  }
+ },
+ {
   "id": "86312bd99edb431f",
   "slug": "hugging-face-les-modeles-autotrust-portes-par-des-likes-farmes-86312b",
   "titre": "Hugging Face : les modèles AutoTrust portés par des likes farmés",

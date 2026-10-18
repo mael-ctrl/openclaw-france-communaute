@@ -1,0 +1,41 @@
+{
+ "slug": "dory1-0-beam-export-chinois-l-open-source-a-plusieurs-vitess-57c335",
+ "titre": "Dory1.0, Beam, export chinois : l'open source à plusieurs vitesses",
+ "chapo": "NVIDIA publie un 4B à l'architecture bouclée, Reflection lâche un MoE de 501 milliards de paramètres, Pékin liste 23 technologies IA à contrôler et le CERN signe avec Mistral. Quatre dépêches, quatre façons de poser la même question : quel modèle, sur quelles données, sous quel régime.",
+ "html": "<h2 id=\"dory1-0-4b-reappliquer-les-memes-couches\">Dory1.0-4B : réappliquer les mêmes couches plutôt que grossir</h2>\n<p>NVIDIA publie Dory1.0-4B, un LLM de 4 milliards de paramètres sous licence OpenMDW 1.1, ouverte à un usage commercial. Le principe est dans le nom : l'architecture est dite « bouclée », c'est-à-dire qu'un même bloc de couches partagées est réappliqué plusieurs fois. Le résultat visé est mécanique — plus de calcul par token, sans gonfler le nombre de paramètres.</p>\n<p>Côté attention, le modèle alterne fenêtres glissantes et couches complètes, avec un contexte qui monte jusqu'à 256K tokens en BF16. L'entraînement est en anglais uniquement, pour du raisonnement généraliste sur une empreinte réduite. Autrement dit un 4B pensé pour tourner là où un gros modèle ne rentre pas.</p>\n<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Reflection dévoile Beam, un modèle ouvert texte-texte en architecture mixture-of-experts sparse : 501 milliards de paramètres au total, mais 23 milliards activés. La fenêtre de contexte atteint un million de tokens. La version instruction-tuned sort en trois précisions — BF16, FP8 et NVFP4 —, ce qui en dit long sur le poids du coût d'inférence dans la décision.</p>\n<p>Les usages annoncés sont précis : un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques. Le modèle est développé surtout pour l'anglais. Le contraste avec Dory1.0-4B est net : ici on épargne sur les paramètres activés dans un modèle massif, là on densifie le calcul en répétant des blocs partagés. Deux réponses différentes à la même contrainte de moyens.</p>\n<h2 id=\"pekin-liste-23-technologies-ia-a-control\">Pékin liste 23 technologies IA à contrôler, l'open source exempté</h2>\n<p>Le 16 octobre 2026, la Chine a proposé de réviser son catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA — grands modèles, agents, clusters de calcul. Le point le plus commenté tient en une ligne : les technologies déjà rendues publiques via l'open source ou des publications académiques sont explicitement exemptées.</p>\n<p>Il reste que la proposition n'est pas le droit en vigueur. La consultation publique court jusqu'au 15 novembre, et l'enregistrement préalable à l'export s'applique déjà. L'exemption ne couvre donc que ce qui est sorti publiquement : tout ce qui reste interne au moment de l'export tombe dans le champ du contrôle.</p>\n<h2 id=\"donnees-meta-lorgne-les-editeurs-le-cern\">Données : Meta lorgne les éditeurs, le CERN simule les siennes</h2>\n<p>Les nouveaux termes de Meta, qui entrent en vigueur le 30 octobre, semblent autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, y compris les éditeurs en ligne, selon un rapport de Nieman Lab. Le contenu externe pourrait ensuite servir à « développer, améliorer, rechercher » et « entraîner ». Le conditionnel reste de rigueur : le rapport décrit une lecture des termes, pas une pratique confirmée.</p>\n<p>À l'autre bout du spectre, le CERN et Mistral AI ont signé jeudi 15 octobre 2026 une déclaration d'intention pour créer un « grand modèle de physique ». L'entraînement porterait sur des milliards de collisions simulées au LHC. Aucun budget ni calendrier n'a été communiqué. D'un côté, de la donnée qu'on va chercher chez les autres ; de l'autre, de la donnée qu'on fabrique par simulation.</p>\n<h2>Et maintenant ?</h2>\n<p>Les deux modèles publiés cette semaine montrent que le débat sur la taille est en train de se déplacer vers celui du calcul utile : combien de paramètres activer, combien de fois réappliquer un même bloc, à quelle précision servir. En parallèle, les conditions d'accès comptent autant que les architectures — licence commerciale explicite d'un côté, exemption open source dans un projet de contrôle à l'export de l'autre. Reste la question de la donnée, que ce soit celle des éditeurs ou celle des collisionneurs.</p>",
+ "pivot": "57c3359f3a172edc",
+ "tags": [
+  "open-source",
+  "mistral",
+  "meta",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8bg1u/nvidianvidianemotronlabsdory104bbf16_hugging_face/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/sciences/2354527-des-milliards-de-simulations-de-collision-mistral-sassocie-au-cern-pour-creer-un-modele-dia-de-pointe-pour-la-physique-des-particules.html"
+  }
+ ],
+ "date": "2026-10-18T04:45:13+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1575,
+  "sortie": 3256
+ }
+}

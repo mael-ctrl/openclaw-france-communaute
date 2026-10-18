@@ -1,5 +1,27 @@
 # Journal des actions de monétisation
 
+## 18 octobre 2026 — prototype d'audit exécuté, aucune offre activée
+
+**Action unique :** concrétiser l'outillage du rang 1 du backlog par un premier diagnostic technique local et un rapport réel, plutôt qu'accumuler des prospects sans autorisation d'approche. Périmètre volontairement étroit : six pages des deux sites du projet, métadonnées HTML, quelques contrôles d'accessibilité statique et syntaxe des blocs JSON-LD. Ce n'est pas encore un audit de visibilité dans les réponses des IA.
+
+### Ce qui est livré et vérifié
+
+- Six captures HTTPS strictes du **18/10 à 11:35 UTC** : accueil média, Pack, B2B, accueil hub, kit Hermes, kit OpenClaw. Toutes 200 et `text/html`, corps/URL/statut/MIME/horodatage/taille/SHA-256 conservés hors dépôt. Pas de crawl exhaustif, cookie, compte ni client extérieur au projet.
+- Réemploi réel de [mcp-web-validator](https://github.com/AKzar1el/mcp-web-validator/tree/cb0a306274343dc68d4207a74eb9045bb7631964), **MIT**, code `cb0a306`, dernier push API observé le 14/10. Les deux fonctions d'analyse ont été lues et utilisées sans modification, pas le serveur MCP. Autres candidats examinés par métadonnées : `Snippet-Digital-Agency/tech-seo-audit-skill` (MIT, 11/04/2026), `Shantodotdev/blacksparrow` (Apache-2.0 selon API, 08/10/2026) ; non adoptés.
+- Enveloppe de replay hors réseau : liste des six URL imposée, contrôle des empreintes/tailles, doublons/omissions et chemins hors dossier refusés. HTTP non-200, contenu non HTML ou encodage explicite non pris en charge ne produisent pas un audit vert. **42 tests réussis** : 39 tests amont ciblés + 3 contrats de l'enveloppe, pas la suite du média.
+- Installation privée sans scripts npm. Trois paquets vulnérables signalés initialement, corrigés dans le seul verrou local de dépendances ; audit de production ensuite sans vulnérabilité connue au relevé. Code amont inchangé. Résultats identiques avant/après correction et à la relecture ; permissions Node interdisant le réseau, canari `ERR_ACCESS_DENIED` vérifié.
+- **Résultat : 6 pages analysées, 0 indisponible, 0 constat error/warning, 7 observations informatives** de longueur de titre/description. Textes et longueurs recoupés par un parseur indépendant. Aucune urgence technique établie dans ce sous-ensemble ; pas de « dix correctifs » inventés pour remplir une promesse commerciale.
+
+### Limites et suite
+
+La plage de longueur retenue par un logiciel n'est pas une limite universelle de Google. Une sortie JSON-LD vide n'est pas une validation du balisage : les pages des deux kits n'ont aucun bloc. Aucun score GEO, visibilité effective, classement, trafic, chiffre d'affaires, conversion, conformité juridique ou audit WCAG complet n'est mesuré. Les directives HTTP, robots.txt, sitemap, rendu navigateur et faits publiés ne sont pas audités par ce premier outil. Aucun changement des six pages n'est déployé.
+
+Préflight commercial : B2B **200**, mentions légales **404** ; revue Claude et journal de distribution relus. **Aucun contact B2B**, formulaire soumis, email, DM, post ou paiement. Bluesky reste exclu jusqu'au 18/10 inclus. Aucun nouveau prix, Skool payant, facturation ou canal associatif activé ; gratuité et liens existants préservés.
+
+**Prochaine étape technique :** compléter les contrôles bornés robots/sitemap/directives et éprouver l'interprétation avant toute prestation client. **Prérequis commercial inchangé :** vendeur/TVA, mentions/conditions et modalités/canal de reversement validés et vérifiés, sans déduire l'entité d'un compte partagé ni l'accord du silence.
+
+Rapport, CLI rejouable, tests, sources et captures : workspace privé de monétisation **`2026-10-18-audit/`**, `rapport.md` et `README-reproduction.md`. Seuls les journaux et la roadmap sont modifiés dans le dépôt ; aucun moteur, donnée, preuve historique, workflow ou cron changé. Aucun revenu nouveau attribué à cette préparation.
+
 ## 17 octobre 2026 — corriger la présentation B2B avant toute prospection
 
 **Action unique :** intégrer le correctif factuel déjà préparé, plutôt qu'ajouter une nouvelle piste à une file commercialement bloquée. Les délais deviennent des objectifs à confirmer ; superlatifs, chiffres de volume/budget et affirmation de revenu nul non étayés sont retirés. Le texte distingue formats proposés, service actif et engagement de reversement des **bénéfices**, sans prétendre à des dons réalisés.

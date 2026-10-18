@@ -304,6 +304,11 @@ Format : `AAAA-MM-JJ | plateforme | action | URL du post | statut | retours`
 - Message-ID : `<distribution-20261017-jdh-suivi-unique@communaute-ia.fr>`. Envoi SMTP accepté, copie reçue à notre adresse puis relue à l'identique à 09:25 UTC ; cela ne prouve ni livraison chez JDH ni approbation humaine. Copie et verrou anti-rejeu privés sous `crabe-chantiers/distribution/2026-10-17/`. Destinataire ajouté à `docs/press/envois.jsonl` pour éviter un recontact par la routine presse. **Aucune seconde démarche de distribution aujourd'hui.**
 - Newsletter toujours préparatoire selon le rapport du 17/10 : aucun annuaire sollicité. Aucun compte créé, post public, contact LinuxFr/piaille, tentative HN/Product Hunt/r/france_tech ou Discord. Seuls le journal et le registre d'envois sont modifiés dans le dépôt ; aucun moteur, site, donnée, preuve ou cron touché, aucun workflow déclenché par ce push documentaire.
 
+### Monétisation du 18/10 — outil d'audit local, aucune prospection
+
+- Une seule préparation de l'expérience d'audit technique : six pages propres capturées en HTTPS et analysées hors réseau, rapport et replay privés ; [résultats et limites](monetisation.md). Aucun client ou tiers audité, nouveau prix ou service activé.
+- Aucun email, DM, formulaire soumis, compte, publication ou paiement. Les contrôles et la préparation ne consomment aucun quota de distribution ; Bluesky reste exclu jusqu'au 18/10 inclus. Prérequis B2B toujours fermés malgré la disponibilité HTTPS.
+
 ### Monétisation du 17/10 — présentation B2B corrigée, aucune prospection
 
 - Une seule amélioration du site propre : retrait des garanties, superlatifs et chiffres non étayés de `/b2b/`, par réemploi du correctif préparé. Prix et démonstration inchangés, aucun paiement B2B activé. Détails et preuves : `docs/monetisation.md`.

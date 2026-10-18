@@ -47,6 +47,11 @@ Les autres dépendances (GSC, chaîne/OAuth, newsletter, distribution, offre Sko
 
 - **Croissance du 16/10** : dates HTML sémantiques et affichage Europe/Paris livrés, commit `d904dfe` ; 99 tests Python + 4 Node, run `38899031992` réussi, 659 fichiers envoyés et 9 HTML HTTPS identiques au rendu du commit cloud `324c29f`. Cartes, une et signatures raccordées ; 10 vues navigateur mobile/desktop contrôlées sans JavaScript. Horodatages, JSON-LD et textes conservés ; ne clôt pas l'audit sémantique des dates de première mise en ligne. [Preuves et limites](dates-html.md).
 
+### Complément monétisation — 18/10
+
+- **Rang 1, première brique exécutée en privé :** diagnostic statique de six pages HTTPS, rapport et replay hors réseau, 42 tests ciblés réussis. Réemploi MIT `mcp-web-validator`, code figé et verrou de dépendances corrigé localement ; aucun changement des sites. Sept observations informatives seulement : pas dix correctifs inventés ni service GEO déclaré prêt. [Résultats et limites](monetisation.md).
+- **Suite technique :** contrôles robots/sitemap/directives à ajouter avant un livrable client. **Suite commerciale toujours fermée :** vendeur/TVA et autres prérequis à valider ; B2B 200 et mentions légales 404 au contrôle préalable du jour. Aucun contact, nouveau tarif, abonnement, paiement ou post.
+
 ### Complément monétisation — 17/10
 
 - Réemploi et publication du seul correctif factuel B2B : délais qualifiés, chiffres/superlatifs non étayés retirés, bénéfices distingués du CA et des dons réalisés. `12a7943`, run `39029373316` réussi et sauvegarde `50f1f73` ; cinq fichiers HTTPS identiques aux contenus testés, page principale identique au rendu du commit cloud. [Vérifications](monetisation.md).

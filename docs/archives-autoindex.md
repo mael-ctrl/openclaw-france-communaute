@@ -83,11 +83,16 @@ date de première publication. Les autres listings (`/__ovh_icons/`, `/assets/`,
 fermeture globale de l'hébergement n'est revendiquée. `-Indexes` ne rend pas
 les fichiers privés. Aucun gain de crawl, d'indexation ou de trafic mesuré.
 
-### Production
+### Production vérifiée — 18/10 à 11:14 CEST
 
-À renseigner après le workflow : identifiant et conclusion du run, sauvegarde
-cloud, relecture SFTP des deux cibles et de la racine, redirections exactes,
-absence de listing/500, pages numérotées et anciennes URL accessibles.
+- Code **`9a56fba`**, [run **39113325468** réussi](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/39113325468) : **130 tests cloud**, **716 fichiers envoyés** ; les logs prouvent l'envoi des deux `.htaccess` (17 et 79 octets). Sauvegarde d'état **`bb29e1c`**, intégrée à `main` par **`087e4e6`**.
+- Les comparaisons de pagination portent sur **`bb29e1c`**, l'état effectivement construit par ce run, pas sur le résultat de fusion qui reprend aussi les données du run précédent concurrent. Ni push forcé ni correction des preuves.
+- **19 URL HTTPS distinctes contrôlées** : les deux variantes `/breves` et `/breves/` répondent 301 vers `/actus/` ; `/actus/page/` répond 403 sans listing ; accueil, quatre pages du fil et brèves récentes/anciennes répondent 200. Aucune réponse 500 ; une URL de brève volontairement absente reste 404, pas redirigée vers l'accueil.
+- Les **400 liens dédupliqués** des quatre pages du fil égalent exactement les **400 brèves du sitemap public**, et la sélection du commit cloud ; sitemap complet : **679 URL uniques**. Canonical propre pour chaque page de pagination.
+- Relecture SFTP : les deux règles sont **identiques en octets au build testé**, la racine est identique à sa sauvegarde. Les redirections HTTPS `www` et `.com` vers la brève canonique sont également vérifiées.
+- Deux anciennes brèves hors fenêtre sont **identiques en octets avant/après** ; elles conservent donc aussi l'ancien JSON-LD, non corrigé par ce lot. Une URL absente des données figées mais relevée dans le listing reste directement accessible en 200.
+- Le relevé parent de 08:53 UTC comptait **1 533 répertoires**, dont **701 absents de son instantané** (contre 1 532/700 dans la préparation du matin). Les fichiers distants peuvent évoluer pendant les runs : ces différences ne prouvent ni suppression ni perte historique. Les corps originaux sont conservés.
+- **Limite confirmée en HTTPS :** `/__ovh_icons/` reste un listing, hors des deux configurations locales. Pas de fermeture globale revendiquée ; la réconciliation historique reste ouverte. Les timeouts du watcher local n'étaient pas des échecs du workflow, dont la réussite et la sauvegarde ont été relues.
 
 Preuves privées : `crabe-chantiers/archives/2026-10-18/integration/` ; recettes
 isolées sous scratch Hermes. Les pièces préparatoires originales restent intactes.

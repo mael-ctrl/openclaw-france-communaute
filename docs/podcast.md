@@ -54,7 +54,9 @@ Le champ optionnel `script` de l’index lie explicitement chaque épisode à so
 
 **Navigateur local :** Chrome éphémère dédié, JavaScript désactivé, 390 et 1440 px : ouverture/fermeture des trois textes, contenu exact, contrôle clavier, aucun débordement. Captures relues. Aucun accès au profil Chrome personnel verrouillé ; aucune configuration navigateur partagée modifiée.
 
-Effet attendu : permettre la lecture sans son et rendre le contenu textuel accessible sur la page. Aucune hausse de trafic ni indexation effective démontrée. Vérification de production à consigner après le pipeline cloud.
+**Production vérifiée le 18/10 à 14:30 CEST :** commit `3b8b6215b132d03bbe046bf3127877d4c42ea829`, [run 39126125145 réussi](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/39126125145), **134 tests cloud, 721 fichiers envoyés**, sauvegarde `63d5fab` intégrée dans `2fa53c2`. Les logs attestent l’envoi de la page et du flux podcast ; cinq blobs de la livraison vérifiés sur GitHub. **Huit URL HTTPS contrôlées** : page, RSS et quatre MP3 identiques aux octets attendus ; lien d’accueil et entrée sitemap présents. Chrome sur la production réelle, sans JavaScript : six ouvertures/fermetures de scripts à 390/1440 px, textes exacts, contrôle clavier et captures conformes, aucun débordement. Les attentes bornées du suivi n’étaient pas des échecs CI.
+
+Effet attendu : permettre la lecture sans son et rendre le contenu textuel accessible sur la page. Aucune hausse de trafic ni indexation effective démontrée.
 
 ## Épisode quotidien du 17 octobre — publié à la suite
 

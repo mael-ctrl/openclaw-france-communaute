@@ -1,0 +1,41 @@
+{
+ "slug": "cles-api-volees-agents-bloques-arcadia-l-ia-entre-dans-l-inf-28fac2",
+ "titre": "Clés API volées, agents bloqués, Arcadia : l'IA entre dans l'infrastructure",
+ "chapo": "OpenCode confirme une intrusion qui a pu exposer les clés API OpenAI, Anthropic et Google de 1,4 % des utilisateurs de sa Console. Au même moment, des sites ferment leurs portes aux agents autonomes et la France présente Arcadia, son logiciel de commandement militaire dopé à l'IA.",
+ "html": "<h2 id=\"opencode-la-facture-arrive-sur-le-compte\">OpenCode : la facture arrive sur le compte du voisin</h2>\n<p><strong>1,4 % des utilisateurs de la Console.</strong> C'est la proportion que OpenCode cite après avoir confirmé, samedi 17 octobre, une intrusion dans ses systèmes. Les clés API concernées sont celles d'OpenAI, d'Anthropic et de Google — de quoi parler à peu près à tous les grands modèles du marché avec le compte de quelqu'un d'autre.</p>\n<p>L'entreprise relie l'incident à une « attaque par distillation », une méthode qui consiste à exploiter un modèle pour en entraîner un autre. Le principe n'est pas nouveau : on interroge massivement un modèle pour récupérer ses réponses, puis on s'en sert comme matière d'entraînement. Sauf qu'ici, la facture tombe sur le titulaire de la clé.</p>\n<p>Des victimes signalent déjà des frais de plusieurs centaines de dollars. Pour un agent de programmation open source, dont l'intérêt repose justement sur la simplicité de la mise en route, l'épisode rappelle un point basique : une clé API est une carte bancaire avec un quota.</p>\n<h2 id=\"les-agents-autonomes-se-heurtent-aux-por\">Les agents autonomes se heurtent aux portes fermées</h2>\n<p><strong>Les agents autonomes sont la promesse du moment.</strong> OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail. Une partie des sites refuse désormais de les laisser entrer.</p>\n<p>Sans accès au web, ces agents perdent une bonne part de leur intérêt. Le blocage n'est pas anecdotique : un agent qui ne peut visiter qu'une poignée de domaines complaisants n'est plus un navigateur autonome, c'est un formulaire un peu bavard.</p>\n<p>Les deux dossiers se répondent sans se causer. D'un côté, un agent compromis sert à pomper des réponses de modèles ; de l'autre, des sites ferment la porte aux agents par précaution. Dans les deux cas, la question posée est identique : qui répond des actes d'un programme qui agit pour ton compte ?</p>\n<h2 id=\"arcadia-la-brique-de-commandement-franca\">Arcadia, la brique de commandement française</h2>\n<p><strong>Côté défense, le mouvement est inverse : on construit.</strong> Le Commissariat au numérique de défense a présenté fin septembre Arcadia, le futur logiciel de commandement des armées françaises dopé à l'IA. L'outil doit répondre à Maven, la solution de l'américain Palantir que l'OTAN utilise déjà.</p>\n<p>L'enjeu affiché est explicite : sortir d'une dépendance aux solutions américaines dans le commandement militaire. Le sujet n'est donc pas seulement technique — il porte sur ce qu'on accepte de déléguer à un fournisseur étranger quand il s'agit de décider vite, avec des moyens limités.</p>\n<p>La séquence est cohérente à l'échelle du secteur : les mêmes semaines voient un agent open source se faire voler ses clés, des éditeurs de sites fermer leurs portes et un État membre bâtir sa propre brique de commandement. L'IA quitte la démonstration.</p>\n<h2 id=\"beam-et-les-controles-a-l-export-le-poid\">Beam et les contrôles à l'export : le poids de l'ouvert</h2>\n<p><strong>Reflection publie Beam</strong>, un modèle ouvert texte-texte en architecture mixture-of-experts sparse : 501 milliards de paramètres au total, 23 milliards activés, pour une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en BF16, FP8 et NVFP4. Développé surtout pour l'anglais, il vise un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques.</p>\n<p>Cette dernière précision n'est pas décorative : les modèles conçus pour piloter des outils sont précisément ceux dont l'usage se complique quand les sites se ferment. Un modèle très capable côté agentique ne sert à rien si les agents n'ont nulle part où aller.</p>\n<p>Pendant ce temps, Pékin propose de réviser le catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA (grands modèles, agents, clusters de calcul). Les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées. La consultation publique court jusqu'au 15 novembre ; l'enregistrement préalable à l'export s'applique déjà. La nuance est de taille : les clusters de calcul, eux, figurent bien dans la liste des ajouts.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, un même fil : l'IA passe du stade de la démonstration à celui de l'infrastructure critique, avec les frictions que cela suppose. Une clé API volée coûte des centaines de dollars, un site fermé casse un agent, un logiciel de commandement devient un enjeu de souveraineté, un catalogue d'export dessine des frontières. Le débat ne porte plus seulement sur ce que les modèles savent faire, mais sur qui contrôle les tuyaux par lesquels ils passent.</p>",
+ "pivot": "28fac2f99bc90fea",
+ "tags": [
+  "sécurité",
+  "agents",
+  "france",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  }
+ ],
+ "date": "2026-10-18T09:54:53+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1570,
+  "sortie": 3303
+ }
+}

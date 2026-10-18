@@ -1,5 +1,89 @@
 [
  {
+  "id": "b797b560c04534ad",
+  "slug": "oppo-prepare-heart-ball-un-accessoire-ia-a-porter-sur-soi-b797b5",
+  "titre": "Oppo prépare Heart Ball, un accessoire IA à porter sur soi",
+  "resume": "Oppo travaille sur un nouveau type d'appareil : le Heart Ball, un petit accessoire IA qui s'accroche aux vêtements. Porté sur soi, il écoute la journée et aide à garder le fil des tâches en cours. Oppo promet que les enregistrements des utilisateurs ne seront pas conservés. Un format qui installe l'écoute continue dans le quotidien, avec la question de la confidentialité au centre.",
+  "tags": [
+   "matériel",
+   "société",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/18/heart-ball-le-petit-coach-ia-doppo-a-accrocher-a-sa-chemise/",
+  "date_source": "2026-10-18T13:02:12+00:00",
+  "date_redac": "2026-10-18T13:05:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 680,
+   "sortie": 452
+  }
+ },
+ {
+  "id": "abaaf2107c0e78bb",
+  "slug": "auroraasr-1m-un-modele-de-reconnaissance-vocale-de-949-000-parametres-abaaf2",
+  "titre": "AuroraASR-1M : un modèle de reconnaissance vocale de 949 000 paramètres",
+  "resume": "AuroraASR-1M est un modèle de reconnaissance vocale très léger, publié sous licence Apache 2.0. Il ne compte que 949 000 paramètres, avec une architecture Conformer-CTC à poids partagés, pour 1,06 Mo de poids en INT8. Sur un seul thread CPU, il tourne à environ 436 fois le temps réel, avec un WER de 11,43 % sur LibriSpeech test-clean, en décodage glouton et sans modèle de langue externe.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x92ejs/auroraasr1m_releases/",
+  "date_source": "2026-10-18T12:48:33+00:00",
+  "date_redac": "2026-10-18T13:05:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 691,
+   "sortie": 407
+  }
+ },
+ {
+  "id": "12eddb495c6b9015",
+  "slug": "frigos-pirates-fosse-de-l-ia-bots-russes-la-semaine-cyberguerre-12eddb",
+  "titre": "Frigos piratés, fossé de l'IA, bots russes : la semaine cyberguerre",
+  "resume": "Trois actualités cyber à retenir cette semaine. Un piratage a fait grimper la température dans les rayons frais de centaines de supermarchés français. Andrej Karpathy décrit le fossé grandissant entre l'IA que connaît le grand public et celle que voient les laboratoires. Le trafic de bots russes s'effondre, mais la baisse mérite d'être nuancée.",
+  "tags": [
+   "sécurité",
+   "société",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/cyberguerre/2354083-des-frigos-de-supermarches-pirates-partout-en-france-le-fosse-invisible-de-lia-et-les-bots-russes-toujours-actifs-malgre-les-frappes-sur-yandex-on-vous-raconte-la-semaine-cyberguerre.html",
+  "date_source": "2026-10-18T12:30:00+00:00",
+  "date_redac": "2026-10-18T13:05:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 807,
+   "sortie": 459
+  }
+ },
+ {
+  "id": "b247fa52ce0ebeb0",
+  "slug": "deux-palettes-de-rtx-5090-zotac-470-000-disparaissent-dans-un-aeroport-b247fa",
+  "titre": "Deux palettes de RTX 5090 ZOTAC, 470 000 $, disparaissent dans un aéroport brésilien",
+  "resume": "Un post publié sur r/LocalLLaMA rapporte la disparition de deux palettes de cartes graphiques ZOTAC RTX 5090 dans un aéroport au Brésil. La marchandise est estimée à 470 000 dollars. L'information circule dans une communauté qui suit de près le marché des GPU utilisés pour faire tourner des modèles d'IA en local.",
+  "tags": [
+   "matériel",
+   "sécurité",
+   "business"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x91svd/two_pallets_of_zotac_rtx_5090_graphics_cards/",
+  "date_source": "2026-10-18T12:16:59+00:00",
+  "date_redac": "2026-10-18T13:05:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 631,
+   "sortie": 623
+  }
+ },
+ {
   "id": "46ce9f01e1393a39",
   "slug": "mellum2-de-jetbrains-la-communaute-demande-des-retours-d-usage-46ce9f",
   "titre": "Mellum2 de JetBrains : la communauté demande des retours d'usage",

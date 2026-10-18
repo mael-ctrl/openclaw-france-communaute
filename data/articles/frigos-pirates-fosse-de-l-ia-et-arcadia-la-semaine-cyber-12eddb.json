@@ -1,0 +1,41 @@
+{
+ "slug": "frigos-pirates-fosse-de-l-ia-et-arcadia-la-semaine-cyber-12eddb",
+ "titre": "Frigos piratés, fossé de l'IA et Arcadia : la semaine cyber",
+ "chapo": "Un piratage a fait grimper la température des rayons frais de centaines de supermarchés français, Andrej Karpathy décrit un fossé grandissant dans l'IA, et la France présente Arcadia face à Palantir. Pendant ce temps, des clés API s'envolent et Meta s'invite dans les sites d'actualité.",
+ "html": "<h2 id=\"des-frigos-aux-bots-la-semaine-cyber\">Des frigos aux bots : la semaine cyber</h2>\n<p>Le fait le plus concret de la semaine ne se joue pas dans un data center, mais dans les rayons frais. Un piratage a fait grimper la température de centaines de supermarchés français, rapporte Numerama. Derrière le détail un peu absurde — des frigos qui chauffent — il y a une réalité banale : la chaîne du froid repose sur des systèmes connectés, donc accessibles.</p>\n<p>Sur un autre front, le trafic de bots russes s'effondre. La baisse mérite pourtant d'être nuancée : les bots restent actifs, malgré les frappes visant Yandex. Un indicateur de volume qui plonge ne signale pas la fin d'une activité.</p>\n<h2 id=\"le-fosse-vu-par-karpathy\">Le fossé vu par Karpathy</h2>\n<p>Andrej Karpathy pose un constat simple : le fossé se creuse entre l'IA que manipule le grand public et celle que voient les laboratoires. D'un côté, des interfaces lisses ; de l'autre, des architectures et des choix d'entraînement dont rien ne filtre.</p>\n<p>La publication de <strong>Beam</strong> par Reflection donne la mesure de l'écart. Ce modèle ouvert texte-texte en mixture-of-experts sparse aligne 501 milliards de paramètres au total, pour 23 milliards activés seulement, avec une fenêtre de contexte d'un million de tokens. La version instruction-tuned sort en BF16, FP8 et NVFP4.</p>\n<p>Développé surtout pour l'anglais, Beam vise un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques. Le rapport entre paramètres totaux et paramètres activés dit assez bien ce que le public ne voit jamais : la mécanique derrière la boîte de dialogue.</p>\n<h2 id=\"cles-api-et-contenus-ce-qui-se-prend\">Clés API et contenus : ce qui se prend</h2>\n<p>OpenCode, un agent de programmation open source, a confirmé samedi 17 octobre une intrusion qui a pu exposer les clés API OpenAI, Anthropic et Google de 1,4 % des utilisateurs de sa Console. L'entreprise relie l'incident à une « attaque par distillation », méthode qui consiste à exploiter un modèle pour en entraîner un autre. Des victimes signalent déjà des frais de plusieurs centaines de dollars.</p>\n<p>Même logique de captation côté contenus. Les nouveaux termes de Meta, en vigueur le 30 octobre, semblent autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, éditeurs en ligne compris, selon un rapport de Nieman Lab. Le contenu récupéré pourrait servir à « développer, améliorer, rechercher » et « entraîner ».</p>\n<p>Dans les deux cas, la ressource convoitée n'est pas le modèle : ce sont les clés et les textes qui le nourrissent.</p>\n<h2 id=\"arcadia-ou-refuser-la-dependance\">Arcadia, ou refuser la dépendance</h2>\n<p>Fin septembre, le Commissariat au numérique de défense a présenté <strong>Arcadia</strong>, le futur logiciel de commandement des armées françaises dopé à l'IA.</p>\n<p>L'outil doit répondre à Maven, la solution de l'américain Palantir que l'OTAN utilise déjà. L'enjeu affiché : sortir d'une dépendance aux solutions américaines dans le commandement militaire. Un sujet qui prend une couleur particulière quand, ailleurs, des clés d'API s'évaporent et des contenus se font aspirer.</p>\n<h2>Et maintenant ?</h2>\n<p>Mis bout à bout, ces dépêches dessinent un fil : la valeur s'est déplacée vers ce qui fait tourner les modèles — les accès, les données, les infrastructures qui les hébergent, jusqu'aux frigos. La question de la dépendance n'est plus réservée aux états-majors : elle se pose aussi pour un éditeur dont les articles sont aspirés, ou un développeur dont la clé API finit dans l'entraînement d'un autre. Les annonces de la semaine ne règlent rien, elles rendent le terrain visible.</p>",
+ "pivot": "12eddb495c6b9015",
+ "tags": [
+  "sécurité",
+  "france",
+  "open-source",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2354083-des-frigos-de-supermarches-pirates-partout-en-france-le-fosse-invisible-de-lia-et-les-bots-russes-toujours-actifs-malgre-les-frappes-sur-yandex-on-vous-raconte-la-semaine-cyberguerre.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  }
+ ],
+ "date": "2026-10-18T13:06:10+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1616,
+  "sortie": 4750
+ }
+}

@@ -1,5 +1,88 @@
 [
  {
+  "id": "6a7dc7ad575b8057",
+  "slug": "nvidia-dement-l-arret-de-la-rtx-5090-mais-reconnait-un-approvisionneme-6a7dc7",
+  "titre": "Nvidia dément l'arrêt de la RTX 5090, mais reconnaît un approvisionnement tendu",
+  "resume": "Jeff Fisher, vice-président senior de Nvidia, a démenti le 16 octobre à Taipei l'arrêt de la RTX 5090. Il a toutefois reconnu, dans la même réponse, que la chaîne d'approvisionnement ne suivait pas. La carte venait de disparaître de la boutique en ligne américaine de Nvidia, ce qui avait nourri les rumeurs.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/nvidia/3290057_nvidia-jure-que-la-rtx-5090-nest-pas-arretee-juste-rationnee",
+  "date_source": "2026-10-18T20:47:10+00:00",
+  "date_redac": "2026-10-18T21:45:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 692,
+   "sortie": 139
+  }
+ },
+ {
+  "id": "59264af8f403d8f4",
+  "slug": "google-tv-tv-vibehack-un-projet-github-qui-retire-les-pubs-grace-a-l-i-59264a",
+  "titre": "Google TV : tv-vibehack, un projet GitHub qui retire les pubs grâce à l'IA",
+  "resume": "Le projet tv-vibehack, hébergé sur GitHub, s'appuie sur une IA pour débarrasser Google TV de ses publicités et offrir un accueil façon Apple TV. Le journaliste de Frandroid l'a testé sur une télé Philips : dix minutes lui ont suffi. Le résultat fonctionne très bien, à condition de savoir ce qu'on touche.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/android/google-tv/3290159_google-tv-lent-et-envahi-par-les-pubs-le-projet-tv-vibehack-corrige-tout-ca-grace-a-lia-jai-tente-lexperience",
+  "date_source": "2026-10-18T20:43:09+00:00",
+  "date_redac": "2026-10-18T21:45:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 702,
+   "sortie": 453
+  }
+ },
+ {
+  "id": "cc786b7f5fb04fb4",
+  "slug": "anthropic-consacre-5-de-ses-actions-a-un-fonds-d-interet-public-cc786b",
+  "titre": "Anthropic consacre 5 % de ses actions à un fonds d'intérêt public",
+  "resume": "Anthropic annonce consacrer 5 % de ses actions à un fonds d'intérêt public, rapporte TechCrunch. L'engagement porte sur des titres de la société elle-même. La gouvernance du fonds, ses modalités de fonctionnement et ses bénéficiaires ne sont pas précisés dans l'extrait disponible.",
+  "tags": [
+   "business",
+   "société",
+   "claude"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+  "date_source": "2026-10-18T20:37:40+00:00",
+  "date_redac": "2026-10-18T21:45:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 625,
+   "sortie": 758
+  }
+ },
+ {
+  "id": "ece438ed7fcb2c6a",
+  "slug": "z9pe-d8-ws-la-carte-mere-a-256-go-de-ddr3-n-enumere-aucun-gpu-32-go-ece438",
+  "titre": "Z9PE-D8 WS : la carte mère à 256 Go de DDR3 n'énumère aucun GPU 32 Go",
+  "resume": "Un membre de r/LocalLLaMA a acheté une carte mère Z9PE-D8 WS (quatre slots x16, 256 Go de DDR3 RDIMM) pour y loger deux V620 et deux Mi50 32 Go. Il visait Qwen3.6-35B-A3B en q4 avec 131k de contexte en kv q8. Verdict : la carte n'énumère aucun des GPU 32 Go. Il cherche maintenant des recommandations de carte mère et de mémoire, sans vouloir dépenser 1 000 dollars.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d8hs/i_messed_up_buying_z9ped8_ws_with_4_x16_slots_and/",
+  "date_source": "2026-10-18T20:17:26+00:00",
+  "date_redac": "2026-10-18T21:46:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 828,
+   "sortie": 1014
+  }
+ },
+ {
   "id": "35e6dc3d99ba032b",
   "slug": "openclaw-publie-la-version-2026-10-5-35e6dc",
   "titre": "OpenClaw publie la version 2026.10.5",
@@ -18,6 +101,28 @@
    "modele": "deepseek-flash",
    "entree": 593,
    "sortie": 474
+  }
+ },
+ {
+  "id": "9f041e828e5f6e37",
+  "slug": "nvidia-sort-nemotron-3-5-bolt-seul-modele-a-tenir-en-24-go-face-a-meta-9f041e",
+  "titre": "NVIDIA sort Nemotron 3.5 Bolt, seul modèle à tenir en 24 Go face à Meta",
+  "resume": "En 72 heures, quatre gros modèles à poids ouverts sont sortis. Meta lance Muse Spark Open (816 Md de paramètres, 42 Md actifs, contexte 1M), mais son usage « desktop » suppose deux Mac Studio M5 Ultra de 512 Go, ou quatre de 256 Go pour environ 38 000 dollars. NVIDIA répond avec Nemotron 3.5 Bolt : 74 Md au total, 9 Md actifs, quantifié jusqu'en 2 bits pour tenir dans 24 Go.",
+  "tags": [
+   "meta",
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 4,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/",
+  "date_source": "2026-10-18T20:10:16+00:00",
+  "date_redac": "2026-10-18T21:46:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 893,
+   "sortie": 952
   }
  },
  {
@@ -250,6 +355,27 @@
    "modele": "deepseek-flash",
    "entree": 800,
    "sortie": 1213
+  }
+ },
+ {
+  "id": "375e1eccf6f21499",
+  "slug": "chatllm-cpp-ajoute-le-support-des-modeles-intern-decision-375e1e",
+  "titre": "chatllm.cpp ajoute le support des modèles Intern-Decision",
+  "resume": "Le projet chatllm.cpp prend désormais en charge les modèles Intern-Decision. Pour l'instant, seul le texte est supporté. Leur particularité : toutes les réponses sont générées en une seule passe, chaque position de décision étant remplie via un marqueur « <decision> » et produite de façon diffusion, là où des modèles comme H2O-Lightning génèrent une réponse par passe. Résultat, les décisions sont généralement plus rapides.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9413j/chatllmcpp_supports_interndecision_models/",
+  "date_source": "2026-10-18T14:04:17+00:00",
+  "date_redac": "2026-10-18T21:46:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 701,
+   "sortie": 145
   }
  },
  {

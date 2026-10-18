@@ -1,0 +1,41 @@
+{
+ "slug": "nemotron-3-5-bolt-muse-spark-la-course-aux-poids-ouverts-se--9f041e",
+ "titre": "Nemotron 3.5 Bolt, Muse Spark : la course aux poids ouverts se joue en 24 Go",
+ "chapo": "Quatre gros modèles à poids ouverts en 72 heures : Meta aligne 816 milliards de paramètres quand Nvidia répond avec un modèle qui tient dans 24 Go. Pendant ce temps, les agents autonomes se heurtent à des sites qui leur ferment la porte, et une fuite de clés API chez OpenCode rappelle que l'accès au web a un prix.",
+ "html": "<h2 id=\"deux-philosophies-un-meme-week-end\">Deux philosophies, un même week-end</h2>\n<p>En 72 heures, quatre gros modèles à poids ouverts sont sortis. Le plus gros vient de Meta : <strong>Muse Spark Open</strong> aligne 816 milliards de paramètres, dont 42 milliards actifs, avec un contexte d'un million de tokens. En face, <strong>Nemotron 3.5 Bolt</strong> de NVIDIA totalise 74 milliards de paramètres, 9 milliards actifs, et se quantifie jusqu'en 2 bits pour tenir dans 24 Go.</p>\n<p>Les deux approches ne répondent pas à la même question. Meta vise la capacité brute et la fenêtre de contexte ; NVIDIA vise le matériel que les gens possèdent déjà. Le fil r/LocalLLaMA le résume sans détour : sur les quatre sorties du week-end, c'est le seul à tenir dans 24 Go.</p>\n<p>Ce n'est pas un détail de fiche technique. Un modèle qui tient dans 24 Go tourne sur une machine existante. Un modèle qui réclame deux Mac Studio M5 Ultra de 512 Go — ou quatre de 256 Go pour environ 38 000 dollars — décrit surtout l'écart entre « poids ouverts » et « accessible ».</p>\n<h2 id=\"le-materiel-rattrape-la-course\">Le matériel rattrape la course</h2>\n<p>Cette contrainte de mémoire n'est pas isolée. Le 16 octobre à Taipei, Jeff Fisher, vice-président senior de Nvidia, a démenti l'arrêt de la RTX 5090. La carte venait de disparaître de la boutique en ligne américaine du fabricant, ce qui avait nourri les rumeurs. Dans la même réponse, il a reconnu que la chaîne d'approvisionnement ne suivait pas.</p>\n<p>Les deux nouvelles se lisent ensemble, sans que l'une cause l'autre : d'un côté des modèles calibrés pour 24 Go, de l'autre une carte haut de gamme dont la disponibilité est tendue. La course au local se joue autant sur le silicium que sur les pondérations.</p>\n<p>Quantifier jusqu'en 2 bits est une réponse d'ingénierie à ce mur : on compresse le modèle plutôt que d'attendre des cartes.</p>\n<h2 id=\"les-agents-autonomes-cherchent-la-porte\">Les agents autonomes cherchent la porte</h2>\n<p>Les agents autonomes sont la promesse du moment : OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail. Mais une partie des sites refuse désormais de les laisser entrer, rapporte The Verge. Sans accès au web, ces agents perdent une bonne part de leur intérêt.</p>\n<p>La sécurité, elle, ne relève pas de la promesse. OpenCode, un agent de programmation open source, a confirmé samedi 17 octobre une intrusion qui a pu exposer les clés API OpenAI, Anthropic et Google de 1,4 % des utilisateurs de sa Console. L'entreprise relie l'incident à une « attaque par distillation », cette méthode qui consiste à exploiter un modèle pour en entraîner un autre. Des victimes signalent déjà des frais de plusieurs centaines de dollars.</p>\n<p>Le point commun des deux affaires : l'agent a besoin d'un accès. Dans un cas, le site le ferme ; dans l'autre, il a été pris.</p>\n<h2 id=\"claude-code-descend-jusqu-au-desassembla\">Claude Code descend jusqu'au désassemblage</h2>\n<p>L'usage le plus concret de la semaine ne ressemble pas à une démo. L'utilisateur ColCarlo99 a refait <strong>Tzar: The Burden of the Crown</strong> (2000) en Rust avec le moteur Bevy, en s'appuyant sur Claude Code. Le flux de travail : le modèle lit le désassemblage de l'exécutable original et porte les systèmes un par un — combat, IA, générateur de cartes, scripts de mission — pendant que le développeur compare avec le jeu d'origine et signale les écarts.</p>\n<p>Plus de 600 tests et des notes de mémoire entre sessions limitent la dérive sur la durée. Le projet, gratuit et open source, fait tourner campagnes et cartes aléatoires sous Windows 10/11 jusqu'en 4K, mais requiert une copie de Tzar.</p>\n<p>La méthode dit quelque chose du moment : le modèle ne remplace pas le développeur, il absorbe le travail fastidieux pendant que l'humain garde la référence et tranche.</p>\n<h2>Et maintenant ?</h2>\n<p>En 72 heures, la même actualité aura montré un modèle de 816 milliards de paramètres et un modèle de 9 milliards actifs, une carte graphique introuvable en boutique et un agent open source dont les clés ont fui. Le débat sur les poids ouverts se déplace : la question n'est plus seulement de savoir qui publie, mais ce qui tient sur la machine d'en face, ce que les sites acceptent de laisser passer, et ce qu'un agent peut faire d'un accès qu'on lui donne.</p>",
+ "pivot": "9f041e828e5f6e37",
+ "tags": [
+  "open-source",
+  "meta",
+  "agents",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/nvidia/3290057_nvidia-jure-que-la-rtx-5090-nest-pas-arretee-juste-rationnee"
+  },
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1x91lor/rebuilt_a_2000_rts_from_scratch_with_claude_code/"
+  }
+ ],
+ "date": "2026-10-18T21:46:34+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1619,
+  "sortie": 3712
+ }
+}

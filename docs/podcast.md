@@ -42,6 +42,20 @@ Contrôle TLS strict : **9 URL distinctes, 12 requêtes** avec trois lectures Ra
 
 Chrome sur la **production HTTPS réelle**, sans substitution des réponses et sans JavaScript : clic depuis l'accueil, démarrage des trois lecteurs et six téléchargements identiques à 390/1440 px, ouverture du RSS ; aucune erreur console ni débordement. Page et flux sont livrés, pas seulement préparés. Aucune nouvelle génération audio, soumission à un annuaire, chaîne YouTube ou mesure de gain d'audience dans cette mission.
 
+## Croissance du 18 octobre — lire les épisodes sans audio
+
+Une seule amélioration : les trois épisodes des 15–17 octobre proposent « Lire le texte de l’épisode » sur `/podcast/`, avec un accordéon HTML natif. Le texte provient exactement du `script.txt` déjà utilisé pour la synthèse vocale ; ce n’est ni une transcription synchronisée ni une nouvelle rédaction. Aucun texte, MP3, GUID, date éditoriale ou flux RSS n’est réécrit.
+
+Le champ optionnel `script` de l’index lie explicitement chaque épisode à son fichier sous `contenus/podcast/AAAA-MM-JJ/script.txt`. Aucun rapprochement par date n’est deviné. Sans champ, aucun bloc n’est affiché ; un chemin déclaré invalide, lié symboliquement, vide ou absent fait échouer le build. Le contenu est échappé, ses retours à la ligne conservés, sans nouveau JavaScript ni dépendance de production.
+
+**Réemploi examiné le 18/10 :** [shipshapecode/starpod](https://github.com/shipshapecode/starpod), MIT, dernier push API `2026-09-02T18:33:16Z`, code `c9601ca128507c4fd19910714095425007bfbe45`, module `packages/starpod/src/lib/transcript.ts`. Son parseur multi-format et ses repères temporels dépassent notre besoin de texte brut local. Aucun code copié ; extension du module interne existant. Pelican (AGPL-3.0, push `2026-10-13T10:31:16Z`) également repéré mais non adopté.
+
+**Recette locale :** base `53a7894ab5dde44d167e7d7124703645c89c1844` dans une copie isolée hors Bureau, celui-ci illisible en cron. Contrats rouge/vert puis **134 tests Python + 4 Node réussis**. Première suite complète : trois erreurs de fixture, car l’index test copié ne contenait pas les nouveaux fichiers explicitement référencés ; dépendances de fixture ajoutées sans affaiblir le contrôle des fichiers absents. Build réel, RSS podcast identique au module précédent, **312 fichiers de données/audio/contenus préservés**. Essai isolé `--essai --sans-redaction` réussi : aucun transfert, rédaction ou annonce ; journal conservé en préfixe et sceaux inchangés. Collecte partielle préexistante : Siècle Digital 403, Reddit Claude 429.
+
+**Navigateur local :** Chrome éphémère dédié, JavaScript désactivé, 390 et 1440 px : ouverture/fermeture des trois textes, contenu exact, contrôle clavier, aucun débordement. Captures relues. Aucun accès au profil Chrome personnel verrouillé ; aucune configuration navigateur partagée modifiée.
+
+Effet attendu : permettre la lecture sans son et rendre le contenu textuel accessible sur la page. Aucune hausse de trafic ni indexation effective démontrée. Vérification de production à consigner après le pipeline cloud.
+
 ## Épisode quotidien du 17 octobre — publié à la suite
 
 Épisode `breve-2026-10-17`, commit `9a6f300bbc9b357ac363aa07b6719052da329efb` : quatre sujets (Meta, Nvidia Dory, llama.cpp, BYD), sélectionnés parmi les huit brèves les plus récemment rédigées au SHA `1156f5d2bed9130cd995fab01434b1d2d1c98c6f`. [Script](../contenus/podcast/2026-10-17/script.txt), [sources et recette](../contenus/podcast/2026-10-17/sources.md) conservés. Sortie de Dory le 16 octobre distinguée de son relais du 17 ; objectif de CA distinct du reversement des bénéfices.

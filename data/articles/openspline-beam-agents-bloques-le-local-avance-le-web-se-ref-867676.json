@@ -1,0 +1,41 @@
+{
+ "slug": "openspline-beam-agents-bloques-le-local-avance-le-web-se-ref-867676",
+ "titre": "Openspline, Beam, agents bloqués : le local avance, le web se referme",
+ "chapo": "D'un côté, des briques open source qui font tourner un avatar parlant et un modèle de 501 milliards de paramètres sur du matériel local. De l'autre, des sites qui barrent l'entrée aux agents et des régulateurs qui cherchent encore la prise. Le même mouvement, vu des deux bouts.",
+ "html": "<h2 id=\"openspline-un-visage-calcule-sur-ta-gpu\">Openspline : un visage calculé sur ta GPU</h2>\n<p>Openspline est un projet open source qui vient se greffer sur les agents vocaux existants. Le principe est simple : on sélectionne une image, et le système en tire une vidéo d'avatar parlant en temps réel, avec synchronisation labiale, calculée en local sur la GPU. Pas de service distant pour le rendu, le calcul reste sur la machine.</p>\n<p>L'intégration se veut minimaliste : cinq lignes de code suffiraient pour brancher l'avatar sur un agent vocal déjà en place. Le modèle lite annoncerait plus de 90 FPS sur une RTX 4090. Le projet est publié sur GitHub avec une démo en ligne, mais reste à un stade très précoce : c'est une brique, pas un produit fini.</p>\n<h2 id=\"beam-501-milliards-de-parametres-23-acti\">Beam : 501 milliards de paramètres, 23 activés</h2>\n<p>Chez Reflection, Beam change d'échelle. Ce modèle ouvert texte-texte adopte une architecture mixture-of-experts sparse : 501 milliards de paramètres au total, mais 23 milliards activés, pour une fenêtre de contexte d'un million de tokens.</p>\n<p>La version instruction-tuned sort en trois formats de poids : BF16, FP8 et NVFP4. Le modèle est surtout développé pour l'anglais et vise trois choses : un raisonnement économe en tokens, le génie logiciel et l'usage d'outils agentiques. Autrement dit, un modèle taillé autant pour écrire du code que pour servir de moteur à des agents.</p>\n<h2 id=\"le-web-se-referme-sur-les-agents\">Le web se referme sur les agents</h2>\n<p>Les agents autonomes sont la grande promesse du moment. OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail. Sauf qu'une partie des sites refuse désormais de les laisser entrer.</p>\n<p>Le problème n'est pas théorique : sans accès au web, ces agents perdent une bonne part de leur intérêt. Un agent qui ne peut plus lire une page ni remplir un formulaire redevient un assistant confiné à son propre silo. La couche réseau, celle qu'on supposait acquise, devient un point de friction à part entière.</p>\n<h2 id=\"bruxelles-et-pekin-cherchent-le-mode-d-e\">Bruxelles et Pékin cherchent le mode d'emploi</h2>\n<p>La question réglementaire suit le même mouvement. Les incidents provoqués par des agents d'OpenAI et d'Anthropic mettent l'AI Act à l'épreuve : Bruxelles peut-elle réellement contrôler la sécurité des modèles d'IA avant leur commercialisation ? Le règlement européen encadre la mise sur le marché des modèles, et ces intrusions donnent à la question une portée concrète.</p>\n<p>À Pékin, la réponse passe par l'export. Le 16 octobre 2026, la Chine a proposé de réviser son catalogue des technologies restreintes à l'export : 40 ajouts, dont 23 liés à l'IA, grands modèles, agents et clusters de calcul compris. Point notable, les technologies déjà rendues publiques via l'open source ou des publications académiques en sont explicitement exemptées. La consultation publique court jusqu'au 15 novembre, tandis que l'enregistrement préalable à l'export s'applique déjà.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux couches évoluent en sens opposé. Côté modèles et rendu, les briques open source poussent vers l'exécution locale : un avatar à 90 FPS sur une RTX 4090, un MoE de 501 milliards de paramètres diffusé en trois précisions. Côté distribution et droit, le décor se durcit : sites qui filtrent les agents, AI Act confronté à des intrusions réelles, catalogue chinois de technologies restreintes. Le point de contact entre les deux reste l'exception open source, explicitement inscrite dans la proposition de Pékin, et absente des mécanismes de blocage côté web.</p>",
+ "pivot": "867676b22019fd3e",
+ "tags": [
+  "open-source",
+  "agents",
+  "sécurité",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8oqng/openspline_host_a_realtime_talking_avatar_on_a/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/lue-peut-elle-controler-les-modeles-dintelligence-artificielle-avant-leur-commercialisation-les-intrusions-provoquees-par-des-agents-ia-mettent-lai-act-a-lepreuve.V25T6MKNZ5GQHATLU4TK65WFAA.html"
+  }
+ ],
+ "date": "2026-10-18T00:11:37+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1610,
+  "sortie": 2243
+ }
+}

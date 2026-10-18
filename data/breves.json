@@ -1,5 +1,68 @@
 [
  {
+  "id": "867676b22019fd3e",
+  "slug": "openspline-un-avatar-parlant-en-temps-reel-genere-en-local-sur-ta-gpu-867676",
+  "titre": "Openspline : un avatar parlant en temps réel généré en local sur ta GPU",
+  "resume": "Openspline est un projet open source qui ajoute une couche d'avatar aux agents vocaux existants. Il suffit de sélectionner une image pour générer une vidéo d'avatar parlant en temps réel, avec synchronisation labiale, calculée en local sur la GPU. L'intégration à un agent vocal se ferait en cinq lignes de code, et le modèle lite atteindrait plus de 90 FPS sur une RTX 4090. Le projet, encore à un stade très précoce, est publié sur GitHub avec une démo en ligne.",
+  "tags": [
+   "open-source",
+   "agents",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8oqng/openspline_host_a_realtime_talking_avatar_on_a/",
+  "date_source": "2026-10-17T23:48:06+00:00",
+  "date_redac": "2026-10-18T00:11:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 766,
+   "sortie": 500
+  }
+ },
+ {
+  "id": "db44df239dd6f133",
+  "slug": "fuite-chez-opencode-une-cle-anthropic-stockee-videe-de-158-en-une-nuit-db44df",
+  "titre": "Fuite chez OpenCode : une clé Anthropic stockée vidée de 158 $ en une nuit",
+  "resume": "OpenCode a prévenu par e-mail le 17 octobre d'un accès non autorisé à un ancien système de sa console, l'exposition débutant le 17 octobre à 00h30 UTC. Un utilisateur rapporte que sa clé Anthropic, stockée uniquement là et jamais utilisée auparavant, a servi pendant la nuit à des appels Opus, faisant passer son solde de 158 $ à zéro avant toute notification. Anthropic indique dans une première réponse que les crédits consommés ne sont généralement pas remboursables, tandis qu'OpenCode dit discuter avec les fournisseurs d'un dédommagement. Les clés OpenAI et Google enregistrées dans la console sont également concernées.",
+  "tags": [
+   "sécurité",
+   "claude",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x8o35r/psa_opencode_breach_my_stored_anthropic_key_was/",
+  "date_source": "2026-10-17T23:16:21+00:00",
+  "date_redac": "2026-10-18T00:11:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 786,
+   "sortie": 444
+  }
+ },
+ {
+  "id": "6ba8d5bc1a2f7954",
+  "slug": "un-utilisateur-de-claude-signale-des-read-only-a-repetition-sur-opus-5-6ba8d5",
+  "titre": "Un utilisateur de Claude signale des « read-only » à répétition sur Opus 5.5",
+  "resume": "Sur le subreddit r/ClaudeAI, un utilisateur rapporte que son Claude, en version Opus 5.5, répète « read-only » dès qu'une action pourrait impliquer une écriture. Le modèle irait jusqu'à écrire « Going read a log, read-only » pour garantir qu'aucune base de production ne sera purgée. L'auteur juge la formule exagérée et demande si d'autres observent les mêmes répétitions.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x8nr3r/anyone_elses_claude_suddenly_started_using/",
+  "date_source": "2026-10-17T23:00:38+00:00",
+  "date_redac": "2026-10-18T00:11:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 729,
+   "sortie": 822
+  }
+ },
+ {
   "id": "8ab1520afea5d4f3",
   "slug": "strata-avant-la-0-1-45-l-echantillonnage-par-defaut-tombait-en-greedy-8ab152",
   "titre": "Strata : avant la 0.1.45, l'échantillonnage par défaut tombait en greedy",
@@ -42,6 +105,26 @@
   }
  },
  {
+  "id": "5827c7abb6791edd",
+  "slug": "animlang-un-depot-pour-creer-des-animations-avec-un-llm-5827c7",
+  "titre": "AnimLang : un dépôt pour créer des animations avec un LLM",
+  "resume": "Le subreddit r/LocalLLaMA relaie AnimLang, un workflow et un dépôt pour créer des animations à l'aide d'un LLM, autour de GSAP, ThreeJS et Manim. Il suffit de copier le lien du dépôt dans son harnais de code, ou de lancer npx animlang@latest setup --harness opencode. L'auteur indique que les meilleurs résultats viennent surtout de modèles chinois, Kimi en tête.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x8lovk/animlang_built_simple_workflowrepo_for_creating/",
+  "date_source": "2026-10-17T21:25:30+00:00",
+  "date_redac": "2026-10-18T00:11:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 793,
+   "sortie": 651
+  }
+ },
+ {
   "id": "5c0edf164cae13e1",
   "slug": "qwen-3-8-flash-next-reparti-sur-deux-pc-un-macbook-et-deux-iphone-5c0edf",
   "titre": "Qwen 3.8 Flash Next réparti sur deux PC, un MacBook et deux iPhone",
@@ -60,6 +143,27 @@
    "modele": "deepseek-flash",
    "entree": 907,
    "sortie": 812
+  }
+ },
+ {
+  "id": "8cbe930dd83bc591",
+  "slug": "trois-habitudes-claude-code-piquees-dans-d-autres-setups-8cbe93",
+  "titre": "Trois habitudes Claude Code piquées dans d'autres setups",
+  "resume": "Un utilisateur a compilé des configurations Claude Code décrites par d'autres et testé celles qui tiennent en usage réel. Côté subagents, il conseille d'en installer deux ou trois seulement : le dépôt awesome-claude-code-subagents de VoltAgent en recense plus de 160, mais il vaut mieux demander au modèle lesquels serviront ce dépôt précis, lire chaque fichier avant installation — ce sont des prompts qui peuvent réclamer des outils — et réduire leurs accès. Autre astuce : faire configurer par Claude Code son propre hook Notification, qui affiche « Claude needs input : [dossier projet] » quand il attend une réponse.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x8lae3/3_small_claude_code_habits_from_other_peoples/",
+  "date_source": "2026-10-17T21:08:09+00:00",
+  "date_redac": "2026-10-18T00:11:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 808,
+   "sortie": 452
   }
  },
  {
@@ -102,6 +206,26 @@
    "modele": "deepseek-flash",
    "entree": 824,
    "sortie": 447
+  }
+ },
+ {
+  "id": "2ab734a0a45dab66",
+  "slug": "opus-5-5-des-taches-plus-longues-et-plus-gourmandes-en-tokens-2ab734",
+  "titre": "Opus 5.5 : des tâches plus longues et plus gourmandes en tokens",
+  "resume": "Sur Reddit, un utilisateur de Claude rapporte qu'Opus 5.5 met beaucoup plus de temps à traiter la quasi-totalité des tâches et consomme davantage de tokens, chaque requête semblant exiger une réflexion préalable. Il utilise le modèle en mode medium/high et juge les réponses « vraiment bonnes ». Il regrette la réactivité d'Opus 4.8, qui ne réfléchissait qu'au besoin, et cherche des astuces.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x8kjz6/opus_55_taking_so_long_and_token_usage/",
+  "date_source": "2026-10-17T20:36:59+00:00",
+  "date_redac": "2026-10-18T00:11:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 780,
+   "sortie": 889
   }
  },
  {

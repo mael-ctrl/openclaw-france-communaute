@@ -1,0 +1,41 @@
+{
+ "slug": "kolibri-1-arrive-dans-llama-cpp-les-quants-iq-k-affutent-leu-a915a8",
+ "titre": "Kolibri-1 arrive dans llama.cpp, les quants IQ_K affûtent leurs armes",
+ "chapo": "Aleph Alpha entre dans l'écosystème llama.cpp avec Kolibri-1, un MoE de 78 milliards de paramètres orienté allemand et anglais. À côté, une proposition de quantifications IQ_K, l'intrusion confirmée chez OpenCode et les nouvelles conditions de Meta rappellent que la couche outillage et la couche données bougent ensemble.",
+ "html": "<h2 id=\"kolibri-1-un-moe-d-aleph-alpha-dans-llam\">Kolibri-1 : un MoE d'Aleph Alpha dans llama.cpp</h2>\n<p>Le support de <strong>Kolibri-1</strong> vient d'être ajouté à llama.cpp via une pull request. Le modèle d'Aleph Alpha est un MoE de 78 milliards de paramètres, dont 3,46 milliards actifs par token. Il est orienté allemand et anglais, et embarque un mode de raisonnement explicite ainsi que l'appel d'outils.</p>\n<p>Le contexte annoncé grimpe jusqu'à <strong>1 048 576 tokens</strong>, même si le fournisseur recommande de rester sous 262 144. Autrement dit, la fenêtre théorique est très large, l'usage conseillé l'est moins.</p>\n<p>Reste un point bloquant pour qui veut tester tout de suite : <strong>les GGUF ne sont pas encore disponibles</strong>. Le support est posé côté llama.cpp, mais le format quantifié que la plupart des utilisateurs attendent n'est pas encore là.</p>\n<h2 id=\"quantifications-iq-k-meme-taille-moins-d\">Quantifications IQ_K : même taille, moins de divergence</h2>\n<p>Une autre proposition soumise à llama.cpp ajoute cinq types de quantification — <strong>IQ2_K à IQ6_K</strong>. Pour l'instant, ils n'ont été testés que sur un seul modèle, ce qui limite la portée du résultat.</p>\n<p>Leur promesse tient en une ligne : des tailles de fichiers identiques à celles des quants Q, avec une divergence KL nettement meilleure — en clair, un écart plus faible entre la distribution du modèle quantifié et celle du modèle d'origine. Le prix à payer est une légère baisse de performance, et une création encore assez lente.</p>\n<p>La nouvelle compte parce qu'elle touche au nerf de la guerre du local : à taille de fichier égale, ce qui compte est la perte encaissée au passage.</p>\n<h2 id=\"opencode-des-cles-api-volees-pour-entrai\">OpenCode : des clés API volées pour entraîner un autre modèle</h2>\n<p>OpenCode, un agent de programmation open source, a confirmé samedi 17 octobre une intrusion qui a pu exposer les clés API OpenAI, Anthropic et Google de <strong>1,4 % des utilisateurs</strong> de sa Console. L'entreprise relie l'incident à une « attaque par distillation », une méthode qui consiste à exploiter un modèle pour en entraîner un autre.</p>\n<p>Des victimes signalent déjà des frais de plusieurs centaines de dollars. Le mode opératoire place la clé API au centre : ce n'est plus seulement un identifiant d'accès, c'est la ressource qu'on vient chercher.</p>\n<p>Pour les utilisateurs d'agents de code, l'incident rappelle qu'un outil open source branché sur des fournisseurs payants héberge des secrets qui valent de l'argent.</p>\n<h2 id=\"ce-que-les-modeles-consomment-ce-qu-ils-\">Ce que les modèles consomment, ce qu'ils reconstruisent</h2>\n<p>Les nouveaux termes de Meta, qui entrent en vigueur le <strong>30 octobre</strong>, semblent autoriser le groupe à crawler et scraper les sites « associés » aux entreprises qui utilisent ses plateformes, y compris les éditeurs en ligne, selon un rapport de Nieman Lab. Meta pourrait ensuite utiliser ce contenu externe pour « développer, améliorer, rechercher » et « entraîner ».</p>\n<p>À l'autre bout de la chaîne, un utilisateur du nom de ColCarlo99 a refait <em>Tzar: The Burden of the Crown</em> (2000) en Rust avec le moteur Bevy, en s'appuyant sur Claude Code. Le flux de travail : le modèle lit le désassemblage de l'exécutable original et porte les systèmes un par un — combat, IA, générateur de cartes, scripts de mission — pendant que le développeur compare avec le jeu d'origine et signale les écarts. Plus de 600 tests et des notes de mémoire entre sessions limitent la dérive sur la durée.</p>\n<p>Le projet est gratuit et open source, fait tourner campagnes et cartes aléatoires sous Windows 10/11 jusqu'en 4K, mais requiert une copie de Tzar.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux dépêches llama.cpp le même jour, sur le support d'un modèle et sur la compression : l'outillage local avance sur les deux fronts à la fois. Ce qui se joue là n'est pas spectaculaire, c'est la question de savoir quel modèle tient sur quelle machine, et à quel coût en qualité. Pendant ce temps, les deux extrémités de la chaîne se dessinent : d'un côté des conditions d'utilisation qui élargissent la matière première, de l'autre un modèle capable de porter un jeu de 2000 depuis son désassemblage.</p>",
+ "pivot": "a915a80c04452897",
+ "tags": [
+  "open-source",
+  "agents",
+  "sécurité",
+  "meta"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x87kgj/model_add_kolibri1_alephalpha_support_by_riteme/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers"
+  },
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1x91lor/rebuilt_a_2000_rts_from_scratch_with_claude_code/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8zj9j/new_quant_types_suggested_iq2_k_iq3_k_iq4_k_iq5_k/"
+  }
+ ],
+ "date": "2026-10-18T13:24:15+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1624,
+  "sortie": 3412
+ }
+}

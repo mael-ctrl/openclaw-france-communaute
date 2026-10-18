@@ -1,5 +1,132 @@
 [
  {
+  "id": "21fc5b9178c4e3c3",
+  "slug": "anthropic-valorisee-2-000-milliards-plus-du-double-de-35-geants-du-saa-21fc5b",
+  "titre": "Anthropic valorisée 2 000 milliards, plus du double de 35 géants du SaaS",
+  "resume": "Un post de r/ClaudeAI compare la valorisation d'Anthropic, 2 000 milliards de dollars, aux 948 milliards que pèsent 35 sociétés de SaaS. Le chiffre d'affaires trimestriel d'Anthropic atteint 11,5 milliards, contre 53,4 milliards pour ces 35 entreprises, dont Salesforce, Adobe, SAP, ServiceNow et Intuit. L'auteur s'interroge sur cet écart entre valorisation et revenus.",
+  "tags": [
+   "business",
+   "claude",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x9ain3/anthropic_at_2_trillion_vs_35_saas_companies_at/",
+  "date_source": "2026-10-18T18:29:34+00:00",
+  "date_redac": "2026-10-18T18:51:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 795,
+   "sortie": 870
+  }
+ },
+ {
+  "id": "a8987cbac6db751f",
+  "slug": "une-femme-arretee-a-philadelphie-pour-avoir-bloque-un-robot-de-livrais-a8987c",
+  "titre": "Une femme arrêtée à Philadelphie pour avoir bloqué un robot de livraison Uber",
+  "resume": "Carolyn Marvin a été arrêtée à Philadelphie et inculpée pour trouble à l'ordre public. Elle avait bloqué le passage d'un robot de livraison Uber et refusé de s'écarter. Au micro de la chaîne ABC13, elle explique avoir protesté contre ces machines, qui prennent selon elle le travail des livreurs humains. L'incident illustre les tensions naissantes autour des robots de livraison dans l'espace public.",
+  "tags": [
+   "robots",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+  "date_source": "2026-10-18T18:28:10+00:00",
+  "date_redac": "2026-10-18T18:51:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 664,
+   "sortie": 656
+  }
+ },
+ {
+  "id": "38c1954c336b1670",
+  "slug": "un-modele-d-embedding-pour-chercher-du-texte-dans-des-images-38c195",
+  "titre": "Un modèle d'embedding pour chercher du texte dans des images",
+  "resume": "Un utilisateur de r/LocalLLaMA teste depuis quelques semaines Embedding Gemma 2, un modèle d'environ 330 Mo en Q8 avec 768 dimensions d'embedding, pour rechercher du texte à l'intérieur d'images. Il publie une capture montrant l'évolution de la similarité cosinus au fil de l'affinage de la requête textuelle, illustrant à la fois l'efficacité et les limites de l'approche. Le testeur prévient : les résultats restent à prendre avec des pincettes, car ils portent sur peu de jeux d'images et ne sont pas scientifiques. Il note aussi qu'un phrasé précis est nécessaire, citant l'exemple de « blond » contre « blonde ».",
+  "tags": [
+   "recherche",
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9acj4/embedding_model_can_be_used_to_search_text_inside/",
+  "date_source": "2026-10-18T18:22:43+00:00",
+  "date_redac": "2026-10-18T18:51:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 823,
+   "sortie": 212
+  }
+ },
+ {
+  "id": "4a3212037042f1fa",
+  "slug": "claude-code-estimerait-parfois-ses-delais-comme-un-developpeur-humain-4a3212",
+  "titre": "Claude Code estimerait parfois ses délais comme un développeur humain",
+  "resume": "Sur r/ClaudeAI, un utilisateur rapporte que Claude Code estime parfois ses délais comme un développeur humain : une phase de projet annoncée comme prenant « plusieurs jours, voire quelques semaines » est en réalité bouclée en une heure ou deux quand il lance la tâche. Il se demande si d'autres constatent ce décalage entre l'estimation annoncée par l'agent et son temps d'exécution réel.",
+  "tags": [
+   "claude",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x9a750/does_anyone_elses_claude_code_forget_its_an_ai/",
+  "date_source": "2026-10-18T18:16:51+00:00",
+  "date_redac": "2026-10-18T18:51:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 733,
+   "sortie": 528
+  }
+ },
+ {
+  "id": "ba7be8f48b72469d",
+  "slug": "un-demake-de-super-mario-64-sur-gba-code-par-claude-physique-bit-ident-ba7be8",
+  "titre": "Un demake de Super Mario 64 sur GBA codé par Claude, physique bit-identique",
+  "resume": "Un développeur a publié un demake de Super Mario 64 pour la Game Boy Advance dont le code a été entièrement écrit par Claude : lui a choisi le projet et les compromis, le modèle a produit le code, les tests et l'outillage. Le mouvement et les collisions de SM64 tournent sur un ARM7 à 16,8 MHz sans FPU, avec une démo jouable de 4 niveaux en 3D logicielle et une physique prouvée bit-identique à l'original. Le dépôt, sous licence MIT, ne contient rien de Nintendo.",
+  "tags": [
+   "claude",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x99sel/a_super_mario_64_demake_for_the_gba_built_with/",
+  "date_source": "2026-10-18T18:00:42+00:00",
+  "date_redac": "2026-10-18T18:51:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 843,
+   "sortie": 903
+  }
+ },
+ {
+  "id": "a0b32334da3fdf6d",
+  "slug": "un-patron-de-pme-automatise-40-des-taches-avec-claude-et-veut-reduire--a0b323",
+  "titre": "Un patron de PME automatise 40 % des tâches avec Claude et veut réduire ses effectifs",
+  "resume": "Sur r/ClaudeAI, un dirigeant de petite entreprise explique que des agents construits avec Claude absorbent 40 % des tâches quotidiennes de ses salariés, ce qui allège fortement sa charge de management. Ses équipes lui demandent ouvertement si l'IA va prendre leur emploi. Il envisage de ne garder que ses meilleurs éléments et de mieux les payer, tout en craignant une panique généralisée.",
+  "tags": [
+   "claude",
+   "agents",
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1x9985t/question_about_employee_acceptance/",
+  "date_source": "2026-10-18T17:38:48+00:00",
+  "date_redac": "2026-10-18T18:51:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 769,
+   "sortie": 477
+  }
+ },
+ {
   "id": "ca7940b2558768db",
   "slug": "disney-embauche-la-majorite-des-salaries-de-character-ai-ca7940",
   "titre": "Disney embauche la majorité des salariés de Character.AI",

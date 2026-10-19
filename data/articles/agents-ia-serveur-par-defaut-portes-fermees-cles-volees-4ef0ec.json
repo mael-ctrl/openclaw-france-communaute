@@ -1,0 +1,41 @@
+{
+ "slug": "agents-ia-serveur-par-defaut-portes-fermees-cles-volees-4ef0ec",
+ "titre": "Agents IA : serveur par défaut, portes fermées, clés volées",
+ "chapo": "D'un côté, une app grand public qui ouvre un serveur de pilotage par agents sans rien demander à personne. De l'autre, des sites qui leur claquent la porte et des clés API qui s'évaporent. Une même semaine, un même mouvement : les agents sortent du bac à sable.",
+ "html": "<h2 id=\"nvidia-active-le-pilotage-par-agents-san\">NVIDIA active le pilotage par agents, sans cocher de case</h2>\n<p>La version 11.0.9.565 de l'application NVIDIA, publiée le 13 octobre 2026, active par défaut un serveur qui permet à des agents IA de piloter le logiciel. L'utilisateur n'a donc rien à activer de son côté : l'option est en place dès la mise à jour.</p>\n<p>Le fait marquant n'est pas la fonctionnalité en elle-même, mais son caractère par défaut. Une app de pilote graphique, un serveur qui écoute, et une couche de pilotage par agents disponible sans démarche explicite : voilà ce que l'info installe, dans un logiciel grand public, sans que personne n'ait eu à le demander.</p>\n<p>C'est précisément le point que la dépêche souligne : l'option est là, tout de suite, sans action de l'utilisateur. Quelques jours plus tard, le 17 octobre, c'est un tout autre sujet qui occupe l'actualité des agents.</p>\n<h2 id=\"cles-api-volees-la-distillation-comme-mo\">Clés API volées : la distillation comme mobile</h2>\n<p>OpenCode, agent de programmation open source, a confirmé samedi 17 octobre une intrusion qui a pu exposer les clés API OpenAI, Anthropic et Google de 1,4 % des utilisateurs de sa Console. L'entreprise relie l'incident à une « attaque par distillation », une méthode qui consiste à exploiter un modèle pour en entraîner un autre.</p>\n<p>Le préjudice est concret : des victimes signalent déjà des frais de plusieurs centaines de dollars. Quant au vecteur, il en dit long sur la valeur des clés API, devenues le carburant d'un entraînement mené à distance, sur la facture de quelqu'un d'autre.</p>\n<h2 id=\"en-local-la-course-au-format-qui-tient-d\">En local, la course au format qui tient dans 24 Go</h2>\n<p>Sur r/LocalLLaMA, le constat est plus prosaïque. En 72 heures, quatre gros modèles à poids ouverts sont sortis. Meta a lancé Muse Spark Open : 816 milliards de paramètres, 42 milliards actifs, un contexte de 1M. Le hic, c'est la machine nécessaire pour un usage « desktop » : deux Mac Studio M5 Ultra de 512 Go, ou quatre de 256 Go, pour environ 38 000 dollars.</p>\n<p>NVIDIA répond avec Nemotron 3.5 Bolt : 74 milliards de paramètres au total, 9 milliards actifs, quantifié jusqu'en 2 bits pour tenir dans 24 Go. La compétition ne se joue plus seulement sur le nombre de paramètres, mais sur le format qui passe sur du matériel déjà présent.</p>\n<p>Illustration côté bricolage : un utilisateur détaille l'optimisation de Qwen 3.8 Flash Next sur deux cartes CMP 170HX en PCIe Gen2 x4, sans mod x16 ni TP2. Il combine un checkpoint W4A16 AutoRound, un vLLM patché, du pipeline parallelism et le décodage spéculatif MTP natif. À huit requêtes de code simultanées, il mesure 116 tok/s par requête et 231 ms avant le premier token.</p>\n<h2>Et maintenant ?</h2>\n<p>Mis bout à bout, ces quatre sujets dessinent un déplacement plutôt qu'une série d'anecdotes. Le pilotage par agents devient un réglage par défaut chez un éditeur grand public, l'accès au web devient un filtre que les sites actionnent, et les clés API deviennent une monnaie que l'on vole pour entraîner ailleurs. La question ouverte n'est pas de savoir si les agents vont se généraliser, mais qui tient les points de passage : l'éditeur qui ouvre un serveur, le site qui refuse la visite, le fournisseur qui émet la clé.</p>",
+ "pivot": "4ef0ecab4e7beab4",
+ "tags": [
+  "agents",
+  "sécurité",
+  "open-source",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/nvidia/3290323_votre-app-nvidia-laisse-peut-etre-deja-des-agents-ia-la-piloter"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9iufz/qwen_38_flash_next_optimized_for_two_cmp_170hx/"
+  }
+ ],
+ "date": "2026-10-19T08:11:01+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1590,
+  "sortie": 3045
+ }
+}

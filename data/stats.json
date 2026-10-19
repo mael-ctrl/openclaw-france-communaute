@@ -1,22 +1,18 @@
 {
- "runs": 252,
- "items_collectes": 1980,
- "breves_publiees": 871,
- "articles_publies": 153,
- "tokens_entree": 871702,
- "tokens_sortie": 1260597,
+ "runs": 253,
+ "items_collectes": 1988,
+ "breves_publiees": 876,
+ "articles_publies": 154,
+ "tokens_entree": 876864,
+ "tokens_sortie": 1266621,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-19T06:06:50+00:00",
+ "dernier_run": "2026-10-19T08:11:01+00:00",
  "solde": {
-  "total": "85.42",
+  "total": "85.41",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-18T03:35:19+00:00",
-   "message": "brève impossible (The whale girl mode in DeepSeek-V4.1-Flash-1017 is still the) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-18T09:00:17+00:00",
    "message": "brève impossible (The new local coding LLM's are pretty decent and a huge jump) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-19T05:10:36+00:00",
    "message": "brève impossible (Calling all GPUs: help us benchmark SonicBoom v0.0.3 — a com) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-19T08:10:45+00:00",
+   "message": "brève impossible (Kapitsa: open-source Apple Silicon optimized Metal engine bu) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 6.24,
+ "depense_usd": 6.25,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1028,10 +1028,14 @@
   [
    "2026-10-19T06:06:19+00:00",
    "85.42"
+  ],
+  [
+   "2026-10-19T08:10:14+00:00",
+   "85.41"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 3.95,
+ "depense_mois_usd": 3.96,
  "archive_tentatives": {
   "jour": "2026-10-19",
   "n": 1

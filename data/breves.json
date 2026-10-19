@@ -1,5 +1,130 @@
 [
  {
+  "id": "c3737c0d7a8fbc13",
+  "slug": "cohere-fait-merger-le-support-llama-cpp-de-son-encodeur-vision-north-m-c3737c",
+  "titre": "Cohere fait merger le support llama.cpp de son encodeur vision North Micro Vision",
+  "resume": "Nick, de Cohere, annonce sur r/LocalLLaMA que son équipe a fusionné le support llama.cpp de l'encodeur vision de North Micro Vision Instruct. Toutes les dernières architectures de modèles de Cohere sont donc compatibles avec llama.cpp, la partie LLM étant déjà couverte via North Mini Code et Command A+. North Micro Vision sert par ailleurs de base à plusieurs des nouvelles sorties de l'entreprise.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xa0cyz/llamacpp_support_for_cohere_models/",
+  "date_source": "2026-10-19T15:43:29+00:00",
+  "date_redac": "2026-10-19T15:54:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 781,
+   "sortie": 724
+  }
+ },
+ {
+  "id": "98d4c14e87ed6a79",
+  "slug": "nvidia-lance-des-modeles-ouverts-pour-agents-en-entreprise-et-sur-pc-98d4c1",
+  "titre": "Nvidia lance des modèles ouverts pour agents en entreprise et sur PC",
+  "resume": "Nvidia mise sur une tendance de fond : les entreprises veulent faire tourner leurs propres modèles ouverts dans leurs propres centres de données. Le fondeur lance pour cela de nouveaux modèles ouverts destinés à exécuter des agents. Il cherche aussi à imposer l'agent IA local, privé, fonctionnant directement sur le PC.",
+  "tags": [
+   "agents",
+   "business",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+  "date_source": "2026-10-19T15:37:09+00:00",
+  "date_redac": "2026-10-19T15:54:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 639,
+   "sortie": 398
+  }
+ },
+ {
+  "id": "0d9730ea84322dbf",
+  "slug": "volundr-262k-de-contexte-pour-un-32b-dans-16-go-de-vram-0d9730",
+  "titre": "Volundr : 262K de contexte pour un 32B dans 16 Go de VRAM",
+  "resume": "Blockway, petite équipe de Hong Kong, présente Volundr, un modèle 32B dont 54 des 72 couches gardent un état de taille fixe au lieu d'un cache KV croissant à chaque token. Pour l'exploiter, elle a écrit son propre moteur d'inférence, Agens Engine, sous licence MIT. Il reprend une conversation là où elle s'est arrêtée et tient dans un budget mémoire GPU choisi, le contexte long débordant vers la RAM système.",
+  "tags": [
+   "open-source",
+   "dev",
+   "agents",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xa02iw/we_built_our_own_inference_engine_so_a_32b_model/",
+  "date_source": "2026-10-19T15:32:37+00:00",
+  "date_redac": "2026-10-19T15:55:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 835,
+   "sortie": 838
+  }
+ },
+ {
+  "id": "be9807a3f275885f",
+  "slug": "un-rendu-de-personnages-a-6m-de-parametres-teste-face-a-blender-be9807",
+  "titre": "Un rendu de personnages à 6M de paramètres, testé face à Blender",
+  "resume": "Un modèle de 6 millions de paramètres dédié au rendu de personnages a été partagé sur r/LocalLLaMA. À partir d'une seule image de référence, il génère une minute de vidéo. Ses sorties ont été confrontées à Blender, utilisé comme référence de vérité. Un format léger, évalué face à un logiciel de rendu 3D classique.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9zwts/6m_param_character_renderer_one_reference_image/",
+  "date_source": "2026-10-19T15:26:35+00:00",
+  "date_redac": "2026-10-19T15:55:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 626,
+   "sortie": 1016
+  }
+ },
+ {
+  "id": "58c71e210f15d97b",
+  "slug": "claude-code-plus-reactif-anthropic-ressort-une-compression-de-1992-58c71e",
+  "titre": "Claude Code plus réactif : Anthropic ressort une compression de 1992",
+  "resume": "Depuis la mi-octobre, Claude Code répond plus tôt. Pour y parvenir, Anthropic a ressorti un outil de compression plus ancien que le Web grand public, une technologie datée de 1992. Ses propres utilisateurs le réclamaient, mesures à l'appui, depuis la fin de l'été.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/anthropic-rend-claude-encore-plus-rapide-grace-a-une-technologie-de-1992.html",
+  "date_source": "2026-10-19T15:00:53+00:00",
+  "date_redac": "2026-10-19T15:55:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 664,
+   "sortie": 404
+  }
+ },
+ {
+  "id": "c1aa0fd9be2b8618",
+  "slug": "openai-prepare-un-robot-humanoide-une-demo-evoquee-pour-2027-c1aa0f",
+  "titre": "OpenAI prépare un robot humanoïde, une démo évoquée pour 2027",
+  "resume": "OpenAI se lance dans la robotique humanoïde. Interrogé dans le podcast Sources sur la possibilité que l'entreprise construise son propre appareil, son CEO Sam Altman a répondu par l'affirmative. Il a ensuite évoqué auprès de Fortune une « démo géniale » en 2027. Aucune information n'a filtré sur l'apparence du robot, ses applications ou les modèles qui l'équiperont.",
+  "tags": [
+   "openai",
+   "robots",
+   "business"
+  ],
+  "importance": 4,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/robotique/openai-prepare-un-robot-humanoide-qui-pourrait-etre-presente-des-2027.FDY3CAZ7FJDHTMIFMDADODRL5Y.html",
+  "date_source": "2026-10-19T14:55:18+00:00",
+  "date_redac": "2026-10-19T15:55:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 754,
+   "sortie": 145
+  }
+ },
+ {
   "id": "8970772f64e5d0cc",
   "slug": "mise-a-jour-du-gguf-qwen3-8-flash-next-gsq-rco-coder-la-selection-d-ex-897077",
   "titre": "Mise à jour du GGUF Qwen3.8-Flash-Next-GSQ-RCO-Coder : la sélection d'experts change",

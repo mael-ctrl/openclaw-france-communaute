@@ -1,0 +1,41 @@
+{
+ "slug": "nvidia-veut-faire-tourner-les-agents-chez-vous-pas-dans-le-c-98d4c1",
+ "titre": "Nvidia veut faire tourner les agents chez vous, pas dans le cloud",
+ "chapo": "Nvidia mise sur deux terrains à la fois : les agents d'entreprise exécutés dans les data centers des clients, et l'agent privé qui tourne directement sur le PC. La même semaine, quatre gros modèles à poids ouverts sortent en 72 heures et OpenAI annonce un robot humanoïde pour 2027.",
+ "html": "<h2 id=\"des-modeles-ouverts-pour-executer-des-ag\">Des modèles ouverts pour exécuter des agents, du data center au PC</h2>\n<p>Nvidia part d'une tendance de fond qu'il résume lui-même : les entreprises veulent faire tourner <strong>leurs propres modèles ouverts dans leurs propres centres de données</strong>. Le fondeur lance pour cela de nouveaux modèles ouverts destinés à exécuter des agents. Il pousse aussi une seconde idée, plus radicale : imposer l'agent IA local, privé, fonctionnant directement sur le PC plutôt que dans le cloud.</p>\n<p>Sur r/LocalLLaMA, la référence qui circule côté NVIDIA s'appelle <strong>Nemotron 3.5 Bolt</strong> : 74 milliards de paramètres au total, 9 milliards actifs, quantifié jusqu'en 2 bits pour tenir dans 24 Go de mémoire. Un gabarit volontairement contenu, taillé pour la machine locale.</p>\n<p>Le contexte est celui d'une accélération brutale de l'open weights. En 72 heures, quatre gros modèles à poids ouverts sont sortis, selon le fil de discussion du subreddit. La course ne se joue plus seulement sur les benchmarks, mais sur la question de savoir sur quelle machine le modèle daigne s'exécuter.</p>\n<h2 id=\"meta-mise-sur-le-gigantisme-nvidia-sur-l\">Meta mise sur le gigantisme, Nvidia sur le facteur forme</h2>\n<p>En face, Meta a lancé <strong>Muse Spark Open</strong> : 816 milliards de paramètres, 42 milliards actifs, un contexte d'un million de tokens. Le problème n'est pas la fiche technique, c'est le matériel. Pour un usage « desktop » de ce modèle, il faut compter deux Mac Studio M5 Ultra de 512 Go, ou quatre de 256 Go — soit environ 38 000 dollars.</p>\n<p>C'est là que les deux approches divergent. D'un côté, un modèle massif qui exige un parc de machines ; de l'autre, Nemotron 3.5 Bolt et ses 24 Go de cible, présenté par le fil r/LocalLLaMA comme le seul à tenir face à Meta dans cette enveloppe.</p>\n<p>Cette contrainte de taille n'est pas un détail technique. Elle détermine qui peut faire tourner quoi, sur quel matériel, et donc où atterrissent les données traitées par un agent. C'est exactement le terrain sur lequel Nvidia place son argumentaire entreprise : le modèle ouvert, chez soi, sur sa propre machine.</p>\n<h2 id=\"openai-un-navigateur-abandonne-un-robot-\">OpenAI : un navigateur abandonné, un robot annoncé</h2>\n<p>Pendant ce temps, OpenAI avance sur deux fronts. Le premier est visible immédiatement : l'entreprise déploie plusieurs fonctionnalités basées sur ChatGPT pour <strong>Google Chrome</strong>. Le modèle ne se contente plus de répondre, il réalise des actions dans le navigateur, comme remplir des formulaires. Cette annonce intervient après l'abandon, par OpenAI, de son propre navigateur.</p>\n<p>Le second front est plus lointain. Interrogé dans le podcast <em>Sources</em> sur la possibilité que l'entreprise construise son propre appareil, son CEO Sam Altman a répondu par l'affirmative. Il a ensuite évoqué auprès de <em>Fortune</em> une « démo géniale » en 2027 pour un robot humanoïde. Aucune information n'a filtré sur l'apparence du robot, ses applications ou les modèles qui l'équiperont.</p>\n<p>Deux échelles, donc : un formulaire rempli dans Chrome aujourd'hui, un humanoïde dont on ne sait presque rien pour 2027.</p>\n<h2 id=\"arcadia-la-france-veut-son-propre-logici\">Arcadia : la France veut son propre logiciel de commandement</h2>\n<p>Le mouvement de repli sur sa propre pile ne concerne pas que les entreprises. Fin septembre, le Commissariat au numérique de défense a présenté <strong>Arcadia</strong>, le futur logiciel de commandement des armées françaises dopé à l'IA.</p>\n<p>L'outil doit répondre à <strong>Maven</strong>, la solution de l'américain Palantir que l'OTAN utilise déjà. L'enjeu affiché est explicitement politique : sortir d'une dépendance aux solutions américaines dans le commandement militaire.</p>\n<p>On retrouve la même logique que chez Nvidia, transposée à l'échelle d'un État : ne pas dépendre d'une infrastructure tierce pour ce qui compte le plus, et rapatrier la couche intelligente au plus près de celui qui l'utilise.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches de la semaine dessinent deux mouvements parallèles. Les modèles descendent vers la machine : 24 Go de mémoire vive pour Nemotron 3.5 Bolt, un agent privé sur le PC chez Nvidia, un ChatGPT qui agit directement dans Chrome. Et dans le même temps, les États comme les entreprises cherchent à reprendre la main sur la pile qu'ils utilisent — Arcadia face à Maven, les modèles ouverts dans les data centers des clients. Reste une question de calendrier : l'humanoïde d'OpenAI est annoncé pour 2027, sans apparence, sans applications et sans modèle connus.</p>",
+ "pivot": "98d4c14e87ed6a79",
+ "tags": [
+  "agents",
+  "open-source",
+  "openai",
+  "france"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/robotique/openai-prepare-un-robot-humanoide-qui-pourrait-etre-presente-des-2027.FDY3CAZ7FJDHTMIFMDADODRL5Y.html"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/19/chatgpt-peut-desormais-controler-google-chrome-pour-travailler-a-votre-place/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
+  }
+ ],
+ "date": "2026-10-19T15:55:29+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1568,
+  "sortie": 2662
+ }
+}

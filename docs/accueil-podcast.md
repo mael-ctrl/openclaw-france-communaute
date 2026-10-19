@@ -19,6 +19,8 @@ Consultation GitHub du 19/10/2026 : [shipshapecode/starpod](https://github.com/s
 
 ## Production
 
-Validation cloud et HTTPS à compléter après le déploiement ; une recette locale ne suffit pas à déclarer la mise en ligne.
+**Production confirmée le 19/10 à 14:27 CEST.** Commit fonctionnel `06c06bfd1c7871460375c795407141e972a50f93` ; [run cloud 39249559960](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/39249559960) réussi, **144 tests Python cloud**, **1 256 fichiers envoyés**, sauvegarde `7cdd48d906150d1836fa62b8838a6af378f58b82`. Les logs attestent l’envoi de l’accueil et des deux sorties podcast ; les trois blobs du commit ont été relus sur GitHub.
+
+**Quatre URL HTTPS en TLS strict** : accueil identique au rendu du commit cloud sauvegardé ; page podcast, flux et CSS identiques aux octets attendus. Chromium sur la production réelle, sans substitution des réponses ni JavaScript : clic et Entrée depuis l’accueil à 390/1 440 px, destination correcte et texte dépliable ; aucun débordement horizontal. Quatre captures de production relues. Le suivi borné a attendu le pipeline complet, sans confondre délai de transfert et échec.
 
 Effet attendu : rendre les épisodes plus faciles à découvrir depuis l’accueil. Aucun gain d’écoute, d’abonnement ou d’audience mesuré.

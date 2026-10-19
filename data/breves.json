@@ -1,5 +1,87 @@
 [
  {
+  "id": "50355a2cc4dbe3f4",
+  "slug": "xreal-retouche-ses-lunettes-one-pro-ecrans-plus-lumineux-et-3d-amelior-50355a",
+  "titre": "XREAL retouche ses lunettes One Pro+ : écrans plus lumineux et 3D améliorée",
+  "resume": "XREAL fait évoluer ses lunettes One Pro avec des écrans plus lumineux, une conversion 3D améliorée et de nouveaux appuis pour le nez. Les 1 Pro+ restent très proches du modèle précédent, y compris sur le tarif, ce qui est plutôt une bonne nouvelle.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/19/plus-de-lumiere-et-de-fluidite-pour-les-nouvelles-lunettes-1-pro-de-xreal/",
+  "date_source": "2026-10-19T05:02:36+00:00",
+  "date_redac": "2026-10-19T05:09:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 675,
+   "sortie": 554
+  }
+ },
+ {
+  "id": "d5c300f723110575",
+  "slug": "un-modele-du-monde-temps-reel-sur-12-go-de-vram-ca-existe-d5c300",
+  "titre": "Un modèle du monde temps réel sur 12 Go de VRAM, ça existe ?",
+  "resume": "Sur r/LocalLLaMA, un membre demande s'il existe un modèle du monde (world model) capable de tourner en temps réel sur 12 Go de VRAM. La question vise un usage entièrement local, sur du matériel grand public plutôt que sur une grappe de GPU. Aucune référence de modèle ni piste technique n'est citée dans la demande.",
+  "tags": [
+   "recherche",
+   "matériel",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9nolh/a_world_model_that_can_run_realtime_on_12gi_of/",
+  "date_source": "2026-10-19T04:45:07+00:00",
+  "date_redac": "2026-10-19T05:10:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 625,
+   "sortie": 630
+  }
+ },
+ {
+  "id": "0706945694589876",
+  "slug": "tempopfn-des-rnn-lineaires-pre-entraines-sur-donnees-synthetiques-070694",
+  "titre": "TempoPFN : des RNN linéaires pré-entraînés sur données synthétiques",
+  "resume": "Accepté à NeurIPS 2026, TempoPFN propose une bibliothèque de générateurs et d'augmentations de séries temporelles synthétiques pour entraîner des modèles de fondation dédiés à la prévision. L'équipe applique cette approche à un RNN linéaire basé sur DeltaProduct. Ces données synthétiques ont déjà été utilisées dans Toto-2 et TS-ICL. Le code et le modèle sont publiés sur GitHub et Hugging Face.",
+  "tags": [
+   "recherche",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9n3qv/tempopfn_synthetic_pretraining_of_linear_rnns_for/",
+  "date_source": "2026-10-19T04:12:19+00:00",
+  "date_redac": "2026-10-19T05:10:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 760,
+   "sortie": 513
+  }
+ },
+ {
+  "id": "d306e73026c0c301",
+  "slug": "amber-8-de-l-assembleur-pour-piloter-des-petits-modeles-de-decision-lo-d306e7",
+  "titre": "Amber-8 : de l'assembleur pour piloter des petits modèles de décision locaux",
+  "resume": "Sur r/LocalLLaMA, un développeur présente Amber-8, la suite de son projet d'assembleur exécutable sur un LLM. L'idée : imaginer ce que des programmeurs formés à l'assembleur des années 80 feraient avec des modèles locaux à leur disposition. Les modèles de décision récents serviraient de pont entre monde analogique et numérique, via des instructions comme psh, br ou scl qui empilent confiance, score et retour.",
+  "tags": [
+   "dev",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9n1i6/80s_computing_era_meets_small_local_decision/",
+  "date_source": "2026-10-19T04:08:54+00:00",
+  "date_redac": "2026-10-19T05:10:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 838,
+   "sortie": 863
+  }
+ },
+ {
   "id": "0b45014bc78476e3",
   "slug": "un-modele-de-moins-de-400b-battrait-fable-5-en-codage-d-ici-six-mois-p-0b4501",
   "titre": "Un modèle de moins de 400B battrait Fable 5 en codage d'ici six mois, pari un dev",

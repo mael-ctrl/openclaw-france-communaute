@@ -2368,3 +2368,11 @@
 {"ts": "2026-10-19T03:42:38+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "0d21d06f9a08ab0b044ba4565574b317fe2420028f4d404c57c774d68b3e8875"}
 {"ts": "2026-10-19T03:42:49+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "c784a23f94a6adfd93dcea705584e25fd3fb28561fdd2c7cdda90fc81735f1e7"}
 {"ts": "2026-10-19T03:42:49+00:00", "evenement": "bilan", "details": {"duree_s": 912.6, "neufs": 3, "breves": 3, "articles": 1, "fichiers": 701, "envois": 731, "publications": 4}, "sha256": "77a8b41d92924d2de02ce320d33d6ba3116a1837c786de8eb13dd5c0812cd79f"}
+{"ts": "2026-10-19T05:09:53+00:00", "evenement": "collecte", "details": {"neufs": 6}, "sha256": "7ce7d85e78acba25a418e85cf5e48bd2d920d38fd78cef5638e995ce0a615bf4"}
+{"ts": "2026-10-19T05:10:23+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Don't sleep on Nemotron 3.5 Super VL) : réponse non-JSON"}, "sha256": "6029f57f774574a2cea10af9e4170b65aac6cafc81332a9f1c7d318f2bbc6cbc"}
+{"ts": "2026-10-19T05:10:36+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Calling all GPUs: help us benchmark SonicBoom v0.0.3 — a com) : réponse non-JSON"}, "sha256": "4a5c7d7a69c4add6234bd73d7de376352f244ae029c126c49c7b16212d20e78b"}
+{"ts": "2026-10-19T05:11:03+00:00", "evenement": "construction", "details": {"fichiers": 702}, "sha256": "d3a5b0f1e8cd70b5e5486f9922eefb8e81a07e2f21e86ded9fd630d37a51f879"}
+{"ts": "2026-10-19T05:24:34+00:00", "evenement": "deploiement", "details": {"fichiers": 733, "octets": 16031982}, "sha256": "bf3bc8404130dbe63c102d6c3da994f597520b5aa05d8e3ec67bc1ba3c02a34c"}
+{"ts": "2026-10-19T05:24:34+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "3fbf41ab1622df068b1fc887de1556ff61b67e5a7f6dcd828a0a40bda48c9425"}
+{"ts": "2026-10-19T05:24:45+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "3673c7dbd4eb38cd88671965a67c2d18dfc774dc77c490ac77d435c7cae9110e"}
+{"ts": "2026-10-19T05:24:45+00:00", "evenement": "bilan", "details": {"duree_s": 928.6, "neufs": 6, "breves": 4, "articles": 1, "fichiers": 702, "envois": 733, "publications": 4}, "sha256": "a930dac1ac97f29051b8a82dc8472075ae9142238d098e87108f0a8fac724f87"}

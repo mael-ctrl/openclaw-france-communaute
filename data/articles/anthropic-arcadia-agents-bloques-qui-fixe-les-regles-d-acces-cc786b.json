@@ -1,0 +1,41 @@
+{
+ "slug": "anthropic-arcadia-agents-bloques-qui-fixe-les-regles-d-acces-cc786b",
+ "titre": "Anthropic, Arcadia, agents bloqués : qui fixe les règles d'accès ?",
+ "chapo": "Cinq pour cent des actions d'Anthropic dans un fonds d'intérêt public, un logiciel de commandement français face à Palantir, des sites qui ferment leur porte aux agents autonomes : la même semaine, l'IA est rattrapée par des questions très concrètes d'accès et de contrôle. Tour des dépêches, sans hype.",
+ "html": "<h2 id=\"anthropic-5-des-actions-aucune-modalite\">Anthropic : 5 % des actions, aucune modalité</h2>\n<p>Anthropic annonce consacrer <strong>5 % de ses actions</strong> à un fonds d'intérêt public, rapporte TechCrunch. L'engagement porte sur des titres de la société elle-même, pas sur un versement en numéraire. En revanche, la dépêche ne dit rien de la gouvernance du fonds, de ses modalités de fonctionnement ni de ses bénéficiaires. Qui décide de l'usage de ces titres, avec quel mandat et selon quelle obligation de transparence : à ce stade, aucune réponse n'est citée.</p>\n<p>La même semaine, un post de r/ClaudeAI met en regard la valorisation d'Anthropic — <strong>2 000 milliards de dollars</strong> selon l'auteur — et les 948 milliards que pèseraient 35 sociétés de SaaS, dont Salesforce, Adobe, SAP, ServiceNow et Intuit. Le chiffre d'affaires trimestriel d'Anthropic atteindrait 11,5 milliards, contre 53,4 milliards pour ces 35 entreprises. L'auteur s'interroge sur l'écart entre valorisation et revenus. À prendre pour ce que c'est : un calcul de forum, pas un chiffre audité.</p>\n<h2 id=\"arcadia-la-france-veut-son-propre-maven\">Arcadia : la France veut son propre Maven</h2>\n<p>Fin septembre, le Commissariat au numérique de défense a présenté <strong>Arcadia</strong>, le futur logiciel de commandement des armées françaises dopé à l'IA. L'outil doit répondre à Maven, la solution de l'américain Palantir que l'OTAN utilise déjà. L'enjeu affiché est explicite : sortir d'une dépendance aux solutions américaines dans le commandement militaire.</p>\n<p>La dépêche ne détaille ni calendrier de déploiement, ni architecture technique, ni partenaire industriel. On retiendra surtout le mot « affiché » : la souveraineté est un objectif, pas un acquis. Et le terrain est déjà occupé — Maven est en service au sein de l'OTAN, une antériorité qu'une présentation ne suffit pas à effacer.</p>\n<h2 id=\"les-agents-autonomes-se-cognent-aux-port\">Les agents autonomes se cognent aux portes fermées</h2>\n<p>Les agents autonomes sont la grande promesse du moment : OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail. Mais une partie des sites refuse désormais de les laisser entrer, rapporte The Verge. Sans accès au web, ces agents perdent une bonne part de leur intérêt.</p>\n<p>La difficulté est moins technique que politique : la promesse de l'agent qui fait les choses à ta place repose sur un accès qu'il ne contrôle pas. Un site qui ferme sa porte ne bloque pas un algorithme, il refuse un intermédiaire — et reprend la main sur qui lit ses pages, à quelle fréquence et dans quel cadre. Les quatre acteurs cités peuvent empiler les annonces ; ils ne décident pas seuls des conditions d'entrée.</p>\n<h2 id=\"nvidia-la-rtx-5090-n-est-pas-arretee-l-a\">Nvidia : la RTX 5090 n'est pas arrêtée, l'approvisionnement si</h2>\n<p>Jeff Fisher, vice-président senior de Nvidia, a démenti le 16 octobre à Taipei l'arrêt de la RTX 5090, rapporte Frandroid. Il a toutefois reconnu, dans la même réponse, que la chaîne d'approvisionnement ne suivait pas. La carte venait de disparaître de la boutique en ligne américaine de Nvidia, ce qui avait nourri les rumeurs.</p>\n<p>Le démenti vaut donc pour la seule partie rassurante : la carte n'est pas arrêtée, mais l'approvisionnement est tendu. Un indicateur de plus sur un marché du matériel où l'annonce produit et la disponibilité réelle ne racontent pas la même histoire.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, quatre frottements. Un fonds d'intérêt public dont on ne connaît que le pourcentage, un logiciel de commandement dont on ne connaît que l'ambition, des agents dont l'utilité dépend d'un accès qu'on peut leur retirer, une carte graphique dont l'existence officielle ne garantit pas la présence en rayon. À chaque fois revient la même question : qui fixe les règles d'accès — au capital, au commandement, au web, aux puces.</p>",
+ "pivot": "cc786b7f5fb04fb4",
+ "tags": [
+  "business",
+  "france",
+  "agents",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/nvidia/3290057_nvidia-jure-que-la-rtx-5090-nest-pas-arretee-juste-rationnee"
+  },
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1x9ain3/anthropic_at_2_trillion_vs_35_saas_companies_at/"
+  }
+ ],
+ "date": "2026-10-19T05:10:57+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1543,
+  "sortie": 4227
+ }
+}

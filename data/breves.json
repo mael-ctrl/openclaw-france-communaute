@@ -1,5 +1,128 @@
 [
  {
+  "id": "8e12e6e0acbe3888",
+  "slug": "minimax-m3-1-flash-428-milliards-de-parametres-23-milliards-actifs-8e12e6",
+  "titre": "MiniMax M3.1 Flash : 428 milliards de paramètres, 23 milliards actifs",
+  "resume": "Le modèle MiniMax M3.1 Flash compte 428 milliards de paramètres, dont 23 milliards actifs. Ce détail n'apparaissait pas dans la plupart des annonces officielles : il figure en tête de la FAQ de la page agent.minimax.io consacrée à la version preview. Conséquence immédiate pour le matériel : impossible de le faire tourner sur deux RTX 3090.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9xc0c/minimax_m31_flash_is_428b_23a/",
+  "date_source": "2026-10-19T13:46:35+00:00",
+  "date_redac": "2026-10-19T13:50:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 677,
+   "sortie": 513
+  }
+ },
+ {
+  "id": "c152e3d8bd778f07",
+  "slug": "minimax-lance-m3-1-flash-a-0-15-le-million-de-tokens-d-entree-c152e3",
+  "titre": "MiniMax lance M3.1 Flash à 0,15 $ le million de tokens d'entrée",
+  "resume": "MiniMax lance M3.1 Flash, facturé 0,15 dollar par million de tokens d'entrée. Ce tarif correspond à la moitié du prix catalogue affiché pour M3, selon l'annonce relayée sur r/LocalLLaMA. Le modèle vient donc s'installer en entrée de gamme du catalogue MiniMax, à un prix qui divise par deux l'addition par rapport à M3.",
+  "tags": [
+   "business",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9wv1x/minimax_launches_m31_flash_at_015_per_million/",
+  "date_source": "2026-10-19T13:26:44+00:00",
+  "date_redac": "2026-10-19T13:50:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 632,
+   "sortie": 570
+  }
+ },
+ {
+  "id": "d329648d1d992729",
+  "slug": "intel-d270-480-go-de-vram-lpddr5-mais-prix-et-pilotes-encore-flous-d32964",
+  "titre": "Intel D270 : 480 Go de VRAM LPDDR5, mais prix et pilotes encore flous",
+  "resume": "Un membre de r/LocalLLaMA est tombé sur la fiche officielle du D270, un GPU data center d'Intel. La carte y est annoncée avec jusqu'à 480 Go de VRAM LPDDR5 et 1,5 To/s de bande passante mémoire, de quoi viser les modèles à poids ouverts les plus lourds. Restent trois inconnues : le prix, la possibilité de monter la carte dans un poste de travail plutôt qu'un serveur, et le support des pilotes — sans CUDA.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9wsat/what_to_expect_from_the_intel_d270_gpu/",
+  "date_source": "2026-10-19T13:23:35+00:00",
+  "date_redac": "2026-10-19T13:51:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 783,
+   "sortie": 1163
+  }
+ },
+ {
+  "id": "9dd138284886ee5c",
+  "slug": "rdna2-quelles-alternatives-a-llama-cpp-pour-les-llm-en-local-9dd138",
+  "titre": "RDNA2 : quelles alternatives à llama.cpp pour les LLM en local ?",
+  "resume": "La plupart des outils publiés pour les GPU AMD reposent sur WMMA, une technologie disponible seulement à partir de RDNA3. En génération d'images ou de vidéos, il est parfois possible de contourner le problème avec triton, mais côté LLM, une chose fonctionne ou non sur RDNA2. L'auteur cite strata, qui propose un chemin RDNA2 ayant fonctionné avec le modèle coder testé, mais uniquement pour un seul gros modèle d'usage limité. La question posée : existe-t-il des applications ou des forks autres que llama.cpp de base, plus performants sur RDNA2, si possible sous Windows.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9we92/is_there_an_alternative_to_base_llamacpp_for/",
+  "date_source": "2026-10-19T13:06:21+00:00",
+  "date_redac": "2026-10-19T13:51:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 745,
+   "sortie": 356
+  }
+ },
+ {
+  "id": "263b699465b496c7",
+  "slug": "strata-en-multi-gpu-plus-de-debit-mais-pas-moins-de-ram-263b69",
+  "titre": "Strata en multi-GPU : plus de débit, mais pas moins de RAM",
+  "resume": "Un utilisateur de r/LocalLLaMA, familier de llama.cpp, teste Strata en QFN - UD-Q4_K_XL. Avec un GPU, il obtient environ 70 t/s pour 80 Go de RAM occupée. En ajoutant deux GPU via --gpus all, il monte à environ 100 t/s sans voir cette consommation baisser, contre son attente. Il demande si les GPU supplémentaires servent au contexte et comment tenir en 64 Go de RAM.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9w53x/strata_with_multi_gpu_explanation/",
+  "date_source": "2026-10-19T12:55:39+00:00",
+  "date_redac": "2026-10-19T13:51:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 806,
+   "sortie": 860
+  }
+ },
+ {
+  "id": "e4d4a0285549ed79",
+  "slug": "les-projets-de-data-centers-d-ia-en-europe-se-heurtent-aussi-aux-oppos-e4d4a0",
+  "titre": "Les projets de data centers d'IA en Europe se heurtent aussi aux oppositions",
+  "resume": "Aux États-Unis, la contestation contre les data centers d'IA s'est installée depuis plusieurs années : consommation électrique et hydrique, nuisances sonores, artificialisation des sols. Certains promoteurs ont revu leurs ambitions, voire abandonné leurs projets. L'Europe, qui accélère le développement de ses infrastructures, commence à rencontrer les mêmes difficultés. Plusieurs projets y sont fragilisés ou stoppés, malgré les milliards d'euros promis par les géants de la technologie.",
+  "tags": [
+   "société",
+   "business",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/informatique/data-centers/en-europe-aussi-les-megaprojets-de-data-centers-dia-se-prennent-les-pieds-dans-le-tapis.3Z7VBKFXQBGSLMPJ24Q3NCJZIA.html",
+  "date_source": "2026-10-19T12:48:00+00:00",
+  "date_redac": "2026-10-19T13:51:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 812,
+   "sortie": 165
+  }
+ },
+ {
   "id": "6435712bca4f6acd",
   "slug": "un-harnais-ipython-minimaliste-egale-les-agents-de-code-en-production--643571",
   "titre": "Un harnais IPython minimaliste égale les agents de code en production sur TB-Lite",

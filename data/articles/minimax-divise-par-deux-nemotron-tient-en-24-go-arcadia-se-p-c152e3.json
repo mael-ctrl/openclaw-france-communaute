@@ -1,0 +1,41 @@
+{
+ "slug": "minimax-divise-par-deux-nemotron-tient-en-24-go-arcadia-se-p-c152e3",
+ "titre": "MiniMax divise par deux, Nemotron tient en 24 Go, Arcadia se passe de Palantir",
+ "chapo": "Quatre gros modèles à poids ouverts en 72 heures, un tarif d'entrée divisé par deux chez MiniMax, un simple harnais IPython qui tient tête aux agents de production : la pression sur les coûts se lit partout. Pendant ce temps, la France avance Arcadia et l'Europe découvre les oppositions aux data centers.",
+ "html": "<h2 id=\"minimax-coupe-le-prix-d-entree-de-moitie\">MiniMax coupe le prix d'entrée de moitié</h2>\n<p>MiniMax lance M3.1 Flash, facturé <strong>0,15 dollar le million de tokens d'entrée</strong>, selon l'annonce relayée sur r/LocalLLaMA. Ce tarif correspond à la moitié du prix catalogue affiché pour M3. Autrement dit, le nouveau venu divise par deux l'addition par rapport à son aîné.</p>\n<p>Le positionnement est clair : M3.1 Flash s'installe en entrée de gamme du catalogue MiniMax. L'annonce ne détaille ni les performances du modèle ni les tarifs de sortie ou de cache — seulement ce prix d'entrée, qui suffit à situer la manœuvre. Dans une gamme qui compte déjà M3, la version Flash joue la carte du volume plutôt que celle du haut de gamme.</p>\n<h2 id=\"24-go-la-nouvelle-ligne-de-front\">24 Go, la nouvelle ligne de front</h2>\n<p>La même semaine, la question du gabarit revient en force. En 72 heures, <strong>quatre gros modèles à poids ouverts</strong> sont sortis, et deux d'entre eux illustrent deux philosophies opposées. Meta a lancé <strong>Muse Spark Open</strong> : 816 milliards de paramètres au total, 42 milliards actifs, un contexte de 1 million de tokens. Son usage « desktop » suppose toutefois deux Mac Studio M5 Ultra de 512 Go, ou quatre de 256 Go pour environ <strong>38 000 dollars</strong>.</p>\n<p>En face, NVIDIA répond avec <strong>Nemotron 3.5 Bolt</strong> : 74 milliards de paramètres au total, 9 milliards actifs, quantifié jusqu'en <strong>2 bits</strong> pour tenir dans 24 Go. Le fil r/LocalLLaMA présente d'ailleurs Nemotron 3.5 Bolt comme le seul modèle à tenir dans cette enveloppe face à Meta.</p>\n<p>Deux approches, deux contraintes. D'un côté, une puissance brute qui s'achète en machines ; de l'autre, une compression agressive qui mise sur la quantification pour rester dans la mémoire d'une carte grand public. Le débat sur « qui peut faire tourner quoi » se déplace du benchmark vers le matériel disponible.</p>\n<h2 id=\"un-harnais-ipython-nu-fait-jeu-egal-avec\">Un harnais IPython nu fait jeu égal avec les usines à agents</h2>\n<p>Côté agents, la nouvelle est plus contre-intuitive. Des testeurs de r/LocalLLaMA ont comparé plusieurs harnais — <strong>QwenCode, OpenHands, opencode, Pi</strong> et une simple session <strong>IPython</strong> — avec le modèle <strong>Qwen3.5-9B</strong>, sur le benchmark <strong>OpenThoughts TB-Lite</strong>. Résultat : un harnais IPython à outil unique fait jeu égal avec des harnais de production bien plus lourds.</p>\n<p>Leur lecture : une bonne part de la « randomité » observée sur les agents à petit modèle viendrait du <strong>bruit de l'environnement</strong>, pas du modèle lui-même. Une conclusion qui déplace le regard : avant d'accuser le modèle, regarder du côté de ce qui l'entoure.</p>\n<p>Nuance importante, les testeurs ne désignent <strong>aucun gagnant net</strong> sur le couple récompense/tokens/temps d'exécution. Le harnais minimaliste n'est pas présenté comme meilleur, seulement comme équivalent — ce qui est déjà beaucoup pour une session IPython face à des outils pensés pour la production.</p>\n<h2 id=\"arcadia-et-les-data-centers-l-autonomie-\">Arcadia et les data centers : l'autonomie a un prix</h2>\n<p>En France, le sujet est ailleurs. Le <strong>Commissariat au numérique de défense</strong> a présenté <strong>fin septembre Arcadia</strong>, le futur logiciel de commandement des armées françaises dopé à l'IA, rapporte Numerama. L'outil doit répondre à <strong>Maven</strong>, la solution de l'américain <strong>Palantir</strong> que l'OTAN utilise déjà. L'enjeu affiché : sortir d'une dépendance aux solutions américaines dans le commandement militaire.</p>\n<p>Cette volonté d'autonomie se heurte toutefois à une réalité physique. L'Usine Digitale rapporte que les projets de data centers d'IA en Europe rencontrent désormais les mêmes oppositions qu'aux États-Unis, où la contestation est installée depuis plusieurs années : consommation électrique et hydrique, nuisances sonores, artificialisation des sols. Certains promoteurs américains ont revu leurs ambitions, voire abandonné leurs projets. En Europe, plusieurs projets sont fragilisés ou stoppés, <strong>malgré les milliards d'euros promis par les géants de la technologie</strong>.</p>\n<p>Les deux sujets ne se commandent pas l'un l'autre, mais ils partagent une même variable : la capacité à faire tourner de l'IA sur son propre sol, avec ses propres moyens.</p>\n<h2>Et maintenant ?</h2>\n<p>Sur une même semaine, le marché montre deux façons de baisser la facture : réduire le prix au token, comme MiniMax, ou réduire l'empreinte mémoire, comme NVIDIA avec une quantification en 2 bits. Les testeurs de harnais ajoutent une troisième piste, presque gratuite : nettoyer l'environnement autour du modèle. Reste que ces optimisations se heurtent à des limites matérielles et énergétiques que la France et l'Europe retrouvent des deux côtés de la chaîne, du logiciel de commandement aux data centers.</p>",
+ "pivot": "c152e3d8bd778f07",
+ "tags": [
+  "open-source",
+  "agents",
+  "france",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9wv1x/minimax_launches_m31_flash_at_015_per_million/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/informatique/data-centers/en-europe-aussi-les-megaprojets-de-data-centers-dia-se-prennent-les-pieds-dans-le-tapis.3Z7VBKFXQBGSLMPJ24Q3NCJZIA.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9vtt9/a_bare_ipython_harness_ties_production_coding/"
+  }
+ ],
+ "date": "2026-10-19T13:51:34+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1704,
+  "sortie": 2619
+ }
+}

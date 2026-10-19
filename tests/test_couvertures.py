@@ -216,7 +216,7 @@ class CouverturesTest(unittest.TestCase):
             meta.write_text(json.dumps(dict(info, width=1, alt="alt corrompu")))
             self.assertEqual(c.generer(BREVE, "breves", root), info)
 
-    def test_build_borne_400_tous_articles_et_reexecution(self):
+    def test_build_toutes_breves_conservees_tous_articles_et_reexecution(self):
         import hashlib
         breves = [dict(BREVE, slug=f"breve-{i}") for i in range(401)]
         articles = [dict(ARTICLE, slug=f"article-{i}") for i in range(3)]
@@ -224,10 +224,11 @@ class CouverturesTest(unittest.TestCase):
             con.construire()
             sortie = root / "site"
             images = list((sortie / "assets/couvertures").glob("*.jpg"))
-            self.assertEqual(len(images), 403)
-            self.assertEqual(len(list((sortie / "breves").glob("*/index.html"))), 400)
+            self.assertEqual(len(images), 404)
+            self.assertEqual(len(list((sortie / "breves").glob("*/index.html"))), 401)
             self.assertEqual(len(list((sortie / "articles").glob("*/index.html"))), 3)
-            self.assertFalse((sortie / "breves/breve-400").exists())
+            self.assertTrue((sortie / "breves/breve-400").exists())
+            self.assertFalse((sortie / "actus/page/5").exists())
             avant = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in images}
             for p in list((sortie / "breves").glob("*/index.html")) + list((sortie / "articles").glob("*/index.html")):
                 page = HTML(p.read_text())

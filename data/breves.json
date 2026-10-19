@@ -1,5 +1,106 @@
 [
  {
+  "id": "3cef8a25f0ee611b",
+  "slug": "llama-server-change-de-port-par-defaut-8080-devient-9931-3cef8a",
+  "titre": "llama server change de port par défaut : 8080 devient 9931",
+  "resume": "À partir de la version v0.7.0, le serveur llama écoute désormais sur le port 9931 (ggml) par défaut à l'intérieur du conteneur, au lieu du 8080. Les utilisateurs qui n'ont pas fixé explicitement le port subiront une rupture de compatibilité au moment de la mise à jour. Les outils et harnesses qui codent en dur le port 8080 devront être adaptés.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9tbg2/llama_servers_default_port_changed_from_8080_to/",
+  "date_source": "2026-10-19T10:32:07+00:00",
+  "date_redac": "2026-10-19T10:44:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 683,
+   "sortie": 378
+  }
+ },
+ {
+  "id": "46743b3890deb105",
+  "slug": "deux-palettes-de-rtx-5090-zotac-disparaissent-a-l-aeroport-de-sao-paul-46743b",
+  "titre": "Deux palettes de RTX 5090 Zotac disparaissent à l'aéroport de São Paulo",
+  "resume": "Deux palettes de cartes graphiques Zotac, estimées à près de 440 000 euros, se sont volatilisées à l'aéroport international de Guarulhos, près de São Paulo, au Brésil, sans explication. Le préjudice tombe mal : les RTX 5090 sont déjà difficiles à trouver et se vendent à prix d'or, alors que Nvidia peine à répondre à la demande.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/nvidia/3290517_440-000-euros-de-rtx-5090-se-sont-volatilises-dun-aeroport-bresilien-sans-explications",
+  "date_source": "2026-10-19T10:19:58+00:00",
+  "date_redac": "2026-10-19T10:44:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 732,
+   "sortie": 294
+  }
+ },
+ {
+  "id": "38ad6b5c8aa2a7a7",
+  "slug": "la-switch-2-europeenne-garde-son-ecran-lcd-pas-de-dalle-sharp-38ad6b",
+  "titre": "La Switch 2 européenne garde son écran LCD, pas de dalle Sharp",
+  "resume": "Le modèle révisé de la Nintendo Switch 2 vendu en Europe, avec batterie remplaçable, conserve le même écran LCD que la version de 2025. Un démontage relayé le 18 octobre le montre : la dalle Sharp repérée en juin sur un site chinois n'y est pas. L'écran Sharp espéré n'est donc pas au rendez-vous sur cette déclinaison européenne.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/nintendo/3290657_nouvelle-switch-2-europeenne-lecran-sharp-espere-nest-pas-au-rendez-vous",
+  "date_source": "2026-10-19T10:14:06+00:00",
+  "date_redac": "2026-10-19T10:44:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 684,
+   "sortie": 934
+  }
+ },
+ {
+  "id": "627b072e137354ab",
+  "slug": "minimax-annonce-l-arrivee-de-minimax-m3-1-flash-627b07",
+  "titre": "MiniMax annonce l'arrivée de MiniMax-M3.1-Flash",
+  "resume": "MiniMax a annoncé sur son compte X officiel l'arrivée de MiniMax-M3.1-Flash, une nouvelle entrée dans sa gamme M3.1. Le message, relayé sur le subreddit r/LocalLLaMA, ne précise ni les performances du modèle, ni sa taille, ni une date de disponibilité. L'annonce se limite pour l'instant à un nom.",
+  "tags": [
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9suvs/minimaxm31flash_is_coming/",
+  "date_source": "2026-10-19T10:05:08+00:00",
+  "date_redac": "2026-10-19T10:45:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 637,
+   "sortie": 802
+  }
+ },
+ {
+  "id": "198b3a6290cfc499",
+  "slug": "geely-integre-google-maps-gemini-et-le-play-store-dans-ses-voitures-ho-198b3a",
+  "titre": "Geely intègre Google Maps, Gemini et le Play Store dans ses voitures hors de Chine",
+  "resume": "Geely a noué un partenariat avec Google pour intégrer les services de l'entreprise américaine dans les voitures de ses marques vendues hors de Chine. Les conducteurs pourront notamment profiter de Google Maps, de Gemini et du Play Store à partir du second semestre 2027. Le constructeur chinois s'appuie ainsi sur l'écosystème Google pour ses véhicules commercialisés en dehors de son marché national.",
+  "tags": [
+   "gemini",
+   "business",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/geely/3290241_google-maps-gemini-et-play-store-le-coup-de-force-de-geely-pour-seduire-leurope",
+  "date_source": "2026-10-19T09:54:30+00:00",
+  "date_redac": "2026-10-19T10:45:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 681,
+   "sortie": 572
+  }
+ },
+ {
   "id": "b331caeb04408b2b",
   "slug": "les-scores-de-benchmark-des-labos-d-ia-depassent-de-6-4-ceux-des-teste-b331ca",
   "titre": "Les scores de benchmark des labos d'IA dépassent de 6,4 % ceux des testeurs indépendants",

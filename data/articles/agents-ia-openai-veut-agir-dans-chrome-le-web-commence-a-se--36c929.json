@@ -1,0 +1,41 @@
+{
+ "slug": "agents-ia-openai-veut-agir-dans-chrome-le-web-commence-a-se--36c929",
+ "titre": "Agents IA : OpenAI veut agir dans Chrome, le web commence à se fermer",
+ "chapo": "ChatGPT peut désormais remplir des formulaires dans Google Chrome, après l'abandon par OpenAI de son propre navigateur. Au moment où les agents autonomes promettent de parcourir le web à ta place, une partie des sites leur ferme la porte — et un incident de sécurité rappelle ce que coûte l'accès.",
+ "html": "<h2 id=\"chatgpt-sort-de-la-reponse-et-entre-dans\">ChatGPT sort de la réponse et entre dans le navigateur</h2>\n<p>OpenAI revoit sa stratégie. Le modèle ne se contente plus de produire une réponse : il peut désormais réaliser des actions dans Google Chrome, à commencer par remplir des formulaires. Plusieurs fonctionnalités basées sur ChatGPT sont déployées pour le navigateur de Google.</p>\n<p>Le mouvement se lit à l'envers d'une ambition précédente : cette annonce intervient après l'abandon, par OpenAI, de son propre navigateur. Plutôt que de construire une porte d'entrée concurrente, l'entreprise installe son modèle dans un navigateur qui existe déjà.</p>\n<p>C'est un changement de nature de l'outil. Passer de la réponse à l'action déplace la question : un modèle qui remplit un formulaire engage des informations, effectue des choix et laisse des traces dans des services tiers.</p>\n<h2 id=\"le-web-n-a-pas-dit-oui\">Le web n'a pas dit oui</h2>\n<p>Cette capacité arrive au moment où les agents autonomes sont présentés comme la grande promesse du moment. OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail.</p>\n<p>Sauf que le web ne suit pas forcément. Une partie des sites refuse désormais de laisser entrer ces agents. Le filtre n'est pas anecdotique : sans accès au web, les agents perdent une bonne part de leur intérêt. Un agent qui ne peut plus lire une page ni valider un formulaire redevient un chatbot avec des ambitions.</p>\n<p>Pas besoin d'imaginer un conflit ouvert : il suffit que chaque site décide, de son côté, qui il laisse passer. Le résultat est un web à plusieurs vitesses, où la capacité du modèle ne dit rien de son droit d'entrée.</p>\n<h2 id=\"quand-l-agent-ouvre-la-porte-des-cles-ap\">Quand l'agent ouvre la porte : des clés API s'échappent</h2>\n<p>L'autre face de l'action automatisée, c'est la surface d'attaque. OpenCode, un agent de programmation open source, a confirmé samedi 17 octobre une intrusion qui a pu exposer les clés API OpenAI, Anthropic et Google de 1,4 % des utilisateurs de sa Console.</p>\n<p>L'entreprise relie l'incident à une « attaque par distillation » — une méthode qui consiste à exploiter un modèle pour en entraîner un autre. Le vocabulaire est technique, la conséquence l'est moins : des victimes signalent déjà des frais de plusieurs centaines de dollars, sur des comptes dont les clés passaient par la Console d'OpenCode.</p>\n<p>Le point commun avec les deux dépêches précédentes tient à l'accès. Un agent utile doit pouvoir agir ; pour agir, il lui faut des identifiants, des permissions, un environnement. Chacun de ces éléments est aussi une prise.</p>\n<h2 id=\"ce-qui-fait-tourner-un-agent-n-est-pas-t\">Ce qui fait tourner un agent n'est pas toujours ce qu'on croit</h2>\n<p>Reste à savoir ce qui fait réellement fonctionner un agent. Des testeurs de r/LocalLLaMA ont comparé plusieurs harnais — QwenCode, OpenHands, opencode, Pi et une simple session IPython — avec le modèle Qwen3.5-9B, sur le benchmark OpenThoughts TB-Lite.</p>\n<p>Résultat : un harnais IPython à outil unique fait jeu égal avec des harnais de production bien plus lourds. Selon eux, une bonne part de la « randomité » des agents à petit modèle viendrait du bruit de l'environnement, pas du modèle. Aucun gagnant net ne se dégage toutefois sur le couple récompense/tokens/temps d'exécution.</p>\n<p>Côté capacités brutes, Google DeepMind pose un autre repère : quatre agents Gemini 4 Argon lancés dans Minecraft ont terminé le jeu de Mojang en 27 heures, sans aucune aide humaine, en se répartissant les tâches. L'étude est en ligne depuis le 15 octobre. La coordination entre agents y fait le travail qu'un seul modèle, même solide, ne fournirait pas.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches dessinent deux mouvements simultanés. D'un côté, les modèles sortent du chat pour agir sur le web, dans un navigateur qui n'est pas le leur. De l'autre, l'environnement se défend : des sites filtrent les agents, des clés fuient, et un harnais IPython minimaliste suffit à égaler des piles logicielles complexes. La capacité du modèle n'est donc qu'une partie du problème ; les conditions d'accès, la permission et la robustesse de l'environnement pèsent autant.</p>",
+ "pivot": "36c9295d6766159d",
+ "tags": [
+  "agents",
+  "openai",
+  "chatgpt",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/19/chatgpt-peut-desormais-controler-google-chrome-pour-travailler-a-votre-place/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9vtt9/a_bare_ipython_harness_ties_production_coding/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2355781-des-agents-ia-de-google-deepmind-ont-boucle-minecraft-en-27-heures-en-se-repartissant-les-taches.html"
+  }
+ ],
+ "date": "2026-10-19T12:49:35+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1535,
+  "sortie": 3771
+ }
+}

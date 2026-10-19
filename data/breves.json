@@ -1,5 +1,70 @@
 [
  {
+  "id": "6435712bca4f6acd",
+  "slug": "un-harnais-ipython-minimaliste-egale-les-agents-de-code-en-production--643571",
+  "titre": "Un harnais IPython minimaliste égale les agents de code en production sur TB-Lite",
+  "resume": "Des testeurs de r/LocalLLaMA ont comparé plusieurs harnais d'agents (QwenCode, OpenHands, opencode, Pi et une simple session IPython) avec le modèle Qwen3.5-9B sur le benchmark OpenThoughts TB-Lite. Résultat : un harnais IPython à outil unique fait jeu égal avec des harnais de production bien plus lourds. Selon eux, une bonne part de la « randomité » des agents à petit modèle vient du bruit de l'environnement, pas du modèle. Aucun gagnant net ne se dégage toutefois sur le couple récompense/tokens/temps d'exécution.",
+  "tags": [
+   "agents",
+   "dev",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9vtt9/a_bare_ipython_harness_ties_production_coding/",
+  "date_source": "2026-10-19T12:40:56+00:00",
+  "date_redac": "2026-10-19T12:49:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 831,
+   "sortie": 480
+  }
+ },
+ {
+  "id": "36c9295d6766159d",
+  "slug": "chatgpt-peut-desormais-controler-google-chrome-et-remplir-des-formulai-36c929",
+  "titre": "ChatGPT peut désormais contrôler Google Chrome et remplir des formulaires",
+  "resume": "OpenAI revoit sa stratégie et déploie plusieurs fonctionnalités basées sur ChatGPT pour Google Chrome. Le modèle pourra aller au-delà de la réponse : réaliser des actions dans le navigateur, comme remplir des formulaires. Cette annonce intervient après l'abandon, par OpenAI, de son propre navigateur.",
+  "tags": [
+   "chatgpt",
+   "openai",
+   "agents"
+  ],
+  "importance": 4,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/19/chatgpt-peut-desormais-controler-google-chrome-pour-travailler-a-votre-place/",
+  "date_source": "2026-10-19T12:31:58+00:00",
+  "date_redac": "2026-10-19T12:49:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 675,
+   "sortie": 113
+  }
+ },
+ {
+  "id": "423efc60bbbdde99",
+  "slug": "openclaw-2026-10-10-beta-2-securite-de-l-espace-de-travail-et-garde-fo-423efc",
+  "titre": "OpenClaw 2026.10.10-beta.2 : sécurité de l'espace de travail et garde-fous plugins",
+  "resume": "La bêta 2026.10.10-beta.2 d'OpenClaw renforce la sécurité de l'espace de travail : un apply_patch multi-fichiers est désormais rejeté avant toute modification si une cible d'update ultérieure manque ou si son contexte ne correspond pas, ce qui préserve l'espace original pour la tentative suivante. Les échecs d'I/O au moment du commit peuvent toutefois laisser des effets partiels. Côté plugins, les hooks before_tool_call s'exécutent aussi dans les sessions agent exec autonomes, pour que les garde-fous s'appliquent réellement. La reconnexion Buzz gère enfin la fermeture d'un relais pendant l'authentification NIP-42 sans couper la Gateway ni les autres canaux et sessions.",
+  "tags": [
+   "openclaw",
+   "agents",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.10-beta.2",
+  "date_source": "2026-10-19T12:23:09+00:00",
+  "date_redac": "2026-10-19T12:49:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 838,
+   "sortie": 440
+  }
+ },
+ {
   "id": "4fbabb993f1862dc",
   "slug": "minimax-publie-m3-1-flash-les-poids-du-modele-annonces-pour-le-23-octo-4fbabb",
   "titre": "MiniMax publie M3.1 Flash, les poids du modèle annoncés pour le 23 octobre",
@@ -17,6 +82,26 @@
    "modele": "deepseek-flash",
    "entree": 618,
    "sortie": 1150
+  }
+ },
+ {
+  "id": "7b30c428e75f8431",
+  "slug": "si-les-democrates-reprennent-le-congres-l-ia-deviendra-leur-casse-tete-7b30c4",
+  "titre": "Si les démocrates reprennent le Congrès, l'IA deviendra leur casse-tête",
+  "resume": "Les sondages annoncent une possible reconquête démocrate d'au moins une chambre du Congrès lors des élections de mi-mandat de novembre. La présidence des commissions reviendrait alors au parti, qui devra trancher sur la manière d'aborder l'IA, l'un des dossiers politiques les plus récents et les plus épineux du pays.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
+  "date_source": "2026-10-19T12:00:00+00:00",
+  "date_redac": "2026-10-19T12:49:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 652,
+   "sortie": 419
   }
  },
  {

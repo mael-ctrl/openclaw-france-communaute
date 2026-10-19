@@ -1,0 +1,41 @@
+{
+ "slug": "minimax-m3-1-flash-et-nemotron-bolt-l-ia-ouverte-vise-le-loc-e457e6",
+ "titre": "MiniMax M3.1 Flash et Nemotron Bolt : l'IA ouverte vise le local",
+ "chapo": "MiniMax publie M3.1 Flash, annoncé à un tiers du coût de M3 et trois fois plus rapide.Dans la même séquence, Nvidia sort Nemotron 3.5 Bolt, calibré pour tenir dans 24 Go, quand Meta propose un modèle de 816 milliards de paramètres qui réclame plusieurs Mac Studio.",
+ "html": "<h2 id=\"m3-1-flash-le-tiers-du-prix\">M3.1 Flash, le tiers du prix</h2>\n<p>MiniMax annonce M3.1 Flash à un tiers du coût de M3, et trois fois plus rapide. Le modèle affiche 62 % sur Automation-Bench, 74 % sur DeepSWE et 91 % sur BabyVision, avec une fenêtre de 1 million de tokens et un effort de réflexion configurable — autrement dit, on choisit combien de raisonnement le modèle s'autorise avant de répondre.</p>\n<p>Le détail qui compte pour qui suit le circuit des modèles furtifs : Space Bunny, apparu sur OpenRouter fin septembre sans identité, était une version antérieure de M3.1 Flash. Les poids seront publiés le 23 octobre. Le nombre de paramètres, lui, n'est pas communiqué, ce qui laisse ouverte la question du matériel nécessaire pour le faire tourner.</p>\n<h2 id=\"24-go-contre-38-000-dollars\">24 Go contre 38 000 dollars</h2>\n<p>Nvidia mise sur une tendance de fond : les entreprises veulent faire tourner leurs propres modèles ouverts dans leurs propres centres de données. Le fondeur lance pour cela de nouveaux modèles ouverts destinés à exécuter des agents, et pousse en parallèle l'agent IA local, privé, fonctionnant directement sur le PC.</p>\n<p>Le résultat concret s'appelle Nemotron 3.5 Bolt : 74 milliards de paramètres au total, 9 milliards actifs, quantifié jusqu'en 2 bits pour tenir dans 24 Go. En face, Meta lance Muse Spark Open — 816 milliards de paramètres, 42 milliards actifs, contexte de 1 million de tokens — mais son usage « desktop » suppose deux Mac Studio M5 Ultra de 512 Go, ou quatre de 256 Go pour environ 38 000 dollars.</p>\n<p>Le fil r/LocalLLaMA qui recense la séquence note que quatre gros modèles à poids ouverts sont sortis en 72 heures. La comparaison entre les deux approches n'est pas une affaire de qualité brute : c'est un écart de matériel et de budget d'exploitation.</p>\n<h2 id=\"llama-cpp-la-case-obligatoire\">llama.cpp, la case obligatoire</h2>\n<p>Cohere avance sur le même terrain. Nick, de l'équipe, annonce sur r/LocalLLaMA que le support llama.cpp de l'encodeur vision de North Micro Vision Instruct a été fusionné. Toutes les dernières architectures de modèles de Cohere sont donc compatibles avec llama.cpp, la partie LLM étant déjà couverte via North Mini Code et Command A+.</p>\n<p>L'information est technique, mais elle dit quelque chose de la période : passer par llama.cpp n'est plus un bonus pour un labo qui publie des poids, c'est la condition d'entrée sur les machines des utilisateurs. North Micro Vision sert par ailleurs de base à plusieurs des nouvelles sorties de l'entreprise.</p>\n<h2 id=\"les-cles-api-dans-le-viseur\">Les clés API dans le viseur</h2>\n<p>Le revers de cette circulation des modèles et des agents : OpenCode, agent de programmation open source, a confirmé samedi 17 octobre une intrusion qui a pu exposer les clés API OpenAI, Anthropic et Google de 1,4 % des utilisateurs de sa Console.</p>\n<p>L'entreprise relie l'incident à une « attaque par distillation », méthode qui consiste à exploiter un modèle pour en entraîner un autre. Des victimes signalent déjà des frais de plusieurs centaines de dollars. Le vecteur n'est pas le modèle lui-même, mais les identifiants stockés par l'outil qui l'appelle.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre modèles à poids ouverts en 72 heures, un 74 milliards de paramètres compressé en 2 bits pour tenir dans 24 Go, un 816 milliards qui réclame 38 000 dollars de machines, et un agent de code dont les clés ont fuité : la même semaine raconte moins une course à la taille qu'une bataille sur le coût d'exploitation. Ce qui se joue désormais, c'est la capacité à faire tourner un modèle sur du matériel existant, et à sécuriser les identifiants de ceux qui l'appellent.</p>",
+ "pivot": "e457e659b0f0deb9",
+ "tags": [
+  "open-source",
+  "agents",
+  "matériel",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa1rru/minimax_m31_flash_released_space_bunny_was_an/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa0cyz/llamacpp_support_for_cohere_models/"
+  }
+ ],
+ "date": "2026-10-19T17:28:42+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1576,
+  "sortie": 2773
+ }
+}

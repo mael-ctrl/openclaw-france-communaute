@@ -1,0 +1,41 @@
+{
+ "slug": "deux-cmp-170hx-nemotron-3-5-bolt-et-un-rts-de-2000-l-ia-loca-a88a83",
+ "titre": "Deux CMP 170HX, Nemotron 3.5 Bolt et un RTS de 2000 : l'IA locale en vrai",
+ "chapo": "Faire tourner un modèle de code sur deux CMP 170HX bridées en PCIe Gen2 x4, reconstruire un RTS de 2000 à partir du désassemblage, pendant qu'un agent open source laisse fuiter des clés API : la semaine dit beaucoup de l'état réel de l'écosystème. Tour des dépêches qui comptent, avec les chiffres et rien d'autre.",
+ "html": "<h2 id=\"deux-cmp-170hx-116-tok-s-par-requete\">Deux CMP 170HX, 116 tok/s par requête</h2>\n<p>Sur r/LocalLLaMA, un utilisateur détaille l'optimisation de Qwen 3.8 Flash Next sur deux cartes CMP 170HX, en PCIe Gen2 x4, <strong>sans mod x16 ni TP2</strong>. La recette tient en quatre briques : un checkpoint W4A16 AutoRound, un vLLM patché, du pipeline parallelism et le décodage spéculatif MTP natif du modèle.</p>\n<p>Le résultat est mesuré, pas promis : à huit requêtes de code simultanées, <strong>116 tok/s par requête</strong> et <strong>231 ms avant le premier token</strong>. Autrement dit, du matériel qu'on n'attendait pas là, tenu par un empilement logiciel précis plutôt que par la puissance brute.</p>\n<p>Côté grand public, l'approvisionnement reste le sujet. Jeff Fisher, vice-président senior de Nvidia, a démenti le 16 octobre à Taipei l'arrêt de la RTX 5090 — tout en reconnaissant, dans la même réponse, que la chaîne d'approvisionnement ne suivait pas. La carte avait disparu de la boutique en ligne américaine de Nvidia, ce qui avait nourri les rumeurs.</p>\n<h2 id=\"quatre-sorties-en-72-heures-une-seule-so\">Quatre sorties en 72 heures, une seule sous 24 Go</h2>\n<p>Quatre gros modèles à poids ouverts sont sortis en 72 heures. Meta lance <strong>Muse Spark Open</strong> : 816 Md de paramètres, 42 Md actifs, un contexte de 1M. Mais son usage « desktop » suppose deux Mac Studio M5 Ultra de 512 Go, ou quatre de 256 Go pour environ <strong>38 000 dollars</strong>. Le contexte d'un million de tokens se paie en mètres cubes.</p>\n<p>NVIDIA répond avec <strong>Nemotron 3.5 Bolt</strong> : 74 Md au total, 9 Md actifs, quantifié jusqu'en 2 bits pour tenir dans 24 Go. C'est le seul des quatre à rentrer dans une carte grand public de 24 Go, et c'est précisément là que se joue l'écart entre une démo impressionnante et un modèle qu'on fait réellement tourner.</p>\n<p>Deux stratégies opposées, donc : l'échelle maximale d'un côté, la compression agressive de l'autre. Les deux sont open weights, mais une seule tient sur le bureau.</p>\n<h2 id=\"opencode-1-4-des-utilisateurs-exposes\">OpenCode : 1,4 % des utilisateurs exposés</h2>\n<p>OpenCode, un agent de programmation open source, a confirmé samedi 17 octobre une intrusion qui a pu exposer les clés API OpenAI, Anthropic et Google de <strong>1,4 % des utilisateurs de sa Console</strong>. L'entreprise relie l'incident à une « attaque par distillation » — une méthode qui consiste à exploiter un modèle pour en entraîner un autre.</p>\n<p>Des victimes signalent déjà des frais de plusieurs centaines de dollars. Le point notable n'est pas seulement la faille : c'est la cible. Ce ne sont pas des données personnelles qui ont été visées en priorité, mais des accès à des modèles, devenus une matière première comme une autre.</p>\n<h2 id=\"tzar-2000-porte-en-rust-avec-claude-code\">Tzar (2000) porté en Rust avec Claude Code</h2>\n<p>L'utilisateur ColCarlo99 a refait <strong>Tzar: The Burden of the Crown</strong> (2000) en Rust avec le moteur Bevy, en s'appuyant sur Claude Code. Le flux de travail est précis : le modèle lit le désassemblage de l'exécutable original et porte les systèmes un par un — combat, IA, générateur de cartes, scripts de mission — pendant que le développeur compare avec le jeu d'origine et signale les écarts.</p>\n<p>Pour contenir la dérive sur la durée, il s'appuie sur <strong>plus de 600 tests</strong> et des notes de mémoire entre sessions. Le projet est gratuit et open source, fait tourner campagnes et cartes aléatoires sous Windows 10/11 jusqu'en 4K, mais requiert une copie de Tzar.</p>\n<p>La méthode est intéressante parce qu'elle inverse la charge : l'humain ne tape pas le code, il vérifie. Le modèle lit un binaire de 2000, le développeur arbitre. C'est probablement le partage des rôles le plus réaliste qu'on ait vu cette semaine.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches partagent un même réflexe : mesurer plutôt qu'annoncer. Un utilisateur publie ses tok/s et son temps avant premier token, NVIDIA reconnaît que sa chaîne d'approvisionnement ne suit pas, un agent chiffre à 1,4 % la part d'utilisateurs touchés, un développeur compte ses tests. Pendant ce temps, la course aux poids ouverts se joue moins sur le nombre de paramètres que sur une question très concrète : est-ce que ça tient dans 24 Go, ou est-ce qu'il faut 38 000 dollars de Mac Studio ?</p>",
+ "pivot": "a88a839c5f0b6633",
+ "tags": [
+  "matériel",
+  "open-source",
+  "sécurité",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9iufz/qwen_38_flash_next_optimized_for_two_cmp_170hx/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/nvidia/3290057_nvidia-jure-que-la-rtx-5090-nest-pas-arretee-juste-rationnee"
+  },
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1x91lor/rebuilt_a_2000_rts_from_scratch_with_claude_code/"
+  }
+ ],
+ "date": "2026-10-19T03:28:24+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1678,
+  "sortie": 3543
+ }
+}

@@ -1,5 +1,68 @@
 [
  {
+  "id": "0b45014bc78476e3",
+  "slug": "un-modele-de-moins-de-400b-battrait-fable-5-en-codage-d-ici-six-mois-p-0b4501",
+  "titre": "Un modèle de moins de 400B battrait Fable 5 en codage d'ici six mois, pari un dev",
+  "resume": "Sur r/LocalLLaMA, un utilisateur parie qu'un modèle de moins de 400 milliards de paramètres battra Fable 5 en codage et en tâches agentiques d'ici six mois. Sa configuration : 4 DGX Spark empruntés à un ami, NVFP4, GLM 5.3 Flash et SGLang. Côté harnais, zcode et le harnais DeepSeek, plus une variante en ligne pour un correctif et l'hébergement. La tâche soumise : un portfolio 3D de développeur en Next.js et Three.js, système solaire procédural et vaisseau pilotable.",
+  "tags": [
+   "dev",
+   "agents",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9m981/i_believe_under_6_months_we_gonna_get_under_400b/",
+  "date_source": "2026-10-19T03:25:04+00:00",
+  "date_redac": "2026-10-19T03:27:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 825,
+   "sortie": 1408
+  }
+ },
+ {
+  "id": "0b47b35b136c887d",
+  "slug": "nemotron-3-5-bolt-correct-sur-de-petits-setups-multi-utilisateurs-0b47b3",
+  "titre": "Nemotron 3.5 Bolt : correct sur de petits setups multi-utilisateurs",
+  "resume": "Un utilisateur de r/LocalLLaMA teste Nemotron 3.5 Bolt sur une configuration de 128 Go (4x MI100), une taille pour laquelle le modèle a été conçu, puisqu'il vise les Sparks. Dans le modèle de base, les décodeurs sont quantifiés en 2 bits et les parties plus sensibles en NVFP4, d'autres quants étant disponibles. Verdict : « correct » pour de petits usages multi-utilisateurs, mais rien qui le distingue face à un 27B ou à Flash Next.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9lkh5/nemotron_35_bolt_is_okayish_for_small_multiuser/",
+  "date_source": "2026-10-19T02:48:40+00:00",
+  "date_redac": "2026-10-19T03:28:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 853,
+   "sortie": 686
+  }
+ },
+ {
+  "id": "a88a839c5f0b6633",
+  "slug": "qwen-3-8-flash-next-optimise-sur-deux-cmp-170hx-a88a83",
+  "titre": "Qwen 3.8 Flash Next optimisé sur deux CMP 170HX",
+  "resume": "Sur r/LocalLLaMA, un utilisateur détaille l'optimisation de Qwen 3.8 Flash Next sur deux cartes CMP 170HX en PCIe Gen2 x4, sans mod x16 ni TP2. Il combine un checkpoint W4A16 AutoRound, un vLLM patché, du pipeline parallelism et le décodage spéculatif MTP natif. À huit requêtes de code simultanées, il mesure 116 tok/s par requête et 231 ms avant le premier token.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9iufz/qwen_38_flash_next_optimized_for_two_cmp_170hx/",
+  "date_source": "2026-10-19T00:29:52+00:00",
+  "date_redac": "2026-10-19T03:28:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 876,
+   "sortie": 877
+  }
+ },
+ {
   "id": "1f3ebce4164bf2cc",
   "slug": "llm-tools-datasette-0-1-1-corrige-une-casse-venue-du-passage-de-llm-a--1f3ebc",
   "titre": "llm-tools-datasette 0.1.1 corrige une casse venue du passage de LLM à httpx2",

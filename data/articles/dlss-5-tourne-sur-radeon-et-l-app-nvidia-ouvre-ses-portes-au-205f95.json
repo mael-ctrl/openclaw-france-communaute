@@ -1,0 +1,41 @@
+{
+ "slug": "dlss-5-tourne-sur-radeon-et-l-app-nvidia-ouvre-ses-portes-au-205f95",
+ "titre": "DLSS 5 tourne sur Radeon, et l'app Nvidia ouvre ses portes aux agents",
+ "chapo": "Un mod fait tourner les fonctions DLSS 5 de Nvidia sur des Radeon RX 6000, 7000 et 9000. Dans le même temps, la version 11.0.9.565 de l'app Nvidia active par défaut un serveur qui laisse des agents IA piloter le logiciel, sans que l'utilisateur ait à cocher quoi que ce soit.",
+ "html": "<h2 id=\"dlss-nr-ou-le-rendu-nvidia-qui-passe-cot\">DLSS-NR, ou le rendu Nvidia qui passe côté rouge</h2>\n<p>Le mod <strong>DLSS-NR</strong> permet désormais de faire tourner les grandes fonctions DLSS de Nvidia, <strong>DLSS 5 compris</strong>, sur des cartes AMD Radeon RX 6000, 7000 et 9000. Autrement dit, des technologies de rendu jusqu'ici accrochées au matériel Nvidia deviennent accessibles sur des cartes AMD.</p>\n<p>Son développeur dit viser les performances d'une <strong>GeForce RTX 5070 Ti</strong>. C'est un objectif annoncé, pas un protocole de test : la dépêche ne fournit aucun chiffre de comparaison, aucune liste de jeux, aucune mesure de latence.</p>\n<p>Ce qui reste solide, c'est le sens du mouvement. Le DLSS a longtemps servi d'argument différenciant côté vert. Un mod qui en porte les fonctions sur Radeon ne rend pas les deux gammes interchangeables, mais il déplace une partie de la valeur du silicium vers la couche logicielle.</p>\n<h2 id=\"72-heures-quatre-sorties-a-poids-ouverts\">72 heures, quatre sorties à poids ouverts</h2>\n<p>En 72 heures, quatre gros modèles à poids ouverts sont sortis, à en croire le fil de r/LocalLLaMA. Le plus gros du lot est signé Meta : <strong>Muse Spark Open</strong>, 816 Md de paramètres, 42 Md actifs, un contexte de 1M. La fiche technique impressionne ; l'usage, beaucoup moins. Faire tourner le modèle sur un poste de travail suppose deux Mac Studio M5 Ultra de 512 Go, ou quatre de 256 Go, pour environ <strong>38 000 dollars</strong>.</p>\n<p>NVIDIA répond avec <strong>Nemotron 3.5 Bolt</strong> : 74 Md au total, 9 Md actifs, quantifié jusqu'en <strong>2 bits</strong> pour tenir dans 24 Go. L'écart de gabarit n'est pas un détail d'architecture, c'est un choix de camp. D'un côté, un modèle qui suppose un budget matériel à cinq chiffres ; de l'autre, un modèle qui tient sur une carte grand public — au prix d'une quantification agressive dont la dépêche ne dit pas ce qu'elle coûte en qualité.</p>\n<h2 id=\"24-go-comme-unite-de-mesure\">24 Go comme unité de mesure</h2>\n<p>Le même fil donne une illustration concrète de ce que « tenir » veut dire. Un utilisateur détaille l'optimisation de <strong>Qwen 3.8 Flash Next</strong> sur deux cartes <strong>CMP 170HX</strong>, bridées en PCIe Gen2 x4, sans mod x16 ni TP2.</p>\n<p>La recette empile un checkpoint <strong>W4A16 AutoRound</strong>, un <strong>vLLM patché</strong>, du pipeline parallelism et le décodage spéculatif <strong>MTP</strong> natif. À huit requêtes de code simultanées, il mesure <strong>116 tok/s par requête</strong> et <strong>231 ms avant le premier token</strong>.</p>\n<p>Aucune des briques n'est exotique prise séparément. Ce qui frappe, c'est l'empilement : quantification, ordonnanceur, décodage spéculatif et parallélisme doivent être réglés ensemble pour qu'un matériel d'occasion tienne une charge réelle. Le savoir-faire se déplace du modèle vers la configuration.</p>\n<h2 id=\"une-app-qui-s-ouvre-une-carte-qui-se-rat\">Une app qui s'ouvre, une carte qui se rationne</h2>\n<p>Deux dépêches matérielles complètent le tableau, sans lien de cause à effet entre elles.</p>\n<p>La version <strong>11.0.9.565</strong> de l'application NVIDIA, publiée le 13 octobre 2026, active par défaut un serveur qui permet à des agents IA de piloter le logiciel. L'utilisateur n'a rien à activer : l'option est en place dès la mise à jour. L'information compte moins pour ce qu'elle apporte que pour ce qu'elle installe — une couche de pilotage par agents dans un logiciel grand public, sans démarche explicite de l'utilisateur.</p>\n<p>Le 16 octobre, à Taipei, <strong>Jeff Fisher</strong>, vice-président senior de Nvidia, a démenti l'arrêt de la <strong>RTX 5090</strong>. Il a reconnu dans la même réponse que la chaîne d'approvisionnement ne suivait pas. La carte venait de disparaître de la boutique en ligne américaine de Nvidia, ce qui avait nourri les rumeurs.</p>\n<h2>Et maintenant ?</h2>\n<p>Mis bout à bout, ces dépêches dessinent un rapport de force qui se déplace. Le mod DLSS-NR sort des fonctions du matériel Nvidia, la quantification en 2 bits fait entrer un modèle dans 24 Go, deux CMP 170HX suffisent à tenir huit requêtes de code. Pendant ce temps, Nvidia ouvre le pilotage par agents dans son application et reconnaît que sa RTX 5090 ne suit pas en volume. La couche logicielle prend du poids ; le silicium, lui, reste rare.</p>",
+ "pivot": "205f9584addb698a",
+ "tags": [
+  "matériel",
+  "open-source",
+  "agents",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/amd/3290387_le-dlss-5-de-nvidia-fonctionne-sur-les-cartes-amd-radeon-grace-a-ce-mod"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/nvidia/3290323_votre-app-nvidia-laisse-peut-etre-deja-des-agents-ia-la-piloter"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9iufz/qwen_38_flash_next_optimized_for_two_cmp_170hx/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/nvidia/3290057_nvidia-jure-que-la-rtx-5090-nest-pas-arretee-juste-rationnee"
+  }
+ ],
+ "date": "2026-10-19T09:12:15+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1641,
+  "sortie": 4046
+ }
+}

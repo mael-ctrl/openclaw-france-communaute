@@ -1,5 +1,67 @@
 [
  {
+  "id": "205f9584addb698a",
+  "slug": "le-mod-dlss-nr-fait-tourner-le-dlss-5-de-nvidia-sur-les-radeon-rx-6000-205f95",
+  "titre": "Le mod DLSS-NR fait tourner le DLSS 5 de Nvidia sur les Radeon RX 6000, 7000 et 9000",
+  "resume": "Le mod DLSS-NR on AMD permet désormais de faire tourner les grandes fonctions DLSS de Nvidia, DLSS 5 compris, sur les cartes Radeon RX 6000, 7000 et 9000. Son développeur dit viser les performances d'une GeForce RTX 5070 Ti. Des technologies de rendu jusqu'ici liées au matériel Nvidia se retrouvent ainsi accessibles côté AMD.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/amd/3290387_le-dlss-5-de-nvidia-fonctionne-sur-les-cartes-amd-radeon-grace-a-ce-mod",
+  "date_source": "2026-10-19T09:03:46+00:00",
+  "date_redac": "2026-10-19T09:11:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 685,
+   "sortie": 518
+  }
+ },
+ {
+  "id": "05a806547ec07a1e",
+  "slug": "qwen3-8-flash-next-dflash2-environ-20-plus-rapide-que-mtp-en-concurren-05a806",
+  "titre": "Qwen3.8-Flash-Next-DFlash2 : environ 20 % plus rapide que MTP en concurrence 1",
+  "resume": "Sur r/LocalLLaMA, le dépôt incoai/Qwen3.8-Flash-Next-DFlash2 est présenté par les auteurs originaux de DFlash 2. Leur tableau de mesures annonce un débit environ 20 % supérieur à celui de MTP lorsque la concurrence est fixée à 1. Le gain vaut donc pour une seule requête traitée à la fois, pas pour les scénarios à forte charge.",
+  "tags": [
+   "recherche",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9rq3r/incoaiqwen38flashnextdflash2/",
+  "date_source": "2026-10-19T08:55:02+00:00",
+  "date_redac": "2026-10-19T09:11:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 643,
+   "sortie": 985
+  }
+ },
+ {
+  "id": "ca852bd928d4b6b0",
+  "slug": "anthropic-lance-un-fonds-de-partage-des-richesses-de-l-ia-ca852b",
+  "titre": "Anthropic lance un fonds de partage des richesses de l'IA",
+  "resume": "Anthropic, le créateur de Claude, lance un fonds qui pourrait verser de l'argent à certaines populations, en évoquant les risques de l'IA pour l'emploi. De son côté, Elon Musk propose de distribuer directement des actions au public. Le débat sur le partage des richesses de l'IA est donc relancé, sans qu'un revenu soit encore garanti pour tous.",
+  "tags": [
+   "claude",
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2355739-anthropic-veut-partager-une-partie-de-la-richesse-de-lia-un-pas-vers-le-revenu-universel.html",
+  "date_source": "2026-10-19T08:49:19+00:00",
+  "date_redac": "2026-10-19T09:11:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 704,
+   "sortie": 414
+  }
+ },
+ {
   "id": "4ef0ecab4e7beab4",
   "slug": "l-app-nvidia-active-par-defaut-un-serveur-pour-la-piloter-par-agents-i-4ef0ec",
   "titre": "L'app NVIDIA active par défaut un serveur pour la piloter par agents IA",

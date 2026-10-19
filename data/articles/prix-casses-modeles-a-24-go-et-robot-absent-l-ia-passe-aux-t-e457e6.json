@@ -1,0 +1,41 @@
+{
+ "slug": "prix-casses-modeles-a-24-go-et-robot-absent-l-ia-passe-aux-t-e457e6",
+ "titre": "Prix cassés, modèles à 24 Go et robot absent : l'IA passe aux travaux pratiques",
+ "chapo": "MiniMax divise ses tarifs par trois, Nvidia et Meta se disputent la mémoire d'une machine de bureau, la France présente son logiciel de commandement militaire. Pendant ce temps, OpenAI évoque un robot humanoïde pour 2027 sans en montrer la moindre image.",
+ "html": "<h2 id=\"minimax-m3-1-flash-le-prix-comme-argumen\">MiniMax-M3.1-Flash : le prix comme argument</h2>\n<p>MiniMax publie M3.1-Flash, qu'il annonce <strong>trois fois plus rapide</strong> que M3 pour <strong>un tiers du coût</strong>. L'API est facturée 0,15 dollar le million de tokens en entrée et 0,60 dollar en sortie, avec un contexte d'un million de tokens et des niveaux d'effort de réflexion configurables — de quoi arbitrer entre latence et profondeur de raisonnement selon la tâche.</p>\n<p>Le détail intéressant vient des commentaires : Space Bunny, le modèle furtif apparu sur OpenRouter fin septembre, en était une version antérieure. Autrement dit, MiniMax a testé en silence avant d'annoncer.</p>\n<p>Il manque encore une donnée : le nombre de paramètres n'est pas communiqué. Les poids sont annoncés pour le 23 octobre, ce qui laissera enfin de quoi vérifier sur pièce ce que valent les chiffres de l'API.</p>\n<h2 id=\"quatre-sorties-en-72-heures-un-plafond-a\">Quatre sorties en 72 heures, un plafond à 24 Go</h2>\n<p>La même fenêtre de 72 heures a vu quatre gros modèles à poids ouverts débarquer. Le plus massif vient de Meta : Muse Spark Open, 816 milliards de paramètres, 42 milliards actifs, un contexte d'un million de tokens. Sauf que l'usage « desktop » suppose <strong>deux Mac Studio M5 Ultra de 512 Go</strong>, ou quatre machines de 256 Go pour environ 38 000 dollars.</p>\n<p>NVIDIA répond avec Nemotron 3.5 Bolt : 74 milliards de paramètres au total, 9 milliards actifs, quantifié jusqu'en <strong>2 bits</strong> pour tenir dans 24 Go. Le contraste est net — d'un côté un modèle qui réclame un parc matériel, de l'autre un modèle qui rentre dans une carte grand public.</p>\n<p>Ce n'est pas une hiérarchie de qualité, c'est un seuil. 24 Go, c'est la mémoire de nombreuses cartes vendues ces dernières années : la frontière entre un modèle qu'on télécharge et un modèle qu'on admire de loin.</p>\n<h2 id=\"nvidia-veut-l-agent-dans-le-datacenter-e\">Nvidia veut l'agent dans le datacenter, et sur le PC</h2>\n<p>Nvidia ne s'arrête pas aux poids. Le fondeur lance de nouveaux modèles ouverts destinés à exécuter des agents, en pariant sur une tendance de fond : les entreprises veulent faire tourner leurs propres modèles ouverts dans leurs propres centres de données. Même logique côté PC, avec un agent local, privé, exécuté directement sur la machine.</p>\n<p>La cohérence avec Nemotron 3.5 Bolt saute aux yeux : si l'agent doit tourner chez le client, il faut des modèles qui tiennent dans la mémoire disponible. La bataille ne se joue plus seulement sur les benchmarks, mais sur ce qui rentre dans une machine qu'on possède déjà.</p>\n<h2 id=\"arcadia-et-le-robot-ce-qui-n-est-pas-enc\">Arcadia et le robot : ce qui n'est pas encore livré</h2>\n<p>Côté français, le Commissariat au numérique de défense a présenté fin septembre <strong>Arcadia</strong>, le futur logiciel de commandement des armées dopé à l'IA. L'outil doit répondre à Maven, la solution de l'américain Palantir que l'OTAN utilise déjà. L'objectif affiché : sortir d'une dépendance aux solutions américaines dans le commandement militaire.</p>\n<p>Même prudence temporelle chez OpenAI. Interrogé dans le podcast Sources sur la possibilité que l'entreprise construise son propre appareil, Sam Altman a répondu par l'affirmative. Il a ensuite évoqué auprès de Fortune une « démo géniale » en 2027. Rien n'a filtré sur l'apparence du robot, ses applications ou les modèles qui l'équiperont.</p>\n<p>Deux annonces, deux calendriers. Arcadia est un logiciel qui existe sur le papier et pas encore dans les états-majors ; le robot d'OpenAI est une démo promise dans plus d'un an. Ni l'un ni l'autre ne se télécharge aujourd'hui.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux vitesses se dessinent. D'un côté, ce qui est facturé, tarifé au million de tokens et bientôt téléchargeable : M3.1-Flash, Nemotron 3.5 Bolt, la famille de modèles ouverts de Nvidia. De l'autre, ce qui relève de l'annonce — un logiciel de commandement militaire, un humanoïde pour 2027. Les chiffres disponibles concernent presque tous la première catégorie, et c'est là que se joue l'usage réel : un modèle qui tient dans 24 Go ou qui coûte 0,15 dollar change plus vite les pratiques qu'une démo réussie.</p>",
+ "pivot": "e457e659b0f0deb9",
+ "tags": [
+  "open-source",
+  "matériel",
+  "business",
+  "france"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa1rru/minimax_m31_flash_released_space_bunny_was_an/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/robotique/openai-prepare-un-robot-humanoide-qui-pourrait-etre-presente-des-2027.FDY3CAZ7FJDHTMIFMDADODRL5Y.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
+  }
+ ],
+ "date": "2026-10-19T17:48:46+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1631,
+  "sortie": 3451
+ }
+}

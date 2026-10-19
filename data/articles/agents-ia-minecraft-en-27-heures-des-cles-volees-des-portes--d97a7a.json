@@ -1,0 +1,41 @@
+{
+ "slug": "agents-ia-minecraft-en-27-heures-des-cles-volees-des-portes--d97a7a",
+ "titre": "Agents IA : Minecraft en 27 heures, des clés volées, des portes qui se ferment",
+ "chapo": "Quatre agents Gemini 4 Argon de Google DeepMind terminent Minecraft en 27 heures, sans aide humaine et en se répartissant les tâches. Le même week-end, OpenCode confirme une fuite de clés API et des sites décident de bloquer les agents autonomes. La promesse et la facture arrivent ensemble.",
+ "html": "<h2 id=\"minecraft-en-27-heures-a-quatre\">Minecraft en 27 heures, à quatre</h2>\n<p>Des chercheurs de Google DeepMind ont lancé quatre agents <strong>Gemini 4 Argon</strong> dans Minecraft. Ils ont terminé le jeu de Mojang en 27 heures, sans aucune aide humaine, en se répartissant les tâches. L'étude qui détaille ces résultats est en ligne depuis le 15 octobre.</p>\n<p>Le chiffre qui compte n'est peut-être pas les 27 heures, mais le « quatre ». Un agent seul bute sur une tâche longue ; plusieurs agents qui se distribuent le travail, c'est une autre architecture, avec ses propres problèmes de coordination à régler.</p>\n<p>La dépêche ne dit rien du nombre de tentatives ratées avant d'arriver à ces 27 heures, ni de la façon dont les quatre agents arbitrent leurs désaccords. C'est pourtant la question qu'on posera à la prochaine démonstration.</p>\n<h2 id=\"les-labos-annoncent-6-4-de-plus\">Les labos annoncent 6,4 % de plus</h2>\n<p>En compilant 1 629 résultats publiés, l'auteur de whatmodel.sh, un classement open source, a apparié 611 comparaisons portant sur 180 modèles et 103 benchmarks. Verdict : les labos annoncent en moyenne des scores <strong>6,4 % supérieurs</strong> à ceux des testeurs indépendants, sur les mêmes modèles et les mêmes tests.</p>\n<p>L'appariement est le cœur de la méthode : comparer un modèle à lui-même, sur un test donné, selon qui publie le chiffre. Le jeu de données est ouvert (CC BY-SA 4.0), le code aussi (MIT), sources et licences documentées — donc vérifiable par n'importe qui.</p>\n<p>6,4 %, ce n'est pas une anomalie spectaculaire. C'est assez pour déplacer un classement, pas assez pour disqualifier un modèle. La dépêche ne tranche pas l'origine de l'écart : protocole, sélection des prompts, rejeu des échecs, rien n'est départagé.</p>\n<h2 id=\"cles-api-la-facture-arrive\">Clés API : la facture arrive</h2>\n<p>OpenCode, un agent de programmation open source, a confirmé samedi 17 octobre une intrusion qui a pu exposer les clés API OpenAI, Anthropic et Google de <strong>1,4 % des utilisateurs</strong> de sa Console. L'entreprise relie l'incident à une « attaque par distillation », une méthode qui consiste à exploiter un modèle pour en entraîner un autre.</p>\n<p>Des victimes signalent déjà des frais de plusieurs centaines de dollars. Une clé API volée ne se contente pas d'ouvrir une porte : elle consomme, et c'est le titulaire du compte qui paie.</p>\n<p>Le vecteur est ce qu'il y a de plus notable. La distillation est d'ordinaire un sujet de concurrence entre labos ; elle apparaît ici comme une technique d'attaque ordinaire, avec les clés d'autrui comme carburant.</p>\n<h2 id=\"le-web-se-ferme-le-bureau-s-ouvre\">Le web se ferme, le bureau s'ouvre</h2>\n<p>OpenAI, Meta, Google et Instinct assurent que leurs agents peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail. Mais une partie des sites refuse désormais de les laisser entrer. Sans accès au web, ces agents perdent une bonne part de leur intérêt.</p>\n<p>À l'autre bout de la chaîne, NVIDIA pousse dans le sens inverse. La version 11.0.9.565 de son application, publiée le 13 octobre 2026, active <strong>par défaut</strong> un serveur qui permet à des agents IA de piloter le logiciel. L'utilisateur n'a rien à activer : l'option est en place dès la mise à jour.</p>\n<p>Les deux mouvements ne s'annulent pas, ils se superposent. Un agent qui pilote un logiciel local n'a pas besoin du navigateur ; un agent qui veut le web doit négocier son passage, site par site.</p>\n<h2>Et maintenant ?</h2>\n<p>Mis bout à bout, ces cinq dépêches dessinent un moment précis : les agents enchaînent des tâches plus longues (27 heures de Minecraft), leurs performances sont mesurées par des gens qui contestent les chiffres officiels, leurs clés se volent, et leur terrain d'action se négocie — refusé par certains sites, ouvert par défaut dans une application grand public. Aucune de ces histoires ne dit que les agents sont prêts. Elles disent que l'infrastructure autour d'eux — benchmarks, authentification, accès web, permissions — est devenue le vrai sujet, et qu'elle bouge plus vite que les modèles.</p>",
+ "pivot": "d97a7a6e0668f608",
+ "tags": [
+  "agents",
+  "recherche",
+  "sécurité",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2355781-des-agents-ia-de-google-deepmind-ont-boucle-minecraft-en-27-heures-en-se-repartissant-les-taches.html"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9skrx/ai_labs_report_benchmark_scores_64_higher_than/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/nvidia/3290323_votre-app-nvidia-laisse-peut-etre-deja-des-agents-ia-la-piloter"
+  }
+ ],
+ "date": "2026-10-19T11:12:31+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1551,
+  "sortie": 4019
+ }
+}

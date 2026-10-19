@@ -1,0 +1,41 @@
+{
+ "slug": "de-2-7-a-816-milliards-de-parametres-la-semaine-des-poids-ou-266233",
+ "titre": "De 2,7 à 816 milliards de paramètres : la semaine des poids ouverts",
+ "chapo": "Quatre gros modèles à poids ouverts en 72 heures : inclusionAI décline son audio-langage en deux tailles, NVIDIA fait tenir 74 milliards de paramètres dans 24 Go, MiniMax descend à 0,15 dollar le million de tokens. Et OpenCode reconnaît une intrusion qui a pu exposer des clés API.",
+ "html": "<h2 id=\"ming-3-0-une-meme-famille-deux-gabarits\">Ming-3.0 : une même famille, deux gabarits</h2>\n<p>inclusionAI met en ligne deux modèles audio-langage natifs, tous deux de type mélange d'experts. <strong>Ming-3.0-audio-tiny</strong> totalise 9,3 milliards de paramètres, dont 2,7 milliards activés à chaque inférence. <strong>Ming-3.0-audio-flash</strong> monte à 126 milliards de paramètres, dont 6,5 milliards activés par inférence.</p>\n<p>Les deux acceptent en entrée de l'audio et des instructions texte, et couvrent reconnaissance vocale, questions-réponses orales, compréhension et raisonnement audio. En sortie, du texte, avec possibilité de parole synthétisée en option. Le petit format est publié sous licence MIT ; les langues principales annoncées sont le chinois et l'anglais.</p>\n<p>L'écart entre les deux nombres de paramètres s'explique par l'architecture : le mélange d'experts sépare le total des paramètres de ceux réellement activés à chaque inférence. Un modèle annoncé à 126 milliards ne sollicite donc, à chaque passage, qu'une fraction de ses poids.</p>\n<h2 id=\"24-go-la-ligne-de-demarcation\">24 Go, la ligne de démarcation</h2>\n<p>Sur r/LocalLLaMA, le constat de la semaine tient en une phrase : quatre gros modèles à poids ouverts sont sortis en 72 heures. Le plus massif, <strong>Muse Spark Open</strong> de Meta, aligne 816 milliards de paramètres, dont 42 milliards actifs, avec un contexte d'un million de tokens. Mais son usage « desktop » suppose deux Mac Studio M5 Ultra de 512 Go, ou quatre de 256 Go pour environ 38 000 dollars.</p>\n<p><strong>Nemotron 3.5 Bolt</strong> de NVIDIA attaque le problème par l'autre bout : 74 milliards de paramètres au total, 9 milliards actifs, quantifiés jusqu'en 2 bits pour tenir dans 24 Go. Les deux approches ne s'opposent pas sur la qualité, elles définissent différemment l'accessibilité : la fenêtre de contexte d'un côté, le matériel déjà posé sur le bureau de l'autre.</p>\n<h2 id=\"minimax-m3-1-flash-le-prix-comme-argumen\">MiniMax M3.1 Flash : le prix comme argument</h2>\n<p>MiniMax lance <strong>M3.1 Flash</strong>, facturé 0,15 dollar par million de tokens d'entrée. Ce tarif correspond à la moitié du prix catalogue affiché pour M3, selon l'annonce relayée sur r/LocalLLaMA. Le modèle s'installe donc en entrée de gamme du catalogue MiniMax, avec une addition divisée par deux par rapport à M3.</p>\n<p>Sur les charges où l'entrée domine — documents longs, retranscription, pré-traitement de corpus — un facteur deux sur le token d'entrée pèse plus lourd que quelques points de qualité en sortie. C'est là que se joue la bataille des catalogues : pas sur le modèle phare, sur le tarif d'appel.</p>\n<h2 id=\"opencode-1-4-des-utilisateurs-des-cles-e\">OpenCode : 1,4 % des utilisateurs, des clés exposées</h2>\n<p>OpenCode, un agent de programmation open source, a confirmé samedi 17 octobre une intrusion qui a pu exposer les clés API OpenAI, Anthropic et Google de <strong>1,4 % des utilisateurs</strong> de sa Console. L'entreprise relie l'incident à une « attaque par distillation », une méthode qui consiste à exploiter un modèle pour en entraîner un autre. Des victimes signalent déjà des frais de plusieurs centaines de dollars.</p>\n<p>Une clé API volée ne se contente pas de fuiter : elle se consomme, et la facture arrive chez son propriétaire. Dans le scénario décrit par OpenCode, elle alimente aussi l'entraînement d'un autre modèle. Autrement dit, le jeton d'accès devient à la fois la cible et le carburant.</p>\n<h2>Et maintenant ?</h2>\n<p>Les annonces de la semaine ne racontent pas la même histoire selon le bout du marché qu'on regarde. Côté modèles, l'audio-langage se décline en petit format sous licence MIT et les tarifs d'entrée glissent vers le bas. Côté matériel, la question reste ce qui tient dans 24 Go. Entre les deux, l'incident OpenCode rappelle que la clé API demeure le maillon faible de cette chaîne — un agent open source en détient autant qu'un service fermé.</p>",
+ "pivot": "266233f5dfc23920",
+ "tags": [
+  "open-source",
+  "meta",
+  "sécurité",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9yf3m/inclusionaiming30audiotiny_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9yd01/inclusionaiming30audioflash_hugging_face/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9wv1x/minimax_launches_m31_flash_at_015_per_million/"
+  }
+ ],
+ "date": "2026-10-19T14:53:59+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1633,
+  "sortie": 4191
+ }
+}

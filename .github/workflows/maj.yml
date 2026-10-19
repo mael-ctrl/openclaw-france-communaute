@@ -15,7 +15,9 @@ concurrency:
 jobs:
   maj:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    # Premier envoi des couvertures et pages d'archives : >25 min observées.
+    # Borne conservée ; aucune modification de cadence ni de concurrence.
+    timeout-minutes: 45
     steps:
       - name: Récupérer le dépôt
         uses: actions/checkout@v4

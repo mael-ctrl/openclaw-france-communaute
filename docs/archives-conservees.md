@@ -77,8 +77,18 @@ et ses changements sont conservés. Aucun `-X ours`, reset ou réécriture de pr
 
 ## Livraison
 
-Code et tests prêts ; **déploiement cloud et contrôle HTTPS final encore à
-confirmer**. Le catalogue répondait 404 avant cette intégration.
+Le premier run **39228430624**, code `85740f9`, a été **annulé à la limite de
+25 minutes**, pendant le transfert FTP : 1 176 envois consignés, dernier chemin
+sous `breves/pre-entrainement-…`. Ce n'est pas un déploiement achevé ; la sauvegarde
+finale a été sautée par l'annulation. Les tests cloud (142) étaient verts.
+
+Cause observée : le premier transfert du catalogue et de ses couvertures dépasse
+le budget précédent. Le budget du job est porté à **45 minutes, toujours borné**,
+sans changer cadence, concurrence, secrets ou mécanisme de sauvegarde. Contrat
+rouge/vert ajouté ; **143 tests Python et un nouveau build isolé réussis** sur
+la base rafraîchie `3bc6406`, 316 fichiers de données inchangés. La relance doit
+partir de `main` à jour, pas rejouer l'ancien SHA. **Cloud/HTTPS final en attente**.
+Le catalogue répondait 404 avant cette intégration.
 
 Preuves privées : `crabe-chantiers/archives/2026-10-19/integration-conservees/` ;
 recette isolée `archives-conservees-_o_u738j` sous scratch Hermes.

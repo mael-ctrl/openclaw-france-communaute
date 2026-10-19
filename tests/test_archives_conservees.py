@@ -103,6 +103,14 @@ class ArchivesConserveesTest(unittest.TestCase):
                 self.construire_fixture(breves, racine)
             self.assertEqual(list((racine / "site").rglob("*.html")), [])
 
+    def test_budget_cloud_borne_couvre_le_premier_envoi_des_archives(self):
+        import re
+        workflow = (Path(__file__).resolve().parents[1] / ".github/workflows/maj.yml").read_text()
+        minutes = int(re.search(r"timeout-minutes:\s*(\d+)", workflow).group(1))
+        # Le premier envoi réel a été annulé à 25 min, au milieu des brèves.
+        self.assertGreaterEqual(minutes, 40)
+        self.assertLessEqual(minutes, 45, "Garder un garde-fou de durée explicite")
+
 
 if __name__ == "__main__":
     unittest.main()

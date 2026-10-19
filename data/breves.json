@@ -1,5 +1,88 @@
 [
  {
+  "id": "c71a8f039f29e2e2",
+  "slug": "xid-8-des-blocages-gpu-sur-rtx-5090-laptop-sous-linux-avec-les-llm-loc-c71a8f",
+  "titre": "Xid 8 : des blocages GPU sur RTX 5090 Laptop sous Linux avec les LLM locaux",
+  "resume": "Sur un Lenovo Legion sous Linux Mint, une RTX 5090 Laptop (24 Go de VRAM) fait planter les LLM locaux avec des Xid 8 côté NVIDIA. Un ticket llama.cpp référencé décrit ces blocages liés à l'évaluation des CUDA graphs sous Linux et donne GGML_CUDA_DISABLE_GRAPHS=1 comme contournement, au prix des performances. L'auteur, resté en noyau 7.1.13 et en pilote 595.99.02, n'a pas pu passer aux versions plus récentes.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xa7qs8/rtx_5090_laptop_on_linux_gpu_hangs_with_xid_8/",
+  "date_source": "2026-10-19T20:14:58+00:00",
+  "date_redac": "2026-10-19T20:34:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 856,
+   "sortie": 1289
+  }
+ },
+ {
+  "id": "c428ad10a281ccf2",
+  "slug": "amazon-lance-torchneuron-pour-affranchir-pytorch-de-nvidia-c428ad",
+  "titre": "Amazon lance TorchNeuron pour affranchir PyTorch de Nvidia",
+  "resume": "Amazon lance TorchNeuron, un outil de développement qui cible PyTorch, le kit gratuit sur lequel se construisent la plupart des applications d'IA. Objectif : briser la mainmise de Nvidia sur cet écosystème pour que davantage de développeurs fassent tourner leurs applications sur des puces alternatives, dont les siennes. C'est, selon TechCrunch, l'offensive la plus ambitieuse d'Amazon face à Nvidia.",
+  "tags": [
+   "dev",
+   "business",
+   "matériel"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+  "date_source": "2026-10-19T20:09:24+00:00",
+  "date_redac": "2026-10-19T20:34:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 646,
+   "sortie": 610
+  }
+ },
+ {
+  "id": "b89e6a47e32d22aa",
+  "slug": "sur-r-localllama-un-membre-mesure-le-slop-genere-par-ia-b89e6a",
+  "titre": "Sur r/LocalLLaMA, un membre mesure le « slop » généré par IA",
+  "resume": "Agacé par les posts générés par IA qui pullulent sur r/LocalLLaMA et sur Reddit en général, l'utilisateur Uhlo publie une analyse de ce « slop » à travers plusieurs subreddits et plusieurs années. Il concède une amélioration ces derniers mois. Son billet s'achève sur des prédictions qu'il juge lui-même « stupides et pas sérieuses du tout ».",
+  "tags": [
+   "société",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xa7hi8/lets_delve_into_the_tapestry_of_ai_slop_on/",
+  "date_source": "2026-10-19T20:05:12+00:00",
+  "date_redac": "2026-10-19T20:34:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 747,
+   "sortie": 635
+  }
+ },
+ {
+  "id": "44141a5cdd795ca4",
+  "slug": "diffusiongemma-en-local-tres-rapide-pour-les-prompts-d-images-mais-san-44141a",
+  "titre": "DiffusionGemma en local : très rapide pour les prompts d'images, mais sans code ni outils",
+  "resume": "Un utilisateur de r/LocalLLaMA exploite DiffusionGemma en local : le modèle atteint des vitesses élevées sur le matériel adapté et fonctionne aussi pour l'analyse d'images. Il l'utilise avec un agent hors ligne pour générer des prompts d'images et de vidéo, avec un gain de productivité qu'il juge important. Le modèle ne sait ni coder ni appeler d'outils : il assume ce compromis au profit de la vitesse.",
+  "tags": [
+   "matériel",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xa6ykz/has_anyone_else_here_found_a_place_for/",
+  "date_source": "2026-10-19T19:46:24+00:00",
+  "date_redac": "2026-10-19T20:34:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 807,
+   "sortie": 719
+  }
+ },
+ {
   "id": "39364480d431c173",
   "slug": "des-pirates-s-attaquent-a-opencode-et-font-grimper-les-factures-des-ut-393644",
   "titre": "Des pirates s'attaquent à OpenCode et font grimper les factures des utilisateurs",

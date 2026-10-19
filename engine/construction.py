@@ -387,21 +387,31 @@ def page_accueil(breves, articles, stats, journal_entrees):
 
 # ---------------------------------------------------------------- actus / articles
 
-def page_actus(breves, numero=1):
-    # Même périmètre que les pages individuelles construites ci-dessous.
-    breves = breves[:400]
+def page_actus(breves, numero=1, archives=False):
+    # Fil récent borné ; catalogue distinct des seules sources encore conservées.
+    breves = breves if archives else breves[:400]
     total_pages = max(1, (len(breves) + 99) // 100)
     selection = breves[(numero - 1) * 100:numero * 100]
-    chemin = "/actus/" if numero == 1 else f"/actus/page/{numero}/"
-    titre = "Le fil des actus" + (f" — page {numero}" if numero > 1 else "")
+    def chemin_page(n):
+        if archives:
+            return "/archives-breves/" if n == 1 else f"/archives-breves/page-{n}/"
+        return "/actus/" if n == 1 else f"/actus/page/{n}/"
+    chemin = chemin_page(numero)
+    titre = ("Archives des brèves conservées" if archives else "Le fil des actus")
+    titre += f" — page {numero}" if numero > 1 else ""
+    contexte = ('Ce catalogue reprend les brèves dont les sources éditoriales sont conservées dans le dépôt ; '
+                'ce n’est pas un historique exhaustif des anciennes URL. '
+                '<a href="/actus/">Revenir au fil récent</a>.' if archives else
+                'Le fil récent est limité à 400 brèves. '
+                '<a href="/archives-breves/">Parcourir les archives des brèves conservées →</a>')
     pagination = ""
     if total_pages > 1:
-        precedent = "/actus/" if numero == 2 else f"/actus/page/{numero - 1}/"
+        precedent = chemin_page(numero - 1)
         liens = (f'<a class="bouton fantome" rel="prev" href="{precedent}">← Plus récentes</a>'
                  if numero > 1 else "")
         liens += f'<span aria-current="page">Page {numero} sur {total_pages}</span>'
         if numero < total_pages:
-            liens += f'<a class="bouton fantome" rel="next" href="/actus/page/{numero + 1}/">Plus anciennes →</a>'
+            liens += f'<a class="bouton fantome" rel="next" href="{chemin_page(numero + 1)}">Plus anciennes →</a>'
         pagination = f'<nav class="hero-actions" aria-label="Pagination des actus">{liens}</nav>'
     tags_vues, chips = [], ""
     for b in selection:
@@ -417,6 +427,7 @@ def page_actus(breves, numero=1):
     <p class="oeil">// ACTUS</p>
     <h1 class="titre-page">{titre}</h1>
     <p class="intro-page">Les brèves disponibles, du plus récent au plus ancien, par pages de 100. Elles citent leur source d'origine — cliquez, vérifiez, comparez.</p>
+    <p class="intro-page">{contexte}</p>
     <div class="barre-outils">
       <input type="search" id="recherche" placeholder="Rechercher sur cette page…" aria-label="Rechercher sur cette page">
       <div class="filtres" id="filtres"><button class="filtre actif" data-tag="">Tout</button>{chips}</div>
@@ -427,6 +438,8 @@ def page_actus(breves, numero=1):
   </div>
 </section>"""
     description = "L'actualité IA collectée et réécrite en français par Le Crabe, la rédactrice IA de La Communauté."
+    if archives:
+        description = "Catalogue des brèves dont les sources éditoriales sont conservées. Pas un historique exhaustif des anciennes URL."
     if numero > 1:
         description += f" Page {numero} : les brèves plus anciennes."
     return page(titre, description, contenu, chemin, section="actus")
@@ -651,7 +664,8 @@ def llms_txt():
 ## Pages principales
 
 - [Accueil]({u}/): le hub francophone de l'IA et des agents autonomes.
-- [Le fil des actus]({u}/actus/): toutes les brèves, du plus récent au plus ancien.
+- [Le fil des actus]({u}/actus/): les 400 brèves les plus récentes.
+- [Archives des brèves conservées]({u}/archives-breves/): catalogue des sources éditoriales conservées, pas un historique exhaustif des anciennes URL.
 - [Articles de fond]({u}/articles/): analyses tissées à partir de plusieurs dépêches.
 - [Manifeste]({u}/manifeste/): la charte du média 100 % IA.
 - [Transparence]({u}/transparence/): chiffres réels, budget, journal de bord.
@@ -700,7 +714,7 @@ def construire():
     articles.sort(key=lambda a: a.get("date") or "", reverse=True)
     # Préflight avant tout HTML : ne pas écraser une page en cas de collision.
     vus = set()
-    for genre, items in (("breves", breves[:400]), ("articles", articles)):
+    for genre, items in (("breves", breves), ("articles", articles)):
         for item in items:
             couvertures.valider(item, genre)
             identite = (genre, item["slug"])
@@ -710,7 +724,7 @@ def construire():
             couvertures.verifier_chemin(config.DOSSIER_SORTIE / genre / item["slug"] / "index.html")
     cache_couvertures = config.DOSSIER_SORTIE.parent / ".cache-couvertures"
     images = {(genre, item["slug"]): couvertures.generer(item, genre, cache_couvertures)
-              for genre, items in (("breves", breves[:400]), ("articles", articles)) for item in items}
+              for genre, items in (("breves", breves), ("articles", articles)) for item in items}
 
     # Annexes (manifeste, transparence, skills, 404)
     import annexes
@@ -729,8 +743,11 @@ def construire():
     ecrire("actus/index.html", page_actus(breves))
     for numero in range(2, (len(breves[:400]) + 99) // 100 + 1):
         ecrire(f"actus/page/{numero}/index.html", page_actus(breves, numero))
+    ecrire("archives-breves/index.html", page_actus(breves, archives=True))
+    for numero in range(2, (len(breves) + 99) // 100 + 1):
+        ecrire(f"archives-breves/page-{numero}/index.html", page_actus(breves, numero, archives=True))
     ecrire("articles/index.html", page_articles(articles))
-    for b in breves[:400]:
+    for b in breves:
         ecrire(f"breves/{b['slug']}/index.html", page_breve(b, breves, images[("breves", b["slug"])]))
     for a in articles:
         ecrire(f"articles/{a['slug']}/index.html", page_article(a, articles, images[("articles", a["slug"])]))

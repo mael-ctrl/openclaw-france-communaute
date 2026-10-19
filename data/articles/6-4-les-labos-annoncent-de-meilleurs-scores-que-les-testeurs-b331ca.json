@@ -1,0 +1,41 @@
+{
+ "slug": "6-4-les-labos-annoncent-de-meilleurs-scores-que-les-testeurs-b331ca",
+ "titre": "+6,4 % : les labos annoncent de meilleurs scores que les testeurs indépendants",
+ "chapo": "Un classement open source a apparié 611 comparaisons portant sur 180 modèles : les labos annoncent en moyenne 6,4 % de mieux que les testeurs indépendants, sur les mêmes modèles et les mêmes tests. La même semaine, quatre gros modèles à poids ouverts sortaient en 72 heures et NVIDIA glissait un serveur d'agents dans son application grand public.",
+ "html": "<h2 id=\"611-comparaisons-appariees-un-ecart-de-6\">611 comparaisons appariées, un écart de 6,4 %</h2>\n<p>L'auteur de <strong>whatmodel.sh</strong>, un classement open source de modèles, a compilé <strong>1 629 résultats publiés</strong> puis apparié <strong>611 comparaisons</strong> portant sur <strong>180 modèles</strong> et <strong>103 benchmarks</strong>. La méthode est celle du face-à-face : mêmes modèles, mêmes tests, deux sources — le labo d'un côté, un testeur indépendant de l'autre. Résultat, les scores annoncés par les labos dépassent en moyenne de <strong>6,4 %</strong> ceux des évaluateurs externes.</p>\n<p>Le chiffre mérite d'être lu pour ce qu'il est : un écart moyen mesuré sur un corpus, pas une accusation nominative. Il ne dit rien des causes — choix de variantes, prompts maison, moyennage sur plusieurs tentatives, sélection des runs publiés. Il dit qu'à test identique, la source qui publie le chiffre obtient systématiquement un peu mieux que celle qui le vérifie.</p>\n<p>Ce qui rend le travail discutable, c'est sa reproductibilité : le jeu de données est publié sous <strong>CC BY-SA 4.0</strong>, le code sous <strong>MIT</strong>, sources et licences documentées. N'importe qui peut refaire l'appariement, contester un rapprochement ou isoler un labo. C'est plus solide qu'un graphique barré.</p>\n<h2 id=\"deux-recettes-opposees-pour-les-poids-ou\">Deux recettes opposées pour les poids ouverts</h2>\n<p>En <strong>72 heures</strong>, quatre gros modèles à poids ouverts sont sortis. <strong>Meta</strong> a lancé <strong>Muse Spark Open</strong> : 816 Md de paramètres, 42 Md actifs, contexte de 1M. Le problème n'est pas la fiche technique, c'est le bureau. L'usage « desktop » suppose <strong>deux Mac Studio M5 Ultra de 512 Go</strong>, ou <strong>quatre de 256 Go</strong> pour environ <strong>38 000 dollars</strong>.</p>\n<p><strong>NVIDIA</strong> a répondu avec <strong>Nemotron 3.5 Bolt</strong> : 74 Md au total, 9 Md actifs, quantifié <strong>jusqu'en 2 bits</strong> pour tenir dans <strong>24 Go</strong>. Deux philosophies qui ne répondent pas à la même question. D'un côté, la vitrine capacitaire qu'on exécute sur un rack de stations ; de l'autre, le format qui rentre dans une carte grand public.</p>\n<p>À contexte de 1M et 816 Md de paramètres, on ne compare pas des modèles, on compare des budgets matériels. La quantification à 2 bits est le seul levier qui permette aujourd'hui de garder un modèle dense en mémoire sur une machine personnelle — au prix d'une perte de qualité que les annonces ne chiffrent pas.</p>\n<h2 id=\"l-agent-de-code-devient-une-surface-d-at\">L'agent de code devient une surface d'attaque</h2>\n<p><strong>OpenCode</strong>, agent de programmation open source, a confirmé <strong>samedi 17 octobre</strong> une intrusion qui a pu exposer les clés API <strong>OpenAI</strong>, <strong>Anthropic</strong> et <strong>Google</strong> de <strong>1,4 % des utilisateurs</strong> de sa Console. L'entreprise relie l'incident à une « <strong>attaque par distillation</strong> », méthode qui consiste à exploiter un modèle pour en entraîner un autre. Des victimes signalent déjà des frais de plusieurs centaines de dollars.</p>\n<p>Le scénario est cohérent avec la nature de ces outils : un agent de code détient des identifiants en clair pour appeler des API facturées au token. Voler ces clés, c'est s'offrir du calcul gratuit sur le compte d'un tiers — et l'usage décrit, distiller un modèle, transforme la facture en budget d'entraînement.</p>\n<p>Un pourcentage de 1,4 % paraît faible jusqu'à ce qu'on le rapporte à une base d'utilisateurs développeurs, c'est-à-dire à des gens dont les clés ouvrent souvent plusieurs services à la fois.</p>\n<h2 id=\"nvidia-pousse-ses-agents-par-defaut\">NVIDIA pousse ses agents par défaut</h2>\n<p>La version <strong>11.0.9.565</strong> de l'application NVIDIA, publiée le <strong>13 octobre 2026</strong>, active par défaut un serveur qui permet à des agents IA de piloter le logiciel. Rien à cocher : l'option est en place dès la mise à jour. Une couche de pilotage par agents s'installe donc dans un logiciel grand public sans démarche explicite de l'utilisateur.</p>\n<p>Sur le front du rendu, le mod <strong>DLSS-NR</strong> fait tourner les grandes fonctions DLSS de NVIDIA, <strong>DLSS 5 compris</strong>, sur les Radeon <strong>RX 6000, 7000 et 9000</strong>. Son développeur dit viser les performances d'une <strong>GeForce RTX 5070 Ti</strong>. Des technologies jusqu'ici liées au matériel NVIDIA passent côté AMD.</p>\n<p>Les deux nouvelles vont dans le même sens : la couche logicielle se détache du matériel et s'installe d'elle-même. Un serveur d'agents activé par défaut, ce n'est plus une fonctionnalité, c'est une posture par défaut qu'il faudra penser à désactiver.</p>\n<h2>Et maintenant ?</h2>\n<p>Les trois fils de la semaine se rejoignent sur un point : la mesure et le contrôle deviennent le nerf de la guerre. Un écart de 6,4 % entre labos et testeurs indépendants rend les classements auto-publiés suspects par défaut, sans qu'aucun n'ait menti. Un modèle de 816 Md de paramètres rappelle que « poids ouverts » ne veut pas dire « accessible ». Un serveur d'agents activé sans demander, et des clés API volées chez un agent de code, dessinent la même ligne de faille : ce qui tourne chez soi doit rester sous surveillance, et ce qui est mesuré doit être mesuré par quelqu'un d'autre.</p>",
+ "pivot": "b331caeb04408b2b",
+ "tags": [
+  "open-source",
+  "recherche",
+  "sécurité",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9skrx/ai_labs_report_benchmark_scores_64_higher_than/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/amd/3290387_le-dlss-5-de-nvidia-fonctionne-sur-les-cartes-amd-radeon-grace-a-ce-mod"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/nvidia/3290323_votre-app-nvidia-laisse-peut-etre-deja-des-agents-ia-la-piloter"
+  }
+ ],
+ "date": "2026-10-19T09:54:30+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1647,
+  "sortie": 2879
+ }
+}

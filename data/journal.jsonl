@@ -2392,3 +2392,9 @@
 {"ts": "2026-10-19T09:22:58+00:00", "evenement": "deploiement", "details": {"fichiers": 735, "octets": 16040671}, "sha256": "6191125d66f122d00caa9f5653cda9fc7388f39088042f8b3b33a54897e1082b"}
 {"ts": "2026-10-19T09:22:59+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "0722c4afae02a07464559d164ceb3d5129a7ec8e6aa54c9085f67108d564b7a9"}
 {"ts": "2026-10-19T09:22:59+00:00", "evenement": "bilan", "details": {"duree_s": 682.0, "neufs": 3, "breves": 3, "articles": 1, "fichiers": 705, "envois": 735, "publications": 0}, "sha256": "1696d11cd86a87ee404afb911f2e08de70b0e3d92584c032ccfbad5558c2f5de"}
+{"ts": "2026-10-19T09:53:53+00:00", "evenement": "collecte", "details": {"neufs": 3}, "sha256": "7d2778735f7d5c00e3cc79ba2e74a71d54516bb5596f74f0ea3e302171fea437"}
+{"ts": "2026-10-19T09:54:15+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Italie : dès le 23 octobre, licencier ou sanctionner avec l') : réponse non-JSON"}, "sha256": "03a849bc7f1483040f48dcdb01a7df649caf3c14313077724885802db1d4facb"}
+{"ts": "2026-10-19T09:54:43+00:00", "evenement": "construction", "details": {"fichiers": 1212}, "sha256": "944802e94775b1daedf12c3e27b42fcd54d4a5acb211d3c8a9862527d4ba9e87"}
+{"ts": "2026-10-19T10:16:40+00:00", "evenement": "deploiement", "details": {"fichiers": 1525, "octets": 36025800}, "sha256": "9d8a001b02aee894578270cb74cdc49d52dd632185836bf743fdf449cd035c7c"}
+{"ts": "2026-10-19T10:16:40+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "9b1043cc0e5871d7475824ab246ec5d53474f051516d307d8d705b691a1a3e18"}
+{"ts": "2026-10-19T10:16:40+00:00", "evenement": "bilan", "details": {"duree_s": 1405.7, "neufs": 3, "breves": 2, "articles": 1, "fichiers": 1212, "envois": 1525, "publications": 0}, "sha256": "12768416c381cd8ce788d3f4d4fba8dd543a2499bcc2c164f8b979025b1565f5"}

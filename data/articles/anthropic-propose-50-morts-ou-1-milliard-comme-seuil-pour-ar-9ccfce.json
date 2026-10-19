@@ -1,0 +1,41 @@
+{
+ "slug": "anthropic-propose-50-morts-ou-1-milliard-comme-seuil-pour-ar-9ccfce",
+ "titre": "Anthropic propose 50 morts ou 1 milliard comme seuil pour arrêter un modèle",
+ "chapo": "Un modèle d'IA ne pourrait être stoppé qu'au-delà de 50 morts ou blessés graves, ou d'un milliard de dollars de dommages : c'est le seuil qu'Anthropic fait circuler au Congrès, selon Politico. Dans le même temps, la société annonce consacrer 5 % de ses actions à un fonds d'intérêt public.",
+ "html": "<h2 id=\"un-seuil-emprunte-a-la-californie\">Un seuil emprunté à la Californie</h2>\n<p>D'après Politico, Anthropic fait circuler au Congrès un projet de loi qui limiterait l'arrêt d'un modèle d'IA aux seuls risques imminents de <strong>plus de 50 morts ou blessés graves</strong>, ou de <strong>plus d'un milliard de dollars de dommages</strong>. En dessous de ces montants, pas de coupure. La décision d'arrêter le modèle reviendrait à un juge, saisi par le Commerce.</p>\n<p>Le seuil n'a rien d'inédit : il provient de la loi californienne <strong>SB 53</strong> et figure également dans le <strong>FRONTIER Act</strong>. Ce n'est donc pas une invention de circonstance, mais un chiffre déjà installé dans le débat américain sur l'encadrement des modèles frontière.</p>\n<p>Reste le point qui fâche : la <strong>préemption des lois d'États</strong>, c'est-à-dire la possibilité pour le texte fédéral de primer sur les réglementations locales. Elle divise, et le projet n'en dit pas plus dans les éléments disponibles.</p>\n<h2 id=\"5-des-actions-dans-un-fonds\">5 % des actions dans un fonds</h2>\n<p>À côté de ce travail législatif, Anthropic annonce consacrer <strong>5 % de ses actions</strong> à un fonds d'intérêt public, rapporte TechCrunch. L'engagement porte sur des titres de la société elle-même, pas sur un versement en numéraire. La gouvernance du fonds, ses modalités de fonctionnement et ses bénéficiaires ne sont pas précisés.</p>\n<p>Numerama complète le tableau : le fonds pourrait verser de l'argent à certaines populations, la société évoquant les risques de l'IA pour l'emploi. De son côté, <strong>Elon Musk</strong> propose de distribuer directement des actions au public. Le débat sur le partage des richesses de l'IA est donc relancé — sans qu'un revenu soit garanti pour tous à ce stade.</p>\n<h2 id=\"cles-api-volees-par-distillation\">Clés API volées par distillation</h2>\n<p>La confiance, elle, se joue aussi sur le terrain technique. <strong>OpenCode</strong>, un agent de programmation open source, a confirmé le 17 octobre une intrusion qui a pu exposer les clés API <strong>OpenAI, Anthropic et Google</strong> de <strong>1,4 % des utilisateurs</strong> de sa Console.</p>\n<p>L'entreprise relie l'incident à une « <strong>attaque par distillation</strong> », une méthode qui consiste à exploiter un modèle pour en entraîner un autre. Autrement dit : le modèle visé sert de matière première pour en construire un concurrent. Des victimes signalent déjà des frais de <strong>plusieurs centaines de dollars</strong>.</p>\n<p>Le mode opératoire n'est pas anecdotique : les clés API sont facturées à l'usage, et une clé qui fuit devient une ressource gratuite pour qui veut entraîner son propre système sur le dos du client d'origine.</p>\n<h2 id=\"arcadia-cote-francais\">Arcadia, côté français</h2>\n<p>Pendant ce temps, la France avance sur un autre terrain. Le <strong>Commissariat au numérique de défense</strong> a présenté fin septembre <strong>Arcadia</strong>, le futur logiciel de commandement des armées françaises dopé à l'IA, rapporte Numerama.</p>\n<p>L'outil doit répondre à <strong>Maven</strong>, la solution de l'américain <strong>Palantir</strong> que l'OTAN utilise déjà. L'enjeu affiché est explicite : sortir d'une dépendance aux solutions américaines dans le commandement militaire.</p>\n<p>Deux logiques se dessinent donc en parallèle. D'un côté, un acteur privé américain qui cherche à écrire lui-même la règle fédérale et à financer un fonds d'intérêt public avec ses propres titres. De l'autre, un État européen qui préfère construire son outil plutôt que dépendre de celui d'un fournisseur extérieur.</p>\n<h2>Et maintenant ?</h2>\n<p>Sur une même séquence, Anthropic occupe trois positions à la fois : lobbyiste d'un seuil d'arrêt très haut, donateur de 5 % de son capital à un fonds, et fournisseur dont les clés API se retrouvent dans la nature. Les trois faits ne s'expliquent pas mutuellement, mais ils dessinent un même déplacement : les décisions sur les limites de l'IA se prennent désormais autant dans les couloirs du Congrès et dans les registres de capital que dans les salles de serveurs. La France, avec Arcadia, choisit la troisième voie : construire plutôt que dépendre.</p>",
+ "pivot": "9ccfce408c317aee",
+ "tags": [
+  "claude",
+  "sécurité",
+  "france",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/anthropic-propose-de-ne-bloquer-un-modele-quen-cas-de-risque-imminent-de-plus-de-50-morts-ou-blesses-graves-ou-1-md/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2355739-anthropic-veut-partager-une-partie-de-la-richesse-de-lia-un-pas-vers-le-revenu-universel.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+  }
+ ],
+ "date": "2026-10-19T12:08:59+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1607,
+  "sortie": 2456
+ }
+}

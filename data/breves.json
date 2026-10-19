@@ -1,5 +1,68 @@
 [
  {
+  "id": "4fbabb993f1862dc",
+  "slug": "minimax-publie-m3-1-flash-les-poids-du-modele-annonces-pour-le-23-octo-4fbabb",
+  "titre": "MiniMax publie M3.1 Flash, les poids du modèle annoncés pour le 23 octobre",
+  "resume": "MiniMax a publié M3.1 Flash. Les poids du modèle sont annoncés pour le 23 octobre, d'après le message posté sur r/LocalLLaMA. La dépêche a été relayée le 19 octobre par l'utilisateur /u/MagicZhang. Pour la communauté du LLM local, cette date est le point clé : c'est elle qui conditionne l'usage du modèle hors des serveurs de l'éditeur.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9uzv9/minimax_m31_flash_released_model_weights_oct_23/",
+  "date_source": "2026-10-19T12:01:44+00:00",
+  "date_redac": "2026-10-19T12:08:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 1150
+  }
+ },
+ {
+  "id": "89498fad4009b50b",
+  "slug": "deepseek-v4-1-flash-quantifie-a-2-61-bpw-26-t-s-sur-deux-rtx-3090-89498f",
+  "titre": "DeepSeek V4.1 Flash quantifié à 2,61 bpw : 26 t/s sur deux RTX 3090",
+  "resume": "Un utilisateur a produit une quantification 2,6 bits de DeepSeek-V4.1-Flash-1017 avec le moteur dsx de lxe, destinée au code et aux tâches agentiques. D'après ses mesures, ce build atteint 82,59 % de Top-1 pour une perplexité de 9,36, contre 71,5 % et 11,66 pour un build à 2,03 bpw. Sur son matériel (2x RTX 3090, 192 Go de DDR5), la génération tourne à 26 t/s en contexte 262 144 avec les tables Engram. Le moteur ne gère pas encore les images.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9umtv/deepseek_v41_flash_at_261_bpw_engram_26_ts_on/",
+  "date_source": "2026-10-19T11:43:42+00:00",
+  "date_redac": "2026-10-19T12:08:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 974,
+   "sortie": 471
+  }
+ },
+ {
+  "id": "9ccfce408c317aee",
+  "slug": "anthropic-propose-de-ne-bloquer-un-modele-qu-au-dela-de-50-morts-ou-1--9ccfce",
+  "titre": "Anthropic propose de ne bloquer un modèle qu'au-delà de 50 morts ou 1 Md$",
+  "resume": "Selon Politico, Anthropic fait circuler au Congrès un projet de loi qui limiterait l'arrêt d'un modèle d'IA aux seuls risques imminents de plus de 50 morts ou blessés graves, ou de plus d'un milliard de dollars de dommages. La décision reviendrait à un juge saisi par le Commerce. Le seuil vient de la loi californienne SB 53 et figure aussi dans le FRONTIER Act, tandis que la préemption des lois d'États divise.",
+  "tags": [
+   "sécurité",
+   "société",
+   "claude"
+  ],
+  "importance": 4,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/anthropic-propose-de-ne-bloquer-un-modele-quen-cas-de-risque-imminent-de-plus-de-50-morts-ou-blesses-graves-ou-1-md/",
+  "date_source": "2026-10-19T11:19:32+00:00",
+  "date_redac": "2026-10-19T12:08:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 776,
+   "sortie": 798
+  }
+ },
+ {
   "id": "883bf178eb96ce68",
   "slug": "qwen3-8-27b-et-flash-next-sur-materiel-grand-public-les-chiffres-compa-883bf1",
   "titre": "Qwen3.8-27B et Flash-Next sur matériel grand public : les chiffres comparables",

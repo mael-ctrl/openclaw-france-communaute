@@ -1,5 +1,27 @@
 # Journal des actions de monétisation
 
+## 19 octobre 2026 — un rapport de démonstration PDF, pas une offre ouverte
+
+**Action unique :** convertir le prototype d'audit du rang 1 en un **dossier privé de quatre pages A4**, réellement généré, contrôlé et lisible. Réemploi de l'extension robots/sitemap/directives préparée le matin : aucun second moteur ni nouveau crawl des mêmes pages. Le document déclare l'IA, sépare observations et limites, et ne promet aucun nombre artificiel de correctifs.
+
+### Livraison et vérifications de ce passage
+
+- Rapport, README, provenance et manifeste de la vague du 19/10 relus ; vérificateur du lot d'audit réellement réexécuté : **54 tests réussis (12 Python + 42 MCP)**, 31 pièces et 66 références de réemploi conformes, deux replays identiques, refus réseau Python/Node confirmés. Il s'agit des contrats du prototype, pas de la suite du média.
+- Les **neuf ressources capturées le 19/10 à 07:59 UTC** restent distinctes des **six pages du 18/10 à 11:35 UTC**. Aucun défaut syntaxique démontré dans les contrôles couverts du 19/10 ; les sept observations informatives de longueur de texte restent historiques. Les limites de `max-image-preview:large`, de Googlebot/URI/HTML5 et de la sémantique des dates sont explicites.
+- Recomptage indépendant depuis les XML conservés : **697 / 184 / 9 URL uniques par document**, dont 681 lastmod au jour dans le sitemap du média. Ces nombres ne s'additionnent pas et ne décrivent pas nécessairement le site maintenant. Absence de JSON-LD sur les deux captures de kits confirmée séparément ; ce n'est pas un balisage validé ni un défaut automatiquement établi.
+- **Quatre tests propres au rapport réussis**, avec traces rouge/vert : périodes/comptes/réserves, échappement, refus d'incohérences et refus d'un JSON modifié après revue. Source épinglée par SHA-256 ; ce gabarit daté ne doit pas appliquer ses conclusions à un autre audit sans relecture.
+- **PDF quatre pages, 287 941 octets** : parseur strict et rendu PDFium réussis, texte principal intégral retrouvé, aucune ressource réseau dans le document, géométrie A4 contrôlée et quatre pages inspectées visuellement. Une collision de pied de page a été détectée puis corrigée sans retirer de texte. SHA-256 : `04342e0d12ec5ca7bc895fcb18e58aa5a08961cf56df96dd489ad506ada791c9`.
+
+Livrables hors dépôt : workspace de monétisation **`2026-10-19-livrable/diagnostic-demo.pdf`**, HTML autonome, générateur, tests, appendice des quinze captures, README et preuves de recette. Les deux lots antérieurs sont conservés, sans nouvelle installation dans le média. Les outils PDF sont isolés dans un environnement temporaire.
+
+Provenance GitHub recontrôlée : [mcp-web-validator](https://github.com/AKzar1el/mcp-web-validator/tree/cb0a306274343dc68d4207a74eb9045bb7631964), MIT, push API du 14/10 ; [robots-parser](https://github.com/samclarke/robots-parser/tree/785195c5a6f996655c43049349d1445274b83a15), MIT, push du 08/10. Le premier est réexécuté, le second a fourni des concepts au sous-ensemble Python existant ; pas une nouvelle dépendance copiée.
+
+### Garde-fous et prochaine étape
+
+Préflight curl HTTPS strict : B2B **200**, mentions légales **404**. La démarche BDM du matin occupe déjà la distribution du 19/10 ; aucun email, DM, formulaire, post, compte ou paiement dans cette mission. Aucun prix nouveau, facture, abonnement payant ou canal associatif activé. Le PDF reste privé, explicitement **pas un livrable client**, sans campagne d'envoi.
+
+**Suite :** éprouver les cas URI/HTML5 non pris en charge et définir un périmètre de prestation réaliste. Avant toute prospection, faire valider vendeur/TVA, compléter mentions/conditions et modalités/canal de reversement, puis vérifier tous les prérequis. Le rapport n'établit ni indexation, visibilité IA, conformité juridique ou revenu. Seuls les journaux et le complément roadmap changent dans le dépôt ; aucun moteur, donnée, preuve historique, workflow ou cron modifié.
+
 ## 18 octobre 2026 — prototype d'audit exécuté, aucune offre activée
 
 **Action unique :** concrétiser l'outillage du rang 1 du backlog par un premier diagnostic technique local et un rapport réel, plutôt qu'accumuler des prospects sans autorisation d'approche. Périmètre volontairement étroit : six pages des deux sites du projet, métadonnées HTML, quelques contrôles d'accessibilité statique et syntaxe des blocs JSON-LD. Ce n'est pas encore un audit de visibilité dans les réponses des IA.

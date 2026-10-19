@@ -1,0 +1,41 @@
+{
+ "slug": "trois-scores-24-go-de-vram-et-des-cles-api-volees-la-semaine-7cc42b",
+ "titre": "Trois scores, 24 Go de VRAM et des clés API volées : la semaine des modèles",
+ "chapo": "Un même benchmark noté 42,3 %, 34 % et 31,82 % selon qui publie le chiffre. À côté, deux géants se disputent les 24 Go de VRAM du poste de travail, et un agent de code se fait plumer ses clés API. La semaine dit beaucoup de la façon dont on mesure, embarque et attaque les modèles.",
+ "html": "<h2 id=\"trois-scores-pour-un-seul-benchmark\">Trois scores pour un seul benchmark</h2>\n<p>Un post de r/LocalLLaMA met en regard trois publications du même résultat : celui de <strong>DeepSeek-V4.1-Flash-1017</strong> sur le Terminal bench 4.0. La carte modèle annonce <strong>42,3 %</strong>. L'index AA relève <strong>34 %</strong>. L'index Vals relève <strong>31,82 %</strong>.</p>\n<p>Trois chiffres, un seul test, et plus de dix points d'écart entre la communication du modèle et la mesure la plus basse. Le post ne tranche pas sur l'origine de la divergence : il se contente de poser la question de la <strong>comparabilité des scores publiés</strong> pour une même évaluation.</p>\n<p>C'est le genre d'écart qui pourrit une conversation technique. Un benchmark ne vaut que si l'on sait exactement ce qui est mesuré, avec quelle version du test, quel harnais et quels réglages de génération. Sans ces précisions, le pourcentage devient un argument marketing flottant plutôt qu'une donnée.</p>\n<h2 id=\"24-go-la-nouvelle-ligne-de-demarcation\">24 Go, la nouvelle ligne de démarcation</h2>\n<p>En <strong>72 heures</strong>, quatre gros modèles à poids ouverts sont sortis. Meta lance <strong>Muse Spark Open</strong> : 816 milliards de paramètres, 42 milliards actifs, un contexte de 1M. Le problème n'est pas la fiche technique mais le matériel — un usage « desktop » suppose <strong>deux Mac Studio M5 Ultra de 512 Go</strong>, ou quatre de 256 Go pour environ <strong>38 000 dollars</strong>.</p>\n<p>NVIDIA répond avec <strong>Nemotron 3.5 Bolt</strong> : 74 milliards de paramètres au total, 9 milliards actifs, quantifié jusqu'en <strong>2 bits</strong> pour tenir dans 24 Go. C'est le seul des quatre à rentrer dans cette enveloppe, selon le post qui compare les sorties.</p>\n<p>Deux stratégies s'opposent donc frontalement : la démesure assumée, qui déplace le coût vers la machine, et la compression agressive, qui déplace le coût vers la quantization. Le critère de choix n'est plus le score au benchmark, mais ce qui tient réellement sur le bureau.</p>\n<h2 id=\"deux-cmp-170hx-et-du-vllm-patche\">Deux CMP 170HX et du vLLM patché</h2>\n<p>Sur r/LocalLLaMA, un utilisateur détaille l'optimisation de <strong>Qwen 3.8 Flash Next</strong> sur deux cartes <strong>CMP 170HX</strong> en PCIe Gen2 x4, sans mod x16 ni TP2 — autrement dit, du matériel déclassé et un bus étroit.</p>\n<p>La recette combine un checkpoint <strong>W4A16 AutoRound</strong>, un <strong>vLLM patché</strong>, du <strong>pipeline parallelism</strong> et le décodage spéculatif <strong>MTP</strong> natif. À huit requêtes de code simultanées, il mesure <strong>116 tok/s par requête</strong> et <strong>231 ms avant le premier token</strong>.</p>\n<p>Ce genre de compte rendu dit où se joue vraiment l'inférence locale : moins dans le choix du modèle que dans l'empilement de la quantization, du moteur et du décodage spéculatif. Avec, en creux, la même question que pour les scores : ce que l'on mesure dépend entièrement du montage.</p>\n<h2 id=\"cles-api-volees-au-nom-de-la-distillatio\">Clés API volées au nom de la distillation</h2>\n<p><strong>OpenCode</strong>, agent de programmation open source, a confirmé samedi 17 octobre une intrusion qui a pu exposer les clés API <strong>OpenAI, Anthropic et Google</strong> de <strong>1,4 % des utilisateurs</strong> de sa Console. L'entreprise relie l'incident à une « <strong>attaque par distillation</strong> », méthode qui consiste à exploiter un modèle pour en entraîner un autre. Des victimes signalent déjà des frais de plusieurs centaines de dollars.</p>\n<p>Le scénario n'est pas exotique : un agent qui détient les clés de trois fournisseurs devient une cible de choix, et le vol se monnaye directement en tokens consommés ailleurs. La surface d'attaque n'est plus le modèle, mais l'outillage qui l'entoure.</p>\n<p>À comparer avec une autre actualité de la semaine : Microsoft propose une méthode fondée sur l'IA pour corriger les erreurs des modèles météo au-delà de quinze jours, sans exiger une grosse puissance informatique. Résultats encourageants, précise le Journal du Geek, mais pas de quoi prévoir le temps avec certitude.</p>\n<h2>Et maintenant ?</h2>\n<p>Un fil relie ces dépêches : l'IA y est jugée sur ce qu'elle tient vraiment — un score reproductible, 24 Go de mémoire, un débit par requête, des clés qui ne fuitent pas. La mesure reste le maillon faible, comme le montre l'écart entre 42,3 % et 31,82 % sur un seul et même test. Microsoft illustre une autre approche : corriger les erreurs d'un modèle météo existant plutôt que le remplacer, avec des résultats encourageants mais sans certitude au-delà de quinze jours.</p>",
+ "pivot": "7cc42b5ff80458fc",
+ "tags": [
+  "deepseek",
+  "open-source",
+  "sécurité",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9owju/deepseekv41flash1017_on_aa_vals_index/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9iufz/qwen_38_flash_next_optimized_for_two_cmp_170hx/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/18/microsoft-veut-rendre-la-meteo-plus-fiable-au-dela-de-quinze-jours/"
+  }
+ ],
+ "date": "2026-10-19T06:06:49+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1589,
+  "sortie": 3627
+ }
+}

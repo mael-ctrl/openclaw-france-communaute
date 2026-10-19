@@ -1,5 +1,67 @@
 [
  {
+  "id": "7cc42b5ff80458fc",
+  "slug": "deepseek-v4-1-flash-1017-trois-scores-pour-un-meme-benchmark-7cc42b",
+  "titre": "DeepSeek-V4.1-Flash-1017 : trois scores pour un même benchmark",
+  "resume": "Un post de r/LocalLLaMA met en regard les résultats de DeepSeek-V4.1-Flash-1017 sur le Terminal bench 4.0. La carte modèle annonce 42,3 %, là où l'index AA relève 34 % et l'index Vals 31,82 %. L'écart entre ces trois mesures pose la question de la comparabilité des scores publiés pour un même test.",
+  "tags": [
+   "deepseek",
+   "recherche",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9owju/deepseekv41flash1017_on_aa_vals_index/",
+  "date_source": "2026-10-19T05:56:18+00:00",
+  "date_redac": "2026-10-19T06:06:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 837,
+   "sortie": 438
+  }
+ },
+ {
+  "id": "921199a7c14de81f",
+  "slug": "un-psu-qui-decroche-a-cause-des-oscillations-de-charge-en-tensor-paral-921199",
+  "titre": "Un PSU qui décroche à cause des oscillations de charge en tensor-parallel",
+  "resume": "Sur r/LocalLLaMA, un utilisateur raconte avoir passé le week-end à traquer une coupure d'alimentation brutale survenant environ sept minutes après chaque démarrage d'une pile tensor-parallel à deux GPU. Sa machine : deux R9700 sur une Asus X670 Creator, un AMD 7950x, 64 Go de RAM et un bloc BeQuiet Dark Power 14 de 1200 W, faisant tourner Radiance avec Qwen 3.8 27b. Sur 11 exécutions sans limite de puissance (cartes à 300 W), la machine s'éteint net ; bridée à 211 W, elle tient. Sans bridage mais en désactivant le custom all-reduce de Radiance au profit de RCCL, elle tient aussi.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9opnv/has_anyone_else_had_a_psu_drop_out_from/",
+  "date_source": "2026-10-19T05:44:43+00:00",
+  "date_redac": "2026-10-19T06:06:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 846,
+   "sortie": 456
+  }
+ },
+ {
+  "id": "3b6dd2b4cedf85c7",
+  "slug": "l-asus-vivobook-14-sous-snapdragon-x-passe-a-559-99-euros-sur-amazon-3b6dd2",
+  "titre": "L'Asus Vivobook 14 sous Snapdragon X passe à 559,99 euros sur Amazon",
+  "resume": "L'Asus Vivobook 14 (X1407QA) passe de 799,99 à 559,99 euros sur Amazon, soit 240 euros de moins. Ce laptop 14 pouces embarque une puce Snapdragon X et 16 Go de RAM. De quoi s'équiper sous les 1 000 euros, selon Frandroid.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/bons-plans/3288605_amazon-retire-240-e-a-lasus-vivobook-14-un-pc-portable-sous-snapdragon-x-avec-16-go-de-ram",
+  "date_source": "2026-10-19T05:23:00+00:00",
+  "date_redac": "2026-10-19T06:06:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 732,
+   "sortie": 734
+  }
+ },
+ {
   "id": "50355a2cc4dbe3f4",
   "slug": "xreal-retouche-ses-lunettes-one-pro-ecrans-plus-lumineux-et-3d-amelior-50355a",
   "titre": "XREAL retouche ses lunettes One Pro+ : écrans plus lumineux et 3D améliorée",

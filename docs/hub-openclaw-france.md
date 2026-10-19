@@ -493,6 +493,37 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-18/hub-budget-hermes/`.
 
+## Budget du kit Hermes — livraison du 19/10/2026
+
+- **Une amélioration livrée** : le `GUIDE.md` téléchargeable distingue désormais
+  kit gratuit, API, abonnement, outils, hébergement, matériel et électricité.
+  Retrait des promesses « 100 % gratuite » et « sans dépenser un centime », ainsi
+  que des minima RAM universels. Plafond conditionnel au fournisseur, distinction
+  alerte/blocage, premier essai court et contrôle de facturation en plus de `/usage`.
+- Quickstart et page Providers officiels relus le 19/10 ; HTTPS 200 et ancres
+  vérifiées. Aucun bloc de commandes, script, configuration, HTML ou sitemap
+  modifié ; aucune installation réelle ni économie mesurée prétendue.
+- Les **3 nouveaux tests** reproduisent les manques avant correction et passent
+  après correction, également sur le GUIDE public. Suite complète : **147 tests OK**
+  après correction du `TMPDIR` macOS vers le scratch Hermes ; aucun moteur modifié.
+  Intégrité et contenu exact des deux archives vérifiés ; scripts validés par `bash -n`.
+- Déploiement avec `python3 outils/deployer_openclaw.py` depuis le clone cron
+  `~/.hermes/workspaces/hub-openclaw-20261003`, le Bureau étant illisible.
+  Sauvegarde préalable de **35 fichiers**, sans divergence production/Git ;
+  **35 fichiers relus via FTP**, identiques aux sources après envoi. Seuls
+  `dl/kit-hermes/GUIDE.md` et son ZIP changent ; seul le GUIDE change à l’intérieur
+  du ZIP. Archive OpenClaw inchangée octet pour octet, dates/modes restaurés.
+- Santé : **les six URL demandées en HTTP 200** avant et après ; **10 URL en 200**
+  au contrôle final étendu, dont le GUIDE, les ZIP avec `?v=2` et la clé IndexNow.
+  GUIDE et archives publics identiques aux sources. **IndexNow HTTP 200** pour
+  l’URL du GUIDE Markdown modifié ; notification acceptée, pas indexation prouvée.
+- **Aucune distribution supplémentaire** : la proposition BDM de ce matin occupe
+  déjà le quota quotidien selon `docs/distribution-textes.md`, relu après sync Git.
+  Prochaine priorité : vérifier et corriger les promesses de confidentialité du
+  guide (« rien ne sort du tout »), en distinguant modèle local et outils connectés.
+  Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-19/hub-kit-hermes-budget/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

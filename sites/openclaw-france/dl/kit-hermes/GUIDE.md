@@ -31,8 +31,11 @@ Ce qui le distingue :
   dans `~/.hermes/`. Seuls les appels au fournisseur que vous configurez sortent de
   votre machine (et avec un modèle local, rien ne sort du tout).
 
-**Combien ça coûte ?** Le logiciel est gratuit (open source). Vous ne payez que l'usage
-du modèle que vous branchez — et les modèles locaux sont 100 % gratuits.
+**Combien ça coûte ?** Le kit et le logiciel sont gratuits. Selon votre choix,
+le modèle peut utiliser une **API facturée**, un **abonnement** ou tourner sur
+votre machine. Les **outils externes** et l’**hébergement** peuvent aussi être
+payants. Un modèle local évite la facturation API de ce modèle, pas le coût du
+**matériel** ni de l’**électricité**.
 
 ## 2. Avant de commencer
 
@@ -83,10 +86,20 @@ configuré côté serveur. La mémoire nécessaire dépend du modèle, de sa
 quantification et du contexte ; aucun minimum RAM universel n’est garanti ici.
 
 Le kit et le logiciel sont gratuits ; le **modèle IA, les outils externes et
-l’hébergement peuvent être payants**. Vérifiez les conditions du fournisseur,
-fixez un **plafond** de dépenses et ne supposez pas que votre abonnement habituel
-couvre automatiquement cet usage. Un modèle local évite sa facturation API,
-mais demande des ressources matérielles et de l’électricité.
+l’hébergement peuvent être payants**. Vérifiez les **tarifs** et les quotas du
+fournisseur choisi : un abonnement de chat ne couvre pas automatiquement une API
+ou tous les outils. Définissez un **plafond** de dépenses **si le fournisseur le permet**,
+et vérifiez ce qu’il couvre ; une alerte de budget n’est pas forcément un blocage.
+
+Commencez par un **essai court**, sur un fichier de test sans secrets, avant
+une tâche longue ou automatisée. Consultez la consommation avec `/usage`, puis
+le tableau de bord de **facturation** du fournisseur et des outils activés :
+l’indication dans Hermes **ne remplace pas** leur relevé. Un modèle local évite
+sa facturation API, mais demande du matériel et de l’électricité.
+
+**Source budget consultée le 2026-10-19** :
+[choix du fournisseur et modes de configuration](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart#2-choose-a-provider).
+Ces précautions ne constituent ni un tarif garanti ni une installation testée.
 
 > **Où le faire tourner ?** Commencez sur une machine compatible dont vous
 > contrôlez les accès. Un serveur toujours allumé est une option, pas un prérequis.
@@ -196,11 +209,17 @@ issue de la doc** : Hermes range automatiquement les secrets dans `~/.hermes/.en
 (jamais dans `config.yaml`) et les réglages dans `~/.hermes/config.yaml`. Utilisez
 donc `hermes config set` plutôt que d'éditer des fichiers à la main.
 
-### L'option 100 % gratuite : un modèle local
+### Un modèle local : sans facturation API du modèle
 
-Si vous voulez essayer sans dépenser un centime, Hermes sait piloter un modèle qui
-tourne sur votre machine via [Ollama](https://ollama.com/). La doc officielle décrit
-ce flux :
+Hermes peut piloter un modèle exécuté sur votre machine via
+[Ollama](https://ollama.com/). Cela évite la facturation API de **ce modèle**,
+mais pas le coût du **matériel**, de l’**électricité**, d’un éventuel
+**hébergement** ni des **outils externes** activés. L’offre Ollama Cloud est un
+service distinct : elle n’est pas le serveur local décrit ici.
+
+Consultez le [guide officiel des modèles locaux](https://hermes-agent.nousresearch.com/docs/integrations/providers#ollama--local-models-zero-config)
+(source consultée le 2026-10-19), notamment pour régler le contexte côté serveur.
+Les exemples ci-dessous ne garantissent pas que ce modèle tienne sur votre machine.
 
 ```bash
 # 1. Installez Ollama (ligne de commande donnée par le guide officiel Hermes)
@@ -221,8 +240,9 @@ model:
 
 Deux conseils du guide officiel : choisissez un modèle qui **sait appeler des
 outils** (c'est ce qui permet à l'agent d'agir, pas seulement de discuter), et montez
-son contexte à 64 000 tokens minimum. Comptez 8 Go de RAM pour un petit modèle et
-32 Go pour les gros (27B+). Appels, fichiers, commandes : tout reste chez vous.
+son contexte à 64 000 tokens minimum. La mémoire nécessaire dépend du modèle,
+de sa quantification et du contexte réellement configuré : **aucun minimum RAM universel**
+n’est garanti ici. Appels, fichiers, commandes : tout reste chez vous.
 
 ## 5. Étape 3 — Votre première session
 

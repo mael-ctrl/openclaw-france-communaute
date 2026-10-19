@@ -1,0 +1,41 @@
+{
+ "slug": "rtx-5090-modeles-ouverts-agents-bloques-quand-le-materiel-di-6a7dc7",
+ "titre": "RTX 5090, modèles ouverts, agents bloqués : quand le matériel dicte sa loi",
+ "chapo": "Nvidia dément l'arrêt de sa RTX 5090, tout en reconnaissant une chaîne d'approvisionnement qui ne suit pas. La même semaine, quatre gros modèles à poids ouverts sortent en 72 heures — et la place disponible dans la machine devient le premier critère de choix.",
+ "html": "<h2 id=\"la-rtx-5090-n-est-pas-arretee-elle-est-i\">La RTX 5090 n'est pas arrêtée, elle est introuvable</h2>\n<p>La carte avait disparu de la boutique en ligne américaine de Nvidia, et c'est peu dire que la rumeur a enflé. Jeff Fisher, vice-président senior de Nvidia, a démenti l'arrêt de la RTX 5090 le 16 octobre à Taipei. Le démenti n'est cependant pas total : dans la même réponse, il reconnaît que la chaîne d'approvisionnement ne suivait pas.</p>\n<p>Autrement dit, la carte reste au catalogue, mais l'industriel admet ne pas pouvoir fournir au rythme de la demande. Un aveu qui vaut pour tout le haut de gamme : le matériel n'est plus une ressource acquise, il devient un goulot d'étranglement qu'on planifie.</p>\n<h2 id=\"quatre-modeles-ouverts-en-72-heures-et-u\">Quatre modèles ouverts en 72 heures, et un arbitrage de mémoire</h2>\n<p>Sur r/LocalLLaMA, le constat est net : quatre gros modèles à poids ouverts sont sortis en 72 heures. Côté Meta, <strong>Muse Spark Open</strong> aligne 816 milliards de paramètres, dont 42 milliards actifs, avec un contexte d'un million de tokens. Le problème n'est pas la qualité, c'est le logement : un usage « desktop » suppose deux Mac Studio M5 Ultra de 512 Go, ou quatre de 256 Go, pour environ 38 000 dollars.</p>\n<p>NVIDIA répond avec <strong>Nemotron 3.5 Bolt</strong> : 74 milliards de paramètres au total, 9 milliards actifs, quantifié jusqu'en 2 bits pour tenir dans 24 Go. La comparaison n'oppose pas deux performances brutes, mais deux philosophies : occuper une pièce entière, ou rentrer dans une carte grand public.</p>\n<h2 id=\"les-agents-autonomes-trouvent-porte-clos\">Les agents autonomes trouvent porte close</h2>\n<p>Les agents autonomes sont la grande promesse du moment : OpenAI, Meta, Google et Instinct assurent qu'ils peuvent parcourir le web à ta place, réserver une table ou trier ta boîte mail. Sauf qu'une partie des sites refuse désormais de les laisser entrer, rapporte The Verge.</p>\n<p>Le calcul est simple : sans accès au web, ces agents perdent une bonne part de leur intérêt. Le web n'a jamais été un espace neutre — robots.txt, murs anti-bots, paywalls — mais l'arrivée d'acteurs qui cliquent à la place des humains transforme la question technique en rapport de force entre éditeurs et plateformes.</p>\n<h2 id=\"souverainete-militaire-et-actions-d-inte\">Souveraineté militaire et actions d'intérêt public</h2>\n<p>En France, le Commissariat au numérique de défense a présenté fin septembre <strong>Arcadia</strong>, le futur logiciel de commandement des armées françaises dopé à l'IA. L'outil doit répondre à Maven, la solution de l'américain Palantir que l'OTAN utilise déjà. L'enjeu affiché : sortir d'une dépendance aux solutions américaines dans le commandement militaire.</p>\n<p>De l'autre côté de l'Atlantique, Anthropic annonce consacrer <strong>5 % de ses actions</strong> à un fonds d'intérêt public, selon TechCrunch. L'engagement porte sur des titres de la société elle-même. La gouvernance du fonds, ses modalités de fonctionnement et ses bénéficiaires ne sont pas précisés dans l'extrait disponible — un détail qui compte, puisque c'est précisément là que se joue l'utilité réelle du dispositif.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dépêches, un même fil : la ressource rare se déplace. Elle était dans les modèles, elle est désormais dans la mémoire, dans les puces et dans l'accès au web. Nvidia le concède sur ses cartes, LocalLLaMA le mesure en gigaoctets, les éditeurs de sites le monétisent en bloquant les agents. Reste la question de qui possède l'infrastructure — et la France comme Anthropic y répondent chacune à leur manière, l'une par un logiciel de commandement, l'autre par des titres cédés.</p>",
+ "pivot": "6a7dc7ad575b8057",
+ "tags": [
+  "matériel",
+  "open-source",
+  "agents",
+  "france"
+ ],
+ "sources": [
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/nvidia/3290057_nvidia-jure-que-la-rtx-5090-nest-pas-arretee-juste-rationnee"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+  }
+ ],
+ "date": "2026-10-19T00:04:25+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1544,
+  "sortie": 1767
+ }
+}

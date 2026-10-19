@@ -2353,3 +2353,12 @@
 {"ts": "2026-10-18T21:57:14+00:00", "evenement": "deploiement", "details": {"fichiers": 732, "octets": 16070869}, "sha256": "14613f9aff2b32651aa46576896c6f2fc489e354d13b95f882bc637c459d52cb"}
 {"ts": "2026-10-18T21:57:14+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "b645a4c85e5468495f83ee4432dbd4a9c8e012e7733bba864fc40838562cf600"}
 {"ts": "2026-10-18T21:57:14+00:00", "evenement": "bilan", "details": {"duree_s": 719.4, "neufs": 6, "breves": 6, "articles": 1, "fichiers": 699, "envois": 732, "publications": 0}, "sha256": "959471945e9d9b1eabdcc5a6f192db11ebd9bbd1b867c6bc51900c46c2952679"}
+{"ts": "2026-10-19T00:03:40+00:00", "evenement": "collecte", "details": {"neufs": 8}, "sha256": "a4d0445c5d14424caeca56b9055ba23a7ac083c98a341aa4adc57866a6c7e1b3"}
+{"ts": "2026-10-19T00:04:07+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Google Open Sources Harness2 for Self Improving AI Agents) : réponse non-JSON"}, "sha256": "64fd80b480137000ee0f93fb5e23db564a5562ab6ebf3a934ac34f79eb9600f8"}
+{"ts": "2026-10-19T00:04:34+00:00", "evenement": "construction", "details": {"fichiers": 700}, "sha256": "fba0b05525506be1a6c70492de076c7f5bd5cbf1a7fbb5587dcd596477b5315e"}
+{"ts": "2026-10-19T00:14:37+00:00", "evenement": "deploiement", "details": {"fichiers": 732, "octets": 16080624}, "sha256": "9407d1e8956cea7715c78c01e433c118b388c3c7c9a6e6820d8de0973bae9e23"}
+{"ts": "2026-10-19T00:14:38+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "35cfd4f5a670e4badc1f4f76a65e4583458da2a855890d0547d908c6aa8c5589"}
+{"ts": "2026-10-19T00:15:01+00:00", "evenement": "archivage", "details": {"wayback": 200}, "sha256": "7a4acaf496a335bd74b755e80169feb3edc59b3c7ced7832590f94495803b448"}
+{"ts": "2026-10-19T00:15:11+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "41671f75b2241e44eafe72164480729f2ca176d7bb1de5e2a64ad8815cbe4db9"}
+{"ts": "2026-10-19T00:15:12+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-19.json", "publications": 1155}, "sha256": "6799db93e2857aba4d1762ea376fa8e3a2127ee774ddfcee16d211c726b0e761"}
+{"ts": "2026-10-19T00:15:12+00:00", "evenement": "bilan", "details": {"duree_s": 702.2, "neufs": 8, "breves": 5, "articles": 1, "fichiers": 700, "envois": 732, "publications": 4}, "sha256": "66cd38cb9338e445aeef23468c4a5fc1ed0f2732980151d9180d4127f8338f03"}

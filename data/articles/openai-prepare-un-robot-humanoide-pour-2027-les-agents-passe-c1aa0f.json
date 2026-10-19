@@ -1,0 +1,41 @@
+{
+ "slug": "openai-prepare-un-robot-humanoide-pour-2027-les-agents-passe-c1aa0f",
+ "titre": "OpenAI prépare un robot humanoïde pour 2027, les agents passent à l'action",
+ "chapo": "Sam Altman confirme qu'OpenAI planche sur son propre appareil et évoque une « démo géniale » de robot humanoïde pour 2027. La même semaine, Nvidia pousse des modèles ouverts pour agents, ChatGPT s'installe dans Chrome, la France dévoile Arcadia et OpenCode reconnaît une fuite de clés API.",
+ "html": "<h2 id=\"openai-et-le-robot-une-confirmation-pas-\">OpenAI et le robot : une confirmation, pas un prototype</h2>\n<p>Interrogé dans le podcast <em>Sources</em> sur la possibilité que son entreprise construise son propre appareil, Sam Altman a répondu par l'affirmative. Il a ensuite évoqué auprès de <em>Fortune</em> une « démo géniale » pour 2027.</p>\n<p>Le mot compte : démo, pas produit. Aucune information n'a filtré sur l'apparence du robot, sur ses applications, ni sur les modèles qui l'équiperaient. Rien n'indique non plus s'il s'agit d'un objet destiné au grand public ou d'un démonstrateur de recherche.</p>\n<p>L'annonce tient donc en deux phrases et un calendrier. Elle confirme en tout cas une ambition qui dépasse la fourniture de modèles à des tiers.</p>\n<h2 id=\"nvidia-veut-ramener-l-agent-dans-le-bati\">Nvidia veut ramener l'agent dans le bâtiment</h2>\n<p>Chez Nvidia, le mouvement est inverse : plutôt que d'aller vers le matériel grand public, le fondeur mise sur une tendance de fond, les entreprises qui veulent faire tourner leurs propres modèles ouverts dans leurs propres centres de données. Il lance pour cela de nouveaux modèles ouverts destinés à exécuter des agents.</p>\n<p>Le second volet est plus discret mais tout aussi structurant : Nvidia cherche à imposer l'agent IA local, privé, fonctionnant directement sur le PC. Deux échelles, donc — le centre de données de l'entreprise et la machine de l'utilisateur — avec la même promesse implicite : que les données ne sortent pas.</p>\n<h2 id=\"chatgpt-sort-du-chat-et-entre-dans-chrom\">ChatGPT sort du chat et entre dans Chrome</h2>\n<p>OpenAI revoit sa stratégie côté navigateur. L'entreprise déploie plusieurs fonctionnalités basées sur ChatGPT pour Google Chrome, avec un changement de nature : le modèle ne se contente plus de répondre, il réalise des actions dans le navigateur, comme remplir des formulaires.</p>\n<p>Le détail a son importance : cette annonce intervient après l'abandon, par OpenAI, de son propre navigateur. Plutôt que de construire une surface d'exécution concurrente, l'entreprise s'installe dans celle des autres — et transforme un logiciel de navigation en interface d'action pour un agent.</p>\n<h2 id=\"arcadia-et-opencode-souverainete-et-fact\">Arcadia et OpenCode : souveraineté et facture</h2>\n<p>Côté français, le Commissariat au numérique de défense a présenté fin septembre <strong>Arcadia</strong>, le futur logiciel de commandement des armées dopé à l'IA. L'outil doit répondre à Maven, la solution de l'américain Palantir que l'OTAN utilise déjà. L'enjeu affiché : sortir d'une dépendance aux solutions américaines dans le commandement militaire.</p>\n<p>À l'autre bout de la chaîne, <strong>OpenCode</strong>, agent de programmation open source, a confirmé samedi 17 octobre une intrusion qui a pu exposer les clés API OpenAI, Anthropic et Google de 1,4 % des utilisateurs de sa Console. L'entreprise relie l'incident à une « attaque par distillation », méthode qui consiste à exploiter un modèle pour en entraîner un autre. Des victimes signalent déjà des frais de plusieurs centaines de dollars.</p>\n<p>Deux façons de poser la même question : qui contrôle l'outil, et qui paie quand il dérape. D'un côté un État qui refuse de dépendre d'un logiciel étranger pour commander ses armées, de l'autre des développeurs qui découvrent que leurs clés valaient de l'argent.</p>\n<h2>Et maintenant ?</h2>\n<p>Le robot de 2027 reste une phrase dans un podcast ; les agents, eux, sont déjà dans Chrome, dans les centres de données et sur les PC. Entre Nvidia qui veut fournir les modèles ouverts et la machine, OpenAI qui troque son navigateur contre celui des autres, la France qui finance Arcadia pour ne plus dépendre de Palantir et OpenCode qui découvre le coût d'une clé exposée, la même question revient : qui exécute quoi, sur quelle machine, et avec quels droits.</p>",
+ "pivot": "c1aa0fd9be2b8618",
+ "tags": [
+  "openai",
+  "agents",
+  "robots",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/robotique/openai-prepare-un-robot-humanoide-qui-pourrait-etre-presente-des-2027.FDY3CAZ7FJDHTMIFMDADODRL5Y.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/19/chatgpt-peut-desormais-controler-google-chrome-pour-travailler-a-votre-place/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2351643-je-pense-quil-faut-refuser-de-dependre-de-solutions-americaines-avec-arcadia-la-france-mise-sur-son-ia-de-commandement-pour-echapper-a-lamericain-palantir.html"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  }
+ ],
+ "date": "2026-10-19T16:37:33+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1557,
+  "sortie": 3167
+ }
+}

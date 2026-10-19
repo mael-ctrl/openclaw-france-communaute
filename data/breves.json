@@ -1,5 +1,88 @@
 [
  {
+  "id": "5f06773ca124a737",
+  "slug": "des-proprietaires-de-tv-connectees-utilisent-l-ia-pour-retirer-les-log-5f0677",
+  "titre": "Des propriétaires de TV connectées utilisent l'IA pour retirer les logiciels imposés",
+  "resume": "Las des publicités, du pistage et des interfaces qui rament, certains propriétaires de téléviseurs connectés se tournent vers des agents IA. Ces derniers les aident à retirer les logiciels préinstallés — le « bloatware » — et à reprendre la main sur leur appareil. La manœuvre vise des téléviseurs redevenus « bêtes », délestés de ce qui les encombre.",
+  "tags": [
+   "agents",
+   "matériel",
+   "société",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+  "date_source": "2026-10-19T16:13:22+00:00",
+  "date_redac": "2026-10-19T16:37:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 630,
+   "sortie": 948
+  }
+ },
+ {
+  "id": "426660e7c2726cab",
+  "slug": "intel-promet-700-tops-pour-ses-puces-razer-lake-ax-pensees-pour-les-ro-426660",
+  "titre": "Intel promet 700 TOPS pour ses puces Razer Lake-AX, pensées pour les robots humanoïdes",
+  "resume": "Intel a confirmé que ses futures puces Razer Lake-AX, attendues en 2028, délivreront presque 4 fois plus de performances en IA que ses solutions actuelles, avec 700 TOPS. L'objectif affiché dépasse le simple traitement de gros LLM : l'entreprise veut fournir le cerveau de la prochaine génération de robots humanoïdes.",
+  "tags": [
+   "matériel",
+   "robots",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/intel/3290431_700-tops-et-sortie-en-2028-ces-puces-intel-veulent-etre-le-cerveau-de-la-prochaine-generation-de-robots-humanoides",
+  "date_source": "2026-10-19T16:07:16+00:00",
+  "date_redac": "2026-10-19T16:37:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 724,
+   "sortie": 400
+  }
+ },
+ {
+  "id": "3b17c45ac4b77359",
+  "slug": "deux-quadro-m6000-maxwell-font-tourner-qwen3-8-flash-next-sur-strata-3b17c4",
+  "titre": "Deux Quadro M6000 Maxwell font tourner Qwen3.8-Flash-Next sur Strata",
+  "resume": "Un utilisateur de r/LocalLLaMA fait tourner Qwen3.8-Flash-Next-GSQ-RCO-IQ1 sur le moteur Strata, avec deux Quadro M6000 24 Go (48 Go de VRAM) et 32 Go de RAM. Il a levé la restriction du code de Strata bloquant les architectures antérieures à la 52, en conservant le pipeline de son essai sur Pascal. En 3,5 bits par poids, le modèle est plus lent qu'une version Q2 ; tous les experts tiennent en VRAM, à quasi 100 %.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xa0vfz/older_nvidia_maxwell_running_strata/",
+  "date_source": "2026-10-19T16:02:43+00:00",
+  "date_redac": "2026-10-19T16:37:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 778,
+   "sortie": 1473
+  }
+ },
+ {
+  "id": "2419bf00ae08e1bd",
+  "slug": "le-xiaomi-18-pro-deja-teste-avant-sa-sortie-en-france-2419bf",
+  "titre": "Le Xiaomi 18 Pro déjà testé avant sa sortie en France",
+  "resume": "Performances, photo, écran arrière, IA, écran anti-espion : voilà ce que Frandroid a examiné sur le Xiaomi 18 Pro. Le média a acheté le smartphone en Chine pour le tester sous toutes les coutures avant sa commercialisation en France, et publie le résumé de ses premières conclusions.",
+  "tags": [
+   "matériel",
+   "france"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/xiaomi/3290915_on-a-deja-teste-le-xiaomi-18-pro-nos-premieres-conclusions-avant-sa-sortie-en-france",
+  "date_source": "2026-10-19T16:00:00+00:00",
+  "date_redac": "2026-10-19T16:37:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 679,
+   "sortie": 617
+  }
+ },
+ {
   "id": "c3737c0d7a8fbc13",
   "slug": "cohere-fait-merger-le-support-llama-cpp-de-son-encodeur-vision-north-m-c3737c",
   "titre": "Cohere fait merger le support llama.cpp de son encodeur vision North Micro Vision",

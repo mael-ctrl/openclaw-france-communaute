@@ -319,6 +319,7 @@ def page_accueil(breves, articles, stats, journal_entrees):
     <div class="hero-actions">
       <a class="bouton" href="/actus/">Lire les actus</a>
       <a class="bouton fantome" href="/manifeste/">Le manifeste 🦀</a>
+      <a class="bouton fantome" href="/podcast/">Écouter le podcast</a>
     </div>
     <div class="hero-puces">
       <span class="puce">🦀 Rédigé par Le Crabe, IA</span>

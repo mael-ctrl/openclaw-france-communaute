@@ -1,0 +1,41 @@
+{
+ "slug": "opencode-pirate-les-cles-api-nouveau-point-de-rupture-des-ag-393644",
+ "titre": "OpenCode piraté : les clés API, nouveau point de rupture des agents IA",
+ "chapo": "Des clés API dérobées sur OpenCode, des factures qui s'envolent chez ses utilisateurs : l'agent de codage open source découvre le coût de sa popularité. La même semaine, Nvidia pousse des modèles ouverts pour faire tourner des agents en entreprise et sur PC, pendant qu'OpenAI branche ChatGPT sur Chrome.",
+ "html": "<h2 id=\"opencode-les-cles-api-comme-nouveau-port\">OpenCode : les clés API comme nouveau portefeuille</h2>\n<p>OpenCode s'est taillé une place d'alternative open source à Claude Code et à Cursor. Sa popularité a un revers : des intrus se sont introduits dans une partie de sa plateforme en ligne et ont dérobé les clés API de certains utilisateurs. Ces clés étant facturées au compte du titulaire légitime, les factures ont grimpé sur leurs comptes d'IA — sans que l'utilisateur ait engagé la moindre requête.</p>\n<p>Le détail le plus révélateur vient d'ailleurs. Sollicités pour analyser le code malveillant, les outils d'IA appelés à l'aide ont refusé à plusieurs reprises. Les mêmes modèles qui écrivent du code ont donc opposé un refus à ceux qui cherchaient à comprendre l'attaque.</p>\n<p>Pour qui fait tourner un agent de codage, la conséquence est directe : une clé API n'est pas un simple identifiant technique, c'est un moyen de paiement adossé à un compte. Sa compromission se traduit immédiatement en euros ou en dollars.</p>\n<h2 id=\"space-bunny-tombe-le-masque-minimax-m3-1\">Space Bunny tombe le masque : MiniMax M3.1 Flash</h2>\n<p>Le modèle furtif resté dix jours en tête d'OpenRouter avant de disparaître le 5 octobre a un nom : MiniMax M3.1 Flash. Space Bunny réapparaît donc sur l'API avec 428 milliards de paramètres totaux, dont 23 milliards actifs, un contexte d'un million de tokens et une entrée texte, image et vidéo. Tarifs affichés : 0,15 dollar en entrée, 0,60 dollar en sortie. Les poids sont annoncés pour le 23 octobre.</p>\n<p>Côté performances, MiniMax avance ses propres chiffres : devant Opus 5 sur automation-bench, mais loin derrière sur terminal bench — 38,1 contre 51,8. Deux benchmarks, deux histoires. Un modèle peut dominer l'automatisation et caler là où il faut tenir une session de terminal dans la durée.</p>\n<p>L'épisode Space Bunny rappelle au passage une pratique désormais installée : tester un modèle sous pseudonyme sur un routeur public,Observer les votes, puis officialiser.</p>\n<h2 id=\"l-agent-sort-du-chat-chrome-et-le-pc\">L'agent sort du chat : Chrome et le PC</h2>\n<p>OpenAI revoit sa stratégie. Après avoir abandonné son propre navigateur, l'entreprise déploie plusieurs fonctionnalités basées sur ChatGPT pour Google Chrome. Le modèle ne se contente plus de répondre : il réalise des actions dans le navigateur, comme remplir des formulaires.</p>\n<p>Nvidia pousse dans la même direction par un autre bout. Le fondeur part d'un constat : les entreprises veulent faire tourner leurs propres modèles ouverts dans leurs propres centres de données. Il lance pour cela de nouveaux modèles ouverts destinés à exécuter des agents, et cherche aussi à imposer l'agent IA local, privé, fonctionnant directement sur le PC.</p>\n<p>Deux approches, un même déplacement : l'agent quitte la fenêtre de conversation. Il agit dans le navigateur, s'installe sur la machine de bureau ou dans le datacenter du client. Chacun de ces déplacements élargit la surface exposée — sessions, formulaires, identifiants, clés.</p>\n<h2 id=\"anthropic-veut-fixer-le-seuil-d-arret-d-\">Anthropic veut fixer le seuil d'arrêt d'un modèle</h2>\n<p>Selon Politico, Anthropic fait circuler au Congrès un projet de loi qui limiterait l'arrêt d'un modèle d'IA aux seuls risques imminents de plus de 50 morts ou blessés graves, ou de plus d'un milliard de dollars de dommages. La décision reviendrait à un juge saisi par le Commerce.</p>\n<p>Le seuil n'est pas sorti de nulle part : il provient de la loi californienne SB 53 et figure aussi dans le FRONTIER Act. Un point continue de diviser : la préemption des lois d'États, autrement dit la question de savoir si un texte fédéral doit effacer les législations locales déjà en place.</p>\n<p>Le débat porte donc moins sur l'existence de garde-fous que sur le niveau auquel on les déclenche — et sur l'autorité qui tranche.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dépêches, une même question de confiance. Les clés API d'OpenCode ont été volées et facturées à leurs propriétaires. ChatGPT agit désormais dans Chrome, là où se saisissent les formulaires. Nvidia veut faire tourner les agents sur le PC ou dans le datacenter du client. Pendant ce temps, à Washington, Anthropic propose de fixer le seuil d'arrêt d'un modèle à cinquante morts ou un milliard de dollars. Le curseur se déplace du modèle vers ce qu'on lui confie.</p>",
+ "pivot": "39364480d431c173",
+ "tags": [
+  "sécurité",
+  "open-source",
+  "agents",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa3ynv/space_bunny_was_minimax_m31_flash_428ba23b/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/19/chatgpt-peut-desormais-controler-google-chrome-pour-travailler-a-votre-place/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/anthropic-propose-de-ne-bloquer-un-modele-quen-cas-de-risque-imminent-de-plus-de-50-morts-ou-blesses-graves-ou-1-md/"
+  }
+ ],
+ "date": "2026-10-19T19:32:53+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1606,
+  "sortie": 4402
+ }
+}

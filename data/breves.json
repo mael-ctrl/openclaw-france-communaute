@@ -1,5 +1,110 @@
 [
  {
+  "id": "fead68932533f74c",
+  "slug": "claude-code-v2-1-304-permissions-affinees-auto-mode-etendu-audit-secur-fead68",
+  "titre": "Claude Code v2.1.304 : permissions affinées, auto-mode étendu, audit sécurité",
+  "resume": "La version v2.1.304 de Claude Code ajoute un indicateur e.isReadOnly à l'événement tool.check des mods, et une réponse « person » qui réserve l'approbation d'une demande au dialogue de permission ou à un callback de l'hôte, avec refus motivé quand personne ne peut être sollicité. La commande /auto-mode-setup, qui lit le projet et les sessions récentes pour renseigner le mode auto, arrive aussi sur Bedrock, Vertex, Foundry, la passerelle des applis Claude et les sessions sans télémétrie. /claude-api managed-agents-secure compare les réglages d'un agent Managed Agents au guide de sécurité publié par Anthropic, sans rien modifier.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
+  "date_source": "2026-10-19T21:34:39+00:00",
+  "date_redac": "2026-10-19T21:36:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 771,
+   "sortie": 333
+  }
+ },
+ {
+  "id": "a08833248cf34cef",
+  "slug": "la-dette-de-coreweave-devient-le-probleme-de-toute-l-ia-a08833",
+  "titre": "La dette de CoreWeave devient le problème de toute l'IA",
+  "resume": "CoreWeave a passé une mauvaise semaine : ses obligations ont basculé en zone de détresse, selon la définition usuelle — les investisseurs exigent 1 000 points de base de rendement de plus que sur les emprunts d'État. Mardi dernier, Chamath Palihapitiya, surnommé le « SPAC King », a relevé cette dette sous pression et posé la question : la construction de l'IA est-elle une bulle du crédit privé ?",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+  "date_source": "2026-10-19T21:28:20+00:00",
+  "date_redac": "2026-10-19T21:36:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 672,
+   "sortie": 685
+  }
+ },
+ {
+  "id": "f3da2b4195604138",
+  "slug": "un-raisonnement-adaptatif-pour-les-llm-pilote-par-la-logique-jev-f3da2b",
+  "titre": "Un raisonnement adaptatif pour les LLM, piloté par la logique JEV",
+  "resume": "Un développeur publie sur r/LocalLLaMA un projet open source qui rend le raisonnement des LLM adaptatif. L'entropie est mesurée mot par mot : si le modèle hésite, une porte de type JEV lui demande s'il faut lancer un bloc de réflexion. Une pensée d'ouverture a toujours lieu, puis des blocs s'ajoutent, issus d'un arbre de conversations parallèles. L'approche cible les modèles locaux, bridés au décodage par la RAM.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xa9ffa/jev_based_adaptive_thinking_for_llms/",
+  "date_source": "2026-10-19T21:18:28+00:00",
+  "date_redac": "2026-10-19T21:36:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 764,
+   "sortie": 1122
+  }
+ },
+ {
+  "id": "3f4695857af958f4",
+  "slug": "gamesummoner-passe-a-une-installation-locale-en-une-ligne-de-commande-3f4695",
+  "titre": "GameSummoner passe à une installation locale en une ligne de commande",
+  "resume": "Un peu plus d'une semaine après sa sortie open source, GameSummoner simplifie son usage local : l'installation tient désormais en une seule ligne de commande. Le script install.sh liste les modèles servis par llama-swap, demande lequel joue chaque rôle, vérifie que ComfyUI dispose de tous les nœuds et fichiers de modèles nécessaires, et demande confirmation avant toute installation.",
+  "tags": [
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xa968x/gamesummoner_ease_of_local_use_update/",
+  "date_source": "2026-10-19T21:08:49+00:00",
+  "date_redac": "2026-10-19T21:36:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 857,
+   "sortie": 595
+  }
+ },
+ {
+  "id": "97d035911b35a5b0",
+  "slug": "tinkerbox-fait-tourner-des-modeles-de-decision-sur-le-neural-engine-d--97d035",
+  "titre": "Tinkerbox fait tourner des modèles de décision sur le Neural Engine d'Apple",
+  "resume": "Tinkerbox, publié en open source, exécute des modèles de décision sur le Neural Engine d'Apple, pilotables via des actions Raccourcis : mail entrant, iMessages, fichiers modifiés ou alarmes, sans code. LiquidAI d1-3B, sur la frontière de Pareto du Decision Index 0.3.2, tourne à environ 40 ms sur des décisions courtes, mesuré sur M5 Pro. Ces modèles évitent le décodage autoregressif token par token, que le Neural Engine gère mal.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xa7ytv/i_built_an_app_to_efficiently_run_decision_models/",
+  "date_source": "2026-10-19T20:23:15+00:00",
+  "date_redac": "2026-10-19T21:36:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 817,
+   "sortie": 1266
+  }
+ },
+ {
   "id": "c71a8f039f29e2e2",
   "slug": "xid-8-des-blocages-gpu-sur-rtx-5090-laptop-sous-linux-avec-les-llm-loc-c71a8f",
   "titre": "Xid 8 : des blocages GPU sur RTX 5090 Laptop sous Linux avec les LLM locaux",

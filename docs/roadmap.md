@@ -47,6 +47,11 @@ Les autres dépendances (GSC, chaîne/OAuth, newsletter, distribution, offre Sko
 
 - **Croissance du 16/10** : dates HTML sémantiques et affichage Europe/Paris livrés, commit `d904dfe` ; 99 tests Python + 4 Node, run `38899031992` réussi, 659 fichiers envoyés et 9 HTML HTTPS identiques au rendu du commit cloud `324c29f`. Cartes, une et signatures raccordées ; 10 vues navigateur mobile/desktop contrôlées sans JavaScript. Horodatages, JSON-LD et textes conservés ; ne clôt pas l'audit sémantique des dates de première mise en ligne. [Preuves et limites](dates-html.md).
 
+### Complément monétisation — 19/10
+
+- **Une action livrée en privé :** démonstration PDF de quatre pages, construite à partir de l'extension d'audit du matin, sans nouveau crawl ni moteur. **54 tests d'audit + 4 tests de rapport réussis**, deux replays identiques, contrôles A4/texte et quatre pages relues visuellement. Périodes de capture du 18/10 et du 19/10 distinctes ; pas de faux correctifs ni score GEO. [Résultats et limites](monetisation.md).
+- **Suite technique :** éprouver URI/HTML5 et fixer le périmètre réel avant prestation. **Verrous commerciaux inchangés :** B2B 200, mentions légales 404 au préflight ; vendeur/TVA et modalités/canal de reversement non validés. Aucun prix, contact ou paiement ; démarche BDM du matin seule distribution du jour. PDF et preuves hors dépôt, aucune modification du site.
+
 ### Complément monétisation — 18/10
 
 - **Rang 1, première brique exécutée en privé :** diagnostic statique de six pages HTTPS, rapport et replay hors réseau, 42 tests ciblés réussis. Réemploi MIT `mcp-web-validator`, code figé et verrou de dépendances corrigé localement ; aucun changement des sites. Sept observations informatives seulement : pas dix correctifs inventés ni service GEO déclaré prêt. [Résultats et limites](monetisation.md).

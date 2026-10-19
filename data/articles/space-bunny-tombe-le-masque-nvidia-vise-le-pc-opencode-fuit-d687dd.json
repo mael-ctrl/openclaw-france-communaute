@@ -1,0 +1,41 @@
+{
+ "slug": "space-bunny-tombe-le-masque-nvidia-vise-le-pc-opencode-fuit-d687dd",
+ "titre": "Space Bunny tombe le masque, Nvidia vise le PC, OpenCode fuit",
+ "chapo": "Le modèle furtif qui squattait OpenRouter s'appelle MiniMax M3.1 Flash et arrive sur l'API à 0,15 $ le million de tokens. La même semaine, Meta et NVIDIA lâchent deux poids ouverts aux philosophies opposées, pendant qu'OpenCode confirme une fuite de clés API.",
+ "html": "<h2 id=\"space-bunny-tombe-le-masque\">Space Bunny tombe le masque</h2>\n<p>Le mystère aura duré dix jours. Space Bunny, modèle anonyme apparu sur OpenRouter fin septembre, a tenu la tête du classement avant de disparaître le 5 octobre. Il réapparaît cette semaine sous son vrai nom, <strong>MiniMax M3.1 Flash</strong>. Sur l'API, la fiche technique est copieuse : 428 milliards de paramètres au total, 23 milliards actifs, un contexte d'un million de tokens, et la prise en charge du texte, de l'image et de la vidéo. La facturation reste agressive : 0,15 $ le million de tokens en entrée, 0,60 $ en sortie.</p>\n<p>MiniMax revendique un tiers du coût de M3 et une vitesse triplée, avec des niveaux d'effort de réflexion configurables. Les poids sont annoncés pour le 23 octobre. Une bizarrerie à signaler au passage : la note de version de MiniMax ne donne aucun nombre de paramètres — les 428 et 23 milliards circulent via le fil LocalLLaMA, pas via la communication officielle.</p>\n<p>Côté performances, les chiffres sont ceux de MiniMax et méritent d'être lus en entier : le modèle devance Opus 5 sur automation-bench, mais se prend une claque sur terminal bench, avec 38,1 contre 51,8. Un modèle d'automatisation, pas encore un modèle de terminal.</p>\n<h2 id=\"nvidia-et-meta-deux-echelles-deux-strate\">NVIDIA et Meta : deux échelles, deux stratégies</h2>\n<p>La même fenêtre de 72 heures a vu sortir quatre gros modèles à poids ouverts. Le plus massif vient de Meta : <strong>Muse Spark Open</strong>, 816 milliards de paramètres, 42 milliards actifs, un contexte d'un million de tokens. Sauf que l'usage « desktop » suppose deux Mac Studio M5 Ultra de 512 Go — ou quatre de 256 Go, pour environ 38 000 dollars.</p>\n<p>NVIDIA répond avec <strong>Nemotron 3.5 Bolt</strong> : 74 milliards au total, 9 milliards actifs, quantifié jusqu'en 2 bits pour tenir dans 24 Go. Deux philosophies résumées par deux chiffres : 24 Go de mémoire d'un côté, 38 000 dollars de matériel de l'autre.</p>\n<p>Le fondeur ne s'arrête pas aux specs. NVIDIA mise sur une tendance de fond : les entreprises veulent faire tourner leurs propres modèles ouverts dans leurs propres centres de données. Il lance pour cela de nouveaux modèles destinés à exécuter des agents, et pousse en parallèle l'agent IA local, privé, fonctionnant directement sur le PC.</p>\n<h2 id=\"opencode-les-cles-dans-la-nature\">OpenCode : les clés dans la nature</h2>\n<p>Tout n'est pas rose dans la tuyauterie. <strong>OpenCode</strong>, agent de programmation open source, a confirmé samedi 17 octobre une intrusion qui a pu exposer les clés API OpenAI, Anthropic et Google de 1,4 % des utilisateurs de sa Console. L'entreprise relie l'incident à une « attaque par distillation » : exploiter un modèle pour en entraîner un autre, en l'occurrence en récupérant les clés qui donnent accès à l'API.</p>\n<p>Les victimes signalent déjà des frais de plusieurs centaines de dollars. Le maillon faible n'est donc pas le modèle mais ce qui l'entoure : un agent qui détient des clés en clair devient une cible rentable, et 1,4 % d'une base d'utilisateurs suffit à générer des factures.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois mouvements sans rapport apparent, sinon qu'ils dessinent le même terrain. Les poids ouverts se disputent désormais trois échelles en même temps : le gigantesque hors de portée d'une machine personnelle, le 24 Go qui tient sur une carte graphique, et l'API à 15 centimes le million de tokens. Pendant que les modèles se resserrent en qualité, la sécurité des accès reste le point de rupture : une clé API volée coûte plus cher qu'un abonnement, et elle ne se révoque pas toute seule.</p>",
+ "pivot": "d687dd90722b75b0",
+ "tags": [
+  "open-source",
+  "agents",
+  "sécurité",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa3ynv/space_bunny_was_minimax_m31_flash_428ba23b/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/securite-applications/3290055_attaque-par-distillation-des-pirates-volent-des-cles-api-pour-entrainer-une-autre-ia"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa1rru/minimax_m31_flash_released_space_bunny_was_an/"
+  }
+ ],
+ "date": "2026-10-19T18:31:27+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1641,
+  "sortie": 3509
+ }
+}

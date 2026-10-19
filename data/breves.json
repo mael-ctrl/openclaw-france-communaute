@@ -1,5 +1,26 @@
 [
  {
+  "id": "d687dd90722b75b0",
+  "slug": "minimax-m3-1-flash-le-modele-furtif-space-bunny-sort-sur-l-api-d687dd",
+  "titre": "MiniMax M3.1 Flash : le modèle furtif Space Bunny sort sur l'API",
+  "resume": "Space Bunny, le modèle furtif resté dix jours en tête d'OpenRouter avant de disparaître le 5 octobre, réapparaît sous le nom MiniMax M3.1 Flash. Sur l'API : 428B de paramètres totaux, 23B actifs, 1M de contexte, texte, image et vidéo, à 0,15 $ en entrée et 0,60 $ en sortie. Les poids sont annoncés pour le 23 octobre. Chiffres maison : devant Opus 5 sur automation-bench, loin derrière sur terminal bench (38,1 contre 51,8).",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 4,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xa3ynv/space_bunny_was_minimax_m31_flash_428ba23b/",
+  "date_source": "2026-10-19T17:56:57+00:00",
+  "date_redac": "2026-10-19T18:31:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 864,
+   "sortie": 1497
+  }
+ },
+ {
   "id": "e457e659b0f0deb9",
   "slug": "minimax-m3-1-flash-un-tiers-du-cout-de-m3-trois-fois-plus-rapide-e457e6",
   "titre": "MiniMax-M3.1-Flash : un tiers du coût de M3, trois fois plus rapide",
@@ -538,6 +559,28 @@
    "modele": "deepseek-flash",
    "entree": 675,
    "sortie": 113
+  }
+ },
+ {
+  "id": "54f65ec239fa1e8f",
+  "slug": "laplace-intelligence-teste-les-robots-et-vehicules-autonomes-avant-dep-54f65e",
+  "titre": "Laplace Intelligence teste les robots et véhicules autonomes avant déploiement",
+  "resume": "Laplace Intelligence, essaimage de l'université du Michigan, éprouve robots et véhicules autonomes avant leur mise en service. La startup combine agents IA et simulation interactive pour mener ces tests d'intrusion. Elle est déjà rentable et concourt au Startup Battlefield de TechCrunch Disrupt, à San Francisco.",
+  "tags": [
+   "robots",
+   "agents",
+   "sécurité",
+   "business"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+  "date_source": "2026-10-19T12:30:00+00:00",
+  "date_redac": "2026-10-19T18:31:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 654,
+   "sortie": 444
   }
  },
  {

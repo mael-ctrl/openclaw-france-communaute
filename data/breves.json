@@ -1,5 +1,109 @@
 [
  {
+  "id": "4ef0ecab4e7beab4",
+  "slug": "l-app-nvidia-active-par-defaut-un-serveur-pour-la-piloter-par-agents-i-4ef0ec",
+  "titre": "L'app NVIDIA active par défaut un serveur pour la piloter par agents IA",
+  "resume": "La version 11.0.9.565 de l'application NVIDIA, publiée le 13 octobre 2026, active par défaut un serveur qui permet à des agents IA de piloter le logiciel. L'utilisateur n'a donc rien à activer de son côté : l'option est en place dès la mise à jour. L'info compte parce qu'elle installe une couche de pilotage par agents dans un logiciel grand public, sans démarche explicite de la part de l'utilisateur.",
+  "tags": [
+   "agents",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/nvidia/3290323_votre-app-nvidia-laisse-peut-etre-deja-des-agents-ia-la-piloter",
+  "date_source": "2026-10-19T07:55:47+00:00",
+  "date_redac": "2026-10-19T08:10:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 651,
+   "sortie": 466
+  }
+ },
+ {
+  "id": "6fa6905fba848aca",
+  "slug": "un-depot-public-de-sessions-pour-nourrir-les-llm-ouverts-6fa690",
+  "titre": "Un dépôt public de sessions pour nourrir les LLM ouverts",
+  "resume": "Un contributeur de r/LocalLLaMA propose un dépôt public où chacun verserait ses sessions de discussion avec des modèles, via des extensions navigateur pour automatiser la collecte. Il note que les modèles de frontière n'autorisent pas la distillation et que les LLM ouverts ont des budgets limités. Le projet prévoit anonymisation des deux côtés, points et partage des dons pour les contributeurs, et des téléchargements payants.",
+  "tags": [
+   "open-source",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9qqcs/data_dump_repository_and_browser_extensions_for/",
+  "date_source": "2026-10-19T07:51:51+00:00",
+  "date_redac": "2026-10-19T08:10:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 773,
+   "sortie": 1208
+  }
+ },
+ {
+  "id": "2e3d8c4b0cf35360",
+  "slug": "apple-preparerait-un-homeview-haut-de-gamme-a-bras-robotise-2e3d8c",
+  "titre": "Apple préparerait un HomeView haut de gamme à bras robotisé",
+  "resume": "Selon 01net, Apple travaillerait sur une version haut de gamme de son HomeView, l'écran connecté dédié à la domotique. Cette itération embarquerait un bras robotisé capable de pivoter à 360 degrés pour se tourner vers la personne qui lui parle, ainsi qu'un écran plus grand, jusqu'à 9 pouces. Sa sortie est évoquée pour 2027 ou 2028.",
+  "tags": [
+   "matériel",
+   "robots"
+  ],
+  "importance": 2,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/apple-preparerait-homeview-bras-robotise-qui-vous-suit-regard.html",
+  "date_source": "2026-10-19T07:45:30+00:00",
+  "date_redac": "2026-10-19T08:10:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 701,
+   "sortie": 139
+  }
+ },
+ {
+  "id": "e4eccc907b5b03b6",
+  "slug": "strata-tourne-sous-windows-avec-deux-gpu-amd-et-la-vision-hors-support-e4eccc",
+  "titre": "Strata tourne sous Windows avec deux GPU AMD et la vision, hors support officiel",
+  "resume": "Un utilisateur de r/LocalLLaMA rapporte avoir fait tourner Strata sous Windows 11 avec un partage de couches sur deux GPU AMD, une 9070XT et une 9060XT, épaulés par un 14900KF et 64 Go de RAM. Sans la variable d'environnement STRATA_RESIDENT_PIN réglée à 0, le programme plantait ; avec elle, il tournait mais avec un peu de surcharge. Il a finalement retenu une configuration mono-carte sur la 9070XT, autour de 1350 pp et de 50 à 100 tgs selon la tâche en contexte complet, avec échantillonnage qwen et quantification IQ3_XXS. Il a aussi compilé Vulkan vision et fait tourner le mmproj vision sur sa seconde carte, toujours sous Windows, sans modifier le code de Strata — alors que le dual GPU AMD et la vision sous Windows ne sont pas officiellement supportés.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9qe2h/strata_windows_working_dual_amd_gpu_setup_with/",
+  "date_source": "2026-10-19T07:29:30+00:00",
+  "date_redac": "2026-10-19T08:10:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 829,
+   "sortie": 533
+  }
+ },
+ {
+  "id": "e34d256d303fc191",
+  "slug": "hermes-agent-publie-une-build-canary-v0-22-2-e34d25",
+  "titre": "Hermes Agent publie une build canary v0.22.2",
+  "resume": "Hermes Agent, le projet d'agent de NousResearch, diffuse une nouvelle build canary estampillée v0.22.2+canary.20261019T071120Z. Elle est datée du 19 octobre 2026 et publiée sur le dépôt GitHub du projet. Le canal canary sert à distribuer des versions de test en amont de la branche stable ; l'extrait ne précise pas les changements qu'elle embarque.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261019T071120Z",
+  "date_source": "2026-10-19T07:11:22+00:00",
+  "date_redac": "2026-10-19T08:10:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 633
+  }
+ },
+ {
   "id": "7cc42b5ff80458fc",
   "slug": "deepseek-v4-1-flash-1017-trois-scores-pour-un-meme-benchmark-7cc42b",
   "titre": "DeepSeek-V4.1-Flash-1017 : trois scores pour un même benchmark",

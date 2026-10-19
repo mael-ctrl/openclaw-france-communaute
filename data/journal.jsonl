@@ -2381,3 +2381,9 @@
 {"ts": "2026-10-19T06:19:56+00:00", "evenement": "deploiement", "details": {"fichiers": 733, "octets": 16001048}, "sha256": "ed6e35b943ee3d238399c1a8939ffcd49785a059b2dbbfc23c9545e373259594"}
 {"ts": "2026-10-19T06:19:56+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "d6c87fb108f83970db6b78073b81945ddce11d0df753b281dbb8603faefc8af6"}
 {"ts": "2026-10-19T06:19:56+00:00", "evenement": "bilan", "details": {"duree_s": 844.1, "neufs": 3, "breves": 3, "articles": 1, "fichiers": 703, "envois": 733, "publications": 0}, "sha256": "382f69da39f08a66156ad5a6deb54c64765edaa5ff5602618916f564fbeed92c"}
+{"ts": "2026-10-19T08:10:13+00:00", "evenement": "collecte", "details": {"neufs": 8}, "sha256": "d7c9822d695256f8314054278be384fb758717f9ed54a5fe622f695aa54c54bb"}
+{"ts": "2026-10-19T08:10:45+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Kapitsa: open-source Apple Silicon optimized Metal engine bu) : réponse non-JSON"}, "sha256": "cf37f1280cd50715870a32ee3b7e69bc6257e06a403565f8e991cb03975802aa"}
+{"ts": "2026-10-19T08:11:09+00:00", "evenement": "construction", "details": {"fichiers": 704}, "sha256": "f0d8556312640f37b313be5c19643bb77a86dd2f7f59d7205ec6ee3e1d56759e"}
+{"ts": "2026-10-19T08:21:24+00:00", "evenement": "deploiement", "details": {"fichiers": 736, "octets": 16101403}, "sha256": "b05d8b24e40da486f8b9a37d85ab70d33af4ee2912b93aff759b8b4650e88a20"}
+{"ts": "2026-10-19T08:21:25+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "3cd0a52b9a7a75e32996712d78b0a149f2ffc3d81b5789b47ec3f66ebfc9cd0e"}
+{"ts": "2026-10-19T08:21:25+00:00", "evenement": "bilan", "details": {"duree_s": 683.7, "neufs": 8, "breves": 5, "articles": 1, "fichiers": 704, "envois": 736, "publications": 0}, "sha256": "30901c9051c7a62ae3a3441f8f9bdbbc93fb21efe31b58e54f63747ee5d1d47d"}

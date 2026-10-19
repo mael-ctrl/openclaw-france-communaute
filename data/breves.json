@@ -1,5 +1,25 @@
 [
  {
+  "id": "e457e659b0f0deb9",
+  "slug": "minimax-m3-1-flash-un-tiers-du-cout-de-m3-trois-fois-plus-rapide-e457e6",
+  "titre": "MiniMax M3.1 Flash : un tiers du coût de M3, trois fois plus rapide",
+  "resume": "MiniMax publie M3.1 Flash, annoncé à un tiers du coût de M3 et trois fois plus rapide. Space Bunny, le modèle furtif d'OpenRouter fin septembre, en était une version antérieure. L'annonce cite 62 % sur Automation-Bench, 74 % sur DeepSWE et 91 % sur BabyVision, pour une fenêtre de 1M de tokens et un effort de réflexion configurable. Les poids arriveront le 23 octobre ; le nombre de paramètres n'est pas communiqué.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xa1rru/minimax_m31_flash_released_space_bunny_was_an/",
+  "date_source": "2026-10-19T16:36:18+00:00",
+  "date_redac": "2026-10-19T17:28:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 818,
+   "sortie": 1220
+  }
+ },
+ {
   "id": "5f06773ca124a737",
   "slug": "des-proprietaires-de-tv-connectees-utilisent-l-ia-pour-retirer-les-log-5f0677",
   "titre": "Des propriétaires de TV connectées utilisent l'IA pour retirer les logiciels imposés",
@@ -389,6 +409,28 @@
    "modele": "deepseek-flash",
    "entree": 783,
    "sortie": 1163
+  }
+ },
+ {
+  "id": "3b8872d92af15e80",
+  "slug": "perplexity-ouvre-un-orchestrateur-firecracker-pour-le-sandboxing-d-age-3b8872",
+  "titre": "Perplexity ouvre un orchestrateur Firecracker pour le sandboxing d'agents",
+  "resume": "Perplexity publie en open source un orchestrateur basé sur Firecracker pour isoler les agents. Un développeur de r/LocalLLaMA indique avoir travaillé sur un projet similaire : il espère abandonner son travail à moitié fait pour adopter cette solution. La publication semble couvrir l'ensemble des fonctionnalités qu'il visait.",
+  "tags": [
+   "open-source",
+   "agents",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1x9whcm/perplexity_open_sources_firecracker_orchestrator/",
+  "date_source": "2026-10-19T13:10:08+00:00",
+  "date_redac": "2026-10-19T17:28:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 652,
+   "sortie": 128
   }
  },
  {
@@ -1534,6 +1576,26 @@
    "modele": "deepseek-flash",
    "entree": 668,
    "sortie": 355
+  }
+ },
+ {
+  "id": "b2bcc1b0dc98b278",
+  "slug": "disney-s-engage-a-recruter-la-majorite-des-salaries-de-character-ai-b2bcc1",
+  "titre": "Disney s'engage à recruter la majorité des salariés de Character.AI",
+  "resume": "Selon un document déposé, Disney s'engage à recruter la majorité des effectifs de Character.AI. La « vaste majorité » des salariés de Character.AI à qui un poste chez Disney a été proposé l'ont accepté. L'opération se présente comme une offre de référence (stalking horse bid) : une autre entreprise pourrait donc se manifester avec une proposition plus élevée.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+  "date_source": "2026-10-18T16:30:00+00:00",
+  "date_redac": "2026-10-19T17:28:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 639,
+   "sortie": 486
   }
  },
  {

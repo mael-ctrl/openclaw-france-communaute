@@ -2603,3 +2603,9 @@
 {"ts": "2026-10-20T18:06:45+00:00", "evenement": "deploiement", "details": {"fichiers": 1421, "octets": 28815395}, "sha256": "2127c40d54694d1f94b1dc4a0b2308bcc58d4b1532a8438a01b82aee3f637397"}
 {"ts": "2026-10-20T18:06:45+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "71d831d4a9cf64b9271c15676e1ed05f4a55a80aa87e35f995187410590f2a3a"}
 {"ts": "2026-10-20T18:06:45+00:00", "evenement": "bilan", "details": {"duree_s": 1225.5, "neufs": 5, "breves": 5, "articles": 1, "fichiers": 1387, "envois": 1421, "publications": 0}, "sha256": "23f809f450de6a46df66a1934b644861a9df99a9502a1fa3c0ca8b5004fce407"}
+{"ts": "2026-10-20T18:47:14+00:00", "evenement": "collecte", "details": {"neufs": 9}, "sha256": "886035bb2ad2a038c6d63ddb6fa9802c9a17df760f69ae204e2b430da174749d"}
+{"ts": "2026-10-20T18:47:42+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Agnes-AI/Agnes-3.0-Qwen (QFN finetune)) : réponse non-JSON"}, "sha256": "bd941a90750187740a412500ac7d4284a40feed0b22f55331244aaa476a143c8"}
+{"ts": "2026-10-20T18:48:25+00:00", "evenement": "construction", "details": {"fichiers": 1397}, "sha256": "f319fcb42fd2e747485a5bb6e283da00486840134628c1d53f12cdab8605c9de"}
+{"ts": "2026-10-20T19:23:51+00:00", "evenement": "deploiement", "details": {"fichiers": 1432, "octets": 29025043}, "sha256": "42bf644d286beda18633d854a3e9d107107560a78a863d28b0273f61b722a800"}
+{"ts": "2026-10-20T19:23:51+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "ae0bfffd4769f8ca4cde3fdffd5d6caa50985c5d2811ab28376748d711049086"}
+{"ts": "2026-10-20T19:23:51+00:00", "evenement": "bilan", "details": {"duree_s": 2213.9, "neufs": 9, "breves": 5, "articles": 1, "fichiers": 1397, "envois": 1432, "publications": 0}, "sha256": "c43bb32244b8c7050218bec2bf31524e1d525b3afe697b32d06d337eca3d1255"}

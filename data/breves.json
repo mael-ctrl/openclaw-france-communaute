@@ -1,5 +1,108 @@
 [
  {
+  "id": "76791c7060c74d13",
+  "slug": "nvidia-presente-cosmos3-h-dreams-la-simulation-generative-au-service-d-76791c",
+  "titre": "NVIDIA présente Cosmos3-H-Dreams, la simulation générative au service de la chirurgie",
+  "resume": "NVIDIA signe sur le blog Hugging Face un article consacré à Cosmos3-H-Dreams, présenté comme un dispositif de simulation générative appliqué à la chirurgie clinique. Le titre annonce vouloir « donner vie » à des situations opératoires grâce à la génération. L'extrait transmis ne détaille ni l'architecture du modèle, ni les résultats obtenus.",
+  "tags": [
+   "recherche",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Hugging Face",
+  "lien_source": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+  "date_source": null,
+  "date_redac": "2026-10-20T18:47:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 590,
+   "sortie": 704
+  }
+ },
+ {
+  "id": "c32234807adb6eee",
+  "slug": "openai-rachete-orchestra-bio-pour-accelerer-la-r-d-en-biopharma-c32234",
+  "titre": "OpenAI rachète Orchestra Bio pour accélérer la R&D en biopharma",
+  "resume": "OpenAI annonce l'acquisition d'Orchestra Bio. L'objectif affiché : apporter des opérations assistées par IA à la R&D des sciences de la vie. Les équipes biopharma doivent ainsi pouvoir accélérer le développement de médicaments et faire avancer de nouveaux traitements.",
+  "tags": [
+   "openai",
+   "business",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+  "date_source": null,
+  "date_redac": "2026-10-20T18:47:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 588,
+   "sortie": 395
+  }
+ },
+ {
+  "id": "660c9b8763901fa0",
+  "slug": "qev-0-8b-un-modele-de-decision-tiny-local-annonce-comme-sota-660c9b",
+  "titre": "qev-0.8b, un modèle de décision « tiny » local annoncé comme SOTA",
+  "resume": "Sur r/LocalLLaMA, un post annonce qev-0.8b, un modèle de décision « tiny » de 0,8 milliard de paramètres, présenté comme le nouveau SOTA local de sa catégorie. L'extrait s'arrête au titre : ni benchmarks, ni licence, ni détails d'entraînement n'y sont exposés. L'enjeu : des modèles de décision compacts capables de tourner en local, sans appel API.",
+  "tags": [
+   "recherche",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xazrvd/qev08b_new_sota_tiny_local_decision_model/",
+  "date_source": "2026-10-20T18:17:30+00:00",
+  "date_redac": "2026-10-20T18:47:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 616,
+   "sortie": 1275
+  }
+ },
+ {
+  "id": "49d6ab40ba4a9dc5",
+  "slug": "meta-suspend-le-partage-de-conversations-muse-apres-une-fuite-de-liens-49d6ab",
+  "titre": "Meta suspend le partage de conversations Muse après une fuite de liens publics",
+  "resume": "Meta a suspendu une fonctionnalité de Muse qui permet de partager ses conversations avec l'assistant IA, après que des chercheurs ont trouvé des URL accessibles publiquement, rapporte Ars Technica. Dans un rapport publié cette semaine, les chercheurs de la société de sécurité Claroc indiquent avoir repéré plus de 6 800 liens Muse via des enregistrements DNS publics.",
+  "tags": [
+   "meta",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+  "date_source": "2026-10-20T18:07:34+00:00",
+  "date_redac": "2026-10-20T18:47:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 654,
+   "sortie": 375
+  }
+ },
+ {
+  "id": "3e0a2fcac159a888",
+  "slug": "un-moteur-d-inference-en-c-fait-tourner-des-moe-de-35b-sur-une-tesla-k-3e0a2f",
+  "titre": "Un moteur d'inférence en C fait tourner des MoE de 35B sur une Tesla K80 de 2014",
+  "resume": "Pantheon, moteur d'inférence en C sans bibliothèque externe, vise l'architecture Kepler (sm_37) via un backend CUDA : une Tesla K80 d'occasion fait tourner des MoE de 35B. Sur une carte en hôte 2 cœurs / 8 Go sans AVX : ~21 tok/s en génération avec Qwen3.6-35B-A3B et Nex-N2-mini en Q3_K_M, les poids restant sur la carte. Le cache de préfixe intégré fait passer le second tour d'opencode de 170 à 9 s.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaz06x/running_35b_moe_models_on_a_tesla_k80_2014_at_21/",
+  "date_source": "2026-10-20T17:49:47+00:00",
+  "date_redac": "2026-10-20T18:47:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 886,
+   "sortie": 1157
+  }
+ },
+ {
   "id": "d7e53c1e79d91207",
   "slug": "muse-l-ia-de-meta-passe-les-10-millions-de-telechargements-aux-etats-u-d7e53c",
   "titre": "Muse, l'IA de Meta, passe les 10 millions de téléchargements aux États-Unis en 40 jours",
@@ -59,48 +162,6 @@
    "modele": "deepseek-flash",
    "entree": 605,
    "sortie": 567
-  }
- },
- {
-  "id": "b8e0fd92d22c4e6b",
-  "slug": "kyutai-decline-pocket-tts-en-modeles-de-1-9m-a-18-2m-de-parametres-pou-b8e0fd",
-  "titre": "Kyutai décline Pocket TTS en modèles de 1,9M à 18,2M de paramètres pour le CPU",
-  "resume": "Kyutai a publié le 20 octobre trois modèles Pocket TTS réduits : 1,9M, 6,9M et 18,2M de paramètres. Ces modèles anglais savent cloner une voix et sont conçus pour tourner sur CPU, avec un sélecteur de taille dans la démo. L'intérêt : garder la synthèse vocale sur le processeur et laisser le GPU au LLM, sans arbitrage supplémentaire de VRAM. À noter que les décomptes incluent le décodeur audio ; l'encodeur qui traite la voix de référence est séparé.",
-  "tags": [
-   "recherche",
-   "dev",
-   "matériel"
-  ],
-  "importance": 3,
-  "source": "r/LocalLLaMA",
-  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaxm11/pocket_tts_small_cpu_voice_cloning_with_models_as/",
-  "date_source": "2026-10-20T16:58:49+00:00",
-  "date_redac": "2026-10-20T17:46:39+00:00",
-  "gen": {
-   "modele": "deepseek-flash",
-   "entree": 811,
-   "sortie": 444
-  }
- },
- {
-  "id": "04c55e59e65b1b57",
-  "slug": "en-lituanie-un-congres-d-ia-medicale-mise-sur-les-modeles-locaux-04c55e",
-  "titre": "En Lituanie, un congrès d'IA médicale mise sur les modèles locaux",
-  "resume": "Une conférence lituanienne sur l'IA en médecine a présenté des travaux très concrets. La responsable du labo AIML.lt y a détaillé des modèles de décision expérimentaux pour les questions-réponses médicales, publiés sur Hugging Face. Autre projet : un serveur MCP qui accélère le travail des généticiens sur l'analyse des cassures chromosomiques en diagnostic de maladies rares.",
-  "tags": [
-   "recherche",
-   "agents",
-   "société"
-  ],
-  "importance": 2,
-  "source": "r/LocalLLaMA",
-  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaxffx/short_report_from_lithuanian_conference_on_ai/",
-  "date_source": "2026-10-20T16:51:37+00:00",
-  "date_redac": "2026-10-20T17:46:52+00:00",
-  "gen": {
-   "modele": "deepseek-flash",
-   "entree": 848,
-   "sortie": 1349
   }
  },
  {
@@ -166,6 +227,27 @@
  },
  {
   "id": "b8e0fd92d22c4e6b",
+  "slug": "kyutai-decline-pocket-tts-en-modeles-de-1-9m-a-18-2m-de-parametres-pou-b8e0fd",
+  "titre": "Kyutai décline Pocket TTS en modèles de 1,9M à 18,2M de paramètres pour le CPU",
+  "resume": "Kyutai a publié le 20 octobre trois modèles Pocket TTS réduits : 1,9M, 6,9M et 18,2M de paramètres. Ces modèles anglais savent cloner une voix et sont conçus pour tourner sur CPU, avec un sélecteur de taille dans la démo. L'intérêt : garder la synthèse vocale sur le processeur et laisser le GPU au LLM, sans arbitrage supplémentaire de VRAM. À noter que les décomptes incluent le décodeur audio ; l'encodeur qui traite la voix de référence est séparé.",
+  "tags": [
+   "recherche",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaxm11/pocket_tts_small_cpu_voice_cloning_with_models_as/",
+  "date_source": "2026-10-20T16:58:49+00:00",
+  "date_redac": "2026-10-20T17:46:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 811,
+   "sortie": 444
+  }
+ },
+ {
+  "id": "b8e0fd92d22c4e6b",
   "slug": "pocket-tts-kyutai-sort-des-modeles-de-1-9-a-18-2-m-de-parametres-pour--b8e0fd",
   "titre": "Pocket TTS : Kyutai sort des modèles de 1,9 à 18,2 M de paramètres pour le CPU",
   "resume": "Kyutai a publié le 20 octobre trois versions réduites de Pocket TTS : 1,9 M, 6,9 M et 18,2 M de paramètres, avec un sélecteur de taille dans la démo. Ces modèles anglais savent cloner une voix et sont conçus pour tourner sur CPU, ce qui laisse le GPU au modèle de langage. Détail sur les chiffres : ils incluent le décodeur audio ; l'encodeur qui traite la voix de référence est compté à part.",
@@ -183,6 +265,27 @@
    "modele": "deepseek-flash",
    "entree": 811,
    "sortie": 925
+  }
+ },
+ {
+  "id": "04c55e59e65b1b57",
+  "slug": "en-lituanie-un-congres-d-ia-medicale-mise-sur-les-modeles-locaux-04c55e",
+  "titre": "En Lituanie, un congrès d'IA médicale mise sur les modèles locaux",
+  "resume": "Une conférence lituanienne sur l'IA en médecine a présenté des travaux très concrets. La responsable du labo AIML.lt y a détaillé des modèles de décision expérimentaux pour les questions-réponses médicales, publiés sur Hugging Face. Autre projet : un serveur MCP qui accélère le travail des généticiens sur l'analyse des cassures chromosomiques en diagnostic de maladies rares.",
+  "tags": [
+   "recherche",
+   "agents",
+   "société"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaxffx/short_report_from_lithuanian_conference_on_ai/",
+  "date_source": "2026-10-20T16:51:37+00:00",
+  "date_redac": "2026-10-20T17:46:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 848,
+   "sortie": 1349
   }
  },
  {

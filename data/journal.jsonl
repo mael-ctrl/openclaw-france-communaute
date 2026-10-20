@@ -2509,3 +2509,9 @@
 {"ts": "2026-10-20T04:44:23+00:00", "evenement": "deploiement", "details": {"fichiers": 1338, "octets": 25265140}, "sha256": "b493e64df0515cbd0c2e1b4af8d2bd9328d24ca2cfaf0afcfdf2031cc9948a5f"}
 {"ts": "2026-10-20T04:44:23+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "8fc1871fc811dbf85472af28e518760af2d9485139af0c1bcf131c6bf8188e91"}
 {"ts": "2026-10-20T04:44:23+00:00", "evenement": "bilan", "details": {"duree_s": 1554.3, "neufs": 3, "breves": 3, "articles": 1, "fichiers": 1307, "envois": 1338, "publications": 0}, "sha256": "284a5227b7ffe3846ec848cb8d0b984e06b31e9549d0b54c50425fdfed4ca7f0"}
+{"ts": "2026-10-20T05:21:03+00:00", "evenement": "collecte", "details": {"neufs": 2}, "sha256": "8e415b155134c35300552e1c46bbc07fc3646332469340143196083b2e8a8c8c"}
+{"ts": "2026-10-20T05:21:20+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Danfoss : Claroty reproduit avec l'IA l'exploit de failles c) : réponse non-JSON"}, "sha256": "28e145b2da376aa72cb4d161f74ab08dcab14b8d4610b49caac734635dc5d719"}
+{"ts": "2026-10-20T05:21:46+00:00", "evenement": "construction", "details": {"fichiers": 1309}, "sha256": "7382d95437e398652d17d01285c4d211e48dd694ff7c46653925564bb28d384d"}
+{"ts": "2026-10-20T05:40:17+00:00", "evenement": "deploiement", "details": {"fichiers": 1338, "octets": 25192073}, "sha256": "da6f930c46fd3914dd0af734facd8ffe231518cbeec6913670143ea2294276d3"}
+{"ts": "2026-10-20T05:40:17+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "2ab74a1fd605f2cb85965cf2391172a3938df232385b07f9204d155091720cbc"}
+{"ts": "2026-10-20T05:40:17+00:00", "evenement": "bilan", "details": {"duree_s": 1163.3, "neufs": 2, "breves": 1, "articles": 1, "fichiers": 1309, "envois": 1338, "publications": 0}, "sha256": "079ac51b6c72143a8650443625dbca11dea4378301b59477170abb75f4f4d2a2"}

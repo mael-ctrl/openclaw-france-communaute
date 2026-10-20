@@ -21,6 +21,27 @@
   }
  },
  {
+  "id": "9b1c5688ece34397",
+  "slug": "kimi-k3-brille-sur-frontier-code-v1-1-mais-decoit-sur-terminal-bench-v-9b1c56",
+  "titre": "Kimi K3 brille sur Frontier Code v1.1 mais déçoit sur Terminal Bench v4",
+  "resume": "Un internaute de r/LocalLLaMA signale l'existence d'un nouveau benchmark, Frontier Code v1.1, qui mesure l'ingénierie logicielle agentique. Il y observe que Kimi K3 obtient de très bons résultats sur cette évaluation tout en performant mal sur Terminal Bench v4. La question qu'il pose : qu'est-ce qui distingue réellement ces deux benchmarks ?",
+  "tags": [
+   "agents",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xahu9x/terminal_bench_v4_vs_frontier_code_v11/",
+  "date_source": "2026-10-20T03:44:44+00:00",
+  "date_redac": "2026-10-20T05:21:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 664,
+   "sortie": 473
+  }
+ },
+ {
   "id": "d73859b293e83608",
   "slug": "un-service-systeme-fait-tourner-les-moteurs-ia-a-tour-de-role-sur-une--d73859",
   "titre": "Un service système fait tourner les moteurs IA à tour de rôle sur une RTX 4090",

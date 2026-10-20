@@ -1,0 +1,41 @@
+{
+ "slug": "tinkerbox-torchneuron-minimax-le-materiel-reprend-la-main-97d035",
+ "titre": "Tinkerbox, TorchNeuron, MiniMax : le matériel reprend la main",
+ "chapo": "Une app open source qui fait tourner des modèles de décision sur le Neural Engine d'Apple en 40 ms, Amazon qui veut décoller PyTorch de Nvidia, et un contrat de calcul de 45 Md$ en discussion : la semaine rappelle que l'IA se joue autant dans le silicium que dans les poids. Tour d'horizon des quatre dépêches qui comptent.",
+ "html": "<h2 id=\"tinkerbox-decider-plutot-que-generer\">Tinkerbox : décider plutôt que générer</h2>\n<p>Tinkerbox est publié en open source et fait une chose précise : exécuter des modèles de décision sur le Neural Engine d'Apple. Le pilotage passe par des actions Raccourcis — mail entrant, iMessages, fichiers modifiés ou alarmes — sans écrire une ligne de code. L'idée est de brancher un modèle sur des événements du quotidien, pas de tenir une conversation.</p>\n<p>Le choix technique est cohérent : ces modèles évitent le décodage autoregressif token par token, que le Neural Engine gère mal. Résultat chez l'auteur de la dépêche, <strong>LiquidAI d1-3B</strong>, situé sur la frontière de Pareto du Decision Index 0.3.2, tourne à environ <strong>40 ms sur des décisions courtes</strong>, mesuré sur M5 Pro. Un ordre de grandeur qui rend l'usage crédible côté latence.</p>\n<p>La nuance tient au périmètre : on parle de décisions courtes, pas de génération longue. C'est justement le créneau où le Neural Engine reste dans son domaine de compétence.</p>\n<h2 id=\"45-milliards-de-dollars-une-deuxieme-foi\">45 milliards de dollars, une deuxième fois</h2>\n<p>Selon TechCrunch, <strong>Nscale et Anthropic</strong> seraient en discussions pour un nouveau contrat de calcul de <strong>45 milliards de dollars</strong>. Le chiffre frappe d'autant plus que les deux entreprises avaient déjà annoncé, en août, un accord du même montant. Ce second contrat potentiel, de magnitude identique, donne la mesure des moyens engagés sur la puissance de calcul.</p>\n<p>TechCrunch précise la trajectoire : s'il aboutit, ce contrat serait le dernier d'une longue série d'accords de très grande ampleur signés par Anthropic au cours de l'année écoulée. La formulation reste au conditionnel — des discussions, pas une signature.</p>\n<p>À rapprocher de TorchNeuron et de Tinkerbox : à trois niveaux différents de la pile, le calcul devient le facteur limitant, qu'on le négocie en milliards ou qu'on le traque en millisecondes sur un SoC.</p>\n<h2 id=\"torchneuron-amazon-s-attaque-a-l-ecosyst\">TorchNeuron : Amazon s'attaque à l'écosystème Nvidia</h2>\n<p>Amazon lance <strong>TorchNeuron</strong>, un outil de développement qui cible <strong>PyTorch</strong>, le kit gratuit sur lequel se construisent la plupart des applications d'IA. L'objectif énoncé : briser la mainmise de Nvidia sur cet écosystème, pour que davantage de développeurs fassent tourner leurs applications sur des puces alternatives — dont les siennes.</p>\n<p>TechCrunch va plus loin et y voit <strong>l'offensive la plus ambitieuse d'Amazon face à Nvidia</strong>. Le terrain choisi est révélateur : ce n'est pas une puce de plus, c'est la couche logicielle qui décide sur quel matériel tourne le code. Verrouiller PyTorch, c'est verrouiller l'accès aux développeurs.</p>\n<p>Rien n'indique encore de résultat : la dépêche décrit une intention et un positionnement, pas des performances ni une adoption.</p>\n<h2 id=\"space-bunny-sort-du-bois-sous-le-nom-min\">Space Bunny sort du bois sous le nom MiniMax M3.1 Flash</h2>\n<p>Le modèle furtif resté <strong>dix jours en tête d'OpenRouter</strong> avant de disparaître le <strong>5 octobre</strong> réapparaît sous le nom <strong>MiniMax M3.1 Flash</strong>. Sur l'API, la fiche technique annonce <strong>428B de paramètres totaux, 23B actifs, 1M de contexte</strong>, et la prise en charge du texte, de l'image et de la vidéo, à <strong>0,15 $ en entrée et 0,60 $ en sortie</strong>.</p>\n<p>Les poids sont annoncés pour le <strong>23 octobre</strong>. Côté performances, les chiffres sont maison : le modèle devance Opus 5 sur automation-bench, mais reste loin derrière sur terminal bench, avec <strong>38,1 contre 51,8</strong>.</p>\n<p>Le contraste est instructif. Un modèle peut dominer un banc d'automatisation et accuser un net retard dès qu'il s'agit de terminal — deux profils d'usage qui ne se recouvrent pas. Et l'épisode Space Bunny rappelle qu'un classement sur un routeur d'inférence ne dit rien de la nature exacte du modèle qu'on mesure.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches dessinent trois étages d'une même pile. En bas, le silicium et les outils qui décident où le code s'exécute : Tinkerbox sur Neural Engine, TorchNeuron face à Nvidia. Au milieu, les contrats de calcul, dont les montants chez Anthropic se comptent en dizaines de milliards. En haut, les modèles eux-mêmes, avec un MiniMax M3.1 Flash qui arrive sur l'API avant ses poids. Chaque étage avance à son rythme, et aucun ne suffit seul à expliquer ce qui se passe.</p>",
+ "pivot": "97d035911b35a5b0",
+ "tags": [
+  "open-source",
+  "matériel",
+  "business",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa7ytv/i_built_an_app_to_efficiently_run_decision_models/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa3ynv/space_bunny_was_minimax_m31_flash_428ba23b/"
+  }
+ ],
+ "date": "2026-10-20T05:21:32+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1603,
+  "sortie": 2377
+ }
+}

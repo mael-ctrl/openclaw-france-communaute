@@ -1,22 +1,18 @@
 {
- "runs": 274,
- "items_collectes": 2094,
- "breves_publiees": 954,
- "articles_publies": 175,
- "tokens_entree": 966985,
- "tokens_sortie": 1393563,
+ "runs": 275,
+ "items_collectes": 2096,
+ "breves_publiees": 955,
+ "articles_publies": 176,
+ "tokens_entree": 969252,
+ "tokens_sortie": 1396413,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-20T04:19:14+00:00",
+ "dernier_run": "2026-10-20T05:21:32+00:00",
  "solde": {
   "total": "85.26",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-19T05:10:23+00:00",
-   "message": "brève impossible (Don't sleep on Nemotron 3.5 Super VL) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-19T05:10:36+00:00",
    "message": "brève impossible (Calling all GPUs: help us benchmark SonicBoom v0.0.3 — a com) : réponse non-JSON"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-19T18:30:53+00:00",
    "message": "brève impossible (I checked BitNet and Bonsai on CPU against references: bitne) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-20T05:21:20+00:00",
+   "message": "brève impossible (Danfoss : Claroty reproduit avec l'IA l'exploit de failles c) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -1115,6 +1115,10 @@
   ],
   [
    "2026-10-20T04:18:49+00:00",
+   "85.26"
+  ],
+  [
+   "2026-10-20T05:21:04+00:00",
    "85.26"
   ]
  ],

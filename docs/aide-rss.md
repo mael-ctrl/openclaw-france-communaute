@@ -32,4 +32,13 @@ Preuves privées : `crabe-chantiers/croissance/2026-10-20-aide-rss/` (copies, co
 
 ## Production
 
-À compléter après le workflow et la relecture HTTPS. Les recettes locales seules ne prouvent pas le déploiement ; la couverture est celle des pages reconstruites depuis les données conservées, pas de toutes les anciennes URL.
+**Livré et vérifié le 20/10/2026 à 14:44 CEST.**
+
+- Code : **`8719835b8a5b0bae18c127625dff72d2763ede03`** ; trois fichiers poussés puis relus octet pour octet sur `main`.
+- [Run `39420136195`](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/39420136195) réussi : **165 tests Python**, **1 385 fichiers envoyés**, IndexNow 200 ; sauvegarde **`a8c767c1ed45c8ac32479e7cc51952d2a09a2c6b`**, fusion `33eb62a`. L’acceptation IndexNow ne prouve pas l’indexation.
+- **Trois HTML HTTPS complets identiques au rendu des données sauvegardées** : brève récente, article et dernière brève du tableau de données. **Deux flux RSS comparés** au même commit (seul `lastBuildDate` volatile neutralisé) ; `version.txt` identique aux deux bornes.
+- Recette Chromium sans JavaScript rejouée **sur la production** : deux pages × trois largeurs (360/390/1 440 px), souris/Entrée/Espace, adresses et navigation vers le flux articles vérifiées ; captures mobile et desktop relues.
+
+Les données courantes du média ont avancé pendant l’attente ; la comparaison HTTPS utilise le commit de sauvegarde du run, pas les données de la recette locale. Un chantier indépendant du kit Hermes est arrivé sur `main` pendant ce délai : il n’est ni intégré ni revendiqué comme action de cette mission.
+
+La couverture est celle des pages reconstruites depuis les données conservées, pas de toutes les anciennes URL ; les trois pages lues en HTTPS ne constituent pas une relecture exhaustive des HTML distants. Aucun gain d’abonnés, de rétention ou d’audience établi.

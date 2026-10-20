@@ -1,0 +1,41 @@
+{
+ "slug": "ornith-1-5-122b-s-auto-ameliore-seul-pendant-que-bruxelles-e-4da2a6",
+ "titre": "Ornith-1.5-122B s'auto-améliore seul, pendant que Bruxelles encadre les agents",
+ "chapo": "Ornith-ai pousse sa boucle d'auto-amélioration jusqu'à la génération des tâches d'entraînement. Au même moment, la directive (UE) 2024/2853 fait des agents IA des produits à responsabilité, tandis que Pékin et le Pentagone redessinent les contours du contrôle.",
+ "html": "<h2 id=\"la-boucle-ne-s-arrete-plus-au-scaffold\">La boucle ne s'arrête plus au scaffold</h2>\n<p>Ornith-ai publie Ornith-1.5-122B, un dérivé d'Ornith-1.0, lui-même bâti sur Qwen3.5 et Gemma4. Jusqu'ici, la boucle d'auto-amélioration du modèle portait sur les scaffolds et les rollouts : le modèle ajustait la manière de conduire une tâche. Avec la 1.5, elle s'étend à la génération des tâches elles-mêmes.</p>\n<p>Concrètement, Ornith-1.5-122B crée de nouvelles tâches d'entraînement, découvre des stratégies pour les résoudre et progresse par apprentissage par renforcement. Le point notable : plus besoin d'un jeu de tâches humaines figé pour alimenter la boucle. Le corpus d'entraînement devient en partie une production du modèle.</p>\n<p>La recette mérite d'être regardée de près côté open source : la base est constituée de modèles publiés — Qwen3.5, Gemma4 — sur lesquels vient se greffer un entraînement maison. La publication a circulé sur r/LocalLLaMA, où ce type de dérivé se discute à découvert.</p>\n<h2 id=\"bruxelles-l-agent-devient-un-produit\">Bruxelles : l'agent devient un produit</h2>\n<p>Pendant que les modèles apprennent à se donner leurs propres exercices, le droit européen avance sur un autre terrain. La directive (UE) 2024/2853, à transposer au plus tard le 9 décembre 2026, fait du logiciel un produit — SaaS compris.</p>\n<p>Conséquence directe : qui développe ou vend sous sa marque un agent IA devient fabricant. À ce titre, il répond sans faute des lésions, des atteintes psychologiques médicalement reconnues et des destructions de données non professionnelles causées par un défaut.</p>\n<p>Le texte prévoit aussi une trappe temporelle : une mise à jour substantielle de l'agent après cette date fait entrer dans le régime un agent qui existait déjà. Un système dont le comportement évolue par mises à jour successives n'est donc pas figé au regard du texte.</p>\n<h2 id=\"cdi-la-porte-d-entree-se-retrecit\">CDI : la porte d'entrée se rétrécit</h2>\n<p>Une étude signée d'économistes de HEC Paris, de la Banque de France et de l'INSEAD mesure un effet d'un autre ordre. Environ 600 entreprises françaises déclarant un usage intensif de l'IA ont embauché en 2025 de 17 à 25 % de jeunes de 21 à 29 ans en CDI de moins que les autres entreprises de leur secteur.</p>\n<p>L'écart ne se retrouve pas sur l'effectif total : les entreprises concernées n'embauchent pas moins, elles embauchent différemment. Ce sont les premiers postes qui absorbent la différence.</p>\n<p>Les auteurs recommandent de redéfinir ces premiers postes autour de ce que l'IA accomplit mal. Une manière de constater que la formation sur le tas, adossée aux tâches d'exécution junior, ne se loge plus au même endroit dans l'organisation.</p>\n<h2 id=\"controle-deux-regimes-deux-vitesses\">Contrôle : deux régimes, deux vitesses</h2>\n<p>À Pékin, le ministère du Commerce impose depuis le 16 octobre 2026 une déclaration préalable pour exporter 40 technologies, dont 23 en IA. La consultation court jusqu'au 15 novembre. Deux exceptions de taille : l'appel d'un modèle par API et les technologies publiées en open source restent hors champ. En revanche, le déploiement localisé hors de Chine d'un modèle restreint entrera dans le champ une fois le catalogue en vigueur.</p>\n<p>Aux États-Unis, la question se pose en d'autres termes. Selon une enquête de The Intercept publiée le 19 octobre 2026, l'armée américaine veut confier à des agents IA des missions offensives : explorer des réseaux, se propager d'un appareil à l'autre et neutraliser des cibles. Le projet, baptisé ECHOTRIBBLE, est encore en développement et s'appuie sur une « supervision humaine minimale », ce qui soulève des inquiétudes sur le contrôle humain.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches dessinent un même déplacement : l'agent passe du statut d'outil qu'on appelle à celui de système qui produit ses propres tâches, se met à jour et agit. Les cadres suivent à des rythmes distincts — directive européenne à transposer d'ici décembre 2026, catalogue chinois en consultation jusqu'au 15 novembre, projet militaire encore en développement. L'écart entre la vitesse des boucles d'amélioration et celle des textes qui les encadrent est, en soi, la donnée la plus concrète du moment.</p>",
+ "pivot": "4da2a6a8d0900e9d",
+ "tags": [
+  "open-source",
+  "agents",
+  "sécurité",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xatebw/ornithaiornith15122b_qwen_finetune/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/les-entreprises-les-plus-converties-a-lia-embauchent-jusqua-25-de-jeunes-en-cdi-en-moins/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2356515-supervision-humaine-minimale-larmee-americaine-veut-envoyer-des-agents-ia-pirater-ses-ennemis.html"
+  }
+ ],
+ "date": "2026-10-20T16:12:57+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1662,
+  "sortie": 3524
+ }
+}

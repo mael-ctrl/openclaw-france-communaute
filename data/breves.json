@@ -1,5 +1,131 @@
 [
  {
+  "id": "ff614b7e478769ae",
+  "slug": "hugging-face-met-en-avant-torchtpu-et-le-support-natif-des-tpu-ff614b",
+  "titre": "Hugging Face met en avant TorchTPU et le support natif des TPU",
+  "resume": "Dans un billet publié sur son blog, Hugging Face met en avant TorchTPU, avec un titre explicite : « TPUs, Natively ». Le billet porte sur le support natif des TPU dans cet écosystème. Il est en ligne sur le blog de la plateforme.",
+  "tags": [
+   "dev",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "Hugging Face",
+  "lien_source": "https://huggingface.co/blog/hf-torchtpu",
+  "date_source": null,
+  "date_redac": "2026-10-20T16:12:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 585,
+   "sortie": 1245
+  }
+ },
+ {
+  "id": "acd4ff22e2aacb5b",
+  "slug": "altk-evolve-en-tete-du-2-bench-service-client-sans-modele-frontiere-acd4ff",
+  "titre": "ALTK-Evolve en tête du τ²-bench service client, sans modèle frontière",
+  "resume": "ALTK-Evolve, présenté sur le blog Hugging Face d'IBM Research, prend la première place du classement τ²-bench sur les tâches de service client. Sa particularité : une mémoire apprise qui lui suffit, sans recourir à un modèle frontière. Le résultat montre qu'une architecture bien pensée peut devancer les gros modèles sur un domaine précis.",
+  "tags": [
+   "agents",
+   "recherche",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Hugging Face",
+  "lien_source": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+  "date_source": null,
+  "date_redac": "2026-10-20T16:12:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 601,
+   "sortie": 589
+  }
+ },
+ {
+  "id": "f4b1ade5f2e304ce",
+  "slug": "fairstress-une-evaluation-plus-fine-de-l-equite-des-decisions-des-llm-f4b1ad",
+  "titre": "FairStress, une évaluation plus fine de l'équité des décisions des LLM",
+  "resume": "Hugging Face relaie FairStress, une évaluation de l'équité dans les décisions prises par les grands modèles de langage. L'angle annoncé : aller plus loin dans la mesure de ce critère, là où les évaluations existantes restent sans doute trop superficielles. Le sujet pèse dès que ces modèles servent à arbitrer des situations réelles.",
+  "tags": [
+   "recherche",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Hugging Face",
+  "lien_source": "https://huggingface.co/blog/allenai/fairstress",
+  "date_source": null,
+  "date_redac": "2026-10-20T16:12:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 583,
+   "sortie": 782
+  }
+ },
+ {
+  "id": "a95943367961dcd6",
+  "slug": "phonon-gradium-publie-deux-modeles-tts-open-source-de-31m-et-40m-param-a95943",
+  "titre": "Phonon : Gradium publie deux modèles TTS open-source de 31M et 40M paramètres",
+  "resume": "Gradium publie Phonon, sa première sortie open-source : une famille de petits modèles de synthèse vocale (31M et 40M de paramètres) pensés pour tourner directement sur l'appareil. La pile d'inférence est elle aussi ouverte et cible plus de dix backends — CPU, GPU, NPU —, majoritairement écrits en Rust. Modèles et code sont sur Hugging Face, et les retours de la communauté sont attendus.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaw2vt/phonon_is_now_opensource_31m_and_40m_tts_models/",
+  "date_source": "2026-10-20T16:01:49+00:00",
+  "date_redac": "2026-10-20T16:12:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 743,
+   "sortie": 861
+  }
+ },
+ {
+  "id": "00c0bbbfeb3aeb37",
+  "slug": "quatre-intel-arc-pro-b65-testees-en-contexte-long-par-un-membre-de-r-l-00c0bb",
+  "titre": "Quatre Intel Arc Pro B65 testées en contexte long par un membre de r/LocalLLaMA",
+  "resume": "Faute de benchmarks sur l'Intel Arc Pro B65, un membre de r/LocalLLaMA a monté une machine avec quatre de ces cartes pour mesurer le débit réel en contexte long. Les tests portent sur les modèles les plus populaires, dont Flash-Next et Qwen3.8, avec des relevés en tokens par seconde, de C1 à C16. Il commence aussi des essais d'offload d'une partie des couches en RAM système, pour l'instant avec Flash-Next.",
+  "tags": [
+   "matériel",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xavy8t/hardly_any_benchmarks_for_intel_b65_so_i_got_4x/",
+  "date_source": "2026-10-20T15:57:27+00:00",
+  "date_redac": "2026-10-20T16:12:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 853,
+   "sortie": 1240
+  }
+ },
+ {
+  "id": "c2bea03e4be792e8",
+  "slug": "hermes-agent-publie-sa-release-candidate-rc-1-v0-22-3-c2bea0",
+  "titre": "Hermes Agent publie sa release candidate rc.1-v0.22.3",
+  "resume": "NousResearch a publié sur GitHub la release candidate rc.1-v0.22.3 de Hermes Agent. L'extrait transmis ne contient que des métadonnées de publication : tentative numéro 1, autopublish désactivé, horodatage claimEpoch et début d'empreinte de commit. Aucune note de version ni liste de changements n'y figure. Par convention, ce type de version précède la publication stable.",
+  "tags": [
+   "hermes",
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.1-v0.22.3",
+  "date_source": "2026-10-20T15:46:09+00:00",
+  "date_redac": "2026-10-20T16:12:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 1199
+  }
+ },
+ {
   "id": "000c7f1bf822fca2",
   "slug": "pocket-tts-un-modele-de-clonage-vocal-a-1-9-million-de-parametres-000c7f",
   "titre": "Pocket TTS : un modèle de clonage vocal à 1,9 million de paramètres",

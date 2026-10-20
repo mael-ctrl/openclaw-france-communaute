@@ -1,5 +1,86 @@
 [
  {
+  "id": "98030d2e4ee5eb54",
+  "slug": "claude-code-la-fenetre-de-5-heures-du-plan-pro-a-20-pose-question-98030d",
+  "titre": "Claude Code : la fenêtre de 5 heures du plan Pro à 20 $ pose question",
+  "resume": "Un utilisateur récent de Claude Code, sur le plan Pro à 20 $, juge le quota hebdomadaire suffisant mais la fenêtre de 5 heures trop serrée sur les gros projets. Après un reset à 0 %, un /compact lancé sur suggestion du modèle a fait grimper sa consommation à 11 % en quelques secondes, sans travail produit. Après une interruption, demander à Claude de reprendre sa tâche a fait bondir le compteur de 0 % à environ 40 % d'un coup.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xakl7o/how_do_you_guys_manage_the_5hour_limit_on_pro/",
+  "date_source": "2026-10-20T06:21:10+00:00",
+  "date_redac": "2026-10-20T06:56:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 803,
+   "sortie": 1369
+  }
+ },
+ {
+  "id": "f32aa16931b11e75",
+  "slug": "synchroniser-un-projet-de-40-a-50-go-entre-deux-machines-pour-claude-f32aa1",
+  "titre": "Synchroniser un projet de 40 à 50 Go entre deux machines pour Claude",
+  "resume": "Sur le subreddit r/ClaudeAI, un utilisateur demande comment synchroniser un même projet entre deux machines pour travailler avec Claude. Il rappelle que GitHub suffit pour les petits projets, mais s'interroge sur les gros volumes, de l'ordre de 40 à 50 Go. La question porte sur la méthode optimale pour retrouver le même projet depuis plusieurs ordinateurs.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xak6yi/best_way_to_sync_project_on_two_machines_for/",
+  "date_source": "2026-10-20T05:57:38+00:00",
+  "date_redac": "2026-10-20T06:56:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 659,
+   "sortie": 383
+  }
+ },
+ {
+  "id": "bd3d8e0dd945eecd",
+  "slug": "claude-desktop-ne-signale-plus-les-mises-a-jour-disponibles-bd3d8e",
+  "titre": "Claude Desktop ne signale plus les mises à jour disponibles",
+  "resume": "Un utilisateur de Claude Desktop rapporte que l'application n'affiche plus de notification lorsqu'une nouvelle version est disponible. Il garde l'app ouverte en permanence sur son Mac et ne sait donc plus quand une mise à jour attend d'être installée. Les refontes récentes de l'interface rendent le problème plus gênant : après un redémarrage, des contrôles ont bougé ou disparu sans prévenir. Il demande simplement à être informé et à garder la main sur le moment de l'installation.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xak0tb/claude_desktop_no_longer_tells_me_when_an_update/",
+  "date_source": "2026-10-20T05:47:17+00:00",
+  "date_redac": "2026-10-20T06:56:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 796,
+   "sortie": 154
+  }
+ },
+ {
+  "id": "8b988aa233be797d",
+  "slug": "split-par-couches-sur-deux-r9700-des-cartes-a-moins-de-50-de-charge-et-8b988a",
+  "titre": "Split par couches sur deux R9700 : des cartes à moins de 50 % de charge et silencieuses",
+  "resume": "Un utilisateur de r/LocalLLaMA a remplacé la 9060XT de son poste Debian par deux R9700. En répartissant un modèle par couches sur les deux cartes, il observe un effet secondaire bienvenu : en usage mono-tâche, la charge GPU de chaque carte tombe sous les 50 %, et les ventilateurs restent discrets. Une observation matérielle utile pour qui veut faire tourner de gros modèles sans bruit.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaj4y5/2x_r9700_layer_split_side_effect/",
+  "date_source": "2026-10-20T04:55:01+00:00",
+  "date_redac": "2026-10-20T06:56:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 840
+  }
+ },
+ {
   "id": "db5dbf807431366b",
   "slug": "microsoft-lance-le-projet-perception-des-agents-ia-pour-securiser-les--db5dbf",
   "titre": "Microsoft lance le projet Perception, des agents IA pour sécuriser les agents IA",
@@ -18,6 +99,28 @@
    "modele": "deepseek-flash",
    "entree": 736,
    "sortie": 124
+  }
+ },
+ {
+  "id": "27aea2147a21fb6a",
+  "slug": "claude-gemini-et-gpt-testes-sur-runescape-trop-de-lecture-nuit-27aea2",
+  "titre": "Claude, Gemini et GPT testés sur RuneScape : trop de lecture nuit",
+  "resume": "Un post Reddit relaie un benchmark humoristique qui place des modèles dans une compétition d'XP sur RuneScape, wiki à disposition. Résultat : certains passent tant de temps à lire la documentation et à planifier que leurs performances en pâtissent. Gemini se fait démonter par des géants des glaces dans la wilderness en voulant miner, GPT fait du forgeage par rafales de clics, et Claude, fidèle à lui-même, sur-analyse et relit plusieurs fois les wikis.",
+  "tags": [
+   "claude",
+   "gemini",
+   "chatgpt",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xai0mf/claude_is_an_overthinking_gamer_lessons_from/",
+  "date_source": "2026-10-20T03:53:50+00:00",
+  "date_redac": "2026-10-20T06:56:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 787,
+   "sortie": 164
   }
  },
  {
@@ -60,6 +163,26 @@
    "modele": "deepseek-flash",
    "entree": 816,
    "sortie": 808
+  }
+ },
+ {
+  "id": "e242a1e029c78e73",
+  "slug": "un-utilisateur-de-claude-demande-comment-retirer-un-element-genant-e242a1",
+  "titre": "Un utilisateur de Claude demande comment retirer un élément gênant",
+  "resume": "Sur le subreddit r/ClaudeAI, un utilisateur demande comment supprimer un élément qu'il juge insupportable. Son message se limite à « bro i cant concentrate anymore » : il n'arrive plus à se concentrer. L'extrait ne précise ni la nature de l'élément en cause, ni le contexte d'utilisation.",
+  "tags": [
+   "claude",
+   "société"
+  ],
+  "importance": 1,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xahbyp/how_to_remove_this_fucking_annoying_shit/",
+  "date_source": "2026-10-20T03:17:52+00:00",
+  "date_redac": "2026-10-20T06:56:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 615,
+   "sortie": 836
   }
  },
  {

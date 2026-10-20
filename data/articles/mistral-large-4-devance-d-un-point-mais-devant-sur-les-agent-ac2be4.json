@@ -1,0 +1,41 @@
+{
+ "slug": "mistral-large-4-devance-d-un-point-mais-devant-sur-les-agent-ac2be4",
+ "titre": "Mistral Large 4 devancé d'un point, mais devant sur les agents",
+ "chapo": "Sur l'indice d'Artificial Analysis au 19 octobre 2026, l'aperçu de Mistral Large 4 cède un point à Muse Spark Open, le modèle de Meta : 38 contre 39. Mais Mistral l'emporte sur cinq des dix épreuves, dont Terminal-Bench et AutomationBench, les deux plus proches du travail d'agent.",
+ "html": "<h2 id=\"un-point-d-indice-cinq-epreuves-gagnees\">Un point d'indice, cinq épreuves gagnées</h2>\n<p>Muse Spark Open obtient 39 sur l'indice d'Artificial Analysis au 19 octobre 2026, un point devant l'aperçu de Mistral Large 4, crédité de 38. Une courte tête, donc, qui place le modèle de Meta en tête du classement.</p>\n<p>La moyenne masque pourtant deux profils distincts. Mistral Large 4 gagne cinq épreuves sur dix, et pas les plus tendres : Terminal-Bench, où il atteint 27 % contre 8 % pour Muse Spark Open, et AutomationBench, 60 % contre 50 %. Deux épreuves qui mesurent la capacité d'un modèle à enchaîner des actions dans un environnement, pas à rédiger une réponse.</p>\n<p>Le coût d'exécution de l'indice ajoute une variable : 1 607 dollars pour Large 4, 1 183 pour Muse Spark Open, au tarif de lancement. Le mieux noté est ici aussi le moins cher à faire tourner.</p>\n<h2 id=\"24-go-contre-38-000-dollars-de-machines\">24 Go contre 38 000 dollars de machines</h2>\n<p>En 72 heures, quatre gros modèles à poids ouverts sont sortis, relève r/LocalLLaMA. Muse Spark Open aligne 816 milliards de paramètres, 42 milliards actifs et un contexte d'un million de tokens. Mais son usage « desktop » suppose deux Mac Studio M5 Ultra de 512 Go, ou quatre de 256 Go, pour environ 38 000 dollars.</p>\n<p>NVIDIA répond avec Nemotron 3.5 Bolt : 74 milliards de paramètres au total, 9 milliards actifs, quantifié jusqu'en 2 bits pour tenir dans 24 Go. Un autre rapport à la machine, où le modèle s'installe au lieu de se louer.</p>\n<p>Le fondeur mise plus largement sur les modèles ouverts : il en lance de nouveaux pour exécuter des agents en entreprise, et pousse l'agent local, privé, fonctionnant directement sur le PC. Son pari : les entreprises veulent faire tourner leurs propres modèles dans leurs propres centres de données.</p>\n<h2 id=\"securiser-les-agents-avec-des-agents\">Sécuriser les agents avec des agents</h2>\n<p>Microsoft a dévoilé le 19 octobre au soir le projet Perception. Le principe : mettre à disposition des entreprises une équipe d'agents IA spécialisés dans la sécurité, avec pour objectif d'automatiser la simulation, la détection et la remédiation des attaques visant les agents autonomes.</p>\n<p>Le contexte est posé sans détour : l'essor des agents d'IA expose les systèmes d'information à des risques accrus. La réponse tient donc dans le même outillage — des agents pour surveiller des agents, et une défense automatisée du même ordre que les usages qu'elle couvre.</p>\n<h2 id=\"chatgpt-sort-du-chat-et-remplit-des-form\">ChatGPT sort du chat et remplit des formulaires</h2>\n<p>Chez OpenAI, le déplacement se joue dans la fenêtre du navigateur. ChatGPT déploie plusieurs fonctionnalités pour Google Chrome : au-delà de la réponse, le modèle doit pouvoir réaliser des actions dans le navigateur, comme remplir des formulaires.</p>\n<p>L'annonce intervient après l'abandon, par OpenAI, de son propre navigateur. Le terrain n'est plus à construire : il est déjà occupé, et l'agent s'y installe.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches du 19 octobre dessinent un même déplacement : le modèle n'est plus seulement jugé sur sa réponse, mais sur ce qu'il exécute. Les épreuves qui séparent Mistral Large 4 de Muse Spark Open sont des épreuves d'action ; Microsoft sécurise des agents ; ChatGPT remplit des formulaires ; NVIDIA veut faire tourner l'agent sur le PC. Restent deux variables que personne n'enterre : le coût — 1 607 dollars contre 1 183 pour exécuter un indice, jusqu'à 38 000 dollars de machines pour un usage desktop — et la surface d'attaque, qui grandit avec chaque agent déployé.</p>",
+ "pivot": "ac2be4654efd75fd",
+ "tags": [
+  "mistral",
+  "meta",
+  "agents",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/mistral-large-4-devance-dun-point-par-muse-spark-open-mais-devant-lui-sur-les-epreuves-dagent/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/cybersecurite/microsoft-devoile-le-projet-perception-pour-automatiser-la-simulation-detection-et-remediation-des-attaques-dagents-ia-autonomes-a-laide-dagents-ia.326XC6WR3JBBZPWJEPUC3I7KUU.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/19/chatgpt-peut-desormais-controler-google-chrome-pour-travailler-a-votre-place/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x9d23j/72_hours_four_big_open_weights_drops_the_only_one/"
+  }
+ ],
+ "date": "2026-10-20T06:56:44+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1569,
+  "sortie": 3823
+ }
+}

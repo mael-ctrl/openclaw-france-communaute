@@ -1,5 +1,130 @@
 [
  {
+  "id": "4683b0bf9f040f8f",
+  "slug": "otter-ai-leve-320-millions-de-dollars-aupres-du-fonds-de-general-catal-4683b0",
+  "titre": "Otter.ai lève 320 millions de dollars auprès du fonds de General Catalyst",
+  "resume": "Otter.ai, l'outil de prise de notes de réunion, a annoncé mardi avoir levé 320 millions de dollars auprès du Customer Value Fund de General Catalyst. Ce fonds apporte du capital sans diluer celui des startups et se rémunère sur les résultats de leurs dépenses marketing. Otter.ai veut utiliser ces fonds pour sa croissance en entreprise, son go-to-market, son expansion internationale et l'innovation produit.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+  "date_source": null,
+  "date_redac": "2026-10-20T11:02:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 673,
+   "sortie": 688
+  }
+ },
+ {
+  "id": "301615881463192c",
+  "slug": "amazon-brade-le-radiateur-connecte-dreo-de-2-000-w-a-129-99-301615",
+  "titre": "Amazon brade le radiateur connecté Dreo de 2 000 W à 129,99 €",
+  "resume": "Les températures baissent et les radiateurs d'appoint ressortent des placards, parfois avec la mauvaise surprise qu'ils ne fonctionnent plus. Amazon propose le radiateur à convection connecté de Dreo, un modèle de 2 000 W qui chauffe sans ventilateur, à 129,99 € au lieu de 149,99 €.",
+  "tags": [
+   "matériel",
+   "société"
+  ],
+  "importance": 1,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2356517-amazon-baisse-le-prix-de-ce-radiateur-connecte-dreo-de-2000-w-au-bon-moment.html",
+  "date_source": null,
+  "date_redac": "2026-10-20T11:02:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 691,
+   "sortie": 420
+  }
+ },
+ {
+  "id": "84890404f9594595",
+  "slug": "pekin-restreint-l-export-de-23-technologies-d-ia-epargne-les-api-de-de-848904",
+  "titre": "Pékin restreint l'export de 23 technologies d'IA, épargne les API de DeepSeek et Qwen",
+  "resume": "Depuis le 16 octobre 2026, Pékin impose une déclaration préalable pour exporter 40 technologies, dont 23 en IA, en consultation jusqu'au 15 novembre. Le ministère du Commerce indique que l'appel d'un modèle par API et les technologies publiées en open source restent hors champ. Le déploiement localisé hors de Chine d'un modèle restreint entrera dans le champ une fois le catalogue en vigueur.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "sécurité",
+   "business"
+  ],
+  "importance": 4,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/",
+  "date_source": null,
+  "date_redac": "2026-10-20T11:02:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 832,
+   "sortie": 1087
+  }
+ },
+ {
+  "id": "1ab8470f6b5996cf",
+  "slug": "vals-ai-deepseek-v4-1-flash-1017-devance-gpt-6-sol-en-cybersecurite-of-1ab847",
+  "titre": "Vals AI : DeepSeek V4.1 Flash 1017 devance GPT 6 Sol en cybersécurité offensive",
+  "resume": "Selon Vals AI, DeepSeek V4.1 Flash 1017 devance GPT 6 Sol sur son évaluation de cybersécurité offensive à plusieurs étapes. GPT 6 Sol a été testé via le programme d'accès de confiance Daybreak, précise Vals AI sur X, relayé sur r/LocalLLaMA. Le résultat place un modèle DeepSeek devant un concurrent direct sur une tâche offensive.",
+  "tags": [
+   "deepseek",
+   "sécurité",
+   "openai"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xap2aq/vals_ai_found_deepseek_v41_flash_1017_beats_gpt_6/",
+  "date_source": "2026-10-20T10:59:16+00:00",
+  "date_redac": "2026-10-20T11:02:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 673,
+   "sortie": 991
+  }
+ },
+ {
+  "id": "3e11909b1c965814",
+  "slug": "qwen3-8-flash-next-plus-d-echecs-d-appel-d-outils-que-le-27b-3e1190",
+  "titre": "Qwen3.8-Flash-Next : plus d'échecs d'appel d'outils que le 27B",
+  "resume": "Un utilisateur de r/LocalLLaMA compare deux Qwen3.8 sur le même harnais OpenCode. Avec Swift-1.5-Qwen3.8-27B en NVFP4 sur le moteur NInfer, il ne voyait presque aucun échec d'appel d'outils. Passé à Swift-1.5-Qwen3.8-Flash-Next en quantification IQ3_S sur Basalt, il enchaîne jusqu'à quatre ou cinq appels ratés avant d'obtenir le bon résultat. Il ne sait pas si la cause est la quantification, le modèle ou le moteur.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaos52/qwen38flashnext_vs_qwen3827b_tool_calling_issues/",
+  "date_source": "2026-10-20T10:43:08+00:00",
+  "date_redac": "2026-10-20T11:02:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 855,
+   "sortie": 1275
+  }
+ },
+ {
+  "id": "fb3d9b34a70133da",
+  "slug": "qwen3-8-27b-un-prefiller-nvfp4-pour-rattraper-les-quants-bas-fb3d9b",
+  "titre": "Qwen3.8-27B : un prefiller NVFP4 pour rattraper les quants bas",
+  "resume": "ISTA-DASLab publie un modèle « prefiller » pour Qwen3.8-27B en NVFP4 : il récupère la précision perdue par les quants bas tout en gardant une faible consommation de VRAM et un décodage rapide. Au-delà d'un contexte d'environ 4k, aucune pénalité de vitesse par rapport à une exécution sans prefiller, selon la démo. L'ensemble exige un GPU Nvidia Blackwell ; l'auteur du post ne l'a donc pas testé.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xao7kx/improve_qwen3827b_low_quants_by_using_a_prefiller/",
+  "date_source": "2026-10-20T10:09:47+00:00",
+  "date_redac": "2026-10-20T11:02:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 734,
+   "sortie": 806
+  }
+ },
+ {
   "id": "892ed9fb0ff0b49e",
   "slug": "les-tv-samsung-et-lg-debridees-a-l-aide-de-l-ia-non-sans-risques-892ed9",
   "titre": "Les TV Samsung et LG débridées à l'aide de l'IA, non sans risques",

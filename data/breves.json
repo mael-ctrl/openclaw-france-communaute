@@ -105,9 +105,9 @@
  },
  {
   "id": "3bb2b2a35ab28c0a",
-  "slug": "elon-musk-dit-avoir-un-peu-de-cyberpsychose-ce-que-ca-recouvre-3bb2b2",
-  "titre": "Elon Musk dit avoir « un peu de cyberpsychose » : ce que ça recouvre",
-  "resume": "Lors d'un événement organisé par des fans de Tesla, Elon Musk a confié avoir « un peu de cyberpsychose » et avoir vécu plusieurs « psychoses IA » cette année. L'expression est devenue à la mode dans la Silicon Valley, mais elle recouvre pour les psychiatres des cas bien réels, qu'ils commencent tout juste à documenter.",
+  "slug": "elon-musk-dit-avoir-un-peu-de-cyberpsychose-apres-plusieurs-psychoses--3bb2b2",
+  "titre": "Elon Musk dit avoir « un peu de cyberpsychose » après plusieurs « psychoses IA »",
+  "resume": "Lors d'un événement organisé par des fans de Tesla, Elon Musk a confié avoir « un peu de cyberpsychose » et avoir vécu plusieurs « psychoses IA » cette année. L'expression, devenue à la mode dans la Silicon Valley, recouvre selon les psychiatres des cas bien réels, qu'ils commencent tout juste à documenter.",
   "tags": [
    "société",
    "recherche"
@@ -116,18 +116,18 @@
   "source": "01net",
   "lien_source": "https://www.01net.com/actualites/jai-un-peu-de-cyberpsychose-ce-que-cache-letrange-confidence-delon-musk.html",
   "date_source": null,
-  "date_redac": "2026-10-20T16:37:54+00:00",
+  "date_redac": "2026-10-20T17:11:55+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 683,
-   "sortie": 492
+   "sortie": 389
   }
  },
  {
   "id": "5958e905fd0787dd",
-  "slug": "electric-plant-mise-sur-l-ia-pour-decoder-le-langage-electrique-des-pl-5958e9",
-  "titre": "Electric Plant mise sur l'IA pour décoder le langage électrique des plantes",
-  "resume": "La startup Electric Plant a mis au point un traducteur dopé à l'IA pour décoder les signaux électriques qui circulent dans les tiges des plantes. L'objectif : permettre aux humains d'écouter ce que ces signaux véhiculent. Le point de départ du projet : les plantes « parlent » via l'électricité, une langue qui reste aujourd'hui inaudible pour nous.",
+  "slug": "electric-plant-veut-decoder-l-electricite-des-plantes-avec-l-ia-5958e9",
+  "titre": "Electric Plant veut décoder l'électricité des plantes avec l'IA",
+  "resume": "La startup Electric Plant a construit un traducteur fondé sur l'IA pour aider les humains à écouter ce que disent les plantes, rapporte TechCrunch. Le canal de ce langage : la fine électricité qui parcourt leurs tiges. Le modèle doit donc décoder un signal discret pour le rendre lisible côté humain.",
   "tags": [
    "recherche",
    "société",
@@ -137,11 +137,73 @@
   "source": "TechCrunch IA",
   "lien_source": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
   "date_source": null,
-  "date_redac": "2026-10-20T16:37:51+00:00",
+  "date_redac": "2026-10-20T17:11:52+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 624,
-   "sortie": 544
+   "sortie": 620
+  }
+ },
+ {
+  "id": "9df41856b9dd82f3",
+  "slug": "whatsapp-une-consigne-cachee-pour-ia-interdisait-de-citer-le-regulateu-9df418",
+  "titre": "WhatsApp : une consigne cachée pour IA interdisait de citer le régulateur",
+  "resume": "Redact a repéré 102 blocs de texte invisibles destinés à une IA dans 80 des 545 pages d'aide de WhatsApp. L'une de ces consignes interdisait de recommander une autorité de protection des données. WhatsApp évoque les instructions de son chatbot de support, publiées par un bug. Sa politique de confidentialité européenne renvoie pourtant vers la DPC irlandaise, que l'article 13 du RGPD impose de mentionner.",
+  "tags": [
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/pages-daide-de-whatsapp-une-consigne-cachee-interdisait-de-recommander-un-regulateur/",
+  "date_source": null,
+  "date_redac": "2026-10-20T17:11:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 782,
+   "sortie": 774
+  }
+ },
+ {
+  "id": "b8e0fd92d22c4e6b",
+  "slug": "pocket-tts-kyutai-sort-des-modeles-de-1-9-a-18-2-m-de-parametres-pour--b8e0fd",
+  "titre": "Pocket TTS : Kyutai sort des modèles de 1,9 à 18,2 M de paramètres pour le CPU",
+  "resume": "Kyutai a publié le 20 octobre trois versions réduites de Pocket TTS : 1,9 M, 6,9 M et 18,2 M de paramètres, avec un sélecteur de taille dans la démo. Ces modèles anglais savent cloner une voix et sont conçus pour tourner sur CPU, ce qui laisse le GPU au modèle de langage. Détail sur les chiffres : ils incluent le décodeur audio ; l'encodeur qui traite la voix de référence est compté à part.",
+  "tags": [
+   "dev",
+   "matériel",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaxm11/pocket_tts_small_cpu_voice_cloning_with_models_as/",
+  "date_source": "2026-10-20T16:58:49+00:00",
+  "date_redac": "2026-10-20T17:11:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 811,
+   "sortie": 925
+  }
+ },
+ {
+  "id": "04c55e59e65b1b57",
+  "slug": "en-lituanie-l-ia-medicale-s-appuie-sur-des-modeles-locaux-et-un-serveu-04c55e",
+  "titre": "En Lituanie, l'IA médicale s'appuie sur des modèles locaux et un serveur MCP",
+  "resume": "Une conférence en Lituanie sur l'IA en médecine a présenté des modèles expérimentaux de questions-réponses médicales, Laya multilingual LT-med et Qwen3.5-4B-LT-med, publiés sur Hugging Face par le laboratoire AIML.lt. Autre projet montré : un serveur MCP pour accélérer le travail des généticiens sur l'interprétation des cassures chromosomiques en diagnostic des maladies rares. Des modèles locaux servent aussi à traduire de gros corpus médicaux en lituanien.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaxffx/short_report_from_lithuanian_conference_on_ai/",
+  "date_source": "2026-10-20T16:51:37+00:00",
+  "date_redac": "2026-10-20T17:11:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 818,
+   "sortie": 815
   }
  },
  {
@@ -208,22 +270,22 @@
  },
  {
   "id": "3a3654273ee287f7",
-  "slug": "mimo-2-6-en-boucle-sur-hmm-dans-ses-traces-de-raisonnement-3a3654",
-  "titre": "MiMo 2.6 en boucle sur « hmm » dans ses traces de raisonnement",
-  "resume": "Sur r/LocalLLaMA, un utilisateur remarque que « hmm » est devenu le mot favori de MiMo 2.6 dans ses traces de raisonnement, répété à presque chaque phrase. Le modèle y explore un détail d'Android — un marqueur dans un parcel AIDL, entre writeInt32(1), présence de parcelable et taille d'enveloppe — en accumulant les hypothèses et en revenant sur ses propres pistes. Un aperçu de ce à quoi ressemble un raisonnement qui tourne en rond.",
+  "slug": "mimo-2-6-ponctue-ses-raisonnements-de-hmm-a-repetition-3a3654",
+  "titre": "MiMo 2.6 ponctue ses raisonnements de « hmm » à répétition",
+  "resume": "Sur r/LocalLLaMA, un utilisateur remarque que les traces de raisonnement de MiMo 2.6 sont saturées d'un même tic de langage : « hmm ». L'extrait partagé montre le modèle hésiter à voix haute sur un détail technique Android — un marqueur de présence parcelable pour le paramètre MQDescriptor — en enchaînant les « Hmm » et les hypothèses. Le fil illustre à quoi ressemblent ces raisonnements : verbeux et tâtonnants.",
   "tags": [
-   "dev",
-   "open-source"
+   "recherche",
+   "dev"
   ],
   "importance": 2,
   "source": "r/LocalLLaMA",
   "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xawa17/mimo_26_is_reasoning_is_like_the_crash_test/",
   "date_source": "2026-10-20T16:08:49+00:00",
-  "date_redac": "2026-10-20T16:37:47+00:00",
+  "date_redac": "2026-10-20T17:11:44+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 878,
-   "sortie": 1114
+   "sortie": 963
   }
  },
  {

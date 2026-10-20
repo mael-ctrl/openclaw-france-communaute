@@ -1,5 +1,66 @@
 [
  {
+  "id": "e5e6342ac5ade646",
+  "slug": "sf-compute-du-trading-de-gpu-au-datacenter-programmable-e5e634",
+  "titre": "SF Compute : du trading de GPU au datacenter programmable",
+  "resume": "Dans un épisode de Latent Space, Evan Conrad, de SF Compute, développe la notion de « datacenter programmable ». La discussion part du trading de GPU pour aller vers le règlement physique (« physical settlement »), les marchés indépendants et le calcul programmable. Un angle marché sur l'accès au calcul, qui concerne directement ceux qui entraînent ou hébergent des modèles.",
+  "tags": [
+   "business",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "Latent Space",
+  "lien_source": "https://www.latent.space/p/sfcompute2",
+  "date_source": null,
+  "date_redac": "2026-10-20T19:49:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 579,
+   "sortie": 552
+  }
+ },
+ {
+  "id": "87922ea196cd3c31",
+  "slug": "battle-drones-un-rts-vibe-code-avec-du-multijoueur-par-le-son-87922e",
+  "titre": "Battle Drones : un RTS « vibe codé » avec du multijoueur par le son",
+  "resume": "Simon Willison présente Battle Drones, un jeu de stratégie en temps réel inspiré de Command & Conquer, pensé pour être joué sur téléphone. Il raconte avoir obtenu un jeu réellement amusant en demandant à Claude de le rendre « beaucoup plus fun ». La version 12 ajoute un multijoueur entre appareils proches qui synchronise l'état du jeu par le son. Le billet détaille les étapes du prototype, des sprites aux cartes aléatoires.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/20/battledrones/",
+  "date_source": "2026-10-20T19:34:19+00:00",
+  "date_redac": "2026-10-20T19:49:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 797,
+   "sortie": 333
+  }
+ },
+ {
+  "id": "1c167985bff3d87b",
+  "slug": "spark-x2-6-4b-un-modele-compact-pour-l-ia-embarquee-a-architecture-inc-1c1679",
+  "titre": "Spark-X2.6-4B : un modèle compact pour l'IA embarquée, à architecture inchangée",
+  "resume": "Un peu plus d'un mois après Spark-X2.5, XHToken publie Spark-X2.6-4B, un modèle compact généraliste pensé pour le déploiement sur appareil, avec des poids GGUF sur Hugging Face. L'architecture reste identique à celle du X2.5-4B : les gains viennent du post-entraînement, avec des progrès annoncés en code, raisonnement, contexte long, multilingue et workflows agentiques avec outils.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xb0nr9/xhtokensparkx264b_hugging_face/",
+  "date_source": "2026-10-20T18:50:53+00:00",
+  "date_redac": "2026-10-20T19:49:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 804,
+   "sortie": 769
+  }
+ },
+ {
   "id": "76791c7060c74d13",
   "slug": "nvidia-presente-cosmos3-h-dreams-la-simulation-generative-au-service-d-76791c",
   "titre": "NVIDIA présente Cosmos3-H-Dreams, la simulation générative au service de la chirurgie",

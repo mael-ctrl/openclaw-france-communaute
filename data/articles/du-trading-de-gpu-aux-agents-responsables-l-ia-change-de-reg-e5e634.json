@@ -1,0 +1,41 @@
+{
+ "slug": "du-trading-de-gpu-aux-agents-responsables-l-ia-change-de-reg-e5e634",
+ "titre": "Du trading de GPU aux agents responsables : l'IA change de régime",
+ "chapo": "Le calcul devient un marché, l'agent devient un produit juridiquement responsable, et Microsoft déploie des agents pour surveiller les agents. Trois façons de dire que l'IA sort du bac à sable — pendant que Pékin trie ce qu'elle exporte et que les entreprises les plus automatisées embauchent moins de jeunes.",
+ "html": "<h2 id=\"le-gpu-comme-actif-le-datacenter-comme-p\">Le GPU comme actif, le datacenter comme programme</h2>\n<p>Dans un épisode de Latent Space, <strong>Evan Conrad</strong>, de <strong>SF Compute</strong>, déroule la notion de « <strong>datacenter programmable</strong> ». La discussion démarre sur le terrain du <strong>trading de GPU</strong> — la capacité de calcul comme actif qui s'échange — puis glisse vers le <strong>règlement physique</strong> (« physical settlement »), les <strong>marchés indépendants</strong> et le <strong>calcul programmable</strong>.</p>\n<p>Le déplacement mérite l'attention. On ne parle plus seulement de louer des machines à l'heure, mais de faire circuler une capacité de calcul entre acteurs, sur des marchés distincts des fournisseurs historiques. C'est un angle marché sur l'accès au calcul, et il concerne directement ceux qui entraînent ou hébergent des modèles : la question n'est plus uniquement « combien de GPU puis-je obtenir », mais « à quel prix, sur quel marché, avec quelle garantie de livraison ».</p>\n<p>La notion de datacenter programmable reste une grille de lecture : elle décrit un calcul qui se pilote comme une ressource logicielle, pas comme un parc immobilier.</p>\n<h2 id=\"l-agent-du-code-au-produit-responsable\">L'agent, du code au produit responsable</h2>\n<p>Deux actualités à mettre côte à côte. D'un côté, la <strong>directive (UE) 2024/2853</strong>, à transposer au plus tard le <strong>9 décembre 2026</strong> : elle fait du logiciel — <strong>SaaS compris</strong> — un <strong>produit</strong>. Conséquence directe, qui développe ou vend sous sa marque un agent IA devient <strong>fabricant</strong>, et répond <strong>sans faute</strong> des lésions, des atteintes psychologiques médicalement reconnues et des destructions de données non professionnelles causées par un défaut. Une <strong>mise à jour substantielle</strong> après cette date fait basculer un agent existant dans le régime.</p>\n<p>De l'autre, <strong>Microsoft</strong>, qui a dévoilé le <strong>19 octobre au soir</strong> le <strong>projet Perception</strong> : une équipe d'agents IA spécialisés dans la sécurité, mise à disposition des entreprises, pour <strong>automatiser la simulation, la détection et la remédiation</strong> des attaques visant les agents autonomes. La formulation surprend — des agents pour sécuriser des agents — mais elle dit une chose simple : l'essor des agents expose les systèmes d'information à des risques accrus, et il faut de l'outillage pour suivre.</p>\n<p>Les deux démarches ne se substituent pas. L'une fixe la responsabilité, l'autre outille la défense.</p>\n<h2 id=\"les-juniors-paient-la-facture-de-l-autom\">Les juniors paient la facture de l'automatisation</h2>\n<p>Une étude signée d'économistes de <strong>HEC Paris</strong>, de la <strong>Banque de France</strong> et de l'<strong>INSEAD</strong> compare environ <strong>600 entreprises françaises</strong> déclarant un usage intensif de l'IA au reste de leur secteur. Résultat : en <strong>2025</strong>, elles ont embauché de <strong>17 à 25 % de jeunes de 21 à 29 ans en CDI en moins</strong> que les autres. Leur effectif total, lui, ne présente <strong>pas d'écart net</strong>.</p>\n<p>Autrement dit, ce n'est pas le volume d'emplois qui bouge, c'est leur répartition par âge. L'ajustement se fait sur la porte d'entrée, celle des premiers CDI. Les auteurs recommandent de <strong>redéfinir les premiers postes autour de ce que l'IA accomplit mal</strong> — une manière de dire que le sujet n'est pas le nombre de recrutements, mais leur contenu.</p>\n<h2 id=\"pekin-trie-ce-qui-sort\">Pékin trie ce qui sort</h2>\n<p>Depuis le <strong>16 octobre 2026</strong>, Pékin impose une <strong>déclaration préalable</strong> pour exporter <strong>40 technologies, dont 23 en IA</strong>. Le catalogue est en <strong>consultation jusqu'au 15 novembre</strong>. Le <strong>ministère du Commerce</strong> précise deux exclusions : l'<strong>appel d'un modèle par API</strong> et les <strong>technologies publiées en open source</strong> restent hors champ — ce qui épargne les API de <strong>DeepSeek</strong> et <strong>Qwen</strong>.</p>\n<p>La portée reste à géométrie variable. Le <strong>déploiement localisé hors de Chine</strong> d'un modèle restreint n'entrera dans le champ qu'<strong>une fois le catalogue en vigueur</strong>. On a donc un dispositif annoncé et consultable, mais pas encore stabilisé dans ses effets — avec une distinction nette entre ce qui s'appelle à distance et ce qui s'installe sur un serveur ailleurs.</p>\n<h2>Et maintenant ?</h2>\n<p>Lu ensemble, ces dépêches décrivent la même bascule : le calcul cherche ses marchés, l'agent trouve son droit et sa sécurité, l'export devient un objet administratif, et l'embauche se recompose par le bas. Aucune de ces mutations n'est spectaculaire prise isolément. Ce sont des ajustements de définition — qui est fabricant, qui est recruté, qui a le droit de faire sortir un modèle. C'est précisément là que ça se joue.</p>",
+ "pivot": "e5e6342ac5ade646",
+ "tags": [
+  "agents",
+  "business",
+  "sécurité",
+  "france"
+ ],
+ "sources": [
+  {
+   "nom": "Latent Space",
+   "url": "https://www.latent.space/p/sfcompute2"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/les-entreprises-les-plus-converties-a-lia-embauchent-jusqua-25-de-jeunes-en-cdi-en-moins/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/cybersecurite/microsoft-devoile-le-projet-perception-pour-automatiser-la-simulation-detection-et-remediation-des-attaques-dagents-ia-autonomes-a-laide-dagents-ia.326XC6WR3JBBZPWJEPUC3I7KUU.html"
+  }
+ ],
+ "date": "2026-10-20T19:49:35+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1593,
+  "sortie": 4243
+ }
+}

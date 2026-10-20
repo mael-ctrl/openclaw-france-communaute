@@ -2577,3 +2577,9 @@
 {"ts": "2026-10-20T14:31:29+00:00", "evenement": "deploiement", "details": {"fichiers": 1398, "octets": 27738177}, "sha256": "2d28711324142f35054ed0f87b10b2c67d9c03d2e289f89baa187961caf45928"}
 {"ts": "2026-10-20T14:31:29+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "21dc253e21ad477cacc9cdd28e822f2e9e44e30382ce2ce45af847fdd0c6e6c4"}
 {"ts": "2026-10-20T14:31:29+00:00", "evenement": "bilan", "details": {"duree_s": 1426.0, "neufs": 9, "breves": 6, "articles": 1, "fichiers": 1364, "envois": 1398, "publications": 0}, "sha256": "5340d1c5c2129795d0ff35eb0e64a493d4b6142c40181ff143be87fe40d8337d"}
+{"ts": "2026-10-20T15:10:02+00:00", "evenement": "collecte", "details": {"neufs": 22}, "sha256": "08bb469e8467c5be434f5437c6ddf942d087fed2db984c6650e5df90cd9d1e94"}
+{"ts": "2026-10-20T15:10:27+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Qwen3.8-Flash-Next vs Opus 5.5: Six-way benchmark on a real ) : réponse non-JSON"}, "sha256": "1ab5d16a13c6c6d62c2589cad5640c18ada1af4b2f6ca3240da7f5943aefe253"}
+{"ts": "2026-10-20T15:11:09+00:00", "evenement": "construction", "details": {"fichiers": 1370}, "sha256": "08fc6e411fa02885b09d4e7253e1606791c5ab1a29a6aa0a1bfc50160bfb0788"}
+{"ts": "2026-10-20T15:37:56+00:00", "evenement": "deploiement", "details": {"fichiers": 1403, "octets": 27775954}, "sha256": "5444876c8a0a678c9435be435fb0635daf7ff363744f7575fa1a9aec72f4e7c9"}
+{"ts": "2026-10-20T15:37:56+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "8e2fdac062411db639046ca9bd70b19b8048c12191ffaf96fa1f443c07d023bb"}
+{"ts": "2026-10-20T15:37:56+00:00", "evenement": "bilan", "details": {"duree_s": 1688.3, "neufs": 22, "breves": 5, "articles": 1, "fichiers": 1370, "envois": 1403, "publications": 0}, "sha256": "526a249625faad77e415605a48308bed382860d6fbb9114a80556cf6c5db38ce"}

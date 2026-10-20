@@ -1,5 +1,107 @@
 [
  {
+  "id": "000c7f1bf822fca2",
+  "slug": "pocket-tts-un-modele-de-clonage-vocal-a-1-9-million-de-parametres-000c7f",
+  "titre": "Pocket TTS : un modèle de clonage vocal à 1,9 million de paramètres",
+  "resume": "Un post du subreddit r/LocalLLaMA, daté du 20 octobre 2026, met en avant Pocket TTS : un modèle de synthèse vocale qui prend en charge le clonage de voix et ne compte que 1,9 million de paramètres. Ce nombre très bas est l'argument central du fil, qui ne fournit pas d'autre détail technique dans l'extrait relayé.",
+  "tags": [
+   "recherche",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xauekr/pocket_tts_which_supports_voice_cloning_is_now/",
+  "date_source": "2026-10-20T14:59:15+00:00",
+  "date_redac": "2026-10-20T15:10:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 1071
+  }
+ },
+ {
+  "id": "a3dfff99eccc4726",
+  "slug": "sur-r-claudeai-la-question-des-comptes-multiples-par-carte-bancaire-a3dfff",
+  "titre": "Sur r/ClaudeAI, la question des comptes multiples par carte bancaire",
+  "resume": "Sur le subreddit r/ClaudeAI, un utilisateur s'interroge sur la règle supposée limitant à un à trois comptes par carte bancaire. Il demande ce qu'il en est avec un nouveau numéro de téléphone et une nouvelle carte, mais la même adresse IP. Il pose la même question pour des comptes d'entreprise, et pour basculer entre ses comptes personnels et professionnels depuis une même connexion.",
+  "tags": [
+   "claude",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xaud1p/1_to_3_accounts_per_credit_card_is_it_true/",
+  "date_source": "2026-10-20T14:57:33+00:00",
+  "date_redac": "2026-10-20T15:10:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 722,
+   "sortie": 699
+  }
+ },
+ {
+  "id": "fba484654a94ab29",
+  "slug": "unsloth-publie-les-fichiers-gguf-d-ornith-1-5-122b-fba484",
+  "titre": "Unsloth publie les fichiers GGUF d'Ornith-1.5-122B",
+  "resume": "Unsloth a mis en ligne les fichiers GGUF du modèle Ornith-1.5-122B. L'annonce a été relayée sur le forum r/LocalLLaMA le 20 octobre 2026. Le format GGUF est celui employé pour exécuter un modèle en local, hors des serveurs.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xatwvb/unsloth_just_released_ornith15122b_ggufs/",
+  "date_source": "2026-10-20T14:39:52+00:00",
+  "date_redac": "2026-10-20T15:10:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 752
+  }
+ },
+ {
+  "id": "4da2a6a8d0900e9d",
+  "slug": "ornith-1-5-122b-etend-son-auto-amelioration-a-la-generation-de-taches-4da2a6",
+  "titre": "Ornith-1.5-122B étend son auto-amélioration à la génération de tâches",
+  "resume": "Ornith-ai publie Ornith-1.5-122B, dérivé d'Ornith-1.0, lui-même bâti sur Qwen3.5 et Gemma4. Sa boucle d'auto-amélioration ne porte plus seulement sur les scaffolds et les rollouts : elle optimise aussi la génération des tâches. Le modèle crée de nouvelles tâches d'entraînement, découvre des stratégies pour les résoudre et progresse par apprentissage par renforcement, sans jeu de tâches humaines figé.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xatebw/ornithaiornith15122b_qwen_finetune/",
+  "date_source": "2026-10-20T14:19:07+00:00",
+  "date_redac": "2026-10-20T15:10:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 821,
+   "sortie": 1423
+  }
+ },
+ {
+  "id": "ddda3b77ed5de97e",
+  "slug": "spotify-retire-50-millions-de-titres-ia-de-ses-recommandations-ddda3b",
+  "titre": "Spotify retire 50 millions de titres IA de ses recommandations",
+  "resume": "Spotify annonce avoir retiré plus de 50 millions de morceaux jugés générés par IA ou spam des recommandations utilisateurs au cours de l'année écoulée. Le service dit avoir aussi modifié son système de recommandation pour mettre en avant davantage de musique créée par des artistes humains. Ses éditeurs appliquent le même standard, précise l'entreprise.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+  "date_source": "2026-10-20T14:18:37+00:00",
+  "date_redac": "2026-10-20T15:10:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 660,
+   "sortie": 487
+  }
+ },
+ {
   "id": "214713c135d71638",
   "slug": "mdph-la-cnsa-a-teste-une-ia-de-tri-des-dossiers-sans-publier-les-resul-214713",
   "titre": "MDPH : la CNSA a testé une IA de tri des dossiers, sans publier les résultats",

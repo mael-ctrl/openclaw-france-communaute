@@ -1,5 +1,26 @@
 [
  {
+  "id": "f53b73cd3fa918a3",
+  "slug": "amd-gaia-0-25-des-ameliorations-pour-les-agents-ia-locaux-sur-ryzen-ai-f53b73",
+  "titre": "AMD GAIA 0.25 : des améliorations pour les agents IA locaux sur Ryzen AI",
+  "resume": "AMD publie la version 0.25 de GAIA, le projet maison consacré aux agents IA locaux sur Ryzen AI. L'annonce, relayée sur r/LocalLLaMA, mentionne plusieurs améliorations, sans que la liste détaillée des changements apparaisse dans l'extrait. L'intérêt : faire tourner des agents directement sur les machines équipées de processeurs Ryzen AI, hors du cloud.",
+  "tags": [
+   "agents",
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaegqa/amd_gaia_025_brings_several_improvements_for/",
+  "date_source": "2026-10-20T00:58:40+00:00",
+  "date_redac": "2026-10-20T01:11:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 587
+  }
+ },
+ {
   "id": "6873fff27d905df5",
   "slug": "openai-ameliore-chatgpt-sur-les-langages-peu-dotes-6873ff",
   "titre": "OpenAI améliore ChatGPT sur les langages peu dotés",
@@ -19,6 +40,26 @@
    "modele": "deepseek-flash",
    "entree": 590,
    "sortie": 615
+  }
+ },
+ {
+  "id": "7c2985513c846151",
+  "slug": "tess-4-5-27b-le-finetune-qwen-de-migtissera-economise-25-de-tokens-7c2985",
+  "titre": "Tess-4.5-27B, le finetune Qwen de migtissera, économise 25 % de tokens",
+  "resume": "migtissera, auteur de Synthia, publie Tess-4.5-27B, un finetune de Qwen3.8-27B en GGUF sur Hugging Face. Sur les 150 scénarios de BenchLocal, il génère 25 % de tokens en moins que sa base (262K contre 349K), à score égal. Sur CLI-40, c'est 32 % de tokens en moins avec un meilleur score, et 43 % en moins sur l'extraction de données. Résultat : réponses plus rapides et contexte moins vite saturé.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xadfm7/migtisseratess4527b_qwen_finetune/",
+  "date_source": "2026-10-20T00:09:50+00:00",
+  "date_redac": "2026-10-20T01:11:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 849,
+   "sortie": 1307
   }
  },
  {

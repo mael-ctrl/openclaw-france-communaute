@@ -1,0 +1,41 @@
+{
+ "slug": "postgresql-corrige-44-failles-en-2026-sept-en-2025-le-code-p-21ce84",
+ "titre": "PostgreSQL corrige 44 failles en 2026, sept en 2025 : le code passe au crible",
+ "chapo": "Le registre de PostgreSQL compte 44 failles corrigées en 2026, contre 7 en 2025, et la version 19 doit perdre 8 à 10 fonctions. Au même moment, Microsoft déploie des agents IA pour surveiller les agents IA, pendant qu'Amazon s'attaque à la mainmise de Nvidia sur PyTorch.",
+ "html": "<h2 id=\"postgresql-le-compte-a-change-d-echelle\">PostgreSQL : le compte a changé d'échelle</h2>\n<p>Le registre de PostgreSQL affiche <strong>44 failles corrigées en 2026, contre 7 en 2025</strong>. Le chiffre global ne dit pas tout, la répartition non plus : <strong>28 failles</strong> ont été traitées dans la seule mise à jour du <strong>13 août</strong>.</p>\n<p>La prochaine version majeure, la <strong>19</strong>, est attendue le <strong>19 novembre</strong>, et elle ne sortira pas sans casse. Selon le committer <strong>Peter Eisentraut</strong>, elle doit perdre <strong>8 à 10 fonctions importantes</strong>. Il avance deux explications à la séquence actuelle : la revue de code assistée par LLM, et la mobilisation des développeurs sur les failles.</p>\n<p>Autrement dit, l'outillage d'audit progresse plus vite que le rythme de croisière d'un projet dont dépendent des bases partout dans le monde. La question que posent ces chiffres sans y répondre : combien de fonctions un socle comme PostgreSQL peut-il encore sacrifier pour tenir son calendrier ?</p>\n<h2 id=\"curl-24-failles-le-14-octobre-dont-18-si\">curl : 24 failles le 14 octobre, dont 18 signées Aisle Research</h2>\n<p>Le même mouvement s'observe ailleurs. Chez <strong>curl</strong>, la journée du <strong>14 octobre</strong> a vu <strong>24 failles</strong> corrigées d'un coup, et <strong>18 d'entre elles sont créditées à Aisle Research</strong>.</p>\n<p>Deux projets, deux échelles, une même pression : des briques d'infrastructure installées partout, un flux de correctifs qui s'accélère, et des équipes de maintenance qui doivent absorber le volume. Que la divulgation vienne de l'interne ou d'un cabinet externe ne change pas le résultat côté utilisateur — la mise à jour reste à faire.</p>\n<h2 id=\"microsoft-perception-des-agents-pour-gar\">Microsoft Perception : des agents pour garder les agents</h2>\n<p>L'essor des agents expose les systèmes d'information à des risques accrus. <strong>Microsoft</strong> a dévoilé le <strong>19 octobre au soir</strong> le projet <strong>Perception</strong>, qui met à disposition des entreprises une équipe d'agents IA spécialisés dans la sécurité.</p>\n<p>L'objectif annoncé : automatiser la <strong>simulation</strong>, la <strong>détection</strong> et la <strong>remédiation</strong> des attaques visant les agents autonomes. Le geste est cohérent avec la trajectoire du secteur — dès lors qu'un agent exécute des actions, il devient une surface d'attaque à part entière, avec ses outils, ses droits et ses accès.</p>\n<p>Reste que la sécurité par agents reste de la sécurité par logiciel : les mêmes questions de périmètre, de journalisation et de confiance s'appliquent, appliquées cette fois à des composants dont le comportement n'est pas entièrement déterministe.</p>\n<h2 id=\"amazon-torchneuron-nvidia-et-minimax-la-\">Amazon TorchNeuron, Nvidia et MiniMax : la couche d'exécution bouge</h2>\n<p><strong>Amazon</strong> lance <strong>TorchNeuron</strong>, un outil de développement qui cible <strong>PyTorch</strong>, le kit gratuit sur lequel se construisent la plupart des applications d'IA. L'ambition : briser la mainmise de <strong>Nvidia</strong> sur cet écosystème pour que davantage de développeurs fassent tourner leurs applications sur des puces alternatives, dont les siennes. TechCrunch y voit l'offensive la plus ambitieuse d'Amazon face au fondeur.</p>\n<p>Nvidia ne reste pas immobile sur ce terrain. Le fabricant lance de <strong>nouveaux modèles ouverts destinés à exécuter des agents</strong>, en pariant sur une demande : celle des entreprises qui veulent faire tourner leurs propres modèles dans leurs propres centres de données. Il pousse aussi l'agent IA local, privé, fonctionnant directement sur le PC.</p>\n<p>Sur le front des modèles, <strong>MiniMax M3.1 Flash</strong> — l'ancien « Space Bunny », resté dix jours en tête d'OpenRouter avant de disparaître le 5 octobre — arrive sur l'API : <strong>428B de paramètres totaux, 23B actifs, 1M de contexte</strong>, texte, image et vidéo, à <strong>0,15 $ en entrée et 0,60 $ en sortie</strong>. Les poids sont annoncés pour le <strong>23 octobre</strong>. Côté bancs maison, le modèle devance Opus 5 sur automation-bench mais reste loin derrière sur terminal bench (38,1 contre 51,8).</p>\n<h2>Et maintenant ?</h2>\n<p>Deux mouvements se croisent. D'un côté, la revue de code assistée par LLM entre explicitement dans l'explication d'un pic de correctifs chez PostgreSQL, et les failles de curl se comptent par dizaines sur une seule journée. De l'autre, les agents deviennent eux-mêmes une surface d'attaque qu'il faut outiller — c'est le sens du projet Perception. Entre les deux, la bataille se joue sur l'exécution : puces, modèles ouverts, contexte facturé au token. Les chiffres du registre PostgreSQL et les écarts sur terminal bench disent plus que les annonces.</p>",
+ "pivot": "21ce844aad48abf2",
+ "tags": [
+  "sécurité",
+  "dev",
+  "agents",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/postgresql-corrige-44-failles-en-2026-contre-7-en-2025-sa-version-19-perd-8-a-10-fonctions-selon-un-committer/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/cybersecurite/microsoft-devoile-le-projet-perception-pour-automatiser-la-simulation-detection-et-remediation-des-attaques-dagents-ia-autonomes-a-laide-dagents-ia.326XC6WR3JBBZPWJEPUC3I7KUU.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa3ynv/space_bunny_was_minimax_m31_flash_428ba23b/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
+  }
+ ],
+ "date": "2026-10-20T07:25:38+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1650,
+  "sortie": 3305
+ }
+}

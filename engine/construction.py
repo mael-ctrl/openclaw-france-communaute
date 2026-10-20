@@ -476,6 +476,23 @@ def bloc_suivre():
         <a class="bouton fantome" href="{flux_articles}">RSS articles uniquement</a>
         <a class="bouton fantome" href="{profil}" rel="noopener">Suivre sur Bluesky</a>
       </div>
+      <details class="aide-rss prose">
+        <summary>Première fois avec un flux RSS ?</summary>
+        <p>Un lecteur RSS rassemble les publications des sites que vous choisissez.
+        Si le bouton ci-dessus affiche du XML dans votre navigateur, c’est normal : cette adresse est destinée à votre lecteur.</p>
+        <ol>
+          <li>Ouvrez votre lecteur RSS et choisissez « Ajouter un flux » ou « Nouvel abonnement » (le libellé dépend de l’application).</li>
+          <li>Copiez l’une de ces adresses dans ce champ :
+            <ul>
+              <li>Brèves et articles : <code>{flux}</code></li>
+              <li>Articles uniquement, sans les brèves : <code>{flux_articles}</code></li>
+            </ul>
+          </li>
+          <li>Validez l’ajout, puis actualisez votre lecteur pour voir les publications disponibles.</li>
+        </ol>
+        <p>Pas d’adresse email à donner au Crabe : le flux n’envoie pas d’emails.
+        Votre lecteur peut demander un compte ou être payant ; ses règles de confidentialité s’appliquent.</p>
+      </details>
     </aside>"""
 
 

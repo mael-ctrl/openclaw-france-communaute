@@ -1,5 +1,88 @@
 [
  {
+  "id": "9a29e234597926f9",
+  "slug": "les-entreprises-tres-converties-a-l-ia-embauchent-moins-de-jeunes-en-c-9a29e2",
+  "titre": "Les entreprises très converties à l'IA embauchent moins de jeunes en CDI",
+  "resume": "Environ 600 entreprises françaises déclarant un usage intensif de l'IA ont embauché en 2025 de 17 à 25 % de jeunes de 21 à 29 ans en CDI de moins que les autres entreprises de leur secteur, sans écart net sur leur effectif total. L'étude est signée d'économistes de HEC Paris, de la Banque de France et de l'INSEAD. Les auteurs recommandent de redéfinir les premiers postes autour de ce que l'IA accomplit mal.",
+  "tags": [
+   "business",
+   "france",
+   "société",
+   "recherche"
+  ],
+  "importance": 4,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/les-entreprises-les-plus-converties-a-lia-embauchent-jusqua-25-de-jeunes-en-cdi-en-moins/",
+  "date_source": null,
+  "date_redac": "2026-10-20T12:23:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 790,
+   "sortie": 1261
+  }
+ },
+ {
+  "id": "4bf2af8ea78ded45",
+  "slug": "un-utilisateur-de-localllama-parie-sur-le-materiel-chinois-pour-l-ia-l-4bf2af",
+  "titre": "Un utilisateur de LocalLLaMA parie sur le matériel chinois pour l'IA locale",
+  "resume": "Sur r/LocalLLaMA, un utilisateur fait le point sur le matériel disponible pour faire tourner des modèles en local : Nvidia, AMD, Apple, des options qu'il juge plutôt coûteuses. Il possède un Bosgame M5 Strix Halo et en est satisfait, mais réfléchit à une mise à niveau d'ici un à deux ans. Selon lui, la prochaine étape passera par les fabricants chinois, Huawei et Xiaomi en tête. Il demande l'avis de la communauté.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xapon0/chinese_hardware/",
+  "date_source": "2026-10-20T11:32:20+00:00",
+  "date_redac": "2026-10-20T12:23:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 697,
+   "sortie": 615
+  }
+ },
+ {
+  "id": "117a8dd5535683ef",
+  "slug": "lemonade-les-commandes-cli-a-connaitre-compilees-dans-un-article-117a8d",
+  "titre": "Lemonade : les commandes CLI à connaître, compilées dans un article",
+  "resume": "Un utilisateur de r/LocalLLaMA raconte avoir beaucoup travaillé récemment avec le serveur Lemonade en ligne de commande. Il a compilé dans un article les commandes qu'il redécouvre et réutilise le plus souvent, pour télécharger, configurer et évaluer des modèles. L'auteur invite ceux qui connaissent d'autres commandes utiles à les signaler pour compléter la liste.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xapj0y/fresher_lemonade_cli_tips_and_tricks/",
+  "date_source": "2026-10-20T11:23:51+00:00",
+  "date_redac": "2026-10-20T12:23:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 663,
+   "sortie": 538
+  }
+ },
+ {
+  "id": "4855aa865ba4c435",
+  "slug": "un-prompt-additif-rendrait-qwen-3-8-flash-next-plus-rapide-et-plus-pre-4855aa",
+  "titre": "Un prompt « additif » rendrait Qwen 3.8 Flash Next plus rapide et plus précis",
+  "resume": "Sur r/LocalLLaMA, un utilisateur a fait créer des peintures à un modèle via du code Python, en le laissant libre. Il a vu le modèle vérifier visuellement sa première esquisse et corriger vite, sans longues réflexions. Il en a tiré un prompt « additif » : esquisser, puis améliorer par étapes, comme un humain, au lieu de tourner en boucles sur des plans. Il le dit plus rapide, plus précis et plus sûr de lui.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xapakf/qwen_38_flash_next_drastically_faster_and_much/",
+  "date_source": "2026-10-20T11:11:12+00:00",
+  "date_redac": "2026-10-20T12:23:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 797,
+   "sortie": 1447
+  }
+ },
+ {
   "id": "4683b0bf9f040f8f",
   "slug": "otter-ai-leve-320-millions-de-dollars-aupres-du-fonds-de-general-catal-4683b0",
   "titre": "Otter.ai lève 320 millions de dollars auprès du fonds de General Catalyst",
@@ -101,6 +184,27 @@
    "modele": "deepseek-flash",
    "entree": 855,
    "sortie": 1275
+  }
+ },
+ {
+  "id": "c21d71d1344705bb",
+  "slug": "gufo-moteur-ia-open-source-pour-strix-halo-detaille-le-cache-de-son-mo-c21d71",
+  "titre": "Gufo, moteur IA open source pour Strix Halo, détaille le cache de son modèle hybride",
+  "resume": "Gufo, projet open source sous licence MIT lancé par deux amis pour tirer le meilleur du chip AMD Strix Halo, signe son premier article de blog. Il y explique comment le moteur met en cache un modèle hybride. Sorti il y a près d'un mois, Gufo inaugure ainsi une série d'articles sur les concepts et choix de conception d'un moteur d'inférence IA, jugés utiles même sans posséder la puce.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaojci/how_gufo_caches_a_hybrid_model_first_blog_post/",
+  "date_source": "2026-10-20T10:28:59+00:00",
+  "date_redac": "2026-10-20T12:23:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 829,
+   "sortie": 468
   }
  },
  {

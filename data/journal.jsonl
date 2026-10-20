@@ -2555,3 +2555,9 @@
 {"ts": "2026-10-20T11:33:48+00:00", "evenement": "deploiement", "details": {"fichiers": 1379, "octets": 25951268}, "sha256": "8eb95f6976c62d95b908b0ef3f5585964c33343953c8aab56684d59e1dc81cca"}
 {"ts": "2026-10-20T11:33:48+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "d8c98b3e6e3dad0b8ccde1e2d28e78570110eb6d3b766d05f89c5ea9354d21ae"}
 {"ts": "2026-10-20T11:33:48+00:00", "evenement": "bilan", "details": {"duree_s": 1930.6, "neufs": 8, "breves": 6, "articles": 1, "fichiers": 1345, "envois": 1379, "publications": 0}, "sha256": "b18f8c40f11695e958f397afe7bc141dd3eab05ab716c519979b49396e779f3e"}
+{"ts": "2026-10-20T12:23:06+00:00", "evenement": "collecte", "details": {"neufs": 12}, "sha256": "bc71f4589ba71e60914bc745a557b6d9a1597bbb0fdff74b538ec21e7f32cff6"}
+{"ts": "2026-10-20T12:23:38+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Un pirate a percé les sites de plus de 100 entreprises, dont) : réponse non-JSON"}, "sha256": "f423655b76553f2b8e79e5f12604f1f7ce4b87aa53d18e2a66adf5b3fd0a0bb7"}
+{"ts": "2026-10-20T12:24:15+00:00", "evenement": "construction", "details": {"fichiers": 1352}, "sha256": "55c8f3599d956f868591d075076e648363fe4d672903f2dcb00cdaa494147046"}
+{"ts": "2026-10-20T12:43:09+00:00", "evenement": "deploiement", "details": {"fichiers": 1385, "octets": 27526412}, "sha256": "b955cf68c826fccc296d6ef33e35253f33fef0a96a8c49f752bffca699dffe1d"}
+{"ts": "2026-10-20T12:43:10+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "dcbf911124eb0ed5dfc0e29b974205b943e40394c75d5fd365e5417c213dc7b3"}
+{"ts": "2026-10-20T12:43:10+00:00", "evenement": "bilan", "details": {"duree_s": 1242.8, "neufs": 12, "breves": 5, "articles": 1, "fichiers": 1352, "envois": 1385, "publications": 0}, "sha256": "f0f1334a829241f27aaf0fa3151359dd1968f196199696e92037639c2f916cf6"}

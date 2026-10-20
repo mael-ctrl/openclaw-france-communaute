@@ -1,5 +1,109 @@
 [
  {
+  "id": "a1feb8d56a29e91b",
+  "slug": "l-agent-ia-muse-de-meta-depasse-les-10-millions-de-telechargements-en--a1feb8",
+  "titre": "L'agent IA Muse de Meta dépasse les 10 millions de téléchargements en 40 jours",
+  "resume": "L'application Muse de Meta, lancée le 8 septembre, a franchi les 10 millions de téléchargements aux États-Unis en 40 jours, selon les données de Sensor Tower. Seules onze applications avaient atteint ce rythme aussi vite avant elle. Meta installe ainsi son agent IA dans les usages grand public, sur un marché où la bataille se joue désormais sur l'adoption massive et non plus seulement sur les capacités des modèles.",
+  "tags": [
+   "meta",
+   "agents",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/meta/3293331_presque-trois-fois-mieux-que-chatgpt-a-ses-debuts-lagent-ia-muse-de-meta-cartonne-aux-etats-unis",
+  "date_source": null,
+  "date_redac": "2026-10-20T21:22:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 672,
+   "sortie": 479
+  }
+ },
+ {
+  "id": "42f753bbfa57dfb3",
+  "slug": "mistral-degaine-voxtral-3-ses-modeles-vocaux-multilingues-42f753",
+  "titre": "Mistral dégaine Voxtral 3, ses modèles vocaux multilingues",
+  "resume": "Mistral AI a présenté ce mardi 20 octobre 2026 Voxtral 3, une famille de modèles vocaux qui transcrit plus de 50 langues et en parle plus de 35. Ces modèles servent également de base à un kit pour créer des agents vocaux. En mars, le premier modèle de synthèse vocale de Mistral ne gérait que 9 langues : l'écart mesure le chemin parcouru face à ElevenLabs et ses 90 langues.",
+  "tags": [
+   "mistral",
+   "agents",
+   "france"
+  ],
+  "importance": 4,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3293341_face-a-elevenlabs-et-ses-90-langues-mistral-degaine-voxtral-3",
+  "date_source": null,
+  "date_redac": "2026-10-20T21:22:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 688,
+   "sortie": 459
+  }
+ },
+ {
+  "id": "fbca6507b8e26eb3",
+  "slug": "openai-rachete-orchestra-bio-pour-muscler-son-ia-en-sciences-de-la-vie-fbca65",
+  "titre": "OpenAI rachète Orchestra Bio pour muscler son IA en sciences de la vie",
+  "resume": "OpenAI acquiert la start-up Orchestra Bio et intègre son équipe ainsi que sa technologie à Rosalind, son modèle d'IA dédié à la recherche en sciences de la vie. Le même apport bénéficie à Rosalind Workbench, un outil conçu pour aider les chercheurs à planifier leurs expériences et à analyser leurs résultats. L'opération illustre la volonté d'OpenAI de peser sur le segment de la recherche biotech.",
+  "tags": [
+   "openai",
+   "recherche",
+   "business"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+  "date_source": null,
+  "date_redac": "2026-10-20T21:22:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 646,
+   "sortie": 308
+  }
+ },
+ {
+  "id": "8c352137400b227a",
+  "slug": "spacex-atteint-la-rentabilite-au-troisieme-trimestre-grace-a-l-ia-8c3521",
+  "titre": "SpaceX atteint la rentabilité au troisième trimestre grâce à l'IA",
+  "resume": "SpaceX a atteint la rentabilité au troisième trimestre, avec un bénéfice net de 4,4 milliards de dollars. L'activité IA du groupe a été le moteur de ce résultat, dépassant les attentes selon TechCrunch. Un signal notable : l'IA pèse désormais dans les comptes d'un acteur spatial historique.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+  "date_source": null,
+  "date_redac": "2026-10-20T21:22:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 599,
+   "sortie": 119
+  }
+ },
+ {
+  "id": "dd8dd0ec0910ec76",
+  "slug": "claude-code-2-1-305-correctif-vertex-et-bedrock-sandbox-linux-dd8dd0",
+  "titre": "Claude Code 2.1.305 : correctif Vertex et Bedrock, sandbox Linux",
+  "resume": "Claude Code 2.1.305 corrige une régression du 2.1.304 qui faisait échouer toutes les requêtes sur Vertex, Bedrock et d'autres fournisseurs quand la passerelle refusait la recherche d'outils : le client retente désormais sans elle. Sur Linux, la nouvelle option sandbox.allowNestedUserNamespaces laisse les commandes sandboxées créer des namespaces utilisateur (Chromium, podman rootless), et contourner ainsi les protections de fichiers du sandbox.",
+  "tags": [
+   "claude",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
+  "date_source": "2026-10-20T20:46:50+00:00",
+  "date_redac": "2026-10-20T21:22:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 821,
+   "sortie": 1370
+  }
+ },
+ {
   "id": "0cc6c8900bda767c",
   "slug": "les-agences-federales-americaines-doivent-retirer-deepseek-de-leurs-sy-0cc6c8",
   "titre": "Les agences fédérales américaines doivent retirer DeepSeek de leurs systèmes",

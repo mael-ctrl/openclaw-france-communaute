@@ -1,5 +1,87 @@
 [
  {
+  "id": "5bc76992d5373eb7",
+  "slug": "gemini-arrive-dans-la-voiture-via-android-auto-et-google-integre-5bc769",
+  "titre": "Gemini arrive dans la voiture via Android Auto et Google intégré",
+  "resume": "Google apporte Personal Intelligence à Gemini dans la voiture. Avec cette mise à jour, Gemini dans Android Auto et dans les voitures équipées de Google intégré peut accéder aux informations de l'utilisateur dans les applis Google : Gmail, Agenda, Maps, Photos, YouTube et Search. Google cite l'exemple d'une question sur le statut d'un vol posée au modèle pendant la conduite.",
+  "tags": [
+   "gemini",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+  "date_source": "2026-10-20T22:11:34+00:00",
+  "date_redac": "2026-10-20T22:24:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 658,
+   "sortie": 410
+  }
+ },
+ {
+  "id": "74f78090855e5c4d",
+  "slug": "de-9-a-48-t-s-sur-un-gpu-8-go-grace-a-cachyos-selon-un-utilisateur-74f780",
+  "titre": "De 9 à 48 t/s sur un GPU 8 Go grâce à CachyOS, selon un utilisateur",
+  "resume": "Sur r/LocalLLaMA, un utilisateur dit être passé de 9 à parfois 48 t/s, avec une moyenne d'environ 30, après avoir adopté STRATA sous CachyOS. Il tournait jusque-là avec Unsloth en 3 bits sur Qwen 3.8 Flash Next et un GPU de 8 Go. Il dit avoir choisi CachyOS pour son pilote NVIDIA prêt à l'emploi. Le contexte tient à 32k, 42k au mieux, à 130 Mo de VRAM de la limite ; 64k est hors de portée.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xb5qxn/yes/",
+  "date_source": "2026-10-20T22:09:34+00:00",
+  "date_redac": "2026-10-20T22:24:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 796,
+   "sortie": 1198
+  }
+ },
+ {
+  "id": "1ab6ab1196260b70",
+  "slug": "claude-code-revenus-en-forte-hausse-mais-croissance-a-plat-depuis-juin-1ab6ab",
+  "titre": "Claude Code : revenus en forte hausse, mais croissance à plat depuis juin",
+  "resume": "Sur le subreddit r/ClaudeAI, un utilisateur affirme que Claude Code a massivement augmenté ses revenus, mais que la croissance se serait tassée depuis le mois de juin. Il estime qu'il faudrait « quelque chose de gros » pour relancer la dynamique. Aucun chiffre n'est fourni dans le message : il s'agit d'une affirmation d'internaute, pas d'une donnée officielle.",
+  "tags": [
+   "claude",
+   "business",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xb58g9/claude_code_has_massively_increased_revenue_but/",
+  "date_source": "2026-10-20T21:48:07+00:00",
+  "date_redac": "2026-10-20T22:24:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 619,
+   "sortie": 809
+  }
+ },
+ {
+  "id": "952b15ae9ee848f7",
+  "slug": "un-post-de-r-claudeai-conteste-le-monopole-de-rentabilite-d-anthropic-952b15",
+  "titre": "Un post de r/ClaudeAI conteste le monopole de rentabilité d'Anthropic",
+  "resume": "Sur r/ClaudeAI, un internaute conteste l'idée qu'Anthropic serait la seule entreprise d'IA de frontière à être rentable. Publié le 20 octobre 2026, le message ne nomme ni l'entreprise visée ni les chiffres avancés. La formulation, volontairement provocatrice, relance le débat sur la rentabilité des laboratoires d'IA de pointe.",
+  "tags": [
+   "claude",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xb4uak/you_thought_that_anthropic_was_the_only_frontier/",
+  "date_source": "2026-10-20T21:32:01+00:00",
+  "date_redac": "2026-10-20T22:24:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 615,
+   "sortie": 930
+  }
+ },
+ {
   "id": "a1feb8d56a29e91b",
   "slug": "l-agent-ia-muse-de-meta-depasse-les-10-millions-de-telechargements-en--a1feb8",
   "titre": "L'agent IA Muse de Meta dépasse les 10 millions de téléchargements en 40 jours",
@@ -83,6 +165,27 @@
   }
  },
  {
+  "id": "26e003efc972c79b",
+  "slug": "inference-llm-sur-npu-rk3588-sans-les-bibliotheques-rockchip-2x-plus-r-26e003",
+  "titre": "Inférence LLM sur NPU RK3588 sans les bibliothèques Rockchip, 2x plus rapide",
+  "resume": "Un développeur publie open_rknpu2_lm_infer, moteur d'inférence pour le NPU des cartes Rockchip RK3588 qui se passe des bibliothèques propriétaires du fabricant. Le code hôte est en Rust, les opérateurs NPU en C++, lisibles et modifiables. Il gère désormais Qwen3.5-4B avec entrée image et décodage spéculatif MTP optionnel, et revendique 10,61 tok/s en décodage contre 5,54 pour RKLLM 1.3.1.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xb45bq/i_built_an_rk3588_npu_runtime_without_any/",
+  "date_source": "2026-10-20T21:03:58+00:00",
+  "date_redac": "2026-10-20T22:24:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 907,
+   "sortie": 1026
+  }
+ },
+ {
   "id": "dd8dd0ec0910ec76",
   "slug": "claude-code-2-1-305-correctif-vertex-et-bedrock-sandbox-linux-dd8dd0",
   "titre": "Claude Code 2.1.305 : correctif Vertex et Bedrock, sandbox Linux",
@@ -142,6 +245,26 @@
    "modele": "deepseek-flash",
    "entree": 701,
    "sortie": 444
+  }
+ },
+ {
+  "id": "f9eab4bcc9dc265c",
+  "slug": "sur-r-claudeai-un-billet-intitule-based-alert-sans-contenu-exploitable-f9eab4",
+  "titre": "Sur r/ClaudeAI, un billet intitulé « based alert » sans contenu exploitable",
+  "resume": "La dépêche se limite à un message publié le 20 octobre 2026 sur le forum Reddit r/ClaudeAI, sous le titre « based alert ». Le billet ne contient aucun texte, aucune citation ni aucune source au-delà d'un lien vers la discussion. Il n'y a donc aucune information vérifiable à en tirer.",
+  "tags": [
+   "claude",
+   "société"
+  ],
+  "importance": 1,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xb2cf6/based_alert/",
+  "date_source": "2026-10-20T19:53:48+00:00",
+  "date_redac": "2026-10-20T22:24:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 591,
+   "sortie": 715
   }
  },
  {

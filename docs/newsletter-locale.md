@@ -62,10 +62,25 @@ humaine. Ne pas envoyer le brut comme une édition approuvée.
 
 ## Livraison
 
-Code testé localement ; commit, pipeline cloud et contrôle HTTPS à consigner
-après leur exécution. Le pipeline doit valider les nouveaux contrats, mais
-**ne compose ni n'envoie de newsletter**. Les pages publiques ne doivent pas
-changer du seul fait de cette intégration ; la collecte régulière peut évoluer.
+**Livraison vérifiée le 20/10 à 11:22 CEST.** Code `e59c543`, cinq blobs
+relus sur `main` distant après push. [Run 39396533847 réussi](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/39396533847) :
+**164 tests cloud**, 1 363 fichiers envoyés ; sauvegarde `a08f3ef`, fusion
+`ac63c1d`. Le délai du premier observateur local n'était pas un échec du run :
+le statut final et les logs ont été relus. Aucun workflow ni cron modifié.
+
+Après déploiement : **509 HTML HTTPS entièrement identiques** au rebuild isolé
+de `a08f3ef8f81a56cf6551040b0453b1db71fd90fc` — 492 anciennes brèves,
+les trois destinations du brouillon, dix pages de catalogue et quatre du fil.
+**988 liens uniques du catalogue = 988 brèves du sitemap = données cloud**,
+sans doublon entre pages. Version et sitemap stables aux deux bornes ; accueil,
+podcast, news-sitemap et robots également 200. **517 GET conservés**, corps,
+en-têtes, horodatages et empreintes sous `https-apres-cloud/` dans les preuves
+privées. La vérification du catalogue de la veille est ainsi complétée, sans
+prétendre avoir lu les 988 HTML ni toutes les URL historiques.
+
+Le pipeline **ne compose ni n'envoie de newsletter**. Les 2 642 sorties
+identiques avant/après prouvent l'absence de modification publique due à ce lot ;
+la collecte cloud régulière a ensuite produit ses propres changements.
 
 ## Limites et suite
 

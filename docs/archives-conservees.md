@@ -93,6 +93,36 @@ Le catalogue répondait 404 avant cette intégration.
 Preuves privées : `crabe-chantiers/archives/2026-10-19/integration-conservees/` ;
 recette isolée `archives-conservees-_o_u738j` sous scratch Hermes.
 
+## Vérification post-déploiement complétée — 20 octobre, 11:22 CEST
+
+La relance **39233246104** du 19/10 est confirmée par relecture de ses logs :
+143 tests, 1 525 fichiers envoyés, sauvegarde `e2c0b6a`. L'attente indiquée
+ci-dessus décrit le premier bilan, pas l'état final.
+
+Le lot privé d'archives du 20/10 a été rejoué hors réseau : **1 159 empreintes,
+neuf tests, sept sorties reproduites** et deux préfixes de registre conservés.
+Il compare les champs éditoriaux des 492 captures d'avant déploiement avec les
+492 captures du matin : mêmes titres/résumés/sources, 491 HTML modifiés et un
+identique. Son premier écart catalogue/sitemap a été conservé, pas effacé.
+
+Contrôle HTTPS supplémentaire après le run **39396533847**, qui intègre
+uniquement un compositeur local sans changer le catalogue : **492/492 anciennes
+pages entièrement identiques** au rendu de la sauvegarde cloud
+`a08f3ef8f81a56cf6551040b0453b1db71fd90fc`. Le contrôle couvre également
+les dix pages du catalogue, les quatre pages du fil et trois brèves récentes :
+**509 HTML comparés, 509 identiques**, URL finales préservées et statut 200.
+
+**988 liens uniques du catalogue = 988 chemins de brèves du sitemap = données
+du commit cloud**, sans répétition entre pages ; version et sitemap stables au
+début et à la fin. C'est la couverture des liens courants, pas la lecture des
+988 pages individuelles. Les 517 GET de la campagne (dont les contrôles de
+santé et les deux bornes) sont conservés hors dépôt sous
+`crabe-chantiers/newsletter/integration-2026-10-20/https-apres-cloud/`.
+
+Le trou de recette post-déploiement du catalogue est donc fermé pour ce
+périmètre. Aucun nouveau code d'archives, aucune restauration, purge ou
+redirection dans cette vérification. Les limites ci-dessous demeurent.
+
 ## Limites restant ouvertes
 
 Ce n'est pas un registre pérenne append-only : un enregistrement absent des

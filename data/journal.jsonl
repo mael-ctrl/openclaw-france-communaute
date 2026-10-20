@@ -2555,3 +2555,9 @@
 {"ts": "2026-10-20T11:33:48+00:00", "evenement": "deploiement", "details": {"fichiers": 1379, "octets": 25951268}, "sha256": "8eb95f6976c62d95b908b0ef3f5585964c33343953c8aab56684d59e1dc81cca"}
 {"ts": "2026-10-20T11:33:48+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "d8c98b3e6e3dad0b8ccde1e2d28e78570110eb6d3b766d05f89c5ea9354d21ae"}
 {"ts": "2026-10-20T11:33:48+00:00", "evenement": "bilan", "details": {"duree_s": 1930.6, "neufs": 8, "breves": 6, "articles": 1, "fichiers": 1345, "envois": 1379, "publications": 0}, "sha256": "b18f8c40f11695e958f397afe7bc141dd3eab05ab716c519979b49396e779f3e"}
+{"ts": "2026-10-20T12:01:02+00:00", "evenement": "collecte", "details": {"neufs": 16}, "sha256": "bc3c2b2a2c281174f799b73efe6502dfcd6c0a457fb7bd18ca0d52b7406d683f"}
+{"ts": "2026-10-20T12:01:39+00:00", "evenement": "erreur", "details": {"message": "brève impossible (I made Chipsmith: a local setup to let Claude create chiptun) : réponse non-JSON"}, "sha256": "47209845f3f1a9f138cb7c45192ce1ea9c8c986416e352277088459f3df65414"}
+{"ts": "2026-10-20T12:02:11+00:00", "evenement": "construction", "details": {"fichiers": 1352}, "sha256": "2055c35ff2b9c75cc08928fc0816254098a9f434552b67e85d5b85fe93baf797"}
+{"ts": "2026-10-20T12:21:03+00:00", "evenement": "deploiement", "details": {"fichiers": 1385, "octets": 26030313}, "sha256": "ed448ea057b84204c8507fdc0343e700aa2db0d1a9c682f58b826af91b264cbc"}
+{"ts": "2026-10-20T12:21:03+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "e0923e598ee9fb8fe5211161ffca52319796461bbbd96e12a05271ab4b02d0a7"}
+{"ts": "2026-10-20T12:21:03+00:00", "evenement": "bilan", "details": {"duree_s": 1210.8, "neufs": 16, "breves": 5, "articles": 1, "fichiers": 1352, "envois": 1385, "publications": 0}, "sha256": "7942b8ec944d36e7cd7c353c68c703dfab92f189a9a3a7365e583a061a1a125d"}

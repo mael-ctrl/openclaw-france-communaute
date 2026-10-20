@@ -1,0 +1,41 @@
+{
+ "slug": "agents-ia-missions-offensives-controles-a-l-export-et-securi-5a6558",
+ "titre": "Agents IA : missions offensives, contrôles à l'export et sécurité automatisée",
+ "chapo": "Des agents IA qui explorent des réseaux et neutralisent des cibles pour l'armée américaine, un catalogue chinois de technologies à l'export, des agences fédérales priées de lâcher DeepSeek : en quelques jours, les agents autonomes sont passés du statut d'outil à celui d'enjeu de politique publique.",
+ "html": "<h2 id=\"echotribble-ou-la-supervision-humaine-mi\">ECHOTRIBBLE, ou la « supervision humaine minimale »</h2>\n<p>L'information vient d'une enquête de <em>The Intercept</em> publiée le 19 octobre 2026, relayée par Numerama. L'armée américaine travaille sur un projet baptisé <strong>ECHOTRIBBLE</strong>, qui vise à confier à des agents IA des missions qualifiées d'offensives : explorer des réseaux, se propager d'un appareil à l'autre, neutraliser des cibles.</p>\n<p>Le projet est encore en développement. Le point qui retient l'attention tient en trois mots : « supervision humaine minimale ». C'est la formule employée pour décrire l'encadrement prévu de ces agents, et elle soulève des inquiétudes sur le niveau de contrôle humain effectivement conservé sur des systèmes capables d'agir seuls sur un réseau.</p>\n<p>La dépêche ne précise ni calendrier de déploiement ni périmètre d'application. Le fait notable est ailleurs : la question posée n'est plus de savoir si des agents autonomes peuvent mener des actions offensives, mais comment on les supervise.</p>\n<h2 id=\"pekin-liste-23-technologies-d-ia-et-epar\">Pékin liste 23 technologies d'IA, et épargne les API</h2>\n<p>À Pékin, le cadre bouge aussi. Depuis le 16 octobre 2026, la Chine impose une déclaration préalable pour exporter 40 technologies, dont 23 relèvent de l'IA. Le dispositif reste en consultation jusqu'au 15 novembre.</p>\n<p>Le ministère du Commerce place deux choses hors champ : l'appel d'un modèle par API et les technologies publiées en open source. Les API de DeepSeek et Qwen ne sont donc pas concernées à ce stade, comme le relève ActuIA.</p>\n<p>Une nuance pèse cependant : le déploiement localisé, hors de Chine, d'un modèle restreint entrera dans le champ une fois le catalogue en vigueur. La frontière entre « appeler un modèle » et « installer un modèle » devient ainsi un critère réglementaire.</p>\n<h2 id=\"washington-coupe-deepseek-dans-le-civil\">Washington coupe DeepSeek dans le civil</h2>\n<p>Aux États-Unis, la mesure est d'une autre nature. Les agences civiles fédérales ont reçu l'ordre de cesser d'utiliser DeepSeek, le chatbot d'IA chinois, rapporte 01net.</p>\n<p>La décision vise directement la Chine, accusée de surveiller les Américains. Les autorités évoquent également la présence possible de « malwares » cachés dans l'outil. Aucun élément technique n'est détaillé dans la dépêche : l'argument sécuritaire est posé, pas documenté publiquement.</p>\n<h2 id=\"microsoft-et-nvidia-outillent-le-meme-te\">Microsoft et Nvidia outillent le même terrain</h2>\n<p>Pendant ce temps, l'offre industrielle s'organise autour du même objet. Microsoft a dévoilé le 19 octobre au soir le projet <strong>Perception</strong> : une équipe d'agents IA spécialisés dans la sécurité, mise à disposition des entreprises. L'objectif annoncé est d'automatiser la simulation, la détection et la remédiation des attaques visant les agents autonomes.</p>\n<p>Le raisonnement assume sa circularité : l'essor des agents expose les systèmes d'information à des risques accrus, donc on confie la sécurité à des agents. Reste à savoir qui supervise les superviseurs.</p>\n<p>Nvidia avance sur un autre terrain, celui du déploiement. Le fondeur lance de nouveaux modèles ouverts destinés à exécuter des agents, en pariant sur une tendance de fond : les entreprises veulent faire tourner leurs propres modèles ouverts dans leurs propres centres de données. Il pousse aussi l'agent local, privé, fonctionnant directement sur le PC.</p>\n<p>Trois acteurs, trois stratégies : modèles ouverts pour Nvidia, agents de sécurité pour Microsoft, et pour les États, le contrôle à l'export ou l'interdiction pure et simple.</p>\n<h2>Et maintenant ?</h2>\n<p>En quelques jours, les agents autonomes ont changé de catégorie. Ils ne sont plus seulement des briques logicielles que l'on évalue sur banc d'essai : ils deviennent l'objet de programmes militaires, de catalogues d'exportation et de décisions administratives. Les réponses apportées — supervision humaine minimale d'un côté, agents de sécurité de l'autre — posent la même question sous des habits différents : quel niveau de contrôle accepte-t-on de déléguer, et à qui ?</p>",
+ "pivot": "5a655831890ad33a",
+ "tags": [
+  "agents",
+  "sécurité",
+  "deepseek",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2356515-supervision-humaine-minimale-larmee-americaine-veut-envoyer-des-agents-ia-pirater-ses-ennemis.html"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/le-gouvernement-americain-banni-deepseek-lia-chinoise-est-accusee-de-surveillance-de-masse.html"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/cybersecurite/microsoft-devoile-le-projet-perception-pour-automatiser-la-simulation-detection-et-remediation-des-attaques-dagents-ia-autonomes-a-laide-dagents-ia.326XC6WR3JBBZPWJEPUC3I7KUU.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
+  }
+ ],
+ "date": "2026-10-20T12:01:59+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1574,
+  "sortie": 3605
+ }
+}

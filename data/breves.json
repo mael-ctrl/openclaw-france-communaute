@@ -1,5 +1,87 @@
 [
  {
+  "id": "4bf2af8ea78ded45",
+  "slug": "sur-r-localllama-un-utilisateur-parie-sur-le-materiel-chinois-pour-la--4bf2af",
+  "titre": "Sur r/LocalLLaMA, un utilisateur parie sur le matériel chinois pour la suite",
+  "resume": "Un membre de r/LocalLLaMA pose la question de l'après-Nvidia, AMD et Apple. Il juge ces options actuelles trop chères, alors qu'il utilise lui-même un Bosgame M5 Strix Halo dont il se dit satisfait. Pour son prochain changement de machine, il anticipe du matériel chinois — Huawei, Xiaomi — d'ici un à deux ans, et demande l'avis de la communauté.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xapon0/chinese_hardware/",
+  "date_source": "2026-10-20T11:32:20+00:00",
+  "date_redac": "2026-10-20T12:01:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 697,
+   "sortie": 385
+  }
+ },
+ {
+  "id": "117a8dd5535683ef",
+  "slug": "lemonade-un-guide-des-commandes-cli-pour-recuperer-et-evaluer-des-mode-117a8d",
+  "titre": "Lemonade : un guide des commandes CLI pour récupérer et évaluer des modèles",
+  "resume": "Sur r/LocalLLaMA, l'utilisateur u/admcpr explique utiliser beaucoup le serveur Lemonade en ligne de commande ces derniers temps. Il y a repéré plusieurs commandes particulièrement utiles pour récupérer, configurer et benchmarker des modèles, et les a rassemblées dans un article. Il invite ceux qui connaissent d'autres commandes à les signaler pour compléter la liste.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xapj0y/fresher_lemonade_cli_tips_and_tricks/",
+  "date_source": "2026-10-20T11:23:51+00:00",
+  "date_redac": "2026-10-20T12:01:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 663,
+   "sortie": 478
+  }
+ },
+ {
+  "id": "8f86441b37da9d92",
+  "slug": "un-fondateur-de-saas-fait-s-affronter-claude-et-chatgpt-sur-ses-public-8f8644",
+  "titre": "Un fondateur de SaaS fait s'affronter Claude et ChatGPT sur ses publicités",
+  "resume": "Après un mois de lancement sans inscription organique, un entrepreneur B2B a confié à Claude et ChatGPT la même mission publicitaire : 20 $ de budget quotidien chacun, trois semaines, une dizaine de vidéos promotionnelles au choix et la liberté de définir leur audience et leurs contenus. Objectif commun : obtenir des rendez-vous de démonstration. Il indique que les deux modèles se sont montrés plus compétitifs que d'habitude, et attend de voir quel jeu d'annonces performe.",
+  "tags": [
+   "claude",
+   "chatgpt",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xapdag/im_having_claude_and_chatgpt_compete/",
+  "date_source": "2026-10-20T11:15:14+00:00",
+  "date_redac": "2026-10-20T12:01:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 816,
+   "sortie": 349
+  }
+ },
+ {
+  "id": "4855aa865ba4c435",
+  "slug": "un-prompt-additif-pour-rendre-les-modeles-plus-rapides-et-plus-precis-4855aa",
+  "titre": "Un prompt « additif » pour rendre les modèles plus rapides et plus précis",
+  "resume": "Sur r/LocalLLaMA, un utilisateur a fait créer des peintures à un modèle via Python. Il l'a vu vérifier visuellement son brouillon et corriger vite, sans longues réflexions. Il en a tiré un prompt « additif » : esquisser un brouillon puis l'améliorer étape par étape, plutôt que planifier des dizaines de fois. Selon lui, le modèle devient plus rapide, plus précis et plus sûr, loin des boucles sans fin.",
+  "tags": [
+   "dev",
+   "recherche",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xapakf/qwen_38_flash_next_drastically_faster_and_much/",
+  "date_source": "2026-10-20T11:11:12+00:00",
+  "date_redac": "2026-10-20T12:01:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 797,
+   "sortie": 1172
+  }
+ },
+ {
   "id": "4683b0bf9f040f8f",
   "slug": "otter-ai-leve-320-millions-de-dollars-aupres-du-fonds-de-general-catal-4683b0",
   "titre": "Otter.ai lève 320 millions de dollars auprès du fonds de General Catalyst",
@@ -101,6 +183,27 @@
    "modele": "deepseek-flash",
    "entree": 855,
    "sortie": 1275
+  }
+ },
+ {
+  "id": "c21d71d1344705bb",
+  "slug": "gufo-moteur-d-inference-open-source-pour-amd-strix-halo-lance-son-blog-c21d71",
+  "titre": "Gufo, moteur d'inférence open source pour AMD Strix Halo, lance son blog technique",
+  "resume": "Gufo, projet lancé il y a près d'un mois sous licence MIT par deux amis, vise à tirer le meilleur de la puce AMD Strix Halo tout en supportant quelques modèles de premier plan. Son premier billet de blog détaille comment le moteur met en cache un modèle hybride. Les deux développeurs veulent prolonger le projet par une série d'articles expliquant les concepts et choix de conception d'un moteur d'inférence IA, utiles même sans posséder une Strix Halo.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaojci/how_gufo_caches_a_hybrid_model_first_blog_post/",
+  "date_source": "2026-10-20T10:28:59+00:00",
+  "date_redac": "2026-10-20T12:01:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 829,
+   "sortie": 392
   }
  },
  {

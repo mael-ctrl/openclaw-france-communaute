@@ -1,5 +1,45 @@
 [
  {
+  "id": "edfc791139d08a9c",
+  "slug": "mamdani-appelle-les-new-yorkais-a-exiger-des-regles-sur-l-ia-edfc79",
+  "titre": "Mamdani appelle les New-Yorkais à exiger des règles sur l'IA",
+  "resume": "Lundi soir, le maire Zohran Mamdani a appelé les New-Yorkais à refuser le récit d'une prise de contrôle inévitable par l'IA. Il leur demande d'exiger des régulations qui protègent le public et remettent le pouvoir entre ses mains. Pour lui, le gouvernement fédéral a abandonné le terrain sur ce dossier.",
+  "tags": [
+   "société",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+  "date_source": null,
+  "date_redac": "2026-10-20T02:14:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 638,
+   "sortie": 437
+  }
+ },
+ {
+  "id": "5df492a8893d77e7",
+  "slug": "strata-un-utilisateur-deconseille-la-mise-a-jour-changements-cassants--5df492",
+  "titre": "Strata : un utilisateur déconseille la mise à jour, changements cassants en série",
+  "resume": "Sur r/LocalLLaMA, un utilisateur déconseille de mettre à jour Strata. Il rapporte de nombreux changements cassants, sur sa machine Windows comme sous Linux, ainsi que de nouvelles contraintes jugées inutiles autour du serving. Il note aussi que l'interface web semble céder du terrain au profit d'une application de bureau, et conseille de faire une sauvegarde avant toute mise à jour.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaflhy/do_not_upgrade_strata_tons_of_breaking_changes/",
+  "date_source": "2026-10-20T01:52:05+00:00",
+  "date_redac": "2026-10-20T02:14:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 714,
+   "sortie": 827
+  }
+ },
+ {
   "id": "f53b73cd3fa918a3",
   "slug": "amd-gaia-0-25-des-ameliorations-pour-les-agents-ia-locaux-sur-ryzen-ai-f53b73",
   "titre": "AMD GAIA 0.25 : des améliorations pour les agents IA locaux sur Ryzen AI",
@@ -102,6 +142,26 @@
    "modele": "deepseek-flash",
    "entree": 638,
    "sortie": 623
+  }
+ },
+ {
+  "id": "929e064c7721a03e",
+  "slug": "nscale-et-anthropic-discuteraient-d-un-contrat-de-calcul-de-45-md-929e06",
+  "titre": "Nscale et Anthropic discuteraient d'un contrat de calcul de 45 Md$",
+  "resume": "Selon TechCrunch, Nscale et Anthropic seraient en discussions pour un accord de calcul d'un montant de 45 milliards de dollars. S'il aboutit, ce contrat serait le dernier d'une longue série d'accords de très grande ampleur signés par Anthropic au cours de l'année écoulée.",
+  "tags": [
+   "business",
+   "matériel"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+  "date_source": "2026-10-19T23:39:38+00:00",
+  "date_redac": "2026-10-20T02:14:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 636,
+   "sortie": 413
   }
  },
  {
@@ -1083,6 +1143,27 @@
    "modele": "deepseek-flash",
    "entree": 654,
    "sortie": 444
+  }
+ },
+ {
+  "id": "ecb8a97204a25a7c",
+  "slug": "openclaw-nettoie-le-code-mort-autour-de-matrix-et-du-benchmark-de-pres-ecb8a9",
+  "titre": "OpenClaw nettoie le code mort autour de Matrix et du benchmark de présence",
+  "resume": "OpenClaw publie une passe de nettoyage : la rétention de déduplication Matrix passe en privé, les tests gardant leur attente indépendante de 30 jours. La rétention du replay live reste portée par « durable ingress » et une fixture d'événement obsolète est supprimée. Validation : 62 tests Matrix, lint et revue P2 ; les trois scans de code mort tournent, seul reste un type de test CopilotToolBridgeInput (#177267).",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F04c6f9275eb8-1792440630",
+  "date_source": "2026-10-19T12:29:44+00:00",
+  "date_redac": "2026-10-20T02:14:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 708,
+   "sortie": 942
   }
  },
  {

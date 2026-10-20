@@ -1,5 +1,46 @@
 [
  {
+  "id": "d7b6f8799f064bfa",
+  "slug": "un-configurateur-pour-choisir-son-mac-selon-les-llm-locaux-qu-il-peut--d7b6f8",
+  "titre": "Un configurateur pour choisir son Mac selon les LLM locaux qu'il peut faire tourner",
+  "resume": "Las de devoir deviner quelle configuration de Mac mini ferait tourner ses modèles, un développeur a mis en ligne modelfit.io, un configurateur pensé pour l'IA locale. On y choisit une machine et sa configuration : l'outil indique alors quels modèles tiennent en mémoire et une vitesse estimée pour chacun, mise à jour en temps réel. Les estimations de vitesse viennent d'un modèle ajusté sur de vrais runs llama-bench, et chaque chiffre affiche son erreur typique. Les prix catalogue Apple sont actualisés quotidiennement. L'auteur, qui présente cela comme son propre projet, cherche des retours, notamment de personnes capables de comparer ses estimations à leurs propres mesures.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xagmpd/i_got_tired_of_apples_configurator_so_i_built_one/",
+  "date_source": "2026-10-20T02:42:39+00:00",
+  "date_redac": "2026-10-20T03:16:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 806,
+   "sortie": 584
+  }
+ },
+ {
+  "id": "982d8d76a1b3edcd",
+  "slug": "voicemanager-stt-et-tts-en-streaming-local-sur-un-seul-websocket-982d8d",
+  "titre": "VoiceManager : STT et TTS en streaming local sur un seul WebSocket",
+  "resume": "VoiceManager est un serveur vocal local à faible latence : reconnaissance et synthèse en streaming sur un seul WebSocket. Sous licence MIT, sa configuration par défaut s'appuie sur un sidecar audio.cpp avec Nemotron et Breeze TTS 2. Il gère les conversations à tour de rôle avec barge-in, désactivé par défaut car l'annulation d'écho reste délicate. Docs d'intégration et client Python sont fournis.",
+  "tags": [
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xag5bj/hermesconsole_a_demo_showing_off_voicemanager_my/",
+  "date_source": "2026-10-20T02:18:47+00:00",
+  "date_redac": "2026-10-20T03:16:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 814,
+   "sortie": 1158
+  }
+ },
+ {
   "id": "edfc791139d08a9c",
   "slug": "mamdani-appelle-les-new-yorkais-a-exiger-des-regles-sur-l-ia-edfc79",
   "titre": "Mamdani appelle les New-Yorkais à exiger des règles sur l'IA",

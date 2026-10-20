@@ -1,5 +1,67 @@
 [
  {
+  "id": "db5dbf807431366b",
+  "slug": "microsoft-lance-le-projet-perception-des-agents-ia-pour-securiser-les--db5dbf",
+  "titre": "Microsoft lance le projet Perception, des agents IA pour sécuriser les agents IA",
+  "resume": "L'essor des agents d'IA expose les systèmes d'information à des risques accrus. Microsoft a dévoilé le 19 octobre au soir le projet Perception, qui met à disposition des entreprises une équipe d'agents IA spécialisés dans la sécurité. Objectif : automatiser la simulation, la détection et la remédiation des attaques visant les agents autonomes.",
+  "tags": [
+   "agents",
+   "sécurité",
+   "business"
+  ],
+  "importance": 4,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/cybersecurite/microsoft-devoile-le-projet-perception-pour-automatiser-la-simulation-detection-et-remediation-des-attaques-dagents-ia-autonomes-a-laide-dagents-ia.326XC6WR3JBBZPWJEPUC3I7KUU.html",
+  "date_source": null,
+  "date_redac": "2026-10-20T04:19:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 736,
+   "sortie": 124
+  }
+ },
+ {
+  "id": "d73859b293e83608",
+  "slug": "un-service-systeme-fait-tourner-les-moteurs-ia-a-tour-de-role-sur-une--d73859",
+  "titre": "Un service système fait tourner les moteurs IA à tour de rôle sur une RTX 4090",
+  "resume": "Sur r/LocalLLaMA, un utilisateur décrit un service système qui surveille la carte graphique et charge à la demande le moteur voulu, sans intervention manuelle. Le but : éviter les collisions de VRAM sur une RTX 4090 de 24 Go, où un processus node orphelin ou ComfyUI retenant 500 Mo suffisent à bloquer la suite. Il alterne ainsi llama-swap, strata, ComfyUI et OpenWebUI, y compris depuis plusieurs machines qui partagent la même carte.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xahi82/24gb_is_plenty_if_your_engines_take_turns/",
+  "date_source": "2026-10-20T03:27:05+00:00",
+  "date_redac": "2026-10-20T04:18:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 816,
+   "sortie": 808
+  }
+ },
+ {
+  "id": "818d3d4287b71d0f",
+  "slug": "gemma-4-31b-sur-petit-budget-deux-gpu-relies-en-pcie-x1-ca-vaut-le-cou-818d3d",
+  "titre": "Gemma 4 31B sur petit budget : deux GPU reliés en PCIe x1, ça vaut le coup ?",
+  "resume": "Un utilisateur de r/LocalLLaMA cherche à faire évoluer à petit budget son serveur d'inférence : objectif Gemma 4 31B en Q5_K_M (~23 Go), contexte 16K en q8, au moins 15 t/s. Sa config actuelle (i5-14400F, RTX 3060 12 Go, 32 Go DDR4, Debian, Ollama/llama.cpp) plafonne à 2,3 t/s en sortie. Son plan : ajouter une RTX 5060 Ti 16 Go et déporter la 3060 sur un riser PCIe 3.0 x1, pour 28 Go cumulés.",
+  "tags": [
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xagsfh/budget_upgrade_for_a_31b_model_dual_gpus_over/",
+  "date_source": "2026-10-20T02:50:39+00:00",
+  "date_redac": "2026-10-20T04:19:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 914,
+   "sortie": 1308
+  }
+ },
+ {
   "id": "d7b6f8799f064bfa",
   "slug": "un-configurateur-pour-choisir-son-mac-selon-les-llm-locaux-qu-il-peut--d7b6f8",
   "titre": "Un configurateur pour choisir son Mac selon les LLM locaux qu'il peut faire tourner",

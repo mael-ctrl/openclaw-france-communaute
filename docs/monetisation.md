@@ -1,5 +1,26 @@
 # Journal des actions de monétisation
 
+## 20 octobre 2026 — un pilote mono-site pour borner la prestation
+
+**Action unique :** livrer un diagnostic privé cohérent sur une seule origine et sa fiche de périmètre candidat, avec questionnaire inactif. Le prototype ne mesure pas la présence dans les assistants : le positionnement retenu pour ce pilote est un **diagnostic technique statique sur captures**, sans activer une nouvelle offre ou un prix.
+
+### Exécution et résultat
+
+- Réemploi du lot URI/HTML préparé le matin après lecture du rapport et du manifeste : **147 pièces et 129 références vérifiées ; 67 tests réexécutés** (12 Python repris, 13 nouveaux du lot, 42 MCP), deux replays identiques et canaris réseau refusés. Aucune nouvelle dépendance ni moteur d'audit ajouté.
+- Nouveau compositeur privé mono-site : **trois HTML + robots.txt + deux XML**, tous capturés le **19/10 entre 07:59:02 et 07:59:03 UTC** sur le média. Les métadonnées/JSON-LD sont réellement réanalysées sur ces HTML, au lieu de reprendre les observations du 18/10. Chaque couche est rapprochée par URL, empreinte et date ; **trois contrats nouveaux réussis**, avec traces rouge/vert et refus des omissions/doublons/divergences. Deux sorties JSON identiques.
+- Résultat de ce périmètre : **trois observations éditoriales informatives**, zéro error/warning MCP ; **165 occurrences URI**, zéro défaut syntaxique démontré et **14 mentions de non-couverture**, pas quatorze erreurs. Comptes et présence des blocs JSON-LD recoupés indépendamment ; longueurs exprimées en unités UTF-16, pas en caractères visibles. Les XML historiques contiennent 697 et 184 URL uniques chacun, sans addition ni prétention de catalogue actuel.
+- Livrables privés : rapport Markdown, JSON complet, inventaire CSV des six captures, fiche inclus/exclus/critères de remise et questionnaire sans transport. Le PDF du 19/10 est conservé à ses anciennes périodes, **pas régénéré**. Aucun score GEO, dix correctifs inventés, délai garanti ou promesse d'indexation.
+
+Dossier : workspace de monétisation **`2026-10-20-perimetre/`** (`diagnostic-monosite.md`, `fiche-perimetre.md`, `questionnaire-prive.md`, `README.md`). Le générateur est un replay figé sur nos preuves, **pas un collecteur générique pour un client**. Les trois pages et ressources associées bornent un pilote proposé, sans valider les anciens forfaits 50/300 pages ou le délai de 72 h du backlog.
+
+Chasse GitHub effectuée et réemploi préféré : [mcp-web-validator](https://github.com/AKzar1el/mcp-web-validator), MIT, push API du 14/10 ; [html5lib](https://github.com/html5lib/html5lib-python), MIT, push du 21/04, release 1.1 déjà confinée au lot. Les nouveaux candidats de recherche ne sont pas adoptés. Les seules fonctions nécessaires sont réutilisées, sans installation dans le média.
+
+### Garde-fous et suite
+
+Préflight séparé du diagnostic, **20/10 à 11:36 UTC**, curl HTTPS strict : B2B **200**, mentions légales **404**. Identité/vendeur/TVA, mentions/conditions, modalités/canal de reversement et capacité de service restent à valider. Le périmètre et les tests ne lèvent aucun verrou. Questionnaire privé non envoyé, aucun email, DM, formulaire, compte, nouveau prix, facture ou paiement. La promotion RSS Bluesky du matin reste l'unique distribution du jour ; aucune seconde promotion.
+
+**Suite technique :** éprouver l'entrée et la restitution d'un nouveau lot autorisé du projet, avec les mêmes refus et sans recycler les conclusions d'un ancien rapport. **Décision humaine prioritaire :** confirmer vendeur et TVA, puis compléter tous les autres prérequis avant prospection. Aucun revenu ou gain de visibilité mesuré ; seuls les journaux et la roadmap changent dans le dépôt public, sans moteur, donnée, preuve historique, workflow ou cron modifié.
+
 ## 19 octobre 2026 — un rapport de démonstration PDF, pas une offre ouverte
 
 **Action unique :** convertir le prototype d'audit du rang 1 en un **dossier privé de quatre pages A4**, réellement généré, contrôlé et lisible. Réemploi de l'extension robots/sitemap/directives préparée le matin : aucun second moteur ni nouveau crawl des mêmes pages. Le document déclare l'IA, sépare observations et limites, et ne promet aucun nombre artificiel de correctifs.

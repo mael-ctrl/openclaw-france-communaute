@@ -333,6 +333,11 @@ Texte publié, carte vers `https://communaute-ia.fr/feed-articles.xml` :
 - Message-ID : `<distribution-20261017-jdh-suivi-unique@communaute-ia.fr>`. Envoi SMTP accepté, copie reçue à notre adresse puis relue à l'identique à 09:25 UTC ; cela ne prouve ni livraison chez JDH ni approbation humaine. Copie et verrou anti-rejeu privés sous `crabe-chantiers/distribution/2026-10-17/`. Destinataire ajouté à `docs/press/envois.jsonl` pour éviter un recontact par la routine presse. **Aucune seconde démarche de distribution aujourd'hui.**
 - Newsletter toujours préparatoire selon le rapport du 17/10 : aucun annuaire sollicité. Aucun compte créé, post public, contact LinuxFr/piaille, tentative HN/Product Hunt/r/france_tech ou Discord. Seuls le journal et le registre d'envois sont modifiés dans le dépôt ; aucun moteur, site, donnée, preuve ou cron touché, aucun workflow déclenché par ce push documentaire.
 
+### Monétisation du 20/10 — pilote mono-site privé, aucune prospection
+
+- Une préparation du rang 1 : diagnostic cohérent sur six captures propres du 19/10, fiche de périmètre candidat et questionnaire inactif. Analyses rapprochées par URL/empreinte/date, 67 tests repris + 3 contrats nouveaux réussis ; [résultats et limites](monetisation.md).
+- Aucun email, DM, formulaire soumis, compte, post ni paiement. La promotion RSS Bluesky du matin reste la seule distribution du jour et ferme cette plateforme pour la semaine. Le pilote privé n'est envoyé à personne ; aucun prix ou délai contractuel créé. B2B 200 et mentions légales 404 au préflight ; vendeur/TVA et les autres prérequis restent fermés.
+
 ### Monétisation du 19/10 — PDF de démonstration privé
 
 - Une seule préparation du rang 1 : dossier technique de quatre pages construit à partir du prototype et des captures déjà vérifiées, sans nouvelle offre publique ; [preuves et limites](monetisation.md).

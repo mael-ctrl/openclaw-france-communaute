@@ -1,0 +1,41 @@
+{
+ "slug": "deepseek-banni-agents-offensifs-la-securite-de-l-ia-change-d-c905ae",
+ "titre": "DeepSeek banni, agents offensifs : la sécurité de l'IA change de camp",
+ "chapo": "Washington interdit DeepSeek à ses agences civiles, invoquant la surveillance et des malwares cachés dans l'outil. La même semaine, l'armée américaine veut envoyer des agents IA attaquer des réseaux, Microsoft déploie des agents pour défendre les agents, et Anthropic propose de fixer un seuil légal avant tout arrêt de modèle.",
+ "html": "<h2 id=\"deepseek-indesirable-dans-les-agences-ci\">DeepSeek, indésirable dans les agences civiles américaines</h2>\n<p>Les États-Unis ont ordonné à leurs agences civiles de cesser d'utiliser DeepSeek, le chatbot d'IA chinois. La décision vise directement la Chine, accusée de surveiller les Américains. Les autorités évoquent aussi la présence possible de « malwares » cachés dans l'outil, selon 01net.</p>\n<p>Au même moment, DeepSeek publie DeepInfer, un framework d'inférence open source présenté comme performant et adapté aux modèles de grande échelle. Ses auteurs le destinent à l'exécution des modèles DeepSeek. Sur r/LocalLLaMA, la communauté y voit surtout une occasion d'étudier le fonctionnement interne des moteurs d'inférence pour améliorer les implémentations existantes, comme celles de gufo, halogen, strixite ou Strata. Deux actualités distinctes, un même acteur : côté usage, on ferme la porte ; côté code, on ouvre le capot.</p>\n<h2 id=\"echotribble-des-agents-ia-pour-l-offensi\">ECHOTRIBBLE : des agents IA pour l'offensive</h2>\n<p>Selon une enquête de The Intercept publiée le 19 octobre 2026, l'armée américaine veut confier à des agents IA des missions offensives : explorer des réseaux, se propager d'un appareil à l'autre et neutraliser des cibles. Le projet, baptisé ECHOTRIBBLE, est encore en développement.</p>\n<p>Le point sensible tient en trois mots : « supervision humaine minimale ». C'est sur cette base que les agents devraient opérer, ce qui soulève des inquiétudes sur le contrôle humain. La question n'est plus de savoir si un modèle peut agir seul sur un réseau, mais combien de regards humains restent dans la boucle pendant qu'il le fait.</p>\n<h2 id=\"microsoft-veut-des-agents-pour-surveille\">Microsoft veut des agents pour surveiller les agents</h2>\n<p>L'essor des agents d'IA expose les systèmes d'information à des risques accrus. Microsoft a dévoilé le 19 octobre au soir le projet Perception, qui met à disposition des entreprises une équipe d'agents IA spécialisés dans la sécurité.</p>\n<p>Objectif affiché : automatiser la simulation, la détection et la remédiation des attaques visant les agents autonomes. Autrement dit, la défense emprunte les mêmes briques que l'attaque — des agents qui patrouillent pour contenir d'autres agents. Le vocabulaire militaire employé par l'armée et le vocabulaire industriel de Microsoft decrivent la même bascule : l'agent devient une unité déployable, qu'on protège ou qu'on envoie en première ligne.</p>\n<h2 id=\"anthropic-et-le-seuil-des-50-morts\">Anthropic et le seuil des 50 morts</h2>\n<p>Selon Politico, Anthropic fait circuler au Congrès un projet de loi qui limiterait l'arrêt d'un modèle d'IA aux seuls risques imminents de plus de 50 morts ou blessés graves, ou de plus d'un milliard de dollars de dommages. La décision reviendrait à un juge saisi par le Commerce.</p>\n<p>Le seuil n'est pas sorti de nulle part : il vient de la loi californienne SB 53 et figure aussi dans le FRONTIER Act. Reste un point de friction, la préemption des lois d'États, qui divise. Un chiffre gravé dans un texte fédéral ferait office de plancher commun — ou de plafond, selon le camp.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, une même semaine, et une ligne de fracture qui se dessine. Un État bannit un chatbot étranger pour surveillance et malwares potentiels, une armée prépare des agents qui se propagent de machine en machine avec une supervision humaine minimale, un éditeur vend des agents défenseurs pour contenir les agents autonomes, un laboratoire propose d'inscrire dans la loi le seuil à partir duquel un modèle mérite d'être arrêté. Le contrôle humain n'est plus seulement un principe de conception : il devient un paramètre chiffré, négocié devant un juge ou un Congrès.</p>",
+ "pivot": "c905ae7c5acac3f5",
+ "tags": [
+  "deepseek",
+  "agents",
+  "sécurité",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/le-gouvernement-americain-banni-deepseek-lia-chinoise-est-accusee-de-surveillance-de-masse.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2356515-supervision-humaine-minimale-larmee-americaine-veut-envoyer-des-agents-ia-pirater-ses-ennemis.html"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/cybersecurite/microsoft-devoile-le-projet-perception-pour-automatiser-la-simulation-detection-et-remediation-des-attaques-dagents-ia-autonomes-a-laide-dagents-ia.326XC6WR3JBBZPWJEPUC3I7KUU.html"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/anthropic-propose-de-ne-bloquer-un-modele-quen-cas-de-risque-imminent-de-plus-de-50-morts-ou-blesses-graves-ou-1-md/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xanm55/deepseek_released_deepinfer_open_source/"
+  }
+ ],
+ "date": "2026-10-20T10:01:06+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1625,
+  "sortie": 2473
+ }
+}

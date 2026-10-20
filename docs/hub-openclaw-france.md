@@ -524,6 +524,39 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-19/hub-kit-hermes-budget/`.
 
+## Confidentialité du kit Hermes — livraison du 20/10/2026
+
+- **Une amélioration livrée** : le `GUIDE.md` retire les promesses « rien ne sort
+  du tout » et « tout reste chez vous ». Il distingue stockage local, contexte
+  envoyé au modèle, outils/services connectés, modèles auxiliaires et fournisseurs
+  de secours. Une checklist précède la première session : destinations, outils,
+  fichier sans secrets et contrôle réseau indépendant si le hors-ligne est exigé.
+- FAQ, Providers, Tools et Configuration officiels relus le 20/10 : HTTPS 200
+  et ancres vérifiées. La mention de non-télémétrie est attribuée à la documentation,
+  pas transformée en garantie de confinement. Aucun audit réseau ni installation
+  réelle prétendu ; aucun bloc de commandes, script, configuration, HTML ou sitemap
+  modifié.
+- Les **3 nouveaux tests** échouent avant correction puis passent ; suite complète
+  **168 tests OK** avec `TMPDIR` fixé au scratch Hermes. Les 3 nouveaux contrôles
+  passent aussi sur le GUIDE téléchargé en HTTPS. ZIP intègres et exacts ; seuls
+  le GUIDE et son ZIP changent, et seul `GUIDE.md` change à l’intérieur de l’archive.
+  Les 4 scripts shell passent `bash -n` ; cela ne valide pas leur installation.
+- Déploiement avec `python3 outils/deployer_openclaw.py` depuis le clone cron
+  `~/.hermes/workspaces/hub-openclaw-20261003`, le Bureau étant toujours illisible.
+  Sauvegarde préalable de **35 fichiers**, sans divergence production/Git ;
+  **35 fichiers relus via FTP**, tous identiques aux sources après envoi.
+  Dates/modes restaurés avant régénération : ZIP OpenClaw inchangé octet pour octet.
+- Santé : **les six URL demandées en HTTP 200** avant et après publication ;
+  **10 URL en HTTP 200** au contrôle final étendu. GUIDE et archives publics,
+  y compris les téléchargements `?v=2`, identiques aux sources. **IndexNow HTTP 200**
+  pour l’URL du GUIDE Markdown : notification acceptée, pas indexation prouvée.
+- **Aucune distribution supplémentaire** : le post Bluesky RSS de ce matin occupe
+  déjà le quota quotidien et hebdomadaire de cette plateforme, selon le journal
+  `docs/distribution-textes.md` resynchronisé. Prochaine priorité : harmoniser les
+  précautions de confidentialité dans le README du kit Hermes.
+  Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-20/hub-kit-hermes-confidentialite/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

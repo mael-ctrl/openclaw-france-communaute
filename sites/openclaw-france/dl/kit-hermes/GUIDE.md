@@ -27,9 +27,10 @@ Ce qui le distingue :
 - **Plusieurs surfaces** — le terminal (CLI et TUI), une application desktop, un
   tableau de bord web, et même un « gateway » multi-plateformes (Telegram, Discord,
   Slack…).
-- **Votre vie privée** — pas de télémétrie ; conversations, mémoire et skills restent
-  dans `~/.hermes/`. Seuls les appels au fournisseur que vous configurez sortent de
-  votre machine (et avec un modèle local, rien ne sort du tout).
+- **Votre vie privée** — la documentation annonce un stockage local de base et
+  aucune télémétrie Hermes. Cela ne bloque pas les envois de contexte au modèle
+  ni aux outils et services activés. **Un modèle local ne rend pas tout l’agent
+  hors ligne** : lisez les précautions de confidentialité à l’étape 2.
 
 **Combien ça coûte ?** Le kit et le logiciel sont gratuits. Selon votre choix,
 le modèle peut utiliser une **API facturée**, un **abonnement** ou tourner sur
@@ -242,7 +243,48 @@ Deux conseils du guide officiel : choisissez un modèle qui **sait appeler des
 outils** (c'est ce qui permet à l'agent d'agir, pas seulement de discuter), et montez
 son contexte à 64 000 tokens minimum. La mémoire nécessaire dépend du modèle,
 de sa quantification et du contexte réellement configuré : **aucun minimum RAM universel**
-n’est garanti ici. Appels, fichiers, commandes : tout reste chez vous.
+n’est garanti ici. Le serveur local traite les appels de ce modèle ; les autres
+fonctions de l’agent peuvent encore utiliser le réseau.
+
+### Confidentialité : modèle local ne veut pas dire hors ligne
+
+**Stockage et transmission sont deux choses différentes.** La FAQ officielle
+indique que les conversations, la mémoire et les skills de base sont stockés
+localement dans `~/.hermes/`, sans télémétrie Hermes. Une copie locale ne garantit
+pas que son contenu ne sera jamais transmis : un **fournisseur de modèle distant**
+peut recevoir les messages, extraits de fichiers et résultats d’outils ajoutés
+au **contexte**. Consultez ses règles de conservation avant de lui confier des données.
+
+Même avec Ollama sur votre machine, la **recherche web**, le navigateur, les
+API d’images ou de voix, les serveurs **MCP**, les intégrations de **messagerie**
+ou les extensions de **mémoire** peuvent contacter des services externes.
+Les données transmises dépendent des outils et de leur configuration.
+Les **modèles auxiliaires** (vision, compression…) et les **fournisseurs de secours**
+peuvent aussi être configurés séparément du modèle principal : vérifiez leur
+destination, sans supposer qu’un modèle principal local suffit.
+
+**Avant un premier essai :**
+
+1. Vérifiez le modèle et son adresse avec `hermes model`, y compris les modèles
+   auxiliaires ; contrôlez aussi les fournisseurs de secours configurés.
+2. Examinez les outils avec `hermes tools` et les intégrations activées ;
+   désactivez ce qui est inutile. Limiter les outils web **ne bloque pas à lui seul
+   les accès réseau du terminal**, des scripts ou des extensions.
+3. Travaillez sur un **fichier de test sans secrets**, avec les accès minimaux.
+   Ne partagez pas de clés API, de fichier `.env`, de journaux bruts ou de
+   sauvegardes contenant des identifiants dans une demande de support.
+4. Si l’absence de sortie réseau est une exigence, prévoyez un **contrôle réseau
+   indépendant** et testez votre configuration dans un environnement isolé.
+   Le kit ne vérifie pas cette propriété : ce guide n’est **pas un audit réseau**
+   ni une garantie de confidentialité de chaque fournisseur ou extension.
+
+**Sources officielles consultées le 2026-10-20** :
+[stockage local et télémétrie](https://hermes-agent.nousresearch.com/docs/reference/faq#is-my-data-sent-anywhere),
+[outils activés](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools#using-toolsets),
+[services optionnels](https://hermes-agent.nousresearch.com/docs/integrations/providers#optional-api-keys),
+[modèles auxiliaires](https://hermes-agent.nousresearch.com/docs/user-guide/configuration#auxiliary-models)
+et [fournisseurs de secours](https://hermes-agent.nousresearch.com/docs/integrations/providers#fallback-providers).
+
 
 ## 5. Étape 3 — Votre première session
 

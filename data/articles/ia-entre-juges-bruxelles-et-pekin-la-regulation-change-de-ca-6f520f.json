@@ -1,0 +1,41 @@
+{
+ "slug": "ia-entre-juges-bruxelles-et-pekin-la-regulation-change-de-ca-6f520f",
+ "titre": "IA : entre juges, Bruxelles et Pékin, la régulation change de camp",
+ "chapo": "Un modèle peut-il être bloqué avant même sa sortie ? Anthropic propose un seuil macabre — 50 morts potentielles — et confie la décision à un juge. Au même moment, Bruxelles fait des agents IA des produits à responsabilité et Pékin filtre ses technologies à l'export.",
+ "html": "<h2 id=\"le-seuil-des-50-morts-et-le-juge-en-arbi\">Le seuil des 50 morts et le juge en arbitre</h2>\n<p>Anthropic défend un projet de loi sur la sécurité des IA qui permettrait de bloquer la publication d'un modèle si plus de 50 personnes risquent d'être tuées. Sur le papier, l'argument est celui d'un garde-fou contre les dérives de l'IA.</p>\n<p>Le dispositif fait surtout autre chose : il <strong>interdit aux agences fédérales de bloquer la publication d'un modèle sans l'autorisation d'un juge</strong>. Une administration qui jugerait un modèle dangereux devrait donc passer par le tribunal avant de pouvoir le retenir. Le pouvoir de décision glisse du régulateur vers le judiciaire — un déplacement qui pèse autant que le seuil affiché.</p>\n<p>La dépêche ne précise pas qui établit le risque de 50 morts, ni sur quelles données. Le chiffre tient lieu de déclencheur sans que la mécanique d'évaluation soit détaillée.</p>\n<h2 id=\"a-bruxelles-l-agent-devient-un-produit\">À Bruxelles, l'agent devient un produit</h2>\n<p>La directive (UE) 2024/2853, à transposer au plus tard le <strong>9 décembre 2026</strong>, fait du logiciel un produit — SaaS compris. Conséquence directe : qui développe ou vend sous sa marque un agent IA devient <strong>fabricant</strong>, et répond sans faute des lésions, des atteintes psychologiques médicalement reconnues et des destructions de données non professionnelles causées par un défaut.</p>\n<p>Le régime ne s'arrête pas à la mise sur le marché. Une <strong>mise à jour substantielle</strong> survenant après cette date fait entrer un agent existant dans le champ de la directive. Un agent déployé avant l'échéance n'est donc pas figé hors du dispositif.</p>\n<p>Là où le texte américain en discussion déplace l'arbitrage vers un juge, la directive européenne installe la responsabilité chez celui qui met le produit en circulation sous son nom.</p>\n<h2 id=\"pekin-filtre-washington-bannit\">Pékin filtre, Washington bannit</h2>\n<p>Depuis le <strong>16 octobre 2026</strong>, Pékin impose une déclaration préalable pour exporter 40 technologies, dont 23 en IA. Le catalogue est en consultation jusqu'au 15 novembre. Le ministère du Commerce chinois épargne deux usages : l'appel d'un modèle par API et les technologies publiées en open source restent hors champ.</p>\n<p>La tolérance a une limite : le déploiement localisé hors de Chine d'un modèle restreint entrera dans le champ une fois le catalogue en vigueur.</p>\n<p>Washington avance par l'autre bout. Les agences civiles américaines doivent cesser d'utiliser DeepSeek. La décision vise directement la Chine, accusée de surveiller les Américains, et les autorités évoquent aussi la présence possible de « malwares » cachés dans l'outil.</p>\n<h2 id=\"en-france-l-effet-se-lit-sur-les-embauch\">En France, l'effet se lit sur les embauches</h2>\n<p>Environ <strong>600 entreprises françaises</strong> déclarant un usage intensif de l'IA ont embauché en 2025 de <strong>17 à 25 % de jeunes de 21 à 29 ans en CDI en moins</strong> que les autres entreprises de leur secteur, sans écart net sur leur effectif total. L'étude est signée d'économistes de HEC Paris, de la Banque de France et de l'INSEAD.</p>\n<p>Les auteurs recommandent de redéfinir les premiers postes autour de ce que l'IA accomplit mal. La question se déplace : moins le volume d'embauches que la nature des tâches confiées aux juniors.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois mouvements, une même tendance : la responsabilité se déplace. Anthropic propose de la confier à un juge, Bruxelles à celui qui vend l'agent sous sa marque, Pékin à un catalogue d'exportation, Washington à un bannissement. Aucun de ces textes ne dit ce que vaut un modèle — seulement qui répond quand il échoue. Pour les entreprises, la facture se présente sous deux formes : la responsabilité sans faute côté produit, la baisse des embauches juniors côté organisation.</p>",
+ "pivot": "6f520f816c521f0f",
+ "tags": [
+  "sécurité",
+  "business",
+  "agents",
+  "deepseek"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/les-entreprises-les-plus-converties-a-lia-embauchent-jusqua-25-de-jeunes-en-cdi-en-moins/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/le-gouvernement-americain-banni-deepseek-lia-chinoise-est-accusee-de-surveillance-de-masse.html"
+  }
+ ],
+ "date": "2026-10-20T23:21:32+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1603,
+  "sortie": 3121
+ }
+}

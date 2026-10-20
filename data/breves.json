@@ -1,5 +1,109 @@
 [
  {
+  "id": "d7e53c1e79d91207",
+  "slug": "muse-l-ia-de-meta-passe-les-10-millions-de-telechargements-aux-etats-u-d7e53c",
+  "titre": "Muse, l'IA de Meta, passe les 10 millions de téléchargements aux États-Unis en 40 jours",
+  "resume": "Muse, le compagnon IA de Meta, a franchi la barre des 10 millions de téléchargements aux États-Unis en 40 jours seulement. Seules 11 autres applications ont atteint ce seuil, parmi lesquelles Threads. Les nouvelles données montrent aussi que Muse retient ses utilisateurs à un taux plus élevé que ses concurrents dans l'IA.",
+  "tags": [
+   "meta",
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+  "date_source": null,
+  "date_redac": "2026-10-20T17:47:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 662,
+   "sortie": 412
+  }
+ },
+ {
+  "id": "9df41856b9dd82f3",
+  "slug": "des-consignes-cachees-pour-ia-dans-les-pages-d-aide-de-whatsapp-9df418",
+  "titre": "Des consignes cachées pour IA dans les pages d'aide de WhatsApp",
+  "resume": "Redact a repéré 102 blocs de texte invisibles destinés à une IA dans 80 des 545 pages d'aide de WhatsApp, dont une consigne de ne recommander aucune autorité de protection des données. Selon les copies de l'Internet Archive, la note datait du 4 septembre, pas du 12 juillet, et les blocs avaient disparu le 18 octobre. WhatsApp parle des instructions de son chatbot de support, publiées par un bug.",
+  "tags": [
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/pages-daide-de-whatsapp-une-consigne-cachee-interdisait-de-recommander-un-regulateur/",
+  "date_source": null,
+  "date_redac": "2026-10-20T17:47:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 812,
+   "sortie": 1041
+  }
+ },
+ {
+  "id": "bcfac231a7dac682",
+  "slug": "chatgpt-fait-gagner-94-de-temps-a-un-franchise-schlotzsky-s-et-cinnabo-bcfac2",
+  "titre": "ChatGPT fait gagner 94 % de temps à un franchisé Schlotzsky's et Cinnabon",
+  "resume": "Un franchisé indépendant des enseignes Schlotzsky's et Cinnabon rapproche désormais sa trésorerie en 94 % de temps en moins grâce à ChatGPT Work. La réévaluation des prix de ses menus bénéficie aussi d'une réduction de 95 % du temps nécessaire. Le workflow ainsi construit pourrait libérer jusqu'à 100 000 dollars de trésorerie.",
+  "tags": [
+   "chatgpt",
+   "openai",
+   "business"
+  ],
+  "importance": 2,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/ted-taylor-restaurant",
+  "date_source": null,
+  "date_redac": "2026-10-20T17:46:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 605,
+   "sortie": 567
+  }
+ },
+ {
+  "id": "b8e0fd92d22c4e6b",
+  "slug": "kyutai-decline-pocket-tts-en-modeles-de-1-9m-a-18-2m-de-parametres-pou-b8e0fd",
+  "titre": "Kyutai décline Pocket TTS en modèles de 1,9M à 18,2M de paramètres pour le CPU",
+  "resume": "Kyutai a publié le 20 octobre trois modèles Pocket TTS réduits : 1,9M, 6,9M et 18,2M de paramètres. Ces modèles anglais savent cloner une voix et sont conçus pour tourner sur CPU, avec un sélecteur de taille dans la démo. L'intérêt : garder la synthèse vocale sur le processeur et laisser le GPU au LLM, sans arbitrage supplémentaire de VRAM. À noter que les décomptes incluent le décodeur audio ; l'encodeur qui traite la voix de référence est séparé.",
+  "tags": [
+   "recherche",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaxm11/pocket_tts_small_cpu_voice_cloning_with_models_as/",
+  "date_source": "2026-10-20T16:58:49+00:00",
+  "date_redac": "2026-10-20T17:46:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 811,
+   "sortie": 444
+  }
+ },
+ {
+  "id": "04c55e59e65b1b57",
+  "slug": "en-lituanie-un-congres-d-ia-medicale-mise-sur-les-modeles-locaux-04c55e",
+  "titre": "En Lituanie, un congrès d'IA médicale mise sur les modèles locaux",
+  "resume": "Une conférence lituanienne sur l'IA en médecine a présenté des travaux très concrets. La responsable du labo AIML.lt y a détaillé des modèles de décision expérimentaux pour les questions-réponses médicales, publiés sur Hugging Face. Autre projet : un serveur MCP qui accélère le travail des généticiens sur l'analyse des cassures chromosomiques en diagnostic de maladies rares.",
+  "tags": [
+   "recherche",
+   "agents",
+   "société"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaxffx/short_report_from_lithuanian_conference_on_ai/",
+  "date_source": "2026-10-20T16:51:37+00:00",
+  "date_redac": "2026-10-20T17:46:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 848,
+   "sortie": 1349
+  }
+ },
+ {
   "id": "3bb2b2a35ab28c0a",
   "slug": "elon-musk-dit-avoir-un-peu-de-cyberpsychose-ce-que-ca-recouvre-3bb2b2",
   "titre": "Elon Musk dit avoir « un peu de cyberpsychose » : ce que ça recouvre",

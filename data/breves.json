@@ -1,5 +1,45 @@
 [
  {
+  "id": "f32aa16931b11e75",
+  "slug": "synchroniser-un-projet-de-40-a-50-go-entre-deux-machines-pour-travaill-f32aa1",
+  "titre": "Synchroniser un projet de 40 à 50 Go entre deux machines pour travailler avec Claude",
+  "resume": "Un utilisateur du subreddit r/ClaudeAI demande quelle est la meilleure façon de synchroniser un même projet entre deux machines lorsqu'on travaille avec Claude. GitHub convient aux petits projets, mais la question porte sur des volumes de 40 à 50 Go. Il cherche donc la méthode optimale pour retrouver son projet à l'identique d'un poste à l'autre.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xak6yi/best_way_to_sync_project_on_two_machines_for/",
+  "date_source": "2026-10-20T05:57:38+00:00",
+  "date_redac": "2026-10-20T06:23:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 659,
+   "sortie": 319
+  }
+ },
+ {
+  "id": "bd3d8e0dd945eecd",
+  "slug": "claude-desktop-ne-signale-plus-les-mises-a-jour-disponibles-bd3d8e",
+  "titre": "Claude Desktop ne signale plus les mises à jour disponibles",
+  "resume": "Sur Reddit, un utilisateur de Claude Desktop signale que l'application ne l'avertit plus des mises à jour disponibles. Jusqu'à il y a quelques mois, une notification permettait de voir qu'une nouvelle version existait et de l'installer quand il le souhaitait. Elle a disparu : impossible de savoir si un redémarrage changera l'interface, alors que les refontes récentes déplacent des contrôles sans prévenir.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xak0tb/claude_desktop_no_longer_tells_me_when_an_update/",
+  "date_source": "2026-10-20T05:47:17+00:00",
+  "date_redac": "2026-10-20T06:23:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 826,
+   "sortie": 826
+  }
+ },
+ {
   "id": "db5dbf807431366b",
   "slug": "microsoft-lance-le-projet-perception-des-agents-ia-pour-securiser-les--db5dbf",
   "titre": "Microsoft lance le projet Perception, des agents IA pour sécuriser les agents IA",
@@ -18,6 +58,28 @@
    "modele": "deepseek-flash",
    "entree": 736,
    "sortie": 124
+  }
+ },
+ {
+  "id": "27aea2147a21fb6a",
+  "slug": "sur-runescape-les-modeles-d-ia-perdent-du-temps-a-trop-planifier-27aea2",
+  "titre": "Sur RuneScape, les modèles d'IA perdent du temps à trop planifier",
+  "resume": "Sur Reddit, un joueur partage un benchmark présenté comme un test d'AGI : donner le wiki de RuneScape à des modèles et les faire s'affronter sur une compétition d'XP. Certains passent tant de temps à lire la documentation et à planifier que leurs performances en pâtissent. Gemini se fait démolir par des géants de glace en pleine wilderness, GPT forge à coups de clics, Claude relit les wikis avant de tenter des drops.",
+  "tags": [
+   "claude",
+   "gemini",
+   "chatgpt",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xai0mf/claude_is_an_overthinking_gamer_lessons_from/",
+  "date_source": "2026-10-20T03:53:50+00:00",
+  "date_redac": "2026-10-20T06:23:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 787,
+   "sortie": 939
   }
  },
  {
@@ -63,6 +125,26 @@
   }
  },
  {
+  "id": "e242a1e029c78e73",
+  "slug": "sur-r-claudeai-un-utilisateur-cherche-a-supprimer-un-element-qui-le-de-e242a1",
+  "titre": "Sur r/ClaudeAI, un utilisateur cherche à supprimer un élément qui le dérange",
+  "resume": "Sur le subreddit r/ClaudeAI, un utilisateur demande comment se débarrasser d'un élément qu'il juge insupportable. « Je n'arrive plus à me concentrer », écrit-il dans un message publié le 20 octobre 2026. L'extrait ne précise ni la nature de l'élément en cause, ni l'interface concernée.",
+  "tags": [
+   "claude",
+   "société"
+  ],
+  "importance": 1,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xahbyp/how_to_remove_this_fucking_annoying_shit/",
+  "date_source": "2026-10-20T03:17:52+00:00",
+  "date_redac": "2026-10-20T06:23:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 615,
+   "sortie": 880
+  }
+ },
+ {
   "id": "818d3d4287b71d0f",
   "slug": "gemma-4-31b-sur-petit-budget-deux-gpu-relies-en-pcie-x1-ca-vaut-le-cou-818d3d",
   "titre": "Gemma 4 31B sur petit budget : deux GPU reliés en PCIe x1, ça vaut le coup ?",
@@ -100,6 +182,27 @@
    "modele": "deepseek-flash",
    "entree": 806,
    "sortie": 584
+  }
+ },
+ {
+  "id": "3848bfb7929f8c4f",
+  "slug": "chez-anthropic-80-du-temps-des-sessions-claude-se-passe-a-attendre-l-h-3848bf",
+  "titre": "Chez Anthropic, 80 % du temps des sessions Claude se passe à attendre l'humain",
+  "resume": "Anthropic a publié un rapport interne sur la façon dont ses propres salariés travaillent avec Claude. Constat principal : 80 % du temps écoulé des sessions se passe à attendre une intervention humaine — c'est l'agent qui patiente, pas l'inverse. Un salarié parle d'« une armée de Claudes, chacun réclamant mon attention ». Le rapport note aussi que la part stratégique du travail, 20 % auparavant, tend à devenir 90 %.",
+  "tags": [
+   "claude",
+   "agents",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xag7e5/anthropics_internal_report_80_of_claude_session/",
+  "date_source": "2026-10-20T02:21:38+00:00",
+  "date_redac": "2026-10-20T06:23:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 833,
+   "sortie": 528
   }
  },
  {
@@ -161,6 +264,26 @@
    "modele": "deepseek-flash",
    "entree": 714,
    "sortie": 827
+  }
+ },
+ {
+  "id": "e5cdc8cef14b9443",
+  "slug": "sur-reddit-un-utilisateur-cherche-pourquoi-claude-prend-tant-de-place-e5cdc8",
+  "titre": "Sur Reddit, un utilisateur cherche pourquoi Claude prend tant de place",
+  "resume": "Sur le subreddit r/ClaudeAI, un utilisateur s'étonne de l'espace occupé par Claude sur son ordinateur et demande comment y remédier. Il précise vouloir aussi utiliser sa machine pour d'autres choses. La question porte donc sur l'empreinte locale de l'application, pas sur les capacités du modèle.",
+  "tags": [
+   "claude",
+   "matériel"
+  ],
+  "importance": 1,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xafaai/why_is_claude_taking_up_so_much_space/",
+  "date_source": "2026-10-20T01:37:12+00:00",
+  "date_redac": "2026-10-20T06:23:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 625,
+   "sortie": 1055
   }
  },
  {

@@ -1,5 +1,46 @@
 [
  {
+  "id": "3bb2b2a35ab28c0a",
+  "slug": "elon-musk-dit-avoir-un-peu-de-cyberpsychose-ce-que-ca-recouvre-3bb2b2",
+  "titre": "Elon Musk dit avoir « un peu de cyberpsychose » : ce que ça recouvre",
+  "resume": "Lors d'un événement organisé par des fans de Tesla, Elon Musk a confié avoir « un peu de cyberpsychose » et avoir vécu plusieurs « psychoses IA » cette année. L'expression est devenue à la mode dans la Silicon Valley, mais elle recouvre pour les psychiatres des cas bien réels, qu'ils commencent tout juste à documenter.",
+  "tags": [
+   "société",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/jai-un-peu-de-cyberpsychose-ce-que-cache-letrange-confidence-delon-musk.html",
+  "date_source": null,
+  "date_redac": "2026-10-20T16:37:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 683,
+   "sortie": 492
+  }
+ },
+ {
+  "id": "5958e905fd0787dd",
+  "slug": "electric-plant-mise-sur-l-ia-pour-decoder-le-langage-electrique-des-pl-5958e9",
+  "titre": "Electric Plant mise sur l'IA pour décoder le langage électrique des plantes",
+  "resume": "La startup Electric Plant a mis au point un traducteur dopé à l'IA pour décoder les signaux électriques qui circulent dans les tiges des plantes. L'objectif : permettre aux humains d'écouter ce que ces signaux véhiculent. Le point de départ du projet : les plantes « parlent » via l'électricité, une langue qui reste aujourd'hui inaudible pour nous.",
+  "tags": [
+   "recherche",
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
+  "date_source": null,
+  "date_redac": "2026-10-20T16:37:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 624,
+   "sortie": 544
+  }
+ },
+ {
   "id": "ff614b7e478769ae",
   "slug": "hugging-face-met-en-avant-torchtpu-et-le-support-natif-des-tpu-ff614b",
   "titre": "Hugging Face met en avant TorchTPU et le support natif des TPU",
@@ -59,6 +100,26 @@
    "modele": "deepseek-flash",
    "entree": 583,
    "sortie": 782
+  }
+ },
+ {
+  "id": "3a3654273ee287f7",
+  "slug": "mimo-2-6-en-boucle-sur-hmm-dans-ses-traces-de-raisonnement-3a3654",
+  "titre": "MiMo 2.6 en boucle sur « hmm » dans ses traces de raisonnement",
+  "resume": "Sur r/LocalLLaMA, un utilisateur remarque que « hmm » est devenu le mot favori de MiMo 2.6 dans ses traces de raisonnement, répété à presque chaque phrase. Le modèle y explore un détail d'Android — un marqueur dans un parcel AIDL, entre writeInt32(1), présence de parcelable et taille d'enveloppe — en accumulant les hypothèses et en revenant sur ses propres pistes. Un aperçu de ce à quoi ressemble un raisonnement qui tourne en rond.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xawa17/mimo_26_is_reasoning_is_like_the_crash_test/",
+  "date_source": "2026-10-20T16:08:49+00:00",
+  "date_redac": "2026-10-20T16:37:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 878,
+   "sortie": 1114
   }
  },
  {

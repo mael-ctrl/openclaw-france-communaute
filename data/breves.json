@@ -1,5 +1,128 @@
 [
  {
+  "id": "214713c135d71638",
+  "slug": "mdph-la-cnsa-a-teste-une-ia-de-tri-des-dossiers-sans-publier-les-resul-214713",
+  "titre": "MDPH : la CNSA a testé une IA de tri des dossiers, sans publier les résultats",
+  "resume": "La CNSA a fait tester dans des MDPH un outil d'IA qui découpe et classe les pièces des dossiers papier numérisés, puis vérifie la recevabilité de la demande. Les essais ont utilisé des dossiers de personnes décédées, sans écriture dans le système d'information. Au 20 octobre, cnsa.fr ne publie ni les résultats attendus à la mi-octobre ni la méthode d'évaluation, les rapports des sites étant dus le 30 septembre 2026.",
+  "tags": [
+   "france",
+   "société"
+  ],
+  "importance": 3,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/dossiers-mdph-la-cnsa-a-fait-tester-lia-pour-raccourcir-48-mois-dattente/",
+  "date_source": null,
+  "date_redac": "2026-10-20T14:08:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 807,
+   "sortie": 1486
+  }
+ },
+ {
+  "id": "926d54e09f9c1d40",
+  "slug": "flashmask-3-un-noyau-d-attention-adapte-a-hopper-pour-le-long-contexte-926d54",
+  "titre": "FlashMask-3 : un noyau d'attention adapté à Hopper pour le long contexte",
+  "resume": "Sur les modèles à long contexte, combiner masques d'attention structurés et parallélisme de contexte multi-nœuds fait du masque le principal goulot d'étranglement. FlashMask compressait déjà ces masques de O(n²) à O(n) grâce à quatre vecteurs de bornes, mais son implémentation visait les GPU Ampere, sans exploiter le pipeline warp-specialized TMA/WGMMA de FlashAttention-3 sur Hopper, ni le mode distribué. FlashMask-3 introduit un noyau Hopper tenant compte du masque.",
+  "tags": [
+   "recherche",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xasztg/paper_flashmask3_efficient_and_expressive/",
+  "date_source": "2026-10-20T14:02:52+00:00",
+  "date_redac": "2026-10-20T14:07:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 790,
+   "sortie": 575
+  }
+ },
+ {
+  "id": "af0a0d995824617a",
+  "slug": "remory-des-jetons-memoire-residuels-pour-compacter-le-contexte-des-age-af0a0d",
+  "titre": "REMORY : des jetons mémoire résiduels pour compacter le contexte des agents",
+  "resume": "REMORY propose une mémoire résiduelle pour la compaction de contexte : un réseau neuronal génère une suite bornée de soft memory tokens ajoutés après le résumé, pour aider un LLM gelé à approcher sa réponse avec l'historique complet. Sur SummHay, l'attribution des sources s'améliore à couverture quasi inchangée avec 5,2 % des positions d'entrée. Qwen3.8-27B et GLM-5.3-Flash gagnent sur des benchmarks d'agents long horizon.",
+  "tags": [
+   "recherche",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xasp90/paper_remory_learning_residual_memory_for_context/",
+  "date_source": "2026-10-20T13:50:57+00:00",
+  "date_redac": "2026-10-20T14:08:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 806,
+   "sortie": 1374
+  }
+ },
+ {
+  "id": "abd9e2b3e989e962",
+  "slug": "dlite-un-decodage-speculatif-sans-historique-pour-les-agents-ia-abd9e2",
+  "titre": "DLite, un décodage spéculatif sans historique pour les agents IA",
+  "resume": "Le décodage spéculatif accélère l'inférence LLM : un petit modèle draft propose des tokens que le modèle cible vérifie. Mais sur les charges agentiques, aux contextes longs et évolutifs, les draft models existants perdent jusqu'à 80 % de longueur d'acceptation, et maintenir leur cache KV coûte cher. DLite se passe d'historique : il réutilise les états cachés du modèle cible pour prédire localement.",
+  "tags": [
+   "recherche",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xasomp/paper_dlite_historyfree_speculative_decoding_for/",
+  "date_source": "2026-10-20T13:50:16+00:00",
+  "date_redac": "2026-10-20T14:08:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 749,
+   "sortie": 821
+  }
+ },
+ {
+  "id": "4aa29a362823b171",
+  "slug": "un-fork-du-megakernel-geezuz-pousse-qwen3-8-27b-a-190-tok-s-sur-deux-r-4aa29a",
+  "titre": "Un fork du megakernel Geezuz pousse Qwen3.8-27B à 190 tok/s sur deux RTX 3090",
+  "resume": "Le fork du megakernel Geezuz, dérivé du travail single-GPU de L-Forster (open-jet), fait tourner Qwen3.8-27B à 190 tok/s sur deux RTX 3090 bridées à 280 W, en PCIe simple et sans NVLink. En décodant huit requêtes simultanées, le total grimpe à 622 tok/s en Q4_K_M. Sur les mêmes prompts, le setup bi-GPU le plus rapide de llama.cpp plafonnait autour de 100 tok/s.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xaslfk/geezuz_kernel_qwen3827b_at_190_toks_620_toks_at_8/",
+  "date_source": "2026-10-20T13:46:29+00:00",
+  "date_redac": "2026-10-20T14:08:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 885,
+   "sortie": 867
+  }
+ },
+ {
+  "id": "06d8eb77aab349f9",
+  "slug": "lightroom-mobile-rouvre-les-yeux-fermes-sur-une-photo-d-un-simple-tap-06d8eb",
+  "titre": "Lightroom mobile rouvre les yeux fermés sur une photo d'un simple tap",
+  "resume": "Adobe a annoncé que la version mobile de Lightroom, disponible sur iOS, iPadOS et Android, peut désormais rouvrir les yeux fermés sur une photo grâce à l'IA générative, d'un seul tap. Lorsque l'application détecte une personne ou un groupe les yeux fermés, elle propose automatiquement l'action à l'utilisateur. Un cas d'usage très concret de l'IA générative dans la retouche photo grand public.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
+  "date_source": "2026-10-20T13:06:44+00:00",
+  "date_redac": "2026-10-20T14:08:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 666,
+   "sortie": 841
+  }
+ },
+ {
   "id": "edbaf8c9af4c0443",
   "slug": "eka-robotics-valorisee-1-45-milliard-de-dollars-grace-a-son-ia-physiqu-edbaf8",
   "titre": "Eka Robotics valorisée 1,45 milliard de dollars grâce à son IA physique",

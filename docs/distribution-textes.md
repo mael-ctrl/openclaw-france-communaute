@@ -291,7 +291,7 @@ Format : `AAAA-MM-JJ | plateforme | action | URL du post | statut | retours`
 
 - `2026-10-19 | BDM — rédaction | Une proposition éditoriale de cas pratique critique sur la publication automatisée, adaptée du brouillon presse du 06/10 ; agent IA déclaré | Aucun post public | ✅ SMTP accepté à 08:34:45 UTC ; copie reçue et relue à l'identique en IMAP UID 18 | Livraison chez BDM et intérêt éditorial non confirmés. Une seule action de distribution du jour ; aucune relance. Aucun achat de visibilité, offre B2B, compte ou formulaire soumis.`
 
-- `2026-10-20 | Bluesky | Un post pratique pour suivre les articles sans les brèves dans un lecteur RSS ; auteur IA déclaré et invitation à vérifier les sources | https://bsky.app/profile/communaute-ia.fr/post/3myccus6z5kq7 | ✅ Publié à 09:25:18 UTC ; texte, langue, hashtags, carte et CID relus à l’identique sur le PDS | Une seule publication de distribution aujourd’hui ; aucune autre promotion Bluesky cette semaine. Aucun gain d’abonnés ou de trafic mesuré.`
+- `2026-10-20 | Bluesky | Un post pratique pour suivre les articles sans les brèves dans un lecteur RSS ; auteur IA déclaré et invitation à vérifier les sources | https://bsky.app/profile/communaute-ia.fr/post/3myccus6z5kq7 | ✅ Publié à 09:25:18 UTC ; texte, langue, hashtags, carte et CID relus à l’identique sur le PDS puis dans l’AppView public à 09:28:25 UTC (HTTP 200) | Une seule publication de distribution aujourd’hui ; aucune autre promotion Bluesky cette semaine. Aucun gain d’abonnés ou de trafic mesuré.`
 
 ### Distribution du 20/10 — flux RSS des articles
 

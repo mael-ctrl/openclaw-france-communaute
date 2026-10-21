@@ -1,0 +1,41 @@
+{
+ "slug": "un-vlm-sous-8-go-pekin-qui-filtre-45-md-de-calcul-9ec276",
+ "titre": "Un VLM sous 8 Go, Pékin qui filtre, 45 Md$ de calcul",
+ "chapo": "Un développeur fait tenir un modèle vision-langage dans les 8 Go d'un Jetson Orin Nano, quand Pékin filtre l'export de 23 technologies d'IA et qu'Anthropic discuterait d'un contrat de calcul de 45 milliards de dollars. Trois façons de mesurer l'industrie : la taille du matériel, la frontière des États, la facture des data centers.",
+ "html": "<h2 id=\"cosmos3-edge-le-bf16-ne-rentrait-pas-l-i\">Cosmos3-Edge : le BF16 ne rentrait pas, l'INT4 oui</h2>\n<p>La pile BF16 de Cosmos3 ne tenait pas dans les 8 Go du Jetson Orin Nano. C'est la raison avancée par le développeur pour expliquer l'absence du modèle sur Hugging Face et sur Jetson AI Lab. Son build quantifié en INT4 change la donne : le décodage atteint <strong>152,5 tok/s</strong> sur un Orin Nano Super 8 Go.</p>\n<p>Le compromis de précision reste contenu. Sur cinq benchmarks VLM, le score passe de 65,56 à 65,20. Un écart de 0,36 point, pas une refonte du modèle.</p>\n<p>La publication est partielle : seule la partie VLM est disponible à ce stade. Les volets diffusion et policy doivent suivre.</p>\n<h2 id=\"pekin-encadre-l-export-l-api-reste-dehor\">Pékin encadre l'export, l'API reste dehors</h2>\n<p>Depuis le 16 octobre 2026, Pékin impose une déclaration préalable pour exporter 40 technologies, dont 23 relèvent de l'IA. Le catalogue est en consultation jusqu'au 15 novembre. Le ministère du Commerce chinois place deux choses hors champ : l'appel d'un modèle par API, et les technologies publiées en open source.</p>\n<p>Autrement dit, DeepSeek et Qwen ne sont pas visés via leur API. La nuance compte pour les équipes qui consomment ces modèles depuis l'étranger : la restriction ne porte pas sur l'usage à distance, mais sur l'export de technologies.</p>\n<p>Un point reste ouvert. Le déploiement localisé, hors de Chine, d'un modèle restreint entrera dans le champ une fois le catalogue en vigueur. La frontière entre « appeler une API » et « faire tourner le modèle chez soi » devient donc l'endroit à surveiller.</p>\n<h2 id=\"nscale-anthropic-45-milliards-de-plus\">Nscale-Anthropic : 45 milliards de plus ?</h2>\n<p>TechCrunch rapporte que Nscale et Anthropic seraient en discussions pour un nouveau contrat de calcul de <strong>45 milliards de dollars</strong>. En août, les deux entreprises avaient déjà annoncé un accord du même montant.</p>\n<p>Le second contrat potentiel a donc exactement la magnitude du premier. Ce qui, en soi, dit l'échelle : ce n'est plus une commande ponctuelle, mais un rythme. TechCrunch situe ce contrat dans une longue série d'accords de très grande ampleur signés par Anthropic au cours de l'année écoulée.</p>\n<p>Rien n'indique à ce stade que les discussions aboutiront.</p>\n<h2 id=\"amazon-outille-pytorch-contre-nvidia\">Amazon outille PyTorch contre Nvidia</h2>\n<p>Amazon lance <strong>TorchNeuron</strong>, un outil de développement qui cible PyTorch, le kit gratuit sur lequel se construisent la plupart des applications d'IA. L'objectif affiché : briser la mainmise de Nvidia sur cet écosystème, pour que davantage de développeurs fassent tourner leurs applications sur des puces alternatives — dont celles d'Amazon.</p>\n<p>TechCrunch qualifie l'opération d'offensive la plus ambitieuse d'Amazon face à Nvidia. La formulation est celle du média, pas un verdict.</p>\n<h2>Et maintenant ?</h2>\n<p>Un build INT4 qui tient dans 8 Go, un catalogue chinois qui distingue l'appel API de l'export, deux acteurs qui négocient 45 milliards de dollars de calcul, un géant du cloud qui outille PyTorch pour ses propres puces : les mêmes questions reviennent. Qui possède la pile logicielle, qui contrôle ce qui sort d'un pays, qui paie les machines. Ces dépêches ne disent pas comment les quatre histoires vont s'articuler. Elles indiquent seulement où se déplacent les points de friction.</p>",
+ "pivot": "9ec276f76b1166ed",
+ "tags": [
+  "matériel",
+  "open-source",
+  "business",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbph8w/cosmos3edge_in_under_8_gb_vlm_out_now_video_gen/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+  }
+ ],
+ "date": "2026-10-21T17:47:01+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1584,
+  "sortie": 3047
+ }
+}

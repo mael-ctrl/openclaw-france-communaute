@@ -564,6 +564,40 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Trois fichiers publiés par **SFTP ciblé**, sauvegarde/comparaison préalable et relecture exacte. Run média `39572663369` réussi, sauvegarde `875cc2a` ; il ne remplace pas le transfert du hub. Après cloud : **15 URL HTTPS en 200**, six contrats publics réussis, README/ZIP exacts et section HTML exacte. Les seules normalisations de comparaison portent sur le lien support obfusqué par Cloudflare.
 - [Contrat, provenance, limites et preuves](hub-hermes-confidentialite.md). Aucun audit réseau ni test d'installation multi-OS, aucune campagne ou progression d'audience revendiqués. Le lot préparatoire HTML/README du 21/10 est désormais intégré, ne pas le rejouer comme nouveau chantier.
 
+## Sitemap sans redirections — livraison du 21/10/2026 (mission quotidienne)
+
+- **Une amélioration SEO** : les trois entrées `/temoignages/`,
+  `/mentions-legales/` et `/politique-de-confidentialite/` visent désormais
+  leurs URL finales. Les anciennes URL du sitemap répondaient **301** ; les
+  nouvelles répondent directement **200**. La page témoignages déclarait déjà
+  cette canonical. Aucun HTML, kit, script, style ni contenu du média modifié.
+- `lastmod` de Hermes corrigé du 18 au **21/10/2026**, date de la livraison
+  confidentialité déjà intégrée (`2471c09`). Les autres dates sont conservées :
+  une correction d’adresse du sitemap ne devient pas une modification éditoriale.
+- Trois tests reproduisent les défauts avant correction, puis passent :
+  inventaire exhaustif et unique des pages, cohérence avec les canonicals
+  existantes, dates non antérieures aux contrôles documentaires affichés.
+  Suite complète **182 tests OK** ; les **3 nouveaux tests** passent aussi sur
+  les réponses HTTPS publiques. Les **9 URL du sitemap** sont en 200 sans suivi
+  de redirection ; il ne s’agit pas d’une preuve de leur indexation.
+- Dépôt du Bureau illisible (`Resource deadlock avoided`) : déploiement avec
+  `python3 outils/deployer_openclaw.py` depuis le clone cron hors Bureau
+  `~/.hermes/workspaces/hub-openclaw-20261003`, après synchronisation Git.
+  Sauvegarde privée des **35 fichiers**, tous identiques à Git avant envoi ;
+  **35 fichiers relus via FTP**, tous identiques aux sources après envoi.
+  **Seul `sitemap.xml` diffère de la sauvegarde**. Dates/modes des fichiers de
+  kits restaurés avant régénération : les ZIP restent inchangés octet pour octet.
+- Santé : **six URL demandées en HTTP 200** avant et après ; contrôle étendu
+  **15 URL en HTTP 200**, dont le sitemap, la clé et les ZIP avec/sans `?v=2`.
+  Sitemap et archives publics identiques aux sources. **IndexNow HTTP 200**
+  pour les trois URL finales et Hermes : notification acceptée, pas indexation
+  ni gain de trafic démontrés. Aucun rendu HTML changé, pas de contrôle visuel requis.
+- **Aucune distribution supplémentaire** : journal du 21/10 relu, accès bloquants
+  déjà consignés ; le post Bluesky du 20/10 exclut cette plateforme cette semaine.
+  Prochaine priorité : compléter les canonicals absentes des deux pages légales,
+  sans modifier leur texte. Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-21/hub-sitemap/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

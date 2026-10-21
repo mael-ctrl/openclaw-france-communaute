@@ -1,5 +1,128 @@
 [
  {
+  "id": "cde0a2ba4c543f3c",
+  "slug": "nvidia-muscle-son-offre-robotique-avec-de-nouveaux-outils-et-modeles-cde0a2",
+  "titre": "Nvidia muscle son offre robotique avec de nouveaux outils et modèles",
+  "resume": "Nvidia met à profit sa conférence GTC Europe, du 20 au 22 octobre à Berlin, pour dévoiler outils, datasets, frameworks et modèles destinés aux développeurs. Robot humanoïde avec Agile Robots, modèles Alpamayo et Cosmos : l'IA physique, robots et véhicules autonomes, occupe une place centrale. Le groupe veut conserver son statut de plateforme majeure dans un secteur en pleine expansion.",
+  "tags": [
+   "robots",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/robotique/robot-humanoide-avec-agile-robots-outils-dentrainement-modeles-alpamayo-et-cosmos-nvidia-poursuit-ses-efforts-dans-la-robotique-next-gen.67FXRZFAINCGVMUQR2DKPXRL4Q.html",
+  "date_source": "2026-10-21T13:00:37+00:00",
+  "date_redac": "2026-10-21T13:08:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 782,
+   "sortie": 806
+  }
+ },
+ {
+  "id": "884eef205b167c99",
+  "slug": "un-front-end-vocal-embarque-pour-assistants-locaux-filtre-avant-le-stt-884eef",
+  "titre": "Un front-end vocal embarqué pour assistants locaux, filtré avant le STT",
+  "resume": "Un développeur habitué aux pipelines audio en production publie un petit front-end vocal embarqué pour assistants locaux, en aperçu. On y tape le mot d'éveil de son choix, et le système ne conserve que la voix de l'utilisateur avant l'envoi au STT. Le paquet embarque cinq modèles pour 7,5 Mo au total, sous licence Apache-2.0.",
+  "tags": [
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbmhct/i_built_a_small_ondevice_voice_frontend_for_local/",
+  "date_source": "2026-10-21T12:59:41+00:00",
+  "date_redac": "2026-10-21T13:08:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 836,
+   "sortie": 504
+  }
+ },
+ {
+  "id": "dd68679e3abe11a7",
+  "slug": "steam-next-fest-les-joueurs-reclament-un-filtre-pour-masquer-les-jeux--dd6867",
+  "titre": "Steam Next Fest : les joueurs réclament un filtre pour masquer les jeux générés par IA",
+  "resume": "Le Steam Next Fest, rendez-vous des démos gratuites qui rassemble des millions de joueurs, voit affluer toujours plus de jeux générés par IA. Face à cette omniprésence, les joueurs réclament à Valve un moyen de les masquer, sous la forme d'un filtre.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/valve/3293763_steam-next-fest-submerges-par-les-jeux-ia-les-joueurs-reclament-une-fonction-durgence-a-valve",
+  "date_source": "2026-10-21T12:39:21+00:00",
+  "date_redac": "2026-10-21T13:08:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 718,
+   "sortie": 407
+  }
+ },
+ {
+  "id": "f319afc4d350dd13",
+  "slug": "un-vibecoder-demande-comment-trouver-ses-premiers-utilisateurs-b2c-f319af",
+  "titre": "Un vibecoder demande comment trouver ses premiers utilisateurs B2C",
+  "resume": "Sur r/ClaudeAI, un développeur raconte avoir construit une application grand public avec Claude sans difficulté. Son blocage n'est pas technique : il n'a ni audience, ni abonnés, et n'a jamais lancé de produit auparavant. Il demande donc où ses pairs ont trouvé leurs premiers utilisateurs et ce qui a réellement fonctionné pour eux.",
+  "tags": [
+   "claude",
+   "dev",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xblzxo/vibecoders_how_do_you_find_customers_for_your_b2c/",
+  "date_source": "2026-10-21T12:37:15+00:00",
+  "date_redac": "2026-10-21T13:08:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 674,
+   "sortie": 304
+  }
+ },
+ {
+  "id": "032a03ce1da09fc5",
+  "slug": "omi-lance-productdrop-pour-generer-des-visuels-ia-sans-deformer-les-pr-032a03",
+  "titre": "Omi lance ProductDrop pour générer des visuels IA sans déformer les produits",
+  "resume": "L'IA générative permet de créer des visuels, mais elle peut altérer le produit représenté : une étiquette, une couleur, une proportion ou un détail de packaging. Pour les marques qui gèrent des centaines, voire des milliers de références, ces erreurs sont difficiles à accepter. La start-up Omi veut y répondre avec ProductDrop, une fonctionnalité intégrée à sa plateforme de jumeaux numériques.",
+  "tags": [
+   "business",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/soutenu-par-le-portefeuille-de-solutions-nvidia-omi-lance-productdrop-pour-generer-des-visuels-ia-sans-deformer-les-produits.B3DLTL6KH5GB3GHZSKF3Q36O2M.html",
+  "date_source": "2026-10-21T12:33:39+00:00",
+  "date_redac": "2026-10-21T13:08:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 766,
+   "sortie": 1220
+  }
+ },
+ {
+  "id": "76f61c40c9660c57",
+  "slug": "un-modeleur-3d-pro-montre-ce-que-donne-claude-opus-5-5-bien-pilote-76f61c",
+  "titre": "Un modeleur 3D pro montre ce que donne Claude Opus 5.5 bien piloté",
+  "resume": "Un modeleur 3D professionnel, actif depuis le début des années 2000, publie sur Reddit des rendus obtenus avec Claude Opus 5.5. Il rappelle que la modélisation exige itérations, mesures, images de référence et planches d'ambiance, et qu'un simple « fais-moi un personnage humain » ne suffit pas. Selon lui, la plupart des exemples partagés en ligne restent corrects malgré des prompts mal maîtrisés.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xblwzf/claude_opus_55_on_3d_modeling/",
+  "date_source": "2026-10-21T12:33:27+00:00",
+  "date_redac": "2026-10-21T13:08:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 885,
+   "sortie": 642
+  }
+ },
+ {
   "id": "589a07585fa8c446",
   "slug": "anthropic-80-7-milliards-de-dollars-de-pertes-au-premier-semestre-2026-589a07",
   "titre": "Anthropic : 80,7 milliards de dollars de pertes au premier semestre 2026",

@@ -1,5 +1,129 @@
 [
  {
+  "id": "cb93b6885bc22188",
+  "slug": "gemini-debarque-sur-apple-carplay-avec-la-navigation-conversationnelle-cb93b6",
+  "titre": "Gemini débarque sur Apple CarPlay avec la navigation conversationnelle",
+  "resume": "Après Android Auto l'an dernier, Google amène son assistant Gemini à Apple CarPlay. La navigation conversationnelle est disponible dès aujourd'hui pour les conducteurs américains, et Google annonce un déploiement mondial, sans préciser pour l'instant les régions concernées. Il aura fallu près de douze mois à Google pour effectuer ce portage.",
+  "tags": [
+   "gemini",
+   "société",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
+  "date_source": "2026-10-21T15:00:00+00:00",
+  "date_redac": "2026-10-21T15:11:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 659,
+   "sortie": 513
+  }
+ },
+ {
+  "id": "9ec276f76b1166ed",
+  "slug": "cosmos3-edge-quantifie-en-int4-tient-sous-8-go-sur-un-jetson-orin-nano-9ec276",
+  "titre": "Cosmos3-Edge quantifié en INT4 tient sous 8 Go sur un Jetson Orin Nano",
+  "resume": "Un développeur publie un build optimisé du modèle Cosmos3, quantifié en INT4 : la pile BF16 ne rentrait pas dans les 8 Go du Jetson Orin Nano, d'où l'absence de support sur Hugging Face et Jetson AI Lab. Le décodage atteint 152,5 tok/s sur Orin Nano Super 8 Go, avec une précision maintenue sur cinq benchmarks VLM (de 65,56 à 65,20). Seule la partie VLM est publiée à ce stade, les volets diffusion et policy arrivant ensuite.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbph8w/cosmos3edge_in_under_8_gb_vlm_out_now_video_gen/",
+  "date_source": "2026-10-21T14:59:11+00:00",
+  "date_redac": "2026-10-21T15:11:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 869,
+   "sortie": 862
+  }
+ },
+ {
+  "id": "ff6a0804bd167ee3",
+  "slug": "claude-code-traque-les-gros-mots-caches-dans-575-000-sequences-de-prot-ff6a08",
+  "titre": "Claude Code traque les gros mots cachés dans 575 000 séquences de protéines",
+  "resume": "Un utilisateur de Reddit a fait chercher par Claude Code les termes d'Urban Dictionary planqués dans UniProt Swiss-Prot : 575 000 protéines curées, 208,5 millions d'acides aminés, espaces retirés. Bilan : 191 876 termes apparaissent verbatim dans au moins une protéine, dont 19 184 matches de sept lettres et plus. Le plus long trouvé : STINKTAINT. Plusieurs tombent dans des protéines humaines du sperme, comme PEEPEE, WANK ou FAPS.",
+  "tags": [
+   "claude",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xbp9yl/i_used_claude_code_to_search_every_curated/",
+  "date_source": "2026-10-21T14:51:22+00:00",
+  "date_redac": "2026-10-21T15:11:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 816,
+   "sortie": 824
+  }
+ },
+ {
+  "id": "dd2ed3e267fe3daf",
+  "slug": "nvidia-active-l-advanced-shader-delivery-de-microsoft-sur-toutes-ses-c-dd2ed3",
+  "titre": "Nvidia active l'Advanced Shader Delivery de Microsoft sur toutes ses cartes RTX",
+  "resume": "Le pilote GeForce 621.01 active l'Advanced Shader Delivery de Microsoft sur toutes les cartes RTX de Nvidia. Le déploiement démarre avec Call of Duty : Modern Warfare 4. Jusqu'ici, seules les cartes graphiques AMD y avaient droit. Présentée comme la fin des attentes interminables au chargement des jeux sur PC, la technologie devient donc accessible côté Nvidia.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/nvidia/3294443_fini-les-attentes-interminables-nvidia-et-microsoft-reglent-enfin-lenfer-du-chargement-des-jeux-sur-pc",
+  "date_source": "2026-10-21T14:27:33+00:00",
+  "date_redac": "2026-10-21T15:11:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 693,
+   "sortie": 698
+  }
+ },
+ {
+  "id": "0f9c840a84000d76",
+  "slug": "un-utilisateur-de-claude-sature-ses-limites-hebdomadaires-en-trois-jou-0f9c84",
+  "titre": "Un utilisateur de Claude sature ses limites hebdomadaires en trois jours",
+  "resume": "Sur r/ClaudeAI, un utilisateur dit atteindre ses limites hebdomadaires trois jours après leur réinitialisation, avec en général deux plafonds de cinq heures atteints par jour. Il conçoit dans le chat et développe avec Claude Code. Il s'appuie beaucoup sur le cloud pour laisser tourner une tâche à distance, mais ne peut pas la reprendre sur un second compte Pro sans passer à Max.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xbonm5/should_i_switch_to_max5_or_buy_another_pro_account/",
+  "date_source": "2026-10-21T14:27:11+00:00",
+  "date_redac": "2026-10-21T15:11:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 789,
+   "sortie": 1035
+  }
+ },
+ {
+  "id": "0ba9f0626cf401b1",
+  "slug": "revue-de-code-gitlab-sur-deux-rtx-4090-avec-qwen3-6-35b-a3b-et-sglang-0ba9f0",
+  "titre": "Revue de code GitLab sur deux RTX 4090 avec Qwen3.6-35B-A3B et sglang",
+  "resume": "Un agent de revue de code GitLab tourne sur du matériel local : LangGraph.js et Qwen3.6-35B-A3B en 4 bits via sglang, sur deux RTX 4090 en PCIe. Il annonce ~180 tok/s en décodage à 50k de contexte et 985 tok/s cumulés à huit requêtes. L'agent a passé 1 300 revues, près de 70 % de ses commentaires étant résolus par l'auteur ; il repère parfois des erreurs dans du code écrit avec Claude Sonnet ou Opus.",
+  "tags": [
+   "agents",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbogcj/running_qwen3635ba3b_on_2x_4090_with_sglang_for/",
+  "date_source": "2026-10-21T14:19:33+00:00",
+  "date_redac": "2026-10-21T15:11:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 875,
+   "sortie": 1358
+  }
+ },
+ {
   "id": "cde0a2ba4c543f3c",
   "slug": "nvidia-muscle-son-offre-robotique-avec-de-nouveaux-outils-et-modeles-cde0a2",
   "titre": "Nvidia muscle son offre robotique avec de nouveaux outils et modèles",

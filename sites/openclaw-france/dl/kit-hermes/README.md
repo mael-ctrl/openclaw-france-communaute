@@ -18,8 +18,9 @@ Un agent IA qui vit dans votre terminal (et en application desktop) : il lit et
 préférences entre les sessions et s'étend avec des **skills** — des procédures
 réutilisables qu'il charge à la demande. Il fonctionne avec de nombreux
 fournisseurs de modèles (DeepSeek, OpenRouter, Anthropic, OpenAI, Google…) ou
-**100 % en local, sans compte ni clé API**. Licence MIT : le logiciel est gratuit,
-vous ne payez que l'usage éventuel d'un modèle en ligne.
+un **modèle exécuté localement**. Cela ne rend pas tous les outils et services
+hors ligne : lisez les précautions ci-dessous. Licence MIT : le logiciel est gratuit ;
+le modèle IA, les outils externes et l’hébergement peuvent être payants.
 
 ## Contenu du kit
 
@@ -56,6 +57,30 @@ Sources consultées le **2026-10-16** :
 [installation et prérequis](https://hermes-agent.nousresearch.com/docs/getting-started/installation#prerequisites)
 et [matrice des plateformes](https://hermes-agent.nousresearch.com/docs/getting-started/platform-support).
 C’est un contrôle documentaire, pas une installation testée sur chaque système.
+
+## Confidentialité — avant le premier essai
+
+Le stockage local et la transmission sont distincts : un fournisseur distant
+reçoit le **contexte** envoyé au modèle, dont les messages, extraits de fichiers
+et résultats d’outils ajoutés à la conversation. Vérifiez ses **conditions de conservation**.
+Un modèle local ne suffit pas à garantir le hors-ligne : les **outils connectés**,
+les **modèles auxiliaires** et les **fournisseurs de secours** peuvent utiliser
+d’autres services. Vérifiez leurs destinations et désactivez les accès inutiles.
+
+- Commencez avec des **droits minimaux** et un fichier de test **sans secrets**.
+  Un dossier dédié ne constitue pas à lui seul une isolation.
+- Gardez privés les clés API, le fichier `.env`, les **journaux** et les
+  **sauvegardes** ; relisez tout diagnostic avant de le partager.
+- Si le hors-ligne est exigé, prévoyez un **contrôle réseau indépendant** : limiter
+  les outils web ne bloque pas tous les accès réseau du terminal ou des extensions.
+
+Lisez la section « Confidentialité : modèle local ne veut pas dire hors ligne »
+dans [GUIDE.md](GUIDE.md) avant la première session. Ce kit n’est **pas un audit réseau**
+ni une garantie de confidentialité de chaque fournisseur ou extension.
+Sources officielles consultées le **2026-10-21** :
+[stockage et transmission](https://hermes-agent.nousresearch.com/docs/reference/faq#is-my-data-sent-anywhere),
+[modèles auxiliaires](https://hermes-agent.nousresearch.com/docs/user-guide/configuration#auxiliary-models)
+et [fournisseurs de secours](https://hermes-agent.nousresearch.com/docs/integrations/providers#fallback-providers).
 
 ## Démarrage rapide
 

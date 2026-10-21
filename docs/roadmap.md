@@ -86,6 +86,13 @@ Les autres dépendances (GSC, chaîne/OAuth, newsletter, distribution, offre Sko
 - Base `2f97abc` : **892 brèves, neuf pages de catalogue, 492 pages hors fil**. Titres/résumés et sources comparés aux 492 corps HTTPS avant déploiement. **142 Python + 4 Node**, 1 405 sorties existantes identiques, six changements attendus, 993 ajouts ; 315 fichiers de données préservés. Essai sans rédaction et navigation sans JS mobile/desktop réussis.
 - **Complément de gouvernance du soir :** relance cloud `39233246104` réussie, 143 tests et 1 525 envois confirmés dans les logs. À 21:03, dix pages du catalogue répondent 200 ; 937 liens uniques sans répétition inter-page, identiques au sitemap et aux données sauvegardées `92cd47e`. Trois brèves hors fil répondent 200, titre/source présents et dates JSON-LD non étayées absentes. **Ce contrôle borné ne remplace pas une comparaison exhaustive des HTML post-déploiement**, encore à consigner dans [le dossier du chantier](archives-conservees.md). Réconciliation historique complète et listings hors archives ouverts ; aucun lot préparatoire intégré par cette revue.
 
+## Chantier quotidien du 21/10 — confidentialité Hermes cohérente
+
+- **Une seule intégration**, lot n° 1 prêt dans le relais du matin : page `/hermes/#confidentialite`, README et ZIP Hermes harmonisés avec le GUIDE déjà corrigé. Aucune commande, condition commerciale, infrastructure ou archive OpenClaw changée. [Contrat et preuves](hub-hermes-confidentialite.md).
+- Base `8c8e869` : **130 pièces préparatoires vérifiées**, tests rouge/vert rejoués ; **174 Python + 4 Node**, quatre `bash -n`. Deux builds isolés : **2 920 sorties du média identiques**, 371 fichiers de données préservés. ZIP reproduit et comparé par membre, seul README modifié.
+- Navigation sans JS validée à 360/390/1 440 px ; sauvegarde SFTP et identité des trois cibles distantes avec la base Git vérifiées. **Publication en cours**, résultat cloud et HTTPS à consigner après exécution ; le workflow média et le transfert ciblé du hub sont distincts.
+- Les inconnus historiques/listings hors archives restent ouverts, sans purge ni restauration. Compositeur newsletter déjà livré ; aucun lot privé d'audit/preuves importé et aucun deuxième chantier intégré.
+
 ## Chantier quotidien du 20/10 — compositeur newsletter local
 
 - **Une seule intégration**, priorité P4 du relais du 19 au soir et de la vague du 20/10 : `outils/compose_breve.py`, son README et ses 17 contrats. Le programme reste local, sans transport ni formulaire ; aucun digest brut publié.

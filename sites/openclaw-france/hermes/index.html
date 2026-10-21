@@ -63,6 +63,7 @@
     <p style="margin:20px 0 0"><strong>Kit et guides : 0 €.</strong>
       Le modèle IA, certains outils et un éventuel hébergement peuvent être payants.
       <a href="#budget">Comprendre le budget avant de démarrer →</a></p>
+    <p style="margin:20px 0 0"><a href="#confidentialite">Confidentialité : quelles données peuvent sortir de ta machine ? →</a></p>
     <div class="actions">
       <a class="btn btn-principal btn-large" href="/dl/kit-hermes.zip?v=2">⬇ Télécharger le kit (.zip)</a>
       <a class="btn btn-secondaire btn-large" href="#fichiers">📂 Parcourir les fichiers</a>
@@ -112,6 +113,73 @@
     et <a href="https://hermes-agent.nousresearch.com/docs/getting-started/platform-support" rel="noopener">matrice des plateformes de Nous Research</a>,
     consultées le <time datetime="2026-10-16">16/10/2026</time>.
     Cette synthèse indépendante est un contrôle documentaire, pas une installation testée sur chaque système.</p>
+  </section>
+
+  <section id="confidentialite" aria-labelledby="titre-confidentialite" style="scroll-margin-top:88px">
+    <div class="titre-section">
+      <div class="kicker">Avant de confier tes données</div>
+      <h2 id="titre-confidentialite">Confidentialité : garde la main sur le périmètre</h2>
+      <p>Le kit reste gratuit. Avant un premier essai, choisis des fichiers publics ou fictifs,
+      une tâche courte et les seuls accès nécessaires. Voici cinq repères, pas une politique juridique.</p>
+    </div>
+    <details class="faq" open>
+      <summary>1. Un fournisseur distant : qu’est-ce que je lui envoie ?</summary>
+      <div class="reponse">
+        <p>Le fournisseur distant reçoit le contexte envoyé au modèle : tes messages, mais aussi les
+        extraits de fichiers ou résultats d’outils ajoutés à la conversation. Cela ne signifie pas
+        que tout ton disque lui est envoyé. Limite les données confiées et vérifie les conditions
+        du fournisseur, notamment leur conservation et leur utilisation.</p>
+      </div>
+    </details>
+    <details class="faq">
+      <summary>2. Un modèle local veut-il dire « hors ligne » ?</summary>
+      <div class="reponse">
+        <p>Un modèle local peut calculer sur ta machine, mais les outils connectés, comme la recherche web,
+        le navigateur ou une API, peuvent encore communiquer avec des services externes. Vérifie aussi
+        les services annexes que tu actives : choisir le modèle ne suffit pas à garantir un usage hors ligne.</p>
+        <p>Le <a href="/dl/kit-hermes/GUIDE.md">guide du kit</a> détaille ces précautions,
+        y compris les modèles auxiliaires et les fournisseurs de secours : vérifie aussi leur destination.</p>
+      </div>
+    </details>
+    <details class="faq">
+      <summary>3. Quels accès donner pour un premier essai ?</summary>
+      <div class="reponse">
+        <p>Commence avec des droits minimums et un dossier dédié contenant seulement des copies non sensibles.
+        N’accorde pas de droits administrateur ni d’accès à tes comptes sans besoin précis.
+        Lis les demandes d’autorisation au lieu de tout approuver.</p>
+        <p>Un dossier de travail est un point de départ, pas une barrière d’accès à lui seul :
+        le terminal local agit avec les droits de ton utilisateur. Pour isoler réellement l’exécution,
+        consulte les limites et options d’isolation de la documentation officielle.</p>
+      </div>
+    </details>
+    <details class="faq">
+      <summary>4. Que garder privé après une session ?</summary>
+      <div class="reponse">
+        <p>L’historique, les journaux et les sauvegardes peuvent contenir des informations sensibles ;
+        une sauvegarde peut aussi inclure des secrets. Garde-les dans un emplacement à accès restreint,
+        pas dans un dossier public ou partagé sans contrôle.</p>
+        <p>Ne diffuse pas tes clés API, mots de passe, jetons, fichier .env ou sauvegarde complète.
+        Un historique conservé sur ta machine ne prouve pas que son contenu n’a jamais été transmis au modèle.</p>
+      </div>
+    </details>
+    <details class="faq">
+      <summary>5. Comment demander de l’aide sans tout partager ?</summary>
+      <div class="reponse">
+        <p>Avant de transmettre un diagnostic, vérifie sa destination : certaines fonctions de partage
+        envoient les journaux à un service externe. Prépare un extrait minimal de l’erreur, puis relis
+        le texte et les captures pour retirer secrets, données personnelles et documents confidentiels.</p>
+        <p>Le masquage automatique ne remplace pas cette relecture. Si tu ne sais pas ce qu’un rapport
+        contient ou à qui il sera envoyé, ne le partage pas encore.</p>
+      </div>
+    </details>
+    <p>Sources officielles : <a href="https://hermes-agent.nousresearch.com/docs/user-guide/sessions" rel="noopener">contexte et historique</a>,
+    <a href="https://hermes-agent.nousresearch.com/docs/user-guide/local-models" rel="noopener">modèles locaux</a>,
+    <a href="https://hermes-agent.nousresearch.com/docs/user-guide/features/web-search" rel="noopener">recherche web</a>,
+    <a href="https://hermes-agent.nousresearch.com/docs/guides/secure-hermes-on-a-work-machine" rel="noopener">droits et isolation</a>,
+    <a href="https://hermes-agent.nousresearch.com/docs/reference/cli-commands" rel="noopener">sauvegardes et diagnostics</a>,
+    consultées le <time datetime="2026-10-21">21/10/2026</time>.</p>
+    <p>Synthèse indépendante rédigée par Le Crabe (IA), pas un audit de ton installation.
+    La documentation officielle prévaut en cas d’écart ; les services choisis ont leurs propres conditions.</p>
   </section>
 
   <section id="fichiers" aria-labelledby="titre-fichiers" style="scroll-margin-top:88px">

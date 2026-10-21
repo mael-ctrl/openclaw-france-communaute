@@ -1,5 +1,130 @@
 [
  {
+  "id": "dfb5eae7a4cd3c99",
+  "slug": "amd-apporte-le-fsr-4-1-dope-a-l-ia-aux-xbox-series-x-s-et-rog-xbox-all-dfb5ea",
+  "titre": "AMD apporte le FSR 4.1, dopé à l'IA, aux Xbox Series X/S et ROG Xbox Ally",
+  "resume": "AMD a annoncé le 20 octobre l'arrivée du FSR 4.1 sur les consoles Xbox Series X et S, ainsi que sur les consoles portables ROG Xbox Ally. Cette technologie de mise à l'échelle s'appuie sur l'IA pour améliorer le rendu graphique. Les Xbox actuelles profiteront donc d'un gain visuel sans changement de matériel.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2357507-les-consoles-xbox-actuelles-vont-recevoir-une-grosse-amelioration-graphique.html",
+  "date_source": "2026-10-21T07:05:14+00:00",
+  "date_redac": "2026-10-21T07:10:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 661,
+   "sortie": 526
+  }
+ },
+ {
+  "id": "3ae184dc4138e473",
+  "slug": "hermes-agent-publie-un-build-canary-v0-22-2-3ae184",
+  "titre": "Hermes Agent publie un build canary v0.22.2",
+  "resume": "Hermes Agent met en ligne un nouveau build canary sur son dépôt GitHub, étiqueté v0.22.2+canary.20261021T070232Z. L'étiquette reprend un horodatage UTC : 20261021T070232Z, pour une publication datée du 21 octobre 2026 à 07h02. La page de publication ne détaille pas le contenu des changements.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261021T070232Z",
+  "date_source": "2026-10-21T07:02:34+00:00",
+  "date_redac": "2026-10-21T07:10:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 846
+  }
+ },
+ {
+  "id": "2f9bb33445fd7a58",
+  "slug": "openclaw-2026-10-10-beta-3-fiabilite-windows-et-reprise-apres-mise-a-j-2f9bb3",
+  "titre": "OpenClaw 2026.10.10-beta.3 : fiabilité Windows et reprise après mise à jour",
+  "resume": "La bêta 2026.10.10-beta.3 d'OpenClaw corrige la fiabilité Windows : réinitialisation de l'état, démarrage de la Gateway et fenêtres SQLite masquées pendant les mises à jour. La récupération après mise à jour aligne les plugins sur le cœur et restaure les stockages d'agents affectés par un changement de schéma. Deux agents ne peuvent plus revendiquer le même agent lors d'une initialisation concurrente.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "agents",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.10-beta.3",
+  "date_source": "2026-10-21T07:00:49+00:00",
+  "date_redac": "2026-10-21T07:11:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 812,
+   "sortie": 1036
+  }
+ },
+ {
+  "id": "9d3278008f1aea35",
+  "slug": "saaspocalypse-le-modele-tarifaire-du-saas-a-t-il-vecu-9d3278",
+  "titre": "« Saaspocalypse » : le modèle tarifaire du SaaS a-t-il vécu ?",
+  "resume": "Maddyness publie « Saaspocalypse », un article daté du 21 octobre 2026 qui interroge le modèle tarifaire du SaaS. La question posée tient en une ligne : le mode de facturation du logiciel en tant que service a-t-il vécu ? Le média, qui se présente comme le média pour comprendre l'économie de demain, place le débat sur le terrain des modèles économiques du logiciel.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Maddyness",
+  "lien_source": "https://www.maddyness.com/?p=1443268",
+  "date_source": "2026-10-21T07:00:11+00:00",
+  "date_redac": "2026-10-21T07:11:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 716
+  }
+ },
+ {
+  "id": "bb32be5f47ff5802",
+  "slug": "openai-contre-attaque-et-accuse-apple-d-avoir-recupere-ses-fichiers-co-bb32be",
+  "titre": "OpenAI contre-attaque et accuse Apple d'avoir récupéré ses fichiers confidentiels",
+  "resume": "Après les accusations d'espionnage portées par Apple, OpenAI contre-attaque. Un employé aurait emporté plus de 100 fichiers confidentiels, et le HomeView serait dans le viseur. L'affaire transforme la relation entre Cupertino et Sam Altman en guerre ouverte.",
+  "tags": [
+   "openai",
+   "business",
+   "sécurité"
+  ],
+  "importance": 4,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/21/openai-accuse-apple-davoir-vole-ses-secrets-les-plus-confidentiels-pour-lune-de-ses-dernieres-annonces/",
+  "date_source": "2026-10-21T06:56:21+00:00",
+  "date_redac": "2026-10-21T07:11:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 687,
+   "sortie": 371
+  }
+ },
+ {
+  "id": "07d4b357fb69de22",
+  "slug": "windows-11-microsoft-retire-huit-actions-copilot-de-l-explorateur-07d4b3",
+  "titre": "Windows 11 : Microsoft retire huit actions Copilot de l'Explorateur",
+  "resume": "Microsoft va retirer huit actions Copilot du clic droit de l'Explorateur de fichiers de Windows 11, à partir de la mi-novembre 2026. Ces raccourcis IA venaient à peine de commencer leur déploiement, ce qui rend ce retrait notable : il intervient avant même que les fonctions aient eu le temps de s'installer auprès des utilisateurs.",
+  "tags": [
+   "société",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/os/windows/3293395_windows-11-microsoft-fait-marche-arriere-et-supprime-deja-ces-fonctions-dia",
+  "date_source": "2026-10-21T06:34:46+00:00",
+  "date_redac": "2026-10-21T07:11:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 663,
+   "sortie": 129
+  }
+ },
+ {
   "id": "6bebbab7bcb44820",
   "slug": "l-allemagne-signe-avec-nvidia-deux-semaines-apres-ecosia-mistral-6bebba",
   "titre": "L'Allemagne signe avec Nvidia, deux semaines après Ecosia-Mistral",

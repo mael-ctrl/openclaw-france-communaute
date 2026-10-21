@@ -42,9 +42,9 @@
  },
  {
   "id": "dfb5eae7a4cd3c99",
-  "slug": "amd-apporte-le-fsr-4-1-dope-a-l-ia-aux-xbox-series-x-s-et-rog-xbox-all-dfb5ea",
-  "titre": "AMD apporte le FSR 4.1, dopé à l'IA, aux Xbox Series X/S et ROG Xbox Ally",
-  "resume": "AMD a annoncé le 20 octobre l'arrivée du FSR 4.1 sur les consoles Xbox Series X et S, ainsi que sur les consoles portables ROG Xbox Ally. Cette technologie de mise à l'échelle s'appuie sur l'IA pour améliorer le rendu graphique. Les Xbox actuelles profiteront donc d'un gain visuel sans changement de matériel.",
+  "slug": "le-fsr-4-1-dope-a-l-ia-d-amd-arrive-sur-xbox-series-x-s-et-rog-xbox-al-dfb5ea",
+  "titre": "Le FSR 4.1 dopé à l'IA d'AMD arrive sur Xbox Series X/S et ROG Xbox Ally",
+  "resume": "AMD a annoncé ce mardi 20 octobre l'arrivée du FSR 4.1, sa technologie de mise à l'échelle dopée à l'IA, sur les Xbox Series X et S ainsi que sur les consoles portables ROG Xbox Ally. Les consoles Xbox actuelles profiteront donc d'une amélioration graphique sans changement de matériel. La mise à l'échelle par IA s'installe ainsi comme un levier de performance sur du matériel déjà en circulation.",
   "tags": [
    "matériel",
    "business"
@@ -57,36 +57,36 @@
   "gen": {
    "modele": "deepseek-flash",
    "entree": 661,
-   "sortie": 526
+   "sortie": 748
   }
  },
  {
   "id": "3ae184dc4138e473",
-  "slug": "hermes-agent-publie-un-build-canary-v0-22-2-3ae184",
-  "titre": "Hermes Agent publie un build canary v0.22.2",
-  "resume": "Hermes Agent met en ligne un nouveau build canary sur son dépôt GitHub, étiqueté v0.22.2+canary.20261021T070232Z. L'étiquette reprend un horodatage UTC : 20261021T070232Z, pour une publication datée du 21 octobre 2026 à 07h02. La page de publication ne détaille pas le contenu des changements.",
+  "slug": "hermes-agent-publie-une-build-canary-v0-22-2-3ae184",
+  "titre": "Hermes Agent publie une build canary v0.22.2",
+  "resume": "Hermes Agent a mis en ligne le 21 octobre 2026 une nouvelle build canary, taguée v0.22.2+canary.20261021T070232Z, sur la page des releases GitHub du projet. Le format du tag la place dans le canal de pré-publication, en amont d'une éventuelle version stable. L'extrait disponible ne détaille aucun changement ni correctif.",
   "tags": [
    "hermes",
    "agents",
    "dev",
    "open-source"
   ],
-  "importance": 2,
+  "importance": 1,
   "source": "Hermes Agent (releases)",
   "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2%2Bcanary.20261021T070232Z",
   "date_source": "2026-10-21T07:02:34+00:00",
-  "date_redac": "2026-10-21T07:10:56+00:00",
+  "date_redac": "2026-10-21T07:10:55+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 618,
-   "sortie": 846
+   "sortie": 515
   }
  },
  {
   "id": "2f9bb33445fd7a58",
   "slug": "openclaw-2026-10-10-beta-3-fiabilite-windows-et-reprise-apres-mise-a-j-2f9bb3",
   "titre": "OpenClaw 2026.10.10-beta.3 : fiabilité Windows et reprise après mise à jour",
-  "resume": "La bêta 2026.10.10-beta.3 d'OpenClaw corrige la fiabilité Windows : réinitialisation de l'état, démarrage de la Gateway et fenêtres SQLite masquées pendant les mises à jour. La récupération après mise à jour aligne les plugins sur le cœur et restaure les stockages d'agents affectés par un changement de schéma. Deux agents ne peuvent plus revendiquer le même agent lors d'une initialisation concurrente.",
+  "resume": "La version bêta 2026.10.10-beta.3 d'OpenClaw corrige plusieurs points de fiabilité sous Windows : réinitialisation de l'état initial, démarrage de la Gateway, fenêtres d'assistance SQLite masquées pendant les mises à jour et réinstallation forcée de la Gateway tolérant le délai d'horodatage du launcher. Côté récupération, les plugins propres à l'application convergent vers la version du cœur mise à jour et les stockages d'agents affectés sont restaurés après des changements de schéma. Un correctif empêche aussi deux agents de revendiquer la propriété d'un même agent lors d'une initialisation concurrente.",
   "tags": [
    "openclaw",
    "dev",
@@ -97,18 +97,18 @@
   "source": "OpenClaw (releases)",
   "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.10-beta.3",
   "date_source": "2026-10-21T07:00:49+00:00",
-  "date_redac": "2026-10-21T07:11:01+00:00",
+  "date_redac": "2026-10-21T07:10:58+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 812,
-   "sortie": 1036
+   "sortie": 421
   }
  },
  {
   "id": "9d3278008f1aea35",
   "slug": "saaspocalypse-le-modele-tarifaire-du-saas-a-t-il-vecu-9d3278",
   "titre": "« Saaspocalypse » : le modèle tarifaire du SaaS a-t-il vécu ?",
-  "resume": "Maddyness publie « Saaspocalypse », un article daté du 21 octobre 2026 qui interroge le modèle tarifaire du SaaS. La question posée tient en une ligne : le mode de facturation du logiciel en tant que service a-t-il vécu ? Le média, qui se présente comme le média pour comprendre l'économie de demain, place le débat sur le terrain des modèles économiques du logiciel.",
+  "resume": "Maddyness publie « Saaspocalypse », un article qui pose une question directe : le modèle tarifaire du SaaS, fondé sur l'abonnement, a-t-il vécu ? Le média, qui couvre l'économie de demain, ouvre ainsi le débat sur la façon dont les éditeurs logiciels facturent leurs services.",
   "tags": [
    "business",
    "société"
@@ -117,42 +117,42 @@
   "source": "Maddyness",
   "lien_source": "https://www.maddyness.com/?p=1443268",
   "date_source": "2026-10-21T07:00:11+00:00",
-  "date_redac": "2026-10-21T07:11:07+00:00",
+  "date_redac": "2026-10-21T07:11:04+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 623,
-   "sortie": 716
+   "sortie": 788
   }
  },
  {
   "id": "bb32be5f47ff5802",
-  "slug": "openai-contre-attaque-et-accuse-apple-d-avoir-recupere-ses-fichiers-co-bb32be",
-  "titre": "OpenAI contre-attaque et accuse Apple d'avoir récupéré ses fichiers confidentiels",
-  "resume": "Après les accusations d'espionnage portées par Apple, OpenAI contre-attaque. Un employé aurait emporté plus de 100 fichiers confidentiels, et le HomeView serait dans le viseur. L'affaire transforme la relation entre Cupertino et Sam Altman en guerre ouverte.",
+  "slug": "openai-accuse-apple-d-avoir-derobe-plus-de-100-fichiers-confidentiels-bb32be",
+  "titre": "OpenAI accuse Apple d'avoir dérobé plus de 100 fichiers confidentiels",
+  "resume": "Apple accusait OpenAI d'espionnage. OpenAI contre-attaque : selon lui, un employé aurait embarqué plus de 100 fichiers confidentiels, et le HomeView serait dans le viseur. Entre Cupertino et Sam Altman, l'histoire d'amour vire à la guerre ouverte.",
   "tags": [
    "openai",
    "business",
    "sécurité"
   ],
-  "importance": 4,
+  "importance": 3,
   "source": "Journal du Geek",
   "lien_source": "https://www.journaldugeek.com/2026/10/21/openai-accuse-apple-davoir-vole-ses-secrets-les-plus-confidentiels-pour-lune-de-ses-dernieres-annonces/",
   "date_source": "2026-10-21T06:56:21+00:00",
-  "date_redac": "2026-10-21T07:11:10+00:00",
+  "date_redac": "2026-10-21T07:11:08+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 687,
-   "sortie": 371
+   "sortie": 632
   }
  },
  {
   "id": "07d4b357fb69de22",
-  "slug": "windows-11-microsoft-retire-huit-actions-copilot-de-l-explorateur-07d4b3",
-  "titre": "Windows 11 : Microsoft retire huit actions Copilot de l'Explorateur",
-  "resume": "Microsoft va retirer huit actions Copilot du clic droit de l'Explorateur de fichiers de Windows 11, à partir de la mi-novembre 2026. Ces raccourcis IA venaient à peine de commencer leur déploiement, ce qui rend ce retrait notable : il intervient avant même que les fonctions aient eu le temps de s'installer auprès des utilisateurs.",
+  "slug": "windows-11-microsoft-retire-huit-actions-copilot-du-clic-droit-07d4b3",
+  "titre": "Windows 11 : Microsoft retire huit actions Copilot du clic droit",
+  "resume": "Microsoft va retirer huit actions Copilot du clic droit de l'Explorateur de fichiers de Windows 11 dès la mi-novembre 2026. Ces raccourcis IA venaient à peine de commencer leur déploiement. Le retrait tombe donc peu après leur mise en place, signe que l'intégration de Copilot dans Windows 11 bouge encore.",
   "tags": [
    "société",
-   "dev"
+   "agents"
   ],
   "importance": 2,
   "source": "Frandroid",
@@ -162,7 +162,7 @@
   "gen": {
    "modele": "deepseek-flash",
    "entree": 663,
-   "sortie": 129
+   "sortie": 710
   }
  },
  {

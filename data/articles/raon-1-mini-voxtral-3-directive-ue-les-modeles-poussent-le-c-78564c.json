@@ -1,0 +1,41 @@
+{
+ "slug": "raon-1-mini-voxtral-3-directive-ue-les-modeles-poussent-le-c-78564c",
+ "titre": "Raon-1 mini, Voxtral 3, directive UE : les modèles poussent, le cadre serre",
+ "chapo": "Un MoE ouvert signé KRAFTON, une famille vocale multilingue chez Mistral, une directive européenne qui fait des agents des produits : la même semaine, les modèles se multiplient et le cadre juridique se referme. Petit tour d'horizon de ce qui compte vraiment.",
+ "html": "<h2 id=\"raon-1-mini-30b-de-parametres-4b-actifs-\">Raon-1 mini : 30B de paramètres, 4B actifs, entraîné de zéro</h2>\n<p>KRAFTON AI publie Raon-1 mini, un Mixture-of-Experts de 30 milliards de paramètres dont 4 milliards sont activés (30B-A4B). Le point notable : le modèle a été conçu et entraîné de zéro, sans repartir d'un jeu de poids existant.</p>\n<p>Deux axes de travail revendiqués : la conversation en coréen et les tâches agentiques. Le modèle embarque du raisonnement intégré, du suivi d'instructions, de la recherche et du tool calling compatible avec Hermes Agent, Pi et OpenCode.</p>\n<p>La diffusion se fait en GGUF sous licence Apache 2.0, avec un draft DFlash2 fourni pour le décodage spéculatif. Concrètement : de quoi faire tourner le modèle en local et accélérer son inférence, sans passer par une API distante.</p>\n<h2 id=\"voxtral-3-plus-de-50-langues-en-entree-p\">Voxtral 3 : plus de 50 langues en entrée, plus de 35 en sortie</h2>\n<p>Mistral AI a présenté mardi 20 octobre 2026 Voxtral 3, une famille de modèles vocaux qui transcrit plus de 50 langues et en parle plus de 35. Ces modèles servent également de base à un kit destiné à construire des agents vocaux.</p>\n<p>La comparaison avec mars donne la mesure du chemin : le premier modèle de synthèse vocale de Mistral ne gérait alors que 9 langues. Le reste de l'écart se lit face à ElevenLabs et ses 90 langues — un adversaire qui garde une bonne longueur d'avance sur la couverture linguistique.</p>\n<p>À noter que la dépêche ne dit rien des performances de reconnaissance ou de la qualité audio : la course au nombre de langues est un indicateur de couverture, pas de précision.</p>\n<h2 id=\"directive-2024-2853-vendre-un-agent-c-es\">Directive 2024/2853 : vendre un agent, c'est devenir fabricant</h2>\n<p>La directive (UE) 2024/2853, à transposer au plus tard le 9 décembre 2026, fait du logiciel — SaaS compris — un produit. Conséquence directe : qui développe ou vend sous sa propre marque un agent IA devient fabricant, et donc responsable <strong>sans faute</strong> des lésions, des atteintes psychologiques médicalement reconnues et des destructions de données non professionnelles causées par un défaut.</p>\n<p>Le texte ne vise pas seulement les modèles : l'emballage logiciel, l'agent vendu en marque blanche et le service hébergé entrent dans le champ. Une mise à jour substantielle survenant après cette date fait basculer un agent déjà en service dans le régime.</p>\n<p>Pour les équipes qui assemblent des agents à partir de modèles ouverts, la question n'est plus seulement technique : elle porte sur ce que l'on contrôle, ce que l'on teste et ce que l'on documente avant mise sur le marché.</p>\n<h2 id=\"pekin-epargne-les-api-la-france-regarde-\">Pékin épargne les API, la France regarde ses juniors</h2>\n<p>Depuis le 16 octobre 2026, Pékin impose une déclaration préalable pour exporter 40 technologies, dont 23 en IA. La consultation court jusqu'au 15 novembre. Le ministère du Commerce précise deux exclusions : l'appel d'un modèle par API et les technologies publiées en open source restent hors champ. En revanche, le déploiement localisé hors de Chine d'un modèle restreint entrera dans le champ une fois le catalogue en vigueur — un point à surveiller pour quiconque héberge des poids en dehors du pays.</p>\n<p>Côté français, une étude signée d'économistes de HEC Paris, de la Banque de France et de l'INSEAD chiffre un effet d'âge. Environ 600 entreprises déclarant un usage intensif de l'IA ont embauché en 2025 de 17 à 25 % de jeunes de 21 à 29 ans en CDI de moins que les autres entreprises de leur secteur, sans écart net sur leur effectif total. Les auteurs recommandent de redéfinir les premiers postes autour de ce que l'IA accomplit mal.</p>\n<h2>Et maintenant ?</h2>\n<p>Les briques disponibles cette semaine vont dans le même sens : des poids ouverts en Apache 2.0, un draft pour accélérer le décodage, du vocal multilingue packagé en kit. Le local redevient une option crédible, y compris pour des usages agentiques. En parallèle, la directive 2024/2853 déplace la charge : celui qui signe la mise sur le marché endosse la responsabilité du défaut, quand bien même le modèle viendrait d'ailleurs. Le champ chinois, lui, laisse passer les API et l'open source tout en verrouillant les déploiements localisés. Trois calendriers différents — licence, transposition, catalogue export — pour un même objet.</p>",
+ "pivot": "78564c1145835106",
+ "tags": [
+  "open-source",
+  "agents",
+  "mistral",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbh0ev/kraftonraon1minipreview_hugging_face/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3293341_face-a-elevenlabs-et-ses-90-langues-mistral-degaine-voxtral-3"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/les-entreprises-les-plus-converties-a-lia-embauchent-jusqua-25-de-jeunes-en-cdi-en-moins/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  }
+ ],
+ "date": "2026-10-21T08:13:40+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1664,
+  "sortie": 2907
+ }
+}

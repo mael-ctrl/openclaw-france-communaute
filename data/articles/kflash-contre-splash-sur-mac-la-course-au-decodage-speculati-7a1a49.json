@@ -1,0 +1,41 @@
+{
+ "slug": "kflash-contre-splash-sur-mac-la-course-au-decodage-speculati-7a1a49",
+ "titre": "KFlash contre Splash : sur Mac, la course au décodage spéculatif",
+ "chapo": "Kapitsa 0.2 embarque KFlash, un décodage spéculatif qui explore un arbre de candidats là où Splash 1.4.0 vérifie une seule chaîne de tokens. Derrière ce duel sur Mac Apple Silicon, Pékin encadre l'export de 23 technologies d'IA et Amazon lance TorchNeuron face à l'écosystème Nvidia.",
+ "html": "<h2 id=\"deux-facons-de-deviner-les-tokens\">Deux façons de deviner les tokens</h2>\n<p>Kapitsa est un moteur d'inférence open source optimisé pour l'Apple Silicon, taillé pour faire tourner les modèles Qwen et Nemotron sur Mac. Sa version 0.2 embarque <strong>KFlash</strong>, une nouvelle méthode de décodage spéculatif — cette technique qui consiste à faire deviner plusieurs tokens d'avance au modèle avant de les vérifier en bloc, au lieu d'en produire un par un.</p>\n<p>La différence se joue au moment de la vérification. <strong>DFlash2</strong>, la méthode embarquée dans Splash 1.4.0, édité par Inco, vérifie une seule chaîne de tokens devinés et s'arrête à la première erreur : tout ce qui suit le premier token raté part à la poubelle. KFlash explore à l'inverse un <strong>arbre de candidats classés dans la même passe</strong>. Une branche qui échoue n'invalide pas les autres.</p>\n<p>Les deux moteurs ont été comparés sur deux configurations : un MacBook Pro M4 Pro avec 48 Go de mémoire, et un M1 Pro avec 16 Go. Le banc d'essai est modeste, il tient sur un ordinateur portable — c'est précisément le terrain visé.</p>\n<h2 id=\"pekin-liste-23-technologies-d-ia\">Pékin liste 23 technologies d'IA</h2>\n<p>Depuis le 16 octobre 2026, la Chine impose une <strong>déclaration préalable</strong> pour exporter 40 technologies, dont 23 relevant de l'IA. Le catalogue est en consultation jusqu'au 15 novembre. Le ministère du Commerce indique deux exclusions : l'appel d'un modèle par API, et les technologies déjà publiées en open source.</p>\n<p>Ce second point vaut pour Qwen et DeepSeek, dont les modèles ouverts circulent librement hors de Chine. Mais le même ministère précise qu'un <strong>déploiement localisé hors de Chine</strong> d'un modèle restreint entrera dans le champ une fois le catalogue en vigueur. Autrement dit, la frontière entre « publier des poids ouverts » et « faire tourner ce modèle sur des serveurs à l'étranger » reste à tracer. Les textes cités ne disent pas encore comment les deux règles s'articulent.</p>\n<h2 id=\"nscale-anthropic-45-milliards-encore\">Nscale-Anthropic : 45 milliards, encore</h2>\n<p>TechCrunch rapporte que <strong>Nscale et Anthropic</strong> seraient en discussions pour un nouveau contrat de calcul de <strong>45 milliards de dollars</strong>. En août, les deux entreprises avaient déjà annoncé un accord du même montant. Ce second contrat potentiel, de magnitude identique, donne la mesure des moyens engagés sur la puissance de calcul.</p>\n<p>S'il aboutit, il serait le dernier d'une longue série d'accords de très grande ampleur signés par Anthropic au cours de l'année écoulée. Le chiffre n'a rien d'anecdotique : il situe le coût d'entrée pour entraîner et servir des modèles de frontière, très loin des considérations de bancs d'essai sur portable.</p>\n<h2 id=\"amazon-veut-decoller-pytorch-de-nvidia\">Amazon veut décoller PyTorch de Nvidia</h2>\n<p>Amazon lance <strong>TorchNeuron</strong>, un outil de développement qui cible PyTorch, le kit gratuit sur lequel se construisent la plupart des applications d'IA. Objectif affiché : briser la mainmise de Nvidia sur cet écosystème, pour que davantage de développeurs fassent tourner leurs applications sur des puces alternatives — dont celles d'Amazon. TechCrunch y voit l'offensive la plus ambitieuse d'Amazon face à Nvidia.</p>\n<p>La logique est celle de l'abstraction matérielle : si du code écrit pour PyTorch tourne indifféremment sur plusieurs accélérateurs, le choix de la puce redevient une question de coût et de disponibilité plutôt qu'un verrou technique. C'est exactement là que se situe la bataille, bien plus que dans les gains d'un moteur d'inférence.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois fronts, une même couche : celle qui fait tourner les modèles. Le décodage spéculatif de KFlash économise des tokens sur un MacBook Pro ; TorchNeuron cherche à rendre les accélérateurs interchangeables sous PyTorch ; les 45 milliards de Nscale et Anthropic rappellent le prix du calcul à grande échelle. Pendant ce temps, Pékin place 23 technologies d'IA sous déclaration préalable, tout en épargnant les API et l'open source. Aucun de ces sujets ne se tranche sur un classement de benchmarks.</p>",
+ "pivot": "7a1a4982eeb7fba8",
+ "tags": [
+  "open-source",
+  "matériel",
+  "dev",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbdxg3/kflash_benchmarks_of_newly_released_versions_of/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+  }
+ ],
+ "date": "2026-10-21T05:08:00+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1582,
+  "sortie": 3463
+ }
+}

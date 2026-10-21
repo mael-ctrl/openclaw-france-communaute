@@ -2669,3 +2669,9 @@
 {"ts": "2026-10-21T04:40:05+00:00", "evenement": "deploiement", "details": {"fichiers": 1475, "octets": 29656924}, "sha256": "99c864551c09721f18889e76c70ba761644f6cad30a2531d957726122ed6830f"}
 {"ts": "2026-10-21T04:40:05+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "74df2fb740568b5d3d9d01f5f558e66fe91afb71b1d1c392f570d1d8949674b8"}
 {"ts": "2026-10-21T04:40:05+00:00", "evenement": "bilan", "details": {"duree_s": 2117.0, "neufs": 5, "breves": 5, "articles": 1, "fichiers": 1441, "envois": 1475, "publications": 0}, "sha256": "f70c187dbed0a70210c215b4fe7d6ba787e03f44db6e1ae6f0c9f7360bb5ba80"}
+{"ts": "2026-10-21T05:07:08+00:00", "evenement": "collecte", "details": {"neufs": 6}, "sha256": "6b162f96063b62c4fb5eee01d00e2c62fd4fdab1ec21cfb50f152d04828ed549"}
+{"ts": "2026-10-21T05:07:26+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Microsoft applique aux agents d'IA ses outils de surveillanc) : réponse non-JSON"}, "sha256": "f1464d499faa5112f2f4e94c2d902a9d2fc1636261e04b86c8cba1f6aea91413"}
+{"ts": "2026-10-21T05:08:14+00:00", "evenement": "construction", "details": {"fichiers": 1447}, "sha256": "145f252ef812399ace4417a4006985ccee6a95f76bb000499a19f03a3770a562"}
+{"ts": "2026-10-21T05:37:13+00:00", "evenement": "deploiement", "details": {"fichiers": 1481, "octets": 29753197}, "sha256": "184c34748e1fb3811bf3969e8c85c05860f03d58217611884456173d55a5a9df"}
+{"ts": "2026-10-21T05:37:17+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "06f6da76285fbd461983efa56de87eb86c23656d8fd93bb531c44c81d098d40e"}
+{"ts": "2026-10-21T05:37:17+00:00", "evenement": "bilan", "details": {"duree_s": 1823.1, "neufs": 6, "breves": 5, "articles": 1, "fichiers": 1447, "envois": 1481, "publications": 0}, "sha256": "a04a1813f009638d68e06a0c56acbb7f3420bc27423b0206758ef550e6b35ae9"}

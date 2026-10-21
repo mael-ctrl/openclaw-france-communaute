@@ -1,5 +1,68 @@
 [
  {
+  "id": "2b7fbd17b30273c4",
+  "slug": "tenex-un-cycle-de-developpement-logiciel-natif-ia-pour-les-grandes-ent-2b7fbd",
+  "titre": "Tenex : un cycle de développement logiciel natif IA pour les grandes entreprises",
+  "resume": "Dans cet épisode de 44 minutes de Latent Space, Alex Lieberman et CJ Hess expliquent comment Tenex construit un cycle de développement logiciel (SDLC) natif IA à destination des entreprises du Fortune 2000. Trois thèmes structurent la discussion : le paiement aux résultats, la construction avec des agents et le dernier kilomètre de l'adoption de l'IA en entreprise.",
+  "tags": [
+   "agents",
+   "dev",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Latent Space",
+  "lien_source": "https://www.latent.space/p/tenex",
+  "date_source": null,
+  "date_redac": "2026-10-21T05:07:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 604,
+   "sortie": 619
+  }
+ },
+ {
+  "id": "802472bd0ff56954",
+  "slug": "openclaw-publie-la-beta-3-de-sa-version-2026-10-10-802472",
+  "titre": "OpenClaw publie la bêta 3 de sa version 2026.10.10",
+  "resume": "OpenClaw met en ligne la version 2026.10.10-beta.3, datée du 21 octobre 2026. Il s'agit d'une pré-version bêta, publiée sur GitHub, dont le numéro désigne la troisième itération de la branche 2026.10.10. L'annonce ne précise ni le contenu ni les correctifs apportés.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.10-beta.3",
+  "date_source": "2026-10-21T04:57:26+00:00",
+  "date_redac": "2026-10-21T05:07:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 728
+  }
+ },
+ {
+  "id": "7a1a4982eeb7fba8",
+  "slug": "kflash-kapitsa-0-2-face-a-splash-1-4-0-sur-mac-apple-silicon-7a1a49",
+  "titre": "KFlash : Kapitsa 0.2 face à Splash 1.4.0 sur Mac Apple Silicon",
+  "resume": "Kapitsa, moteur d'inférence open source optimisé Apple Silicon pour les modèles Qwen et Nemotron, sort en 0.2 avec KFlash, une nouvelle méthode de décodage spéculatif. Là où DFlash2 (Splash 1.4.0 d'Inco) vérifie une seule chaîne de tokens devinés et s'arrête à la première erreur, KFlash explore un arbre de candidats classés dans la même passe. Les deux moteurs ont été comparés sur MacBook Pro M4 Pro 48 Go et M1 Pro 16 Go.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbdxg3/kflash_benchmarks_of_newly_released_versions_of/",
+  "date_source": "2026-10-21T04:47:12+00:00",
+  "date_redac": "2026-10-21T05:07:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 908,
+   "sortie": 870
+  }
+ },
+ {
   "id": "6182428304c67ee2",
   "slug": "doubleai-lance-maxwell-un-modele-d-ia-pour-reduire-les-couts-de-calcul-618242",
   "titre": "doubleAI lance Maxwell, un modèle d'IA pour réduire les coûts de calcul",
@@ -79,6 +142,26 @@
    "modele": "deepseek-flash",
    "entree": 814,
    "sortie": 607
+  }
+ },
+ {
+  "id": "335da94407f80172",
+  "slug": "fairstress-une-evaluation-plus-poussee-de-l-equite-des-decisions-des-l-335da9",
+  "titre": "FairStress, une évaluation plus poussée de l'équité des décisions des LLM",
+  "resume": "Sur r/LocalLLaMA, un membre du forum relaie FairStress, un travail consacré à l'évaluation de l'équité dans la prise de décision des modèles de langue. L'approche est présentée comme un examen plus approfondi de ce critère que les mesures courantes. Le partage est signé u/TheRealMasonMac, sous forme de lien vers la publication d'origine.",
+  "tags": [
+   "recherche",
+   "société"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbcnrf/fairstress_a_deeper_evaluation_of_fairness_in_llm/",
+  "date_source": "2026-10-21T03:37:49+00:00",
+  "date_redac": "2026-10-21T05:07:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 606
   }
  },
  {
@@ -182,6 +265,27 @@
    "modele": "deepseek-flash",
    "entree": 603,
    "sortie": 461
+  }
+ },
+ {
+  "id": "3023a09c5a1a1189",
+  "slug": "openclaw-reorganise-lui-des-pull-requests-et-des-controles-3023a0",
+  "titre": "OpenClaw réorganise l’UI des pull requests et des contrôles",
+  "resume": "La version publiée d’OpenClaw réorganise l’affichage des détails de pull request et des contrôles de vérification. Elle diffère certaines vues de pull request avec une reprise encadrée, puis complète les contrôles d’intégration. La mise à jour ajoute des tests sur les surfaces conservées et les publications archivées, et régénère le manifeste des modules de démarrage.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F33b16c7ef875-1792558197",
+  "date_source": "2026-10-21T01:40:27+00:00",
+  "date_redac": "2026-10-21T05:07:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 716,
+   "sortie": 486
   }
  },
  {

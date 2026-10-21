@@ -1,22 +1,18 @@
 {
- "runs": 297,
- "items_collectes": 2260,
- "breves_publiees": 1054,
- "articles_publies": 198,
- "tokens_entree": 1074514,
- "tokens_sortie": 1544219,
+ "runs": 298,
+ "items_collectes": 2266,
+ "breves_publiees": 1059,
+ "articles_publies": 199,
+ "tokens_entree": 1079544,
+ "tokens_sortie": 1550991,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-21T04:05:58+00:00",
+ "dernier_run": "2026-10-21T05:08:00+00:00",
  "solde": {
   "total": "85.08",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-20T12:23:38+00:00",
-   "message": "brève impossible (Un pirate a percé les sites de plus de 100 entreprises, dont) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-20T15:10:27+00:00",
    "message": "brève impossible (Qwen3.8-Flash-Next vs Opus 5.5: Six-way benchmark on a real ) : réponse non-JSON"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-21T01:04:20+00:00",
    "message": "archivage wayback : The read operation timed out"
+  },
+  {
+   "ts": "2026-10-21T05:07:26+00:00",
+   "message": "brève impossible (Microsoft applique aux agents d'IA ses outils de surveillanc) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -1207,6 +1207,10 @@
   ],
   [
    "2026-10-21T04:05:24+00:00",
+   "85.08"
+  ],
+  [
+   "2026-10-21T05:07:09+00:00",
    "85.08"
   ]
  ],

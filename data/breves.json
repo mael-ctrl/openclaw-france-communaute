@@ -1,5 +1,109 @@
 [
  {
+  "id": "e5cefe673b310a82",
+  "slug": "otter-ai-leve-320-m-aupres-du-fonds-de-croissance-de-general-catalyst-e5cefe",
+  "titre": "Otter.ai lève 320 M$ auprès du fonds de croissance de General Catalyst",
+  "resume": "Otter.ai annonce un tour de financement de 320 millions de dollars, mené par le fonds de croissance de General Catalyst, pour son outil de réunion. La société indique vouloir affecter ces fonds à sa croissance sur le segment entreprise, à sa stratégie de mise sur le marché, à son expansion internationale et à l'innovation produit.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+  "date_source": null,
+  "date_redac": "2026-10-21T02:06:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 561
+  }
+ },
+ {
+  "id": "1174af18ff4b9fdc",
+  "slug": "terminal-x-l-agent-d-evaluation-juge-comme-un-investisseur-senior-1174af",
+  "titre": "Terminal X : l'agent d'évaluation juge comme un investisseur senior",
+  "resume": "Terminal X note les productions d'un modèle à l'aide d'un agent d'évaluation et d'une grille de 54 critères. D'après OpenAI, couplé à GPT-6.1 Sol, il repère 25 % d'écarts supplémentaires avec le mandat d'un fonds. La concordance avec le jugement d'un investisseur senior atteint 88,6 %.",
+  "tags": [
+   "openai",
+   "agents",
+   "business"
+  ],
+  "importance": 3,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/terminal-x",
+  "date_source": null,
+  "date_redac": "2026-10-21T02:06:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 603,
+   "sortie": 461
+  }
+ },
+ {
+  "id": "0f1cfe91e2d7947e",
+  "slug": "plus-de-35-milliards-de-dollars-de-puces-nvidia-pour-bytedance-alibaba-0f1cfe",
+  "titre": "Plus de 35 milliards de dollars de puces Nvidia pour ByteDance, Alibaba et Tencent",
+  "resume": "Un post de r/LocalLLaMA rapporte que ByteDance, Alibaba et Tencent auraient passé pour plus de 35 milliards de dollars de commandes de puces Nvidia. L'extrait évoque environ 3 millions de RTX 5500 Pro, à 11,4 dollars l'unité, destinées surtout à l'inférence de LLM et à la génération de vidéo par IA. L'auteur en tire une conclusion sèche : la carte serait désormais hors de portée pour faire tourner un LLM en local.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xb9z8e/exclusive_bytedance_alibaba_tencent_place_over_35/",
+  "date_source": "2026-10-21T01:24:31+00:00",
+  "date_redac": "2026-10-21T02:05:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 674,
+   "sortie": 926
+  }
+ },
+ {
+  "id": "715ab54246d9a6e2",
+  "slug": "lfm2-5-24-a2b-juge-inutilisable-boucles-continues-correctif-sans-effet-715ab5",
+  "titre": "LFM2.5-24-A2B jugé inutilisable : boucles continues, correctif sans effet",
+  "resume": "Sur r/LocalLLaMA, un utilisateur rapporte que le modèle LFM2.5-24-A2B part en boucles continues et se répète sans fin. Il dit avoir appliqué un correctif de templates de chat trouvé sur Hugging Face, sans aucun résultat. Selon lui, le modèle a pourtant été entraîné sur openclaw et d'autres usages agentiques, ce qui rend le raté d'autant plus visible.",
+  "tags": [
+   "openclaw",
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xb9hrb/tried_lfm2524a2b_its_crap/",
+  "date_source": "2026-10-21T01:01:04+00:00",
+  "date_redac": "2026-10-21T02:05:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 706,
+   "sortie": 490
+  }
+ },
+ {
+  "id": "7de73941e2ad2adc",
+  "slug": "sur-m1-max-64-go-quels-modeles-locaux-pour-du-prototypage-sensible-7de739",
+  "titre": "Sur M1 Max 64 Go, quels modèles locaux pour du prototypage sensible ?",
+  "resume": "Après neuf mois à 99 % sur des modèles cloud (Gemini, Claude, DeepSeek, Groq, Cerebras), un utilisateur de r/LocalLLaMA retente le local sur un M1 Max 64 Go. Son 7B Llama en MLX tournait à environ 45 tokens/seconde, mais reste trop limité ; un modèle 32B a renvoyé des erreurs dans LM Studio. Il cherche quels modèles offline conviennent au prototypage sensible : recherche médicale et juridique, code léger, CAO/PCB, Blender.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xb9ax1/how_to_squeeze_the_max_token_from_m1_max_64gb/",
+  "date_source": "2026-10-21T00:51:56+00:00",
+  "date_redac": "2026-10-21T02:05:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 757,
+   "sortie": 1341
+  }
+ },
+ {
   "id": "dd30cc03b1f8ff30",
   "slug": "hugging-face-juge-inexact-le-documentaire-de-netflix-sur-openai-dd30cc",
   "titre": "Hugging Face juge inexact le documentaire de Netflix sur OpenAI",

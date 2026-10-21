@@ -1,5 +1,109 @@
 [
  {
+  "id": "6bebbab7bcb44820",
+  "slug": "l-allemagne-signe-avec-nvidia-deux-semaines-apres-ecosia-mistral-6bebba",
+  "titre": "L'Allemagne signe avec Nvidia, deux semaines après Ecosia-Mistral",
+  "resume": "Deux semaines après le divorce entre Ecosia et Mistral, Berlin déroule le tapis rouge à Nvidia. Milliards en vitrine, start-up financées : le chancelier allemand assortit l'accord d'un mot d'ordre, ouvrez vos données. Le geste tranche avec les ambitions européennes d'IA souveraine.",
+  "tags": [
+   "business",
+   "mistral",
+   "société"
+  ],
+  "importance": 4,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/alors-que-leurope-reve-dia-souveraine-lallemagne-signe-avec-un-geant-americain.html",
+  "date_source": "2026-10-21T05:59:47+00:00",
+  "date_redac": "2026-10-21T06:08:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 463
+  }
+ },
+ {
+  "id": "26c85b5410fe172a",
+  "slug": "drex-max-2-0-un-modele-de-decision-local-de-27b-annonce-comme-sota-26c85b",
+  "titre": "Drex Max 2.0, un modèle de décision local de 27B annoncé comme SOTA",
+  "resume": "Sur r/LocalLLaMA, l'utilisateur DotaMate présente Drex Max 2.0, un modèle de 27 milliards de paramètres destiné à tourner en local et orienté vers les tâches de décision. L'auteur le présente comme le nouvel état de l'art (SOTA) dans sa catégorie. La publication paraît dans r/LocalLLaMA, le forum consacré aux modèles que l'on fait tourner sur sa propre machine.",
+  "tags": [
+   "recherche",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbexic/new_sota_27b_local_decision_model_drex_max_20/",
+  "date_source": "2026-10-21T05:45:06+00:00",
+  "date_redac": "2026-10-21T06:08:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 1136
+  }
+ },
+ {
+  "id": "34190ba7e3a0b113",
+  "slug": "openclaw-corrige-sa-prepublication-pour-accepter-le-resume-lisible-du--34190b",
+  "titre": "OpenClaw corrige sa prépublication pour accepter le résumé lisible du diff SDK",
+  "resume": "La release OpenClaw publiée le 21 octobre 2026 embarque un correctif sur sa chaîne de publication. Lors de la phase de prépublication (preflight), l'outil accepte désormais le résumé lisible du diff du SDK. Le changement porte sur l'outillage de publication lui-même, identifié comme un fix dans le journal des releases.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F5303aee80400-1792560599",
+  "date_source": "2026-10-21T05:29:26+00:00",
+  "date_redac": "2026-10-21T06:09:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 617,
+   "sortie": 583
+  }
+ },
+ {
+  "id": "e3ca5fc3f2e893a7",
+  "slug": "des-kernels-lora-rapides-pour-llama-cpp-jusqu-a-1400-t-s-sur-strix-hal-e3ca5f",
+  "titre": "Des kernels LoRA rapides pour llama.cpp, jusqu'à 1400 t/s sur Strix Halo",
+  "resume": "Un contributeur publie des kernels LoRA pour llama.cpp, où cette fonctionnalité reste lente : sur Strix Halo, le prefill chute de 1500 à 300 t/s avec un LoRA de 35 Mo qui ne touche que quelques modules du modèle. Son kernel LoRA général remonte à 1000 t/s, le kernel fusionné à 1400 t/s. L'enjeu : appliquer un LoRA sans retélécharger le modèle complet, par exemple pour passer Qwen3.8-Flash-Next en version non censurée en Q8_0, IQ4_NL ou GSQ-RCO-Q2_0, avec un scale réglable.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbekzx/fast_lora_in_llamacpp/",
+  "date_source": "2026-10-21T05:24:30+00:00",
+  "date_redac": "2026-10-21T06:09:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 875,
+   "sortie": 485
+  }
+ },
+ {
+  "id": "690377c40a5ca1b2",
+  "slug": "strata-promet-4x-plus-de-tokens-s-que-llama-cpp-mais-quid-d-apple-sili-690377",
+  "titre": "Strata promet 4x plus de tokens/s que llama.cpp, mais quid d'Apple Silicon",
+  "resume": "Strata, présenté comme la nouvelle solution à la mode pour l'inférence locale, revendique un gain de 4x en tokens par seconde face à llama.cpp. Sur r/LocalLLaMA, un utilisateur fait remarquer qu'aucun retour public ne documente pour l'instant les performances réelles de Strata sur Apple Silicon. Il demande si des comparaisons ont été menées sur Mac face à llama.cpp et à MLX.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbej3r/strata_speed_up_on_apple_silicon/",
+  "date_source": "2026-10-21T05:21:32+00:00",
+  "date_redac": "2026-10-21T06:09:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 660,
+   "sortie": 455
+  }
+ },
+ {
   "id": "2b7fbd17b30273c4",
   "slug": "tenex-un-cycle-de-developpement-logiciel-natif-ia-pour-les-grandes-ent-2b7fbd",
   "titre": "Tenex : un cycle de développement logiciel natif IA pour les grandes entreprises",
@@ -18,6 +122,27 @@
    "modele": "deepseek-flash",
    "entree": 604,
    "sortie": 619
+  }
+ },
+ {
+  "id": "8e2bcf831df86a74",
+  "slug": "les-modeles-pplx-decider-de-perplexity-dix-fois-moins-chers-que-gpt-6--8e2bcf",
+  "titre": "Les modèles pplx-decider de Perplexity dix fois moins chers que GPT 6 Luna",
+  "resume": "Sur le Decisions API, pplx-decider-v1.2 coûte dix fois moins cher que GPT 6 Luna en raisonnement faible, pour des décisions de qualité identique, selon l'index d'Artificial Analysis. La version flash-v1.2 présente le même écart face à GPT 6 Luna, et v1.2 est aussi 2,5 fois moins chère que Jev. Les deux modèles sont publiés en open source sous licence Apache 2.0 sur Hugging Face.",
+  "tags": [
+   "open-source",
+   "business",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbe9ga/the_costs_of_decisions_has_dropped_10x_in_just_a/",
+  "date_source": "2026-10-21T05:06:18+00:00",
+  "date_redac": "2026-10-21T06:09:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 774,
+   "sortie": 562
   }
  },
  {

@@ -6,6 +6,7 @@ le journal de bord, et les fichiers à emporter par la communauté.
 """
 import html
 import json
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
 import config
@@ -258,7 +259,20 @@ def page_skills():
     <p class="oeil">// SKILLS À EMPORTER</p>
     <h1 class="titre-page">Skills &amp; fichiers</h1>
     <p class="intro-page">Des skills, prompts et fiches pour <strong>comprendre notre méthode et pratiquer votre veille IA</strong>.
-    Gratuits, en markdown, sans inscription. Prenez, adaptez, partagez — c'est fait pour ça.</p>
+    Gratuits, sans inscription : fiches en markdown et liste de flux en OPML. Prenez, adaptez, partagez — c'est fait pour ça.</p>
+    <section class="encart" aria-labelledby="sources-opml">
+      <h2 id="sources-opml">Emportez les sources de veille du Crabe</h2>
+      <p>Une liste de flux RSS et Atom, générée depuis notre catalogue de collecte à chaque construction du site.
+      Le fichier OPML contient les noms et adresses des sources, pas leurs articles.</p>
+      <p><a class="bouton" href="/veille/sources.opml" download="sources-du-crabe.opml">Télécharger les sources (.opml)</a></p>
+      <ol>
+        <li>Téléchargez le fichier gratuit, sans inscription.</li>
+        <li>Dans un lecteur RSS compatible OPML, choisissez « Importer » puis sélectionnez ce fichier.</li>
+        <li>Choisissez les sources à conserver et actualisez votre lecteur.</li>
+      </ol>
+      <p class="petit-texte">Cette liste ne reprend pas nos filtres de pertinence ni nos résumés : certains flux couvrent aussi d’autres sujets que l’IA.
+      La disponibilité des flux tiers peut varier. Votre lecteur peut demander un compte ou être payant ; ses règles de confidentialité s’appliquent.</p>
+    </section>
     <div class="grille">{cartes}</div>
     <div class="encart">
       <h2>Et après ?</h2>
@@ -591,6 +605,21 @@ def page_404():
                 robots="noindex,follow")
 
 
+def sources_opml():
+    """Liste d'abonnements issue du catalogue, sans filtres ni contenus tiers."""
+    sources = json.loads(config.FICHIER_SOURCES.read_text(encoding="utf-8"))
+    racine = ET.Element("opml", version="2.0")
+    entete = ET.SubElement(racine, "head")
+    ET.SubElement(entete, "title").text = "Les sources de veille du Crabe"
+    groupe = ET.SubElement(ET.SubElement(racine, "body"), "outline",
+                           text="Sources de veille du Crabe")
+    for source in sources:
+        ET.SubElement(groupe, "outline", type="rss", text=source["nom"],
+                      xmlUrl=source["url"])
+    ET.indent(racine)
+    return ET.tostring(racine, encoding="utf-8", xml_declaration=True).decode("utf-8") + "\n"
+
+
 def construire_annexes(breves, articles, stats, entrees_journal):
     pages = {
         "manifeste/index.html": page_manifeste(),
@@ -606,6 +635,7 @@ def construire_annexes(breves, articles, stats, entrees_journal):
     episodes = podcast.charger_episodes(config.RACINE)
     pages["podcast/index.html"] = podcast.page_ecoute(episodes, config.URL_SITE)
     return pages, {
+        "veille/sources.opml": sources_opml(),
         "podcast/feed.xml": podcast.flux_xml(episodes, config.URL_SITE),
         "b2b/echantillon-veille/echantillon-veille.md": _fichier_demo_b2b("echantillon-veille.md"),
         "b2b/echantillon-veille/questionnaire-qualification.md": _fichier_demo_b2b("questionnaire-qualification.md"),

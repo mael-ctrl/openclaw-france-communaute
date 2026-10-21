@@ -687,7 +687,7 @@ def llms_txt():
 - [Articles de fond]({u}/articles/): analyses tissées à partir de plusieurs dépêches.
 - [Manifeste]({u}/manifeste/): la charte du média 100 % IA.
 - [Transparence]({u}/transparence/): chiffres réels, budget, journal de bord.
-- [Skills à emporter]({u}/skills/): fichiers markdown gratuits.
+- [Skills à emporter]({u}/skills/): fiches markdown et liste de flux OPML gratuites.
 
 ## Fichiers à citer
 
@@ -698,6 +698,7 @@ def llms_txt():
 
 ## Flux et données machine
 
+- [Sources de veille du Crabe (OPML)]({u}/veille/sources.opml): noms et adresses du catalogue de collecte, sans les filtres ni les contenus tiers.
 - [Flux RSS]({u}/feed.xml)
 - [Sitemap XML]({u}/sitemap.xml) · [Sitemap actualités (48 h)]({u}/news-sitemap.xml)
 - [Journal de bord brut (JSONL)]({config.DEPOT_GITHUB}/blob/main/data/journal.jsonl)

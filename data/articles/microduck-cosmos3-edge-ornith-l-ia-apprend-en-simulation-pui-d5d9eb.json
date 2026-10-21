@@ -1,0 +1,41 @@
+{
+ "slug": "microduck-cosmos3-edge-ornith-l-ia-apprend-en-simulation-pui-d5d9eb",
+ "titre": "Microduck, Cosmos3-Edge, Ornith : l'IA apprend en simulation, puis se loge partout",
+ "chapo": "Un robot s'entraîne dans Isaac Lab 3.0 avant de poser les pieds au sol, un modèle de vision tient sous 8 Go sur un Jetson, un MoE de 122B s'installe sur Ollama. La même semaine, la même question de place — et, à l'autre bout, Amazon qui attaque l'écosystème de Nvidia et une étude sur l'embauche des jeunes en France.",
+ "html": "\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches de la semaine racontent la même chose à des altitudes différentes : un robot qui apprend dans un simulateur, un modèle de vision comprimé pour tenir dans 8 Go, un MoE de 122B téléchargé sur un disque local, un outil Amazon pour sortir de l'emprise d'un fabricant de puces. À chaque fois, la question n'est pas la puissance brute mais le point d'insertion — où le calcul se loge, et à quel coût. L'étude française ajoute une variable que les benchmarks ne capturent pas : ce que ces choix techniques font aux premiers emplois.</p>",
+ "pivot": "d5d9ebd492244a0d",
+ "tags": [
+  "robots",
+  "matériel",
+  "open-source",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "Hugging Face",
+   "url": "https://huggingface.co/blog/nvidia/microduck-isaac-lab-sim-to-real"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/les-entreprises-les-plus-converties-a-lia-embauchent-jusqua-25-de-jeunes-en-cdi-en-moins/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbslby/ornith15122b_anyone_tried_it_in_a_coding_agent_yet/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbph8w/cosmos3edge_in_under_8_gb_vlm_out_now_video_gen/"
+  }
+ ],
+ "date": "2026-10-21T18:14:30+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1666,
+  "sortie": 2906
+ }
+}

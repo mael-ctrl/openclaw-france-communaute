@@ -1,5 +1,26 @@
 [
  {
+  "id": "d5d9ebd492244a0d",
+  "slug": "microduck-entrainer-en-simulation-avec-isaac-lab-3-0-deployer-sur-un-v-d5d9eb",
+  "titre": "Microduck : entraîner en simulation avec Isaac Lab 3.0, déployer sur un vrai robot",
+  "resume": "Le blog Hugging Face détaille Microduck, un robot entraîné en simulation avant d'être déployé sur un robot réel. L'entraînement s'appuie sur Isaac Lab 3.0. Le sim-to-real — faire apprendre une tâche dans un simulateur pour qu'elle tienne ensuite dans le monde physique — reste un passage obligé pour la robotique assistée par IA.",
+  "tags": [
+   "robots",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Hugging Face",
+  "lien_source": "https://huggingface.co/blog/nvidia/microduck-isaac-lab-sim-to-real",
+  "date_source": null,
+  "date_redac": "2026-10-21T18:14:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 598,
+   "sortie": 1202
+  }
+ },
+ {
   "id": "bdabfc6381272194",
   "slug": "chrome-une-ia-gemini-pour-detecter-les-arnaques-au-niveau-de-securite--bdabfc",
   "titre": "Chrome : une IA Gemini pour détecter les arnaques au niveau de sécurité maximal",
@@ -39,6 +60,49 @@
    "modele": "deepseek-flash",
    "entree": 612,
    "sortie": 658
+  }
+ },
+ {
+  "id": "6c708e57de0488a6",
+  "slug": "2-7-millions-de-parametres-suffiraient-pour-jouer-a-tetris-sur-nes-6c708e",
+  "titre": "2,7 millions de paramètres suffiraient pour jouer à Tetris sur NES",
+  "resume": "Sur r/LocalLLaMA, un post affirme que 2,7 millions de paramètres suffisent à faire jouer un modèle à Tetris sur NES. Le chiffre relance la question du dimensionnement minimal d'un réseau pour une tâche de jeu. L'extrait ne précise ni l'architecture retenue ni les performances obtenues.",
+  "tags": [
+   "recherche",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbsljk/apparently_27m_parameters_is_enough_for_nes_tetris/",
+  "date_source": "2026-10-21T16:53:43+00:00",
+  "date_redac": "2026-10-21T18:13:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 617,
+   "sortie": 795
+  }
+ },
+ {
+  "id": "30b604bc5d165147",
+  "slug": "ornith-1-5-122b-76-9-sur-swe-bench-pro-des-retours-en-agent-de-code-30b604",
+  "titre": "Ornith-1.5-122B : 76,9 sur SWE-bench Pro, des retours en agent de code ?",
+  "resume": "La carte du modèle Ornith-1.5-122B affiche 76,9 sur SWE-bench Pro, contre 43,9 pour Qwen3.8-Flash-Next selon l'évaluation de l'équipe. Sur Terminal-Bench 2.1, il est légèrement derrière (81,2 contre 83,4). Ce modèle de raisonnement MoE, avec appel d'outils et 256K de contexte, est déjà disponible sur Ollama en Q4_K_M (environ 77 Go). Un utilisateur demande des retours sur de longues tâches de code.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbslby/ornith15122b_anyone_tried_it_in_a_coding_agent_yet/",
+  "date_source": "2026-10-21T16:53:31+00:00",
+  "date_redac": "2026-10-21T18:14:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 820,
+   "sortie": 811
   }
  },
  {
@@ -121,6 +185,27 @@
    "modele": "deepseek-flash",
    "entree": 611,
    "sortie": 831
+  }
+ },
+ {
+  "id": "8f7dca56d9b99137",
+  "slug": "opencode-enverrait-les-conversations-a-son-serveur-meme-avec-un-modele-8f7dca",
+  "titre": "opencode enverrait les conversations à son serveur, même avec un modèle local",
+  "resume": "Sur r/LocalLLaMA, un utilisateur d'opencode constate que l'outil ouvre une connexion vers son serveur même avec un modèle local (qwen3.8). Il a demandé à Gemini si opencode collecte des données : la réponse est oui, par défaut, pour générer les titres ou la compaction des conversations. Il cherche à vérifier si c'est toujours vrai et rappelle les critiques sur le financement VC du projet et son manque de transparence.",
+  "tags": [
+   "dev",
+   "open-source",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbqj0k/does_opencode_send_chatsother_data_to_their/",
+  "date_source": "2026-10-21T15:38:30+00:00",
+  "date_redac": "2026-10-21T18:14:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 749,
+   "sortie": 984
   }
  },
  {

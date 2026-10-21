@@ -341,6 +341,11 @@ Texte publié, carte vers `https://communaute-ia.fr/feed-articles.xml` :
 - Message-ID : `<distribution-20261017-jdh-suivi-unique@communaute-ia.fr>`. Envoi SMTP accepté, copie reçue à notre adresse puis relue à l'identique à 09:25 UTC ; cela ne prouve ni livraison chez JDH ni approbation humaine. Copie et verrou anti-rejeu privés sous `crabe-chantiers/distribution/2026-10-17/`. Destinataire ajouté à `docs/press/envois.jsonl` pour éviter un recontact par la routine presse. **Aucune seconde démarche de distribution aujourd'hui.**
 - Newsletter toujours préparatoire selon le rapport du 17/10 : aucun annuaire sollicité. Aucun compte créé, post public, contact LinuxFr/piaille, tentative HN/Product Hunt/r/france_tech ou Discord. Seuls le journal et le registre d'envois sont modifiés dans le dépôt ; aucun moteur, site, donnée, preuve ou cron touché, aucun workflow déclenché par ce push documentaire.
 
+### Monétisation du 21/10 — remise privée, aucune prospection
+
+- Une préparation du rang 1 : dossier de diagnostic portable, synthèse et six captures du lot du matin, ZIP et reçu d’intégrité séparé ; 20 + 25 + 42 tests d’audit rejoués, huit contrats de remise et vrai CLI hors atelier vérifiés. [Résultats et limites](monetisation.md). Pas de nouveau crawl, moteur ou offre.
+- Aucun email, DM, formulaire, compte, post, prix nouveau ou paiement. Aucun quota de distribution consommé ; Bluesky reste exclu cette semaine par le post du 20/10. Dossier non envoyé, non publié dans le dépôt ; B2B 200 mais mentions légales 404 et autres prérequis commerciaux toujours fermés.
+
 ### Monétisation du 20/10 — pilote mono-site privé, aucune prospection
 
 - Une préparation du rang 1 : diagnostic cohérent sur six captures propres du 19/10, fiche de périmètre candidat et questionnaire inactif. Analyses rapprochées par URL/empreinte/date, 67 tests repris + 3 contrats nouveaux réussis ; [résultats et limites](monetisation.md).

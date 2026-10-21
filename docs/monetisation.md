@@ -1,5 +1,28 @@
 # Journal des actions de monétisation
 
+## 21 octobre 2026 — une remise portable, vérifiée hors de l’atelier
+
+**Action unique, rang 1 :** transformer le nouveau lot autorisé du matin en un **dossier privé de remise** : synthèse lisible et recommandations proportionnées, diagnostic intégral, six corps de capture, inventaire fermé et vérificateur autonome. Aucun nouveau moteur, crawl, PDF ou offre commerciale. Archive et reçu restent hors dépôt public.
+
+### Livrable et recette réelle
+
+- Réemploi de `2026-10-21-entree/` après lecture du rapport de vague et des manifestes : **75 pièces du lot et 8 327 références vérifiées**, **20 tests d’entrée + 25 Python repris + 42 MCP réexécutés** ; deux replays JSON/Markdown identiques, réseau et écriture dans les anciens lots refusés. Les captures datent du **21/10 à 07:39 UTC**, pas du moment de remise.
+- **Huit tests de remise réussis**, avec deux cycles rouge/vert et six contrats de régression : altération, reçu périmé, fichier manquant/ajouté, chemins invalides/dupliqués, symlink, couche absente ou date discordante et ouverture commerciale refusés dans les cas exercés. Aucun test du média revendiqué comme rejoué.
+- ZIP final **167 080 octets, 13 membres** (12 pièces + manifeste), deux constructions identiques. Extraction dans un scratch neuf ; chaque membre comparé aux sources ; vrai CLI livré exécuté avec HOME isolé, sans user-site, réseau ni lecture des anciens workspaces. Résultat `verified_delivery_not_reanalysis`. Une copie aux octets altérés est refusée par le CLI avec code 1.
+- Comptes XML, présence JSON-LD et longueurs UTF-16 recoupés indépendamment depuis les corps : **trois observations informatives**, zéro error/warning MCP ; **166 occurrences URI et 14 non-couvertures**, pas quatorze défauts. XML : 1 454 et 258 URL uniques selon le document, non additionnées et sans preuve d’indexation. Aucun correctif urgent démontré dans le sous-ensemble.
+
+Dossier privé : **`crabe-chantiers/monetisation/2026-10-21-remise/`**, archive `dossier-diagnostic-2026-10-21-final.zip`, reçu séparé `recu-remise-final.json`, `SYNTHESE.md`, tests et traces. SHA-256 du ZIP : `0e7a8b34c0b60b8d983cfb9ea9c399c97ad142aea6ef52f784c5f5daa652e625`. Le PDF du 19/10 et les pièces anciennes restent inchangés.
+
+**Portabilité qualifiée :** le vérificateur contrôle intégrité/inventaire/correspondance des couches ; il **ne réexécute pas les analyseurs**, dont les dépendances privées ne sont pas embarquées. Le reçu externe n’est ni une signature ni un horodatage tiers. Le contrat historique `coverage` conservé dans le diagnostic est explicitement distingué des observations du 21/10. Deux erreurs du lanceur de conditionnement (mauvais libellé de thème, puis comptage du manifeste dans sa propre charge) ont été conservées et corrigées, sans modifier les preuves sources.
+
+Provenance GitHub recontrôlée : [mcp-web-validator](https://github.com/AKzar1el/mcp-web-validator), MIT, push du 14/10 ; [html5lib](https://github.com/html5lib/html5lib-python), MIT, push du 21/04, release 1.1 déjà utilisée. Réemploi effectif, aucune installation ni dépendance ajoutée au média.
+
+### Verrous et prochaine action
+
+Préflight HTTPS strict de cette mission : B2B **200**, mentions légales **404**. Vendeur/TVA, mentions/conditions, données/droits, capacité externe et modalités/canal de reversement restent à valider. Aucun email, DM, formulaire, compte, nouveau tarif, facture ou paiement ; Bluesky reste fermé à une nouvelle promotion cette semaine par le post RSS du 20/10. Aucun revenu attribué.
+
+**Suite :** revue indépendante du périmètre et de la restitution sur un cas propre réellement autorisé, puis seulement ouverture après tous les prérequis ; ne pas refaire un emballage du même lot. **Décision humaine prioritaire inchangée :** vendeur et TVA. Seuls les journaux et la roadmap changent dans le dépôt public, sans moteur/site/donnée/preuve historique/workflow/cron modifié.
+
 ## 20 octobre 2026 — un pilote mono-site pour borner la prestation
 
 **Action unique :** livrer un diagnostic privé cohérent sur une seule origine et sa fiche de périmètre candidat, avec questionnaire inactif. Le prototype ne mesure pas la présence dans les assistants : le positionnement retenu pour ce pilote est un **diagnostic technique statique sur captures**, sans activer une nouvelle offre ou un prix.

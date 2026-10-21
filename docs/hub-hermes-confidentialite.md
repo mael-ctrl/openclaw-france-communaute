@@ -32,7 +32,15 @@ Documentation officielle relue : [sessions](https://hermes-agent.nousresearch.co
 
 ## Livraison
 
-Validation locale achevée ; publication et recette distante seront consignées ici après exécution. Le workflow `maj.yml` vérifie les contrats et déploie le **média**, pas le hub : les trois fichiers publics du hub nécessitent un transfert SFTP ciblé distinct, avec relecture exacte. Ne pas lancer le déployeur intégral qui reconstruit les ZIP.
+**Livré : commit `2471c095775337738e8591b0bdddec9bd952a908`.** Le commit local non publié a été rebasé sur `6e344ee`, qui ne changeait que les données du média ; aucun historique partagé réécrit. Les sept blobs poussés ont été comparés à `origin/main`.
+
+- Hub : **trois fichiers transférés par SFTP le 21/10 à 08:53 UTC**, après nouvelle sauvegarde et comparaison de base ; remplacement atomique par fichier et relecture exacte. Contrôle séparé à 09:07 UTC : trois cibles exactes, GUIDE, installateur, archive OpenClaw et `.htaccess` préservés. Aucun déployeur intégral ni régénération des autres ZIP.
+- Cloud : [run `39572663369` réussi](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/39572663369), achevé à **09:16:04 UTC** ; **174 tests**, **1 503 fichiers envoyés** par le pipeline média, sauvegarde `875cc2a`. Aucun post Bluesky supplémentaire (quota atteint). Les délais d'observation de `gh run watch` ne constituaient pas des échecs du workflow.
+- Le workflow `maj.yml` vérifie les contrats et déploie le **média**, pas le hub ; la publication du hub est démontrée par le SFTP et ses URL, pas par le seul résultat cloud.
+- Après la fin du cloud, à **09:16 UTC : 15 URL HTTPS en 200**, dont accueil/version du média, pages principales du hub, les cinq fichiers du kit et son ZIP avec/sans `?v=2`. **Six contrats rejoués sur les corps HTTPS**. README, GUIDE, scripts/configuration et ZIP identiques octet pour octet aux sources ; section confidentialité HTML exacte, `<main>` exact après décodage du seul lien support protégé par Cloudflare.
+- Navigation publique sans JavaScript effectivement rejouée à **360, 390 et 1 440 px** : ancre au clavier, cinq accordéons et largeur contrôlés ; capture publique mobile relue. Cette recette ne teste ni l'installation du logiciel ni toutes les fonctions d'accessibilité.
+
+**Deux défauts du vérificateur corrigés, production inchangée :** la première comparaison de `<main>` ignorait l'obfuscation du `mailto:` par Cloudflare ; la seconde collecte avait omis le sous-dossier `scripts/`, faisant échouer le contrat exhaustif du ZIP. Corps et sorties initiales conservés. Décodage borné à l'adresse publique exacte, collecte récursive puis nouvelle recette entièrement verte ; aucun test de production affaibli.
 
 Pièces privées : `~/.hermes/workspaces/crabe-chantiers/hub-hermes/2026-10-21-integration/` (base, tests rouge/vert, builds, ZIP, captures et relevés distants). Aucun secret, prospect ou contenu d'un autre projet publié.
 

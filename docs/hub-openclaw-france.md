@@ -557,6 +557,13 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-20/hub-kit-hermes-confidentialite/`.
 
+## Confidentialité page et README Hermes — livraison du 21/10/2026
+
+- Suite du GUIDE corrigé : cinq repères natifs sur `/hermes/#confidentialite`, lien avant téléchargement, README harmonisé et ZIP correspondant. **Une seule intégration** (`2471c09`) ; les scripts, le GUIDE et l'archive OpenClaw sont inchangés.
+- **174 tests Python + 4 Node**, rouge/vert et build isolé rejoués ; 2 920 sorties du média identiques. ZIP reproduit indépendamment, seul le membre README change. Navigation locale et publique sans JavaScript à 360/390/1 440 px vérifiée.
+- Trois fichiers publiés par **SFTP ciblé**, sauvegarde/comparaison préalable et relecture exacte. Run média `39572663369` réussi, sauvegarde `875cc2a` ; il ne remplace pas le transfert du hub. Après cloud : **15 URL HTTPS en 200**, six contrats publics réussis, README/ZIP exacts et section HTML exacte. Les seules normalisations de comparaison portent sur le lien support obfusqué par Cloudflare.
+- [Contrat, provenance, limites et preuves](hub-hermes-confidentialite.md). Aucun audit réseau ni test d'installation multi-OS, aucune campagne ou progression d'audience revendiqués. Le lot préparatoire HTML/README du 21/10 est désormais intégré, ne pas le rejouer comme nouveau chantier.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

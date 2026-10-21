@@ -1,5 +1,133 @@
 [
  {
+  "id": "c27ac2778755508c",
+  "slug": "nvidia-renforce-sa-chaine-d-approvisionnement-en-asie-pour-ses-data-ce-c27ac2",
+  "titre": "Nvidia renforce sa chaîne d'approvisionnement en Asie pour ses data centers IA en Europe",
+  "resume": "Pour ses projets de data centers IA en Europe, Nvidia muscle sa chaîne d'approvisionnement en Asie. La course aux « AI factories » ne se joue pas uniquement sur la disponibilité des GPU : il faut aussi des substrats, des capacités de packaging avancé, des installations de test et des composants de connectivité. Autant de maillons industriels qui doivent suivre le rythme de la demande en calcul accéléré.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/electronique/nvidia/comment-nvidia-muscle-sa-chaine-dapprovisionnement-en-asie-pour-servir-ses-projets-de-data-centers-ia-en-europe.43XVC7CBL5A6TE7QRH2NJIH2QY.html",
+  "date_source": "2026-10-21T11:45:18+00:00",
+  "date_redac": "2026-10-21T11:50:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 791,
+   "sortie": 599
+  }
+ },
+ {
+  "id": "027166424fdc4e56",
+  "slug": "deepseek-publie-deepinfer-son-moteur-d-inference-sous-licence-apache-2-027166",
+  "titre": "DeepSeek publie DeepInfer, son moteur d'inférence, sous licence Apache 2.0",
+  "resume": "DeepSeek a publié le 20 octobre 2026 DeepInfer, le moteur d'inférence de son modèle V4.1-Flash, sous licence Apache 2.0 et pour les plateformes NVIDIA SM100 et Huawei Ascend 950. La publication reste partielle : le cache KV et l'équilibrage de charge entre réplicas demeurent internes, et la séparation complète prefill/decode n'est pas incluse. L'entreprise avait renoncé en avril 2025 à ouvrir ce moteur.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/deepseek-publie-le-moteur-dinference-quil-avait-renonce-a-ouvrir-en-2025/",
+  "date_source": "2026-10-21T11:36:49+00:00",
+  "date_redac": "2026-10-21T11:50:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 772,
+   "sortie": 872
+  }
+ },
+ {
+  "id": "a4738945b384c946",
+  "slug": "nvidia-signe-un-partenariat-avec-la-startup-francaise-omi-a47389",
+  "titre": "Nvidia signe un partenariat avec la startup française Omi",
+  "resume": "Nvidia noue un partenariat avec Omi, une startup française, rapporte Maddyness le 21 octobre 2026. Les modalités de l'accord — périmètre, calendrier, volet financier — ne sont pas précisées. Le rapprochement associe une startup française au groupe américain Nvidia.",
+  "tags": [
+   "business",
+   "france",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "Maddyness",
+  "lien_source": "https://www.maddyness.com/?p=1443265",
+  "date_source": "2026-10-21T11:30:57+00:00",
+  "date_redac": "2026-10-21T11:50:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 614,
+   "sortie": 931
+  }
+ },
+ {
+  "id": "9f25fa77238409bc",
+  "slug": "la-police-francaise-experimente-une-ia-pour-anticiper-les-mouvements-d-9f25fa",
+  "titre": "La police française expérimente une IA pour anticiper les mouvements de foule",
+  "resume": "Le Journal du Geek rapporte que la police française expérimente une IA pour prédire les mouvements de foule, dans le cadre de la lutte contre les violences urbaines. La démarche s'appuie sur l'exemple de plusieurs autres pays. Le média la rapproche de Minority Report, le film de Steven Spielberg adapté d'un roman, estimant que la science-fiction vire à l'anticipation.",
+  "tags": [
+   "france",
+   "société",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/21/contre-les-violences-urbaines-la-police-francaise-experimente-une-ia-pour-prevenir-les-emeutes-facon-minority-report/",
+  "date_source": "2026-10-21T11:30:50+00:00",
+  "date_redac": "2026-10-21T11:50:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 707,
+   "sortie": 795
+  }
+ },
+ {
+  "id": "b15f4e203d3c1830",
+  "slug": "hermes-agent-la-rc-5-de-la-version-0-22-3-est-publiee-b15f4e",
+  "titre": "Hermes Agent : la rc.5 de la version 0.22.3 est publiée",
+  "resume": "NousResearch a mis en ligne la rc.5 de la version 0.22.3 de Hermes Agent sur GitHub, le 21 octobre 2026. L'extrait de la release ne contient que des métadonnées techniques : numéro de tentative (5), indicateur autopublish désactivé, claimEpoch et début de hash de commit. Le contenu détaillé des changements n'y figure pas.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.5-v0.22.3",
+  "date_source": "2026-10-21T11:19:19+00:00",
+  "date_redac": "2026-10-21T11:50:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 612,
+   "sortie": 595
+  }
+ },
+ {
+  "id": "291cda46077f5e7b",
+  "slug": "hermes-agent-une-release-candidate-0-22-3-abandonnee-291cda",
+  "titre": "Hermes Agent : une release candidate 0.22.3 abandonnée",
+  "resume": "Le dépôt GitHub de Hermes Agent (NousResearch) publie l'étiquette abandoned-rc.4-v0.22.3. Les métadonnées jointes indiquent une quatrième tentative (attempt : 4), la référence rc.4-v0.22.3, un schéma 1 et la version 0.22.3. La mention « abandoned » accompagne donc une release candidate de la version 0.22.3, sans note ni détail supplémentaire dans la publication.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.4-v0.22.3",
+  "date_source": "2026-10-21T11:15:26+00:00",
+  "date_redac": "2026-10-21T11:50:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 885
+  }
+ },
+ {
   "id": "90337d8c86726a29",
   "slug": "hermes-agent-la-version-rc-4-v0-22-3-publiee-sur-github-90337d",
   "titre": "Hermes Agent : la version rc.4-v0.22.3 publiée sur GitHub",

@@ -1,14 +1,14 @@
 {
- "runs": 305,
- "items_collectes": 2308,
- "breves_publiees": 1091,
- "articles_publies": 204,
- "tokens_entree": 1110104,
- "tokens_sortie": 1590717,
+ "runs": 306,
+ "items_collectes": 2318,
+ "breves_publiees": 1097,
+ "articles_publies": 205,
+ "tokens_entree": 1115864,
+ "tokens_sortie": 1599092,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-21T10:48:39+00:00",
+ "dernier_run": "2026-10-21T11:51:15+00:00",
  "solde": {
-  "total": "85.01",
+  "total": "85.00",
   "devise": "USD",
   "disponible": true
  },
@@ -35,7 +35,7 @@
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 6.65,
+ "depense_usd": 6.66,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1240,10 +1240,14 @@
   [
    "2026-10-21T10:47:46+00:00",
    "85.01"
+  ],
+  [
+   "2026-10-21T11:50:24+00:00",
+   "85.00"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 4.36,
+ "depense_mois_usd": 4.37,
  "archive_tentatives": {
   "jour": "2026-10-21",
   "n": 3

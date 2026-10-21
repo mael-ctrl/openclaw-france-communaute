@@ -1,0 +1,41 @@
+{
+ "slug": "qwen3-8-flash-next-a-1-66-bit-par-poids-tient-dans-une-rtx-5-f6838a",
+ "titre": "Qwen3.8-Flash-Next à 1,66 bit par poids tient dans une RTX 5090",
+ "chapo": "Une quantification en exl3 à 1,66 bit par poids suffit à faire tenir Qwen3.8-Flash-Next dans une RTX 5090, sans experts déchargés, à 200-300 tokens par seconde. Pendant que le matériel grand public rattrape les gros modèles, Pékin met 23 technologies d'IA sous déclaration et Anthropic discute d'un nouveau contrat de calcul de 45 milliards de dollars.",
+ "html": "<h2 id=\"sous-les-36-go-sans-experts-decharges\">Sous les 36 Go, sans experts déchargés</h2>\n<p>Sur r/LocalLLaMA, un utilisateur rapporte avoir fait tourner une version quantifiée de <strong>Qwen3.8-Flash-Next</strong> en exl3, à <strong>1,66 bit par poids</strong>. Le tout tient de façon stable sous les 36 Go et occupe entièrement une <strong>RTX 5090</strong>, sans qu'aucun expert soit déchargé vers la RAM ou le disque — une pratique courante sur les modèles à mélange d'experts, qui casse la vitesse d'inférence.</p>\n<p>L'inférence est décrite comme régulière, sans boucles de raisonnement, à <strong>200-300 tokens par seconde</strong>. Ce sont des chiffres rapportés par l'auteur de la publication, pas les résultats d'un banc d'essai indépendant : un ordre de grandeur, pas une fiche technique.</p>\n<p>Ce qui rend la chose possible, c'est le taux de quantification. À 1,66 bit par poids, on est très en dessous des formats 4 ou 8 bits utilisés quand on veut limiter la perte de qualité. La contrepartie est mécanique : la précision des poids baisse, et la qualité de génération n'est pas évaluée dans la dépêche.</p>\n<h2 id=\"le-contexte-ce-qui-reste-a-payer\">Le contexte, ce qui reste à payer</h2>\n<p>Reste le contexte. Même en quantifiant le cache, <strong>32 Go de VRAM</strong> laissent peu de place, et l'auteur indique qu'il faut compacter le contexte pour que ça tienne. Autrement dit : le modèle passe, la fenêtre de contexte se paie plein tarif.</p>\n<p>C'est le compromis structurel du matériel grand public. La mémoire disponible est fixe, et chaque token de contexte supplémentaire grignote la marge. Sur une RTX 5090, on gagne sur les poids ce qu'on ne gagne pas sur le cache — la quantification déplace le problème plus qu'elle ne le supprime.</p>\n<h2 id=\"pekin-liste-23-technologies-d-ia-sous-de\">Pékin liste 23 technologies d'IA sous déclaration</h2>\n<p>Depuis le <strong>16 octobre 2026</strong>, Pékin impose une déclaration préalable pour exporter 40 technologies, dont <strong>23 en IA</strong>. La consultation sur ce catalogue court jusqu'au <strong>15 novembre</strong>. Le ministère du Commerce précise deux exclusions : l'appel d'un modèle par <strong>API</strong> et les technologies <strong>publiées en open source</strong> restent hors champ.</p>\n<p>La distinction compte. Un modèle publié ouvertement n'entre pas dans le périmètre de la déclaration, tandis que le déploiement localisé hors de Chine d'un modèle restreint y entrera une fois le catalogue en vigueur. La frontière n'est donc pas tracée entre « modèle » et « service », mais entre publication ouverte et mise à disposition d'un système restreint.</p>\n<h2 id=\"45-milliards-de-dollars-et-une-offensive\">45 milliards de dollars, et une offensive contre Nvidia</h2>\n<p>Côté infrastructures, TechCrunch rapporte que <strong>Nscale</strong> et <strong>Anthropic</strong> seraient en discussions pour un nouveau contrat de calcul de <strong>45 milliards de dollars</strong>. En août, les deux entreprises avaient déjà annoncé un accord du même montant. Ce second contrat potentiel, de magnitude identique, donne la mesure des moyens engagés sur la puissance de calcul : s'il aboutit, il s'ajouterait à une série d'accords de très grande ampleur signés par Anthropic au cours de l'année écoulée.</p>\n<p>Sur un autre front, <strong>Amazon</strong> lance <strong>TorchNeuron</strong>, un outil de développement qui cible <strong>PyTorch</strong>, le kit gratuit sur lequel se construisent la plupart des applications d'IA. L'objectif : briser la mainmise de <strong>Nvidia</strong> sur cet écosystème, pour que davantage de développeurs fassent tourner leurs applications sur des puces alternatives, dont celles d'Amazon. TechCrunch y voit l'offensive la plus ambitieuse d'Amazon face à Nvidia.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches dessinent deux échelles qui ne se croisent pas encore : un modèle qui tient dans la carte graphique d'un particulier, et des contrats de calcul à 45 milliards de dollars entre un fournisseur d'infrastructure et un laboratoire. Entre les deux, la régulation chinoise choisit de traiter séparément l'accès par API et la publication open source, avec un catalogue dont la consultation court jusqu'au 15 novembre. Pour l'instant, la quantification agressive reste le chemin le plus direct vers une exécution locale.</p>",
+ "pivot": "f6838a6b31db0e50",
+ "tags": [
+  "open-source",
+  "matériel",
+  "business",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbgi6i/qwen38flashnext_166bpwexl3_stable_under_36gb/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+  }
+ ],
+ "date": "2026-10-21T08:55:29+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1575,
+  "sortie": 3912
+ }
+}

@@ -1,5 +1,108 @@
 [
  {
+  "id": "6182428304c67ee2",
+  "slug": "doubleai-lance-maxwell-un-modele-d-ia-pour-reduire-les-couts-de-calcul-618242",
+  "titre": "doubleAI lance Maxwell, un modèle d'IA pour réduire les coûts de calcul",
+  "resume": "La start-up doubleAI a lancé le 19 octobre Maxwell, un modèle d'IA d'exécution de code (Code Execution Models, CEM) proposé en accès anticipé. Sa promesse : optimiser l'exécution du logiciel directement sur le matériel afin de réduire les coûts de calcul. Restée discrète jusqu'ici, l'entreprise a été cofondée en 2023 par Amnon Shashua, CEO de Mobileye démissionnaire.",
+  "tags": [
+   "business",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/un-modele-dia-pour-la-machine-et-non-pour-lutilisateur-comment-doubleai-la-nouvelle-start-up-damnon-shashua-veut-aider-les-entreprises-a-reduire-leurs-couts-de-calcul.OCOGR3GFOVAPLAFL7YRM57OBVU.html",
+  "date_source": "2026-10-21T04:00:01+00:00",
+  "date_redac": "2026-10-21T04:05:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 817,
+   "sortie": 505
+  }
+ },
+ {
+  "id": "3d564e750cfb522e",
+  "slug": "amazon-s-appuie-sur-synopsys-pour-accelerer-la-conception-de-ses-puces-3d564e",
+  "titre": "Amazon s'appuie sur Synopsys pour accélérer la conception de ses puces",
+  "resume": "Amazon a signé le 20 octobre un accord stratégique pluriannuel avec Synopsys. Objectif : accélérer la conception de ses puces développées en interne, dont les accélérateurs IA Trainium et Inferentia, le CPU Graviton et le microcontrôleur Nitro dédié à la sécurité. L'accord porte aussi sur les équipements qui composent son infrastructure cloud.",
+  "tags": [
+   "business",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/informatique/cloud/aws/amazon-va-sappuyer-sur-lexpertise-de-synopsys-pour-accelerer-la-conception-de-ses-puces-concues-en-interne.4PQE33PH4NEODP3TLNZ24WKP64.html",
+  "date_source": "2026-10-21T04:00:01+00:00",
+  "date_redac": "2026-10-21T04:05:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 746,
+   "sortie": 384
+  }
+ },
+ {
+  "id": "af3f5180566e7755",
+  "slug": "l-ia-propulse-l-economie-numerique-d-asie-du-sud-est-vers-368-milliard-af3f51",
+  "titre": "L'IA propulse l'économie numérique d'Asie du Sud-Est vers 368 milliards de dollars",
+  "resume": "Portée par une large adoption de l'IA, l'économie numérique d'Asie du Sud-Est devrait atteindre 368 milliards de dollars en 2026, selon Google. Le chiffre monterait à 1 000 milliards d'ici 2035. L'IA apparaît ainsi comme le moteur de la croissance numérique régionale sur la décennie à venir.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Google AI",
+  "lien_source": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+  "date_source": "2026-10-21T04:00:00+00:00",
+  "date_redac": "2026-10-21T04:05:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 621,
+   "sortie": 486
+  }
+ },
+ {
+  "id": "110d616464747e8f",
+  "slug": "des-agents-ia-locaux-pour-exploiter-une-immense-archive-personnelle-su-110d61",
+  "titre": "Des agents IA locaux pour exploiter une immense archive personnelle sur NAS",
+  "resume": "Sur r/LocalLLaMA, un utilisateur raconte comment il exploite des agents IA locaux sur son imposante archive personnelle stockée sur NAS : livres, illustrations, rapports, photos et scans. Il a utilisé un modèle de pointe pour bâtir l'infrastructure, avant de laisser les agents locaux enchaîner le travail fastidieux sur des centaines de milliers d'éléments. Il dit avoir documenté l'ensemble pour désigner, changer ou basculer les tâches sans revenir au modèle de pointe.",
+  "tags": [
+   "agents",
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbd1hp/i_use_local_ai_to_generate_personal_value_on_my/",
+  "date_source": "2026-10-21T03:58:19+00:00",
+  "date_redac": "2026-10-21T04:05:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 814,
+   "sortie": 607
+  }
+ },
+ {
+  "id": "a8920cf176d3e9d5",
+  "slug": "claude-code-v2-1-306-corrige-les-sessions-cloud-et-les-outils-mcp-a8920c",
+  "titre": "Claude Code v2.1.306 corrige les sessions cloud et les outils MCP",
+  "resume": "La version 2.1.306 de Claude Code corrige deux bugs. Lancé sans les variables d'environnement de la session, claude -p dans les sessions cloud renvoyait « Not logged in ». Autre correctif : dans les sessions chargeant de nombreux outils MCP, une erreur d'API était remplacée par un message « prompt is too long », ce qui déclenchait une compaction inutile.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+  "date_source": "2026-10-21T03:16:31+00:00",
+  "date_redac": "2026-10-21T04:05:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 633,
+   "sortie": 410
+  }
+ },
+ {
   "id": "9e4f29384a312dbf",
   "slug": "pour-cette-ex-nvidia-l-ia-physique-vit-son-ere-lego-9e4f29",
   "titre": "Pour cette ex-Nvidia, l'IA physique vit son ère LEGO",

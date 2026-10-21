@@ -1,0 +1,41 @@
+{
+ "slug": "de-la-puce-a-la-directive-l-ia-sort-du-bac-a-sable-3d564e",
+ "titre": "De la puce à la directive : l'IA sort du bac à sable",
+ "chapo": "Amazon muscle la conception de ses puces maison avec Synopsys, Microsoft déploie des agents pour surveiller d'autres agents, et Bruxelles transforme le logiciel en produit responsable. En quelques jours d'octobre, l'IA est passée des démonstrations aux engagements contractuels.",
+ "html": "<h2 id=\"amazon-resserre-la-vis-sur-son-silicium\">Amazon resserre la vis sur son silicium</h2>\n<p>Le 20 octobre, Amazon a signé un accord stratégique pluriannuel avec Synopsys. L'objectif affiché : accélérer la conception des puces développées en interne. La liste est longue et couvre toute la pile : les accélérateurs IA <strong>Trainium</strong> et <strong>Inferentia</strong>, le CPU <strong>Graviton</strong>, et le microcontrôleur <strong>Nitro</strong>, dédié à la sécurité. L'accord ne s'arrête pas aux composants eux-mêmes puisqu'il porte aussi sur les équipements qui composent l'infrastructure cloud du groupe.</p>\n<p>Derrière l'annonce, un mouvement de fond : le concepteur de cloud veut maîtriser sa chaîne de silicium de bout en bout, du dessin de la puce jusqu'au matériel qui l'héberge. Les dispatchs ne précisent ni le montant ni la durée exacte de l'engagement — seulement son caractère pluriannuel.</p>\n<h2 id=\"microsoft-met-des-agents-derriere-les-ag\">Microsoft met des agents derrière les agents</h2>\n<p>Le 19 octobre au soir, Microsoft a dévoilé le <strong>projet Perception</strong>. Le constat de départ est simple : l'essor des agents d'IA expose les systèmes d'information à des risques accrus. La réponse l'est moins, puisque l'éditeur met à disposition des entreprises une équipe d'agents IA spécialisés dans la sécurité.</p>\n<p>Ces agents doivent automatiser trois tâches : la <strong>simulation</strong>, la <strong>détection</strong> et la <strong>remédiation</strong> des attaques visant les agents autonomes. Autrement dit, on confie à des agents le soin de surveiller d'autres agents. Une architecture qui pose mécaniquement la question de qui surveille les surveillants — et sur quel périmètre on leur donne les clés.</p>\n<h2 id=\"bruxelles-un-agent-vendu-devient-un-prod\">Bruxelles : un agent vendu devient un produit</h2>\n<p>La directive (UE) <strong>2024/2853</strong>, à transposer au plus tard le <strong>9 décembre 2026</strong>, change la nature juridique du logiciel : celui-ci, <strong>SaaS compris</strong>, devient un produit. Conséquence directe pour l'écosystème : quiconque développe ou vend sous sa marque un agent IA devient <strong>fabricant</strong>, et donc responsable <strong>sans faute</strong> des lésions, des atteintes psychologiques médicalement reconnues et des destructions de données non professionnelles causées par un défaut.</p>\n<p>Le texte prévoit aussi une clause de réversibilité : une <strong>mise à jour substantielle</strong> effectuée après cette date fait entrer un agent existant dans le régime. Les modèles déjà en production ne sont donc pas figés hors du champ. Pour les éditeurs, la frontière entre maintenance et nouvelle mise sur le marché devient un point de vigilance contractuel.</p>\n<h2 id=\"emploi-et-export-deux-autres-fronts\">Emploi et export : deux autres fronts</h2>\n<p>Sur le terrain français, une étude signée d'économistes de <strong>HEC Paris</strong>, de la <strong>Banque de France</strong> et de l'<strong>INSEAD</strong> observe qu'environ <strong>600 entreprises</strong> déclarant un usage intensif de l'IA ont embauché en 2025 de <strong>17 à 25 %</strong> de jeunes de 21 à 29 ans en CDI de moins que les autres entreprises de leur secteur — sans écart net sur leur effectif total. Les auteurs recommandent de redéfinir les premiers postes autour de ce que l'IA accomplit mal.</p>\n<p>À Pékin, le ministère du Commerce impose depuis le <strong>16 octobre 2026</strong> une déclaration préalable pour exporter <strong>40 technologies</strong>, dont <strong>23 en IA</strong>, en consultation jusqu'au <strong>15 novembre</strong>. Deux exceptions explicites : l'appel d'un modèle par <strong>API</strong> et les technologies publiées en <strong>open source</strong> restent hors champ. En revanche, le déploiement localisé hors de Chine d'un modèle restreint entrera dans le champ une fois le catalogue en vigueur. Les API de DeepSeek et Qwen sont donc épargnées — pour l'instant, et par le texte, pas par faveur.</p>\n<h2>Et maintenant ?</h2>\n<p>Rapprocher ces dépêches ne revient pas à dire qu'elles s'expliquent l'une l'autre. Elles partagent simplement une fenêtre temporelle — quelques jours d'octobre — et une même sortie de l'expérimentation : un engagement pluriannuel sur le silicium, des agents affectés à la surveillance d'agents, un cadre juridique qui transforme le vendeur en fabricant, un marché de l'embauche qui se recompose et un État qui encadre l'export de technologies. Ce qui se joue là n'est plus la performance d'un modèle, mais la solidité des chaînes — industrielles, juridiques, techniques — qui le rendent exploitable.</p>",
+ "pivot": "3d564e750cfb522e",
+ "tags": [
+  "agents",
+  "sécurité",
+  "matériel",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/informatique/cloud/aws/amazon-va-sappuyer-sur-lexpertise-de-synopsys-pour-accelerer-la-conception-de-ses-puces-concues-en-interne.4PQE33PH4NEODP3TLNZ24WKP64.html"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/les-entreprises-les-plus-converties-a-lia-embauchent-jusqua-25-de-jeunes-en-cdi-en-moins/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/cybersecurite/microsoft-devoile-le-projet-perception-pour-automatiser-la-simulation-detection-et-remediation-des-attaques-dagents-ia-autonomes-a-laide-dagents-ia.326XC6WR3JBBZPWJEPUC3I7KUU.html"
+  }
+ ],
+ "date": "2026-10-21T04:05:58+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1667,
+  "sortie": 2229
+ }
+}

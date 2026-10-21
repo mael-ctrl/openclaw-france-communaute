@@ -1,5 +1,129 @@
 [
  {
+  "id": "589a07585fa8c446",
+  "slug": "anthropic-80-7-milliards-de-dollars-de-pertes-au-premier-semestre-2026-589a07",
+  "titre": "Anthropic : 80,7 milliards de dollars de pertes au premier semestre 2026",
+  "resume": "Anthropic, l'entreprise derrière Claude, aurait perdu 80,7 milliards de dollars (environ 72 milliards d'euros) au premier semestre 2026, selon un projet de prospectus d'entrée en Bourse consulté par le Wall Street Journal. Sur la même période en 2025, la perte atteignait 13 milliards de dollars (près de 12 milliards d'euros). Le chiffre n'a pas encore été confirmé par l'entreprise.",
+  "tags": [
+   "claude",
+   "business"
+  ],
+  "importance": 4,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/anthropic-claude-ai/3293933_anthropic-affiche-80-milliards-de-dollars-de-pertes-pourquoi-ce-chiffre-est-trompeur",
+  "date_source": "2026-10-21T12:15:23+00:00",
+  "date_redac": "2026-10-21T12:17:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 725,
+   "sortie": 1263
+  }
+ },
+ {
+  "id": "b6921f18a5304fb5",
+  "slug": "netflix-son-film-sur-le-piratage-de-hugging-face-passe-mal-b6921f",
+  "titre": "Netflix : son film sur le piratage de Hugging Face passe mal",
+  "resume": "Netflix a bâti son thriller technologique de l'automne sur le piratage de Hugging Face par des agents d'OpenAI. Mais la victime ne goûte pas le récit : Hugging Face juge le film à côté de la plaque et le fait savoir très publiquement. La plateforme conteste donc la version portée par le documentaire.",
+  "tags": [
+   "sécurité",
+   "openai",
+   "agents",
+   "société"
+  ],
+  "importance": 2,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/un-film-de-science-fiction-le-documentaire-netflix-sur-le-piratage-de-chatgpt-sous-le-feu-des-critiques.html",
+  "date_source": "2026-10-21T12:00:45+00:00",
+  "date_redac": "2026-10-21T12:17:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 639
+  }
+ },
+ {
+  "id": "27749d06eab09498",
+  "slug": "memt-1-0-des-modeles-de-fondation-qui-internalisent-la-memoire-27749d",
+  "titre": "MemT-1.0, des modèles de fondation qui internalisent la mémoire",
+  "resume": "MemT-1.0 est une architecture de modèles de fondation qui internalise la mémoire dans le calcul du modèle. Bâtie sur Metis, elle combine Gated DeltaNet-2, une mise à jour stable de la mémoire au niveau du token à chaque tour, et un Mixture-of-Storage pour étendre la capacité. L'entraînement se déroule en deux étapes, sur 34B tokens. Deux modèles sont publiés : MemT-1.0-Nano et MemT-1.0-Flash.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbl751/paper_memt10_towards_memorynative_evolution/",
+  "date_source": "2026-10-21T12:00:06+00:00",
+  "date_redac": "2026-10-21T12:17:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 777,
+   "sortie": 1450
+  }
+ },
+ {
+  "id": "c27ac2778755508c",
+  "slug": "nvidia-renforce-sa-chaine-d-approvisionnement-asiatique-pour-ses-data--c27ac2",
+  "titre": "Nvidia renforce sa chaîne d'approvisionnement asiatique pour ses data centers IA en Europe",
+  "resume": "La course aux « AI factories » ne se résume pas à la disponibilité des GPU. Pour assembler des infrastructures capables d'entraîner des modèles et d'absorber de gros volumes d'inférence, Nvidia doit aussi compter sur des substrats, du packaging avancé, des installations de test et des composants de connectivité. Ces maillons industriels doivent suivre le rythme de la demande en calcul accéléré.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/electronique/nvidia/comment-nvidia-muscle-sa-chaine-dapprovisionnement-en-asie-pour-servir-ses-projets-de-data-centers-ia-en-europe.43XVC7CBL5A6TE7QRH2NJIH2QY.html",
+  "date_source": "2026-10-21T11:59:42+00:00",
+  "date_redac": "2026-10-21T12:17:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 761,
+   "sortie": 1296
+  }
+ },
+ {
+  "id": "62d94979935cef3b",
+  "slug": "tokengate-un-composant-qui-allege-le-prefill-des-llm-sur-contexte-long-62d949",
+  "titre": "TokenGate, un composant qui allège le prefill des LLM sur contexte long",
+  "resume": "TokenGate est un petit composant qui s'ajoute à un modèle entraîné pour apprendre à élaguer les tokens sur les entrées longues. Il s'appuie sur une attention « token-gated », inspirée de Mixture-of-Experts, qui repondère les logits via des scores d'importance des tokens. Gain annoncé : 1,4 à 11,3× moins de temps avant le premier token et 1,5 à 3,4× moins de mémoire de pointe au prefill, sans perte de précision.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbkzll/paper_tokengate_adapting_llms_for_fast_and/",
+  "date_source": "2026-10-21T11:49:21+00:00",
+  "date_redac": "2026-10-21T12:18:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 831,
+   "sortie": 995
+  }
+ },
+ {
+  "id": "027166424fdc4e56",
+  "slug": "deepseek-ouvre-deepinfer-le-moteur-d-inference-de-v4-1-flash-027166",
+  "titre": "DeepSeek ouvre DeepInfer, le moteur d'inférence de V4.1-Flash",
+  "resume": "DeepSeek a publié le 20 octobre 2026 DeepInfer, le moteur d'inférence de son modèle V4.1-Flash, sous licence Apache 2.0, pour les GPU NVIDIA SM100 et Huawei Ascend 950. La publication reste partielle : le cache KV et l'équilibrage de charge entre réplicas demeurent internes, et la séparation complète prefill/decode n'est pas incluse. La société avait renoncé en avril 2025 à ouvrir ce moteur.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "dev",
+   "business"
+  ],
+  "importance": 3,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/deepseek-publie-le-moteur-dinference-quil-avait-renonce-a-ouvrir-en-2025/",
+  "date_source": "2026-10-21T11:36:49+00:00",
+  "date_redac": "2026-10-21T12:18:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 772,
+   "sortie": 599
+  }
+ },
+ {
   "id": "90337d8c86726a29",
   "slug": "hermes-agent-la-version-rc-4-v0-22-3-publiee-sur-github-90337d",
   "titre": "Hermes Agent : la version rc.4-v0.22.3 publiée sur GitHub",

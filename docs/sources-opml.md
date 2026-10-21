@@ -65,5 +65,27 @@ Offrir une ressource utile et partageable pour commencer sa veille, plutôt que
 faire recopier les adresses une par une. Aucun gain de trafic, d'abonnement,
 de vente ou de rétention mesuré par cette livraison.
 
-La mise en production et les contrôles HTTPS sont consignés ci-dessous une fois
-le workflow terminé ; les tests locaux seuls ne les prouvent pas.
+## Production vérifiée — 12:48 UTC
+
+- Code **`68fa49797dd46c32a392d762e70e08b1e1288001`**, quatre blobs relus sur
+  `main` après push. [Run `39597609143`](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/39597609143)
+  **réussi**, 179 tests Python cloud, **1 529 fichiers envoyés**. Sauvegarde cloud
+  `0cc5fd5`, intégrée à `0a4456f` après changements concurrents ; ces changements
+  n'altèrent pas les fichiers du présent lot.
+- `/skills/`, `/veille/sources.opml` et `/llms.txt` répondent **200 en HTTPS strict**,
+  sans redirection et avec des octets identiques aux sorties de recette.
+  OPML : **2 443 octets**, MIME `text/x-opml`, empreinte indiquée plus haut.
+  Les sources de la sauvegarde distante sont identiques au catalogue testé.
+- Les **six téléchargements publics souris/Entrée**, sans JavaScript aux trois
+  largeurs, donnent le même fichier et le bon nom. Captures de production
+  relues ; le bloc ajouté n'a pas de débordement. La navigation préexistante
+  reste haute et « Transparence » est tronqué à 360 px : cette mission ne
+  revendique pas une correction générale du header.
+- Relevés : `cloud-result.json`, `cloud.log`, `https-verification.json`, corps
+  HTTPS, `qa-production.json`, téléchargements et captures dans le dossier
+  privé cité ci-dessus. Le 404 intermédiaire à 12:47:14 UTC est antérieur à
+  l'envoi du fichier à 12:47:35 ; il n'a pas été traité comme un échec final.
+
+Aucune autre amélioration intégrée par cette mission ; aucun contact ni
+promotion ajouté. Le téléchargement est livré, pas un résultat de croissance
+mesuré ni une garantie de disponibilité des 22 flux tiers.

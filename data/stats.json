@@ -1,26 +1,18 @@
 {
- "runs": 293,
- "items_collectes": 2247,
+ "runs": 294,
+ "items_collectes": 2248,
  "breves_publiees": 1042,
- "articles_publies": 194,
- "tokens_entree": 1059691,
- "tokens_sortie": 1524596,
+ "articles_publies": 195,
+ "tokens_entree": 1061390,
+ "tokens_sortie": 1527375,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-20T23:21:33+00:00",
+ "dernier_run": "2026-10-21T00:28:32+00:00",
  "solde": {
   "total": "85.11",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-19T18:30:53+00:00",
-   "message": "brève impossible (I checked BitNet and Bonsai on CPU against references: bitne) : réponse non-JSON"
-  },
-  {
-   "ts": "2026-10-20T05:21:20+00:00",
-   "message": "brève impossible (Danfoss : Claroty reproduit avec l'IA l'exploit de failles c) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-20T12:23:38+00:00",
    "message": "brève impossible (Un pirate a percé les sites de plus de 100 entreprises, dont) : réponse non-JSON"
@@ -32,6 +24,14 @@
   {
    "ts": "2026-10-20T18:47:42+00:00",
    "message": "brève impossible (Agnes-AI/Agnes-3.0-Qwen (QFN finetune)) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-21T00:28:18+00:00",
+   "message": "brève impossible (eMudhra Intermediate CA Compromise) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-21T01:04:20+00:00",
+   "message": "archivage wayback : The read operation timed out"
   }
  ],
  "solde_initial": "91.66",
@@ -1192,12 +1192,16 @@
   [
    "2026-10-20T23:20:51+00:00",
    "85.11"
+  ],
+  [
+   "2026-10-21T00:28:05+00:00",
+   "85.11"
   ]
  ],
  "mode_budget": "normal",
  "depense_mois_usd": 4.26,
  "archive_tentatives": {
-  "jour": "2026-10-20",
+  "jour": "2026-10-21",
   "n": 1
  },
  "derniere_archive": "2026-10-20"

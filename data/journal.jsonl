@@ -2634,3 +2634,12 @@
 {"ts": "2026-10-20T23:54:35+00:00", "evenement": "deploiement", "details": {"fichiers": 1459, "octets": 29455487}, "sha256": "7ddb219c2f929ee0ba2ec54c373769a71c4a4120a8eb7928796b37ef1bea5110"}
 {"ts": "2026-10-20T23:54:35+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "6eae4504f3753b91808d34549ddb999eb14bcb95d4fff18056b884b5192f5ac8"}
 {"ts": "2026-10-20T23:54:35+00:00", "evenement": "bilan", "details": {"duree_s": 2047.9, "neufs": 6, "breves": 6, "articles": 1, "fichiers": 1424, "envois": 1459, "publications": 0}, "sha256": "af40b563578f098e39324c44a0892acb35600885493c33faefa15a20875fbb06"}
+{"ts": "2026-10-21T00:28:05+00:00", "evenement": "collecte", "details": {"neufs": 1}, "sha256": "d3eecd11a22ee19b639bd5aa4e2f848c39548877b164257dc9d4b1d3df4a7c4d"}
+{"ts": "2026-10-21T00:28:18+00:00", "evenement": "erreur", "details": {"message": "brève impossible (eMudhra Intermediate CA Compromise) : réponse non-JSON"}, "sha256": "e54eb66578d6fc2c2edec78b88e0e5ec0576294bcf82963277337261f0722593"}
+{"ts": "2026-10-21T00:28:49+00:00", "evenement": "construction", "details": {"fichiers": 1425}, "sha256": "fee22db88995eca68f1387d0c9174e5578cc38e2e2ce7da7c6b4672125c7e15c"}
+{"ts": "2026-10-21T01:03:29+00:00", "evenement": "deploiement", "details": {"fichiers": 1454, "octets": 29180897}, "sha256": "4f03813b6ac10850f76d67f1a8736bb54263e022a447c7c560a5d29e2254ed7e"}
+{"ts": "2026-10-21T01:03:30+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "16ef9cb095af474ef78abe3814545e0e9a3af16ee3c1e71376b46bab4e48af6d"}
+{"ts": "2026-10-21T01:04:20+00:00", "evenement": "erreur", "details": {"message": "archivage wayback : The read operation timed out"}, "sha256": "512208f428f0a49b996d453882a2fa379d94fa6f5af89dd28521e53059a16644"}
+{"ts": "2026-10-21T01:04:31+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "9872e1c66b14dea3436ae1831bd92eae39e56205124379358d04fbfbc7de8cfc"}
+{"ts": "2026-10-21T01:04:31+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-21.json", "publications": 1392}, "sha256": "9bc4c2eb174f67a7d248c74ad90051595d41e621f09b212c505d099c5a6e495e"}
+{"ts": "2026-10-21T01:04:31+00:00", "evenement": "bilan", "details": {"duree_s": 2196.1, "neufs": 1, "breves": 0, "articles": 1, "fichiers": 1425, "envois": 1454, "publications": 4}, "sha256": "9759eb54e723fee224526a7c663e597ebe2ade977b05132038454e52e96ba2c6"}

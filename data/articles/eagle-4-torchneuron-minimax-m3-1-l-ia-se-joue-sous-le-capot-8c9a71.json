@@ -1,0 +1,41 @@
+{
+ "slug": "eagle-4-torchneuron-minimax-m3-1-l-ia-se-joue-sous-le-capot-8c9a71",
+ "titre": "EAGLE-4, TorchNeuron, MiniMax M3.1 : l'IA se joue sous le capot",
+ "chapo": "Une accélération revendiquée à 3,59× sur Qwen3.8-27B, un modèle furtif qui ressort sous le nom MiniMax M3.1 Flash, et Amazon qui lance TorchNeuron pour déloger Nvidia de PyTorch. Pendant ce temps, Pékin encadre l'export de 23 technologies d'IA et une étude mesure ce que la conversion à l'IA change dans les embauches en France.",
+ "html": "<h2 id=\"eagle-4-et-la-course-au-decodage\">EAGLE-4 et la course au décodage</h2>\n<p>Sur r/LocalLLaMA, EAGLE-4 revendique un gain de <strong>3,59×</strong> face à une génération classique sur Qwen3.8-27B. Le chiffre vient d'un benchmark partagé par la communauté, pas d'une publication évaluée par les pairs : à prendre comme une revendication, pas comme un résultat établi.</p>\n<p>La comparaison interne est plus parlante que le chiffre brut. EAGLE-4 devance <strong>DFlash 2 (2,80×)</strong>, <strong>DSpark (2,57×)</strong> et <strong>MTP (2,22×)</strong> sur la même base. Autrement dit, la famille des méthodes d'accélération continue de se tasser vers le haut, et l'écart entre la première et la quatrième position reste mesurable.</p>\n<p>Deux limites tempèrent l'annonce. Seul <strong>Qwen3.8-27B</strong> est pris en charge à ce stade, et l'arrivée dans <strong>llama.cpp</strong> ou <strong>vLLM</strong> n'est pas encore effective. Tant que l'intégration n'est pas faite, le gain reste une courbe sur un graphique, pas une vitesse observée par ceux qui font tourner des modèles au quotidien.</p>\n<h2 id=\"space-bunny-sort-du-bois-minimax-m3-1-fl\">Space Bunny sort du bois : MiniMax M3.1 Flash</h2>\n<p>Le modèle furtif resté <strong>dix jours en tête d'OpenRouter</strong> avant de disparaître le 5 octobre réapparaît sous un nom : <strong>MiniMax M3.1 Flash</strong>. Sur l'API, la fiche technique annonce 428B de paramètres totaux, <strong>23B actifs</strong>, un contexte de 1M, et la prise en charge du texte, de l'image et de la vidéo. Tarifs : <strong>0,15 $ en entrée, 0,60 $ en sortie</strong>. Les poids sont annoncés pour le 23 octobre.</p>\n<p>Côté performances, MiniMax communique ses propres chiffres : le modèle devance <strong>Opus 5</strong> sur automation-bench, mais reste loin derrière sur terminal bench, avec <strong>38,1 contre 51,8</strong>. Un profil d'évaluation en dents de scie qui rappelle qu'un modèle se juge sur la tâche visée, pas sur un classement unique.</p>\n<p>L'épisode Space Bunny dit aussi quelque chose des usages : un modèle anonyme a suffi à occuper la tête d'un routeur d'API pendant dix jours. La réputation d'un nom pèse moins, à ce stade, que le prix au million de tokens et le comportement observé en conditions réelles.</p>\n<h2 id=\"amazon-attaque-la-couche-basse-pekin-ver\">Amazon attaque la couche basse, Pékin verrouille la sienne</h2>\n<p>Amazon lance <strong>TorchNeuron</strong>, un outil de développement qui cible <strong>PyTorch</strong>, le kit gratuit sur lequel se construisent la plupart des applications d'IA. L'objectif énoncé : briser la mainmise de <strong>Nvidia</strong> sur cet écosystème, pour que davantage de développeurs fassent tourner leurs applications sur des puces alternatives, dont celles d'Amazon. TechCrunch y voit l'offensive la plus ambitieuse de l'entreprise face à Nvidia.</p>\n<p>Même mouvement de repli sur les couches basses du côté de Pékin, mais dans l'autre sens. Depuis le <strong>16 octobre 2026</strong>, une déclaration préalable est imposée à l'export de <strong>40 technologies, dont 23 en IA</strong>, la liste étant en consultation jusqu'au 15 novembre. Le ministère du Commerce précise que l'appel d'un modèle par <strong>API</strong> et les technologies publiées en <strong>open source</strong> restent hors champ.</p>\n<p>La faille est temporaire : le déploiement localisé hors de Chine d'un modèle restreint entrera dans le champ une fois le catalogue en vigueur. Les deux nouvelles se répondent sans se causer — d'un côté un géant du cloud qui veut desserrer l'étau matériel, de l'autre un État qui resserre le contrôle sur ce qui sort de chez lui.</p>\n<h2 id=\"en-france-l-ia-intensive-et-l-embauche-d\">En France, l'IA intensive et l'embauche des jeunes</h2>\n<p>Environ <strong>600 entreprises françaises</strong> déclarant un usage intensif de l'IA ont embauché en 2025 de <strong>17 à 25 % de jeunes de 21 à 29 ans en CDI en moins</strong> que les autres entreprises de leur secteur. Point notable : l'écart ne se retrouve pas sur leur effectif total. L'étude est signée d'économistes de <strong>HEC Paris</strong>, de la <strong>Banque de France</strong> et de l'<strong>INSEAD</strong>.</p>\n<p>Le résultat ne dit pas que l'IA supprime des postes dans ces entreprises, puisque l'effectif global ne bouge pas de façon nette. Il dit que la porte d'entrée se rétrécit : ce sont les premiers CDI, ceux qui servent traditionnellement de sas vers le reste du marché du travail, qui reculent.</p>\n<p>Les auteurs recommandent de <strong>redéfinir les premiers postes autour de ce que l'IA accomplit mal</strong>. Une manière de dire que le junior ne disparaît pas parce qu'il coûte cher, mais parce que la partie de son travail qui pouvait être confiée à un modèle a changé de main plus vite que la fiche de poste.</p>\n<h2>Et maintenant ?</h2>\n<p>Les cinq dépêches décrivent des chantiers qui ne se croisent pas encore : accélérer l'inférence, sortir des modèles moins chers au token, desserrer la dépendance à un fabricant de puces, encadrer ce qui s'exporte, et regarder ce que tout cela fait aux premiers emplois. Ce qui les relie, c'est le déplacement du travail vers les couches basses — noyau d'exécution, compilateur, tarif à l'appel, définition du poste d'entrée. Les annonces les plus visibles restent des revendications en attente de vérification : EAGLE-4 n'est pas dans llama.cpp, les poids de MiniMax M3.1 Flash sont annoncés pour le 23 octobre, TorchNeuron n'a pas encore fait ses preuves hors du communiqué.</p>",
+ "pivot": "8c9a717fd0c960df",
+ "tags": [
+  "open-source",
+  "dev",
+  "business",
+  "france"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xb6zds/eagle4_released_faster_than_dflash2_dspark/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/les-entreprises-les-plus-converties-a-lia-embauchent-jusqua-25-de-jeunes-en-cdi-en-moins/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa3ynv/space_bunny_was_minimax_m31_flash_428ba23b/"
+  }
+ ],
+ "date": "2026-10-21T00:28:31+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1699,
+  "sortie": 2779
+ }
+}

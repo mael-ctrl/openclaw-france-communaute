@@ -1,5 +1,133 @@
 [
  {
+  "id": "90337d8c86726a29",
+  "slug": "hermes-agent-la-version-rc-4-v0-22-3-publiee-sur-github-90337d",
+  "titre": "Hermes Agent : la version rc.4-v0.22.3 publiée sur GitHub",
+  "resume": "NousResearch a tagué la version rc.4-v0.22.3 de son agent Hermes sur GitHub, le 21 octobre 2026. L'extrait de la publication se limite à des métadonnées techniques : numéro de tentative, horodatage de claim et identifiant de commit, sans note de version détaillée. La série 0.22.3 de l'agent en est donc à sa quatrième release candidate.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.4-v0.22.3",
+  "date_source": "2026-10-21T10:39:16+00:00",
+  "date_redac": "2026-10-21T10:47:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 715
+  }
+ },
+ {
+  "id": "6ab958b88e664166",
+  "slug": "hermes-agent-abandonne-sa-troisieme-release-candidate-0-22-3-6ab958",
+  "titre": "Hermes Agent abandonne sa troisième release candidate 0.22.3",
+  "resume": "Le dépôt NousResearch/hermes-agent a publié un tag nommé « abandoned-rc.3-v0.22.3 ». Les métadonnées associées indiquent une troisième tentative (attempt: 3), une référence rc.3-v0.22.3, un schéma 1 et une version 0.22.3. Autrement dit, la troisième release candidate du cycle 0.22.3 n'ira pas plus loin. Un détail de versionnage qui compte surtout pour ceux qui suivent de près les cycles de publication du projet.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.3-v0.22.3",
+  "date_source": "2026-10-21T10:38:57+00:00",
+  "date_redac": "2026-10-21T10:47:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 553
+  }
+ },
+ {
+  "id": "e727f2feb91968e5",
+  "slug": "pigment-leve-250-millions-de-dollars-avec-nvidia-a-son-tour-de-table-e727f2",
+  "titre": "Pigment lève 250 millions de dollars avec Nvidia à son tour de table",
+  "resume": "Maddyness rapporte que Pigment boucle un tour de financement de 250 millions de dollars. Nvidia figure au tour de table. La présence du fabricant de puces parmi les investisseurs retient l'attention, alors que le montant de l'opération en fait une levée d'envergure. L'information est datée du 21 octobre 2026.",
+  "tags": [
+   "business",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "Maddyness",
+  "lien_source": "https://www.maddyness.com/2026/10/21/pigment-leve-250-millions-de-dollars-avec-nvidia-au-tour-de-table/",
+  "date_source": "2026-10-21T10:12:32+00:00",
+  "date_redac": "2026-10-21T10:48:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 674,
+   "sortie": 1163
+  }
+ },
+ {
+  "id": "52f0800fe1c041f3",
+  "slug": "specter-accelere-l-inference-moe-sur-un-seul-gpu-via-l-offloading-quan-52f080",
+  "titre": "Specter accélère l'inférence MoE sur un seul GPU via l'offloading quantifié",
+  "resume": "Specter combine quantification, décodage spéculatif et offloading des experts pour faire tourner des modèles MoE sur un GPU à mémoire insuffisante. Un modèle draft quantifié tourne sur l'appareil et anticipe l'usage futur des experts, ce qui permet d'organiser les transferts avant la vérification. Gain annoncé : 1,50x en moyenne (jusqu'à 1,88x) sur le temps par token de sortie face à l'état de l'art.",
+  "tags": [
+   "recherche",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xbj6an/paper_specter_fast_moe_inference_via/",
+  "date_source": "2026-10-21T10:09:24+00:00",
+  "date_redac": "2026-10-21T10:48:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 784,
+   "sortie": 1195
+  }
+ },
+ {
+  "id": "19db2df649279ace",
+  "slug": "hermes-agent-publie-la-release-candidate-rc-3-v0-22-3-19db2d",
+  "titre": "Hermes Agent publie la release candidate rc.3-v0.22.3",
+  "resume": "Le dépôt Hermes Agent de NousResearch met en ligne la version rc.3-v0.22.3, datée du 21 octobre 2026. Il s'agit d'une release candidate, donc d'une pré-version du projet. L'extrait transmis ne contient que des métadonnées techniques : numéro de tentative, indicateur d'autopublication, horodatage de revendication et identifiant de commit. Aucun détail fonctionnel n'est disponible dans cet extrait.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.3-v0.22.3",
+  "date_source": "2026-10-21T10:06:01+00:00",
+  "date_redac": "2026-10-21T10:48:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 709
+  }
+ },
+ {
+  "id": "8d27d908d1b3cf5b",
+  "slug": "hermes-agent-abandonne-sa-release-candidate-rc-2-de-la-version-0-22-3-8d27d9",
+  "titre": "Hermes Agent abandonne sa release candidate rc.2 de la version 0.22.3",
+  "resume": "Le dépôt NousResearch/hermes-agent a publié une étiquette de version explicitement marquée « abandoned » pour sa release candidate rc.2-v0.22.3. Les métadonnées jointes indiquent une deuxième tentative (attempt: 2) sur cette même référence, avec un schéma 1 et la version 0.22.3. Cette RC est donc abandonnée : la version 0.22.3 n'est pas encore stabilisée.",
+  "tags": [
+   "hermes",
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.2-v0.22.3",
+  "date_source": "2026-10-21T10:05:29+00:00",
+  "date_redac": "2026-10-21T10:48:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 595
+  }
+ },
+ {
   "id": "e1803baeb50c45d4",
   "slug": "openai-nomme-laureline-serieys-a-la-tete-de-la-france-et-de-l-europe-d-e1803b",
   "titre": "OpenAI nomme Laureline Serieys à la tête de la France et de l'Europe du Sud",

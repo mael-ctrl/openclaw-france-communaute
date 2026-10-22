@@ -1,0 +1,41 @@
+{
+ "slug": "microsoft-promet-un-diagnostic-4x-plus-precis-berlin-choisit-711975",
+ "titre": "Microsoft promet un diagnostic 4x plus précis, Berlin choisit Nvidia",
+ "chapo": "Microsoft affirme que son IA de diagnostic dépasse jusqu'à quatre fois les médecins humains ; au même moment, InclusionAI publie un modèle santé de 124 milliards de paramètres et l'Allemagne signe avec Nvidia. Trois signaux d'une même accélération, chacun avec ses zones d'ombre.",
+ "html": "<h2 id=\"enfin-la-la-promesse-sante-de-microsoft\">« Enfin là » : la promesse santé de Microsoft</h2>\n<p>Mustafa Suleyman, PDG de Microsoft AI, le dit à The Verge sans détour : la promesse d'une IA au service de la santé « est enfin là ». Microsoft affirme avoir mis au point un outil capable de diagnostiquer des pathologies <strong>jusqu'à quatre fois plus précisément que des médecins humains</strong>.</p>\n<p>Le « jusqu'à » n'est pas un détail. La source du chiffre, c'est l'entreprise elle-même, dans un entretien accordé à The Verge. Depuis des années, les dirigeants de l'IA citent la santé comme l'exemple le plus clair de l'utilité concrète de la technologie — c'est précisément ce qui rend l'annonce attendue, et ce qui invite à la lire pour ce qu'elle est : une revendication de Microsoft, pas encore un résultat dont la dépêche détaillerait la méthode.</p>\n<h2 id=\"ling-3-0-flash-sante-la-sante-en-poids-o\">Ling-3.0-flash-Sante, la santé en poids ouverts</h2>\n<p>Du côté des modèles ouverts, InclusionAI enchaîne. Après la mise à jour 3.1-flash-1019 annoncée plus tôt dans la journée, l'éditeur publie <strong>Ling-3.0-flash-Sante</strong>, un modèle dérivé de Ling-3.0-flash — son nom vient du mot français « santé ».</p>\n<p>Les caractéristiques sont publiques : 124 milliards de paramètres, dont <strong>5,1 milliards activés par token</strong>, avec un contexte de 256K. La cible : le raisonnement médical, la recherche documentaire et les usages assistés par outils. Les poids sont déjà sur Hugging Face et ModelScope.</p>\n<p>Un point que l'éditeur souligne lui-même : il s'agit d'un modèle de recherche, <strong>pas d'un dispositif médical</strong>. La démonstration technique est donc ouverte à tous ; l'usage clinique, lui, n'est pas revendiqué.</p>\n<h2 id=\"berlin-nvidia-et-la-souverainete-en-opti\">Berlin, Nvidia et la souveraineté en option</h2>\n<p>Deux semaines après le divorce entre Ecosia et Mistral, Berlin déroule le tapis rouge à Nvidia. Milliards en vitrine, start-up financées : le chancelier allemand assortit l'accord d'un mot d'ordre, <strong>ouvrez vos données</strong>.</p>\n<p>Le geste tranche avec les ambitions européennes d'IA souveraine. Là où le continent parle d'autonomie technologique, l'Allemagne mise sur un géant américain, avec l'accès aux données comme contrepartie affichée.</p>\n<h2 id=\"chez-meta-des-agents-qui-parleront-a-vos\">Chez Meta, des agents qui parleront à vos agents</h2>\n<p>Mark Zuckerberg défend une vision où un <strong>réseau autonome d'agents IA</strong> gère nos vies à notre place : faire les courses, travailler, et discuter avec les agents IA d'autres personnes. Un futur où l'on communiquerait principalement via des proxies automatisés.</p>\n<p>The Verge qualifie cette vision de très particulière, et sans relâche. La question posée par la dépêche est simple : les humains sont-ils prêts ? Elle vaut aussi pour le diagnostic automatisé et pour les modèles médicaux qui débarquent en poids ouverts.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois mouvements, trois régimes de preuve. Microsoft revendique la supériorité clinique dans un entretien ; InclusionAI publie ses poids tout en précisant qu'il ne s'agit pas d'un dispositif médical ; l'Allemagne échange l'accueil de Nvidia contre un mot d'ordre sur les données. La santé et les agents autonomes quittent la démonstration technique — mais chacun avance avec ses garde-fous, ou avec la promesse qu'ils viendront plus tard.</p>",
+ "pivot": "711975d102bd9a33",
+ "tags": [
+  "agents",
+  "open-source",
+  "société",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/alors-que-leurope-reve-dia-souveraine-lallemagne-signe-avec-un-geant-americain.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcljvi/ant_ling_just_announced_a_second_model_today/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xclfkp/inclusionailing30flashsante_hugging_face/"
+  }
+ ],
+ "date": "2026-10-22T18:43:37+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1565,
+  "sortie": 3815
+ }
+}

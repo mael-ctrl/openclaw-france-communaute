@@ -1,5 +1,130 @@
 [
  {
+  "id": "cce225ab107d3f9c",
+  "slug": "sur-r-localllama-un-internaute-cherche-des-nouvelles-de-turboquant-cce225",
+  "titre": "Sur r/LocalLLaMA, un internaute cherche des nouvelles de TurboQuant",
+  "resume": "Sur le subreddit r/LocalLLaMA, un internaute s'interroge sur le sort de TurboQuant, qu'il présente comme un sujet qui comptait autour du mois de mars de cette année. Il explique avoir cherché des mises à jour sur le projet sans rien trouver de concret. Le message ne précise ni la nature exacte de TurboQuant ni les raisons de cet apparent silence.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcqm0z/whatever_happened_to_turboquant/",
+  "date_source": "2026-10-22T18:28:05+00:00",
+  "date_redac": "2026-10-22T18:42:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 632,
+   "sortie": 454
+  }
+ },
+ {
+  "id": "e023580fd138e76a",
+  "slug": "intel-b70-le-decodage-speculatif-booste-par-un-correctif-dans-llama-cp-e02358",
+  "titre": "Intel B70 : le décodage spéculatif boosté par un correctif dans llama.cpp",
+  "resume": "Une pull request (#29864) de budiony dans llama.cpp remanie les moteurs matriciels XMX d'Intel, avec à la clé un gain net sur les vitesses de décodage spéculatif d'une B70 sous SYCL. Les tests portent sur Muse Glimmer Q6_K (30B) lancé avec DFlash2, où les débits avant correctif oscillent entre 36 et 53 tok/s selon les tâches. Le coût de vérification des tokens ayant fortement baissé, le n-max a été relevé — ce qui abaisse mécaniquement le taux d'acceptation affiché.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcqb3p/massive_b70_specdecoding_improvement_intel_xmx/",
+  "date_source": "2026-10-22T18:16:49+00:00",
+  "date_redac": "2026-10-22T18:42:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 931,
+   "sortie": 539
+  }
+ },
+ {
+  "id": "8d55a6ef2dc35c54",
+  "slug": "chez-meta-mon-agent-ia-parlera-au-votre-8d55a6",
+  "titre": "Chez Meta, mon agent IA parlera au vôtre",
+  "resume": "Mark Zuckerberg défend une vision où un réseau autonome d'agents IA gère nos vies à notre place : faire les courses, travailler, et discuter avec les agents IA d'autres personnes. Un futur où l'on communiquerait principalement via des proxies automatisés, que The Verge qualifie de vision très particulière et sans relâche. La question posée : les humains sont-ils prêts ?",
+  "tags": [
+   "meta",
+   "agents",
+   "société"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
+  "date_source": "2026-10-22T18:15:00+00:00",
+  "date_redac": "2026-10-22T18:43:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 662,
+   "sortie": 477
+  }
+ },
+ {
+  "id": "f3768e16f2c8984f",
+  "slug": "anthropic-confie-le-standard-agent-skills-a-la-agentic-ai-foundation-f3768e",
+  "titre": "Anthropic confie le standard Agent Skills à la Agentic AI Foundation",
+  "resume": "Anthropic annonce faire don du standard Agent Skills à l'Agentic AI Foundation (AAIF), placée sous la Linux Foundation. Cette fondation a été cofondée l'an dernier par Anthropic, Block et OpenAI, et c'est déjà là qu'a été transférée la spécification MCP. Simon Willison, qui avait prédit ce transfert en décembre lorsque les skills ont été déclarés « standard ouvert », y voit une confirmation de cette trajectoire.",
+  "tags": [
+   "agents",
+   "skills",
+   "claude",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+  "date_source": "2026-10-22T18:09:56+00:00",
+  "date_redac": "2026-10-22T18:43:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 783,
+   "sortie": 444
+  }
+ },
+ {
+  "id": "3030c08b9eb95f6d",
+  "slug": "un-lot-de-rtx-5090-vole-a-l-aeroport-au-bresil-reapparait-en-vente-en--3030c0",
+  "titre": "Un lot de RTX 5090 volé à l'aéroport au Brésil réapparaît en vente en ligne",
+  "resume": "Une cargaison de cartes graphiques Nvidia RTX 5090, valorisée à 470 000 dollars, a été volée à l'aéroport au Brésil. Les GPU détournés refont surface sur des sites de vente en ligne. Ils ont pu être identifiés grâce à leurs numéros de série, qui rattachent les cartes à l'expédition détournée.",
+  "tags": [
+   "matériel",
+   "sécurité",
+   "business"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcpy0t/gpus_from_nvidia_rtx_5090_stolen_470000_shipment/",
+  "date_source": "2026-10-22T18:03:23+00:00",
+  "date_redac": "2026-10-22T18:43:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 636,
+   "sortie": 702
+  }
+ },
+ {
+  "id": "711975d102bd9a33",
+  "slug": "microsoft-affirme-que-son-ia-diagnostique-mieux-que-les-medecins-711975",
+  "titre": "Microsoft affirme que son IA diagnostique mieux que les médecins",
+  "resume": "Microsoft affirme avoir mis au point un outil d'IA capable de diagnostiquer des pathologies jusqu'à quatre fois plus précisément que des médecins humains. Mustafa Suleyman, PDG de Microsoft AI, déclare à The Verge que cette promesse d'une IA au service de la santé « est enfin là ». Depuis des années, les dirigeants de l'IA citent la santé comme l'exemple le plus clair de l'utilité concrète de la technologie.",
+  "tags": [
+   "société",
+   "recherche"
+  ],
+  "importance": 4,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+  "date_source": "2026-10-22T18:00:00+00:00",
+  "date_redac": "2026-10-22T18:43:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 789
+  }
+ },
+ {
   "id": "ac81d02b02275e71",
   "slug": "la-switch-2-jailbreakee-avec-l-aide-du-codex-d-openai-ac81d0",
   "titre": "La Switch 2 jailbreakée avec l'aide du Codex d'OpenAI",

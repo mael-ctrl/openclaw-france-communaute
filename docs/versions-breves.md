@@ -88,6 +88,11 @@ ni copie de code tiers.
   toutes les étapes terminées ; logs globaux indisponibles. **Ne pas qualifier
   le workflow entier de réussi** sur ces seules étapes. Production et sauvegarde
   sont vérifiées séparément ; aucune relance aveugle.
+- Complément : le journal direct du job `119866143292`, récupéré par l'API
+  `actions/jobs/{id}/logs` malgré le statut global encore en attente, confirme
+  **191 contrats réussis**, la variante conservée et le bilan réel de six brèves,
+  un article et 1 623 envois. `gh run view --log` restait indisponible ; le corps
+  direct est conservé dans `evidence/cloud-job.log`.
 
 Pièces : `evidence/production-20261022T143546Z/result.json` et corps bruts dans le
 chantier privé. Le bénéfice attendu est la reprise de la fraîcheur éditoriale,

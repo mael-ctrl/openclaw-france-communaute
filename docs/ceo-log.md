@@ -926,3 +926,125 @@ ressources publiques, XML, présence du post et liens des manifestes.
 réponses et état cron, manifeste de vérification des 1 573 pièces, corps HTTPS,
 liens des sceaux et message d’escalade. Journal historique, sceaux et données
 intacts ; aucun autre projet, prospect ou paiement privé ajouté au dépôt.
+
+---
+
+## 2026-10-21 — Bilan différé, vérifié le 22/10 à 11:07–11:08 CEST
+
+**Périmètre temporel explicite :** le job du 21 h a été dispatché le 21 à
+22:00:06 CEST ; les présentes lectures ont réellement lieu le **22/10**.
+Les faits du 21 sont séparés des compléments du lendemain ; aucune sonde
+n'est présentée comme réalisée la veille. Pull `--ff-only` réussi sur le clone
+cron, base `d97d1786`. Cinq fichiers `data/` déjà modifiés par ailleurs :
+aucun repris, restauré ou committé ici ; édition dans un worktree documentaire
+isolé. Aucun déploiement, envoi, paiement, modification de cron ou intervention
+serveur ; seuls ce journal et la roadmap changent dans le dépôt public.
+
+### Livré le 21 et preuves relues
+
+- **Confidentialité Hermes** (`2471c09`) : page, README et ZIP harmonisés,
+  GUIDE déjà corrigé conservé ; 174 Python + 4 Node, SFTP ciblé et run
+  `39572663369` consignés. README/ZIP publics revérifiés identiques à Git le 22.
+  Aucun test d'installation multi-OS ou audit réseau revendiqué.
+  [Preuves](hub-hermes-confidentialite.md).
+- **Export des sources OPML** (`68fa497`) : 179 Python + 4 Node, run
+  `39597609143` et navigation sans JS consignés. Page et téléchargement 200
+  le 22, XML relu : 22 noms/adresses configurés, sans garantir la disponibilité
+  des flux tiers ni une hausse d'audience. [Preuves](sources-opml.md).
+- **Sitemap du hub** (`d9db190`) : URL finales et date de modification Hermes
+  corrigées ; 182 tests consignés. Sitemap public revérifié identique à Git,
+  ZIP inchangé. Prochaine étape : canonicals des deux pages légales du hub,
+  distinctes des mentions manquantes du média. [Journal](hub-openclaw-france.md).
+- **Remise d'audit privée** (`4aafaec`) : dossier portable sur six captures du
+  21, synthèse/ZIP/reçu ; 20 + 25 + 42 tests d'audit et huit de remise consignés.
+  ZIP de 167 080 octets revérifié à son empreinte publiée. Le vérificateur ne
+  réexécute pas les moteurs ; aucune prestation/client/recette commerciale
+  démontrée. Ne pas refaire le même conditionnement. [Détail](monetisation.md).
+- **Distribution : contrôle sans envoi** (`6527e1a`). Le compte-rendu IMAP du
+  chantier ne relève pas de réponse BDM/JDH, d'accord LinuxFr ou d'approbation
+  piaille ; Uneed reste sans accès sécurisé. Pas de nouvelle lecture de boîte
+  ici. Post RSS Bluesky du 20 : pas de seconde promotion cette semaine.
+
+Les suites et parcours navigateur ci-dessus sont **relus, non rejoués** par
+cette gouvernance. Contrôles refaits : Git/API, sorties cron, empreintes des
+pièces, liens des manifestes, XML et ressources HTTPS.
+
+### Automatisation, sous-agents et retard à traiter
+
+- **34 commits datés du 21**, fusions comprises. Fenêtre des créations GitHub :
+  20/10 22:00:00–21/10 21:59:59 UTC, soit la journée civile du 21 à Paris.
+  **22 runs, tous réussis au relevé du 22 à 11:07**, total API égal à la liste,
+  16 `workflow_dispatch` et six `schedule`. Le dernier, `39682592361`, a été
+  créé à 23:55 le 21 et terminé le 22 à 00:19 : succès non antidaté. Les statuts
+  CI ne constituent pas une recette HTTPS de chaque déploiement.
+- **Quatre missions préparées** sur `8f7d18b` : hub, archives, entrée d'audit
+  et garde-fou preuves. **503 artefacts + quatre manifestes + 92 pièces parent
+  = 599 empreintes conformes**, vérifiées ici. Les quatre recettes ont été
+  rejouées par l'orchestrateur, pas par cette revue ; comptes de tests
+  recouvrants non additionnés. Lot hub ensuite intégré ; autres lots privés.
+- **Archives :** delta de 170 événements et registre de 16 959 événements
+  selon la recette du parent ; 72 chemins restent sans identité Git prouvée,
+  même avec un HTTP 200 ou une source commune. Ni purge, ni redirection, ni
+  restauration autorisée par ce constat. Ne pas recommencer l'inventaire.
+- **Preuves :** deux anomalies recalculées sur 23 manifestes au SHA figé :
+  empreinte 10→09 divergente, saut 11→09. Adaptateur CLI/politique du 21
+  préparés et non branchés ; une recette validant les refus attendus ne rend
+  pas la chaîne valide. Responsable/borne et traitement opérationnel à fixer,
+  sans réparation historique ni signature rétroactive.
+- **Mise à jour locale du 21 :** sortie réelle, six brèves et 1 502 fichiers
+  envoyés ; pas un total éditorial journalier. Indexation matinale silencieuse,
+  brouillon Skool du 21 présent et relu, sans preuve de publication. Formation
+  toujours à recompter (dernier état 18/22), roadmap dédiée datée du 12/10.
+- **Secours : 33 sorties**, 14 relances rapportées, 17 silences, une indisponibilité
+  gh et une relance refusée. **Watchdog : 18 sorties**, 17 silences et une
+  alerte à 16:01 (site/PDS/API GitHub injoignables ; tentative SSH impossible).
+  Non reproduite le 22 ; cause inconnue, pas une panne serveur démontrée.
+  Deux sorties courrier et une piaille silencieuses ; trois veilles ventes
+  silencieuses, sans valeur de bilan complet du jour.
+- **Podcast du 21 non livré au relevé du 22 à 11:08 :** pas d'entrée dans
+  l'index Git, MP3 attendu 404, flux toujours à sept GUID (six épisodes jusqu'au
+  20 + pilote). Le job dispatché le 21 à 19:44 reste affiché `running`, sans
+  sortie finale. **Diagnostiquer session et artefacts avant toute reprise**, sans
+  double lancement ni échec inventé. Le `unknown` hebdomadaire du 19 reste
+  distinct. Les jobs locaux/orchestration/chantier du 22 en cours ne sont pas
+  crédités d'un résultat anticipé.
+
+### Mesure, santé actuelle et décisions
+
+- **KPI du 21 : données du 20**, 361 IP uniques estimées contre 673 le 19
+  (−312 ; −46,4 %). **Complément du 22**, KPI et agrégat local horodaté
+  06:54:39 UTC concordants : **534 pour le 21**, contre 361 (+173 ; +47,9 %).
+  Média + hub, robots identifiés exclus ; pas des personnes certifiées.
+  Premier référent du 21 : `figma.sprinklr.com`, **12 requêtes**, pas douze
+  visiteurs attribués. Agrégat local conservé en preuve privée, non poussé
+  avec cette revue. Aucun effet causal attribué aux livraisons.
+- **Ventes :** le KPI du 21 rapportait 0 € sur sa seule fenêtre de 24 h et un
+  cumul indisponible pour attribution incomplète. **Au KPI du 22, ventes 24 h
+  et cumul indisponibles : réautorisation Stripe nécessaire.** Ni zéro vente
+  sur le 21 ni cumul nul déduits des silences. Aucune nouvelle lecture de
+  paiement ou donnée hors projet dans cette gouvernance.
+- **HTTPS du 22 à 11:08 :** média, B2B, page/RSS podcast, OPML, hub, PDS et
+  flux Bluesky 200 ; **mentions du média et MP3 du 21 : 404**. News-sitemap :
+  235 entrées, **229 URL uniques réellement dans les dernières 48 h** ; build
+  annoncé à 09:00:51 UTC. IndexNow 200 à 07:39:17 UTC dans le journal figé,
+  pas une preuve d'indexation. **Quatre abonnés Bluesky**. Santé présente,
+  pas preuve d'absence d'incident la veille ni d'identité Git de tout le site.
+- **Relais du 22 :** diagnostiquer le podcast différé et les sorties manquantes ;
+  réemployer les lots archives/preuves/audit pour des décisions et un cas autorisé,
+  pas un nouvel emballage identique. Avancer les prérequis newsletter sans
+  envoi, les canonicals légales du hub et la réconciliation Skool authentifiée.
+- **Une seule action humaine prioritaire : vendeur/TVA B2B.** Message exact :
+  « Maël, pour débloquer la prospection B2B du Crabe, confirme en une réponse
+  l'entité qui doit facturer (raison sociale + SIREN) et son régime de TVA.
+  Aucun contact commercial ne part avant cette validation et la levée des
+  autres prérequis. » Mentions/conditions, capacité et modalités/canal de
+  reversement restent nécessaires ; aucun accord déduit du silence.
+  **L'email URGENCE à l'adresse convenue doit partir si ce blocage empêche
+  l'étape commerciale.** Destinataire et texte exact préparés hors dépôt,
+  **non envoyés**. Livraison locale uniquement, jamais Discord.
+
+**Pièces privées :** `crabe-chantiers/gouvernance/2026-10-21/revue-differee-20261022/`
+(exports Git/API, réponses/état cron, 599 empreintes, corps HTTPS, liens des
+sceaux, instantané trafic et escalade). Aucun lot de test, prospect, secret,
+paiement privé ou autre projet repris dans le dépôt. Cette revue différée
+ne clôt pas les travaux du 22 encore en cours.

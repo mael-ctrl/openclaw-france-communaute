@@ -1,5 +1,67 @@
 [
  {
+  "id": "6a9966e593beaff9",
+  "slug": "deepseek-v4-1-flash-1-521-tokens-par-seconde-chez-fireworks-ai-6a9966",
+  "titre": "DeepSeek V4.1 Flash : 1 521 tokens par seconde chez Fireworks AI",
+  "resume": "L'hébergeur américain Fireworks AI affirme faire tourner DeepSeek V4.1 Flash à plus de 1 521 tokens par seconde grâce à sa nouvelle infrastructure « Ultrafast ». Un débit qui permettrait, selon lui, de coder un jeu complet en onze secondes — le titre original évoque un Tetris généré sept fois plus vite qu'avec Claude. La véracité technique de ces chiffres et la grille tarifaire associée restent un mystère.",
+  "tags": [
+   "deepseek",
+   "dev",
+   "claude"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3295565_deepseek-v4-1-flash-1017-le-jeu-tetris-cree-en-11-secondes-sept-fois-plus-vite-que-claude",
+  "date_source": null,
+  "date_redac": "2026-10-22T10:21:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 713,
+   "sortie": 1255
+  }
+ },
+ {
+  "id": "ad21a528fd889936",
+  "slug": "amazon-investit-16-milliards-d-euros-en-allemagne-dans-le-cloud-et-l-i-ad21a5",
+  "titre": "Amazon investit 16 milliards d'euros en Allemagne dans le cloud et l'IA",
+  "resume": "Amazon prévoit d'investir 16 milliards d'euros (18 milliards de dollars) en Allemagne d'ici 2027, en priorité dans ses infrastructures cloud et d'intelligence artificielle. L'Espagne a déjà obtenu une promesse plus importante encore, tandis que la France peine à rivaliser avec les montants annoncés par le géant américain. Ces infrastructures sont devenues un enjeu majeur de la compétition européenne.",
+  "tags": [
+   "business",
+   "france"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/big-tech/amazon/apres-lespagne-amazon-mise-gros-sur-lallemagne-avec-une-enveloppe-de-16-milliards-de-dollars-allouee-a-ses-infrastructures-cloud-et-ia.5UPRUV6FXBBA3DBBXRCFQ6JZBA.html",
+  "date_source": null,
+  "date_redac": "2026-10-22T10:21:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 814,
+   "sortie": 633
+  }
+ },
+ {
+  "id": "3fcc9f6eb7d5410d",
+  "slug": "un-utilisateur-juge-lfm2-5-24-a2b-decevant-meme-apres-changement-de-mo-3fcc9f",
+  "titre": "Un utilisateur juge LFM2.5-24-A2B décevant, même après changement de moteur",
+  "resume": "Un utilisateur de r/LocalLLaMA renchérit : LFM2.5-24-A2B, lancé sur llamaampere (une version de llama.cpp optimisée), atteint 130 tk/s sur une RTX A4500 mais boucle et échoue sur des tâches simples. Passé à LM Studio en sacrifiant la vitesse, il constate que le comportement erratique se stabilise. Il rappelle qu'un Qwen 3.8 27B Q4 tournait à 40-60 tk/s avec des résultats satisfaisants.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xce5dd/tried_lfm2524a2b_its_crap_yes_i_double_confirm_it/",
+  "date_source": "2026-10-22T09:45:24+00:00",
+  "date_redac": "2026-10-22T10:21:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 854,
+   "sortie": 926
+  }
+ },
+ {
   "id": "440124c7007b783a",
   "slug": "chrome-s-appuie-sur-gemini-pour-detecter-les-arnaques-en-ligne-440124",
   "titre": "Chrome s'appuie sur Gemini pour détecter les arnaques en ligne",
@@ -58,6 +120,27 @@
    "modele": "deepseek-flash",
    "entree": 668,
    "sortie": 367
+  }
+ },
+ {
+  "id": "e7d1e17d440536ec",
+  "slug": "llama-cpp-le-support-q2-0-arrive-dans-le-backend-webgpu-e7d1e1",
+  "titre": "llama.cpp : le support Q2_0 arrive dans le backend WebGPU",
+  "resume": "Une pull request (#30914) propose d'ajouter le support de la quantification Q2_0 au backend WebGPU de llama.cpp. Les tests, menés sur une RTX 3060 avec Dawn WebGPU natif, comparent master et la PR via llama-bench. Sur Ternary Bonsai 1.7B Q2_0, le prefill passe de 35,03 à 1 915,91 t/s et la génération de 14,02 à 94,75 t/s. Sur Bonsai 2 2B Q2_0, de 36,40 à 2 039,89 t/s et de 12,57 à 71,72 t/s.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcdpks/webgpu_add_q2_0_support_by_teddygood_pull_request/",
+  "date_source": "2026-10-22T09:17:46+00:00",
+  "date_redac": "2026-10-22T10:21:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 828,
+   "sortie": 984
   }
  },
  {

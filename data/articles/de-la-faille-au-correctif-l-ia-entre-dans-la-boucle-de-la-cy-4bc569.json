@@ -1,0 +1,41 @@
+{
+ "slug": "de-la-faille-au-correctif-l-ia-entre-dans-la-boucle-de-la-cy-4bc569",
+ "titre": "De la faille au correctif : l'IA entre dans la boucle de la cyberdéfense",
+ "chapo": "Cloudflare s'appuie sur Daybreak, d'OpenAI, pour traquer les vulnérabilités, et sur Codex pour écrire son code. Au même moment, Bruxelles fait des agents IA des produits à responsabilité, Pékin filtre leurs exportations et Washington bannit DeepSeek de ses agences civiles.",
+ "html": "<h2 id=\"cloudflare-la-faille-et-le-correctif-dan\">Cloudflare : la faille et le correctif dans la même chaîne</h2>\n<p>Cloudflare utilise Daybreak, d'OpenAI, pour investiguer les vulnérabilités et proposer des correctifs. Ces correctifs ne partent pas tels quels en production : ils sont soumis à une relecture. Le cas d'usage relie donc directement la découverte d'une faille à sa correction, du côté défense — là où les équipes sécurité travaillent d'ordinaire en allers-retours entre l'outil de scan et le dépôt de code.</p>\n<p>En parallèle, les développeurs de Cloudflare passent par Codex pour construire plus vite et améliorer la qualité du code. <strong>Deux usages distincts, un même fournisseur</strong> : l'un tourné vers la chasse aux failles, l'autre vers l'écriture quotidienne.</p>\n<p>La mécanique décrite reste celle d'une assistance : le modèle propose, l'humain relit. C'est le point sur lequel repose l'ensemble du dispositif, et c'est aussi ce qui le distingue des projets dont on parle plus bas.</p>\n<h2 id=\"bruxelles-vendre-un-agent-c-est-devenir-\">Bruxelles : vendre un agent, c'est devenir fabricant</h2>\n<p>La directive (UE) 2024/2853, à transposer au plus tard le 9 décembre 2026, fait du logiciel un produit — SaaS compris. Conséquence directe pour les agents IA : qui développe ou vend sous sa marque un agent devient fabricant, et donc <strong>responsable sans faute</strong> des lésions, des atteintes psychologiques médicalement reconnues et des destructions de données non professionnelles causées par un défaut.</p>\n<p>Le texte ne vise pas seulement les nouveautés. Une mise à jour substantielle après cette date fait entrer un agent existant dans le régime : autrement dit, maintenir son produit, c'est déjà y revenir.</p>\n<p>Pour les éditeurs, la question n'est plus seulement de savoir ce que le modèle sait faire, mais ce qu'il peut casser, et à qui cela sera imputé.</p>\n<h2 id=\"exportations-et-bannissements-le-perimet\">Exportations et bannissements : le périmètre se rétrécit</h2>\n<p>Depuis le 16 octobre 2026, Pékin impose une déclaration préalable pour exporter 40 technologies, dont 23 en IA. La consultation court jusqu'au 15 novembre. Le ministère du Commerce précise deux exceptions : l'appel d'un modèle par API et les technologies publiées en open source restent hors champ. En revanche, le déploiement localisé hors de Chine d'un modèle restreint entrera dans le champ une fois le catalogue en vigueur.</p>\n<p>De l'autre côté du Pacifique, les États-Unis ont ordonné à leurs agences civiles de cesser d'utiliser DeepSeek, le chatbot d'IA chinois. La décision vise directement la Chine, accusée de surveiller les Américains. Les autorités évoquent aussi la présence possible de « malwares » cachés dans l'outil.</p>\n<p>Deux mouvements symétriques : un contrôle à la sortie d'un côté, une exclusion à l'entrée de l'autre. Les API, elles, restent pour l'instant ouvertes.</p>\n<h2 id=\"echotribble-le-meme-geste-cote-offensif\">ECHOTRIBBLE : le même geste, côté offensif</h2>\n<p>Selon une enquête de The Intercept publiée le 19 octobre 2026, l'armée américaine veut confier à des agents IA des missions offensives : explorer des réseaux, se propager d'un appareil à l'autre et neutraliser des cibles. Le projet, baptisé <strong>ECHOTRIBBLE</strong>, est encore en développement.</p>\n<p>Il s'appuie sur une « supervision humaine minimale », ce qui soulève des inquiétudes sur le contrôle humain. C'est précisément le curseur inverse de celui décrit par Cloudflare, où le correctif proposé par le modèle passe par une relecture avant application.</p>\n<p>Les dépêches ne permettent pas d'établir de lien entre les deux programmes au-delà de leur voisinage thématique. Elles dessinent en revanche un même moment : la découverte de failles, leur exploitation et leur correction deviennent des tâches que l'on délègue à des agents, avec des garde-fous dont le niveau varie fortement d'un cas à l'autre.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois textes réglementaires ou politiques, un projet militaire et un déploiement industriel : la même semaine, l'agent IA cesse d'être un objet de démonstration pour devenir un objet de droit et de doctrine. La directive européenne déplace la responsabilité vers celui qui vend, le contrôle chinois vers celui qui exporte, le bannissement américain vers celui qui achète. Reste une asymétrie : les garde-fous techniques décrits ici — la relecture d'un correctif — n'ont pas d'équivalent annoncé dans les projets offensifs. Ce n'est pas une question de morale, c'est une question de traçabilité quand quelque chose se casse.</p>",
+ "pivot": "4bc569788f90a502",
+ "tags": [
+  "openai",
+  "agents",
+  "sécurité",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "OpenAI",
+   "url": "https://openai.com/index/cloudflare-cyber"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/le-gouvernement-americain-banni-deepseek-lia-chinoise-est-accusee-de-surveillance-de-masse.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2356515-supervision-humaine-minimale-larmee-americaine-veut-envoyer-des-agents-ia-pirater-ses-ennemis.html"
+  }
+ ],
+ "date": "2026-10-22T02:25:56+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1547,
+  "sortie": 2904
+ }
+}

@@ -1,5 +1,108 @@
 [
  {
+  "id": "4bc569788f90a502",
+  "slug": "cloudflare-s-appuie-sur-daybreak-d-openai-pour-traquer-les-vulnerabili-4bc569",
+  "titre": "Cloudflare s'appuie sur Daybreak d'OpenAI pour traquer les vulnérabilités",
+  "resume": "Cloudflare utilise Daybreak, d'OpenAI, pour investiguer les vulnérabilités et proposer des correctifs soumis ensuite à relecture. Ses développeurs passent aussi par Codex pour construire plus vite et améliorer la qualité du code. Le cas d'usage relie directement la découverte d'une faille à sa correction, du côté défense.",
+  "tags": [
+   "openai",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/cloudflare-cyber",
+  "date_source": null,
+  "date_redac": "2026-10-22T02:25:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 588,
+   "sortie": 484
+  }
+ },
+ {
+  "id": "8012726eafdd7474",
+  "slug": "sur-r-localllama-un-utilisateur-salue-la-diversite-des-modeles-open-so-801272",
+  "titre": "Sur r/LocalLLaMA, un utilisateur salue la diversité des modèles open source",
+  "resume": "Un membre de r/LocalLLaMA raconte avoir téléchargé Raon-1-mini 30B A4B et Flint 40B A2.5B, deux modèles open source. Il s'étonne du nombre d'options désormais disponibles, issues de nombreux pays, et y voit des contributions collectives à des logiciels utiles. Il dit aussi sa surprise de pouvoir parler à son ordinateur et d'obtenir une réponse, comme dans Star Trek.",
+  "tags": [
+   "open-source",
+   "société"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc5qac/open_source_llm_appreciation_post/",
+  "date_source": "2026-10-22T01:45:47+00:00",
+  "date_redac": "2026-10-22T02:25:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 706,
+   "sortie": 563
+  }
+ },
+ {
+  "id": "303a74f039238fe7",
+  "slug": "decodage-speculatif-un-modele-2-bits-en-vram-le-residu-en-ram-systeme-303a74",
+  "titre": "Décodage spéculatif : un modèle 2 bits en VRAM, le résidu en RAM système",
+  "resume": "Un membre de r/LocalLLaMA partage une piste de décodage spéculatif pour les modèles qui ne tiennent pas dans le GPU. L'idée : garder une copie 2 bits du modèle en VRAM et les poids résiduels (6-8 bits) en RAM système. La copie 2 bits propose les tokens, le modèle complet les vérifie. L'auteur, qui dit l'employer dans une application en production, n'a pas le temps d'aller plus loin et laisse la communauté tester.",
+  "tags": [
+   "recherche",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc55z3/2bit_copy_in_vram_exact_residual_in_system_ram_as/",
+  "date_source": "2026-10-22T01:18:28+00:00",
+  "date_redac": "2026-10-22T02:25:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 847,
+   "sortie": 868
+  }
+ },
+ {
+  "id": "961d28245cd8348f",
+  "slug": "sur-r-localllama-un-meme-genere-par-flash-next-dans-l-app-rikkahub-961d28",
+  "titre": "Sur r/LocalLLaMA, un meme genere par Flash Next dans l'app Rikkahub",
+  "resume": "L'utilisateur u/Fz1zz publie sur r/LocalLLaMA un meme produit integralement par Flash Next, directement dans l'application Android Rikkahub. La publication, titree « After using Flash next », est presentee comme un simple « fun fact ». Aucun detail technique ni retour d'experience n'accompagne le post.",
+  "tags": [
+   "dev",
+   "société"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc4mn5/after_using_flash_next/",
+  "date_source": "2026-10-22T00:52:27+00:00",
+  "date_redac": "2026-10-22T02:25:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 617,
+   "sortie": 663
+  }
+ },
+ {
+  "id": "42357c1b00e39907",
+  "slug": "kitten-tts-2-un-modele-vocal-1-58-bit-qui-tourne-en-temps-reel-sur-cpu-42357c",
+  "titre": "Kitten-TTS 2 : un modèle vocal 1,58 bit qui tourne en temps réel sur CPU",
+  "resume": "KittenML publie le code et les poids de Kitten-TTS 2, présenté comme le premier modèle de synthèse vocale en 1,58 bit. Ses poids ternaires (-1, 0, +1) et ses 1,7 milliard de paramètres lui permettent de générer de la voix en temps réel sur un simple CPU, sans GPU. Le modèle gère le clonage de voix zero-shot, plusieurs langues et un contrôle de l'expressivité. L'ensemble est open-source.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/",
+  "date_source": "2026-10-22T00:33:11+00:00",
+  "date_redac": "2026-10-22T02:25:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 855,
+   "sortie": 476
+  }
+ },
+ {
   "id": "6f4b1fbf8c72e9c3",
   "slug": "recursive-flint-un-modele-40b-pour-agents-de-code-2-5b-parametres-acti-6f4b1f",
   "titre": "Recursive Flint : un modèle 40B pour agents de code, 2,5B paramètres actifs",

@@ -2802,3 +2802,9 @@
 {"ts": "2026-10-22T09:06:29+00:00", "evenement": "deploiement", "details": {"fichiers": 1604, "octets": 31560200}, "sha256": "9a8af4bdf7e28e8366fd5c1de825254c96dfb7b9552c661f102061c2b97a1949"}
 {"ts": "2026-10-22T09:06:30+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "a25b40f7451c3d6ef28850cb6f7952a05cec796135f1e954cd82a7923835b184"}
 {"ts": "2026-10-22T09:06:30+00:00", "evenement": "bilan", "details": {"duree_s": 1236.0, "neufs": 12, "breves": 6, "articles": 0, "fichiers": 1563, "envois": 1604, "publications": 0}, "sha256": "dfb1b510657f7f33ccb90a2ba2422035b787df707b8ef2a8d5b602a6d5aa0aeb"}
+{"ts": "2026-10-22T09:49:50+00:00", "evenement": "collecte", "details": {"neufs": 8}, "sha256": "9976f2ba12201f04abfcbad815e04df1b124dbb72bccd77de28a45caf258e4f4"}
+{"ts": "2026-10-22T09:50:32+00:00", "evenement": "erreur", "details": {"message": "article impossible : Expecting property name enclosed in double quotes: line 8 column 5 (char 1519)"}, "sha256": "057e2b0397815c387e63038eeb3af1c8c3c8136c560d4415662a4a251f709b1e"}
+{"ts": "2026-10-22T09:50:43+00:00", "evenement": "construction", "details": {"fichiers": 1570}, "sha256": "a8883f1d41b2889c35643c17a0133d327880740b2c9d38c1d64c6402aea152df"}
+{"ts": "2026-10-22T10:19:44+00:00", "evenement": "deploiement", "details": {"fichiers": 1609, "octets": 32397500}, "sha256": "c9c4bc8e160a486474e2c93db9ed534d105f0055a33642d5a6957b4b9726bc8c"}
+{"ts": "2026-10-22T10:19:44+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "79632ae5d64e8feb4c8393a2a05dd16f1f96b3465260f10711d84373d516185b"}
+{"ts": "2026-10-22T10:19:45+00:00", "evenement": "bilan", "details": {"duree_s": 1806.3, "neufs": 8, "breves": 6, "articles": 0, "fichiers": 1570, "envois": 1609, "publications": 0}, "sha256": "ca6c23d2aa5b453b120144521d5eb458a420ff96cef2c1afd5e98a9fb910eccc"}

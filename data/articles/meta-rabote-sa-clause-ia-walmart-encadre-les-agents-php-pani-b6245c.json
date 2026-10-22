@@ -1,0 +1,41 @@
+{
+ "slug": "meta-rabote-sa-clause-ia-walmart-encadre-les-agents-php-pani-b6245c",
+ "titre": "Meta rabote sa clause IA, Walmart encadre les agents, PHP panique",
+ "chapo": "Meta retire de ses conditions d'utilisation la formulation qui laissait penser qu'il pouvait entraîner ses modèles gratuitement sur des sites d'actualité : les juristes n'y voient qu'un replâtrage. Le même groupe annonce une nouvelle classe d'actions sans droit de vote pour financer son effort dans l'IA.",
+ "html": "<h2 id=\"meta-la-clause-s-en-va-la-porte-reste-ou\">Meta : la clause s'en va, la porte reste ouverte</h2>\n<p>Meta a modifié ses conditions d'utilisation pour supprimer la formulation qui laissait entendre que le groupe pouvait entraîner ses modèles d'IA gratuitement sur des sites d'actualité, The Verge compris. Sur le papier, la correction concerne donc directement les éditeurs de presse, premiers fournisseurs de texte aspirés par les modèles.</p>\n<p>Pour les juristes cités par The Verge, l'ajustement ne règle jednak rien. La clause qui évoque les contenus « <strong>associés à vos produits ou services</strong> » reste en place, et elle ouvrirait toujours la voie au scraping. Autrement dit, Meta corrige la phrase la plus visible sans toucher au mécanisme de fond.</p>\n<p>C'est un réflexe de communication autant que de conformité : on retire ce qui se cite facilement dans un article, on conserve la formulation large qui permet de continuer à aspirer du contenu. Les ayant droits devront donc batailler sur l'interprétation, pas sur le texte.</p>\n<h2 id=\"une-classe-d-actions-sans-droit-de-vote-\">Une classe d'actions sans droit de vote pour payer l'IA</h2>\n<p>Meta a profité de ses résultats du troisième trimestre, publiés mercredi, pour annoncer l'émission d'une nouvelle classe d'actions <strong>dépourvue de droit de vote</strong>. L'objectif affiché : financer ses initiatives dans l'IA. L'opération doit aussi servir d'éventuelles acquisitions et la rémunération des salariés.</p>\n<p>Les titres n'entreront en négociation qu'en <strong>2027</strong>. Le montant n'est pas communiqué dans la dépêche, et le calendrier dit l'essentiel : Meta prépare un financement de long cours, pas un coup ponctuel.</p>\n<p>Le choix de la classe sans droit de vote n'est pas anodin pour un groupe dont le fondateur conserve la main. Lever de l'argent frais sans diluer le contrôle, c'est la mécanique classique des sociétés technologiques américaines, réappliquée à l'ère des centres de calcul.</p>\n<h2 id=\"php2shell-deux-failles-critiques-trouvee\">PHP2Shell : deux failles critiques trouvées par l'IA</h2>\n<p>PHP a corrigé le <strong>21 octobre</strong> deux failles critiques permettant l'exécution de code à distance. Elles sont baptisées <strong>PHP2Shell</strong> et menacent un langage qui fait tourner environ <strong>70 % des sites web</strong>, selon 01net. Elles permettent de prendre le contrôle d'un serveur à distance, et les cyberattaques exploitant ces vulnérabilités ont déjà commencé.</p>\n<p>La particularité tient à la manière dont l'une d'elles a été révélée. Le défaut à l'origine du problème était connu depuis <strong>2024</strong>, mais son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA. 01net précise que les modèles de pointe de <strong>Google et d'OpenAI</strong> ont été mobilisés pour débusquer les deux failles.</p>\n<p>Côté réponse, l'<strong>Anssi</strong> a demandé au ministère de l'Intérieur de couper ses sites exposés, ce que le ministère a fait. L'épisode illustre un déplacement : l'IA ne sert plus seulement à écrire du code, elle sert à en trouver les trous — et la fenêtre entre découverte et exploitation se referme vite.</p>\n<h2 id=\"walmart-met-les-agents-sous-plafond\">Walmart met les agents sous plafond</h2>\n<p>Le <strong>21 octobre 2026</strong>, Walmart a annoncé une série de mesures destinées aux agents d'IA qui achètent sur sa plateforme : des <strong>profils dédiés</strong>, un <strong>plafond de dépenses</strong>, une <strong>passerelle MCP</strong> et des conditions d'utilisation permettant de bloquer les agents non conformes.</p>\n<p>Le distributeur américain fixe donc lui-même les règles du commerce agentique sur son terrain. Plutôt que d'attendre un cadre légal, il pose un périmètre technique et contractuel : qui accède, avec quel budget, via quel protocole, et sous quelles conditions d'exclusion.</p>\n<p>La dépêche souligne un contraste avec <strong>Amazon</strong>, qui a privilégié la voie judiciaire. Deux approches pour un même problème : quand des agents autonomes deviennent des clients, faut-il édicter des règles de plateforme ou passer par les tribunaux ? Le plafond de dépenses, détail prosaïque, est probablement la mesure la plus efficace des quatre.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dossiers, une même séquence : des acteurs qui reprennent la main par le contrat, par le capital ou par le correctif. Meta ajuste une phrase de CGU et lève des titres sans droit de vote, Walmart écrit son règlement d'accès avant que quiconque ne l'y contraigne, PHP patche dans l'urgence deux failles qu'un modèle a mises au jour. Le fil commun n'est pas l'IA qui progresse, c'est l'IA qui oblige à réécrire des textes — conditions d'utilisation, règles de place de marché, avis de sécurité. La gouvernance technique rattrape la promesse produit, généralement avec un train de retard.</p>",
+ "pivot": "b6245c3993b86140",
+ "tags": [
+  "meta",
+  "sécurité",
+  "agents",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/commerce-agentique-walmart-impose-ses-regles-aux-agents-dia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
+  }
+ ],
+ "date": "2026-10-22T21:12:52+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1530,
+  "sortie": 2310
+ }
+}

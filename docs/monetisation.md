@@ -1,5 +1,25 @@
 # Journal des actions de monétisation
 
+## 22 octobre 2026 — revue indépendante et correction de la remise privée
+
+**Action unique, rang 1 :** faire relire la restitution par un second agent IA, puis corriger les défauts confirmés dans un **addendum et un vérificateur complémentaire**, sans réécrire l'archive du 21. Ce n'est ni une validation humaine, ni une nouvelle collecte d'audit, ni un nouveau conditionnement du même lot.
+
+### Résultat et vérification parent
+
+- **Deux défauts confirmés :** le README embarqué cite encore les noms de la première construction (sans `-final`) ; le vérificateur ne rapproche pas la source robots imbriquée de la capture correspondante. Les valeurs actuellement livrées concordent : aucune falsification ou source erronée présente n'est alléguée.
+- **Correction effectuée en privé :** erratum avec les noms exacts archive/reçu ; programme `verifier_remise_v2.py`, conservé hors de l'inventaire fermé du dossier historique. Neuf mutations de copies NON client reproduisent l'absence de contrôle (URL, empreinte et date pour trois pages), puis sont refusées après correction. Re-sceller une fixture teste la cohérence du producteur, pas une attaque contre un reçu inchangé.
+- **Neuf contrats réussis :** huit régressions de remise et un nouveau test contenant les neuf mutations. Vrai CLI sur extraction neuve : code 0 ; copie corrompue refusée avec code 1. Sandbox macOS : réseau et lecture des anciens workspaces refusés, canaris exécutés. Aucun analyseur HTML/MCP ni ancien banc de 87 tests revendiqué comme rejoué aujourd'hui.
+- **Treize membres du ZIP comparés aux sources**, empreinte finale inchangée (`0e7a8b34c0b60b8d983cfb9ea9c399c97ad142aea6ef52f784c5f5daa652e625`) ; **53 fichiers historiques identiques avant/après**. Aucun sceau modifié, reçu recalculé ou ZIP produit.
+- Le point de provenance commerciale laissé **à valider** par le relecteur a été rapproché des traces existantes : `preflight-final.json` et deux couples corps/en-têtes du 21 à **11:40:41 UTC**, statuts et empreintes vérifiés. L'addendum donne les références précises ; ces preuves extérieures ne deviennent pas des membres du ZIP ni des captures techniques du 22.
+
+Dossier privé : **`crabe-chantiers/monetisation/2026-10-22-controle-remise/`**, `ERRATUM.md`, avis du second agent, diff, programme, tests, échecs initiaux et recette réelle. La revue HTML synthétique du matin (dont le patch RCDATA) est distincte : lue, pas réexécutée ni intégrée dans cette action. Réemploi du vérificateur interne ; provenance GitHub du moteur historique `AKzar1el/mcp-web-validator` relue (MIT, dernier push 14/10), aucune installation ou dépendance nouvelle.
+
+### Verrous et suite
+
+Préflight distinct **22/10 à 13:51 UTC**, curl HTTPS strict : `/b2b/` **200**, `/mentions-legales/` **404**. Identité/vendeur/TVA, mentions/conditions, données/droits, capacité et modalités/canal de reversement restent à valider. Aucun email, DM, formulaire, compte, prix nouveau, facture, paiement ou nouvelle promotion Bluesky (créneau hebdomadaire consommé le 20). Aucun résultat commercial attribué.
+
+**Suite technique :** adopter dans une nouvelle version le patch RCDATA privé déjà préparé, avec sa recette, sans modifier les preuves antérieures ; ne pas refaire cette revue ou ce conditionnement. **Priorité humaine :** vendeur et TVA, puis tous les autres prérequis avant prospection. Seuls les trois documents de suivi changent dans le dépôt public ; aucun moteur/site/donnée/preuve historique/workflow/cron modifié par cette mission.
+
 ## 21 octobre 2026 — une remise portable, vérifiée hors de l’atelier
 
 **Action unique, rang 1 :** transformer le nouveau lot autorisé du matin en un **dossier privé de remise** : synthèse lisible et recommandations proportionnées, diagnostic intégral, six corps de capture, inventaire fermé et vérificateur autonome. Aucun nouveau moteur, crawl, PDF ou offre commerciale. Archive et reçu restent hors dépôt public.

@@ -69,5 +69,26 @@ ni copie de code tiers.
 
 ## Publication
 
-Recette locale terminée ; publication cloud et lecture HTTPS à confirmer dans
-la mise à jour de cette section. Aucun gain de trafic revendiqué.
+**En production, vérifiée le 22/10 à 14:35:53 UTC.** Code `fe1e1ba8f1e8e552cf877dc75ad286b0867938f3` ; run [39790842112](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/39790842112).
+
+- Étapes contrats, pipeline et sauvegarde : toutes `completed/success`.
+  Déploiement journalisé à **14:27:14 UTC : 1 623 fichiers envoyés**, six
+  nouvelles brèves et un article rédigés par le pipeline normal.
+- Sauvegarde cloud `c814fb6`, fusion `116892ad7ba36aace7940fd23b496fb242280af7`
+  relue ; les deux variantes de la brève restent présentes, code distant exact.
+- Huit réponses HTTPS 200 conservées. **Trois HTML identiques octet pour octet**
+  au rendu du commit sauvegardé : brève litigieuse, Actus et catalogue conservé.
+  **RSS général et News sitemap identiques** au rendu à horloge de build commune.
+- Sitemap : **1 575 URL uniques**, toutes les **1 191 URL de brèves** attendues,
+  issues de 1 192 enregistrements conservés. Brève litigieuse présente une fois,
+  rédaction de 10:21:40 UTC conservée ; aucune variante renommée ou supprimée.
+- `version.txt` identique aux deux bornes du contrôle : build **13:56:12 UTC**.
+  IndexNow 200 dans le journal : acceptation, pas preuve d'indexation.
+- À ce relevé, l'API GitHub affiche encore le statut global `in_progress`, malgré
+  toutes les étapes terminées ; logs globaux indisponibles. **Ne pas qualifier
+  le workflow entier de réussi** sur ces seules étapes. Production et sauvegarde
+  sont vérifiées séparément ; aucune relance aveugle.
+
+Pièces : `evidence/production-20261022T143546Z/result.json` et corps bruts dans le
+chantier privé. Le bénéfice attendu est la reprise de la fraîcheur éditoriale,
+pas une hausse de trafic démontrée. Aucun autre chantier intégré par cette mission.

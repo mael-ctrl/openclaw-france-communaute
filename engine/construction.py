@@ -717,10 +717,50 @@ def llms_txt():
 
 # ---------------------------------------------------------------- assemblage
 
+def breves_pour_publication(breves):
+    """Une rédaction par chemin, sans réécrire les variantes conservées en JSON.
+
+    Même slug, ID complet et source exacte : la date de rédaction consciente
+    du fuseau départage les versions. Ce n'est pas une date de publication.
+    Toute identité ou chronologie ambiguë reste une erreur bloquante.
+    """
+    groupes = {}
+    for position, breve in enumerate(breves):
+        couvertures.valider(breve, "breves")
+        groupes.setdefault(breve["slug"], []).append((position, breve))
+    retenues = []
+    for slug, versions in groupes.items():
+        premiere = versions[0][1]
+        if len(versions) == 1:
+            retenues.append(versions[0])
+            continue
+        erreur = f"Page éditoriale dupliquée : ('breves', '{slug}') — versions ambiguës"
+        if any(not b.get(cle) or b.get(cle) != premiere.get(cle)
+               for _, b in versions for cle in ("id", "source", "lien_source")):
+            raise ValueError(erreur)
+        if all(b == premiere for _, b in versions):
+            retenues.append(versions[0])
+            continue
+        par_date = {}
+        for position, breve in versions:
+            try:
+                date = datetime.fromisoformat(breve["date_redac"])
+            except (KeyError, TypeError, ValueError) as exc:
+                raise ValueError(erreur) from exc
+            if date.tzinfo is None or (date in par_date and par_date[date][1] != breve):
+                raise ValueError(erreur)
+            par_date.setdefault(date, (position, breve))
+        retenues.append(par_date[max(par_date)])
+    return [b for _, b in sorted(retenues, key=lambda paire: paire[0])]
+
+
 def construire():
     couvertures.verifier_chemin(config.DOSSIER_SORTIE)
     config.DOSSIER_SORTIE.mkdir(parents=True, exist_ok=True)
-    breves = _lire_json(config.FICHIER_BREVES, [])
+    sources_breves = _lire_json(config.FICHIER_BREVES, [])
+    breves = breves_pour_publication(sources_breves)
+    if len(breves) != len(sources_breves):
+        print(f"   🗂️  {len(sources_breves) - len(breves)} variante(s) de brève conservée(s) dans les données ; une rédaction par URL.")
     stats = _lire_json(config.FICHIER_STATS, {})
     entrees_journal = journal.lire_journal(dernieres=400)
     articles = []

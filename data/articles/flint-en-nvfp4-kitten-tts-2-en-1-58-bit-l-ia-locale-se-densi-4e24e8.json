@@ -1,0 +1,41 @@
+{
+ "slug": "flint-en-nvfp4-kitten-tts-2-en-1-58-bit-l-ia-locale-se-densi-4e24e8",
+ "titre": "Flint en NVFP4, Kitten-TTS 2 en 1,58 bit : l'IA locale se densifie",
+ "chapo": "Un modèle de code quantifié en NVFP4 sur RTX PRO 6000 dépasse ses scores annoncés, quand un modèle vocal ternaire tourne en temps réel sur un simple CPU. En parallèle, deux failles critiques dans PHP ont été débusquées par des modèles de pointe, et Pékin encadre désormais l'export de 23 technologies d'IA.",
+ "html": "<h2 id=\"flint-en-nvfp4-des-scores-de-code-au-des\">Flint en NVFP4 : des scores de code au-dessus des attentes</h2>\n<p>Sur r/LocalLLaMA, un utilisateur fait tourner <strong>Flint</strong> en NVFP4 dans <strong>vLLM</strong> sur une <strong>RTX PRO 6000</strong>. Sur un échantillon de benchmarks, il mesure <strong>82,2 sur LiveCodeBench v6</strong> et <strong>80 sur SWE-bench Verified</strong>, soit des résultats au-dessus des scores annoncés pour le modèle.</p>\n<p>Côté débit, la configuration tient <strong>110 à 180 tok/s en flux unique</strong>, avec des pics proches de <strong>2 500 tok/s à 64 requêtes</strong>. De quoi rendre l'inférence locale crédible sur des charges concurrentes, pas seulement sur une démo à une seule conversation.</p>\n<p>Le retour d'expérience n'est pas net : l'utilisateur signale un souci de <strong>chat_template.yml</strong> et publie un correctif. Le genre de détail qui rappelle que faire tourner un modèle en local reste un travail d'ingénierie, pas un simple téléchargement de poids.</p>\n<h2 id=\"kitten-tts-2-la-voix-en-1-58-bit-sans-gp\">Kitten-TTS 2 : la voix en 1,58 bit, sans GPU</h2>\n<p>KittenML publie le code et les poids de <strong>Kitten-TTS 2</strong>, présenté comme le premier modèle de synthèse vocale en <strong>1,58 bit</strong>. Ses poids ternaires (<strong>-1, 0, +1</strong>) et ses <strong>1,7 milliard de paramètres</strong> lui permettent de générer de la voix en temps réel sur un simple <strong>CPU</strong>, sans GPU.</p>\n<p>Le modèle gère le <strong>clonage de voix zero-shot</strong>, <strong>plusieurs langues</strong> et un <strong>contrôle de l'expressivité</strong>. L'ensemble est <strong>open-source</strong>, code et poids compris.</p>\n<p>La quantification extrême n'est plus réservée aux grands modèles de texte : elle descend maintenant sur la parole, avec l'argument du temps réel sur du matériel banal. Un axe qui intéresse autant les projets embarqués que ceux qui refusent de payer une carte graphique.</p>\n<h2 id=\"securite-l-ia-trouve-les-failles-l-ia-ai\">Sécurité : l'IA trouve les failles, l'IA aide à les fermer</h2>\n<p>Deux failles critiques, baptisées <strong>PHP2Shell</strong>, menacent <strong>PHP</strong>, le langage qui fait tourner environ <strong>70 % des sites web</strong>. Elles permettent de prendre le contrôle d'un serveur à distance, et les cyberattaques qui les exploitent ont <strong>déjà commencé</strong>. Particularité : elles ont été débusquées par l'intelligence artificielle, via les <strong>modèles de pointe de Google et d'OpenAI</strong>.</p>\n<p>En face, la défense s'outille aussi. <strong>Cloudflare</strong> utilise <strong>Daybreak</strong>, d'OpenAI, pour investiguer les vulnérabilités et proposer des correctifs, ensuite soumis à relecture. Ses développeurs passent également par <strong>Codex</strong> pour construire plus vite et améliorer la qualité du code.</p>\n<p>Le cas d'usage relie directement la découverte d'une faille à sa correction, du côté défense. La même famille d'outils sert donc à ouvrir et à fermer des portes — ce qui rend la relecture humaine d'autant plus centrale dans la chaîne.</p>\n<h2 id=\"pekin-encadre-l-export-de-23-technologie\">Pékin encadre l'export de 23 technologies d'IA</h2>\n<p>Depuis le <strong>16 octobre 2026</strong>, Pékin impose une <strong>déclaration préalable</strong> pour exporter <strong>40 technologies</strong>, dont <strong>23 en IA</strong>, en consultation jusqu'au <strong>15 novembre</strong>. Le ministère du Commerce précise deux exceptions de taille.</p>\n<p>L'<strong>appel d'un modèle par API</strong> et les <strong>technologies publiées en open source</strong> restent <strong>hors champ</strong>. En revanche, le <strong>déploiement localisé hors de Chine</strong> d'un modèle restreint entrera dans le champ une fois le catalogue en vigueur.</p>\n<p>La ligne de partage est donc nette : l'accès à distance à un modèle n'est pas visé, mais l'installation sur des serveurs étrangers le sera. Pour les équipes qui déploient des modèles chinois en local, le calendrier compte autant que le contenu du catalogue.</p>\n<h2>Et maintenant ?</h2>\n<p>Les trois mouvements de cette semaine vont dans le même sens : les modèles se compressent et s'installent sur du matériel modeste, tandis que la sécurité et l'export deviennent des terrains d'affrontement explicites. Le retour d'expérience sur Flint comme les failles PHP2Shell rappellent que la valeur se joue moins sur l'annonce d'un score que sur la configuration, la relecture et le correctif. Reste à voir si les exceptions open source et API du côté de Pékin tiendront à l'usage.</p>",
+ "pivot": "4e24e80ed3d384a1",
+ "tags": [
+  "open-source",
+  "sécurité",
+  "matériel",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc6j8t/ran_flint_on_rtx_pro_6000_at_nvfp4_in_vllm/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  },
+  {
+   "nom": "OpenAI",
+   "url": "https://openai.com/index/cloudflare-cyber"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/"
+  }
+ ],
+ "date": "2026-10-22T05:56:01+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1596,
+  "sortie": 1834
+ }
+}

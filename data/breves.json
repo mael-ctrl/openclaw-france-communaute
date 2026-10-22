@@ -1,5 +1,47 @@
 [
  {
+  "id": "21636b7fc65f9361",
+  "slug": "que-faire-avec-une-petite-carte-graphique-de-6-a-12-go-de-vram-21636b",
+  "titre": "Que faire avec une petite carte graphique de 6 à 12 Go de VRAM ?",
+  "resume": "Sur r/LocalLLaMA, un internaute demande ce qu'on peut réellement faire avec des GPU de 6, 8 ou 12 Go de VRAM. Il note que les discussions sur les LLM tournent surtout autour du code, trop lourd pour ces cartes. Il cherche des modèles capables d'organiser des fichiers, de classer, d'analyser images et textes ou de faire du TTS, et se demande si ces tâches exigent aussi du tool calling et de l'agentique.",
+  "tags": [
+   "matériel",
+   "agents",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xca46l/what_can_you_do_with_smaller_gpus/",
+  "date_source": "2026-10-22T05:33:26+00:00",
+  "date_redac": "2026-10-22T05:55:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 723,
+   "sortie": 689
+  }
+ },
+ {
+  "id": "d1f441ec1d42a12d",
+  "slug": "huawei-atlas-un-panorama-comparatif-des-cartes-d-acceleration-ia-d1f441",
+  "titre": "Huawei Atlas : un panorama comparatif des cartes d'accélération IA",
+  "resume": "Un utilisateur de r/LocalLLaMA, qui fait tourner trois cartes Atlas 300I Duo, dit avoir obtenu auprès d'un partenaire Huawei certifié Silver des informations sur la gamme Atlas, dont la série 950. Les données sur la carte 150 n'existaient qu'en chinois : il les a traduites pour son comparatif. Il indique aussi appliquer de nouvelles optimisations à QFN dans son fork de vLLM et tester GLM5.3-flash et des modèles DeepSeek.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc9oje/huawei_atlas_ai_accelerator_latest_comparison/",
+  "date_source": "2026-10-22T05:08:49+00:00",
+  "date_redac": "2026-10-22T05:55:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 837,
+   "sortie": 924
+  }
+ },
+ {
   "id": "4e7ae91a02f643ac",
   "slug": "deux-failles-critiques-dans-php-debusquees-par-l-ia-attaques-en-cours-4e7ae9",
   "titre": "Deux failles critiques dans PHP débusquées par l'IA, attaques en cours",

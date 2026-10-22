@@ -1,5 +1,68 @@
 [
  {
+  "id": "a2c59c18699bb145",
+  "slug": "meta-reactive-le-partage-de-muse-malgre-des-liens-publics-trop-faciles-a2c59c",
+  "titre": "Meta réactive le partage de Muse, malgré des liens publics trop faciles à trouver",
+  "resume": "Meta a réactivé le partage de conversations de Muse, après que des chercheurs ont signalé que les liens publics étaient faciles à trouver. Ceux de Claroc, qui avaient alerté plus tôt dans la semaine, ont pu retrouver la revue de revenus internes d'une entreprise de marketing et la demande de prêt d'un petit entrepreneur. L'épisode relance la question du caractère privé des liens de partage.",
+  "tags": [
+   "meta",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+  "date_source": "2026-10-22T20:24:04+00:00",
+  "date_redac": "2026-10-22T20:30:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 645,
+   "sortie": 933
+  }
+ },
+ {
+  "id": "32d56dce0a7fe8a8",
+  "slug": "muse-spark-open-816b-plafonne-a-39-quand-qwen3-8-flash-next-180b-attei-32d56d",
+  "titre": "Muse Spark Open (816B) plafonne à 39 quand Qwen3.8-Flash-Next (180B) atteint 40",
+  "resume": "Sur l'index agrégé d'Artificial Analysis, Muse Spark Open (Meta, 816B dont 42B actifs) obtient 39, un point sous Qwen3.8-Flash-Next (180B, 6B actifs) et ses 40. Un écart qui illustre le rapport taille/score : le Qwen3.8 27B (34) dépasse Beam (501B, 30) et Nemotron 3.5 Bolt (74B, 21). Côté local, Meta recommande deux Mac Studio M5 Ultra de 512 Go, là où les GGUF Unsloth pèsent 506 Go contre 111 Go.",
+  "tags": [
+   "meta",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcthj8/metas_816b_muse_spark_open_scores_39_on/",
+  "date_source": "2026-10-22T20:14:06+00:00",
+  "date_redac": "2026-10-22T20:30:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 917,
+   "sortie": 1203
+  }
+ },
+ {
+  "id": "e1ec1c4494e5179a",
+  "slug": "auroratts-100k-de-la-synthese-vocale-anglaise-sous-les-100k-parametres-e1ec1c",
+  "titre": "AuroraTTS-100K : de la synthèse vocale anglaise sous les 100K paramètres",
+  "resume": "AuroraTTS-100K est un modèle de synthèse vocale en anglais qui produit une parole globalement compréhensible avec moins de 100 000 paramètres. Il bute toutefois sur les mots difficiles et les longs nombres, qu'il peut mal articuler. Quantifié en INT8, le modèle ne pèse que 127 Ko et tourne 72 fois plus vite que le temps réel sur CPU, 1120 fois sur GPU.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xctcoe/auroratts100k_releases/",
+  "date_source": "2026-10-22T20:08:54+00:00",
+  "date_redac": "2026-10-22T20:30:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 703,
+   "sortie": 734
+  }
+ },
+ {
   "id": "1d422f0ef052b34d",
   "slug": "1password-laisse-les-agents-ia-se-connecter-a-votre-place-sans-voir-le-1d422f",
   "titre": "1Password laisse les agents IA se connecter à votre place, sans voir le mot de passe",
@@ -21,6 +84,27 @@
   }
  },
  {
+  "id": "04b94ac9182382b9",
+  "slug": "spacex-et-tesla-forment-des-comites-pour-discuter-d-une-fusion-04b94a",
+  "titre": "SpaceX et Tesla forment des comités pour discuter d'une fusion",
+  "resume": "Selon The Verge, SpaceX et Tesla ont créé des comités spéciaux chargés d'examiner une fusion entre les deux entreprises. Le contexte est tendu : SpaceX s'apprête à emprunter 40 milliards de dollars supplémentaires pour acheter des puces Nvidia, ce qui pousse son risque de crédit à un niveau élevé.",
+  "tags": [
+   "business",
+   "matériel",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+  "date_source": "2026-10-22T19:45:00+00:00",
+  "date_redac": "2026-10-22T20:30:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 661,
+   "sortie": 498
+  }
+ },
+ {
   "id": "707c650794089c59",
   "slug": "openai-devoile-la-decisions-api-pour-des-applications-plus-reactives-707c65",
   "titre": "OpenAI dévoile la Decisions API pour des applications plus réactives",
@@ -38,6 +122,47 @@
    "modele": "deepseek-flash",
    "entree": 568,
    "sortie": 991
+  }
+ },
+ {
+  "id": "64d0581424054409",
+  "slug": "de-staat-le-clip-freedom-et-ses-effets-visuels-signes-matties-grooten-64d058",
+  "titre": "De Staat : le clip Freedom et ses effets visuels signés Matties Grooten",
+  "resume": "Simon Willison relaie le nouveau clip du groupe de rock alternatif néerlandais De Staat, Freedom. Les effets visuels sont crédités à Matties Grooten, du studio Fake it or Leave it. À 00:44, un passage du clip constitue une première pour le blogueur, qui classe son billet sous les étiquettes musique et IA générative. La vidéo a été repérée via flir sur Hacker News.",
+  "tags": [
+   "société",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+  "date_source": "2026-10-22T19:42:26+00:00",
+  "date_redac": "2026-10-22T20:30:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 663,
+   "sortie": 1305
+  }
+ },
+ {
+  "id": "dd08c47acece682e",
+  "slug": "nvidia-openshell-un-runtime-sur-et-prive-pour-les-agents-ia-autonomes-dd08c4",
+  "titre": "NVIDIA/OpenShell, un runtime sûr et privé pour les agents IA autonomes",
+  "resume": "Un post de r/LocalLLaMA met en avant NVIDIA/OpenShell, présenté comme un runtime sûr et privé pour les agents IA autonomes. L'extrait transmis ne contient que ce titre : ni architecture, ni mode de déploiement, ni documentation ne sont précisés. L'annonce porte sur l'exécution d'agents capables d'agir seuls, un point qui engage directement la sécurité et la confidentialité des machines qui les hébergent.",
+  "tags": [
+   "agents",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcs9e2/nvidiaopenshell_safe_private_runtime_for/",
+  "date_source": "2026-10-22T19:29:01+00:00",
+  "date_redac": "2026-10-22T20:30:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 615,
+   "sortie": 1199
   }
  },
  {

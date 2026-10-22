@@ -1,0 +1,41 @@
+{
+ "slug": "de-php2shell-a-echotribble-l-ia-sort-du-bac-a-sable-4e7ae9",
+ "titre": "De PHP2Shell à ECHOTRIBBLE : l'IA sort du bac à sable",
+ "chapo": "Deux failles critiques dans PHP, débusquées par les modèles de pointe de Google et d'OpenAI, sont déjà exploitées. Le même mois, l'armée américaine veut des agents IA offensifs, Bruxelles fait des agents des produits à responsabilité et Pékin encadre l'export de ses technologies.",
+ "html": "<h2 id=\"php2shell-la-faille-trouveuse-c-est-l-ia\">PHP2Shell : la faille trouveuse, c'est l'IA</h2>\n<p>PHP fait tourner environ <strong>70 % des sites web</strong>. Deux failles critiques, baptisées <strong>PHP2Shell</strong>, permettent de prendre le contrôle d'un serveur à distance, et les cyberattaques qui les exploitent ont déjà commencé. Sur une base installée de cette taille, l'exposition est mécanique.</p>\n<p>La particularité de l'affaire tient à qui les a débusquées : c'est l'IA, via les modèles de pointe de <strong>Google</strong> et d'<strong>OpenAI</strong>. L'outillage qui sert à auditer du code est aussi celui qui rend les vulnérabilités visibles plus vite, sur des dépendances que personne n'a le temps de relire à la main.</p>\n<p>Rien dans les éléments disponibles n'indique que les attaquants se servent eux-mêmes de l'IA. Mais la séquence est serrée : découverte, publication, exploitation.</p>\n<h2 id=\"echotribble-ou-l-agent-qui-se-deplace-se\">ECHOTRIBBLE, ou l'agent qui se déplace seul</h2>\n<p>Selon une enquête de <strong>The Intercept</strong> publiée le <strong>19 octobre 2026</strong>, l'armée américaine veut confier à des agents IA des missions offensives : explorer des réseaux, se propager d'un appareil à l'autre, neutraliser des cibles. Le projet, baptisé <strong>ECHOTRIBBLE</strong>, est encore en développement.</p>\n<p>Il s'appuie sur une « <strong>supervision humaine minimale</strong> », formule qui résume l'essentiel du débat. Un agent qui choisit ses cibles et se déplace de machine en machine reste-t-il sous contrôle à partir du moment où plus personne ne valide chaque étape ? C'est précisément là que se logent les inquiétudes soulevées par l'enquête.</p>\n<p>Dans les deux cas — PHP2Shell comme ECHOTRIBBLE — une machine explore un système informatique à grande vitesse. La différence tient au mandat : trouver une faille, ou l'exploiter.</p>\n<h2 id=\"bruxelles-l-agent-devient-un-produit-don\">Bruxelles : l'agent devient un produit, donc un risque juridique</h2>\n<p>La directive <strong>(UE) 2024/2853</strong>, à transposer au plus tard le <strong>9 décembre 2026</strong>, fait du logiciel un produit — <strong>SaaS compris</strong>. Qui développe ou vend sous sa marque un agent IA devient <strong>fabricant</strong>, et donc responsable <strong>sans faute</strong> des lésions, des atteintes psychologiques médicalement reconnues et des destructions de données non professionnelles causées par un défaut.</p>\n<p>Le texte ne regarde pas l'usage, mais le produit mis sur le marché. Une mise à jour substantielle après cette date fait entrer un agent existant dans le régime : livrer une nouvelle version, c'est replacer l'ouvrage sur l'établi juridique.</p>\n<p>Pour les éditeurs d'agents, la question n'est plus seulement ce que le modèle sait faire, mais ce qu'on peut démontrer de son comportement.</p>\n<h2 id=\"pekin-filtre-les-sorties-washington-filt\">Pékin filtre les sorties, Washington filtre les entrées</h2>\n<p><strong>Pékin</strong> serre la vis de son côté. Depuis le <strong>16 octobre 2026</strong>, une déclaration préalable est exigée pour exporter <strong>40 technologies</strong>, dont <strong>23</strong> en IA ; la consultation court jusqu'au <strong>15 novembre</strong>. Le ministère du Commerce précise deux exceptions : l'appel d'un modèle par <strong>API</strong> et les technologies publiées en open source restent hors champ. Le déploiement localisé hors de Chine d'un modèle restreint, lui, entrera dans le champ une fois le catalogue en vigueur.</p>\n<p><strong>Washington</strong> a choisi une voie plus directe : les agences civiles américaines doivent cesser d'utiliser <strong>DeepSeek</strong>, le chatbot chinois. La décision vise la Chine, accusée de surveiller les Américains, et les autorités évoquent aussi la présence possible de « malwares » cachés dans l'outil.</p>\n<p>Deux façons d'encadrer la circulation des modèles : filtrer les technologies qui sortent, ou bannir celles qui entrent.</p>\n<h2>Et maintenant ?</h2>\n<p>Ces dépêches dessinent un même déplacement : l'IA n'est plus seulement un objet qu'on évalue, elle devient un acteur qu'on déploie, qu'on exporte, qu'on interdit et qu'on rend juridiquement responsable. Les modèles de pointe trouvent des failles dans PHP, l'armée américaine veut en envoyer sur des réseaux adverses, Bruxelles en fait des produits, Pékin en contrôle la sortie. Le calendrier, lui, est déjà posé : 15 novembre pour la consultation chinoise, 9 décembre 2026 pour la transposition européenne.</p>",
+ "pivot": "4e7ae91a02f643ac",
+ "tags": [
+  "sécurité",
+  "agents",
+  "openai",
+  "gemini"
+ ],
+ "sources": [
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/le-gouvernement-americain-banni-deepseek-lia-chinoise-est-accusee-de-surveillance-de-masse.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2356515-supervision-humaine-minimale-larmee-americaine-veut-envoyer-des-agents-ia-pirater-ses-ennemis.html"
+  }
+ ],
+ "date": "2026-10-22T04:56:16+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1590,
+  "sortie": 3820
+ }
+}

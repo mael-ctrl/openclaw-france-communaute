@@ -1,5 +1,89 @@
 [
  {
+  "id": "4e7ae91a02f643ac",
+  "slug": "deux-failles-critiques-dans-php-debusquees-par-l-ia-attaques-en-cours-4e7ae9",
+  "titre": "Deux failles critiques dans PHP débusquées par l'IA, attaques en cours",
+  "resume": "Deux failles critiques, baptisées PHP2Shell, menacent PHP, le langage qui fait tourner environ 70 % des sites web. Elles permettent de prendre le contrôle d'un serveur à distance, et les cyberattaques exploitant ces vulnérabilités ont déjà commencé. Particularité : elles ont été débusquées par l'intelligence artificielle, via les modèles de pointe de Google et d'OpenAI.",
+  "tags": [
+   "sécurité",
+   "dev",
+   "openai",
+   "gemini"
+  ],
+  "importance": 4,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html",
+  "date_source": null,
+  "date_redac": "2026-10-22T04:55:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 704,
+   "sortie": 410
+  }
+ },
+ {
+  "id": "b8ea258fd3f34bb0",
+  "slug": "claude-code-v2-1-308-corrections-de-bugs-et-fiabilite-b8ea25",
+  "titre": "Claude Code v2.1.308 : corrections de bugs et fiabilité",
+  "resume": "Anthropic a publié la version 2.1.308 de Claude Code le 22 octobre 2026. Le journal des modifications ne mentionne que des corrections de bugs et des améliorations de fiabilité, sans nouvelle fonctionnalité annoncée. Il s'agit donc d'une mise à jour de maintenance pour les utilisateurs de l'outil.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+  "date_source": "2026-10-22T04:34:55+00:00",
+  "date_redac": "2026-10-22T04:55:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 588,
+   "sortie": 519
+  }
+ },
+ {
+  "id": "17a3d3ba72f42379",
+  "slug": "quels-moe-de-50-a-150-milliards-de-parametres-essayer-hors-qwen-flash--17a3d3",
+  "titre": "Quels MoE de 50 à 150 milliards de paramètres essayer, hors Qwen flash next ?",
+  "resume": "Un membre de r/LocalLLaMA a ajouté de la RAM à son poste de travail, ce qui lui permet de faire tourner des modèles MoE plus gros en répartissant la charge entre RAM et VRAM. Il demande quels MoE de 50 à 150 milliards de paramètres valent le détour en dehors de Qwen flash next, et cite sur sa liste GPT OSS 120b, Mistral 4 small 119b, Qwen 3.5 122b A10b et Ling 3.0 flash. Le codage agentique n'étant pas sa priorité, il s'intéresse aussi aux modèles qui excellent ailleurs, y compris des versions abliterated ou des variantes custom.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "mistral",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc84ht/whats_your_favorite_medium_to_large_50150b_params/",
+  "date_source": "2026-10-22T03:44:31+00:00",
+  "date_redac": "2026-10-22T04:55:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 812,
+   "sortie": 636
+  }
+ },
+ {
+  "id": "24735676f701639a",
+  "slug": "en-iq2-qwen-flash-next-surpasserait-un-27b-en-q8-sur-le-code-247356",
+  "titre": "En IQ2, Qwen Flash Next surpasserait un 27B en Q8 sur le code",
+  "resume": "Un utilisateur de r/LocalLLaMA rapporte qu'en quantisation IQ2, Qwen Flash Next donne de meilleurs résultats qu'un modèle 27B en Q8 sur des bugs de code complexes et subtils. La communauté lui avait pourtant prédit un match nul, voire une nette domination du Q8. L'auteur décrit un modèle qui lance des tests et raisonne sur les problèmes là où le 27B ne le fait pas. Un ressenti assumé comme subjectif, sans mesure chiffrée.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc7n0n/i_have_an_answer_qwen_flash_next_iq2_is_better/",
+  "date_source": "2026-10-22T03:18:34+00:00",
+  "date_redac": "2026-10-22T04:55:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 843,
+   "sortie": 650
+  }
+ },
+ {
   "id": "4bc569788f90a502",
   "slug": "cloudflare-s-appuie-sur-daybreak-d-openai-pour-traquer-les-vulnerabili-4bc569",
   "titre": "Cloudflare s'appuie sur Daybreak d'OpenAI pour traquer les vulnérabilités",
@@ -18,6 +102,27 @@
    "modele": "deepseek-flash",
    "entree": 588,
    "sortie": 484
+  }
+ },
+ {
+  "id": "4e24e80ed3d384a1",
+  "slug": "flint-en-nvfp4-sur-rtx-pro-6000-de-bons-scores-de-code-sous-vllm-4e24e8",
+  "titre": "Flint en NVFP4 sur RTX PRO 6000 : de bons scores de code sous vLLM",
+  "resume": "Un utilisateur de r/LocalLLaMA fait tourner Flint en NVFP4 dans vLLM sur une RTX PRO 6000. Sur un échantillon de benchmarks, il mesure 82,2 sur LiveCodeBench v6 et 80 sur SWE-bench Verified, au-dessus des scores annoncés. Débit de 110 à 180 tok/s en flux unique, avec des pics proches de 2 500 tok/s à 64 requêtes. Il signale un souci de chat_template.yml et publie un correctif.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc6j8t/ran_flint_on_rtx_pro_6000_at_nvfp4_in_vllm/",
+  "date_source": "2026-10-22T02:24:05+00:00",
+  "date_redac": "2026-10-22T04:55:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 879,
+   "sortie": 1151
   }
  },
  {

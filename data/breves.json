@@ -1,5 +1,108 @@
 [
  {
+  "id": "26a49ac841682af0",
+  "slug": "uber-deploie-chatgpt-work-aupres-de-plus-de-30-000-employes-26a49a",
+  "titre": "Uber déploie ChatGPT Work auprès de plus de 30 000 employés",
+  "resume": "Uber généralise ChatGPT Work à l'ensemble de ses effectifs : plus de 30 000 employés y ont désormais accès. L'outil doit leur servir à faire de la recherche, analyser des données, créer des présentations et mener à bien des flux de travail complexes. Un déploiement à grande échelle qui illustre l'adoption de l'IA générative dans les grandes organisations.",
+  "tags": [
+   "chatgpt",
+   "openai",
+   "business"
+  ],
+  "importance": 3,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/uber-chatgpt-work-rollout",
+  "date_source": null,
+  "date_redac": "2026-10-22T16:59:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 594,
+   "sortie": 133
+  }
+ },
+ {
+  "id": "fa106eeb81ac560b",
+  "slug": "un-draft-dflash-pour-ling-3-0-tiny-sur-llama-cpp-mainline-61-en-code-fa106e",
+  "titre": "Un draft DFlash pour Ling-3.0-tiny sur llama.cpp mainline, +61 % en code",
+  "resume": "Un utilisateur de r/LocalLLaMA convertit ses PDF en markdown avec Ling-3.0-tiny, qu'il trouve lent. Le draft UBTree DFlash paru pour ce modèle n'était supporté par aucun moteur d'inférence : il en a extrait la partie DFlash seule, en écartant 7 tenseurs ubtree_selector.*. Ce draft tourne sur llama.cpp mainline via --spec-type draft-dflash, pour un gain annoncé de 8 % en prose et 61 % en code.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcnsrj/ling30tinyubtree_dflash_draft_for_stock_mainline/",
+  "date_source": "2026-10-22T16:45:30+00:00",
+  "date_redac": "2026-10-22T16:58:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 866,
+   "sortie": 1320
+  }
+ },
+ {
+  "id": "b9af88ebc595d1b5",
+  "slug": "le-realisateur-de-wildwood-juge-l-ia-antithetique-a-l-esprit-du-studio-b9af88",
+  "titre": "Le réalisateur de Wildwood juge l'IA « antithétique » à l'esprit du studio Laika",
+  "resume": "Wildwood est le film le plus ambitieux de Laika, le studio de stop-motion derrière Coraline et ParaNorman : une aventure fantastique qui a demandé cinq ans de travail et plus de 230 marionnettes, dont 36 pour le seul personnage de Prue. Son réalisateur, Travis Knight, y voit un artisanat irreductible au génératif : il affirme que l'IA est « antithétique à tout ce que nous sommes dans ce studio ».",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+  "date_source": "2026-10-22T16:16:15+00:00",
+  "date_redac": "2026-10-22T16:58:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 675,
+   "sortie": 782
+  }
+ },
+ {
+  "id": "e5a870066808bcbe",
+  "slug": "faut-il-passer-a-128-go-de-ram-pour-faire-tourner-deepseek-v4-1-en-loc-e5a870",
+  "titre": "Faut-il passer à 128 Go de RAM pour faire tourner DeepSeek V4.1 en local ?",
+  "resume": "Sur r/LocalLLaMA, un utilisateur équipé de 48 Go de VRAM (deux RTX 3090 de 24 Go) et de 48 Go de DDR4 se demande si passer à 128 Go de RAM lui permettrait de faire tourner DeepSeek V4.1 1017 et GLM 5.3 Flash en quants bas, à au moins 20 T/s. Il veut aussi savoir si le résultat serait meilleur qu'avec Qwen 3.8 Flash Next. À défaut, il envisage de basculer tout son système en DDR5.",
+  "tags": [
+   "matériel",
+   "deepseek",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcmkyh/is_128gb_ram_worth_it/",
+  "date_source": "2026-10-22T16:00:55+00:00",
+  "date_redac": "2026-10-22T16:58:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 707,
+   "sortie": 583
+  }
+ },
+ {
+  "id": "c652a151ac07c094",
+  "slug": "un-mini-pc-snapdragon-a-300-46-tok-s-en-lecture-sur-flash-next-c652a1",
+  "titre": "Un mini PC Snapdragon à 300 £ : 46 tok/s en lecture sur Flash Next",
+  "resume": "Un développeur détaille sur r/LocalLLaMA les performances d'un Lenovo IdeaCentre Mini payé 299,99 £ : Snapdragon X X1-26-100 (8 cœurs Oryon, NPU Hexagon, GPU Adreno inutilisé), 32 Go de LPDDR5, les modèles étant streamés depuis le NVMe de 512 Go. Avec son moteur maison, nom de code ToRc, pas encore publié, il mesure 315/43 tok/s sur A3b et 46/20 tok/s sur Flash Next en lecture/génération. Il avait auparavant porté Janas sur ARM : kernels NEON, build Windows on ARM et correctif de bug de cache.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcmioz/q4_flash_next_for_300600_snapdragon_mini_pc/",
+  "date_source": "2026-10-22T15:58:48+00:00",
+  "date_redac": "2026-10-22T16:59:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 920,
+   "sortie": 943
+  }
+ },
+ {
   "id": "b9ea03855617922f",
   "slug": "openai-anthropic-et-nvidia-signent-leur-trimestre-de-lobbying-le-plus--b9ea03",
   "titre": "OpenAI, Anthropic et Nvidia signent leur trimestre de lobbying le plus coûteux",
@@ -1077,6 +1180,26 @@
    "modele": "deepseek-flash",
    "entree": 627,
    "sortie": 703
+  }
+ },
+ {
+  "id": "2a29adba9ad97a2b",
+  "slug": "meta-veut-financer-ses-investissements-dans-l-ia-via-une-nouvelle-clas-2a29ad",
+  "titre": "Meta veut financer ses investissements dans l'IA via une nouvelle classe d'actions",
+  "resume": "Meta prépare une nouvelle stratégie boursière pour soutenir ses investissements dans les modèles et services d'IA. Le géant des réseaux sociaux entend ainsi financer un déploiement élargi, en créant une nouvelle classe d'actions. L'opération illustre le poids croissant des dépenses liées à l'IA chez les grandes plateformes.",
+  "tags": [
+   "meta",
+   "business"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
+  "date_source": "2026-10-21T22:45:34+00:00",
+  "date_redac": "2026-10-22T16:59:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 630,
+   "sortie": 123
   }
  },
  {

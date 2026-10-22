@@ -76,10 +76,36 @@ La documentation ne remplace pas la recette du serveur après déploiement.
   la recette : aucun changement moteur/tests/assets/contenus par rapport à la
   base figée. Cette différence de données est conservée, pas annulée.
 
-### Production
+### Production vérifiée — 22/10, 11:49 CEST
 
-Intégration testée localement ; preuve cloud, relecture SFTP et recette HTTPS
-à consigner après publication. Ne pas assimiler un push à un déploiement réussi.
+- Code `deed934`, intégré à `main` par `a14db08` après fusion documentaire
+  concurrente (push initial refusé, aucune force ni choix automatique sur les
+  preuves). Six blobs distants comparés au commit publié.
+- [Run **39754008728** réussi](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/39754008728) :
+  **183 tests cloud**, **1 603 envois** recomptés dans les logs, dont les trois
+  `.htaccess` de 17 octets. Pipeline de 1 843 secondes ; sauvegarde `a9fbd13`,
+  fusion/push `ac98e97` confirmés. Les délais des watchers locaux n'étaient pas
+  des échecs du workflow. Le relevé intermédiaire (assets déjà fermés, autres
+  dossiers pas encore transférés) est conservé, sans verdict prématuré.
+- **28 réponses HTTPS après déploiement**, mêmes chemins qu'au préflight : les
+  **six listings ciblés passent de 200 à 403 sans index**. Les 301 et leurs
+  destinations sont conservées, les pages testées restent 200 et la ressource
+  inconnue reste 404 ; aucune réponse 500.
+- **Six ressources comparées octet pour octet** avant/après : CSS, JavaScript,
+  audio, image Skool, fiche gratuite et fichier de livraison. CORS Skool `*`
+  toujours présent. Les trois règles SFTP sont exactes ; racine, CORS Skool et
+  règles d'archives existantes inchangés, configurations absentes toujours absentes.
+- L'alias **`/__ovh_icons/` reste 200 avec listing**, explicitement hors portée
+  de ces trois dossiers. Les 72 inconnus historiques de la dernière revue ne
+  sont ni réidentifiés ni purgés. Aucun nouveau contrôle d'accès aux fichiers.
+
+La suite complète a aussi été rejouée sur l'état local `f2d0bce` : **183 tests**
+réussis. Pendant les opérations concurrentes, HOME/cwd/PYTHONPATH ont changé
+dans l'environnement terminal partagé : une lecture gh a perdu sa configuration
+et une sonde SFTP a rencontré le garde hors réseau d'une autre recette. Reprises
+avec `env -i`, chemins absolus et environnement propre à ce processus, sans
+modifier les identifiants ni le garde de l'autre chantier. Ces échecs locaux
+ne sont pas attribués à GitHub ou OVH.
 
 Preuves privées : `crabe-chantiers/archives/2026-10-22-listings/` (préflights,
 corps HTTPS, rouge/vert, suites, builds et essai) ; copies de recette sous scratch

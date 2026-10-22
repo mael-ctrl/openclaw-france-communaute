@@ -1,0 +1,41 @@
+{
+ "slug": "php-deux-failles-critiques-et-l-ia-dans-l-equation-332d9a",
+ "titre": "PHP : deux failles critiques, et l'IA dans l'équation",
+ "chapo": "Deux failles critiques dans PHP, corrigées le 21 octobre, permettent de prendre le contrôle d'un serveur à distance — et les attaques ont déjà commencé. Le défaut à l'origine de l'une d'elles était connu depuis 2024 : son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA.",
+ "html": "<h2 id=\"php2shell-correctif-le-21-octobre-attaqu\">PHP2Shell : correctif le 21 octobre, attaques en cours</h2>\n<p>PHP a corrigé le 21 octobre deux failles critiques permettant l'exécution de code à distance. <strong>01net</strong> les baptise PHP2Shell et rappelle l'échelle du problème : le langage fait tourner environ 70 % des sites web. Une exploitation réussie, c'est la prise de contrôle d'un serveur à distance.</p>\n<p>Les cyberattaques exploitant ces vulnérabilités ont déjà commencé, selon 01net. Côté réponse, ActuIA indique qu'à la demande de l'Anssi, le ministère de l'Intérieur a coupé ses sites exposés. La correction est datée du 21 octobre.</p>\n<h2 id=\"un-defaut-connu-depuis-2024-critique-seu\">Un défaut connu depuis 2024, critique seulement à l'été</h2>\n<p>Le détail le plus intéressant n'est pas dans le correctif. Le défaut à l'origine de l'une des deux failles était connu depuis 2024 ; son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA, selon ActuIA. Le code fautif était donc identifié — sa gravité ne l'était pas.</p>\n<p>Les deux dépêches ne décrivent d'ailleurs pas tout à fait le même rôle pour l'IA. ActuIA parle d'une aide à révéler le défaut ; 01net écrit que les failles ont été débusquées par l'intelligence artificielle, via les modèles de pointe de Google et d'OpenAI. La nuance compte : entre « l'IA a trouvé la faille » et « l'IA a aidé à établir qu'elle était exploitable », le degré d'autonomie — et donc de responsabilité — n'est pas le même.</p>\n<p>Ce qui reste acquis : un défaut dormant depuis 2024 est devenu critique en quelques semaines d'analyse assistée.</p>\n<h2 id=\"agents-ia-vendre-c-est-devenir-fabricant\">Agents IA : vendre, c'est devenir fabricant</h2>\n<p>Pendant que le code se corrige, le droit avance. La directive (UE) 2024/2853, à transposer au plus tard le <strong>9 décembre 2026</strong>, fait du logiciel — SaaS compris — un produit. Conséquence directe : qui développe ou vend sous sa marque un agent IA devient fabricant, et répond <strong>sans faute</strong> des lésions, des atteintes psychologiques médicalement reconnues et des destructions de données non professionnelles causées par un défaut.</p>\n<p>Un point de calendrier à ne pas rater : une mise à jour substantielle effectuée après cette date fait entrer un agent existant dans le régime. Autrement dit, une simple évolution produit peut faire basculer un outil déjà en service sous un régime de responsabilité qu'il n'avait pas connu jusqu'ici.</p>\n<h2 id=\"voxtral-3-et-ce-que-l-ia-change-a-l-emba\">Voxtral 3, et ce que l'IA change à l'embauche</h2>\n<p>Deux autres signaux, sans lien direct avec PHP. <strong>Mistral AI</strong> a présenté le 20 octobre <strong>Voxtral 3</strong>, une famille de modèles vocaux qui transcrit plus de 50 langues et en parle plus de 35. Ces modèles servent aussi de base à un kit pour créer des agents vocaux. En mars, le premier modèle de synthèse vocale de Mistral ne gérait que 9 langues : l'écart mesure le chemin parcouru face à ElevenLabs et ses 90 langues.</p>\n<p>Côté emploi, une étude signée d'économistes de <strong>HEC Paris</strong>, de la <strong>Banque de France</strong> et de l'<strong>INSEAD</strong> regarde environ 600 entreprises françaises déclarant un usage intensif de l'IA. En 2025, elles ont embauché de 17 à 25 % de jeunes de 21 à 29 ans en CDI de moins que les autres entreprises de leur secteur — sans écart net sur leur effectif total. Les auteurs recommandent de redéfinir les premiers postes autour de ce que l'IA accomplit mal.</p>\n<h2>Et maintenant ?</h2>\n<p>Les trois textes dessinent un même déplacement : l'IA n'est plus seulement ce qui produit du code ou de la voix, elle devient une méthode d'analyse — pour le meilleur, quand elle transforme un défaut connu en alerte critique — et un objet de droit, avec la directive 2024/2853. Entre la faille corrigée le 21 octobre et l'échéance du 9 décembre 2026, la question n'est plus de savoir si les modèles trouvent des bugs, mais qui répondra de ce qu'ils touchent.</p>",
+ "pivot": "332d9a730d0ab202",
+ "tags": [
+  "sécurité",
+  "agents",
+  "mistral",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3293341_face-a-elevenlabs-et-ses-90-langues-mistral-degaine-voxtral-3"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/les-entreprises-les-plus-converties-a-lia-embauchent-jusqua-25-de-jeunes-en-cdi-en-moins/"
+  }
+ ],
+ "date": "2026-10-22T09:18:35+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1623,
+  "sortie": 3707
+ }
+}

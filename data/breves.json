@@ -1,5 +1,66 @@
 [
  {
+  "id": "1d422f0ef052b34d",
+  "slug": "1password-laisse-les-agents-ia-se-connecter-a-votre-place-sans-voir-le-1d422f",
+  "titre": "1Password laisse les agents IA se connecter à votre place, sans voir le mot de passe",
+  "resume": "1Password lance un dispositif qui permet à des agents IA de se connecter aux comptes personnels d'un client à sa place. Le mécanisme autorise l'accès aux comptes tout en protégeant les identifiants privés qui les sécurisent : l'agent agit sans jamais voir le mot de passe.",
+  "tags": [
+   "sécurité",
+   "agents",
+   "business"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+  "date_source": null,
+  "date_redac": "2026-10-22T19:45:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 624,
+   "sortie": 456
+  }
+ },
+ {
+  "id": "707c650794089c59",
+  "slug": "openai-devoile-la-decisions-api-pour-des-applications-plus-reactives-707c65",
+  "titre": "OpenAI dévoile la Decisions API pour des applications plus réactives",
+  "resume": "OpenAI dévoile la Decisions API, une interface destinée à construire des applications plus réactives. Elle est présentée comme un moyen d'obtenir des décisions rapides, ciblées et à faible coût, pour n'importe quelle application. Le positionnement est clair : des décisions légères et économiques, intégrables dans n'importe quel produit.",
+  "tags": [
+   "openai",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/decisions-api",
+  "date_source": null,
+  "date_redac": "2026-10-22T19:44:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 568,
+   "sortie": 991
+  }
+ },
+ {
+  "id": "a54f57e27b372d26",
+  "slug": "discord-ameliore-l-affichage-des-apercus-markdown-a54f57",
+  "titre": "Discord améliore l'affichage des aperçus Markdown",
+  "resume": "Discord déploie une mise à jour qui corrige les aperçus Markdown : ils doivent désormais s'afficher correctement, au lieu d'une série de symboles, indique l'entreprise. Ce détail compte pour les projets IA, car les LLM et les agents s'appuient souvent sur des fichiers Markdown pour les instructions et le contexte. Les aperçus corrigés facilitent donc le partage d'informations sur ces projets.",
+  "tags": [
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
+  "date_source": "2026-10-22T18:58:19+00:00",
+  "date_redac": "2026-10-22T19:44:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 654,
+   "sortie": 767
+  }
+ },
+ {
   "id": "cce225ab107d3f9c",
   "slug": "sur-r-localllama-un-internaute-cherche-des-nouvelles-de-turboquant-cce225",
   "titre": "Sur r/LocalLLaMA, un internaute cherche des nouvelles de TurboQuant",
@@ -17,6 +78,26 @@
    "modele": "deepseek-flash",
    "entree": 632,
    "sortie": 454
+  }
+ },
+ {
+  "id": "39a9ad46c1084877",
+  "slug": "carbon-x-un-qwen-3-affine-pour-lire-et-generer-de-l-adn-39a9ad",
+  "titre": "Carbon-X, un Qwen 3 affiné pour lire et générer de l'ADN",
+  "resume": "Carbon-X est un modèle décodeur de 14,8 milliards de paramètres entraîné sur de l'ADN et du texte. ADN et langage partagent un seul flux de tokens, sans encodeur dédié : le tokenizer hybride encode l'ADN en 6-mers, un token par 6 paires de bases. Sur cinq benchmarks ADN, il atteint 66,7 % en moyenne avec le raisonnement désactivé, soit 27 points de plus que Qwen3-14B.",
+  "tags": [
+   "recherche",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcqbsn/huggingfacebiocarbonx_dna_understanding_and/",
+  "date_source": "2026-10-22T18:17:32+00:00",
+  "date_redac": "2026-10-22T19:44:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 791,
+   "sortie": 884
   }
  },
  {
@@ -122,6 +203,48 @@
    "modele": "deepseek-flash",
    "entree": 670,
    "sortie": 789
+  }
+ },
+ {
+  "id": "ee3897ac6bc5780e",
+  "slug": "muse-spark-816b-sur-10-gpu-a40-tensorsharp-face-a-llama-cpp-ee3897",
+  "titre": "Muse Spark 816B sur 10 GPU A40 : TensorSharp face à llama.cpp",
+  "resume": "TensorSharp, moteur d'inférence .NET open source, fait tourner Muse Spark 816B (42B de paramètres actifs, ~316 Gio de poids) sur 10 GPU Nvidia A40, avec 32K de contexte et un cache KV en F16. Le benchmark face à llama.cpp montre surtout que la stratégie multi-GPU optimale change fortement entre traitement du prompt et génération de tokens. Sur cette machine, le P2P entre GPU était cassé : les échanges passaient par la mémoire hôte.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcprjt/i_got_muse_spark_816b_running_on_10_a40_gpus_some/",
+  "date_source": "2026-10-22T17:57:11+00:00",
+  "date_redac": "2026-10-22T19:44:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 839,
+   "sortie": 929
+  }
+ },
+ {
+  "id": "8b3a939faadf6847",
+  "slug": "4x-intel-b65-30-de-prefill-et-de-ttft-sur-vllm-avec-un-chunk-de-8-192--8b3a93",
+  "titre": "4x Intel B65 : +30 % de prefill et de TTFT sur vLLM avec un chunk de 8 192 tokens",
+  "resume": "Un habitué de r/LocalLLaMA poursuit ses tests sur une configuration de quatre cartes Intel B65. En portant le chunk de prefill à 8 192 tokens sous vLLM 0.30.0 patché, il annonce environ 30 % de prefill et de TTFT en moins. Le montage fait tourner Qwen3.8-Flash-Next en W4A16, avec parallélisme tensoriel et expertiel sur les quatre cartes, décodage spéculatif MTP-3 et une fenêtre de 262K tokens.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcoz8s/more_4x_intel_b65_test_results_performance/",
+  "date_source": "2026-10-22T17:28:17+00:00",
+  "date_redac": "2026-10-22T19:44:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 895,
+   "sortie": 893
   }
  },
  {

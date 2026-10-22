@@ -1,0 +1,41 @@
+{
+ "slug": "kokoro-100-fois-plus-rapide-failles-php-anthropic-l-ia-avanc-8f5c60",
+ "titre": "Kokoro 100 fois plus rapide, failles PHP, Anthropic : l'IA avance sans mode d'emploi",
+ "chapo": "Un développeur rend Kokoro TTS cinquante à cent fois plus rapide sans savoir exactement pourquoi. La même semaine, deux failles critiques dans PHP ont été débusquées par des modèles, Microsoft revendique un diagnostic quatre fois plus précis que des médecins, et Anthropic afficherait 80,7 milliards de dollars de pertes.",
+ "html": "<h2 id=\"kokoro-tts-50-a-100-fois-plus-vite-sans-\">Kokoro TTS : 50 à 100 fois plus vite, sans le mode d'emploi</h2>\n<p>Un développeur web affirme avoir rendu <strong>Kokoro TTS</strong> « 50 à 100 fois plus rapide ». Le détail qui accroche : il dit ne pas savoir exactement pourquoi ça marche. Pas de recette théorique, juste un résultat et une méthode dont l'auteur ne maîtrise pas tous les ressorts.</p>\n<p>Sa méthode tient en une idée : laisser un modèle, <strong>Opus 5.5</strong>, progresser par essais successifs, à condition de lui fixer un objectif atteignable et une métrique claire. Le reste est étonnamment banal — une journée d'entraînement sur une <strong>RTX 4070 Ti Super</strong>, dans son sous-sol. Quant à l'idée de distiller Kokoro, elle est attribuée à un tweet de Sahil.</p>\n<p>Ce qui frappe, c'est le rapport inversé entre l'ampleur du gain et la compréhension qu'en a son auteur. Un facteur 50 à 100 obtenu en une journée, sur une carte grand public, sans pouvoir expliquer le mécanisme.</p>\n<h2 id=\"php2shell-les-modeles-trouvent-les-faill\">PHP2Shell : les modèles trouvent les failles, puis les rendent exploitables</h2>\n<p>PHP a corrigé le 21 octobre deux failles critiques, baptisées <strong>PHP2Shell</strong>. Elles permettent l'exécution de code à distance — donc de prendre le contrôle d'un serveur. Le langage fait tourner environ <strong>70 % des sites web</strong>, et les cyberattaques exploitant ces vulnérabilités ont déjà commencé.</p>\n<p>Le plus intéressant est ailleurs. Le défaut à l'origine de l'une des deux failles était connu depuis 2024, mais son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA. Les deux failles ont elles-mêmes été débusquées par l'IA, via les modèles de pointe de Google et d'OpenAI. Ce qui dormait dans du code depuis des mois est devenu dangereux le jour où un modèle s'y est penché sérieusement.</p>\n<p>Côté défense, la réaction a été nette et inhabituelle : à la demande de l'Anssi, le ministère de l'Intérieur a coupé ses sites exposés.</p>\n<h2 id=\"microsoft-et-le-diagnostic-quatre-fois-p\">Microsoft et le diagnostic « quatre fois plus précis »</h2>\n<p>Microsoft affirme avoir mis au point un outil d'IA capable de diagnostiquer des pathologies <strong>jusqu'à quatre fois plus précisément que des médecins humains</strong>. Mustafa Suleyman, PDG de Microsoft AI, déclare à The Verge que cette promesse d'une IA au service de la santé « est enfin là ».</p>\n<p>L'affirmation mérite d'être prise pour ce qu'elle est : une revendication de l'entreprise, sans détail indépendant dans la dépêche sur le protocole, les pathologies concernées ou la population testée. Elle s'inscrit dans une antienne bien rodée : depuis des années, les dirigeants de l'IA citent la santé comme l'exemple le plus clair de l'utilité concrète de la technologie. Le diagnostic est le terrain d'élection de cette promesse, et donc celui où les annonces demandent le plus de preuves.</p>\n<h2 id=\"anthropic-80-7-milliards-de-pertes-un-ch\">Anthropic : 80,7 milliards de pertes, un chiffre à manier avec prudence</h2>\n<p>Anthropic aurait perdu <strong>80,7 milliards de dollars</strong> (environ 72 milliards d'euros) au premier semestre 2026, selon un projet de prospectus d'entrée en Bourse consulté par le Wall Street Journal. Sur la même période en 2025, la perte atteignait 13 milliards de dollars, près de 12 milliards d'euros. Le chiffre n'a pas été confirmé par l'entreprise.</p>\n<p>La comparaison des deux montants donne le vertige, mais elle ne raconte pas toute l'histoire : Frandroid, qui relaie l'information, qualifie lui-même ce chiffre de trompeur. Un ordre de grandeur de cette taille, issu d'un document de projet et non validé par l'intéressé, se cite avec des pincettes.</p>\n<h2>Et maintenant ?</h2>\n<p>Ces quatre dépêches n'ont aucun lien de cause à effet, mais elles dessinent un même mouvement : les modèles produisent désormais du résultat avant de produire de l'explication. Un TTS accéléré sans que son auteur sache pourquoi, des failles critiques débusquées puis rendues exploitables par des modèles, un outil de diagnostic annoncé à coups de multiplicateurs. La capacité progresse plus vite que la compréhension, et les chiffres eux-mêmes demandent encore à être vérifiés.</p>",
+ "pivot": "8f5c60e04999bfd5",
+ "tags": [
+  "sécurité",
+  "business",
+  "open-source",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcuqor/making_kokoro_tts_50100x_faster_without_knowing/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/anthropic-claude-ai/3293933_anthropic-affiche-80-milliards-de-dollars-de-pertes-pourquoi-ce-chiffre-est-trompeur"
+  }
+ ],
+ "date": "2026-10-22T22:02:46+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1623,
+  "sortie": 4548
+ }
+}

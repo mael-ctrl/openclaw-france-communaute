@@ -123,6 +123,27 @@
   }
  },
  {
+  "id": "e4ce36feff41a6e5",
+  "slug": "flint-le-moe-39-8b-de-recursive-arrive-dans-llama-cpp-e4ce36",
+  "titre": "Flint, le MoE 39,8B de Recursive, arrive dans llama.cpp",
+  "resume": "La pull request ajoutant Flint (FlintForCausalLM) à llama.cpp a été fusionnée en six heures. Développé par Recursive, ce Transformer MoE decoder-only totalise 39,8 milliards de paramètres mais n'en active qu'environ 2,5 milliards par token, avec 256 experts routés dont 6 choisis par token et un expert partagé toujours actif. La configuration de contexte documentée atteint 262 144 tokens.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc01z8/models_add_flint_model_flintforcausallm_by/",
+  "date_source": "2026-10-21T21:29:48+00:00",
+  "date_redac": "2026-10-22T00:08:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 809,
+   "sortie": 875
+  }
+ },
+ {
   "id": "9a4c24cb041e1469",
   "slug": "le-founder-summit-de-techcrunch-s-installe-a-boston-le-4-novembre-9a4c24",
   "titre": "Le Founder Summit de TechCrunch s'installe à Boston le 4 novembre",

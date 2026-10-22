@@ -1,0 +1,41 @@
+{
+ "slug": "ia-locale-un-moe-de-125b-dans-64-go-de-ram-et-webgpu-en-renf-cd3654",
+ "titre": "IA locale : un MoE de 125B dans 64 Go de RAM, et WebGPU en renfort",
+ "chapo": "capy-flash 0.7.1 fait tourner un modèle MoE de 125 milliards de paramètres dans 64 Go de RAM, quand llama.cpp ouvre la quantification Q2_0 au backend WebGPU. Côté cloud, Fireworks AI annonce des débits record sur DeepSeek V4.1 Flash — et l'IA sert aussi à débusquer des failles PHP critiques.",
+ "html": "<h2 id=\"capy-flash-125b-de-parametres-57-go-de-p\">capy-flash : 125B de paramètres, 57 Go de pic</h2>\n<p>capy-flash, moteur d'inférence open-source, passe en <strong>v0.7.1</strong> avec une performance qui mérite le détour : <strong>Qwen3.8-Flash-Next</strong>, un modèle MoE de 125 milliards de paramètres, tourne avec 64 Go de RAM, pour un pic mesuré à environ <strong>57 Go</strong>.</p>\n<p>L'astuce tient en deux étages. Les experts routés sont quantifiés en <strong>~3 bits</strong> via les méthodes GSQ d'ISTA-DASLab, ce qui ramène leur empreinte à <strong>48 GiB</strong>. Les experts chauds restent en VRAM, le reste est calculé sur CPU.</p>\n<p>Autrement dit, on ne charge jamais les 125B en mémoire : un MoE n'active qu'une fraction de ses experts à chaque token, et la quantification à 3 bits fait le reste. Le compromis est classique — une partie du calcul part sur le processeur, ce qui pèse sur le débit selon le routage. Mais le résultat est là : un modèle de cette taille sur une seule machine à 64 Go de RAM.</p>\n<h2 id=\"16-go-pour-un-27b-et-q2-0-dans-le-webgpu\">16 Go pour un 27B, et Q2_0 dans le WebGPU</h2>\n<p>La même dépêche signale que <strong>Qwen3.8-27B</strong> tient sur une carte de 16 Go : 13,9 Go de VRAM, 64k de contexte, et la vision. De quoi faire tourner un modèle sérieux sur une configuration grand public.</p>\n<p>Même mouvement côté llama.cpp, avec la pull request <strong>#30914</strong> qui propose d'ajouter le support de la quantification <strong>Q2_0</strong> au backend WebGPU. Les tests ont été menés sur une RTX 3060 avec Dawn WebGPU natif, en comparant master et la PR via llama-bench :</p>\n<ul>\n<li>Ternary Bonsai 1.7B Q2_0 : prefill de 35,03 à <strong>1 915,91 t/s</strong>, génération de 14,02 à <strong>94,75 t/s</strong></li>\n<li>Bonsai 2 2B Q2_0 : prefill de 36,40 à <strong>2 039,89 t/s</strong>, génération de 12,57 à <strong>71,72 t/s</strong></li>\n</ul>\n<p>Les écarts sont spectaculaires, mais ils portent sur des modèles de 1,7 et 2 milliards de paramètres quantifiés en 2 bits — une précision qui se paie quelque part. La question du rendu réel reste ouverte ; celle du support WebGPU, elle, avance.</p>\n<h2 id=\"le-cloud-a-1-521-tokens-par-seconde\">Le cloud à 1 521 tokens par seconde</h2>\n<p>Dans le cloud, Fireworks AI affirme faire tourner <strong>DeepSeek V4.1 Flash</strong> à plus de <strong>1 521 tokens par seconde</strong> grâce à sa nouvelle infrastructure « Ultrafast ». L'hébergeur américain en tire une démonstration : coder un jeu complet en onze secondes. Le titre original de Frandroid parle d'un Tetris généré sept fois plus vite qu'avec Claude.</p>\n<p>À prendre avec des pincettes. Frandroid le dit lui-même : la véracité technique de ces chiffres et la grille tarifaire associée restent un mystère. Un débit annoncé par un hébergeur, sans protocole de mesure public, ne dit rien de la qualité des sorties ni du coût réel au token.</p>\n<p>La comparaison avec Claude, en particulier, ne s'appuie sur aucun protocole détaillé dans la dépêche. Ce n'est pas un argument contre l'infrastructure « Ultrafast » — juste une raison d'attendre des chiffres reproductibles.</p>\n<h2 id=\"quand-l-ia-trouve-les-failles\">Quand l'IA trouve les failles</h2>\n<p>Pendant qu'on optimise les débits, les modèles servent aussi à casser des choses. PHP a corrigé le <strong>21 octobre</strong> deux failles critiques permettant l'exécution de code à distance. Le défaut à l'origine de l'une d'elles était connu depuis 2024, mais son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA.</p>\n<p>01net donne un nom à la paire, <strong>PHP2Shell</strong>, et un ordre de grandeur : PHP fait tourner environ <strong>70 % des sites web</strong>. Les cyberattaques exploitant ces vulnérabilités ont déjà commencé. Particularité : les failles ont été débusquées par l'intelligence artificielle, via les modèles de pointe de Google et d'OpenAI.</p>\n<p>Côté français, à la demande de l'Anssi, le ministère de l'Intérieur a coupé ses sites exposés. Le décalage entre un défaut repéré en 2024 et une exploitation démontrée des mois plus tard dit assez ce que change l'accélération de la recherche de vulnérabilités par modèle.</p>\n<h2>Et maintenant ?</h2>\n<p>Les trois premières dépêches racontent la même chose sous trois angles : la quantification et l'ingénierie d'inférence descendent toujours plus bas dans le matériel disponible, du 125B à 3 bits sur 64 Go de RAM au Q2_0 dans WebGPU, pendant que le cloud empile les tokens par seconde. La quatrième rappelle le revers : les mêmes modèles servent à trouver des failles critiques dans un langage qui équipe environ 70 % du web.</p>",
+ "pivot": "cd3654643af7980f",
+ "tags": [
+  "open-source",
+  "matériel",
+  "sécurité",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xciqnj/capyflash_v071_qwen38flashnext_125b_moe_now_runs/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3295565_deepseek-v4-1-flash-1017-le-jeu-tetris-cree-en-11-secondes-sept-fois-plus-vite-que-claude"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcdpks/webgpu_add_q2_0_support_by_teddygood_pull_request/"
+  }
+ ],
+ "date": "2026-10-22T13:55:51+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1709,
+  "sortie": 4195
+ }
+}

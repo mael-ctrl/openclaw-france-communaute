@@ -1,5 +1,130 @@
 [
  {
+  "id": "34dc8f61df24ce6c",
+  "slug": "qwen4-et-kimi3-1-apparaitraient-sur-arena-selon-un-post-reddit-34dc8f",
+  "titre": "Qwen4 et Kimi3.1 apparaîtraient sur Arena, selon un post Reddit",
+  "resume": "Sur r/LocalLLaMA, un membre rapporte l'apparition de Qwen4 et Kimi3.1 sur Arena, la plateforme de comparaison de modèles. Publié le 22 octobre, le message ne cite aucune annonce officielle et l'extrait se limite à l'impatience de son auteur de voir arriver « Qwen4 flash ».",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcj1wm/qwen4_and_kimi31_on_arena_apperantly/",
+  "date_source": "2026-10-22T13:47:14+00:00",
+  "date_redac": "2026-10-22T13:55:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 627,
+   "sortie": 1089
+  }
+ },
+ {
+  "id": "cd3654643af7980f",
+  "slug": "capy-flash-v0-7-1-fait-tourner-qwen3-8-flash-next-125b-moe-dans-64-go--cd3654",
+  "titre": "capy-flash v0.7.1 fait tourner Qwen3.8-Flash-Next (125B MoE) dans 64 Go de RAM",
+  "resume": "capy-flash, moteur d'inférence open-source, passe en v0.7.1 : Qwen3.8-Flash-Next (125B MoE) tourne avec 64 Go de RAM, pic à environ 57 Go. Les experts routés sont quantifiés en ~3 bits (GSQ, ISTA-DASLab) et pèsent 48 GiB ; les experts chauds restent en VRAM, le reste est calculé sur CPU. Le Qwen3.8-27B tient sur une carte de 16 Go (13,9 Go de VRAM, 64k de contexte, vision).",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xciqnj/capyflash_v071_qwen38flashnext_125b_moe_now_runs/",
+  "date_source": "2026-10-22T13:34:44+00:00",
+  "date_redac": "2026-10-22T13:55:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 940,
+   "sortie": 1203
+  }
+ },
+ {
+  "id": "2e9874d5c40e22bf",
+  "slug": "openclaw-2026-10-6-durcit-ses-mises-a-jour-et-exige-un-node-patche-2e9874",
+  "titre": "OpenClaw 2026.10.6 durcit ses mises à jour et exige un Node patché",
+  "resume": "OpenClaw 2026.10.6 exige désormais Node 24.22.1+ ou 26.12.1+, des runtimes qui rejettent les chaînes TLS signées avec les clés de certificat compromises dans les correctifs Node.js d'octobre 2026. Les images Docker embarquent la version patchée et openclaw update refuse de s'installer sur un Node plus ancien, avec une procédure de récupération, plutôt que de casser l'installation en cours.",
+  "tags": [
+   "openclaw",
+   "sécurité",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.6",
+  "date_source": "2026-10-22T13:32:16+00:00",
+  "date_redac": "2026-10-22T13:55:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 815,
+   "sortie": 1104
+  }
+ },
+ {
+  "id": "415d34debd6c220d",
+  "slug": "les-apps-internes-creees-avec-claude-code-cherchent-ou-s-heberger-415d34",
+  "titre": "Les apps internes créées avec Claude Code cherchent où s'héberger",
+  "resume": "Des collègues non développeurs construisent des apps internes avec Claude Code. Une fois l'app fonctionnelle sur leur machine, mêmes questions : où est-elle hébergée, qui peut s'y connecter, où sont les données, et l'IT est-il au courant ? L'auteur compare deux douzaines d'options en quatre familles, dont les builders SaaS comme Lovable, Bolt ou Repli : aucune ne coche toutes les cases.",
+  "tags": [
+   "claude",
+   "dev",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xci77z/when_nondev_colleagues_build_internal_apps_with/",
+  "date_source": "2026-10-22T13:12:22+00:00",
+  "date_redac": "2026-10-22T13:55:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 807,
+   "sortie": 874
+  }
+ },
+ {
+  "id": "8d3790aab86733a2",
+  "slug": "1password-laisse-les-agents-ia-se-connecter-sans-voir-tes-mots-de-pass-8d3790",
+  "titre": "1Password laisse les agents IA se connecter sans voir tes mots de passe",
+  "resume": "1Password lance une fonctionnalité qui permet à des agents IA de se connecter à tes comptes sans jamais voir ni manipuler tes mots de passe. Nommée 1Password for Agents, elle ne donne pas pour autant un accès libre aux bots : chaque demande de connexion doit être approuvée. L'objectif est de faire des agents des outils réellement utilisables, sans leur livrer tes identifiants en clair.",
+  "tags": [
+   "agents",
+   "sécurité",
+   "business"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
+  "date_source": "2026-10-22T13:00:00+00:00",
+  "date_redac": "2026-10-22T13:55:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 656,
+   "sortie": 136
+  }
+ },
+ {
+  "id": "986fffcb143b80eb",
+  "slug": "ou-discuter-de-modeles-specialises-qui-ne-sont-pas-des-llm-986fff",
+  "titre": "Où discuter de modèles spécialisés qui ne sont pas des LLM ?",
+  "resume": "Sur r/LocalLLaMA, un développeur raconte qu'il construit une application nécessitant des modèles de langue spécialisés, et non forcément des LLM. Il cherche un espace où l'on parle de ces modèles autrement qu'en fouillant Hugging Face, et reconnaît lui-même que la question ne colle pas vraiment à ce subreddit.",
+  "tags": [
+   "dev",
+   "recherche"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xchup0/non_llm_models/",
+  "date_source": "2026-10-22T12:57:54+00:00",
+  "date_redac": "2026-10-22T13:55:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 649,
+   "sortie": 515
+  }
+ },
+ {
   "id": "6a9966e593beaff9",
   "slug": "deepseek-v4-1-flash-1-521-tokens-par-seconde-chez-fireworks-ai-6a9966",
   "titre": "DeepSeek V4.1 Flash : 1 521 tokens par seconde chez Fireworks AI",
@@ -38,27 +163,6 @@
    "modele": "deepseek-flash",
    "entree": 814,
    "sortie": 633
-  }
- },
- {
-  "id": "3fcc9f6eb7d5410d",
-  "slug": "un-utilisateur-juge-lfm2-5-24-a2b-decevant-meme-apres-changement-de-mo-3fcc9f",
-  "titre": "Un utilisateur juge LFM2.5-24-A2B décevant, même après changement de moteur",
-  "resume": "Un utilisateur de r/LocalLLaMA renchérit : LFM2.5-24-A2B, lancé sur llamaampere (une version de llama.cpp optimisée), atteint 130 tk/s sur une RTX A4500 mais boucle et échoue sur des tâches simples. Passé à LM Studio en sacrifiant la vitesse, il constate que le comportement erratique se stabilise. Il rappelle qu'un Qwen 3.8 27B Q4 tournait à 40-60 tk/s avec des résultats satisfaisants.",
-  "tags": [
-   "open-source",
-   "dev",
-   "matériel"
-  ],
-  "importance": 2,
-  "source": "r/LocalLLaMA",
-  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xce5dd/tried_lfm2524a2b_its_crap_yes_i_double_confirm_it/",
-  "date_source": "2026-10-22T09:45:24+00:00",
-  "date_redac": "2026-10-22T10:21:32+00:00",
-  "gen": {
-   "modele": "deepseek-flash",
-   "entree": 854,
-   "sortie": 926
   }
  },
  {
@@ -144,24 +248,24 @@
   }
  },
  {
-  "id": "e7d1e17d440536ec",
-  "slug": "llama-cpp-le-support-q2-0-arrive-dans-le-backend-webgpu-e7d1e1",
-  "titre": "llama.cpp : le support Q2_0 arrive dans le backend WebGPU",
-  "resume": "Une pull request (#30914) propose d'ajouter le support de la quantification Q2_0 au backend WebGPU de llama.cpp. Les tests, menés sur une RTX 3060 avec Dawn WebGPU natif, comparent master et la PR via llama-bench. Sur Ternary Bonsai 1.7B Q2_0, le prefill passe de 35,03 à 1 915,91 t/s et la génération de 14,02 à 94,75 t/s. Sur Bonsai 2 2B Q2_0, de 36,40 à 2 039,89 t/s et de 12,57 à 71,72 t/s.",
+  "id": "3fcc9f6eb7d5410d",
+  "slug": "un-utilisateur-juge-lfm2-5-24-a2b-decevant-meme-apres-changement-de-mo-3fcc9f",
+  "titre": "Un utilisateur juge LFM2.5-24-A2B décevant, même après changement de moteur",
+  "resume": "Un utilisateur de r/LocalLLaMA renchérit : LFM2.5-24-A2B, lancé sur llamaampere (une version de llama.cpp optimisée), atteint 130 tk/s sur une RTX A4500 mais boucle et échoue sur des tâches simples. Passé à LM Studio en sacrifiant la vitesse, il constate que le comportement erratique se stabilise. Il rappelle qu'un Qwen 3.8 27B Q4 tournait à 40-60 tk/s avec des résultats satisfaisants.",
   "tags": [
    "open-source",
    "dev",
    "matériel"
   ],
-  "importance": 3,
+  "importance": 2,
   "source": "r/LocalLLaMA",
-  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcdpks/webgpu_add_q2_0_support_by_teddygood_pull_request/",
-  "date_source": "2026-10-22T09:17:46+00:00",
-  "date_redac": "2026-10-22T10:21:37+00:00",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xce5dd/tried_lfm2524a2b_its_crap_yes_i_double_confirm_it/",
+  "date_source": "2026-10-22T09:45:24+00:00",
+  "date_redac": "2026-10-22T10:21:32+00:00",
   "gen": {
    "modele": "deepseek-flash",
-   "entree": 828,
-   "sortie": 984
+   "entree": 854,
+   "sortie": 926
   }
  },
  {
@@ -183,6 +287,27 @@
    "modele": "deepseek-flash",
    "entree": 854,
    "sortie": 1253
+  }
+ },
+ {
+  "id": "e7d1e17d440536ec",
+  "slug": "llama-cpp-le-support-q2-0-arrive-dans-le-backend-webgpu-e7d1e1",
+  "titre": "llama.cpp : le support Q2_0 arrive dans le backend WebGPU",
+  "resume": "Une pull request (#30914) propose d'ajouter le support de la quantification Q2_0 au backend WebGPU de llama.cpp. Les tests, menés sur une RTX 3060 avec Dawn WebGPU natif, comparent master et la PR via llama-bench. Sur Ternary Bonsai 1.7B Q2_0, le prefill passe de 35,03 à 1 915,91 t/s et la génération de 14,02 à 94,75 t/s. Sur Bonsai 2 2B Q2_0, de 36,40 à 2 039,89 t/s et de 12,57 à 71,72 t/s.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcdpks/webgpu_add_q2_0_support_by_teddygood_pull_request/",
+  "date_source": "2026-10-22T09:17:46+00:00",
+  "date_redac": "2026-10-22T10:21:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 828,
+   "sortie": 984
   }
  },
  {

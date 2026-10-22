@@ -1,5 +1,107 @@
 [
  {
+  "id": "6f4b1fbf8c72e9c3",
+  "slug": "recursive-flint-un-modele-d-agent-de-code-40b-qui-depasse-qwen3-6-35b--6f4b1f",
+  "titre": "Recursive Flint, un modèle d'agent de code 40B qui dépasse Qwen3.6-35B-A3B",
+  "resume": "Recursive Flint est un modèle pensé pour les agents de code : 40 milliards de paramètres, dont 2,5 milliards actifs seulement. D'après l'extrait, il dépasse nettement Qwen3.6-35B-A3B sur TerminalBench 2.1 et SWE-bench Pro v2, et fait au moins aussi bien sur les autres benchmarks présentés. Il tourne avec 262k de contexte et une attention 3:1 SWA/full, avec des GGUF Unsloth et une PR llama.cpp disponibles.",
+  "tags": [
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc23iq/recursive_flint_the_qwen38_35b_weve_all_been/",
+  "date_source": "2026-10-21T22:55:43+00:00",
+  "date_redac": "2026-10-22T00:08:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 807,
+   "sortie": 759
+  }
+ },
+ {
+  "id": "e5c54262155d3167",
+  "slug": "blackstone-juge-exagerees-les-craintes-sur-la-dette-liee-a-l-ia-e5c542",
+  "titre": "Blackstone juge exagérées les craintes sur la dette liée à l'IA",
+  "resume": "Jas Khaira, responsable de l'IA chez Blackstone, estime que les craintes autour de l'endettement lié au déploiement de l'IA sont exagérées. Le dirigeant du fonds de private equity ne se montre pas inquiet face aux turbulences du marché.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+  "date_source": "2026-10-21T22:51:22+00:00",
+  "date_redac": "2026-10-22T00:08:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 627,
+   "sortie": 556
+  }
+ },
+ {
+  "id": "a25ffe7ee6cb0d43",
+  "slug": "abliteratedoutthebox-l-abliteration-a-l-inference-dans-un-fork-de-llam-a25ffe",
+  "titre": "AbliteratedOutTheBox : l'abliteration à l'inférence dans un fork de llama.cpp",
+  "resume": "AbliteratedOutTheBox est un fork de llama.cpp qui abliterate n'importe quel modèle au moment où tu le charges : l'opération se fait en direct à l'inférence, sans fine-tuning et sans fichiers supplémentaires. Le projet promet donc de supprimer les manipulations habituellement nécessaires à l'abliteration, et ce sans réclamer davantage de VRAM. Tout se passe sur le dépôt GitHub d'heterodoxin.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc1e9y/inference_time_abliteration/",
+  "date_source": "2026-10-21T22:24:42+00:00",
+  "date_redac": "2026-10-22T00:08:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 665,
+   "sortie": 625
+  }
+ },
+ {
+  "id": "0a29923176f90413",
+  "slug": "claude-code-v2-1-307-commande-api-version-telemetrie-de-surete-et-corr-0a2992",
+  "titre": "Claude Code v2.1.307 : commande api-version, télémétrie de sûreté et correctifs MCP",
+  "resume": "La version 2.1.307 de Claude Code ajoute une commande /claude-api api-version pour aligner le code sur l'API Claude du 21 octobre 2026. Elle introduit aussi l'événement OpenTelemetry claude_code.safety_event, émis à chaque appel d'outil intercepté par une règle de permission, le mode auto, un contrôle de sûreté, un hook ou le bac à sable. Côté correctifs : erreur « model not found » avec les alias suffixés [1m], en-tête beta de prompt caching envoyé inutilement derrière des passerelles ANTHROPIC_BASE_URL et sur Foundry, et serveurs MCP qui restaient en échec après une mise en veille.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+  "date_source": "2026-10-21T22:17:02+00:00",
+  "date_redac": "2026-10-22T00:08:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 826,
+   "sortie": 486
+  }
+ },
+ {
+  "id": "539562af70abdb2b",
+  "slug": "une-variante-abliterated-de-minicpm5-2b-sft-publiee-sur-hugging-face-539562",
+  "titre": "Une variante « abliterated » de MiniCPM5-2B-SFT publiée sur Hugging Face",
+  "resume": "XtrCom met en ligne sur Hugging Face une version « abliterated » du modèle MiniCPM5-2B-SFT, disponible en dépôt classique et en GGUF pour l'inférence locale. Le changement de comportement notable : le modèle tend à rationaliser les questions potentiellement nuisibles ou restreintes plutôt qu'à les refuser. Ce basculement reste toutefois rare, avec une probabilité d'environ une sur vingt.",
+  "tags": [
+   "open-source",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc07oc/minicpm52bsftabiliterated/",
+  "date_source": "2026-10-21T21:36:03+00:00",
+  "date_redac": "2026-10-22T00:08:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 763,
+   "sortie": 523
+  }
+ },
+ {
   "id": "7af5d795af60b8e6",
   "slug": "meta-cree-une-nouvelle-classe-d-actions-pour-financer-son-effort-dans--7af5d7",
   "titre": "Meta crée une nouvelle classe d'actions pour financer son effort dans l'IA",
@@ -17,6 +119,27 @@
    "modele": "deepseek-flash",
    "entree": 663,
    "sortie": 469
+  }
+ },
+ {
+  "id": "e4ce36feff41a6e5",
+  "slug": "flint-le-moe-39-8b-de-recursive-arrive-dans-llama-cpp-e4ce36",
+  "titre": "Flint, le MoE 39,8B de Recursive, arrive dans llama.cpp",
+  "resume": "La pull request ajoutant Flint (FlintForCausalLM) à llama.cpp a été fusionnée en six heures. Développé par Recursive, ce Transformer MoE decoder-only totalise 39,8 milliards de paramètres mais n'en active qu'environ 2,5 milliards par token, avec 256 experts routés dont 6 choisis par token et un expert partagé toujours actif. La configuration de contexte documentée atteint 262 144 tokens.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc01z8/models_add_flint_model_flintforcausallm_by/",
+  "date_source": "2026-10-21T21:29:48+00:00",
+  "date_redac": "2026-10-22T00:08:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 809,
+   "sortie": 875
   }
  },
  {

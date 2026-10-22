@@ -1,0 +1,41 @@
+{
+ "slug": "recursive-flint-voxtral-3-et-responsabilite-l-agent-ia-sort--6f4b1f",
+ "titre": "Recursive Flint, Voxtral 3 et responsabilité : l'agent IA sort du banc d'essai",
+ "chapo": "Quarante milliards de paramètres, 2,5 milliards actifs : Recursive Flint vise les agents de code et revendique la tête face à Qwen3.6-35B-A3B sur deux benchmarks. Autour de ce genre d'annonce, les cadres bougent : Mistral lance ses modèles vocaux, l'UE classe les agents en produits, Pékin et le Pentagone resserrent.",
+ "html": "<h2 id=\"flint-40b-sur-l-etiquette-2-5b-au-travai\">Flint : 40B sur l'étiquette, 2,5B au travail</h2>\n<p><strong>Recursive Flint</strong> est présenté comme un modèle taillé pour les agents de code, ces configurations où le modèle enchaîne les commandes, lit les erreurs et corrige. La fiche technique annonce 40 milliards de paramètres, mais seulement 2,5 milliards activés à chaque token : la capacité d'un gros modèle, le coût d'un petit.</p>\n<p>D'après l'extrait partagé sur r/LocalLLaMA, Flint dépasse nettement Qwen3.6-35B-A3B sur <strong>TerminalBench 2.1</strong> et <strong>SWE-bench Pro v2</strong>, et fait au moins aussi bien sur les autres benchmarks présentés. Ce sont des chiffres avancés dans le post, pas un protocole d'évaluation indépendant : à lire comme une déclaration, pas comme un verdict.</p>\n<p>Côté exécution, le modèle tourne avec 262k de contexte et une attention alternée 3:1 entre fenêtre glissante et attention complète. Des GGUF Unsloth et une PR llama.cpp sont déjà disponibles, ce qui le rend testable en local sans passer par une API.</p>\n<h2 id=\"voxtral-3-mistral-elargit-la-voix\">Voxtral 3 : Mistral élargit la voix</h2>\n<p>Le mardi 20 octobre 2026, <strong>Mistral AI</strong> a présenté <strong>Voxtral 3</strong>, une famille de modèles vocaux qui transcrit plus de 50 langues et en parle plus de 35. Ces modèles servent également de base à un kit pour créer des agents vocaux : la brique audio d'un système qui prend des instructions à la parole et y répond.</p>\n<p>La comparaison avec mars donne la mesure du chemin parcouru : le premier modèle de synthèse vocale de Mistral ne gérait alors que 9 langues. En face, ElevenLabs en revendique 90. L'écart reste large, mais l'objet n'est pas tout à fait le même : Mistral positionne sa famille comme une base pour agents vocaux, pas uniquement comme un outil de synthèse.</p>\n<h2 id=\"la-directive-qui-fait-de-l-agent-un-prod\">La directive qui fait de l'agent un produit</h2>\n<p>La directive <strong>(UE) 2024/2853</strong>, à transposer au plus tard le 9 décembre 2026, fait du logiciel — SaaS compris — un produit. Conséquence pour les agents : qui développe ou vend sous sa marque un agent IA devient fabricant, donc responsable sans faute.</p>\n<p>Le périmètre est précis : les lésions, les atteintes psychologiques médicalement reconnues et les destructions de données non professionnelles dues à un défaut. Pas besoin de démontrer une négligence ; le défaut suffit. Et une mise à jour substantielle après cette date fait entrer un agent existant dans le régime, y compris ceux qui passaient sous les radars jusqu'ici.</p>\n<p>Pour une équipe qui assemble un agent sur une API tierce, la question du « qui vend sous sa marque » cesse d'être une clause de contrat : elle remonte au niveau de l'architecture.</p>\n<h2 id=\"pekin-filtre-le-pentagone-s-equipe\">Pékin filtre, le Pentagone s'équipe</h2>\n<p>Depuis le 16 octobre 2026, Pékin impose une déclaration préalable pour exporter 40 technologies, dont 23 en IA. Le catalogue est en consultation jusqu'au 15 novembre. Le ministère du Commerce indique que l'appel d'un modèle par API et les technologies publiées en open source restent hors champ ; en revanche, le déploiement localisé hors de Chine d'un modèle restreint entrera dans le champ une fois le catalogue en vigueur.</p>\n<p>De l'autre côté du Pacifique, une enquête de <strong>The Intercept</strong> publiée le 19 octobre 2026 décrit <strong>ECHOTRIBBLE</strong>, un projet de l'armée américaine encore en développement. Objectif : confier à des agents IA des missions offensives — explorer des réseaux, se propager d'un appareil à l'autre, neutraliser des cibles. Le tout sur la base d'une « supervision humaine minimale », formule qui pèse lourd dès qu'on parle d'action offensive.</p>\n<p>Les deux dossiers ne se répondent pas. Ils dessinent pourtant la même ligne : ce qui compte n'est plus seulement ce que le modèle sait faire, mais ce qu'on autorise à en sortir et à lui laisser exécuter.</p>\n<h2>Et maintenant ?</h2>\n<p>En quelques jours, un modèle local a revendiqué la tête des benchmarks de code, un acteur français a élargi son offre vocale, et trois cadres se sont dessinés — une directive européenne, un catalogue d'export chinois, un projet militaire américain. Le point commun : l'agent quitte le banc de test. Il devient un produit avec un responsable désigné, une technologie avec des règles de sortie, et un outil opérationnel avec un opérateur. Les courbes de benchmarks, elles, ne disent rien de tout cela.</p>",
+ "pivot": "6f4b1fbf8c72e9c3",
+ "tags": [
+  "agents",
+  "dev",
+  "open-source",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc23iq/recursive_flint_the_qwen38_35b_weve_all_been/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3293341_face-a-elevenlabs-et-ses-90-langues-mistral-degaine-voxtral-3"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2356515-supervision-humaine-minimale-larmee-americaine-veut-envoyer-des-agents-ia-pirater-ses-ennemis.html"
+  }
+ ],
+ "date": "2026-10-22T00:09:16+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1670,
+  "sortie": 4234
+ }
+}

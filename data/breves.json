@@ -1,5 +1,128 @@
 [
  {
+  "id": "e6050cec4cc39211",
+  "slug": "chatgpt-verrouille-vos-conversations-sensibles-derriere-un-code-a-quat-e6050c",
+  "titre": "ChatGPT verrouille vos conversations sensibles derrière un code à quatre chiffres",
+  "resume": "ChatGPT permet désormais de cacher vos conversations les plus sensibles — questions de santé, confidences, cadeaux à préparer — derrière un code à quatre chiffres, à la manière de WhatsApp. Le verrou comporte toutefois des angles morts, et l'un d'eux peut, selon 01net, purement et simplement tout effacer.",
+  "tags": [
+   "chatgpt",
+   "openai",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/comme-whatsapp-chatgpt-met-enfin-vos-conversations-sous-cle.html",
+  "date_source": null,
+  "date_redac": "2026-10-22T07:02:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 642,
+   "sortie": 389
+  }
+ },
+ {
+  "id": "9944bd540d7ba486",
+  "slug": "pillages-du-17-octobre-une-photo-de-saisie-retouchee-par-ia-fait-polem-9944bd",
+  "titre": "Pillages du 17 octobre : une photo de saisie retouchée par IA fait polémique",
+  "resume": "La police nationale du Val d'Oise a publié une image de produits pillés durant les manifestations du 17 octobre. Cette image est générée par IA, mais elle n'est pas totalement fausse, selon 01net. La publication déclenche une polémique sur l'usage d'une photo de saisie retouchée par IA.",
+  "tags": [
+   "sécurité",
+   "société",
+   "france"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/pillages-du-17-octobre-la-police-nationale-fait-polemique-avec-une-photo-de-saisie-retouchee-par-ia.html",
+  "date_source": null,
+  "date_redac": "2026-10-22T07:02:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 664,
+   "sortie": 629
+  }
+ },
+ {
+  "id": "eb376550ce001736",
+  "slug": "haiku-choisit-scaleway-pour-heberger-ses-modeles-d-ia-en-france-eb3765",
+  "titre": "Haiku choisit Scaleway pour héberger ses modèles d'IA en France",
+  "resume": "La start-up Haiku (ex-Clerk) a annoncé le 22 octobre, en exclusivité pour L'Usine Digitale, avoir retenu Scaleway, filiale d'Iliad, pour héberger et exécuter ses modèles d'IA sur des infrastructures situées en France. Le déploiement, prévu « prochainement », profitera à tous ses clients, sans être réservé à une offre particulière. La société avait déjà confié ses données à S3NS et vise de nouveaux marchés dans le secteur public.",
+  "tags": [
+   "france",
+   "business"
+  ],
+  "importance": 2,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/apres-s3ns-pour-ses-donnees-haiku-choisit-scaleway-pour-heberger-ses-modeles-dia-et-vise-de-nouveaux-marches-dans-le-secteur-public.7TRRZG5TWVHKTNT2FDGZ2ETHF4.html",
+  "date_source": null,
+  "date_redac": "2026-10-22T07:01:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 761,
+   "sortie": 833
+  }
+ },
+ {
+  "id": "4bd6c7e2042ebec0",
+  "slug": "l-editeur-boreal-affirme-que-thelyson-orelien-a-utilise-l-ia-pour-son--4bd6c7",
+  "titre": "L'éditeur Boréal affirme que Thélyson Orélien a utilisé l'IA pour son roman",
+  "resume": "L'éditeur québécois Boréal affirme désormais disposer d'éléments attestant d'un recours à l'IA dans le processus d'écriture de C'était ça ou mourir, le roman de Thélyson Orélien. La polémique de la rentrée littéraire 2026 prend ainsi un nouveau tournant.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2358551-thelyson-orelien-a-utilise-lia-pour-ecrire-son-roman-cetait-ca-ou-mourir-annonce-son-editeur.html",
+  "date_source": null,
+  "date_redac": "2026-10-22T07:01:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 691,
+   "sortie": 516
+  }
+ },
+ {
+  "id": "9f4ce9d323f5f09e",
+  "slug": "quantification-exl3-a-2-9-bpw-faible-divergence-kl-questionnee-sur-r-l-9f4ce9",
+  "titre": "Quantification EXL3 à 2,9 bpw : faible divergence KL questionnée sur r/LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, un utilisateur s'étonne de la faible divergence KL obtenue par EXL3 à 2,9 bits par poids. Il demande si cette approche fait mieux que la quantification PTQ en nvfp4, et quels inconvénients il aurait pu manquer. Le fil renvoie à une publication Mia-AiLab : DeepSeek-V4.1-Flash-1017-EXL3-EAQ-v1-2.9-bpw.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcb61b/how_tf_exl3_29bpw_have_this_low_kl_divergence_is/",
+  "date_source": "2026-10-22T06:35:12+00:00",
+  "date_redac": "2026-10-22T07:01:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 680,
+   "sortie": 548
+  }
+ },
+ {
+  "id": "3690e77814c5c3f7",
+  "slug": "sage-a1-5-un-modele-moe-derive-de-qwen3-6-35b-aux-benchmarks-ambitieux-3690e7",
+  "titre": "Sage-A1.5, un modèle MoE dérivé de Qwen3.6-35B aux benchmarks ambitieux",
+  "resume": "Sage-A1.5 est publié comme un modèle dérivé de Qwen3.6-35B MoE. Ses concepteurs affichent des benchmarks le disant compétitif face à Kimi-K3, GLM-5.3 et GPT-5.6-sol. Un utilisateur de r/LocalLLaMA indique avoir lancé des tests locaux sur la quantification officielle q4_k_m, et évoque une possible compatibilité avec Strata. Aucun résultat de benchmark n'est encore publié.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcac1u/new_model_sagea15_released_based_on_qwen3635b_moe/",
+  "date_source": "2026-10-22T05:46:29+00:00",
+  "date_redac": "2026-10-22T07:01:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 705,
+   "sortie": 511
+  }
+ },
+ {
   "id": "21636b7fc65f9361",
   "slug": "que-faire-avec-une-petite-carte-graphique-de-6-a-12-go-de-vram-21636b",
   "titre": "Que faire avec une petite carte graphique de 6 à 12 Go de VRAM ?",

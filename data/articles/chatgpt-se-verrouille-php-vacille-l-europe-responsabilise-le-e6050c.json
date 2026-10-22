@@ -1,0 +1,41 @@
+{
+ "slug": "chatgpt-se-verrouille-php-vacille-l-europe-responsabilise-le-e6050c",
+ "titre": "ChatGPT se verrouille, PHP vacille, l'Europe responsabilise les agents IA",
+ "chapo": "Un cadenas à quatre chiffres sur ChatGPT, deux failles critiques dans PHP trouvées par des modèles, une directive européenne qui fait de l'agent IA un produit. La semaine dit beaucoup de la façon dont l'IA s'installe dans l'infrastructure — et dans le droit.",
+ "html": "<h2 id=\"chatgpt-un-cadenas-a-quatre-chiffres-et-\">ChatGPT : un cadenas à quatre chiffres, et des angles morts</h2>\n<p>ChatGPT permet désormais de ranger ses conversations les plus sensibles derrière un code à quatre chiffres, à la manière de WhatsApp. Le périmètre visé, selon 01net : les questions de santé, les confidences, les cadeaux à préparer. Autrement dit, ce qu'un utilisateur ne tient pas à voir s'afficher quand un proche passe derrière son épaule.</p>\n<p>Le verrou n'est pas étanche. 01net signale plusieurs angles morts, et l'un d'eux peut, selon le média, purement et simplement tout effacer. Un cadenas qui protège mal, ou qui protège au prix d'une perte de données : la nuance déplace le problème du champ de la confidentialité vers celui de la sauvegarde.</p>\n<h2 id=\"php2shell-deux-failles-critiques-debusqu\">PHP2Shell : deux failles critiques débusquées par l'IA</h2>\n<p>Deux failles critiques, baptisées PHP2Shell, menacent PHP — le langage qui fait tourner environ 70 % des sites web. Elles permettent de prendre le contrôle d'un serveur à distance, et les cyberattaques qui les exploitent ont déjà commencé. Le trou n'est pas théorique : il est ouvert, et quelqu'un est déjà passé par là.</p>\n<p>La particularité tient à la manière dont elles ont été trouvées : par l'intelligence artificielle, via les modèles de pointe de Google et d'OpenAI. Le même outillage qui sert à écrire du code sert aussi à en chercher les coutures. Reste que la détection automatique ne vaut que si le correctif suit vite.</p>\n<h2 id=\"directive-ue-2024-2853-l-agent-ia-devien\">Directive UE 2024/2853 : l'agent IA devient un produit</h2>\n<p>La directive (UE) 2024/2853, à transposer au plus tard le 9 décembre 2026, fait du logiciel un produit — SaaS compris. Conséquence directe pour les agents IA : qui développe ou vend sous sa marque un agent devient fabricant, et répond sans faute des lésions, des atteintes psychologiques médicalement reconnues et des destructions de données non professionnelles causées par un défaut.</p>\n<p>Le texte prévoit aussi une règle de temps : une mise à jour substantielle survenue après cette date fait entrer un agent existant dans le régime. Un agent livré plus tôt et profondément modifié ensuite ne reste donc pas à l'abri de son historique. Pour les éditeurs, la question n'est plus de savoir si l'agent est un service ou un produit, mais de documenter ce qu'il fait — et ce qu'il casse.</p>\n<h2 id=\"pekin-filtre-ses-exportations-washington\">Pékin filtre ses exportations, Washington bannit DeepSeek</h2>\n<p>Depuis le 16 octobre 2026, Pékin impose une déclaration préalable à l'export de 40 technologies, dont 23 en IA ; la consultation court jusqu'au 15 novembre. Le ministère du Commerce indique deux exceptions : l'appel d'un modèle par API et les technologies publiées en open source restent hors champ.</p>\n<p>Le déploiement localisé hors de Chine d'un modèle restreint, en revanche, entrera dans le champ une fois le catalogue en vigueur. C'est la ligne de partage qui compte : consommer un modèle à distance n'est pas l'installer ailleurs.</p>\n<p>En parallèle, les États-Unis ont ordonné à leurs agences civiles de cesser d'utiliser DeepSeek. La décision vise directement la Chine, accusée de surveiller les Américains, et les autorités évoquent aussi la présence possible de « malwares » cachés dans l'outil. Deux logiques distinctes — contrôle de la diffusion d'un côté, méfiance sur l'origine de l'autre — appliquées au même objet.</p>\n<h2>Et maintenant ?</h2>\n<p>Les cinq dépêches racontent la même bascule, chacune à sa manière : l'IA sort de la démonstration et entre dans les tuyaux. Un cadenas sur une messagerie, des failles trouvées par des modèles, un agent qui devient un produit au sens du droit européen, des États qui filtrent les modèles à l'export ou à l'import. Aucune de ces décisions ne porte sur la qualité d'un modèle ; toutes portent sur ce qu'il advient quand il tourne chez quelqu'un d'autre.</p>",
+ "pivot": "e6050cec4cc39211",
+ "tags": [
+  "chatgpt",
+  "sécurité",
+  "agents",
+  "deepseek"
+ ],
+ "sources": [
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/comme-whatsapp-chatgpt-met-enfin-vos-conversations-sous-cle.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/le-gouvernement-americain-banni-deepseek-lia-chinoise-est-accusee-de-surveillance-de-masse.html"
+  }
+ ],
+ "date": "2026-10-22T07:02:18+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1540,
+  "sortie": 2967
+ }
+}

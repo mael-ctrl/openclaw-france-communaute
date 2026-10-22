@@ -598,6 +598,49 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   sans modifier leur texte. Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-21/hub-sitemap/`.
 
+## Métadonnées des pages légales — livraison du 22/10/2026
+
+- **Une amélioration SEO** : `/mentions-legales/` et
+  `/politique-de-confidentialite/` ont chacune une canonical HTTPS unique,
+  cohérente avec le sitemap et `og:url`. Leurs descriptions de recherche et
+  de partage décrivent la page, sans les anciennes promesses « prêt en 24h »
+  et « Pack Tout-Inclus (Installation PRO) ». Images Open Graph absolues et
+  images Twitter ajoutées ; titres conservés, sitemap daté sur ces deux URL.
+- **Périmètre strict** : les deux corps HTML restent identiques octet pour
+  octet à la production précédente. Aucun texte juridique, style, script,
+  kit ou contenu du média modifié. Ceci ne valide pas la conformité juridique
+  du contenu : la politique comporte encore des références au parcours payant
+  et à Qonto, à auditer séparément avant toute réécriture.
+- Trois nouveaux tests reproduisent les défauts avant correction puis passent.
+  **33 tests hub OK**, **6 tests sur les réponses HTTPS publiques OK** ; les
+  neuf pages du sitemap ont maintenant une canonical unique correspondante.
+  Les deux en-têtes HTML publics correspondent exactement aux sources.
+- **Limite de la suite globale** : 186 tests exécutés, avec **6 erreurs** de
+  construction du média dues à une identité de brève dupliquée
+  (`amazon-investit-16-milliards-d-euros-en-allemagne-dans-le-cloud-et-l-i-ad21a5`).
+  Reproduction sur un worktree propre du commit initial `04ed0c5` : 183 tests,
+  **les mêmes 6 erreurs**, sans notre modification. Aucun moteur ni donnée
+  corrigé dans cette mission. Un premier essai avait aussi buté sur `/var` :
+  reprise avec `TMPDIR` dans le scratch Hermes, journaux séparés conservés.
+- Bureau inaccessible au cron (`Resource deadlock avoided`) : déploiement par
+  `python3 outils/deployer_openclaw.py` depuis le clone cron hors Bureau
+  `~/.hermes/workspaces/hub-openclaw-20261003`, après synchronisation Git.
+  Sauvegarde des **35 fichiers**, sans divergence production/Git ; **35 fichiers
+  relus via FTP**, tous identiques aux sources après envoi. Seuls les deux HTML
+  et le sitemap diffèrent de la sauvegarde. Dates/modes des sources restaurés
+  avant régénération : les deux ZIP restent intègres et inchangés octet pour octet.
+- Santé : **six URL demandées en HTTP 200** avant et après ; contrôle étendu
+  **16 URL en 200**, sans suivi de redirection. Sitemap, image, clé et ZIP
+  avec/sans `?v=2` identiques aux sources. **IndexNow HTTP 200** pour les deux
+  pages légales : notification acceptée, aucune indexation ni croissance mesurée.
+- **Aucune distribution supplémentaire** : contrôle du 22/10 déjà consigné
+  dans `docs/distribution-textes.md` ; le post Bluesky du 20/10 exclut cette
+  plateforme cette semaine. Aucun nouveau contact ni formulaire.
+  Prochaine priorité sur le hub : auditer le texte de confidentialité au regard
+  du parcours gratuit et des traitements réellement utilisés, sans inventer
+  de garanties. Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-22/hub-metadata-legales/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

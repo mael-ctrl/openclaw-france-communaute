@@ -84,30 +84,30 @@
  },
  {
   "id": "420968b05ee395b8",
-  "slug": "ibm-granite-la-prevision-par-ensemble-appliquee-aux-series-temporelles-420968",
-  "titre": "IBM Granite : la prévision par ensemble appliquée aux séries temporelles",
-  "resume": "IBM Research consacre un article, publié sur le blog Hugging Face, à la prévision par ensemble avec les modèles Granite dédiés aux séries temporelles. Le principe : combiner plusieurs modèles de prévision plutôt que de dépendre d'un seul, pour rendre les résultats moins sensibles aux erreurs de chacun. Une approche qui intéresse tous ceux qui doivent anticiper l'évolution de données chiffrées dans le temps.",
+  "slug": "prevision-d-ensemble-les-modeles-ibm-granite-pour-series-temporelles-420968",
+  "titre": "Prévision d'ensemble : les modèles IBM Granite pour séries temporelles",
+  "resume": "IBM Research signe sur Hugging Face un billet consacré à la prévision d'ensemble appliquée à ses modèles Granite dédiés aux séries temporelles. L'approche consiste à combiner plusieurs prévisions plutôt que d'en retenir une seule. Le billet traite de la mise en œuvre de cette méthode avec ces modèles.",
   "tags": [
    "recherche",
-   "dev",
-   "open-source"
+   "open-source",
+   "dev"
   ],
   "importance": 2,
   "source": "Hugging Face",
   "lien_source": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
   "date_source": null,
-  "date_redac": "2026-10-22T09:00:39+00:00",
+  "date_redac": "2026-10-22T08:47:48+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 586,
-   "sortie": 968
+   "sortie": 948
   }
  },
  {
   "id": "54c0200707ce414d",
   "slug": "meta-cree-une-classe-d-actions-sans-droit-de-vote-pour-financer-son-ia-54c020",
   "titre": "Meta crée une classe d'actions sans droit de vote pour financer son IA",
-  "resume": "Meta met en place une nouvelle classe d'actions sans droit de vote, effective au 19 janvier 2027, destinée à financer ses investissements dans l'IA, notamment auprès de fonds souverains. L'opération permet à Mark Zuckerberg de conserver 60,6 % des droits de vote tout en ouvrant la voie à de nouvelles levées de capitaux.",
+  "resume": "Meta met en place une nouvelle classe d'actions sans droit de vote, effective au 19 janvier 2027. L'objectif : financer ses investissements dans l'IA, notamment auprès de fonds souverains. L'opération permet à Mark Zuckerberg de conserver 60,6 % des droits de vote tout en ouvrant la voie à de nouvelles levées de capitaux.",
   "tags": [
    "meta",
    "business"
@@ -116,32 +116,53 @@
   "source": "ActuIA",
   "lien_source": "https://www.actuia.com/actualite/actions-sans-droit-de-vote-meta-prepare-ses-levees-pour-lia-et-zuckerberg-garde-le-controle/",
   "date_source": null,
-  "date_redac": "2026-10-22T09:00:32+00:00",
+  "date_redac": "2026-10-22T08:47:41+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 687,
-   "sortie": 325
+   "sortie": 358
   }
  },
  {
   "id": "66da132be7e30f51",
-  "slug": "walmart-impose-ses-regles-aux-agents-d-ia-avec-des-profils-dedies-66da13",
-  "titre": "Walmart impose ses règles aux agents d'IA avec des profils dédiés",
-  "resume": "Le distributeur américain a annoncé le 21 octobre 2026 des profils dédiés aux agents d'IA, assortis d'un plafond de dépenses et d'une passerelle MCP. Ses conditions d'utilisation lui permettent aussi de bloquer les agents non conformes. Walmart fixe ainsi lui-même les règles de l'achat délégué, là où Amazon a privilégié la voie judiciaire.",
+  "slug": "walmart-encadre-les-agents-d-ia-avec-des-profils-dedies-et-un-plafond--66da13",
+  "titre": "Walmart encadre les agents d'IA avec des profils dédiés et un plafond de dépenses",
+  "resume": "Le 21 octobre 2026, Walmart a annoncé des profils dédiés aux agents d'IA, avec plafond de dépenses, passerelle MCP et conditions d'utilisation permettant de bloquer les agents non conformes. Le distributeur américain fixe ainsi lui-même les règles de l'achat délégué sur sa plateforme. Amazon, de son côté, a privilégié la voie judiciaire.",
   "tags": [
    "agents",
    "business",
    "sécurité"
   ],
-  "importance": 3,
+  "importance": 4,
   "source": "ActuIA",
   "lien_source": "https://www.actuia.com/actualite/commerce-agentique-walmart-impose-ses-regles-aux-agents-dia/",
   "date_source": null,
-  "date_redac": "2026-10-22T09:00:29+00:00",
+  "date_redac": "2026-10-22T08:47:38+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 671,
-   "sortie": 519
+   "sortie": 470
+  }
+ },
+ {
+  "id": "fe4fa65d70b3c061",
+  "slug": "quels-modeles-ouverts-faire-tourner-sur-un-mac-un-projet-apache-2-0-in-fe4fa6",
+  "titre": "Quels modèles ouverts faire tourner sur un Mac ? Un projet Apache 2.0 interroge la communauté",
+  "resume": "Sur r/LocalLLaMA, un développeur demande quels modèles ouverts les utilisateurs font réellement tourner sur leur MacBook : Qwen3.8-Flash-Next, Qwen 35B, un modèle dense de 27B ou Nemotron Bolt. Lui-même revient systématiquement au 27B pour le code. Il développe un projet open source sous Apache 2.0, Kapitsa, compatible avec toutes les puces M, de la M1 aux M5 Ultra, et veut savoir quels modèles optimiser en priorité. Il affirme avoir atteint le SOTA en décodage et en prefill sur sa M4 Pro pour Qwen 35B et 27B.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcbzbh/real_question_for_people_running_open_models_on_a/",
+  "date_source": "2026-10-22T07:25:50+00:00",
+  "date_redac": "2026-10-22T08:47:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 768,
+   "sortie": 417
   }
  },
  {
@@ -188,24 +209,24 @@
  },
  {
   "id": "6210fd1aa13674c6",
-  "slug": "hermes-agent-publie-une-version-canary-v0-22-4-6210fd",
-  "titre": "Hermes Agent publie une version canary v0.22.4",
-  "resume": "Hermes Agent, le projet de NousResearch, met en ligne une nouvelle version canary identifiée v0.22.4+canary.20261022T070155Z. Le canal canary sert à distribuer des builds de test avant leur éventuelle stabilisation. Cette publication montre le rythme soutenu des itérations du projet. Elle intéresse surtout les développeurs qui suivent ou testent l'agent au plus près.",
+  "slug": "hermes-agent-une-build-canary-v0-22-4-datee-du-22-octobre-2026-6210fd",
+  "titre": "Hermes Agent : une build canary v0.22.4 datée du 22 octobre 2026",
+  "resume": "L'agent Hermes de NousResearch met en ligne une nouvelle build canary estampillée v0.22.4, horodatée du 22 octobre 2026 à 07h01 UTC. Une canary désigne une pré-version de test, publiée en amont de la version stable. Le tag reprend l'horodatage de la build, à la seconde près.",
   "tags": [
    "hermes",
    "agents",
-   "open-source",
-   "dev"
+   "dev",
+   "open-source"
   ],
-  "importance": 2,
+  "importance": 1,
   "source": "Hermes Agent (releases)",
   "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.4%2Bcanary.20261022T070155Z",
   "date_source": "2026-10-22T07:01:57+00:00",
-  "date_redac": "2026-10-22T09:00:20+00:00",
+  "date_redac": "2026-10-22T08:47:32+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 618,
-   "sortie": 145
+   "sortie": 1114
   }
  },
  {
@@ -479,24 +500,24 @@
  },
  {
   "id": "b956396e2897970a",
-  "slug": "claude-code-et-qwen-en-parallele-le-retour-d-experience-d-un-utilisate-b95639",
-  "titre": "Claude Code et Qwen en parallèle : le retour d'expérience d'un utilisateur",
-  "resume": "Sur r/LocalLLaMA, un utilisateur raconte avoir fait tourner deux instances de Claude Code en parallèle : l'une avec opus 5.5, l'autre avec Qwen Flash next q8, cette dernière étant épaulée sur une autre machine par un Mirai Qwen 27b q4. Il confie ne pas s'être autant amusé depuis longtemps, tout en regrettant qu'opus 5.5 soit nettement plus rapide et plus performant que ce qu'il peut exécuter avec Qwen. Il apprécie néanmoins les deux systèmes.",
+  "slug": "un-utilisateur-fait-tourner-claude-code-et-qwen-en-parallele-sur-ses-p-b95639",
+  "titre": "Un utilisateur fait tourner Claude Code et Qwen en parallèle sur ses projets",
+  "resume": "Sur r/LocalLLaMA, un utilisateur raconte avoir lancé deux instances de Claude Code en parallèle : l'une sur Opus 5.5, l'autre sur Qwen Flash en quantification q8, avec une aide sur un second poste (Mirai Qwen 27b q4). Il se dit frustré de constater qu'Opus 5.5 est bien plus rapide et performant que ce qu'il peut exécuter localement avec Qwen, mais apprécie malgré tout l'ensemble du dispositif. Ce retour illustre l'écart persistant entre les modèles propriétaires haut de gamme et les modèles ouverts exécutés sur son propre matériel.",
   "tags": [
    "claude",
-   "open-source",
    "agents",
+   "open-source",
    "dev"
   ],
-  "importance": 1,
+  "importance": 2,
   "source": "r/LocalLLaMA",
   "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc5f4d/i_may_be_late_to_the_game_but_this_is_fun/",
   "date_source": "2026-10-22T01:30:57+00:00",
-  "date_redac": "2026-10-22T09:00:25+00:00",
+  "date_redac": "2026-10-22T08:47:34+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 836,
-   "sortie": 675
+   "sortie": 202
   }
  },
  {

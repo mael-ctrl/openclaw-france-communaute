@@ -1,5 +1,89 @@
 [
  {
+  "id": "10a8b4888b8eb673",
+  "slug": "anthropic-lance-claude-duet-un-agent-ia-qui-travaille-en-arriere-plan-10a8b4",
+  "titre": "Anthropic lance Claude Duet, un agent IA qui travaille en arrière-plan",
+  "resume": "Anthropic lance Claude Duet, une application qui transforme Claude en assistant personnel. L'agent surveille vos applications, envoie un résumé chaque matin et exécute des tâches en arrière-plan depuis une machine virtuelle hébergée dans le cloud. Le positionnement est le même que celui de Muse chez Meta et de Dots chez OpenAI : un agent qui travaille pour l'utilisateur plutôt qu'un simple chatbot.",
+  "tags": [
+   "claude",
+   "agents",
+   "meta",
+   "openai"
+  ],
+  "importance": 4,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2358555-anthropic-devoile-claude-duet-un-agent-ia-qui-travaille-pour-vous-comme-muse-meta-et-dots-openai.html",
+  "date_source": null,
+  "date_redac": "2026-10-22T09:00:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 672,
+   "sortie": 558
+  }
+ },
+ {
+  "id": "420968b05ee395b8",
+  "slug": "ibm-granite-la-prevision-par-ensemble-appliquee-aux-series-temporelles-420968",
+  "titre": "IBM Granite : la prévision par ensemble appliquée aux séries temporelles",
+  "resume": "IBM Research consacre un article, publié sur le blog Hugging Face, à la prévision par ensemble avec les modèles Granite dédiés aux séries temporelles. Le principe : combiner plusieurs modèles de prévision plutôt que de dépendre d'un seul, pour rendre les résultats moins sensibles aux erreurs de chacun. Une approche qui intéresse tous ceux qui doivent anticiper l'évolution de données chiffrées dans le temps.",
+  "tags": [
+   "recherche",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Hugging Face",
+  "lien_source": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+  "date_source": null,
+  "date_redac": "2026-10-22T09:00:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 586,
+   "sortie": 968
+  }
+ },
+ {
+  "id": "54c0200707ce414d",
+  "slug": "meta-cree-une-classe-d-actions-sans-droit-de-vote-pour-financer-son-ia-54c020",
+  "titre": "Meta crée une classe d'actions sans droit de vote pour financer son IA",
+  "resume": "Meta met en place une nouvelle classe d'actions sans droit de vote, effective au 19 janvier 2027, destinée à financer ses investissements dans l'IA, notamment auprès de fonds souverains. L'opération permet à Mark Zuckerberg de conserver 60,6 % des droits de vote tout en ouvrant la voie à de nouvelles levées de capitaux.",
+  "tags": [
+   "meta",
+   "business"
+  ],
+  "importance": 3,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/actions-sans-droit-de-vote-meta-prepare-ses-levees-pour-lia-et-zuckerberg-garde-le-controle/",
+  "date_source": null,
+  "date_redac": "2026-10-22T09:00:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 687,
+   "sortie": 325
+  }
+ },
+ {
+  "id": "66da132be7e30f51",
+  "slug": "walmart-impose-ses-regles-aux-agents-d-ia-avec-des-profils-dedies-66da13",
+  "titre": "Walmart impose ses règles aux agents d'IA avec des profils dédiés",
+  "resume": "Le distributeur américain a annoncé le 21 octobre 2026 des profils dédiés aux agents d'IA, assortis d'un plafond de dépenses et d'une passerelle MCP. Ses conditions d'utilisation lui permettent aussi de bloquer les agents non conformes. Walmart fixe ainsi lui-même les règles de l'achat délégué, là où Amazon a privilégié la voie judiciaire.",
+  "tags": [
+   "agents",
+   "business",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/commerce-agentique-walmart-impose-ses-regles-aux-agents-dia/",
+  "date_source": null,
+  "date_redac": "2026-10-22T09:00:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 519
+  }
+ },
+ {
   "id": "e6050cec4cc39211",
   "slug": "chatgpt-verrouille-vos-conversations-sensibles-derriere-un-code-a-quat-e6050c",
   "titre": "ChatGPT verrouille vos conversations sensibles derrière un code à quatre chiffres",
@@ -39,6 +123,28 @@
    "modele": "deepseek-flash",
    "entree": 664,
    "sortie": 629
+  }
+ },
+ {
+  "id": "6210fd1aa13674c6",
+  "slug": "hermes-agent-publie-une-version-canary-v0-22-4-6210fd",
+  "titre": "Hermes Agent publie une version canary v0.22.4",
+  "resume": "Hermes Agent, le projet de NousResearch, met en ligne une nouvelle version canary identifiée v0.22.4+canary.20261022T070155Z. Le canal canary sert à distribuer des builds de test avant leur éventuelle stabilisation. Cette publication montre le rythme soutenu des itérations du projet. Elle intéresse surtout les développeurs qui suivent ou testent l'agent au plus près.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.4%2Bcanary.20261022T070155Z",
+  "date_source": "2026-10-22T07:01:57+00:00",
+  "date_redac": "2026-10-22T09:00:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 145
   }
  },
  {
@@ -308,6 +414,28 @@
    "modele": "deepseek-flash",
    "entree": 706,
    "sortie": 563
+  }
+ },
+ {
+  "id": "b956396e2897970a",
+  "slug": "claude-code-et-qwen-en-parallele-le-retour-d-experience-d-un-utilisate-b95639",
+  "titre": "Claude Code et Qwen en parallèle : le retour d'expérience d'un utilisateur",
+  "resume": "Sur r/LocalLLaMA, un utilisateur raconte avoir fait tourner deux instances de Claude Code en parallèle : l'une avec opus 5.5, l'autre avec Qwen Flash next q8, cette dernière étant épaulée sur une autre machine par un Mirai Qwen 27b q4. Il confie ne pas s'être autant amusé depuis longtemps, tout en regrettant qu'opus 5.5 soit nettement plus rapide et plus performant que ce qu'il peut exécuter avec Qwen. Il apprécie néanmoins les deux systèmes.",
+  "tags": [
+   "claude",
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc5f4d/i_may_be_late_to_the_game_but_this_is_fun/",
+  "date_source": "2026-10-22T01:30:57+00:00",
+  "date_redac": "2026-10-22T09:00:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 836,
+   "sortie": 675
   }
  },
  {

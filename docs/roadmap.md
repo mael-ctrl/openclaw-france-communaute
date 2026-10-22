@@ -87,6 +87,12 @@ Les autres dépendances (GSC, chaîne/OAuth, newsletter, distribution, offre Sko
 - Base `2f97abc` : **892 brèves, neuf pages de catalogue, 492 pages hors fil**. Titres/résumés et sources comparés aux 492 corps HTTPS avant déploiement. **142 Python + 4 Node**, 1 405 sorties existantes identiques, six changements attendus, 993 ajouts ; 315 fichiers de données préservés. Essai sans rédaction et navigation sans JS mobile/desktop réussis.
 - **Complément de gouvernance du soir :** relance cloud `39233246104` réussie, 143 tests et 1 525 envois confirmés dans les logs. À 21:03, dix pages du catalogue répondent 200 ; 937 liens uniques sans répétition inter-page, identiques au sitemap et aux données sauvegardées `92cd47e`. Trois brèves hors fil répondent 200, titre/source présents et dates JSON-LD non étayées absentes. **Ce contrôle borné ne remplace pas une comparaison exhaustive des HTML post-déploiement**, encore à consigner dans [le dossier du chantier](archives-conservees.md). Réconciliation historique complète et listings hors archives ouverts ; aucun lot préparatoire intégré par cette revue.
 
+## Chantier quotidien du 22/10 — listings des ressources (suite #5)
+
+- **Une seule intégration en cours :** trois règles natives `Options -Indexes` copiées depuis les sources vers les dossiers de ressources. Préflight SFTP : cibles absentes, racine et CORS Skool sauvegardés ; six listings HTTPS confirmés. Aucun autre chantier intégré, aucune purge ni contrôle de paiement ajouté.
+- **Recette locale :** rouge/vert sur deux builds ; **183 Python + 4 Node**, deux builds isolés avec **3 108 sorties existantes identiques**, trois ajouts seulement et **389 données préservées**. Essai sans rédaction réussi (collecte partielle documentée). [Contrat, provenance et preuves](ressources-autoindex.md).
+- **Publication à vérifier :** cloud, trois règles SFTP et HTTPS après déploiement. L'alias OVH et les chemins historiques inconnus restent distincts ; ne pas déclarer toute la surface technique fermée.
+
 ## Chantier quotidien du 21/10 — confidentialité Hermes cohérente
 
 - **Une seule intégration**, lot n° 1 prêt dans le relais du matin : page `/hermes/#confidentialite`, README et ZIP Hermes harmonisés avec le GUIDE déjà corrigé. Aucune commande, condition commerciale, infrastructure ou archive OpenClaw changée. [Contrat et preuves](hub-hermes-confidentialite.md).

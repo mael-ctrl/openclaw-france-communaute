@@ -1,5 +1,130 @@
 [
  {
+  "id": "b9ea03855617922f",
+  "slug": "openai-anthropic-et-nvidia-signent-leur-trimestre-de-lobbying-le-plus--b9ea03",
+  "titre": "OpenAI, Anthropic et Nvidia signent leur trimestre de lobbying le plus coûteux",
+  "resume": "Entre juillet et septembre, OpenAI, Anthropic et Nvidia ont chacun enregistré leur trimestre le plus dépensier en lobbying, selon les déclarations fédérales. Nvidia arrive en tête avec 2,2 millions de dollars, devant Anthropic (2,1 millions) et OpenAI (1,5 million). Ces montants illustrent la place grandissante des acteurs de l'IA dans les débats réglementaires à Washington.",
+  "tags": [
+   "openai",
+   "claude",
+   "business"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+  "date_source": "2026-10-22T15:50:30+00:00",
+  "date_redac": "2026-10-22T16:07:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 674,
+   "sortie": 510
+  }
+ },
+ {
+  "id": "7f98bbd176132b80",
+  "slug": "pour-armin-ronacher-l-ia-nous-fait-payer-trente-ans-de-mauvais-logicie-7f98bb",
+  "titre": "Pour Armin Ronacher, l'IA nous fait payer trente ans de mauvais logiciels",
+  "resume": "Simon Willison relaie une citation d'Armin Ronacher : « aussi amusante l'IA soit-elle, on a construit tant de mauvais logiciels en trente ans que l'univers nous punit pour nos péchés ». Derrière l'ironie, le constat porte sur l'état du code accumulé dans nos systèmes. Willison classe la phrase dans ses notes sur la sécurité, la recherche en sécurité de l'IA et les LLM.",
+  "tags": [
+   "sécurité",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+  "date_source": "2026-10-22T15:34:13+00:00",
+  "date_redac": "2026-10-22T16:08:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 666,
+   "sortie": 868
+  }
+ },
+ {
+  "id": "5def0024b2125cdc",
+  "slug": "modeles-denses-locaux-ou-sont-passees-les-avancees-de-vitesse-5def00",
+  "titre": "Modèles denses locaux : où sont passées les avancées de vitesse ?",
+  "resume": "Sur r/LocalLLaMA, un internaute demande quand viendra la prochaine avancée pour accélérer les modèles denses locaux. Les gains viennent surtout de la réduction des paramètres actifs face aux totaux (MoE), au prix de la stabilité, un dense de 27B restant plus fiable. Depuis MTP, les denses n'auraient plus reçu d'attention architecturale, hors finetunes réduisant les tokens de raisonnement.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xclt9s/when_will_we_have_another_breakthrough_for_faster/",
+  "date_source": "2026-10-22T15:32:14+00:00",
+  "date_redac": "2026-10-22T16:08:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 737,
+   "sortie": 1272
+  }
+ },
+ {
+  "id": "a79aecf848849869",
+  "slug": "inclusionai-publie-ling-3-0-flash-sante-modele-medical-de-124b-a79aec",
+  "titre": "InclusionAI publie Ling-3.0-flash-Sante, modèle médical de 124B",
+  "resume": "InclusionAI enchaîne : après la mise à jour 3.1-flash-1019 annoncée plus tôt dans la journée, voici Ling-3.0-flash-Sante. Ce modèle dérivé de Ling-3.0-flash compte 124 milliards de paramètres, dont 5,1 milliards actifs par token, avec un contexte de 256K. Il cible le raisonnement médical, la recherche documentaire et les usages assistés par outils ; les poids sont déjà sur Hugging Face.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcljvi/ant_ling_just_announced_a_second_model_today/",
+  "date_source": "2026-10-22T15:22:41+00:00",
+  "date_redac": "2026-10-22T16:08:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 824,
+   "sortie": 760
+  }
+ },
+ {
+  "id": "31420c98cda7f65f",
+  "slug": "ling-3-0-flash-sante-un-modele-medical-de-124b-parametres-chez-inclusi-31420c",
+  "titre": "Ling-3.0-flash-Sante : un modèle médical de 124B paramètres chez inclusionAI",
+  "resume": "inclusionAI publie Ling-3.0-flash-Sante, un modèle santé bâti sur Ling-3.0-flash — son nom vient du mot français « santé ». Il affiche 124 milliards de paramètres, pour 5,1 milliards activés par token, et vise le raisonnement médical comme les workflows assistés par outils. Les poids sont sur Hugging Face et ModelScope. L'éditeur rappelle qu'il s'agit d'un modèle de recherche, pas d'un dispositif médical.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "société"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xclfkp/inclusionailing30flashsante_hugging_face/",
+  "date_source": "2026-10-22T15:18:35+00:00",
+  "date_redac": "2026-10-22T16:08:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 819,
+   "sortie": 947
+  }
+ },
+ {
+  "id": "cf26346759f1df3c",
+  "slug": "deux-failles-dans-php-mettent-une-large-part-du-web-en-danger-cf2634",
+  "titre": "Deux failles dans PHP mettent une large part du web en danger",
+  "resume": "Deux vulnérabilités trouvées dans le langage de programmation PHP exposent une très large partie d'internet. Selon certaines estimations, jusqu'à 70 % des sites web utilisent PHP d'une manière ou d'une autre. Le langage fait tourner Wikipédia, WordPress, Drupal et d'autres plateformes populaires, dont DeviantArt et 4chan, temporairement fermés après l'incident.",
+  "tags": [
+   "sécurité",
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down",
+  "date_source": "2026-10-22T15:12:27+00:00",
+  "date_redac": "2026-10-22T16:08:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 661,
+   "sortie": 427
+  }
+ },
+ {
   "id": "13cfbfc277223fd2",
   "slug": "huit-rtx-5090-et-4090-au-connecteur-16-broches-fondu-en-deux-jours-13cfbf",
   "titre": "Huit RTX 5090 et 4090 au connecteur 16 broches fondu en deux jours",

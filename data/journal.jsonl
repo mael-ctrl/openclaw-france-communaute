@@ -2751,3 +2751,12 @@
 {"ts": "2026-10-21T22:19:08+00:00", "evenement": "deploiement", "details": {"fichiers": 1563, "octets": 31004129}, "sha256": "521160e82f835e7da6020421f854f4cfa3c7a69eb92a892628584934074693f9"}
 {"ts": "2026-10-21T22:19:09+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "6ca5fcdd5f8c1673b0d5be313eaa5145583128acbbc23e65a41c665a082a6ab3"}
 {"ts": "2026-10-21T22:19:09+00:00", "evenement": "bilan", "details": {"duree_s": 1341.9, "neufs": 19, "breves": 6, "articles": 1, "fichiers": 1527, "envois": 1563, "publications": 0}, "sha256": "884ecaa9f105b311bb824d083ac28d66358c495b7eb85602a56b5c57157e94f4"}
+{"ts": "2026-10-22T00:43:08+00:00", "evenement": "collecte", "details": {"neufs": 12}, "sha256": "afe3ee44035a8819bfdb17ad6ee7a49b995594cbbfa75d9aa095685ac94e3064"}
+{"ts": "2026-10-22T00:43:41+00:00", "evenement": "erreur", "details": {"message": "brève impossible (v2.1.307) : réponse non-JSON"}, "sha256": "bce4f5111dfff426f3afd53bc6dc353da883037c822956428c17671e5d07eef8"}
+{"ts": "2026-10-22T00:44:21+00:00", "evenement": "construction", "details": {"fichiers": 1533}, "sha256": "16d2380789d92fd251876da5bdeb90d059b5aea40d3be78312dbf15f9adf36df"}
+{"ts": "2026-10-22T01:12:20+00:00", "evenement": "deploiement", "details": {"fichiers": 1568, "octets": 31060774}, "sha256": "9828023f37e53c428517be244741b58d0f2a7545586336fc560ee0b14eeb3818"}
+{"ts": "2026-10-22T01:12:21+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "75620c779615ee4f538e639b8426743f8fb8b808b534aec1f311ee72c029e75a"}
+{"ts": "2026-10-22T01:12:28+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 1}, "sha256": "34aecf2b547fb35d7b2c31412af35b8a27e8eea0c5ec8d82ff0e152d63665d80"}
+{"ts": "2026-10-22T01:12:39+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "838ce139812cb89774a1298f57004b1626ce6208f5accc2a599ea9548e7a08d1"}
+{"ts": "2026-10-22T01:12:39+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-22.json", "publications": 1499}, "sha256": "a99b5c547c16df5938d77b2c9d92922723a7a80a4989ca41291050f59dd53c5e"}
+{"ts": "2026-10-22T01:12:39+00:00", "evenement": "bilan", "details": {"duree_s": 1828.4, "neufs": 12, "breves": 5, "articles": 1, "fichiers": 1533, "envois": 1568, "publications": 4}, "sha256": "7ea040f6627984deec70cc62556611c7d632462c4f3c1af2bc5e1aac35f5d121"}

@@ -1,5 +1,108 @@
 [
  {
+  "id": "6f4b1fbf8c72e9c3",
+  "slug": "recursive-flint-un-modele-40b-pour-agents-de-code-2-5b-parametres-acti-6f4b1f",
+  "titre": "Recursive Flint : un modèle 40B pour agents de code, 2,5B paramètres actifs",
+  "resume": "Recursive Flint est un modèle pour agents de code : 40 milliards de paramètres, dont 2,5 milliards actifs seulement. Il dépasse Qwen3.6-35B-A3B sur TerminalBench 2.1 et SWE-bench Pro v2, et l'égale ou le devance sur les autres benchmarks retenus. Architecture : attention à fenêtre glissante et attention complète en ratio 3:1, contexte de 262k tokens. Des GGUF Unsloth et une PR pour llama.cpp sont déjà disponibles.",
+  "tags": [
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc23iq/recursive_flint_the_qwen38_35b_weve_all_been/",
+  "date_source": "2026-10-21T22:55:43+00:00",
+  "date_redac": "2026-10-22T00:43:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 837,
+   "sortie": 1127
+  }
+ },
+ {
+  "id": "e5c54262155d3167",
+  "slug": "pour-blackstone-les-craintes-sur-la-dette-liee-a-l-ia-sont-exagerees-e5c542",
+  "titre": "Pour Blackstone, les craintes sur la dette liée à l'IA sont exagérées",
+  "resume": "Jas Khaira, le responsable IA du fonds de private equity Blackstone, estime que les inquiétudes du marché autour de la dette contractée pour financer le déploiement de l'IA sont excessives. Il explique pourquoi le groupe ne cède pas à la panique face aux tensions du marché.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+  "date_source": "2026-10-21T22:51:22+00:00",
+  "date_redac": "2026-10-22T00:43:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 627,
+   "sortie": 703
+  }
+ },
+ {
+  "id": "eb652e4d458c3dda",
+  "slug": "les-data-centers-pourraient-annuler-des-decennies-de-gains-sur-la-qual-eb652e",
+  "titre": "Les data centers pourraient annuler des décennies de gains sur la qualité de l'air",
+  "resume": "Une vague de nouveaux data centers menace de ramener la pollution de l'air à des niveaux inédits depuis les années 2000 au Texas. L'État est devenu le point d'ancrage des infrastructures physiques qui font tourner l'IA générative. Les centres existants et ceux en projet réclament une quantité considérable d'électricité, et la manière dont les promoteurs et les utilities répondront à cette demande pèsera directement sur la qualité de l'air.",
+  "tags": [
+   "société",
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+  "date_source": "2026-10-21T22:33:44+00:00",
+  "date_redac": "2026-10-22T00:43:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 648,
+   "sortie": 492
+  }
+ },
+ {
+  "id": "a25ffe7ee6cb0d43",
+  "slug": "abliteratedoutthebox-retirer-le-refus-d-un-modele-au-moment-de-l-infer-a25ffe",
+  "titre": "AbliteratedOutTheBox : retirer le refus d'un modèle au moment de l'inférence",
+  "resume": "AbliteratedOutTheBox est un fork de llama.cpp qui « abliterate » n'importe quel modèle au chargement, directement à l'inférence, sans fine-tuning ni fichiers supplémentaires. La manipulation se fait sans coût additionnel en VRAM, ce qui supprime les étapes habituellement nécessaires pour produire une version abliterée d'un modèle. Le projet est publié sur GitHub par heterodoxin.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc1e9y/inference_time_abliteration/",
+  "date_source": "2026-10-21T22:24:42+00:00",
+  "date_redac": "2026-10-22T00:43:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 665,
+   "sortie": 138
+  }
+ },
+ {
+  "id": "53122623e6441e03",
+  "slug": "sur-un-modele-4b-les-appels-d-outils-ne-sont-pas-ce-qui-fait-echouer-l-531226",
+  "titre": "Sur un modèle 4B, les appels d'outils ne sont pas ce qui fait échouer les agents",
+  "resume": "Dix agents (Pi, goose, Crush, Cline, OpenClaw, OpenCode, Hermes, Qwen Code, Codex CLI, Atomic Agent) ont été lancés sur Qwen3.5-4B Q4_K_M, servi par un llama-server en 64K de contexte sur un MacBook Pro M5 32 Go. Cinq petites tâches, une exécution chacun, validation par script : six passent tout. Les appels d'outils malformés, attendus comme cause principale des échecs, ne ressortent pas des logs.",
+  "tags": [
+   "agents",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xc0dc2/what_actually_breaks_agents_on_a_4b_model_notes/",
+  "date_source": "2026-10-21T21:42:25+00:00",
+  "date_redac": "2026-10-22T00:43:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 940,
+   "sortie": 940
+  }
+ },
+ {
   "id": "7af5d795af60b8e6",
   "slug": "meta-cree-une-nouvelle-classe-d-actions-pour-financer-son-effort-dans--7af5d7",
   "titre": "Meta crée une nouvelle classe d'actions pour financer son effort dans l'IA",

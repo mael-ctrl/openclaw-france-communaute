@@ -1,0 +1,41 @@
+{
+ "slug": "recursive-flint-40b-de-parametres-2-5b-actifs-et-le-code-en--6f4b1f",
+ "titre": "Recursive Flint : 40B de paramètres, 2,5B actifs, et le code en ligne de mire",
+ "chapo": "Un modèle de 40 milliards de paramètres qui n'en active que 2,5 : sur le papier, Recursive Flint est taillé pour les agents de code. La même semaine, Mistral étend sa voix à plus de 50 langues, Bruxelles range les agents dans la catégorie des produits et Pékin filtre leurs technologies à l'export.",
+ "html": "<h2 id=\"un-40b-qui-ne-reveille-que-2-5-milliards\">Un 40B qui ne réveille que 2,5 milliards de paramètres</h2>\n<p>Recursive Flint affiche 40 milliards de paramètres, mais n'en active que 2,5 milliards. Ce déséquilibre est l'argument central du modèle : la capacité d'un gros modèle, avec le coût d'inférence d'un petit. C'est en tout cas ce que revendique la publication d'origine sur r/LocalLLaMA, qui le positionne explicitement comme un modèle pour agents de code.</p>\n<p>Sur <strong>TerminalBench 2.1</strong> et <strong>SWE-bench Pro v2</strong>, Recursive Flint dépasse Qwen3.6-35B-A3B. Sur les autres benchmarks retenus par la source, il l'égale ou le devance. Autrement dit : une comparaison à périmètre donné, pas un classement général tous usages confondus.</p>\n<p>Côté architecture, le modèle alterne attention à fenêtre glissante et attention complète selon un ratio <strong>3:1</strong>, avec un contexte de <strong>262k tokens</strong>. Et surtout, les GGUF Unsloth et une PR pour llama.cpp sont déjà disponibles : de quoi le faire tourner en local sans attendre des semaines.</p>\n<h2 id=\"mistral-passe-a-la-voix-et-change-d-eche\">Mistral passe à la voix, et change d'échelle</h2>\n<p>De son côté, Mistral AI a présenté le mardi 20 octobre 2026 <strong>Voxtral 3</strong>, une famille de modèles vocaux qui transcrit plus de <strong>50 langues</strong> et en parle plus de <strong>35</strong>. Ces modèles servent aussi de base à un kit destiné à construire des agents vocaux — la brique parle donc autant aux intégrateurs qu'aux équipes produit.</p>\n<p>Le chiffre le plus parlant est ailleurs. En mars, le premier modèle de synthèse vocale de Mistral ne gérait que <strong>9 langues</strong>. L'écart entre les deux annonces mesure le chemin parcouru. Il situe aussi la distance restante : ElevenLabs, la référence du secteur, en couvre <strong>90</strong>.</p>\n<h2 id=\"responsabilite-l-agent-devient-un-produi\">Responsabilité : l'agent devient un produit</h2>\n<p>Pendant que les modèles progressent, le cadre juridique se referme. La directive <strong>(UE) 2024/2853</strong>, à transposer au plus tard le <strong>9 décembre 2026</strong>, fait du logiciel — SaaS compris — un produit. Conséquence directe : qui développe ou vend sous sa marque un agent IA devient <strong>fabricant</strong>, et donc responsable sans faute des lésions, des atteintes psychologiques médicalement reconnues et des destructions de données non professionnelles causées par un défaut.</p>\n<p>Le texte prévoit aussi une clause de réouverture : une mise à jour substantielle effectuée après cette date fait entrer un agent existant dans le régime. Un agent livré en 2025 et retravaillé en 2027 ne reste pas à l'abri.</p>\n<p>À l'autre bout de la chaîne, Pékin a imposé depuis le <strong>16 octobre 2026</strong> une déclaration préalable pour exporter <strong>40 technologies</strong>, dont <strong>23</strong> en IA. La consultation court jusqu'au 15 novembre. Le ministère du Commerce précise deux exclusions : l'appel d'un modèle par API et les technologies publiées en open source restent hors champ. En revanche, le déploiement localisé hors de Chine d'un modèle restreint entrera dans le champ une fois le catalogue en vigueur.</p>\n<h2 id=\"echotribble-l-agent-qui-n-attend-pas-gra\">ECHOTRIBBLE : l'agent qui n'attend pas grand monde</h2>\n<p>Le terrain militaire avance sur un autre registre. Selon une enquête de <strong>The Intercept</strong> publiée le <strong>19 octobre 2026</strong>, l'armée américaine veut confier à des agents IA des missions offensives : explorer des réseaux, se propager d'un appareil à l'autre, neutraliser des cibles. Le projet s'appelle <strong>ECHOTRIBBLE</strong> et reste en développement.</p>\n<p>La formulation employée par le projet — « supervision humaine minimale » — est celle qui retient l'attention. Elle décrit moins un garde-fou qu'un curseur réglé bas, et pose la question du contrôle humain sur des systèmes dont on accepte qu'ils se déplacent seuls d'une machine à l'autre.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches dessinent trois vitesses. Les modèles, d'abord : un 40B à 2,5 milliards d'actifs et des GGUF déjà prêts montrent que la course se joue désormais autant sur le coût d'inférence que sur les scores. Le droit ensuite, avec une directive qui transforme le vendeur d'agent en fabricant responsable et un catalogue chinois qui épargne l'API mais pas le déploiement localisé. L'usage enfin, où l'armée américaine assume une supervision humaine réduite. Aucune de ces trois vitesses ne ralentit pour attendre les autres.</p>",
+ "pivot": "6f4b1fbf8c72e9c3",
+ "tags": [
+  "open-source",
+  "agents",
+  "mistral",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc23iq/recursive_flint_the_qwen38_35b_weve_all_been/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3293341_face-a-elevenlabs-et-ses-90-langues-mistral-degaine-voxtral-3"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/agents-ia-ce-que-la-directive-europeenne-fera-payer-aux-entreprises-qui-les-vendent/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2356515-supervision-humaine-minimale-larmee-americaine-veut-envoyer-des-agents-ia-pirater-ses-ennemis.html"
+  }
+ ],
+ "date": "2026-10-22T00:44:07+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1663,
+  "sortie": 2954
+ }
+}

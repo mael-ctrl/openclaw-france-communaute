@@ -1,5 +1,67 @@
 [
  {
+  "id": "13cfbfc277223fd2",
+  "slug": "huit-rtx-5090-et-4090-au-connecteur-16-broches-fondu-en-deux-jours-13cfbf",
+  "titre": "Huit RTX 5090 et 4090 au connecteur 16 broches fondu en deux jours",
+  "resume": "Un atelier de réparation a reçu huit cartes GeForce RTX 5090 et RTX 4090 en seulement deux jours, avec à chaque fois un connecteur d'alimentation 16 broches fondu. Le signalement a été publié sur le subreddit r/LocalLLaMA. Les deux générations de cartes sont concernées, ce qui intéresse directement ceux qui assemblent des machines pour faire tourner des modèles en local.",
+  "tags": [
+   "matériel",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xckdep/repair_shop_receives_eight_geforce_rtx_5090_and/",
+  "date_source": "2026-10-22T14:38:31+00:00",
+  "date_redac": "2026-10-22T15:05:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 637,
+   "sortie": 767
+  }
+ },
+ {
+  "id": "792a948421449e51",
+  "slug": "chat-templates-inverses-mistral-small-3-24b-meilleur-pour-imiter-l-hum-792a94",
+  "titre": "Chat templates inversés : Mistral Small 3 24B meilleur pour imiter l'humain",
+  "resume": "Un membre de r/LocalLLaMA a retourné les chat templates pour laisser des modèles affinés sur instructions générer les tours censés venir de l'utilisateur. Sur une trentaine de modèles testés, Mistral Small 3 24B arrive en tête, et GPT 6 Astra se distingue sur l'identification de texte à consonance humaine. L'expérience montre aussi que le détournement du chat template imite mieux le comportement humain qu'un simple prompt système de roleplay. Le code est publié sur GitHub.",
+  "tags": [
+   "recherche",
+   "mistral",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xck4tl/i_tried_reversing_chat_templates_to_see_which/",
+  "date_source": "2026-10-22T14:29:13+00:00",
+  "date_redac": "2026-10-22T15:05:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 812,
+   "sortie": 403
+  }
+ },
+ {
+  "id": "9ec0f0955ef69cae",
+  "slug": "bill-gates-previent-de-vingt-ans-de-bouleversements-lies-a-l-ia-9ec0f0",
+  "titre": "Bill Gates prévient de vingt ans de bouleversements liés à l'IA",
+  "resume": "Bill Gates, cofondateur et ancien PDG de Microsoft et président de la Gates Foundation, prévient qu'il faut se préparer à vingt ans de bouleversements liés à l'IA. L'entretien accordé à The Verge s'inscrit dans une tournée médiatique entamée après la publication, fin août, d'un essai intitulé « The turbulent AI era is… ».",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+  "date_source": "2026-10-22T14:00:00+00:00",
+  "date_redac": "2026-10-22T15:05:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 903
+  }
+ },
+ {
   "id": "34dc8f61df24ce6c",
   "slug": "qwen4-et-kimi3-1-apparaitraient-sur-arena-selon-un-post-reddit-34dc8f",
   "titre": "Qwen4 et Kimi3.1 apparaîtraient sur Arena, selon un post Reddit",
@@ -17,6 +79,26 @@
    "modele": "deepseek-flash",
    "entree": 627,
    "sortie": 1089
+  }
+ },
+ {
+  "id": "8c6807a271e441af",
+  "slug": "un-reseau-de-neurones-utilise-comme-controle-de-version-et-stockage-8c6807",
+  "titre": "Un réseau de neurones utilisé comme contrôle de version et stockage",
+  "resume": "Sur le subreddit r/LocalLLaMA, un internaute partage une démo dans laquelle un réseau de neurones sert de contrôle de version et de stockage. Il parle d'un concept « assez intéressant » et demande des idées de cas d'usage à la communauté. Aucun détail technique n'accompagne le message : la discussion porte pour l'instant sur les usages possibles.",
+  "tags": [
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xciz5s/using_a_neural_network_as_version_control_storage/",
+  "date_source": "2026-10-22T13:44:09+00:00",
+  "date_redac": "2026-10-22T15:05:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 624,
+   "sortie": 1073
   }
  },
  {

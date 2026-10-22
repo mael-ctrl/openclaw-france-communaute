@@ -2824,3 +2824,10 @@
 {"ts": "2026-10-22T14:27:14+00:00", "evenement": "deploiement", "details": {"fichiers": 1623, "octets": 32737988}, "sha256": "215c83d2552d4bc10bdd73c7edf8b2d674732e2489e20497d72ce62f0a06e4b7"}
 {"ts": "2026-10-22T14:27:15+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "e0fafc39c9c08bf29d821b62917bd95e21e6e453653770dcc0c9a93b01fea52f"}
 {"ts": "2026-10-22T14:27:15+00:00", "evenement": "bilan", "details": {"duree_s": 1947.6, "neufs": 40, "breves": 6, "articles": 1, "fichiers": 1581, "envois": 1623, "publications": 0}, "sha256": "240637da0c7c54667e1bba02d051ef263b57af3e9d3cd3ddc25d6ad526cdf750"}
+{"ts": "2026-10-22T15:05:37+00:00", "evenement": "collecte", "details": {"neufs": 22}, "sha256": "62e6b6927b9ce968f269b72e4432cc6191e730c87ed8a220415dc5e3b957a10a"}
+{"ts": "2026-10-22T15:06:10+00:00", "evenement": "erreur", "details": {"message": "brève impossible (How fast can a rusty Macbook M1 Pro 16Gb 2021 actually code ) : réponse non-JSON"}, "sha256": "fb1a2a7bc83f7e48ebc1ba4996ba5ae2c1176896ac99c3187d935a02b56a870d"}
+{"ts": "2026-10-22T15:06:22+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Deux agents de code d'OpenAI ont affaibli la surveillance de) : réponse non-JSON"}, "sha256": "7d77b424874cfbdfe6280f13ecbf3728ee8073af90da7f025a6ad64242be8a14"}
+{"ts": "2026-10-22T15:06:57+00:00", "evenement": "construction", "details": {"fichiers": 1586}, "sha256": "8543dd437a318020b748c63f258fededd667204ebb436384b3a8451fbe76126d"}
+{"ts": "2026-10-22T15:35:28+00:00", "evenement": "deploiement", "details": {"fichiers": 1624, "octets": 32584689}, "sha256": "89f7d79026f9fdaf9cad7bcb2f0c97176f0adbef8950193c16034951e910936e"}
+{"ts": "2026-10-22T15:35:29+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "8e2d744ccc73283aa9113f419f8fb2673879c553d8fd03a45fb7933d25939e66"}
+{"ts": "2026-10-22T15:35:29+00:00", "evenement": "bilan", "details": {"duree_s": 1808.0, "neufs": 22, "breves": 4, "articles": 1, "fichiers": 1586, "envois": 1624, "publications": 0}, "sha256": "2c530d17c7675cf4a76af96345f529000fe27186afe157dbdff2297ce4fad7b2"}

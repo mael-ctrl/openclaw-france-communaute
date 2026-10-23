@@ -1,5 +1,129 @@
 [
  {
+  "id": "ad42a4189f8a630a",
+  "slug": "sept-moteurs-d-inference-qwen-3-8-fn-compares-sur-une-rtx-5090-ad42a4",
+  "titre": "Sept moteurs d'inférence Qwen 3.8 FN comparés sur une RTX 5090",
+  "resume": "Le développeur de Basalt, l'un des moteurs comparés, a benchmarké sept moteurs d'inférence Qwen 3.8 FN : Strata, Infernix, capy-flash, ninfer-ext, ninfer, llama.cpp et Basalt. Même checkpoint, conversion NVFP4 via l'outil propre à chaque moteur, sept requêtes greedy sur une RTX 5090 à 400 W, un démarrage à froid par requête. Les mesures de décodage et de prefill sont dans le fil.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlunp/i_ran_all_the_popular_qwen_38_fn_engines_on_a/",
+  "date_source": "2026-10-23T18:22:56+00:00",
+  "date_redac": "2026-10-23T18:46:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 850,
+   "sortie": 892
+  }
+ },
+ {
+  "id": "2bf57763402209f8",
+  "slug": "kimi-k3-1-pro-remet-la-chine-troisieme-qwen-et-deepseek-annonces-pour--2bf577",
+  "titre": "Kimi K3.1 Pro remet la Chine troisième, Qwen et DeepSeek annoncés pour novembre",
+  "resume": "Un post publié sur r/LocalLLaMA constate que la Chine repasse à la troisième place, en s'appuyant sur les résultats de Kimi K3.1 Pro. Deux autres modèles chinois sont annoncés pour novembre : Qwen et DeepSeek, dans leurs versions pro. Le fil ne précise pas de quel classement il s'agit.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlmwx/china_is_3_again/",
+  "date_source": "2026-10-23T18:14:53+00:00",
+  "date_redac": "2026-10-23T18:46:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 627,
+   "sortie": 1168
+  }
+ },
+ {
+  "id": "43dd1ee76e99383b",
+  "slug": "les-dernieres-rtx-5090-prendraient-le-chemin-d-une-usine-de-conversion-43dd1e",
+  "titre": "Les dernières RTX 5090 prendraient le chemin d'une usine de conversion IA en Chine",
+  "resume": "Un post du subreddit r/LocalLLaMA indique que les dernières cartes RTX 5090 partent vers une vaste usine de conversion dédiée à l'IA, en Chine. Les modèles Founders Edition seraient eux aussi concernés. L'information circule dans une communauté qui suit de près l'usage local des modèles et l'accès au matériel.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlj42/heres_where_the_last_rtx_5090_cards_are_going/",
+  "date_source": "2026-10-23T18:10:51+00:00",
+  "date_redac": "2026-10-23T18:46:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 637,
+   "sortie": 1217
+  }
+ },
+ {
+  "id": "086ea1328b70b2a1",
+  "slug": "un-quart-des-data-centers-mondiaux-sont-implantes-en-zone-de-stress-hy-086ea1",
+  "titre": "Un quart des data centers mondiaux sont implantés en zone de stress hydrique",
+  "resume": "Un quart des centres de données de la planète sont aujourd'hui installés dans des régions déjà plombées par le stress hydrique, rapporte le Journal du Geek. Avec le réchauffement climatique et la déferlante de l'IA, cette proportion devrait atteindre un tiers d'ici 2036. Une pression écologique qui n'en est qu'à son amorce.",
+  "tags": [
+   "société",
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/23/ia-data-centers-installes-regions-leau-manque-non-sens-aggrave-rechauffement-climatique/",
+  "date_source": "2026-10-23T18:02:42+00:00",
+  "date_redac": "2026-10-23T18:46:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 714,
+   "sortie": 370
+  }
+ },
+ {
+  "id": "805f1976f6d73e17",
+  "slug": "openclaw-aligne-son-test-de-charge-au-demarrage-sur-les-permissions-de-805f19",
+  "titre": "OpenClaw aligne son test de charge au démarrage sur les permissions de partage",
+  "resume": "OpenClaw publie une mise à jour sur ses releases GitHub : un commit de test d'interface (ui). Objectif affiché, aligner la fixture de test de charge au démarrage sur les permissions de partage, via la pull request #181798. La modification reste cantonnée aux tests, aucune nouveauté produit n'étant annoncée dans l'extrait. Elle illustre la nécessité de garder les scénarios de test alignés sur les règles de partage.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F6cc605dfe204-1792778379",
+  "date_source": "2026-10-23T17:59:09+00:00",
+  "date_redac": "2026-10-23T18:46:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 617,
+   "sortie": 937
+  }
+ },
+ {
+  "id": "6309dc12926efd95",
+  "slug": "un-post-de-r-localllama-affirme-que-les-modeles-ouverts-ont-rattrape-l-6309dc",
+  "titre": "Un post de r/LocalLLaMA affirme que les modèles ouverts ont rattrapé les frontières",
+  "resume": "Sur le subreddit r/LocalLLaMA, un post publié le 23 octobre 2026 affirme que les modèles à poids ouverts ont désormais rattrapé les modèles frontière. Le message est signé de l'utilisateur MetalDeep329. L'extrait disponible ne précise ni les modèles concernés, ni les benchmarks ou évaluations sur lesquels repose cette affirmation.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdl1cv/holy_shit_open_weight_models_have_officially/",
+  "date_source": "2026-10-23T17:52:36+00:00",
+  "date_redac": "2026-10-23T18:46:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 616,
+   "sortie": 557
+  }
+ },
+ {
   "id": "cd9e433d185caa6e",
   "slug": "kimi-k3-1-pro-annonce-sur-r-localllama-sous-le-signe-de-l-ia-ouverte-cd9e43",
   "titre": "Kimi K3.1 Pro annoncé sur r/LocalLLaMA sous le signe de l'IA ouverte",
@@ -102,27 +226,6 @@
   }
  },
  {
-  "id": "b8a81f436feda382",
-  "slug": "baseten-publie-elephant-1-modele-de-decision-9b-qui-egale-d1-ultra-a-c-b8a81f",
-  "titre": "Baseten publie elephant-1, modèle de décision 9B qui égale d1-ultra à coût réduit",
-  "resume": "Base Labs (Baseten) ouvre les poids d'elephant-1, un modèle de décision de 9B dérivé de Qwen3.5-9B sous licence MIT. Il ne génère pas de texte : à partir d'un état et de questions oui/non ou à choix multiples, il renvoie une probabilité par option, lue directement sur les logits. Artificial Analysis le note 65 sur son Decision Index, à égalité avec d1-ultra, pour environ 8 $ les 1M de tâches contre 31 $.",
-  "tags": [
-   "open-source",
-   "dev",
-   "business"
-  ],
-  "importance": 3,
-  "source": "r/LocalLLaMA",
-  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdirky/baseten_releases_elephant1_9b_mit_qwen359b_base_a/",
-  "date_source": "2026-10-23T16:26:41+00:00",
-  "date_redac": "2026-10-23T17:36:11+00:00",
-  "gen": {
-   "modele": "deepseek-flash",
-   "entree": 865,
-   "sortie": 1070
-  }
- },
- {
   "id": "e1a2d44d6cf2a7b9",
   "slug": "comment-openai-passe-le-stockage-de-chatgpt-a-l-echelle-du-milliard-d--e1a2d4",
   "titre": "Comment OpenAI passe le stockage de ChatGPT à l'échelle du milliard d'utilisateurs",
@@ -163,6 +266,27 @@
    "modele": "deepseek-flash",
    "entree": 866,
    "sortie": 1471
+  }
+ },
+ {
+  "id": "b8a81f436feda382",
+  "slug": "baseten-publie-elephant-1-modele-de-decision-9b-qui-egale-d1-ultra-a-c-b8a81f",
+  "titre": "Baseten publie elephant-1, modèle de décision 9B qui égale d1-ultra à coût réduit",
+  "resume": "Base Labs (Baseten) ouvre les poids d'elephant-1, un modèle de décision de 9B dérivé de Qwen3.5-9B sous licence MIT. Il ne génère pas de texte : à partir d'un état et de questions oui/non ou à choix multiples, il renvoie une probabilité par option, lue directement sur les logits. Artificial Analysis le note 65 sur son Decision Index, à égalité avec d1-ultra, pour environ 8 $ les 1M de tâches contre 31 $.",
+  "tags": [
+   "open-source",
+   "dev",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdirky/baseten_releases_elephant1_9b_mit_qwen359b_base_a/",
+  "date_source": "2026-10-23T16:26:41+00:00",
+  "date_redac": "2026-10-23T17:36:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 865,
+   "sortie": 1070
   }
  },
  {

@@ -1,5 +1,70 @@
 [
  {
+  "id": "6987934806894c2e",
+  "slug": "hermes-agent-publie-la-release-candidate-rc-3-de-sa-version-0-22-5-698793",
+  "titre": "Hermes Agent publie la release candidate rc.3 de sa version 0.22.5",
+  "resume": "NousResearch a mis en ligne le 23 octobre 2026 la release candidate rc.3 de Hermes Agent, estampillée v0.22.5. Les notes de version se limitent pour l'instant à des métadonnées techniques : troisième tentative de publication, autopublish désactivé et un commit de référence. Aucun détail fonctionnel n'accompagne cette rc.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.3-v0.22.5",
+  "date_source": "2026-10-23T02:25:20+00:00",
+  "date_redac": "2026-10-23T04:21:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 485
+  }
+ },
+ {
+  "id": "d18616e3c1ae0c16",
+  "slug": "hermes-agent-la-release-candidate-rc-2-de-la-version-0-22-5-abandonnee-d18616",
+  "titre": "Hermes Agent : la release candidate rc.2 de la version 0.22.5 abandonnée",
+  "resume": "Le dépôt GitHub de Hermes Agent, l'agent de NousResearch, porte une étiquette de version explicitement marquée « abandoned » pour la release candidate rc.2 en version 0.22.5. La charge utile publiée avec la release indique une deuxième tentative, avec la référence rc.2-v0.22.5 et un champ schema à 1. Aucune note d'accompagnement ne vient expliquer cet abandon.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.2-v0.22.5",
+  "date_source": "2026-10-23T02:24:59+00:00",
+  "date_redac": "2026-10-23T04:21:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 518
+  }
+ },
+ {
+  "id": "3879f0dbec265072",
+  "slug": "le-modele-de-decision-de-perplexity-s-annonce-executable-en-local-sur--3879f0",
+  "titre": "Le modèle de décision de Perplexity s'annonce exécutable en local sur Mac",
+  "resume": "Un post publié le 23 octobre sur r/LocalLLaMA affirme qu'il est possible de faire tourner le modèle de décision de Perplexity, pplx-decider-flash-v1.2, entièrement en local sur un Mac. Le lancement se ferait depuis la barre de menus, et aucune donnée ne quitterait la machine. De quoi intéresser ceux qui veulent tester un modèle de Perplexity hors de leurs serveurs.",
+  "tags": [
+   "dev",
+   "matériel",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xd1t6q/you_can_now_run_the_perplexity_decision_model/",
+  "date_source": "2026-10-23T02:21:01+00:00",
+  "date_redac": "2026-10-23T04:21:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 643,
+   "sortie": 646
+  }
+ },
+ {
   "id": "1abf02e5094bb4d0",
   "slug": "minimax-m3-1-flash-un-nouveau-modele-publie-sur-hugging-face-1abf02",
   "titre": "MiniMax-M3.1-Flash, un nouveau modèle publié sur Hugging Face",

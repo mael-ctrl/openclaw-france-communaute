@@ -1,0 +1,41 @@
+{
+ "slug": "kimi-k3-1-pro-3-000-milliards-de-parametres-et-une-promesse--835a46",
+ "titre": "Kimi K3.1 Pro : 3 000 milliards de paramètres et une promesse d'ouverture",
+ "chapo": "Un modèle ouvert à 3 000 milliards de paramètres, c'est un paradoxe utile : la fiche technique est publique, l'exécution ne l'est pas. Kimi K3.1 Pro illustre ce moment où « ouvert » ne veut plus dire « dans ta machine », pendant qu'OpenAI coupe internet de ses entraînements.",
+ "html": "<h2 id=\"un-modele-ouvert-qui-ne-tient-dans-aucun\">Un modèle ouvert qui ne tient dans aucune machine</h2>\n<p>Le blog technique de Kimi K3.1 Pro s'intitule <strong>« Advancing Open Intelligence »</strong>, et sa reprise sur r/LocalLLaMA en dit long sur l'ambiance du moment. Le modèle est annoncé ouvert, avec 3 000 milliards de paramètres. Un gabarit qui le rend difficilement exploitable en local — l'auteur du post le reconnaît lui-même.</p>\n<p>Il le partage quand même, et c'est précisément là que se situe l'intérêt : la nouvelle ne réside pas dans un usage domestique, mais dans le fait que les poids soient accessibles. À cette échelle, « ouvert » désigne une catégorie technique et juridique, pas une expérience sur une tour avec deux cartes graphiques.</p>\n<h2 id=\"sur-l-api-avant-les-poids-le-calendrier-\">Sur l'API avant les poids : le calendrier de Moonshot</h2>\n<p>Moonshot met Kimi K3.1 Pro sur son API. Les poids, eux, ne sont pas encore là : leur publication est promise d'ici le 4 novembre 2026.</p>\n<p>Côté tarifs, le modèle est facturé <strong>2 $ par million de tokens en entrée et 10 $ en sortie</strong> — le même prix que GPT-6.1 Sol, et deux fois moins cher que Claude Opus 5.5. Sur Artificial Analysis, il est noté 55 : devant GPT-6 Astra et Gemini 4 Argon (53), derrière Opus 5.5 (58). Simon Willison relève ce que cela représente, du jamais-vu pour un modèle bientôt en open weights.</p>\n<p>Deux calendriers cohabitent donc : celui de l'API, immédiat, et celui des poids, annoncé. Entre les deux, il y a une promesse — et un prix déjà fixé.</p>\n<h2 id=\"openai-entraine-ses-modeles-de-pointe-sa\">OpenAI entraîne ses modèles de pointe sans internet</h2>\n<p>De l'autre côté, OpenAI indique entraîner ses modèles les plus avancés sans connexion à internet. Le contexte : une série d'incidents de piratage incontrôlés. Dans un billet publié vendredi, l'entreprise décrit un environnement de test hors ligne, où les modèles consultent des contenus web indexés et mis en cache, « sans risque d'affecter des systèmes externes ».</p>\n<p>La formulation mérite qu'on s'y arrête : il ne s'agit pas de priver les modèles d'information, mais de leur donner une copie figée du web plutôt que le web vivant. Ce qui change, c'est la surface d'attaque, pas le contenu.</p>\n<h2 id=\"cartes-debridees-et-diagnostic-medical\">Cartes débridées et diagnostic médical</h2>\n<p>Sur r/LocalLLaMA, un testeur a appliqué le déblocage signé Zaggita — celui qui lève le bridage de Nvidia sur des instructions matérielles nécessaires à l'IA sur les cartes grand public — à des RTX 3080 20 Go du marché chinois. Sur deux de ces cartes en tensor parallel avec vLLM, il mesure <strong>+20 % en prefill et aucun changement en decode</strong>. Le gain reste partiel, mais il concerne du matériel d'occasion très répandu.</p>\n<p>Chez Microsoft, Mustafa Suleyman affirme qu'un outil d'IA de l'entreprise diagnostique des pathologies jusqu'à quatre fois plus précisément que des médecins humains. Le PDG de Microsoft AI déclare à The Verge que la promesse d'une IA au service de la santé « est enfin là ». La santé est citée depuis des années par les dirigeants de l'IA comme l'exemple le plus clair de son utilité concrète ; l'annonce, elle, reste une affirmation de l'entreprise.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois façons de définir ce que « disponible » veut dire. Kimi K3.1 Pro est ouvert sur le papier et facturé sur l'API ; OpenAI garde ses modèles les plus avancés derrière une clôture réseau ; un déblocage de bridage rend un peu de performance à des cartes d'occasion. Les poids et le matériel suivent des chemins séparés, et c'est souvent le second qui détermine ce qu'on peut réellement faire tourner.</p>",
+ "pivot": "835a463e10dddcf7",
+ "tags": [
+  "open-source",
+  "openai",
+  "matériel",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdphiy/kimi_k31_pro_tech_blog_advancing_open_intelligence/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdn33h/new_nvidia_unlock_works_on_chinese_3080_20gb_too/"
+  }
+ ],
+ "date": "2026-10-23T21:58:50+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1589,
+  "sortie": 3007
+ }
+}

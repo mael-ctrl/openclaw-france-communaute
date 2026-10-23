@@ -2997,3 +2997,9 @@
 {"ts": "2026-10-23T21:50:54+00:00", "evenement": "deploiement", "details": {"fichiers": 1777, "octets": 35673087}, "sha256": "fdaf4f6ae36d28785bda3bbb14af4990d33e12bafedd5f432e56f6ef8311e7d8"}
 {"ts": "2026-10-23T21:50:54+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "b8dfa506aa44add3e146ec121507e53fbd46a0c5d6067bcfc34ea168260d3a74"}
 {"ts": "2026-10-23T21:50:54+00:00", "evenement": "bilan", "details": {"duree_s": 1526.5, "neufs": 3, "breves": 3, "articles": 1, "fichiers": 1739, "envois": 1777, "publications": 0}, "sha256": "8c1a7c0d8265cd2700d142c360aca99f9eba56f225d4f2347a9829dd0ebf5a3d"}
+{"ts": "2026-10-23T21:58:14+00:00", "evenement": "collecte", "details": {"neufs": 2}, "sha256": "eec09da7fd07475af5015eb734c9bbc02f53bde2ef7ee8c2a85fcf1a2217ec7f"}
+{"ts": "2026-10-23T21:58:35+00:00", "evenement": "erreur", "details": {"message": "brève impossible (🌋 Pushing PCIe x1 to the limit: lvgale concurrently serving ) : réponse non-JSON"}, "sha256": "37b264e38cdedce9ecb0de9565474fb64237b8b0c75b0f3316331f19a4ae8cbc"}
+{"ts": "2026-10-23T21:59:06+00:00", "evenement": "construction", "details": {"fichiers": 1741}, "sha256": "b085a00348283845be493a9c80ab8639183e5a5e7ef4de0c3221b2af59912377"}
+{"ts": "2026-10-23T22:23:10+00:00", "evenement": "deploiement", "details": {"fichiers": 1777, "octets": 35559134}, "sha256": "01951ec1a663aeaea767cfe4a53c4ef0f0eee609c71ea73df51df39e12a2d7fb"}
+{"ts": "2026-10-23T22:23:11+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "703e08c2f5e03e525145ea133a1f262e9ff8555da08d2f16f3a5ebd7566d28c3"}
+{"ts": "2026-10-23T22:23:11+00:00", "evenement": "bilan", "details": {"duree_s": 1508.1, "neufs": 2, "breves": 1, "articles": 1, "fichiers": 1741, "envois": 1777, "publications": 0}, "sha256": "3013afe82439051ece6671e1160ec92d686ba56f94b259da5569cdc27dddc66e"}

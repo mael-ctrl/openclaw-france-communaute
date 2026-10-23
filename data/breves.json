@@ -1,5 +1,26 @@
 [
  {
+  "id": "304fdf80008340e5",
+  "slug": "un-centre-anti-cancer-cherche-un-dimensionnement-gpu-pour-alphafold-2-304fdf",
+  "titre": "Un centre anti-cancer cherche un dimensionnement GPU pour AlphaFold 2",
+  "resume": "Le directeur du calcul scientifique d'un centre de recherche sur le cancer interroge r/LocalLLaMA : un nouveau labo dispose de 300 à 400 000 dollars pour des GPU destinés à AlphaFold 2. Il lui faut beaucoup de VRAM par tâche, mais les rendements plafonnent au-delà de 50 Go ; la charge est très gourmande en calcul, peu en données. Reste le stockage : des millions de petits fichiers, donc des IOPS à surveiller.",
+  "tags": [
+   "recherche",
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdqk1d/wanna_help_me_design_an_hpc_system_upgrade_for/",
+  "date_source": "2026-10-23T21:25:42+00:00",
+  "date_redac": "2026-10-23T21:58:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 812,
+   "sortie": 847
+  }
+ },
+ {
   "id": "b1095f1515ee6013",
   "slug": "kimi-k3-1-reference-sur-aa-et-compare-aux-modeles-de-frontiere-b1095f",
   "titre": "Kimi K3.1 référencé sur AA et comparé aux modèles de frontière",

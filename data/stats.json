@@ -1,22 +1,18 @@
 {
- "runs": 346,
- "items_collectes": 2725,
- "breves_publiees": 1291,
- "articles_publies": 243,
- "tokens_entree": 1314534,
- "tokens_sortie": 1865231,
+ "runs": 347,
+ "items_collectes": 2727,
+ "breves_publiees": 1292,
+ "articles_publies": 244,
+ "tokens_entree": 1316935,
+ "tokens_sortie": 1869085,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-23T21:26:16+00:00",
+ "dernier_run": "2026-10-23T21:58:50+00:00",
  "solde": {
-  "total": "84.44",
+  "total": "84.37",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-22T15:06:10+00:00",
-   "message": "brève impossible (How fast can a rusty Macbook M1 Pro 16Gb 2021 actually code ) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-22T15:06:22+00:00",
    "message": "brève impossible (Deux agents de code d'OpenAI ont affaibli la surveillance de) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-23T15:18:21+00:00",
    "message": "brève impossible (Small post about what are the unlocks for RTX consumer GPUs,) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-23T21:58:35+00:00",
+   "message": "brève impossible (🌋 Pushing PCIe x1 to the limit: lvgale concurrently serving ) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 7.22,
+ "depense_usd": 7.29,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1404,10 +1404,14 @@
   [
    "2026-10-23T21:25:40+00:00",
    "84.44"
+  ],
+  [
+   "2026-10-23T21:58:15+00:00",
+   "84.37"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 4.93,
+ "depense_mois_usd": 5.0,
  "archive_tentatives": {
   "jour": "2026-10-23",
   "n": 3

@@ -1,5 +1,109 @@
 [
  {
+  "id": "f8dbb08238d56f3f",
+  "slug": "les-prix-des-intel-b60-b65-et-b70-bondissent-de-30-f8dbb0",
+  "titre": "Les prix des Intel B60, B65 et B70 bondissent de 30 %",
+  "resume": "Sur r/LocalLLaMA, un utilisateur qui suit les prix des Intel B60, B65 et B70 signale un bond de 30 % sur Amazon. Le B60 passe de 650 à 980 dollars, le B65 de 1150 à 1420 dollars ; des offres subsistent en magasin Micro Center. Une fois ce stock écoulé, 1840 dollars pour un B70 pourrait devenir la norme. Le prix par Go reste le meilleur face aux concurrents, mais l'écart se resserre vite.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdoirp/been_tracking_intel_b60_b65_b70_prices_they/",
+  "date_source": "2026-10-23T20:04:14+00:00",
+  "date_redac": "2026-10-23T20:24:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 708,
+   "sortie": 856
+  }
+ },
+ {
+  "id": "c8a7a80c215ea9d9",
+  "slug": "openclaw-refactorise-la-gestion-des-callbacks-a-usage-unique-c8a7a8",
+  "titre": "OpenClaw refactorise la gestion des callbacks à usage unique",
+  "resume": "La nouvelle version d'OpenClaw, publiée le 23 octobre 2026, applique un refactor : les callbacks à usage unique sont désormais conservés avec leurs propriétaires. La même livraison retire une tranche d'exécution liée à la CI qui n'était pas qualifiée. Une passe de nettoyage interne sur le cycle de vie des callbacks et sur la surface d'exécution exposée.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F4d13198000c5-1792785240",
+  "date_source": "2026-10-23T19:52:49+00:00",
+  "date_redac": "2026-10-23T20:25:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 640,
+   "sortie": 241
+  }
+ },
+ {
+  "id": "e706f015feccb9b5",
+  "slug": "openclaw-le-type-de-message-de-navigation-des-plugins-reste-prive-e706f0",
+  "titre": "OpenClaw : le type de message de navigation des plugins reste privé",
+  "resume": "OpenClaw publie une nouvelle version de son projet, référencée release-publish/3f5d04f8ebc9-1792785124. La modification annoncée est un correctif d'interface : le type de message utilisé pour la navigation des plugins reste désormais privé. Le changement porte donc sur la façon dont cette navigation est exposée côté interface.",
+  "tags": [
+   "openclaw",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F3f5d04f8ebc9-1792785124",
+  "date_source": "2026-10-23T19:47:49+00:00",
+  "date_redac": "2026-10-23T20:25:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 624,
+   "sortie": 657
+  }
+ },
+ {
+  "id": "f60d69c4c71b3f29",
+  "slug": "kimi-k3-1-pro-debarque-sur-l-api-de-moonshot-les-poids-promis-le-4-nov-f60d69",
+  "titre": "Kimi K3.1 Pro débarque sur l'API de Moonshot, les poids promis le 4 novembre",
+  "resume": "Moonshot met Kimi K3.1 Pro sur son API : les poids ne sont pas encore ouverts, mais leur publication est promise d'ici le 4 novembre 2026. Facturé 2 $ par million de tokens en entrée et 10 $ en sortie, comme GPT-6.1 Sol et deux fois moins cher que Claude Opus 5.5. Artificial Analysis le note 55, devant GPT-6 Astra et Gemini 4 Argon (53), derrière Opus 5.5 (58) — du jamais-vu pour un modèle bientôt open weights.",
+  "tags": [
+   "open-source",
+   "claude",
+   "gemini",
+   "business"
+  ],
+  "importance": 4,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+  "date_source": "2026-10-23T19:40:54+00:00",
+  "date_redac": "2026-10-23T20:25:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 859,
+   "sortie": 1360
+  }
+ },
+ {
+  "id": "3445bee08952babd",
+  "slug": "block-devoile-dessa-un-modele-ia-entraine-uniquement-sur-la-conversati-3445be",
+  "titre": "Block dévoile Dessa, un modèle IA entraîné uniquement sur la conversation",
+  "resume": "Block, l'entreprise de Jack Dorsey, a annoncé Dessa, un modèle d'IA entraîné « de zéro » et sur rien d'autre que de la conversation humaine. Pour le montrer, Block a publié des échanges entre le modèle et des humains, parfois un peu gênants ou troublants. L'un de ces exemples a été partagé par Ragavan Thurairatnam, qui pilote Dessa.",
+  "tags": [
+   "recherche",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+  "date_source": "2026-10-23T19:32:39+00:00",
+  "date_redac": "2026-10-23T20:25:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 676,
+   "sortie": 943
+  }
+ },
+ {
   "id": "6c4e947f5341bd99",
   "slug": "le-deblocage-nvidia-de-zaggita-teste-sur-des-rtx-3080-20-go-chinoises-6c4e94",
   "titre": "Le déblocage Nvidia de Zaggita testé sur des RTX 3080 20 Go chinoises",
@@ -38,6 +142,27 @@
    "modele": "deepseek-flash",
    "entree": 666,
    "sortie": 400
+  }
+ },
+ {
+  "id": "8ed68831c5cf0a37",
+  "slug": "qwen4-0-max-repere-sur-github-via-des-comptes-suspects-8ed688",
+  "titre": "Qwen4.0-Max repéré sur GitHub via des comptes suspects",
+  "resume": "Une pull request sur le dépôt t-head/pla, intitulée « feat(gdn): support Qwen4.0-Max prefill heads », mentionne un modèle Qwen4.0-Max. T-head relève de l'organisation alibaba-oss d'Alibaba. L'auteur du post sur r/LocalLLaMA signale que les comptes GitHub à l'origine de la trouvaille ont moins d'un mois : comptes trolls ou comptes Alibaba non déclarés. La découverte vient de son agent de recherche approfondie.",
+  "tags": [
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdmt2o/mysterious_qwen4_appearance_by_new_github_accounts/",
+  "date_source": "2026-10-23T18:59:02+00:00",
+  "date_redac": "2026-10-23T20:25:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 708,
+   "sortie": 1228
   }
  },
  {

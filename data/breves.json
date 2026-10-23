@@ -1,5 +1,48 @@
 [
  {
+  "id": "335e9fb409a2844b",
+  "slug": "backdoors-dans-les-moteurs-d-inference-llm-un-ecosysteme-fragile-335e9f",
+  "titre": "Backdoors dans les moteurs d'inférence LLM : un écosystème fragile",
+  "resume": "Un post de r/LocalLLaMA remet en perspective la backdoor xz utils de 2024, passée près du but dans le code source le plus surveillé de la planète et repérée presque par hasard. L'auteur étend le raisonnement aux agent harnesses, moteurs d'inférence et modèles, bien moins observés, dont il sort un nouveau chaque semaine. Il suffit d'une pull request d'apparence légitime, approuvée puis oubliée des mois, dans n'importe quel paquet installé par ces outils — sans maintainer malveillant.",
+  "tags": [
+   "sécurité",
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdeg0n/probability_of_backdoors_in_popular_harnesses_and/",
+  "date_source": "2026-10-23T13:44:17+00:00",
+  "date_redac": "2026-10-23T14:11:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 797,
+   "sortie": 563
+  }
+ },
+ {
+  "id": "f5055079cb6d60e3",
+  "slug": "le-cout-d-une-reponse-ia-divise-par-13-chaque-annee-f50550",
+  "titre": "Le coût d'une réponse IA divisé par 13 chaque année",
+  "resume": "À niveau de performance égal, faire tourner un modèle d'intelligence artificielle coûte treize fois moins cher chaque année. Cette baisse record devrait soulager les utilisateurs, mais elle enferme surtout OpenAI et Anthropic dans une fuite en avant financière, à l'approche de leur entrée en Bourse.",
+  "tags": [
+   "openai",
+   "claude",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3297277_intelligence-artificielle-le-cout-dune-reponse-divise-par-13-chaque-annee-pourquoi-anthropic-et-openai-ont-du-souci-a-se-faire",
+  "date_source": "2026-10-23T13:43:25+00:00",
+  "date_redac": "2026-10-23T14:11:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 711,
+   "sortie": 109
+  }
+ },
+ {
   "id": "d34747657438013f",
   "slug": "ton-modele-tourne-t-il-sur-aws-trainium-voila-comment-le-verifier-d34747",
   "titre": "Ton modèle tourne-t-il sur AWS Trainium ? Voilà comment le vérifier",

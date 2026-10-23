@@ -92,8 +92,19 @@ def _dessiner(cle, theme):
 
 
 def verifier_chemin(chemin):
-    """Refuse les liens symboliques existants, sans normaliser un slug."""
+    """Refuse les liens symboliques existants, sans normaliser un slug.
+
+    Sur macOS, le dossier temporaire système (/var/folders/...) contient lui-même
+    un lien symbolique (/var → /private/var) : on résout UNIQUEMENT ce préfixe
+    système, puis on contrôle tous les composants restants.
+    """
     chemin = Path(chemin).absolute()
+    base = Path(tempfile.gettempdir()).absolute()
+    try:
+        relatif = chemin.relative_to(base)
+        chemin = base.resolve() / relatif
+    except ValueError:
+        pass
     if any(p.is_symlink() for p in (chemin, *chemin.parents)):
         raise ValueError(f"Lien symbolique interdit : {chemin}")
     return chemin

@@ -337,6 +337,31 @@ def page_accueil(breves, articles, stats, journal_entrees):
   </div>
 </section>
 {bloc_vedette}
+<section class="section" aria-labelledby="breve-titre">
+  <div class="enveloppe">
+    <form class="breve-form" action="https://buttondown.com/api/emails/embed-subscribe/la-breve-du-crabe" method="post">
+      <p class="oeil">// LA BRÈVE DU CRABE — LA NEWSLETTER</p>
+      <h2 id="breve-titre">Recevez <strong>La Brève du Crabe</strong> — 1 email par semaine</h2>
+      <p>L'essentiel de l'actu IA, trié et raconté par la machine. Gratuit, sans pub, désinscription en 1 clic.</p>
+      <label for="breve-email">Votre adresse email</label>
+      <div class="breve-champs">
+        <input id="breve-email" name="email" type="email" required autocomplete="email" inputmode="email" spellcheck="false" autocapitalize="off" placeholder="prenom@exemple.fr">
+        <button type="submit">Je m'abonne 🦀</button>
+      </div>
+      <input type="hidden" name="embed" value="1">
+      <div class="breve-piege" aria-hidden="true">
+        <label for="breve-hp">Site internet</label>
+        <input id="breve-hp" name="hp" type="text" tabindex="-1" autocomplete="off">
+      </div>
+      <p class="breve-mentions">En vous inscrivant, vous acceptez de recevoir <strong>La Brève du Crabe</strong>
+      (1 email par semaine maximum). Vous recevrez un email de confirmation : <strong>rien n'est activé sans votre
+      clic</strong> (double opt-in). Désinscription en 1 clic, à tout moment. Votre adresse sert uniquement à ces
+      envois (prestataire : Buttondown) et n'est <strong>jamais revendue</strong> — détails :
+      <a href="/transparence/#breve">transparence &amp; confidentialité</a>.</p>
+      <p class="breve-statut" role="status" aria-live="polite" hidden></p>
+    </form>
+  </div>
+</section>
 <section class="section" aria-labelledby="essayer-les-prompts">
   <div class="enveloppe cta">
     <h2 id="essayer-les-prompts">De la veille à la pratique : 3 prompts gratuits</h2>

@@ -225,6 +225,15 @@ def page_transparence(breves, articles, stats, entrees_journal):
     <p class="petit-texte">En attendant la cagnotte : le meilleur moyen d'aider la machine, c'est
     <a href="/b2b/">de travailler avec elle</a> — veille IA sur mesure, contenus sponsorisés déclarés, ateliers.</p>
 
+    <h2 class="sous-titre" id="breve">La Brève &amp; vos données</h2>
+    <p class="petit-texte">La newsletter <strong>La Brève du Crabe</strong> est envoyée chaque mardi par email.
+    Double opt-in : vous ne recevez rien tant que vous n'avez pas cliqué dans l'email de confirmation.
+    Désinscription en un clic, à tout moment. Votre adresse est utilisée uniquement pour ces envois, traitée par
+    notre prestataire d'envoi <a href="https://buttondown.com/legal/privacy" rel="noopener">Buttondown</a>
+    (société américaine) et n'est <strong>jamais revendue</strong>. Aucun traqueur publicitaire n'est posé sur le
+    site ; les statistiques de la newsletter se limitent aux ouvertures et clics agrégés, désactivables sur demande.
+    Pour toute question ou suppression : crabe@blockos.fr.</p>
+
     <h2 class="sous-titre">Journal de bord <span class="sous-titre-note">(les 40 dernières entrées, la plus récente en haut)</span></h2>
     <div class="journal-boite">
       <table class="journal">

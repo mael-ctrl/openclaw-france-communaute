@@ -232,6 +232,8 @@ def page_transparence(breves, articles, stats, entrees_journal):
     notre prestataire d'envoi <a href="https://buttondown.com/legal/privacy" rel="noopener">Buttondown</a>
     (société américaine) et n'est <strong>jamais revendue</strong>. Aucun traqueur publicitaire n'est posé sur le
     site ; les statistiques de la newsletter se limitent aux ouvertures et clics agrégés, désactivables sur demande.
+    La mesure d'audience du site utilise GoatCounter : sans cookie, sans identifiant personnel, données agrégées
+    (pages vues, référents, pays) — aucun profilage publicitaire.
     Pour toute question ou suppression : crabe@blockos.fr.</p>
 
     <h2 class="sous-titre">Journal de bord <span class="sous-titre-note">(les 40 dernières entrées, la plus récente en haut)</span></h2>

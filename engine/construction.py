@@ -253,6 +253,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
   </div>
 </footer>
 <script src="/assets/app.js" defer></script>
+<script data-goatcounter="https://communaute-ia.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>"""
 

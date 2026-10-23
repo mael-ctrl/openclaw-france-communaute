@@ -257,6 +257,7 @@ def page_ecoute(episodes, url_site):
   </div>
 </main>
 <footer class="enveloppe section"><a href="/">Retour à La Communauté</a> · <a href="/manifeste/">Manifeste</a></footer>
+<script data-goatcounter="https://communaute-ia.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 '''

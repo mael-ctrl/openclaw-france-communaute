@@ -1,5 +1,128 @@
 [
  {
+  "id": "e1a2d44d6cf2a7b9",
+  "slug": "comment-openai-passe-le-stockage-de-chatgpt-a-l-echelle-du-milliard-d--e1a2d4",
+  "titre": "Comment OpenAI passe le stockage de ChatGPT à l'échelle du milliard d'utilisateurs",
+  "resume": "OpenAI publie le second volet de son retour d'expérience sur le stockage en ligne de ChatGPT, utilisé par plus d'un milliard de personnes. L'entreprise explique avoir fait évoluer Habitat en s'appuyant sur un multi-tenant fiable, un cache global et Azure Cosmos DB, pour aboutir à des lectures 12 fois plus rapides. Un aperçu des contraintes d'infrastructure à cette échelle.",
+  "tags": [
+   "openai",
+   "chatgpt",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+  "date_source": null,
+  "date_redac": "2026-10-23T16:16:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 600,
+   "sortie": 585
+  }
+ },
+ {
+  "id": "f424d738dea8da3a",
+  "slug": "1password-laisse-les-agents-ia-acceder-aux-comptes-sans-voir-les-mots--f424d7",
+  "titre": "1Password laisse les agents IA accéder aux comptes sans voir les mots de passe",
+  "resume": "1Password a lancé 1Password for Agents, un système qui permet aux agents IA de se connecter aux comptes de leurs utilisateurs sans jamais voir les mots de passe. Dans un premier temps, seuls Muse, l'agent de Meta, et Grok Bot, celui de SpaceXSI, y ont accès, avec un déploiement prévu dans les prochains jours.",
+  "tags": [
+   "sécurité",
+   "agents",
+   "meta"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2359721-1password-a-un-plan-pour-laisser-les-agents-ia-acceder-a-vos-comptes-sans-exposer-vos-mots-de-passe.html",
+  "date_source": "2026-10-23T16:08:05+00:00",
+  "date_redac": "2026-10-23T16:16:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 708,
+   "sortie": 782
+  }
+ },
+ {
+  "id": "b1010881d99b035c",
+  "slug": "virtual-head-attention-une-piste-pour-l-attention-en-contexte-long-b10108",
+  "titre": "Virtual Head Attention, une piste pour l'attention en contexte long",
+  "resume": "Le papier Virtual Head Attention (VHA) attaque le « triangle impossible » de l'attention en contexte long : cache KV, FLOPs d'entraînement et de prefill, qualité. GQA tient la qualité mais coûte en cache ; MLA compresse le cache au prix de la qualité, MFA alourdit le calcul. VHA combine deux opérations linéaires, Q Premix et Linear Postmix, repliables dans les projections d'entrée et de sortie.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdhzw3/paper_virtual_head_attention/",
+  "date_source": "2026-10-23T15:59:05+00:00",
+  "date_redac": "2026-10-23T16:16:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 760,
+   "sortie": 1280
+  }
+ },
+ {
+  "id": "af2d80fe00b179ef",
+  "slug": "qwen-3-8-flash-next-gyro-coder-sorti-une-version-gguf-sur-hugging-face-af2d80",
+  "titre": "Qwen 3.8 Flash Next Gyro Coder sorti, une version GGUF sur Hugging Face",
+  "resume": "Sur r/LocalLLaMA, une publication annonce la sortie de Qwen 3.8 Flash Next Gyro Coder. Une version GGUF du modèle est disponible sur Hugging Face, dans le dépôt du compte agentionai. L'auteur du message demande surtout ce qui distingue cette version de celle proposée par ISTA labs. Le fil renvoie au dépôt et aux commentaires pour le détail.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdhj4z/qwen_38_flash_next_gyro_coder_is_out/",
+  "date_source": "2026-10-23T15:41:37+00:00",
+  "date_redac": "2026-10-23T16:16:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 663,
+   "sortie": 585
+  }
+ },
+ {
+  "id": "b9a1de697e6b9c22",
+  "slug": "apres-le-chaos-php-anthropic-anticipe-d-autres-turbulences-b9a1de",
+  "titre": "Après le chaos PHP, Anthropic anticipe d'autres turbulences",
+  "resume": "Deux failles critiques découvertes dans PHP illustrent les risques croissants que l'intelligence artificielle fait peser sur la cybersécurité. Un responsable d'Anthropic prévient que les 18 prochains mois pourraient être particulièrement difficiles, le temps que les entreprises adaptent leurs défenses.",
+  "tags": [
+   "sécurité",
+   "claude",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/la-situation-va-empirer-apres-le-chaos-php-anthropic-predit-dautres-turbulences-sur-linternet-mondial.html",
+  "date_source": "2026-10-23T15:27:39+00:00",
+  "date_redac": "2026-10-23T16:16:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 694,
+   "sortie": 110
+  }
+ },
+ {
+  "id": "a584434cbfa0c3c4",
+  "slug": "un-moteur-d-inference-gguf-en-webgl2-code-a-la-main-en-glsl-dans-le-na-a58443",
+  "titre": "Un moteur d'inférence GGUF en WebGL2, codé à la main en GLSL dans le navigateur",
+  "resume": "Un développeur de r/LocalLLaMA dit avoir fait tourner un modèle GGUF quantifié en q4 dans le navigateur : les buffers de calcul sont embarqués en WebGL2 via GLSL, directement dans du HTML. Le tokenizer et le vocabulaire font partie d'un « enfer de débogage » sans fin, selon lui. Son conseil : mieux vaut cloner llama.cpp.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdh57e/vibecoding_your_own_inference_engine_is_easy_they/",
+  "date_source": "2026-10-23T15:26:47+00:00",
+  "date_redac": "2026-10-23T16:16:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 666,
+   "sortie": 419
+  }
+ },
+ {
   "id": "f0768bef5bd2f18f",
   "slug": "claude-le-mode-auto-devient-le-reglage-par-defaut-pour-les-abonnes-pro-f0768b",
   "titre": "Claude : le mode auto devient le réglage par défaut pour les abonnés Pro, Max et Team",

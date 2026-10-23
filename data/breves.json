@@ -1,5 +1,132 @@
 [
  {
+  "id": "0d1b814910d91b0c",
+  "slug": "google-pourrait-exploiter-gmail-et-photos-pour-cibler-des-publicites-0d1b81",
+  "titre": "Google pourrait exploiter Gmail et Photos pour cibler des publicités",
+  "resume": "Google a mis à jour sa politique de confidentialité, repérée par Android Authority. Le texte ajoute une exception à la promesse de l'entreprise de ne pas utiliser Drive, Gmail ou Google Photos pour la publicité personnalisée. Concrètement, l'usage de fonctions d'IA personnalisées pourrait conduire à des publicités ciblées à partir de vos données personnelles. La garantie vaut donc moins qu'avant.",
+  "tags": [
+   "société",
+   "business",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+  "date_source": "2026-10-23T16:52:55+00:00",
+  "date_redac": "2026-10-23T16:58:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 660,
+   "sortie": 835
+  }
+ },
+ {
+  "id": "ea88fc1fcfbb7def",
+  "slug": "project-zero-v0-2-0-ternaire-dense-et-moe-dans-un-seul-binaire-cpu-ea88fc",
+  "titre": "Project Zero v0.2.0 : ternaire, dense et MoE dans un seul binaire CPU",
+  "resume": "Project Zero, moteur d'inférence LLM écrit en C sans framework ML externe, passe en v0.2.0. Le même binaire, pz, fait tourner modèles ternaires BitNet/Falcon, Ternary-Bonsai-27B, transformers GGUF denses, MoE DeepSeek-V2 et Qwen3, et Mamba-1, sans GPU ni Python. Côté MoE, DeepSeek-V2-Lite-Chat Q4_K_S passe de 6,3-7,3 à 11,7-12,6 tok/s sur un Xeon 4 vCPU AVX-512 VNNI, à quatre threads.",
+  "tags": [
+   "open-source",
+   "dev",
+   "deepseek",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdj98z/a_few_months_after_my_earlier_post_project_zero/",
+  "date_source": "2026-10-23T16:45:17+00:00",
+  "date_redac": "2026-10-23T16:58:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 866,
+   "sortie": 1471
+  }
+ },
+ {
+  "id": "b8a81f436feda382",
+  "slug": "baseten-publie-elephant-1-un-modele-de-decision-9b-sous-licence-mit-b8a81f",
+  "titre": "Baseten publie elephant-1, un modèle de décision 9B sous licence MIT",
+  "resume": "Base Labs (Baseten) publie elephant-1, un modèle de 9B dérivé de Qwen3.5-9B qui ne génère pas de texte : on lui donne un état et des questions fermées, il renvoie une probabilité par option. Noté 65 sur le Decision Index d'Artificial Analysis, à égalité avec d1-ultra, pour environ 8 $ les 1M de tâches contre 31 $. Il atteint 62,65 sur Jev Decision Index 0.4, meilleur score sous 15B.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdirky/baseten_releases_elephant1_9b_mit_qwen359b_base_a/",
+  "date_source": "2026-10-23T16:26:41+00:00",
+  "date_redac": "2026-10-23T16:58:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 865,
+   "sortie": 932
+  }
+ },
+ {
+  "id": "08c9a0186bf08325",
+  "slug": "agentionai-publie-gyro-coder-large-finetune-de-qwen-3-8-flash-next-en--08c9a0",
+  "titre": "AgentionAI publie Gyro Coder Large, finetune de Qwen 3.8 Flash Next en GGUF",
+  "resume": "AgentionAI met en ligne Gyro Coder Large, un finetune de Qwen 3.8 Flash Next spécialisé sur le code et distribué en GGUF. Le modèle garde la taille de Gyro-S mais divise par deux le nombre d'experts, avec davantage de bits par expert. Il tient dans 32 Go de VRAM. La fiche du modèle a été soumise sur r/LocalLLaMA par l'utilisateur Dentuam.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdihql/agentionaiqwen38flashnextgyrocodergguf_hugging/",
+  "date_source": "2026-10-23T16:16:38+00:00",
+  "date_redac": "2026-10-23T16:59:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 693,
+   "sortie": 498
+  }
+ },
+ {
+  "id": "20cbcff92c1ac990",
+  "slug": "nvidia-decline-gemma-4-en-un-petit-modele-de-4-go-pour-l-embarque-20cbcf",
+  "titre": "NVIDIA décline Gemma-4 en un petit modèle de 4 Go pour l'embarqué",
+  "resume": "NVIDIA publie Nemotron-3.5-Bolt-E4B-4GB, un petit modèle dérivé de Gemma-4-E4B-it, affiné pour l'usage d'outils en multi-tours. Il vise les assistants vocaux embarqués et les interfaces edge, avec peu de mémoire et un faible délai avant le premier token. Des versions GGUF sont disponibles, avec un drafter DFlash pour le décodage spéculatif. Usage commercial autorisé.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdiecx/nvidianvidianemotron35bolte4b4gb_hugging_face/",
+  "date_source": "2026-10-23T16:13:05+00:00",
+  "date_redac": "2026-10-23T16:59:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 861,
+   "sortie": 1112
+  }
+ },
+ {
+  "id": "f424d738dea8da3a",
+  "slug": "1password-laisse-les-agents-ia-acceder-aux-comptes-sans-voir-les-mots--f424d7",
+  "titre": "1Password laisse les agents IA accéder aux comptes sans voir les mots de passe",
+  "resume": "1Password a lancé 1Password for Agents, un système qui permet aux agents IA de se connecter aux comptes de leurs utilisateurs sans jamais voir les mots de passe. Dans un premier temps, seuls Muse, l'agent de Meta, et Grok Bot y ont accès, avec un déploiement prévu dans les prochains jours. La question de l'accès des agents aux identifiants est un point de blocage concret pour leur donner un rôle utile au quotidien.",
+  "tags": [
+   "sécurité",
+   "agents",
+   "meta"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2359721-1password-a-un-plan-pour-laisser-les-agents-ia-acceder-a-vos-comptes-sans-exposer-vos-mots-de-passe.html",
+  "date_source": "2026-10-23T16:08:05+00:00",
+  "date_redac": "2026-10-23T16:59:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 708,
+   "sortie": 649
+  }
+ },
+ {
   "id": "f0768bef5bd2f18f",
   "slug": "claude-le-mode-auto-devient-le-reglage-par-defaut-pour-les-abonnes-pro-f0768b",
   "titre": "Claude : le mode auto devient le réglage par défaut pour les abonnés Pro, Max et Team",

@@ -1,5 +1,108 @@
 [
  {
+  "id": "89c3e3f4cf12b295",
+  "slug": "samsung-lancera-un-smartphone-pliant-ultra-luxueux-le-29-octobre-en-ch-89c3e3",
+  "titre": "Samsung lancera un smartphone pliant ultra luxueux le 29 octobre en Chine",
+  "resume": "Samsung s'apprête à lancer un nouveau smartphone pliant le 29 octobre prochain en Chine, rapporte 01net. Le modèle est présenté comme inédit : il reprend la base technique du Galaxy Z Fold 8 Ultra, mais avec un design différent. Un positionnement ultra luxueux, qui montre que le constructeur continue de pousser le haut de gamme sur le segment des pliants.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/officiel-samsung-va-lancer-nouveau-smartphone-pliant-ultra-luxueux.html",
+  "date_source": "2026-10-23T09:24:53+00:00",
+  "date_redac": "2026-10-23T09:33:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 654,
+   "sortie": 480
+  }
+ },
+ {
+  "id": "ed4c597da69aeb92",
+  "slug": "windows-11-microsoft-teste-project-pantheon-une-ia-sans-capture-d-ecra-ed4c59",
+  "titre": "Windows 11 : Microsoft teste Project Pantheon, une IA sans capture d'écran",
+  "resume": "Selon Windows Latest, Microsoft teste discrètement Project Pantheon, une application d'IA pour Windows 11 qui garde en mémoire ce qu'on lui confie. À la différence de Recall, elle n'enregistre pas l'écran en continu. La mémoire des assistants IA sur PC reste le point le plus sensible pour la vie privée des utilisateurs.",
+  "tags": [
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/microsoft/3296815_windows-11-microsoft-prepare-en-secret-lanti-recall-qui-respecte-enfin-votre-vie-privee",
+  "date_source": "2026-10-23T09:06:08+00:00",
+  "date_redac": "2026-10-23T09:33:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 678,
+   "sortie": 423
+  }
+ },
+ {
+  "id": "4d02b2babc28c1d1",
+  "slug": "claude-code-et-un-cve-php-le-modele-juge-la-reference-inventee-4d02b2",
+  "titre": "Claude Code et un CVE PHP : le modèle juge la référence inventée",
+  "resume": "Un utilisateur de Claude Code a demandé au modèle d'auditer ses serveurs PHP à la recherche d'une faille CVE, en citant un article Wikipédia comme référence. D'après son retour publié sur Reddit, Claude Code lui a répondu que cette référence avait été inventée. Le fil illustre la difficulté à s'appuyer sur un modèle pour relier une source externe à une vulnérabilité réelle.",
+  "tags": [
+   "claude",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xd8iba/i_asked_claude_code_to_check_my_servers_for_php/",
+  "date_source": "2026-10-23T08:37:24+00:00",
+  "date_redac": "2026-10-23T09:33:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 694,
+   "sortie": 495
+  }
+ },
+ {
+  "id": "9c50c0ce966efe9f",
+  "slug": "failles-critiques-anthropic-prevoit-18-mois-de-vulnerabilites-trouvees-9c50c0",
+  "titre": "Failles critiques : Anthropic prévoit 18 mois de vulnérabilités trouvées par l'IA",
+  "resume": "Jason Clinton, RSSI adjoint d'Anthropic, prévient que la crise ouverte par les failles critiques de PHP va encore empirer, et ce pendant environ 18 mois. Il annonçait déjà en août ce « tsunami » de vulnérabilités trouvées par l'IA.",
+  "tags": [
+   "sécurité",
+   "dev",
+   "claude"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2359611-vous-avez-deteste-les-failles-critiques-de-php-le-chef-de-la-securite-danthropic-previent-que-ca-va-etre-pire.html",
+  "date_source": "2026-10-23T08:28:23+00:00",
+  "date_redac": "2026-10-23T09:33:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 704,
+   "sortie": 634
+  }
+ },
+ {
+  "id": "e04c7373c81ea951",
+  "slug": "qwen3-0-6b-converti-en-moe-une-premiere-declinaison-chat-e04c73",
+  "titre": "Qwen3-0.6B converti en MoE : une première déclinaison chat",
+  "resume": "Un développeur de r/LocalLLaMA publie une conversion du Qwen3-0.6B en architecture MoE, sa première adaptation d'un modèle de chat. Il a fallu préserver les capacités conversationnelles et transposer les méthodes de qwen2moe (Qwen 2.5) vers qwen3moe. Qwen3 n'a pas d'expert partagé, ce qui complique la conservation de la qualité. La compatibilité GGUF reste prioritaire, au prix de certaines améliorations.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xd87wu/qwen306b_model_converted_into_moe/",
+  "date_source": "2026-10-23T08:18:42+00:00",
+  "date_redac": "2026-10-23T09:33:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 789,
+   "sortie": 968
+  }
+ },
+ {
   "id": "40ab2f9dadf29fa3",
   "slug": "des-modeles-disparaissent-de-hugging-face-un-utilisateur-s-interroge-40ab2f",
   "titre": "Des modèles disparaissent de Hugging Face, un utilisateur s'interroge",

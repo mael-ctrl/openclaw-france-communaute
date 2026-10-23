@@ -1,22 +1,18 @@
 {
- "runs": 335,
- "items_collectes": 2611,
- "breves_publiees": 1237,
- "articles_publies": 232,
- "tokens_entree": 1259602,
- "tokens_sortie": 1791680,
+ "runs": 336,
+ "items_collectes": 2651,
+ "breves_publiees": 1242,
+ "articles_publies": 233,
+ "tokens_entree": 1264642,
+ "tokens_sortie": 1798316,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-23T08:13:28+00:00",
+ "dernier_run": "2026-10-23T09:34:02+00:00",
  "solde": {
-  "total": "84.76",
+  "total": "84.74",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-22T00:43:41+00:00",
-   "message": "brève impossible (v2.1.307) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-22T10:22:12+00:00",
    "message": "article impossible : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-23T04:19:16+00:00",
    "message": "archivage wayback : The read operation timed out"
+  },
+  {
+   "ts": "2026-10-23T09:33:36+00:00",
+   "message": "brève impossible (Anyone checked gpu unlock for rtx 30-40 cards?) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 6.9,
+ "depense_usd": 6.92,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1360,10 +1360,14 @@
   [
    "2026-10-23T08:12:33+00:00",
    "84.76"
+  ],
+  [
+   "2026-10-23T09:33:04+00:00",
+   "84.74"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 4.61,
+ "depense_mois_usd": 4.63,
  "archive_tentatives": {
   "jour": "2026-10-23",
   "n": 3

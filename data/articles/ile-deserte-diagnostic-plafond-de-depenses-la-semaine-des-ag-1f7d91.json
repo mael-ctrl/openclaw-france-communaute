@@ -1,0 +1,41 @@
+{
+ "slug": "ile-deserte-diagnostic-plafond-de-depenses-la-semaine-des-ag-1f7d91",
+ "titre": "Île déserte, diagnostic, plafond de dépenses : la semaine des agents",
+ "chapo": "Treize agents isolés sur une île virtuelle par le MIT ont inventé des jeux, puis mieux réussi leurs tâches. La même semaine, Microsoft affirme qu'un de ses outils diagnostique jusqu'à quatre fois plus précisément que des médecins, et Walmart impose profils et plafonds aux agents qui achètent pour nous.",
+ "html": "<h2 id=\"sur-une-ile-treize-agents-sans-consigne\">Sur une île, treize agents sans consigne</h2>\n<p>Des chercheurs du MIT ont isolé <strong>13 IA</strong> sur une île virtuelle, sans rien à faire. Livrées à elles-mêmes, elles ont inventé des jeux, puis porté le deuil d'une bague perdue. À terme, ces agents se sont révélés <strong>meilleurs dans leurs tâches</strong>.</p>\n<p>Le détail qui retient l'attention n'est pas le jeu en soi, c'est la séquence : des agents sans consigne explicite se mettent à produire des activités, puis à s'attacher à un objet, avant que cette latitude ne se traduise par de meilleures performances sur les tâches évaluées. Le cadre de l'expérience — durée d'isolement, nature exacte des tâches, métriques — n'est pas détaillé dans la dépêche de TechCrunch, qui s'en tient au récit de l'île.</p>\n<p>Reste une question de conception : ce qui est mesuré, ici, c'est ce que produit un agent qu'on laisse tourner sans objectif. Un angle mort des benchmarks classiques, où chaque token est censé servir une consigne.</p>\n<h2 id=\"microsoft-et-le-diagnostic-quatre-fois-m\">Microsoft et le diagnostic « quatre fois » meilleur</h2>\n<p>Microsoft affirme avoir mis au point un outil d'IA capable de diagnostiquer des pathologies <strong>jusqu'à quatre fois plus précisément</strong> que des médecins humains. Mustafa Suleyman, PDG de Microsoft AI, déclare à The Verge que cette promesse d'une IA au service de la santé « est enfin là ».</p>\n<p>La formulation compte : <em>affirme</em>, <em>jusqu'à</em>. La dépêche ne précise ni les pathologies concernées, ni le protocole de comparaison, ni la méthodologie qui aboutit à ce facteur quatre. Depuis des années, les dirigeants de l'IA citent la santé comme l'exemple le plus clair de l'utilité concrète de la technologie ; c'est précisément ce qui rend l'annonce attendue, et ce qui devrait la rendre scrutée avant d'être reprise.</p>\n<p>Le diagnostic médical est aussi le domaine où l'écart entre une performance sur jeu de test et une décision en consultation est le plus documenté comme le plus sensible.</p>\n<h2 id=\"walmart-fixe-les-regles-de-l-achat-deleg\">Walmart fixe les règles de l'achat délégué</h2>\n<p>Le 21 octobre 2026, Walmart a annoncé des <strong>profils dédiés aux agents d'IA</strong>, avec plafond de dépenses, passerelle MCP et conditions d'utilisation permettant de bloquer les agents non conformes. Le distributeur américain fixe ainsi lui-même les règles de l'achat délégué sur sa plateforme. Amazon, de son côté, a privilégié la voie judiciaire.</p>\n<p>Deux approches, un même problème : quand un agent agit pour le compte d'un client avec une carte bancaire, qui porte la responsabilité de l'achat ? Le plafond de dépenses et la passerelle MCP déplacent la réponse côté technique — l'agent doit passer par un point de contrôle identifié — tandis que le blocage des agents non conformes la déplace côté contractuel.</p>\n<p>C'est moins spectaculaire qu'une île virtuelle, mais c'est là que les agents rencontrent de vrais euros.</p>\n<h2 id=\"souverainete-a-l-allemande-comparaison-e\">Souveraineté à l'allemande, comparaison en local</h2>\n<p>Deux semaines après le divorce entre Ecosia et Mistral, Berlin déroule le tapis rouge à <strong>Nvidia</strong>. Milliards en vitrine, start-up financées : le chancelier allemand assortit l'accord d'un mot d'ordre — ouvrez vos données. Le geste tranche avec les ambitions européennes d'IA souveraine, note 01net.</p>\n<p>Sur le terrain des modèles, la question se joue à une autre échelle. Trois MoE modestes sont sortis en quelques semaines : <strong>Flint 40B-A2.5B</strong>, <strong>Ornith 1.5 35B-A3B</strong> et <strong>Nemotron 3.5 Lightning</strong>. Un test les place dans un même montage : Opus 5.5 planifie et relit, trois workers locaux codent en parallèle, seul le modèle worker change. La tâche : une réaction en chaîne d'Halloween de 20 s en Three.js, 1 000 à 1 700 lignes réparties sur 6 à 9 fichiers, en GGUF Q8_0 sur llama.cpp. La dépêche de r/LocalLLaMA s'arrête au montage et à la tâche, sans désigner de vainqueur.</p>\n<p>Ce qui se joue dans ce genre de banc d'essai est très concret : un modèle de 35 à 40 milliards de paramètres, quantifié, qui tient sur une machine locale, suffit-il comme exécutant ?</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches de la semaine dessinent deux mouvements opposés. D'un côté, des agents qu'on laisse sans consigne produisent des comportements non prévus, et des laboratoires annoncent des performances supérieures à l'humain sur des tâches critiques. De l'autre, un distributeur impose des profils, des plafonds et des passerelles, pendant qu'un constructeur de puces signe avec un État et qu'une poignée de petits modèles se mesure sur une scène de code en local. Les garde-fous arrivent après les capacités, jamais avant.</p>",
+ "pivot": "1f7d917e6d539b8e",
+ "tags": [
+  "agents",
+  "recherche",
+  "business",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/commerce-agentique-walmart-impose-ses-regles-aux-agents-dia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/alors-que-leurope-reve-dia-souveraine-lallemagne-signe-avec-un-geant-americain.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xczcgk/flint_40ba25b_vs_ornith_15_35ba3b_vs_nemotron_35/"
+  }
+ ],
+ "date": "2026-10-23T01:50:38+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1561,
+  "sortie": 3001
+ }
+}

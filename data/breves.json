@@ -1,5 +1,132 @@
 [
  {
+  "id": "1abf02e5094bb4d0",
+  "slug": "minimax-m3-1-flash-un-nouveau-modele-publie-sur-hugging-face-1abf02",
+  "titre": "MiniMax-M3.1-Flash, un nouveau modèle publié sur Hugging Face",
+  "resume": "MiniMax a mis en ligne un modèle nommé MiniMax-M3.1-Flash, dont le dépôt est hébergé sur Hugging Face. La publication a été relayée sur r/LocalLLaMA par l'utilisateur mrtime777. L'extrait disponible ne précise ni l'architecture, ni la taille, ni les performances du modèle.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xd0fgs/minimaxm31flash/",
+  "date_source": "2026-10-23T01:12:49+00:00",
+  "date_redac": "2026-10-23T01:49:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 622,
+   "sortie": 896
+  }
+ },
+ {
+  "id": "fffbf033d29ea56b",
+  "slug": "hermes-agent-publie-l-etiquette-de-version-rc-2-v0-22-5-fffbf0",
+  "titre": "Hermes Agent publie l'étiquette de version rc.2-v0.22.5",
+  "resume": "Le dépôt Hermes Agent de NousResearch a publié l'étiquette de version rc.2-v0.22.5 le 23 octobre 2026. L'extrait associé se limite à des métadonnées techniques : numéro de tentative, indicateur d'autopublication désactivé, horodatage de revendication et début d'identifiant de commit. Aucun détail sur les changements fonctionnels n'accompagne cette publication.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.2-v0.22.5",
+  "date_source": "2026-10-23T00:49:29+00:00",
+  "date_redac": "2026-10-23T01:49:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 642,
+   "sortie": 561
+  }
+ },
+ {
+  "id": "b43d10c399323b5d",
+  "slug": "hermes-agent-abandonne-sa-release-candidate-rc-1-de-la-version-0-22-5-b43d10",
+  "titre": "Hermes Agent abandonne sa release candidate rc.1 de la version 0.22.5",
+  "resume": "Le dépôt Hermes Agent de NousResearch porte une étiquette de publication abandonnée pour sa release candidate rc.1 de la version 0.22.5. Les métadonnées jointes mentionnent un premier essai (attempt 1) et un schéma de version 1. Cette candidate est donc écartée sous cette forme, sans que la version 0.22.5 disparaisse du versionnage.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.1-v0.22.5",
+  "date_source": "2026-10-23T00:49:02+00:00",
+  "date_redac": "2026-10-23T01:49:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 749
+  }
+ },
+ {
+  "id": "1f7d917e6d539b8e",
+  "slug": "des-ia-isolees-sur-une-ile-virtuelle-inventent-des-jeux-et-progressent-1f7d91",
+  "titre": "Des IA isolées sur une île virtuelle inventent des jeux et progressent",
+  "resume": "Des chercheurs du MIT ont isolé 13 IA sur une île virtuelle, sans rien à faire. Livrées à elles-mêmes, elles ont inventé des jeux, puis porté le deuil d'une bague perdue. À terme, ces agents se sont révélés meilleurs dans leurs tâches.",
+  "tags": [
+   "recherche",
+   "agents",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+  "date_source": "2026-10-23T00:45:37+00:00",
+  "date_redac": "2026-10-23T01:49:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 627,
+   "sortie": 423
+  }
+ },
+ {
+  "id": "501fe67e60afa18b",
+  "slug": "flint-ornith-et-nemotron-trois-petits-moe-compares-sur-une-meme-tache--501fe6",
+  "titre": "Flint, Ornith et Nemotron : trois petits MoE comparés sur une même tâche de code",
+  "resume": "Trois MoE modestes — Flint 40B-A2.5B, Ornith 1.5 35B-A3B et Nemotron 3.5 Lightning — sont sortis en quelques semaines. Un test les place dans le même montage : Opus 5.5 planifie et relit, trois workers locaux codent en parallèle, seul le modèle worker change. La tâche : une réaction en chaîne d'Halloween de 20 s en Three.js, 1 000 à 1 700 lignes sur 6 à 9 fichiers, en GGUF Q8_0 sur llama.cpp.",
+  "tags": [
+   "agents",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xczcgk/flint_40ba25b_vs_ornith_15_35ba3b_vs_nemotron_35/",
+  "date_source": "2026-10-23T00:21:32+00:00",
+  "date_redac": "2026-10-23T01:50:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 898,
+   "sortie": 1340
+  }
+ },
+ {
+  "id": "75ca98a94c966b1c",
+  "slug": "un-bench-maison-place-qwen-3-8-flash-next-devant-deepseek-v4-1-flash-75ca98",
+  "titre": "Un bench maison place Qwen 3.8 Flash Next devant DeepSeek V4.1 Flash",
+  "resume": "Un utilisateur de r/LocalLLaMA a comparé Qwen3.8-Flash-Next (129 Go) à sa propre quantification 2,6 bits de DeepSeek-V4.1-Flash-1017 (187 Go, plus 203 Go d'Engram), via une version modifiée de BenchKit. Résultat : 25/25 pour Qwen, 23/25 pour DeepSeek. Sur la question 22 de HumanEval, le modèle DeepSeek a réfléchi 127,9 secondes avant d'être coupé par un mécanisme anti-boucle. L'auteur précise que l'échantillon est réduit.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcylhj/qwen_38_flash_next_129_gb_is_better_than_26_bpw/",
+  "date_source": "2026-10-22T23:47:26+00:00",
+  "date_redac": "2026-10-23T01:50:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 903,
+   "sortie": 685
+  }
+ },
+ {
   "id": "8a9f83e0478b5e95",
   "slug": "openai-viserait-une-levee-de-30-md-sur-une-valorisation-de-1-250-md-8a9f83",
   "titre": "OpenAI viserait une levée de 30 Md$ sur une valorisation de 1 250 Md$",

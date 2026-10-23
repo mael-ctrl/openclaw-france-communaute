@@ -1,5 +1,89 @@
 [
  {
+  "id": "8a9f83e0478b5e95",
+  "slug": "openai-viserait-une-levee-de-30-md-sur-une-valorisation-de-1-250-md-8a9f83",
+  "titre": "OpenAI viserait une levée de 30 Md$ sur une valorisation de 1 250 Md$",
+  "resume": "OpenAI préparerait une nouvelle levée de fonds de 30 milliards de dollars, sur la base d'une valorisation de 1 250 milliards, en amont de son introduction en bourse. Si le tour aboutit à ce niveau, l'entreprise deviendrait la société privée la plus valorisée de l'histoire.",
+  "tags": [
+   "openai",
+   "business"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+  "date_source": null,
+  "date_redac": "2026-10-22T23:37:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 622,
+   "sortie": 120
+  }
+ },
+ {
+  "id": "ed98a2f31f466406",
+  "slug": "thinkingbox-la-notation-de-bases-de-donnees-devient-recompense-rl-pour-ed98a2",
+  "titre": "ThinkingBox : la notation de bases de données devient récompense RL pour entraîner des agents",
+  "resume": "Un billet publié sur le blog de Hugging Face présente ThinkingBox, une méthode qui transforme la notation de bases de données en récompenses de renforcement pour le post-entraînement d'agents. Le principe : le résultat du « grading » sur des tâches de bases de données sert directement de signal d'apprentissage au modèle, au lieu de rester une simple note d'évaluation.",
+  "tags": [
+   "agents",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Hugging Face",
+  "lien_source": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+  "date_source": null,
+  "date_redac": "2026-10-22T23:37:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 585,
+   "sortie": 805
+  }
+ },
+ {
+  "id": "ff08e054f0b25f59",
+  "slug": "hermes-agent-la-release-candidate-rc-1-v0-22-5-est-en-ligne-ff08e0",
+  "titre": "Hermes Agent : la release candidate rc.1-v0.22.5 est en ligne",
+  "resume": "NousResearch publie une release candidate de son agent Hermes, taguée rc.1-v0.22.5 sur le dépôt GitHub du projet, datée du 22 octobre 2026. L'extrait transmis ne contient que des métadonnées techniques — tentative, indicateur autopublish, claimEpoch, début de hash de commit — sans détail sur le contenu de la mise à jour. Le tag signale une pré-version de la branche 0.22.5.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.1-v0.22.5",
+  "date_source": "2026-10-22T22:45:57+00:00",
+  "date_redac": "2026-10-22T23:36:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 612,
+   "sortie": 931
+  }
+ },
+ {
+  "id": "c7117eb1ec8f83b8",
+  "slug": "claude-code-2-1-309-corrige-des-failles-dans-son-bac-a-sable-bash-c7117e",
+  "titre": "Claude Code 2.1.309 corrige des failles dans son bac à sable Bash",
+  "resume": "Claude Code 2.1.309 corrige plusieurs failles dans son bac à sable et ses contrôles de permission. Sur macOS et Linux, les commandes Bash isolées n'exécutent plus les fichiers de démarrage du shell hors du bac à sable, et les motifs denyWrite s'appliquent au chemin réel derrière un lien symbolique. Le fichier MCP passé via --mcp-config n'est plus modifiable par une commande sandboxée ou une édition auto-acceptée.",
+  "tags": [
+   "claude",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+  "date_source": "2026-10-22T22:18:57+00:00",
+  "date_redac": "2026-10-22T23:37:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 756,
+   "sortie": 1415
+  }
+ },
+ {
   "id": "2ad477e8fba762c7",
   "slug": "canva-lance-craft-son-premier-modele-d-image-ia-qui-planifie-avant-de--2ad477",
   "titre": "Canva lance Craft, son premier modèle d'image IA qui planifie avant de générer",
@@ -17,6 +101,27 @@
    "modele": "deepseek-flash",
    "entree": 662,
    "sortie": 379
+  }
+ },
+ {
+  "id": "a00e736a7b178cee",
+  "slug": "qwen-3-8-flash-next-un-quant-sans-refus-pret-pour-strata-a00e73",
+  "titre": "Qwen 3.8 flash next : un quant sans refus, prêt pour Strata",
+  "resume": "Un contributeur de r/LocalLLaMA met à jour son clone « heretic » de Swift 1.5 Qwen 3.8 flash next : une version non censurée, refus supprimés, quantifiée en Unsloth Dynamic IQ4_XS. Il y ajoute les artefacts « strata ready », dont un zip contenant le mtp head, la vision et d'autres fichiers nécessaires. La quantification s'appuie sur un imatrix personnalisé orienté travail agentique (anglais, usage d'outils, maths, code, raisonnement). KLD moyen de 0,06 et médian de 0,02.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xcvtmj/strataready_uncensored_swift_15_qwen_38_fn/",
+  "date_source": "2026-10-22T21:46:27+00:00",
+  "date_redac": "2026-10-22T23:37:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 874,
+   "sortie": 775
   }
  },
  {

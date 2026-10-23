@@ -228,7 +228,7 @@ def page_ecoute(episodes, url_site):
   <link rel="alternate" type="application/rss+xml" title="La Brève du Crabe — Podcast" href="/podcast/feed.xml">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/style.css">
-  <style>audio {{display:block;width:100%;max-width:100%;margin:1.25rem 0}} .podcast-liens {{display:flex;flex-wrap:wrap;gap:1rem}} .podcast-page {{overflow-wrap:anywhere}} .podcast-page > header, .podcast-page > footer {{padding-inline:22px}} .podcast-page article {{padding-block:2rem;border-top:1px solid currentColor}} .podcast-script {{white-space:pre-wrap}} .podcast-page summary {{cursor:pointer}}</style>
+  <style>audio {{display:block;width:100%;max-width:100%;margin:1.25rem 0}} .podcast-liens {{display:flex;flex-wrap:wrap;gap:1rem}} .podcast-page {{overflow-wrap:anywhere}} .podcast-page > header, .podcast-page > footer {{padding-inline:22px}} .podcast-page article {{padding-block:2rem;border-top:1px solid currentColor}} .podcast-script {{white-space:pre-wrap}} .podcast-page summary {{cursor:pointer}}.gc-pixel{{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}}</style>
 </head>
 <body class="podcast-page">
 <a class="saut" href="#contenu">Aller au contenu</a>
@@ -257,7 +257,7 @@ def page_ecoute(episodes, url_site):
   </div>
 </main>
 <footer class="enveloppe section"><a href="/">Retour à La Communauté</a> · <a href="/manifeste/">Manifeste</a></footer>
-<script data-goatcounter="https://communaute-ia.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<img class="gc-pixel" src="https://communaute-ia.goatcounter.com/count?p=/podcast/" alt="" width="1" height="1" referrerpolicy="no-referrer" loading="lazy">
 </body>
 </html>
 '''

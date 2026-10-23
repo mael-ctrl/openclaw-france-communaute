@@ -30,6 +30,24 @@ class GoatCounterTest(unittest.TestCase):
             transparence = (sortie / "transparence" / "index.html").read_text(encoding="utf-8")
             self.assertIn("GoatCounter", transparence)
 
+    def test_le_podcast_reste_sans_javascript(self):
+        with tempfile.TemporaryDirectory() as dossier:
+            racine = Path(dossier)
+            articles = racine / "articles"
+            articles.mkdir()
+            breves = racine / "breves.json"
+            breves.write_text("[]", encoding="utf-8")
+            sortie = racine / "site"
+            with patch.object(config, "DOSSIER_ARTICLES", articles), \
+                    patch.object(config, "FICHIER_BREVES", breves), \
+                    patch.object(config, "DOSSIER_SORTIE", sortie):
+                construction.construire()
+            podcast = sortie / "podcast" / "index.html"
+            if podcast.exists():
+                html = podcast.read_text(encoding="utf-8")
+                self.assertNotIn("<script", html)
+                self.assertIn('class="gc-pixel"', html)
+
 
 if __name__ == "__main__":
     unittest.main()

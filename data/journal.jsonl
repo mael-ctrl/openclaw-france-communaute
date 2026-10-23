@@ -2905,3 +2905,8 @@
 {"ts": "2026-10-23T04:19:16+00:00", "evenement": "erreur", "details": {"message": "archivage wayback : The read operation timed out"}, "sha256": "d7b1df7b89eed5dcb65d94ef20c6b73cf13dcbe25577074cff3d062bcc24d109"}
 {"ts": "2026-10-23T04:19:27+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "6c8b0d957655a4c0b86ba6216ff1b1c74ae746011e49a6f639b70f7d98cd3819"}
 {"ts": "2026-10-23T04:19:27+00:00", "evenement": "bilan", "details": {"duree_s": 2030.8, "neufs": 3, "breves": 3, "articles": 1, "fichiers": 1649, "envois": 1686, "publications": 4}, "sha256": "abdbfdf0065a13668e6da9b51d41c6f0b3d2717f2593f97173c898945505cb75"}
+{"ts": "2026-10-23T05:26:43+00:00", "evenement": "collecte", "details": {"neufs": 4}, "sha256": "baaeb9bb3f4f0af6b35216ac5a9bff41dcb27b39316453fdfcdb11159a87f6bd"}
+{"ts": "2026-10-23T05:27:50+00:00", "evenement": "construction", "details": {"fichiers": 1655}, "sha256": "9193538bec15061b68d7af241edafd5091be333226dad19dbc1b9c50c77374a0"}
+{"ts": "2026-10-23T06:05:52+00:00", "evenement": "deploiement", "details": {"fichiers": 1694, "octets": 33655784}, "sha256": "a1908499a3344babf4416c00b20e7e8d9534b1badc603643ca30ba66003378fd"}
+{"ts": "2026-10-23T06:05:52+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "020c30eb4b047b38a2a12eb1c831a0898e540115eee606759bbfc0c833886995"}
+{"ts": "2026-10-23T06:05:52+00:00", "evenement": "bilan", "details": {"duree_s": 2362.4, "neufs": 4, "breves": 4, "articles": 1, "fichiers": 1655, "envois": 1694, "publications": 0}, "sha256": "af649eaafbeead1ba03585f50502f83e420f83fa500e4ab3cd877cee9f825d5f"}

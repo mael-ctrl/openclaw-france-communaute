@@ -1,0 +1,41 @@
+{
+ "slug": "l-ia-deplace-le-rapport-de-force-du-guichet-administratif-au-e73c5e",
+ "titre": "L'IA déplace le rapport de force, du guichet administratif au diagnostic",
+ "chapo": "D'un côté, des usagers qui rédigent leurs recours à la chaîne grâce à un modèle. De l'autre, un géant qui affirme que son outil diagnostique quatre fois mieux que des médecins. Entre les deux, des serveurs à corriger dans l'urgence et une Europe qui regarde Berlin signer avec Nvidia.",
+ "html": "<h2 id=\"les-guichets-sous-pression\">Les guichets sous pression</h2>\n<p>L'IA générative rend presque gratuite la rédaction d'une demande, d'une réclamation ou d'un recours. Ce qui prenait du temps, de l'énergie et parfois l'aide d'un professionnel devient une formalité accessible à quiconque sait décrire sa situation à un modèle. Le rapport de force se déplace : côté usager, le coût d'entrée s'effondre ; côté administration, l'instruction reste assurée par des agents, avec des moyens qui, eux, ne changent pas.</p>\n<p>Une étude recense <strong>84 cas présumés d'engorgement de services publics dans onze juridictions</strong>. Le phénomène est donc documenté, mais sa mesure reste fragile. En France, la part de l'IA dans la hausse des recours n'est pas chiffrée. Impossible, en l'état, de distinguer ce qui relève du nouveau outil et ce qui relève d'une tendance antérieure.</p>\n<p>Un garde-fou existe déjà : l'administration peut écarter les demandes abusives. La question n'est donc pas tant l'afflux que le tri, et la frontière entre un recours fondé rédigé vite et un recours dilatoire produit en série.</p>\n<h2 id=\"quatre-fois-mieux-dit-microsoft\">Quatre fois mieux, dit Microsoft</h2>\n<p>Microsoft affirme avoir mis au point un outil d'IA capable de diagnostiquer des pathologies <strong>jusqu'à quatre fois plus précisément que des médecins humains</strong>. Mustafa Suleyman, PDG de Microsoft AI, déclare à <em>The Verge</em> que cette promesse d'une IA au service de la santé « est enfin là ».</p>\n<p>Le procédé est connu : depuis des années, les dirigeants de l'IA citent la santé comme l'exemple le plus clair de l'utilité concrète de la technologie. C'est le cas d'usage qui justifie le discours, celui qui transforme une capacité statistique en bénéfice tangible pour n'importe qui.</p>\n<p>Reste que la formulation est une affirmation d'entreprise. La dépêche ne fait état d'aucune évaluation indépendante publiée, ni d'un protocole de comparaison détaillé. « Quatre fois plus précis » suppose une base de comparaison, des pathologies retenues et un terrain de test : autant d'éléments qui ne figurent pas dans l'annonce. À prendre comme une revendication, pas comme un résultat établi.</p>\n<h2 id=\"php-le-defaut-de-2024-devenu-critique\">PHP : le défaut de 2024 devenu critique</h2>\n<p>PHP a corrigé le <strong>21 octobre</strong> deux failles critiques permettant l'exécution de code à distance — la catégorie la plus grave, celle qui donne la main sur la machine visée.</p>\n<p>Le défaut à l'origine de l'une des deux était connu depuis <strong>2024</strong>. Il aura fallu attendre l'été pour que son exploitation soit démontrée, avec l'aide de modèles d'IA. Le même outil qui abaisse le coût d'écriture d'un recours abaisse aussi celui de la recherche de vulnérabilités : la lecture de code assistée par modèle change la vitesse à laquelle un défaut dormant devient une preuve de concept.</p>\n<p>La réaction a été immédiate côté public : à la demande de l'Anssi, le ministère de l'Intérieur a coupé ses sites exposés. Un correctif disponible ne suffit pas si personne ne l'applique — et couper reste parfois la seule option dans l'intervalle.</p>\n<h2 id=\"berlin-nvidia-et-les-donnees\">Berlin, Nvidia et les données</h2>\n<p>Deux semaines après le divorce entre <strong>Ecosia et Mistral</strong>, Berlin déroule le tapis rouge à Nvidia. Milliards en vitrine, start-up financées : le chancelier allemand assortit l'accord d'un mot d'ordre — ouvrez vos données. Le geste tranche avec les ambitions européennes d'IA souveraine, au moment même où l'on discutait de bâtir des modèles sur le continent.</p>\n<p>Côté modèles justement, NVIDIA met à jour sa gamme Nemotron sur Hugging Face : <strong>Parse, Embed (en 1B et 8B, BF16) et Rerank 8B</strong> passent de la version 3.0 à la 3.5. Le repérage vient d'un fil de r/LocalLLaMA, où l'auteur du partage demande si quelqu'un a déjà essayé ces nouvelles versions — les liens des quatre dépôts sont dans la discussion.</p>\n<p>Deux mouvements qui n'ont pas la même nature : un investissement d'infrastructure d'un côté, des briques de recherche et de tri de documents de l'autre. Mais la même dépendance technologique s'y dessine.</p>\n<h2>Et maintenant ?</h2>\n<p>Ce qui relie ces dépêches, ce n'est pas une causalité mais un déplacement : l'IA abaisse le coût de certaines actions — écrire un recours, chercher une faille, trier des documents — et ce coût était jusqu'ici le principal régulateur de leur volume. Les institutions qui reçoivent ces flux, guichets, hôpitaux, serveurs, n'ont pas vu leurs moyens suivre la même pente. La question ouverte n'est pas de savoir si l'IA est bonne ou mauvaise, mais qui absorbe la différence.</p>",
+ "pivot": "e73c5e84246c264f",
+ "tags": [
+  "société",
+  "sécurité",
+  "business",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/demandes-redigees-par-ia-le-rapport-de-force-commence-a-basculer-vers-les-usagers/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/alors-que-leurope-reve-dia-souveraine-lallemagne-signe-avec-un-geant-americain.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd4mlk/nemotron35embed_parse_and_rerank/"
+  }
+ ],
+ "date": "2026-10-23T05:27:37+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1557,
+  "sortie": 2592
+ }
+}

@@ -1,5 +1,88 @@
 [
  {
+  "id": "e73c5e84246c264f",
+  "slug": "demandes-redigees-par-ia-le-rapport-de-force-bascule-vers-les-usagers-e73c5e",
+  "titre": "Demandes rédigées par IA : le rapport de force bascule vers les usagers",
+  "resume": "L'IA générative rend presque gratuite la rédaction de demandes, réclamations et recours pour l'usager, alors que leur instruction reste assurée par des agents. Une étude recense 84 cas présumés d'engorgement de services publics dans onze juridictions. En France, la part de l'IA dans la hausse des recours n'est pas chiffrée, mais l'administration peut déjà écarter les demandes abusives.",
+  "tags": [
+   "société",
+   "france",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/demandes-redigees-par-ia-le-rapport-de-force-commence-a-basculer-vers-les-usagers/",
+  "date_source": "2026-10-23T05:00:00+00:00",
+  "date_redac": "2026-10-23T05:26:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 764,
+   "sortie": 618
+  }
+ },
+ {
+  "id": "c03a2dffb700a1e1",
+  "slug": "nvidia-passe-ses-modeles-nemotron-embed-et-rerank-en-version-3-5-c03a2d",
+  "titre": "NVIDIA passe ses modèles Nemotron Embed et Rerank en version 3.5",
+  "resume": "NVIDIA met à jour sa gamme Nemotron sur Hugging Face : les modèles Parse, Embed (en 1B et 8B, BF16) et Rerank 8B passent de la version 3.0 à la 3.5. Le repérage vient d'un fil de r/LocalLLaMA, où l'auteur du partage demande si quelqu'un a déjà essayé ces nouvelles versions. Les liens des quatre dépôts sont donnés dans la discussion.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xd4mlk/nemotron35embed_parse_and_rerank/",
+  "date_source": "2026-10-23T04:46:23+00:00",
+  "date_redac": "2026-10-23T05:27:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 732,
+   "sortie": 652
+  }
+ },
+ {
+  "id": "4829c15622df8aa5",
+  "slug": "indrive-prevoit-des-tests-de-robotaxis-pony-ai-au-kazakhstan-en-2027-4829c1",
+  "titre": "inDrive prévoit des tests de robotaxis Pony.ai au Kazakhstan en 2027",
+  "resume": "inDrive, concurrent d'Uber, prévoit de commencer à tester les robotaxis de Pony.ai dans la capitale du Kazakhstan au premier semestre 2027. Le projet s'appuie sur un partenariat avec Pony.ai et Nvidia. La plateforme de VTC rejoint ainsi les acteurs qui misent sur la conduite autonome en Asie centrale.",
+  "tags": [
+   "robots",
+   "business"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+  "date_source": "2026-10-23T04:00:00+00:00",
+  "date_redac": "2026-10-23T05:27:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 640,
+   "sortie": 1184
+  }
+ },
+ {
+  "id": "daf799802618072d",
+  "slug": "deepseek-v4-1-1017-sur-rdna2-3-et-ddr4-un-debit-en-dents-de-scie-daf799",
+  "titre": "Deepseek V4.1-1017 sur RDNA2/3 et DDR4 : un débit en dents de scie",
+  "resume": "Un utilisateur a testé Deepseek V4.1-1017 sur une machine combinant un Ryzen 3950x, 96 Go de DDR4 dual channel à 3000 MHz et deux GPU (RX 7900 XTX 24 Go et W6800 32 Go, soit 56 Go au total), avec les poids iq2 et Q6 ngrams, environ 350 Go sur disque. Le débit varie fortement : des pics à 19 t/s, une moyenne autour de 13 t/s, des chutes à 3 t/s liées aux besoins d'I/O, pour une moyenne de 9 t/s en décodage sur un long prompt, avec un prefill à environ 150 t/s. L'auteur juge le modèle très performant, au-dessus du quant iq4-xs de Qwen3.8-Flash-Next.",
+  "tags": [
+   "deepseek",
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xd3p2e/deepseek_v411017_doing_okay_on_rdna23_ddr4/",
+  "date_source": "2026-10-23T03:56:21+00:00",
+  "date_redac": "2026-10-23T05:27:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 903,
+   "sortie": 501
+  }
+ },
+ {
   "id": "6987934806894c2e",
   "slug": "hermes-agent-publie-la-release-candidate-rc-3-de-sa-version-0-22-5-698793",
   "titre": "Hermes Agent publie la release candidate rc.3 de sa version 0.22.5",

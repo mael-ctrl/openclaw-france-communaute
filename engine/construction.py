@@ -261,7 +261,7 @@ def bandeau_defilant(breves):
     if not breves:
         return ""
     elements = "".join(
-        f'<a class="defile-item" href="/breves/{b["slug"]}/"><span class="defile-puce">◆</span> {ech(b["titre"])}</a>'
+        f'<a class="defile-item" href="/breves/{b["slug"]}/" tabindex="-1"><span class="defile-puce">◆</span> {ech(b["titre"])}</a>'
         for b in breves[:10])
     return f"""<div class="bandeau" aria-hidden="true"><div class="bandeau-piste">{elements}{elements}</div></div>"""
 

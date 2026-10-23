@@ -97,6 +97,13 @@ Les autres dépendances restent consignées sans seconde demande humaine : ident
 - Base `2f97abc` : **892 brèves, neuf pages de catalogue, 492 pages hors fil**. Titres/résumés et sources comparés aux 492 corps HTTPS avant déploiement. **142 Python + 4 Node**, 1 405 sorties existantes identiques, six changements attendus, 993 ajouts ; 315 fichiers de données préservés. Essai sans rédaction et navigation sans JS mobile/desktop réussis.
 - **Complément de gouvernance du soir :** relance cloud `39233246104` réussie, 143 tests et 1 525 envois confirmés dans les logs. À 21:03, dix pages du catalogue répondent 200 ; 937 liens uniques sans répétition inter-page, identiques au sitemap et aux données sauvegardées `92cd47e`. Trois brèves hors fil répondent 200, titre/source présents et dates JSON-LD non étayées absentes. **Ce contrôle borné ne remplace pas une comparaison exhaustive des HTML post-déploiement**, encore à consigner dans [le dossier du chantier](archives-conservees.md). Réconciliation historique complète et listings hors archives ouverts ; aucun lot préparatoire intégré par cette revue.
 
+## Chantier quotidien du 23/10 — bandeau et clavier
+
+- **Une seule intégration retenue :** premier lot prêt du relais P2, retrait des vingt liens du bandeau masqué de Tab/Shift+Tab, clics conservés. Pas de patch RSS, de dépendance ni de seconde amélioration. [Contrat et preuves](bandeau-clavier.md).
+- Base `10f1882`, 97 pièces de préparation conformes ; rouge/vert rejoué, **194 Python + 4 Node**, deux builds isolés : **3 334 sorties identiques sur 3 335**, seuls vingt attributs de l'accueil varient ; 410 données préservées. Essai sans rédaction réussi, collecte partielle documentée.
+- **144 contrôles navigateur**, huit configurations : vingt arrêts masqués dans chaque sens avant, zéro après ; ordre utile/clics/destinations conservés. Captures avant/après identiques. ENOSPC initial conservé, retry neuf réussi ; aucune purge d'anciens lots.
+- Recette locale terminée ; cloud/HTTPS à vérifier avant clôture. Pull du clone partagé refusé pour divergence locale/cloud, travail sur `origin/main` dans un worktree ; données locales et preuves non fusionnées.
+
 ## Chantier quotidien du 22/10 — listings des ressources (suite #5)
 
 - **Une seule intégration livrée :** trois règles natives `Options -Indexes` copiées depuis les sources vers les dossiers de ressources (`deed934`, fusion `a14db08`). Préflight SFTP : cibles absentes, racine et CORS Skool sauvegardés ; six listings HTTPS confirmés avant correction. Aucun autre chantier intégré, aucune purge ni contrôle de paiement ajouté.

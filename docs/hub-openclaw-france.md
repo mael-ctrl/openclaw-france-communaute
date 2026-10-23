@@ -641,6 +641,48 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   de garanties. Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-22/hub-metadata-legales/`.
 
+## Pages légales sans dépendances de présentation tierces — livraison du 23/10/2026
+
+- **Une amélioration** : retrait du script Tailwind CDN, de la feuille Font
+  Awesome inutilisée et de Google Fonts sur `/mentions-legales/` et
+  `/politique-de-confidentialite/`. Les styles intégrés existants et une police
+  système assurent la présentation. Aucun chargement de ces fournisseurs lors
+  de la lecture ; aucune mesure de gain de vitesse ou de trafic extrapolée.
+- Les deux corps HTML sont **inchangés octet pour octet**. Métadonnées SEO
+  conservées ; sitemap daté sur ces deux URL seulement. Aucun kit, script
+  d’installation, fichier serveur ou contenu du média modifié.
+- Deux tests de régression échouent avant correction puis passent ; **35 tests
+  hub OK**, **196 tests de la suite complète OK**. Chrome avec et sans JavaScript :
+  **24 contrôles locaux** (1440, 1024, 430, 390, 375 et 360 px) et **12 publics**
+  (1440, 390 et 360 px). Aucun appel tiers observé avant navigation ; styles,
+  absence de texte débordant et retour accueil au clavier vérifiés.
+- Bureau inaccessible au cron (`Resource deadlock avoided`, dépôt Git illisible) :
+  publication par `python3 outils/deployer_openclaw.py` depuis le clone synchronisé
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Sauvegarde privée et comparaison
+  des **35 fichiers** avant envoi : aucune divergence. Relecture FTP après envoi :
+  **35 fichiers identiques aux sources** ; seuls les deux HTML et le sitemap
+  diffèrent de la sauvegarde. Les deux ZIP restent intègres et inchangés.
+- Santé : **six URL demandées en HTTP 200**, contrôle étendu **11 URL en 200**
+  sans suivi de redirection. En-têtes HTML publics identiques aux sources ;
+  sitemap, clé, icône et ZIP relus en HTTPS et identiques. **IndexNow HTTP 200**
+  pour les deux pages : notification acceptée, aucune indexation démontrée.
+- **Pas de nouvelle distribution** : journal synchronisé et relu ; le post
+  Bluesky du 20/10 occupe le créneau de cette plateforme pour la semaine.
+  Les derniers contrôles documentent les blocages des autres destinations ;
+  cette mission ne prétend pas avoir revérifié leurs comptes ou les courriels.
+- **Audit de fond restant, séparé de cette correction technique** : la politique
+  décrit encore achat, paiement Qonto, livraison par email et cookies analytiques,
+  alors que le parcours actuel livre les kits gratuitement sans compte. Les
+  mentions légales citent encore Cloudflare Pages au lieu de l’origine OVH et
+  posent des conditions de réutilisation à rapprocher de la licence du dépôt.
+  Les durées de conservation, les éventuels dossiers de commandes historiques
+  et les traitements de support doivent être vérifiés avant réécriture : aucune
+  conformité juridique, absence totale de traitement ou suppression de données
+  n’est affirmée par cette livraison. Prochaine priorité : établir ces traitements
+  réels pour actualiser la politique sans effacer les obligations historiques.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-23/hub-legal-autonome/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

@@ -246,6 +246,26 @@
   }
  },
  {
+  "id": "74ffce27537a4015",
+  "slug": "pn-mix-quantification-mixte-du-cache-kv-guidee-par-les-normes-de-paire-74ffce",
+  "titre": "PN-Mix : quantification mixte du cache KV guidée par les normes de paires",
+  "resume": "Sur les sorties longues, le cache KV des grands modèles sature mémoire et bande passante, et la quantification en 2 bits dégrade fortement l'exactitude. Le papier PN-Mix montre que les erreurs sur les paires de canaux RoPE à fort produit de normes query-key pèsent le plus sur les logits. La méthode réserve donc plus de précision à ces paires, identifiées une fois au prefill et réutilisées au décodage.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xd6dfr/paper_pnmix_pairnorm_guided_mixedprecision_key/",
+  "date_source": "2026-10-23T06:26:24+00:00",
+  "date_redac": "2026-10-23T08:57:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 778,
+   "sortie": 1093
+  }
+ },
+ {
   "id": "c615519a777f7a90",
   "slug": "razer-lance-son-premier-clavier-a-effet-hall-le-huntsman-v3-he-magneti-c61551",
   "titre": "Razer lance son premier clavier à effet Hall, le Huntsman V3 HE Magnetic",
@@ -367,6 +387,27 @@
    "modele": "deepseek-flash",
    "entree": 732,
    "sortie": 1094
+  }
+ },
+ {
+  "id": "39aa52ae4a8ecc86",
+  "slug": "recours-rediges-par-ia-la-france-peut-filtrer-pas-mesurer-39aa52",
+  "titre": "Recours rédigés par IA : la France peut filtrer, pas mesurer",
+  "resume": "L'IA générative rend presque gratuite la rédaction de recours et de réclamations ; leur instruction reste humaine. Une étude recense 84 cas d'engorgement présumé dans onze juridictions, aucun en France, où les volumes montent sans qu'aucune institution mesure la part de l'IA. Le droit français permet d'écarter les demandes abusives et d'imposer un téléservice, sans rien prévoir contre une campagne d'usagers distincts.",
+  "tags": [
+   "société",
+   "france",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/demandes-redigees-par-ia-le-rapport-de-force-commence-a-basculer-vers-les-usagers/",
+  "date_source": "2026-10-23T05:00:00+00:00",
+  "date_redac": "2026-10-23T08:57:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 725,
+   "sortie": 700
   }
  },
  {

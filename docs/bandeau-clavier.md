@@ -24,7 +24,11 @@ Le premier passage navigateur a rencontré ENOSPC sur une capture : résultat in
 
 ## Publication
 
-Recette locale terminée ; publication cloud et vérification HTTPS à consigner après exécution, sans succès anticipé.
+**Livré, vérifié le 23/10 à 11:32 CEST.** Code `c4378243b36b458c0dfc14d5dd94005f4deef99e`, [workflow 39928097397 réussi](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/39928097397), **194 tests cloud**, **1 714 fichiers envoyés**. Pipeline de 2 079 secondes ; sauvegarde `91be1e3ebd0119d824502cd1d192f9ac06ce8b14` confirmée dans les logs et récupérée par pull sans conflit. Les attentes bornées de `gh run watch` ne sont pas des échecs du workflow.
+
+**16 réponses HTTPS sur 15 URL distinctes**, version stable aux deux bornes : accueil et Actus identiques en octets au rendu du commit sauvegardé ; CSS/JS identiques à Git ; dix destinations du bandeau en 200 avec titre et canonique attendus. Vingt liens portant `tabindex=-1` sur l'accueil servi. Puis **144 contrôles réels sur le site HTTPS**, huit configurations Chromium : zéro arrêt masqué dans les deux sens, clics, lien d'évitement et accès clavier aux dix destinations conservés. Ce contrôle ne relit pas toutes les pages historiques.
+
+Les seules copies scratch créées pour cette recette ont été supprimées après conservation des journaux, empreintes et captures ; les lots précédents sont intacts. La branche locale du clone partagé reste à `832489c`, avec sa divergence opérationnelle non arbitrée : publication depuis `origin/main`, pas déclaration du clone partagé synchronisé.
 
 Pièces privées datées : `crabe-chantiers/accessibilite/2026-10-23-integration/` (base, empreintes, rouge/vert, suites, builds, essai, navigateur et captures).
 

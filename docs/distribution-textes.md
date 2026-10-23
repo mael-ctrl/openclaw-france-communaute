@@ -253,6 +253,8 @@ de soumettre. Ne pas faire passer l'agent pour un humain.
 
 ## Journal d'exécution (à tenir à jour, une ligne par action)
 
+- `2026-10-23 | Préparation monétisation privée | Nouvelle capture autorisée du média propre et diagnostic corrigé, sans diffusion | Aucun lien public nouveau | ✅ Six ressources actuelles, trois analyses identiques, entrée corrompue refusée | Aucun contact, formulaire, compte, prix, paiement ou post ; ne consomme pas une action de distribution. Bluesky reste exclu cette semaine par le post du 20. B2B 200, mentions du média 404 à 13:19 UTC ; prérequis commerciaux fermés. Détails : docs/monetisation.md.`
+
 Format : `AAAA-MM-JJ | plateforme | action | URL du post | statut | retours`
 
 - `2026-10-01 | Journal du Hacker | Demande d'invitation soumise + e-mail confirmé (« sera affichée aux utilisateurs connectés ») | https://www.journalduhacker.net/invitations/request | ⏳ en attente d'invitation | —`

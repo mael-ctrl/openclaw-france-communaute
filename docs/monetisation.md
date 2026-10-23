@@ -1,5 +1,21 @@
 # Journal des actions de monétisation
 
+## 23 octobre 2026 — diagnostic corrigé éprouvé sur une entrée actuelle
+
+**Action unique, rang 1 :** recette réelle collecte → analyse → restitution sur le média propre, avec la version privée RCDATA activée par la vague du matin. Le correctif n'est pas réécrit et le dossier du 21 n'est pas reconditionné. Cette mission éprouve une nouvelle entrée, sans ouvrir de prestation.
+
+- **Six ressources capturées en HTTPS strict le 23/10 à 13:19:08–09 UTC**, 385 803 octets : accueil, Pack, B2B, robots et deux XML. Aucune redirection, cible client ou destination trouvée dans le HTML visitée. Les sondes `version.txt` et mentions légales sont distinctes du diagnostic.
+- **Trois analyses identiques** en JSON/Markdown, dont le vrai CLI sous sandbox macOS sans réseau/écriture hors sortie ; canaris refusés. Une copie NON production au corps altéré est refusée avec code 1, sans diagnostic produit. Ce n'est pas une certification universelle d'isolement ou de portabilité.
+- **Trois observations informatives**, zéro error/warning MCP ; 166 occurrences URI et 14 mentions de non-couverture. Aucun défaut syntaxique démontré dans le sous-ensemble, pas de conformité globale ni score GEO. Longueurs de titres/description en unités UTF-16 : informations éditoriales, pas pénalités Google.
+- XML recomptés depuis les corps : **1 679 / 186 URL uniques par document**, non additionnées, pas autant de pages visitées ni une preuve d'indexation. URL/date/empreinte des couches et des sources robots rapprochées. Accueil et XML ont changé depuis le 21 ; Pack/B2B/robots identiques mais réellement relus aujourd'hui. Captures non atomiques malgré deux marqueurs de version égaux.
+- Recette du logiciel **réexécutée** : 9 contrats RCDATA rouge/vert, 16 contrôles d'entrée sélectionnés, deux contrats privés, régressions historiques du lot ; banc **26 cas / 45 critères**, seul H12 corrigé, sept non-couvertures maintenues. **8 309 références** vérifiées avant/après, pas autant de tests. Les 157 fichiers des deux inventaires de livraison sont préservés ; aucune ancienne archive/preuve réécrite, installation ou modification du média.
+
+Dossier privé : **`crabe-chantiers/monetisation/2026-10-23-recette-courante/`**, README, commandes, résultats et manifeste ; liens vers les captures/analyses neuves dans leurs racines autorisées. SHA-256 du diagnostic JSON : `31b6496891704b1b0b31f7f6b07535b18bea379ebc7998b99935e2f49a5f5f7c`. Les SHA de préparation du collecteur et de l'analyseur restent distincts de la date de capture et ne sont pas attribués au déploiement observé. Réemploi MIT de `mcp-web-validator` et `html5lib`, activité GitHub relue, aucun nouveau moteur.
+
+**Verrous :** B2B 200, mentions du média 404 à 13:19 UTC ; vendeur/TVA, conditions, données/droits, capacité externe et reversement non validés. Aucun email, DM, formulaire, compte, tarif, paiement ou promotion ; Bluesky déjà utilisé le 20. Aucun revenu ou gain de visibilité attribué. **Suite utile :** validation vendeur/TVA puis autres prérequis ; ne pas refaire la même capture/remise sans changement utile ni élargir à un site tiers sans périmètre autorisé.
+
+Le pull du clone partagé a refusé sa divergence : commit local conservé, aucune fusion de données/sceaux. Publication des seuls trois documents de suivi depuis un worktree du même dépôt sur `origin/main`, après pull réussi. Cela ne résout pas la divergence opérationnelle ; aucun workflow/cron/serveur/site modifié ni dispatch.
+
 ## 22 octobre 2026 — revue indépendante et correction de la remise privée
 
 **Action unique, rang 1 :** faire relire la restitution par un second agent IA, puis corriger les défauts confirmés dans un **addendum et un vérificateur complémentaire**, sans réécrire l'archive du 21. Ce n'est ni une validation humaine, ni une nouvelle collecte d'audit, ni un nouveau conditionnement du même lot.

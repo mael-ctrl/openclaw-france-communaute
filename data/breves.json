@@ -1,5 +1,108 @@
 [
  {
+  "id": "6c4e947f5341bd99",
+  "slug": "le-deblocage-nvidia-de-zaggita-teste-sur-des-rtx-3080-20-go-chinoises-6c4e94",
+  "titre": "Le déblocage Nvidia de Zaggita testé sur des RTX 3080 20 Go chinoises",
+  "resume": "Le déblocage signé Zaggita, qui lève le bridage de Nvidia sur des instructions matérielles nécessaires à l'IA sur les cartes grand public, fonctionne aussi sur les RTX 3080 20 Go du marché chinois. Sur deux de ces cartes en tensor parallel avec vLLM, un testeur mesure +20 % en prefill et aucun changement en decode. Le gain reste donc partiel, mais il concerne du matériel d'occasion très répandu.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdn33h/new_nvidia_unlock_works_on_chinese_3080_20gb_too/",
+  "date_source": "2026-10-23T19:09:15+00:00",
+  "date_redac": "2026-10-23T19:29:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 906,
+   "sortie": 713
+  }
+ },
+ {
+  "id": "730fe2d807501988",
+  "slug": "techcrunch-founder-summit-2026-au-dela-du-financement-et-de-l-ia-730fe2",
+  "titre": "TechCrunch Founder Summit 2026 : au-delà du financement et de l'IA",
+  "resume": "TechCrunch organise son Founder Summit 2026 en partenariat avec Fidelity Private Shares. Cette journée complète ne se limite pas au financement et à l'IA : elle aborde la recherche de clients, la construction d'équipes, le travail du pitch, le leadership des fondateurs et la mise à l'échelle des entreprises, y compris hors des hubs startups traditionnels.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+  "date_source": "2026-10-23T19:06:23+00:00",
+  "date_redac": "2026-10-23T19:29:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 666,
+   "sortie": 400
+  }
+ },
+ {
+  "id": "8f90b80bd59de061",
+  "slug": "kimi-k3-1-pro-et-opus-5-5-compares-sur-un-pelican-a-velo-en-3d-8f90b8",
+  "titre": "Kimi K3.1 Pro et Opus 5.5 comparés sur un pélican à vélo en 3D",
+  "resume": "Sur r/LocalLLaMA, un utilisateur a demandé à Kimi K3.1 Pro, en réflexion par défaut et avec ~160 000 tokens de contexte, une scène haute fidélité d'un pélican à vélo (harnais Pi.dev). Face au résultat d'Opus 5.5 au lancement, Kimi fait mieux qu'Opus 5 mais reste en retrait d'Opus 5.5 et d'astra 6. L'auteur voit dans ces essais un progrès net de la compréhension 3D des modèles à poids ouverts à venir.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdmqvy/kimi_k31_pro_create_a_high_fidelity_scene_of/",
+  "date_source": "2026-10-23T18:56:41+00:00",
+  "date_redac": "2026-10-23T19:29:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 773,
+   "sortie": 1253
+  }
+ },
+ {
+  "id": "b07520a250516a28",
+  "slug": "llama-cpp-une-pr-evite-le-kq-mask-et-economise-des-gigaoctets-de-vram-b07520",
+  "titre": "llama.cpp : une PR évite le kq_mask et économise des gigaoctets de VRAM",
+  "resume": "La pull request #30965 de sanmai, dans le dépôt ggml-org/llama.cpp, propose de construire la sélection QSA sans le kq_mask. L'extrait annonce des gigaoctets de VRAM économisés sur Qwen Flash Next. Le commentaire joint évoque Strata, qui utiliserait ce mécanisme pour tirer le maximum du cache des experts.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdmek0/qwen4exp_build_the_qsa_selection_without_the_kq/",
+  "date_source": "2026-10-23T18:43:46+00:00",
+  "date_redac": "2026-10-23T19:29:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 728
+  }
+ },
+ {
+  "id": "ad42a4189f8a630a",
+  "slug": "sept-moteurs-d-inference-qwen-3-8-fn-compares-sur-une-rtx-5090-ad42a4",
+  "titre": "Sept moteurs d'inférence Qwen 3.8 FN comparés sur une RTX 5090",
+  "resume": "Le développeur de Basalt, l'un des moteurs testés, compare sept implémentations de Qwen 3.8 FN : Strata, Infernix, capy-flash, ninfer-ext, ninfer, llama.cpp et Basalt. Chaque moteur a converti le NVFP4 de NVIDIA avec son propre outil, puis reçu les mêmes sept requêtes greedy sur une RTX 5090 à 400 W, avec un démarrage à froid par requête. Il dit avoir passé environ cinq heures à tout installer.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlunp/i_ran_all_the_popular_qwen_38_fn_engines_on_a/",
+  "date_source": "2026-10-23T18:22:56+00:00",
+  "date_redac": "2026-10-23T19:29:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 850,
+   "sortie": 911
+  }
+ },
+ {
   "id": "43dd1ee76e99383b",
   "slug": "les-dernieres-rtx-5090-iraient-a-une-usine-de-conversion-ia-en-chine-43dd1e",
   "titre": "Les dernières RTX 5090 iraient à une usine de conversion IA en Chine",
@@ -120,6 +223,27 @@
    "modele": "deepseek-flash",
    "entree": 645,
    "sortie": 714
+  }
+ },
+ {
+  "id": "a64a1cce907837cd",
+  "slug": "mica-v0-5-un-modele-de-decision-4b-plus-rapide-qu-un-encodeur-de-395m-a64a1c",
+  "titre": "Mica v0.5, un modèle de décision 4B plus rapide qu'un encodeur de 395M",
+  "resume": "Sur r/LocalLLaMA, l'auteur présente Mica v0.5, un modèle de décision 4B (Qwen3.5-4B + LoRA) qui ne rédige pas de texte : on lui passe un état, une question et des options, il renvoie une probabilité par option en une seule passe. Testé sur une RTX 6000 Ada face à PPLX Decider 1.2 Flash (4B, mode Laya, encodeur ModernBERT-large de 395M), il tourne en 14 ms contre 31 ms. Un autre modèle 4B monte à 150 ms.",
+  "tags": [
+   "open-source",
+   "agents",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdkl55/a_4b_model_faster_than_a_395m_encoder_14_ms_vs_31/",
+  "date_source": "2026-10-23T17:35:20+00:00",
+  "date_redac": "2026-10-23T19:29:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 912,
+   "sortie": 1017
   }
  },
  {

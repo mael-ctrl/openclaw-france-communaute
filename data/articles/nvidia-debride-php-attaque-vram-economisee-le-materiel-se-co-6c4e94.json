@@ -1,0 +1,41 @@
+{
+ "slug": "nvidia-debride-php-attaque-vram-economisee-le-materiel-se-co-6c4e94",
+ "titre": "Nvidia débridé, PHP attaqué, VRAM économisée : le matériel se compte",
+ "chapo": "D'un côté, un débridage qui rend à des RTX 3080 20 Go chinoises des instructions matérielles utiles à l'IA ; de l'autre, deux failles critiques dans PHP déjà exploitées dans la nature. Entre les deux, la communauté locale continue de grappiller des gigaoctets de VRAM.",
+ "html": "<h2 id=\"zaggita-20-en-prefill-rien-en-decode\">Zaggita : +20 % en prefill, rien en decode</h2>\n<p>Le déblocage signé Zaggita, qui lève le bridage de Nvidia sur des instructions matérielles nécessaires à l'IA sur les cartes grand public, ne se limite pas aux GPU les plus récents. Un testeur l'a appliqué à des <strong>RTX 3080 20 Go</strong>, une variante réservée au marché chinois.</p>\n<p>Le protocole est précis : deux de ces cartes montées en <strong>tensor parallel avec vLLM</strong>. Résultat mesuré, <strong>+20 % en prefill et aucun changement en decode</strong>. Le gain est donc partiel, et c'est le mot qui compte : la carte ne devient pas un accélérateur neuf.</p>\n<p>L'intérêt tient au parc concerné. Ces 3080 20 Go circulent d'occasion et restent très répandues. Récupérer du calcul sur du matériel déjà installé, sans achat, voilà ce que la communauté locale retient de l'opération.</p>\n<h2 id=\"les-dernieres-rtx-5090-direction-une-usi\">Les dernières RTX 5090, direction une usine chinoise</h2>\n<p>En face, l'offre se raréfie. Un post de r/LocalLLaMA signale qu'une vaste usine chinoise de conversion pour l'IA accaparerait les dernières <strong>RTX 5090</strong>, Founders Edition comprises. L'extrait ne précise ni le site exact, ni les volumes concernés.</p>\n<p>Le signal, lui, est clair : le sujet place la question de <strong>l'accès au matériel GPU</strong> au centre des préoccupations de la communauté. Débrider des cartes anciennes d'un côté, voir les nouvelles partir ailleurs de l'autre — les deux mouvements racontent la même tension sur la ressource.</p>\n<h2 id=\"php2shell-deux-failles-critiques-l-ia-da\">PHP2Shell : deux failles critiques, l'IA dans l'équation</h2>\n<p>PHP a corrigé le 21 octobre deux failles critiques permettant l'exécution de code à distance. Selon ActuIA, le défaut à l'origine de l'une d'elles était <strong>connu depuis 2024</strong>, mais son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA. Une faille latente pendant des mois, révélée critique sur le tard.</p>\n<p>01net donne un nom à ces vulnérabilités, <strong>PHP2Shell</strong>, et rappelle l'échelle : le langage fait tourner environ <strong>70 % des sites web</strong>. Elles permettent de prendre le contrôle d'un serveur à distance, et les cyberattaques exploitant ces failles ont déjà commencé. Particularité : elles ont été débusquées par l'IA, via les modèles de pointe de Google et d'OpenAI.</p>\n<p>Côté réponse, le factuel est sec : à la demande de l'Anssi, le ministère de l'Intérieur a <strong>coupé ses sites exposés</strong>.</p>\n<h2 id=\"llama-cpp-le-kq-mask-s-en-va-la-vram-res\">llama.cpp : le kq_mask s'en va, la VRAM reste</h2>\n<p>La pull request <strong>#30965</strong> de sanmai, dans le dépôt ggml-org/llama.cpp, propose de construire la sélection QSA sans le <strong>kq_mask</strong>. L'extrait annonce des <strong>gigaoctets de VRAM économisés</strong> sur Qwen Flash Next.</p>\n<p>Le commentaire joint évoque <strong>Strata</strong>, qui utiliserait ce mécanisme pour tirer le maximum du cache des experts. Moins de masque d'un côté, plus de place pour ce qui compte de l'autre — sur du matériel contraint, ce genre d'arbitrage vaut autant qu'un débridage.</p>\n<p>L'extrait ne dit pas où en est la PR au-delà de la proposition. Il ne dit pas non plus, d'ailleurs, ce que Qwen Flash Next gagne exactement en vitesse : la dépêche s'en tient à la VRAM.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dépêches, un même fil : la ressource se compte. Des instructions débridées sur des 3080 d'occasion, des gigaoctets de VRAM grappillés dans llama.cpp, des 5090 qui filent vers une usine chinoise. En miroir, des failles PHP qui n'ont bougé qu'une fois l'IA passée dessus : connues depuis 2024, critiques seulement cet été, exploitées depuis. Le matériel et le code s'optimisent ; la sécurité, elle, rattrape son retard.</p>",
+ "pivot": "6c4e947f5341bd99",
+ "tags": [
+  "matériel",
+  "open-source",
+  "sécurité",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdn33h/new_nvidia_unlock_works_on_chinese_3080_20gb_too/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdmek0/qwen4exp_build_the_qsa_selection_without_the_kq/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlj42/heres_where_the_last_rtx_5090_cards_are_going/"
+  }
+ ],
+ "date": "2026-10-23T19:30:05+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1573,
+  "sortie": 3804
+ }
+}

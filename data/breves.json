@@ -1,5 +1,111 @@
 [
  {
+  "id": "64c6c8b088f47334",
+  "slug": "openclaw-son-createur-consomme-10-m-de-tokens-chatgpt-par-mois-sans-pa-64c6c8",
+  "titre": "OpenClaw : son créateur consomme 10 M$ de tokens ChatGPT par mois, sans payer",
+  "resume": "Peter Steinberger, le créateur de l'agent IA OpenClaw, estime avoir consommé en septembre l'équivalent de 10 millions de dollars de tokens sur ChatGPT. Lui ne paie rien : il travaille chez OpenAI. Ses utilisateurs, en revanche, règlent la facture, à la requête ou par abonnement, à moins de faire tourner l'IA chez eux.",
+  "tags": [
+   "openclaw",
+   "chatgpt",
+   "openai",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/openai-chatgpt/3296939_tout-nest-pas-utile-le-createur-dopenclaw-brule-10-millions-de-chatgpt-par-mois-sans-payer",
+  "date_source": "2026-10-23T14:26:02+00:00",
+  "date_redac": "2026-10-23T14:44:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 726,
+   "sortie": 468
+  }
+ },
+ {
+  "id": "e9fd98370a552fc6",
+  "slug": "371-romans-ecrits-avec-l-ia-en-20-mois-coral-hart-assume-e9fd98",
+  "titre": "371 romans écrits avec l'IA en 20 mois : Coral Hart assume",
+  "resume": "La romancière sud-africaine Coral Hart affirme avoir écrit 371 romans en vingt mois avec l'aide de ChatGPT, Claude et Grok. Elle déclare aussi avoir généré un million de dollars de chiffre d'affaires en 2026 et propose de produire des livres sur commande. « On va me haïr », concède-t-elle, alors que la génération de textes par IA bouscule le rapport au métier d'auteur.",
+  "tags": [
+   "chatgpt",
+   "claude",
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/on-va-me-hair-cette-romanciere-a-ecrit-371-livres-grace-a-chatgpt-claude-et-grok-et-elle-assume.html",
+  "date_source": "2026-10-23T14:12:48+00:00",
+  "date_redac": "2026-10-23T14:44:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 696,
+   "sortie": 529
+  }
+ },
+ {
+  "id": "3ddfb59b08ac2c9f",
+  "slug": "le-gain-de-vitesse-par-deblocage-gpu-vaut-il-aussi-pour-les-cartes-40x-3ddfb5",
+  "titre": "Le gain de vitesse par déblocage GPU vaut-il aussi pour les cartes 40x0 et 50x0",
+  "resume": "Sur r/LocalLLaMA, un utilisateur se demande si l'astuce logicielle qui accélère les RTX 3090 fonctionne aussi sur les autres cartes de la génération 30 (3060, 3070, 3080), ainsi que sur les 40x0 et les 50x0. Il dit avoir vu passer des informations sur ce gain de vitesse obtenu par des ajustements logiciels sur les 3090. La question reste sans réponse dans l'extrait, alors qu'elle intéresse ceux qui font tourner des modèles en local.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdexhw/does_the_gpu_unlock_speedup_trick_only_work_for/",
+  "date_source": "2026-10-23T14:02:46+00:00",
+  "date_redac": "2026-10-23T14:44:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 694,
+   "sortie": 747
+  }
+ },
+ {
+  "id": "335e9fb409a2844b",
+  "slug": "backdoors-dans-les-moteurs-d-inference-un-ecosysteme-fragile-335e9f",
+  "titre": "Backdoors dans les moteurs d'inférence : un écosystème fragile",
+  "resume": "Un internaute rappelle que la backdoor xz utils de 2024, dans l'un des codes les plus surveillés, n'a été repérée que par hasard. Il s'inquiète des dépôts bien moins observés : harnais d'agents, moteurs d'inférence et modèles, dont il sort un nouveau chaque semaine. Un abonnement à Opus 5.5 ne suffira pas à les détecter. Il suffit d'une pull request d'apparence légitime, approuvée puis laissée en place des mois.",
+  "tags": [
+   "sécurité",
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdeg0n/probability_of_backdoors_in_popular_harnesses_and/",
+  "date_source": "2026-10-23T13:44:17+00:00",
+  "date_redac": "2026-10-23T14:44:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 797,
+   "sortie": 853
+  }
+ },
+ {
+  "id": "f5055079cb6d60e3",
+  "slug": "le-cout-d-une-reponse-ia-divise-par-13-chaque-annee-f50550",
+  "titre": "Le coût d'une réponse IA divisé par 13 chaque année",
+  "resume": "À niveau de performance égal, faire tourner un modèle d'intelligence artificielle coûte treize fois moins cher chaque année. Une baisse record qui devrait soulager les utilisateurs. Mais elle enferme surtout OpenAI et Anthropic dans une fuite en avant financière, à l'approche de leur entrée en Bourse.",
+  "tags": [
+   "openai",
+   "business"
+  ],
+  "importance": 4,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3297277_intelligence-artificielle-le-cout-dune-reponse-divise-par-13-chaque-annee-pourquoi-anthropic-et-openai-ont-du-souci-a-se-faire",
+  "date_source": "2026-10-23T13:43:25+00:00",
+  "date_redac": "2026-10-23T14:45:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 711,
+   "sortie": 394
+  }
+ },
+ {
   "id": "d34747657438013f",
   "slug": "ton-modele-tourne-t-il-sur-aws-trainium-voila-comment-le-verifier-d34747",
   "titre": "Ton modèle tourne-t-il sur AWS Trainium ? Voilà comment le vérifier",

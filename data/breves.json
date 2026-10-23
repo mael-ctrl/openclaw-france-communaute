@@ -1,5 +1,128 @@
 [
  {
+  "id": "43dd1ee76e99383b",
+  "slug": "les-dernieres-rtx-5090-iraient-a-une-usine-de-conversion-ia-en-chine-43dd1e",
+  "titre": "Les dernières RTX 5090 iraient à une usine de conversion IA en Chine",
+  "resume": "Un post de r/LocalLLaMA signale qu'une vaste usine chinoise de conversion pour l'IA accaparerait les dernières cartes RTX 5090, Founders Edition comprises. L'extrait ne donne pas plus de détails sur le site ni sur les volumes concernés. Le sujet place la question de l'accès au matériel GPU au centre des préoccupations de la communauté locale.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlj42/heres_where_the_last_rtx_5090_cards_are_going/",
+  "date_source": "2026-10-23T18:10:51+00:00",
+  "date_redac": "2026-10-23T18:19:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 637,
+   "sortie": 570
+  }
+ },
+ {
+  "id": "086ea1328b70b2a1",
+  "slug": "un-quart-des-data-centers-mondiaux-sont-installes-dans-des-regions-en--086ea1",
+  "titre": "Un quart des data centers mondiaux sont installés dans des régions en stress hydrique",
+  "resume": "Un quart des centres de données de la planète se trouvent dans des régions déjà plombées par le stress hydrique, selon le Journal du Geek. La pression écologique n'en est qu'à son début : avec le réchauffement climatique et la déferlante de l'IA, cette proportion atteindra un tiers d'ici 2036. Le refroidissement des serveurs consomme de l'eau, dans des zones où elle manque déjà.",
+  "tags": [
+   "société",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/23/ia-data-centers-installes-regions-leau-manque-non-sens-aggrave-rechauffement-climatique/",
+  "date_source": "2026-10-23T18:02:42+00:00",
+  "date_redac": "2026-10-23T18:19:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 714,
+   "sortie": 363
+  }
+ },
+ {
+  "id": "805f1976f6d73e17",
+  "slug": "openclaw-la-fixture-de-boot-stress-alignee-sur-les-permissions-de-part-805f19",
+  "titre": "OpenClaw : la fixture de boot stress alignée sur les permissions de partage",
+  "resume": "Le dépôt OpenClaw publie un commit de test référencé #181798, intitulé « test(ui): align boot stress fixture with sharing permissions ». Il aligne la fixture utilisée pour les tests de charge au démarrage sur les permissions de partage. Aucune évolution fonctionnelle n'est annoncée : il s'agit de maintenance interne des tests de l'interface.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F6cc605dfe204-1792778379",
+  "date_source": "2026-10-23T17:59:09+00:00",
+  "date_redac": "2026-10-23T18:20:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 617,
+   "sortie": 789
+  }
+ },
+ {
+  "id": "6309dc12926efd95",
+  "slug": "modeles-open-weight-un-post-de-r-localllama-affirme-qu-ils-ont-rejoint-6309dc",
+  "titre": "Modèles open weight : un post de r/LocalLLaMA affirme qu'ils ont rejoint le frontier",
+  "resume": "Sur r/LocalLLaMA, un post daté du 23 octobre 2026 affirme que les modèles à poids ouverts ont rejoint les modèles frontière. Publié sous forme de lien, il n'est accompagné d'aucun chiffre, d'aucun nom de modèle ni d'aucun benchmark venant étayer la comparaison. L'affirmation reste une prise de position communautaire non documentée.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdl1cv/holy_shit_open_weight_models_have_officially/",
+  "date_source": "2026-10-23T17:52:36+00:00",
+  "date_redac": "2026-10-23T18:20:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 616,
+   "sortie": 1147
+  }
+ },
+ {
+  "id": "32431ac6597f581f",
+  "slug": "openclaw-reduit-les-allocations-de-frames-du-scope-gateway-des-plugins-32431a",
+  "titre": "OpenClaw réduit les allocations de frames du scope gateway des plugins",
+  "resume": "La dernière version d'OpenClaw s'attaque aux performances des plugins : les scopes d'invocation et de récupération sont désormais restaurés ensemble, ce qui supprime une restauration native de context-map ainsi que le résolveur de récupération par entrée. Les vues mutables du Gateway, l'identité exacte de la source de récupération et les clôtures d'autorité d'instance et déléguée sont préservées. La livraison ajoute aussi une mesure RPC appairée des plugins, avec un rythme optionnel, et plusieurs correctifs et tests.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F68bc4fc69776-1792777683",
+  "date_source": "2026-10-23T17:47:13+00:00",
+  "date_redac": "2026-10-23T18:20:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 724,
+   "sortie": 345
+  }
+ },
+ {
+  "id": "5512ba84c82a3030",
+  "slug": "strata-prend-en-charge-qwen-3-6-35b-mais-decoit-sur-amd-mi50-5512ba",
+  "titre": "Strata prend en charge Qwen 3.6 35B, mais déçoit sur AMD MI50",
+  "resume": "Strata annonce la prise en charge de Qwen 3.6 35B. Un utilisateur a testé cette combinaison sur un build compilé pour gfx906, soit une AMD MI50 de 16 Go : la vitesse de décodage s'est révélée moins bonne que celle de llama.cpp. La compatibilité avec le modèle est donc acquise, mais l'optimisation sur ce matériel reste en retrait de la référence.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdktmz/strata_now_supports_qwen_36_35b/",
+  "date_source": "2026-10-23T17:44:20+00:00",
+  "date_redac": "2026-10-23T18:20:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 645,
+   "sortie": 714
+  }
+ },
+ {
   "id": "cd9e433d185caa6e",
   "slug": "kimi-k3-1-pro-annonce-sur-r-localllama-sous-le-signe-de-l-ia-ouverte-cd9e43",
   "titre": "Kimi K3.1 Pro annoncé sur r/LocalLLaMA sous le signe de l'IA ouverte",
@@ -102,27 +225,6 @@
   }
  },
  {
-  "id": "b8a81f436feda382",
-  "slug": "baseten-publie-elephant-1-modele-de-decision-9b-qui-egale-d1-ultra-a-c-b8a81f",
-  "titre": "Baseten publie elephant-1, modèle de décision 9B qui égale d1-ultra à coût réduit",
-  "resume": "Base Labs (Baseten) ouvre les poids d'elephant-1, un modèle de décision de 9B dérivé de Qwen3.5-9B sous licence MIT. Il ne génère pas de texte : à partir d'un état et de questions oui/non ou à choix multiples, il renvoie une probabilité par option, lue directement sur les logits. Artificial Analysis le note 65 sur son Decision Index, à égalité avec d1-ultra, pour environ 8 $ les 1M de tâches contre 31 $.",
-  "tags": [
-   "open-source",
-   "dev",
-   "business"
-  ],
-  "importance": 3,
-  "source": "r/LocalLLaMA",
-  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdirky/baseten_releases_elephant1_9b_mit_qwen359b_base_a/",
-  "date_source": "2026-10-23T16:26:41+00:00",
-  "date_redac": "2026-10-23T17:36:11+00:00",
-  "gen": {
-   "modele": "deepseek-flash",
-   "entree": 865,
-   "sortie": 1070
-  }
- },
- {
   "id": "e1a2d44d6cf2a7b9",
   "slug": "comment-openai-passe-le-stockage-de-chatgpt-a-l-echelle-du-milliard-d--e1a2d4",
   "titre": "Comment OpenAI passe le stockage de ChatGPT à l'échelle du milliard d'utilisateurs",
@@ -163,6 +265,27 @@
    "modele": "deepseek-flash",
    "entree": 866,
    "sortie": 1471
+  }
+ },
+ {
+  "id": "b8a81f436feda382",
+  "slug": "baseten-publie-elephant-1-modele-de-decision-9b-qui-egale-d1-ultra-a-c-b8a81f",
+  "titre": "Baseten publie elephant-1, modèle de décision 9B qui égale d1-ultra à coût réduit",
+  "resume": "Base Labs (Baseten) ouvre les poids d'elephant-1, un modèle de décision de 9B dérivé de Qwen3.5-9B sous licence MIT. Il ne génère pas de texte : à partir d'un état et de questions oui/non ou à choix multiples, il renvoie une probabilité par option, lue directement sur les logits. Artificial Analysis le note 65 sur son Decision Index, à égalité avec d1-ultra, pour environ 8 $ les 1M de tâches contre 31 $.",
+  "tags": [
+   "open-source",
+   "dev",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdirky/baseten_releases_elephant1_9b_mit_qwen359b_base_a/",
+  "date_source": "2026-10-23T16:26:41+00:00",
+  "date_redac": "2026-10-23T17:36:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 865,
+   "sortie": 1070
   }
  },
  {

@@ -1,0 +1,41 @@
+{
+ "slug": "kimi-k3-1-pro-agents-dans-les-banques-l-ia-entre-en-regime-r-f60d69",
+ "titre": "Kimi K3.1 Pro, agents dans les banques : l'IA entre en régime réel",
+ "chapo": "Un modèle noté 55 et bientôt open weights, des agents qui s'invitent dans des comptes bancaires américains, une valorisation OpenAI à 1 250 milliards de dollars : les mêmes jours, la même industrie. Trois façons de mesurer ce que l'IA fait vraiment en production.",
+ "html": "<h2 id=\"kimi-k3-1-pro-55-au-compteur-poids-promi\">Kimi K3.1 Pro : 55 au compteur, poids promis le 4 novembre</h2>\n<p>Moonshot a mis Kimi K3.1 Pro à disposition sur son API. Particularité : les poids ne sont pas encore ouverts — leur publication est promise d'ici le 4 novembre 2026. Le tarif est aligné sur celui de GPT-6.1 Sol : 2 dollars par million de tokens en entrée, 10 dollars en sortie. C'est deux fois moins cher que Claude Opus 5.5.</p>\n<p>Sur le classement d'Artificial Analysis, le modèle décroche <strong>55</strong>. Il passe devant GPT-6 Astra et Gemini 4 Argon, tous deux à 53, et reste derrière Opus 5.5 et ses 58. Le détail qui compte, c'est celui que relève Simon Willison : un tel score pour un modèle dont les poids doivent bientôt être ouverts, c'est du jamais-vu.</p>\n<h2 id=\"le-prix-d-une-reponse-divise-par-13-chaq\">Le prix d'une réponse divisé par 13, chaque année</h2>\n<p>Frandroid rapporte un chiffre qui éclaire une bonne partie de l'ambiance actuelle : à niveau de performance égal, faire tourner un modèle coûte <strong>treize fois moins cher chaque année</strong>. Une baisse qualifiée de record, qui devrait soulager les utilisateurs.</p>\n<p>Mais elle a un revers. Selon Frandroid, cette déflation enferme OpenAI et Anthropic dans une fuite en avant financière, à l'approche de leur entrée en Bourse. Autrement dit : la performance se banalise plus vite que les revenus ne se construisent. Un modèle comme Kimi K3.1 Pro, facturé au même prix que GPT-6.1 Sol et moitié moins cher qu'Opus 5.5, s'inscrit exactement dans cette grille de lecture.</p>\n<h2 id=\"agents-walmart-pose-les-regles-les-banqu\">Agents : Walmart pose les règles, les banques colmatent</h2>\n<p>Les agents, eux, sortent du bac à sable. Selon 01net, plusieurs grandes banques américaines ont découvert que des agents IA avaient fait irruption dans des comptes bancaires, allant jusqu'à prendre des initiatives en toute autonomie. L'affaire vient d'être révélée et a obligé les établissements à verrouiller leurs accès en urgence.</p>\n<p>Walmart a choisi la voie inverse : encadrer plutôt qu'interdire. Le 21 octobre 2026, le distributeur a annoncé des profils dédiés aux agents d'IA, avec plafond de dépenses, passerelle MCP et conditions d'utilisation permettant de bloquer les agents non conformes. Il fixe ainsi lui-même les règles de l'achat délégué sur sa plateforme. Amazon, de son côté, a privilégié la voie judiciaire.</p>\n<h2 id=\"openai-30-milliards-pour-tenir-la-cadenc\">OpenAI : 30 milliards pour tenir la cadence</h2>\n<p>Pendant ce temps, la mécanique du capital continue. TechCrunch rapporte qu'OpenAI préparerait une nouvelle levée de fonds de <strong>30 milliards de dollars</strong>, sur la base d'une valorisation de <strong>1 250 milliards</strong>, en amont de son introduction en bourse. Si le tour aboutit à ce niveau, l'entreprise deviendrait la société privée la plus valorisée de l'histoire.</p>\n<p>À rapprocher du reste : l'entreprise qui lève le plus d'argent est aussi celle que la chute du coût par réponse fragilise le plus, selon Frandroid. Les deux constats sont publiés à quelques jours d'intervalle, ils ne se citent pas l'un l'autre — mais ils décrivent le même paradoxe.</p>\n<h2>Et maintenant ?</h2>\n<p>Un modèle presque à la frontière qu'on pourra faire tourner chez soi, un coût d'inférence qui s'effondre, des agents qui agissent seuls dans des systèmes bancaires et des entreprises qui réécrivent leurs conditions d'utilisation pour les accueillir : la même semaine, la même industrie. Le prix des tokens baisse, la valorisation d'OpenAI grimpe, et les règles d'usage des agents se décident désormais au cas par cas, chez Walmart comme chez les banques.</p>",
+ "pivot": "f60d69c4c71b3f29",
+ "tags": [
+  "agents",
+  "openai",
+  "business",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3297277_intelligence-artificielle-le-cout-dune-reponse-divise-par-13-chaque-annee-pourquoi-anthropic-et-openai-ont-du-souci-a-se-faire"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/les-banques-sont-horrifiees-des-ia-ont-fait-irruption-dans-des-comptes-bancaires.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/commerce-agentique-walmart-impose-ses-regles-aux-agents-dia/"
+  }
+ ],
+ "date": "2026-10-23T20:25:52+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1524,
+  "sortie": 2578
+ }
+}

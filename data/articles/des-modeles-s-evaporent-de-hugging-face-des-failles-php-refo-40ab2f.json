@@ -1,0 +1,41 @@
+{
+ "slug": "des-modeles-s-evaporent-de-hugging-face-des-failles-php-refo-40ab2f",
+ "titre": "Des modèles s'évaporent de Hugging Face, des failles PHP refont surface",
+ "chapo": "Des téléchargements qui s'arrêtent net, des dépôts introuvables : sur r/LocalLLaMA, un utilisateur cherche ses modèles disparus de Hugging Face. Pendant ce temps, deux papiers s'attaquent au coût des MoE et PHP colmate deux failles critiques débusquées avec de l'IA.",
+ "html": "<h2 id=\"hugging-face-des-depots-qui-s-evaporent-\">Hugging Face : des dépôts qui s'évaporent sans préavis</h2>\n<p>Sur r/LocalLLaMA, un utilisateur signale que plusieurs de ses téléchargements de modèles s'arrêtent brutalement, et ne reprennent pas. Les dépôts concernés semblent avoir disparu de Hugging Face. Il cite notamment <strong>MiMo-V2.6-Pro-RL-UNCENSORED</strong> et <strong>Huihui-Kimi-K2.7-Code-abliterated-GGUF</strong>, et note qu'il ne reste plus aucun DeepSeek-R1 « abliterated ».</p>\n<p>Les intitulés cités partagent un point commun : ce sont des variantes <em>uncensored</em> ou <em>abliterated</em>. La dépêche ne rapporte ni explication de la plateforme, ni confirmation d'un motif particulier. L'utilisateur demande simplement ce qui se passe et où retrouver ces modèles, sans réponse documentée à ce stade.</p>\n<p>Pour qui fait tourner des modèles en local, le sujet n'est pas anecdotique : un dépôt qui s'évapore, c'est un téléchargement à reprendre et une référence de fichier qui ne pointe plus vers rien. Le fil ne dit pas si les fichiers ont été retirés à la demande de quelqu'un, supprimés par leur auteur ou déplacés ailleurs.</p>\n<h2 id=\"moe-deux-pistes-pour-alleger-calcul-et-s\">MoE : deux pistes pour alléger calcul et stockage</h2>\n<p>Deux papiers relayés sur le même subreddit attaquent le coût des modèles à mélange d'experts, chacun sur un front différent.</p>\n<p><strong>LatentLoop</strong> part d'une observation sur les MoE bouclés : les passages successifs ne jouent pas le même rôle, même à paramètres partagés, et le premier présente une échelle plus faible. Réduire son échelle préserve ou améliore les performances, alors que la même réduction appliquée au second les dégrade. Le papier en tire une allocation asymétrique du calcul : séquence compressée au premier passage, pleine résolution au second, et le calcul économisé réinvesti dans la taille cachée.</p>\n<p><strong>Les « Meta Experts »</strong> s'attaquent au stockage. Dans un MoE, les experts de couches différentes se ressemblent beaucoup et dupliquent leur contenu. Un papier compare des Meta Experts partagés entre couches aux experts locaux : moins de redondance, une perte d'entropie croisée plus basse et une meilleure précision en aval. À nombre d'experts activés et granularité fixés, le modèle égale le MoE classique avec 70 à 80 % des experts.</p>\n<h2 id=\"php2shell-deux-failles-critiques-reperee\">PHP2Shell : deux failles critiques, repérées avec de l'IA</h2>\n<p>PHP a corrigé le 21 octobre deux failles critiques permettant l'exécution de code à distance. Le défaut à l'origine de l'une d'elles était connu depuis 2024, mais son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA. À la demande de l'Anssi, le ministère de l'Intérieur a coupé ses sites exposés.</p>\n<p>01net donne un nom à la paire, <strong>PHP2Shell</strong>, et rappelle l'enjeu : PHP fait tourner environ 70 % des sites web. Les deux vulnérabilités permettent de prendre le contrôle d'un serveur à distance, et les cyberattaques qui les exploitent ont déjà commencé. Particularité : elles ont été débusquées par l'intelligence artificielle, via les modèles de pointe de Google et d'OpenAI.</p>\n<p>Les deux récits se recoupent sur l'essentiel : un défaut dormant, une démonstration d'exploitation obtenue avec des modèles d'IA, puis une fenêtre très courte entre la révélation et les attaques. ActuIA date le défaut d'origine de 2024 ; 01net ne donne pas de chronologie comparable et insiste sur le volume de sites concernés.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois fils, trois échelles. Chez les utilisateurs, des fichiers qui disparaissent sans explication et une communauté qui se retrouve sans point de chute. Côté recherche, des modèles qui gagnent en efficacité en traitant différemment ce qu'ils traitaient jusqu'ici de la même façon. Côté sécurité, un langage installé sur une large part du web, un défaut documenté depuis 2024 et une exploitation rendue démontrable par des modèles de pointe. Le point commun : la même matière première circule, modèles publics d'un côté, capacités d'analyse de l'autre, et les mêmes questions de traçabilité se posent à chaque bout de la chaîne.</p>",
+ "pivot": "40ab2f9dadf29fa3",
+ "tags": [
+  "open-source",
+  "sécurité",
+  "recherche",
+  "deepseek"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd7ptj/models_disappearing_from_huggingface/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd6r9h/paper_latentloop_scaling_looped_moe_models_with/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd5s0n/paper_meta_expert_crosslayer_expert_sharing_for/"
+  }
+ ],
+ "date": "2026-10-23T08:13:27+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1601,
+  "sortie": 3969
+ }
+}

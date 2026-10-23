@@ -1,0 +1,41 @@
+{
+ "slug": "un-modele-entier-dans-128-go-et-des-failles-trouvees-par-l-i-c258f6",
+ "titre": "Un modèle entier dans 128 Go, et des failles trouvées par l'IA",
+ "chapo": "Faire tenir DeepSeek-V4.1-Flash dans la mémoire d'un seul PC : c'est ce que revendique le projet Maya-XS, avec 120,6 Go occupés sur une machine de 128 Go. Au même moment, l'IA s'illustre surtout par les brèches qu'elle permet de trouver — dans PHP, dans Chrome, et pour un moment encore.",
+ "html": "<h2 id=\"120-6-go-sur-128-le-modele-entier-dans-u\">120,6 Go sur 128 : le modèle entier dans une tour</h2>\n<p>Maya-XS fait tenir DeepSeek-V4.1-Flash dans 120,6 Go, avec les 384 experts du modèle résidents en mémoire GPU, sur une machine Ryzen AI Max de 128 Go. Le résultat tient en une phrase : le modèle entier tient dans la mémoire d'un PC unique.</p>\n<p>Le projet ne s'arrête pas à la machine seule. Il gère aussi le tensor parallel sur plusieurs GPU, et un drafting nettement plus rapide sur un seul GPU. Autrement dit, la même base peut s'étaler sur plusieurs cartes ou se concentrer sur une seule, avec un gain annoncé sur la phase de drafting.</p>\n<p>Le chiffre à retenir est moins le modèle que la marge : <strong>120,6 Go sur 128 disponibles</strong>. Il reste de quoi respirer pour le système, mais pas beaucoup plus.</p>\n<h2 id=\"php2shell-deux-failles-critiques-debusqu\">PHP2Shell : deux failles critiques, débusquées avec de l'IA</h2>\n<p>Le 21 octobre, PHP a corrigé deux failles critiques permettant l'exécution de code à distance. Baptisées PHP2Shell, elles permettent de prendre le contrôle d'un serveur à distance, et les cyberattaques qui les exploitent ont déjà commencé. Le langage fait tourner environ <strong>70 % des sites web</strong>.</p>\n<p>Le détail qui compte : le défaut à l'origine de l'une des deux failles était connu depuis 2024, mais son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA. 01net précise que la découverte est passée par les modèles de pointe de Google et d'OpenAI.</p>\n<p>Côté réponse, à la demande de l'Anssi, le ministère de l'Intérieur a coupé ses sites exposés. Une mesure radicale, prise sur des services publics accessibles depuis l'extérieur.</p>\n<h2 id=\"chrome-12-heures-et-un-modele-peu-couteu\">Chrome : 12 heures et un modèle peu coûteux</h2>\n<p>Un chercheur en cybersécurité affirme être parvenu à contourner le bac à sable de Chrome en seulement 12 heures. Pour y arriver, il dit avoir mobilisé un modèle de DeepSeek, qu'il présente comme performant et surtout peu coûteux. Il insiste sur ce faible coût.</p>\n<p>C'est le point interessant de son témoignage : la barrière d'entrée. Le débat sur les modèles offensifs porte souvent sur leurs capacités ; ici, l'argument avancé est celui du prix.</p>\n<h2 id=\"18-mois-selon-anthropic\">18 mois, selon Anthropic</h2>\n<p>Jason Clinton, RSSI adjoint d'Anthropic, prévient que la crise ouverte par les failles critiques de PHP va encore empirer, et ce pendant environ 18 mois. Il annonçait déjà en août ce « tsunami » de vulnérabilités trouvées par l'IA.</p>\n<p>La formulation est celle d'un responsable sécurité d'un des principaux laboratoires : il ne décrit pas un incident isolé, mais une période. Les failles PHP ne sont donc pas présentées comme un accident de calendrier, mais comme le début d'une séquence.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches ne racontent pas la même histoire, mais elles pointent vers la même capacité : des modèles qui lisent, écrivent et analysent du code mieux et plus vite qu'avant. D'un côté, un modèle entier ramené dans la mémoire d'un PC de 128 Go ; de l'autre, des modèles jugés assez efficaces — et assez abordables — pour qu'un chercheur s'en serve comme d'un outil offensif. Entre les deux, un défaut connu depuis 2024 et resté sans exploitation démontrée jusqu'à l'été. Le rythme a changé, pas seulement les outils.</p>",
+ "pivot": "c258f6b72486d463",
+ "tags": [
+  "deepseek",
+  "sécurité",
+  "matériel",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdbtvq/mayaxs_runs_deepseekv41flash_in_1206_gb_with_all/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/deepseek-aurait-reussi-a-contourner-les-defenses-de-chrome-en-12-heures.html"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2359611-vous-avez-deteste-les-failles-critiques-de-php-le-chef-de-la-securite-danthropic-previent-que-ca-va-etre-pire.html"
+  }
+ ],
+ "date": "2026-10-23T13:26:50+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1532,
+  "sortie": 3184
+ }
+}

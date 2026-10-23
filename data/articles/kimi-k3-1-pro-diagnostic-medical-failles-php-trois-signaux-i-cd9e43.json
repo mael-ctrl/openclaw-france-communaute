@@ -1,0 +1,41 @@
+{
+ "slug": "kimi-k3-1-pro-diagnostic-medical-failles-php-trois-signaux-i-cd9e43",
+ "titre": "Kimi K3.1 Pro, diagnostic médical, failles PHP : trois signaux IA",
+ "chapo": "Une annonce de modèle ouvert sans fiche technique, une promesse de diagnostic quatre fois supérieure aux médecins, et deux failles PHP critiques débusquées par des modèles de pointe : trois dépêches, trois façons de mesurer ce que l'IA change vraiment.",
+ "html": "<h2 id=\"kimi-k3-1-pro-l-annonce-sans-le-contenu\">Kimi K3.1 Pro : l'annonce sans le contenu</h2>\n<p>Le 23 octobre 2026, un message signé u/Recoil42 apparaît sur le subreddit r/LocalLLaMA sous le titre « Advancing Open Intelligence ». Il annonce <strong>Kimi K3.1 Pro</strong> et présente la sortie comme une avancée pour l'intelligence ouverte. C'est, à ce stade, à peu près tout : l'extrait disponible ne contient ni caractéristiques techniques, ni benchmarks, ni précisions sur la licence ou les modalités d'accès.</p>\n<p>La même communauté relaie par ailleurs des captures d'écran annonçant deux autres modèles Kimi, estampillés <strong>3.1 et 2.8</strong>, déjà visibles sur le site kimi.ai. L'éditeur Moonshot a de son côté publié sur X des résultats de benchmarks accompagnant l'annonce. Les noms diffèrent donc selon les sources — « K3.1 Pro » d'un côté, « 3.1 » et « 2.8 » de l'autre — et rien ne permet, en l'état, de dire comment ces annonces s'articulent.</p>\n<p>Ce qui ressort des échanges, c'est l'attente : les internautes espèrent surtout une déclinaison compacte, utilisable en local. Une annonce « open intelligence » sans licence ni spécifications laisse évidemment la question entière.</p>\n<h2 id=\"microsoft-et-le-diagnostic-quatre-fois-m\">Microsoft et le diagnostic quatre fois meilleur</h2>\n<p>Changement de registre avec The Verge : Microsoft affirme avoir mis au point un outil d'IA capable de diagnostiquer des pathologies <strong>jusqu'à quatre fois plus précisément que des médecins humains</strong>. Mustafa Suleyman, PDG de Microsoft AI, déclare au média que cette promesse d'une IA au service de la santé « est enfin là ».</p>\n<p>La dépêche s'arrête là. Aucun protocole d'évaluation, aucune pathologie citée, aucune publication scientifique n'est mentionnée. Le « quatre fois » est donc, pour l'instant, une affirmation d'entreprise reprise par un média, pas un résultat documenté.</p>\n<p>Le contexte rappelé par The Verge mérite d'être posé tel quel : depuis des années, les dirigeants de l'IA citent la santé comme l'exemple le plus clair de l'utilité concrète de la technologie. La promesse est ancienne ; sa vérification, elle, reste à produire.</p>\n<h2 id=\"php-deux-failles-critiques-trouvees-par-\">PHP : deux failles critiques trouvées par des modèles</h2>\n<p>Côté sécurité, le dossier est plus tangible. PHP a corrigé le <strong>21 octobre</strong> deux failles critiques permettant l'exécution de code à distance. 01net les baptise <strong>PHP2Shell</strong> et rappelle l'enjeu d'échelle : le langage fait tourner environ <strong>70 % des sites web</strong>. Les cyberattaques exploitant ces vulnérabilités ont déjà commencé.</p>\n<p>La chronologie racontée par ActuIA est instructive. Le défaut à l'origine de l'une des deux failles était connu depuis <strong>2024</strong>, mais son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA. 01net précise de son côté que les deux failles ont été débusquées par l'intelligence artificielle, via les modèles de pointe de <strong>Google et d'OpenAI</strong>. Un bug latent pendant plus d'un an, devenu critique une fois l'exploitation rendue accessible.</p>\n<p>La réaction institutionnelle a suivi vite : à la demande de l'<strong>Anssi</strong>, le ministère de l'Intérieur a coupé ses sites exposés. Autrement dit, des sites publics ont été mis hors ligne plutôt que laissés vulnérables.</p>\n<h2 id=\"trois-regimes-de-preuve\">Trois régimes de preuve</h2>\n<p>Mises bout à bout, ces dépêches ne racontent pas la même histoire. Une annonce de modèle ouvert sans licence ni benchmarks ; une promesse médicale chiffrée sans protocole public ; des failles documentées, datées, corrigées, avec une exploitation déjà en cours et une réponse de l'État. Trois degrés de vérifiabilité très différents.</p>\n<p>Le point commun est ailleurs : dans les trois cas, l'IA est au centre — comme produit annoncé, comme promesse de service, et comme outil de découverte de vulnérabilités. Sur ce dernier terrain, elle a manifestement accéléré quelque chose : un défaut connu depuis 2024 a basculé en quelques mois vers une exploitation active.</p>\n<h2>Et maintenant ?</h2>\n<p>Reste à voir ce que deviendront les deux promesses les plus légères. Pour Kimi K3.1 Pro, la question tient en une ligne : licence, taille, poids, benchmarks. Pour l'outil de Microsoft, la question est la même qu'à chaque annonce santé — un protocole, des pathologies, une évaluation indépendante. Les failles PHP, elles, n'attendent rien : le correctif est sorti le 21 octobre et les attaques ont déjà commencé, ce qui laisse aux administrateurs un problème très concret et aucun délai.</p>",
+ "pivot": "cd9e433d185caa6e",
+ "tags": [
+  "open-source",
+  "sécurité",
+  "recherche",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdk6ow/introducing_kimi_k31_pro_advancing_open/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdjr67/kimi_31_and_28_preview/"
+  }
+ ],
+ "date": "2026-10-23T17:36:27+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1567,
+  "sortie": 2733
+ }
+}

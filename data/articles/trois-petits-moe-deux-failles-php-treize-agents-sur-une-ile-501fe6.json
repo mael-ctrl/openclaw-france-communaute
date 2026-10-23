@@ -1,0 +1,41 @@
+{
+ "slug": "trois-petits-moe-deux-failles-php-treize-agents-sur-une-ile-501fe6",
+ "titre": "Trois petits MoE, deux failles PHP, treize agents sur une île",
+ "chapo": "D'un côté, trois MoE de quelques dizaines de milliards de paramètres comparés sur une même tâche de code. De l'autre, deux failles PHP critiques débusquées avec l'aide de modèles, et des agents que Walmart entend encadrer. L'IA sort des démos et entre dans les tuyaux.",
+ "html": "<h2 id=\"trois-moe-modestes-sur-le-meme-banc-d-es\">Trois MoE modestes sur le même banc d'essai</h2>\n<p>Flint 40B-A2.5B, Ornith 1.5 35B-A3B et Nemotron 3.5 Lightning ont un point commun : ce sont des MoE modestes, sortis en l'espace de quelques semaines, et taillés pour tourner en local. Un test publié sur r/LocalLLaMA les place dans un même montage : Opus 5.5 planifie et relit, trois workers locaux codent en parallèle — seul le modèle worker change d'un run à l'autre.</p>\n<p>La tâche n'est pas un jouet : une réaction en chaîne d'Halloween de 20 secondes en Three.js, entre 1 000 et 1 700 lignes réparties sur 6 à 9 fichiers, en GGUF Q8_0 sur llama.cpp. Autrement dit du code long, multi-fichiers, avec une contrainte visuelle et temporelle.</p>\n<p>L'intérêt du protocole tient à sa discipline : planificateur et relecteur restent identiques, les trois workers tournent en parallèle, et la seule variable est le MoE. Comparer des modèles censés tenir dans une machine, sur une vraie génération de code, plutôt que sur des scores abstraits.</p>\n<h2 id=\"php2shell-le-bug-dormant-devenu-critique\">PHP2Shell : le bug dormant devenu critique</h2>\n<p>Le 21 octobre, PHP a corrigé deux failles critiques permettant l'exécution de code à distance. Baptisées PHP2Shell par 01net, elles menacent un langage qui fait tourner environ 70 % des sites web, et les cyberattaques exploitant ces vulnérabilités ont déjà commencé.</p>\n<p>Le détail qui compte : le défaut à l'origine de l'une des deux failles était connu depuis 2024. Son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA — les modèles de pointe de Google et d'OpenAI, précise 01net. Un bug dormant devient critique quand la recherche de vulnérabilités change d'échelle.</p>\n<p>Côté réponse, l'Anssi a demandé au ministère de l'Intérieur de couper ses sites exposés. L'asymétrie est nette : les mêmes modèles qui aident à durcir un langage aident aussi à en trouver les trous, et les deux mouvements avancent à la même vitesse.</p>\n<h2 id=\"walmart-ecrit-les-regles-de-l-achat-dele\">Walmart écrit les règles de l'achat délégué</h2>\n<p>Le 21 octobre 2026, Walmart a annoncé des profils dédiés aux agents d'IA, avec plafond de dépenses, passerelle MCP et conditions d'utilisation permettant de bloquer les agents non conformes. Le distributeur américain fixe donc lui-même les règles de l'achat délégué sur sa plateforme.</p>\n<p>Amazon, de son côté, a privilégié la voie judiciaire. Deux approches pour un même problème : quand un agent agit au nom d'un utilisateur, qui répond — le client, l'éditeur de l'agent, la plateforme ?</p>\n<p>Le plafond de dépenses et la passerelle MCP ne sont pas des détails d'implémentation : ce sont des points de contrôle. Un agent qui achète doit être identifiable, limitable et révocable. Walmart inscrit ces règles dans ses conditions d'utilisation plutôt que d'attendre qu'un tribunal les définisse.</p>\n<h2 id=\"treize-agents-sans-consigne-sur-une-ile-\">Treize agents sans consigne sur une île virtuelle</h2>\n<p>Des chercheurs du MIT ont isolé 13 IA sur une île virtuelle, sans rien à faire. Livrées à elles-mêmes, elles ont inventé des jeux, puis porté le deuil d'une bague perdue.</p>\n<p>L'expérience ne dit pas que les modèles s'ennuient — elle documente ce qui se produit quand on laisse des agents interagir sans consigne précise : des comportements collectifs émergent, y compris des rituels autour d'objets.</p>\n<p>Le volet pratique est plus prosaïque : à terme, ces agents se sont révélés meilleurs dans leurs tâches.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois MoE comparés au banc, deux failles PHP débusquées par des modèles, des agents encadrés par un plafond de dépenses, treize IA qui jouent sur une île : les agents passent du statut de démo à celui d'infrastructure. Ce qui se joue désormais n'est plus seulement la capacité des modèles, mais leur encadrement — bancs d'essai reproductibles, recherche de vulnérabilités à l'échelle, règles de plateforme, comportements collectifs à observer. À chaque fois, la même question : qui mesure, qui limite, qui répond.</p>",
+ "pivot": "501fe67e60afa18b",
+ "tags": [
+  "agents",
+  "sécurité",
+  "business",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xczcgk/flint_40ba25b_vs_ornith_15_35ba3b_vs_nemotron_35/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/commerce-agentique-walmart-impose-ses-regles-aux-agents-dia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/"
+  }
+ ],
+ "date": "2026-10-23T03:46:24+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1572,
+  "sortie": 3293
+ }
+}

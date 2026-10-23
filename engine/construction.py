@@ -586,12 +586,11 @@ def page_article(a, autres_articles, couverture=None):
 # ---------------------------------------------------------------- feed / sitemap
 
 def feed_xml(breves, articles, titre_flux=None):
-    def date_rfc(iso):
-        try:
-            dt = datetime.fromisoformat(iso)
-        except Exception:
-            return "Thu, 01 Jan 1970 00:00:00 +0000"
-        return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
+    from email.utils import format_datetime
+
+    # Dates éditoriales : tri seulement, pas preuve de publication (docs/dates-rss.md).
+    # lastBuildDate décrit cette construction, en UTC, sans dépendre de la locale.
+    date_construction = format_datetime(datetime.now(timezone.utc))
     items = []
     for a in articles[:20]:
         items.append((a.get("date"), a["titre"], f"/articles/{a['slug']}/", a["chapo"]))
@@ -599,12 +598,11 @@ def feed_xml(breves, articles, titre_flux=None):
         items.append((b.get("date_source") or b.get("date_redac"), b["titre"], f"/breves/{b['slug']}/", b["resume"]))
     items.sort(key=lambda x: x[0] or "", reverse=True)
     corps = ""
-    for date, titre, chemin, desc in items[:60]:
+    for _date_tri, titre, chemin, desc in items[:60]:
         corps += f"""  <item>
     <title>{ech(titre)}</title>
     <link>{config.URL_SITE}{chemin}</link>
     <guid isPermaLink="true">{config.URL_SITE}{chemin}</guid>
-    <pubDate>{date_rfc(date)}</pubDate>
     <description>{ech(desc)}</description>
   </item>
 """
@@ -614,7 +612,7 @@ def feed_xml(breves, articles, titre_flux=None):
   <link>{config.URL_SITE}/</link>
   <description>{config.DESCRIPTION_SITE}</description>
   <language>fr-FR</language>
-  <lastBuildDate>{date_rfc(datetime.now(timezone.utc).isoformat())}</lastBuildDate>
+  <lastBuildDate>{date_construction}</lastBuildDate>
 {corps}</channel></rss>"""
 
 

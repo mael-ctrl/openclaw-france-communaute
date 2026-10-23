@@ -2910,3 +2910,9 @@
 {"ts": "2026-10-23T06:05:52+00:00", "evenement": "deploiement", "details": {"fichiers": 1694, "octets": 33655784}, "sha256": "a1908499a3344babf4416c00b20e7e8d9534b1badc603643ca30ba66003378fd"}
 {"ts": "2026-10-23T06:05:52+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "020c30eb4b047b38a2a12eb1c831a0898e540115eee606759bbfc0c833886995"}
 {"ts": "2026-10-23T06:05:52+00:00", "evenement": "bilan", "details": {"duree_s": 2362.4, "neufs": 4, "breves": 4, "articles": 1, "fichiers": 1655, "envois": 1694, "publications": 0}, "sha256": "af649eaafbeead1ba03585f50502f83e420f83fa500e4ab3cd877cee9f825d5f"}
+{"ts": "2026-10-23T08:01:04+00:00", "evenement": "collecte", "details": {"neufs": 14}, "sha256": "bf8802e5bb7d563c81aaae629c740bba714ab4af0f7108d6c935542bbc7398a9"}
+{"ts": "2026-10-23T08:01:22+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Models disappearing from Huggingface) : réponse non-JSON"}, "sha256": "0f152205c5ae8003d5836795401a6b0b4614b6fcb5ef22c499899c0edc6d2475"}
+{"ts": "2026-10-23T08:01:56+00:00", "evenement": "construction", "details": {"fichiers": 1660}, "sha256": "40921bd8df0ebc8f9ab536c7761a987c629694e8447fdaf9c0f0e399f90ea787"}
+{"ts": "2026-10-23T08:08:09+00:00", "evenement": "deploiement", "details": {"fichiers": 1703, "octets": 33725536}, "sha256": "28b5dc416321a704f32559f7ee72f4dc240509fffa6c23adbffac369398a746d"}
+{"ts": "2026-10-23T08:08:10+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "5402d96da70fedf9149323e0b4027b291c9418d3e6d55d571bc896f8d7812b41"}
+{"ts": "2026-10-23T08:08:10+00:00", "evenement": "bilan", "details": {"duree_s": 1655.6, "neufs": 14, "breves": 5, "articles": 0, "fichiers": 1660, "envois": 1703, "publications": 0}, "sha256": "6d8bfa5b7e6fa0aaa7601dfbe6c3fae37b560221277b9f3cc55827784f968bb5"}

@@ -1,5 +1,108 @@
 [
  {
+  "id": "08f8e601f00dcf4b",
+  "slug": "openclaw-corrige-l-acquisition-de-ressources-du-side-chat-08f8e6",
+  "titre": "OpenClaw corrige l'acquisition de ressources du side chat",
+  "resume": "OpenClaw publie un correctif référencé #181378, qui règle l'acquisition des ressources du side chat. La livraison embarque aussi un test destiné à conserver la propriété des RPC de palette encore en attente. Ce sont des ajustements internes au code, qui concernent avant tout les développeurs du projet.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F1197ee98bb5e-1792741794",
+  "date_source": "2026-10-23T07:47:40+00:00",
+  "date_redac": "2026-10-23T08:01:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 630,
+   "sortie": 674
+  }
+ },
+ {
+  "id": "54823bbeb1c96c5d",
+  "slug": "ornith-1-5-35b-a3b-juge-plus-fiable-que-flint-sur-un-banc-d-essai-pers-54823b",
+  "titre": "Ornith 1.5 35B A3B jugé plus fiable que Flint sur un banc d'essai perso",
+  "resume": "Sur r/LocalLLaMA, un utilisateur compare Ornith 1.5 35B A3B et Flint à partir de sa propre suite de tests. Selon lui, Flint hallucine et « réfléchit trop » même sur des questions très simples. Ornith s'en sortirait nettement mieux, en anglais comme dans sa propre langue. L'auteur invite d'autres utilisateurs à partager leur expérience.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xd7ewr/ornith_15_35b_a3b_is_way_better_than_flint/",
+  "date_source": "2026-10-23T07:29:24+00:00",
+  "date_redac": "2026-10-23T08:01:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 662,
+   "sortie": 475
+  }
+ },
+ {
+  "id": "36c8992650bda944",
+  "slug": "les-pc-portables-rtx-spark-arrivent-a-la-fnac-creation-gaming-et-ia-lo-36c899",
+  "titre": "Les PC portables RTX Spark arrivent à la Fnac : création, gaming et IA locale",
+  "resume": "Nvidia fait débarquer ses PC portables RTX Spark à la Fnac. La plateforme vise à réunir sur une même machine la création, le jeu vidéo et l'IA locale, dans un format que l'on peut emporter partout. L'article de Frandroid qui détaille les usages couverts et aide à choisir sa configuration est un contenu sponsorisé.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/produits-android/ordinateurs/pc-portables/3292093_les-pc-rtx-spark-sont-disponibles-a-la-fnac-lequel-choisir-et-pour-quel-usage",
+  "date_source": "2026-10-23T07:22:34+00:00",
+  "date_redac": "2026-10-23T08:01:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 687,
+   "sortie": 598
+  }
+ },
+ {
+  "id": "c57b84cbd73ce2d4",
+  "slug": "google-meet-traduit-63-langues-en-quasi-temps-reel-avec-gemini-3-5-c57b84",
+  "titre": "Google Meet traduit 63 langues en quasi temps réel avec Gemini 3.5",
+  "resume": "Google Meet s'appuie désormais sur Gemini 3.5 Live Translate pour détecter et traduire automatiquement 63 langues, en quasi temps réel. La traduction passe à la fois par une voix traduite et par des sous-titres. Concrètement, la barrière de la langue recule dans les visioconférences, sans avoir à apprendre une langue.",
+  "tags": [
+   "gemini",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/google/3296547_google-meet-vous-permet-de-parler-au-monde-entier-sans-apprendre-une-seule-langue",
+  "date_source": "2026-10-23T07:17:58+00:00",
+  "date_redac": "2026-10-23T08:01:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 664,
+   "sortie": 643
+  }
+ },
+ {
+  "id": "de3b3cc537d59233",
+  "slug": "hermes-agent-une-build-canary-v0-22-5-publiee-sur-github-de3b3c",
+  "titre": "Hermes Agent : une build canary v0.22.5 publiée sur GitHub",
+  "resume": "NousResearch a publié une nouvelle build canary de son agent Hermes, estampillée v0.22.5+canary.20261023T070057Z, dans les releases GitHub du projet. La publication est datée du 23 octobre 2026 à 07:00 UTC. Elle ne s'accompagne d'aucune note de version détaillée : ni les correctifs ni les changements fonctionnels de cette build ne sont documentés.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5%2Bcanary.20261023T070057Z",
+  "date_source": "2026-10-23T07:00:58+00:00",
+  "date_redac": "2026-10-23T08:01:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 700
+  }
+ },
+ {
   "id": "e73c5e84246c264f",
   "slug": "demandes-redigees-par-ia-le-rapport-de-force-bascule-vers-les-usagers-e73c5e",
   "titre": "Demandes rédigées par IA : le rapport de force bascule vers les usagers",

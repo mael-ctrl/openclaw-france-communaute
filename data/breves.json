@@ -1,5 +1,106 @@
 [
  {
+  "id": "40ab2f9dadf29fa3",
+  "slug": "des-modeles-disparaissent-de-hugging-face-un-utilisateur-s-interroge-40ab2f",
+  "titre": "Des modèles disparaissent de Hugging Face, un utilisateur s'interroge",
+  "resume": "Sur r/LocalLLaMA, un utilisateur signale que plusieurs de ses téléchargements de modèles s'arrêtent brutalement et ne reprennent pas : les dépôts concernés semblent avoir disparu de Hugging Face. Il cite notamment MiMo-V2.6-Pro-RL-UNCENSORED, Huihui-Kimi-K2.7-Code-abliterated-GGUF et note qu'il ne reste plus aucun DeepSeek-R1 « abliterated ». Il demande ce qui se passe et où retrouver ces modèles.",
+  "tags": [
+   "open-source",
+   "deepseek",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xd7ptj/models_disappearing_from_huggingface/",
+  "date_source": "2026-10-23T07:47:43+00:00",
+  "date_redac": "2026-10-23T08:12:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 737,
+   "sortie": 1134
+  }
+ },
+ {
+  "id": "08f8e601f00dcf4b",
+  "slug": "openclaw-corrige-l-acquisition-de-ressources-du-side-chat-08f8e6",
+  "titre": "OpenClaw corrige l'acquisition de ressources du side chat",
+  "resume": "OpenClaw publie un correctif sur l'acquisition des ressources du « side chat », la conversation secondaire. La livraison ajoute aussi un test visant à conserver la propriété des appels RPC de palette encore en attente. Ce sont les deux seuls points annoncés dans la note de version du dépôt OpenClaw.",
+  "tags": [
+   "openclaw",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F1197ee98bb5e-1792741794",
+  "date_source": "2026-10-23T07:47:40+00:00",
+  "date_redac": "2026-10-23T08:12:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 630,
+   "sortie": 526
+  }
+ },
+ {
+  "id": "54823bbeb1c96c5d",
+  "slug": "ornith-1-5-35b-a3b-juge-plus-fiable-que-flint-par-un-utilisateur-de-r--54823b",
+  "titre": "Ornith 1.5 35B A3B jugé plus fiable que Flint par un utilisateur de r/LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, un utilisateur compare Ornith 1.5 35B A3B à Flint. D'après sa propre suite de tests, Flint hallucine et « réfléchit trop » même sur des questions très simples. Ornith s'en sort mieux, selon lui, en anglais comme dans sa propre langue. Il demande aux autres membres quelles expériences ils ont de leur côté.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xd7ewr/ornith_15_35b_a3b_is_way_better_than_flint/",
+  "date_source": "2026-10-23T07:29:24+00:00",
+  "date_redac": "2026-10-23T08:12:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 662,
+   "sortie": 557
+  }
+ },
+ {
+  "id": "36c8992650bda944",
+  "slug": "les-pc-portables-rtx-spark-de-nvidia-arrivent-a-la-fnac-36c899",
+  "titre": "Les PC portables RTX Spark de Nvidia arrivent à la Fnac",
+  "resume": "Les PC portables équipés de la plateforme RTX Spark de Nvidia arrivent à la Fnac. L'ambition affichée : réunir création, gaming et IA locale dans une seule machine transportable. Frandroid y consacre un article sponsorisé, qui sert aussi de guide pour choisir sa configuration selon son usage.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/produits-android/ordinateurs/pc-portables/3292093_les-pc-rtx-spark-sont-disponibles-a-la-fnac-lequel-choisir-et-pour-quel-usage",
+  "date_source": "2026-10-23T07:22:34+00:00",
+  "date_redac": "2026-10-23T08:12:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 687,
+   "sortie": 677
+  }
+ },
+ {
+  "id": "c57b84cbd73ce2d4",
+  "slug": "google-meet-traduit-63-langues-en-quasi-temps-reel-avec-gemini-3-5-c57b84",
+  "titre": "Google Meet traduit 63 langues en quasi temps réel avec Gemini 3.5",
+  "resume": "Google Meet s'appuie désormais sur Gemini 3.5 Live Translate pour détecter et traduire automatiquement 63 langues en quasi temps réel. La traduction est proposée en voix traduite comme en sous-titres. Les échanges en visioconférence ne demandent donc plus d'apprendre la langue de ses interlocuteurs.",
+  "tags": [
+   "gemini",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/google/3296547_google-meet-vous-permet-de-parler-au-monde-entier-sans-apprendre-une-seule-langue",
+  "date_source": "2026-10-23T07:17:58+00:00",
+  "date_redac": "2026-10-23T08:12:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 664,
+   "sortie": 370
+  }
+ },
+ {
   "id": "de3b3cc537d59233",
   "slug": "hermes-agent-une-build-canari-v0-22-5-publiee-sur-github-de3b3c",
   "titre": "Hermes Agent : une build canari v0.22.5 publiée sur GitHub",
@@ -142,6 +243,27 @@
    "modele": "deepseek-flash",
    "entree": 764,
    "sortie": 618
+  }
+ },
+ {
+  "id": "a24aa7674dcca72a",
+  "slug": "l-ia-facilite-les-recours-des-usagers-l-administration-garde-la-main-a24aa7",
+  "titre": "L'IA facilite les recours des usagers, l'administration garde la main",
+  "resume": "L'IA générative rend presque gratuite la rédaction de demandes, réclamations et recours, dont l'instruction reste confiée à des agents. Une étude recense 84 cas présumés d'engorgement de services publics dans onze juridictions. En France, la part de l'IA dans la hausse des recours n'est pas chiffrée ; l'administration peut néanmoins écarter les demandes abusives et réserver la saisine électronique à un téléservice.",
+  "tags": [
+   "société",
+   "france",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/demandes-redigees-par-ia-le-rapport-de-force-commence-a-basculer-vers-les-usagers/",
+  "date_source": "2026-10-23T05:00:00+00:00",
+  "date_redac": "2026-10-23T08:13:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 732,
+   "sortie": 1094
   }
  },
  {

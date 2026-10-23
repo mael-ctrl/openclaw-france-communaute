@@ -1,5 +1,129 @@
 [
  {
+  "id": "6c71606b5e34309f",
+  "slug": "un-utilisateur-de-r-localllama-parie-sur-des-modeles-specialises-et-pl-6c7160",
+  "titre": "Un utilisateur de r/LocalLLaMA parie sur des modèles spécialisés et plus petits",
+  "resume": "Sur r/LocalLLaMA, un utilisateur défend l'idée que l'avenir ira à des modèles spécialisés et plus petits. Il rappelle que des modèles de quelques milliards de paramètres résolvent déjà l'OCR ou la segmentation, et qu'un modèle 9B entraîné par un labo peut dominer les benchmarks. Selon lui, les grands LLM actuels, cités sous le nom d'opus 5.5, perdent beaucoup d'argent avec leurs abonnements.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "business"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdcpxb/everything_will_be_local_eventually/",
+  "date_source": "2026-10-23T12:31:21+00:00",
+  "date_redac": "2026-10-23T12:39:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 792,
+   "sortie": 649
+  }
+ },
+ {
+  "id": "e980e303e382143d",
+  "slug": "nanostories-50-millions-d-histoires-generees-par-algorithme-25-fois-ti-e980e3",
+  "titre": "NanoStories : 50 millions d'histoires générées par algorithme, 25 fois TinyStories",
+  "resume": "Un jeu de données de style TinyStories vient d'être publié sur Hugging Face : NanoStories contient 50 millions d'histoires, soit environ 25 fois le volume de TinyStories. Particularité : il a été produit par un algorithme à base de règles, et non par un modèle de langage. La génération a pris un peu moins de dix minutes, puis quelques minutes ont suffi pour convertir le tout en parquet et l'envoyer sur Hugging Face, le calcul tournant sur le CPU d'un téléphone.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdc991/nanostories_releases/",
+  "date_source": "2026-10-23T12:09:34+00:00",
+  "date_redac": "2026-10-23T12:39:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 681,
+   "sortie": 392
+  }
+ },
+ {
+  "id": "c2f49ba0b49d2680",
+  "slug": "chrome-un-chercheur-dit-avoir-contourne-son-bac-a-sable-en-12-heures-a-c2f49b",
+  "titre": "Chrome : un chercheur dit avoir contourné son bac à sable en 12 heures avec DeepSeek",
+  "resume": "Un chercheur en cybersécurité affirme être parvenu à contourner le bac à sable de Chrome en seulement 12 heures. Pour y parvenir, il dit avoir mobilisé un modèle de DeepSeek, qu'il présente comme performant et surtout peu coûteux. Le chercheur insiste sur le faible coût du modèle employé.",
+  "tags": [
+   "sécurité",
+   "deepseek",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/deepseek-aurait-reussi-a-contourner-les-defenses-de-chrome-en-12-heures.html",
+  "date_source": "2026-10-23T12:00:36+00:00",
+  "date_redac": "2026-10-23T12:39:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 654,
+   "sortie": 604
+  }
+ },
+ {
+  "id": "14e2c3be9a55747b",
+  "slug": "avec-opencode-un-faux-rappel-systeme-pousse-le-modele-a-charger-une-sk-14e2c3",
+  "titre": "Avec opencode, un faux rappel système pousse le modèle à charger une skill bidon",
+  "resume": "En jouant avec opencode, un utilisateur de r/LocalLLaMA a vu le modèle recevoir un « system-reminder » affirmant qu'une session c25da061 était inactive depuis 1877 secondes avec une tâche inachevée, avec l'ordre d'invoquer une skill « reminder idel-skills ». Le modèle a jugé l'artefact fabriqué et l'a identifié comme une tentative d'injection de prompt, avant de l'ignorer et de poursuivre sa tâche. L'auteur demande d'où vient ce rappel.",
+  "tags": [
+   "sécurité",
+   "agents",
+   "skills"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdc21t/started_to_play_around_a_bit_with_opencode_and/",
+  "date_source": "2026-10-23T12:00:24+00:00",
+  "date_redac": "2026-10-23T12:39:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 792,
+   "sortie": 780
+  }
+ },
+ {
+  "id": "9a85ade1d8774286",
+  "slug": "les-jeux-retro-detournes-pullulent-grace-aux-nouveaux-outils-d-ia-9a85ad",
+  "titre": "Les jeux rétro détournés pullulent grâce aux nouveaux outils d'IA",
+  "resume": "Depuis un mois environ, les projets de jeux rétro détournés se multiplient et deviennent viraux : Halo dans un navigateur web, Wind Waker sur iPhone, Super Smash Bros en réalité mixte. Ces projets inattendus font tourner des classiques là où on ne les attend pas. Leur fréquence s'explique par de nouveaux outils d'IA, selon The Verge.",
+  "tags": [
+   "dev",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+  "date_source": "2026-10-23T12:00:00+00:00",
+  "date_redac": "2026-10-23T12:39:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 656,
+   "sortie": 1416
+  }
+ },
+ {
+  "id": "039885062fb45820",
+  "slug": "plus-de-250-jeux-gratuits-sur-navigateur-une-breche-pour-les-portages--039885",
+  "titre": "Plus de 250 jeux gratuits sur navigateur : une brèche pour les portages de fans",
+  "resume": "Une plateforme rassemble des centaines de jeux accessibles directement dans le navigateur, dont des références comme GTA, WoW, Mario ou Call of Duty. Ce catalogue sert de vitrine aux portages réalisés par des fans, à un moment où les outils de développement et l'IA facilitent leur création. Pour les éditeurs, faire retirer une version ne suffira pas forcément à empêcher les suivantes d'apparaître.",
+  "tags": [
+   "société",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/pop-culture/2359681-gta-wow-mario-cod-cette-plateforme-de-plus-de-250-jeux-gratuits-sur-navigateur-ouvre-une-breche-difficile-a-refermer.html",
+  "date_source": "2026-10-23T10:52:00+00:00",
+  "date_redac": "2026-10-23T12:39:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 716,
+   "sortie": 440
+  }
+ },
+ {
   "id": "89c3e3f4cf12b295",
   "slug": "samsung-lancera-un-smartphone-pliant-ultra-luxueux-le-29-octobre-en-ch-89c3e3",
   "titre": "Samsung lancera un smartphone pliant ultra luxueux le 29 octobre en Chine",

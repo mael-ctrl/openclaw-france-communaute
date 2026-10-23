@@ -104,9 +104,9 @@
  },
  {
   "id": "335e9fb409a2844b",
-  "slug": "backdoors-dans-les-moteurs-d-inference-llm-un-ecosysteme-fragile-335e9f",
-  "titre": "Backdoors dans les moteurs d'inférence LLM : un écosystème fragile",
-  "resume": "Un post de r/LocalLLaMA remet en perspective la backdoor xz utils de 2024, passée près du but dans le code source le plus surveillé de la planète et repérée presque par hasard. L'auteur étend le raisonnement aux agent harnesses, moteurs d'inférence et modèles, bien moins observés, dont il sort un nouveau chaque semaine. Il suffit d'une pull request d'apparence légitime, approuvée puis oubliée des mois, dans n'importe quel paquet installé par ces outils — sans maintainer malveillant.",
+  "slug": "backdoors-dans-les-moteurs-d-inference-un-ecosysteme-fragile-335e9f",
+  "titre": "Backdoors dans les moteurs d'inférence : un écosystème fragile",
+  "resume": "Un internaute rappelle que la backdoor xz utils de 2024, dans l'un des codes les plus surveillés, n'a été repérée que par hasard. Il s'inquiète des dépôts bien moins observés : harnais d'agents, moteurs d'inférence et modèles, dont il sort un nouveau chaque semaine. Un abonnement à Opus 5.5 ne suffira pas à les détecter. Il suffit d'une pull request d'apparence légitime, approuvée puis laissée en place des mois.",
   "tags": [
    "sécurité",
    "open-source",
@@ -117,32 +117,31 @@
   "source": "r/LocalLLaMA",
   "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdeg0n/probability_of_backdoors_in_popular_harnesses_and/",
   "date_source": "2026-10-23T13:44:17+00:00",
-  "date_redac": "2026-10-23T14:11:44+00:00",
+  "date_redac": "2026-10-23T14:44:56+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 797,
-   "sortie": 563
+   "sortie": 853
   }
  },
  {
   "id": "f5055079cb6d60e3",
   "slug": "le-cout-d-une-reponse-ia-divise-par-13-chaque-annee-f50550",
   "titre": "Le coût d'une réponse IA divisé par 13 chaque année",
-  "resume": "À niveau de performance égal, faire tourner un modèle d'intelligence artificielle coûte treize fois moins cher chaque année. Cette baisse record devrait soulager les utilisateurs, mais elle enferme surtout OpenAI et Anthropic dans une fuite en avant financière, à l'approche de leur entrée en Bourse.",
+  "resume": "À niveau de performance égal, faire tourner un modèle d'intelligence artificielle coûte treize fois moins cher chaque année. Une baisse record qui devrait soulager les utilisateurs. Mais elle enferme surtout OpenAI et Anthropic dans une fuite en avant financière, à l'approche de leur entrée en Bourse.",
   "tags": [
    "openai",
-   "claude",
    "business"
   ],
-  "importance": 3,
+  "importance": 4,
   "source": "Frandroid",
   "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3297277_intelligence-artificielle-le-cout-dune-reponse-divise-par-13-chaque-annee-pourquoi-anthropic-et-openai-ont-du-souci-a-se-faire",
   "date_source": "2026-10-23T13:43:25+00:00",
-  "date_redac": "2026-10-23T14:11:45+00:00",
+  "date_redac": "2026-10-23T14:45:00+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 711,
-   "sortie": 109
+   "sortie": 394
   }
  },
  {

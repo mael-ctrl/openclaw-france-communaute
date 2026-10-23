@@ -1,5 +1,26 @@
 [
  {
+  "id": "d34747657438013f",
+  "slug": "ton-modele-tourne-t-il-sur-aws-trainium-voila-comment-le-verifier-d34747",
+  "titre": "Ton modèle tourne-t-il sur AWS Trainium ? Voilà comment le vérifier",
+  "resume": "Le blog de Hugging Face met en avant un point d'entrée pour savoir si un modèle tourne, ou non, sur AWS Trainium, via torch-neuronx. L'objectif : vérifier la compatibilité en amont plutôt que de la découvrir au moment du déploiement sur cette infrastructure. Un repère utile pour celles et ceux qui ciblent les puces d'AWS.",
+  "tags": [
+   "dev",
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Hugging Face",
+  "lien_source": "https://huggingface.co/blog/torch-neuronx-model-support",
+  "date_source": null,
+  "date_redac": "2026-10-23T13:26:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 582,
+   "sortie": 651
+  }
+ },
+ {
   "id": "6c71606b5e34309f",
   "slug": "un-utilisateur-de-r-localllama-parie-sur-des-modeles-specialises-et-pl-6c7160",
   "titre": "Un utilisateur de r/LocalLLaMA parie sur des modèles spécialisés et plus petits",
@@ -104,6 +125,28 @@
   }
  },
  {
+  "id": "c258f6b72486d463",
+  "slug": "maya-xs-fait-tourner-deepseek-v4-1-flash-en-120-6-go-sur-un-pc-de-128--c258f6",
+  "titre": "Maya-XS fait tourner DeepSeek-V4.1-Flash en 120,6 Go sur un PC de 128 Go",
+  "resume": "Maya-XS fait tenir DeepSeek-V4.1-Flash dans 120,6 Go, avec les 384 experts du modèle résidents en mémoire GPU, sur une machine Ryzen AI Max de 128 Go. Le projet gère aussi le tensor parallel sur plusieurs GPU, et un drafting nettement plus rapide sur un seul GPU. Le modèle entier tient donc dans la mémoire d'un PC unique.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdbtvq/mayaxs_runs_deepseekv41flash_in_1206_gb_with_all/",
+  "date_source": "2026-10-23T11:49:10+00:00",
+  "date_redac": "2026-10-23T13:26:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 686,
+   "sortie": 738
+  }
+ },
+ {
   "id": "039885062fb45820",
   "slug": "plus-de-250-jeux-gratuits-sur-navigateur-une-breche-pour-les-portages--039885",
   "titre": "Plus de 250 jeux gratuits sur navigateur : une brèche pour les portages de fans",
@@ -121,6 +164,27 @@
    "modele": "deepseek-flash",
    "entree": 716,
    "sortie": 440
+  }
+ },
+ {
+  "id": "05bd2a09ebb9e739",
+  "slug": "la-police-traque-les-pilleurs-du-17-octobre-avec-une-ia-francaise-05bd2a",
+  "titre": "La police traque les pilleurs du 17 octobre avec une IA française",
+  "resume": "Les enquêteurs tentent d'identifier les suspects des pillages commis lors du 17 octobre. Ils s'appuient sur un outil d'IA développé par une startup française, Citadel, qui exploite des tonnes d'images vidéo pour repérer les pilleurs. L'affaire illustre l'usage de l'analyse vidéo algorithmique dans le travail d'enquête.",
+  "tags": [
+   "france",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/la-police-utilise-citadel-une-ia-surpuissante-pour-traquer-les-pilleurs-du-17-octobre.html",
+  "date_source": "2026-10-23T10:30:45+00:00",
+  "date_redac": "2026-10-23T13:26:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 673,
+   "sortie": 478
   }
  },
  {

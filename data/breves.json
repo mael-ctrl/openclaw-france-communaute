@@ -1,5 +1,108 @@
 [
  {
+  "id": "f0768bef5bd2f18f",
+  "slug": "claude-le-mode-auto-devient-le-reglage-par-defaut-pour-les-abonnes-pro-f0768b",
+  "titre": "Claude : le mode auto devient le réglage par défaut pour les abonnés Pro, Max et Team",
+  "resume": "Anthropic a annoncé le 22 octobre que le mode auto deviendra, dès la semaine prochaine, le réglage par défaut des nouvelles sessions dans la plupart des applications Claude. Ce changement concernera les abonnés Pro, Max et Team. L'annonce est formulée sans détour par Frandroid : Claude ne demandera bientôt plus la permission avant d'agir, ce qui modifie le rapport de validation entre l'utilisateur et le modèle.",
+  "tags": [
+   "claude",
+   "agents",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/3297839_attention-claude-ne-vous-demandera-bientot-plus-la-permission-pour-agir",
+  "date_source": "2026-10-23T15:04:16+00:00",
+  "date_redac": "2026-10-23T15:17:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 654,
+   "sortie": 626
+  }
+ },
+ {
+  "id": "e78add53758e76a2",
+  "slug": "quelle-ia-un-comparateur-gratuit-de-252-modeles-d-ia-e78add",
+  "titre": "QUELLE IA : un comparateur gratuit de 252 modèles d'IA",
+  "resume": "Frandroid lance QUELLE IA, un comparateur gratuit qui couvre 252 modèles d'intelligence artificielle, mis à jour chaque semaine à partir de données publiques. L'outil répond à la multiplication des modèles qui se proclament tous numéro un, en évitant d'éplucher des heures de tests techniques. Particularité assumée : il sait admettre que deux modèles sont impossibles à départager.",
+  "tags": [
+   "société",
+   "recherche",
+   "france"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3297565_quelle-ia-on-a-lance-un-comparateur-gratuit-de-252-modeles-pour-trouver-le-bon-selon-votre-usage",
+  "date_source": "2026-10-23T14:50:30+00:00",
+  "date_redac": "2026-10-23T15:17:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 716,
+   "sortie": 137
+  }
+ },
+ {
+  "id": "58b720cd178cdc79",
+  "slug": "le-portage-non-officiel-de-bloodborne-sur-pc-passe-les-200-fps-grace-a-58b720",
+  "titre": "Le portage non officiel de Bloodborne sur PC passe les 200 FPS grâce au DLSS",
+  "resume": "Le portage non officiel de Bloodborne sur PC, le jeu de From Software, franchit un nouveau cap avec l'ajout du DLSS de Nvidia. Les performances sur un ordinateur équipé d'une carte graphique RTX 4070 sont impressionnantes et dépassent les 200 FPS. Cette version non officielle gagne donc nettement en fluidité.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/sony/3297163_le-portage-de-bloodborne-sur-pc-depasse-les-200-fps-grace-au-dlss-de-nvidia",
+  "date_source": "2026-10-23T14:49:35+00:00",
+  "date_redac": "2026-10-23T15:18:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 674,
+   "sortie": 735
+  }
+ },
+ {
+  "id": "aab5745166d53293",
+  "slug": "meta-reporte-ses-nouvelles-conditions-commerciales-apres-les-critiques-aab574",
+  "titre": "Meta reporte ses nouvelles conditions commerciales après les critiques des éditeurs",
+  "resume": "Meta repousse l'entrée en vigueur de ses nouvelles conditions commerciales. Des éditeurs craignent qu'elles autorisent l'entreprise à aspirer le contenu des sites d'actualité pour entraîner ses modèles d'IA. Selon le porte-parole Daniel Roberts, cité par The Verge, ces conditions s'appliqueront finalement le 20 novembre. Fast Company avait révélé l'affaire.",
+  "tags": [
+   "meta",
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+  "date_source": "2026-10-23T14:47:41+00:00",
+  "date_redac": "2026-10-23T15:18:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 653,
+   "sortie": 457
+  }
+ },
+ {
+  "id": "7464000a2375fc1d",
+  "slug": "en-local-un-modele-iq2-xxs-s-enlise-dans-le-raisonnement-retour-au-27b-746400",
+  "titre": "En local, un modèle IQ2_XXS s'enlise dans le raisonnement, retour au 27B en Q4_K_L",
+  "resume": "Un utilisateur de r/LocalLLaMA teste Swift-1.5-Qwen3.8-Flash-Next (IQ2_XXS, 64k de contexte, moteur Strata) pour remplacer son 27B en Q4_K_L sous llama.cpp. En raisonnement « medium », le modèle n'écrit jamais de code : il enchaîne les vérifications, même après avoir conclu qu'il était temps de coder. Raisonnement coupé, il spamme les appels d'outils. Retour au 27B, qui écrit la correction en quelques minutes.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdfy9c/swift15_qfn_iq2_xxs_strata_64k_ctx_vs_swift15_27b/",
+  "date_source": "2026-10-23T14:41:43+00:00",
+  "date_redac": "2026-10-23T15:18:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 913,
+   "sortie": 1438
+  }
+ },
+ {
   "id": "335e9fb409a2844b",
   "slug": "backdoors-dans-les-moteurs-d-inference-llm-un-ecosysteme-fragile-335e9f",
   "titre": "Backdoors dans les moteurs d'inférence LLM : un écosystème fragile",

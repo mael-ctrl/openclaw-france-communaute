@@ -1,5 +1,67 @@
 [
  {
+  "id": "9c50c0ce966efe9f",
+  "slug": "failles-php-le-chef-de-la-securite-d-anthropic-annonce-18-mois-de-cris-9c50c0",
+  "titre": "Failles PHP : le chef de la sécurité d'Anthropic annonce 18 mois de crise",
+  "resume": "Jason Clinton, RSSI adjoint d'Anthropic, prévient que la crise ouverte par les failles critiques de PHP va encore empirer, pendant environ 18 mois. Il avait déjà annoncé ce « tsunami » de vulnérabilités trouvées par l'IA dès le mois d'août. L'avertissement vient d'un cadre d'un des principaux laboratoires d'IA, sur des logiciels déployés très largement.",
+  "tags": [
+   "sécurité",
+   "dev",
+   "claude"
+  ],
+  "importance": 4,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2359611-vous-avez-deteste-les-failles-critiques-de-php-le-chef-de-la-securite-danthropic-previent-que-ca-va-etre-pire.html",
+  "date_source": "2026-10-23T08:28:23+00:00",
+  "date_redac": "2026-10-23T08:57:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 704,
+   "sortie": 479
+  }
+ },
+ {
+  "id": "ee342830703f0117",
+  "slug": "un-module-debloque-les-tensor-cores-des-rtx-3090-gains-reels-plus-mode-ee3428",
+  "titre": "Un module débloque les tensor cores des RTX 3090, gains réels plus modestes",
+  "resume": "Sur r/LocalLLaMA, un post relaie les mesures d'un module de Zagitta, gpu-unlock, chargé avant le pilote NVIDIA : sur quatre RTX 3090, le compteur FMLA32 passe à « full » après démarrage à froid et le BF16 tensor grimpe de 82 à 155 TFLOPS. En inférence, le gain fond : +12 % de prefill à 4K et 10K, +10 % à 90K tokens/s, les phases GEMM ne pesant que 40 % du prefill.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xd8al3/anyone_checked_gpu_unlock_for_rtx_3040_cards/",
+  "date_source": "2026-10-23T08:23:23+00:00",
+  "date_redac": "2026-10-23T08:57:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 895,
+   "sortie": 1399
+  }
+ },
+ {
+  "id": "e04c7373c81ea951",
+  "slug": "qwen3-0-6b-converti-en-moe-premiere-conversion-de-type-chat-e04c73",
+  "titre": "Qwen3-0.6B converti en MoE, première conversion de type chat",
+  "resume": "L'auteur du projet de « MoE-fication » publie une nouvelle conversion : Qwen3-0.6B, son premier modèle de type chat passé en mixture of experts. Deux difficultés : préserver les capacités conversationnelles et adapter la méthode qwen2moe de Qwen 2.5 à qwen3moe. Qwen3 n'a pas d'expert partagé, ce qui complique la conservation de la qualité. La compatibilité GGUF reste prioritaire, au prix de certaines améliorations.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xd87wu/qwen306b_model_converted_into_moe/",
+  "date_source": "2026-10-23T08:18:42+00:00",
+  "date_redac": "2026-10-23T08:57:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 789,
+   "sortie": 783
+  }
+ },
+ {
   "id": "40ab2f9dadf29fa3",
   "slug": "des-modeles-disparaissent-de-hugging-face-un-utilisateur-s-interroge-40ab2f",
   "titre": "Des modèles disparaissent de Hugging Face, un utilisateur s'interroge",
@@ -143,6 +205,26 @@
   }
  },
  {
+  "id": "74ffce27537a4015",
+  "slug": "pn-mix-quantification-mixte-du-cache-kv-guidee-par-les-normes-de-paire-74ffce",
+  "titre": "PN-Mix : quantification mixte du cache KV guidée par les normes de paires",
+  "resume": "Sur les sorties longues, le cache KV des grands modèles sature mémoire et bande passante, et la quantification en 2 bits dégrade fortement l'exactitude. Le papier PN-Mix montre que les erreurs sur les paires de canaux RoPE à fort produit de normes query-key pèsent le plus sur les logits. La méthode réserve donc plus de précision à ces paires, identifiées une fois au prefill et réutilisées au décodage.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xd6dfr/paper_pnmix_pairnorm_guided_mixedprecision_key/",
+  "date_source": "2026-10-23T06:26:24+00:00",
+  "date_redac": "2026-10-23T08:57:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 778,
+   "sortie": 1093
+  }
+ },
+ {
   "id": "c615519a777f7a90",
   "slug": "razer-lance-son-premier-clavier-a-effet-hall-le-huntsman-v3-he-magneti-c61551",
   "titre": "Razer lance son premier clavier à effet Hall, le Huntsman V3 HE Magnetic",
@@ -264,6 +346,27 @@
    "modele": "deepseek-flash",
    "entree": 732,
    "sortie": 1094
+  }
+ },
+ {
+  "id": "39aa52ae4a8ecc86",
+  "slug": "recours-rediges-par-ia-la-france-peut-filtrer-pas-mesurer-39aa52",
+  "titre": "Recours rédigés par IA : la France peut filtrer, pas mesurer",
+  "resume": "L'IA générative rend presque gratuite la rédaction de recours et de réclamations ; leur instruction reste humaine. Une étude recense 84 cas d'engorgement présumé dans onze juridictions, aucun en France, où les volumes montent sans qu'aucune institution mesure la part de l'IA. Le droit français permet d'écarter les demandes abusives et d'imposer un téléservice, sans rien prévoir contre une campagne d'usagers distincts.",
+  "tags": [
+   "société",
+   "france",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/demandes-redigees-par-ia-le-rapport-de-force-commence-a-basculer-vers-les-usagers/",
+  "date_source": "2026-10-23T05:00:00+00:00",
+  "date_redac": "2026-10-23T08:57:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 725,
+   "sortie": 700
   }
  },
  {

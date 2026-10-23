@@ -2879,3 +2879,8 @@
 {"ts": "2026-10-23T00:01:12+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "9fa615299a72a4a3fe910dc23ed4f0ea04177c2b14416fb5424c55b58b95e995"}
 {"ts": "2026-10-23T00:01:12+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-23.json", "publications": 1603}, "sha256": "ea4f1e724760ffadedda16df53f522aa2e75052f703280149b45666cb75fbd1a"}
 {"ts": "2026-10-23T00:01:12+00:00", "evenement": "bilan", "details": {"duree_s": 1468.4, "neufs": 5, "breves": 5, "articles": 1, "fichiers": 1637, "envois": 1676, "publications": 4}, "sha256": "82d1204601c1527ad741c4cbcf6e0401fcda7777d80744108f22389bff5a3f34"}
+{"ts": "2026-10-22T23:11:07+00:00", "evenement": "collecte", "details": {"neufs": 5}, "sha256": "a0f9554a467def315a5ba5e9b48aa9cf21324d5debe6f51a79fec3e151d2588a"}
+{"ts": "2026-10-22T23:12:22+00:00", "evenement": "construction", "details": {"fichiers": 1637}, "sha256": "ad4406e1ec3b73aadc8563f8174c278f373563e450ef18fadde841cb1ebd132f"}
+{"ts": "2026-10-22T23:35:18+00:00", "evenement": "deploiement", "details": {"fichiers": 1676, "octets": 33380291}, "sha256": "cfbf70af900e2baf04fa6fb29fa81dc3ffc7f4e71870f071db76ca635fa5426c"}
+{"ts": "2026-10-22T23:35:18+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "402327d2e1c855968aa193cec2b7af8b0e240bff643db64d0a8be0d2bce84696"}
+{"ts": "2026-10-22T23:35:18+00:00", "evenement": "bilan", "details": {"duree_s": 1488.0, "neufs": 5, "breves": 5, "articles": 1, "fichiers": 1637, "envois": 1676, "publications": 0}, "sha256": "2cec42335e9b84711bfd1c29c33504de7b3501482136fdbf2901fc3d9781028d"}

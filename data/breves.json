@@ -1,5 +1,128 @@
 [
  {
+  "id": "f2e82e75b81a5ee4",
+  "slug": "le-pdg-de-nvidia-s-amuse-avec-les-robots-microduck-20-000-exemplaires--f2e82e",
+  "titre": "Le PDG de Nvidia s'amuse avec les robots Microduck, 20 000 exemplaires vendus",
+  "resume": "Les Microduck, petits robots ludiques, se sont écoulés à 20 000 exemplaires, portés par une vidéo du PDG de Nvidia qui les manipule. Ils tapent des pieds, imitent les sons de R2-D2, s'assoient, tombent comme morts pour une « sieste » et font des roulades sur commande vocale. Le jouet s'annonce comme l'un des plus demandés pour Noël.",
+  "tags": [
+   "robots",
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+  "date_source": "2026-10-23T21:59:19+00:00",
+  "date_redac": "2026-10-23T22:51:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 651,
+   "sortie": 792
+  }
+ },
+ {
+  "id": "606058593a57245c",
+  "slug": "kimi-k3-1-pro-meme-architecture-que-k3-2-8-t-de-parametres-606058",
+  "titre": "Kimi K3.1 Pro : même architecture que K3, 2,8 T de paramètres",
+  "resume": "Kimi K3.1 Pro fait l'objet d'un billet technique consacré à l'« open intelligence ». Le modèle reprend l'architecture du K3 : 2,8 billions de paramètres au total, dont 104 milliards activés à chaque inférence. Conséquence directe : il n'est pas réellement exécutable en local pour la plupart des utilisateurs.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdrad5/kimi_k31_pro_tech_blog_advancing_open_intelligence/",
+  "date_source": "2026-10-23T21:55:47+00:00",
+  "date_redac": "2026-10-23T22:51:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 646,
+   "sortie": 542
+  }
+ },
+ {
+  "id": "6845cdca111377dc",
+  "slug": "un-setup-local-a-1-600-qui-tourne-a-70-90-tokens-par-seconde-6845cd",
+  "titre": "Un setup local à 1 600 € qui tourne à 70-90 tokens par seconde",
+  "resume": "Sur r/LocalLLaMA, un utilisateur détaille sa configuration pour faire tourner un modèle en local : processeur i7-14700KF, 64 Go de RAM et carte graphique Radeon RX 9070XT 16 Go, pour environ 1 600 €. L'inférence passe par strata, un projet hébergé sur GitHub, avec le modèle Qwen3.8-Flash-Next-GSQ-RCO-Q2_0. Débit annoncé : entre 70 et 90 tokens par seconde.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdr8pe/probably_one_of_cheapest_and_performant_local/",
+  "date_source": "2026-10-23T21:53:48+00:00",
+  "date_redac": "2026-10-23T22:51:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 683,
+   "sortie": 565
+  }
+ },
+ {
+  "id": "34927864f5458c64",
+  "slug": "kimi-3-1-pro-sort-et-decroche-55-sur-artificial-analysis-349278",
+  "titre": "Kimi 3.1 Pro sort et décroche 55 sur Artificial Analysis",
+  "resume": "Moonshot AI publie Kimi 3.1 Pro, accessible dès maintenant via API sur OpenRouter. Le modèle atteint 55 sur Artificial Analysis, un score qui surprend les membres de r/LocalLLaMA, lesquels le comparent à Astra. La firme promet la publication des poids complets au plus tard le 4 novembre 2026.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdr7vi/kimi_31_pro_is_out_it_is_55_on_aa_what/",
+  "date_source": "2026-10-23T21:52:47+00:00",
+  "date_redac": "2026-10-23T22:51:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 772,
+   "sortie": 620
+  }
+ },
+ {
+  "id": "c328a9e2d79a2bd4",
+  "slug": "quick-study-un-artifact-claude-qui-repeint-une-photo-au-pinceau-en-que-c328a9",
+  "titre": "Quick Study : un artifact Claude qui repeint une photo au pinceau en quelques secondes",
+  "resume": "Simon Willison publie Quick Study, un artifact construit avec Claude Opus 5.5 : on y ouvre une photo, et un canvas en repeint une version au pinceau simulé en quelques secondes. Le rendu s'appuie sur la détection de contours Sobel, sans bibliothèque externe hormis Google Fonts. L'expérience fait suite à un essai précédent de simulation d'aquarelle avec Claude Fable et P5.js.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+  "date_source": "2026-10-23T21:35:13+00:00",
+  "date_redac": "2026-10-23T22:51:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 660,
+   "sortie": 430
+  }
+ },
+ {
+  "id": "304fdf80008340e5",
+  "slug": "un-centre-anti-cancer-cherche-a-dimensionner-300-a-400-k-de-gpu-pour-a-304fdf",
+  "titre": "Un centre anti-cancer cherche à dimensionner 300 à 400 K$ de GPU pour AlphaFold 2",
+  "resume": "Le directeur du calcul scientifique d'un centre de recherche sur le cancer demande de l'aide pour concevoir un serveur GPU. Un nouveau laboratoire dispose de 300 000 à 400 000 dollars pour faire tourner des charges AlphaFold 2 : très gourmandes en calcul, peu en données, avec des rendements qui décroissent au-delà de 50 Go de VRAM par job. Le stockage devra encaisser des millions de petits fichiers.",
+  "tags": [
+   "recherche",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdqk1d/wanna_help_me_design_an_hpc_system_upgrade_for/",
+  "date_source": "2026-10-23T21:25:42+00:00",
+  "date_redac": "2026-10-23T22:51:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 812,
+   "sortie": 679
+  }
+ },
+ {
   "id": "08f8e601f00dcf4b",
   "slug": "openclaw-corrige-l-acquisition-de-ressources-du-side-chat-08f8e6",
   "titre": "OpenClaw corrige l'acquisition de ressources du side chat",

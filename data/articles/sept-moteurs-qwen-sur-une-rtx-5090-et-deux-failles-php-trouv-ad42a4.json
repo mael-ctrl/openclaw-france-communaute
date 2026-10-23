@@ -1,0 +1,41 @@
+{
+ "slug": "sept-moteurs-qwen-sur-une-rtx-5090-et-deux-failles-php-trouv-ad42a4",
+ "titre": "Sept moteurs Qwen sur une RTX 5090, et deux failles PHP trouvées par l'IA",
+ "chapo": "Sept moteurs pour un seul modèle, un seul GPU, sept requêtes : le développeur de Basalt a mis les moteurs d'inférence Qwen 3.8 FN côte à côte sur une RTX 5090. Pendant ce temps, deux failles critiques de PHP — dont une connue depuis 2024 — sont devenues exploitables avec l'aide de modèles d'IA.",
+ "html": "<h2 id=\"sept-moteurs-un-checkpoint-une-carte\">Sept moteurs, un checkpoint, une carte</h2>\n<p>Le développeur de Basalt a comparé sept moteurs d'inférence sur un même modèle, Qwen 3.8 FN : <strong>Strata, Infernix, capy-flash, ninfer-ext, ninfer, llama.cpp et Basalt</strong>. Protocole identique pour tous : même checkpoint, conversion NVFP4 réalisée avec l'outil propre à chaque moteur, sept requêtes greedy, un démarrage à froid par requête, sur une RTX 5090 à 400 W.</p>\n<p>Les mesures de décodage et de prefill sont dans le fil Reddit, pas dans un tableau récapitulatif. Ce qui ressort d'abord, c'est la méthode : à checkpoint égal, chaque moteur impose sa propre conversion NVFP4. On ne compare donc pas seulement des implémentations sur un modèle figé, mais aussi les chaînes de quantization qui les accompagnent.</p>\n<p>Et le nombre d'entrées dans la liste dit quelque chose en soi : sept moteurs pour un seul modèle, sur une seule carte. La couche d'exécution locale est devenue un terrain encombré, où chacun pousse sa conversion maison.</p>\n<h2 id=\"php2shell-un-defaut-de-2024-devenu-criti\">PHP2Shell : un défaut de 2024 devenu critique</h2>\n<p>PHP a corrigé le 21 octobre deux failles critiques permettant l'exécution de code à distance. 01net les baptise <strong>PHP2Shell</strong> et rappelle l'enjeu : le langage fait tourner environ 70 % des sites web. Les cyberattaques exploitant ces vulnérabilités ont déjà commencé.</p>\n<p>Le détail qui compte : selon ActuIA, le défaut à l'origine de l'une des deux failles était connu depuis 2024, mais son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA. 01net précise de son côté qu'elles ont été débusquées par l'intelligence artificielle, via les modèles de pointe de Google et d'OpenAI. Un bug documenté qui dort un an, puis devient attaquable — la connaissance du défaut ne suffisait pas, il manquait le passage à l'exploit.</p>\n<p>Côté réponse, l'Anssi a demandé au ministère de l'Intérieur de couper ses sites exposés, ce qu'il a fait. Un correctif publié ne protège évidemment pas les serveurs qui ne l'ont pas appliqué.</p>\n<h2 id=\"la-chine-troisieme-sans-classement-nomme\">La Chine troisième, sans classement nommé</h2>\n<p>Sur r/LocalLLaMA, un post constate que la Chine repasse à la troisième place, en s'appuyant sur les résultats de <strong>Kimi K3.1 Pro</strong>. Le fil ne précise pas de quel classement il s'agit : ni la métrique, ni le panel de modèles comparés ne sont donnés.</p>\n<p>Deux autres modèles chinois sont annoncés pour novembre : <strong>Qwen et DeepSeek, dans leurs versions pro</strong>. À prendre pour ce que c'est — une annonce relayée dans un fil, sans résultats publiés à ce stade.</p>\n<h2 id=\"un-quart-des-data-centers-en-zone-de-str\">Un quart des data centers en zone de stress hydrique</h2>\n<p>Un quart des centres de données de la planète sont aujourd'hui installés dans des régions déjà plombées par le stress hydrique, rapporte le Journal du Geek. Avec le réchauffement climatique et la déferlante de l'IA, cette proportion devrait atteindre <strong>un tiers d'ici 2036</strong>.</p>\n<p>La dépêche ne détaille pas les usages concernés, mais le chiffre a le mérite d'être posé maintenant : la pression écologique, écrit le Journal du Geek, n'en est qu'à son amorce.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois de ces quatre dépêches parlent de mesure et de vérification : un benchmark dont les chiffres vivent dans un fil Reddit, un « troisième » sans nom de classement, des failles dont l'exploitabilité a été établie par des modèles. Le point commun n'est pas l'IA qui progresse, mais ce qu'on accepte de tenir pour établi. Un tableau de résultats en commentaires et une place de podium sans référentiel demandent la même chose : aller voir la source avant de reprendre le chiffre.</p>",
+ "pivot": "ad42a4189f8a630a",
+ "tags": [
+  "dev",
+  "sécurité",
+  "matériel",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlunp/i_ran_all_the_popular_qwen_38_fn_engines_on_a/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlmwx/china_is_3_again/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/23/ia-data-centers-installes-regions-leau-manque-non-sens-aggrave-rechauffement-climatique/"
+  }
+ ],
+ "date": "2026-10-23T18:47:15+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1562,
+  "sortie": 3623
+ }
+}

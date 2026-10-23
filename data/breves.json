@@ -104,70 +104,71 @@
  },
  {
   "id": "43dd1ee76e99383b",
-  "slug": "les-dernieres-rtx-5090-iraient-a-une-usine-de-conversion-ia-en-chine-43dd1e",
-  "titre": "Les dernières RTX 5090 iraient à une usine de conversion IA en Chine",
-  "resume": "Un post de r/LocalLLaMA signale qu'une vaste usine chinoise de conversion pour l'IA accaparerait les dernières cartes RTX 5090, Founders Edition comprises. L'extrait ne donne pas plus de détails sur le site ni sur les volumes concernés. Le sujet place la question de l'accès au matériel GPU au centre des préoccupations de la communauté locale.",
+  "slug": "les-dernieres-rtx-5090-prendraient-le-chemin-d-une-usine-de-conversion-43dd1e",
+  "titre": "Les dernières RTX 5090 prendraient le chemin d'une usine de conversion IA en Chine",
+  "resume": "Un post du subreddit r/LocalLLaMA indique que les dernières cartes RTX 5090 partent vers une vaste usine de conversion dédiée à l'IA, en Chine. Les modèles Founders Edition seraient eux aussi concernés. L'information circule dans une communauté qui suit de près l'usage local des modèles et l'accès au matériel.",
   "tags": [
    "matériel",
    "business"
   ],
-  "importance": 3,
+  "importance": 2,
   "source": "r/LocalLLaMA",
   "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdlj42/heres_where_the_last_rtx_5090_cards_are_going/",
   "date_source": "2026-10-23T18:10:51+00:00",
-  "date_redac": "2026-10-23T18:19:53+00:00",
+  "date_redac": "2026-10-23T18:46:43+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 637,
-   "sortie": 570
+   "sortie": 1217
   }
  },
  {
   "id": "086ea1328b70b2a1",
-  "slug": "un-quart-des-data-centers-mondiaux-sont-installes-dans-des-regions-en--086ea1",
-  "titre": "Un quart des data centers mondiaux sont installés dans des régions en stress hydrique",
-  "resume": "Un quart des centres de données de la planète se trouvent dans des régions déjà plombées par le stress hydrique, selon le Journal du Geek. La pression écologique n'en est qu'à son début : avec le réchauffement climatique et la déferlante de l'IA, cette proportion atteindra un tiers d'ici 2036. Le refroidissement des serveurs consomme de l'eau, dans des zones où elle manque déjà.",
+  "slug": "un-quart-des-data-centers-mondiaux-sont-implantes-en-zone-de-stress-hy-086ea1",
+  "titre": "Un quart des data centers mondiaux sont implantés en zone de stress hydrique",
+  "resume": "Un quart des centres de données de la planète sont aujourd'hui installés dans des régions déjà plombées par le stress hydrique, rapporte le Journal du Geek. Avec le réchauffement climatique et la déferlante de l'IA, cette proportion devrait atteindre un tiers d'ici 2036. Une pression écologique qui n'en est qu'à son amorce.",
   "tags": [
    "société",
-   "matériel"
+   "matériel",
+   "business"
   ],
   "importance": 3,
   "source": "Journal du Geek",
   "lien_source": "https://www.journaldugeek.com/2026/10/23/ia-data-centers-installes-regions-leau-manque-non-sens-aggrave-rechauffement-climatique/",
   "date_source": "2026-10-23T18:02:42+00:00",
-  "date_redac": "2026-10-23T18:19:56+00:00",
+  "date_redac": "2026-10-23T18:46:46+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 714,
-   "sortie": 363
+   "sortie": 370
   }
  },
  {
   "id": "805f1976f6d73e17",
-  "slug": "openclaw-la-fixture-de-boot-stress-alignee-sur-les-permissions-de-part-805f19",
-  "titre": "OpenClaw : la fixture de boot stress alignée sur les permissions de partage",
-  "resume": "Le dépôt OpenClaw publie un commit de test référencé #181798, intitulé « test(ui): align boot stress fixture with sharing permissions ». Il aligne la fixture utilisée pour les tests de charge au démarrage sur les permissions de partage. Aucune évolution fonctionnelle n'est annoncée : il s'agit de maintenance interne des tests de l'interface.",
+  "slug": "openclaw-aligne-son-test-de-charge-au-demarrage-sur-les-permissions-de-805f19",
+  "titre": "OpenClaw aligne son test de charge au démarrage sur les permissions de partage",
+  "resume": "OpenClaw publie une mise à jour sur ses releases GitHub : un commit de test d'interface (ui). Objectif affiché, aligner la fixture de test de charge au démarrage sur les permissions de partage, via la pull request #181798. La modification reste cantonnée aux tests, aucune nouveauté produit n'étant annoncée dans l'extrait. Elle illustre la nécessité de garder les scénarios de test alignés sur les règles de partage.",
   "tags": [
    "openclaw",
    "dev",
-   "open-source"
+   "sécurité"
   ],
   "importance": 1,
   "source": "OpenClaw (releases)",
   "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F6cc605dfe204-1792778379",
   "date_source": "2026-10-23T17:59:09+00:00",
-  "date_redac": "2026-10-23T18:20:01+00:00",
+  "date_redac": "2026-10-23T18:46:52+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 617,
-   "sortie": 789
+   "sortie": 937
   }
  },
  {
   "id": "6309dc12926efd95",
-  "slug": "modeles-open-weight-un-post-de-r-localllama-affirme-qu-ils-ont-rejoint-6309dc",
-  "titre": "Modèles open weight : un post de r/LocalLLaMA affirme qu'ils ont rejoint le frontier",
-  "resume": "Sur r/LocalLLaMA, un post daté du 23 octobre 2026 affirme que les modèles à poids ouverts ont rejoint les modèles frontière. Publié sous forme de lien, il n'est accompagné d'aucun chiffre, d'aucun nom de modèle ni d'aucun benchmark venant étayer la comparaison. L'affirmation reste une prise de position communautaire non documentée.",
+  "slug": "un-post-de-r-localllama-affirme-que-les-modeles-ouverts-ont-rattrape-l-6309dc",
+  "titre": "Un post de r/LocalLLaMA affirme que les modèles ouverts ont rattrapé les frontières",
+  "resume": "Sur le subreddit r/LocalLLaMA, un post publié le 23 octobre 2026 affirme que les modèles à poids ouverts ont désormais rattrapé les modèles frontière. Le message est signé de l'utilisateur MetalDeep329. L'extrait disponible ne précise ni les modèles concernés, ni les benchmarks ou évaluations sur lesquels repose cette affirmation.",
   "tags": [
    "open-source",
    "recherche"
@@ -176,53 +177,11 @@
   "source": "r/LocalLLaMA",
   "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdl1cv/holy_shit_open_weight_models_have_officially/",
   "date_source": "2026-10-23T17:52:36+00:00",
-  "date_redac": "2026-10-23T18:20:07+00:00",
+  "date_redac": "2026-10-23T18:46:56+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 616,
-   "sortie": 1147
-  }
- },
- {
-  "id": "32431ac6597f581f",
-  "slug": "openclaw-reduit-les-allocations-de-frames-du-scope-gateway-des-plugins-32431a",
-  "titre": "OpenClaw réduit les allocations de frames du scope gateway des plugins",
-  "resume": "La dernière version d'OpenClaw s'attaque aux performances des plugins : les scopes d'invocation et de récupération sont désormais restaurés ensemble, ce qui supprime une restauration native de context-map ainsi que le résolveur de récupération par entrée. Les vues mutables du Gateway, l'identité exacte de la source de récupération et les clôtures d'autorité d'instance et déléguée sont préservées. La livraison ajoute aussi une mesure RPC appairée des plugins, avec un rythme optionnel, et plusieurs correctifs et tests.",
-  "tags": [
-   "openclaw",
-   "dev",
-   "open-source"
-  ],
-  "importance": 2,
-  "source": "OpenClaw (releases)",
-  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F68bc4fc69776-1792777683",
-  "date_source": "2026-10-23T17:47:13+00:00",
-  "date_redac": "2026-10-23T18:20:10+00:00",
-  "gen": {
-   "modele": "deepseek-flash",
-   "entree": 724,
-   "sortie": 345
-  }
- },
- {
-  "id": "5512ba84c82a3030",
-  "slug": "strata-prend-en-charge-qwen-3-6-35b-mais-decoit-sur-amd-mi50-5512ba",
-  "titre": "Strata prend en charge Qwen 3.6 35B, mais déçoit sur AMD MI50",
-  "resume": "Strata annonce la prise en charge de Qwen 3.6 35B. Un utilisateur a testé cette combinaison sur un build compilé pour gfx906, soit une AMD MI50 de 16 Go : la vitesse de décodage s'est révélée moins bonne que celle de llama.cpp. La compatibilité avec le modèle est donc acquise, mais l'optimisation sur ce matériel reste en retrait de la référence.",
-  "tags": [
-   "open-source",
-   "matériel",
-   "dev"
-  ],
-  "importance": 2,
-  "source": "r/LocalLLaMA",
-  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdktmz/strata_now_supports_qwen_36_35b/",
-  "date_source": "2026-10-23T17:44:20+00:00",
-  "date_redac": "2026-10-23T18:20:15+00:00",
-  "gen": {
-   "modele": "deepseek-flash",
-   "entree": 645,
-   "sortie": 714
+   "sortie": 557
   }
  },
  {

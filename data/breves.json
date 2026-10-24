@@ -1,5 +1,46 @@
 [
  {
+  "id": "19e0a692579bff71",
+  "slug": "un-pr-sur-vllm-xpu-kernels-laisse-entrevoir-qwen4-27b-19e0a6",
+  "titre": "Un PR sur vllm-xpu-kernels laisse entrevoir Qwen4-27B",
+  "resume": "Un post de r/LocalLLaMA signale une pull request dans le dépôt vllm-xpu-kernels liée à Qwen4-27B. Son auteur a beaucoup contribué à des dépôts Intel et à vLLM, et a déjà travaillé sur Qwen3.8 ; son nom correspond à celui d'un CTO chez Alibaba ou d'un directeur du Zhejiang Lab. La PR suggère que la taille du cache KV de Qwen4-27B ne baisse pas.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdwrak/qwen427b_pr_found/",
+  "date_source": "2026-10-24T02:16:02+00:00",
+  "date_redac": "2026-10-24T02:34:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 708,
+   "sortie": 816
+  }
+ },
+ {
+  "id": "17a3c08d01edf000",
+  "slug": "kimi-k3-1-pro-annonce-des-poids-ouverts-prevus-d-ici-le-4-novembre-17a3c0",
+  "titre": "Kimi K3.1 Pro annoncé, des poids ouverts prévus d'ici le 4 novembre",
+  "resume": "Le forum r/LocalLLaMA relaie l'annonce de Kimi K3.1 Pro, avec une publication en poids ouverts annoncée pour le 4 novembre au plus tard. Le message a été publié le 24 octobre 2026. Pour la communauté du modèle ouvert, l'enjeu tient à la possibilité de télécharger et d'héberger le modèle soi-même plutôt que de dépendre d'une API.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdwd71/introducing_kimi_k31_pro_with_open_weights_by_nov/",
+  "date_source": "2026-10-24T01:55:54+00:00",
+  "date_redac": "2026-10-24T02:34:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 619,
+   "sortie": 838
+  }
+ },
+ {
   "id": "0bef6b93219b2133",
   "slug": "kimi-k3-1-pro-les-poids-annonces-pour-le-4-novembre-0bef6b",
   "titre": "Kimi K3.1 Pro : les poids annoncés pour le 4 novembre",
@@ -311,6 +352,26 @@
    "modele": "deepseek-flash",
    "entree": 696,
    "sortie": 531
+  }
+ },
+ {
+  "id": "3ddfb59b08ac2c9f",
+  "slug": "deblocage-de-vitesse-gpu-la-recette-des-3090-vaut-elle-pour-d-autres-c-3ddfb5",
+  "titre": "Déblocage de vitesse GPU : la recette des 3090 vaut-elle pour d'autres cartes",
+  "resume": "Sur r/LocalLLaMA, un utilisateur s'interroge sur les gains de vitesse observés sur les RTX 3090 grâce à des ajustements logiciels. Il demande si des déblocages comparables sont possibles sur les cartes -60, -70 et -80, ainsi que sur les générations 30, 40 et 50. L'extrait ne contient ni réponse ni mesure : la question porte sur l'étendue réelle de cette astuce au-delà de la 3090.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdexhw/does_the_gpu_unlock_speedup_trick_only_work_for/",
+  "date_source": "2026-10-23T14:02:46+00:00",
+  "date_redac": "2026-10-24T02:34:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 694,
+   "sortie": 464
   }
  },
  {

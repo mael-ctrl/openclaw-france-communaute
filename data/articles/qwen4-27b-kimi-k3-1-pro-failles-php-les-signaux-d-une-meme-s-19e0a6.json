@@ -1,0 +1,41 @@
+{
+ "slug": "qwen4-27b-kimi-k3-1-pro-failles-php-les-signaux-d-une-meme-s-19e0a6",
+ "titre": "Qwen4-27B, Kimi K3.1 Pro, failles PHP : les signaux d'une même semaine",
+ "chapo": "Une pull request dans vllm-xpu-kernels laisse filtrer un nom : Qwen4-27B. Au même moment, Kimi K3.1 Pro promet des poids ouverts, deux failles critiques dans PHP ont été débusquées avec l'aide de modèles, et Microsoft assure que son IA diagnostique quatre fois mieux que des médecins.",
+ "html": "<h2 id=\"qwen4-27b-une-pull-request-comme-premier\">Qwen4-27B : une pull request comme premier indice</h2>\n<p>Le signal est mince, et c'est précisément ce qui le rend intéressant. Un post de r/LocalLLaMA relaie une pull request déposée dans le dépôt <strong>vllm-xpu-kernels</strong>, liée à Qwen4-27B. La dépêche ne parle à aucun moment d'une annonce officielle : on a affaire à une contribution technique, pas à un lancement.</p>\n<p>Ce qui retient l'attention, c'est son auteur. Il a beaucoup contribué à des dépôts Intel et à vLLM, et a déjà travaillé sur Qwen3.8. Son nom correspond à celui d'un CTO chez Alibaba ou d'un directeur du Zhejiang Lab — deux hypothèses, pas une identification. Rien ne permet de trancher à partir de la seule dépêche.</p>\n<p>La PR suggère par ailleurs que la taille du cache KV de Qwen4-27B ne baisse pas. Le détail paraît aride, il est en réalité parlant pour quiconque fait tourner des modèles : le cache KV pèse lourd dans la mémoire disponible, et son dimensionnement conditionne directement ce qu'on peut exécuter, sur quel matériel et à quelle longueur de contexte. Une taille de cache qui ne recule pas, c'est une indication sur les arbitrages d'architecture, pas une fiche produit.</p>\n<h2 id=\"kimi-k3-1-pro-des-poids-ouverts-annonces\">Kimi K3.1 Pro : des poids ouverts annoncés d'ici le 4 novembre</h2>\n<p>Même forum, autre dépêche : r/LocalLLaMA relaie l'annonce de <strong>Kimi K3.1 Pro</strong>, avec une publication en poids ouverts annoncée pour le 4 novembre au plus tard. Le message a été publié le 24 octobre 2026.</p>\n<p>Pour la communauté du modèle ouvert, l'enjeu tient en une phrase : pouvoir télécharger et héberger le modèle soi-même plutôt que de dépendre d'une API. C'est une question de contrôle — sur les données envoyées, sur la disponibilité du service, sur la possibilité de modifier ou d'adapter le modèle.</p>\n<p>La dépêche s'arrête là, et il faut s'y tenir : elle ne dit rien des performances, de l'architecture, du volume de paramètres ni de la licence qui accompagnera cette publication. Une annonce de poids ouverts reste une annonce tant que les fichiers ne sont pas disponibles.</p>\n<h2 id=\"php2shell-quand-les-modeles-trouvent-les\">PHP2Shell : quand les modèles trouvent les failles</h2>\n<p>PHP a corrigé le 21 octobre deux failles critiques permettant l'exécution de code à distance. Le défaut à l'origine de l'une d'elles était connu depuis 2024, mais son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA. À la demande de l'Anssi, le ministère de l'Intérieur a coupé ses sites exposés.</p>\n<p>01net donne un nom à ces vulnérabilités, <strong>PHP2Shell</strong>, et rappelle l'échelle du sujet : PHP fait tourner environ 70 % des sites web. Les cyberattaques exploitant ces failles ont déjà commencé. Particularité de l'affaire : elles ont été débusquées par l'intelligence artificielle, via les modèles de pointe de Google et d'OpenAI.</p>\n<p>Le point mérite d'être souligné sans être surinterprété. Un défaut latent depuis 2024, dont l'exploitabilité n'a été démontrée que des mois plus tard avec des modèles de pointe : c'est moins un récit de « l'IA qui pirate » qu'un déplacement du coût de la recherche de vulnérabilités. La même capacité qui rend un défaut visible accélère aussi la mise au point d'un exploit. La réponse, ici, a été un correctif et une coupure décidée en urgence par une administration.</p>\n<h2 id=\"microsoft-et-le-diagnostic-quatre-fois-m\">Microsoft et le diagnostic : « quatre fois mieux », dit Microsoft</h2>\n<p>Microsoft affirme avoir mis au point un outil d'IA capable de diagnostiquer des pathologies <strong>jusqu'à quatre fois plus précisément</strong> que des médecins humains. Mustafa Suleyman, PDG de Microsoft AI, déclare à The Verge que cette promesse d'une IA au service de la santé « est enfin là ».</p>\n<p>Depuis des années, les dirigeants de l'IA citent la santé comme l'exemple le plus clair de l'utilité concrète de la technologie. La déclaration s'inscrit dans cette continuité, avec un changement de ton : on passe de la promesse à l'affirmation de résultat.</p>\n<p>Reste que la dépêche ne fournit ni méthodologie, ni protocole d'évaluation, ni périmètre exact des pathologies concernées, ni publication scientifique à l'appui. « Quatre fois plus précis » est une affirmation de Microsoft, attribuée à Microsoft. En matière de diagnostic, l'écart entre une performance mesurée sur un jeu de test et une utilisation réelle en consultation n'est pas un détail : c'est tout l'écart.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dépêches, trois manières de parler d'IA sans formulaire marketing. Un cache KV qui ne rétrécit pas, une promesse de poids ouverts à une date précise, un correctif publié le 21 octobre, une affirmation de précision quadrupelée. Dans les quatre cas, la valeur de l'information se joue sur ce qui est vérifiable : un dépôt, une licence, une méthodologie, un commit. Les annonces de modèles vont et viennent ; ce sont ces artefacts-là qui décident de ce qu'on peut réellement faire tourner, corriger ou contester.</p>",
+ "pivot": "19e0a692579bff71",
+ "tags": [
+  "open-source",
+  "sécurité",
+  "recherche",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdwrak/qwen427b_pr_found/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdwd71/introducing_kimi_k31_pro_with_open_weights_by_nov/"
+  }
+ ],
+ "date": "2026-10-24T02:34:57+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1577,
+  "sortie": 2968
+ }
+}

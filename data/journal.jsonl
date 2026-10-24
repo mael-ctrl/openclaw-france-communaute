@@ -3066,3 +3066,7 @@
 {"ts": "2026-10-24T07:07:16+00:00", "evenement": "deploiement", "details": {"fichiers": 1752, "octets": 35492640}, "sha256": "51d153b88a659ca2fd41096e44aae6e509a77179bc0c920b8a6fbedf8359b052"}
 {"ts": "2026-10-24T07:07:17+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "c2c6e3617aa608323511497bcac08b65fae733309e6b0f0d398bee0ec2fc874b"}
 {"ts": "2026-10-24T07:07:17+00:00", "evenement": "bilan", "details": {"duree_s": 1503.3, "neufs": 1, "breves": 1, "articles": 1, "fichiers": 1715, "envois": 1752, "publications": 0}, "sha256": "e84872e59e6b428831fe36f96cf030ed1443b2b95d1eeb89914df70eedfc2cf3"}
+{"ts": "2026-10-24T07:10:58+00:00", "evenement": "collecte", "details": {"neufs": 3}, "sha256": "155b7dbbdd7b775aa6115b91710f6c62aa6f1d58f02406801ab9ffeb67a7969d"}
+{"ts": "2026-10-24T07:11:20+00:00", "evenement": "construction", "details": {"fichiers": 1718}, "sha256": "53483182011355e9fd309fee46750cfaaa1e1e81e3590502afd318d45e08e21f"}
+{"ts": "2026-10-24T07:22:15+00:00", "evenement": "erreur", "details": {"message": "déploiement : [Errno 54] Connection reset by peer"}, "sha256": "d3f792426909360f27d06b439a9bcf03f3a3b634b2b7480a45207134357a90cf"}
+{"ts": "2026-10-24T07:22:15+00:00", "evenement": "bilan", "details": {"duree_s": 692.7, "neufs": 3, "breves": 3, "articles": 0, "fichiers": 1718, "deploiement": "echec"}, "sha256": "7495dc428ea2499c722169341d596d685f30bada0336496f9b41b645a0dcc45b"}

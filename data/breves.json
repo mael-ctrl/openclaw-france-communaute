@@ -1,5 +1,69 @@
 [
  {
+  "id": "2ba323b45f809f68",
+  "slug": "hermes-agent-publie-un-build-canary-estampille-v0-22-5-2ba323",
+  "titre": "Hermes Agent publie un build canary estampillé v0.22.5",
+  "resume": "Le dépôt Hermes Agent de NousResearch met en ligne un nouveau build canary, numéroté v0.22.5 et horodaté du 24 octobre 2026. La publication passe par le canal canary du projet sur GitHub, celui qui précède habituellement les versions stables. Le détail des changements n'est pas précisé dans la note de version.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5%2Bcanary.20261024T065630Z",
+  "date_source": "2026-10-24T06:56:31+00:00",
+  "date_redac": "2026-10-24T07:11:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 586
+  }
+ },
+ {
+  "id": "f80922c55e538950",
+  "slug": "spark-x2-6-4b-un-petit-modele-salue-pour-ses-appels-d-outils-f80922",
+  "titre": "Spark X2.6 4B, un petit modèle salué pour ses appels d'outils",
+  "resume": "Un utilisateur de r/LocalLLaMA dit le plus grand bien de Spark X2.6 4B, un modèle publié par XHToken sur Hugging Face. Tests à l'appui : il enchaîne 12 appels d'outils pour écrire un script Python destiné à Blender, comprend une base de code Rust complexe et repère seul le fichier global agents.md. Petit, rapide, avec un cache KV réduit, il n'a pas de vision et une mise à jour MTP est annoncée.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xe1kkh/spark_x26_4b_is_the_best_of_its_size/",
+  "date_source": "2026-10-24T06:44:17+00:00",
+  "date_redac": "2026-10-24T07:11:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 817,
+   "sortie": 602
+  }
+ },
+ {
+  "id": "664dc2825d4c6b64",
+  "slug": "openclaw-publie-la-version-2026-10-7-sur-github-664dc2",
+  "titre": "openclaw publie la version 2026.10.7 sur GitHub",
+  "resume": "Le projet openclaw met en ligne la version 2026.10.7, référencée sous l'étiquette v2026.10.7. La sortie est datée du 24 octobre 2026 à 06:43 UTC et figure dans les releases du dépôt GitHub openclaw/openclaw. L'extrait transmis ne détaille pas le contenu de cette version.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.7",
+  "date_source": "2026-10-24T06:43:30+00:00",
+  "date_redac": "2026-10-24T07:11:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 593,
+   "sortie": 929
+  }
+ },
+ {
   "id": "84cdc887be548a8b",
   "slug": "openclaw-un-correctif-ui-pour-les-sidecars-precompresses-de-la-control-84cdc8",
   "titre": "OpenClaw : un correctif UI pour les sidecars précompressés de la Control UI",

@@ -1,22 +1,18 @@
 {
- "runs": 343,
- "items_collectes": 2703,
- "breves_publiees": 1257,
+ "runs": 344,
+ "items_collectes": 2706,
+ "breves_publiees": 1260,
  "articles_publies": 237,
- "tokens_entree": 1281593,
- "tokens_sortie": 1818401,
+ "tokens_entree": 1283621,
+ "tokens_sortie": 1820518,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-24T06:43:07+00:00",
+ "dernier_run": "2026-10-24T07:11:14+00:00",
  "solde": {
-  "total": "83.77",
+  "total": "83.76",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-22T10:22:12+00:00",
-   "message": "article impossible : réponse non-JSON"
-  },
   {
    "ts": "2026-10-22T15:06:10+00:00",
    "message": "brève impossible (How fast can a rusty Macbook M1 Pro 16Gb 2021 actually code ) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-23T08:01:22+00:00",
    "message": "brève impossible (Models disappearing from Huggingface) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-24T07:22:15+00:00",
+   "message": "déploiement : [Errno 54] Connection reset by peer"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 7.89,
+ "depense_usd": 7.9,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1392,10 +1392,14 @@
   [
    "2026-10-24T06:42:42+00:00",
    "83.77"
+  ],
+  [
+   "2026-10-24T07:10:58+00:00",
+   "83.76"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 5.6,
+ "depense_mois_usd": 5.61,
  "archive_tentatives": {
   "jour": "2026-10-24",
   "n": 3

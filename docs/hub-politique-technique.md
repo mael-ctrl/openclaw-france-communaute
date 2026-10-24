@@ -47,8 +47,34 @@ juridique ni une preuve d'absence de cookies en toutes circonstances.
 
 ## Publication
 
-À compléter avec le commit, le workflow média, les deux relectures SFTP et la
-recette HTTPS. Un workflow média vert ne publie pas le hub ; aucune conformité
-juridique, hausse d'audience ou installation des kits n'est revendiquée.
+- Code **`f9a8893`**, trois blobs de code relus exactement sur GitHub.
+  Les pushes refusés pour travaux parallèles ont été conservés ; rebase ciblé,
+  aucune fusion forcée de données. Le sitemap reprend les dates voisines des kits.
+- Recette combinée finale : **218 tests Python + 4 Node réussis**. Deux builds
+  isolés sur le parent `2cc331c`, à horloge commune : **3 504 sorties du média
+  identiques**, **443 fichiers de données intacts**. Le hub est hors de ce build.
+- **Hub publié le 24 à 17:33:56 UTC** : deux fichiers envoyés par SFTP et relus
+  octet pour octet. Mentions légales et deux ZIP témoins inchangés ; snapshot de
+  base refait après la livraison voisine, avant toute écriture.
+- À **17:35:25 UTC**, **huit URL HTTPS en 200** : corps principal exact après
+  seul décodage du contact public Cloudflare ; sitemap et deux ZIP exacts.
+  Les quatre tests de politique passent aussi sur la réponse publique capturée.
+- **Six configurations publiques Chrome** (360/390/1 440 px, JS activé/désactivé)
+  passent : pas de débordement, styles lisibles, retour accueil au clavier.
+  La protection email Cloudflare reste héritée : sans JS, elle affiche
+  `[email protected]`. Ce test n'affirme pas un contact mail utilisable sans JS.
+- **Validation cloud non acquise au relevé 2026-10-24T17:53:12.802634+00:00** : le
+  [run 40116677135](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/40116677135)
+  est `in_progress`, job depuis 17:44 UTC, aucune étape exposée et logs directs
+  404. Deux attentes bornées n'en font pas un échec du code, ni un succès.
+  Le run antérieur `40115442150`, bloqué à « Set up job » depuis 17:17 sans
+  checkout/pipeline annoncé, a été annulé ; annulation relue `completed/cancelled`.
+  Aucun workflow ni cron modifié. Ne pas relancer aveuglément ce déploiement :
+  relire l'issue du run avant de décider d'une reprise sur main courant.
+
+Le déploiement effectif du hub et ses recettes sont confirmés indépendamment
+du workflow média, dont le démarrage reste bloquant pour la recette cloud
+exigée. Aucune conformité juridique, hausse d'audience ou installation des kits
+n'est revendiquée.
 
 Preuves privées : `crabe-chantiers/integration-site/2026-10-24-politique/`.

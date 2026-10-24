@@ -1,5 +1,46 @@
 [
  {
+  "id": "e1788414d57053f0",
+  "slug": "openai-arrete-d-entrainer-ses-modeles-sur-l-internet-en-direct-e17884",
+  "titre": "OpenAI arrête d'entraîner ses modèles sur l'internet en direct",
+  "resume": "OpenAI annonce qu'elle cessera d'entraîner ses modèles de pointe sur l'internet en direct, invoquant des « risques significatifs ». Le changement intervient quelques semaines après qu'un de ses ingénieurs a affirmé que cette solution ne fonctionnerait pas. La décision concerne les modèles frontière de l'entreprise.",
+  "tags": [
+   "openai",
+   "sécurité"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+  "date_source": "2026-10-23T23:05:49+00:00",
+  "date_redac": "2026-10-23T23:28:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 638,
+   "sortie": 541
+  }
+ },
+ {
+  "id": "4ed8b0b102e9fc77",
+  "slug": "mini-agi-des-benchmarks-qui-mesurent-l-apport-de-l-apprentissage-conti-4ed8b0",
+  "titre": "Mini-AGI : des benchmarks qui mesurent l'apport de l'apprentissage continu",
+  "resume": "Un développeur publie sur r/LocalLLaMA les benchmarks de mini-AGI, un modèle d'apprentissage continu dynamique entraîné entièrement de zéro pendant un mois sur un GPU de 8 Go de VRAM. Le point clé : l'écart entre les tentatives « frozen » et « best effort », où le modèle est autorisé à se spécialiser sur la tâche au fil de l'évaluation. Le code, les poids et les détails du projet sont disponibles sur le dépôt GitHub.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xds6ts/some_benchmarks_on_miniagi_dynamic_continual/",
+  "date_source": "2026-10-23T22:34:52+00:00",
+  "date_redac": "2026-10-23T23:28:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 717,
+   "sortie": 530
+  }
+ },
+ {
   "id": "f2e82e75b81a5ee4",
   "slug": "le-pdg-de-nvidia-s-amuse-avec-les-robots-microduck-20-000-exemplaires--f2e82e",
   "titre": "Le PDG de Nvidia s'amuse avec les robots Microduck, 20 000 exemplaires vendus",
@@ -120,6 +161,93 @@
    "modele": "deepseek-flash",
    "entree": 812,
    "sortie": 679
+  }
+ },
+ {
+  "id": "e9fd98370a552fc6",
+  "slug": "coral-hart-371-romans-ecrits-avec-chatgpt-claude-et-grok-en-20-mois-e9fd98",
+  "titre": "Coral Hart : 371 romans écrits avec ChatGPT, Claude et Grok en 20 mois",
+  "resume": "La romancière sud-africaine Coral Hart a écrit 371 romans en vingt mois avec l'aide de l'intelligence artificielle, en s'appuyant sur ChatGPT, Claude et Grok. Elle affirme avoir généré un million de dollars de chiffre d'affaires en 2026. Elle propose désormais de produire des livres sur commande, et assume la controverse autour de sa méthode.",
+  "tags": [
+   "chatgpt",
+   "claude",
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/on-va-me-hair-cette-romanciere-a-ecrit-371-livres-grace-a-chatgpt-claude-et-grok-et-elle-assume.html",
+  "date_source": "2026-10-23T14:12:48+00:00",
+  "date_redac": "2026-10-23T23:28:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 696,
+   "sortie": 531
+  }
+ },
+ {
+  "id": "335e9fb409a2844b",
+  "slug": "backdoors-dans-les-harnais-d-agents-et-moteurs-d-inference-un-risque-s-335e9f",
+  "titre": "Backdoors dans les harnais d'agents et moteurs d'inférence : un risque sous-estimé",
+  "resume": "Un post de r/LocalLLaMA rappelle que la backdoor xz utils de 2024 a été repérée presque par hasard, dans le code le plus surveillé qui soit. Les harnais d'agents, moteurs d'inférence et modèles sont bien moins observés, et il en sort un nouveau chaque semaine. Un abonnement à Opus 5.5 ne suffira pas à les détecter : une pull request crédible dans une dépendance peut dormir des mois.",
+  "tags": [
+   "sécurité",
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdeg0n/probability_of_backdoors_in_popular_harnesses_and/",
+  "date_source": "2026-10-23T13:44:17+00:00",
+  "date_redac": "2026-10-23T23:28:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 797,
+   "sortie": 897
+  }
+ },
+ {
+  "id": "6c71606b5e34309f",
+  "slug": "sur-r-localllama-un-internaute-parie-sur-les-petits-modeles-specialise-6c7160",
+  "titre": "Sur r/LocalLLaMA, un internaute parie sur les petits modèles spécialisés",
+  "resume": "Sur r/LocalLLaMA, un internaute parie sur des modèles spécialisés et plus petits plutôt que sur les LLM géants. Il souligne que des tâches comme l'OCR ou la segmentation sont déjà résolues par des modèles de quelques milliards de paramètres, et qu'un modèle de 9B entraîné par un labo peut dominer les benchmarks. Selon lui, les abonnements aux grands modèles perdent beaucoup d'argent et n'exigeront plus la puissance d'un datacenter.",
+  "tags": [
+   "open-source",
+   "business",
+   "matériel",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdcpxb/everything_will_be_local_eventually/",
+  "date_source": "2026-10-23T12:31:21+00:00",
+  "date_redac": "2026-10-23T23:28:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 792,
+   "sortie": 800
+  }
+ },
+ {
+  "id": "c2f49ba0b49d2680",
+  "slug": "chrome-un-chercheur-dit-avoir-contourne-le-bac-a-sable-en-12-heures-av-c2f49b",
+  "titre": "Chrome : un chercheur dit avoir contourné le bac à sable en 12 heures avec DeepSeek",
+  "resume": "Un chercheur en cybersécurité affirme être parvenu à contourner le bac à sable de Chrome en seulement 12 heures. Il dit avoir mobilisé pour cela un modèle de DeepSeek, qu'il présente comme performant et surtout peu coûteux. La démonstration concerne le mécanisme censé isoler le navigateur.",
+  "tags": [
+   "sécurité",
+   "deepseek",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/deepseek-aurait-reussi-a-contourner-les-defenses-de-chrome-en-12-heures.html",
+  "date_source": "2026-10-23T12:00:36+00:00",
+  "date_redac": "2026-10-23T23:28:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 654,
+   "sortie": 545
   }
  },
  {

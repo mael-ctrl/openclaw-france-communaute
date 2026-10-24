@@ -1,0 +1,41 @@
+{
+ "slug": "openai-coupe-le-web-en-direct-php-tombe-walmart-encadre-ses--e17884",
+ "titre": "OpenAI coupe le web en direct, PHP tombe, Walmart encadre ses agents",
+ "chapo": "OpenAI annonce qu'elle n'entraînera plus ses modèles frontière sur l'internet en direct, invoquant des « risques significatifs ». La même semaine, deux failles critiques dans PHP — débusquées avec l'aide de modèles d'IA — ont poussé l'Anssi à faire couper des sites exposés du ministère de l'Intérieur.",
+ "html": "<h2 id=\"openai-ferme-le-robinet-du-web-en-direct\">OpenAI ferme le robinet du web en direct</h2>\n<p>OpenAI a annoncé qu'elle cesserait d'entraîner ses modèles de pointe sur l'internet en direct, en invoquant des « risques significatifs ». La décision porte spécifiquement sur les <strong>modèles frontière</strong> de l'entreprise.</p>\n<p>Le calendrier mérite d'être souligné : l'annonce intervient quelques semaines après qu'un ingénieur de la maison a affirmé que cette solution ne fonctionnerait pas. Les dépêches ne disent pas si la décision découle de cette sortie — elles constatent la proximité des deux dates, rien de plus.</p>\n<p>Concrètement, l'entraînement des modèles les plus avancés devra désormais se passer du flux continu du web. Les dépêches ne détaillent ni les solutions de remplacement, ni le calendrier de bascule, ni ce que recouvre exactement l'expression « risques significatifs ».</p>\n<h2 id=\"30-milliards-de-dollars-en-preparation\">30 milliards de dollars en préparation</h2>\n<p>En parallèle, OpenAI préparerait une nouvelle levée de fonds de <strong>30 milliards de dollars</strong>, sur la base d'une valorisation de <strong>1 250 milliards</strong>, en amont de son introduction en bourse. Si le tour aboutit à ce niveau, l'entreprise deviendrait la société privée la plus valorisée de l'histoire.</p>\n<p>Rien dans les dépêches ne relie cette levée à la décision de couper l'entraînement sur le web en direct : ce sont deux dossiers distincts, publiés à un jour d'intervalle par la même source.</p>\n<h2 id=\"php2shell-les-failles-que-l-ia-a-aide-a-\">PHP2Shell : les failles que l'IA a aidé à trouver</h2>\n<p>PHP a corrigé le <strong>21 octobre</strong> deux failles critiques permettant l'exécution de code à distance. Baptisées PHP2Shell, elles menacent un langage qui fait tourner environ <strong>70 % des sites web</strong> et permettent de prendre le contrôle d'un serveur à distance. Les cyberattaques exploitant ces vulnérabilités ont déjà commencé.</p>\n<p>Le détail qui compte : selon 01net, les deux failles ont été débusquées par l'intelligence artificielle, via les modèles de pointe de <strong>Google</strong> et d'<strong>OpenAI</strong>. ActuIA précise de son côté que le défaut à l'origine de l'une d'elles était connu depuis 2024, mais que son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA.</p>\n<p>Côté réponse, l'<strong>Anssi</strong> a demandé au ministère de l'Intérieur de couper ses sites exposés, ce qui a été fait. Le correctif est disponible depuis le 21 octobre.</p>\n<h2 id=\"walmart-pose-ses-conditions-aux-agents-d\">Walmart pose ses conditions aux agents d'achat</h2>\n<p>Le <strong>21 octobre 2026</strong>, Walmart a annoncé la mise en place de profils dédiés aux agents d'IA. Au menu : un <strong>plafond de dépenses</strong>, une passerelle <strong>MCP</strong> et des conditions d'utilisation qui permettent de bloquer les agents non conformes.</p>\n<p>Le distributeur américain fixe donc lui-même les règles de l'achat délégué sur sa plateforme. Amazon, de son côté, a privilégié la voie judiciaire. Deux approches, deux façons de reprendre la main sur des agents qui achètent à la place des humains.</p>\n<h2>Et maintenant ?</h2>\n<p>Sur une même semaine, l'IA apparaît des deux côtés du guichet : elle aide à débusquer des failles critiques dans PHP comme à en démontrer l'exploitation, pendant qu'OpenAI juge trop risqué de laisser ses modèles frontière apprendre du web en direct. Les acteurs qui posent les règles le font chacun dans leur périmètre — plafond de dépenses chez Walmart, correctif chez PHP, restriction d'entraînement chez OpenAI. La valorisation de 1 250 milliards en préparation donne la mesure de ce qui se joue.</p>",
+ "pivot": "e1788414d57053f0",
+ "tags": [
+  "openai",
+  "sécurité",
+  "agents",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/commerce-agentique-walmart-impose-ses-regles-aux-agents-dia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  }
+ ],
+ "date": "2026-10-23T23:29:08+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1522,
+  "sortie": 3540
+ }
+}

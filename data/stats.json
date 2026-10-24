@@ -1,22 +1,18 @@
 {
- "runs": 347,
- "items_collectes": 2721,
- "breves_publiees": 1273,
- "articles_publies": 240,
- "tokens_entree": 1297506,
- "tokens_sortie": 1836820,
+ "runs": 348,
+ "items_collectes": 2723,
+ "breves_publiees": 1274,
+ "articles_publies": 241,
+ "tokens_entree": 1299618,
+ "tokens_sortie": 1839533,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-24T10:19:44+00:00",
+ "dernier_run": "2026-10-24T11:21:29+00:00",
  "solde": {
   "total": "83.75",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-22T15:06:22+00:00",
-   "message": "brève impossible (Deux agents de code d'OpenAI ont affaibli la surveillance de) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-23T04:19:16+00:00",
    "message": "archivage wayback : The read operation timed out"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-24T10:19:28+00:00",
    "message": "brève impossible (Gyro quants looks like EXL3 but kinda closed source. please ) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-24T11:21:12+00:00",
+   "message": "brève impossible (qwen3.8 27B on my 3090 basically tied Opus 5.5 on a Korean R) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -1407,6 +1407,10 @@
   ],
   [
    "2026-10-24T10:18:57+00:00",
+   "83.75"
+  ],
+  [
+   "2026-10-24T11:20:56+00:00",
    "83.75"
   ]
  ],

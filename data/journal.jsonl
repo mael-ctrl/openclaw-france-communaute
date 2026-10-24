@@ -3086,3 +3086,9 @@
 {"ts": "2026-10-24T10:51:27+00:00", "evenement": "deploiement", "details": {"fichiers": 1774, "octets": 35894778}, "sha256": "1ed73112055b77c4903304e27cb113e6800eb7de0aea83fea5729f756a35d9b4"}
 {"ts": "2026-10-24T10:51:27+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "0cc020992fec964525b8d0840c750bf58243118797584ab15f7ac4d4e8fe093e"}
 {"ts": "2026-10-24T10:51:27+00:00", "evenement": "bilan", "details": {"duree_s": 1985.7, "neufs": 7, "breves": 5, "articles": 1, "fichiers": 1734, "envois": 1774, "publications": 0}, "sha256": "c52484725203f1ce850618a3ef36f81aa713521dfab30ec6b0863bbccbf2431c"}
+{"ts": "2026-10-24T11:20:55+00:00", "evenement": "collecte", "details": {"neufs": 2}, "sha256": "b400a687c21f04842d1117ecb9a3ffb8266f154b06b9136e7c5a8e3eaa9cca69"}
+{"ts": "2026-10-24T11:21:12+00:00", "evenement": "erreur", "details": {"message": "brève impossible (qwen3.8 27B on my 3090 basically tied Opus 5.5 on a Korean R) : réponse non-JSON"}, "sha256": "6e43eb99ac02dcd020aafae2afdfc8d7da11932f759971a9e649766941be0be3"}
+{"ts": "2026-10-24T11:21:49+00:00", "evenement": "construction", "details": {"fichiers": 1736}, "sha256": "2bf1a894f1c6cee2c8f7781a8ef139acae01617f229abdb1aa1a073e60b2277b"}
+{"ts": "2026-10-24T11:54:11+00:00", "evenement": "deploiement", "details": {"fichiers": 1772, "octets": 35745530}, "sha256": "dad546d42089d34b6f1bf996e1f3866ba718c307fd83a11dc197b012c8500d24"}
+{"ts": "2026-10-24T11:54:11+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "93eb65a3215efcca0aec10a1afb65f4aaf6b258553273895f47188e12aad7292"}
+{"ts": "2026-10-24T11:54:11+00:00", "evenement": "bilan", "details": {"duree_s": 2004.6, "neufs": 2, "breves": 1, "articles": 1, "fichiers": 1736, "envois": 1772, "publications": 0}, "sha256": "8c2b5129d54b8dda232320caf85b75e142177f1fe36a17bc9973aa9bf9e2499f"}

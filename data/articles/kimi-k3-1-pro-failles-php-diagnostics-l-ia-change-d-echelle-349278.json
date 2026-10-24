@@ -1,0 +1,41 @@
+{
+ "slug": "kimi-k3-1-pro-failles-php-diagnostics-l-ia-change-d-echelle-349278",
+ "titre": "Kimi K3.1 Pro, failles PHP, diagnostics : l'IA change d'échelle",
+ "chapo": "Moonshot AI met en ligne Kimi K3.1 Pro, qui décroche 55 sur Artificial Analysis, mais renvoie la publication de ses poids à novembre 2026. Dans la même semaine, deux failles critiques dans PHP ont été débusquées par des modèles d'IA, et Microsoft affirme que son outil de diagnostic dépasse les médecins.",
+ "html": "<h2 id=\"kimi-k3-1-pro-55-sur-artificial-analysis\">Kimi K3.1 Pro : 55 sur Artificial Analysis, et un accès par API</h2>\n<p>Moonshot AI a publié Kimi K3.1 Pro, accessible dès maintenant via API sur OpenRouter. Le modèle atteint <strong>55 sur Artificial Analysis</strong>, un score qui a surpris les membres de r/LocalLLaMA, lesquels le comparent à Astra.</p>\n<p>La firme ne s'arrête pas là : elle promet la publication des <strong>poids complets au plus tard le 4 novembre 2026</strong>. Un calendrier qui laisse près de deux ans d'attente à ceux qui voudraient travailler sur le modèle autrement que par API.</p>\n<p>Le billet technique accompagnant la sortie est consacré à l'« open intelligence ». Le vocabulaire est choisi, et il faudra juger sur pièces le jour où les fichiers seront réellement disponibles.</p>\n<h2 id=\"2-8-billions-de-parametres-la-promesse-o\">2,8 billions de paramètres : la promesse open, la contrainte du local</h2>\n<p>Côté architecture, Kimi K3.1 Pro reprend celle du K3 : <strong>2,8 billions de paramètres au total, dont 104 milliards activés à chaque inférence</strong>. Des chiffres qui situent le modèle dans une catégorie à part.</p>\n<p>La conséquence est directe, et la dépêche la formule sans détour : il n'est <strong>pas réellement exécutable en local</strong> pour la plupart des utilisateurs. Pour un subreddit qui vit de la pratique du modèle sur sa propre machine, l'écart est notable.</p>\n<p>La nouvelles se lit donc sur deux plans : un score de benchmark élevé, et une disponibilité qui reste, pour l'instant, celle d'une API. Les poids annoncés pour 2026 trancheront.</p>\n<h2 id=\"microsoft-et-le-diagnostic-c-est-enfin-l\">Microsoft et le diagnostic : « c'est enfin là »</h2>\n<p>Microsoft affirme avoir mis au point un outil d'IA capable de diagnostiquer des pathologies <strong>jusqu'à quatre fois plus précisément que des médecins humains</strong>. C'est la firme elle-même qui avance ce chiffre.</p>\n<p>Mustafa Suleyman, PDG de Microsoft AI, déclare à The Verge que cette promesse d'une IA au service de la santé « est enfin là ». Depuis des années, rappelle la dépêche, les dirigeants de l'IA citent la santé comme l'exemple le plus clair de l'utilité concrète de la technologie.</p>\n<p>Reste que la formulation est une affirmation d'entreprise, pas un résultat publié et répliqué. La comparaison avec des médecins humains, telle qu'énoncée, ne précise ni les pathologies concernées, ni le protocole.</p>\n<h2 id=\"php2shell-deux-failles-critiques-trouvee\">PHP2Shell : deux failles critiques, trouvées par des modèles</h2>\n<p>PHP a corrigé le <strong>21 octobre</strong> deux failles critiques permettant l'exécution de code à distance. Baptisées <strong>PHP2Shell</strong>, elles menacent un langage qui fait tourner environ <strong>70 % des sites web</strong>, et les cyberattaques exploitant ces vulnérabilités ont déjà commencé.</p>\n<p>Particularité : elles ont été débusquées par l'intelligence artificielle, via les modèles de pointe de <strong>Google et d'OpenAI</strong>. Le défaut à l'origine de l'une d'elles était connu depuis <strong>2024</strong>, mais son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA.</p>\n<p>Côté réponse, à la demande de l'<strong>Anssi</strong>, le ministère de l'Intérieur a coupé ses sites exposés. Une faille documentée mais jugée non critique pendant des mois a donc changé de statut à l'été.</p>\n<h2>Et maintenant ?</h2>\n<p>Les trois dossiers dessinent deux usages très différents de la même technologie. D'un côté, des modèles qui trouvent des failles vieilles de deux ans et forcent des administrations à couper des sites. De l'autre, un modèle géant dont les poids sont promis pour 2026, et une promesse de diagnostic médical quatre fois supérieur aux médecins, avancée par une entreprise sans protocole détaillé dans la dépêche. Entre les deux, un même mot : capacité. Reste à voir laquelle sera mesurable par des tiers.</p>",
+ "pivot": "34927864f5458c64",
+ "tags": [
+  "open-source",
+  "sécurité",
+  "dev",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdr7vi/kimi_31_pro_is_out_it_is_55_on_aa_what/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdrad5/kimi_k31_pro_tech_blog_advancing_open_intelligence/"
+  }
+ ],
+ "date": "2026-10-24T00:30:05+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1535,
+  "sortie": 2538
+ }
+}

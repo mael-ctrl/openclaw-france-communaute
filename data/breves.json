@@ -1,5 +1,88 @@
 [
  {
+  "id": "d554c0561ce19cec",
+  "slug": "l-artefact-ai-film-festival-revient-pour-une-troisieme-edition-d554c0",
+  "titre": "L'Artefact AI Film Festival revient pour une troisième édition",
+  "resume": "Le festival de films réalisés avec de l'IA tient sa troisième édition, et continue d'explorer les liens entre cinéma et intelligence artificielle. L'événement se penche à la fois sur le fond et sur la forme : l'IA y est présentée comme un outil pour les cinéastes, tandis que les relations entre l'humain et la machine nourrissent les récits. À noter, l'article de Numerama qui en rend compte a été réalisé en collaboration avec LDLC et Nvidia.",
+  "tags": [
+   "société",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2357715-artefact-ai-film-festival-comment-lia-accompagne-la-creation-dun-film.html",
+  "date_source": "2026-10-24T05:47:00+00:00",
+  "date_redac": "2026-10-24T05:51:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 725,
+   "sortie": 513
+  }
+ },
+ {
+  "id": "43758766eaf4242d",
+  "slug": "choisir-un-pc-pour-le-montage-video-la-3d-et-l-ia-les-reponses-de-nvid-437587",
+  "titre": "Choisir un PC pour le montage vidéo, la 3D et l'IA : les réponses de Nvidia",
+  "resume": "Choisir un PC adapté à ses projets créatifs ne se résume pas à une fiche technique. Dans un article sponsorisé, Frandroid revient sur les critères à regarder pour le montage vidéo, la 3D et l'IA. Nvidia y met en avant ses GeForce RTX 50 et l'écosystème NVIDIA Studio, présentés comme plusieurs réponses apportées aux créatifs.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/produits-android/hardware/cartes-graphiques/3294661_montage-video-3d-ia-comment-choisir-un-pc-qui-suit-le-rythme-de-vos-projets",
+  "date_source": "2026-10-24T05:47:00+00:00",
+  "date_redac": "2026-10-24T05:51:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 692,
+   "sortie": 575
+  }
+ },
+ {
+  "id": "bac69bcdcd4ecade",
+  "slug": "sam-altman-le-meilleur-modele-d-openai-ne-peut-pas-etre-open-source-en-bac69b",
+  "titre": "Sam Altman : le meilleur modèle d'OpenAI ne peut pas être open source en l'état",
+  "resume": "Invité de la série « View from the Top » de la Stanford Graduate School of Business, le PDG d'OpenAI a répété que le modèle le plus avancé de l'entreprise ne peut pas être publié en open source tant que le monde n'aura pas construit de meilleures défenses en cybersécurité et en biosécurité. Il reconnaît par ailleurs une réelle valeur sociétale aux modèles à poids ouverts. Altman admet aussi qu'OpenAI, pensée au départ comme un simple laboratoire de recherche, a dû pivoter vers 2020, l'explosion qui a suivi le lancement de ChatGPT l'ayant transformée en très grosse entreprise presque du jour au lendemain.",
+  "tags": [
+   "openai",
+   "open-source",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xe0ioz/sam_altman_openais_best_model_cant_responsibly_be/",
+  "date_source": "2026-10-24T05:41:18+00:00",
+  "date_redac": "2026-10-24T05:51:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 772,
+   "sortie": 563
+  }
+ },
+ {
+  "id": "cb297bed6a5393cb",
+  "slug": "openclaw-conserve-le-code-de-refus-in-gateway-dans-ses-reparations-de--cb297b",
+  "titre": "OpenClaw conserve le code de refus in-Gateway dans ses réparations de mise à jour",
+  "resume": "OpenClaw publie un correctif sur le volet mise à jour : le code de refus émis par la passerelle (in-Gateway) est désormais conservé lors des exécutions de réparation. Le changement touche donc le traitement des échecs de mise à jour, qui gardent la trace du refus au lieu de la perdre. Référence de publication : release-publish/1fead915921e-1792818494, sur le dépôt GitHub du projet.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F1fead915921e-1792818494",
+  "date_source": "2026-10-24T02:34:33+00:00",
+  "date_redac": "2026-10-24T05:51:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 759
+  }
+ },
+ {
   "id": "19e0a692579bff71",
   "slug": "un-pr-sur-vllm-xpu-kernels-laisse-entrevoir-qwen4-27b-19e0a6",
   "titre": "Un PR sur vllm-xpu-kernels laisse entrevoir Qwen4-27B",

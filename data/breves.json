@@ -1,5 +1,128 @@
 [
  {
+  "id": "d551783f92082876",
+  "slug": "un-fork-d-ik-llama-cpp-detaille-ses-vitesses-sur-une-rtx-2060-de-6-go-d55178",
+  "titre": "Un fork d'ik_llama.cpp détaille ses vitesses sur une RTX 2060 de 6 Go",
+  "resume": "Le développeur IceFog72 publie une mise à jour de son fork d'ik_llama.cpp et cherche des retours. Sur une RTX 2060 de 6 Go de VRAM, il annonce environ 45 à 48 tokens/s sur des prompts courts, environ 37 tokens/s à 28K de contexte, et un prefill entre 430 et 700 tokens/s. Il ne tente pas encore de fusionner ses changements : trop peu de retours, et le code doit être nettoyé et corrigé sur plusieurs points.",
+  "tags": [
+   "dev",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xed7a7/just_update_of_ik_llamacpp_fork_and_seek_of/",
+  "date_source": "2026-10-24T16:34:56+00:00",
+  "date_redac": "2026-10-24T16:41:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 797,
+   "sortie": 488
+  }
+ },
+ {
+  "id": "10ff13951a899551",
+  "slug": "monadize-un-fine-tune-de-gemma-4-31b-pour-varier-les-noms-de-personnag-10ff13",
+  "titre": "Monadize, un fine-tune de Gemma 4 31B pour varier les noms de personnages",
+  "resume": "Monadize, un fine-tune de Gemma 4 31B, veut réduire les noms de personnages répétitifs du type « Elara » ou « Elias ». L'approche : décaler la distribution du token suivant et tokeniser caractère par caractère les nouveaux noms. Bannir des tokens ou exclure les prénoms courants par prompt ne touche pas la distribution sous-jacente. À température 1, l'auteur a généré 30 noms pour mesurer le gain.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xeczgk/improving_character_name_diversity/",
+  "date_source": "2026-10-24T16:26:04+00:00",
+  "date_redac": "2026-10-24T16:41:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 782,
+   "sortie": 1500
+  }
+ },
+ {
+  "id": "1afde0dd6764b583",
+  "slug": "kimi-k3-1-retire-les-donnees-liees-aux-cyberattaques-de-sa-sortie-open-1afde0",
+  "titre": "Kimi K3.1 retire les données liées aux cyberattaques de sa sortie open weight",
+  "resume": "La publication open weight de Kimi K3.1 ne contient plus les données d'entraînement portant sur les cyberattaques. D'après l'extrait partagé sur r/LocalLLaMA, ce retrait s'explique avant tout par les nouvelles restrictions chinoises à l'export. S'y ajoute une prudence croissante face à la multiplication des exploits en cybersécurité.",
+  "tags": [
+   "open-source",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/",
+  "date_source": "2026-10-24T16:05:18+00:00",
+  "date_redac": "2026-10-24T16:41:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 639,
+   "sortie": 564
+  }
+ },
+ {
+  "id": "1015ed58ea2a4e47",
+  "slug": "block-devoile-un-modele-vocal-qui-tourne-en-local-sur-un-macbook-m4-ma-1015ed",
+  "titre": "Block dévoile un modèle vocal qui tourne en local sur un MacBook M4 Max",
+  "resume": "Block présente un nouveau modèle vocal dont la voix sonne, selon l'entreprise, de façon troublante comme un humain. Le détail qui compte : ce modèle peut tourner en local sur un MacBook M4 Max. Une exécution sur machine portable, donc, plutôt que sur des serveurs distants.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+  "date_source": "2026-10-24T16:00:00+00:00",
+  "date_redac": "2026-10-24T16:41:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 604,
+   "sortie": 729
+  }
+ },
+ {
+  "id": "d3155cb58b3d9abc",
+  "slug": "du-motion-design-proche-d-opus-5-5-avec-qwen3-8-flash-next-en-local-d3155c",
+  "titre": "Du motion design proche d'Opus 5.5 avec Qwen3.8 Flash Next en local",
+  "resume": "Sur r/LocalLLaMA, l'utilisatrice rosie254 montre une animation en motion design produite avec Qwen3.8 Flash Next, un modèle open source qui tourne en local. Le rendu passe par Remotion, le framework utilisé par les clips viraux qui vantent Opus 5.5. Elle reconnaît qu'il a fallu plusieurs prompts, du raffinement et du guidage. Le tout tourne en Unsloth UD-Q4_K_XL sur une machine Strix Halo.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xebkti/big_cloud_models_like_opus_55_get_all_the_motion/",
+  "date_source": "2026-10-24T15:29:30+00:00",
+  "date_redac": "2026-10-24T16:41:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 757,
+   "sortie": 895
+  }
+ },
+ {
+  "id": "0cc4b0d5dbe94fa4",
+  "slug": "le-robot-aspirateur-roborock-qrevo-curv-2-pro-passe-de-1-299-a-599-eur-0cc4b0",
+  "titre": "Le robot aspirateur Roborock Qrevo Curv 2 Pro passe de 1 299 à 599 euros",
+  "resume": "Noté 9/10, le Roborock Qrevo Curv 2 Pro mise sur de bonnes performances d'aspiration, un lavage des serpillières à 100 °C et une détection d'obstacles précise. Sa version ProX, accessoires compris, est affichée à 599 euros au lieu de 1 299 euros chez Boulanger, soit la moitié de son prix.",
+  "tags": [
+   "matériel",
+   "robots"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/bons-plans/3296151_note-9-10-le-pro-du-menage-roborock-qrevo-curv-2-pro-perd-la-moitie-de-son-prix",
+  "date_source": "2026-10-24T15:23:00+00:00",
+  "date_redac": "2026-10-24T16:41:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 719,
+   "sortie": 415
+  }
+ },
+ {
   "id": "326d320d3a1772db",
   "slug": "oppo-europe-les-moins-de-35-ans-choisissent-leur-smartphone-via-les-ia-326d32",
   "titre": "Oppo Europe : les moins de 35 ans choisissent leur smartphone via les IA, pas la pub",

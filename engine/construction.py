@@ -501,6 +501,7 @@ def bloc_suivre():
         <a class="bouton" href="{flux}">Ouvrir le flux RSS</a>
         <a class="bouton fantome" href="{flux_articles}">RSS articles uniquement</a>
         <a class="bouton fantome" href="{profil}" rel="noopener">Suivre sur Bluesky</a>
+        <a class="bouton fantome" href="/podcast/">Écouter le podcast</a>
       </div>
       <details class="aide-rss prose">
         <summary>Première fois avec un flux RSS ?</summary>

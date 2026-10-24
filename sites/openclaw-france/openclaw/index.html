@@ -64,6 +64,7 @@
     </div>
     <p style="margin:20px 0 0"><a href="/guides/demarrer-openclaw-hermes/">Avant d’installer : coûts, premier essai et vérifications →</a><br>
       <a href="#depannage">OpenClaw installé, mais inaccessible ? Trois contrôles →</a></p>
+    <p><a href="#verifier-zip">Après le téléchargement : vérifier l’intégrité du ZIP →</a></p>
     <div class="mini">
       <span>⏱️ <b>~30 min</b> d'installation</span>
       <span>🔒 <b>Sécurisé par défaut</b></span>
@@ -146,6 +147,30 @@
       <a class="fichier" href="/dl/kit-openclaw/securite.md"><span class="ico">🛡️</span><span><b>securite.md</b><small>La checklist sécurité (12 points)</small></span></a>
       <a class="fichier" href="/dl/kit-openclaw/README.md"><span class="ico">🗂️</span><span><b>README.md</b><small>Vue d'ensemble des fichiers</small></span></a>
     </div>
+    <details class="faq" id="verifier-zip" style="scroll-margin-top:88px">
+      <summary>Comment vérifier le ZIP téléchargé avant de l’ouvrir ?</summary>
+      <div class="reponse">
+        <p>Ouvre notre <a href="/dl/SHA256SUMS.txt">liste des empreintes SHA-256</a>.
+        Depuis le dossier contenant <code>kit-openclaw.zip</code>, lance uniquement
+        la commande correspondant à ton système ; elle lit le fichier sans l’exécuter :</p>
+        <ul>
+          <li><strong>macOS :</strong> <code>shasum -a 256 kit-openclaw.zip</code></li>
+          <li><strong>Linux (GNU Coreutils) :</strong> <code>sha256sum kit-openclaw.zip</code></li>
+          <li><strong>Windows PowerShell :</strong> <code>Get-FileHash -Algorithm SHA256 kit-openclaw.zip</code></li>
+        </ul>
+        <p>Compare les <strong>64 caractères</strong> du résultat à la ligne
+        <code>kit-openclaw.zip</code> du manifeste, sans tenir compte des majuscules/minuscules.
+        Si le navigateur a renommé le fichier, adapte son nom dans la commande.</p>
+        <p><strong>En cas de différence, ne lance aucun script.</strong> Retélécharge le ZIP et
+        consulte à nouveau le manifeste : une ancienne version peut avoir une empreinte différente.
+        Si l’écart persiste, <a href="mailto:support@openclaw-france.fr">signale-le au support</a>.</p>
+        <p>Ce contrôle détecte une différence avec l’archive publiée ; ce n’est <strong>pas une signature</strong>
+        ni une garantie d’innocuité. Le manifeste et le ZIP viennent du <strong>même site</strong> :
+        il ne protège pas contre une compromission des deux. Lis toujours les fichiers avant exécution.</p>
+        <p>Références : <a href="https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html" rel="noopener">SHA-256 avec GNU Coreutils</a>
+        et <a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash" rel="noopener">Get-FileHash de Microsoft</a>.</p>
+      </div>
+    </details>
   </section>
 
   <section>

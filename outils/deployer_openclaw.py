@@ -6,6 +6,7 @@ openclaw-france.fr). Même identité FTP que le moteur (Trousseau ovh-communo-ft
 Usage : python3 outils/deployer_openclaw.py
 """
 import ftplib
+import hashlib
 import pathlib
 import subprocess
 import sys
@@ -44,9 +45,23 @@ def preparer_zips() -> None:
         print(f"   ⚡ {cible.name} → {cible.stat().st_size} octets")
 
 
+
+def preparer_empreintes() -> None:
+    """Publie les SHA-256 des deux ZIP effectivement préparés, hors des kits."""
+    lignes = []
+    for kit in ("kit-openclaw", "kit-hermes"):
+        archive = SOURCE / "dl" / f"{kit}.zip"
+        empreinte = hashlib.sha256(archive.read_bytes()).hexdigest()
+        lignes.append(f"{empreinte}  {archive.name}\n")
+    # Ne pas publier de manifeste partiel si une archive manque.
+    (SOURCE / "dl" / "SHA256SUMS.txt").write_text("".join(lignes), encoding="ascii")
+    print("   ⚡ SHA256SUMS.txt → empreintes des deux archives")
+
+
 def main() -> int:
     print("Préparation des archives téléchargeables :")
     preparer_zips()
+    preparer_empreintes()
     ftp = ftplib.FTP(HOTE, timeout=120)
     ftp.login(UTILISATEUR, mot_de_passe())
     ftp.set_pasv(True)

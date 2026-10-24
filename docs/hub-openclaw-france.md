@@ -683,6 +683,49 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-23/hub-legal-autonome/`.
 
+## Vérification des archives téléchargées — livraison du 24/10/2026
+
+- **Une amélioration** : les deux pages de kits proposent désormais
+  `#verifier-zip`, accessible depuis leur introduction. Un manifeste public
+  `/dl/SHA256SUMS.txt` permet de comparer le SHA-256 du ZIP téléchargé à celui
+  de notre archive publiée. Commandes macOS, Linux et PowerShell, nom de fichier,
+  comparaison insensible à la casse et conduite à tenir en cas d’écart expliqués.
+  La limite est explicite : ce manifeste du même site n’est ni une signature,
+  ni une garantie d’innocuité, ni une protection contre une compromission conjointe.
+- Le déployeur régénère le manifeste après les ZIP, avant tout envoi ; il refuse
+  un manifeste partiel si une archive manque. Aucun contenu des kits, script
+  d’installation, style ou fichier serveur modifié. Les deux ZIP restent
+  **inchangés octet pour octet** après restauration de leurs dates/modes sources.
+  Sitemap actualisé sur les deux pages uniquement.
+- Quatre nouveaux tests reproduisent les manques avant correction, puis passent.
+  **39 tests hub OK** ; suite complète après synchronisation Git : **214 tests OK**.
+  Quatre tests passent aussi sur les réponses HTTPS publiques. Les tests du
+  déployeur emploient un FTP simulé ; la publication réelle a sa vérification
+  indépendante ci-dessous. `shasum -a 256 -c SHA256SUMS.txt` valide les deux ZIP
+  réellement téléchargés. Commandes GNU et PowerShell recoupées avec leurs
+  documentations officielles, **pas exécutées sous Linux ou Windows**.
+- Chrome avec et sans JavaScript : **24 contrôles locaux** aux largeurs 1440,
+  1024, 430, 390, 375 et 360 px, puis **12 publics** à 1440, 390 et 360 px.
+  Ancre, ouverture de la FAQ au clavier, styles, absence de débordement horizontal
+  et navigation vers le manifeste vérifiés. Ceci ne teste aucune installation.
+- Bureau illisible dans le cron (`Resource deadlock avoided`, Git inaccessible) :
+  utilisation du clone synchronisé `~/.hermes/workspaces/hub-openclaw-20261003`.
+  Sauvegarde privée des 35 fichiers et absence de divergence production/Git,
+  recontrôlée avant `python3 outils/deployer_openclaw.py`. Après publication,
+  **36 fichiers relus via FTP**, tous identiques aux sources. Seuls le nouveau
+  manifeste, les deux pages et le sitemap diffèrent de la sauvegarde.
+- Santé : les **six URL demandées répondent HTTP 200**, contrôle étendu de
+  **11 URL en 200**, sans suivre de redirection ; ZIP avec et sans `?v=2`,
+  manifeste, sitemap et clé relus en HTTPS. **IndexNow HTTP 200** pour les deux
+  pages : notification acceptée, aucune indexation ni hausse de trafic démontrée.
+- **Aucune distribution supplémentaire** : journal resynchronisé, la demande
+  NewslettersBox du 24/10 consomme déjà le quota quotidien et la promotion
+  Bluesky du 20/10 exclut cette plateforme pour la semaine. Aucun nouveau contact.
+  Prochaine priorité : clarifier les coûts et les conditions du lien partenaire
+  sur la page OpenClaw, dont les anciennes promesses tarifaires restent à vérifier.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-24/hub-integrite/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

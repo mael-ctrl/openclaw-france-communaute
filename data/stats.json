@@ -1,22 +1,18 @@
 {
- "runs": 349,
- "items_collectes": 2725,
- "breves_publiees": 1276,
- "articles_publies": 242,
- "tokens_entree": 1302563,
- "tokens_sortie": 1844103,
+ "runs": 350,
+ "items_collectes": 2730,
+ "breves_publiees": 1280,
+ "articles_publies": 243,
+ "tokens_entree": 1306970,
+ "tokens_sortie": 1848977,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-24T12:07:03+00:00",
+ "dernier_run": "2026-10-24T14:07:47+00:00",
  "solde": {
-  "total": "83.74",
+  "total": "83.73",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-23T04:19:16+00:00",
-   "message": "archivage wayback : The read operation timed out"
-  },
   {
    "ts": "2026-10-23T08:01:22+00:00",
    "message": "brève impossible (Models disappearing from Huggingface) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-24T11:21:12+00:00",
    "message": "brève impossible (qwen3.8 27B on my 3090 basically tied Opus 5.5 on a Korean R) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-24T14:07:12+00:00",
+   "message": "brève impossible (Meta trained small AI models to read raw bytes instead of to) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 7.92,
+ "depense_usd": 7.93,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1416,10 +1416,14 @@
   [
    "2026-10-24T12:06:33+00:00",
    "83.74"
+  ],
+  [
+   "2026-10-24T14:06:50+00:00",
+   "83.73"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 5.63,
+ "depense_mois_usd": 5.64,
  "archive_tentatives": {
   "jour": "2026-10-24",
   "n": 3

@@ -3097,3 +3097,9 @@
 {"ts": "2026-10-24T12:31:43+00:00", "evenement": "deploiement", "details": {"fichiers": 1777, "octets": 35852278}, "sha256": "7101bff4a34aae9644cc3256cd64bbde1706435aab33aeb5e7108c2cce8cd219"}
 {"ts": "2026-10-24T12:31:44+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "769a7acfd5c415a4fa8e3a6a2beb486abc71fef59da07e2c775ec15f927142f6"}
 {"ts": "2026-10-24T12:31:44+00:00", "evenement": "bilan", "details": {"duree_s": 1528.8, "neufs": 2, "breves": 2, "articles": 1, "fichiers": 1740, "envois": 1777, "publications": 0}, "sha256": "3cd912b895813b788a64bb53c5edd3d3c640cb89b90a6d7d5e33641eb7e55f81"}
+{"ts": "2026-10-24T14:06:49+00:00", "evenement": "collecte", "details": {"neufs": 5}, "sha256": "0b39769072e69316cf7b8220101588aa446d8b0bc2989de093600eb966d70f80"}
+{"ts": "2026-10-24T14:07:12+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Meta trained small AI models to read raw bytes instead of to) : réponse non-JSON"}, "sha256": "9694d8477a8ee7ce10df0f80db9abdcdbd02e7ef39434bbf226d8cca469f0b21"}
+{"ts": "2026-10-24T14:08:05+00:00", "evenement": "construction", "details": {"fichiers": 1745}, "sha256": "21112292112ddd7a040986250f1d07569d8ac4782c2412a86eb08f06e9ac48e1"}
+{"ts": "2026-10-24T14:32:13+00:00", "evenement": "deploiement", "details": {"fichiers": 1784, "octets": 36014265}, "sha256": "1e03649464cd803d6c76396f588ee4ae90f47809781e0d2071b5c349870e31a0"}
+{"ts": "2026-10-24T14:32:13+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "20f10a0570f83c02ae29ed49b2b278d6400c23f2262e02382186d17a22a444c4"}
+{"ts": "2026-10-24T14:32:13+00:00", "evenement": "bilan", "details": {"duree_s": 1530.9, "neufs": 5, "breves": 4, "articles": 1, "fichiers": 1745, "envois": 1784, "publications": 0}, "sha256": "387b8dd11d7b542440d1f0e6cb66abf966b58a16f329e910c74c78ed26954828"}

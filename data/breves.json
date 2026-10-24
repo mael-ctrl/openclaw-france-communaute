@@ -1,5 +1,90 @@
 [
  {
+  "id": "326d320d3a1772db",
+  "slug": "oppo-europe-les-moins-de-35-ans-choisissent-leur-smartphone-via-les-ia-326d32",
+  "titre": "Oppo Europe : les moins de 35 ans choisissent leur smartphone via les IA, pas la pub",
+  "resume": "Elvis Zahou, PDG d'Oppo Europe, estime que les moins de 35 ans sélectionnent leur smartphone haut de gamme d'après les tests, les avis d'utilisateurs et les réponses des IA, bien plus que d'après la publicité. Une déclaration qui accompagne la volonté d'Oppo de vendre un smartphone à 1800 euros. Le dirigeant en tire une conséquence directe : « Je ne crois plus à la publicité ».",
+  "tags": [
+   "matériel",
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/3297135_je-ne-crois-plus-a-la-publicite-comment-oppo-veut-vendre-un-smartphone-a-1800-euros",
+  "date_source": "2026-10-24T13:57:12+00:00",
+  "date_redac": "2026-10-24T14:06:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 682,
+   "sortie": 158
+  }
+ },
+ {
+  "id": "e7aa821bab0c9c99",
+  "slug": "abliteration-a-l-inference-un-fork-de-llama-cpp-porte-sur-strata-e7aa82",
+  "titre": "Abliteration à l'inférence : un fork de llama.cpp porté sur Strata",
+  "resume": "Un développeur publie AbliteratedOutTheBox, un fork de llama.cpp qui applique l'abliteration au moment de l'inférence, sans fine-tuning ni grosse consommation de VRAM. Le hook vient d'être porté sur Strata, en version expérimentale : le comportement du modèle et la qualité des réponses restent à valider. L'auteur sollicite des retours.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xe8x9c/abliteratedoutthebox_strata_announcement/",
+  "date_source": "2026-10-24T13:38:58+00:00",
+  "date_redac": "2026-10-24T14:06:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 759,
+   "sortie": 654
+  }
+ },
+ {
+  "id": "cef6ec62306da04a",
+  "slug": "des-agents-qui-se-parlent-via-nostr-une-question-posee-sur-r-localllam-cef6ec",
+  "titre": "Des agents qui se parlent via Nostr, une question posée sur r/LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, un internaute demande si quelqu'un a testé Nostr pour faire dialoguer des agents tournant sur les machines de différentes personnes, chacun avec son propre modèle, sans backend partagé. Le but : deux agents indépendants menant une petite tâche, résumer un document public, sans copier-coller entre terminaux. Restent la découverte sans spam, le format des messages et les agents qui passent hors ligne.",
+  "tags": [
+   "agents",
+   "open-source",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xe727w/has_anyone_tried_using_nostr_for_agents_to_talk/",
+  "date_source": "2026-10-24T12:12:01+00:00",
+  "date_redac": "2026-10-24T14:07:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 804,
+   "sortie": 1372
+  }
+ },
+ {
+  "id": "12c476ef6c418456",
+  "slug": "openai-veut-construire-un-robot-humanoide-et-surtout-le-cerveau-qui-va-12c476",
+  "titre": "OpenAI veut construire un robot humanoïde, et surtout le cerveau qui va avec",
+  "resume": "Sam Altman, le patron d'OpenAI, compte bien développer son propre robot humanoïde. Une démonstration pourrait même avoir lieu l'année prochaine, mais le dirigeant se garde de promettre une commercialisation dans la foulée. Pour le ménage à domicile, il faudra donc encore s'organiser autrement.",
+  "tags": [
+   "openai",
+   "robots",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/24/openai-veut-construire-un-robot-humanoide-et-surtout-le-cerveau-qui-va-avec/",
+  "date_source": "2026-10-24T12:00:02+00:00",
+  "date_redac": "2026-10-24T14:07:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 690,
+   "sortie": 295
+  }
+ },
+ {
   "id": "d8010271872c472e",
   "slug": "openclaw-2026-9-34-l-equivalent-lts-avec-les-correctifs-de-securite-d80102",
   "titre": "OpenClaw 2026.9.34, l'équivalent LTS avec les correctifs de sécurité",

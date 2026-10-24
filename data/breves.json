@@ -1,5 +1,87 @@
 [
  {
+  "id": "071d427b4dca9df7",
+  "slug": "sur-r-localllama-un-internaute-juge-raon-bien-superieur-a-flint-071d42",
+  "titre": "Sur r/LocalLLaMA, un internaute juge Raon bien supérieur à Flint",
+  "resume": "Sur le forum r/LocalLLaMA, un internaute s'agace de voir Flint autant discuté et affirme que Raon est « des centaines de fois meilleur ». Il ajoute que Raon n'est même pas le meilleur modèle disponible, ce qui en dit long selon lui sur Flint. Le message renvoie vers le dépôt Hugging Face KRAFTON/Raon-1-mini-preview-gguf.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xehs52/raon_is_better_than_flint/",
+  "date_source": "2026-10-24T19:38:27+00:00",
+  "date_redac": "2026-10-24T20:01:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 660,
+   "sortie": 457
+  }
+ },
+ {
+  "id": "a643d093fa77bcfc",
+  "slug": "unsloth-flint-q3-decoit-sur-le-benchmark-recursivesi-a643d0",
+  "titre": "Unsloth Flint Q3 déçoit sur le benchmark RecursiveSI",
+  "resume": "La version quantifiée en Q3_K_XL du modèle Flint d'Unsloth a été passée au benchmark RecursiveSI avec trois harnais différents. Sur OMP, elle termine les 12 tâches avec 71,2/100, mais n'en résout que 7 ; sur AtomicAgent, le score tombe à 39,2/100 avec 3 tâches résolues. Hermes s'arrête à la tâche 7 après des recherches inutiles sur l'ensemble du système de fichiers et une boucle. Deepseek n'a pas été lancé, en raison des échecs et des scores faibles des harnais précédents.",
+  "tags": [
+   "open-source",
+   "agents",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xehn3u/recursivesi_flint_benchmark_unslothflintgguf/",
+  "date_source": "2026-10-24T19:32:49+00:00",
+  "date_redac": "2026-10-24T20:01:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 785,
+   "sortie": 386
+  }
+ },
+ {
+  "id": "3b2689ff437c6b17",
+  "slug": "techcrunch-tient-la-liste-des-projets-ia-qui-ont-echoue-ou-decu-3b2689",
+  "titre": "TechCrunch tient la liste des projets IA qui ont échoué ou déçu",
+  "resume": "TechCrunch publie une liste mise à jour en continu des projets et startups en IA qui ont fermé ou n'ont pas répondu aux attentes. Le média y cite notamment Siri AI, la fonction d'Apple repoussée à plusieurs reprises, ainsi que le lancement chaotique de la « super app » d'OpenAI. L'enjeu : garder une trace documentée de ce qui n'a pas fonctionné.",
+  "tags": [
+   "openai",
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+  "date_source": "2026-10-24T19:00:00+00:00",
+  "date_redac": "2026-10-24T20:01:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 639,
+   "sortie": 401
+  }
+ },
+ {
+  "id": "9c18cec527eb8084",
+  "slug": "pennsylvanie-une-loi-impose-une-mention-sur-les-publicites-generees-pa-9c18ce",
+  "titre": "Pennsylvanie : une loi impose une mention sur les publicités générées par IA",
+  "resume": "Le gouverneur de Pennsylvanie, Josh Shapiro, a signé jeudi l'Artificial Intelligence Deceptive Advertising Act. La loi impose une mention sur toute publicité — image fixe, vidéo, audio ou texte — qui a été « significativement modifiée ou générée par l'intelligence artificielle ». Le texte vise les publicités trompeuses produites avec l'IA.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+  "date_source": "2026-10-24T18:32:21+00:00",
+  "date_redac": "2026-10-24T20:01:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 655,
+   "sortie": 853
+  }
+ },
+ {
   "id": "0ad02bde8a2417bd",
   "slug": "un-utilisateur-de-r-localllama-cherche-des-fine-tunes-pour-la-3d-et-bl-0ad02b",
   "titre": "Un utilisateur de r/LocalLLaMA cherche des fine-tunes pour la 3D et Blender",
@@ -60,6 +142,27 @@
    "modele": "deepseek-flash",
    "entree": 797,
    "sortie": 488
+  }
+ },
+ {
+  "id": "4389a484d20f9fbf",
+  "slug": "deepseek-v4-1-flash-8k-tourne-a-10-tok-s-sur-une-rtx-5090-4389a4",
+  "titre": "Deepseek V4.1 Flash 8K tourne à 10 tok/s sur une RTX 5090",
+  "resume": "Un utilisateur de r/LocalLLaMA a fait tourner Deepseek V4.1 Flash 8K avec Strata sur une RTX 5090, épaulée par 64 Go de DDR5 et un SSD NVMe Lexar de 4 To, sous Windows 10. Résultat : environ 10 tokens par seconde. À ce rythme, il estime qu'il coûte moins cher de passer par l'API que de payer l'électricité consommée par la machine. Il se dit surtout content que le modèle tourne, tout simplement, sur son PC.",
+  "tags": [
+   "deepseek",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xed2xx/10_toks_deepseek_v41_flash_8k_with_strata_on_a/",
+  "date_source": "2026-10-24T16:29:59+00:00",
+  "date_redac": "2026-10-24T20:01:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 784,
+   "sortie": 661
   }
  },
  {

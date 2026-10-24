@@ -1,5 +1,18 @@
 # Journal des actions de monétisation
 
+## 24 octobre 2026 — les 100 sujets du Pack consultables avant achat
+
+**Action unique :** un [sommaire public du Pack existant](https://communaute-ia.fr/pack/#sommaire-pack), généré depuis le JSON réellement livré : **100 titres, dix catégories de dix**, sans publier d'autres corps de prompts. Un accordéon global puis les catégories restent fermés au chargement, sans JavaScript requis. Aucun bundle, nouvelle offre, prix, abonnement ou remise activés.
+
+- **Code `4f7dc2e`**, deux fichiers seulement : `engine/annexes.py` et `tests/test_pack_sommaire.py`. Prix **14 €**, lien Stripe, trois extraits, script de copie et fichiers payants inchangés. Le HTML avant/après est identique après retrait du seul bloc ajouté ; aucune nouvelle dépendance du média.
+- **210 tests Python + quatre Node réussis localement**, avec deux cycles rouge/vert, garde contre données incomplètes/dupliquées, échappement, tri stable et non-mutation. Deux builds identiques et vrai CLI `--essai --sans-redaction` dans une copie isolée ; 29 fichiers de preuves conservés, préfixe du journal intact, aucune donnée de recette importée.
+- **Cloud réussi : [run 40116677135](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/40116677135)** sur une révision ultérieure incluant ce code : **218 tests Python** avec les ajouts des autres chantiers, pipeline et sauvegarde terminés ; `pack/index.html` figure dans les 1 792 envois du run. État sauvegardé `703257c` (commit de données `2bac5ee`). Le premier dispatch `40116321201` a été annulé sans job ; aucune relance de notre part ni modification du workflow pour contourner cette attente.
+- **HTTPS exact au build**, observé le 24 à 18:12:57 UTC, puis parcours public souris/Entrée/Espace vérifié à **320/390/1 440 px sans JS**, pour le sommaire et chacune des catégories. Cent titres comparés au JSON ; largeur du contenu conservée même tout déplié. Limite héritée : l'en-tête mobile reste haut, avec des liens rognés à 320 px ; ce lot ne corrige pas la navigation et ne prétend pas une conformité globale.
+
+Preuves privées : `crabe-chantiers/monetisation/2026-10-24-sommaire-pack/` (rouge/vert, CLI, captures, QA, logs cloud, empreintes). SHA-256 du HTML servi : `1f5aeb63a760d82fd0f829aa961c682e4605a12858a9f5214307a71c6fe864cd`. Chasse GitHub effectuée : candidat sans licence non adopté ; réemploi des accordéons internes, sans code tiers ajouté. L'ancien diagnostic privé n'a pas été refait.
+
+**Verrous inchangés :** contrôle séparé à 17:26 UTC, B2B 200 et mentions du média 404 ; vendeur/TVA, conditions et reversement non validés. Aucun email, DM, formulaire, compte, paiement ou promotion supplémentaire ; Bluesky reste exclu par le post du 20 et la démarche NewslettersBox du jour appartient à l'autre mission. **Aucun revenu ni gain de conversion mesuré** ; les anciennes allégations du reste de la page ne sont pas validées par ce sommaire. Suite : mesurer le parcours du Pack lorsque les instruments le permettent, et traiter la navigation mobile dans un lot distinct ; pas de réouverture B2B implicite.
+
 ## 23 octobre 2026 — diagnostic corrigé éprouvé sur une entrée actuelle
 
 **Action unique, rang 1 :** recette réelle collecte → analyse → restitution sur le média propre, avec la version privée RCDATA activée par la vague du matin. Le correctif n'est pas réécrit et le dossier du 21 n'est pas reconditionné. Cette mission éprouve une nouvelle entrée, sans ouvrir de prestation.

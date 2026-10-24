@@ -1,0 +1,41 @@
+{
+ "slug": "kimi-k3-1-pro-php2shell-cinq-compagnons-l-ia-en-local-et-en--0bef6b",
+ "titre": "Kimi K3.1 Pro, PHP2Shell, cinq compagnons : l'IA en local et en production",
+ "chapo": "Les poids de Kimi K3.1 Pro seraient publiés le 4 novembre, selon un message sur r/LocalLLaMA. La même semaine, Microsoft revendique un diagnostic quatre fois plus précis que des médecins, et PHP colmate deux failles critiques que des modèles d'IA ont rendues exploitables.",
+ "html": "<h2 id=\"kimi-k3-1-pro-une-date-et-peu-d-autre-ch\">Kimi K3.1 Pro : une date, et peu d'autre chose</h2>\n<p>Sur r/LocalLLaMA, un message annonce la publication des poids de <strong>Kimi K3.1 Pro</strong> pour le <strong>4 novembre</strong>. C'est tout ce que dit l'extrait : ni taille de modèle, ni licence, ni modalités de diffusion. Rien n'indique encore si la mise à disposition se fera en téléchargement direct, sur un dépôt public ou sous conditions.</p>\n<p>La nuance compte, parce que « publier des poids » signifie concrètement un modèle téléchargeable et exécutable localement. C'est précisément ce que suit cette communauté, habituée à mesurer chaque annonce à l'aune d'une seule question : est-ce que ça tourne sur ma machine, et à quel prix en mémoire ?</p>\n<p>En l'état, l'information reste une date et une intention. Les discussions autour de ce type de sortie portent d'ordinaire sur la licence et sur l'empreinte matérielle ; ici, aucune des deux n'est renseignée.</p>\n<h2 id=\"microsoft-et-le-diagnostic-la-promesse-s\">Microsoft et le diagnostic : la promesse sans le protocole</h2>\n<p>Microsoft affirme avoir mis au point un outil d'IA capable de diagnostiquer des pathologies <strong>jusqu'à quatre fois plus précisément que des médecins humains</strong>. Mustafa Suleyman, PDG de Microsoft AI, déclare à The Verge que cette promesse d'une IA au service de la santé « est enfin là ».</p>\n<p>Le contexte de cette déclaration est celui d'un discours attendu : depuis des années, les dirigeants de l'IA citent la santé comme l'exemple le plus clair de l'utilité concrète de la technologie. La formulation « jusqu'à quatre fois » est un majorant, et la dépêche ne précise ni les pathologies concernées, ni le protocole d'évaluation, ni la population de médecins comparée.</p>\n<p>Rien n'est donc publié ici qui permette de confronter la revendication à une mesure indépendante. Ce qui est nouveau, c'est la prise de parole directe d'un dirigeant sur un résultat chiffré, et non plus sur une promesse d'horizon.</p>\n<h2 id=\"php2shell-la-faille-dormait-depuis-2024\">PHP2Shell : la faille dormait depuis 2024</h2>\n<p>PHP a corrigé le <strong>21 octobre</strong> deux failles critiques permettant l'exécution de code à distance. Le défaut à l'origine de l'une d'elles était connu depuis <strong>2024</strong>, mais son exploitation n'a été démontrée qu'à l'été, <strong>avec l'aide de modèles d'IA</strong>.</p>\n<p>01net donne le nom de ces vulnérabilités, <strong>PHP2Shell</strong>, et rappelle l'échelle du sujet : PHP fait tourner environ <strong>70 % des sites web</strong>. Les cyberattaques exploitant ces failles ont déjà commencé. Particularité : elles ont été débusquées par l'IA, via les modèles de pointe de Google et d'OpenAI.</p>\n<p>Côté institutionnel, l'Anssi a demandé au ministère de l'Intérieur de couper ses sites exposés — ce qui a été fait. La séquence mérite d'être posée telle quelle : un correctif arrivé le 21 octobre pour un défaut repéré l'année précédente, et une exploitation rendue possible dans l'intervalle. Le fait que des modèles aient servi à la démonstration ne dit rien, à lui seul, de la rapidité de la remédiation.</p>\n<h2 id=\"cinq-compagnons-sur-une-carte-de-8-go\">Cinq compagnons sur une carte de 8 Go</h2>\n<p>À l'autre bout du spectre, un membre de r/LocalLLaMA fait tourner <strong>cinq compagnons IA entièrement en local</strong>. LM Studio sert <strong>Gemma 4 26B (QAT)</strong>, chaque personnage dispose de son propre serveur Python et de sa pièce 3D en <strong>three.js</strong>.</p>\n<p>L'ensemble tient sur une <strong>RTX 3070 Ti de 8 Go</strong> et <strong>32 Go de RAM</strong>, grâce à l'architecture <strong>MoE</strong>. Chaque compagnon a son avatar VRM qui bouge selon sa narration, un journal privé relu le lendemain, une voix <strong>Kokoro TTS</strong> et une table de cartes <strong>One Piece TCG</strong>.</p>\n<p>Ce montage dit quelque chose de précis : la contrainte matérielle n'est plus ce qui empêche de faire tourner plusieurs agents simultanément sur une machine personnelle. Ce qui reste difficile, c'est la mémoire partagée et l'orchestration — ici réglées par un serveur dédié par personnage.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dépêches, trois régimes de preuve. Une date de publication de poids sans licence ni taille annoncée. Un outil de diagnostic revendiqué à quatre fois la performance humaine, sans protocole public. Et deux failles corrigées le 21 octobre, dont l'une était connue depuis 2024 et n'a été rendue exploitable qu'avec l'aide de modèles. Entre la promesse santé et le correctif de sécurité, la même question revient : ce qui est annoncé, ce qui est mesuré, et par qui. Le local, lui, n'attend pas d'annonce pour tourner.</p>",
+ "pivot": "0bef6b93219b2133",
+ "tags": [
+  "open-source",
+  "sécurité",
+  "agents",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdvp7c/kimi_k31_pro_weights_releasing_nov_4th/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/panique-internet-faille-php-critique-vieille-10-ans-touche-millions-sites-web.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xduy84/built_a_home_for_5_local_companions_on_gemma_4/"
+  }
+ ],
+ "date": "2026-10-24T01:33:59+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1593,
+  "sortie": 2567
+ }
+}

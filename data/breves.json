@@ -1,5 +1,90 @@
 [
  {
+  "id": "0bef6b93219b2133",
+  "slug": "kimi-k3-1-pro-les-poids-annonces-pour-le-4-novembre-0bef6b",
+  "titre": "Kimi K3.1 Pro : les poids annoncés pour le 4 novembre",
+  "resume": "Sur r/LocalLLaMA, un message indique que les poids de Kimi K3.1 Pro seront publiés le 4 novembre. L'extrait ne précise ni taille de modèle, ni licence, ni modalités de diffusion. Des poids rendus disponibles signifient un modèle téléchargeable et exécutable localement, ce qui intéresse directement ceux qui suivent les modèles ouverts.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xdvp7c/kimi_k31_pro_weights_releasing_nov_4th/",
+  "date_source": "2026-10-24T01:21:13+00:00",
+  "date_redac": "2026-10-24T01:33:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 616,
+   "sortie": 753
+  }
+ },
+ {
+  "id": "476a90f101a65a1b",
+  "slug": "cinq-compagnons-ia-en-local-sur-gemma-4-26b-avec-pieces-3d-et-journaux-476a90",
+  "titre": "Cinq compagnons IA en local sur Gemma 4 26B, avec pièces 3D et journaux",
+  "resume": "Cinq compagnons IA tournent entièrement en local : LM Studio sert Gemma 4 26B (QAT), chaque personnage a son serveur Python et sa pièce 3D en three.js. L'ensemble tient sur une RTX 3070 Ti de 8 Go et 32 Go de RAM, grâce à l'architecture MoE. Chaque compagnon a son avatar VRM qui bouge selon sa narration, un journal privé relu le lendemain, une voix Kokoro TTS et une table de cartes One Piece TCG.",
+  "tags": [
+   "agents",
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xduy84/built_a_home_for_5_local_companions_on_gemma_4/",
+  "date_source": "2026-10-24T00:42:44+00:00",
+  "date_redac": "2026-10-24T01:33:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 897,
+   "sortie": 1078
+  }
+ },
+ {
+  "id": "8f0e3f81d0d3b613",
+  "slug": "un-agents-md-generique-pour-recadrer-les-agents-de-codage-8f0e3f",
+  "titre": "Un AGENTS.md générique pour recadrer les agents de codage",
+  "resume": "Un membre de r/LocalLLaMA partage un AGENTS.md générique orienté logiciel, à placer en configuration globale. Le fichier consomme environ 3 000 tokens de contexte pour corriger certains mauvais comportements des LLM, selon son auteur. Il mêle un ancien style de sortie à un jeu de règles actualisé, où l'agent doit mener sa tâche avec rigueur. L'auteur y voit un point de départ pour qui en a assez de recadrer ses agents.",
+  "tags": [
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xduw88/updated_agentsmd_generic_software_oriented/",
+  "date_source": "2026-10-24T00:40:00+00:00",
+  "date_redac": "2026-10-24T01:33:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 781,
+   "sortie": 1394
+  }
+ },
+ {
+  "id": "1928662162788c16",
+  "slug": "openclaw-corrige-l-affichage-des-pastilles-de-couleur-dans-le-chat-192866",
+  "titre": "OpenClaw corrige l'affichage des pastilles de couleur dans le chat",
+  "resume": "OpenClaw publie un correctif d'interface pour le chat : les pastilles de couleur s'affichent désormais avant les codes hexadécimaux. La note de version précise que ces valeurs hex sont espacées et mises en évidence. La correction porte sur le rendu visuel des couleurs dans les conversations.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F24adbb81e0a3-1792802211",
+  "date_source": "2026-10-24T00:23:12+00:00",
+  "date_redac": "2026-10-24T01:33:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 640,
+   "sortie": 1229
+  }
+ },
+ {
   "id": "2fd30791149aaf52",
   "slug": "claude-code-v2-1-310-outil-monitor-et-correctifs-passerelles-2fd307",
   "titre": "Claude Code v2.1.310 : outil Monitor et correctifs passerelles",

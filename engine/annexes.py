@@ -334,6 +334,41 @@ def extraits_pack():
     </section>"""
 
 
+def sommaire_pack():
+    """Titres et catégories du livrable ; aucun corps de prompt supplémentaire."""
+    livrable = construction._lire_json(
+        config.DOSSIER_PRIVE / "dl" / "pack-du-crabe-100-prompts.json", [])
+    if not isinstance(livrable, list) or len(livrable) != 100:
+        return ""
+    if any(not isinstance(p, dict) or type(p.get("id")) is not int or
+           any(not isinstance(p.get(cle), str) or not p[cle].strip()
+               for cle in ("titre", "categorie", "prompt")) for p in livrable):
+        return ""
+    if {p["id"] for p in livrable} != set(range(1, 101)):
+        return ""
+    categories = {}
+    for prompt in sorted(livrable, key=lambda p: p["id"]):
+        categories.setdefault(prompt["categorie"], []).append(prompt)
+    if len(categories) != 10 or any(len(prompts) != 10 for prompts in categories.values()):
+        return ""
+    groupes = ""
+    for categorie, prompts in categories.items():
+        titres = "".join(f'<li value="{p["id"]}">{ech(p["titre"])}</li>' for p in prompts)
+        groupes += f"""<details class="sommaire-pack-categorie">
+          <summary style="cursor: pointer; padding: .8rem 0;"><strong>{ech(categorie)}</strong> · {len(prompts)} prompts</summary>
+          <ol>{titres}</ol>
+        </details>"""
+    return f"""<section aria-labelledby="sommaire-pack">
+      <h2 id="sommaire-pack">Le contenu, avant d’acheter</h2>
+      <details class="sommaire-pack">
+        <summary style="cursor: pointer; padding: .8rem 0;"><strong>Voir les {len(livrable)} titres, par catégorie</strong></summary>
+        <p>Ce sommaire présente les sujets du pack ; seuls les trois extraits ci-dessus
+        sont proposés ici en texte intégral. Ouvre une catégorie pour parcourir ses titres.</p>
+        {groupes}
+      </details>
+    </section>"""
+
+
 def page_pack():
     contenu = f"""
 <section class="section section-lecture">
@@ -352,6 +387,7 @@ def page_pack():
         <li>Aucune dépendance, aucun abonnement, aucune mise à jour payante.</li>
       </ul>
       {extraits_pack()}
+      {sommaire_pack()}
       <h2>Combien</h2>
       <p><strong>14 €</strong>, une fois, pour toujours. Paiement sécurisé par Stripe (carte bancaire).
       Après paiement, téléchargement immédiat — pas de compte à créer.</p>

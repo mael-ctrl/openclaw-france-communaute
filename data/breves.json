@@ -1,5 +1,68 @@
 [
  {
+  "id": "ec45d75b9ed3a7ef",
+  "slug": "meta-teste-des-petits-modeles-qui-lisent-des-octets-bruts-plutot-que-d-ec45d7",
+  "titre": "Meta teste des petits modèles qui lisent des octets bruts plutôt que des tokens",
+  "resume": "Meta a entraîné de petits modèles (~1 milliard de paramètres), certains sur des tokens, d'autres sur des octets bruts — une lettre à la fois — en partie par distillation de Llama 3 8B. Peu entraînés, les modèles à tokens gagnent nettement ; davantage entraînés, ils plafonnent quand les modèles à octets continuent de progresser. Ces derniers auraient eu besoin de six fois moins de texte pour le même niveau.",
+  "tags": [
+   "meta",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xe88ja/meta_trained_small_ai_models_to_read_raw_bytes/",
+  "date_source": "2026-10-24T13:08:49+00:00",
+  "date_redac": "2026-10-24T13:23:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 857,
+   "sortie": 868
+  }
+ },
+ {
+  "id": "cef6ec62306da04a",
+  "slug": "nostr-comme-canal-entre-agents-heberges-sur-les-machines-de-chacun-cef6ec",
+  "titre": "Nostr comme canal entre agents hébergés sur les machines de chacun",
+  "resume": "Sur r/LocalLLaMA, un utilisateur cherche des retours sur Nostr comme canal entre agents hébergés sur les machines de chacun : l'un publie une requête, l'autre répond, chacun avec son propre modèle, sans backend partagé. Il reste quatre questions : la découverte sans spam, un format de message existant, le cas d'un agent qui accepte une tâche puis se déconnecte, et le risque de prendre les messages entrants pour des instructions de confiance.",
+  "tags": [
+   "agents",
+   "open-source",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xe727w/has_anyone_tried_using_nostr_for_agents_to_talk/",
+  "date_source": "2026-10-24T12:12:01+00:00",
+  "date_redac": "2026-10-24T13:24:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 804,
+   "sortie": 1247
+  }
+ },
+ {
+  "id": "12c476ef6c418456",
+  "slug": "openai-veut-son-robot-humanoide-et-le-cerveau-qui-va-avec-12c476",
+  "titre": "OpenAI veut son robot humanoïde, et le cerveau qui va avec",
+  "resume": "Sam Altman, le patron d'OpenAI, compte développer son propre robot humanoïde. Une démonstration pourrait même avoir lieu l'année prochaine, mais le dirigeant se garde de promettre une commercialisation dans la foulée. Le projet ne porte pas seulement sur la machine : il vise aussi le cerveau qui doit l'animer. Pour le ménage à domicile, il faudra encore s'organiser autrement.",
+  "tags": [
+   "openai",
+   "robots",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/24/openai-veut-construire-un-robot-humanoide-et-surtout-le-cerveau-qui-va-avec/",
+  "date_source": "2026-10-24T12:00:02+00:00",
+  "date_redac": "2026-10-24T13:24:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 690,
+   "sortie": 452
+  }
+ },
+ {
   "id": "d8010271872c472e",
   "slug": "openclaw-2026-9-34-l-equivalent-lts-avec-les-correctifs-de-securite-d80102",
   "titre": "OpenClaw 2026.9.34, l'équivalent LTS avec les correctifs de sécurité",

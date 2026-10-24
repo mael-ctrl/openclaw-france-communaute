@@ -1,0 +1,41 @@
+{
+ "slug": "kimi-k3-1-pro-qwen4-en-filigrane-et-failles-php-l-ia-hors-du-17a3c0",
+ "titre": "Kimi K3.1 Pro, Qwen4 en filigrane et failles PHP : l'IA hors du cloud",
+ "chapo": "Kimi K3.1 Pro promet des poids ouverts pour le 4 novembre, une pull request laisse filtrer Qwen4-27B, et cinq compagnons tournent en local sur une seule carte graphique. Pendant ce temps, PHP corrige deux failles critiques dont l'une a été démontrée avec l'aide de modèles d'IA.",
+ "html": "<h2 id=\"kimi-k3-1-pro-une-date-pas-encore-de-fic\">Kimi K3.1 Pro : une date, pas encore de fiche technique</h2>\n<p>L'annonce circule sur r/LocalLLaMA : Kimi K3.1 Pro doit voir ses poids publiés le 4 novembre au plus tard. Le message d'origine a été posté le 24 octobre 2026, et un second fil, quelques heures plus tard, répète la même échéance sans ajouter de détail.</p>\n<p>Car pour l'instant, la fiche technique est vide. Ni taille de modèle, ni licence, ni modalités de diffusion ne sont précisées dans les extraits relayés. Tout au plus sait-on ce que « poids ouverts » implique concrètement : un modèle que l'on télécharge et que l'on héberge soi-même, plutôt qu'un service consommé via une API.</p>\n<p>C'est précisément ce qui intéresse cette communauté. Pour ceux qui font tourner des modèles sur leur propre matériel, la question n'est pas seulement de savoir ce que le modèle vaut, mais ce qu'il coûte en VRAM, ce qu'autorise sa licence et ce qu'on peut en faire une fois les fichiers sur le disque. Autant de points qui restent ouverts à quatre jours de la date annoncée.</p>\n<h2 id=\"qwen4-27b-se-devine-dans-une-pull-reques\">Qwen4-27B se devine dans une pull request</h2>\n<p>Autre indice, autre méthode. Un post de r/LocalLLaMA signale une <strong>pull request dans le dépôt vllm-xpu-kernels</strong> liée à Qwen4-27B. Pas de communiqué, pas de page produit : c'est le code qui parle.</p>\n<p>Le profil de l'auteur rend le signal un peu plus consistant. Il a beaucoup contribué à des dépôts Intel et à vLLM, et a déjà travaillé sur Qwen3.8. Son nom correspond à celui d'un CTO chez Alibaba ou d'un directeur du Zhejiang Lab — les deux hypothèses circulent, aucune n'est tranchée dans la dépêche.</p>\n<p>Quant à ce que la PR apprend vraiment, c'est mince et technique : elle suggère que <strong>la taille du cache KV de Qwen4-27B ne baisse pas</strong>.À prendre pour ce que c'est, une observation de dépôt, pas une annonce officielle. La communauté des modèles ouverts a l'habitude de ce régime : on lit les commits avant les slides.</p>\n<h2 id=\"cinq-compagnons-une-rtx-3070-ti-de-8-go\">Cinq compagnons, une RTX 3070 Ti de 8 Go</h2>\n<p>À côté des modèles frontières, il y a ce que les gens bricolent chez eux. Un membre de r/LocalLLaMA fait tourner <strong>cinq compagnons IA entièrement en local</strong>. LM Studio sert Gemma 4 26B en version QAT, et chaque personnage dispose de son propre serveur Python ainsi que de sa pièce 3D en three.js.</p>\n<p>L'ensemble tient sur une <strong>RTX 3070 Ti de 8 Go et 32 Go de RAM</strong>, ce que l'auteur attribue à l'architecture MoE. Chaque compagnon a son avatar VRM qui bouge en fonction de sa narration, un journal privé relu le lendemain, une voix Kokoro TTS et une table de cartes One Piece TCG.</p>\n<p>Le détail dit quelque chose du moment : un modèle de 26B paramètres, du rendu 3D, de la synthèse vocale et de la persistance mémoire sur une carte graphique de milieu de gamme. Ce n'est pas un banc d'essai de laboratoire, c'est un projet personnel, avec les compromis que cela suppose.</p>\n<h2 id=\"php-un-defaut-connu-depuis-2024-exploite\">PHP : un défaut connu depuis 2024, exploité à l'été</h2>\n<p>Le 21 octobre, <strong>PHP a corrigé deux failles critiques</strong> permettant l'exécution de code à distance, rapporte ActuIA. Pour l'une d'elles, le défaut à l'origine était connu depuis 2024 — mais son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA.</p>\n<p>Le reste est une affaire de délai et de réponse. À la demande de l'Anssi, le <strong>ministère de l'Intérieur a coupé ses sites exposés</strong>. La mesure est radicale, elle en dit long sur la fenêtre entre la connaissance d'un défaut et sa démonstration pratique.</p>\n<h2>Et maintenant ?</h2>\n<p>Les deux faces de la même pièce apparaissent dans ces dépêches. D'un côté, des poids annoncés, des pull requests scrutées, des modèles de 26B paramètres qui tiennent sur 8 Go de VRAM : la capacité à faire tourner et à inspecter soi-même des modèles progresse et se documente en public. De l'autre, un défaut PHP dormant depuis 2024 dont la mise en exploit a été accélérée par des modèles d'IA, et une administration qui préfère débrancher ses sites plutôt que courir le risque. Les mêmes outils, les mêmes dépôts, les mêmes cartes graphiques.</p>",
+ "pivot": "17a3c08d01edf000",
+ "tags": [
+  "open-source",
+  "sécurité",
+  "matériel",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdwd71/introducing_kimi_k31_pro_with_open_weights_by_nov/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdwrak/qwen427b_pr_found/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdvp7c/kimi_k31_pro_weights_releasing_nov_4th/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xduy84/built_a_home_for_5_local_companions_on_gemma_4/"
+  }
+ ],
+ "date": "2026-10-24T05:21:40+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1599,
+  "sortie": 2779
+ }
+}

@@ -1,22 +1,18 @@
 {
- "runs": 346,
- "items_collectes": 2714,
- "breves_publiees": 1268,
- "articles_publies": 239,
- "tokens_entree": 1292531,
- "tokens_sortie": 1832346,
+ "runs": 347,
+ "items_collectes": 2721,
+ "breves_publiees": 1273,
+ "articles_publies": 240,
+ "tokens_entree": 1297506,
+ "tokens_sortie": 1836820,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-24T09:27:41+00:00",
+ "dernier_run": "2026-10-24T10:19:44+00:00",
  "solde": {
-  "total": "83.76",
+  "total": "83.75",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-22T15:06:10+00:00",
-   "message": "brève impossible (How fast can a rusty Macbook M1 Pro 16Gb 2021 actually code ) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-22T15:06:22+00:00",
    "message": "brève impossible (Deux agents de code d'OpenAI ont affaibli la surveillance de) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-24T07:22:15+00:00",
    "message": "déploiement : [Errno 54] Connection reset by peer"
+  },
+  {
+   "ts": "2026-10-24T10:19:28+00:00",
+   "message": "brève impossible (Gyro quants looks like EXL3 but kinda closed source. please ) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 7.9,
+ "depense_usd": 7.91,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1404,10 +1404,14 @@
   [
    "2026-10-24T09:26:55+00:00",
    "83.76"
+  ],
+  [
+   "2026-10-24T10:18:57+00:00",
+   "83.75"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 5.61,
+ "depense_mois_usd": 5.62,
  "archive_tentatives": {
   "jour": "2026-10-24",
   "n": 3

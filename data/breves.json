@@ -1,5 +1,26 @@
 [
  {
+  "id": "9c18cec527eb8084",
+  "slug": "pennsylvanie-les-pubs-generees-par-ia-devront-porter-une-mention-9c18ce",
+  "titre": "Pennsylvanie : les pubs générées par IA devront porter une mention",
+  "resume": "Le gouverneur de Pennsylvanie, Josh Shapiro, a signé jeudi l'Artificial Intelligence Deceptive Advertising Act. Toute publicité — image fixe, vidéo, audio ou texte — « significativement modifiée ou générée par l'intelligence artificielle » devra désormais porter une mention. L'obligation couvre donc l'ensemble des formats publicitaires, pas seulement les visuels.",
+  "tags": [
+   "société",
+   "business",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+  "date_source": "2026-10-24T18:32:21+00:00",
+  "date_redac": "2026-10-24T19:17:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 655,
+   "sortie": 790
+  }
+ },
+ {
   "id": "0ad02bde8a2417bd",
   "slug": "un-utilisateur-de-r-localllama-cherche-des-fine-tunes-pour-la-3d-et-bl-0ad02b",
   "titre": "Un utilisateur de r/LocalLLaMA cherche des fine-tunes pour la 3D et Blender",
@@ -60,6 +81,27 @@
    "modele": "deepseek-flash",
    "entree": 797,
    "sortie": 488
+  }
+ },
+ {
+  "id": "4389a484d20f9fbf",
+  "slug": "deepseek-v4-1-flash-8k-tourne-a-10-tok-s-sur-une-rtx-5090-4389a4",
+  "titre": "DeepSeek V4.1 Flash 8K tourne à 10 tok/s sur une RTX 5090",
+  "resume": "Un utilisateur de r/LocalLLaMA fait tourner DeepSeek V4.1 Flash en 8K avec Strata sur une RTX 5090, un NVMe Lexar de 4 To et 64 Go de DDR5, sous Windows 10. Résultat : environ 10 tokens par seconde. À ce rythme, il estime qu'il est moins cher de passer par l'API que de payer l'électricité nécessaire. Il se réjouit malgré tout que le modèle tourne sur sa machine.",
+  "tags": [
+   "deepseek",
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xed2xx/10_toks_deepseek_v41_flash_8k_with_strata_on_a/",
+  "date_source": "2026-10-24T16:29:59+00:00",
+  "date_redac": "2026-10-24T19:18:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 784,
+   "sortie": 487
   }
  },
  {

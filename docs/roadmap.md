@@ -100,6 +100,12 @@ Les autres dépendances restent consignées sans seconde demande humaine : ident
 - Base `2f97abc` : **892 brèves, neuf pages de catalogue, 492 pages hors fil**. Titres/résumés et sources comparés aux 492 corps HTTPS avant déploiement. **142 Python + 4 Node**, 1 405 sorties existantes identiques, six changements attendus, 993 ajouts ; 315 fichiers de données préservés. Essai sans rédaction et navigation sans JS mobile/desktop réussis.
 - **Complément de gouvernance du soir :** relance cloud `39233246104` réussie, 143 tests et 1 525 envois confirmés dans les logs. À 21:03, dix pages du catalogue répondent 200 ; 937 liens uniques sans répétition inter-page, identiques au sitemap et aux données sauvegardées `92cd47e`. Trois brèves hors fil répondent 200, titre/source présents et dates JSON-LD non étayées absentes. **Ce contrôle borné ne remplace pas une comparaison exhaustive des HTML post-déploiement**, encore à consigner dans [le dossier du chantier](archives-conservees.md). Réconciliation historique complète et listings hors archives ouverts ; aucun lot préparatoire intégré par cette revue.
 
+## Chantier quotidien du 24/10 — politique technique du hub
+
+- Une seule intégration choisie, relais P2 du 23 : parcours gratuit, journaux et infrastructure dans la politique du hub ; ancien lot requalifié après retrait des CDN. Les clauses juridiques héritées restent explicitement à valider, sans nouvelle promesse commerciale.
+- Quatre tests rouge/vert ; **211 Python + 4 Node**, deux builds isolés et six configurations navigateur locales réussis. Préflight SFTP : deux cibles et trois témoins exacts à Git. Publication/HTTPS à confirmer dans [les preuves](hub-politique-technique.md).
+- Pull initial du clone partagé réussi ; travail isolé ensuite sur `origin/main`, sans fusion ni réécriture des données/sceaux. Ce constat ne certifie pas la résolution des courses de déploiement historiques.
+
 ## Chantier quotidien du 23/10 — bandeau et clavier
 
 - **Une seule intégration retenue :** premier lot prêt du relais P2, retrait des vingt liens du bandeau masqué de Tab/Shift+Tab, clics conservés. Pas de patch RSS, de dépendance ni de seconde amélioration. [Contrat et preuves](bandeau-clavier.md).

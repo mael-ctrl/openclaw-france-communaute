@@ -1,0 +1,41 @@
+{
+ "slug": "cinq-compagnons-ia-sur-8-go-de-vram-et-le-local-face-a-l-ope-476a90",
+ "titre": "Cinq compagnons IA sur 8 Go de VRAM, et le local face à l'open source",
+ "chapo": "Cinq personnages IA qui vivent entièrement en local sur une seule RTX 3070 Ti : c'est le montage partagé sur r/LocalLLaMA, avec Gemma 4 26B, des pièces 3D et des journaux privés. Au même moment, Sam Altman répète que le meilleur modèle d'OpenAI ne peut pas être ouvert, et une pull request laisse filtrer Qwen4-27B.",
+ "html": "<h2 id=\"cinq-colocataires-dans-8-go-de-vram\">Cinq colocataires dans 8 Go de VRAM</h2>\n<p>Sur r/LocalLLaMA, un montage fait tourner cinq compagnons IA entièrement en local. LM Studio sert <strong>Gemma 4 26B (QAT)</strong>, et chaque personnage dispose de son propre serveur Python ainsi que de sa pièce 3D modélisée en three.js. L'ensemble tient sur une <strong>RTX 3070 Ti de 8 Go</strong> et 32 Go de RAM — ce qui, pour un modèle de 26 milliards de paramètres, doit beaucoup à l'architecture MoE.</p>\n<p>Chaque compagnon a son avatar VRM, qui bouge en fonction de sa narration, une voix <strong>Kokoro TTS</strong>, et un journal privé relu le lendemain. Il y a même une table de cartes One Piece TCG. Rien de tout cela ne remonte au cloud : le montage est un exercice de bout en bout, du serveur de personnage à l'affichage de la scène.</p>\n<p>C'est le genre de projet qui dit quelque chose du local moins par la performance brute que par la patience d'assemblage : cinq processus, cinq identités, une seule carte graphique.</p>\n<h2 id=\"altman-et-la-ligne-rouge-de-la-biosecuri\">Altman et la ligne rouge de la biosécurité</h2>\n<p>Invité de la série <em>View from the Top</em> de la Stanford Graduate School of Business, Sam Altman a répété que le modèle le plus avancé d'OpenAI ne peut pas être publié en open source tant que le monde n'aura pas construit de meilleures défenses en cybersécurité et en biosécurité.</p>\n<p>Il ne ferme pas la porte pour autant : le PDG reconnaît une réelle valeur sociétale aux modèles à poids ouverts. La nuance compte, parce qu'elle dessine deux étages — un plancher ouvert, un sommet verrouillé — sans préciser où passe exactement la frontière.</p>\n<p>Altman admet aussi que l'entreprise, pensée au départ comme un simple laboratoire de recherche, a dû pivoter vers 2020, l'explosion qui a suivi le lancement de ChatGPT l'ayant transformée en très grosse entreprise presque du jour au lendemain.</p>\n<h2 id=\"qwen4-27b-l-indice-tient-dans-une-pull-r\">Qwen4-27B : l'indice tient dans une pull request</h2>\n<p>À côté de ce débat de principe, un signal beaucoup plus terre-à-terre. Un post de r/LocalLLaMA signale une <strong>pull request</strong> dans le dépôt vllm-xpu-kernels, liée à <strong>Qwen4-27B</strong>.</p>\n<p>L'auteur de la PR a beaucoup contribué à des dépôts Intel et à vLLM, et a déjà travaillé sur Qwen3.8 ; son nom correspond à celui d'un CTO chez Alibaba ou d'un directeur du Zhejiang Lab, selon le post. La PR suggère surtout que la taille du cache KV de Qwen4-27B ne baisse pas — un détail d'implémentation qui en dit long sur les compromis mémoire à venir.</p>\n<p>Rien n'est annoncé, rien n'est confirmé. Une pull request n'est pas une fiche technique, et il faut la lire comme un indice, pas comme une date de sortie.</p>\n<h2 id=\"agents-walmart-pose-les-regles-php-colma\">Agents : Walmart pose les règles, PHP colmate</h2>\n<p>Le 21 octobre 2026, <strong>Walmart</strong> a annoncé des profils dédiés aux agents d'IA, avec plafond de dépenses, passerelle <strong>MCP</strong> et conditions d'utilisation permettant de bloquer les agents non conformes. Le distributeur américain fixe donc lui-même les règles de l'achat délégué sur sa plateforme ; Amazon, de son côté, a privilégié la voie judiciaire.</p>\n<p>Sur un tout autre registre, PHP a corrigé le 21 octobre deux failles critiques permettant l'exécution de code à distance. Le défaut à l'origine de l'une d'elles était connu depuis 2024, mais son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA. À la demande de l'Anssi, le ministère de l'Intérieur a coupé ses sites exposés.</p>\n<p>Deux façons de traiter le même problème : édicter des règles en amont pour les agents, ou colmater en aval quand une faille dormante depuis un an devient exploitable.</p>\n<h2>Et maintenant ?</h2>\n<p>Le fil commun, c'est le contrôle. Un particulier fait tourner cinq agents sur sa propre carte graphique et garde la main sur leurs journaux ; un géant du commerce écrit ses conditions d'accès aux agents ; un éditeur de langage corrige dans l'urgence une faille révélée plus tôt par des modèles. L'open source reste la variable la plus discutée : Altman en reconnaît la valeur tout en la refusant au sommet de sa gamme, pendant qu'une PR laisse deviner le prochain Qwen. Entre les deux, l'écart se mesure en VRAM et en règles d'usage.</p>",
+ "pivot": "476a90f101a65a1b",
+ "tags": [
+  "open-source",
+  "agents",
+  "sécurité",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xduy84/built_a_home_for_5_local_companions_on_gemma_4/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/commerce-agentique-walmart-impose-ses-regles-aux-agents-dia/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe0ioz/sam_altman_openais_best_model_cant_responsibly_be/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdwrak/qwen427b_pr_found/"
+  }
+ ],
+ "date": "2026-10-24T06:43:07+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1669,
+  "sortie": 3545
+ }
+}

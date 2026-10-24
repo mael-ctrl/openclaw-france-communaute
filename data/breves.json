@@ -1,5 +1,26 @@
 [
  {
+  "id": "81dbec886fa7bc0c",
+  "slug": "silero-vad-v6-apparaitrait-dans-le-mode-vocal-de-chatgpt-81dbec",
+  "titre": "Silero VAD v6 apparaîtrait dans le mode vocal de ChatGPT",
+  "resume": "Une capture d'écran partagée sur r/LocalLLaMA suggère que le mode vocal de ChatGPT s'appuie sur Silero VAD v6, un modèle open source de détection d'activité vocale. L'auteur du post s'étonne qu'OpenAI ait retenu un modèle existant plutôt que d'en développer un en interne. La capture ne précise pas s'il s'agit d'un usage confirmé ou d'un composant parmi d'autres.",
+  "tags": [
+   "chatgpt",
+   "openai",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xedp2t/silero_vad_v6_being_used_by_chatgpt_voice_mode/",
+  "date_source": "2026-10-24T16:54:54+00:00",
+  "date_redac": "2026-10-24T17:46:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 692,
+   "sortie": 622
+  }
+ },
+ {
   "id": "d551783f92082876",
   "slug": "un-fork-d-ik-llama-cpp-detaille-ses-vitesses-sur-une-rtx-2060-de-6-go-d55178",
   "titre": "Un fork d'ik_llama.cpp détaille ses vitesses sur une RTX 2060 de 6 Go",

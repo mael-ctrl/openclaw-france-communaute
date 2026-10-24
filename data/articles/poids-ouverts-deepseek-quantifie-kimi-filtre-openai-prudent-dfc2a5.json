@@ -1,0 +1,41 @@
+{
+ "slug": "poids-ouverts-deepseek-quantifie-kimi-filtre-openai-prudent-dfc2a5",
+ "titre": "Poids ouverts : DeepSeek quantifié, Kimi filtré, OpenAI prudent",
+ "chapo": "ISTA publie des GGUF quantifiés jusqu'à 1,75 bit par poids pour DeepSeek-V4.1-Flash-1017, quand Kimi K3.1 retire de sa sortie open weight les données liées aux cyberattaques. Au même moment, Sam Altman répète que le meilleur modèle d'OpenAI ne peut pas être ouvert, et une pull request laisse filtrer Qwen4-27B.",
+ "html": "<h2 id=\"deepseek-v4-1-flash-1017-compresse-a-moi\">DeepSeek-V4.1-Flash-1017 compressé à moins de 2,5 bits par poids</h2>\n<p>ISTA met en ligne trois builds GGUF de <strong>DeepSeek-V4.1-Flash-1017</strong>, un MoE clairsemé de 763,2 milliards de paramètres — 6 experts actifs sur 384 par couche — et 1M de contexte. Les trois quantifications, IQ1_M, IQ2_XXS et IQ2_XS, descendent entre 1,75 et 2,25 bits par poids, pour des fichiers de 120,7 à 155,2 Go.</p>\n<p>Le détail pratique est ailleurs : un fichier <strong>Engram</strong> de 110,6 Go, identique pour tous les builds, ne se télécharge qu'une fois. Et d'après l'annonce, chaque build tourne sur un seul GPU de 12 Go avec Strata — un écart considérable entre le poids du fichier et la mémoire annoncée côté carte graphique.</p>\n<p>Reste la question que la dépêche ne tranche pas : ce que vaut réellement un modèle de cette taille une fois tassé à moins de 2,5 bits par poids. Aucune mesure de qualité n'est fournie dans l'annonce relayée sur r/LocalLLaMA.</p>\n<h2 id=\"kimi-k3-1-des-poids-ouverts-moins-de-don\">Kimi K3.1 : des poids ouverts, moins de données cyber</h2>\n<p>La publication open weight de <strong>Kimi K3.1</strong> ne contient plus les données d'entraînement portant sur les cyberattaques. D'après l'extrait partagé sur r/LocalLLaMA, ce retrait s'explique avant tout par les nouvelles restrictions chinoises à l'export. S'y ajoute une prudence croissante face à la multiplication des exploits en cybersécurité.</p>\n<p>En parallèle, Latent Space relaie la sortie de <strong>Kimi 3.1 Pro</strong> (104BA-2.8T), un modèle à poids ouverts que la newsletter place dans la catégorie de Fable-5.1. L'écart avec les modèles fermés se réduirait ainsi à environ un mois. Une API Pro Highspeed est aussi annoncée, avec un débit 2 à 3 fois supérieur. La newsletter prend toutefois ses distances avec l'annonce.</p>\n<p>Les deux dépêches ne permettent pas d'établir si « K3.1 » et « 3.1 Pro » désignent le même modèle : elles arrivent de sources différentes, avec des appellations différentes, et il faut s'en tenir là.</p>\n<h2 id=\"pour-altman-le-meilleur-modele-d-openai-\">Pour Altman, le meilleur modèle d'OpenAI reste fermé</h2>\n<p>Invité de la série « View from the Top » de la Stanford Graduate School of Business, <strong>Sam Altman</strong> a répété que le modèle le plus avancé d'OpenAI ne peut pas être publié en open source tant que le monde n'aura pas construit de meilleures défenses en cybersécurité et en biosécurité. Il reconnaît par ailleurs une réelle valeur sociétale aux modèles à poids ouverts — les deux positions ne sont pas présentées comme contradictoires.</p>\n<p>Le PDG revient aussi sur la trajectoire de l'entreprise : OpenAI, pensée au départ comme un simple laboratoire de recherche, a dû pivoter vers 2020, et l'explosion qui a suivi le lancement de ChatGPT l'a transformée en très grosse entreprise presque du jour au lendemain.</p>\n<h2 id=\"qwen4-27b-ce-que-dit-une-pull-request\">Qwen4-27B : ce que dit une pull request</h2>\n<p>Un post de r/LocalLLaMA signale une pull request dans le dépôt <strong>vllm-xpu-kernels</strong> liée à Qwen4-27B. Son auteur a beaucoup contribué à des dépôts Intel et à vLLM, et a déjà travaillé sur Qwen3.8 ; son nom correspond à celui d'un CTO chez Alibaba ou d'un directeur du Zhejiang Lab.</p>\n<p>La PR suggère que la taille du cache KV de Qwen4-27B ne baisse pas — indice ténu, à traiter comme tel : rien n'indique une date de sortie ni une fiche technique.</p>\n<h2>Et maintenant ?</h2>\n<p>Mises bout à bout, ces dépêches dessinent deux façons de publier des poids ouverts. Côté DeepSeek et Kimi, on sort des modèles, mais avec des quantifications extrêmes d'un côté et un filtrage de données de l'autre. Côté OpenAI, on assume le refus, en avançant la cybersécurité et la biosécurité — argument qui fait écho au retrait opéré par Kimi K3.1 sur les données liées aux cyberattaques. Entre les deux, un même constat : la question n'est plus de savoir si on ouvre, mais ce qu'on retire avant d'ouvrir.</p>",
+ "pivot": "dfc2a52119f177e4",
+ "tags": [
+  "open-source",
+  "deepseek",
+  "openai",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe2wg8/release_ista_gsqrco_ggufs_for_deepseekv41flash1017/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/ainews-kimi-31/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe0ioz/sam_altman_openais_best_model_cant_responsibly_be/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdwrak/qwen427b_pr_found/"
+  }
+ ],
+ "date": "2026-10-24T17:46:24+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1688,
+  "sortie": 2744
+ }
+}

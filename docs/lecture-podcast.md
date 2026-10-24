@@ -21,4 +21,10 @@ Reconnaissance GitHub le 24/10/2026 : [shipshapecode/starpod](https://github.com
 
 ## Livraison
 
-Recette cloud et contrôle HTTPS à consigner après publication. Le succès des tests locaux seul n'est pas une preuve de production.
+**Production confirmée le 24/10 à 18:12 UTC.** Commit fonctionnel `caedd44f4e48ac6035c281edfa2ade643d47f59a`, trois blobs relus sur GitHub et identiques. Le dispatch initial `40116058732` a été annulé en attente, sans job ; plusieurs publications voisines ont produit d'autres runs. Aucun nouveau dispatch ni annulation du run actif par cette mission : suivi du descendant `f9a8893`, avec ascendance et identité des deux fichiers code/test contrôlées.
+
+[Run de production 40116677135](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/40116677135) **réussi** : 218 tests Python cloud (incluant les livraisons voisines), pipeline et sauvegarde terminés avec succès, **1 792 fichiers envoyés**. Logs d'envoi des deux pages échantillonnées et de `/podcast/` conservés. État cloud `2bac5ee`, sauvegardé dans `703257c87ffc0dd814b8eb2558c9c9ad9cc7c1ee`.
+
+À 18:00 UTC, l'article contenait déjà le bouton mais pas encore la brève : observation intermédiaire conservée, non présentée comme publication complète. À **18:12:32 UTC**, cinq requêtes HTTPS strictes sur quatre URL distinctes : brève, article et page podcast **identiques octet pour octet au rendu de l'état sauvegardé** ; `version.txt` identique aux deux bornes. Cela atteste ces pages et le transfert cloud, pas une lecture individuelle de toutes les anciennes URL distantes.
+
+Chromium sur la production réelle, sans JavaScript ni substitution des réponses du média : huit parcours clic/clavier à 390/1 440 px réussis ; lien podcast, destination et texte dépliable vérifiés, absence de débordement et de requête MP3 avant navigation. Captures mobile/desktop relues. Aucun gain d'écoute ni d'audience mesuré.

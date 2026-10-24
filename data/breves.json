@@ -1,5 +1,129 @@
 [
  {
+  "id": "999489798b252d79",
+  "slug": "blue-planet-iii-garde-ses-imperfections-pour-contrer-l-ia-999489",
+  "titre": "Blue Planet III garde ses imperfections pour contrer l'IA",
+  "resume": "La BBC veut prouver l'authenticité de Blue Planet III en laissant à l'écran les plans les moins parfaits. Les précédentes incarnations de la série nature étaient définies par des images limpides, presque trop belles pour être vraies. Or l'un des signes qui trahissent l'IA, c'est justement un rendu trop poli et trop lisse. La série entend donc s'appuyer sur cette imperfection pour se distinguer.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+  "date_source": "2026-10-24T21:29:12+00:00",
+  "date_redac": "2026-10-24T21:53:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 664,
+   "sortie": 705
+  }
+ },
+ {
+  "id": "1adfa55b02d270c8",
+  "slug": "anemll-forge-0-2-1-fait-tourner-qwen3-8-27b-sur-le-neural-engine-des-m-1adfa5",
+  "titre": "ANEMLL Forge 0.2.1 fait tourner Qwen3.8-27B sur le Neural Engine des Mac M6 32 Go",
+  "resume": "ANEMLL Forge 0.2.1 permet de faire tourner Qwen3.8-27B sur le Neural Engine des Mac Mini M6 32 Go, jusqu'à 192K de contexte. La version ajoute un cache K/V en INT8 (moitié du FP16) et un drafter plus petit partageant la tête de sortie du modèle cible : 0,86 Go d'ANE économisé, à vitesse égale. Le débit dépend du contenu : 35 à 62 tok/s en JSON, 18 à 32 en code, 10 à 17 en prose. Le prefill atteint 260 tok/s en contexte court, contre 62 à 192K.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xejv61/m6_mac_mini_owners_32gb_now_you_can_run_qwen3827b/",
+  "date_source": "2026-10-24T21:05:21+00:00",
+  "date_redac": "2026-10-24T21:53:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 919,
+   "sortie": 1158
+  }
+ },
+ {
+  "id": "d4c35d4221c737e7",
+  "slug": "un-petit-modele-pour-le-reverse-engineering-capable-de-tourner-sur-une-d4c35d",
+  "titre": "Un petit modèle pour le reverse engineering, capable de tourner sur une 3090",
+  "resume": "Sur r/LocalLLaMA, un utilisateur cherche un petit modèle qui refuse moins souvent les tâches de reverse engineering. Contrainte matérielle : il doit tenir sur une 3090 avec 32 Go de RAM. Les modèles cloud, selon lui, peuvent aller jusqu'à fermer un compte en le signalant, et GLM 5.3 est trop gros pour sa machine.",
+  "tags": [
+   "open-source",
+   "sécurité",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xeipmm/small_model_good_for_reverse_engineering_that_can/",
+  "date_source": "2026-10-24T20:16:36+00:00",
+  "date_redac": "2026-10-24T21:53:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 672,
+   "sortie": 316
+  }
+ },
+ {
+  "id": "68c451e7db94b362",
+  "slug": "kld-une-mauvaise-boussole-pour-juger-les-modeles-quantifies-68c451",
+  "titre": "KLD, une mauvaise boussole pour juger les modèles quantifiés",
+  "resume": "Sur r/LocalLLaMA, le KLD est souvent traité comme la métrique sacrée qui classerait tous les modèles quantifiés par qualité. À tort : il mesure l'écart entre les distributions de probabilités issues des logits du modèle de base et du modèle quantifié, moyenné sur les tokens. Et le calcul ne vaut que si le texte d'entrée ressemble à ce que le modèle voit en génération, ce que des articles Wikipédia ne reproduisent pas.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xeim3m/kld_is_misunderstood/",
+  "date_source": "2026-10-24T20:12:28+00:00",
+  "date_redac": "2026-10-24T21:53:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 768,
+   "sortie": 885
+  }
+ },
+ {
+  "id": "2519c0151cf3b17b",
+  "slug": "un-fork-de-llama-cpp-fait-tourner-les-vieux-gpu-nvidia-kepler-2519c0",
+  "titre": "Un fork de llama.cpp fait tourner les vieux GPU NVIDIA Kepler",
+  "resume": "Un développeur publie un fork de llama.cpp pour les vieux GPU NVIDIA Kepler et antérieurs à Ampere, afin de prolonger leur vie plutôt que de les jeter. Des correctifs sur le type de calcul cuBLAS permettent de lancer le logiciel sur du matériel (cc35-50) qui échouait à l'initialisation. Sur Qwen3.6-35B-A3B en Q8_0 avec quatre Tesla K40c, on passe d'un démarrage impossible à 35 tps, puis environ 55 tps avec les CUDA graphs.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xeicw2/highperformance_llamacpp_fork_for_legacy_gpus/",
+  "date_source": "2026-10-24T20:01:46+00:00",
+  "date_redac": "2026-10-24T21:53:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 854,
+   "sortie": 1199
+  }
+ },
+ {
+  "id": "4fea804af61a65fe",
+  "slug": "quatre-petits-reseaux-de-neurones-transforment-ta-musique-en-niveau-de-4fea80",
+  "titre": "Quatre petits réseaux de neurones transforment ta musique en niveau de jeu",
+  "resume": "Un développeur a partagé sur r/LocalLLaMA un jeu de rythme jouable directement dans l'onglet du navigateur : tu y charges tes propres mp3 et la musique construit le niveau. Toute l'analyse se fait sur l'appareil, rien n'est envoyé : les modèles tournent sur onnxruntime-web en WebAssembly, chacun dans son web worker. BeatNet (~1,6 Mo) fournit la grille tempo et mesures, Basic Pitch de Spotify (~0,2 Mo) transcrit les notes qui deviennent obstacles et anneaux.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xeia9o/made_a_rhythm_game_where_4_small_neural_nets/",
+  "date_source": "2026-10-24T19:59:11+00:00",
+  "date_redac": "2026-10-24T21:53:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 829,
+   "sortie": 680
+  }
+ },
+ {
   "id": "071d427b4dca9df7",
   "slug": "sur-r-localllama-un-internaute-juge-raon-bien-superieur-a-flint-071d42",
   "titre": "Sur r/LocalLLaMA, un internaute juge Raon bien supérieur à Flint",

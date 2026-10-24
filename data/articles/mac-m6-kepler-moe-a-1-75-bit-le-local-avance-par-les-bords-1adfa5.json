@@ -1,0 +1,41 @@
+{
+ "slug": "mac-m6-kepler-moe-a-1-75-bit-le-local-avance-par-les-bords-1adfa5",
+ "titre": "Mac M6, Kepler, MoE à 1,75 bit : le local avance par les bords",
+ "chapo": "Faire tourner un 27B sur le Neural Engine d'un Mac Mini M6, ressusciter des Tesla K40c, compresser un MoE de 763 milliards de paramètres dans 120 Go : la semaine sur r/LocalLLaMA parle surtout de matériel qu'on croyait hors jeu. Et Kimi, de son côté, sort des poids ouverts en gardant une partie de ses données à la maison.",
+ "html": "<h2 id=\"le-neural-engine-d-un-mac-mini-m6-avec-1\">Le Neural Engine d'un Mac Mini M6, avec 192K de contexte</h2>\n<p>ANEMLL Forge 0.2.1 fait tourner Qwen3.8-27B sur le Neural Engine d'un Mac Mini M6 doté de 32 Go de mémoire, avec un contexte qui grimpe jusqu'à 192K. La mécanique repose sur deux ajouts : un cache K/V en INT8, soit la moitié du FP16, et un drafter plus petit qui partage la tête de sortie du modèle cible. Gain annoncé : 0,86 Go d'ANE économisé, à vitesse égale.</p>\n<p>Les débits, eux, dépendent franchement du contenu produit : <strong>35 à 62 tok/s en JSON, 18 à 32 en code, 10 à 17 en prose</strong>. Le prefill suit la même pente, avec 260 tok/s en contexte court contre 62 tok/s quand on remplit les 192K. Autrement dit, la fenêtre géante se paie, et le type de sortie attendu pèse autant que la machine.</p>\n<h2 id=\"kepler-un-fork-pour-ne-pas-jeter-les-vie\">Kepler : un fork pour ne pas jeter les vieux GPU</h2>\n<p>Un développeur publie un fork de llama.cpp dédié aux vieux GPU NVIDIA Kepler et aux cartes antérieures à Ampere. L'objectif assumé n'est pas la performance brute mais la prolongation : faire tourner le logiciel sur du matériel qu'on n'upgrade plus, plutôt que de le mettre au rebut. Le blocage se situait à l'initialisation ; des correctifs sur le type de calcul cuBLAS débloquent le lancement sur du cc35-50, qui échouait jusqu'ici.</p>\n<p>La démonstration tient sur Qwen3.6-35B-A3B en Q8_0 avec quatre Tesla K40c : on passe d'un démarrage impossible à <strong>35 tps</strong>, puis environ <strong>55 tps</strong> une fois les CUDA graphs activés. Des chiffres qui ne rivalisent pas avec du matériel récent, mais qui transforment un parc inutilisable en banc d'essai fonctionnel.</p>\n<h2 id=\"deepseek-v4-1-flash-1017-descend-a-1-75-\">DeepSeek-V4.1-Flash-1017 descend à 1,75 bit par poids</h2>\n<p>ISTA publie trois GGUF quantifiés de DeepSeek-V4.1-Flash-1017, un MoE clairsemé de 763,2 milliards de paramètres (6 experts actifs sur 384 par couche) et 1M de contexte. Les builds IQ1_M, IQ2_XXS et IQ2_XS descendent entre 1,75 et 2,25 bits par poids, pour des fichiers de <strong>120,7 à 155,2 Go</strong>.</p>\n<p>Détail malin côté téléchargement : un fichier Engram de 110,6 Go, identique pour tous les builds, ne se récupère qu'une seule fois. Et chaque build tourne sur un seul GPU de 12 Go avec Strata. À ces niveaux de quantification, la place gagnée ne se discute pas ; la fidélité du modèle, elle, est le paramètre qu'on accepte de bouger.</p>\n<h2 id=\"kimi-poids-ouverts-entrainement-filtre\">Kimi : poids ouverts, entraînement filtré</h2>\n<p>Latent Space relaie la sortie de Kimi 3.1 Pro (104BA-2.8T), un modèle à poids ouverts que la newsletter range dans la catégorie de Fable-5.1. L'écart avec les modèles fermés tomberait ainsi à environ un mois. Une API Pro Highspeed est aussi annoncée, avec un débit 2 à 3 fois supérieur — la newsletter prenant toutefois ses distances avec l'annonce.</p>\n<p>En parallèle, la publication open weight de Kimi K3.1 ne contient plus les données d'entraînement portant sur les cyberattaques. D'après l'extrait partagé sur r/LocalLLaMA, ce retrait s'explique avant tout par les nouvelles restrictions chinoises à l'export, auxquelles s'ajoute une prudence croissante face à la multiplication des exploits en cybersécurité.</p>\n<p>Les deux mouvements ne se contredisent pas : les poids s'ouvrent, mais le contenu de l'entraînement se trie de plus en plus avant publication.</p>\n<h2>Et maintenant ?</h2>\n<p>Le fil commun de ces sorties n'est pas la performance brute mais la gestion de contraintes : quelques bits de moins par poids, un cache K/V divisé par deux, un GPU de génération ancienne qu'on débloque à coups de correctifs cuBLAS. L'inférence locale se construit moins sur des modèles toujours plus gros que sur l'art de les faire tenir là où ils ne devaient pas passer. Ce que Kimi rappelle en creux : la disponibilité des poids ne dit rien de ce qu'ils contiennent.</p>",
+ "pivot": "1adfa55b02d270c8",
+ "tags": [
+  "open-source",
+  "matériel",
+  "deepseek",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xejv61/m6_mac_mini_owners_32gb_now_you_can_run_qwen3827b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xeicw2/highperformance_llamacpp_fork_for_legacy_gpus/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/ainews-kimi-31/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe2wg8/release_ista_gsqrco_ggufs_for_deepseekv41flash1017/"
+  }
+ ],
+ "date": "2026-10-24T21:53:53+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1717,
+  "sortie": 3533
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "meta-teste-des-modeles-qui-lisent-les-octets-bruts-openai-co-ec45d7",
+ "titre": "Meta teste des modèles qui lisent les octets bruts, OpenAI coupe le web",
+ "chapo": "Meta compare des petits modèles entraînés sur tokens à d'autres qui lisent des octets bruts, une lettre à la fois. Pendant ce temps, OpenAI retire l'accès au web réel à l'entraînement de ses modèles les plus avancés, et deux noms de modèles ouverts circulent : Qwen4-27B et Kimi K3.1 Pro.",
+ "html": "<h2 id=\"l-octet-une-autre-unite-de-lecture\">L'octet, une autre unité de lecture</h2>\n<p>Meta a entraîné de petits modèles, autour d'un milliard de paramètres, en les répartissant en deux familles : les uns apprennent sur des tokens, les autres sur des <strong>octets bruts</strong>, c'est-à-dire une lettre à la fois. Une partie de l'entraînement s'est faite par distillation de Llama 3 8B.</p>\n<p>Le résultat dépend du budget d'entraînement. Peu entraînés, les modèles à tokens gagnent nettement. Poussés plus loin, ils plafonnent, tandis que les modèles à octets continuent de progresser. D'après ces travaux, ces derniers auraient eu besoin de <strong>six fois moins de texte</strong> pour atteindre le même niveau.</p>\n<p>L'enjeu dépasse la curiosité d'atelier : le token implique un découpage préalable, l'octet non. Si la courbe se confirme sur de plus gros modèles, c'est toute la chaîne de préparation des données qui se déplace.</p>\n<h2 id=\"openai-ferme-la-porte-a-l-entrainement\">OpenAI ferme la porte à l'entraînement</h2>\n<p>Après plusieurs incidents de sécurité, OpenAI annonce que ses modèles les plus avancés seront entraînés <strong>sans accès au web réel</strong>. La mesure touche les modèles les plus puissants de l'éditeur, et elle est déjà appliquée depuis le 1er octobre. Elle restera en vigueur jusqu'à nouvel ordre.</p>\n<p>Le calendrier est notable : la décision est présentée comme une conséquence d'incidents déjà survenus, pas comme une précaution théorique. Elle isole les phases d'entraînement les plus sensibles, sans que l'on sache ce qu'il en est des autres modèles ou des autres étapes.</p>\n<h2 id=\"microsoft-et-la-promesse-sante\">Microsoft et la promesse santé</h2>\n<p>Microsoft affirme avoir mis au point un outil d'IA capable de diagnostiquer des pathologies <strong>jusqu'à quatre fois plus précisément que des médecins humains</strong>. Mustafa Suleyman, PDG de Microsoft AI, déclare à The Verge que cette promesse d'une IA au service de la santé « est enfin là ».</p>\n<p>Le contexte de cette déclaration compte autant que le chiffre : depuis des années, les dirigeants de l'IA citent la santé comme l'exemple le plus clair de l'utilité concrète de la technologie. La performance annoncée reste une affirmation de Microsoft ; elle n'est pas accompagnée, dans la dépêche, d'une évaluation indépendante.</p>\n<h2 id=\"poids-ouverts-qwen4-27b-en-filigrane-kim\">Poids ouverts : Qwen4-27B en filigrane, Kimi K3.1 Pro daté</h2>\n<p>Sur r/LocalLLaMA, une <strong>pull request</strong> du dépôt vllm-xpu-kernels mentionne Qwen4-27B. Son auteur a beaucoup contribué à des dépôts Intel et à vLLM, et a déjà travaillé sur Qwen3.8 ; son nom correspond à celui d'un CTO chez Alibaba ou d'un directeur du Zhejiang Lab. La PR suggère que la taille du cache KV de Qwen4-27B ne baisse pas. Autrement dit : rien d'officiel, mais un indice technique crédible.</p>\n<p>Deuxième indice, plus daté : un message du même subreddit annonce la publication des poids de <strong>Kimi K3.1 Pro</strong> pour le 4 novembre. L'extrait ne précise ni taille de modèle, ni licence, ni modalités de diffusion.</p>\n<p>Des poids rendus disponibles signifient un modèle téléchargeable et exécutable localement — ce qui intéresse directement ceux qui suivent les modèles ouverts, et qui contraste avec le durcissement décrit plus haut côté OpenAI.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, quatre signaux qui ne s'articulent pas entre eux par causalité : une unité d'apprentissage remise en question chez Meta, une surface d'exposition réduite chez OpenAI, une revendication de performance clinique chez Microsoft, et deux modèles ouverts qui se laissent deviner avant d'être annoncés. Ce qui les rapproche, c'est le déplacement du débat : on ne discute plus seulement de taille de modèle, mais de ce qu'il ingère, de ce à quoi il a accès, et de qui peut l'exécuter.</p>",
+ "pivot": "ec45d75b9ed3a7ef",
+ "tags": [
+  "meta",
+  "openai",
+  "recherche",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe88ja/meta_trained_small_ai_models_to_read_raw_bytes/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/openai/3298215_trop-risquees-une-fois-connectees-openai-entraine-ses-ia-les-plus-puissantes-sans-internet"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdwrak/qwen427b_pr_found/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdvp7c/kimi_k31_pro_weights_releasing_nov_4th/"
+  }
+ ],
+ "date": "2026-10-24T13:24:20+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1562,
+  "sortie": 2364
+ }
+}

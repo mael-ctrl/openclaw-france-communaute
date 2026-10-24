@@ -1,5 +1,66 @@
 [
  {
+  "id": "a91d54874583ea87",
+  "slug": "kimi-3-1-pro-des-poids-ouverts-qui-reduisent-l-ecart-avec-les-modeles--a91d54",
+  "titre": "Kimi 3.1 Pro : des poids ouverts qui réduisent l'écart avec les modèles fermés",
+  "resume": "Latent Space relaie la sortie de Kimi 3.1 Pro (104BA-2.8T), un modèle à poids ouverts que la newsletter place dans la catégorie de Fable-5.1. L'écart avec les modèles fermés se réduirait ainsi à environ un mois. Une API Pro Highspeed est aussi annoncée, avec un débit 2 à 3 fois supérieur. La newsletter prend toutefois ses distances avec l'annonce.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Latent Space",
+  "lien_source": "https://latent.space/p/ainews-kimi-31/",
+  "date_source": null,
+  "date_redac": "2026-10-24T08:06:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 626,
+   "sortie": 1215
+  }
+ },
+ {
+  "id": "ae1d6e3836ed71a5",
+  "slug": "un-benchmark-de-code-en-5-taches-sur-16-go-de-vram-version-2-ae1d6e",
+  "titre": "Un benchmark de code en 5 tâches sur 16 Go de VRAM, version 2",
+  "resume": "Un membre de r/LocalLLaMA publie la version 2 de son benchmark de code : cinq tâches algorithmiques, une sélection de modèles différente et des tests resserrés, sur une machine à 16 Go de VRAM et 32 Go de RAM. Les résultats sont dans un dépôt GitHub (Tako88/coding-bench), les tableaux étant peu lisibles sur Reddit. L'auteur dit avoir été surpris par CyberTiel et Ornith, et juge LFM et Mellum mauvais même sur des charges réelles.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xe2cyy/models_on_5_algorithmic_tasks_on_16gb_vram_32gb/",
+  "date_source": "2026-10-24T07:31:40+00:00",
+  "date_redac": "2026-10-24T08:05:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 790,
+   "sortie": 894
+  }
+ },
+ {
+  "id": "8d6ec2946a762db1",
+  "slug": "des-labos-chinois-demontent-des-rtx-5090-pour-leurs-serveurs-d-ia-8d6ec2",
+  "titre": "Des labos chinois démontent des RTX 5090 pour leurs serveurs d'IA",
+  "resume": "Sur r/LocalLLaMA, un post soutient que la RTX 5090 n'a pas disparu : elle se retrouve dans des laboratoires chinois. Les techniciens y démontent la carte pour récupérer le die du GPU et ses 32 Go de VRAM, montés ensuite dans des serveurs d'IA. Le message, publié le 24 octobre 2026, ne fournit ni volume concerné ni preuve au-delà de ce témoignage.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xe1zsr/the_rtx_5090_isnt_gone_its_in_chinese_labs_where/",
+  "date_source": "2026-10-24T07:09:11+00:00",
+  "date_redac": "2026-10-24T08:06:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 643,
+   "sortie": 702
+  }
+ },
+ {
   "id": "2ba323b45f809f68",
   "slug": "hermes-agent-publie-un-build-canary-estampille-v0-22-5-2ba323",
   "titre": "Hermes Agent publie un build canary estampillé v0.22.5",

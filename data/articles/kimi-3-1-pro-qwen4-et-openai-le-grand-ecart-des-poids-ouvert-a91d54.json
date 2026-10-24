@@ -1,0 +1,41 @@
+{
+ "slug": "kimi-3-1-pro-qwen4-et-openai-le-grand-ecart-des-poids-ouvert-a91d54",
+ "titre": "Kimi 3.1 Pro, Qwen4 et OpenAI : le grand écart des poids ouverts",
+ "chapo": "Un modèle à poids ouverts logé dans la catégorie des meilleurs modèles fermés, avec un écart réduit à environ un mois : c'est ce que Latent Space retient de Kimi 3.1 Pro. Au même moment, Sam Altman répète que le modèle le plus avancé d'OpenAI, lui, ne peut pas être publié.",
+ "html": "<h2 id=\"kimi-3-1-pro-un-mois-d-ecart-selon-laten\">Kimi 3.1 Pro : un mois d'écart, selon Latent Space</h2>\n<p>Latent Space relaie la sortie de <strong>Kimi 3.1 Pro</strong> (104BA-2.8T), un modèle à poids ouverts que la newsletter place dans la catégorie de Fable-5.1. Conséquence avancée : l'écart avec les modèles fermés se réduirait ainsi à environ un mois. Une API « Pro Highspeed » est aussi annoncée, avec un débit 2 à 3 fois supérieur. La newsletter prend toutefois ses distances avec l'annonce — la prudence fait partie du texte.</p>\n<p>Sur r/LocalLLaMA, le même épisode circule sous le nom de <strong>Kimi K3.1 Pro</strong>, avec une publication en poids ouverts annoncée pour le 4 novembre au plus tard. Le message a été publié le 24 octobre 2026. Pour la communauté du modèle ouvert, l'enjeu n'est pas la place dans un classement, mais la possibilité de télécharger et d'héberger le modèle soi-même plutôt que de dépendre d'une API.</p>\n<h2 id=\"qwen4-27b-une-pull-request-qui-fait-parl\">Qwen4-27B : une pull request qui fait parler</h2>\n<p>Un post de r/LocalLLaMA signale une <strong>pull request</strong> dans le dépôt vllm-xpu-kernels liée à Qwen4-27B. Rien d'officiel : c'est surtout le profil de l'auteur qui intrigue. Il a beaucoup contribué à des dépôts Intel et à vLLM, et a déjà travaillé sur Qwen3.8 ; son nom correspond à celui d'un CTO chez Alibaba ou d'un directeur du Zhejiang Lab.</p>\n<p>La PR suggère par ailleurs que la taille du cache KV de Qwen4-27B ne baisse pas. À lire le forum, il s'agit donc d'un indice technique sur l'architecture, pas d'une fiche produit. Aucune annonce d'Alibaba ne vient confirmer l'existence du modèle à ce stade, et la prudence reste de mise.</p>\n<h2 id=\"chez-openai-la-ligne-rouge-ne-bouge-pas\">Chez OpenAI, la ligne rouge ne bouge pas</h2>\n<p>Invité de la série « View from the Top » de la Stanford Graduate School of Business, <strong>Sam Altman</strong> a répété que le modèle le plus avancé d'OpenAI ne peut pas être publié en open source tant que le monde n'aura pas construit de meilleures défenses en cybersécurité et en biosécurité. Il reconnaît par ailleurs une réelle valeur sociétale aux modèles à poids ouverts.</p>\n<p>Le PDG d'OpenAI admet aussi que l'entreprise, pensée au départ comme un simple laboratoire de recherche, a dû pivoter vers 2020, l'explosion qui a suivi le lancement de ChatGPT l'ayant transformée en très grosse entreprise presque du jour au lendemain.</p>\n<h2 id=\"php-quand-l-ia-rend-une-faille-demontrab\">PHP : quand l'IA rend une faille démontrable</h2>\n<p>Le 21 octobre, <strong>PHP</strong> a corrigé deux failles critiques permettant l'exécution de code à distance. Le défaut à l'origine de l'une d'elles était connu depuis 2024, mais son exploitation n'a été démontrée qu'à l'été, avec l'aide de modèles d'IA. À la demande de l'Anssi, le ministère de l'Intérieur a coupé ses sites exposés.</p>\n<p>Le cas illustre un décalage connu : un bug repéré et documenté, dont la démonstration d'exploitation devient accessible bien plus tard — le temps que des outils, ici des modèles d'IA, abaissent le coût de la mise au point. Entre-temps, des sites publics restaient exposés, et il a fallu une coupure administrative pour les retirer.</p>\n<h2>Et maintenant ?</h2>\n<p>Les deux mouvements se lisent en parallèle. D'un côté, des modèles à poids ouverts qui, selon Latent Space, reviennent à environ un mois des modèles fermés, et une communauté qui attend une publication téléchargeable pour le 4 novembre. De l'autre, un argumentaire de sécurité qui reste la ligne rouge d'OpenAI. Et entre les deux, une faille PHP dont l'exploitation a été rendue démontrable avec de l'IA — de quoi alimenter les deux camps, sans trancher le débat.</p>",
+ "pivot": "a91d54874583ea87",
+ "tags": [
+  "open-source",
+  "sécurité",
+  "openai",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/ainews-kimi-31/"
+  },
+  {
+   "nom": "ActuIA",
+   "url": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe0ioz/sam_altman_openais_best_model_cant_responsibly_be/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdwrak/qwen427b_pr_found/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdwd71/introducing_kimi_k31_pro_with_open_weights_by_nov/"
+  }
+ ],
+ "date": "2026-10-24T08:06:26+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1632,
+  "sortie": 3105
+ }
+}

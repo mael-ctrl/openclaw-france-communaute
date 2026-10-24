@@ -1,5 +1,26 @@
 [
  {
+  "id": "cb297bed6a5393cb",
+  "slug": "openclaw-conserve-le-code-de-refus-in-gateway-lors-des-reparations-de--cb297b",
+  "titre": "OpenClaw conserve le code de refus in-Gateway lors des réparations de mise à jour",
+  "resume": "OpenClaw publie une version corrective de son dépôt. Le correctif porte sur le module de mise à jour : il conserve le code de refus émis par la Gateway (« in-Gateway refusal code ») lors des exécutions de réparation de mise à jour. Concrètement, le motif de refus reste attaché à ces exécutions au lieu d'être perdu en cours de route.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F1fead915921e-1792818494",
+  "date_source": "2026-10-24T02:34:33+00:00",
+  "date_redac": "2026-10-24T05:21:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 815
+  }
+ },
+ {
   "id": "19e0a692579bff71",
   "slug": "un-pr-sur-vllm-xpu-kernels-laisse-entrevoir-qwen4-27b-19e0a6",
   "titre": "Un PR sur vllm-xpu-kernels laisse entrevoir Qwen4-27B",

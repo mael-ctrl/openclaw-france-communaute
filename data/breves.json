@@ -1,5 +1,68 @@
 [
  {
+  "id": "da4669e7e38742f9",
+  "slug": "kimi-k3-1-pro-vs-deepseek-4-1-flash-peu-d-ecart-beaucoup-plus-lourd-da4669",
+  "titre": "Kimi K3.1 Pro vs DeepSeek 4.1 Flash : peu d'écart, beaucoup plus lourd",
+  "resume": "Sur r/LocalLLaMA, un utilisateur compare Kimi K3.1 Pro à DeepSeek 4.1 Flash (révision 1017). Son constat : des résultats proches, alors que Kimi reste très difficile à faire tourner en local, même quantifié, et plus lent, avec 104 couches actives à traverser pour produire un seul token. Les poids ouverts de Kimi K3 Pro sont annoncés pour le 4 novembre ; l'auteur suggère de s'en tenir à DeepSeek 4.1 Flash en attendant.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xemxoq/is_it_just_me_or_kimi_k31_pro_dont_look_much/",
+  "date_source": "2026-10-24T23:24:59+00:00",
+  "date_redac": "2026-10-25T01:12:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 843,
+   "sortie": 626
+  }
+ },
+ {
+  "id": "f7847c92966a20b7",
+  "slug": "le-royaume-uni-mise-100-m-sur-un-laboratoire-de-biosecurite-dedie-a-l--f7847c",
+  "titre": "Le Royaume-Uni mise 100 M£ sur un laboratoire de biosécurité dédié à l'IA",
+  "resume": "Le Royaume-Uni prévoit d'investir 100 millions de livres dans un laboratoire de biosécurité consacré à l'IA, présenté comme une première mondiale. L'information est relayée sur r/LocalLLaMA, sans précision supplémentaire sur le calendrier, les porteurs du projet ou son fonctionnement.",
+  "tags": [
+   "sécurité",
+   "recherche",
+   "société"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xem3kc/uk_to_invest_100m_in_world_first_ai_biosecurity/",
+  "date_source": "2026-10-24T22:45:29+00:00",
+  "date_redac": "2026-10-25T01:12:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 622,
+   "sortie": 535
+  }
+ },
+ {
+  "id": "6461a8de54d0ded4",
+  "slug": "unlock-sur-rtx-30-et-40-jusqu-a-2x-en-prefill-mais-les-prix-grimpent-6461a8",
+  "titre": "Unlock sur RTX 30 et 40 : jusqu'à 2x en prefill, mais les prix grimpent",
+  "resume": "Un outil de déblocage inspiré du CMP170HX permettrait de libérer de la puissance sur les GPU NVIDIA RTX 30 et RTX 40. Selon le fil r/LocalLLaMA, le gain atteindrait jusqu'à 2x en vitesse de prefill, avec un calcul doublé. Revers de la médaille : les prix de ces cartes grimpent aussi. L'auteur du message résume l'ambiance en invitant à acheter ou vendre sans traîner.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xelhpj/cmp170hx_inspiration_unlocks_30x40x_also_up_to_2x/",
+  "date_source": "2026-10-24T22:16:55+00:00",
+  "date_redac": "2026-10-25T01:12:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 684,
+   "sortie": 910
+  }
+ },
+ {
   "id": "999489798b252d79",
   "slug": "blue-planet-iii-garde-ses-imperfections-pour-contrer-l-ia-999489",
   "titre": "Blue Planet III garde ses imperfections pour contrer l'IA",
@@ -17,6 +80,27 @@
    "modele": "deepseek-flash",
    "entree": 664,
    "sortie": 705
+  }
+ },
+ {
+  "id": "25a5a66b402aa358",
+  "slug": "tensorsharp-prend-en-charge-minimax-m3-1-flash-des-le-jour-1-25a5a6",
+  "titre": "TensorSharp prend en charge MiniMax-M3.1-Flash dès le jour 1",
+  "resume": "Le développeur de TensorSharp a intégré MiniMax-M3.1-Flash le jour même de la sortie de ses poids ouverts. Sur de longs prompts, le prefill en 64K atteint 2 567 tok/s contre 262 tok/s dans la branche llama.cpp testée, et le délai avant le premier token tombe de 293,4 à 40 secondes. Côté fonctionnalités : inférence GGUF, entrées texte et image via une API compatible OpenAI, tool calling et décodage spéculatif DSpark.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xejzuo/day_1_minimaxm31flash_support_in_tensorsharp_gguf/",
+  "date_source": "2026-10-24T21:10:54+00:00",
+  "date_redac": "2026-10-25T01:12:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 826,
+   "sortie": 1102
   }
  },
  {

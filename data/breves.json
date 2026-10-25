@@ -1,5 +1,68 @@
 [
  {
+  "id": "9ed0558dde25e1e3",
+  "slug": "les-quants-de-modeles-a-sauvegarder-un-appel-au-backup-et-au-partage-e-9ed055",
+  "titre": "Les quants de modèles à sauvegarder : un appel au backup et au partage en torrent",
+  "resume": "Sur r/LocalLLaMA, un internaute invite à sauvegarder sans attendre les quantisations de modèles que l'on souhaite conserver. Il renvoie vers la page de requêtes de modèles de mradermacher sur Hugging Face et estime que la situation est la même chez les autres producteurs de quants. Il appelle également à créer des torrents de ces fichiers et à les partager sur llama.garden, pirateface.co et huggingbay.xyz.",
+  "tags": [
+   "open-source",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xf11qj/backup_your_quants/",
+  "date_source": "2026-10-25T12:25:39+00:00",
+  "date_redac": "2026-10-25T12:40:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 687,
+   "sortie": 473
+  }
+ },
+ {
+  "id": "75b6f94253df2612",
+  "slug": "nanbeige4-3-33b-un-modele-ouvert-qui-depasse-qwen3-8-27b-sur-les-bench-75b6f9",
+  "titre": "Nanbeige4.3-33B : un modèle ouvert qui dépasse Qwen3.8-27B sur les benchmarks",
+  "resume": "Nanbeige met en ligne Nanbeige4.3-33B sur Hugging Face. Selon l'équipe, ce modèle devance Qwen3.8-27B sur un ensemble de benchmarks. Il sert aussi de socle à la future pipeline de distillation de petits modèles, notamment Nanbeige4.3-3B — et peut-être d'autres tailles.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face/",
+  "date_source": "2026-10-25T12:01:34+00:00",
+  "date_redac": "2026-10-25T12:40:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 685,
+   "sortie": 421
+  }
+ },
+ {
+  "id": "73ae74885c96d1e3",
+  "slug": "comment-la-recherche-ia-de-google-a-bouleverse-l-edition-en-ligne-73ae74",
+  "titre": "Comment la recherche IA de Google a bouleversé l'édition en ligne",
+  "resume": "La recherche enrichie à l'IA de Google a bouleversé l'édition en ligne, au point que The Verge y consacre sa newsletter hebdomadaire The Stepback. Le découpage repart des origines, en rappelant sur quoi l'industrie de la presse numérique s'est appuyée, avant d'examiner ce que ces changements lui font. Le sujet est signé Emma Roth, qui suit l'impact de l'IA sur le web.",
+  "tags": [
+   "business",
+   "société",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+  "date_source": "2026-10-25T12:00:00+00:00",
+  "date_redac": "2026-10-25T12:40:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 654,
+   "sortie": 976
+  }
+ },
+ {
   "id": "c7c420b903e2fc55",
   "slug": "des-failles-php-vieilles-de-20-ans-debusquees-grace-a-l-ia-c7c420",
   "titre": "Des failles PHP vieilles de 20 ans débusquées grâce à l'IA",

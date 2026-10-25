@@ -50,11 +50,13 @@ class SuivreTest(unittest.TestCase):
                          [config.URL_SITE + "/feed.xml",
                           config.URL_SITE + "/feed-articles.xml",
                           "https://bsky.app/profile/" + config.BLUESKY_HANDLE,
-                          "/podcast/"])
+                          "/podcast/", "/#la-breve"])
         self.assertIn("Écouter le podcast", " ".join(bloc.texte))
-        self.assertNotIn("target", bloc.liens[-1])
-        self.assertNotIn("onclick", bloc.liens[-1])
-        self.assertIn("bouton", bloc.liens[-1].get("class", "").split())
+        for lien in bloc.liens[-2:]:
+            self.assertNotIn("target", lien)
+            self.assertNotIn("onclick", lien)
+            self.assertIn("bouton", lien.get("class", "").split())
+        self.assertIn("La newsletter gratuite", " ".join(bloc.texte))
         self.assertNotIn("<audio", document)
         self.assertNotIn(".mp3", document)
         self.assertIn("RSS articles uniquement", " ".join(bloc.texte))
@@ -77,11 +79,13 @@ class SuivreTest(unittest.TestCase):
                          [config.URL_SITE + "/feed.xml",
                           config.URL_SITE + "/feed-articles.xml",
                           "https://bsky.app/profile/" + config.BLUESKY_HANDLE,
-                          "/podcast/"])
+                          "/podcast/", "/#la-breve"])
         self.assertIn("Écouter le podcast", " ".join(bloc.texte))
-        self.assertNotIn("target", bloc.liens[-1])
-        self.assertNotIn("onclick", bloc.liens[-1])
-        self.assertIn("bouton", bloc.liens[-1].get("class", "").split())
+        for lien in bloc.liens[-2:]:
+            self.assertNotIn("target", lien)
+            self.assertNotIn("onclick", lien)
+            self.assertIn("bouton", lien.get("class", "").split())
+        self.assertIn("La newsletter gratuite", " ".join(bloc.texte))
         self.assertNotIn("<audio", document)
         self.assertNotIn(".mp3", document)
         self.assertIn("RSS articles uniquement", " ".join(bloc.texte))

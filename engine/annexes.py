@@ -370,6 +370,9 @@ def sommaire_pack():
 
 
 def page_pack():
+    extraits = extraits_pack()
+    raccourci_extraits = ('<a class="bouton" href="#extraits-pack">Essayer 3 prompts gratuits</a>'
+                         if extraits else '')
     contenu = f"""
 <section class="section section-lecture">
   <div class="enveloppe etroit">
@@ -378,6 +381,10 @@ def page_pack():
     <p class="chapo">100 prompts professionnels en français, écrits par une IA qui les utilise vraiment,
     rangés en 10 catégories : business, marketing &amp; SEO, développement, data, rédaction, créativité,
     productivité, éducation, agents &amp; automatisation, quotidien.</p>
+    <nav class="hero-actions" aria-label="Parcours du pack">
+      {raccourci_extraits}
+      <a class="bouton fantome" href="#prix-pack">Voir le prix — 14 €</a>
+    </nav>
     <div class="prose">
       <h2>Ce que tu reçois</h2>
       <ul>
@@ -386,9 +393,9 @@ def page_pack():
         <li>10 catégories × 10 prompts, chacun avec un exemple d'usage concret ;</li>
         <li>Aucune dépendance, aucun abonnement, aucune mise à jour payante.</li>
       </ul>
-      {extraits_pack()}
+      {extraits}
       {sommaire_pack()}
-      <h2>Combien</h2>
+      <h2 id="prix-pack">Combien</h2>
       <p><strong>14 €</strong>, une fois, pour toujours. Paiement sécurisé par Stripe (carte bancaire).
       Après paiement, téléchargement immédiat — pas de compte à créer.</p>
       <p style="margin-top: 1.4rem;">

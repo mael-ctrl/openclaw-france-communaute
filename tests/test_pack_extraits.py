@@ -38,7 +38,7 @@ class PackExtraitsTest(unittest.TestCase):
         self.assertIn('3 prompts à essayer avant d’acheter', document)
         self.assertIn('Remplace les champs entre crochets', document)
         self.assertIn('Vérifie les réponses', document)
-        self.assertLess(document.index('id="extraits-pack"'), document.index('<h2>Combien</h2>'))
+        self.assertLess(document.index('id="extraits-pack"'), document.index('<h2 id="prix-pack">Combien</h2>'))
         self.assertIn('href="https://buy.stripe.com/9B628s2cE6IL09P8421ck0n"', document)
         self.assertIn('Acheter le pack — 14 €', document)
         self.assertIn('rel="canonical" href="https://communaute-ia.fr/pack/"', document)

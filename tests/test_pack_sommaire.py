@@ -45,7 +45,7 @@ class PackSommaireTest(unittest.TestCase):
         self.assertNotIn('<script', bloc)
         self.assertNotIn('<form', bloc)
         self.assertLess(document.index('id="extraits-pack"'), document.index('id="sommaire-pack"'))
-        self.assertLess(document.index('id="sommaire-pack"'), document.index('<h2>Combien</h2>'))
+        self.assertLess(document.index('id="sommaire-pack"'), document.index('<h2 id="prix-pack">Combien</h2>'))
         self.assertIn('Acheter le pack — 14 €', document)
         self.assertIn('https://buy.stripe.com/9B628s2cE6IL09P8421ck0n', document)
 

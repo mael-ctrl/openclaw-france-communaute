@@ -25,8 +25,18 @@ Chromium existant, sans JavaScript et avec mouvement réduit : quatre pages rée
 
 Captures 320 px avant/après et desktop après évitement relues visuellement : les libellés rognés à droite deviennent intégralement lisibles sur trois lignes. Les débordements de contenu hors navigation à 160/195 CSS px sont conservés dans les mesures : **pas de conformité WCAG globale revendiquée**. Le reflow simule une largeur CSS divisée par deux, pas un geste de zoom mobile. Aucun gain de trafic/conversion mesuré.
 
-## Livraison
+## Livraison confirmée — 25/10, après 11:40 CET
 
-Recette locale acquise ; commit/push, run cloud et vérification HTTPS à consigner après leur exécution. Cette section intermédiaire ne vaut pas preuve de production.
+Code **`ba95fa4d572f3713e41e8fbd91ff8f38f94fe267`**, quatre fichiers relus exactement via l'API GitHub après push. Une seule intégration fonctionnelle. L'avancée cloud avant push ne concernait que `data/` : rebase du seul correctif, puis **219 tests rejoués avec succès**. Aucun merge forcé de données/sceaux.
+
+[Run `40182701180`](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/40182701180) **`completed/success`**, terminé à 10:40:16 UTC : **219 tests cloud**, pipeline et sauvegarde réussis. Log explicite `assets/style.css (20419 o)` ; bilan **1 847 fichiers envoyés**, 4 brèves/1 article produits par la routine existante, aucune publication Bluesky. Sauvegarde `030db4ee9bac9cb1975dd29b2d14f2a7a146d5f5`, intégrée dans `6a1200cc94dd76228e4add41e08244faf6e4783b`, ascendance vérifiée. Les attentes bornées du client n'étaient pas des échecs du workflow ; aucun redéclenchement ni annulation.
+
+**Après la fin du run, à 10:40:52 UTC : 14 URL HTTPS canoniques en 200**, CSS identique octet pour octet au correctif ; en-têtes HTML de **dix pages** identiques à la base (destinations, textes et ordre DOM préservés). Accueil, Pack, article, podcast, Actus, articles, Skills, Pro, manifeste, transparence, RSS, sitemap, version et CSS contrôlés. Ceci ne prétend pas comparer le contenu éditorial dynamique complet de toutes ces pages.
+
+**387 contrôles navigateur publics sur 36 configurations** après mise à disposition de la CSS, puis **43/43 rejoués sur les quatre pages à 320 px après la fin du pipeline**. Géométrie, Tab/Shift+Tab, Entrée sur le lien d'évitement, focus et défilement sous header réel ; souris/destinations testées dans le build local, pas répétées pour tous les liens publics. Captures mobile et desktop relues. Premier lanceur public interrompu sur une largeur `901/2 = 450,5 px` refusée par Playwright : preuve conservée, reprise neuve aux largeurs paires et test distinct à 901 px réussis ; pas un défaut du site ni un arrondi silencieux.
+
+Essai supplémentaire du code livré : `engine/run.py --essai --sans-redaction`, copie neuve isolée, retour 0 et 1 802 pages ; aucun transfert, rédaction ou post. Collecte partielle : 403 Siècle Digital et 429 Reddit-Claude conservés. Manifestes identiques, préfixe du journal intact (ajouts locaux attendus), aucune donnée de cette recette importée. Aucun autre chantier, cron, secret, serveur ou suivi ajouté.
+
+Limites : les débordements hors navigation aux très petites largeurs, les inconnus des archives et la concurrence opérationnelle restent distincts. Ni conformité globale ni hausse d'audience revendiquées. L'attente cloud de la mission du 24 est également levée : run `40116677135` relu `completed/success`, sans deuxième intégration.
 
 Pièces privées : `crabe-chantiers/site/2026-10-25-navigation-mobile/` — manifeste de préparation vérifié, source/patch de la recette navigateur, rouge/vert, inventaires des deux builds, sorties unitaires, JSON DOM et captures. Les copies complètes de recette restent hors dépôt public.

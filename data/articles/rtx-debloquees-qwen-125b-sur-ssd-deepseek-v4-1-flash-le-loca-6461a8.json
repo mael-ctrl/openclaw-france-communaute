@@ -1,0 +1,41 @@
+{
+ "slug": "rtx-debloquees-qwen-125b-sur-ssd-deepseek-v4-1-flash-le-loca-6461a8",
+ "titre": "RTX débloquées, Qwen 125B sur SSD, DeepSeek-V4.1 Flash : le local s'équipe",
+ "chapo": "Sur r/LocalLLaMA, plusieurs fils racontent la même bascule : faire tourner de très gros modèles sur du matériel modeste. Un outil débloque les RTX 30 et 40, Qwen3.8-Flash-Next tient sur 16 Go de VRAM, et DeepSeek-V4.1 Flash attend son support dans llama.cpp.",
+ "html": "<h2 id=\"les-rtx-30-et-40-debloquees-et-des-prix-\">Les RTX 30 et 40 débloquées, et des prix qui suivent</h2>\n<p>Un outil de déblocage présenté sur r/LocalLLaMA permettrait aux GPU NVIDIA RTX 30 et RTX 40 de doubler leur compute pour l'inférence de grands modèles de langage. Le gain annoncé atteint <strong>2X sur la vitesse de prefill</strong>, cette phase où le modèle avale le prompt avant de générer la réponse. L'auteur du fil revendique des gains allant jusqu'à <strong>30x/40x</strong>, en s'inspirant du CMP170HX.</p>\n<p>Le revers est immédiat et très concret : les prix des cartes concernées grimpent aussi. Autrement dit, le matériel d'occasion qui constituait la porte d'entrée pas chère vers l'inférence locale devient un peu moins une bonne affaire à mesure que la nouvelle circule.</p>\n<h2 id=\"125-milliards-de-parametres-sur-16-go-de\">125 milliards de paramètres sur 16 Go de VRAM</h2>\n<p>Un membre du subreddit a adapté l'approche de <strong>glm-flash-lite</strong> — qui faisait déjà tourner GLM-5.3 avec une empreinte mémoire étonnamment faible — au modèle Qwen3.8-Flash-Next, 125B de paramètres. La ficelle : au lieu d'épingler les 24k experts en RAM système (~48–64 Go) comme le font les setups type Strata, il déporte directement sur le <strong>SSD NVMe</strong>. Sur une RTX 4090 avec 16 Go de VRAM et seulement 8 Go de RAM alloués, la mesure donne 28–33 tok/s en prose et 19–22 tok/s en code sur contexte court, plus 20,8 tok/s en décodage à 100k de contexte.</p>\n<p>Un autre montage, rapporté dans un fil distinct, atteint des ordres de grandeur très différents : RTX 5080 16 Go, Core Ultra 9 285K, 62 Go de DDR5, Qwen3.8-Flash-Next en quantification <strong>IQ3_S</strong> sur le moteur Basalt, en 262K de contexte avec un KV cache int8. Sur une session de codage agentique (103 requêtes, jusqu'à 130K de contexte), le traitement de prompt tourne à 5 011 t/s en moyenne et 5 118 en pic, la génération à 153 t/s en moyenne pour 262 en pic, avec 5,2 Go de RAM encore libres.</p>\n<p>Les deux résultats ne se comparent pas directement : quantification, moteur et budget mémoire diffèrent. Ils disent en revanche la même chose — le facteur limitant s'est déplacé du nombre de paramètres vers l'ingénierie de la mémoire.</p>\n<h2 id=\"deepseek-v4-1-flash-763-milliards-de-par\">DeepSeek-V4.1 Flash : 763 milliards de paramètres en salle d'attente</h2>\n<p>Une pull request d'am17an (#31086) porte sur l'ajout du modèle <strong>DSV4.1 Flash</strong> dans llama.cpp, le moteur d'inférence de ggml-org. Le modèle est publié par deepseek-ai sur Hugging Face sous le nom DeepSeek-V4.1-Flash, accompagné d'un rapport technique en PDF.</p>\n<p>Le billet paru sur r/LocalLLaMA signale une taille de <strong>763 milliards de paramètres</strong> et l'intérêt de la communauté locale pour son exécution via llama.cpp. À ce stade, il s'agit d'une proposition de support, pas d'une prise en charge disponible.</p>\n<h2 id=\"kimi-k3-1-pro-poids-ouverts-le-4-novembr\">Kimi K3.1 Pro : poids ouverts le 4 novembre</h2>\n<p>Kimi K3.1 Pro fait l'objet d'un billet technique consacré à l'avancée d'une intelligence ouverte. Les poids du modèle seront publiés le <strong>4 novembre</strong>. Il s'agit d'une version post-entraînée de K3, ce qui devrait lui valoir un support dès le jour J sur toutes les plateformes.</p>\n<p>Le calendrier annoncé et la nature post-entraînée du modèle comptent autant que le résultat : un support immédiat suppose que les intégrations ont pu être préparées en amont, ce qui n'est pas le cas de tous les modèles ouverts à leur sortie.</p>\n<h2>Et maintenant ?</h2>\n<p>Mis bout à bout, ces fils dessinent moins une course aux paramètres qu'une course aux kilooctets : déporter les experts sur le NVMe, quantifier en IQ3_S, compresser le KV cache en int8, débloquer du compute sur des cartes de génération précédente. Le moteur d'inférence (llama.cpp, Basalt) pèse désormais autant que le GPU dans l'équation. Reste une variable que personne ne maîtrise dans ces discussions : le prix des cartes, qui monte à mesure que la communauté découvre ce qu'elles savent encore faire.</p>",
+ "pivot": "6461a8de54d0ded4",
+ "tags": [
+  "open-source",
+  "matériel",
+  "dev",
+  "deepseek"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xelhpj/cmp170hx_inspiration_unlocks_30x40x_also_up_to_2x/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xewcs8/kimi_k31_pro_tech_blog_advancing_open_intelligence/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xev6bo/leanqwenflash_qwen38flashnext_125b_running_at_20/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xesda1/benchmark_stratabasalt_runs_qwen38_flash_next_iq3/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xeqf7k/model_dsv41_flash_by_am17an_pull_request_31086/"
+  }
+ ],
+ "date": "2026-10-25T09:14:39+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1745,
+  "sortie": 2878
+ }
+}

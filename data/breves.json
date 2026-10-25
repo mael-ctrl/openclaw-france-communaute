@@ -1,5 +1,106 @@
 [
  {
+  "id": "f53f33349070c739",
+  "slug": "ling-3-1-flash-1019-les-poids-de-la-mise-a-jour-se-font-attendre-f53f33",
+  "titre": "Ling 3.1 Flash 1019 : les poids de la mise à jour se font attendre",
+  "resume": "Un membre du subreddit r/LocalLLaMA cherche en vain des informations sur la publication des poids de la mise à jour « 1019 » du modèle Ling 3.1 Flash. Il indique n'avoir rien trouvé sur Hugging Face ni via une recherche rapide, et demande si InclusionAI s'est exprimé sur le sujet. Aucune réponse officielle n'est rapportée dans l'extrait.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfa4pt/have_inclusionai_said_anything_about_ling_31/",
+  "date_source": "2026-10-25T18:39:13+00:00",
+  "date_redac": "2026-10-25T18:42:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 655,
+   "sortie": 318
+  }
+ },
+ {
+  "id": "0e583c82e15217fb",
+  "slug": "rtx-3080-20-go-p2p-et-rebar-debloques-70-sur-le-traitement-de-prompt-0e583c",
+  "titre": "RTX 3080 20 Go : P2P et ReBAR débloqués, +70 % sur le traitement de prompt",
+  "resume": "Un membre de r/LocalLLaMA partage les tests du déblocage P2P sur les RTX 3080 20 Go : le mode tensor parallel y gagne fortement en vitesse de traitement des prompts. Le mérite revient à u/nathannguyennng, empêché de publier faute de karma. Banc d'essai : Proxmox VE, Threadripper 1920x, deux RTX 3080 20 Go à 240 W, vLLM 0.32.0 et un modèle Qwen3.8-27B AWQ INT4 avec cache KV FP8.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xf9kmd/rtx_3080_20gb_got_rebar_and_p2p_unlock_70_prompt/",
+  "date_source": "2026-10-25T18:16:54+00:00",
+  "date_redac": "2026-10-25T18:42:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 886,
+   "sortie": 1289
+  }
+ },
+ {
+  "id": "faf8f62f6992a483",
+  "slug": "logitech-renouvelle-son-casque-esport-g-pro-x3-lightspeed-faf8f6",
+  "titre": "Logitech renouvelle son casque esport G Pro X3 LightSpeed",
+  "resume": "Pour les dix ans de sa série Pro, Logitech lance le G Pro X3 LightSpeed. Le casque esport conserve le design et les transducteurs du modèle précédent, mais gagne en autonomie comme en qualité de micro, comblant ainsi son principal point faible.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/logitech/3281055_test-du-logitech-g-pro-x3-lightspeed-la-reference-du-casque-esport-gomme-enfin-son-plus-gros-point-faible",
+  "date_source": "2026-10-25T18:02:00+00:00",
+  "date_redac": "2026-10-25T18:42:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 691,
+   "sortie": 652
+  }
+ },
+ {
+  "id": "14990e1c50fa761d",
+  "slug": "l-acer-swift-go-14-ai-avec-ultra-9-et-32-go-de-ram-a-1-234-99-14990e",
+  "titre": "L'Acer Swift Go 14 AI avec Ultra 9 et 32 Go de RAM à 1 234,99 €",
+  "resume": "Acer propose son ultrabook Swift Go 14 AI à 1 234,99 euros sur son site, au lieu de 1 499,99 euros, soit 265 euros de moins. La machine associe un écran OLED, un processeur Ultra 9 et 32 Go de RAM, une configuration pensée pour la bureautique et le multitâche.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/bons-plans/3297739_taille-pour-la-productivite-lultrabook-acer-swift-go-14-ai-avec-ecran-oled-ultra-9-et-32-go-de-ram-coute-265-e-de-moins",
+  "date_source": "2026-10-25T17:28:00+00:00",
+  "date_redac": "2026-10-25T18:42:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 732,
+   "sortie": 128
+  }
+ },
+ {
+  "id": "2ffbdcd651c2874a",
+  "slug": "opencode-un-utilisateur-de-localllama-hesite-a-passer-a-pi-ou-dsh-2ffbdc",
+  "titre": "OpenCode : un utilisateur de LocalLLaMA hésite à passer à Pi ou DSH",
+  "resume": "Sur r/LocalLLaMA, un utilisateur d'OpenCode explique que les erreurs de son ancienne version V1 ne seront jamais corrigées, et qu'il hésite à passer à la v2, critiquée par plusieurs personnes. Il a testé DSH (0.1), qui n'a pas réussi à mener à terme un logiciel complet, et demande des retours d'expérience sur un basculement vers Pi ou DSH.",
+  "tags": [
+   "dev",
+   "open-source",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xf7loz/is_it_time_to_jump_ship_from_opencode/",
+  "date_source": "2026-10-25T16:59:30+00:00",
+  "date_redac": "2026-10-25T18:42:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 768,
+   "sortie": 1073
+  }
+ },
+ {
   "id": "d6313666524e6ac0",
   "slug": "quel-est-le-plus-petit-modele-capable-d-ecrire-un-anglais-a-peu-pres-c-d63136",
   "titre": "Quel est le plus petit modèle capable d'écrire un anglais à peu près correct ?",

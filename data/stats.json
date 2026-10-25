@@ -1,22 +1,18 @@
 {
- "runs": 370,
- "items_collectes": 2824,
- "breves_publiees": 1339,
- "articles_publies": 259,
- "tokens_entree": 1377361,
- "tokens_sortie": 1944089,
+ "runs": 371,
+ "items_collectes": 2833,
+ "breves_publiees": 1344,
+ "articles_publies": 260,
+ "tokens_entree": 1382705,
+ "tokens_sortie": 1952012,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-25T16:31:49+00:00",
+ "dernier_run": "2026-10-25T18:43:13+00:00",
  "solde": {
   "total": "83.60",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-24T07:22:15+00:00",
-   "message": "déploiement : [Errno 54] Connection reset by peer"
-  },
   {
    "ts": "2026-10-24T10:19:28+00:00",
    "message": "brève impossible (Gyro quants looks like EXL3 but kinda closed source. please ) : réponse non-JSON"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-25T14:56:16+00:00",
    "message": "brève impossible (Lure-TTS and Lure-Turbo: 600M voice models to run 4x faster ) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-25T18:42:39+00:00",
+   "message": "brève impossible (I made an arena for fighting JEVs) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -1499,6 +1499,10 @@
   ],
   [
    "2026-10-25T16:31:49+00:00",
+   "83.60"
+  ],
+  [
+   "2026-10-25T18:42:08+00:00",
    "83.60"
   ]
  ],

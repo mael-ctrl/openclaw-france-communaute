@@ -3249,3 +3249,9 @@
 {"ts": "2026-10-25T17:05:54+00:00", "evenement": "deploiement", "details": {"fichiers": 1862, "octets": 38227721}, "sha256": "832059e8e3445989b7a31e17a20d5ee8a7d308bc5232a2a09869b0dacdd3a34d"}
 {"ts": "2026-10-25T17:05:54+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "047bf04aac32ce7e8c72e559ff241d465708bf22e58de1cf55f2005dfa9b3e5c"}
 {"ts": "2026-10-25T17:05:54+00:00", "evenement": "bilan", "details": {"duree_s": 2084.8, "neufs": 0, "breves": 0, "articles": 0, "fichiers": 1825, "envois": 1862, "publications": 0}, "sha256": "d1845d82d7064788a601a8b2e0728f62bec311b99cd8ca38e0db8d3ecacb5b2a"}
+{"ts": "2026-10-25T18:42:08+00:00", "evenement": "collecte", "details": {"neufs": 9}, "sha256": "f450f831c776c5ca51ac513aeaf87e44d50e76ea362b0939d67c59430134ffe4"}
+{"ts": "2026-10-25T18:42:39+00:00", "evenement": "erreur", "details": {"message": "brève impossible (I made an arena for fighting JEVs) : réponse non-JSON"}, "sha256": "7cbda1eda8ddbaf2a82e35fcc3766443ee1a95d999cf0a307d4c1eec98779774"}
+{"ts": "2026-10-25T18:43:31+00:00", "evenement": "construction", "details": {"fichiers": 1831}, "sha256": "9c850c13c90f51807ec0d7e417537c7e96bc66a61002952c7f1123cbbadefcbd"}
+{"ts": "2026-10-25T19:24:39+00:00", "evenement": "deploiement", "details": {"fichiers": 1872, "octets": 38481532}, "sha256": "52aab375329f5d97b87c03a73ef68d47d4a3a0d280ac445a269f62e7bf3051c9"}
+{"ts": "2026-10-25T19:24:39+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "05f6e67f9c455d296dbb5fdd8f90274739930466e737f4a724790bf4bbf944bf"}
+{"ts": "2026-10-25T19:24:39+00:00", "evenement": "bilan", "details": {"duree_s": 2572.6, "neufs": 9, "breves": 5, "articles": 1, "fichiers": 1831, "envois": 1872, "publications": 0}, "sha256": "4b1d66171ac1eebe872eaac9eda73244cf67db8fd36c6433f404304412b70f98"}

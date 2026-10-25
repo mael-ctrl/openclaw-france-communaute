@@ -1,5 +1,67 @@
 [
  {
+  "id": "e13e17a7b37dc973",
+  "slug": "kimi-k3-1-pro-les-poids-ouverts-annonces-pour-le-4-novembre-e13e17",
+  "titre": "Kimi K3.1 Pro : les poids ouverts annoncés pour le 4 novembre",
+  "resume": "Le billet technique consacré à Kimi K3.1 Pro, intitulé « Advancing Open Intelligence », annonce une publication en poids ouverts le 4 novembre. Le modèle y est présenté comme une simple version post-entraînée de K3. Conséquence pratique : il devrait être pris en charge dès le jour J sur toutes les plateformes.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xewcs8/kimi_k31_pro_tech_blog_advancing_open_intelligence/",
+  "date_source": "2026-10-25T07:51:59+00:00",
+  "date_redac": "2026-10-25T08:11:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 649,
+   "sortie": 537
+  }
+ },
+ {
+  "id": "81f9a483f6b3a4e4",
+  "slug": "quels-benchmarks-refletent-vraiment-ce-que-savent-faire-les-modeles-81f9a4",
+  "titre": "Quels benchmarks reflètent vraiment ce que savent faire les modèles ?",
+  "resume": "Sur r/LocalLLaMA, un internaute doute des benchmarks actuels, AA compris : selon lui, ils ne reflètent pas ce que les modèles savent réellement faire. Il pointe des modèles « benchmaxxed », proches du front sur les benchmarks de code mais inutilisables pour autre chose que des poèmes. Il demande quels benchmarks sont les plus réalistes pour le code, la recherche agentique et le travail de bureau.",
+  "tags": [
+   "recherche",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xevwim/most_realistic_benchmarks/",
+  "date_source": "2026-10-25T07:24:25+00:00",
+  "date_redac": "2026-10-25T08:11:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 659,
+   "sortie": 790
+  }
+ },
+ {
+  "id": "9c33e7d23a65ed33",
+  "slug": "beam-1-0-501b-23b-actifs-un-retour-sur-du-dev-backend-9c33e7",
+  "titre": "Beam 1.0 (501B, 23B actifs) : un retour sur du dev backend",
+  "resume": "Neuf jours après la sortie de Beam 1.0 (501B de paramètres, 23B actifs), un utilisateur de r/LocalLLaMA partage son retour sur du développement backend,测试é via des providers. Il est jugé rapide, à l'aise sur de grandes bases de code comme sur Rust, PHP, Python ou JS. Il boucle parfois et rate quelques appels d'outils. Pas de vision, et la 3D n'est pas son point fort.",
+  "tags": [
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xevrui/beam_10_501b_a23b_9_days_after_release_your/",
+  "date_source": "2026-10-25T07:16:38+00:00",
+  "date_redac": "2026-10-25T08:11:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 852,
+   "sortie": 800
+  }
+ },
+ {
   "id": "5f46374ad5df805b",
   "slug": "hermes-agent-publie-une-version-canary-v0-22-5-5f4637",
   "titre": "Hermes Agent publie une version canary v0.22.5",

@@ -1,5 +1,69 @@
 [
  {
+  "id": "91ee90186a6df15d",
+  "slug": "qwen3-8-flash-next-en-iq3-s-tourne-sur-16-go-de-vram-a-262-tok-s-91ee90",
+  "titre": "Qwen3.8 Flash Next en IQ3_S tourne sur 16 Go de VRAM à 262 tok/s",
+  "resume": "Avec une RTX 5080 16 Go, un Core Ultra 9 285K et 62 Go de DDR5, Qwen3.8-Flash-Next en quantification IQ3_S tourne sur le moteur Basalt en 262K de contexte avec un KV cache int8. Sur une session de codage agentique (103 requêtes, jusqu'à 130K de contexte), le traitement de prompt atteint 5 011 t/s en moyenne et 5 118 en pic, la génération 153 t/s en moyenne pour 262 en pic, et 5,2 Go de RAM restent libres.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xesda1/benchmark_stratabasalt_runs_qwen38_flash_next_iq3/",
+  "date_source": "2026-10-25T03:59:23+00:00",
+  "date_redac": "2026-10-25T05:18:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 966,
+   "sortie": 1168
+  }
+ },
+ {
+  "id": "cb8d4d84dcdf5033",
+  "slug": "quantification-2-bits-de-deepseek-v4-1-flash-des-benchmarks-trop-beaux-cb8d4d",
+  "titre": "Quantification 2 bits de DeepSeek-V4.1-Flash : des benchmarks trop beaux ?",
+  "resume": "Un utilisateur de r/LocalLLaMA s'interroge sur les GGUF GSQ-RCO publiés par ISTA pour DeepSeek-V4.1-Flash, qui afficheraient une qualité équivalente au modèle de base à environ 2 bits par poids. Le doute vient des benchmarks saturés (90 % et plus, AIME25 à 100 pour toutes les versions), incapables selon lui de révéler une dégradation, et de l'absence de KLD publiée pour ces modèles. Il demande si quelqu'un a mesuré le KLD ou la perplexité à ce niveau de quantification.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xes5x0/too_good_to_be_true_istas_gsqrco_2bit/",
+  "date_source": "2026-10-25T03:48:25+00:00",
+  "date_redac": "2026-10-25T05:18:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 799,
+   "sortie": 382
+  }
+ },
+ {
+  "id": "11dfa3640cc75ad6",
+  "slug": "gpt-x3-150m-detrone-smollm2-135m-en-tete-du-classement-open-slm-11dfa3",
+  "titre": "GPT-X3-150M détrône SmolLM2-135M en tête du classement Open SLM",
+  "resume": "Un petit modèle de 150 millions de paramètres, GPT-X3-150M, prend la première place de l'Open SLM Leaderboard. Il détrône SmolLM2-135M, le modèle compact de HuggingFace, grâce à une architecture hybride combinant GDN2 et GQA. L'information a été relayée sur le subreddit r/LocalLLaMA, où évolue la communauté des modèles ouverts exécutables en local. Le classement porte sur les petits modèles de langage, un segment distinct de celui des grands modèles généralistes.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xerxtr/gptx3150m_takes_1_on_the_open_slm_leaderboard/",
+  "date_source": "2026-10-25T03:36:15+00:00",
+  "date_redac": "2026-10-25T05:19:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 652,
+   "sortie": 881
+  }
+ },
+ {
   "id": "c3dbf7eff3883c3f",
   "slug": "l-artificial-analysis-index-juge-peu-representatif-des-usages-reels-c3dbf7",
   "titre": "L'Artificial Analysis Index jugé peu représentatif des usages réels",

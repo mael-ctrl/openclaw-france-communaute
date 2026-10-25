@@ -1,0 +1,41 @@
+{
+ "slug": "120-w-sur-une-rtx-pro-4000-sff-67-sur-qwen3-8-27b-71504b",
+ "titre": "120 W sur une RTX PRO 4000 SFF : +67 % sur Qwen3.8 27B",
+ "chapo": "Une RTX PRO 4000 Blackwell SFF — 24 Go de GDDR7, 70 W d'usine — poussée à 120 W par un VBIOS modifié gagne jusqu'à 67 % de débit sur Qwen3.8 27B, sur 158 requêtes. À côté de ce bricolage, la communauté open source s'interroge sur ce qu'elle garde : quantisations, modèles, règles de subreddit.",
+ "html": "<h2 id=\"70-w-d-usine-120-w-en-pratique-zero-soud\">70 W d'usine, 120 W en pratique, zéro soudure</h2>\n<p>La <strong>RTX PRO 4000 Blackwell SFF</strong> n'est pas une carte de concours : 24 Go de GDDR7, 70 W d'usine, et aucun connecteur d'alimentation auxiliaire. C'est justement ce qui rend le test de r/LocalLLaMA intéressant. L'auteur charge un <strong>VBIOS modifié en mémoire</strong> et relève la limite de puissance à 120 W — sans flasher l'EEPROM, sans fer à souder, donc sans rien graver dans le matériel.</p>\n<p>Le protocole tient sur <strong>158 requêtes</strong>. Sur Qwen3.8 27B, le meilleur point passe de 35,04 à 58,53 tok/s à 120 W, soit <strong>+67 %</strong>. La mémoire prend 20 % et le cœur 180 MHz au passage. Autrement dit : la carte accepte plus de watts que ce que son profil d'usine autorise, et le débit de génération suit.</p>\n<p>Cette marge existe parce que la carte est bridée à la base — profil compact, pas de connecteur dédié. Le test ne dit pas si elle tiendrait sur la durée ; il documente un point de mesure, sur une machine, avec un VBIOS donné.</p>\n<h2 id=\"le-27b-encaisse-le-35b-a3b-fait-du-surpl\">Le 27B encaisse, le 35B A3B fait du surplace</h2>\n<p>Le chiffre de 67 % ne se transpose pas tel quel. Sur <strong>Qwen3.6 35B A3B</strong>, la courbe reste quasi plate entre 106 et 120 W : les watts supplémentaires ne se convertissent plus en tokens. Le compte rendu ne donne pas d'explication à cet écart, et ne prétend pas en faire une règle générale — un VBIOS, deux modèles, 158 requêtes.</p>\n<p>La leçon praticable est plus étroite, et plus utile : <strong>le gain dépend du modèle chargé</strong>, pas seulement du budget de watts. Deux architectures de tailles différentes ne réagissent pas de la même façon à la même hausse de limite. Pour qui fait tourner du local sur du matériel compact, cela veut dire qu'un réglage trouvé sur un modèle ne se recopie pas à l'aveugle sur le suivant.</p>\n<p>Reste le contexte de la dépêche : une carte professionnelle de 24 Go, sans alimentation auxiliaire, remontée de 70 à 120 W par simple chargement de VBIOS. C'est le genre de marge que les acheteurs de petites configurations guettent, et que les fabricants laissent rarement documentée.</p>\n<h2 id=\"sauvegarder-les-quants-avant-qu-il-ne-so\">Sauvegarder les quants, avant qu'il ne soit trop tard</h2>\n<p>Sur le même subreddit, un autre fil appelle à <strong>sauvegarder sans attendre</strong> les quantisations de modèles que l'on souhaite conserver. L'auteur renvoie vers la page de requêtes de modèles de <strong>mradermacher</strong> sur Hugging Face et estime que la situation est identique chez les autres producteurs de quants. Il propose aussi de créer des <strong>torrents</strong> de ces fichiers et de les partager sur llama.garden, pirateface.co et huggingbay.xyz.</p>\n<p>Le message ne cite aucune suppression effective : c'est un appel à l'anticipation, pas un constat de disparition. Il s'inscrit dans une inquiétude plus large sur la pérennité des poids ouverts et des versions quantifiées, souvent produites par des tiers et non par l'éditeur du modèle d'origine.</p>\n<p>En parallèle, <strong>r/opensource</strong> a publié de nouvelles règles de soumission : les projets qui utilisent l'IA, qui sont fabriqués par l'IA ou qui sont destinés à l'IA n'y sont plus les bienvenus. Le message, posté samedi soir, justifie ce choix par le fait que « l'IA, telle qu'elle existe aujourd'hui, est incongrue avec cet open source ». D'autres restrictions accompagnent ce bannissement. Deux gestes de repli, deux logiques distinctes : l'un archive, l'autre exclut.</p>\n<h2 id=\"nanbeige4-3-33b-et-gmail-live-cote-googl\">Nanbeige4.3-33B, et Gmail Live côté Google</h2>\n<p>Côté modèles, <strong>Nanbeige4.3-33B</strong> est mis en ligne sur Hugging Face. Selon l'équipe, il devance <strong>Qwen3.8-27B</strong> sur un ensemble de benchmarks — la revendication vient des auteurs, pas d'un tiers. Le modèle sert aussi de socle à une future pipeline de distillation de petits modèles, notamment Nanbeige4.3-3B, et peut-être d'autres tailles.</p>\n<p>Le mouvement est symétrique de celui décrit plus haut : là où certains sauvegardent des quantisations existantes, d'autres publient de nouveaux poids ouverts et préparent leur déclinaison en plus petit. La même semaine, Qwen3.8-27B sert à la fois de référence à battre et de cobaye pour un test de limite de puissance.</p>\n<p>Chez Google, le terrain est différent. <strong>Gmail Live</strong> permet de demander à sa boîte mail où se trouve une information, plutôt que de multiplier les recherches. L'assistant vocal, déjà proposé aux particuliers abonnés à Google AI, arrive désormais dans <strong>Workspace</strong>, avec un choix de voix ; la boîte de réception assistée par IA s'étend aux comptes professionnels. D'un côté des cartes qu'on débride et des poids qu'on archive, de l'autre un assistant vocal qui s'installe dans la messagerie du bureau.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois signaux dans le même lot : du matériel bridé qui se débride sans soudure, des poids ouverts qui se disputent la première place sur benchmarks déclarés par leurs auteurs, et des communautés qui discutent de ce qu'elles conservent. Le fil commun n'est pas performance mais conservation — des quants, des cartes, des usages. Rien dans ces dépêches ne dit ce qui disparaîtra ; plusieurs disent que certains ne veulent pas attendre pour le vérifier.</p>",
+ "pivot": "71504b18de354e11",
+ "tags": [
+  "matériel",
+  "open-source",
+  "dev",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfe84i/rtx_pro_4000_blackwell_sff_67_generation_on/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/25/vous-ne-retrouvez-jamais-rien-dans-gmail-google-a-une-idee/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf11qj/backup_your_quants/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face/"
+  }
+ ],
+ "date": "2026-10-25T22:27:51+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1612,
+  "sortie": 3843
+ }
+}

@@ -3275,3 +3275,9 @@
 {"ts": "2026-10-25T21:36:38+00:00", "evenement": "deploiement", "details": {"fichiers": 1876, "octets": 38453127}, "sha256": "970be1735b4fd3dff726cf1b3feaaef80deebb4b68ae463fbd53e21989b20a38"}
 {"ts": "2026-10-25T21:36:38+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "26a72cac4c2ddbffbf735e2a04ffa3265f60bea29829c773995d159a7120b197"}
 {"ts": "2026-10-25T21:36:38+00:00", "evenement": "bilan", "details": {"duree_s": 1581.5, "neufs": 1, "breves": 1, "articles": 1, "fichiers": 1839, "envois": 1876, "publications": 0}, "sha256": "75609fd0fd66248aa05a88e379e46a0222ef49ab94a29c5f6146c2b5345a2b60"}
+{"ts": "2026-10-25T22:26:47+00:00", "evenement": "collecte", "details": {"neufs": 5}, "sha256": "8bdafa39819612ae4e79ab257077da76dd27960bf1d772ef3ef0a806e03f6f32"}
+{"ts": "2026-10-25T22:27:28+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Tuned Strata config, 2000 PP and 95-105 mean tg) : réponse non-JSON"}, "sha256": "a96c20e023a4a44b4f61695e07cd80842e8390f03985d772484c5b7e07292657"}
+{"ts": "2026-10-25T22:28:08+00:00", "evenement": "construction", "details": {"fichiers": 1844}, "sha256": "7a1212a06ba82e6880000157c2ae969919242e7eb8d51f4eb942d45fec3497fc"}
+{"ts": "2026-10-25T22:53:56+00:00", "evenement": "deploiement", "details": {"fichiers": 1884, "octets": 38657121}, "sha256": "8ae960a977d2a3459a49585a92f56540027031674d98b2b5020dc6260e3702c1"}
+{"ts": "2026-10-25T22:53:56+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "b31261a28bc30ab62263110f0479a9ac6fd92f4dc60596ac01c322d2a8ade857"}
+{"ts": "2026-10-25T22:53:56+00:00", "evenement": "bilan", "details": {"duree_s": 1642.7, "neufs": 5, "breves": 4, "articles": 1, "fichiers": 1844, "envois": 1884, "publications": 0}, "sha256": "1d0b16a9ba4546402c9613149f826be821d1ff0e8ba1387af634d3254f895ad2"}

@@ -1,22 +1,18 @@
 {
- "runs": 374,
- "items_collectes": 2837,
- "breves_publiees": 1351,
- "articles_publies": 263,
- "tokens_entree": 1392237,
- "tokens_sortie": 1963587,
+ "runs": 375,
+ "items_collectes": 2842,
+ "breves_publiees": 1355,
+ "articles_publies": 264,
+ "tokens_entree": 1396848,
+ "tokens_sortie": 1970681,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-25T21:11:00+00:00",
+ "dernier_run": "2026-10-25T22:27:51+00:00",
  "solde": {
   "total": "83.58",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-24T10:19:28+00:00",
-   "message": "brève impossible (Gyro quants looks like EXL3 but kinda closed source. please ) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-24T11:21:12+00:00",
    "message": "brève impossible (qwen3.8 27B on my 3090 basically tied Opus 5.5 on a Korean R) : réponse non-JSON"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-25T18:42:39+00:00",
    "message": "brève impossible (I made an arena for fighting JEVs) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-25T22:27:28+00:00",
+   "message": "brève impossible (Tuned Strata config, 2000 PP and 95-105 mean tg) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -1515,6 +1515,10 @@
   ],
   [
    "2026-10-25T21:10:41+00:00",
+   "83.58"
+  ],
+  [
+   "2026-10-25T22:26:47+00:00",
    "83.58"
   ]
  ],

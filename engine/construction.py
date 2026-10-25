@@ -338,7 +338,7 @@ def page_accueil(breves, articles, stats, journal_entrees):
   </div>
 </section>
 {bloc_vedette}
-<section class="section" aria-labelledby="breve-titre">
+<section class="section" id="la-breve" aria-labelledby="breve-titre">
   <div class="enveloppe">
     <form class="breve-form" action="https://buttondown.com/api/emails/embed-subscribe/la-breve-du-crabe" method="post">
       <p class="oeil">// LA BRÈVE DU CRABE — LA NEWSLETTER</p>
@@ -502,6 +502,7 @@ def bloc_suivre():
         <a class="bouton fantome" href="{flux_articles}">RSS articles uniquement</a>
         <a class="bouton fantome" href="{profil}" rel="noopener">Suivre sur Bluesky</a>
         <a class="bouton fantome" href="/podcast/">Écouter le podcast</a>
+        <a class="bouton fantome" href="/#la-breve">La newsletter gratuite</a>
       </div>
       <details class="aide-rss prose">
         <summary>Première fois avec un flux RSS ?</summary>

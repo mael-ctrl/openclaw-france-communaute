@@ -1,5 +1,26 @@
 [
  {
+  "id": "c1571ec5de4f0cf8",
+  "slug": "un-serveur-ddr3-d-occasion-a-550-dollars-pour-l-inference-de-gros-mode-c1571e",
+  "titre": "Un serveur DDR3 d'occasion à 550 dollars pour l'inférence de gros modèles",
+  "resume": "Un internaute de r/LocalLLaMA se demande si un serveur DDR3 d'occasion peut servir à l'inférence de gros modèles. La machine, un Dell PowerEdge R820 proposé à 550 dollars, embarque quatre Xeon E5-4640 cadencés de 2,40 à 2,80 GHz, 768 Go de RAM ECC et deux disques de 146 Go. Il envisage d'y ajouter un GPU, en s'appuyant sur les modèles MoE à 8 ou 16 milliards de paramètres actifs comme DeepSeek et sur les projets récents qui promettent de faire tourner de gros MoE sur des ordinateurs de bureau.",
+  "tags": [
+   "matériel",
+   "deepseek",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfd1nk/monolithic_ddr3_server/",
+  "date_source": "2026-10-25T20:34:08+00:00",
+  "date_redac": "2026-10-25T21:10:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 761,
+   "sortie": 584
+  }
+ },
+ {
   "id": "c4f38672235af04b",
   "slug": "140-to-de-stockage-et-un-serveur-a100-quels-modeles-telecharger-c4f386",
   "titre": "140 To de stockage et un serveur A100 : quels modèles télécharger ?",

@@ -726,6 +726,47 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-24/hub-integrite/`.
 
+## Budget et lien partenaire OpenClaw — livraison du 25/10/2026
+
+- **Une amélioration** : `/openclaw/#budget` distingue le kit gratuit des coûts
+  du modèle IA et de l’hébergement. Mention avant les boutons de téléchargement,
+  machine compatible ou VPS facultatif, ressources à vérifier, limite de dépense,
+  paiement initial, engagement, renouvellement, taxes et options à comparer.
+  Les anciens prix approximatifs, rabais affirmés, absence de surcoût garantie et
+  compatibilité universelle des hébergeurs sont retirés de cette page.
+- Lien Hostinger conservé exactement, avec `sponsored noopener`, signalé comme
+  partenaire et facultatif. Aucune remise ni recette effective affirmée ; aucun
+  achat nécessaire pour accéder au kit. Guide de budget existant et pages
+  officielles OpenClaw Getting started / Hostinger VPS consultés le 25/10.
+  Aucun tarif recopié, compte créé, achat ou installation réelle effectué.
+- Trois nouveaux tests échouent avant correction puis passent : **46 tests hub
+  OK**, **226 tests de la suite complète OK**, **3 tests sur le HTML public OK**.
+  Chrome avec et sans JavaScript : **12 contrôles locaux** à 1440, 1024, 430,
+  390, 375 et 360 px ; **6 publics** à 1440, 390 et 360 px. Mention avant les
+  boutons, ancres au clavier, liens, styles et absence de débordement vérifiés.
+  La sonde navigateur a été corrigée pour contrôler le fond en dégradé et
+  attendre la fin du défilement natif sans timers JavaScript ; aucun style du
+  site n’a été modifié pour faire passer la recette.
+- Bureau illisible dans le cron (`Resource deadlock avoided`, Git inaccessible) :
+  déploiement par `python3 outils/deployer_openclaw.py` depuis le clone synchronisé
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Sauvegarde privée et absence de
+  divergence production/Git, puis recontrôle avant envoi ; **36 fichiers relus
+  via FTP**, identiques aux sources. Seuls OpenClaw et le sitemap ont changé.
+  Dates/modes des sources restaurés avant régénération : ZIP et manifeste
+  SHA-256 inchangés octet pour octet, également relus en HTTPS.
+- Santé : **les six URL demandées en HTTP 200**, contrôle étendu de **12 URL en
+  200**, sans suivre de redirection. Introduction et section budget publiques
+  identiques aux sources. **IndexNow HTTP 200** pour `/openclaw/` ; notification
+  acceptée, pas preuve d’indexation ni de croissance.
+- **Aucune nouvelle distribution** : journal du 25/10 relu après synchronisation ;
+  le post Bluesky du 20/10 ferme cette plateforme pour la semaine, les autres
+  accès et permissions restent bloquants selon ce contrôle déjà consigné. Aucun
+  nouvel audit de boîte mail prétendu, aucun recontact NewslettersBox du 24/10.
+  Prochaine priorité : rapprocher les promesses de sécurité et de sauvegarde
+  de la page OpenClaw du comportement réel des scripts, sans garantie absolue.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-25/hub-budget-openclaw/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

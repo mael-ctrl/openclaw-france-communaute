@@ -1,0 +1,41 @@
+{
+ "slug": "llama-cpp-qwen3-8-flash-next-et-deepseek-v4-1-le-local-avanc-2ce2bf",
+ "titre": "llama.cpp, Qwen3.8-Flash-Next et DeepSeek-V4.1 : le local avance",
+ "chapo": "Une pull request CUDA dans llama.cpp, deux recettes pour faire tourner Qwen3.8-Flash-Next sur 16 Go de VRAM, une PR pour DeepSeek-V4.1 Flash et des poids annoncés pour Kimi K3.1 Pro : sur r/LocalLLaMA, la semaine parle surtout de faire tenir gros dans petit.",
+ "html": "<h2 id=\"llama-cpp-la-chasse-aux-pourcents-se-jou\">llama.cpp : la chasse aux pourcents se joue dans le kernel</h2>\n<p>Une pull request signée <strong>anujj</strong> propose de fusionner les matmuls FFN gate/up et la GLU directement au sein du kernel <strong>MMQ</strong> du backend CUDA de llama.cpp, avec des lignes gate/up entrelacées. L'idée n'est pas de changer de moteur ni de quantification, mais de réduire le travail entre les étapes d'un même calcul.</p>\n<p>Les mesures de l'auteur, réalisées via <strong>llama-bench</strong> avec cache K et V en f16, donnent de <strong>+4,6 % à +10,7 %</strong> de tokens par seconde sur un <strong>DGX Spark (GB10)</strong> selon le modèle et la quantification, et de <strong>+1,9 % à +4,1 %</strong> sur une <strong>RTX 5090</strong>. Ce sont des chiffres d'auteur, pas un benchmark indépendant, et la fourchette haute dépend visiblement du couple modèle/quantification.</p>\n<p>Reste que l'ordre de grandeur est typique de ce qui fait progresser l'inférence locale : pas une rupture, mais des pourcents gagnés kernel par kernel, qui se cumulent au fil des PR.</p>\n<h2 id=\"qwen3-8-flash-next-125b-16-go-de-vram-de\">Qwen3.8-Flash-Next : 125B, 16 Go de VRAM, deux stratégies</h2>\n<p>Deux posts de la même semaine abordent le même modèle, <strong>Qwen3.8-Flash-Next (125B de paramètres)</strong>, avec des approches qui n'ont rien à voir.</p>\n<p>La première, baptisée <strong>LeanQwenFlash</strong>, adapte l'approche de <em>glm-flash-lite</em> — qui faisait tourner GLM-5.3 avec une empreinte mémoire étonnamment faible — au modèle de Qwen. Plutôt que d'épingler les 24k experts en RAM système (~48–64 Go) comme le font des setups type <strong>Strata</strong>, le montage déporte directement sur le <strong>SSD NVMe</strong>. Résultat sur une <strong>RTX 4090</strong> avec 16 Go de VRAM et seulement <strong>8 Go de RAM</strong> alloués : <strong>28–33 tok/s</strong> en prose, <strong>19–22 tok/s</strong> en code sur contexte court, et <strong>20,8 tok/s</strong> en décodage à 100k de contexte.</p>\n<p>La seconde part d'une <strong>RTX 5080 16 Go</strong>, d'un <strong>Core Ultra 9 285K</strong> et de <strong>62 Go de DDR5</strong>. En quantification <strong>IQ3_S</strong> sur le moteur <strong>Basalt</strong>, avec un KV cache int8 et 262K de contexte, une session de codage agentique (103 requêtes, jusqu'à 130K de contexte) atteint <strong>5 011 t/s</strong> en moyenne sur le traitement de prompt (5 118 en pic) et <strong>153 t/s</strong> en génération (262 en pic), avec 5,2 Go de RAM encore libres. Deux métriques, deux machines, deux usages : les chiffres ne se comparent pas directement.</p>\n<h2 id=\"deepseek-v4-1-flash-763-milliards-dans-l\">DeepSeek-V4.1 Flash : 763 milliards dans la file d'attente</h2>\n<p>Côté llama.cpp toujours, une pull request d'<strong>am17an</strong> (#31086) porte sur l'ajout du modèle <strong>DSV4.1 Flash</strong> au moteur d'inférence de ggml-org. Le modèle est publié par <strong>deepseek-ai</strong> sur Hugging Face sous le nom <strong>DeepSeek-V4.1-Flash</strong>, accompagné d'un rapport technique en PDF.</p>\n<p>Le billet paru sur r/LocalLLaMA signale une taille de <strong>763 milliards de paramètres</strong> et l'intérêt de la communauté locale pour son exécution via llama.cpp. À ce gabarit, la question n'est pas de savoir si le modèle tient sur une carte grand public, mais quel type de découpage et de quantification le support du moteur rendra possible.</p>\n<h2 id=\"kimi-k3-1-pro-poids-ouverts-annonces-pou\">Kimi K3.1 Pro : poids ouverts annoncés pour le 4 novembre</h2>\n<p>Un billet technique consacré à l'avancée d'une intelligence ouverte détaille <strong>Kimi K3.1 Pro</strong>. Les poids du modèle seront publiés le <strong>4 novembre</strong>. Il s'agit d'une version post-entraînée de <strong>K3</strong>, ce qui devrait lui valoir un support dès le jour J sur toutes les plateformes — l'information est présentée comme une anticipation, pas comme un fait acquis.</p>\n<p>Le calendrier a son importance pour ceux qui font tourner des modèles en local : entre la publication des poids et les PR d'implémentation dans les moteurs, l'écart se compte souvent en jours ou en semaines. C'est précisément ce délai que les dépêches de cette semaine donnent à observer, entre DeepSeek-V4.1 Flash et Kimi K3.1 Pro.</p>\n<h2>Et maintenant ?</h2>\n<p>Ce qui ressort de ces cinq dépêches, ce n'est ni un modèle vedette ni une annonce spectaculaire, mais le travail de plomberie qui rend l'inférence locale utilisable : un kernel MMQ retouché pour quelques pourcents, un offload NVMe qui contourne les 48–64 Go de RAM système habituellement nécessaires aux experts, un KV cache int8 pour tenir du contexte long. Les poids de Kimi K3.1 Pro et le support de DeepSeek-V4.1 Flash dans llama.cpp avancent en parallèle, sans qu'on puisse dire lequel tirera l'autre. Les chiffres cités restent, pour l'essentiel, des mesures d'auteurs sur leurs propres machines.</p>",
+ "pivot": "2ce2bfc927615b40",
+ "tags": [
+  "open-source",
+  "matériel",
+  "dev",
+  "deepseek"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xey0uw/cuda_fuse_ffn_gateup_matmuls_and_glu_in_mmq_with/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xewcs8/kimi_k31_pro_tech_blog_advancing_open_intelligence/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xev6bo/leanqwenflash_qwen38flashnext_125b_running_at_20/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xesda1/benchmark_stratabasalt_runs_qwen38_flash_next_iq3/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xeqf7k/model_dsv41_flash_by_am17an_pull_request_31086/"
+  }
+ ],
+ "date": "2026-10-25T09:58:32+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1749,
+  "sortie": 2894
+ }
+}

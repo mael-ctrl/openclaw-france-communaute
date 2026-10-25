@@ -1,5 +1,46 @@
 [
  {
+  "id": "d6313666524e6ac0",
+  "slug": "quel-est-le-plus-petit-modele-capable-d-ecrire-un-anglais-a-peu-pres-c-d63136",
+  "titre": "Quel est le plus petit modèle capable d'écrire un anglais à peu près correct ?",
+  "resume": "Un utilisateur de r/LocalLLaMA cherche le plus petit modèle capable de produire un anglais « normal » : grammaticalement correct et cohérent en contexte. Il vise moins de 10 millions de paramètres pour qu'il tourne facilement sur CPU. Testé, Supra-Mini-v6-1M ne convainc pas : dès le prompt « Once upon a time », la sortie part en vrille et devient inexploitable.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xf4sxg/the_minimum_size_of_an_llm_to_generate_a_little/",
+  "date_source": "2026-10-25T15:09:15+00:00",
+  "date_redac": "2026-10-25T15:34:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 831,
+   "sortie": 420
+  }
+ },
+ {
+  "id": "32b758836b963931",
+  "slug": "techcrunch-recense-les-gadgets-et-objets-portables-dopes-a-l-ia-32b758",
+  "titre": "TechCrunch recense les gadgets et objets portables dopés à l'IA",
+  "resume": "TechCrunch publie une compilation des objets connectés et gadgets dopés à l'IA jugés les plus marquants du moment. Le tour d'horizon cite notamment Muse Charm, Bee, Friend et Plaud. Un panorama utile pour situer une catégorie où l'IA sort de l'écran pour se porter sur soi.",
+  "tags": [
+   "matériel",
+   "société"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+  "date_source": "2026-10-25T14:10:00+00:00",
+  "date_redac": "2026-10-25T15:34:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 620,
+   "sortie": 504
+  }
+ },
+ {
   "id": "75568a0e529e8ef5",
   "slug": "anker-solarbank-max-ac-la-batterie-domestique-qui-se-branche-sur-une-p-75568a",
   "titre": "Anker Solarbank Max AC : la batterie domestique qui se branche sur une prise",

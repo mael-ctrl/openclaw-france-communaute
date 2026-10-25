@@ -1,0 +1,41 @@
+{
+ "slug": "gmail-live-entre-dans-workspace-kimi-k3-1-pro-promet-ses-poi-1efc21",
+ "titre": "Gmail Live entre dans Workspace, Kimi K3.1 Pro promet ses poids ouverts",
+ "chapo": "Demander à Gmail où se cache une information plutôt que fouiller sa boîte : l'assistant vocal Gemini arrive dans Workspace. Dans le même temps, Moonshot AI place Kimi K3.1 Pro devant les modèles de ChatGPT et de Gemini au classement d'Artificial Analysis, avec des poids annoncés pour le 4 novembre.",
+ "html": "<h2 id=\"gmail-live-la-voix-s-invite-sur-les-comp\">Gmail Live : la voix s'invite sur les comptes pros</h2>\n<p>Gmail Live n'est plus réservé aux particuliers. L'assistant vocal, déjà proposé aux abonnés individuels à Google AI, débarque dans Workspace. La promesse tient en une ligne : poser la question à sa boîte de réception au lieu d'enchaîner les recherches manuelles pour retrouver un élément.</p>\n<p>Google ajoute deux briques au passage : un choix de voix, et l'extension de sa boîte de réception assistée par IA aux comptes professionnels. Rien de spectaculaire dans l'annonce, mais un déplacement : l'interface de messagerie devient un point d'entrée conversationnel, y compris sur le lieu de travail, là où les volumes de messages sont souvent les plus lourds.</p>\n<h2 id=\"kimi-k3-1-pro-quatrieme-au-classement-de\">Kimi K3.1 Pro : quatrième au classement, devant ChatGPT et Gemini</h2>\n<p>La startup chinoise Moonshot AI a dévoilé Kimi K3.1 Pro, quatrième modèle le plus puissant du classement d'Artificial Analysis. Il dépasse tous les modèles d'IA de ChatGPT et de Gemini. La tech américaine est, une nouvelle fois, bousculée par la concurrence chinoise.</p>\n<p>Le volet ouvert est tout aussi intéressant : les poids du modèle seront publiés le 4 novembre. Il s'agit d'une version post-entraînée de K3, ce qui devrait lui valoir un support dès le jour J sur toutes les plateformes. Un modèle classé haut, donc, et disponible — deux propriétés qui ne vont pas toujours ensemble.</p>\n<p>Le billet technique accompagnant la sortie est présenté comme consacré à l'avancée d'une intelligence ouverte. La formulation compte : elle place la publication des poids au même niveau que la performance brute.</p>\n<h2 id=\"nanbeige4-3-33b-un-33b-devant-un-27b-et-\">Nanbeige4.3-33B : un 33B devant un 27B, et un socle de distillation</h2>\n<p>Moins médiatisé, Nanbeige4.3-33B est en ligne sur Hugging Face. Selon son équipe, le modèle devance Qwen3.8-27B sur un ensemble de benchmarks. Un 33B qui passe devant un 27B : la comparaison à taille voisine reste l'un des axes de travail les plus suivis dans l'open source.</p>\n<p>Nanbeige ne s'arrête pas au modèle publié. Nanbeige4.3-33B sert aussi de socle à la future pipeline de distillation de petits modèles, à commencer par Nanbeige4.3-3B — et peut-être d'autres tailles. La logique est classique : un gros modèle entraîne des descendants plus légers, plus faciles à héberger et à faire tourner.</p>\n<p>Les deux annonces ne se parlent pas directement, mais elles participent du même mouvement : côté Moonshot AI, un modèle fermé qui s'ouvre le 4 novembre ; côté Nanbeige, un modèle déjà ouvert qui sert de matière première à toute une famille.</p>\n<h2 id=\"la-recherche-ia-de-google-remue-l-editio\">La recherche IA de Google remue l'édition en ligne</h2>\n<p>The Verge consacre sa newsletter hebdomadaire The Stepback à un sujet qui ne parle pas de modèles mais de modèle économique : l'effet de la recherche enrichie à l'IA de Google sur l'édition en ligne. Le découpage repart des origines, en rappelant sur quoi l'industrie de la presse numérique s'est appuyée, avant d'examiner ce que ces changements lui font.</p>\n<p>Le sujet est signé Emma Roth, qui suit l'impact de l'IA sur le web. Il a sa place ici : l'assistant vocal de Gmail et les classements de modèles ne vivent pas hors sol. Les éditeurs en ligne dépendent d'une visibilité qui se joue en amont, dans les interfaces de recherche et de réponse.</p>\n<h2>Et maintenant ?</h2>\n<p>En une semaine, trois étages distincts bougent en même temps : l'interface, avec Gmail Live qui entre dans Workspace ; le classement, avec Kimi K3.1 Pro quatrième d'Artificial Analysis et ses poids annoncés pour le 4 novembre ; le socle ouvert, avec Nanbeige4.3-33B et la distillation qui doit en sortir. À côté, The Verge rappelle que la recherche IA de Google remue l'édition en ligne depuis assez longtemps pour mériter une newsletter entière. Les modèles changent de main et gagnent des places ; la question du trafic, elle, reste ouverte.</p>",
+ "pivot": "1efc213fc5f0f759",
+ "tags": [
+  "gemini",
+  "open-source",
+  "recherche",
+  "chatgpt"
+ ],
+ "sources": [
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/25/vous-ne-retrouvez-jamais-rien-dans-gmail-google-a-une-idee/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/24/chine-depasser-chatgpt-startup-kimi-k3-1-pro/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xewcs8/kimi_k31_pro_tech_blog_advancing_open_intelligence/"
+  }
+ ],
+ "date": "2026-10-25T15:34:37+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1483,
+  "sortie": 3284
+ }
+}

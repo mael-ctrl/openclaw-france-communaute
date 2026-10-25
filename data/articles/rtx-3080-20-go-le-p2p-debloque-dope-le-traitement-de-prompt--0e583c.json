@@ -1,0 +1,41 @@
+{
+ "slug": "rtx-3080-20-go-le-p2p-debloque-dope-le-traitement-de-prompt--0e583c",
+ "titre": "RTX 3080 20 Go : le P2P débloqué dope le traitement de prompt de 70 %",
+ "chapo": "Sur r/LocalLLaMA, un banc d'essai à deux RTX 3080 20 Go gagne jusqu'à 70 % en traitement de prompt grâce au déblocage du P2P et du ReBAR. La même semaine, r/opensource bannit les projets liés à l'IA, des quants sont mis en torrent et des failles PHP vieilles de vingt ans tombent.",
+ "html": "<h2 id=\"deux-3080-20-go-du-p2p-et-70-de-mieux\">Deux 3080 20 Go, du P2P et 70 % de mieux</h2>\n<p>Le mérite revient à u/nathannguyennng, qui n'a pas pu publier lui-même : faute de karma, c'est un autre membre de r/LocalLLaMA qui relaie ses tests. La configuration est celle d'un labo perso : Proxmox VE, un Threadripper 1920x, deux RTX 3080 20 Go bridées à 240 W, vLLM 0.32.0 et Qwen3.8-27B en quantification AWQ INT4, avec un cache KV en FP8.</p>\n<p>Le déblocage du P2P change la donne sur le mode tensor parallel, qui répartit le modèle sur les deux cartes : le traitement des prompts y gagne fortement en vitesse, et le gain annoncé atteint <strong>70 %</strong>. Le ReBAR est débloqué dans la même opération.</p>\n<p>Deux cartes, 20 Go chacune : de quoi loger un 27B quantifié en INT4 réparti sur les deux GPU, à 240 W par carte. Le détail du montage tient en quelques lignes, mais c'est le genre de rapport qui circule vite dans le salon.</p>\n<h2 id=\"nanbeige4-3-33b-arrive-et-vise-qwen3-8-2\">Nanbeige4.3-33B arrive et vise Qwen3.8-27B</h2>\n<p>Nanbeige met en ligne Nanbeige4.3-33B sur Hugging Face. Selon l'équipe, le modèle devance Qwen3.8-27B sur un ensemble de benchmarks — le même Qwen3.8-27B qui sert de cobaye dans le banc d'essai ci-dessus.</p>\n<p>Surtout, Nanbeige4.3-33B doit servir de socle à une pipeline de distillation de petits modèles, à commencer par Nanbeige4.3-3B, et peut-être d'autres tailles. La logique est classique : un gros modèle qui apprend à un petit. Les chiffres, eux, restent ceux annoncés par l'équipe — la dépêche ne cite aucun benchmark tiers.</p>\n<h2 id=\"le-grand-ecart-de-l-open-source\">Le grand écart de l'open source</h2>\n<p>Les modérateurs de r/opensource ont publié samedi soir de nouvelles règles de soumission : les projets qui utilisent l'IA, qui sont fabriqués par l'IA ou qui sont destinés à l'IA n'y sont plus les bienvenus. Justification avancée : « l'IA, telle qu'elle existe aujourd'hui, est incongrue avec cet open source ». D'autres restrictions accompagnent ce bannissement, sans plus de détail dans la dépêche.</p>\n<p>Au même moment, sur r/LocalLLaMA, un internaute appelle à sauvegarder sans attendre les quantisations que l'on souhaite conserver. Il renvoie vers la page de requêtes de modèles de mradermacher sur Hugging Face et estime que la situation est identique chez les autres producteurs de quants. Son conseil ne s'arrête pas au disque dur : créer des torrents de ces fichiers et les partager sur llama.garden, pirateface.co et huggingbay.xyz.</p>\n<p>Les deux fils ne se répondent pas, mais ils dessinent deux usages très différents du mot « ouvert ». D'un côté, un forum qui ferme la porte à tout ce qui touche à l'IA ; de l'autre, une communauté qui organise la survie de ses fichiers par torrent.</p>\n<h2 id=\"php2shell-vingt-ans-dans-le-code\">PHP2Shell : vingt ans dans le code</h2>\n<p>Des failles baptisées PHP2Shell dormaient dans le code de PHP depuis une vingtaine d'années. Il aura fallu l'arrivée de l'IA générative pour les débusquer, rapporte 01net.</p>\n<p>La suite est moins réjouissante, et la dépêche le souligne : ce n'est pas uniquement une bonne nouvelle pour la cybersécurité. L'IA donne aussi un coup de pouce aux pirates qui cherchent à exploiter la vulnérabilité pour orchestrer des cyberattaques. Le même outil qui remonte la faille aide à la déclencher.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dépêches, un même décor : des cartes de génération précédente poussées par du P2P, un 33B qui vient taquiner un 27B, des quants qu'on archive en torrent, un PHP qui livre ses failles de vingt ans. Le matériel et les modèles bougent plus vite que les règles des forums — et que les correctifs. Rien de spectaculaire là-dedans : des bricolages documentés, des règles de modération, des vulnérabilités qui ont attendu leur outil.</p>",
+ "pivot": "0e583c82e15217fb",
+ "tags": [
+  "open-source",
+  "matériel",
+  "sécurité",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf9kmd/rtx_3080_20gb_got_rebar_and_p2p_unlock_70_prompt/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf11qj/backup_your_quants/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/nouvelle-norme-lia-seme-chaos-internet-semaine-que-debut.html"
+  }
+ ],
+ "date": "2026-10-25T18:43:13+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1612,
+  "sortie": 4463
+ }
+}

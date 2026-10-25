@@ -1,0 +1,41 @@
+{
+ "slug": "nanbeige4-3-33b-sort-et-r-opensource-ferme-la-porte-a-l-ia-75b6f9",
+ "titre": "Nanbeige4.3-33B sort, et r/opensource ferme la porte à l'IA",
+ "chapo": "Nanbeige met en ligne Nanbeige4.3-33B, un modèle ouvert qui devance Qwen3.8-27B sur un ensemble de benchmarks selon son équipe. Au même moment, r/opensource ferme ses soumissions aux projets liés à l'IA, tandis que les quantisations de modèles cherchent des sauvegardes.",
+ "html": "<h2 id=\"un-33b-qui-sert-d-abord-de-socle\">Un 33B qui sert d'abord de socle</h2>\n<p>Nanbeige a publié Nanbeige4.3-33B sur Hugging Face. L'équipe annonce que le modèle devance Qwen3.8-27B sur un ensemble de benchmarks. Ces chiffres viennent d'elle : la dépêche ne précise ni la nature des benchmarks, ni l'ampleur des écarts.</p>\n<p>L'intérêt ne s'arrête pas au modèle en lui-même. Nanbeige indique que ce 33B sert de socle à sa future pipeline de distillation de petits modèles, avec <strong>Nanbeige4.3-3B</strong> en tête d'affiche — et peut-être d'autres tailles par la suite.</p>\n<p>La sortie n'est donc pas seulement une référence de plus dans le catalogue ouvert : c'est un point de départ. La logique est connue — un gros modèle enseignant, des modèles plus petits distillés derrière, plus faciles à faire tourner localement. Reste à voir ce que donnera le 3B.</p>\n<h2 id=\"r-opensource-l-ia-hors-perimetre\">r/opensource : l'IA hors périmètre</h2>\n<p>Le même écosystème ouvert ne s'entend pas sur ce qu'il doit accueillir. Les modérateurs de r/opensource ont publié de nouvelles règles de soumission : les projets qui utilisent l'IA, qui sont fabriqués par l'IA ou qui sont destinés à l'IA n'y sont plus les bienvenus. Le message, posté samedi soir, justifie ce choix par le fait que « l'IA, telle qu'elle existe aujourd'hui, est incongrue avec cet open source ». D'autres restrictions accompagnent ce bannissement.</p>\n<p>La formulation mérite d'être lue de près : ce n'est pas l'usage de l'IA en général qui est visé, mais une incompatibilité supposée avec les principes de l'open source. Un modèle à poids publiés comme Nanbeige4.3-33B se retrouve dans une zone grise — ouvert côté Hugging Face, hors périmètre côté subreddit.</p>\n<p>Il n'y a pas de contradiction logique : les deux communautés ne parlent pas de la même chose. L'une discute de poids, de licences et de distillation ; l'autre de ce qui mérite d'être partagé comme logiciel ouvert. Le signal envoyé aux développeurs, lui, reste flou.</p>\n<h2 id=\"sauvegarder-les-quants-par-redondance\">Sauvegarder les quants, par redondance</h2>\n<p>Sur r/LocalLLaMA, un internaute invite à sauvegarder sans attendre les quantisations de modèles que l'on souhaite conserver. Il renvoie vers la page de requêtes de modèles de <strong>mradermacher</strong> sur Hugging Face et estime que la situation est la même chez les autres producteurs de quants.</p>\n<p>L'appel ne s'arrête pas à la copie locale : il suggère de créer des torrents de ces fichiers et de les partager sur <strong>llama.garden</strong>, <strong>piratesface.co</strong> et <strong>huggingbay.xyz</strong>. C'est de la préservation par redondance — plusieurs copies, plusieurs hébergeurs, pour qu'un fichier survive à la disparition d'un dépôt.</p>\n<p>Le message ne documente aucune suppression effective et ne nomme aucun modèle menacé. Il part d'une inquiétude, pas d'un constat chiffré.</p>\n<h2 id=\"cote-usage-gmail-live-et-la-presse-en-li\">Côté usage : Gmail Live et la presse en ligne</h2>\n<p>Gmail Live permet de demander à sa boîte mail où se trouve une information, plutôt que de multiplier les recherches. L'assistant vocal, déjà proposé aux particuliers abonnés à Google AI, arrive désormais dans Workspace. Google ajoute au passage un choix de voix et étend sa boîte de réception assistée par IA aux comptes professionnels.</p>\n<p>C'est la face grand public : l'IA s'installe dans un outil du quotidien sans que l'utilisateur ait à choisir un modèle. À l'autre bout de la chaîne, cette même IA bouscule l'édition en ligne.</p>\n<p>The Verge y consacre sa newsletter hebdomadaire <strong>The Stepback</strong>. Le découpage repart des origines, en rappelant sur quoi l'industrie de la presse numérique s'est appuyée, avant d'examiner ce que ces changements lui font. Le sujet est signé Emma Roth, qui suit l'impact de l'IA sur le web.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, quatre endroits où l'IA se croise sans se parler : un 33B ouvert qui prépare sa distillation, un subreddit historique qui ferme ses portes aux projets liés à l'IA, des quants qui cherchent des torrents, et un assistant vocal qui débarque dans Workspace. Aucun de ces mouvements ne découle des autres. Ils dessinent une période où la question n'est plus de savoir si les modèles existent, mais qui les héberge, qui les accueille et qui y a accès.</p>",
+ "pivot": "75b6f94253df2612",
+ "tags": [
+  "open-source",
+  "recherche",
+  "société",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/25/vous-ne-retrouvez-jamais-rien-dans-gmail-google-a-une-idee/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf11qj/backup_your_quants/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+  }
+ ],
+ "date": "2026-10-25T19:27:24+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1534,
+  "sortie": 3592
+ }
+}

@@ -1,5 +1,46 @@
 [
  {
+  "id": "f53f33349070c739",
+  "slug": "ling-3-1-flash-1019-les-poids-de-la-mise-a-jour-introuvables-sur-huggi-f53f33",
+  "titre": "Ling 3.1 Flash 1019 : les poids de la mise à jour introuvables sur Hugging Face",
+  "resume": "Un membre du subreddit r/LocalLLaMA demande si InclusionAI s'est exprimé sur la publication des poids de Ling 3.1 Flash, dans une mise à jour estampillée 1019. L'utilisateur explique n'avoir rien trouvé sur la page Hugging Face de l'éditeur, ni via une recherche rapide sur son téléphone. Le fil ne cite aucune annonce officielle de l'entreprise à ce sujet.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfa4pt/have_inclusionai_said_anything_about_ling_31/",
+  "date_source": "2026-10-25T18:39:13+00:00",
+  "date_redac": "2026-10-25T19:26:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 655,
+   "sortie": 690
+  }
+ },
+ {
+  "id": "0e583c82e15217fb",
+  "slug": "les-rtx-3080-20-go-debloquent-le-p2p-et-le-rebar-jusqu-a-70-sur-le-pro-0e583c",
+  "titre": "Les RTX 3080 20 Go débloquent le P2P et le reBAR, jusqu'à +70 % sur le prompt",
+  "resume": "Sur r/LocalLLaMA, un utilisateur publie ses tests après le déblocage du P2P sur les RTX 3080 20 Go, qui apporte un gain important en vitesse de traitement de prompt en mode tensor parallel, jusqu'à +70 % selon le titre. Le travail revient à u/nathannguyennng. Banc d'essai : deux cartes bridées à 240 W sur des slots PCIe 3.0 x16, vLLM 0.32.0 avec le modèle cyankiwi/Swift-1.5-Qwen3.8-27B-AWQ-INT4, cache KV en FP8 et MTP activé.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xf9kmd/rtx_3080_20gb_got_rebar_and_p2p_unlock_70_prompt/",
+  "date_source": "2026-10-25T18:16:54+00:00",
+  "date_redac": "2026-10-25T19:27:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 886,
+   "sortie": 1124
+  }
+ },
+ {
   "id": "faf8f62f6992a483",
   "slug": "logitech-fete-les-dix-ans-de-sa-serie-pro-avec-le-casque-g-pro-x3-ligh-faf8f6",
   "titre": "Logitech fête les dix ans de sa série Pro avec le casque G Pro X3 LightSpeed",

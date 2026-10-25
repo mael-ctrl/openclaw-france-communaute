@@ -1,0 +1,41 @@
+{
+ "slug": "open-source-et-ia-r-opensource-ferme-la-porte-les-quants-se--b754cf",
+ "titre": "Open source et IA : r/opensource ferme la porte, les quants se sauvegardent",
+ "chapo": "Un subreddit qui refuse désormais les projets liés à l'IA, une communauté qui appelle à archiver ses quantisations en torrent, un modèle de 33B qui sort quand même : la semaine superpose trois signaux sur le même terrain. Et l'IA continue de fouiller du code vieux de vingt ans.",
+ "html": "<h2 id=\"r-opensource-l-ia-declaree-hors-cadre\">r/opensource : l'IA déclarée hors cadre</h2>\n<p>Les modérateurs de r/opensource ont publié de nouvelles règles de soumission : les projets qui utilisent l'IA, qui sont produits par une IA ou qui lui sont destinés n'y sont plus acceptés. Le message a été publié samedi soir, et il ne mâche pas ses mots — il justifie ce choix par une <strong>incompatibilité entre l'IA telle qu'elle existe aujourd'hui et l'open source</strong>.</p>\n<p>La décision vient des modérateurs du subreddit : elle n'engage qu'eux. D'autres changements de règles sont annoncés dans la foulée, visant notamment les non-anglophones.</p>\n<p>Reste que le signal est net. Dans un espace construit sur le partage de code et la réutilisation, une partie de la communauté considère que les projets liés à l'IA ne relèvent plus du même cadre.</p>\n<h2 id=\"sur-r-localllama-le-reflexe-de-la-sauveg\">Sur r/LocalLLaMA, le réflexe de la sauvegarde</h2>\n<p>Sur r/LocalLLaMA, un internaute invite à sauvegarder sans attendre les quantisations de modèles que l'on souhaite conserver. Il renvoie vers la page de requêtes de modèles de <strong>mradermacher</strong> sur Hugging Face et estime que la situation est la même chez les autres producteurs de quants.</p>\n<p>L'appel ne s'arrête pas au disque dur : il invite aussi à créer des torrents de ces fichiers et à les partager sur llama.garden, pirateface.co et huggingbay.xyz.</p>\n<p>Les deux dépêches ne se citent pas l'une l'autre, et rien n'indique que le ban de r/opensource ait déclenché cet appel. Mais elles pointent vers la même inquiétude : la disponibilité d'un fichier de modèle n'a rien de garanti, et une partie des utilisateurs traite désormais la conservation comme une tâche collective.</p>\n<h2 id=\"nanbeige4-3-33b-la-production-ne-s-arret\">Nanbeige4.3-33B : la production ne s'arrête pas</h2>\n<p>Pendant ce temps, les modèles continuent d'arriver. Nanbeige met en ligne <strong>Nanbeige4.3-33B</strong> sur Hugging Face. Selon l'équipe, ce modèle devance Qwen3.8-27B sur un ensemble de benchmarks — une comparaison avancée par ses auteurs, à prendre comme telle.</p>\n<p>Surtout, Nanbeige4.3-33B sert de socle à la future pipeline de distillation de petits modèles, notamment Nanbeige4.3-3B, et peut-être d'autres tailles. Le 33B n'est donc pas seulement un modèle à télécharger : c'est la matière première dont sortiront des versions plus légères.</p>\n<p>Autrement dit, la question de la conservation posée sur r/LocalLLaMA n'est pas un exercice théorique. Ce qui circule, ce sont bien des fichiers, avec des tailles, des pages de téléchargement et des auteurs identifiables.</p>\n<h2 id=\"failles-php2shell-l-ia-trouve-l-ia-aide-\">Failles PHP2Shell : l'IA trouve, l'IA aide à exploiter</h2>\n<p>Des failles baptisées <strong>PHP2Shell</strong> dormaient dans le code de PHP depuis une vingtaine d'années. Il aura fallu l'arrivée de l'IA générative pour les débusquer, rapporte 01net. Ce n'est pas uniquement une bonne nouvelle pour la cybersécurité : l'IA donne aussi un coup de pouce aux pirates qui cherchent à exploiter la vulnérabilité pour orchestrer des cyberattaques. Le même outil qui audite le code sert à en tirer parti.</p>\n<p>Même ambivalence côté édition en ligne. La recherche enrichie à l'IA de Google a bouleversé le secteur, au point que The Verge y consacre sa newsletter hebdomadaire, <strong>The Stepback</strong>. Le découpage repart des origines, en rappelant sur quoi l'industrie de la presse numérique s'est appuyée, avant d'examiner ce que ces changements lui font. Le sujet est signé Emma Roth, qui suit l'impact de l'IA sur le web.</p>\n<h2>Et maintenant ?</h2>\n<p>Vu d'ensemble, la semaine superpose trois signaux : une communauté qui ferme sa porte aux projets IA, une autre qui archive ses quants en torrent, et un modèle de 33B qui arrive quand même avec ses benchmarks maison. Aucun de ces mouvements ne tranche le débat sur ce que « open source » veut dire à l'ère de l'IA. Mais chacun montre que la question ne se règle plus seulement dans les licences : elle se règle dans les fichiers, les règles de subreddit et les pages de téléchargement.</p>",
+ "pivot": "b754cffa35535218",
+ "tags": [
+  "open-source",
+  "sécurité",
+  "société",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf11qj/backup_your_quants/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/nouvelle-norme-lia-seme-chaos-internet-semaine-que-debut.html"
+  }
+ ],
+ "date": "2026-10-25T14:11:04+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1535,
+  "sortie": 3815
+ }
+}

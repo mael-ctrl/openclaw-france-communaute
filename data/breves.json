@@ -1,5 +1,67 @@
 [
  {
+  "id": "c4f38672235af04b",
+  "slug": "140-to-de-stockage-et-un-serveur-a100-quels-modeles-telecharger-c4f386",
+  "titre": "140 To de stockage et un serveur A100 : quels modèles télécharger ?",
+  "resume": "Un membre de r/LocalLLaMA dispose de 140 To de stockage et d'un serveur GPU A100 de 640 Go, et demande quels modèles et quantifications télécharger pour l'avenir. Il cite notamment GLM5.3 (Flash)(abliterated) et DS4 Flash, et souhaite aussi se lancer sur les modèles image et vidéo. Il interroge la communauté sur ce que les autres utilisent.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfckvl/140tb_of_storage_and_640gb_a100_gpu_server_what/",
+  "date_source": "2026-10-25T20:15:27+00:00",
+  "date_redac": "2026-10-25T20:27:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 708,
+   "sortie": 394
+  }
+ },
+ {
+  "id": "8679c1d0a7d2ddf6",
+  "slug": "strata-adapte-au-jetson-agx-orin-64-go-jusqu-a-40-tok-s-sur-qwen3-6-35-8679c1",
+  "titre": "Strata adapté au Jetson AGX Orin 64 Go : jusqu'à 40 tok/s sur Qwen3.6-35B-A3B",
+  "resume": "Un fork de Strata v0.1.45 vise le Jetson AGX Orin 64 Go, surtout avec Qwen3.6-35B-A3B. Sur des tests courts et contrôlés, son auteur atteint environ 40 à 41 tok/s avec MTP-2 échantillonné, contre environ 30 tok/s sur ses runs Strata antérieurs et 21 tok/s en décodage MTP-3 sous llama.cpp. Le fork ajoute cache KV INT8 unifié, checkpoints de préfixe et préallocation KV optionnelle. Mesures non appariées, précise-t-il.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfbjil/strata_optimized_for_64gb_agx_orin/",
+  "date_source": "2026-10-25T19:35:00+00:00",
+  "date_redac": "2026-10-25T20:27:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 839,
+   "sortie": 1119
+  }
+ },
+ {
+  "id": "8a42be81ad39651a",
+  "slug": "polystrata-tourne-sur-un-serveur-xeon-a-20-dollars-selon-un-membre-de--8a42be",
+  "titre": "PolyStrata tourne sur un serveur Xeon à 20 dollars, selon un membre de r/LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, l'utilisateur randylush signe un « show and tell » : il fait tourner PolyStrata sur un serveur Xeon à 20 dollars. Le titre met en avant le coût dérisoire de la machine, sans autre détail technique. La publication renvoie vers le fil Reddit, où les commentaires accompagnent le retour d'expérience.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfb9oz/show_and_tell_polystrata_on_my_20_xeon_server/",
+  "date_source": "2026-10-25T19:24:15+00:00",
+  "date_redac": "2026-10-25T20:28:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 1165
+  }
+ },
+ {
   "id": "f53f33349070c739",
   "slug": "ling-3-1-flash-1019-les-poids-de-la-mise-a-jour-introuvables-sur-huggi-f53f33",
   "titre": "Ling 3.1 Flash 1019 : les poids de la mise à jour introuvables sur Hugging Face",

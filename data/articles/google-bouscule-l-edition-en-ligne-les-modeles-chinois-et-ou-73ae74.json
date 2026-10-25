@@ -1,0 +1,41 @@
+{
+ "slug": "google-bouscule-l-edition-en-ligne-les-modeles-chinois-et-ou-73ae74",
+ "titre": "Google bouscule l'édition en ligne, les modèles chinois et ouverts avancent",
+ "chapo": "La recherche enrichie à l'IA de Google a changé la donne pour la presse numérique, au point que The Verge y consacre sa newsletter hebdomadaire. Le même jour, un modèle chinois dépasse les gammes de ChatGPT et de Gemini dans un classement, et r/opensource ferme sa porte aux projets liés à l'IA.",
+ "html": "<h2 id=\"la-recherche-ia-nouveau-point-d-appui-de\">La recherche IA, nouveau point d'appui de la presse en ligne</h2>\n<p>The Verge consacre sa newsletter hebdomadaire <strong>The Stepback</strong> au bouleversement qu'a provoqué la recherche enrichie à l'IA de Google dans l'édition en ligne. Le découpage repart des origines : il rappelle d'abord sur quoi l'industrie de la presse numérique s'est appuyée, avant d'examiner ce que ces changements lui font aujourd'hui.</p>\n<p>Le sujet est signé <strong>Emma Roth</strong>, qui suit l'impact de l'IA sur le web pour le média. Aucun chiffre de trafic, aucune projection n'est citée dans la dépêche : l'angle retenu est celui d'une mise en perspective historique, pas d'un bilan comptable.</p>\n<p>Le fait que ce soit une newsletter dédiée qui s'en empare dit déjà quelque chose de l'ampleur du sujet pour les rédactions en ligne : la recherche, longtemps canal d'accès principal, est devenue le point de friction à documenter.</p>\n<h2 id=\"kimi-k3-1-pro-moonshot-ai-se-place-devan\">Kimi K3.1 Pro : Moonshot AI se place devant ChatGPT et Gemini</h2>\n<p>La startup chinoise <strong>Moonshot AI</strong> dévoile <strong>Kimi K3.1 Pro</strong>, quatrième modèle le plus puissant du classement d'<strong>Artificial Analysis</strong>. Selon Journal du Geek, il dépasse tous les modèles d'IA de ChatGPT et de Gemini.</p>\n<p>Le journal résume la portée du résultat sans détour : la tech américaine est à nouveau bousculée par la concurrence chinoise. Un classement n'est pas un usage, et la dépêche ne dit rien des performances hors benchmark, ni des conditions d'accès au modèle.</p>\n<p>Reste le signal : la tête de peloton n'est plus occupée par les seuls acteurs américains historiques, et une startup y figure en quatrième position.</p>\n<h2 id=\"r-opensource-ferme-la-porte-aux-projets-\">r/opensource ferme la porte aux projets liés à l'IA</h2>\n<p>Les modérateurs de <strong>r/opensource</strong> ont publié de nouvelles règles de soumission : les projets qui utilisent l'IA, qui sont fabriqués par l'IA ou qui sont destinés à l'IA n'y sont plus les bienvenus. Le message a été posté samedi soir.</p>\n<p>La justification tient en une phrase citée par The Verge : « <em>l'IA, telle qu'existe aujourd'hui, est incongrue avec cet open source</em> ». D'autres restrictions accompagnent ce bannissement, sans que la dépêche en détaille la liste.</p>\n<p>La décision tranche avec la trajectoire des deux dernières années, où les modèles ouverts et l'outillage IA se sont largement déployés dans les communautés de développeurs. Elle pose une question de périmètre : ce que « open source » recouvre quand un projet embarque un modèle.</p>\n<h2 id=\"un-modele-ouvert-et-un-assistant-qui-cha\">Un modèle ouvert et un assistant qui change de maison</h2>\n<p>Côté modèles ouverts, <strong>Nanbeige</strong> met en ligne <strong>Nanbeige4.3-33B</strong> sur Hugging Face. Selon l'équipe, il devance <strong>Qwen3.8-27B</strong> sur un ensemble de benchmarks. Le modèle sert aussi de socle à une future pipeline de distillation de petits modèles, notamment Nanbeige4.3-3B — et peut-être d'autres tailles.</p>\n<p>Côté grand public, <strong>Gmail Live</strong> arrive dans Workspace. L'assistant permet de demander à sa boîte mail où se trouve une information, plutôt que de multiplier les recherches. Déjà proposé aux particuliers abonnés à Google AI, il s'ouvre désormais aux comptes professionnels, avec au passage un choix de voix.</p>\n<p>Deux mouvements distincts, une même dynamique : les modèles se rapprochent des usages, et les interfaces de recherche d'information se déplacent — de la boîte mail au moteur, en passant par les classements.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, quatre angles d'un même déplacement : la recherche IA de Google pèse sur l'économie de l'édition en ligne ; un modèle chinois s'invite à la quatrième place d'un classement devant les gammes de ChatGPT et de Gemini ; une communauté open source choisit de se définir contre l'IA ; et des modèles ouverts comme des assistants grand public continuent de sortir. Rien dans ces textes ne dit ce que ces positions vaudront demain — les classements bougent, les règles de modération aussi.</p>",
+ "pivot": "73ae74885c96d1e3",
+ "tags": [
+  "gemini",
+  "chatgpt",
+  "open-source",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/24/chine-depasser-chatgpt-startup-kimi-k3-1-pro/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/25/vous-ne-retrouvez-jamais-rien-dans-gmail-google-a-une-idee/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face/"
+  }
+ ],
+ "date": "2026-10-25T20:28:15+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1501,
+  "sortie": 2338
+ }
+}

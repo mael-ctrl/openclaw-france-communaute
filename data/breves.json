@@ -1,5 +1,90 @@
 [
  {
+  "id": "5f46374ad5df805b",
+  "slug": "hermes-agent-publie-une-version-canary-v0-22-5-5f4637",
+  "titre": "Hermes Agent publie une version canary v0.22.5",
+  "resume": "Hermes Agent publie une nouvelle version canary, v0.22.5+canary.20261025T065651Z, datée du 25 octobre 2026. Le numéro de build reprend l'horodatage de publication, à 06:56 UTC. Ce canal canari sert à diffuser des versions intermédiaires avant leur stabilisation. La note de version ne détaille pour l'instant aucun changement.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5%2Bcanary.20261025T065651Z",
+  "date_source": "2026-10-25T06:56:52+00:00",
+  "date_redac": "2026-10-25T07:10:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 729
+  }
+ },
+ {
+  "id": "04c85785f68a0085",
+  "slug": "qwen3-8-flash-next-tourne-a-20-tok-s-avec-16-go-de-vram-et-8-go-de-ram-04c857",
+  "titre": "Qwen3.8-Flash-Next tourne à 20 tok/s avec 16 Go de VRAM et 8 Go de RAM",
+  "resume": "Un membre de r/LocalLLaMA a adapté l'approche de glm-flash-lite (qui faisait tourner GLM-5.3 avec une empreinte mémoire étonnamment faible) au modèle Qwen3.8-Flash-Next, 125B de paramètres. Au lieu d'épingler les 24k experts en RAM système (~48–64 Go) comme le font des setups type Strata, il déporte directement sur le SSD NVMe. Sur une RTX 4090 avec 16 Go de VRAM et seulement 8 Go de RAM alloués : 28–33 tok/s en prose et 19–22 tok/s en code sur contexte court, 20,8 tok/s en décodage à 100k de contexte. De quoi faire tourner un gros modèle sur une machine modeste.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xev6bo/leanqwenflash_qwen38flashnext_125b_running_at_20/",
+  "date_source": "2026-10-25T06:41:28+00:00",
+  "date_redac": "2026-10-25T07:10:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 882,
+   "sortie": 568
+  }
+ },
+ {
+  "id": "f09bec0d01cf65d3",
+  "slug": "un-modele-de-4b-parametres-pour-coder-et-generer-des-scenes-3d-f09bec",
+  "titre": "Un modèle de 4B paramètres pour coder et générer des scènes 3D",
+  "resume": "Un développeur partage une version préliminaire d'un modèle de 4B paramètres, entraîné pour le code général et la génération de scènes 3D. Il s'agit d'un fine-tune indépendant de Qwen3.5-4B, disponible en GGUF Q4_K_M et Q8_0 sur Hugging Face. L'auteur indique que les petits modèles se sont montrés jusqu'ici peu à l'aise en 3D. L'entraînement se poursuit : le modèle sera mis à jour dans les prochains jours et le jeu de données d'entraînement sera publié.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xeuo7t/a_4b_coding_model_that_can_generate_3d_scenes/",
+  "date_source": "2026-10-25T06:10:59+00:00",
+  "date_redac": "2026-10-25T07:10:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 786,
+   "sortie": 488
+  }
+ },
+ {
+  "id": "80cedc6742d200b3",
+  "slug": "une-recherche-project-discovery-sur-le-backdooring-des-modeles-locaux-80cedc",
+  "titre": "Une recherche Project Discovery sur le backdooring des modèles locaux",
+  "resume": "Un post du subreddit r/LocalLLaMA relaie une publication de Project Discovery intitulée « How abliterated models can get you pwned ». Le sujet annoncé : le backdooring des modèles locaux, en particulier ceux dont les refus ont été retirés, les modèles dits « abliterated ». L'auteur du post se contente de partager le lien et demande l'avis de la communauté, sans résumer le contenu de la recherche.",
+  "tags": [
+   "sécurité",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xeuk0q/imp_news_backdooring_the_local_models/",
+  "date_source": "2026-10-25T06:03:55+00:00",
+  "date_redac": "2026-10-25T07:10:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 641,
+   "sortie": 662
+  }
+ },
+ {
   "id": "91ee90186a6df15d",
   "slug": "qwen3-8-flash-next-en-iq3-s-tourne-sur-16-go-de-vram-a-262-tok-s-91ee90",
   "titre": "Qwen3.8 Flash Next en IQ3_S tourne sur 16 Go de VRAM à 262 tok/s",

@@ -1,5 +1,69 @@
 [
  {
+  "id": "91ee90186a6df15d",
+  "slug": "qwen3-8-flash-next-en-iq3-s-sur-une-rtx-5080-jusqu-a-262-tok-s-91ee90",
+  "titre": "Qwen3.8 Flash Next en IQ3_S sur une RTX 5080 : jusqu'à 262 tok/s",
+  "resume": "Sur r/LocalLLaMA, Qwen3.8-Flash-Next en quantification IQ3_S tourne sur le moteur Basalt avec une RTX 5080 16 Go, 62 Go de DDR5, un contexte 262K et un cache KV int8. En session de codage agentique (opencode, 103 requêtes, jusqu'à 130K de contexte) : 5 011 t/s en traitement de prompt et 153 t/s en génération en moyenne, pic à 262 t/s. 99,5 % des tokens de prompt venaient du cache, premier token en 0,2 s médian.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xesda1/benchmark_stratabasalt_runs_qwen38_flash_next_iq3/",
+  "date_source": "2026-10-25T03:59:23+00:00",
+  "date_redac": "2026-10-25T04:35:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 936,
+   "sortie": 1421
+  }
+ },
+ {
+  "id": "cb8d4d84dcdf5033",
+  "slug": "deepseek-v4-1-flash-en-2-bits-les-gguf-gsq-rco-d-ista-questionnes-cb8d4d",
+  "titre": "DeepSeek-V4.1-Flash en 2 bits : les GGUF GSQ-RCO d'ISTA questionnés",
+  "resume": "Un utilisateur de r/LocalLLaMA demande si les GGUF GSQ-RCO d'ISTA pour DeepSeek-V4.1-Flash tiennent vraiment leurs benchmarks, où la quantification IQ2_XXS égale le modèle de base. Il note que ces benchmarks sont saturés (90 % et plus, AIME25 à 100 pour toutes les versions) et qu'aucun KLD n'est publié pour ces modèles. Il cherche donc des mesures KLD ou PPL à environ 2 bits par poids.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xes5x0/too_good_to_be_true_istas_gsqrco_2bit/",
+  "date_source": "2026-10-25T03:48:25+00:00",
+  "date_redac": "2026-10-25T04:35:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 799,
+   "sortie": 606
+  }
+ },
+ {
+  "id": "11dfa3640cc75ad6",
+  "slug": "gpt-x3-150m-detrone-smollm2-135m-sur-le-leaderboard-open-slm-11dfa3",
+  "titre": "GPT-X3-150M détrône SmolLM2-135M sur le leaderboard Open SLM",
+  "resume": "Un post publié sur r/LocalLLaMA annonce que GPT-X3-150M prend la première place du leaderboard Open SLM, détrônant SmolLM2-135M de HuggingFace. Le modèle, qui compte 150M de paramètres, repose sur une architecture hybride GDN2/GQA. La publication ne détaille ni les scores obtenus ni les conditions d'entraînement.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xerxtr/gptx3150m_takes_1_on_the_open_slm_leaderboard/",
+  "date_source": "2026-10-25T03:36:15+00:00",
+  "date_redac": "2026-10-25T04:35:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 652,
+   "sortie": 788
+  }
+ },
+ {
   "id": "c3dbf7eff3883c3f",
   "slug": "l-artificial-analysis-index-juge-peu-representatif-des-usages-reels-c3dbf7",
   "titre": "L'Artificial Analysis Index jugé peu représentatif des usages réels",
@@ -60,6 +124,27 @@
    "modele": "deepseek-flash",
    "entree": 698,
    "sortie": 1396
+  }
+ },
+ {
+  "id": "7026f56e583deb40",
+  "slug": "deepseek-v4-1-flash-en-exl3-3-bits-sur-deux-rtx-pro-6000-7026f5",
+  "titre": "DeepSeek-V4.1-Flash en EXL3 3 bits sur deux RTX PRO 6000",
+  "resume": "Un post publié sur r/LocalLLaMA indique qu'il est désormais possible de faire tourner DeepSeek-V4.1-Flash en quantification EXL3 à 3 bits par poids sur une configuration de deux cartes RTX PRO 6000. L'auteur du message se contente de partager le résultat et demande l'avis de la communauté. La publication ne fournit ni mesure de débit ni évaluation de la qualité obtenue après compression.",
+  "tags": [
+   "deepseek",
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xeq7lu/you_can_now_run_deepseekv41flash_exl33bpw_on/",
+  "date_source": "2026-10-25T02:05:49+00:00",
+  "date_redac": "2026-10-25T04:35:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 668,
+   "sortie": 623
   }
  },
  {

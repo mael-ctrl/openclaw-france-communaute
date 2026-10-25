@@ -1,5 +1,88 @@
 [
  {
+  "id": "8498a0f2cc931027",
+  "slug": "huit-gpu-et-256-go-de-ddr4-pour-faire-tourner-de-gros-moe-viable-8498a0",
+  "titre": "Huit GPU et 256 Go de DDR4 pour faire tourner de gros MoE : viable ?",
+  "resume": "Un membre de r/LocalLLaMA a réuni huit GPU (4x RTX 5060 Ti 16 Go, 4x RTX 3060 12 Go) et 256 Go de DDR4 3200, pour un coût proche d'un DGX Spark. Il veut faire du tensor parallel par groupes de quatre et déporter les experts les moins utilisés vers la RAM et le NVMe. Reste à savoir si ce montage fait tourner de gros modèles MoE à haute vitesse, ou s'il reste très sous-optimal face à la mémoire unifiée.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xeouhq/is_this_overkill_or_viable_8x_gpus_256gb_ddr4/",
+  "date_source": "2026-10-25T00:57:22+00:00",
+  "date_redac": "2026-10-25T01:47:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 812,
+   "sortie": 1421
+  }
+ },
+ {
+  "id": "da4669e7e38742f9",
+  "slug": "kimi-k3-1-pro-face-a-deepseek-4-1-flash-le-doute-d-un-utilisateur-de-r-da4669",
+  "titre": "Kimi K3.1 Pro face à DeepSeek 4.1 Flash : le doute d'un utilisateur de r/LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, un utilisateur féru de modèles Kimi juge Kimi K3 Pro peu supérieur à DeepSeek 4.1 Flash (1017). Kimi K3 reste difficile à faire tourner en local, même quantifié, et lent : 104 couches actives traversées par token. DeepSeek 4.1 Flash 1017 offre des résultats proches avec une empreinte moindre et plus de vitesse. Il envisage de zapper la sortie des poids ouverts de Kimi K3 Pro, le 4 novembre.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xemxoq/is_it_just_me_or_kimi_k31_pro_dont_look_much/",
+  "date_source": "2026-10-24T23:24:59+00:00",
+  "date_redac": "2026-10-25T01:47:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 873,
+   "sortie": 1094
+  }
+ },
+ {
+  "id": "f7847c92966a20b7",
+  "slug": "le-royaume-uni-va-investir-100-m-dans-un-labo-de-biosecurite-ia-f7847c",
+  "titre": "Le Royaume-Uni va investir 100 M£ dans un labo de biosécurité IA",
+  "resume": "Le Royaume-Uni prévoit d'investir 100 millions de livres sterling dans un laboratoire de biosécurité consacré à l'IA, qualifié de « première mondiale » dans l'intitulé du fil. L'information circule sur r/LocalLLaMA, sans détail supplémentaire sur le calendrier, la localisation ou les porteurs du projet.",
+  "tags": [
+   "sécurité",
+   "recherche",
+   "société"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xem3kc/uk_to_invest_100m_in_world_first_ai_biosecurity/",
+  "date_source": "2026-10-24T22:45:29+00:00",
+  "date_redac": "2026-10-25T01:48:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 622,
+   "sortie": 1018
+  }
+ },
+ {
+  "id": "6461a8de54d0ded4",
+  "slug": "un-outil-debloque-les-rtx-30-et-40-pour-accelerer-l-inference-llm-6461a8",
+  "titre": "Un outil débloque les RTX 30 et 40 pour accélérer l'inférence LLM",
+  "resume": "Un outil de déblocage présenté sur r/LocalLLaMA permettrait aux GPU NVIDIA RTX 30 et RTX 40 de doubler leur compute pour l'inférence de grands modèles de langage, avec un gain pouvant atteindre 2X sur la vitesse de prefill. Les gains annoncés iraient jusqu'à 30x/40x, en s'inspirant du CMP170HX. Revers de la médaille : les prix des cartes concernées grimpent aussi.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xelhpj/cmp170hx_inspiration_unlocks_30x40x_also_up_to_2x/",
+  "date_source": "2026-10-24T22:16:55+00:00",
+  "date_redac": "2026-10-25T01:48:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 684,
+   "sortie": 483
+  }
+ },
+ {
   "id": "999489798b252d79",
   "slug": "blue-planet-iii-garde-ses-imperfections-pour-contrer-l-ia-999489",
   "titre": "Blue Planet III garde ses imperfections pour contrer l'IA",
@@ -17,6 +100,27 @@
    "modele": "deepseek-flash",
    "entree": 664,
    "sortie": 705
+  }
+ },
+ {
+  "id": "25a5a66b402aa358",
+  "slug": "tensorsharp-ajoute-le-support-de-minimax-m3-1-flash-des-le-jour-1-25a5a6",
+  "titre": "TensorSharp ajoute le support de MiniMax-M3.1-Flash dès le jour 1",
+  "resume": "Le développeur de TensorSharp a intégré MiniMax-M3.1-Flash dès la sortie des poids ouverts du modèle. Sur 8× A40, l'écart est net sur les longs prompts : le prefill 64K atteint 2 567 tok/s contre 262 tok/s sur la branche llama.cpp testée, et le time to first token tombe de 293,4 s à 40 s. Côté fonctionnalités : inférence GGUF, texte et image via API compatible OpenAI, tool calling, décodage spéculatif DSpark.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xejzuo/day_1_minimaxm31flash_support_in_tensorsharp_gguf/",
+  "date_source": "2026-10-24T21:10:54+00:00",
+  "date_redac": "2026-10-25T01:48:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 826,
+   "sortie": 1367
   }
  },
  {

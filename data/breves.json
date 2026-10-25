@@ -43,9 +43,9 @@
  },
  {
   "id": "2ce2bfc927615b40",
-  "slug": "llama-cpp-un-pr-cuda-fusionne-les-matmuls-ffn-et-la-glu-dans-mmq-2ce2bf",
-  "titre": "llama.cpp : un PR CUDA fusionne les matmuls FFN et la GLU dans MMQ",
-  "resume": "Une pull request signée anujj pour llama.cpp propose de fusionner les matmuls FFN gate/up et la GLU au sein du kernel MMQ du backend CUDA, avec des lignes gate/up entrelacées. Les mesures de l'auteur, via llama-bench avec cache K et V en f16, donnent de +4,6 % à +10,7 % de tok/s sur un DGX Spark (GB10) selon modèle et quantification, et de +1,9 % à +4,1 % sur une RTX 5090.",
+  "slug": "llama-cpp-un-patch-cuda-fusionne-les-matmuls-gate-up-et-la-glu-dans-mm-2ce2bf",
+  "titre": "llama.cpp : un patch CUDA fusionne les matmuls gate/up et la GLU dans MMQ",
+  "resume": "Une pull request (#29948) signée anujj dans llama.cpp fusionne les matmuls gate/up du FFN et la GLU au sein du noyau MMQ, avec des lignes gate/up entrelacées. Les gains mesurés avec llama-bench (-fa on, p 16384, b/ub 2048, r 5) vont de +1,9 % à +10,7 % selon le modèle et la quantification, sur DGX Spark (GB10) comme sur RTX 5090. Les tests couvrent Qwen3.8-27B, Qwen3.6-27B et Llama-3.1-8B en Q4_K_M, Q5_K_M, Q6_K, Q8_0 et IQ4_XS.",
   "tags": [
    "dev",
    "open-source",
@@ -55,18 +55,18 @@
   "source": "r/LocalLLaMA",
   "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xey0uw/cuda_fuse_ffn_gateup_matmuls_and_glu_in_mmq_with/",
   "date_source": "2026-10-25T09:35:12+00:00",
-  "date_redac": "2026-10-25T09:58:02+00:00",
+  "date_redac": "2026-10-25T10:42:23+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 1197,
-   "sortie": 586
+   "sortie": 873
   }
  },
  {
   "id": "2801ed1b5c67c439",
-  "slug": "le-robot-aspirateur-dyson-360-vis-nav-passe-de-1-299-a-382-euros-2801ed",
-  "titre": "Le robot aspirateur Dyson 360 Vis Nav passe de 1 299 à 382 euros",
-  "resume": "Après deux robots aspirateurs peu convaincants, Dyson était revenu à la charge avec le 360 Vis Nav, affiché à 1 299 euros en 2024. Ce robot de 65 airwatts est proposé à 382 euros sur Amazon, soit environ 900 euros de moins qu'au lancement.",
+  "slug": "dyson-360-vis-nav-le-robot-aspirateur-tombe-a-382-euros-sur-amazon-2801ed",
+  "titre": "Dyson 360 Vis Nav : le robot aspirateur tombe à 382 euros sur Amazon",
+  "resume": "Après deux robots aspirateurs peu convaincants, Dyson était revenu avec le 360 Vis Nav, affiché à 1 299 euros en 2024. Ce robot de 65 airwatts est proposé ce vendredi 23 octobre à 382 euros sur Amazon, soit près de 900 euros de moins qu'au lancement. Un écart de prix qui rend la machine nettement plus accessible.",
   "tags": [
    "matériel",
    "robots",
@@ -76,53 +76,54 @@
   "source": "Frandroid",
   "lien_source": "https://www.frandroid.com/bons-plans/3296819_dyson-360-vis-nav-ce-robot-aspirateur-au-look-de-vaisseau-spatial-est-900-e-moins-cher-quau-lancement",
   "date_source": "2026-10-25T09:28:00+00:00",
-  "date_redac": "2026-10-25T09:58:05+00:00",
+  "date_redac": "2026-10-25T10:42:27+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 693,
-   "sortie": 431
+   "sortie": 465
   }
  },
  {
   "id": "14be4f1e48d7b4c8",
   "slug": "quel-budget-pour-faire-tourner-deepseek-4-1-flash-en-local-a-40-tokens-14be4f",
-  "titre": "Quel budget pour faire tourner DeepSeek 4.1 Flash en local à ~40 tokens/s ?",
-  "resume": "Un utilisateur de r/LocalLLaMA teste DeepSeek 4.1 Flash via API, l'apprécie, et demande quel budget minimal permet de le faire tourner en local à qualité équivalente et environ 40 tokens/s. Son usage : coding, reverse engineering et analyse de sécurité, ce qui suppose assez de mémoire pour le contexte complet du modèle. Il cherche aussi un matériel autonome, sans PC dédié, qui ouvrirait la porte à d'autres modèles comme Mimo 2.6 ou GLM 5.3.",
+  "titre": "Quel budget pour faire tourner deepseek 4.1 flash en local à ~40 tokens/s ?",
+  "resume": "Un utilisateur de r/LocalLLaMA a testé deepseek 4.1 flash via API et l'apprécie. Il cherche le budget minimum pour faire tourner le modèle en local à qualité équivalente et environ 40 tokens/s, comme les offres hébergées. Son usage : codage, rétro-ingénierie et analyse de sécurité, avec assez de mémoire pour le contexte complet. Il note qu'un même matériel ouvrirait d'autres modèles, comme mimo 2.6 ou glm 5.3.",
   "tags": [
    "deepseek",
    "matériel",
-   "open-source",
-   "dev"
+   "dev",
+   "sécurité"
   ],
   "importance": 2,
   "source": "r/LocalLLaMA",
   "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xexi6v/about_running_deepseek_41_flash/",
   "date_source": "2026-10-25T09:02:25+00:00",
-  "date_redac": "2026-10-25T09:58:10+00:00",
+  "date_redac": "2026-10-25T10:42:34+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 739,
-   "sortie": 696
+   "sortie": 1429
   }
  },
  {
   "id": "3fa616cb2f92e5dd",
-  "slug": "hausse-des-prix-des-gpu-32-go-un-utilisateur-de-r-localllama-revoit-se-3fa616",
-  "titre": "Hausse des prix des GPU 32 Go : un utilisateur de r/LocalLLaMA revoit ses plans",
-  "resume": "Un membre de r/LocalLLaMA reconsidère son achat de GPU 32 Go de VRAM. Il décrit ses deux configurations, dont une avec Ultra 7 265KF et RTX 5070 Ti, et compte les relier via RPC pour faire tourner les modèles ensemble. Il hésitait entre le B70 et le R9700, mais leurs prix sont passés en 24 heures de 1,3–1,4 K à 2 K et de 1,7–1,8 K à 2,3 K.",
+  "slug": "gpu-32-go-la-flambee-des-prix-rebat-les-plans-d-un-utilisateur-de-loca-3fa616",
+  "titre": "GPU 32 Go : la flambée des prix rebat les plans d'un utilisateur de LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, un utilisateur qui préparait l'achat d'un GPU 32 Go pour ses deux PC voit les tarifs s'envoler. La carte B70 est passée de 1,3-1,4 K à 2 K, et la R9700 de 1,7-1,8 K à 2,3 K, en l'espace de « 24 heures » selon lui. Il comptait relier ses deux machines via RPC/Ethernet pour les faire tourner ensemble.",
   "tags": [
    "matériel",
-   "dev"
+   "dev",
+   "open-source"
   ],
-  "importance": 2,
+  "importance": 3,
   "source": "r/LocalLLaMA",
   "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xexe1m/with_the_huge_price_hike_on_the_32gb_vram_scene/",
   "date_source": "2026-10-25T08:55:38+00:00",
-  "date_redac": "2026-10-25T09:58:15+00:00",
+  "date_redac": "2026-10-25T10:42:41+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 917,
-   "sortie": 759
+   "sortie": 1073
   }
  },
  {

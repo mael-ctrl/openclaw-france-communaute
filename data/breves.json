@@ -127,6 +127,27 @@
   }
  },
  {
+  "id": "7026f56e583deb40",
+  "slug": "deepseek-v4-1-flash-en-exl3-3-bits-sur-deux-rtx-pro-6000-7026f5",
+  "titre": "DeepSeek-V4.1-Flash en EXL3 3 bits sur deux RTX PRO 6000",
+  "resume": "Un post publié sur r/LocalLLaMA indique qu'il est désormais possible de faire tourner DeepSeek-V4.1-Flash en quantification EXL3 à 3 bits par poids sur une configuration de deux cartes RTX PRO 6000. L'auteur du message se contente de partager le résultat et demande l'avis de la communauté. La publication ne fournit ni mesure de débit ni évaluation de la qualité obtenue après compression.",
+  "tags": [
+   "deepseek",
+   "matériel",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xeq7lu/you_can_now_run_deepseekv41flash_exl33bpw_on/",
+  "date_source": "2026-10-25T02:05:49+00:00",
+  "date_redac": "2026-10-25T04:35:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 668,
+   "sortie": 623
+  }
+ },
+ {
   "id": "8498a0f2cc931027",
   "slug": "huit-gpu-et-256-go-de-ddr4-pour-faire-tourner-de-gros-moe-viable-8498a0",
   "titre": "Huit GPU et 256 Go de DDR4 pour faire tourner de gros MoE : viable ?",

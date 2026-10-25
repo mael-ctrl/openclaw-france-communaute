@@ -1,5 +1,47 @@
 [
  {
+  "id": "c7c420b903e2fc55",
+  "slug": "des-failles-php-vieilles-de-20-ans-debusquees-grace-a-l-ia-c7c420",
+  "titre": "Des failles PHP vieilles de 20 ans débusquées grâce à l'IA",
+  "resume": "Des failles baptisées PHP2Shell dormaient dans le code de PHP depuis une vingtaine d'années. Il aura fallu l'arrivée de l'IA générative pour les débusquer. Ce n'est pas uniquement une bonne nouvelle pour la cybersécurité : l'IA donne aussi un coup de pouce aux pirates qui cherchent à exploiter la vulnérabilité pour orchestrer des cyberattaques.",
+  "tags": [
+   "sécurité",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/nouvelle-norme-lia-seme-chaos-internet-semaine-que-debut.html",
+  "date_source": "2026-10-25T11:00:21+00:00",
+  "date_redac": "2026-10-25T11:09:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 713,
+   "sortie": 397
+  }
+ },
+ {
+  "id": "05d8a1250a64c6a4",
+  "slug": "un-modele-q2-tourne-a-49-t-s-sur-un-macbook-air-m5-24-go-via-le-stream-05d8a1",
+  "titre": "Un modèle Q2 tourne à 49 t/s sur un MacBook Air M5 24 Go via le streaming d'experts",
+  "resume": "Sur un MacBook Air M5 de 24 Go, Qwen3.8-Flash-Next quantifié en Q2 atteint 48,8 t/s en décodage avec Splash 1.4.0 et un petit fork. Les experts qui ne tiennent pas en mémoire sont lus à la demande depuis le SSD : 6 800 des 24 576 slots (~28 %) occupent 8,8 Go, le reste est streamé, avec un contexte de 256K. En usage agent réel, la moyenne se situe autour de 45 t/s, sans perte de cache de prompt puisque celui-ci reste sur disque.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xezdgs/flash_next_q2_on_a_24gb_m5_macbook_air_49_ts/",
+  "date_source": "2026-10-25T10:55:18+00:00",
+  "date_redac": "2026-10-25T11:09:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 954,
+   "sortie": 839
+  }
+ },
+ {
   "id": "2ce2bfc927615b40",
   "slug": "llama-cpp-un-pr-cuda-fusionne-les-matmuls-ffn-et-la-glu-dans-mmq-2ce2bf",
   "titre": "llama.cpp : un PR CUDA fusionne les matmuls FFN et la GLU dans MMQ",
@@ -101,6 +143,26 @@
    "modele": "deepseek-flash",
    "entree": 670,
    "sortie": 611
+  }
+ },
+ {
+  "id": "011d732a801ce0b0",
+  "slug": "un-hack-promet-de-doubler-les-rtx-40-mais-seulement-sous-linux-011d73",
+  "titre": "Un hack promet de doubler les RTX 40, mais seulement sous Linux",
+  "resume": "Un post viral affirme qu'un hack permet de doubler la puissance de toutes les GeForce RTX 40 sans flasher le BIOS. Le projet existe bel et bien, mais il se limite à deux cartes, ne fonctionne que sous Linux et ne double qu'un type de calcul très précis. La promesse d'un gain généralisé sur l'ensemble de la gamme ne tient donc pas.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/nvidia/3298403_nvidia-bride-t-il-ses-geforce-rtx-40-un-hack-fait-sauter-le-verrou",
+  "date_source": "2026-10-25T08:36:00+00:00",
+  "date_redac": "2026-10-25T11:09:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 677,
+   "sortie": 395
   }
  },
  {

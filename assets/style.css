@@ -72,20 +72,21 @@ a:hover { color: var(--accent); }
   -webkit-backdrop-filter: blur(14px) saturate(1.3);
   border-bottom: 1px solid var(--bord);
 }
-.entete-interne { display: flex; align-items: center; gap: 26px; height: 66px; }
-.marque { display: flex; align-items: center; gap: 12px; color: var(--texte); }
+.entete-interne { display: flex; align-items: center; gap: 26px; min-height: 66px; padding-top: 12px; padding-bottom: 12px; }
+.marque { display: flex; align-items: center; gap: 12px; color: var(--texte); max-width: 100%; }
 .marque .crabe { font-size: 1.7rem; filter: drop-shadow(0 4px 10px rgba(255, 92, 46, .35)); }
-.marque-txt { display: flex; flex-direction: column; line-height: 1.15; }
+.marque-txt { display: flex; flex-direction: column; line-height: 1.15; min-width: 0; overflow-wrap: anywhere; }
 .marque-txt strong { letter-spacing: .14em; font-size: .95rem; }
 .marque-txt small { color: var(--muet); font-family: var(--mono); font-size: .68rem; letter-spacing: .04em; }
 .nav { display: flex; gap: 4px; flex: 1; flex-wrap: wrap; }
 .nav a {
+  min-width: 0; overflow-wrap: anywhere;
   color: var(--texte2); padding: 7px 12px; border-radius: 10px; font-size: .92rem; font-weight: 550;
   border: 1px solid transparent; transition: all .18s ease;
 }
 .nav a:hover { color: var(--texte); background: rgba(255, 255, 255, .045); }
 .nav a.actif { color: var(--accent-clair); background: rgba(255, 92, 46, .1); border-color: rgba(255, 92, 46, .28); }
-.entete-actions { display: flex; gap: 8px; }
+.entete-actions { display: flex; flex-wrap: wrap; gap: 8px; }
 .bouton-mini {
   font-family: var(--mono); font-size: .72rem; color: var(--texte2); letter-spacing: .06em;
   border: 1px solid var(--bord-clair); padding: 6px 11px; border-radius: 9px; transition: all .18s ease;
@@ -363,9 +364,16 @@ a:hover { color: var(--accent); }
 }
 
 /* ---------------- Responsive ---------------- */
+/* Réserver la place de l'en-tête sticky pour les ancres et le focus. */
+@media (min-width: 901px) and (min-height: 601px) {
+  html { scroll-padding-top: 8rem; }
+}
+@media (max-width: 900px), (max-height: 600px) {
+  .entete { position: static; }
+}
 @media (max-width: 900px) {
   .entete-interne { height: auto; flex-wrap: wrap; padding-top: 12px; padding-bottom: 12px; gap: 12px; }
-  .nav { order: 3; width: 100%; overflow-x: auto; padding-bottom: 2px; }
+  .nav { flex: 0 0 100%; min-width: 0; padding-bottom: 2px; }
   .vedette { grid-template-columns: 1fr; padding: 26px; }
   .vedette-crabe { display: none; }
   .pied-interne { grid-template-columns: 1fr; gap: 22px; }

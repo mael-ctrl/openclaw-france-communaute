@@ -1,0 +1,41 @@
+{
+ "slug": "llama-cpp-qwen3-8-flash-next-kimi-k3-1-le-local-se-joue-au-t-2ce2bf",
+ "titre": "llama.cpp, Qwen3.8-Flash-Next, Kimi K3.1 : le local se joue au token près",
+ "chapo": "Un patch CUDA dans llama.cpp arrache jusqu'à +10,7 % sur les matmuls du FFN, pendant que deux bricoleurs de r/LocalLLaMA font tourner un modèle de 125 milliards de paramètres sur 16 Go de VRAM. En face, le prix des cartes 32 Go s'envole.",
+ "html": "<h2 id=\"llama-cpp-la-fusion-gate-up-dans-le-noya\">llama.cpp : la fusion gate/up dans le noyau MMQ</h2>\n<p>Le noyau MMQ est au cœur de la vitesse d'inférence de llama.cpp sur GPU. La pull request <strong>#29948</strong>, signée <strong>anujj</strong>, y fusionne les matmuls gate/up du FFN et la GLU, avec des lignes gate/up entrelacées : un seul passage dans le noyau plutôt que des allers-retours séparés.</p>\n<p>Les chiffres, mesurés avec llama-bench (`-fa on`, p 16384, b/ub 2048, r 5), vont de <strong>+1,9 % à +10,7 %</strong> selon le modèle et la quantification. Le banc d'essai ne se limite pas à une machine : les tests tournent sur <strong>DGX Spark (GB10)</strong> comme sur <strong>RTX 5090</strong>, deux plateformes aux architectures très différentes.</p>\n<p>Le panel couvre Qwen3.8-27B, Qwen3.6-27B et Llama-3.1-8B, en Q4_K_M, Q5_K_M, Q6_K, Q8_0 et IQ4_XS. Du grand public quantifié et du plus exotique. Quelques pourcents peuvent sembler modestes ; sur des générations de plusieurs milliers de tokens, ça se cumule.</p>\n<h2 id=\"qwen3-8-flash-next-le-ssd-comme-memoire\">Qwen3.8-Flash-Next : le SSD comme mémoire</h2>\n<p>Même subreddit, deux fils qui racontent la même débrouille. Un membre adapte l'approche de <strong>glm-flash-lite</strong> — qui faisait tourner GLM-5.3 avec une empreinte mémoire étonnamment faible — à <strong>Qwen3.8-Flash-Next</strong>, 125 milliards de paramètres. Au lieu d'épingler les 24k experts en RAM système (~48–64 Go), comme le font les setups type Strata, il déporte directement sur le <strong>SSD NVMe</strong>.</p>\n<p>Résultat sur une RTX 4090 avec 16 Go de VRAM et 8 Go de RAM seulement : <strong>28–33 tok/s en prose</strong>, 19–22 tok/s en code sur contexte court, et <strong>20,8 tok/s en décodage à 100k de contexte</strong>.</p>\n<p>Un autre fil vise le débit : Qwen3.8-Flash-Next en <strong>IQ3_S</strong> sur le moteur <strong>Basalt</strong>, avec une RTX 5080 16 Go, un Core Ultra 9 285K et 62 Go de DDR5, en 262K de contexte et KV cache int8. Sur une session de codage agentique (103 requêtes, jusqu'à 130K de contexte) : <strong>5 011 t/s</strong> en traitement de prompt en moyenne, 5 118 en pic, 153 t/s en génération en moyenne pour 262 en pic, et 5,2 Go de RAM encore libres. Deux recettes, deux profils : l'une privilégie la RAM minimale, l'autre le débit.</p>\n<h2 id=\"32-go-de-vram-la-facture-en-l-espace-de-\">32 Go de VRAM : la facture en l'espace de « 24 heures »</h2>\n<p>Pendant que le logiciel grignote, le matériel repart à la hausse. Sur r/LocalLLaMA, un utilisateur qui préparait l'achat d'un GPU 32 Go pour ses deux PC a vu les tarifs s'envoler : la <strong>B70</strong> est passée de 1,3–1,4 K à <strong>2 K</strong>, la <strong>R9700</strong> de 1,7–1,8 K à <strong>2,3 K</strong>, en l'espace de « 24 heures » selon lui.</p>\n<p>Son plan initial : relier ses deux machines via RPC/Ethernet pour les faire tourner ensemble et additionner la VRAM. À ces niveaux de prix, la mutualisation par le réseau ne coûte rien en matériel — ce qui rend les contournements mémoire des deux fils précédents d'autant plus lisibles.</p>\n<h2 id=\"kimi-k3-1-pro-poids-ouverts-le-4-novembr\">Kimi K3.1 Pro : poids ouverts le 4 novembre</h2>\n<p>Autre calendrier : <strong>Kimi K3.1 Pro</strong>. Un billet technique consacré à l'avancée d'une intelligence ouverte annonce la publication des poids le <strong>4 novembre</strong>. Il s'agit d'une version post-entraînée de <strong>K3</strong>, ce qui devrait lui valoir un support dès le jour J sur toutes les plateformes.</p>\n<p>Pour qui fait tourner des modèles en local, le détail compte : un support jour J signifie des quantifications et des chemins d'exécution prêts à la sortie, plutôt qu'une semaine d'attente. Les tailles de poids ne sont pas précisées.</p>\n<h2>Et maintenant ?</h2>\n<p>Le logiciel grignote des pourcents là où le matériel en réclame des milliers. Fusion de noyaux dans llama.cpp, experts déportés sur NVMe, quantification IQ3_S à 262K de contexte : trois réponses à des goulots différents, mais une même logique d'optimisation. Le prix des cartes 32 Go, lui, ne dépend d'aucun de ces patches. Ce qui tourne en local se décide autant dans une pull request que dans un panier d'achat.</p>",
+ "pivot": "2ce2bfc927615b40",
+ "tags": [
+  "open-source",
+  "matériel",
+  "dev",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xey0uw/cuda_fuse_ffn_gateup_matmuls_and_glu_in_mmq_with/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xexe1m/with_the_huge_price_hike_on_the_32gb_vram_scene/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xewcs8/kimi_k31_pro_tech_blog_advancing_open_intelligence/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xev6bo/leanqwenflash_qwen38flashnext_125b_running_at_20/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xesda1/benchmark_stratabasalt_runs_qwen38_flash_next_iq3/"
+  }
+ ],
+ "date": "2026-10-25T10:43:06+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1804,
+  "sortie": 4028
+ }
+}

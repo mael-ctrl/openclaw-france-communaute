@@ -1,5 +1,18 @@
 # Journal des actions de monétisation
 
+## 25 octobre 2026 — choisir l'essai gratuit ou le prix dès l'introduction du Pack
+
+**Action unique :** deux raccourcis natifs dans l'introduction de [la page Pack](https://communaute-ia.fr/pack/) : **« Essayer 3 prompts gratuits »** et **« Voir le prix — 14 € »**. Le second mène au prix sur la même page, pas directement au paiement. Le bouton d'achat Stripe, les extraits, le sommaire et les fichiers livrés restent inchangés ; aucun prix/offre nouvelle ni suivi ajouté.
+
+- Code **`45f4389`**, quatre fichiers ciblés, réemploi des styles existants sans dépendance. Si les extraits sont indisponibles, leur raccourci est absent aussi. **221 tests Python + quatre Node** réussis ; deux cycles rouge/vert, première erreur d'assertion historique conservée puis adaptation des seuls titres recevant un id.
+- Deux builds réels identiques pour le Pack ; HTML avant/après exact après retrait du seul nav/id. **460 fichiers de données préservés**, fichiers payants inchangés. Vrai CLI `--essai --sans-redaction` en copie isolée : retour 0, 30 fichiers de preuves intacts, préfixe du journal conservé ; aucune donnée de recette importée.
+- **Cloud réussi : [40194014742](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/40194014742)**, terminé à **13:22:54 UTC** : 221 tests, pipeline et sauvegarde réussis, `pack/index.html` envoyé ; 1 855 fichiers transférés par la routine existante, zéro post Bluesky. État `a2b07a6`, fusion distante `cb57a7c`, ascendance vérifiée. Les attentes bornées du client n'étaient pas des échecs du workflow ; aucun second dispatch.
+- À **13:23:31 UTC**, HTML, CSS et script de copie HTTPS 200 et **identiques octet pour octet** aux attentes. Chromium sur **320/390/768/1 440 px**, avec et sans JS : huit configurations locales puis huit publiques, clic/Entrée, Tab/Shift+Tab, cibles visibles sous le vrai header, extrait ouvert/fermé et pas de débordement. Compteurs externes bloqués pendant la recette, paiement non visité. Captures mobile/desktop relues ; pas de promesse de présence dans le premier écran mobile.
+
+Preuves privées : `crabe-chantiers/monetisation/2026-10-25-raccourcis-pack/`, recettes, logs, captures et empreintes. HTML SHA-256 `c9914bd73a3e7358a8c721dee4c49cdb02d1b63cff0bff63af684b02897340bb`. Chasse GitHub réalisée, candidat sans licence non adopté ; aucun code tiers ajouté. Navigation mobile déjà livrée par l'autre mission : non réappliquée. Le prototype de mesure Pack du matin reste privé et désactivé, son blocage de paramètres d'URL non résolu.
+
+**Verrous :** B2B 200, mentions du média 404 au contrôle de **12:44 UTC** ; vendeur/TVA et prérequis cumulatifs toujours non validés. Aucun contact, formulaire, compte, prix nouveau, paiement ou promotion externe ; Bluesky reste exclu par le post du 20. **Aucun revenu ou gain de conversion mesuré.** Les allégations historiques non modifiées de la page ne sont pas validées par ces liens. **Suite :** qualifier la confidentialité de la mesure du parcours avant toute activation ; aucun suivi ajouté pour contourner ce blocage.
+
 ## 24 octobre 2026 — les 100 sujets du Pack consultables avant achat
 
 **Action unique :** un [sommaire public du Pack existant](https://communaute-ia.fr/pack/#sommaire-pack), généré depuis le JSON réellement livré : **100 titres, dix catégories de dix**, sans publier d'autres corps de prompts. Un accordéon global puis les catégories restent fermés au chargement, sans JavaScript requis. Aucun bundle, nouvelle offre, prix, abonnement ou remise activés.

@@ -1,0 +1,41 @@
+{
+ "slug": "open-source-et-ia-r-opensource-ferme-la-porte-la-communaute--b754cf",
+ "titre": "Open source et IA : r/opensource ferme la porte, la communauté sauvegarde ses quants",
+ "chapo": "Les modérateurs de r/opensource ont fermé la porte aux projets liés à l'IA, jugeant la technologie actuelle « incongrue » avec l'open source. Au même moment, r/LocalLLaMA appelle à sauvegarder les quantisations de modèles, tandis qu'un nouveau modèle ouvert de 33B revendique la tête des benchmarks.",
+ "html": "<h2 id=\"r-opensource-l-ia-mise-hors-du-perimetre\">r/opensource : l'IA mise hors du périmètre</h2>\n<p>Les modérateurs de r/opensource ont publié de nouvelles règles de soumission, et elles sont explicites : les projets qui utilisent l'IA, qui sont fabriqués par l'IA ou qui sont destinés à l'IA n'y sont plus les bienvenus. Le message a été posté samedi soir, rapporte <em>The Verge</em>.</p>\n<p>La justification tient en une phrase, citée telle quelle : « l'IA, telle qu'elle existe aujourd'hui, est incongrue avec cet open source ». Le bannissement ne vient pas seul : d'autres restrictions accompagnent la décision, sans que le détail en soit donné.</p>\n<p>Concrètement, un forum dédié à l'open source trace donc une frontière nette entre ses sujets et tout ce qui touche à l'IA. La formulation retenue vise « l'IA telle qu'elle existe aujourd'hui » — pas une catégorie abstraite, mais l'état actuel des outils et des usages.</p>\n<h2 id=\"sauvegarder-les-quants-pendant-qu-ils-so\">Sauvegarder les quants, pendant qu'ils sont là</h2>\n<p>Sur r/LocalLLaMA, la préoccupation est ailleurs : la disparition possible de fichiers. Un internaute invite à sauvegarder sans attendre les quantisations de modèles que l'on souhaite conserver. Il renvoie vers la page de requêtes de modèles de mradermacher sur Hugging Face, et estime que la situation est la même chez les autres producteurs de quants.</p>\n<p>L'appel ne s'arrête pas au disque dur personnel : il encourage à créer des torrents de ces fichiers et à les partager via llama.garden, pirateface.co et huggingbay.xyz. Autrement dit, à faire circuler les poids quantifiés plutôt qu'à les laisser dépendre d'un hébergement unique.</p>\n<p>Rien, dans les dépêches, n'établit de lien direct entre ce réflexe d'archivage et la décision de r/opensource. Les deux conversations portent néanmoins sur la même matière : ce qui circule, qui le garde, et à quelles conditions.</p>\n<h2 id=\"nanbeige4-3-33b-du-neuf-cote-modeles\">Nanbeige4.3-33B : du neuf côté modèles</h2>\n<p>Pendant que la communauté s'organise côté sauvegarde, l'actualité des modèles continue. Nanbeige met en ligne Nanbeige4.3-33B sur Hugging Face. Selon l'équipe, ce modèle devance Qwen3.8-27B sur un ensemble de benchmarks — une revendication d'équipe, pas un résultat reproduit indépendamment à ce stade.</p>\n<p>Le modèle ne sert pas seulement de vitrine : il constitue le socle de la future pipeline de distillation de petits modèles de Nanbeige, à commencer par Nanbeige4.3-3B. D'autres tailles sont évoquées, sans engagement ferme.</p>\n<p>La logique est classique : un gros modèle pour entraîner des versions réduites, plus faciles à faire tourner localement. Un poids de plus dans le circuit des utilisateurs de modèles ouverts — et donc un candidat de plus à la sauvegarde.</p>\n<h2 id=\"presse-bousculee-php-rattrape\">Presse bousculée, PHP rattrapé</h2>\n<p>Deux autres signaux, plus éloignés de la question de l'open source. D'un côté, la recherche enrichie à l'IA de Google a bouleversé l'édition en ligne, au point que <em>The Verge</em> y consacre sa newsletter hebdomadaire <em>The Stepback</em>. Le découpage repart des origines, en rappelant sur quoi l'industrie de la presse numérique s'est appuyée, avant d'examiner ce que ces changements lui font. Le sujet est signé Emma Roth, qui suit l'impact de l'IA sur le web.</p>\n<p>De l'autre, des failles PHP dormaient dans le code depuis une vingtaine d'années. Baptisées PHP2Shell, elles ont été débusquées grâce à l'IA générative, rapporte 01net. Ce n'est pas uniquement une bonne nouvelle pour la cybersécurité : l'IA donne aussi un coup de pouce aux pirates qui cherchent à exploiter la vulnérabilité pour orchestrer des cyberattaques.</p>\n<p>Deux faces d'un même outil, donc : ce qui permet de trouver une faille vieille de vingt ans permet aussi de l'exploiter.</p>\n<h2>Et maintenant ?</h2>\n<p>Ce qui ressort de ces dépêches, c'est moins une ligne claire qu'un empilement de décisions et de réflexes. Un forum trace une frontière, des utilisateurs archivent des fichiers, un modèle de 33B arrive avec ses benchmarks, des failles de vingt ans sortent de l'ombre. Aucune de ces histoires ne dit à elle seule où va l'écosystème ; mises bout à bout, elles décrivent des communautés qui tentent de garder la main sur ce qu'elles utilisent, et des outils dont les usages ne se décident jamais dans un seul endroit.</p>",
+ "pivot": "b754cffa35535218",
+ "tags": [
+  "open-source",
+  "sécurité",
+  "recherche",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf11qj/backup_your_quants/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/nouvelle-norme-lia-seme-chaos-internet-semaine-que-debut.html"
+  }
+ ],
+ "date": "2026-10-25T14:56:40+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1546,
+  "sortie": 4094
+ }
+}

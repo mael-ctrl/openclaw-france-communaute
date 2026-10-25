@@ -1,0 +1,41 @@
+{
+ "slug": "deepseek-v4-1-flash-kepler-mac-m6-la-ou-tournent-les-modeles-4011e8",
+ "titre": "DeepSeek-V4.1 Flash, Kepler, Mac M6 : là où tournent les modèles",
+ "chapo": "Une pull request pour faire entrer DeepSeek-V4.1-Flash dans llama.cpp, un fork qui remet les Tesla K40c en piste, un outil qui débride les RTX 30 et 40 : sur r/LocalLLaMA, le débat sur l'inférence locale s'est déplacé du modèle vers la machine. Cinq dépêches où le matériel impose ses chiffres.",
+ "html": "<h2 id=\"deepseek-v4-1-flash-763-milliards-de-par\">DeepSeek-V4.1-Flash : 763 milliards de paramètres en approche dans llama.cpp</h2>\n<p>Une pull request signée am17an (#31086) porte sur l'ajout du modèle DSV4.1 Flash dans <strong>llama.cpp</strong>, le moteur d'inférence de ggml-org. Le support est donc en préparation : une PR ouverte n'est pas une fusion.</p>\n<p>Le modèle, lui, est déjà publié. <strong>deepseek-ai</strong> le diffuse sur Hugging Face sous le nom DeepSeek-V4.1-Flash, accompagné d'un rapport technique en PDF. Le billet paru sur r/LocalLLaMA signale une taille de <strong>763 milliards de paramètres</strong>.</p>\n<p>C'est ce chiffre qui rend le fil intéressant : l'intérêt de la communauté locale porte sur l'exécution du modèle via llama.cpp, pas sur un classement de benchmarks. Quand un modèle de cette taille se discute en termes de moteur d'inférence, c'est la question du déploiement qui prend le dessus.</p>\n<h2 id=\"kepler-et-rtx-30-40-le-parc-existant-red\">Kepler et RTX 30/40 : le parc existant redevient un gisement</h2>\n<p>Deux dépêches voisines racontent la même chose par les deux bouts.</p>\n<p>D'un côté, un outil de déblocage présenté sur r/LocalLLaMA permettrait aux GPU NVIDIA <strong>RTX 30 et RTX 40</strong> de doubler leur compute pour l'inférence de grands modèles de langage, avec un gain pouvant atteindre <strong>2X sur la vitesse de prefill</strong>. Les gains annoncés iraient jusqu'à <strong>30x/40x</strong>, l'outil s'inspirant du CMP170HX. Revers de la médaille, signalé dans le fil : les prix des cartes concernées grimpent aussi.</p>\n<p>De l'autre, un développeur publie un <strong>fork de llama.cpp</strong> pour les vieux GPU NVIDIA Kepler et antérieurs à Ampere, avec une intention explicite : prolonger leur vie plutôt que de les jeter. Des correctifs sur le type de calcul cuBLAS permettent de lancer le logiciel sur du matériel (cc35-50) qui échouait à l'initialisation. Sur Qwen3.6-35B-A3B en Q8_0 avec quatre <strong>Tesla K40c</strong>, on passe d'un démarrage impossible à <strong>35 tps</strong>, puis environ <strong>55 tps</strong> avec les CUDA graphs.</p>\n<p>Deux effets opposés sur un même marché : la demande se tend sur les cartes récentes pendant que du matériel ancien redevient utilisable.</p>\n<h2 id=\"anemll-forge-0-2-1-qwen3-8-27b-sur-le-ne\">ANEMLL Forge 0.2.1 : Qwen3.8-27B sur le Neural Engine d'un Mac Mini M6</h2>\n<p>ANEMLL Forge 0.2.1 permet de faire tourner <strong>Qwen3.8-27B</strong> sur le Neural Engine des <strong>Mac Mini M6 32 Go</strong>, jusqu'à <strong>192K de contexte</strong>. La version ajoute deux mécanismes : un cache K/V en <strong>INT8</strong> (moitié du FP16) et un drafter plus petit partageant la tête de sortie du modèle cible. Résultat annoncé : <strong>0,86 Go d'ANE économisé, à vitesse égale</strong>.</p>\n<p>Le débit, lui, dépend du contenu — et c'est le point à retenir : <strong>35 à 62 tok/s en JSON</strong>, <strong>18 à 32 en code</strong>, <strong>10 à 17 en prose</strong>. Le prefill atteint <strong>260 tok/s en contexte court</strong>, contre <strong>62 à 192K</strong>.</p>\n<p>Autrement dit, une moyenne unique ne dit rien d'utile. Un même modèle sur une même machine varie d'un facteur trois selon ce qu'on lui demande d'écrire, et d'un facteur quatre sur le prefill selon la longueur du contexte.</p>\n<h2 id=\"kimi-k3-1-ce-qui-sort-du-modele-compte-a\">Kimi K3.1 : ce qui sort du modèle compte autant que ce qui y entre</h2>\n<p>La publication open weight de <strong>Kimi K3.1</strong> ne contient plus les données d'entraînement portant sur les cyberattaques. D'après l'extrait partagé sur r/LocalLLaMA, ce retrait s'explique avant tout par les <strong>nouvelles restrictions chinoises à l'export</strong>. S'y ajoute une prudence croissante face à la multiplication des exploits en cybersécurité.</p>\n<p>Le détail a son importance : open weight ne veut pas dire open data. Ce qui entre dans un modèle, et ce qu'on choisit d'en retirer au moment de publier, relève d'une décision — industrielle, réglementaire, ou les deux. Les poids sont disponibles ; la recette, non, et son périmètre peut changer d'une version à l'autre.</p>\n<h2>Et maintenant ?</h2>\n<p>Les cinq dépêches ne parlent pas de la même chose, et c'est ce qui les rend lisibles ensemble. Un modèle de 763 milliards de paramètres qu'on discute en termes de pull request, des K40c qui repartent à 55 tps, des RTX dont le prix monte à mesure qu'on les débride, un Mac Mini qui varie du simple au triple selon le format de sortie : la question n'est plus seulement « quel modèle », mais « sur quoi, à quelle vitesse, et avec quoi dedans ». Les chiffres cités viennent tous de fils communautaires, pas de mesures indépendantes.</p>",
+ "pivot": "4011e84db5ef4ce2",
+ "tags": [
+  "deepseek",
+  "open-source",
+  "matériel",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xeqf7k/model_dsv41_flash_by_am17an_pull_request_31086/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xelhpj/cmp170hx_inspiration_unlocks_30x40x_also_up_to_2x/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xejv61/m6_mac_mini_owners_32gb_now_you_can_run_qwen3827b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xeicw2/highperformance_llamacpp_fork_for_legacy_gpus/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/"
+  }
+ ],
+ "date": "2026-10-25T03:34:46+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1723,
+  "sortie": 4827
+ }
+}

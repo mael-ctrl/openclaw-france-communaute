@@ -1,5 +1,68 @@
 [
  {
+  "id": "c3dbf7eff3883c3f",
+  "slug": "l-artificial-analysis-index-juge-peu-representatif-des-usages-reels-c3dbf7",
+  "titre": "L'Artificial Analysis Index jugé peu représentatif des usages réels",
+  "resume": "Un utilisateur de r/LocalLLaMA dit avoir testé Kimi 3.1 Pro via OpenRouter et l'avoir trouvé très mauvais en usage réel, loin derrière DeepSeek 4.1 Flash et MiMo 2.6. Or Kimi 3.1 Pro pointe à la 4e place de l'Artificial Analysis Index. Selon lui, cet index serait facile à manipuler et ne refléterait pas les performances constatées sur des cas concrets.",
+  "tags": [
+   "deepseek",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xercio/artificial_analysis_index_is_nonrepresentative_of/",
+  "date_source": "2026-10-25T03:04:55+00:00",
+  "date_redac": "2026-10-25T03:34:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 697,
+   "sortie": 622
+  }
+ },
+ {
+  "id": "2078bc4c1d0ed147",
+  "slug": "reverse-engineering-des-tv-connectees-openai-et-anthropic-auraient-blo-2078bc",
+  "titre": "Reverse engineering des TV connectées : OpenAI et Anthropic auraient bloqué REA",
+  "resume": "Sur r/LocalLLaMA, un fil affirme qu'OpenAI et Anthropic ont bloqué une initiative de reverse engineering baptisée REA (Reserve Engineer Anything), liée à l'analyse de télévisions connectées soupçonnées d'espionner leurs utilisateurs. Selon l'extrait, Claude aurait bloqué le projet un jour plus tard. Le post ne précise ni la méthode employée ni les preuves de ces blocages.",
+  "tags": [
+   "openai",
+   "claude",
+   "sécurité",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xer30z/openai_and_anthropic_blocked_the_reverse/",
+  "date_source": "2026-10-25T02:51:18+00:00",
+  "date_redac": "2026-10-25T03:34:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 690,
+   "sortie": 934
+  }
+ },
+ {
+  "id": "4011e84db5ef4ce2",
+  "slug": "deepseek-v4-1-flash-un-support-en-preparation-dans-llama-cpp-4011e8",
+  "titre": "DeepSeek-V4.1 Flash : un support en préparation dans llama.cpp",
+  "resume": "Une pull request d'am17an (#31086) porte sur l'ajout du modèle DSV4.1 Flash dans llama.cpp, le moteur d'inférence de ggml-org. Le modèle est publié par deepseek-ai sur Hugging Face sous le nom DeepSeek-V4.1-Flash, accompagné d'un rapport technique en PDF. Le billet paru sur r/LocalLLaMA signale une taille de 763 milliards de paramètres et l'intérêt de la communauté locale pour son exécution via llama.cpp.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xeqf7k/model_dsv41_flash_by_am17an_pull_request_31086/",
+  "date_source": "2026-10-25T02:16:43+00:00",
+  "date_redac": "2026-10-25T03:34:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 698,
+   "sortie": 1396
+  }
+ },
+ {
   "id": "8498a0f2cc931027",
   "slug": "huit-gpu-et-256-go-de-ddr4-pour-faire-tourner-de-gros-moe-viable-8498a0",
   "titre": "Huit GPU et 256 Go de DDR4 pour faire tourner de gros MoE : viable ?",

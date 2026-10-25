@@ -50,104 +50,62 @@
    "société"
   ],
   "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+  "date_source": "2026-10-25T14:10:00+00:00",
+  "date_redac": "2026-10-25T14:55:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 620,
+   "sortie": 91
+  }
+ },
+ {
+  "id": "75568a0e529e8ef5",
+  "slug": "anker-solarbank-max-ac-une-batterie-domestique-de-7-kwh-sur-simple-pri-75568a",
+  "titre": "Anker Solarbank Max AC : une batterie domestique de 7 kWh sur simple prise",
+  "resume": "Anker propose avec la Solarbank Max AC une batterie domestique de 7 kWh qui ne se relie pas aux panneaux solaires, mais à une simple prise. Le testeur de Frandroid l'a utilisée pendant un mois dans son garage et l'a passée au banc : la construction est très soignée et l'application fait partie des meilleures du marché. Son rendement chute toutefois dans certaines conditions.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
   "source": "Frandroid",
   "lien_source": "https://www.frandroid.com/marques/anker/3297455_jai-teste-lanker-solix-solarbank-max-ac-la-batterie-qui-se-branche-sur-une-prise-mesuree-au-wattheure-pres",
   "date_source": "2026-10-25T14:01:00+00:00",
-  "date_redac": "2026-10-25T14:10:04+00:00",
+  "date_redac": "2026-10-25T14:55:53+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 723,
-   "sortie": 135
-  }
- },
- {
-  "id": "8f85313d41a7a3b2",
-  "slug": "fable-5-5-face-a-opus-5-5-ce-qui-ferait-vraiment-basculer-les-utilisat-8f8531",
-  "titre": "Fable 5.5 face à Opus 5.5 : ce qui ferait vraiment basculer les utilisateurs",
-  "resume": "Un utilisateur de Claude Code dit faire tourner presque tout sur Opus 5.5 et une partie de sa journée sur Sonnet 5.5 ; Fable 5.1, jugé impressionnant, reste trop cher pour l'écart de qualité sur son travail. Il demande ce qui le ferait basculer vers Fable 5.5 : baisse de prix, tâches longues lancées sans surveillance, moins de « done ! » annoncés à tort, meilleure lecture d'un gros codebase avant modification.",
-  "tags": [
-   "claude",
-   "dev",
-   "agents"
-  ],
-  "importance": 2,
-  "source": "Reddit — Claude",
-  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xf2rb5/what_would_actually_make_you_use_fable_55_over/",
-  "date_source": "2026-10-25T13:44:51+00:00",
-  "date_redac": "2026-10-25T14:10:20+00:00",
-  "gen": {
-   "modele": "deepseek-flash",
-   "entree": 816,
-   "sortie": 1164
-  }
- },
- {
-  "id": "ef27f2422f05a796",
-  "slug": "desactiver-pubs-et-telemetrie-d-un-televiseur-avec-claude-sans-forcer--ef27f2",
-  "titre": "Désactiver pubs et télémétrie d'un téléviseur avec Claude, sans forcer les garde-fous",
-  "resume": "Des posts signalent qu'Anthropic a resserré ses garde-fous sur le reverse engineering, ce que l'auteur juge cohérent après des incidents de sécurité récents comme PHP2Shell. Il publie donc un guide pour désactiver pubs et télémétrie sur son téléviseur Panasonic TV-75W95BEB sans les franchir. Au menu : passer le TV en mode debug pour que Claude s'y connecte via adb, et éviter de toucher aux services critiques, au risque de bricker l'appareil.",
-  "tags": [
-   "claude",
-   "sécurité",
-   "matériel"
-  ],
-  "importance": 2,
-  "source": "Reddit — Claude",
-  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xf2l6b/regarding_reverse_engineering_tvs/",
-  "date_source": "2026-10-25T13:37:18+00:00",
-  "date_redac": "2026-10-25T14:10:26+00:00",
-  "gen": {
-   "modele": "deepseek-flash",
-   "entree": 780,
-   "sortie": 861
+   "sortie": 568
   }
  },
  {
   "id": "b754cffa35535218",
   "slug": "r-opensource-bannit-les-projets-lies-a-l-ia-de-ses-soumissions-b754cf",
   "titre": "r/opensource bannit les projets liés à l'IA de ses soumissions",
-  "resume": "Les modérateurs de r/opensource ont publié de nouvelles règles de soumission : les projets qui utilisent l'IA, qui sont produits par une IA ou qui lui sont destinés n'y sont plus acceptés. Le message publié samedi soir justifie ce choix par une incompatibilité entre l'IA telle qu'elle existe aujourd'hui et l'open source. Les autres changements visent notamment les non-anglophones.",
+  "resume": "Les modérateurs de r/opensource ont publié de nouvelles règles de soumission : les projets qui utilisent l'IA, qui sont fabriqués par l'IA ou qui sont destinés à l'IA n'y sont plus les bienvenus. Le message, posté samedi soir, justifie ce choix par le fait que « l'IA, telle qu'elle existe aujourd'hui, est incongrue avec cet open source ». D'autres restrictions accompagnent ce bannissement.",
   "tags": [
    "open-source",
-   "société",
-   "dev"
+   "dev",
+   "société"
   ],
   "importance": 3,
   "source": "The Verge IA",
   "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
   "date_source": "2026-10-25T13:25:32+00:00",
-  "date_redac": "2026-10-25T14:10:31+00:00",
+  "date_redac": "2026-10-25T14:55:58+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 669,
-   "sortie": 714
-  }
- },
- {
-  "id": "c7dfca8f2dddc82e",
-  "slug": "jiggle-peach-un-idle-game-ou-l-on-gifle-une-peche-3d-concu-avec-claude-c7dfca",
-  "titre": "Jiggle Peach, un idle game où l'on gifle une pêche 3D, conçu avec Claude Code",
-  "resume": "Jiggle Peach est un idle game en développement où l'on peut gifler une pêche 3D qui rebondit. Son auteur, Rayquinox sur Reddit, l'a conçu avec l'aide de Claude Code : modèles 3D, musique disco et easter egg musical ont été générés par du code. Le modèle de base de la pêche a été créé avec Womp AI puis retouché à la main. Le jeu est étiqueté NSFW, avec un réglage « Spice » pour atténuer le contenu suggestif.",
-  "tags": [
-   "claude",
-   "dev"
-  ],
-  "importance": 2,
-  "source": "Reddit — Claude",
-  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xf27kt/jiggle_peach_my_wip_idle_game_where_you_can_slap/",
-  "date_source": "2026-10-25T13:20:13+00:00",
-  "date_redac": "2026-10-25T14:10:38+00:00",
-  "gen": {
-   "modele": "deepseek-flash",
-   "entree": 815,
-   "sortie": 1130
+   "sortie": 681
   }
  },
  {
   "id": "1efc213fc5f0f759",
-  "slug": "gmail-live-arrive-dans-workspace-avec-l-assistant-vocal-de-gemini-1efc21",
-  "titre": "Gmail Live arrive dans Workspace avec l'assistant vocal de Gemini",
-  "resume": "Demander à Gmail où se trouve une information plutôt que multiplier les recherches : c'est la promesse de Gmail Live. Déjà proposé aux particuliers abonnés à Google AI, l'assistant vocal arrive dans Workspace. Google en profite pour ajouter un choix de voix et étendre sa boîte de réception assistée par IA aux comptes pros.",
+  "slug": "gmail-live-debarque-dans-workspace-avec-un-choix-de-voix-1efc21",
+  "titre": "Gmail Live débarque dans Workspace avec un choix de voix",
+  "resume": "Gmail Live permet de demander à sa boîte mail où se trouve une information, plutôt que de multiplier les recherches. L'assistant vocal, déjà proposé aux particuliers abonnés à Google AI, arrive désormais dans Workspace. Google ajoute au passage un choix de voix et étend sa boîte de réception assistée par IA aux comptes professionnels.",
   "tags": [
    "gemini",
    "business",
@@ -157,11 +115,11 @@
   "source": "Journal du Geek",
   "lien_source": "https://www.journaldugeek.com/2026/10/25/vous-ne-retrouvez-jamais-rien-dans-gmail-google-a-une-idee/",
   "date_source": "2026-10-25T13:02:24+00:00",
-  "date_redac": "2026-10-25T14:10:42+00:00",
+  "date_redac": "2026-10-25T14:56:01+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 692,
-   "sortie": 121
+   "sortie": 380
   }
  },
  {

@@ -3228,6 +3228,12 @@
 {"ts": "2026-10-25T13:22:49+00:00", "evenement": "deploiement", "details": {"fichiers": 1855, "octets": 38058527}, "sha256": "aecd0f71d03d083449bef269040b2d672696985bb7241f03259d94f8cb2ec9cf"}
 {"ts": "2026-10-25T13:22:50+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "41d2afdf0fa43f36717ad79be7f0b92a001945df2dae555f7e66ee1adc77fcdf"}
 {"ts": "2026-10-25T13:22:50+00:00", "evenement": "bilan", "details": {"duree_s": 2574.7, "neufs": 3, "breves": 3, "articles": 1, "fichiers": 1816, "envois": 1855, "publications": 0}, "sha256": "261aca7f7d3ec8f1db93b93e06d9580a32a05db3da101c5c6b5b5f6bbaae4b16"}
+{"ts": "2026-10-25T14:55:29+00:00", "evenement": "collecte", "details": {"neufs": 6}, "sha256": "7699a4a10db428633716030bd4db1738e694da8589fb016532a18843b90727e4"}
+{"ts": "2026-10-25T14:56:16+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Lure-TTS and Lure-Turbo: 600M voice models to run 4x faster ) : réponse non-JSON"}, "sha256": "356454d2712d2537bd41b1dfe354abcebbd3a3337c6ff22d7327a2dfdf218bf1"}
+{"ts": "2026-10-25T14:57:00+00:00", "evenement": "construction", "details": {"fichiers": 1822}, "sha256": "c5c857933b352744077ea95b7540cc54bfa111defde628d005b34725ac08cef2"}
+{"ts": "2026-10-25T15:32:36+00:00", "evenement": "deploiement", "details": {"fichiers": 1863, "octets": 38343237}, "sha256": "02d2dce7182972c26b0e938159d9a7b4aa8e2df78292aecda10650760dfd0fc4"}
+{"ts": "2026-10-25T15:32:36+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "65d5f26290d406c17a4afd854923044e6bb8acae9f9a0009b5805e711a013df0"}
+{"ts": "2026-10-25T15:32:36+00:00", "evenement": "bilan", "details": {"duree_s": 2242.3, "neufs": 6, "breves": 5, "articles": 1, "fichiers": 1822, "envois": 1863, "publications": 0}, "sha256": "32c90ec2f0d96c157924068a48f55272ece263175f36aa75fb3af87181ad84d5"}
 {"ts": "2026-10-25T14:10:03+00:00", "evenement": "collecte", "details": {"neufs": 15}, "sha256": "fdb8605d514d5ce726a1a2dbfa0bbba8547f02dd8e4f2dade0fb0df61baf23fd"}
 {"ts": "2026-10-25T14:11:19+00:00", "evenement": "construction", "details": {"fichiers": 1823}, "sha256": "26195e73116c23633dacf1f4b36e55f11bfbfe382e280cb1b05079e4fd315407"}
 {"ts": "2026-10-25T14:53:17+00:00", "evenement": "deploiement", "details": {"fichiers": 1865, "octets": 38421096}, "sha256": "d44c6841df6350c392449e8e6e624a88b15f2dbe03704ddaeb30dada195ef481"}

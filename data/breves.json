@@ -1,5 +1,87 @@
 [
  {
+  "id": "e13e17a7b37dc973",
+  "slug": "kimi-k3-1-pro-poids-ouverts-le-4-novembre-et-support-jour-j-e13e17",
+  "titre": "Kimi K3.1 Pro : poids ouverts le 4 novembre et support jour J",
+  "resume": "Kimi K3.1 Pro fait l'objet d'un billet technique consacré à l'avancée d'une intelligence ouverte. Les poids du modèle seront publiés le 4 novembre. Il s'agit d'une version post-entraînée de K3, ce qui devrait lui valoir un support dès le jour J sur toutes les plateformes.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xewcs8/kimi_k31_pro_tech_blog_advancing_open_intelligence/",
+  "date_source": "2026-10-25T07:51:59+00:00",
+  "date_redac": "2026-10-25T08:12:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 649,
+   "sortie": 500
+  }
+ },
+ {
+  "id": "feb9330706ad14b1",
+  "slug": "flight-simulator-95-et-98-repassent-sur-windows-64-bits-grace-a-claude-feb933",
+  "titre": "Flight Simulator 95 et 98 repassent sur Windows 64 bits grâce à Claude Code",
+  "resume": "Un passionné de Flight Simulator voulait faire tourner FS95 et FS98, deux jeux incapables de démarrer sur Windows 64 bits. Il savait depuis dix ans que les deux titres plantaient sur des exceptions de division par zéro liées à la gestion de leurs fenêtres 2D et 3D, et soupçonnait WINDOW.DLL et G3D.DLL. DxWnd donnait un rendu trop buggé pour jouer ; Claude Code a patché les bibliothèques et les jeux tournent.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xew9ma/flight_simulator_9598_finally_running_on_64bit/",
+  "date_source": "2026-10-25T07:46:29+00:00",
+  "date_redac": "2026-10-25T08:12:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 824,
+   "sortie": 817
+  }
+ },
+ {
+  "id": "81f9a483f6b3a4e4",
+  "slug": "quels-benchmarks-refletent-vraiment-les-capacites-des-modeles-81f9a4",
+  "titre": "Quels benchmarks reflètent vraiment les capacités des modèles ?",
+  "resume": "Sur r/LocalLLaMA, un internaute doute de la valeur des benchmarks actuels, AA compris, qui ne refléteraient pas les capacités réelles des modèles. Il cite des modèles « benchmaxxés », proches de la frontière en code mais inutilisables hors poèmes. Il demande quels benchmarks sont les plus réalistes pour le code, la recherche agentique et le travail de bureau.",
+  "tags": [
+   "recherche",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xevwim/most_realistic_benchmarks/",
+  "date_source": "2026-10-25T07:24:25+00:00",
+  "date_redac": "2026-10-25T08:12:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 659,
+   "sortie": 709
+  }
+ },
+ {
+  "id": "9c33e7d23a65ed33",
+  "slug": "beam-1-0-501b-a23b-les-premiers-retours-neuf-jours-apres-la-sortie-9c33e7",
+  "titre": "Beam 1.0 (501B A23B) : les premiers retours, neuf jours après la sortie",
+  "resume": "Neuf jours après la sortie de Beam 1.0 (501B de paramètres, 23B actifs), un utilisateur de r/LocalLLaMA partage ses premiers retours en dev backend, via des providers, sans benchmark personnel. Il juge les providers rapides et le modèle efficace : il va droit au but et parcourt de grosses bases de code avec aise, en Rust, PHP, Python et JS. Quelques boucles et échecs d'appels d'outils subsistent, sans être nombreux.",
+  "tags": [
+   "dev",
+   "skills"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xevrui/beam_10_501b_a23b_9_days_after_release_your/",
+  "date_source": "2026-10-25T07:16:38+00:00",
+  "date_redac": "2026-10-25T08:12:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 822,
+   "sortie": 1188
+  }
+ },
+ {
   "id": "5f46374ad5df805b",
   "slug": "hermes-agent-publie-une-version-canary-v0-22-5-5f4637",
   "titre": "Hermes Agent publie une version canary v0.22.5",
@@ -40,6 +122,47 @@
    "modele": "deepseek-flash",
    "entree": 882,
    "sortie": 568
+  }
+ },
+ {
+  "id": "00eecae015a39753",
+  "slug": "claude-la-fonctionnalite-threads-fait-polemique-chez-les-utilisateurs--00eeca",
+  "titre": "Claude : la fonctionnalité Threads fait polémique chez les utilisateurs Pro",
+  "resume": "Sur r/ClaudeAI, un utilisateur raconte que son partenaire a pris un abonnement Pro après l'avoir vu créer un jeu avec Claude. En voulant regrouper son travail dans un projet, il est tombé sur la nouvelle fonctionnalité Threads, déployée sur les comptes sans projets. Les fenêtres de chat existantes ne peuvent pas y être intégrées, faute d'être des threads, et aucune désactivation n'est prévue.",
+  "tags": [
+   "claude",
+   "dev",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xeuxi9/who_tf_thought_up_this_threads_bs/",
+  "date_source": "2026-10-25T06:26:26+00:00",
+  "date_redac": "2026-10-25T08:12:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 782,
+   "sortie": 1050
+  }
+ },
+ {
+  "id": "b7e451e994cc91ce",
+  "slug": "claude-erreurs-elevees-sur-cinq-modeles-incident-resolu-b7e451",
+  "titre": "Claude : erreurs élevées sur cinq modèles, incident résolu",
+  "resume": "Un incident a provoqué des erreurs élevées sur les requêtes adressées à plusieurs modèles Claude : Mythos 5.1, Fable 5.1, Opus 5.5, Sonnet 5.5 et Haiku 5.5. La cause a été identifiée à 06:35 UTC, l'impact étant circonscrit entre 06:05 et 06:35 UTC. Un correctif a été déployé et la reprise des services est surveillée. Le rapport d'incident est suivi dans un fil dédié sur le subreddit Claude.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xeuqsz/discussion_hub_for_new_claude_incident_elevated/",
+  "date_source": "2026-10-25T06:15:03+00:00",
+  "date_redac": "2026-10-25T08:12:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 848,
+   "sortie": 876
   }
  },
  {

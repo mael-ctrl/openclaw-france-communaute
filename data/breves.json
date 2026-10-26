@@ -1,5 +1,47 @@
 [
  {
+  "id": "d051f4ca0470dfc6",
+  "slug": "un-moteur-maison-fait-tourner-qwen-flash-next-a-pres-de-400-t-s-sur-tr-d051f4",
+  "titre": "Un moteur maison fait tourner Qwen-Flash-Next à près de 400 t/s sur trois V100",
+  "resume": "Sur r/LocalLLaMA, un développeur présente un moteur d'inférence qui fait tourner Qwen-Flash-Next à près de 400 tokens par seconde. Le montage tient sur trois V100 32 Go installées dans un vieux R740. Le code a été forké depuis strata, mais l'essentiel du moteur a été reconstruit pour l'ancienne génération Volta. De quoi remettre du matériel de datacenter déclassé au service de l'inférence locale.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xg9cr1/i_built_an_engine_that_runs_qwenflashnext_at/",
+  "date_source": "2026-10-26T21:11:25+00:00",
+  "date_redac": "2026-10-26T21:37:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 661,
+   "sortie": 565
+  }
+ },
+ {
+  "id": "f6ad4bde8fabeb4b",
+  "slug": "openclaw-actualisation-des-locales-de-l-interface-de-controle-f6ad4b",
+  "titre": "OpenClaw : actualisation des locales de l'interface de contrôle",
+  "resume": "OpenClaw a publié le 26 octobre 2026 une version de maintenance dédiée à son interface de contrôle : les fichiers de localisation de l'UI ont été actualisés, sous la référence #185000. La modification, de type chore(ui), est co-signée par le compte robot github-actions. Le tag de publication est release-publish/733b96cc02a5-1793047666.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F733b96cc02a5-1793047666",
+  "date_source": "2026-10-26T20:46:01+00:00",
+  "date_redac": "2026-10-26T21:37:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 644,
+   "sortie": 921
+  }
+ },
+ {
   "id": "8a1a25aad1bef53a",
   "slug": "qwen-flash-next-la-preuve-d-exfiltration-est-un-prompt-parodique-8a1a25",
   "titre": "Qwen Flash Next : la « preuve » d'exfiltration est un prompt parodique",

@@ -1,0 +1,41 @@
+{
+ "slug": "inference-locale-vieilles-v100-jetson-thor-et-mini-pc-a-192--d051f4",
+ "titre": "Inférence locale : vieilles V100, Jetson Thor et mini PC à 192 Go",
+ "chapo": "D'un côté, Anthropic paierait jusqu'à 120,5 Md$ pour du calcul. De l'autre, un développeur fait tourner Qwen-Flash-Next à près de 400 t/s sur trois V100 dans un vieux R740. Entre matériel déclassé, cartes introuvables et mémoire qui grimpe, l'inférence locale se cherche ses propres rails.",
+ "html": "<h2 id=\"trois-v100-dans-un-r740-et-un-moteur-ree\">Trois V100 dans un R740, et un moteur réécrit</h2>\n<p>Sur r/LocalLLaMA, un développeur présente un moteur d'inférence qui fait tourner <strong>Qwen-Flash-Next</strong> à près de 400 tokens par seconde. Le montage tient sur trois <strong>V100 32 Go</strong> installées dans un vieux R740 — trois cartes de 32 Go chacune, du matériel de datacenter déclassé, remis au service de l'inférence locale.</p>\n<p>Le code a été forké depuis <strong>strata</strong>, mais l'essentiel du moteur a été reconstruit pour l'ancienne génération <strong>Volta</strong>. Toute la nuance est là : les V100 ne sont plus les cartes mises en avant, et leur mémoire reste exploitable à condition de reprendre les couches basses du moteur plutôt que de dépendre de kernels taillés pour du silicium récent.</p>\n<p>Le geste intéressant n'est pas le chiffre en soi, mais ce qu'il déplace : la question devient moins « quelle carte acheter » que « qu'est-ce qu'on peut encore tirer de ce qui est déjà là ».</p>\n<h2 id=\"jetson-thor-40-tok-s-sans-sacrifier-la-p\">Jetson Thor : 40 tok/s sans sacrifier la précision</h2>\n<p>Embedl détaille les performances de <strong>Qwen3.8-27B</strong> sur <strong>Jetson Thor</strong> : 39,6 tok/s en décodage, 23,6 tok/s de bout en bout, 24,8 GiB au pic. Trois briques expliquent ces chiffres : une quantification <strong>INT4</strong> maison (environ la moitié de l'erreur d'AWQ), un LM head « <strong>FlashHead</strong> » et une tête <strong>MTP</strong> pour le décodage spéculatif, le tout sur <strong>TensorRT Edge-LLM</strong>.</p>\n<p>La précision reste annoncée au niveau FP16 : 96,4 sur GSM8K, 83,5 sur IFEval, 79,1 sur MMLU-Pro. Selon ces mesures, la compression mémoire ne se paie donc pas d'un effondrement des scores — c'est précisément ce que ce genre de montage cherche à éviter.</p>\n<h2 id=\"le-mini-pc-qui-pousse-la-memoire-a-192-g\">Le mini PC qui pousse la mémoire à 192 Go</h2>\n<p>Côté boîtier, le <strong>GMKtec EVO-X5 Pro</strong> est l'une des premières machines à embarquer le <strong>Ryzen AI Max+ PRO 495</strong>, la mise à jour de la puce <strong>Strix Halo</strong> d'AMD. Le processeur progresse à peine ; c'est la mémoire qui bouge, de 128 à <strong>192 Go</strong>.</p>\n<p>Cette réserve compte pour l'inférence locale : elle déplace la limite du côté de ce qu'on peut charger, pas de la vitesse brute. De quoi faire tourner chez soi des modèles qu'aucun mini PC ne parvenait à charger jusqu'ici, selon Frandroid.</p>\n<p>Le contraste avec le montage V100 est instructif : d'un côté on recycle des accélérateurs de datacenter et on réécrit le moteur, de l'autre on achète de la RAM. Deux façons de contourner le même mur.</p>\n<h2 id=\"rtx-5090-introuvable-contrats-a-120-5-md\">RTX 5090 introuvable, contrats à 120,5 Md$</h2>\n<p>Deux autres signaux, sans lien démontré entre eux, touchent l'approvisionnement en calcul. Sur r/LocalLLaMA, un message rapporte que <strong>NVIDIA</strong> n'accepterait plus les commandes de <strong>RTX 5090</strong> passées par ses partenaires fabricants de cartes, les précommandes étant elles aussi indisponibles. Le post ne précise ni les raisons de cette situation ni sa durée. Pour ceux qui font tourner des modèles en local, la disponibilité de cette carte pèse directement.</p>\n<p>À l'autre bout de l'échelle, un post publié le 26 octobre sur le subreddit r/ClaudeAI affirme qu'<strong>Anthropic</strong> verserait à <strong>SpaceX</strong> jusqu'à <strong>120,5 milliards de dollars</strong> pour du calcul IA. S'il se confirme, le montant en ferait l'un des plus gros contrats d'infrastructure de calcul associés à un laboratoire d'IA. Le message ne précise ni échéance, ni volume de puissance, ni nature exacte de l'accord.</p>\n<h2>Et maintenant ?</h2>\n<p>Les deux extrémités du marché se dessinent sans se contredire : des contrats à l'échelle de dizaines de milliards d'un côté, des V100 recyclées et des mini PC poussés à 192 Go de RAM de l'autre. Entre les deux, la carte grand public reste le point de passage obligé pour beaucoup — et sa disponibilité décidera de qui peut faire tourner quoi, sur quel matériel et à quelle vitesse.</p>",
+ "pivot": "d051f4ca0470dfc6",
+ "tags": [
+  "matériel",
+  "open-source",
+  "dev",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg9cr1/i_built_an_engine_that_runs_qwenflashnext_at/"
+  },
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1xg1q97/anthropic_reveals_it_will_pay_spacex_up_to_1205b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg4s8y/oh_nvidia_nvidia_reportedly_not_accepting_rtx/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/amd/3299167_test-gmktec-evo-x5-pro"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg44nj/qwen3827b_jetson_thor_40_toks_at_fp16level/"
+  }
+ ],
+ "date": "2026-10-26T21:38:08+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1636,
+  "sortie": 3599
+ }
+}

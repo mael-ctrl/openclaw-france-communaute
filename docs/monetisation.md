@@ -1,5 +1,18 @@
 # Journal des actions de monétisation
 
+## 26 octobre 2026 — qualification privée de la mesure du parcours Pack
+
+**Action unique préparatoire :** éprouver le futur compteur sur le HTML réellement servi du Pack, puis corriger son incompatibilité avec les raccourcis prix/extraits **dans un candidat privé inactif**. Aucun suivi de clics activé, prix 14 €, paiement et fichiers livrés inchangés.
+
+- Capture HTTPS stricte à **14:33 UTC** ; HTML Pack identique au rendu du gabarit au SHA `9152401`. CDN GoatCounter identique au source ISC audité (`c031008a`, SHA-256 `792b7abd…f3fe3f0`). Le script actuel sérialise une query synthétique dans `q` lors du replay ; ajouter le candidat ne neutralise pas ce chargement existant. Aucune donnée de test envoyée au vrai collecteur, aucune fuite réelle de lecteur alléguée.
+- **Deux cycles rouge/vert** : les ancres publiques `#prix-pack` et `#extraits-pack` empêchaient la mesure du candidat initial. La v2 accepte seulement ces deux URL exactes et `/pack/`, conserve le refus de toutes les queries et des autres ancres, les libellés constants et la politique sans référent. Aucune réécriture de l'URL du lecteur, aucun nouveau fournisseur ou collecteur maison.
+- **51 contrôles / 34 scénarios** sur le HTML capturé : mobile/ordinateur, clic/Entrée, vrais raccourcis, POST/repli GET, chargement tardif/absent, sans JS, erreurs et doublons. **36 contrôles historiques rejoués avec la v2** ; **58 contrôles du lot initial** également réexécutés, distincts et recouvrants, pas autant de cas uniques. Sources réellement compilées contrôlées ; réseau interdit par le système et transports compteur/paiement avortés.
+- Trois échecs du lanceur conservés puis corrigés, sans changement du site : compilation exigée après départ natif, Debugger avec JS désactivé et second clic sur une page quittée. Prix/bouton lisibles sur les captures 390/1 440 px ; pas de conformité globale ni d'arrivée sur Stripe revendiquées. Le laboratoire remplace le script sur une copie ; **ce n'est pas une intégration au constructeur**.
+
+Preuves et CLI privés : `crabe-chantiers/monetisation/2026-10-26-qualification-parcours/`. **Activation toujours fermée** : périmètre statistique, compte/backend/rétention, base légale et information à qualifier. Les pages vues actuelles et leurs textes de confidentialité ne sont pas validés par cette expérience ; le prototype ne mesure ni personnes, ni ventes. Pas de nouveau crawl/reconditionnement de l'ancien audit B2B.
+
+**Verrous :** B2B 200, mentions du média 404 à 14:33 UTC ; vendeur/TVA et autres prérequis cumulatifs non validés. ZDNET occupe déjà la distribution du jour : aucun email, DM, formulaire, post, compte, nouveau tarif ou paiement. **Aucun revenu ou gain de conversion mesuré**, aucune lecture Stripe nouvelle. **Suite :** qualifier les paramètres du service et l'information avant toute intégration/activation, sans répéter ce laboratoire à l'identique. Clone partagé en conflit laissé intact ; seuls les trois documents de suivi sont publiés depuis un worktree propre.
+
 ## 25 octobre 2026 — choisir l'essai gratuit ou le prix dès l'introduction du Pack
 
 **Action unique :** deux raccourcis natifs dans l'introduction de [la page Pack](https://communaute-ia.fr/pack/) : **« Essayer 3 prompts gratuits »** et **« Voir le prix — 14 € »**. Le second mène au prix sur la même page, pas directement au paiement. Le bouton d'achat Stripe, les extraits, le sommaire et les fichiers livrés restent inchangés ; aucun prix/offre nouvelle ni suivi ajouté.

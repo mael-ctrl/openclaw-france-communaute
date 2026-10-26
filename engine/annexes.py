@@ -20,6 +20,12 @@ jolie_date = construction.jolie_date
 # --- Fichiers téléchargeables proposés sur /skills/ -------------------------
 SKILLS = [
     {
+        "fichier": "comparer-reponses-ia.md", "emoji": "🧪",
+        "titre": "Comparer deux IA sur vos propres cas",
+        "desc": "Cinq exercices fictifs, une grille et un prompt pour préparer votre comparaison : mêmes consignes, critères explicites, preuves conservées. Une méthode proposée aux lecteurs, pas un classement de modèles.",
+        "tags": ["evaluation", "prompt", "esprit-critique"],
+    },
+    {
         "fichier": "verifier-actualite-ia.md", "emoji": "🔎",
         "titre": "Vérifier une actualité IA avant de la partager",
         "desc": "Remonter à la source, vérifier accès, prix et benchmarks, puis consigner les preuves : une checklist et un prompt pour les lecteurs, y compris pour vérifier nos articles.",

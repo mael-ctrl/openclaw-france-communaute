@@ -717,6 +717,7 @@ def llms_txt():
 
 ## Fichiers à citer
 
+- [Comparer deux IA sur vos propres cas]({u}/fichiers/comparer-reponses-ia.md)
 - [Vérifier une actualité IA avant de la partager]({u}/fichiers/verifier-actualite-ia.md)
 - [Monter sa veille IA autonome]({u}/fichiers/veille-ia-autonome.md)
 - [Le prompt du Crabe]({u}/fichiers/prompt-le-crabe.md)

@@ -1,22 +1,18 @@
 {
- "runs": 375,
- "items_collectes": 2842,
- "breves_publiees": 1355,
- "articles_publies": 264,
- "tokens_entree": 1396848,
- "tokens_sortie": 1970681,
+ "runs": 376,
+ "items_collectes": 2848,
+ "breves_publiees": 1361,
+ "articles_publies": 265,
+ "tokens_entree": 1403125,
+ "tokens_sortie": 1979438,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-25T22:27:51+00:00",
+ "dernier_run": "2026-10-26T01:39:01+00:00",
  "solde": {
-  "total": "83.58",
+  "total": "83.57",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-24T11:21:12+00:00",
-   "message": "brève impossible (qwen3.8 27B on my 3090 basically tied Opus 5.5 on a Korean R) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-24T14:07:12+00:00",
    "message": "brève impossible (Meta trained small AI models to read raw bytes instead of to) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-25T22:27:28+00:00",
    "message": "brève impossible (Tuned Strata config, 2000 PP and 95-105 mean tg) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-26T02:16:31+00:00",
+   "message": "archivage wayback : The read operation timed out"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 8.08,
+ "depense_usd": 8.09,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1520,13 +1520,17 @@
   [
    "2026-10-25T22:26:47+00:00",
    "83.58"
+  ],
+  [
+   "2026-10-26T01:37:56+00:00",
+   "83.57"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 5.79,
+ "depense_mois_usd": 5.8,
  "archive_tentatives": {
-  "jour": "2026-10-25",
-  "n": 3
+  "jour": "2026-10-26",
+  "n": 1
  },
  "derniere_archive": "2026-10-25"
 }

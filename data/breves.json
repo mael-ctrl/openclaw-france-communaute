@@ -1,5 +1,130 @@
 [
  {
+  "id": "805d73cfa325fd54",
+  "slug": "llama-cpp-faille-d-ecriture-hors-bornes-dans-pocket-tts-corrigee-en-b1-805d73",
+  "titre": "llama.cpp : faille d'écriture hors bornes dans Pocket-TTS, corrigée en b11796",
+  "resume": "La CVE-2026-116096 identifie une faiblesse dans llama.cpp, plus précisément dans la fonction list_pockettts_state_slots du fichier pockettts-gen.cpp du composant Pocket-TTS : une manipulation de l'argument mmproj provoque une écriture hors bornes. L'attaque exige un accès local, mais l'exploit est public et pourrait servir. La version b11796 corrige le problème (patch 0a1ef309). Sur master et en b11871, un mmproj malveillant déclenche désormais un GGML_ASSERT actif en release et interrompt l'exécution.",
+  "tags": [
+   "sécurité",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfizft/psa_llamacpp_cve2026116096/",
+  "date_source": "2026-10-26T00:53:40+00:00",
+  "date_redac": "2026-10-26T01:37:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 835,
+   "sortie": 407
+  }
+ },
+ {
+  "id": "86a972131728bdbe",
+  "slug": "gemma-4-en-ecriture-creative-des-fine-tunes-26b-qui-se-ressemblent-tou-86a972",
+  "titre": "Gemma 4 en écriture créative : des fine-tunes 26B qui se ressemblent tous",
+  "resume": "Un utilisateur de r/LocalLLaMA passe en revue une dizaine de fine-tunes de Gemma 4 en 26B-A4B (G4-MeroMero, Melody1437, Boulesis, Kitchoon, heretic, Orion, StyleTune v1 et v2, Dark-Scarlett) pour de l'écriture créative. Son constat : toutes ces variantes produisent le même style, y compris avec du prompting. Il a fourni cinq exemples de dialogues distingués par genre et âge, puis changé ses consignes, puis généré 25 exemples via un modèle 12B : Gemma 4 ne les reprend pas. Faute de ressources pour faire tourner les modèles 31B, il reste bloqué sur cette gamme.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfioub/gemma_4_creative_writing/",
+  "date_source": "2026-10-26T00:39:36+00:00",
+  "date_redac": "2026-10-26T01:38:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 870,
+   "sortie": 570
+  }
+ },
+ {
+  "id": "12d755d61fe59465",
+  "slug": "un-quant-iq3-s-de-qwen3-8-27b-peut-il-tenir-tete-a-l-ud-q4-d-unsloth-12d755",
+  "titre": "Un quant IQ3_S de Qwen3.8-27B peut-il tenir tête à l'UD Q4 d'Unsloth ?",
+  "resume": "Sur r/LocalLLaMA, un utilisateur se demande si le modèle ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF tient ses promesses face à l'UD-Q4_K_XL d'Unsloth. La carte du modèle annonce les performances d'un BF16 dans un quant IQ3_S. L'auteur suppose qu'un IQ3_S serait plus rapide qu'un UD Q4 comparable. Reste à savoir s'il s'agit de promesses en l'air ou d'une vraie alternative.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfhhri/can_istadaslabqwen3827bgsqrcogguf_compete_with/",
+  "date_source": "2026-10-25T23:46:16+00:00",
+  "date_redac": "2026-10-26T01:38:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 687,
+   "sortie": 901
+  }
+ },
+ {
+  "id": "d6b37a12a11f78cc",
+  "slug": "nvidia-viserait-2-000-dollars-par-gpu-et-par-an-en-revenus-logiciels-d6b37a",
+  "titre": "NVIDIA viserait 2 000 dollars par GPU et par an en revenus logiciels",
+  "resume": "Un fil de r/LocalLLaMA relaie une information selon laquelle NVIDIA viserait des revenus logiciels de 2 000 dollars par GPU et par an, un chiffre attribué à Jensen Huang. Le titre du post traduit surtout la stupeur de la communauté face à ce montant. La discussion complète est accessible via le lien du fil.",
+  "tags": [
+   "business",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfhhm4/smh_seriously_nvidia_eyes_software_revenue_with_a/",
+  "date_source": "2026-10-25T23:46:05+00:00",
+  "date_redac": "2026-10-26T01:38:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 630,
+   "sortie": 712
+  }
+ },
+ {
+  "id": "f6ca1d79ec28762f",
+  "slug": "comment-isoler-pi-la-question-posee-sur-r-localllama-f6ca1d",
+  "titre": "Comment isoler pi ? La question posée sur r/LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande si les autres prennent la peine de sandboxer pi, et surtout comment ils s'y prennent. Il liste les pistes qu'il connaît : docker sbx, conteneur classique, devcontainer, ou l'extension gondolin/sandbox de pi. La formulation laisse entendre que tout le monde ne le fait pas forcément.",
+  "tags": [
+   "agents",
+   "dev",
+   "sécurité",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfh38k/how_are_you_sandboxing_pi/",
+  "date_source": "2026-10-25T23:27:48+00:00",
+  "date_redac": "2026-10-26T01:38:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 648,
+   "sortie": 574
+  }
+ },
+ {
+  "id": "68ec3cd4753aba2e",
+  "slug": "affiner-qwen3-5-9b-en-qlora-sur-500-go-de-documents-la-question-d-un-u-68ec3c",
+  "titre": "Affiner Qwen3.5-9B en QLoRA sur 500 Go de documents : la question d'un utilisateur",
+  "resume": "Un utilisateur de r/LocalLLaMA cherche la meilleure méthode pour affiner Qwen3.5-9B en QLoRA sur environ 500 Go de données brutes : images, documents scannés, PDF, Word et Excel. Il détaille son parc : un serveur Asus ESC4000 G3 et huit T4, 44 slots à 87k de contexte, 35-40 tokens/s par utilisateur. Il admet avoir trop réfléchi et dépensé après avoir consulté plusieurs chatbots.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xffuvl/i_need_to_fine_tune_qwen359b_with_qlora_on_about/",
+  "date_source": "2026-10-25T22:32:43+00:00",
+  "date_redac": "2026-10-26T01:38:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 939,
+   "sortie": 1171
+  }
+ },
+ {
   "id": "a6b1b5f78a369c03",
   "slug": "crowdgpt-veut-entrainer-un-modele-d-1-milliard-de-parametres-en-collab-a6b1b5",
   "titre": "CrowdGPT veut entraîner un modèle d'1 milliard de paramètres en collaboratif",

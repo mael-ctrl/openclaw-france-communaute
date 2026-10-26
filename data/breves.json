@@ -1,5 +1,129 @@
 [
  {
+  "id": "9ed31afb3fac1c63",
+  "slug": "nvidia-ouvre-le-dlss-5-aux-vieux-jeux-pc-via-rtx-remix-1-6-9ed31a",
+  "titre": "Nvidia ouvre le DLSS 5 aux vieux jeux PC via RTX Remix 1.6",
+  "resume": "Le 23 octobre, Nvidia a publié RTX Remix 1.6, une mise à jour de son outil de modding. Elle permet désormais d'ajouter le DLSS 5 aux vieux jeux PC, là où il fallait jusqu'ici attendre que le studio l'intègre ou passer par des mods non officiels. Les moddeurs gagnent donc la main sur l'upscaling de titres anciens, sans dépendre d'une mise à jour de l'éditeur.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/nvidia/3299369_fallout-4-et-mirrors-edge-meconnaissables-nvidia-permet-enfin-dajouter-le-dlss-5-a-vos-vieux-jeux-pc",
+  "date_source": "2026-10-26T14:43:54+00:00",
+  "date_redac": "2026-10-26T14:46:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 716,
+   "sortie": 473
+  }
+ },
+ {
+  "id": "367c8689f2eee461",
+  "slug": "ipad-mini-oled-ecran-et-puce-a20-pro-mais-l-entree-de-gamme-grimpe-a-7-367c86",
+  "titre": "iPad mini OLED : écran et puce A20 Pro, mais l'entrée de gamme grimpe à 759 €",
+  "resume": "Apple passe l'iPad mini à l'OLED et l'équipe de la puce A20 Pro, avec en plus une véritable étanchéité. Le ticket d'entrée atteint 759 €, soit 150 € de plus qu'au lancement du modèle A17 Pro il y a deux ans. Une hausse qui accompagne donc une montée en gamme de la tablette la plus compacte d'Apple.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/guide-dachat/guide-tablettes/3299291_ipad-mini-oled-vs-ipad-mini-a17-pro-tout-ce-qui-change-et-ce-qui-aurait-du-changer",
+  "date_source": "2026-10-26T14:35:25+00:00",
+  "date_redac": "2026-10-26T14:46:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 685,
+   "sortie": 142
+  }
+ },
+ {
+  "id": "17a2a9678e4628e7",
+  "slug": "anthropic-depose-officiellement-son-dossier-d-introduction-en-bourse-17a2a9",
+  "titre": "Anthropic dépose officiellement son dossier d'introduction en Bourse",
+  "resume": "Anthropic a officiellement déposé son dossier d'introduction en Bourse. Le document révèle une forte croissance du chiffre d'affaires, des pertes en hausse et une adoption importante en entreprise. Il met aussi au jour une structure de gouvernance inhabituelle, conçue pour préserver le contrôle des fondateurs et la mission de sécurité de l'IA portée par l'entreprise.",
+  "tags": [
+   "claude",
+   "business",
+   "sécurité"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+  "date_source": "2026-10-26T14:35:22+00:00",
+  "date_redac": "2026-10-26T14:46:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 135
+  }
+ },
+ {
+  "id": "520a2c2fca9582a7",
+  "slug": "un-cluster-de-deux-m5u-256-go-mesure-sur-glm-5-3-et-qwen-flash-next-520a2c",
+  "titre": "Un cluster de deux M5U 256 Go mesuré sur GLM 5.3 et Qwen Flash Next",
+  "resume": "Sur r/LocalLLaMA, un utilisateur qui se dit non programmeur partage les mesures de son cluster de deux M5U 256 Go (80 cœurs), reliés par deux câbles Thunderbolt 5. GLM 5.3 q6 y atteint 4,9k de prefill et 50 tok/s en décodage ; Qwen Flash Next q6 monte à 8k et 200 tok/s via Tensorfold. Il juge GLM trop lent et reste sur Qwen Flash Next, avec Hermes comme harnais et l'API Deepseek pour le paramétrage. Son ancienne config, un Qwen 3.8 27B q4 sous ninfer, plafonnait autour de 1,4k de prefill et 100-120 tok/s.",
+  "tags": [
+   "matériel",
+   "deepseek",
+   "open-source",
+   "hermes"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfybhu/datapoint_2x_m5u_cluster_glmqwen/",
+  "date_source": "2026-10-26T14:26:27+00:00",
+  "date_redac": "2026-10-26T14:46:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 858,
+   "sortie": 735
+  }
+ },
+ {
+  "id": "3d5e11ee68125cee",
+  "slug": "kevin-roose-publie-the-agi-chronicles-et-assume-son-virage-agi-pilled-3d5e11",
+  "titre": "Kevin Roose publie The AGI Chronicles et assume son virage « AGI-pilled »",
+  "resume": "Kevin Roose publie The AGI Chronicles, un livre sur la transformation récente et explosive de l'industrie de l'IA. Dans le podcast de The Verge, le journaliste revient sur ce basculement : le titre de l'épisode le dit « AGI-pilled », convaincu que l'IA générale arrive. Ancien reporter au New York Times et animateur de Hard Fork, il documente ce virage.",
+  "tags": [
+   "société",
+   "business",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
+  "date_source": "2026-10-26T14:00:00+00:00",
+  "date_redac": "2026-10-26T14:46:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 1209
+  }
+ },
+ {
+  "id": "93fc709550e39449",
+  "slug": "nvidia-revendique-pres-de-10-milliards-de-dollars-investis-en-europe-93fc70",
+  "titre": "Nvidia revendique près de 10 milliards de dollars investis en Europe",
+  "resume": "Lors de la conférence GTC de Berlin, le 21 octobre, Jensen Huang a chiffré à près de 10 milliards de dollars les investissements de Nvidia en Europe sur l'année écoulée. Ce montant englobe des participations dans des start-up, de grands partenariats et des opérations plus modestes. Le fabricant de puces affiche ainsi son influence sur l'économie européenne de l'IA, des jeunes pousses aux géants industriels.",
+  "tags": [
+   "business",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/electronique/nvidia/10-milliards-de-dollars-dinvestissements-en-europe-comment-nvidia-etend-son-influence-des-start-up-aux-geants-industriels.3LO2PUWHOBH33MW2FUBHTAM7XQ.html",
+  "date_source": "2026-10-26T13:50:43+00:00",
+  "date_redac": "2026-10-26T14:46:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 753,
+   "sortie": 707
+  }
+ },
+ {
   "id": "63a3d00fc4b093ba",
   "slug": "la-police-francaise-mobilise-l-ia-systeme-v-contre-les-pilleurs-du-17--63a3d0",
   "titre": "La police française mobilise l'IA Système V contre les pilleurs du 17 octobre",

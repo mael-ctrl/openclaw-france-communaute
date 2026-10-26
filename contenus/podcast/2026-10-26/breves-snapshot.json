@@ -1,0 +1,175 @@
+{
+  "sha": "7808ec0a8c7224f1133608f28d9f3f22dce992a3",
+  "observed_at": "2026-10-26T08:28:46.155018+00:00",
+  "recent": [
+    {
+      "id": "9cf084aae32421ec",
+      "slug": "hermes-agent-publie-une-version-canary-v0-22-5-9cf084",
+      "titre": "Hermes Agent publie une version canary v0.22.5",
+      "resume": "Le dépôt GitHub NousResearch/hermes-agent publie une nouvelle version sur son canal canary, estampillée v0.22.5+canary.20261026T071310Z. L'identifiant reprend l'horodatage du 26 octobre 2026 à 07:13 UTC et renvoie à la page de release du projet. L'extrait ne précise ni le contenu ni la nature des changements embarqués dans cette build.",
+      "tags": [
+        "hermes",
+        "agents",
+        "open-source",
+        "dev"
+      ],
+      "importance": 1,
+      "source": "Hermes Agent (releases)",
+      "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5%2Bcanary.20261026T071310Z",
+      "date_source": "2026-10-26T07:13:11+00:00",
+      "date_redac": "2026-10-26T07:39:41+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 618,
+        "sortie": 656
+      }
+    },
+    {
+      "id": "11a50d2611519763",
+      "slug": "quel-modele-local-non-censure-pour-le-red-teaming-sur-une-seule-rtx-50-11a50d",
+      "titre": "Quel modèle local non censuré pour le red teaming sur une seule RTX 5090 ?",
+      "resume": "Un membre de r/LocalLLaMA cherche le meilleur modèle local « abliterated » de 2026 pour le reverse engineering, le code et le red teaming, sur une seule RTX 5090 de 32 Go de VRAM. Sa priorité : un taux de refus très bas, sans sacrifier le raisonnement logique ni la qualité de génération de code pour le désassemblage, le développement d'exploits, le pentesting et l'outillage. Il sollicite les retours de la communauté.",
+      "tags": [
+        "open-source",
+        "sécurité",
+        "matériel",
+        "dev"
+      ],
+      "importance": 2,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfj77r/best_uncensoredabliterated_2026_model_for_re/",
+      "date_source": "2026-10-26T01:03:37+00:00",
+      "date_redac": "2026-10-26T06:58:04+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 706,
+        "sortie": 346
+      }
+    },
+    {
+      "id": "835779e07115464c",
+      "slug": "nvidia-mise-sur-rtx-spark-pour-des-assistants-ia-locaux-sur-pc-835779",
+      "titre": "Nvidia mise sur RTX Spark pour des assistants IA locaux sur PC",
+      "resume": "Nvidia présente RTX Spark, une nouvelle plateforme qui veut faire évoluer la manière dont on utilise le PC. L'objectif affiché : faciliter le recours aux assistants IA, idéalement en local, et les intégrer naturellement aux usages habituels, entre travail, création et jeu. À noter : il s'agit d'un contenu sponsorisé publié par Frandroid.",
+      "tags": [
+        "matériel",
+        "agents"
+      ],
+      "importance": 2,
+      "source": "Frandroid",
+      "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3289487_pourquoi-la-puce-rtx-spark-de-nvidia-risque-bien-de-changer-la-maniere-dont-on-utilise-lia",
+      "date_source": "2026-10-26T05:47:00+00:00",
+      "date_redac": "2026-10-26T06:58:01+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 694,
+        "sortie": 458
+      }
+    },
+    {
+      "id": "5138d354f3083410",
+      "slug": "tokengate-accelere-le-prefill-en-contexte-long-jusqu-a-11-3x-5138d3",
+      "titre": "TokenGate accélère le prefill en contexte long jusqu'à 11,3x",
+      "resume": "Des chercheurs de Stanford et de l'UC Berkeley présentent TokenGate, une approche d'attention « token-gated » qui rend le prefill en contexte long jusqu'à 11,3x plus rapide, d'après le titre du fil posté sur r/LocalLLaMA. Le prefill, cette étape où le modèle avale tout le contexte avant de générer, est justement ce qui plombe les longs contextes. La communauté reste prudente : le seul extrait visible se limite à un « i hope it's real ».",
+      "tags": [
+        "recherche",
+        "dev"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfovxr/researchers_from_stanford_and_uc_berkeley/",
+      "date_source": "2026-10-26T06:06:01+00:00",
+      "date_redac": "2026-10-26T06:57:57+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 634,
+        "sortie": 740
+      }
+    },
+    {
+      "id": "e9abe021dd3dbf5c",
+      "slug": "chatgpt-enregistre-des-souvenirs-sans-demande-et-esquisse-votre-profil-e9abe0",
+      "titre": "ChatGPT enregistre des souvenirs sans demande et esquisse votre profil psychologique",
+      "resume": "Selon une étude présentée à l'ACM Web Conference 2026, sur 2 050 souvenirs enregistrés par ChatGPT chez 65 utilisateurs, 96 % ont été créés par le chatbot sans la moindre demande. Plus de la moitié de ces souvenirs décrivent la psychologie de la personne. Le chatbot conserve donc des éléments que les utilisateurs ne lui ont jamais fournis volontairement.",
+      "tags": [
+        "chatgpt",
+        "openai",
+        "recherche",
+        "société"
+      ],
+      "importance": 4,
+      "source": "Frandroid",
+      "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3298591_fiche-a-votre-insu-chatgpt-construit-votre-profil-psychologique-en-silence-voici-ce-quil-sait-de-vous-sans-vous-lavoir-demande",
+      "date_source": "2026-10-26T06:40:33+00:00",
+      "date_redac": "2026-10-26T06:57:51+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 712,
+        "sortie": 1009
+      }
+    },
+    {
+      "id": "2942fa638e26c9ff",
+      "slug": "un-utilisateur-demande-si-qwen3-8-flash-next-tient-sur-24-go-de-vram-2942fa",
+      "titre": "Un utilisateur demande si qwen3.8-flash-next tient sur 24 Go de VRAM",
+      "resume": "Sur r/LocalLLaMA, un utilisateur demande si le modèle qwen3.8-flash-next peut tourner sur une configuration de 24 Go de VRAM et 48 Go de RAM. Il précise avoir déjà tenté une exécution, sans succès, et cherche des pistes pour y arriver. La question rappelle que la mémoire disponible reste le premier obstacle pour faire tourner des modèles en local.",
+      "tags": [
+        "matériel",
+        "dev",
+        "open-source"
+      ],
+      "importance": 1,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfm5yy/can_i_run_qwen38flashnext_on_24gb_vram_and_48_ram/",
+      "date_source": "2026-10-26T03:30:03+00:00",
+      "date_redac": "2026-10-26T04:28:59+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 647,
+        "sortie": 503
+      }
+    },
+    {
+      "id": "edacce1f5a1422a2",
+      "slug": "poids-ouverts-et-cybercapacites-un-acces-de-plus-en-plus-verrouille-edacce",
+      "titre": "Poids ouverts et cybercapacités : un accès de plus en plus verrouillé",
+      "resume": "Un membre de r/LocalLLaMA constate que les poids ouverts ne progressent plus aussi librement qu'on le supposait : les États-Unis et la Chine restreignent les modèles dotés de capacités cyber. Seuls des opérateurs travaillant sous l'œil de leur gouvernement et de leurs sponsors big tech y auraient accès. L'auteur y voit un risque : les grandes entreprises et les États façonnent le numérique à leur guise, tandis que les particuliers et les petites entreprises perdent la capacité de défendre leurs actifs.",
+      "tags": [
+        "open-source",
+        "sécurité",
+        "société"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfju8e/lets_talk_about_cyber_capabilities_and_open/",
+      "date_source": "2026-10-26T01:33:38+00:00",
+      "date_redac": "2026-10-26T03:23:53+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 787,
+        "sortie": 355
+      }
+    },
+    {
+      "id": "4311fed58e9e1e7c",
+      "slug": "qwen3-8-flash-next-seduit-mais-son-exces-de-reflexion-interroge-4311fe",
+      "titre": "Qwen3.8-Flash-Next séduit, mais son excès de réflexion interroge",
+      "resume": "Un utilisateur de r/LocalLLaMA, passé de DSV4 Flash 0731 à Qwen3.8-Flash-Next, dit y gagner nettement en qualité. Son reproche : le modèle pousse souvent raisonnement et récupération d'infos plus loin que nécessaire, peu économe en tokens et donc lent. Il cherche des retours sur Swift1.5, censé corriger cette tendance de Qwen à la sur-réflexion, possiblement renforcée par RL pour les benchmarks.",
+      "tags": [
+        "open-source",
+        "dev",
+        "recherche"
+      ],
+      "importance": 2,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfl3wo/qwen38flashnext_vs_swift15qwen38flashnext/",
+      "date_source": "2026-10-26T02:35:53+00:00",
+      "date_redac": "2026-10-26T03:23:49+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 757,
+        "sortie": 1133
+      }
+    }
+  ]
+}

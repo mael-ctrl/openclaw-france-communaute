@@ -1,5 +1,128 @@
 [
  {
+  "id": "74b6829cb51dbb5a",
+  "slug": "metro-2033-redux-devient-le-deuxieme-jeu-a-proposer-le-dlss-5-de-nvidi-74b682",
+  "titre": "Metro 2033 Redux devient le deuxième jeu à proposer le DLSS 5 de Nvidia",
+  "resume": "Depuis le 22 octobre, Metro 2033 Redux propose officiellement le DLSS 5 de Nvidia. Le FPS de 4A Games devient ainsi le deuxième jeu à l'adopter, après NBA 2K27. Particularité de cette arrivée : le studio n'a pas mentionné la nouveauté dans ses notes de mise à jour, la mise en place s'est donc faite sans annonce.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/nvidia/3299015_le-dlss-5-sinvite-discretement-sur-un-fps-culte-et-personne-ne-lavait-vu-venir",
+  "date_source": "2026-10-26T10:48:12+00:00",
+  "date_redac": "2026-10-26T10:52:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 684,
+   "sortie": 488
+  }
+ },
+ {
+  "id": "8de79dccbeafae68",
+  "slug": "qwen4-27b-une-fuite-evoque-un-flux-residuel-a-4-voies-paralleles-8de79d",
+  "titre": "Qwen4-27B : une fuite évoque un flux résiduel à 4 voies parallèles",
+  "resume": "Sur r/LocalLLaMA, un post affirme qu'une pull request de vllm-xpu-kernels révélait un changement d'architecture dans Qwen4-27B ; la page renvoie désormais une erreur 404. Il y est question d'un flux résiduel à quatre voies parallèles traversant les couches simultanément, au lieu d'un seul chemin, pour densifier l'information à budget de 27B constant. L'auteur parie sur ce 27B plutôt qu'une version flash MoE.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xftcj0/qwen427bs_4way_hc_shift/",
+  "date_source": "2026-10-26T10:42:26+00:00",
+  "date_redac": "2026-10-26T10:52:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 805,
+   "sortie": 1149
+  }
+ },
+ {
+  "id": "a6c6d0b204f86cd2",
+  "slug": "8-go-de-vram-et-32-go-de-ram-suffisent-pour-qwen-3-8-flash-next-a6c6d0",
+  "titre": "8 Go de VRAM et 32 Go de RAM suffisent pour Qwen 3.8 Flash Next",
+  "resume": "Sur r/LocalLLaMA, un utilisateur fait tourner Qwen 3.8 Flash Next en quantification Q2 sur une machine à 8 Go de VRAM et 32 Go de RAM, grâce à Strata, qui répartit la charge entre VRAM, RAM et SSD. Il annonce jusqu'à 900 t/s en traitement de prompt et 30 t/s en génération, avec de meilleurs résultats que les Qwen 3.6 35B A3B fine-tunés et Qwen 3.8 27B qu'il a testés.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xft2ae/have_8_gb_of_vram_and_32_gb_of_ram_you_can_run/",
+  "date_source": "2026-10-26T10:26:48+00:00",
+  "date_redac": "2026-10-26T10:52:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 896,
+   "sortie": 732
+  }
+ },
+ {
+  "id": "28af3e9913076984",
+  "slug": "lg-revient-a-l-ultra-courte-focale-4k-triple-laser-avec-le-cinebeam-hu-28af3e",
+  "titre": "LG revient à l'ultra-courte focale 4K triple laser avec le CineBeam HU925V",
+  "resume": "LG dévoile le CineBeam HU925V, un vidéoprojecteur DLP 4K à trois lasers RGB qui marque son retour sur l'ultra-courte focale haut de gamme. Le modèle est compatible avec la technologie Dolby Atmos FlexConnect. Son lancement en France reste toutefois incertain à ce stade.",
+  "tags": [
+   "matériel",
+   "société"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/lg/3298741_lg-cinebeam-ai-hu925v-le-constructeur-revient-sur-lultra-courte-focale-4k-triple-laser-avec-un-modele-dolby-atmos-flex-connect",
+  "date_source": "2026-10-26T10:19:03+00:00",
+  "date_redac": "2026-10-26T10:52:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 718,
+   "sortie": 129
+  }
+ },
+ {
+  "id": "a6e5b4e0be346bf6",
+  "slug": "des-rtx-5090-neuves-demontees-en-usine-pour-l-ia-les-joueurs-prives-de-a6e5b4",
+  "titre": "Des RTX 5090 neuves démontées en usine pour l'IA, les joueurs privés de GPU",
+  "resume": "Une vidéo du média hongkongais HKEPC montre des usines chinoises qui démontent des centaines de GeForce RTX 5090 neuves. Objectif : en faire des cartes destinées aux serveurs d'IA. Au même moment, la carte de Nvidia se fait de plus en plus rare dans les magasins.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/nvidia/3298927_des-centaines-de-rtx-5090-neuves-desossees-en-usine-pour-lai-le-business-secret-qui-priverait-les-joueurs-de-gpu",
+  "date_source": "2026-10-26T10:16:07+00:00",
+  "date_redac": "2026-10-26T10:52:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 717,
+   "sortie": 395
+  }
+ },
+ {
+  "id": "da67cddde9756814",
+  "slug": "google-ouvre-la-publicite-ciblee-aux-donnees-confiees-a-son-ia-da67cd",
+  "titre": "Google ouvre la publicité ciblée aux données confiées à son IA",
+  "resume": "Google a modifié sa politique de confidentialité pour autoriser l'exploitation publicitaire des données issues de Gmail, Drive et Google Photos. L'exception s'applique lorsqu'un utilisateur choisit de partager ces contenus avec certains services du géant, notamment ses outils d'IA. Un changement de taille pour un groupe qui présentait jusqu'ici la protection de ces données comme intangible.",
+  "tags": [
+   "gemini",
+   "société",
+   "sécurité"
+  ],
+  "importance": 4,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/cyberguerre/2360679-la-regle-sacree-a-desormais-une-exception-google-peut-cibler-ses-publicites-grace-a-vos-mails-et-vos-photos-si-vous-les-confiez-a-son-ia.html",
+  "date_source": "2026-10-26T10:15:23+00:00",
+  "date_redac": "2026-10-26T10:52:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 699,
+   "sortie": 130
+  }
+ },
+ {
   "id": "b2f112db41926fae",
   "slug": "elon-musk-publie-le-premier-episode-de-son-odyssee-generee-par-grok-im-b2f112",
   "titre": "Elon Musk publie le premier épisode de son Odyssée générée par Grok Imagine",

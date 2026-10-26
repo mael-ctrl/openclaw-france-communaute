@@ -1,0 +1,41 @@
+{
+ "slug": "gpu-32-go-hors-de-prix-poids-ouverts-filtres-le-local-sous-t-3fa616",
+ "titre": "GPU 32 Go hors de prix, poids ouverts filtrés : le local sous tension",
+ "chapo": "Sur r/LocalLLaMA, un utilisateur voit les cartes 32 Go grimper de 1,3-1,4 K à 2 K en une journée, selon lui ; un autre constate que les poids ouverts dotés de capacités cyber se ferment. Le matériel comme l'accès se resserrent autour de ceux qui font tourner des modèles chez eux.",
+ "html": "<h2 id=\"32-go-la-facture-s-envole\">32 Go : la facture s'envole</h2>\n<p>Un utilisateur de r/LocalLLaMA raconte un changement de plan subi. Il préparait l'achat d'un GPU 32 Go pour ses deux PC : la carte <strong>B70</strong> est passée de 1,3-1,4 K à 2 K, et la <strong>R9700</strong> de 1,7-1,8 K à 2,3 K. Il situe la bascule dans un intervalle de « 24 heures ».</p>\n<p>Son projet n'avait rien d'exotique : relier ses deux machines via RPC/Ethernet pour les faire tourner ensemble et cumuler la mémoire des deux. C'est le montage classique de celui qui veut exécuter des modèles chez lui sans dépendre d'une API.</p>\n<p>Les chiffres viennent d'un témoignage unique, avec des tarifs exprimés en « K » sans devise précisée. Mais l'ordre de grandeur suffit : sur cette gamme de mémoire, la hausse porte sur plusieurs centaines d'unités, pas sur une variation de détail.</p>\n<h2 id=\"pousser-la-carte-qu-on-a-deja\">Pousser la carte qu'on a déjà</h2>\n<p>Faute de pouvoir acheter, certains exploitent le matériel déjà en place. Un testeur a pris une <strong>RTX PRO 4000 Blackwell SFF</strong> — 24 Go de GDDR7, 70 W d'usine, sans connecteur d'alimentation auxiliaire — et lui a chargé un VBIOS modifié en mémoire pour relever la limite à 120 W. Sans flash EEPROM, sans soudure.</p>\n<p>Sur 158 requêtes, le gain dépend du modèle. <strong>Qwen3.8 27B</strong> profite encore de la montée jusqu'à 120 W : de 35,04 à 58,53 tok/s, soit +67 %, avec +20 % de VRAM et +180 MHz sur le cœur. <strong>Qwen3.6 35B A3B</strong> reste quasi plat entre 106 et 120 W.</p>\n<p>Deux réserves : la carte offre 24 Go, pas les 32 Go visés plus haut, et le résultat n'est pas transposable d'un modèle à l'autre.</p>\n<h2 id=\"les-poids-ouverts-sous-condition\">Les poids ouverts sous condition</h2>\n<p>En parallèle, c'est l'accès aux modèles eux-mêmes qui se discute. Un membre de r/LocalLLaMA constate que les poids ouverts ne progressent plus aussi librement qu'on le supposait : les États-Unis et la Chine restreignent les modèles dotés de <strong>capacités cyber</strong>, et seuls des opérateurs travaillant sous l'œil de leur gouvernement et de leurs sponsors big tech y auraient accès.</p>\n<p>L'auteur en tire un risque : que les grandes entreprises et les États façonnent le numérique à leur guise, tandis que les particuliers et les petites entreprises perdent la capacité de défendre leurs actifs. C'est un constat d'utilisateur, pas une décision documentée — mais il déplace la question. Le verrou ne serait plus seulement la carte graphique, mais l'autorisation d'utiliser certains modèles.</p>\n<h2 id=\"un-correctif-et-une-porte-qui-se-referme\">Un correctif, et une porte qui se referme</h2>\n<p>Côté outillage, <strong>llama.cpp</strong> corrige une faiblesse référencée <strong>CVE-2026-116096</strong>. Elle touche la fonction `list_pockettts_state_slots` du fichier `pockettts-gen.cpp`, dans le composant Pocket-TTS : une manipulation de l'argument `mmproj` provoque une écriture hors bornes. L'attaque exige un accès local, mais l'exploit est public. La version <strong>b11796</strong> corrige le problème (patch 0a1ef309) ; sur master et en b11871, un `mmproj` malveillant déclenche désormais un `GGML_ASSERT` actif en release et interrompt l'exécution.</p>\n<p>Les communautés bougent aussi. Les modérateurs de <strong>r/opensource</strong> ont publié de nouvelles règles de soumission : les projets qui utilisent l'IA, qui sont fabriqués par l'IA ou qui sont destinés à l'IA n'y sont plus les bienvenus. Le message, posté samedi soir, justifie ce choix par le fait que « l'IA, telle qu'elle existe aujourd'hui, est incongrue avec cet open source ». D'autres restrictions l'accompagnent.</p>\n<h2>Et maintenant ?</h2>\n<p>Mis bout à bout, ces signalements décrivent une même contrainte : faire tourner des modèles soi-même suppose du matériel, de la mémoire, et l'autorisation d'accéder aux poids. Chacun de ces étages bouge en ce moment — prix des cartes 32 Go, restrictions sur les modèles à capacités cyber, règles d'un subreddit majeur, faille corrigée dans un outil central. Le local reste possible ; il demande simplement plus d'arbitrages qu'avant, et parfois de renoncer à la configuration qu'on avait en tête.</p>",
+ "pivot": "3fa616cb2f92e5dd",
+ "tags": [
+  "matériel",
+  "open-source",
+  "sécurité",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xexe1m/with_the_huge_price_hike_on_the_32gb_vram_scene/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfju8e/lets_talk_about_cyber_capabilities_and_open/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfizft/psa_llamacpp_cve2026116096/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfe84i/rtx_pro_4000_blackwell_sff_67_generation_on/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+  }
+ ],
+ "date": "2026-10-26T04:29:43+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1732,
+  "sortie": 4667
+ }
+}

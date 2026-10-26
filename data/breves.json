@@ -1,5 +1,26 @@
 [
  {
+  "id": "2942fa638e26c9ff",
+  "slug": "un-utilisateur-demande-si-qwen3-8-flash-next-tient-sur-24-go-de-vram-2942fa",
+  "titre": "Un utilisateur demande si qwen3.8-flash-next tient sur 24 Go de VRAM",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande si le modèle qwen3.8-flash-next peut tourner sur une configuration de 24 Go de VRAM et 48 Go de RAM. Il précise avoir déjà tenté une exécution, sans succès, et cherche des pistes pour y arriver. La question rappelle que la mémoire disponible reste le premier obstacle pour faire tourner des modèles en local.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfm5yy/can_i_run_qwen38flashnext_on_24gb_vram_and_48_ram/",
+  "date_source": "2026-10-26T03:30:03+00:00",
+  "date_redac": "2026-10-26T04:28:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 647,
+   "sortie": 503
+  }
+ },
+ {
   "id": "75ca1c2f409564fc",
   "slug": "un-agent-copilot-efface-une-base-de-donnees-par-accident-75ca1c",
   "titre": "Un agent Copilot efface une base de données par accident",

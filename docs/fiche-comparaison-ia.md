@@ -27,4 +27,14 @@ Preuves privées : `~/.hermes/workspaces/crabe-chantiers/croissance/2026-10-26/`
 
 ## Livraison
 
-En attente de vérification cloud/HTTPS au moment de ce commit. La réussite du test local ne vaut pas publication.
+En attente de vérification cloud/HTTPS au moment du premier commit. La réussite du test local ne vaut pas publication.
+
+### Confirmation du 26 octobre, 15:20 UTC
+
+- Rebase du seul correctif sur la livraison voisine du hub `681b8aa`, puis **234 tests Python réussis** dans cette combinaison. Commit publié : `5925651b8b157c48c55d3984ef4f194e808a0244` ; cinq blobs distants relus après push.
+- Run [40342393320](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/40342393320) : **completed/success**, contrats (234 tests), pipeline et sauvegarde réussis. Envois des trois cibles présents dans le log. État automatique `f25406b`, sauvegardé sur `main` via `013a73f92bfb61bf89a8c9a4752a9195623d81ef` après fusion d'une livraison documentaire voisine ; les cinq blobs de ce correctif restent identiques. Aucun SFTP de secours ni intervention sur les données du clone partagé.
+- HTTPS strict : `/skills/`, `/llms.txt` et `/fichiers/comparer-reponses-ia.md` répondent 200 avec **les octets attendus intégralement**. Fiche : 9 259 octets, SHA-256 `7a6198f4ff61e025a9535a94c9d6bd48b3310f905fae75b4cb199cc1d9b53577`. Le serveur n'annonce pas de Content-Type pour ce Markdown ; son téléchargement natif est néanmoins éprouvé, sans prétendre à un type MIME servi.
+- **8 téléchargements publics** supplémentaires vérifiés (mêmes largeurs, modes JS et actions que la recette locale), octets et nom de fichier identiques. Captures publiques mobile/desktop relues.
+- Les sondes de 15:02 et 15:18 UTC, pendant le transfert, servaient encore l'ancienne page à quatre cartes : écarts conservés, pas interprétés comme résultat final du déploiement.
+
+Pièces finales : `cloud-final.log`, `cloud-final.json`, `tests-rebase.log`, `https-20261026T152027Z/`, `browser-production-20261026T152027Z/` dans le même dossier privé. Les messages de transfert du hub visibles dans l'étape de tests appartiennent aux fixtures ; seul le transfert média de l'étape pipeline est revendiqué ici. Aucun gain d'audience ni de conversion mesuré.

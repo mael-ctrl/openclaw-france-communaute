@@ -1,22 +1,18 @@
 {
- "runs": 384,
- "items_collectes": 2894,
- "breves_publiees": 1392,
- "articles_publies": 273,
- "tokens_entree": 1439189,
- "tokens_sortie": 2020989,
+ "runs": 385,
+ "items_collectes": 2898,
+ "breves_publiees": 1395,
+ "articles_publies": 274,
+ "tokens_entree": 1442881,
+ "tokens_sortie": 2025985,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-26T10:53:00+00:00",
+ "dernier_run": "2026-10-26T13:13:23+00:00",
  "solde": {
   "total": "83.49",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-25T14:56:16+00:00",
-   "message": "brève impossible (Lure-TTS and Lure-Turbo: 600M voice models to run 4x faster ) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-25T18:42:39+00:00",
    "message": "brève impossible (I made an arena for fighting JEVs) : réponse non-JSON"
@@ -32,6 +28,10 @@
   {
    "ts": "2026-10-26T04:29:18+00:00",
    "message": "brève impossible (Seam Cutter) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-26T13:13:01+00:00",
+   "message": "brève impossible (Is there any way for this community to take advantage of the) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
@@ -1555,6 +1555,10 @@
   ],
   [
    "2026-10-26T10:52:06+00:00",
+   "83.49"
+  ],
+  [
+   "2026-10-26T13:12:32+00:00",
    "83.49"
   ]
  ],

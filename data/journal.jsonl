@@ -3333,3 +3333,9 @@
 {"ts": "2026-10-26T11:27:34+00:00", "evenement": "deploiement", "details": {"fichiers": 1934, "octets": 40275442}, "sha256": "673111e2ef94bd7c7ef710c4b3825cf5a68200af8f04a49620de148199ab5ed5"}
 {"ts": "2026-10-26T11:27:34+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "83221109b296eebc6fc0e429be3063d44c65b3651711b56cd3a34ca4c6b377a3"}
 {"ts": "2026-10-26T11:27:34+00:00", "evenement": "bilan", "details": {"duree_s": 2138.9, "neufs": 6, "breves": 6, "articles": 1, "fichiers": 1891, "envois": 1934, "publications": 0}, "sha256": "ade39746dc5e9659eb692bd42b40b57e68125b6885544c06ff803416dcf6b29b"}
+{"ts": "2026-10-26T13:12:31+00:00", "evenement": "collecte", "details": {"neufs": 4}, "sha256": "083a0eafb51d6e83daf4c7254b54ecdedc326e50b12524f7e30bf534a92dc48a"}
+{"ts": "2026-10-26T13:13:01+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Is there any way for this community to take advantage of the) : réponse non-JSON"}, "sha256": "051f13bc8b9ed8c4b57e235c23f8c15cfd66ece7c65499c5f10a70e135305941"}
+{"ts": "2026-10-26T13:13:43+00:00", "evenement": "construction", "details": {"fichiers": 1895}, "sha256": "ffd3b1ae916872e3c36c9f3038b554283479d9e4777072ff3c0b8fb6f8993e2b"}
+{"ts": "2026-10-26T13:40:18+00:00", "evenement": "deploiement", "details": {"fichiers": 1935, "octets": 40211088}, "sha256": "8592a2909985c4bc147cb52465c340b4664611d0882018b4d9235ace4349a9be"}
+{"ts": "2026-10-26T13:40:19+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "48b7aa495ac0cb57840bca48f5d63c8de57f73f2e63100d494d8a780c8b50a4c"}
+{"ts": "2026-10-26T13:40:19+00:00", "evenement": "bilan", "details": {"duree_s": 1685.8, "neufs": 4, "breves": 3, "articles": 1, "fichiers": 1895, "envois": 1935, "publications": 0}, "sha256": "f8f58c3f083f20fc7ee9aff2ee7313c36eac20d3c1b31825dc75a2cb024e8d68"}

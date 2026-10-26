@@ -1,5 +1,68 @@
 [
  {
+  "id": "75ca1c2f409564fc",
+  "slug": "un-agent-copilot-efface-une-base-de-donnees-par-accident-75ca1c",
+  "titre": "Un agent Copilot efface une base de données par accident",
+  "resume": "Sur r/LocalLLaMA, l'utilisateur fugogugo raconte qu'un agent Copilot dans VSCode a effacé sa base de données par accident pendant des tests. Il avait heureusement une sauvegarde. Il rappelle qu'un tweet viral avait déjà relayé ce genre d'incident, et demande si ces effacements restent fréquents alors que les agents gagnent en autonomie.",
+  "tags": [
+   "agents",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xflw1l/is_the_horror_story_about_ai_agent_mass_deleting/",
+  "date_source": "2026-10-26T03:15:33+00:00",
+  "date_redac": "2026-10-26T03:23:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 686,
+   "sortie": 377
+  }
+ },
+ {
+  "id": "4311fed58e9e1e7c",
+  "slug": "qwen3-8-flash-next-seduit-mais-son-exces-de-reflexion-interroge-4311fe",
+  "titre": "Qwen3.8-Flash-Next séduit, mais son excès de réflexion interroge",
+  "resume": "Un utilisateur de r/LocalLLaMA, passé de DSV4 Flash 0731 à Qwen3.8-Flash-Next, dit y gagner nettement en qualité. Son reproche : le modèle pousse souvent raisonnement et récupération d'infos plus loin que nécessaire, peu économe en tokens et donc lent. Il cherche des retours sur Swift1.5, censé corriger cette tendance de Qwen à la sur-réflexion, possiblement renforcée par RL pour les benchmarks.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfl3wo/qwen38flashnext_vs_swift15qwen38flashnext/",
+  "date_source": "2026-10-26T02:35:53+00:00",
+  "date_redac": "2026-10-26T03:23:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 757,
+   "sortie": 1133
+  }
+ },
+ {
+  "id": "edacce1f5a1422a2",
+  "slug": "poids-ouverts-et-cybercapacites-un-acces-de-plus-en-plus-verrouille-edacce",
+  "titre": "Poids ouverts et cybercapacités : un accès de plus en plus verrouillé",
+  "resume": "Un membre de r/LocalLLaMA constate que les poids ouverts ne progressent plus aussi librement qu'on le supposait : les États-Unis et la Chine restreignent les modèles dotés de capacités cyber. Seuls des opérateurs travaillant sous l'œil de leur gouvernement et de leurs sponsors big tech y auraient accès. L'auteur y voit un risque : les grandes entreprises et les États façonnent le numérique à leur guise, tandis que les particuliers et les petites entreprises perdent la capacité de défendre leurs actifs.",
+  "tags": [
+   "open-source",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfju8e/lets_talk_about_cyber_capabilities_and_open/",
+  "date_source": "2026-10-26T01:33:38+00:00",
+  "date_redac": "2026-10-26T03:23:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 787,
+   "sortie": 355
+  }
+ },
+ {
   "id": "805d73cfa325fd54",
   "slug": "llama-cpp-faille-d-ecriture-hors-bornes-dans-pocket-tts-corrigee-en-b1-805d73",
   "titre": "llama.cpp : faille d'écriture hors bornes dans Pocket-TTS, corrigée en b11796",

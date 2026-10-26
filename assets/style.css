@@ -363,6 +363,14 @@ a:hover { color: var(--accent); }
   transition: width .08s linear;
 }
 
+/* ---------------- Reflow du contenu ---------------- */
+main, .pied { overflow-wrap: anywhere; }
+.grille { grid-template-columns: repeat(auto-fill, minmax(min(285px, 100%), 1fr)); }
+.section-tete { flex-wrap: wrap; }
+.bouton { min-width: 0; max-width: 100%; }
+.breve-champs input { min-width: 0; max-width: 100%; }
+.lire { white-space: normal; }
+
 /* ---------------- Responsive ---------------- */
 /* Réserver la place de l'en-tête sticky pour les ancres et le focus. */
 @media (min-width: 901px) and (min-height: 601px) {

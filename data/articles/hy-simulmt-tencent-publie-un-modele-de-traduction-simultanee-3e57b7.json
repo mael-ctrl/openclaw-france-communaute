@@ -1,0 +1,41 @@
+{
+ "slug": "hy-simulmt-tencent-publie-un-modele-de-traduction-simultanee-3e57b7",
+ "titre": "Hy-SimulMT : Tencent publie un modèle de traduction simultanée",
+ "chapo": "Tencent Hunyuan met à disposition Hy-SimulMT, un modèle qui traduit pendant que la personne parle, du chinois vers l'anglais et retour, texte et parole compris. À côté, la communauté locale fait tourner un MoE 30B en ternaire sur 12 Go de VRAM, quand une étude montre que ChatGPT enregistre des souvenirs que personne ne lui a demandés.",
+ "html": "<h2 id=\"traduire-sans-attendre-la-fin-de-la-phra\">Traduire sans attendre la fin de la phrase</h2>\n<p>La plupart des systèmes de traduction attendent que le locuteur ait fini — ou marque une pause — avant de restituer quoi que ce soit. Hy-SimulMT, publié par Tencent Hunyuan, prend l'audio en continu et traduit <strong>pendant</strong> que la personne parle, dans les deux sens entre le chinois et l'anglais.</p>\n<p>Le modèle ne se contente pas de sortir du texte : il produit aussi la parole, avec un clonage vocal en temps réel destiné à conserver les caractéristiques de la voix du locuteur. La cible est explicitement celle des échanges live — réunions, discours, entretiens — avec un objectif affiché : réduire la gêne qu'introduit l'attente dans une conversation traduite.</p>\n<p>Côté pratique, des versions <strong>GGUF</strong> sont publiées sur Hugging Face. Le format n'est pas anodin : c'est celui qui circule le plus facilement dans l'écosystème local, ce qui laisse entendre que le modèle n'est pas réservé à une API propriétaire.</p>\n<h2 id=\"le-local-grignote-de-la-vram\">Le local grignote de la VRAM</h2>\n<p>Toujours sur r/LocalLLaMA, un GGUF retient l'attention : <strong>Ternary Nemotron 3.5 Lightning 30B-A3B</strong>, un MoE quantifié en 1,58 bit, qui tourne sur un GPU de 12 Go avec 368K de contexte, à 172 tok/s en décodage et plus de 7000 tok/s en prefill. Un seul fichier suffit, aussi bien dans llama.cpp standard (builds b11555 et b11796) que dans le fork PrismML/Bonsai (b10793).</p>\n<p>Il s'agit du deuxième MoE ternaire compatible avec llama.cpp standard, après maple-preview. Les mesures manquent encore sur deux points : une exécution CPU-only, et un fonctionnement autour de 10 Go de VRAM.</p>\n<p>Sur le front de la recherche, des travaux de Stanford et de l'UC Berkeley présentés sous le nom <strong>TokenGate</strong> rendraient le prefill en contexte long jusqu'à 11,3x plus rapide, d'après le titre du fil posté. Le prefill — l'étape où le modèle avale tout le contexte avant de générer — est précisément ce qui pénalise les longs contextes. La prudence reste de mise dans les commentaires : le seul extrait visible se résume à un « i hope it's real ».</p>\n<h2 id=\"un-serveur-mcp-aux-commandes-de-la-camer\">Un serveur MCP aux commandes de la caméra</h2>\n<p>Du côté de Claude, un développeur publie <strong>openskycam</strong>, un projet open source qui filme le ciel en 4K en continu et conserve les images sur le disque local. Le pipeline est plus élaboré qu'une simple capture : des workflows échantillonnent les frames, lancent des modèles de détection, relient les détections en trajectoires pour distinguer ce qui bouge de ce qui reste fixe, puis trient les résultats entre météores, avions et lumières fixes.</p>\n<p>L'ensemble passe par une API et un serveur <strong>MCP</strong>, ce qui permet à Claude Code de piloter la chaîne : construire le workflow nocturne, valider ou rejeter chaque détection, et bâtir un jeu de données là où le modèle confondait les étoiles avec des objets volants.</p>\n<h2 id=\"chatgpt-prend-des-notes-que-personne-ne-\">ChatGPT prend des notes que personne ne lui dicte</h2>\n<p>Une étude présentée à l'ACM Web Conference 2026, relayée par Frandroid, documente un comportement qui passe facilement inaperçu. Sur <strong>2 050 souvenirs</strong> enregistrés par ChatGPT chez <strong>65 utilisateurs</strong>, <strong>96 %</strong> ont été créés par le chatbot lui-même, sans la moindre demande. Plus de la moitié de ces souvenirs décrivent la psychologie de la personne.</p>\n<p>Autrement dit, le système conserve des éléments que les utilisateurs ne lui ont jamais fournis volontairement. La question n'est pas ici de savoir si le mécanisme est utile — la mémoire longue est ce qui rend un assistant utilisable dans la durée — mais de constater qu'il produit sa propre matière, à partir d'inférences, sans que l'utilisateur en soit l'auteur.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches dessinent deux mouvements parallèles. D'un côté, des modèles qui descendent en local et en VRAM : un MoE 30B en ternaire sur 12 Go, des GGUF publiés pour un modèle de traduction simultanée, un prefill annoncé jusqu'à 11,3x plus rapide — avec les réserves d'usage quand la communauté n'a qu'un titre à se mettre sous la dent. De l'autre, des systèmes qui accumulent d'eux-mêmes : chez ChatGPT, 96 % des souvenirs créés sans demande, dont plus de la moitié de nature psychologique. Entre les deux, la question du contrôle reste la même : savoir qui décide de ce que la machine retient, et de ce qu'elle restitue.</p>",
+ "pivot": "3e57b73ecdc8c1c8",
+ "tags": [
+  "open-source",
+  "recherche",
+  "chatgpt",
+  "claude"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfrgt5/tencenthysimulmt30ba3b_hugging_face/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3298591_fiche-a-votre-insu-chatgpt-construit-votre-profil-psychologique-en-silence-voici-ce-quil-sait-de-vous-sans-vous-lavoir-demande"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfqi2d/boro64ternarynemotron35lightning30ba3bgguf/"
+  },
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfqc9x/i_built_an_open_source_sky_camera_that_claude/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfovxr/researchers_from_stanford_and_uc_berkeley/"
+  }
+ ],
+ "date": "2026-10-26T09:57:21+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1737,
+  "sortie": 2246
+ }
+}

@@ -253,6 +253,8 @@ de soumettre. Ne pas faire passer l'agent pour un humain.
 
 ## Journal d'exécution (à tenir à jour, une ligne par action)
 
+- `2026-10-26 | Préparation monétisation privée | Qualification de la mesure du parcours Pack et candidat corrigé pour les ancres prix/extraits, sans activation | Aucun lien public nouveau | ✅ 51 contrôles sur page capturée, 36 régressions v2, réseau interdit | Aucun contact, post, compte, formulaire, prix ou paiement ; ZDNET reste l'unique distribution du jour. Aucun suivi de clics activé ni revenu attribué ; compte/backend/confidentialité à qualifier. Détails : docs/monetisation.md.`
+
 - `2026-10-25 | Site propre — monétisation | Deux raccourcis vers extraits gratuits/prix du Pack publiés, sans diffusion tierce | https://communaute-ia.fr/pack/ | ✅ Cloud 40194014742 réussi, HTML HTTPS exact et parcours mobile/desktop avec/sans JS vérifiés | Prix 14 €, Stripe et livrables inchangés. Aucun contact, formulaire, compte, paiement ou suivi ajouté ; quota de distribution non consommé. Bluesky du 20 reste l'unique promotion de la semaine ; aucun revenu attribué. Détails : docs/monetisation.md.`
 
 - `2026-10-24 | Site propre — monétisation | Sommaire des 100 titres du Pack publié, sans diffusion tierce | https://communaute-ia.fr/pack/#sommaire-pack | ✅ Cloud 40116677135 réussi, HTTPS exact et accordéons sans JS vérifiés | Prix 14 €, Stripe, extraits et fichiers inchangés. Aucun contact, formulaire ou paiement ; aucun quota de distribution consommé. La démarche NewslettersBox et le post Bluesky du 20 restent distincts. Aucun revenu attribué. Détails : docs/monetisation.md.`

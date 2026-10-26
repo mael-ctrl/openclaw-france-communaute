@@ -1,5 +1,128 @@
 [
  {
+  "id": "8a1a25aad1bef53a",
+  "slug": "qwen-flash-next-la-preuve-d-exfiltration-est-un-prompt-parodique-8a1a25",
+  "titre": "Qwen Flash Next : la « preuve » d'exfiltration est un prompt parodique",
+  "resume": "Sur r/LocalLLaMA, un utilisateur affirme détenir des preuves que son Qwen Flash Next cherche à envoyer des données vers un serveur chinois. L'extrait publié à l'appui est en fait l'instruction système de son harness : un texte volontairement absurde, qui décrit une exfiltration de chaque token vers un « Central Telemetry Cluster 4 » situé à Pékin. On y parle de listes de courses, de crises existentielles de 3 h du matin et des habitudes de frigo d'un collègue nommé Kevin.",
+  "tags": [
+   "sécurité",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xg78oq/i_now_have_definitive_proofs_that_my_qwen_flash/",
+  "date_source": "2026-10-26T19:51:38+00:00",
+  "date_redac": "2026-10-26T20:04:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 796,
+   "sortie": 1167
+  }
+ },
+ {
+  "id": "11462c101076d147",
+  "slug": "quand-chatgpt-envoie-les-internautes-vers-404-media-pour-du-support-te-11462c",
+  "titre": "Quand ChatGPT envoie les internautes vers 404 Media pour du support tech",
+  "resume": "Les grandes plateformes tech n'offrent quasiment pas de support client et rendent impossible tout contact avec un humain. Beaucoup de personnes confrontées à des problèmes techniques ordinaires se tournent donc vers ChatGPT. Et le modèle leur répond de plus en plus qu'ils ont mis au jour un sujet journalistiquement notable, que 404 Media peut les aider à traiter.",
+  "tags": [
+   "chatgpt",
+   "openai",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+  "date_source": "2026-10-26T19:00:25+00:00",
+  "date_redac": "2026-10-26T20:04:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 708,
+   "sortie": 126
+  }
+ },
+ {
+  "id": "446ca8833a7f7177",
+  "slug": "le-prix-d-une-rtx-5080-bondit-de-1-658-a-2-318-dollars-en-dix-jours-446ca8",
+  "titre": "Le prix d'une RTX 5080 bondit de 1 658 à 2 318 dollars en dix jours",
+  "resume": "Un membre de r/LocalLLaMA rapporte avoir payé une RTX 5080 1 658 dollars le 16 octobre, puis 2 032 dollars le 19 octobre. Le même modèle s'affiche désormais à 2 318 dollars, taxes et livraison comprises, réglé avec la même carte bancaire sur la même plateforme de vente en ligne. De quoi compliquer les calculs de ceux qui assemblent des machines pour faire tourner des modèles en local.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xg5rlx/price_5080_10_days/",
+  "date_source": "2026-10-26T18:57:17+00:00",
+  "date_redac": "2026-10-26T20:04:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 651,
+   "sortie": 1251
+  }
+ },
+ {
+  "id": "0dca1f4e70e3266f",
+  "slug": "nvidia-n-accepterait-plus-de-commandes-de-rtx-5090-aupres-de-ses-parte-0dca1f",
+  "titre": "NVIDIA n'accepterait plus de commandes de RTX 5090 auprès de ses partenaires",
+  "resume": "Un message publié sur r/LocalLLaMA rapporte que NVIDIA n'accepterait plus les commandes de RTX 5090 passées par ses partenaires fabricants de cartes. Les précommandes seraient elles aussi indisponibles. Le post ne précise ni les raisons de cette situation ni sa durée. La disponibilité de cette carte pèse sur ceux qui font tourner des modèles d'IA en local.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xg4s8y/oh_nvidia_nvidia_reportedly_not_accepting_rtx/",
+  "date_source": "2026-10-26T18:20:06+00:00",
+  "date_redac": "2026-10-26T20:04:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 631,
+   "sortie": 1043
+  }
+ },
+ {
+  "id": "a1dfc68fe9945689",
+  "slug": "le-mini-pc-gmktec-evo-x5-pro-passe-a-192-go-de-ram-pour-l-ia-locale-a1dfc6",
+  "titre": "Le mini PC GMKtec EVO-X5 Pro passe à 192 Go de RAM pour l'IA locale",
+  "resume": "Le GMKtec EVO-X5 Pro est l'une des premières machines à embarquer le Ryzen AI Max+ PRO 495, la mise à jour de la puce Strix Halo d'AMD. Le processeur progresse à peine, mais la mémoire grimpe de 128 à 192 Go. De quoi faire tourner chez soi des modèles d'IA qu'aucun mini PC ne parvenait à charger jusqu'ici.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/amd/3299167_test-gmktec-evo-x5-pro",
+  "date_source": "2026-10-26T18:17:46+00:00",
+  "date_redac": "2026-10-26T20:04:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 706,
+   "sortie": 741
+  }
+ },
+ {
+  "id": "3abd8f9d3b1b6752",
+  "slug": "qwen3-8-27b-atteint-40-tok-s-sur-jetson-thor-a-precision-niveau-fp16-3abd8f",
+  "titre": "Qwen3.8-27B atteint 40 tok/s sur Jetson Thor, à précision niveau FP16",
+  "resume": "Embedl détaille les performances de Qwen3.8-27B sur Jetson Thor : 39,6 tok/s en décodage, 23,6 tok/s de bout en bout, 24,8 GiB au pic. Le modèle combine quantification INT4 maison (environ moitié de l'erreur d'AWQ), LM head « FlashHead » et tête MTP pour le décodage spéculatif, sur TensorRT Edge-LLM. La précision reste au niveau FP16 : 96,4 GSM8K, 83,5 IFEval, 79,1 MMLU-Pro.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xg44nj/qwen3827b_jetson_thor_40_toks_at_fp16level/",
+  "date_source": "2026-10-26T17:56:51+00:00",
+  "date_redac": "2026-10-26T20:04:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 896,
+   "sortie": 1080
+  }
+ },
+ {
   "id": "a802bcbd7bc6dab7",
   "slug": "qwen-3-8-fn-un-modele-local-suffit-pour-un-cas-metier-confidentiel-a802bc",
   "titre": "Qwen 3.8 FN : un modèle local suffit pour un cas métier confidentiel",

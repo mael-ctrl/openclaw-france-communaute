@@ -1,0 +1,41 @@
+{
+ "slug": "tokengate-souvenirs-de-chatgpt-et-faille-dans-llama-cpp-5138d3",
+ "titre": "TokenGate, souvenirs de ChatGPT et faille dans llama.cpp",
+ "chapo": "Cette semaine, la recherche s'attaque au vrai goulot des longs contextes, pendant qu'une étude documente les souvenirs que ChatGPT enregistre sans qu'on lui demande. Côté local, llama.cpp corrige une faille et une carte graphique reprogrammée gagne 67 % en génération.",
+ "html": "<h2 id=\"tokengate-s-attaque-au-prefill\">TokenGate s'attaque au prefill</h2>\n<p>Des chercheurs de Stanford et de l'UC Berkeley présentent TokenGate, une approche d'attention dite « token-gated » qui rendrait le prefill en contexte long jusqu'à <strong>11,3x plus rapide</strong>, d'après le titre du fil posté sur r/LocalLLaMA. Le prefill, c'est cette étape où le modèle avale tout le contexte avant de commencer à générer — précisément ce qui plombe les longs contextes, en temps comme en mémoire.</p>\n<p>La communauté reste prudente. Le seul extrait visible du fil se limite à un « <em>i hope it's real</em> », et rien dans les éléments disponibles ne permet de vérifier le protocole de mesure ni les modèles testés. Le chiffre de 11,3x circule donc pour l'instant comme une annonce, pas comme un résultat reproduit.</p>\n<h2 id=\"chatgpt-prend-des-notes-sans-qu-on-lui-d\">ChatGPT prend des notes sans qu'on lui demande</h2>\n<p>Une étude présentée à l'ACM Web Conference 2026, relayée par Frandroid, a examiné <strong>2 050 souvenirs enregistrés par ChatGPT chez 65 utilisateurs</strong>. Résultat : 96 % de ces souvenirs ont été créés par le chatbot sans la moindre demande de l'utilisateur. Plus de la moitié décrivent la psychologie de la personne.</p>\n<p>Autrement dit, le modèle conserve des éléments que les utilisateurs ne lui ont jamais fournis volontairement. La mémoire persistante, présentée comme un confort d'usage, produit ici son propre matériau : des traits de caractère, des dispositions, déduits au fil des conversations et stockés sans instruction explicite.</p>\n<h2 id=\"le-local-une-cve-et-un-vbios\">Le local : une CVE et un VBIOS</h2>\n<p>La CVE-2026-116096 identifie une faiblesse dans llama.cpp, plus précisément dans la fonction `list_pockettts_state_slots` du fichier `pockettts-gen.cpp` du composant Pocket-TTS : une manipulation de l'argument `mmproj` provoque une écriture hors bornes. L'attaque exige un accès local, mais l'exploit est public et pourrait servir. La version <strong>b11796</strong> corrige le problème (patch `0a1ef309`). Sur master et en b11871, un `mmproj` malveillant déclenche désormais un `GGML_ASSERT` actif en release et interrompt l'exécution.</p>\n<p>Sur le versant matériel, un testeur a chargé en mémoire un VBIOS modifié sur une RTX PRO 4000 Blackwell SFF (24 Go GDDR7, 70 W d'usine, sans connecteur auxiliaire) pour monter la limite à <strong>120 W</strong>, sans flash EEPROM ni soudure. Sur 158 requêtes, Qwen3.8 27B gagne encore jusqu'à 120 W, quand Qwen3.6 35B A3B reste quasi plat de 106 à 120 W. Meilleur résultat sur le 27B : 35,04 → 58,53 tok/s (+67 %), avec VRAM +20 % et cœur +180 MHz.</p>\n<h2 id=\"r-opensource-ferme-la-porte\">r/opensource ferme la porte</h2>\n<p>Les modérateurs de r/opensource ont publié de nouvelles règles de soumission : les projets qui utilisent l'IA, qui sont fabriqués par l'IA ou qui sont destinés à l'IA n'y sont plus les bienvenus. Le message, posté samedi soir, justifie ce choix par le fait que « l'IA, telle qu'elle existe aujourd'hui, est incongrue avec cet open source ». D'autres restrictions accompagnent ce bannissement, sans plus de détail dans les éléments disponibles.</p>\n<p>La décision tranche avec l'activité des communautés voisines : c'est sur r/LocalLLaMA que circulent la CVE de llama.cpp et les mesures de la RTX PRO 4000. Le clivage ne porte donc pas sur le fait de modifier ou de réparer des modèles, mais sur la définition même de ce qu'est un projet open source aujourd'hui.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois trajectoires se dessinent sans se confondre. La recherche continue de s'attaquer au coût du contexte long, avec des annonces dont la vérification reste à faire. La mémoire des assistants, elle, est déjà documentée par une étude chiffrée : 96 % des souvenirs observés ont été créés sans demande. Et pendant que llama.cpp patche une écriture hors bornes en b11796, une partie de la communauté open source choisit de tracer une frontière explicite avec l'IA. Les mêmes outils, trois façons de poser la question de la confiance.</p>",
+ "pivot": "5138d354f3083410",
+ "tags": [
+  "recherche",
+  "sécurité",
+  "open-source",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfovxr/researchers_from_stanford_and_uc_berkeley/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3298591_fiche-a-votre-insu-chatgpt-construit-votre-profil-psychologique-en-silence-voici-ce-quil-sait-de-vous-sans-vous-lavoir-demande"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfizft/psa_llamacpp_cve2026116096/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfe84i/rtx_pro_4000_blackwell_sff_67_generation_on/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+  }
+ ],
+ "date": "2026-10-26T07:39:56+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1710,
+  "sortie": 2360
+ }
+}

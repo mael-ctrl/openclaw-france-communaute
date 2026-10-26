@@ -27,4 +27,12 @@ Pièces privées : `crabe-chantiers/integration-2026-10-26/` (tests, inventaires
 
 ## Production
 
-Recette locale complète ; publication cloud et HTTPS à vérifier après push. Ce statut intermédiaire n'est pas une confirmation de livraison. Aucun gain de trafic, d'écoute ou de conversion revendiqué.
+**Publié :** code `e33ad0bb757e2c7554ebef19c3abf54e8eb7dfd3`, [run 40303309500](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/40303309500) terminé avec succès. **230 tests cloud**, pipeline réussi : **1 927 fichiers envoyés**, puis sauvegarde `9e1a695c16ca24894eb886e000d25baf64f2081d` relue. Les deux étapes et le statut global sont confirmés, pas seulement une réponse HTTP.
+
+Avant push, rebase du seul correctif sur `06c22c5` : uniquement sept fichiers `data/` avaient avancé. Suite de 230 tests rejouée avec succès sur cette base ; code/CSS de recette inchangés. Les quatre blobs du commit publié ont été comparés à GitHub. Aucun état local conflictuel repris.
+
+Après fin du workflow : **20 URL HTTPS uniques, 22 réponses en 200**, CSS et trois ressources témoins exactes ; version et sitemap stables aux deux bornes de la capture. **640/640 contrôles Chromium en production** sur les cinq pages et 40 configurations, sans JavaScript, aucun formulaire ni paiement ; requêtes limitées en GET au média. Une première recette identique avait déjà réussi pendant le transfert : elle est conservée séparément, sans la confondre avec ce contrôle final.
+
+Les suivis `gh run watch` ont atteint plusieurs fois leur borne locale de cinq minutes ; le workflow a finalement réussi, sans nouveau dispatch. Une première sonde HTTPS a été interrompue par un chemin local de comparaison erroné pour le Markdown : corps conservés, nouvelle capture complète contre le build réussie. Ces incidents de recette ne sont pas masqués ni attribués au site.
+
+**Limites :** tableau du journal Transparence encore à traiter aux très petites largeurs ; aucune conformité globale ni gain de trafic/conversion revendiqué. Conflit et faux vert opérationnel du clone partagé distincts, non réparés par ce chantier.

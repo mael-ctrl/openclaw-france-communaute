@@ -1,0 +1,41 @@
+{
+ "slug": "atos-veut-faire-agir-l-ia-dans-les-environnements-critiques-a9f160",
+ "titre": "Atos veut faire agir l'IA dans les environnements critiques",
+ "chapo": "Atos lance Genesis Intelligence, une suite qui veut convertir les informations analysées par l'IA en actions opérationnelles dans les environnements critiques. Au même moment, un développeur fait piloter sa caméra du ciel par Claude Code, et la startup chinoise Moonshot AI place son Kimi K3.1 Pro devant les modèles de ChatGPT et de Gemini.",
+ "html": "<h2 id=\"genesis-intelligence-ou-l-ia-qui-execute\">Genesis Intelligence, ou l'IA qui exécute</h2>\n<p>Atos réunit sous le nom de Genesis Intelligence une suite qui couvre quatre briques : la gestion des données, le déploiement de modèles, l'orchestration d'agents et la gouvernance. L'ambition annoncée par le groupe est explicite : dépasser la génération de texte et les recommandations, autrement dit sortir du stade où le modèle se contente de répondre.</p>\n<p>La pièce maîtresse s'appelle Atos Codex, pour « Center of Operations and Data EXcellence ». Sa fonction : convertir les informations analysées par l'IA en actions opérationnelles, dans un contexte d'environnements critiques — un terrain où l'écart entre une prédiction et une décision effective n'est pas anodin.</p>\n<p>La formulation retenue par Atos dit l'essentiel : il ne s'agit plus de faire parler un modèle, mais de le brancher sur des opérations. C'est précisément là que la gouvernance, quatrième brique de la suite, devient autre chose qu'un supplément d'âme.</p>\n<h2 id=\"orchestration-d-agents-la-demonstration-\">Orchestration d'agents : la démonstration par le ciel</h2>\n<p>Le même mouvement se lit, à plus petite échelle, dans un projet open source publié par un développeur sous le nom d'openskycam. Le principe : filmer le ciel en 4K en continu et conserver les images sur le disque local. Des workflows échantillonnent les frames, lancent des modèles de détection, relient les détections en trajectoires pour distinguer le mobile du fixe, puis trient les résultats entre météores, avions et lumières fixes.</p>\n<p>L'intérêt tient à la plomberie. Tout passe par une API et un serveur MCP, ce qui permet à Claude Code de piloter l'ensemble : construire le workflow nocturne, valider ou rejeter chaque détection, et bâtir un jeu de données là où le modèle confondait les étoiles avec des objets volants.</p>\n<p>On retrouve les briques décrites par Atos — données, modèles, orchestration, contrôle — mais assemblées par un seul développeur, avec un humain dans la boucle pour arbitrer les cas douteux.</p>\n<h2 id=\"kimi-k3-1-pro-bouscule-le-classement\">Kimi K3.1 Pro bouscule le classement</h2>\n<p>Sur le front des modèles, Moonshot AI dévoile Kimi K3.1 Pro. La startup chinoise place cette version à la quatrième position du classement d'Artificial Analysis, et surtout devant tous les modèles d'IA de ChatGPT et de Gemini. Le Journal du Geek résume la lecture : la tech américaine est à nouveau bousculée par la concurrence chinoise.</p>\n<p>Un classement n'est pas un usage, et la quatrième place ne dit rien des environnements critiques chers à Atos. Elle rappelle en revanche que le choix d'un modèle devient une décision mouvante, ce qui donne un relief particulier aux suites qui promettent de déployer et d'orchestrer des modèles interchangeables.</p>\n<h2 id=\"interfaces-gmail-live-et-la-presse-qui-e\">Interfaces : Gmail Live et la presse qui encaisse</h2>\n<p>Côté grand public, Google étend Gmail Live. L'assistant vocal permet de demander à sa boîte mail où se trouve une information, plutôt que de multiplier les recherches. Déjà proposé aux particuliers abonnés à Google AI, il arrive désormais dans Workspace, avec au passage un choix de voix et une boîte de réception assistée par IA étendue aux comptes professionnels.</p>\n<p>L'autre effet de l'IA chez Google est plus structurel. The Verge consacre sa newsletter hebdomadaire The Stepback à la manière dont la recherche enrichie à l'IA a bouleversé l'édition en ligne. Le découpage repart des origines, en rappelant sur quoi l'industrie de la presse numérique s'est appuyée, avant d'examiner ce que ces changements lui font. Le sujet est signé Emma Roth, qui suit l'impact de l'IA sur le web.</p>\n<p>Deux faces du même déplacement : l'IA entre dans l'outil de travail, et modifie dans le même temps la façon dont les producteurs de contenu sont trouvés.</p>\n<h2>Et maintenant ?</h2>\n<p>Mis bout à bout, ces dépêches dessinent moins une tendance qu'un déplacement de curseur : des modèles plus nombreux et mieux classés, des agents qui exécutent au lieu de commenter, des interfaces qui répondent au lieu de faire chercher. Atos y ajoute un mot que les démonstrations open source ne portent pas encore : gouvernance. Reste que la quatrième place d'un Kimi K3.1 Pro et le pilotage d'une caméra du ciel par Claude Code posent la même question pratique que la suite d'Atos — qui valide, et sur quelle base, ce que l'agent décide de faire.</p>",
+ "pivot": "a9f16094aedc8c11",
+ "tags": [
+  "agents",
+  "business",
+  "open-source",
+  "claude"
+ ],
+ "sources": [
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/informatique/esn-ssii/atos/transformer-les-donnees-operationnelles-en-decisions-et-en-actions-atos-veut-faire-agir-lintelligence-artificielle-pas-seulement-la-faire-parler.WRAZRFFEUNBWJNNCLYSE3RIYSM.html"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/24/chine-depasser-chatgpt-startup-kimi-k3-1-pro/"
+  },
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfqc9x/i_built_an_open_source_sky_camera_that_claude/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/25/vous-ne-retrouvez-jamais-rien-dans-gmail-google-a-une-idee/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+  }
+ ],
+ "date": "2026-10-26T09:19:52+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1598,
+  "sortie": 2542
+ }
+}

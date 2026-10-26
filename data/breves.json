@@ -1,5 +1,107 @@
 [
  {
+  "id": "5158ac73e60541b6",
+  "slug": "qwen4-la-communaute-s-interroge-sur-les-gains-a-attendre-5158ac",
+  "titre": "Qwen4 : la communauté s'interroge sur les gains à attendre",
+  "resume": "Sur r/LocalLLaMA, un internaute se demande ce que Qwen4 apportera réellement. Il ne cherche pas à deviner les tailles de modèles prévues, mais veut savoir si le futur modèle dépassera nettement Qwen3.8-Flash-Next, ou si ce dernier est déjà proche de l'optimum atteignable pour son gabarit. Il juge ce modèle preview, destiné à montrer et implémenter la nouvelle architecture, très impressionnant pour sa taille.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfrti9/qwen4_expectations/",
+  "date_source": "2026-10-26T09:12:44+00:00",
+  "date_redac": "2026-10-26T09:19:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 701,
+   "sortie": 571
+  }
+ },
+ {
+  "id": "a9f16094aedc8c11",
+  "slug": "atos-lance-genesis-intelligence-pour-faire-agir-l-ia-dans-les-environn-a9f160",
+  "titre": "Atos lance Genesis Intelligence pour faire agir l'IA dans les environnements critiques",
+  "resume": "Atos lance Genesis Intelligence, une suite réunissant gestion des données, déploiement de modèles, orchestration d'agents et gouvernance. Le groupe veut dépasser la génération de texte et les recommandations. Sa pièce maîtresse, Atos Codex (« Center of Operations and Data EXcellence »), doit convertir les informations analysées par l'IA en actions opérationnelles dans les environnements critiques.",
+  "tags": [
+   "business",
+   "agents",
+   "france"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/informatique/esn-ssii/atos/transformer-les-donnees-operationnelles-en-decisions-et-en-actions-atos-veut-faire-agir-lintelligence-artificielle-pas-seulement-la-faire-parler.WRAZRFFEUNBWJNNCLYSE3RIYSM.html",
+  "date_source": "2026-10-26T09:00:00+00:00",
+  "date_redac": "2026-10-26T09:19:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 764,
+   "sortie": 957
+  }
+ },
+ {
+  "id": "3e57b73ecdc8c1c8",
+  "slug": "tencent-hunyuan-publie-hy-simulmt-un-modele-de-traduction-simultanee-e-3e57b7",
+  "titre": "Tencent Hunyuan publie Hy-SimulMT, un modèle de traduction simultanée en temps réel",
+  "resume": "Tencent Hunyuan met à disposition Hy-SimulMT, un modèle de traduction simultanée qui reçoit l'audio en continu et traduit pendant que la personne parle, du chinois vers l'anglais et inversement. Il produit à la fois le texte traduit et la parole, avec clonage vocal en temps réel pour conserver les caractéristiques de la voix du locuteur. Le modèle vise les situations de communication live : réunions, discours, entretiens, en cherchant à limiter la gêne qu'introduit l'attente dans un échange. Des versions GGUF sont publiées sur Hugging Face.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfrgt5/tencenthysimulmt30ba3b_hugging_face/",
+  "date_source": "2026-10-26T08:51:23+00:00",
+  "date_redac": "2026-10-26T09:19:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 793,
+   "sortie": 730
+  }
+ },
+ {
+  "id": "fc17cedcecba93e7",
+  "slug": "optimiser-son-budget-claude-haiku-region-hors-us-et-requetes-batch-fc17ce",
+  "titre": "Optimiser son budget Claude : Haiku, région hors US et requêtes batch",
+  "resume": "Un utilisateur de Reddit explique vouloir visualiser les tarifs de Claude pour tirer le meilleur de son abonnement. Selon lui, ne pas déléguer certaines tâches à Haiku sous la supervision d'Opus ou de Sonnet n'a pas de sens vu les prix. Il note aussi qu'éviter de se limiter à la région américaine économise 10 %, et que multiplier les requêtes batch via l'API peut réduire la facture jusqu'à 50 %.",
+  "tags": [
+   "claude",
+   "business",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xfr1zb/wanted_to_visualise_the_pricing_to_maximise_my/",
+  "date_source": "2026-10-26T08:24:12+00:00",
+  "date_redac": "2026-10-26T09:19:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 655,
+   "sortie": 1039
+  }
+ },
+ {
+  "id": "85d7e24a36a9f467",
+  "slug": "un-utilisateur-se-demande-si-les-heures-creuses-existent-encore-chez-c-85d7e2",
+  "titre": "Un utilisateur se demande si les heures creuses existent encore chez Claude",
+  "resume": "Sur le subreddit r/ClaudeAI, un utilisateur demande si les heures creuses sont toujours d'actualité chez Claude. Il souhaite pouvoir limiter sa consommation en sollicitant le modèle à certaines heures plutôt qu'à d'autres. Selon lui, ce dispositif pourrait encore exister sans que l'entreprise ne l'annonce. Il demande si d'autres ont observé un quota consommé plus vite à certains moments de la journée.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xfqte2/are_offpeak_hours_still_at_thing_with_claude/",
+  "date_source": "2026-10-26T08:09:23+00:00",
+  "date_redac": "2026-10-26T09:19:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 666,
+   "sortie": 559
+  }
+ },
+ {
   "id": "9559f32a62a730b4",
   "slug": "un-accueil-sans-pub-avec-l-ia-sur-une-tv-samsung-sous-tizen-9559f3",
   "titre": "Un accueil sans pub avec l'IA sur une TV Samsung sous Tizen",
@@ -81,6 +183,28 @@
    "modele": "deepseek-flash",
    "entree": 701,
    "sortie": 364
+  }
+ },
+ {
+  "id": "3a237a038b8830b0",
+  "slug": "openskycam-une-camera-du-ciel-open-source-pilotee-par-claude-code-3a237a",
+  "titre": "openskycam : une caméra du ciel open source pilotée par Claude Code",
+  "resume": "Un développeur publie openskycam, un projet open source qui filme le ciel en 4K en continu et garde les images sur le disque local. Des workflows échantillonnent les frames, lancent des modèles de détection, relient les détections en trajectoires pour distinguer le mobile du fixe, puis trient les résultats entre météores, avions et lumières fixes. Tout passe par une API et un serveur MCP, ce qui permet à Claude Code de piloter l'ensemble : construire le workflow nocturne, valider ou rejeter chaque détection, et bâtir un jeu de données quand le modèle confondait les étoiles avec des objets volants.",
+  "tags": [
+   "claude",
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xfqc9x/i_built_an_open_source_sky_camera_that_claude/",
+  "date_source": "2026-10-26T07:38:28+00:00",
+  "date_redac": "2026-10-26T09:19:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 847,
+   "sortie": 199
   }
  },
  {

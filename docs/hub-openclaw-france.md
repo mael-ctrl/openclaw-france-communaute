@@ -767,6 +767,37 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-25/hub-budget-openclaw/`.
 
+## Sécurité et sauvegardes OpenClaw — livraison du 26/10/2026
+
+- **Une amélioration** : `/openclaw/#securite-sauvegardes`, liée avant les boutons,
+  aligne les promesses de la page sur les scripts fournis. Plus de sécurité garantie,
+  de HTTPS automatique ou de sauvegarde prétendument programmée à l’installation.
+  Distinction entre installation, réglages, lancement d’une sauvegarde, planification,
+  rétention, vérification d’archive, copie externe chiffrée et essai de restauration.
+- Scripts relus et documentation officielle sécurité/sauvegardes consultée le 26/10.
+  Aucun script ni kit modifié, aucune installation ou restauration réelle prétendue.
+  Trois nouveaux tests échouent avant correction puis passent : **49 tests hub OK**,
+  **233 tests de la suite complète OK**, **3 tests sur le HTML public OK**.
+- Chrome avec et sans JavaScript : **12 contrôles locaux** (1440, 1024, 430, 390,
+  375 et 360 px), puis **6 publics** (1440, 390 et 360 px). Ancre avant les boutons,
+  trois FAQ au clavier, lien dépannage et absence de débordement horizontal vérifiés.
+- Bureau illisible en cron (`Resource deadlock avoided`, dépôt Git inaccessible) :
+  déploiement par `python3 outils/deployer_openclaw.py` depuis le clone synchronisé
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Clone partagé en conflit laissé intact.
+  Sauvegarde privée et recontrôle avant envoi ; **36 fichiers relus via FTP**, tous
+  identiques aux sources. Seuls la page OpenClaw et le sitemap ont changé.
+  ZIP et manifeste inchangés octet pour octet, également vérifiés en HTTPS.
+- Santé : **six URL demandées en HTTP 200**, contrôle étendu de **13 URL en 200**,
+  sans suivre de redirection. Introduction et nouvelle section publiques identiques
+  aux sources. **IndexNow HTTP 200** pour `/openclaw/` : notification acceptée,
+  pas preuve d’indexation ni de croissance.
+- **Aucune nouvelle distribution** : le journal synchronisé consigne déjà une
+  proposition éditoriale ZDNET France le 26/10 à 09:34 UTC, occupant le quota du jour.
+  Aucun second envoi ni post Bluesky. Prochaine priorité : tester une sauvegarde
+  et une restauration en environnement isolé avant de renforcer les promesses du kit.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-26/hub-securite-openclaw/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

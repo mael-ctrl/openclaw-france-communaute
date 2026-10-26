@@ -1,5 +1,67 @@
 [
  {
+  "id": "e9abe021dd3dbf5c",
+  "slug": "chatgpt-enregistre-des-souvenirs-sans-demande-et-esquisse-votre-profil-e9abe0",
+  "titre": "ChatGPT enregistre des souvenirs sans demande et esquisse votre profil psychologique",
+  "resume": "Selon une étude présentée à l'ACM Web Conference 2026, sur 2 050 souvenirs enregistrés par ChatGPT chez 65 utilisateurs, 96 % ont été créés par le chatbot sans la moindre demande. Plus de la moitié de ces souvenirs décrivent la psychologie de la personne. Le chatbot conserve donc des éléments que les utilisateurs ne lui ont jamais fournis volontairement.",
+  "tags": [
+   "chatgpt",
+   "openai",
+   "recherche",
+   "société"
+  ],
+  "importance": 4,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3298591_fiche-a-votre-insu-chatgpt-construit-votre-profil-psychologique-en-silence-voici-ce-quil-sait-de-vous-sans-vous-lavoir-demande",
+  "date_source": "2026-10-26T06:40:33+00:00",
+  "date_redac": "2026-10-26T06:57:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 712,
+   "sortie": 1009
+  }
+ },
+ {
+  "id": "5138d354f3083410",
+  "slug": "tokengate-accelere-le-prefill-en-contexte-long-jusqu-a-11-3x-5138d3",
+  "titre": "TokenGate accélère le prefill en contexte long jusqu'à 11,3x",
+  "resume": "Des chercheurs de Stanford et de l'UC Berkeley présentent TokenGate, une approche d'attention « token-gated » qui rend le prefill en contexte long jusqu'à 11,3x plus rapide, d'après le titre du fil posté sur r/LocalLLaMA. Le prefill, cette étape où le modèle avale tout le contexte avant de générer, est justement ce qui plombe les longs contextes. La communauté reste prudente : le seul extrait visible se limite à un « i hope it's real ».",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfovxr/researchers_from_stanford_and_uc_berkeley/",
+  "date_source": "2026-10-26T06:06:01+00:00",
+  "date_redac": "2026-10-26T06:57:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 634,
+   "sortie": 740
+  }
+ },
+ {
+  "id": "835779e07115464c",
+  "slug": "nvidia-mise-sur-rtx-spark-pour-des-assistants-ia-locaux-sur-pc-835779",
+  "titre": "Nvidia mise sur RTX Spark pour des assistants IA locaux sur PC",
+  "resume": "Nvidia présente RTX Spark, une nouvelle plateforme qui veut faire évoluer la manière dont on utilise le PC. L'objectif affiché : faciliter le recours aux assistants IA, idéalement en local, et les intégrer naturellement aux usages habituels, entre travail, création et jeu. À noter : il s'agit d'un contenu sponsorisé publié par Frandroid.",
+  "tags": [
+   "matériel",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3289487_pourquoi-la-puce-rtx-spark-de-nvidia-risque-bien-de-changer-la-maniere-dont-on-utilise-lia",
+  "date_source": "2026-10-26T05:47:00+00:00",
+  "date_redac": "2026-10-26T06:58:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 694,
+   "sortie": 458
+  }
+ },
+ {
   "id": "2942fa638e26c9ff",
   "slug": "un-utilisateur-demande-si-qwen3-8-flash-next-tient-sur-24-go-de-vram-2942fa",
   "titre": "Un utilisateur demande si qwen3.8-flash-next tient sur 24 Go de VRAM",
@@ -81,6 +143,28 @@
    "modele": "deepseek-flash",
    "entree": 787,
    "sortie": 355
+  }
+ },
+ {
+  "id": "11a50d2611519763",
+  "slug": "quel-modele-local-non-censure-pour-le-red-teaming-sur-une-seule-rtx-50-11a50d",
+  "titre": "Quel modèle local non censuré pour le red teaming sur une seule RTX 5090 ?",
+  "resume": "Un membre de r/LocalLLaMA cherche le meilleur modèle local « abliterated » de 2026 pour le reverse engineering, le code et le red teaming, sur une seule RTX 5090 de 32 Go de VRAM. Sa priorité : un taux de refus très bas, sans sacrifier le raisonnement logique ni la qualité de génération de code pour le désassemblage, le développement d'exploits, le pentesting et l'outillage. Il sollicite les retours de la communauté.",
+  "tags": [
+   "open-source",
+   "sécurité",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xfj77r/best_uncensoredabliterated_2026_model_for_re/",
+  "date_source": "2026-10-26T01:03:37+00:00",
+  "date_redac": "2026-10-26T06:58:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 706,
+   "sortie": 346
   }
  },
  {

@@ -1,5 +1,87 @@
 [
  {
+  "id": "df17d92690915e17",
+  "slug": "qui-dirige-vraiment-anthropic-apres-son-ipo-le-decryptage-de-techcrunc-df17d9",
+  "titre": "Qui dirige vraiment Anthropic après son IPO ? Le décryptage de TechCrunch",
+  "resume": "TechCrunch publie un article pour expliquer la gouvernance d'Anthropic, décrite comme particulièrement complexe, et déterminer qui dirige réellement l'entreprise après son entrée en Bourse. Le média promet une mise au clair de cette structure de pouvoir, difficile à lire de l'extérieur.",
+  "tags": [
+   "business",
+   "claude"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+  "date_source": null,
+  "date_redac": "2026-10-27T22:48:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 597,
+   "sortie": 712
+  }
+ },
+ {
+  "id": "6c86ddaf106bd1e7",
+  "slug": "bank-of-america-deconseille-de-partager-son-mot-de-passe-bancaire-avec-6c86dd",
+  "titre": "Bank of America déconseille de partager son mot de passe bancaire avec une IA",
+  "resume": "La banque américaine Bank of America demande à ses clients de ne pas transmettre leur mot de passe bancaire à leur assistant IA. Dans son rappel, l'établissement précise que le client « est responsable de l'activité » découlant de l'accès accordé à ses agents IA. La consigne vaut pour tout assistant capable d'agir au nom de l'utilisateur sur un compte.",
+  "tags": [
+   "sécurité",
+   "business",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+  "date_source": null,
+  "date_redac": "2026-10-27T22:48:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 622,
+   "sortie": 493
+  }
+ },
+ {
+  "id": "c28040f817789340",
+  "slug": "retell-fait-tourner-100-m-d-appels-mensuels-avec-les-modeles-openai-c28040",
+  "titre": "Retell fait tourner 100 M d'appels mensuels avec les modèles OpenAI",
+  "resume": "Retell s'appuie sur les modèles d'OpenAI pour alimenter 100 millions d'appels vocaux par mois. GPT-6 Astra arrive en tête du benchmark d'agents vocaux de la plateforme. Codex l'aide par ailleurs à atteindre un revenu annualisé de 1,6 million de dollars par salarié.",
+  "tags": [
+   "openai",
+   "agents",
+   "business"
+  ],
+  "importance": 3,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/retell-ai",
+  "date_source": null,
+  "date_redac": "2026-10-27T22:48:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 595,
+   "sortie": 338
+  }
+ },
+ {
+  "id": "f3c9c59356471e72",
+  "slug": "liquid-ai-lance-lfm3-audio-2b-un-modele-audio-compact-qui-tourne-en-lo-f3c9c5",
+  "titre": "Liquid AI lance LFM3-Audio-2B, un modèle audio compact qui tourne en local",
+  "resume": "Liquid AI ajoute LFM3-Audio-2B à sa gamme : un modèle audio compact et complet, pensé pour tourner localement sur ordinateurs portables et appareils edge. Il accepte du texte ou de l'audio en entrée et répond en texte, en parole, ou les deux, avec un chat vocal en flux continu. Côté compétences : transcription, synthèse vocale, chat vocal, compréhension et raisonnement sur des enregistrements, et appels d'outils à partir d'une demande parlée. Le tout sur 18 langues, pour transcrire, synthétiser et traduire.",
+  "tags": [
+   "matériel",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xh50at/new_audio_model_lfm3audio2b/",
+  "date_source": "2026-10-27T21:14:07+00:00",
+  "date_redac": "2026-10-27T22:48:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 778,
+   "sortie": 677
+  }
+ },
+ {
   "id": "f70278df4f5ad5d8",
   "slug": "les-chercheurs-se-lassent-de-la-retention-d-openai-sur-ses-avancees-f70278",
   "titre": "Les chercheurs se lassent de la rétention d'OpenAI sur ses avancées",
@@ -17,6 +99,28 @@
    "modele": "deepseek-flash",
    "entree": 659,
    "sortie": 355
+  }
+ },
+ {
+  "id": "3d6f668f4e008fee",
+  "slug": "un-projet-open-source-reproduit-le-scaling-au-moment-du-test-par-essai-3d6f66",
+  "titre": "Un projet open source reproduit le scaling au moment du test par essaims d'agents",
+  "resume": "Un développeur affirme que les résultats marquants d'OpenAI ces trois mois viennent du scaling du calcul au moment du test via des essaims d'agents. Il publie un équivalent open source, à l'architecture simplifiée. Faute de budget, il ne l'a testé que sur Gemma4-35B et Qwen-3.8-27B, environ 200 millions de tokens par problème : de 14 % à 65 % sur 15 problèmes BrokenArxiv, de 9 % à 52 % sur 8 problèmes DeepSWE.",
+  "tags": [
+   "open-source",
+   "agents",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xh4bnd/openais_major_results_over_the_last_3_months_came/",
+  "date_source": "2026-10-27T20:47:38+00:00",
+  "date_redac": "2026-10-27T22:48:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 852,
+   "sortie": 1407
   }
  },
  {
@@ -101,6 +205,27 @@
    "modele": "deepseek-flash",
    "entree": 662,
    "sortie": 1088
+  }
+ },
+ {
+  "id": "40ba96a3203760f4",
+  "slug": "le-pilotage-de-neurones-de-qwen3-5-4b-reproduit-dans-llama-cpp-40ba96",
+  "titre": "Le pilotage de neurones de Qwen3.5-4B reproduit dans llama.cpp",
+  "resume": "Un utilisateur a exporté en vecteurs de contrôle llama.cpp le pilotage de neurones découvert sur Qwen3.5-4B, où pousser deux neurones MLP suffisait à rendre le modèle hostile. Testé sur des quants GGUF, l'effet survit à la quantification. Certains neurones agissent sur plusieurs langues, d'autres non. Des vecteurs bonus circulent : « Alien Qwen », « Golden Gate Qwen » ou « Anime girl ».",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xgx96e/reproducing_neuronlevel_steering_of_qwen354b_in/",
+  "date_source": "2026-10-27T16:28:58+00:00",
+  "date_redac": "2026-10-27T22:48:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 817,
+   "sortie": 639
   }
  },
  {

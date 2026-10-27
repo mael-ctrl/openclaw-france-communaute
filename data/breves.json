@@ -1,5 +1,109 @@
 [
  {
+  "id": "f70278df4f5ad5d8",
+  "slug": "les-chercheurs-se-lassent-de-la-retention-d-openai-sur-ses-avancees-f70278",
+  "titre": "Les chercheurs se lassent de la rétention d'OpenAI sur ses avancées",
+  "resume": "Lundi, OpenAI a annoncé des avancées en mathématiques, en informatique et en physique, en présentant une approche en évolution de la communication de ses résultats. Mais malgré ce qui ressemble à un correctif, des chercheurs interrogés par The Verge se disent de plus en plus las des manières de l'entreprise, au terme de plusieurs mois agités.",
+  "tags": [
+   "openai",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+  "date_source": "2026-10-27T20:48:58+00:00",
+  "date_redac": "2026-10-27T20:54:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 659,
+   "sortie": 355
+  }
+ },
+ {
+  "id": "dcb514444efb53b2",
+  "slug": "des-rtx-5090-a-10-000-dollars-un-fil-en-discute-sur-r-localllama-dcb514",
+  "titre": "Des RTX 5090 à 10 000 dollars, un fil en discute sur r/LocalLLaMA",
+  "resume": "Un fil publié le 27 octobre 2026 sur r/LocalLLaMA met en avant les tarifs atteints par les GeForce RTX 5090, évoquées à 10 000 dollars. La discussion, ouverte par l'utilisateur Different_Fix_2217, porte sur ce qui explique de tels prix. Le sujet intéresse la communauté du modèle local, où le coût du matériel pèse sur les usages possibles.",
+  "tags": [
+   "matériel",
+   "business",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xh3iek/the_reason_why_5090s_are_10k_now/",
+  "date_source": "2026-10-27T20:17:21+00:00",
+  "date_redac": "2026-10-27T20:55:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 617,
+   "sortie": 923
+  }
+ },
+ {
+  "id": "66b49038e1bf7680",
+  "slug": "un-emulateur-game-boy-color-fait-tourner-zelda-sur-le-badge-de-github--66b490",
+  "titre": "Un émulateur Game Boy Color fait tourner Zelda sur le badge de GitHub Universe",
+  "resume": "Le badge de la conférence GitHub Universe, cette année encore, est un véritable ordinateur à écran couleur. Simon Willison a bricolé dessus, puis a croisé Steve Francia, qui a fait porter par Gemini un émulateur NES complet sur l'objet — avant d'aller plus loin avec des émulateurs Game Boy et Game Boy Color. Moyennant la ROM, The Legend of Zelda: Link's Awakening tourne donc sur le badge, qu'on peut retourner pour utiliser les boutons tactiles intégrés au boîtier.",
+  "tags": [
+   "gemini",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+  "date_source": "2026-10-27T19:34:18+00:00",
+  "date_redac": "2026-10-27T20:55:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 759,
+   "sortie": 371
+  }
+ },
+ {
+  "id": "d649d88e6c739cfe",
+  "slug": "liquidai-publie-lfm3-omni-2b-en-gguf-avec-le-support-llama-cpp-des-le--d649d8",
+  "titre": "LiquidAI publie LFM3-Omni-2B en GGUF, avec le support llama.cpp dès le jour J",
+  "resume": "LiquidAI sort LFM3-Omni-2B-GGUF, un modèle omni de 2 milliards de paramètres dont la prise en charge dans llama.cpp a été coordonnée avec l'équipe le jour même. Pour l'auteur du post, c'est le premier modèle ouvert d'un laboratoire de pointe à gérer la synthèse et la reconnaissance vocales en polonais. Son format compact le rend viable pour un déploiement embarqué.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xh1rwn/liquidailfm3omni2bgguf/",
+  "date_source": "2026-10-27T19:12:50+00:00",
+  "date_redac": "2026-10-27T20:55:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 707,
+   "sortie": 507
+  }
+ },
+ {
+  "id": "31eb92e54afbd081",
+  "slug": "des-gguf-statistiquement-sans-perte-pour-qwen3-8-27b-sans-l-analyse-de-31eb92",
+  "titre": "Des GGUF « statistiquement sans perte » pour Qwen3.8 27B, sans l'analyse de l'auteur",
+  "resume": "Sur r/LocalLLaMA, un internaute repartage le lien Hugging Face de GGUF de Qwen3.8 27B présentés comme « statistiquement sans perte ». Il précise ne pas relayer l'analyse de l'auteur, publiée derrière un paywall sur son blog, et ironise sur ce paywall en évoquant un contournement via Substack. Les GGUF, ces poids quantifiés, restent le format le plus courant pour faire tourner un modèle en local.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xh17tk/statistically_lossless_qwen38_27b_ggufs/",
+  "date_source": "2026-10-27T18:52:27+00:00",
+  "date_redac": "2026-10-27T20:55:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 662,
+   "sortie": 1088
+  }
+ },
+ {
   "id": "dc7ab6140cc01f87",
   "slug": "deux-rtx-3060-en-pcie-3-0-x1-le-tensor-split-booste-llama-cpp-dc7ab6",
   "titre": "Deux RTX 3060 en PCIe 3.0 x1 : le tensor split booste llama.cpp",

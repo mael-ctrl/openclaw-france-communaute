@@ -1,22 +1,18 @@
 {
- "runs": 400,
- "items_collectes": 3020,
- "breves_publiees": 1456,
- "articles_publies": 288,
- "tokens_entree": 1508714,
- "tokens_sortie": 2124195,
+ "runs": 401,
+ "items_collectes": 3060,
+ "breves_publiees": 1461,
+ "articles_publies": 289,
+ "tokens_entree": 1513625,
+ "tokens_sortie": 2129725,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-27T10:16:20+00:00",
+ "dernier_run": "2026-10-27T20:55:35+00:00",
  "solde": {
-  "total": "83.32",
+  "total": "83.28",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-27T00:20:42+00:00",
-   "message": "brève impossible (webframe: evaluated as a scraper and a sandbox) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-27T07:26:43+00:00",
    "message": "brève impossible (How to use Q8 ngram with lower quant Qwen 3.8 Flash Next in ) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-27T09:35:06+00:00",
    "message": "brève impossible (Benchmark task for testing local AI) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-27T20:55:01+00:00",
+   "message": "brève impossible (v2.1.312) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 8.34,
+ "depense_usd": 8.38,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1620,10 +1620,14 @@
   [
    "2026-10-27T10:15:21+00:00",
    "83.32"
+  ],
+  [
+   "2026-10-27T20:54:44+00:00",
+   "83.28"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 6.05,
+ "depense_mois_usd": 6.09,
  "archive_tentatives": {
   "jour": "2026-10-27",
   "n": 1

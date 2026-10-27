@@ -1,5 +1,27 @@
 [
  {
+  "id": "9f5faf8995dc7ec1",
+  "slug": "openclaw-2026-10-10-beta-4-automatisations-et-cloisonnement-du-hooks-t-9f5faf",
+  "titre": "OpenClaw 2026.10.10-beta.4 : automatisations et cloisonnement du hooks.token",
+  "resume": "OpenClaw 2026.10.10-beta.4 corrige plusieurs points. Les automatisations conservent l'autorité d'un opérateur authentifié pour les relances planifiées dans une même conversation, y compris le réarmement next_check, sans franchir les limites de rôle, de session ou d'annulation. Côté sécurité, un hooks.token référencé par variable d'environnement reste hors des environnements d'exécution de l'agent et des processus CLI.",
+  "tags": [
+   "openclaw",
+   "sécurité",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.10-beta.4",
+  "date_source": "2026-10-27T05:39:34+00:00",
+  "date_redac": "2026-10-27T06:01:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 789,
+   "sortie": 1298
+  }
+ },
+ {
   "id": "c667bef47b27d28c",
   "slug": "openclaw-publie-la-version-2026-10-10-beta-4-c667be",
   "titre": "OpenClaw publie la version 2026.10.10-beta.4",

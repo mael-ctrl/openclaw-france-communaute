@@ -1,0 +1,41 @@
+{
+ "slug": "rtx-5090-suspendue-gpt-6-1-terra-et-anthropic-en-route-vers--0dca1f",
+ "titre": "RTX 5090 suspendue, GPT-6.1 Terra et Anthropic en route vers le Nasdaq",
+ "chapo": "NVIDIA ne prendrait plus de commandes de RTX 5090 auprès de ses partenaires, et les précommandes seraient fermées : un signal flou pour ceux qui font tourner des modèles en local. La même semaine, OpenAI sort GPT-6.1 Terra et Anthropic dépose son S-1 en vue d'une cotation au Nasdaq sous le symbole ANT.",
+ "html": "<h2 id=\"rtx-5090-commandes-suspendues-explicatio\">RTX 5090 : commandes suspendues, explication absente</h2>\n<p>Un message publié sur r/LocalLLaMA rapporte que NVIDIA n'accepterait plus les commandes de RTX 5090 passées par ses partenaires fabricants de cartes. Les précommandes seraient elles aussi indisponibles. Le post ne précise ni les raisons de cette situation, ni sa durée — et aucune confirmation de NVIDIA ne l'accompagne.</p>\n<p>Ce qui rend le signalement sensible, c'est le public concerné : la disponibilité de cette carte pèse sur ceux qui font tourner des modèles d'IA en local. Sans calendrier, difficile de savoir s'il s'agit d'un incident de commande, d'un ajustement de production ou d'autre chose. Ce flou suffit en tout cas à compliquer la planification de quiconque dimensionne une machine pour de l'inférence locale.</p>\n<h2 id=\"gpt-6-1-terra-openai-vise-le-bureau-pas-\">GPT-6.1 Terra : OpenAI vise le bureau, pas le sommet</h2>\n<p>OpenAI présente <strong>GPT-6.1 Terra</strong>, un modèle rapide et économe qui mise sur le raisonnement visuel et l'usage précis de l'ordinateur, avec une écriture plus naturelle. Il monte d'un cran face à GPT-5.6 Terra sur les tâches de bureau : propositions, plans techniques, formulaires, montage vidéo.</p>\n<p>Comme Sonnet chez Anthropic, GPT-6.1 Terra occupe le milieu de gamme — ni le moins cher, ni le plus cher. C'est précisément ce positionnement qui complique le choix : la question n'est plus de savoir quel modèle est « le meilleur », mais quand basculer sur celui-ci plutôt qu'un autre. L'arbitrage se joue sur des tâches concrètes, pas sur un classement général.</p>\n<h2 id=\"anthropic-depose-son-s-1-300-pages-et-le\">Anthropic dépose son S-1 : 300 pages et le symbole ANT</h2>\n<p>Anthropic a déposé son prospectus S-1 auprès de la SEC, un document destiné à montrer aux investisseurs l'intérieur de son activité. On y trouve la rémunération des dirigeants, les intentions d'usage des milliards levés en Bourse et les risques qui pourraient contrarier ses ambitions. Le document dépasse les <strong>300 pages</strong>.</p>\n<p>Côté marché, le dépôt a été effectué ce lundi 26 octobre, et les actions doivent être cotées au Nasdaq sous le symbole « <strong>ANT</strong> ». Ce dépôt marque le passage de l'entreprise du statut de société privée à celui de candidate à une cotation publique. Le S-1 n'est donc pas un communiqué de plus : c'est le premier document où Anthropic est tenue de décrire ses fragilités autant que ses ambitions.</p>\n<h2 id=\"120-5-milliards-pour-du-calcul-un-chiffr\">120,5 milliards pour du calcul : un chiffre, pas encore un contrat</h2>\n<p>Selon un post publié le 26 octobre sur le subreddit r/ClaudeAI, Anthropic verserait à SpaceX jusqu'à <strong>120,5 milliards de dollars</strong> pour du calcul IA. Le montant, s'il se confirme, en ferait l'un des plus gros contrats d'infrastructure de calcul associés à un laboratoire d'IA. Le message ne précise ni échéance, ni volume de puissance, ni nature exacte de l'accord.</p>\n<p>Deux réserves s'imposent. La source est un post Reddit, sans document officiel joint dans la dépêche. Et si l'information tombe le même jour que le dépôt du S-1, rien dans les éléments disponibles ne permet de relier les deux. Le chiffre circule ; le contrat, lui, reste à décrire.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois échelles se dessinent dans ces dépêches : la carte graphique qu'on achète pour faire tourner un modèle chez soi, le modèle qu'on choisit pour une tâche de bureau, le contrat de calcul qui se négocie en milliards. Les trois reposent sur la même ressource physique, et aucune des annonces de la semaine n'en donne le prix ni la disponibilité. La RTX 5090 reste sans calendrier, le S-1 d'Anthropic reste un document à lire, et les 120,5 milliards n'ont pour l'instant qu'une source : un post Reddit.</p>",
+ "pivot": "0dca1f4e70e3266f",
+ "tags": [
+  "matériel",
+  "openai",
+  "claude",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg4s8y/oh_nvidia_nvidia_reportedly_not_accepting_rtx/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details"
+  },
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1xg1q97/anthropic_reveals_it_will_pay_spacex_up_to_1205b/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/anthropic-claude-ai/3299539_anthropic-claude-va-entrer-en-bourse-le-tour-de-passe-passe-pour-oublier-80-milliards-de-dollars-de-pertes"
+  }
+ ],
+ "date": "2026-10-27T06:02:09+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1578,
+  "sortie": 3492
+ }
+}

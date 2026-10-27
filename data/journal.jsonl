@@ -3419,3 +3419,10 @@
 {"ts": "2026-10-27T07:27:38+00:00", "evenement": "construction", "details": {"fichiers": 1963}, "sha256": "f4e1f50481930c37b987b2cd8f0189d1761018a08692e71ae272d0e09e2e030a"}
 {"ts": "2026-10-27T08:00:55+00:00", "evenement": "erreur", "details": {"message": "déploiement : [Errno 104] Connection reset by peer"}, "sha256": "4cf9ce10985ac46d2fc2a37827d755b525217447c9d4b6802ef2325c970545d3"}
 {"ts": "2026-10-27T08:00:55+00:00", "evenement": "bilan", "details": {"duree_s": 2097.1, "neufs": 7, "breves": 5, "articles": 1, "fichiers": 1963, "deploiement": "echec"}, "sha256": "906e3ebf635b2ff3abecdb6633962b4831d8d79dceb7e14ad87d4d072c177a37"}
+{"ts": "2026-10-27T09:34:35+00:00", "evenement": "collecte", "details": {"neufs": 14}, "sha256": "391d72ec3c2be8ed2b4760acc2cf7ba2f61a52d356d0e7f0f13742147d2b1373"}
+{"ts": "2026-10-27T09:34:51+00:00", "evenement": "erreur", "details": {"message": "brève impossible (baidu/Unlimited-OCR-2 · Hugging Face) : réponse non-JSON"}, "sha256": "bb46b711c018e21f46892942b904f17e3e525714919ffce839813a9b017006dd"}
+{"ts": "2026-10-27T09:35:06+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Benchmark task for testing local AI) : réponse non-JSON"}, "sha256": "7deb8546ff6fb069eb0ddb94a31a721759031362d0da624fe815554c8f09a7de"}
+{"ts": "2026-10-27T09:35:55+00:00", "evenement": "construction", "details": {"fichiers": 1968}, "sha256": "1323a4871026f167c8caf8cbe8693b99085833cfe60fd9d4149dcfdc3f4f1789"}
+{"ts": "2026-10-27T10:13:20+00:00", "evenement": "deploiement", "details": {"fichiers": 2016, "octets": 41653684}, "sha256": "efd80344c32fbe19ed72d7a134726e03b85752f85ba4fef0b32ed1cad614ac55"}
+{"ts": "2026-10-27T10:13:21+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "4218a519210be1f92447d9e613ece80edc1801c54153a746a2134427ad6cca66"}
+{"ts": "2026-10-27T10:13:21+00:00", "evenement": "bilan", "details": {"duree_s": 2339.9, "neufs": 14, "breves": 4, "articles": 1, "fichiers": 1968, "envois": 2016, "publications": 0}, "sha256": "27997e5b0642ca285a4787c201c0ed44b7b42f8c8356cdf0dcff850efefe4add"}

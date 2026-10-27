@@ -1,5 +1,86 @@
 [
  {
+  "id": "ed1ea755422e10cf",
+  "slug": "microsoft-ouvre-60-000-departs-volontaires-copilot-et-xbox-concernes-ed1ea7",
+  "titre": "Microsoft ouvre 60 000 départs volontaires, Copilot et Xbox concernés",
+  "resume": "Microsoft ouvre un nouveau programme de départs volontaires aux États-Unis, au Canada, au Royaume-Uni et en Inde. Environ 60 000 salariés sont éligibles, y compris dans les équipes Copilot, Windows et Xbox. Tous les services ne sont pas concernés. Les équipes Copilot figurant dans le périmètre, le dispositif touche directement les activités IA du groupe.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/27/microsoft-propose-a-60-000-salaries-de-partir-avec-un-cheque/",
+  "date_source": null,
+  "date_redac": "2026-10-27T09:35:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 658,
+   "sortie": 496
+  }
+ },
+ {
+  "id": "1e7e8b5e33a49b10",
+  "slug": "microsoft-ouvre-un-plan-de-departs-volontaires-a-60-000-salaries-1e7e8b",
+  "titre": "Microsoft ouvre un plan de départs volontaires à 60 000 salariés",
+  "resume": "Microsoft a démarré lundi soir un plan de départs volontaires qui concerne environ 60 000 employés, soit 27 % de sa masse salariale. Le groupe comptait près de 225 000 salariés lors de ses résultats annuels publiés en juin. L'opération vise à réduire les coûts, en marge des investissements du géant américain dans l'IA.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 4,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/big-tech/microsoft/microsoft-lance-un-plan-de-departs-volontaires-aupres-de-60-000-employes-pour-reduire-ses-couts-en-marge-de-ses-investissements-dans-lia.ZUSWFYHW6ZESVEG4IMQVBMPHQA.html",
+  "date_source": null,
+  "date_redac": "2026-10-27T09:35:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 717,
+   "sortie": 352
+  }
+ },
+ {
+  "id": "5db004e362f57fac",
+  "slug": "openai-affirme-que-son-ia-a-refute-l-hypothese-du-temps-exponentiel-5db004",
+  "titre": "OpenAI affirme que son IA a réfuté l'hypothèse du temps exponentiel",
+  "resume": "OpenAI assure que son modèle a réfuté l'hypothèse du temps exponentiel, un repère majeur de l'informatique théorique qui postule que certains problèmes restent insolubles en temps raisonnable. Des spécialistes vont examiner le résultat, dont deux chercheurs à l'origine de cette hypothèse. La portée de l'annonce dépend donc entièrement de cette vérification.",
+  "tags": [
+   "openai",
+   "recherche"
+  ],
+  "importance": 4,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2361325-la-plus-grande-surprise-en-20-ans-openai-affirme-avoir-refute-une-hypothese-majeure-de-linformatique.html",
+  "date_source": null,
+  "date_redac": "2026-10-27T09:35:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 690,
+   "sortie": 320
+  }
+ },
+ {
+  "id": "3e31ca59d9fc1b2d",
+  "slug": "chez-cloudflare-le-modele-glm-5-3-a-expose-des-requetes-d-autres-utili-3e31ca",
+  "titre": "Chez Cloudflare, le modèle GLM 5.3 a exposé des requêtes d'autres utilisateurs",
+  "resume": "Pendant près de deux semaines, le modèle GLM 5.3 proposé par Cloudflare a pu glisser dans ses réponses des morceaux de requêtes envoyées par d'autres utilisateurs. L'entreprise a détaillé le 26 octobre l'origine de cette faille, rapporte Numerama. Le rappel est net : l'étanchéité entre clients reste un point critique pour les plateformes qui hébergent des modèles d'IA.",
+  "tags": [
+   "sécurité",
+   "dev",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/cyberguerre/2361321-chez-cloudflare-un-modele-dia-a-renvoye-a-certains-clients-le-contenu-des-requetes-dautres-utilisateurs.html",
+  "date_source": null,
+  "date_redac": "2026-10-27T09:35:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 683,
+   "sortie": 562
+  }
+ },
+ {
   "id": "08e08ea47eac821b",
   "slug": "openai-lance-gpt-6-1-terra-deux-fois-moins-cher-que-la-version-precede-08e08e",
   "titre": "OpenAI lance GPT-6.1 Terra, deux fois moins cher que la version précédente",

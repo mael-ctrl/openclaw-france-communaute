@@ -3414,3 +3414,8 @@
 {"ts": "2026-10-27T05:59:18+00:00", "evenement": "deploiement", "details": {"fichiers": 1992, "octets": 40963830}, "sha256": "2909cd9b379af725adecf7bee8685ae73f19da37f2a20fb43e43081fc6a2cb06"}
 {"ts": "2026-10-27T05:59:18+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "4ca4471a44a8d248e806f43f41d712c5023c5124fc50e3c861986099b77cb5ed"}
 {"ts": "2026-10-27T05:59:18+00:00", "evenement": "bilan", "details": {"duree_s": 2239.2, "neufs": 0, "breves": 0, "articles": 0, "fichiers": 1955, "envois": 1992, "publications": 0}, "sha256": "2669cc9ae5849ba47e0f83a6d349faac69bbcbe89d9fce586e70004fd87c4f54"}
+{"ts": "2026-10-27T07:26:20+00:00", "evenement": "collecte", "details": {"neufs": 7}, "sha256": "61b8ff96e7c882be6578301a6cde4488f9e7a94b7a391524e706f26d160ec7d0"}
+{"ts": "2026-10-27T07:26:43+00:00", "evenement": "erreur", "details": {"message": "brève impossible (How to use Q8 ngram with lower quant Qwen 3.8 Flash Next in ) : réponse non-JSON"}, "sha256": "e3c77024e3892d05d8b821e1be4273626ab654169e87c3d864ea65810e500580"}
+{"ts": "2026-10-27T07:27:38+00:00", "evenement": "construction", "details": {"fichiers": 1963}, "sha256": "f4e1f50481930c37b987b2cd8f0189d1761018a08692e71ae272d0e09e2e030a"}
+{"ts": "2026-10-27T08:00:55+00:00", "evenement": "erreur", "details": {"message": "déploiement : [Errno 104] Connection reset by peer"}, "sha256": "4cf9ce10985ac46d2fc2a37827d755b525217447c9d4b6802ef2325c970545d3"}
+{"ts": "2026-10-27T08:00:55+00:00", "evenement": "bilan", "details": {"duree_s": 2097.1, "neufs": 7, "breves": 5, "articles": 1, "fichiers": 1963, "deploiement": "echec"}, "sha256": "906e3ebf635b2ff3abecdb6633962b4831d8d79dceb7e14ad87d4d072c177a37"}

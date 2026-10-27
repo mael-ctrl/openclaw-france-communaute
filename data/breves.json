@@ -1,5 +1,109 @@
 [
  {
+  "id": "08e08ea47eac821b",
+  "slug": "openai-lance-gpt-6-1-terra-deux-fois-moins-cher-que-la-version-precede-08e08e",
+  "titre": "OpenAI lance GPT-6.1 Terra, deux fois moins cher que la version précédente",
+  "resume": "OpenAI a lancé ce lundi 26 octobre GPT-6.1 Terra, un modèle intermédiaire destiné aux développeurs. Il est facturé 1 dollar par million de tokens en entrée, soit environ 0,89 euro HT, deux fois moins que la version précédente. Terra était le seul modèle de la gamme encore resté sur la génération GPT-5.6.",
+  "tags": [
+   "openai",
+   "business",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/3299907_gpt-6-1-terra-openai-lance-son-ia-capable-de-controler-votre-ordinateur",
+  "date_source": null,
+  "date_redac": "2026-10-27T07:27:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 682,
+   "sortie": 595
+  }
+ },
+ {
+  "id": "d9e19ae8b1d55ad3",
+  "slug": "anthropic-depose-son-s-1-pour-une-ipo-a-2-000-md-d9e19a",
+  "titre": "Anthropic dépose son S-1 pour une IPO à 2 000 Md$",
+  "resume": "Anthropic a déposé son dossier S-1 en vue d'une introduction en bourse dans deux semaines, avec une valorisation annoncée à 2 000 milliards de dollars. Le document rend publics ses chiffres : croissance de 1 400 %, 48 % du chiffre d'affaires via des partenaires cloud, marge de 85 %, 1 milliard de profit opérationnel au deuxième trimestre, 134 milliards de trésorerie et 10 milliards de trésorerie consommée depuis l'origine.",
+  "tags": [
+   "business",
+   "claude"
+  ],
+  "importance": 5,
+  "source": "Latent Space",
+  "lien_source": "https://latent.space/p/ainews-anthropic-s1/",
+  "date_source": null,
+  "date_redac": "2026-10-27T07:26:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 627,
+   "sortie": 1046
+  }
+ },
+ {
+  "id": "9f29f79bf27f44df",
+  "slug": "hermes-agent-publie-une-build-canary-v0-22-5-9f29f7",
+  "titre": "Hermes Agent publie une build canary v0.22.5",
+  "resume": "Le dépôt GitHub NousResearch/hermes-agent publie une build canary étiquetée v0.22.5, datée du 27 octobre 2026 (horodatage 20261027T070237Z). Le numéro de version reste en 0.22.5 : c'est l'horodatage qui distingue cette publication. Le canal canary correspond aux versions de test diffusées en amont de la branche stable.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5%2Bcanary.20261027T070237Z",
+  "date_source": "2026-10-27T07:02:38+00:00",
+  "date_redac": "2026-10-27T07:26:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 936
+  }
+ },
+ {
+  "id": "fa293a84fc0660ea",
+  "slug": "six-moteurs-d-inference-compares-sur-une-rtx-5090-avec-qwen3-8-27b-fa293a",
+  "titre": "Six moteurs d'inférence comparés sur une RTX 5090 avec Qwen3.8 27B",
+  "resume": "Un benchmark compare llama.cpp, vLLM, SGLang, NInfer, velox-inferer et TensorSharp sur une même RTX 5090 32 Go, avec Qwen3.8 27B : débit de décodage, prompts longs, requêtes concurrentes, entrée image et petite boucle d'outils. L'auteur, qui développe TensorSharp, précise une limite importante : les moteurs n'utilisent pas les mêmes checkpoints quantifiés, drafters ni formats de KV. Le test tourne sous Ubuntu 24.04 sur un EPYC 9354, en décodage glouton, avec un contexte configuré à 40 960 tokens. Utile pour qui cherche à dimensionner une inférence locale sur GPU grand public.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xgkzb9/qwen38_27b_on_one_rtx_5090_six_inference_engines/",
+  "date_source": "2026-10-27T06:20:34+00:00",
+  "date_redac": "2026-10-27T07:26:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 853,
+   "sortie": 339
+  }
+ },
+ {
+  "id": "37f421cd707d30c3",
+  "slug": "les-gx10s-montent-a-82-c-sans-throttling-sous-deepseek-v4-1-flash-37f421",
+  "titre": "Les GX10s montent à 82 °C sans throttling sous DeepSeek V4.1-Flash",
+  "resume": "Un utilisateur de r/LocalLLaMA a comparé six montages de refroidissement sur des GX10s et DGX Spark faisant tourner DeepSeek V4.1-Flash. Verdict : les machines atteignent 82 °C sans déclencher de throttling, avec au pire une réduction de fréquence de 3 %, destinée surtout à gérer les fuites de puissance. L'écart de performance entre la configuration la plus fraîche et la plus chaude reste de cet ordre, jugé négligeable.",
+  "tags": [
+   "matériel",
+   "deepseek",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xgkpph/do_gx10s_dgx_sparks_dream_of_throttling_temps/",
+  "date_source": "2026-10-27T06:03:42+00:00",
+  "date_redac": "2026-10-27T07:26:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 859,
+   "sortie": 530
+  }
+ },
+ {
   "id": "9f5faf8995dc7ec1",
   "slug": "openclaw-2026-10-10-beta-4-automatisations-et-cloisonnement-du-hooks-t-9f5faf",
   "titre": "OpenClaw 2026.10.10-beta.4 : automatisations et cloisonnement du hooks.token",

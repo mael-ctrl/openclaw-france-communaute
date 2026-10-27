@@ -3381,3 +3381,10 @@
 {"ts": "2026-10-27T00:11:32+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "532b3e014734e78ebea752a8cf0ed5bdcbb560a6a122ee7827cd73b56024525c"}
 {"ts": "2026-10-27T00:11:32+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-27.json", "publications": 1904}, "sha256": "f8aeb2da7c721734671968b882cec905799156b4d073898230e049147c79a9d6"}
 {"ts": "2026-10-27T00:11:32+00:00", "evenement": "bilan", "details": {"duree_s": 1781.0, "neufs": 20, "breves": 6, "articles": 1, "fichiers": 1940, "envois": 1987, "publications": 4}, "sha256": "aa86a093bd2e4dd9674708f6512235e251eb19aae9640b0142dc5186b311c664"}
+{"ts": "2026-10-27T00:20:06+00:00", "evenement": "collecte", "details": {"neufs": 4}, "sha256": "9a915c6007f7a2f54c6a7752b0601c71d309e34514cad98af45b47b47775550e"}
+{"ts": "2026-10-27T00:20:42+00:00", "evenement": "erreur", "details": {"message": "brève impossible (webframe: evaluated as a scraper and a sandbox) : réponse non-JSON"}, "sha256": "963a005d1a0ed97212cb95ed195d00e8c6fc8eb5731eaf1cf659c85be0b690f5"}
+{"ts": "2026-10-27T00:21:24+00:00", "evenement": "construction", "details": {"fichiers": 1944}, "sha256": "7fc797e947b3d3aa3aab97d8785b50c8faa3d0639672b801c88894b5dd542651"}
+{"ts": "2026-10-27T00:57:01+00:00", "evenement": "deploiement", "details": {"fichiers": 1985, "octets": 40969592}, "sha256": "d6828cf5649afe527606413543d4bfd7fdc0eef90cb49adedf74260f9909d799"}
+{"ts": "2026-10-27T00:57:02+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "da15f9d43cbdd65aa9973736159234928015ba66939018e7cd584024d27659b2"}
+{"ts": "2026-10-27T00:57:12+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "b4f189e0d78f32165cd61025ce7e9b6186c6a34c3ab0133f368b65e7e907bdb8"}
+{"ts": "2026-10-27T00:57:12+00:00", "evenement": "bilan", "details": {"duree_s": 2241.7, "neufs": 4, "breves": 3, "articles": 1, "fichiers": 1944, "envois": 1985, "publications": 4}, "sha256": "58ce6be8ddb86c86a0c0df0eeee8ba5394a2e031351150322805b969bf7a00d1"}

@@ -1,5 +1,48 @@
 [
  {
+  "id": "b77174e6fdba3465",
+  "slug": "arc-agi-3-les-notebooks-gagnants-seraient-tous-des-agents-qwen-3-8-fn-b77174",
+  "titre": "ARC-AGI-3 : les notebooks gagnants seraient tous des agents qwen-3.8-FN",
+  "resume": "Sur r/LocalLLaMA, l'utilisateur bumblebeer prédit que, sauf changement majeur d'ici une semaine, tous les notebooks gagnants du concours Kaggle ARC-AGI-3 2026 seront des agents qwen-3.8-FN, et peut-être aussi pour ARC-2 — une simple supposition. Il relève surtout que cette annonce tombe peu après les accusations d'action malveillante observée visant qwen, sans prendre parti.",
+  "tags": [
+   "agents",
+   "recherche",
+   "sécurité",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xgdjy3/psa_qwen38fn_is_about_to_win_the_2026_arcagi3/",
+  "date_source": "2026-10-27T00:05:24+00:00",
+  "date_redac": "2026-10-27T00:20:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 750,
+   "sortie": 665
+  }
+ },
+ {
+  "id": "6417dad50f83d0ad",
+  "slug": "openai-lance-gpt-6-1-terra-axe-sur-le-raisonnement-visuel-et-l-usage-d-6417da",
+  "titre": "OpenAI lance GPT-6.1 Terra, axé sur le raisonnement visuel et l'usage de l'ordinateur",
+  "resume": "OpenAI présente GPT-6.1 Terra, un modèle rapide et économe qui mise sur le raisonnement visuel et l'usage précis de l'ordinateur, avec une écriture plus naturelle. Il monte d'un cran face à GPT-5.6 Terra sur les tâches de bureau : propositions, plans techniques, formulaires, montage vidéo. Comme Sonnet chez Anthropic, il occupe le milieu de gamme, ni le moins cher ni le plus cher, ce qui complique le choix de quand l'utiliser.",
+  "tags": [
+   "openai",
+   "agents",
+   "business"
+  ],
+  "importance": 4,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+  "date_source": "2026-10-26T23:53:07+00:00",
+  "date_redac": "2026-10-27T00:20:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 763,
+   "sortie": 1126
+  }
+ },
+ {
   "id": "63acee9679fcbf22",
   "slug": "openai-annonce-trois-decouvertes-scientifiques-encadrees-par-des-exper-63acee",
   "titre": "OpenAI annonce trois découvertes scientifiques, encadrées par des experts externes",
@@ -125,6 +168,27 @@
    "modele": "deepseek-flash",
    "entree": 715,
    "sortie": 919
+  }
+ },
+ {
+  "id": "87590ddf6ab6d681",
+  "slug": "nanbeige4-3-33b-en-4-bits-sur-macbook-pro-m5-max-trois-moteurs-compare-87590d",
+  "titre": "Nanbeige4.3-33B en 4 bits sur MacBook Pro M5 Max : trois moteurs comparés",
+  "resume": "Un contributeur de Kapitsa a mesuré le modèle dense Nanbeige4.3-33B en 4 bits sur un MacBook Pro M5 Max de 128 Go, avec trois moteurs Apple Silicon : mlx-lm, llama.cpp et Kapitsa. Il compare prefill, decode, temps jusqu'au premier token, latence de suivi et mémoire, de 512 à 32K tokens. L'auteur travaille sur Kapitsa (open source, Apache 2.0) : il invite à lire les chiffres avec cette réserve.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xgaupg/nanbeige4333b_q4_on_a_macbook_pro_m5_max_mlxlm_vs/",
+  "date_source": "2026-10-26T22:10:54+00:00",
+  "date_redac": "2026-10-27T00:20:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 928,
+   "sortie": 1443
   }
  },
  {

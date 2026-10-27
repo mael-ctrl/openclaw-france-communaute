@@ -310,8 +310,10 @@ a:hover { color: var(--accent); }
 .pipeline { color: var(--texte2); padding-left: 22px; }
 .pipeline li { margin-bottom: 12px; }
 .pipeline strong { color: var(--texte); }
-.journal-boite { overflow-x: auto; border: 1px solid var(--bord); border-radius: var(--rayon-s); margin-top: 14px; }
+.journal-boite { overflow-x: auto; overscroll-behavior-x: contain; border: 1px solid var(--bord); border-radius: var(--rayon-s); margin-top: 14px; }
+.journal-boite:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
 .journal { width: 100%; border-collapse: collapse; font-size: .84rem; }
+.journal th:last-child, .journal td:last-child { min-width: 16rem; }
 .journal th {
   text-align: left; font-family: var(--mono); font-size: .7rem; letter-spacing: .1em;
   text-transform: uppercase; color: var(--muet); padding: 11px 14px; border-bottom: 1px solid var(--bord-clair);

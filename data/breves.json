@@ -1,5 +1,133 @@
 [
  {
+  "id": "63acee9679fcbf22",
+  "slug": "openai-annonce-trois-decouvertes-scientifiques-encadrees-par-des-exper-63acee",
+  "titre": "OpenAI annonce trois découvertes scientifiques, encadrées par des experts externes",
+  "resume": "Moins d'un mois après la publication en masse de centaines de manuscrits qui contiendraient, selon OpenAI, des solutions à des questions mathématiques anciennes, l'entreprise revient avec trois nouvelles découvertes « majeures » en mathématiques, en informatique et en physique. La nouveauté tient à la méthode : des experts externes, que OpenAI qualifie de « shepherds », encadrent cette fois les résultats.",
+  "tags": [
+   "openai",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+  "date_source": "2026-10-26T23:34:58+00:00",
+  "date_redac": "2026-10-26T23:42:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 664,
+   "sortie": 408
+  }
+ },
+ {
+  "id": "08ce6724efa41fe7",
+  "slug": "un-fine-tune-qwen3-5-4b-pour-le-code-progresse-sur-la-generation-de-sc-08ce67",
+  "titre": "Un fine-tune Qwen3.5-4B pour le code progresse sur la génération de scènes 3D",
+  "resume": "Sur r/LocalLLaMA, un développeur publie une mise à jour de son fine-tune de Qwen3.5-4B orienté code, testé via la génération de scènes Three.js. Les derniers checkpoints sont meilleurs en qualité de scène comme en taux de réussite du premier coup, même si certains rendus échouent encore. Les quantifications Q4_K_M et Q8_0 sont à jour, avec un correctif sur un problème de couches rencontré dans les fichiers précédents. La fin de l'entraînement est prévue le 28 octobre à 07:30 UTC.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xgc7uv/update_my_4b_coding_model_is_getting_better_at/",
+  "date_source": "2026-10-26T23:07:49+00:00",
+  "date_redac": "2026-10-26T23:42:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 819,
+   "sortie": 419
+  }
+ },
+ {
+  "id": "c822417ea2276928",
+  "slug": "un-playground-webgpu-pour-piloter-les-neurones-de-qwen3-5-4b-c82241",
+  "titre": "Un playground WebGPU pour piloter les neurones de Qwen3.5-4B",
+  "resume": "Sur X, des internautes repèrent de minuscules sous-ensembles de neurones — parfois un ou deux — capables d'orienter le comportement d'un LLM. Sur Qwen3.5-4B, en activer deux suffit à faire parler le modèle de nuire à l'utilisateur ; d'autres combinaisons le rendent trop apologétique ou l'écrivent en majuscules. De ces posts est né neuron-studio, un playground où le modèle tourne dans le navigateur via WebGPU.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xgbr9y/interactive_neuron_steering_playground_for/",
+  "date_source": "2026-10-26T22:48:42+00:00",
+  "date_redac": "2026-10-26T23:42:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 762,
+   "sortie": 1215
+  }
+ },
+ {
+  "id": "1c7b69031d851df2",
+  "slug": "qwen-les-traces-d-une-enquete-publiees-pour-que-les-devs-testent-1c7b69",
+  "titre": "Qwen : les traces d'une enquête publiées pour que les devs testent",
+  "resume": "L'équipe à l'origine de l'enquête sur Qwen publie les traces brutes, les tokens et un script de reproduction minimal sur Hugging Face. Le comportement observé, jugé rare, apparaît sans prefill avec un prompt donné et devient reproductible en utilisant ce prompt avec prefill. Ce sont des développeurs faisant tourner Qwen3.8 sur leurs propres machines qui ont repéré ces liens étranges ; disposer des poids a permis d'étudier le phénomène en profondeur.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xgbm28/qwen_investigation_traces_release/",
+  "date_source": "2026-10-26T22:42:31+00:00",
+  "date_redac": "2026-10-26T23:42:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 781,
+   "sortie": 413
+  }
+ },
+ {
+  "id": "81df72eb6a88a106",
+  "slug": "kanzo-un-tableau-kanban-minimaliste-que-partagent-humains-et-agents-de-81df72",
+  "titre": "Kanzo, un tableau kanban minimaliste que partagent humains et agents de code",
+  "resume": "Un développeur publie Kanzo, un tableau kanban auto-hébergé qui tient dans un binaire Rust de 4,3 Mo avec SQLite intégré, pour environ 5 000 lignes de code au total. Il embarque un serveur MCP : on demande à Claude Code ou Codex de prendre la prochaine tâche, et l'agent déplace la carte et commente son avancement. Objectif affiché : zéro configuration, pas de Docker, pas de compte, pas de cloud, environ 4 Mo de RAM au repos et un démarrage en 3 ms. La synchronisation entre machines passe par un dépôt git privé, avec une installation en une ligne sur macOS et Linux.",
+  "tags": [
+   "agents",
+   "dev",
+   "open-source",
+   "claude"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xgbl62/kanzo_a_tiny_selfhosted_kanban_board_you_and_your/",
+  "date_source": "2026-10-26T22:41:29+00:00",
+  "date_redac": "2026-10-26T23:42:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 841,
+   "sortie": 201
+  }
+ },
+ {
+  "id": "06630de2f9f4a925",
+  "slug": "un-mois-en-local-sur-dgx-spark-mais-le-code-passe-encore-par-claude-06630d",
+  "titre": "Un mois en local sur DGX Spark, mais le code passe encore par Claude",
+  "resume": "Un utilisateur de r/LocalLLaMA fait tourner un modèle local sur un DGX Spark depuis un mois environ. Il développe en parallèle son harness « pi » et une petite application cliente, avec Claude Code et le harness lui-même. S'il s'en sert pour le quotidien, il hésite encore à confier du code au local sans qu'un modèle de frontière vérifie le résultat, et demande à la communauté quel a été son point de bascule.",
+  "tags": [
+   "matériel",
+   "claude",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xgazww/have_you_gone_fully_local/",
+  "date_source": "2026-10-26T22:16:54+00:00",
+  "date_redac": "2026-10-26T23:42:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 715,
+   "sortie": 919
+  }
+ },
+ {
   "id": "d051f4ca0470dfc6",
   "slug": "un-moteur-maison-fait-tourner-qwen-flash-next-a-pres-de-400-t-s-sur-tr-d051f4",
   "titre": "Un moteur maison fait tourner Qwen-Flash-Next à près de 400 t/s sur trois V100",

@@ -1,5 +1,131 @@
 [
  {
+  "id": "dc7ab6140cc01f87",
+  "slug": "deux-rtx-3060-en-pcie-3-0-x1-le-tensor-split-booste-llama-cpp-dc7ab6",
+  "titre": "Deux RTX 3060 en PCIe 3.0 x1 : le tensor split booste llama.cpp",
+  "resume": "Sur r/LocalLLaMA, un utilisateur fait tourner Gemma 4 31B Q5 sur deux RTX 3060 12 Go, dont une reliée en PCIe 3.0 x1 par un riser. On lui prédisait un goulot d'étranglement sévère. En passant du layer splitting au tensor splitting sous llama.cpp, il mesure +42 % de débit (14 → 20 t/s). Tests encore limités, le temps de changer d'alimentation.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xgojqz/tensor_split_over_pcie_30_x1_good_results/",
+  "date_source": "2026-10-27T10:10:09+00:00",
+  "date_redac": "2026-10-27T10:15:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 827,
+   "sortie": 745
+  }
+ },
+ {
+  "id": "539d50bc9c04aec4",
+  "slug": "openclaw-publie-la-version-2026-10-8-539d50",
+  "titre": "OpenClaw publie la version 2026.10.8",
+  "resume": "OpenClaw publie la version 2026.10.8 de son projet. La note de version ne porte que ce numéro et ne détaille ni les changements, ni les correctifs, ni les nouveautés fonctionnelles. Cette nouvelle référence de version est donc à signaler, mais son contenu reste à documenter du côté du projet.",
+  "tags": [
+   "openclaw",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.8",
+  "date_source": "2026-10-27T10:09:43+00:00",
+  "date_redac": "2026-10-27T10:15:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 593,
+   "sortie": 478
+  }
+ },
+ {
+  "id": "510de8b064b6861a",
+  "slug": "les-centres-de-donnees-s-invitent-dans-la-campagne-des-midterms-americ-510de8",
+  "titre": "Les centres de données s'invitent dans la campagne des midterms américaines",
+  "resume": "La multiplication des centres de données aux États-Unis suscite une opposition locale de plus en plus vive. Les nuisances de ces vastes infrastructures de stockage, les travaux et les coûts qu'elles entraînent cristallisent le mécontentement dans de nombreuses communautés. Le sujet s'impose comme un thème majeur des élections de mi-mandat de 2026, capable de mobiliser des électeurs de tous bords.",
+  "tags": [
+   "société",
+   "business",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+  "date_source": "2026-10-27T10:00:00+00:00",
+  "date_redac": "2026-10-27T10:15:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 644,
+   "sortie": 524
+  }
+ },
+ {
+  "id": "5fdbd0758103fcf8",
+  "slug": "pumpkin-une-interface-graphique-tout-en-un-pour-llama-cpp-5fdbd0",
+  "titre": "Pumpkin, une interface graphique tout-en-un pour llama.cpp",
+  "resume": "Publié sur GitHub, Pumpkin est un gestionnaire graphique tout-en-un pour llama.cpp, né d'un besoin simple : faire tourner un modèle local pour des raisons de confidentialité, sans compétence de terminal. L'outil détecte le matériel, télécharge la bonne compilation de llama.cpp et choisit une quantification adaptée au GPU et à la RAM, pour lancer un modèle en quelques clics.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xgnhw5/i_made_pumpkin_a_graphical_manager_for_llamacpp/",
+  "date_source": "2026-10-27T09:05:13+00:00",
+  "date_redac": "2026-10-27T10:15:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 812,
+   "sortie": 1293
+  }
+ },
+ {
+  "id": "cd32dcc630439095",
+  "slug": "baidu-publie-unlimited-ocr-2-un-parseur-de-documents-a-horizon-illimit-cd32dc",
+  "titre": "Baidu publie Unlimited-OCR 2, un parseur de documents à horizon illimité",
+  "resume": "Baidu publie Unlimited-OCR 2, un parseur de documents à « horizon illimité ». Sa brique SR-SWA compresse les interactions texte-image des très longues séquences vers un jeu fixe de références (environ 512 tokens). Latence de décodage et empreinte mémoire restent quasi constantes quelle que soit la longueur du document, sans coût quadratique de l'attention. Le modèle revendique l'état de l'art sur MPDocBench et MarathonDocBench.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xgnbtq/baiduunlimitedocr2_hugging_face/",
+  "date_source": "2026-10-27T08:54:41+00:00",
+  "date_redac": "2026-10-27T10:15:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 794,
+   "sortie": 1198
+  }
+ },
+ {
+  "id": "e0b1754c5269ff99",
+  "slug": "un-ecran-de-veille-en-opengl-comme-test-pour-qwen-3-8-flash-next-e0b175",
+  "titre": "Un écran de veille en OpenGL comme test pour Qwen 3.8 Flash Next",
+  "resume": "Un utilisateur de r/LocalLLaMA partage sa tâche d'évaluation de Qwen 3.8 Flash Next : porter un vieil écran de veille trouvé sur la Wayback Machine vers Python OpenGL, en gardant une fidélité visuelle totale. Le montage combine Claude Code comme harnais et le modèle quantifié Q4_K_XL servi par gufo sur un Strix Halo sous Ubuntu 26.04, avec 128K de contexte. Certaines parties restent coriaces.",
+  "tags": [
+   "dev",
+   "open-source",
+   "claude",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xgm6nu/benchmark_task_for_testing_local_ai/",
+  "date_source": "2026-10-27T07:38:59+00:00",
+  "date_redac": "2026-10-27T10:16:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 922,
+   "sortie": 1458
+  }
+ },
+ {
   "id": "08e08ea47eac821b",
   "slug": "openai-lance-gpt-6-1-terra-deux-fois-moins-cher-que-la-version-precede-08e08e",
   "titre": "OpenAI lance GPT-6.1 Terra, deux fois moins cher que la version précédente",

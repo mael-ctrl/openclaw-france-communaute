@@ -1,0 +1,41 @@
+{
+ "slug": "tensor-split-calcul-a-120-md-et-data-centers-l-ia-rattrapee--dc7ab6",
+ "titre": "Tensor split, calcul à 120 Md$ et data centers : l'IA rattrapée par le matériel",
+ "chapo": "Deux cartes graphiques bridées par un riser, un contrat de calcul à trois chiffres en milliards de dollars, des centres de données devenus thème de campagne : la même semaine, l'IA montre où se joue réellement son coût. Côté modèles, on compresse et on baisse les prix.",
+ "html": "<h2 id=\"un-riser-en-pcie-3-0-x1-et-42-de-debit-e\">Un riser en PCIe 3.0 x1, et 42 % de débit en plus</h2>\n<p>Sur r/LocalLLaMA, un utilisateur fait tourner <strong>Gemma 4 31B Q5</strong> sur deux RTX 3060 12 Go. L'une des deux cartes est reliée par un riser en PCIe 3.0 x1 — une configuration qu'on lui prédisait catastrophique, avec un goulot d'étranglement sévère.</p>\n<p>En passant du <em>layer splitting</em> au <em>tensor splitting</em> sous <strong>llama.cpp</strong>, il mesure <strong>+42 % de débit</strong>, de 14 à 20 t/s. La nuance technique compte : le découpage par couches répartit des blocs entiers sur chaque carte, là où le découpage par tenseurs répartit le calcul d'une même couche entre les deux GPU, ce qui change la façon dont les échanges circulent sur le bus.</p>\n<p>L'utilisateur reste prudent : les tests sont encore limités, le temps de changer d'alimentation. Un relevé isolé, donc, pas une loi générale — mais assez parlant pour ceux qui montent des configurations à plusieurs cartes d'occasion.</p>\n<h2 id=\"jusqu-a-120-5-md-de-calcul-selon-un-post\">Jusqu'à 120,5 Md$ de calcul, selon un post Reddit</h2>\n<p>Toujours côté infrastructure, un post publié le 26 octobre sur le subreddit r/ClaudeAI affirme qu'<strong>Anthropic</strong> verserait à <strong>SpaceX</strong> jusqu'à <strong>120,5 milliards de dollars</strong> pour du calcul IA. Le montant, s'il se confirme, en ferait l'un des plus gros contrats d'infrastructure de calcul associés à un laboratoire d'IA.</p>\n<p>La prudence reste de mise : le message ne précise ni échéance, ni volume de puissance, ni nature exacte de l'accord. On parle d'un post de forum, pas d'une communication officielle — la seule chose solide, pour l'instant, c'est le chiffre avancé et son absence d'accompagnement technique.</p>\n<p>Rapproché de la dépêche précédente, le contraste est net : d'un côté un particulier qui gagne 6 t/s en changeant une option de découpage, de l'autre un ordre de grandeur à onze chiffres. Les deux relèvent du même problème — faire circuler des tenseurs entre des puces.</p>\n<h2 id=\"les-centres-de-donnees-entrent-en-campag\">Les centres de données entrent en campagne</h2>\n<p>Aux États-Unis, la multiplication des centres de données suscite une <strong>opposition locale de plus en plus vive</strong>. Les nuisances de ces vastes infrastructures de stockage, les travaux et les coûts qu'elles entraînent cristallisent le mécontentement dans de nombreuses communautés.</p>\n<p>Le sujet s'impose désormais comme un thème majeur des <strong>élections de mi-mandat de 2026</strong>, capable de mobiliser des électeurs de tous bords. Ce n'est plus une question de politique technologique mais d'urbanisme et de facture locale.</p>\n<p>Le calcul à grande échelle change donc aussi de nature politique à mesure qu'il se déploie physiquement. Les 120,5 Md$ évoqués plus haut, quels qu'en soient les contours, désignent la même réalité matérielle : des bâtiments, des raccordements, des rivières de courant.</p>\n<h2 id=\"compresser-la-facture-baidu-et-openai-su\">Compresser la facture : Baidu et OpenAI sur la même pente</h2>\n<p>Côté modèles, la semaine est à l'efficacité. <strong>Baidu</strong> publie <strong>Unlimited-OCR 2</strong>, un parseur de documents à « horizon illimité ». Sa brique <em>SR-SWA</em> compresse les interactions texte-image des très longues séquences vers un jeu fixe de références, environ <strong>512 tokens</strong>. Résultat : latence de décodage et empreinte mémoire restent quasi constantes quelle que soit la longueur du document, sans coût quadratique de l'attention. Le modèle revendique l'état de l'art sur <strong>MPDocBench</strong> et <strong>MarathonDocBench</strong>.</p>\n<p><strong>OpenAI</strong> a lancé ce lundi 26 octobre <strong>GPT-6.1 Terra</strong>, un modèle intermédiaire destiné aux développeurs, facturé <strong>1 dollar par million de tokens en entrée</strong> (environ 0,89 euro HT), soit deux fois moins que la version précédente. Terra était le seul modèle de la gamme encore resté sur la génération GPT-5.6.</p>\n<p>Deux approches différentes du même objectif : faire tenir plus de contenu dans moins de calcul. L'une rogne la complexité algorithmique, l'autre le prix au token.</p>\n<h2>Et maintenant ?</h2>\n<p>Ce qui relie ces dépêches, c'est une contrainte unique vue sous quatre angles : le bus PCIe d'un particulier, le contrat d'un laboratoire avec un opérateur spatial, l'opposition locale à des bâtiments, le prix au million de tokens. Le matériel n'est plus un décor derrière les modèles, il en fixe les tarifs et les limites. Reste à savoir laquelle de ces pressions — l'optimisation logicielle, la négociation de gros contrats ou la résistance des riverains — pèsera le plus lourd dans les prochains mois.</p>",
+ "pivot": "dc7ab6140cc01f87",
+ "tags": [
+  "matériel",
+  "dev",
+  "business",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgojqz/tensor_split_over_pcie_30_x1_good_results/"
+  },
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1xg1q97/anthropic_reveals_it_will_pay_spacex_up_to_1205b/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgnbtq/baiduunlimitedocr2_hugging_face/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/3299907_gpt-6-1-terra-openai-lance-son-ia-capable-de-controler-votre-ordinateur"
+  }
+ ],
+ "date": "2026-10-27T10:16:20+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1575,
+  "sortie": 2764
+ }
+}

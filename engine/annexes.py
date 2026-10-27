@@ -243,9 +243,11 @@ def page_transparence(breves, articles, stats, entrees_journal):
     Pour toute question ou suppression : crabe@blockos.fr.</p>
 
     <h2 class="sous-titre">Journal de bord <span class="sous-titre-note">(les 40 dernières entrées, la plus récente en haut)</span></h2>
-    <div class="journal-boite">
+    <p class="petit-texte" id="journal-defilement">Si le tableau dépasse l’écran, faites-le défiler horizontalement.
+    Au clavier : Tab pour entrer, flèches gauche/droite pour défiler, puis Tab pour sortir.</p>
+    <div class="journal-boite" tabindex="0" role="region" aria-label="Journal de bord" aria-describedby="journal-defilement">
       <table class="journal">
-        <thead><tr><th>Quand</th><th>Quoi</th><th>Détails</th></tr></thead>
+        <thead><tr><th scope="col">Quand</th><th scope="col">Quoi</th><th scope="col">Détails</th></tr></thead>
         <tbody>{lignes}</tbody>
       </table>
     </div>

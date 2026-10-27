@@ -1,5 +1,47 @@
 [
  {
+  "id": "c667bef47b27d28c",
+  "slug": "openclaw-publie-la-version-2026-10-10-beta-4-c667be",
+  "titre": "OpenClaw publie la version 2026.10.10-beta.4",
+  "resume": "Le projet OpenClaw publie la version 2026.10.10-beta.4, accessible via sa page de releases sur GitHub. Il s'agit d'une version bêta, donc en amont d'une éventuelle publication stable. L'annonce se limite au numéro de version et ne détaille ni les changements ni les correctifs apportés.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.10-beta.4",
+  "date_source": "2026-10-27T04:11:08+00:00",
+  "date_redac": "2026-10-27T04:21:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 764
+  }
+ },
+ {
+  "id": "a8b6fd9530a19238",
+  "slug": "zest-une-interface-graphique-qui-emballe-lemonade-server-et-l-agent-pi-a8b6fd",
+  "titre": "Zest, une interface graphique qui emballe Lemonade server et l'agent Pi",
+  "resume": "Un développeur publie Zest, un projet né pour un ami qui voulait se lancer dans les modèles locaux. Zest est une interface qui regroupe le serveur Lemonade — lequel installe llama.cpp et les backends nécessaires — et l'agent Pi, pour éviter de manipuler des serveurs en ligne de commande et des paramètres. Il suffit de télécharger une appimage et de suivre la visite de démarrage : des réglages par défaut raisonnables, comme 128k de contexte, et des recommandations de modèles testés entre 10 et 26 Go de VRAM sont fournis.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xgi2cx/introducing_zest_model_server_agent_friendly_gui/",
+  "date_source": "2026-10-27T03:34:50+00:00",
+  "date_redac": "2026-10-27T04:21:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 839,
+   "sortie": 429
+  }
+ },
+ {
   "id": "224d53b14193ccc2",
   "slug": "openai-transforme-ses-outils-de-code-en-dots-assistant-personnel-perma-224d53",
   "titre": "OpenAI transforme ses outils de code en « dots », assistant personnel permanent",
@@ -185,6 +227,28 @@
    "modele": "deepseek-flash",
    "entree": 819,
    "sortie": 419
+  }
+ },
+ {
+  "id": "635628df26def79c",
+  "slug": "scaffold-cot-devient-scaffold-chat-avec-un-dataset-dedie-aux-agents-635628",
+  "titre": "Scaffold CoT devient Scaffold Chat, avec un dataset dédié aux agents",
+  "resume": "Scaffold CoT devient Scaffold Chat : le tool calling est retiré, l'auteur invoquant des problèmes de fiabilité. Un second dataset, Scaffold Agent, réunit environ un milliard de tokens de sessions d'agents de code réellement exécutées, sur le même « thinking scaffold ». Un modèle de 5 à 10 milliards de paramètres, entraîné sur ces données, est en préparation.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xgc7sl/scaffoldcot_dataset_updates_maintainance_a_new/",
+  "date_source": "2026-10-26T23:07:44+00:00",
+  "date_redac": "2026-10-27T04:21:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 816,
+   "sortie": 985
   }
  },
  {

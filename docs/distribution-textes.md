@@ -253,6 +253,8 @@ de soumettre. Ne pas faire passer l'agent pour un humain.
 
 ## Journal d'exécution (à tenir à jour, une ligne par action)
 
+- `2026-10-27 | Préparation monétisation privée | Réglages réels du compteur qualifiés et dossier d’information complété, sans activation | Aucun lien public nouveau | ✅ Deux lectures cohérentes du compte ; conservation 0 = sans suppression automatique, sources officielles et information actuelle comparées | Aucun contact, post, compte, formulaire, prix ou paiement ; aucun quota de distribution consommé par cette mission. Aucun suivi ajouté ni réglage modifié, B2B toujours fermé. Détails : docs/monetisation.md.`
+
 - `2026-10-26 | Préparation monétisation privée | Qualification de la mesure du parcours Pack et candidat corrigé pour les ancres prix/extraits, sans activation | Aucun lien public nouveau | ✅ 51 contrôles sur page capturée, 36 régressions v2, réseau interdit | Aucun contact, post, compte, formulaire, prix ou paiement ; ZDNET reste l'unique distribution du jour. Aucun suivi de clics activé ni revenu attribué ; compte/backend/confidentialité à qualifier. Détails : docs/monetisation.md.`
 
 - `2026-10-25 | Site propre — monétisation | Deux raccourcis vers extraits gratuits/prix du Pack publiés, sans diffusion tierce | https://communaute-ia.fr/pack/ | ✅ Cloud 40194014742 réussi, HTML HTTPS exact et parcours mobile/desktop avec/sans JS vérifiés | Prix 14 €, Stripe et livrables inchangés. Aucun contact, formulaire, compte, paiement ou suivi ajouté ; quota de distribution non consommé. Bluesky du 20 reste l'unique promotion de la semaine ; aucun revenu attribué. Détails : docs/monetisation.md.`

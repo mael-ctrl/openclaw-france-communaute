@@ -1,5 +1,130 @@
 [
  {
+  "id": "f81e680cf41eb780",
+  "slug": "anthropic-rachete-mithril-medicine-biotech-d-un-seul-chercheur-f81e68",
+  "titre": "Anthropic rachète Mithril Medicine, biotech d'un seul chercheur",
+  "resume": "Anthropic a annoncé le rachat de Mithril Medicine, une biotech qui ne compte qu'un seul salarié. Son fondateur a fait passer un traitement contre une myopathie de l'enfant de l'idée aux résultats chez la souris en moins de 18 mois, en confiant à Claude une bonne partie de la coordination de 11 laboratoires.",
+  "tags": [
+   "claude",
+   "business",
+   "recherche"
+  ],
+  "importance": 4,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/sciences/2362303-anthropic-rachete-la-biotech-dun-seul-chercheur-qui-pilotait-11-labos-avec-claude-pour-creer-un-medicament.html",
+  "date_source": "2026-10-28T13:25:59+00:00",
+  "date_redac": "2026-10-28T13:27:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 705,
+   "sortie": 352
+  }
+ },
+ {
+  "id": "6eefbad468c4fd24",
+  "slug": "le-techcrunch-founder-summit-ouvre-dans-7-jours-a-boston-6eefba",
+  "titre": "Le TechCrunch Founder Summit ouvre dans 7 jours à Boston",
+  "resume": "Dans sept jours, le TechCrunch Founder Summit s'installe au SoWa Power Station de Boston, le 4 novembre. Les billets restent disponibles avec jusqu'à 100 dollars d'économie, mais cette offre touche à sa fin. L'événement permet d'échanger directement avec des fondateurs expérimentés, des investisseurs et des dirigeants de startups.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 1,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/",
+  "date_source": "2026-10-28T13:00:00+00:00",
+  "date_redac": "2026-10-28T13:27:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 669,
+   "sortie": 468
+  }
+ },
+ {
+  "id": "190ab7a36cf5bf3f",
+  "slug": "tinyleague-abandonne-le-score-aa-et-ajoute-une-metrique-d-efficacite-d-190ab7",
+  "titre": "TinyLeague abandonne le score AA et ajoute une métrique d'efficacité du cache KV",
+  "resume": "Le classement communautaire TinyLeague change de méthode : son auteur annonce retirer l'indicateur AA, jugé plus viable pour suivre les modèles, car beaucoup de petits modèles n'obtiennent aucun score et les benchmarks concernés s'orientent vers des évaluations fermées. Il ajoute à la place une mesure d'efficacité du cache KV : une estimation en Go pour un contexte de 128K, convertie en note de 0 à 100 %. De quoi aider ceux qui font tourner des modèles en local avec peu de VRAM. L'auteur travaille encore sur un « TinyLeague-Index » maison, faute de méthodologie équitable entre benchmarks disparates.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xhndti/important_update_to_tinyleague_aa_out_kv/",
+  "date_source": "2026-10-28T12:59:19+00:00",
+  "date_redac": "2026-10-28T13:27:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 788,
+   "sortie": 397
+  }
+ },
+ {
+  "id": "4e252dc891ea05c8",
+  "slug": "un-cpu-risc-v-32-bits-loge-dans-les-poids-du-modele-qwen-4e252d",
+  "titre": "Un CPU RISC-V 32 bits logé dans les poids du modèle Qwen",
+  "resume": "Un développeur a construit un processeur RISC-V 32 bits directement à l'intérieur des poids d'un modèle Qwen, capable d'exécuter des instructions en interne. Le projet, baptisé Qwenputer, repose sur une variante Qwen3.5-4B et dispose d'une démo en ligne ainsi que d'un dépôt Hugging Face. Son auteur évoque des implications pour le tool calling et le computer use.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xhmo1q/someone_built_a_32bit_riscv_cpu_directly_inside/",
+  "date_source": "2026-10-28T12:26:44+00:00",
+  "date_redac": "2026-10-28T13:27:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 702,
+   "sortie": 369
+  }
+ },
+ {
+  "id": "ac3f61807aafc6f4",
+  "slug": "presidentielle-2027-attal-veut-200-milliards-pour-l-ia-et-le-quantique-ac3f61",
+  "titre": "Présidentielle 2027 : Attal veut 200 milliards pour l'IA et le quantique",
+  "resume": "Selon Maddyness, Gabriel Attal propose, dans la perspective de la présidentielle 2027, un investissement de 200 milliards d'euros dans l'IA et le quantique. Le montant annoncé porte sur deux technologies stratégiques, à l'occasion d'un positionnement de campagne. L'article original a été publié le 28 octobre 2026.",
+  "tags": [
+   "france",
+   "business",
+   "recherche"
+  ],
+  "importance": 4,
+  "source": "Maddyness",
+  "lien_source": "https://www.maddyness.com/2026/10/28/presidentielle-2027-gabriel-attal-veut-investir-200-milliards-deuros-dans-lia-et-le-quantique/",
+  "date_source": "2026-10-28T12:26:13+00:00",
+  "date_redac": "2026-10-28T13:27:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 678,
+   "sortie": 648
+  }
+ },
+ {
+  "id": "54c340517bd92ac1",
+  "slug": "llama-cpp-le-support-video-arrive-pour-les-modeles-lfm3-54c340",
+  "titre": "llama.cpp : le support vidéo arrive pour les modèles LFM3",
+  "resume": "Une pull request (n° 31283) dans llama.cpp active le support de l'entrée vidéo pour la famille de modèles LFM3, via mtmd, la brique multimodale du projet. Concrètement, il devient possible de montrer des vidéos à ces modèles « tiny ». L'ajout étend l'entrée multimodale au-delà de l'image dans l'écosystème open source local.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xhmgql/mtmd_enable_video_input_support_for_lfm3_model/",
+  "date_source": "2026-10-28T12:16:55+00:00",
+  "date_redac": "2026-10-28T13:27:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 648,
+   "sortie": 687
+  }
+ },
+ {
   "id": "7b40be332435c99c",
   "slug": "gemini-notebook-ajoute-un-dictaphone-avec-transcription-automatique-7b40be",
   "titre": "Gemini Notebook ajoute un dictaphone avec transcription automatique",

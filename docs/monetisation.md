@@ -1,5 +1,18 @@
 # Journal des actions de monétisation
 
+## 27 octobre 2026 — réglages réels qualifiés avant la mesure du Pack
+
+**Action unique préparatoire :** contrôler le compte GoatCounter existant en lecture seule, puis compléter le dossier de décision et le brouillon privé d’information. Le laboratoire du 26 n’est pas répété ; aucun suivi de clics ajouté.
+
+- **Constat nouveau, confirmé après rechargement :** conservation réglée à `0`, explicitement décrite par l’interface comme « ne jamais supprimer ». Les huit heures de session et les trente jours de sauvegardes annoncés par le fournisseur ne sont pas la durée des statistiques. Aucun réglage changé, aucune purge ni export des données de lecteurs.
+- Pages vues individuelles désactivées ; sessions, référents/campagnes, navigateur/système, taille d’écran, pays et certaines régions activés. Tableau de bord privé. Ce sont des paramètres observés à **12:47 UTC**, pas une inspection des bases ou des sauvegardes du fournisseur. Les accès/API non inspectés restent inconnus.
+- Information publique comparée à ces réglages et aux sources officielles GoatCounter/CNIL : dossier privé distinguant faits, propositions et qualification juridique à faire. Aucune exemption, conformité ou absence de traitement d’IP déduite du libellé « sans cookie ». Une durée finie doit être justifiée avant toute activation ; la changer peut entraîner une suppression, donc aucune purge implicite.
+- **116 références du lot préparatoire du matin vérifiées intactes**, pas autant de tests fonctionnels. Aucun nouveau replay des contrôles navigateur ni nouveau moteur. Les limites techniques du candidat du matin — course async et couverture des raccourcis — restent à traiter ; sa variante n’a pas été intégrée, même inactive.
+
+Dossier privé : `crabe-chantiers/monetisation/2026-10-27-reglages-compteur/` (relevés non sensibles, sources HTTPS datées, rapport et proposition d’information non approuvée). HTTPS à **12:48 UTC** : Pack, Transparence et B2B 200 ; mentions du média 404. **B2B toujours fermé**, vendeur/TVA et autres conditions cumulatives non validés. Aucun contact, post, formulaire soumis, compte, prix nouveau, paiement ou lecture Stripe ; aucun revenu ni gain de conversion attribué. Clone partagé en conflit préservé ; seuls les documents de suivi sont publiés depuis un worktree propre, sans déploiement.
+
+**Suite :** arrêter la finalité et une durée finie justifiée, compléter l’information et la qualification du dispositif, puis résoudre les limites techniques avant activation. Le dossier permet désormais de décider sur les réglages réels, sans reconduire « rétention inconnue » ni refaire le même laboratoire.
+
 ## 26 octobre 2026 — qualification privée de la mesure du parcours Pack
 
 **Action unique préparatoire :** éprouver le futur compteur sur le HTML réellement servi du Pack, puis corriger son incompatibilité avec les raccourcis prix/extraits **dans un candidat privé inactif**. Aucun suivi de clics activé, prix 14 €, paiement et fichiers livrés inchangés.

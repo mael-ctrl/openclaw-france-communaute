@@ -1,5 +1,47 @@
 [
  {
+  "id": "c9d6822649a2300b",
+  "slug": "deepseek-v4-1-flash-en-q2-sur-une-seule-rtx-3090-41-tok-s-c9d682",
+  "titre": "DeepSeek-V4.1-Flash en Q2 sur une seule RTX 3090 : 41 tok/s",
+  "resume": "Sur r/LocalLLaMA, DeepSeek-V4.1-Flash-1017 en Q2 GGUF de nazeshinjite tourne sur une seule RTX 3090 de 24 Go, sous Windows sans WSL, avec 192 Go de DDR5. L'auteur mesure 41 tok/s en moyenne et 90,2 % d'accord avec l'API DeepSeek sur le token suivant en texte général, 92,4 % en code et maths. Le contexte complet d'un million de tokens tient, et son moteur d'inférence accepte trois des quants les plus téléchargés.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xh9yf7/deepseekv41flash1017_at_41_toks_on_one_3090/",
+  "date_source": "2026-10-28T00:39:45+00:00",
+  "date_redac": "2026-10-28T01:14:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 926,
+   "sortie": 1226
+  }
+ },
+ {
+  "id": "8f529ebb45d49573",
+  "slug": "sk-hynix-anticipe-une-demande-superieure-a-l-offre-jusqu-en-2030-8f529e",
+  "titre": "SK Hynix anticipe une demande supérieure à l'offre jusqu'en 2030",
+  "resume": "SK Hynix s'attend à ce que la demande dépasse l'offre au moins jusqu'en 2030, selon des propos rapportés par CNBC. Ce déséquilibre durable touche de plein fouet la mémoire vive, dont les prix sont déjà très élevés. Sur r/LocalLLaMA, le constat est simple : les tarifs actuels de la RAM pourraient bientôt ressembler à une bonne affaire. Un point sensible pour tous ceux qui font tourner des modèles en local.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xh9qj4/sk_hynix_expects_demand_to_outpace_supply_through/",
+  "date_source": "2026-10-28T00:29:33+00:00",
+  "date_redac": "2026-10-28T01:14:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 431
+  }
+ },
+ {
   "id": "dc246ab9995b63c9",
   "slug": "le-boom-des-data-centers-pousse-a-moderniser-le-reseau-electrique-amer-dc246a",
   "titre": "Le boom des data centers pousse à moderniser le réseau électrique américain",

@@ -1,0 +1,41 @@
+{
+ "slug": "deepseek-en-q2-sur-une-rtx-3090-41-tok-s-et-un-million-de-to-c9d682",
+ "titre": "DeepSeek en Q2 sur une RTX 3090 : 41 tok/s et un million de tokens de contexte",
+ "chapo": "Sur r/LocalLLaMA, un GGUF Q2 de DeepSeek-V4.1-Flash fait tenir un million de tokens de contexte sur une seule RTX 3090, à 41 tok/s. Pendant ce temps, SK Hynix annonce de la mémoire rare jusqu'en 2030 et Anthropic serait prêt à payer 120,5 Md$ pour du calcul.",
+ "html": "<h2 id=\"un-million-de-tokens-sur-une-seule-3090\">Un million de tokens sur une seule 3090</h2>\n<p>Le post de nazeshinjite sur r/LocalLLaMA ne parle pas de cluster : une RTX 3090 de 24 Go, Windows sans WSL, et 192 Go de DDR5 en soutien. Le modèle, <strong>DeepSeek-V4.1-Flash-1017 en Q2 GGUF</strong>, tourne à 41 tok/s en moyenne. Le contexte complet d'un million de tokens tient dans cette configuration.</p>\n<p>Reste la question qui compte dès qu'on quantifie un modèle : ce que la compression abîme. L'auteur mesure un <strong>accord de 90,2 % avec l'API DeepSeek sur le token suivant</strong> en texte général, et 92,4 % en code et maths. C'est une mesure de proximité avec le modèle d'origine, pas un score sur banc d'essai — la nuance mérite d'être gardée en tête.</p>\n<p>Détail pratique : son moteur d'inférence accepte trois des quants les plus téléchargés. De quoi changer de quantification sans changer d'outillage.</p>\n<h2 id=\"la-memoire-le-nerf-qui-coute-cher\">La mémoire, le nerf qui coûte cher</h2>\n<p>Au-dessus des 24 Go de VRAM, il y a la RAM système. Et sur ce terrain, la nouvelle ne va pas dans le sens de l'assemblage d'une machine locale : selon des propos rapportés par CNBC, <strong>SK Hynix s'attend à ce que la demande dépasse l'offre au moins jusqu'en 2030</strong>. Le déséquilibre n'est pas présenté comme conjoncturel mais comme durable, et il touche de plein fouet la mémoire vive, dont les prix sont déjà très élevés.</p>\n<p>Sur r/LocalLLaMA, le constat est simple : les tarifs actuels de la RAM pourraient bientôt ressembler à une bonne affaire. Pour les configurations qui débordent de la VRAM — du type de celle décrite plus haut, avec ses 192 Go de DDR5 — la facture mémoire n'est pas un détail.</p>\n<h2 id=\"des-essaims-d-agents-pour-acheter-du-rai\">Des essaims d'agents pour acheter du raisonnement</h2>\n<p>Autre dépêche, autre échelle. Un développeur affirme que les résultats marquants d'OpenAI ces trois mois viennent du <strong>scaling du calcul au moment du test</strong> via des essaims d'agents. Il publie un équivalent open source, à l'architecture simplifiée.</p>\n<p>Les chiffres avancés portent sur un budget contraint : faute de moyens, il n'a testé que Gemma4-35B et Qwen-3.8-27B, à raison d'environ 200 millions de tokens par problème. Résultat annoncé : de <strong>14 % à 65 %</strong> sur 15 problèmes BrokenArxiv, et de <strong>9 % à 52 %</strong> sur 8 problèmes DeepSWE. Huit et quinze problèmes, c'est peu pour trancher, et l'attribution des performances d'OpenAI au seul test-time compute reste une affirmation de l'auteur, pas un fait établi. L'intérêt est ailleurs : le code est disponible, et l'idée se teste.</p>\n<h2 id=\"du-vocal-en-local-des-milliards-en-discu\">Du vocal en local, des milliards en discussion</h2>\n<p>Liquid AI ajoute <strong>LFM3-Audio-2B</strong> à sa gamme : un modèle audio compact et complet, pensé pour tourner localement sur ordinateurs portables et appareils edge. Texte ou audio en entrée, texte, parole ou les deux en sortie, avec un chat vocal en flux continu. La liste des compétences couvre la transcription, la synthèse vocale, le chat vocal, la compréhension et le raisonnement sur des enregistrements, et les appels d'outils à partir d'une demande parlée — le tout sur 18 langues, pour transcrire, synthétiser et traduire.</p>\n<p>À l'autre bout du spectre, un post publié le 26 octobre sur r/ClaudeAI assure qu'Anthropic verserait à SpaceX <strong>jusqu'à 120,5 milliards de dollars</strong> pour du calcul IA. S'il se confirme, le montant en ferait l'un des plus gros contrats d'infrastructure de calcul associés à un laboratoire d'IA. Le message ne précise ni échéance, ni volume de puissance, ni nature exacte de l'accord.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux mondes cohabitent dans ces dépêches : un GGUF Q2 qui tient un million de tokens sur une carte grand public, un modèle audio de 2 milliards de paramètres sur un portable, et de l'autre des contrats à douze chiffres pour du calcul. Entre les deux, la mémoire — VRAM, DDR5, HBM — reste le point de passage obligé, et SK Hynix annonce la couleur jusqu'en 2030. La quantification et les petits modèles spécialisés restent la réponse la plus accessible ; elles n'effacent pas la facture matérielle.</p>",
+ "pivot": "c9d6822649a2300b",
+ "tags": [
+  "deepseek",
+  "matériel",
+  "open-source",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh9yf7/deepseekv41flash1017_at_41_toks_on_one_3090/"
+  },
+  {
+   "nom": "Reddit — Claude",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1xg1q97/anthropic_reveals_it_will_pay_spacex_up_to_1205b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh9qj4/sk_hynix_expects_demand_to_outpace_supply_through/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh50at/new_audio_model_lfm3audio2b/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh4bnd/openais_major_results_over_the_last_3_months_came/"
+  }
+ ],
+ "date": "2026-10-28T01:14:57+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1710,
+  "sortie": 3815
+ }
+}

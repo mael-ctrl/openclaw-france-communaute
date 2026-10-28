@@ -49,9 +49,10 @@ def _date_depuis_item(item, ns):
             if el is not None and el.text:
                 brut = el.text.strip()
                 try:
-                    if "T" in brut or "-" in brut[:5]:
+                    try:
                         dt = datetime.fromisoformat(brut.replace("Z", "+00:00"))
-                    else:
+                    except ValueError:
+                        # « Tue » et « Thu » contiennent T sans être des dates ISO.
                         dt = parsedate_to_datetime(brut)
                     if dt.tzinfo is None:
                         dt = dt.replace(tzinfo=timezone.utc)

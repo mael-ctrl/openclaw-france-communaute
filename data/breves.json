@@ -1,5 +1,69 @@
 [
  {
+  "id": "a2e7c198140abb31",
+  "slug": "rgpd-l-europe-veut-un-feu-vert-pour-entrainer-les-ia-sur-vos-donnees-a2e7c1",
+  "titre": "RGPD : l'Europe veut un feu vert pour entraîner les IA sur vos données",
+  "resume": "Les Vingt-Sept veulent inscrire dans le RGPD un feu vert à l'entraînement des IA sur les données personnelles. Ce cadre s'appliquerait sans consentement et le droit d'opposition serait raboté. Les services cités sont notamment ChatGPT, Gemini et Meta AI.",
+  "tags": [
+   "chatgpt",
+   "gemini",
+   "meta",
+   "société"
+  ],
+  "importance": 4,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/chatgpt-gemini-meta-ai-leurope-prepare-un-passe-droit-des-ia-sur-vos-donnees.html",
+  "date_source": "2026-10-28T06:30:23+00:00",
+  "date_redac": "2026-10-28T06:32:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 660,
+   "sortie": 1315
+  }
+ },
+ {
+  "id": "38e3b95b2d2ed8a9",
+  "slug": "modele-de-code-3d-4b-une-mise-a-jour-aux-meilleurs-resultats-en-un-seu-38e3b9",
+  "titre": "Modèle de code 3D 4B : une mise à jour aux meilleurs résultats en un seul essai",
+  "resume": "L'auteur du modèle de code 3D 4B publie une nouvelle version : les résultats en un seul essai et la qualité visuelle progressent nettement dans ses derniers tests, et l'entraînement touche à sa fin. Il recommande la quantification Q8, qu'il a testée (temperature 0.6, top-k 20, top-p 0.95) ; la Q4 est disponible mais pas encore évaluée. Les versions Q4 et Q8 sont en ligne sur Hugging Face, avec des noms de fichiers inchangés : il faut supprimer l'ancien modèle avant de recharger.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xhfwui/4b_3d_coding_model_update_much_better_oneshot/",
+  "date_source": "2026-10-28T05:45:56+00:00",
+  "date_redac": "2026-10-28T06:32:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 860,
+   "sortie": 431
+  }
+ },
+ {
+  "id": "50ba4a9cf817274b",
+  "slug": "sap-veut-passer-de-l-ia-qui-recommande-a-l-ia-qui-execute-50ba4a",
+  "titre": "SAP veut passer de l'IA qui recommande à l'IA qui exécute",
+  "resume": "SAP a présenté le 27 octobre des innovations articulées autour de l'ouverture de ses solutions et de couches d'intelligence et d'action. Outils agentiques, modèle d'IA déployé en orbite et partenariats robotiques illustrent cette stratégie. L'éditeur, qui avait mis l'accent sur l'interopérabilité à TechEd 2025 puis à Sapphire en mai, veut rester le système de référence des processus métiers.",
+  "tags": [
+   "agents",
+   "business",
+   "robots"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/logiciels-applications/sap/outils-agentiques-modele-dia-deploye-en-orbite-partenariats-robotiques-comment-sap-veut-passer-de-lia-qui-recommande-a-lia-qui-execute.OQEA375GARFCJCUWMGTTZ63LVY.html",
+  "date_source": "2026-10-28T05:00:01+00:00",
+  "date_redac": "2026-10-28T06:33:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 893,
+   "sortie": 783
+  }
+ },
+ {
   "id": "0d8725527cdedf47",
   "slug": "un-post-de-r-localllama-predit-des-gpu-bon-marche-l-an-prochain-0d8725",
   "titre": "Un post de r/LocalLLaMA prédit des GPU bon marché l'an prochain",

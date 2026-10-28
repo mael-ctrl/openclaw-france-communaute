@@ -1,0 +1,41 @@
+{
+ "slug": "clover-35b-a3b-diffuspace-lance-son-premier-modele-de-diffus-894051",
+ "titre": "Clover-35B-A3B : DiffuSpace lance son premier modèle de diffusion open-source",
+ "chapo": "DiffuSpace publie Clover-35B-A3B-Preview, un modèle de diffusion open-source bâti sur un socle mixture-of-experts de 35 milliards de paramètres et un contexte de 128K. La même semaine, un contributeur chiffre trois optimisations d'inférence MoE sur DGX Spark, et Artificial Analysis refond son Intelligence Index en v5.",
+ "html": "<h2 id=\"un-socle-moe-une-generation-par-diffusio\">Un socle MoE, une génération par diffusion</h2>\n<p>DiffuSpace sort son tout premier modèle : Clover-35B-A3B-Preview. L'architecture combine un socle mixture-of-experts de <strong>35 milliards de paramètres</strong> avec environ <strong>3 milliards de paramètres actifs par token</strong>, une génération par diffusion par blocs et un contexte de <strong>128K</strong>. Le nom du modèle reprend d'ailleurs cette structure : 35B pour la taille totale, A3B pour les paramètres actifs.</p>\n<p>L'éditeur annonce les meilleures performances parmi les modèles de diffusion open-source sur les benchmarks présentés au lancement. Deux précautions s'imposent : ces chiffres viennent de DiffuSpace lui-même, et le suffixe <em>Preview</em> signale une préversion. Aucune reproduction indépendante n'est disponible à ce stade.</p>\n<p>L'intérêt dépasse le seul classement. La famille des modèles de diffusion open-source reste nettement moins fournie que celle des modèles autorégressifs, et l'arrivée d'un nouvel acteur sur ce créneau — avec des poids ouverts — élargit l'éventail de ce qui peut être testé, hébergé et modifié hors des API propriétaires.</p>\n<h2 id=\"moe-trois-leviers-d-inference-mesures-su\">MoE : trois leviers d'inférence mesurés sur DGX Spark</h2>\n<p>Sur r/LocalLLaMA, un contributeur détaille trois optimisations pour l'inférence MoE sur <strong>NVIDIA DGX Spark</strong>, avec des gains chiffrés à chaque étape.</p>\n<ul>\n<li>Le backend MoE <strong>Humming en MXFP4</strong> apporte <strong>9,3 %</strong> de débit supplémentaire.</li>\n<li>La quantization <strong>FP8 en ligne de la LM head</strong> ajoute <strong>21,7 %</strong>.</li>\n<li>Le décodage spéculatif <strong>MTP (NEXTN)</strong> fait passer le débit de <strong>36,09 à 102,88 tok/s</strong>, soit <strong>+185,1 %</strong>, avec une latence TPOT ramenée de <strong>27,71 à 9,72 ms</strong>.</li>\n</ul>\n<p>C'est le décodage spéculatif qui porte l'essentiel du gain, loin devant les deux autres leviers. Ce genre de relevé a sa valeur propre : il ne promet pas une architecture nouvelle, il documente ce qu'on peut tirer d'une machine donnée en empilant des optimisations logicielles. Pour qui fait tourner des modèles MoE en local, la question du débit se joue souvent là, dans l'empilement, plus que dans le choix du matériel.</p>\n<h2 id=\"mesurer-les-modeles-ouverts-et-les-faire\">Mesurer les modèles ouverts, et les faire tourner</h2>\n<p>Artificial Analysis passe son <strong>Intelligence Index en v5</strong>, une refonte qu'il présente comme plus précise. L'écart entre modèles à poids ouverts et fermés se creuse, de <strong>3 à 12 points</strong>. <strong>Kimi K3.1 Pro</strong>, dont les poids ne sont pas encore publiés, mène à <strong>46</strong>, devant <strong>DeepSeek V4.1 Flash 1017 (max)</strong> et <strong>GLM-5.3 (max)</strong>, tous deux à <strong>32</strong>.</p>\n<p>La réserve est de taille : <strong>60 % de l'index</strong> s'appuie sur des jeux de test privés ou des réponses retenues, ce qui rend les résultats impossibles à reproduire. Un classement qui progresse, mais dont la majorité du score échappe à la vérification extérieure.</p>\n<p>À l'autre bout de la chaîne, la communauté continue de faire tourner ces modèles sur du matériel modeste. <strong>DeepSeek-V4.1-Flash-1017</strong> en Q2 GGUF de nazeshinjite tourne sur une seule <strong>RTX 3090 de 24 Go</strong>, sous Windows sans WSL, avec 192 Go de DDR5 : <strong>41 tok/s</strong> en moyenne, et <strong>90,2 %</strong> d'accord avec l'API DeepSeek sur le token suivant en texte général, <strong>92,4 %</strong> en code et maths. Le contexte complet d'un million de tokens tient, et le moteur d'inférence accepte trois des quants les plus téléchargés.</p>\n<h2 id=\"firefox-confie-de-nouveaux-usages-au-nav\">Firefox confie de nouveaux usages au navigateur</h2>\n<p>Côté grand public, 01net rapporte que le navigateur de Mozilla va recevoir de nouvelles fonctionnalités d'IA. <strong>Firefox</strong> doit bientôt <strong>remplir automatiquement les formulaires en ligne</strong> en fonction du contexte, et <strong>alerter l'utilisateur dès qu'un changement est apporté sur une page web</strong>.</p>\n<p>Le remplissage de formulaires et la surveillance de pages viennent donc s'ajouter à la liste des usages confiés directement au navigateur, sans passer par une extension tierce.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux mouvements se croisent. D'un côté, les modèles ouverts gagnent en variété — un MoE de diffusion chez DiffuSpace, des poids DeepSeek qui tiennent sur une seule carte 24 Go — et l'optimisation logicielle continue de déplacer les curseurs de débit sans changer de machine. De l'autre, l'évaluation se referme : quand 60 % d'un index repose sur des jeux privés, le classement devient un signal parmi d'autres, pas un verdict. Entre les benchmarks invérifiables et les mesures reproductibles faites en local, c'est souvent la seconde catégorie qui dit le plus justement ce qu'un modèle sait faire.</p>",
+ "pivot": "8940517e3f17cb70",
+ "tags": [
+  "open-source",
+  "recherche",
+  "matériel",
+  "deepseek"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhinyj/diffuspaceclover35ba3bpreview_hugging_face/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/firefox-pourra-bientot-remplir-automatiquement-vos-formulaires-et-surveiller-vos-pages-web.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdwtt/3_ways_to_boost_moe_inference_on_nvidia_dgx_spark/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdmlk/artificial_analysis_intelligence_index_v5_major/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh9yf7/deepseekv41flash1017_at_41_toks_on_one_3090/"
+  }
+ ],
+ "date": "2026-10-28T11:04:51+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1694,
+  "sortie": 2870
+ }
+}

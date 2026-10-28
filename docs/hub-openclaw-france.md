@@ -798,6 +798,42 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-26/hub-securite-openclaw/`.
 
+## Portée de la gratuité — livraison du 28/10/2026
+
+- **Une amélioration** : l’introduction de `/gratuit/` distingue désormais
+  nos kits et guides offerts du modèle IA et de l’hébergement, potentiellement
+  payants et non inclus. Lien direct vers le budget du guide existant, avant
+  les boutons des kits. Aucun prix, rabais ou coût universel ajouté ; contenu
+  cohérent avec ce guide. Aucun script, kit, style ou texte juridique modifié.
+- Deux tests reproduisent le manque avant correction, puis passent ; **51 tests
+  hub OK**, **247 tests de la suite complète OK** après synchronisation finale,
+  **2 tests sur le HTML HTTPS public OK**. Chrome avec et sans JavaScript :
+  **12 contrôles locaux** (1440, 1024, 430, 390, 375 et 360 px), puis **6 publics**
+  (1440, 390 et 360 px). Mention visible avant les boutons, lien budget au clavier,
+  arrivée sur la bonne ancre et absence de débordement horizontal vérifiés.
+- Dépôt du Bureau inaccessible à Git en cron ; déploiement par
+  `python3 outils/deployer_openclaw.py` depuis le clone synchronisé
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Clone partagé en conflits laissé
+  intact. Sauvegarde privée et absence de divergence production/Git avant envoi ;
+  **36 fichiers relus via FTP**, identiques aux sources. Seuls `/gratuit/` et le
+  sitemap ont changé. ZIP et manifeste restent inchangés octet pour octet,
+  également relus en HTTPS ; archives téléchargées intègres et SHA-256 conformes.
+- Santé : les **six URL demandées en HTTP 200** ; contrôle étendu **10 URL en 200**,
+  sans suivre de redirection. Nouveau paragraphe public identique à la source.
+  **IndexNow HTTP 200** pour `/gratuit/` : notification acceptée, pas preuve
+  d’indexation ni de croissance.
+- **Aucune distribution par cette mission** : le recontrôle PDS juste avant
+  publication a détecté le post OPML concurrent du 28/10 à 08:12 UTC
+  (`3mywck423rtvm`), ensuite retrouvé dans le journal synchronisé. Le brouillon
+  SHA-256 a été abandonné avant tout appel de création ; aucune réservation,
+  aucun doublon. Ce post consomme le quota quotidien et le créneau Bluesky de
+  la semaine. Les erreurs AppView HTTP 500 empêchent de confirmer les retours
+  publics ; aucune absence de réponse ni visibilité publique n’est prétendue.
+- Prochaine priorité : tester une sauvegarde et une restauration en environnement
+  isolé avant de renforcer les promesses du kit. Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-28/hub-gratuit-couts/`
+  et `hub-distribution/` pour les contrôles anti-doublon.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

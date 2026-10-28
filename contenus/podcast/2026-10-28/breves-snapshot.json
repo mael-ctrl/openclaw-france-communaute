@@ -1,0 +1,176 @@
+{
+  "sha": "953a20beac4740ae646d2701d94a0a22b8c3e70e",
+  "selected_at": "2026-10-28T08:18:21.834825+00:00",
+  "breves": [
+    {
+      "id": "50ba4a9cf817274b",
+      "slug": "sap-veut-passer-de-l-ia-qui-recommande-a-l-ia-qui-execute-50ba4a",
+      "titre": "SAP veut passer de l'IA qui recommande à l'IA qui exécute",
+      "resume": "SAP a présenté le 27 octobre des innovations articulées autour de l'ouverture de ses solutions et de couches d'intelligence et d'action. Outils agentiques, modèle d'IA déployé en orbite et partenariats robotiques illustrent cette stratégie. L'éditeur, qui avait mis l'accent sur l'interopérabilité à TechEd 2025 puis à Sapphire en mai, veut rester le système de référence des processus métiers.",
+      "tags": [
+        "agents",
+        "business",
+        "robots"
+      ],
+      "importance": 3,
+      "source": "L'Usine Digitale",
+      "lien_source": "https://www.usine-digitale.fr/logiciels-applications/sap/outils-agentiques-modele-dia-deploye-en-orbite-partenariats-robotiques-comment-sap-veut-passer-de-lia-qui-recommande-a-lia-qui-execute.OQEA375GARFCJCUWMGTTZ63LVY.html",
+      "date_source": "2026-10-28T05:00:01+00:00",
+      "date_redac": "2026-10-28T06:33:02+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 893,
+        "sortie": 783
+      }
+    },
+    {
+      "id": "38e3b95b2d2ed8a9",
+      "slug": "modele-de-code-3d-4b-une-mise-a-jour-aux-meilleurs-resultats-en-un-seu-38e3b9",
+      "titre": "Modèle de code 3D 4B : une mise à jour aux meilleurs résultats en un seul essai",
+      "resume": "L'auteur du modèle de code 3D 4B publie une nouvelle version : les résultats en un seul essai et la qualité visuelle progressent nettement dans ses derniers tests, et l'entraînement touche à sa fin. Il recommande la quantification Q8, qu'il a testée (temperature 0.6, top-k 20, top-p 0.95) ; la Q4 est disponible mais pas encore évaluée. Les versions Q4 et Q8 sont en ligne sur Hugging Face, avec des noms de fichiers inchangés : il faut supprimer l'ancien modèle avant de recharger.",
+      "tags": [
+        "open-source",
+        "dev",
+        "recherche"
+      ],
+      "importance": 2,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xhfwui/4b_3d_coding_model_update_much_better_oneshot/",
+      "date_source": "2026-10-28T05:45:56+00:00",
+      "date_redac": "2026-10-28T06:32:51+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 860,
+        "sortie": 431
+      }
+    },
+    {
+      "id": "a2e7c198140abb31",
+      "slug": "rgpd-l-europe-veut-un-feu-vert-pour-entrainer-les-ia-sur-vos-donnees-a2e7c1",
+      "titre": "RGPD : l'Europe veut un feu vert pour entraîner les IA sur vos données",
+      "resume": "Les Vingt-Sept veulent inscrire dans le RGPD un feu vert à l'entraînement des IA sur les données personnelles. Ce cadre s'appliquerait sans consentement et le droit d'opposition serait raboté. Les services cités sont notamment ChatGPT, Gemini et Meta AI.",
+      "tags": [
+        "chatgpt",
+        "gemini",
+        "meta",
+        "société"
+      ],
+      "importance": 4,
+      "source": "01net",
+      "lien_source": "https://www.01net.com/actualites/chatgpt-gemini-meta-ai-leurope-prepare-un-passe-droit-des-ia-sur-vos-donnees.html",
+      "date_source": "2026-10-28T06:30:23+00:00",
+      "date_redac": "2026-10-28T06:32:41+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 660,
+        "sortie": 1315
+      }
+    },
+    {
+      "id": "c4cf20c98a2f55db",
+      "slug": "indra-successeur-annonce-de-tesseract-revendique-1m-de-parametres-c4cf20",
+      "titre": "Indra, successeur annoncé de Tesseract, revendique 1M de paramètres",
+      "resume": "Sur r/LocalLLaMA, un internaute signale la publication de datalab-to/indra, présenté comme un successeur à Tesseract. Les benchmarks affichés montrent un net bond en qualité et en vitesse, selon lui. Le modèle ne compterait qu'un million de paramètres, ce qui illustre la multiplication actuelle des modèles sous le milliard de paramètres. L'auteur précise ne pas l'avoir encore essayé.",
+      "tags": [
+        "open-source",
+        "dev",
+        "recherche"
+      ],
+      "importance": 2,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xhd7vt/they_released_a_tesseract_successor_datalabtoindra/",
+      "date_source": "2026-10-28T03:15:30+00:00",
+      "date_redac": "2026-10-28T04:42:10+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 686,
+        "sortie": 747
+      }
+    },
+    {
+      "id": "2493726dc158485b",
+      "slug": "les-tpu-de-google-attirent-openai-et-oracle-pas-encore-le-local-249372",
+      "titre": "Les TPU de Google attirent OpenAI et Oracle, pas encore le local",
+      "resume": "Un fil de r/LocalLLaMA pose la question : quand les TPU de Google seront-ils accessibles au commun des mortels ? L'extrait souligne que les principaux acteurs du secteur en achètent désormais. Selon Bloomberg, OpenAI prévoit d'acheter des puces IA à Google dans le cadre de son développement, et Oracle proposera des TPU via son cloud. L'auteur du fil, lui, constate qu'aucune offre locale ne se dessine.",
+      "tags": [
+        "openai",
+        "matériel",
+        "business"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdcwv/when_will_google_tpus_trickle_down_to_the_common/",
+      "date_source": "2026-10-28T03:22:46+00:00",
+      "date_redac": "2026-10-28T04:42:05+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 715,
+        "sortie": 562
+      }
+    },
+    {
+      "id": "6f6e3aee600cede5",
+      "slug": "l-index-d-artificial-analysis-passe-en-v5-et-creuse-l-ecart-entre-mode-6f6e3a",
+      "titre": "L'index d'Artificial Analysis passe en v5 et creuse l'écart entre modèles ouverts",
+      "resume": "Artificial Analysis passe son Intelligence Index en v5, une refonte qu'il présente comme plus précise. L'écart entre modèles à poids ouverts et fermés se creuse de 3 à 12 points : Kimi K3.1 Pro, dont les poids ne sont pas encore publiés, mène à 46, devant DeepSeek V4.1 Flash 1017 (max) et GLM-5.3 (max) à 32. 60 % de l'index s'appuie sur des jeux de test privés ou des réponses retenues, ce qui rend les résultats impossibles à reproduire.",
+      "tags": [
+        "recherche",
+        "open-source",
+        "deepseek",
+        "claude"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdmlk/artificial_analysis_intelligence_index_v5_major/",
+      "date_source": "2026-10-28T03:36:56+00:00",
+      "date_redac": "2026-10-28T04:42:01+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 842,
+        "sortie": 881
+      }
+    },
+    {
+      "id": "4b7c62767e420667",
+      "slug": "trois-optimisations-pour-accelerer-l-inference-moe-sur-nvidia-dgx-spar-4b7c62",
+      "titre": "Trois optimisations pour accélérer l'inférence MoE sur NVIDIA DGX Spark",
+      "resume": "Un contributeur de r/LocalLLaMA détaille trois optimisations pour l'inférence MoE sur NVIDIA DGX Spark. Le backend MoE Humming en MXFP4 apporte 9,3 % de débit en plus, et la quantization FP8 en ligne de la LM head 21,7 %. Le décodage spéculatif MTP (NEXTN) fait passer le débit de 36,09 à 102,88 tok/s, soit +185,1 %, avec une latence TPOT ramenée de 27,71 à 9,72 ms.",
+      "tags": [
+        "matériel",
+        "dev",
+        "open-source"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdwtt/3_ways_to_boost_moe_inference_on_nvidia_dgx_spark/",
+      "date_source": "2026-10-28T03:52:04+00:00",
+      "date_redac": "2026-10-28T04:41:51+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 758,
+        "sortie": 754
+      }
+    },
+    {
+      "id": "0d8725527cdedf47",
+      "slug": "un-post-de-r-localllama-predit-des-gpu-bon-marche-l-an-prochain-0d8725",
+      "titre": "Un post de r/LocalLLaMA prédit des GPU bon marché l'an prochain",
+      "resume": "Sur r/LocalLLaMA, un utilisateur anticipe une chute des prix des GPU dès l'an prochain. Il affirme qu'un seul rack GB300 suffirait à servir tout le trafic d'OpenRouter pour DSV4.1 Flash, que la moitié des chantiers de datacenters sont annulés ou gelés et que les neoclouds ne peuvent plus financer leur compute. Les petits modèles couvriraient l'essentiel des requêtes, l'adoption de l'IA décevant les attentes.",
+      "tags": [
+        "matériel",
+        "business",
+        "openai"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xhep6w/dirt_cheap_gpus_coming_next_year/",
+      "date_source": "2026-10-28T04:34:41+00:00",
+      "date_redac": "2026-10-28T04:41:47+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 751,
+        "sortie": 1409
+      }
+    }
+  ]
+}

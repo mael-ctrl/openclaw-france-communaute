@@ -326,6 +326,7 @@ a:hover { color: var(--accent); }
 .j-ev { font-family: var(--mono); font-size: .74rem; color: var(--cyan); white-space: nowrap; }
 .erreurs-liste { color: var(--texte2); font-size: .9rem; }
 .erreurs-liste li { margin-bottom: 8px; }
+.erreurs-liste .j-ts { white-space: normal; }
 
 /* ---------------- Encarts / 404 ---------------- */
 .encart {

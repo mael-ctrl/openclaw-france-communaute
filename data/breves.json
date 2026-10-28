@@ -1,5 +1,25 @@
 [
  {
+  "id": "23b2be41196e7eea",
+  "slug": "ipo-d-anthropic-les-vc-empochent-des-milliards-amazon-encore-plus-23b2be",
+  "titre": "IPO d'Anthropic : les VC empochent des milliards, Amazon encore plus",
+  "resume": "À l'approche de l'introduction en Bourse d'Anthropic, les investisseurs en capital-risque s'apprêtent à réaliser des gains de plusieurs milliards de dollars. Mais le plus grand bénéficiaire devrait être Amazon : des conversions de notes massives révèlent l'ampleur réelle de sa participation dans l'entreprise, bien supérieure à ce qui était visible jusqu'ici.",
+  "tags": [
+   "business",
+   "claude"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+  "date_source": "2026-10-28T01:15:28+00:00",
+  "date_redac": "2026-10-28T03:16:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 632,
+   "sortie": 515
+  }
+ },
+ {
   "id": "c9d6822649a2300b",
   "slug": "deepseek-v4-1-flash-en-q2-sur-une-seule-rtx-3090-41-tok-s-c9d682",
   "titre": "DeepSeek-V4.1-Flash en Q2 sur une seule RTX 3090 : 41 tok/s",
@@ -19,26 +39,6 @@
    "modele": "deepseek-flash",
    "entree": 926,
    "sortie": 1226
-  }
- },
- {
-  "id": "8f529ebb45d49573",
-  "slug": "sk-hynix-anticipe-une-demande-superieure-a-l-offre-jusqu-en-2030-8f529e",
-  "titre": "SK Hynix anticipe une demande supérieure à l'offre jusqu'en 2030",
-  "resume": "SK Hynix s'attend à ce que la demande dépasse l'offre au moins jusqu'en 2030, selon des propos rapportés par CNBC. Ce déséquilibre durable touche de plein fouet la mémoire vive, dont les prix sont déjà très élevés. Sur r/LocalLLaMA, le constat est simple : les tarifs actuels de la RAM pourraient bientôt ressembler à une bonne affaire. Un point sensible pour tous ceux qui font tourner des modèles en local.",
-  "tags": [
-   "matériel",
-   "business"
-  ],
-  "importance": 3,
-  "source": "r/LocalLLaMA",
-  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xh9qj4/sk_hynix_expects_demand_to_outpace_supply_through/",
-  "date_source": "2026-10-28T00:29:33+00:00",
-  "date_redac": "2026-10-28T01:14:37+00:00",
-  "gen": {
-   "modele": "deepseek-flash",
-   "entree": 670,
-   "sortie": 431
   }
  },
  {
@@ -82,6 +82,26 @@
    "modele": "deepseek-flash",
    "entree": 628,
    "sortie": 1063
+  }
+ },
+ {
+  "id": "8f529ebb45d49573",
+  "slug": "sk-hynix-anticipe-une-demande-superieure-a-l-offre-jusqu-en-2030-8f529e",
+  "titre": "SK Hynix anticipe une demande supérieure à l'offre jusqu'en 2030",
+  "resume": "SK Hynix s'attend à ce que la demande dépasse l'offre au moins jusqu'en 2030, selon des propos rapportés par CNBC. Ce déséquilibre durable touche de plein fouet la mémoire vive, dont les prix sont déjà très élevés. Sur r/LocalLLaMA, le constat est simple : les tarifs actuels de la RAM pourraient bientôt ressembler à une bonne affaire. Un point sensible pour tous ceux qui font tourner des modèles en local.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xh9qj4/sk_hynix_expects_demand_to_outpace_supply_through/",
+  "date_source": "2026-10-28T00:29:33+00:00",
+  "date_redac": "2026-10-28T01:14:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 431
   }
  },
  {

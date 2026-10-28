@@ -26,7 +26,17 @@ Pièces privées : `crabe-chantiers/integrations/tableau-transparence-20261027T0
 
 ## Publication
 
-**En cours :** ce commit prépare une intégration vérifiée localement. Le run cloud, sa sauvegarde et les réponses HTTPS doivent encore être consignés ; aucun succès de production anticipé.
+**Livré le 27, clôture vérifiée le 28 octobre à 09:03 UTC (10:03 CET).**
+
+- Code **`5cc1ee8`**, [run initial `40484241309`](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/40484241309) **réussi le 27 à 10:53 UTC** : **239 tests cloud**, **2 020 fichiers envoyés**, sauvegarde `c956756` puis fusion/push `4d7b45f`. Les cinq fichiers du commit ont été relus sur `origin/main` après push. Le suivi a repris le lendemain ; ces observations ne sont pas antidatées.
+- **Régression réellement observée le 28 à 08:24 UTC :** région/aide absentes et CSS ancienne, confirmation identique avec paramètre unique et `Cache-Control: no-cache`. La CSS servie correspond exactement au commit local `f0f5dd3` (également à la version de `ba95fa4`). La sortie locale rapporte un pull refusé, un run avec **1 896 envois**, puis une sauvegarde refusée ; le reflog montre l'abandon du rebase vers `aff298f` à 09:14 CET avant ce run, puis un nouveau rebase bloqué. Le wrapper continue bien après ce refus. Un HEAD courant contenant le correctif ne permettait donc pas de déduire quel code venait d'être publié.
+- Le descendant déjà actif **`40655170802`**, qui conserve les fichiers du correctif, a remis la CSS mais a été **annulé pendant le pipeline** avant la page Transparence. Ce n'est pas un succès : pas de sauvegarde finale. Aucune annulation ni relance supplémentaire effectuée par ce chantier ; le successeur `40656973491` reste distinct et n'est pas déclaré réussi ici.
+- **Rétablissement ciblé de la même intégration à 09:02 UTC :** lecture/sauvegarde SFTP de la page exacte et de la CSS, clé hôte déjà épinglée vérifiée avant authentification. Reprise du seul bloc HTML intégré (aide, wrapper, en-têtes) sur le corps servi ; **lignes du journal, valeurs, dates et tout HTML extérieur au bloc conservés**. CSS déjà correcte laissée intacte. Candidat éprouvé par 100 contrôles navigateur, cible recontrôlée avant `posix_rename`, puis relue octet pour octet. Une cible HTML seulement, aucun nouveau changement moteur ni reconstruction des données.
+- **Après rétablissement : sept URL HTTPS / huit réponses en 200**, CSS exacte au commit et page exacte au candidat restauré ; `version.txt` identique aux deux bornes. **100/100 contrôles Chromium sur les corps HTTPS conservés**, sans JavaScript du site ni transport tiers, aux cinq largeurs du protocole ; capture publique 320 px relue. Il s'agit d'un replay des octets servis, pas d'une validation tactile ou multi-navigateur. La stabilité de version ne rend pas le relevé atomique.
+
+Pièces de reprise : `crabe-chantiers/integrations/tableau-transparence-20261027T094638Z/reprise-20261028T082336Z/` : logs cloud initiaux/annulation, captures du recul, sortie locale/reflog, préflight et readback SFTP, réponses HTTPS finales et recette navigateur. Les premières sondes et leurs échecs sont conservés.
+
+**Risque toujours ouvert :** le wrapper local inchangé peut republier un ancien code au prochain refus de pull. Ce rétablissement vérifie le tableau actuel, **pas** la résolution du conflit, la concurrence local/cloud ou l'exhaustivité des données servies. Leur correction reste un chantier d'exploitation distinct ; aucune seconde intégration fonctionnelle, aucun cron ni sceau modifié.
 
 ## Limites et suite
 

@@ -3441,6 +3441,15 @@
 {"ts": "2026-10-27T22:49:15+00:00", "evenement": "construction", "details": {"fichiers": 1984}, "sha256": "ff1a144f8c3dd335bd55f38b1a4e27ee32e0860afbc6342070569c9db9e4f0a5"}
 {"ts": "2026-10-27T23:12:36+00:00", "evenement": "erreur", "details": {"message": "déploiement : [Errno 104] Connection reset by peer"}, "sha256": "e77938185b9814978ca24c361c2476e2e8a1a528c84bd7bf6a8adfb8b1b74511"}
 {"ts": "2026-10-27T23:12:36+00:00", "evenement": "bilan", "details": {"duree_s": 1488.4, "neufs": 22, "breves": 6, "articles": 1, "fichiers": 1984, "deploiement": "echec"}, "sha256": "83a9954dbf1ea47ed06d1c0d671ee1d4cc2ee3b12b732cd0066680a46ffd799b"}
+{"ts": "2026-10-28T00:34:06+00:00", "evenement": "collecte", "details": {"neufs": 4}, "sha256": "4683b6681cc827dfde8e36b9fbbf89b4e30e733c2ba1f601152325b57c3a7313"}
+{"ts": "2026-10-28T00:34:26+00:00", "evenement": "erreur", "details": {"message": "brève impossible (I built a local GPU benchmark server for 4B to 35B models be) : réponse non-JSON"}, "sha256": "3cde59ecbcd324eefffdfe161ac698cd2340c2e543df83c213630c8907f0c23d"}
+{"ts": "2026-10-28T00:35:14+00:00", "evenement": "construction", "details": {"fichiers": 1988}, "sha256": "4775a31d6a6e1ab6284e1e6d4f9da0a6a29d3f3a3a0f6c271c76675a4d6d7379"}
+{"ts": "2026-10-28T01:11:33+00:00", "evenement": "deploiement", "details": {"fichiers": 2036, "octets": 41979181}, "sha256": "a7a78a2ebdaa8bcbbcaed24f0654b8353f67515fa3aedf53acaa4ff51d64ad96"}
+{"ts": "2026-10-28T01:11:34+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "0dc25ff0f069f36007837e6caf99b25a460188cf11994f3108e8592bd405d5f7"}
+{"ts": "2026-10-28T01:11:42+00:00", "evenement": "archivage", "details": {"wayback": 200}, "sha256": "4fecf05cde5b4ba0bede8f2a7ce2e302c07c631de4f9194af33b0510748204d7"}
+{"ts": "2026-10-28T01:11:53+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "06cc5870833e2b70ce2d7efa1968a03f2be108ab3006037d3e452f75348e2731"}
+{"ts": "2026-10-28T01:11:53+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-28.json", "publications": 1952}, "sha256": "78fd6d66981ea990fe23ae65358e641cd4b61aaf1060f688b1e2bed3a3210f4d"}
+{"ts": "2026-10-28T01:11:53+00:00", "evenement": "bilan", "details": {"duree_s": 2280.9, "neufs": 4, "breves": 3, "articles": 1, "fichiers": 1988, "envois": 2036, "publications": 4}, "sha256": "4e12eb3bafa99c0828c87c28b13d3b9502f101bf4964d3b81a08f0dc28eb138d"}
 {"ts": "2026-10-28T00:01:53+00:00", "evenement": "collecte", "details": {"neufs": 3}, "sha256": "90255f21b96ea9a74d18416f16439a7fa39c746d249e5832dd9c476013039e60"}
 {"ts": "2026-10-28T00:02:09+00:00", "evenement": "erreur", "details": {"message": "brève impossible (I built a local GPU benchmark server for 4B to 35B models be) : réponse non-JSON"}, "sha256": "79f041a88e66cd149186215d048715e5b27b3727daacb3bdeba97e035bb48d5e"}
 {"ts": "2026-10-28T00:03:02+00:00", "evenement": "construction", "details": {"fichiers": 1987}, "sha256": "c04ac5a3df6f15997c8c71621aaddef4546fd3a36d19e39ceea778590f742bb2"}

@@ -3450,3 +3450,12 @@
 {"ts": "2026-10-28T01:11:53+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "06cc5870833e2b70ce2d7efa1968a03f2be108ab3006037d3e452f75348e2731"}
 {"ts": "2026-10-28T01:11:53+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-28.json", "publications": 1952}, "sha256": "78fd6d66981ea990fe23ae65358e641cd4b61aaf1060f688b1e2bed3a3210f4d"}
 {"ts": "2026-10-28T01:11:53+00:00", "evenement": "bilan", "details": {"duree_s": 2280.9, "neufs": 4, "breves": 3, "articles": 1, "fichiers": 1988, "envois": 2036, "publications": 4}, "sha256": "4e12eb3bafa99c0828c87c28b13d3b9502f101bf4964d3b81a08f0dc28eb138d"}
+{"ts": "2026-10-28T00:01:53+00:00", "evenement": "collecte", "details": {"neufs": 3}, "sha256": "90255f21b96ea9a74d18416f16439a7fa39c746d249e5832dd9c476013039e60"}
+{"ts": "2026-10-28T00:02:09+00:00", "evenement": "erreur", "details": {"message": "brève impossible (I built a local GPU benchmark server for 4B to 35B models be) : réponse non-JSON"}, "sha256": "79f041a88e66cd149186215d048715e5b27b3727daacb3bdeba97e035bb48d5e"}
+{"ts": "2026-10-28T00:03:02+00:00", "evenement": "construction", "details": {"fichiers": 1987}, "sha256": "c04ac5a3df6f15997c8c71621aaddef4546fd3a36d19e39ceea778590f742bb2"}
+{"ts": "2026-10-28T00:31:50+00:00", "evenement": "deploiement", "details": {"fichiers": 2034, "octets": 41924272}, "sha256": "7976a8ae3483b0dc46e936be85e6e7ce6260717c4245e225ec1b19f4d96ada9a"}
+{"ts": "2026-10-28T00:31:51+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "c86d6e25616f9e0a19ee331e2a30f3ca57c42ef324a78aba5f17a47afb524078"}
+{"ts": "2026-10-28T00:32:11+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 1}, "sha256": "7be4af3386426046beb927edaada7f3f5a2f3e12c0e20ea45dd4ac9e030427ec"}
+{"ts": "2026-10-28T00:32:22+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "145d81299233b3f7a956b06685d65b26d3291445a414075c9e4bf2ffa3e1bc30"}
+{"ts": "2026-10-28T00:32:22+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-28.json", "publications": 1951}, "sha256": "de33233f392a8097c592a5d1196730d610eb7e4ee932c4409126849203c5a30a"}
+{"ts": "2026-10-28T00:32:22+00:00", "evenement": "bilan", "details": {"duree_s": 1869.0, "neufs": 3, "breves": 2, "articles": 1, "fichiers": 1987, "envois": 2034, "publications": 4}, "sha256": "23a3cdf2c3acf4c3cba6b544e5756b11f60b970206df71e8c0c242516ec934f5"}

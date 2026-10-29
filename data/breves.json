@@ -82,6 +82,27 @@
   }
  },
  {
+  "id": "3ae0e53269a80249",
+  "slug": "licence-qwen-le-flou-des-termes-inquiete-avant-qwen-4-3ae0e5",
+  "titre": "Licence Qwen : le flou des termes inquiète avant Qwen 4",
+  "resume": "Alibaba est passé d'une licence open source permissive à une licence maison aux termes jugés ambigus sur des modèles comme Qwen3.8-Flash-Next, et la question se pose pour Qwen 4. L'usage local ou interne, le fine-tuning et les dérivés restent autorisés, mais ce n'est ni Apache ni MIT. Un MaaS commercial ou un assistant coding/bureau autonome exige une licence Qwen séparée, et le statut des outputs reste flou.",
+  "tags": [
+   "open-source",
+   "business",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license/",
+  "date_source": "2026-10-29T09:48:21+00:00",
+  "date_redac": "2026-10-29T11:43:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 780,
+   "sortie": 676
+  }
+ },
+ {
   "id": "2130cf394053ca10",
   "slug": "hemmingway-1-5-un-modele-ouvert-de-27b-taille-pour-echapper-aux-detect-2130cf",
   "titre": "Hemmingway-1.5, un modèle ouvert de 27B taillé pour échapper aux détecteurs d'IA",

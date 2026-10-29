@@ -834,6 +834,47 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-28/hub-gratuit-couts/`
   et `hub-distribution/` pour les contrôles anti-doublon.
 
+## Dossiers et lancement des sauvegardes du kit — livraison du 28/10/2026
+
+- **Une amélioration ciblée** : section 5 du `dl/kit-openclaw/GUIDE.md`, en
+  lecture directe et dans le ZIP. L'ancien exemple cherchait systématiquement
+  l'archive dans `sauvegardes/`, alors que le mode classique écrit par défaut
+  dans `~/Backups/openclaw`. Il redirigeait aussi le journal vers un dossier
+  potentiellement absent, ce qui empêche le shell de lancer le script.
+- Le guide sépare maintenant les deux destinations, fixe explicitement
+  `MODE=classique` ou `MODE=docker`, explique la priorité de `MODE=auto` et
+  prépare le dossier privé du journal avant la planification. Commandes cron
+  avec `/bin/bash`, chemins entre guillemets, contrôle du PATH, vérification
+  manuelle puis après déclenchement, rétention des archives distincte de la
+  rotation du journal. Aucune tâche cron n'a été créée ni modifiée par la mission.
+- Script du kit et documentation officielle `cli/backup` / `install/backups`
+  relus. **Aucun script d'installation ou de sauvegarde modifié.** L'essai
+  shell utilise de vrais dossiers isolés avec espaces et des doubles explicites
+  pour OpenClaw et Docker : aucune sauvegarde réelle, installation, restauration
+  ou exécution nocturne n'est prétendue. Ces limites figurent dans le guide.
+- **4 tests de régression** échouent avant correction, puis passent ; **254 tests
+  de la suite complète OK**. Les 4 nouveaux tests passent aussi sur le kit
+  téléchargé en HTTPS ; son guide est identique au fichier directement publié.
+  Les scripts du kit passent `bash -n`. Le seul membre ZIP modifié est `GUIDE.md` ;
+  le ZIP Hermes reste inchangé octet pour octet. Manifeste SHA-256 régénéré.
+- Git inaccessible depuis le dépôt du Bureau en contexte cron : déploiement par
+  `python3 outils/deployer_openclaw.py` depuis le clone synchronisé
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Clone partagé en conflits laissé
+  intact. Sauvegarde privée et absence de divergence production/Git recontrôlée
+  avant envoi ; **36 fichiers relus via FTP**, identiques aux sources. Seuls
+  le guide OpenClaw, son ZIP et le manifeste ont changé ; aucun HTML ou style modifié.
+- Santé : **les six URL demandées en HTTP 200**, contrôle étendu de **11 URL en
+  200** sans redirections. Guide, manifeste, clé et deux ZIP avec/sans `?v=2`
+  identiques aux sources ; archives téléchargées intègres. **IndexNow HTTP 200**
+  pour l'URL du guide modifié : notification acceptée, pas preuve d'indexation.
+- **Aucune distribution supplémentaire** : le journal synchronisé consigne déjà
+  le post OPML du 28/10 (`3mywck423rtvm`) qui consomme le quota quotidien et le
+  créneau Bluesky hebdomadaire. Aucun nouveau message ni contrôle AppView prétendu.
+- Prochaine priorité : tester une sauvegarde et une restauration réelles dans
+  un environnement isolé ; OpenClaw et Docker ne sont pas disponibles dans le
+  PATH de cette mission. Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-28/hub-backup-guide/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

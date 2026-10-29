@@ -1,0 +1,41 @@
+{
+ "slug": "ternaire-elagage-contexte-geant-la-compression-au-cur-des-mo-422e79",
+ "titre": "Ternaire, élagage, contexte géant : la compression au cœur des modèles locaux",
+ "chapo": "OpenBonsai publie le pipeline de quantification ternaire qui manquait à Ternary Bonsai, pendant qu'un modèle vocal de NVIDIA perd plus de 55 Go sans réentraînement et que Qwen4 laisse filtrer un million de tokens de contexte. Tour d'horizon des dépêches de la semaine.",
+ "html": "<h2 id=\"openbonsai-le-maillon-manquant-du-ternai\">OpenBonsai : le maillon manquant du ternaire</h2>\n<p>Prism ML avait diffusé les poids et le runtime de son <strong>Ternary Bonsai</strong> : un modèle 9B ramené à environ 2 Go, grâce à des poids valant -1, 0 ou +1. Manquait une pièce : le pipeline complet permettant de compresser ses propres modèles BF16 vers ce format. C'est ce vide que comble <strong>OpenBonsai</strong>, un framework sous licence Apache-2.0 publié par un développeur sur r/LocalLLaMA.</p>\n<p>OpenBonsai pratique la quantification ternaire post-entraînement et se branche sur le format <strong>PTQ1_0 GGUF</strong> de Prism ML. Le projet s'appuie notamment sur un article d'Intel Labs China, <em>« Attend to Your Own Thoughts »</em> (Wang et al.).</p>\n<p>L'origine est concrète : faire tourner <strong>WebBrain</strong>, un agent navigateur open source, au plus près de la machine — idéalement via WebGPU. Autrement dit, disposer du pipeline de bout en bout plutôt que de dépendre de poids déjà compressés par quelqu'un d'autre. La différence entre consommer un format et pouvoir le produire soi-même.</p>\n<h2 id=\"elaguer-plutot-que-reentrainer\">Élaguer plutôt que réentraîner</h2>\n<p>À côté du ternaire, l'élagage continue de faire des dégâts. Un utilisateur de r/LocalLLaMA a réduit le nouveau modèle vocal 30B de <strong>NVIDIA</strong> de 67,5 Go à 10 Go, sans aucun réentraînement. Le taux d'erreur de transcription passe de 4,12 % à 5,16 % : environ un point de WER en plus, pour une taille divisée par 6,7 environ. De quoi rendre un modèle vocal de cette taille utilisable sur du matériel bien plus modeste.</p>\n<p>Sur le front de l'inférence, le fork <strong>Strata</strong> de Basalt annonce un record pour <strong>Qwen3.8 Flash Next</strong> en quantification IQ3_S, sur une seule RTX 5080 de 16 Go, épaulée par 64 Go de DDR5 6400 et un Core Ultra 9 285K. Le traitement de prompt atteint 5 500 tok/s ; la génération monte jusqu'à 275 tok/s sur le code et les appels d'outils, et 190 tok/s pour les traces de raisonnement, mesurés pendant une session live d'opencode.</p>\n<p>Certaines pull requests d'optimisation sont encore en attente, mais l'amont bénéficie déjà de gains et d'optimisations mémoire. La quantification IQ3_S est jugée pleinement utilisable — c'est peut-être le point le plus intéressant du lot.</p>\n<h2 id=\"qwen4-un-million-de-tokens-sur-le-papier\">Qwen4 : un million de tokens, sur le papier</h2>\n<p>Un extrait publié sur r/LocalLLaMA indique que les modèles <strong>Qwen4</strong> disposeront d'une fenêtre de contexte d'un million de tokens. À prendre avec les pincettes d'usage : le Qwen4-27B n'apparaît pas dans la capture, et une annonce est attendue à Apsara Netherlands.</p>\n<p>Une date circule aussi pour Qwen4-max, le 1er novembre. La mention d'octobre à la place, dans le même document, suggère toutefois un simple placeholder. Une pull request sur le dépôt qwen-code est citée comme source — autrement dit, on parle d'indices, pas de spécifications.</p>\n<h2 id=\"dots-l-agent-devient-un-correspondant\">Dots : l'agent devient un correspondant</h2>\n<p>Pendant que le local compresse, le cloud change d'interface. <strong>OpenAI</strong> permet à ses agents <strong>Dots</strong> de dialoguer avec leurs utilisateurs directement depuis <strong>Google Messages</strong>, en avant-première aux États-Unis, sur la base du protocole RCS.</p>\n<p>Concrètement, les assistants peuvent envoyer des mises à jour sur leurs avancées ou demander des informations complémentaires dans un fil de conversation dédié. L'agent cesse d'être une destination à ouvrir : il devient un interlocuteur parmi les autres fils.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux dynamiques se dessinent, sans se répondre. D'un côté, la compression sous toutes ses formes — ternaire chez OpenBonsai, élagage sans réentraînement chez NVIDIA, quantification IQ3_S chez Basalt — rapproche des modèles de taille respectable de machines à 16 Go de VRAM, au prix d'un point de WER ou d'un pipeline à écrire soi-même. De l'autre, les agents sortent des interfaces dédiées : Dots s'installe dans une messagerie, avec RCS pour socle. Entre les deux, le million de tokens de Qwen4 reste, pour l'instant, une capture d'écran et une pull request.</p>",
+ "pivot": "422e79d62b163ec0",
+ "tags": [
+  "open-source",
+  "matériel",
+  "agents",
+  "openai"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xie29o/i_opensourced_openbonsai_compress_your_own_bf16/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/openai/3302427_chatgpt-debarque-dans-google-messages-avec-ses-agents-dots"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xibujk/pruned_nvidias_new_30b_speech_llm_from_675gb_to/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi9sfl/update_benchmark_basalts_new_prs_strata_fork_new/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/"
+  }
+ ],
+ "date": "2026-10-29T08:51:31+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1749,
+  "sortie": 3806
+ }
+}

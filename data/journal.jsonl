@@ -3530,3 +3530,9 @@
 {"ts": "2026-10-29T07:14:54+00:00", "evenement": "deploiement", "details": {"fichiers": 2090, "octets": 43309834}, "sha256": "7fec401f40a0b6ebe7d32bee7e5e5766de15df4cae05ffecfe7cb58e6e78e65e"}
 {"ts": "2026-10-29T07:14:54+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "251fc37aec4f334d1bba13f518c19af41048426d82441f26b97d74e3eec69a4a"}
 {"ts": "2026-10-29T07:14:54+00:00", "evenement": "bilan", "details": {"duree_s": 2305.2, "neufs": 2, "breves": 2, "articles": 1, "fichiers": 2049, "envois": 2090, "publications": 0}, "sha256": "c768127f9f51a725205730bca013eb04b649c67852367039c5419cf04c607e9a"}
+{"ts": "2026-10-29T08:50:34+00:00", "evenement": "collecte", "details": {"neufs": 9}, "sha256": "ab4f16ec2c9d6191c69840fbabae4df5ad394b6e8eb175f3cc0919e8fc21041c"}
+{"ts": "2026-10-29T08:51:11+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Researchers Discover a Way to Reduce LLM Training Compute by) : réponse non-JSON"}, "sha256": "093fa0ded183f2a3b6aa4eba6d4b64539d3b3053482c00c82b9df19490a16561"}
+{"ts": "2026-10-29T08:51:57+00:00", "evenement": "construction", "details": {"fichiers": 2055}, "sha256": "0083bf8329d5867674a95caa52d77020593df6f9aa82c59942970bfbf0cf45ce"}
+{"ts": "2026-10-29T09:28:46+00:00", "evenement": "deploiement", "details": {"fichiers": 2100, "octets": 44337980}, "sha256": "490313d0178bf1c2ef8be1d94f16cebed471610154afdb3ab2c011b12dadf214"}
+{"ts": "2026-10-29T09:28:47+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "64a21aa7f242d8d9deea4f9eee24d468142a12a56c7ddc8b651c6324f0e8c008"}
+{"ts": "2026-10-29T09:28:47+00:00", "evenement": "bilan", "details": {"duree_s": 2313.4, "neufs": 9, "breves": 5, "articles": 1, "fichiers": 2055, "envois": 2100, "publications": 0}, "sha256": "e867c7d5c58430f0dd4bb563f7933a9dc654fcf900c33d1fc80848c0473e21d1"}

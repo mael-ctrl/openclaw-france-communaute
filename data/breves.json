@@ -1,5 +1,108 @@
 [
  {
+  "id": "9a17257f0d16cfde",
+  "slug": "openclaw-refactorise-ses-tests-qa-en-reutilisant-les-helpers-de-fixtur-9a1725",
+  "titre": "OpenClaw refactorise ses tests QA en réutilisant les helpers de fixtures",
+  "resume": "La release OpenClaw 777b5e6088e2 porte sur un refactor du QA : la fixture TLS réutilise désormais la restauration canonique de l'environnement selected-key, et le producteur cached-health s'appuie sur le parsing artifact-base déjà en place. Le changement préserve le timing de capture, l'ordre de nettoyage et le comportement de la CLI.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F777b5e6088e2-1793263732",
+  "date_source": "2026-10-29T08:44:37+00:00",
+  "date_redac": "2026-10-29T08:50:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 650,
+   "sortie": 518
+  }
+ },
+ {
+  "id": "422e79d62b163ec0",
+  "slug": "openbonsai-compresser-ses-modeles-bf16-en-ggufs-ternaires-de-2-go-422e79",
+  "titre": "OpenBonsai : compresser ses modèles BF16 en GGUFs ternaires de ~2 Go",
+  "resume": "Un développeur publie OpenBonsai, un framework Apache-2.0 de quantification ternaire post-entraînement, compatible avec le format PTQ1_0 GGUF de Prism ML. Prism avait diffusé les poids et le runtime de son Ternary Bonsai — un modèle 9B ramené à environ 2 Go grâce à des poids en -1, 0 et +1 — mais pas le pipeline complet de compression BF16 vers ternaire. OpenBonsai comble ce manque, en s'appuyant notamment sur un article d'Intel Labs China, « Attend to Your Own Thoughts » (Wang et al.). Le projet est né d'un besoin concret : faire tourner un agent navigateur open source, WebBrain, au plus près de la machine, idéalement via WebGPU.",
+  "tags": [
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xie29o/i_opensourced_openbonsai_compress_your_own_bf16/",
+  "date_source": "2026-10-29T08:13:17+00:00",
+  "date_redac": "2026-10-29T08:50:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 823,
+   "sortie": 711
+  }
+ },
+ {
+  "id": "e28f6df46af1ec6f",
+  "slug": "les-agents-dots-de-chatgpt-debarquent-dans-google-messages-e28f6d",
+  "titre": "Les agents Dots de ChatGPT débarquent dans Google Messages",
+  "resume": "OpenAI permet à ses agents IA Dots de dialoguer avec leurs utilisateurs directement depuis Google Messages. Déployée en avant-première aux États-Unis, cette nouveauté s'appuie sur le protocole RCS. Les assistants peuvent ainsi envoyer des mises à jour sur leurs avancées ou demander des informations complémentaires dans un fil de conversation dédié.",
+  "tags": [
+   "chatgpt",
+   "openai",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/openai/3302427_chatgpt-debarque-dans-google-messages-avec-ses-agents-dots",
+  "date_source": "2026-10-29T08:11:09+00:00",
+  "date_redac": "2026-10-29T08:50:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 679,
+   "sortie": 430
+  }
+ },
+ {
+  "id": "b5a8c70191926e71",
+  "slug": "jssa-une-attention-eparse-au-niveau-du-token-pour-le-decodage-longue-c-b5a8c7",
+  "titre": "JSSA : une attention éparse au niveau du token pour le décodage longue contexte",
+  "resume": "Le papier JSSA (Joint Subspace Sparse Attention) s'attaque au trafic de KV-cache qui domine le décodage des LLM sur de longs contextes, en passant à une sélection de tokens plus fine que les méthodes par blocs. Deux obstacles sont traités : la qualité du classement, via un sous-espace query–key partagé de faible dimension appris en minimisant l'erreur de préservation des scores, et le coût de collecte des tokens dispersés, évité par une exécution indexée sans gather.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xidzm4/paper_joint_subspace_sparse_attention_for/",
+  "date_source": "2026-10-29T08:08:41+00:00",
+  "date_redac": "2026-10-29T08:50:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 760,
+   "sortie": 995
+  }
+ },
+ {
+  "id": "a62932925792ad5f",
+  "slug": "les-xreal-aura-ouvrent-leurs-commandes-avec-une-baisse-de-prix-a62932",
+  "titre": "Les Xreal Aura ouvrent leurs commandes avec une baisse de prix",
+  "resume": "Les lunettes Xreal Aura, présentées comme celles de Google, ouvrent leurs commandes avec une surprise : un prix revu à la baisse avant même leur arrivée. Ces lunettes filaires tournent sous Android XR et affichent plusieurs écrans virtuels. Elles embarquent Gemini et donnent accès à plus de 150 expériences conçues pour la réalité étendue.",
+  "tags": [
+   "matériel",
+   "gemini"
+  ],
+  "importance": 2,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/29/xreal-aura-les-lunettes-de-google-coutent-moins-cher-avant-meme-darriver/",
+  "date_source": "2026-10-29T07:29:31+00:00",
+  "date_redac": "2026-10-29T08:50:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 674,
+   "sortie": 391
+  }
+ },
+ {
   "id": "2568456569b56073",
   "slug": "gemini-4-carbon-de-google-domine-les-evaluations-independantes-256845",
   "titre": "Gemini 4 Carbon de Google domine les évaluations indépendantes",

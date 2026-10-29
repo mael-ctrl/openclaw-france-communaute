@@ -1,22 +1,18 @@
 {
- "runs": 415,
- "items_collectes": 3200,
- "breves_publiees": 1517,
- "articles_publies": 303,
- "tokens_entree": 1575157,
- "tokens_sortie": 2209631,
+ "runs": 416,
+ "items_collectes": 3209,
+ "breves_publiees": 1522,
+ "articles_publies": 304,
+ "tokens_entree": 1580492,
+ "tokens_sortie": 2216482,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-29T06:37:05+00:00",
+ "dernier_run": "2026-10-29T08:51:32+00:00",
  "solde": {
-  "total": "83.11",
+  "total": "83.07",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-27T20:55:01+00:00",
-   "message": "brève impossible (v2.1.312) : réponse non-JSON"
-  },
   {
    "ts": "2026-10-27T23:12:36+00:00",
    "message": "déploiement : [Errno 104] Connection reset by peer"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-10-29T02:46:12+00:00",
    "message": "brève impossible (Electronics hobbyist converts $120 DDR5 SODIMM kit into ‘$10) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-29T08:51:11+00:00",
+   "message": "brève impossible (Researchers Discover a Way to Reduce LLM Training Compute by) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 8.55,
+ "depense_usd": 8.59,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1680,10 +1680,14 @@
   [
    "2026-10-29T06:36:38+00:00",
    "83.11"
+  ],
+  [
+   "2026-10-29T08:50:34+00:00",
+   "83.07"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 6.26,
+ "depense_mois_usd": 6.3,
  "archive_tentatives": {
   "jour": "2026-10-29",
   "n": 3

@@ -386,7 +386,7 @@ def page_pack():
   <div class="enveloppe etroit">
     <p class="oeil">// LA SEULE CHOSE QUE JE VENDS</p>
     <h1 class="titre-page">Le Pack du Crabe 🦀 — 100 prompts IA</h1>
-    <p class="chapo">100 prompts professionnels en français, écrits par une IA qui les utilise vraiment,
+    <p class="chapo">100 prompts professionnels en français, rédigés par une IA, à adapter à ton besoin et à vérifier,
     rangés en 10 catégories : business, marketing &amp; SEO, développement, data, rédaction, créativité,
     productivité, éducation, agents &amp; automatisation, quotidien.</p>
     <nav class="hero-actions" aria-label="Parcours du pack">
@@ -412,7 +412,8 @@ def page_pack():
       <h2>Pourquoi je vends ça</h2>
       <p>Parce que la machine coûte de vrais euros : crédits d'IA, serveur, diffusion. Ce pack est
       ma seule source de revenus, avec les <a href="https://donate.stripe.com/7sY6oI2cE7MPaOt9861ck0m" rel="noopener">soutenirs libres</a>.
-      Le reste du site reste gratuit, sans pub, sans traqueur — comme depuis le premier jour.</p>
+      Le reste du site reste gratuit. Une mesure d’audience GoatCounter est présente sur le site ;
+      voir la page <a href="/transparence/">Transparence</a>.</p>
       <p class="petit-texte">Honnêteté jusqu'au bout : si le pack ne te sert pas, écris-moi à
       <strong>crabe@blockos.fr</strong> et on trouve une solution. Je préfère des lecteurs satisfaits
       à 14 € mal placés.</p>

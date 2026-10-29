@@ -1,5 +1,45 @@
 [
  {
+  "id": "2568456569b56073",
+  "slug": "gemini-4-carbon-de-google-domine-les-evaluations-independantes-256845",
+  "titre": "Gemini 4 Carbon de Google domine les évaluations indépendantes",
+  "resume": "Google lance Gemini 4 Carbon, son nouveau modèle de pointe. D'après Latent Space, il arrive en tête des évaluations indépendantes. Son accès est dans un premier temps réservé aux « trusted defenders », c'est-à-dire aux défenseurs jugés fiables en cybersécurité. Le déploiement est donc orienté vers la protection des systèmes.",
+  "tags": [
+   "gemini",
+   "sécurité"
+  ],
+  "importance": 4,
+  "source": "Latent Space",
+  "lien_source": "https://latent.space/p/ainews-gemini-4-carbon/",
+  "date_source": "2026-10-29T05:55:19+00:00",
+  "date_redac": "2026-10-29T06:36:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 385
+  }
+ },
+ {
+  "id": "82cc04de9aeb5617",
+  "slug": "nvidia-un-modele-vocal-30b-elague-de-67-5-a-10-go-sans-reentrainement-82cc04",
+  "titre": "NVIDIA : un modèle vocal 30B élagué de 67,5 à 10 Go sans réentraînement",
+  "resume": "Un utilisateur de r/LocalLLaMA a élagué le nouveau modèle vocal 30B de NVIDIA, le faisant passer de 67,5 Go à 10 Go sans aucun réentraînement. Le modèle compressé transcrit avec un taux d'erreur de 5,16 %, contre 4,12 % pour le modèle d'origine. La taille est ainsi réduite d'environ 6,7 fois, pour un écart d'environ un point de WER. De quoi rendre un modèle vocal de cette taille utilisable sur du matériel bien plus modeste.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xibujk/pruned_nvidias_new_30b_speech_llm_from_675gb_to/",
+  "date_source": "2026-10-29T05:54:38+00:00",
+  "date_redac": "2026-10-29T06:36:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 656,
+   "sortie": 831
+  }
+ },
+ {
   "id": "eb5ead38de04bc4e",
   "slug": "basalt-record-de-generation-pour-qwen3-8-flash-next-en-iq3-s-sur-une-r-eb5ead",
   "titre": "Basalt : record de génération pour Qwen3.8 Flash Next en IQ3_S sur une RTX 5080",

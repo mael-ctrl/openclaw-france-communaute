@@ -1,5 +1,67 @@
 [
  {
+  "id": "33134241a99fb9a1",
+  "slug": "cohere-critique-pour-un-billet-alarmiste-avant-sa-levee-de-fonds-331342",
+  "titre": "Cohere critiqué pour un billet alarmiste avant sa levée de fonds",
+  "resume": "Trois jours avant d'annoncer une Série E de plusieurs milliards de dollars, dont jusqu'à 1,6 milliard du gouvernement canadien, Cohere a publié un billet jugé largement non scientifique. L'auteur décrit une « expérience » où du pre-filling massif et du prompt engineering forcent Qwen 3.8 Flash Next à compléter des commandes cURL partielles, produisant des URLs vers du stockage Alibaba. Le modèle cité est une démo d'architecture, pas une sortie normale.",
+  "tags": [
+   "business",
+   "sécurité",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xix61q/arguably_unethical_behavior_from_cohere/",
+  "date_source": "2026-10-29T21:43:11+00:00",
+  "date_redac": "2026-10-29T22:41:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 787,
+   "sortie": 1214
+  }
+ },
+ {
+  "id": "e8fe0a70fed112b5",
+  "slug": "un-gguf-heretic-v2-non-censure-pour-qwen-3-8-swift-1-5-flash-e8fe0a",
+  "titre": "Un GGUF « Heretic v2 » non censuré pour Qwen 3.8 Swift 1.5 Flash",
+  "resume": "Sur r/LocalLLaMA, un quantiseur publie une version « Heretic v2 » (non censurée) de Qwen 3.8 Swift 1.5 Flash, au format GGUF. Les poids ont été développés avec u/jeffpeng3 sur Hugging Face, qui parvient à préserver les capacités de raisonnement et la longueur des sorties. L'auteur signe la recette de quantification et l'imatrix, et joint les artefacts Strata dans un zip du dépôt. L'usage visé : l'ingénierie inverse.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xix35p/release_swift_15_flash_next_heretic_v2/",
+  "date_source": "2026-10-29T21:40:04+00:00",
+  "date_redac": "2026-10-29T22:41:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 827,
+   "sortie": 600
+  }
+ },
+ {
+  "id": "3a3b0da4258d6c7b",
+  "slug": "le-droit-mondial-devient-requetable-via-git-sous-licence-cc0-3a3b0d",
+  "titre": "Le droit mondial devient requêtable via Git, sous licence CC0",
+  "resume": "Le projet Global Law, publié sur r/LocalLLaMA, a atteint la première place sur Hacker News. Son but : rendre l'ensemble du droit sémantique, versionné, facilement attribuable et interrogeable par des agents. Le tout sous licence CC0, donc librement réutilisable. Le dépôt est sur GitHub, et l'auteur dit travailler depuis des mois sur des graphes de connaissances appliqués à de gros corpus juridiques.",
+  "tags": [
+   "open-source",
+   "agents",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xiv58m/git_for_global_law_global_law_querable_in_git/",
+  "date_source": "2026-10-29T20:24:28+00:00",
+  "date_redac": "2026-10-29T22:41:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 752,
+   "sortie": 430
+  }
+ },
+ {
   "id": "cd8640114fb608d8",
   "slug": "openclaw-2026-9-36-version-etendue-stable-et-correctifs-critiques-cd8640",
   "titre": "OpenClaw 2026.9.36 : version étendue stable et correctifs critiques",

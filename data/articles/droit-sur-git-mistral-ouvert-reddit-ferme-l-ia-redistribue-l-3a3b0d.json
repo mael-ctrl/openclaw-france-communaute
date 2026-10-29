@@ -1,0 +1,41 @@
+{
+ "slug": "droit-sur-git-mistral-ouvert-reddit-ferme-l-ia-redistribue-l-3a3b0d",
+ "titre": "Droit sur Git, Mistral ouvert, Reddit fermé : l'IA redistribue les cartes",
+ "chapo": "Un dépôt Git pour rendre tout le droit mondial interrogeable sous licence CC0, Mistral qui ouvre les poids de son modèle à 1 000 milliards de paramètres, Reddit qui se referme derrière une connexion obligatoire : la même semaine, l'IA bouscule à la fois les corpus, les modèles et les accès.",
+ "html": "<h2 id=\"global-law-le-droit-versionne-attribuabl\">Global Law : le droit versionné, attribuable, requêtable</h2>\n<p>Le projet <strong>Global Law</strong>, publié sur r/LocalLLaMA, a atteint la première place sur Hacker News. Son but est énoncé sans détour : rendre l'ensemble du droit <em>sémantique</em>, versionné, facilement attribuable et interrogeable par des agents. Le tout sous licence <strong>CC0</strong>, donc librement réutilisable. Le dépôt est hébergé sur GitHub, et son auteur dit travailler depuis des mois sur des graphes de connaissances appliqués à de gros corpus juridiques.</p>\n<p>Les qualités revendiquées ne sont pas décoratives. Le versionnement, dans un dépôt Git, c'est la possibilité de conserver l'historique des modifications d'un texte. L'attribution, c'est le lien maintenu entre une réponse et le passage source dont elle découle. Quant à l'interrogation par des agents, elle déplace l'usage : le droit devient une matière première que l'on requête, pas un PDF que l'on parse.</p>\n<p>Le choix de la licence CC0 est cohérent avec cette ambition : pas de barrière d'usage pour les réutilisateurs, pas de dépendance à un fournisseur unique pour l'accès aux textes. Reste que la dépêche ne dit rien de la couverture réelle du corpus, ni des juridictions déjà intégrées — c'est justement ce que la discussion sur Hacker News devrait permettre de vérifier.</p>\n<h2 id=\"mistral-large-4-les-poids-ouverts-et-un-\">Mistral Large 4 : les poids ouverts, et un détail qui compte</h2>\n<p>Sur r/LocalLLaMA, <strong>Mistral Large 4</strong> est présenté comme un « BIG BOY » de 1 000 milliards de paramètres (1T). Le lien renvoie au billet publié sur le blog Hugging Face de Mistral, avec une ancre pointant vers une section consacrée à <strong>llama.cpp</strong>. C'est ce détail qui intéresse la communauté du modèle local, davantage que la taille brute du modèle.</p>\n<p>La raison de cet intérêt est simple : llama.cpp, c'est la voie d'exécution hors des serveurs du concepteur. Et c'est précisément ce que confirme L'Usine Digitale. Mistral AI ouvre les poids de son modèle, dévoilé le 6 octobre, désormais téléchargeable sur Hugging Face. Trois semaines d'entraînement par renforcement et de tests auprès de clients comme <strong>ASML, Cisco, Microsoft ou Orange Cyberdefense</strong> ont précédé cette ouverture.</p>\n<p>Conséquence directe pour les entreprises : déployer le modèle sur leur propre infrastructure, sans dépendre uniquement de l'API de son concepteur. Un modèle à 1T de paramètres qui sort de l'API, c'est un changement de nature pour ceux qui refusent d'envoyer leurs données à l'extérieur — à condition d'avoir les machines qui vont avec, point sur lequel la dépêche reste muette.</p>\n<h2 id=\"reddit-referme-la-porte-que-l-ia-a-pouss\">Reddit referme la porte que l'IA a poussée</h2>\n<p>Reddit annonce faire évoluer sa plateforme vers une expérience réservée aux utilisateurs connectés, alors que le trafic venu des moteurs de recherche se tarit. L'entreprise, historiquement bâtie sur le web ouvert, revoit ce modèle pour protéger son audience et son activité. En cause, selon TechCrunch : <strong>l'IA</strong>, qui transforme la manière dont les internautes trouvent l'information en ligne.</p>\n<p>Le raisonnement se tient : si les réponses arrivent directement dans un agent ou un moteur, la visite sur le site d'origine disparaît, et avec elle la page vue, le compte créé, la publicité. Le passage à une expérience connectée ressemble à une tentative de reprendre la main sur la relation avec le lecteur.</p>\n<p>Il faut noter le télescopage : les deux dépêches de la semaine qui concernent Reddit parlent de la même plateforme, l'une pour y annoncer un projet de corpus juridique ouvert, l'autre pour acter un durcissement de l'accès. Les deux faits coexistent sans que l'on puisse établir que l'un entraîne l'autre.</p>\n<h2 id=\"gemini-4-carbon-detrone-claude-opus-5-5\">Gemini 4 Carbon détrône Claude Opus 5.5</h2>\n<p>Changement de tête au classement d'<strong>Artificial Analysis</strong> : <strong>Gemini 4 Carbon</strong> devient le meilleur modèle du marché, et <strong>Claude Opus 5.5</strong> perd sa première place. Google passe donc devant, sur un référentiel public que beaucoup consultent avant de trancher.</p>\n<p>Ce basculement compte pour tous ceux qui s'appuient sur ces classements pour choisir un modèle. Il rappelle aussi leur fragilité : un rang n'est jamais acquis, et la hiérarchie bouge à l'échelle de quelques semaines. La dépêche ne détaille ni les écarts de score, ni les catégories de tâches concernées.</p>\n<h2>Et maintenant ?</h2>\n<p>Mis bout à bout, ces quatre sujets dessinent trois terrains distincts. Celui des corpus, avec un droit transformé en dépôt interrogeable et librement réutilisable. Celui des modèles, avec des poids ouverts qui quittent l'API pour l'infrastructure du client. Celui des accès, avec une plateforme communautaire qui se referme à mesure que la recherche se déplace. Aucun de ces mouvements ne dépend directement des autres, mais tous répondent à la même pression : quand les agents deviennent le point d'entrée vers l'information, la valeur se déplace vers ceux qui détiennent les textes, les poids et les tuyaux.</p>",
+ "pivot": "3a3b0da4258d6c7b",
+ "tags": [
+  "open-source",
+  "agents",
+  "mistral",
+  "gemini"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xiv58m/git_for_global_law_global_law_querable_in_git/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xilhng/le_chonk_is_here/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/mistral-ai/desormais-ouvert-mistral-large-4-peut-il-rivaliser-avec-les-modeles-chinois-les-plus-performants.ONUACF5OUZGB7OLBK5O7CEE24Q.html"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/29/claude-perd-sa-couronne-la-nouvelle-meilleure-ia-du-monde-est-gemini-4-carbon-de-google/"
+  }
+ ],
+ "date": "2026-10-29T22:41:43+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1575,
+  "sortie": 3343
+ }
+}

@@ -1,5 +1,128 @@
 [
  {
+  "id": "e28f6df46af1ec6f",
+  "slug": "les-agents-dots-d-openai-debarquent-dans-google-messages-e28f6d",
+  "titre": "Les agents Dots d'OpenAI débarquent dans Google Messages",
+  "resume": "OpenAI permet à ses agents IA Dots d'échanger avec leurs utilisateurs directement depuis Google Messages. Le déploiement, en avant-première aux États-Unis, s'appuie sur le protocole RCS. Les assistants peuvent ainsi envoyer des mises à jour sur leurs avancées ou demander des informations complémentaires dans un fil de conversation dédié.",
+  "tags": [
+   "openai",
+   "chatgpt",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/openai/3302427_chatgpt-debarque-dans-google-messages-avec-ses-agents-dots",
+  "date_source": "2026-10-29T08:11:09+00:00",
+  "date_redac": "2026-10-29T08:17:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 679,
+   "sortie": 357
+  }
+ },
+ {
+  "id": "a62932925792ad5f",
+  "slug": "xreal-aura-les-lunettes-android-xr-ouvrent-leurs-commandes-avec-une-ba-a62932",
+  "titre": "Xreal Aura : les lunettes Android XR ouvrent leurs commandes avec une baisse de prix",
+  "resume": "Les Xreal Aura, les lunettes de Google, ouvrent leurs commandes avec une baisse de prix avant même leur arrivée sur le marché. Ces lunettes filaires tournent sous Android XR et affichent plusieurs écrans virtuels. Gemini est de la partie, avec plus de 150 expériences conçues pour la réalité étendue.",
+  "tags": [
+   "matériel",
+   "gemini"
+  ],
+  "importance": 2,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/29/xreal-aura-les-lunettes-de-google-coutent-moins-cher-avant-meme-darriver/",
+  "date_source": "2026-10-29T07:29:31+00:00",
+  "date_redac": "2026-10-29T08:17:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 674,
+   "sortie": 595
+  }
+ },
+ {
+  "id": "a6cbca5114b343de",
+  "slug": "lime-la-methode-qui-reduit-de-15-le-calcul-d-entrainement-des-llm-a6cbca",
+  "titre": "LIMe, la méthode qui réduit de 15 % le calcul d'entraînement des LLM",
+  "resume": "À l'EMNLP 2026, conférence A* en Hongrie, des chercheurs de T-Tech ont présenté LIMe. Cette extension légère de l'attention exploite les buffers clé-valeur déjà maintenus par couche et ajoute des poids de routage apprenables, par tête et par couche. Objectif : limiter l'effondrement des représentations, où les tokens se ressemblent de plus en plus. Gain annoncé : environ 15 % de calcul en moins, à qualité égale.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xid3i8/researchers_discover_a_way_to_reduce_llm_training/",
+  "date_source": "2026-10-29T07:11:57+00:00",
+  "date_redac": "2026-10-29T08:17:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 801,
+   "sortie": 1318
+  }
+ },
+ {
+  "id": "da1d3c3b6850eb98",
+  "slug": "sur-r-localllama-un-utilisateur-juge-qwen-3-8-flash-next-decevant-en-e-da1d3c",
+  "titre": "Sur r/LocalLLaMA, un utilisateur juge Qwen 3.8 Flash Next décevant en écriture créative",
+  "resume": "Sur r/LocalLLaMA, un utilisateur rapporte son expérience mitigée avec Qwen 3.8 Flash Next en écriture créative. Sur une machine à double MI50 32 Go, il fait tourner une version « abliterated » du modèle quantifié IQ3_S et juge les histoires produites incohérentes, préférant Gemma 3. Il avance trois pistes : un modèle agentique peu doué pour l'écriture, une erreur de configuration de son côté, ou une variante abliterated ratée.",
+  "tags": [
+   "open-source",
+   "agents",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xid0cz/qwen_38_flash_next_creative_writing_ability/",
+  "date_source": "2026-10-29T07:06:21+00:00",
+  "date_redac": "2026-10-29T08:17:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 825,
+   "sortie": 711
+  }
+ },
+ {
+  "id": "7442804a406267fc",
+  "slug": "hermes-agent-publie-une-build-canary-v0-22-5-744280",
+  "titre": "Hermes Agent publie une build canary v0.22.5",
+  "resume": "Hermes Agent, l'agent publié par NousResearch, met en ligne une build canary estampillée v0.22.5+canary.20261029T064840Z. La release est datée du 29 octobre 2026 à 06:48 UTC sur le dépôt GitHub du projet. L'extrait disponible ne précise ni le contenu ni les correctifs embarqués dans cette version de test.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5%2Bcanary.20261029T064840Z",
+  "date_source": "2026-10-29T06:48:41+00:00",
+  "date_redac": "2026-10-29T08:17:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 753
+  }
+ },
+ {
+  "id": "22fca7397fed3763",
+  "slug": "nvidia-dlss-5-l-ia-travaille-aussi-le-rendu-des-eclairages-et-des-mate-22fca7",
+  "titre": "Nvidia DLSS 5 : l'IA travaille aussi le rendu des éclairages et des matériaux",
+  "resume": "Avec sa version 5, le DLSS de Nvidia ne se limite plus aux gains de performances : la technologie s'attaque désormais au rendu des éclairages et des matériaux. L'objectif poursuivi est de tendre vers davantage de réalisme dans les jeux. Le DLSS reste donc un levier à double détente pour Nvidia, entre fluidité et qualité d'image.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/produits-android/hardware/cartes-graphiques/3300607_dlss-5-comment-nvidia-veut-rendre-vos-jeux-plus-realistes-grace-a-lia",
+  "date_source": "2026-10-29T06:47:00+00:00",
+  "date_redac": "2026-10-29T08:17:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 692,
+   "sortie": 597
+  }
+ },
+ {
   "id": "2568456569b56073",
   "slug": "gemini-4-carbon-de-google-domine-les-evaluations-independantes-256845",
   "titre": "Gemini 4 Carbon de Google domine les évaluations indépendantes",

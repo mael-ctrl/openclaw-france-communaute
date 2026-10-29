@@ -233,6 +233,8 @@ a:hover { color: var(--accent); }
 
 /* ---------------- Outils de page (actus) ---------------- */
 .barre-outils { display: flex; flex-direction: column; gap: 14px; margin: 26px 0 30px; }
+.barre-outils[hidden] { display: none; }
+#liste-actus .carte[hidden] { display: none; }
 #recherche {
   background: var(--carte); border: 1px solid var(--bord-clair); color: var(--texte);
   font-size: .95rem; padding: 12px 16px; border-radius: 12px; max-width: 430px; font-family: var(--sans);

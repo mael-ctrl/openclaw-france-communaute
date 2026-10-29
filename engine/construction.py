@@ -446,7 +446,7 @@ def page_actus(breves, numero=1, archives=False):
             if t not in tags_vues:
                 tags_vues.append(t)
     for t in sorted(tags_vues)[:14]:
-        chips += f'<button class="filtre" data-tag="{ech(t)}">{ech(t)}</button>'
+        chips += f'<button type="button" class="filtre" data-tag="{ech(t)}" aria-pressed="false">{ech(t)}</button>'
     cartes = "".join(carte_breve(b) for b in selection)
     contenu = f"""
 <section class="section">
@@ -455,9 +455,11 @@ def page_actus(breves, numero=1, archives=False):
     <h1 class="titre-page">{titre}</h1>
     <p class="intro-page">Les brèves disponibles, du plus récent au plus ancien, par pages de 100. Elles citent leur source d'origine — cliquez, vérifiez, comparez.</p>
     <p class="intro-page">{contexte}</p>
-    <div class="barre-outils">
+    <div class="barre-outils" id="outils-actus" hidden>
+      <label for="recherche">Rechercher sur cette page</label>
       <input type="search" id="recherche" placeholder="Rechercher sur cette page…" aria-label="Rechercher sur cette page">
-      <div class="filtres" id="filtres"><button class="filtre actif" data-tag="">Tout</button>{chips}</div>
+      <div class="filtres" id="filtres"><button type="button" class="filtre" data-tag="" aria-pressed="false">Tout</button>{chips}</div>
+      <p id="resultats-actus" role="status" aria-live="polite" aria-atomic="true"></p>
     </div>
     <div class="grille" id="liste-actus">{cartes or '<p class="vide">Rien pour le moment — repassez dans quelques minutes.</p>'}</div>
     <p class="vide" id="aucun-resultat" hidden>Aucun résultat sur cette page. Essayez une autre page du fil.</p>

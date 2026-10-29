@@ -8,11 +8,20 @@ document.addEventListener('DOMContentLoaded', function () {
     var cartes = Array.prototype.slice.call(grille.querySelectorAll('.carte'));
     var filtres = Array.prototype.slice.call(document.querySelectorAll('#filtres .filtre'));
     var recherche = document.getElementById('recherche');
+    var outils = document.getElementById('outils-actus');
     var aucun = document.getElementById('aucun-resultat');
+    var statut = document.getElementById('resultats-actus');
+    var annonceEnAttente;
     var tagActif = '';
-    var requete = '';
+    var requete = recherche ? recherche.value.trim().toLowerCase() : '';
 
-    function appliquer() {
+    function appliquer(delaiAnnonce) {
+      window.clearTimeout(annonceEnAttente);
+      filtres.forEach(function (bouton) {
+        var actif = (bouton.getAttribute('data-tag') || '') === tagActif;
+        bouton.classList.toggle('actif', actif);
+        bouton.setAttribute('aria-pressed', String(actif));
+      });
       var visibles = 0;
       cartes.forEach(function (carte) {
         var tags = (carte.getAttribute('data-tags') || '').split(',');
@@ -24,22 +33,30 @@ document.addEventListener('DOMContentLoaded', function () {
         if (visible) { visibles += 1; }
       });
       if (aucun) { aucun.hidden = visibles > 0; }
+      if (statut && typeof delaiAnnonce === 'number') {
+        annonceEnAttente = window.setTimeout(function () {
+          var message = visibles + (visibles > 1 ? ' résultats' : ' résultat') + ' sur cette page.';
+          if (statut.textContent !== message) { statut.textContent = message; }
+        }, delaiAnnonce);
+      }
     }
 
     filtres.forEach(function (bouton) {
       bouton.addEventListener('click', function () {
-        filtres.forEach(function (b) { b.classList.remove('actif'); });
-        bouton.classList.add('actif');
         tagActif = bouton.getAttribute('data-tag') || '';
-        appliquer();
+        appliquer(0);
       });
     });
 
     if (recherche) {
       recherche.addEventListener('input', function () {
         requete = recherche.value.trim().toLowerCase();
-        appliquer();
+        appliquer(250);
       });
+    }
+    if (outils && cartes.length) {
+      appliquer();
+      outils.hidden = false;
     }
   }
 

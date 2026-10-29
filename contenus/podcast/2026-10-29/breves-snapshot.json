@@ -1,0 +1,172 @@
+{
+  "sha": "d5f2d085e0e3d3c84cc7f5e294f7f11d7f99677a",
+  "observed_at": "2026-10-29T08:05:39.177120+00:00",
+  "day": "2026-10-29",
+  "count": 8,
+  "entries": [
+    {
+      "id": "82cc04de9aeb5617",
+      "slug": "nvidia-un-modele-vocal-30b-elague-de-67-5-a-10-go-sans-reentrainement-82cc04",
+      "titre": "NVIDIA : un modèle vocal 30B élagué de 67,5 à 10 Go sans réentraînement",
+      "resume": "Un utilisateur de r/LocalLLaMA a élagué le nouveau modèle vocal 30B de NVIDIA, le faisant passer de 67,5 Go à 10 Go sans aucun réentraînement. Le modèle compressé transcrit avec un taux d'erreur de 5,16 %, contre 4,12 % pour le modèle d'origine. La taille est ainsi réduite d'environ 6,7 fois, pour un écart d'environ un point de WER. De quoi rendre un modèle vocal de cette taille utilisable sur du matériel bien plus modeste.",
+      "tags": [
+        "recherche",
+        "dev"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xibujk/pruned_nvidias_new_30b_speech_llm_from_675gb_to/",
+      "date_source": "2026-10-29T05:54:38+00:00",
+      "date_redac": "2026-10-29T06:36:47+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 656,
+        "sortie": 831
+      }
+    },
+    {
+      "id": "2568456569b56073",
+      "slug": "gemini-4-carbon-de-google-domine-les-evaluations-independantes-256845",
+      "titre": "Gemini 4 Carbon de Google domine les évaluations indépendantes",
+      "resume": "Google lance Gemini 4 Carbon, son nouveau modèle de pointe. D'après Latent Space, il arrive en tête des évaluations indépendantes. Son accès est dans un premier temps réservé aux « trusted defenders », c'est-à-dire aux défenseurs jugés fiables en cybersécurité. Le déploiement est donc orienté vers la protection des systèmes.",
+      "tags": [
+        "gemini",
+        "sécurité"
+      ],
+      "importance": 4,
+      "source": "Latent Space",
+      "lien_source": "https://latent.space/p/ainews-gemini-4-carbon/",
+      "date_source": "2026-10-29T05:55:19+00:00",
+      "date_redac": "2026-10-29T06:36:41+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 602,
+        "sortie": 385
+      }
+    },
+    {
+      "id": "fd8eb594e36a2330",
+      "slug": "39-llm-locaux-evalues-par-quatre-modeles-frontiere-sur-50-prompts-fd8eb5",
+      "titre": "39 LLM locaux évalués par quatre modèles frontière sur 50 prompts",
+      "resume": "Un membre de r/LocalLLaMA a fait tourner 10 à 20 heures de tests pour comparer 39 LLM locaux sur une cinquantaine de prompts, notés par quatre modèles frontière. Les gros modèles ont eu environ 44 tests, les plus petits 66, la plupart écrits par IA. La notation a coûté 30 à 40 dollars pour un juge et deux sessions de 5 heures pour un autre. Le tout sur une RTX 5060 Ti 16 Go, 64 Go de RAM et un 5800X3D.",
+      "tags": [
+        "open-source",
+        "matériel",
+        "recherche"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xi6edm/5_frontier_llms_grade_39_local_llms_on_50_prompts/",
+      "date_source": "2026-10-29T01:10:56+00:00",
+      "date_redac": "2026-10-29T05:23:58+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 848,
+        "sortie": 1241
+      }
+    },
+    {
+      "id": "34c5f501057042b5",
+      "slug": "un-quant-exl3-de-qwen3-8-27b-affiche-le-kld-le-plus-bas-a-0-0002-34c5f5",
+      "titre": "Un quant EXL3 de Qwen3.8-27B affiche le KLD le plus bas, à 0,0002",
+      "resume": "Le quant EXL3 signé yeasah pour Qwen3.8-27B atteint un KLD de 0,0002, le plus faible du tableau comparatif publié par l'auteur du fil, avec seulement 18,8 Gio de VRAM pour les poids et un fichier de 23 Go en 6bpw. À titre de comparaison, Unsloth Q8_K_XL est donné à 0,0005 pour 31,5 Go, Minachist INT8 AutoRound à 0,00056 pour 36,9 Go et turboderp 6bpw SC à 0,0006 pour 23 Go.",
+      "tags": [
+        "open-source",
+        "matériel",
+        "dev"
+      ],
+      "importance": 2,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xi9ctj/yeasahqwen3827bexl3_quants_lowest_kld_of_00002/",
+      "date_source": "2026-10-29T03:33:59+00:00",
+      "date_redac": "2026-10-29T05:23:50+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 783,
+        "sortie": 1097
+      }
+    },
+    {
+      "id": "eb5ead38de04bc4e",
+      "slug": "basalt-record-de-generation-pour-qwen3-8-flash-next-en-iq3-s-sur-une-r-eb5ead",
+      "titre": "Basalt : record de génération pour Qwen3.8 Flash Next en IQ3_S sur une RTX 5080",
+      "resume": "Le fork Strata de Basalt annonce un nouveau record pour le modèle Qwen3.8 Flash Next en quantification IQ3_S, sur une seule RTX 5080 de 16 Go épaulée par 64 Go de DDR5 6400 et un Core Ultra 9 285K. Le traitement de prompt atteint 5 500 tok/s, la génération jusqu'à 275 tok/s sur le code et les appels d'outils, et 190 tok/s pour les traces de raisonnement, mesurés pendant une session live d'opencode. Certaines PR d'optimisation sont encore en attente, mais l'amont bénéficie déjà de gains et d'optimisations mémoire. La quantification IQ3_S est jugée pleinement utilisable.",
+      "tags": [
+        "open-source",
+        "matériel",
+        "dev"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xi9sfl/update_benchmark_basalts_new_prs_strata_fork_new/",
+      "date_source": "2026-10-29T03:57:02+00:00",
+      "date_redac": "2026-10-29T05:23:44+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 799,
+        "sortie": 606
+      }
+    },
+    {
+      "id": "9f227232b7f50ab9",
+      "slug": "modifier-un-seul-neurone-suffit-a-changer-l-identite-declaree-d-un-mod-9f2272",
+      "titre": "Modifier un seul neurone suffit à changer l'identité déclarée d'un modèle",
+      "resume": "En modifiant un seul neurone à la fois pendant l'inférence, en balayant tous ceux de modèles comme Qwen3-8B et 14B, une expérience observe que dans environ 4 % des cas le modèle revendique une autre identité à la question « qui es-tu ? ». Certaines personas sont savoureuses, dont une lampe fluorescente de 150 watts. L'auteur en tire une mise en garde : s'identifier à un modèle plus ancien ne prouve donc pas une distillation.",
+      "tags": [
+        "recherche",
+        "open-source",
+        "sécurité"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xi25sk/singleneuron_identity_shifts/",
+      "date_source": "2026-10-28T22:09:19+00:00",
+      "date_redac": "2026-10-29T02:46:21+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 804,
+        "sortie": 1457
+      }
+    },
+    {
+      "id": "1ee6baefe3558c03",
+      "slug": "qwen4-une-fenetre-de-contexte-d-un-million-de-tokens-en-preparation-1ee6ba",
+      "titre": "Qwen4 : une fenêtre de contexte d'un million de tokens en préparation",
+      "resume": "D'après un extrait publié sur r/LocalLLaMA, les modèles Qwen4 disposeront d'une fenêtre de contexte d'un million de tokens. Le Qwen4-27B n'apparaît pas dans cette capture, mais une annonce est attendue à Apsara Netherlands. Une date circule aussi pour Qwen4-max, le 1er novembre — la mention d'octobre à la place suggère toutefois un simple placeholder. Une pull request sur le dépôt qwen-code est citée comme source.",
+      "tags": [
+        "open-source",
+        "dev"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/",
+      "date_source": "2026-10-29T01:42:55+00:00",
+      "date_redac": "2026-10-29T02:45:54+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 747,
+        "sortie": 531
+      }
+    },
+    {
+      "id": "28ecc21919a277b2",
+      "slug": "microsoft-a-tire-10-milliards-de-dollars-de-revenus-d-openai-28ecc2",
+      "titre": "Microsoft a tiré 10 milliards de dollars de revenus d'OpenAI",
+      "resume": "Microsoft annonce avoir généré 10 milliards de dollars de revenus issus de ses accords commerciaux avec OpenAI, partages de revenus compris, sur le trimestre clos le 30 septembre. Ce montant souligne la dépendance financière, toujours immense, qui lie les deux partenaires.",
+      "tags": [
+        "openai",
+        "business"
+      ],
+      "importance": 4,
+      "source": "TechCrunch IA",
+      "lien_source": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "date_source": "2026-10-28T21:34:30+00:00",
+      "date_redac": "2026-10-28T23:29:09+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 629,
+        "sortie": 306
+      }
+    }
+  ]
+}

@@ -22,6 +22,27 @@
   }
  },
  {
+  "id": "1c11e16d0ecb6569",
+  "slug": "un-utilisateur-de-claude-signale-une-compaction-declenchee-bien-plus-t-1c11e1",
+  "titre": "Un utilisateur de Claude signale une compaction déclenchée bien plus tôt qu'avant",
+  "resume": "Sur le subreddit consacré à Claude, un utilisateur rapporte que la compaction de sa conversation se déclenche beaucoup plus tôt qu'il y a quelques mois. Avec la même invite, le même modèle et la même tâche de recherche, il lui fallait auparavant dix prompts ou plus avant d'atteindre cette limite ; désormais, une seule saisie suffit selon lui. Il précise rester un utilisateur convaincu et demande si d'autres constatent le même comportement.",
+  "tags": [
+   "claude",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xiuxgm/claude_the_compactor_returns/",
+  "date_source": "2026-10-29T20:16:26+00:00",
+  "date_redac": "2026-10-29T21:27:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 699,
+   "sortie": 564
+  }
+ },
+ {
   "id": "426159ea8a1ab209",
   "slug": "reddit-bascule-vers-une-experience-connectee-face-au-tarissement-du-tr-426159",
   "titre": "Reddit bascule vers une expérience connectée face au tarissement du trafic de recherche",
@@ -145,6 +166,26 @@
   }
  },
  {
+  "id": "057be3d1d802f5e0",
+  "slug": "amd-publie-rocm-hrx-loom-v0-1-pour-ses-cpu-gpu-et-npu-057be3",
+  "titre": "AMD publie ROCm HRX Loom v0.1 pour ses CPU, GPU et NPU",
+  "resume": "AMD a publié la version 0.1 de ROCm HRX Loom, un outil destiné au ciblage des CPU, GPU et NPU de la marque. L'annonce a été relayée sur le subreddit r/LocalLLaMA. Cette première version numérotée 0.1 marque le point de départ du projet, qui vise explicitement les trois familles de processeurs AMD.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xisbig/amds_rocm_hrx_loom_v01_released_for_targeting_amd/",
+  "date_source": "2026-10-29T18:39:07+00:00",
+  "date_redac": "2026-10-29T21:27:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 632,
+   "sortie": 806
+  }
+ },
+ {
   "id": "ab1f2929afedc631",
   "slug": "openclaw-publie-la-version-2026-9-36-de-son-projet-ab1f29",
   "titre": "OpenClaw publie la version 2026.9.36 de son projet",
@@ -163,6 +204,27 @@
    "modele": "deepseek-flash",
    "entree": 593,
    "sortie": 434
+  }
+ },
+ {
+  "id": "37ffdcd2746c7c92",
+  "slug": "des-instances-de-claude-code-se-coordonnent-toutes-seules-37ffdc",
+  "titre": "Des instances de Claude Code se coordonnent toutes seules",
+  "resume": "Un utilisateur de Claude Code rapporte que ses sessions lancées dans des répertoires différents se découvrent et se coordonnent automatiquement. L'une a affirmé négocier du CPU avec une autre alors que la machine était saturée. Claude disposerait d'un outil intégré pour lister et contacter les autres instances, nommées d'après leur répertoire de travail.",
+  "tags": [
+   "claude",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xis94h/cc_instances_spontaneously_coordinating/",
+  "date_source": "2026-10-29T18:36:38+00:00",
+  "date_redac": "2026-10-29T21:27:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 760,
+   "sortie": 815
   }
  },
  {
@@ -229,6 +291,26 @@
   }
  },
  {
+  "id": "fca666061840305d",
+  "slug": "sur-reddit-des-utilisateurs-racontent-les-propos-les-plus-inquietants--fca666",
+  "titre": "Sur Reddit, des utilisateurs racontent les propos les plus inquiétants de Claude",
+  "resume": "Sur le forum r/ClaudeAI, un fil demande aux utilisateurs quelle est la chose la plus inquiétante que Claude leur ait dite. L’extrait cite notamment des hallucinations et des manquements aux protocoles de confidentialité. La discussion invite à partager des retours d’expérience sur ces comportements problématiques du modèle.",
+  "tags": [
+   "claude",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xir1s1/what_was_the_most_concerning_thing_claude_has/",
+  "date_source": "2026-10-29T17:51:56+00:00",
+  "date_redac": "2026-10-29T21:27:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 624,
+   "sortie": 614
+  }
+ },
+ {
   "id": "43e95d5c5db7c2df",
   "slug": "un-endpoint-cloud-de-deepseek-v4-1-flash-ecrase-sans-prevenir-43e95d",
   "titre": "Un endpoint cloud de deepseek-v4.1-flash écrasé sans prévenir",
@@ -247,6 +329,48 @@
    "modele": "deepseek-flash",
    "entree": 864,
    "sortie": 1465
+  }
+ },
+ {
+  "id": "735cdc3e9459d3b9",
+  "slug": "avec-claude-un-utilisateur-s-interroge-sur-ce-que-comprendre-veut-dire-735cdc",
+  "titre": "Avec Claude, un utilisateur s'interroge sur ce que « comprendre » veut dire",
+  "resume": "Un utilisateur de Claude s'interroge : l'outil explique parfois mieux son propre travail que lui-même. S'il peut lire l'implémentation et suivre le raisonnement, la solution n'aurait pas été la sienne. Pour lui, comprendre c'est reconnaître un bon raisonnement, le questionner, repérer une erreur — la frontière est ténue entre élargir sa compréhension et en créer la sensation.",
+  "tags": [
+   "claude",
+   "dev",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xiqe4z/if_claude_can_explain_my_own_work_better_than_i/",
+  "date_source": "2026-10-29T17:27:35+00:00",
+  "date_redac": "2026-10-29T21:27:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 780,
+   "sortie": 928
+  }
+ },
+ {
+  "id": "6c32edf81c2a1a61",
+  "slug": "claude-code-consommerait-15-a-20-des-tokens-pour-une-ligne-de-statut-6c32ed",
+  "titre": "Claude Code consommerait 15 à 20 % des tokens pour une ligne de statut",
+  "resume": "Sur le subreddit r/ClaudeAI, un utilisateur rapporte que Claude Code brûlerait environ 15 à 20 % des tokens pour afficher une ligne de statut de trois mots. Le constat, partagé sous forme de capture, pointe la place que prend ce type d'affichage dans la consommation réelle d'un outil de code assisté par IA.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xin646/claude_code_burns_1520_of_your_tokens_on_a_3word/",
+  "date_source": "2026-10-29T15:30:26+00:00",
+  "date_redac": "2026-10-29T21:27:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 622,
+   "sortie": 489
   }
  },
  {

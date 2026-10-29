@@ -291,46 +291,116 @@ choix recommandé — et vous ne perdez rien.
 
 ---
 
-## 5. Étape 4 — Sauvegardes automatiques (cron)
+## 5. Étape 4 — Sauvegarder, puis vérifier la planification
 
-Une sauvegarde permet de tout restaurer après une erreur, une mise à jour ratée
-ou un serveur perdu. Elle contient l'état, la configuration, les identifiants et
-les espaces de travail. **Règle d'or officielle : jamais de copie « à chaud » des
-fichiers `.sqlite`** — il faut passer par la commande de sauvegarde dédiée (c'est
-ce que fait notre script).
+Le script du kit lance `openclaw backup create --verify`, puis applique sa
+rétention. Il ne programme rien à l'installation. **Ne copiez jamais les
+fichiers SQLite à chaud** : utilisez la commande officielle. Une archive
+vérifiée n'est **pas un essai de restauration**, ni une garantie de tout récupérer.
 
-**Test immédiat** (dans le dossier du kit) :
+### 5.1 Essai manuel : choisissez la méthode et le bon dossier
 
-```bash
-bash scripts/sauvegarde.sh
-ls -lh sauvegardes/          # une archive .tar.gz vérifiée doit apparaître
-```
+Depuis le dossier du kit, lancez **une seule** des commandes suivantes, selon
+l'installation que vous voulez protéger.
 
-**Programmation automatique** — tous les jours à 3 h 30 :
+**Installation classique :**
 
 ```bash
-crontab -e
-# puis ajoutez cette ligne (remplacez le chemin par le vôtre) :
-30 3 * * * /chemin/vers/kit-openclaw/scripts/sauvegarde.sh >> /chemin/vers/kit-openclaw/sauvegardes/journal.log 2>&1
+MODE=classique bash scripts/sauvegarde.sh
 ```
 
-*(nano s'ouvre : collez la ligne à la fin, puis Ctrl+O, Entrée, Ctrl+X.)*
+L'archive est créée par défaut dans **`~/Backups/openclaw`**, pas dans le
+sous-dossier `sauvegardes/` du kit. `DOSSIER_BACKUPS` permet de choisir un autre
+dossier pour cette méthode : reprenez alors le même réglage lors de la
+planification. La destination ne doit pas se trouver dans les données à sauvegarder.
 
-Le script conserve 14 jours de sauvegardes par défaut (`RETENTION_JOURS` en tête
-du fichier pour changer), et la doc officielle propose aussi un planificateur
-intégré (`openclaw backup enable`, avec ses options : voir
-[docs.openclaw.ai/install/backups](https://docs.openclaw.ai/install/backups)).
+**Installation Docker :** moteur et passerelle du kit démarrés, avec les
+montages et droits préparés à l'étape 3 :
 
-**Deux réflexes en plus :**
+```bash
+MODE=docker bash scripts/sauvegarde.sh
+```
 
-- Une sauvegarde vit ailleurs : copiez de temps en temps le dossier `sauvegardes/`
-  sur un disque externe ou un stockage cloud privé.
-- Les archives contiennent des secrets : traitez-les comme vos mots de passe.
+L'archive se trouve dans **`sauvegardes/` à la racine du kit**, monté en
+`/home/node/sauvegardes` dans le conteneur. Le script fixe cette destination
+à partir du Compose ; `DOSSIER_BACKUPS` ne la déplace pas en mode Docker.
 
-**Restauration (en cas de pépin)** — elle est volontairement manuelle, en deux
-temps (vérifier/extraction, puis activation), tout est documenté :
-`openclaw backup restore archive.tar.gz --target ./restauration` puis suivez
-[docs.openclaw.ai/install/backups](https://docs.openclaw.ai/install/backups).
+Sans réglage, `MODE=auto` privilégie la commande locale `openclaw` si elle
+existe, même si Docker est aussi installé. **Fixer le mode évite de sauvegarder
+la mauvaise installation.** Vérifiez le message de destination, la présence
+d'une nouvelle archive `.tar.gz`, sa taille et l'absence d'erreur de vérification
+avant de passer à la planification.
+
+### 5.2 Préparer le journal avant la tâche cron
+
+Sur la machine et avec le compte qui exécutera la sauvegarde, créez d'abord
+un dossier privé pour les journaux, distinct des archives :
+
+```bash
+mkdir -p "$HOME/Backups/openclaw-logs"
+chmod 700 "$HOME/Backups/openclaw-logs"
+```
+
+**Pourquoi avant ?** Le shell ouvre le journal avant de lancer le script.
+Si son dossier n'existe pas, la redirection échoue et la sauvegarde ne démarre
+pas, même si le script sait créer son propre dossier d'archives.
+
+Le script ajoute `~/.local/bin`, `/usr/local/bin` et `/usr/bin` au `PATH`,
+mais cron ne reprend pas votre terminal de connexion. Vérifiez les chemins
+avec `command -v openclaw`, `command -v node` ou `command -v docker`, selon
+votre méthode. Si nécessaire, ajoutez leurs dossiers dans la variable `PATH`
+du script et vérifiez que `/bin/bash` existe sur votre machine.
+
+Ouvrez votre table utilisateur avec `crontab -e` (pas celle de root).
+Ajoutez **une seule** ligne pour 3 h 30, selon la méthode testée. Remplacez
+`/chemin/vers/kit-openclaw` par le chemin absolu du kit et gardez les guillemets.
+L'heure suit le fuseau du service cron de cette machine ; elle n'est pas
+forcément celle de votre ordinateur.
+
+**Installation classique :**
+
+```cron
+30 3 * * * MODE=classique /bin/bash "/chemin/vers/kit-openclaw/scripts/sauvegarde.sh" >> "$HOME/Backups/openclaw-logs/sauvegarde.log" 2>&1
+```
+
+**Installation Docker :**
+
+```cron
+30 3 * * * MODE=docker /bin/bash "/chemin/vers/kit-openclaw/scripts/sauvegarde.sh" >> "$HOME/Backups/openclaw-logs/sauvegarde.log" 2>&1
+```
+
+Avant d'attendre la nuit, exécutez la partie de votre ligne située **après**
+`30 3 * * *` pour vérifier le lancement et la redirection. Cela ne teste pas
+le déclenchement par cron : contrôlez ensuite le journal et une nouvelle
+archive après l'heure prévue. La machine doit être allumée, le service cron
+actif et, en mode Docker, le moteur et la passerelle disponibles.
+
+Le script supprime les anciennes archives correspondantes après une sauvegarde
+réussie, avec `RETENTION_JOURS=14` par défaut. Vérifiez ce réglage avant usage.
+Le journal ci-dessus est ajouté à chaque exécution et n'est pas purgé par cette
+rétention : surveillez sa taille et prévoyez sa rotation séparément.
+
+La documentation propose aussi un planificateur intégré (`openclaw backup enable`).
+Choisissez une méthode adaptée ; ne cumulez pas les planifications par défaut.
+
+### 5.3 Conserver une copie et préparer la restauration
+
+- Les archives peuvent contenir des secrets et des conversations. Restreignez
+  leur accès ; le script du kit ne les chiffre pas.
+- Copiez le **dossier de destination de votre méthode**, pas un dossier vide
+  choisi par habitude, vers un autre support privé. Chiffrez la copie avant
+  un transfert externe ; ne publiez jamais une archive.
+- Préparez un essai de restauration vers un **dossier neuf dans un environnement
+  isolé**, sans écraser votre installation active. La restauration extrait les
+  fichiers ; l'activation est une opération séparée. Suivez la procédure
+  officielle et vérifiez le contenu avant toute remise en service.
+
+**Sources et limites — 2026-10-28 :** comportement de `scripts/sauvegarde.sh`,
+[commande backup officielle](https://docs.openclaw.ai/cli/backup) et
+[sauvegardes et restauration](https://docs.openclaw.ai/install/backups).
+Les exemples de lancement et de journal ont été testés dans des dossiers
+isolés avec des commandes OpenClaw/Docker simulées. **Ce contrôle ne valide
+ni une sauvegarde réelle, ni une restauration, ni le déclenchement par cron.**
 
 ---
 

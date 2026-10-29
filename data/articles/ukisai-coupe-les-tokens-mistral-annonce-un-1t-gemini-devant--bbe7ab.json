@@ -1,0 +1,41 @@
+{
+ "slug": "ukisai-coupe-les-tokens-mistral-annonce-un-1t-gemini-devant--bbe7ab",
+ "titre": "UkisAI coupe les tokens, Mistral annonce un 1T, Gemini devant Claude",
+ "chapo": "Trois façons de mesurer un modèle : les tokens de raisonnement chez UkisAI, les paramètres chez Mistral, le rang dans un classement pour Gemini 4 Carbon et Claude Opus 5.5. À côté de ces chiffres, Anthropic rachète une biotech d'un seul salarié et Gabriel Attal avance 200 milliards d'euros.",
+ "html": "<h2 id=\"ukisai-s-attaque-aux-tokens-de-trop\">UkisAI s'attaque aux tokens de trop</h2>\n<p>UkisAI étend sa série Swift avec deux modèles, <strong>Swift GLM-5.3-Flash</strong> et <strong>Swift Ornith 9B</strong>. Le problème visé est familier de quiconque a regardé un modèle de raisonnement réfléchir : une partie des tokens générés part dans ce que l'équipe qualifie de raisonnement pathologique. La méthode annoncée consiste à pénaliser ces tokens sans toucher à la longueur des réponses, puis à récupérer la précision perdue par post-entraînement — apprentissage par renforcement et distillation on-policy.</p>\n<p>Le chiffre mis en avant vient de MMLU-Pro : sur ce banc d'évaluation, GLM-5.3-Flash affiche <strong>-61,4 % de tokens de réflexion pour -0,46 % de perte de précision moyenne</strong>. Le modèle réfléchit donc beaucoup moins longtemps pour un résultat quasi identique sur cette mesure précise.</p>\n<p>La dépêche provient de r/LocalLLaMA et s'arrête à ce point de comparaison. MMLU-Pro ne dit rien de ce que la réduction coûte sur des tâches de code, de mathématiques ou d'usage agentique : le chiffre est net, sa portée reste à établir.</p>\n<h2 id=\"mistral-large-4-le-trillion-fait-moins-p\">Mistral Large 4 : le trillion fait moins parler que l'ancre</h2>\n<p>Toujours sur r/LocalLLaMA, un post annonce l'arrivée de <strong>Mistral Large 4</strong>, présenté par son auteur comme un « BIG BOY » de 1 000 milliards de paramètres. Le lien renvoie au billet publié sur le blog Hugging Face de Mistral.</p>\n<p>Le détail qui retient l'attention de la communauté du modèle local n'est pas la taille brute, mais l'ancre du lien : elle pointe vers une section consacrée à <strong>llama.cpp</strong>. Pour ce public, un modèle ne se juge pas sur sa fiche technique seule, mais sur l'outillage capable de le faire tourner. Qu'un billet officiel réserve une section à llama.cpp suffit à déplacer la lecture du post.</p>\n<p>À mille milliards de paramètres, la question de la diffusion locale se pose de toute façon en d'autres termes que pour un 9B.</p>\n<h2 id=\"artificial-analysis-gemini-4-carbon-pass\">Artificial Analysis : Gemini 4 Carbon passe devant Claude Opus 5.5</h2>\n<p>Le classement d'Artificial Analysis change de tête : <strong>Gemini 4 Carbon</strong> devient le meilleur modèle du marché selon ce tableau, et <strong>Claude Opus 5.5</strong> perd sa première place, rapporte Journal du Geek. Google passe donc devant Anthropic sur cette grille.</p>\n<p>Ce basculement compte pour tous ceux qui s'appuient sur ces classements publics pour choisir un modèle. Un changement de leader déplace les arbitrages, au moins à court terme, et rappelle que la hiérarchie dépend étroitement de ce que la grille mesure — la même question que pose la réduction de tokens de raisonnement chez UkisAI.</p>\n<h2 id=\"un-salarie-onze-laboratoires-et-200-mill\">Un salarié, onze laboratoires, et 200 milliards en campagne</h2>\n<p>Anthropic a annoncé le rachat de <strong>Mithril Medicine</strong>, une biotech qui ne compte qu'un seul salarié. Son fondateur a fait passer un traitement contre une myopathie de l'enfant de l'idée aux résultats chez la souris en moins de 18 mois, en confiant à Claude une bonne partie de la coordination de <strong>11 laboratoires</strong>. Le rachat porte donc sur une structure d'une personne, pas sur une équipe constituée.</p>\n<p>Sur un registre tout autre, Maddyness rapporte que <strong>Gabriel Attal</strong> propose un investissement de <strong>200 milliards d'euros</strong> dans l'IA et le quantique, dans la perspective de la présidentielle 2027. Le montant couvre deux technologies stratégiques et s'inscrit dans un positionnement de campagne. L'article original a été publié le 28 octobre 2026.</p>\n<h2>Et maintenant ?</h2>\n<p>Ce qui relie ces annonces, c'est la mesure. Tokens de réflexion chez UkisAI, milliards de paramètres chez Mistral, rang dans un classement pour Gemini 4 Carbon et Claude Opus 5.5, nombre de salariés chez Mithril Medicine, milliards d'euros chez Gabriel Attal : chaque chiffre éclaire un aspect précis et laisse le reste dans l'ombre. La comparaison entre modèles se jouera de moins en moins sur un seul de ces indicateurs.</p>",
+ "pivot": "bbe7abfc9148c4dd",
+ "tags": [
+  "mistral",
+  "gemini",
+  "claude",
+  "france"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xisqge/ukisai_swift_glm53_gsqrco_swift_ornith_9b_577/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xilhng/le_chonk_is_here/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/29/claude-perd-sa-couronne-la-nouvelle-meilleure-ia-du-monde-est-gemini-4-carbon-de-google/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/sciences/2362303-anthropic-rachete-la-biotech-dun-seul-chercheur-qui-pilotait-11-labos-avec-claude-pour-creer-un-medicament.html"
+  },
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/10/28/presidentielle-2027-gabriel-attal-veut-investir-200-milliards-deuros-dans-lia-et-le-quantique/"
+  }
+ ],
+ "date": "2026-10-29T19:12:08+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1561,
+  "sortie": 3855
+ }
+}

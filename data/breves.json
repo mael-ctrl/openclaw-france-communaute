@@ -1,5 +1,130 @@
 [
  {
+  "id": "bbe7abfc9148c4dd",
+  "slug": "ukisai-reduit-les-tokens-de-raisonnement-de-ses-modeles-swift-bbe7ab",
+  "titre": "UkisAI réduit les tokens de raisonnement de ses modèles Swift",
+  "resume": "UkisAI étend sa série Swift avec deux modèles, Swift GLM-5.3-Flash et Swift Ornith 9B. La méthode : pénaliser les tokens liés au raisonnement pathologique sans toucher à la longueur, puis récupérer la précision par post-entraînement (RL, distillation on-policy). Sur MMLU-Pro, GLM-5.3-Flash affiche -61,4 % de tokens de réflexion pour -0,46 % de perte de précision moyenne.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xisqge/ukisai_swift_glm53_gsqrco_swift_ornith_9b_577/",
+  "date_source": "2026-10-29T18:54:31+00:00",
+  "date_redac": "2026-10-29T19:11:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 890,
+   "sortie": 1006
+  }
+ },
+ {
+  "id": "ab1f2929afedc631",
+  "slug": "openclaw-publie-la-version-2026-9-36-de-son-projet-ab1f29",
+  "titre": "OpenClaw publie la version 2026.9.36 de son projet",
+  "resume": "OpenClaw met en ligne la version 2026.9.36, datée du 29 octobre 2026. L'annonce prend la forme d'une release GitHub dont l'intitulé se limite au numéro de version. Le détail des changements n'est pas précisé dans l'extrait disponible.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.36",
+  "date_source": "2026-10-29T18:37:19+00:00",
+  "date_redac": "2026-10-29T19:11:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 593,
+   "sortie": 434
+  }
+ },
+ {
+  "id": "99a1da613ce7cb1e",
+  "slug": "recherche-web-pour-agents-locaux-le-gratuit-lache-place-au-payant-99a1da",
+  "titre": "Recherche web pour agents locaux : le gratuit lâche, place au payant",
+  "resume": "Un utilisateur de r/LocalLLaMA voit son agent de recherche tourner depuis des mois sur une API gratuite, jusqu'à ce que tous les appels échouent la semaine dernière. Sa parade, une instance SearXNG auto-hébergée, se fait suspendre ses moteurs Google et Bing à cause des captchas. À 3 000–5 000 requêtes par mois, surtout pour de la doc et des issues GitHub, il cherche donc un fournisseur payant, avec snippets et texte de page, et demande ce que les autres paient pour 1 000 requêtes.",
+  "tags": [
+   "agents",
+   "recherche",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xis2qz/free_web_search_for_my_local_agent_stopped/",
+  "date_source": "2026-10-29T18:29:47+00:00",
+  "date_redac": "2026-10-29T19:11:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 753,
+   "sortie": 364
+  }
+ },
+ {
+  "id": "3994268a119fe800",
+  "slug": "le-financement-des-datacenters-ia-se-grippe-les-neoclouds-menaces-399426",
+  "titre": "Le financement des datacenters IA se grippe, les néoclouds menacés",
+  "resume": "D'après Bloomberg, la machine de dette de Wall Street dédiée à l'IA commence à s'étouffer du côté de l'offre : lever des fonds pour des datacenters IA devient plus difficile. Sur X, Elon Musk prédit la mort et la consolidation des 200 et quelques néoclouds, ces fournisseurs de cloud spécialisés dans les datacenters IA. Un point de données de plus dans le débat sur la bulle IA, avec une question en filigrane pour la communauté locale : et nos prix de RAM ?",
+  "tags": [
+   "business",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xirt93/datapoint_for_ai_bubble_getting_harder_to_raise/",
+  "date_source": "2026-10-29T18:20:00+00:00",
+  "date_redac": "2026-10-29T19:11:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 775,
+   "sortie": 759
+  }
+ },
+ {
+  "id": "b65551f71fa440b5",
+  "slug": "granola-ajoute-la-dictee-pour-concurrencer-wispr-b65551",
+  "titre": "Granola ajoute la dictée pour concurrencer Wispr",
+  "resume": "Granola ajoute une fonction de dictée à son preneur de notes, rapporte TechCrunch. C'est le mouvement inverse de Wispr, qui avait intégré les comptes rendus de réunion à son application de dictée. Les deux outils vocaux se retrouvent ainsi sur le même terrain, ce qui rend la concurrence sur ce segment plus tangible.",
+  "tags": [
+   "business",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+  "date_source": "2026-10-29T17:54:38+00:00",
+  "date_redac": "2026-10-29T19:11:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 634,
+   "sortie": 496
+  }
+ },
+ {
+  "id": "43e95d5c5db7c2df",
+  "slug": "un-endpoint-cloud-de-deepseek-v4-1-flash-ecrase-sans-prevenir-43e95d",
+  "titre": "Un endpoint cloud de deepseek-v4.1-flash écrasé sans prévenir",
+  "resume": "Un développeur a daté la bascule de deepseek-v4.1-flash dans son agent de code : la mise à jour -1017, sortie le 17 octobre, corrigeait un bug où le modèle répondait en chinois en croyant parler anglais. Le modèle lui a paru « lobotomisé » : jurons triplés, changements de modèle 6,7 fois plus fréquents. L'endpoint a été écrasé sans prévenir dès le 19 octobre, sans retour aux anciens poids.",
+  "tags": [
+   "deepseek",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xiqw9i/why_you_cant_trust_cloud_api_endpoints_40_days_of/",
+  "date_source": "2026-10-29T17:46:05+00:00",
+  "date_redac": "2026-10-29T19:11:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 864,
+   "sortie": 1465
+  }
+ },
+ {
   "id": "585d620da6b9f91c",
   "slug": "robots-agricoles-14-000-machines-de-traite-en-france-600-robots-de-cul-585d62",
   "titre": "Robots agricoles : 14 000 machines de traite en France, 600 robots de culture",

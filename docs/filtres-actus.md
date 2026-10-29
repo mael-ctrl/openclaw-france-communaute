@@ -35,4 +35,8 @@ Preuves privées : `crabe-chantiers/accessibilite/integration-2026-10-29/` (logs
 
 ## Publication
 
-**Au commit d'intégration :** code testé, publication cloud et contrôle HTTPS encore à effectuer. Le résultat sera ajouté après lecture du run, de sa sauvegarde et des octets réellement servis. Un succès ancien n'atteste pas la version publique actuelle ; les régressions possibles de la routine locale restent un risque distinct non corrigé ici.
+**Livré le 29/10, contrôle HTTPS à 10:48:34–10:48:44 UTC, navigateur ensuite :** commit `37775c488036509618603cff0aff971dca795d83`, [run `40853475177` terminé/réussi](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/40853475177). **259 tests cloud**, pipeline et sauvegarde réussis ; **2 110 lignes de transfert**, dont les deux assets modifiés. Les transferts factices affichés dans la suite de tests sont exclus de ce total. Sauvegarde `fe3fefcd71551fd9260cfa183a802bf4809b474b`, fusion distante `54e01cefdf2e2ff46852afd14b78931e8837870a`, ascendance et code vérifiés.
+
+**32 réponses HTTPS sur 30 URL uniques**, toutes en 200 ; **vingt pages de listes et trois assets identiques octet pour octet** au rendu du commit sauvegardé. Accueil, Transparence, podcast et flux contrôlés séparément ; version et sitemap identiques aux deux bornes, sans prétendre à une capture atomique. Aucun rétablissement SFTP nécessaire dans ce chantier. Le navigateur a rejoué **321 contrôles sur douze configurations des corps HTTPS conservés**, avec chargements externes bloqués, sans erreur de page ; capture mobile relue. Fixture vide toujours privée, jamais déployée.
+
+La publication est vérifiée, pas la résolution des régressions possibles de la routine locale. Clone partagé et wrapper laissés intacts ; les copies scratch avant/essai de cette mission ont seules été retirées après conservation des sources, empreintes et résultats. Aucun ancien lot, journal ou manifeste scellé n'a été purgé.

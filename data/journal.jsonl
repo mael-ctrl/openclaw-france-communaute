@@ -3502,3 +3502,11 @@
 {"ts": "2026-10-28T20:01:10+00:00", "evenement": "deploiement", "details": {"fichiers": 2077, "octets": 43213167}, "sha256": "9070eebaac916f7af6b3fdc487a1ab433296750c40677179d8cb0954931d94ee"}
 {"ts": "2026-10-28T20:01:11+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "c1daa7924bb47bc61e4576f7152bb6213805033fbc99c30f0ab7fdf24560ac68"}
 {"ts": "2026-10-28T20:01:11+00:00", "evenement": "bilan", "details": {"duree_s": 2413.7, "neufs": 40, "breves": 6, "articles": 1, "fichiers": 2032, "envois": 2077, "publications": 0}, "sha256": "bfa2f488171404b0b860be427e6328a0d1c2fe0382cbe11943292ec7fdf6db30"}
+{"ts": "2026-10-28T23:28:40+00:00", "evenement": "collecte", "details": {"neufs": 23}, "sha256": "63d64c204abf01319095c9a7d70b5e46f2207c3e9df8011df474a876bfc6e085"}
+{"ts": "2026-10-28T23:29:55+00:00", "evenement": "construction", "details": {"fichiers": 2039}, "sha256": "36251d139c7a26252d744eabd7f8c459a7db70fd3ee853cb47de2ef5c850b87a"}
+{"ts": "2026-10-29T00:07:05+00:00", "evenement": "deploiement", "details": {"fichiers": 2084, "octets": 43352475}, "sha256": "142d4992c743ab0678790d470c1ca0ff276de46f9409e2375339469f881ab9fa"}
+{"ts": "2026-10-29T00:07:05+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "3d566a48389893df738faf51fa241c357425da26d2174680477b0a0ad7ecc3ff"}
+{"ts": "2026-10-29T00:07:55+00:00", "evenement": "erreur", "details": {"message": "archivage wayback : The read operation timed out"}, "sha256": "40cad3dc371294897d9c0cda1dd638c5f9e7511920c94c1b3c4d15deec90b139"}
+{"ts": "2026-10-29T00:08:07+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "b79f531ee54d0e353e217175a7c27b3f951b9958e4aa8bdc50171e1dbdbbb02d"}
+{"ts": "2026-10-29T00:08:07+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-29.json", "publications": 2003}, "sha256": "4d5c3529e7610f12f6b7324e63e6be6ad9afe18de3a88b7b4302e385f8eff947"}
+{"ts": "2026-10-29T00:08:07+00:00", "evenement": "bilan", "details": {"duree_s": 2377.6, "neufs": 23, "breves": 6, "articles": 1, "fichiers": 2039, "envois": 2084, "publications": 4}, "sha256": "72d30cf1f4c56f7842dd96951278697c87ec77a47253a1a2aecdefa1df382160"}

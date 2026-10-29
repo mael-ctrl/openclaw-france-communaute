@@ -1,0 +1,41 @@
+{
+ "slug": "sur-une-seule-rtx-5080-qwen3-8-flash-next-en-iq3-s-grimpe-a--eb5ead",
+ "titre": "Sur une seule RTX 5080, Qwen3.8 Flash Next en IQ3_S grimpe à 275 tok/s",
+ "chapo": "Un fork maison fait tourner un modèle récent en quantification agressive sur une carte de 16 Go, à 275 tok/s en génération. À côté, Qwen4 annonce un million de tokens de contexte, la communauté locale s'offre son propre banc d'essai, et Microsoft lâche enfin le chiffre d'Azure.",
+ "html": "<h2 id=\"strata-5-500-tok-s-en-prompt-275-en-gene\">Strata : 5 500 tok/s en prompt, 275 en génération</h2>\n<p>Le fork Strata de Basalt annonce un nouveau record de génération pour <strong>Qwen3.8 Flash Next</strong> en quantification IQ3_S. La configuration tient en une ligne : une seule RTX 5080 de 16 Go, épaulée par 64 Go de DDR5 6400 et un Core Ultra 9 285K.</p>\n<p>Le traitement de prompt atteint 5 500 tok/s. En génération, le débit monte jusqu'à 275 tok/s sur le code et les appels d'outils, et redescend à 190 tok/s sur les traces de raisonnement. Ces mesures ont été relevées pendant une session live d'opencode, pas sur un banc synthétique.</p>\n<p>Côté méthode, certaines pull requests d'optimisation sont encore en attente. Mais l'amont profite déjà de gains et d'optimisations mémoire, et la quantification IQ3_S est jugée pleinement utilisable. Compresser un modèle récent à ce niveau ne le rend plus inutilisable — c'est peut-être le vrai enseignement du billet.</p>\n<h2 id=\"qwen4-un-million-de-tokens-sur-un-extrai\">Qwen4 : un million de tokens, sur un extrait</h2>\n<p>Un extrait publié sur r/LocalLLaMA indique que les modèles <strong>Qwen4</strong> disposeront d'une fenêtre de contexte d'un million de tokens. À prendre avec les pincettes d'usage : on parle d'une capture diffusée sur le subreddit, pas d'une documentation publiée.</p>\n<p>Le Qwen4-27B n'apparaît pas dans cet extrait, et une annonce est attendue à Apsara Netherlands. Une date circule aussi pour Qwen4-max, le 1er novembre — la mention d'octobre à la place suggère toutefois un simple placeholder.</p>\n<p>La source citée est une pull request sur le dépôt qwen-code. Rien qui vaille annonce officielle, donc, mais assez pour que le fil s'agite.</p>\n<h2 id=\"trente-neuf-modeles-locaux-et-un-neurone\">Trente-neuf modèles locaux, et un neurone qui déraille</h2>\n<p>Un membre du subreddit a passé 10 à 20 heures à comparer <strong>39 LLM locaux</strong> sur une cinquantaine de prompts, notés par quatre modèles frontière. Les gros modèles ont eu environ 44 tests, les plus petits 66, la plupart écrits par IA. La notation a coûté 30 à 40 dollars pour un juge, et deux sessions de 5 heures pour un autre. Le tout a tourné sur une RTX 5060 Ti 16 Go, 64 Go de RAM et un 5800X3D.</p>\n<p>Autre angle, autre résultat. En modifiant un seul neurone à la fois pendant l'inférence, en balayant tous ceux de modèles comme Qwen3-8B et 14B, une expérience observe que dans environ 4 % des cas le modèle revendique une autre identité à la question « qui es-tu ? ». Certaines personas sont savoureuses, dont une lampe fluorescente de 150 watts.</p>\n<p>La conclusion de l'auteur est moins récréative : s'identifier à un modèle plus ancien ne prouve donc pas une distillation.</p>\n<h2 id=\"azure-33-2-milliards-de-dollars-enfin-en\">Azure : 33,2 milliards de dollars, enfin en clair</h2>\n<p>Microsoft a publié pour la première fois le chiffre d'affaires trimestriel d'Azure en dollars : <strong>33,2 milliards</strong>. Le groupe n'avait jamais communiqué ce montant auparavant.</p>\n<p>Cette publication permet de mesurer à quel point Azure se rapproche d'AWS, son principal concurrent sur le marché du cloud. Un chiffre en valeur absolue, donc, là où il fallait jusqu'ici se contenter d'indications moins directement comparables.</p>\n<h2>Et maintenant ?</h2>\n<p>Les deux bouts de la chaîne bougent en même temps. D'un côté, une carte de 16 Go fait tourner un modèle récent en IQ3_S à quelques centaines de tok/s, mesures prises en session réelle. De l'autre, Qwen4 laisse filtrer un million de tokens de contexte via une pull request, et Azure affiche 33,2 milliards de dollars le trimestre. Entre les deux, des tests communautaires à quelques dizaines de dollars rappellent qu'un modèle ne sait pas toujours ce qu'il est.</p>",
+ "pivot": "eb5ead38de04bc4e",
+ "tags": [
+  "matériel",
+  "open-source",
+  "recherche",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi9sfl/update_benchmark_basalts_new_prs_strata_fork_new/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi6edm/5_frontier_llms_grade_39_local_llms_on_50_prompts/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi25sk/singleneuron_identity_shifts/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
+  }
+ ],
+ "date": "2026-10-29T05:24:17+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1681,
+  "sortie": 3495
+ }
+}

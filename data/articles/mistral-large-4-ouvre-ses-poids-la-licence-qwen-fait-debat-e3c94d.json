@@ -1,0 +1,41 @@
+{
+ "slug": "mistral-large-4-ouvre-ses-poids-la-licence-qwen-fait-debat-e3c94d",
+ "titre": "Mistral Large 4 ouvre ses poids, la licence Qwen fait débat",
+ "chapo": "Une semaine de dépêches qui dit beaucoup de l'état du marché. Mistral ouvre les poids d'un modèle à 1 000 milliards de paramètres, Alibaba resserre les termes de sa licence Qwen, un fine-tune de 27B mise sur sa capacité à tromper les détecteurs, et un agent qui construit des mini-apps lève 55 millions de dollars.",
+ "html": "<h2 id=\"le-big-boy-de-1t-et-l-ancre-qui-compte-v\">Le « BIG BOY » de 1T et l'ancre qui compte vraiment</h2>\n<p>Sur r/LocalLLaMA, l'annonce de Mistral Large 4 tient en un surnom : « BIG BOY ». Le post présente le modèle comme un 1T — mille milliards de paramètres — et renvoie au billet publié sur le blog Hugging Face de Mistral. Mais le lien ne vise pas l'introduction du billet : l'ancre pointe vers une section consacrée à <strong>llama.cpp</strong>.</p>\n<p>C'est ce détail que retient la communauté du modèle local, bien plus que la taille brute. Dans cet écosystème, un modèle ne vaut pas par le chiffre sur sa fiche technique, mais par la chaîne d'outils capable de l'exécuter. Que Mistral consacre une section de son billet à llama.cpp suffit à alimenter la discussion, avant même que l'on parle de performance ou de qualité de génération.</p>\n<h2 id=\"poids-telechargeables-execution-chez-soi\">Poids téléchargeables, exécution chez soi</h2>\n<p>L'Usine Digitale confirme l'ouverture : les poids de Mistral Large 4, dévoilé le 6 octobre, sont désormais téléchargeables sur Hugging Face. L'ouverture a été précédée de trois semaines d'entraînement par renforcement et de tests menés auprès de clients — ASML, Cisco, Microsoft et Orange Cyberdefense sont cités.</p>\n<p>Conséquence directe : les entreprises peuvent déployer le modèle sur leur propre infrastructure, sans dépendre uniquement de l'API de son concepteur. L'accès par API existe toujours, mais il n'est plus le seul chemin. C'est la différence entre une ouverture de poids et une simple mise à disposition commerciale, et c'est exactement ce que la communauté du modèle local regarde en premier.</p>\n<h2 id=\"licences-le-flou-qwen-rattrape-les-fine-\">Licences : le flou Qwen rattrape les fine-tunes</h2>\n<p>Tout n'est pas ouvert de la même façon. Un fil de r/LocalLLaMA s'inquiète de la licence Qwen à l'approche de Qwen 4. Alibaba est passé d'une licence open source permissive à une licence maison aux termes jugés ambigus, appliquée à des modèles comme Qwen3.8-Flash-Next.</p>\n<p>Ce qui reste autorisé : l'usage local ou interne, le fine-tuning et les dérivés. Ce qui change : ce n'est ni Apache ni MIT. Un MaaS commercial ou un assistant coding/bureau autonome exige une licence Qwen séparée, et le statut des outputs reste flou.</p>\n<p>La question n'est pas théorique pour l'écosystème des fine-tunes. Hemmingway-1.5, publié par hemmingwayAI, est justement un fine-tune de Qwen de 27 milliards de paramètres à poids ouverts, gratuit hors usage commercial. L'éditeur affirme qu'il passe les meilleurs détecteurs d'IA dans 90 % des cas, dont 9 sur 10 sur GPTZero. À titre de comparaison, les textes humains passent ces mêmes détecteurs dans 86 % des cas, tandis que Fable, GPT-6 et Gemini se font repérer la plupart du temps. Des GGUF sont déjà disponibles.</p>\n<h2 id=\"wabi-55-m-pour-un-agent-qui-code-des-min\">Wabi : 55 M$ pour un agent qui code des mini-apps</h2>\n<p>TechCrunch rapporte que Wabi a annoncé jeudi avoir levé 55 millions de dollars, portant sa valorisation à 1,25 milliard de dollars. L'application, qui se décrit désormais comme un « agent personnel », sert à construire des mini-applications.</p>\n<p>Le tour de table confirme l'appétit des investisseurs pour les agents capables de produire eux-mêmes des outils logiciels. Le sujet est distinct de celui des poids ouverts, mais il en partage un aspect : ce qui se vend n'est plus seulement un modèle, c'est une chaîne d'outils qui va du modèle à l'objet logiciel fini.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois signaux la même semaine : un modèle à 1 000 milliards de paramètres dont l'ouverture se joue en partie sur llama.cpp, un 27B qui se distingue sur sa capacité à échapper aux détecteurs, et 1,25 milliard de dollars misés sur un agent qui construit des mini-apps. La taille des modèles continue de grimper, mais les points de friction se sont déplacés : la licence, l'infrastructure d'exécution et la traçabilité de ce qui sort du modèle. C'est là que se jouent les arbitrages entre ouverture des poids et contrôle de l'usage.</p>",
+ "pivot": "e3c94d5465cc05b9",
+ "tags": [
+  "mistral",
+  "open-source",
+  "agents",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xilhng/le_chonk_is_here/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/mistral-ai/desormais-ouvert-mistral-large-4-peut-il-rivaliser-avec-les-modeles-chinois-les-plus-performants.ONUACF5OUZGB7OLBK5O7CEE24Q.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xif7hy/hemmingwayaihemmingway15_qwen_finetune/"
+  }
+ ],
+ "date": "2026-10-29T15:10:16+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1632,
+  "sortie": 4011
+ }
+}

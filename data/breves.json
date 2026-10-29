@@ -1,5 +1,131 @@
 [
  {
+  "id": "585d620da6b9f91c",
+  "slug": "robots-agricoles-14-000-machines-de-traite-en-france-600-robots-de-cul-585d62",
+  "titre": "Robots agricoles : 14 000 machines de traite en France, 600 robots de culture",
+  "resume": "Pulvérisation, récolte, désherbage, élevage : les robots agricoles sont désormais très plébiscités par les professionnels. Selon le ministère de l'Agriculture, plus de 14 000 machines d'automatisation de la traite étaient installées dans les exploitations françaises en 2023, auxquelles s'ajoutent 4 000 robots pour d'autres usages en filière animale. Les robots de culture restent moins adoptés : 600 exemplaires déployés en 2023.",
+  "tags": [
+   "robots",
+   "france",
+   "business",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/intelligence-artificielle/robotique/ubtech-agility-robotics-blumentis-comment-les-fabricants-de-robots-humanoides-veulent-deployer-leurs-systemes-au-service-du-monde-agricole.L3N6PS3YEJDDHHYCG522ZCKK6I.html",
+  "date_source": "2026-10-29T15:00:00+00:00",
+  "date_redac": "2026-10-29T15:09:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 812,
+   "sortie": 801
+  }
+ },
+ {
+  "id": "0cab95ab39887b9a",
+  "slug": "le-new-york-times-teste-l-ia-dans-son-app-de-recettes-cooking-0cab95",
+  "titre": "Le New York Times teste l'IA dans son app de recettes Cooking",
+  "resume": "Le New York Times teste une fonctionnalité IA dans son application Cooking, destinée à aider les utilisateurs à modifier des recettes. Annoncée vendredi dernier par Genevieve Ko, senior editor de NYT Cooking, elle doit recommander des substitutions d'ingrédients et de matériel de cuisine, et permettre d'adapter les quantités d'une recette. L'annonce a provoqué des remous parmi les utilisateurs.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+  "date_source": "2026-10-29T14:39:37+00:00",
+  "date_redac": "2026-10-29T15:09:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 657,
+   "sortie": 453
+  }
+ },
+ {
+  "id": "c791a1bfe7dd6788",
+  "slug": "il-pense-que-son-usage-de-l-ia-locale-lui-a-coute-un-poste-c791a1",
+  "titre": "Il pense que son usage de l'IA locale lui a coûté un poste",
+  "resume": "Un internaute raconte avoir été repéré par une entreprise spécialisée en IA et financée par du capital-risque, jusqu'à sauter deux niveaux de son processus de recrutement. L'appel de 15 minutes avec le co-fondateur se passait bien jusqu'à la question sur sa configuration : il fait tourner qwen en local sur une carte graphique et défend les modèles ouverts hors ligne. Il admet toutefois qu'un entretien si court ne prouve rien.",
+  "tags": [
+   "open-source",
+   "business",
+   "société",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xils4t/i_think_local_ai_cost_me_a_job/",
+  "date_source": "2026-10-29T14:38:02+00:00",
+  "date_redac": "2026-10-29T15:09:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 796,
+   "sortie": 1471
+  }
+ },
+ {
+  "id": "07efd9ce934fba67",
+  "slug": "wabi-l-agent-ia-qui-construit-des-mini-apps-valorise-1-25-md-07efd9",
+  "titre": "Wabi, l'agent IA qui construit des mini-apps, valorisé 1,25 Md$",
+  "resume": "Wabi a annoncé jeudi avoir levé 55 millions de dollars, portant sa valorisation à 1,25 milliard de dollars. L'application IA, qui se décrit désormais comme un « agent personnel », sert à construire des mini-applications. Ce tour de table confirme l'appétit des investisseurs pour les agents capables de produire eux-mêmes des outils logiciels.",
+  "tags": [
+   "agents",
+   "business",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+  "date_source": "2026-10-29T14:35:26+00:00",
+  "date_redac": "2026-10-29T15:09:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 648,
+   "sortie": 583
+  }
+ },
+ {
+  "id": "baa484cc61521377",
+  "slug": "q3-8-flash-next-critique-pour-ses-explications-techniques-trop-verbeus-baa484",
+  "titre": "Q3.8-Flash-Next critiqué pour ses explications techniques trop verbeuses",
+  "resume": "Sur r/LocalLLaMA, un utilisateur constate que Q3.8-Flash-Next tient la route sur le travail technique, mais dérape dès qu'on lui demande d'expliquer ou de documenter : réponses très verbeuses, jargon dense, métaphores incompréhensibles. Il tourne en NVFP4 avec un cache kv FP8 et a essayé le BF16 sans gain. Il évoque des poids en pleine qualité comme piste possible, sans certitude.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xilihw/anyone_else_suffering_from_verbose_poor_technical/",
+  "date_source": "2026-10-29T14:27:40+00:00",
+  "date_redac": "2026-10-29T15:09:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 747,
+   "sortie": 909
+  }
+ },
+ {
+  "id": "e3c94d5465cc05b9",
+  "slug": "mistral-large-4-un-modele-a-1-000-milliards-de-parametres-e3c94d",
+  "titre": "Mistral Large 4 : un modèle à 1 000 milliards de paramètres",
+  "resume": "Un post de r/LocalLLaMA annonce l'arrivée de Mistral Large 4, un modèle que son auteur présente comme un « BIG BOY » de 1 000 milliards de paramètres (1T). Le lien renvoie au billet publié sur le blog Hugging Face de Mistral, avec une ancre pointant vers une section consacrée à llama.cpp. C'est ce détail qui intéresse la communauté du modèle local, davantage que la taille brute du modèle.",
+  "tags": [
+   "mistral",
+   "dev",
+   "open-source"
+  ],
+  "importance": 4,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xilhng/le_chonk_is_here/",
+  "date_source": "2026-10-29T14:26:46+00:00",
+  "date_redac": "2026-10-29T15:09:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 642,
+   "sortie": 907
+  }
+ },
+ {
   "id": "ac6c7fc8f18a4dac",
   "slug": "mistral-ouvre-les-poids-de-mistral-large-4-sur-hugging-face-ac6c7f",
   "titre": "Mistral ouvre les poids de Mistral Large 4 sur Hugging Face",

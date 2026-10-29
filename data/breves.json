@@ -1,5 +1,129 @@
 [
  {
+  "id": "2130cf394053ca10",
+  "slug": "hemmingway-1-5-un-modele-ouvert-de-27b-taille-pour-echapper-aux-detect-2130cf",
+  "titre": "Hemmingway-1.5, un modèle ouvert de 27B taillé pour échapper aux détecteurs d'IA",
+  "resume": "hemmingwayAI publie Hemmingway-1.5, un fine-tune de Qwen de 27 milliards de paramètres à poids ouverts, gratuit hors usage commercial. L'éditeur affirme qu'il passe les meilleurs détecteurs d'IA dans 90 % des cas, dont 9 sur 10 sur GPTZero. Des textes humains passent ces mêmes détecteurs dans 86 % des cas ; Fable, GPT-6 et Gemini se font repérer la plupart du temps. Des GGUF sont déjà disponibles.",
+  "tags": [
+   "open-source",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xif7hy/hemmingwayaihemmingway15_qwen_finetune/",
+  "date_source": "2026-10-29T09:27:19+00:00",
+  "date_redac": "2026-10-29T10:16:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 826,
+   "sortie": 1065
+  }
+ },
+ {
+  "id": "0ff42dbb409ebf97",
+  "slug": "qwen4-annonce-pour-la-semaine-prochaine-a-la-conference-apsara-0ff42d",
+  "titre": "Qwen4 annoncé pour la semaine prochaine à la conférence Apsara",
+  "resume": "La conférence Apsara se tient en ce moment à Amsterdam. Selon un participant, le CTO d'Alibaba Cloud y a déclaré que Qwen4 sortirait la semaine prochaine. L'information n'est pour l'instant relayée que par ce témoignage, publié sur r/LocalLLaMA, sans détail sur les modèles concernés ni sur leur disponibilité.",
+  "tags": [
+   "business",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/",
+  "date_source": "2026-10-29T09:25:47+00:00",
+  "date_redac": "2026-10-29T10:16:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 643,
+   "sortie": 600
+  }
+ },
+ {
+  "id": "a7a26b4ebff5f088",
+  "slug": "chine-480-milliards-de-dollars-de-valorisation-ia-effaces-a7a26b",
+  "titre": "Chine : 480 milliards de dollars de valorisation IA effacés",
+  "resume": "Après une période de forte spéculation boursière, les marchés financiers chinois subissent une correction qui efface des centaines de milliards de dollars de valorisation, dont 480 milliards liés à l'IA. La question d'un éclatement de la bulle de l'intelligence artificielle en Chine est désormais posée.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 4,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/480-milliards-dollars-volatilises-bulle-ia-vient-elle-eclater-en-chine.html",
+  "date_source": "2026-10-29T09:18:43+00:00",
+  "date_redac": "2026-10-29T10:16:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 675,
+   "sortie": 359
+  }
+ },
+ {
+  "id": "1cd34e29075bc565",
+  "slug": "gemini-4-carbon-detrone-claude-opus-5-5-au-classement-d-artificial-ana-1cd34e",
+  "titre": "Gemini 4 Carbon détrône Claude Opus 5.5 au classement d'Artificial Analysis",
+  "resume": "Google passe devant Claude Opus 5.5 : Gemini 4 Carbon devient le meilleur modèle du marché selon le classement d'Artificial Analysis. Claude perd donc sa première place. Ce basculement compte pour tous ceux qui s'appuient sur ces classements publics pour choisir un modèle.",
+  "tags": [
+   "gemini",
+   "claude",
+   "recherche"
+  ],
+  "importance": 4,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/10/29/claude-perd-sa-couronne-la-nouvelle-meilleure-ia-du-monde-est-gemini-4-carbon-de-google/",
+  "date_source": "2026-10-29T09:14:34+00:00",
+  "date_redac": "2026-10-29T10:16:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 663,
+   "sortie": 815
+  }
+ },
+ {
+  "id": "9b6304745be945a7",
+  "slug": "chrome-s-appuie-sur-gemini-pour-remplir-des-formulaires-depuis-gmail-9b6304",
+  "titre": "Chrome s'appuie sur Gemini pour remplir des formulaires depuis Gmail",
+  "resume": "Le navigateur de Google peut désormais s'appuyer sur Gemini pour exploiter les informations présentes dans la boîte Gmail de ses utilisateurs américains. L'objectif : remplir automatiquement certains formulaires, comme lors d'une réservation d'hôtel. Un gain de temps qui soulève toutefois des questions sur la protection des données personnelles.",
+  "tags": [
+   "gemini",
+   "société",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/google/3302473_chrome-peut-fouiller-gmail-pour-remplir-des-formulaires-a-votre-place",
+  "date_source": "2026-10-29T09:07:35+00:00",
+  "date_redac": "2026-10-29T10:17:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 686,
+   "sortie": 510
+  }
+ },
+ {
+  "id": "a8aa9622e1a7abac",
+  "slug": "claude-code-un-script-pour-couper-un-gaspillage-de-tokens-conteste-a8aa96",
+  "titre": "Claude Code : un script pour couper un gaspillage de tokens contesté",
+  "resume": "La société Flamerix AI a publié un script qui désactive une fonction peu connue de Claude Code, l'agent de programmation d'Anthropic, qu'elle accuse de consommer jusqu'à 20 % des jetons. Anthropic confirme le mécanisme, mais conteste son ampleur.",
+  "tags": [
+   "claude",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2363117-trois-mots-qui-brulent-15-a-20-des-tokens-ils-publient-une-astuce-pour-couper-ce-gaspillage-de-claude-code.html",
+  "date_source": "2026-10-29T09:00:39+00:00",
+  "date_redac": "2026-10-29T10:17:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 705,
+   "sortie": 353
+  }
+ },
+ {
   "id": "9a17257f0d16cfde",
   "slug": "openclaw-refactorise-ses-tests-qa-en-reutilisant-les-helpers-de-fixtur-9a1725",
   "titre": "OpenClaw refactorise ses tests QA en réutilisant les helpers de fixtures",

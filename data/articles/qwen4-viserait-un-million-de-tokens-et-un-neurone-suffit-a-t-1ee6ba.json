@@ -1,0 +1,41 @@
+{
+ "slug": "qwen4-viserait-un-million-de-tokens-et-un-neurone-suffit-a-t-1ee6ba",
+ "titre": "Qwen4 viserait un million de tokens, et un neurone suffit à troubler un modèle",
+ "chapo": "Une capture publiée sur r/LocalLLaMA annonce un million de tokens de contexte pour les modèles Qwen4. Au même moment, une expérience montre qu'un seul neurone modifié peut suffire à faire changer un modèle d'identité. Côté industrie, Microsoft dévoile enfin les revenus d'Azure et Wiz agite le spectre d'une « vulnpocalypse ».",
+ "html": "<h2 id=\"qwen4-un-million-de-tokens-mais-sur-quel\">Qwen4 : un million de tokens, mais sur quelle base ?</h2>\n<p>D'après un extrait publié sur r/LocalLLaMA, les modèles Qwen4 disposeront d'une fenêtre de contexte d'un million de tokens. La capture à l'origine de cette information ne montre pas le Qwen4-27B, et une annonce est attendue à Apsara Netherlands.</p>\n<p>Une date circule également pour Qwen4-max, le 1er novembre. La mention d'octobre à la place de novembre dans le même document suggère toutefois un simple placeholder, autrement dit un champ provisoire, pas un calendrier ferme.</p>\n<p>La source citée est une pull request sur le dépôt qwen-code. Ni billet de blog, ni page de documentation officielle donc : un fragment de dépôt et une capture d'écran. Un million de tokens de contexte changerait la donne sur les usages longs — dépôts de code entiers, gros corpus documentaires —, mais à ce stade rien ne confirme le périmètre exact de ce qui sera réellement livré, ni quand.</p>\n<h2 id=\"un-neurone-et-le-modele-change-de-nom\">Un neurone, et le modèle change de nom</h2>\n<p>Sur le même forum, une expérience explore une autre facette de ces modèles. En modifiant un seul neurone à la fois pendant l'inférence, en balayant l'ensemble des neurones de modèles comme Qwen3-8B et 14B, l'auteur observe que dans environ 4 % des cas le modèle revendique une autre identité lorsqu'on lui demande « qui es-tu ? ».</p>\n<p>Certaines personas prêtées au modèle sont savoureuses : une lampe fluorescente de 150 watts figure parmi elles. L'intérêt n'est pas anecdotique. L'auteur en tire une mise en garde méthodologique : le fait qu'un modèle s'identifie comme une version plus ancienne ne prouve pas qu'il a été distillé à partir de celle-ci.</p>\n<p>Le résultat rappelle que l'identité déclarée par un modèle est une sortie parmi d'autres, dépendante de l'état interne du réseau à l'instant du calcul. Elle peut basculer sur une modification minime, ce qui rend fragile tout raisonnement bâti sur la seule auto-déclaration.</p>\n<h2 id=\"azure-33-2-milliards-de-dollars-au-grand\">Azure : 33,2 milliards de dollars au grand jour</h2>\n<p>Changement de terrain avec TechCrunch : Microsoft a publié pour la première fois le chiffre d'affaires trimestriel d'Azure en dollars, soit 33,2 milliards. Le groupe n'avait jamais communiqué ce montant auparavant.</p>\n<p>Cette publication permet de mesurer à quel point Azure se rapproche d'AWS, son principal concurrent sur le marché du cloud. Jusqu'ici, la comparaison entre les deux acteurs reposait sur des indicateurs partiels, la croissance en pourcentage côté Microsoft notamment. Passer à un montant absolu change la nature du débat public sur le cloud, et par ricochet sur l'infrastructure qui porte les charges d'IA.</p>\n<h2 id=\"php-70-du-web-et-une-vulnpocalypse-annon\">PHP, 70 % du web et une « vulnpocalypse » annoncée</h2>\n<p>Deux failles critiques ont touché PHP, le langage open source qui fait tourner environ 70 % des sites web. Des organisations ont dû se précipiter pour corriger leurs systèmes, certaines mettant même leurs sites hors ligne le temps d'appliquer les correctifs.</p>\n<p>Le CTO de Wiz revient sur cet épisode et sur ce qu'il nomme la « vulnpocalypse » à venir — la menace que représente, selon lui, le code vieillissant d'internet. Le diagnostic porte moins sur un incident isolé que sur une accumulation : des briques logicielles anciennes, massivement déployées, dont les défauts finissent par sortir tous ensemble.</p>\n<p>Le détail qui frappe, c'est la réaction : mettre un site hors ligne pour patcher est un choix coûteux, rarement pris par confort. Il en dit long sur la marge de manœuvre dont disposaient les équipes au moment de la divulgation.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches n'ont pas de lien de cause à effet, mais elles posent la même question sous des angles différents : ce qu'on voit des systèmes qui nous entourent. Azure rend public un chiffre longtemps tenu discret, une expérience sur un neurone unique rend visible une instabilité interne, des failles PHP rappellent l'état réel d'un socle que tout le monde suppose stable, et une pull request fait office d'annonce produit pour Qwen4. Dans les quatre cas, l'information existe avant d'être rendue publique — et sa forme, capture d'écran ou communiqué, détermine ce qu'on peut en tirer.</p>",
+ "pivot": "1ee6baefe3558c03",
+ "tags": [
+  "recherche",
+  "sécurité",
+  "business",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi25sk/singleneuron_identity_shifts/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/"
+  }
+ ],
+ "date": "2026-10-29T02:46:37+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1522,
+  "sortie": 2360
+ }
+}

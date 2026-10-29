@@ -1,5 +1,25 @@
 [
  {
+  "id": "1ee6baefe3558c03",
+  "slug": "qwen4-une-fenetre-de-contexte-d-un-million-de-tokens-en-preparation-1ee6ba",
+  "titre": "Qwen4 : une fenêtre de contexte d'un million de tokens en préparation",
+  "resume": "D'après un extrait publié sur r/LocalLLaMA, les modèles Qwen4 disposeront d'une fenêtre de contexte d'un million de tokens. Le Qwen4-27B n'apparaît pas dans cette capture, mais une annonce est attendue à Apsara Netherlands. Une date circule aussi pour Qwen4-max, le 1er novembre — la mention d'octobre à la place suggère toutefois un simple placeholder. Une pull request sur le dépôt qwen-code est citée comme source.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/",
+  "date_source": "2026-10-29T01:42:55+00:00",
+  "date_redac": "2026-10-29T02:45:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 747,
+   "sortie": 531
+  }
+ },
+ {
   "id": "8621663f359a0f48",
   "slug": "chez-les-llm-la-taille-du-modele-explique-l-essentiel-des-ecarts-862166",
   "titre": "Chez les LLM, la taille du modèle explique l'essentiel des écarts",
@@ -58,6 +78,27 @@
    "modele": "deepseek-flash",
    "entree": 678,
    "sortie": 580
+  }
+ },
+ {
+  "id": "9f227232b7f50ab9",
+  "slug": "modifier-un-seul-neurone-suffit-a-changer-l-identite-declaree-d-un-mod-9f2272",
+  "titre": "Modifier un seul neurone suffit à changer l'identité déclarée d'un modèle",
+  "resume": "En modifiant un seul neurone à la fois pendant l'inférence, en balayant tous ceux de modèles comme Qwen3-8B et 14B, une expérience observe que dans environ 4 % des cas le modèle revendique une autre identité à la question « qui es-tu ? ». Certaines personas sont savoureuses, dont une lampe fluorescente de 150 watts. L'auteur en tire une mise en garde : s'identifier à un modèle plus ancien ne prouve donc pas une distillation.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xi25sk/singleneuron_identity_shifts/",
+  "date_source": "2026-10-28T22:09:19+00:00",
+  "date_redac": "2026-10-29T02:46:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 804,
+   "sortie": 1457
   }
  },
  {

@@ -3510,3 +3510,11 @@
 {"ts": "2026-10-29T00:08:07+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "b79f531ee54d0e353e217175a7c27b3f951b9958e4aa8bdc50171e1dbdbbb02d"}
 {"ts": "2026-10-29T00:08:07+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-29.json", "publications": 2003}, "sha256": "4d5c3529e7610f12f6b7324e63e6be6ad9afe18de3a88b7b4302e385f8eff947"}
 {"ts": "2026-10-29T00:08:07+00:00", "evenement": "bilan", "details": {"duree_s": 2377.6, "neufs": 23, "breves": 6, "articles": 1, "fichiers": 2039, "envois": 2084, "publications": 4}, "sha256": "72d30cf1f4c56f7842dd96951278697c87ec77a47253a1a2aecdefa1df382160"}
+{"ts": "2026-10-29T02:45:50+00:00", "evenement": "collecte", "details": {"neufs": 3}, "sha256": "b110effa688137c936353e35ef70f1e09de656266c7c75a1c42486c1091be7be"}
+{"ts": "2026-10-29T02:46:12+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Electronics hobbyist converts $120 DDR5 SODIMM kit into ‘$10) : réponse non-JSON"}, "sha256": "a4b3499c498b66530761c3308b29d194a1207e7f7008be66f61fbdc931c07da4"}
+{"ts": "2026-10-29T02:46:59+00:00", "evenement": "construction", "details": {"fichiers": 2042}, "sha256": "775db8fe67fc27ac9110d30280d62430880341fcf4a0d0b99f0fc8716c1bd776"}
+{"ts": "2026-10-29T03:24:59+00:00", "evenement": "deploiement", "details": {"fichiers": 2083, "octets": 43214919}, "sha256": "a27d5f5d1ed232882e783aeb0ef0da0942ef8d882f81c4029c08bd1d17616cb7"}
+{"ts": "2026-10-29T03:24:59+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "dce49fb3bcabf06b7031f1e10c726468ae6cf2f6b943bd234baa34e33c2975f1"}
+{"ts": "2026-10-29T03:25:08+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 2}, "sha256": "12b9fcdb25e681ca72102899d6a619d6721d7871e005b891a2f23cd192e01ad3"}
+{"ts": "2026-10-29T03:25:18+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "edc4368e4faaf846f360800dc1fde80a6d44bb154f87783f32d33e8d94ca707e"}
+{"ts": "2026-10-29T03:25:19+00:00", "evenement": "bilan", "details": {"duree_s": 2380.9, "neufs": 3, "breves": 2, "articles": 1, "fichiers": 2042, "envois": 2083, "publications": 4}, "sha256": "545c4f26d49ce9b7e78d9b3e59f93f47640e02dc1db2ef2806f343ba7818d24d"}

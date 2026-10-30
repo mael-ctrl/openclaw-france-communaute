@@ -3587,3 +3587,13 @@
 {"ts": "2026-10-29T23:22:53+00:00", "evenement": "deploiement", "details": {"fichiers": 2144, "octets": 45004254}, "sha256": "69f658d9ad839c37fddb5ee99d0417309762868f22616b55b05b3d3903ea7357"}
 {"ts": "2026-10-29T23:22:54+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "7854dd64edb425da92130c51c5d7c2c4074a416bf1e6d4ee17f182684d0c4000"}
 {"ts": "2026-10-29T23:22:54+00:00", "evenement": "bilan", "details": {"duree_s": 2518.7, "neufs": 3, "breves": 3, "articles": 1, "fichiers": 2101, "envois": 2144, "publications": 0}, "sha256": "54bc64ba091078b76641c46319bb07fe165b0b2f1330aab482a47b7f075ff93c"}
+{"ts": "2026-10-30T02:08:34+00:00", "evenement": "collecte", "details": {"neufs": 12}, "sha256": "9b31d8d39c9f9de48514f1527ca14b9a2fdf554fae43eb176eaa4b1b83607fc0"}
+{"ts": "2026-10-30T02:09:04+00:00", "evenement": "erreur", "details": {"message": "brève impossible (v2.1.314) : réponse non-JSON"}, "sha256": "b57b4ab1c501cef5523a4421f089173dffb64aeb91e40806665ab2de02cdb4ce"}
+{"ts": "2026-10-30T02:09:21+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Right now you can get an RTX 6000 Pro Workstation For 12k fr) : réponse non-JSON"}, "sha256": "1ba2ca4e9e5b79073b3d24b366f350097614a606b5df99395f3f357ade4b30de"}
+{"ts": "2026-10-30T02:10:04+00:00", "evenement": "construction", "details": {"fichiers": 2107}, "sha256": "d8ed141b1461601d56d6d72004f911edf7c31f1ff10a1e65bca386ddbee603df"}
+{"ts": "2026-10-30T02:50:53+00:00", "evenement": "deploiement", "details": {"fichiers": 2157, "octets": 45391088}, "sha256": "9c0e822cb1687740e6543fc8f79e30412fbed532dd18268317387121a47e1b55"}
+{"ts": "2026-10-30T02:50:53+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "1a06e4b084a91e312f50171b88722c23f7d6f968a0d78ca1d909462ee641a21f"}
+{"ts": "2026-10-30T02:51:43+00:00", "evenement": "erreur", "details": {"message": "archivage wayback : The read operation timed out"}, "sha256": "eca13b0f7da61409b74148c0db38990288635e247d83dcfbb3b8db298bfabcb1"}
+{"ts": "2026-10-30T02:51:54+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "618dc300d6ea3c4e0ed0da48845a682d650b6e3b7fd8f6621a9837ad60424e89"}
+{"ts": "2026-10-30T02:51:54+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-10-30.json", "publications": 2071}, "sha256": "4b2c2b35f9bf0d6be050677e38bbb6983353a31019a96959507e6c9c7067021f"}
+{"ts": "2026-10-30T02:51:54+00:00", "evenement": "bilan", "details": {"duree_s": 2610.6, "neufs": 12, "breves": 4, "articles": 1, "fichiers": 2107, "envois": 2157, "publications": 4}, "sha256": "6e4ee85e47b83d89284c402774b579c72811fc3445bd8654d51447df7291b4c4"}

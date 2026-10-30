@@ -1,0 +1,41 @@
+{
+ "slug": "reddit-se-verrouille-mistral-large-4-passe-le-cap-du-trillio-13c21e",
+ "titre": "Reddit se verrouille, Mistral Large 4 passe le cap du trillion",
+ "chapo": "Reddit bascule vers une expérience réservée aux utilisateurs connectés : les posts ne seront plus lisibles depuis un navigateur, et les agents qui interrogeaient le web ouvert y perdent une source. La même semaine, Mistral Large 4 apparaît à 1 000 milliards de paramètres et Gemini 4 Carbon ravit la première place à Claude Opus 5.5.",
+ "html": "<h2 id=\"reddit-ferme-la-porte-que-les-agents-uti\">Reddit ferme la porte que les agents utilisaient</h2>\n<p>Steve Huffman, PDG de Reddit, a annoncé que la plateforme basculera vers une expérience « réservée aux utilisateurs connectés ». Concrètement : les posts ne seront plus consultables depuis un navigateur, donc plus accessibles à une recherche web classique. Pour les modèles locaux qui interrogent internet par appel d'outils, cela retire une source de données largement utilisée — un forum entier qui disparaît des résultats bruts.</p>\n<p>TechCrunch apporte le contexte économique : Reddit, historiquement bâti sur le web ouvert, revoit ce modèle alors que le trafic venu des moteurs de recherche se tarit. L'entreprise cherche à protéger son audience et son activité, et l'IA est nommément mise en cause — elle transforme la manière dont les internautes trouvent l'information en ligne. Autrement dit, la plateforme coupe l'accès à ce que les moteurs ne lui rapportent plus.</p>\n<p>Rien dans les annonces relayées ne précise le calendrier ni les modalités techniques. Mais l'effet de bord est déjà identifié par la communauté du modèle local : un agent qui cherchait à lire un fil de discussion pour répondre à une question devra désormais s'authentifier, ou se passer de Reddit.</p>\n<h2 id=\"mistral-large-4-la-taille-interesse-moin\">Mistral Large 4 : la taille intéresse moins que l'ancre</h2>\n<p>Un post de r/LocalLLaMA annonce l'arrivée de Mistral Large 4, présenté par son auteur comme un « BIG BOY » de 1 000 milliards de paramètres (1T). Le lien renvoie au billet publié sur le blog Hugging Face de Mistral, avec une ancre pointant vers une section consacrée à <strong>llama.cpp</strong>.</p>\n<p>C'est ce détail qui retient l'attention du forum, davantage que la taille brute du modèle. Un milliard de milliards de paramètres impressionne sur le papier, mais ne dit rien de ce qu'un particulier peut réellement exécuter. La question qui circule est ailleurs : ce que Mistral documente autour de llama.cpp, moteur bien connu de l'inférence locale, et ce que cela implique pour ceux qui font tourner des modèles hors du cloud.</p>\n<p>Le titre du post — « le chonk is here » — résume l'ambiance. De la curiosité technique, pas de l'admiration pour un chiffre.</p>\n<h2 id=\"gemini-4-carbon-detrone-claude-opus-5-5\">Gemini 4 Carbon détrône Claude Opus 5.5</h2>\n<p>Google passe devant : Gemini 4 Carbon devient le meilleur modèle du marché selon le classement d'Artificial Analysis, et Claude Opus 5.5 perd sa première place. Le basculement est rapporté par le Journal du Geek.</p>\n<p>Pour qui s'appuie sur ces classements publics pour choisir un modèle, l'information compte directement : elle déplace une ligne dans les tableaux comparatifs que beaucoup utilisent comme point de départ. Elle ne dit rien, en revanche, de la nature des tâches concernées ni de l'écart réel entre les deux modèles. Un rang de classement reste un agrégat.</p>\n<h2 id=\"anthropic-rachete-une-biotech-d-un-seul-\">Anthropic rachète une biotech d'un seul salarié</h2>\n<p>Anthropic a annoncé le rachat de Mithril Medicine, une biotech qui ne compte qu'un seul salarié. Le chiffre surprend moins que le résultat décrit par Numerama : son fondateur a fait passer un traitement contre une myopathie de l'enfant de l'idée aux résultats chez la souris en moins de 18 mois, en confiant à Claude une bonne partie de la coordination de 11 laboratoires.</p>\n<p>Le récit est celui d'une structure minuscule pilotant une logistique de recherche qui, il y a peu, supposait une organisation bien plus lourde. Il faut le lire pour ce qu'il est : des résultats chez la souris, pas un traitement disponible. Le passage à l'essai clinique n'est pas raconté dans la dépêche, et c'est là que se joue habituellement tout le reste.</p>\n<p>Reste le mouvement : un laboratoire d'IA qui achète une équipe de une personne, sur la foi d'une capacité d'orchestration.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre mouvements, quatre étages différents de la même pile. Reddit ferme l'accès à ses données au moment où le trafic de recherche s'érode ; Mistral documente un modèle à 1 000 milliards de paramètres en insistant sur le versant local ; un classement public change de leader ; un laboratoire rachète une biotech d'une personne. Il n'y a pas de cause commune à chercher entre ces dépêches — seulement des déplacements simultanés : là où l'on trouve l'information, là où tournent les modèles, et qui les coordonne.</p>",
+ "pivot": "13c21ea074e1d035",
+ "tags": [
+  "agents",
+  "mistral",
+  "claude",
+  "gemini"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj2pnp/reddit_will_force_everyone_to_log_in/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xilhng/le_chonk_is_here/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/29/claude-perd-sa-couronne-la-nouvelle-meilleure-ia-du-monde-est-gemini-4-carbon-de-google/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/sciences/2362303-anthropic-rachete-la-biotech-dun-seul-chercheur-qui-pilotait-11-labos-avec-claude-pour-creer-un-medicament.html"
+  }
+ ],
+ "date": "2026-10-30T02:09:47+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1517,
+  "sortie": 2948
+ }
+}

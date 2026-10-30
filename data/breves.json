@@ -1,5 +1,90 @@
 [
  {
+  "id": "13c21ea074e1d035",
+  "slug": "reddit-passe-en-mode-connecte-obligatoire-les-ia-locales-perdent-l-acc-13c21e",
+  "titre": "Reddit passe en mode connecté obligatoire, les IA locales perdent l'accès",
+  "resume": "Steve Huffman, PDG de Reddit, a annoncé que la plateforme basculera vers une expérience « réservée aux utilisateurs connectés ». Les posts ne seront plus consultables depuis un navigateur, donc plus accessibles à une recherche web classique. Pour les IA locales qui interrogent internet par appel d'outils, cela retire une source de données largement utilisée.",
+  "tags": [
+   "agents",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xj2pnp/reddit_will_force_everyone_to_log_in/",
+  "date_source": "2026-10-30T01:45:51+00:00",
+  "date_redac": "2026-10-30T02:08:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 661,
+   "sortie": 466
+  }
+ },
+ {
+  "id": "c1b7f90fd3a591c6",
+  "slug": "qwen-3-8-27b-rapide-en-local-mais-a-la-peine-pour-piloter-houdini-via--c1b7f9",
+  "titre": "Qwen 3.8 27B : rapide en local, mais à la peine pour piloter Houdini via MCP",
+  "resume": "Un utilisateur de r/LocalLLaMA débute en LLM local avec une RTX 5090 et 256 Go de mémoire système. Sous LM Studio, Qwen 3.8 27B tient dans la VRAM et répond en quelques secondes à des poèmes ou du code VEX pour Houdini. Mais quand il demande au modèle de piloter Houdini via MCP, une simple phrase lui prend plusieurs minutes, avant que le modèle ne se lance dans un raisonnement.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xj2hi1/qwen_38_what_am_i_missing_here/",
+  "date_source": "2026-10-30T01:35:02+00:00",
+  "date_redac": "2026-10-30T02:08:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 826,
+   "sortie": 749
+  }
+ },
+ {
+  "id": "04fffb7074d79ef9",
+  "slug": "une-exemption-religieuse-pour-refuser-l-ia-au-travail-04fffb",
+  "titre": "Une exemption religieuse pour refuser l'IA au travail",
+  "resume": "David Durman, administrateur à l'université du Kentucky, a obtenu une exemption religieuse pour ne pas utiliser l'IA sur son lieu de travail. Selon TechCrunch, il n'est pas nécessaire de croire en un dieu pour décrocher ce type d'exemption. Le dossier déplace la question de l'IA sur le terrain du droit du travail et des objections personnelles.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+  "date_source": "2026-10-30T01:20:48+00:00",
+  "date_redac": "2026-10-30T02:08:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 634,
+   "sortie": 405
+  }
+ },
+ {
+  "id": "1e1600c8d12a05fb",
+  "slug": "dix-agents-de-code-sur-un-meme-qwen-3-8-27b-les-tokens-varient-plus-qu-1e1600",
+  "titre": "Dix agents de code sur un même Qwen 3.8 27B : les tokens varient plus que les scores",
+  "resume": "Dix agents de code testés sur le même modèle Qwen 3.8 27B en Q4, servi par un unique llama-server sur un MacBook Pro M5 Max. Cinq petites tâches, chacune avec un piège, en bac à sable : les scores se ressemblent, la consommation diverge. Pi finit en 38 s avec environ 9 000 tokens par tâche, Qwen Code en 183 s avec 107 900 tokens. La réutilisation du cache va de 72 % à 93 %.",
+  "tags": [
+   "agents",
+   "dev",
+   "open-source",
+   "hermes"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xj182d/10_coding_agents_one_qwen_38_27b_same_llamaserver/",
+  "date_source": "2026-10-30T00:34:49+00:00",
+  "date_redac": "2026-10-30T02:09:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 974,
+   "sortie": 1264
+  }
+ },
+ {
   "id": "33134241a99fb9a1",
   "slug": "cohere-critique-pour-un-billet-alarmiste-avant-sa-levee-de-fonds-331342",
   "titre": "Cohere critiqué pour un billet alarmiste avant sa levée de fonds",

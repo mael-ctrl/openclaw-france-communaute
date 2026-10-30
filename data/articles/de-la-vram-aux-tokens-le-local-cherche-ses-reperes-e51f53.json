@@ -1,0 +1,41 @@
+{
+ "slug": "de-la-vram-aux-tokens-le-local-cherche-ses-reperes-e51f53",
+ "titre": "De la VRAM aux tokens : le local cherche ses repères",
+ "chapo": "Une carte graphique retirée du catalogue, un modèle à 1 000 milliards de paramètres, dix agents qui consomment du token de façon très inégale : la semaine rappelle que le modèle local se joue autant sur la mémoire et le coût que sur les scores. Et qu'une source de données peut se fermer du jour au lendemain.",
+ "html": "<h2 id=\"nvidia-retire-la-rtx-5080-la-vram-devien\">NVIDIA retire la RTX 5080, la VRAM devient l'argument</h2>\n<p>La RTX 5080 a été retirée de la marketplace officielle de NVIDIA. Selon les rumeurs, la version 16 Go serait abandonnée — comme la RTX 5090, elle aussi retirée — au profit d'un modèle 24 Go attendu début 2027, censé tenir le rôle de flagship jusqu'à l'arrivée de Rubin en 2028.</p>\n<p>Le détail qui compte : ce modèle reposerait sur le même die GPU, déjà pleinement exploité. Pas de variante Super, pas de gain de performance notable. Seule différence annoncée, plus de VRAM. Pour les utilisateurs d'IA locale, le curseur se déplace : la question n'est pas la vitesse brute, mais la quantité de mémoire disponible pour loger un modèle et son contexte.</p>\n<h2 id=\"mistral-large-4-le-chiffre-fait-le-titre\">Mistral Large 4 : le chiffre fait le titre, llama.cpp fait la discussion</h2>\n<p>Un post de r/LocalLLaMA annonce l'arrivée de Mistral Large 4, présenté par son auteur comme un « BIG BOY » de 1 000 milliards de paramètres (1T). Le lien renvoie au billet publié sur le blog Hugging Face de Mistral, avec une ancre pointant vers une section consacrée à llama.cpp.</p>\n<p>C'est ce détail qui intéresse la communauté du modèle local, davantage que la taille brute du modèle. Le nombre de paramètres impressionne, mais il ne dit rien de la façon dont le modèle s'exécute ; la présence d'une section llama.cpp, elle, parle directement à ceux qui font tourner les poids chez eux plutôt que sur les serveurs d'un éditeur.</p>\n<h2 id=\"dix-agents-un-seul-serveur-le-token-comm\">Dix agents, un seul serveur : le token comme unité de compte</h2>\n<p>Dix agents de code ont été testés sur le même modèle, Qwen 3.8 27B en Q4, servi par un unique llama-server sur un MacBook Pro M5 Max. Cinq petites tâches, chacune avec un piège, en bac à sable. Les scores se ressemblent, la consommation diverge : Pi termine en 38 s avec environ 9 000 tokens par tâche, Qwen Code met 183 s et consomme 107 900 tokens. La réutilisation du cache va de 72 % à 93 %.</p>\n<p>Le thème revient chez UkisAI, qui étend sa série Swift avec deux modèles, Swift GLM-5.3-Flash et Swift Ornith 9B. La méthode : pénaliser les tokens liés au raisonnement pathologique sans toucher à la longueur, puis récupérer la précision par post-entraînement (RL, distillation on-policy). Sur MMLU-Pro, GLM-5.3-Flash affiche -61,4 % de tokens de réflexion pour -0,46 % de perte de précision moyenne.</p>\n<p>Dans les deux cas, l'unité de mesure n'est plus seulement le score : c'est le token brûlé pour y arriver, et le temps que cela prend.</p>\n<h2 id=\"reddit-ferme-la-porte-aux-visiteurs\">Reddit ferme la porte aux visiteurs</h2>\n<p>Steve Huffman, PDG de Reddit, a annoncé que la plateforme basculera vers une expérience « réservée aux utilisateurs connectés ». Les posts ne seront plus consultables depuis un navigateur, donc plus accessibles à une recherche web classique.</p>\n<p>Pour les IA locales qui interrogent internet par appel d'outils, cela retire une source de données largement utilisée. Le point est structurel : un agent local ne dépend pas seulement de son modèle et de sa VRAM, mais aussi de portes qu'il ne contrôle pas.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois des cinq dépêches tournent autour de la même question : ce qu'un modèle local coûte en mémoire et en tokens. NVIDIA répondrait par de la VRAM supplémentaire en 2027, UkisAI par moins de raisonnement superflu, les tests d'agents par des écarts de consommation d'un facteur dix. Reste Reddit, où la variable n'est ni le matériel ni le modèle : l'accès peut se fermer sans préavis, et aucun réglage local n'y changera rien.</p>",
+ "pivot": "e51f539df9e37419",
+ "tags": [
+  "matériel",
+  "mistral",
+  "agents",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj9xjh/the_rtx_5080_has_been_removed_from_nvidias/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xilhng/le_chonk_is_here/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj2pnp/reddit_will_force_everyone_to_log_in/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj182d/10_coding_agents_one_qwen_38_27b_same_llamaserver/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xisqge/ukisai_swift_glm53_gsqrco_swift_ornith_9b_577/"
+  }
+ ],
+ "date": "2026-10-30T08:59:56+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1649,
+  "sortie": 3810
+ }
+}

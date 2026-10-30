@@ -1,0 +1,41 @@
+{
+ "slug": "benchmarks-contestes-poids-ouverts-la-mesure-des-modeles-fai-d7bc47",
+ "titre": "Benchmarks contestés, poids ouverts : la mesure des modèles fait débat",
+ "chapo": "ISTA conteste les comparaisons de quantifications publiées par Unsloth sur DeepSeek-V4.1-Flash-1017, quand Gemini 4 Carbon détrône Claude Opus 5.5 chez Artificial Analysis. Entre-temps, Mistral ouvre les poids de son Large 4 et Reddit se referme sur ses comptes.",
+ "html": "<h2 id=\"ista-contre-unsloth-le-desaccord-porte-s\">ISTA contre Unsloth : le désaccord porte sur le protocole</h2>\n<p>La discorde est technique, mais elle dit beaucoup de la façon dont on compare aujourd'hui les modèles. ISTA conteste les comparaisons de quantifications publiées par Unsloth sur <strong>DeepSeek-V4.1-Flash-1017</strong>, qu'il juge non conformes à ses propres résultats. L'entreprise assure n'avoir modifié aucun hyperparamètre : contexte de 128K et effort de raisonnement fixé à 50, pour un modèle de 763 milliards de paramètres.</p>\n<p>L'écart viendrait des contraintes du banc d'essai. Unsloth limite le raisonnement à 32K tokens, là où ISTA autorise jusqu'à 128K en sortie. Deux mesures, donc, plus tout à fait comparables.</p>\n<p>Derrière la passe d'armes, un problème de fond : quand un modèle raisonne sur des sorties longues, brider cette longueur change le résultat. Un chiffre de benchmark n'a de sens qu'accompagné de son protocole.</p>\n<h2 id=\"mistral-large-4-les-poids-ouverts-et-un-\">Mistral Large 4 : les poids ouverts, et un détail qui compte</h2>\n<p>Mistral AI ouvre les poids de <strong>Mistral Large 4</strong>, dévoilé le 6 octobre et désormais téléchargeable sur Hugging Face. Trois semaines d'entraînement par renforcement et de tests auprès de clients — ASML, Cisco, Microsoft, Orange Cyberdefense — ont précédé cette ouverture. Les entreprises peuvent déployer le modèle sur leur propre infrastructure, sans dépendre uniquement de l'API de son concepteur.</p>\n<p>Sur r/LocalLLaMA, l'annonce est reprise avec un enthousiasme à la mesure du gabarit : 1 000 milliards de paramètres, un « BIG BOY » de 1T. Mais ce qui retient l'attention de la communauté du modèle local, c'est ailleurs : le lien pointe vers le blog Hugging Face de Mistral, avec une ancre vers une section consacrée à <strong>llama.cpp</strong>. C'est ce détail d'implémentation qui intéresse, davantage que la taille brute.</p>\n<p>Un milliard de paramètres en plus ou en moins, la question n'est pas là. Elle est de savoir si l'on peut faire tourner le modèle, et comment.</p>\n<h2 id=\"gemini-4-carbon-passe-devant-claude-opus\">Gemini 4 Carbon passe devant Claude Opus 5.5</h2>\n<p>Changement de tête au classement d'Artificial Analysis : <strong>Gemini 4 Carbon</strong> devient le meilleur modèle du marché selon l'organisme, et Claude Opus 5.5 perd sa première place. Le basculement n'a rien d'anecdotique pour ceux qui s'appuient sur ces classements publics pour arbitrer un choix de modèle.</p>\n<p>Rappel utile : un classement mesure ce qu'il mesure. La position d'un modèle dépend du jeu d'évaluations retenu, pas d'une supériorité absolue dans tous les usages.</p>\n<h2 id=\"reddit-referme-la-porte-derriere-ses-lec\">Reddit referme la porte derrière ses lecteurs</h2>\n<p>Autre mouvement, d'une nature différente : Reddit annonce faire évoluer sa plateforme vers une expérience réservée aux utilisateurs connectés, alors que le trafic venu des moteurs de recherche se tarit. L'entreprise, historiquement bâtie sur le web ouvert, revoit ce modèle pour protéger son audience et son activité. En cause : l'IA, qui transforme la manière dont les internautes trouvent l'information en ligne.</p>\n<p>Le raisonnement est facile à reconstituer. Si les internautes obtiennent leurs réponses ailleurs, le passage par un moteur de recherche ne ramène plus de visiteurs — et un visiteur non connecté, sans compte, ne vaut plus grand-chose. Reddit choisit donc de fermer l'accès pour retenir ceux qui restent.</p>\n<p>À noter que la dépêche sur DeepSeek comme celle sur Mistral venaient justement de r/LocalLLaMA. La matière première de la discussion sur les modèles locaux circule sur des plateformes qui, elles, réfléchissent à se refermer.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux fils se croisent ici. D'un côté, la mesure : ISTA et Unsloth se disputent un protocole, Artificial Analysis rebat les cartes entre Gemini 4 Carbon et Claude Opus 5.5. De l'autre, l'accès : Mistral ouvre ses poids pour qu'on déploie chez soi, Reddit envisage de fermer son web ouvert. Les deux mouvements ne s'opposent pas — ils répondent à la même question, celle de savoir qui garde la main sur le modèle et sur la distribution.</p>",
+ "pivot": "d7bc47d029eec652",
+ "tags": [
+  "deepseek",
+  "mistral",
+  "gemini",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjkjla/ista_deepseekv41flash1017_gsqrco_quants_comparison/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xilhng/le_chonk_is_here/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/mistral-ai/desormais-ouvert-mistral-large-4-peut-il-rivaliser-avec-les-modeles-chinois-les-plus-performants.ONUACF5OUZGB7OLBK5O7CEE24Q.html"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/29/claude-perd-sa-couronne-la-nouvelle-meilleure-ia-du-monde-est-gemini-4-carbon-de-google/"
+  }
+ ],
+ "date": "2026-10-30T17:01:58+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1598,
+  "sortie": 1803
+ }
+}

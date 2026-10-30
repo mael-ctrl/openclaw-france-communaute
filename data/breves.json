@@ -1,5 +1,129 @@
 [
  {
+  "id": "eac74f38de909f31",
+  "slug": "le-roomba-plus-675-combo-a-moins-de-600-euros-chez-boulanger-eac74f",
+  "titre": "Le Roomba Plus 675 Combo à moins de 600 euros chez Boulanger",
+  "resume": "Boulanger propose l'iRobot Roomba Plus 675 Combo à moins de 600 euros, soit 200 euros de moins, à l'approche du Black Friday. Ce robot 3-en-1 assure l'aspiration et le nettoyage des sols, avec une puissance d'aspiration annoncée comme efficace et un nettoyage boosté par l'intelligence artificielle.",
+  "tags": [
+   "matériel",
+   "robots",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/bons-plans/3305111_ce-robot-aspirateur-3-en-1-perd-200-euros-et-vous-fait-gagner-beaucoup-de-temps-grace-a-boulanger",
+  "date_source": "2026-10-30T16:51:00+00:00",
+  "date_redac": "2026-10-30T17:01:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 691,
+   "sortie": 128
+  }
+ },
+ {
+  "id": "d7bc47d029eec652",
+  "slug": "deepseek-v4-1-flash-ista-conteste-les-comparaisons-d-unsloth-d7bc47",
+  "titre": "DeepSeek-V4.1-Flash : ISTA conteste les comparaisons d'Unsloth",
+  "resume": "ISTA conteste les comparaisons de quantifications publiées par Unsloth sur DeepSeek-V4.1-Flash-1017, jugées non conformes à ses résultats. Il assure n'avoir modifié aucun hyperparamètre : contexte de 128K et effort de raisonnement à 50 pour ce modèle de 763B paramètres. L'écart viendrait des contraintes de benchmark, Unsloth limitant le raisonnement à 32K tokens quand ISTA autorise jusqu'à 128K en sortie.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xjkjla/ista_deepseekv41flash1017_gsqrco_quants_comparison/",
+  "date_source": "2026-10-30T16:46:21+00:00",
+  "date_redac": "2026-10-30T17:01:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 840,
+   "sortie": 1012
+  }
+ },
+ {
+  "id": "b91bacefa05672af",
+  "slug": "lfm3-omni-2b-tourne-dans-le-navigateur-via-webgpu-b91bac",
+  "titre": "LFM3-Omni-2B tourne dans le navigateur via WebGPU",
+  "resume": "LFM3-Omni-2B, modèle omni de LiquidAI, tourne entièrement dans un navigateur grâce à WebGPU, sans modèle ASR ou TTS séparé. Il accepte des entrées visuelles, audio ou texte et produit des tokens texte et audio entrelacés. Avec des kernels WebGPU dédiés, il atteint environ 280 tok/s sur une M4 Max, pour 90 ms jusqu'au premier token et 140 ms jusqu'au premier audio.",
+  "tags": [
+   "dev",
+   "matériel",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xjkh59/lfm3omni2b_running_locally_inbrowser_on_webgpu/",
+  "date_source": "2026-10-30T16:43:56+00:00",
+  "date_redac": "2026-10-30T17:01:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 780,
+   "sortie": 689
+  }
+ },
+ {
+  "id": "c1424fe8bd85ce05",
+  "slug": "google-cloud-bondit-de-103-au-t3-2026-devant-azure-et-aws-c1424f",
+  "titre": "Google Cloud bondit de 103 % au T3 2026, devant Azure et AWS",
+  "resume": "Au troisième trimestre 2026, le chiffre d'affaires de Google Cloud a bondi de 103 % sur un an, à 30,7 milliards de dollars. Une progression qui dépasse Microsoft Azure (+48 %) et Amazon Web Services (+39,3 %), à périmètres non strictement comparables. Alphabet illustre le changement d'échelle de ses activités liées à l'IA, tandis que l'IA générative dans la recherche fait vaciller son modèle économique.",
+  "tags": [
+   "business",
+   "gemini",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "L'Usine Digitale",
+  "lien_source": "https://www.usine-digitale.fr/big-tech/google/google-cloud-decolle-mais-lintegration-de-lia-generative-dans-la-recherche-fait-vaciller-le-modele-economique-de-google.ADXSNZAA4BEVZG37ZS6JUBIO5U.html",
+  "date_source": "2026-10-30T16:40:40+00:00",
+  "date_redac": "2026-10-30T17:01:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 811,
+   "sortie": 803
+  }
+ },
+ {
+  "id": "af6e02ee3aade3c6",
+  "slug": "vibe-coding-recoder-des-logiciels-anciens-avec-claude-tourne-court-af6e02",
+  "titre": "Vibe coding : recoder des logiciels anciens avec Claude tourne court",
+  "resume": "Un utilisateur de Claude raconte avoir entrepris de démonter des logiciels propriétaires anciens par reverse engineering pour les recoder de zéro avec le modèle, afin d'éliminer le code superflu. Bilan : un temps de travail déraisonnable et une consommation de tokens énorme, au point qu'acheter le logiciel d'origine coûte moins cher, financièrement comme mentalement. Surtout, l'exercice l'a rendu humble : conçus sous de lourdes contraintes matérielles, ces logiciels sont optimisés de partout, de l'allocation mémoire à la localité du cache en passant par le coût de calcul.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Reddit — Claude",
+  "lien_source": "https://www.reddit.com/r/ClaudeAI/comments/1xjk9x0/the_era_of_vibe_coding_actually_made_me/",
+  "date_source": "2026-10-30T16:36:30+00:00",
+  "date_redac": "2026-10-30T17:01:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 784,
+   "sortie": 365
+  }
+ },
+ {
+  "id": "030c952dfa1375df",
+  "slug": "french-tech-l-ia-capte-plus-de-90-des-41-millions-d-euros-leves-cette--030c95",
+  "titre": "French Tech : l'IA capte plus de 90 % des 41 millions d'euros levés cette semaine",
+  "resume": "Sur les 41 millions d'euros levés par la French Tech cette semaine, plus de 90 % concernent l'IA. La quasi-totalité des fonds levés est donc allée à des projets d'intelligence artificielle. Ce déséquilibre illustre le poids pris par le secteur dans le financement des startups françaises.",
+  "tags": [
+   "business",
+   "france"
+  ],
+  "importance": 3,
+  "source": "Maddyness",
+  "lien_source": "https://www.maddyness.com/2026/10/30/french-tech-lia-concentre-plus-de-90-des-41-millions-deuros-leves-cette-semaine/",
+  "date_source": "2026-10-30T16:13:50+00:00",
+  "date_redac": "2026-10-30T17:01:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 664,
+   "sortie": 863
+  }
+ },
+ {
   "id": "de6c8655bcdaaa4c",
   "slug": "petits-modeles-pour-le-bricolage-appel-a-recommandations-sur-r-localll-de6c86",
   "titre": "Petits modèles pour le bricolage : appel à recommandations sur r/LocalLLaMA",

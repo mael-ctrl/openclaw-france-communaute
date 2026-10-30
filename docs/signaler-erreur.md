@@ -28,7 +28,15 @@ Le sujet/corps sont encodés séparément puis échappés pour HTML. Caractères
 
 ## Publication
 
-**Au commit initial :** fonctionnalité et recettes locales complètes ; push, dispatch et preuve HTTPS à compléter après leur exécution. Aucune réussite cloud anticipée.
+**Livré : `bbc5b3a34d6cb9412c747bed8bd995080e896662`.** Les quatre blobs code/test/documents ont été relus exactement sur `main` après push ; un seul dispatch demandé par cette mission.
+
+- Run initial [41041945379](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/41041945379) : contrats réussis, **annulé pendant le pipeline après 45 min**, sauvegarde ignorée. Il ne s’agissait pas d’une simple annulation en file d’attente. Le journal `gh run watch` conserve ce résultat ; des lectures de logs ont également échoué et restent conservées.
+- Descendant [41094695966](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/41094695966) **terminé/réussi à 17:37 UTC** : ascendance du correctif contrôlée, **263 tests cloud**, **2 181 fichiers envoyés** selon le bilan du pipeline, sauvegarde **`9f3e702`** confirmée dans les logs et dans Git. Le code et son test sont inchangés dans ce descendant. Aucun nouveau dispatch pour remplacer l’identité du run initial.
+- Vérification HTTPS effectuée le **30/10 à 20:11–20:12 UTC**, sans antidater les observations : **27 réponses / 25 URL uniques**, toutes 200 ; **huit blocs de signalement exacts**, canonical/sujet/corps contrôlés, **cinq assets exacts**. **Sept HTML éditoriaux complets identiques** au rendu du commit sauvegardé. Sur le huitième, seule la liste préexistante « À lire aussi » diffère ; corps, signalement et tous les autres octets sont identiques. Le premier refus de comparaison intégrale et son diff sont conservés, pas effacés pour fabriquer huit égalités.
+- `version.txt` et sitemap stables aux deux bornes de la seconde capture ; cela ne rend pas atomique un transfert incrémental ni ne rattache les lectures liées plus récentes au commit sauvegardé. Un autre run était actif : **aucune nouvelle régression du bloc constatée**, cause exacte de la différence hors bloc non attribuée.
+- Les **corps HTTPS exacts** ont ensuite été rejoués en Chromium confiné : six configurations sans JS, douze activations mailto interceptées, zéro transport externe. Deux nouvelles captures réellement relues. Le contrôle ne couvre pas les HTML de tous les chemins du catalogue ni les archives historiques inconnues.
+
+La recette cloud est donc acquise via un descendant réussi, malgré le timeout initial. Aucune restauration SFTP, réparation du wrapper ou seconde intégration fonctionnelle n’a été effectuée.
 
 ## Pièces et limites
 

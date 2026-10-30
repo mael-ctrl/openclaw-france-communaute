@@ -238,9 +238,25 @@ def page_transparence(breves, articles, stats, entrees_journal):
     notre prestataire d'envoi <a href="https://buttondown.com/legal/privacy" rel="noopener">Buttondown</a>
     (société américaine) et n'est <strong>jamais revendue</strong>. Aucun traqueur publicitaire n'est posé sur le
     site ; les statistiques de la newsletter se limitent aux ouvertures et clics agrégés, désactivables sur demande.
-    La mesure d'audience du site utilise GoatCounter : sans cookie, sans identifiant personnel, données agrégées
-    (pages vues, référents, pays) — aucun profilage publicitaire.
     Pour toute question ou suppression : crabe@blockos.fr.</p>
+
+    <h2 class="sous-titre" id="mesure-audience">Mesure d’audience du site</h2>
+    <p class="petit-texte">Le site utilise GoatCounter pour sa mesure d’audience. Le service ne dépose pas
+    de cookie de mesure, selon sa documentation. Pour reconnaître des visites répétées, le fournisseur
+    décrit une association du nom du site, de l’adresse IP et du User-Agent (informations envoyées par le
+    navigateur) en mémoire pendant au plus huit heures. Cette durée ne désigne pas la conservation des statistiques.
+    Source : <a href="https://www.goatcounter.com/help/privacy" rel="noopener">documentation de confidentialité de GoatCounter</a>.
+    Il s’agit de la description du fournisseur, pas d’une vérification de son fonctionnement interne.</p>
+    <p class="petit-texte"><strong>Réglages contrôlés le 30 octobre 2026 :</strong> les options sessions,
+    référents et paramètres de campagne, navigateur et système, taille d’écran, pays et certaines régions
+    sont activées ; le stockage optionnel des pages vues individuelles est désactivé. Le tableau de bord est privé.
+    La conservation est réglée sur <strong>0, soit sans suppression automatique</strong> selon l’interface.
+    Ce constat ne prouve pas la durée effective des sauvegardes ni l’exécution des traitements internes.</p>
+    <p class="petit-texte">Une durée finie justifiée et la qualification du dispositif restent à définir.
+    Le nouveau suivi de clics d’achat du Pack n’est pas activé. Ces précisions constituent une information
+    technique datée, pas une validation juridique ; les journaux de l’hébergeur et la newsletter sont des
+    traitements distincts. Pour toute question sur cette mesure ou demande relative à vos données :
+    <a href="mailto:crabe@blockos.fr">crabe@blockos.fr</a>.</p>
 
     <h2 class="sous-titre">Journal de bord <span class="sous-titre-note">(les 40 dernières entrées, la plus récente en haut)</span></h2>
     <p class="petit-texte" id="journal-defilement">Si le tableau dépasse l’écran, faites-le défiler horizontalement.

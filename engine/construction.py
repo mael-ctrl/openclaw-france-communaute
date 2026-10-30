@@ -10,6 +10,7 @@ import re
 import shutil
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import quote, urlencode, urlsplit
 from zoneinfo import ZoneInfo
 
 import config
@@ -488,6 +489,22 @@ def page_articles(articles):
     return page("Articles de fond", "Les analyses de fond écrites par une IA sur l'écosystème de l'IA francophone.", contenu, "/articles/", section="articles")
 
 
+def bloc_signaler_erreur(titre, url_page):
+    """Brouillon local à l'initiative du lecteur, sans collecte ni envoi."""
+    url_page = urlsplit(url_page)._replace(query="", fragment="").geturl()
+    parametres = urlencode({
+        "subject": "Signaler une erreur — " + titre,
+        "body": "Page concernée : " + url_page + "\r\n\r\nErreur relevée :\r\n",
+    }, quote_via=quote)
+    lien = ech("mailto:crabe@blockos.fr?" + parametres)
+    return f"""<aside class="a-cote" aria-labelledby="signaler-erreur">
+      <h2 id="signaler-erreur">Une erreur ?</h2>
+      <p>Ce média est rédigé par IA. <a href="{lien}">Signaler une erreur par email</a>.</p>
+      <p>Votre messagerie s’ouvre avec le titre et le lien de cette page.
+      Vous choisissez les précisions à ajouter et l’envoi.</p>
+    </aside>"""
+
+
 def bloc_suivre():
     """Invitation en fin de lecture : flux ouvert, sans formulaire ni traceur."""
     flux = ech(config.URL_SITE + "/feed.xml")
@@ -544,6 +561,7 @@ def bloc_couverture(couverture):
 
 
 def page_breve(b, breves_recentes, couverture=None):
+    url_page = f"{config.URL_SITE}/breves/{b['slug']}/"
     date_aff = date_html(b.get("date_source") or b.get("date_redac"))
     autres = lectures_liees(b, breves_recentes[:400])
     liasses = "".join(f'<li><a href="/breves/{x["slug"]}/">{ech(x["titre"])}</a></li>' for x in autres)
@@ -562,12 +580,12 @@ def page_breve(b, breves_recentes, couverture=None):
       </div>
       <p class="signature">🦀 Brève rédigée automatiquement le {date_html(b.get('date_redac'))} — <a href="/transparence/">voir la méthode</a>.</p>
     </article>
+    {bloc_signaler_erreur(b['titre'], url_page)}
     {bloc_suivre()}
     <aside class="a-cote"><h2>À lire aussi</h2><ul class="liste-simple">{liasses or '<li><a href="/actus/">Le fil complet des actus →</a></li>'}</ul></aside>
   </div>
 </section>"""
     desc = b["resume"][:160]
-    url_page = f"{config.URL_SITE}/breves/{b['slug']}/"
     # Source et rédaction ne prouvent ni mise en ligne ni modification publique.
     jsonld = jsonld_item("NewsArticle", url_page, b["titre"], b["resume"],
                          None, None, "Brèves", b.get("tags"),
@@ -577,6 +595,7 @@ def page_breve(b, breves_recentes, couverture=None):
 
 
 def page_article(a, autres_articles, couverture=None):
+    url_page = f"{config.URL_SITE}/articles/{a['slug']}/"
     sources = "".join(f'<li><a href="{ech(s["url"])}" rel="noopener">{ech(s["nom"])}</a></li>' for s in a.get("sources") or [])
     autres = "".join(f'<li><a href="/articles/{x["slug"]}/">{ech(x["titre"])}</a></li>' for x in lectures_liees(a, autres_articles))
     contenu = f"""
@@ -598,11 +617,11 @@ def page_article(a, autres_articles, couverture=None):
       </div>
       <p class="signature">🦀 Assemblé automatiquement à partir des dépêches ci-dessus. Aucun fait inventé — <a href="/transparence/">notre charte</a>.</p>
     </article>
+    {bloc_signaler_erreur(a['titre'], url_page)}
     {bloc_suivre()}
     <aside class="a-cote"><h2>Autres articles</h2><ul class="liste-simple">{autres or '<li><a href="/articles/">Tous les articles →</a></li>'}</ul></aside>
   </div>
 </section>"""
-    url_page = f"{config.URL_SITE}/articles/{a['slug']}/"
     # « date » est créée à la rédaction, avant tout déploiement (docs/dates-jsonld.md).
     jsonld = jsonld_item("NewsArticle", url_page, a["titre"], a["chapo"],
                          None, None, "Articles de fond", a.get("tags"),

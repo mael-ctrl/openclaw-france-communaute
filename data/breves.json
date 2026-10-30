@@ -1,5 +1,127 @@
 [
  {
+  "id": "1da19defa57eeaa4",
+  "slug": "un-emulateur-nes-cache-dans-les-poids-de-qwen3-5-4b-1da19d",
+  "titre": "Un émulateur NES caché dans les poids de Qwen3.5-4B",
+  "resume": "Inspiré par le projet qwenputer de Divyansh Agrawal, Drew Breunig a intégré un émulateur fonctionnel du CPU 6502 de la NES directement dans les poids de Qwen3.5-4B. On peut donc faire tourner des ROMs comme Super Mario Bros à l'intérieur du modèle, très lentement. Il détaille sur Hacker News les prompts Opus 5.5 qui l'ont mené là, jusqu'à l'idée d'un modèle et d'un CLI pointés vers une ROM.",
+  "tags": [
+   "dev",
+   "recherche",
+   "claude"
+  ],
+  "importance": 3,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Oct/30/nesformer/",
+  "date_source": "2026-10-30T21:59:22+00:00",
+  "date_redac": "2026-10-30T22:25:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 837,
+   "sortie": 816
+  }
+ },
+ {
+  "id": "9f1fa1593d060ae8",
+  "slug": "le-titre-intel-plonge-et-ampute-de-12-milliards-la-participation-de-l--9f1fa1",
+  "titre": "Le titre Intel plonge et ampute de 12 milliards la participation de l'État",
+  "resume": "L'action Intel s'est effondrée, retirant 12 milliards de dollars à la participation de l'État au capital du fondeur. Les ventes de PC pâtissent de la demande de l'IA, qui accapare la mémoire et d'autres composants et fait grimper les prix des ordinateurs. La valorisation d'Intel reste donc exposée au marché du PC.",
+  "tags": [
+   "business",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+  "date_source": "2026-10-30T21:54:34+00:00",
+  "date_redac": "2026-10-30T22:25:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 1006
+  }
+ },
+ {
+  "id": "e84247bf3f2d0f2a",
+  "slug": "anthropic-attendue-sur-une-note-junk-elevee-apres-son-ipo-e84247",
+  "titre": "Anthropic attendue sur une note « junk » élevée après son IPO",
+  "resume": "Selon un rapport relayé par TechCrunch, Blackstone prévoit qu'Anthropic écope d'une note « junk » élevée de la part des agences de crédit après son introduction en bourse. Il s'agit d'une prévision, pas d'une annonce officielle. Une telle notation rendrait plus difficile et plus coûteux le financement des dépenses massives sur lesquelles repose l'activité de l'entreprise.",
+  "tags": [
+   "business",
+   "claude"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+  "date_source": "2026-10-30T21:52:03+00:00",
+  "date_redac": "2026-10-30T22:25:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 656,
+   "sortie": 348
+  }
+ },
+ {
+  "id": "0a8f9548b7acd9e9",
+  "slug": "des-costumes-d-halloween-de-derniere-minute-pour-les-nerds-de-la-tech-0a8f95",
+  "titre": "Des costumes d'Halloween de dernière minute pour les nerds de la tech",
+  "resume": "TechCrunch publie une sélection de costumes d'Halloween de dernière minute pour les passionnés de tech. Au menu : une icône d'agent IA faussement mignonne, une vulnérabilité PHP, ou encore Bryan Johnson en version sleepy time. Une liste légère, taillée pour ceux qui n'ont rien prévu.",
+  "tags": [
+   "agents",
+   "sécurité",
+   "société"
+  ],
+  "importance": 1,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+  "date_source": "2026-10-30T21:26:59+00:00",
+  "date_redac": "2026-10-30T22:25:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 665
+  }
+ },
+ {
+  "id": "6b40843223d7e943",
+  "slug": "le-boom-des-depenses-ia-montre-ses-premieres-fissures-6b4084",
+  "titre": "Le boom des dépenses IA montre ses premières fissures",
+  "resume": "Les géants de la tech investissent des milliards dans les infrastructures d'IA. Mais l'endettement croissant, des flux de trésorerie négatifs et un scepticisme grandissant des investisseurs font douter de la soutenabilité de cette vague de dépenses.",
+  "tags": [
+   "business",
+   "matériel"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+  "date_source": "2026-10-30T21:17:40+00:00",
+  "date_redac": "2026-10-30T22:25:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 622,
+   "sortie": 378
+  }
+ },
+ {
+  "id": "58c96341d89cd3cc",
+  "slug": "amd-prevoirait-une-nouvelle-hausse-des-prix-de-ses-gpu-radeon-en-novem-58c963",
+  "titre": "AMD prévoirait une nouvelle hausse des prix de ses GPU Radeon en novembre",
+  "resume": "D'après une publication du subreddit r/LocalLLaMA, AMD prévoirait une nouvelle hausse des prix de ses cartes graphiques Radeon en novembre. Il s'agirait donc d'une augmentation supplémentaire, après une précédente. La publication ne précise ni le montant, ni les modèles concernés, ni la source de l'information.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xjrery/amd_reportedly_plans_another_radeon_gpu_price/",
+  "date_source": "2026-10-30T21:06:27+00:00",
+  "date_redac": "2026-10-30T22:25:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 616,
+   "sortie": 1093
+  }
+ },
+ {
   "id": "eac74f38de909f31",
   "slug": "le-roomba-plus-675-combo-a-moins-de-600-euros-chez-boulanger-eac74f",
   "titre": "Le Roomba Plus 675 Combo à moins de 600 euros chez Boulanger",

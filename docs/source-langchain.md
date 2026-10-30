@@ -52,4 +52,37 @@ Preuves privées : `crabe-chantiers/croissance/2026-10-30/` (captures, métadonn
 logs rouge/vert/suite/essai, recette et résultats JSON). Bureau inaccessible et
 clone partagé en conflit laissés intacts : worktree propre depuis
 `cac69c855cffae8c519de7fc015d345a46fcc45f`, pull rapide vérifié avant préparation.
-La livraison Git/cloud et la vérification HTTPS doivent être constatées séparément.
+La livraison Git/cloud et la vérification HTTPS sont détaillées ci-dessous.
+
+## Livraison vérifiée
+
+Ajout poussé sous `67846cae4406f021248cba0d44b8e94127e8e57c`, trois blobs
+relus sur `main`. Après rebase sur une livraison voisine du hub : **267 tests locaux
+réussis**. Deux dispatchs remplacés en attente, sans job exécuté, sont conservés
+comme annulés (`41123028651`, `41123240104`), pas comme échecs du code.
+
+Le descendant `41124040983` inclut les fichiers exacts de l'ajout : **269 tests cloud
+réussis**, et collecte réelle `LangChain (blog officiel): 8 neuf(s)`. Son pipeline
+est toutefois **annulé par la limite de 45 minutes**, confirmée par l'annotation
+GitHub ; sauvegarde d'état ignorée. Aucun succès de pipeline n'est revendiqué.
+
+Les sorties publiques restant à 23 sources, repli SFTP ciblé à 21:33 UTC : clé hôte
+Ed25519 épinglée avant authentification, sauvegarde des deux cibles, comparaison
+avec le catalogue Git parent, protection contre un changement concurrent,
+upload temporaire/renommage puis relecture des octets distants.
+
+- `/veille/sources.opml` : **24 sources**, 2 648 octets, rendu exact du catalogue ;
+  SHA-256 `1d56ec4580c97b0dac00bf6eb01212e6769389c9048691536563962de6452382`.
+- `/transparence/` : **seul le compteur 23 → 24** changé dans le corps public relu,
+  aucune statistique/date/journal de la recette repris ;
+  SHA-256 `3637a253e54ba5654f093ea42e9472db1fecf0295ab533d18014eb8a39d60af4`.
+
+Le refus de la toute première relecture HTTPS immédiate est conservé. Deux
+relectures canoniques suivantes, à 21:33:46 UTC, sont exactes pour les deux
+cibles ; le téléchargement OPML de `/skills/` reste présent. Aucune seconde
+écriture distante nécessaire. Preuves : `repli-cible/result-final.json`, captures
+`production/`, `cloud-job.log` et `cloud-final.json` dans le chantier privé.
+
+**Ajout collecté et export public livrés ; timeout cloud/sauvegarde non réparés.**
+Le clone partagé en conflit reste distinct et intact. Ni nouvelle brève LangChain
+publiée, ni hausse d'audience ne sont affirmées par ces contrôles.

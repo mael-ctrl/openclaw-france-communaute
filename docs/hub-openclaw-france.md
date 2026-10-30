@@ -875,6 +875,40 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   PATH de cette mission. Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-28/hub-backup-guide/`.
 
+## Accueil : distinguer le kit de l’installation — livraison du 30/10/2026
+
+- **Une amélioration** : accueil aligné sur les fichiers réellement fournis.
+  Titre et accroche décrivent des guides, sans installation ou sécurité déjà acquise.
+  Avant les boutons : le téléchargement ne configure pas la machine, avec accès
+  direct à `/openclaw/#securite-sauvegardes`. Sauvegarde à lancer ou planifier,
+  prérequis des deux agents liés dans la FAQ ; délai Hermes de quinze minutes
+  retiré faute de mesure. Aucun tarif, script, kit, style ou texte juridique modifié.
+- Scripts OpenClaw et documentation officielle sécurité / CLI backup relus.
+  **3 tests de régression** échouent avant correction puis passent ; **266 tests
+  de la suite complète OK**, et les **3 nouveaux tests OK sur le HTML public**.
+  Le contenu `<main>` public est identique à la source locale.
+- Chrome avec et sans JavaScript : **12 contrôles locaux** (1440, 1024, 430,
+  390, 375 et 360 px), puis **6 publics** (1440, 390 et 360 px). Mention avant
+  les boutons, FAQ ouverte au clavier, liens prérequis visibles, navigation
+  clavier vers la section sécurité et absence de débordement horizontal vérifiés.
+  Ces contrôles ne testent aucune installation ni restauration réelle.
+- Dépôt du Bureau inaccessible à Git en cron : publication par
+  `python3 outils/deployer_openclaw.py` depuis le clone synchronisé hors Bureau
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Clone partagé en conflits laissé
+  intact. Sauvegarde privée et recontrôle avant envoi ; **36 fichiers relus via
+  FTP**, tous identiques aux sources. Seuls l’accueil et le sitemap ont changé.
+  Dates/modes restaurés avant régénération : ZIP et manifeste SHA-256 inchangés,
+  également vérifiés en HTTPS ; archives téléchargées intègres.
+- Santé : **les six URL demandées en HTTP 200**, contrôle étendu de **11 URL
+  en 200** sans suivi de redirection. **IndexNow HTTP 200** pour l’accueil :
+  notification acceptée, pas preuve d’indexation ni de croissance.
+- **Aucune nouvelle distribution** : journal Git synchronisé relu, le post
+  OPML du 28/10 (`3mywck423rtvm`) occupe déjà le créneau Bluesky hebdomadaire.
+  Aucun nouveau contact, formulaire ou contrôle de boîte mail prétendu.
+- Prochaine priorité : tester une sauvegarde et une restauration réelles dans
+  un environnement isolé. Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-10-30/hub-accueil-installation/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

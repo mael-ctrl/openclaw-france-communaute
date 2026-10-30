@@ -1,26 +1,18 @@
 {
- "runs": 425,
- "items_collectes": 3327,
- "breves_publiees": 1564,
- "articles_publies": 312,
- "tokens_entree": 1623032,
- "tokens_sortie": 2272335,
+ "runs": 426,
+ "items_collectes": 3331,
+ "breves_publiees": 1567,
+ "articles_publies": 313,
+ "tokens_entree": 1626859,
+ "tokens_sortie": 2276870,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-10-30T02:09:48+00:00",
+ "dernier_run": "2026-10-30T06:19:22+00:00",
  "solde": {
-  "total": "82.96",
+  "total": "82.93",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-10-29T08:51:11+00:00",
-   "message": "brève impossible (Researchers Discover a Way to Reduce LLM Training Compute by) : réponse non-JSON"
-  },
-  {
-   "ts": "2026-10-29T20:27:11+00:00",
-   "message": "article impossible : Expecting ':' delimiter: line 1 column 1484 (char 1483)"
-  },
   {
    "ts": "2026-10-30T02:09:04+00:00",
    "message": "brève impossible (v2.1.314) : réponse non-JSON"
@@ -32,10 +24,18 @@
   {
    "ts": "2026-10-30T02:51:43+00:00",
    "message": "archivage wayback : The read operation timed out"
+  },
+  {
+   "ts": "2026-10-30T06:18:50+00:00",
+   "message": "brève impossible (openclaw 2026.10.10-beta.5) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-10-30T06:55:23+00:00",
+   "message": "archivage wayback : The read operation timed out"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 8.7,
+ "depense_usd": 8.73,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1720,13 +1720,17 @@
   [
    "2026-10-30T02:08:35+00:00",
    "82.96"
+  ],
+  [
+   "2026-10-30T06:18:29+00:00",
+   "82.93"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 6.41,
+ "depense_mois_usd": 6.44,
  "archive_tentatives": {
   "jour": "2026-10-30",
-  "n": 1
+  "n": 2
  },
  "derniere_archive": "2026-10-29"
 }

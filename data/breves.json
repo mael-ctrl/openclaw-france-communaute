@@ -1,5 +1,47 @@
 [
  {
+  "id": "e7fddc837d4acaa8",
+  "slug": "un-post-affirme-qu-une-station-dell-avec-gpu-96-go-coute-moins-que-la--e7fddc",
+  "titre": "Un post affirme qu'une station Dell avec GPU 96 Go coûte moins que la carte",
+  "resume": "Sur r/LocalLLaMA, un post soutient qu'une station de travail Dell complète, équipée d'un GPU NVIDIA de 96 Go, pourrait revenir moins cher que la carte graphique achetée seule. L'affirmation vient d'un membre du forum, et l'extrait ne donne ni la configuration exacte ni le prix. La mémoire GPU reste le poste le plus lourd quand on monte une machine pour faire tourner des modèles en local.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xj7g31/complete_dell_workstation_with_96gb_nvidia_gpu/",
+  "date_source": "2026-10-30T05:58:01+00:00",
+  "date_redac": "2026-10-30T06:18:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 621,
+   "sortie": 812
+  }
+ },
+ {
+  "id": "354fbf3d62f0c07a",
+  "slug": "des-gpu-neufs-qui-dorment-dans-un-data-center-s-etonne-un-membre-de-r--354fbf",
+  "titre": "Des GPU neufs qui dorment dans un data center, s'étonne un membre de r/LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, un internaute dit avoir repéré, dans un data center, un stock important de GPU inutilisés — le genre de matériel dont les amateurs de LLM locaux ne peuvent que rêver. Il s'étonne de découvrir où finit une partie du matériel de la chaîne d'approvisionnement et ce qui est réellement utilisé après une vente. Il espère que ces cartes seront un jour retournées ou récupérées par un contact bien placé.",
+  "tags": [
+   "matériel",
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xj4qi0/guys_i_think_i_found_our_gpus/",
+  "date_source": "2026-10-30T03:25:34+00:00",
+  "date_redac": "2026-10-30T06:18:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 709,
+   "sortie": 442
+  }
+ },
+ {
   "id": "13c21ea074e1d035",
   "slug": "reddit-passe-en-mode-connecte-obligatoire-les-ia-locales-perdent-l-acc-13c21e",
   "titre": "Reddit passe en mode connecté obligatoire, les IA locales perdent l'accès",
@@ -60,6 +102,27 @@
    "modele": "deepseek-flash",
    "entree": 634,
    "sortie": 405
+  }
+ },
+ {
+  "id": "8473fe0e4569e90b",
+  "slug": "ninfer-0-3-0-l-inference-qwen3-sur-rtx-2080-ti-22-go-passe-en-natif-wi-8473fe",
+  "titre": "NInfer 0.3.0 : l'inférence Qwen3 sur RTX 2080 Ti 22 Go passe en natif Windows",
+  "resume": "La version 0.3.0 de NInfer pour Turing est disponible. Ce moteur fait tourner les modèles Qwen3.6/8-27B — et seulement eux — sur une unique RTX 2080 Ti modifiée à 22 Go, en n'utilisant que la VRAM, sans déport vers la RAM système, ce qui exclut le 35B-A3B. Il fonctionne désormais nativement sous Windows, sans WSL2 ni Docker, et se lance via une archive précompilée et un script. Les fine-tunes et abliterations restent pris en charge via le convertisseur de checkpoints .ninfer.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xj1gnw/ninfer2080ti22g_now_supports_windowsnative_and_is/",
+  "date_source": "2026-10-30T00:46:48+00:00",
+  "date_redac": "2026-10-30T06:19:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 879,
+   "sortie": 752
   }
  },
  {

@@ -1,0 +1,41 @@
+{
+ "slug": "agents-de-code-memes-scores-des-tokens-par-dizaines-de-milli-1e1600",
+ "titre": "Agents de code : mêmes scores, des tokens par dizaines de milliers",
+ "chapo": "Un même modèle, dix agents, et des écarts de consommation qui dépassent largement les différences de résultats. Pendant ce temps, Mistral ouvre les poids d'un modèle à 1 000 milliards de paramètres et Reddit ferme l'accès aux lecteurs non connectés.",
+ "html": "<h2 id=\"dix-agents-un-serveur-le-score-ne-dit-pa\">Dix agents, un serveur : le score ne dit pas tout</h2>\n<p>Le protocole est simple, et c'est ce qui le rend intéressant : <strong>dix agents de code</strong>, un seul modèle — Qwen 3.8 27B en quantification Q4 — servi par un unique llama-server sur un MacBook Pro M5 Max. Cinq petites tâches, chacune avec un piège, en bac à sable.</p>\n<p>Résultat : les scores se ressemblent, la consommation diverge. Pi termine en 38 secondes avec environ 9 000 tokens par tâche. Qwen Code met 183 secondes et consomme 107 900 tokens. Même modèle, même serveur, même matériel : l'écart se joue dans la façon dont l'agent boucle, relit et reformule.</p>\n<p>La réutilisation du cache donne la mesure de cette inefficacité : elle va de 72 % à 93 % selon les agents. Autrement dit, une part du travail est déjà en mémoire et n'est pas réexploitée de la même manière d'un agent à l'autre. Sur cinq tâches courtes, cela reste supportable ; sur des sessions longues, le coût en temps et en calcul ne se lit plus du tout dans le score.</p>\n<h2 id=\"mistral-large-4-1-000-milliards-de-param\">Mistral Large 4 : 1 000 milliards de paramètres, poids ouverts</h2>\n<p>Sur r/LocalLLaMA, un post annonce Mistral Large 4 sous le qualificatif de « BIG BOY » : son auteur le présente comme un modèle de 1 000 milliards de paramètres. Le lien renvoie au billet publié sur le blog Hugging Face de Mistral, avec une ancre pointant vers une section consacrée à <strong>llama.cpp</strong>. C'est ce détail qui retient l'attention de la communauté du modèle local, davantage que la taille brute.</p>\n<p>L'Usine Digitale apporte la confirmation côté entreprise : les poids sont ouverts et téléchargeables sur Hugging Face. Le modèle a été dévoilé le 6 octobre, après trois semaines d'entraînement par renforcement et de tests menés auprès de clients comme ASML, Cisco, Microsoft ou Orange Cyberdefense.</p>\n<p>L'intérêt pratique est là : les entreprises peuvent déployer le modèle sur leur propre infrastructure, sans dépendre uniquement de l'API de son concepteur. Un modèle de cette taille reste hors de portée d'un poste de travail ; l'ouverture des poids ne dit rien, à elle seule, de ce qu'on peut en faire sur une machine locale.</p>\n<h2 id=\"reddit-se-referme-les-agents-locaux-y-pe\">Reddit se referme, les agents locaux y perdent une source</h2>\n<p>Steve Huffman, PDG de Reddit, a annoncé que la plateforme basculera vers une expérience « réservée aux utilisateurs connectés ». Concrètement, les posts ne seront plus consultables depuis un navigateur, donc plus accessibles à une recherche web classique.</p>\n<p>Pour les IA locales qui interrogent internet par appel d'outils, cela retire une source de données largement utilisée. Un agent qui cherchait un fil de discussion technique pour vérifier un point de configuration devra passer par une autre voie, ou par une authentification.</p>\n<p>La décision fait écho à un mouvement plus large : les corpus ouverts au scraping se réduisent, et les modèles locaux, qui comptent sur le web accessible pour compenser leur absence de mémoire fraîche, en subissent directement les effets.</p>\n<h2 id=\"le-droit-mondial-versionne-et-interrogea\">Le droit mondial, versionné et interrogeable sous CC0</h2>\n<p>Le projet Global Law, publié sur r/LocalLLaMA, a atteint la première place sur Hacker News. Son objectif : rendre l'ensemble du droit <strong>sémantique, versionné, facilement attribuable et interrogeable par des agents</strong>. Le tout sous licence CC0, donc librement réutilisable.</p>\n<p>Le dépôt est hébergé sur GitHub. L'auteur indique travailler depuis des mois sur des graphes de connaissances appliqués à de gros corpus juridiques.</p>\n<p>L'approche par versionnement tranche avec la logique du PDF ou de la base propriétaire : chaque élément devient citable et comparable dans le temps, ce qui est précisément ce qu'un agent a besoin de manipuler. Reste que la licence CC0 libère le contenant, pas la responsabilité de celui qui interprète le texte.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches dessinent un même déplacement : la valeur se joue moins sur le modèle que sur ce qu'on met autour. Un agent peut brûler cent fois plus de tokens qu'un autre pour un résultat comparable sur Qwen 3.8 27B ; un modèle de 1 000 milliards de paramètres ne devient utile qu'avec l'infrastructure qui va avec ; un corpus juridique ne sert aux agents qu'une fois structuré et versionné. Et l'accès aux sources, lui, se referme à mesure que Reddit exige une connexion.</p>",
+ "pivot": "1e1600c8d12a05fb",
+ "tags": [
+  "agents",
+  "dev",
+  "mistral",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj182d/10_coding_agents_one_qwen_38_27b_same_llamaserver/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xilhng/le_chonk_is_here/"
+  },
+  {
+   "nom": "L'Usine Digitale",
+   "url": "https://www.usine-digitale.fr/intelligence-artificielle/mistral-ai/desormais-ouvert-mistral-large-4-peut-il-rivaliser-avec-les-modeles-chinois-les-plus-performants.ONUACF5OUZGB7OLBK5O7CEE24Q.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj2pnp/reddit_will_force_everyone_to_log_in/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xiv58m/git_for_global_law_global_law_querable_in_git/"
+  }
+ ],
+ "date": "2026-10-30T06:19:21+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1618,
+  "sortie": 2529
+ }
+}

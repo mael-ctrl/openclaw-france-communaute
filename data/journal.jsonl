@@ -3612,3 +3612,9 @@
 {"ts": "2026-10-30T09:31:16+00:00", "evenement": "archivage", "details": {"wayback": 200}, "sha256": "0202bc64476b39031361075a2ea3a815be6d5cd41705667403082fba3225ff06"}
 {"ts": "2026-10-30T09:31:27+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "db2872538392e63ba5868351551322fcbf12c0b6701fd3f89b0f570d93b8c1c0"}
 {"ts": "2026-10-30T09:31:27+00:00", "evenement": "bilan", "details": {"duree_s": 1958.7, "neufs": 15, "breves": 6, "articles": 1, "fichiers": 2118, "envois": 2164, "publications": 4}, "sha256": "fa1b56284f95e495e67ea0be3820d5a6aa01fb2599c73e4bf58c361c2d68a0da"}
+{"ts": "2026-10-30T11:51:29+00:00", "evenement": "collecte", "details": {"neufs": 32}, "sha256": "7eeac407be844c5cadd1e309ce11c9b48ca24c1c7b986e4eb606e992ae5ea3d1"}
+{"ts": "2026-10-30T11:52:10+00:00", "evenement": "erreur", "details": {"message": "brève impossible ([Paper] Multi-Token Prediction Done Right - Soft-MTP) : réponse non-JSON"}, "sha256": "420024928f8b5bf5fd60192cedd35123c72979313eae6e8fe31e33783e58d8fc"}
+{"ts": "2026-10-30T11:52:53+00:00", "evenement": "construction", "details": {"fichiers": 2124}, "sha256": "2b96955f6d05058a09224405df55630c47f4fa278bd219aa040bd3f1c236af1e"}
+{"ts": "2026-10-30T12:32:30+00:00", "evenement": "deploiement", "details": {"fichiers": 2169, "octets": 46992469}, "sha256": "d5f00d15085dd0425ecb6629b2f6407185eaad3b0c4813c1465052eeabfd29c3"}
+{"ts": "2026-10-30T12:32:31+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "786e4ad593ab3e3c959b53739a8dcef69544abb1c3dcd491a09b52920eb01ad6"}
+{"ts": "2026-10-30T12:32:31+00:00", "evenement": "bilan", "details": {"duree_s": 2488.8, "neufs": 32, "breves": 5, "articles": 1, "fichiers": 2124, "envois": 2169, "publications": 0}, "sha256": "0e4fcd4afdf91a47a062ddbea6d006f646f99728cdc863590aec87e1329712be"}

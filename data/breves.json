@@ -1,5 +1,109 @@
 [
  {
+  "id": "0a0c57e8dec30536",
+  "slug": "une-fausse-mise-a-jour-de-claude-code-piege-des-milliers-de-developpeu-0a0c57",
+  "titre": "Une fausse mise à jour de Claude Code piège des milliers de développeurs via Cursor",
+  "resume": "Le 29 octobre 2026, la boutique d'extensions de l'éditeur de code Cursor a distribué une fausse mise à jour de Claude Code, l'assistant de programmation d'Anthropic. Des milliers de développeurs ont ainsi reçu une version piégée de l'outil. L'épisode montre que la distribution via les places de marché d'extensions expose largement les outils de dev assistés par IA.",
+  "tags": [
+   "claude",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/cyberguerre/2364283-des-hackers-ont-distribue-une-version-piegee-de-claude-code-a-des-milliers-de-developpeurs-mais-se-sont-pris-les-pieds-dans-leur-propre-code.html",
+  "date_source": "2026-10-30T11:21:49+00:00",
+  "date_redac": "2026-10-30T11:51:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 697,
+   "sortie": 686
+  }
+ },
+ {
+  "id": "7dfcfd1e70262533",
+  "slug": "l-extension-vs-code-de-claude-code-compromise-pour-installer-une-backd-7dfcfd",
+  "titre": "L'extension VS Code de Claude Code compromise pour installer une backdoor SSH",
+  "resume": "Des chercheurs en cybersécurité rapportent que l'extension officielle Claude Code d'Anthropic, distribuée sur le Cursor Marketplace, a été compromise pour installer une backdoor SSH persistante sur les machines infectées. L'alerte vise en particulier les usages de Claude Code comme harnais de LLM local, avec l'extension installée dans VS Code. Deux publications documentent l'affaire.",
+  "tags": [
+   "sécurité",
+   "claude",
+   "dev"
+  ],
+  "importance": 4,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xjclj9/official_claude_code_vs_code_extension/",
+  "date_source": "2026-10-30T11:18:18+00:00",
+  "date_redac": "2026-10-30T11:51:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 714,
+   "sortie": 624
+  }
+ },
+ {
+  "id": "6030107142707be1",
+  "slug": "zwz2-des-finetunes-qwen-qui-lisent-l-image-sans-outil-de-zoom-603010",
+  "titre": "ZwZ2 : des finetunes Qwen qui lisent l'image sans outil de zoom",
+  "resume": "inclusionAI publie ZwZ2, des finetunes de Qwen3.6-27B entraînés à relier des indices visuels entre plusieurs régions d'une image par comparaison, agrégation et appariement. L'entraînement utilise des images entières : à l'inférence, aucun outil de zoom n'est requis. Sur 25 benchmarks dans six domaines, le modèle dépasse sa base partout, la précision globale passant de 55,52 à 60,51 (+4,99 points).",
+  "tags": [
+   "open-source",
+   "recherche",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xjcl4x/inclusionaizwz2_27b9b4b_qwen_finetunes/",
+  "date_source": "2026-10-30T11:17:43+00:00",
+  "date_redac": "2026-10-30T11:51:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 813,
+   "sortie": 770
+  }
+ },
+ {
+  "id": "bacd12fa6ffdf79f",
+  "slug": "lfm3-tourne-hors-ligne-sur-iphone-et-android-via-l-app-open-source-pri-bacd12",
+  "titre": "LFM3 tourne hors ligne sur iPhone et Android via l'app open source Private Mind",
+  "resume": "LFM3-1.7B (texte) et LFM3-VL-2B (vision) tournent en local sur iOS et Android dans Private Mind, l'app open source de l'équipe. Sur iPhone 16 Pro, le modèle texte en MLX 4 bits atteint ~40 tok/s avec un premier token sous 0,5 s ; en vision, ~9 s avant le premier token puis ~20 tok/s. Le portage vers ExecuTorch a demandé un nouvel export : LFM3 n'est pas LFM2 en plus gros.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xjcipv/lfm317b_and_lfm3vl2b_running_fully_offline_on/",
+  "date_source": "2026-10-30T11:14:06+00:00",
+  "date_redac": "2026-10-30T11:51:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 895,
+   "sortie": 828
+  }
+ },
+ {
+  "id": "9c3f80267141b0e1",
+  "slug": "dans-le-maine-les-data-centers-ia-s-invitent-dans-la-campagne-senatori-9c3f80",
+  "titre": "Dans le Maine, les data centers IA s'invitent dans la campagne sénatoriale",
+  "resume": "Lors du dernier débat sénatorial dans le Maine, la républicaine Susan Collins a été interpellée par un homme du public : « Je suis terrifié », a-t-il lancé, accusant les data centers de l'IA de détruire le climat et d'empoisonner l'eau. La sénatrice a balayé l'interruption et rattaché l'individu à son adversaire démocrate. Le sujet des centres de données devient un enjeu de campagne.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+  "date_source": "2026-10-30T11:00:00+00:00",
+  "date_redac": "2026-10-30T11:51:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 669,
+   "sortie": 627
+  }
+ },
+ {
   "id": "e51f539df9e37419",
   "slug": "la-rtx-5080-quitte-la-boutique-nvidia-une-version-24-go-annoncee-pour--e51f53",
   "titre": "La RTX 5080 quitte la boutique NVIDIA, une version 24 Go annoncée pour 2027",

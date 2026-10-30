@@ -1,0 +1,41 @@
+{
+ "slug": "claude-code-piege-via-cursor-mistral-large-4-et-gemini-4-car-0a0c57",
+ "titre": "Claude Code piégé via Cursor, Mistral Large 4 et Gemini 4 Carbon dans l'actu",
+ "chapo": "Une fausse mise à jour de Claude Code a circulé le 29 octobre 2026 sur la boutique d'extensions de Cursor et touché des milliers de développeurs. La même semaine, Mistral annonce un modèle à 1 000 milliards de paramètres et Gemini 4 Carbon ravit la première place du classement d'Artificial Analysis à Claude Opus 5.5.",
+ "html": "<h2 id=\"une-mise-a-jour-qui-n-en-etait-pas-une\">Une mise à jour qui n'en était pas une</h2>\n<p>Le 29 octobre 2026, la boutique d'extensions de Cursor, l'éditeur de code, a distribué une fausse mise à jour de Claude Code, l'assistant de programmation d'Anthropic. La version piégée a atteint des milliers de développeurs. C'est Numerama qui rapporte l'affaire, avec une nuance qui compte : selon le média, les hackers se sont pris les pieds dans leur propre code.</p>\n<p>L'incident illustre un point devenu banal dans l'écosystème du développement assisté par IA : le canal de distribution d'une extension n'est pas moins sensible que le modèle qu'elle sert. Ici, ce n'est pas Claude qui a été attaqué au niveau de ses poids, mais la chaîne qui mène jusqu'à la machine du développeur.</p>\n<h2 id=\"une-backdoor-ssh-et-un-public-precisemen\">Une backdoor SSH, et un public precisement ciblé</h2>\n<p>Sur r/LocalLLaMA, des chercheurs en cybersécurité décrivent une attaque dont l'objectif est explicite : installer une backdoor SSH persistante sur les machines infectées. La dépêche évoque cette fois une compromission de l'extension officielle Claude Code d'Anthropic sur le Cursor Marketplace.</p>\n<p>Le détail qui retient l'attention de la communauté : l'alerte vise en particulier les utilisateurs qui se servent de Claude Code comme harnais de LLM local, avec l'extension installée dans VS Code. Autrement dit, des gens qui font tourner des modèles chez eux et les pilotent depuis un éditeur. Deux récits, donc, pour une même fenêtre temporelle : Numerama parle d'une fausse mise à jour, le fil Reddit d'une extension officielle compromise. Les deux ne se recouvrent pas mot pour mot, mais convergent sur le vecteur — le marketplace d'extensions — et sur le moment.</p>\n<h2 id=\"mistral-large-4-1-000-milliards-de-param\">Mistral Large 4 : 1 000 milliards de paramètres, et un lien ancré sur llama.cpp</h2>\n<p>Un post de r/LocalLLaMA annonce l'arrivée de Mistral Large 4, que son auteur présente comme un « BIG BOY » de 1 000 milliards de paramètres (1T). Le lien renvoie au billet publié sur le blog Hugging Face de Mistral.</p>\n<p>Ce qui intéresse la communauté du modèle local, ce n'est pourtant pas la taille brute. C'est l'ancre du lien, qui pointe vers une section consacrée à <strong>llama.cpp</strong>. Un modèle de cette échelle ne tourne pas sur un poste de travail, et la question qui compte pour ces utilisateurs n'est pas « combien de paramètres » mais « quel chemin d'exécution ». La taille fait le titre, llama.cpp fait la discussion.</p>\n<h2 id=\"gemini-4-carbon-passe-devant-claude-opus\">Gemini 4 Carbon passe devant Claude Opus 5.5</h2>\n<p>Changement de tête au classement d'Artificial Analysis : Gemini 4 Carbon devient le meilleur modèle du marché, et Claude Opus 5.5 perd sa première place. Le Journal du Geek souligne l'enjeu pratique — ces classements publics servent à beaucoup de monde pour choisir un modèle.</p>\n<p>Latent Space confirme la performance de Gemini 4 Carbon sur les évaluations indépendantes, avec une précision qui change la lecture : l'accès est dans un premier temps réservé aux « trusted defenders », ces défenseurs jugés fiables en cybersécurité. Le déploiement est donc orienté vers la protection des systèmes plutôt que vers une ouverture large. Un modèle en tête de classement n'est pas forcément un modèle disponible.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux fils se croisent sans se confondre. D'un côté, la chaîne d'outils autour des modèles — extensions, marketplaces, éditeurs — s'avère un point d'attaque rentable, et le public visé n'est pas anodin : ceux qui bricolent des harnais de LLM local. De l'autre, la hiérarchie des modèles bouge, avec Gemini 4 Carbon en tête selon Artificial Analysis, pendant que Mistral pousse un 1T dont l'intérêt, pour la communauté locale, se logerait dans llama.cpp. Trois façons de rappeler que le modèle seul ne dit rien de ce qu'on peut en faire.</p>",
+ "pivot": "0a0c57e8dec30536",
+ "tags": [
+  "sécurité",
+  "claude",
+  "mistral",
+  "gemini"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2364283-des-hackers-ont-distribue-une-version-piegee-de-claude-code-a-des-milliers-de-developpeurs-mais-se-sont-pris-les-pieds-dans-leur-propre-code.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjclj9/official_claude_code_vs_code_extension/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xilhng/le_chonk_is_here/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/29/claude-perd-sa-couronne-la-nouvelle-meilleure-ia-du-monde-est-gemini-4-carbon-de-google/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/ainews-gemini-4-carbon/"
+  }
+ ],
+ "date": "2026-10-30T12:35:57+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1494,
+  "sortie": 2173
+ }
+}

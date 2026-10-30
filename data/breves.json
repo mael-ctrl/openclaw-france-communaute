@@ -1,5 +1,130 @@
 [
  {
+  "id": "de6c8655bcdaaa4c",
+  "slug": "petits-modeles-pour-le-bricolage-appel-a-recommandations-sur-r-localll-de6c86",
+  "titre": "Petits modèles pour le bricolage : appel à recommandations sur r/LocalLLaMA",
+  "resume": "Sur le subreddit r/LocalLLaMA, un utilisateur demande quels sont les plus petits modèles utilisables pour du bricolage, répartis en trois domaines : construction (béton, murs, toiture), travail du bois et du métal (inventions, gadgets, meubles) et électronique, surtout pour concevoir et diagnostiquer des réparations. L'extrait ne contient aucune réponse ni retour d'expérience : il s'agit uniquement d'une demande de recommandations de modèles légers.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "skills"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xjdo0r/looking_for_a_small_model_for_diy/",
+  "date_source": "2026-10-30T12:11:20+00:00",
+  "date_redac": "2026-10-30T12:35:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 667,
+   "sortie": 647
+  }
+ },
+ {
+  "id": "b54bf8ae6ea2c615",
+  "slug": "un-fine-tune-de-gemma-4-31b-pour-un-chat-plus-humain-b54bf8",
+  "titre": "Un fine-tune de Gemma 4 31B pour un chat plus humain",
+  "resume": "Le créateur de Qwen3.8-27B-Humanlike-Chat 2.0 applique sa méthode à Gemma 4 31B, le modèle officiel de Google : le résultat texte « humainement » sans prompt, en lignes courtes et en minuscules. Dans un test à l'aveugle, un juge a pris sa réponse pour celle d'une vraie personne dans 26 % des cas, contre 0 % pour Gemma 4 31B de base. Il demande les détails au lieu de les inventer : 66 à When2Call contre 46 pour la base.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xjdjy0/gemma431bhumanlikechat_20s_improved_human_voice/",
+  "date_source": "2026-10-30T12:05:50+00:00",
+  "date_redac": "2026-10-30T12:35:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 912,
+   "sortie": 1013
+  }
+ },
+ {
+  "id": "0a0c57e8dec30536",
+  "slug": "une-fausse-mise-a-jour-de-claude-code-piegee-diffusee-via-cursor-0a0c57",
+  "titre": "Une fausse mise à jour de Claude Code piégée diffusée via Cursor",
+  "resume": "Le 29 octobre 2026, la boutique d'extensions de Cursor, l'éditeur de code, a distribué une fausse mise à jour de Claude Code, l'assistant de programmation d'Anthropic. La version piégée a touché des milliers de développeurs. Reste que, selon Numerama, les hackers se sont pris les pieds dans leur propre code.",
+  "tags": [
+   "claude",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 4,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/cyberguerre/2364283-des-hackers-ont-distribue-une-version-piegee-de-claude-code-a-des-milliers-de-developpeurs-mais-se-sont-pris-les-pieds-dans-leur-propre-code.html",
+  "date_source": "2026-10-30T11:21:49+00:00",
+  "date_redac": "2026-10-30T12:35:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 697,
+   "sortie": 498
+  }
+ },
+ {
+  "id": "7dfcfd1e70262533",
+  "slug": "l-extension-claude-code-compromise-pour-installer-une-backdoor-ssh-7dfcfd",
+  "titre": "L'extension Claude Code compromise pour installer une backdoor SSH",
+  "resume": "Des chercheurs en cybersécurité rapportent que l'extension officielle Claude Code d'Anthropic a été compromise sur le Cursor Marketplace. Le but : installer une backdoor SSH persistante sur les machines infectées. L'alerte vise en particulier ceux qui utilisent Claude Code comme harnais de LLM local, avec l'extension installée dans VS Code.",
+  "tags": [
+   "sécurité",
+   "claude",
+   "dev"
+  ],
+  "importance": 4,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xjclj9/official_claude_code_vs_code_extension/",
+  "date_source": "2026-10-30T11:18:18+00:00",
+  "date_redac": "2026-10-30T12:35:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 714,
+   "sortie": 320
+  }
+ },
+ {
+  "id": "6030107142707be1",
+  "slug": "zwz2-des-finetunes-qwen-pour-le-raisonnement-visuel-multi-regions-603010",
+  "titre": "ZwZ2 : des finetunes Qwen pour le raisonnement visuel multi-régions",
+  "resume": "inclusionAI publie ZwZ2, une famille de finetunes Qwen (27B, 9B, 4B) entraînée à relier des preuves visuelles entre plusieurs régions d'une image, par comparaison, agrégation et raisonnement multi-étapes. Le modèle travaille sur des images complètes : aucun outil de zoom n'est requis à l'inférence. Sur 25 benchmarks répartis en six domaines, il dépasse son modèle de base sur chacun, avec une précision globale passant de 55,52 à 60,51 (+4,99 points).",
+  "tags": [
+   "recherche",
+   "agents",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xjcl4x/inclusionaizwz2_27b9b4b_qwen_finetunes/",
+  "date_source": "2026-10-30T11:17:43+00:00",
+  "date_redac": "2026-10-30T12:35:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 813,
+   "sortie": 997
+  }
+ },
+ {
+  "id": "9c3f80267141b0e1",
+  "slug": "dans-le-maine-la-colere-contre-les-data-centers-ia-s-invite-au-debat-s-9c3f80",
+  "titre": "Dans le Maine, la colère contre les data centers IA s'invite au débat sénatorial",
+  "resume": "Lors du dernier débat des midterms dans le Maine, la sénatrice républicaine Susan Collins a été interpellée par un homme du public : « J'ai peur », a-t-il lancé, l'accusant de laisser les data centers IA détruire le climat et empoisonner l'eau. Collins a balayé l'interruption et rattaché l'homme à son adversaire démocrate. The Verge voit dans cette colère locale un enjeu qui pèsera sur le contrôle du Sénat.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+  "date_source": "2026-10-30T11:00:00+00:00",
+  "date_redac": "2026-10-30T12:35:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 669,
+   "sortie": 856
+  }
+ },
+ {
   "id": "e51f539df9e37419",
   "slug": "la-rtx-5080-quitte-la-boutique-nvidia-une-version-24-go-annoncee-pour--e51f53",
   "titre": "La RTX 5080 quitte la boutique NVIDIA, une version 24 Go annoncée pour 2027",

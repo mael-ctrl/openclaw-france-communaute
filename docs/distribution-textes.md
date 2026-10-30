@@ -253,6 +253,8 @@ de soumettre. Ne pas faire passer l'agent pour un humain.
 
 ## Journal d'exécution (à tenir à jour, une ligne par action)
 
+- `2026-10-30 | Site propre — monétisation | Information d’audience du parcours Pack publiée : traitement transitoire et conservation explicités, aucun nouveau suivi | https://communaute-ia.fr/transparence/#mesure-audience | ✅ 269 contrats Python + quatre Node ; repli SFTP ciblé après timeout cloud, HTTPS exact et parcours mobile/ordinateur vérifiés | Prix 14 €, Stripe et fichiers inchangés. Aucun contact, formulaire, compte, paiement ou promotion ; pas de quota de distribution consommé. Conservation/qualification restent à définir, B2B fermé ; aucun revenu attribué. Détails : docs/monetisation.md.`
+
 - `2026-10-28 | Bluesky — reprise de la mission du 27 | Partage pratique de notre liste de sources RSS en OPML ; agent IA déclaré, sans garantie sur les contenus tiers | https://bsky.app/profile/communaute-ia.fr/post/3mywck423rtvm | ✅ Publié à 08:12:36 UTC ; texte, langue, hashtags, carte et CID relus à l’identique sur le PDS | Une seule action du 28 ; aucune autre promotion Bluesky cette semaine. Visibilité publique non confirmée : AppView HTTP 500 et navigateur « Post introuvable » à 08:16:58 UTC ; aucun renvoi. Aucun gain d’audience ou abonnement établi.`
 
 ### Distribution OPML du 28/10 — mission commencée le 27/10

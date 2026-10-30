@@ -1,0 +1,41 @@
+{
+ "slug": "claude-code-compromis-gemini-4-carbon-en-tete-mistral-large--7dfcfd",
+ "titre": "Claude Code compromis, Gemini 4 Carbon en tête, Mistral Large 4 : la semaine où l'outillage décide",
+ "chapo": "Une extension compromise qui installe une porte dérobée, un classement qui change de tête, un modèle à 1 000 milliards de paramètres, et une biotech d'un seul salarié rachetée par Anthropic. Quatre dépêches, une même semaine : l'outillage et la mesure pèsent désormais autant que les modèles.",
+ "html": "<h2 id=\"une-backdoor-ssh-dans-l-extension-claude\">Une backdoor SSH dans l'extension Claude Code</h2>\n<p>L'alerte vient de chercheurs en cybersécurité, relayée sur r/LocalLLaMA : l'extension officielle Claude Code d'Anthropic, distribuée sur le Cursor Marketplace, a été compromise pour installer une backdoor SSH persistante sur les machines infectées. Persistante, autrement dit conçue pour survivre aux redémarrages.</p>\n<p>Le point notable, c'est la cible désignée : les usages de Claude Code comme harnais de LLM local, avec l'extension installée dans VS Code. Deux publications documentent l'affaire selon la dépêche, qui ne détaille pas le vecteur précis de la compromission.</p>\n<p>La chaîne d'approvisionnement logicielle redevient le maillon faible. On durcit les modèles, on audite les poids, et l'extension qui se branche sur l'éditeur passe sous les radars. Pour tous ceux qui bricolent des environnements locaux, c'est un rappel : la surface d'attaque n'est pas dans le modèle, elle est dans ce qui l'entoure.</p>\n<h2 id=\"artificial-analysis-gemini-4-carbon-deva\">Artificial Analysis : Gemini 4 Carbon devant Claude Opus 5.5</h2>\n<p>Au classement d'Artificial Analysis, Gemini 4 Carbon passe devant Claude Opus 5.5 et prend la première place, rapporte le Journal du Geek. Claude perd donc sa couronne. Latent Space confirme la dynamique : le nouveau modèle de pointe de Google arrive en tête des évaluations indépendantes.</p>\n<p>Un détail de la dépêche de Latent Space mérite l'attention : l'accès à Gemini 4 Carbon est dans un premier temps réservé aux « trusted defenders », ces défenseurs jugés fiables en cybersécurité. Le déploiement est donc orienté vers la protection des systèmes, pas vers le grand public.</p>\n<p>Pour qui s'appuie sur ces classements publics pour choisir un modèle, le basculement est un signal de plus : la hiérarchie bouge vite, et une première place n'est jamais acquise.</p>\n<h2 id=\"mistral-large-4-1t-de-parametres-et-un-l\">Mistral Large 4 : 1T de paramètres, et un lien vers llama.cpp</h2>\n<p>Mistral Large 4 arrive, et son auteur sur r/LocalLLaMA ne mégote pas : un « BIG BOY » de 1 000 milliards de paramètres (1T). Le lien renvoie au billet publié sur le blog Hugging Face de Mistral.</p>\n<p>Ce qui intéresse la communauté du modèle local n'est pourtant pas la taille brute. C'est l'ancre du billet, qui pointe vers une section consacrée à llama.cpp. Un modèle d'un billion de paramètres, d'accord ; la question qui suit est celle de l'exécution, dans l'écosystème que les gens utilisent réellement.</p>\n<p>La discussion se déplace donc du concours de centimètres vers le support. C'est un réflexe de plus en plus courant chez ceux qui font tourner des modèles chez eux : avant de demander ce que le modèle sait faire, ils demandent où il tourne.</p>\n<h2 id=\"anthropic-rachete-une-biotech-d-un-seul-\">Anthropic rachète une biotech d'un seul salarié</h2>\n<p>Anthropic a annoncé le rachat de Mithril Medicine, une biotech qui ne compte qu'un seul salarié, rapporte Numerama. Son fondateur a fait passer un traitement contre une myopathie de l'enfant de l'idée aux résultats chez la souris en moins de 18 mois, en confiant à Claude une bonne partie de la coordination de 11 laboratoires.</p>\n<p>Les résultats en question sont chez la souris, pas chez l'humain : la nuance a son importance et la dépêche ne va pas plus loin. Mais l'échelle de temps et le nombre de laboratoires coordonnés donnent la mesure de ce que l'outillage déplace dans la recherche.</p>\n<p>Un seul salarié, onze laboratoires, dix-huit mois. Le chiffre qui compte ici n'est pas celui des paramètres, c'est celui des intermédiaires qui disparaissent.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, quatre endroits où l'IA se frotte au réel : une extension compromise, un classement qui change de tête, un modèle géant dont on regarde d'abord le support d'exécution, une biotech d'une personne rachetée par un laboratoire. Rien de tout cela ne dit ce que vaudront les modèles dans six mois. En revanche, ça situe où se joue la partie : dans la chaîne d'outils, dans la mesure, dans l'exécution et dans la coordination. Le seul nom du modèle ne suffit plus à raconter une histoire.</p>",
+ "pivot": "7dfcfd1e70262533",
+ "tags": [
+  "sécurité",
+  "claude",
+  "gemini",
+  "mistral"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjclj9/official_claude_code_vs_code_extension/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xilhng/le_chonk_is_here/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/29/claude-perd-sa-couronne-la-nouvelle-meilleure-ia-du-monde-est-gemini-4-carbon-de-google/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/ainews-gemini-4-carbon/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/sciences/2362303-anthropic-rachete-la-biotech-dun-seul-chercheur-qui-pilotait-11-labos-avec-claude-pour-creer-un-medicament.html"
+  }
+ ],
+ "date": "2026-10-30T11:52:32+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1483,
+  "sortie": 3522
+ }
+}

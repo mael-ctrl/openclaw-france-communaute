@@ -1,0 +1,41 @@
+{
+ "slug": "qwen4-et-hc-claude-code-piege-mistral-large-4-l-actu-des-mod-5e27b5",
+ "titre": "Qwen4 et HC, Claude Code piégé, Mistral Large 4 : l'actu des modèles",
+ "chapo": "Des prévisions sur Qwen4 et la quantification de l'architecture HC, une extension Claude Code piégée sur le marketplace de Cursor, un Mistral Large 4 à 1 000 milliards de paramètres et un Reddit qui se referme : quatre signaux qui parlent de précision et de confiance.",
+ "html": "<h2 id=\"qwen4-et-hc-la-quantification-ne-se-joue\">Qwen4 et HC : la quantification ne se joue plus où on croit</h2>\n<p>Sur r/LocalLLaMA, un utilisateur partage ses prévisions sur Qwen4 et l'architecture HC. Il n'y a aucune annonce officielle derrière ce post : ce sont des anticipations, à lire comme telles, en attendant la sortie du modèle.</p>\n<p>L'angle choisi n'est pas celui de la taille, mais celui de la quantification — ce qu'on accepte de perdre quand on compresse un modèle pour le faire tourner. Pendant longtemps, l'optimisation a visé le FFN et l'attention. Avec HC, le mélange du flux résiduel et la préservation de l'information comptent aussi.</p>\n<p>Le point le plus concret concerne le format <strong>NVFP4</strong> : il pourrait déformer les relations fines de gating d'HC, certains tenseurs exigeant plus de précision que les poids FFN classiques. Autrement dit, les couches qu'on pouvait réduire sans trop de dégâts ne sont plus forcément celles qui coûtent le moins cher à dégrader.</p>\n<h2 id=\"claude-code-l-extension-compromise-sur-l\">Claude Code : l'extension compromise sur le marketplace de Cursor</h2>\n<p>Le 29 octobre 2026, la boutique d'extensions de Cursor a distribué une fausse mise à jour de Claude Code, l'assistant de programmation d'Anthropic. La version piégée a touché des milliers de développeurs, rapporte Numerama — qui note aussi que les hackers se sont pris les pieds dans leur propre code.</p>\n<p>Sur r/LocalLLaMA, des chercheurs en cybersécurité décrivent le même épisode du point de vue de la charge utile : l'extension officielle Claude Code aurait été compromise sur le Cursor Marketplace dans le but d'installer une <strong>backdoor SSH persistante</strong> sur les machines infectées. L'alerte vise en particulier ceux qui utilisent Claude Code comme harnais de LLM local, avec l'extension installée dans VS Code.</p>\n<p>Les deux récits convergent sur le vecteur — le marketplace d'extensions — et sur la cible : des développeurs dont l'outillage mêle assistant commercial et modèles locaux. C'est précisément cette zone grise qui rend l'incident intéressant.</p>\n<h2 id=\"mistral-large-4-1t-de-parametres-et-un-l\">Mistral Large 4 : 1T de paramètres, et un lien qui pointe vers llama.cpp</h2>\n<p>Un post de r/LocalLLaMA annonce l'arrivée de Mistral Large 4, que son auteur présente comme un « BIG BOY » de 1 000 milliards de paramètres (1T).</p>\n<p>Le lien renvoie au billet publié sur le blog Hugging Face de Mistral, avec une ancre pointant vers une section consacrée à <strong>llama.cpp</strong>. C'est ce détail qui intéresse la communauté du modèle local, bien davantage que la taille brute du modèle : la question n'est pas de savoir combien de paramètres on empile, mais par quel chemin on arrive à les faire tourner.</p>\n<h2 id=\"reddit-se-referme-a-mesure-que-le-trafic\">Reddit se referme à mesure que le trafic de recherche s'épuise</h2>\n<p>Reddit annonce faire évoluer sa plateforme vers une expérience réservée aux utilisateurs connectés, alors que le trafic venu des moteurs de recherche se tarit. L'entreprise, historiquement bâtie sur le web ouvert, revoit ce modèle pour protéger son audience et son activité, rapporte TechCrunch.</p>\n<p>En cause : l'IA, qui transforme la manière dont les internautes trouvent l'information en ligne. Un mouvement qui n'est pas anecdotique pour quiconque suit les discussions techniques sur r/LocalLLaMA — le sous-forum cité plus haut dans cet article — puisqu'il redessine l'accès aux échanges publics qui alimentent une partie de la veille du milieu.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre dépêches, un même fil : ce qui circule devient plus difficile à vérifier. Un post de prévisions sur Qwen4 reste un post de prévisions ; une extension de marketplace reste un vecteur d'attaque tant qu'on ne l'a pas auditée ; un modèle à 1T ne vaut que par les outils capables de l'exécuter ; et un forum qui exige un compte change la nature de ce qu'on peut y lire sans y être. Aucun de ces signaux ne tranche à lui seul, mais mis bout à bout, ils déplacent la question de la performance vers celle de la provenance.</p>",
+ "pivot": "5e27b57bab602864",
+ "tags": [
+  "sécurité",
+  "claude",
+  "mistral",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjy0uv/a_few_predictions_on_qwen4_hc_and_quantization/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2364283-des-hackers-ont-distribue-une-version-piegee-de-claude-code-a-des-milliers-de-developpeurs-mais-se-sont-pris-les-pieds-dans-leur-propre-code.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjclj9/official_claude_code_vs_code_extension/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xilhng/le_chonk_is_here/"
+  }
+ ],
+ "date": "2026-10-31T03:30:05+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1556,
+  "sortie": 2573
+ }
+}

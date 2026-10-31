@@ -1,0 +1,41 @@
+{
+ "slug": "entrainer-un-llm-sans-datacenter-et-le-piege-claude-code-sur-cb257f",
+ "titre": "Entraîner un LLM sans datacenter, et le piège Claude Code sur Cursor",
+ "chapo": "Un milliard de paramètres entraînés sur des PC dispersés, une fausse mise à jour de Claude Code distribuée à des milliers de développeurs, des agents qui bossent plusieurs jours sur des dossiers financiers : la semaine en dit long sur l'état du terrain.",
+ "html": "<h2 id=\"crowdgpt-v2-6-le-calcul-reparti-comme-me\">CrowdGPT v2.6 : le calcul réparti comme méthode</h2>\n<p>Le projet CrowdGPT passe en version 2.6, décrite comme une mise à jour d'ampleur de son LLM collaboratif. L'objectif affiché est simple à formuler et coûteux à tenir : entraîner un modèle de <strong>1 milliard de paramètres</strong> sans datacenter, et sans les millions de dollars que mobilisent les entreprises d'IA.</p>\n<p>La mécanique repose sur la dispersion. Chacun entraîne sur son PC, puis verse sa contribution au modèle global. Le tout via un protocole où <strong>la direction du projet se décide collectivement</strong> — la gouvernance est donc traitée comme un problème technique parmi d'autres, pas comme un détail d'organisation.</p>\n<p>Les porteurs du projet présentent CrowdGPT comme une <strong>preuve de concept</strong>, extensible à des modèles denses plus gros ou à des architectures MoE. Autrement dit : la démonstration compte moins que le schéma d'entraînement qu'elle valide. Sur r/LocalLLaMA, l'angle intéresse évidemment ceux qui font tourner des modèles sur du matériel personnel.</p>\n<h2 id=\"cursor-claude-code-et-une-backdoor-ssh\">Cursor, Claude Code et une backdoor SSH</h2>\n<p>Le 29 octobre 2026, la boutique d'extensions de Cursor, l'éditeur de code, a distribué une <strong>fausse mise à jour de Claude Code</strong>, l'assistant de programmation d'Anthropic. La version piégée a touché des milliers de développeurs, rapporte Numerama.</p>\n<p>Des chercheurs en cybersécurité relayés sur r/LocalLLaMA précisent la charge : l'extension, compromise sur le Cursor Marketplace, visait à installer une <strong>backdoor SSH persistante</strong> sur les machines infectées. L'alerte concerne en particulier ceux qui utilisent Claude Code comme harnais de LLM local, avec l'extension installée dans VS Code.</p>\n<p>Un détail rend l'épisode plus intéressant qu'un simple incident de supply chain : selon Numerama, <strong>les hackers se sont pris les pieds dans leur propre code</strong>. La chaîne d'attaque a mal tourné pour ses auteurs. Ce qui reste, c'est le vecteur : une place de marché d'extensions, un outil de développement très installé, et des milliers de postes exposés avant que quiconque ne réagisse.</p>\n<h2 id=\"arca-des-agents-qui-tiennent-plusieurs-j\">Arca : des agents qui tiennent plusieurs jours</h2>\n<p>Dans un entretien accordé à Latent Space, le responsable IA d'Arca détaille comment l'entreprise mobilise des agents sur des <strong>tâches financières de longue haleine</strong>, étalées sur plusieurs jours. On est loin de la démo qui répond en trente secondes : ici, le travail se compte en jours ouvrés.</p>\n<p>Deux points ressortent de l'échange. D'abord la <strong>mémoire persistante</strong>, condition pour qu'un agent reprenne un dossier là où il l'a laissé sans repartir de zéro. Ensuite le <strong>harness conçu maison</strong>, que l'entreprise présente comme un avantage pour ce type de flux agentiques — l'ossature autour du modèle, pas le modèle lui-même.</p>\n<p>C'est une constante : quand les agents sortent du bac à sable et entrent dans des processus métier réels, l'ingénierie se déplace vers l'infrastructure qui les entoure, la tenue de l'état et la reprise après interruption.</p>\n<h2 id=\"quatre-tpu-en-orbite-vingt-minutes-de-ca\">Quatre TPU en orbite, vingt minutes de calcul</h2>\n<p>Le satellite-datacenter de Google embarque <strong>quatre TPU</strong> et produit jusqu'à <strong>1 kW d'électricité</strong>. L'ambition affichée : ouvrir la voie à des réseaux de satellites rapprochés capables de faire de l'inférence en orbite.</p>\n<p>La contrainte refroidit vite l'enthousiasme. La consommation des puces impose de n'en allumer <strong>qu'une à la fois, pendant une vingtaine de minutes</strong>. Ce qui complique encore les communications entre l'espace et le sol.</p>\n<p>Le calcul spatial reste donc, à ce stade, une affaire de budgets énergétiques et de fenêtres de tir. Le matériel embarqué impose son tempo, et l'inférence en orbite ressemble davantage à un exercice de contrainte qu'à un déploiement de capacité.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches dessinent des tensions plutôt qu'une tendance unique. D'un côté, on cherche à sortir le calcul des datacenters — sur des PC dispersés avec CrowdGPT, dans l'espace avec les TPU de Google — et chaque tentative se heurte à sa propre limite, gouvernance collective d'un côté, vingt minutes de calcul de l'autre. De l'autre, la sécurité des outils de développement se rappelle au mauvais souvenir : une place de marché d'extensions suffit à exposer des milliers de machines. Entre les deux, Arca montre où se loge désormais l'essentiel du travail : la mémoire, la persistance, le harnais.</p>",
+ "pivot": "cb257fe26a5e5248",
+ "tags": [
+  "open-source",
+  "sécurité",
+  "agents",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkibxw/crowdgpt_v26_the_collaborative_llm/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2364283-des-hackers-ont-distribue-une-version-piegee-de-claude-code-a-des-milliers-de-developpeurs-mais-se-sont-pris-les-pieds-dans-leur-propre-code.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjclj9/official_claude_code_vs_code_extension/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/arca/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkcyn6/spent_a_lot_on_my_rig_but_i_can_only_run_gemma_4/"
+  }
+ ],
+ "date": "2026-10-31T20:15:17+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1528,
+  "sortie": 2362
+ }
+}

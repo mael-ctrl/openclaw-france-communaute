@@ -1,5 +1,130 @@
 [
  {
+  "id": "7e8bd182f82e6913",
+  "slug": "qwen3-8-flash-next-juge-verbeux-et-brouillon-hors-coding-7e8bd1",
+  "titre": "Qwen3.8-Flash-Next jugé verbeux et brouillon hors coding",
+  "resume": "Un utilisateur de r/LocalLLaMA se dit déçu par Qwen3.8-Flash-Next. Le modèle l'avait convaincu sur des tâches de code (évaluer des dépôts, lancer des modèles), mais sur une question de recherche générale — les cycles de sommeil humain — il trouve les réponses trop verbeuses et confuses. Il soupçonne une distillation d'Opus 5 et détaille sa config : llama.cpp, quantification UD_Q4_K_M avec MTP.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xkjrdl/please_tell_me_qwen38flashnext_can_be_made_to_be/",
+  "date_source": "2026-10-31T19:56:22+00:00",
+  "date_redac": "2026-10-31T20:14:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 840,
+   "sortie": 901
+  }
+ },
+ {
+  "id": "fb79b3063204dfe1",
+  "slug": "meta-quest-3s-43-de-remise-pour-le-single-day-fb79b3",
+  "titre": "Meta Quest 3S : 43 % de remise pour le Single Day",
+  "resume": "Le Meta Quest 3S, casque de réalité virtuelle et mixte, passe à -43 % à l'occasion du Single Day. Il se positionne comme une alternative plus abordable du modèle initial, tout en reprenant ses caractéristiques principales et ses fonctionnalités dédiées à la réalité mixte. AliExpress, qui porte l'offre, s'attend à une rupture complète en quelques heures.",
+  "tags": [
+   "matériel",
+   "meta",
+   "business"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/bons-plans/meta-quest-3s-le-casque-vr-se-vend-a-prix-incroyable-ce-dimanche-43.html",
+  "date_source": "2026-10-31T19:25:42+00:00",
+  "date_redac": "2026-10-31T20:14:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 696,
+   "sortie": 458
+  }
+ },
+ {
+  "id": "074ce11a47c9f5e0",
+  "slug": "un-llm-fait-tourner-un-autre-llm-dans-les-poids-de-qwen-3-5-4b-074ce1",
+  "titre": "Un LLM fait tourner un autre LLM dans les poids de Qwen 3.5-4B",
+  "resume": "Après avoir logé un CPU RISC-V dans Qwen, le même développeur pousse la logique plus loin avec QwenPU : un LLM, stories260k de Karpathy, qui tourne sur un NPU compilé dans les poids de Qwen 3.5-4B. Ce NPU embarqué exécute matmuls, softmax et attention de façon bit-exact, les poids du petit modèle résidant dans la mémoire de Qwen, sans outil externe. Code et poids sont publiés.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
+  "date_source": "2026-10-31T19:18:53+00:00",
+  "date_redac": "2026-10-31T20:14:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 909,
+   "sortie": 738
+  }
+ },
+ {
+  "id": "595630e10268dc11",
+  "slug": "un-mac-studio-m5u-256-go-pour-faire-tourner-qwen-et-deepseek-en-local-595630",
+  "titre": "Un Mac Studio M5U 256 Go pour faire tourner Qwen et DeepSeek en local",
+  "resume": "Un membre de r/LocalLLaMA s'apprête à acheter un Mac Studio M5U avec 256 Go de mémoire et 2 To de stockage, pour du code et de l'automatisation métier en local. Il compte y faire tourner Qwen 3.8+ et DeepSeek 4+, en gardant son MacBook Pro M4 Pro comme machine de dev principale. Il utilise déjà Claude et GPT hébergés et admet que le local ne rend pas pareil. Il demande l'avis de ceux qui ont déjà ce setup.",
+  "tags": [
+   "matériel",
+   "dev",
+   "deepseek",
+   "business"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xkip46/mac_studio_m5u_256gb_2tb/",
+  "date_source": "2026-10-31T19:12:25+00:00",
+  "date_redac": "2026-10-31T20:14:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 703,
+   "sortie": 1178
+  }
+ },
+ {
+  "id": "75d00cdece00b420",
+  "slug": "arlo-essential-3-2k-ptz-interieure-la-premiere-camera-motorisee-d-arlo-75d00c",
+  "titre": "Arlo Essential 3 2K PTZ Intérieure : la première caméra motorisée d'Arlo",
+  "resume": "Arlo motorise pour la première fois une de ses caméras de surveillance. L'Essential 3 2K PTZ Intérieure pivote et suit les mouvements, tout en embarquant les mêmes fonctions d'IA que le reste de la gamme. Frandroid l'a testée pendant deux mois.",
+  "tags": [
+   "matériel",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/test/3132035_test-arlo-essential-3-2k-ptz-interieure-une-camera-de-securite-mecanisee-et-boostee-a-lia",
+  "date_source": "2026-10-31T19:00:00+00:00",
+  "date_redac": "2026-10-31T20:14:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 691,
+   "sortie": 398
+  }
+ },
+ {
+  "id": "cb257fe26a5e5248",
+  "slug": "crowdgpt-v2-6-un-llm-de-1-milliard-de-parametres-entraine-sans-datacen-cb257f",
+  "titre": "CrowdGPT v2.6 : un LLM de 1 milliard de paramètres entraîné sans datacenter",
+  "resume": "Le projet CrowdGPT passe en version 2.6, une mise à jour d'ampleur de son LLM collaboratif. Objectif : entraîner un modèle de 1 milliard de paramètres sans datacenter ni les millions de dollars des entreprises d'IA. Chacun entraîne sur son PC puis verse sa contribution au modèle global, via un protocole où la direction se décide collectivement. Une preuve de concept, extensible à des modèles denses plus gros ou à des architectures MoE.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xkibxw/crowdgpt_v26_the_collaborative_llm/",
+  "date_source": "2026-10-31T18:57:36+00:00",
+  "date_redac": "2026-10-31T20:15:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 793,
+   "sortie": 1124
+  }
+ },
+ {
   "id": "18d69c6c75b8283e",
   "slug": "openai-revoit-a-la-baisse-l-objectif-de-sa-nouvelle-levee-de-fonds-18d69c",
   "titre": "OpenAI revoit à la baisse l'objectif de sa nouvelle levée de fonds",

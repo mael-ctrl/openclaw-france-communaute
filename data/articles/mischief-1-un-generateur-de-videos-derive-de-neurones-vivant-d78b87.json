@@ -1,0 +1,41 @@
+{
+ "slug": "mischief-1-un-generateur-de-videos-derive-de-neurones-vivant-d78b87",
+ "titre": "Mischief 1 : un générateur de vidéos « dérivé de neurones vivants » ?",
+ "chapo": "The Biological Computing présente Mischief 1 comme le premier modèle commercial issu de l'étude de vrais neurones. Derrière la formule qui surprend, une même question traverse les autres dépêches de la semaine : jusqu'où ces systèmes touchent-ils au réel, et qui paie la facture ?",
+ "html": "<h2 id=\"mischief-1-ou-le-poids-des-mots\">Mischief 1, ou le poids des mots</h2>\n<p>The Biological Computing lance Mischief 1, un générateur de vidéos. La présentation est ambitieuse : l'entreprise en fait le premier modèle commercial issu de l'étude de vrais neurones, et parle d'un modèle « dérivé de neurones vivants ».</p>\n<p>La formule surprend, et Numerama ne la gobe pas : elle souligne qu'il faut décortiquer ce que cette expression recouvre vraiment. C'est la bonne réaction. Entre le vocabulaire du laboratoire et celui d'un produit mis en vente, il y a un écart que la communication ne comble pas d'elle-même.</p>\n<p>Ce que l'on sait tient donc en peu de choses : un générateur de vidéos, une origine revendiquée du côté de la biologie, et un positionnement commercial — « premier modèle commercial » — qui fait passer une curiosité de recherche dans la catégorie des offres. Le reste relève, pour l'instant, de la revendication.</p>\n<h2 id=\"le-reel-comme-banc-d-essai\">Le réel comme banc d'essai</h2>\n<p>Pendant ce temps, du côté de Microsoft, la confrontation au réel se mesure en pourcentage. Mage-VL-Cowork, mis en ligne sur Hugging Face, est un modèle vision-langage de 4B paramètres voué à l'usage hybride d'un ordinateur. Il atteint 66,0 % sur OSWorld-Verified, la meilleure performance à cette échelle selon la dépêche. Après un apprentissage par renforcement en ligne, les chiffres baissent de 13,0 % pour les appels au modèle et de 25,4 % pour les tokens de sortie. L'entraînement s'appuie sur Mage-CUA-Forge, une synthèse d'environnements orientée workflow, et sur un curriculum en cinq étapes.</p>\n<p>Le registre change avec la dépêche de Numerama sur une souris épileptique. Le patron d'une start-up de biotech affirme qu'un agent piloté par Claude Sonnet 5 a sélectionné une thérapie génique, calculé où l'injecter et guidé lui-même l'aiguille dans le cerveau de l'animal. Numerama qualifie le récit de spectaculaire — et précise que la souris va bien. Une affirmation de dirigeant, pas un résultat publié : la nuance compte, surtout quand la vidéo et la biologie se retrouvent dans la même conversation.</p>\n<h2 id=\"reddit-referme-la-porte\">Reddit referme la porte</h2>\n<p>Autre symptôme d'un terrain qui bouge : Reddit annonce faire évoluer sa plateforme vers une expérience réservée aux utilisateurs connectés. Le trafic venu des moteurs de recherche se tarit, et l'entreprise, historiquement bâtie sur le web ouvert, revoit ce modèle pour protéger son audience et son activité.</p>\n<p>La cause identifiée est l'IA, qui transforme la manière dont les internautes trouvent l'information en ligne. Le contenu produit par les humains devient une ressource que l'on veut garder derrière une authentification.</p>\n<h2 id=\"la-facture-des-milliards\">La facture des milliards</h2>\n<p>Il y a un pendant financier à tout cela. Les géants de la tech investissent des milliards dans les infrastructures d'IA, rappelle TechCrunch. Mais l'endettement croissant, des flux de trésorerie négatifs et un scepticisme grandissant des investisseurs font douter de la soutenabilité de cette vague de dépenses.</p>\n<p>Les fissures ne sont pas encore des ruptures. Elles indiquent en revanche que la question du retour sur investissement n'est plus repoussée à plus tard : elle s'invite dans les mêmes semaines où l'on débat de neurones vivants et d'aiguilles guidées par un agent.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dépêches, trois manières de tester la solidité d'un même édifice : ce que les modèles revendiquent, ce qu'ils réussissent mesurablement, et ce que leurs promoteurs peuvent encore financer. Mischief 1 reste une formule à décortiquer, Mage-VL-Cowork affiche des scores, la souris va bien. Entre le slogan et le chiffre vérifié, l'écart n'est pas un détail de vocabulaire — c'est là que se logent les promesses non tenues.</p>",
+ "pivot": "d78b874679a35e59",
+ "tags": [
+  "recherche",
+  "agents",
+  "business",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2365135-mischief-1-un-modele-video-derive-de-neurones-vivants-pardon.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk6blw/microsoftmagevlcowork_hugging_face/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/sciences/2365061-une-ia-a-choisi-un-traitement-et-la-injecte-dans-le-cerveau-dune-souris-ce-quon-sait-vraiment.html"
+  }
+ ],
+ "date": "2026-10-31T11:52:10+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1523,
+  "sortie": 2866
+ }
+}

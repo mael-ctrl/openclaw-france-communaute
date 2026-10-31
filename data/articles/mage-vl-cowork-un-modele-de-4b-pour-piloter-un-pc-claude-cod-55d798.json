@@ -1,0 +1,41 @@
+{
+ "slug": "mage-vl-cowork-un-modele-de-4b-pour-piloter-un-pc-claude-cod-55d798",
+ "titre": "Mage-VL-Cowork : un modèle de 4B pour piloter un PC, Claude Code compromis",
+ "chapo": "Microsoft met en ligne Mage-VL-Cowork, un modèle vision-langage de 4B paramètres taillé pour piloter un ordinateur, avec 66,0 % sur OSWorld-Verified. La même semaine, l'extension Claude Code distribuée via le marketplace de Cursor se retrouve compromise, et Reddit annonce fermer son web ouvert.",
+ "html": "<h2 id=\"4b-parametres-66-sur-osworld-verified\">4B paramètres, 66 % sur OSWorld-Verified</h2>\n<p>Microsoft publie <strong>Mage-VL-Cowork</strong>, un modèle vision-langage de 4B paramètres destiné à l'usage hybride de l'ordinateur. Le chiffre à retenir : <strong>66,0 % sur OSWorld-Verified</strong>, présenté comme la meilleure performance à cette échelle de taille. Pour un modèle de cette catégorie, la comparaison avec les modèles frontières n'a pas vraiment de sens — c'est la taille qui fait l'intérêt de la chose.</p>\n<p>Le reste de la dépêche tient à trois éléments. D'abord un apprentissage par renforcement en ligne, qui se traduit par <strong>13,0 % d'appels au modèle en moins</strong> et <strong>25,4 % de tokens de sortie en moins</strong>. Ensuite une brique de génération d'environnements orientée workflow, baptisée <strong>Mage-CUA-Forge</strong>. Enfin un cursus d'entraînement en cinq étapes.</p>\n<p>Autrement dit, l'essentiel du travail se joue moins sur le modèle que sur les environnements dans lesquels on l'entraîne. La réduction du nombre d'appels et de tokens produits n'est pas un détail cosmétique : sur un agent qui pilote une machine, chaque aller-retour coûte du temps et de l'argent.</p>\n<h2 id=\"claude-code-mise-a-jour-piegee-et-backdo\">Claude Code : mise à jour piégée et backdoor SSH</h2>\n<p>Deux dépêches convergent sur le même point de passage : le marketplace d'extensions de <strong>Cursor</strong>. Selon Numerama, le <strong>29 octobre 2026</strong>, la boutique a distribué une <strong>fausse mise à jour de Claude Code</strong>, l'assistant de programmation d'Anthropic. La version piégée a touché <strong>des milliers de développeurs</strong>. Numerama ajoute que les attaquants se sont pris les pieds dans leur propre code.</p>\n<p>Du côté de r/LocalLLaMA, des chercheurs en cybersécurité rapportent que l'<strong>extension officielle Claude Code</strong> a été compromise sur ce même marketplace, avec un objectif précis : installer une <strong>backdoor SSH persistante</strong> sur les machines infectées. L'alerte vise particulièrement ceux qui utilisent Claude Code comme harnais de LLM local, avec l'extension installée dans VS Code.</p>\n<p>Le maillon faible n'est donc pas le modèle, ni même l'éditeur de code : c'est la chaîne de distribution des extensions. Un assistant de programmation s'installe avec des droits considérables sur une machine, et c'est exactement ce que cherchent les attaquants.</p>\n<h2 id=\"mistral-large-4-1-000-milliards-de-param\">Mistral Large 4 : 1 000 milliards de paramètres, et ensuite ?</h2>\n<p>Un post de r/LocalLLaMA annonce <strong>Mistral Large 4</strong>, décrit par son auteur comme un « BIG BOY » de <strong>1 000 milliards de paramètres (1T)</strong>. Le lien renvoie au billet publié sur le blog Hugging Face de Mistral.</p>\n<p>Ce qui retient l'attention de la communauté, ce n'est pas la taille brute du modèle, mais <strong>l'ancre du lien, qui pointe vers une section consacrée à llama.cpp</strong>. Pour qui fait tourner des modèles en local, la question n'est jamais « combien de paramètres ? » mais « qu'est-ce que je peux en faire sur ma machine ? ». Un modèle à 1T de paramètres reste hors de portée d'un particulier ; la mention de llama.cpp, elle, ouvre une autre conversation.</p>\n<h2 id=\"reddit-ferme-son-web-ouvert\">Reddit ferme son web ouvert</h2>\n<p>Reddit annonce faire évoluer sa plateforme vers une <strong>expérience réservée aux utilisateurs connectés</strong>, alors que le trafic venu des moteurs de recherche se tarit. L'entreprise, historiquement bâtie sur le web ouvert, revoit ce modèle pour protéger son audience et son activité.</p>\n<p>La cause avancée est explicite : <strong>l'IA</strong>, qui transforme la manière dont les internautes trouvent l'information en ligne. Quand les réponses se construisent directement dans un moteur ou un assistant, la page web qui servait de source perd son visiteur — et son inventaire publicitaire avec lui. Le passage derrière le login est une réponse défensive, pas un changement de produit.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches décrivent la même bascule vue sous quatre angles. Un modèle de 4B suffit désormais à piloter un ordinateur, ce qui déplace la valeur vers les environnements d'entraînement et la robustesse des appels. Mais cette autonomie croissante s'installe dans des chaînes logicielles fragiles : une extension compromise sur un marketplace atteint des milliers de développeurs, et l'assistant qui exécute le code est aussi celui qui ouvre la porte. En parallèle, les plateformes qui alimentaient le web ouvert — Reddit en tête — se referment pour survivre à la disparition du trafic de recherche.</p>",
+ "pivot": "55d79838505142d7",
+ "tags": [
+  "sécurité",
+  "mistral",
+  "agents",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk6blw/microsoftmagevlcowork_hugging_face/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2364283-des-hackers-ont-distribue-une-version-piegee-de-claude-code-a-des-milliers-de-developpeurs-mais-se-sont-pris-les-pieds-dans-leur-propre-code.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjclj9/official_claude_code_vs_code_extension/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xilhng/le_chonk_is_here/"
+  }
+ ],
+ "date": "2026-10-31T11:08:35+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1581,
+  "sortie": 1918
+ }
+}

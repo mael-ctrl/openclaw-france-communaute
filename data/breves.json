@@ -1,5 +1,129 @@
 [
  {
+  "id": "1581f3d0627511e1",
+  "slug": "openclaw-epingle-l-evaluateur-kova-calibre-dans-un-correctif-de-releas-1581f3",
+  "titre": "OpenClaw épingle l'évaluateur Kova calibré dans un correctif de release",
+  "resume": "OpenClaw publie une nouvelle release identifiée b77ccbe99222-1793410137. Le correctif, référencé #188918, épingle l'évaluateur Kova calibré. La note de version cite deux co-auteurs, dont le compte roboclaw-bot, sans préciser la nature exacte de cet évaluateur ni les effets concrets du changement.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fb77ccbe99222-1793410137",
+  "date_source": "2026-10-31T01:28:43+00:00",
+  "date_redac": "2026-10-31T01:41:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 662,
+   "sortie": 779
+  }
+ },
+ {
+  "id": "141129c869ad3988",
+  "slug": "nvidia-envisage-de-cautionner-le-data-center-ia-de-nscale-en-virginie--141129",
+  "titre": "Nvidia envisage de cautionner le data center IA de Nscale en Virginie-Occidentale",
+  "resume": "Nvidia étudie la possibilité de se porter caution du prêt destiné au data center IA de Nscale en Virginie-Occidentale, rapporte TechCrunch. Le fabricant de puces, qui vend les processeurs utilisés dans ces infrastructures, jouerait ainsi un rôle de garant auprès des financeurs. Un signal appréciable au moment où les investisseurs s'inquiètent du niveau des dépenses dans l'IA.",
+  "tags": [
+   "business",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+  "date_source": "2026-10-31T01:20:05+00:00",
+  "date_redac": "2026-10-31T01:41:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 633,
+   "sortie": 770
+  }
+ },
+ {
+  "id": "6948678604d16db3",
+  "slug": "qengine-1-3-1-sort-504-tok-s-sur-2x-rtx-5090-avec-qwen3-8-flash-next-694867",
+  "titre": "QEngine 1.3.1 sort 504 tok/s sur 2x RTX 5090 avec Qwen3.8-Flash-Next",
+  "resume": "Un utilisateur de r/LocalLLaMA a comparé quatre moteurs sur Qwen3.8-Flash-Next, avec deux RTX 5090 et 262K de contexte. QEngine 1.3.1, écrit au départ pour des RTX 3090, sort en tête du décodage mono-flux à 504 tok/s, à égalité avec Strata sur la latence des prompts agentiques. Son mode KV en RAM rend le retour aux conversations inactives moins coûteux. Compiler pour sm_120 n'a demandé qu'un réglage CMake.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xjx0ez/qwen38flashnext_on_2x_rtx_5090_with_504_toks/",
+  "date_source": "2026-10-31T01:09:03+00:00",
+  "date_redac": "2026-10-31T01:41:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 928,
+   "sortie": 1189
+  }
+ },
+ {
+  "id": "b38af96a7cc9e4ec",
+  "slug": "claude-code-2-1-316-budgets-de-groupe-et-reglages-fins-des-sous-agents-b38af9",
+  "titre": "Claude Code 2.1.316 : budgets de groupe et réglages fins des sous-agents",
+  "resume": "La version 2.1.316 de Claude Code ajoute plusieurs variables d'environnement, dont CLAUDE_CODE_DISABLE_ULTRATHINK pour désactiver le mot-clé ultrathink et CLAUDE_CODE_SUBAGENT_EFFORT pour fixer le niveau d'effort des sous-agents. Côté administration, la passerelle Claude apps gagne des budgets de groupe mutualisés, un mode de politiques en couches et le marquage des prompts sur les upstreams Bedrock.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+  "date_source": "2026-10-31T01:01:35+00:00",
+  "date_redac": "2026-10-31T01:41:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 780,
+   "sortie": 808
+  }
+ },
+ {
+  "id": "1bb88df3193f445b",
+  "slug": "fable-5-gguf-when-la-question-d-un-utilisateur-de-r-localllama-1bb88d",
+  "titre": "« Fable 5.gguf when? » : la question d'un utilisateur de r/LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, l'utilisateur speedb0at a publié le 31 octobre 2026 un message dont le titre est une seule question : « Fable 5.gguf when? ». Le post ne contient aucun élément supplémentaire : pas de lien vers un modèle, pas de description du fichier .gguf évoqué, pas de contexte. En l'état, rien ne permet d'identifier de quel projet il s'agit.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xjwtrv/fable_5gguf_when/",
+  "date_source": "2026-10-31T01:00:26+00:00",
+  "date_redac": "2026-10-31T01:41:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 605,
+   "sortie": 875
+  }
+ },
+ {
+  "id": "c8f0421471a22049",
+  "slug": "openclaw-epingle-son-test-smoke-opencode-go-a-un-modele-joignable-c8f042",
+  "titre": "OpenClaw épingle son test smoke OpenCode Go à un modèle joignable",
+  "resume": "La release OpenClaw du 30 octobre 2026 intègre un correctif d'outillage : le test smoke d'OpenCode Go stable est désormais épinglé à un modèle joignable. La modification correspond à la pull request #188814, co-signée par les comptes roboclaw-bot et RomneyDa. Le préfixe « fix(release) » la classe parmi les correctifs de la chaîne de publication.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F81ecf56d0810-1793402126",
+  "date_source": "2026-10-30T23:15:15+00:00",
+  "date_redac": "2026-10-31T01:41:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 669,
+   "sortie": 703
+  }
+ },
+ {
   "id": "1da19defa57eeaa4",
   "slug": "un-emulateur-nes-cache-dans-les-poids-de-qwen3-5-4b-1da19d",
   "titre": "Un émulateur NES caché dans les poids de Qwen3.5-4B",

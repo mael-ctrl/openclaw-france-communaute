@@ -1,5 +1,129 @@
 [
  {
+  "id": "67ae1f6f307c5d0f",
+  "slug": "deepseek-v4-1-flash-et-qwen3-8-sur-une-seule-rtx-3090-ti-35-et-130-tok-67ae1f",
+  "titre": "DeepSeek-V4.1-Flash et Qwen3.8 sur une seule RTX 3090 Ti : 35 et 130 tok/s",
+  "resume": "Sur r/LocalLLaMA, un utilisateur détaille ses mesures sur une machine vieille de six ans : Gentoo Linux, Ryzen Threadripper 3990X, 128 Go de DDR4 et une seule RTX 3090 Ti de 24 Go. Il y fait tourner DeepSeek-V4.1-Flash-1017, un MoE de 552B, à 35 tok/s en décodage, et Qwen3.8-Flash-Next à 130 tok/s. Il note que cela fonctionne bien mieux qu'avec les modèles plus anciens d'il y a quelques mois.",
+  "tags": [
+   "matériel",
+   "deepseek",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/",
+  "date_source": "2026-11-01T21:01:42+00:00",
+  "date_redac": "2026-11-01T21:55:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 867,
+   "sortie": 816
+  }
+ },
+ {
+  "id": "d17190df54bb46c1",
+  "slug": "qwenbend-execute-un-programme-bend-dans-la-passe-avant-de-qwen-sans-ou-d17190",
+  "titre": "QwenBend exécute un programme Bend dans la passe avant de Qwen, sans outil externe",
+  "resume": "QwenBend prolonge Qwenputer : Qwen écrit un programme Bend, puis le même type de modèle le vérifie selon les règles de Bend2 et l'exécute dans sa propre passe avant, sans interpréteur ni appel d'outil. Après le jeton <|im_end|>, chaque jeton produit correspond à une instruction exécutée. Le « CPU » tient dans 53 millions de poids réglés à la main, avec 16 registres et 8 Ko de RAM 32 bits.",
+  "tags": [
+   "recherche",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xle8ta/qwenbend_qwen_writes_a_bend_program_then_the_same/",
+  "date_source": "2026-11-01T20:58:07+00:00",
+  "date_redac": "2026-11-01T21:55:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 866,
+   "sortie": 1095
+  }
+ },
+ {
+  "id": "4eb3f2147f5e7521",
+  "slug": "l-ia-facilite-la-vie-des-patrons-de-la-tech-et-celle-des-autres-4eb3f2",
+  "titre": "L'IA facilite la vie des patrons de la tech, et celle des autres ?",
+  "resume": "Dans l'épisode d'Equity, la rédaction de TechCrunch revient sur les déclarations des dirigeants de la tech à propos de l'IA. Le constat de départ : si l'IA peut faciliter le quotidien des patrons, la question de son effet sur tous les autres reste posée. L'émission se penche sur les raisons pour lesquelles ces prises de parole sonnent si souvent à côté de la plaque.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+  "date_source": "2026-11-01T20:57:58+00:00",
+  "date_redac": "2026-11-01T21:56:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 615,
+   "sortie": 576
+  }
+ },
+ {
+  "id": "61709017dd861a6f",
+  "slug": "un-assistant-local-cherche-un-petit-modele-multimodal-meilleur-que-gem-617090",
+  "titre": "Un assistant local cherche un petit modèle multimodal meilleur que Gemma 4 E4B",
+  "resume": "Sur r/LocalLLaMA, un utilisateur fait tourner un assistant local sur un Mac (MLX via oMLX, 24 Go, M5 Pro). Il lui faut un modèle qui enchaîne les appels d'outils entre mail, calendrier, notes et fichiers, résume de longs messages et répond d'une voix brève. Gemma 4 E4B reste son meilleur essai, grâce au texte, à l'image et à l'audio. Les petits modèles testés — Ling 3.0 tiny, LFM, Qwen 3.5 4B/9B — n'ont pas fait mieux.",
+  "tags": [
+   "open-source",
+   "agents",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xle3ul/is_gemma_4_e4b_still_the_best_small_model_for_a/",
+  "date_source": "2026-11-01T20:52:26+00:00",
+  "date_redac": "2026-11-01T21:56:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 862,
+   "sortie": 1104
+  }
+ },
+ {
+  "id": "6a13d199d8477eb8",
+  "slug": "tandem-cpp-accelere-les-modeles-moe-trop-gros-pour-la-vram-6a13d1",
+  "titre": "tandem.cpp accélère les modèles MoE trop gros pour la VRAM",
+  "resume": "tandem.cpp, jeu de patches pour llama.cpp, accélère les modèles MoE trop gros pour la VRAM : les experts les plus utilisés restent sur le GPU, le CPU prend le reste. Ciblé sur le décodage mono-utilisateur, il est réglé pour Qwen3.8. Sur i5-12400F, 64 Go DDR4 et RTX 4090, Qwen3.8-Flash-Next passe de 29,8 à 97,3 tok/s sur GSM8K (3,3×). Les autres MoE y gagnent 1,4 à 2,1×.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xldent/tandemcpp_qwen38flashnext_at_97_toks_on_a_single/",
+  "date_source": "2026-11-01T20:23:50+00:00",
+  "date_redac": "2026-11-01T21:56:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 958,
+   "sortie": 1236
+  }
+ },
+ {
+  "id": "280ad4175800b6a8",
+  "slug": "survival-llm-une-ia-hors-ligne-pour-les-situations-d-urgence-280ad4",
+  "titre": "Survival LLM, une IA hors ligne pour les situations d'urgence",
+  "resume": "Survival LLM est un assistant gratuit qui fonctionne entièrement sur votre ordinateur, sans connexion à Internet. Il répond aux questions de premiers secours ou de survie en s'appuyant sur une bibliothèque de références embarquée. L'intérêt : disposer d'une IA quand le réseau tombe, en cas de panne de courant ou de situation d'urgence.",
+  "tags": [
+   "sécurité",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2364545-concu-pour-les-situations-durgence-cette-ia-hors-ligne-veut-vous-aider-a-survivre-a-la-fin-du-monde-ou-au-moins-a-une-panne-de-courant.html",
+  "date_source": "2026-11-01T19:30:00+00:00",
+  "date_redac": "2026-11-01T21:56:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 701,
+   "sortie": 467
+  }
+ },
+ {
   "id": "7e8bd182f82e6913",
   "slug": "qwen3-8-flash-next-juge-verbeux-et-brouillon-hors-coding-7e8bd1",
   "titre": "Qwen3.8-Flash-Next jugé verbeux et brouillon hors coding",

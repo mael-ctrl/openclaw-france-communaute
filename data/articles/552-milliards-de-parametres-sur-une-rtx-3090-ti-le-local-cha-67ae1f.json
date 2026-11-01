@@ -1,0 +1,41 @@
+{
+ "slug": "552-milliards-de-parametres-sur-une-rtx-3090-ti-le-local-cha-67ae1f",
+ "titre": "552 milliards de paramètres sur une RTX 3090 Ti : le local change d'échelle",
+ "chapo": "Une seule RTX 3090 Ti de 24 Go, une machine de six ans, et un MoE de 552 milliards de paramètres qui débite 35 tok/s : sur r/LocalLLaMA, les chiffres donnent le vertige. Derrière, des patchs pour llama.cpp, un projet d'entraînement collectif, et une chaîne d'approvisionnement qui se négocie en milliards.",
+ "html": "<h2 id=\"un-moe-de-552b-sur-24-go-de-vram\">Un MoE de 552B sur 24 Go de VRAM</h2>\n<p>Le matériel décrit sur r/LocalLLaMA n'a rien d'exotique : Gentoo Linux, un Ryzen Threadripper 3990X, 128 Go de DDR4 et une unique RTX 3090 Ti de 24 Go. Une configuration qui a six ans. Dessus, l'utilisateur fait tourner DeepSeek-V4.1-Flash-1017, un MoE de 552 milliards de paramètres, à 35 tok/s en décodage.</p>\n<p>Le second modèle testé, Qwen3.8-Flash-Next, monte à 130 tok/s. Le fil ne détaille ni la répartition exacte entre GPU et mémoire système, ni la quantification employée. Un point est en revanche affirmé : ces résultats sont nettement meilleurs qu'avec les modèles plus anciens, essayés il y a quelques mois sur la même machine.</p>\n<p>C'est là le vrai signal. Pas qu'un modèle géant tienne dans une carte grand public — les 24 Go de VRAM n'y suffisent pas — mais que le couple logiciel/modèle progresse à matériel constant.</p>\n<h2 id=\"tandem-cpp-le-cpu-prend-le-reliquat\">tandem.cpp : le CPU prend le reliquat</h2>\n<p>La mécanique est décrite dans un autre fil : <strong>tandem.cpp</strong>, un jeu de patches pour llama.cpp, vise précisément les MoE trop gros pour la VRAM. Le principe : les experts les plus sollicités restent sur le GPU, le CPU se charge du reste. L'outil est ciblé sur le décodage mono-utilisateur, et réglé pour Qwen3.8.</p>\n<p>Les chiffres annoncés : sur une machine i5-12400F, 64 Go de DDR4 et une RTX 4090, Qwen3.8-Flash-Next passe de 29,8 à 97,3 tok/s sur GSM8K, soit 3,3×. Les autres MoE testés y gagnent entre 1,4 et 2,1×.</p>\n<p>Rien de magique : pas de VRAM supplémentaire, pas de nouveau silicium. De l'ordonnancement — placer les bons experts au bon endroit. Les deux fils ne se citent pas, mais ils traitent la même famille de problèmes : faire tenir un modèle hors de sa carte, sans s'effondrer en débit.</p>\n<h2 id=\"entrainer-un-milliard-de-parametres-sans\">Entraîner un milliard de paramètres sans datacenter</h2>\n<p>CrowdGPT passe en version 2.6, présentée comme une mise à jour d'ampleur de son LLM collaboratif. Objectif affiché : entraîner un modèle d'un milliard de paramètres sans datacenter, et sans les millions de dollars que mobilisent les entreprises d'IA.</p>\n<p>La méthode : chacun entraîne sur son propre PC, puis verse sa contribution au modèle global, via un protocole où la direction du projet se décide collectivement. Les porteurs du projet le qualifient de preuve de concept, extensible à des modèles denses plus gros ou à des architectures MoE.</p>\n<p>Un milliard de paramètres, c'est peu face aux 552 milliards du premier fil. Mais la question posée n'est pas la taille, c'est l'accès aux moyens d'entraîner.</p>\n<h2 id=\"en-amont-substrats-et-orbite\">En amont : substrats et orbite</h2>\n<p>Journal du Geek rapporte que Tesla et Nvidia prévoiraient d'investir près de 3 milliards de dollars dans les capacités de production de Samsung. En échange : un approvisionnement à long terme en substrats, composants discrets mais nécessaires à leurs puces IA. L'opération se joue en amont des fabricants de semi-conducteurs, sur un maillon dont on parle rarement.</p>\n<p>Chez Google, la contrainte change de nature. Le satellite-datacenter de la firme embarque quatre TPU et produit jusqu'à 1 kW d'électricité. Il doit ouvrir la voie à des réseaux de satellites rapprochés capables de faire de l'inférence en orbite. Sauf que la consommation des puces impose de n'en allumer qu'une à la fois, pendant une vingtaine de minutes, ce qui complique encore les communications entre l'espace et le sol.</p>\n<p>À terre, on sécurise des substrats. En orbite, on compte les watts. Deux façons de buter sur les mêmes limites physiques.</p>\n<h2>Et maintenant ?</h2>\n<p>Ce qui ressort de ces fils, c'est un déplacement des coûts. L'entraînement à grande échelle reste hors de portée d'une carte graphique : il se règle en milliards de dollars de substrats et en mégawatts. L'inférence, elle, descend — 552 milliards de paramètres à 35 tok/s sur une carte de 24 Go, un milliard de paramètres entraîné de façon contributive. Les deux courbes ne se rejoindront pas demain, mais elles ne pointent plus dans la même direction.</p>",
+ "pivot": "67ae1f6f307c5d0f",
+ "tags": [
+  "open-source",
+  "matériel",
+  "deepseek",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xldent/tandemcpp_qwen38flashnext_at_97_toks_on_a_single/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkibxw/crowdgpt_v26_the_collaborative_llm/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/10/31/tesla-et-nvidia-financent-samsung-pour-securiser-leurs-puces-ia/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkcyn6/spent_a_lot_on_my_rig_but_i_can_only_run_gemma_4/"
+  }
+ ],
+ "date": "2026-11-01T21:56:42+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1689,
+  "sortie": 4226
+ }
+}

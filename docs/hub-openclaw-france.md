@@ -909,6 +909,42 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   un environnement isolé. Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-10-30/hub-accueil-installation/`.
 
+## Hermes : du téléchargement au premier essai — livraison du 02/11/2026
+
+- **Une amélioration** : clarifier le parcours de `/hermes/#installation`.
+  Avant les boutons, le téléchargement est distingué de la configuration de la
+  machine. Trois étapes reliées : prérequis et installateur officiel, choix du
+  fournisseur compatible, conversation sur un texte fictif avant les intégrations.
+  Délai de quinze minutes, compatibilité universelle des fournisseurs et mentions
+  génériques « testé » retirés de cette page ; descriptions SEO et partage alignées.
+  Aucun script, kit, style, tarif ou texte juridique modifié.
+- Script du kit et documentations officielles Installation / Quickstart relus
+  en HTTPS (200). Le parcours reste un contrôle documentaire : aucune installation
+  réelle d’Hermes sur une machine neuve prétendue.
+- **3 tests de régression** échouent avant correction, puis passent ; **277 tests
+  de la suite complète OK**, et les **3 nouveaux tests OK sur le HTML public**.
+  En-tête HTML, bloc d’accueil et section installation publics identiques aux sources.
+- Chrome avec et sans JavaScript : **12 contrôles locaux** (1440, 1024, 430,
+  390, 375 et 360 px), puis **6 publics** (1440, 390 et 360 px). Mention avant
+  les boutons, liens au clavier vers installation/prérequis/budget/dépannage,
+  styles appliqués et absence de débordement horizontal vérifiés.
+- Bureau inaccessible à Git et lecture FileProvider en erreur ; publication par
+  `python3 outils/deployer_openclaw.py` depuis le clone synchronisé hors Bureau
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Clone partagé en conflits laissé
+  intact. Sauvegarde privée et comparaison production/Git avant envoi, puis
+  **36 fichiers relus via FTP**, tous identiques aux sources après déploiement.
+  Seuls Hermes et le sitemap ont changé. Dates/modes restaurés avant régénération :
+  les deux ZIP et le manifeste sont inchangés ; CRC et SHA-256 vérifiés en HTTPS.
+- Santé : **les six URL demandées en HTTP 200**, ainsi que les quatre URL
+  complémentaires contrôlées (manifeste, sitemap, clé, guide Hermes).
+  **IndexNow HTTP 200** pour `/hermes/` : notification acceptée, pas indexation prouvée.
+- **Aucune nouvelle distribution** : journal synchronisé relu, le post SHA-256
+  du 02/11 (`3mzcujcddsa22`) occupe déjà le quota quotidien et le créneau Bluesky
+  de la semaine. Aucun nouveau contact, formulaire ou contrôle de boîte mail.
+- Prochaine action prévue : suivre les retours du post existant sans republier
+  cette semaine. Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-02/hub-hermes-installation/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

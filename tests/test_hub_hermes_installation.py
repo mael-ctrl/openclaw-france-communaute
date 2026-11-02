@@ -48,6 +48,7 @@ class HermesInstallationTest(unittest.TestCase):
     def test_etapes_delegation_modele_et_essai_verifiable(self):
         match = re.search(r'<section id="installation"[^>]*>(.*?)</section>', self.html, re.S)
         self.assertIsNotNone(match)
+        self.assertNotIn("<div></div>", match.group(1), "Une cellule vide repousse le texte dans la colonne du numéro")
         doc = Document(match.group(1))
         text = doc.texte()
         for phrase in ("installateur officiel", "hermes model", "fournisseur compatible", "configuration privée", "texte fictif", "réponse sans erreur", "avant de brancher des comptes"):

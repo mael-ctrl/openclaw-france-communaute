@@ -928,6 +928,10 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   390, 375 et 360 px), puis **6 publics** (1440, 390 et 360 px). Mention avant
   les boutons, liens au clavier vers installation/prérequis/budget/dépannage,
   styles appliqués et absence de débordement horizontal vérifiés.
+  Vérification complémentaire des trois cartes : retrait des cellules vides qui
+  repoussaient les paragraphes dans la colonne étroite des numéros. Largeur utile
+  du texte contrôlée à chaque format ; suite complète et parcours publics rejoués
+  après cette correction, puis nouvelle notification IndexNow HTTP 200.
 - Bureau inaccessible à Git et lecture FileProvider en erreur ; publication par
   `python3 outils/deployer_openclaw.py` depuis le clone synchronisé hors Bureau
   `~/.hermes/workspaces/hub-openclaw-20261003`. Clone partagé en conflits laissé

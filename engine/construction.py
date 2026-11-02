@@ -110,7 +110,8 @@ def jsonld_item(type_page, url_page, titre, description, date_pub, date_mod, sec
         "isAccessibleForFree": True,
         "articleSection": section,
         "keywords": ", ".join(tags or []),
-        "author": {"@id": f"{u}/#organisation"},
+        "author": {"@id": f"{u}/#organisation", "@type": "Organization",
+                   "name": config.NOM_SITE, "url": f"{u}/transparence/"},
         "publisher": {"@id": f"{u}/#organisation"},
     }
     if date_pub:

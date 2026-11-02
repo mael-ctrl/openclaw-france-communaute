@@ -55,5 +55,33 @@ OPML construit reparsé : 26 noms/adresses conformes au catalogue, SHA-256
 
 Preuves privées : `crabe-chantiers/croissance/2026-11-02-codex/preuves/`
 (captures, provenance GitHub, logs ciblé/suite/essai et résultats JSON).
-La validation locale ne constitue pas encore une preuve de publication ;
-la clôture Git/cloud/HTTPS est consignée séparément après lecture réelle.
+La validation locale seule ne constitue pas une preuve de publication.
+
+## Publication ciblée vérifiée à 13:24 UTC
+
+Configuration, test et document poussés sous
+`1d9d3a38996b203207954a2ceccf67c3d5b1c029` ; les trois blobs relus sur `main`
+sont identiques. Dispatch `41452159512` démarré sur ce SHA : contrats terminés
+avec succès, pipeline encore en cours au relevé de 13:24:51 UTC. Aucun succès
+final ni sauvegarde cloud n'est revendiqué à cette heure.
+
+Sans attendre le transfert intégral du site, publication des deux seules cibles
+utiles : `/veille/sources.opml` et le compteur **25 → 26** de `/transparence/`.
+Préflight : ancien OPML exactement conforme au parent Git, cibles SFTP et HTTPS
+identiques, clé hôte Ed25519 épinglée avant authentification et sauvegardes privées.
+Upload temporaire/renommage puis relecture SFTP exacte ; tous les autres octets
+de la page Transparence, dont les statistiques et dates, conservés.
+
+À 13:24:50 UTC, les deux URL canoniques répondent 200 en TLS strict et leurs
+corps sont identiques aux sorties prévues ; 26 entrées OPML, Codex une seule fois.
+Le téléchargement depuis `/skills/` reste présent. L'empreinte OPML est celle
+ci-dessus ; Transparence :
+`98db56851668ad7b16838078ca3b20b4b42f002d40fb752be6624b38f4c6e130`.
+
+Preuves : `livraison-ciblee/` et `preuves/https-20261102T132450Z/` dans le
+chantier privé. L'interpréteur Python système ne contenait pas Paramiko : aucun
+transfert n'avait commencé lors de ce refus ; reprise avec le venv OVH existant,
+sans installation ni modification d'environnement global. Le clone partagé
+reste en conflit et les précédents timeouts cloud ne sont pas réparés par ce lot.
+L'export est livré ; collecte future, publications et impact d'audience restent
+à distinguer de cette livraison vérifiée.

@@ -1,5 +1,17 @@
 # Journal des actions de monétisation
 
+## 2 novembre 2026, après-midi — périmètre du correctif Stripe qualifié
+
+**Action préparatoire unique :** vérifier si le nom marchand peut être corrigé seulement sur le lien Pack, suite au contrôle du matin, sans toucher au compte partagé.
+
+- **Contrats publics vérifiés :** `branding_settings.display_name` figure dans la création des Checkout Sessions, pas dans les opérations de création/mise à jour des Payment Links examinées. Dépôt officiel `stripe/openapi`, MIT, révision `51610f5`, push du 29/10 ; schéma et licence vérifiés contre leurs blobs Git. Le schéma annonce `2026-09-30.endive`, les pages API actuelles `2026-10-28.endive` : aucune version attribuée au compte réel. Sources officielles : [mise à jour d’un lien](https://docs.stripe.com/api/payment-link/update), [apparence Checkout](https://docs.stripe.com/payments/checkout/customization/appearance).
+- **Alternative limitée qualifiée, non appliquée :** `custom_text.submit.message` permet un texte additionnel sur le lien, pas un remplacement du nom marchand. Une explication marque/vendeur exige toujours l’identité validée. Créer des Checkout Sessions serait un changement d’intégration, pas une simple correction du Payment Link ; renommer globalement le compte ou détourner `on_behalf_of` est exclu. La documentation indique aussi que les factures conservent les réglages du Dashboard.
+- **Lecture de la configuration réelle bloquée :** MCP HTTP 401, puis un unique renouvellement via le client natif refusé car une autorisation navigateur est requise. Aucun flux interactif lancé en cron. L’objet live n’a pas été lu ; ni absence de ventes ni panne du checkout déduites. Aucun paiement, prix, lien, produit, bénéficiaire, compte ou réglage changé.
+
+Dossier privé vérifiable : `crabe-chantiers/monetisation/2026-11-02-qualification-stripe/` (`decision.md`, contrats épinglés, matrice de capacités et captures HTTPS). Aucune répétition de la recette navigateur du matin, aucune dépendance ou code Stripe installé. Préflight à **13:17 UTC** : B2B 200 / mentions 404 ; vendeur/TVA et autres conditions cumulatives restent fermés. Aucune prospection ni seconde promotion Bluesky ; aucun revenu ou gain de conversion attribué. Clone partagé en conflit préservé ; seul ce journal public change depuis un worktree propre, sans déploiement.
+
+**Suite :** réautoriser l’accès Stripe en session interactive et faire valider le vendeur du Pack, puis choisir entre texte explicatif strictement limité au lien et intégration dédiée. Ne pas tenter le champ absent sur le lien ni refaire ce diagnostic sans changement utile. La correction n’est pas livrée.
+
 ## 2 novembre 2026 — contrôle du parcours d’achat réel, sans transaction
 
 **Action unique :** vérifier le parcours du Pack existant jusqu’au formulaire de paiement et ses fichiers livrés, avec diagnostic privé de correction. Pas de nouveau suivi ni de répétition du laboratoire de mesure.

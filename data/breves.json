@@ -1,5 +1,128 @@
 [
  {
+  "id": "bd3e7d884178a325",
+  "slug": "le-new-york-times-attaque-le-navigateur-brave-pour-moissonnage-de-cont-bd3e7d",
+  "titre": "Le New York Times attaque le navigateur Brave pour moissonnage de contenus",
+  "resume": "Le New York Times poursuit Brave, l'éditeur du navigateur axé sur la vie privée, pour avoir selon lui moissonné ses contenus protégés par le droit d'auteur et les avoir redistribués illégalement à ses propres clients, cités comme Anthropic et Perplexity. D'autres rédactions figurent parmi les plaignants. Le litige touche à l'usage des contenus journalistiques par les acteurs de l'IA.",
+  "tags": [
+   "business",
+   "société",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+  "date_source": "2026-11-02T19:19:17+00:00",
+  "date_redac": "2026-11-02T20:08:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 643,
+   "sortie": 882
+  }
+ },
+ {
+  "id": "1c94d253e69f4745",
+  "slug": "des-llm-capables-de-lire-et-d-ecrire-les-poids-d-un-reseau-de-neurones-1c94d2",
+  "titre": "Des LLM capables de lire et d'écrire les poids d'un réseau de neurones",
+  "resume": "Sur r/LocalLLaMA, une publication explore l'idée qu'un modèle de langage pourrait lire et écrire nativement les poids d'un réseau de neurones. Son titre parle de « programmation dans l'espace des poids » (weight-space programming). Le fil est signé de l'utilisateur teakhop.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xm6jow/sparks_of_weightspace_programming_llms_can/",
+  "date_source": "2026-11-02T19:15:33+00:00",
+  "date_redac": "2026-11-02T20:08:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 619,
+   "sortie": 869
+  }
+ },
+ {
+  "id": "248b8523257012c2",
+  "slug": "qualite-contre-vitesse-des-benchmarks-reclames-pour-basalt-infernix-et-248b85",
+  "titre": "Qualité contre vitesse : des benchmarks réclamés pour Basalt, Infernix et Strata",
+  "resume": "Sur r/LocalLLaMA, un utilisateur réclame des benchmarks mesurant la dégradation de qualité entre Basalt, Infernix et Strata-nvfp4, plutôt que de simples mesures de vitesse. Il note que Basalt n'embarque pas de rope scaling dynamique : le yarn scaling y est statique (2 pour un contexte de 524K) dès le départ. Le modèle n'a pas non plus d'interrupteur de censure, mais la mécanique existe, rendant son ajout trivial.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xm6hjx/do_we_have_any_benchmarks_on_quality_degradation/",
+  "date_source": "2026-11-02T19:13:21+00:00",
+  "date_redac": "2026-11-02T20:08:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 771,
+   "sortie": 840
+  }
+ },
+ {
+  "id": "193e0c530b9af218",
+  "slug": "ultenic-mx50-un-nettoyage-complet-mais-une-navigation-a-tatons-193e0c",
+  "titre": "Ultenic MX50 : un nettoyage complet, mais une navigation à tâtons",
+  "resume": "Ultenic, marque spécialisée dans le nettoyage de la maison, se distingue par des prix contenus. Frandroid a testé pendant un mois l'MX50, le modèle le plus cher du constructeur. Verdict du test : un nettoyage complet, malgré une navigation à tâtons. Reste à savoir si la marque rattrape son retard face aux poids lourds du marché.",
+  "tags": [
+   "matériel",
+   "robots"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/test/3252687_on-a-teste-lultenic-mx50-le-nettoyage-sans-la-navigation",
+  "date_source": "2026-11-02T19:00:00+00:00",
+  "date_redac": "2026-11-02T20:09:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 690,
+   "sortie": 445
+  }
+ },
+ {
+  "id": "072ce29dd2aa956b",
+  "slug": "le-xiaomi-17t-passe-a-51-une-piste-pour-les-budgets-serres-072ce2",
+  "titre": "Le Xiaomi 17T passe à -51 %, une piste pour les budgets serrés",
+  "resume": "Le Xiaomi 17T est proposé avec une remise de 51 %, relaie 01net dans sa rubrique bons plans. Le smartphone vise ceux qui cherchent un appareil performant sans avoir le budget d'un modèle haut de gamme. L'extrait ne précise ni le prix final ni la durée de l'offre.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/bons-plans/le-xiaomi-17t-passe-a-51-et-devient-bien-plus-facile-a-glisser-sous-le-sapin.html",
+  "date_source": "2026-11-02T18:58:53+00:00",
+  "date_redac": "2026-11-02T20:09:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 657,
+   "sortie": 700
+  }
+ },
+ {
+  "id": "0d283f7363c22290",
+  "slug": "anthropic-modifie-le-prompt-de-claude-code-pour-freiner-le-clonage-de--0d283f",
+  "titre": "Anthropic modifie le prompt de Claude Code pour freiner le clonage de jeux vidéo",
+  "resume": "Anthropic a mis à jour le prompt système de Claude Code pour empêcher l'outil de recréer des jeux vidéo existants, rapporte Tom's Hardware. Le jeu rétro est envahi de décompilations, recompilations et portages générés par IA. Claude Code reste utilisable pour créer des jeux, mais pas pour dupliquer des titres existants.",
+  "tags": [
+   "claude",
+   "dev",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+  "date_source": "2026-11-02T18:56:02+00:00",
+  "date_redac": "2026-11-02T20:09:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 669,
+   "sortie": 841
+  }
+ },
+ {
   "id": "bc0ad33ed60d9484",
   "slug": "lfm3-omni-2b-liquid-ai-fait-tourner-son-modele-dans-le-navigateur-via--bc0ad3",
   "titre": "LFM3 Omni 2B : Liquid AI fait tourner son modèle dans le navigateur via WebGPU",

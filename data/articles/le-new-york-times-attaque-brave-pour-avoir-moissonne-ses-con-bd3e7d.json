@@ -1,0 +1,41 @@
+{
+ "slug": "le-new-york-times-attaque-brave-pour-avoir-moissonne-ses-con-bd3e7d",
+ "titre": "Le New York Times attaque Brave pour avoir moissonné ses contenus",
+ "chapo": "Le New York Times poursuit Brave, l'éditeur du navigateur axé sur la vie privée, qu'il accuse d'avoir moissonné ses contenus protégés par le droit d'auteur pour les redistribuer illégalement à ses propres clients, cités comme Anthropic et Perplexity. D'autres rédactions figurent parmi les plaignants.",
+ "html": "<h2 id=\"brave-accuse-d-avoir-transmis-de-la-pres\">Brave accusé d'avoir transmis de la presse à des acteurs de l'IA</h2>\n<p>Le New York Times porte le dossier devant la justice. Le quotidien poursuit Brave, l'éditeur du navigateur positionné sur la protection de la vie privée, lui reprochant d'avoir moissonné ses contenus protégés par le droit d'auteur, puis de les avoir redistribués illégalement à ses propres clients — cités comme <strong>Anthropic</strong> et <strong>Perplexity</strong>. D'autres rédactions figurent parmi les plaignants, ce qui donne à l'affaire une portée qui dépasse un seul titre de presse.</p>\n<p>Le cœur du grief ne porte pas seulement sur la collecte, mais sur ce qui en est fait ensuite : le passage d'un contenu journalistique d'un ayant droit vers un fournisseur de modèles ou un moteur de réponse. Le litige touche donc directement à l'usage des contenus de presse par les acteurs de l'IA, un terrain sur lequel les positions se durcissent à mesure que les outils se déploient.</p>\n<h2 id=\"claude-code-ne-doit-plus-recreer-de-jeux\">Claude Code ne doit plus recréer de jeux existants</h2>\n<p>Anthropic a mis à jour le prompt système de Claude Code pour empêcher l'outil de recréer des jeux vidéo existants, rapporte Tom's Hardware. La cible est identifiée : le jeu rétro, envahi de décompilations, de recompilations et de portages générés par IA. Autrement dit, des projets qui repartent d'un titre déjà publié pour en produire une variante.</p>\n<p>La correction ne ferme pas la porte à la création : Claude Code reste utilisable pour créer des jeux, mais pas pour dupliquer des titres existants. La ligne de partage ressemble à celle du dossier Brave, à ceci près qu'elle ne relève pas du même mécanisme. D'un côté, une plainte en justice ; de l'autre, une consigne intégrée à l'outil. Deux manières de borner la reproduction de ce qui appartient déjà à quelqu'un, sans passer par un tribunal.</p>\n<h2 id=\"les-patrons-de-la-tech-et-l-ia-un-discou\">Les patrons de la tech et l'IA : un discours qui décroche</h2>\n<p>Dans l'épisode d'Equity, la rédaction de TechCrunch revient sur les déclarations des dirigeants de la tech à propos de l'IA. Le constat de départ est posé sans détour : si l'IA peut faciliter le quotidien des patrons, la question de son effet sur tous les autres reste ouverte. L'émission se penche sur les raisons pour lesquelles ces prises de parole sonnent si souvent à côté de la plaque.</p>\n<p>Le sujet n'est pas anecdotique. Les discours des dirigeants façonnent la façon dont les outils sont perçus, attendus, et parfois contestés — y compris devant les tribunaux. TechCrunch ne tranche pas la question de l'effet réel de l'IA sur le reste du monde ; il documente l'écart entre ce qui est promis depuis les postes de direction et ce que le public en retient.</p>\n<h2 id=\"survival-llm-l-assistant-qui-tourne-sans\">Survival LLM, l'assistant qui tourne sans réseau</h2>\n<p>À l'opposé des services hébergés, Survival LLM est un assistant gratuit qui fonctionne entièrement sur votre ordinateur, sans connexion à Internet. Il répond aux questions de premiers secours ou de survie en s'appuyant sur une bibliothèque de références embarquée.</p>\n<p>L'intérêt tient en une phrase : disposer d'une IA quand le réseau tombe, en cas de panne de courant ou de situation d'urgence. Là où la plupart des modèles supposent une connexion permanente et des serveurs distants, cette approche ramène le raisonnement sur la machine locale, avec les références livrées avec elle. Un cas d'usage étroit, mais qui rend visible une dépendance qu'on oublie vite.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux façons de poser des limites se dessinent dans ces actualités : la plainte du New York Times contre Brave passera par un juge, la modification du prompt système de Claude Code par une consigne intégrée à l'outil. Ni l'une ni l'autre ne dit encore ce que les ayant droits obtiendront. Pendant ce temps, Survival LLM rappelle qu'un assistant peut tourner entièrement en local, sans serveur ni réseau — une architecture que les débats sur les contenus et leur circulation ne prennent pas encore en compte.</p>",
+ "pivot": "bd3e7d884178a325",
+ "tags": [
+  "société",
+  "claude",
+  "business",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2364545-concu-pour-les-situations-durgence-cette-ia-hors-ligne-veut-vous-aider-a-survivre-a-la-fin-du-monde-ou-au-moins-a-une-panne-de-courant.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/bons-plans/le-xiaomi-17t-passe-a-51-et-devient-bien-plus-facile-a-glisser-sous-le-sapin.html"
+  }
+ ],
+ "date": "2026-11-02T20:09:34+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1540,
+  "sortie": 3729
+ }
+}

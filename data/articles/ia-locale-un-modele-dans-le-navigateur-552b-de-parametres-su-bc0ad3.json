@@ -1,0 +1,41 @@
+{
+ "slug": "ia-locale-un-modele-dans-le-navigateur-552b-de-parametres-su-bc0ad3",
+ "titre": "IA locale : un modèle dans le navigateur, 552B de paramètres sur une RTX 3090 Ti",
+ "chapo": "Un modèle omni qui tourne dans un onglet de navigateur, un MoE de 552 milliards de paramètres sur une seule RTX 3090 Ti : sur r/LocalLLaMA, la semaine aligne les démonstrations de ce que le matériel déjà présent dans les machines personnelles peut absorber. Et surtout, les rustines logicielles qui changent l'ordre de grandeur.",
+ "html": "<h2 id=\"dans-le-navigateur-sans-serveur-derriere\">Dans le navigateur, sans serveur derrière</h2>\n<p>Liquid AI a présenté <strong>LFM3 Omni 2B</strong>, son nouveau modèle omni, en démonstration directement dans un navigateur via <strong>WebGPU</strong>. La vidéo de la démo provient de leur propre espace Hugging Face. L'intérêt avancé est simple : une exécution locale, côté navigateur, sans dépendre d'une infrastructure serveur distante.</p>\n<p>Le format 2B place évidemment le modèle ailleurs que dans la catégorie des gros MoE qui suivent : ici, la contrainte n'est pas la VRAM mais le runtime. WebGPU sert de pont entre le modèle et la puce graphique de la machine, et la démonstration tient dans une page.</p>\n<h2 id=\"552-milliards-de-parametres-une-carte-si\">552 milliards de paramètres, une carte, six ans de matériel</h2>\n<p>À l'autre bout du spectre, un utilisateur détaille ses mesures sur une machine vieille de six ans : Gentoo Linux, Ryzen Threadripper 3990X, 128 Go de DDR4 et une seule <strong>RTX 3090 Ti</strong> de 24 Go. Il y fait tourner <strong>DeepSeek-V4.1-Flash-1017</strong>, un MoE de <strong>552B</strong>, à <strong>35 tok/s</strong> en décodage, et <strong>Qwen3.8-Flash-Next</strong> à <strong>130 tok/s</strong>.</p>\n<p>Son constat : cela fonctionne bien mieux qu'avec les modèles plus anciens d'il y a quelques mois. Autrement dit, à matériel constant, c'est le couple modèle/moteur qui a bougé.</p>\n<p>La même logique de réemploi apparaît ailleurs : DeepSeek V4.1 Flash en <strong>1M de contexte</strong>, entièrement hors ligne via <strong>Strata</strong>, sur une RX 9070 XT 16 Go, un 5800X3D, 64 Go de DDR4 et un NVMe PCIe 3.0 — les experts répartis entre VRAM, RAM et SSD.</p>\n<h2 id=\"le-goulot-n-est-plus-la-generation-c-est\">Le goulot n'est plus la génération, c'est le prefill</h2>\n<p>Sur cette dernière configuration, la génération à <strong>~7 tok/s</strong> convenait à son propriétaire. Le point noir était ailleurs : la lecture du prompt. Chaque session <strong>OpenCode</strong> relisait <strong>~37K tokens</strong> de prompt système et d'outils, soit environ <strong>100 s</strong> avant le premier token. Il a donc patché le moteur DeepSeek, avec deux changements, pour accélérer d'un facteur <strong>20</strong> le démarrage des sessions d'agent. La réponse, ironique, à Sam Altman qui jugeait « assez terrible » de laisser de la DRAM mondiale dormir dans les ordinateurs personnels.</p>\n<p>Même diagnostic sur une autre machine : <strong>Qwen 3.8 Flash Next</strong> en <strong>NVFP4</strong> sur 64 Go de RAM et une <strong>RTX 5090</strong>, via <strong>Basalt</strong>, un fork spécialisé. Sous Windows 11, <strong>1,5 Go de VRAM</strong> et <strong>6 Go de RAM</strong> sont absorbés par le système ; les experts débordent vers la RAM et le CPU, et prefill comme decode chutent de <strong>70 %</strong>. Passé à cachy, il atteint près de <strong>9K de prefill</strong>, un gain de <strong>2 à 3×</strong> qu'il attribue à ninfer et au modèle dense 27b. Il juge la qualité supérieure à qwen 27b sur de nombreuses tâches.</p>\n<h2 id=\"tandem-cpp-garder-les-experts-utiles-sur\">tandem.cpp : garder les experts utiles sur le GPU</h2>\n<p>Troisième angle, troisième rustine. <strong>tandem.cpp</strong>, un jeu de patches pour <strong>llama.cpp</strong>, accélère les modèles MoE trop gros pour la VRAM : les experts les plus utilisés restent sur le GPU, le CPU prend le reste. C'est ciblé sur le décodage mono-utilisateur, et réglé pour Qwen3.8.</p>\n<p>Les chiffres annoncés : sur i5-12400F, 64 Go de DDR4 et RTX 4090, <strong>Qwen3.8-Flash-Next</strong> passe de <strong>29,8 à 97,3 tok/s</strong> sur GSM8K, soit <strong>3,3×</strong>. Les autres MoE y gagnent <strong>1,4 à 2,1×</strong>.</p>\n<p>Le principe rejoint celui du patch DeepSeek : arrêter de traiter le dépassement de VRAM comme une fatalité uniforme, et hiérarchiser ce qui reste sur la carte.</p>\n<h2>Et maintenant ?</h2>\n<p>Les cinq dépêches décrivent des machines très différentes — un navigateur, une 3090 Ti de six ans, une 9070 XT, une 5090 — mais un même déplacement : la performance ne vient plus seulement du matériel acheté, elle vient du moteur qu'on accepte de patcher. Reste que les gains annoncés sont des mesures isolées, publiées par leurs auteurs, sur des configurations singulières : rien n'y tient lieu de banc d'essai reproductible, et les facteurs 20 ou 3,3 valent pour un usage précis, celui du décodage mono-utilisateur. La remarque attribuée à Sam Altman sur la DRAM « qui dort » sert de fil ironique à l'ensemble, sans qu'aucune de ces expériences ne tranche vraiment le débat.</p>",
+ "pivot": "bc0ad33ed60d9484",
+ "tags": [
+  "open-source",
+  "matériel",
+  "deepseek",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk2kb/lfm3_omni_2b_is_incredible/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlicia/qwen_38_flash_next_nvfp4_on_64gb_ram_and_5090/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xldent/tandemcpp_qwen38flashnext_at_97_toks_on_a_single/"
+  }
+ ],
+ "date": "2026-11-02T01:27:31+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1840,
+  "sortie": 2625
+ }
+}

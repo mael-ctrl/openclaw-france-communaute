@@ -1,0 +1,172 @@
+{
+  "selected_at": "2026-11-02T08:12:57.575556+00:00",
+  "sha": "6530893de6c2296a60b19058df79b90e6494c38f",
+  "breves_blob_sha256": "c1db303f51d78f74b05eb6d97530703980f9366c8ce05ab6d8c27e0ad2c504b0",
+  "breves": [
+    {
+      "id": "9b52323085893335",
+      "slug": "en-cas-de-doute-supprimer-le-fichier-uv-lock-9b5232",
+      "titre": "En cas de doute, supprimer le fichier uv.lock",
+      "resume": "Depuis son passage à Python 3.15, Simon Willison tombe par intermittence sur des erreurs de dépendances Python difficiles à déchiffrer. Sa règle : en cas de doute, supprimer le fichier uv.lock. Généré par uv run et listé dans .gitignore, ce fichier peut épingler une dépendance qui n'a pas encore de wheel pour Python 3.15 — l'exemple du jour échoue sur watchfiles==1.1.1, PyO3 ne supportant pas au-delà de la version 3.14. Supprimer le fichier puis relancer uv run pytest règle généralement le problème.",
+      "tags": [
+        "dev",
+        "open-source"
+      ],
+      "importance": 2,
+      "source": "Simon Willison",
+      "lien_source": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+      "date_source": "2026-11-01T23:24:22+00:00",
+      "date_redac": "2026-11-02T01:27:15+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 791,
+        "sortie": 547
+      }
+    },
+    {
+      "id": "68cd21d1faccb062",
+      "slug": "qwen-3-8-flash-next-en-nvfp4-2-a-3x-plus-de-prefill-hors-windows-68cd21",
+      "titre": "Qwen 3.8 Flash Next en NVFP4 : 2 à 3x plus de prefill hors Windows",
+      "resume": "Sur r/LocalLLaMA, un utilisateur fait tourner Qwen 3.8 Flash Next en NVFP4 sur 64 Go de RAM et une RTX 5090, via Basalt, un fork spécialisé. Sous Windows 11, 1,5 Go de VRAM et 6 Go de RAM sont absorbés par le système : les experts débordent vers la RAM et le CPU, et prefill comme decode chutent de 70 %. Passé à cachy, il atteint près de 9K de prefill, un gain de 2 à 3x qu'il attribue à ninfer et au modèle dense 27b. Il juge la qualité supérieure à qwen 27b sur de nombreuses tâches.",
+      "tags": [
+        "matériel",
+        "open-source",
+        "dev"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xlicia/qwen_38_flash_next_nvfp4_on_64gb_ram_and_5090/",
+      "date_source": "2026-11-01T23:56:49+00:00",
+      "date_redac": "2026-11-02T01:27:11+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 894,
+        "sortie": 664
+      }
+    },
+    {
+      "id": "ad43f2dab6efd2b7",
+      "slug": "deepseek-v4-1-flash-en-local-sur-un-gpu-gaming-demarrage-d-agent-20-pl-ad43f2",
+      "titre": "DeepSeek V4.1 Flash en local sur un GPU gaming, démarrage d'agent 20× plus rapide",
+      "resume": "Un utilisateur de r/LocalLLaMA fait tourner DeepSeek V4.1 Flash en 1M de contexte, entièrement hors ligne via Strata, sur une RX 9070 XT 16 Go, un 5800X3D, 64 Go de DDR4 et un NVMe PCIe 3.0 — les experts étant répartis entre VRAM, RAM et SSD. La génération à ~7 tok/s lui convenait ; le point noir était la lecture du prompt : chaque session OpenCode relisait ~37K tokens de prompt système et d'outils, soit environ 100 s avant le premier token. Il a donc patché le moteur DeepSeek, avec deux changements, pour accélérer d'un facteur 20 le démarrage des sessions d'agent. La réponse, ironique, à Sam Altman qui jugeait « assez terrible » de laisser de la DRAM mondiale dormir dans les ordinateurs personnels.",
+      "tags": [
+        "deepseek",
+        "matériel",
+        "agents",
+        "dev"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/",
+      "date_source": "2026-11-02T00:44:53+00:00",
+      "date_redac": "2026-11-02T01:27:07+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 920,
+        "sortie": 898
+      }
+    },
+    {
+      "id": "d9547d6ea06fa732",
+      "slug": "sur-r-localllama-le-debat-sur-les-posts-de-records-de-vitesse-d9547d",
+      "titre": "Sur r/LocalLLaMA, le débat sur les posts de records de vitesse",
+      "resume": "Sur r/LocalLLaMA, un membre s'interroge sur la multiplication des posts annonçant des records de vitesse de génération, à 300 tokens par seconde. Il pointe des réglages très particuliers : quantification Q1_XXXS REAP, décodage greedy, TAIL_SKIP, et des modèles dont une partie des experts reste hors de la RAM disponible. L'absence de données de benchmark KLD lui fait douter de la valeur réelle de ces annonces pour la communauté.",
+      "tags": [
+        "open-source",
+        "dev",
+        "recherche"
+      ],
+      "importance": 2,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xljjf2/do_we_really_need_all_these_speed_posts/",
+      "date_source": "2026-11-02T00:52:40+00:00",
+      "date_redac": "2026-11-02T01:26:54+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 737,
+        "sortie": 470
+      }
+    },
+    {
+      "id": "cc16020be71629f3",
+      "slug": "un-outil-cle-en-main-pour-passer-d-un-ebook-a-l-audiobook-la-question--cc1602",
+      "titre": "Un outil clé en main pour passer d'un ebook à l'audiobook ? La question sur r/LocalLLaMA",
+      "resume": "Un utilisateur de r/LocalLLaMA cherche une application clé en main capable de convertir un ebook entier en livre audio, avec des chapitres bien délimités. Il note que les modèles TTS ne manquent pas, pas plus que les frameworks comme audio.cpp ou les interfaces prototypes, mais qu'aucun outil abouti et maintenu ne semble exister à la manière d'ElevenReader. La contrainte posée est claire : l'application devrait s'appuyer sur des modèles open source exécutés en local.",
+      "tags": [
+        "open-source",
+        "dev"
+      ],
+      "importance": 2,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xljn4e/turnkey_app_for_ebook_to_audio_book/",
+      "date_source": "2026-11-02T00:57:43+00:00",
+      "date_redac": "2026-11-02T01:26:50+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 698,
+        "sortie": 348
+      }
+    },
+    {
+      "id": "bc0ad33ed60d9484",
+      "slug": "lfm3-omni-2b-liquid-ai-fait-tourner-son-modele-dans-le-navigateur-via--bc0ad3",
+      "titre": "LFM3 Omni 2B : Liquid AI fait tourner son modèle dans le navigateur via WebGPU",
+      "resume": "Liquid AI a présenté LFM3 Omni 2B, son nouveau modèle omni, en démonstration directement dans un navigateur grâce à WebGPU. La vidéo de la démo provient de leur propre espace Hugging Face. L'intérêt : une exécution locale, côté navigateur, sans dépendre d'une infrastructure serveur distante.",
+      "tags": [
+        "dev",
+        "matériel"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk2kb/lfm3_omni_2b_is_incredible/",
+      "date_source": "2026-11-02T01:17:50+00:00",
+      "date_redac": "2026-11-02T01:26:47+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 653,
+        "sortie": 651
+      }
+    },
+    {
+      "id": "280ad4175800b6a8",
+      "slug": "survival-llm-une-ia-hors-ligne-pour-les-situations-d-urgence-280ad4",
+      "titre": "Survival LLM, une IA hors ligne pour les situations d'urgence",
+      "resume": "Survival LLM est un assistant gratuit qui fonctionne entièrement sur votre ordinateur, sans connexion à Internet. Il répond aux questions de premiers secours ou de survie en s'appuyant sur une bibliothèque de références embarquée. L'intérêt : disposer d'une IA quand le réseau tombe, en cas de panne de courant ou de situation d'urgence.",
+      "tags": [
+        "sécurité",
+        "société"
+      ],
+      "importance": 2,
+      "source": "Numerama",
+      "lien_source": "https://www.numerama.com/tech/2364545-concu-pour-les-situations-durgence-cette-ia-hors-ligne-veut-vous-aider-a-survivre-a-la-fin-du-monde-ou-au-moins-a-une-panne-de-courant.html",
+      "date_source": "2026-11-01T19:30:00+00:00",
+      "date_redac": "2026-11-01T21:56:18+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 701,
+        "sortie": 467
+      }
+    },
+    {
+      "id": "6a13d199d8477eb8",
+      "slug": "tandem-cpp-accelere-les-modeles-moe-trop-gros-pour-la-vram-6a13d1",
+      "titre": "tandem.cpp accélère les modèles MoE trop gros pour la VRAM",
+      "resume": "tandem.cpp, jeu de patches pour llama.cpp, accélère les modèles MoE trop gros pour la VRAM : les experts les plus utilisés restent sur le GPU, le CPU prend le reste. Ciblé sur le décodage mono-utilisateur, il est réglé pour Qwen3.8. Sur i5-12400F, 64 Go DDR4 et RTX 4090, Qwen3.8-Flash-Next passe de 29,8 à 97,3 tok/s sur GSM8K (3,3×). Les autres MoE y gagnent 1,4 à 2,1×.",
+      "tags": [
+        "open-source",
+        "dev",
+        "matériel"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xldent/tandemcpp_qwen38flashnext_at_97_toks_on_a_single/",
+      "date_source": "2026-11-01T20:23:50+00:00",
+      "date_redac": "2026-11-01T21:56:15+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 958,
+        "sortie": 1236
+      }
+    }
+  ]
+}

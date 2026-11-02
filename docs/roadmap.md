@@ -1,5 +1,40 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## État courant — 2 novembre 2026, revue du soir
+
+**Cette section remplace les statuts du bilan différé conservé plus bas.** Départ du job à 21:06 CET ; fenêtre Git/créations GitHub figée à **22:25:29 CET** (`01/11 23:00:00 → 02/11 21:25:29 UTC`). HTTPS à **22:26:45–22:26:47 CET**, non antidaté. Pull partagé **refusé (128)** : rebase sur `2cf3178`, six fichiers non fusionnés et journal indexé, préservés. Worktree documentaire propre sur **`8c3208df3124ac61afa94ec52a0677e7a82a40dc`**, pull réussi ici seulement.
+
+**Verdict :** 19 commits ; **13 runs = deux succès, dix annulations, un en cours**. Huit annulations pendant pipeline avec sauvegarde ignorée, deux sans job. Descendant `41516086422` réussi : **277 tests, 2 243 envois, sauvegarde `e0ee7cb`**. Trois préparations privées, **1 413 références conformes**, aucun outil d’exploitation activé. **569 IP estimées le 01/11 ; ventes/cumul indisponibles (OAuth)**. Aucun déploiement, cron ou envoi déclenché par cette revue.
+
+| Chantier | Statut vérifié le 02/11 au soir | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | 🔶 **21 URL News uniques dans les 48 h sur 22 entrées** ; build 20:10:02 UTC. **498 articles Git = 498 URL individuelles au sitemap**, sans lire tous les HTML. Ollama puis Codex ajoutés : **26 flux**, OPML exact en HTTPS | **03/11 :** contrôler la cohérence local/cloud ; ne pas réintégrer les sources. Sitemap/fraîcheur ≠ indexation ; GSC/Bing non nouvellement attestés. [Codex](source-codex.md) |
+| P2 — Site | 🔶 Auteur JSON-LD `da1de68`, 273 Python + huit Node consignés. Descendant cloud réussi ; **8/8 pages conformes** ce soir contre 7/8 au matin, mais contrôle exhaustif restant | **03/11 :** clôturer les cibles auteur encore anciennes au préflight, sans refaire le code ; puis requalifier le **sommaire préparé**, non intégré. [Dossier](auteur-jsonld.md) |
+| P3 — Podcast | 🔶 Épisode du 2 publié, 129,984 s mesurées par le chantier. Ce soir : **779 904 octets MP3 identiques à Git**, page/RSS 200, **15 GUID**. Passage du soir silencieux, sans deuxième édition | **03/11 :** préserver l’idempotence ; durée/transfert et sauvegarde après annulation restent ouverts malgré le repli SFTP. Chaîne/annuaires non attestés. [Preuves](podcast.md) |
+| P4 — Newsletter | 🔶 Aucun premier numéro ni décompte courant d’abonnés attesté par les sorties du jour ; dernier hebdo du 27 silencieux | **Avant le passage du 03/11 :** vérifier abonnés confirmés, consentement, expéditeur et désinscription. Pas de lancement déduit du formulaire |
+| P5 — Monétisation | 🔴 **401 Stripe jusqu’à la veille de 22:23** ; ventes/cumul indisponibles. Pack 14 € testé sans transaction ; écart de nom marchand confirmé, correction non appliquée. B2B 200/mentions 404 | **Action humaine unique : réautoriser Stripe.** Puis lecture live/attribution ; vendeurs et prérequis commerciaux non validés. Aucun renommage global du compte partagé ni prospection. [Limites](monetisation.md) |
+| P6 — Presse / distribution | 🔶 Post SHA-256 `3mzcujcddsa22` public, relu ce soir. Courrier DNS en erreur au matin puis deux silences ; distribution/partenariats/piaille sans nouvel accord attesté | **Semaine du 02 : suivi seulement sur Bluesky**, quota promotionnel consommé. Ne pas renvoyer invitations/permissions ; silence ≠ approbation |
+| P7 — Record | 🔴 Tournée d’octobre terminée, relue et tag vérifié par la gouvernance du matin : 31/31 jours, 683 runs exportés, `archive-2026-10`. Deux anomalies historiques demeurent | **03/11 :** qualifier traitement des anomalies et sauvegarde durable ; aucune nouvelle tournée, réparation rétroactive ou signature |
+| P8 — Skool | 🔶 Post en quatre blocs, promo semaine 45 et rétro préparés selon leurs sorties ; aucune publication déduite. **18/22 ancien**, non recompté | **Prochaine session authentifiée :** réconcilier roadmap, M6, membres et posts. Brouillons ≠ activité communautaire ; aucune panne de connexion déduite de l’ancien état |
+| P9 — Organisation / exploitation | 🔴 Trois préparations, **1 413 références intactes** ; recettes parent 61/63/48 tests et 96 contrôles navigateur, non rejouées ici. Wrapper inchangé. Sortie locale achevée le 02 mais « Run local 31/10 », refus pull/sauvegarde malgré cron `ok` | **Priorité du 03 :** préserver/reprendre Git, garde minimale complète et code de sortie éprouvé dans le vrai cron ; ensuite sauvegarde durable et concurrence. Patch 01 seul insuffisant. **4 065 288 192 octets libres** au relevé, copies à borner |
+| P10 — Affiliation / hub | 🔶 Parcours Hermes clarifié et corrigé mobile (`e226b67`, `a02cd2e`), 277 tests et parcours publics consignés ; kits inchangés selon le chantier. Aucun programme ou commission activé | **03/11 :** suivre les retours sans republier ; divulgation et restauration réelle du kit distinctes du ZIP vérifié. Skool payant non décidé, aucune deuxième demande humaine groupée |
+
+### Une seule action humaine — réautoriser Stripe
+
+**Message exact :** « Maël, lance `hermes mcp login stripe --flow browser` et approuve la reconnexion Stripe dans le navigateur. L’accès renvoie 401 : les ventes du Crabe ne sont plus vérifiables. »
+
+KPI, hebdo, monétisation et trois veilles concordent, dernière sortie à 22:23 ; aucun rétablissement ultérieur attesté. Aucun nouvel appel Stripe ni flux interactif ici. Après reconnexion, attribution du cumul et configuration live restent à contrôler ; solde ou paiement non attribué ≠ CA du projet.
+
+**L’email URGENCE à l’adresse d’escalade convenue doit partir si ce blocage empêche le pilotage financier.** Texte et destinataire exacts dans `crabe-chantiers/gouvernance/2026-11-02/revue-soir/escalade-mael.txt`, hors dépôt public ; **préparé, non envoyé**, livraison locale uniquement, jamais Discord. Vendeur/TVA, mentions/conditions, droits/données, capacité et reversement restent des prérequis cumulatifs, sans deuxième demande ni accord du silence.
+
+[Bilan détaillé du soir](ceo-log.md#2026-11-02--bilan-du-soir-publication-reprise-exploitation-fragile). Les critères de fin du mandat et des phases restent ceux conservés ci-dessous.
+
+---
+
+## État antérieur — bilan du 31 octobre observé le 2 novembre au matin
+
+Les statuts suivants sont historiques ; l’état courant et le relais du 3 novembre figurent ci-dessus.
+
 **Bilan prévu le 31/10/2026 à 21 h CET, exécuté en rattrapage le 02/11.** Le scheduler atteste le départ différé à **09:01 CET le 02/11**. Période principale : **31/10, journée locale complète**, soit `[30/10 23:00, 31/10 23:00)` UTC ; compléments du 01/11 et observations du 02/11 séparés, jamais antidatés. Base de contrôle **`6530893de6c2296a60b19058df79b90e6494c38f`**, API à 09:12–09:14 et HTTPS à 09:13–09:16. Pull partagé `--ff-only` refusé (128) : **cinq commits locaux distincts, 131 distants et données modifiées** au relevé, mais plus de fichiers non fusionnés observés. Ce n’est pas une synchronisation réussie. Livraison documentaire en worktree propre ; pull réussi ici seulement jusqu’à **`2844caf528e3b803365a8dcb17ffa51bc1135a7e`** à 09:17, pour inclure la tournée mensuelle arrivée entre-temps.
 
 **Verdict :** le 31, **sept commits et 13 runs : six succès, sept annulations pendant pipeline avec sauvegarde ignorée**. Le 01/11 : cinq runs, un succès/quatre annulations du même type. Média et PDS accessibles au contrôle du 02 ; **497 articles Git présents dans le sitemap**, sans lecture exhaustive des HTML. Podcast du 30, source LangChain et information d’audience livrés en fin de journée du 30, pas de nouvelles fonctions attribuées au 31. **899 IP estimées le 31, 569 le 01/11**, média + hub ; ventes/cumul indisponibles, refus OAuth récents. Priorités internes : refus du pull réellement bloquant, propagation des erreurs, préservation Git puis sauvegarde/reprise cloud. **Une seule action humaine : réautoriser Stripe.** Aucun déploiement, envoi ni relance déclenché par cette revue.

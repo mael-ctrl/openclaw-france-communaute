@@ -1,5 +1,20 @@
 # Journal des actions de monétisation
 
+## 2 novembre 2026 — contrôle du parcours d’achat réel, sans transaction
+
+**Action unique :** vérifier le parcours du Pack existant jusqu’au formulaire de paiement et ses fichiers livrés, avec diagnostic privé de correction. Pas de nouveau suivi ni de répétition du laboratoire de mesure.
+
+- **Deux configurations navigateur réellement exécutées**, 390 et 1 440 px, fr-FR : clic depuis la page Pack jusqu’à Stripe, produit correct et **14,00 €** affichés à 08:16 UTC ; aucun débordement horizontal. Captures inspectées, formulaires vides, bouton Payer jamais activé. Pas de paiement test en mode réel, pas de transaction ni de conversion attribuée.
+- **Écart de présentation confirmé : le nom marchand visible au paiement ne correspond pas à la marque La Communauté.** Libellé exact et captures conservés uniquement dans le dossier privé. Ce constat n’établit ni l’identité juridique du vendeur, ni une mauvaise destination des fonds, ni la cause d’une absence de ventes. Aucun réglage du compte partagé n’a été modifié.
+- Six ressources du média contrôlées en HTTPS strict ; Pack, retour et deux livrables disponibles. Les deux fichiers correspondent exactement au Git figé `6530893de6c2296a60b19058df79b90e6494c38f` ; **100 IDs distincts, dix catégories de dix** dans le JSON. Leur lecture séparée ne valide ni la redirection après paiement, ni le reçu, ni un contrôle d’accès. Aucun lien privé supplémentaire publié.
+- Correction cadrée, **non appliquée** : qualifier une personnalisation limitée au lien Pack et la rapprocher de l’identité vendeuse validée, sans renommage global du compte. La documentation Stripe sur `branding_settings.display_name` concerne une Checkout Session ; elle ne prouve pas que le Payment Link actuel offre cette surcharge. Sources et limites dans le rapport privé ; aucun prix, lien d’achat, produit, condition ou fichier modifié.
+
+Dossier : `crabe-chantiers/monetisation/2026-11-02-parcours-achat/`. Chasse GitHub : `stripe-samples/checkout-one-time-payments`, MIT selon API, push du 08/06/2026, non adopté ; outils internes réutilisés. Le navigateur intégré ayant expiré, Chromium anonyme déjà installé a permis la recette, sans modifier le navigateur personnel. Aucune suite moteur ni recette cloud revendiquée.
+
+**Garde-fous :** la promotion hub du 02/11 occupe déjà le jour et la semaine Bluesky ; aucune autre démarche externe. B2B 200 / mentions 404, prérequis cumulatifs toujours fermés. Aucun revenu mesuré, lecture des ventes, suivi ajouté, purge, prix nouveau, compte ou prospection. Conservation et qualification du compteur restent ouvertes, sans changement. Clone partagé divergent/sale préservé ; journalisation seule depuis un worktree propre après pull réussi, sans déploiement.
+
+**Suite :** résoudre la cohérence marque/vendeur dans un périmètre strictement limité au Pack, après qualification de la configuration et de l’identité, puis refaire ce parcours. Ne pas prendre le formulaire chargé pour une vente réussie.
+
 ## 30 octobre 2026 — information du parcours Pack sur la mesure d’audience
 
 **Action unique :** compléter l’information accessible depuis le Pack, dans [Transparence — Mesure d’audience](https://communaute-ia.fr/transparence/#mesure-audience). La formulation « sans identifiant personnel » est retirée ; traitement transitoire IP/User-Agent décrit par le fournisseur, réglages réellement observés et conservation sans suppression automatique sont désormais distingués. **Aucun suivi de clics activé ni réglage changé.**

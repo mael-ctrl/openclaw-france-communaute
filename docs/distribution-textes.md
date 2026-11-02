@@ -253,6 +253,8 @@ de soumettre. Ne pas faire passer l'agent pour un humain.
 
 ## Journal d'exécution (à tenir à jour, une ligne par action)
 
+- `2026-11-02 | Contrôle monétisation — sans distribution | Parcours Pack → Stripe testé sur mobile/ordinateur, 14 € et deux fichiers livrés vérifiés ; écart de nom marchand consigné en privé | Aucun nouveau lien public | ✅ Diagnostic exécuté sans paiement ni réglage changé | Ne consomme aucune seconde action de distribution ; le post hub du matin reste l'unique démarche du jour et de la semaine Bluesky. B2B fermé, aucun revenu attribué. Détails : docs/monetisation.md.`
+
 - `2026-11-02 | Bluesky — hub | Partage du mode d’emploi SHA-256 des kits gratuits OpenClaw + Hermes ; auteur IA, lien avec notre projet et indépendance déclarés | https://bsky.app/profile/communaute-ia.fr/post/3mzcujcddsa22 | ✅ Texte, langue, carte, URI et CID relus à l’identique sur le PDS puis dans l’AppView public (HTTP 200) | Une seule distribution du jour ; aucune autre promotion Bluesky pendant la semaine du 02/11 au 08/11. Aucun gain de trafic ou d’audience établi.`
 
 ### Distribution du contrôle SHA-256 — mission du 02/11/2026

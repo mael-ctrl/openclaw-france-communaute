@@ -1,5 +1,130 @@
 [
  {
+  "id": "61fa61a53ae1badb",
+  "slug": "llm-0-37-nouveaux-modeles-endpoints-openai-et-embeddings-multimodaux-61fa61",
+  "titre": "llm 0.37 : nouveaux modèles, endpoints OpenAI et embeddings multimodaux",
+  "resume": "Simon Willison publie LLM 0.37, son outil en ligne de commande et bibliothèque Python. Une commande llm openai endpoint add facilite la configuration d'endpoints compatibles OpenAI, et deux modèles arrivent : gpt-6.1-sol et gpt-6.1-terra. Le modèle par défaut passe à gpt-6-luna, moitié moins cher que gpt-5.6-luna. Les embeddings acceptent désormais plusieurs content-type, ce qu'exige Gemini Embedding 2.",
+  "tags": [
+   "dev",
+   "open-source",
+   "openai",
+   "gemini"
+  ],
+  "importance": 3,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Nov/2/llm/",
+  "date_source": "2026-11-02T23:49:30+00:00",
+  "date_redac": "2026-11-03T00:38:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 826,
+   "sortie": 1250
+  }
+ },
+ {
+  "id": "230703540ad4c9ee",
+  "slug": "trajectory-leve-45-m-pour-ouvrir-l-entrainement-de-modeles-aux-non-tec-230703",
+  "titre": "Trajectory lève 45 M$ pour ouvrir l'entraînement de modèles aux non-techniciens",
+  "resume": "Trajectory, startup créée il y a un an, lève 45 millions de dollars. Objectif affiché : rendre l'entraînement des modèles d'IA accessible à des experts non techniques. L'opération valorise l'entreprise à 300 millions de dollars.",
+  "tags": [
+   "business",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+  "date_source": "2026-11-02T23:13:53+00:00",
+  "date_redac": "2026-11-03T00:38:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 619,
+   "sortie": 1105
+  }
+ },
+ {
+  "id": "90b125f397b19789",
+  "slug": "legora-l-ia-pour-avocats-des-evals-sans-traces-aux-revues-tabulaires-90b125",
+  "titre": "Legora : l'IA pour avocats, des evals sans traces aux revues tabulaires",
+  "resume": "Dans un entretien pour Latent Space, Jacob Lauritzen, CTO de Legora, détaille la construction d'outils d'IA destinés aux avocats. Au programme : des évaluations menées sans traces, des revues tabulaires à un million de cellules, et les fissures d'un modèle économique fondé sur l'heure facturable.",
+  "tags": [
+   "business",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Latent Space",
+  "lien_source": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
+  "date_source": "2026-11-02T23:01:02+00:00",
+  "date_redac": "2026-11-03T00:38:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 614,
+   "sortie": 581
+  }
+ },
+ {
+  "id": "8f930d91a4da3586",
+  "slug": "legora-construire-des-agents-juridiques-sans-voir-leurs-traces-8f930d",
+  "titre": "Legora : construire des agents juridiques sans voir leurs traces",
+  "resume": "Legora développe des agents pour les avocats, mais ne peut consulter aucune trace de leur travail : les données appartiennent aux clients des cabinets. Jacob Lauritzen, CTO de l'entreprise, explique dans Latent Space comment on construit et teste un agent quand on ne voit pas ce qu'il fait. Legora figure parmi les entreprises à la croissance la plus rapide du secteur.",
+  "tags": [
+   "agents",
+   "business",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Latent Space",
+  "lien_source": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
+  "date_source": "2026-11-02T22:54:03+00:00",
+  "date_redac": "2026-11-03T00:39:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 673,
+   "sortie": 426
+  }
+ },
+ {
+  "id": "f63fa3955a81a582",
+  "slug": "qwen-3-8-27b-detourne-blender-pour-coder-ses-calculs-de-physique-f63fa3",
+  "titre": "Qwen 3.8 27b détourne Blender pour coder ses calculs de physique",
+  "resume": "Sur r/LocalLLaMA, un utilisateur a soumis à Qwen 3.8 27b un problème de physique impliquant des mathématiques lourdes. En cours de raisonnement, le modèle a inspecté ses outils, découvert un accès à Blender via blender mcp et la possibilité d'y exécuter du code Python arbitraire. Il s'en est servi pour s'écrire des bouts de code et faire ses calculs plus vite. L'auteur dit n'avoir jamais vu ça de la part d'un modèle local.",
+  "tags": [
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbym0/qwen_38_27b_is_sometimes_so_smart_it_scares_me/",
+  "date_source": "2026-11-02T22:42:11+00:00",
+  "date_redac": "2026-11-03T00:39:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 736,
+   "sortie": 513
+  }
+ },
+ {
+  "id": "531a2260e7faba96",
+  "slug": "langchain-propose-des-agents-deep-manages-en-beta-privee-531a22",
+  "titre": "LangChain propose des agents « deep » managés en bêta privée",
+  "resume": "LangChain annonce Managed Deep Agents, une offre pour faire tourner des agents « deep » en production sans avoir à construire soi-même le runtime. Le service embarque l'exécution durable, des sandboxes, l'accès aux outils et l'observabilité via LangSmith. Il est pour l'instant disponible en bêta privée.",
+  "tags": [
+   "agents",
+   "dev",
+   "business"
+  ],
+  "importance": 3,
+  "source": "LangChain (blog officiel)",
+  "lien_source": "https://www.langchain.com/blog/introducing-managed-deep-agents",
+  "date_source": "2026-11-02T22:28:13+00:00",
+  "date_redac": "2026-11-03T00:39:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 615,
+   "sortie": 313
+  }
+ },
+ {
   "id": "bd3e7d884178a325",
   "slug": "le-new-york-times-attaque-le-navigateur-brave-pour-moissonnage-de-cont-bd3e7d",
   "titre": "Le New York Times attaque le navigateur Brave pour moissonnage de contenus",

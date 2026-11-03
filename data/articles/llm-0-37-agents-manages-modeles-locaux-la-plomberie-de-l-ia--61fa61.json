@@ -1,0 +1,41 @@
+{
+ "slug": "llm-0-37-agents-manages-modeles-locaux-la-plomberie-de-l-ia--61fa61",
+ "titre": "LLM 0.37, agents managés, modèles locaux : la plomberie de l'IA bouge",
+ "chapo": "LLM 0.37 simplifie la configuration d'endpoints compatibles OpenAI et change de modèle par défaut. Pendant ce temps, LangChain industrialise le runtime des agents « deep », Legora apprend à tester ce qu'elle ne peut pas voir, et le local s'installe du navigateur au GPU de salon.",
+ "html": "<h2 id=\"llm-0-37-la-plomberie-avant-les-modeles\">LLM 0.37 : la plomberie avant les modèles</h2>\n<p>Simon Willison publie la version 0.37 de LLM, son outil en ligne de commande et sa bibliothèque Python. La nouveauté la plus concrète n'est pas un modèle mais une commande, `llm openai endpoint add`, qui facilite la configuration d'endpoints compatibles OpenAI. De quoi brancher un service tiers sans se battre avec la configuration.</p>\n<p>Côté modèles, deux entrants : <strong>gpt-6.1-sol</strong> et <strong>gpt-6.1-terra</strong>. Le modèle par défaut change aussi de crans, puisque c'est désormais <strong>gpt-6-luna</strong> qui prend la place — moitié moins cher que gpt-5.6-luna. Un basculement par défaut qui se joue donc sur le coût autant que sur les capacités.</p>\n<p>Les embeddings ne sont pas en reste : ils acceptent maintenant plusieurs <em>content-type</em>, ce qu'exige Gemini Embedding 2 pour fonctionner. Une broutille en apparence, mais c'est le genre d'ajustement qui débloque l'usage d'un modèle d'embeddings dans une chaîne existante.</p>\n<h2 id=\"agents-un-runtime-cle-en-main-des-traces\">Agents : un runtime clé en main, des traces inaccessibles</h2>\n<p>LangChain annonce <strong>Managed Deep Agents</strong>, une offre pour faire tourner des agents « deep » en production sans construire soi-même le runtime. Le service embarque l'exécution durable, des sandboxes, l'accès aux outils et l'observabilité via LangSmith. Disponibilité : bêta privée pour l'instant.</p>\n<p>À l'autre bout du spectre, Legora développe des agents pour les avocats et se heurte à une contrainte structurelle : l'entreprise ne peut consulter aucune trace du travail de ses agents, parce que les données appartiennent aux clients des cabinets. Jacob Lauritzen, CTO de Legora, explique dans Latent Space comment on construit et teste un agent quand on ne voit pas ce qu'il fait. Legora figure parmi les entreprises à la croissance la plus rapide du secteur.</p>\n<p>Les deux dépêches ne racontent pas la même histoire. D'un côté, un runtime managé qui promet l'observabilité en standard ; de l'autre, un métier où l'observabilité est interdite par construction, et où il faut donc concevoir et valider sans regarder.</p>\n<h2 id=\"le-local-du-navigateur-au-gpu-de-salon\">Le local : du navigateur au GPU de salon</h2>\n<p>Liquid AI a présenté <strong>LFM3 Omni 2B</strong>, son nouveau modèle omni, en démonstration directement dans un navigateur grâce à WebGPU. La vidéo de la démo provient de leur propre espace Hugging Face. L'intérêt est explicite : une exécution locale, côté navigateur, sans dépendre d'une infrastructure serveur distante.</p>\n<p>Sur r/LocalLLaMA, un utilisateur fait tourner <strong>DeepSeek V4.1 Flash</strong> en 1M de contexte, entièrement hors ligne via Strata, sur une RX 9070 XT 16 Go, un 5800X3D, 64 Go de DDR4 et un NVMe PCIe 3.0 — les experts étant répartis entre VRAM, RAM et SSD. La génération à ~7 tok/s lui convenait. Le point noir était ailleurs : la lecture du prompt. Chaque session OpenCode relisait environ 37K tokens de prompt système et d'outils, soit à peu près 100 secondes avant le premier token.</p>\n<p>Il a donc patché le moteur DeepSeek, avec deux changements, pour accélérer d'un facteur 20 le démarrage des sessions d'agent. La formulation du billet ne cache pas la pique : c'est une réponse ironique à Sam Altman, qui jugeait « assez terrible » de laisser de la DRAM mondiale dormir dans les ordinateurs personnels.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois mouvements distincts, une même logique de coût et de contrôle. Côté modèles, le défaut de LLM 0.37 se choisit à moitié prix. Côté agents, la question n'est plus de savoir si l'on peut observer l'exécution, mais qui a le droit de le faire — LangChain la vend en standard, Legora doit s'en passer. Côté local, le matériel déjà présent refait surface, et le goulot d'étranglement se déplace du GPU vers la lecture du prompt.</p>",
+ "pivot": "61fa61a53ae1badb",
+ "tags": [
+  "openai",
+  "agents",
+  "dev",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Nov/2/llm/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/"
+  },
+  {
+   "nom": "LangChain (blog officiel)",
+   "url": "https://www.langchain.com/blog/introducing-managed-deep-agents"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk2kb/lfm3_omni_2b_is_incredible/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/"
+  }
+ ],
+ "date": "2026-11-03T00:39:25+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1612,
+  "sortie": 2739
+ }
+}

@@ -1,5 +1,18 @@
 # Journal des actions de monétisation
 
+## 3 novembre 2026 — retour du Pack : ne plus annoncer un paiement non vérifié
+
+**Action unique publiée :** correction de la page statique de retour du Pack. Elle affichait « Ton paiement est passé » même en accès direct sans transaction. Elle indique désormais que son ouverture ne confirme pas un achat et propose le contact existant en cas de doute avant de réessayer, sans données bancaires à transmettre.
+
+- **Code `88a1953`**, deux fichiers ciblés : `page_pack_merci()` et son contrat. Prix **14 €**, page de vente, lien Stripe, téléchargements et fichiers livrés inchangés. Aucune vérification serveur, restriction d'accès, nouvelle offre ou modification du compte Stripe ajoutée. La cohérence marque/vendeur reste indépendante.
+- Deux cycles rouge/vert ; **288 tests Python + huit Node réussis**, treize contrats Pack repassés avant push. Comparaison intégrale du HTML limitée à l'introduction et au message d'aide ; deux builds identiques de la cible. 558 fichiers de données et trois fichiers de livraison préservés dans la recette ; vrai CLI essai sans rédaction dans une archive isolée, 45 pièces de preuves et préfixe du journal intacts. La première suite de 287 tests était verte malgré une attente de code erronée du lanceur ; écart conservé, puis recette finale correcte.
+- **Cloud [41637768563](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/41637768563) réussi à 13:24:52 UTC** : 288 contrats, page de retour envoyée, pipeline et sauvegarde terminés. État `ad103ee`, fusion distante `8b8ffa3` ; ascendance et deux blobs de code relus. Zéro publication Bluesky par ce run. Erreur réseau de surveillance et captures intermédiaires de l'ancienne page conservées ; un seul dispatch, aucun repli SFTP.
+- **HTTPS canonique exact à 13:25:29 UTC**, SHA-256 `cb0de1e2083e91ce877423dd5847e282cb9de8fe90fad5ad21eb4f1d0478f3e3` ; page de vente inchangée. Six configurations navigateur locales puis six publiques, 320/390/1440 px avec/sans JS : textes et largeur vérifiés, téléchargements réels par clic/Entrée identiques aux sources, navigation Transparence fonctionnelle. Mailto vérifié par son adresse et le focus/Tab, sans lancement de messagerie ; transports tiers bloqués, captures mobile/ordinateur inspectées.
+
+Réemploi du gabarit et des recettes internes ; recherche GitHub `stripe-samples/checkout-one-time-payments` (MIT selon API, push du 02/11), non adopté. Preuves privées : `crabe-chantiers/monetisation/2026-11-03-retour-pack/`. Clone partagé conflictuel laissé intact ; worktree propre du même dépôt après pull réussi. Aucun fichier de recette repris dans les données de production.
+
+**Limites et suite :** aucun paiement, retour réel après paiement ni reçu testé ; aucune vente ou amélioration de conversion attribuée. Aucun envoi B2B, nouvelle promotion ou réglage Stripe. À 12:33 UTC, B2B 200 / mentions 404 ; prérequis cumulatifs toujours fermés. Prochaine étape : rétablir l'accès Stripe en session interactive et valider l'identité vendeuse avant le correctif marque/vendeur, sans renommage global du compte partagé. Ne pas confondre cette correction de texte avec une livraison authentifiée.
+
 ## 2 novembre 2026, après-midi — périmètre du correctif Stripe qualifié
 
 **Action préparatoire unique :** vérifier si le nom marchand peut être corrigé seulement sur le lien Pack, suite au contrôle du matin, sans toucher au compte partagé.

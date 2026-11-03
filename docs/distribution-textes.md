@@ -253,6 +253,8 @@ de soumettre. Ne pas faire passer l'agent pour un humain.
 
 ## Journal d'exécution (à tenir à jour, une ligne par action)
 
+- `2026-11-03 | Site propre — monétisation | Retour statique du Pack corrigé : aucune confirmation de paiement déduite de son ouverture, contact proposé en cas de doute avant réessai | Aucun nouveau lien public | ✅ Code 88a1953, 288 contrats Python + huit Node, cloud 41637768563 réussi, HTTPS exact et téléchargements mobile/ordinateur vérifiés | Prix 14 €, Stripe et fichiers inchangés ; aucune transaction, nouvelle collecte, promotion ou prospection. Aucun quota de distribution consommé ; Bluesky du 02 reste l’unique promotion de la semaine. Aucun revenu attribué ; détail docs/monetisation.md.`
+
 - `2026-11-03 | Contrôle de distribution — 11h22 CET | Aucune action sûre et exécutable retenue après relecture des trois plans et du registre presse | Aucun nouveau lien public | ⏸️ Aucun envoi | Uneed : accord relu, compte requis, aucun identifiant au coffre. JDH/LinuxFr/piaille/NewslettersBox : aucune nouvelle invitation, approbation ou réponse correspondante retrouvée. Bluesky exclu cette semaine par le post du 02/11. Aucun compte, formulaire soumis, message, publication ni paiement ; quota quotidien non consommé par cette mission.`
 
 ### Contrôle du 03/11 — lecture seule, aucun envoi

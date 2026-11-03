@@ -1,0 +1,41 @@
+{
+ "slug": "weight-space-programming-quand-les-llm-reecrivent-les-poids--692c79",
+ "titre": "« Weight Space Programming » : quand les LLM réécrivent les poids d'un réseau",
+ "chapo": "Des modèles de langage qui lisent et réécrivent directement les poids d'un réseau : c'est l'approche que relaie Latent Space sous le nom de « Weight Space Programming ». À côté, l'écosystème avance sur du plus concret : agents juridiques sans traces, runtimes managés, modèles ouverts sur du matériel de gamer.",
+ "html": "<h2 id=\"agir-sur-les-poids-pas-sur-les-prompts\">Agir sur les poids, pas sur les prompts</h2>\n<p>Latent Space relaie une approche où des modèles de langage lisent et écrivent directement les poids d'un réseau de neurones. Le nom donné à cette pratique : « Weight Space Programming ». On ne passe donc pas par des instructions ou des couches d'adaptation, mais par la matière première du modèle, ses poids eux-mêmes.</p>\n<p>L'exemple cité est concret : modifier les poids de Qwen pour réduire les boucles de raisonnement. Le comportement indésirable est traité là où il se fabrique, plutôt qu'en empilant des consignes en espérant que le modèle finisse par obéir.</p>\n<p>Latent Space situe l'intérêt de la démarche du côté de l'autoresearch : elle sortirait cette activité de la boucle RSI. Deux autres sujets figurent au sommaire de la même édition : un prototype de super-agent signé DeepSeek et le benchmark GDPx.</p>\n<h2 id=\"legora-construire-un-agent-sans-voir-ce-\">Legora : construire un agent sans voir ce qu'il fait</h2>\n<p>Legora développe des agents destinés aux avocats, avec une contrainte peu banale : l'entreprise ne peut consulter aucune trace de leur travail. Les données appartiennent aux clients des cabinets. Pas de logs à parcourir, pas de session à rejouer pour comprendre pourquoi l'agent a produit telle réponse.</p>\n<p>Jacob Lauritzen, CTO de Legora, explique dans Latent Space comment on construit et teste un agent dans ces conditions. C'est un angle rare : l'observabilité, présentée partout comme le socle de la mise en production, est ici structurellement hors de portée.</p>\n<p>Latent Space note que Legora figure parmi les entreprises à la croissance la plus rapide du secteur. La confidentialité des dossiers n'est donc pas un frein commercial, mais elle impose une méthode de validation qui se passe de la matière première habituelle.</p>\n<h2 id=\"langchain-industrialise-le-runtime-d-age\">LangChain industrialise le runtime d'agents</h2>\n<p>LangChain annonce Managed Deep Agents, une offre pour faire tourner des agents « deep » en production sans avoir à construire soi-même le runtime. Le service embarque l'exécution durable, des sandboxes, l'accès aux outils et l'observabilité via LangSmith.</p>\n<p>La disponibilité reste limitée : bêta privée. Mais le mouvement est clair — la brique d'exécution, longtemps bricolée projet par projet, devient un service que l'on consomme.</p>\n<p>Mis bout à bout avec le cas Legora, le sujet de l'observabilité apparaît sous deux jours opposés : outillage standardisé d'un côté, interdiction contractuelle de l'autre.</p>\n<h2 id=\"le-local-encaisse-sans-datacenter\">Le local encaisse, sans datacenter</h2>\n<p>Sur r/LocalLLaMA, un utilisateur fait tourner DeepSeek V4.1 Flash en 1M de contexte, entièrement hors ligne via Strata, sur une RX 9070 XT 16 Go, un 5800X3D, 64 Go de DDR4 et un NVMe PCIe 3.0 — les experts étant répartis entre VRAM, RAM et SSD. La génération à ~7 tok/s lui convenait. Le point noir était ailleurs : chaque session OpenCode relisait ~37K tokens de prompt système et d'outils, soit environ 100 s avant le premier token. Il a patché le moteur DeepSeek, avec deux changements, pour accélérer d'un facteur 20 le démarrage des sessions d'agent. Sa réponse, ironique, à Sam Altman qui jugeait « assez terrible » de laisser de la DRAM mondiale dormir dans les ordinateurs personnels.</p>\n<p>Un autre utilisateur détaille ses mesures sur une machine vieille de six ans : Gentoo Linux, Ryzen Threadripper 3990X, 128 Go de DDR4 et une seule RTX 3090 Ti de 24 Go. Il y fait tourner DeepSeek-V4.1-Flash-1017, un MoE de 552B, à 35 tok/s en décodage, et Qwen3.8-Flash-Next à 130 tok/s.</p>\n<p>Il note que cela fonctionne bien mieux qu'avec les modèles plus anciens d'il y a quelques mois. Le matériel n'a pas changé ; ce sont les modèles qui sont devenus exploitables sur ce type de configuration.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois fronts avancent en parallèle sans se croiser. La recherche explore les poids comme surface d'écriture directe ; les plateformes transforment le runtime d'agents en produit managé ; en bas, des configurations personnelles font tourner des MoE de plusieurs centaines de milliards de paramètres à quelques dizaines de tokens par seconde. Entre les deux extrêmes, le cas Legora rappelle qu'un agent peut être performant et invisible à ceux qui le construisent.</p>",
+ "pivot": "692c79acd8ad7a7f",
+ "tags": [
+  "recherche",
+  "agents",
+  "open-source",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/"
+  },
+  {
+   "nom": "LangChain (blog officiel)",
+   "url": "https://www.langchain.com/blog/introducing-managed-deep-agents"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/"
+  }
+ ],
+ "date": "2026-11-03T06:59:21+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1672,
+  "sortie": 2991
+ }
+}

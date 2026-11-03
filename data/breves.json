@@ -1,5 +1,131 @@
 [
  {
+  "id": "fea1bb6d9c44f79c",
+  "slug": "hermes-agent-publie-une-build-canari-v0-22-6-fea1bb",
+  "titre": "Hermes Agent publie une build canari v0.22.6",
+  "resume": "Hermes Agent diffuse une build canari estampillée v0.22.6+canary.20261103T064339Z sur son dépôt GitHub. La release est datée du 3 novembre 2026, et l'horodatage inscrit dans le numéro de version correspond à celui de la publication. Le canal canari désigne les versions de test diffusées avant une publication stable.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.6%2Bcanary.20261103T064339Z",
+  "date_source": "2026-11-03T06:43:40+00:00",
+  "date_redac": "2026-11-03T06:58:34+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 713
+  }
+ },
+ {
+  "id": "ee4e14039e372fad",
+  "slug": "apple-preparerait-un-robot-domestique-a-ecran-articule-peut-etre-pour--ee4e14",
+  "titre": "Apple préparerait un robot domestique à écran articulé, peut-être pour 2028",
+  "resume": "Après le HomeView, Apple travaillerait sur un robot domestique : un écran monté sur un bras motorisé, un « iPad sur un bâton ». L'appareil pourrait suivre les appels FaceTime et piloter certains équipements de la maison. Mais le logiciel et des désaccords sur les fonctions à embarquer retarderaient sa sortie, possiblement jusqu'en 2028.",
+  "tags": [
+   "robots",
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/11/03/le-premier-robot-dapple-ressemblerait-a-un-ipad-sur-un-baton/",
+  "date_source": "2026-11-03T06:29:18+00:00",
+  "date_redac": "2026-11-03T06:58:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 692,
+   "sortie": 802
+  }
+ },
+ {
+  "id": "1bd9b6bb385cbd23",
+  "slug": "le-philips-55oled761-tv-oled-avec-ambilight-passe-sous-les-900-euros-1bd9b6",
+  "titre": "Le Philips 55OLED761, TV OLED avec Ambilight, passe sous les 900 euros",
+  "resume": "Le Philips 55OLED761, un téléviseur OLED équipé de l'Ambilight, chute sous la barre des 900 euros. Le modèle mise sur le Dolby Vision et le Dolby Atmos pour les cinéphiles, et sur quatre ports HDMI pour les joueurs. Un appareil polyvalent proposé à un tarif inhabituel pour de l'OLED.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/bons-plans/3306945_un-tv-oled-a-moins-de-900-e-ce-modele-philips-avec-ambilight-coche-toutes-les-cases",
+  "date_source": "2026-11-03T06:22:00+00:00",
+  "date_redac": "2026-11-03T06:58:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 679,
+   "sortie": 466
+  }
+ },
+ {
+  "id": "692c79acd8ad7a7f",
+  "slug": "weight-space-programming-des-llm-lisent-et-ecrivent-les-poids-d-un-res-692c79",
+  "titre": "« Weight Space Programming » : des LLM lisent et écrivent les poids d'un réseau",
+  "resume": "Latent Space relaie une approche où des modèles de langage lisent et écrivent directement les poids d'un réseau de neurones, baptisée « Weight Space Programming », et qui sort l'autoresearch de la boucle RSI. L'exemple cité : modifier les poids de Qwen pour réduire les boucles de raisonnement. Au sommaire également, un prototype de super-agent signé DeepSeek et le benchmark GDPx.",
+  "tags": [
+   "recherche",
+   "deepseek",
+   "agents"
+  ],
+  "importance": 4,
+  "source": "Latent Space",
+  "lien_source": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+  "date_source": "2026-11-03T05:35:00+00:00",
+  "date_redac": "2026-11-03T06:58:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 639,
+   "sortie": 615
+  }
+ },
+ {
+  "id": "f315541036d93088",
+  "slug": "le-bruit-des-avions-dans-une-video-suffit-a-retrouver-le-lieu-de-tourn-f31554",
+  "titre": "Le bruit des avions dans une vidéo suffit à retrouver le lieu de tournage",
+  "resume": "Colsto montre comment retrouver le lieu exact d'une vidéo grâce au bruit de fond des avions présent dans sa bande-son, presque imperceptible à l'oreille. En calculant les courbes de Doppler de ces passages puis en les croisant avec les données ADS-B, on déduit la position à partir de la vitesse, de la distance et des intervalles entre vols. Une démonstration d'OSINT qui rappelle qu'un détail sonore anodin peut trahir une localisation.",
+  "tags": [
+   "sécurité",
+   "société",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+  "date_source": "2026-11-03T05:32:25+00:00",
+  "date_redac": "2026-11-03T06:58:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 684,
+   "sortie": 818
+  }
+ },
+ {
+  "id": "73b2d8729afc1f96",
+  "slug": "simon-willison-publie-l-edition-d-octobre-de-sa-newsletter-pour-sponso-73b2d8",
+  "titre": "Simon Willison publie l'édition d'octobre de sa newsletter pour sponsors",
+  "resume": "Simon Willison a envoyé l'édition d'octobre de sa newsletter mensuelle réservée aux sponsors, à 10 dollars par mois. Au sommaire : le point de bascule d'octobre du développement de jeux « vibe », la vague de vulnérabilités, les crédits API offerts avec les abonnements à plus de 100 dollars par mois, ses outils et ses publications logicielles. L'édition de septembre reste visible en aperçu gratuit.",
+  "tags": [
+   "dev",
+   "sécurité",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+  "date_source": "2026-11-03T05:28:59+00:00",
+  "date_redac": "2026-11-03T06:59:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 709,
+   "sortie": 737
+  }
+ },
+ {
   "id": "648ebd20d5990f38",
   "slug": "glm-5-3-flash-en-local-4-2-fois-plus-rapide-que-via-le-cloud-648ebd",
   "titre": "GLM 5.3 flash en local : 4,2 fois plus rapide que via le cloud",

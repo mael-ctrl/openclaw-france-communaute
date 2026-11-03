@@ -1,0 +1,41 @@
+{
+ "slug": "glm-5-3-flash-4-2-fois-plus-vite-en-local-pour-70-cents-d-ec-648ebd",
+ "titre": "GLM 5.3 flash : 4,2 fois plus vite en local, pour 70 cents d'économie",
+ "chapo": "Un même modèle, un même prompt : 43 min 48 s dans le cloud, 10 min 24 s en local. r/LocalLLaMA chiffre l'écart pour GLM 5.3 flash — environ 4,2 fois — et rappelle que derrière la vitesse, il y a une machine dont le marché de l'occasion bouge sérieusement.",
+ "html": "<h2 id=\"le-local-ne-se-rentabilise-pas-en-dollar\">Le local ne se rentabilise pas en dollars</h2>\n<p>Un utilisateur de r/LocalLLaMA a posé la même question à deux versions de GLM 5.3 flash : celle servie par l'abonnement Z.ai et la sienne, installée en local. À prompt identique, le cloud rend <strong>117 980 tokens</strong> de sortie en <strong>43 min 48 s</strong>, la machine locale <strong>118 173 tokens</strong> en <strong>10 min 24 s</strong>. Soit un rapport d'environ 4,2.</p>\n<p>L'économie, elle, tient en une ligne : <strong>0,70 dollar</strong>. Ce n'est donc pas la facture qui justifie l'installation, mais le débit. Derrière le chiffre, il y a deux RTX Pro 6000, un Threadripper 9960X et 128 Go de DDR5 — une configuration qui, selon l'auteur du fil, permet de produire bien plus de code par jour qu'un accès distant.</p>\n<p>C'est un angle peu commenté du calcul local : on compare souvent les prix au token, plus rarement le temps de mur. Sur une tâche de génération longue, l'écart se joue en heures de travail, pas en centimes.</p>\n<h2 id=\"rtx-8000-48-go-le-gigaoctet-de-vram-au-r\">RTX 8000 48 Go : le gigaoctet de VRAM au rabais</h2>\n<p>Le marché de l'occasion raconte la même histoire autrement. En 2024, toujours d'après le même utilisateur, sa RTX 8000 48 Go lui coûtait <strong>2 400 dollars</strong> ; elle se négocie aujourd'hui autour de <strong>2 100 dollars</strong>. Pendant ce temps, deux RTX 3090 valaient 1 600 à 1 800 dollars, contre 1 500 à 1 600 dollars pour une seule désormais. Conséquence : la RTX 8000 devient moins chère au gigaoctet de VRAM, et une seule RTX 3090 coûte aujourd'hui ce que deux coûtaient il y a deux ans.</p>\n<p>Le compromis est ailleurs. La RTX 8000 est plus lente en inférence — <strong>672 Go/s</strong> de bande passante mémoire contre <strong>936 Go/s</strong> — mais elle offre le double de mémoire pour <strong>265 W</strong> contre 700 W. Sur une machine qui tourne toute la journée pour du code, le calcul de la VRAM et celui de la consommation ne désignent pas la même carte.</p>\n<h2 id=\"qwen4-fuit-par-deux-pull-requests\">Qwen4 fuit par deux pull requests</h2>\n<p>Le dépôt GitHub qwen-code (QwenLM) a laissé passer ce qu'aucune communication officielle n'avait annoncé. Deux pull requests exposent une série d'identifiants : <strong>qwen4</strong>, <strong>qwen4-max</strong>, <strong>qwen4-plus</strong>, <strong>qwen4.5-max</strong>, <strong>qwen4-coder-plus</strong>, <strong>qwen4-max-2026-10-01</strong>, <strong>openai/qwen4-max</strong> et <strong>qwen4-omni-120b-think</strong>.</p>\n<p>D'après la PR, tous résolvent vers <strong>262 144</strong>, et le dernier sert déjà de modèle de session dans les fixtures omni. Ces identifiants ne sont donc pas hypothétiques : ils correspondent à des configurations réelles du dépôt. La fuite donne un aperçu de la prochaine famille Qwen avant toute annonce, avec la nomenclature que l'on devine — variantes max, plus, coder, omni, et une date de version.</p>\n<h2 id=\"llm-0-37-et-les-agents-juridiques-qui-tr\">LLM 0.37 et les agents juridiques qui travaillent à l'aveugle</h2>\n<p>Côté outillage, Simon Willison publie <strong>LLM 0.37</strong>, son outil en ligne de commande et sa bibliothèque Python. Une commande `llm openai endpoint add` facilite la configuration d'endpoints compatibles OpenAI, et deux modèles font leur entrée : gpt-6.1-sol et gpt-6.1-terra. Le modèle par défaut passe à gpt-6-luna, moitié moins cher que gpt-5.6-luna. Les embeddings acceptent désormais plusieurs content-type, ce qu'exige Gemini Embedding 2.</p>\n<p>Chez Legora, la contrainte est d'une autre nature. L'entreprise développe des agents pour des avocats, mais ne peut consulter aucune trace de leur travail : les données appartiennent aux clients des cabinets. Jacob Lauritzen, son CTO, explique dans Latent Space comment on construit et teste un agent quand on ne voit pas ce qu'il fait.</p>\n<p>Legora figure parmi les entreprises à la croissance la plus rapide du secteur. Un détail qui rend l'exercice plus intéressant : le peu de visibilité sur les traces n'a pas l'air de freiner l'adoption.</p>\n<h2>Et maintenant ?</h2>\n<p>Le fil commun de ces dépêches, c'est la mesure. À 0,70 dollar d'écart, ce sont les minutes gagnées qui décident, et le matériel qui les rend possibles — une RTX 8000 48 Go à 2 100 dollars, une RTX 3090 au prix de deux il y a deux ans. Pendant ce temps, les noms des prochains modèles circulent par les dépôts avant les annonces, et des agents juridiques tournent sur des données que leur concepteur ne voit jamais. Trois façons de bâtir avec des modèles qu'on ne maîtrise pas entièrement.</p>",
+ "pivot": "648ebd20d5990f38",
+ "tags": [
+  "matériel",
+  "open-source",
+  "agents",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmjipa/underrated_benefit_of_local_ai_speed/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmgmd8/rtx_8000_48gb_prices_have_decreased_over_the_last/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Nov/2/llm/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/"
+  }
+ ],
+ "date": "2026-11-03T05:18:00+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1695,
+  "sortie": 4842
+ }
+}

@@ -1,5 +1,88 @@
 [
  {
+  "id": "648ebd20d5990f38",
+  "slug": "glm-5-3-flash-en-local-4-2-fois-plus-rapide-que-via-le-cloud-648ebd",
+  "titre": "GLM 5.3 flash en local : 4,2 fois plus rapide que via le cloud",
+  "resume": "Un utilisateur de r/LocalLLaMA a comparé GLM 5.3 flash via l'abonnement Z.ai et le même modèle servi en local, à prompt identique. Cloud : 43:48 pour 117 980 tokens de sortie ; local : 10:24 pour 118 173, soit environ 4,2 fois plus vite. L'économie n'est que de 0,70 dollar, mais la machine (deux RTX Pro 6000, Threadripper 9960X, 128 Go de DDR5) permet de produire bien plus de code par jour.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xmjipa/underrated_benefit_of_local_ai_speed/",
+  "date_source": "2026-11-03T04:31:23+00:00",
+  "date_redac": "2026-11-03T05:17:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 837,
+   "sortie": 1114
+  }
+ },
+ {
+  "id": "8d77b33fbfe49c64",
+  "slug": "openclaw-2026-10-10-sauvegardes-a-secrets-masques-et-retour-de-node-8d77b3",
+  "titre": "OpenClaw 2026.10.10 : sauvegardes à secrets masqués et retour de Node",
+  "resume": "OpenClaw 2026.10.10 sécurise ses sauvegardes : les exports PostgreSQL passent par des backups Git à secrets masqués, tout comme les identifiants de plugins intégrés, jetons de webhook et blocs d'identifiants. Le CLI natif managé Codex passe en 0.164.0, avec projection de protocole et paquets plateforme correspondants. Les installations et mises à jour refonctionnent sur Node >=24.16.0 <25 et >=26.1.0, 24.22.1 ou 26.12.1 restant la recommandation sécurité.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.10",
+  "date_source": "2026-11-03T04:00:40+00:00",
+  "date_redac": "2026-11-03T05:17:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 819,
+   "sortie": 1153
+  }
+ },
+ {
+  "id": "8dcd69b958117920",
+  "slug": "le-depot-qwen-code-laisse-fuiter-des-identifiants-qwen4-non-annonces-8dcd69",
+  "titre": "Le dépôt Qwen Code laisse fuiter des identifiants qwen4 non annoncés",
+  "resume": "Deux pull requests du dépôt GitHub qwen-code (QwenLM) exposent une série d'identifiants de modèles non annoncés : qwen4, qwen4-max, qwen4-plus, qwen4.5-max, qwen4-coder-plus, qwen4-max-2026-10-01, openai/qwen4-max et qwen4-omni-120b-think. D'après la PR, tous résolvent vers 262 144, et le dernier sert déjà de modèle de session dans les fixtures omni : ces identifiants ne sont donc pas hypothétiques. La fuite donne un aperçu de la prochaine famille Qwen avant toute communication officielle.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/",
+  "date_source": "2026-11-03T03:55:43+00:00",
+  "date_redac": "2026-11-03T05:17:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 795,
+   "sortie": 1099
+  }
+ },
+ {
+  "id": "e9be74101218bb72",
+  "slug": "google-amene-dreambeans-en-inde-avec-13-langues-indiennes-e9be74",
+  "titre": "Google amène Dreambeans en Inde avec 13 langues indiennes",
+  "resume": "Google déploie Dreambeans, sa dernière expérimentation en IA, en Inde. L'outil prend désormais en charge 13 langues indiennes. L'objectif affiché : rendre les récits personnels générés par IA accessibles au plus grand nombre. Le géant américain mise sur la diversité linguistique du pays pour élargir son audience.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+  "date_source": "2026-11-03T03:30:00+00:00",
+  "date_redac": "2026-11-03T05:17:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 625,
+   "sortie": 350
+  }
+ },
+ {
   "id": "0680307c0752918c",
   "slug": "codex-la-preversion-alpha-0-167-0-publiee-sur-github-068030",
   "titre": "Codex : la préversion alpha 0.167.0 publiée sur GitHub",

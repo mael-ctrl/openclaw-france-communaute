@@ -1,6 +1,12 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
-## État courant — 2 novembre 2026, revue du soir
+## Chantier site du 3 novembre — sommaire natif
+
+**Seule nouvelle intégration fonctionnelle de ce passage :** premier candidat site du relais P2, sommaire natif des articles ; code absent sur la base requalifiée `49cfea8`. **286 Python + huit Node réussis**, suite originale sans fixture modifiée, deux builds complets : **502/503 articles enrichis**, **1 684 brèves inchangées**, seuls sommaire/IDs et CSS préfixée diffèrent ; **650 fichiers de données/contenus/sites préservés**. **99 contrôles navigateur sans JS** et essai isolé sans rédaction réussis. [Dossier, provenance et limites](sommaire-articles.md).
+
+**Statut au commit initial :** cloud/HTTPS en attente, pas encore déclaré publié. Clôture exhaustive de l'auteur du 2 en cours de relecture, sans refaire son code. Clone partagé conflictuel préservé ; aucun lot d'exploitation, de newsletter ou d'archives historiques activé.
+
+## État antérieur — 2 novembre 2026, revue du soir
 
 **Cette section remplace les statuts du bilan différé conservé plus bas.** Départ du job à 21:06 CET ; fenêtre Git/créations GitHub figée à **22:25:29 CET** (`01/11 23:00:00 → 02/11 21:25:29 UTC`). HTTPS à **22:26:45–22:26:47 CET**, non antidaté. Pull partagé **refusé (128)** : rebase sur `2cf3178`, six fichiers non fusionnés et journal indexé, préservés. Worktree documentaire propre sur **`8c3208df3124ac61afa94ec52a0677e7a82a40dc`**, pull réussi ici seulement.
 

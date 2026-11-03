@@ -281,6 +281,24 @@ a:hover { color: var(--accent); }
 }
 .source-boite p { margin: 0 0 10px; }
 .corps-article { margin-top: 8px; }
+/* Sommaire des articles longs : natif, fermé par défaut, sans script. */
+.sommaire-article {
+  margin: 24px 0; padding: 8px 16px;
+  border: 1px solid var(--bord-clair); border-radius: 10px;
+  background: var(--carte); overflow-wrap: anywhere;
+}
+.sommaire-article summary {
+  cursor: pointer; padding: 12px 0; font-weight: 700;
+}
+.sommaire-article ol { padding-left: 1.4em; margin: 8px 0; }
+.sommaire-article a {
+  display: block; min-height: 44px; padding: 10px 4px;
+  overflow-wrap: anywhere; text-decoration: underline;
+}
+.sommaire-article summary:focus-visible,
+.sommaire-article a:focus-visible {
+  outline: 3px solid var(--accent); outline-offset: 3px;
+}
 .corps-article h2 {
   margin: 38px 0 14px; font-size: 1.45rem; letter-spacing: -.015em;
   padding-left: 14px; border-left: 3px solid var(--accent);

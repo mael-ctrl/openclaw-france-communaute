@@ -629,8 +629,10 @@ def page_article(a, autres_articles, couverture=None):
                          a.get("sources"), couverture=couverture)
     date_og = (f'<meta property="article:published_time" content="{ech(a["date"])}">\n'
                if a.get("date") else "")
-    return page(a["titre"], a["chapo"][:160], contenu, f"/articles/{a['slug']}/", section="articles",
-                extra_head=date_og + jsonld, type_og="article", couverture=couverture)
+    from sommaire import enrichir_article
+    document = page(a["titre"], a["chapo"][:160], contenu, f"/articles/{a['slug']}/", section="articles",
+                    extra_head=date_og + jsonld, type_og="article", couverture=couverture)
+    return enrichir_article(document, a['html'])
 
 
 # ---------------------------------------------------------------- feed / sitemap

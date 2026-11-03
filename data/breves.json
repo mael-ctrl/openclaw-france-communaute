@@ -1,5 +1,127 @@
 [
  {
+  "id": "1771973ccfc63fe1",
+  "slug": "netflix-lance-un-onglet-ai-discover-pour-des-recommandations-par-theme-177197",
+  "titre": "Netflix lance un onglet « AI Discover » pour des recommandations par thèmes",
+  "resume": "Netflix ajoute un onglet « AI Discover » à son application TV. Il y regroupera des fonctionnalités expérimentales, assistées par IA, destinées à aider les abonnés à trouver des séries et des films à regarder. Les premières proposent des contenus classés par thèmes, comme « Something Light », « Family Movie Night » ou « Quick Watches ». L'onglet devient ainsi un espace de test visible pour des usages d'IA grand public.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+  "date_source": "2026-11-03T18:00:00+00:00",
+  "date_redac": "2026-11-03T18:04:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 662,
+   "sortie": 461
+  }
+ },
+ {
+  "id": "87c0bf7ae2fc6cb5",
+  "slug": "un-article-propose-de-reordonner-les-couches-d-un-transformer-a-l-exec-87c0bf",
+  "titre": "Un article propose de réordonner les couches d'un transformer à l'exécution",
+  "resume": "Sur r/LocalLLaMA, un utilisateur relaie un article référencé 2611.03526 et intitulé « Library of Layers (LoL): Adaptively Ordering Transformer Layers at Runtime ». Le travail porte sur l'ordonnancement adaptatif des couches d'un transformer au moment de l'exécution. Le fil renvoie à la publication et à sa discussion.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xmzo2s/261103526_library_of_layers_lol_adaptively/",
+  "date_source": "2026-11-03T17:44:41+00:00",
+  "date_redac": "2026-11-03T18:04:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 625,
+   "sortie": 690
+  }
+ },
+ {
+  "id": "7c901edc4fe96e47",
+  "slug": "langchain-compare-sept-outils-de-navigation-web-pour-ses-deep-agents-7c901e",
+  "titre": "LangChain compare sept outils de navigation web pour ses Deep Agents",
+  "resume": "LangChain a comparé sept jeux d'outils de navigation web destinés à ses Deep Agents avant de retenir Stagehand, développé par Browserbase. Le choix a ensuite été affiné à l'aide des traces et des évaluations de LangSmith. L'équipe détaille dans son billet la méthode de comparaison et les enseignements qu'elle en tire.",
+  "tags": [
+   "agents",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "LangChain (blog officiel)",
+  "lien_source": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents",
+  "date_source": "2026-11-03T17:43:22+00:00",
+  "date_redac": "2026-11-03T18:04:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 617,
+   "sortie": 433
+  }
+ },
+ {
+  "id": "d9323c3716ce5e02",
+  "slug": "qwen-3-8-27b-interpreterait-les-poids-des-modeles-comme-gpt-6-astra-d9323c",
+  "titre": "Qwen 3.8 27B interpréterait les poids des modèles, comme GPT-6 Astra",
+  "resume": "Sur r/LocalLLaMA, un internaute signale que Qwen 3.8 27B serait capable d'interpréter les poids d'un modèle, à l'image de GPT-6 Astra. Le fil ne précise ni la méthode employée ni les résultats obtenus. Une telle capacité, si elle se confirme, concernerait directement l'analyse des modèles ouverts et le travail de celles et ceux qui les examinent.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/",
+  "date_source": "2026-11-03T17:29:42+00:00",
+  "date_redac": "2026-11-03T18:04:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 625,
+   "sortie": 973
+  }
+ },
+ {
+  "id": "023a902da66acc38",
+  "slug": "statebench-un-benchmark-pour-suivre-les-changements-d-etat-dans-de-lon-023a90",
+  "titre": "StateBench, un benchmark pour suivre les changements d'état dans de longs documents",
+  "resume": "Le blog Hugging Face relaie StateBench, un benchmark conçu pour évaluer la capacité des modèles de langage à suivre les changements d'état au fil de documents longs. La question posée est donc celle du suivi d'une information qui évolue dans un texte étendu, et non de la seule compréhension d'un passage isolé. Le banc d'essai rend ce comportement mesurable.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hugging Face",
+  "lien_source": "https://huggingface.co/blog/allenai/statebench",
+  "date_source": "2026-11-03T17:15:21+00:00",
+  "date_redac": "2026-11-03T18:04:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 592,
+   "sortie": 576
+  }
+ },
+ {
+  "id": "8a6ed7a4958d6cb4",
+  "slug": "le-royaume-uni-alerte-sur-des-cyberattaques-dopees-a-l-ia-d-ici-2028-8a6ed7",
+  "titre": "Le Royaume-Uni alerte sur des cyberattaques dopées à l'IA d'ici 2028",
+  "resume": "Le Centre national de cybersécurité britannique craint une multiplication des cyberattaques dopées à l'intelligence artificielle contre des infrastructures critiques d'ici 2028. L'IA pourrait notamment permettre aux pirates de mener des attaques de type ransomware particulièrement redoutables.",
+  "tags": [
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/cyberattaques-ia-le-pire-serait-encore-a-venir-alerte-le-royaume-uni.html",
+  "date_source": "2026-11-03T17:08:08+00:00",
+  "date_redac": "2026-11-03T18:04:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 351
+  }
+ },
+ {
   "id": "08bf22ba9d06eaf0",
   "slug": "des-rtx-5090-a-64-et-96-go-de-vram-selon-un-reparateur-de-gpu-americai-08bf22",
   "titre": "Des RTX 5090 à 64 et 96 Go de VRAM, selon un réparateur de GPU américain",

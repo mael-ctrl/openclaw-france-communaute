@@ -1,0 +1,41 @@
+{
+ "slug": "agents-web-poids-de-modeles-et-llm-en-local-quatre-chantiers-7c901e",
+ "titre": "Agents web, poids de modèles et LLM en local : quatre chantiers en cours",
+ "chapo": "LangChain a comparé sept jeux d'outils de navigation web pour ses Deep Agents, avant de retenir Stagehand. Au même moment, la communauté discute de modèles qui liraient les poids d'un réseau, de RTX 5090 à 96 Go de VRAM et d'un GLM 5.3 flash 4,2 fois plus rapide en local qu'en cloud.",
+ "html": "<h2 id=\"chez-langchain-sept-outils-passes-au-cri\">Chez LangChain, sept outils passés au crible</h2>\n<p>LangChain a comparé sept jeux d'outils de navigation web destinés à ses Deep Agents, avant de retenir <strong>Stagehand</strong>, développé par Browserbase. Le billet officiel ne s'arrête pas au résultat : l'équipe y détaille sa méthode de comparaison et les enseignements qu'elle en tire.</p>\n<p>Le choix a ensuite été affiné à l'aide des <strong>traces et des évaluations de LangSmith</strong>. La décision ne repose donc pas seulement sur un classement initial, mais sur ce que les exécutions observées montrent du comportement des outils.</p>\n<p>Pour qui construit des agents capables de piloter un navigateur, l'intérêt du billet tient surtout au processus : comment mettre plusieurs bibliothèques en concurrence, et sur quels signaux trancher. La démarche est moins spectaculaire qu'une démonstration, elle est aussi plus réutilisable.</p>\n<h2 id=\"lire-et-ecrire-les-poids-plutot-que-les-\">Lire et écrire les poids, plutôt que les prompts</h2>\n<p>Latent Space relaie une approche où des modèles de langage lisent et écrivent directement les poids d'un réseau de neurones, baptisée <strong>« Weight Space Programming »</strong>. L'angle diffère de celui des agents : il ne s'agit plus de faire agir un modèle sur un environnement, mais d'agir sur la mécanique interne du modèle lui-même.</p>\n<p>L'exemple cité consiste à modifier les poids de <strong>Qwen</strong> pour réduire les boucles de raisonnement. La dépêche indique que cette approche sort l'autoresearch de la boucle RSI. Au sommaire de la même édition figurent également un prototype de super-agent signé <strong>DeepSeek</strong> et le benchmark <strong>GDPx</strong>.</p>\n<p>Le déplacement est notable : le prompt et le contexte restent l'interface habituelle, alors que l'approche décrite travaille un cran plus bas, là où le comportement du modèle se fige. La dépêche ne dit rien, en revanche, des outils ou des garde-fous d'une telle manipulation.</p>\n<h2 id=\"qwen-3-8-27b-et-les-poids-une-affirmatio\">Qwen 3.8 27B et les poids : une affirmation sans méthode</h2>\n<p>Sur r/LocalLLaMA, un internaute affirme que <strong>Qwen 3.8 27B</strong> serait capable d'interpréter les poids d'un modèle, à l'image de GPT-6 Astra. Le fil ne précise ni la méthode employée ni les résultats obtenus — deux précisions qui changent tout.</p>\n<p>Rapprocher ce fil de « Weight Space Programming » est tentant : les deux parlent de poids, de lecture et d'écriture. Mais le premier décrit une approche relayée par Latent Space, avec un exemple concret ; le second se contente d'une affirmation, sans protocole ni mesure.</p>\n<p>Si elle se confirmait, une telle capacité concernerait directement l'analyse des modèles ouverts et le travail de celles et ceux qui les examinent. En l'état, elle reste une déclaration sur un forum, à ranger du côté des pistes à vérifier.</p>\n<h2 id=\"le-local-entre-rumeur-de-vram-et-gains-m\">Le local, entre rumeur de VRAM et gains mesurés</h2>\n<p>Toujours sur r/LocalLLaMA, un membre relaie l'affirmation d'un technicien américain de réparation de GPU : des <strong>RTX 5090 dotées de 64 Go et 96 Go de VRAM</strong> existeraient. Le mot « confirmé » est celui du titre, et l'extrait ne cite aucune source officielle. La nuance compte, mais l'enjeu est réel : la quantité de VRAM détermine la taille des modèles qu'une carte peut charger.</p>\n<p>Autre dépêche, autre registre : un utilisateur a comparé <strong>GLM 5.3 flash</strong> via l'abonnement Z.ai et le même modèle servi en local, à prompt identique. Cloud : 43:48 pour 117 980 tokens de sortie. Local : 10:24 pour 118 173, soit environ <strong>4,2 fois plus vite</strong>.</p>\n<p>L'économie affichée n'est que de 0,70 dollar. Ce que la machine — deux RTX Pro 6000, un Threadripper 9960X et 128 Go de DDR5 — apporte, c'est le débit : produire bien plus de code par jour.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre sujets du jour ne racontent pas la même histoire, et c'est ce qui les rend lisibles ensemble : une équipe qui compare sept outils avant d'en garder un, une approche qui déplace l'action du prompt vers les poids, un forum qui affirme sans démonter, et un utilisateur qui mesure son propre matériel. Deux constats documentés, deux affirmations à prendre avec des pincettes. La ligne de partage reste la même : ce qui est étayé, et ce qui ne l'est pas.</p>",
+ "pivot": "7c901edc4fe96e47",
+ "tags": [
+  "agents",
+  "recherche",
+  "open-source",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "LangChain (blog officiel)",
+   "url": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmqq2a/rtx_5090_with_64gb_and_96gb_vram_confirmed_by_us/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmjipa/underrated_benefit_of_local_ai_speed/"
+  }
+ ],
+ "date": "2026-11-03T18:05:15+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1594,
+  "sortie": 3596
+ }
+}

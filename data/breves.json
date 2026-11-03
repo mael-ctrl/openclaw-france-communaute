@@ -1,5 +1,126 @@
 [
  {
+  "id": "08bf22ba9d06eaf0",
+  "slug": "des-rtx-5090-a-64-et-96-go-de-vram-selon-un-reparateur-de-gpu-americai-08bf22",
+  "titre": "Des RTX 5090 à 64 et 96 Go de VRAM, selon un réparateur de GPU américain",
+  "resume": "Un membre de r/LocalLLaMA relaie l'affirmation d'un technicien américain de réparation de GPU : des RTX 5090 dotées de 64 Go et 96 Go de VRAM existeraient. Le mot « confirmé » est celui du titre, et l'extrait ne cite aucune source officielle. La quantité de VRAM détermine la taille des modèles d'IA qu'une carte peut charger : c'est ce qui rend l'affirmation notable pour la communauté du LLM local.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xmqq2a/rtx_5090_with_64gb_and_96gb_vram_confirmed_by_us/",
+  "date_source": "2026-11-03T11:40:16+00:00",
+  "date_redac": "2026-11-03T11:50:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 632,
+   "sortie": 1085
+  }
+ },
+ {
+  "id": "5691361726bad2bd",
+  "slug": "olla-v0-1-0-un-proxy-open-source-pour-federer-plusieurs-serveurs-d-inf-569136",
+  "titre": "Olla v0.1.0, un proxy open source pour fédérer plusieurs serveurs d'inférence LLM",
+  "resume": "Après environ 18 mois de développement, Olla publie sa version 0.1.0, sa 25e release. Ce proxy open source gère plusieurs serveurs d'inférence LLM locaux, en homelab comme en entreprise : bascule automatique si un point d'entrée tombe, répartition de charge, sessions persistantes. Il fédère Ollama, vLLM, SGLang, llama.cpp et LM Studio derrière une seule interface.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xmq913/olla_v010_lightweight_opensource_llm_proxy_for/",
+  "date_source": "2026-11-03T11:13:25+00:00",
+  "date_redac": "2026-11-03T11:50:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 842,
+   "sortie": 855
+  }
+ },
+ {
+  "id": "db25c435546120a5",
+  "slug": "openai-met-fin-a-chatgpt-classic-et-devoile-son-remplacant-db25c4",
+  "titre": "OpenAI met fin à ChatGPT Classic et dévoile son remplaçant",
+  "resume": "OpenAI s'apprête à débrancher pour de bon son application native, ChatGPT Classic. La firme annonce la fin de son appli et dévoile ce qui va la remplacer. Les utilisateurs de l'application devront donc changer leurs habitudes.",
+  "tags": [
+   "chatgpt",
+   "openai"
+  ],
+  "importance": 3,
+  "source": "Journal du Geek",
+  "lien_source": "https://www.journaldugeek.com/2026/11/03/chatgpt-classic-cest-fini-openai-devoile-ce-qui-va-remplacer-son-appli/",
+  "date_source": "2026-11-03T11:00:54+00:00",
+  "date_redac": "2026-11-03T11:50:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 633,
+   "sortie": 554
+  }
+ },
+ {
+  "id": "7a536a0675432694",
+  "slug": "le-mini-pc-mllse-m2-en-promo-chez-amazon-pense-pour-les-budgets-serres-7a536a",
+  "titre": "Le mini PC MLLSE M2 en promo chez Amazon, pensé pour les budgets serrés",
+  "resume": "Amazon propose une offre sur le mini PC MLLSE M2, une machine positionnée sur le segment des budgets très limités. Selon 01net, elle est « quasi donnée » et se montre à l'aise dans les usages quotidiens. Aucun lien avec l'IA ici : c'est une affaire de matériel d'appoint compact pour qui ne veut pas y mettre le prix.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/bons-plans/folie-du-jour-ce-mini-pc-est-quasi-donne-et-il-excelle-au-quotidien.html",
+  "date_source": "2026-11-03T10:51:52+00:00",
+  "date_redac": "2026-11-03T11:50:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 647,
+   "sortie": 965
+  }
+ },
+ {
+  "id": "445f28eca2d36ec1",
+  "slug": "pres-d-un-jeu-sur-deux-sorti-sur-steam-en-octobre-2026-a-utilise-l-ia--445f28",
+  "titre": "Près d'un jeu sur deux sorti sur Steam en octobre 2026 a utilisé l'IA générative",
+  "resume": "Selon une analyse publiée sur Reddit et relayée par Dexerto, près de 50 % des jeux sortis sur Steam en octobre 2026 déclaraient des contenus générés par IA. C'est presque deux fois plus qu'il y a un an. L'IA générative prend donc une place croissante dans l'industrie du jeu vidéo.",
+  "tags": [
+   "société",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/pop-culture/2366283-pres-dun-jeu-sur-deux-sorti-sur-steam-en-octobre-2026-a-eu-recours-a-lia-generative.html",
+  "date_source": "2026-11-03T10:48:10+00:00",
+  "date_redac": "2026-11-03T11:50:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 706,
+   "sortie": 429
+  }
+ },
+ {
+  "id": "16f0247bae120b15",
+  "slug": "skoda-peaq-le-plus-grand-suv-electrique-de-la-marque-passe-a-l-essai-16f024",
+  "titre": "Skoda Peaq : le plus grand SUV électrique de la marque passe à l'essai",
+  "resume": "Skoda ajoute le Peaq à sa gamme : ce SUV électrique devient le plus grand modèle du constructeur tchèque et peut accueillir jusqu'à sept passagers. Frandroid l'a essayé et publie son avis détaillé, estimant qu'il pourrait aussi être le meilleur véhicule de la marque.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/skoda/3292535_jai-essaye-le-skoda-peaq-le-plus-grand-suv-electrique-de-la-marque-est-peut-etre-aussi-le-meilleur",
+  "date_source": "2026-11-03T10:33:15+00:00",
+  "date_redac": "2026-11-03T11:50:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 691,
+   "sortie": 461
+  }
+ },
+ {
   "id": "0d8b601ded2f1b91",
   "slug": "la-retroid-pocket-flip-2-console-android-d-emulation-a-44-chez-aliexpr-0d8b60",
   "titre": "La Retroid Pocket Flip 2, console Android d'émulation, à -44 % chez AliExpress",

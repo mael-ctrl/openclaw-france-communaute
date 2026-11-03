@@ -1,0 +1,41 @@
+{
+ "slug": "rtx-5090-a-96-go-rtx-8000-bradee-la-vram-structure-tout-08bf22",
+ "titre": "RTX 5090 à 96 Go, RTX 8000 bradée : la VRAM structure tout",
+ "chapo": "Des RTX 5090 à 64 et 96 Go de VRAM ? L'affirmation d'un réparateur américain, relayée sur r/LocalLLaMA, ne s'appuie sur aucune source officielle. Au même moment, les RTX 8000 48 Go perdent de la valeur et un utilisateur mesure un facteur 4,2 entre GLM 5.3 flash en local et le même modèle via le cloud.",
+ "html": "<h2 id=\"rtx-5090-confirmed-sans-confirmation\">RTX 5090 : « confirmed » sans confirmation</h2>\n<p>Le fil s'intitule « RTX 5090 with 64GB and 96GB VRAM confirmed by US GPU repair tech ». Le mot <em>confirmed</em> est celui de l'auteur du post, pas celui d'un communiqué. Un membre de r/LocalLLaMA y relaie l'affirmation d'un technicien américain spécialisé dans la réparation de cartes graphiques : selon lui, des RTX 5090 dotées de 64 Go et 96 Go de VRAM existeraient. L'extrait reproduit ne cite aucune source officielle, ni Nvidia ni un partenaire constructeur.</p>\n<p>L'intérêt de la communauté tient en une phrase : la quantité de VRAM détermine la taille des modèles d'IA qu'une carte peut charger. Un modèle qui tient en mémoire tourne en local ; un modèle qui ne tient pas tourne mal, ou pas du tout. Passer de 32 à 96 Go ne change pas le score d'un benchmark, cela change la catégorie de modèles accessibles sur une seule machine.</p>\n<p>En l'état, il faut donc lire cette dépêche pour ce qu'elle est : une affirmation rapportée par un tiers, sans preuve publique. La nuance compte, parce que la rumeur matérielle circule vite dans les fils de LLM local.</p>\n<h2 id=\"occasion-la-rtx-8000-devient-moins-chere\">Occasion : la RTX 8000 devient moins chère au gigaoctet</h2>\n<p>Autre son de cloche du côté des cartes professionnelles d'ancienne génération. En 2024, un utilisateur de r/LocalLLaMA payait sa RTX 8000 48 Go 2 400 dollars ; elle se négocie aujourd'hui autour de 2 100 dollars. Dans le même temps, deux RTX 3090 coûtaient 1 600 à 1 800 dollars, contre 1 500 à 1 600 dollars pour une seule désormais.</p>\n<p>Le calcul est simple et c'est lui qui fait débat : la RTX 8000 devient moins chère au gigaoctet de VRAM. Elle est plus lente en inférence, avec 672 Go/s de bande passante contre 936 Go/s pour la RTX 3090, mais elle offre le double de mémoire pour 265 W contre 700 W.</p>\n<p>Pour du LLM local, ce compromis se résume à un arbitrage : vitesse de génération d'un côté, volume de modèle chargeable et consommation de l'autre. Le tarif de l'occasion ne dit rien de la performance, seulement du prix d'entrée dans une certaine classe de mémoire.</p>\n<h2 id=\"local-contre-cloud-le-gain-est-le-debit-\">Local contre cloud : le gain est le débit, pas l'économie</h2>\n<p>Un utilisateur de r/LocalLLaMA a comparé GLM 5.3 flash servi via l'abonnement Z.ai et le même modèle exécuté en local, à prompt identique. Résultat : 43 minutes et 48 secondes dans le cloud pour 117 980 tokens de sortie, contre 10 minutes et 24 secondes en local pour 118 173 tokens, soit environ 4,2 fois plus vite.</p>\n<p>L'économie monétaire, elle, est anecdotique : 0,70 dollar. Ce n'est pas là que se situe l'intérêt. La machine alignée par l'utilisateur — deux RTX Pro 6000, un Threadripper 9960X et 128 Go de DDR5 — permet surtout de produire bien plus de code par jour. Le raisonnement vaut d'être noté : sur du volume, c'est le temps de génération qui coûte, pas la facture au token.</p>\n<p>À lire comme une mesure isolée, sur un modèle et une configuration donnés, pas comme une loi générale sur le local.</p>\n<h2 id=\"qwen4-fuite-dans-un-depot-llm-0-37-publi\">Qwen4 fuité dans un dépôt, LLM 0.37 publié</h2>\n<p>Deux pull requests du dépôt GitHub qwen-code (QwenLM) exposent une série d'identifiants de modèles non annoncés : `qwen4`, `qwen4-max`, `qwen4-plus`, `qwen4.5-max`, `qwen4-coder-plus`, `qwen4-max-2026-10-01`, `openai/qwen4-max` et `qwen4-omni-120b-think`. D'après la PR, tous résolvent vers 262 144, et le dernier sert déjà de modèle de session dans les fixtures omni : ces identifiants ne sont donc pas hypothétiques. La fuite donne un aperçu de la prochaine famille Qwen avant toute communication officielle.</p>\n<p>Côté outillage, Simon Willison publie LLM 0.37, son outil en ligne de commande et bibliothèque Python. Une commande `llm openai endpoint add` facilite la configuration d'endpoints compatibles OpenAI, et deux modèles arrivent : `gpt-6.1-sol` et `gpt-6.1-terra`. Le modèle par défaut passe à `gpt-6-luna`, moitié moins cher que `gpt-5.6-luna`. Les embeddings acceptent désormais plusieurs content-type, ce qu'exige Gemini Embedding 2.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois des cinq dépêches tournent autour du même objet : la mémoire des cartes graphiques, qui décide de ce qu'on peut faire tourner chez soi, et son prix d'occasion, qui décide de qui peut le faire. Les deux autres rappellent que la couche logicielle bouge au moins aussi vite, entre identifiants Qwen4 déjà résolus dans un dépôt et un LLM 0.37 qui change de modèle par défaut. Reste que les chiffres cités ici sont des mesures et des affirmations d'utilisateurs, pas des benchmarks contrôlés.</p>",
+ "pivot": "08bf22ba9d06eaf0",
+ "tags": [
+  "matériel",
+  "open-source",
+  "dev",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmqq2a/rtx_5090_with_64gb_and_96gb_vram_confirmed_by_us/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmjipa/underrated_benefit_of_local_ai_speed/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmgmd8/rtx_8000_48gb_prices_have_decreased_over_the_last/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Nov/2/llm/"
+  }
+ ],
+ "date": "2026-11-03T11:51:12+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1743,
+  "sortie": 2838
+ }
+}

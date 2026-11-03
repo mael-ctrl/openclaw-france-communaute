@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kit OpenClaw gratuit — installation pas-à-pas en français | OpenClaw France</title>
-<meta name="description" content="Kit OpenClaw gratuit en français : guide, fichiers Docker, checklist sécurité et script de sauvegarde. Réglages, planification et restauration expliqués.">
+<meta name="description" content="OpenClaw : kit gratuit en français, prérequis et choix de méthode, configuration du modèle et vérification du premier message avant les messageries.">
 <link rel="canonical" href="https://openclaw-france.fr/openclaw/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Kit OpenClaw — 100 % gratuit">
-<meta property="og:description" content="Guide pas-à-pas + fichiers prêts + checklist sécurité. Offert à tous.">
+<meta property="og:description" content="OpenClaw : kit gratuit en français, prérequis et choix de méthode, configuration du modèle et vérification du premier message avant les messageries.">
 <meta property="og:url" content="https://openclaw-france.fr/openclaw/">
 <meta property="og:site_name" content="OpenClaw France">
 <meta property="og:locale" content="fr_FR">
@@ -19,7 +19,7 @@
 <meta property="og:image:alt" content="Visuel OpenClaw France.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Kit OpenClaw — 100 % gratuit">
-<meta name="twitter:description" content="Guide pas-à-pas + fichiers prêts + checklist sécurité. Offert à tous.">
+<meta name="twitter:description" content="OpenClaw : kit gratuit en français, prérequis et choix de méthode, configuration du modèle et vérification du premier message avant les messageries.">
 <meta name="twitter:image" content="https://openclaw-france.fr/static/og-image.png">
 <meta name="twitter:image:alt" content="Visuel OpenClaw France.">
 <link rel="icon" href="/static/favicon.svg">
@@ -57,6 +57,9 @@
       L'assistant personnel open source qui vit sur ta machine — branché à tes messageries et tes outils.
       Tout ce qu'on vendait 97 € est dans ce kit. Aujourd'hui : <b>0 €</b>.
     </p>
+    <p id="avant-installation"><strong>Télécharger le kit ne configure pas ta machine.</strong>
+      Choisis ta méthode, configure le modèle, puis vérifie une première réponse.
+      <a href="#installation">Du ZIP au premier message : les étapes →</a></p>
     <p><a href="#prerequis">Avant de télécharger : vérifie ton système et les prérequis →</a></p>
     <p><strong>Kit et guides : 0 €.</strong> L’accès au <strong>modèle IA</strong> et
       l’<strong>hébergement</strong> peuvent être payants.
@@ -70,7 +73,7 @@
       <a href="#depannage">OpenClaw installé, mais inaccessible ? Trois contrôles →</a></p>
     <p><a href="#verifier-zip">Après le téléchargement : vérifier l’intégrité du ZIP →</a></p>
     <div class="mini">
-      <span>⏱️ <b>~30 min</b> d'installation</span>
+      <span>🧭 <b>À ton rythme</b>, selon ta machine</span>
       <span>🔒 <b>Sécurité à vérifier</b></span>
       <span>🇫🇷 <b>100 % en français</b></span>
     </div>
@@ -145,7 +148,7 @@
       <a class="fichier" href="/dl/kit-openclaw/GUIDE.md"><span class="ico">📖</span><span><b>GUIDE.md</b><small>Le guide pas-à-pas complet</small></span></a>
       <a class="fichier" href="/dl/kit-openclaw/docker-compose.yml"><span class="ico">🐳</span><span><b>docker-compose.yml</b><small>Le fichier de démarrage prêt</small></span></a>
       <a class="fichier" href="/dl/kit-openclaw/.env.example"><span class="ico">⚙️</span><span><b>.env.example</b><small>Modèle de configuration (à copier en .env)</small></span></a>
-      <a class="fichier" href="/dl/kit-openclaw/scripts/install.sh"><span class="ico">🚀</span><span><b>scripts/install.sh</b><small>Installation automatique des pré-requis</small></span></a>
+      <a class="fichier" href="/dl/kit-openclaw/scripts/install.sh"><span class="ico">🚀</span><span><b>scripts/install.sh</b><small>Lance l’installateur officiel</small></span></a>
       <a class="fichier" href="/dl/kit-openclaw/scripts/sauvegarde.sh"><span class="ico">💾</span><span><b>scripts/sauvegarde.sh</b><small>Sauvegarde à lancer ou à planifier</small></span></a>
       <a class="fichier" href="/dl/kit-openclaw/scripts/mise-a-jour.sh"><span class="ico">🔄</span><span><b>scripts/mise-a-jour.sh</b><small>Mises à jour en une commande</small></span></a>
       <a class="fichier" href="/dl/kit-openclaw/securite.md"><span class="ico">🛡️</span><span><b>securite.md</b><small>La checklist sécurité (12 points)</small></span></a>
@@ -177,34 +180,54 @@
     </details>
   </section>
 
-  <section>
+  <section id="installation" aria-labelledby="titre-installation" style="scroll-margin-top:88px">
     <div class="titre-section">
-      <div class="kicker">Comment ça se passe</div>
-      <h2>Trois étapes, et c'est chez toi</h2>
+      <div class="kicker">Du kit au premier message</div>
+      <h2 id="titre-installation">Télécharger, configurer, puis vérifier</h2>
+      <p>Le ZIP contient des guides et des fichiers, pas une installation déjà réglée.
+        Le temps nécessaire dépend de ta machine, de la méthode et de tes accès au modèle.</p>
     </div>
     <div class="etapes">
       <div class="etape">
-        <div></div>
         <div>
-          <h3>Télécharge et décompresse le kit</h3>
-          <p>Le .zip contient le guide, les fichiers de configuration et les scripts. Rien d'exotique : du texte et du shell.</p>
+          <h3>Lis le guide et choisis une seule méthode</h3>
+          <p>Après décompression, lis le <a href="/dl/kit-openclaw/GUIDE.md">GUIDE.md</a> et les
+            <a href="#prerequis">prérequis</a>. Installation classique ou Docker : suis le parcours
+            correspondant, sans mélanger leurs commandes. Le script <code>install.sh</code> du kit
+            lance l’installateur officiel ; il ne configure pas Docker, le pare-feu ou les sauvegardes.</p>
         </div>
       </div>
       <div class="etape">
-        <div></div>
         <div>
-          <h3>Lis le GUIDE.md, puis choisis ta méthode</h3>
-          <p>Installation classique ou Docker : lis les étapes adaptées. Le script install.sh lance l’installateur officiel ; il ne remplace pas les réglages de sécurité ni la préparation des sauvegardes.</p>
+          <h3>Configure le fournisseur et garde tes secrets privés</h3>
+          <p>L’assistant de configuration permet de choisir un <strong>fournisseur compatible</strong>
+            et un modèle. Vérifie les accès proposés avant de les réutiliser, ainsi que le
+            <a href="#budget">budget du fournisseur</a>. Une clé API se renseigne dans la
+            <strong>configuration privée</strong> prévue, pas dans le chat ou une capture publique.
+            Le jeton de la passerelle protège le tableau de bord : il est distinct de la clé du modèle.</p>
         </div>
       </div>
       <div class="etape">
-        <div></div>
         <div>
-          <h3>Vérifie la sécurité, programme la sauvegarde</h3>
-          <p>Applique la checklist adaptée à ta machine, lance une sauvegarde, puis vérifie la planification et prépare un essai de restauration. <a href="#securite-sauvegardes">Voir les limites et les contrôles →</a>.</p>
+          <h3>Obtiens une première réponse avant les intégrations</h3>
+          <p><strong>Installation classique :</strong> contrôle <code>openclaw gateway status</code>,
+            puis ouvre <code>openclaw dashboard</code>. <strong>Docker :</strong> utilise les commandes
+            de vérification et d’accès du guide, pas celles d’une installation locale.
+            Sur VPS, garde l’accès privé ; le <a href="#depannage">dépannage explique le tunnel SSH</a>.
+            Dans le tableau de bord, demande le résumé d’un <strong>texte fictif</strong> sans données
+            sensibles. Attends une <strong>réponse sans erreur</strong> du modèle, pas seulement une page
+            qui s’ouvre, <strong>avant de brancher tes messageries</strong>.</p>
         </div>
       </div>
     </div>
+    <p>Un premier message réussi ne valide pas toute la sécurité. Applique la checklist, lance une
+      sauvegarde, vérifie sa planification et prépare un essai de restauration :
+      <a href="#securite-sauvegardes">les limites et contrôles du kit →</a>.</p>
+    <p>Parcours recoupé le <time datetime="2026-11-03">03/11/2026</time> avec les fichiers du kit,
+      les <a href="https://docs.openclaw.ai/start/getting-started" rel="noopener">premiers pas officiels</a>
+      et la <a href="https://docs.openclaw.ai/install/docker" rel="noopener">méthode Docker officielle</a>.
+      Synthèse indépendante : <strong>pas une installation testée</strong> sur ta machine.
+      La documentation officielle prévaut en cas d’écart.</p>
   </section>
 
   <section id="depannage" aria-labelledby="titre-depannage" style="scroll-margin-top:88px">

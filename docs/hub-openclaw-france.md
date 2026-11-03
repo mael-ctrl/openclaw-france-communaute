@@ -949,6 +949,41 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
   cette semaine. Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-02/hub-hermes-installation/`.
 
+## OpenClaw : du téléchargement au premier message — livraison du 03/11/2026
+
+- **Une amélioration** : parcours `/openclaw/#installation` relié avant les boutons.
+  Le ZIP est distingué de la configuration de la machine ; trois étapes séparent
+  choix classique/Docker, fournisseur et secrets privés, première réponse du modèle
+  avant les messageries. Délai approximatif retiré, rôle du script précisé et
+  descriptions SEO/partage alignées. Cartes sans cellule vide : texte dans la bonne
+  colonne. Aucun kit, script, style ou texte juridique modifié.
+- Guide et script du kit relus ; premiers pas et installation Docker officiels
+  consultés. Vérification documentaire, aucune installation réelle prétendue.
+- **3 nouveaux tests** échouent avant correction puis passent ; **292 tests OK**
+  dans la suite complète et **3 tests OK sur le HTML public**. En-tête, bloc
+  d’accueil et section installation publics identiques aux sources.
+- Chrome avec/sans JavaScript : **12 contrôles locaux** (1440, 1024, 430, 390,
+  375, 360 px), **6 publics** (1440, 390, 360 px). Note avant les boutons,
+  ancres installation/prérequis/budget/dépannage au clavier, styles, largeur des
+  cartes et absence de débordement vérifiés. Le contrôle attend la fin du défilement
+  au focus avant la touche Entrée, pour ne pas interrompre les ancres natives.
+- Bureau inaccessible à Git, FileProvider en erreur ; clone partagé en conflits
+  laissé intact. Publication par `python3 outils/deployer_openclaw.py` depuis
+  `~/.hermes/workspaces/hub-openclaw-20261003`, synchronisé avant modification.
+  Sauvegarde privée et absence de divergence production/Git avant envoi ;
+  **36 fichiers relus via FTP**, identiques aux sources après déploiement.
+  Seuls OpenClaw et le sitemap ont changé ; dates/modes des sources restaurés
+  avant régénération, ZIP et manifeste inchangés. CRC et SHA-256 vérifiés en HTTPS.
+- Santé : **six URL demandées en HTTP 200**, ainsi que manifeste, sitemap, clé
+  IndexNow et guide OpenClaw. **IndexNow HTTP 200** pour `/openclaw/` : notification
+  acceptée, sans preuve d’indexation ni de croissance du trafic.
+- **Aucune distribution supplémentaire** : journal du 03/11 relu, accès/permissions
+  bloquants déjà consignés et promotion Bluesky du 02/11 excluante cette semaine.
+  Aucun nouveau contact ni formulaire. Prochaine action : suivre les retours du
+  post existant sans republier pendant la semaine du 02 au 08/11.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-03/hub-openclaw-installation/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

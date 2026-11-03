@@ -1,5 +1,132 @@
 [
  {
+  "id": "0680307c0752918c",
+  "slug": "codex-la-preversion-alpha-0-167-0-publiee-sur-github-068030",
+  "titre": "Codex : la préversion alpha 0.167.0 publiée sur GitHub",
+  "resume": "OpenAI a mis en ligne la préversion 0.167.0-alpha.4 de Codex sur GitHub. Le tag de la release, rust-v0.167.0-alpha.4, renvoie à la version Rust du projet. La note de version se limite à ce numéro : aucun détail sur les changements apportés n'est fourni. Il s'agit d'une version alpha, donc instable et destinée aux tests.",
+  "tags": [
+   "openai",
+   "dev",
+   "open-source",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4",
+  "date_source": "2026-11-03T02:29:10+00:00",
+  "date_redac": "2026-11-03T03:13:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 695
+  }
+ },
+ {
+  "id": "eff2e9fd0ecdfdaa",
+  "slug": "les-rtx-8000-48-go-se-negocient-autour-de-2-100-la-rtx-3090-a-double-eff2e9",
+  "titre": "Les RTX 8000 48 Go se négocient autour de 2 100 $, la RTX 3090 a doublé",
+  "resume": "En 2024, un utilisateur de r/LocalLLaMA payait sa RTX 8000 48 Go 2 400 $ ; elle se négocie aujourd'hui autour de 2 100 $. Deux RTX 3090 coûtaient alors 1 600 à 1 800 $, contre 1 500 à 1 600 $ pour une seule désormais : la RTX 8000 devient moins chère au gigaoctet de VRAM. Plus lente en inférence (672 Go/s contre 936 Go/s), elle offre le double de mémoire pour 265 W contre 700 W.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xmgmd8/rtx_8000_48gb_prices_have_decreased_over_the_last/",
+  "date_source": "2026-11-03T02:09:42+00:00",
+  "date_redac": "2026-11-03T03:14:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 920,
+   "sortie": 1129
+  }
+ },
+ {
+  "id": "9ef8b31fdc2459e9",
+  "slug": "apple-evoque-des-pistes-de-revenus-liees-aux-apps-ia-tierces-9ef8b3",
+  "titre": "Apple évoque des pistes de revenus liées aux apps IA tierces",
+  "resume": "Lors de sa conférence de résultats de lundi soir, Apple a évoqué des pistes pour augmenter ses revenus via des « opportunités » liées à des tiers. Le titre de TechCrunch mentionne les applications d'IA tierces, mais aucune modalité précise n'a été détaillée.",
+  "tags": [
+   "business",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+  "date_source": "2026-11-03T01:49:52+00:00",
+  "date_redac": "2026-11-03T03:14:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 626,
+   "sortie": 637
+  }
+ },
+ {
+  "id": "3245e8de783588c3",
+  "slug": "openclaw-publie-la-version-2026-10-10-de-son-projet-3245e8",
+  "titre": "OpenClaw publie la version 2026.10.10 de son projet",
+  "resume": "OpenClaw annonce la sortie de la version 2026.10.10. La note de version se limite à son intitulé : ni le détail des changements ni les correctifs éventuels n'y sont précisés. Le lien vers la release renvoie aux artefacts et au code publiés sur GitHub.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.10",
+  "date_source": "2026-11-03T01:32:18+00:00",
+  "date_redac": "2026-11-03T03:14:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 593,
+   "sortie": 403
+  }
+ },
+ {
+  "id": "f3dfb744dea2eec6",
+  "slug": "claude-code-2-1-317-connecteurs-non-demandes-et-e-mail-sous-controle-f3dfb7",
+  "titre": "Claude Code 2.1.317 : connecteurs non demandés et e-mail sous contrôle",
+  "resume": "Claude Code 2.1.317 avertit dans /schedule quand une tâche cloud planifiée reçoit des connecteurs non demandés, et comment les retirer. Un contrôle demande confirmation avant qu'un appel d'outil web ou shell n'envoie l'e-mail du compte sur le réseau. Le SDK accepte onFailure: « block » pour bloquer une action dont le callback échoue. Les métriques OTel gagnent quatre attributs et l'API admin un rapport de coûts.",
+  "tags": [
+   "claude",
+   "dev",
+   "sécurité",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+  "date_source": "2026-11-03T01:25:46+00:00",
+  "date_redac": "2026-11-03T03:14:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 804,
+   "sortie": 1485
+  }
+ },
+ {
+  "id": "08bef051d4ef4b42",
+  "slug": "un-llm-local-pour-fouiller-16-ans-de-comptes-rendus-municipaux-08bef0",
+  "titre": "Un LLM local pour fouiller 16 ans de comptes rendus municipaux",
+  "resume": "Un internaute de r/LocalLLaMA a confié seize ans de comptes rendus du conseil municipal à Qwen 3.8 27B Q6 pour savoir qui a validé l'achat de caméras Flock. Il a trouvé une subvention de 9 000 dollars obtenue par le chef de la police, mais aucune trace de commentaires publics dans les minutes, qui restent des résumés. Les séances sont diffusées sur YouTube avec transcription automatique, qu'il cherche à récupérer.",
+  "tags": [
+   "open-source",
+   "société",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xmfbam/i_found_another_niche_use_case_for_local_llms_but/",
+  "date_source": "2026-11-03T01:08:11+00:00",
+  "date_redac": "2026-11-03T03:14:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 794,
+   "sortie": 1024
+  }
+ },
+ {
   "id": "61fa61a53ae1badb",
   "slug": "llm-0-37-nouveaux-modeles-endpoints-openai-et-embeddings-multimodaux-61fa61",
   "titre": "llm 0.37 : nouveaux modèles, endpoints OpenAI et embeddings multimodaux",

@@ -1,0 +1,41 @@
+{
+ "slug": "rtx-8000-contre-rtx-3090-le-calcul-de-la-vram-a-change-de-ca-eff2e9",
+ "titre": "RTX 8000 contre RTX 3090 : le calcul de la VRAM a changé de camp",
+ "chapo": "Une RTX 8000 48 Go se négocie aujourd'hui autour de 2 100 dollars, quand une seule RTX 3090 est passée à 1 500-1 600 dollars : le rapport mémoire-prix bascule. Au même moment, l'inférence locale descend dans le navigateur et les agents passent en production managée.",
+ "html": "<h2 id=\"48-go-pour-2-100-dollars-la-bascule\">48 Go pour 2 100 dollars, la bascule</h2>\n<p>En 2024, un utilisateur de r/LocalLLaMA avait payé sa RTX 8000 48 Go <strong>2 400 dollars</strong>. Elle se négocie aujourd'hui autour de <strong>2 100 dollars</strong> — une baisse, sur un marché du GPU d'occasion où l'inverse est plus fréquent. La comparaison qui compte est ailleurs : deux RTX 3090 valaient alors 1 600 à 1 800 dollars, contre <strong>1 500 à 1 600 dollars pour une seule</strong> désormais. La carte 48 Go devient donc moins chère au gigaoctet de VRAM.</p>\n<p>Le calcul a ses contreparties, et elles sont nettes. La RTX 8000 est plus lente en inférence : <strong>672 Go/s</strong> de bande passante mémoire contre <strong>936 Go/s</strong> pour la RTX 3090. Elle offre en revanche le double de mémoire pour <strong>265 W</strong>, là où deux RTX 3090 en réclament <strong>700 W</strong>.</p>\n<p>Pour qui doit faire tenir un modèle entier en mémoire, la capacité pèse souvent plus lourd que le débit. Pour qui enchaîne les tokens, l'arbitrage s'inverse. Les chiffres posent le décor, ils ne tranchent pas à la place de l'utilisateur.</p>\n<h2 id=\"le-local-ne-s-arrete-plus-au-boitier\">Le local ne s'arrête plus au boîtier</h2>\n<p>L'autre manière de faire tourner un modèle chez soi ne passe plus forcément par une carte graphique. Liquid AI a présenté <strong>LFM3 Omni 2B</strong>, son nouveau modèle omni, en démonstration directement dans un navigateur via <strong>WebGPU</strong>. La vidéo de la démo provient de l'espace Hugging Face de l'entreprise elle-même.</p>\n<p>L'argument tient en une ligne : exécution locale, côté navigateur, sans dépendre d'une infrastructure serveur distante. On n'est pas sur la même contrainte que les 48 Go de VRAM de la dépêche précédente — l'une achète de la mémoire et de la bande passante, l'autre supprime l'installation et le serveur. Deux réponses à la même question de fond : où tourne le modèle, et à qui appartient la machine qui le fait tourner.</p>\n<h2 id=\"agents-en-production-avec-ou-sans-traces\">Agents en production : avec ou sans traces</h2>\n<p>LangChain annonce <strong>Managed Deep Agents</strong>, une offre pour faire tourner des agents « deep » en production sans construire soi-même le runtime. Le service embarque l'exécution durable, des sandboxes, l'accès aux outils et l'observabilité via LangSmith. Disponibilité : <strong>bêta privée</strong>.</p>\n<p>Le cas de Legora montre la version opposée du problème. L'entreprise développe des agents pour les avocats mais ne peut consulter <strong>aucune trace</strong> de leur travail : les données appartiennent aux clients des cabinets. Jacob Lauritzen, CTO de Legora, explique dans Latent Space comment on construit et teste un agent quand on ne voit pas ce qu'il fait. Legora figure parmi les entreprises à la croissance la plus rapide du secteur.</p>\n<p>Deux modèles de production cohabitent donc : celui où l'on instrumente tout, et celui où l'observabilité est structurellement hors de portée. Le second n'est pas un cas dégradé, c'est une contrainte de départ.</p>\n<h2 id=\"l-outillage-en-ligne-de-commande-suit\">L'outillage en ligne de commande suit</h2>\n<p>Simon Willison publie <strong>LLM 0.37</strong>, son outil en ligne de commande et sa bibliothèque Python. Une commande `llm openai endpoint add` facilite la configuration d'endpoints compatibles OpenAI, et deux modèles arrivent : <strong>gpt-6.1-sol</strong> et <strong>gpt-6.1-terra</strong>.</p>\n<p>Le modèle par défaut passe à <strong>gpt-6-luna</strong>, moitié moins cher que gpt-5.6-luna. Les embeddings acceptent désormais plusieurs content-type, ce qu'exige <strong>Gemini Embedding 2</strong>.</p>\n<p>Rien de spectaculaire dans cette version, et c'est précisément ce qui la rend lisible : les endpoints compatibles OpenAI deviennent une interface standard que l'on configure en une commande, et le coût par défaut baisse. Quand le matériel local se renégocie à la baisse d'un côté, l'outillage qui pilote les API distantes s'allège de l'autre. Les deux mouvements vont dans le même sens.</p>\n<h2>Et maintenant ?</h2>\n<p>Le matériel d'occasion redevient un calcul rationnel — mémoire par dollar d'un côté, watts et bande passante de l'autre — au moment où l'exécution locale trouve une porte de sortie par le navigateur et où les agents quittent le prototype. Ce qui se joue n'est pas le remplacement d'un camp par l'autre : une RTX 8000 à 265 W et une démo WebGPU ne répondent pas à la même demande. La ligne de partage se déplace plutôt vers l'observabilité, entre ceux qui peuvent tracer leurs agents et ceux dont les données interdisent d'y regarder.</p>",
+ "pivot": "eff2e9fd0ecdfdaa",
+ "tags": [
+  "matériel",
+  "agents",
+  "dev",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmgmd8/rtx_8000_48gb_prices_have_decreased_over_the_last/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Nov/2/llm/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/"
+  },
+  {
+   "nom": "LangChain (blog officiel)",
+   "url": "https://www.langchain.com/blog/introducing-managed-deep-agents"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk2kb/lfm3_omni_2b_is_incredible/"
+  }
+ ],
+ "date": "2026-11-03T03:14:57+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1540,
+  "sortie": 3171
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "deepseek-v5-sur-puces-huawei-et-le-calcul-qui-change-de-camp-cc9ce8",
+ "titre": "DeepSeek V5 sur puces Huawei, et le calcul qui change de camp",
+ "chapo": "DeepSeek pré-entraînerait son V5 sur les puces Ascend de Huawei, selon le média chinois STAR Market Daily. Côté terrain, une approche propose de faire lire et écrire aux LLM les poids d'un réseau, et les utilisateurs de modèles en local comparent leurs chiffres au cloud.",
+ "html": "<h2 id=\"ascend-passe-de-l-inference-au-pre-entra\">Ascend passe de l'inférence au pré-entraînement</h2>\n<p>Selon le média chinois STAR Market Daily, relayé sur r/LocalLLaMA, le prochain grand modèle de DeepSeek, V5, serait pré-entraîné sur les puces Ascend de Huawei. Jusqu'ici, ces puces servaient surtout à l'inférence pour les modèles de DeepSeek : elles faisaient tourner le modèle une fois entraîné, elles ne servaient pas à le construire.</p>\n<p>Le premier déploiement à grande échelle sur la plateforme Ascend daterait du Nouvel An lunaire 2025. Passer de l'inférence au pré-entraînement déplace la dépendance matérielle du laboratoire, du service rendu au modèle vers la fabrication du modèle.</p>\n<p>À prendre avec les précautions d'usage : l'information vient d'un média relayé sur un forum, pas d'une annonce officielle de DeepSeek ni de Huawei. Aucun détail n'est donné sur les volumes de puces mobilisés, ni sur un calendrier de publication.</p>\n<h2 id=\"des-llm-qui-ecrivent-dans-les-poids\">Des LLM qui écrivent dans les poids</h2>\n<p>Latent Space relaie une approche baptisée <strong>Weight Space Programming</strong> : des modèles de langage lisent et écrivent directement les poids d'un réseau de neurones. Le point d'intervention change de nature — plutôt que d'agir sur les entrées, les prompts ou les outils, le modèle modifie les paramètres eux-mêmes.</p>\n<p>L'exemple cité consiste à modifier les poids de Qwen pour réduire les boucles de raisonnement, ces tours à vide où le modèle se relit sans avancer.</p>\n<p>Latent Space présente cette approche comme sortant l'autoresearch de la boucle RSI. Au sommaire de la même édition figurent également un prototype de super-agent signé DeepSeek et le benchmark GDPx.</p>\n<h2 id=\"le-local-tient-tete-au-cloud-sur-le-debi\">Le local tient tête au cloud, sur le débit plus que sur le dollar</h2>\n<p>Un utilisateur de r/LocalLLaMA a comparé GLM 5.3 flash servi via l'abonnement Z.ai et le même modèle en local, à prompt identique. Cloud : 43:48 pour 117 980 tokens de sortie. Local : 10:24 pour 118 173 tokens, soit environ 4,2 fois plus vite.</p>\n<p>L'économie brute n'est que de 0,70 dollar. L'argument est ailleurs : la machine — deux RTX Pro 6000, un Threadripper 9960X, 128 Go de DDR5 — permet de produire bien plus de code par jour. Le gain se mesure en débit de travail, pas en dollars.</p>\n<p>À l'autre bout du spectre, le coût se rappelle au bon souvenir d'Elon Musk. Grok Bot coûte plus cher qu'il ne rapporte, et SpaceXAI a des factures à régler : des abonnés ont découvert que leur quota d'utilisation s'épuisait très rapidement. Musk justifie ces restrictions, tout en affirmant en parallèle que l'IA rendra l'épargne inutile.</p>\n<h2 id=\"la-rtx-8000-baisse-la-3090-s-envole\">La RTX 8000 baisse, la 3090 s'envole</h2>\n<p>Sur le marché de l'occasion, les repères bougent. En 2024, un utilisateur de r/LocalLLaMA payait sa RTX 8000 48 Go 2 400 dollars ; elle se négocie aujourd'hui autour de 2 100. Dans le même temps, deux RTX 3090 coûtaient 1 600 à 1 800 dollars, contre 1 500 à 1 600 pour une seule désormais.</p>\n<p>Conséquence directe : la RTX 8000 devient moins chère au gigaoctet de VRAM. Elle est plus lente en inférence — 672 Go/s contre 936 Go/s — mais offre le double de mémoire pour 265 W contre 700 W.</p>\n<h2>Et maintenant ?</h2>\n<p>Ces dépêches ne racontent pas une seule histoire. Un laboratoire chinois qui pré-entraînerait sur des puces maison, une méthode qui agit sur les poids plutôt que sur les prompts, un utilisateur qui gagne 4,2 fois en vitesse pour 0,70 dollar d'économie, une RTX 8000 qui se détend quand la 3090 s'envole, des quotas Grok resserrés pour raisons de coût : cinq façons de poser la même question — où passe le calcul, et qui le paie. Sur le coût réel d'un pré-entraînement sur Ascend, les chiffres publics manquent encore.</p>",
+ "pivot": "cc9ce87a3ec78107",
+ "tags": [
+  "deepseek",
+  "matériel",
+  "recherche",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmmadn/deepseek_v5_is_planned_to_be_pretrained_on_huawei/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/11/03/elon-musk-fait-la-manche-aupres-des-utilisateurs-de-grok-bot/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmjipa/underrated_benefit_of_local_ai_speed/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmgmd8/rtx_8000_48gb_prices_have_decreased_over_the_last/"
+  }
+ ],
+ "date": "2026-11-03T08:14:42+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1639,
+  "sortie": 4083
+ }
+}

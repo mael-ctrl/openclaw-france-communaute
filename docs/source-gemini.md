@@ -58,3 +58,33 @@ conformes au catalogue ; SHA-256
 Preuves privées : `crabe-chantiers/croissance/2026-11-03-gemini/preuves/`
 (capture Atom, provenance GitHub, rouge/vert, suite, essai et résultats JSON).
 La validation locale seule ne constitue pas une preuve de publication.
+
+## Publication ciblée vérifiée à 13:25 UTC
+
+Configuration, test et première version de ce document poussés sous
+`994f02d16cba1ae04675ed4a6f241595cde7cef4` ; les trois fichiers ont été relus
+identiques sur `main` distant (repli Git après un HTTP 500 de l'API contents).
+Dispatch `41641495254` sur ce SHA : **contrats cloud réussis à 13:27:38 UTC**,
+pipeline encore en cours au relevé de 13:27:42 ; sauvegarde non encore acquise.
+
+L'ancien run `41637768563`, sur le catalogue à 26 sources, a été laissé aller
+jusqu'à son succès après 43 min 51 s avant le transfert ciblé, sans annulation.
+Cela évite de lui laisser écraser prévisiblement le nouvel export. Ses attentes
+locales de cinq minutes expirées ne constituaient pas des échecs du workflow.
+
+À 13:25:17, préflight SFTP : ancien OPML exactement conforme au parent Git,
+cibles SFTP/HTTPS identiques, clé hôte Ed25519 épinglée avant authentification,
+sauvegardes privées. Seules `/veille/sources.opml` et la valeur **26 → 27** du
+compteur de `/transparence/` ont été envoyées, par fichier temporaire/renommage
+puis relecture SFTP exacte. Tous les autres octets de Transparence sont conservés.
+
+À **13:25:43 UTC**, deux lectures successives de chacune des URL canoniques
+en TLS strict : 200, octets exacts, **27 adresses OPML uniques**, Gemini une fois.
+L'empreinte OPML est celle de la recette ci-dessus ; Transparence :
+`5c63596b89b0ff5683c618609ba2872ba1761786fba17f3ede866366cc2a505d`.
+Preuves : `livraison-ciblee/`, `preuves/https-20261103T132543Z/` et
+`preuves/cloud-preflight-final.json` dans le chantier privé.
+
+L'export et son compteur sont livrés ; le conflit du clone partagé reste
+intact, et cette publication ciblée ne clôt pas le pipeline cloud en cours.
+Collecte future, publications et effet d'audience restent distincts.

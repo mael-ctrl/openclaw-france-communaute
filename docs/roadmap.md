@@ -1,5 +1,9 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Croissance du 3 novembre — source Gemini CLI
+
+**Une source officielle ajoutée :** `994f02d`, catalogue **27 flux**, préversions explicites ; **289 tests Python et essai sans rédaction réussis**. OPML et compteur de Transparence publiés par SFTP ciblé après la fin du run antérieur, deux lectures canoniques exactes à **13:25:43 UTC**. Contrats du dispatch `41641495254` réussis à **13:27:38**, pipeline encore en cours, sauvegarde non acquise à ce relevé. Prochaine étape : contrôler sa clôture et les prochaines collectes, sans réintégrer cette source ni confondre candidats et publications. Aucun gain d'audience mesuré. [Preuves et limites](source-gemini.md).
+
 ## Chantier site du 3 novembre — sommaire natif
 
 **Seule nouvelle intégration fonctionnelle de ce passage :** premier candidat site du relais P2, sommaire natif des articles ; code absent sur la base requalifiée `49cfea8`. **286 Python + huit Node réussis**, suite originale sans fixture modifiée, deux builds complets : **502/503 articles enrichis**, **1 684 brèves inchangées**, seuls sommaire/IDs et CSS préfixée diffèrent ; **650 fichiers de données/contenus/sites préservés**. **99 contrôles navigateur sans JS** et essai isolé sans rédaction réussis. [Dossier, provenance et limites](sommaire-articles.md).

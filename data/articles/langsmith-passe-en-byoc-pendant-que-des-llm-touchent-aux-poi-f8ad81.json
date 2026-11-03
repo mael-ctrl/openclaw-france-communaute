@@ -1,0 +1,41 @@
+{
+ "slug": "langsmith-passe-en-byoc-pendant-que-des-llm-touchent-aux-poi-f8ad81",
+ "titre": "LangSmith passe en BYOC, pendant que des LLM touchent aux poids",
+ "chapo": "LangChain ouvre LangSmith BYOC en disponibilité générale sur AWS, et en bêta sur Azure et Google Cloud : les traces, les évaluations et les déploiements d'agents restent dans le compte cloud du client. À côté, Latent Space relaie une approche où des modèles de langage lisent et écrivent directement les poids d'un réseau.",
+ "html": "<h2 id=\"le-cloud-du-client-comme-perimetre\">Le cloud du client comme périmètre</h2>\n<p>Le principe du BYOC — <em>bring your own cloud</em> — est simple à énoncer : les traces, les évaluations et les déploiements d'agents restent dans le compte cloud du client, tandis que LangChain exploite le service. La plateforme d'observabilité de LangChain est désormais en disponibilité générale sur AWS, et en version bêta sur Azure et Google Cloud.</p>\n<p>L'argument avancé vise les équipes qui veulent garder la main sur leurs données. Ce n'est pas un détail d'architecture : quand on instrumente des agents, les traces charrient des requêtes, des contextes, parfois des extraits de systèmes internes. Les laisser dans son propre compte change la façon dont un responsable technique regarde la facture et la conformité.</p>\n<h2 id=\"sept-outils-de-navigation-puis-des-trace\">Sept outils de navigation, puis des traces pour trancher</h2>\n<p>Toujours côté LangChain, l'équipe raconte comment elle a comparé <strong>sept jeux d'outils de navigation web</strong> destinés à ses Deep Agents avant de retenir Stagehand, développé par Browserbase. Le choix a ensuite été affiné à l'aide des traces et des évaluations de LangSmith.</p>\n<p>Le billet détaille la méthode de comparaison et les enseignements que l'équipe en tire. Deux publications de la même maison, donc, mais sur des sujets distincts : l'une porte sur l'endroit où vivent les données, l'autre sur la manière de choisir un outil pour un agent qui doit cliquer dans un navigateur. Le fil rouge reste le même : les traces servent de matériau de décision, pas seulement de journal d'incidents.</p>\n<h2 id=\"quand-le-modele-ecrit-dans-les-poids\">Quand le modèle écrit dans les poids</h2>\n<p>Latent Space relaie une approche baptisée <strong>« Weight Space Programming »</strong>, où des modèles de langage lisent et écrivent directement les poids d'un réseau de neurones. L'exemple cité consiste à modifier les poids de Qwen pour réduire les boucles de raisonnement. Le billet évoque aussi un prototype de super-agent signé DeepSeek et le benchmark GDPx.</p>\n<p>En parallèle, sur r/LocalLLaMA, un internaute signale que Qwen 3.8 27B serait capable d'interpréter les poids d'un modèle, à l'image de GPT-6 Astra. Le fil ne précise ni la méthode employée ni les résultats obtenus. Les deux dépêches citent Qwen, mais rien n'établit de lien entre elles.</p>\n<p>Une telle capacité, si elle se confirme, concernerait directement l'analyse des modèles ouverts et le travail de celles et ceux qui les examinent. C'est le « si » qui compte ici : sans protocole ni mesure, l'affirmation reste une observation de forum, pas un résultat.</p>\n<h2 id=\"un-smartphone-pilote-par-l-ia-sans-googl\">Un smartphone piloté par l'IA, sans Google ni OpenAI</h2>\n<p>Cyclon, porté par deux ingénieurs, veut remplacer l'iPhone par un smartphone où l'IA utilise nos applications à notre place. L'équipe a remporté un hackathon en mai et décroché un ticket pour Y Combinator.</p>\n<p>Le projet est présenté comme le premier smartphone <strong>100 % piloté par l'IA</strong>, hors des sentiers de Google et d'OpenAI. Le positionnement est clair ; l'avancement, lui, se lit à l'aune de ce que les dépêches rapportent : un hackathon gagné et une entrée en accélérateur. Rien de plus, et c'est déjà beaucoup pour un projet qui s'attaque à la couche la plus verrouillée du marché.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches dessinent des couches différentes : l'infrastructure, avec des données qui ne quittent pas le compte du client ; l'outillage, avec des traces qui deviennent un critère de sélection ; l'intérieur du modèle, avec des poids qu'on prétend manipuler ; et l'appareil, avec un téléphone dont l'IA serait l'interface principale. Aucune ne dépend des autres, mais toutes butent sur la même question de preuve : ce qui est mesuré, avec quoi, et par qui.</p>",
+ "pivot": "f8ad811ffa4fc1e6",
+ "tags": [
+  "agents",
+  "dev",
+  "recherche",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "LangChain (blog officiel)",
+   "url": "https://www.langchain.com/blog/langsmith-byoc-aws-gc-azure"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3309751_ni-google-ni-openai-cyclon-degaine-le-premier-smartphone-100-pilote-par-lia"
+  },
+  {
+   "nom": "LangChain (blog officiel)",
+   "url": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/"
+  }
+ ],
+ "date": "2026-11-03T19:06:42+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1496,
+  "sortie": 2124
+ }
+}

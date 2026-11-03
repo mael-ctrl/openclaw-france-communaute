@@ -1,5 +1,36 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## État courant — 3 novembre 2026, revue du soir
+
+**Cette synthèse remplace les statuts historiques conservés ci-dessous.** Revue prévue à 21 h CET ; pull partagé tenté à **22:08**, refusé (128) pour six fichiers non fusionnés et journal indexé. Rebase sur `ddb26d4`, préservé sans abort/reset/stash. Worktree documentaire propre, pull réussi ici seulement ; base **`bdb0a687e2ddc2a8f993f23949a06782dfede72f`**. Fenêtre Git/créations GitHub figée à **22:23:53 CET** (`02/11 23:00:00 → 03/11 21:23:53 UTC`) ; HTTPS **22:26:41–22:27:23 CET**, sans antidatation.
+
+**Bilan :** 21 commits ; **24 runs = neuf succès, treize annulations pendant pipeline, un échec FTP et un en cours**. Sauvegarde ignorée après les treize annulations, réussie après l’échec. Sommaire, retour Pack et parcours OpenClaw publiés ; auteur clôturé ; Gemini porte la veille à **27 flux**. Trois missions privées, **559 références conformes**. KPI du matin : **757 IP estimées le 02/11**, pas le chiffre du 03 ; ventes/cumul indisponibles. Aucun déploiement, cron, paiement ou envoi déclenché par cette revue.
+
+| Chantier | Statut vérifié le 03/11 au soir | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | 🔶 **67 URL News uniques dans les 48 h sur 73 entrées** ; build 19:07:14 UTC. **506 articles Git = 506 URL individuelles du sitemap** ; OPML exact, **27 flux** | **04/11 :** suivre la collecte Gemini, sans réintégration ; cohérence local/cloud prioritaire. Sitemap/fraîcheur ≠ indexation ; GSC/Bing non nouvellement attestés. [Source](source-gemini.md) |
+| P2 — Site | ✅ Sommaire `b977ff0` publié : recette du chantier sur **503 articles**, 99 contrôles navigateur publics ; auteur **2 149/2 149** clôturé. Descendant `41630407075` réussi : **286 tests, 2 284 envois, sauvegarde `fe408f5`** | **04/11 :** ne refaire ni auteur ni sommaire ; choisir le prochain besoin après requalification. Ce soir, un article échantillonné porte le sommaire ; recette exhaustive non rejouée. [Dossier](sommaire-articles.md) |
+| P3 — Podcast | 🔶 Job du 3 affiché **running**, sans sortie finale ; index Git et flux public toujours à **15 épisodes/GUID**, dernier du 2 | **04/11 :** diagnostiquer/clôturer l’exécution existante et ses artefacts avant toute reprise, sans doublon ni antidatation. Aucun échec ni épisode du 3 livré déduit. Chaîne/annuaires non attestés |
+| P4 — Newsletter | 🔶 Préflight privé réel du **03/11 à 08:40 UTC : liste complète vide, zéro abonné** selon les pièces relues ; hebdo silencieux, aucun numéro envoyé attesté | **Avant envoi :** acquisition consentie puis expéditeur, consentement et désinscription éprouvés ; garde privée non activée. Ne pas recomposer chaque jour sans changement utile |
+| P5 — Monétisation | 🔴 Stripe OAuth refusé au KPI et aux **quatre veilles**, dernière 18:09 ; ventes/cumul indisponibles. Retour Pack factuel **exact en HTTPS** ; prix 14 € inchangé. B2B 200/mentions 404 | **Action humaine unique : réautoriser Stripe.** Puis attribution et identité vendeuse ; nom marchand non corrigé, aucun renommage global ou prospection. [Dossier](monetisation.md) |
+| P6 — Presse / distribution | 🔶 L’ADN ajouté, pitch du mardi poussé ; préparation seulement, sans envoi. Deux notifications de courrier, non qualifiées comme retombées. Distribution/piaille silencieuses | **Semaine du 02 : suivi seulement sur Bluesky**, créneau déjà consommé ; qualifier les réponses et les permissions sans renvoyer d’invitation ni déduire une approbation du silence |
+| P7 — Record | 🔴 Tournée d’octobre déjà livrée ; deux anomalies historiques restent ouvertes selon la précédente vérification, non recalculées ici | **04/11 :** qualifier traitement et sauvegarde durable ; ne pas refaire la tournée, réécrire les sceaux ou annoncer une certification |
+| P8 — Skool | 🔶 Brouillon du 3 « Pourquoi on a rendu nos kits gratuits » produit ; pas une publication. **18/22 ancien**, non recompté | **Prochaine session authentifiée :** réconcilier M6, membres, publications et roadmap ; aucun nouveau résultat communautaire déduit des fichiers |
+| P9 — Organisation / exploitation | 🔴 Faux vert local : **pull refusé → pipeline exécuté → sauvegarde refusée**, cron `ok`. Wrapper inchangé. Trois missions/559 références intactes ; cache et garde newsletter privés. Disque : **672 501 760 octets libres** au relevé final | **Priorité interne du 04 :** préserver/reprendre Git, arrêter avant moteur sur refus, propager le code dans le vrai cron ; puis reprise/sauvegarde durable et concurrence. Borner les copies, traiter l’espace avant nouvelle vague lourde ; aucune purge ici |
+| P10 — Affiliation / hub | 🔶 Parcours OpenClaw **ZIP → premier message** livré (`73067eb`), 292 tests et navigation publique consignés ; kits inchangés selon le chantier. Aucun programme ni commission activé | **04/11 :** suivre les retours sans republier ; installation/restauration réelles restent distinctes des contrôles documentaires. Skool payant non décidé, aucune seconde demande humaine groupée |
+
+### Une seule action humaine — réautoriser Stripe
+
+**Message exact :** « Maël, lance `hermes mcp login stripe --flow browser` et approuve la reconnexion Stripe dans le navigateur. L’accès OAuth est refusé : les ventes du Crabe ne sont plus vérifiables. »
+
+Quatre veilles et le KPI concordent ; aucun rétablissement ultérieur attesté. Aucun nouvel appel Stripe ou flux interactif dans cette revue. Après reconnexion, l’attribution du cumul reste distincte ; solde ou absence de correspondance ≠ CA du projet.
+
+**L’email URGENCE à l’adresse d’escalade convenue doit partir si ce blocage empêche le pilotage financier.** Texte et destinataire exacts : `crabe-chantiers/gouvernance/2026-11-03/revue-212353Z/escalade-mael.txt`, hors dépôt public ; **préparé, non envoyé**, livraison locale uniquement, jamais Discord. Vendeur/TVA, mentions/conditions, droits/données, capacité et reversement restent des prérequis cumulatifs, sans accord du silence.
+
+[Bilan détaillé](ceo-log.md#2026-11-03--bilan-du-soir-livraisons-confirmées-exploitation-et-ventes-encore-bloquées). Les relevés intermédiaires et critères de fin restent conservés ci-dessous ; leurs statuts en cours ne décrivent pas nécessairement l’état du soir.
+
+---
+
 ## Croissance du 3 novembre — source Gemini CLI
 
 **Une source officielle ajoutée :** `994f02d`, catalogue **27 flux**, préversions explicites ; **289 tests Python et essai sans rédaction réussis**. OPML et compteur de Transparence publiés par SFTP ciblé après la fin du run antérieur, deux lectures canoniques exactes à **13:25:43 UTC**. Contrats du dispatch `41641495254` réussis à **13:27:38**, pipeline encore en cours, sauvegarde non acquise à ce relevé. Prochaine étape : contrôler sa clôture et les prochaines collectes, sans réintégrer cette source ni confondre candidats et publications. Aucun gain d'audience mesuré. [Preuves et limites](source-gemini.md).

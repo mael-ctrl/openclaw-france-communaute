@@ -447,10 +447,14 @@ def page_pack_merci():
 <section class="section section-lecture">
   <div class="enveloppe etroit">
     <p class="oeil">// MERCI</p>
-    <h1 class="titre-page">Merci 🦀 — le pack est à toi</h1>
-    <p class="intro-page">Ton paiement est passé, et il finance directement les crédits d'IA et le serveur
-    de La Communauté. Pour de vrai : tout est affiché sur la page <a href="/transparence/">Transparence</a>.</p>
+    <h1 class="titre-page">Le Pack du Crabe 🦀 — téléchargements</h1>
+    <p class="intro-page">Cette page donne accès aux fichiers du Pack ; elle ne vérifie pas le statut d’un paiement.
+    Sa seule ouverture ne vaut donc pas confirmation d’achat.</p>
+    <p>Le fonctionnement du média est documenté sur la page <a href="/transparence/">Transparence</a>.</p>
     <div class="prose">
+      <p>Si le résultat de ton paiement est incertain, écris à
+      <a href="mailto:crabe@blockos.fr">crabe@blockos.fr</a> avant de réessayer.
+      Ne transmets pas de données bancaires.</p>
       <h2>Télécharge ton pack</h2>
       <ul>
         <li><a href="/dl/pack-du-crabe-100-prompts.md" download>Le pack en markdown (lisible partout) ↓</a></li>

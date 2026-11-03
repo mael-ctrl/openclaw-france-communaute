@@ -24,7 +24,11 @@ Pull initial partagé refusé (128, données non fusionnées), état laissé int
 
 ## Déploiement
 
-**En attente au commit initial :** workflow `maj.yml`, contrats/transfert/sauvegarde et comparaison HTTPS sur le descendant sauvegardé. Le code testé et la recette locale ne sont pas une preuve de publication.
+Code livré : **`b977ff0`**. Le [run initial `41615043911`](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/41615043911) passe ses **286 tests**, puis est annulé à la limite de **45 minutes**, le 03/11 à 10:51 UTC. **1 648 lignes de transfert** dans les logs ; sauvegarde d'état ignorée. Le contrôle intermédiaire pendant transfert avait trouvé des articles et la CSS encore anciens : il reste conservé, pas requalifié en panne du sommaire.
+
+**À 10:52:58 UTC, après l'arrêt de ce run :** **518 URL HTTPS** contrôlées. Les **503 articles attendus** portent exactement le sommaire attendu (**502 enrichis, un court sans sommaire**), auteur JSON-LD préservé ; CSS exacte. **479 HTML entiers exacts**, les **24 autres différents uniquement dans le bloc « Autres articles »**, qualification octet pour octet après retrait de ce seul bloc. Les nouveaux renvois sont distincts d'une sauvegarde Git complète du contenu produit par le run annulé. Version/sitemap stables aux bornes, collecte non atomique. **99 contrôles navigateur supplémentaires / 12 configurations** sur les corps réellement servis, sans JS, réussis.
+
+Le descendant **`41621962894`**, sur `983c54e` (ascendance et quatre fichiers fonctionnels exacts vérifiés), a repris. **Pipeline/sauvegarde encore en cours au relevé ; aucune réussite globale annoncée.** Aucun repli SFTP, nouveau dispatch ou modification d'exploitation pour masquer cette annulation. La fonction publiée est vérifiée ; la clôture cloud sera consignée séparément.
 
 ## Limites
 

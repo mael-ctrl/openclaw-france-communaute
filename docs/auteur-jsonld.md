@@ -24,7 +24,15 @@ Pièces privées : `crabe-chantiers/integrations/auteur-jsonld-20261102/` — pr
 
 ## Déploiement
 
-**En attente au commit d'intégration** : dispatch du workflow puis lecture des étapes contrats/transfert/sauvegarde et comparaison HTTPS au commit sauvegardé. Le code testé n'est pas encore une preuve de publication.
+**Au commit d'intégration**, le contrôle était en attente ; cette observation initiale reste conservée. Code livré : `da1de68`.
+
+### Clôture vérifiée le 3 novembre
+
+Le descendant `41421736642`, encore actif à la fin du premier passage, a finalement été **annulé pendant pipeline** à 10:23 UTC le 02/11, avec sauvegarde ignorée. Il n'est pas reclassé en succès. Les successeurs ont repris : [run `41601493451`](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/41601493451) terminé avec succès le 03/11 à 08:55 UTC ; **277 tests, 2 276 fichiers envoyés, sauvegarde `a1ccb93`**, étapes et logs relus.
+
+À **09:54:36–09:55:16 UTC le 03/11**, lecture HTTPS individuelle des **2 149 cibles exactes** du premier build : **2 149/2 149** répondent 200 à l'URL attendue, identité `mainEntityOfPage` et objet auteur conformes. Les **367 cibles encore anciennes au préflight du 2 sont toutes conformes**. Corps, en-têtes, empreintes et résultats conservés hors dépôt dans `crabe-chantiers/integrations/auteur-cloture-https-20261103/`. Version et sitemap identiques aux deux bornes ; la collecte n'est néanmoins pas atomique et n'atteste pas toutes les autres métadonnées de chaque page.
+
+**Chantier auteur clôturé, sans nouveau transfert ni réécriture.** La première tentative de recontrôle SFTP n'a pas pu importer Paramiko dans l'interpréteur choisi ; aucune connexion ni écriture distante n'a eu lieu. Le contrôle complet a été fait par HTTPS strict, sans nouvel accès ni installation. Les anciennes URL inconnues hors de ces 2 149 cibles et l'exploitation restent hors de cette clôture.
 
 ## Limites
 

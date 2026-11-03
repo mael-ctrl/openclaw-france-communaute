@@ -4,7 +4,7 @@
 
 **Seule nouvelle intégration fonctionnelle de ce passage :** premier candidat site du relais P2, sommaire natif des articles ; code absent sur la base requalifiée `49cfea8`. **286 Python + huit Node réussis**, suite originale sans fixture modifiée, deux builds complets : **502/503 articles enrichis**, **1 684 brèves inchangées**, seuls sommaire/IDs et CSS préfixée diffèrent ; **650 fichiers de données/contenus/sites préservés**. **99 contrôles navigateur sans JS** et essai isolé sans rédaction réussis. [Dossier, provenance et limites](sommaire-articles.md).
 
-**Statut au commit initial :** cloud/HTTPS en attente, pas encore déclaré publié. Clôture exhaustive de l'auteur du 2 en cours de relecture, sans refaire son code. Clone partagé conflictuel préservé ; aucun lot d'exploitation, de newsletter ou d'archives historiques activé.
+**Publication vérifiée à 10:52 UTC :** `b977ff0`, **503 articles contrôlés**, sommaire exact sur 502 et absent du court ; CSS exacte, 479 HTML entiers identiques et 24 écarts limités aux lectures liées ; **99 contrôles navigateur publics**. Initial cloud annulé à 45 min, 286 tests réussis, 1 648 lignes de transfert et sauvegarde ignorée ; descendant `41621962894` encore en cours, clôture cloud non acquise. **Auteur du 2 clôturé : 2 149/2 149 pages conformes en HTTPS, dont les 367 anciennes cibles**, sans refaire son code. [Preuve auteur](auteur-jsonld.md). Clone partagé conflictuel préservé ; aucun lot d'exploitation, de newsletter ou d'archives historiques activé.
 
 ## État antérieur — 2 novembre 2026, revue du soir
 

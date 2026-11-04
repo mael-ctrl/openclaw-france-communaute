@@ -1,22 +1,18 @@
 {
- "runs": 448,
- "items_collectes": 3813,
- "breves_publiees": 1685,
- "articles_publies": 333,
- "tokens_entree": 1742397,
- "tokens_sortie": 2424137,
+ "runs": 449,
+ "items_collectes": 3821,
+ "breves_publiees": 1690,
+ "articles_publies": 334,
+ "tokens_entree": 1747414,
+ "tokens_sortie": 2430324,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-11-04T00:30:42+00:00",
+ "dernier_run": "2026-11-04T02:33:35+00:00",
  "solde": {
-  "total": "82.42",
+  "total": "82.41",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-11-03T08:58:50+00:00",
-   "message": "brève impossible (Meta teste un robot qui pourrait un jour donner un coup de l) : DeepSeek HTTP 503: {\"error\":{\"message\":\"Service is too busy. We advise users to temporarily switch to alternative LLM API service providers. (request_id: a5ccb7b6-4102-42aa-831a-aa610917f590)\",\"type\":\"service_unavailab"
-  },
   {
    "ts": "2026-11-03T09:00:08+00:00",
    "message": "brève impossible (DeepSeek V5 is planned to be pre-trained on Huawei Ascend ch) : DeepSeek HTTP 503: {\"error\":{\"message\":\"Service is too busy. We advise users to temporarily switch to alternative LLM API service providers. (request_id: 36bb88f0-b9dd-4829-995c-7556dcad6915)\",\"type\":\"service_unavailab"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-11-04T01:04:18+00:00",
    "message": "archivage wayback : The read operation timed out"
+  },
+  {
+   "ts": "2026-11-04T02:33:03+00:00",
+   "message": "brève impossible (Keeping up with new inference engines) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 9.24,
+ "depense_usd": 9.25,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1812,13 +1812,17 @@
   [
    "2026-11-04T00:29:40+00:00",
    "82.42"
+  ],
+  [
+   "2026-11-04T02:32:36+00:00",
+   "82.41"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 0.28,
+ "depense_mois_usd": 0.29,
  "archive_tentatives": {
   "jour": "2026-11-04",
-  "n": 1
+  "n": 2
  },
- "derniere_archive": "2026-10-30"
+ "derniere_archive": "2026-11-04"
 }

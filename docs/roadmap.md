@@ -1,5 +1,11 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Chantier site du 4 novembre — impression de lecture
+
+**Seule nouvelle intégration :** CSS print pour articles et brèves, premier candidat site du relais du matin ; auteur et sommaire déjà livrés ne sont pas refaits. Base propre `bca54c7`, pull partagé refusé et conflits préservés. **297 Python + huit Node**, deux builds complets : 4 558/4 559 fichiers identiques, seule CSS modifiée, **662 fichiers de données/contenus/sites préservés**. **56 contrôles navigateur sans JS + 24 PDF**, couvertures réelles et trois annexes témoins ; huit pages éditoriales relues, titre Sources corrigé après reproduction. [Dossier, provenance et limites](impression-lecture.md).
+
+**Au commit initial : intégration testée, publication cloud/HTTPS à confirmer.** Aucune activation du wrapper, cache, checkpoint, newsletter ou archives historiques. Impression éprouvée sur échantillons Chromium, pas tous les navigateurs/imprimantes ni gain d'audience.
+
 ## État courant — 3 novembre 2026, revue du soir
 
 **Cette synthèse remplace les statuts historiques conservés ci-dessous.** Revue prévue à 21 h CET ; pull partagé tenté à **22:08**, refusé (128) pour six fichiers non fusionnés et journal indexé. Rebase sur `ddb26d4`, préservé sans abort/reset/stash. Worktree documentaire propre, pull réussi ici seulement ; base **`bdb0a687e2ddc2a8f993f23949a06782dfede72f`**. Fenêtre Git/créations GitHub figée à **22:23:53 CET** (`02/11 23:00:00 → 03/11 21:23:53 UTC`) ; HTTPS **22:26:41–22:27:23 CET**, sans antidatation.

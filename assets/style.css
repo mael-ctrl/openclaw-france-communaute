@@ -420,3 +420,70 @@ main, .pied { overflow-wrap: anywhere; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   html { scroll-behavior: auto; }
 }
+
+/* Impression éditoriale seulement : le manifeste partage section-lecture. */
+@media print {
+  body:has(> main > .section-lecture article.lecture) > :is(.entete, .pied, .saut),
+  body:has(> main > .section-lecture article.lecture) .bandeau,
+  .section-lecture:has(article.lecture) > .enveloppe > :is(.fil-ariane, .a-cote),
+  .section-lecture article.lecture > .sommaire-article {
+    display: none;
+  }
+
+  body:has(> main > .section-lecture article.lecture) {
+    background: #fff;
+    color: #000;
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+  .section-lecture:has(article.lecture),
+  .section-lecture:has(article.lecture) > .enveloppe,
+  .section-lecture article.lecture {
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+  .section-lecture article.lecture,
+  .section-lecture article.lecture * {
+    color: #000;
+    background: transparent;
+    box-shadow: none;
+    text-shadow: none;
+  }
+  .section-lecture article.lecture h1 { font-size: 20pt; }
+  .section-lecture article.lecture h2 { font-size: 14pt; }
+  .section-lecture article.lecture h3 { font-size: 12pt; }
+  .section-lecture article.lecture :is(h1, h2, h3) { break-after: avoid; }
+  .section-lecture article.lecture p { orphans: 3; widows: 3; }
+  .section-lecture article.lecture .chapo { font-size: 12pt; }
+  .section-lecture article.lecture :is(.signature, .carte-meta) { font-size: 9pt; }
+  .section-lecture article.lecture .source-boite {
+    border: 0;
+    padding: 0;
+    margin: 16pt 0;
+    font-size: 9pt;
+  }
+  .section-lecture article.lecture .source-boite > p:first-child { break-after: avoid; }
+  .section-lecture article.lecture a { text-decoration: underline; }
+  .section-lecture article.lecture .source-boite .bouton {
+    display: inline;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    font: inherit;
+  }
+  .section-lecture article.lecture .source-boite a:is([href^="https://"], [href^="http://"])::after {
+    content: " — " attr(href);
+    overflow-wrap: anywhere;
+    font-weight: normal;
+  }
+  /* La signature HTML de brève dit « automatiquement », sans nom ni IA. */
+  .section-lecture article.lecture:not(:has(.corps-article)) > .signature::before {
+    content: "Le Crabe — IA rédactrice. ";
+  }
+}

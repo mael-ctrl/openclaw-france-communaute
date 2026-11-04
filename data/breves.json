@@ -1,5 +1,132 @@
 [
  {
+  "id": "fd3467b1dba49c5d",
+  "slug": "openai-publie-codex-0-168-0-alpha-1-en-preversion-fd3467",
+  "titre": "OpenAI publie Codex 0.168.0-alpha.1 en préversion",
+  "resume": "OpenAI a publié la préversion 0.168.0-alpha.1 de Codex sur GitHub, sous l'étiquette rust-v0.168.0-alpha.1. La note de release ne fournit aucun détail sur le contenu de cette mise à jour : seule l'annonce de la version est disponible. Le suffixe alpha indique qu'il s'agit d'une version de test, pas d'une release stable. La version est accessible sur la page des releases du dépôt.",
+  "tags": [
+   "openai",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.1",
+  "date_source": "2026-11-04T02:58:24+00:00",
+  "date_redac": "2026-11-04T03:18:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 1031
+  }
+ },
+ {
+  "id": "75ea617e9ffecfbd",
+  "slug": "openclaw-publie-un-correctif-de-release-pour-la-revue-openshell-worker-75ea61",
+  "titre": "OpenClaw publie un correctif de release pour la revue openshell worker-cli",
+  "resume": "OpenClaw a publié une nouvelle version, dont le message de publication annonce un correctif du processus de release. Le changement enregistre la revue « openshell worker-cli » pour le bundle courant. L'extrait ne précise ni le contenu de cette revue ni les changements fonctionnels concernés.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fed1bb7298985-1793760875",
+  "date_source": "2026-11-04T02:53:30+00:00",
+  "date_redac": "2026-11-04T03:18:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 616,
+   "sortie": 709
+  }
+ },
+ {
+  "id": "a7a64312d69149a9",
+  "slug": "openclaw-met-en-ligne-la-version-2026-11-5-beta-1-a7a643",
+  "titre": "OpenClaw met en ligne la version 2026.11.5-beta.1",
+  "resume": "OpenClaw publie la version 2026.11.5-beta.1 de son projet. Il s'agit d'une version bêta, diffusée sur le dépôt GitHub du projet le 4 novembre 2026. Les mises à jour sont publiées sous forme de tags dans les releases GitHub.",
+  "tags": [
+   "openclaw",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.5-beta.1",
+  "date_source": "2026-11-04T01:52:57+00:00",
+  "date_redac": "2026-11-04T03:19:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 656
+  }
+ },
+ {
+  "id": "1d3e2024a7203140",
+  "slug": "openclaw-localise-les-messages-des-skills-et-plugins-dans-son-interfac-1d3e20",
+  "titre": "OpenClaw localise les messages des skills et plugins dans son interface",
+  "resume": "La dernière release d'OpenClaw corrige l'interface : les retours destinés aux utilisateurs pour les skills et les plugins sont désormais localisés. La modification, référencée #192305, est portée par le contributeur @vyctorbrzezowski, avec une co-signature du bot roboclaw-bot. Le correctif touche deux briques centrales de l'outil, sans changement fonctionnel annoncé au-delà de l'affichage.",
+  "tags": [
+   "openclaw",
+   "skills",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F9a3ae43f5602-1793756853",
+  "date_source": "2026-11-04T01:42:24+00:00",
+  "date_redac": "2026-11-04T03:19:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 862,
+   "sortie": 483
+  }
+ },
+ {
+  "id": "8d8b030db08e4ae3",
+  "slug": "gemini-cli-la-nightly-v0-67-0-corrige-les-hooks-et-la-resolution-de-mo-8d8b03",
+  "titre": "Gemini CLI : la nightly v0.67.0 corrige les hooks et la résolution de modèle",
+  "resume": "La version nightly v0.67.0 de Gemini CLI est publiée. Elle corrige plusieurs points : les échecs de flux lors du téléchargement des releases d'extensions, la préservation d'un modèle gemini-2.5-flash explicitement demandé lors de la résolution dynamique des modèles, et le support de l'événement SubagentStop avec fusion des définitions de hooks. Côté sessions, l'outil attend désormais la relecture de l'historique avant de répondre à un ACP session/load, et le bac à sable fournit --userns=keep-id pour podman en mode rootless.",
+  "tags": [
+   "gemini",
+   "dev",
+   "agents"
+  ],
+  "importance": 1,
+  "source": "Gemini CLI (releases, préversions incluses)",
+  "lien_source": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261104.g89e9d25d6",
+  "date_source": "2026-11-04T01:20:49+00:00",
+  "date_redac": "2026-11-04T03:19:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 797,
+   "sortie": 501
+  }
+ },
+ {
+  "id": "413b9f7f121c24ab",
+  "slug": "moteurs-d-inference-trop-de-projets-un-suivi-devenu-impossible-413b9f",
+  "titre": "Moteurs d'inférence : trop de projets, un suivi devenu impossible",
+  "resume": "Un utilisateur de r/LocalLLaMA rappelle qu'en mars 2025, l'écosystème des moteurs d'inférence tenait en quelques noms : llama.cpp, ollama, koboldcpp, vllm, litert. Aujourd'hui, Strata, Basalt, Maya, Colibri, Ninfer, Infernix se multiplient et il avoue ne plus suivre. llama.cpp progresse chaque semaine : Qwen3.8-Flash-Next tourne sur 64 Go de RAM et 32 Go de VRAM, parfois au prix de la qualité.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xnanyh/keeping_up_with_new_inference_engines/",
+  "date_source": "2026-11-04T00:58:01+00:00",
+  "date_redac": "2026-11-04T03:19:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 827,
+   "sortie": 1097
+  }
+ },
+ {
   "id": "cace4af13038e760",
   "slug": "claude-code-v2-1-318-expiration-des-connexions-claude-ai-et-correctifs-cace4a",
   "titre": "Claude Code v2.1.318 : expiration des connexions claude.ai et correctifs",

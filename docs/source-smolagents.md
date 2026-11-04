@@ -50,5 +50,34 @@ SHA-256 `f6ef671b88f929b380a5f5b8cc6d726e030fd5ee569ef3310b49e8a5b6e587bb`.
 
 Preuves privées : `crabe-chantiers/croissance/2026-11-04-smolagents/evidence/`
 (provenance, licence, Atom, collecteur, rouge/vert, suite et essai).
-Les contrôles locaux ne prouvent pas à eux seuls la mise en ligne ; celle-ci
-est vérifiée séparément après le push et le déclenchement cloud.
+
+## Publication ciblée vérifiée à 13:27 UTC
+
+Configuration, test et document initial poussés sous
+`0bcc84f0cb89cf2847d31e2b5496c23f416f2789` ; les trois blobs sont identiques
+sur `main` distant. Dispatch `41835188023` sur ce commit, initialement en attente.
+
+Avant tout SFTP, attente de la fin du run précédent `41831347466` : **annulé
+par GitHub à la limite de 45 minutes**, pendant le transfert FTP ; sauvegarde
+d'état sautée. Ses logs montrent des transferts partiels, pas une publication
+complète. Les timeouts locaux du watcher n'étaient pas des conclusions CI.
+Aucune annulation manuelle, modification du workflow ou fusion de données.
+
+Après sa fin, base OPML distante exactement conforme au catalogue parent,
+identité HTTPS/SFTP contrôlée et sauvegardes privées des deux cibles.
+Clé hôte SFTP épinglée avant authentification, installation par fichier
+`.part` et renommage, puis relecture exacte. Seuls l'export OPML et le compteur
+**27 → 28** de Transparence sont modifiés ; tous les autres octets de cette
+page servie sont conservés (pas de remplacement par les statistiques de test).
+
+À **13:27:15 UTC**, deux lectures successives de chaque URL canonique en TLS
+strict : 200 et octets identiques aux cibles, 28 adresses OPML uniques dont
+smolagents une fois. Empreinte OPML identique à la recette ; Transparence :
+`3191a0b2d35293f9ce44926fdf0219515742011cb544578a5b2c500a5b4b5a43`.
+Preuves : `livraison-ciblee/`, `evidence/https-20261104T132715Z/` et les logs
+cloud dans le chantier privé. Export et compteur en production ; pipeline
+cloud du nouvel état et sauvegarde finale restent distincts de cette livraison.
+
+Contrats du nouveau run cloud **réussis à 13:28:07 UTC** ; à 13:28:23, pipeline
+en cours et sauvegarde encore en attente. Le conflit du clone partagé reste
+ouvert. Aucune clôture globale du cloud ni gain d'audience ne sont revendiqués.

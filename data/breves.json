@@ -1,5 +1,87 @@
 [
  {
+  "id": "cfb1ecc984b61492",
+  "slug": "intel-pourrait-abandonner-l-arc-b580-au-profit-des-cartes-arc-pro-cfb1ec",
+  "titre": "Intel pourrait abandonner l'Arc B580 au profit des cartes Arc Pro",
+  "resume": "Une discussion sur r/LocalLLaMA annonce une hausse de prix à venir pour la carte Arc B70 et évoque l'arrêt possible de l'Arc B580. Intel privilégierait ses cartes Arc Pro, plus rentables. Le sujet intéresse ceux qui montent des configurations d'IA locale sur GPU Intel.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xnfzky/b70_price_increase_incoming_intel_might/",
+  "date_source": "2026-11-04T05:25:56+00:00",
+  "date_redac": "2026-11-04T05:39:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 625,
+   "sortie": 519
+  }
+ },
+ {
+  "id": "faa01d707b4cd656",
+  "slug": "openclaw-2026-11-5-beta-1-scribes-de-connaissances-et-socle-postgresql-faa01d",
+  "titre": "OpenClaw 2026.11.5-beta.1 : scribes de connaissances et socle PostgreSQL",
+  "resume": "La bêta 2026.11.5 d'OpenClaw ajoute les Knowledge Scribes : capture de connaissances et workflows réutilisables entre agents, sessions et interface Control. Elle introduit aussi un plan de données PostgreSQL, avec état persisté, outils de migration et compatibilité avec les déploiements existants. L'interface Control est refondue sur mobile et desktop, et les pull requests peuvent être préparées et suivies depuis les conversations.",
+  "tags": [
+   "openclaw",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.5-beta.1",
+  "date_source": "2026-11-04T04:51:56+00:00",
+  "date_redac": "2026-11-04T05:39:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 834,
+   "sortie": 947
+  }
+ },
+ {
+  "id": "b01368ebb44be9bd",
+  "slug": "hydrogen-1-0-le-modele-de-deep-principle-pour-la-recherche-scientifiqu-b01368",
+  "titre": "Hydrogen-1.0, le modèle de Deep Principle pour la recherche scientifique",
+  "resume": "Deep Principle publie Hydrogen-1.0 sur Hugging Face, un modèle d'assistance à la recherche bâti sur GLM-5.3. Il répond à des questions scientifiques par échange textuel, explique des dérivations et structure les réponses à des problèmes de recherche ouverts. Deep Principle précise que ses sorties doivent être évaluées au regard des hypothèses, contraintes et preuves propres à chaque tâche.",
+  "tags": [
+   "recherche",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xnervh/deepprinciplehydrogen10_hugging_face/",
+  "date_source": "2026-11-04T04:21:10+00:00",
+  "date_redac": "2026-11-04T05:39:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 709,
+   "sortie": 1084
+  }
+ },
+ {
+  "id": "76f0e3343a833067",
+  "slug": "un-modele-bati-sur-l-algebre-de-lie-et-la-geometrie-differentielle-76f0e3",
+  "titre": "Un modèle bâti sur l'algèbre de Lie et la géométrie différentielle",
+  "resume": "Sur r/LocalLLaMA, un développeur dit avoir construit de zéro un modèle de fondation atypique, fondé sur l'algèbre de Lie et la géométrie différentielle. Il indique avoir rédigé et publié lui-même l'article décrivant la méthode, hébergé sur Zenodo. Le projet, baptisé Oneiros, porte sur le traitement continu de séquences.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xndmc6/project_oneiros_continuous_lie_group_sequence/",
+  "date_source": "2026-11-04T03:21:47+00:00",
+  "date_redac": "2026-11-04T05:39:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 652,
+   "sortie": 395
+  }
+ },
+ {
   "id": "fd3467b1dba49c5d",
   "slug": "codex-la-version-0-168-0-alpha-1-publiee-sur-le-depot-github-fd3467",
   "titre": "Codex : la version 0.168.0-alpha.1 publiée sur le dépôt GitHub",

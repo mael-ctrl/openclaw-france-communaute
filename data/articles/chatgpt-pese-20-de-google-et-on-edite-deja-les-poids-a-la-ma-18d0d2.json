@@ -1,0 +1,41 @@
+{
+ "slug": "chatgpt-pese-20-de-google-et-on-edite-deja-les-poids-a-la-ma-18d0d2",
+ "titre": "ChatGPT pèse 20 % de Google, et on édite déjà les poids à la main",
+ "chapo": "En quatre ans, ChatGPT s'est imposé : le volume de recherche qui passe par l'agent d'OpenAI équivaut à 20 % de celui traité par Google. Pendant ce temps, on édite les poids des modèles à la main, Anthropic veut prouver l'origine d'une réponse, et les data centers recyclent de vieux réacteurs d'avion.",
+ "html": "<h2 id=\"un-cinquieme-de-google-en-quatre-ans\">Un cinquième de Google, en quatre ans</h2>\n<p>Le repère posé par Frandroid est simple : le volume de recherche qui transite par ChatGPT représente désormais <strong>20 % de celui que traite Google</strong>. Quatre ans ont suffi pour qu'un agent conversationnel se hisse à ce niveau d'usage. Le média résume la dynamique d'une formule : la croissance « prend beaucoup d'ampleur ».</p>\n<p>Il s'agit d'une comparaison de volumes de requêtes, pas d'une bataille de revenus ni d'une bascule des parts de marché publicitaire — la dépêche ne dit rien de tel. Mais l'ordre de grandeur suffit à situer le changement : la recherche ne se pratique plus uniquement dans un moteur, elle passe aussi par une conversation.</p>\n<h2 id=\"reecrire-les-poids-au-lieu-de-reentraine\">Réécrire les poids au lieu de réentraîner</h2>\n<p>Latent Space relaie une approche baptisée <strong>« Weight Space Programming »</strong> : des modèles de langage lisent et écrivent directement les poids d'un réseau de neurones, là où l'on passait jusqu'ici par l'entraînement. La lettre d'information note que la méthode sort l'autoresearch de la boucle RSI. L'exemple cité est concret : modifier les poids de Qwen pour réduire les boucles de raisonnement du modèle. Au sommaire figurent aussi un prototype de super-agent signé DeepSeek et le benchmark GDPx.</p>\n<p>La pratique commence à descendre dans les usages. Un utilisateur de r/LocalLLaMA raconte avoir demandé à <strong>Claude Opus 5.5</strong> de réécrire <strong>8 neurones de Gemma 4 12B</strong> pour changer le rendu d'un seul temps en italien. Il s'appuie sur une démo du MIT CSAIL, où <strong>GPT-6 Astra</strong> modifiait à la main les poids de Qwen3.5-0.8B : plus de boucle sur les problèmes de maths, de meilleurs scores, sans entraînement.</p>\n<p>La limite est identifiée dès le billet : il faut que le neurone retouché ne s'active que lorsque le sens l'exige, et pas systématiquement. Un réglage trop large déborde sur tout le reste.</p>\n<h2 id=\"prouver-quel-modele-a-repondu\">Prouver quel modèle a répondu</h2>\n<p>TechCrunch rapporte qu'<strong>Anthropic</strong> travaille sur un système baptisé <strong>FlashProve</strong>. L'ambition : permettre à n'importe qui de vérifier qu'une réponse d'IA provient bien du modèle dont elle se réclame. Autrement dit, contrôler l'origine d'un contenu généré sans avoir à le croire sur parole.</p>\n<p>Le sujet n'est pas anecdotique à l'heure où les modèles se ressemblent dans leurs sorties et où les noms circulent librement. Une réponse attribuée à un modèle donné n'est aujourd'hui, le plus souvent, qu'une déclaration.</p>\n<h2 id=\"le-goulot-c-est-le-courant\">Le goulot, c'est le courant</h2>\n<p>Côté infrastructures, TechCrunch décrit un contournement qui en dit long sur la contrainte : l'attente pour accéder au réseau électrique et pour obtenir de nouvelles turbines <strong>se compte en années</strong>. Les constructeurs de data centers se tournent donc vers une solution inhabituelle — de <strong>vieux réacteurs d'avion, déjà jetés</strong>.</p>\n<p>Le compromis est assumé : ces moteurs sont moins efficaces et moins respectueux de l'environnement. Ils ont un mérite, produire de l'électricité sans attendre le raccordement. La pénurie n'est plus seulement une affaire de GPU ou de données, elle remonte jusqu'au courant disponible.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre couches d'un même empilement bougent en même temps : l'usage (ChatGPT à 20 % de Google), la fabrication des modèles (des poids qu'on édite à la main), la traçabilité (FlashProve chez Anthropic) et l'énergie (des réacteurs d'avion recyclés faute de raccordement). Aucune ne progresse au même rythme, et chacune a sa limite documentée : un volume de requêtes n'est pas un revenu, un neurone retouché déborde vite, une réponse non vérifiée reste une déclaration, et un vieux moteur reste un vieux moteur.</p>",
+ "pivot": "18d0d278a1065ad8",
+ "tags": [
+  "chatgpt",
+  "recherche",
+  "claude",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/openai-chatgpt/3309845_la-croissance-prend-beaucoup-dampleur-chatgpt-rattrape-google-dans-la-recherche-web"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn1gs9/i_tried_mits_weightspace_programming_on_my_own/"
+  }
+ ],
+ "date": "2026-11-04T08:46:41+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1560,
+  "sortie": 3002
+ }
+}

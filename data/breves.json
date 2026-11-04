@@ -1,5 +1,126 @@
 [
  {
+  "id": "5df0b279fdccc0b4",
+  "slug": "nothing-laisse-entrevoir-un-appareil-ia-sans-ecran-pour-decembre-5df0b2",
+  "titre": "Nothing laisse entrevoir un appareil IA sans écran pour décembre",
+  "resume": "Carl Pei, PDG de Nothing, a annoncé sur X que l'entreprise lancera son premier appareil IA en décembre, un peu plus d'un an après avoir dévoilé ses plans pour des appareils « AI-native » et un système d'exploitation IA. Il n'a pas précisé la nature exacte du produit, évoquant seulement l'une de ses fonctionnalités. L'annonce signale l'arrivée d'un fabricant de matériel grand public sur le terrain des objets IA.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+  "date_source": "2026-11-04T18:26:07+00:00",
+  "date_redac": "2026-11-04T18:35:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 662,
+   "sortie": 876
+  }
+ },
+ {
+  "id": "f47a70d00bc2cbe9",
+  "slug": "codex-la-preversion-0-167-0-alpha-5-est-publiee-f47a70",
+  "titre": "Codex : la préversion 0.167.0-alpha.5 est publiée",
+  "resume": "OpenAI met en ligne la version 0.167.0-alpha.5 de Codex, publiée sous le tag rust-v0.167.0-alpha.5 sur le dépôt GitHub du projet. La note de version tient en une ligne : elle annonce la publication, sans détailler les changements apportés. Le suffixe alpha signale une préversion, donc une build intermédiaire en amont d'une version stable. Pour qui suit Codex, c'est le repère de version le plus récent publié.",
+  "tags": [
+   "openai",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.5",
+  "date_source": "2026-11-04T18:13:38+00:00",
+  "date_redac": "2026-11-04T18:35:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 713
+  }
+ },
+ {
+  "id": "131703f80e85b50e",
+  "slug": "unsloth-publie-des-gguf-dynamic-v3-1-pour-qwen3-8-flash-next-131703",
+  "titre": "Unsloth publie des GGUF Dynamic v3.1 pour Qwen3.8-Flash-Next",
+  "resume": "Unsloth sort de nouveaux GGUF « Dynamic v3.1 » pour Qwen3.8-Flash-Next, avec 10 à 15 % de précision en plus que les GSQ-RCO sur DeepSWE, Terminal Bench et Aider Polyglot. Le travail prolonge l'UD3.1 de DeepSeek-V4.1-Flash, qui gagnait 10 à 20 %. S'y ajoute une bascule « engram » entre BF16, Q8_0, Q5_1 et IQ4_NL pour tous les quants. Benchmarks agentiques en 256K, les autres en 128K, sur 26,2 milliards de tokens.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xnvbxn/new_qwen38flashnext_unsloth_dynamic_v31_ggufs/",
+  "date_source": "2026-11-04T18:08:58+00:00",
+  "date_redac": "2026-11-04T18:35:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 882,
+   "sortie": 1228
+  }
+ },
+ {
+  "id": "599977910d2b484d",
+  "slug": "la-therapeute-de-victoria-song-veut-jeter-l-amazon-bee-frontier-par-la-599977",
+  "titre": "La thérapeute de Victoria Song veut jeter l'Amazon Bee Frontier par la fenêtre",
+  "resume": "Dans sa chronique hebdomadaire Optimizer, Victoria Song, critique senior à The Verge, dissèque les gadgets qui promettent de changer la vie. Cette semaine, elle s'attaque à l'Amazon Bee Frontier, un objet portable d'écoute ambiante. Son titre plante la scène : sa thérapeute estime qu'il faudrait le jeter par la fenêtre. Une manière de questionner ce que ces appareils captent de nos conversations.",
+  "tags": [
+   "matériel",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
+  "date_source": "2026-11-04T18:00:00+00:00",
+  "date_redac": "2026-11-04T18:35:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 667,
+   "sortie": 635
+  }
+ },
+ {
+  "id": "c6d0746ec1fe8d98",
+  "slug": "chatgpt-genere-desormais-des-gif-animes-avec-le-modele-images-2-6-c6d074",
+  "titre": "ChatGPT génère désormais des GIF animés, avec le modèle Images 2.6",
+  "resume": "ChatGPT peut désormais créer des GIF animés à partir d'un prompt ou d'une photo envoyée au chatbot. La mise à jour accompagne le lancement du nouveau modèle Images 2.6 d'OpenAI. Elle permet d'ajuster la vitesse d'animation, de retoucher chaque image du GIF et de le partager. Jusqu'ici, ChatGPT ne pouvait pas produire de GIF nativement en une seule étape.",
+  "tags": [
+   "chatgpt",
+   "openai"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+  "date_source": "2026-11-04T18:00:00+00:00",
+  "date_redac": "2026-11-04T18:35:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 665,
+   "sortie": 441
+  }
+ },
+ {
+  "id": "5d4bdfea2144f0e0",
+  "slug": "unsloth-publie-les-gguf-de-qwen3-8-flash-next-en-version-3-1-5d4bdf",
+  "titre": "Unsloth publie les GGUF de Qwen3.8-Flash-Next en version 3.1",
+  "resume": "Unsloth publie une mise à jour V3.1 de ses GGUF pour Qwen3.8-Flash-Next, datée du 4 novembre 2026. Le post r/LocalLLaMA renvoie vers la documentation du modèle sur unsloth.ai et signale une nouvelle version à télécharger. Son auteur avance une précision supérieure de 15 %, un chiffre non détaillé dans l'extrait.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xnuva2/unsloth_qwen38flashnext_ggufs_v31_update_november/",
+  "date_source": "2026-11-04T17:51:33+00:00",
+  "date_redac": "2026-11-04T18:35:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 667,
+   "sortie": 958
+  }
+ },
+ {
   "id": "1f06e419423303bb",
   "slug": "google-photos-l-ia-demander-a-photos-s-etendrait-au-dela-de-la-recherc-1f06e4",
   "titre": "Google Photos : l'IA « Demander à Photos » s'étendrait au-delà de la recherche",

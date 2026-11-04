@@ -1,0 +1,41 @@
+{
+ "slug": "flashprove-et-weight-space-programming-prouver-l-origine-edi-125e6a",
+ "titre": "FlashProve et Weight Space Programming : prouver l'origine, éditer les poids",
+ "chapo": "Anthropic planche sur FlashProve, un système pour vérifier qu'une réponse vient bien du modèle dont elle se réclame. En parallèle, des modèles de langage apprennent à lire et écrire directement les poids d'un réseau — et un utilisateur s'en est servi pour corriger un temps italien.",
+ "html": "<h2 id=\"flashprove-ou-l-origine-verifiable-d-une\">FlashProve, ou l'origine vérifiable d'une réponse</h2>\n<p>Anthropic planche sur un système baptisé <strong>FlashProve</strong>. Sa promesse : permettre à n'importe qui de vérifier qu'une réponse d'IA provient bien du modèle dont elle se réclame. L'objectif affiché par l'entreprise est que chacun puisse contrôler l'origine d'une réponse générée, <strong>sans avoir à la croire sur parole</strong>.</p>\n<p>La formulation est courte, mais elle pose une question qui revient de plus en plus souvent : qui a produit ce texte, ce calcul, cette réponse ? Un modèle peut se présenter sous un nom sans que rien ne le confirme côté utilisateur. FlashProve s'attaque à ce point précis — l'identité du modèle, pas la qualité de sa réponse.</p>\n<p>Reste que la dépêche ne dit rien de l'architecture du système, ni de son calendrier, ni de la façon dont il serait adopté au-delà d'Anthropic. Le nom du projet est connu ; le mécanisme, non.</p>\n<h2 id=\"weight-space-programming-quand-le-modele\">Weight Space Programming : quand le modèle édite les poids</h2>\n<p>De son côté, Latent Space relaie une approche baptisée <strong>« Weight Space Programming »</strong>. L'idée : des modèles de langage lisent et écrivent directement les poids d'un réseau de neurones. Pas de couche d'abstraction, pas de jeu d'instructions — on touche aux paramètres.</p>\n<p>Selon Latent Space, cette approche <strong>sort l'autoresearch de la boucle RSI</strong>. L'exemple cité dans la dépêche est concret : modifier les poids de Qwen pour réduire les boucles de raisonnement, ces raisonnements qui tournent en rond avant de rendre une réponse.</p>\n<p>Le sommaire comprend aussi un prototype de super-agent signé <strong>DeepSeek</strong> et le benchmark <strong>GDPx</strong>. Trois entrées différentes, un même mouvement : les modèles ne servent plus seulement à produire du texte, ils interviennent sur la mécanique interne d'autres modèles.</p>\n<h2 id=\"huit-neurones-pour-un-seul-temps-italien\">Huit neurones pour un seul temps italien</h2>\n<p>Ce n'est pas resté théorique. Après la démo de <strong>MIT CSAIL</strong>, où <strong>GPT-6 Astra</strong> modifiait à la main les poids de <strong>Qwen3.5-0.8B</strong> — plus de boucle sur les problèmes de maths, de meilleurs scores, et ce sans entraînement —, un utilisateur de r/LocalLLaMA a testé l'approche sur son propre usage : la traduction vers l'italien.</p>\n<p>Sa méthode : demander à <strong>Claude Opus 5.5</strong> de réécrire <strong>8 neurones</strong> de <strong>Gemma 4 12B</strong> pour changer le rendu d'un seul temps. Huit neurones, un temps grammatical. L'échelle surprend, mais la difficulté n'est pas là. Elle est dans la conditionnalité : faire en sorte que la modification s'applique <strong>seulement quand le sens l'exige</strong>, pas systématiquement. Un réglage trop large et le modèle change de comportement partout ; trop étroit, et il ne change rien.</p>\n<p>C'est toute la tension de ces manipulations chirurgicales : on gagne en précision ce qu'on perd en garantie de généralité.</p>\n<h2 id=\"traces-et-navigation-garder-la-main-sur-\">Traces et navigation : garder la main sur ses données</h2>\n<p>Côté outillage, LangChain avance sur deux fronts. <strong>LangSmith BYOC</strong> est désormais disponible en disponibilité générale sur <strong>AWS</strong>, et en version bêta sur <strong>Azure</strong> et <strong>Google Cloud</strong>. Le principe : les traces, les évaluations et les déploiements d'agents restent dans le compte cloud du client, tandis que LangChain exploite le service. Pour les équipes qui veulent garder la main sur leurs données, la différence n'est pas cosmétique.</p>\n<p>LangChain a par ailleurs comparé <strong>sept jeux d'outils de navigation web</strong> destinés à ses Deep Agents avant de retenir <strong>Stagehand</strong>, développé par Browserbase. Le choix a ensuite été affiné à l'aide des traces et des évaluations de LangSmith. L'équipe détaille dans son billet la méthode de comparaison et les enseignements qu'elle en tire.</p>\n<p>Deux briques, une même logique : l'agent doit rester observable, et ses données localisables.</p>\n<h2>Et maintenant ?</h2>\n<p>Mis bout à bout, ces dépêches dessinent trois manières de reprendre la main sur un modèle : prouver son identité (FlashProve), éditer ses poids pour corriger un comportement précis (Weight Space Programming), garder ses traces dans son propre cloud (LangSmith BYOC). Aucune ne règle les deux autres, et rien dans les sources ne dit qu'elles convergeront. Mais toutes répondent à la même demande : ne pas avoir à croire un système sur parole, qu'il s'agisse de son nom, de son raisonnement ou des données qu'il produit.</p>",
+ "pivot": "125e6ad9a87f0faa",
+ "tags": [
+  "recherche",
+  "sécurité",
+  "agents",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
+  },
+  {
+   "nom": "LangChain (blog officiel)",
+   "url": "https://www.langchain.com/blog/langsmith-byoc-aws-gc-azure"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn1gs9/i_tried_mits_weightspace_programming_on_my_own/"
+  },
+  {
+   "nom": "LangChain (blog officiel)",
+   "url": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents"
+  }
+ ],
+ "date": "2026-11-04T00:30:42+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1515,
+  "sortie": 3942
+ }
+}

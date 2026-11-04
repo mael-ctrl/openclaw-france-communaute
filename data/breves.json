@@ -1,5 +1,130 @@
 [
  {
+  "id": "cace4af13038e760",
+  "slug": "claude-code-v2-1-318-expiration-des-connexions-claude-ai-et-correctifs-cace4a",
+  "titre": "Claude Code v2.1.318 : expiration des connexions claude.ai et correctifs",
+  "resume": "Claude Code 2.1.318 affiche la date de fin d'une connexion claude.ai enregistrée, dans claude auth status et les résultats JSON de claude -p, avec un avertissement dix jours avant l'échéance. Elle ajoute une option effort aux forks de modèle et assume_role sur la passerelle Claude apps, pour l'attribution des coûts AWS par développeur. Elle corrige --continue, qui perdait la conversation après des reprises épuisées d'appel d'outil.",
+  "tags": [
+   "claude",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "Claude Code (releases)",
+  "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+  "date_source": "2026-11-04T00:01:03+00:00",
+  "date_redac": "2026-11-04T00:29:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 807,
+   "sortie": 1260
+  }
+ },
+ {
+  "id": "596818f43494a921",
+  "slug": "quand-la-bulle-ia-va-t-elle-eclater-la-question-qui-agace-a-the-verge-596818",
+  "titre": "Quand la bulle IA va-t-elle éclater ? La question qui agace à The Verge",
+  "resume": "À The Verge, les questions sur la date d'éclatement de la bulle IA pleuvent, posées avec plus ou moins d'enthousiasme ou d'inquiétude, y compris en interne. La réponse de l'auteur est toujours la même : s'il connaissait cette date, il placerait un pari à effet de levier maximal sur les marchés avant d'encaisser ses gains. Une manière de rappeler que personne ne dispose de cette information.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+  "date_source": "2026-11-03T23:37:45+00:00",
+  "date_redac": "2026-11-04T00:30:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 661,
+   "sortie": 781
+  }
+ },
+ {
+  "id": "82ac2332073f683a",
+  "slug": "codex-publie-l-archive-source-de-libcap-2-75-utilisee-pour-bubblewrap-82ac23",
+  "titre": "Codex publie l'archive source de libcap 2.75 utilisée pour Bubblewrap",
+  "resume": "OpenAI met à disposition, dans les releases de Codex, un miroir de l'archive source non modifiée de libcap 2.75. Cette archive sert à compiler Bubblewrap pour les paquets Linux musl de Codex. Le SHA-256 de l'archive amont libcap-2.75.tar.xz est fourni pour vérifier son intégrité.",
+  "tags": [
+   "openai",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/libcap-v2.75",
+  "date_source": "2026-11-03T23:04:31+00:00",
+  "date_redac": "2026-11-04T00:30:02+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 670,
+   "sortie": 366
+  }
+ },
+ {
+  "id": "aed708b0778481d5",
+  "slug": "sur-r-localllama-un-post-parodie-les-benchmarks-irreproductibles-de-ll-aed708",
+  "titre": "Sur r/LocalLLaMA, un post parodie les benchmarks irreproductibles de llama.cpp",
+  "resume": "Sur r/LocalLLaMA, u/ParaboloidalCrest signe un post au titre à crochets génériques : un fork de llama.cpp, une quantification précise et une configuration matérielle ultra spécifique produiraient des performances « incroyables et irreproductibles » en pp et tg. Les emplacements entre crochets restent vides, et le message se limite à une invitation à voter, sans chiffres.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xn7rfh/llamacpp_fork_qfn_specific_quant_ultra_specific/",
+  "date_source": "2026-11-03T22:48:57+00:00",
+  "date_redac": "2026-11-04T00:30:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 645,
+   "sortie": 1173
+  }
+ },
+ {
+  "id": "125e6ad9a87f0faa",
+  "slug": "anthropic-travaille-sur-flashprove-un-systeme-pour-prouver-l-identite--125e6a",
+  "titre": "Anthropic travaille sur FlashProve, un système pour prouver l'identité des modèles IA",
+  "resume": "Anthropic planche sur un système baptisé FlashProve. Il permettrait à n'importe qui de vérifier qu'une réponse d'IA provient bien du modèle dont elle se réclame. L'objectif affiché : que chacun puisse contrôler l'origine d'une réponse générée, sans avoir à la croire sur parole.",
+  "tags": [
+   "sécurité",
+   "claude",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+  "date_source": "2026-11-03T22:41:03+00:00",
+  "date_redac": "2026-11-04T00:30:18+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 621,
+   "sortie": 690
+  }
+ },
+ {
+  "id": "8befc449c5818e78",
+  "slug": "faute-d-electricite-les-data-centers-recyclent-de-vieux-reacteurs-d-av-8befc4",
+  "titre": "Faute d'électricité, les data centers recyclent de vieux réacteurs d'avion",
+  "resume": "L'attente pour accéder au réseau électrique et pour obtenir de nouvelles turbines se compte en années. Les constructeurs de data centers se tournent donc vers une solution inhabituelle : de vieux réacteurs d'avion, déjà jetés. Moins efficaces et moins respectueux de l'environnement, ils permettent de produire de l'électricité sans attendre le raccordement.",
+  "tags": [
+   "matériel",
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+  "date_source": "2026-11-03T22:19:53+00:00",
+  "date_redac": "2026-11-04T00:30:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 638,
+   "sortie": 411
+  }
+ },
+ {
   "id": "f8ad811ffa4fc1e6",
   "slug": "langsmith-byoc-debarque-sur-aws-azure-et-google-cloud-f8ad81",
   "titre": "LangSmith BYOC débarque sur AWS, Azure et Google Cloud",

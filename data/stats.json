@@ -1,22 +1,18 @@
 {
- "runs": 447,
- "items_collectes": 3790,
- "breves_publiees": 1679,
- "articles_publies": 332,
- "tokens_entree": 1736840,
- "tokens_sortie": 2415514,
+ "runs": 448,
+ "items_collectes": 3813,
+ "breves_publiees": 1685,
+ "articles_publies": 333,
+ "tokens_entree": 1742397,
+ "tokens_sortie": 2424137,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-11-03T19:06:43+00:00",
+ "dernier_run": "2026-11-04T00:30:42+00:00",
  "solde": {
-  "total": "82.45",
+  "total": "82.42",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-11-03T08:58:31+00:00",
-   "message": "brève impossible (1 400 km d’autonomie et propulsion : la future Renault Mégan) : DeepSeek HTTP 503: {\"error\":{\"message\":\"Service is too busy. We advise users to temporarily switch to alternative LLM API service providers. (request_id: 52e274ac-8e17-4169-bf30-53438d1df343)\",\"type\":\"service_unavailab"
-  },
   {
    "ts": "2026-11-03T08:58:50+00:00",
    "message": "brève impossible (Meta teste un robot qui pourrait un jour donner un coup de l) : DeepSeek HTTP 503: {\"error\":{\"message\":\"Service is too busy. We advise users to temporarily switch to alternative LLM API service providers. (request_id: a5ccb7b6-4102-42aa-831a-aa610917f590)\",\"type\":\"service_unavailab"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-11-03T09:20:17+00:00",
    "message": "déploiement : [Errno 104] Connection reset by peer"
+  },
+  {
+   "ts": "2026-11-04T01:04:18+00:00",
+   "message": "archivage wayback : The read operation timed out"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 9.21,
+ "depense_usd": 9.24,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1808,13 +1808,17 @@
   [
    "2026-11-03T19:06:06+00:00",
    "82.45"
+  ],
+  [
+   "2026-11-04T00:29:40+00:00",
+   "82.42"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 0.25,
+ "depense_mois_usd": 0.28,
  "archive_tentatives": {
-  "jour": "2026-11-03",
-  "n": 3
+  "jour": "2026-11-04",
+  "n": 1
  },
  "derniere_archive": "2026-10-30"
 }

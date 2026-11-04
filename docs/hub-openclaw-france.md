@@ -984,6 +984,34 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-03/hub-openclaw-installation/`.
 
+## Lisibilité de la page gratuité — livraison du 04/11/2026
+
+- **Une amélioration** : retrait de trois cellules HTML vides sur `/gratuit/`.
+  Elles occupaient la colonne de contenu après le numéro CSS et repoussaient
+  les paragraphes dans une colonne de **52 px**, sur mobile comme sur ordinateur.
+  À 390 px, le texte dispose maintenant de **240 px** ; à 1440 px, de **710 px**.
+  Aucun texte, lien, style, kit ou script changé ; sitemap actualisé pour cette page.
+- Défaut reproduit sur le site public avant correction. Nouveau test de régression
+  rouge sur les trois cartes, puis vert ; **301 tests OK** dans la suite complète.
+  Le nouveau contrôle passe aussi sur les trois pages publiques contenant ces cartes.
+- Chrome avec/sans JavaScript : **12 contrôles locaux** (1440, 1024, 430, 390,
+  375, 360 px) et **6 publics** (1440, 390, 360 px). Largeur utile, alignement,
+  absence de débordement et accès au kit Hermes au clavier vérifiés.
+- Bureau inaccessible en cron ; clone partagé en conflits laissé intact.
+  Déploiement par `python3 outils/deployer_openclaw.py` depuis le clone synchronisé
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Sauvegarde et comparaison préalable,
+  puis **36 fichiers relus via FTP**, identiques aux sources. ZIP régénérés après
+  restauration des dates/modes, inchangés ; CRC et SHA-256 vérifiés en HTTPS.
+- **Six URL de santé en HTTP 200**, ainsi que manifeste, sitemap et clé.
+  Contenu principal public identique à la source. **IndexNow HTTP 200** pour
+  `/gratuit/` : notification acceptée, pas une preuve d’indexation ni de croissance.
+- **Aucune nouvelle distribution** : créneau Bluesky hebdomadaire occupé par
+  le post du 02/11 (`3mzcujcddsa22`). Fil public relu : zéro réponse au contrôle.
+  Aucun envoi, formulaire ni relance. Prochaine priorité : contrôler le parcours
+  mobile complet jusqu’au téléchargement des deux archives.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-04/hub-gratuit-lisibilite/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

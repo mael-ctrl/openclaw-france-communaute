@@ -1,0 +1,41 @@
+{
+ "slug": "electricite-vram-cyberattaques-les-limites-physiques-de-la-c-8befc4",
+ "titre": "Électricité, VRAM, cyberattaques : les limites physiques de la course à l'IA",
+ "chapo": "Les data centers n'arrivent plus à se brancher au réseau électrique et recyclent désormais de vieux réacteurs d'avion pour tenir leurs délais. Pendant ce temps, la VRAM fait fantasmer la communauté du LLM local, l'IA générative envahit Steam, et le Royaume-Uni alerte sur les cyberattaques à venir.",
+ "html": "<h2 id=\"le-reseau-electrique-premier-goulot-d-et\">Le réseau électrique, premier goulot d'étranglement</h2>\n<p>L'attente pour accéder au réseau électrique se compte en années. Idem pour obtenir de nouvelles turbines. Face à ces délais, les constructeurs de data centers se tournent vers une solution qui n'a rien d'élégant : de <strong>vieux réacteurs d'avion, déjà jetés</strong>, rapporte TechCrunch.</p>\n<p>Le calcul est simple à comprendre, même s'il est coûteux : ces réacteurs sont <strong>moins efficaces</strong> et <strong>moins respectueux de l'environnement</strong> que les solutions classiques, mais ils produisent de l'électricité sans attendre le raccordement. Ce n'est donc pas un choix de sobriété, c'est un contournement de délai.</p>\n<p>Derrière cette dépêche se dessine une réalité peu commentée de la course à l'IA : avant d'être une affaire de modèles et de puces, elle est une affaire de courant disponible. Et quand le courant manque, on ressort des moteurs d'avion du placard.</p>\n<h2 id=\"64-go-96-go-la-vram-comme-trophee\">64 Go, 96 Go : la VRAM comme trophée</h2>\n<p>Sur le front du matériel, une rumeur agite r/LocalLLaMA : des <strong>RTX 5090 dotées de 64 Go et 96 Go de VRAM</strong> existeraient. L'information vient d'un membre du subreddit, qui relaie l'affirmation d'un technicien américain spécialisé dans la réparation de GPU.</p>\n<p>Deux précautions s'imposent. D'abord, le mot « confirmé » figure dans le titre du fil, pas dans une documentation officielle : <strong>l'extrait ne cite aucune source officielle</strong>. Ensuite, l'intérêt de la chose tient à un détail technique bien réel : la quantité de VRAM détermine la taille des modèles d'IA qu'une carte peut charger.</p>\n<p>C'est précisément ce qui rend l'affirmation notable pour la communauté du LLM local, habituée à composer avec des cartes bridées en mémoire. Mais entre un bruit de couloir de réparateur et un produit annoncé, il y a un fossé que rien, pour l'instant, ne permet de combler.</p>\n<h2 id=\"dans-les-jeux-et-dans-la-poche-l-ia-avan\">Dans les jeux et dans la poche, l'IA avance</h2>\n<p>Les usages, eux, ne se font pas prier. Selon une analyse publiée sur Reddit et relayée par Dexerto, <strong>près de 50 % des jeux sortis sur Steam en octobre 2026</strong> déclaraient des contenus générés par IA. C'est presque deux fois plus qu'il y a un an.</p>\n<p>Sur le marché des smartphones, une équipe s'attaque à un terrain plus lourd : Cyclon, porté par deux ingénieurs, veut remplacer l'iPhone par un téléphone où <strong>l'IA utilise nos applications à notre place</strong>. L'équipe a remporté un hackathon en mai et décroché un ticket pour Y Combinator. Le projet est présenté comme le premier smartphone 100 % piloté par l'IA, hors des sentiers de Google et d'OpenAI.</p>\n<p>Là encore, il s'agit d'une intention affichée plus que d'un produit entre les mains du public. Le positionnement est clair en revanche : proposer une alternative aux deux plateformes qui dominent aujourd'hui l'IA grand public.</p>\n<h2 id=\"le-revers-des-cyberattaques-dopees-a-l-i\">Le revers : des cyberattaques dopées à l'IA</h2>\n<p>Tout cela a un coût. Le Centre national de cybersécurité britannique craint une <strong>multiplication des cyberattaques dopées à l'intelligence artificielle</strong> contre des infrastructures critiques d'ici 2028, rapporte 01net.</p>\n<p>L'IA pourrait notamment permettre aux pirates de mener des attaques de type <strong>ransomware particulièrement redoutables</strong>. L'échéance est donnée, l'inquiétude est officielle, et elle concerne des cibles qui ne sont pas des gadgets : les infrastructures critiques.</p>\n<p>Mise bout à bout, la séquence est cohérente : plus d'IA dans les jeux, dans les téléphones et dans les data centers, donc plus de surface d'attaque, et des outils offensifs qui progressent au même rythme que les usages.</p>\n<h2>Et maintenant ?</h2>\n<p>Ce qui frappe dans ces dépêches, c'est le décalage entre la maturité des annonces et la solidité des contraintes. D'un côté, un réparateur qui affirme l'existence de RTX 5090 à 96 Go, une équipe qui promet de remplacer l'iPhone, un hackathon transformé en ticket Y Combinator. De l'autre, des délais de raccordement électrique qui se comptent en années, des réacteurs d'avion récupérés faute de turbines, et une agence gouvernementale qui date à 2028 la montée en puissance des attaques assistées par IA. Les projects vont vite ; le courant, les puces et les remparts, beaucoup moins.</p>",
+ "pivot": "8befc449c5818e78",
+ "tags": [
+  "matériel",
+  "sécurité",
+  "société",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3309751_ni-google-ni-openai-cyclon-degaine-le-premier-smartphone-100-pilote-par-lia"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/cyberattaques-ia-le-pire-serait-encore-a-venir-alerte-le-royaume-uni.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmqq2a/rtx_5090_with_64gb_and_96gb_vram_confirmed_by_us/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/pop-culture/2366283-pres-dun-jeu-sur-deux-sorti-sur-steam-en-octobre-2026-a-eu-recours-a-lia-generative.html"
+  }
+ ],
+ "date": "2026-11-04T02:33:35+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1549,
+  "sortie": 2659
+ }
+}

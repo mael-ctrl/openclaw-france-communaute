@@ -1,0 +1,41 @@
+{
+ "slug": "weight-space-programming-quand-un-modele-reecrit-les-poids-d-de04ac",
+ "titre": "Weight Space Programming : quand un modèle réécrit les poids d'un autre",
+ "chapo": "Modifier huit neurones pour corriger un seul temps italien : c'est ce qu'un utilisateur de r/LocalLLaMA a demandé à Claude Opus 5.5 de faire sur Gemma 4 12B. Derrière ce bricolage se dessine une pratique — lire et écrire directement dans les poids d'un réseau — que Latent Space baptise « Weight Space Programming ».",
+ "html": "<h2 id=\"huit-neurones-pour-un-temps-italien\">Huit neurones pour un temps italien</h2>\n<p>Le point de départ est une démonstration de MIT CSAIL : GPT-6 Astra y modifiait à la main les poids de Qwen3.5-0.8B, avec à la clé la fin des boucles sur les problèmes de maths et de meilleurs scores — sans entraînement. Un utilisateur de r/LocalLLaMA a voulu voir ce que l'approche donnait sur son propre terrain : la traduction vers l'italien. Il a demandé à Claude Opus 5.5 de réécrire 8 neurones de Gemma 4 12B pour changer le rendu d'un seul temps.</p>\n<p>La difficulté n'est pas l'édition en elle-même, mais sa conditionnalité : il faut que le modèle emploie ce temps seulement quand le sens l'exige, et pas systématiquement. Autrement dit, la modification doit rester un comportement contextuel et non un réflexe appliqué à chaque phrase. C'est là que le réglage de quelques neurones cesse d'être une curiosité de laboratoire pour devenir un problème de contrôle.</p>\n<h2 id=\"ce-que-latent-space-met-derriere-le-nom\">Ce que Latent Space met derrière le nom</h2>\n<p>Latent Space relaie l'approche sous l'étiquette « Weight Space Programming » : des modèles de langage qui lisent et écrivent directement les poids d'un réseau de neurones. La publication situe l'intérêt du côté de l'autoresearch, qu'elle sort de la boucle RSI. L'exemple cité est le même que celui de la démo de MIT CSAIL — modifier les poids de Qwen pour réduire les boucles de raisonnement.</p>\n<p>Le reste du sommaire de Latent Space ne parle pas de poids : on y trouve un prototype de super-agent signé DeepSeek et le benchmark GDPx. Rien n'indique de lien entre ces sujets et le Weight Space Programming ; ils cohabitent dans la même édition.</p>\n<h2 id=\"interpreter-les-poids-une-affirmation-sa\">Interpréter les poids : une affirmation sans mode d'emploi</h2>\n<p>Sur r/LocalLLaMA, un internaute signale que Qwen 3.8 27B serait capable d'interpréter les poids d'un modèle, à l'image de GPT-6 Astra. Le fil ne précise ni la méthode employée ni les résultats obtenus : on reste donc sur une affirmation, pas sur un protocole reproductible.</p>\n<p>Si elle se confirmait, cette capacité concernerait directement l'analyse des modèles ouverts et le travail de celles et ceux qui les examinent. Lire dans les poids n'est pas la même opération que les réécrire, mais les deux gestes partagent une même condition : disposer d'un modèle dont on peut inspecter les paramètres.</p>\n<h2 id=\"prouver-l-origine-outiller-la-navigation\">Prouver l'origine, outiller la navigation</h2>\n<p>Deux autres dépêches illustrent les à-côtés de ces manipulations. Anthropic planche sur FlashProve, un système qui permettrait à n'importe qui de vérifier qu'une réponse d'IA provient bien du modèle dont elle se réclame — l'objectif affiché étant de contrôler l'origine d'une réponse générée sans avoir à la croire sur parole.</p>\n<p>Chez LangChain, la question est plus terre-à-terre : l'équipe a comparé sept jeux d'outils de navigation web destinés à ses Deep Agents avant de retenir Stagehand, développé par Browserbase. Le choix a ensuite été affiné à l'aide des traces et des évaluations de LangSmith. Le billet détaille la méthode de comparaison et les enseignements qui en sont tirés.</p>\n<h2>Et maintenant ?</h2>\n<p>Modifier quelques neurones plutôt que réentraîner un modèle déplace la question : ce n'est plus « comment obtenir le comportement » mais « comment savoir d'où il vient ». Un réseau dont on réécrit les poids à la main reste, par construction, le même fichier — d'où l'intérêt d'un mécanisme comme FlashProve, encore au stade de projet chez Anthropic. Et pour les modèles ouverts, la capacité à lire dans les paramètres, encore non documentée publiquement, conditionne l'analyse. Deux chantiers distincts, une même exigence de traçabilité.</p>",
+ "pivot": "de04ac84b6b150b6",
+ "tags": [
+  "recherche",
+  "open-source",
+  "claude",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn1gs9/i_tried_mits_weightspace_programming_on_my_own/"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/"
+  },
+  {
+   "nom": "LangChain (blog officiel)",
+   "url": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/"
+  }
+ ],
+ "date": "2026-11-04T03:55:24+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1560,
+  "sortie": 2124
+ }
+}

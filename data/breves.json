@@ -1,5 +1,47 @@
 [
  {
+  "id": "fd3467b1dba49c5d",
+  "slug": "codex-la-version-0-168-0-alpha-1-publiee-sur-le-depot-github-fd3467",
+  "titre": "Codex : la version 0.168.0-alpha.1 publiée sur le dépôt GitHub",
+  "resume": "Le dépôt GitHub openai/codex a publié la version 0.168.0-alpha.1. La note de publication se limite à la mention « Release 0.168.0-alpha.1 » : aucun détail sur les changements, correctifs ou nouvelles fonctionnalités n'y figure. Il s'agit d'une préversion alpha, clairement identifiée comme telle dans son numéro de version. Cette étiquette la distingue des versions stables du projet.",
+  "tags": [
+   "openai",
+   "dev",
+   "agents"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.1",
+  "date_source": "2026-11-04T02:58:24+00:00",
+  "date_redac": "2026-11-04T03:54:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 798
+  }
+ },
+ {
+  "id": "75ea617e9ffecfbd",
+  "slug": "openclaw-publie-un-correctif-sur-la-revue-du-worker-cli-openshell-75ea61",
+  "titre": "OpenClaw publie un correctif sur la revue du worker-cli openshell",
+  "resume": "OpenClaw a mis en ligne une nouvelle référence de version, ed1bb7298985, publiée le 4 novembre 2026. Le correctif qu'elle contient porte sur le processus de release : il enregistre la revue du worker-cli openshell pour le bundle courant. La publication reste donc circonscrite à l'outillage de livraison du projet, sans autre changement détaillé dans l'extrait.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fed1bb7298985-1793760875",
+  "date_source": "2026-11-04T02:53:30+00:00",
+  "date_redac": "2026-11-04T03:54:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 616,
+   "sortie": 535
+  }
+ },
+ {
   "id": "a7a64312d69149a9",
   "slug": "openclaw-publie-la-version-beta-2026-11-5-beta-1-a7a643",
   "titre": "OpenClaw publie la version bêta 2026.11.5-beta.1",
@@ -226,6 +268,28 @@
    "modele": "deepseek-flash",
    "entree": 638,
    "sortie": 411
+  }
+ },
+ {
+  "id": "934c4796d80a787f",
+  "slug": "hermes-agent-plus-de-temps-passe-a-le-configurer-qu-a-s-en-servir-934c47",
+  "titre": "Hermes Agent : plus de temps passé à le configurer qu'à s'en servir",
+  "resume": "Après quatre à cinq mois d'interfaces web pour apprendre les LLM locaux, un utilisateur de r/LocalLLaMA a testé Hermes Agent pendant trois à quatre semaines. La majeure partie du temps est partie dans l'installation, le réglage du comportement de l'agent et l'écriture de skills, pas dans l'usage. Il juge l'outil trop chargé en skills et fonctions et doute qu'il soit adapté à l'administration Linux.",
+  "tags": [
+   "hermes",
+   "agents",
+   "skills",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xn4n3j/harnessesagents_suited_for_linux_sysadmin_system/",
+  "date_source": "2026-11-03T20:45:28+00:00",
+  "date_redac": "2026-11-04T03:55:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 865,
+   "sortie": 846
   }
  },
  {

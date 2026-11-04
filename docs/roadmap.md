@@ -1,12 +1,43 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## État courant — 4 novembre 2026, revue du soir
+
+**Cette synthèse prévaut sur les états intermédiaires et historiques ci-dessous.** Pull partagé tenté à **21:00:48 CET**, refusé (128) : six fichiers non fusionnés, journal indexé, rebase sur `c3d030c`. Conflits préservés sans abort/reset/stash ; worktree documentaire propre, pull réussi ici seulement. Base **`5a2a27bb1beda6afaa884b1debb8a500316748a0`** ; fenêtre Git/créations GitHub figée à **21:01:54 CET** (`03/11 23:00:00 → 04/11 20:01:54 UTC`). HTTPS contrôlé séparément vers **21:03 CET**.
+
+**Bilan :** 21 commits ; **25 runs = huit succès, seize annulations, un en cours**. Parmi les annulations, quatorze pendant pipeline/sauvegarde ignorée ; deux après pipeline réussi, avec état effectivement poussé — ne pas les confondre. Impression, mode d'emploi Pack, smolagents et lisibilité du hub confirmés ; podcast du 4 désormais en ligne. **1 481 références de la vague intactes.** Trafic du **3 : 943 IP estimées** ; 0 € sur les 24 h du KPI seulement, cumul indisponible. **Accès Stripe de nouveau attesté : la demande de reconnexion est levée.**
+
+| Chantier | Statut vérifié le 04/11 au soir | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | 🔶 **102 URL News uniques dans les 48 h / 108 entrées**, build 18:35:59 UTC ; **511 articles Git = 511 URL individuelles au sitemap**. smolagents ajouté : **28 flux OPML exacts** ; IndexNow 200 à 19:10:46 UTC | **05/11 :** suivre la collecte sans réintégrer la source ; priorité à la cohérence local/cloud. Sitemap et acceptation IndexNow ≠ indexation effective. [Source](source-smolagents.md) |
+| P2 — Site | ✅ Impression `28729fe` confirmée : **CSS publique exacte** ; 297 Python/huit Node et recettes navigateur/PDF rapportées par le chantier, non rejouées ici. Attente cloud levée par `41872908203` : 301 tests, 2 339 envois, sauvegarde `b274eef`/`bd2a5d2` | **05/11 :** conserver cette clôture sans refaire impression/auteur/sommaire ; requalifier le prochain candidat. Dossier initial encore daté « publication à confirmer » : présent bilan le complète. [Recette](impression-lecture.md) |
+| P3 — Podcast | ✅ Épisode du 4 `78c11d6` publié : **809 568 octets MP3 identiques à Git**, script présent, **17 GUID uniques**. Descendant `41888021925` réussi : 301 tests, 2 346 envois, sauvegarde `5a2a27b`. Épisode du 3 également présent | **05/11 :** préserver l'idempotence ; le statut « en attente » de la sortie du 4 est dépassé. Aucun épisode à recréer ; chaîne/annuaires et sauvegarde après annulation restent distincts |
+| P4 — Newsletter | 🔶 Dernier décompte attesté **03/11 : zéro abonné**, pas de nouveau contrôle direct ce soir ni numéro envoyé attesté ; garde privée non activée | **Avant envoi :** acquisition consentie, expéditeur, consentement et désinscription éprouvés. Ne pas recomposer sans changement utile |
+| P5 — Monétisation | 🔶 Mode d'emploi Pack `d428f21` **exact en HTTPS**, 14 € et livrables inchangés selon le chantier. **Stripe accessible au KPI et aux veilles ultérieures, dernière preuve 18:02 CET** ; cumul toujours indisponible par attribution incomplète. B2B 200/mentions 404 | **Action humaine unique : confirmer l'entité vendeuse et son régime de TVA.** Attribution interne à terminer ; aucun renommage global du paiement ni prospection. Les demandes de reconnexion antérieures ne sont plus d'actualité. [Dossier](monetisation.md) |
+| P6 — Presse / distribution | 🔶 Courrier, distribution et piaille silencieux ; aucune réponse qualifiée ou nouvelle permission attestée. Pas de nouvelle sollicitation par cette revue | **Semaine du 02 : suivi seulement sur Bluesky**, créneau consommé ; qualifier les retours et permissions, sans répétition d'invitation |
+| P7 — Record | 🔴 Tournée d'octobre déjà livrée ; deux anomalies historiques restent ouvertes selon les contrôles précédents, non recalculées ici | **05/11 :** traitement opérationnel et sauvegarde durable à qualifier ; ne pas refaire la tournée ni réécrire les sceaux |
+| P8 — Skool | 🔶 Brouillon du 4 « Défi premier pas » produit, calendrier seul ; source brèves locale inexploitable. **18/22 ancien**, non recompté | **Prochaine session authentifiée :** réconcilier M6, membres et publications ; brouillon ≠ publication, conflit local ≠ panne Skool |
+| P9 — Organisation / exploitation | 🔴 Faux vert local maintenu : **pull refusé → 1 930 envois rapportés → sauvegarde refusée**, cron `ok`. Wrapper inchangé ; admission/checkpoint seulement préparés. **1 481 références revérifiées** ; **2 100 932 608 octets libres** à 21:03 | **Priorité interne du 05 :** garde minimale complète, reprise Git préservant les variantes et vrai statut cron ; puis export/rétention cloud, reprise et concurrence. Copies bornées, aucune purge effectuée |
+| P10 — Affiliation / hub | 🔶 Lisibilité des trois cartes `/gratuit/` corrigée `f091c55`, page 200 ce soir ; 301 tests et contrôles publics consignés par le chantier, non rejoués ici. Aucun programme ni commission activé | **05/11 :** parcours mobile complet jusqu'aux deux ZIP, puis installation/restauration réelles distinctes. Pas de nouvelle promotion ni offre Skool payante déduite |
+
+### Une seule action humaine — identité vendeuse
+
+**Message exact :** « Maël, confirme en une réponse l'entité juridique qui vend le Pack et les prestations du Crabe, ainsi que son régime de TVA. Cette validation est nécessaire pour finaliser l'identité vendeuse et les mentions avant toute prospection B2B. »
+
+L'alerte OAuth de 00:25 reste conservée, mais les lectures réussies ultérieures la dépassent ; **aucune reconnexion demandée ce soir**. Le cumul reste indisponible pour attribution incomplète, ce qui ne signifie pas zéro recette. Identité/TVA, mentions/conditions, droits/données, capacité et reversement demeurent des prérequis cumulatifs ; aucune validation du silence.
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si cette absence de validation bloque l'ouverture commerciale.** Destinataire et message exact : `crabe-chantiers/gouvernance/2026-11-04/revue-2100/escalade-mael.txt`, hors dépôt public ; **préparé, non envoyé**. Livraison locale uniquement, jamais Discord.
+
+[Bilan détaillé](ceo-log.md#2026-11-04--bilan-du-soir-publications-confirmées-accès-stripe-requalifié). Aucun déploiement, cron, paiement, post ou email déclenché par cette revue ; seuls ce journal de pilotage et le CEO-log sont publiés.
+
+---
+
 ## Chantier site du 4 novembre — impression de lecture
 
 **Seule nouvelle intégration :** CSS print pour articles et brèves, premier candidat site du relais du matin ; auteur et sommaire déjà livrés ne sont pas refaits. Base propre `bca54c7`, pull partagé refusé et conflits préservés. **297 Python + huit Node**, deux builds complets : 4 558/4 559 fichiers identiques, seule CSS modifiée, **662 fichiers de données/contenus/sites préservés**. **56 contrôles navigateur sans JS + 24 PDF**, couvertures réelles et trois annexes témoins ; huit pages éditoriales relues, titre Sources corrigé après reproduction. [Dossier, provenance et limites](impression-lecture.md).
 
 **Au commit initial : intégration testée, publication cloud/HTTPS à confirmer.** Aucune activation du wrapper, cache, checkpoint, newsletter ou archives historiques. Impression éprouvée sur échantillons Chromium, pas tous les navigateurs/imprimantes ni gain d'audience.
 
-## État courant — 3 novembre 2026, revue du soir
+## État antérieur — 3 novembre 2026, revue du soir
 
 **Cette synthèse remplace les statuts historiques conservés ci-dessous.** Revue prévue à 21 h CET ; pull partagé tenté à **22:08**, refusé (128) pour six fichiers non fusionnés et journal indexé. Rebase sur `ddb26d4`, préservé sans abort/reset/stash. Worktree documentaire propre, pull réussi ici seulement ; base **`bdb0a687e2ddc2a8f993f23949a06782dfede72f`**. Fenêtre Git/créations GitHub figée à **22:23:53 CET** (`02/11 23:00:00 → 03/11 21:23:53 UTC`) ; HTTPS **22:26:41–22:27:23 CET**, sans antidatation.
 

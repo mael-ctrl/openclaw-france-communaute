@@ -1,5 +1,126 @@
 [
  {
+  "id": "503972be8dea4fdd",
+  "slug": "gemini-cli-v0-68-0-preview-0-validation-d-extensions-et-correctifs-win-503972",
+  "titre": "Gemini CLI v0.68.0-preview.0 : validation d'extensions et correctifs Windows",
+  "resume": "Google publie la préversion 0.68.0 de Gemini CLI, son outil en ligne de commande. La mise à jour ajoute une commande de validation des extensions, accompagnée de tests d'évaluation. Côté correctifs, la recherche de fichiers pour l'autocomplétion « @ » normalise les slashs initiaux, et la fonction isWithinRoot devient insensible à la casse sous Windows. Les modèles Gemini 3 à nom pointé sont désormais reconnus par supportsMultimodalFunctionResponse.",
+  "tags": [
+   "gemini",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Gemini CLI (releases, préversions incluses)",
+  "lien_source": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0-preview.0",
+  "date_source": "2026-11-04T19:49:22+00:00",
+  "date_redac": "2026-11-04T19:59:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 847,
+   "sortie": 413
+  }
+ },
+ {
+  "id": "61bcb77d85f45279",
+  "slug": "ia-open-source-hugging-face-explique-ou-se-cree-la-valeur-61bcb7",
+  "titre": "IA open source : Hugging Face explique où se crée la valeur",
+  "resume": "Les modèles open source gagnent du terrain : entreprises, gouvernements et startups misent sur des coûts plus bas, davantage de contrôle et plus de flexibilité. Reste une question : comment les entreprises captent-elles réellement cette valeur ? Et alors que les modèles ouverts chinois progressent, les acteurs américains peuvent-ils tenir le rythme ? Hugging Face répond à ces questions dans un épisode de TechCrunch.",
+  "tags": [
+   "open-source",
+   "business"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+  "date_source": "2026-11-04T19:30:04+00:00",
+  "date_redac": "2026-11-04T19:59:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 655,
+   "sortie": 462
+  }
+ },
+ {
+  "id": "998db8271fc8ba90",
+  "slug": "duckduckgo-courtise-les-ecoles-frustrees-par-la-politique-ia-de-google-998db8",
+  "titre": "DuckDuckGo courtise les écoles frustrées par la politique IA de Google",
+  "resume": "DuckDuckGo se tourne vers les établissements scolaires mécontents des restrictions imposées par Google en matière d'IA. Le moteur de recherche met en avant son offre auprès des enseignants, en insistant sur la possibilité de désactiver les fonctionnalités d'IA. Une façon de récupérer les critiques qui visent la politique de Google.",
+  "tags": [
+   "recherche",
+   "société"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+  "date_source": "2026-11-04T19:29:52+00:00",
+  "date_redac": "2026-11-04T19:59:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 635,
+   "sortie": 410
+  }
+ },
+ {
+  "id": "c0c80e1501e25f44",
+  "slug": "codex-la-preversion-0-168-0-alpha-2-est-publiee-c0c80e",
+  "titre": "Codex : la préversion 0.168.0-alpha.2 est publiée",
+  "resume": "OpenAI a mis en ligne la préversion 0.168.0-alpha.2 de Codex, étiquetée rust-v0.168.0-alpha.2 sur le dépôt GitHub du projet. Il s'agit d'une version alpha, donc par définition non stabilisée. La note de version se limite à « Release 0.168.0-alpha.2 » : aucun correctif ni nouvelle fonctionnalité n'y est documenté.",
+  "tags": [
+   "openai",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.2",
+  "date_source": "2026-11-04T19:23:31+00:00",
+  "date_redac": "2026-11-04T19:59:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 603,
+   "sortie": 714
+  }
+ },
+ {
+  "id": "20c9d3e62edd6257",
+  "slug": "latent-space-ouvre-ses-coulisses-et-evoque-l-ia-en-2026-20c9d3",
+  "titre": "Latent Space ouvre ses coulisses et évoque l'IA en 2026",
+  "resume": "Latent Space profite d'une journée calme pour publier une édition consacrée aux coulisses de sa rédaction. Au sommaire de cette dépêche : le segment « Kill My SaaS », un point sur Jev et l'IA en 2026, ainsi qu'un volet dédié à AIEi Shanghai. Le format habituel de la newsletter laisse donc place à un contenu plus personnel.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 1,
+  "source": "Latent Space",
+  "lien_source": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+  "date_source": "2026-11-04T19:17:30+00:00",
+  "date_redac": "2026-11-04T19:59:35+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 631,
+   "sortie": 955
+  }
+ },
+ {
+  "id": "18bd8457098b4fed",
+  "slug": "ripple-65b-preview-une-page-hugging-face-relayee-sur-r-localllama-18bd84",
+  "titre": "Ripple-65B-Preview : une page Hugging Face relayée sur r/LocalLLaMA",
+  "resume": "Sur r/LocalLLaMA, l'utilisateur coder543 renvoie vers une page Hugging Face consacrée à Ripple-65B-Preview, un modèle signé ricursiveAI. Le nom laisse entendre une taille de 65 milliards de paramètres, ce qui le placerait parmi les modèles de grande dimension. Le billet ne donne en revanche aucun détail sur les données d'entraînement, la licence ou les performances.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xnx3cs/ricursiveairipple65bpreview_hugging_face/",
+  "date_source": "2026-11-04T19:16:16+00:00",
+  "date_redac": "2026-11-04T19:59:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 615,
+   "sortie": 849
+  }
+ },
+ {
   "id": "5df0b279fdccc0b4",
   "slug": "nothing-laisse-entrevoir-un-appareil-ia-sans-ecran-pour-decembre-5df0b2",
   "titre": "Nothing laisse entrevoir un appareil IA sans écran pour décembre",

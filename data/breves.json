@@ -1,5 +1,46 @@
 [
  {
+  "id": "286ebe1fe6ea00c9",
+  "slug": "comfyui-publie-sa-version-0-44-0-286ebe",
+  "titre": "ComfyUI publie sa version 0.44.0",
+  "resume": "ComfyUI passe en version 0.44.0. L'annonce a été relayée sur le subreddit r/LocalLLaMA, où le post renvoie directement vers la publication. L'extrait partagé ne précise pas le contenu de cette mise à jour : ni les changements, ni les correctifs, ni les nouveautés ne sont détaillés.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xngb2i/comfyui_v0440_released/",
+  "date_source": "2026-11-04T05:43:50+00:00",
+  "date_redac": "2026-11-04T06:41:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 609,
+   "sortie": 538
+  }
+ },
+ {
+  "id": "7131d09a7921075e",
+  "slug": "des-modeles-de-4b-et-moins-testes-sur-des-taches-d-agent-7131d0",
+  "titre": "Des modèles de 4B et moins testés sur des tâches d'agent",
+  "resume": "La communauté r/LocalLLaMA voit rarement des évaluations de modèles ultra-petits. Un contributeur a testé six modèles de 4B et moins sur ses propres tâches d'agent : Qwen3.5-4B, Spark-X2.6, LFM3-1.7B, LFM2.5-2.6B, Gemma 4 E2B et MiniCPM5-2B. Chacun a ses forces et ses faiblesses, mais la tendance notable est la progression rapide de la « densité d'intelligence » de ces petits modèles.",
+  "tags": [
+   "agents",
+   "recherche",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xng029/ai_agent_task_performance_of_small_llm_models_4b/",
+  "date_source": "2026-11-04T05:26:38+00:00",
+  "date_redac": "2026-11-04T06:41:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 763,
+   "sortie": 988
+  }
+ },
+ {
   "id": "cfb1ecc984b61492",
   "slug": "intel-pourrait-abandonner-l-arc-b580-au-profit-des-cartes-arc-pro-cfb1ec",
   "titre": "Intel pourrait abandonner l'Arc B580 au profit des cartes Arc Pro",

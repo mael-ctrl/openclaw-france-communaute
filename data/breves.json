@@ -53,96 +53,98 @@
   ],
   "importance": 1,
   "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fed1bb7298985-1793760875",
+  "date_source": "2026-11-04T02:53:30+00:00",
+  "date_redac": "2026-11-04T03:18:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 616,
+   "sortie": 709
+  }
+ },
+ {
+  "id": "a7a64312d69149a9",
+  "slug": "openclaw-met-en-ligne-la-version-2026-11-5-beta-1-a7a643",
+  "titre": "OpenClaw met en ligne la version 2026.11.5-beta.1",
+  "resume": "OpenClaw publie la version 2026.11.5-beta.1 de son projet. Il s'agit d'une version bêta, diffusée sur le dépôt GitHub du projet le 4 novembre 2026. Les mises à jour sont publiées sous forme de tags dans les releases GitHub.",
+  "tags": [
+   "openclaw",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
   "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.5-beta.1",
   "date_source": "2026-11-04T01:52:57+00:00",
-  "date_redac": "2026-11-04T02:32:39+00:00",
+  "date_redac": "2026-11-04T03:19:02+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 602,
-   "sortie": 480
+   "sortie": 656
   }
  },
  {
   "id": "1d3e2024a7203140",
-  "slug": "openclaw-localise-les-retours-d-interface-des-skills-et-des-plugins-1d3e20",
-  "titre": "OpenClaw localise les retours d'interface des skills et des plugins",
-  "resume": "OpenClaw publie un correctif d'interface : les retours affichés pour les skills et les plugins font l'objet d'une localisation. La modification, référencée #192305, a été portée par le contributeur @vyctorbrzezowski, avec l'appui du bot @roboclaw-bot. Un changement discret, mais qui touche à l'expérience quotidienne des utilisateurs de l'outil.",
+  "slug": "openclaw-localise-les-messages-des-skills-et-plugins-dans-son-interfac-1d3e20",
+  "titre": "OpenClaw localise les messages des skills et plugins dans son interface",
+  "resume": "La dernière release d'OpenClaw corrige l'interface : les retours destinés aux utilisateurs pour les skills et les plugins sont désormais localisés. La modification, référencée #192305, est portée par le contributeur @vyctorbrzezowski, avec une co-signature du bot roboclaw-bot. Le correctif touche deux briques centrales de l'outil, sans changement fonctionnel annoncé au-delà de l'affichage.",
   "tags": [
    "openclaw",
-   "open-source",
+   "skills",
    "dev",
-   "skills"
+   "open-source"
   ],
   "importance": 1,
   "source": "OpenClaw (releases)",
   "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F9a3ae43f5602-1793756853",
   "date_source": "2026-11-04T01:42:24+00:00",
-  "date_redac": "2026-11-04T02:32:44+00:00",
+  "date_redac": "2026-11-04T03:19:07+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 862,
-   "sortie": 590
+   "sortie": 483
   }
  },
  {
   "id": "8d8b030db08e4ae3",
-  "slug": "gemini-cli-la-nightly-corrige-extensions-hooks-et-sandbox-podman-8d8b03",
-  "titre": "Gemini CLI : la nightly corrige extensions, hooks et sandbox podman",
-  "resume": "La version v0.67.0-nightly.20261104 de Gemini CLI corrige plusieurs points : la gestion des échecs de flux pendant le téléchargement des extensions, la préservation du modèle gemini-2.5-flash explicite dans la résolution dynamique, et l'attente du replay d'historique avant de répondre à une session/load ACP. Côté hooks, le mapping de l'événement SubagentStop est pris en charge et les définitions fusionnent. Le sandbox fournit désormais --userns=keep-id pour podman en mode rootless.",
+  "slug": "gemini-cli-la-nightly-v0-67-0-corrige-les-hooks-et-la-resolution-de-mo-8d8b03",
+  "titre": "Gemini CLI : la nightly v0.67.0 corrige les hooks et la résolution de modèle",
+  "resume": "La version nightly v0.67.0 de Gemini CLI est publiée. Elle corrige plusieurs points : les échecs de flux lors du téléchargement des releases d'extensions, la préservation d'un modèle gemini-2.5-flash explicitement demandé lors de la résolution dynamique des modèles, et le support de l'événement SubagentStop avec fusion des définitions de hooks. Côté sessions, l'outil attend désormais la relecture de l'historique avant de répondre à un ACP session/load, et le bac à sable fournit --userns=keep-id pour podman en mode rootless.",
   "tags": [
    "gemini",
    "dev",
-   "open-source"
+   "agents"
   ],
-  "importance": 2,
+  "importance": 1,
   "source": "Gemini CLI (releases, préversions incluses)",
   "lien_source": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261104.g89e9d25d6",
   "date_source": "2026-11-04T01:20:49+00:00",
-  "date_redac": "2026-11-04T02:32:47+00:00",
+  "date_redac": "2026-11-04T03:19:11+00:00",
   "gen": {
    "modele": "deepseek-flash",
    "entree": 797,
-   "sortie": 361
+   "sortie": 501
   }
  },
  {
-  "id": "47f134bfe005edc1",
-  "slug": "sur-r-localllama-la-question-d-un-qwen-4-qui-se-fait-attendre-47f134",
-  "titre": "Sur r/LocalLLaMA, la question d'un Qwen 4 qui se fait attendre",
-  "resume": "Sur r/LocalLLaMA, un utilisateur signé u/Critical-Entry3377 pose une question en forme de titre : « Where's my Qwen 4? ». Le message, publié le 4 novembre 2026, ne contient aucun autre élément : ni capture d'écran, ni lien vers une annonce, ni précision sur une date de sortie. La demande reste une simple interrogation, sans information vérifiable sur l'existence ou le calendrier d'un Qwen 4.",
+  "id": "413b9f7f121c24ab",
+  "slug": "moteurs-d-inference-trop-de-projets-un-suivi-devenu-impossible-413b9f",
+  "titre": "Moteurs d'inférence : trop de projets, un suivi devenu impossible",
+  "resume": "Un utilisateur de r/LocalLLaMA rappelle qu'en mars 2025, l'écosystème des moteurs d'inférence tenait en quelques noms : llama.cpp, ollama, koboldcpp, vllm, litert. Aujourd'hui, Strata, Basalt, Maya, Colibri, Ninfer, Infernix se multiplient et il avoue ne plus suivre. llama.cpp progresse chaque semaine : Qwen3.8-Flash-Next tourne sur 64 Go de RAM et 32 Go de VRAM, parfois au prix de la qualité.",
   "tags": [
    "open-source",
-   "dev"
-  ],
-  "importance": 1,
-  "source": "r/LocalLLaMA",
-  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xnajcu/wheres_my_qwen_4/",
-  "date_source": "2026-11-04T00:52:06+00:00",
-  "date_redac": "2026-11-04T02:33:10+00:00",
-  "gen": {
-   "modele": "deepseek-flash",
-   "entree": 604,
-   "sortie": 1085
-  }
- },
- {
-  "id": "1b0d0a6881eb91ec",
-  "slug": "codex-la-preversion-0-167-0-alpha-5-publiee-sur-github-1b0d0a",
-  "titre": "Codex : la préversion 0.167.0-alpha.5 publiée sur GitHub",
-  "resume": "OpenAI a publié le 4 novembre 2026 le tag rust-v0.167.0-alpha.5 du dépôt Codex sur GitHub. Il s'agit d'une préversion alpha, donc d'une version de test destinée aux développeurs qui suivent le projet de près. L'extrait de publication ne détaille pas le contenu des changements apportés. Le préfixe rust- du tag rattache cette itération au volet Rust du dépôt.",
-  "tags": [
-   "openai",
-   "dev"
+   "dev",
+   "matériel"
   ],
   "importance": 2,
-  "source": "Codex (releases, préversions incluses)",
-  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.5",
-  "date_source": "2026-11-04T00:45:00+00:00",
-  "date_redac": "2026-11-04T02:33:18+00:00",
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xnanyh/keeping_up_with_new_inference_engines/",
+  "date_source": "2026-11-04T00:58:01+00:00",
+  "date_redac": "2026-11-04T03:19:17+00:00",
   "gen": {
    "modele": "deepseek-flash",
-   "entree": 603,
-   "sortie": 1012
+   "entree": 827,
+   "sortie": 1097
   }
  },
  {

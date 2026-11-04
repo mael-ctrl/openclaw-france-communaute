@@ -1,0 +1,41 @@
+{
+ "slug": "data-centers-faute-d-electricite-ils-recyclent-de-vieux-reac-8befc4",
+ "titre": "Data centers : faute d'électricité, ils recyclent de vieux réacteurs d'avion",
+ "chapo": "Faute de raccordement au réseau et de turbines disponibles, les constructeurs de data centers recyclent de vieux réacteurs d'avion pour produire leur électricité. Autour de ce bricolage industriel, matériel, usages et menaces dessinent une IA aux contraintes très physiques.",
+ "html": "<h2 id=\"l-electricite-ce-nouveau-mur\">L'électricité, ce nouveau mur</h2>\n<p>L'attente pour accéder au réseau électrique et pour obtenir de nouvelles turbines se compte en années. Les constructeurs de data centers se tournent donc vers une solution inhabituelle : de vieux réacteurs d'avion, déjà jetés.</p>\n<p>Le compromis est assumé. Ces réacteurs sont <strong>moins efficaces</strong> et <strong>moins respectueux de l'environnement</strong> que les installations prévues. Mais ils produisent de l'électricité sans attendre le raccordement — ce qui, pour un site en construction, change tout.</p>\n<p>Ce détail dit quelque chose de plus large : la course à la puissance de calcul ne se joue plus seulement sur les puces ou l'architecture des modèles. Elle se heurte à de la tuyauterie industrielle — lignes électriques, turbines, transformateurs — et à des délais qui ne se compressent pas comme un calendrier de sortie logicielle.</p>\n<h2 id=\"la-vram-l-autre-plafond\">La VRAM, l'autre plafond</h2>\n<p>Le matériel n'est pas épargné non plus. Un membre de r/LocalLLaMA relaie l'affirmation d'un technicien américain de réparation de GPU : des RTX 5090 dotées de <strong>64 Go et 96 Go de VRAM</strong> existeraient. Le mot « confirmé » figure dans le titre, mais l'extrait ne cite <strong>aucune source officielle</strong>.</p>\n<p>Pourquoi la communauté s'y intéresse-t-elle ? Parce que la quantité de VRAM détermine la taille des modèles d'IA qu'une carte peut charger. Plus de mémoire sur une carte grand public, c'est potentiellement plus de modèles qui tournent en local, sans passer par une API distante.</p>\n<p>En l'état, il s'agit d'une affirmation relayée par un membre de forum, pas d'une annonce vérifiée. À prendre comme un signal d'intérêt, pas comme une fiche technique.</p>\n<h2 id=\"du-smartphone-aux-jeux-video-l-ia-s-inst\">Du smartphone aux jeux vidéo, l'IA s'installe partout</h2>\n<p>Cyclon, porté par deux ingénieurs, veut remplacer l'iPhone par un smartphone où l'IA utilise nos applications à notre place. L'équipe a remporté un hackathon en mai et décroché un ticket pour Y Combinator. Le projet est présenté comme le premier smartphone <strong>100 % piloté par l'IA</strong>, hors des sentiers de Google et d'OpenAI. La formule est ambitieuse ; elle reste une présentation, pas un produit documenté.</p>\n<p>Du côté du jeu vidéo, l'IA générative n'est plus une promesse en surplomb : selon une analyse publiée sur Reddit et relayée par Dexerto, près de <strong>50 % des jeux sortis sur Steam en octobre 2026</strong> déclaraient des contenus générés par IA. C'est presque deux fois plus qu'il y a un an. La donnée vient d'une analyse communautaire, mais elle donne la mesure d'une banalisation.</p>\n<h2 id=\"le-revers-des-cyberattaques-dopees-a-l-i\">Le revers : des cyberattaques dopées à l'IA d'ici 2028</h2>\n<p>Le Centre national de cybersécurité britannique craint une multiplication des cyberattaques dopées à l'intelligence artificielle contre des infrastructures critiques <strong>d'ici 2028</strong>. L'IA pourrait notamment permettre aux pirates de mener des attaques de type <em>ransomware</em> particulièrement redoutables.</p>\n<p>Le point commun avec le reste de l'actualité, c'est la matière première : la même technologie qui alimente des data centers, des cartes graphiques et des téléphones sert aussi d'outil offensif. Aucune des dépêches ne relie directement ces sujets entre eux, mais elles décrivent un même mouvement — celui d'une IA qui sort du laboratoire et pèse sur l'énergie, le matériel et la sécurité.</p>\n<h2>Et maintenant ?</h2>\n<p>Ce qui ressort de ces dépêches, c'est un déplacement du goulot d'étranglement. On a longtemps discuté puissance des modèles et benchmarks ; on parle désormais raccordement électrique, VRAM disponible, contenus générés dans les jeux, robustesse des infrastructures. Les vieux réacteurs d'avion sont le symptôme le plus visible de cette bascule : quand le calcul devient une industrie lourde, ce sont les contraintes physiques qui donnent le tempo, pas les courbes de progression des modèles.</p>",
+ "pivot": "8befc449c5818e78",
+ "tags": [
+  "matériel",
+  "sécurité",
+  "société",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3309751_ni-google-ni-openai-cyclon-degaine-le-premier-smartphone-100-pilote-par-lia"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/cyberattaques-ia-le-pire-serait-encore-a-venir-alerte-le-royaume-uni.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmqq2a/rtx_5090_with_64gb_and_96gb_vram_confirmed_by_us/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/pop-culture/2366283-pres-dun-jeu-sur-deux-sorti-sur-steam-en-octobre-2026-a-eu-recours-a-lia-generative.html"
+  }
+ ],
+ "date": "2026-11-04T03:19:41+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1549,
+  "sortie": 4024
+ }
+}

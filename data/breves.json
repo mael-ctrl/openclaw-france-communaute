@@ -1,5 +1,129 @@
 [
  {
+  "id": "a59d5b738ac5ec0d",
+  "slug": "need-for-speed-underground-2-tourne-dans-un-navigateur-grace-a-claude--a59d5b",
+  "titre": "Need for Speed Underground 2 tourne dans un navigateur grâce à Claude Code",
+  "resume": "Sorti en 2004, Need for Speed Underground 2 est désormais jouable intégralement dans un simple navigateur web, mode multijoueur compris. Le portage, accessible sur nfsu2.xyz, est non officiel : il a été assemblé à l'aide de l'assistant de programmation Claude Code. Une démonstration concrète de ce que l'outil permet de produire sur un monument du jeu de course arcade.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3310053_need-for-speed-underground-2-est-jouable-gratuitement-dans-un-navigateur-grace-a-claude-code-et-avant-quea-ne-sen-mele",
+  "date_source": "2026-11-04T09:30:48+00:00",
+  "date_redac": "2026-11-04T09:47:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 724,
+   "sortie": 329
+  }
+ },
+ {
+  "id": "3c65df66e470507a",
+  "slug": "un-test-d-ablation-modifie-les-poids-de-qwen-3-5-0-6b-via-strata-iq4-3c65df",
+  "titre": "Un test d'ablation modifie les poids de Qwen 3.5 0.6B via Strata IQ4",
+  "resume": "Un utilisateur de r/LocalLLaMA détaille une expérience d'ablation : modifier les poids de Qwen 3.5 0.6B avec Strata IQ4 Qwen Flash, en s'inspirant de travaux du MIT CSAIL. Le modèle tourne entièrement sur CPU en FP32, sans gradients, autograd ni optimiseurs. L'entraînement a duré 3h12 pour 39,8M de tokens, à 41 tok/s en décodage. Objectif affiché : jauger Strata sur une tâche à très longue portée.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b/",
+  "date_source": "2026-11-04T09:28:48+00:00",
+  "date_redac": "2026-11-04T09:47:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 889,
+   "sortie": 939
+  }
+ },
+ {
+  "id": "2c2832e73401cde7",
+  "slug": "black-friday-jusqu-a-640-euros-de-remise-sur-iphone-air-galaxy-z-fold--2c2832",
+  "titre": "Black Friday : jusqu'à 640 euros de remise sur iPhone Air, Galaxy Z Fold 8 et Pixel 11",
+  "resume": "À l'occasion du Black Friday, les e-marchands multiplient les remises sur les smartphones. Frandroid a passé les offres au crible et retenu cinq modèles, d'Amazon à Boulanger, avec jusqu'à 640 euros de réduction. La sélection va du modèle abordable au pliant haut de gamme, en passant par l'iPhone Air, le Galaxy Z Fold 8 et le Pixel 11.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/bons-plans/3304227_black-friday-on-a-selectionne-cinq-smartphones-a-prix-casses-chez-amazon-et-boulanger",
+  "date_source": "2026-11-04T09:26:13+00:00",
+  "date_redac": "2026-11-04T09:47:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 695,
+   "sortie": 860
+  }
+ },
+ {
+  "id": "a592730bc8cb92dd",
+  "slug": "google-testerait-un-moteur-de-recherche-sans-son-mode-ia-a59273",
+  "titre": "Google testerait un moteur de recherche sans son mode IA",
+  "resume": "Après avoir largement mis en avant son mode IA, Google pourrait faire marche arrière : le géant américain testerait une version de son moteur de recherche débarrassée de cette fonctionnalité. Ce test intervient alors que la firme accuse une perte de près de 500 milliards de dollars de capitalisation boursière, sur fond d'inquiétudes liées au mode IA.",
+  "tags": [
+   "recherche",
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/google/3309819_google-pourrait-arreter-de-pousser-son-mode-ia-a-chaque-recherche",
+  "date_source": "2026-11-04T09:25:26+00:00",
+  "date_redac": "2026-11-04T09:47:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 691,
+   "sortie": 428
+  }
+ },
+ {
+  "id": "7150187b49742b83",
+  "slug": "specpilot-un-agent-qui-optimise-le-decodage-speculatif-par-deploiement-715018",
+  "titre": "SpecPilot : un agent qui optimise le décodage spéculatif par déploiement",
+  "resume": "Un papier présente SpecPilot, une boucle agentique autonome qui découvre algorithmes et optimisations systèmes pour chaque déploiement de décodage spéculatif. Les auteurs identifient trois freins : avec une seule requête, chaque étape accepte peu de tokens mais lit tous les poids du modèle cible ; en batch, la vérification par requête réduit à peu près de moitié le gain face au décodage autorégressif ; et aucune optimisation universelle ne convient à tous les régimes de service, drafters, modèles cibles et GPU. À chaque round, un modèle de coût localise les plus grands écarts entre le système courant et le gain permis.",
+  "tags": [
+   "recherche",
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjrgj/paper_specpilot_autonomous_algorithm_discovery/",
+  "date_source": "2026-11-04T09:18:44+00:00",
+  "date_redac": "2026-11-04T09:47:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 782,
+   "sortie": 414
+  }
+ },
+ {
+  "id": "b57857e3f8e0a6b3",
+  "slug": "anthropic-assouplit-les-restrictions-de-claude-code-sur-les-jeux-video-b57857",
+  "titre": "Anthropic assouplit les restrictions de Claude Code sur les jeux vidéo",
+  "resume": "Une semaine après avoir bridé Claude Code sur la création de jeux vidéo, Anthropic corrige le tir. Les développeurs peuvent à nouveau citer des titres existants comme références de gameplay sans se heurter à un mur. Les demandes de clones purs débouchent désormais sur des contre-propositions originales.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/anthropic-claude-ai/3309985_anthropic-recule-a-moitie-sur-les-jeux-video-dans-claude-code",
+  "date_source": "2026-11-04T09:09:10+00:00",
+  "date_redac": "2026-11-04T09:47:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 685,
+   "sortie": 110
+  }
+ },
+ {
   "id": "8ab0eb484980cfc4",
   "slug": "apple-impose-une-classification-18-ans-et-plus-aux-apps-de-rencontres--8ab0eb",
   "titre": "Apple impose une classification 18 ans et plus aux apps de rencontres avec IA",

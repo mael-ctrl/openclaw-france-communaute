@@ -415,8 +415,22 @@ def page_pack():
         <li>Un fichier <strong>markdown lisible</strong> — prêt à copier-coller dans n'importe quel assistant ;</li>
         <li>Le même contenu en <strong>JSON structuré</strong> — pour les outils, les agents, les automatisations ;</li>
         <li>10 catégories × 10 prompts, chacun avec un exemple d'usage concret ;</li>
-        <li>Aucune dépendance, aucun abonnement, aucune mise à jour payante.</li>
+        <li>Aucun abonnement au Pack, aucune mise à jour payante.</li>
       </ul>
+      <p>Le Pack contient des fichiers de texte, pas un logiciel ni un accès à une IA.
+      Tu utilises l’assistant de ton choix, selon ses conditions et ses limites.
+      Les éventuels frais de cet outil ou de son API ne sont pas inclus dans les 14 €.</p>
+      <details class="pack-mode-emploi">
+        <summary>Comment utiliser les fichiers du Pack ?</summary>
+        <ol>
+          <li>Ouvre le fichier Markdown (.md) dans un éditeur de texte et choisis un prompt.</li>
+          <li>Copie son texte dans ton assistant, remplace les éléments entre crochets par des
+          informations non sensibles et précise le résultat souhaité.</li>
+          <li>Vérifie les faits et adapte la réponse avant de l’utiliser : un prompt ne garantit pas un résultat exact.</li>
+        </ol>
+        <p>Le JSON reprend les mêmes prompts dans un format structuré, à adapter au schéma de ton outil.
+        Pas d’import universel ni d’automatisation prête à lancer : pour commencer, le copier-coller suffit.</p>
+      </details>
       {extraits}
       {sommaire_pack()}
       <h2 id="prix-pack">Combien</h2>

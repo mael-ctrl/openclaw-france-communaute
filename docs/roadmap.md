@@ -1,6 +1,35 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
-## État courant — 4 novembre 2026, revue du soir
+## État courant — 5 novembre 2026, revue du soir
+
+**Cette synthèse prévaut sur les états historiques ci-dessous.** Revue prévue à 21 h CET, dispatch à 21:41 ; premier pull à **22:12:10**, refusé (128) pour divergence : **neuf commits locaux distincts / 199 distants**, arbre propre au relevé, contrairement aux conflits observés la veille. Aucun reset, abandon ou fusion ; worktree documentaire propre sur **`e9bad9c0e083483fa1f2002b260abedbf5bd3503`**, pull réussi ici seulement. Fenêtre des commits/créations GitHub figée à **22:13:43 CET** (`04/11 23:00:00 → 05/11 21:13:43 UTC`) ; étapes et HTTPS relus plus tard, **vers 23:45 CET**, sans antidatation.
+
+**Bilan : quatre commits cloud ; six runs créés dans la fenêtre, quatre succès et deux annulations pendant pipeline, sauvegardes ignorées.** Le cloud publie encore ; plusieurs tâches locales ont échoué sur réseau/DNS/fournisseur. Un `[SILENT]` dans leur réponse finale ne vaut pas réussite. Aucun nouveau correctif fonctionnel ni épisode du 5 attesté. **Trafic du 4 : 826 IP estimées (−12,4 %)** ; **0 € sur les 24 h du KPI seulement**, cumul indisponible. Priorité interne : exploitation fiable avant nouvelle vague lourde.
+
+| Chantier | Statut vérifié le 05/11 au soir | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | 🔶 **80 URL News uniques dans les 48 h / 97 entrées**, build 15:47:06 UTC ; **515 articles Git = 515 URL individuelles au sitemap**. OPML : 28 flux ; IndexNow 200 à 16:22:06 UTC | **06/11 :** surveiller fraîcheur et cohérence local/cloud ; ne pas réintégrer smolagents. Sitemap et acceptation IndexNow ≠ indexation effective |
+| P2 — Site | 🔶 Job d'intégration du 5 **échoué, fournisseur inaccessible** ; pas de nouveau correctif fonctionnel dans les quatre commits cloud. Impression/auteur/sommaire restent les livraisons précédemment vérifiées | **06/11 :** rapprocher les éventuels artefacts partiels avant reprise ; ne pas refaire les fonctions déjà livrées ni présenter le silence du job comme un succès |
+| P3 — Podcast | 🔴 Job du 5 **échoué, fournisseur inaccessible** ; index Git et RSS public restent au 4, **17 GUID uniques**, page/flux 200 | **06/11 :** reprise idempotente à la date réelle, sans antidater ni recréer l'épisode du 4 ; vérifier les artefacts avant toute génération. Chaîne/annuaires non attestés |
+| P4 — Newsletter | 🔶 Dernier décompte attesté **03/11 : zéro abonné** ; aucun nouveau contrôle direct ni numéro envoyé attesté ce soir | **Avant envoi :** acquisition consentie, expéditeur, consentement et désinscription éprouvés ; garde privée non activée |
+| P5 — Monétisation | 🔶 KPI du 5 : accès Stripe réussi, **0 € sur sa fenêtre 24 h**, cumul indisponible par attribution incomplète. Veilles ultérieures et job monétisation échoués sur fournisseur, pas preuve d'un nouveau refus OAuth. B2B 200/mentions 404 | **Action humaine unique : confirmer l'entité vendeuse et son régime de TVA.** Attribution interne à terminer ; aucune prospection, transaction ou modification globale du paiement |
+| P6 — Presse / distribution | 🔴 Deux lectures courrier échouées en DNS ; distribution échouée sur fournisseur. Pas de nouvelle réponse qualifiée ni permission attestée | **06/11 :** reprendre la lecture/qualification, sans renvoyer les invitations. Bluesky : suivi seulement cette semaine, créneau promotionnel déjà consommé |
+| P7 — Record | 🔴 Tournée d'octobre déjà livrée ; anomalies de chaîne historiques non recalculées ici. Sceau local du 5 annoncé après échec du déploiement, republication distante refusée | **06/11 :** préserver les deux histoires, qualifier reprise et sauvegarde durable ; aucun sceau réécrit, aucune nouvelle certification déduite |
+| P8 — Skool | 🔶 Brouillon du 5 « La veille IA quotidienne : comment la lire sans y passer la matinée » annoncé, calendrier seul ; **18/22 ancien**, non recompté | **Prochaine session authentifiée :** réconcilier M6, membres et publications ; brouillon ≠ publication |
+| P9 — Organisation / exploitation | 🔴 **Faux vert local : pull refusé, déploiement DNS échoué, republication refusée, pourtant cron `ok/completed`.** Wrapper inchangé. Vague du 5 échouée : préflight/scripts partiels, pas de rapport final ; **1 481 références du 4 revérifiées intactes** | **Priorité interne du 06 :** diagnostic réseau/fournisseur puis garde d'admission/propagation des erreurs et reprise Git préservant les variantes ; ensuite sauvegarde/reprise/concurrence cloud. **1 778 192 384 octets libres** au relevé de 23:45 : copies bornées, aucune purge ici |
+| P10 — Affiliation / hub | 🔶 Hub `/gratuit/` 200 ; job croissance du 5 échoué sur fournisseur, préparation parcours mobile non clôturée. Aucun programme ni commission activé | **06/11 :** inventorier/reprendre le parcours mobile jusqu'aux deux ZIP ; installation/restauration réelles restent distinctes. Pas de nouvelle offre ou promotion déduite |
+
+### Une seule action humaine — identité vendeuse
+
+**Message exact :** « Maël, confirme en une réponse l'entité juridique qui vend le Pack et les prestations du Crabe, ainsi que son régime de TVA. Cette validation est nécessaire pour finaliser l'identité vendeuse et les mentions avant toute prospection B2B. »
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si cette absence de validation bloque l'ouverture commerciale.** Destinataire et texte exact : `crabe-chantiers/gouvernance/2026-11-05/escalade-mael.txt`, hors dépôt public ; **préparé, non envoyé**. Pas de reconnexion Stripe demandée sur la base des erreurs fournisseur. Les autres prérequis commerciaux restent cumulatifs ; aucun accord du silence.
+
+[Bilan détaillé](ceo-log.md#2026-11-05--bilan-du-soir-cloud-actif-tâches-locales-en-échec). Aucun déploiement, cron, paiement, email ou post déclenché par cette revue ; seuls les deux documents de pilotage sont publiés. Livraison locale uniquement, jamais Discord.
+
+---
+
+## État antérieur — 4 novembre 2026, revue du soir
 
 **Cette synthèse prévaut sur les états intermédiaires et historiques ci-dessous.** Pull partagé tenté à **21:00:48 CET**, refusé (128) : six fichiers non fusionnés, journal indexé, rebase sur `c3d030c`. Conflits préservés sans abort/reset/stash ; worktree documentaire propre, pull réussi ici seulement. Base **`5a2a27bb1beda6afaa884b1debb8a500316748a0`** ; fenêtre Git/créations GitHub figée à **21:01:54 CET** (`03/11 23:00:00 → 04/11 20:01:54 UTC`). HTTPS contrôlé séparément vers **21:03 CET**.
 

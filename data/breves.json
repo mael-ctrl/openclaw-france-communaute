@@ -1,5 +1,128 @@
 [
  {
+  "id": "f5cf616fa0ca74b5",
+  "slug": "ce-que-la-communaute-locale-attend-de-qwen-4-f5cf61",
+  "titre": "Ce que la communauté locale attend de Qwen 4",
+  "resume": "Sur r/LocalLLaMA, un fil demande ce que chacun attend de Qwen 4, annoncé comme proche. L'auteur espère un 27B au cache KV plus efficace, pour qu'un contexte de 128k ne réclame plus environ 8 GiB de mémoire, et une déclinaison « flash » en 125B-A6B bâtie sur l'architecture de Q38FN, pensé pour les machines de bureau. Il espère aussi qu'un raisonnement « medium » fasse aussi bien que le « xhigh » de Qwen3.8.",
+  "tags": [
+   "open-source",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xo3ikc/what_are_you_looking_forward_to_in_qwen_4/",
+  "date_source": "2026-11-04T23:35:49+00:00",
+  "date_redac": "2026-11-05T00:18:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 700,
+   "sortie": 1143
+  }
+ },
+ {
+  "id": "ec73507aee5a0589",
+  "slug": "les-pac-de-l-ia-ont-depense-des-millions-pour-peser-sur-le-congres-ec7350",
+  "titre": "Les PAC de l'IA ont dépensé des millions pour peser sur le Congrès",
+  "resume": "Les comités d'action politique (PAC) liés à l'industrie de l'IA ont dépensé des millions pour influencer les élections de mi-mandat de 2026. Le résultat est mitigé. Les groupes politiques concernés se tournent déjà vers le prochain cycle électoral.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+  "date_source": "2026-11-04T22:45:09+00:00",
+  "date_redac": "2026-11-05T00:18:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 635,
+   "sortie": 400
+  }
+ },
+ {
+  "id": "b818dbf1c509a7ee",
+  "slug": "ripple-65b-le-modele-dense-de-ricursive-intelligence-rivalise-avec-les-b818db",
+  "titre": "Ripple-65B : le modèle dense de Ricursive Intelligence rivalise avec les géants",
+  "resume": "Ricursive Intelligence (à ne pas confondre avec Recursive, à l'origine de Flint) publie la preview de Ripple-65B, un modèle dense de 65 milliards de paramètres. D'après ses benchmarks, il rivalise avec Muse Spark Open (816B) et Beam de Reflection (501B), ce qui le placerait à la frontière des modèles américains à poids ouverts. Le post-entraînement reste léger, ciblé sur le codage agentique. L'architecture est « thin & deep » : 80 couches pour 5120 dimensions, attention globale NoPE et SWA dans un ratio 4:1.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 4,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense/",
+  "date_source": "2026-11-04T22:42:48+00:00",
+  "date_redac": "2026-11-05T00:18:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 834,
+   "sortie": 859
+  }
+ },
+ {
+  "id": "9cb5357e45e11831",
+  "slug": "qualcomm-mise-sur-les-data-centers-ia-face-a-la-chute-des-ventes-de-sm-9cb535",
+  "titre": "Qualcomm mise sur les data centers IA face à la chute des ventes de smartphones",
+  "resume": "Les ventes de smartphones ont chuté d'environ 20 % par rapport à 2025, poussant Qualcomm à chercher de nouveaux relais de croissance. Lors de sa conférence de résultats du quatrième trimestre 2026, l'entreprise a détaillé ses ambitions dans les data centers dédiés à l'IA. Elle s'appuie pour cela sur des partenariats avec Amazon et Meta annoncés plus tôt.",
+  "tags": [
+   "business",
+   "matériel",
+   "meta"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+  "date_source": "2026-11-04T22:42:15+00:00",
+  "date_redac": "2026-11-05T00:18:49+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 658,
+   "sortie": 374
+  }
+ },
+ {
+  "id": "76826ccfc5b56cdb",
+  "slug": "nothing-prepare-un-appareil-ai-first-pour-le-mois-prochain-76826c",
+  "titre": "Nothing prépare un appareil « AI-first » pour le mois prochain",
+  "resume": "Le patron de Nothing a annoncé qu'un appareil « AI-first » de la startup sortirait le mois prochain. La nature exacte du produit reste inconnue : Nothing est identifiée comme une startup de smartphones. Selon le dirigeant, l'appareil est conçu pour tirer parti de l'IA afin de gagner en productivité.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+  "date_source": "2026-11-04T22:13:16+00:00",
+  "date_redac": "2026-11-05T00:18:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 634,
+   "sortie": 455
+  }
+ },
+ {
+  "id": "a9a2e54d4ad6cec4",
+  "slug": "uber-quatre-courses-reservees-par-agent-ia-en-une-semaine-a9a2e5",
+  "titre": "Uber : quatre courses réservées par agent IA en une semaine",
+  "resume": "Uber indique que seules quatre personnes ont réservé une course avec un agent IA pendant la semaine la plus chargée du trimestre dernier. Le chiffre donne la mesure de l'écart entre l'agitation autour des agents IA et leur usage réel dans les services du quotidien. Sur une période de forte activité, la réservation par agent reste donc un phénomène marginal.",
+  "tags": [
+   "agents",
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+  "date_source": "2026-11-04T21:56:01+00:00",
+  "date_redac": "2026-11-05T00:18:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 619,
+   "sortie": 654
+  }
+ },
+ {
   "id": "503972be8dea4fdd",
   "slug": "gemini-cli-v0-68-0-preview-0-validation-d-extensions-et-correctifs-win-503972",
   "titre": "Gemini CLI v0.68.0-preview.0 : validation d'extensions et correctifs Windows",

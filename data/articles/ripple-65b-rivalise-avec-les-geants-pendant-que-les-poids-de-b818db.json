@@ -1,0 +1,41 @@
+{
+ "slug": "ripple-65b-rivalise-avec-les-geants-pendant-que-les-poids-de-b818db",
+ "titre": "Ripple-65B rivalise avec les géants, pendant que les poids deviennent un terrain de jeu",
+ "chapo": "Un modèle dense de 65 milliards de paramètres qui tient tête à des mastodontes de 816 et 501 milliards : c'est ce que revendique Ricursive Intelligence avec la preview de Ripple-65B, d'après ses propres benchmarks. Au même moment, Unsloth peaufine ses quants et Latent Space relaie une méthode où des LLM lisent et écrivent directement les poids d'un réseau.",
+ "html": "<h2 id=\"65-milliards-de-parametres-et-pourtant\">65 milliards de paramètres, et pourtant</h2>\n<p>Ricursive Intelligence publie la preview de <strong>Ripple-65B</strong>, un modèle <strong>dense</strong> de 65 milliards de paramètres. À ne pas confondre avec Recursive, à l'origine de Flint : les deux noms se ressemblent, les projets non.</p>\n<p>D'après les benchmarks publiés par l'équipe, Ripple-65B rivalise avec <strong>Muse Spark Open (816B)</strong> et <strong>Beam de Reflection (501B)</strong>. Deux modèles douze à huit fois plus lourds sur le papier. De quoi le placer, toujours selon ces chiffres, à la frontière des modèles américains à poids ouverts.</p>\n<p>La recette revendiquée reste sobre : un post-entraînement <strong>léger</strong>, ciblé sur le codage agentique, et une architecture « thin & deep » — 80 couches pour 5120 dimensions, avec une attention globale NoPE et du SWA dans un ratio 4:1. Pas d'empilement de modules exotiques, donc, mais un travail sur la profondeur et la répartition de l'attention.</p>\n<h2 id=\"les-poids-objet-de-travail\">Les poids, objet de travail</h2>\n<p>Pendant ce temps, la couche de distribution s'active. Unsloth sort des GGUF <strong>Dynamic v3.1</strong> pour Qwen3.8-Flash-Next, avec 10 à 15 % de précision en plus que les GSQ-RCO sur DeepSWE, Terminal Bench et Aider Polyglot. Le travail prolonge l'UD3.1 de DeepSeek-V4.1-Flash, qui gagnait 10 à 20 %. S'y ajoute une bascule « engram » entre BF16, Q8_0, Q5_1 et IQ4_NL pour tous les quants. Les benchmarks agentiques sont menés en 256K, les autres en 128K, sur 26,2 milliards de tokens.</p>\n<p>Sur un autre plan, Latent Space relaie une approche où des modèles de langage <strong>lisent et écrivent directement les poids</strong> d'un réseau de neurones, baptisée « Weight Space Programming ». L'idée sort l'autoresearch de la boucle RSI. L'exemple cité : modifier les poids de Qwen pour réduire les boucles de raisonnement. Au sommaire figurent aussi un prototype de super-agent signé DeepSeek et le benchmark GDPx.</p>\n<p>Deux échelles différentes, une même tendance : les poids cessent d'être une boîte noire qu'on télécharge. On les compresse, on les recompose, on les édite.</p>\n<h2 id=\"l-usage-d-un-cote-la-valeur-de-l-autre\">L'usage d'un côté, la valeur de l'autre</h2>\n<p>Côté grand public, un repère de volume : le trafic de recherche qui passe par ChatGPT équivaut désormais à <strong>20 % de celui traité par Google</strong>, quatre ans après le lancement de l'agent conversationnel. Frandroid note que la croissance de l'usage « prend beaucoup d'ampleur ». Un ratio, pas un basculement.</p>\n<p>Côté modèles ouverts, Hugging Face pose la question qui compte : où se crée réellement la valeur ? Entreprises, gouvernements et startups misent sur des <strong>coûts plus bas</strong>, davantage de contrôle et plus de flexibilité. Reste à savoir comment les entreprises captent cette valeur, et si les acteurs américains peuvent tenir le rythme face à la progression des modèles ouverts chinois. Hugging Face développe ces réponses dans un épisode de TechCrunch.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois plans se dessinent, sans qu'on puisse encore les relier mécaniquement : l'architecture d'un côté, avec un dense de 65 milliards qui revendique le niveau de modèles bien plus gros ; la manipulation des poids de l'autre, entre quants affinés et édition directe dans l'espace des paramètres ; et l'économie de l'open source, où la question n'est plus de savoir si les modèles ouverts progressent, mais qui en récupère la valeur. Les benchmarks de Ripple-65B restent des chiffres avancés par son équipe, sur une preview. Le reste du tableau est fait de pièces séparées, pas encore d'un système.</p>",
+ "pivot": "b818dbf1c509a7ee",
+ "tags": [
+  "open-source",
+  "recherche",
+  "agents",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/openai-chatgpt/3309845_la-croissance-prend-beaucoup-dampleur-chatgpt-rattrape-google-dans-la-recherche-web"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnvbxn/new_qwen38flashnext_unsloth_dynamic_v31_ggufs/"
+  }
+ ],
+ "date": "2026-11-05T00:19:11+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1631,
+  "sortie": 2332
+ }
+}

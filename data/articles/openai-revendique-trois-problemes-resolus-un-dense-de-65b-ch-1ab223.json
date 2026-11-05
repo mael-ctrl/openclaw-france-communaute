@@ -1,0 +1,41 @@
+{
+ "slug": "openai-revendique-trois-problemes-resolus-un-dense-de-65b-ch-1ab223",
+ "titre": "OpenAI revendique trois problèmes résolus, un dense de 65B, ChatGPT à 20 % de Google",
+ "chapo": "Trois problèmes scientifiques résolus, affirme OpenAI — sans autre détail. Un modèle dense de 65 milliards de paramètres qui rivalise avec des mastodontes, ChatGPT à 20 % du volume de recherche de Google et un roman né d'un premier jet machine : la semaine est chargée.",
+ "html": "<h2 id=\"trois-problemes-zero-enonce\">Trois problèmes, zéro énoncé</h2>\n<p>OpenAI affirme que ses modèles ont résolu trois problèmes scientifiques parmi les plus complexes. L'entreprise prétend avoir battu les plus grands chercheurs sur leur propre terrain et s'inviter au premier rang de la recherche théorique internationale.</p>\n<p>Le Journal du Geek est explicite sur la nature de l'annonce : une déclaration d'OpenAI. Les problèmes concernés ne sont pas détaillés dans l'extrait relayé — pas de discipline nommée, pas d'énoncé, pas de résultat publiable cité.</p>\n<p>C'est là que le bât blesse. Une revendication de cette ampleur, sans le contenu des problèmes, se discute mais ne s'évalue pas : rien, dans la dépêche, ne permet de savoir de quels domaines il s'agit ni comment la performance aurait été mesurée.</p>\n<h2 id=\"ripple-65b-le-dense-qui-ne-fait-pas-dans\">Ripple-65B, le dense qui ne fait pas dans la dentelle</h2>\n<p>À côté des annonces de plateau, il y a les chiffres de modèles. Ricursive Intelligence — à ne pas confondre avec Recursive, à l'origine de Flint — publie la preview de Ripple-65B, un modèle dense de 65 milliards de paramètres.</p>\n<p>D'après ses benchmarks, il rivalise avec Muse Spark Open (816B) et Beam de Reflection (501B). Autrement dit, un dense de 65 milliards se place à la frontière des modèles américains à poids ouverts, face à des modèles plus de dix fois plus gros dans le premier cas.</p>\n<p>Le post-entraînement reste léger, ciblé sur le codage agentique. Côté architecture, le choix est « thin & deep » : 80 couches pour 5120 dimensions, attention globale NoPE et SWA dans un ratio 4:1. Des benchmarks de preview, donc — à confirmer hors du post de lancement.</p>\n<h2 id=\"chatgpt-avale-un-cinquieme-de-la-recherc\">ChatGPT avale un cinquième de la recherche Google</h2>\n<p>En quatre ans, ChatGPT s'est imposé comme un outil majeur de notre quotidien numérique. Le volume de recherche qui passe par l'agent conversationnel équivaut désormais à 20 % de celui traité par Google, rapporte Frandroid.</p>\n<p>Un cinquième. Ce n'est pas un basculement, c'est une part qui s'installe à un niveau difficile à imaginer il y a quatre ans. Frandroid note que la croissance de l'usage « prend beaucoup d'ampleur ».</p>\n<p>La dépêche parle de volume de recherche, pas d'autre chose : la comparaison porte sur le trafic, pas sur le modèle économique des deux acteurs.</p>\n<h2 id=\"un-roman-en-librairie-des-millions-en-po\">Un roman en librairie, des millions en politique</h2>\n<p>Deux dépêches montrent l'IA sortir des labos. Robert Laffont annonce la publication d'un premier roman né d'un premier jet généré par une machine. L'annonce tombe alors que l'industrie du livre se relève tout juste du scandale Goncourt. Un texte produit par une IA trouve donc sa place dans un catalogue de littérature générale, et non plus seulement dans les débats sur les outils d'écriture.</p>\n<p>Côté politique américaine, les comités d'action politique liés à l'industrie de l'IA ont dépensé des millions pour influencer les élections de mi-mandat de 2026. Le résultat est mitigé, et les groupes concernés se tournent déjà vers le prochain cycle électoral.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois problèmes scientifiques sans énoncé, un dense de 65 milliards qui bouscule l'échelle des tailles, un cinquième du volume de recherche de Google, un roman en littérature générale et des millions dépensés en politique : les faits de la semaine n'ont pas le même degré de vérifiabilité. Les benchmarks de Ripple-65B et la part de ChatGPT se mesurent ; la revendication d'OpenAI, tant que les problèmes restent non détaillés, reste une déclaration.</p>",
+ "pivot": "1ab223c27c4c067f",
+ "tags": [
+  "openai",
+  "recherche",
+  "chatgpt",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/11/05/openai-affirme-ia-resoudre-3-problemes-scientifiques-plus-complexes-soient-sommes-nous-face-tournant-historique-recherche-fondamentale/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/openai-chatgpt/3309845_la-croissance-prend-beaucoup-dampleur-chatgpt-rattrape-google-dans-la-recherche-web"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/11/05/robert-laffont-va-publier-un-premier-roman-ecrit-a-lia/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/"
+  }
+ ],
+ "date": "2026-11-05T07:53:47+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1562,
+  "sortie": 3450
+ }
+}

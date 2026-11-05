@@ -1,0 +1,41 @@
+{
+ "slug": "apple-revoit-ses-budgets-ia-interne-ripple-65b-defie-les-mod-5b29cc",
+ "titre": "Apple revoit ses budgets IA interne, Ripple-65B défie les modèles géants",
+ "chapo": "Apple réduirait nettement les sommes consacrées à l'IA par ses équipes d'ingénierie, selon TechCrunch — un ajustement qui touche ses usages internes, pas ses produits. Au même moment, un modèle dense de 65 milliards de paramètres vient se mesurer à des mastodontes de 500 à 800 milliards.",
+ "html": "<h2 id=\"chez-apple-l-ia-interne-passe-au-regime\">Chez Apple, l'IA interne passe au régime</h2>\n<p><strong>L'information tient en quelques lignes, et elle vient de TechCrunch.</strong> Apple réduirait de façon significative les sommes qu'elle consacre à l'IA pour ses équipes d'ingénierie. Le montant dépensé en interne pour ces usages serait nettement revu à la baisse.</p>\n<p>Le périmètre mérite d'être souligné, parce qu'il change tout : il est question de l'usage interne de l'IA par l'entreprise, et non de ses produits. Rien dans la dépêche ne dit qu'Apple freine sur ce qu'elle embarque dans ses appareils ou ses services. Ce qui serait raboté, c'est la consommation d'IA par les équipes elles-mêmes.</p>\n<p>Le montant exact, la méthode de calcul et les outils concernés ne sont pas précisés. Aucune explication officielle n'accompagne l'information, qui reste rapportée et formulée au conditionnel.</p>\n<h2 id=\"ripple-65b-65-milliards-de-parametres-et\">Ripple-65B : 65 milliards de paramètres, et des références bien plus lourdes</h2>\n<p>Ricursive Intelligence — à ne pas confondre avec Recursive, à l'origine de Flint — publie la preview de <strong>Ripple-65B</strong>, un modèle dense de 65 milliards de paramètres. D'après ses propres benchmarks, il rivalise avec Muse Spark Open (816B) et Beam de Reflection (501B). De quoi le situer à la frontière des modèles américains à poids ouverts.</p>\n<p>Côté fabrication, le post-entraînement reste léger et ciblé sur le <strong>codage agentique</strong>. L'architecture est décrite comme « thin & deep » : 80 couches pour 5120 dimensions, attention globale NoPE, et SWA dans un ratio 4:1.</p>\n<p>Deux réserves, là encore. Il s'agit d'une preview, et les chiffres avancés sont ceux de l'éditeur. La comparaison avec des modèles trois à douze fois plus gros n'a pas été reproduite ailleurs.</p>\n<h2 id=\"open-source-la-question-n-est-plus-est-c\">Open source : la question n'est plus « est-ce que ça marche », mais « qui encaisse »</h2>\n<p>Les modèles open source gagnent du terrain. Entreprises, gouvernements et startups misent sur des coûts plus bas, davantage de contrôle et plus de flexibilité. Reste une question que TechCrunch pose à Hugging Face : comment les entreprises captent-elles réellement cette valeur ?</p>\n<p>La seconde question est géographique. Alors que les modèles ouverts chinois progressent, les acteurs américains peuvent-ils tenir le rythme ? C'est le sujet d'un épisode de TechCrunch consacré à la plateforme.</p>\n<p>Les deux dépêches se répondent sans se causer : un modèle dense de 65B qui vient se frotter à des poids ouverts américains bien plus volumineux illustre exactement le terrain de jeu décrit par Hugging Face. L'écart de taille cesse d'être le seul critère, et la question du coût par token utilisable devient centrale.</p>\n<h2 id=\"l-argent-cherche-ailleurs-data-centers-e\">L'argent cherche ailleurs : data centers et urnes</h2>\n<p><strong>Qualcomm change de terrain.</strong> Les ventes de smartphones ont chuté d'environ 20 % par rapport à 2025, ce qui pousse l'entreprise à chercher de nouveaux relais de croissance. Lors de sa conférence de résultats du quatrième trimestre 2026, elle a détaillé ses ambitions dans les data centers dédiés à l'IA, en s'appuyant sur des partenariats avec Amazon et Meta annoncés plus tôt.</p>\n<p><strong>Les PAC de l'IA, eux, ont dépensé des millions</strong> pour influencer les élections de mi-mandat de 2026. Le résultat est mitigé. Les groupes politiques concernés se tournent déjà vers le prochain cycle électoral.</p>\n<p>Deux mouvements d'argent, deux logiques. D'un côté, un fabricant de puces qui cherche à basculer vers l'infrastructure ; de l'autre, des comités d'action politique qui n'ont pas obtenu le retour espéré et reprogramment leurs dépenses.</p>\n<h2>Et maintenant ?</h2>\n<p>Une réduction de budget interne chez Apple, une preview de 65 milliards de paramètres qui se compare à des modèles bien plus gros, un fabricant de puces qui se retourne vers les data centers et des PAC qui repartent en campagne : les signaux de cette semaine ne dessinent pas une direction unique. Le seul fil commun, c'est un tri qui s'opère — sur ce qu'on dépense en interne, sur la taille qu'il faut vraiment pour être compétitif, et sur l'endroit où l'argent de l'IA trouve encore à s'employer.</p>",
+ "pivot": "5b29cc35a19d4ff7",
+ "tags": [
+  "open-source",
+  "business",
+  "matériel",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/"
+  }
+ ],
+ "date": "2026-11-05T06:03:12+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1529,
+  "sortie": 2763
+ }
+}

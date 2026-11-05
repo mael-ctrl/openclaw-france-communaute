@@ -1,5 +1,127 @@
 [
  {
+  "id": "2a88a9bd4bd0e4d7",
+  "slug": "redmagic-12-pro-puce-2-nm-ecran-185-hz-et-emulateur-pc-pour-jeux-steam-2a88a9",
+  "titre": "Redmagic 12 Pro : puce 2 nm, écran 185 Hz et émulateur PC pour jeux Steam",
+  "resume": "Le constructeur chinois revient avec un Redmagic 12 Pro affiné, dont le circuit de refroidissement liquide actif s'étend désormais à sa nouvelle puce gravée en 2 nm. Écran 185 Hz sans poinçon, batterie de 8 400 mAh, émulateur PC capable de lancer des jeux Steam en local : l'engin veut se rapprocher du fonctionnement d'une console portable. Le test de 01net doit dire si cette architecture thermique encaisse les titres les plus lourds sans surchauffer.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/tests/test-redmagic-12-pro-avis.html",
+  "date_source": "2026-11-05T05:59:36+00:00",
+  "date_redac": "2026-11-05T06:02:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 743,
+   "sortie": 1008
+  }
+ },
+ {
+  "id": "eeef2242e76a1f74",
+  "slug": "openclaw-publie-la-version-2026-11-1-sur-github-eeef22",
+  "titre": "OpenClaw publie la version 2026.11.1 sur GitHub",
+  "resume": "Le projet OpenClaw annonce la version 2026.11.1, datée du 5 novembre 2026. La publication apparaît dans la section des releases du dépôt GitHub du projet. L'extrait disponible ne précise pas le contenu de cette mise à jour ni les changements qu'elle apporte. Il s'agit donc d'un signal de version pour celles et ceux qui suivent le rythme de publication du projet.",
+  "tags": [
+   "openclaw",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.1",
+  "date_source": "2026-11-05T05:29:00+00:00",
+  "date_redac": "2026-11-05T06:02:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 593,
+   "sortie": 599
+  }
+ },
+ {
+  "id": "af1d59a2304c8c9f",
+  "slug": "openclaw-corrige-sa-chaine-de-release-pour-les-notes-de-la-2026-11-1-af1d59",
+  "titre": "OpenClaw corrige sa chaîne de release pour les notes de la 2026.11.1",
+  "resume": "OpenClaw publie un correctif dans son processus de release : les notes de la version 2026.11.1 sont désormais acceptées avec leur crédit qualifié. Le changement est référencé sous la pull request #193198. L'entrée porte l'identifiant release-publish/3816bcb3dea1-1793855263.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F3816bcb3dea1-1793855263",
+  "date_source": "2026-11-05T05:06:24+00:00",
+  "date_redac": "2026-11-05T06:02:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 769
+  }
+ },
+ {
+  "id": "c9b95ef030cae8c3",
+  "slug": "un-guide-interactif-pour-comprendre-les-embeddings-vectoriels-c9b95e",
+  "titre": "Un guide interactif pour comprendre les embeddings vectoriels",
+  "resume": "Abdur-Rahman Butler, ingénieur machine learning chez Isaacus, publie sur r/LocalLLaMA un guide interactif sur les embeddings vectoriels, inspiré de la visualisation de LLM de Brendan Bycroft. Il y fait jouer avec vectorisation, similarité cosinus, recherche sémantique, récupération hiérarchique, clustering, classification zero-shot et déduplication. Un jeu en est la pièce centrale, pour combler le manque de ressources interactives sur le sujet.",
+  "tags": [
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xo9vl3/what_are_vector_embeddings_an_interactive_guide/",
+  "date_source": "2026-11-05T04:46:30+00:00",
+  "date_redac": "2026-11-05T06:02:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 785,
+   "sortie": 1077
+  }
+ },
+ {
+  "id": "af047166d63c67fe",
+  "slug": "codex-une-preversion-alpha-0-168-0-alpha-3-publiee-sur-github-af0471",
+  "titre": "Codex : une préversion alpha 0.168.0-alpha.3 publiée sur GitHub",
+  "resume": "OpenAI met en ligne une nouvelle préversion de Codex, numérotée 0.168.0-alpha.3, publiée sur GitHub sous l'étiquette rust-v0.168.0-alpha.3. La note de version tient en une seule ligne : aucun détail n'est donné sur les changements qu'elle embarque. Il s'agit d'une version alpha, donc d'une build intermédiaire, en amont d'une éventuelle publication stable.",
+  "tags": [
+   "openai",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.3",
+  "date_source": "2026-11-05T02:38:43+00:00",
+  "date_redac": "2026-11-05T06:02:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 760
+  }
+ },
+ {
+  "id": "5b29cc35a19d4ff7",
+  "slug": "apple-reduirait-les-budgets-consacres-a-l-ia-en-interne-5b29cc",
+  "titre": "Apple réduirait les budgets consacrés à l'IA en interne",
+  "resume": "D'après TechCrunch, Apple réduirait de façon significative les sommes qu'elle consacre à l'IA pour ses équipes d'ingénierie. Le montant dépensé en interne pour ces usages serait nettement revu à la baisse. L'information concerne l'usage interne de l'IA par l'entreprise, et non ses produits.",
+  "tags": [
+   "business",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+  "date_source": "2026-11-05T01:26:22+00:00",
+  "date_redac": "2026-11-05T06:02:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 613,
+   "sortie": 419
+  }
+ },
+ {
   "id": "f5cf616fa0ca74b5",
   "slug": "ce-que-la-communaute-locale-attend-de-qwen-4-f5cf61",
   "titre": "Ce que la communauté locale attend de Qwen 4",

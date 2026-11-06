@@ -1,0 +1,41 @@
+{
+ "slug": "agents-codex-ouvre-un-centre-de-commande-perplexity-lance-te-b5f343",
+ "titre": "Agents : Codex ouvre un centre de commande, Perplexity lance Teammates",
+ "chapo": "Codex 0.167.0 transforme son CLI en centre de commande pour agents, avec sélecteur de sessions et backends interchangeables. Perplexity lance de son côté Teammates, des agents toujours actifs, pendant que Ricursive Intelligence place un modèle dense de 65 milliards de paramètres face aux géants à poids ouverts.",
+ "html": "<h2 id=\"codex-0-167-0-le-terminal-devient-poste-\">Codex 0.167.0 : le terminal devient poste de pilotage</h2>\n<p>La version 0.167.0 de Codex ajoute une commande qui déplace l'usage du CLI : `codex agents --no-daemon` ouvre un centre de commande pour les agents. Le sélecteur de sessions marque les résultats non lus et permet de changer de backend connecté sans perdre ses brouillons — un détail qui compte dès qu'on fait tourner plusieurs modèles en parallèle.</p>\n<p>Côté affichage, l'éditeur montre un aperçu des images locales sur les terminaux compatibles, et les images consultées s'ouvrent directement depuis le transcript.</p>\n<p>La dépêche mentionne également un assistant `gcp_setup_wizard`, chargé de configurer Google Cloud Vertex AI, que ce soit avec les Application Default Credentials ou un fichier d'identifiants. Codex livre ces changements dans ses releases, préversions incluses.</p>\n<h2 id=\"perplexity-teammates-des-agents-qui-ne-s\">Perplexity Teammates : des agents qui ne s'éteignent pas</h2>\n<p>Perplexity entre sur le terrain des agents dédiés au travail, face à OpenAI et Anthropic. Sa nouveauté s'appelle <strong>Teammates</strong> : des agents toujours actifs, capables d'occuper plusieurs rôles au sein d'un espace de travail.</p>\n<p>Le point intéressant n'est pas la puissance brute mais la continuité. Ces agents récupèrent les projets, les compétences et la mémoire des outils Perplexity déjà utilisés, plutôt que de repartir d'une page blanche à chaque sollicitation. Ils s'intègrent à <strong>Perplexity Computer</strong>, un système capable de déployer des agents sur ton appareil.</p>\n<p>La logique est donc inverse de celle d'un chatbot : on ne convoque pas un agent, il est déjà là, avec un contexte accumulé.</p>\n<h2 id=\"ripple-65b-65-milliards-de-parametres-ar\">Ripple-65B : 65 milliards de paramètres, architecture « thin & deep »</h2>\n<p>Ricursive Intelligence — à ne pas confondre avec Recursive, à l'origine de Flint — publie la preview de <strong>Ripple-65B</strong>, un modèle dense de 65 milliards de paramètres. D'après ses propres benchmarks, il rivalise avec Muse Spark Open (816B) et Beam de Reflection (501B), ce qui le placerait à la frontière des modèles américains à poids ouverts.</p>\n<p>Le post-entraînement reste léger, ciblé sur le codage agentique. L'architecture est décrite comme « thin & deep » : 80 couches pour 5120 dimensions, attention globale NoPE et SWA dans un ratio 4:1.</p>\n<p>Autrement dit, un dense de taille moyenne qui viendrait chercher des modèles plusieurs fois plus gros. Les chiffres avancés viennent de l'éditeur lui-même, et la publication est une preview.</p>\n<h2 id=\"openai-trois-problemes-scientifiques-et-\">OpenAI : trois problèmes scientifiques et 20 % de la recherche de Google</h2>\n<p>OpenAI affirme que ses modèles ont résolu trois problèmes scientifiques parmi les plus complexes, et prétend avoir battu les plus grands chercheurs sur leur propre terrain. L'annonce se lit comme une déclaration : les problèmes concernés ne sont pas détaillés dans l'extrait relayé par le Journal du Geek. Il n'y a donc, en l'état, rien à vérifier.</p>\n<p>Sur un terrain plus mesurable, Frandroid note que le volume de recherche passant par ChatGPT équivaut désormais à <strong>20 % de celui traité par Google</strong>. En quatre ans, l'agent conversationnel s'est installé comme un outil majeur du quotidien numérique, et la croissance de cet usage « prend beaucoup d'ampleur ».</p>\n<p>Deux registres différents : une prétention scientifique non documentée d'un côté, un basculement d'usage chiffré de l'autre.</p>\n<h2>Et maintenant ?</h2>\n<p>Ces dépêches ne racontent pas la même histoire, mais elles pointent vers un même mouvement : l'outillage s'organise autour de sessions persistantes et de modèles interchangeables. Codex ajoute le sélecteur de backends, Perplexity ajoute la mémoire et le rôle permanent, Ricursive ajoute un dense compétitif face aux modèles à poids ouverts. Deux réserves subsistent : les benchmarks de Ripple-65B viennent de son éditeur, et les trois problèmes scientifiques d'OpenAI ne sont pas détaillés.</p>",
+ "pivot": "b5f3432cf5b3d377",
+ "tags": [
+  "agents",
+  "openai",
+  "open-source",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "Codex (releases, préversions incluses)",
+   "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/11/05/openai-affirme-ia-resoudre-3-problemes-scientifiques-plus-complexes-soient-sommes-nous-face-tournant-historique-recherche-fondamentale/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/openai-chatgpt/3309845_la-croissance-prend-beaucoup-dampleur-chatgpt-rattrape-google-dans-la-recherche-web"
+  }
+ ],
+ "date": "2026-11-06T02:10:59+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1617,
+  "sortie": 3495
+ }
+}

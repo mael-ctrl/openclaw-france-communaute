@@ -1,5 +1,130 @@
 [
  {
+  "id": "b5f3432cf5b3d377",
+  "slug": "codex-0-167-0-centre-de-commande-des-agents-backends-multiples-et-assi-b5f343",
+  "titre": "Codex 0.167.0 : centre de commande des agents, backends multiples et assistant Vertex AI",
+  "resume": "Codex 0.167.0 ouvre un centre de commande pour les agents via codex agents --no-daemon. Le sélecteur de sessions marque les résultats non lus et permet de changer de backend connecté sans perdre ses brouillons. La rédaction affiche un aperçu des images locales sur les terminaux compatibles, et les images consultées s'ouvrent depuis le transcript. Un assistant gcp_setup_wizard configure Google Cloud Vertex AI avec les Application Default Credentials ou un fichier d'identifiants.",
+  "tags": [
+   "openai",
+   "agents",
+   "dev",
+   "skills"
+  ],
+  "importance": 3,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+  "date_source": "2026-11-06T01:42:19+00:00",
+  "date_redac": "2026-11-06T02:10:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 780,
+   "sortie": 773
+  }
+ },
+ {
+  "id": "01c82660492a6c30",
+  "slug": "iquantize-un-espace-de-travail-desktop-pour-quantifier-les-llm-en-gguf-01c826",
+  "titre": "iQuantize : un espace de travail desktop pour quantifier les LLM en GGUF, MLX et ONNX",
+  "resume": "iQuantize est un espace de travail desktop open source (Apache 2.0) pour quantifier des LLM. On y charge ses propres Safetensors ou un modèle Hugging Face, on convertit pas à pas vers GGUF, MLX ou ONNX, puis on compare avec l'original avant de publier avec une carte retraçant la fabrication. L'auteur prévient : les tests ont surtout porté sur Apple Silicon ; les builds Windows et Linux existent mais restent peu éprouvés.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xp01ck/endtoend_desktop_quantization_workspace_for_large/",
+  "date_source": "2026-11-06T01:18:19+00:00",
+  "date_redac": "2026-11-06T02:10:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 815,
+   "sortie": 1094
+  }
+ },
+ {
+  "id": "c35d0ab94583c143",
+  "slug": "ccore-glb-3d-coder-le-dataset-d-entrainement-est-publie-3-918-exemples-c35d0a",
+  "titre": "CCORE GLB-3D-Coder : le dataset d'entraînement est publié, 3 918 exemples 3D",
+  "resume": "Le créateur de CCORE GLB-3D-Coder publie le jeu de données d'entraînement de son modèle 4B, dédié aux assets 3D en Three.js avec export GLB : 3 918 exemples sur 40 domaines. Chaque exemple a été testé et rendu, son export GLB validé. Il contient les conversations complètes, les traces de raisonnement, les réponses HTML/JavaScript et une image de référence, avec 3 501 exemples d'entraînement et 417 de validation sous licence MIT.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xozbe6/ccore_glb3dcoder_dataset_is_here_3918_rendered/",
+  "date_source": "2026-11-06T00:43:25+00:00",
+  "date_redac": "2026-11-06T02:10:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 814,
+   "sortie": 1371
+  }
+ },
+ {
+  "id": "8956cfab74119a31",
+  "slug": "openai-renonce-aux-accords-de-confidentialite-avec-les-elus-locaux-8956cf",
+  "titre": "OpenAI renonce aux accords de confidentialité avec les élus locaux",
+  "resume": "OpenAI a annoncé de nouveaux engagements envers les communautés où l'entreprise mène des projets de centres de données. Le groupe s'engage notamment à ne plus recourir à des accords de confidentialité (NDA) avec les responsables publics. Cette annonce intervient après des élections de mi-mandat où les électeurs ont clairement exprimé leur opposition à l'expansion des centres de données. Plusieurs de ces projets étaient critiqués pour s'appuyer sur des NDA afin de dissimuler les discussions.",
+  "tags": [
+   "openai",
+   "business",
+   "société"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+  "date_source": "2026-11-06T00:37:56+00:00",
+  "date_redac": "2026-11-06T02:10:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 657,
+   "sortie": 261
+  }
+ },
+ {
+  "id": "869261799e2545b3",
+  "slug": "inkling-2-small-un-modele-594b-a17b-poids-ouverts-la-semaine-prochaine-869261",
+  "titre": "Inkling 2 Small : un modèle 594B-A17B, poids ouverts la semaine prochaine",
+  "resume": "Le subreddit r/LocalLLaMA relaie l'annonce d'Inkling 2 Small, un modèle affiché à 594B de paramètres, dont 17B actifs. Les poids ouverts sont annoncés pour la semaine prochaine. Concrètement, le modèle devrait donc pouvoir être téléchargé et exécuté hors de l'infrastructure de son éditeur.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xoz0w4/inkling_2_small_594ba17b_announcement_open/",
+  "date_source": "2026-11-06T00:30:00+00:00",
+  "date_redac": "2026-11-06T02:10:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 628,
+   "sortie": 1046
+  }
+ },
+ {
+  "id": "763b503f064795db",
+  "slug": "inkling-2-small-le-modele-annonce-sur-r-localllama-763b50",
+  "titre": "Inkling 2 Small : le modèle annoncé sur r/LocalLLaMA",
+  "resume": "Le subreddit r/LocalLLaMA relaie la sortie d'Inkling 2 Small, annoncée le 6 novembre 2026 par l'utilisateur spiwar. Le message ne fournit pour l'instant aucun détail sur les caractéristiques du modèle : ni taille, ni licence, ni performances ne sont précisées. L'information circule donc d'abord comme un signalement au sein de la communauté dédiée aux modèles exécutés en local.",
+  "tags": [
+   "open-source",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xoz01k/inkling_2_small_released/",
+  "date_source": "2026-11-06T00:28:53+00:00",
+  "date_redac": "2026-11-06T02:10:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 1052
+  }
+ },
+ {
   "id": "f0e70af9670de63b",
   "slug": "codex-publie-la-version-0-167-0-de-son-composant-rust-f0e70a",
   "titre": "Codex publie la version 0.167.0 de son composant Rust",

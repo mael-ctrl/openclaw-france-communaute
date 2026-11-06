@@ -1,5 +1,128 @@
 [
  {
+  "id": "f0e70af9670de63b",
+  "slug": "codex-publie-la-version-0-167-0-de-son-composant-rust-f0e70a",
+  "titre": "Codex publie la version 0.167.0 de son composant Rust",
+  "resume": "OpenAI a publié la version 0.167.0 du composant Rust de Codex, référencée sur le dépôt GitHub du projet. La publication figure dans les releases, préversions incluses, à la date du 5 novembre 2026. L'extrait disponible ne précise pas le contenu de la mise à jour : aucune note de version détaillée n'est fournie.",
+  "tags": [
+   "openai",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+  "date_source": "2026-11-05T23:31:20+00:00",
+  "date_redac": "2026-11-05T23:50:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 594,
+   "sortie": 653
+  }
+ },
+ {
+  "id": "6b67d533c5d0497d",
+  "slug": "codex-la-preversion-0-168-0-alpha-7-est-en-ligne-6b67d5",
+  "titre": "Codex : la préversion 0.168.0-alpha.7 est en ligne",
+  "resume": "OpenAI a mis en ligne la préversion 0.168.0-alpha.7 de Codex. La publication figure dans les releases GitHub du projet, où les versions alpha circulent aux côtés des versions stables. L'extrait communiqué se limite à l'intitulé de la version : le contenu exact des changements n'y est pas détaillé.",
+  "tags": [
+   "openai",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.7",
+  "date_source": "2026-11-05T23:00:15+00:00",
+  "date_redac": "2026-11-05T23:50:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 759
+  }
+ },
+ {
+  "id": "ab1c761f9a13426d",
+  "slug": "airbnb-lancera-un-agent-ia-de-voyage-au-premier-semestre-2027-ab1c76",
+  "titre": "Airbnb lancera un agent IA de voyage au premier semestre 2027",
+  "resume": "Airbnb annonce le lancement de son agent IA de voyage pour le premier semestre 2027. L'agent accompagnera les voyageurs pour planifier un séjour, comparer les options, gérer les réservations et obtenir de l'assistance pendant tout le voyage. Il couvre donc l'ensemble du parcours, de la préparation jusqu'au séjour sur place.",
+  "tags": [
+   "business",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+  "date_source": "2026-11-05T22:40:55+00:00",
+  "date_redac": "2026-11-05T23:50:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 632,
+   "sortie": 485
+  }
+ },
+ {
+  "id": "f6cf65a6fdfd1829",
+  "slug": "perplexity-lance-teammates-des-agents-ia-toujours-actifs-pour-le-trava-f6cf65",
+  "titre": "Perplexity lance « Teammates », des agents IA toujours actifs pour le travail",
+  "resume": "Perplexity entre sur le terrain des agents IA dédiés au travail, face à OpenAI et Anthropic. Sa nouveauté, baptisée « Teammates », désigne des agents toujours actifs capables d'occuper plusieurs rôles au sein d'un espace de travail. Ils récupèrent les projets, compétences et la mémoire des outils Perplexity déjà utilisés. Ces agents s'intègrent à Perplexity Computer, un système capable de déployer des agents sur ton appareil.",
+  "tags": [
+   "agents",
+   "business",
+   "skills"
+  ],
+  "importance": 4,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+  "date_source": "2026-11-05T22:26:50+00:00",
+  "date_redac": "2026-11-05T23:50:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 332
+  }
+ },
+ {
+  "id": "a139bec3d4e18fa1",
+  "slug": "sur-r-localllama-l-espoir-d-une-ram-moins-chere-pour-noel-a139be",
+  "titre": "Sur r/LocalLLaMA, l'espoir d'une RAM moins chère pour Noël",
+  "resume": "Un fil publié sur r/LocalLLaMA évoque la possibilité de voir arriver de la RAM bon marché d'ici Noël. Le message, soumis par l'utilisateur keepthepace, ne s'appuie toutefois sur aucune source ni chiffre précis. Le sujet touche directement ceux qui font tourner des modèles en local, un axe central du sous-forum.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xovnaa/maybe_well_get_cheap_ram_for_christmas_after_all/",
+  "date_source": "2026-11-05T22:00:25+00:00",
+  "date_redac": "2026-11-05T23:50:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 617,
+   "sortie": 688
+  }
+ },
+ {
+  "id": "ddae63d6c09dccef",
+  "slug": "hermes-agent-v0-23-0-le-bureau-complet-s-ouvre-dans-un-onglet-du-navig-ddae63",
+  "titre": "Hermes Agent v0.23.0 : le bureau complet s'ouvre dans un onglet du navigateur",
+  "resume": "Hermes Agent publie la v0.23.0, dite « Hearth Release ». Son changement principal : tout l'espace de travail Desktop s'ouvre dans un onglet de navigateur, servi par la passerelle de l'utilisateur. Une seule passerelle détient désormais chaque session, si bien que CLI, TUI, Desktop, éditeurs, bots et cron partagent le même agent. Depuis la v0.22.0, le projet compte environ 10 080 commits et 666 contributeurs.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0",
+  "date_source": "2026-11-05T21:32:33+00:00",
+  "date_redac": "2026-11-05T23:50:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 814,
+   "sortie": 899
+  }
+ },
+ {
   "id": "ec352b08d0560ffe",
   "slug": "dropbox-rachete-tigris-data-pour-350-m-et-vise-le-stockage-pour-agents-ec352b",
   "titre": "Dropbox rachète Tigris Data pour 350 M$ et vise le stockage pour agents IA",

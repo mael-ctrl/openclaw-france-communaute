@@ -1,22 +1,18 @@
 {
- "runs": 461,
- "items_collectes": 4005,
- "breves_publiees": 1753,
- "articles_publies": 340,
- "tokens_entree": 1800215,
- "tokens_sortie": 2488625,
+ "runs": 462,
+ "items_collectes": 4045,
+ "breves_publiees": 1759,
+ "articles_publies": 341,
+ "tokens_entree": 1805672,
+ "tokens_sortie": 2494910,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-11-05T15:46:43+00:00",
+ "dernier_run": "2026-11-05T23:50:57+00:00",
  "solde": {
-  "total": "82.23",
+  "total": "82.20",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-11-03T09:00:08+00:00",
-   "message": "brève impossible (DeepSeek V5 is planned to be pre-trained on Huawei Ascend ch) : DeepSeek HTTP 503: {\"error\":{\"message\":\"Service is too busy. We advise users to temporarily switch to alternative LLM API service providers. (request_id: 36bb88f0-b9dd-4829-995c-7556dcad6915)\",\"type\":\"service_unavailab"
-  },
   {
    "ts": "2026-11-03T09:01:31+00:00",
    "message": "article impossible : DeepSeek HTTP 503: {\"error\":{\"message\":\"Service is too busy. We advise users to temporarily switch to alternative LLM API service providers. (request_id: 65ec2a0b-0ea9-4fc0-8a67-096f6468925f)\",\"type\":\"service_unavailable_error\",\"param\":null,\"code\":\"service_unavailable_error\"}}"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-11-04T02:33:03+00:00",
    "message": "brève impossible (Keeping up with new inference engines) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-11-06T00:25:35+00:00",
+   "message": "archivage wayback : The read operation timed out"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 9.43,
+ "depense_usd": 9.46,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1864,12 +1864,16 @@
   [
    "2026-11-05T15:46:03+00:00",
    "82.23"
+  ],
+  [
+   "2026-11-05T23:50:15+00:00",
+   "82.20"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 0.47,
+ "depense_mois_usd": 0.5,
  "archive_tentatives": {
-  "jour": "2026-11-05",
+  "jour": "2026-11-06",
   "n": 1
  },
  "derniere_archive": "2026-11-05"

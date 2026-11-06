@@ -1,0 +1,41 @@
+{
+ "slug": "agents-ia-perplexity-lance-teammates-dropbox-et-airbnb-avanc-f6cf65",
+ "titre": "Agents IA : Perplexity lance Teammates, Dropbox et Airbnb avancent leurs pions",
+ "chapo": "Perplexity ouvre « Teammates », des agents toujours actifs qui héritent des projets, des compétences et de la mémoire d'un espace de travail. En parallèle, Dropbox débourse 350 M$ pour du stockage destiné aux agents, Airbnb annonce son agent de voyage et Canva passe par une restructuration.",
+ "html": "<h2 id=\"perplexity-veut-des-agents-qui-ne-s-arre\">Perplexity veut des agents qui ne s'arrêtent pas à la fin de la conversation</h2>\n<p>Perplexity entre sur le terrain des agents dédiés au travail, face à OpenAI et à Anthropic. Sa nouveauté s'appelle <strong>Teammates</strong> : des agents <strong>toujours actifs</strong>, capables d'occuper plusieurs rôles au sein d'un même espace de travail. La nuance compte — on ne parle plus d'une session qu'on ouvre puis qu'on ferme, mais d'une présence continue dans l'environnement de travail.</p>\n<p>Le point technique intéressant, c'est l'héritage. Ces agents récupèrent les projets, les compétences et la mémoire des outils Perplexity déjà utilisés par l'équipe. Autrement dit, un Teammates n'arrive pas vierge : il reprend le contexte existant, ce qui évite de reconstruire un historique à chaque déploiement.</p>\n<p>Reste le support. Les Teammates s'intègrent à <strong>Perplexity Computer</strong>, un système capable de déployer des agents directement sur ton appareil. La logique est donc double : des agents qui tournent dans l'espace de travail, et une exécution locale possible via la machine de l'utilisateur.</p>\n<h2 id=\"hermes-agent-met-le-bureau-entier-dans-u\">Hermes Agent met le bureau entier dans un onglet</h2>\n<p>Du côté de l'outillage, Hermes Agent publie sa <strong>v0.23.0</strong>, baptisée « Hearth Release ». Le changement principal est architectural : tout l'espace de travail Desktop s'ouvre désormais dans un onglet du navigateur, servi par la passerelle de l'utilisateur.</p>\n<p>Conséquence directe : une seule passerelle détient chaque session. CLI, TUI, Desktop, éditeurs, bots et cron partagent donc le même agent. C'est une réponse concrète à un problème récurrent — la fragmentation des contextes entre les différentes interfaces d'un même outil.</p>\n<p>Le projet, suivi sur GitHub, affiche depuis la v0.22.0 environ <strong>10 080 commits</strong> et <strong>666 contributeurs</strong>. Des chiffres qui situent la base de code et la communauté, à défaut de dire quoi que ce soit de la qualité du résultat.</p>\n<h2 id=\"dropbox-achete-du-stockage-airbnb-prepar\">Dropbox achète du stockage, Airbnb prépare le voyage</h2>\n<p>Dropbox rachète <strong>Tigris Data</strong> pour <strong>350 millions de dollars</strong>. L'opération doit soutenir le développement de <strong>DBX Agent Cloud</strong>, une plateforme de stockage destinée aux développeurs qui construisent des modèles et des agents IA. Le mouvement rappelle une évidence parfois oubliée dans le bruit autour des modèles : les agents produisent, lisent et accumulent des données, et il faut bien les stocker quelque part.</p>\n<p>Airbnb, de son côté, annonce un agent IA de voyage pour le <strong>premier semestre 2027</strong>. Le périmètre est large : accompagner les voyageurs pour planifier un séjour, comparer les options, gérer les réservations et fournir de l'assistance pendant tout le voyage. L'agent couvre donc l'intégralité du parcours, de la préparation jusqu'au séjour sur place.</p>\n<p>Deux approches différentes du même mot : chez Dropbox, l'agent est un client à outiller ; chez Airbnb, c'est un service rendu à l'utilisateur final.</p>\n<h2 id=\"canva-la-restructuration-comme-signal\">Canva : la restructuration comme signal</h2>\n<p>Canva engage une restructuration majeure de ses effectifs : <strong>plus de 1 200 salariés</strong> sont concernés. Le site de création graphique fait face à un ralentissement de sa croissance, à mesure que l'IA prend davantage de place — les designs générés par l'IA étant de plus en plus nombreux.</p>\n<p>Il n'y a pas de lien de cause à effet à tirer avec les annonces précédentes : ce sont des acteurs distincts, des marchés distincts. Mais la séquence est parlante. D'un côté, des entreprises qui construisent l'infrastructure et les agents ; de l'autre, un outil grand public dont le cœur de métier — la production de visuels — est directement bousculé par la génération d'images.</p>\n<p>Canva n'est pas le premier ni le dernier dans ce cas. Ce qui retient l'attention, c'est l'échelle : 1 200 postes, ce n'est plus un ajustement marginal.</p>\n<h2>Et maintenant ?</h2>\n<p>Ce qui se dessine dans ces dépêches n'est pas une bataille de modèles, mais une bataille de plomberie. Perplexity veut des agents persistants adossés à un contexte existant, Hermes veut unifier les sessions derrière une seule passerelle, Dropbox achète du stockage pour ceux qui construisent des agents. Le travail réel se déplace vers ce qui tient les agents debout : mémoire, session, données. Et pendant que cette couche se construit, des organisations comme Canva réorganisent leurs effectifs autour d'une production dont l'IA prend une part croissante.</p>",
+ "pivot": "f6cf65a6fdfd1829",
+ "tags": [
+  "agents",
+  "business",
+  "hermes",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/"
+  },
+  {
+   "nom": "Hermes Agent (releases)",
+   "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/"
+  },
+  {
+   "nom": "Siècle Digital",
+   "url": "https://siecledigital.fr/2026/11/05/canva-en-difficulte-face-a-lia-plus-de-1-200-salaries-concernes-par-une-restructuration/"
+  }
+ ],
+ "date": "2026-11-05T23:50:56+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1527,
+  "sortie": 2469
+ }
+}

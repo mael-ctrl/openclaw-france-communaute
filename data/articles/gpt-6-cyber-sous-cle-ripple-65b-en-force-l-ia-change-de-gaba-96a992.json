@@ -1,0 +1,41 @@
+{
+ "slug": "gpt-6-cyber-sous-cle-ripple-65b-en-force-l-ia-change-de-gaba-96a992",
+ "titre": "GPT-6 Cyber sous clé, Ripple-65B en force : l'IA change de gabarit",
+ "chapo": "OpenAI réserve son nouveau modèle de cybersécurité à une poignée d'experts, pendant que Ricursive Intelligence publie un dense de 65 milliards de paramètres qui taquine des modèles bien plus gros. Entre accès verrouillé et poids ouverts, le rapport de force se déplace.",
+ "html": "<h2 id=\"gpt-6-cyber-la-puissance-sous-cle\">GPT-6 Cyber : la puissance sous clé</h2>\n<p><strong>OpenAI</strong> ajoute une pièce à sa gamme avec GPT-6 Cyber, un modèle spécialisé dans la cybersécurité. Selon 01net, il a déjà débusqué des centaines de failles dans Linux et Firefox — un bilan qui donne la mesure de ce qu'un tel outil peut trouver dans du code déployé partout.</p>\n<p>La suite est une affaire de distribution. Le modèle est jugé trop dangereux pour le grand public et reste réservé à des experts triés sur le volet. L'accès passe donc par une sélection de personnes, pas par une mise à disposition large.</p>\n<p>Le geste est cohérent avec la nature de l'outil : un modèle qui localise des failles en série localise aussi des points d'entrée. Reste une question que la dépêche ne tranche pas : sur quels critères se fait ce tri, et qui le contrôle.</p>\n<h2 id=\"recherche-fondamentale-l-annonce-sans-le\">Recherche fondamentale : l'annonce sans le détail</h2>\n<p>Dans le même temps, <strong>OpenAI</strong> affirme que ses modèles ont résolu trois problèmes scientifiques parmi les plus complexes, et prétend avoir battu les plus grands chercheurs sur leur propre terrain. Le Journal du Geek relaie l'annonce en la présentant pour ce qu'elle est : une déclaration d'OpenAI, qui « s'invite au premier rang de la recherche théorique internationale ».</p>\n<p>Les problèmes concernés ne sont pas détaillés dans l'extrait relayé. On ne sait donc ni quels domaines sont visés, ni comment la résolution aurait été établie, ni si des chercheurs extérieurs l'ont vérifiée.</p>\n<p>Une affirmation de ce calibre, sans énoncé des problèmes ni pièce jointe, reste une prise de position avant d'être un résultat. Ce n'est pas la disqualifier : c'est constater que le compte rendu disponible ne permet pas d'aller plus loin.</p>\n<h2 id=\"ripple-65b-la-taille-n-est-plus-le-seul-\">Ripple-65B : la taille n'est plus le seul argument</h2>\n<p><strong>Ricursive Intelligence</strong> — à ne pas confondre avec Recursive, à l'origine de Flint — publie la preview de Ripple-65B, un modèle dense de 65 milliards de paramètres. Le chiffre importe moins que la comparaison : d'après ses benchmarks, il rivalise avec Muse Spark Open (816B) et Beam de Reflection (501B), ce qui le placerait à la frontière des modèles américains à poids ouverts.</p>\n<p>Le post-entraînement reste léger, ciblé sur le codage agentique. L'architecture est « thin & deep » : 80 couches pour 5120 dimensions, attention globale NoPE et SWA dans un ratio 4:1. De la profondeur plutôt que de la largeur, donc.</p>\n<p>Ces chiffres sont ceux de l'éditeur, sur une preview : à prendre comme tels. Ils n'en dessinent pas moins une trajectoire où l'écart entre modèles denses et modèles massifs se discute sur les benchmarks, pas sur le nombre de paramètres.</p>\n<h2 id=\"des-agents-outilles-une-montre-qui-scrut\">Des agents outillés, une montre qui scrute</h2>\n<p><strong>Codex 0.167.0</strong> ouvre un centre de commande pour les agents via `codex agents --no-daemon`. Le sélecteur de sessions marque les résultats non lus et permet de changer de backend connecté sans perdre ses brouillons — un détail d'ergonomie, mais qui dit la direction : plusieurs moteurs derrière une même interface. La rédaction affiche un aperçu des images locales sur les terminaux compatibles, et les images consultées s'ouvrent depuis le transcript. Un assistant, `gcp_setup_wizard`, configure Google Cloud Vertex AI avec les Application Default Credentials ou un fichier d'identifiants.</p>\n<p>Côté santé, l'IA sort de l'écran. Depuis octobre 2026, l'hôpital Seoul St. Mary's teste sur 50 participants une application qui estime le risque de maladie rénale chronique, en croisant des bilans de santé, des données génétiques et les relevés d'une Galaxy Watch. <strong>Samsung Electronics</strong> figure parmi les partenaires du projet.</p>\n<p>Quatre ans de recul manquent évidemment, et cinquante participants font un test, pas une validation clinique. Mais le capteur porté au poignet devient une source de données médicales comme une autre.</p>\n<h2>Et maintenant ?</h2>\n<p>Cinq annonces, deux réflexes opposés. D'un côté on ferme : GPT-6 Cyber reste dans un cercle d'experts sélectionnés. De l'autre on ouvre : Ripple-65B arrive en preview avec ses benchmarks, quand Codex multiplie les backends interchangeables. Entre les deux, OpenAI affirme des résultats scientifiques sans les détailler. Ce qui se joue cette semaine n'est pas une course à la taille des modèles, mais une bataille sur les conditions d'accès aux systèmes les plus capables.</p>",
+ "pivot": "96a99251c77393fa",
+ "tags": [
+  "openai",
+  "sécurité",
+  "open-source",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/critique-openai-lance-gpt-6-cyber-son-ia-la-plus-dangereuse-a-ce-jour.html"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/11/05/openai-affirme-ia-resoudre-3-problemes-scientifiques-plus-complexes-soient-sommes-nous-face-tournant-historique-recherche-fondamentale/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/samsung/3313219_galaxy-watch-samsung-teste-une-ia-pour-reperer-les-maladies-renales-avant-les-symptomes"
+  },
+  {
+   "nom": "Codex (releases, préversions incluses)",
+   "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0"
+  }
+ ],
+ "date": "2026-11-06T09:33:17+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1585,
+  "sortie": 4451
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "openai-renonce-aux-nda-avec-les-elus-perplexity-lance-ses-ag-8956cf",
+ "titre": "OpenAI renonce aux NDA avec les élus, Perplexity lance ses agents persistants",
+ "chapo": "OpenAI s'engage à ne plus faire signer d'accords de confidentialité aux responsables publics dans les communes qui accueillent ses centres de données. Au même moment, Perplexity dégaine des agents « toujours actifs » pour le travail, et Codex 0.167.0 se dote d'un centre de commande. La semaine où la politique locale rattrape la technique.",
+ "html": "<h2 id=\"openai-coupe-le-cordon-avec-les-nda\">OpenAI coupe le cordon avec les NDA</h2>\n<p>OpenAI a annoncé de nouveaux engagements envers les communautés où l'entreprise mène des projets de centres de données. Le plus visible : le groupe s'engage à ne plus recourir à des accords de confidentialité avec les responsables publics. Autrement dit, plus de NDA pour faire taire les élus locaux pendant les négociations.</p>\n<p>Le calendrier n'a rien d'anodin. L'annonce intervient après des élections de mi-mandat où les électeurs ont clairement exprimé leur opposition à l'expansion des centres de données. Plusieurs projets étaient justement critiqués pour s'appuyer sur ces NDA afin de dissimuler les discussions avec les élus.</p>\n<p>C'est un aveu de friction. Les centres de données ne sont plus un sujet d'infrastructure discret : ils sont devenus un sujet électoral, avec des habitants qui demandent à savoir ce qui se négocie dans leur commune. Le reste des engagements annoncés n'est pas détaillé dans la dépêche ; on retiendra donc le principal, qui est déjà un changement de méthode.</p>\n<h2 id=\"perplexity-des-agents-qui-ne-s-eteignent\">Perplexity : des agents qui ne s'éteignent pas</h2>\n<p>Perplexity entre sur le terrain des agents IA dédiés au travail, face à OpenAI et Anthropic. Sa nouveauté s'appelle <strong>Teammates</strong> : des agents toujours actifs, capables d'occuper plusieurs rôles au sein d'un même espace de travail.</p>\n<p>La mécanique repose sur la continuité. Ces agents récupèrent les projets, les compétences et la mémoire des outils Perplexity déjà utilisés : pas besoin de repartir de zéro, ils héritent du contexte existant. Ils s'intègrent à <strong>Perplexity Computer</strong>, un système capable de déployer des agents sur ton appareil.</p>\n<p>Le mot important, c'est « toujours actifs ». On quitte le chatbot qu'on convoque pour un agent qui reste en arrière-plan, avec des rôles multiples et une mémoire partagée. Reste une question que la dépêche ne tranche pas : ce que ces agents font exactement, et avec quelle autonomie.</p>\n<h2 id=\"codex-0-167-0-la-plomberie-avant-la-demo\">Codex 0.167.0 : la plomberie avant la démo</h2>\n<p>Pendant que les uns annoncent des agents, d'autres outillent ceux qui les font tourner. Codex 0.167.0 ouvre un centre de commande pour les agents, accessible via `codex agents --no-daemon`.</p>\n<p>Les nouveautés sont modestes mais parlantes :</p>\n<ul>\n<li>le sélecteur de sessions marque les résultats non lus ;</li>\n<li>on peut changer de backend connecté sans perdre ses brouillons ;</li>\n<li>la rédaction affiche un aperçu des images locales sur les terminaux compatibles, et les images consultées s'ouvrent depuis le transcript ;</li>\n<li>un assistant `gcp_setup_wizard` configure Google Cloud Vertex AI avec les Application Default Credentials ou un fichier d'identifiants.</li>\n</ul>\n<p>Rien de spectaculaire, donc, mais trois choses qui comptent au quotidien : savoir ce qui a été produit pendant qu'on regardait ailleurs, ne pas perdre son travail en changeant de modèle, et brancher un backend cloud sans se battre avec la configuration. C'est le genre de version qu'on remarque seulement quand elle manque.</p>\n<h2 id=\"20-de-google-et-trois-problemes-non-deta\">20 % de Google, et trois problèmes non détaillés</h2>\n<p>Côté usage, un chiffre : le volume de recherche qui passe par ChatGPT équivaut désormais à <strong>20 % de celui traité par Google</strong>. En quatre ans, l'agent conversationnel s'est imposé comme un outil majeur du quotidien numérique, et la croissance de l'usage « prend beaucoup d'ampleur ».</p>\n<p>Côté recherche, une déclaration. OpenAI affirme que ses modèles ont résolu trois problèmes scientifiques parmi les plus complexes, et prétend avoir battu les plus grands chercheurs sur leur propre terrain, s'invitant au premier rang de la recherche théorique internationale. Les problèmes concernés ne sont pas détaillés dans l'extrait relayé : à ce stade, c'est une affirmation d'OpenAI, pas un résultat documenté.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux mouvements se croisent. D'un côté, l'IA descend dans le concret : des centres de données qui font face à des électeurs, des agents qui s'installent dans l'espace de travail, un outil de recherche qui pèse un cinquième de Google. De l'autre, elle monte en abstraction, avec des modèles qui revendiqueraient des résultats en recherche fondamentale. Entre les deux, il y a la plomberie des versions, des backends et des sessions non lues — c'est elle qui décide si tout cela tient debout.</p>",
+ "pivot": "8956cfab74119a31",
+ "tags": [
+  "openai",
+  "agents",
+  "recherche",
+  "dev"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/11/05/openai-affirme-ia-resoudre-3-problemes-scientifiques-plus-complexes-soient-sommes-nous-face-tournant-historique-recherche-fondamentale/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/openai-chatgpt/3309845_la-croissance-prend-beaucoup-dampleur-chatgpt-rattrape-google-dans-la-recherche-web"
+  },
+  {
+   "nom": "Codex (releases, préversions incluses)",
+   "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0"
+  }
+ ],
+ "date": "2026-11-06T03:26:50+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1573,
+  "sortie": 2078
+ }
+}

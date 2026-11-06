@@ -1,5 +1,26 @@
 [
  {
+  "id": "a764c5bfb4a9eab0",
+  "slug": "codex-publie-la-preversion-0-169-0-alpha-1-de-son-depot-a764c5",
+  "titre": "Codex publie la préversion 0.169.0-alpha.1 de son dépôt",
+  "resume": "Le dépôt openai/codex a publié la préversion 0.169.0-alpha.1, datée du 6 novembre 2026. C'est une version alpha : elle précède une éventuelle stabilisation et ne dit rien de sa robustesse en production. La note de version ne mentionne aucun changement fonctionnel, seulement le numéro de version.",
+  "tags": [
+   "openai",
+   "dev",
+   "agents"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.1",
+  "date_source": "2026-11-06T03:02:33+00:00",
+  "date_redac": "2026-11-06T03:26:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 603,
+   "sortie": 967
+  }
+ },
+ {
   "id": "b5f3432cf5b3d377",
   "slug": "codex-0-167-0-centre-de-commande-des-agents-backends-multiples-et-assi-b5f343",
   "titre": "Codex 0.167.0 : centre de commande des agents, backends multiples et assistant Vertex AI",
@@ -122,6 +143,27 @@
    "modele": "deepseek-flash",
    "entree": 602,
    "sortie": 1052
+  }
+ },
+ {
+  "id": "5c1a7d891212e4df",
+  "slug": "une-faille-0-day-dans-cpython-menace-la-chaine-d-approvisionnement-ia-5c1a7d",
+  "titre": "Une faille 0-day dans CPython menace la chaîne d'approvisionnement IA",
+  "resume": "Une vulnérabilité 0-day touche CPython, l'implémentation de référence du langage Python. Selon l'auteur du signalement, ni l'équipe CPython, ni celle de Jinja, ni Hugging Face n'ont corrigé le problème, bien qu'elles aient été informées. Python étant au cœur des outils de l'IA, la faille concerne directement la chaîne d'approvisionnement.",
+  "tags": [
+   "sécurité",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xoyr90/cpython_0day_vulnerabilities_threaten_the_ai/",
+  "date_source": "2026-11-06T00:17:41+00:00",
+  "date_redac": "2026-11-06T03:26:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 639,
+   "sortie": 403
   }
  },
  {

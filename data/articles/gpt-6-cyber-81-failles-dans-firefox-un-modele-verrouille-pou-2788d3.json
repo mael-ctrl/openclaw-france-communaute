@@ -1,0 +1,41 @@
+{
+ "slug": "gpt-6-cyber-81-failles-dans-firefox-un-modele-verrouille-pou-2788d3",
+ "titre": "GPT-6 Cyber : 81 failles dans Firefox, un modèle verrouillé pour experts",
+ "chapo": "OpenAI présente GPT-6 Cyber, un modèle capable de repérer des failles jusqu'ici inconnues et de proposer des correctifs : 81 vulnérabilités graves ont été trouvées dans Firefox. Il reste pour l'instant réservé aux spécialistes. En parallèle, l'entreprise affirme que ses modèles ont résolu trois problèmes scientifiques, sans dire lesquels.",
+ "html": "<h2 id=\"gpt-6-cyber-81-failles-graves-et-un-acce\">GPT-6 Cyber : 81 failles graves, et un accès verrouillé</h2>\n<p>OpenAI a dévoilé GPT-6 Cyber, un modèle de cybersécurité capable de détecter des failles de sécurité jusqu'ici inconnues et de proposer des correctifs. Le chiffre mis en avant par Frandroid donne la mesure de l'outil : <strong>81 vulnérabilités graves repérées dans Firefox</strong>. On est moins sur un assistant conversationnel que sur une machine d'audit.</p>\n<p>La restriction est assumée. Le modèle reste pour l'instant réservé aux spécialistes de la cybersécurité — pas de version grand public, pas d'API ouverte. Les modalités d'accès au-delà de cette réserve ne sont pas détaillées.</p>\n<p>Le choix de l'accès restreint n'est pas anodin pour un modèle dont la fonction est de trouver ce qui ne se voit pas. Un outil capable d'identifier des failles inconnues dans un navigateur large­ment déployé est aussi, entre de mauvaises mains, un outil capable de les exploiter.</p>\n<h2 id=\"trois-problemes-scientifiques-la-declara\">Trois problèmes scientifiques : la déclaration sans le détail</h2>\n<p>OpenAI affirme que ses modèles ont résolu trois problèmes scientifiques parmi les plus complexes, et que l'entreprise aurait battu les plus grands chercheurs sur leur propre terrain. Le Journal du Geek relaie l'annonce en la qualifiant pour ce qu'elle est : une déclaration d'OpenAI.</p>\n<p>Car dans l'extrait relayé, aucun des trois problèmes n'est nommé. Pas de domaine, pas d'énoncé, pas de publication à l'appui. Une revendication sur la recherche théorique internationale exige normalement un peu plus qu'un communiqué — au minimum de quoi identifier le problème résolu et vérifier la solution.</p>\n<p>Rien n'interdit de penser que les travaux existent. Mais en l'état, l'affirmation circule sans pièce jointe.</p>\n<h2 id=\"ripple-65b-65-milliards-de-parametres-fa\">Ripple-65B : 65 milliards de paramètres face à des géants</h2>\n<p>Pendant ce temps, du côté des poids ouverts, Ricursive Intelligence — à ne pas confondre avec Recursive, à l'origine de Flint — publie la preview de <strong>Ripple-65B</strong>, un modèle dense de 65 milliards de paramètres. D'après ses benchmarks, il rivalise avec Muse Spark Open (816B) et Beam de Reflection (501B), ce qui le placerait à la frontière des modèles américains à poids ouverts.</p>\n<p>L'architecture revendiquée est « thin & deep » : 80 couches pour 5120 dimensions, attention globale NoPE et SWA dans un ratio 4:1. Le post-entraînement reste léger, ciblé sur le codage agentique — un choix qui dit à quelle clientèle le modèle s'adresse.</p>\n<p>L'écart de taille avec ses concurrents cités est la vraie information : 65 milliards contre 501 et 816. À condition de garder en tête que ces comparaisons sont produites par l'équipe qui publie le modèle.</p>\n<h2 id=\"cote-outils-un-centre-de-commande-pour-a\">Côté outils : un centre de commande pour agents, une montre à l'hôpital</h2>\n<p>Codex 0.167.0 ouvre un centre de commande pour les agents via `codex agents --no-daemon`. Le sélecteur de sessions marque les résultats non lus et permet de changer de backend connecté sans perdre ses brouillons — le genre de détail qui compte quand on fait tourner plusieurs agents en parallèle. La rédaction affiche un aperçu des images locales sur les terminaux compatibles, et les images consultées s'ouvrent depuis le transcript. Un assistant `gcp_setup_wizard` configure Google Cloud Vertex AI, avec les Application Default Credentials ou un fichier d'identifiants.</p>\n<p>Sur un tout autre terrain, Samsung teste depuis octobre 2026 une application d'IA qui estime le risque de maladie rénale chronique. L'essai se déroule à l'hôpital Seoul St. Mary's, sur 50 participants. L'outil croise des bilans de santé, des données génétiques et les relevés d'une Galaxy Watch. Samsung Electronics figure parmi les partenaires du projet.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois régimes de preuve cohabitent dans ces annonces. Un modèle de sécurité dont on connaît un chiffre d'efficacité — 81 failles dans Firefox — mais pas les conditions d'accès. Une revendication scientifique sur trois problèmes majeurs, sans énoncé des problèmes. Et des benchmarks de poids ouverts, publiés par ceux qui les produisent. Rien de tout cela n'est invérifiable par nature ; rien de tout cela n'est vérifié non plus. La différence entre une annonce et un résultat tient souvent à une seule chose : ce qu'on accepte de publier à côté du chiffre.</p>",
+ "pivot": "2788d333a55ee021",
+ "tags": [
+  "openai",
+  "sécurité",
+  "recherche",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/openai/3313115_avec-gpt-6-cyber-openai-cree-une-ia-de-cybersecurite-si-puissante-quelle-reste-sous-cle"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/11/05/openai-affirme-ia-resoudre-3-problemes-scientifiques-plus-complexes-soient-sommes-nous-face-tournant-historique-recherche-fondamentale/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/samsung/3313219_galaxy-watch-samsung-teste-une-ia-pour-reperer-les-maladies-renales-avant-les-symptomes"
+  },
+  {
+   "nom": "Codex (releases, préversions incluses)",
+   "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0"
+  }
+ ],
+ "date": "2026-11-06T10:13:14+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1615,
+  "sortie": 3132
+ }
+}

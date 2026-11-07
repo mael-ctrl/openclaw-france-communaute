@@ -1012,6 +1012,37 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-04/hub-gratuit-lisibilite/`.
 
+## Navigation mobile accessible — livraison du 07/11/2026
+
+- **Une amélioration** : les liens de navigation ne disparaissent plus à 760 px
+  et moins. Retour à la ligne natif, cibles de 44 px minimum, entête non fixe
+  pour ne pas recouvrir le contenu. Aucun JavaScript ajouté. Défaut reproduit
+  publiquement sur six pages ; le guide avait déjà sa propre navigation mobile.
+  Feuille CSS versionnée sur les sept pages concernées et sitemap actualisé ;
+  textes, liens de destination, scripts et kits inchangés.
+- Trois tests de régression échouent avant correction, puis passent ; **304 tests
+  OK** dans la suite complète. Chrome avec/sans JavaScript : **98 contrôles locaux**
+  sur sept pages (1440, 1024, 760, 430, 390, 375, 360 px) et **42 publics**
+  (1440, 390, 360 px). Liens visibles, absence de chevauchement et de débordement,
+  hauteur tactile et focus clavier vérifiés. **Quatre parcours par environnement**
+  vont de l’accueil au kit au clavier, puis téléchargent réellement le ZIP :
+  OpenClaw et Hermes, avec/sans JavaScript. Aucune installation réelle prétendue.
+- Bureau inaccessible à Git et FileProvider en erreur ; clone partagé en conflits
+  laissé intact. Déploiement par `python3 outils/deployer_openclaw.py` depuis
+  `~/.hermes/workspaces/hub-openclaw-20261003`, synchronisé avant modification.
+  Sauvegarde et comparaison préalable ; **36 fichiers relus via FTP**, identiques
+  aux sources. Dates/modes restaurés avant régénération : les deux ZIP et leur
+  manifeste restent inchangés ; CRC et SHA-256 vérifiés sur les téléchargements.
+- **Six URL de santé en HTTP 200** ; contrôle étendu de **13 URL en 200**.
+  Navigation et CSS relues en HTTPS. **IndexNow HTTP 200** pour les sept pages :
+  notification acceptée, pas preuve d’indexation ni de croissance du trafic.
+- **Aucune nouvelle distribution** : post Bluesky du 02/11 (`3mzcujcddsa22`)
+  déjà compté pour cette semaine ; fil public relu, zéro réponse au contrôle.
+  Aucun message, formulaire ni relance. Prochaine priorité : contrôler les
+  largeurs intermédiaires de tablette autour du seuil de navigation mobile.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-07/hub-navigation-mobile/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

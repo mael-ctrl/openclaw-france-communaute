@@ -1,6 +1,35 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
-## État courant — 5 novembre 2026, revue du soir
+## État courant — bilan du 6 novembre, vérifié le 7 novembre 2026
+
+**Cette synthèse prévaut sur les états historiques ci-dessous.** Revue prévue le **06/11 à 21 h CET**, dispatch différé au **07/11 à 17:04:32 CET**. Période principale : journée locale du 6, soit `[05/11 23:00, 06/11 23:00)` UTC. Les sondes du 7 sont distinctes, non antidatées. Pull partagé tenté le 7 à **17:09:31**, refusé (128) : **dix commits locaux distincts / quatre distants**, données modifiées. Livraison documentaire en worktree propre sur **`4913b103f40b01bc93168226ae18ec1c514f1961`**, pull réussi ici seulement ; aucune fusion, réparation ou suppression des variantes.
+
+**Bilan du 6 : six commits distants ; onze runs, cinq succès et six annulations pendant pipeline, sauvegarde ignorée.** Pas de nouvelle intégration fonctionnelle dans ces commits. **Alerte du 7 : le build est frais, mais son catalogue diverge du cloud** — sitemap public identique au `_site` local, **12 brèves / 527 articles**, contre **1 803 enregistrements de brèves / 521 articles** dans la base Git distante figée ; trois articles de cette base absents du sitemap. Ce n'est pas une preuve de suppression de leurs HTML. Le pipeline local a encore publié après pull refusé puis échoué à sauvegarder, malgré le statut cron `ok/completed`.
+
+| Chantier | État observé / date | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | 🔴 **07/11, 17:13 CET : 17 URL News uniques dans les 48 h**, build 16:07:23 UTC ; catalogue divergent ci-dessus. OPML : 28 flux ; dernier IndexNow de la base cloud : 200 à 02:54:38 UTC | **Priorité immédiate :** réconcilier les variantes et empêcher la republication d'une base dépassée ; recontrôler le catalogue après clôture du cloud. Fraîcheur/IndexNow ≠ cohérence ni indexation |
+| P2 — Site | 🔶 Job prévu le 6 démarré tardivement le 7, encore `running` à 17:22 ; pas de nouveau correctif fonctionnel attribué au 6 | Lire sa clôture et ses preuves avant reprise ; ne pas refaire impression, auteur ou sommaire déjà livrés |
+| P3 — Podcast | 🔶 Index Git/flux public toujours au **4 novembre, 17 GUID** à 17:13 ; job du 6 en rattrapage, sans résultat final au relevé de 17:22 | Terminer l'exécution existante à la date réelle, sans doublon ni épisode rétrodaté ; chaîne/annuaires non attestés |
+| P4 — Newsletter | 🔶 Dernier décompte attesté **03/11 : zéro abonné** ; préparation du 6 sans rapport final, aucun envoi nouvellement attesté | Avant tout envoi : abonnés consentants, expéditeur et désinscription éprouvés ; garde privée non activée |
+| P5 — Monétisation | 🔶 KPI du **6 : 0 € sur ses seules 24 h**, cumul indisponible par attribution incomplète ; B2B 200 / mentions 404 le 7. Job commercial en rattrapage | **Action humaine unique : confirmer l'entité vendeuse et son régime de TVA.** Attribution interne à terminer ; prospection/transactions nouvelles toujours fermées |
+| P6 — Presse / distribution | 🔶 Courrier du **7 : une notification à qualifier**, pas une retombée attestée ; distribution du 6 encore en cours au relevé. Piaille silencieux le 6 | Lire/qualifier sans renvoyer d'invitation ; Bluesky : suivi seulement cette semaine, créneau promotionnel déjà consommé |
+| P7 — Record | 🔴 Six sauvegardes cloud ignorées après annulation le 6 ; échecs de sauvegarde locale les 6 et 7. Anomalies historiques de chaîne non recalculées ici | Préserver les histoires et qualifier conservation/reprise ; aucun sceau réécrit ni certification déduite du succès d'un run voisin |
+| P8 — Skool | 🔶 Brouillon du 6 « Ton IA du quotidien : laquelle, et pourquoi ? », puis brouillon du 7 produits selon leurs sorties ; **18/22 ancien**, non recompté | Prochaine session authentifiée : réconcilier M6, membres et publications ; brouillon ≠ publication |
+| P9 — Organisation / exploitation | 🔴 Wrapper inchangé ; le **7 à 17:22**, clone de nouveau en rebase/conflit, six fichiers non fusionnés. Préflight/archive du 6 présents, aucun rapport final ; nouvelle vague du 7 en cours. **1 481 références du 4 intactes** | Garde minimale complète, reprise Git préservant les variantes et vrai résultat cron ; puis sauvegarde durable/concurrence cloud. Disque mesuré à **2 260 774 912 octets libres** à 17:11 : borner les copies ; aucune purge ici |
+| P10 — Affiliation / hub | 🔶 `/gratuit/` 200 le 7 ; job hub du 6 en rattrapage, parcours mobile non clôturé au relevé ; aucun programme/commission nouvellement attesté | Réemployer le parcours jusqu'aux deux ZIP après inventaire ; installation/restauration réelles distinctes. Pas de nouvelle promotion ni offre déduite |
+
+### Une seule action humaine — identité vendeuse
+
+**Message exact :** « Maël, confirme en une réponse l'entité juridique qui vend le Pack et les prestations du Crabe, ainsi que son régime de TVA. Cette validation est nécessaire pour finaliser l'identité vendeuse et les mentions avant toute prospection B2B. »
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si cette absence de validation bloque l'ouverture commerciale.** Destinataire et message exact dans `crabe-chantiers/gouvernance/2026-11-06/revue-differee-20261107/escalade-mael.txt`, hors dépôt public ; **préparé, non envoyé**. Pas de reconnexion Stripe demandée : le KPI du 6 a pu lire les paiements. Les autres prérequis commerciaux restent cumulatifs, sans accord du silence.
+
+**Mesure :** **609 IP estimées le 5 (−26,3 %)**, média + hub, robots identifiés exclus ; ce n'est pas le trafic du 6 ni un nombre certifié de personnes. KPI du 7 encore en cours au relevé ; aucun chiffre anticipé. [Bilan détaillé](ceo-log.md#2026-11-06--bilan-différé-vérifié-le-7-novembre). Seuls les deux documents de pilotage sont publiés ; aucun cron, déploiement, email, paiement ou post déclenché par cette revue. Livraison locale uniquement, jamais Discord.
+
+---
+
+## État antérieur — 5 novembre 2026, revue du soir
 
 **Cette synthèse prévaut sur les états historiques ci-dessous.** Revue prévue à 21 h CET, dispatch à 21:41 ; premier pull à **22:12:10**, refusé (128) pour divergence : **neuf commits locaux distincts / 199 distants**, arbre propre au relevé, contrairement aux conflits observés la veille. Aucun reset, abandon ou fusion ; worktree documentaire propre sur **`e9bad9c0e083483fa1f2002b260abedbf5bd3503`**, pull réussi ici seulement. Fenêtre des commits/créations GitHub figée à **22:13:43 CET** (`04/11 23:00:00 → 05/11 21:13:43 UTC`) ; étapes et HTTPS relus plus tard, **vers 23:45 CET**, sans antidatation.
 

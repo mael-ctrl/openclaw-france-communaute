@@ -253,6 +253,8 @@ de soumettre. Ne pas faire passer l'agent pour un humain.
 
 ## Journal d'exécution (à tenir à jour, une ligne par action)
 
+- `2026-11-07 | Monétisation — contrôle Stripe | Lien Pack live relu ; canonicalisation du retour préparée et tentée une fois, refus HTTP 403 | Aucun nouveau lien public | ⏸️ Non appliquée : objet et line items identiques après relecture ; ancien retour fonctionnel via 301 puis 200 | Prix 14 EUR, fiscalité, marque, compte et site inchangés. Aucun paiement, contact, promotion ou revenu attribué ; aucun quota de distribution consommé, Bluesky du 02 ferme toujours la semaine. Détails docs/monetisation.md.`
+
 - `2026-11-04 | Site propre — monétisation | Mode d'emploi Markdown/JSON du Pack publié et coûts d'assistant/API distingués des 14 € | https://communaute-ia.fr/pack/ | ✅ 299 Python + huit Node, repli SFTP ciblé après timeout cloud ; HTTPS exact, clavier/souris mobile/ordinateur vérifiés | Prix, Stripe, retour et fichiers inchangés ; aucun paiement, revenu attribué, suivi ajouté ou prospection. Aucun quota de distribution consommé ; Bluesky du 02 reste l'unique promotion de la semaine. Détails docs/monetisation.md.`
 
 - `2026-11-03 | Site propre — monétisation | Retour statique du Pack corrigé : aucune confirmation de paiement déduite de son ouverture, contact proposé en cas de doute avant réessai | Aucun nouveau lien public | ✅ Code 88a1953, 288 contrats Python + huit Node, cloud 41637768563 réussi, HTTPS exact et téléchargements mobile/ordinateur vérifiés | Prix 14 €, Stripe et fichiers inchangés ; aucune transaction, nouvelle collecte, promotion ou prospection. Aucun quota de distribution consommé ; Bluesky du 02 reste l’unique promotion de la semaine. Aucun revenu attribué ; détail docs/monetisation.md.`

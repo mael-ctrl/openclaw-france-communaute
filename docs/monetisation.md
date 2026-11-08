@@ -1,5 +1,18 @@
 # Journal des actions de monétisation
 
+## 7 novembre 2026 — configuration Stripe relue, retour canonique non appliqué
+
+**Action unique :** reprise du parcours Pack avec lecture authentifiée du lien réel, puis préparation et tentative d'une correction strictement limitée à son URL de retour. **Écriture refusée HTTP 403 ; correction non livrée.** L'accès de lecture fonctionne désormais : aucune nouvelle demande de reconnexion fondée sur le blocage du 2 novembre.
+
+- Lien résolu par son URL exacte, pagination complète, puis objet et line items relus : actif, live, produit/prix attendus, quantité un, **14 EUR**, non récurrent. Aucun appel aux ventes ni revenu attribué ; aucune identité juridique déduite du compte partagé.
+- Retour encore configuré sur l'ancien domaine du média. Contrôle HTTPS strict à **16:09:45 UTC** : **301 vers le domaine canonique, puis 200**, avec corps exactement identique à la destination directe. Le parcours actuel fonctionne ; la correction vise seulement à supprimer ce détour, pas à réparer un paiement démontré cassé.
+- Sauvegarde de l'objet et de ses articles, payload limité à `after_completion`, retour arrière préparé depuis la valeur réelle. Un seul appel d'écriture, **403 Forbidden** ; aucun retry ou contournement. Le helper n'a pas conservé le corps de cette erreur, donc sa cause précise reste non établie. **Relecture exacte après refus : objet et line items entièrement inchangés.** Aucune modification de prix, taxe, consentement, facture, marque ou bénéficiaire.
+- Schémas MCP courants et documentation officielle relus ; version de spécification distincte de la version API inconnue du compte. Référence GitHub `stripe/openapi`, MIT, révision `6360907`, push observé le 06/11 ; aucun code tiers installé ou adopté. Pas de nouvelle recette navigateur, transaction, test de reçu ou livraison authentifiée revendiqués.
+
+Dossier privé : `crabe-chantiers/monetisation/2026-11-07-stripe-live-160822Z/` : captures, requête ciblée, rollback **non exécuté**, refus et relectures. Clone partagé divergent/sale préservé ; worktree documentaire propre après pull réussi. Seuls les deux journaux changent dans le dépôt, sans déploiement ni dispatch.
+
+**Garde-fous et suite :** Pack/B2B 200, mentions 404 à **16:08:56 UTC** ; vendeur/TVA et autres prérequis cumulatifs toujours fermés. Bluesky du 02 consomme la semaine : aucun contact ou promotion. Qualifier le refus d'écriture du lien en session interactive avant reprise, sans élargir les droits ou renommer le compte ; revalider la base fraîche. La validation vendeuse reste indépendante et nécessaire avant correction marque-vendeur ou prospection. Aucun gain de conversion établi.
+
 ## 4 novembre 2026 — expliquer l'usage du Pack et les coûts distincts
 
 **Action unique publiée :** un mode d'emploi avant achat sur [la page Pack](https://communaute-ia.fr/pack/) : ouvrir le Markdown, adapter les champs avec des informations non sensibles, vérifier le résultat. Accordéon natif fermé ; JSON présenté comme un format à adapter, pas un import universel ou une automatisation prête à lancer. « Aucun abonnement » est borné au Pack ; accès à un assistant et éventuels frais d'outil/API sont explicitement séparés des **14 €**.

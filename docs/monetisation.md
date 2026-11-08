@@ -2,6 +2,8 @@
 
 ## 7 novembre 2026 — configuration Stripe relue, retour canonique non appliqué
 
+*Contrôles Stripe/HTTPS effectués le 7 à 16:08–16:11 UTC ; clôture documentaire reprise le **8 novembre**, premier push vérifié à **11:00:56 UTC** (`817c8b2`). Les dix contrôles de clôture portent sur ces captures sauvegardées, pas sur une nouvelle lecture Stripe le 8. Le clone partagé a évolué entre les deux relevés ; aucune immobilité de son état ni résolution de sa divergence n'est revendiquée.*
+
 **Action unique :** reprise du parcours Pack avec lecture authentifiée du lien réel, puis préparation et tentative d'une correction strictement limitée à son URL de retour. **Écriture refusée HTTP 403 ; correction non livrée.** L'accès de lecture fonctionne désormais : aucune nouvelle demande de reconnexion fondée sur le blocage du 2 novembre.
 
 - Lien résolu par son URL exacte, pagination complète, puis objet et line items relus : actif, live, produit/prix attendus, quantité un, **14 EUR**, non récurrent. Aucun appel aux ventes ni revenu attribué ; aucune identité juridique déduite du compte partagé.

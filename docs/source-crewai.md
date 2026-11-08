@@ -56,3 +56,30 @@ de recette reprise en production. OPML reconstruit, reparsé et comparé aux
 
 Preuves privées : `crabe-chantiers/croissance/2026-11-07/evidence/`.
 Au commit initial, publication cloud et recette HTTPS encore à confirmer.
+
+## Publication ciblée vérifiée le 8 novembre à 11:15 UTC
+
+Configuration, test et document initial : **`e09b21c202207b0f721cfe39ed8db76829811735`**,
+avec trois blobs relus identiques sur `main` distant. Dispatch `42473537205`
+sur ce commit ; aucun changement de cadence, workflow ou secrets.
+
+Avant le SFTP, attente de la fin du run sur l'ancien catalogue `42471488727` :
+annulé pendant le pipeline après environ 45 minutes, sauvegarde ignorée.
+Son état et ses logs sont conservés ; aucune annulation manuelle.
+
+Préflight : OPML distant exactement conforme au catalogue parent ; sauvegarde
+des deux cibles et identité HTTPS/SFTP vérifiées. Clé hôte épinglée avant
+authentification. Envoi `.part`, renommage puis relecture SFTP exacte :
+seuls `/veille/sources.opml` et le compteur **28 → 29** de Transparence changent,
+tous les autres octets de cette page servie sont préservés.
+
+La première comparaison HTTPS après SFTP a différé ; échec conservé, aucun
+renvoi ni réécriture pour le masquer. **Deux nouvelles lectures canoniques
+TLS strictes à 11:15:05 UTC : 200 et octets exacts**, 29 flux uniques,
+CrewAI présent une fois. La cause de l'écart initial n'est pas établie.
+Preuves : `livraison-ciblee/` et `evidence/https-20261108T111505Z/`.
+
+Contrats du nouveau run cloud **réussis à 11:15:26 UTC**. Au contrôle de
+11:15:29, son pipeline est en cours et sa sauvegarde en attente : la publication
+ciblée est acquise, pas la clôture globale du cloud ni une collecte CrewAI
+réussie dans ce run. Le conflit du clone partagé reste ouvert et préservé.

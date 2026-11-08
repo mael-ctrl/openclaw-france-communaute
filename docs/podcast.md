@@ -1,5 +1,9 @@
 # Podcast : rendre les audios existants découvrables et abonnables
 
+## Édition du 7 novembre — publication vérifiée le 8
+
+Trois sujets, **114,024490 secondes**, voix Amélie après timeout de Denise ; commit `e04a96e`, **304 tests locaux / 305 cloud**. Page, flux et MP3 exacts en HTTPS le 8 à 21:21 UTC. Après annulation à 45 min du run `42473537205` et tentative SFTP interrompue, le descendant `42506312029` a publié et sauvegardé avec succès (`6a5a0e4`). L'incident de durée et la divergence local/cloud restent ouverts. [Sources, recette, chronologie et limites](podcast-2026-11-07.md).
+
 ## Amélioration de croissance du 17 octobre 2026
 
 Une seule fonctionnalité : une [page d'écoute](https://communaute-ia.fr/podcast/), liée depuis le pied du média, et son [flux RSS audio](https://communaute-ia.fr/podcast/feed.xml). Elle reprend les épisodes déjà publiés les 15 et 16 octobre et le pilote, sans générer de nouvel audio ni ajouter de service externe. Le lecteur et le téléchargement fonctionnent sans JavaScript ; le flux s'ajoute dans un lecteur compatible.

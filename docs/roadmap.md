@@ -6,6 +6,15 @@
 
 **Incident P9 conservé :** run `42473537205`, 305 tests réussis puis limite **45 min** atteinte le 8 à 11:57 UTC, pipeline annulé et sauvegarde ignorée ; 1 639 transferts journalisés, audio seulement pour cette édition. Repli SFTP tenté mais interrompu sur timeout : pas un déploiement déclaré réussi. Le descendant `42506312029` a ensuite réussi à **18:20:51 UTC**, avec page/flux/audio transférés et sauvegarde `6a5a0e4` confirmée. **Prochaine étape :** traiter durée/reprise/conservation après annulation et divergence du clone partagé ; ne pas recréer l'épisode ni confondre cette publication avec une réparation générale du pipeline. Les bilans historiques ci-dessous restent datés de leurs propres relevés.
 
+## Chantier site commencé le 7 novembre — reprise du 8 novembre : CSS commune
+
+**Une seule intégration fonctionnelle : action #6**, minification syntaxique et intégration de la CSS commune dans le HTML, podcast compris. Couvertures, dates, auteur, catalogue conservé et impression déjà livrés, non refaits ; archives historiques inconnues et alias OVH inchangés. Base initiale `4913b10`, actualisée proprement à `555f3e7` ; clone partagé divergent préservé.
+
+**311 tests Python + huit Node**, deux builds comparés (2 355 HTML : seul lien CSS remplacé ; 2 372 fichiers identiques), essai scratch sans rédaction/transfert et **210 contrôles Chromium / 60 vues** réussis. Feuille commune 24 075 → 19 526 octets (**−18,9 %**), une requête bloquante supprimée ; corps, pixels échantillonnés, ressources et flux préservés. Surcoût HTML brut et perte du cache CSS inter-pages explicités, sans gain LCP/SEO revendiqué. [Preuves, réemploi Apache-2.0 et limites](styles-integres.md).
+
+**Au commit initial : code/recettes complets, publication cloud et HTTPS à confirmer.** Aucun lot d'exploitation, cron, newsletter, paiement ou restauration historique activé. Cette entrée complète P2 ci-dessous sans réécrire les observations datées du bilan.
+
+
 ## État courant — bilan du 6 novembre, vérifié le 7 novembre 2026
 
 **Cette synthèse prévaut sur les états historiques ci-dessous.** Revue prévue le **06/11 à 21 h CET**, dispatch différé au **07/11 à 17:04:32 CET**. Période principale : journée locale du 6, soit `[05/11 23:00, 06/11 23:00)` UTC. Les sondes du 7 sont distinctes, non antidatées. Pull partagé tenté le 7 à **17:09:31**, refusé (128) : **dix commits locaux distincts / quatre distants**, données modifiées. Livraison documentaire en worktree propre sur **`4913b103f40b01bc93168226ae18ec1c514f1961`**, pull réussi ici seulement ; aucune fusion, réparation ou suppression des variantes.

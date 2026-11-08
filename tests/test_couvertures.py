@@ -49,6 +49,8 @@ def build_isole(breves, articles):
         root = Path(tmp)
         (root / "articles").mkdir()
         (root / "assets").mkdir()
+        # Le gabarit intègre désormais sa CSS : la fixture en fournit la source.
+        (root / "assets/style.css").write_bytes((ROOT / "assets/style.css").read_bytes())
         (root / "breves.json").write_text(json.dumps(breves))
         for i, a in enumerate(articles):
             (root / "articles" / f"{i}.json").write_text(json.dumps(a))

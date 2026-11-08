@@ -16,6 +16,7 @@ from zoneinfo import ZoneInfo
 import config
 import journal
 import couvertures
+import styles
 
 
 # ---------------------------------------------------------------- utilitaires
@@ -201,7 +202,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
 <link rel="alternate" type="application/rss+xml" title="{config.NOM_SITE} — RSS" href="/feed.xml">
 <link rel="alternate" type="application/rss+xml" title="{ech(config.NOM_SITE)} — RSS articles uniquement" href="/feed-articles.xml">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/assets/style.css">
+{styles.balise_css()}
 {extra_head}
 {jsonld_site()}
 </head>

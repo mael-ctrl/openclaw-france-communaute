@@ -1,5 +1,132 @@
 [
  {
+  "id": "8493a461ddb8d479",
+  "slug": "un-dataset-gpt-5-5-de-25-milliards-de-tokens-avec-12-121-appels-d-outi-8493a4",
+  "titre": "Un dataset GPT-5.5 de 25 milliards de tokens, avec 12 121 appels d'outils",
+  "resume": "Un membre de r/LocalLLaMA publie un jeu de données issu de son usage de GPT-5.5, couvrant 25 milliards de tokens consommés. La publication signale la présence de 12 121 appels d'outils dans le corpus, et crédite u/New_Comfortable7240 pour le travail de nettoyage des données. Ce type de dataset documente concrètement les traces d'usage d'un modèle et des appels d'outils qu'il déclenche.",
+  "tags": [
+   "openai",
+   "recherche",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xr3ymf/gpt55_dataset_across_my_used_25_billion_tokens/",
+  "date_source": "2026-11-08T17:32:48+00:00",
+  "date_redac": "2026-11-08T17:45:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 644,
+   "sortie": 276
+  }
+ },
+ {
+  "id": "8ca6f4cc561c36f2",
+  "slug": "un-llm-ecrit-100-en-java-inspire-du-gpt-de-karpathy-et-entraine-sur-un-8ca6f4",
+  "titre": "Un LLM écrit 100 % en Java, inspiré du GPT de Karpathy et entraîné sur un corpus espagnol",
+  "resume": "Un développeur partage jUltraLLM, une implémentation de modèle de langage écrite entièrement en Java, basée sur le GPT de Karpathy. L'entraînement a tourné sur un Intel Xeon E5-2640 v4 à 2,20 GHz, 96 Go de DDR4 ECC et un GPU RTX 5050 via la bibliothèque Tornado. Le corpus alpaca_es_chat.jsonl sert les requêtes en espagnol. Le code est publié sur GitHub.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xr3qok/a_java_llm_implementation_based_on_karpathys_gpt/",
+  "date_source": "2026-11-08T17:23:46+00:00",
+  "date_redac": "2026-11-08T17:45:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 744,
+   "sortie": 720
+  }
+ },
+ {
+  "id": "622b93cd7c819f0d",
+  "slug": "une-video-motion-design-generee-en-local-avec-qwen3-8-flash-sur-une-rt-622b93",
+  "titre": "Une vidéo motion design générée en local avec Qwen3.8 Flash sur une RTX 4080",
+  "resume": "Sur r/LocalLLaMA, un utilisateur a produit une vidéo motion design de 15 secondes en 1920×1080 à 60 fps avec le modèle Qwen3.8 Flash Next GSQ RCO IQ3_XXS, tournant sur une RTX 4080 de 16 Go de VRAM et 64 Go de DDR5. La recette : demander au modèle de s'appuyer sur three.js, playwright et ffmpeg, puis décrire en mots simples le style, les dimensions et le sujet. Le premier rendu a pris environ 40 minutes, et deux heures au total avec trois prompts de correction, à quelque 95 tps en décodage et 3000 tps en préfill.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xr3qes/motion_graphics_video_made_with_qwen38_flash_next/",
+  "date_source": "2026-11-08T17:23:29+00:00",
+  "date_redac": "2026-11-08T17:45:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 853,
+   "sortie": 749
+  }
+ },
+ {
+  "id": "fb3b0ff3cdc4fe4b",
+  "slug": "gpt-6-astra-corrige-qwen-sans-reentrainement-openai-industrialise-la-c-fb3b0f",
+  "titre": "GPT-6 Astra corrige Qwen sans réentraînement, OpenAI industrialise la chasse aux failles",
+  "resume": "Trois actualités cyber cette semaine. Un modèle d'OpenAI, GPT-6 Astra, corrige un autre modèle (Qwen) en retouchant directement ses paramètres, sans réentraînement. Un projet open source majeur, PostgreSQL 19, prend du retard à cause du nombre de bugs que l'IA lui signale. Et OpenAI affirme avoir industrialisé la recherche de failles dans le noyau Linux.",
+  "tags": [
+   "openai",
+   "sécurité",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 4,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/cyberguerre/2369365-gpt-6-astra-repare-qwen-sans-le-reentrainer-postgresql-19-prend-du-retard-a-cause-de-lia-openai-industrialise-la-chasse-aux-failles-de-linux-on-vous-raconte-la-semaine-cyberguerre.html",
+  "date_source": "2026-11-08T17:21:00+00:00",
+  "date_redac": "2026-11-08T17:45:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 757,
+   "sortie": 535
+  }
+ },
+ {
+  "id": "cfcc7bab7211f194",
+  "slug": "qwen3-8-flash-next-glisse-des-appels-url-alibaba-dans-une-session-llam-cfcc7b",
+  "titre": "Qwen3.8-Flash-Next glisse des appels URL Alibaba dans une session llama.cpp",
+  "resume": "Un utilisateur de r/LocalLLaMA rapporte que le modèle unsloth/Qwen3.8-Flash-Next-GGUF:IQ4_XS, lancé sur un llama.cpp simple, a inséré deux appels d'outil vers des URL Alibaba au milieu des recherches web qu'il lui avait demandées. La tâche en cours consistait à produire un script de vérification de releases GitHub. L'utilisateur note que le modèle semblait lui-même déboussolé, et a exporté l'intégralité de la conversation Open WebUI sur hastebin.",
+  "tags": [
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xr3ifw/the_qwen_flash_next_alibaba_url_thing_happened_to/",
+  "date_source": "2026-11-08T17:14:19+00:00",
+  "date_redac": "2026-11-08T17:45:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 725,
+   "sortie": 510
+  }
+ },
+ {
+  "id": "48d65e2d4b762eee",
+  "slug": "rumeur-la-feuille-de-route-de-moonshot-pour-kimi-jusqu-a-k4-48d65e",
+  "titre": "Rumeur : la feuille de route de Moonshot pour Kimi jusqu'à K4",
+  "resume": "Une rumeur relayée sur r/LocalLLaMA esquisse la feuille de route de Moonshot. Fin 2026, Kimi K3 Flash remplacerait Kimi K2.8 et viendrait concurrencer DeepSeek V4.1 Flash. Début 2027, Kimi 3.5 conserverait 3 000 milliards de paramètres, avec des réponses simples atteintes plus vite. Au troisième trimestre 2027, Kimi K4 monterait à 5 400 milliards de paramètres.",
+  "tags": [
+   "deepseek",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xr2t4c/rumor_moonshot_kimi_roadmap/",
+  "date_source": "2026-11-08T16:45:50+00:00",
+  "date_redac": "2026-11-08T17:45:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 738,
+   "sortie": 704
+  }
+ },
+ {
   "id": "50879c27bd760549",
   "slug": "deux-pc-pour-un-seul-gros-modele-moe-comment-repartir-gpu-et-ram-50879c",
   "titre": "Deux PC pour un seul gros modèle MoE : comment répartir GPU et RAM",

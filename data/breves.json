@@ -1,5 +1,133 @@
 [
  {
+  "id": "1fbdc18f64ebb1df",
+  "slug": "stanford-fait-plancher-ses-etudiants-sur-de-vrais-depots-open-source-1fbdc1",
+  "titre": "Stanford fait plancher ses étudiants sur de vrais dépôts open source",
+  "resume": "Pour la deuxième édition de son cours CS146S, Stanford a fait appel à Mihail Eric, qui a intégré des mainteneurs open source au programme. Les étudiants doivent apprendre un dépôt qu'ils ne connaissent pas encore, puis y proposer une modification. La question qui structure le cours : quel exercice donner quand un agent de code peut expédier le devoir de l'an dernier en un seul prompt ?",
+  "tags": [
+   "agents",
+   "dev",
+   "open-source",
+   "skills"
+  ],
+  "importance": 2,
+  "source": "Latent Space",
+  "lien_source": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+  "date_source": "2026-11-08T21:23:29+00:00",
+  "date_redac": "2026-11-08T21:32:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 667,
+   "sortie": 645
+  }
+ },
+ {
+  "id": "15c0ff3cd915d09c",
+  "slug": "pytorch-mamba-1-et-nccl-portes-sur-de-vieux-gpu-nvidia-sous-windows-15c0ff",
+  "titre": "PyTorch, Mamba-1 et NCCL portés sur de vieux GPU NVIDIA sous Windows",
+  "resume": "Un développeur rend la pile d'entraînement moderne des LLM utilisable sous Windows sur de vieux GPU NVIDIA, du SM 3.5 au SM 7.5. Au programme : un build maison de PyTorch 2.7.1 compilé avec CUDA 11.8 conservant le SASS d'origine, causal-conv1d 1.7.0, Mamba-1 en kernels CUDA natifs et un NCCL Windows pour l'entraînement multi-GPU sur cartes Kepler. Les tests ont été menés sur une Tesla K40c de 2013.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xr97iz/resurrecting_2013_ewaste_native_cuda_mamba1/",
+  "date_source": "2026-11-08T21:09:11+00:00",
+  "date_redac": "2026-11-08T21:32:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 901,
+   "sortie": 869
+  }
+ },
+ {
+  "id": "52128cd3b9550393",
+  "slug": "nvidia-enquete-sur-la-relation-de-son-pdg-avec-une-possible-espionne-c-52128c",
+  "titre": "Nvidia enquête sur la relation de son PDG avec une possible espionne chinoise",
+  "resume": "Nvidia ouvre une enquête sur la relation entre son PDG, Jensen Huang, et une personne présentée comme un possible espion chinois. Dans une note adressée à l'entreprise, le dirigeant reconnaît avoir eu une liaison. L'affaire est révélée par TechCrunch le 8 novembre.",
+  "tags": [
+   "business",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+  "date_source": "2026-11-08T21:00:11+00:00",
+  "date_redac": "2026-11-08T21:32:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 649,
+   "sortie": 943
+  }
+ },
+ {
+  "id": "f10d4ce08bfeccfb",
+  "slug": "openclaw-2026-11-2-ecarte-les-secrets-des-journaux-de-diagnostic-f10d4c",
+  "titre": "OpenClaw 2026.11.2 écarte les secrets des journaux de diagnostic",
+  "resume": "OpenClaw 2026.11.2 durcit les frontières de confiance : secrets de configuration, contenu des conversations, erreurs d'outils et charges utiles des canaux sont exclus des journaux de diagnostic, et les autorisations MCP sont libérées après les tours CLI. Côté livraison, l'identité de l'expéditeur et du compte est préservée lors des reprises et envois planifiés, et le routage Teams survit au rechargement.",
+  "tags": [
+   "openclaw",
+   "sécurité",
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.2",
+  "date_source": "2026-11-08T20:27:09+00:00",
+  "date_redac": "2026-11-08T21:33:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 861,
+   "sortie": 1198
+  }
+ },
+ {
+  "id": "a21297f163e98eb6",
+  "slug": "llm-local-un-retour-apres-deux-ans-d-absence-sur-une-rtx-a6000-a21297",
+  "titre": "LLM local : un retour après deux ans d'absence sur une RTX A6000",
+  "resume": "Après une pause entre 2024 et 2025, un développeur de r/LocalLLaMA veut remettre sa machine à niveau pour faire tourner des modèles en local. Configuration : RTX A6000 48 Go de GDDR6, 64 Go de DDR4-3200, Xeon E3-1270 v5 et Ubuntu 22.04 sous Lambda Stack. Le poste servait jusqu'ici au chat via OpenWebUI. Il demande des conseils pour choisir sa stack d'inférence et son modèle, citant vLLM et Qwen.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xr85xd/vllm_qwen_27b_or_strata_qwen_flash_next_or/",
+  "date_source": "2026-11-08T20:24:26+00:00",
+  "date_redac": "2026-11-08T21:33:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 846,
+   "sortie": 893
+  }
+ },
+ {
+  "id": "4968c109b68cf641",
+  "slug": "nvidia-ouvre-une-enquete-sur-jensen-huang-et-une-cadre-liee-a-un-espio-4968c1",
+  "titre": "Nvidia ouvre une enquête sur Jensen Huang et une cadre liée à un espionnage chinois",
+  "resume": "Nvidia annonce l'ouverture d'une enquête sur son PDG, Jensen Huang, et sur sa relation avec Alice Huang, cadre chez Megaspeed. Selon les informations rapportées, cette dernière aurait été recrutée par le ministère de la Sécurité de l'État chinois pour espionner l'entreprise. Le conseil d'administration de Nvidia indique dans un communiqué lancer une enquête indépendante.",
+  "tags": [
+   "business",
+   "sécurité",
+   "société"
+  ],
+  "importance": 4,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+  "date_source": "2026-11-08T20:22:39+00:00",
+  "date_redac": "2026-11-08T21:33:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 662,
+   "sortie": 720
+  }
+ },
+ {
   "id": "8493a461ddb8d479",
   "slug": "un-dataset-gpt-5-5-de-25-milliards-de-tokens-avec-12-121-appels-d-outi-8493a4",
   "titre": "Un dataset GPT-5.5 de 25 milliards de tokens, avec 12 121 appels d'outils",

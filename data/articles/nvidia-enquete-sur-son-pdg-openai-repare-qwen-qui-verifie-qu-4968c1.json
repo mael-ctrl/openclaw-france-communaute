@@ -1,0 +1,41 @@
+{
+ "slug": "nvidia-enquete-sur-son-pdg-openai-repare-qwen-qui-verifie-qu-4968c1",
+ "titre": "Nvidia enquête sur son PDG, OpenAI répare Qwen : qui vérifie quoi",
+ "chapo": "Nvidia lance une enquête indépendante sur la relation entre son PDG Jensen Huang et une cadre présentée comme un possible espion chinois. Pendant ce temps, OpenAI corrige un modèle rival en retouchant directement ses paramètres, et sa valorisation atteint 1 250 milliards de dollars.",
+ "html": "<h2 id=\"l-enquete-qui-vise-le-sommet\">L'enquête qui vise le sommet</h2>\n<p>Le conseil d'administration de Nvidia annonce l'ouverture d'une enquête indépendante sur son PDG, Jensen Huang, et sur sa relation avec Alice Huang, cadre chez Megaspeed. Selon les informations rapportées, cette dernière aurait été recrutée par le ministère de la Sécurité de l'État chinois pour espionner l'entreprise.</p>\n<p>Dans une note adressée à l'entreprise, le dirigeant reconnaît avoir eu une liaison. L'affaire a été révélée par TechCrunch le 8 novembre. Le communiqué du conseil ne va pas plus loin : ni conclusion, ni calendrier, ni mesure conservatoire annoncée.</p>\n<p>Ce qui rend le dossier inhabituel, c'est son périmètre. L'enquête ne porte pas sur un prestataire ou un sous-traitant, mais sur le dirigeant lui-même, dans une entreprise dont la position sur les puces d'IA en fait un acteur stratégique. Les deux dépêches s'accordent sur les faits bruts ; ni l'une ni l'autre ne mentionne de poursuite engagée à ce stade.</p>\n<h2 id=\"un-modele-qui-retouche-les-parametres-d-\">Un modèle qui retouche les paramètres d'un autre</h2>\n<p>Côté cybersécurité, Numerama réunit trois dossiers. Le premier concerne GPT-6 Astra : le modèle d'OpenAI corrigerait Qwen, un autre modèle, en retouchant directement ses paramètres, sans réentraînement. La précision compte — il n'est pas question d'apprentissage supplémentaire, mais d'une intervention sur les paramètres eux-mêmes.</p>\n<p>Deuxième dossier : PostgreSQL 19 prend du retard à cause du nombre de bugs que l'IA lui signale. Le lien de cause à effet est explicite dans la dépêche : c'est le volume de signalements produit par l'IA qui ralentit la sortie du projet open source.</p>\n<p>Troisième : OpenAI affirme avoir industrialisé la recherche de failles dans le noyau Linux. L'IA n'y sert plus à écrire du code, mais à en trouver les défauts — y compris, donc, dans des modèles et des bases qui ne sont pas les siens.</p>\n<h2 id=\"1-250-milliards-et-un-rival-qui-prepare-\">1 250 milliards, et un rival qui prépare son entrée</h2>\n<p>Selon Bloomberg, OpenAI atteint une valorisation de 1 250 milliards de dollars après une nouvelle levée de fonds de 11 milliards. Cela en ferait l'une des entreprises les plus valorisées au monde. La dépêche rappelle un tour de 122 milliards bouclé en mars, sur une base de 852 milliards : la progression est rapide.</p>\n<p>Son rival Anthropic approcherait par ailleurs de son introduction en bourse. Deux trajectoires distinctes : l'un lève encore du capital privé, l'autre préparerait son passage sur les marchés.</p>\n<h2 id=\"openclaw-2026-11-2-les-secrets-sortent-d\">OpenClaw 2026.11.2 : les secrets sortent des journaux</h2>\n<p>La version 2026.11.2 d'OpenClaw durcit les frontières de confiance. Concrètement, les secrets de configuration, le contenu des conversations, les erreurs d'outils et les charges utiles des canaux sont exclus des journaux de diagnostic. Le détail paraît technique ; il l'est moins qu'il n'y paraît. Un journal de diagnostic se lit, se transmet, se colle dans un ticket.</p>\n<p>La version corrige aussi la gestion des autorisations MCP, libérées après les tours CLI. Côté livraison, l'identité de l'expéditeur et du compte est préservée lors des reprises et des envois planifiés, et le routage Teams survit au rechargement.</p>\n<p>Trois correctifs de plomberie, du genre qui ne se remarquent que le jour où ils manquent — et qui portent tous sur la même chose : ce qu'un système accepte de laisser sortir de lui.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches de la semaine tournent autour d'une même question : qui vérifie quoi. Nvidia confie la vérification à un conseil indépendant, OpenAI industrialise la recherche de failles et retouche les paramètres d'un modèle qui n'est pas le sien, OpenClaw ferme l'accès des journaux aux secrets. À chaque fois, la même mécanique : des capacités qui progressent plus vite que les garde-fous censés les encadrer. La valorisation à 1 250 milliards repose précisément sur la promesse que ces garde-fous tiendront.</p>",
+ "pivot": "4968c109b68cf641",
+ "tags": [
+  "sécurité",
+  "openai",
+  "business",
+  "openclaw"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2369365-gpt-6-astra-repare-qwen-sans-le-reentrainer-postgresql-19-prend-du-retard-a-cause-de-lia-openai-industrialise-la-chasse-aux-failles-de-linux-on-vous-raconte-la-semaine-cyberguerre.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
+  },
+  {
+   "nom": "OpenClaw (releases)",
+   "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.2"
+  }
+ ],
+ "date": "2026-11-08T21:33:45+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1562,
+  "sortie": 3537
+ }
+}

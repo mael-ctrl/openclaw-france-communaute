@@ -1,5 +1,11 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Point podcast — 8 novembre 2026, clôture de l'édition du 7
+
+**P3 : épisode du 7 publié et vérifié le 8 à 21:21 UTC**, trois sujets, **114,024490 s**, voix Amélie après timeout de Denise ; script/sources/index au commit `e04a96e`, 304 tests locaux. Page canonique, RSS et MP3 exacts en HTTPS ; 18 GUID uniques. [Recette et preuves](podcast-2026-11-07.md).
+
+**Incident P9 conservé :** run `42473537205`, 305 tests réussis puis limite **45 min** atteinte le 8 à 11:57 UTC, pipeline annulé et sauvegarde ignorée ; 1 639 transferts journalisés, audio seulement pour cette édition. Repli SFTP tenté mais interrompu sur timeout : pas un déploiement déclaré réussi. Le descendant `42506312029` a ensuite réussi à **18:20:51 UTC**, avec page/flux/audio transférés et sauvegarde `6a5a0e4` confirmée. **Prochaine étape :** traiter durée/reprise/conservation après annulation et divergence du clone partagé ; ne pas recréer l'épisode ni confondre cette publication avec une réparation générale du pipeline. Les bilans historiques ci-dessous restent datés de leurs propres relevés.
+
 ## État courant — bilan du 6 novembre, vérifié le 7 novembre 2026
 
 **Cette synthèse prévaut sur les états historiques ci-dessous.** Revue prévue le **06/11 à 21 h CET**, dispatch différé au **07/11 à 17:04:32 CET**. Période principale : journée locale du 6, soit `[05/11 23:00, 06/11 23:00)` UTC. Les sondes du 7 sont distinctes, non antidatées. Pull partagé tenté le 7 à **17:09:31**, refusé (128) : **dix commits locaux distincts / quatre distants**, données modifiées. Livraison documentaire en worktree propre sur **`4913b103f40b01bc93168226ae18ec1c514f1961`**, pull réussi ici seulement ; aucune fusion, réparation ou suppression des variantes.

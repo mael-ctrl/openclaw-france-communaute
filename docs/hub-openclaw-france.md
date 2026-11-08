@@ -1043,6 +1043,43 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-07/hub-navigation-mobile/`.
 
+## Navigation tablette sans débordement de l’entête — livraison du 08/11/2026
+
+- **Une amélioration** : étendre à 1000 px le retour à la ligne natif de
+  l’entête, auparavant limité à 760 px. Défaut reproduit sur l’accueil public
+  à **761, 768, 820 et 900 px** : marque et bouton de téléchargement sortaient
+  du cadre de l’entête de hauteur fixe, même sans débordement horizontal.
+  La marque et les liens restent désormais dans leur cadre ; cibles de 44 px
+  minimum et entête non fixe sur tablette. Les règles du contenu et du pied
+  restent au seuil mobile de 760 px. Aucun texte, script ou kit modifié.
+- Deux nouveaux tests échouent avant correction puis passent ; **307 tests OK**
+  dans la suite complète. Chrome avec et sans JavaScript : **154 contrôles
+  locaux et 154 publics**, sur les sept pages utilisant la feuille commune,
+  à 1440, 1024, 1001, 1000, 900, 820, 768, 761, 760, 390 et 360 px.
+  Vérifications : marque et liens dans l’entête, aucun chevauchement ni
+  débordement horizontal, hauteur tactile et focus clavier. **Huit parcours
+  par environnement** depuis l’accueil jusqu’au téléchargement réel des ZIP
+  (deux kits, 768/390 px, avec/sans JavaScript), archives identiques aux sources.
+  Aucune installation de logiciel prétendue.
+- Bureau toujours inaccessible (`Resource deadlock avoided`, Git non lisible) ;
+  clone partagé en conflits laissé intact. Clone cron dédié synchronisé avant
+  modification. Déploiement par `python3 outils/deployer_openclaw.py` depuis
+  `~/.hermes/workspaces/hub-openclaw-20261003`, sauvegarde privée et comparaison
+  préalable ; **36 fichiers relus via FTP**, identiques aux sources. Dates/modes
+  des sources de kits restaurés : ZIP et manifeste inchangés octet pour octet.
+- **Six URL de santé en HTTP 200** ; contrôle étendu de **13 URL en 200**,
+  dont CSS, manifeste, sitemap et clé. Un délai dépassé curl sur `/cgv/` a
+  nécessité une reprise ; contrôle final complet réussi. Entêtes HTML publics
+  conformes ; ZIP intègres (CRC), SHA-256 et fichiers non HTML vérifiés.
+  CSS versionnée et sitemap actualisé sur sept pages. **IndexNow HTTP 200**
+  pour ces pages : notification acceptée, pas preuve d’indexation ni de croissance.
+- **Aucune nouvelle distribution** : quota Bluesky hebdomadaire occupé par
+  le post du 02/11 (`3mzcujcddsa22`). Fil public relu en HTTP 200 : zéro réponse.
+  Aucun message, formulaire ni relance. Prochaine priorité : contrôler l’accès
+  direct au contenu au clavier sur les pages principales.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-08/hub-navigation-tablette/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

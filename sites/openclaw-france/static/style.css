@@ -192,8 +192,8 @@ footer{margin-top:40px;border-top:1px solid var(--carte-bord);background:rgba(0,
   display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
 }
 
-@media (max-width:760px){
-  /* Liens visibles sans JavaScript ; entête non fixe pour libérer le contenu. */
+@media (max-width:1000px){
+  /* Mobile et tablette : les liens et la marque restent dans leur entête. */
   .entete{position:static}
   .entete .wrap{
     height:auto;min-height:64px;flex-wrap:wrap;gap:12px;
@@ -201,6 +201,9 @@ footer{margin-top:40px;border-top:1px solid var(--carte-bord);background:rgba(0,
   }
   .nav{display:flex;flex-basis:100%;margin-left:0;flex-wrap:wrap;gap:4px 16px}
   .nav a{display:inline-flex;align-items:center;min-height:44px}
+}
+
+@media (max-width:760px){
   .pied{grid-template-columns:1fr 1fr}
   .heros{padding-top:48px}
 }

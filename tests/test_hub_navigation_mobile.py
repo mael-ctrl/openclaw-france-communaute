@@ -10,7 +10,7 @@ ROUTES=("index.html","openclaw/index.html","hermes/index.html","gratuit/index.ht
 class HubNavigationMobileTest(unittest.TestCase):
     def setUp(self):
         self.css=(SITE/"static/style.css").read_text()
-        self.mobile=self.css.split("@media (max-width:760px){",1)[1]
+        self.mobile=self.css.split("@media (max-width:1000px){",1)[1]
 
     def test_navigation_mobile_visible_et_retour_a_la_ligne(self):
         self.assertNotRegex(self.mobile,r"\.nav\s*\{[^}]*display\s*:\s*none")
@@ -28,7 +28,7 @@ class HubNavigationMobileTest(unittest.TestCase):
         for route in ROUTES:
             with self.subTest(route=route):
                 html=(SITE/route).read_text()
-                self.assertTrue("href=\"/static/style.css?v=20261107-nav\"" in html, "Stylesheet cache version missing")
+                self.assertTrue("href=\"/static/style.css?v=20261108-tablette\"" in html, "Stylesheet cache version missing")
                 nav=re.search(r"<nav class=\"nav\"[^>]*>(.*?)</nav>",html,re.S).group(1)
                 self.assertIn("href=\"/openclaw/\"",nav)
                 self.assertIn("href=\"/hermes/\"",nav)

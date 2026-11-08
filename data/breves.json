@@ -1,5 +1,130 @@
 [
  {
+  "id": "50879c27bd760549",
+  "slug": "deux-pc-pour-un-seul-gros-modele-moe-comment-repartir-gpu-et-ram-50879c",
+  "titre": "Deux PC pour un seul gros modèle MoE : comment répartir GPU et RAM",
+  "resume": "Un utilisateur de r/LocalLLaMA cherche comment mutualiser deux PC pour faire tourner de gros modèles MoE. Le premier combine 94 Go de DDR5 et deux GPU (5070 Ti + 3060 12 Go) sur une carte mère conçue pour le double GPU ; le second n'a que 64 Go de DDR4. Il envisage de les relier en Ethernet 5-10 Gb via le RPC de llama.cpp et hésite à déplacer la 3060 dans la machine DDR4, pour viser une quantification élevée.",
+  "tags": [
+   "matériel",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xqn4nb/two_pcs_but_one_with_only_ram_or_divide_gpus/",
+  "date_source": "2026-11-08T02:04:12+00:00",
+  "date_redac": "2026-11-08T02:53:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 786,
+   "sortie": 1323
+  }
+ },
+ {
+  "id": "54abab3a53a42643",
+  "slug": "openclaw-publie-la-version-2026-11-2-de-son-projet-54abab",
+  "titre": "OpenClaw publie la version 2026.11.2 de son projet",
+  "resume": "OpenClaw annonce la sortie de la version 2026.11.2, publiée sur GitHub le 8 novembre 2026. La note de version se limite au numéro de version et ne détaille aucun changement : ni correctifs, ni nouveautés ne sont mentionnés dans l'extrait. Le lien de publication renvoie directement à la page de la release sur le dépôt du projet, point d'entrée pour les développeurs qui en suivent les mises à jour.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.2",
+  "date_source": "2026-11-08T01:51:42+00:00",
+  "date_redac": "2026-11-08T02:53:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 593,
+   "sortie": 500
+  }
+ },
+ {
+  "id": "0e2ffd37979092ce",
+  "slug": "un-benchmark-de-code-perturbe-par-de-petits-changements-d-enonce-0e2ffd",
+  "titre": "Un benchmark de code perturbé par de petits changements d'énoncé",
+  "resume": "Sur r/LocalLLaMA, un utilisateur relaie un tweet sur un benchmark de code : 89 tâches DeepSWE ont été modifiées légèrement, dans les instructions ou le code de départ. Des modèles qui tournaient tous autour de 74 % sur DeepSWE se retrouvent séparés par 23 points de pourcentage sur ces versions modifiées. Le point notable : certains modèles semblent ignorer les instructions réelles, persuadés qu'un correcteur caché attend autre chose. Les exemples cités incluent GLM-5.3 et DeepSeek V4.1 Flash.",
+  "tags": [
+   "deepseek",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xqmr2i/saw_this_benchmark_where_small_changes_to_coding/",
+  "date_source": "2026-11-08T01:44:51+00:00",
+  "date_redac": "2026-11-08T02:53:13+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 753,
+   "sortie": 177
+  }
+ },
+ {
+  "id": "10b259154a01ab57",
+  "slug": "openclaw-corrige-la-validation-des-credits-dans-les-notes-de-publicati-10b259",
+  "titre": "OpenClaw corrige la validation des crédits dans les notes de publication",
+  "resume": "OpenClaw corrige la validation des crédits dans les notes de publication sélectionnées. Les contrôles d'attribution des candidats se limitent à la section de release résolue et au relevé de contribution figé ; le vérificateur global du dépôt reste inchangé. Les tests compactent la fixture des notes en gardant les dix cas de régression, et le plafond de lignes inchangé passe sur le snapshot CI qui avait échoué.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F5e1a27a9bcc4-1794101135",
+  "date_source": "2026-11-08T01:25:12+00:00",
+  "date_redac": "2026-11-08T02:53:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 762,
+   "sortie": 1452
+  }
+ },
+ {
+  "id": "faa17ccc9ee46799",
+  "slug": "datasette-cesse-d-envoyer-l-en-tete-rel-next-a-firefox-faa17c",
+  "titre": "Datasette cesse d'envoyer l'en-tête rel=next à Firefox",
+  "resume": "Simon Willison a repéré dans la console réseau de Firefox que les pages de table Datasette déclenchaient un préchargement HTTP de la page de résultats suivante. En cause : l'en-tête `link: <...>; rel=\"next\"` servi par Datasette. Le navigateur va donc chercher des données que seule une infime partie des visiteurs consultera, et le serveur rend une page entière pour rien. Il corrige en ne servant plus cet en-tête à Firefox sur les pages HTML, le temps qu'un bug ouvert depuis 24 ans côté Mozilla soit traité.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+  "date_source": "2026-11-07T23:57:46+00:00",
+  "date_redac": "2026-11-08T02:53:25+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 800,
+   "sortie": 342
+  }
+ },
+ {
+  "id": "4cdcfc9589a6e52d",
+  "slug": "16-go-de-vram-suffisent-ils-pour-faire-tourner-des-agents-ia-utiles-4cdcfc",
+  "titre": "16 Go de VRAM suffisent-ils pour faire tourner des agents IA utiles ?",
+  "resume": "Un utilisateur de r/LocalLLaMA cherche des retours de ceux qui font tourner des agents, harnesses ou outils en local sur 16 Go de VRAM. Il veut un agent d'assistance pour le quotidien, un agent de recherche et un agent développeur. Goose, Hermes Agent et OpenCode ne lui ont rien donné de convaincant, faute d'ajustements. Il demande donc cas d'usage, modèles et réglages.",
+  "tags": [
+   "agents",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xqjenw/anyone_running_local_ai_on_16gb_vram/",
+  "date_source": "2026-11-07T23:00:19+00:00",
+  "date_redac": "2026-11-08T02:53:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 788,
+   "sortie": 841
+  }
+ },
+ {
   "id": "73286da838649922",
   "slug": "codex-publie-la-preversion-rust-v0-169-0-alpha-3-73286d",
   "titre": "Codex publie la préversion rust-v0.169.0-alpha.3",

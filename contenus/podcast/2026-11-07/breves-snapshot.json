@@ -1,0 +1,173 @@
+{
+  "sha": "4913b103f40b01bc93168226ae18ec1c514f1961",
+  "retrieved_at": "2026-11-07T16:09:03.721088+00:00",
+  "breves_sha256": "d0b72727e950ef8f5bdfdd123003c5373b3e962d80386f653846b0c119d27e63",
+  "breves": [
+    {
+      "id": "b323d717347fed52",
+      "slug": "la-chine-aurait-recrute-une-cadre-de-megaspeed-pour-espionner-jensen-h-b323d7",
+      "titre": "La Chine aurait recruté une cadre de Megaspeed pour espionner Jensen Huang",
+      "resume": "D'après le New York Times, le ministère chinois de la Sécurité d'État a recruté Alice Huang, cadre de Megaspeed, afin d'espionner le PDG de Nvidia, Jensen Huang. L'objectif : glaner des informations sur les puces IA américaines et, potentiellement, peser sur l'entreprise pour qu'elle rende ses processeurs les plus avancés disponibles en Chine. L'affaire touche directement le dossier des exportations de composants IA vers la Chine.",
+      "tags": [
+        "sécurité",
+        "business",
+        "matériel"
+      ],
+      "importance": 3,
+      "source": "The Verge IA",
+      "lien_source": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "date_source": "2026-11-06T23:00:44+00:00",
+      "date_redac": "2026-11-07T02:18:47+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 659,
+        "sortie": 537
+      }
+    },
+    {
+      "id": "955c3015f85147ad",
+      "slug": "six-palettes-de-materiel-nvidia-a-11-4-m-volees-en-route-vers-le-texas-955c30",
+      "titre": "Six palettes de matériel NVIDIA à 11,4 M$ volées en route vers le Texas",
+      "resume": "Six palettes de matériel NVIDIA, d'une valeur totale de 11,4 millions de dollars, ont été volées lors de leur transport vers le Texas. L'information est relayée sur le subreddit r/LocalLLaMA. Le montant du lot donne la mesure de la valeur que représente désormais le matériel de calcul destiné à l'IA.",
+      "tags": [
+        "matériel",
+        "sécurité",
+        "business"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xpqx1p/six_pallets_of_nvidia_hardware_worth_114_million/",
+      "date_source": "2026-11-06T23:03:21+00:00",
+      "date_redac": "2026-11-07T02:18:42+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 625,
+        "sortie": 798
+      }
+    },
+    {
+      "id": "de41e529393b7d11",
+      "slug": "openai-valorisee-1-250-milliards-de-dollars-anthropic-approche-de-son--de41e5",
+      "titre": "OpenAI valorisée 1 250 milliards de dollars, Anthropic approche de son IPO",
+      "resume": "Selon Bloomberg, OpenAI atteint une valorisation de 1 250 milliards de dollars après une nouvelle levée de fonds de 11 milliards. Cela en ferait l'une des entreprises les plus valorisées au monde, peu après un tour de 122 milliards bouclé en mars sur une base de 852 milliards. Son rival Anthropic approcherait par ailleurs de son introduction en bourse.",
+      "tags": [
+        "openai",
+        "business"
+      ],
+      "importance": 4,
+      "source": "The Verge IA",
+      "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "date_source": "2026-11-06T23:46:18+00:00",
+      "date_redac": "2026-11-07T02:18:36+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 668,
+        "sortie": 388
+      }
+    },
+    {
+      "id": "7659c586d425ef09",
+      "slug": "openclaw-autorise-une-derogation-performance-pour-la-version-2026-11-2-7659c5",
+      "titre": "OpenClaw autorise une dérogation performance pour la version 2026.11.2",
+      "resume": "La release OpenClaw portant le correctif efb980423985 intègre une dérogation dite « performance-only » pour la version 2026.11.2, autorisée par Dallin Romney le 7 novembre 2026 à 00h28 UTC. Le correctif impose de conserver les échecs bruts ainsi que toutes les barrières de release non liées à ce périmètre. La modification est co-signée par RomneyDa.",
+      "tags": [
+        "openclaw",
+        "dev",
+        "open-source"
+      ],
+      "importance": 2,
+      "source": "OpenClaw (releases)",
+      "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fefb980423985-1794011730",
+      "date_source": "2026-11-07T00:35:14+00:00",
+      "date_redac": "2026-11-07T02:18:33+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 676,
+        "sortie": 590
+      }
+    },
+    {
+      "id": "542c23b0fddedd4d",
+      "slug": "crusoe-cede-son-projet-de-data-center-du-wyoming-a-google-542c23",
+      "titre": "Crusoe cède son projet de data center du Wyoming à Google",
+      "resume": "Crusoe cède à Google son projet de centre de données dans le Wyoming, rapporte TechCrunch. Le projet était en difficulté, sans que la source précise les causes. Pour TechCrunch, l'opération met surtout en lumière les obstacles du développement des très grands centres de calcul dédiés à l'IA.",
+      "tags": [
+        "business",
+        "matériel"
+      ],
+      "importance": 3,
+      "source": "TechCrunch IA",
+      "lien_source": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "date_source": "2026-11-07T01:40:28+00:00",
+      "date_redac": "2026-11-07T02:18:13+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 604,
+        "sortie": 631
+      }
+    },
+    {
+      "id": "f25d1cebe86e80fe",
+      "slug": "qwen2-0-5b-sur-r-localllama-les-questions-a-un-mini-modele-font-rire-f25d1c",
+      "titre": "Qwen2 0,5B : sur r/LocalLLaMA, les questions à un mini-modèle font rire",
+      "resume": "Sur le subreddit r/LocalLLaMA, un utilisateur partage son amusement à poser des questions à un modèle de 0,5 milliard de paramètres. Le modèle en question est Qwen2 0,5B, dans une quantification Q4_K_M, et l'auteur reconnaît lui-même qu'il est censé être aussi limité, tout en trouvant le résultat comique. Le titre original du fil parle d'échanges « hilarants ».",
+      "tags": [
+        "open-source",
+        "dev"
+      ],
+      "importance": 1,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xp8as6/asking_questions_to_a_05b_model_is_hillarious/",
+      "date_source": "2026-11-06T09:07:37+00:00",
+      "date_redac": "2026-11-06T10:12:55+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 647,
+        "sortie": 1092
+      }
+    },
+    {
+      "id": "b623ae73cbf1b494",
+      "slug": "apres-les-midterms-2026-quel-avenir-pour-l-ia-locale-aux-etats-unis-b623ae",
+      "titre": "Après les midterms 2026, quel avenir pour l'IA locale aux États-Unis",
+      "resume": "Les démocrates ont largement remporté les midterms de 2026 et les actions technologiques ont chuté : beaucoup de candidats promettaient de réguler les centres de données et l'IA. La question posée sur r/LocalLLaMA : quel effet pour l'IA locale aux États-Unis ? La régulation pousserait-elle les grands acteurs vers le matériel des utilisateurs, ou freinerait-elle aussi les modèles que l'on fait tourner chez soi ?",
+      "tags": [
+        "société",
+        "business",
+        "matériel",
+        "open-source"
+      ],
+      "importance": 2,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xp8e3y/following_the_2026_us_elections_how_do_you_think/",
+      "date_source": "2026-11-06T09:13:32+00:00",
+      "date_redac": "2026-11-06T10:12:48+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 708,
+        "sortie": 912
+      }
+    },
+    {
+      "id": "94cb29234759b96e",
+      "slug": "samsung-teste-une-ia-qui-estime-le-risque-de-maladie-renale-via-la-gal-94cb29",
+      "titre": "Samsung teste une IA qui estime le risque de maladie rénale via la Galaxy Watch",
+      "resume": "Depuis octobre 2026, l'hôpital Seoul St. Mary's teste sur 50 participants une application d'IA qui estime le risque de maladie rénale chronique. L'outil croise des bilans de santé, des données génétiques et les relevés d'une Galaxy Watch. Samsung Electronics figure parmi les partenaires du projet.",
+      "tags": [
+        "matériel",
+        "recherche",
+        "société"
+      ],
+      "importance": 3,
+      "source": "Frandroid",
+      "lien_source": "https://www.frandroid.com/marques/samsung/3313219_galaxy-watch-samsung-teste-une-ia-pour-reperer-les-maladies-renales-avant-les-symptomes",
+      "date_source": "2026-11-06T09:17:12+00:00",
+      "date_redac": "2026-11-06T10:12:42+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 689,
+        "sortie": 619
+      }
+    }
+  ]
+}

@@ -1,5 +1,17 @@
 # Journal des actions de monétisation
 
+## 9 novembre 2026 — diagnostic du droit Stripe, sans nouvelle écriture
+
+**Action préparatoire unique :** qualifier la reprise du correctif de retour Pack après le refus du 7, sans retenter une mutation pour provoquer une nouvelle erreur.
+
+- Première découverte HTTP 401 ; un seul renouvellement natif a rétabli l'accès sans intervention, puis catalogue et lien Pack relus. **Le schéma de l'opération exige `payment_links_write`** ; ce droit requis n'est pas la preuve qu'il manque à la session. Le scope générique `mcp` et la présence de l'outil d'écriture ne permettent pas de conclure. **Cause précise du 403 toujours inconnue**, ancien corps non récupéré.
+- Objet du lien **entièrement identique** à la relecture du 7 : actif/live, retour encore sur l'ancien domaine. Liste complète : un article, quantité un, **14 EUR**, produit/prix attendus, non récurrent. Seule différence de représentation avec l'ancienne liste : produit développé auparavant, ID seul aujourd'hui ; après projection d'identité, tous les autres champs correspondent. Aucune nouvelle lecture de sa description complète, aucun appel aux ventes ni revenu attribué.
+- **Reprise officielle désormais ciblée :** [Workbench → journaux MCP](https://dashboard.stripe.com/workbench/logs/mcp), appel du **7 novembre vers 16:11 UTC**, outil `stripe_api_write`, opération de mise à jour du lien Pack ; y lire la réponse avant toute modification des droits. Le catalogue expose aussi `manage_stripe_accounts` pour la gestion native des permissions, **non appelé en cron**. Pas de révocation, nouvelle clé, élargissement d'accès, nouvelle URL de consentement ni retry d'écriture. Le navigateur réel a refusé l'accès au profil verrouillé ; aucun onglet Stripe existant trouvé par le repli ciblé. Aucun journal Dashboard lu, Chrome laissé intact.
+
+Sources officielles Stripe MCP/Workbench et schéma courant conservés dans le dossier privé `crabe-chantiers/monetisation/2026-11-09-stripe-permissions/diagnostic-et-reprise.md`. Helper existant réutilisé sans modification ; repérage `stripe/ai` (MIT selon API, push observé le 09/11), aucun code adopté. Observations API/HTTPS à **16:33–16:36 UTC**. Clone partagé conflictuel préservé ; seul ce journal publié depuis un worktree documentaire propre après pull réussi, sans déploiement/dispatch.
+
+**Limites et suite :** B2B 200 / mentions 404 à 16:36 UTC ; vendeur/TVA et autres prérequis fermés. L'ADN occupe déjà la distribution du jour : aucune promotion, sollicitation ou transaction supplémentaire. Prix, site et réglages Stripe inchangés. Lire l'erreur dans le journal officiel, puis seulement qualifier les droits et revalider la base de la correction limitée au retour. Aucune réparation du 403 ni hausse de conversion revendiquée ; ne pas refaire cette enquête sans nouvelle preuve.
+
 ## 7 novembre 2026 — configuration Stripe relue, retour canonique non appliqué
 
 *Contrôles Stripe/HTTPS effectués le 7 à 16:08–16:11 UTC ; clôture documentaire reprise le **8 novembre**, premier push vérifié à **11:00:56 UTC** (`817c8b2`). Les dix contrôles de clôture portent sur ces captures sauvegardées, pas sur une nouvelle lecture Stripe le 8. Le clone partagé a évolué entre les deux relevés ; aucune immobilité de son état ni résolution de sa divergence n'est revendiquée.*

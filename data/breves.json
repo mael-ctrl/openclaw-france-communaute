@@ -1,5 +1,130 @@
 [
  {
+  "id": "4e04497426499604",
+  "slug": "codex-preversion-alpha-0-169-0-alpha-4-pour-la-brique-rust-4e0449",
+  "titre": "Codex : préversion alpha 0.169.0-alpha.4 pour la brique Rust",
+  "resume": "Le projet Codex publie la préversion 0.169.0-alpha.4, étiquetée rust, sur son dépôt GitHub. La note de version tient en une ligne — « Release 0.169.0-alpha.4 » — sans détail sur les changements apportés. Il s'agit d'une version alpha : une étape de test destinée aux développeurs qui suivent le projet de près, publiée le 9 novembre 2026.",
+  "tags": [
+   "openai",
+   "dev",
+   "agents"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.4",
+  "date_source": "2026-11-09T05:37:54+00:00",
+  "date_redac": "2026-11-09T05:58:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 603,
+   "sortie": 714
+  }
+ },
+ {
+  "id": "e802911c7de81abb",
+  "slug": "nvidia-le-conseil-enquete-sur-jensen-huang-sonnenfeld-voit-un-50-50-e80291",
+  "titre": "Nvidia : le conseil enquête sur Jensen Huang, Sonnenfeld voit un 50-50",
+  "resume": "Le conseil d'administration de Nvidia enquête sur Jensen Huang au sujet de sa relation avec une personne soupçonnée d'être un espion chinois. Jeffrey Sonnenfeld, de Yale, estime à « environ 50-50 » la probabilité que Huang reste directeur général. Nvidia fournissant des puces pour l'IA, l'incertitude dépasse largement l'entreprise.",
+  "tags": [
+   "business",
+   "matériel",
+   "sécurité"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+  "date_source": "2026-11-09T05:26:29+00:00",
+  "date_redac": "2026-11-09T05:59:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 663,
+   "sortie": 1167
+  }
+ },
+ {
+  "id": "841a664cf283ac87",
+  "slug": "claude-opus-5-5-modelise-en-3d-sans-three-js-en-vanilla-js-et-webgl-841a66",
+  "titre": "Claude Opus 5.5 modélise en 3D sans Three.js, en Vanilla JS et WebGL",
+  "resume": "Simon Willison a fabriqué un œuf de Fabergé sur le thème des nudibranches avec Three.js, puis a demandé à Claude Opus 5.5 de le porter en Vanilla JS, dans le même fil de discussion. Le modèle a produit une version fonctionnelle en WebGL sans Three.js. Les deux rendus ne sont pas identiques, et Willison avoue ne pas bien comprendre pourquoi. Il trouve toutefois le code Three.js un peu plus lisible à l'œil.",
+  "tags": [
+   "claude",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+  "date_source": "2026-11-09T04:32:33+00:00",
+  "date_redac": "2026-11-09T05:59:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 827,
+   "sortie": 448
+  }
+ },
+ {
+  "id": "2bd6507753943a13",
+  "slug": "simon-willison-les-descriptions-de-pr-ecrites-par-les-agents-ia-sont-t-2bd650",
+  "titre": "Simon Willison : les descriptions de PR écrites par les agents IA sont trop bavardes",
+  "resume": "Simon Willison reçoit désormais la plupart des modifications de ses projets sous forme de pull requests ouvertes par Claude Code ou Codex. Le problème : les agents rédigent des descriptions de PR exactes et complètes — problème, solution détaillée, étapes de vérification — mais trop longues à absorber. « Je ne vais pas lire tout ça », résume-t-il, même quand l'information est utile.",
+  "tags": [
+   "agents",
+   "dev",
+   "claude"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Nov/9/details-summary/",
+  "date_source": "2026-11-09T04:25:05+00:00",
+  "date_redac": "2026-11-09T05:59:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 771,
+   "sortie": 750
+  }
+ },
+ {
+  "id": "af26bc86cacd6e2a",
+  "slug": "torchlens-inspecter-et-visualiser-les-operations-d-un-reseau-de-neuron-af26bc",
+  "titre": "Torchlens : inspecter et visualiser les opérations d'un réseau de neurones",
+  "resume": "Un dépôt GitHub nommé Torchlens propose d'inspecter, de visualiser et d'intervenir sur n'importe quelle opération dans n'importe quel réseau de neurones. Le projet a été relayé sur le forum r/LocalLLaMA par l'utilisateur u/Thrumpwart. L'outil vise donc celles et ceux qui veulent suivre le détail des calculs d'un modèle, opération par opération, plutôt que de s'en tenir à ses seules entrées et sorties.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xrh5iz/github_repo_torchlens_inspect_visualize_and/",
+  "date_source": "2026-11-09T03:25:32+00:00",
+  "date_redac": "2026-11-09T05:59:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 624,
+   "sortie": 633
+  }
+ },
+ {
+  "id": "72fda8d49ff433d8",
+  "slug": "crewai-1-15-39-documente-l-erreur-apps-not-connected-sur-kickoff-et-st-72fda8",
+  "titre": "CrewAI 1.15.39 documente l'erreur apps_not_connected sur /kickoff et /status",
+  "resume": "La version 1.15.39 de CrewAI est une mise à jour de documentation : elle documente désormais l'erreur apps_not_connected telle qu'elle peut apparaître sur /kickoff et /status. Les notes de version ne mentionnent que cet ajout de documentation, sans autre changement. La contribution est signée João Moura. Pour les développeurs qui font tourner des agents avec CrewAI, l'erreur dispose maintenant d'une explication officielle dans la doc.",
+  "tags": [
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "CrewAI (releases, préversions incluses)",
+  "lien_source": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.39",
+  "date_source": "2026-11-09T01:07:14+00:00",
+  "date_redac": "2026-11-09T05:59:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 614,
+   "sortie": 550
+  }
+ },
+ {
   "id": "1fbdc18f64ebb1df",
   "slug": "stanford-fait-plancher-ses-etudiants-sur-de-vrais-depots-open-source-1fbdc1",
   "titre": "Stanford fait plancher ses étudiants sur de vrais dépôts open source",

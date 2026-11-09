@@ -1,0 +1,41 @@
+{
+ "slug": "jensen-huang-un-espion-suppose-et-un-conseil-en-enquete-e80291",
+ "titre": "Jensen Huang, un espion supposé et un conseil en enquête",
+ "chapo": "Le conseil d'administration de Nvidia a lancé une enquête sur son PDG, Jensen Huang, au sujet de sa relation avec une personne présentée comme un possible espion chinois. Le dirigeant reconnaît une liaison, et un professeur de Yale chiffre à « environ 50-50 » ses chances de rester en poste.",
+ "html": "<h2 id=\"ce-que-dit-le-conseil-ce-que-dit-le-pdg\">Ce que dit le conseil, ce que dit le PDG</h2>\n<p>Nvidia annonce l'ouverture d'une enquête sur son PDG, Jensen Huang, et sur sa relation avec Alice Huang, une cadre de Megaspeed, rapporte The Verge. Selon les informations rapportées, cette dernière aurait été recrutée par le ministère de la Sécurité de l'État chinois pour espionner l'entreprise. Le conseil d'administration indique dans un communiqué lancer une enquête indépendante.</p>\n<p>La formulation de TechCrunch est plus prudente : Nvidia enquête sur la relation entre son dirigeant et « une personne présentée comme un possible espion chinois ». Dans une note adressée à l'entreprise, Jensen Huang reconnaît avoir eu une liaison. L'affaire a été révélée par TechCrunch le 8 novembre.</p>\n<p>Deux récits d'un même épisode, donc, avec un point commun : l'enquête est en cours, et ni le conseil ni la direction n'ont annoncé de conclusion.</p>\n<h2 id=\"un-50-50-qui-depasse-nvidia\">Un 50-50 qui dépasse Nvidia</h2>\n<p>Jeffrey Sonnenfeld, de Yale, avance une estimation : « environ 50-50 » de probabilité que Jensen Huang reste directeur général. C'est un pronostic cité comme tel, pas une décision — le conseil n'a rien tranché.</p>\n<p>Ce qui donne du poids à l'affaire, c'est le périmètre de l'entreprise. Nvidia fournit des puces pour l'IA, et TechCrunch note que l'incertitude dépasse largement Nvidia. La question ne se limite donc pas à la gouvernance d'un fabricant de semi-conducteurs.</p>\n<p>Il faut mesurer ce que l'on ne sait pas. Les dépêches ne disent rien de la nature exacte de la relation au-delà de la liaison reconnue, ni du calendrier de l'enquête indépendante, ni de ce qu'elle pourrait établir.</p>\n<h2 id=\"cote-cyber-modeles-bugs-et-failles\">Côté cyber : modèles, bugs et failles</h2>\n<p>Numerama récapitule trois actualités cyber de la semaine. OpenAI d'abord : un modèle, GPT-6 Astra, corrige un autre modèle, Qwen, en retouchant directement ses paramètres, sans réentraînement. L'opération porte sur les paramètres, pas sur une nouvelle passe d'entraînement.</p>\n<p>PostgreSQL 19 ensuite : le projet open source majeur prend du retard à cause du nombre de bugs que l'IA lui signale. Le volume de signalements a un coût, même quand il est utile.</p>\n<p>Enfin, OpenAI affirme avoir industrialisé la recherche de failles dans le noyau Linux — autrement dit, être passé d'un exercice ponctuel à un processus outillé.</p>\n<h2 id=\"openclaw-2026-11-2-durcit-ses-frontieres\">OpenClaw 2026.11.2 durcit ses frontières de confiance</h2>\n<p>La version 2026.11.2 d'OpenClaw resserre ce qui peut sortir et ce qui doit rester. Secrets de configuration, contenu des conversations, erreurs d'outils et charges utiles des canaux sont désormais exclus des journaux de diagnostic. Les autorisations MCP sont libérées après les tours CLI.</p>\n<p>Côté livraison, l'identité de l'expéditeur et du compte est préservée lors des reprises et des envois planifiés, et le routage Teams survit au rechargement.</p>\n<p>Des détails d'ingénierie, mais qui disent quelque chose de précis : ce qui circule dans les journaux et ce qui circule dans les canaux n'obéissent pas aux mêmes règles de visibilité.</p>\n<h2>Et maintenant ?</h2>\n<p>Les deux dossiers n'ont aucun lien entre eux. Ils posent pourtant la même question de confiance : qui a accès à quoi, et pendant combien de temps. D'un côté, un conseil d'administration qui doit établir des faits sur une relation personnelle devenue problème de sécurité ; de l'autre, un logiciel qui retire par défaut des données sensibles de ses propres journaux. Dans les deux cas, la réponse ne viendra pas d'une déclaration mais d'une procédure — et les procédures prennent du temps.</p>",
+ "pivot": "e802911c7de81abb",
+ "tags": [
+  "business",
+  "sécurité",
+  "openai",
+  "openclaw"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2369365-gpt-6-astra-repare-qwen-sans-le-reentrainer-postgresql-19-prend-du-retard-a-cause-de-lia-openai-industrialise-la-chasse-aux-failles-de-linux-on-vous-raconte-la-semaine-cyberguerre.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
+  },
+  {
+   "nom": "OpenClaw (releases)",
+   "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.2"
+  }
+ ],
+ "date": "2026-11-09T05:59:40+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1576,
+  "sortie": 3653
+ }
+}

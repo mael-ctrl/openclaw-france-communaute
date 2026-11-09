@@ -1,5 +1,34 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## État courant — 9 novembre 2026, revue du soir
+
+**Cette synthèse prévaut sur les relevés historiques conservés ci-dessous.** Revue prévue à 21 h CET, dispatch à 21:38 ; pull partagé à **21:50 refusé (128)**, six fichiers non fusionnés et journal indexé, préservés. Worktree documentaire propre : pull réussi ici seulement. Base des mesures **`ae27e977c4658660d184f21bedd1e81ce688743d`** ; fenêtre Git/créations GitHub arrêtée à **23:03:52 CET** (`08/11 23:00 → 09/11 22:03:52 UTC`). Complément podcast `cd99d7f` repris avant édition à 23:20 ; HTTPS relevé séparément à **23:05–23:20 CET**.
+
+**Bilan : dix commits dans la fenêtre, puis un complément documentaire podcast ; 21 runs = un succès, dix-neuf annulations pendant pipeline avec sauvegarde ignorée, un en cours.** Des fonctions sont bien publiées, mais le catalogue servi diverge encore du cloud : **24 URL de brèves / 528 articles au sitemap**, contre **1 833 enregistrements de brèves / 526 chemins d'articles Git**, dont **huit absents du sitemap**. Version/sitemap identiques au build local de 08:14:59 UTC ; cela ne prouve pas la disparition des HTML. **Priorité : fiabiliser l'exploitation avant une nouvelle préparation lourde.**
+
+| Chantier | État observé le 09/11 | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | 🔴 **13 URL News uniques dans les 48 h**, catalogue divergent ci-dessus. Pydantic AI ajouté : **30 flux OPML exacts** ; dernier IndexNow du journal cloud 200 à 06:38:08 UTC. Job du matin `unknown`, sans sortie du jour | **10/11 :** réconcilier les variantes et empêcher la republication d'une base dépassée ; contrôler après clôture du run existant. Ne pas réintégrer la source ; acceptation ≠ indexation |
+| P2 — Site | ✅ Retour newsletter `016f963` présent en HTTPS. **CSS commune clôturée sur 2 390 pages** selon la capture exhaustive du chantier relue ; 314 Python/huit Node et 390 contrôles publics consignés, non rejoués ici | Ne refaire ni lien ni CSS. Consigner la clôture dans le dossier dédié resté au statut initial ; requalifier cache/compression seulement après la priorité d'exploitation |
+| P3 — Podcast | ✅ Épisode du 9 : **750 384 octets MP3 identiques à Git**, script exact, **19 GUID uniques** ; publication page/flux par repli SFTP, pipeline non réparé | Préserver audio/GUID ; suivre le run existant sans doublon. Durée/reprise/sauvegarde cloud ouvertes ; chaîne/annuaires non attestés. [Preuves](podcast-2026-11-09.md) |
+| P4 — Newsletter | 🔶 Retour au formulaire livré ; ce patch n’est plus en attente. Dernier décompte attesté **03/11 : zéro abonné** ; aucun nouveau contrôle d'abonnés ni envoi attesté | Avant l'hebdo du 10 : liste complète des abonnés confirmés, expéditeur/consentement/désinscription éprouvés ; aucun envoi déduit du formulaire |
+| P5 — Monétisation | 🔶 KPI du 9 : **0 € sur ses seules 24 h**, cumul indisponible par attribution incomplète. Lecture Stripe opérationnelle ; cause du 403 d'écriture non démontrée. B2B 200/mentions 404 | **Action humaine unique : confirmer l'entité vendeuse et son régime de TVA.** Diagnostiquer le refus dans les logs, sans élargir les permissions à l'aveugle ; prospection B2B fermée |
+| P6 — Presse / distribution | 🔶 Une proposition éditoriale L'ADN consignée `1893718` : SMTP accepté/copie relue selon le chantier, réception et intérêt non confirmés. Deux courriers, distribution et trois piaille silencieux | Quota du 9 consommé ; suivre les réponses sans renvoyer. Silence ≠ permission/retombée ; déduplication avant prochain créneau |
+| P7 — Record | 🔴 **Dix-neuf sauvegardes cloud ignorées** dans la fenêtre ; sauvegarde locale refusée. Anomalies historiques de chaîne non recalculées | Préserver histoires/sceaux ; qualifier conservation durable et reprise, sans réparation rétroactive ni certification déduite du succès voisin |
+| P8 — Skool | 🔶 Promo semaine 46 préparée. Brouillon du 9 : dispatch `unknown`, aucune sortie ni fichier daté trouvé ; **18/22 ancien**, non recompté | Diagnostiquer l'exécution existante, pas une relance aveugle. Prochaine session authentifiée : M6/membres/publications ; brouillon ≠ publication |
+| P9 — Organisation / exploitation | 🔴 **Pull refusé → 586 envois rapportés → sauvegarde refusée**, malgré cron `ok/completed`. Wrapper inchangé. Trois remises privées, **1 596 références revérifiées intactes** ; candidat cloud non activé | **Priorité interne du 10 :** garde minimale, préservation/reprise Git et statut cron réel ; puis durée/reprise/export durable cloud. **1 414 467 584 octets libres** à 23:20 : copies bornées, aucune purge ici |
+| P10 — Affiliation / hub | ✅ Accès clavier `87d502d` publié, **CSS HTTPS exacte** et lien d'évitement présent ; 317 tests/42 parcours publics consignés, non rejoués ici. Aucun programme/commission attesté | Ne pas réappliquer le patch préparatoire complet ; requalifier séparément le reliquat grille à 320 px sur cette base. Installation des kits et affiliation restent distinctes |
+
+### Une seule action humaine — identité vendeuse
+
+**Message exact :** « Maël, confirme en une réponse l'entité juridique qui vend le Pack et les prestations du Crabe, ainsi que son régime de TVA. Cette validation est nécessaire pour finaliser l'identité vendeuse et les mentions avant toute prospection B2B. »
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si cette absence de validation bloque l'ouverture commerciale.** Message et destinataire exacts dans `crabe-chantiers/gouvernance/2026-11-09/revue-2150/escalade-mael.txt`, hors dépôt public ; **préparé, non envoyé**. Pas de reconnexion Stripe demandée : lecture, refus d'écriture et attribution sont trois sujets distincts. Les autres prérequis commerciaux restent cumulatifs, sans accord du silence.
+
+**Mesure : 1 264 IP uniques estimées le 8 (+55,3 % par rapport au 7)**, média + hub, robots identifiés exclus ; pas des personnes certifiées ni le trafic du 9. [Bilan détaillé](ceo-log.md#2026-11-09--bilan-du-soir-livraisons-utiles-catalogue-divergent). Seuls les deux documents de pilotage sont publiés ; aucun cron, déploiement, email, paiement ou post déclenché par cette revue. Livraison locale uniquement, jamais Discord.
+
+---
+
 ## Point podcast — 9 novembre 2026, publication par repli ciblé
 
 **P3 : édition du 9 publiée**, quatre sujets sourcés, **125,064 s**, voix Denise ; commit `ae27e97`, **318 tests locaux et cloud**. Page, RSS et MP3 exacts en HTTPS à **22:04:31 UTC**, 19 GUID uniques. [Sources, recette et incident détaillé](podcast-2026-11-09.md).
@@ -12,7 +41,7 @@
 
 **Clôture SEO #6 en cours, pas une seconde intégration :** le premier dispatch `42531609851` a été annulé pendant pipeline, sauvegarde ignorée. Descendant `42570031159` réussi, mais le recontrôle du 09 à 09:54–09:55 UTC trouve encore **sept pages communes avec l'ancien lien CSS**. 2 391 HTML lus : 2 383 avec CSS intégrée exacte, sept anciens et un échantillon B2B autonome sans CSS commune (hors périmètre). Captures conservées ; ne pas déduire la clôture publique du seul succès cloud. Suite : recontrôler les sept cibles après la publication, puis requalifier le chantier #7 cache/compression, non livré. Aucun lot d'exploitation ni archive historique activé.
 
-## État courant — 8 novembre 2026, revue du soir
+## État antérieur — 8 novembre 2026, revue du soir
 
 **Cette synthèse prévaut sur les états historiques ci-dessous.** Revue prévue à 21 h CET, dispatch à 21:24 ; fenêtre Git/créations GitHub figée à **23:35:51 CET** (`07/11 23:00 → 08/11 22:35:51 UTC`). Pull partagé tenté à 23:33, **refusé (128)** : six fichiers non fusionnés et journal indexé ; rebase et variantes préservés. Worktree documentaire propre sur **`5b9f49d5c1ac1bd6a6c0310cfb035f0c55366d13`**, pull réussi ici seulement. HTTPS contrôlé séparément vers **23:38 CET**.
 

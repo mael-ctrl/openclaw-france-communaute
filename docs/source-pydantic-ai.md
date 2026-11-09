@@ -54,3 +54,31 @@ de recette reprise en production. OPML reparsé et comparé exactement aux
 
 Preuves privées : `crabe-chantiers/croissance/2026-11-09/evidence/`.
 Au commit initial : publication cloud et vérification HTTPS encore à confirmer.
+
+## Publication ciblée vérifiée à 18:42 UTC
+
+Configuration, contrat et document initial poussés au commit
+`ecbc22f60156bc4082bdac4b8644333b8de3b996` ; les trois blobs ont été relus
+identiques sur `main`. Dispatch `42654473443` : contrats réussis, puis annulation
+pendant le pipeline constatée au relevé de 18:42 UTC ; clôture et sauvegarde de ce
+run non acquises. Son prédécesseur `42652402065` avait également été annulé pendant
+le pipeline à 16:57 UTC, sauvegarde ignorée. Aucune annulation manuelle ni changement
+de cadence. Un descendant conservant le catalogue est en cours au relevé final.
+
+Le premier préflight SFTP a **refusé toute écriture** : l'export et le compteur
+servis ne contenaient que 28 sources, dont CrewAI absent malgré sa livraison
+précédente. Capture conservée, catalogue rapproché exactement de la base historique
+`e04a96e28217bc1341788ad0ffb12068f1d9863c` ; cause de cette régression non établie.
+Une recette séparée requalifie cette base, rétablit CrewAI déjà intégré et ajoute
+Pydantic AI. Cela ne résout pas la divergence du clone partagé.
+
+Deux cibles seulement : `/veille/sources.opml` et le compteur **28 → 30** de
+`/transparence/`, tous les autres octets de la page servie préservés. Clé hôte
+épinglée avant authentification, sauvegardes hors dépôt, contrôle de la base avant
+écriture, upload `.part` puis renommage et relecture SFTP exacte.
+**Deux lectures HTTPS canoniques strictes identiques à 18:42:41 UTC** : 30 entrées
+OPML uniques et compteur cohérent. Ni ce transfert ciblé ni l'export public ne
+prouvent une rédaction issue de la nouvelle source ou une sauvegarde cloud achevée.
+
+Preuves : `livraison-ciblee/` (refus conservé),
+`evidence/remote-base-requalified.json`, `livraison-ciblee-requalifiee/`.

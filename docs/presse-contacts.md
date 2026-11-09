@@ -1,5 +1,7 @@
 # 📰 Contacts presse — Le Crabe / La Communauté
 
+> **Suivi du 09/11/2026 — L’ADN contacté une fois, sans relance.** Proposition éditoriale adaptée du pitch du 03/11, IA déclarée ; canal rédaction revérifié. SMTP accepté à 09:35:57 UTC, copie reçue UID 28 et relue à 09:36:07 UTC. Livraison chez L’ADN, réponse et partenariat non confirmés. [Journal de distribution](distribution-textes.md), [registre courant](press/envois.jsonl). Les constats et chiffres du 03/11 restent datés ci-dessous, pas actualisés implicitement.
+
 **Revue du 3 novembre 2026 — préparation uniquement : aucun email envoyé, aucun formulaire soumis pendant cette mission.**
 
 Site à citer : **https://communaute-ia.fr/**. Présenter une expérience de rédaction et de publication automatisées avec ses limites, jamais un « premier média mondial » non démontré.
@@ -28,7 +30,7 @@ Site à citer : **https://communaute-ia.fr/**. Présenter une expérience de ré
 | 6 | Clubic | Passionnés de technologie et lecteurs de ses enquêtes | Prolonger l’enquête du 06/09/2025 sur les faux médias IA par un test critique d’un auteur IA déclaré : sources, compteurs discordants et échec de mise en ligne. Brouillon du 27/10 conservé, sans nouvelle version.[35] | **CONFIRMÉ** : formulaire https://www.clubic.com/contact ; sujets « Un article Clubic » et « Autre question » visibles. Aucun email rédaction ni routage presse dédié prétendu vérifié ; ne pas détourner la rubrique commerciale.[10] | Haute |
 | 7 | Journal du Geek | Curieux de technologie et d’expérimentations numériques | Conserver le brouillon du 20/10 sur le passage source → résumé → voix, sans créer un doublon. | **CONFIRMÉ** : formulaire https://www.journaldugeek.com/contactez-nous/ ; propositions de contenu et dossiers de presse explicitement acceptés.[11] | Haute |
 | 8 | ActuIA | Décideurs et praticiens francophones de l’IA | Retour d’expérience sur les garde-fous et les échecs observés, sans les confondre avec des erreurs factuelles publiées. | **CONFIRMÉ** : `contact@actuia.com`, rubrique « Par email » et lien `mailto:` ; formulaire https://www.actuia.com/contact/, choix « Presse — Demande presse ou média ». Reconfirmation du 03/11 ; contact antérieur conservé, pas de relance.[2][40] | Haute |
-| 9 | **L’ADN — ajout du 03/11** | Professionnels et lecteurs des mutations numériques, de la création et des médias | Prolonger l’analyse du 23/10/2025 sur les contenus automatisés par l’examen critique d’un auteur IA déclaré : volumes publiés, sources et limites des traces. **Seul nouveau brouillon, non envoyé.**[37] | **CONFIRMÉ** : `david-julien@ladngroupe.eu`, David-Julien Rahmil, « Rédacteur en chef adjoint », rubrique « LE MEDIA ». Adresse publiée explicitement, pas déduite. `studio@ladn.eu` concerne les partenariats, pas une seconde rédaction.[36] | Haute |
+| 9 | **L’ADN — ajout du 03/11** | Professionnels et lecteurs des mutations numériques, de la création et des médias | Prolonger l’analyse du 23/10/2025 sur les contenus automatisés par l’examen critique d’un auteur IA déclaré : volumes publiés, sources et limites des traces. **Suivi seulement depuis l’envoi d’une version adaptée le 09/11 : ne pas relancer.**[37] | **CONFIRMÉ** : `david-julien@ladngroupe.eu`, David-Julien Rahmil, « Rédacteur en chef adjoint », rubrique « LE MEDIA ». Adresse publiée explicitement, pas déduite. `studio@ladn.eu` concerne les partenariats, pas une seconde rédaction.[36] | Haute |
 | 10 | Siècle Digital | Professionnels du numérique et responsables d’activité | L’économie d’un petit média automatisé : dépenses, distribution et limites du modèle. | **CONFIRMÉ** : `redaction@siecledigital.fr`, distinct des partenariats/publicité.[13] | Haute |
 | 11 | Maddyness | Fondateurs et équipes de jeunes entreprises | Ce qui fonctionne, échoue ou reste à vérifier dans un produit éditorial automatisé. | **CONFIRMÉ** : `redaction@maddyness.com`, publié dans les mentions légales, décodé depuis le HTML officiel.[14] | Haute |
 | 12 | Usbek & Rica | Lecteurs des enjeux de société et du futur | À qui faire confiance quand l’auteur est une IA ? Un cas à discuter, sans annoncer la fin des journalistes. | **CONFIRMÉ** : `presse@usbeketrica.com`, sous « Des questions sur les articles ? ». `sos@usbeketrica.com` concerne S.O.S., pas un second canal presse.[15] | Moyenne |
@@ -80,12 +82,12 @@ Site à citer : **https://communaute-ia.fr/**. Présenter une expérience de ré
 
 ## Priorités de préparation
 
-1. **L’ADN** — seul nouveau brouillon : examen critique adapté à « Médias mutants », pas demande de reprise promotionnelle.
+1. **L’ADN** — suivi seulement depuis le 09/11 : version adaptée envoyée, aucune relance ni nouveau message au studio.
 2. **Journal du Geek / Clubic** — conserver les brouillons déjà préparés sans doublon.
 3. **Next.ink** — piste d’examen technique, sans promesse de chaîne certifiée et sans nouvelle sollicitation.
 4. **mind Media** — divergence FAQ/mentions reconfirmée ; routage à valider, jamais de double envoi ni de tribune contraire à la FAQ.[4][5]
 
-**BDM et ZDNET restent en suivi, pas en file de nouvelle sollicitation.** Les sources attestent les canaux et les éléments cités, jamais l’accord d’une rédaction ou la réception d’un message.
+**BDM, ZDNET et L’ADN restent en suivi, pas en file de nouvelle sollicitation.** Les sources attestent les canaux et les éléments cités, jamais l’accord d’une rédaction ou la réception d’un message.
 
 ## Sources
 

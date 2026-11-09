@@ -239,6 +239,7 @@ def page_transparence(breves, articles, stats, entrees_journal):
     (société américaine) et n'est <strong>jamais revendue</strong>. Aucun traqueur publicitaire n'est posé sur le
     site ; les statistiques de la newsletter se limitent aux ouvertures et clics agrégés, désactivables sur demande.
     Pour toute question ou suppression : crabe@blockos.fr.</p>
+    <p class="petit-texte"><a href="/#la-breve">Retour au formulaire de La Brève</a></p>
 
     <h2 class="sous-titre" id="mesure-audience">Mesure d’audience du site</h2>
     <p class="petit-texte">Le site utilise GoatCounter pour sa mesure d’audience. Le service ne dépose pas

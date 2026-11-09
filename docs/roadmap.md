@@ -1,5 +1,11 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Chantier site du 9 novembre — retour newsletter et suivi CSS
+
+**Une seule nouvelle intégration :** lien natif de Transparence vers le formulaire de La Brève, premier candidat prêt du relais P2. Base propre `1893718`, pull partagé refusé et conflits préservés. **314 tests Python + huit Node**, deux builds complets à horloge commune : **4 797 fichiers inchangés**, seul le lien ajouté à Transparence ; **716 entrées préservées**. **390 assertions navigateur / huit parcours sans JS**, clic et clavier à 320/1 280 px, zéro POST. [Dossier et limites](retour-newsletter.md). Au commit initial : publication cloud/HTTPS à confirmer ; aucun abonnement ni envoi créé.
+
+**Clôture SEO #6 en cours, pas une seconde intégration :** le premier dispatch `42531609851` a été annulé pendant pipeline, sauvegarde ignorée. Descendant `42570031159` réussi, mais le recontrôle du 09 à 09:54–09:55 UTC trouve encore **sept pages communes avec l'ancien lien CSS**. 2 391 HTML lus : 2 383 avec CSS intégrée exacte, sept anciens et un échantillon B2B autonome sans CSS commune (hors périmètre). Captures conservées ; ne pas déduire la clôture publique du seul succès cloud. Suite : recontrôler les sept cibles après la publication, puis requalifier le chantier #7 cache/compression, non livré. Aucun lot d'exploitation ni archive historique activé.
+
 ## État courant — 8 novembre 2026, revue du soir
 
 **Cette synthèse prévaut sur les états historiques ci-dessous.** Revue prévue à 21 h CET, dispatch à 21:24 ; fenêtre Git/créations GitHub figée à **23:35:51 CET** (`07/11 23:00 → 08/11 22:35:51 UTC`). Pull partagé tenté à 23:33, **refusé (128)** : six fichiers non fusionnés et journal indexé ; rebase et variantes préservés. Worktree documentaire propre sur **`5b9f49d5c1ac1bd6a6c0310cfb035f0c55366d13`**, pull réussi ici seulement. HTTPS contrôlé séparément vers **23:38 CET**.

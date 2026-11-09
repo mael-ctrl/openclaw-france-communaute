@@ -1,5 +1,11 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Point podcast — 9 novembre 2026, publication par repli ciblé
+
+**P3 : édition du 9 publiée**, quatre sujets sourcés, **125,064 s**, voix Denise ; commit `ae27e97`, **318 tests locaux et cloud**. Page, RSS et MP3 exacts en HTTPS à **22:04:31 UTC**, 19 GUID uniques. [Sources, recette et incident détaillé](podcast-2026-11-09.md).
+
+**P9 reste ouvert :** run `42682841756` annulé à la limite **45 min** (annotation GitHub confirmée), pipeline interrompu à **20:08:33 UTC**, sauvegarde ignorée. **1 639 transferts réels**, dont l'audio, mais pas les deux sorties podcast ; les dix transferts simulés des tests sont exclus. Repli SFTP à 22:04 sur page/flux seulement, sauvegardes et relecture exacte, audio non réécrit. Le run `42706452433` était en cours au contrôle final : pas de succès revendiqué. **Suite :** traiter durée/reprise/conservation cloud et conflits du clone partagé ; ne pas confondre publication rétablie et pipeline réparé, ni recréer l'épisode.
+
 ## Chantier site du 9 novembre — retour newsletter et suivi CSS
 
 **Une seule nouvelle intégration :** lien natif de Transparence vers le formulaire de La Brève, premier candidat prêt du relais P2. Base propre `1893718`, pull partagé refusé et conflits préservés. **314 tests Python + huit Node**, deux builds complets à horloge commune : **4 797 fichiers inchangés**, seul le lien ajouté à Transparence ; **716 entrées préservées**. **390 assertions navigateur / huit parcours sans JS**, clic et clavier à 320/1 280 px, zéro POST. [Dossier et limites](retour-newsletter.md). Au commit initial : publication cloud/HTTPS à confirmer ; aucun abonnement ni envoi créé.

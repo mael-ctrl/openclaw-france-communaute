@@ -1080,6 +1080,42 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-08/hub-navigation-tablette/`.
 
+## Accès direct au contenu au clavier — livraison du 09/11/2026
+
+- **Une amélioration** : lien « Aller au contenu » en première tabulation sur
+  l’accueil, OpenClaw, Hermes, Gratuit, Témoignages et CGV. Le lien du guide
+  existant est conservé. Les sept cibles `<main id="contenu">` reçoivent
+  `tabindex="-1"` : Entrée transfère le focus au contenu, puis Tab atteint son
+  premier lien sans reparcourir l’entête. Lien révélé au focus, marge de
+  défilement sous l’entête fixe ; fonctionnement natif, sans JavaScript ajouté.
+  Aucun texte éditorial, script d’installation ni fichier de kit modifié.
+- Trois nouveaux tests échouent avant correction puis passent ; suite complète
+  **317 tests OK**. Chrome avec et sans JavaScript : **42 parcours locaux et
+  42 publics** sur sept pages à 1440, 768 et 360 px. Première tabulation,
+  visibilité du lien, activation par Entrée, focus réel sur main, titre non
+  masqué, tabulation suivante dans le contenu et absence de débordement vérifiés.
+  Ces contrôles ne constituent pas un audit complet d’accessibilité.
+- Bureau inaccessible (`Resource deadlock avoided`, Git non lisible) ; clone
+  partagé en conflits laissé intact. Déploiement par
+  `python3 outils/deployer_openclaw.py` depuis le clone dédié hors Bureau
+  `~/.hermes/workspaces/hub-openclaw-20261003`, après sauvegarde privée et
+  comparaison production/Git. Un délai FTP dépassé pendant la sauvegarde a
+  nécessité une reprise avant toute écriture. **36 fichiers relus via FTP**,
+  identiques aux sources après déploiement. Dates/modes des sources restaurés
+  avant régénération : ZIP et manifeste inchangés octet pour octet.
+- **Six URL de santé en HTTP 200** ; contrôle étendu de **13 URL en 200**,
+  entêtes HTML publics conformes, ZIP intègres et inchangés, CSS et fichiers
+  de contrôle identiques. CSS versionnée et sitemap actualisé sur sept pages.
+  **IndexNow HTTP 200** pour ces sept URL : notification acceptée, pas preuve
+  d’indexation ni de hausse du trafic.
+- **Aucune distribution supplémentaire** : la démarche L’ADN du 09/11 à
+  09:35:57 UTC, inscrite dans `docs/distribution-textes.md` après synchronisation,
+  occupe déjà le quota du jour. Aucun post, message ou formulaire envoyé par
+  cette mission. Prochaine priorité : partager le guide sur Bluesky avec un
+  angle utile au prochain créneau autorisé, après nouveau contrôle anti-rejeu.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-09/hub-acces-clavier/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

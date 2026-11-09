@@ -33,6 +33,17 @@ a:hover{text-decoration:underline}
 img{max-width:100%}
 .wrap{max-width:var(--largeur);margin:0 auto;padding:0 20px}
 
+/* ---- accès direct au contenu, sans JavaScript ---- */
+.skip-link{
+  position:fixed;top:12px;left:12px;z-index:50;
+  max-width:calc(100% - 24px);padding:12px 18px;
+  background:var(--fond-2);color:var(--texte);
+  border:2px solid var(--accent);border-radius:10px;
+  transform:translateY(calc(-100% - 16px));
+}
+.skip-link:focus{transform:translateY(0);outline:3px solid var(--accent);outline-offset:2px}
+#contenu{scroll-margin-top:80px}
+
 /* ---- barre communauté ---- */
 .barre{
   display:block;padding:9px 16px;text-align:center;font-size:14px;

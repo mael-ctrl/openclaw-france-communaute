@@ -1,5 +1,128 @@
 [
  {
+  "id": "a94ef92514415105",
+  "slug": "codex-passe-en-0-167-1-sans-detail-sur-les-changements-a94ef9",
+  "titre": "Codex passe en 0.167.1, sans détail sur les changements",
+  "resume": "OpenAI met en ligne la version 0.167.1 de Codex, datée du 10 novembre 2026 à 21:33 UTC. Elle succède directement à la 0.167.0. Le changelog complet se résume à un lien de comparaison entre ces deux tags du dépôt : la note de version ne précise pas ce qui a été modifié.",
+  "tags": [
+   "openai",
+   "dev",
+   "agents"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.167.1",
+  "date_source": "2026-11-10T21:33:57+00:00",
+  "date_redac": "2026-11-10T22:07:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 609,
+   "sortie": 646
+  }
+ },
+ {
+  "id": "52a0dd101dccd3ed",
+  "slug": "apple-preparerait-une-app-mac-pour-simplifier-l-ia-en-local-52a0dd",
+  "titre": "Apple préparerait une app Mac pour simplifier l'IA en local",
+  "resume": "D'après un fil publié sur r/LocalLLaMA le 10 novembre 2026, Apple travaillerait sur une nouvelle application Mac dont l'objectif est de rendre simple l'exécution de modèles d'IA en local. Le post ne précise ni les fonctionnalités prévues, ni les modèles compatibles, ni de date de disponibilité. La publication est signée de l'utilisateur themixtergames et renvoie à un lien externe.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xszbe7/apple_has_new_mac_app_coming_to_make_running/",
+  "date_source": "2026-11-10T21:30:36+00:00",
+  "date_redac": "2026-11-10T22:07:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 617,
+   "sortie": 884
+  }
+ },
+ {
+  "id": "bb6f6e33fd0aa6f7",
+  "slug": "nvidia-confie-a-joon-h-kim-l-enquete-interne-sur-jensen-huang-bb6f6e",
+  "titre": "Nvidia confie à Joon H. Kim l'enquête interne sur Jensen Huang",
+  "resume": "Nvidia a choisi Joon H. Kim, ancien procureur fédéral de Manhattan réputé pour sa fermeté, pour mener l'enquête interne sur son propre patron, Jensen Huang. Ce profil poids lourd est présenté comme un moyen de rassurer Washington et Wall Street. L'annonce intervient une semaine avant les résultats trimestriels du groupe, sous haute tension.",
+  "tags": [
+   "business",
+   "sécurité",
+   "matériel"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/nvidia/3318305_qui-est-joon-kim-lancien-procureur-choisi-par-nvidia-pour-enqueter-sur-jensen-huang",
+  "date_source": "2026-11-10T21:20:20+00:00",
+  "date_redac": "2026-11-10T22:07:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 689,
+   "sortie": 138
+  }
+ },
+ {
+  "id": "0d281e7cf8fe6ea2",
+  "slug": "gemini-cli-0-68-0-validation-des-extensions-et-correctifs-windows-0d281e",
+  "titre": "Gemini CLI 0.68.0 : validation des extensions et correctifs Windows",
+  "resume": "La version 0.68.0 de Gemini CLI est disponible. Elle ajoute une commande de validation des extensions, avec des tests d'évaluation. Côté correctifs, la recherche de fichiers pour l'autocomplétion @ normalise les slashs en tête de requête, isWithinRoot devient insensible à la casse sous Windows et les modèles Gemini 3 à point sont reconnus pour les réponses multimodales.",
+  "tags": [
+   "gemini",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Gemini CLI (releases, préversions incluses)",
+  "lien_source": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0",
+  "date_source": "2026-11-10T21:17:07+00:00",
+  "date_redac": "2026-11-10T22:07:44+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 839,
+   "sortie": 1228
+  }
+ },
+ {
+  "id": "3aeed0ae8084333c",
+  "slug": "un-agent-prefere-emuler-le-jeu-plutot-que-decompiler-need-for-speed-3aeed0",
+  "titre": "Un agent préfère émuler le jeu plutôt que décompiler Need for Speed",
+  "resume": "Sur r/LocalLLaMA, un utilisateur raconte avoir demandé à son agent hermes (deux Sparks sous glm 5.3 flash, un MacBook Air) de décompiler puis recompiler Need for Speed Special Edition pour MS-DOS. Le modèle a d'abord répondu qu'il connaissait mieux : passer par DOSBox pour lancer le jeu, et il avait déjà commencé à installer un émulateur. Relancé, il prévient que le travail sera long et demande confirmation.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xsytlk/my_ai_is_lazier_than_me/",
+  "date_source": "2026-11-10T21:11:05+00:00",
+  "date_redac": "2026-11-10T22:07:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 810,
+   "sortie": 978
+  }
+ },
+ {
+  "id": "618a3d390701bbf6",
+  "slug": "openai-rachete-odessia-la-start-up-voyage-de-francis-davidson-618a3d",
+  "titre": "OpenAI rachète Odessia, la start-up voyage de Francis Davidson",
+  "resume": "OpenAI a racheté Odessia, une start-up du voyage créée par Francis Davidson, le fondateur de Sonder. Le groupe n'a pas encore indiqué ce qu'il compte faire dans le secteur du tourisme. Davidson est une figure connue de l'industrie du voyage, ce qui donne un relief particulier à cette acquisition.",
+  "tags": [
+   "openai",
+   "business"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+  "date_source": "2026-11-10T21:08:52+00:00",
+  "date_redac": "2026-11-10T22:07:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 628,
+   "sortie": 551
+  }
+ },
+ {
   "id": "748085e9a94b3c96",
   "slug": "gemini-cli-0-69-0-preview-0-une-commande-stats-pour-suivre-ses-tokens-748085",
   "titre": "Gemini CLI 0.69.0-preview.0 : une commande /stats pour suivre ses tokens",

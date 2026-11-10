@@ -1,0 +1,41 @@
+{
+ "slug": "un-fork-fait-cohabiter-rtx-5090-et-igpu-strix-halo-dans-un-s-a34227",
+ "titre": "Un fork fait cohabiter RTX 5090 et iGPU Strix Halo dans un seul moteur",
+ "chapo": "Un développeur a forké Project MAYA pour faire tourner un même modèle sur une RTX 5090 et un iGPU Strix Halo : CUDA et ROCm travaillent dans le même processus. En parallèle, Nvidia enquête sur son directeur général et OpenAI retouche les poids de Qwen sans réentraînement.",
+ "html": "<h2 id=\"deux-backends-un-seul-processus\">Deux backends, un seul processus</h2>\n<p>Le point de départ est un manque d'outillage. Aucun moteur ne sait faire tourner un modèle simultanément sur un GPU Nvidia et un iGPU AMD : <strong>vLLM se limite à un seul constructeur</strong>, et le backend Vulkan de llama.cpp <strong>bride le prefill sur RTX 5090</strong>. Un développeur a donc forké le moteur Project MAYA plutôt que d'attendre une hypothétique prise en charge en amont.</p>\n<p>La répartition choisie est chirurgicale. Sur <strong>GLM-5.3-Flash Maya-M GGUF</strong>, le fork sépare prefill et decode : le backend CUDA prend en charge l'attention, les couches denses et le cache d'experts, tandis que le backend ROCm exécute les experts complémentaires — le tout dans le même processus. Le titre du billet annonce <strong>jusqu'à 48 % de gain</strong>.</p>\n<p>L'intérêt dépasse le cas d'espèce. Le matériel hétérogène est déjà dans les machines des praticiens ; ce sont les moteurs qui refusent encore de le voir. Un fork de quelques jours comble ici un trou que ni vLLM ni llama.cpp ne couvrent.</p>\n<h2 id=\"comet-60b-des-gguf-avec-tete-mtp\">Comet 60B : des GGUF avec tête MTP</h2>\n<p>Même camp, autre chantier : la conversion de formats. Felladrin a converti <strong>Comet_60B_A12B_BF16</strong>, la version compressée de Nemotron 3.5 Super signée Multiverse Computing, en GGUF lisibles par <strong>llama.cpp standard</strong>. Deux tailles sont disponibles : Q4_K_M à 42,6 Go et Q8_0 à 64,2 Go.</p>\n<p>Le détail qui compte : <strong>la tête MTP est conservée</strong>. On peut donc passer `--spec-type draft-mtp` à llama-server pour du décodage spéculatif. Une conversion qui préserve la fonctionnalité plutôt que de la raboter au passage.</p>\n<p>Reste une limite assumée : ces GGUF sont <strong>texte uniquement</strong>. Le tour de vision n'a pas été converti, et il faudra repasser par le format d'origine pour l'imagerie.</p>\n<h2 id=\"secrets-hors-journaux-failles-industrial\">Secrets hors journaux, failles industrialisées</h2>\n<p>Côté outillage, <strong>OpenClaw 2026.11.2</strong> durcit les frontières de confiance. Les secrets de configuration, le contenu des conversations, les erreurs d'outils et les charges utiles des canaux sont exclus des journaux de diagnostic. Les autorisations MCP sont libérées après les tours CLI. Côté livraison, l'identité de l'expéditeur et du compte est préservée lors des reprises et des envois planifiés, et le routage Teams survit au rechargement.</p>\n<p>La semaine cyber rapportée par Numerama va plus loin. <strong>GPT-6 Astra</strong>, un modèle d'OpenAI, corrige un autre modèle (Qwen) en retouchant directement ses paramètres, <strong>sans réentraînement</strong>. À l'inverse, PostgreSQL 19 prend du retard à cause du nombre de bugs que l'IA lui signale. Et OpenAI affirme avoir industrialisé la recherche de failles dans le noyau Linux.</p>\n<p>Deux mouvements symétriques : l'IA répare du code d'un côté, l'IA en casse l'agenda de l'autre.</p>\n<h2 id=\"nvidia-enquete-sur-jensen-huang\">Nvidia enquête sur Jensen Huang</h2>\n<p>Le conseil d'administration de Nvidia enquête sur <strong>Jensen Huang</strong>, au sujet de sa relation avec une personne soupçonnée d'être un espion chinois. Jeffrey Sonnenfeld, de Yale, estime à « environ 50-50 » la probabilité que Huang reste directeur général.</p>\n<p>Nvidia fournit des puces pour l'IA : l'incertitude dépasse largement l'entreprise. C'est la même chaîne matérielle que celle sur laquelle reposent les montages CUDA/ROCm décrits plus haut, du moins pour la moitié Nvidia.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches dessinent un déplacement : la valeur se logerait moins dans le modèle que dans la plomberie autour — répartition entre backends, conversion de formats, frontières de confiance. Un fork répond à un manque que ni vLLM ni llama.cpp ne couvrent ; un fichier GGUF bien converti rend un modèle 60B lisible par llama.cpp standard, tête MTP intacte. Mais ce socle repose sur des acteurs fragiles : un conseil qui pèse la position de son directeur général, un fournisseur de modèles devenu à la fois correcteur de poids et chasseur de failles dans le noyau Linux.</p>",
+ "pivot": "a34227a98da89165",
+ "tags": [
+  "openclaw",
+  "open-source",
+  "matériel",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsaurn/cudarocm_dualbackends_llm_inference_for/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2369365-gpt-6-astra-repare-qwen-sans-le-reentrainer-postgresql-19-prend-du-retard-a-cause-de-lia-openai-industrialise-la-chasse-aux-failles-de-linux-on-vous-raconte-la-semaine-cyberguerre.html"
+  },
+  {
+   "nom": "OpenClaw (releases)",
+   "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.2"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsbc2r/multiverse_computings_comet_60b_a12b_ggufs_with/"
+  }
+ ],
+ "date": "2026-11-10T03:07:49+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1686,
+  "sortie": 2833
+ }
+}

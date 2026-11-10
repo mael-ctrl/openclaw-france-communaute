@@ -3919,3 +3919,11 @@
 {"ts": "2026-11-09T06:38:38+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "facca3a5004a4b64828be9ec0a139b3ccfd30d2d915628a46f73bc3163475ac2"}
 {"ts": "2026-11-09T06:38:38+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-11-09.json", "publications": 2359}, "sha256": "31d1fd51a401a40852489c30209d6072f01fbc14a69a25fd0aad1dcccdb86476"}
 {"ts": "2026-11-09T06:38:38+00:00", "evenement": "bilan", "details": {"duree_s": 2460.1, "neufs": 14, "breves": 6, "articles": 1, "fichiers": 2398, "envois": 2449, "publications": 4}, "sha256": "54931af145e429d9a9f35700b940c44a119811480739dd189c0ac5b7961fc7f0"}
+{"ts": "2026-11-10T03:06:53+00:00", "evenement": "collecte", "details": {"neufs": 40}, "sha256": "627f417c4e78a904d43b4212e406eb4aca6b493fa63619ae0c1960a49c3419d9"}
+{"ts": "2026-11-10T03:08:21+00:00", "evenement": "construction", "details": {"fichiers": 2405}, "sha256": "7c69f822bc80a2e653b931a30b7bf89b8ef7b578e1fd967d127dd621bc2ceb58"}
+{"ts": "2026-11-10T03:44:31+00:00", "evenement": "deploiement", "details": {"fichiers": 2457, "octets": 104095027}, "sha256": "ea7b9ce5dd221e0140ee56743626ce410a0c42e8b353d3871a7221bbaf1b3443"}
+{"ts": "2026-11-10T03:44:31+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "e739900461617eeae13124e7210ad7e27f9d86459d009f9e05e19caf4a6f633f"}
+{"ts": "2026-11-10T03:45:03+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 1}, "sha256": "39213a082941f9456019789fb63d4463f8245922388a2e32ce330be5254f4f3c"}
+{"ts": "2026-11-10T03:45:14+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "28620d6c6e399cb323f843e9b76b30053278e95324b5832a369c6caa7768e6f2"}
+{"ts": "2026-11-10T03:45:14+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-11-10.json", "publications": 2366}, "sha256": "85663791ccd4f7d3cc58034a7b44a241e95e740888776837085295ff9e428c9f"}
+{"ts": "2026-11-10T03:45:14+00:00", "evenement": "bilan", "details": {"duree_s": 2320.9, "neufs": 40, "breves": 6, "articles": 1, "fichiers": 2405, "envois": 2457, "publications": 4}, "sha256": "256da9f34863d969e60d81d74bb34cb32ca3cc6a1fb0e48ea6c582341e4030de"}

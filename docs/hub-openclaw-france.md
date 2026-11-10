@@ -1116,6 +1116,42 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-09/hub-acces-clavier/`.
 
+## Liens des kits explicites sur l’accueil — livraison du 10/11/2026
+
+- **Une amélioration** : les quatre liens des cartes annoncent désormais leur
+  destination sans dépendre du titre voisin : « Guide OpenClaw », « ZIP OpenClaw »,
+  « Guide Hermes Agent » et « ZIP Hermes Agent ». Les libellés auparavant répétés
+  « Voir le guide » / « .zip » deviennent distincts dans une liste de liens.
+  Texte visible et nom accessible restent identiques, sans ajout de JavaScript
+  ni de surcharge ARIA. URL, styles, scripts et fichiers des kits inchangés.
+- Trois nouveaux tests échouent avant correction puis passent ; suite complète
+  **324 tests OK**. Les trois nouveaux tests passent également sur le HTML public.
+  Chromium headless : **six contrôles locaux et six publics**, à 1440, 768 et
+  360 px, avec/sans JavaScript ; noms accessibles, tabulation, liens dans leurs
+  cartes, hauteur tactile, styles et absence de débordement vérifiés.
+  **Huit téléchargements par environnement** via Entrée : les deux ZIP sont
+  identiques aux sources. Aucune installation réelle ni audit complet revendiqué.
+- Plusieurs délais Chrome ont interrompu les premiers contrôles ; reprise avec
+  Chromium headless isolé. Un contrôle public lancé avant le chargement CSS a
+  échoué sur la hauteur ; la passe finale attend le chargement complet et réussit.
+- Bureau inaccessible en cron (`Resource deadlock avoided`, Git non lisible) ;
+  clone partagé en conflits laissé intact. Publication par
+  `python3 outils/deployer_openclaw.py` depuis le clone synchronisé hors Bureau
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Sauvegarde privée et absence de
+  divergence production/Git avant envoi ; **36 fichiers relus via FTP**, identiques
+  aux sources après déploiement. Seuls accueil et sitemap changent. Dates/modes
+  restaurés avant régénération : ZIP et manifeste inchangés octet pour octet.
+- **Six URL de santé en HTTP 200**, plus manifeste, sitemap et clé. CRC et SHA-256
+  des téléchargements HTTPS vérifiés. Sitemap actualisé pour l’accueil uniquement.
+  **IndexNow HTTP 200** pour l’accueil : notification acceptée, sans preuve
+  d’indexation ni de hausse de trafic.
+- **Aucune distribution supplémentaire** : le post podcast du 10/11 à 10:24:30 UTC,
+  inscrit dans `docs/distribution-textes.md`, occupe déjà le quota quotidien et
+  celui de Bluesky jusqu’au 15/11 inclus. Aucun message, formulaire ni relance.
+  Prochaine priorité : vérifier la lisibilité des blocs de commandes sur mobile.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-10/hub-liens-kits/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

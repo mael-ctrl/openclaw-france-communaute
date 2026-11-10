@@ -1,5 +1,128 @@
 [
  {
+  "id": "ebd1fdcd23b1349a",
+  "slug": "claude-s-offre-un-tableur-et-un-tableau-blanc-collaboratif-ebd1fd",
+  "titre": "Claude s'offre un tableur et un tableau blanc collaboratif",
+  "resume": "Après le traitement de texte et les présentations, Claude s'enrichit d'un tableur et d'un tableau blanc collaboratif. Anthropic ne se contente plus de louer ses moteurs d'IA à Microsoft pour doper Word et Excel : la start-up veut désormais que les journées de travail commencent directement chez elle. Un pas de plus sur le terrain d'Office.",
+  "tags": [
+   "claude",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/culture-tech/intelligence-artificielle/anthropic-claude-ai/3318265_claude-sheets-et-whiteboards-comment-anthropic-attaque-microsoft-office-sur-son-propre-terrain",
+  "date_source": "2026-11-10T18:11:54+00:00",
+  "date_redac": "2026-11-10T18:46:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 689,
+   "sortie": 384
+  }
+ },
+ {
+  "id": "349cf893c1fa947b",
+  "slug": "openclaw-clarifie-les-echecs-de-lecture-des-preuves-enfants-349cf8",
+  "titre": "OpenClaw clarifie les échecs de lecture des preuves enfants",
+  "resume": "OpenClaw publie un correctif qui classe les échecs de lecture des « preuves enfants » et remonte les raisons de rejet telles qu'elles figurent dans la réponse d'origine, filtrées par liste blanche. Le transport gh d'origine et les vérifications d'historique sont conservés. Le correctif rappelle qu'un HTTP 403 seul ne suffit pas à conclure à un rate limiting. Côté tests, les fixtures de preuves enfants passent désormais par Node, y compris quand le runner est Bun.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F358722b1a46c-1794333870",
+  "date_source": "2026-11-10T18:04:02+00:00",
+  "date_redac": "2026-11-10T18:46:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 842,
+   "sortie": 495
+  }
+ },
+ {
+  "id": "1cc09bad2d3df4ef",
+  "slug": "codex-la-version-0-167-1-publiee-sous-l-etiquette-rust-v0-167-1-1cc09b",
+  "titre": "Codex : la version 0.167.1 publiée sous l'étiquette rust-v0.167.1",
+  "resume": "OpenAI publie la version 0.167.1 de Codex, référencée rust-v0.167.1 sur GitHub. La note de version tient en une seule ligne, « Release 0.167.1 » : le contenu des changements n'est pas détaillé. Le numéro en troisième position suggère une version corrective, sans qu'aucune information ne soit fournie sur ce qui a été corrigé.",
+  "tags": [
+   "openai",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.167.1",
+  "date_source": "2026-11-10T18:02:26+00:00",
+  "date_redac": "2026-11-10T18:46:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 594,
+   "sortie": 791
+  }
+ },
+ {
+  "id": "ac42dbf54d760282",
+  "slug": "chatgpt-accueille-des-business-agents-verifies-pour-le-commerce-en-lig-ac42db",
+  "titre": "ChatGPT accueille des « Business Agents » vérifiés pour le commerce en ligne",
+  "resume": "ChatGPT va permettre de discuter avec des « Business Agents » vérifiés, qui représentent une marque et aident par exemple à comparer des achats. La fonctionnalité est d'abord réservée aux entreprises d'e-commerce et de services en ligne « éligibles » aux États-Unis. Elle arrive avec une série d'outils orientés business dans ChatGPT, annoncés en version bêta.",
+  "tags": [
+   "chatgpt",
+   "openai",
+   "agents",
+   "business"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+  "date_source": "2026-11-10T18:00:00+00:00",
+  "date_redac": "2026-11-10T18:46:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 655,
+   "sortie": 680
+  }
+ },
+ {
+  "id": "8d6cde36eb1025b2",
+  "slug": "la-forerunner-265-de-garmin-a-petit-prix-pour-le-singles-day-sur-aliex-8d6cde",
+  "titre": "La Forerunner 265 de Garmin à petit prix pour le Singles Day sur AliExpress",
+  "resume": "La Forerunner 265, la montre connectée de Garmin, rencontre un gros succès auprès des coureurs et des sportifs. Plus abordable qu'un modèle de la gamme Fénix, elle se retrouve aujourd'hui à un tarif très bas à l'occasion du Singles Day sur AliExpress.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/bons-plans/garmin-forerunner-265-meme-en-reve-on-ne-la-pas-vue-a-un-prix-aussi-bas-51.html",
+  "date_source": "2026-11-10T17:56:08+00:00",
+  "date_redac": "2026-11-10T18:46:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 687,
+   "sortie": 587
+  }
+ },
+ {
+  "id": "f91d45ea89d613fa",
+  "slug": "le-xiaomi-mix-flip-a-67-un-pliable-a-clapet-a-prix-casse-f91d45",
+  "titre": "Le Xiaomi Mix Flip à -67 % : un pliable à clapet à prix cassé",
+  "resume": "Le Xiaomi Mix Flip est un smartphone pliable à clapet qui connaît un grand succès auprès des amateurs de smartphones Android. Il figure aujourd'hui parmi les appareils pliants les plus abordables du marché. Avec cette remise de 67 %, il devient une porte d'entrée accessible vers le format pliant.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/bons-plans/le-xiaomi-mix-flip-est-a-67-il-fait-un-enorme-barrage-aux-iphone-duo.html",
+  "date_source": "2026-11-10T17:53:57+00:00",
+  "date_redac": "2026-11-10T18:47:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 668,
+   "sortie": 490
+  }
+ },
+ {
   "id": "2ac07f59aad755a2",
   "slug": "qwen3-8-flash-next-remplacer-les-engrams-change-t-il-quelque-chose-2ac07f",
   "titre": "Qwen3.8-Flash-Next : remplacer les « engrams » change-t-il quelque chose ?",

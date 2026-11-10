@@ -1,0 +1,41 @@
+{
+ "slug": "new-york-met-les-labos-d-ia-sous-surveillance-les-modeles-co-6deaea",
+ "titre": "New York met les labos d'IA sous surveillance, les modèles continuent leur course",
+ "chapo": "New York s'apprête à appliquer sa vaste loi sur la sécurité en IA : enregistrement obligatoire, divulgation des pratiques, signalement des incidents critiques sous peine d'amendes. Au même moment, Gemini 4 Carbon s'ouvre à tous avec un tarif qui doublera le 1er décembre, et OpenClaw publie une release taillée pour la sécurité.",
+ "html": "<h2 id=\"new-york-de-la-loi-au-guichet\">New York : de la loi au guichet</h2>\n<p>Le texte new-yorkais ne se contente pas de poser des principes : il installe un régime déclaratif. Les grands développeurs d'IA devront <strong>s'enregistrer</strong>, <strong>divulguer leurs pratiques en matière de sécurité</strong> et <strong>signaler les incidents critiques</strong>, avec des amendes à la clé en cas de manquement.</p>\n<p>Parmi les premiers concernés, deux noms reviennent : <strong>OpenAI</strong> et <strong>Anthropic</strong>. L'État place ainsi les principaux acteurs du secteur sous une surveillance directe, là où la plupart des initiatives réglementaires restaient jusqu'ici des cadres volontaires ou des annonces d'intention.</p>\n<p>Le précédent compte autant que le dispositif lui-même. Une fois qu'un régulateur exige l'enregistrement et la déclaration d'incidents, la sécurité d'un modèle cesse d'être une affaire interne : elle devient une donnée administrative, comparable, opposable.</p>\n<h2 id=\"gemini-4-carbon-ouvert-a-tous-mais-pas-a\">Gemini 4 Carbon : ouvert à tous, mais pas au même prix</h2>\n<p>Annoncé il y a deux semaines à un cercle restreint de « <strong>cyber défenseurs</strong> », <strong>Gemini 4 Carbon</strong> est désormais accessible à tous. Google le présente comme son meilleur Gemini, avec un tarif de lancement de <strong>2 $/million de tokens en entrée</strong> et <strong>10 $/million en sortie</strong> — avant un doublement à <strong>4 $/20 $</strong> le 1er décembre.</p>\n<p>Le calendrier mérite d'être noté : la période d'ouverture large coïncide avec un prix promotionnel dont la fin est déjà datée. Ceux qui construiront sur le modèle pendant ces semaines devront recalculer leur économie à l'échéance.</p>\n<p>Simon Willison accompagne la sortie avec <strong>llm-gemini 0.36</strong> et compare les rendus selon l'<strong>effort de réflexion</strong> demandé au modèle. Une manière de rappeler que sur ces générations, le réglage du raisonnement pèse autant que le prix au token.</p>\n<h2 id=\"openclaw-2026-9-37-la-maintenance-qui-pa\">OpenClaw 2026.9.37 : la maintenance qui parle sécurité</h2>\n<p>Côté outillage, <strong>OpenClaw 2026.9.37</strong> est une release étendue de la branche stable, issue d'une ligne de maintenance retirée sur décision explicite des mainteneurs. Elle reprend l'état du logiciel <strong>fin septembre 2026</strong>, en y intégrant les correctifs de sécurité critiques, des corrections de fiabilité et de performance, ainsi que la prise en charge de <strong>nouveaux modèles</strong>.</p>\n<p>Le volet fuites de données est le plus concret : les <strong>photos et captures d'écran des nœuds appairés</strong> ne sont plus jointes automatiquement aux réponses, et les <strong>refus explicites de lecture de médias</strong> sont désormais respectés. Deux comportements qui, jusque-là, pouvaient envoyer vers un modèle des contenus que l'utilisateur n'avait pas l'intention de partager.</p>\n<p>La stabilité n'est pas oubliée : les <strong>cellules de tableau Telegram invisibles</strong> et les <strong>transformations SVG de plugins mal formées</strong> ne bloquent plus la Gateway ni le navigateur. Le genre de correctif invisible tant qu'il manque, et très visible quand il casse une session.</p>\n<h2 id=\"nvidia-et-oura-l-incertitude-change-de-c\">Nvidia et Oura : l'incertitude change de camp</h2>\n<p>Le conseil d'administration de <strong>Nvidia</strong> enquête sur <strong>Jensen Huang</strong> au sujet de sa relation avec une personne soupçonnée d'être un <strong>espion chinois</strong>. Jeffrey Sonnenfeld, de Yale, estime à « <strong>environ 50-50</strong> » la probabilité que Huang reste directeur général. Nvidia fournissant des puces pour l'IA, l'incertitude dépasse largement l'entreprise : elle porte sur la chaîne d'approvisionnement de tout un secteur.</p>\n<p>Ailleurs, le mouvement inverse : <strong>Oura</strong> rachète <strong>Counsel Health</strong>, start-up de soins primaires conçue nativement autour de l'IA, pour <strong>625 millions de dollars</strong>. L'opération intervient quelques semaines après que l'entreprise a <strong>reporté sine die son introduction en Bourse</strong>, prévue pour un montant allant jusqu'à <strong>2,2 milliards de dollars</strong>, en invoquant « l'incertitude du marché de l'IPO ».</p>\n<p>Deux façons de composer avec la même variable : quand le marché public se ferme, on achète plutôt que de s'introduire.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches du jour ne racontent pas la même histoire, mais elles partagent un mot : contrôle. New York transforme la sécurité des modèles en obligation déclarative ; OpenClaw corrige des fuites de médias et des refus non respectés dans sa propre tuyauterie ; Gemini 4 Carbon ouvre grand ses portes avec une date de péage déjà fixée ; Nvidia voit son dirigeant sous enquête interne ; Oura préfère acheter une start-up de soins plutôt que d'affronter l'IPO. À chaque fois, la question n'est plus de savoir si l'IA progresse, mais qui vérifie, à quel prix et sous quel régime.</p>",
+ "pivot": "6deaeadbf9523252",
+ "tags": [
+  "openai",
+  "gemini",
+  "sécurité",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/"
+  },
+  {
+   "nom": "OpenClaw (releases)",
+   "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.37"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/"
+  }
+ ],
+ "date": "2026-11-10T21:09:50+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1603,
+  "sortie": 2011
+ }
+}

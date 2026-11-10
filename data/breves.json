@@ -1,5 +1,132 @@
 [
  {
+  "id": "748085e9a94b3c96",
+  "slug": "gemini-cli-0-69-0-preview-0-une-commande-stats-pour-suivre-ses-tokens-748085",
+  "titre": "Gemini CLI 0.69.0-preview.0 : une commande /stats pour suivre ses tokens",
+  "resume": "La préversion 0.69.0 de Gemini CLI ajoute une sous-commande /stats avec heatmap pour suivre l'usage quotidien de tokens. Elle corrige plusieurs bugs : les caractères $ littéraux sont préservés lors du remplacement de placeholders, et une collision de la variable GCLI_EXPAND_TARGET est évitée. Les références @file gardent leurs espaces en début et fin ; les faux positifs de substitution PowerShell sous Windows sont corrigés.",
+  "tags": [
+   "gemini",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Gemini CLI (releases, préversions incluses)",
+  "lien_source": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.69.0-preview.0",
+  "date_source": "2026-11-10T21:05:08+00:00",
+  "date_redac": "2026-11-10T21:09:16+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 861,
+   "sortie": 850
+  }
+ },
+ {
+  "id": "6deaeadbf9523252",
+  "slug": "new-york-applique-sa-loi-sur-la-securite-en-ia-openai-et-anthropic-sou-6deaea",
+  "titre": "New York applique sa loi sur la sécurité en IA, OpenAI et Anthropic sous surveillance",
+  "resume": "New York s'apprête à faire appliquer sa vaste loi sur la sécurité en IA. Les grands développeurs, dont OpenAI et Anthropic, devront s'enregistrer, divulguer leurs pratiques en matière de sécurité et signaler les incidents critiques, sous peine d'amendes. Le texte place ainsi les principaux acteurs du secteur sous une surveillance directe.",
+  "tags": [
+   "openai",
+   "sécurité",
+   "société",
+   "business"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+  "date_source": "2026-11-10T20:52:13+00:00",
+  "date_redac": "2026-11-10T21:09:20+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 639,
+   "sortie": 444
+  }
+ },
+ {
+  "id": "451e9537f4052296",
+  "slug": "openclaw-2026-9-37-une-version-etendue-pour-la-securite-et-la-stabilit-451e95",
+  "titre": "OpenClaw 2026.9.37 : une version étendue pour la sécurité et la stabilité",
+  "resume": "OpenClaw publie la version 2026.9.37, une release étendue de la branche stable issue d'une ligne de maintenance retirée, sur décision explicite des mainteneurs. Elle reprend l'état du logiciel fin septembre 2026, avec les correctifs de sécurité critiques, des corrections de fiabilité et de performance, ainsi que la prise en charge de nouveaux modèles. Côté fuites de données, les photos et captures d'écran des nœuds appairés ne sont plus jointes automatiquement aux réponses, et les refus explicites de lecture de médias sont respectés. Les cellules de tableau Telegram invisibles et les transformations SVG de plugins mal formées ne bloquent plus la Gateway ni le navigateur.",
+  "tags": [
+   "openclaw",
+   "sécurité",
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.37",
+  "date_source": "2026-11-10T20:42:54+00:00",
+  "date_redac": "2026-11-10T21:09:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 796,
+   "sortie": 219
+  }
+ },
+ {
+  "id": "cb9b6aae884fbe0b",
+  "slug": "le-xiaomi-mix-flip-s-affiche-a-70-l-un-des-pliants-les-plus-accessible-cb9b6a",
+  "titre": "Le Xiaomi Mix Flip s'affiche à -70 %, l'un des pliants les plus accessibles",
+  "resume": "Le Xiaomi Mix Flip, smartphone pliable à clapet, rencontre un franc succès auprès des amateurs de smartphones Android. Il figure aujourd'hui parmi les appareils pliants les plus abordables du marché. La remise affichée atteint -70 %, ce qui en fait une porte d'entrée peu coûteuse vers le format pliant.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/bons-plans/le-xiaomi-mix-flip-est-a-67-il-fait-un-enorme-barrage-aux-iphone-duo.html",
+  "date_source": "2026-11-10T20:12:57+00:00",
+  "date_redac": "2026-11-10T21:09:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 673,
+   "sortie": 501
+  }
+ },
+ {
+  "id": "b76c65d10aa985c6",
+  "slug": "gemini-4-carbon-ouvre-a-tous-avec-un-prix-qui-doublera-le-1er-decembre-b76c65",
+  "titre": "Gemini 4 Carbon ouvre à tous, avec un prix qui doublera le 1er décembre",
+  "resume": "Annoncé il y a deux semaines à un cercle restreint de « cyber défenseurs », Gemini 4 Carbon est désormais ouvert à tous. Google le présente comme son meilleur Gemini : 2 $/million de tokens en entrée et 10 $/million en sortie au lancement, avant un doublement à 4 $/20 $ le 1er décembre. Simon Willison accompagne la sortie avec llm-gemini 0.36 et compare les rendus selon l'effort de réflexion.",
+  "tags": [
+   "gemini",
+   "dev",
+   "business"
+  ],
+  "importance": 4,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+  "date_source": "2026-11-10T20:09:44+00:00",
+  "date_redac": "2026-11-10T21:09:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 811,
+   "sortie": 1059
+  }
+ },
+ {
+  "id": "56007ee46b4d36d7",
+  "slug": "chez-resend-concevoir-la-doc-pour-les-agents-pas-seulement-pour-les-hu-56007e",
+  "titre": "Chez Resend, concevoir la doc pour les agents, pas seulement pour les humains",
+  "resume": "Latent Space explore la frontière entre l'optimisation pour les moteurs de réponse (AEO) et ce qu'on appelle l'« expérience agent ». Zeno Rocha y détaille la démarche de Resend : des documentation pensées pour que Claude Code choisisse une API d'envoi d'e-mails parmi d'autres, et pour lui fournir les outils qu'il utilisera ensuite pour envoyer.",
+  "tags": [
+   "agents",
+   "dev",
+   "claude"
+  ],
+  "importance": 2,
+  "source": "Latent Space",
+  "lien_source": "https://latent.space/p/resend/",
+  "date_source": "2026-11-10T20:05:17+00:00",
+  "date_redac": "2026-11-10T21:09:37+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 609,
+   "sortie": 494
+  }
+ },
+ {
   "id": "bcb834c54cfbe600",
   "slug": "oura-rachete-counsel-health-start-up-de-soins-primaires-pour-625-m-bcb834",
   "titre": "Oura rachète Counsel Health, start-up de soins primaires, pour 625 M$",

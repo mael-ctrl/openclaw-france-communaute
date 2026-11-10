@@ -1,5 +1,11 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Chantier site du 10 novembre — cache des couvertures versionnées
+
+**Une seule intégration : cache HTTP annuel `immutable` des JPEG à empreinte**, premier périmètre sûr du chantier SEO #7 non livré ; images, CSS intégrée et retour newsletter déjà présents, non refaits. Base propre `466e9a2`, pull partagé refusé, conflits préservés. **321 Python + huit Node**, deux builds isolés : **2 405 pages chacun, 4 813 fichiers inchangés, un `.htaccess` ajouté**, 693 fichiers sources préservés. Apache réel : neuf requêtes conformes avec le module, neuf sans ; états 200/206/304 et erreurs distingués. [Périmètre, réemploi et preuves](cache-couvertures.md).
+
+**Au commit initial : publication à confirmer.** Gzip HTML/CSS/JS déjà observé, mais XML non compressé ; ni précompression ni cache long des fichiers non versionnés revendiqués, #7 global encore ouvert. P9 reste prioritaire mais distinct : aucune activation de capsule, reprise Git ou candidat cloud non qualifié. Le run du précédent chantier `42597445737` est désormais confirmé **annulé pendant pipeline**, sauvegarde ignorée — sa livraison HTTPS déjà attestée reste distincte. Prochaine étape de cette intégration : dispatch, relecture HTTPS du cache et témoins ; aucune image ni contenu à réécrire.
+
 ## État courant — 9 novembre 2026, revue du soir
 
 **Cette synthèse prévaut sur les relevés historiques conservés ci-dessous.** Revue prévue à 21 h CET, dispatch à 21:38 ; pull partagé à **21:50 refusé (128)**, six fichiers non fusionnés et journal indexé, préservés. Worktree documentaire propre : pull réussi ici seulement. Base des mesures **`ae27e977c4658660d184f21bedd1e81ce688743d`** ; fenêtre Git/créations GitHub arrêtée à **23:03:52 CET** (`08/11 23:00 → 09/11 22:03:52 UTC`). Complément podcast `cd99d7f` repris avant édition à 23:20 ; HTTPS relevé séparément à **23:05–23:20 CET**.

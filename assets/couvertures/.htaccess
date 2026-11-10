@@ -1,0 +1,8 @@
+# Seuls les JPEG du generateur versionne portent cette empreinte.
+# Changer couvertures.VERSION si le dessin ou l'encodage change.
+<IfModule mod_headers.c>
+    <FilesMatch "^[a-f0-9]{64}\.jpg$">
+        Header set Cache-Control "public, max-age=31536000, immutable" "expr=%{REQUEST_STATUS} == 200 || %{REQUEST_STATUS} == 206 || %{REQUEST_STATUS} == 304"
+        Header unset Expires "expr=%{REQUEST_STATUS} == 200 || %{REQUEST_STATUS} == 206 || %{REQUEST_STATUS} == 304"
+    </FilesMatch>
+</IfModule>

@@ -1,0 +1,41 @@
+{
+ "slug": "chatgpt-ouvre-ses-portes-aux-agents-de-marques-nvidia-enquet-ac42db",
+ "titre": "ChatGPT ouvre ses portes aux agents de marques, Nvidia enquête sur son PDG",
+ "chapo": "OpenAI prépare des « Business Agents » vérifiés dans ChatGPT, capables de représenter une marque et de comparer des achats, d'abord pour l'e-commerce américain. Anthropic fait de son côté entrer Claude en réunion, pendant que Nvidia ouvre une enquête sur son PDG, Jensen Huang.",
+ "html": "<h2 id=\"des-marques-avec-badge-dans-chatgpt\">Des marques avec badge dans ChatGPT</h2>\n<p>ChatGPT va permettre de discuter avec des « Business Agents » vérifiés. Derrière le nom, des agents qui représentent une marque et peuvent par exemple aider à comparer des achats. La fonctionnalité est d'abord réservée aux entreprises d'e-commerce et de services en ligne « éligibles » aux États-Unis.</p>\n<p>L'annonce s'inscrit dans une série de fonctionnalités orientées business, dévoilées en bêta dans ChatGPT. Le mot qui compte est « vérifiés » : l'agent n'est pas un internaute anonyme qui débarque dans la conversation, il est rattaché à une entreprise, avec un statut contrôlé par la plateforme.</p>\n<p>Le périmètre reste étroit : deux catégories d'activité, un seul pays, un critère d'éligibilité dont les modalités ne sont pas détaillées. Mais le principe est posé : une couche commerciale identifiée, à l'intérieur même de l'interface de conversation.</p>\n<h2 id=\"claude-prend-la-parole-en-reunion\">Claude prend la parole en réunion</h2>\n<p>Anthropic lance Claude Meetings, un outil qui intervient pendant les réunions de travail. Pendant que les participants parlent, le modèle peut rédiger le plan discuté, cartographier un calendrier sur un tableau blanc et répondre aux questions dans le chat. Il accède aussi aux applications professionnelles connectées pour aller chercher des informations — les chiffres de l'année précédente, par exemple.</p>\n<p>La différence d'approche avec OpenAI est nette. D'un côté, un agent qui parle au nom d'une marque et s'adresse à un client ; de l'autre, un agent qui travaille avec une équipe, dans le fil d'une réunion.</p>\n<p>Mais le mouvement est comparable : l'agent sort de la case « chatbot » pour s'installer dans le flux de travail, avec un accès à des systèmes externes — applications connectées chez Anthropic, statut d'entreprise vérifié chez OpenAI.</p>\n<h2 id=\"nvidia-le-conseil-enquete-sur-jensen-hua\">Nvidia : le conseil enquête sur Jensen Huang</h2>\n<p>Le conseil d'administration de Nvidia indique dans un communiqué lancer une enquête indépendante sur son PDG, Jensen Huang, et sur sa relation avec Alice Huang, cadre chez Megaspeed. Selon les informations rapportées, cette dernière aurait été recrutée par le ministère de la Sécurité de l'État chinois pour espionner l'entreprise.</p>\n<p>Dans une note adressée à l'entreprise, le dirigeant reconnaît avoir eu une liaison. L'affaire a été révélée par TechCrunch le 8 novembre.</p>\n<p>Jeffrey Sonnenfeld, de Yale, estime à « environ 50-50 » la probabilité que Jensen Huang reste directeur général. La formulation est prudente, mais elle donne la mesure de l'incertitude. Nvidia fournit des puces pour l'IA : la question de sa gouvernance dépasse largement son conseil d'administration et ses actionnaires.</p>\n<h2 id=\"qui-parle-et-au-nom-de-qui\">Qui parle, et au nom de qui</h2>\n<p>Les trois dossiers butent sur une même question, sans qu'on puisse les relier autrement : celle de l'identité derrière un nom. Un « Business Agent » doit être vérifié avant de représenter une marque dans ChatGPT. Claude Meetings se branche sur les applications professionnelles d'une équipe, donc sur des données qui appartiennent à quelqu'un. Chez Nvidia, c'est une relation personnelle entre le PDG et une cadre d'une autre société, présentée comme une possible espionne, qui déclenche une enquête interne.</p>\n<p>Dans les trois cas, la confiance ne va plus de soi : elle doit être établie, contrôlée ou instruite. Un coût nouveau, pour les plateformes comme pour les entreprises.</p>\n<h2>Et maintenant ?</h2>\n<p>Les annonces avancent à deux vitesses. D'un côté, des agents qui s'installent dans les outils professionnels — comparer un achat dans ChatGPT, rédiger un plan de réunion avec Claude — avec des périmètres étroits : les États-Unis d'abord, les entreprises éligibles ensuite, la bêta pour tous. De l'autre, un rappel que la gouvernance des acteurs de l'IA ne se joue pas dans les communiqués produit : quand le premier fournisseur de puces du secteur voit son PDG sous enquête, l'incertitude ne s'arrête pas au conseil d'administration.</p>",
+ "pivot": "ac42dbf54d760282",
+ "tags": [
+  "chatgpt",
+  "agents",
+  "business",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
+  }
+ ],
+ "date": "2026-11-10T18:04:29+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1500,
+  "sortie": 5084
+ }
+}

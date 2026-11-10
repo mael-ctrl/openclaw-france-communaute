@@ -1,0 +1,173 @@
+{
+  "sha": "adb54cb79bc4370b048bcc79f98d9753b9a706bc",
+  "source_sha256": "46c3f57dc886d8b5311e7db271298bfabc971d97e125a9b7b1f267715a57f6d9",
+  "selection": [
+    {
+      "id": "97d44ed54f684432",
+      "slug": "openclaw-corrige-les-transferts-docker-de-sa-recovery-de-release-97d44e",
+      "titre": "OpenClaw corrige les transferts Docker de sa recovery de release",
+      "resume": "La procédure de recovery de release d'OpenClaw corrige plusieurs points. Les corps d'archives Docker utilisent désormais le budget de transfert de quatre minutes déjà existant, les métadonnées et les appels ordinaires conservant leur limite plus courte. La lecture de l'historique de récupération des reçus obtient une échéance de dix minutes par enfant, le délai par défaut de deux minutes restant en vigueur et les contrôles de preuve étant préservés.",
+      "tags": [
+        "openclaw",
+        "dev",
+        "open-source"
+      ],
+      "importance": 2,
+      "source": "OpenClaw (releases)",
+      "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F2609b4f93bf8-1794277489",
+      "date_source": "2026-11-10T01:56:46+00:00",
+      "date_redac": "2026-11-10T03:07:28+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 877,
+        "sortie": 646
+      }
+    },
+    {
+      "id": "a34227a98da89165",
+      "slug": "un-fork-fait-cohabiter-un-rtx-5090-et-un-igpu-strix-halo-pour-l-infere-a34227",
+      "titre": "Un fork fait cohabiter un RTX 5090 et un iGPU Strix Halo pour l'inférence LLM",
+      "resume": "Faute d'engine capable de faire tourner un modèle sur un GPU Nvidia et un iGPU AMD simultanément — vLLM se limite à un seul constructeur, et le backend Vulkan de llama.cpp bride le prefill sur RTX 5090 — un développeur a forké le moteur Project MAYA. Son fork répartit prefill et decode de GLM-5.3-Flash Maya-M GGUF : le backend CUDA gère l'attention, les couches denses et le cache d'experts, le backend ROCm exécute les experts complémentaires dans le même processus. Le titre annonce jusqu'à 48 % de gain.",
+      "tags": [
+        "matériel",
+        "dev",
+        "open-source"
+      ],
+      "importance": 3,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xsaurn/cudarocm_dualbackends_llm_inference_for/",
+      "date_source": "2026-11-10T02:09:31+00:00",
+      "date_redac": "2026-11-10T03:07:22+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 831,
+        "sortie": 427
+      }
+    },
+    {
+      "id": "4c408ad4d962c1fe",
+      "slug": "claude-code-v2-1-322-le-mode-rapide-debarque-sur-vertex-4c408a",
+      "titre": "Claude Code v2.1.322 : le mode rapide débarque sur Vertex",
+      "resume": "La version 2.1.322 de Claude Code ajoute un mode rapide sur Vertex, dans les régions global, us et eu. Si Vertex refuse ce mode, l'outil retombe automatiquement sur la vitesse standard. L'accélération n'est donc pas imposée : le repli garantit que la requête aboutit malgré tout.",
+      "tags": [
+        "claude",
+        "dev",
+        "agents"
+      ],
+      "importance": 2,
+      "source": "Claude Code (releases)",
+      "lien_source": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+      "date_source": "2026-11-10T02:29:43+00:00",
+      "date_redac": "2026-11-10T03:07:18+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 606,
+        "sortie": 636
+      }
+    },
+    {
+      "id": "f89a26894e21f9d4",
+      "slug": "openclaw-publie-la-beta-2-de-sa-version-2026-11-5-f89a26",
+      "titre": "OpenClaw publie la bêta 2 de sa version 2026.11.5",
+      "resume": "OpenClaw met en ligne la version 2026.11.5-beta.2, datée du 10 novembre 2026, dans le canal des releases du projet sur GitHub. Le numéro indique une bêta du cycle 2026.11.5 : une étape intermédiaire avant la version stable. La note de publication se limite pour l'instant au numéro de version, sans détail sur les changements apportés.",
+      "tags": [
+        "openclaw",
+        "dev"
+      ],
+      "importance": 2,
+      "source": "OpenClaw (releases)",
+      "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.5-beta.2",
+      "date_source": "2026-11-10T02:31:36+00:00",
+      "date_redac": "2026-11-10T03:07:12+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 602,
+        "sortie": 932
+      }
+    },
+    {
+      "id": "7f5071a481d0dd0a",
+      "slug": "comet-60b-de-multiverse-computing-passe-en-gguf-tete-mtp-conservee-7f5071",
+      "titre": "Comet 60B de Multiverse Computing passe en GGUF, tête MTP conservée",
+      "resume": "Felladrin a converti Comet_60B_A12B_BF16, la version compressée de Nemotron 3.5 Super par Multiverse Computing, en GGUF lisibles par llama.cpp standard : Q4_K_M fait 42,6 Go, Q8_0 64,2 Go. La tête MTP est conservée, donc --spec-type draft-mtp peut être passé à llama-server pour du décodage spéculatif. Ces GGUF sont texte uniquement, le tour de vision n'a pas été converti.",
+      "tags": [
+        "open-source",
+        "dev",
+        "recherche"
+      ],
+      "importance": 2,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xsbc2r/multiverse_computings_comet_60b_a12b_ggufs_with/",
+      "date_source": "2026-11-10T02:32:52+00:00",
+      "date_redac": "2026-11-10T03:07:05+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 754,
+        "sortie": 730
+      }
+    },
+    {
+      "id": "2ac07f59aad755a2",
+      "slug": "qwen3-8-flash-next-remplacer-les-engrams-change-t-il-quelque-chose-2ac07f",
+      "titre": "Qwen3.8-Flash-Next : remplacer les « engrams » change-t-il quelque chose ?",
+      "resume": "Un utilisateur de r/LocalLLaMA demande si d'autres ont remplacé les « engrams » de Qwen3.8-Flash-Next par la dernière version, et ce que cela apporte. Il utilise les quantifications unsloth UD-Q4_K_XL et q8_0 sur une AMD Strix Halo 128 Go sous Windows 11, avec gufo v0.33.0. Lui l'a fait sans constater de différence, à part « une sensation agréable ».",
+      "tags": [
+        "open-source",
+        "matériel",
+        "dev"
+      ],
+      "importance": 1,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xsbmbx/qwen38flashnext_have_you_tried_swapping_the/",
+      "date_source": "2026-11-10T02:46:55+00:00",
+      "date_redac": "2026-11-10T03:06:59+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 720,
+        "sortie": 833
+      }
+    },
+    {
+      "id": "72fda8d49ff433d8",
+      "slug": "crewai-1-15-39-documente-l-erreur-apps-not-connected-sur-kickoff-et-st-72fda8",
+      "titre": "CrewAI 1.15.39 documente l'erreur apps_not_connected sur /kickoff et /status",
+      "resume": "La version 1.15.39 de CrewAI est une mise à jour de documentation : elle documente désormais l'erreur apps_not_connected telle qu'elle peut apparaître sur /kickoff et /status. Les notes de version ne mentionnent que cet ajout de documentation, sans autre changement. La contribution est signée João Moura. Pour les développeurs qui font tourner des agents avec CrewAI, l'erreur dispose maintenant d'une explication officielle dans la doc.",
+      "tags": [
+        "agents",
+        "open-source",
+        "dev"
+      ],
+      "importance": 1,
+      "source": "CrewAI (releases, préversions incluses)",
+      "lien_source": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.39",
+      "date_source": "2026-11-09T01:07:14+00:00",
+      "date_redac": "2026-11-09T05:59:20+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 614,
+        "sortie": 550
+      }
+    },
+    {
+      "id": "af26bc86cacd6e2a",
+      "slug": "torchlens-inspecter-et-visualiser-les-operations-d-un-reseau-de-neuron-af26bc",
+      "titre": "Torchlens : inspecter et visualiser les opérations d'un réseau de neurones",
+      "resume": "Un dépôt GitHub nommé Torchlens propose d'inspecter, de visualiser et d'intervenir sur n'importe quelle opération dans n'importe quel réseau de neurones. Le projet a été relayé sur le forum r/LocalLLaMA par l'utilisateur u/Thrumpwart. L'outil vise donc celles et ceux qui veulent suivre le détail des calculs d'un modèle, opération par opération, plutôt que de s'en tenir à ses seules entrées et sorties.",
+      "tags": [
+        "open-source",
+        "dev",
+        "recherche"
+      ],
+      "importance": 2,
+      "source": "r/LocalLLaMA",
+      "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xrh5iz/github_repo_torchlens_inspect_visualize_and/",
+      "date_source": "2026-11-09T03:25:32+00:00",
+      "date_redac": "2026-11-09T05:59:15+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 624,
+        "sortie": 633
+      }
+    }
+  ]
+}

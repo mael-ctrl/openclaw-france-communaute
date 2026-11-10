@@ -46,4 +46,27 @@ Aucune donnée d'essai reprise en production. OPML reparsé, 31 couples nom/adre
 identiques au catalogue ; SHA256 `84e01691ffe4362feed0af3ae049e666f8f6570bf3f565c017cef2d6aa5e707f`.
 Pièces privées : `crabe-chantiers/croissance-adk/2026-11-10/evidence/`.
 
-Au commit initial, publication et contrôle HTTPS restent à confirmer.
+Au commit initial, publication et contrôle HTTPS restaient à confirmer.
+
+## Publication vérifiée à 21:09 UTC
+
+Après rebase limité au correctif sur `6c1aea51b353f614fcf04831ae9e7c6730e79b4c`
+(aucun delta concurrent dans moteur, tests ou catalogue), contrat ciblé rejoué.
+Commit livré : `3de2d125657b93fd932e759759a2607e3b561360` ; ses trois fichiers ont
+été relus identiques via l'API GitHub sur `main`.
+
+Le run précédent `42894364849`, sur l'ancien catalogue, a été attendu jusqu'à sa
+fin : annulation au plafond de 45 minutes, sauvegarde ignorée. Aucun run annulé
+manuellement. Le dispatch `42900868059` du commit livré a ensuite réussi ses
+contrats cloud ; son pipeline global reste **en cours** à ce relevé.
+
+Livraison ciblée distincte : `/veille/sources.opml` et uniquement le compteur
+**30 → 31** de `/transparence/`, tous ses autres octets conservés. Clé hôte SFTP
+épinglée avant secret, base distante exactement comparée à l'export du parent,
+sauvegardes privées, contrôle des runs actifs (catalogue nouveau), `.part` puis
+renommage et relecture SFTP exacte. **Deux lectures HTTPS canoniques strictes
+identiques à 21:09:22 UTC** : 31 flux et compteur cohérent.
+
+Pièces : `livraison-ciblee/{preflight,sftp-result,https-result}.json` et corps
+avant/après. Le flux public et la configuration ne prouvent ni nouvelle brève
+issue d'ADK, ni croissance mesurée, ni fin du pipeline/sauvegarde cloud.

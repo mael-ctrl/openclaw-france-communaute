@@ -30,7 +30,7 @@ Aucun nouveau gzip/Brotli n'est revendiqué. Ajouter une compression serveur XML
 
 - TDD : absence du fichier puis absence du filtrage par statut reproduites en rouge ; deux passages verts conservés.
 - `python3 -B -m unittest discover -s tests` : **321 tests réussis**. Première recette complète : 320 réussites et une erreur du nouveau test, qui supposait à tort le CORS Skool versionné localement ; cette règle existe seulement à distance et est désormais contrôlée dans la recette SFTP, sans changer les anciens contrats.
-- `node --test tests/test_pack_copie.cjs` : **huit tests réussis**.
+- `node --test tests/*.cjs` : **huit tests réussis** (les deux fichiers ; le contrôle initial du seul fichier Pack en comptait quatre).
 - Deux appels réels `construction.construire()` dans une archive scratch du SHA figé, réseau refusé, horloge commune : **2 405 pages par build**, **4 813 fichiers identiques**, ajout du seul `.htaccess` attendu ; **693 fichiers de données/contenus/sites préservés**.
 - Apache local **2.4.67** réellement exécuté : règle absente → refus attendu du contrôle ; candidat → **neuf requêtes conformes**, puis neuf sans `mod_headers`. GET/HEAD/Range/If-Modified-Since, JPEG mutable témoin, JS, dossier interdit, fichier inexistant et protection `.htaccess` vérifiés. Les tests statiques ne sont pas présentés comme une exécution Apache.
 - Deux incidents du banc local conservés : arrêt initial SIGTERM (Apache isolé ensuite dans sa propre session de processus) ; module autoindex initialement absent, ajouté au serveur jetable pour reproduire son statut 403. Aucun serveur de production touché.
@@ -41,8 +41,10 @@ Recherche GitHub effectuée avant développement : `h5bp/server-configs-apache`,
 
 `google/brotli` (MIT, push observé le 9 novembre) a aussi été repéré ; non adopté car aucun besoin de dépendance n'est démontré pour cette livraison. La fraîcheur des dépôts n'est pas une preuve de performance.
 
-## Publication et suivi
+## Publication vérifiée
 
-Au commit initial : tests et builds terminés, **publication à confirmer**. Une seule nouvelle cible SFTP autorisée, après comparaison de sa non-existence et des sept témoins exacts, upload `.part` + renommage et relecture octet pour octet. Le workflow média doit être déclenché puis contrôlé séparément : ses annulations historiques à 45 minutes et sa sauvegarde ignorée ne sont pas réparées par ce fichier.
+**Code `7ad7383`, cible publiée par SFTP à 10:05 UTC ; trente requêtes HTTPS conformes à 10:05:14–10:05:16 UTC.** Le fichier distant a été relu exactement (`sha256:0b1e8d40d91636f5036c836c302dcafcc8e2dd05c9412a91bceba02cf6bc4218`) ; sept règles voisines et trois JPEG témoins préservés. Le cache des trois images passe réellement de `max-age=900` à `public, max-age=31536000, immutable`, y compris réponses partielles et conditionnelles. Les erreurs 403/404 n'acquièrent pas cette directive ; corps des images, scripts, styles et comportement gzip inchangés. Aucun transfert de JPEG ni de HTML par ce repli ciblé.
+
+**Clôture de cette politique HTTP seulement.** Dispatch `42796037518` créé sur le commit livré, encore `pending` au relevé de 10:05 UTC, derrière un pipeline antérieur. Ce statut n'est ni un échec de la configuration ni une sauvegarde cloud réussie ; les annulations historiques à 45 minutes ne sont pas réparées. Le workflow ne se déclenche pas sur les commits documentaires suivants. Réexaminer l'issue du dispatch existant sans en recréer un pour cette fonction déjà publiée.
 
 Preuves privées : `crabe-chantiers/integration-site/2026-11-10-cache-couvertures/` (journaux rouge/vert, suite complète, sources amont, manifestes des deux builds, Apache, snapshots SFTP et HTTPS). Aucun fichier de recette, donnée de test ou preuve privée n'est publié avec ce document.

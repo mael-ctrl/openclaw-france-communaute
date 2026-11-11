@@ -1,5 +1,12 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Chantier site du 11 novembre — compression XML/OPML
+
+**Une seule intégration : gzip négocié des flux et sitemaps XML/OPML, suite bornée du SEO #7.** Cache des couvertures déjà livré, non refait. Base propre `edab0f3`, clone conflictuel préservé ; **330 Python + huit Node**, deux builds de **2 441 pages / 4 887 fichiers identiques**, **46 requêtes Apache** puis deux replis sans module. Une régression du premier candidat sur la compression HTML héritée a été détectée et corrigée avant publication par confinement aux extensions XML/OPML ; [périmètre et preuves](compression-xml.md).
+
+**Au commit initial : publication ciblée SFTP/HTTPS à confirmer.** Racine Apache conservée hors gestion du constructeur ; aucune règle de domaine, donnée, image ou page remplacée. Le cache des fichiers mutables et la précompression restent hors livraison. P9 reste distinct : aucune activation de capsule/reprise Git/candidat cloud ni modification de cron. Le dispatch précédent `42796037518` est désormais confirmé annulé pendant pipeline, sauvegarde ignorée ; la publication HTTPS du cache reste acquise.
+
+
 ## État courant — 10 novembre 2026, revue du soir
 
 **Cette synthèse prévaut sur les relevés historiques ci-dessous.** Revue prévue à 21 h CET, dispatch à 21:20 ; pull partagé à **22:07 refusé (128)**, six fichiers non fusionnés et journal indexé, préservés. Worktree documentaire propre : pull réussi ici seulement. Base des mesures **`3de2d125657b93fd932e759759a2607e3b561360`**, fenêtre des commits/créations GitHub arrêtée à **22:09:04 CET** (`09/11 23:00 → 10/11 21:09:04 UTC`). Clôture documentaire ADK `74bca75` reprise avant édition à 22:13. Sondes HTTPS du soir séparées, sans antidatation.

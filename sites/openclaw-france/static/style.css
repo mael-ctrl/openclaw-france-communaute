@@ -168,6 +168,15 @@ details.faq summary::after{content:"+";font-size:20px;color:var(--accent);transi
 details.faq[open] summary::after{transform:rotate(45deg)}
 details.faq .reponse{padding:0 0 18px;color:var(--texte-2)}
 
+/* ---- commandes de vérification : texte intact, retour à la ligne natif ---- */
+code.commande{
+  display:block;max-width:100%;margin:8px 0;padding:12px 14px;
+  border:1px solid var(--carte-bord);border-radius:10px;
+  background:var(--fond-2);color:var(--texte);
+  font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.9em;line-height:1.6;
+  white-space:pre-wrap;overflow-wrap:anywhere;word-break:normal;hyphens:none;
+}
+
 /* ---- listes de fichiers ---- */
 .fichiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:18px 0}
 .fichier{

@@ -1152,6 +1152,44 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-10/hub-liens-kits/`.
 
+## Commandes de vérification lisibles sur mobile — livraison du 11/11/2026
+
+- **Une amélioration** : les trois commandes SHA-256 des pages `/openclaw/#verifier-zip`
+  et `/hermes/#verifier-zip` sont présentées dans des blocs distincts sous leur
+  système (macOS, Linux, Windows PowerShell). Retour à la ligne natif sur petit
+  écran, sans rognage, défilement horizontal du bloc ni césure ajoutée. Le texte
+  exact des six commandes est inchangé ; aucun bouton de copie ni JavaScript ajouté.
+- Trois nouveaux tests : deux échouent avant correction, celui qui protège les
+  commandes exactes passe déjà. Après mise à jour du contrôle de version CSS,
+  suite complète **334 tests OK** ; les trois nouveaux tests passent aussi sur
+  les réponses HTTPS publiques. Aucun script ni contenu des kits modifié.
+- Chromium headless avec et sans JavaScript : **16 contrôles locaux et 16 publics**
+  sur les deux pages, à 1440, 768, 390 et 360 px. Accès à l’ancre et ouverture
+  de la FAQ au clavier, styles chargés, texte entièrement contenu, sélection du
+  texte identique à la commande, retour à la ligne PowerShell à 360 px et absence
+  de débordement de page vérifiés. Aucune installation ni exécution des commandes
+  de diagnostic revendiquée. Le premier contrôle navigateur utilisait un mauvais
+  sélecteur de FAQ ; corrigé avant la passe complète, sans modifier le site pour le test.
+- Bureau inaccessible en cron (`Resource deadlock avoided`, Git non lisible) ;
+  clone partagé en conflits laissé intact. Déploiement avec
+  `python3 outils/deployer_openclaw.py` depuis le clone dédié synchronisé hors Bureau
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Sauvegarde privée et absence de
+  divergence production/Git avant envoi ; **36 fichiers relus via FTP**, identiques
+  aux sources après publication. Dates/modes des fichiers de kits restaurés avant
+  régénération : les deux ZIP et le manifeste restent inchangés octet pour octet.
+- **Les six URL de santé répondent HTTP 200** ; contrôle étendu de **10 URL en 200**.
+  Entêtes HTML publics conformes, section de vérification exacte après décodage
+  de la protection e-mail Cloudflare (écart attendu constaté au premier contrôle),
+  CSS, sitemap et manifeste identiques ; ZIP vérifiés par CRC et SHA-256.
+  CSS versionnée et sitemap actualisé sur les deux pages seulement.
+  **IndexNow HTTP 200** pour ces pages : notification acceptée, pas indexation prouvée.
+- **Aucune distribution supplémentaire** : le journal distant relu confirme que
+  le post Bluesky du 10/11 occupe le quota de la plateforme jusqu’au 15/11 inclus.
+  Aucun nouveau contact, formulaire ni relance. Prochaine priorité : contrôler
+  la lisibilité mobile des commandes longues dans les sections de dépannage.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-11/hub-commandes-integrite/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

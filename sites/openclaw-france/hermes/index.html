@@ -23,7 +23,7 @@
 <meta name="twitter:image" content="https://openclaw-france.fr/static/og-image.png">
 <meta name="twitter:image:alt" content="Visuel OpenClaw France.">
 <link rel="icon" href="/static/favicon.svg">
-<link rel="stylesheet" href="/static/style.css?v=20261109-clavier">
+<link rel="stylesheet" href="/static/style.css?v=20261111-commandes">
 </head>
 <body>
 <a class="skip-link" href="#contenu">Aller au contenu</a>
@@ -210,9 +210,9 @@
         Depuis le dossier contenant <code>kit-hermes.zip</code>, lance uniquement
         la commande correspondant à ton système ; elle lit le fichier sans l’exécuter :</p>
         <ul>
-          <li><strong>macOS :</strong> <code>shasum -a 256 kit-hermes.zip</code></li>
-          <li><strong>Linux (GNU Coreutils) :</strong> <code>sha256sum kit-hermes.zip</code></li>
-          <li><strong>Windows PowerShell :</strong> <code>Get-FileHash -Algorithm SHA256 kit-hermes.zip</code></li>
+          <li><strong>macOS :</strong> <code class="commande">shasum -a 256 kit-hermes.zip</code></li>
+          <li><strong>Linux (GNU Coreutils) :</strong> <code class="commande">sha256sum kit-hermes.zip</code></li>
+          <li><strong>Windows PowerShell :</strong> <code class="commande">Get-FileHash -Algorithm SHA256 kit-hermes.zip</code></li>
         </ul>
         <p>Compare les <strong>64 caractères</strong> du résultat à la ligne
         <code>kit-hermes.zip</code> du manifeste, sans tenir compte des majuscules/minuscules.

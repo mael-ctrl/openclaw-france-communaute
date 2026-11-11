@@ -28,7 +28,9 @@ class HubNavigationMobileTest(unittest.TestCase):
         for route in ROUTES:
             with self.subTest(route=route):
                 html=(SITE/route).read_text()
-                self.assertTrue("href=\"/static/style.css?v=20261109-clavier\"" in html, "Stylesheet cache version missing")
+                version = ("20261111-commandes" if route in ("openclaw/index.html", "hermes/index.html")
+                           else "20261109-clavier")
+                self.assertIn(f"href=\"/static/style.css?v={version}\"", html)
                 nav=re.search(r"<nav class=\"nav\"[^>]*>(.*?)</nav>",html,re.S).group(1)
                 self.assertIn("href=\"/openclaw/\"",nav)
                 self.assertIn("href=\"/hermes/\"",nav)

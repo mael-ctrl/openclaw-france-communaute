@@ -1,5 +1,34 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## État courant — bilan du 11 novembre 2026, vérifié le 12
+
+**Cette synthèse prévaut sur les relevés historiques conservés ci-dessous.** Revue prévue le **11 à 21 h CET**, dispatch à **22:17:41** ; pull partagé à **22:28 refusé (128)**, six fichiers non fusionnés et journal indexé, préservés. Worktree documentaire propre sur **`f545ec29870ed71c4da77dbcacd2b7f9920f6731`**, pull réussi ici seulement. Premier arrêté à 22:30 ; clôture de la journée vérifiée le **12 à 00:55 CET**, fenêtre `[10/11 23:00, 11/11 23:00)` UTC. Sondes HTTPS du **12 à 00:53 CET**, non antidatées.
+
+**Bilan du 11 : onze commits ; 22 runs, cinq succès et dix-sept annulations pendant pipeline avec sauvegarde ignorée.** Gzip XML/OPML, podcast du 11, source OpenAI Agents et commandes SHA-256 du hub confirmés. Catalogue public : **537 chemins d'articles Git = 537 URL individuelles au sitemap**, sans preuve de lecture exhaustive des HTML. **Priorité : corriger l'exploitation locale et la reprise cloud, plutôt que multiplier les préparations.**
+
+| Chantier | État observé / date | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | 🔶 **63 URL News uniques dans les 48 h / 64 entrées** au contrôle du 12 ; **une date future du 12 à 00:00 UTC**, exclue. **32 flux OPML exacts**, OpenAI Agents compris ; IndexNow 200 le 11 à 18:29:12 UTC | **12/11 :** qualifier le traitement des dates futures sans redater les sources ; surveiller cohérence après chaque producteur. Ne pas réintégrer la source ; acceptation ≠ indexation |
+| P2 — Site | ✅ Gzip des **six XML/OPML vérifié directement en HTTPS**, octets décompressés identiques aux réponses identity. `a508484` ; **330 Python/huit Node/deux builds** consignés, non rejoués. Job d'intégration `unknown`, sans bilan final | Consigner la clôture publique dans le dossier resté au statut initial ; diagnostiquer le job existant sans relance aveugle. Cache des assets mutables et exploitation restent ouverts. [Dossier](compression-xml.md) |
+| P3 — Podcast | ✅ Épisode du 11 `9f57134` : **810 864 octets MP3 identiques à Git**, script exact, **21 GUID uniques** ; descendant cloud `43070033177` réussi, état sauvegardé | Préserver audio/GUID ; consolider le dossier général, puis prochaine édition idempotente. Aucun annuaire ni réparation générale du pipeline déduit |
+| P4 — Newsletter | 🔶 Aucun envoi ou décompte neuf attesté ; dernier chiffre documenté **03/11 : zéro abonné**. Le silence de l'hebdo du 10 ne constitue pas un recomptage | Avant le prochain envoi : liste complète des confirmés, expéditeur, consentement et désinscription ; ne pas recomposer sans changement utile |
+| P5 — Monétisation | 🔶 KPI du 11 : **0 € sur ses seules 24 h**, cumul indisponible par attribution incomplète. Veilles/monétisation silencieuses ; B2B 200, mentions 404 au contrôle du 12 | **Action humaine unique : confirmer l'entité vendeuse et son régime de TVA.** Prospection B2B fermée ; lecture Stripe, refus d'écriture et attribution restent distincts |
+| P6 — Presse / distribution | 🔶 Une notification de courrier le 11 au soir, **contenu non qualifié ici**, pas une retombée attestée. Distribution et suivis piaille silencieux | Lire/qualifier le courrier sans renvoyer. **Pas de nouvelle promotion Bluesky jusqu'au 15/11 inclus** ; silence ≠ permission/approbation |
+| P7 — Record | 🔴 **Dix-sept sauvegardes cloud ignorées**, sauvegarde locale refusée ; aucun contrôle neuf de chaîne historique | Préserver variantes/journaux/sceaux ; qualifier consignation durable après interruption, sans réparation rétroactive ni certification déduite des succès |
+| P8 — Skool | 🔶 Brouillon du 11 « Ton parcours avec l'IA : tu observes ou tu pratiques ? » annoncé ; **18/22 ancien**, non recompté | Prochaine session authentifiée : réconcilier M6/membres/publications. Brouillon ≠ publication ; source du post non validée factuellement par cette revue |
+| P9 — Organisation / exploitation | 🔴 **Pull refusé → transfert partiel → timeout → sauvegarde refusée**, pourtant cron `ok/completed`. Wrapper inchangé. Vague du 11 `unknown`, livrables privés présents mais **pas de rapport global/manifeste final**. **8 246 448 128 octets libres** le 12 à 00:54 | **Priorité du 12 :** garde minimale déjà préparée et reprise Git préservant les variantes ; ensuite checkpoint/export durable et consignation cloud sûre. Diagnostiquer les deux jobs `unknown` ; ne pas activer le seul délai comme solution de reprise |
+| P10 — Affiliation / hub | ✅ Commandes SHA-256 mobiles livrées `41a1e82` ; **CSS HTTPS exacte**, 334 tests et 16 parcours publics consignés, non rejoués ici. Reliquat grille/cache privé distinct | Requalifier le patch grille contre la CSS livrée le 11 ; ensuite commandes longues de dépannage. Installation des kits, affiliation et gain d'audience non attestés |
+
+### Une seule action humaine — identité vendeuse
+
+**Message exact :** « Maël, confirme en une réponse l'entité juridique qui vend le Pack et les prestations du Crabe, ainsi que son régime de TVA. Cette validation est nécessaire pour finaliser l'identité vendeuse et les mentions avant toute prospection B2B. »
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si cette absence de validation bloque l'ouverture commerciale.** Destinataire et message exacts dans `crabe-chantiers/gouvernance/2026-11-11/revue-2228/escalade-mael.txt`, hors dépôt public ; **préparé, non envoyé**. Autres prérequis commerciaux cumulatifs ; aucune validation déduite du silence. Les incidents techniques restent des actions internes, pas une deuxième demande humaine.
+
+**Mesure : 742 IP uniques estimées le 10 (−36,5 % par rapport au 9)**, média + hub, robots identifiés exclus ; pas le trafic du 11 ni des personnes certifiées. Dix abonnés Bluesky au contrôle du 12, contre onze dans le KPI du 11, sans cause attribuée. [Bilan détaillé](ceo-log.md#2026-11-11--bilan-du-soir-vérifié-le-12-publications-confirmées-reprise-toujours-ouverte). Seuls les deux documents de pilotage sont publiés ; aucun déploiement, cron, paiement, post ou email déclenché par cette revue. Livraison locale uniquement, jamais Discord.
+
+---
+
 ## Chantier site du 11 novembre — compression XML/OPML
 
 **Une seule intégration : gzip négocié des flux et sitemaps XML/OPML, suite bornée du SEO #7.** Cache des couvertures déjà livré, non refait. Base propre `edab0f3`, clone conflictuel préservé ; **330 Python + huit Node**, deux builds de **2 441 pages / 4 887 fichiers identiques**, **46 requêtes Apache** puis deux replis sans module. Une régression du premier candidat sur la compression HTML héritée a été détectée et corrigée avant publication par confinement aux extensions XML/OPML ; [périmètre et preuves](compression-xml.md).
@@ -7,7 +36,7 @@
 **Au commit initial : publication ciblée SFTP/HTTPS à confirmer.** Racine Apache conservée hors gestion du constructeur ; aucune règle de domaine, donnée, image ou page remplacée. Le cache des fichiers mutables et la précompression restent hors livraison. P9 reste distinct : aucune activation de capsule/reprise Git/candidat cloud ni modification de cron. Le dispatch précédent `42796037518` est désormais confirmé annulé pendant pipeline, sauvegarde ignorée ; la publication HTTPS du cache reste acquise.
 
 
-## État courant — 10 novembre 2026, revue du soir
+## État antérieur — 10 novembre 2026, revue du soir
 
 **Cette synthèse prévaut sur les relevés historiques ci-dessous.** Revue prévue à 21 h CET, dispatch à 21:20 ; pull partagé à **22:07 refusé (128)**, six fichiers non fusionnés et journal indexé, préservés. Worktree documentaire propre : pull réussi ici seulement. Base des mesures **`3de2d125657b93fd932e759759a2607e3b561360`**, fenêtre des commits/créations GitHub arrêtée à **22:09:04 CET** (`09/11 23:00 → 10/11 21:09:04 UTC`). Clôture documentaire ADK `74bca75` reprise avant édition à 22:13. Sondes HTTPS du soir séparées, sans antidatation.
 

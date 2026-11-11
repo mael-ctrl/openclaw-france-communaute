@@ -1,5 +1,46 @@
 [
  {
+  "id": "a610dfb905dfb698",
+  "slug": "gilbert-tobin-sam-nickless-raconte-comment-l-ia-change-le-metier-du-dr-a610df",
+  "titre": "Gilbert + Tobin : Sam Nickless raconte comment l'IA change le métier du droit",
+  "resume": "OpenAI publie un entretien avec Sam Nickless, associé et directeur général du cabinet d'avocats Gilbert + Tobin. Le sujet : la manière dont le cabinet repense le métier du droit avec l'IA. L'échange porte sur la façon dont l'IA modifie le travail juridique au sein de la structure.",
+  "tags": [
+   "openai",
+   "business"
+  ],
+  "importance": 2,
+  "source": "OpenAI",
+  "lien_source": "https://openai.com/index/gilbert-tobin-sam-nickless",
+  "date_source": "2026-11-12T00:00:00+00:00",
+  "date_redac": "2026-11-11T00:57:19+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 596,
+   "sortie": 830
+  }
+ },
+ {
+  "id": "99ff0973265c3cad",
+  "slug": "xkcd-artist-un-modele-onnx-de-1-72-mo-qui-dessine-des-comics-dans-le-n-99ff09",
+  "titre": "xkcd-artist : un modèle ONNX de 1,72 Mo qui dessine des comics dans le navigateur",
+  "resume": "xkcd-artist est un planificateur cinématique de 1,72 Mo en Int8 ONNX qui tourne dans le navigateur en 0,55 ms (médiane) via WASM SIMD. Il prédit le nombre de cases, les accessoires et les poses de bonhommes à 12 degrés de liberté, puis un compositeur SVG procédural produit les traits et les dialogues. L'ensemble couvre plus de 138 planches, graphiques et organigrammes, sans aucun appel au cloud.",
+  "tags": [
+   "open-source",
+   "dev",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xt2x2d/i_baked_xkcdartist_a_172_mb_int8_onnx_browser/",
+  "date_source": "2026-11-11T00:02:40+00:00",
+  "date_redac": "2026-11-11T00:57:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 868,
+   "sortie": 936
+  }
+ },
+ {
   "id": "2da31cfa51ca3251",
   "slug": "pydantic-ai-v2-67-sous-agents-durables-et-contexte-de-depot-plus-stric-2da31c",
   "titre": "Pydantic AI v2.67 : sous-agents durables et contexte de dépôt plus strict",

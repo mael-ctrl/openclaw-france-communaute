@@ -1,0 +1,41 @@
+{
+ "slug": "macaq-la-quantification-de-huawei-qui-defie-unsloth-sur-les--c89baa",
+ "titre": "MACaQ, la quantification de Huawei qui défie Unsloth sur les GGUF",
+ "chapo": "D'un côté, Huawei publie une méthode de quantification qui revendique de meilleurs chiffres que les GGUF d'Unsloth et de Bartowski. De l'autre, Unsloth sort sa Dynamic V3.1, Gemini 4 Carbon s'ouvre à tous avec un prix qui va doubler et NVIDIA lâche un modèle de conduite autonome open source.",
+ "html": "<h2 id=\"la-divergence-kl-comme-juge-de-paix\">La divergence KL comme juge de paix</h2>\n<p>MACaQ est une méthode de quantification développée par Huawei, et elle attaque le terrain où les GGUF d'Unsloth et de Bartowski font la loi : le 4 bits. Son argument tient en une métrique, la divergence KL, qui mesure l'écart entre la distribution de probabilités du modèle quantifié et celle du modèle d'origine. Plus elle est basse, moins la quantification abîme le modèle.</p>\n<p>Sur Qwen3-4B en IQ4_XS, à taille de fichier quasi identique, MACaQ affiche 0,02804 de KL moyen : 23,5 % de moins qu'Unsloth et 18,6 % de moins que Bartowski. Sur Qwen3.8-27B, l'écart atteint environ 65 % face à Bartowski. Le code, un fork de llama.cpp et les benchmarks sont publiés sur GitHub — de quoi aller vérifier plutôt que croire.</p>\n<h2 id=\"unsloth-riposte-avec-dynamic-v3-1\">Unsloth riposte avec Dynamic V3.1</h2>\n<p>En parallèle, Unsloth publie Dynamic V3.1, son algorithme de quantification, pour Qwen3.8-27B, DeepSeek-V4.1-Flash-1017 et Qwen3.8-Flash-Next. L'équipe annonce <strong>10 à 15 % de précision en plus</strong> et <strong>50 % de tokens en moins</strong> que les autres quantifications de taille égale, et dit préparer une version pour Qwen4. Ce sont ses chiffres, pas ceux d'un tiers.</p>\n<p>Dans les discussions, un utilisateur doute du gain face à la V3 sur DeepSWE v1.1 et note que le nouveau .gguf est plus volumineux. Le match se joue donc sur deux tableaux : la qualité mesurée par les benchmarks, et le coût réel en octets sur le disque — celui qui décide si le modèle rentre ou non dans la VRAM.</p>\n<h2 id=\"gemini-4-carbon-ouvert-a-tous-mais-lisib\">Gemini 4 Carbon : ouvert à tous, mais lisible en petits caractères</h2>\n<p>Gemini 4 Carbon est le dernier-né de Google. Annoncé il y a deux semaines à un cercle restreint de « cyber défenseurs », il est désormais accessible à tous, et Google le présente comme son meilleur Gemini.</p>\n<p>Le tarif mérite qu'on s'y arrête : <strong>2 $ par million de tokens en entrée et 10 $ en sortie au lancement</strong>, avant un doublement à 4 $ et 20 $ le 1er décembre. Simon Willison accompagne la sortie avec llm-gemini 0.36 et compare les rendus selon l'effort de réflexion demandé au modèle.</p>\n<h2 id=\"du-bitume-au-bureau-du-patron\">Du bitume au bureau du patron</h2>\n<p>NVIDIA publie Alpamayo 2 Edge, un modèle de conduite autonome open source, entraîné dans une boucle d'apprentissage par renforcement et qui prend en entrée six caméras ainsi que le mouvement récent. Embedl, l'entreprise de l'auteur du post, en propose déjà une version optimisée, annoncée <strong>plus de dix fois plus rapide que PyTorch</strong> sur du matériel embarqué comme l'AGX Thor.</p>\n<p>Chez Databricks, l'open source n'est pas le sujet : avec 12 000 salariés, le CEO Ali Ghodsi reconnaît volontiers qu'il ne peut pas connaître tout le monde, ni s'attendre à ce que ses équipes lui avouent ce qui dysfonctionne. Il s'appuie pour cela sur Genie, l'agent IA de l'entreprise, révisé pour l'occasion. L'agent sert à obtenir ce que les salariés ne diraient pas spontanément à leur patron.</p>\n<h2>Et maintenant ?</h2>\n<p>Le fil de la semaine, c'est la mesure. Une quantification se juge sur une divergence KL, une optimisation sur un facteur de vitesse face à PyTorch, un modèle sur un prix au million de tokens. Chaque annonce arrive avec sa métrique et son lot de contestations dans les commentaires, et c'est plutôt sain : les chiffres se discutent, se comparent, se vérifient sur GitHub. Reste que le prix de Gemini 4 Carbon va doubler en trois semaines, et qu'aucune courbe de benchmark ne dit encore ce que coûtera une application qui tourne dessus.</p>",
+ "pivot": "c89baaa73eae1816",
+ "tags": [
+  "open-source",
+  "dev",
+  "gemini",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xto0fa/opensource_method_macaq_beats_unsloth_ggufs/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtmeif/open_source_self_driving_is_here/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtmcoe/unsloth_dynamic_v31_released_for_qwen3827b/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/"
+  }
+ ],
+ "date": "2026-11-11T17:51:30+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1657,
+  "sortie": 3345
+ }
+}

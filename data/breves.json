@@ -20,6 +20,129 @@
   }
  },
  {
+  "id": "3ff7f4ef5c7cdaab",
+  "slug": "singles-day-la-console-portable-ayn-thor-cartonne-sur-aliexpress-3ff7f4",
+  "titre": "Singles Day : la console portable AYN Thor cartonne sur AliExpress",
+  "resume": "L'AYN Thor est une console portable qui se distingue pendant le Singles Day sur AliExpress. Le modèle, qui rappelle l'époque de la Nintendo DS, séduit par son positionnement tarifaire face aux « pseudo-consoles portables ». Un point de repère pour qui cherche une machine de jeu dédiée plutôt qu'un smartphone.",
+  "tags": [
+   "matériel"
+  ],
+  "importance": 1,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/bons-plans/ayn-thor-oubliez-les-pseudos-consoles-portables-a-ce-prix-extra-cest-elle-la-reine.html",
+  "date_source": "2026-11-11T17:43:32+00:00",
+  "date_redac": "2026-11-11T17:50:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 662,
+   "sortie": 321
+  }
+ },
+ {
+  "id": "c89baaa73eae1816",
+  "slug": "macaq-la-methode-de-quantization-de-huawei-qui-bat-unsloth-sur-les-ggu-c89baa",
+  "titre": "MACaQ, la méthode de quantization de Huawei qui bat Unsloth sur les GGUF",
+  "resume": "MACaQ, méthode de quantification de Huawei, revendique une divergence KL plus faible que les GGUF d'Unsloth et de Bartowski. Sur Qwen3-4B en IQ4_XS, à taille quasi identique, elle affiche 0,02804 de KL moyen : 23,5 % de moins qu'Unsloth, 18,6 % de moins que Bartowski. Sur Qwen3.8-27B, l'écart atteint environ 65 % face à Bartowski. Code, fork de llama.cpp et benchmarks sont publiés sur GitHub.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xto0fa/opensource_method_macaq_beats_unsloth_ggufs/",
+  "date_source": "2026-11-11T17:32:40+00:00",
+  "date_redac": "2026-11-11T17:50:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 965,
+   "sortie": 988
+  }
+ },
+ {
+  "id": "2a857c9f04fee67d",
+  "slug": "deepseek-v4-1-flash-et-ses-deux-chiffres-de-parametres-actifs-2a857c",
+  "titre": "DeepSeek v4.1 Flash et ses deux chiffres de paramètres actifs",
+  "resume": "Sur r/LocalLLaMA, un utilisateur s'interroge sur les deux chiffres de paramètres actifs prêtés à DeepSeek v4.1 Flash : 8B en entrée (prefill) et 16B en sortie, au décodage. Il demande si le modèle est le seul dans ce cas, comment ce mécanisme fonctionne concrètement et lequel des deux chiffres compte le plus. La question porte aussi sur la probabilité que d'autres modèles adoptent la même approche.",
+  "tags": [
+   "deepseek",
+   "recherche"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xtmrii/deepseek_has_two_numbers_for_active_parameter/",
+  "date_source": "2026-11-11T16:47:55+00:00",
+  "date_redac": "2026-11-11T17:50:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 731,
+   "sortie": 815
+  }
+ },
+ {
+  "id": "064f4b55b639658f",
+  "slug": "nvidia-publie-alpamayo-2-edge-un-modele-de-conduite-autonome-open-sour-064f4b",
+  "titre": "NVIDIA publie Alpamayo 2 Edge, un modèle de conduite autonome open source",
+  "resume": "NVIDIA publie Alpamayo 2 Edge, un modèle de conduite autonome open source. Embedl, l'entreprise de l'auteur du post, en propose déjà une version optimisée annoncée plus de 10 fois plus rapide que PyTorch sur du matériel embarqué comme l'AGX Thor. Le modèle est entraîné dans une boucle d'apprentissage par renforcement et prend en entrée six caméras ainsi que le mouvement récent.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xtmeif/open_source_self_driving_is_here/",
+  "date_source": "2026-11-11T16:34:38+00:00",
+  "date_redac": "2026-11-11T17:50:58+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 709,
+   "sortie": 494
+  }
+ },
+ {
+  "id": "7a548ed40b0e3751",
+  "slug": "unsloth-dynamic-v3-1-arrive-pour-qwen3-8-et-deepseek-v4-1-flash-7a548e",
+  "titre": "Unsloth Dynamic V3.1 arrive pour Qwen3.8 et DeepSeek-V4.1-Flash",
+  "resume": "Unsloth publie Dynamic V3.1, son algorithme de quantification pour Qwen3.8-27B, DeepSeek-V4.1-Flash-1017 et Qwen3.8-Flash-Next : 10 à 15 % de précision en plus et 50 % de tokens en moins que les autres quantifications de taille égale, selon l'équipe, qui prépare déjà une version pour Qwen4. Un utilisateur doute du gain face à V3 sur DeepSWE v1.1 et note que le nouveau .gguf est plus volumineux.",
+  "tags": [
+   "open-source",
+   "deepseek",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xtmcoe/unsloth_dynamic_v31_released_for_qwen3827b/",
+  "date_source": "2026-11-11T16:32:45+00:00",
+  "date_redac": "2026-11-11T17:51:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 866,
+   "sortie": 1369
+  }
+ },
+ {
+  "id": "c1ac76566aa3d738",
+  "slug": "krafton-devoile-raon-1-nano-un-modele-de-1-5-milliard-de-parametres-so-c1ac76",
+  "titre": "KRAFTON dévoile Raon-1 nano, un modèle de 1,5 milliard de paramètres sous Apache 2.0",
+  "resume": "KRAFTON AI publie Raon-1 nano, modèle dense de 1,5 milliard de paramètres effectifs (3,1 milliards au total, table d'embedding par couche comprise). Entraîné en coréen et en anglais, il suit des instructions, tient le contexte d'une conversation et appelle des outils. Sous licence Apache 2.0, il est proposé en GGUF, MLX et LiteRT-LM pour l'inférence locale, Apple silicon inclus.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xtmbkn/kraftonraon1nano_hugging_face/",
+  "date_source": "2026-11-11T16:31:38+00:00",
+  "date_redac": "2026-11-11T17:51:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 790,
+   "sortie": 1264
+  }
+ },
+ {
   "id": "b800836e09069eb8",
   "slug": "google-lance-tabletop-une-ia-experimentale-pour-creer-ses-propres-outi-b80083",
   "titre": "Google lance Tabletop, une IA expérimentale pour créer ses propres outils collaboratifs",

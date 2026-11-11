@@ -1,0 +1,41 @@
+{
+ "slug": "harbor-apple-voudrait-faire-de-votre-mac-un-serveur-d-ia-loc-e36de8",
+ "titre": "Harbor : Apple voudrait faire de votre Mac un serveur d'IA local",
+ "chapo": "Une app Mac qui fait tourner des modèles en local, sur plusieurs machines reliées en Thunderbolt 5 : c'est Harbor, que le leaker Aaron Perris décrit depuis le 10 novembre. Apple n'a pas confirmé, mais le geste — sortir l'inférence du cloud — résonne avec une actualité chargée côté modèles et régulation.",
+ "html": "<h2 id=\"harbor-l-inference-a-la-maison\">Harbor, l'inférence à la maison</h2>\n<p>Selon Frandroid, le leaker Aaron Perris a publié le 10 novembre la description de <strong>Harbor</strong>, une application Mac d'Apple qui fait tourner des modèles d'IA en local. Particularité : la charge peut être répartie sur une ou plusieurs machines reliées en <strong>Thunderbolt 5</strong>. L'application serait déjà en test privé chez <strong>Claris</strong>, une filiale d'Apple.</p>\n<p>L'ambition tient en une ligne : faire tourner l'inférence sur du matériel Apple plutôt que dans le cloud. Dit autrement, le Mac devient le serveur, et les requêtes ne sortent plus de la machine — ou du réseau local.</p>\n<p>La dépêche s'arrête là. Aucun modèle n'est cité, aucune date de disponibilité, aucun prix. Harbor reste pour l'instant une description publiée par un leaker, pas un produit annoncé.</p>\n<h2 id=\"deux-facons-de-compter-le-cout-d-une-req\">Deux façons de compter le coût d'une requête</h2>\n<p>Le même jour, une autre actualité rappelle ce que coûte l'inférence dans le cloud. <strong>Gemini 4 Carbon</strong>, annoncé il y a deux semaines à un cercle restreint de « cyber défenseurs », est désormais ouvert à tous. Google le présente comme son meilleur Gemini. Tarifs de lancement : <strong>2 $ le million de tokens en entrée, 10 $ en sortie</strong>. À partir du 1er décembre, ces prix doublent, à 4 $ et 20 $. Simon Willison accompagne la sortie avec <strong>llm-gemini 0.36</strong> et compare les rendus selon l'effort de réflexion demandé au modèle.</p>\n<p>Les deux sujets ne se répondent pas : rien n'indique qu'Apple réagisse à la grille tarifaire de Google. Mais côte à côte, ils dessinent deux modèles économiques. D'un côté, un modèle facturé au token, dont le tarif de lancement devient le tarif normal un mois plus tard. De l'autre, du matériel déjà payé, dont chaque requête supplémentaire n'apparaît plus sur une facture.</p>\n<h2 id=\"new-york-ajoute-la-couche-conformite\">New York ajoute la couche conformité</h2>\n<p>New York s'apprête à faire appliquer sa vaste loi sur la sécurité en IA, rapporte TechCrunch IA. Les grands développeurs, <strong>OpenAI</strong> et <strong>Anthropic</strong> en tête, devront s'enregistrer, divulguer leurs pratiques en matière de sécurité et signaler les incidents critiques, sous peine d'amendes. Le texte place les principaux acteurs du secteur sous une surveillance directe — un régime déclaratif, avec obligation de rendre des comptes.</p>\n<p>C'est un troisième coût, moins visible que les deux premiers : celui de la conformité. Enregistrement, documentation, notification d'incidents, tout cela se traduit en procédures à tenir à jour, indépendamment du prix des tokens.</p>\n<h2 id=\"nvidia-et-openai-les-mouvements-du-jour\">Nvidia et OpenAI : les mouvements du jour</h2>\n<p>Chez Nvidia, l'actualité est interne. Le groupe a choisi <strong>Joon H. Kim</strong>, ancien procureur fédéral de Manhattan réputé pour sa fermeté, pour mener l'enquête interne sur son propre patron, <strong>Jensen Huang</strong>. Ce profil poids lourd est présenté comme un moyen de rassurer Washington et Wall Street. L'annonce intervient une semaine avant les résultats trimestriels du groupe, sous haute tension.</p>\n<p>Chez OpenAI, c'est une acquisition : <strong>Odessia</strong>, une start-up du voyage créée par <strong>Francis Davidson</strong>, le fondateur de Sonder. Le groupe n'a pas indiqué ce qu'il compte faire dans le secteur du tourisme. Davidson est une figure connue de l'industrie du voyage, ce qui donne un relief particulier à l'opération.</p>\n<h2>Et maintenant ?</h2>\n<p>Quatre fils, une même séquence. Apple regarde vers le local, Google ajuste le prix de son meilleur Gemini, New York ajoute une couche déclarative, Nvidia soigne sa crédibilité avant ses résultats. Aucun de ces mouvements ne commande les autres. Mais ensemble, ils déplacent la question : moins « quel modèle est le meilleur » que « où tourne-t-il, combien coûte-t-il, et qui doit en répondre ».</p>",
+ "pivot": "e36de825ac98e9e6",
+ "tags": [
+  "openai",
+  "gemini",
+  "sécurité",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/3318947_avec-harbor-apple-veut-transformer-votre-mac-en-serveur-dia-prive"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/nvidia/3318305_qui-est-joon-kim-lancien-procureur-choisi-par-nvidia-pour-enqueter-sur-jensen-huang"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/"
+  }
+ ],
+ "date": "2026-11-11T14:27:03+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1497,
+  "sortie": 3612
+ }
+}

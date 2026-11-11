@@ -20,6 +20,130 @@
   }
  },
  {
+  "id": "e36de825ac98e9e6",
+  "slug": "harbor-apple-preparerait-un-serveur-d-ia-local-sur-mac-e36de8",
+  "titre": "Harbor : Apple préparerait un serveur d'IA local sur Mac",
+  "resume": "Le leaker Aaron Perris a publié le 10 novembre la description de Harbor, une application Mac d'Apple qui fait tourner des modèles d'IA en local, sur une ou plusieurs machines reliées en Thunderbolt 5. Elle serait déjà en test privé chez Claris, une filiale d'Apple. Le projet ferait ainsi tourner l'inférence sur du matériel Apple plutôt que dans le cloud.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 3,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/3318947_avec-harbor-apple-veut-transformer-votre-mac-en-serveur-dia-prive",
+  "date_source": "2026-11-11T14:22:41+00:00",
+  "date_redac": "2026-11-11T14:26:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 675,
+   "sortie": 1433
+  }
+ },
+ {
+  "id": "4c80d3550ccd129f",
+  "slug": "adobe-devoile-des-prototypes-ia-photos-en-3d-et-personnages-a-interrog-4c80d3",
+  "titre": "Adobe dévoile des prototypes IA : photos en 3D et personnages à interroger",
+  "resume": "À l'occasion de sa conférence Max, Adobe présente ses expérimentations les plus récentes. Trois prototypes se distinguent : transformer une image en scène 3D explorable, concevoir un personnage IA en dialoguant avec lui, ou encore réduire la retouche photo à un copier-coller. Ces fonctions restent expérimentales, mais elles montrent les pistes qu'Adobe développe en interne.",
+  "tags": [
+   "recherche",
+   "agents",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+  "date_source": "2026-11-11T14:00:00+00:00",
+  "date_redac": "2026-11-11T14:26:21+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 661,
+   "sortie": 885
+  }
+ },
+ {
+  "id": "7ebec8e57138b751",
+  "slug": "deepseek-4-1-tourne-en-local-sur-un-pc-gaming-d-occasion-a-800-dollars-7ebec8",
+  "titre": "DeepSeek 4.1 tourne en local sur un PC gaming d'occasion à 800 dollars",
+  "resume": "Sur r/LocalLLaMA, un utilisateur fait tourner DeepSeek 4.1 sur une machine de 32 Go avec une RTX 3090, un PC gaming d'occasion payé 800 dollars. Résultat : 2 à 3 tokens par seconde en quantification 2 bits, « pas vraiment utilisable » en l'état, admet-il. Il a 128 Go de RAM, une 3060 de rechange et peut-être une seconde 3090. Ce qui compte : un modèle presque de pointe il y a peu tient sur du matériel grand public.",
+  "tags": [
+   "deepseek",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xti4bc/deepseek_41_running_local/",
+  "date_source": "2026-11-11T13:45:30+00:00",
+  "date_redac": "2026-11-11T14:26:28+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 829,
+   "sortie": 1091
+  }
+ },
+ {
+  "id": "7982eda2545afaad",
+  "slug": "openai-devoile-control-room-un-kill-switch-pour-stopper-ses-ia-en-35-s-7982ed",
+  "titre": "OpenAI dévoile Control Room, un kill switch pour stopper ses IA en 35 secondes",
+  "resume": "OpenAI a présenté le 10 novembre Control Room, un système central qui suit toutes les tâches de ses chercheurs utilisant ses modèles d'IA. Le dispositif est décrit comme un « kill switch » censé arrêter les dérapages « dans les 35 secondes ». L'enjeu : garder la main sur les modèles déployés en interne.",
+  "tags": [
+   "openai",
+   "sécurité",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/cyberguerre/2372239-arreter-les-degats-dans-les-35-secondes-openai-devoile-le-kill-switch-cense-stopper-ses-ia-quand-elles-derapent.html",
+  "date_source": "2026-11-11T13:35:38+00:00",
+  "date_redac": "2026-11-11T14:26:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 672,
+   "sortie": 536
+  }
+ },
+ {
+  "id": "b584f36334916f03",
+  "slug": "tree-ising-reparer-un-llm-en-editant-ses-poids-bf16-sans-gradient-b584f3",
+  "titre": "Tree-Ising : réparer un LLM en éditant ses poids BF16, sans gradient",
+  "resume": "Des travaux du MIT (Takei et al.) montrent qu'un agent LLM peut lire les poids d'un réseau et y écrire une réparation : leur agent GPT-6 Astra corrige les boucles de raisonnement de Qwen3.5-0.8B sans gradient, avec 158 tours et 89,7 millions de tokens. Tree-Ising ramène cette réparation à une optimisation discrète sur les poids BF16, décomposée exactement en problèmes QUBO indépendants, un par ligne de sortie.",
+  "tags": [
+   "recherche",
+   "dev",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xthtwt/paper_treeising_repairing_language_models_with/",
+  "date_source": "2026-11-11T13:32:30+00:00",
+  "date_redac": "2026-11-11T14:26:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 799,
+   "sortie": 971
+  }
+ },
+ {
+  "id": "473e33ccf0b0b3a0",
+  "slug": "un-mini-pc-ryzen-5-avec-16-go-ssd-et-windows-11-pro-a-petit-prix-face--473e33",
+  "titre": "Un mini PC Ryzen 5 avec 16 Go, SSD et Windows 11 Pro à petit prix face au Mac mini",
+  "resume": "Avec la flambée du prix de la mémoire, dénicher un PC complet doté de 16 Go de RAM, d'un SSD et de Windows 11 Pro à ce tarif relève presque de l'exploit. Ce mini PC animé par un Ryzen 5 est présenté comme un rival à petit prix du Mac mini. Il figure parmi les meilleures ventes sur AliExpress depuis le début du Single Day.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/bons-plans/le-mac-mini-a-trouve-son-rival-a-petit-prix-ce-mini-pc-ryzen-5-avec-16-go-512-go-et-windows-11-pro.html",
+  "date_source": "2026-11-11T13:31:20+00:00",
+  "date_redac": "2026-11-11T14:26:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 703,
+   "sortie": 446
+  }
+ },
+ {
   "id": "99ff0973265c3cad",
   "slug": "xkcd-artist-un-modele-onnx-de-1-72-mo-qui-dessine-des-comics-dans-le-n-99ff09",
   "titre": "xkcd-artist : un modèle ONNX de 1,72 Mo qui dessine des comics dans le navigateur",

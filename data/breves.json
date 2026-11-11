@@ -1,5 +1,108 @@
 [
  {
+  "id": "2da31cfa51ca3251",
+  "slug": "pydantic-ai-v2-67-sous-agents-durables-et-contexte-de-depot-plus-stric-2da31c",
+  "titre": "Pydantic AI v2.67 : sous-agents durables et contexte de dépôt plus strict",
+  "resume": "Pydantic AI publie la version 2.67.0, accompagnée de notes de compatibilité. Les SubAgents (dynamic_agents=...) fonctionnent désormais sous exécution durable, et les champs d'outils natifs propres aux fournisseurs passent dans provider_settings. Côté contexte, RepoContext charge un fichier d'instructions par répertoire avec walk_up, et les instructions imbriquées sont plafonnées à 32 000 caractères par conversation.",
+  "tags": [
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Pydantic AI (releases, préversions incluses)",
+  "lien_source": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.67.0",
+  "date_source": "2026-11-10T23:11:23+00:00",
+  "date_redac": "2026-11-11T00:01:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 841,
+   "sortie": 707
+  }
+ },
+ {
+  "id": "a67705f28cae0c41",
+  "slug": "codex-publie-la-preversion-rust-v0-169-0-alpha-10-a67705",
+  "titre": "Codex publie la préversion rust-v0.169.0-alpha.10",
+  "resume": "OpenAI a publié une nouvelle préversion de Codex, estampillée rust-v0.169.0-alpha.10 sur le dépôt GitHub du projet. La note de version se limite à « Release 0.169.0-alpha.10 » : aucune indication sur le contenu, les correctifs ou les fonctionnalités concernées. Le préfixe « rust » et le numéro de version renvoient donc à un simple incrément de la série alpha.",
+  "tags": [
+   "openai",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.10",
+  "date_source": "2026-11-10T22:29:00+00:00",
+  "date_redac": "2026-11-11T00:01:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 603,
+   "sortie": 695
+  }
+ },
+ {
+  "id": "7c0c14ea88621aa8",
+  "slug": "openai-publie-la-preversion-0-169-0-alpha-9-de-codex-7c0c14",
+  "titre": "OpenAI publie la préversion 0.169.0-alpha.9 de Codex",
+  "resume": "OpenAI a mis en ligne la préversion 0.169.0-alpha.9 de Codex sur son dépôt GitHub, le 10 novembre 2026. La note de version se limite au numéro de build, sans indication sur les changements apportés. Cette publication prend place dans le cycle de préversions qui précède les versions stables de l'outil.",
+  "tags": [
+   "openai",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.9",
+  "date_source": "2026-11-10T22:13:52+00:00",
+  "date_redac": "2026-11-11T00:01:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 683
+  }
+ },
+ {
+  "id": "4b51dcfa3476765e",
+  "slug": "quelles-taches-les-utilisateurs-deplacent-ils-du-cloud-vers-les-modele-4b51dc",
+  "titre": "Quelles tâches les utilisateurs déplacent-ils du cloud vers les modèles locaux",
+  "resume": "Sur r/LocalLLaMA, un utilisateur demande à quoi servent réellement les modèles locaux une fois l'installation terminée. Il veut savoir quelles tâches les membres ont cessé de confier au cloud, parce qu'un modèle local fait le travail assez bien. Il demande aussi ce qui les fait encore revenir vers Claude, ChatGPT ou Gemini.",
+  "tags": [
+   "open-source",
+   "claude",
+   "chatgpt"
+  ],
+  "importance": 1,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xt0ah5/what_tasks_have_you_moved_from_cloud_models_to/",
+  "date_source": "2026-11-10T22:10:25+00:00",
+  "date_redac": "2026-11-11T00:01:23+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 684,
+   "sortie": 815
+  }
+ },
+ {
+  "id": "748d18a2fa47a898",
+  "slug": "et-si-l-ia-concevait-du-materiel-open-source-taille-pour-un-modele-748d18",
+  "titre": "Et si l'IA concevait du matériel open source taillé pour un modèle ?",
+  "resume": "Sur r/LocalLLaMA, un internaute part d'un constat : l'inférence se décline désormais par modèle et par matériel. Il pose la question inverse : pourrait-on faire concevoir par une IA un matériel open source dédié à un modèle précis, puis l'envoyer en fabrication ? L'exemple cité est « DSF 4.1F ». L'extrait ne contient aucune réponse à cette interrogation.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xt059z/we_got_custom_inference_per_model_per_hardware/",
+  "date_source": "2026-11-10T22:04:28+00:00",
+  "date_redac": "2026-11-11T00:01:27+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 656,
+   "sortie": 610
+  }
+ },
+ {
   "id": "a94ef92514415105",
   "slug": "codex-passe-en-0-167-1-sans-detail-sur-les-changements-a94ef9",
   "titre": "Codex passe en 0.167.1, sans détail sur les changements",

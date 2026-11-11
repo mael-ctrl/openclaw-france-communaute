@@ -3957,3 +3957,12 @@
 {"ts": "2026-11-10T22:46:45+00:00", "evenement": "deploiement", "details": {"fichiers": 2486, "octets": 105869661}, "sha256": "7663af14c11424afd7cce6368ca61994ebb1bc040a1d593d5d027815338cd373"}
 {"ts": "2026-11-10T22:46:46+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "7b0d86a5eb29e30628b524204620c26cf39f31a6f9ade1f4e86ce5afa5bf0718"}
 {"ts": "2026-11-10T22:46:46+00:00", "evenement": "bilan", "details": {"duree_s": 2392.7, "neufs": 16, "breves": 6, "articles": 1, "fichiers": 2432, "envois": 2486, "publications": 0}, "sha256": "bf2c6b4b902e175b353e8dfe50e8422bfcd85d068553dc7e46231dae81086374"}
+{"ts": "2026-11-11T00:00:40+00:00", "evenement": "collecte", "details": {"neufs": 7}, "sha256": "a13f50e7bbecb1ef450abc1f33279b0bd54ca907edca20be96d0724adce2a927"}
+{"ts": "2026-11-11T00:00:55+00:00", "evenement": "erreur", "details": {"message": "brève impossible (XeMaya, an Intel Arc inference engine to run DeepSeek V4.1 a) : réponse non-JSON"}, "sha256": "b6d36b50d23dc7c0c3878a1acb95a29aedcbe436161d3b31520eee805a21d579"}
+{"ts": "2026-11-11T00:02:08+00:00", "evenement": "construction", "details": {"fichiers": 2438}, "sha256": "c01fc250d7b7f5f41156231284f7d2944111f561c98cbc46438cd62796f06692"}
+{"ts": "2026-11-11T00:38:13+00:00", "evenement": "deploiement", "details": {"fichiers": 2491, "octets": 106056269}, "sha256": "a95042df4b2a64ae7e3689cc134a5b6d2d2591bed61d7282b3499186fe479617"}
+{"ts": "2026-11-11T00:38:14+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "7dffb9cd02baff5faf731438162f1325c6d181122725615f5f0bcc90040352f4"}
+{"ts": "2026-11-11T00:38:22+00:00", "evenement": "archivage", "details": {"wayback": 200}, "sha256": "b1c0378d52e04716590d3ebf4ea996ec2040acafc3e5202c4c905ae05856f23f"}
+{"ts": "2026-11-11T00:38:32+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "ec90aa6dbd47f1fb9af2e1b90ed76fdf27ba20d6d0592776719ad2d7f779663c"}
+{"ts": "2026-11-11T00:38:32+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-11-11.json", "publications": 2399}, "sha256": "111f2f325d6be3e30f99c688e9df191cea3af3913942e4f1f1b633db9d66600e"}
+{"ts": "2026-11-11T00:38:32+00:00", "evenement": "bilan", "details": {"duree_s": 2291.1, "neufs": 7, "breves": 5, "articles": 1, "fichiers": 2438, "envois": 2491, "publications": 4}, "sha256": "f484e99be24144fa697dc16d5411d6bb6d81d998ae1fbf15de3af4c48594ed09"}

@@ -1,22 +1,18 @@
 {
- "runs": 476,
- "items_collectes": 4441,
- "breves_publiees": 1838,
- "articles_publies": 355,
- "tokens_entree": 1883934,
- "tokens_sortie": 2597507,
+ "runs": 477,
+ "items_collectes": 4448,
+ "breves_publiees": 1843,
+ "articles_publies": 356,
+ "tokens_entree": 1888826,
+ "tokens_sortie": 2603555,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-11-10T22:08:13+00:00",
+ "dernier_run": "2026-11-11T00:01:43+00:00",
  "solde": {
-  "total": "81.59",
+  "total": "81.58",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-11-03T09:20:17+00:00",
-   "message": "déploiement : [Errno 104] Connection reset by peer"
-  },
   {
    "ts": "2026-11-04T01:04:18+00:00",
    "message": "archivage wayback : The read operation timed out"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-11-07T02:18:29+00:00",
    "message": "brève impossible (What made your custom research/task harness effective? How d) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-11-11T00:00:55+00:00",
+   "message": "brève impossible (XeMaya, an Intel Arc inference engine to run DeepSeek V4.1 a) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 10.07,
+ "depense_usd": 10.08,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1924,13 +1924,17 @@
   [
    "2026-11-10T22:07:26+00:00",
    "81.59"
+  ],
+  [
+   "2026-11-11T00:00:41+00:00",
+   "81.58"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 1.11,
+ "depense_mois_usd": 1.12,
  "archive_tentatives": {
-  "jour": "2026-11-10",
-  "n": 2
+  "jour": "2026-11-11",
+  "n": 1
  },
- "derniere_archive": "2026-11-10"
+ "derniere_archive": "2026-11-11"
 }

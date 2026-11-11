@@ -52,4 +52,31 @@ OPML reparsé : 32 couples nom/adresse strictement identiques au catalogue ; SHA
 `2214d0c1697e3c1196c88234ce420cb327d3e540a76974d7d899c30802246915`.
 Pièces privées : `crabe-chantiers/croissance/2026-11-11/evidence/`.
 
-Au commit initial, publication et recette HTTPS restent à confirmer.
+Au commit initial, publication et recette HTTPS restaient à confirmer.
+
+## Publication vérifiée à 13:38 UTC
+
+Commit de configuration : `82dd2c12089fcdbcd7d80f7bd1682d45b44636fd`.
+Les trois fichiers livrés ont été relus identiques via l'API GitHub sur `main`.
+Le run précédent `43019718464`, sur l'ancien catalogue, a été attendu jusqu'à
+sa fin : **annulé pendant le pipeline**, sauvegarde ignorée, et non une simple
+annulation en file d'attente. Aucun run annulé manuellement. Le premier préflight
+a effectivement refusé toute livraison tant que ce run était actif.
+
+Après sa fin, contrôle des runs actifs par statut et vérification de leur catalogue.
+Livraison SFTP ciblée : `/veille/sources.opml` et seulement le compteur **31 → 32**
+de `/transparence/`. Tous les autres octets de cette page sont préservés.
+Clé hôte épinglée avant secret, sauvegardes privées, base OPML exactement égale
+à celle du parent, égalité HTTPS/SFTP préalable, transformation inverse exacte,
+staging `.part` relu avant renommage, contrôle de concurrence et relecture SFTP.
+Aucun résidu `.part` sur les deux cibles. **Deux lectures HTTPS canoniques strictes
+identiques à 13:38:34 UTC**, export de 32 flux et compteur cohérent.
+
+Pièces : `livraison-ciblee/{preflight,sftp-result,https-result}.json`, corps avant/après
+et lectures HTTPS. Le dispatch `43026369589` utilise exactement le commit livré ;
+ses contrats cloud sont **réussis** à 13:39:17 UTC. Au relevé de 13:39:34 UTC,
+son pipeline global reste **en cours** : ni sauvegarde d'état finale ni publication
+d'une brève issue du nouveau flux ne sont revendiquées.
+
+La publication ciblée ne répare pas le clone opérationnel conflictuel ni les
+annulations du pipeline complet. Aucun nouveau cron ni changement de cadence.

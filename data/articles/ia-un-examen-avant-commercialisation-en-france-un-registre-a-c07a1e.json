@@ -1,0 +1,41 @@
+{
+ "slug": "ia-un-examen-avant-commercialisation-en-france-un-registre-a-c07a1e",
+ "titre": "IA : un examen avant commercialisation en France, un registre à New York",
+ "chapo": "Neuf experts mandatés par l'exécutif français proposent de soumettre les IA grand public à une évaluation avant leur mise sur le marché, sur le modèle du médicament. Pendant ce temps, New York s'apprête à faire appliquer sa loi sur la sécurité en IA, avec enregistrement obligatoire pour OpenAI et Anthropic.",
+ "html": "<h2 id=\"en-france-l-idee-d-une-autorisation-de-m\">En France, l'idée d'une autorisation de mise sur le marché</h2>\n<p>L'analogie a le mérite de la clarté : et si une IA grand public devait passer un examen avant d'être commercialisée, comme un médicament obtient son autorisation de mise sur le marché ? Neuf experts mandatés par l'exécutif avancent cette piste dans un rapport, rapporte 01net, et la cible est nommée sans détour : ChatGPT et Gemini.</p>\n<p>Le diagnostic posé dans le rapport ne relève pas du principe de précaution vague. Il décrit des machines <strong>conçues pour flatter, retenir et faire oublier de réfléchir</strong> — une critique qui porte autant sur le produit que sur la technique qui le sous-tend. Autrement dit, le problème ne serait pas seulement ce que le modèle sait faire, mais ce qu'il est fabriqué pour obtenir de son utilisateur.</p>\n<p>Rien n'indique à ce stade qu'un tel examen soit décidé : il s'agit d'une proposition d'experts, pas d'un texte en vigueur. La formulation du rapport place en tout cas la France sur un terrain distinct de celui de la conformité classique : évaluer <em>avant</em>, plutôt que corriger après.</p>\n<h2 id=\"new-york-passe-a-l-application\">New York passe à l'application</h2>\n<p>De l'autre côté de l'Atlantique, le mouvement est d'une autre nature. New York s'apprête à faire appliquer sa vaste loi sur la sécurité en IA, rapporte TechCrunch IA. Les grands développeurs, dont OpenAI et Anthropic, devront s'enregistrer, divulguer leurs pratiques en matière de sécurité et signaler les incidents critiques, sous peine d'amendes.</p>\n<p>Là où le rapport français envisage un filtre en amont, la loi new-yorkaise installe donc un régime d'information continue : on ne juge pas le modèle avant sa sortie, on exige de savoir comment il est sécurisé et ce qui dérape une fois en service. Les deux approches ne s'excluent pas, mais elles ne posent pas la même question — l'une demande « peut-on vendre ? », l'autre « que s'est-il passé ? ».</p>\n<p>Pour OpenAI et Anthropic, l'effet est concret : les principaux acteurs du secteur passent sous une surveillance directe, avec des obligations déclaratives qui pèsent sur leur organisation autant que sur leurs modèles.</p>\n<h2 id=\"gemini-4-carbon-ouvert-a-tous-deux-fois-\">Gemini 4 Carbon : ouvert à tous, deux fois plus cher le 1er décembre</h2>\n<p>Sur le front des modèles, Simon Willison documente la sortie de <strong>Gemini 4 Carbon</strong>, annoncé il y a deux semaines à un cercle restreint de « cyber défenseurs » et désormais accessible à tous. Google le présente comme son meilleur Gemini.</p>\n<p>Le point saillant est tarifaire : 2 $ par million de tokens en entrée et 10 $ en sortie au lancement, avant un doublement à <strong>4 $ / 20 $ le 1er décembre</strong>. Un prix d'introduction avec date de péremption, donc, ce qui rend le coût réel d'un usage dépendant du calendrier autant que du volume.</p>\n<p>Willison accompagne la sortie de `llm-gemini 0.36` et compare les rendus selon l'effort de réflexion demandé au modèle. Une manière de rappeler que sur ce type d'outil, la qualité de sortie se paramètre — et se paie.</p>\n<h2 id=\"deepmind-affine-l-adn-nvidia-vacille-a-s\">DeepMind affine l'ADN, Nvidia vacille à sa tête</h2>\n<p>Google DeepMind dévoile <strong>AlphaGenome 2</strong>, un modèle conçu pour décrypter comment les modifications de notre ADN affectent les différentes cellules, rapporte The Verge IA. L'objectif : donner aux scientifiques une vue plus détaillée d'un problème notoirement difficile, qui pourrait receler des indices sur les causes des maladies et ouvrir la voie à de nouveaux traitements. Le modèle succède à une version antérieure du programme.</p>\n<p>Chez Nvidia, l'actualité est d'une tout autre teneur. Selon Frandroid, le poste de <strong>Jensen Huang</strong>, fondateur et PDG, est menacé par de nouvelles révélations sur sa vie sentimentale. Il était déjà au cœur d'une polémique liée à une liaison avec une espionne chinoise soupçonnée ; c'est cette fois une liaison extraconjugale avec une salariée qui est en cause.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux façons d'encadrer l'IA se dessinent donc en parallèle : un examen en amont, à la française, encore au stade du rapport, et un régime d'enregistrement et de déclaration d'incidents en aval, à la new-yorkaise, sur le point d'être appliqué. Ni l'une ni l'autre ne donne de calendrier définitif. Sur le marché, le signal est plus simple : Gemini 4 Carbon est ouvert à tous, et son tarif de lancement a une date d'expiration.</p>",
+ "pivot": "c07a1eb1a6579543",
+ "tags": [
+  "sécurité",
+  "france",
+  "gemini",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/pour-rester-en-france-chatgpt-et-gemini-pourraient-devoir-passer-un-examen.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/culture-tech/3319579_nvidia-sapprete-a-virer-son-pdg-apres-des-revelations-sur-une-nouvelle-liaison-extraconjugale-avec-une-salariee"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+  }
+ ],
+ "date": "2026-11-12T07:04:51+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1519,
+  "sortie": 3340
+ }
+}

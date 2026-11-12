@@ -31,7 +31,8 @@ class HubIntegrityCommandTest(unittest.TestCase):
     def test_trois_commandes_identifiees_par_page(self):
         for kit in ("openclaw", "hermes"):
             html = (SITE / kit / "index.html").read_text()
-            blocks = [c for c in CodeBlocks(html).codes
+            section = re.search(r'<details[^>]*id="verifier-zip".*?</details>', html, re.S).group()
+            blocks = [c for c in CodeBlocks(section).codes
                       if "commande" in c["attrs"].get("class", "").split()]
             self.assertEqual([c["text"] for c in blocks], commands(kit))
             self.assertIn("/static/style.css?v=20261111-commandes", html)

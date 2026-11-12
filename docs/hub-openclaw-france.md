@@ -1190,6 +1190,43 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-11/hub-commandes-integrite/`.
 
+## Commandes de dépannage OpenClaw sur mobile — livraison du 12/11/2026
+
+- **Une amélioration** : les six commandes de `/openclaw/#depannage` sont
+  présentées dans des blocs distincts, avec retour à la ligne natif sur petit
+  écran. Leur texte exact reste inchangé et sélectionnable sans caractère ajouté.
+  Les fichiers, variables et adresses cités restent en ligne, pour les distinguer
+  des commandes à lancer. Contextes local/Docker/VPS et avertissements préservés.
+  Réutilisation du style existant ; aucun CSS, JavaScript, kit ou script modifié.
+- Trois nouveaux tests : un échoue avant correction (blocs absents), les deux
+  contrôles de préservation passent déjà. Après correction et restriction du
+  test SHA-256 à sa propre section : **351 tests OK**. Les trois nouveaux tests
+  passent aussi sur le HTML HTTPS public. Aucun diagnostic ni installation
+  d’OpenClaw exécuté ou revendiqué : cette livraison porte sur la présentation.
+- Chromium headless avec et sans JavaScript : **12 contrôles locaux et 12 publics**
+  à 1440, 1024, 768, 430, 390 et 360 px. Ancre et ouverture des trois accordéons
+  au clavier, styles, sélection exacte des six commandes, texte entièrement
+  contenu et absence de débordement vérifiés. Les trois longues commandes se
+  replient à 360 px. Le sélecteur initial du test navigateur ciblait plusieurs
+  liens ; il a été limité au lien du héros avant la passe complète.
+- Bureau inaccessible en cron (`Resource deadlock avoided`, Git non lisible) ;
+  clone partagé en conflits laissé intact. Déploiement avec
+  `python3 outils/deployer_openclaw.py` depuis le clone dédié synchronisé hors Bureau
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Sauvegarde privée et comparaison
+  production/Git avant envoi ; **36 fichiers relus via FTP**, identiques aux sources
+  après publication. Dates/modes restaurés avant régénération : ZIP et manifeste
+  inchangés octet pour octet ; archives également vérifiées par CRC en HTTPS.
+- **Les six URL de santé répondent HTTP 200** ; contrôle étendu de **10 URL en 200**.
+  Section de dépannage publique exacte après décodage des liens e-mail Cloudflare.
+  Sitemap actualisé pour OpenClaw uniquement ; **IndexNow HTTP 200** pour cette
+  page (notification acceptée, pas preuve d’indexation ou de hausse de trafic).
+- **Aucune nouvelle distribution** : journal synchronisé relu ; le post Bluesky
+  du 10/11 exclut une nouvelle promotion sur la plateforme jusqu’au 15/11 inclus.
+  Aucun contact, formulaire ou relance. Prochaine priorité : appliquer le même
+  contrôle de lisibilité aux commandes de dépannage Hermes.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-12/hub-commandes-depannage/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

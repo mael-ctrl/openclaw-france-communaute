@@ -242,12 +242,16 @@
       <summary>La passerelle ne semble pas démarrée</summary>
       <div class="reponse">
         <p><strong>Installation classique :</strong> sur la machine où OpenClaw est installé,
-        lance <code>openclaw gateway status</code>. Consulte ensuite <code>openclaw logs --follow</code>
-        pour repérer une erreur répétée ; <kbd>Ctrl+C</kbd> quitte la lecture des journaux.</p>
+        contrôle la passerelle :
+        <code class="commande">openclaw gateway status</code>
+        Consulte ensuite les journaux pour repérer une erreur répétée :
+        <code class="commande">openclaw logs --follow</code>
+        <kbd>Ctrl+C</kbd> quitte la lecture des journaux.</p>
         <p><strong>Avec Docker :</strong> dans le dossier du kit contenant <code>docker-compose.yml</code>,
-        lance <code>docker compose ps --all</code>, puis
-        <code>docker compose logs --tail 50 openclaw-gateway</code>.
-        Le premier affiche aussi les conteneurs arrêtés ; le second limite la lecture aux dernières lignes.
+        affiche les conteneurs, y compris ceux qui sont arrêtés :
+        <code class="commande">docker compose ps --all</code>
+        Puis lis les dernières lignes des journaux de la passerelle :
+        <code class="commande">docker compose logs --tail 50 openclaw-gateway</code>
         Si le kit est sur un VPS, ces commandes se lancent <strong>sur le serveur</strong> via SSH.</p>
         <p>Ne supprime pas tes dossiers de données ou tes sauvegardes pour tenter de réparer.
         Note le message exact et consulte le <a href="/dl/kit-openclaw/GUIDE.md">guide du kit</a>
@@ -260,7 +264,7 @@
         <p><code>127.0.0.1</code> désigne la machine sur laquelle tu ouvres le navigateur, pas ton VPS.
         Le kit Docker garde volontairement le port accessible seulement en local sur le serveur.</p>
         <p>Avec le port par défaut, ouvre un tunnel <strong>depuis ton ordinateur</strong> :
-        <code>ssh -N -L 18789:127.0.0.1:18789 utilisateur@votre-serveur</code>.
+        <code class="commande">ssh -N -L 18789:127.0.0.1:18789 utilisateur@votre-serveur</code>
         Remplace <code>utilisateur@votre-serveur</code> par ton accès SSH, laisse ce terminal ouvert,
         puis ouvre <code>http://127.0.0.1:18789</code> dans ton navigateur.</p>
         <p>Si tu as changé <code>OPENCLAW_GATEWAY_PORT</code> dans le kit Docker,
@@ -273,8 +277,8 @@
       <div class="reponse">
         <p>La page accessible ne prouve pas que ton navigateur est autorisé.
         Vérifie le jeton de cette installation, sans le confondre avec la clé API du modèle.
-        Avec Docker et une passerelle démarrée, retrouve le lien avec
-        <code>docker compose run --rm openclaw-cli dashboard --no-open</code>, depuis le dossier du kit.
+        Avec Docker et une passerelle démarrée, retrouve le lien depuis le dossier du kit :
+        <code class="commande">docker compose run --rm openclaw-cli dashboard --no-open</code>
         Si tu as personnalisé le port Docker, adapte celui du lien au port local de ton tunnel.</p>
         <p>Pour une demande d’appairage, suis le
         <a href="https://docs.openclaw.ai/install/docker/sandbox-and-troubleshooting" rel="noopener">dépannage officiel Docker</a>

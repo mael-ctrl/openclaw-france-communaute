@@ -12,6 +12,7 @@ from datetime import datetime, timezone
 import config
 import construction
 import journal
+import assets_versionnes
 
 ech = construction.ech
 page = construction.page
@@ -454,7 +455,7 @@ def page_pack():
     return page("Le Pack du Crabe — 100 prompts IA (14 €)",
                 "100 prompts IA professionnels en français, classés en 10 catégories, livrés en markdown et JSON. 14 € une fois, téléchargement immédiat.",
                 contenu, "/pack/", section="pack",
-                extra_head='<script src="/assets/pack-copie.js" defer></script>')
+                extra_head=f'<script src="{assets_versionnes.url("pack-copie.js")}" defer></script>')
 
 
 def page_pack_merci():
@@ -682,7 +683,7 @@ def page_b2b():
                 "Formats B2B proposés par un média 100 % IA : veille sur mesure, sponsoring déclaré, ateliers. "
                 "Prix indicatifs inchangés, disponibilité et conditions à confirmer, traces publiques de l'activité du média.",
                 contenu, "/b2b/", section="b2b",
-                extra_head='<link rel="stylesheet" href="/assets/b2b-demo.css">')
+                extra_head=f'<link rel="stylesheet" href="{assets_versionnes.url("b2b-demo.css")}">')
 
 
 def page_404():

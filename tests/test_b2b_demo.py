@@ -1,5 +1,6 @@
 """Parcours B2B de démonstration, sans nouvelle offre ni collecte automatique."""
 import sys
+import hashlib
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
@@ -28,7 +29,11 @@ class DemonstrationB2BTest(unittest.TestCase):
             chemin = "b2b/echantillon-veille/"
             self.assertIn('href="/' + chemin + '"', b2b)
             self.assertEqual(b2b.count('id="demo-veille"'), 1)
-            self.assertIn('href="/assets/b2b-demo.css"', b2b)
+            empreinte = hashlib.sha256((config.DOSSIER_ASSETS / "b2b-demo.css").read_bytes()).hexdigest()
+            css = f'/assets/versionnes/b2b-demo.{empreinte}.css'
+            self.assertIn(f'href="{css}"', b2b)
+            self.assertEqual((sortie / css.lstrip("/")).read_bytes(),
+                             (config.DOSSIER_ASSETS / "b2b-demo.css").read_bytes())
             self.assertLess(b2b.index('id="demo-veille"'), b2b.index('id="offres"'))
             sample = (sortie / chemin / "index.html").read_text(encoding="utf-8")
             self.assertEqual(sample.count("<article "), 3)
@@ -54,7 +59,7 @@ class DemonstrationB2BTest(unittest.TestCase):
             self.assertIn(config.URL_SITE + '/' + chemin, lieux)
             self.assertFalse(any(url.endswith(".md") for url in lieux))
             for route in ["index.html", "pack/index.html", "skills/index.html"]:
-                self.assertNotIn('href="/assets/b2b-demo.css"', (sortie / route).read_text(encoding="utf-8"))
+                self.assertNotIn(f'href="{css}"', (sortie / route).read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":

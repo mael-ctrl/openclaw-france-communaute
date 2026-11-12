@@ -1,5 +1,6 @@
 """Les extraits publics reflètent exactement le livrable, sans ouvrir le pack entier."""
 import html
+import hashlib
 import json
 import re
 import sys
@@ -16,7 +17,8 @@ import config
 
 class PackExtraitsTest(unittest.TestCase):
     def test_aide_de_copie_chargee_uniquement_sur_la_boutique(self):
-        script = '<script src="/assets/pack-copie.js" defer></script>'
+        empreinte = hashlib.sha256((config.DOSSIER_ASSETS / "pack-copie.js").read_bytes()).hexdigest()
+        script = f'<script src="/assets/versionnes/pack-copie.{empreinte}.js" defer></script>'
         self.assertIn(script, annexes.page_pack())
         self.assertNotIn(script, annexes.page_skills())
         self.assertNotIn(script, annexes.page_pack_merci())

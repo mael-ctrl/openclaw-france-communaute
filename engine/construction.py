@@ -17,6 +17,7 @@ import config
 import journal
 import couvertures
 import styles
+import assets_versionnes
 
 
 # ---------------------------------------------------------------- utilitaires
@@ -255,7 +256,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
     <span class="pied-signature">Fabriqué avec des flux RSS, l'API DeepSeek et beaucoup de café virtuel.</span>
   </div>
 </footer>
-<script src="/assets/app.js" defer></script>
+<script src="{assets_versionnes.url('app.js')}" defer></script>
 <script data-goatcounter="https://communaute-ia.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>"""
@@ -888,6 +889,7 @@ def construire():
     if (sortie / "assets").exists():
         shutil.rmtree(sortie / "assets")
     shutil.copytree(config.DOSSIER_ASSETS, sortie / "assets")
+    assets_versionnes.copier(sortie)
     for image in images.values():
         cible = couvertures.verifier_chemin(sortie / image["path"].lstrip("/"))
         cible.parent.mkdir(parents=True, exist_ok=True)

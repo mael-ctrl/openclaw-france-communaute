@@ -1,0 +1,9 @@
+# Seulement les trois CSS/JS dont le nom contient le SHA-256 de leurs octets.
+# Les URL originales, images, audio et livrables restent hors de cette règle.
+Options -Indexes
+<IfModule mod_headers.c>
+  <FilesMatch "^(?:(?:app|pack-copie)\.[a-f0-9]{64}\.js|b2b-demo\.[a-f0-9]{64}\.css)$">
+    Header set Cache-Control "public, max-age=31536000, immutable" "expr=%{REQUEST_STATUS} == 200 || %{REQUEST_STATUS} == 206 || %{REQUEST_STATUS} == 304"
+    Header unset Expires "expr=%{REQUEST_STATUS} == 200 || %{REQUEST_STATUS} == 206 || %{REQUEST_STATUS} == 304"
+  </FilesMatch>
+</IfModule>

@@ -1,5 +1,13 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Chantier site du 12 novembre — CSS/JS versionnés
+
+**Une seule intégration, suite SEO #7 : URL liées au SHA-256 des octets et cache annuel des trois CSS/JS locaux chargés.** Originaux conservés, aucune réécriture vers une version mutable ; scripts Pack et CSS B2B confinés à leurs pages, podcast sans JavaScript. Les chantiers déjà livrés, dont gzip XML/OPML, ne sont pas refaits. [Contrat, réemploi et preuves](assets-versionnes.md).
+
+**338 Python + huit Node**, deux builds isolés : **2 467 HTML ne changent que leurs URL**, 2 491 fichiers inchangés, quatre ajouts, 713 sources préservées. **42 requêtes Apache** et quatre configurations Chromium ; six copies de prompts exactes. Essai sans rédaction réussi, erreurs de collecte tierces consignées. Prépublication des quatre assets relue par SFTP, onze témoins préservés ; **26 requêtes HTTPS conformes à 10:02 UTC**. **Au commit initial : références HTML et clôture cloud encore à confirmer après dispatch.**
+
+P9 reste distinct : pull partagé refusé et conflits préservés, worktree propre sur `51851b7`. Aucun cron/wrapper/reprise Git activé ; le cache ne résout pas l'exploitation. Les anciens assets, images mutables, audio et livrables ne reçoivent pas de cache annuel. Aucun gain de trafic ou de conversion revendiqué.
+
 ## État courant — bilan du 11 novembre 2026, vérifié le 12
 
 **Cette synthèse prévaut sur les relevés historiques conservés ci-dessous.** Revue prévue le **11 à 21 h CET**, dispatch à **22:17:41** ; pull partagé à **22:28 refusé (128)**, six fichiers non fusionnés et journal indexé, préservés. Worktree documentaire propre sur **`f545ec29870ed71c4da77dbcacd2b7f9920f6731`**, pull réussi ici seulement. Premier arrêté à 22:30 ; clôture de la journée vérifiée le **12 à 00:55 CET**, fenêtre `[10/11 23:00, 11/11 23:00)` UTC. Sondes HTTPS du **12 à 00:53 CET**, non antidatées.

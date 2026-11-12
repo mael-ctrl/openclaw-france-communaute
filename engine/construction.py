@@ -682,8 +682,9 @@ def sitemap_xml(chemins, dernieres_dates):
 
 
 def news_sitemap_xml(articles, breves):
-    """Sitemap Google News (protocole news) : contenus des dernières 48 h, 1000 URLs max."""
-    limite = datetime.now(timezone.utc) - timedelta(hours=48)
+    """Sitemap Google News : fenêtre non future de 48 h, 1000 URLs max."""
+    maintenant = datetime.now(timezone.utc)
+    limite = maintenant - timedelta(hours=48)
     entrees = []
 
     def _quand(iso):
@@ -695,11 +696,11 @@ def news_sitemap_xml(articles, breves):
 
     for a in articles:
         dt = _quand(a.get("date"))
-        if dt and dt >= limite:
+        if dt and limite <= dt <= maintenant:
             entrees.append((dt, f"/articles/{a['slug']}/", a.get("titre") or ""))
     for b in breves[:400]:
         dt = _quand(b.get("date_source") or b.get("date_redac"))
-        if dt and dt >= limite:
+        if dt and limite <= dt <= maintenant:
             entrees.append((dt, f"/breves/{b['slug']}/", b.get("titre") or ""))
     entrees.sort(key=lambda x: x[0], reverse=True)
     urls = ""

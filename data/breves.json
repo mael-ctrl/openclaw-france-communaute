@@ -1,5 +1,130 @@
 [
  {
+  "id": "8ea1edfdb9b7cdb7",
+  "slug": "localllama-redoute-une-regulation-qui-reserverait-l-ia-aux-serveurs-d--8ea1ed",
+  "titre": "LocalLLaMA redoute une régulation qui réserverait l'IA aux serveurs d'État",
+  "resume": "Sur r/LocalLLaMA, un utilisateur s'inquiète de la régulation des modèles d'IA qui tournent en local. Il y voit un risque que les États, États-Unis et Chine en tête, réservent l'usage des LLM à des modèles hébergés sur des infrastructures sous surveillance. Cela permettrait de limiter les usages et d'observer ce que les gens font, alors que le discours sur les « dangers » des LLM est jugé alarmiste.",
+  "tags": [
+   "société",
+   "open-source",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xu2mdo/the_regulation_of_local_ai_couldshould_be_viewed/",
+  "date_source": "2026-11-12T03:49:33+00:00",
+  "date_redac": "2026-11-12T05:03:42+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 846,
+   "sortie": 871
+  }
+ },
+ {
+  "id": "86760158fc8bf6de",
+  "slug": "langchain-construit-son-agent-gtm-sur-deep-agents-867601",
+  "titre": "LangChain construit son agent GTM sur Deep Agents",
+  "resume": "LangChain détaille dans un billet de blog la construction de son GTM Agent, un agent destiné à produire des documents commerciaux cohérents, personnalisés et de qualité. L'agent repose sur Deep Agents et s'appuie sur le contexte métier de l'entreprise pour générer ces artefacts de vente. La démarche montre comment un agent est entraîné sur le contexte business pour un usage interne précis.",
+  "tags": [
+   "agents",
+   "business",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "LangChain (blog officiel)",
+  "lien_source": "https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts",
+  "date_source": "2026-11-12T03:34:55+00:00",
+  "date_redac": "2026-11-12T05:03:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 608,
+   "sortie": 582
+  }
+ },
+ {
+  "id": "22b89479f5eaefde",
+  "slug": "pydantic-ai-v2-68-bascule-de-modele-a-max-tokens-approbations-dans-le--22b894",
+  "titre": "Pydantic AI v2.68 : bascule de modèle à max_tokens, approbations dans le run",
+  "resume": "La version 2.68.0 de Pydantic AI ajoute OutputTokenLimitExceeded : quand une réponse est coupée à max_tokens, ModelFallback enchaîne sur le modèle suivant. Le framework introduit RequestInput pour demander approbations et réponses au sein même d'un run, AskUser passant sur le pipeline différé, avec des appels marqués par kind et answered_by. Côté sécurité, PromptInjectionDefender tourne désormais en opérations durables, ce qui le rend fonctionnel sur Temporal.",
+  "tags": [
+   "agents",
+   "dev",
+   "open-source",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "Pydantic AI (releases, préversions incluses)",
+  "lien_source": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.68.0",
+  "date_source": "2026-11-12T03:23:15+00:00",
+  "date_redac": "2026-11-12T05:03:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 802,
+   "sortie": 555
+  }
+ },
+ {
+  "id": "d5d7cf081c4ab7a8",
+  "slug": "nvidia-qui-pourrait-succeder-a-jensen-huang-d5d7cf",
+  "titre": "Nvidia : qui pourrait succéder à Jensen Huang ?",
+  "resume": "Nvidia n'a pas de plan de succession et son PDG, Jensen Huang, se retrouve dans une position délicate. TechCrunch a donc dressé sa propre liste de successeurs possibles, en assumant ouvertement le caractère peu scientifique de l'exercice. Aucun nom n'est encore avancé comme officiel : il s'agit d'un exercice spéculatif de la rédaction.",
+  "tags": [
+   "business",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+  "date_source": "2026-11-12T03:13:10+00:00",
+  "date_redac": "2026-11-12T05:03:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 487
+  }
+ },
+ {
+  "id": "189d8a87739f1ff4",
+  "slug": "une-cmp-170hx-debloquee-en-a100-80-go-par-injection-de-fautes-189d8a",
+  "titre": "Une CMP 170HX débloquée en A100 80 Go par injection de fautes",
+  "resume": "Kate détaille comment elle a transformé une carte de minage CMP 170HX (8 Go) en A100 de 80 Go. La carte embarque en réalité ~80 Go de HBM, verrouillés par fusible : l'injection de fautes de tension contourne le verrou et réactive tous les SM fonctionnels (120 à 126, contre 108 sur une A100 commerciale). Résultat : 85,9 TFLOP/s en FP16 contre 72,5 pour une A100 retail, les 80 Go exploitables en inférence. Mais il faut du câblage, un glitcher STM32 maison et 1 à 48 h par carte.",
+  "tags": [
+   "matériel",
+   "recherche",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xu1dkz/someone_voltageglitched_a_cmp_170hx_mining_card/",
+  "date_source": "2026-11-12T02:47:50+00:00",
+  "date_redac": "2026-11-12T05:04:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 879,
+   "sortie": 888
+  }
+ },
+ {
+  "id": "c2f0d1f262c1acde",
+  "slug": "inflect-v3-une-synthese-vocale-locale-de-34-31-m-de-parametres-en-apac-c2f0d1",
+  "titre": "Inflect v3 : une synthèse vocale locale de 34,31 M de paramètres en Apache 2.0",
+  "resume": "Inflect v3 sort sous licence Apache 2.0 : une famille de modèles de synthèse vocale locaux, Mini, Micro et Atom. Mini, le modèle principal, pèse 34,31 millions de paramètres, gère six voix et tourne sur CPU comme sur CUDA. Il accepte des balises d'événements vocaux ([laugh], [sigh]…) et permet de créer un profil à partir d'un enregistrement, sans reproduire parfaitement chaque locuteur.",
+  "tags": [
+   "open-source",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xtzwxf/i_released_inflect_v3_lightweight_local_tts_in/",
+  "date_source": "2026-11-12T01:36:10+00:00",
+  "date_redac": "2026-11-12T05:04:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 842,
+   "sortie": 1234
+  }
+ },
+ {
   "id": "a610dfb905dfb698",
   "slug": "gilbert-tobin-sam-nickless-raconte-comment-l-ia-change-le-metier-du-dr-a610df",
   "titre": "Gilbert + Tobin : Sam Nickless raconte comment l'IA change le métier du droit",

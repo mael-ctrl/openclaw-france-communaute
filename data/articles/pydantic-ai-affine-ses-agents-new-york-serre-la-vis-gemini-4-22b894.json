@@ -1,0 +1,41 @@
+{
+ "slug": "pydantic-ai-affine-ses-agents-new-york-serre-la-vis-gemini-4-22b894",
+ "titre": "Pydantic AI affine ses agents, New York serre la vis, Gemini 4 Carbon ouvre à tous",
+ "chapo": "Le framework Pydantic AI apprend à changer de modèle quand une réponse sature et déplace les approbations à l'intérieur du run. Pendant ce temps, New York passe à l'application de sa loi sur la sécurité en IA, et Gemini 4 Carbon s'ouvre à tous avec un tarif qui doublera le 1er décembre.",
+ "html": "<h2 id=\"pydantic-ai-2-68-le-run-devient-un-lieu-\">Pydantic AI 2.68 : le run devient un lieu de décision</h2>\n<p>La version 2.68.0 de Pydantic AI s'attaque à un cas très concret : la réponse coupée net parce qu'elle a atteint `max_tokens`. Le framework ajoute <strong>OutputTokenLimitExceeded</strong>, et c'est <strong>ModelFallback</strong> qui prend le relais en enchaînant sur le modèle suivant. La saturation cesse d'être une erreur pour devenir un aiguillage.</p>\n<p>Autre ajout, <strong>RequestInput</strong> : demander une approbation ou une réponse au milieu d'un run, sans en sortir. <strong>AskUser</strong> bascule sur le pipeline différé, et les appels concernés sont marqués par `kind` et `answered_by` — de quoi savoir quel type de demande a été posé et qui y a répondu.</p>\n<p>Côté sécurité, <strong>PromptInjectionDefender</strong> tourne désormais en opérations durables, ce qui le rend fonctionnel sur Temporal. Le garde-fou cesse d'être une étape éphémère pour devenir une pièce du workflow lui-même.</p>\n<h2 id=\"new-york-de-la-loi-a-l-application\">New York : de la loi à l'application</h2>\n<p>New York s'apprête à faire appliquer sa vaste loi sur la sécurité en IA. Les grands développeurs, <strong>OpenAI</strong> et <strong>Anthropic</strong> en tête, devront s'enregistrer, divulguer leurs pratiques en matière de sécurité et signaler les incidents critiques, sous peine d'amendes.</p>\n<p>Le texte place ainsi les principaux acteurs du secteur sous une surveillance directe. L'enregistrement n'est plus une démarche volontaire de communication : c'est une obligation déclarative, adossée à un régime de sanctions.</p>\n<h2 id=\"gemini-4-carbon-ouvert-mais-a-quel-prix\">Gemini 4 Carbon : ouvert, mais à quel prix</h2>\n<p>Annoncé il y a deux semaines à un cercle restreint de « cyber défenseurs », <strong>Gemini 4 Carbon</strong> est désormais ouvert à tous. Google le présente comme son meilleur Gemini.</p>\n<p>Le tarif de lancement est de <strong>2 $/million de tokens en entrée et 10 $/million en sortie</strong>, avant un doublement à <strong>4 $/20 $</strong> le 1er décembre. La fenêtre grand public et la grille tarifaire ne durent donc pas très longtemps.</p>\n<p>Simon Willison accompagne la sortie avec <strong>llm-gemini 0.36</strong> et compare les rendus selon l'effort de réflexion — une manière de mesurer ce que le modèle produit quand on lui laisse plus de marge de calcul.</p>\n<h2 id=\"une-a100-arrachee-a-une-carte-de-minage-\">Une A100 arrachée à une carte de minage, un TTS local en Apache 2.0</h2>\n<p>Kate détaille comment elle a transformé une carte de minage <strong>CMP 170HX</strong> (8 Go) en <strong>A100 de 80 Go</strong>. La carte embarque en réalité ~80 Go de HBM, verrouillés par fusible : l'injection de fautes de tension contourne le verrou et réactive tous les SM fonctionnels — <strong>120 à 126, contre 108 sur une A100 commerciale</strong>.</p>\n<p>Résultat : <strong>85,9 TFLOP/s en FP16</strong> contre 72,5 pour une A100 retail, et les 80 Go exploitables en inférence. Le revers tient dans la logistique : câblage, glitcher STM32 maison, et <strong>1 à 48 h par carte</strong>.</p>\n<p>Sur le front logiciel, <strong>Inflect v3</strong> sort sous licence <strong>Apache 2.0</strong> : une famille de modèles de synthèse vocale locaux, <strong>Mini, Micro et Atom</strong>. Mini, le modèle principal, pèse <strong>34,31 millions de paramètres</strong>, gère six voix et tourne sur CPU comme sur CUDA. Il accepte des balises d'événements vocaux (`[laugh]`, `[sigh]`…) et permet de créer un profil à partir d'un enregistrement, sans reproduire parfaitement chaque locuteur.</p>\n<h2>Et maintenant ?</h2>\n<p>Les cinq dépêches dessinent deux mondes qui se croisent à peine. D'un côté, un outillage d'agents qui gagne en robustesse opérationnelle — bascule de modèle, approbations intra-run, garde-fous durables — et des modèles frontière dont le prix d'appel est explicitement temporaire. De l'autre, une régulation qui quitte le stade des principes pour celui de l'enregistrement obligatoire, et du matériel détourné à la pince et au glitcher. Entre les deux, la question du coût réel — financier, juridique, technique — reste la même.</p>",
+ "pivot": "22b89479f5eaefde",
+ "tags": [
+  "agents",
+  "sécurité",
+  "open-source",
+  "matériel"
+ ],
+ "sources": [
+  {
+   "nom": "Pydantic AI (releases, préversions incluses)",
+   "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.68.0"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu1dkz/someone_voltageglitched_a_cmp_170hx_mining_card/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtzwxf/i_released_inflect_v3_lightweight_local_tts_in/"
+  }
+ ],
+ "date": "2026-11-12T05:04:29+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1647,
+  "sortie": 2420
+ }
+}

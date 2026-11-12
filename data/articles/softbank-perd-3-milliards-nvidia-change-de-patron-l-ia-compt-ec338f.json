@@ -1,0 +1,41 @@
+{
+ "slug": "softbank-perd-3-milliards-nvidia-change-de-patron-l-ia-compt-ec338f",
+ "titre": "SoftBank perd 3 milliards, Nvidia change de patron : l'IA compte ses factures",
+ "chapo": "Trois milliards de dollars partis sur des turbines à gaz, un PDG qui s'en va, un régulateur qui s'active et un tarif qui double : en quelques jours, l'IA a encaissé quatre rappels à l'ordre très concrets. Voici ce qu'il faut retenir des dépêches de la semaine.",
+ "html": "<h2 id=\"softbank-et-la-facture-du-gaz\">SoftBank et la facture du gaz</h2>\n<p>SoftBank a perdu <strong>plus de 3 milliards de dollars</strong> en précommandant des turbines à gaz naturel destinées à alimenter des data centers pour l'IA. La somme donne la mesure d'un pari : celui d'un secteur qui compte sur le gaz pour fournir l'électricité massive qu'exigent les modèles.</p>\n<p>Le revers n'est pas anecdotique. La dépêche originale de TechCrunch s'interroge sur ce qu'il signifie pour les marchés de l'énergie, et sur sa capacité à freiner les ambitions d'un secteur dont la course à la puissance de calcul se heurte à des contraintes très matérielles.</p>\n<p>Avant de parler de benchmarks, il faut des turbines et du gaz. Ceux qui précommandent ce type d'équipement le font des années à l'avance — une perte de cette taille ne reste pas sans effet sur la suite des projets.</p>\n<h2 id=\"nvidia-colette-kress-prend-l-interim\">Nvidia : Colette Kress prend l'intérim</h2>\n<p>Changement de direction chez Nvidia. <strong>Colette Kress</strong>, directrice financière du groupe, en prend la tête par intérim. Elle remplace Jensen Huang, PDG de longue date, empêtré dans un scandale.</p>\n<p>La dépêche ne détaille pas la nature de l'affaire. Elle retient le signal : le départ du dirigeant marque un changement de direction majeur pour l'entreprise. Pour un fabricant dont les puces conditionnent une bonne part de l'économie de l'IA, confier l'intérim à la CFO place la finance au centre, au moins temporairement.</p>\n<p>Rien dans les dépêches n'établit de lien entre ce départ et les autres actualités de la semaine. Mais l'enchaînement dit quelque chose de la période : les structures qui portent l'IA — énergie, gouvernance, régulation — bougent en même temps que les modèles.</p>\n<h2 id=\"new-york-serre-la-vis\">New York serre la vis</h2>\n<p>New York s'apprête à appliquer sa vaste loi sur la sécurité en IA. Les grands développeurs, dont <strong>OpenAI et Anthropic</strong>, devront s'enregistrer, divulguer leurs pratiques en matière de sécurité et signaler les incidents critiques, sous peine d'amendes.</p>\n<p>Le texte place ainsi les principaux acteurs du secteur sous une surveillance directe. On quitte le registre des chartes volontaires : il s'agit de déclarations obligatoires, avec un coût à la clé en cas de manquement.</p>\n<p>Pour les développeurs concernés, cela ajoute une couche de traçabilité et de travail administratif. Pour le régulateur, c'est un point d'entrée concret dans des systèmes dont l'extérieur voit mal les pratiques internes.</p>\n<h2 id=\"gemini-4-carbon-le-prix-et-les-liens-pou\">Gemini 4 Carbon : le prix, et les liens pourris</h2>\n<p>Annoncé il y a deux semaines à un cercle restreint de « cyber défenseurs », <strong>Gemini 4 Carbon</strong> est désormais ouvert à tous. Google le présente comme son meilleur Gemini. Tarif de lancement : 2 $ par million de tokens en entrée et 10 $ en sortie — avant un doublement à <strong>4 $ et 20 $ le 1er décembre</strong>. Simon Willison accompagne la sortie de llm-gemini 0.36 et compare les rendus selon l'effort de réflexion.</p>\n<p>Au même moment, une étude du cabinet de protection de la propriété intellectuelle <strong>Podqi</strong>, transmise en exclusivité à The Verge, douche un peu l'enthousiasme. Le cabinet a testé ChatGPT, Gemini et Perplexity sur une série de questions liées aux achats. Résultat : les internautes qui s'appuient sur ces chatbots pour trouver où acheter un produit peuvent être orientés vers des sites frauduleux ou à risque.</p>\n<p>Deux faces du même objet : un modèle se juge autant à son prix au million de tokens qu'à la fiabilité de ce qu'il recommande quand on lui demande où dépenser son argent.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches de la semaine décrivent des pressions très matérielles : de l'énergie à payer d'avance, une gouvernance qui se recompose, un régulateur qui exige des comptes, un tarif qui double et des liens qu'il faut vérifier. Aucune ne parle de percée ni de rupture. C'est peut-être le plus intéressant : l'IA entre dans une phase où l'on discute factures, organigrammes et obligations légales autant que performances.</p>",
+ "pivot": "ec338f49dd8c1961",
+ "tags": [
+  "business",
+  "sécurité",
+  "gemini",
+  "openai"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
+  }
+ ],
+ "date": "2026-11-12T17:07:07+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1493,
+  "sortie": 3570
+ }
+}

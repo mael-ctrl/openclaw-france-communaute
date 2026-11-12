@@ -1,5 +1,130 @@
 [
  {
+  "id": "6b5703fa4621eb00",
+  "slug": "p2echo-un-seul-modele-pour-segmenter-l-echocardiographie-par-prompt-te-6b5703",
+  "titre": "P2Echo : un seul modèle pour segmenter l'échocardiographie par prompt texte",
+  "resume": "Les poids du modèle P2Echo (Prompt2Echo) sont publiés sur Hugging Face. Il s'agit d'un cadre unifié pour segmenter plusieurs structures cardiaques sur les vues standard d'échocardiographie, piloté par des prompts texte structurés et adaptés à la vue. Son module DyITA adapte les représentations du décodeur à la vue et à la structure demandées. Destiné à la recherche, il n'a pas été validé pour la décision clinique.",
+  "tags": [
+   "recherche",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xu95lt/moein99p2echo_hugging_face/",
+  "date_source": "2026-11-12T10:16:15+00:00",
+  "date_redac": "2026-11-12T10:27:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 809,
+   "sortie": 845
+  }
+ },
+ {
+  "id": "8199ac967a5a2f3d",
+  "slug": "e-means-un-clustering-plus-rapide-que-k-means-en-moins-d-epoques-8199ac",
+  "titre": "e-means : un clustering plus rapide que k-means, en moins d'époques",
+  "resume": "Une étude présente e-means, une procédure d'optimisation par moyenne mobile exponentielle pour k-means avec mises à jour par mini-lots. Sur des jeux d'embeddings variés, il atteint en 1,4 à 2,6 époques la perte que Lloyd k-means obtient en 25, soit 10 à 45x plus vite en temps GPU. Des lois d'échelle lient taux de décroissance et taille de lot à la performance, sans balayage d'hyperparamètres.",
+  "tags": [
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xu92md/paper_emeans_outperforming_kmeans_in_onetenth_the/",
+  "date_source": "2026-11-12T10:11:22+00:00",
+  "date_redac": "2026-11-12T10:27:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 824,
+   "sortie": 841
+  }
+ },
+ {
+  "id": "76ad8fbbe0584927",
+  "slug": "perplexity-accede-en-lecture-seule-aux-comptes-bancaires-de-17-pays-eu-76ad8f",
+  "titre": "Perplexity accède en lecture seule aux comptes bancaires de 17 pays européens",
+  "resume": "Perplexity peut désormais se connecter aux comptes bancaires de ses utilisateurs via Plaid, dans 17 pays européens dont la France. L'assistant IA analyse les dépenses et aide à gérer le budget. Cet accès est en lecture seule : le modèle ne peut effectuer aucune action sur les comptes.",
+  "tags": [
+   "agents",
+   "business",
+   "sécurité",
+   "france"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/perplexity-peut-desormais-acceder-a-vos-comptes-en-banque-et-gerer-votre-argent.html",
+  "date_source": "2026-11-12T10:01:11+00:00",
+  "date_redac": "2026-11-12T10:27:54+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 694,
+   "sortie": 288
+  }
+ },
+ {
+  "id": "9a9e0468c8bdf96c",
+  "slug": "factorial-elargit-son-perimetre-au-dela-des-rh-autour-de-l-ia-9a9e04",
+  "titre": "Factorial élargit son périmètre au-delà des RH, autour de l'IA",
+  "resume": "Maddyness consacre un article à Factorial, la scale-up positionnée sur les outils RH, qui élargit son périmètre autour de l'IA. Le titre original pose la question : pourquoi cette extension au-delà des RH ? La publication est datée du 12 novembre 2026.",
+  "tags": [
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Maddyness",
+  "lien_source": "https://www.maddyness.com/2026/11/12/factorial-ia-rh-finance-informatique/",
+  "date_source": "2026-11-12T10:00:42+00:00",
+  "date_redac": "2026-11-12T10:28:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 651,
+   "sortie": 801
+  }
+ },
+ {
+  "id": "6304c750090b9dbf",
+  "slug": "une-porte-derobee-cachee-dans-un-agent-ia-en-modifiant-moins-de-dix-ne-6304c7",
+  "titre": "Une porte dérobée cachée dans un agent IA en modifiant moins de dix neurones",
+  "resume": "Un chercheur de Microsoft s'est demandé s'il était possible de cacher une porte dérobée dans un agent IA sans jamais le réentraîner. Claude Code lui a trouvé la réponse : il suffit de modifier moins de dix « neurones » sur les milliers que compte le modèle. La démonstration montre qu'un déclencheur peut être codé en dur dans un agent sans repasser par l'entraînement.",
+  "tags": [
+   "claude",
+   "agents",
+   "sécurité",
+   "recherche"
+  ],
+  "importance": 4,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/cyberguerre/2372563-et-si-on-codait-en-dur-un-declencheur-il-demande-a-claude-code-de-transformer-son-agent-ia-en-bombe-a-retardement-et-ca-marche.html",
+  "date_source": "2026-11-12T09:58:31+00:00",
+  "date_redac": "2026-11-12T10:28:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 715,
+   "sortie": 493
+  }
+ },
+ {
+  "id": "a380b6541487b382",
+  "slug": "praxis-1-modele-video-action-de-27b-en-tete-du-classement-robolab-120-a380b6",
+  "titre": "Praxis-1, modèle vidéo-action de 27B, en tête du classement RoboLab-120",
+  "resume": "Praxis-1 est un transformeur de diffusion mixture-of-experts de 27 milliards de paramètres qui prédit vidéo et actions conjointement. Sur le leaderboard RoboLab-120 de NVIDIA, il atteint 46,2 % de réussite sur 1 200 épisodes, devant FLUX 3 Action (42,9 %), Cosmos3 Nano (36,8 %) et π0.5 (28,0 %). Les poids ainsi que le code d'inférence et de fine-tuning sont publiés sous Apache 2.0, usage commercial inclus, avec un support natif LeRobot et une disponibilité dans vLLM-Omni.",
+  "tags": [
+   "robots",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xu8u4f/praxis1_a_runwayml_collection/",
+  "date_source": "2026-11-12T09:56:58+00:00",
+  "date_redac": "2026-11-12T10:28:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 879,
+   "sortie": 882
+  }
+ },
+ {
   "id": "3968fc70a8fbad9d",
   "slug": "hermes-agent-compilation-canari-0-23-1-datee-du-12-novembre-2026-3968fc",
   "titre": "Hermes Agent : compilation canari 0.23.1 datée du 12 novembre 2026",

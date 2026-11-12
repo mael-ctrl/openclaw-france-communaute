@@ -1,0 +1,41 @@
+{
+ "slug": "dix-neurones-suffisent-pour-cacher-une-porte-derobee-dans-un-6304c7",
+ "titre": "Dix neurones suffisent pour cacher une porte dérobée dans un agent IA",
+ "chapo": "Modifier moins de dix neurones suffit à coder un déclencheur dans un agent IA, sans aucun réentraînement : c'est la démonstration d'un chercheur de Microsoft. Au même moment, New York met sa loi sur la sécurité en IA en application et Perplexity se branche en lecture seule sur les comptes bancaires de 17 pays européens.",
+ "html": "<h2 id=\"le-declencheur-tient-dans-une-poignee-de\">Le déclencheur tient dans une poignée de poids</h2>\n<p>Un chercheur de Microsoft s'est demandé s'il était possible de cacher une porte dérobée dans un agent IA sans jamais le réentraîner. Claude Code lui a apporté la réponse : il suffit de modifier <strong>moins de dix « neurones »</strong> sur les milliers que compte le modèle. La démonstration montre qu'un déclencheur peut être codé en dur dans un agent sans repasser par la phase d'entraînement.</p>\n<p>Le point notable n'est pas la sophistication de la méthode, mais son économie de moyens. Une porte dérobée classique suppose de contaminer des données ou de reprendre un entraînement complet. Ici, l'intervention porte sur une poignée de paramètres dans un modèle déjà figé, et le résultat est fonctionnel : un agent qui se comporte normalement jusqu'à ce que le déclencheur soit actionné.</p>\n<p>Autrement dit, le risque ne se loge pas seulement dans la chaîne de données d'entraînement, mais aussi dans le fichier de poids qu'on installe. Un angle que les vérifications habituelles, pensées pour l'amont, ne couvrent pas nécessairement.</p>\n<h2 id=\"new-york-passe-de-la-doctrine-au-guichet\">New York passe de la doctrine au guichet</h2>\n<p>La démonstration tombe à un moment où la régulation change de nature. New York s'apprête à faire appliquer sa vaste loi sur la sécurité en IA. Les grands développeurs, dont <strong>OpenAI et Anthropic</strong>, devront s'enregistrer, divulguer leurs pratiques en matière de sécurité et signaler les incidents critiques, sous peine d'amendes.</p>\n<p>Le texte place ainsi les principaux acteurs du secteur sous une surveillance directe, avec une obligation de déclaration plutôt qu'une simple incitation aux bonnes pratiques. Le signal est clair : la sécurité d'un modèle ou d'un agent devient une donnée administrative, vérifiable et sanctionnable, pas une promesse de communiqué.</p>\n<h2 id=\"perplexity-entre-dans-le-compte-courant\">Perplexity entre dans le compte courant</h2>\n<p>Côté usages, la confiance se déplace aussi, et vite. Perplexity peut désormais se connecter aux comptes bancaires de ses utilisateurs via <strong>Plaid</strong>, dans 17 pays européens dont la France. L'assistant IA analyse les dépenses et aide à gérer le budget.</p>\n<p>La nuance est importante : cet accès est <strong>en lecture seule</strong>, le modèle ne peut effectuer aucune action sur les comptes. On reste donc dans l'analyse, pas dans l'exécution. Mais l'assistant gagne une place dans le quotidien financier de ses utilisateurs — un terrain où la moindre faille, ou le moindre déclencheur caché, ne se traite pas comme une réponse à côté de la plaque sur une recette de cuisine.</p>\n<h2 id=\"poids-ouverts-garde-fous-integres\">Poids ouverts, garde-fous intégrés</h2>\n<p>Dans la recherche, Praxis-1 avance à découvert. Ce transformeur de diffusion <strong>mixture-of-experts</strong> de 27 milliards de paramètres prédit vidéo et actions conjointement. Sur le leaderboard RoboLab-120 de NVIDIA, il atteint 46,2 % de réussite sur 1 200 épisodes, devant FLUX 3 Action (42,9 %), Cosmos3 Nano (36,8 %) et π0.5 (28,0 %). Les poids, le code d'inférence et de fine-tuning sont publiés sous <strong>Apache 2.0</strong>, usage commercial inclus, avec un support natif LeRobot et une disponibilité dans vLLM-Omni.</p>\n<p>À l'autre bout de la chaîne, l'outillage serre les boulons. Pydantic AI v2.68 ajoute `OutputTokenLimitExceeded` : quand une réponse est coupée à `max_tokens`, ModelFallback enchaîne sur le modèle suivant. Le framework introduit `RequestInput` pour demander approbations et réponses au sein même d'un run, `AskUser` passant sur le pipeline différé, avec des appels marqués par `kind` et `answered_by`. Côté sécurité, `PromptInjectionDefender` tourne désormais en opérations durables, ce qui le rend fonctionnel sur Temporal.</p>\n<p>Deux philosophies cohabitent : publier largement des poids pour que la communauté inspecte, ou intégrer des points de contrôle directement dans l'exécution d'un agent.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches décrivent un même déplacement : la sécurité d'un agent ne se joue plus uniquement à l'entraînement, mais dans les poids livrés, les API branchées dessus et l'infrastructure qui les fait tourner. New York impose de déclarer, Pydantic AI ajoute des garde-fous au fil du run, Praxis-1 publie ses poids sous Apache 2.0. Trois réponses distinctes, et aucune ne règle à elle seule la question du déclencheur logé dans dix neurones.</p>",
+ "pivot": "6304c750090b9dbf",
+ "tags": [
+  "sécurité",
+  "agents",
+  "dev",
+  "open-source"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2372563-et-si-on-codait-en-dur-un-declencheur-il-demande-a-claude-code-de-transformer-son-agent-ia-en-bombe-a-retardement-et-ca-marche.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/perplexity-peut-desormais-acceder-a-vos-comptes-en-banque-et-gerer-votre-argent.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xu8u4f/praxis1_a_runwayml_collection/"
+  },
+  {
+   "nom": "Pydantic AI (releases, préversions incluses)",
+   "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.68.0"
+  }
+ ],
+ "date": "2026-11-12T10:28:33+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1602,
+  "sortie": 2522
+ }
+}

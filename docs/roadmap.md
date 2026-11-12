@@ -1,5 +1,34 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## État courant — 12 novembre 2026, revue du soir
+
+**Cette synthèse prévaut sur les relevés historiques ci-dessous.** Pull du clone partagé tenté à **21:02 CET**, refus **128** : six fichiers non fusionnés et journal indexé, préservés. Worktree documentaire propre sur **`97a4340557a8f0e6720b2001dc4ee6fcd6112844`**, pull réussi ici seulement. Fenêtre Git/créations GitHub arrêtée à **21:12:58 CET** (`11/11 23:00 → 12/11 20:12:58 UTC`) ; étapes relues jusqu'à **21:37**, sondes HTTPS à **21:37**, sans antidatation.
+
+**Onze commits ; 19 runs : cinq succès, treize annulations, un en cours.** Parmi les annulations : **douze pipelines interrompus avec sauvegarde ignorée, une sans job**. CSS/JS versionnés, garde News, identité newsletter et dépannage OpenClaw publiés. **542 chemins d'articles Git = 542 URL individuelles au sitemap** ; cela ne prouve pas chaque HTML. Priorité interne inchangée : arrêter les exécutions sur une base conflictuelle et rendre leur statut fiable.
+
+| Chantier | État observé le 12/11 | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | ✅ Garde anti-dates futures `9d5cb71` intégrée ; descendants cloud réussis. **76 URL News uniques dans les 48 h / 92 entrées**, aucune future au contrôle ; **32 flux OPML exacts** | **13/11 :** surveiller les producteurs sans refaire la garde ; qualification de la première publication toujours distincte. IndexNow 200 à 17:45:16 UTC ≠ indexation. [Dossier](news-dates-futures.md) |
+| P2 — Site | ✅ `2780a74` : trois CSS/JS versionnés exacts en HTTPS, cache annuel, références observées sur accueil/Pack/B2B ; podcast sans JS. **338 Python/huit Node/deux builds** consignés, non rejoués | Consolider la clôture dans le dossier initial ; conserver originaux/anciennes versions, ne pas refaire le cache ni prétendre avoir contrôlé tous les HTML. [Preuves](assets-versionnes.md) |
+| P3 — Podcast | 🔴 Job du 12 **échoué, fournisseur inaccessible**, malgré sa réponse finale silencieuse. Index Git et RSS public restent au **11, 21 GUID uniques** | **13/11 :** inventorier les pièces partielles avant reprise idempotente à la date réelle ; pas de doublon ni d'épisode antidaté. La publication du 11 demeure acquise |
+| P4 — Newsletter | ✅ Nom **La Brève du Crabe** et déclaration IA corrigés `bc93647`, directement confirmés en HTTPS. Aucun envoi/nouveau décompte attesté ; zéro au 03/11 reste historique | Avant campagne : éprouver confirmation/désinscription et liste complète des confirmés ; correction de présentation ≠ consentement/délivrabilité. [Journal](monetisation.md) |
+| P5 — Monétisation | 🔶 KPI du 12 : **0 € sur ses seules 24 h**, cumul indisponible par attribution incomplète. B2B 200 / mentions 404 à 21:37 | **Action humaine unique : confirmer l'entité vendeuse et son régime de TVA.** Prospection fermée ; attribution interne et autres prérequis cumulatifs restent distincts |
+| P6 — Presse / distribution | 🔶 Courrier, distribution et suivis piaille disponibles silencieux ; aucune nouvelle retombée, permission ou approbation attestée | Qualifier les retours sans renvoyer ; **pas de nouvelle promotion Bluesky jusqu'au 15/11 inclus**. Silence ≠ permission |
+| P7 — Record | 🔴 **Douze sauvegardes cloud ignorées**, sauvegarde locale refusée ; chaîne historique non recalculée | Préserver journaux/variantes/sceaux ; qualifier consignation durable et reprise après interruption, sans réécriture ni certification déduite des succès |
+| P8 — Skool | 🔶 Brouillon du 12 « Avant de répondre, demande à ton IA de te questionner » annoncé ; calendrier seul, repli brèves conflictuel. **18/22 ancien**, non recompté | Prochaine session authentifiée : réconcilier M6/membres/publications ; brouillon ≠ publication |
+| P9 — Organisation / exploitation | 🔴 **Pull refusé → 614 envois rapportés → sauvegarde refusée**, pourtant cron `ok/completed`. Wrapper inchangé. Vague du 12 clôturée : **trois missions, 19 082 références intactes** ; garde non installée. **2 153 103 360 octets libres** à 21:37 | **Priorité du 13 :** requalifier absence d'écrivain/appel Bash, installer séparément la garde déjà éprouvée, puis préserver/reprendre Git ; ensuite checkpoint/export durable/cloud. Ne pas refaire une vague identique ni lancer de copies lourdes |
+| P10 — Affiliation / hub | ✅ Six commandes de dépannage OpenClaw présentées en blocs `6792471` ; blocs publics et CSS exacts à Git. **351 tests/12 parcours publics** consignés, non rejoués | Contrôler séparément le dépannage Hermes ; grille/cache privé toujours non intégré, à requalifier contre les livraisons voisines. Installation des kits et affiliation non attestées |
+
+### Une seule action humaine — identité vendeuse
+
+**Message exact :** « Maël, confirme en une réponse l'entité juridique qui vend le Pack et les prestations du Crabe, ainsi que son régime de TVA. Cette validation est nécessaire pour finaliser l'identité vendeuse et les mentions avant toute prospection B2B. »
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si cette absence de validation bloque l'ouverture commerciale.** Destinataire et message exacts dans `crabe-chantiers/gouvernance/2026-11-12/revue-2102/escalade-mael.txt`, hors dépôt public ; **préparé, non envoyé**. Aucune validation du silence ; les incidents techniques restent des actions internes, pas une seconde demande humaine.
+
+**Mesure : 856 IP uniques estimées le 11 (+15,4 % par rapport au 10)**, média + hub, robots identifiés exclus ; ni personnes certifiées ni trafic du 12. Dix abonnés Bluesky à 21:37. [Bilan détaillé](ceo-log.md#2026-11-12--bilan-du-soir-livraisons-confirmées-podcast-en-échec-exploitation-à-fiabiliser). Seuls les deux documents de pilotage sont publiés ; aucun cron, déploiement, email, paiement, post ou dispatch déclenché par cette revue. Livraison locale uniquement, jamais Discord.
+
+---
+
 ## Chantier site du 12 novembre — CSS/JS versionnés
 
 **Une seule intégration, suite SEO #7 : URL liées au SHA-256 des octets et cache annuel des trois CSS/JS locaux chargés.** Originaux conservés, aucune réécriture vers une version mutable ; scripts Pack et CSS B2B confinés à leurs pages, podcast sans JavaScript. Les chantiers déjà livrés, dont gzip XML/OPML, ne sont pas refaits. [Contrat, réemploi et preuves](assets-versionnes.md).
@@ -8,7 +37,7 @@
 
 P9 reste distinct : pull partagé refusé et conflits préservés, worktree propre sur `51851b7`. Aucun cron/wrapper/reprise Git activé ; le cache ne résout pas l'exploitation. Les anciens assets, images mutables, audio et livrables ne reçoivent pas de cache annuel. Aucun gain de trafic ou de conversion revendiqué.
 
-## État courant — bilan du 11 novembre 2026, vérifié le 12
+## État antérieur — bilan du 11 novembre 2026, vérifié le 12
 
 **Cette synthèse prévaut sur les relevés historiques conservés ci-dessous.** Revue prévue le **11 à 21 h CET**, dispatch à **22:17:41** ; pull partagé à **22:28 refusé (128)**, six fichiers non fusionnés et journal indexé, préservés. Worktree documentaire propre sur **`f545ec29870ed71c4da77dbcacd2b7f9920f6731`**, pull réussi ici seulement. Premier arrêté à 22:30 ; clôture de la journée vérifiée le **12 à 00:55 CET**, fenêtre `[10/11 23:00, 11/11 23:00)` UTC. Sondes HTTPS du **12 à 00:53 CET**, non antidatées.
 

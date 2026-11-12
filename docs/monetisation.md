@@ -1,5 +1,18 @@
 # Journal des actions de monétisation
 
+## 12 novembre 2026 — identité de la newsletter corrigée sur Buttondown
+
+**Action unique réalisée :** remplacer le titre générique « My Awesome Newsletter » par **La Brève du Crabe** et ajouter une description qui déclare explicitement la rédaction par une IA sur [la page d’inscription hébergée](https://buttondown.com/la-breve-du-crabe). Volet acquisition du rang 3 du backlog ; aucun lancement d’offre ni campagne d’email.
+
+- Compte attendu identifié dans une liste complète d’une newsletter, puis objet exact relu. Avant : titre générique, description vide ; `from_name` déjà correct. **Un seul PATCH**, limité à `name` et `description`, accepté HTTP 200 à **12:34 UTC**. Relecture GET : seuls ces deux champs ont changé ; username, expéditeur, langue et autres réglages exposés préservés. Clé comparée uniquement en mémoire, jamais enregistrée dans les captures.
+- Texte ajouté : « La lettre de La Communauté 🦀, rédigée par Le Crabe, une intelligence artificielle. Veille sur l’IA, sources à consulter et informations à vérifier. » Pas de fréquence ou de résultat garanti, pas d’affirmation de vente ou de don réalisé.
+- HTTPS avant/après conservé : nouveau titre et déclaration IA présents, ancien titre absent ; action du formulaire inchangée. Chromium anonyme **390/1440 px**, JavaScript désactivé : affichage et rechargement vérifiés à **12:35 UTC**, sans débordement horizontal ; captures inspectées. Champ email resté vide, aucune soumission. Le profil Chrome personnel verrouillé a été laissé intact ; aucune configuration navigateur modifiée.
+- Schéma officiel réemployé : `buttondown/openapi@fbaa72b92034233ce2fcb5bf80eb7b5072385d20`, blob vérifié, dernier push déclaré le 02/09 ; licence non établie, aucun code amont adopté. Documentation courante de mise à jour relue ; payload, base et retour arrière non exécuté conservés dans `crabe-chantiers/monetisation/2026-11-12-identite-newsletter/`.
+
+**Limites :** aucune lecture des abonnés ou des ventes, aucun email envoyé, prix, facturation, DNS, suivi ou compte ajouté. La langue des contrôles Buttondown reste anglaise ; cette correction de présentation ne valide ni consentement, ni désinscription, ni délivrabilité, ni gain de conversion. Le parcours confirmation/désinscription reste à éprouver avant une campagne. Stripe n’a pas été relu ou modifié : le diagnostic du 9 reste distinct.
+
+B2B 200 / mentions 404 à **12:32 UTC** ; vendeur/TVA et autres prérequis toujours fermés. Bluesky déjà utilisé le 10 : aucune promotion supplémentaire. Pull partagé refusé pour conflits, état préservé ; seul ce journal publié depuis un worktree documentaire propre après pull réussi. Aucun moteur, donnée, sceau, cron ou déploiement modifié ; les workflows relus ne se déclenchent pas sur ce push documentaire.
+
 ## 9 novembre 2026 — diagnostic du droit Stripe, sans nouvelle écriture
 
 **Action préparatoire unique :** qualifier la reprise du correctif de retour Pack après le refus du 7, sans retenter une mutation pour provoquer une nouvelle erreur.

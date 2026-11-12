@@ -1,0 +1,41 @@
+{
+ "slug": "nvidia-change-de-patron-new-york-encadre-l-ia-gemini-4-carbo-9187e9",
+ "titre": "Nvidia change de patron, New York encadre l'IA, Gemini 4 Carbon se paie",
+ "chapo": "Colette Kress, directrice financière de Nvidia, prend l'intérim à la tête du groupe après le départ de Jensen Huang. La même semaine, New York met en œuvre sa loi sur la sécurité en IA, Gemini 4 Carbon s'ouvre à tous avec un tarif qui doublera le 1er décembre, et Norwest annonce un fonds de 4 milliards de dollars.",
+ "html": "<h2 id=\"nvidia-l-interim-revient-a-la-directrice\">Nvidia : l'intérim revient à la directrice financière</h2>\n<p>Colette Kress assure désormais la direction de Nvidia par intérim. La directrice financière du groupe remplace Jensen Huang, PDG de longue date, empêtré dans un scandale — la dépêche ne précise ni la nature ni le calendrier de celui-ci. Le départ du dirigeant marque, selon TechCrunch, un changement de direction majeur pour l'entreprise.</p>\n<p>Le choix de confier l'intérim à la CFO plutôt qu'à un profil opérationnel ou technique dit quelque chose de la séquence : dans une entreprise dont l'actualité se lit d'abord dans les chiffres, c'est la responsable des comptes qui tient la barre. Reste que la dépêche s'arrête là : pas de nom de successeur, pas de durée annoncée pour l'intérim.</p>\n<h2 id=\"new-york-passe-de-la-loi-a-l-application\">New York passe de la loi à l'application</h2>\n<p>New York s'apprête à faire appliquer sa vaste loi sur la sécurité en IA. Les grands développeurs, dont <strong>OpenAI</strong> et <strong>Anthropic</strong>, devront s'enregistrer, divulguer leurs pratiques en matière de sécurité et signaler les incidents critiques, sous peine d'amendes.</p>\n<p>Le texte place ainsi les principaux acteurs du secteur sous une surveillance directe. Ce n'est plus une déclaration d'intention ni un cadre volontaire : l'enregistrement, la divulgation et le signalement deviennent des obligations opposables, adossées à un régime de sanctions. Pour les laboratoires concernés, cela ajoute une couche de conformité à un moment où leurs modèles sont déjà scrutés.</p>\n<h2 id=\"gemini-4-carbon-ouvert-a-tous-mais-pas-a\">Gemini 4 Carbon : ouvert à tous, mais pas au même prix longtemps</h2>\n<p>Annoncé il y a deux semaines à un cercle restreint de « cyber défenseurs », <strong>Gemini 4 Carbon</strong> est désormais ouvert à tous. Google le présente comme son meilleur Gemini. Le tarif de lancement est de <strong>2 $ par million de tokens en entrée et 10 $ en sortie</strong> — avant un doublement à <strong>4 $ / 20 $ le 1er décembre</strong>.</p>\n<p>Le calendrier mérite d'être lu à voix haute : les développeurs ont quelques semaines pour tester et calibrer leurs usages à moitié prix, avant que la facture ne double. Sur des volumes de production, l'écart n'est pas anecdotique, et il invite à dimensionner les intégrations en anticipant la grille finale plutôt que la promotionalle.</p>\n<p>Simon Willison accompagne la sortie avec <strong>llm-gemini 0.36</strong> et compare les rendus selon l'effort de réflexion du modèle. Une manière de rappeler que sur ces modèles, le coût par token n'est qu'une moitié du problème : l'autre, c'est le nombre de tokens brûlés pour arriver à une réponse exploitable.</p>\n<h2 id=\"un-telephone-sans-applications-et-4-mill\">Un téléphone sans applications, et 4 milliards sur la table</h2>\n<p>Sam Altman décrit un appareil discret, sans applications, où l'IA est intégrée de bout en bout. Le dirigeant d'OpenAI estime que ce type d'objet pourrait devenir « la prochaine version du smartphone ». Il annonce par ailleurs vouloir collaborer avec <strong>Samsung</strong>. Aucun produit, aucune date, aucun partenaire confirmé au-delà de cette intention déclarée.</p>\n<p>Côté capitaux, <strong>Norwest</strong> annonce la création d'un fonds de <strong>4 milliards de dollars</strong>, le plus important jamais constitué par cette société d'investissement. La firme affiche son intention d'aller plus loin dans l'IA, avec des moyens à la hauteur de cette ambition.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dépêches, trois étages différents du même secteur : la gouvernance d'un côté (Nvidia qui bascule en intérim), la régulation de l'autre (New York qui transforme sa loi en obligations vérifiables pour OpenAI et Anthropic), et l'économie entre les deux — un tarif de tokens qui double au 1er décembre chez Google, 4 milliards de dollars qui se déploient chez Norwest, un matériel encore à l'état de concept chez OpenAI. Aucune de ces annonces ne dépend des autres, mais elles pointent dans la même direction : les modèles ne vivent plus seulement dans des benchmarks.</p>",
+ "pivot": "9187e9512fa8120a",
+ "tags": [
+  "openai",
+  "gemini",
+  "business",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/la-prochaine-version-du-smartphone-sam-altman-devoile-sa-vision-du-telephone-a-lere-de-lia.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/"
+  }
+ ],
+ "date": "2026-11-12T16:24:55+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1436,
+  "sortie": 2222
+ }
+}

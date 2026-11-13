@@ -58,3 +58,27 @@ OPML reparsé : 33 couples nom/adresse strictement identiques au catalogue ; SHA
 `crabe-chantiers/croissance/2026-11-13-1420/evidence/`.
 
 Au commit initial, publication et recette HTTPS restent à confirmer.
+
+## Publication ciblée vérifiée à 15:07 UTC
+
+Commit de configuration : `54b74906cb243f725a05c1d5aa866f149e0cb302`.
+Les trois fichiers livrés ont été relus identiques par l'API GitHub sur `main`.
+Le premier préflight a refusé toute écriture pendant le run à ancien catalogue
+`43441710666`. Attente jusqu'à sa fin à **15:05:17 UTC** : annulé pendant le
+pipeline, sauvegarde ignorée ; ce n'est ni un succès ni une annulation en attente.
+Aucun run n'a été annulé manuellement, aucun second dispatch n'a été déclenché.
+
+Après inventaire paginé des runs actifs et contrôle de leur catalogue, livraison
+SFTP de **deux cibles seulement** : `/veille/sources.opml` et le compteur
+**32 → 33** de `/transparence/`. Les autres octets de cette page sont préservés.
+Clé hôte épinglée avant secret, sauvegarde privée, OPML distant exactement égal
+au parent, HTTPS/SFTP identiques avant livraison ; staging `.part` relu,
+contrôle de concurrence, renommage et relecture SFTP, aucun résidu temporaire.
+**Deux lectures HTTPS canoniques exactes à 15:07:06 UTC**, avec les 33 sources
+et le compteur cohérent. Pièces : `livraison-ciblee/{preflight,sftp-result,https-result}.json`.
+
+Le dispatch unique `43442969256` porte le commit livré. Au relevé
+`2026-11-13T15:08:00.376111+00:00`, ses contrats cloud sont **encore en cours**, son pipeline global
+reste **en cours** : ni sauvegarde finale ni brève issue du nouveau flux ne sont
+revendiquées. Le repli ciblé est effectivement publié ; le clone partagé
+conflictuel et l'exploitation générale ne sont pas réparés par cet ajout.

@@ -1,22 +1,18 @@
 {
- "runs": 491,
- "items_collectes": 4785,
- "breves_publiees": 1923,
- "articles_publies": 370,
- "tokens_entree": 1967030,
- "tokens_sortie": 2697989,
+ "runs": 492,
+ "items_collectes": 4825,
+ "breves_publiees": 1928,
+ "articles_publies": 371,
+ "tokens_entree": 1971685,
+ "tokens_sortie": 2705339,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-11-13T11:04:58+00:00",
+ "dernier_run": "2026-11-13T18:22:53+00:00",
  "solde": {
-  "total": "81.23",
+  "total": "81.20",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-11-04T02:33:03+00:00",
-   "message": "brève impossible (Keeping up with new inference engines) : réponse non-JSON"
-  },
   {
    "ts": "2026-11-06T00:25:35+00:00",
    "message": "archivage wayback : The read operation timed out"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-11-11T00:57:35+00:00",
    "message": "brève impossible (I built a zero-dependency streaming Markdown renderer for AI) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-11-13T18:22:23+00:00",
+   "message": "brève impossible (Tontaube V1.1: open-weights TTS with voice cloning for long-) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 10.43,
+ "depense_usd": 10.46,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1984,10 +1984,14 @@
   [
    "2026-11-13T11:04:17+00:00",
    "81.23"
+  ],
+  [
+   "2026-11-13T18:21:54+00:00",
+   "81.20"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 1.47,
+ "depense_mois_usd": 1.5,
  "archive_tentatives": {
   "jour": "2026-11-13",
   "n": 3

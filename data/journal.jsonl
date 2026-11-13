@@ -4060,3 +4060,9 @@
 {"ts": "2026-11-13T11:43:38+00:00", "evenement": "deploiement", "details": {"fichiers": 2590, "octets": 110500201}, "sha256": "02ca101e620d5b43962b4eabf8cafacd696a15e894a90467a32a91208a794c4c"}
 {"ts": "2026-11-13T11:43:39+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "e89a64a44b51731c43071c966dbbde9a5ca4d79a989ff31a0e6518ccb0cec144"}
 {"ts": "2026-11-13T11:43:39+00:00", "evenement": "bilan", "details": {"duree_s": 2374.7, "neufs": 12, "breves": 6, "articles": 1, "fichiers": 2534, "envois": 2590, "publications": 0}, "sha256": "a3d09bf483baa17db5e7e8e8ca242874d628ce5494c22913d5d4da84a69572ed"}
+{"ts": "2026-11-13T18:21:54+00:00", "evenement": "collecte", "details": {"neufs": 40}, "sha256": "8ce30829ee48dec5c028a7738f2f76effd1d3c60773c1b2975666e8cd6e7d8b8"}
+{"ts": "2026-11-13T18:22:23+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Tontaube V1.1: open-weights TTS with voice cloning for long-) : réponse non-JSON"}, "sha256": "10fe8fe8186113968e1a223fcdbbddab2f4aa6fa88b587dc0621bbd448dcfae3"}
+{"ts": "2026-11-13T18:23:21+00:00", "evenement": "construction", "details": {"fichiers": 2540}, "sha256": "d0530fbfb4876d734e7f92ebd4cd863a730f9f185f16bf640faf251b25488653"}
+{"ts": "2026-11-13T19:02:37+00:00", "evenement": "deploiement", "details": {"fichiers": 2596, "octets": 111481907}, "sha256": "8aa0f433427e7e9dfd7fb517f4ee91784cdb8bf7cf91f485206b1b2f79c9750f"}
+{"ts": "2026-11-13T19:02:37+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "58d0c03c234066ae50f9820fc70d72e0a4e8f80fd827097b88e92c8fa9fe6b37"}
+{"ts": "2026-11-13T19:02:37+00:00", "evenement": "bilan", "details": {"duree_s": 2481.4, "neufs": 40, "breves": 5, "articles": 1, "fichiers": 2540, "envois": 2596, "publications": 0}, "sha256": "3064c4b5ff2b9bf9ce7c2e6100d0570d294a1662d6127dc6928260ccd92e55a2"}

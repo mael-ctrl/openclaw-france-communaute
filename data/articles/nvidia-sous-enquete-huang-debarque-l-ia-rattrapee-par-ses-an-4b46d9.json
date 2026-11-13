@@ -1,0 +1,41 @@
+{
+ "slug": "nvidia-sous-enquete-huang-debarque-l-ia-rattrapee-par-ses-an-4b46d9",
+ "titre": "Nvidia sous enquête, Huang débarqué : l'IA rattrapée par ses angles morts",
+ "chapo": "Deux enquêtes au Congrès, un PDG qui quitte son poste, une porte dérobée logée dans moins de dix neurones, trois milliards perdus en turbines à gaz et des chatbots qui envoient leurs utilisateurs vers de faux marchands. La même semaine, l'écosystème IA découvre le prix de son échelle.",
+ "html": "<h2 id=\"nvidia-deux-enquetes-et-un-interim\">Nvidia : deux enquêtes et un intérim</h2>\n<p>Des élus démocrates ont ouvert une enquête parlementaire sur les ventes de Nvidia en Chine et sur les relations entre Jensen Huang et Donald Trump. Une lettre très critique dénonce un « stratagème » du patron de Nvidia avec le président. Il s'agit de la deuxième enquête du Congrès depuis que l'affaire d'espionnage présumée a éclaté.</p>\n<p>En parallèle, Jensen Huang quitte la direction de l'entreprise. Colette Kress, jusqu'ici directrice financière, prend la tête du groupe par intérim. Le départ du PDG de longue date, empêtré dans un scandale, marque un changement de direction majeur pour l'entreprise.</p>\n<p>Les deux dépêches ne disent pas explicitement ce qui relie l'enquête parlementaire et le départ du dirigeant au-delà de leur simultanéité. Mais pour Nvidia, la séquence est rude : la société qui fournit les puces de presque tout l'étage IA se retrouve avec un intérim à sa tête et deux procédures du Congrès sur les bras.</p>\n<h2 id=\"dix-neurones-suffisent-pour-pieger-un-ag\">Dix neurones suffisent pour piéger un agent</h2>\n<p>Un chercheur de Microsoft s'est demandé s'il était possible de cacher une porte dérobée dans un agent IA sans jamais le réentraîner. Claude Code lui a trouvé la réponse : il suffit de modifier moins de dix « neurones » sur les milliers que compte le modèle.</p>\n<p>La démonstration montre qu'un déclencheur peut être codé en dur dans un agent sans repasser par l'entraînement. Autrement dit, la surface d'attaque ne se limite pas au modèle tel qu'il sort de la salle d'entraînement : quelques modifications ciblées suffisent à y loger un comportement conditionnel.</p>\n<p>Pour les équipes qui déploient des agents, cela déplace le problème. La vérification ne peut plus se contenter de regarder les poids d'origine ; elle doit aussi porter sur ce qui a été touché après coup.</p>\n<h2 id=\"le-gaz-le-pari-a-trois-milliards-de-soft\">Le gaz : le pari à trois milliards de SoftBank</h2>\n<p>SoftBank a perdu plus de trois milliards de dollars en précommandant des turbines à gaz naturel destinées à alimenter des data centers pour l'IA, selon TechCrunch. La dépêche originale analyse ce que ce revers signifie pour les marchés de l'énergie.</p>\n<p>Cette perte pourrait freiner les ambitions du secteur, qui compte justement sur le gaz pour fournir l'électricité massive exigée par les modèles. Le raisonnement était simple : plus de calcul, plus de watts, donc plus de centrales. La facture rappelle que la chaîne d'approvisionnement énergétique ne suit pas forcément le rythme des annonces.</p>\n<h2 id=\"les-assistants-ia-et-les-faux-marchands\">Les assistants IA et les faux marchands</h2>\n<p>Une étude du cabinet de protection de la propriété intellectuelle Podqi, transmise en exclusivité à The Verge, a testé ChatGPT, Gemini et Perplexity sur une série de questions liées aux achats. Résultat : les internautes qui s'appuient sur ces chatbots pour trouver où acheter un produit peuvent être orientés vers des sites frauduleux ou à risque.</p>\n<p>Le problème n'est pas théorique. Le shopping est devenu l'un des usages grand public les plus naturels des assistants conversationnels : on décrit un produit, on attend un lien. Si la recommandation part sur un marchand fantôme, l'utilisateur n'a aucun moyen simple de le savoir.</p>\n<p>Les trois modèles cités par l'étude sont concernés. Le biais touche donc directement les usages shopping des assistants IA, au moment précis où ceux-ci cherchent à s'installer dans le commerce en ligne.</p>\n<h2>Et maintenant ?</h2>\n<p>Prises séparément, ces quatre dépêches racontent chacune un accroc technique ou commercial. Mises bout à bout, elles dessinent un même mouvement : l'IA sort de la phase où l'on ne regardait que la performance du modèle. Ventes à l'étranger et relations politiques, intégrité d'un agent après déploiement, approvisionnement électrique, fiabilité d'une recommandation commerciale — les points de friction se situent désormais hors du modèle lui-même. Les prochains arbitrages se joueront sur ces terrains-là, et ils demanderont autre chose que des benchmarks.</p>",
+ "pivot": "4b46d9dddb6085a7",
+ "tags": [
+  "sécurité",
+  "business",
+  "agents",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2372563-et-si-on-codait-en-dur-un-declencheur-il-demande-a-claude-code-de-transformer-son-agent-ia-en-bombe-a-retardement-et-ca-marche.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
+  }
+ ],
+ "date": "2026-11-13T00:06:01+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1523,
+  "sortie": 2264
+ }
+}

@@ -1,5 +1,132 @@
 [
  {
+  "id": "e632908e168f6179",
+  "slug": "un-avocat-fait-tourner-deepseek-v4-1-flash-en-local-sur-huit-v100-de-2-e63290",
+  "titre": "Un avocat fait tourner DeepSeek-V4.1-Flash en local sur huit V100 de 2018",
+  "resume": "Un avocat fait tourner DeepSeek-V4.1-Flash en local sur huit V100 de 2018 : 524K de contexte, plus de 100 tokens/s en génération, et son harnais juridique tourne dessus, 100 % en local. Ce harnais, d'abord bâti pour rendre Claude plus prévisible, n'avait jamais fonctionné sur des modèles locaux. Il note que DeepSeek Flash est le premier modèle local à s'approcher d'Opus 4.5/4.6.",
+  "tags": [
+   "deepseek",
+   "matériel",
+   "claude",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xus81t/lawyer_with_too_many_gpus_part_5_deepseekv41flash/",
+  "date_source": "2026-11-12T23:31:29+00:00",
+  "date_redac": "2026-11-13T00:05:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 883,
+   "sortie": 1099
+  }
+ },
+ {
+  "id": "54aa83c099f7ab8c",
+  "slug": "codex-publie-la-preversion-alpha-0-171-0-de-sa-version-rust-54aa83",
+  "titre": "Codex publie la préversion alpha 0.171.0 de sa version Rust",
+  "resume": "Le dépôt Codex d'OpenAI a mis en ligne une préversion identifiée rust-v0.171.0-alpha.1 sur GitHub. Le suffixe alpha signale un build de test, et non une version stable. L'extrait publié ne précise ni le contenu ni les correctifs inclus. Le préfixe « rust- » du tag distingue cette publication des autres.",
+  "tags": [
+   "openai",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.1",
+  "date_source": "2026-11-12T23:23:26+00:00",
+  "date_redac": "2026-11-13T00:05:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 603,
+   "sortie": 942
+  }
+ },
+ {
+  "id": "187ce1afd3685d19",
+  "slug": "un-agent-juridique-qwen-9b-bute-sur-les-resumes-complexes-187ce1",
+  "titre": "Un agent juridique Qwen 9B bute sur les résumés complexes",
+  "resume": "Un développeur de r/LocalLLaMA bute sur les résumés complexes de décisions de justice avec un agent juridique bâti sur Qwen 9B. Il raconte avoir distillé la réflexion d'Opus 5 pour un PoC 27B, validé par un juriste, avec des scores de 14–16 face à Opus, puis 9–21 après régénération via vLLM en greedy. Il teste la même recette sur 9B avec un corpus CPT de 500M de tokens juridiques.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xus0iu/reasoning_doesnt_help_small_9b_models_on_complex/",
+  "date_source": "2026-11-12T23:22:22+00:00",
+  "date_redac": "2026-11-13T00:05:30+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 858,
+   "sortie": 734
+  }
+ },
+ {
+  "id": "8c5ae9ab59e881de",
+  "slug": "codex-openai-publie-la-preversion-alpha-0-170-0-alpha-4-8c5ae9",
+  "titre": "Codex : OpenAI publie la préversion alpha 0.170.0-alpha.4",
+  "resume": "OpenAI a mis en ligne la version 0.170.0-alpha.4 de Codex, datée du 12 novembre 2026 et publiée sur le dépôt GitHub du projet. Le tag utilisé est rust-v0.170.0-alpha.4 : il s'agit donc d'une préversion alpha, située en amont de la version stable. L'annonce elle-même ne précise ni les changements ni les correctifs apportés par cette build.",
+  "tags": [
+   "openai",
+   "dev",
+   "agents"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.4",
+  "date_source": "2026-11-12T23:03:38+00:00",
+  "date_redac": "2026-11-13T00:05:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 671
+  }
+ },
+ {
+  "id": "091e9a632bcbb284",
+  "slug": "le-prix-de-la-vram-d-occasion-sur-ebay-classe-au-go-091e9a",
+  "titre": "Le prix de la VRAM d'occasion sur eBay, classé au Go",
+  "resume": "Un membre de r/LocalLLaMA a compilé les prix eBay des GPU d'occasion livrés aux États-Unis, classés au gigaoctet de VRAM. En tête, les Tesla P100 16 Go à 174 dollars (10,88 $/Go) et les P40 24 Go à 280 dollars (11,67 $/Go), quand une RTX 3090 24 Go grimpe à 1 790 dollars, soit 74,58 $/Go. Les Instinct MI50 32 Go et MI100 32 Go se placent entre les deux.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xur9ud/used_datacenterworkstation_gpu_prices_on_ebay/",
+  "date_source": "2026-11-12T22:49:43+00:00",
+  "date_redac": "2026-11-13T00:05:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 1003,
+   "sortie": 825
+  }
+ },
+ {
+  "id": "4b46d9dddb6085a7",
+  "slug": "nvidia-les-democrates-du-congres-ouvrent-une-enquete-sur-les-ventes-en-4b46d9",
+  "titre": "Nvidia : les démocrates du Congrès ouvrent une enquête sur les ventes en Chine",
+  "resume": "Des élus démocrates lancent une enquête parlementaire sur les ventes de Nvidia en Chine et sur les relations entre Jensen Huang et Donald Trump. Une lettre très critique dénonce un « stratagème » du patron de Nvidia avec le président. C'est la deuxième enquête du Congrès depuis que l'affaire d'espionnage présumée a éclaté.",
+  "tags": [
+   "business",
+   "matériel",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+  "date_source": "2026-11-12T22:42:51+00:00",
+  "date_redac": "2026-11-13T00:05:47+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 640,
+   "sortie": 802
+  }
+ },
+ {
   "id": "ec338f49dd8c1961",
   "slug": "softbank-perd-plus-de-3-milliards-de-dollars-en-precommandant-des-turb-ec338f",
   "titre": "SoftBank perd plus de 3 milliards de dollars en précommandant des turbines à gaz",

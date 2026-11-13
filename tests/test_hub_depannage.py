@@ -54,7 +54,7 @@ class HubDepannageTest(unittest.TestCase):
         links = [attrs.get("href") for tag, attrs in self.doc.tags if tag == "a"]
         self.assertIn(SOURCE, links)
         self.assertIn("mailto:support@openclaw-france.fr", links)
-        self.assertIn("06/10/2026", self.block)
+        self.assertIn("13/11/2026", self.block)
         self.assertIn("aide indépendante", self.block)
 
 

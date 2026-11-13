@@ -1227,6 +1227,40 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-12/hub-commandes-depannage/`.
 
+## Commandes de dépannage Hermes sur mobile — livraison du 13/11/2026
+
+- **Une amélioration** : les cinq commandes de `/hermes/#depannage` sont
+  présentées en blocs distincts, avec choix explicite entre zsh et bash.
+  Leur texte exact reste inchangé et sélectionnable. Chemins et variables
+  restent en ligne ; avertissements, diagnostic et protection des secrets conservés.
+  Style existant réutilisé ; aucun CSS, JavaScript ni fichier de kit modifié.
+- Documentation officielle d’installation Nous Research relue le 13/11 ; date
+  de consultation actualisée. Aucune installation ni commande de diagnostic exécutée.
+- Trois nouveaux tests : celui des blocs échoue avant correction, les deux de
+  préservation passent déjà. Après actualisation du test de date : **354 tests OK**.
+  Les trois nouveaux tests passent également sur le HTML HTTPS public.
+- Chromium headless avec et sans JavaScript : **12 contrôles locaux et 12 publics**
+  à 1440, 1024, 768, 430, 390 et 360 px. Accès au dépannage et ouverture des
+  accordéons au clavier, styles, sélection exacte des commandes et absence de
+  débordement vérifiés. Les commandes courtes tiennent dans les blocs mobiles.
+- Bureau inaccessible en cron (`Resource deadlock avoided`, Git non lisible) ;
+  clone partagé en conflits laissé intact. Déploiement avec
+  `python3 outils/deployer_openclaw.py` depuis le clone dédié synchronisé hors Bureau
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Sauvegarde privée, comparaison
+  production/Git et second contrôle avant envoi ; **36 fichiers relus via FTP**,
+  identiques aux sources. Dates/modes des kits restaurés : ZIP et manifeste
+  inchangés octet pour octet, archives HTTPS vérifiées par CRC et SHA-256.
+- **Six URL de santé en HTTP 200**, contrôle étendu de **10 URL en 200**.
+  Section publique exacte après décodage des liens e-mail Cloudflare. Sitemap
+  actualisé pour Hermes uniquement ; **IndexNow HTTP 200** pour cette page
+  (notification acceptée, aucune indexation ni hausse de trafic prétendue).
+- **Aucune nouvelle distribution** : journal synchronisé relu ; le post Bluesky
+  du 10/11 exclut une nouvelle promotion jusqu’au 15/11 inclus. Aucun contact,
+  formulaire ni relance. Prochain contrôle : parcours et liens de téléchargement
+  depuis le guide de démarrage.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-13/hub-commandes-hermes/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

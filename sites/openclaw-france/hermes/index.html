@@ -278,9 +278,13 @@
     <details class="faq" open>
       <summary>Le terminal affiche « hermes: command not found »</summary>
       <div class="reponse">
-        <p>Ouvre un nouveau terminal, puis réessaie <code>hermes</code>.
-        Tu peux aussi recharger la configuration du shell que tu utilises :
-        <code>source ~/.zshrc</code> pour zsh, ou <code>source ~/.bashrc</code> pour bash.</p>
+        <p>Ouvre un nouveau terminal, puis réessaie :
+        <code class="commande">hermes</code></p>
+        <p>Tu peux aussi recharger la configuration du shell que tu utilises, avec la commande correspondante :</p>
+        <ul>
+          <li>Commande pour zsh : <code class="commande">source ~/.zshrc</code></li>
+          <li>Commande pour bash : <code class="commande">source ~/.bashrc</code></li>
+        </ul>
         <p>Si la commande reste introuvable, vérifie que le dossier <code>~/.local/bin</code>
         du lanceur figure dans ton <code>PATH</code>. La documentation officielle détaille ce contrôle :
         une commande introuvable ne signifie pas forcément que tu dois tout réinstaller.</p>
@@ -289,8 +293,9 @@
     <details class="faq">
       <summary>Hermes démarre, mais le modèle ou la clé API manque</summary>
       <div class="reponse">
-        <p>Lance <code>hermes model</code> pour choisir ou reconfigurer ton fournisseur et ton modèle.
-        Si tu utilises une API en ligne, vérifie aussi la validité de ta clé et les limites de ton compte
+        <p>Pour choisir ou reconfigurer ton fournisseur et ton modèle, lance :
+        <code class="commande">hermes model</code></p>
+        <p>Si tu utilises une API en ligne, vérifie aussi la validité de ta clé et les limites de ton compte
         chez ce fournisseur. Pour un modèle local, vérifie que son serveur est démarré.</p>
         <p>Garde la clé dans la configuration privée de Hermes : ne la colle ni dans les fichiers
         publics du kit ni dans une demande d’aide.</p>
@@ -299,8 +304,9 @@
     <details class="faq">
       <summary>Un autre blocage, ou une installation incomplète ?</summary>
       <div class="reponse">
-        <p>Lance <code>hermes doctor</code> pour obtenir un diagnostic, puis consulte
-        <code>logs/install.log</code> dans le dossier de données Hermes si l’installation a échoué.
+        <p>Pour obtenir un diagnostic, lance :
+        <code class="commande">hermes doctor</code></p>
+        <p>Consulte ensuite <code>logs/install.log</code> dans le dossier de données Hermes si l’installation a échoué.
         Le dossier habituel est <code>~/.hermes</code>. Ne supprime pas ce dossier pour tenter
         de réparer : il contient aussi ta configuration et tes données.</p>
         <p>Besoin d’aide en français ? Écris à <a href="mailto:support@openclaw-france.fr">notre support</a>
@@ -310,7 +316,7 @@
       </div>
     </details>
     <p>Source : <a href="https://hermes-agent.nousresearch.com/docs/getting-started/installation#troubleshooting" rel="noopener">dépannage dans la documentation officielle de Nous Research</a>,
-    consultée le <time datetime="2026-10-06">06/10/2026</time>.
+    consultée le <time datetime="2026-11-13">13/11/2026</time>.
     Cette aide indépendante ne remplace pas la documentation officielle, qui prévaut en cas d’écart.</p>
   </section>
 

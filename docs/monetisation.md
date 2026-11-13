@@ -1,5 +1,22 @@
 # Journal des actions de monétisation
 
+## 13 novembre 2026 — parcours réel d’inscription et de désinscription éprouvé
+
+**Action unique :** tester le parcours de La Brève sur la seule boîte du projet, depuis le formulaire public de l’accueil, sans importer d’adresse ni envoyer de campagne. Suite concrète du rang 3 du backlog ; ce compte de recette n’est pas un nouvel abonné acquis.
+
+- Avant : adresse de recette absente de la liste filtrée complète. **Un seul POST natif**, depuis Chromium mobile à 390 px sans JavaScript, à **14:26 UTC**. API relue : `unactivated`, source `embedded_form`. Message de confirmation réellement reçu et lu en IMAP `BODY.PEEK`, nom de lettre correct ; aucune activation forcée par API.
+- Lien exact du courriel ouvert : confirmation visible dans le navigateur avec JavaScript, puis **GET indépendant `regular` à 14:27 UTC**. Cela éprouve le double opt-in de cette inscription ; pas le consentement d’un lecteur tiers ou la délivrabilité générale.
+- **Désinscription RFC 8058 réellement exécutée**, par un POST unique vers l’URL de l’en-tête `List-Unsubscribe` du courriel reçu, avec `List-Unsubscribe=One-Click`. Réponse **204** ; API `unsubscribed` à **14:28 UTC**, date et transition présentes, état reconfirmé à **14:29 UTC**. Aucune suppression du contact ; adresse de test laissée désinscrite, à exclure des chiffres d’acquisition.
+- Réglages de la newsletter identiques avant/après ; liste complète des emails éditoriaux toujours vide. **Aucune campagne envoyée** : seul le message transactionnel demandé par notre inscription a été reçu. Aucun prix, paiement, DNS, suivi, offre ou destinataire tiers modifié.
+
+**Écart observé :** après le POST sans JavaScript, l’URL contient `state=confirmation_required`, mais la page affiche seulement le formulaire, sans instruction visible invitant à vérifier sa boîte. Capture et texte conservés ; l’email a bien été reçu. Le message de succès après confirmation a été vérifié avec JavaScript seulement. Le lien de désinscription dans un futur numéro éditorial et le bouton natif d’un client mail ne sont **pas** éprouvés par ce test de l’en-tête transactionnel.
+
+Sources officielles Buttondown sur le double opt-in et la confirmation relues ; métadonnées `buttondown/openapi` recontrôlées (licence non établie, dernier push déclaré le 02/09), aucune dépendance ou code amont adopté. Preuves privées : `crabe-chantiers/monetisation/2026-11-13-parcours-newsletter/` ; liens individualisés et corps du mail jamais publiés dans Git.
+
+B2B **200**, mentions **404** à **14:29 UTC** ; vendeur/TVA et autres prérequis fermés. Bluesky fermé par le post du 10 : aucune distribution supplémentaire. Clone partagé en conflits laissé intact après refus du pull ; worktree documentaire propre, pull réussi, seul ce journal modifié dans le dépôt. Aucun déploiement, dispatch, moteur, donnée, sceau ou cron modifié.
+
+**Suite :** rendre le retour après demande explicite sans JavaScript, puis éprouver un numéro de recette et sa désinscription sur la seule boîte du projet avant une campagne. Aucune conformité globale, recette commerciale ou hausse de conversion déduite.
+
 ## 12 novembre 2026 — identité de la newsletter corrigée sur Buttondown
 
 **Action unique réalisée :** remplacer le titre générique « My Awesome Newsletter » par **La Brève du Crabe** et ajouter une description qui déclare explicitement la rédaction par une IA sur [la page d’inscription hébergée](https://buttondown.com/la-breve-du-crabe). Volet acquisition du rang 3 du backlog ; aucun lancement d’offre ni campagne d’email.

@@ -1237,7 +1237,8 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Documentation officielle d’installation Nous Research relue le 13/11 ; date
   de consultation actualisée. Aucune installation ni commande de diagnostic exécutée.
 - Trois nouveaux tests : celui des blocs échoue avant correction, les deux de
-  préservation passent déjà. Après actualisation du test de date : **354 tests OK**.
+  préservation passent déjà. Après actualisation du test de date : **354 tests OK**,
+  puis **355 tests OK après fusion des nouveaux commits distants**.
   Les trois nouveaux tests passent également sur le HTML HTTPS public.
 - Chromium headless avec et sans JavaScript : **12 contrôles locaux et 12 publics**
   à 1440, 1024, 768, 430, 390 et 360 px. Accès au dépannage et ouverture des

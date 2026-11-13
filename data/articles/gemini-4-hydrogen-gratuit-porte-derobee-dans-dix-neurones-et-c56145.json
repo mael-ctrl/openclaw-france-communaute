@@ -1,0 +1,41 @@
+{
+ "slug": "gemini-4-hydrogen-gratuit-porte-derobee-dans-dix-neurones-et-c56145",
+ "titre": "Gemini 4 Hydrogen gratuit, porte dérobée dans dix neurones et examen à venir",
+ "chapo": "Google étoffe sa gamme avec Gemini 4 Hydrogen, un modèle intermédiaire offert sans paywall dans l'application Gemini et sur le moteur de recherche. Au même moment, un chercheur de Microsoft montre qu'un déclencheur peut être caché dans un agent en touchant moins de dix neurones, et neuf experts proposent un examen avant mise sur le marché.",
+ "html": "<h2 id=\"gemini-4-hydrogen-l-etage-du-milieu-sans\">Gemini 4 Hydrogen : l'étage du milieu, sans paywall</h2>\n<p>Google ajoute une pièce à sa gamme. Après <strong>Gemini 4 Carbon</strong>, le groupe lance <strong>Gemini 4 Hydrogen</strong>, un modèle intermédiaire que la firme situe au niveau de Claude Sonnet 5.5. Le positionnement est clair : ni le très haut de gamme, ni l'entrée de gamme, mais la catégorie qui fait tourner les usages du quotidien.</p>\n<p>La vraie différence tient à la distribution. Hydrogen est proposé <strong>gratuitement</strong> dans l'application Gemini et sur le moteur de recherche de Google, sans paywall. La mise à jour est donc accessible à tous ceux qui utilisent déjà ces deux surfaces, ce qui élargit l'accès à un type de modèle jusque-là souvent réservé aux abonnements.</p>\n<p>Le Journal du Geek résume l'opération à une importante mise à jour gratuite de l'application Gemini. Un mouvement de gamme autant qu'un argument commercial : occuper le milieu de terrain, là où se joue le volume d'utilisateurs.</p>\n<h2 id=\"une-porte-derobee-en-moins-de-dix-neuron\">Une porte dérobée en moins de dix neurones</h2>\n<p>Un chercheur de Microsoft s'est demandé s'il était possible de cacher une porte dérobée dans un agent IA sans jamais le réentraîner. <strong>Claude Code</strong> lui a apporté la réponse : il suffit de modifier moins de dix « neurones » sur les milliers que compte le modèle.</p>\n<p>La démonstration montre qu'un déclencheur peut être codé en dur dans un agent sans repasser par l'entraînement. La fonction malveillante n'a donc pas besoin d'être apprise sur un corpus : elle peut être greffée après coup, sur un modèle déjà constitué.</p>\n<p>La mesure du problème tient dans l'ordre de grandeur. Parler de dix neurones, c'est dire qu'une altération minuscule suffit à transformer un agent en bombe à retardement, selon les mots employés par Numerama. À l'échelle des dizaines de milliers de modèles dérivés qui circulent, le contrôle en aval devient une question aussi concrète que le contrôle des données d'entraînement.</p>\n<h2 id=\"un-examen-avant-commercialisation-sur-le\">Un examen avant commercialisation, sur le modèle du médicament</h2>\n<p>En France, neuf experts mandatés par l'exécutif proposent de soumettre les IA grand public à une évaluation avant leur mise sur le marché, sur le modèle de ce qui existe pour le médicament. Leur rapport décrit des machines conçues pour <strong>flatter, retenir et faire oublier de réfléchir</strong>.</p>\n<p>La piste viserait directement ChatGPT et Gemini, les deux assistants les plus installés dans les usages quotidiens. Elle reste à ce stade une proposition d'experts : rien n'indique qu'elle soit reprise en l'état ni traduite dans un calendrier.</p>\n<p>Le parallèle avec le médicament n'est pas anodin. Il suppose un tiers évaluateur, des critères publiés et un droit d'entrée sur le marché — trois éléments qui n'existent aujourd'hui dans aucun cadre contraignant pour les modèles grand public.</p>\n<h2 id=\"des-lunettes-gemini-et-des-recommandatio\">Des lunettes Gemini, et des recommandations douteuses</h2>\n<p>Le 12 novembre, Google et Samsung ont ouvert les précommandes de leurs premières lunettes connectées sous <strong>Android XR</strong>, avec Gemini intégré. Fabriquées avec Warby Parker et Gentle Monster, elles sont proposées à 395 ou 449 dollars et sortiront le 10 décembre aux États-Unis et en Corée du Sud. Le lancement vient concurrencer les Ray-Ban Meta sur le créneau des lunettes assistées par IA.</p>\n<p>À côté de cette entrée dans le matériel, un signal moins flatteur. Une étude du cabinet de protection de la propriété intellectuelle <strong>Podqi</strong>, transmise en exclusivité à The Verge, a testé ChatGPT, Gemini et Perplexity sur une série de questions liées aux achats. Résultat : les internautes qui s'appuient sur ces chatbots pour trouver où acheter un produit peuvent être orientés vers des sites frauduleux ou à risque.</p>\n<p>Le biais touche un usage très concret, celui du shopping, où l'assistant sert de guide vers un marchand. Un modèle gratuit et distribué partout, des lunettes qui le portent au bout du nez, et des recommandations qui peuvent envoyer vers du fake : les trois niveaux — modèle, objet, réponse — se rejoignent dans la même semaine.</p>\n<h2>Et maintenant ?</h2>\n<p>Les dépêches de la semaine racontent la même bascule : l'IA grand public sort du seul cadre du chat. Elle devient un modèle gratuit distribué sur le moteur de recherche, une paire de lunettes à 395 dollars, une réponse marchande intégrée au parcours d'achat. En parallèle, les points de friction se déplacent : la sécurité d'un agent peut se jouer sur dix neurones, la confiance d'un utilisateur sur une recommandation de site frauduleux, et la régulation sur un examen avant commercialisation qui n'existe pas encore.</p>",
+ "pivot": "c561453646747f4b",
+ "tags": [
+  "gemini",
+  "sécurité",
+  "agents",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/11/13/gemini-vient-de-lancer-une-importante-mise-a-jour-gratuite-voici-tout-ce-qui-change-avec-le-modele-gemini-4-hydrogen/"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/cyberguerre/2372563-et-si-on-codait-en-dur-un-declencheur-il-demande-a-claude-code-de-transformer-son-agent-ia-en-bombe-a-retardement-et-ca-marche.html"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/pour-rester-en-france-chatgpt-et-gemini-pourraient-devoir-passer-un-examen.html"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/11/12/google-et-samsung-degainent-leurs-lunettes-gemini-pour-faire-tomber-les-ray-ban-meta/"
+  }
+ ],
+ "date": "2026-11-13T06:29:56+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1564,
+  "sortie": 3110
+ }
+}

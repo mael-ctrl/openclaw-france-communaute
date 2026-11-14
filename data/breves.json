@@ -1,5 +1,131 @@
 [
  {
+  "id": "499d2faeca04e0b9",
+  "slug": "huit-rtx-3090-en-watercooling-le-rig-d-inference-enfin-stable-499d2f",
+  "titre": "Huit RTX 3090 en watercooling : le rig d'inférence enfin stable",
+  "resume": "Un membre de r/LocalLLaMA montre son serveur d'inférence stable : huit RTX 3090 Gigabyte sur une carte mère ROMED8-2T, achetées avant la flambée des prix, entre 600 et 700 livres l'unité. Le watercooling s'imposait, faute de place pour un ventirad sous les cartes, et deux alimentations se partagent la charge, limitée à 270 W par GPU. Des pilotes Nvidia modifiés activent le trafic P2P entre cartes, mesuré à 22 Go/s.",
+  "tags": [
+   "matériel",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xwc3m7/ai_rig_finally_done_and_stable_perfect_winter/",
+  "date_source": "2026-11-14T20:13:38+00:00",
+  "date_redac": "2026-11-14T20:40:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 892,
+   "sortie": 1198
+  }
+ },
+ {
+  "id": "dd3e640a575cf021",
+  "slug": "openclaw-corrige-la-publication-des-releases-de-plugins-dd3e64",
+  "titre": "OpenClaw corrige la publication des releases de plugins",
+  "resume": "OpenClaw publie un correctif (n° 199141) qui débloque la publication complète d'une release de plugins. La modification impose un plafond de requêtes plus bas pour la publication adossée à un carrier, et autorise la projection strictement limitée aux plugins d'une admission de release authentifiée. Le commit est co-signé par RomneyDa et vincentkoc.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2Fda85264b9eab-1794686351",
+  "date_source": "2026-11-14T19:56:19+00:00",
+  "date_redac": "2026-11-14T20:40:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 683,
+   "sortie": 346
+  }
+ },
+ {
+  "id": "99d1e2f2a8735bbc",
+  "slug": "tandem-cpp-accelere-les-modeles-moe-trop-gros-pour-la-vram-99d1e2",
+  "titre": "tandem.cpp accélère les modèles MoE trop gros pour la VRAM",
+  "resume": "tandem.cpp, un ensemble de patches pour llama.cpp, garde les experts « chauds » des modèles MoE sur le GPU et laisse le CPU traiter le reste. Sur un PC à 64 Go de RAM avec une RTX 5070 Ti 16 Go, DeepSeek-V4.1-Flash en IQ2_XS passe de 7,4 à 14,2 tokens/s face à llama.cpp, et devance aussi Strata (10,4). Le modèle, deux fois plus gros que la RAM, est streamé depuis le SSD. Sur une machine à 32 Go, Qwen3.8-Flash-Next monte à 34,3 tok/s contre 14,9 pour llama.cpp.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "matériel",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xwan2j/update_tandemcpp_deepseekv41_on_a_64_gb_pc_with_a/",
+  "date_source": "2026-11-14T19:12:45+00:00",
+  "date_redac": "2026-11-14T20:40:56+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 955,
+   "sortie": 1114
+  }
+ },
+ {
+  "id": "68f59de95d519d9b",
+  "slug": "hermes-agent-publie-une-release-candidate-rc-8-pour-la-version-0-23-2-68f59d",
+  "titre": "Hermes Agent publie une release candidate rc.8 pour la version 0.23.2",
+  "resume": "Hermes Agent, le projet de NousResearch, publie sur GitHub une release candidate rc.8 rattachée à la version 0.23.2. La note est datée du 14 novembre 2026 et son extrait ne contient que des métadonnées techniques : champ attempt à 8, autopublish désactivé, claimEpoch et hash de commit. Aucun contenu fonctionnel, aucune liste de changements n'accompagne cette publication.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.8-v0.23.2",
+  "date_source": "2026-11-14T18:53:18+00:00",
+  "date_redac": "2026-11-14T20:41:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 699
+  }
+ },
+ {
+  "id": "84b1104f3f16117a",
+  "slug": "openclaw-met-en-ligne-la-beta-2026-11-5-beta-3-84b110",
+  "titre": "OpenClaw met en ligne la bêta 2026.11.5-beta.3",
+  "resume": "OpenClaw publie la version 2026.11.5-beta.3 sur son dépôt GitHub. La note de publication se limite au numéro de version : aucun détail sur les changements, correctifs ou nouvelles fonctions n'est fourni. Cette pré-version ne peut donc pas être évaluée sur son contenu, faute d'informations dans l'annonce.",
+  "tags": [
+   "openclaw",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.5-beta.3",
+  "date_source": "2026-11-14T18:48:13+00:00",
+  "date_redac": "2026-11-14T20:41:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 743
+  }
+ },
+ {
+  "id": "c6950fc641f15a9b",
+  "slug": "openclaw-corrige-la-recuperation-authentifiee-des-recus-dans-son-contr-c6950f",
+  "titre": "OpenClaw corrige la récupération authentifiée des reçus dans son contrôle de publication",
+  "resume": "OpenClaw publie une nouvelle version de son dépôt, référencée sous l'identifiant release-publish/571848e36d08-1794681785. La note de version tient en une ligne : un correctif qui permet d'accepter la récupération authentifiée des reçus (« authenticated receipt recovery ») lors du contrôle préalable à la publication (« publication preflight »). Aucun autre détail technique n'est fourni dans l'extrait.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F571848e36d08-1794681785",
+  "date_source": "2026-11-14T18:41:47+00:00",
+  "date_redac": "2026-11-14T20:41:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 613,
+   "sortie": 843
+  }
+ },
+ {
   "id": "5524a6be6d85319b",
   "slug": "hermes-agent-publie-la-release-candidate-rc-7-de-la-version-0-23-2-5524a6",
   "titre": "Hermes Agent publie la release candidate rc.7 de la version 0.23.2",

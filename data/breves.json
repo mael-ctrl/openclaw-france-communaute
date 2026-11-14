@@ -1,5 +1,130 @@
 [
  {
+  "id": "678e2758d929f207",
+  "slug": "un-manifeste-no-ai-slop-pour-lutter-contre-les-contenus-ia-mediocres-678e27",
+  "titre": "Un manifeste « No AI Slop » pour lutter contre les contenus IA médiocres",
+  "resume": "Les intervenants d'AIE se sont réunis pour présenter un manifeste « No AI Slop », qui expose les moyens de combattre le slop : ces contenus générés à la chaîne, sans soin ni utilité réelle. Le texte, daté du 13 novembre 2026, entend poser des repères communs face à la dégradation de la production assistée par IA.",
+  "tags": [
+   "société",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Latent Space",
+  "lien_source": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+  "date_source": "2026-11-14T08:31:02+00:00",
+  "date_redac": "2026-11-14T08:41:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 608
+  }
+ },
+ {
+  "id": "fa6bf5ae04ffde3e",
+  "slug": "une-liste-de-ressources-pour-apprendre-le-rl-from-scratch-du-cours-a-l-fa6bf5",
+  "titre": "Une liste de ressources pour apprendre le RL from scratch, du cours à la pratique",
+  "resume": "Un membre de r/LocalLLaMA compile ses ressources préférées pour apprendre le reinforcement learning depuis zéro. On y trouve le Deep RL Course de HuggingFace pour les bases du RL classique et profond, le cours DeepMind x UCL de 2015 pour l'intuition théorique, puis Spinning Up in Deep RL pour le code et les maths de chaque algorithme. La liste se termine par CleanRL, une bibliothèque proposant des implémentations d'une page, et NeatRL, les notes et implémentations personnelles de l'auteur.",
+  "tags": [
+   "recherche",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xvwuhi/curated_list_of_resources_theory_code_and_math/",
+  "date_source": "2026-11-14T07:59:01+00:00",
+  "date_redac": "2026-11-14T08:41:51+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 746,
+   "sortie": 313
+  }
+ },
+ {
+  "id": "7a0a24fdeeacf8ee",
+  "slug": "hermes-agent-version-canary-0-23-1-tests-d-installation-valides-sur-ma-7a0a24",
+  "titre": "Hermes Agent : version canary 0.23.1, tests d'installation validés sur macOS et Windows",
+  "resume": "La version canary v0.23.1 de Hermes Agent, datée du 14 novembre 2026, publie des paquets macOS (DMG et ZIP arm64) et Windows MSIX (arm64 et x64) qui passent les tests de fumée d'installation et de conversation. Les bundles Linux restent désactivés et les enveloppes Store non signées ne sont pas testées. La disponibilité d'un téléchargement ne dépend pas du statut des tests.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261114T064334Z",
+  "date_source": "2026-11-14T07:46:34+00:00",
+  "date_redac": "2026-11-14T08:41:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 824,
+   "sortie": 1209
+  }
+ },
+ {
+  "id": "d858bc4c0b972798",
+  "slug": "hermes-agent-la-version-candidate-rc-6-v0-23-2-publiee-sur-github-d858bc",
+  "titre": "Hermes Agent : la version candidate rc.6-v0.23.2 publiée sur GitHub",
+  "resume": "NousResearch a mis en ligne le 14 novembre 2026 la version candidate rc.6-v0.23.2 de son agent Hermes, sur le dépôt GitHub du projet. Les métadonnées de publication mentionnent une sixième tentative (attempt 6), une désactivation de la publication automatique et un identifiant de commit. L'extrait ne précise ni le contenu des changements ni les fonctionnalités concernées.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.6-v0.23.2",
+  "date_source": "2026-11-14T07:17:39+00:00",
+  "date_redac": "2026-11-14T08:42:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 580
+  }
+ },
+ {
+  "id": "9a6ff0d003ed7865",
+  "slug": "kitten-tts-2-trois-modeles-vocaux-de-7-2-a-82-millions-de-parametres-9a6ff0",
+  "titre": "Kitten TTS 2 : trois modèles vocaux de 7,2 à 82 millions de paramètres",
+  "resume": "KittenML met en ligne sur Hugging Face trois modèles de synthèse vocale à 24 kHz. Kitten TTS 2 Mini aligne 82 millions de paramètres, 16 langues et 118 voix ; Nano (17 M par langue) et Pico (7,2 M par langue) couvrent 8 langues avec 37 et 30 voix. Les poids sont proposés en ONNX int8 — 82,7 Mo, 17,4 Mo et 8 Mo — et tournent sur CPU sans PyTorch, ainsi qu'en float32 PyTorch.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xvw34k/kittenmlkittentts2mini_hugging_face_texttospeech/",
+  "date_source": "2026-11-14T07:11:58+00:00",
+  "date_redac": "2026-11-14T08:42:07+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 803,
+   "sortie": 1109
+  }
+ },
+ {
+  "id": "005abde13cbb6953",
+  "slug": "roborock-entre-sur-le-marche-des-tondeuses-avec-le-rockmow-s115-a-ante-005abd",
+  "titre": "Roborock entre sur le marché des tondeuses avec le RockMow S115 à antenne RTK",
+  "resume": "Pour ses débuts sur le marché des robots tondeuses, Roborock lance huit modèles répartis en trois familles. 01net a testé le RockMow S115, une référence à 1 699 euros capable d'entretenir jusqu'à 1 500 m². Sa particularité : il mise sur une antenne RTK à installer dans le jardin, là où les modèles LiDAR tendent justement à s'en passer.",
+  "tags": [
+   "robots",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/tests/test-roborock-rockmow-s115-lantenne-rtk-de-ce-robot-tondeuse-a-t-elle-encore-un-interet-face-au-lidar.html",
+  "date_source": "2026-11-14T06:54:17+00:00",
+  "date_redac": "2026-11-14T08:42:10+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 765,
+   "sortie": 304
+  }
+ },
+ {
   "id": "75069fceb323a08c",
   "slug": "simuler-un-robot-pick-and-place-avec-les-assets-simready-de-nvidia-75069f",
   "titre": "Simuler un robot pick-and-place avec les assets SimReady de NVIDIA",

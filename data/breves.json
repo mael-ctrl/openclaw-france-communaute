@@ -1,5 +1,131 @@
 [
  {
+  "id": "5524a6be6d85319b",
+  "slug": "hermes-agent-publie-la-release-candidate-rc-7-de-la-version-0-23-2-5524a6",
+  "titre": "Hermes Agent publie la release candidate rc.7 de la version 0.23.2",
+  "resume": "Hermes Agent publie sur GitHub la release candidate rc.7 de sa version 0.23.2, un tag de pré-version. Les métadonnées jointes à la publication indiquent une septième tentative (attempt: 7) et une autopublication désactivée (autopublish: false). Un horodatage claimEpoch et un identifiant de commit accompagnent la fiche.",
+  "tags": [
+   "hermes",
+   "dev",
+   "open-source",
+   "agents"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.7-v0.23.2",
+  "date_source": "2026-11-14T16:02:50+00:00",
+  "date_redac": "2026-11-14T16:08:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 611,
+   "sortie": 871
+  }
+ },
+ {
+  "id": "5653c16430e151cd",
+  "slug": "langchain-et-le-goal-engineering-des-agents-a-objectifs-ouverts-5653c1",
+  "titre": "LangChain et le « goal engineering » : des agents à objectifs ouverts",
+  "resume": "LangChain consacre un billet de blog au « goal engineering ». L'argument avancé : l'avenir des agents tient à leur capacité à prendre en charge des objectifs ouverts et à avancer jusqu'à leur accomplissement. La publication se présente comme une entrée en matière sur ce sujet.",
+  "tags": [
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "LangChain (blog officiel)",
+  "lien_source": "https://www.langchain.com/blog/goal-engineering",
+  "date_source": "2026-11-14T16:00:01+00:00",
+  "date_redac": "2026-11-14T16:08:38+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 589,
+   "sortie": 1038
+  }
+ },
+ {
+  "id": "49904e68f438930c",
+  "slug": "l-app-windows-llama-de-hugging-face-agace-un-utilisateur-49904e",
+  "titre": "L'app Windows Llama de Hugging Face agace un utilisateur",
+  "resume": "Un utilisateur de r/LocalLLaMA raconte son essai de la nouvelle application Windows Llama de Hugging Face. Il voulait télécharger un fichier Qwen3.8-27B-UD-Q3_K_XL.gguf, mais l'app a systématiquement récupéré la version de 51 Go à la place, avant de refuser de la supprimer. Le téléchargement a ensuite continué en arrière-plan, ce qui l'a poussé à désinstaller le logiciel. Il sollicite d'autres retours d'expérience.",
+  "tags": [
+   "open-source",
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xw5an0/does_the_new_hugging_face_llama_windows_app_work/",
+  "date_source": "2026-11-14T15:36:16+00:00",
+  "date_redac": "2026-11-14T16:08:41+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 704,
+   "sortie": 530
+  }
+ },
+ {
+  "id": "fdce7a9dd1d5bb7c",
+  "slug": "pourquoi-les-etats-unis-n-entrainent-ils-pas-de-modeles-ouverts-nation-fdce7a",
+  "titre": "Pourquoi les États-Unis n'entraînent-ils pas de modèles ouverts nationaux ?",
+  "resume": "Sur r/LocalLLaMA, un internaute américain s'interroge : pourquoi son pays ne développe-t-il pas de modèles d'IA ouverts à l'échelle nationale ? Il rappelle que DeepSeek aurait dépensé environ 6 millions de dollars pour 4.1, en publiant tout son travail. Face aux budgets publics, le coût lui semble dérisoire — et répondrait selon lui à des enjeux de sécurité comme aux pratiques monopolistiques sur le prix des tokens.",
+  "tags": [
+   "deepseek",
+   "open-source",
+   "business",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xw4ue3/why_dont_we_have_national_open_ai_models/",
+  "date_source": "2026-11-14T15:17:07+00:00",
+  "date_redac": "2026-11-14T16:08:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 683,
+   "sortie": 512
+  }
+ },
+ {
+  "id": "b703b8604b0d1212",
+  "slug": "helen-toner-ex-administratrice-d-openai-la-confiance-dans-les-patrons--b703b8",
+  "titre": "Helen Toner, ex-administratrice d'OpenAI : la confiance dans les patrons de l'IA reste impossible",
+  "resume": "Dans le podcast de The Verge, Helen Toner, directrice exécutive du Center for Security and Emerging Technology de Georgetown, est l'invitée d'un épisode consacré à l'IA au quotidien. Figure reconnue de la communauté sécurité et politiques de l'IA, elle a siégé au conseil d'administration d'OpenAI, celui qui a écarté Sam Altman. Son constat : on ne peut toujours pas faire confiance aux dirigeants de l'IA.",
+  "tags": [
+   "openai",
+   "sécurité",
+   "société"
+  ],
+  "importance": 3,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+  "date_source": "2026-11-14T15:00:00+00:00",
+  "date_redac": "2026-11-14T16:08:50+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 667,
+   "sortie": 670
+  }
+ },
+ {
+  "id": "92d4d0def5614f77",
+  "slug": "geforce-nvidia-repond-non-aux-inquietudes-sur-l-avenir-de-ses-cartes-92d4d0",
+  "titre": "GeForce : Nvidia répond « non » aux inquiétudes sur l'avenir de ses cartes",
+  "resume": "Interrogé sur une possible fin des cartes GeForce après le départ de Jensen Huang, le porte-voix de Nvidia auprès des joueurs a répondu d'un seul mot : non. La réponse rassure sur la survie de la marque, beaucoup moins sur sa place dans le nouveau Nvidia.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/nvidia/3323467_les-cartes-geforce-menacees-par-le-depart-de-jensen-huang-la-reponse-tres-seche-de-nvidia-aux-joueurs",
+  "date_source": "2026-11-14T14:48:50+00:00",
+  "date_redac": "2026-11-14T16:08:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 694,
+   "sortie": 393
+  }
+ },
+ {
   "id": "10ff03738edd2452",
   "slug": "modeles-ouverts-la-course-aux-300b-menace-les-machines-a-128-go-10ff03",
   "titre": "Modèles ouverts : la course aux 300B+ menace les machines à 128 Go",

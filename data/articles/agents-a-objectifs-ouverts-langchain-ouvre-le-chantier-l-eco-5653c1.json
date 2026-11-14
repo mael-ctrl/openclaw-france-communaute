@@ -1,0 +1,41 @@
+{
+ "slug": "agents-a-objectifs-ouverts-langchain-ouvre-le-chantier-l-eco-5653c1",
+ "titre": "Agents à objectifs ouverts : LangChain ouvre le chantier, l'écosystème avance",
+ "chapo": "LangChain consacre un billet au « goal engineering » et mise sur des agents capables de porter des objectifs ouverts jusqu'à leur accomplissement. La même semaine, Microsoft écarte la piste d'un agent fautif dans la panne de Microsoft 365, llama.cpp franchit la 1.0.0 et une app Windows de Hugging Face fait grincer des dents.",
+ "html": "<h2 id=\"le-goal-engineering-ou-l-agent-qu-on-ne-\">Le « goal engineering », ou l'agent qu'on ne scénarise plus</h2>\n<p>LangChain publie un billet de blog consacré au <strong>« goal engineering »</strong>. L'argument avancé est simple à énoncer : l'avenir des agents tient à leur capacité à prendre en charge des <strong>objectifs ouverts</strong> et à avancer jusqu'à leur accomplissement. Autrement dit, à ne plus seulement exécuter une suite d'étapes définies à l'avance, mais à porter une intention et à la mener à son terme.</p>\n<p>La publication se présente elle-même comme une <strong>entrée en matière</strong> sur le sujet. Pas de spécification détaillée ni de recette d'implémentation dans ce que l'on en sait : le billet ouvre le chantier, il ne le referme pas. C'est un déplacement de vocabulaire intéressant : on ne parle plus seulement de <em>prompt engineering</em>, mais de la conception même des objectifs qu'on confie à un agent.</p>\n<h2 id=\"microsoft-365-la-piste-de-l-agent-ecarte\">Microsoft 365 : la piste de l'agent écartée</h2>\n<p>Le sujet est d'autant plus sensible qu'un agent qui dérape est devenu une hypothèse de travail ordinaire. Après la <strong>panne mondiale de Microsoft 365</strong>, Microsoft a présenté ses excuses dans un message publié sur X. L'entreprise y décrit un <strong>« problème technique »</strong> et exclut tout lien avec une cyberattaque.</p>\n<p>Elle balaie également la théorie d'un agent IA qui aurait dérapé : selon Microsoft, <strong>ni l'IA ni ses agents ne sont en cause</strong> dans l'incident. La précision a son intérêt : elle montre que l'hypothèse de l'agent fautif circule désormais assez largement pour qu'un éditeur prenne la peine de la nommer et de la réfuter publiquement.</p>\n<p>Rien dans les éléments disponibles ne relie cette panne au débat sur les objectifs ouverts. Les deux sujets se croisent sur un terrain commun : ce qu'on attend d'un agent, et ce qu'on craint qu'il fasse.</p>\n<h2 id=\"llama-cpp-passe-en-1-0-0-sans-annonce-of\">llama.cpp passe en 1.0.0, sans annonce officielle</h2>\n<p>Sur le front de l'outillage, <strong>llama.cpp franchit le cap de la version 1.0.0</strong>. Le changement a été soumis par <strong>ggerganov</strong> dans une pull request référencée <strong>#32190</strong>, sous l'organisation <strong>ggml-org</strong>.</p>\n<p>Nuance de taille rapportée par l'auteur du post sur r/LocalLLaMA : il indique n'avoir trouvé <strong>aucune annonce officielle</strong> accompagnant cette publication. Un numéro de version ne dit pas tout du contenu, et l'absence de communication laisse la communauté interpréter elle-même la portée du geste. Pour un projet aussi structurant dans l'écosystème des modèles locaux, le symbole reste notable.</p>\n<h2 id=\"un-9b-ambitieux-une-app-windows-qui-s-em\">Un 9B ambitieux, une app Windows qui s'emmêle</h2>\n<p>Côté modèles, <strong>SenseNova met en ligne sur Hugging Face</strong> un modèle en aperçu, <strong>SenseNova-Loop-9B-Preview</strong>, dont l'architecture intrigue. Un utilisateur de r/LocalLLaMA estime qu'il tient tête à <strong>Qwen 3.5 27B</strong> avec seulement 9 milliards de paramètres. La nuance est importante : les paramètres d'inférence montent à environ <strong>15 milliards</strong>, le modèle embarque du <strong>MTP</strong> et n'est pas encore finalisé. L'auteur du post précise par ailleurs qu'il ne l'a pas encore essayé.</p>\n<p>À l'inverse, l'expérience utilisateur crispe. Un membre de r/LocalLLaMA raconte son essai de la nouvelle <strong>application Windows Llama de Hugging Face</strong> : il voulait télécharger un fichier `Qwen3.8-27B-UD-Q3_K_XL.gguf`, mais l'app a systématiquement récupéré la version de <strong>51 Go</strong> à la place, avant de refuser de la supprimer. Le téléchargement a ensuite continué <strong>en arrière-plan</strong>, ce qui l'a poussé à désinstaller le logiciel. Il sollicite d'autres retours d'expérience.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux mouvements coexistent. D'un côté, un discours qui pousse vers des agents à objectifs ouverts, capables de tenir une intention dans la durée. De l'autre, un terrain encore rugueux : une version 1.0.0 sans annonce, un aperçu de modèle non finalisé dont la comparaison tient pour l'instant du pari, une application de bureau qui télécharge 51 Go au lieu du fichier demandé et refuse de les effacer. Entre la conception des objectifs et la gestion des fichiers temporaires, l'écart dit beaucoup de l'état réel de l'outillage.</p>",
+ "pivot": "5653c16430e151cd",
+ "tags": [
+  "agents",
+  "open-source",
+  "dev",
+  "recherche"
+ ],
+ "sources": [
+  {
+   "nom": "LangChain (blog officiel)",
+   "url": "https://www.langchain.com/blog/goal-engineering"
+  },
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2374527-panne-geante-microsoft-balaie-la-theorie-dun-agent-ia-qui-aurait-derape.html"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv3cyt/llamacpp_bump_version_to_100_by_ggerganov_pull/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xw5an0/does_the_new_hugging_face_llama_windows_app_work/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvysss/sensenovasensenovaloop9bpreview_hugging_face/"
+  }
+ ],
+ "date": "2026-11-14T16:09:04+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1531,
+  "sortie": 1823
+ }
+}

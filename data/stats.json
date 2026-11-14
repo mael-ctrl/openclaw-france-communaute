@@ -1,22 +1,18 @@
 {
- "runs": 493,
- "items_collectes": 4863,
- "breves_publiees": 1934,
- "articles_publies": 372,
- "tokens_entree": 1977451,
- "tokens_sortie": 2712316,
+ "runs": 494,
+ "items_collectes": 4871,
+ "breves_publiees": 1939,
+ "articles_publies": 373,
+ "tokens_entree": 1982501,
+ "tokens_sortie": 2718805,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-11-14T08:42:27+00:00",
+ "dernier_run": "2026-11-14T10:28:58+00:00",
  "solde": {
-  "total": "81.15",
+  "total": "81.13",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-11-06T00:25:35+00:00",
-   "message": "archivage wayback : The read operation timed out"
-  },
   {
    "ts": "2026-11-07T02:18:29+00:00",
    "message": "brève impossible (What made your custom research/task harness effective? How d) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-11-13T18:22:23+00:00",
    "message": "brève impossible (Tontaube V1.1: open-weights TTS with voice cloning for long-) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-11-14T10:28:36+00:00",
+   "message": "brève impossible (Can open-weight LLMs can predict the effects of weight edits) : réponse non-JSON"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 10.51,
+ "depense_usd": 10.53,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -1992,13 +1992,17 @@
   [
    "2026-11-14T08:41:43+00:00",
    "81.15"
+  ],
+  [
+   "2026-11-14T10:28:04+00:00",
+   "81.13"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 1.55,
+ "depense_mois_usd": 1.57,
  "archive_tentatives": {
   "jour": "2026-11-14",
-  "n": 1
+  "n": 2
  },
  "derniere_archive": "2026-11-13"
 }

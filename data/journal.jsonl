@@ -4074,3 +4074,11 @@
 {"ts": "2026-11-14T09:21:41+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "053db1c9c90a1553e9ad63fa10fac66c903262314e5a05088aefebad4f46ede6"}
 {"ts": "2026-11-14T09:21:41+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-11-14.json", "publications": 2507}, "sha256": "f1267484c92191d2437990aef9016ec61825b4a854e6e577dae2589c4c3ed7d3"}
 {"ts": "2026-11-14T09:21:41+00:00", "evenement": "bilan", "details": {"duree_s": 2412.6, "neufs": 38, "breves": 6, "articles": 1, "fichiers": 2547, "envois": 2604, "publications": 4}, "sha256": "970180a2f13598cab3c2cd9dea2688fc82feb187aa61fca70d80c7ca4e659b7d"}
+{"ts": "2026-11-14T10:28:04+00:00", "evenement": "collecte", "details": {"neufs": 8}, "sha256": "30aefc85e2c95eb8bd4d3f0bc63c147834789ed0422108103f940050b41ca2d5"}
+{"ts": "2026-11-14T10:28:36+00:00", "evenement": "erreur", "details": {"message": "brève impossible (Can open-weight LLMs can predict the effects of weight edits) : réponse non-JSON"}, "sha256": "2a0efb22ecb25f2907ca4918dad9a3144b48f417d2fda77fabf7c0f96b161a16"}
+{"ts": "2026-11-14T10:29:24+00:00", "evenement": "construction", "details": {"fichiers": 2553}, "sha256": "eae612f27c2f0f42943ba1739c227d4aa9f5b7e15bfb3fac1673c822f68c6c55"}
+{"ts": "2026-11-14T11:07:24+00:00", "evenement": "deploiement", "details": {"fichiers": 2609, "octets": 111977043}, "sha256": "fb6838adf867691697ebc40d4701a21a05f1d987337c8d6c9b5c8d5859fd580d"}
+{"ts": "2026-11-14T11:07:24+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "1d529005794c2463b801bb5b66fedba5500841b4e0f6848797a0454e7de481e8"}
+{"ts": "2026-11-14T11:07:33+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 2}, "sha256": "1af1bf6350fb3fc54adc8392035b11f509b03a9ac7535c2c5859c49626e5315e"}
+{"ts": "2026-11-14T11:07:43+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "f6b98949a208310fb6c1f65277a012943ae710817fc973d7188c0af1f1849d52"}
+{"ts": "2026-11-14T11:07:43+00:00", "evenement": "bilan", "details": {"duree_s": 2392.5, "neufs": 8, "breves": 5, "articles": 1, "fichiers": 2553, "envois": 2609, "publications": 4}, "sha256": "5121d25abd18080b12c22bfbab09d8984fdd595fb8d543d33d43403d423123d7"}

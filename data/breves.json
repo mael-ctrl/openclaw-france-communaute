@@ -1,5 +1,110 @@
 [
  {
+  "id": "ededf758ee273e8e",
+  "slug": "sensenova-loop-9b-preview-9b-de-parametres-face-a-qwen-3-5-27b-ededf7",
+  "titre": "SenseNova-Loop-9B-Preview : 9B de paramètres face à Qwen 3.5 27B",
+  "resume": "SenseNova met en ligne sur Hugging Face un modèle en aperçu, SenseNova-Loop-9B-Preview, dont l'architecture intrigue. Un utilisateur de r/LocalLLaMA estime qu'il tient tête à Qwen 3.5 27B avec seulement 9 milliards de paramètres. Nuance : les paramètres d'inférence montent à environ 15 milliards, le modèle embarque du MTP et n'est pas encore finalisé. L'auteur du post ne l'a pas encore essayé.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xvysss/sensenovasensenovaloop9bpreview_hugging_face/",
+  "date_source": "2026-11-14T10:02:25+00:00",
+  "date_redac": "2026-11-14T10:28:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 717,
+   "sortie": 902
+  }
+ },
+ {
+  "id": "26b926a5adbcb0bb",
+  "slug": "qwen-3-8-flash-next-en-gamedev-un-jeu-complet-code-en-local-26b926",
+  "titre": "Qwen 3.8 Flash Next en gamedev : un jeu complet, codé en local",
+  "resume": "Un développeur de r/LocalLLaMA voulait savoir ce que valait Qwen 3.8 Flash Next en gamedev : il publie aujourd'hui un jeu terminé, gratuit. Le modèle tournait en local sur une Strix Halo (Ryzen AI 395+, Bosgame M5) sous Windows, en quant Unsloth UD_Q4_XL, avec son propre fork Windows de Gufo — llama étant jugé trop lent — et son propre harness.",
+  "tags": [
+   "dev",
+   "matériel"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xvyol3/qwen_38_flash_next_for_gamedev_its_very_capable/",
+  "date_source": "2026-11-14T09:55:18+00:00",
+  "date_redac": "2026-11-14T10:28:14+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 853,
+   "sortie": 815
+  }
+ },
+ {
+  "id": "739457f33f0fcc75",
+  "slug": "et-si-un-modele-decideur-validait-les-permissions-d-un-agent-739457",
+  "titre": "Et si un modèle décideur validait les permissions d'un agent ?",
+  "resume": "Un utilisateur de r/LocalLLaMA laisse son agent travailler toute la nuit avec des permissions complètes. Sandbox et sauvegardes restent les réponses évidentes, mais il propose une autre piste : un modèle décideur qui valide chaque demande d'élévation, avec justification et commande à l'appui. De quoi trancher par oui ou non. Il demande si d'autres ont déjà testé l'approche.",
+  "tags": [
+   "agents",
+   "sécurité",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xvxziy/is_anyone_using_decision_models_as_a_permission/",
+  "date_source": "2026-11-14T09:09:28+00:00",
+  "date_redac": "2026-11-14T10:28:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 746,
+   "sortie": 1466
+  }
+ },
+ {
+  "id": "7f1377ee64f7488f",
+  "slug": "hermes-agent-la-release-candidate-0-23-2-abandonnee-a-la-sixieme-tenta-7f1377",
+  "titre": "Hermes Agent : la release candidate 0.23.2 abandonnée à la sixième tentative",
+  "resume": "Le dépôt GitHub de Hermes Agent publie une entrée de version marquée « abandoned » pour la release candidate rc.6-v0.23.2. Les métadonnées indiquent une sixième tentative (« attempt » : 6) sur la version 0.23.2, avec un schéma de publication en version 1. L'entrée se limite à ces informations, sans description des changements apportés.",
+  "tags": [
+   "hermes",
+   "agents",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.6-v0.23.2",
+  "date_source": "2026-11-14T08:55:59+00:00",
+  "date_redac": "2026-11-14T10:28:40+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 623,
+   "sortie": 625
+  }
+ },
+ {
+  "id": "65b5e7168c83b729",
+  "slug": "panne-mondiale-de-microsoft-365-ni-cyberattaque-ni-agent-ia-en-cause-65b5e7",
+  "titre": "Panne mondiale de Microsoft 365 : ni cyberattaque, ni agent IA en cause",
+  "resume": "Microsoft a présenté ses excuses, dans un message publié sur X, pour la panne mondiale de Microsoft 365. L'entreprise parle d'un « problème technique » et écarte tout lien avec une cyberattaque, comme avec l'IA ou ses agents. La théorie d'un agent IA qui aurait dérapé est donc balayée, mais les causes exactes restent vagues.",
+  "tags": [
+   "sécurité",
+   "agents",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2374527-panne-geante-doutlook-et-de-microsoft-365-la-theorie-dun-agent-ia-qui-aurait-derape-est-balayee-mais-les-causes-restent-vagues.html",
+  "date_source": "2026-11-14T08:42:53+00:00",
+  "date_redac": "2026-11-14T10:28:43+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 696,
+   "sortie": 397
+  }
+ },
+ {
   "id": "678e2758d929f207",
   "slug": "un-manifeste-no-ai-slop-pour-lutter-contre-les-contenus-ia-mediocres-678e27",
   "titre": "Un manifeste « No AI Slop » pour lutter contre les contenus IA médiocres",

@@ -1,5 +1,132 @@
 [
  {
+  "id": "10ff03738edd2452",
+  "slug": "modeles-ouverts-la-course-aux-300b-menace-les-machines-a-128-go-10ff03",
+  "titre": "Modèles ouverts : la course aux 300B+ menace les machines à 128 Go",
+  "resume": "Sur r/LocalLLaMA, un utilisateur s'inquiète de la dépendance aux créateurs de modèles (Qwen, Gemma, NVIDIA) pour les modèles d'environ 100B. Cette taille tient encore sur 128 Go de mémoire unifiée ou 128 Go de RAM + 24-32 Go de VRAM, jusqu'en 2027 selon lui. Mais les créateurs passent à 300B et plus (DeepSeek, Ling, MiniMax, GLM, Mistral-Large-4 à 1T) : ces poids ne rentrent plus, même en Q4.",
+  "tags": [
+   "open-source",
+   "matériel",
+   "deepseek",
+   "mistral"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xw0xeu/how_long_are_we_gonna_depend_bunch_of_model/",
+  "date_source": "2026-11-14T12:10:50+00:00",
+  "date_redac": "2026-11-14T12:26:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 948,
+   "sortie": 1288
+  }
+ },
+ {
+  "id": "99dea6f8b25ada6a",
+  "slug": "le-crepuscule-du-fondateur-ceo-showman-vu-par-the-verge-99dea6",
+  "titre": "Le crépuscule du fondateur-CEO showman, vu par The Verge",
+  "resume": "Le 6 janvier 2025, Jensen Huang faisait son entrée sur scène devant une salle de 14 000 personnes, bras levé et veste de cuir noir, sous les applaudissements d'influenceurs et de fans baignés d'une lueur bleue. The Verge voit dans ce moment de rockstar du CEO de Nvidia l'illustration d'un déclin : celui du fondateur visionnaire et showman.",
+  "tags": [
+   "business",
+   "matériel",
+   "société"
+  ],
+  "importance": 2,
+  "source": "The Verge IA",
+  "lien_source": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+  "date_source": "2026-11-14T12:00:00+00:00",
+  "date_redac": "2026-11-14T12:26:59+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 671,
+   "sortie": 494
+  }
+ },
+ {
+  "id": "97893b42aabb9638",
+  "slug": "ibm-entraine-deux-petits-modeles-ouverts-a-ignorer-les-ordres-caches-d-97893b",
+  "titre": "IBM entraîne deux petits modèles ouverts à ignorer les ordres cachés dans les documents",
+  "resume": "IBM a entraîné deux petits modèles ouverts à ignorer les instructions dissimulées dans les documents qu'on leur soumet. Objectif visé : l'injection de prompt, un problème qui touche particulièrement les petits modèles. L'information est relayée sur r/LocalLLaMA, où l'auteur du post salue l'initiative.",
+  "tags": [
+   "sécurité",
+   "open-source",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xw09tu/ibm_trains_two_small_open_models_to_ignore_orders/",
+  "date_source": "2026-11-14T11:33:26+00:00",
+  "date_redac": "2026-11-14T12:27:03+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 630,
+   "sortie": 554
+  }
+ },
+ {
+  "id": "2a3f02c448c46e12",
+  "slug": "panne-mondiale-de-microsoft-365-microsoft-ecarte-la-piste-d-un-agent-i-2a3f02",
+  "titre": "Panne mondiale de Microsoft 365 : Microsoft écarte la piste d'un agent IA",
+  "resume": "Microsoft a présenté ses excuses après la panne mondiale de Microsoft 365, dans un message publié sur X. L'entreprise y décrit un « problème technique » et exclut tout lien avec une cyberattaque. Elle balaie également la théorie d'un agent IA qui aurait dérapé : ni l'IA ni ses agents ne sont en cause dans l'incident.",
+  "tags": [
+   "sécurité",
+   "société",
+   "agents"
+  ],
+  "importance": 3,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2374527-panne-geante-microsoft-balaie-la-theorie-dun-agent-ia-qui-aurait-derape.html",
+  "date_source": "2026-11-14T11:15:33+00:00",
+  "date_redac": "2026-11-14T12:27:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 662,
+   "sortie": 381
+  }
+ },
+ {
+  "id": "faf08a9e68ff8725",
+  "slug": "yann-le-cun-ne-croit-pas-a-la-fin-du-travail-mais-l-ia-freine-l-embauc-faf08a",
+  "titre": "Yann Le Cun ne croit pas à la fin du travail, mais l'IA freine l'embauche des jeunes",
+  "resume": "Le chercheur français Yann Le Cun balaie les prophéties de chômage de masse venues de la Silicon Valley : pour lui, le travail ne va pas disparaître avec l'IA. Les données françaises racontent cependant une histoire plus nuancée, où l'IA freine déjà l'embauche des jeunes, premiers à payer l'addition.",
+  "tags": [
+   "france",
+   "société",
+   "recherche"
+  ],
+  "importance": 3,
+  "source": "01net",
+  "lien_source": "https://www.01net.com/actualites/yann-le-cun-ne-croit-pas-a-la-fin-du-travail-mais-en-france-lia-freine-deja-lembauche-des-jeunes.html",
+  "date_source": "2026-11-14T11:09:34+00:00",
+  "date_redac": "2026-11-14T12:27:09+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 689,
+   "sortie": 308
+  }
+ },
+ {
+  "id": "c371fc0b850271d0",
+  "slug": "affaire-jensen-huang-une-liaison-presumee-avec-une-espionne-ebranle-nv-c371fc",
+  "titre": "Affaire Jensen Huang : une liaison présumée avec une espionne ébranle Nvidia",
+  "resume": "Selon Frandroid, l'ancien patron de Nvidia, Jensen Huang, a eu une liaison avec une femme soupçonnée d'être une espionne pour la Chine. Ces révélations chamboulent l'industrie de l'IA et enveniment les relations entre Pékin et Washington. Elles interrogent aussi l'avenir de Nvidia.",
+  "tags": [
+   "business",
+   "sécurité",
+   "matériel"
+  ],
+  "importance": 4,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/nvidia/3320401_affaire-jensen-huang-tout-ce-quon-sait-sur-le-scandale-nvidia",
+  "date_source": "2026-11-14T11:00:00+00:00",
+  "date_redac": "2026-11-14T12:27:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 688,
+   "sortie": 451
+  }
+ },
+ {
   "id": "ededf758ee273e8e",
   "slug": "sensenova-loop-9b-preview-9b-de-parametres-face-a-qwen-3-5-27b-ededf7",
   "titre": "SenseNova-Loop-9B-Preview : 9B de paramètres face à Qwen 3.5 27B",

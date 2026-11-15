@@ -1,5 +1,132 @@
 [
  {
+  "id": "607978a15ca9904b",
+  "slug": "enceintes-jbl-cove-quel-modele-choisir-selon-la-piece-607978",
+  "titre": "Enceintes JBL Cove : quel modèle choisir selon la pièce",
+  "resume": "À l'approche des fêtes de fin d'année, Frandroid publie un publi-rédactionnel consacré aux enceintes JBL Cove. Le principe : une enceinte compacte pour la chambre, un modèle sur batterie à emporter sur la terrasse, ou une enceinte plus puissante pour le salon. Objectif affiché : faire évoluer son installation dans toute la maison, au fil du temps.",
+  "tags": [
+   "matériel",
+   "business"
+  ],
+  "importance": 1,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/produits-android/maison-connectee/enceintes/3314203_de-la-chambre-a-la-terrasse-quelle-enceinte-jbl-cove-choisir-pour-chaque-piece",
+  "date_source": "2026-11-15T07:09:00+00:00",
+  "date_redac": "2026-11-15T07:44:31+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 712,
+   "sortie": 499
+  }
+ },
+ {
+  "id": "235915e62687ea26",
+  "slug": "hermes-agent-publie-une-build-canary-v0-23-1-235915",
+  "titre": "Hermes Agent publie une build canary v0.23.1",
+  "resume": "Hermes Agent, l'agent open source de NousResearch, publie une nouvelle build canary estampillée v0.23.1+canary.20261115T064406Z. La release est datée du 15 novembre 2026 à 06:44 UTC sur le dépôt GitHub du projet. Il s'agit d'une version de test du canal canary, distincte des versions stables : aucune note de version détaillant les changements n'accompagne cette publication.",
+  "tags": [
+   "hermes",
+   "agents",
+   "open-source",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Hermes Agent (releases)",
+  "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261115T064406Z",
+  "date_source": "2026-11-15T06:44:07+00:00",
+  "date_redac": "2026-11-15T07:44:36+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 764
+  }
+ },
+ {
+  "id": "b827bce560a1a685",
+  "slug": "openclaw-corrige-sa-release-pour-garder-les-exceptions-approuvees-de-2-b827bc",
+  "titre": "OpenClaw corrige sa release pour garder les exceptions approuvées de 2026.11.4",
+  "resume": "OpenClaw a publié un correctif sur son canal de publication de releases. Le commit vise à conserver les exceptions déjà approuvées pour la version 2026.11.4 sur la candidate corrigée. La modification est référencée sous l'identifiant release-publish/62a2b2f3fe07.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "open-source"
+  ],
+  "importance": 1,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/release-publish%2F62a2b2f3fe07-1794718465",
+  "date_source": "2026-11-15T04:52:14+00:00",
+  "date_redac": "2026-11-15T07:44:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 627,
+   "sortie": 467
+  }
+ },
+ {
+  "id": "66feb9d8b7b92718",
+  "slug": "les-etats-unis-adoptent-le-remote-access-security-act-risque-de-chaos--66feb9",
+  "titre": "Les États-Unis adoptent le Remote Access Security Act, risque de chaos pour les LLM ouverts",
+  "resume": "La Chambre des représentants américaine a adopté le Remote Access Security Act (H.R.2683), destiné à limiter l'accès à distance d'adversaires à des technologies critiques. En parallèle, le département du Commerce finalise une règle bloquant la location de GPU Nvidia à l'étranger par des entreprises chinoises d'IA. Sur r/LocalLLaMA, l'auteur du post estime que ce texte provoquera un chaos total pour les LLM ouverts et au-delà.",
+  "tags": [
+   "sécurité",
+   "open-source",
+   "matériel",
+   "business"
+  ],
+  "importance": 4,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and/",
+  "date_source": "2026-11-15T04:47:03+00:00",
+  "date_redac": "2026-11-15T07:44:45+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 754,
+   "sortie": 827
+  }
+ },
+ {
+  "id": "2b4ced14030665a0",
+  "slug": "openclaw-2026-11-5-beta-3-grosses-sessions-et-redemarrages-plus-surs-2b4ced",
+  "titre": "openclaw 2026.11.5-beta.3 : grosses sessions et redémarrages plus sûrs",
+  "resume": "La bêta 3 d'openclaw 2026.11.5 réduit la pression mémoire pendant l'indexation et la compaction des transcriptions, ne diffuse que les payloads d'hydratation sélectionnés et applique des limites de résumé configurables. Les redémarrages préservent les plafonds de permissions des messages en file et la propriété de livraison jusqu'au dernier RPC, après avoir vidé les écritures de chat. Le démarrage à froid et la reprise d'espace de travail interrompu sont aussi retravaillés.",
+  "tags": [
+   "openclaw",
+   "dev",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.5-beta.3",
+  "date_source": "2026-11-15T00:31:00+00:00",
+  "date_redac": "2026-11-15T07:44:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 816,
+   "sortie": 1246
+  }
+ },
+ {
+  "id": "04d251fa3e1e860b",
+  "slug": "nvidia-le-responsable-securite-parti-en-aout-jensen-huang-demissionne-04d251",
+  "titre": "Nvidia : le responsable sécurité parti en août, Jensen Huang démissionne",
+  "resume": "Le responsable de la sécurité de Nvidia a quitté son poste discrètement en août. Le PDG Jensen Huang a depuis démissionné, en raison de ses relations, dont une avec une cadre d'une entreprise soupçonnée d'avoir acheminé des puces vers la Chine. Un ancien officier du renseignement y voit le type de fuite qui passe par des conversations ordinaires, mal couvertes par la plupart des équipes de sécurité.",
+  "tags": [
+   "sécurité",
+   "business",
+   "matériel"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+  "date_source": "2026-11-15T00:08:07+00:00",
+  "date_redac": "2026-11-15T07:44:57+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 650,
+   "sortie": 736
+  }
+ },
+ {
   "id": "499d2faeca04e0b9",
   "slug": "huit-rtx-3090-en-watercooling-le-rig-d-inference-enfin-stable-499d2f",
   "titre": "Huit RTX 3090 en watercooling : le rig d'inférence enfin stable",

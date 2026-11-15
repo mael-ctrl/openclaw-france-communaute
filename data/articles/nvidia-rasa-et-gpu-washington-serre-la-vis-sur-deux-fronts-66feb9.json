@@ -1,0 +1,41 @@
+{
+ "slug": "nvidia-rasa-et-gpu-washington-serre-la-vis-sur-deux-fronts-66feb9",
+ "titre": "Nvidia, RASA et GPU : Washington serre la vis sur deux fronts",
+ "chapo": "La Chambre des représentants américaine a adopté le Remote Access Security Act, tandis que le département du Commerce finalise une règle bloquant la location de GPU Nvidia à l'étranger par des entreprises chinoises d'IA. Au même moment, Nvidia encaisse la démission de Jensen Huang et le départ discret de son responsable sécurité.",
+ "html": "<h2 id=\"rasa-l-acces-a-distance-entre-dans-le-vi\">RASA : l'accès à distance entre dans le viseur</h2>\n<p>Le Remote Access Security Act (H.R.2683) a été adopté par la Chambre des représentants. Son objet : limiter l'accès à distance d'adversaires à des technologies critiques. Le texte n'en est pour l'instant qu'au stade de l'adoption par la chambre basse, mais il s'ajoute à un mouvement plus large côté exécutif.</p>\n<p>En parallèle, le département du Commerce finalise une règle qui bloque la location de GPU Nvidia à l'étranger par des entreprises chinoises d'IA. Le calcul de puissance ne passe plus seulement par l'achat de cartes : le passage par le cloud et la location de capacité devient lui aussi un point de contrôle.</p>\n<p>Sur r/LocalLLaMA, l'auteur du post qui relaie l'information ne mâche pas ses mots : il estime que ce texte provoquera un <strong>chaos total pour les LLM ouverts</strong> et au-delà. C'est un avis d'utilisateur, pas une analyse juridique, mais il traduit l'inquiétude d'un milieu qui construit beaucoup sur des accès distribués.</p>\n<h2 id=\"chez-nvidia-la-securite-est-partie-sans-\">Chez Nvidia, la sécurité est partie sans bruit</h2>\n<p>TechCrunch rapporte que le responsable de la sécurité de Nvidia a quitté son poste discrètement en août. Un départ passé sous les radars, dans une entreprise dont les puces sont au centre de toutes les attentions depuis plusieurs années.</p>\n<p>L'angle intéressant vient d'un ancien officier du renseignement cité par TechCrunch : il y voit le type de fuite qui passe par des <strong>conversations ordinaires</strong>, mal couvertes par la plupart des équipes de sécurité. Autrement dit, pas d'intrusion spectaculaire ni de malware exotique, mais la fuite humaine, banale, celle que les dispositifs de sécurité traitent en dernier.</p>\n<h2 id=\"jensen-huang-une-demission-plusieurs-ver\">Jensen Huang : une démission, plusieurs versions</h2>\n<p>Le PDG Jensen Huang a démissionné. Sur le motif, les sources divergent dans le détail. Siècle Digital indique qu'il a reconnu ces derniers jours avoir entretenu une <strong>liaison extra-conjugale</strong>, et qu'il se retrouve contraint de quitter son poste. TechCrunch parle d'une démission liée à ses relations, dont une avec une cadre d'une entreprise soupçonnée d'avoir acheminé des puces vers la Chine.</p>\n<p>Frandroid va plus loin dans la qualification : l'ancien patron de Nvidia aurait eu une liaison avec une femme soupçonnée d'être une espionne pour la Chine. 01net, qui la nomme Alice Huang, la présente comme soupçonnée d'espionnage au profit de Pékin. On reste donc, dans toutes les versions, sur des <strong>soupçons</strong> — la dépêche de TechCrunch, elle, ne qualifie pas la personne d'espionne et s'en tient à son rôle de cadre dans une entreprise sous suspicion.</p>\n<p>Ce flou n'empêche pas les conséquences : Frandroid estime que ces révélations chamboulent l'industrie de l'IA et enveniment les relations entre Pékin et Washington. Siècle Digital évoque un scandale aux ramifications internationales, sans en détailler les tenants et les aboutissants.</p>\n<h2 id=\"un-durcissement-qui-s-empile-sur-un-autr\">Un durcissement qui s'empile sur un autre</h2>\n<p>Il faut rappeler un contexte que 01net souligne : les restrictions américaines sur les exportations de puces vers la Chine sont <strong>déjà fortement limitées depuis plusieurs années</strong>. Washington envisagerait désormais de les renforcer encore, en ciblant le fabricant américain lui-même.</p>\n<p>Les deux dossiers n'ont pas la même nature. D'un côté, un texte voté et une règle administrative en cours de finalisation qui déplacent le contrôle vers la location de calcul et l'accès à distance. De l'autre, un scandale RH et relationnel qui pèse sur l'image d'un fournisseur devenu indispensable. Ce qui les relie, c'est le même objet : les puces de Nvidia, et la question de savoir qui peut y accéder, depuis où.</p>\n<h2>Et maintenant ?</h2>\n<p>Pour l'écosystème de l'IA ouverte, le signal à retenir n'est pas la polémique personnelle mais le déplacement du périmètre réglementaire. Jusqu'ici, on contrôlait la vente de matériel ; le RASA et la règle du Commerce s'attaquent à l'usage à distance et à la location de capacité. Or c'est précisément par là que passent beaucoup de projets qui n'ont pas les moyens d'acheter des GPU. Reste que le texte n'est adopté que par la Chambre, que la règle du Commerce est en cours de finalisation, et que les conséquences concrètes sur les dépôts de modèles ouverts ne sont, à ce stade, décrites par personne autre qu'un utilisateur de forum.</p>",
+ "pivot": "66feb9d8b7b92718",
+ "tags": [
+  "open-source",
+  "sécurité",
+  "matériel",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/nvidia/3320401_affaire-jensen-huang-tout-ce-quon-sait-sur-le-scandale-nvidia"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/apres-le-scandale-nvidia-washington-envisage-de-nouvelles-restrictions-contre-la-chine.html"
+  },
+  {
+   "nom": "Siècle Digital",
+   "url": "https://siecledigital.fr/2026/11/13/le-patron-de-nvidia-contraint-a-la-demission-apres-un-scandale-aux-ramifications-internationales/"
+  }
+ ],
+ "date": "2026-11-15T07:45:15+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1503,
+  "sortie": 3043
+ }
+}

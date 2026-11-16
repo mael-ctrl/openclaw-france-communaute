@@ -33,4 +33,12 @@ Preuves privées : `crabe-chantiers/site/2026-11-14/` : logs rouge/vert, `build-
 
 Au commit de préparation : **règle HTTP publiée et vérifiée ; nouveaux gabarits prêts, publication et sauvegarde cloud à confirmer**. Le code est complet et les contrats passent ; ce statut intermédiaire ne revendique pas encore la fin du déploiement.
 
+### Vérification finale du 16 novembre, 13:10 CET
+
+**Code `3d8d787`, documentation initiale `4fb2416`, publication HTTP confirmée.** Le run [43855631049](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/43855631049) exécute **363 tests avec succès** ; son bilan métier rapporte **2 651 fichiers envoyés**. Il est néanmoins **annulé à la limite de 45 minutes**, à la fin du pipeline ; l'étape de sauvegarde est **skipped**. Aucun succès global ni commit de sauvegarde inventé, aucune augmentation du délai ni réparation de P9 par ce chantier.
+
+Après la fin du run : **deux séries de 23 réponses HTTPS conformes**. Dans chacune, onze pages (accueil, Actus, Articles, Pack, B2B, Podcast, Transparence, deux articles et deux anciennes brèves conservées) référencent le favicon exact ; logo JSON-LD également vérifié hors podcast. SVG exact, MIME et cache 200/206/304, original préservé, erreurs hors cache annuel. Les trois CSS/JS précédemment versionnés restent exacts ; **23 références icon/CSS/JS sur ces onze pages** contrôlées selon leur périmètre. Podcast sans script ni iframe. La première sonde effectuée pendant le transfert échouait sur l'accueil encore ancien : conservée dans `https-after/`, non remplacée par les recontrôles `https-after-final/` et `https-after-confirmation/`.
+
+Cette recette clôt **la publication de la fonction**, pas la sauvegarde des nouvelles données éditoriales de ce run. Le rendu HTTPS n'est pas attribué à un commit de données sauvegardé absent. Les neuf fichiers du correctif initial ont été relus identiques sur `origin/main` ; aucune donnée du build d'essai n'est publiée. Prochaine action d'exploitation : traiter séparément le dépassement et la consignation, sans relancer aveuglément le même pipeline ni réécrire les preuves.
+
 Hors périmètre : cache annuel de l'image OG générique, MP3 ou livrables ; précompression ; résolution de la concurrence des producteurs ; comparaison de tous les anciens HTML hors données conservées. Aucun gain de classement, trafic ou conversion mesuré ni promis.

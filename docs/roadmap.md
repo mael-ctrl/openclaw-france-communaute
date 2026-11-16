@@ -6,7 +6,9 @@
 
 **363 tests Python après rebase, huit Node, deux builds isolés sur la base courante** : 2 580 HTML ne changent que l'URL du favicon, 2 605 autres fichiers intacts, 737 sources préservées ; **56 requêtes Apache réel**. Préflight SFTP initial refusé car le SVG immuable existait déjà : identité exacte vérifiée, aucun écrasement ; seule la règle est publiée, 14 témoins conservés, 23 réponses HTTPS conformes avant les nouveaux gabarits. **Au commit initial : publication des références HTML et sauvegarde cloud encore à confirmer.**
 
-Observations initiales du 14 et reprise du 16 distinguées, sans antidatation. Clone partagé divergent préservé ; worktree propre rebasé sur `ecb4e84`. P9 reste une priorité d'exploitation distincte : aucun cron, wrapper, sceau, paiement ni diffusion communautaire modifié. Pas de seconde intégration ni de gain d'audience revendiqué.
+**Publication HTTP confirmée le 16 à 13:10 CET**, code `3d8d787` : deux séries de 23 réponses conformes, onze pages et leurs 23 références icon/CSS/JS vérifiées. Run `43855631049` : **363 tests réussis, 2 651 envois rapportés**, mais **annulation à 45 minutes et sauvegarde ignorée**. Fonction publiée ; clôture cloud/sauvegarde non acquise. La sonde partielle pendant transfert est conservée. [Détail final](favicon-versionne.md#vérification-finale-du-16-novembre-1310-cet).
+
+Observations initiales du 14 et reprise du 16 distinguées, sans antidatation. Clone partagé divergent préservé ; worktree propre rebasé sur `ecb4e84`. P9 reste une priorité d'exploitation distincte : aucun cron, wrapper, sceau, paiement ni campagne communautaire modifié. Le workflow demandé conserve sa diffusion éditoriale habituelle, dont le bilan est consigné dans ses logs. Pas de seconde intégration ni de gain d'audience revendiqué.
 
 ## État courant — bilan du 13 novembre 2026, complété le 16
 

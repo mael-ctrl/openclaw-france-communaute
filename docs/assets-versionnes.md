@@ -39,3 +39,9 @@ Pièces privées : `crabe-chantiers/site/2026-11-12/` (`build-evidence`, `apache
 **Assets et règle HTTP prépubliés et vérifiés ; références HTML et clôture cloud encore à confirmer après dispatch.** Ce statut intermédiaire sera complété par les observations finales. La prépublication additive évite des références vers des fichiers absents ; elle ne rend pas atomique le déploiement de l'ensemble du site.
 
 Hors périmètre : cache annuel des images non versionnées, icônes, MP3 ou fichiers payants ; précompression, score Lighthouse et gains de trafic/conversion. Les ressources originales gardent leur cache court. Aucune amélioration de classement, de visites ou de ventes déduite du cache.
+
+## Complément de vérification — 16 novembre, 13:10 CET
+
+La publication des **références HTML CSS/JS** n'est plus laissée au seul statut initial : le chantier [favicon versionné](favicon-versionne.md) les a relues sur onze pages publiques, selon leur périmètre exact (script commun hors podcast, script de copie uniquement Pack, CSS B2B uniquement B2B). Les trois fichiers servis sont identiques aux sources et portent encore le cache annuel. Les 23 références comptées incluent le nouveau favicon ; ne pas les présenter comme 23 CSS/JS. Aucune réintégration de la fonction du 12.
+
+Le run courant `43855631049` est annulé à la limite de 45 minutes après son bilan d'envois, sauvegarde ignorée : la preuve HTTPS ne rend pas ce run vert et ne remplace pas le contrôle historique du dispatch du 12. Le favicon, hors périmètre de la livraison initiale, fait l'objet du dossier distinct ci-dessus. Pièces : `crabe-chantiers/site/2026-11-14/references-publiques.json` et les deux campagnes `https-after-final/`, `https-after-confirmation/`.

@@ -1,5 +1,9 @@
 # Podcast : rendre les audios existants découvrables et abonnables
 
+## Édition du 13 novembre — publication cloud vérifiée
+
+Quatre sujets, **135,888 secondes**, voix Denise ; commit `0d715a7`, **355 tests locaux/cloud**. Run `43476541456` réussi le 13 à **19:02:43 UTC**, sauvegarde `8c0cf29`. Page, RSS et MP3 exacts en HTTPS au contrôle du **14 à 15:38:39 UTC**, 22 GUID uniques ; aucun repli SFTP. Le suivi tardif ne change pas le jour éditorial. Conflits du clone partagé préservés, non résolus par cette livraison. [Sources, recette et preuves](podcast-2026-11-13.md).
+
 ## Édition du 9 novembre — publiée par repli ciblé
 
 Quatre sujets, **125,064 secondes**, voix Denise ; commit `ae27e97`, **318 tests locaux/cloud**. Page, RSS et MP3 exacts en HTTPS à **22:04:31 UTC**, 19 GUID uniques. Run `42682841756` annulé après 45 min, sauvegarde ignorée ; audio transféré, page/flux publiés ensuite par SFTP ciblé. **Le podcast est publié, l'incident cloud reste ouvert.** [Sources, recette et preuves](podcast-2026-11-09.md).

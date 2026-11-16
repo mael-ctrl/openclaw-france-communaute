@@ -1,0 +1,174 @@
+{
+  "sha": "abf33751a12c2bc30f137f2afc53dededcbfc7da",
+  "selected_at": "2026-11-16T17:31:45.535209+00:00",
+  "sort": "date_redac descending",
+  "breves": [
+    {
+      "id": "4a4d95590afca696",
+      "slug": "hermes-agent-publie-une-build-canary-estampillee-v0-23-1-4a4d95",
+      "titre": "Hermes Agent publie une build canary estampillée v0.23.1",
+      "resume": "Le dépôt GitHub NousResearch/hermes-agent met en ligne une nouvelle build canary, taguée v0.23.1+canary.20261116T070005Z. La version est identifiée par un horodatage, 20261116T070005Z, qui accompagne le numéro 0.23.1. L'extrait disponible ne précise aucun contenu : ni correctif, ni fonctionnalité ne sont détaillés dans la note de version.",
+      "tags": [
+        "hermes",
+        "agents",
+        "open-source",
+        "dev"
+      ],
+      "importance": 1,
+      "source": "Hermes Agent (releases)",
+      "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261116T070005Z",
+      "date_source": "2026-11-16T07:00:07+00:00",
+      "date_redac": "2026-11-16T07:50:23+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 618,
+        "sortie": 514
+      }
+    },
+    {
+      "id": "9f1f9ea57dd418ff",
+      "slug": "razer-etoffe-sa-gamme-soma-avec-deux-fauteuils-a-vibrations-9f1f9e",
+      "titre": "Razer étoffe sa gamme Soma avec deux fauteuils à vibrations",
+      "resume": "Razer ajoute deux fauteuils à sa gamme Soma, avec des vibrations dans le dos et des haut-parleurs placés près des oreilles. Le modèle Pro réunit tout l'attirail, éclairage RGB compris pour les amateurs. Reste la facture : elle s'annonce salée, prévient le Journal du Geek.",
+      "tags": [
+        "matériel",
+        "business"
+      ],
+      "importance": 1,
+      "source": "Journal du Geek",
+      "lien_source": "https://www.journaldugeek.com/2026/11/16/les-nouveaux-fauteuils-razer-vont-faire-vibrer-les-joueurs-vraiment/",
+      "date_source": "2026-11-16T07:02:02+00:00",
+      "date_redac": "2026-11-16T07:50:19+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 678,
+        "sortie": 586
+      }
+    },
+    {
+      "id": "b0476c691f0ba62f",
+      "slug": "openclaw-2026-11-4-memoire-des-workers-et-reponses-fiables-b0476c",
+      "titre": "OpenClaw 2026.11.4 : mémoire des workers et réponses fiables",
+      "resume": "La version 2026.11.4 d'OpenClaw corrige plusieurs sources de consommation mémoire : le trimming des longs transcripts, les exports de mémoire paginés et les réparations du Doctor ne doivent plus épuiser la mémoire des workers. Le démarrage des plugins et de leurs services est avancé avant le scan des orphelins, et le scan des candidats de récupération évite de charger des résumés de sessions non concernés. Côté fiabilité, les invites sans réponse survivent aux redémarrages de la Gateway, les réponses finales WhatsApp résistent aux rechargements sans rapport et les reconnexions Signal ne sautent plus les messages mis en tampon.",
+      "tags": [
+        "openclaw",
+        "dev",
+        "agents",
+        "open-source"
+      ],
+      "importance": 3,
+      "source": "OpenClaw (releases)",
+      "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.4",
+      "date_source": "2026-11-16T07:06:19+00:00",
+      "date_redac": "2026-11-16T07:50:15+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 812,
+        "sortie": 200
+      }
+    },
+    {
+      "id": "a3dde57b17ce4bf1",
+      "slug": "mesurer-l-apport-reel-de-chaque-levier-publicitaire-methodes-limites-e-a3dde5",
+      "titre": "Mesurer l'apport réel de chaque levier publicitaire : méthodes, limites et rôle de l'IA",
+      "resume": "Une cliente voit une publicité Instagram sans cliquer ni acheter, puis recherche le produit sur Google deux jours plus tard et finalise son achat via une annonce Google Ads. Partant de cet exemple, Siècle Digital détaille les méthodes permettant de mesurer l'apport réel de chaque levier publicitaire, leurs limites, et le rôle que joue l'IA dans cette mesure.",
+      "tags": [
+        "business",
+        "recherche"
+      ],
+      "importance": 2,
+      "source": "Siècle Digital",
+      "lien_source": "https://siecledigital.fr/2026/11/16/mesurer-lapport-reel-de-chaque-levier-publicitaire-methodes-limites-et-role-de-lia/",
+      "date_source": "2026-11-16T07:17:03+00:00",
+      "date_redac": "2026-11-16T07:50:13+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 691,
+        "sortie": 839
+      }
+    },
+    {
+      "id": "a457c8022447537e",
+      "slug": "windows-11-tourne-sur-l-iphone-duo-grace-a-gemini-sans-debridage-a457c8",
+      "titre": "Windows 11 tourne sur l'iPhone Duo grâce à Gemini, sans débridage",
+      "resume": "Un responsable de Google AI Studio est parvenu à faire tourner Windows 11 sur l'iPhone Duo, sans débridage, avec l'aide de Gemini. La démonstration promet une fluidité « quasi native ». L'extrait précise toutefois qu'il faut lire la notice de montage avant de s'emballer.",
+      "tags": [
+        "gemini",
+        "matériel",
+        "dev"
+      ],
+      "importance": 2,
+      "source": "01net",
+      "lien_source": "https://www.01net.com/actualites/windows-11-sur-liphone-duo-ce-responsable-google-a-fait-une-petite-prouesse-avec-gemini.html",
+      "date_source": "2026-11-16T07:32:38+00:00",
+      "date_redac": "2026-11-16T07:50:07+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 670,
+        "sortie": 341
+      }
+    },
+    {
+      "id": "1d973890e27ff279",
+      "slug": "le-chuwi-corebook-air-plus-16-pouces-et-1-35-kg-brade-pour-le-singles--1d9738",
+      "titre": "Le CHUWI CoreBook Air Plus, 16 pouces et 1,35 kg, bradé pour le Singles Day",
+      "resume": "Le CHUWI CoreBook Air Plus est un PC portable de 16 pouces qui affiche 1,35 kg sur la balance. Il embarque un Ryzen 5, 512 Go de SSD et 16 Go de RAM. Vendu 579 euros en temps normal, le modèle voit son prix chuter à l'occasion du Singles Day sur AliExpress.",
+      "tags": [
+        "matériel",
+        "business"
+      ],
+      "importance": 1,
+      "source": "01net",
+      "lien_source": "https://www.01net.com/bons-plans/ce-pc-portable-de-16-pouces-ne-pese-que-135-kg-et-il-est-a-prix-fou-ryzen-5-ssd-512-go-ram-16-go.html",
+      "date_source": "2026-11-16T07:44:22+00:00",
+      "date_redac": "2026-11-16T07:50:05+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 712,
+        "sortie": 489
+      }
+    },
+    {
+      "id": "04d251fa3e1e860b",
+      "slug": "nvidia-le-responsable-securite-parti-en-aout-jensen-huang-demissionne-04d251",
+      "titre": "Nvidia : le responsable sécurité parti en août, Jensen Huang démissionne",
+      "resume": "Le responsable de la sécurité de Nvidia a quitté son poste discrètement en août. Le PDG Jensen Huang a depuis démissionné, en raison de ses relations, dont une avec une cadre d'une entreprise soupçonnée d'avoir acheminé des puces vers la Chine. Un ancien officier du renseignement y voit le type de fuite qui passe par des conversations ordinaires, mal couvertes par la plupart des équipes de sécurité.",
+      "tags": [
+        "sécurité",
+        "business",
+        "matériel"
+      ],
+      "importance": 4,
+      "source": "TechCrunch IA",
+      "lien_source": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "date_source": "2026-11-15T00:08:07+00:00",
+      "date_redac": "2026-11-15T07:44:57+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 650,
+        "sortie": 736
+      }
+    },
+    {
+      "id": "2b4ced14030665a0",
+      "slug": "openclaw-2026-11-5-beta-3-grosses-sessions-et-redemarrages-plus-surs-2b4ced",
+      "titre": "openclaw 2026.11.5-beta.3 : grosses sessions et redémarrages plus sûrs",
+      "resume": "La bêta 3 d'openclaw 2026.11.5 réduit la pression mémoire pendant l'indexation et la compaction des transcriptions, ne diffuse que les payloads d'hydratation sélectionnés et applique des limites de résumé configurables. Les redémarrages préservent les plafonds de permissions des messages en file et la propriété de livraison jusqu'au dernier RPC, après avoir vidé les écritures de chat. Le démarrage à froid et la reprise d'espace de travail interrompu sont aussi retravaillés.",
+      "tags": [
+        "openclaw",
+        "dev",
+        "sécurité"
+      ],
+      "importance": 2,
+      "source": "OpenClaw (releases)",
+      "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.5-beta.3",
+      "date_source": "2026-11-15T00:31:00+00:00",
+      "date_redac": "2026-11-15T07:44:52+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 816,
+        "sortie": 1246
+      }
+    }
+  ]
+}

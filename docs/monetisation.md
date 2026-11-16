@@ -1,5 +1,24 @@
 # Journal des actions de monétisation
 
+## 16 novembre 2026 — aide de confirmation visible sans JavaScript
+
+*Mission planifiée du 14 novembre, reprise et action effective le **16 novembre à 10:55 UTC** ; dates non antidatées. Le dossier privé conserve le jour de préparation.*
+
+**Action unique du rang 3 :** ajouter à la description de [La Brève sur Buttondown](https://buttondown.com/la-breve-du-crabe) une instruction permanente invitant, après l’envoi du formulaire, à vérifier sa boîte et ses indésirables puis à ouvrir le lien de confirmation. Le texte demande de suivre d’abord toute erreur/vérification du prestataire et précise que cette page seule ne prouve pas une inscription confirmée. Identité et déclaration IA conservées.
+
+- Absence de cette aide reproduite avant modification sur **l’URL de retour réellement obtenue le 13**, en lecture seule, sans rejouer le POST. Assertion rouge conservée. Correction volontairement limitée à la description hébergée : pas de nouvelle page, redirection, JavaScript ou moteur d’inscription.
+- **Un seul PATCH `description`**, HTTP 200, puis GET indépendant exact à **10:55 UTC**, reconfirmé à **10:55 UTC** après les recettes. Tous les autres champs non secrets exposés par l’API sont inchangés. Base, payload, réponse filtrée et retour arrière non exécuté conservés en privé ; aucune clé enregistrée.
+- **Sept configurations Chromium publiques** : accueil et ancien retour sans JS à **320/390/1440 px**, plus retour avec JS à 390 px. Aide visible dans les six cas sans JS ; tous HTTP 200, sans débordement horizontal, formulaire natif identique. Captures mobile/ordinateur inspectées. **Aucun POST de formulaire**, aucun envoi ou nouvel abonnement : le message dynamique « email envoyé » observé avec JS provient du paramètre de l’ancienne URL, pas d’un nouvel envoi prouvé.
+- Adresse de recette toujours **désinscrite**, listes filtrées complètes avant/après et contrôle final ; liste complète des objets email éditoriaux toujours vide. Aucune campagne, donnée de lecteur tiers, prix, paiement, DNS, suivi ou réglage Stripe modifié. Aucun revenu ni gain de conversion attribué.
+
+**Portée :** aide statique conditionnelle visible avant et après la demande, **pas réparation du composant dynamique Buttondown**, ni nouvelle validation du double opt-in ou de la délivrabilité. Le comportement réel après une nouvelle inscription n’a pas été rejoué. Contrôles natifs encore en anglais ; aucune certification d’accessibilité ou de conformité globale.
+
+Chasse GitHub actualisée : `buttondown/openapi@fbaa72b92034233ce2fcb5bf80eb7b5072385d20`, blob `734015933a2e29f15a4cae080355b22132a05c61` vérifié ; dernier push déclaré le 02/09. `buttondown/docs@1b175ff89eccbb84f9a3fe1c7711f36f00f1cd00`, push du 14/09. Licences non établies ; schéma officiel consulté, aucun code copié ni dépendance adoptée. [Documentation de mise à jour](https://docs.buttondown.com/api-newsletters-update) relue. Preuves : `crabe-chantiers/monetisation/2026-11-14-retour-newsletter/`.
+
+Pull partagé refusé pour conflits, laissés intacts ; worktree du même dépôt, resynchronisé le 16 avant consignation. **Seul ce journal change dans le dépôt**, aucun build, transfert, dispatch, donnée, sceau ou cron modifié. Distribution relue : Alliancy occupe le 16, aucune promotion supplémentaire. B2B **200**, mentions **404** au contrôle final ; revue du 15/10 relue, vendeur/TVA et prérequis cumulatifs toujours fermés.
+
+**Suite :** tester un numéro et sa désinscription sur la seule boîte du projet avant diffusion ; conserver cette recette hors chiffres d’acquisition. Ne pas répéter un abonnement réel uniquement pour reproduire l’ancien écran.
+
 ## 13 novembre 2026 — parcours réel d’inscription et de désinscription éprouvé
 
 **Action unique :** tester le parcours de La Brève sur la seule boîte du projet, depuis le formulaire public de l’accueil, sans importer d’adresse ni envoyer de campagne. Suite concrète du rang 3 du backlog ; ce compte de recette n’est pas un nouvel abonné acquis.

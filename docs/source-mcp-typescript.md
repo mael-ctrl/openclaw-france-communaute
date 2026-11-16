@@ -55,5 +55,34 @@ conformes au catalogue ; SHA256
 `5e48612e63c3ab5d2db3069dc1fab9c301e29bad14bc99903cf8652bcb2f1687`.
 Pièces privées : `crabe-chantiers/croissance/2026-11-14-mcp-ts/evidence/`.
 
-Au commit initial, livraison cloud et relecture HTTPS restent à confirmer.
+## Publication ciblée vérifiée le 16/11 à 11:26 UTC
+
+Commit de configuration : `008c4a39ae6bac9dd5e4caa335f6823f52083121`.
+Après intégration des changements voisins du hub, **359 tests** ont réussi dans
+la copie isolée. Un premier push non-fast-forward a été refusé ; rebase du seul
+commit sur les nouveaux documents, contrat ciblé rejoué, puis push normal.
+Les trois fichiers livrés ont été relus identiques sur `main` par l'API GitHub.
+
+Le dispatch unique `43853466665` a été annulé **sans job** et remplacé par
+`43855631049`, dont le SHA `4fb24169489ebd9402d6df036ffb89984275647a` descend
+du commit livré et conserve exactement le catalogue. Aucun second dispatch,
+aucune annulation manuelle. L'ancien run `43850848474` a terminé annulé à
+11:25:03 UTC **pendant le pipeline**, sauvegarde ignorée : situation distincte
+d'une annulation en attente. Le préflight a refusé toute écriture tant que ce
+run à ancien catalogue restait actif.
+
+Après contrôle paginé des runs actifs, transfert SFTP de **deux cibles seulement** :
+`/veille/sources.opml` et le compteur **33 → 34** de `/transparence/`.
+Clé hôte épinglée avant secret, sauvegarde, base OPML exacte, HTTPS/SFTP identiques
+avant écriture, staging `.part`, contrôle de concurrence, renommage et relecture
+SFTP exacts. Tous les autres octets de Transparence sont préservés.
+
+La première relecture HTTPS immédiate différait : échec conservé. **Sans réécriture**,
+deux lectures canoniques exactes à 11:26:13 UTC ont confirmé les 34 sources et le
+compteur. La cause de l'écart transitoire n'est pas établie.
+Pièces : `livraison-ciblee/{preflight,sftp-result,https-recheck-result}.json`.
+
+À ce relevé, le successeur cloud reste en cours (contrats non terminés) : ni succès
+global ni sauvegarde finale ni publication d'une brève issue du nouveau flux
+revendiqués. L'export et son compteur sont effectivement en production.
 La reprise du chantier ne répare pas le clone opérationnel conflictuel.

@@ -1,0 +1,41 @@
+{
+ "slug": "nvidia-depart-du-responsable-securite-demission-de-jensen-hu-04d251",
+ "titre": "Nvidia : départ du responsable sécurité, démission de Jensen Huang et puces vers la Chine",
+ "chapo": "Le responsable de la sécurité de Nvidia a quitté son poste sans bruit en août, et Jensen Huang a depuis démissionné. Entre une liaison prêtée à une femme soupçonnée d'espionnage, une loi américaine sur l'accès distant et des modèles MoE qui tournent enfin, la semaine est chargée.",
+ "html": "<h2 id=\"ce-que-disent-les-depeches-sur-le-depart\">Ce que disent les dépêches sur le départ de Jensen Huang</h2>\n<p>Le départ n'a pas fait de vague. Selon TechCrunch, le responsable de la sécurité de Nvidia a quitté son poste discrètement en août. Le PDG Jensen Huang a depuis démissionné, en raison de ses relations, dont une avec une cadre d'une entreprise soupçonnée d'avoir acheminé des puces vers la Chine.</p>\n<p>Frandroid donne une version plus crue de l'affaire : l'ancien patron de Nvidia aurait eu une liaison avec une femme soupçonnée d'être une espionne pour la Chine. Le média souligne que ces révélations chamboulent l'industrie de l'IA, enveniment les relations entre Pékin et Washington et interrogent l'avenir de Nvidia.</p>\n<p>TechCrunch cite un ancien officier du renseignement, pour qui il s'agit du type de fuite qui passe par des conversations ordinaires — celles que la plupart des équipes de sécurité couvrent mal. Autrement dit : pas de cyberattaque spectaculaire, mais de la parole quotidienne, mal cloisonnée.</p>\n<h2 id=\"washington-serre-la-vis-sur-l-acces-dist\">Washington serre la vis sur l'accès distant</h2>\n<p>En parallèle, la Chambre des représentants américaine a adopté le Remote Access Security Act (H.R.2683), un texte destiné à limiter l'accès à distance d'adversaires à des technologies critiques. Le département du Commerce finalise de son côté une règle qui bloque la location de GPU Nvidia à l'étranger par des entreprises chinoises d'IA.</p>\n<p>Sur r/LocalLLaMA, l'auteur du post qui relaie l'information ne mâche pas ses mots : il estime que ce texte provoquera « un chaos total » pour les LLM ouverts, et au-delà. La formulation est celle d'un fil de discussion, pas d'une analyse juridique — mais elle dit l'inquiétude d'une communauté qui dépend justement de l'accès distant à de la puissance de calcul.</p>\n<p>Les deux dossiers — l'affaire Nvidia et le tour de vis législatif — avancent sur des calendriers distincts. Rien dans les dépêches ne permet de dire que l'un a déclenché l'autre.</p>\n<h2 id=\"helen-toner-la-confiance-dans-les-dirige\">Helen Toner : la confiance dans les dirigeants reste impossible</h2>\n<p>Dans le podcast de The Verge, consacré à l'IA au quotidien, l'invitée est Helen Toner, directrice exécutive du Center for Security and Emerging Technology de Georgetown. Elle est une figure reconnue de la communauté sécurité et politiques de l'IA, et elle a siégé au conseil d'administration d'OpenAI — celui qui a écarté Sam Altman.</p>\n<p>Son constat tient en une phrase : on ne peut toujours pas faire confiance aux dirigeants de l'IA. Un diagnostic qui résonne d'une manière particulière au moment où le départ d'un dirigeant de Nvidia se joue sur des relations personnelles et des soupçons d'acheminement de puces.</p>\n<p>À noter : Toner parle de gouvernance et de confiance en général. Elle ne commente pas, dans cet épisode, le cas Nvidia tel que le relatent TechCrunch et Frandroid.</p>\n<h2 id=\"tandem-cpp-les-moe-trop-gros-pour-la-vra\">tandem.cpp : les MoE trop gros pour la VRAM respirent</h2>\n<p>Pendant ce temps, du côté de l'open source, ça bricole utile. tandem.cpp, un ensemble de patches pour llama.cpp, garde les experts « chauds » des modèles MoE sur le GPU et laisse le CPU traiter le reste. Objectif : faire tourner des modèles experts qui ne tiennent pas dans la mémoire vidéo.</p>\n<p>Les chiffres cités sur r/LocalLLaMA donnent la mesure. Sur un PC à 64 Go de RAM avec une RTX 5070 Ti 16 Go, DeepSeek-V4.1-Flash en IQ2_XS passe de 7,4 à 14,2 tokens/s face à llama.cpp, et devance aussi Strata (10,4 tok/s). Le modèle, deux fois plus gros que la RAM disponible, est streamé depuis le SSD.</p>\n<p>Sur une machine à 32 Go, Qwen3.8-Flash-Next monte à 34,3 tok/s, contre 14,9 pour llama.cpp. Pas de quoi résoudre la question du calcul, mais assez pour changer l'usage quotidien de configurations modestes.</p>\n<h2>Et maintenant ?</h2>\n<p>Trois dossiers, un même fil : la circulation. Celle d'un dirigeant et de ses relations personnelles chez Nvidia, celle de puces que Washington veut empêcher de louer à distance, celle de modèles ouverts qu'on fait tenir sur du matériel grand public en streamant depuis un SSD. Les dépêches ne dessinent pas de causalité entre ces mouvements, mais elles montrent un secteur où la sécurité, la loi et l'ingénierie se croisent désormais sur les mêmes objets.</p>",
+ "pivot": "04d251fa3e1e860b",
+ "tags": [
+  "sécurité",
+  "matériel",
+  "open-source",
+  "société"
+ ],
+ "sources": [
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/nvidia/3320401_affaire-jensen-huang-tout-ce-quon-sait-sur-le-scandale-nvidia"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwan2j/update_tandemcpp_deepseekv41_on_a_64_gb_pc_with_a/"
+  },
+  {
+   "nom": "The Verge IA",
+   "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
+  }
+ ],
+ "date": "2026-11-16T07:50:38+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1630,
+  "sortie": 2416
+ }
+}

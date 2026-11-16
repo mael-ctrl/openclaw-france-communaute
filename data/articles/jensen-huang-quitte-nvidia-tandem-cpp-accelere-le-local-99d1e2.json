@@ -1,0 +1,41 @@
+{
+ "slug": "jensen-huang-quitte-nvidia-tandem-cpp-accelere-le-local-99d1e2",
+ "titre": "Jensen Huang quitte Nvidia, tandem.cpp accélère le local",
+ "chapo": "Jensen Huang a démissionné de son poste de PDG de Nvidia le 12 novembre 2026, après une enquête interne et l'aveu d'une liaison extraconjugale. Sur un autre terrain, des patches pour llama.cpp montrent qu'on peut faire tourner des modèles MoE trop gros pour la VRAM sans changer de machine.",
+ "html": "<h2 id=\"une-demission-quatre-depeches\">Une démission, quatre dépêches</h2>\n<p>Jensen Huang a démissionné le 12 novembre 2026 de son poste de PDG de Nvidia, l'entreprise qu'il avait cofondée en 1993. Colette Kress, sa directrice financière, assure l'intérim. La décision intervient après une semaine marquée par une enquête interne et par l'aveu, par Huang lui-même, d'une liaison extraconjugale.</p>\n<p>Les dépêches ne sont pas parfaitement alignées sur la qualification : Siècle Digital parle du PDG contraint à la démission, Frandroid de « l'ancien patron de Nvidia ». La chronologie, elle, tient : enquête interne, aveu, départ, intérim assuré par la CFO. Le détail des « ramifications internationales » évoqué par Siècle Digital n'est en revanche pas développé dans les textes disponibles.</p>\n<p>Ce qui est explicite, c'est le contexte de la liaison : elle implique une femme soupçonnée d'être une espionne au profit de la Chine. 01net la nomme Alice Huang. C'est ce point, plus que la liaison elle-même, qui donne à l'affaire sa dimension internationale.</p>\n<h2 id=\"washington-pekin-et-les-puces\">Washington, Pékin et les puces</h2>\n<p>Selon 01net, Washington envisage de renforcer les restrictions sur les exportations de puces de Nvidia vers la Chine, déjà fortement limitées depuis plusieurs années. Le lien entre Jensen Huang et Alice Huang pourrait avoir de lourdes répercussions sur le fabricant américain.</p>\n<p>Frandroid ajoute que les révélations chamboulent l'industrie de l'IA, enveniment les relations entre Pékin et Washington et interrogent l'avenir de Nvidia. Aucune des dépêches ne chiffre cet impact, ni ne précise le calendrier d'une éventuelle décision. On sait ce qui est envisagé, pas ce qui sera décidé.</p>\n<h2 id=\"sur-un-pc-a-64-go-de-ram-tandem-cpp-doub\">Sur un PC à 64 Go de RAM, tandem.cpp double la mise</h2>\n<p>Changement complet de décor. tandem.cpp est un ensemble de patches pour llama.cpp qui garde les experts « chauds » des modèles MoE sur le GPU et laisse le CPU traiter le reste. Sur un modèle à mélange d'experts, tous les experts ne travaillent pas en même temps : l'idée est de loger les plus sollicités là où la bande passante est la meilleure, et de laisser le reste au processeur.</p>\n<p>Sur un PC à 64 Go de RAM équipé d'une RTX 5070 Ti 16 Go, DeepSeek-V4.1-Flash en quantification IQ2_XS passe de 7,4 à 14,2 tokens/s face à llama.cpp, et devance aussi Strata, mesuré à 10,4 tokens/s. Le modèle, deux fois plus gros que la RAM disponible, est streamé depuis le SSD.</p>\n<p>Sur une machine à 32 Go, Qwen3.8-Flash-Next monte à 34,3 tokens/s, contre 14,9 pour llama.cpp. Deux configurations, deux modèles, deux écarts très différents.</p>\n<h2 id=\"ce-que-les-chiffres-disent-et-ce-qu-ils-\">Ce que les chiffres disent, et ce qu'ils ne disent pas</h2>\n<p>Les gains sont réels sur les cas mesurés, mais ils ne se transposent pas mécaniquement. Le facteur deux obtenu sur DeepSeek-V4.1-Flash en 64 Go ne ressemble pas au facteur 2,3 de Qwen3.8-Flash-Next sur 32 Go : la taille du modèle, la quantification et la quantité de RAM changent la répartition entre GPU et CPU.</p>\n<p>La quantification IQ2_XS joue aussi un rôle difficile à isoler — elle allège le modèle, ce qui facilite le streaming depuis le SSD, mais la dépêche ne dit rien de la perte de qualité associée. Un patch qui double le débit ne dit rien, à lui seul, de ce que le modèle produit.</p>\n<p>Enfin, les comparatifs portent sur llama.cpp et Strata, pas sur l'ensemble des moteurs d'inférence existants. De quoi Motiver un test sur sa propre machine, pas de quoi généraliser.</p>\n<h2>Et maintenant ?</h2>\n<p>Deux histoires sans rapport apparent, sinon qu'elles parlent du même goulot : le matériel. D'un côté, un groupe central dans les puces d'IA traverse une crise de gouvernance doublée d'un dossier géopolitique. De l'autre, des patches grattent des tokens par seconde sur des machines de bureau. Les deux échelles coexistent, et aucune ne rend l'autre caduque.</p>",
+ "pivot": "99d1e2f2a8735bbc",
+ "tags": [
+  "matériel",
+  "open-source",
+  "deepseek",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwan2j/update_tandemcpp_deepseekv41_on_a_64_gb_pc_with_a/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/nvidia/3320401_affaire-jensen-huang-tout-ce-quon-sait-sur-le-scandale-nvidia"
+  },
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/apres-le-scandale-nvidia-washington-envisage-de-nouvelles-restrictions-contre-la-chine.html"
+  },
+  {
+   "nom": "Siècle Digital",
+   "url": "https://siecledigital.fr/2026/11/13/le-patron-de-nvidia-contraint-a-la-demission-apres-un-scandale-aux-ramifications-internationales/"
+  },
+  {
+   "nom": "Journal du Geek",
+   "url": "https://www.journaldugeek.com/2026/11/13/jensen-huang-patron-historique-et-co-fondateur-de-nvidia-quitte-lentreprise/"
+  }
+ ],
+ "date": "2026-11-14T20:41:32+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1539,
+  "sortie": 3884
+ }
+}

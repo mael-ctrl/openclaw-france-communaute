@@ -1,22 +1,18 @@
 {
- "runs": 495,
- "items_collectes": 4878,
- "breves_publiees": 1945,
- "articles_publies": 374,
- "tokens_entree": 1988226,
- "tokens_sortie": 2724867,
+ "runs": 499,
+ "items_collectes": 4964,
+ "breves_publiees": 1969,
+ "articles_publies": 378,
+ "tokens_entree": 2011091,
+ "tokens_sortie": 2752498,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-11-14T12:27:29+00:00",
+ "dernier_run": "2026-11-16T07:50:38+00:00",
  "solde": {
-  "total": "81.12",
+  "total": "81.06",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-11-07T02:18:29+00:00",
-   "message": "brève impossible (What made your custom research/task harness effective? How d) : réponse non-JSON"
-  },
   {
    "ts": "2026-11-11T00:00:55+00:00",
    "message": "brève impossible (XeMaya, an Intel Arc inference engine to run DeepSeek V4.1 a) : réponse non-JSON"
@@ -32,10 +28,14 @@
   {
    "ts": "2026-11-14T10:28:36+00:00",
    "message": "brève impossible (Can open-weight LLMs can predict the effects of weight edits) : réponse non-JSON"
+  },
+  {
+   "ts": "2026-11-16T08:31:28+00:00",
+   "message": "archivage wayback : The read operation timed out"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 10.54,
+ "depense_usd": 10.6,
  "historique_solde": [
   [
    "2026-09-29T22:01:52+00:00",
@@ -2000,13 +2000,29 @@
   [
    "2026-11-14T12:26:49+00:00",
    "81.12"
+  ],
+  [
+   "2026-11-14T16:08:26+00:00",
+   "81.10"
+  ],
+  [
+   "2026-11-14T20:40:34+00:00",
+   "81.10"
+  ],
+  [
+   "2026-11-15T07:44:27+00:00",
+   "81.08"
+  ],
+  [
+   "2026-11-16T07:50:02+00:00",
+   "81.06"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 1.58,
+ "depense_mois_usd": 1.64,
  "archive_tentatives": {
-  "jour": "2026-11-14",
-  "n": 3
+  "jour": "2026-11-16",
+  "n": 1
  },
  "derniere_archive": "2026-11-13"
 }

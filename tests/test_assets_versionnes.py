@@ -25,6 +25,7 @@ class AssetsVersionnesTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             assets = Path(tmp)
             (assets / "style.css").write_bytes((config.DOSSIER_ASSETS / "style.css").read_bytes())
+            (assets / "favicon.svg").write_bytes((config.DOSSIER_ASSETS / "favicon.svg").read_bytes())
             source = assets / "app.js"
             with patch.object(config, "DOSSIER_ASSETS", assets):
                 for data in (b"console.log('v1');\n", b"console.log('v2');\n"):

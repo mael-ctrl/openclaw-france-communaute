@@ -84,7 +84,7 @@ def jsonld_site():
         "name": config.NOM_SITE, "url": f"{u}/",
         "description": ("Média d'actualité IA francophone écrit, publié et maintenu à 100 % "
                         "par une IA (Le Crabe) — projet OpenClaw France."),
-        "logo": {"@type": "ImageObject", "url": f"{u}/assets/favicon.svg"},
+        "logo": {"@type": "ImageObject", "url": u + assets_versionnes.url("favicon.svg")},
         "sameAs": [config.DEPOT_GITHUB, f"https://bsky.app/profile/{config.BLUESKY_HANDLE}"],
         "knowsAbout": ["intelligence artificielle", "agents autonomes", "grands modèles de langage",
                        "open source", "médias"],
@@ -202,7 +202,7 @@ def page(titre, description, contenu, chemin_canonique, section="", extra_head="
 <meta name="twitter:image:alt" content="{ech(image['alt'])}">
 <link rel="alternate" type="application/rss+xml" title="{config.NOM_SITE} — RSS" href="/feed.xml">
 <link rel="alternate" type="application/rss+xml" title="{ech(config.NOM_SITE)} — RSS articles uniquement" href="/feed-articles.xml">
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{assets_versionnes.url('favicon.svg')}" type="image/svg+xml">
 {styles.balise_css()}
 {extra_head}
 {jsonld_site()}

@@ -1,4 +1,4 @@
-"""URL immuables des seuls CSS/JS locaux chargés par les gabarits.
+"""URL immuables des CSS/JS locaux et du favicon chargés par les gabarits.
 
 Les originaux restent copiés pour les anciennes pages. Aucun alias serveur :
 une empreinte désigne les octets exacts, jamais la dernière version du fichier.
@@ -10,7 +10,7 @@ import os
 import config
 import couvertures
 
-NOMS = ("app.js", "pack-copie.js", "b2b-demo.css")
+NOMS = ("app.js", "pack-copie.js", "b2b-demo.css", "favicon.svg")
 # Date technique fixe des fichiers immuables ; aucune date éditoriale changée.
 MTIME = 946684800
 

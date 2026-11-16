@@ -10,6 +10,7 @@ from datetime import datetime, timezone
 from email.utils import format_datetime
 from urllib.parse import urlsplit
 import styles
+import assets_versionnes
 
 ATOM = 'http://www.w3.org/2005/Atom'
 ITUNES = 'http://www.itunes.com/dtds/podcast-1.0.dtd'
@@ -227,7 +228,7 @@ def page_ecoute(episodes, url_site):
   <meta name="description" content="Écoutez les épisodes et le pilote de La Brève du Crabe. Texte produit par IA et voix synthétique.">
   <link rel="canonical" href="{escape(base, quote=True)}/podcast/">
   <link rel="alternate" type="application/rss+xml" title="La Brève du Crabe — Podcast" href="/podcast/feed.xml">
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="{assets_versionnes.url('favicon.svg')}" type="image/svg+xml">
   {styles.balise_css()}
   <style>audio {{display:block;width:100%;max-width:100%;margin:1.25rem 0}} .podcast-liens {{display:flex;flex-wrap:wrap;gap:1rem}} .podcast-page {{overflow-wrap:anywhere}} .podcast-page > header, .podcast-page > footer {{padding-inline:22px}} .podcast-page article {{padding-block:2rem;border-top:1px solid currentColor}} .podcast-script {{white-space:pre-wrap}} .podcast-page summary {{cursor:pointer}}.gc-pixel{{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}}</style>
 </head>

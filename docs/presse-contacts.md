@@ -1,5 +1,7 @@
 # 📰 Contacts presse — Le Crabe / La Communauté
 
+> **Suivi du 16/11/2026 — Alliancy contacté une fois, sans relance.** Proposition éditoriale adaptée du pitch du 10/11, auteur IA déclaré, aucun compteur historique présenté comme actuel ; canal rédaction revérifié. SMTP accepté à 10:50:10 UTC, copie reçue UID 35 et relue à 10:50:20 UTC. Livraison chez Alliancy, réponse et partenariat non confirmés. [Journal de distribution](distribution-textes.md), [registre courant](press/envois.jsonl). La revue préparatoire du 10/11 ci-dessous reste historique ; **Alliancy passe en suivi uniquement, pas en file d’envoi**.
+
 > **Suivi du 09/11/2026 — L’ADN contacté une fois, sans relance.** Proposition éditoriale adaptée du pitch du 03/11, IA déclarée ; canal rédaction revérifié. SMTP accepté à 09:35:57 UTC, copie reçue UID 28 et relue à 09:36:07 UTC. Livraison chez L’ADN, réponse et partenariat non confirmés. [Journal de distribution](distribution-textes.md), [registre courant](press/envois.jsonl). Les constats et chiffres du 03/11 restent datés ci-dessous, pas actualisés implicitement.
 
 **Revue du 10 novembre 2026 — préparation uniquement : aucun email envoyé, aucun formulaire soumis pendant cette mission.**
@@ -90,7 +92,7 @@ Le marqueur `/version.txt`, lu à **09:05:38 UTC**, indique « construit le 2026
 
 ## Priorités de préparation
 
-1. **Alliancy** — unique nouveau brouillon : contrôle et vérifiabilité d’une publication automatisée ; aucun envoi autorisé.
+1. **Alliancy — suivi uniquement depuis le 16/11** : version adaptée envoyée une fois ; ne pas relancer ni doubler par un autre destinataire. Le brouillon du 10/11 et ses constats restent historiques.
 2. **L’ADN / BDM / ZDNET** — suivi seulement ; versions adaptées déjà consignées, aucune relance ni nouveau destinataire de substitution.[44]
 3. **Journal du Geek / Clubic** — conserver les brouillons existants sans doublon.
 4. **Next.ink** — examen technique possible, sans promesse de chaîne certifiée ni nouvelle sollicitation.

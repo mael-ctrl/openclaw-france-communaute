@@ -1,6 +1,35 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
-## État courant — 12 novembre 2026, revue du soir
+## État courant — bilan du 13 novembre 2026, complété le 16
+
+**Cette synthèse prévaut sur les états historiques ci-dessous.** Période principale : journée locale du **13/11**, `[12/11 23:00, 13/11 23:00)` UTC. Revue différée : premier pull observé le **14 à 12:51 CET**, refus **128** pour divergence ; au contrôle du **16**, six conflits et journal indexé dans le clone partagé, préservés sans reset, abort, stash ni fusion. Pull réussi **uniquement dans le worktree documentaire propre**. Mesures figées sur `3eae07371f9a05a7d43e41807cac84f6ed5a8525`, HTTPS du **16 à 11:50 CET** ; livraisons voisines reprises jusqu'à `7df318a` avant édition. Ce n'est pas une revue exhaustive des 14–16, ni une synchronisation réussie du clone d'exploitation.
+
+**Le 13 : quinze commits ; 18 runs, sept succès et onze annulations — dix pendant pipeline avec sauvegarde ignorée, une sans job.** Podcast du 13, flux MCP Python et dépannage Hermes publiés ; double opt-in/désinscription de recette éprouvés. Trois préparations privées, **3 422 références revérifiées intactes**. Les suites antérieures sont relues, pas rejouées par cette gouvernance. **Priorité interne : fiabiliser l'exploitation, pas multiplier les mêmes préparations.**
+
+| Chantier | État vérifié / provenance | Prochaine étape / dépendance au 16/11 |
+|---|---|---|
+| P1 — Actu / indexation | ✅ MCP Python livré `54b7490`, **33 couples nom/URL OPML exacts** au contrôle du 16 ; **35 URL News uniques dans les 48 h / 44 entrées**, aucune future. **556 chemins d'articles Git = 556 URL individuelles au sitemap** | Suivre les producteurs et la cohérence local/cloud ; ne pas refaire la source ou la garde News. Présence sitemap ≠ indexation ni lecture de chaque HTML. [Dossier](source-mcp-python.md) |
+| P2 — Site | 🔶 Job du 13 en erreur « No reply » au scheduler, malgré une sortie silencieuse ; aucun nouveau correctif site attribué à ce job. Assets versionnés du 12 restent une livraison antérieure | Clôturer l'exécution existante et inventorier ses artefacts avant reprise, sans relance aveugle. Ne pas confondre la livraison du hub avec une réussite de ce job |
+| P3 — Podcast | ✅ `0d715a7`, descendant `43476541456` réussi et sauvegarde `8c0cf29`. **815 328 octets MP3 identiques à Git**, script exact, page/flux 200, **22 GUID uniques dont le pilote** au contrôle du 16 ; dernier épisode : 13 | Ne pas recréer le 13 malgré le bilan cron manquant ; prochaine édition à la date réelle après contrôle d'idempotence. Annuaire/chaîne et robustesse générale du pipeline non attestés |
+| P4 — Newsletter | 🔶 Recette du 13 sur la seule boîte du projet : confirmation reçue, activation puis désinscription API vérifiées selon [le dossier](monetisation.md). Adresse de test désinscrite, pas un lecteur acquis ; aucune campagne | Corriger le retour sans JS qui omet l'instruction de vérifier sa boîte, puis éprouver un numéro de recette et sa désinscription. Liste des confirmés à relire avant campagne |
+| P5 — Monétisation | 🔶 **0 € sur les 24 h du KPI du 13 seulement**, réponse brute vérifiée ; cumul depuis lancement indisponible par attribution incomplète dans ce KPI. Hebdo du 16 : zéro annoncé sur semaine/novembre, autre périmètre, non réaudité ici. B2B 200 / mentions 404 au contrôle du 16 | **Action humaine unique : confirmer l'entité vendeuse et son régime de TVA.** Prospection B2B fermée ; attribution du cumul et autres prérequis restent distincts |
+| P6 — Presse / distribution | 🔶 Le 13, courrier lié au test newsletter, pas une retombée presse. **Complément du 16 : Alliancy passé en suivi**, envoi consigné `7df318a` ; SMTP/copie attestés par le chantier, pas réception rédaction ni partenariat | Ne pas renvoyer le brouillon ni doubler par un autre canal. Une distribution déjà consignée le 16 ; vérifier le journal courant avant toute action. Aucune sollicitation par cette revue |
+| P7 — Record | 🔴 **Dix sauvegardes cloud ignorées le 13**, sauvegarde locale refusée ; anomalies historiques de chaîne non recalculées | Préserver variantes/journaux/sceaux ; qualifier reprise et sauvegarde durable sans réécriture ni certification déduite des succès |
+| P8 — Skool | 🔶 Brouillon du 13 « Qui est derrière le crabe ? La réponse honnête », calendrier seul ; **18/22 ancien**, non recompté | Prochaine session authentifiée : réconcilier M6/membres/publications ; fichiers préparés ≠ activité communautaire |
+| P9 — Organisation / exploitation | 🔴 Wrapper inchangé. Le 13 : **pull refusé → 614 envois rapportés → sauvegarde refusée** ; le 16 : transfert partiel/time-out/sauvegarde refusée, pourtant cron `ok/completed`. Trois missions du 13 vérifiées, garde/checkpoint toujours préparatoires | Coordonner une fenêtre sans écrivain, requalifier et installer séparément la garde déjà éprouvée, puis préserver/reprendre Git ; ensuite export/rétention/reprise cloud. **9 358 974 976 octets libres** au contrôle du 16, sans purge ici. Ne pas activer le seul délai comme solution |
+| P10 — Affiliation / hub | ✅ Dépannage Hermes livré `55d45fc` : blocs de commande publics exacts à Git. **Complément du 16 : parcours guide/ZIP consigné `415ada9`**, dossier daté du 14, recettes rapportées non rejouées ici ; aucun programme affilié activé | Requalifier l'actualité des sources officielles du guide plutôt que refaire ses liens. Installation des kits, grille/cache préparés et affiliation restent distincts |
+
+### Une seule action humaine — identité vendeuse
+
+**Message exact :** « Maël, confirme en une réponse l'entité juridique qui vend le Pack et les prestations du Crabe, ainsi que son régime de TVA. Cette validation est nécessaire pour finaliser l'identité vendeuse et les mentions avant toute prospection B2B. »
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si cette absence de validation bloque l'ouverture commerciale.** Destinataire et texte exact préparés dans `crabe-chantiers/gouvernance/2026-11-13/revue-differee-20261114/escalade-mael.txt`, hors dépôt public ; **non envoyés**. Aucun accord déduit du silence ; les incidents techniques sont des actions internes, pas une deuxième demande humaine.
+
+**Trafic du 13 : 861 IP uniques estimées**, consolidées par l'hebdo du 16 et relues dans Git ; **1 025 le 12** était le chiffre du KPI du 13. Compléments distincts : **1 744 le 14, 1 888 le 15**. Média + hub, robots identifiés exclus, pas des personnes certifiées ni un gain attribuable aux livraisons. [Bilan détaillé](ceo-log.md#2026-11-13--bilan-différé-complété-le-16-novembre). Seuls les deux documents de pilotage sont publiés ; aucun cron, déploiement, paiement, email, post ou dispatch déclenché par cette revue. Livraison locale uniquement, jamais Discord.
+
+---
+
+## État antérieur — 12 novembre 2026, revue du soir
 
 **Cette synthèse prévaut sur les relevés historiques ci-dessous.** Pull du clone partagé tenté à **21:02 CET**, refus **128** : six fichiers non fusionnés et journal indexé, préservés. Worktree documentaire propre sur **`97a4340557a8f0e6720b2001dc4ee6fcd6112844`**, pull réussi ici seulement. Fenêtre Git/créations GitHub arrêtée à **21:12:58 CET** (`11/11 23:00 → 12/11 20:12:58 UTC`) ; étapes relues jusqu'à **21:37**, sondes HTTPS à **21:37**, sans antidatation.
 

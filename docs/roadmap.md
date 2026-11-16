@@ -1,5 +1,13 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Chantier site du 14 novembre — reprise le 16 : favicon versionné
+
+**Une seule nouvelle amélioration, suite SEO #7 : favicon nommé par SHA-256, cache annuel, références icon/logo raccordées.** Les CSS/JS déjà versionnés et les chantiers SEO antérieurs ne sont pas réintégrés. Dessin, original, contenus et dates conservés ; podcast toujours sans JavaScript. [Contrat et preuves](favicon-versionne.md).
+
+**363 tests Python après rebase, huit Node, deux builds isolés sur la base courante** : 2 580 HTML ne changent que l'URL du favicon, 2 605 autres fichiers intacts, 737 sources préservées ; **56 requêtes Apache réel**. Préflight SFTP initial refusé car le SVG immuable existait déjà : identité exacte vérifiée, aucun écrasement ; seule la règle est publiée, 14 témoins conservés, 23 réponses HTTPS conformes avant les nouveaux gabarits. **Au commit initial : publication des références HTML et sauvegarde cloud encore à confirmer.**
+
+Observations initiales du 14 et reprise du 16 distinguées, sans antidatation. Clone partagé divergent préservé ; worktree propre rebasé sur `ecb4e84`. P9 reste une priorité d'exploitation distincte : aucun cron, wrapper, sceau, paiement ni diffusion communautaire modifié. Pas de seconde intégration ni de gain d'audience revendiqué.
+
 ## État courant — bilan du 13 novembre 2026, complété le 16
 
 **Cette synthèse prévaut sur les états historiques ci-dessous.** Période principale : journée locale du **13/11**, `[12/11 23:00, 13/11 23:00)` UTC. Revue différée : premier pull observé le **14 à 12:51 CET**, refus **128** pour divergence ; au contrôle du **16**, six conflits et journal indexé dans le clone partagé, préservés sans reset, abort, stash ni fusion. Pull réussi **uniquement dans le worktree documentaire propre**. Mesures figées sur `3eae07371f9a05a7d43e41807cac84f6ed5a8525`, HTTPS du **16 à 11:50 CET** ; livraisons voisines reprises jusqu'à `7df318a` avant édition. Ce n'est pas une revue exhaustive des 14–16, ni une synchronisation réussie du clone d'exploitation.

@@ -1262,6 +1262,43 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-13/hub-commandes-hermes/`.
 
+## Parcours de téléchargement depuis le guide — livraison du 14/11/2026
+
+- **Une amélioration** : les deux cartes du guide de démarrage relient les
+  prérequis avant le téléchargement et la vérification SHA-256 après celui-ci.
+  Les boutons nomment le format et le kit : « ZIP OpenClaw gratuit » et
+  « ZIP Hermes Agent gratuit ». URL de téléchargement et fichiers inchangés ;
+  liens natifs sans JavaScript, aucun style ajouté ni installation prétendue.
+  Date visible, Article.dateModified et sitemap actualisés pour le guide seul ;
+  la date de consultation des sources officielles reste celle du 02/10.
+- Trois nouveaux tests : les deux contrôles des liens échouent avant correction,
+  celui des ancres existantes passe déjà. Après correction : **358 tests OK** ;
+  les trois nouveaux tests passent aussi sur les réponses HTTPS publiques.
+- Chromium headless avec/sans JavaScript : **12 contrôles locaux et 12 publics**
+  à 1440, 1024, 768, 430, 390 et 360 px. Noms accessibles, focus, liens contenus
+  dans les cartes, boutons de 48 px minimum et absence de débordement vérifiés.
+  Par environnement : **16 parcours vers les ancres** au clavier et **8 vrais
+  téléchargements**, aux largeurs 768/360 px, ZIP identiques aux sources.
+  Le contrôle initial lisait la position avant la fin du défilement natif ;
+  waitForFunction ne progressait pas sans JS. Reprise avec lecture de position
+  depuis le pilote, sans modification du site pour satisfaire le test.
+- Bureau inaccessible en cron (Git non lisible, Resource deadlock avoided).
+  Déploiement avec `python3 outils/deployer_openclaw.py` depuis le clone dédié
+  synchronisé hors Bureau `~/.hermes/workspaces/hub-openclaw-20261003`.
+  Sauvegarde privée et double comparaison avant envoi ; **36 fichiers relus
+  via FTP**, identiques aux sources. Dates/modes des kits restaurés avant
+  régénération : ZIP et manifeste inchangés octet pour octet.
+- **Six URL de santé en HTTP 200**, contrôle étendu de **11 URL en 200**.
+  Entête et section des cartes publics identiques aux sources ; ZIP HTTPS
+  vérifiés par CRC et SHA-256. **IndexNow HTTP 200** pour le guide : notification
+  acceptée, aucune indexation ni hausse de trafic revendiquée.
+- **Aucune nouvelle distribution** : journal synchronisé relu ; le post Bluesky
+  du 10/11 exclut une nouvelle promotion jusqu’au 15/11 inclus. Aucun contact,
+  formulaire ni relance. Prochain contrôle : actualité des sources officielles
+  citées dans le guide de démarrage.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-14/hub-parcours-guide/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

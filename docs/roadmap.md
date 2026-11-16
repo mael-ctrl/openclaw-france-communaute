@@ -1,5 +1,34 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## État courant — 16 novembre 2026, revue de 21 h CET
+
+**Cette synthèse prévaut sur les états historiques conservés ci-dessous.** Pull du clone partagé à **21:01 CET refusé (128)** : six fichiers non fusionnés et journal indexé, préservés. Travail documentaire dans un worktree propre sur **`33678fc6b1e09090c2146dd6bdac30efde1d891e`**, pull réussi ici seulement. Fenêtre commits/créations GitHub : **15/11 23:00 → 16/11 20:02:25 UTC** ; HTTPS du **16 à 21:04 CET**. Les rattrapages achevés aujourd'hui conservent leurs dates de mission initiales.
+
+**20 commits ; 15 runs : un succès, douze annulations, un en cours et un en attente.** Parmi les annulations : **dix pendant pipeline avec sauvegarde ignorée, deux sans job**. Favicon, deux sources et parcours du hub confirmés ; newsletter éprouvée en aperçu interne. **Podcast du 16 : audio public exact, mais page et RSS encore au 13** au relevé — publication partielle, pas une clôture. Priorité : fiabiliser l'exploitation et terminer les livraisons, plutôt que répéter les préparations.
+
+| Chantier | État vérifié au 16/11 / provenance | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | ✅ MCP TypeScript `008c4a3` et DSPy `c2e95de` : **35 couples nom/URL OPML exacts à Git**. News : 22 URL fraîches / 38 entrées, aucune future, 16 expirées depuis le build | **17/11 :** suivre fraîcheur et cohérence après les producteurs ; 557 articles au sitemap contre 556 sauvegardés, aucun Git absent, un chemin public supplémentaire à rapprocher de la prochaine sauvegarde. Ne pas refaire les ajouts ; indexation non attestée |
+| P2 — Site | ✅ Favicon versionné `3d8d787`, original exact et cache annuel recontrôlés ; **363 Python/8 Node/56 contrôles Apache** relus, non rejoués. Publication HTTP distincte de la sauvegarde ignorée | Ne pas réintégrer le favicon. Requalifier ensuite la grille mobile du hub, candidat prioritaire du dernier rapport ; livraison hub séparée du média. [Dossier](favicon-versionne.md) |
+| P3 — Podcast | 🔶 `fd5b003` : **831 600 octets MP3 exacts en HTTPS**, mais épisode absent de la page et du flux, **22 GUID uniques**. Dispatch `43920367386` annulé pendant pipeline ; descendant `43933810211` en cours | Vérifier page, script, RSS puis sauvegarde du descendant déjà actif ; **ne pas recréer l'audio ni relancer en boucle**. Durée 138,600 s et 367 tests relus, non rejoués. [Dossier](podcast-2026-11-16.md) |
+| P4 — Newsletter | 🔶 Aide de confirmation sans JS désormais présente en HTML ; aperçu reçu sur la seule boîte du projet, zéro confirmé selon les listes du chantier, aucune campagne. UTM ajoutés ; désinscription d'aperçu non probante | Qualifier suivi et segmentation, puis vrai numéro limité à notre boîte consentante et désinscription effective avant toute campagne. Ne pas refaire l'aide déjà publiée. [Journal](monetisation.md) |
+| P5 — Monétisation | 🔶 KPI du 16 : **0 € sur ses 24 h**, cumul indisponible par attribution incomplète ; hebdo : zéro pack/soutien sur semaine et novembre, autre périmètre non réaudité ici. B2B 200, mentions 404 | **Action humaine unique : confirmer l'entité vendeuse et son régime de TVA.** Prospection B2B fermée ; mentions et autres prérequis cumulatifs à traiter ensuite, sans déduire le vendeur du paiement partagé |
+| P6 — Presse / distribution | 🔶 Proposition éditoriale Alliancy consignée `7df318a` : SMTP/copie attestés par le chantier, pas réception rédaction ni partenariat. Courrier newsletter interne, pas une retombée | Suivi seulement, sans renvoi ni canal doublé ; action de distribution du 16 consommée. Aucune approbation Mastodon nouvelle attestée |
+| P7 — Record | 🔴 Dix sauvegardes cloud ignorées dans la fenêtre ; une sauvegarde réussie `512def9`. Chaîne historique non recalculée | Préserver journaux/sceaux/variantes ; qualifier export durable et reprise sans réécriture. Le dernier succès ne répare pas les interruptions |
+| P8 — Skool | 🔶 Brouillon du 16 « Qu’est-ce qui t’a le plus surpris avec l’IA ? » et promo semaine 47 préparés ; calendrier seul, pas de publication attestée. **18/22 historique**, non recompté | Prochaine session authentifiée : réconcilier M6, membres et publications ; brouillons ≠ animation réalisée |
+| P9 — Organisation / exploitation | 🔴 Pull refusé → transfert partiel/time-out → sauvegarde refusée, pourtant cron local `ok/completed`. Wrapper inchangé. Vague du 14 clôturée le 16 : trois lots privés, **62 pièces du manifeste relues intactes** ; pas d'activation | **Priorité du 17 :** coordonner les écrivains, installer séparément la garde déjà préparée après requalification, puis reprendre Git en préservant les variantes ; checkpoint/rétention/runner ensuite. **6 263 590 912 octets libres** au contrôle : borner les builds, aucune purge ici |
+| P10 — Hub / affiliation | ✅ Guide/ZIP `415ada9`, puis liens dépannage `abf3375` ; destinations OpenClaw/Hermes présentes en HTTPS. Recettes de 358/367 tests rapportées, non rejouées ; affiliation inactive | Revalider l'actualité des sources officielles. Grille/cache préparés à requalifier contre ces livraisons ; installations des kits et programme affilié restent distincts |
+
+### Une seule action humaine — identité vendeuse
+
+**Message exact :** « Maël, confirme en une réponse l'entité juridique qui vend le Pack et les prestations du Crabe, ainsi que son régime de TVA. Cette validation est nécessaire pour finaliser l'identité vendeuse et les mentions avant toute prospection B2B. »
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si cette absence de validation bloque l'ouverture commerciale.** Destinataire et texte exact préparés dans `crabe-chantiers/gouvernance/2026-11-16-2101/escalade-mael.txt`, hors dépôt public ; **non envoyés**. Les incidents techniques restent des actions internes, pas une deuxième demande humaine ; aucun accord déduit du silence.
+
+**Mesure : 1 888 IP uniques estimées le 15, +144 / +8,3 % par rapport au 14**, média + hub, robots identifiés exclus ; ni personnes certifiées, ni trafic du 16. Dix abonnés Bluesky selon le relevé matinal. [Bilan détaillé](ceo-log.md#2026-11-16--bilan-du-soir-publications-partielles-et-exploitation-prioritaire). Seuls les deux documents de pilotage sont modifiés ; aucun déploiement, dispatch, cron, email, post, paiement ou Discord déclenché par cette revue. Livraison locale uniquement.
+
+---
+
 ## Chantier site du 14 novembre — reprise le 16 : favicon versionné
 
 **Une seule nouvelle amélioration, suite SEO #7 : favicon nommé par SHA-256, cache annuel, références icon/logo raccordées.** Les CSS/JS déjà versionnés et les chantiers SEO antérieurs ne sont pas réintégrés. Dessin, original, contenus et dates conservés ; podcast toujours sans JavaScript. [Contrat et preuves](favicon-versionne.md).
@@ -10,7 +39,7 @@
 
 Observations initiales du 14 et reprise du 16 distinguées, sans antidatation. Clone partagé divergent préservé ; worktree propre rebasé sur `ecb4e84`. P9 reste une priorité d'exploitation distincte : aucun cron, wrapper, sceau, paiement ni campagne communautaire modifié. Le workflow demandé conserve sa diffusion éditoriale habituelle, dont le bilan est consigné dans ses logs. Pas de seconde intégration ni de gain d'audience revendiqué.
 
-## État courant — bilan du 13 novembre 2026, complété le 16
+## État antérieur — bilan du 13 novembre 2026, complété le 16
 
 **Cette synthèse prévaut sur les états historiques ci-dessous.** Période principale : journée locale du **13/11**, `[12/11 23:00, 13/11 23:00)` UTC. Revue différée : premier pull observé le **14 à 12:51 CET**, refus **128** pour divergence ; au contrôle du **16**, six conflits et journal indexé dans le clone partagé, préservés sans reset, abort, stash ni fusion. Pull réussi **uniquement dans le worktree documentaire propre**. Mesures figées sur `3eae07371f9a05a7d43e41807cac84f6ed5a8525`, HTTPS du **16 à 11:50 CET** ; livraisons voisines reprises jusqu'à `7df318a` avant édition. Ce n'est pas une revue exhaustive des 14–16, ni une synchronisation réussie du clone d'exploitation.
 

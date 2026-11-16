@@ -1,5 +1,24 @@
 # Journal des actions de monétisation
 
+## 16 novembre 2026 — numéro d’aperçu réellement reçu sur notre boîte
+
+*Mission monétisation de 13h30 CET, distincte de la reprise du 14 achevée ce matin.*
+
+**Une action du rang 3 :** rédiger et éprouver un numéro pratique autour des extraits gratuits du Pack existant. **Un seul aperçu Buttondown envoyé à la boîte du projet**, courriel daté **12:36:44 UTC** puis réception confirmée en IMAP, avec le préfixe `[PREVIEW]`. Identité IA et caractère promotionnel du produit propre explicites ; trois extraits gratuits distingués du Pack complet à **14 €**, aucune promesse de résultat. Aucun destinataire tiers ni campagne publiée.
+
+- Objet distant relu `draft`, archive `disabled`, facturation par email désactivée ; URL d’archive anonyme **404**. Adresse de recette restée désinscrite, listes complètes des confirmés à zéro avant/après. Réglages de la newsletter inchangés. SPF/DKIM/DMARC `pass` dans les en-têtes OVH du seul message reçu, pas une preuve de délivrabilité générale.
+- **Quatre largeurs Chromium sans JS (320/390/768/1440)** sur le vrai HTML reçu : titres et liste rendus, prix/liens/limites présents, pas de débordement horizontal ; clic vers les extraits puis ouverture par Entrée réussis. Captures mobile/ordinateur inspectées. C’est une recette du HTML dans un navigateur, pas une validation de tous les clients mail.
+- Premier filtre par adresse email refusé **422**, absence d’objet vérifiée avant correction : le destinataire unique est imposé par l’endpoint d’aperçu, pas par un filtre d’audience. L’autodétection avait préfixé le Markdown en mode `fancy` ; correction du seul corps en `plaintext`, GET exact avant envoi. Erreur locale de parsing de la réponse d’envoi conservée : **aucun renvoi**, réception et état distant vérifiés indépendamment.
+- **Écart utile :** Buttondown ajoute des paramètres UTM aux quatre liens publics. Destinations et fragments préservés, mais URL non identiques ; aucun réglage modifié ni nouveau suivi activé. La présence d’un lien canary dans le message interdit d’en déduire « sans suivi ». Liens de gestion/désinscription non ouverts.
+
+**Limite importante :** le lien de désinscription d’un aperçu n’est pas fonctionnel selon la documentation Buttondown. Sa présence et les en-têtes ne valident pas une désinscription de numéro réel. Ce test ne réactive aucun abonnement, ne prouve ni audience acquise ni conversion/revenu, et n’autorise pas à publier le brouillon.
+
+Schéma officiel `buttondown/openapi@fbaa72b9`, blob vérifié, push déclaré le 02/09, licence non établie ; documentation actuelle relue, aucun code tiers adopté ou paquet installé. Édition pratique rédigée pour cette recette, pas sortie du compositeur d’actualité. Preuves privées : `crabe-chantiers/monetisation/2026-11-16-numero-newsletter/`.
+
+B2B **200**, mentions **404** à 12:33 UTC, revue Claude relue et prérequis cumulatifs toujours fermés. Alliancy occupe la distribution du 16 : aucune sollicitation ou promotion supplémentaire. Clone partagé conflictuel préservé ; worktree propre du même dépôt après pull réussi. **Seul ce journal change dans Git**, sans site, moteur, données, sceaux, cron ou dispatch.
+
+**Suite :** qualifier les paramètres de suivi et une segmentation officiellement prise en charge, puis éprouver un vrai numéro limité à notre seule boîte avec consentement reconfirmé et désinscription, avant toute campagne. Ne pas réutiliser le filtre email refusé ni confondre archive privée et audience restreinte.
+
 ## 16 novembre 2026 — aide de confirmation visible sans JavaScript
 
 *Mission planifiée du 14 novembre, reprise et action effective le **16 novembre à 10:55 UTC** ; dates non antidatées. Le dossier privé conserve le jour de préparation.*

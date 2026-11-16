@@ -48,4 +48,30 @@ donnée de la recette reprise en production. Export OPML égal au générateur,
 SHA256 `664c52c5adea3eef60e92157a38d2fbaf26a09a28e3899c551c2b556fa896612`.
 Pièces privées : `crabe-chantiers/croissance/2026-11-16-dspy/evidence/`.
 
-Au commit initial, la publication HTTPS et le relais cloud restent à confirmer.
+Au commit initial, la publication HTTPS et le relais cloud restaient à confirmer.
+
+## Publication vérifiée à 13:09 UTC
+
+Commit de configuration `c2e95deadbf972b8f4e1ef1f40fd4e930c15e534` : les trois
+fichiers livrés ont été relus identiques par l'API GitHub sur `main`.
+
+Livraison SFTP bornée à `/veille/sources.opml` et au seul compteur **34 → 35**
+de `/transparence/`, sans remplacer ses autres statistiques. Avant transfert :
+clé hôte épinglée vérifiée avant secret, sauvegardes privées, base OPML exactement
+égale au catalogue parent et égalité HTTPS/SFTP. Liste paginée des runs actifs :
+un seul run, déjà sur le nouveau catalogue. Ce contrôle n'est pas un verrou
+transactionnel. Staging `.part`, comparaison avant renommage et relecture SFTP
+exacte ; transformation inverse du compteur conforme à tous les octets antérieurs.
+
+La première lecture HTTPS immédiatement après transfert a différé et la commande
+a correctement terminé avec code 1 : corps conservé, aucune réécriture de secours.
+Deux nouvelles lectures canoniques à **13:09:10–13:09:11 UTC** correspondent ensuite
+exactement aux deux fichiers attendus : **35 flux, DSPy une seule fois**, compteur
+35 présent une fois. La cause du décalage initial n'est pas établie.
+
+Pièces privées : `livraison-ciblee/{preflight,sftp-result}.json`, corps avant/après,
+corps HTTPS initial divergent, puis `recontrole-https/result.json` et ses quatre
+corps vérifiés. Le dispatch cloud `43872806460` porte le commit de configuration ;
+au relevé de 13:09 UTC, les contrats sont encore en cours. L'export public livré
+ne prouve ni fin du pipeline cloud, ni sauvegarde de son état, ni publication
+d'une brève DSPy. Les conflits du clone partagé restent distincts et inchangés.

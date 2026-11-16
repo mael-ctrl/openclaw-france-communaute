@@ -1299,6 +1299,41 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-14/hub-parcours-guide/`.
 
+## Dépannage accessible depuis le premier essai — livraison du 16/11/2026
+
+- **Une amélioration** : après les quatre étapes du guide de démarrage, un
+  repère « L’installation bloque ? » mène directement au dépannage de chaque
+  agent. Les liens nomment OpenClaw et Hermes Agent, avec les types de blocages
+  traités ; rappel de ne pas supprimer configuration/sauvegardes ni exposer de
+  secrets au support. Liens natifs, aucun JavaScript, style ou kit modifié.
+  Date visible, Article.dateModified et sitemap actualisés pour le guide seul.
+- Trois nouveaux tests : deux échouent avant ajout ; celui des cibles existantes
+  passe déjà. Après correction : **367 tests OK**. Les trois nouveaux contrôles
+  passent aussi sur les réponses HTTPS publiques. Aucun diagnostic de logiciel
+  ni test d’installation réellement exécuté ou revendiqué.
+- Chromium headless avec/sans JavaScript : **six contrôles locaux et six publics**
+  à 1440, 768 et 360 px, soit **12 parcours clavier par environnement** vers les
+  deux dépannages. Noms accessibles, focus, styles, titre de destination non
+  masqué par l’entête et absence de débordement vérifiés. Le premier contrôle
+  exigeait à tort un padding absent du style existant ; assertion corrigée après
+  relecture du CSS, sans modifier le site pour satisfaire ce test.
+- Bureau inaccessible en cron (Git non lisible, Resource deadlock avoided),
+  clone partagé en conflits laissé intact. Déploiement avec
+  `python3 outils/deployer_openclaw.py` depuis le clone dédié synchronisé hors
+  Bureau `~/.hermes/workspaces/hub-openclaw-20261003`. Sauvegarde privée et
+  comparaison avant envoi ; **36 fichiers relus via FTP**, identiques aux sources.
+  Dates/modes des sources restaurés : ZIP et manifeste inchangés octet pour octet.
+- **Six URL de santé en HTTP 200**, contrôle étendu de **11 URL en 200**.
+  Entête et section modifiée publics identiques aux sources ; ZIP HTTPS vérifiés
+  par CRC et SHA-256. **IndexNow HTTP 200** pour le guide : notification acceptée,
+  aucune indexation ni hausse de trafic revendiquée.
+- **Aucune distribution supplémentaire** : la démarche Alliancy du 16/11 à
+  10:50:10 UTC est déjà inscrite dans `docs/distribution-textes.md` et consomme
+  le quota quotidien. Aucun post, contact, formulaire ou relance par cette mission.
+  Prochaine priorité : vérifier l’actualité des sources officielles du guide.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-16/hub-aide-guide/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

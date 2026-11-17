@@ -1,0 +1,41 @@
+{
+ "slug": "olala-mini-ovhcloud-entre-sur-le-terrain-des-modeles-mistral-6e387f",
+ "titre": "Olala mini : OVHcloud entre sur le terrain des modèles, Mistral n'est plus seul",
+ "chapo": "OVHcloud a présenté Olala mini, son premier modèle de langage open source, entraîné de zéro sur des supercalculateurs européens. Mistral AI n'est plus la seule référence française. La même semaine, Perplexity annonce 1 milliard de dollars de revenus annualisés et Pydantic AI muscle son outillage pour agents.",
+ "html": "<h2 id=\"olala-mini-ou-le-cloud-qui-descend-dans-\">Olala mini, ou le cloud qui descend dans l'arène</h2>\n<p>Le 17 novembre 2026, OVHcloud a présenté <strong>Olala mini</strong>, première itération d'une nouvelle famille de modèles de langage. Le modèle est open source et a été entraîné à partir de zéro sur des supercalculateurs européens — un point que le fournisseur cloud met en avant. La dépêche ne précise pas la licence retenue, ni ce que « open source » couvre exactement ici.</p>\n<p>Jusqu'ici, Mistral AI occupait seul le terrain français des modèles. OVHcloud arrive sur la couche modèle, et plus seulement sur l'hébergement, relève Maddyness. Le signal compte autant que le produit : un géant du cloud veut désormais peser sur ce qu'il fait tourner chez lui, plutôt que de se contenter d'héberger les modèles des autres.</p>\n<p>Reste la question qui fâche : <strong>aucun test n'a été publié</strong>. On ignore ce que vaut réellement Olala mini. L'extrait disponible chez Maddyness ne précise ni l'architecture, ni les performances, ni les modalités d'accès. Le nom, oui — Numerama le donne. Le reste, non.</p>\n<h2 id=\"perplexity-1-milliard-de-dollars-de-ryth\">Perplexity : 1 milliard de dollars de rythme annualisé</h2>\n<p>Perplexity annonce un rythme de revenus annualisés de <strong>1 milliard de dollars</strong>, soit une multiplication par quatre sur 2026. C'est un ordre de grandeur, pas un résultat net : le <em>run rate</em> extrapole les revenus sur une année entière à partir du niveau courant.</p>\n<p>Côté produit, la société livre une <strong>Monitor API</strong>. La même édition de Latent Space mentionne le lancement d'un nouveau laboratoire de recherche. Pour les assistants IA, le chiffre donne un repère assez concret sur ce que la monétisation peut produire à cette échelle — et sur l'écart qui sépare un usage gratuit très large d'un revenu réellement facturé.</p>\n<h2 id=\"nvidia-quand-la-puce-devient-un-dossier-\">Nvidia : quand la puce devient un dossier d'État</h2>\n<p>L'affaire Jensen Huang secoue Nvidia et l'ensemble de l'industrie de l'IA. Selon Frandroid, elle mêle liaisons, soupçons d'espionnage, puces d'IA vendues à la Chine et bataille politique à Washington. Le média en suit les rebondissements en direct.</p>\n<p>Ce qui frappe, ce n'est pas le détail des épisodes, mais le mélange des registres : un dossier qui touche à la fois un fabricant de semi-conducteurs, la politique américaine et les exportations vers la Chine. Difficile, dans ces conditions, de traiter la technique comme un domaine à part.</p>\n<h2 id=\"pydantic-ai-2-69-0-detecter-les-boucles-\">Pydantic AI 2.69.0 : détecter les boucles, tenir les contextes</h2>\n<p>La bibliothèque d'agents Pydantic AI sort en <strong>2.69.0</strong>. Gemini 4 Hydrogen est pris en charge, et GroqModel gagne un paramètre `service_tier`.</p>\n<p>Le changement le plus intéressant pour qui construit des agents : <strong>DetectLoops</strong> repère les boucles dans les raisonnements, les textes et les arguments d'outils streamés. Un agent qui tourne en rond consomme des tokens et du temps sans rien produire ; le repérer au fil du flux plutôt qu'à la fin change la donne. Le profil `tool_call_ids_are_response_scoped` généralise les identifiants d'appels liés à une réponse.</p>\n<p>Dernier point, plus discret : les historiques des sous-agents restent dans leurs fichiers plutôt qu'en mémoire. Trois briques d'outillage, donc — un modèle supplémentaire, un garde-fou contre les raisonnements circulaires, et une gestion de contexte plus sobre.</p>\n<h2>Et maintenant ?</h2>\n<p>Mises bout à bout, ces dépêches couvrent trois étages de l'écosystème : les modèles, avec un acteur cloud européen qui tente sa chance sans avoir publié le moindre résultat mesurable ; l'argent, avec un assistant qui affiche 1 milliard de dollars de revenus annualisés ; l'outillage, avec une bibliothèque d'agents qui apprend à détecter ses propres boucles. Et un quatrième registre, politique : l'affaire Jensen Huang rappelle que les puces d'IA restent un dossier d'État. Aucun de ces étages ne se développe isolément.</p>",
+ "pivot": "6e387f417b150796",
+ "tags": [
+  "france",
+  "open-source",
+  "business",
+  "agents"
+ ],
+ "sources": [
+  {
+   "nom": "Numerama",
+   "url": "https://www.numerama.com/tech/2376025-ovh-devoile-olala-son-premier-modele-dia-open-source-mistral-nest-plus-seul-en-france.html"
+  },
+  {
+   "nom": "Latent Space",
+   "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/"
+  },
+  {
+   "nom": "Frandroid",
+   "url": "https://www.frandroid.com/marques/3324713_en-direct-affaire-jensen-huang-nvidia-washington-et-la-chine-toutes-les-dernieres-infos"
+  },
+  {
+   "nom": "Maddyness",
+   "url": "https://www.maddyness.com/2026/11/17/ovhcloud-devoile-son-premier-modele-dia/"
+  },
+  {
+   "nom": "Pydantic AI (releases, préversions incluses)",
+   "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.69.0"
+  }
+ ],
+ "date": "2026-11-17T09:58:26+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1518,
+  "sortie": 4203
+ }
+}

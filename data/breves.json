@@ -1,5 +1,131 @@
 [
  {
+  "id": "6e387f417b150796",
+  "slug": "ovhcloud-devoile-olala-mini-son-premier-modele-d-ia-open-source-6e387f",
+  "titre": "OVHcloud dévoile Olala mini, son premier modèle d'IA open source",
+  "resume": "OVHcloud a présenté le 17 novembre 2026 Olala mini, la première itération d'une nouvelle famille de modèles de langage. Le modèle est open source et entraîné à partir de zéro sur des supercalculateurs européens. Le géant français du cloud arrive sur un terrain où Mistral AI était jusqu'ici la seule référence française. Mais aucun test n'a été publié : on ignore encore ce que vaut réellement le modèle.",
+  "tags": [
+   "open-source",
+   "mistral",
+   "france",
+   "business"
+  ],
+  "importance": 4,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/tech/2376025-ovh-devoile-olala-son-premier-modele-dia-open-source-mistral-nest-plus-seul-en-france.html",
+  "date_source": "2026-11-17T09:44:35+00:00",
+  "date_redac": "2026-11-17T09:57:39+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 728,
+   "sortie": 948
+  }
+ },
+ {
+  "id": "a2060d95108e2799",
+  "slug": "undervolt-d-une-amd-9070-120-t-s-sur-gemma4-en-q4-xs-a2060d",
+  "titre": "Undervolt d'une AMD 9070 : 120 t/s sur gemma4 en Q4_XS",
+  "resume": "Un utilisateur de r/LocalLLaMA, néophyte en GPU, a acheté une AMD 9070 (non XT) pour l'IA locale, avec un i3 12100 et 32 Go de DDR4. En undervoltant à -110 mV, ventilateurs d'origine, il obtient sa meilleure config stable : sur gemma4 26bA4b Q4_XS, il passe de 106 à 120 tokens/s en prose. Il cite aussi moss image et minimax h3 int8 (sol decoder), les réglages ayant été cherchés via deepseek flash et opencode.",
+  "tags": [
+   "matériel",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xygbgl/amd_9070_gpu_under_volting_gains_for_models_moss/",
+  "date_source": "2026-11-17T09:43:55+00:00",
+  "date_redac": "2026-11-17T09:57:46+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 811,
+   "sortie": 1234
+  }
+ },
+ {
+  "id": "e8c0d297526ae38a",
+  "slug": "la-fondation-sopra-steria-ouvre-un-prix-de-100-000-euros-sur-ia-et-app-e8c0d2",
+  "titre": "La Fondation Sopra Steria ouvre un prix de 100 000 euros sur IA et apprentissages",
+  "resume": "La Fondation Sopra Steria-Institut de France dote de 100 000 euros son Grand Prix de recherche 2027, consacré aux effets de l'IA sur les apprentissages des jeunes. Il récompense des travaux déjà engagés, menés dans un organisme de recherche européen à but non lucratif. L'appel court jusqu'au 21 janvier 2027 sur la plateforme de l'Institut de France, qui précisera la composition du jury.",
+  "tags": [
+   "recherche",
+   "france",
+   "société"
+  ],
+  "importance": 2,
+  "source": "ActuIA",
+  "lien_source": "https://www.actuia.com/actualite/ia-et-apprentissages-la-fondation-sopra-steria-ouvre-un-prix-de-100-000-euros/",
+  "date_source": "2026-11-17T09:38:10+00:00",
+  "date_redac": "2026-11-17T09:57:52+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 719,
+   "sortie": 907
+  }
+ },
+ {
+  "id": "1a6b071729385ee5",
+  "slug": "gemini-notebook-transforme-documents-et-sources-en-sites-web-interacti-1a6b07",
+  "titre": "Gemini Notebook transforme documents et sources en sites web interactifs",
+  "resume": "Google ajoute une brique à Gemini : Gemini Notebook permet de transformer ses documents et ses sources en sites web interactifs, en un clic. La fonctionnalité vient étoffer la palette d'outils proposés par Google pour exploiter les notes de ses utilisateurs. Elle vise donc ceux qui accumulent documents et sources sans toujours savoir comment les mettre en forme.",
+  "tags": [
+   "gemini",
+   "business",
+   "société"
+  ],
+  "importance": 2,
+  "source": "Frandroid",
+  "lien_source": "https://www.frandroid.com/marques/google/3325769_google-gemini-transforme-vos-simples-notes-en-site-web-interactif-en-un-clic",
+  "date_source": "2026-11-17T09:25:10+00:00",
+  "date_redac": "2026-11-17T09:57:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 652,
+   "sortie": 435
+  }
+ },
+ {
+  "id": "32ebcb45ab096a0b",
+  "slug": "perplexity-atteint-1-milliard-de-dollars-de-revenus-annualises-x4-en-2-32ebcb",
+  "titre": "Perplexity atteint 1 milliard de dollars de revenus annualisés, x4 en 2026",
+  "resume": "Perplexity annonce un rythme de revenus annualisés de 1 milliard de dollars, soit une multiplication par quatre en 2026. La société livre par ailleurs une Monitor API. La même édition mentionne le lancement d'un nouveau laboratoire de recherche. Le chiffre donne un ordre de grandeur sur la monétisation des assistants IA.",
+  "tags": [
+   "business",
+   "recherche",
+   "dev"
+  ],
+  "importance": 4,
+  "source": "Latent Space",
+  "lien_source": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+  "date_source": "2026-11-17T09:24:56+00:00",
+  "date_redac": "2026-11-17T09:58:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 634,
+   "sortie": 827
+  }
+ },
+ {
+  "id": "2ed5ffdb2e9ecef4",
+  "slug": "worldcraft-un-developpeur-reproduit-la-planete-entiere-dans-minecraft-2ed5ff",
+  "titre": "WorldCraft : un développeur reproduit la planète entière dans Minecraft",
+  "resume": "Un développeur affirme avoir reproduit l'intégralité de la planète dans Minecraft, avec ses routes, ses bâtiments et même des intérieurs meublés. Son projet, baptisé WorldCraft, repose sur un algorithme entraîné avec l'aide de plus de 250 agents IA. Le serveur est gratuit et déjà accessible, ce qui permet d'aller y chercher sa propre maison.",
+  "tags": [
+   "agents",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Numerama",
+  "lien_source": "https://www.numerama.com/pop-culture/2375993-vous-pouvez-maintenant-allez-voir-votre-maison-dans-minecraft.html",
+  "date_source": "2026-11-17T09:16:41+00:00",
+  "date_redac": "2026-11-17T09:58:04+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 678,
+   "sortie": 439
+  }
+ },
+ {
   "id": "bff595b17cf86f45",
   "slug": "google-repere-une-ia-pirate-qui-transforme-un-correctif-en-attaque-bff595",
   "titre": "Google repère une IA pirate qui transforme un correctif en attaque",

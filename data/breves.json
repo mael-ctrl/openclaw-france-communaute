@@ -1,5 +1,129 @@
 [
  {
+  "id": "20442cc8217ab243",
+  "slug": "codex-openai-publie-la-preversion-0-170-0-alpha-4-1-20442c",
+  "titre": "Codex : OpenAI publie la préversion 0.170.0-alpha.4.1",
+  "resume": "OpenAI a publié la préversion 0.170.0-alpha.4.1 de Codex sur le dépôt GitHub openai/codex, le 17 novembre 2026. La note de version se limite au titre « Release 0.170.0-alpha.4.1 » : aucun changement, correctif ou fonctionnalité n'y est détaillé. Il s'agit d'une version alpha, donc d'une préversion du projet.",
+  "tags": [
+   "openai",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.4.1",
+  "date_source": "2026-11-17T02:24:32+00:00",
+  "date_redac": "2026-11-17T02:26:53+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 608,
+   "sortie": 794
+  }
+ },
+ {
+  "id": "46990e25e70ed3d0",
+  "slug": "pydantic-ai-v2-69-0-gemini-4-hydrogen-detection-de-boucles-et-quotas-46990e",
+  "titre": "Pydantic AI v2.69.0 : Gemini 4 Hydrogen, détection de boucles et quotas",
+  "resume": "La bibliothèque d'agents Pydantic AI sort en 2.69.0. Gemini 4 Hydrogen est pris en charge, GroqModel gagne le paramètre service_tier, et DetectLoops repère les boucles dans les raisonnements, textes et arguments d'outils streamés. Le profil tool_call_ids_are_response_scoped généralise les identifiants d'appels liés à une réponse ; les historiques des sous-agents restent dans leurs fichiers plutôt qu'en mémoire.",
+  "tags": [
+   "dev",
+   "agents",
+   "gemini",
+   "open-source"
+  ],
+  "importance": 3,
+  "source": "Pydantic AI (releases, préversions incluses)",
+  "lien_source": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.69.0",
+  "date_source": "2026-11-17T01:13:30+00:00",
+  "date_redac": "2026-11-17T02:27:01+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 822,
+   "sortie": 1397
+  }
+ },
+ {
+  "id": "e0cb1d777cff42bc",
+  "slug": "llm-0-37-3-une-correction-de-sqlite-casse-le-code-de-journalisation-e0cb1d",
+  "titre": "LLM 0.37.3 : une correction de SQLite casse le code de journalisation",
+  "resume": "LLM 0.37.3 est une version corrective, publiée surtout pour un problème venu du dernier paquet Homebrew de l'outil. Homebrew embarque désormais SQLite 3.54.1, dont un correctif casse le code de journalisation de LLM. D. Richard Hipp confirme qu'il s'agissait bien d'un bug : une sous-requête json_array renvoie du texte SQL, pas du JSON. Le contournement tient en un appel à json() autour de la sous-requête.",
+  "tags": [
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Nov/16/llm/",
+  "date_source": "2026-11-16T23:57:26+00:00",
+  "date_redac": "2026-11-17T02:27:08+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 795,
+   "sortie": 1317
+  }
+ },
+ {
+  "id": "88f1a9ea2e4353b1",
+  "slug": "gcmp-memes-scores-que-lora-r-32-avec-55-fois-moins-de-parametres-88f1a9",
+  "titre": "GCMP : mêmes scores que LoRA r=32 avec 55 fois moins de paramètres",
+  "resume": "Sur Qwen3.8-27B, l'adaptateur GCMP, une alternative à LoRA, n'entraîne que 2,9 M de paramètres (~11 Mo), contre ~159 M (~320 Mo) pour LoRA r=32 sur les mêmes 7 projections : 55 fois moins. Les deux ont été entraînés sur Alpaca avec des réglages identiques et évalués via lm-evaluation-harness en décodage glouton. Les scores restent proches : GSM8K 0,890 contre 0,903, MMLU 0,846 contre 0,844.",
+  "tags": [
+   "open-source",
+   "recherche",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "r/LocalLLaMA",
+  "lien_source": "https://www.reddit.com/r/LocalLLaMA/comments/1xy5eby/gcmp_same_accuracy_as_lora_r32_on_qwen3827b_with/",
+  "date_source": "2026-11-16T23:56:50+00:00",
+  "date_redac": "2026-11-17T02:27:22+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 983,
+   "sortie": 1196
+  }
+ },
+ {
+  "id": "4976be093c8df970",
+  "slug": "langchain-des-agents-dedies-a-une-tache-aux-agents-guides-par-des-obje-4976be",
+  "titre": "LangChain : des agents dédiés à une tâche aux agents guidés par des objectifs",
+  "resume": "Dans un billet publié sur le blog de LangChain, Harrison Chase, PDG et cofondateur de l'entreprise, décrit le passage d'agents conçus pour une tâche précise à des agents centrés sur des objectifs. Le changement porte donc sur la manière de définir et de piloter un agent, plutôt que sur l'exécution d'une action isolée.",
+  "tags": [
+   "agents",
+   "dev"
+  ],
+  "importance": 3,
+  "source": "LangChain (blog officiel)",
+  "lien_source": "https://www.langchain.com/blog/from-tasks-to-goals",
+  "date_source": "2026-11-16T23:53:29+00:00",
+  "date_redac": "2026-11-17T02:27:26+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 597,
+   "sortie": 437
+  }
+ },
+ {
+  "id": "820e3b3fbb60b2f7",
+  "slug": "codex-0-171-0-alpha-10-openai-publie-une-nouvelle-preversion-sur-githu-820e3b",
+  "titre": "Codex 0.171.0-alpha.10 : OpenAI publie une nouvelle préversion sur GitHub",
+  "resume": "OpenAI publie la préversion 0.171.0-alpha.10 de Codex sur son dépôt GitHub. Le tag utilisé, rust-v0.171.0-alpha.10, correspond à une version alpha, donc à une préversion du projet. La note de publication se limite à la mention « Release 0.171.0-alpha.10 » et ne détaille aucun changement ni correctif. Cette itération s'ajoute au fil des publications du dépôt.",
+  "tags": [
+   "openai",
+   "dev",
+   "agents"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.10",
+  "date_source": "2026-11-16T23:37:29+00:00",
+  "date_redac": "2026-11-17T02:27:32+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 800
+  }
+ },
+ {
   "id": "1d973890e27ff279",
   "slug": "le-chuwi-corebook-air-plus-16-pouces-et-1-35-kg-brade-pour-le-singles--1d9738",
   "titre": "Le CHUWI CoreBook Air Plus, 16 pouces et 1,35 kg, bradé pour le Singles Day",

@@ -1,0 +1,41 @@
+{
+ "slug": "pydantic-ai-2-69-gcmp-face-a-lora-et-le-rasa-qui-inquiete-le-46990e",
+ "titre": "Pydantic AI 2.69, GCMP face à LoRA et le RASA qui inquiète les LLM ouverts",
+ "chapo": "Une semaine de plomberie et de politique. Pydantic AI ajoute Gemini 4 Hydrogen et un détecteur de boucles, GCMP divise par 55 le nombre de paramètres entraînés face à LoRA, pendant que la Chambre des représentants américaine adopte le Remote Access Security Act.",
+ "html": "<h2 id=\"pydantic-ai-2-69-0-la-boite-a-outils-des\">Pydantic AI 2.69.0 : la boîte à outils des agents se réordonne</h2>\n<p>La bibliothèque d'agents Pydantic AI sort en version 2.69.0, avec la prise en charge de Gemini 4 Hydrogen. Côté fournisseurs, <strong>GroqModel</strong> gagne un paramètre `service_tier`, qui laisse donc la main sur le niveau de service demandé au fournisseur.</p>\n<p>Le changement le plus intéressant concerne le comportement des agents en cours d'exécution. <strong>DetectLoops</strong> repère les boucles dans les raisonnements, les textes et les arguments d'outils streamés — autrement dit, là où un agent peut tourner à vide sans que rien ne le signale explicitement.</p>\n<p>La version ajoute aussi le profil `tool_call_ids_are_response_scoped`, qui généralise les identifiants d'appels d'outils liés à une réponse. Et sur la gestion de la mémoire, les historiques des sous-agents restent dans leurs fichiers plutôt qu'en mémoire vive.</p>\n<h2 id=\"gcmp-memes-scores-que-lora-r-32-55-fois-\">GCMP : mêmes scores que LoRA r=32, 55 fois moins de paramètres</h2>\n<p>Sur Qwen3.8-27B, l'adaptateur GCMP, présenté comme une alternative à LoRA, n'entraîne que <strong>2,9 M de paramètres</strong> (~11 Mo), contre ~159 M (~320 Mo) pour LoRA r=32 sur les mêmes 7 projections : 55 fois moins.</p>\n<p>Les deux ont été entraînés sur Alpaca avec des réglages identiques et évalués via `lm-evaluation-harness` en décodage glouton. Les écarts restent ténus : GSM8K 0,890 pour GCMP contre 0,903 pour LoRA r=32, et MMLU 0,846 contre 0,844 — cette fois à l'avantage de GCMP.</p>\n<p>Autrement dit, sur ce banc d'essai précis, la réduction drastique du nombre de paramètres entraînés ne se traduit pas par un effondrement des scores. Le résultat porte sur un modèle et un jeu de données donnés, mais il donne une idée de l'espace de compression encore disponible du côté du fine-tuning.</p>\n<h2 id=\"remote-access-security-act-l-acces-a-dis\">Remote Access Security Act : l'accès à distance dans le viseur</h2>\n<p>La Chambre des représentants américaine a adopté le <strong>Remote Access Security Act</strong> (H.R.2683), un texte destiné à limiter l'accès à distance d'adversaires à des technologies critiques. En parallèle, le département du Commerce finalise une règle bloquant la location de GPU Nvidia à l'étranger par des entreprises chinoises d'IA.</p>\n<p>Sur r/LocalLLaMA, l'auteur du post qui relaie l'information estime que ce texte provoquera « un chaos total » pour les LLM ouverts et au-delà. C'est un jugement d'internaute, pas une analyse juridique : le texte adopté par la Chambre doit encore suivre son parcours, et la portée concrète des restrictions d'accès à distance reste à préciser.</p>\n<p>Le point notable est le déplacement du curseur : la question n'est plus seulement de savoir quels modèles peuvent être entraînés, mais qui peut accéder à distance aux moyens de les entraîner.</p>\n<h2 id=\"des-taches-aux-objectifs-et-des-workers-\">Des tâches aux objectifs, et des workers qui tiennent la charge</h2>\n<p>Dans un billet publié sur le blog de LangChain, <strong>Harrison Chase</strong>, PDG et cofondateur de l'entreprise, décrit le passage d'agents conçus pour une tâche précise à des agents centrés sur des objectifs. Le changement porte sur la manière de définir et de piloter un agent, plutôt que sur l'exécution d'une action isolée.</p>\n<p>Côté exécution justement, OpenClaw publie la version <strong>2026.11.4</strong>, qui corrige plusieurs sources de consommation mémoire : le trimming des longs transcripts, les exports de mémoire paginés et les réparations du Doctor ne doivent plus épuiser la mémoire des workers. Le démarrage des plugins et de leurs services est avancé avant le scan des orphelins, et le scan des candidats de récupération évite de charger des résumés de sessions non concernés.</p>\n<p>La fiabilité n'est pas en reste : les invites sans réponse survivent aux redémarrages de la Gateway, les réponses finales WhatsApp résistent aux rechargements sans rapport, et les reconnexions Signal ne sautent plus les messages mis en tampon.</p>\n<h2>Et maintenant ?</h2>\n<p>Les quatre dépêches dessinent des chantiers distincts mais convergents : maîtriser ce que fait un agent pendant qu'il tourne, réduire le coût de son entraînement, et garder la main sur l'infrastructure qui le fait fonctionner. Pydantic AI outille la boucle, GCMP compresse les paramètres, OpenClaw colmate les fuites mémoire. Le RASA, lui, rappelle que la couche matérielle et l'accès distant restent des leviers politiques autant que techniques.</p>",
+ "pivot": "46990e25e70ed3d0",
+ "tags": [
+  "agents",
+  "dev",
+  "open-source",
+  "sécurité"
+ ],
+ "sources": [
+  {
+   "nom": "Pydantic AI (releases, préversions incluses)",
+   "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.69.0"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and/"
+  },
+  {
+   "nom": "r/LocalLLaMA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xy5eby/gcmp_same_accuracy_as_lora_r32_on_qwen3827b_with/"
+  },
+  {
+   "nom": "LangChain (blog officiel)",
+   "url": "https://www.langchain.com/blog/from-tasks-to-goals"
+  },
+  {
+   "nom": "OpenClaw (releases)",
+   "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.4"
+  }
+ ],
+ "date": "2026-11-17T02:27:44+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1646,
+  "sortie": 2228
+ }
+}

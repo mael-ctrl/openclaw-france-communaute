@@ -1,5 +1,22 @@
 # Journal des actions de monétisation
 
+## 17 novembre 2026 — mesure newsletter qualifiée, liens UTM retirés
+
+**Une action du rang 3 :** désactiver l'ajout automatique de paramètres UTM au numéro préparatoire présentant les extraits du Pack, puis vérifier son effet sur **un seul aperçu envoyé à notre propre boîte**. Aucun nouveau contenu, campagne ou destinataire tiers.
+
+- Réglages réels lus dans l'interface authentifiée : mesures des **clics et ouvertures déjà désactivées**, ajout UTM activé. Seul ce dernier interrupteur a changé ; sauvegarde explicite puis **deux rechargements** confirmant son état désactivé et les six autres interrupteurs inchangés. Les champs exposés par l'API Newsletter sont identiques : cette API ne reflète pas le réglage UTM.
+- Message `[PREVIEW]` daté **12:41:46 UTC**, réellement reçu puis relu en IMAP readonly. Ses **quatre liens publics sont exactement ceux du Markdown source**, fragments inclus, sans UTM. Aucune image ; **un lien canary demeure**, décrit par le prestataire comme anti-scanner. Aucun lien individuel ouvert, aucune promesse « sans suivi » ou de conformité globale.
+- Brouillon existant inchangé, toujours `draft`, archive `disabled`, facturation par email désactivée. Listes complètes sans filtre d'état : **un contact, notre boîte désinscrite ; zéro confirmé, zéro tiers et zéro tag**. Pas de métadonnée propre ni de singleton déjà configuré. Les filtres du brouillon restent vides : **ne pas le publier**. Aucun consentement réactivé implicitement.
+- Premier rechargement après bascule non sauvegardée revenu à l'état actif : échec conservé. Le bouton Save est iconique, identifié par son libellé accessible. Après son unique clic, l'avis de sauvegarde et l'ancien texte « unsaved changes » ont coexisté ; aucune répétition aveugle, rechargements et email reçu ont confirmé le résultat réel.
+
+**Limites :** l'aperçu ne valide toujours pas une désinscription de numéro éditorial, ni un bouton natif de client mail. Aucun revenu, gain d'acquisition ou conversion attribué. Pas de nouvelle recette de rendu mobile revendiquée : le contenu du brouillon est inchangé, les contrôles du jour portent sur réglages, audience et liens reçus.
+
+Réemploi du lot privé de segmentation du matin et du helper d'aperçu du 16, sans modifier les pièces historiques ni rejouer leurs suites comme de nouveaux résultats. Métadonnées officielles `buttondown/openapi` et `buttondown/docs` relues : derniers push 02/09 et 14/09, licences non établies ; aucune dépendance ajoutée. Preuves privées : `crabe-chantiers/monetisation/2026-11-17-audience-newsletter/`.
+
+B2B **200**, mentions **404** au contrôle HTTPS de **12:43 UTC**, vendeur/TVA et prérequis toujours fermés. La distribution Bluesky du jour ferme ce canal jusqu'au 22 inclus : aucune promotion supplémentaire. Clone partagé conflictuel préservé ; worktree documentaire propre après pull réussi. **Seul ce journal change dans Git**, aucun site, moteur, donnée, sceau, cron ou dispatch. Configuration navigateur temporaire restaurée et relue ; aucune fermeture du Chrome personnel.
+
+**Suite :** les options de mesure ne sont plus inconnues. Reconfirmer volontairement la seule boîte propre, prouver une audience restreinte supportée, puis éprouver un vrai numéro interne et son désabonnement avant campagne. Ne pas refaire l'aperçu comme substitut ; à zéro confirmé, pas de composition/envoi automatique du digest.
+
 ## 16 novembre 2026 — numéro d’aperçu réellement reçu sur notre boîte
 
 *Mission monétisation de 13h30 CET, distincte de la reprise du 14 achevée ce matin.*

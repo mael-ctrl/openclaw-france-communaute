@@ -55,7 +55,35 @@ Aucune donnée de la recette reprise en production. Export OPML égal au génér
 SHA256 `8682c896c9f30a8ef475020071880b3b61cbe7cdc1e36ed604ca68923663ecb7`.
 Pièces privées : `crabe-chantiers/croissance/2026-11-17-promptfoo/evidence/`.
 
-Au commit initial, la publication HTTPS et le relais cloud restent à confirmer.
+Au commit initial, la publication HTTPS et le relais cloud restaient à confirmer.
 Le run antérieur `44081967086`, sans ce changement, a été annulé pendant le
 pipeline à 13:04 UTC ; sa sauvegarde d'état a été sautée. Ce n'est pas une
 annulation en file d'attente, ni un résultat du présent ajout.
+
+## Publication vérifiée à 13:07:55 UTC
+
+Commit de configuration `30bae65680d029a169965515b86207aff4438d9b` :
+les trois fichiers livrés ont été relus identiques par l'API GitHub sur `main`.
+Le dispatch `44089556269` utilise exactement ce commit.
+
+Livraison SFTP limitée à `/veille/sources.opml` et au seul compteur **35 → 36**
+de `/transparence/`, sans remplacer ses autres statistiques. Clé hôte épinglée
+vérifiée avant le secret, sauvegardes privées et base OPML exactement égale au
+catalogue parent ; HTTPS et SFTP concordaient avant écriture. Inventaire paginé
+des statuts actifs avant transfert : aucun ancien catalogue actif relevé. Ce
+contrôle ponctuel n'est pas un verrou transactionnel.
+
+Staging `.part`, comparaison de base avant renommage et relecture SFTP exacte.
+La transformation inverse du seul compteur restitue tous les octets antérieurs.
+La première lecture HTTPS immédiatement après transfert a différé : refus
+code 1 et corps conservés, sans réécriture. Deux nouvelles lectures canoniques
+à **13:07:55 UTC** correspondent exactement aux deux fichiers attendus :
+**36 flux, Promptfoo une seule fois**, compteur 36 présent une fois. La cause du
+décalage initial n'est pas établie.
+
+Pièces privées : `livraison-ciblee/` (avant/après, préflight, résultat SFTP et
+premier corps HTTPS divergent), `recontrole-https/result.json` et ses quatre
+corps. Publication publique confirmée ; le relais cloud est encore en cours au
+relevé suivant. Cela ne prouve ni sa sauvegarde finale, ni la publication d'une
+brève Promptfoo, ni un gain de trafic. Les conflits du clone partagé restent
+inchangés et distincts de cette livraison.

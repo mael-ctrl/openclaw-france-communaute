@@ -1,5 +1,13 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Chantier site du 17 novembre — vérification locale des liens
+
+**Une seule intégration : CLI hors ligne de contrôle des liens/ancres du média complet**, premier candidat intégrable du relais du 17, périmètre qualité SEO #15. Les couvertures, dates étayées, archives et cache déjà livrés ne sont pas refaits ; les autres reliquats ne sont pas déclarés clos. Aucun changement visuel ni branchement implicite au déploiement. [Mode d'emploi](../outils/README-liens.md), [recette et preuves](liens-hors-ligne.md).
+
+**394 tests Python + huit Node réussis**, 27 contrats dédiés dont trois corrections texte/template éprouvées rouge/vert. Build isolé courant : **2 596 HTML / 5 217 fichiers**, 1 016 sources préservées ; scan déterministe de **127 460 références : 96 767 contrôlées, 30 693 exemptées, zéro erreur**. Les exemptions ne sont pas des liens validés ; existence disque ≠ disponibilité HTTPS ni gain SEO. **Au commit initial : publication Git/cloud et sondes HTTPS encore à confirmer.**
+
+Clone partagé toujours conflictuel, préservé ; pull réussi seulement dans le worktree propre sur `bb75aee`. P9 reste ouvert : aucun cron, wrapper, verrou, sceau ou fusion de données modifié. Prochaine étape : vérifier le dispatch demandé et ses effets, puis poursuivre les priorités restantes sans réintégrer cet outil.
+
 ## État courant — 16 novembre 2026, revue de 21 h CET
 
 **Cette synthèse prévaut sur les états historiques conservés ci-dessous.** Pull du clone partagé à **21:01 CET refusé (128)** : six fichiers non fusionnés et journal indexé, préservés. Travail documentaire dans un worktree propre sur **`33678fc6b1e09090c2146dd6bdac30efde1d891e`**, pull réussi ici seulement. Fenêtre commits/créations GitHub : **15/11 23:00 → 16/11 20:02:25 UTC** ; HTTPS du **16 à 21:04 CET**. Les rattrapages achevés aujourd'hui conservent leurs dates de mission initiales.

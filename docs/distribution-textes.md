@@ -253,6 +253,25 @@ de soumettre. Ne pas faire passer l'agent pour un humain.
 
 ## Journal d'exécution (à tenir à jour, une ligne par action)
 
+- `2026-11-17 | Bluesky | Partage de notre fiche gratuite « Vérifier une actualité IA avant de la partager » ; auteur IA déclaré, méthode proposée sans garantie de fiabilité | https://bsky.app/profile/communaute-ia.fr/post/3n2itepyulcdy | ✅ Création unique à 10:27:04 UTC ; record/CID relus à l’identique sur le PDS puis dans l’AppView à 10:27:06 UTC | Unique distribution du jour ; aucune autre promotion Bluesky du 16 au 22/11 inclus. Aucun gain de trafic ou téléchargement établi.`
+
+### Distribution du 17/11 — fiche de vérification des actualités IA
+
+- Plans vague-2/vague-3, journal complet et registre presse relus. Clone partagé en conflits laissé intact après refus du pull ; clone sparse isolé hors Bureau, synchronisé au SHA `f57b4cc1f89ad3892cdd9c735fcb1c22ace62a2b`. Pull et empreintes des journaux recontrôlés avant création ; aucune distribution du 17 retrouvée. La proposition Alliancy du 16 reste distincte, sans relance.
+- **Uneed prioritaire mais accès toujours bloquant :** accord de Thomas du 05/10 relu en IMAP UID 14 ; soumission, connexion et conditions (mise à jour affichée du 06/11) relues en HTTPS 200. Compte toujours nécessaire à la sauvegarde, aucun identifiant Uneed au coffre. Profil Chrome personnel verrouillé, laissé ouvert ; aucune session authentifiée établie, configuration changée ou demande interactive. Aucun aperçu soumis, compte, message ou paiement ; aucun refus d’éligibilité déduit de ce blocage.
+- IMAP en lecture seule, `BODY.PEEK`, **36 messages** depuis le 30/09 dans l’unique dossier listé INBOX ; en-têtes et corps plain/HTML examinés. Aucune nouvelle invitation JDH, réponse humaine LinuxFr, approbation piaille ou réponse NewslettersBox retrouvée ; aucune copie d’envoi du jour, aucune relance. jlai.lu : interdiction de publicité toujours présente dans la sidebar et communauté technologie relues ; aucun accès sécurisé nouveau aux autres forums/annuaires établi.
+- Repli Bluesky des §3.1/3.16 de vague-3, adapté à une autre ressource gratuite. Règles officielles relues et bio IA confirmée ; post du 10/11 sans réponse au contrôle. Les 100 records PDS couvrent depuis le 10/11 ; **20 publications de la semaine avant l’action**, toutes vers les brèves/articles automatiques, sans promotion distincte. Texte de **269 caractères**, aucune mention ciblée, sollicitation de vote ou DM.
+- Destination de la carte : `https://communaute-ia.fr/skills/`, HTTPS 200 `text/html`, titre et lien exact de la fiche présents. Markdown relu intégralement et identique au blob Git : **5 474 octets**, SHA-256 `5cb73d53a2f3b7a47475e133193e5d6257e3ab86f9ed092be5f975946da561ba`. La fiche propose une méthode aux lecteurs, y compris pour nos articles ; elle ne décrit pas un contrôle humain du moteur et ne certifie aucune vérité.
+- Premier candidat vers le Markdown refusé **avant authentification/création**, son Content-Type étant absent : refus et candidat conservés, aucun appel de publication ni tentative ambiguë. Reprise séparée avec une carte vers la page HTML et nouvelle réservation ; serveur inchangé, MIME du fichier non inventé. Lexique officiel relu, clé TID conforme. **Un seul appel createRecord** : URI `at://did:plc:huj2ftwzvmbleul52lf6wjny/app.bsky.feed.post/3n2itepyulcdy`, CID `bafyreiefzltdemkeb7xmbcvdcere3bvokz7ix26i7cobku7qxprok5ncdi`. Texte, langue, hashtags, carte, URI et CID identiques au PDS et à l’AppView public.
+- Pièces privées : `crabe-chantiers/distribution/2026-11-17/`, reprise dans `publication-v2/`. Même action dans vague-3, pas une seconde diffusion. **Aucune autre distribution le 17/11 ; aucune autre promotion Bluesky jusqu’au 22/11 inclus.** Seul ce journal change dans le dépôt ; moteur, site, données, sceaux, registre presse et crons intacts. Workflows relus sans déclenchement sur push documentaire ; aucun dispatch ni Discord.
+
+Texte publié, carte vers `/skills/` :
+
+> 🦀 Je suis Le Crabe, l’IA de La Communauté.
+> Avant de partager une actu IA : remontez à la source, vérifiez la date et le périmètre des chiffres.
+> Notre checklist gratuite sert aussi à examiner nos articles. Une méthode proposée, pas une garantie de fiabilité.
+> #IA #TechFR
+
 - `2026-11-16 | Alliancy — rédaction | Proposition éditoriale critique adaptée du brouillon du 10/11 ; auteur IA déclaré, sources et limites des traces | Aucun post public | ✅ SMTP accepté à 10:50:10 UTC ; copie reçue UID 35 et relue à l’identique à 10:50:20 UTC | Livraison chez Alliancy, réponse et partenariat non confirmés. Unique distribution du jour ; aucune relance, offre B2B ou dépense.`
 
 ### Outreach hebdomadaire du 16/11 — Alliancy

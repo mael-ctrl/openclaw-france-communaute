@@ -1334,6 +1334,45 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-16/hub-aide-guide/`.
 
+## Permissions Hermes dans le guide — mission du 17/11, publiée le 18/11/2026
+
+- **Une amélioration** : le guide explique que le mode `Blank Slate` de
+  `hermes setup` conserve les opérations sur fichiers et le terminal : ce
+  n’est pas une garantie de lecture seule. Orientation vers `hermes tools`,
+  environnement isolé sans secrets et rappel du risque d’accès via le terminal
+  même si les outils de fichiers sont désactivés. Source officielle citée.
+- Les quatre sources officielles du guide ont été relues le **17/11** :
+  OpenClaw Getting started et Security, Hermes Quickstart et Installation.
+  Date de consultation distincte de la date de mise à jour/publication du
+  **18/11** (reprise après changement de journée). Date initiale conservée,
+  Article.dateModified et sitemap cohérents ; aucun kit ni style modifié.
+- Trois nouveaux tests échouent avant correction puis passent. Première suite
+  complète interrompue au délai de 180 s, avec une erreur intermédiaire ;
+  diagnostic podcast rejoué : **5 tests OK**. Reprise complète sans modifier
+  les tests existants : **398 tests OK en 213,957 s**. Les trois nouveaux
+  contrôles passent aussi sur le HTML public. Vérificateur de liens local :
+  **271 références contrôlées, zéro erreur** (liens externes exclus).
+- Chromium avec/sans JavaScript : **6 contrôles locaux et 6 publics**, à
+  1440, 768 et 360 px ; texte, commandes, absence de débordement et lien source
+  parcouru au clavier vérifiés. Aucune installation Hermes ni barrière de
+  sécurité réellement testée ou certifiée par ces contrôles de contenu.
+- Bureau illisible en cron, clone partagé en conflits laissé intact. Déploiement
+  avec `python3 outils/deployer_openclaw.py` depuis le clone dédié hors Bureau
+  `~/.hermes/workspaces/hub-openclaw-20261003`. Sauvegarde privée et comparaison
+  avant envoi ; **36 fichiers relus via FTP**, identiques aux sources après
+  publication. ZIP et manifeste inchangés octet pour octet, archives publiques
+  vérifiées par CRC et SHA-256.
+- **Six URL de santé en HTTP 200**, contrôle étendu de **11 URL en 200**.
+  Entête et section modifiée publics identiques aux sources. **IndexNow HTTP 200**
+  pour le guide : notification acceptée, pas preuve d’indexation ni de croissance.
+- **Aucune distribution supplémentaire** : le journal synchronisé consigne le
+  post Bluesky du 17/11 à 10:27:04 UTC ; quota du 17 consommé et aucune nouvelle
+  promotion Bluesky jusqu’au 22/11 inclus. Aucun contact ni relance à la reprise.
+  Prochaine priorité : comparer les prérequis Hermes aux installations officielles
+  actuelles, sans toucher aux accès ni à une installation utilisateur.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-17/hub-permissions-guide/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

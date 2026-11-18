@@ -919,6 +919,7 @@ def construire():
         "breves": ("Options -Indexes\n"
                    f"RedirectMatch 301 ^/breves/?$ {config.URL_SITE}/actus/\n"),
         "actus/page": "Options -Indexes\n",
+        "veille": "Options -Indexes\n",
     }
     for repertoire, contenu in regles_archives.items():
         regle = couvertures.verifier_chemin(sortie / repertoire / ".htaccess")

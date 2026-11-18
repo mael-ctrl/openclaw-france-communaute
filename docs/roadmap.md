@@ -29,6 +29,14 @@
 
 ---
 
+## Chantier site du 18 novembre — listing de veille
+
+**Une seule amélioration, reliquat SEO #5 : fermer `/veille/` tout en conservant l'export OPML public.** Défaut recontrôlé (listing 200, règle absente en SFTP), réemploi du générateur natif de règles ; aucun ajout de dépendance ni de contenu. Les autres priorités déjà livrées ne sont pas refaites. [Contrat et preuves](veille-autoindex.md).
+
+Base initiale `cfbef28` : **396 tests Python + huit Node**, rouge/vert, deux builds isolés à horloge commune : **5 231 sorties identiques**, seule règle ajoutée, **627 données préservées**. Essai sans rédaction réussi, collecte partiellement en erreur. **Publication et HTTPS après livraison encore à confirmer au commit initial.** `/__ovh_icons/` et P9 restent ouverts ; aucun cron ni fusion des données du clone partagé divergent.
+
+**Continuité du 17 :** descendant `44081967086` terminé annulé pendant pipeline, sauvegarde ignorée ; pas de clôture cloud attribuée au vérificateur de liens déjà poussé. Les recettes locales de cet outil ne sont pas réintégrées aujourd'hui.
+
 ## Chantier site du 17 novembre — vérification locale des liens
 
 **Une seule intégration : CLI hors ligne de contrôle des liens/ancres du média complet**, premier candidat intégrable du relais du 17, périmètre qualité SEO #15. Les couvertures, dates étayées, archives et cache déjà livrés ne sont pas refaits ; les autres reliquats ne sont pas déclarés clos. Aucun changement visuel ni branchement implicite au déploiement. [Mode d'emploi](../outils/README-liens.md), [recette et preuves](liens-hors-ligne.md).

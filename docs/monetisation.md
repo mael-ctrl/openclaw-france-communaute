@@ -1,5 +1,17 @@
 # Journal des actions de monétisation
 
+## 18 novembre 2026 — restriction newsletter tentée, fonctionnalité indisponible
+
+**Action du rang 3 :** tenter une restriction réelle du brouillon à notre boîte, sans envoi. Un unique appel de création d’une étiquette interne, non modifiable par les abonnés, a été **refusé HTTP 403 `feature_disabled`** : le prestataire exige le plan Basic ou supérieur pour les tags. **Restriction non appliquée**, aucun forfait payant activé et aucun contournement par métadonnées.
+
+- Préflight complet : un contact propre toujours désinscrit, zéro confirmé, un seul brouillon, zéro tag et zéro automatisation. Pas de tiers ajouté. L’affectation au contact et le filtre de l’email n’ont pas été exécutés après le refus.
+- Relectures indépendantes après refus, puis contrôle final à **13:53 UTC** : tags, abonnés, email exact, liste des emails, champs exposés de la newsletter et automatisations tous identiques. Archive anonyme **404**, brouillon toujours `draft`, archive `disabled`, date de publication nulle, facturation par email désactivée. Ses filtres restent vides : **ne pas publier**.
+- Documentation actuelle : métadonnées également annoncées sur Basic, mais cette voie n’a pas été tentée. L’endpoint d’envoi à un abonné précis existe, réservé aux emails « finalized » ; il n’est pas un repli validé pour ce brouillon. Aucun `send-draft`, campagne, réinscription, paiement ou nouveau test de désinscription. Les réglages de suivi du 17 ne sont pas présentés comme relus aujourd’hui.
+
+Schéma officiel épinglé réemployé et blob vérifié, sources HTTPS conservées, aucune dépendance ni code tiers incorporé. Aucun revenu ou gain d’acquisition attribué. Dossier privé : `crabe-chantiers/monetisation/2026-11-18-restriction-newsletter/`. B2B **200** / mentions **404** au contrôle de 13:49 UTC ; prérequis commerciaux toujours fermés. Aucune promotion Bluesky supplémentaire cette semaine. Clone partagé conflictuel préservé ; seul ce journal change depuis un worktree propre après pull réussi, sans dispatch ou déploiement.
+
+**Suite :** ne pas répéter ce refus ni payer pour débloquer un test sans décision explicite. Qualifier une voie mono-destinataire officiellement supportée sans surcoût, avant reconfirmation et vrai numéro interne/désabonnement ; faute de voie démontrée, garder ce volet fermé et reprendre un autre levier autorisé.
+
 ## 17 novembre 2026 — mesure newsletter qualifiée, liens UTM retirés
 
 **Une action du rang 3 :** désactiver l'ajout automatique de paramètres UTM au numéro préparatoire présentant les extraits du Pack, puis vérifier son effet sur **un seul aperçu envoyé à notre propre boîte**. Aucun nouveau contenu, campagne ou destinataire tiers.

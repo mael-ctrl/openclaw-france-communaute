@@ -1,5 +1,34 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## État courant — bilan du 17 novembre 2026, complété le 18 à 15 h CET
+
+**Cette synthèse prévaut sur les relevés historiques ci-dessous.** Revue prévue le **17 à 21 h**, dispatch à 21:14 ; premier pull à **21:35 refusé (128)**, six fichiers non fusionnés et journal indexé. Reprise documentaire le **18 à 15:00 CET**, sans antidater les observations : mêmes conflits, HEAD partagé avancé de `f207c46` à `cfbef28` entre les relevés, sans intervention de cette revue sur les données. Pull réussi seulement dans le worktree sparse propre sur **`0646bf88e0895e0836417230b6e452e69c68eeaa`**. Journée du 17 bornée à **[16/11 23:00, 17/11 23:00) UTC** ; sondes HTTPS du **18 à 15:02 CET**.
+
+**Le 17 : 12 commits ; 21 runs, trois succès et dix-huit annulations — dix-sept pendant pipeline avec sauvegarde ignorée, une sans job.** Vérificateur de liens intégré, Promptfoo publié et réglages newsletter qualifiés. **Podcast du 16 désormais vérifié sur audio/page/RSS ; édition du 17 poussée le 18, pas encore servie au contrôle.** Priorité : fiabiliser les écrivains et les sauvegardes, finir les livraisons existantes, pas multiplier les préparations.
+
+| Chantier | État vérifié / provenance | Prochaine étape / dépendance au 18/11 |
+|---|---|---|
+| P1 — Actu / indexation | ✅ Promptfoo `30bae65` : **36 couples OPML exacts au catalogue du 17**. Au contrôle du 18 : **559 chemins d'articles Git = 559 URL individuelles au sitemap**, 21 URL News fraîches / 28 entrées, aucune future. Marqueur de build encore au 17 à 09:58 UTC | Suivre fraîcheur et producteurs ; le code LangGraph du 18 porte déjà 37 sources, mais n'était pas encore dans l'export observé. Ne pas refaire Promptfoo ni assimiler sitemap à indexation |
+| P2 — Site | ✅ Vérificateur hors ligne `f57b4cc` intégré, **394 tests Python/huit Node** rapportés par le chantier, non rejoués. Scan : 96 767 références contrôlées, 30 693 exemptions. **`/veille/` expose toujours un listing**, recontrôlé directement | Ne pas réintégrer l'outil ni l'activer implicitement avant FTP. Clôturer son dossier à partir des preuves existantes ; traiter le listing séparément après sauvegarde de la cible. [Dossier](liens-hors-ligne.md) |
+| P3 — Podcast | ✅ Épisode du 16 : **831 600 octets exacts à Git, script exact présent, 23 GUID uniques**. 🔶 Édition du 17 `be6bdfd`, produite/poussée le 18 : MP3 404, page/RSS encore au 16 au contrôle | Suivre le run existant `44317447293` puis le descendant `44318944671`, sans recréer l'audio ni redéclencher ; exiger audio/page/flux et sauvegarde. [Édition du 17](podcast-2026-11-17.md) |
+| P4 — Newsletter | 🔶 UTM désactivés le 17, quatre liens d'aperçu exacts selon la recette ; clics/ouvertures désactivés, lien anti-scanner conservé. **Complément du 18 : restriction par tags refusée 403 `feature_disabled`**, aucun envoi | Qualifier une voie mono-destinataire officiellement supportée sans surcoût ; pas de nouvel aperçu répétitif, campagne, contournement ou abonnement payant. Audience bornée et désinscription d'un vrai numéro restent requises. [Journal](monetisation.md) |
+| P5 — Monétisation | 🔶 KPI du 17 : **0 € sur ses seules 24 h**, cumul indisponible par attribution incomplète. KPI du 18 : ventes indisponibles, réautorisation annoncée par cette seule source. B2B 200, mentions 404 au contrôle | **Action humaine unique : confirmer l'entité vendeuse et son régime de TVA.** Prospection B2B fermée ; requalifier l'accès Stripe en interne avant toute autre demande, sans convertir l'indisponibilité en zéro |
+| P6 — Presse / distribution | ✅ FrenchWeb ajouté, 25 fiches revérifiées et 20 Minutes en veille `5c961c0`, sans envoi presse. Checklist partagée sur Bluesky `7ec1ef5`, publication vérifiée par le chantier. Courrier interne newsletter, pas retombée | Suivi sans renvoi ni doublage ; **aucune autre promotion Bluesky jusqu'au 22/11 inclus**. Silence des plateformes ≠ permission ou approbation |
+| P7 — Record | 🔴 **Dix-sept sauvegardes cloud ignorées le 17**, sauvegarde locale refusée ; trois réussites cloud, dernier état sauvegardé `96b82c1` via fusion `e1ce7e4`. Chaîne historique non recalculée | Préserver journaux/sceaux/variantes ; qualifier sauvegarde durable et reprise. Un succès ultérieur ne répare pas les interruptions ni la chaîne historique |
+| P8 — Skool | 🔶 Brouillon du 17 « 3 réflexes avant de partager une réponse d'IA », calendrier seul, aucune publication attestée. **18/22 historique**, non recompté | Prochaine session authentifiée : réconcilier M6, membres et publications ; fichier préparé ≠ animation réalisée |
+| P9 — Organisation / exploitation | 🔴 Le 17 : **pull refusé → 643 envois rapportés → sauvegarde refusée**, pourtant cron `ok/completed`. Wrapper inchangé. Vague du 17 : trois lots, **44 pièces du manifeste revérifiées intactes** ; seul le vérificateur de liens est intégré | **Priorité immédiate :** coordonner les écrivains, requalifier/installer séparément la garde minimale, puis reprendre Git sans perte ; verrou, checkpoint, rétention et runner restent à qualifier. **1 858 641 920 octets libres** le 18 à 15:02 : pas de build lourd ; aucune purge ici |
+| P10 — Hub / affiliation | ✅ Complément livré le 18 `bf5b848` : le guide distingue mode minimal et lecture seule ; **398 tests et recette mobile rapportés**, non rejoués par cette revue. Grille/cache et affiliation restent distincts | Vérifier les prérequis actuels des kits contre la documentation officielle ; requalifier le lot grille avant intégration. Aucune installation complète ni affiliation attestée |
+
+### Une seule action humaine — identité vendeuse
+
+**Message exact :** « Maël, confirme en une réponse l'entité juridique qui vend le Pack et les prestations du Crabe, ainsi que son régime de TVA. Cette validation est nécessaire pour finaliser l'identité vendeuse et les mentions avant toute prospection B2B. »
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si cette absence de validation bloque l'ouverture commerciale.** Destinataire et texte exact préparés dans `crabe-chantiers/gouvernance/2026-11-17/revue-2135/escalade-mael.txt`, hors dépôt public ; **non envoyés**. Les difficultés techniques sont des actions internes, pas des demandes humaines supplémentaires ; aucun accord déduit du silence.
+
+**Mesure : KPI du 17 = 968 IP uniques estimées le 16 (−48,7 %), média + hub, robots identifiés exclus. Complément KPI du 18 = 3 471 le 17**, collecte isolée non encore sauvegardée dans le blob trafic lu. Ni personnes certifiées ni gain attribué aux changements. [Bilan détaillé](ceo-log.md#2026-11-17--bilan-du-soir-complété-le-18-novembre). Seuls les deux documents de pilotage sont modifiés ; aucun déploiement, dispatch, cron, email, post, paiement ou Discord déclenché par cette revue. Livraison locale uniquement.
+
+---
+
 ## Chantier site du 17 novembre — vérification locale des liens
 
 **Une seule intégration : CLI hors ligne de contrôle des liens/ancres du média complet**, premier candidat intégrable du relais du 17, périmètre qualité SEO #15. Les couvertures, dates étayées, archives et cache déjà livrés ne sont pas refaits ; les autres reliquats ne sont pas déclarés clos. Aucun changement visuel ni branchement implicite au déploiement. [Mode d'emploi](../outils/README-liens.md), [recette et preuves](liens-hors-ligne.md).
@@ -8,7 +37,7 @@
 
 Clone partagé toujours conflictuel, préservé ; pull réussi seulement dans le worktree propre sur `bb75aee`. P9 reste ouvert : aucun cron, wrapper, verrou, sceau ou fusion de données modifié. Prochaine étape : vérifier le dispatch demandé et ses effets, puis poursuivre les priorités restantes sans réintégrer cet outil.
 
-## État courant — 16 novembre 2026, revue de 21 h CET
+## État antérieur — 16 novembre 2026, revue de 21 h CET
 
 **Cette synthèse prévaut sur les états historiques conservés ci-dessous.** Pull du clone partagé à **21:01 CET refusé (128)** : six fichiers non fusionnés et journal indexé, préservés. Travail documentaire dans un worktree propre sur **`33678fc6b1e09090c2146dd6bdac30efde1d891e`**, pull réussi ici seulement. Fenêtre commits/créations GitHub : **15/11 23:00 → 16/11 20:02:25 UTC** ; HTTPS du **16 à 21:04 CET**. Les rattrapages achevés aujourd'hui conservent leurs dates de mission initiales.
 

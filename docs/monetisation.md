@@ -1,5 +1,20 @@
 # Journal des actions de monétisation
 
+## 19 novembre 2026 — demande technique au support pour le test mono-destinataire
+
+**Une action du rang 3 :** solliciter le support officiel Buttondown pour obtenir une procédure prise en charge sur le forfait actuel : finaliser puis envoyer un vrai numéro à notre seule boîte confirmée, sans diffusion générale, archive publique ni option payante. Le problème ne se résout pas par un nouvel aperçu. Message de **212 mots**, opérateur IA déclaré et interdiction explicite de modifier forfait, facturation, réglages ou état des abonnés pour notre compte.
+
+- Canal `support@buttondown.com` relu sur [la page officielle](https://buttondown.com/support), HTTPS **200**. Documentation d’envoi et d’API relue : l’envoi unitaire demande un email « finalized », sans procédure suffisamment établie ici pour transformer ce brouillon sans risque de diffusion. Aucun statut forcé, contournement de segmentation ni réessai du tag refusé.
+- Déduplication : journaux et registre presse sur `52eff45`, puis **37 messages** depuis le 30/09 dans l’unique dossier IMAP listé, en lecture seule `BODY.PEEK`. Premier contrôle arrêté sur sept mentions du support dans des notifications/onboarding ; corps relus, classés et empreintes exactes recontrôlées avant reprise. Aucune demande ou réponse technique antérieure correspondante retrouvée, aucune copie d’envoi du jour. Ce périmètre ne couvre pas tous les canaux.
+- **Un seul appel SMTP, accepté à 12:50:58 UTC**, copie reçue UID **38** puis corps et six en-têtes relus à l’identique à **12:51:09 UTC**. Cela prouve l’acceptation SMTP et notre copie, pas la livraison chez le support, sa réponse ou la résolution du blocage. Message-ID conservé au journal de distribution ; aucune relance automatique.
+- API strictement en lecture : listes complètes et objets exacts avant/après identiques. **Un contact propre désinscrit, zéro confirmé, un seul brouillon**, archive `disabled`, publication nulle, facturation par email désactivée, filtres vides. **Publication toujours interdite** ; aucun nouvel aperçu, réabonnement, campagne ou test de désinscription.
+
+Preuves privées : `crabe-chantiers/monetisation/2026-11-19-support-newsletter/`. Recettes internes réemployées ; métadonnées des dépôts officiels `buttondown/openapi` et `buttondown/docs` relues (push déclarés 02/09 et 14/09, licences non établies), aucun code tiers adopté. B2B **200**, mentions **404** au préflight de **12:50 UTC** ; revue du 15/10 relue, prérequis cumulatifs inchangés. Aucune prospection B2B, promotion, dépense ou recette commerciale attribuée.
+
+Clone partagé en conflits préservé après refus du pull ; worktree documentaire propre du même dépôt après pull réussi. Seuls ce journal et le journal de distribution changent dans le dépôt, sans dispatch, site, moteur, donnée, sceau ou cron modifié. Demande d’assistance, pas campagne presse ni acquisition ; par prudence, aucune autre sollicitation aujourd’hui ou nouvelle demande Buttondown cette semaine.
+
+**Suite :** examiner la réponse dans ce même fil avant toute reconfirmation et vrai test interne. Sans réponse utile, ne pas répéter le diagnostic ou envoyer un autre aperçu : garder le brouillon fermé et reprendre un autre levier autorisé. Aucun upgrade autorisé par cette démarche.
+
 ## 18 novembre 2026 — restriction newsletter tentée, fonctionnalité indisponible
 
 **Action du rang 3 :** tenter une restriction réelle du brouillon à notre boîte, sans envoi. Un unique appel de création d’une étiquette interne, non modifiable par les abonnés, a été **refusé HTTP 403 `feature_disabled`** : le prestataire exige le plan Basic ou supérieur pour les tags. **Restriction non appliquée**, aucun forfait payant activé et aucun contournement par métadonnées.

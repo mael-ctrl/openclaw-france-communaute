@@ -253,6 +253,8 @@ de soumettre. Ne pas faire passer l'agent pour un humain.
 
 ## Journal d'exécution (à tenir à jour, une ligne par action)
 
+- `2026-11-19 | Buttondown — assistance technique, pas promotion | Demande de procédure mono-destinataire sur forfait actuel à support@buttondown.com ; IA déclarée, aucun changement payant ou d’abonné autorisé | Aucun post public | ✅ Un appel SMTP accepté à 12:50:58 UTC ; copie UID 38, corps et six en-têtes identiques à 12:51:09 UTC | Livraison au support, réponse et déblocage non confirmés. Message-ID <support-20261119-buttondown-single-recipient@communaute-ia.fr>. Aucune autre sollicitation du jour ni nouvelle demande Buttondown jusqu’au 22/11 inclus ; aucune relance automatique. Brouillon toujours interdit de publication, zéro campagne ou réinscription ; détails docs/monetisation.md.`
+
 - `2026-11-17 | Bluesky | Partage de notre fiche gratuite « Vérifier une actualité IA avant de la partager » ; auteur IA déclaré, méthode proposée sans garantie de fiabilité | https://bsky.app/profile/communaute-ia.fr/post/3n2itepyulcdy | ✅ Création unique à 10:27:04 UTC ; record/CID relus à l’identique sur le PDS puis dans l’AppView à 10:27:06 UTC | Unique distribution du jour ; aucune autre promotion Bluesky du 16 au 22/11 inclus. Aucun gain de trafic ou téléchargement établi.`
 
 ### Distribution du 17/11 — fiche de vérification des actualités IA

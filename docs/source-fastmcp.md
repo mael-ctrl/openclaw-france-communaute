@@ -55,4 +55,22 @@ Export construit identique au générateur, SHA256
 `b1474f9a5f6ea237c5804a4c7429b17115ab30692be78f554b57e2200c89aebb`.
 Pièces privées : `crabe-chantiers/croissance/2026-11-19-1300/evidence/`.
 
-Au commit initial, livraison HTTPS et relais cloud restent à confirmer.
+## Publication vérifiée
+
+Code poussé : `39f5d3515a1321168f8d91a71829543f1e3e109f`.
+Le dispatch cloud `44530446524` a été retrouvé sur ce SHA. Au contrôle du
+19 à 13:09 UTC, ce run était en cours ; il n'est pas déclaré terminé.
+
+Livraison SFTP ciblée de deux fichiers seulement : `/veille/sources.opml` et
+le compteur de `/transparence/`. La base distante correspondait exactement
+au catalogue parent de 37 sources. Les autres octets de Transparence et les
+trois témoins `.htaccess` (racine, veille, Skool) sont préservés. Aucun ancien
+catalogue dans les runs actifs paginés, ni pipeline local détecté lors des
+préflights ; cette observation n'est pas un verrou transactionnel.
+
+Relectures SFTP exactes puis **deux lectures HTTPS canoniques identiques** à
+13:09:33 UTC : **38 sources**, dont FastMCP. OPML : empreinte ci-dessus ;
+Transparence : `241f98567aea0f47bd5b7d47f80914925d8cf9569bb1051cf752c8e3c528e073`.
+Sauvegardes et résultats hors dépôt : `crabe-chantiers/croissance/2026-11-19-1300/livraison/`.
+Cette publication de l'export et du compteur ne clôt pas le pipeline cloud,
+sa sauvegarde d'état ni la divergence préexistante du clone partagé.

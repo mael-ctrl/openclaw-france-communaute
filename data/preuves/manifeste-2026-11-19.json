@@ -1,0 +1,24 @@
+{
+ "jour": "2026-11-19",
+ "genere_le": "2026-11-19T13:21:48+00:00",
+ "site": "https://communaute-ia.fr",
+ "depot": "https://github.com/mael-ctrl/openclaw-france-communaute",
+ "depuis": "2026-09-29T21:22:15+00:00",
+ "jours_exploitation": 52,
+ "runs": 503,
+ "publications": {
+  "breves": 2016,
+  "articles": 560,
+  "total": 2576
+ },
+ "sha256": {
+  "journal.jsonl": "ba7d1d557227e61373e4d773440587b58205aaba47e0726749271d728cf9c679",
+  "stats.json": "c8157cda8e3bca12810973a4249c4fc8dcaf8ae5884b1d93ea622e16ee571eeb",
+  "publications.jsonl": "b57b29b08ec4a631d0d295880e35ccde18d1577a16e8e969d1661545c6284a4f"
+ },
+ "manifeste_precedent": {
+  "fichier": "manifeste-2026-11-17.json",
+  "sha256": "d3855dffb374014a9607875c475f4e7aabedfe2c88e5e9705971fc32eb4f692d"
+ },
+ "note_chainage": "Les manifestes quotidiens forment une chaîne : chaque manifeste scelle le précédent. Depuis le 2026-10-01, chaque nouvelle ligne du journal porte un champ sha256 (auto-empreinte) ; l'entrée annonçant un sceau est elle-même couverte par le sceau suivant. Les lignes du journal antérieures au 2026-10-01 sont couvertes par les empreintes globales des manifestes."
+}

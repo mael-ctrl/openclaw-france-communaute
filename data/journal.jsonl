@@ -4137,3 +4137,8 @@
 {"ts": "2026-11-17T10:38:31+00:00", "evenement": "archivage", "details": {"wayback": 429, "tentative": 3}, "sha256": "5b6d2b7cfe56e6359e73336556d6264ce6641928d8da9a85ce8afed38457fbf1"}
 {"ts": "2026-11-17T10:38:41+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "bb89bec3a38cf9dc2322e4193c9ce4f98d829f0327fa6daaa9c1e8f898d5e063"}
 {"ts": "2026-11-17T10:38:41+00:00", "evenement": "bilan", "details": {"duree_s": 2494.5, "neufs": 40, "breves": 6, "articles": 1, "fichiers": 2610, "envois": 2668, "publications": 4}, "sha256": "021df0e98c4040536100a473fa8abfe04f25be33e054aac24183a97b7c49e54b"}
+{"ts": "2026-11-19T13:11:01+00:00", "evenement": "collecte", "details": {"neufs": 40}, "sha256": "67112ad5628306151233f6650ef5de86db95afbca9b9b11d0ce67d72ac66d91e"}
+{"ts": "2026-11-19T13:12:10+00:00", "evenement": "construction", "details": {"fichiers": 2617}, "sha256": "0def4de755faffd935edc54c366a6e5edc69c57b150b2f486e77717230d8828e"}
+{"ts": "2026-11-19T13:21:48+00:00", "evenement": "erreur", "details": {"message": "déploiement : [Errno 110] Connection timed out"}, "sha256": "e76ef3897984e2978712ea6a32e8636748778626f9a62141a03b7a905c2033eb"}
+{"ts": "2026-11-19T13:21:48+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-11-19.json", "publications": 2576}, "sha256": "d4dce515edbd61d21a647217fec432794384036bf3983b5bc586219df6430471"}
+{"ts": "2026-11-19T13:21:48+00:00", "evenement": "bilan", "details": {"duree_s": 669.2, "neufs": 40, "breves": 6, "articles": 1, "fichiers": 2617, "deploiement": "echec"}, "sha256": "aed4a2595472da6a62b0f6b504cc237444cf075eb3a983f534d3c82255f0a0eb"}

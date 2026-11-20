@@ -224,6 +224,7 @@ footer{margin-top:40px;border-top:1px solid var(--carte-bord);background:rgba(0,
 }
 
 @media (max-width:760px){
+  .grille-2{grid-template-columns:minmax(0,1fr)}
   .pied{grid-template-columns:1fr 1fr}
   .heros{padding-top:48px}
 }

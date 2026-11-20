@@ -2,6 +2,7 @@
 from html.parser import HTMLParser
 from pathlib import Path
 import re
+import hashlib
 import unittest
 
 SITE = Path(__file__).resolve().parents[1] / "sites" / "openclaw-france"
@@ -35,7 +36,8 @@ class HubIntegrityCommandTest(unittest.TestCase):
             blocks = [c for c in CodeBlocks(section).codes
                       if "commande" in c["attrs"].get("class", "").split()]
             self.assertEqual([c["text"] for c in blocks], commands(kit))
-            self.assertIn("/static/style.css?v=20261111-commandes", html)
+            version = "sha256-" + hashlib.sha256((SITE / "static/style.css").read_bytes()).hexdigest()
+            self.assertIn(f"/static/style.css?v={version}", html)
 
     def test_commandes_exactes_sans_caractere_ajoute(self):
         for kit in ("openclaw", "hermes"):

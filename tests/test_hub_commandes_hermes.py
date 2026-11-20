@@ -2,6 +2,7 @@
 from html.parser import HTMLParser
 from pathlib import Path
 import re
+import hashlib
 import unittest
 
 SITE = Path(__file__).resolve().parents[1] / "sites" / "openclaw-france"
@@ -35,7 +36,8 @@ class HubCommandesHermesTest(unittest.TestCase):
     def test_cinq_commandes_distinctes_reutilisent_le_style_mobile(self):
         blocks = [c for c in self.codes if "commande" in c["attrs"].get("class", "").split()]
         self.assertEqual([c["text"] for c in blocks], COMMANDES)
-        self.assertIn("/static/style.css?v=20261111-commandes", self.html)
+        version = "sha256-" + hashlib.sha256((SITE / "static/style.css").read_bytes()).hexdigest()
+        self.assertIn(f"/static/style.css?v={version}", self.html)
         self.assertRegex((SITE / "static/style.css").read_text(), r"code\.commande\s*\{")
 
     def test_texte_exact_et_references_non_executables_en_ligne(self):

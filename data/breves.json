@@ -1,5 +1,130 @@
 [
  {
+  "id": "db319546be3e3511",
+  "slug": "codex-openai-publie-une-preversion-0-173-0-alpha-1-db3195",
+  "titre": "Codex : OpenAI publie une préversion 0.173.0-alpha.1",
+  "resume": "OpenAI a mis en ligne la version 0.173.0-alpha.1 de Codex sur GitHub, datée du 20 novembre 2026. C'est une préversion : la note de publication se limite au numéro de build, sans détail sur les changements. Aucune information sur le contenu de cette alpha n'est donc disponible à ce stade.",
+  "tags": [
+   "openai",
+   "dev"
+  ],
+  "importance": 2,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.1",
+  "date_source": "2026-11-20T02:54:54+00:00",
+  "date_redac": "2026-11-20T03:09:48+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 602,
+   "sortie": 1170
+  }
+ },
+ {
+  "id": "7d39150d5214b841",
+  "slug": "token-fraud-les-essais-gratuits-de-chatprd-detournes-a-grande-echelle-7d3915",
+  "titre": "Token fraud : les essais gratuits de ChatPRD détournés à grande échelle",
+  "resume": "Claire Vo dirige ChatPRD, une plateforme IA qui aide les chefs de produit à passer d'une idée à une spec. Sur YouTube, elle documente l'afflux de « token fraud » : des groupes abusent de l'essai gratuit, parfois pour de l'IA gratuite, souvent pour revendre des tokens ou faire tourner des activités commerciales sur son agent. Un studio de cartes Roblox et Fortnite enchaîne ainsi essais gratuits et codes promo.",
+  "tags": [
+   "agents",
+   "business",
+   "sécurité"
+  ],
+  "importance": 3,
+  "source": "Simon Willison",
+  "lien_source": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+  "date_source": "2026-11-20T02:49:57+00:00",
+  "date_redac": "2026-11-20T03:09:55+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 785,
+   "sortie": 1226
+  }
+ },
+ {
+  "id": "66ce15b1392fbced",
+  "slug": "gemini-cli-nightly-une-heatmap-de-tokens-via-stats-et-des-correctifs-66ce15",
+  "titre": "Gemini CLI nightly : une heatmap de tokens via /stats et des correctifs",
+  "resume": "Publiée en nightly, la version 0.71.0 de Gemini CLI ajoute une sous-commande /stats avec une heatmap de l'usage quotidien de tokens. Elle corrige aussi la préservation des caractères $ littéraux dans les templates et les collisions avec la variable d'environnement GCLI_EXPAND_TARGET. Les références @file conservent leurs espaces en début et fin, et les faux positifs de substitution sous PowerShell sont traités.",
+  "tags": [
+   "gemini",
+   "dev",
+   "open-source"
+  ],
+  "importance": 2,
+  "source": "Gemini CLI (releases, préversions incluses)",
+  "lien_source": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261120.gd4cb1713f",
+  "date_source": "2026-11-20T01:12:42+00:00",
+  "date_redac": "2026-11-20T03:10:00+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 879,
+   "sortie": 921
+  }
+ },
+ {
+  "id": "1aecc81d54e857fe",
+  "slug": "langgraph-1-2-24-corrige-les-messages-supprimes-et-les-checkpoints-vid-1aecc8",
+  "titre": "LangGraph 1.2.24 corrige les messages supprimés et les checkpoints vides",
+  "resume": "Le paquet langgraph passe en version 1.2.24. Cette version corrective prend en charge REMOVE_ALL_MESSAGES dans le réducteur _messages_delta_reducer, et gère désormais les checkpoints à None dans DeltaChannel. Deux cas limites qui concernent la gestion des messages supprimés et des états vides.",
+  "tags": [
+   "dev",
+   "open-source",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "LangGraph (releases, préversions incluses)",
+  "lien_source": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.24",
+  "date_source": "2026-11-20T01:10:26+00:00",
+  "date_redac": "2026-11-20T03:10:05+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 641,
+   "sortie": 604
+  }
+ },
+ {
+  "id": "f7a206a35da091bd",
+  "slug": "la-gouvernance-des-agents-ia-commence-par-l-observabilite-f7a206",
+  "titre": "La gouvernance des agents IA commence par l'observabilité",
+  "resume": "LangChain publie un billet de blog au titre sans détour : la gouvernance des agents IA commence par l'observabilité. L'éditeur y défend qu'une stratégie solide de gouvernance des agents repose d'abord sur la capacité à observer leur comportement.",
+  "tags": [
+   "agents",
+   "dev",
+   "business"
+  ],
+  "importance": 2,
+  "source": "LangChain (blog officiel)",
+  "lien_source": "https://www.langchain.com/blog/agent-governance-observability",
+  "date_source": "2026-11-20T00:57:43+00:00",
+  "date_redac": "2026-11-20T03:10:11+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 583,
+   "sortie": 719
+  }
+ },
+ {
+  "id": "6d165a6b07a38ea1",
+  "slug": "apple-travaillerait-sur-un-agent-ia-capable-de-piloter-votre-mac-6d165a",
+  "titre": "Apple travaillerait sur un agent IA capable de piloter votre Mac",
+  "resume": "Selon TechCrunch, Apple travaillerait sur son propre agent IA, capable de faire tourner et de piloter un Mac. Le constructeur semblerait développer des agents destinés à concurrence Meta Muse, Instinct, Claude et OpenAI Dots. L'information compte : elle place Apple dans la course aux agents, face aux grands laboratoires américains.",
+  "tags": [
+   "agents",
+   "matériel",
+   "business"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+  "date_source": "2026-11-20T00:56:01+00:00",
+  "date_redac": "2026-11-20T03:10:15+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 626,
+   "sortie": 517
+  }
+ },
+ {
   "id": "5dd75795a098f868",
   "slug": "anthropic-entre-en-bourse-avec-une-operation-de-81-34-milliards-de-dol-5dd757",
   "titre": "Anthropic entre en Bourse avec une opération de 81,34 milliards de dollars",

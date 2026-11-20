@@ -4142,3 +4142,11 @@
 {"ts": "2026-11-19T13:21:48+00:00", "evenement": "erreur", "details": {"message": "déploiement : [Errno 110] Connection timed out"}, "sha256": "e76ef3897984e2978712ea6a32e8636748778626f9a62141a03b7a905c2033eb"}
 {"ts": "2026-11-19T13:21:48+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-11-19.json", "publications": 2576}, "sha256": "d4dce515edbd61d21a647217fec432794384036bf3983b5bc586219df6430471"}
 {"ts": "2026-11-19T13:21:48+00:00", "evenement": "bilan", "details": {"duree_s": 669.2, "neufs": 40, "breves": 6, "articles": 1, "fichiers": 2617, "deploiement": "echec"}, "sha256": "aed4a2595472da6a62b0f6b504cc237444cf075eb3a983f534d3c82255f0a0eb"}
+{"ts": "2026-11-20T03:09:41+00:00", "evenement": "collecte", "details": {"neufs": 40}, "sha256": "d3d29b41e3f6ed3000af10d3c22c1139aa1ed1670937362e03aeee4322cf32ba"}
+{"ts": "2026-11-20T03:10:53+00:00", "evenement": "construction", "details": {"fichiers": 2624}, "sha256": "b2b30c8d5653c00dde7fcfe24c49d1c5fbe36b8f3285d3b1bf4417e172dfa268"}
+{"ts": "2026-11-20T03:50:55+00:00", "evenement": "deploiement", "details": {"fichiers": 2691, "octets": 116857742}, "sha256": "fba110e6932c2e574fb812913c3259f6a58cde1e475cee935e2ec005be44cd36"}
+{"ts": "2026-11-20T03:50:56+00:00", "evenement": "indexation", "details": {"indexnow": 200}, "sha256": "17ca142a0f2d79d487706966b51020c8bdcc7d7d5e45c71d459b411e6347484d"}
+{"ts": "2026-11-20T03:51:46+00:00", "evenement": "erreur", "details": {"message": "archivage wayback : The read operation timed out"}, "sha256": "6effcdd0dd0b3dee75449473618a5412c75c75e2bb9793dd270b23967e502e08"}
+{"ts": "2026-11-20T03:51:57+00:00", "evenement": "diffusion", "details": {"reseau": "bluesky", "publications": 4}, "sha256": "9f922712494927aa261c909cd68905bd79771eb1dadd7afa93a8088c56223664"}
+{"ts": "2026-11-20T03:51:57+00:00", "evenement": "preuves", "details": {"manifeste": "manifeste-2026-11-20.json", "publications": 2583}, "sha256": "c15b6157a86b2ab4bd2d89a02d82d23b2c46c014d49231756e5692c41e00b552"}
+{"ts": "2026-11-20T03:51:57+00:00", "evenement": "bilan", "details": {"duree_s": 2559.7, "neufs": 40, "breves": 6, "articles": 1, "fichiers": 2624, "envois": 2691, "publications": 4}, "sha256": "65cc52d12983f706078a2480dd3332bc43c7bddf90e461fe630441596a0281c7"}

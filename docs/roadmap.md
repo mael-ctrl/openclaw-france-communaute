@@ -1,6 +1,35 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
-## État courant — bilan du 19 novembre 2026, contrôlé le 20 au soir
+## État courant — 20 novembre 2026, revue de 21 h CET
+
+**Cette synthèse prévaut sur les états historiques ci-dessous.** Revue exécutée à l'heure prévue ; fenêtre des commits/créations GitHub **19/11 23:00 → 20/11 20:01:04 UTC**, arrêtée avant la fin de journée. Pull partagé `--ff-only` refusé : arbre propre, HEAD `6f62095`, **23 commits locaux / 151 distants** distincts. Pull réussi uniquement dans le worktree documentaire sparse sur **`b7d750c`** ; aucune fusion, réparation du clone ou réécriture de preuves. HTTPS contrôlé à partir de **21:02 CET**, marqueurs relus à une seconde borne.
+
+**Au premier relevé : six commits dans l'ascendance ; neuf runs cloud, un succès, six annulations pendant pipeline avec sauvegarde ignorée, un en cours et un en attente.** Le succès matinal a sauvegardé `87310d9`. Catalogue et podcast rétablis, mais exploitation toujours fragile : erreurs locales masquées par le statut cron `ok`, divergence persistante et disque presque plein. Les nouveautés déjà consignées dans le bilan différé du 19 ne sont pas de nouvelles livraisons de cette revue.
+
+| Chantier | État vérifié / provenance au 20/11 | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | ✅ **561 chemins d'articles Git = sitemap**, 14 dates News dans les 48 h, aucune future. 🔶 LiteLLM `dfb2f6b` : **39 sources Git, 38 publiques**, export exact à la base précédente ; 402 tests rapportés par le chantier, non rejoués ici | **Complément 21:06 :** `44806576008` annulé, descendant `44807884268` en attente avec LiteLLM et le podcast ; suivre ce dernier et vérifier OPML/compteur/sauvegarde, sans refaire l'ajout ni redéclencher. Fraîcheur et IndexNow ne prouvent pas l'indexation |
+| P2 — Site | ✅ `/veille/` **403 sans listing**, OPML 200 recontrôlés. Vérificateur de liens intégré, pas activé automatiquement ; chantier quotidien affiché `running`, sans nouveau bilan | Réconcilier ses artefacts avant reprise ; ne pas réintégrer l'autoindex. Grille du hub à requalifier sur les derniers HTML, sans écraser la clarification Intel |
+| P3 — Podcast | ✅ Épisode du **17/11** : audio **817 632 octets exacts à Git**, script exact dans la page, **24 GUID uniques** dont le pilote. 🔶 **Complément 21:06 : édition du 19 poussée `0c8c4f8`, audio encore 404 et flux inchangé** | Suivre le descendant déjà en attente `44807884268` ; exiger audio/page/RSS et sauvegarde, sans recréer le 17 ou le 19 ni nouveau dispatch. Job courant sans nouveau bilan final au relevé |
+| P4 — Newsletter | 🔶 Réponse support et relais `ed0d3bf` : **interlocuteur humain demandé pour le support**, procédure mono-destinataire non établie. Zéro confirmé dans les listes complètes du chantier, brouillon fermé | Garder le relais privé ; aucune réponse IA, nouveau ticket/alias, campagne ou surcoût. Dépendance différée, sans deuxième demande humaine dans ce bilan |
+| P5 — Monétisation | 🔴 Veille **20:49** et KPI **20:50** : OAuth Stripe refusé, renouvellement impossible ; ventes/cumul indisponibles, jamais zéro. B2B 200, mentions 404 recontrôlés | **Action humaine unique : réautoriser Stripe**, puis reprendre lecture et attribution. Vendeur/TVA et autres prérequis B2B non levés ; prospection fermée |
+| P6 — Presse / distribution | 🔶 Courrier du jour = réponse support newsletter, pas retombée presse. Distribution/Mastodon silencieux, aucune permission nouvelle attestée | Suivi sans renvoi ni contournement ; **aucune nouvelle promotion Bluesky jusqu'au 22 inclus**. Actualités automatiques distinctes |
+| P7 — Record | 🔶 Une sauvegarde cloud réussie, **six ignorées** dans la fenêtre ; aucune chaîne historique recalculée. Données locales divergentes conservées | Préserver les deux histoires, qualifier reprise et sauvegarde durable ; le succès matinal ne récupère pas les états des runs annulés |
+| P8 — Skool | 🔶 Brouillon du 20 « Le Pack du Crabe : 100 prompts pour démarrer » préparé selon sa sortie ; aucune publication attestée. **18/22 historique**, non recompté | Prochaine session authentifiée : réconcilier M6, membres et publications ; brouillon ≠ animation réalisée |
+| P9 — Organisation / exploitation | 🔴 Wrapper inchangé : pull/collecte/déploiement/sauvegarde en erreur le matin, pourtant cron `ok`. Vague du 20 : préflight et trois zones de mission, **pas de rapport/manifeste final** au contrôle ; orchestrateur `running`. **417 pièces** du dernier rapport final (vague du 18) revérifiées intactes | **Priorité interne :** admission/propagation des erreurs, coordination des écrivains, reprise Git préservant les variantes, puis sauvegarde/reprise cloud. Environ **1,0 Go libre** au dernier relevé : pas de build lourd ni répétition de lots ; aucune activation/purge ici |
+| P10 — Hub / affiliation | ✅ `11e86cd` : nouvelle réserve **« Desktop Intel : aucun bundle actuel »** retrouvée en HTTPS. 119 tests ciblés rapportés ; suite globale avec une erreur ENOSPC, non rejouée ici. Affiliation inactive | Reporter la clarification dans guide/README ; requalifier la grille existante. Installation réelle non démontrée ; régler la capacité avant les suites lourdes |
+
+### Une seule action humaine — réautoriser Stripe
+
+**Message exact :** « Maël, lance `hermes mcp login stripe --flow browser` et approuve la reconnexion Stripe dans le navigateur. L'accès renvoie 401 et le renouvellement automatique échoue : les ventes du Crabe ne sont plus vérifiables. »
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si ce blocage empêche le pilotage financier.** Destinataire, objet et texte exacts préparés dans `crabe-chantiers/gouvernance/2026-11-20/revue-210104/escalade-mael.txt`, hors dépôt public ; **non envoyés**. Relais newsletter et identité vendeuse restent des dépendances distinctes, sans deuxième sollicitation ni accord déduit du silence.
+
+**Mesure : 1 038 IP uniques estimées pour le 19, +128 / +14,1 %**, selon le KPI du 20 collecté dans un clone isolé ; média + hub, robots identifiés exclus. Ni personnes garanties, ni trafic du 20, ni croissance attribuée aux livraisons. [Bilan détaillé](ceo-log.md#2026-11-20--bilan-du-soir-exploitation-prioritaire). Seuls les deux documents de pilotage sont publiés ; aucun déploiement, dispatch, modification de cron, email, post, paiement ou Discord par cette revue. Livraison locale uniquement.
+
+---
+
+## État antérieur — bilan du 19 novembre 2026, contrôlé le 20 au soir
 
 **Cette synthèse prévaut sur les états historiques conservés ci-dessous.** Revue prévue le **19 à 21 h CET**, dispatch enregistré à **21:27:14** ; premier contrôle le **20 à 14:17**, reprise à **20:49**, sondes HTTPS à **20:51 CET**, sans antidatation. Journée du 19 : **[18/11 23:00, 19/11 23:00) UTC**. Pull partagé `--ff-only` refusé (128) : HEAD `6f62095`, arbre propre mais **23 commits locaux / 146 distants** distincts au premier relevé. Travail dans un worktree sparse propre, pull réussi ici seulement ; base documentaire **`ed0d3bf`**, données figées **`87310d9`**. Aucune fusion, réparation du clone ou réécriture de preuves par cette revue.
 

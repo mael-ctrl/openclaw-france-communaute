@@ -1,5 +1,13 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Complément podcast — 20 novembre à 20:38 UTC (21:38 CET)
+
+**P3 : édition éditoriale du 19 désormais publiée**, après la sonde intermédiaire de la revue ci-dessous. Commit `0c8c4f8`, quatre sujets, voix Amélie **115,356735 s**, **405 tests locaux** ; MP3/page/RSS exacts en HTTPS, script exact et **25 GUID uniques**. Repli SFTP limité à trois cibles, base reconnue/sauvegardée et audio auparavant absent ; pas de remplacement d'un épisode existant. [Dossier et preuves](podcast-2026-11-19.md).
+
+**P9 reste ouvert :** run précédent `44805338179` sans cet épisode, annulé à **20:32:22 UTC** après la limite officielle de **45 minutes** ; contrats réussis, pipeline interrompu, **sauvegarde ignorée**, **1 644 transferts réels** dans le groupe du pipeline. Les deux dispatches descendants annulés sans job sont distincts de cet échec. Le successeur `44809487457`, qui conserve l'épisode, a réussi ses contrats et reste en cours au contrôle : aucune clôture cloud ni réparation de la concurrence annoncée. Prochaine étape : constater son issue et sa sauvegarde, puis traiter durée/admission/reprise dans le chantier d'exploitation, sans recréer l'audio ni relancer en boucle.
+
+---
+
 ## Chantier site du 20 novembre — grille mobile du hub
 
 **Une seule intégration : relais n° 1 du dernier rapport, grille des kits de `openclaw-france.fr`.** Débordement reproduit à 320 px (document 340 px), puis corrigé sans masquage ; une règle mobile et huit clés CSS, contenus/ZIP inchangés. Premier préflight SFTP refusé sans écriture pour préserver la livraison Intel voisine ; rebase sur `b7d750c`, **409 tests Python + huit Node**, **217 contrôles navigateur / 20 parcours** et 105 comparaisons réussis. Deux builds isolés : **5 261 fichiers média identiques**, 715 fichiers données/contenus préservés. [Recette et preuves](hub-grille-mobile.md).

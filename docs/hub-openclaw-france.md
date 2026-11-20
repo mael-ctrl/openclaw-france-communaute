@@ -1373,6 +1373,42 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-17/hub-permissions-guide/`.
 
+## Réserve Mac Intel actualisée — livraison du 19/11/2026
+
+- **Une amélioration** sur `/hermes/#prerequis` : retrait de la mention devenue
+  obsolète de bundles Desktop Intel disponibles selon les releases. La matrice
+  actuelle indique qu’aucun bundle Intel n’est construit/testé et que les anciennes
+  applications Intel ne sont plus mises à jour par le flux macOS. La possibilité
+  CLI reste **à valider**, car les deux pages officielles divergent encore.
+- Sources Installation et Platform Support relues le 19/11, nouveau lien précis
+  vers les cibles distribuées. Date de consultation actualisée, date historique
+  du guide/README conservée et explicitement distinguée : leurs indications de
+  bundles sont signalées comme périmées. Aucun kit, script ou style modifié ;
+  aucune installation Hermes réellement testée ou garantie.
+- Trois nouveaux tests échouent avant correction puis passent. **119 tests hub
+  et kits OK** ; les six tests des prérequis passent aussi sur le HTML public.
+  Suite globale : **404 tests exécutés, une erreur** dans le build OPML du média
+  (`test_sources_opml`, `No space left on device`), pas une réussite complète.
+  Disque local presque plein confirmé par `df` ; aucun nettoyage hors périmètre.
+  Repli ciblé exécuté avec TMPDIR explicitement fixé au scratch Hermes.
+- Vérificateur local : **271 références contrôlées, zéro erreur** (liens externes
+  exclus). Chromium avec/sans JavaScript : **six contrôles locaux et six publics**,
+  à 1440, 768 et 360 px ; ancre, accordéon et lien source au clavier, dates,
+  styles et absence de débordement vérifiés.
+- Bureau illisible en cron ; clone partagé en conflits laissé intact. Déploiement
+  via `python3 outils/deployer_openclaw.py` depuis le clone dédié hors Bureau,
+  après sauvegarde privée et comparaison de la production. **36 fichiers relus
+  via FTP**, identiques aux sources ; ZIP et manifeste inchangés octet pour octet.
+- **Six URL de santé HTTP 200**, contrôle étendu de **11 URL en 200**, ZIP HTTPS
+  intègres et section publiée identique. Sitemap actualisé pour Hermes seulement.
+  **IndexNow HTTP 200** pour `/hermes/` : notification acceptée, pas indexation prouvée.
+- **Aucune nouvelle distribution** : journal synchronisé relu, promotion Bluesky
+  du 17/11 excluant une nouvelle promotion jusqu’au 22/11 inclus. Aucun contact
+  ni relance. Prochaine priorité éditoriale : reporter cette clarification dans
+  le guide et le README du kit ; espace disque à traiter avant une suite globale.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-19/hub-prerequis-hermes/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

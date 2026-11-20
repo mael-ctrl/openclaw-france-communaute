@@ -51,8 +51,28 @@ class HubPrerequisTest(unittest.TestCase):
         links = [attrs.get("href") for tag, attrs in self.doc.tags if tag == "a"]
         for url in (DOCS + "installation#prerequisites", DOCS + "platform-support", DOCS + "installation#windows-native", "/dl/kit-hermes/GUIDE.md"):
             self.assertIn(url, links)
-        self.assertIn('datetime="2026-10-16"', self.block)
+        self.assertIn('datetime="2026-11-19"', self.block)
         self.assertIn("indépendante", self.text)
+
+    def test_mac_intel_desktop_sans_bundle_ni_mise_a_jour(self):
+        self.assertIn("aucun bundle Desktop Intel", self.text)
+        self.assertIn("ne reçoivent pas de mise à jour", self.text)
+        self.assertNotIn("bundles Intel disponibles seulement sur certaines releases", self.text)
+        links = [attrs.get("href") for tag, attrs in self.doc.tags if tag == "a"]
+        self.assertIn(DOCS + "platform-support#build-targets-and-support-priority", links)
+
+    def test_cli_intel_non_garantie_et_source_prioritaire(self):
+        for phrase in ("ligne de commande (CLI)", "divergent", "compatibilité non garantie",
+                       "pas une garantie", "documentation officielle actuelle prévaut"):
+            self.assertIn(phrase, self.text)
+        self.assertIn("ne valide pas la compatibilité", self.text)
+
+    def test_dates_distinguent_controle_actuel_et_kit(self):
+        dates = [attrs.get("datetime") for tag, attrs in self.doc.tags if tag == "time"]
+        self.assertIn("2026-11-19", dates)
+        self.assertIn("2026-10-16", dates)
+        self.assertIn("contrôle du", self.text)
+        self.assertIn("README", self.text)
 
 
 if __name__ == "__main__":

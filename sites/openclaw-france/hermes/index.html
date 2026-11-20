@@ -106,17 +106,24 @@
     <details class="faq" open>
       <summary>Mac Intel : compatibilité non garantie</summary>
       <div class="reponse">
-        <p>Au contrôle du 16/10/2026, les pages officielles divergent : le guide d’installation
-        présente macOS Intel comme non pris en charge, tandis que la matrice des plateformes
-        décrit encore une installation CLI et des bundles Intel disponibles seulement sur certaines releases.</p>
-        <p>Les prérequis du guide et du README, consultables en ligne et dans le ZIP, reprennent cette réserve.
-        Le message du script sur Intel ne constitue pas une garantie. Vérifie ces deux sources pour ta machine
-        et ta version avant de lancer un installateur ; en cas de doute, demande confirmation au projet Hermes.</p>
+        <p><strong>Desktop Intel : aucun bundle actuel.</strong> La matrice officielle indique
+        qu’aucun bundle Desktop Intel n’est construit ni testé par les releases actuelles.
+        Les anciennes applications Desktop Intel ne reçoivent pas de mise à jour par le flux macOS,
+        désormais réservé à Apple Silicon.
+        <a href="https://hermes-agent.nousresearch.com/docs/getting-started/platform-support#build-targets-and-support-priority" rel="noopener">Détail des versions distribuées et des mises à jour →</a></p>
+        <p><strong>Installation en ligne de commande (CLI) : à valider.</strong> Les pages officielles
+        divergent encore : le guide d’installation présente macOS Intel comme non pris en charge,
+        tandis que la matrice indique une installation CLI possible. Cette indication n’est pas une garantie
+        pour ta machine ou ta version : demande confirmation au projet Hermes avant de lancer un installateur.</p>
+        <p>Les prérequis du guide et du README, en ligne et dans le ZIP, conservent le
+        contrôle du <time datetime="2026-10-16">16/10/2026</time>. Leur mention de bundles Intel
+        sur certaines releases n’est plus actuelle ; la documentation officielle actuelle prévaut.
+        Le message du script ne valide pas la compatibilité de ta machine.</p>
       </div>
     </details>
     <p>Sources : <a href="https://hermes-agent.nousresearch.com/docs/getting-started/installation#prerequisites" rel="noopener">installation et prérequis officiels</a>
     et <a href="https://hermes-agent.nousresearch.com/docs/getting-started/platform-support" rel="noopener">matrice des plateformes de Nous Research</a>,
-    consultées le <time datetime="2026-10-16">16/10/2026</time>.
+    consultées le <time datetime="2026-11-19">19/11/2026</time>.
     Cette synthèse indépendante est un contrôle documentaire, pas une installation testée sur chaque système.</p>
   </section>
 

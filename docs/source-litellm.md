@@ -57,4 +57,35 @@ journal est intact. Aucune donnée de recette importée dans le dépôt.
 Export construit : SHA256 `bc24e18c20c4493d383aef4fb63cd3f87958ac6d202dc5b8e48e309faa506f2b`.
 Pièces privées : `crabe-chantiers/croissance/2026-11-20-litellm/evidence/`.
 
-La publication HTTPS et l'issue du relais cloud sont à vérifier séparément.
+## Publication vérifiée
+
+Le premier push a été refusé après une livraison voisine du hub. Rebase du seul
+commit de croissance, puis **405 tests réussis** sur la combinaison courante
+(`evidence/tests-rebased.log`). Le catalogue parent est resté identique.
+Code poussé : `dfb2f6bb49f2c3a38a76d65f28bf6e451c28fb22` ; les trois fichiers
+livrés ont été relus via l'API GitHub, identiques à la copie locale.
+
+Le dispatch `44806576008` a été remplacé en file d'attente (annulé sans job).
+Le successeur `44809487457`, SHA `bafa3581f53e4601bd3318ffbcb0633b73a16e98`,
+contient le catalogue de 39 sources. Son issue globale reste à vérifier.
+Aucun dispatch supplémentaire ni annulation effectué pour contourner la file.
+
+Le premier préflight SFTP a refusé : le run `44805338179` pouvait encore
+republier le catalogue de 38 sources. Attente de sa clôture, sans écriture.
+Il s'est terminé `cancelled` à 20:32 UTC pendant le pipeline, après des transferts
+partiels ; sauvegarde d'état sautée. Ce n'est pas une simple annulation en attente.
+
+À **20:33 UTC**, nouveau préflight : OPML distant identique au catalogue parent,
+SFTP et HTTPS concordants ; aucun ancien catalogue parmi les runs actifs paginés
+ni pipeline local détecté. Ces contrôles ne constituent pas un verrou transactionnel.
+Livraison chiffrée de **deux fichiers seulement** : `/veille/sources.opml` et le
+seul compteur de `/transparence/`. Tous les autres octets de Transparence et les
+trois témoins `.htaccess` (racine, veille, Skool) restent identiques.
+
+Relecture SFTP exacte puis **deux lectures HTTPS canoniques identiques** à
+`2026-11-20T20:33:20Z` : 39 flux, dont LiteLLM.
+OPML : empreinte ci-dessus ; Transparence :
+`b3f4da5c04983a7cf518d15737a163bd5e225465fd1df6295c2989d5b2676ae6`.
+Sauvegardes et résultats privés : `crabe-chantiers/croissance/2026-11-20-litellm/livraison/`.
+Cette livraison vérifiée ne clôt pas le pipeline cloud, sa sauvegarde d'état,
+la divergence du clone partagé ni la pression disque de la machine.

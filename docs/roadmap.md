@@ -1,5 +1,13 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Chantier site du 20 novembre — grille mobile du hub
+
+**Une seule intégration : relais n° 1 du dernier rapport, grille des kits de `openclaw-france.fr`.** Débordement reproduit à 320 px (document 340 px), puis corrigé sans masquage ; une règle mobile et huit clés CSS, contenus/ZIP inchangés. Premier préflight SFTP refusé sans écriture pour préserver la livraison Intel voisine ; rebase sur `b7d750c`, **409 tests Python + huit Node**, **217 contrôles navigateur / 20 parcours** et 105 comparaisons réussis. Deux builds isolés : **5 261 fichiers média identiques**, 715 fichiers données/contenus préservés. [Recette et preuves](hub-grille-mobile.md).
+
+**Au commit initial : code testé, publication SFTP/HTTPS et cloud encore à confirmer.** Le workflow média ne déploie pas le hub. Les listings déjà fermés ne sont pas refaits ; P9, alias OVH et archives historiques restent distincts. ENOSPC initial conservé, six anciennes copies `_site` nettoyées avec inventaire, aucun manifeste/preuve/source supprimé ; clone partagé divergent préservé, aucun cron modifié.
+
+---
+
 ## État courant — 20 novembre 2026, revue de 21 h CET
 
 **Cette synthèse prévaut sur les états historiques ci-dessous.** Revue exécutée à l'heure prévue ; fenêtre des commits/créations GitHub **19/11 23:00 → 20/11 20:01:04 UTC**, arrêtée avant la fin de journée. Pull partagé `--ff-only` refusé : arbre propre, HEAD `6f62095`, **23 commits locaux / 151 distants** distincts. Pull réussi uniquement dans le worktree documentaire sparse sur **`b7d750c`** ; aucune fusion, réparation du clone ou réécriture de preuves. HTTPS contrôlé à partir de **21:02 CET**, marqueurs relus à une seconde borne.

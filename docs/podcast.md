@@ -1,5 +1,9 @@
 # Podcast : rendre les audios existants découvrables et abonnables
 
+## Édition du 21 novembre — publiée par repli ciblé
+
+Quatre sujets, **132 secondes**, voix Denise `+8%`, commit `262c0ef` ; **412 tests locaux et cloud**. MP3/page/RSS exacts en HTTPS à **18:48:45 UTC**, **26 GUID uniques**. Page et flux rétablis par SFTP après expiration officielle à 45 min du run `44931077224` ; audio déjà exact, non réécrit. Sauvegarde cloud ignorée, successeur `44934778464` encore en cours ; publication acquise, exploitation non réparée. [Sources, recette et incident précis](podcast-2026-11-21.md).
+
 ## Édition du 19 novembre — publiée le 20 par repli ciblé
 
 Quatre sujets, **115,356735 secondes**, voix Amélie après un fichier Edge trop court malgré son code 0 ; commit `0c8c4f8`, **405 tests locaux**. MP3, page et RSS exacts en HTTPS le **20 à 20:38:48 UTC**, **25 GUID uniques**. Trois cibles publiées par SFTP après expiration à 45 min du run précédent `44805338179` (sauvegarde ignorée) ; descendant `44809487457` encore en cours. Publication acquise, exploitation cloud non clôturée. [Sources, recette et incident précis](podcast-2026-11-19.md).

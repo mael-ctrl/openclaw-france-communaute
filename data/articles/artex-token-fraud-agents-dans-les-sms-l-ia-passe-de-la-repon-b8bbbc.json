@@ -1,0 +1,41 @@
+{
+ "slug": "artex-token-fraud-agents-dans-les-sms-l-ia-passe-de-la-repon-b8bbbc",
+ "titre": "ARTEX, token fraud, agents dans les SMS : l'IA passe de la réponse à l'action",
+ "chapo": "Le FBI alerte sur ARTEX, un outil d'IA qui pirate presque tout seul et s'appuie le plus souvent sur des modèles chinois comme DeepSeek. Au même moment, Apple plancherait sur un agent capable de piloter un Mac, et ChatPRD documente une fraude aux tokens qui vide les essais gratuits.",
+ "html": "<h2 id=\"artex-l-intrusion-en-moins-de-trois-heur\">ARTEX : l'intrusion en moins de trois heures</h2>\n<p>Le FBI tire la sonnette d'alarme, rapporte 01net : partout dans le monde, des pirates mènent des cyberattaques en série à l'aide d'ARTEX, un outil d'intelligence artificielle qui pirate presque tout seul. Branché le plus souvent sur des modèles chinois comme DeepSeek, il peut prendre le contrôle d'un réseau en moins de trois heures.</p>\n<p>Ce que l'alerte met en avant, c'est le tempo. Moins de trois heures pour basculer d'une intrusion à la prise de contrôle d'un réseau : c'est le genre de délai qui rend obsolète une détection pensée pour des attaques manuelles, étalées sur des jours.</p>\n<p>Deux briques se combinent ici : un outil qui automatise l'attaque, et des modèles accessibles sur lesquels le brancher. La mention de DeepSeek indique sur quoi ARTEX tourne le plus souvent, pas nécessairement d'où viennent les attaquants. La dépêche ne précise ni les cibles, ni le nombre d'incidents recensés.</p>\n<h2 id=\"token-fraud-le-gratuit-a-un-cout\">Token fraud : le gratuit a un coût</h2>\n<p>Claire Vo dirige ChatPRD, une plateforme IA qui aide les chefs de produit à passer d'une idée à une spec. Sur YouTube, elle documente l'afflux de « token fraud » : des groupes abusent de l'essai gratuit, parfois simplement pour de l'IA gratuite, souvent pour revendre des tokens ou faire tourner des activités commerciales sur son agent. Un studio de cartes Roblox et Fortnite enchaîne ainsi essais gratuits et codes promo.</p>\n<p>Le schéma n'a rien de spectaculaire : pas d'effraction, pas de vulnérabilité exotique. Juste une incitation mal calibrée — l'essai gratuit — exploitée à l'échelle industrielle, et un service qui absorbe la facture pendant que d'autres en tirent un revenu.</p>\n<p>Pour un éditeur d'agents, la question n'est donc pas seulement technique. Elle est économique : quel volume d'usage peut-on offrir sans sponsoriser, sans le savoir, l'activité de quelqu'un d'autre ?</p>\n<h2 id=\"des-agents-qui-s-installent-dans-le-mac-\">Des agents qui s'installent : dans le Mac et dans les SMS</h2>\n<p>Selon TechCrunch, Apple travaillerait sur son propre agent IA, capable de faire tourner et de piloter un Mac. Le constructeur développerait des agents destinés à concurrencer Meta Muse, Instinct, Claude et OpenAI Dots. L'information compte moins pour le produit que pour le positionnement : elle place Apple dans la course aux agents, face aux grands laboratoires américains.</p>\n<p>Le même TechCrunch a compilé une liste des agents IA les plus notables qui peuvent vivre dans tes messages texte. Le panorama va des assistants généralistes à des agents conçus pour la famille, le voyage ou le travail. Le SMS redevient un point d'entrée parmi d'autres.</p>\n<p>Les deux mouvements pointent dans la même direction : l'agent sort de la fenêtre de chat. Il pilote une machine, s'installe dans un fil de conversation, hérite d'un contexte. Et avec l'accès vient la surface d'attaque.</p>\n<h2 id=\"la-knowledge-factory-l-agent-qui-signale\">La knowledge factory : l'agent qui signale ses trous</h2>\n<p>LangChain présente sa « knowledge factory », le dispositif qui maintient à jour les connaissances internes de ses agents. Le principe est simple à énoncer : les agents signalent eux-mêmes les informations qui leur manquent. Un agent curateur vient ensuite corriger ces lacunes en arrière-plan.</p>\n<p>C'est une réponse au problème le plus banal et le plus coûteux d'un déploiement en production — une base de connaissances qui se périme sans que personne ne s'en aperçoive. Ici, l'erreur remonte du terrain au lieu d'être attendue côté documentation.</p>\n<h2>Et maintenant ?</h2>\n<p>Mises bout à bout, ces dépêches dessinent un même déplacement : l'agent ne se contente plus de répondre, il agit. Il pilote un Mac, tient une conversation, prend un réseau en moins de trois heures, consomme des tokens qu'on peut revendre. Chaque capacité ajoutée ouvre une question concrète — qui a accès à quoi, qui paie l'usage, à quelle fraîcheur tourne la connaissance. Ce sont des questions d'ingénierie et de modèle économique bien avant d'être des questions de principe.</p>",
+ "pivot": "b8bbbc3f9a58e7fe",
+ "tags": [
+  "agents",
+  "sécurité",
+  "deepseek",
+  "business"
+ ],
+ "sources": [
+  {
+   "nom": "01net",
+   "url": "https://www.01net.com/actualites/cyberattaques-cours-monde-entier-fbi-alerte-vague-intrusions-menees-artex-redoutable-dopee-modeles-chinois.html"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+  },
+  {
+   "nom": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
+  },
+  {
+   "nom": "TechCrunch IA",
+   "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/"
+  },
+  {
+   "nom": "LangChain (blog officiel)",
+   "url": "https://www.langchain.com/blog/knowledge-factory"
+  }
+ ],
+ "date": "2026-11-21T18:50:11+00:00",
+ "gen": {
+  "modele": "deepseek-flash",
+  "entree": 1418,
+  "sortie": 2973
+ }
+}

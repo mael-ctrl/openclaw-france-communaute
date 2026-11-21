@@ -67,11 +67,11 @@ class HubPrerequisTest(unittest.TestCase):
             self.assertIn(phrase, self.text)
         self.assertIn("ne valide pas la compatibilité", self.text)
 
-    def test_dates_distinguent_controle_actuel_et_kit(self):
+    def test_source_datee_et_renvoi_aux_prerequis_sans_diagnostic_perime(self):
         dates = [attrs.get("datetime") for tag, attrs in self.doc.tags if tag == "time"]
         self.assertIn("2026-11-19", dates)
-        self.assertIn("2026-10-16", dates)
-        self.assertIn("contrôle du", self.text)
+        self.assertNotIn("Leur mention de bundles Intel", self.text)
+        self.assertIn("avant de lancer le kit", self.text)
         self.assertIn("README", self.text)
 
 

@@ -40,7 +40,7 @@ class KitHermesPrerequisTest(unittest.TestCase):
                 self.assertIn(DOCS + suffix, text)
         page = (SITE / "hermes/index.html").read_text()
         section = re.search(r'<section id="prerequis"[^>]*>(.*?)</section>', page, re.S).group(1)
-        self.assertIn('datetime="2026-10-16"', section)
+        self.assertNotIn("Leur mention de bundles Intel", section)
         self.assertIn("prérequis du guide", section)
         self.assertIn("script", section)
         self.assertNotIn("plus anciennes", section)

@@ -55,13 +55,22 @@ compatibilité de chaque version du système.
 - **Windows natif** : suivez la
   [méthode officielle PowerShell](https://hermes-agent.nousresearch.com/docs/getting-started/installation#windows-native),
   hors de ce script Bash ; ou utilisez le kit dans WSL2.
-- **Mac Intel — compatibilité non garantie** : les pages officielles divergent
-  au contrôle du 2026-10-16. Le guide d’installation présente macOS Intel comme
-  non pris en charge, alors que la matrice décrit encore la CLI et des bundles
-  `darwin-x64` construits seulement pour certaines releases. Le message du
-  script du kit sur Intel ne vaut pas validation : consultez les deux sources
-  ci-dessous et demandez confirmation au projet Hermes pour votre machine et
-  votre version avant de lancer un installateur.
+- **Mac Intel — compatibilité non garantie** : distinguez les deux parcours.
+  **Desktop Intel : aucun bundle actuel.** La matrice officielle indique
+  qu’aucun bundle Desktop Intel n’est construit ni testé par les releases actuelles.
+  Les anciennes applications Desktop Intel ne reçoivent pas de mise à jour par le
+  flux macOS, désormais réservé à Apple Silicon.
+  **Installation en ligne de commande (CLI) : à valider.** Les pages officielles
+  divergent encore : le guide d’installation présente macOS Intel comme non pris
+  en charge, tandis que la matrice indique une installation CLI possible.
+  Cette indication et le message du script du kit ne valident pas votre machine :
+  demandez confirmation au projet Hermes pour votre machine et votre version
+  avant de lancer un installateur.
+
+**Réserve Mac Intel requalifiée le 2026-11-21** :
+[installation officielle](https://hermes-agent.nousresearch.com/docs/getting-started/installation)
+et [bundles et mises à jour](https://hermes-agent.nousresearch.com/docs/getting-started/platform-support#build-targets-and-support-priority).
+Cette consultation documentaire n’est pas une installation testée.
 
 ### Outils et dépendances
 
@@ -118,12 +127,14 @@ sa réussite sur votre machine.
 
 ## 3. Étape 1 — Installer Hermes Agent
 
-### Méthode A — Application desktop (macOS)
+### Méthode A — Application desktop (macOS Apple Silicon)
 
 Téléchargez le paquet depuis le [site officiel](https://hermes-agent.nousresearch.com/),
 ouvrez le fichier `.dmg` et glissez `Hermes.app` dans Applications. Vous obtenez le
-CLI **et** l'interface graphique. Si vous avez déjà installé la version terminal,
-l'app desktop s'ajoute à tout moment avec :
+CLI **et** l'interface graphique. Ce paquet n’est pas destiné aux Mac Intel.
+Pour une installation terminal existante, la documentation décrit la commande
+suivante ; sa présence ne prouve pas la compatibilité sur Mac Intel (voir la
+réserve de l’étape 2) :
 
 ```bash
 hermes desktop

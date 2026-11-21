@@ -41,10 +41,16 @@ kit-hermes/
   hors de ce kit, ou passez par WSL2.
 - **macOS Apple Silicon** ; **Linux / WSL2 x86_64 ou arm64** (aarch64).
   Les tests Ubuntu/WSL2 cités par Nous Research ne couvrent pas chaque distribution.
-- **Mac Intel : compatibilité non garantie.** Au 2026-10-16, les sources officielles
-  divergent : le guide d’installation dit « non pris en charge », la matrice décrit
-  encore la CLI et des bundles Intel conditionnels. Le message du script sur Intel
-  ne valide pas votre machine ; lisez la réserve détaillée dans `GUIDE.md`.
+- **Mac Intel : compatibilité non garantie.** **Desktop Intel : aucun bundle actuel.**
+  Aucun bundle Desktop Intel n’est construit ni testé par les releases actuelles ;
+  les anciennes applications Intel ne reçoivent pas de mise à jour par le flux macOS,
+  réservé à Apple Silicon. **CLI : à valider** — les pages officielles divergent
+  encore sur macOS Intel ; la possibilité CLI décrite dans la matrice n’est pas
+  une garantie pour votre machine. Demandez confirmation au projet Hermes avant
+  de lancer un installateur ; le message du script ne vaut pas validation.
+  Réserve requalifiée le **2026-11-21** :
+  [bundles et mises à jour](https://hermes-agent.nousresearch.com/docs/getting-started/platform-support#build-targets-and-support-priority).
+  Lisez le détail dans `GUIDE.md`.
 - **Git, curl, tar et un utilitaire SHA-256**. Python et Node.js sont gérés par
   l’installateur, mais un compilateur et des bibliothèques système peuvent aussi
   être nécessaires. Certains paquets Linux demandent un administrateur ; les

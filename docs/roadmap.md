@@ -1,5 +1,15 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Chantier site du 21 novembre — cohérence Intel du kit Hermes
+
+**Une seule intégration : candidat n° 1 du relais du 21.** GUIDE/README/ZIP distinguent désormais Desktop Intel sans bundle actuel et CLI à valider ; méthode DMG bornée à Apple Silicon. Seul l'avertissement périmé du HTML est retiré, réserve Intel et grille conservées. Les chantiers SEO déjà livrés ne sont pas refaits. [Recette et preuves](hub-hermes-intel-kit.md).
+
+**412 tests Python + huit Node**, rouge/vert, deux builds isolés avec **5 262 fichiers média identiques**, 718 sources données/contenus préservées ; cinq membres ZIP comparés, trois inchangés jusque dans leurs flux compressés. **59 contrôles navigateur sans JS** à quatre largeurs, téléchargements exacts, captures relues. Préflight SFTP : cinq cibles exactes à la base et onze témoins sauvegardés.
+
+**Au commit initial : code/kit testés, publication SFTP/HTTPS et issue cloud encore à confirmer.** `maj.yml` ne publie pas le hub. Run de la veille `44809487457` finalement annulé pendant pipeline, sauvegarde ignorée ; P9 reste prioritaire et distinct. Pull partagé refusé, conflits préservés ; pull réussi seulement dans le worktree propre sur `cd0ebb2`. Aucun cron ni mécanisme d'exploitation modifié.
+
+---
+
 ## Complément podcast — 20 novembre à 20:38 UTC (21:38 CET)
 
 **P3 : édition éditoriale du 19 désormais publiée**, après la sonde intermédiaire de la revue ci-dessous. Commit `0c8c4f8`, quatre sujets, voix Amélie **115,356735 s**, **405 tests locaux** ; MP3/page/RSS exacts en HTTPS, script exact et **25 GUID uniques**. Repli SFTP limité à trois cibles, base reconnue/sauvegardée et audio auparavant absent ; pas de remplacement d'un épisode existant. [Dossier et preuves](podcast-2026-11-19.md).

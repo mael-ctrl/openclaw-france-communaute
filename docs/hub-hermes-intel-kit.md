@@ -37,7 +37,11 @@ Préflight SFTP : clé hôte vérifiée avant lecture du secret, **cinq bases di
 
 Le replay local des **réponses publiques capturées** réussit **59 contrôles** à quatre largeurs, sans JS, avec quatre téléchargements exacts. Ce n'est pas une session navigateur directement sur le site. Une capture intermédiaire interrompue par un timeout de lecture de 40 s est conservée ; elle ne prouve pas une indisponibilité générale.
 
-**Le dispatch média `44891738252` sur `3ac0900` est encore en attente au contrôle de 10:01 UTC**, sans job. `maj.yml` teste et publie le média, **pas le hub** : ses contrats, pipeline et sauvegarde restent à qualifier. Aucun nouveau dispatch de substitution ni annulation du run actif.
+**Le dispatch média [44891738252](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/44891738252), sur `3ac0900`, a finalement expiré le 21 à 11:13:59 UTC.** Après l'attente initiale sans job, le job a démarré à 10:28:44 UTC ; **412 tests cloud réussis** en 138,047 s, puis pipeline annulé et consignation ignorée. Annotation officielle conservée : `The job has exceeded the maximum execution time of 45m0s`. **1 490 lignes de transfert** dans le groupe pipeline attestent une tentative partielle, pas un déploiement complet ni une relecture distante. Aucune sauvegarde d'état attribuée à ce run.
+
+`maj.yml` teste et publie le média, **pas le hub**. La livraison ciblée des cinq fichiers du hub demeure confirmée : nouvelle série de **16 GET HTTPS à 11:14 UTC**, tous conformes, y compris les cinq membres du ZIP et l'URL liée. Accueil/version/Transparence du média en HTTP 200 à 11:15 UTC ; ces réponses ne clôturent pas son transfert incomplet. Aucun nouveau dispatch de substitution ni annulation du run actif : P9 (durée, volume, reprise et sauvegarde) reste ouvert, sans deuxième intégration quotidienne.
+
+Les attentes bornées du watcher sont conservées ; un timeout de l'outil terminal et une erreur réseau locale du watcher n'ont pas été confondus avec l'annotation finale de GitHub. Les trois annotations du check ont été relues, dont l'avertissement hérité sur les actions Node 20. Ce correctif ne modifie pas les workflows.
 
 Continuité : le run précédent `44809487457` est finalement **annulé pendant le pipeline**, contrats réussis et sauvegarde ignorée. Il ne clôt pas le déploiement média de la veille. La grille déjà livrée n'est pas réintégrée.
 

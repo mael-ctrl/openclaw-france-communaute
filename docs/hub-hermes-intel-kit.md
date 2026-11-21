@@ -33,7 +33,11 @@ Le pull `--ff-only` du clone partagé a refusé ses six conflits et son journal 
 
 Préflight SFTP : clé hôte vérifiée avant lecture du secret, **cinq bases distantes exactes à Git** et sauvegardées avec onze témoins. Aucune écriture pendant ce préflight.
 
-**Au commit initial, la livraison SFTP/HTTPS et le résultat du dispatch média restent à vérifier.** Le transfert est borné aux cinq cibles, par `.part` et renommage après relecture de la base ; les onze témoins doivent rester identiques. `maj.yml` teste et publie le média, **pas le hub** : ses contrats, pipeline et sauvegarde sont des états séparés.
+**Publication hub confirmée à 09:54 UTC le 21 novembre**, commit `3ac0900`. Les cinq cibles ont été installées par `.part` et renommage après double contrôle de leur base, puis relues octet pour octet en SFTP ; onze témoins inchangés. Deux captures HTTPS complètes indépendantes (09:54 et 09:56 UTC), **16 requêtes chacune**, vérifient les cinq cibles, les fichiers individuels du kit, les témoins et l'URL réellement liée du ZIP `?v=2`. Les cinq membres de l'archive sont exacts à leurs fichiers HTTPS ; la projection Cloudflare de comparaison se limite à l'adresse publique connue. Corps bruts conservés.
+
+Le replay local des **réponses publiques capturées** réussit **59 contrôles** à quatre largeurs, sans JS, avec quatre téléchargements exacts. Ce n'est pas une session navigateur directement sur le site. Une capture intermédiaire interrompue par un timeout de lecture de 40 s est conservée ; elle ne prouve pas une indisponibilité générale.
+
+**Le dispatch média `44891738252` sur `3ac0900` est encore en attente au contrôle de 10:01 UTC**, sans job. `maj.yml` teste et publie le média, **pas le hub** : ses contrats, pipeline et sauvegarde restent à qualifier. Aucun nouveau dispatch de substitution ni annulation du run actif.
 
 Continuité : le run précédent `44809487457` est finalement **annulé pendant le pipeline**, contrats réussis et sauvegarde ignorée. Il ne clôt pas le déploiement média de la veille. La grille déjà livrée n'est pas réintégrée.
 

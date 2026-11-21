@@ -6,7 +6,7 @@
 
 **412 tests Python + huit Node**, rouge/vert, deux builds isolés avec **5 262 fichiers média identiques**, 718 sources données/contenus préservées ; cinq membres ZIP comparés, trois inchangés jusque dans leurs flux compressés. **59 contrôles navigateur sans JS** à quatre largeurs, téléchargements exacts, captures relues. Préflight SFTP : cinq cibles exactes à la base et onze témoins sauvegardés.
 
-**Au commit initial : code/kit testés, publication SFTP/HTTPS et issue cloud encore à confirmer.** `maj.yml` ne publie pas le hub. Run de la veille `44809487457` finalement annulé pendant pipeline, sauvegarde ignorée ; P9 reste prioritaire et distinct. Pull partagé refusé, conflits préservés ; pull réussi seulement dans le worktree propre sur `cd0ebb2`. Aucun cron ni mécanisme d'exploitation modifié.
+**Publication hub confirmée, commit `3ac0900` :** cinq cibles relues en SFTP, onze témoins inchangés ; deux captures HTTPS de 16 requêtes, ZIP canonique/lié et cinq membres exacts. **59 contrôles navigateur supplémentaires** sur les réponses publiques capturées, replay local sans JS. [Détail des limites et sondes](hub-hermes-intel-kit.md#publication). Dispatch média `44891738252` encore en attente sans job après cinq minutes d'observation ; `maj.yml` ne publie pas le hub, clôture cloud non acquise. Run de la veille `44809487457` finalement annulé pendant pipeline, sauvegarde ignorée ; P9 reste prioritaire et distinct. Pull partagé refusé, conflits préservés ; pull réussi seulement dans le worktree propre sur `cd0ebb2`. Aucun cron ni mécanisme d'exploitation modifié.
 
 ---
 

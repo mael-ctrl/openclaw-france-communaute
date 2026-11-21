@@ -1,5 +1,13 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Podcast du 21 novembre — publié à 18:48 UTC, P9 toujours ouvert
+
+**P3 : édition du 21 publiée**, quatre sujets, voix Denise **132 s**, commit `262c0ef`. **412 tests locaux et cloud**, cinq fichiers GitHub relus ; MP3/page/RSS exacts en HTTPS à **18:48:45 UTC**, **26 GUID uniques**. Repli SFTP limité à page/RSS après base exacte et sauvegardes ; audio déjà publié, non réécrit. [Sources, recette et incident](podcast-2026-11-21.md).
+
+**P9 : run `44931077224` annulé à la limite officielle de 45 min**, fin **18:46:51 UTC** : contrats réussis, pipeline interrompu, **sauvegarde ignorée**. **2 181 transferts réels** dans le groupe pipeline, MP3 inclus mais pas page/RSS ; dernière ligne `breves/replit-remplace-anthropic-par-openai-comme-fournisseur-par-defaut-f403eb/index.html`. Le successeur `44934778464`, même périmètre podcast, est en cours : ni réussite cloud ni réparation d'exploitation annoncée. Prochaine étape : durée/admission/reprise et sauvegarde durable dans le chantier dédié ; préserver les conflits du clone partagé, sans nouveau dispatch en boucle ni régénération audio.
+
+---
+
 ## Chantier site du 21 novembre — cohérence Intel du kit Hermes
 
 **Une seule intégration : candidat n° 1 du relais du 21.** GUIDE/README/ZIP distinguent désormais Desktop Intel sans bundle actuel et CLI à valider ; méthode DMG bornée à Apple Silicon. Seul l'avertissement périmé du HTML est retiré, réserve Intel et grille conservées. Les chantiers SEO déjà livrés ne sont pas refaits. [Recette et preuves](hub-hermes-intel-kit.md).

@@ -1,5 +1,34 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## État courant — 21 novembre 2026, revue de 21 h CET
+
+**Cette synthèse prévaut sur les relevés historiques ci-dessous.** Fenêtre des commits/créations GitHub : **20/11 23:00 → 21/11 20:01:31 UTC**, pas une journée complète. Pull partagé `--ff-only` refusé **128** : six fichiers non fusionnés et journal indexé, HEAD `cd0ebb2`. Pull réussi seulement dans le worktree documentaire sparse sur **`33dc43a`**, sans toucher aux conflits, données ou sceaux. HTTPS contrôlé à **21:03 CET**, marqueurs relus à une seconde borne.
+
+**Neuf commits ; 21 runs cloud : deux succès, dix-huit annulations pendant pipeline avec sauvegarde ignorée, un en cours.** Le successeur podcast `44934778464` est désormais réussi, état `f6515f6` sauvegardé via `33dc43a` : clôture de ce relais acquise, **fiabilité générale non résolue**. Les trois missions de la vague du 21 sont terminées ; le kit Intel a été intégré, les candidats d'exploitation restent privés/non activés.
+
+| Chantier | État vérifié / provenance au 21/11 | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | ✅ **563 chemins d'articles Git = sitemap**, 21 dates News dans les 48 h, aucune future ; **39 couples OPML exacts**, compteur public 39. LiteLLM acquis. Acceptation IndexNow 200 dans les deux succès du jour | Surveiller la cohérence après chaque producteur ; ne pas refaire LiteLLM. Job croissance interrompu, sans nouveau bilan : réconcilier ses artefacts avant reprise. Sitemap/acceptation ≠ indexation |
+| P2 — Site | ✅ CSS de grille du hub **exacte à Git en HTTPS**, réserve Intel conservée ; `/veille/` 403, export 200. Vérificateur de liens intégré, non activé automatiquement | Clôturer la documentation de grille encore « à confirmer » à partir des preuves existantes, sans refaire l'intégration. Browser QA antérieure relue, pas rejouée ici ; alias OVH distinct |
+| P3 — Podcast | ✅ **Édition du 21**, audio `audio/mpeg` **792 000 octets exacts à Git**, script exact présent, **26 GUID uniques**. Successeur cloud réussi, contrats/pipeline/sauvegarde et push relus | Ne pas recréer l'audio ni relancer le repli. Prochaine édition après contrôle d'idempotence ; le timeout initial `44931077224` et sa sauvegarde ignorée restent consignés |
+| P4 — Newsletter | 🔶 Relais support humain du 20 inchangé, procédure mono-destinataire toujours non établie. Job monétisation du 21 interrompu, **sans nouvelle sortie finale** | Inventorier la tentative interrompue avant reprise ; aucune réponse IA au support, ticket/alias de substitution, campagne ou surcoût. Dépendance humaine différée, pas une seconde demande dans ce bilan |
+| P5 — Monétisation | 🔴 KPI et **quatre veilles du 21**, dernière à 18:01 : OAuth Stripe refusé, renouvellement impossible. Ventes/cumul indisponibles, jamais zéro. B2B 200, mentions 404 | **Action humaine unique : réautoriser Stripe**, puis lire et attribuer les paiements. Vendeur/TVA et prérequis commerciaux non levés ; prospection B2B fermée |
+| P6 — Presse / distribution | 🔶 Courrier, distribution et suivi Mastodon silencieux ; aucune nouvelle retombée, permission ou approbation attestée | Suivi sans renvoi ni contournement ; **aucune nouvelle promotion Bluesky jusqu'au 22 inclus**. Les actualités automatiques restent distinctes |
+| P7 — Record | 🔶 Deux sauvegardes cloud réussies, **dix-huit ignorées** dans la fenêtre ; sceau local annoncé, sauvegarde locale refusée. Chaîne historique non recalculée | Préserver les variantes et qualifier une sauvegarde durable/reprise ; les succès ne récupèrent pas les états interrompus ni ne valident la chaîne |
+| P8 — Skool | 🔶 Brouillon du 21 « Quelle tâche aimerais-tu déléguer à l'IA en premier ? », calendrier seul selon sa sortie ; aucune publication attestée. **18/22 historique**, non recompté | Prochaine session authentifiée : réconcilier M6, membres et publications ; brouillon ≠ animation réalisée |
+| P9 — Organisation / exploitation | 🔴 Local : pull refusé → **653 envois rapportés** → sauvegarde refusée, pourtant cron `ok`. Wrapper inchangé. Vague du 21 : **trois remises/trois replays parent** selon le rapport, **40 pièces parent revérifiées intactes** ici ; garde/lecteur de clé non installés. Trois jobs d'après-midi interrompus par l'arrêt du gateway selon le scheduler, exécution `unknown` | **Priorité interne :** admission/propagation des erreurs, coordination des écrivains et reprise Git préservant les variantes, puis arrêt borné/export/rétention cloud. Réconcilier les jobs interrompus sans relance aveugle. **5 185 351 680 octets libres** à 21:03 ; copies bornées, aucune purge/activation ici |
+| P10 — Hub / affiliation | ✅ Kit Intel `3ac0900` : GUIDE/README/ZIP/sommes **exacts à Git en HTTPS**, réserve HTML présente. **412 Python/huit Node et 59 contrôles navigateur** rapportés par le chantier, non rejoués ici ; affiliation inactive | Ne pas refaire la clarification ou le ZIP. Installation réelle multi-OS toujours non démontrée ; croissance hub interrompue, artefacts à rapprocher avant reprise |
+
+### Une seule action humaine — réautoriser Stripe
+
+**Message exact :** « Maël, lance `hermes mcp login stripe --flow browser` et approuve la reconnexion Stripe dans le navigateur. L'accès renvoie 401 et le renouvellement automatique échoue : les ventes du Crabe ne sont plus vérifiables. »
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si ce blocage empêche le pilotage financier.** Destinataire, objet et message exacts préparés dans `crabe-chantiers/gouvernance/2026-11-21/revue-2100/escalade-mael.txt`, hors dépôt public ; **non envoyés**. Relais newsletter et identité vendeuse restent des dépendances distinctes, sans deuxième sollicitation ni accord déduit du silence.
+
+**Mesure : 947 IP uniques estimées le 20, −91 / −8,8 %**, selon le KPI du 21 collecté en clone isolé ; média + hub, robots identifiés exclus. Ni personnes garanties, ni trafic du 21, ni effet attribué aux livraisons. [Bilan détaillé](ceo-log.md#2026-11-21--bilan-du-soir-livraisons-confirmées-exploitation-non-résolue). Seuls les deux documents de pilotage sont publiés ; aucun déploiement, dispatch, cron, email, post, paiement ou Discord déclenché par cette revue. Livraison locale uniquement.
+
+---
+
 ## Podcast du 21 novembre — publié à 18:48 UTC, P9 toujours ouvert
 
 **P3 : édition du 21 publiée**, quatre sujets, voix Denise **132 s**, commit `262c0ef`. **412 tests locaux et cloud**, cinq fichiers GitHub relus ; MP3/page/RSS exacts en HTTPS à **18:48:45 UTC**, **26 GUID uniques**. Repli SFTP limité à page/RSS après base exacte et sauvegardes ; audio déjà publié, non réécrit. [Sources, recette et incident](podcast-2026-11-21.md).
@@ -34,7 +63,7 @@
 
 ---
 
-## État courant — 20 novembre 2026, revue de 21 h CET
+## État antérieur — 20 novembre 2026, revue de 21 h CET
 
 **Cette synthèse prévaut sur les états historiques ci-dessous.** Revue exécutée à l'heure prévue ; fenêtre des commits/créations GitHub **19/11 23:00 → 20/11 20:01:04 UTC**, arrêtée avant la fin de journée. Pull partagé `--ff-only` refusé : arbre propre, HEAD `6f62095`, **23 commits locaux / 151 distants** distincts. Pull réussi uniquement dans le worktree documentaire sparse sur **`b7d750c`** ; aucune fusion, réparation du clone ou réécriture de preuves. HTTPS contrôlé à partir de **21:02 CET**, marqueurs relus à une seconde borne.
 

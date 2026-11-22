@@ -106,6 +106,14 @@ et [fournisseurs de secours](https://hermes-agent.nousresearch.com/docs/integrat
    hermes setup      # assistant complet — recommandé la première fois
    hermes model      # ou : choix du fournisseur et du modèle
    ```
+   **Avant de lancer la session** : même **Blank Slate** conserve les
+   **opérations sur fichiers** et le **terminal** ; ce mode **ne garantit pas la lecture seule**.
+   Vérifiez les outils avec `hermes tools`. Commencez dans un
+   **environnement isolé sans secrets**, avec une copie de test et des droits limités.
+   Lisez les limites de ces réglages dans `GUIDE.md`, étape 2 : le terminal peut
+   encore accéder aux fichiers si ses permissions le permettent.
+   [Source officielle, consultée le 2026-11-22](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart#2-choose-a-provider).
+
 4. **Lancez votre première session** : `hermes` — puis suivez `demarrage.md`
    pour dix usages concrets immédiatement utiles.
 

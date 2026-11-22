@@ -190,11 +190,26 @@ C'est l'étape la plus importante. Le plus simple est l'assistant :
 hermes setup
 ```
 
-Il propose trois modes : **Quick Setup (Nous Portal)** — un abonnement couvre
-300+ modèles, sans gérer de clés ; **Full Setup** — vous apportez votre propre clé
-parmi tous les fournisseurs ; **Blank Slate** — un agent minimal, tout le reste
-désactivé (pour les utilisateurs avancés). Vous pouvez aussi viser directement le
-choix du modèle :
+L’assistant propose plusieurs parcours selon votre installation : connexion à
+Nous Portal, choix de votre fournisseur ou **Full Setup** pour examiner les
+options. Le mode **Blank Slate** conserve le fournisseur et le modèle, les
+**opérations sur fichiers** et le **terminal** : il **ne garantit pas la lecture seule**.
+Ces outils peuvent modifier des fichiers ou exécuter des commandes avec les droits
+du compte et de l’environnement utilisés.
+
+**Avant le premier essai**, examinez les outils activés avec `hermes tools` et
+limitez-les à ceux nécessaires. Attention : désactiver les outils de fichiers
+ne bloque pas les accès aux fichiers via le terminal. Une consigne « ne modifie
+rien » ne remplace pas les **permissions techniques**. Utilisez un
+**environnement isolé sans secrets**, avec des accès limités et une copie de test,
+pas vos documents originaux ni vos identifiants de production. Le kit ne configure
+ni ne certifie cette isolation.
+
+**Source officielle consultée le 2026-11-22** :
+[modes de configuration et accès conservés](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart#2-choose-a-provider).
+C’est une vérification documentaire, pas un test de sécurité de votre installation.
+
+Vous pouvez aussi viser directement le choix du modèle :
 
 ```bash
 hermes model

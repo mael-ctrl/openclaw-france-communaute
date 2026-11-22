@@ -1409,6 +1409,42 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-19/hub-prerequis-hermes/`.
 
+## Permissions dans le kit Hermes — livraison du 22/11/2026
+
+- **Une amélioration** : le GUIDE et le README téléchargeables expliquent avant
+  la première session que `Blank Slate` conserve les opérations sur fichiers
+  et le terminal. Ce mode ne garantit pas la lecture seule. Vérification via
+  `hermes tools`, limites des permissions et environnement isolé sans secrets
+  explicités ; le terminal peut accéder aux fichiers même si leurs outils dédiés
+  sont désactivés. Source Quickstart officielle relue et datée du 22/11.
+- Le résumé obsolète des trois modes est remplacé par une présentation non
+  exhaustive. Aucun installateur, configuration, HTML, CSS ou kit OpenClaw modifié.
+  Le ZIP Hermes et son manifeste SHA-256 livrent les deux documents à jour.
+- Trois nouveaux tests échouent avant correction, puis passent ; **129 tests
+  hub et kits réussis**, dont contrôles des archives. Les trois nouveaux tests
+  passent aussi contre les fichiers et le ZIP téléchargés en HTTPS. Contrôle
+  des liens HTML : **271 références locales vérifiées, zéro erreur** ; ce
+  vérificateur exclut le Markdown et les liens externes. Pas de suite globale
+  média relancée avec le disque local presque plein (367 Mio libres au départ).
+- Bureau illisible en cron, clone partagé en conflits laissé intact. Déploiement
+  avec `python3 outils/deployer_openclaw.py` depuis le clone dédié synchronisé
+  `~/.hermes/workspaces/hub-openclaw-20261003`, après sauvegarde privée et
+  comparaison de la production. **36 fichiers relus via FTP**, identiques aux
+  sources après envoi. Seuls quatre fichiers publics diffèrent de la sauvegarde :
+  GUIDE, README, ZIP Hermes et manifeste ; ZIP OpenClaw inchangé octet pour octet.
+- **Six URL de santé HTTP 200** ; contrôle étendu de **14 URL en 200**, dont
+  les cinq fichiers Hermes et le ZIP effectivement lié (`?v=2`). Archives
+  vérifiées par CRC et SHA-256, tous leurs membres exacts aux sources locales.
+  **IndexNow HTTP 200** pour les deux documents Markdown modifiés : notification
+  acceptée, pas preuve d’indexation. Aucune installation ou isolation certifiée.
+- **Aucune nouvelle distribution** : journal synchronisé relu, promotion Bluesky
+  du 17/11 excluant une nouvelle promotion jusqu’au 22/11 inclus. Aucun contact,
+  post, formulaire ou relance. Prochaine priorité : corriger dans `demarrage.md`
+  les promesses absolues de gratuité/hors-ligne encore présentes, distinctes de
+  cette clarification sur les accès.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-22/hub-kit-permissions/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

@@ -1,5 +1,34 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## État courant — 22 novembre 2026, revue de 21 h CET
+
+**Cette synthèse prévaut sur les relevés historiques ci-dessous.** Revue prévue à 21 h, dispatch à **21:10:19 CET** ; observations du **22 entre 21:10 et 21:20**. Fenêtre des commits/créations GitHub : **21/11 23:00 → 22/11 20:17:30 UTC**, pas une journée complète. Pull partagé `--ff-only` refusé **128** : six conflits et journal indexé, HEAD `a5ab769`. Pull réussi seulement dans le worktree documentaire sparse sur **`9eb9db3`** ; rebase, données et sceaux préservés.
+
+**Quatre commits ; 24 runs cloud : 23 annulations pendant pipeline avec sauvegarde ignorée, un en cours.** Aucune sauvegarde cloud réussie dans cette fenêtre. La garde des liens est désormais raccordée et franchie en cloud, **sans résoudre les interruptions de transfert ni le faux vert local**. Agno et la clarification du kit Hermes sont publiés ; les trois missions de préparation sont achevées, seuls les patches de garde ont été intégrés.
+
+| Chantier | État vérifié / provenance au 22/11 | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | ✅ Agno `26b4f3e` : **40 couples OPML exacts à Git**, compteur public 40. **21 dates News fraîches, aucune future**. 🔶 Sitemap : **564 articles publics / 563 Git**, aucun Git absent, un chemin public supplémentaire | Rapprocher ce chemin de la prochaine sauvegarde sans l'effacer ni l'attribuer arbitrairement à un producteur. Ne pas refaire Agno ; fraîcheur et acceptation IndexNow ≠ indexation |
+| P2 — Site | ✅ Garde pré-FTP/annonces `aba300c`, activation cloud attestée par le chantier ; **424 tests Python/huit Node**, scans réels et builds identiques rapportés, non rejoués ici. `/veille/` 403 et OPML 200 recontrôlés | Ne pas réintégrer la garde. Surveiller la réserve HTML **4 465 436 octets de la recette figée**, sans hausse automatique ; obtenir transfert complet et sauvegarde dans P9. [Dossier](garde-liens-pipeline.md) |
+| P3 — Podcast | ✅ Édition du **21** toujours présente : audio **792 000 octets exacts à Git**, script exact, **26 GUID uniques**. Job du 22 affiché **running**, sans sortie finale ni épisode du 22 dans l'index Git figé | Réconcilier l'exécution du 22 avant toute reprise ; ne pas recréer le 21, lancer un doublon ou confondre état running et publication |
+| P4 — Newsletter | 🔶 Job monétisation du 22 terminé silencieusement ; relais support humain du 20 inchangé, procédure mono-destinataire non établie | Garder le brouillon fermé ; aucune réponse IA au support, ticket/alias de substitution, campagne ou surcoût. Dépendance différée, sans deuxième demande humaine |
+| P5 — Monétisation | 🔴 KPI et **quatre veilles du 22**, dernière à **21:17 CET** : OAuth Stripe refusé, renouvellement impossible. Ventes/cumul indisponibles, jamais zéro. B2B 200, `/mentions-legales/` 404 | **Action humaine unique : réautoriser Stripe**, puis lire et attribuer les paiements. Identité vendeuse/TVA et autres prérequis cumulatifs non levés ; prospection B2B fermée |
+| P6 — Presse / distribution | 🔶 Courrier/distribution silencieux ; suivi Mastodon finalement terminé silencieusement à **21:19**, aucune approbation ni retombée nouvelle attestée | Suivi sans renvoi ni contournement ; **aucune nouvelle promotion Bluesky jusqu'au 22 inclus**. Actualités automatiques distinctes |
+| P7 — Record | 🔴 **23 sauvegardes cloud ignorées** ; sceau local annoncé, sauvegarde locale refusée. Capsule privée du rebase ciblée, pas une sauvegarde complète/distante | Préserver les variantes ; qualifier récupération indépendante et rétention durable. Aucun ancien sceau réécrit, chaîne historique non recalculée ni validée |
+| P8 — Skool | 🔶 Brouillon du 22 « Défi pédagogie : explique un concept d’IA à un proche », calendrier seul selon sa sortie ; aucune publication attestée. **18/22 historique**, non recompté | Prochaine session authentifiée : réconcilier M6, membres et publications ; brouillon ≠ animation réalisée |
+| P9 — Organisation / exploitation | 🔴 Pull refusé → **660 envois rapportés** → sauvegarde refusée, pourtant cron `ok`. Wrapper inchangé. Vague : **trois remises/trois replays parent** selon rapport, **38 pièces revérifiées intactes** ici. Capsule Git et arrêt/export restent privés/non activés | **Priorité interne :** admission/propagation des erreurs, coordination des écrivains, reprise Git préservant les variantes, puis arrêt borné/export/rétention cloud. Disque : **486 182 912 octets libres à 21:17**, **2 215 161 856 à 21:20**, cause de variation non établie ; aucune purge/build ici |
+| P10 — Hub / affiliation | ✅ `9eb9db3` : Blank Slate conserve fichiers/terminal ; **GUIDE/README/ZIP/sommes exacts à Git en HTTPS**. 129 tests rapportés par le chantier, non rejoués ; affiliation inactive | Corriger séparément les promesses excessives de confidentialité de `demarrage.md`, après lecture des sources actuelles. Ne pas refaire le kit Intel ou Blank Slate ; installation multi-OS non démontrée |
+
+### Une seule action humaine — réautoriser Stripe
+
+**Message exact :** « Maël, lance `hermes mcp login stripe --flow browser` et approuve la reconnexion Stripe dans le navigateur. L'accès OAuth est refusé et le renouvellement automatique échoue : les ventes du Crabe ne sont plus vérifiables. »
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si ce blocage empêche le pilotage financier.** Destinataire, objet et texte exacts préparés dans `crabe-chantiers/gouvernance/2026-11-22/revue-2110/escalade-mael.txt`, hors dépôt public ; **non envoyés**. Newsletter et identité vendeuse restent des dépendances distinctes, sans deuxième sollicitation ni accord déduit du silence.
+
+**Mesure : 991 IP uniques estimées le 21, +44 / +4,6 %**, selon le KPI du 22 collecté en clone isolé ; média + hub, robots identifiés exclus. Ni personnes garanties, ni trafic du 22, ni effet attribué aux livraisons. [Bilan détaillé](ceo-log.md#2026-11-22--bilan-du-soir-garde-intégrée-sauvegardes-interrompues). Seuls les deux documents de pilotage sont publiés ; aucun déploiement, dispatch, cron, email, post, paiement ou Discord déclenché par cette revue. Livraison locale uniquement.
+
+---
+
 ## Chantier site du 22 novembre — garde de liens avant FTP
 
 **Une seule intégration : candidat n° 1 du relais du 22, qualité SEO #15.** Vérificateur existant raccordé après build/clé IndexNow et avant FTP/annonces ; aucun changement de gabarit, données ou dépendance. **424 tests Python**, rouge/vert, deux builds isolés avec **5 291 fichiers identiques** et 724 sources préservées. Deux scans complets : **129 154 références, zéro erreur** (31 096 exemptions distinctes), 95 534 564 octets HTML. **Réserve du quota : 4 465 436 octets**, à surveiller/requalifier sans hausse automatique. [Recette et limites](garde-liens-pipeline.md).
@@ -8,7 +37,7 @@
 
 ---
 
-## État courant — 21 novembre 2026, revue de 21 h CET
+## État antérieur — 21 novembre 2026, revue de 21 h CET
 
 **Cette synthèse prévaut sur les relevés historiques ci-dessous.** Fenêtre des commits/créations GitHub : **20/11 23:00 → 21/11 20:01:31 UTC**, pas une journée complète. Pull partagé `--ff-only` refusé **128** : six fichiers non fusionnés et journal indexé, HEAD `cd0ebb2`. Pull réussi seulement dans le worktree documentaire sparse sur **`33dc43a`**, sans toucher aux conflits, données ou sceaux. HTTPS contrôlé à **21:03 CET**, marqueurs relus à une seconde borne.
 

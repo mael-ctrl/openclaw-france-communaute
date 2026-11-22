@@ -1,6 +1,6 @@
 # Vérifier les liens locaux d'un build statique
 
-`verifier_liens_hors_ligne.py` est un CLI Python standard, sans dépendance ni réseau, pour un **snapshot local immobile**. Il n'appelle ni constructeur, collecte, rédaction, FTP, DNS, paiement ou formulaire. POSIX requis (Linux/macOS, `O_NOFOLLOW`). Aucun branchement automatique au pipeline : ses tests unitaires sont exécutés par la CI existante.
+`verifier_liens_hors_ligne.py` est un CLI Python standard, sans dépendance ni réseau, pour un **snapshot local immobile**. Il n'appelle ni constructeur, collecte, rédaction, FTP, DNS, paiement ou formulaire. POSIX requis (Linux/macOS, `O_NOFOLLOW`). Le pipeline réemploie sa fonction `check` avant FTP ; le CLI autonome et ses plafonds par défaut restent inchangés.
 
 ## Utilisation
 
@@ -18,7 +18,19 @@ python3 outils/verifier_liens_hors_ligne.py /chemin/absolu/du/build \
 
 Lire `complete`, `errors`, `exemptions`, `stats`, `budgets` et `limits`. `complete=true` décrit la complétude de l'inventaire/parsing, **pas l'absence d'erreurs de liens**. Les exemptions ne sont jamais des validations. Les fragments non HTML et directives texte sont exemptés après vérification du fichier ; leurs références figurent donc aussi dans `checked` : ne pas additionner aveuglément les compteurs.
 
-Par défaut : 10 000 entrées fichier/dossier, 20 000 000 octets HTML cumulés, 2 000 000 par HTML, 100 000 références, profondeur 32. Les plafonds d'admission sont 50 000 / 128 000 000 / 4 000 000 / 200 000 / 64. Le média dépasse le budget de 20 Mo : les options explicites ci-dessus ont été éprouvées, sans relever les défauts. En cas de `budget_exceeded`, le scan partiel peut annoncer des cibles manquantes parce que l'inventaire n'est pas complet : **ne pas corriger des pages à partir de ces seuls diagnostics**. Ne pas ignorer le code non nul ni étendre les plafonds sans nouvelle qualification du volume.
+Par défaut : 10 000 entrées fichier/dossier, 20 000 000 octets HTML cumulés, 2 000 000 par HTML, 100 000 références, profondeur 32. Les plafonds d'admission sont 50 000 / 128 000 000 / 4 000 000 / 200 000 / 64. Le média dépassait le budget de 20 Mo au scan du 17 novembre : les options explicites ci-dessus ont été éprouvées sur ce build historique uniquement, sans relever les défauts. Ce n'est pas une qualification du build courant. En cas de `budget_exceeded`, le scan partiel peut annoncer des cibles manquantes parce que l'inventaire n'est pas complet : **ne pas corriger des pages à partir de ces seuls diagnostics**. Ne pas ignorer le code non nul ni étendre les plafonds sans nouvelle qualification du volume.
+
+## Garde du pipeline
+
+`engine/run.py` appelle directement `check` sur `config.DOSSIER_SORTIE`, après le retour du build complet et l'écriture locale de la clé IndexNow, avant le premier appel FTP. L'hôte est dérivé de `URL_SITE` (origine HTTP(S), nom DNS explicite, port standard, sans sous-chemin ni identifiants). Aucun sous-processus CLI, transport JSON ou dépendance supplémentaire.
+
+Les cinq budgets sont explicites : **10 000 entrées / 100 000 000 octets HTML / 2 000 000 par page / 200 000 références / profondeur 32**. Qualification du 22 novembre sur `a5ab769` : **7 930 entrées, 2 631 HTML, 95 534 564 octets HTML, plus grosse page 861 098 octets, 129 154 références**, zéro erreur. Réserve HTML : **4 465 436 octets seulement** ; ce budget volontairement borné devra être requalifié avant saturation, jamais relevé automatiquement. Deux builds identiques ; [recette et limites](../docs/garde-liens-pipeline.md). Ne pas déployer sur un diagnostic partiel.
+
+La garde exige un rapport de schéma 1 complet, au moins un HTML, sans erreur, avec compteurs, hôte et budgets conformes. Défaut, exception ou rapport invalide rejoint la voie d'échec du déploiement : code processus **1**, aucune tentative FTP, aucun signal IndexNow, archivage Wayback ni diffusion Bluesky. Le bilan d'échec et la routine de preuves existante restent exécutés ; les données éditoriales ne sont ni restaurées ni effacées. Un événement `verification_liens` avec compteurs/budgets est ajouté au journal seulement après acceptation. Pour le diagnostic détaillé, rejouer le CLI autonome sur le même snapshot immobile.
+
+`--essai` et `--sans-deploiement` restent sans FTP/annonces et **ne déclenchent pas cette garde de déploiement** ; un code 0 dans ces modes ne certifie pas les liens. `--sans-redaction` ne contourne pas la garde lorsqu'un déploiement est demandé. Le succès incrémental FTP `(0, 0)` demeure un succès, mais seulement après le contrôle des liens.
+
+Cette garde ne verrouille pas les écrivains et ne fige pas le répertoire entre le scan et FTP : l'isolation du build et la coordination local/cloud demeurent des prérequis distincts. Elle ne garantit ni sauvegarde distante ni arrêt borné du pipeline.
 
 ## Périmètre
 

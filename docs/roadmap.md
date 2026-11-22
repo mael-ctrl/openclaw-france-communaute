@@ -1,5 +1,13 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Chantier site du 22 novembre — garde de liens avant FTP
+
+**Une seule intégration : candidat n° 1 du relais du 22, qualité SEO #15.** Vérificateur existant raccordé après build/clé IndexNow et avant FTP/annonces ; aucun changement de gabarit, données ou dépendance. **424 tests Python**, rouge/vert, deux builds isolés avec **5 291 fichiers identiques** et 724 sources préservées. Deux scans complets : **129 154 références, zéro erreur** (31 096 exemptions distinctes), 95 534 564 octets HTML. **Réserve du quota : 4 465 436 octets**, à surveiller/requalifier sans hausse automatique. [Recette et limites](garde-liens-pipeline.md).
+
+**Au commit initial : publication Git/cloud et HTTPS à confirmer.** La disponibilité du site ne prouve pas cette garde : exiger son événement dans le journal cloud et la sauvegarde. Clone partagé conflictuel préservé ; pull réussi seulement dans le worktree sur `a5ab769`. Ni cron, wrapper, coordination des écrivains ni reprise Git modifiés : P9 reste ouvert. Six anciennes copies `_site` nettoyées après inventaire, aucune source/preuve/archive supprimée.
+
+---
+
 ## État courant — 21 novembre 2026, revue de 21 h CET
 
 **Cette synthèse prévaut sur les relevés historiques ci-dessous.** Fenêtre des commits/créations GitHub : **20/11 23:00 → 21/11 20:01:31 UTC**, pas une journée complète. Pull partagé `--ff-only` refusé **128** : six fichiers non fusionnés et journal indexé, HEAD `cd0ebb2`. Pull réussi seulement dans le worktree documentaire sparse sur **`33dc43a`**, sans toucher aux conflits, données ou sceaux. HTTPS contrôlé à **21:03 CET**, marqueurs relus à une seconde borne.

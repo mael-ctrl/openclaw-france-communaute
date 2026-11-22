@@ -23,7 +23,9 @@ TESTS = Path(__file__).resolve().parent
 
 def worker(repo, racine, scenario, arguments):
     """Exécute réellement __main__, dans un enfant sans credentials ni réseau."""
+    isolation = {k: os.environ[k] for k in ('HOME', 'TMPDIR') if k in os.environ}
     os.environ.clear()
+    os.environ.update(isolation)
     sys.dont_write_bytecode = True
     sys.path.insert(0, str(repo / 'engine'))
     with contextlib.ExitStack() as pile:
@@ -61,6 +63,13 @@ def worker(repo, racine, scenario, arguments):
         config.FTP_UTILISATEUR = 'fixture'
         config.FTP_DOSSIER = 'www'
         config.URL_SITE = 'https://exemple.invalid'
+        url_invalides = {'liens-url-vide': '', 'liens-url-scheme': 'ftp://exemple.invalid',
+                         'liens-url-port': 'https://exemple.invalid:8443',
+                         'liens-url-chemin': 'https://exemple.invalid/base',
+                         'liens-url-user': 'https://fixture@exemple.invalid',
+                         'liens-url-dns': 'https://exemple_invalide'}
+        if scenario in url_invalides:
+            config.URL_SITE = url_invalides[scenario]
         preuves.DOSSIER_PREUVES = data / 'preuves'
         preuves.DOSSIER_PREUVES.mkdir()
         preuves.FICHIER_PUBLICATIONS = data / 'publications.jsonl'
@@ -74,6 +83,7 @@ def worker(repo, racine, scenario, arguments):
         config.FICHIER_SOCIAL_ETAT.write_text('{"publies":{"ancien":{}}}\n')
         social_avant = config.FICHIER_SOCIAL_ETAT.read_bytes()
         appels = []
+        scans_liens = []
         etat_avant = None
 
         def rediger_breves(items):
@@ -95,6 +105,23 @@ def worker(repo, racine, scenario, arguments):
                 p = sortie / nom
                 p.parent.mkdir(parents=True, exist_ok=True)
                 p.write_text('<html>Fixture isolée</html>')
+            if scenario == 'liens-cible':
+                (sortie / 'index.html').write_text('<a href="/absent.html">absent</a>')
+            if scenario == 'liens-bon':
+                (sortie / 'index.html').write_text(
+                    '<a href="https://exemple.invalid/articles/neuf/#ok">bon</a>'
+                    '<a href="/cle.txt">clé écrite après build</a>')
+                (sortie / 'articles/neuf/index.html').write_text('<p id="ok">Cible finale</p>')
+            if scenario == 'liens-fragment':
+                (sortie / 'index.html').write_text('<a href="/articles/neuf/#absent">absent</a>')
+            if scenario == 'liens-quota':
+                (sortie / 'index.html').write_text('x' * 2000001)
+            if scenario == 'liens-symlink':
+                (racine / 'hors-site.html').write_text('<p>Non lisible par le scan</p>')
+                (sortie / 'echappe.html').symlink_to(racine / 'hors-site.html')
+            if scenario == 'liens-sans-html':
+                for p in sortie.rglob('*.html'):
+                    p.unlink()
             if scenario == 'noop':
                 etat = {p.relative_to(sortie).as_posix(): [p.stat().st_size, int(p.stat().st_mtime)]
                         for p in sortie.rglob('*') if p.is_file()}
@@ -136,11 +163,58 @@ def worker(repo, racine, scenario, arguments):
                 return retour
             return action
 
+        if scenario.startswith('liens-'):
+            sys.path.insert(0, str(repo / 'outils'))
+            import verifier_liens_hors_ligne
+            check_reel = verifier_liens_hors_ligne.check
+
+            def empreintes():
+                return {str(p.relative_to(sortie)):
+                        ('symlink:' + os.readlink(p) if p.is_symlink()
+                         else hashlib.sha256(p.read_bytes()).hexdigest())
+                        for p in sortie.rglob('*') if p.is_symlink() or p.is_file()}
+
+            def check(*args, **kwargs):
+                appels.append('liens')
+                avant = empreintes()
+                rapport = check_reel(*args, **kwargs)
+                scans_liens.append({'rapport': json.loads(json.dumps(rapport)),
+                                    'build_intact': empreintes() == avant})
+                if scenario == 'liens-incomplet':
+                    rapport['complete'] = False
+                alterations = {
+                    'liens-schema': lambda r: r.update(schema=2),
+                    'liens-erreurs-null': lambda r: r.update(errors=None),
+                    'liens-compteur': lambda r: r['stats'].update(errors=1),
+                    'liens-vide': lambda r: r['stats'].update(html_files=0),
+                    'liens-budget': lambda r: r['budgets'].update(bytes=1),
+                    'liens-hote': lambda r: r.update(canonical_host='autre.invalid'),
+                    'liens-champ-absent': lambda r: r.pop('exemptions'),
+                    'liens-stats-incompletes': lambda r: r['stats'].pop('references'),
+                    'liens-schema-bool': lambda r: r.update(schema=True),
+                    'liens-stats-bool': lambda r: r['stats'].update(errors=False),
+                    'liens-exemptions-null': lambda r: r.update(exemptions=None),
+                }
+                if scenario in alterations:
+                    alterations[scenario](rapport)
+                if scenario == 'liens-retour-null':
+                    return None
+                if scenario == 'liens-exception':
+                    raise OSError('échec lecture synthétique')
+                return rapport
+
+            pile.enter_context(mock.patch.object(verifier_liens_hors_ligne, 'check', check))
+
         apres_run_reel = preuves.apres_run
 
         def apres_run():
             appels.append('preuves')
             return apres_run_reel()
+
+        def ecrire_cle():
+            if scenario == 'liens-bon':
+                appels.append('cle_locale')
+                (sortie / 'cle.txt').write_text('fixture-publique')
 
         for module, nom, remplacement in [
             (collecte, 'collecter', lambda: ([{'id': 'nouveau'}], [])),
@@ -150,7 +224,7 @@ def worker(repo, racine, scenario, arguments):
             (construction, 'construire', construire),
             (deploiement.ftplib, 'FTP', FTPDouble),
             (deploiement, '_mot_de_passe', lambda: 'fixture-non-secrete'),
-            (indexnow, 'ecrire_cle', lambda: None),
+            (indexnow, 'ecrire_cle', ecrire_cle),
             (indexnow, 'signaler', appeler('indexation', 202)),
             (archive, 'archiver_si_necessaire', appeler('archive', 'fixture')),
             (social, 'disponible', appeler('social_disponible', True)),
@@ -167,13 +241,14 @@ def worker(repo, racine, scenario, arguments):
             raise AssertionError('Le CLI doit terminer par SystemExit(main()).')
         lignes = journal.lire_journal()
         resultat = {
-            'code': code, 'appels': appels, 'journal': lignes,
+            'code': code, 'appels': appels, 'journal': lignes, 'scans_liens': scans_liens,
             'prefixe_intact': config.FICHIER_JOURNAL.read_bytes().startswith(prefixe),
             'manifestes_intacts': manifestes_avant == {
                 p.name: p.read_bytes() for p in preuves.DOSSIER_PREUVES.iterdir()},
             'etat_ftp_intact': config.FICHIER_DEPLOY_ETAT.read_bytes() == etat_avant,
             'etat_social_intact': config.FICHIER_SOCIAL_ETAT.read_bytes() == social_avant,
-            'breves_conservees': json.loads(config.FICHIER_BREVES.read_text())[0]['id'] == 'neuf',
+            'breves_conservees': (config.FICHIER_BREVES.exists()
+                                 and json.loads(config.FICHIER_BREVES.read_text())[0]['id'] == 'neuf'),
             'article_conserve': (config.DOSSIER_ARTICLES / 'neuf.json').exists(),
             'registre_present': preuves.FICHIER_PUBLICATIONS.exists(),
             'stats': journal.charger_stats(),
@@ -190,7 +265,8 @@ class PipelineDeploiementTests(unittest.TestCase):
             resultat = subprocess.run(
                 [sys.executable, '-B', str(Path(__file__).resolve()), '--worker', str(REPO),
                  str(racine), scenario, json.dumps(arguments)],
-                cwd=REPO, env={'PYTHONDONTWRITEBYTECODE': '1'},
+                cwd=REPO, env={'PYTHONDONTWRITEBYTECODE': '1',
+                               **{k: os.environ[k] for k in ('HOME', 'TMPDIR', 'PYTHONPATH') if k in os.environ}},
                 capture_output=True, text=True, timeout=20)
             self.assertTrue((racine / 'resultat.json').exists(), resultat.stdout + resultat.stderr)
             info = json.loads((racine / 'resultat.json').read_text())

@@ -8,11 +8,16 @@ Usage :
     python engine/run.py --sans-redaction      # collecte + build + déploiement seulement
 """
 import argparse
+import re
 import sys
 import time
 from pathlib import Path
+from urllib.parse import urlsplit
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'outils'))
+
+import verifier_liens_hors_ligne  # noqa: E402
 
 import archive           # noqa: E402
 import collecte          # noqa: E402
@@ -137,6 +142,35 @@ def main():
     deploiement_reussi = False
     if not args.essai and not args.sans_deploiement:
         try:
+            # Après tous les producteurs locaux, avant FTP et toute annonce.
+            # Budgets requalifiés le 22/11 ; aucun relèvement automatique.
+            url_liens = urlsplit(config.URL_SITE)
+            hote_liens = url_liens.hostname or ''
+            if (url_liens.scheme not in ('http', 'https')
+                    or url_liens.username is not None or url_liens.password is not None
+                    or url_liens.port not in (None, 80 if url_liens.scheme == 'http' else 443)
+                    or url_liens.path not in ('', '/') or url_liens.query or url_liens.fragment
+                    or len(hote_liens) > 253 or any(len(label) > 63 for label in hote_liens.split('.'))
+                    or not re.fullmatch(r'[a-z0-9](?:[a-z0-9-]*[a-z0-9])?(?:\.[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)*', hote_liens)):
+                raise ValueError('liens locaux : URL_SITE non qualifiable')
+            budgets_liens = {'files': 10000, 'bytes': 100000000, 'page_bytes': 2000000,
+                            'links': 200000, 'depth': 32}
+            rapport_liens = verifier_liens_hors_ligne.check(
+                config.DOSSIER_SORTIE, hote_liens, budgets_liens)
+            stats_liens = rapport_liens['stats']
+            if (type(rapport_liens['schema']) is not int or rapport_liens['schema'] != 1
+                    or rapport_liens['complete'] is not True or rapport_liens['errors'] != []
+                    or any(type(stats_liens[k]) is not int or stats_liens[k] < 0 for k in
+                           ('html_files', 'references', 'checked', 'errors', 'exemptions',
+                            'entries_seen', 'html_bytes'))
+                    or stats_liens['errors'] != 0 or stats_liens['html_files'] < 1
+                    or not isinstance(rapport_liens['exemptions'], list)
+                    or len(rapport_liens['exemptions']) != stats_liens['exemptions']
+                    or rapport_liens['canonical_host'] != hote_liens
+                    or rapport_liens['budgets'] != budgets_liens):
+                raise ValueError('liens locaux : diagnostic incomplet ou défaut, déploiement refusé')
+            journal.ajouter('verification_liens', stats=rapport_liens['stats'],
+                            budgets=rapport_liens['budgets'])
             envois, octets = deploiement.deployer()
             journal.ajouter("deploiement", fichiers=envois, octets=octets)
             resume["envois"] = envois

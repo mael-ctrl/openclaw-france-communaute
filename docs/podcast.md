@@ -1,5 +1,9 @@
 # Podcast : rendre les audios existants découvrables et abonnables
 
+## Édition du 22 novembre — contenu et recette terminés, publication à vérifier
+
+Quatre sujets, **135,624 secondes**, Denise `+8%` ; **428 tests locaux réussis**, build réel et **27 GUID uniques**. Les dernières brèves disponibles datent du 21, explicitement annoncé ; sources requalifiées, objectif de CA distinct du reversement des bénéfices. À 20:25 UTC, aucun succès de publication de cette édition n'est encore revendiqué. [Sources, recette et relais exploitation](podcast-2026-11-22.md).
+
 ## Édition du 21 novembre — publiée par repli ciblé
 
 Quatre sujets, **132 secondes**, voix Denise `+8%`, commit `262c0ef` ; **412 tests locaux et cloud**. MP3/page/RSS exacts en HTTPS à **18:48:45 UTC**, **26 GUID uniques**. Page et flux rétablis par SFTP après expiration officielle à 45 min du run `44931077224` ; audio déjà exact, non réécrit. Sauvegarde cloud ignorée, successeur `44934778464` encore en cours ; publication acquise, exploitation non réparée. [Sources, recette et incident précis](podcast-2026-11-21.md).

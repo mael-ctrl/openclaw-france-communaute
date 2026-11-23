@@ -1445,6 +1445,40 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-22/hub-kit-permissions/`.
 
+## Modèle local dans le démarrage Hermes — livraison du 23/11/2026
+
+- **Une amélioration** : la section 10 de `demarrage.md` ne promet plus un
+  fonctionnement « sans coût » ni que « tout reste chez vous ». Elle distingue
+  modèle local, Ollama Cloud, matériel/électricité, hébergement et outils externes.
+  Parcours local avec contexte effectif, modèles auxiliaires et fournisseurs de
+  secours à vérifier ; contrôle réseau indépendant si le hors-ligne est requis.
+- Sources Hermes et Ollama relues le 23/11 : cinq liens officiels en HTTPS 200,
+  ancres vérifiées. L’installation Ollama est renvoyée vers sa procédure par
+  système au lieu d’un script shell présenté comme universel. Aucun installateur,
+  configuration, HTML, CSS ou kit OpenClaw modifié ; aucune installation réelle,
+  compatibilité matérielle ou isolation réseau certifiée.
+- Quatre nouveaux tests reproduisent les manques avant correction, puis passent ;
+  **133 tests hub et kits réussis**. Les quatre nouveaux tests passent aussi sur
+  le Markdown et le ZIP relus en HTTPS. Contrôle HTML : **271 références locales
+  vérifiées, zéro erreur** ; le vérificateur exclut Markdown et liens externes,
+  les cinq sources de la section ont donc été contrôlées séparément.
+- Bureau illisible en cron (`Resource deadlock avoided`), clone partagé en
+  conflits laissé intact. Déploiement par `python3 outils/deployer_openclaw.py`
+  depuis le clone dédié synchronisé hors Bureau, après sauvegarde privée et
+  comparaison production/Git. **36 fichiers relus via FTP**, tous identiques aux
+  sources après envoi. Seuls trois fichiers publics changent : `demarrage.md`,
+  ZIP Hermes et manifeste SHA-256 ; ZIP OpenClaw inchangé octet pour octet.
+- **Six URL de santé HTTP 200** ; contrôle étendu de **14 URL en 200**, dont le
+  ZIP réellement lié (`?v=2`). CRC, SHA-256 et tous les membres des ZIP vérifiés.
+  **IndexNow HTTP 200** pour le Markdown modifié : notification acceptée, pas
+  preuve d’indexation. Aucun gain de trafic ou de téléchargements prétendu.
+- **Aucune distribution supplémentaire** : l’outreach FrenchWeb du 23/11,
+  retrouvé dans le journal Git synchronisé, occupe déjà le quota quotidien.
+  Aucun post Bluesky, contact ou relance ajouté. Prochaine priorité : revoir les
+  exemples des premiers pas pour rappeler les accès minimaux avant la session.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-23/hub-kit-local/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

@@ -1,6 +1,35 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
-## État courant — 22 novembre 2026, revue de 21 h CET
+## État courant — 23 novembre 2026, revue de 21 h CET
+
+**Cette synthèse prévaut sur les relevés historiques ci-dessous.** Revue exécutée le 23 ; fenêtre des commits/créations GitHub **[22/11 23:00, 23/11 20:00:59] UTC**, pas une journée complète. Observations de production à **21:02–21:04 CET**. Pull partagé `--ff-only` refusé pour fichiers non fusionnés : six conflits et journal indexé, HEAD `59985bd`. Pull réussi seulement dans le worktree documentaire sparse sur **`a34df67`** ; rebase, données et sceaux préservés.
+
+**Six commits ; 19 runs cloud : 18 annulations pendant pipeline avec sauvegarde ignorée, un en cours.** Aucune sauvegarde cloud réussie dans cette fenêtre. **Régression du catalogue public : 646 URL au sitemap, dont 540 articles contre 563 dans Git ; 45 chemins Git absents et 22 chemins publics supplémentaires.** Le RSS podcast est revenu à **17 GUID, dernier épisode du 4 novembre**, malgré le MP3 du 23 déjà servi. OPML Transformers et kit Hermes sont, eux, confirmés publiés. Ne pas confondre fraîcheur du build et cohérence de publication.
+
+| Chantier | État vérifié / provenance au 23/11 | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | ✅ Transformers `55294d0` : **41 couples OPML exacts à Git**, compteur public 41. 🔴 Sitemap : **45 articles Git absents**, 22 supplémentaires ; 13 dates News dans les 48 h, aucune future | Rapprocher les catalogues et les variantes sans purge/redirection ni redatation. OPML réparé à 13:10 UTC après retour à 28 sources ; ne pas refaire cet ajout. Fraîcheur ≠ indexation |
+| P2 — Site | ✅ Garde pré-FTP déjà intégrée. 🔶 Job du 23 **unknown**, pas de bilan final ; recette confidentialité sur `d7687ef` : suite code 0 puis **build ENOSPC**. Livraison voisine `14c8291` modifie depuis le même Markdown/ZIP | Réconcilier la tentative avant reprise, préserver son refus puis requalifier seulement le reliquat du patch sur `14c8291` ou son descendant. Ni intégration complète ni panne actuelle de disque déduite ; ne pas réintégrer la garde |
+| P3 — Podcast | 🔶 Éditions du 22 et du 23 versionnées. MP3 du 23 : **776 160 octets exacts à Git** ; page sans son script et RSS **17 GUID**, dernier épisode du 04/11 au lieu de 28 GUID attendus | Suivre `45248400941` déjà actif, puis relire page/RSS/audio et sauvegarde. **Publication partielle seulement**, ne pas recréer l'audio ou redéclencher en boucle |
+| P4 — Newsletter | 🔶 Monétisation silencieuse ; relais support humain du 20 inchangé, procédure mono-destinataire non établie | Brouillon fermé ; aucune réponse IA au support, ticket/alias de substitution, campagne ou surcoût. Dépendance différée, pas de deuxième demande humaine |
+| P5 — Monétisation | 🔴 KPI, métriques hebdo et **quatre veilles du 23**, dernière à **18:01 CET** : OAuth Stripe 401, renouvellement impossible. Ventes/cumul indisponibles, jamais zéro. B2B 200, mentions 404 | **Action humaine unique : réautoriser Stripe**, puis attribuer les paiements. Vendeur/TVA et prérequis commerciaux cumulatifs non levés ; prospection B2B fermée |
+| P6 — Presse / distribution | ✅ FrenchWeb `d7687ef` : proposition éditoriale IA déclarée, **SMTP accepté et copie relue** selon le registre ; réception/intérêt non confirmés. Distribution/courrier/Mastodon silencieux ; veille concurrence sans changement | Quota de distribution du 23 consommé ; suivi sans renvoi. Ne pas reconduire « jamais envoyé » pour le brouillon FrenchWeb du 17. Aucune approbation Mastodon ni partenariat déduit |
+| P7 — Record | 🔴 **18 sauvegardes cloud ignorées** ; sceau local annoncé, republication locale refusée. Capture réelle de variantes refusée : **223 339 134 octets projetés / plafond 180 000 000**, aucun corps sauvegardé par ce lot | Qualifier représentation moins duplicative ou enveloppe mesurée, puis récupération indépendante et rétention distante ; ne pas relever le quota en silence. Aucune chaîne historique recalculée ou sceau réécrit |
+| P8 — Skool | 🔶 Brouillon du 23 « Un prompt = une tâche » et deux textes de promotion hebdo préparés ; **aucune publication attestée**. 18/22 historique, non recompté | Session authentifiée : réconcilier M6, membres et publications ; brouillon ≠ animation réalisée, pas de promotion supplémentaire aujourd'hui |
+| P9 — Organisation / exploitation | 🔴 Pull refusé → **665 envois/quatre posts rapportés** → republication refusée, pourtant cron `ok`. Wrapper inchangé. Trois remises/trois replays parent selon rapport ; **42 pièces revérifiées intactes** ici | **Priorité interne :** admission/propagation des erreurs, coordination des écrivains, reprise Git préservant les variantes, puis arrêt borné/export/rétention cloud. **23 294 672 896 octets libres à 21:02**, sans purge ici ; cela ne répare pas les ENOSPC antérieurs |
+| P10 — Hub / affiliation | ✅ `14c8291` : modèle local ≠ coût nul/hors-ligne ; **demarrage.md, ZIP et sommes exacts à Git en HTTPS**. 133 tests rapportés, non rejoués ; affiliation inactive | Requalifier le reliquat confidentialité des premiers exemples/mémoire sur cette nouvelle base ; ne pas écraser la section locale déjà corrigée. Installation multi-OS non démontrée |
+
+### Une seule action humaine — réautoriser Stripe
+
+**Message exact :** « Maël, lance `hermes mcp login stripe --flow browser` et approuve la reconnexion Stripe dans le navigateur. L'accès OAuth renvoie 401 et le renouvellement automatique échoue : les ventes du Crabe ne sont plus vérifiables. »
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si ce blocage empêche le pilotage financier.** Destinataire, objet et texte exacts préparés dans `crabe-chantiers/gouvernance/2026-11-23-20261123T200059Z/escalade-mael.txt`, hors dépôt public ; **non envoyés**. Newsletter et identité vendeuse restent distinctes, sans deuxième sollicitation ni accord déduit du silence.
+
+**Mesure : 949 IP uniques estimées le 22, −42 / −4,2 %**, média + hub, robots identifiés exclus ; chiffre désormais aussi sauvegardé dans `data/trafic.json` par `59985bd`. Ni personnes garanties, ni trafic du 23, ni effet attribué aux livraisons. Hebdo : hausse moyenne des IP mais baisse des requêtes présumées humaines ; aucune croissance des lecteurs déduite. [Bilan détaillé](ceo-log.md#2026-11-23--bilan-du-soir-publications-partielles-et-catalogue-régressé). Seuls les deux documents de pilotage sont publiés ; aucun déploiement, dispatch, cron, email, post, paiement ou Discord déclenché ici. Livraison locale uniquement.
+
+---
+
+## État antérieur — 22 novembre 2026, revue de 21 h CET
 
 **Cette synthèse prévaut sur les relevés historiques ci-dessous.** Revue prévue à 21 h, dispatch à **21:10:19 CET** ; observations du **22 entre 21:10 et 21:20**. Fenêtre des commits/créations GitHub : **21/11 23:00 → 22/11 20:17:30 UTC**, pas une journée complète. Pull partagé `--ff-only` refusé **128** : six conflits et journal indexé, HEAD `a5ab769`. Pull réussi seulement dans le worktree documentaire sparse sur **`9eb9db3`** ; rebase, données et sceaux préservés.
 

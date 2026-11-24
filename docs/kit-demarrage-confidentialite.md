@@ -25,7 +25,7 @@ Réemploi ciblé du candidat privé `hub-hermes/2026-11-23-vague-0930-confidenti
 
 ## Recette de l'intégrateur
 
-- Trois échecs attendus observés avant correction. Première recette : **436 tests Python** ; après rebase sur les livraisons voisines : **441 tests Python**, zéro échec/erreur.
+- Trois échecs attendus observés avant correction. Première recette : **436 tests Python** ; après rebase sur les livraisons voisines : **441 tests Python et huit tests Node**, zéro échec/erreur.
 - Deux vrais appels isolés à `construction.construire()` à horloge commune après rebase : **5 293 fichiers média identiques**, **634 fichiers de données et 95 de contenus préservés**. Aucun moteur modifié, aucun état de recette repris en production.
 - ZIP généré deux fois identiquement : **24 702 octets**, SHA256 `67d402459f707470e631e9de95b8589a7c612baa9e5d54dc021956273385d585`. Cinq membres comparés au kit individuel ; les quatre membres non ciblés conservent contenu, métadonnées et flux compressés. Seul `demarrage.md` change.
 - Premier préflight SFTP **refusé sans écriture** : les trois cibles avaient entretemps reçu la livraison `7e18621`. Les corps et le refus sont conservés ; rapprochement exact avec Git, rebase puis nouveau préflight réussi sur trois cibles, **14 témoins sauvegardés**. Pas d'écrasement de la livraison voisine.
@@ -34,4 +34,10 @@ Pièces privées : `crabe-chantiers/site/2026-11-24-confidentialite/`, puis `req
 
 ## Publication
 
-Au commit de préparation : code et contenu entièrement qualifiés ; publication ciblée du hub, lectures SFTP/HTTPS et issue du dispatch cloud à constater. `maj.yml` teste les contrats et déploie le média, **pas le hub**. Aucun cron, wrapper opérationnel, compte, paiement, campagne ou Discord modifié par ce chantier.
+**Hub publié, commit `c18eb8fb256399262a00e177c6e49a29b7a61b78` : six blobs GitHub relus exactement.** Le 24 à **15:05:15 UTC**, les trois cibles sont transférées par SFTP après clé hôte épinglée, sauvegarde et relecture de base ; upload temporaire puis renommage par fichier et relecture exacte. À **15:19:45 UTC**, nouvelle lecture exacte des trois cibles et **14 témoins toujours inchangés**.
+
+Deux recettes HTTPS, à **15:06 et 15:19 UTC**, vérifient chacune **11 réponses 200**, dont huit réponses de fichiers exactes : cinq membres individuels, sommes, ZIP canonique et ZIP réellement lié `?v=2`. Tous les membres extraits correspondent aux fichiers téléchargés ; sept contrats rejoués sur les corps publics (notice et premier essai). Accueil du média et marqueur de version en 200 ne prouvent pas sa cohérence exhaustive. Pas de nouvelle QA visuelle revendiquée : aucun HTML/CSS modifié.
+
+**Cloud :** [dispatch `45421309006`](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/45421309006), sur le commit livré, lancé à 15:04:51 UTC. D'abord en attente, puis démarré à 15:32:29 ; **contrats réussis à 15:34:23**. Au relevé de **15:34:30**, pipeline média en cours et sauvegarde en attente : **aucun succès global ni déploiement intégral du média annoncé**. Les watchers bornés ne sont pas des échecs du workflow. `maj.yml` ne publie pas le hub : sa publication est démontrée séparément par SFTP/HTTPS, pas par le statut cloud.
+
+Aucun cron, wrapper opérationnel, compte, paiement, campagne ou Discord modifié. Aucun gain d'audience ou d'indexation déduit ; les problèmes d'exploitation du clone partagé restent ouverts.

@@ -1,5 +1,9 @@
 # Podcast : rendre les audios existants découvrables et abonnables
 
+## Édition du 24 novembre — revue produite, publication à confirmer
+
+Trois sujets, **127,752 secondes**, Denise `+8%` ; **441 tests locaux réussis**, build réel et **29 GUID uniques**. Les dernières brèves disponibles datent du 21, explicitement annoncé. Anciens épisodes préservés ; publication HTTPS non certifiée par cette recette. [Sources, vérifications et relais exploitation](podcast-2026-11-24.md).
+
 ## Édition du 23 novembre — revue produite, publication à confirmer
 
 Quatre sujets, **129,360 secondes**, Denise `+8%` ; **433 tests locaux réussis**, build réel et **28 GUID uniques**. Les dernières brèves disponibles sont celles du 21, ce que le script précise. Anciens épisodes préservés ; publication HTTPS non certifiée par cette recette. [Sources, vérifications et relais exploitation](podcast-2026-11-23.md).

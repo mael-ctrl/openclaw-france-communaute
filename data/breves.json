@@ -1,5 +1,132 @@
 [
  {
+  "id": "f21d67ae23f112af",
+  "slug": "openclaw-2026-11-8-314-commits-et-86-contributeurs-f21d67",
+  "titre": "OpenClaw 2026.11.8 : 314 commits et 86 contributeurs",
+  "resume": "La version 2026.11.8 d'OpenClaw est publiée, avec 314 commits, 210 pull requests et 86 contributeurs. Les notes de version et le changelog couvrent le même contenu, présenté en deux formats : les release notes sont rédigées pour les humains, le changelog reste en Markdown brut destiné aux agents IA et aux outils.",
+  "tags": [
+   "openclaw",
+   "open-source",
+   "dev",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "OpenClaw (releases)",
+  "lien_source": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.8",
+  "date_source": "2026-11-24T19:32:46+00:00",
+  "date_redac": "2026-11-24T19:59:06+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 904,
+   "sortie": 278
+  }
+ },
+ {
+  "id": "dce8852069416441",
+  "slug": "openai-publie-une-preversion-alpha-de-codex-estampillee-0-174-0-alpha--dce885",
+  "titre": "OpenAI publie une préversion alpha de Codex, estampillée 0.174.0-alpha.3",
+  "resume": "OpenAI a mis en ligne une préversion de Codex, numérotée 0.174.0-alpha.3. La release apparaît sur le dépôt GitHub du projet sous l'étiquette « rust ». Aucun détail sur le contenu, les correctifs ou les fonctionnalités n'accompagne cette publication : il s'agit d'une alpha, donc d'une version de test destinée aux utilisateurs les plus avancés.",
+  "tags": [
+   "openai",
+   "dev"
+  ],
+  "importance": 1,
+  "source": "Codex (releases, préversions incluses)",
+  "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.3",
+  "date_source": "2026-11-24T19:03:53+00:00",
+  "date_redac": "2026-11-24T19:59:12+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 603,
+   "sortie": 697
+  }
+ },
+ {
+  "id": "90e2b8f067be1722",
+  "slug": "litellm-1-108-16-lts-deux-reglages-a-ajuster-apres-la-mise-a-jour-90e2b8",
+  "titre": "LiteLLM 1.108.16 LTS : deux réglages à ajuster après la mise à jour",
+  "resume": "LiteLLM publie la version 1.108.16 de sa branche LTS : 46 pull requests, dont 4 ajouts et 34 correctifs. Deux réglages demandent une action. Côté MCP, définir LITELLM_MCP_DCR_GATEWAY_CLIENT=true pour garder l'enregistrement automatique des ponts DCR sans client — aussi en 1.109.4 et 1.110.3. Côté Azure, les déploiements /openai/v1 qui utilisaient OPENAI_API_KEY doivent définir api_key ou AZURE_API_KEY.",
+  "tags": [
+   "dev",
+   "open-source",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "LiteLLM (releases, préversions incluses)",
+  "lien_source": "https://github.com/BerriAI/litellm/releases/tag/v1.108.16",
+  "date_source": "2026-11-24T18:35:19+00:00",
+  "date_redac": "2026-11-24T19:59:17+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 864,
+   "sortie": 1213
+  }
+ },
+ {
+  "id": "d0cb85d40accec3e",
+  "slug": "litellm-v1-110-3-une-variable-a-definir-pour-garder-le-dcr-du-gateway-d0cb85",
+  "titre": "LiteLLM v1.110.3 : une variable à définir pour garder le DCR du gateway",
+  "resume": "LiteLLM publie la 1.110.3 : 7 PRs, dont un correctif où le pass-through /gemini de fichiers (get, download, delete) contournait le contrôle de propriété. Côté MCP, l'enregistrement DCR des clients du gateway devient opt-in : il faut définir LITELLM_MCP_DCR_GATEWAY_CLIENT=true pour garder l'enregistrement automatique des ponts sans client, ce qui corrige les 403 oauth_principal_mismatch sur clés partagées.",
+  "tags": [
+   "dev",
+   "open-source",
+   "sécurité",
+   "agents"
+  ],
+  "importance": 2,
+  "source": "LiteLLM (releases, préversions incluses)",
+  "lien_source": "https://github.com/BerriAI/litellm/releases/tag/v1.110.3",
+  "date_source": "2026-11-24T18:35:09+00:00",
+  "date_redac": "2026-11-24T19:59:24+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 852,
+   "sortie": 1370
+  }
+ },
+ {
+  "id": "38fefa012a77ded2",
+  "slug": "litellm-1-109-4-l-enregistrement-dcr-cote-gateway-devient-opt-in-38fefa",
+  "titre": "LiteLLM 1.109.4 : l'enregistrement DCR côté gateway devient opt-in",
+  "resume": "La version 1.109.4 de LiteLLM est publiée, avec 2 PRs dont une qui demande une action. L'enregistrement automatique des clients DCR côté gateway devient opt-in : il faut désormais définir LITELLM_MCP_DCR_GATEWAY_CLIENT=true pour le conserver, ce qui corrige l'erreur 403 oauth_principal_mismatch sur les clés de service partagées. Le correctif est aussi présent en 1.108.16 et 1.110.3.",
+  "tags": [
+   "dev",
+   "open-source",
+   "agents",
+   "sécurité"
+  ],
+  "importance": 2,
+  "source": "LiteLLM (releases, préversions incluses)",
+  "lien_source": "https://github.com/BerriAI/litellm/releases/tag/v1.109.4",
+  "date_source": "2026-11-24T18:35:08+00:00",
+  "date_redac": "2026-11-24T19:59:29+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 821,
+   "sortie": 708
+  }
+ },
+ {
+  "id": "1a64ab52517b7f26",
+  "slug": "anthropic-l-action-repasse-sous-son-prix-d-introduction-1a64ab",
+  "titre": "Anthropic : l'action repasse sous son prix d'introduction",
+  "resume": "L'action d'Anthropic est repassée sous son prix d'introduction en Bourse. Ce décrochage post-IPO est lu comme un signal inquiétant pour les startups de l'IA. En cause : la pression qu'il pourrait exercer sur leurs valorisations.",
+  "tags": [
+   "business",
+   "claude"
+  ],
+  "importance": 4,
+  "source": "TechCrunch IA",
+  "lien_source": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+  "date_source": "2026-11-24T18:30:42+00:00",
+  "date_redac": "2026-11-24T19:59:33+00:00",
+  "gen": {
+   "modele": "deepseek-flash",
+   "entree": 618,
+   "sortie": 619
+  }
+ },
+ {
   "id": "88037dd21a6a62de",
   "slug": "npu-des-pc-portables-ce-que-cette-puce-ia-fait-vraiment-88037d",
   "titre": "NPU des PC portables : ce que cette puce IA fait vraiment",

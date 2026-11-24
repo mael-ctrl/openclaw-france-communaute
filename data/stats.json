@@ -1,22 +1,18 @@
 {
- "runs": 506,
- "items_collectes": 5244,
- "breves_publiees": 2011,
- "articles_publies": 385,
- "tokens_entree": 2050242,
- "tokens_sortie": 2803413,
+ "runs": 507,
+ "items_collectes": 5284,
+ "breves_publiees": 2017,
+ "articles_publies": 386,
+ "tokens_entree": 2055701,
+ "tokens_sortie": 2811079,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-11-21T18:50:11+00:00",
+ "dernier_run": "2026-11-24T19:59:51+00:00",
  "solde": {
-  "total": "80.41",
+  "total": "80.03",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-11-13T18:22:23+00:00",
-   "message": "brève impossible (Tontaube V1.1: open-weights TTS with voice cloning for long-) : réponse non-JSON"
-  },
   {
    "ts": "2026-11-14T10:28:36+00:00",
    "message": "brève impossible (Can open-weight LLMs can predict the effects of weight edits) : réponse non-JSON"
@@ -32,15 +28,15 @@
   {
    "ts": "2026-11-20T03:51:46+00:00",
    "message": "archivage wayback : The read operation timed out"
+  },
+  {
+   "ts": "2026-11-24T20:34:22+00:00",
+   "message": "déploiement : [Errno 104] Connection reset by peer"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 11.25,
+ "depense_usd": 11.63,
  "historique_solde": [
-  [
-   "2026-09-29T22:42:23+00:00",
-   "91.36"
-  ],
   [
    "2026-09-29T22:44:31+00:00",
    "91.30"
@@ -2036,10 +2032,14 @@
   [
    "2026-11-21T18:49:31+00:00",
    "80.41"
+  ],
+  [
+   "2026-11-24T19:59:04+00:00",
+   "80.03"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.29,
+ "depense_mois_usd": 2.67,
  "archive_tentatives": {
   "jour": "2026-11-21",
   "n": 1

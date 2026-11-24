@@ -52,10 +52,43 @@ du journal intact. Aucune donnée de recette importée dans le dépôt. OPML can
 SHA256 `665248e72c42b6c0e6be0dd255fcdc85f6b5dcec2d7c378894a858876e66d757`.
 Pièces privées : `crabe-chantiers/croissance/2026-11-24-1548/preuves/`.
 
-## Livraison
+## Livraison vérifiée, clôture cloud distincte
 
-Publication à vérifier après commit/dispatch. Au début de la mission, le run
-`45417959509` déploie encore l'ancien catalogue de 41 sources : aucun transfert
-ciblé ne doit être effectué tant que ce run peut écraser les deux cibles.
-La clôture cloud, la publication HTTPS de l'OPML/compteur et les dettes du clone
-partagé restent des contrôles distincts.
+Deux pushs ont été refusés pour avancées voisines. Le seul commit de cette mission
+a été rebasé dans son worktree : nouvelle suite combinée **438 tests réussis**
+après le premier rebase ; le second n'ajoutait que des documents presse. Aucun
+reset, force-push ou changement du clone partagé. Code livré :
+**`2a585945e8c8d2e47f5b5c3c7cbd9b8f5c7c8426`** ; les trois fichiers relus sur
+`main` par l'API GitHub sont identiques aux octets locaux.
+
+Dispatch unique `45420138152`, ensuite annulé sans job en file d'attente.
+Successeur `45421309006`, SHA `c18eb8fb256399262a00e177c6e49a29b7a61b78` :
+ascendance et identité des trois fichiers vérifiées. Aucun nouveau dispatch ni
+annulation d'un run actif par cette mission.
+
+Le run antérieur `45417959509` s'est terminé **cancelled**, pipeline annulé et
+sauvegarde sautée. Le délai du watcher n'est pas utilisé comme diagnostic de
+cause. Le transfert ciblé a attendu sa terminaison. Préflight à **15:33 UTC** :
+inventaire paginé des cinq statuts actifs, seul le successeur avec 42 sources
+actif ; aucun éditeur local `engine/run.py` détecté. Contrôle ponctuel,
+pas verrou transactionnel.
+
+Clé hôte SFTP vérifiée avant secret, deux cibles exactes sauvegardées et base
+OPML identique au catalogue parent de 41 sources. Seuls `veille/sources.opml`
+et le compteur **41 → 42** de `transparence/index.html` ont été transférés,
+par fichiers intermédiaires exclusifs puis renommage. Tous les autres octets de
+Transparence sont préservés, ainsi que les témoins `.htaccess` racine, veille et
+CORS Skool. Relecture SFTP exacte à **15:33:23 UTC**.
+
+La première réponse HTTPS de l'OPML renvoyait encore les octets précédents ;
+échec et corps conservés, **aucune réécriture** pour le masquer. Les relectures
+suivantes sont exactes. À **15:34:15 UTC**, deux passages SFTP + HTTPS strict
+confirment les mêmes octets : OPML de **5 209 octets / 42 couples nom-URL**,
+compteur 42 ; témoins toujours inchangés. Une lecture ultérieure réussie ne
+prouve pas la cause de l'écart initial. Preuve privée :
+`crabe-chantiers/croissance/2026-11-24-1548/recontrole-01/result.json`.
+
+La publication ciblée est acquise et les contrats cloud du successeur ont réussi ;
+son pipeline est encore en cours au dernier contrôle. Cela ne clôt ni sa sauvegarde
+cloud, ni les conflits du clone partagé, ni les interruptions d'exploitation.
+Aucun gain d'audience n'est déduit de cet ajout.

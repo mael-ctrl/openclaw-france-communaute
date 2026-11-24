@@ -1,5 +1,34 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## État courant — 24 novembre 2026, revue de 21 h CET
+
+**Cette synthèse prévaut sur les relevés historiques ci-dessous.** Fenêtre commits/créations GitHub **[23/11 23:00, 24/11 20:07:04] UTC**, pas une journée complète ; sondes HTTPS à **21:08 CET**. Pull partagé `--ff-only` refusé **128** : six conflits et journal indexé, HEAD `830ad16`, préservés. Pull réussi uniquement dans le worktree documentaire sparse sur **`62ab943`**, sans réparer ni reprendre le rebase d'exploitation.
+
+**Sept commits ; onze runs cloud : dix annulés, un en cours.** Parmi les annulations : **neuf pendant pipeline avec sauvegarde ignorée, une sans job**. Aucune sauvegarde cloud réussie dans la fenêtre. **Catalogue et podcast rétablis au contrôle public : 563 articles Git = sitemap, épisode du 23 présent dans page/RSS/audio, 28 GUID uniques.** Ce rétablissement ne clôt pas P9. Diffusers et les deux corrections du kit sont publiés ; capsule réelle récupérée localement, pas sauvegardée à distance.
+
+| Chantier | État vérifié / provenance au 24/11 | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | ✅ **42 couples OPML exacts**, compteur 42 ; Diffusers `2a58594` acquis. **563 articles Git = sitemap**, zéro chemin absent/supplémentaire. 🔴 **Six dates News dans les 48 h**, sous le seuil de dix ; aucune future | Rétablir une publication complète et récente via P9 ; surveiller les producteurs sans refaire Diffusers ni redater les contenus. Dernier succès IndexNow du journal média : 21/11 ; ping du hub distinct |
+| P2 — Site | ✅ Confidentialité du kit `c18eb8f` publiée : Markdown/ZIP/sommes exacts à Git en HTTPS. **441 Python/huit Node** rapportés, non rejoués ici. Dispatch `45421309006` désormais **annulé pendant pipeline**, sauvegarde ignorée | Ne pas réintégrer le candidat doublon de la vague. Préserver les corrections voisines ; distinguer publication du hub et clôture cloud média. [Dossier](kit-demarrage-confidentialite.md) |
+| P3 — Podcast | ✅ Édition du **23** : **776 160 octets audio exacts à Git**, script exact dans la page, **28 GUID uniques**. Job du **24 encore running à 21:08**, sans sortie finale ni épisode du 24 dans la base figée | Réconcilier l'exécution du 24 avant reprise ; ne pas recréer le 23 ni annoncer l'édition du 24 livrée. Le rétablissement page/flux ne prouve pas une sauvegarde cloud réussie |
+| P4 — Newsletter | 🔶 Hebdo silencieux : aucun nouveau décompte/envoi attesté par sa sortie. Relais support humain du 20 inchangé, procédure mono-destinataire non établie | Brouillon fermé ; aucune réponse IA au support, nouveau ticket/alias, campagne ou surcoût. Dépendance différée, pas de deuxième demande humaine |
+| P5 — Monétisation | ✅ Promotion du Pack publiée, IA/publicité déclarées, carte vers les trois extraits ; vérifications serveur/AppView consignées `a5aef2f`. 🔴 KPI et veille achevée à **21:07 : Stripe 401**, renouvellement refusé | **Action humaine unique : réautoriser Stripe**, puis attribuer les paiements. Aucune vente déduite du post. B2B 200, mentions 404 ; vendeur/TVA et autres prérequis non levés, prospection fermée |
+| P6 — Presse / distribution | ✅ Le Monde Informatique ajouté, 25 médias revérifiés, RTBF en veille ; pitch de 109 mots `59f3b0c`, **aucun envoi par cette revue presse**. Courrier/distribution/Mastodon silencieux | Suivi sans renvoi ; quota du 24 consommé par le Pack, **aucune nouvelle promotion Bluesky jusqu'au 29 inclus**. Actualités automatiques distinctes ; aucun partenariat ou accord déduit |
+| P7 — Record / récupération | 🔶 Capsule réelle : **27 commits locaux-only / 149 chemins**, récupération locale de **122 fichiers** selon le rapport. **Neuf sauvegardes cloud ignorées** ; transfert local interrompu, republication refusée | Préserver la capsule, qualifier récupération indépendante durable/rétention distante ; pas de nouvelle capsule identique ni import dans `data/`. Chaînes historiques non validées, aucun sceau réécrit |
+| P8 — Skool | 🔶 Brouillon du 24 « La boîte à outils du crabe : ce qu’on utilise au quotidien », calendrier seul ; aucune publication attestée. **18/22 historique**, non recompté | Session authentifiée : réconcilier M6, membres et publications ; brouillon ≠ animation réalisée |
+| P9 — Organisation / exploitation | 🔴 Pull refusé → transfert partiel/connexion réinitialisée → republication refusée, malgré cron `ok`. Wrapper inchangé. Vague : trois remises/trois replays parent selon rapport ; **65 pièces du manifeste revérifiées intactes ici** | **Priorité interne :** admission/propagation des erreurs, coordination des écrivains et reprise Git préservant les variantes ; ensuite qualifier cache par contenu, arrêt borné/export/rétention. Cache préparé **non activé**. **30 641 446 912 octets libres** à 21:07, sans purge ici |
+| P10 — Hub / affiliation | ✅ Premier essai fictif/accès limités `7e18621` et confidentialité `c18eb8f` conservés ensemble ; trois ressources canoniques exactes en HTTPS. Affiliation inactive | Vérifier séparément les exemples Git/skills actuels ; ne pas appliquer l'ancien patch/ZIP de la vague. Installation multi-OS non démontrée |
+
+### Une seule action humaine — réautoriser Stripe
+
+**Message exact :** « Maël, lance `hermes mcp login stripe --flow browser` et approuve la reconnexion Stripe dans le navigateur. L'accès OAuth renvoie 401 et le renouvellement automatique échoue : les ventes du Crabe ne sont plus vérifiables. »
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si ce blocage empêche le pilotage financier.** Destinataire, objet et texte exacts préparés dans `crabe-chantiers/gouvernance/2026-11-24/escalade-mael.txt`, hors dépôt public ; **non envoyés**. Newsletter et identité vendeuse restent des dépendances distinctes, sans deuxième sollicitation ni validation déduite du silence.
+
+**Mesure : 914 IP uniques estimées le 23, −35 / −3,7 %**, selon le KPI collecté en clone isolé ; média + hub, robots identifiés exclus. Le blob trafic Git s'arrête au 22. Ni personnes garanties, ni trafic du 24, ni effet attribué aux livraisons ; ventes/cumul indisponibles, jamais zéro. [Bilan détaillé](ceo-log.md#2026-11-24--bilan-du-soir-catalogue-rétabli-exploitation-toujours-bloquée). Seuls les deux documents de pilotage sont publiés ; aucun déploiement, dispatch, cron, email, post, paiement ou Discord déclenché ici. Livraison locale uniquement.
+
+---
+
 ## Chantier site du 24 novembre — confidentialité du démarrage Hermes
 
 **Une seule intégration : reliquat du candidat n° 1 du rapport du 23.** Notice sur contexte envoyé, outils/modèles connectés, mémoire et conservation de l'historique ; Markdown/ZIP/sommes cohérents. Les premiers pas `7e18621` et la section locale `14c8291` sont préservés exactement après refus du préflight SFTP et rebase du seul correctif. Aucun chantier SEO déjà livré réintégré.
@@ -8,7 +37,7 @@
 
 ---
 
-## État courant — 23 novembre 2026, revue de 21 h CET
+## État antérieur — 23 novembre 2026, revue de 21 h CET
 
 **Cette synthèse prévaut sur les relevés historiques ci-dessous.** Revue exécutée le 23 ; fenêtre des commits/créations GitHub **[22/11 23:00, 23/11 20:00:59] UTC**, pas une journée complète. Observations de production à **21:02–21:04 CET**. Pull partagé `--ff-only` refusé pour fichiers non fusionnés : six conflits et journal indexé, HEAD `59985bd`. Pull réussi seulement dans le worktree documentaire sparse sur **`a34df67`** ; rebase, données et sceaux préservés.
 

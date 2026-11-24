@@ -10,36 +10,67 @@ faire faire dès aujourd'hui.
 
 ---
 
-## Premiers pas (5 minutes)
+## Premiers pas : un essai limité
 
-1. **Vérifiez la santé de l'installation**
+**Avant de lancer Hermes**, lisez la section 4 de [GUIDE.md](GUIDE.md) pour le
+budget, le fournisseur de modèle et les accès. Préparez :
+
+- Un **environnement isolé sans secrets**, avec les droits limités au nécessaire
+  et une **copie de test** : par exemple un fichier `essai.txt` que vous avez
+  créé avec quelques lignes fictives. Pas de documents clients, de clés API ni
+  de fichiers `.env` dans les données de cet exercice.
+- Les seuls outils nécessaires, à examiner avec `hermes tools`. Désactiver les
+  outils de fichiers ne bloque pas les accès par le **terminal**. Changer de
+  dossier de travail **ne confine pas** l’agent à ce dossier : en backend local,
+  les commandes utilisent les droits du compte qui exécute Hermes.
+- Des **permissions techniques** adaptées à cet environnement. Une demande
+  « lecture seule » **ne remplace pas** ces limites ; les protections des outils
+  de fichiers ne couvrent pas à elles seules le terminal. Le kit **ne configure
+  ni ne certifie** cette isolation. Si vous ne pouvez pas limiter ces accès,
+  ne confiez pas de documents sensibles à ce premier essai.
+
+1. **Vérifiez la santé de l’installation**
 
    ```bash
    hermes doctor
    ```
 
-   Tout doit être vert. Sinon, il vous dit quoi corriger.
+   Examinez les avertissements et corrigez les blocages signalés. Ce diagnostic
+   n’est **pas un audit de sécurité** ni une preuve que les accès sont limités.
 
-2. **Lancez votre première session**
+2. **Lancez votre première session** dans l’environnement préparé :
 
    ```bash
    hermes            # interface classique
-   hermes --tui      # interface moderne (recommandée)
+   hermes --tui      # autre interface : choisissez une seule commande
    ```
 
-3. **Faites connaissance.** Demandez par exemple :
+3. **Demandez une seule lecture**, avec le chemin de votre copie de test :
 
-   > « Résume ce dossier en 5 points et dis-moi quel fichier semble être le point d'entrée. »
+   > « Lis uniquement le fichier essai.txt dans ce dossier de test et résume-le
+   > en 3 points. Ne modifie aucun fichier, ne lance aucun script et ne contacte
+   > aucun service externe. Si un autre accès est nécessaire, arrête-toi et
+   > explique pourquoi. »
 
-   Hermes va utiliser ses outils (lecture de fichiers, terminal) pour répondre.
+   C’est une **consigne de travail**, **pas une barrière technique**. Un **modèle
+   distant** peut recevoir le texte lu dans son contexte, même si vous demandez
+   de ne pas utiliser de service externe. Vérifiez les **sorties d’outils** et
+   comparez le résumé au fichier, sans vous fier au seul message « terminé ».
+   Si le périmètre dépasse ce test, interrompez la tâche et revoyez les accès.
 
-4. **Apprenez les trois raccourcis vitaux** : `Ctrl+C` interrompt l'agent,
+4. **Apprenez les trois raccourcis vitaux** : `Ctrl+C` interrompt l’agent,
    `Alt+Entrée` (ou `Ctrl+J`) fait un saut de ligne sans envoyer, `/help` liste
    toutes les commandes.
 
 5. **Reprenez où vous en étiez** : quittez, puis relancez avec `hermes -c` — votre
-   dernière session revient intacte. Nommez vos sessions avec `/title recherche-x`
+   dernière session revient. Nommez vos sessions avec `/title recherche-x`
    pour les retrouver ensuite via `hermes sessions list` et `hermes -r "recherche-x"`.
+
+Sources officielles consultées le **2026-11-24** :
+[outils activés](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools#using-toolsets),
+[limites des protections de fichiers](https://hermes-agent.nousresearch.com/docs/user-guide/security#file-write-safety)
+et [isolation du terminal selon le backend](https://hermes-agent.nousresearch.com/docs/user-guide/security#terminal-backend-security-comparison).
+Contrôle documentaire uniquement : aucune installation ni isolation testée ici.
 
 ---
 
@@ -47,11 +78,16 @@ faire faire dès aujourd'hui.
 
 ### 1. Poser des questions à vos fichiers et dossiers
 
-Hermes lit votre machine comme vous. Idéal pour s'y retrouver dans un projet ou un
-dossier en désordre.
+Après le premier essai, élargissez progressivement le périmètre à une **copie de
+travail** sans secrets, avec des accès limités. Les outils disponibles et les droits
+du compte déterminent ce que Hermes peut lire ou modifier.
 
-> « Explique-moi ce que fait ce projet, fichier par fichier. »
-> « Trouve toutes les références à ‹ ancien-nom › dans ce dossier et liste-les. »
+> « Dans cette copie de travail, explique le rôle des fichiers que je t’indique,
+> sans modification. Arrête-toi si une lecture sort du périmètre. »
+> « Dans cette même copie, liste les références à ‹ ancien-nom ›, sans remplacement. »
+
+Les usages suivants peuvent demander davantage d’accès ou des écritures :
+définissez leur périmètre séparément et contrôlez les changements avant de les garder.
 
 ### 2. Les petites tâches système du quotidien
 

@@ -1479,6 +1479,43 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-23/hub-kit-local/`.
 
+## Premier essai Hermes borné — livraison du 24/11/2026
+
+- **Une amélioration** : `demarrage.md` prépare un premier essai sur un fichier
+  fictif, avec accès minimaux avant la session. La consigne de lecture seule est
+  distinguée des permissions techniques ; changer de dossier ou désactiver les
+  outils de fichiers ne confine pas le terminal. Diagnostic et message final ne
+  sont plus présentés comme des preuves suffisantes. Premier exemple de lecture
+  limité à une copie de travail ; vérification des sorties et du résumé demandée.
+- Trois liens officiels Hermes relus en HTTPS 200, ancres vérifiées. Les limites
+  du contexte transmis à un modèle distant restent explicites. Aucun installateur,
+  configuration, HTML, CSS ou kit OpenClaw modifié ; aucune installation, isolation
+  ou sécurité de la machine du lecteur certifiée.
+- Quatre nouveaux tests reproduisent les manques avant correction, puis passent ;
+  **137 tests hub et kits réussis**. Les quatre nouveaux tests passent aussi sur
+  le Markdown et le ZIP téléchargés en HTTPS. Vérification HTML : **271 références
+  locales contrôlées, zéro erreur** ; cette vérification exclut le Markdown.
+- Bureau illisible (`Resource deadlock avoided`), clone partagé en conflits laissé
+  intact. Déploiement par `python3 outils/deployer_openclaw.py` depuis le clone
+  dédié hors Bureau synchronisé, après sauvegarde et comparaison production/Git.
+  **36 fichiers relus via FTP**, identiques aux sources. Seuls `demarrage.md`,
+  le ZIP Hermes et son manifeste SHA-256 changent ; ZIP OpenClaw inchangé.
+- **Six URL de santé HTTP 200** ; contrôle étendu de **14 URL en 200**, dont le
+  téléchargement réellement lié (`?v=2`). CRC, SHA-256 et membres des ZIP vérifiés.
+  **IndexNow HTTP 200** pour le Markdown : notification acceptée, pas indexation
+  ni hausse de trafic prouvée.
+- **Aucune distribution supplémentaire** : le contrôle PDS immédiatement avant
+  publication trouve une promotion du Pack créée à **14:51:02 UTC** le 24/11,
+  absente du journal Git au moment du contrôle. URI
+  `at://did:plc:huj2ftwzvmbleul52lf6wjny/app.bsky.feed.post/3n32vfhzgjvjp`,
+  contenu et CID confirmés dans l’AppView public. Notre garde arrête le candidat
+  avant réservation, authentification et création. Le quota du jour est occupé ;
+  pas de nouveau post, contact ni relance. Cette promotion existante n’est pas
+  une action de cette mission. Prochaine priorité : vérifier les commandes des
+  exemples Git et skills du kit, sans nouvelle promotion Bluesky cette semaine.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-24/hub-premier-essai/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

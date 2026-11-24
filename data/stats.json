@@ -1,22 +1,18 @@
 {
- "runs": 507,
- "items_collectes": 5284,
- "breves_publiees": 2017,
- "articles_publies": 386,
- "tokens_entree": 2055701,
- "tokens_sortie": 2811079,
+ "runs": 508,
+ "items_collectes": 5324,
+ "breves_publiees": 2023,
+ "articles_publies": 387,
+ "tokens_entree": 2060932,
+ "tokens_sortie": 2817813,
  "premier_run": "2026-09-29T21:22:15+00:00",
- "dernier_run": "2026-11-24T19:59:51+00:00",
+ "dernier_run": "2026-11-24T22:09:35+00:00",
  "solde": {
-  "total": "80.03",
+  "total": "80.01",
   "devise": "USD",
   "disponible": true
  },
  "dernieres_erreurs": [
-  {
-   "ts": "2026-11-14T10:28:36+00:00",
-   "message": "brève impossible (Can open-weight LLMs can predict the effects of weight edits) : réponse non-JSON"
-  },
   {
    "ts": "2026-11-16T08:31:28+00:00",
    "message": "archivage wayback : The read operation timed out"
@@ -32,15 +28,15 @@
   {
    "ts": "2026-11-24T20:34:22+00:00",
    "message": "déploiement : [Errno 104] Connection reset by peer"
+  },
+  {
+   "ts": "2026-11-24T22:49:23+00:00",
+   "message": "déploiement : timed out"
   }
  ],
  "solde_initial": "91.66",
- "depense_usd": 11.63,
+ "depense_usd": 11.65,
  "historique_solde": [
-  [
-   "2026-09-29T22:44:31+00:00",
-   "91.30"
-  ],
   [
    "2026-09-29T22:51:04+00:00",
    "91.08"
@@ -2036,10 +2032,14 @@
   [
    "2026-11-24T19:59:04+00:00",
    "80.03"
+  ],
+  [
+   "2026-11-24T22:08:41+00:00",
+   "80.01"
   ]
  ],
  "mode_budget": "normal",
- "depense_mois_usd": 2.67,
+ "depense_mois_usd": 2.69,
  "archive_tentatives": {
   "jour": "2026-11-21",
   "n": 1

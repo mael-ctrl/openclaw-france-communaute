@@ -1,5 +1,13 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Chantier site du 24 novembre — confidentialité du démarrage Hermes
+
+**Une seule intégration : reliquat du candidat n° 1 du rapport du 23.** Notice sur contexte envoyé, outils/modèles connectés, mémoire et conservation de l'historique ; Markdown/ZIP/sommes cohérents. Les premiers pas `7e18621` et la section locale `14c8291` sont préservés exactement après refus du préflight SFTP et rebase du seul correctif. Aucun chantier SEO déjà livré réintégré.
+
+**441 tests Python réussis**, trois rouges attendus avant correction ; deux builds isolés donnent **5 293 fichiers média identiques**, 729 sources données/contenus préservées. ZIP reproductible de 24 702 octets, quatre membres non ciblés inchangés. Nouveau préflight SFTP : trois cibles exactes à la base, 14 témoins sauvegardés. [Recette et preuves](kit-demarrage-confidentialite.md). Au commit initial : publication ciblée/HTTPS et issue cloud à confirmer ; `maj.yml` ne déploie pas le hub. Clone partagé conflictuel intact, aucun cron/wrapper modifié ; P9 reste distinct.
+
+---
+
 ## État courant — 23 novembre 2026, revue de 21 h CET
 
 **Cette synthèse prévaut sur les relevés historiques ci-dessous.** Revue exécutée le 23 ; fenêtre des commits/créations GitHub **[22/11 23:00, 23/11 20:00:59] UTC**, pas une journée complète. Observations de production à **21:02–21:04 CET**. Pull partagé `--ff-only` refusé pour fichiers non fusionnés : six conflits et journal indexé, HEAD `59985bd`. Pull réussi seulement dans le worktree documentaire sparse sur **`a34df67`** ; rebase, données et sceaux préservés.

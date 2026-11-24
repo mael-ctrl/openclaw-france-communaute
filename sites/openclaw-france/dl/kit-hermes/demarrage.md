@@ -10,6 +10,46 @@ faire faire dès aujourd'hui.
 
 ---
 
+## Confidentialité — avant de partager un dossier
+
+**Installer Hermes sur votre machine ne signifie pas que le modèle y tourne.**
+Avec un fournisseur distant, le contexte sélectionné pour chaque requête est
+transmis à ce fournisseur : messages, mémoire et instructions de projet chargées,
+résultats d’outils, donc éventuellement extraits de fichiers. Ce n’est pas
+nécessairement tout l’historique ni tous les fichiers de votre ordinateur.
+Vérifiez le fournisseur et le modèle actifs, ainsi que leurs conditions de conservation
+et d’utilisation des données ; ce kit ne les garantit pas.
+
+**Un modèle local ne rend pas les outils hors ligne.** Les outils de recherche web,
+la navigation, les serveurs MCP, la messagerie et les commandes du terminal peuvent
+contacter d’autres services.
+Selon votre configuration, des modèles auxiliaires et des fournisseurs de secours
+peuvent aussi traiter du contexte ailleurs. Consultez les réglages dans
+`hermes model` et `hermes tools` : choisir le modèle principal ne vérifie pas à
+lui seul tous ces accès.
+
+Pour un premier essai, utilisez un dossier de test sans secrets et des droits minimaux ;
+limitez les outils et intégrations à ceux nécessaires (voir `GUIDE.md`, section 4).
+Si l’absence de sortie réseau est une exigence, il faut un contrôle réseau indépendant,
+pas seulement une consigne donnée à l’agent ou le choix d’un modèle local.
+
+**Stockage local ne veut pas dire données éphémères.** L’historique de session,
+y compris des résultats d’outils, est enregistré dans `~/.hermes/state.db` par défaut
+(le répertoire dépend du profil ou de `HERMES_HOME`). Mémoire, journaux, exports
+et sauvegardes peuvent aussi conserver des informations sensibles : protégez ces
+copies et relisez tout diagnostic avant de le partager, sans clés ni fichier `.env`.
+Compresser le contexte n’est pas un effacement de l’historique stocké.
+
+**Synthèse documentaire du Crabe (IA), vérifiée le 2026-11-24** :
+[sessions et contexte sélectionné](https://hermes-agent.nousresearch.com/docs/user-guide/sessions),
+[fichiers de contexte](https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files),
+[outils](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools),
+[modèles auxiliaires](https://hermes-agent.nousresearch.com/docs/user-guide/configuration#auxiliary-models)
+et [fournisseurs de secours](https://hermes-agent.nousresearch.com/docs/user-guide/features/fallback-providers).
+Ce texte n’est pas un audit réseau, une garantie juridique ou une installation testée.
+
+---
+
 ## Premiers pas : un essai limité
 
 **Avant de lancer Hermes**, lisez la section 4 de [GUIDE.md](GUIDE.md) pour le
@@ -81,6 +121,7 @@ Contrôle documentaire uniquement : aucune installation ni isolation testée ici
 Après le premier essai, élargissez progressivement le périmètre à une **copie de
 travail** sans secrets, avec des accès limités. Les outils disponibles et les droits
 du compte déterminent ce que Hermes peut lire ou modifier.
+Même avec des permissions limitées, le contenu lu peut rejoindre le contexte envoyé au modèle.
 
 > « Dans cette copie de travail, explique le rôle des fichiers que je t’indique,
 > sans modification. Arrête-toi si une lecture sort du périmètre. »
@@ -121,12 +162,16 @@ citer les pages consultées, et faites-le creuser une source précise si besoin.
 
 ### 6. Une mémoire qui travaille pour vous
 
-Au fil des sessions, Hermes retient vos faits et préférences (dans `~/.hermes/`).
+La mémoire intégrée peut conserver des faits et préférences dans
+`~/.hermes/memories/` par défaut (répertoire propre au profil ou à `HERMES_HOME`).
+Ces notes sont chargées dans le contexte du modèle au démarrage d’une session :
+leur stockage local ne les rend pas privées vis-à-vis d’un fournisseur distant.
 
 > « Retiens pour la prochaine fois que je travaille sur [projet] et que je préfère les réponses courtes. »
 
-À la session suivante, il s'en souvient. (Sa mémoire est volontairement bornée ;
-il fait le ménage en consolidant — vous pouvez l'aider : « nettoie ta mémoire ».)
+Testez avec des informations sans secrets et vérifiez ce qui a été retenu ; une
+mémoire bornée n’est pas une sauvegarde exhaustive. Voir la
+[documentation sur la mémoire](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory).
 
 ### 7. Transformez vos procédures en skills
 

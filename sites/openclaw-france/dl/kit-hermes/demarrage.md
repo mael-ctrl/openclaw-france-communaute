@@ -229,14 +229,62 @@ Vérification documentaire uniquement : aucun parcours d’installation ni exemp
 
 ### 8. Automatiser des tâches récurrentes
 
-Hermes sait planifier des tâches en langage naturel. Demandez et il met en place le
-rappel ou le rapport :
+**Commencez par préparer, pas par activer une récurrence.** Une tâche planifiée
+s’exécute sans vous pour répondre aux questions : elle doit préciser les sources,
+le périmètre, les accès, la sortie attendue et la conduite à tenir en cas de blocage.
+Elle ne peut pas compter sur les détails implicites de la conversation précédente.
 
-> « Chaque matin à 8 h, fais-moi la synthèse de ma journée et envoie-la-moi. »
+> « Prépare la définition d’un essai ponctuel, sans créer ni modifier de tâche :
+> résumer en trois points mon fichier fictif sans secrets, dont je préciserai le
+> chemin absolu. Aucune modification du fichier, aucun script à lancer, aucun
+> envoi externe par les outils ; conserver le résultat localement. Liste les
+> prérequis et les informations manquantes avant de demander mon accord. »
 
-Pour recevoir les résultats sur Telegram ou Discord, désignez le salon d'accueil avec
-`/sethome` dedans. Conseil de la doc : ne mettez ça en place qu'après avoir une
-configuration de base stable.
+Avant de donner un **accord explicite** à la création, vérifiez :
+
+- Le **profil actif**, le fournisseur et le modèle, les outils de la plateforme
+  `cron` dans `hermes tools`, ainsi que les **permissions techniques**. Une
+  consigne de lecture seule ne les remplace pas. Prévoyez un **budget** : chaque
+  exécution avec modèle peut consommer des tokens ; appliquez les limites
+  disponibles chez le fournisseur. Voir `GUIDE.md`, section 4.
+- La date, l’heure et le **fuseau** voulu, par exemple `Europe/Paris`, puis la
+  prochaine exécution réellement enregistrée. Le fuseau du profil ou de la tâche
+  peut différer de celui de votre ordinateur. Pour commencer, préférez un essai
+  ponctuel à une tâche quotidienne sans fin.
+- La destination explicite **`deliver=local`** pour ce premier test : le rapport
+  reste dans les fichiers de sortie du profil. **Cela ne rend pas le traitement
+  local** : un **modèle distant** peut recevoir le contexte lu. Pas de secrets
+  dans le fichier, la consigne ou le rapport.
+- Le **gateway** et le planificateur actifs, ainsi que la disponibilité de la
+  machine, des fichiers et des accès au moment prévu. Une tâche enregistrée ne
+  prouve pas qu’elle s’exécutera quand la machine est éteinte ou endormie.
+
+Contrôles dans le terminal, dans le bon profil : `hermes cron status` pour le
+planificateur, `hermes cron list` pour les tâches, puis `hermes cron runs <ID>`
+pour l’historique. **Remplacez `<ID>` par l’identifiant exact** de votre tâche ;
+ce repère n’est pas à copier tel quel. Vérifiez le rapport et son contenu après
+l’essai, pas seulement la présence de la tâche dans la liste.
+
+Pour passer ensuite à Telegram ou Discord, configurez la plateforme et vérifiez
+la destination. `/sethome` peut désigner le salon d’accueil depuis cette messagerie,
+mais ne prouve pas la **réception effective** : contrôlez-la sur un rapport sans
+secrets. La **réponse finale** est livrée par Hermes à la destination configurée ;
+ne demandez pas en plus un envoi par un outil, au risque de créer un **doublon**.
+
+**Pour arrêter :** `hermes cron pause <ID>` suspend les prochaines exécutions,
+mais **ne stoppe pas** celle déjà en cours. `hermes cron cancel <ID>` demande
+l’interruption de l’exécution en cours, mais **ne désactive pas** les suivantes.
+Vérifiez l’état après la demande ; aucune de ces commandes n’annule les **actions
+déjà effectuées**. Contrôlez les options présentes avec `hermes cron --help` et
+l’aide de la sous-commande : elles dépendent de votre version.
+
+Sources officielles consultées le **2026-11-25** :
+[fonctionnement du planificateur](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron#how-it-works),
+[destinations et livraison](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron#delivery-options),
+[pause et interruption](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron#lifecycle-actions)
+et [commandes du terminal](https://hermes-agent.nousresearch.com/docs/reference/cli-commands#hermes-cron).
+Vérification documentaire uniquement : aucune tâche créée, aucun envoi ni arrêt
+réel testé pour ce guide.
 
 ### 9. Un assistant personnel sur Telegram ou Discord
 

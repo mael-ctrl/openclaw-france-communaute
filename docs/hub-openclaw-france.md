@@ -1516,6 +1516,40 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-24/hub-premier-essai/`.
 
+## Planification Hermes vérifiable — livraison du 25/11/2026
+
+- **Une amélioration** : usage 8 de `demarrage.md`. Préparer un essai ponctuel
+  sans créer de tâche, expliciter sources/chemin/fuseau/budget/permissions et
+  destination locale avant accord ; distinguer gateway actif, tâche enregistrée,
+  exécution et réception. Pause et interruption sont séparées, sans promettre
+  l’annulation des effets déjà produits. Aucun cron créé, modifié ou exécuté
+  pour cette recette ; aucune livraison Telegram/Discord testée.
+- Documentation officielle Hermes relue : planificateur, livraison, cycle de vie,
+  CLI et `/sethome`. Trois pages sources HTTPS 200 ; quatre ancres citées
+  vérifiées. Une destination locale ne garantit pas un modèle local. Tous les
+  autres usages, notamment Git/skills livré séparément ce matin, sont préservés.
+- Quatre nouveaux tests reproduisent les manques avant correction puis passent ;
+  **146 tests ciblés hub et kits réussis**. Les quatre nouveaux tests passent
+  aussi sur le Markdown et le ZIP téléchargés en HTTPS. Aucun test multi-OS,
+  d’isolation ou de planification réelle déduit de ces contrôles documentaires.
+- Bureau illisible (`Resource deadlock avoided`), clone partagé en conflits
+  laissé intact. Déploiement par `python3 outils/deployer_openclaw.py` depuis le
+  clone dédié hors Bureau synchronisé. Sauvegarde et comparaison préalables des
+  sources à la production ; **36 fichiers relus via FTP**, identiques après
+  envoi. Seuls le Markdown, le ZIP Hermes et sa somme SHA-256 changent ; le ZIP
+  OpenClaw et les quatre autres fichiers du kit Hermes sont inchangés.
+- **Six URL de santé HTTP 200** ; contrôle étendu de **14 URL en 200**, dont le
+  téléchargement effectivement lié (`?v=2`). Membres, CRC et SHA-256 des ZIP
+  vérifiés. **IndexNow HTTP 200** pour le Markdown : notification acceptée, pas
+  indexation ni hausse d’audience prouvée. Aucun HTML/CSS modifié.
+- **Aucune nouvelle distribution** : promotion Bluesky du 24/11 relue sur le PDS,
+  URI `at://did:plc:huj2ftwzvmbleul52lf6wjny/app.bsky.feed.post/3n32vfhzgjvjp`
+  et CID conformes au journal synchronisé. Quota hebdomadaire déjà occupé ;
+  aucun post, contact ou relance supplémentaire. Prochaine priorité : vérifier
+  le parcours Telegram/Discord de l’usage 9, sans modifier le bot en service.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-25/hub-planification/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

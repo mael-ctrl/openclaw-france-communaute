@@ -145,13 +145,38 @@ Il cherche, lit, modifie, relance les tests. Vous validez les changements.
 
 ### 4. Git et GitHub sans douleur
 
-Des skills dédiées existent — par exemple `/github-pr-workflow`, cité dans la doc.
-Elles s'utilisent comme des commandes.
+Dans le terminal, `hermes skills list` liste les skills installées ;
+`hermes skills browse` explore le catalogue en ligne, sans garantir leur présence
+chez vous. `/github-pr-workflow` est un exemple encore cité dans la documentation,
+**pas une commande intégrée** garantie : l’amont vérifié regroupe ces procédures
+dans la skill `github`. Vérifiez le nom réellement disponible dans votre **profil actif**.
 
-> `/github-pr-workflow crée une PR propre pour la refonte de l'authentification`
+Une invocation `/<nom-de-skill>` charge des instructions pour l’agent ; elle
+**ne donne aucun droit** GitHub et ne garantit pas le résultat. La disponibilité
+dépend aussi de la version, de l’interface, des skills activées et des outils.
+Lisez la procédure et ses scripts avant de leur faire confiance : **le chargement
+n’est pas un mode lecture seule**, l’agent peut agir ensuite. L’option avancée
+`skills.inline_shell`, désactivée par défaut, peut même exécuter des commandes
+au chargement pour les sources admises ; ne l’activez pas pour cet essai.
+Pour les opérations Git/GitHub, vérifiez Git, `gh`, l’authentification et les droits minimaux
+nécessaires : la présence de la skill ne prouve pas que ces prérequis sont satisfaits.
 
-Ou, en langage naturel : « Aide-moi à mettre en place un workflow PR propre pour ce
-dépôt. » Explorez le reste avec `hermes skills browse`.
+Commencez sur une **copie de test sans secrets**, avec des permissions techniques
+limitées, puis demandez en langage naturel :
+
+> « Examine ce dépôt de test sans le modifier. Propose une marche à suivre pour
+> une PR, sans commit, sans push et sans création de PR. Montre le diff existant
+> et les tests à prévoir ; n’exécute pas les scripts du dépôt. »
+
+**Avant toute écriture**, validez le périmètre. Demandez un **accord explicite**
+séparé avant commit, push, création de PR, fusion ou publication ; relisez le diff,
+les résultats des tests et la destination. Cette consigne ne remplace pas les
+permissions techniques ni les contrôles d’approbation de votre environnement.
+
+Sources vérifiées le **2026-11-25** : [skills et invocation](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills),
+[commandes du terminal](https://hermes-agent.nousresearch.com/docs/reference/cli-commands),
+[chargement et scripts](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills)
+et [skill GitHub au SHA audité](https://github.com/NousResearch/hermes-agent/blob/2fcdbfea1847a1119901835d5970fdca2b3d8ea8/skills/software-development/github/SKILL.md).
 
 ### 5. Veille et recherche web
 
@@ -175,13 +200,32 @@ mémoire bornée n’est pas une sauvegarde exhaustive. Voir la
 
 ### 7. Transformez vos procédures en skills
 
-Répétez-vous les mêmes explications ? Apprenez-les-lui une fois :
+`/learn` demande à l’agent de tirer une procédure réutilisable de notes, d’un
+fichier, d’une URL ou de la conversation. Ce n’est pas un enregistrement mécanique :
+il peut lire les sources avec ses outils, puis écrire un `SKILL.md` via `skill_manage`.
+Commencez avec des notes **sans secrets**, une procédure déjà vérifiée et un périmètre limité :
 
-> `/learn comment publier un article : ouvrir le back-office, nouveau brouillon, relire, publier`
+> `/learn À partir de mes notes dans cette conversation, crée une skill pour préparer
+> un brouillon d’article local : titre, plan, relecture. N’ouvre aucun back-office,
+> ne publie rien et n’effectue aucun déploiement. Indique les étapes non vérifiées.`
 
-Ensuite, la skill (par exemple `/publier-un-article`) recharge la procédure
-partout. Vous pouvez aussi dire : « sauvegarde ce que tu viens de faire en skill
-`deploy-staging` ».
+**Relisez** le fichier créé, ses références et ses scripts : corrigez les commandes
+inventées, les secrets et toute action non autorisée avant réemploi. Vérifiez le
+**nom réellement créé** avec `hermes skills list`, puis invoquez `/<nom-de-skill>`
+(en remplaçant ce repère par ce nom) ou demandez à Hermes de charger cette skill.
+Elle doit être disponible et activée dans le **profil actif** ; les chemins de
+stockage et le partage dépendent des réglages, pas d’une disponibilité « partout ».
+
+**Chargement, confiance et permissions sont distincts.** Lire une skill ne valide
+ni son auteur ni ses scripts ; un scan n’est pas une garantie. Les outils, accès
+aux services et permissions restent à limiter. `/learn` peut créer ou modifier
+une skill ; la validation des écritures par `skill_manage` dépend du réglage
+d’approbation. L’enregistrer ne la publie pas dans un catalogue et n’autorise pas
+les actions qu’elle décrit : conservez les accords séparés de l’usage 4.
+
+Sources vérifiées le **2026-11-25** : [apprentissage et portée des skills](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills)
+et [commande /learn](https://hermes-agent.nousresearch.com/docs/reference/slash-commands).
+Vérification documentaire uniquement : aucun parcours d’installation ni exemple exécuté ici.
 
 ### 8. Automatiser des tâches récurrentes
 

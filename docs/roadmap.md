@@ -1,5 +1,13 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Chantier site du 25 novembre — usages Git/GitHub et skills du kit
+
+**Une seule intégration : candidat n° 1 du relais du 25.** Usages 4 et 7 corrigés : disponibilité réelle des skills, permissions distinctes du chargement, relecture de `/learn`, périmètre séparé avant commit/push/PR/publication. Confidentialité, premiers pas et modèle local préservés ; Markdown/ZIP/sommes cohérents. Aucun chantier SEO déjà livré réintégré, aucun candidat cache/verrou activé.
+
+**443 tests Python et huit Node réussis**, deux rouges attendus puis verts ; deux builds isolés : **5 336 fichiers média identiques**, 737 fichiers données/contenus préservés. ZIP reproductible, quatre membres non ciblés inchangés. Préflight SFTP : trois cibles exactes à la base et **14 témoins sauvegardés**. [Recette et preuves](kit-git-skills.md). Au commit initial, publication ciblée/HTTPS et cloud encore à vérifier : le workflow média ne déploie pas le hub. Clone partagé conflictuel préservé ; pull réussi seulement dans le worktree propre sur `51f279a`. P9 reste distinct et ouvert.
+
+---
+
 ## État courant — 24 novembre 2026, revue de 21 h CET
 
 **Cette synthèse prévaut sur les relevés historiques ci-dessous.** Fenêtre commits/créations GitHub **[23/11 23:00, 24/11 20:07:04] UTC**, pas une journée complète ; sondes HTTPS à **21:08 CET**. Pull partagé `--ff-only` refusé **128** : six conflits et journal indexé, HEAD `830ad16`, préservés. Pull réussi uniquement dans le worktree documentaire sparse sur **`62ab943`**, sans réparer ni reprendre le rebase d'exploitation.

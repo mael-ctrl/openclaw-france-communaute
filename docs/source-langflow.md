@@ -49,6 +49,44 @@ du journal intact ; aucune donnée de recette reprise dans le dépôt. OPML cand
 5 351 octets, SHA256 `9eed936c79de5a11e6e5d610a5f67ad9569c244048d573787ffb88d71c653f9f`.
 Pièces privées : `crabe-chantiers/croissance/2026-11-25/`.
 
-La recette locale ne vaut pas confirmation de publication : contrôle distant
-Git, workflow et HTTPS à consigner séparément. Les conflits du clone partagé et
-les interruptions FTP antérieures restent hors périmètre de cet ajout.
+## Livraison vérifiée et régression distante conservée
+
+Code livré : **`25b927c1fe9f9e6bb241220044e26bbe9b7eb4f3`**. Les trois fichiers
+ciblés ont été relus par l'API GitHub sur `main` : octets identiques au local.
+Dispatch unique `45636975809`, ensuite annulé en attente sans job. Successeur
+`45638350597`, SHA `2c888549f016040aea687ed081d52dd99894b87d` : ascendance et
+identité des fichiers vérifiées, contrats réussis. À **15:30 UTC**, pipeline
+encore en cours, sauvegarde en attente : aucune clôture cloud revendiquée.
+
+Le run précédent `45631208375` s'est terminé annulé pendant le pipeline à
+14:55:58 UTC, sauvegarde sautée. Le watcher avait rencontré une erreur réseau
+GitHub ; les lectures API ultérieures ont rétabli le constat, sans nouveau
+dispatch ni annulation d'un run actif par cette mission.
+
+**Premier préflight SFTP refusé, aucune écriture :** l'OPML distant et le compteur
+étaient revenus à **28 sources**, pas les 42 du parent attendu. Les couples
+nom-URL correspondent exactement au catalogue historique
+`0bcc84f0cb89cf2847d31e2b5496c23f416f2789`. Ce rapprochement ne prouve ni la date
+ni la cause de sa remise en ligne. Les corps et le refus sont conservés dans
+`livraison/`, sans réécriture des preuves.
+
+Préflight distinct à **15:29 UTC** dans `livraison-requalifiee/` : base historique
+exacte confirmée en SFTP et HTTPS ; inventaire paginé des cinq statuts actifs
+complet, seul le successeur à 43 sources actif ; aucun éditeur local du pipeline
+détecté. Ces sondes ponctuelles ne sont pas un verrou transactionnel.
+
+Clé hôte vérifiée avant secret, cibles sauvegardées, transfert `.part` puis
+renommage de deux fichiers seulement : l'OPML courant (restauration des 14 sources
+antérieures manquantes, plus Langflow) et **le seul compteur 28 → 43** de la page
+Transparence. Tous ses autres octets, dont ses autres statistiques, sont préservés.
+Aucun déployeur intégral ni modification des caches, wrappers ou conflits Git.
+
+À **15:30:25 UTC**, recontrôle en lecture seule : deux passages SFTP + HTTPS strict
+confirment les octets attendus, les **43 couples nom-URL**, le compteur et les
+témoins `.htaccess` racine/veille/CORS Skool inchangés. OPML : 5 351 octets,
+SHA256 `9eed936c79de5a11e6e5d610a5f67ad9569c244048d573787ffb88d71c653f9f`.
+Preuve privée : `recontrole-01/result.json` sous le chantier du jour.
+
+La publication ciblée est confirmée ; la régression d'exploitation reste signalée,
+non attribuée et non résolue par cet ajout. Les conflits du clone partagé et la
+sauvegarde cloud restent distincts. Aucun gain d'audience déduit.

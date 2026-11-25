@@ -238,8 +238,15 @@ def page_transparence(breves, articles, stats, entrees_journal):
     Désinscription en un clic, à tout moment. Votre adresse est utilisée uniquement pour ces envois, traitée par
     notre prestataire d'envoi <a href="https://buttondown.com/legal/privacy" rel="noopener">Buttondown</a>
     (société américaine) et n'est <strong>jamais revendue</strong>. Aucun traqueur publicitaire n'est posé sur le
-    site ; les statistiques de la newsletter se limitent aux ouvertures et clics agrégés, désactivables sur demande.
+    site.
     Pour toute question ou suppression : crabe@blockos.fr.</p>
+    <p class="petit-texte" id="mesure-breve"><strong>Contrôle du 17 novembre 2026 :</strong>
+    les mesures d’ouvertures et de clics ainsi que l’ajout de paramètres UTM aux liens
+    étaient désactivés dans les réglages de la newsletter. Les quatre liens publics de l’aperçu reçu
+    ce jour-là ne comportaient pas de paramètres UTM ; un lien technique du prestataire restait présent.
+    Ce constat porte sur les réglages et cet aperçu, pas sur tous les traitements internes du prestataire
+    ni sur une campagne envoyée aux abonnés. Il ne constitue pas une validation juridique.
+    La mesure d’audience du site, décrite ci-dessous, est distincte.</p>
     <p class="petit-texte"><a href="/#la-breve">Retour au formulaire de La Brève</a></p>
 
     <h2 class="sous-titre" id="mesure-audience">Mesure d’audience du site</h2>

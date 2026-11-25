@@ -253,6 +253,8 @@ de soumettre. Ne pas faire passer l'agent pour un humain.
 
 ## Journal d'exécution (à tenir à jour, une ligne par action)
 
+- `2026-11-25 | Site propre — monétisation | Information newsletter rectifiée selon les réglages/aperçu contrôlés le 17, sans promesse « aucun suivi » | https://communaute-ia.fr/transparence/#breve | ✅ Code 2c88854, 449 Python + huit Node ; SFTP ciblé, deux HTTPS exacts à 15:32:36 UTC, texte lisible sans JS à 320/390/1440 | Aucun envoi, inscription, réglage Buttondown, paiement, nouveau suivi ou revenu attribué ; aucun quota de distribution consommé. Pas de nouvelle promotion Bluesky jusqu’au 29 inclus. Statut cloud distinct et détails dans docs/monetisation.md.`
+
 - `2026-11-24 | Bluesky — monétisation | Promotion du Pack existant à 14 € par ses trois extraits gratuits ; Publicité et IA explicites, aucune promesse de résultat | https://bsky.app/profile/communaute-ia.fr/post/3n32vfhzgjvjp | ✅ Création unique à 14:51:04 UTC ; record/CID exacts sur le PDS puis AppView public à 14:52:38 UTC | Unique distribution du jour ; aucune autre promotion Bluesky du 23 au 29/11 inclus. Aucun paiement ou revenu attribué.`
 
 ### Monétisation du 24/11 — essais gratuits du Pack avant achat

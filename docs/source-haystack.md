@@ -85,3 +85,20 @@ Preuve privée : `recontrole-01/result.json` sous le chantier du jour.
 La publication ciblée est vérifiée ; la régression d'exploitation et la clôture
 cloud restent distinctes de cet ajout. Aucun gain de trafic ou de publications
 Haystack déduit : cette nouvelle source est prospective.
+
+### Issue relue à 16:10 UTC
+
+Le dispatch `45827218891` a finalement terminé **annulé à 14:23:51 UTC**,
+contrats réussis, pipeline annulé et sauvegarde sautée. L'annotation GitHub
+explicite « The job has exceeded the maximum execution time of 45m0s » confirme
+le timeout ; ce n'est pas une annulation sans job en file d'attente.
+Les trois annotations annoncées ont toutes été relues. Aucun nouveau dispatch
+par cette mission. Le run ultérieur `45856121535`, même SHA de code, est en cours
+au relevé : aucune réussite finale ne lui est attribuée.
+
+À **16:10:10 UTC**, les deux URL canoniques HTTPS servent encore exactement
+l'OPML à 44 sources et le compteur corrigé, mêmes empreintes que la relecture
+précédente. **Livraison ciblée confirmée, exécution cloud expirée** : ces états
+ne se remplacent pas. Le relevé intermédiaire de 14:15 reste conservé comme tel.
+Pièces complémentaires : `cloture-cloud/` ; les preuves initiales ne sont pas
+réécrites.

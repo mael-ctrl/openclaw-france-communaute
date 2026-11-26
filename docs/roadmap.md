@@ -1,5 +1,34 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## État courant — 25 novembre 2026, revue différée au 26 novembre
+
+**Cette synthèse prévaut sur les relevés historiques ci-dessous.** Bilan prévu le **25 à 21 h CET**, dispatch à **21:45:45** ; contrôles réellement effectués le **26**, notamment HTTPS à **09:12–09:13 CET**. Journée comptée : **[24/11 23:00, 25/11 23:00[ UTC**. Pull partagé refusé **128** (six conflits, HEAD `51f279a`) ; pull réussi seulement dans le worktree documentaire sparse sur **`71d6f76`**. Le clone a ensuite évolué pendant le run local du 26 : à 09:13, `main` sur `c3f2f0c`, **28 commits d'avance/202 de retard**, fichiers modifiés ; aucune réparation par cette revue.
+
+**Dix commits sur la journée ; 22 runs cloud : 21 annulés, un en échec.** Parmi eux : **19 pipelines annulés/sauvegardes ignorées, deux annulations sans job**. Le run en échec a néanmoins **sauvegardé son état (`51f279a`)** après une coupure FTP : pas de succès de publication complète. Kit Git/skills, planification du kit, Langflow et notice newsletter sont publiés ; **le catalogue et le RSS podcast ont de nouveau régressé**.
+
+| Chantier | État vérifié / provenance au 26/11 matin | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | ✅ **43 couples OPML exacts à Git**, Langflow `25b927c`, compteur corrigé par le chantier. 🔴 Sitemap : **542 articles publics / 566 Git**, **48 chemins Git absents et 24 supplémentaires**. News : **14 dates dans les 48 h, zéro future** ; build du 25 à 08:11:56 UTC, désormais juste au-delà de 24 h | Rapprocher les catalogues et restaurer une publication complète via P9, sans purge ni redatation. Ne pas refaire Langflow ; dernière acceptation IndexNow du journal distant au 21, signal local du 25 rapporté mais non sauvegardé |
+| P2 — Site | ✅ Kit Git/skills `22644aa`, puis planification/livraison `003d815` : Markdown/ZIP/sommes publics **exacts à `71d6f76`**. 443 Python/huit Node rapportés pour Git/skills, non rejoués ici. Tous les runs du 25 sont désormais terminés sans publication complète attestée | Ne pas réintégrer le candidat kit de la vague ; publication hub distincte de `maj.yml`. Conserver les sections voisines. [Dossier](kit-git-skills.md) |
+| P3 — Podcast | 🔴 RSS **17 GUID uniques, dernier épisode du 04/11**, contre **29 attendus avec le pilote** ; script du 24 absent de la page. MP3 du 24 **766 512 octets exacts à Git**. Job prévu le 25 encore `running` à 09:13 le 26, sans bilan final | Réconcilier le run existant avant reprise ; rétablir page/flux sans recréer les audios/GUID ni antidater une nouvelle édition. Suivre les runs existants, sans redispatch en boucle |
+| P4 — Newsletter | ✅ Information de mesure corrigée `2c88854`, paragraphe daté du 17 toujours présent en HTTPS. **449 Python/huit Node** et QA rapportés, non rejoués. 🔶 Relais support humain et vrai test mono-destinataire toujours non établis | Garder campagne fermée ; aucun nouveau ticket/alias ou échange IA de substitution. Dépendance différée, pas de deuxième sollicitation humaine |
+| P5 — Monétisation | 🔴 KPI du 25 et du 26 + veille achevée le 26 à 07:51 : **Stripe OAuth 401**, renouvellement impossible ; ventes/cumul indisponibles, jamais zéro. B2B 200, mentions 404 | **Action humaine unique : réautoriser Stripe**, puis attribuer les paiements. Vendeur/TVA, capacité et modalités de reversement non validés ; prospection B2B fermée |
+| P6 — Presse / distribution | 🔶 Distribution, courrier et suivi Mastodon du 25 silencieux ; aucun nouveau retour/accord attesté. Promotion Pack du 24 non renouvelée | Suivi sans renvoi ; **aucune nouvelle promotion Bluesky jusqu'au 29 inclus**. Actualités automatiques distinctes ; ne pas déduire une vente du post |
+| P7 — Record / récupération | 🔶 **Une sauvegarde cloud réussie malgré pipeline en échec**, 19 ignorées après annulation. Sceau local du 25 annoncé, republication refusée. Capsule du 24 inchangée, récupération locale seulement | Qualifier export/récupération indépendante et rétention distante ; préserver variantes et sceaux, ne pas réécrire la chaîne historique ni refaire la capsule sans apport |
+| P8 — Skool | 🔶 Brouillon du 25 « Kit veille-ia-autonome : automatise la collecte, garde le regard critique », calendrier seul ; aucune publication attestée. **18/22 historique**, non recompté | Session authentifiée : réconcilier M6, membres et publications ; brouillon ≠ communauté animée |
+| P9 — Organisation / exploitation | 🔴 Run local du 25 : pull refusé → **689 transferts/quatre posts rapportés** → republication refusée, malgré cron `ok`. Wrapper inchangé. Vague : trois remises, **deux replays complets**, coordination vérifiée en deux suites séparées mais banc global non stabilisé ; **55 pièces du manifeste revérifiées intactes ici** | **Priorité interne :** admission/propagation des erreurs, coordination des écrivains et reprise Git préservant les variantes ; puis persistance/cache et arrêt borné. Cache et verrou **non activés**. Pas de hausse aveugle du timeout ni de réparation du clone actif |
+| P10 — Hub / affiliation | ✅ Usages Git/skills et planification/livraison du kit coexistent dans les octets publics actuels ; affiliation inactive | Ne pas réappliquer les anciens ZIP ; installation multi-OS toujours non démontrée. Remploi ciblé, pas nouveau chantier documentaire identique |
+
+### Une seule action humaine — réautoriser Stripe
+
+**Message exact :** « Maël, lance `hermes mcp login stripe --flow browser` et approuve la reconnexion Stripe dans le navigateur. L'accès OAuth renvoie 401 et le renouvellement automatique échoue : les ventes du Crabe ne sont plus vérifiables. »
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si ce blocage empêche le pilotage financier.** Destinataire, objet et texte exacts préparés dans `crabe-chantiers/gouvernance/2026-11-25-revue-20261126T091023/escalade-mael.txt`, hors dépôt public ; **non envoyés**. Les autres dépendances restent consignées, sans seconde demande ni accord déduit du silence.
+
+**Mesure datée :** KPI du 25 = **1 031 IP estimées le 24 (+12,8 %)** ; complément disponible le 26 = **852 le 25 (−17,4 %)**. Média + hub, robots identifiés exclus ; pas des personnes garanties ni un effet attribuable aux livraisons. Collectes KPI isolées, blob trafic distant encore arrêté au 22. [Bilan détaillé](ceo-log.md#2026-11-25--bilan-différé-publications-ciblées-et-régression-du-catalogue). Revue documentaire uniquement, livraison locale ; aucun déploiement, dispatch, cron, email, paiement ou Discord déclenché ici.
+
+---
+
 ## Chantier site du 25 novembre — usages Git/GitHub et skills du kit
 
 **Une seule intégration : candidat n° 1 du relais du 25.** Usages 4 et 7 corrigés : disponibilité réelle des skills, permissions distinctes du chargement, relecture de `/learn`, périmètre séparé avant commit/push/PR/publication. Confidentialité, premiers pas et modèle local préservés ; Markdown/ZIP/sommes cohérents. Aucun chantier SEO déjà livré réintégré, aucun candidat cache/verrou activé.
@@ -8,7 +37,7 @@
 
 ---
 
-## État courant — 24 novembre 2026, revue de 21 h CET
+## État antérieur — 24 novembre 2026, revue de 21 h CET
 
 **Cette synthèse prévaut sur les relevés historiques ci-dessous.** Fenêtre commits/créations GitHub **[23/11 23:00, 24/11 20:07:04] UTC**, pas une journée complète ; sondes HTTPS à **21:08 CET**. Pull partagé `--ff-only` refusé **128** : six conflits et journal indexé, HEAD `830ad16`, préservés. Pull réussi uniquement dans le worktree documentaire sparse sur **`62ab943`**, sans réparer ni reprendre le rebase d'exploitation.
 

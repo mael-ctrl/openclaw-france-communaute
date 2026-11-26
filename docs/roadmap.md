@@ -29,6 +29,14 @@
 
 ---
 
+## Podcast du 26 novembre — contenu prêt ; exploitation distincte
+
+**136,584 s**, quatre sujets sourcés des 24/25 novembre ; **449 tests Python réussis**, build réel, texte/audio exacts et **30 GUID uniques**. Anciens épisodes conservés, pas d'annonce de publication HTTPS sur cette seule recette. [Dossier](podcast-2026-11-26.md).
+
+**P9 :** run antérieur `45757495258` terminé le 26 à **05:33:29 UTC**, contrats réussis puis pipeline annulé à la limite officielle de **45 minutes**, sauvegarde `skipped`. Le successeur `45777642571` créé à 07:45:04 UTC était en cours sur le SHA antérieur : il ne contient pas cet épisode. Pull partagé refusé pour conflits, préservés ; travail isolé, aucun cache/verrou ou délai activé/modifié. Prochaine étape : suivre un descendant du commit audio, puis vérifier séparément transfert, sauvegarde et HTTPS ; ne pas recréer l'épisode.
+
+---
+
 ## Chantier site du 25 novembre — usages Git/GitHub et skills du kit
 
 **Une seule intégration : candidat n° 1 du relais du 25.** Usages 4 et 7 corrigés : disponibilité réelle des skills, permissions distinctes du chargement, relecture de `/learn`, périmètre séparé avant commit/push/PR/publication. Confidentialité, premiers pas et modèle local préservés ; Markdown/ZIP/sommes cohérents. Aucun chantier SEO déjà livré réintégré, aucun candidat cache/verrou activé.

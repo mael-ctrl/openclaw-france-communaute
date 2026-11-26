@@ -92,7 +92,31 @@ rouge/vert, suite globale, Node, inventaires des builds et
 
 ## Clôture Git/cloud/HTTPS
 
-Au relevé de pose : commit/push et dispatch du workflow à suivre dans la clôture
-ci-dessous. Les sondes HTTPS vérifient la disponibilité du média, **pas le
-chargement d'un wrapper local**. La correction du faux vert local est distincte
-d'une publication complète du catalogue ou d'une sauvegarde cloud réussie.
+**Code `3205575dec8d04108c9ff6fbce685c02e5cdbbf4` poussé sur `main` ; les quatre
+blobs livrés ont été relus exactement via GitHub.** La copie locale active reste
+exacte à ce script versionné. Roadmap et présent dossier accompagnent cette unique
+intégration ; aucun cache/verrou ou paramètre cloud changé.
+
+Dispatch [45797512227](https://github.com/mael-ctrl/openclaw-france-communaute/actions/runs/45797512227)
+créé à **10:02:10 UTC**, commencé à **10:33:01 UTC**. **466 tests cloud réussis**
+à 10:35:52 ; pipeline ensuite **annulé à 11:18:14 UTC**, sauvegarde **ignorée**.
+Annotation officielle : limite de **45 minutes** atteinte. **1 568 lignes de
+transfert réel** dans l'étape pipeline, de `404.html` à une page de brève : cela
+n'est ni un transfert complet ni zéro publication. Les coupures réseau de deux
+lectures intermédiaires du watcher sont conservées, distinctes du résultat CI.
+Le successeur automatique `45809433066`, même SHA, était en cours au contrôle de
+11:53 ; aucun nouveau dispatch ni annulation de ce run par cette mission.
+
+**Onze réponses HTTPS 200 à 11:53:34 UTC**, XML/OPML parsables, versions égales
+aux deux bornes. Le catalogue public reste ancien : **669 URL uniques**, RSS
+podcast **17 GUID** au lieu des 30 de la base Git figée ; `version.txt` indique
+08:12:14 UTC, 110 brèves/543 articles. Ces sondes ne prouvent donc pas une
+publication complète ou atomique. Elles ne valident pas non plus le chargement
+du wrapper : celui-ci est établi séparément par la lecture et l'invocation
+confinée du vrai chemin.
+
+**Clôture du garde-fou local acquise ; P9 et la clôture du pipeline cloud restent
+ouverts.** Reprise préservant les variantes, coordination des producteurs et
+persistance/temps de transfert restent les prochaines dépendances internes.
+Aucun reset, nouvelle génération audio, purge d'archives ou restauration de
+catalogue improvisée pour rendre cette recette verte.

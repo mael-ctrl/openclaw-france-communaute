@@ -1550,6 +1550,43 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-25/hub-planification/`.
 
+## Messagerie Hermes : premier essai vérifiable — livraison du 26/11/2026
+
+- **Une amélioration** : usage 9 de `demarrage.md`. Parcours Telegram/Discord
+  avec bot de test, identifiant utilisateur distinct du salon, protection du jeton,
+  accès limités avant connexion et appairage après vérification de l’identité.
+  Configuration, processus actif et réponse reçue sont distingués ; pas de second
+  gateway avec le même jeton, ni de contournement des refus par un accès universel.
+  Les autorisations de discussion ne sont pas présentées comme un confinement.
+- Quatre sources officielles relues en HTTPS 200, quatre ancres vérifiées :
+  Telegram, Discord, sécurité et référence CLI. Exemple de premier message sans
+  secrets, vérification de la destination et absence de doublon. Aucun bot,
+  gateway, token, permission réelle ou tâche planifiée modifié pour cette notice ;
+  aucun message de test envoyé, aucune isolation ou installation certifiée.
+- Quatre nouveaux tests reproduisent les manques avant correction puis passent ;
+  **150 tests ciblés hub et kits réussis**. Les quatre nouveaux tests passent
+  aussi sur le Markdown et le ZIP téléchargés en HTTPS. Contrôle HTML local :
+  **271 références vérifiées, zéro erreur** ; ce contrôle exclut Markdown et liens
+  externes, d’où la vérification séparée des quatre sources de la section.
+- Bureau illisible en cron (`Resource deadlock avoided`), clone partagé en
+  conflits laissé intact. Déploiement par `python3 outils/deployer_openclaw.py`
+  depuis le clone dédié hors Bureau, après synchronisation, sauvegarde privée et
+  comparaison préalable de la production. **36 fichiers relus via FTP**, identiques
+  aux sources après envoi. Seuls `demarrage.md`, ZIP Hermes et manifeste SHA-256
+  changent ; tous les autres usages et fichiers publics sont préservés.
+- **Six URL de santé HTTP 200** ; contrôle étendu de **14 URL en 200**, dont
+  le téléchargement effectivement lié (`?v=2`). CRC, membres et SHA-256 des ZIP
+  vérifiés ; ZIP OpenClaw inchangé octet pour octet. **IndexNow HTTP 200** pour
+  le Markdown : notification acceptée, pas indexation ni hausse de trafic prouvée.
+  Aucun HTML/CSS modifié, aucun contrôle visuel revendiqué.
+- **Aucune nouvelle distribution** : promotion Bluesky du 24/11 relue sur le PDS,
+  URI `at://did:plc:huj2ftwzvmbleul52lf6wjny/app.bsky.feed.post/3n32vfhzgjvjp`
+  et CID conformes au journal Git. Quota hebdomadaire occupé jusqu’au 29 inclus ;
+  aucun post, contact ni relance. Prochaine priorité : vérifier les raccourcis
+  et la reprise de session dans les premiers pas, sans toucher au service actif.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-26/hub-messagerie/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

@@ -288,15 +288,73 @@ réel testé pour ce guide.
 
 ### 9. Un assistant personnel sur Telegram ou Discord
 
-```bash
-hermes gateway setup     # configuration interactive de la plateforme
-hermes gateway status    # vérifier que ça tourne
-```
+**Commencez avec un bot de test et un message privé**, pas un salon public ni
+un bot déjà utilisé en production. Vérifiez le **profil actif**, le modèle,
+le **budget** et les outils autorisés avec `hermes tools` (voir `GUIDE.md`, section 4).
+Un message envoyé depuis votre téléphone peut déclencher des outils sur la machine
+qui héberge Hermes : l’autorisation de discuter **n’est pas un confinement** du
+**terminal** ni une limitation des fichiers accessibles. Limitez les **permissions
+techniques** avant la connexion.
 
-Votre agent devient un bot joignable depuis votre téléphone. **Sécurité** (doc) :
-verrouillez l'accès avec des listes d'utilisateurs autorisés
-(`TELEGRAM_ALLOWED_USERS`, `DISCORD_ALLOWED_USERS`) ou le système d'appairage ;
-jamais `GATEWAY_ALLOW_ALL_USERS=true` pour un bot avec accès au terminal.
+1. **Préparez une seule plateforme.** Pour Telegram, créez le bot avec
+   **BotFather** et relevez votre **identifiant numérique** d’utilisateur, pas
+   votre pseudonyme. Pour Discord, créez l’application dans le **Developer Portal**,
+   suivez les étapes officielles d’invitation et d’intents, notamment **Message
+   Content Intent** et **Server Members Intent**. Utilisez votre ID d’utilisateur,
+   **pas celui du salon**. Gardez le **jeton** du bot dans un stockage privé :
+   **jamais dans une conversation**, un dépôt Git, une capture ou un diagnostic partagé.
+   S’il fuit, révoquez-le ou régénérez-le sur la plateforme concernée.
+2. **Configurez, puis contrôlez les accès** dans le bon profil :
+
+   ```bash
+   hermes gateway setup
+   ```
+
+   Cet assistant **modifie la configuration** ; il ne s’agit pas d’un diagnostic.
+   Choisissez Telegram ou Discord, puis renseignez le jeton dans cet assistant.
+   Pour cet essai, n’autorisez que votre propre compte : vérifiez
+   `TELEGRAM_ALLOWED_USERS` ou `DISCORD_ALLOWED_USERS` avec votre ID exact.
+   L’**appairage** en message privé est une alternative : vérifiez l’**identité**
+   du demandeur avant d’approuver son code, jamais un code reçu sans contexte.
+   Examinez aussi les autorisations déjà présentes (appairages, liste globale,
+   rôles Discord) : une nouvelle liste restrictive n’annule pas forcément ces
+   autres voies d’accès. **N’activez ni `GATEWAY_ALLOW_ALL_USERS=true` ni
+   `DISCORD_ALLOW_ALL_USERS=true`** pour contourner un refus.
+3. **Distinguez configuration et fonctionnement.**
+   `hermes gateway status` renseigne l’état du service ; une configuration
+   enregistrée ou un processus actif **ne prouve pas** la connexion à la plateforme
+   ni la réception d’une réponse. **Ne lancez pas un second gateway** avec le même
+   jeton si un autre processus ou service utilise déjà ce bot.
+
+   Pour un nouvel essai sans gateway actif, dans le profil préparé :
+
+   ```bash
+   hermes gateway run
+   ```
+
+   Ce mode s’exécute **au premier plan** : gardez le terminal et la machine actifs.
+   `hermes gateway start` concerne un **service déjà installé**, ce n’est pas
+   l’équivalent de la configuration initiale. Les modes disponibles dépendent
+   de votre système et de votre version : consultez `hermes gateway --help`.
+4. **Vérifiez la réponse effective** depuis votre compte autorisé, en message
+   privé au bot de test, avec une demande **sans secrets** :
+
+   > « Réponds uniquement : TEST OK. Ne consulte aucun fichier et n’utilise aucun outil. »
+
+   Vérifiez que la réponse arrive dans la bonne conversation et une seule fois.
+   Cette consigne **ne remplace pas les permissions techniques** ; même ce texte
+   peut être transmis à un **modèle distant**. Un essai réussi ne prouve ni la
+   confidentialité ni le refus de tous les autres comptes. Sans réponse, examinez
+   les erreurs, le profil, les accès et les intents avant tout redémarrage ;
+   ne partagez pas vos journaux bruts ou votre fichier `.env` pour demander de l’aide.
+
+Sources officielles consultées le **2026-11-26** :
+[configuration Telegram](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/telegram#step-5-configure-hermes),
+[configuration Discord](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/discord#step-8-configure-hermes-agent),
+[autorisations et appairage](https://hermes-agent.nousresearch.com/docs/user-guide/security#user-authorization-gateway)
+et [commandes du gateway](https://hermes-agent.nousresearch.com/docs/reference/cli-commands#hermes-gateway).
+Vérification documentaire uniquement : **aucun bot configuré**, aucun message envoyé
+ni contrôle d’accès réellement testé pour cette notice.
 
 ### 10. Utiliser un modèle local : coûts et limites du hors-ligne
 

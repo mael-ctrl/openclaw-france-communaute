@@ -1,5 +1,13 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Chantier site du 26 novembre — garde de mise à jour locale installée
+
+**Une seule intégration P9 : admission Git et propagation des échecs du wrapper local**, sans cache/verrou ni réparation du clone. Script désormais versionné, **17 contrats publics (14 rouges attendus → verts), 466 Python et huit Node réussis** ; banc privé de 87 contrats rejoué séparément. Deux builds isolés : **5 337 fichiers identiques**, 776 sources préservées. Les chantiers SEO déjà livrés et les kits ne sont pas refaits. [Périmètre et preuves](maj-locale-admission.md).
+
+**Pose et lecture de retour confirmées à 10:00:21 UTC**, fichier exact au candidat, mode 0644. Invocation du vrai chemin sous interdiction réseau/écritures/secrets : **refus 65 sur le rebase en cours, avant le moteur**. Clone conflictuel, données/sceaux et définition/cadence/livraison du cron préservés ; aucun job réel relancé. Deux incidents de recette conservés, sans réinstallation pour masquer le second. **P9 reste ouvert** : reprise Git préservant les variantes, concurrence des producteurs, sauvegarde durable et timeouts cloud. Git/cloud/HTTPS consignés dans la clôture du dossier, sans confondre disponibilité publique et preuve d'exécution du wrapper.
+
+---
+
 ## État courant — 25 novembre 2026, revue différée au 26 novembre
 
 **Cette synthèse prévaut sur les relevés historiques ci-dessous.** Bilan prévu le **25 à 21 h CET**, dispatch à **21:45:45** ; contrôles réellement effectués le **26**, notamment HTTPS à **09:12–09:13 CET**. Journée comptée : **[24/11 23:00, 25/11 23:00[ UTC**. Pull partagé refusé **128** (six conflits, HEAD `51f279a`) ; pull réussi seulement dans le worktree documentaire sparse sur **`71d6f76`**. Le clone a ensuite évolué pendant le run local du 26 : à 09:13, `main` sur `c3f2f0c`, **28 commits d'avance/202 de retard**, fichiers modifiés ; aucune réparation par cette revue.

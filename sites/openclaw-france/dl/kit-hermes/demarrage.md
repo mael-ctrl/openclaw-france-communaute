@@ -98,13 +98,52 @@ budget, le fournisseur de modèle et les accès. Préparez :
    comparez le résumé au fichier, sans vous fier au seul message « terminé ».
    Si le périmètre dépasse ce test, interrompez la tâche et revoyez les accès.
 
-4. **Apprenez les trois raccourcis vitaux** : `Ctrl+C` interrompt l’agent,
-   `Alt+Entrée` (ou `Ctrl+J`) fait un saut de ligne sans envoyer, `/help` liste
-   toutes les commandes.
+4. **Repérez les commandes de votre interface.** Le **compositeur classique**
+   documente `Ctrl+C` pour effacer d’abord un **brouillon** saisi ; avec un
+   **champ vide** et sans dialogue prioritaire ouvert, il demande l’interruption.
+   **Attention : la CLI classique récente est un client du gateway** avec une
+   surface de commandes réduite. Une interruption peut seulement **détacher le client**
+   et laisser le travail accepté continuer. Consultez `/help` et utilisez `/stop`
+   lorsqu’il y est proposé ; ne supposez pas qu’une fermeture ou `Ctrl+C` arrête tout.
+   Vérifiez l’arrêt effectif : cela n’annule pas les actions déjà réalisées.
+   Pour un saut de ligne, `Alt+Entrée` ou `Ctrl+J` sont proposés par défaut ;
+   **Windows Terminal** peut intercepter `Alt+Entrée` (plein écran) : utilisez
+   plutôt `Ctrl+J`. Les touches varient selon le terminal, les réglages et
+   l’interface (CLI, TUI ou Desktop). `/help` affiche l’aide des commandes
+   disponibles dans votre conversation, pas une liste universelle de tous les modes.
+   Voir les [raccourcis de la CLI](https://hermes-agent.nousresearch.com/docs/user-guide/cli#keybindings).
 
-5. **Reprenez où vous en étiez** : quittez, puis relancez avec `hermes -c` — votre
-   dernière session revient. Nommez vos sessions avec `/title recherche-x`
-   pour les retrouver ensuite via `hermes sessions list` et `hermes -r "recherche-x"`.
+5. **Retrouvez une session précise**, dans le **profil actif** utilisé pour la
+   créer. Nommez-la avec `/title recherche-x` **si votre `/help` le propose** ;
+   sinon, **utilisez directement son ID**. Dans le terminal,
+   `hermes sessions list` permet de relever son titre et son **identifiant exact** ;
+   reprenez-la avec `hermes -r "recherche-x"`, ou `hermes -r <ID>` en remplaçant
+   `<ID>` par cet identifiant. Dans la conversation, `/sessions` ouvre le sélecteur
+   de sessions sur les interfaces qui le proposent.
+
+   `hermes -c` demande une reprise récente, **pas forcément la dernière conversation
+   de tous vos usages** : la sélection dépend notamment du **terminal**, du
+   **répertoire** de travail, de l’interface et de la version. Vérifiez le titre,
+   l’historique affiché et le dossier avant une nouvelle demande ; préférez un ID
+   quand plusieurs sessions se ressemblent. Si la session manque, contrôlez le
+   profil et la liste au lieu de supposer qu’elle a été restaurée.
+
+   Reprendre l’**historique** n’est ni restaurer vos fichiers, ni retrouver tous
+   les détails dans le contexte du modèle : la **mémoire** de l’usage 6 est un
+   autre mécanisme, borné. Après une déconnexion, **ne relancez pas** une action
+   sans vérifier son état et ses résultats : les interfaces récentes peuvent
+   laisser le travail accepté continuer dans le gateway. Une interruption ne
+   revient pas sur les actions déjà effectuées.
+
+**Synthèse documentaire du Crabe (IA), vérifiée le 2026-11-27** :
+[sessions et reprise](https://hermes-agent.nousresearch.com/docs/user-guide/sessions#cli-session-resume),
+[interface CLI](https://hermes-agent.nousresearch.com/docs/user-guide/cli#interface-layout),
+[profils](https://hermes-agent.nousresearch.com/docs/user-guide/profiles)
+et [mémoire bornée](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory).
+Les options et raccourcis dépendent de la **version**, de l’interface et du terminal ;
+consultez `hermes --help` dans votre installation et `/help` dans la conversation.
+Contrôle de sources uniquement : **aucune installation multi-OS et aucune reprise utilisateur réelle**
+n’ont été testées pour cette notice.
 
 Sources officielles consultées le **2026-11-24** :
 [outils activés](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools#using-toolsets),
@@ -403,8 +442,12 @@ C’est un contrôle documentaire, pas une installation ni un test hors-ligne r�
 
 ## Et après ?
 
-- **Astuce bonus** : `Ctrl+V` colle une capture d'écran directement dans le chat —
-  Hermes analyse l'image (utile pour les messages d'erreur ou les maquettes).
+- **Image de test** : le collage depuis le **presse-papiers** dépend du système
+  et du terminal. Dans la CLI, `Ctrl+V` peut coller du texte ou joindre une image ;
+  `/paste` est la commande dédiée au collage d’image lorsqu’elle est disponible.
+  Vérifiez la **pièce jointe** avant l’envoi et utilisez une capture **sans secrets** ;
+  l’analyse dépend aussi du modèle et de la configuration. Voir
+  [l’aide CLI](https://hermes-agent.nousresearch.com/docs/user-guide/cli#keybindings).
 - **Suivez la doc** : <https://hermes-agent.nousresearch.com/docs> — chaque page est
   courte et complète.
 - **Un blocage ?** `hermes doctor`, puis la [FAQ officielle](https://hermes-agent.nousresearch.com/docs/reference/faq)

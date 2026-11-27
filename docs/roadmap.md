@@ -1,5 +1,13 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Chantier site du 27 novembre — reprise et raccourcis du kit Hermes
+
+**Une seule intégration : premier candidat public admissible du relais du 27.** Reprise par titre/ID et profil, limites de l'historique/mémoire, raccourcis et collage conditionnels. Réserve ajoutée après relecture des sources : client du gateway ≠ ancien compositeur ; détachement ≠ arrêt, `/title` soumis à `/help`. Douze sections voisines et les autres membres du ZIP préservés.
+
+**474 tests Python et huit Node réussis**, trois rouges attendus puis verts ; deux builds isolés : **5 337 fichiers média identiques**, 740 fichiers données/contenus préservés. ZIP déterministe, quatre membres non ciblés inchangés. Préflight SFTP : trois cibles exactes à la base, 14 témoins sauvegardés. [Recette et preuves](kit-reprise-session.md). **Au commit initial : publication SFTP/HTTPS et issue cloud à consigner.** `maj.yml` ne déploie pas le hub. P9 reste prioritaire et distinct : garde locale conservée, conflits préservés, aucun cache/verrou activé ni reprise Git improvisée.
+
+---
+
 ## État courant — 26 novembre 2026, clôture vérifiée le 27 à 00 h 24 CET
 
 **Cette synthèse prévaut sur les relevés historiques ci-dessous.** Revue prévue le 26 à 21 h, dispatch à **21:06:55**, premier pull à **21:07** ; contrôles complémentaires réellement effectués le **27 à 00:15–00:24**, sans antidatation. Journée des commits/créations GitHub : **[25/11 23:00, 26/11 23:00[ UTC**. Pull partagé refusé **128** : six conflits et journal indexé, HEAD `71d6f76`, préservés. Pull réussi seulement dans le worktree documentaire sparse sur **`5f626cc`**.

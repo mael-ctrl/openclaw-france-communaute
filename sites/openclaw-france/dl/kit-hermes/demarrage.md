@@ -217,12 +217,45 @@ Sources vérifiées le **2026-11-25** : [skills et invocation](https://hermes-ag
 [chargement et scripts](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills)
 et [skill GitHub au SHA audité](https://github.com/NousResearch/hermes-agent/blob/2fcdbfea1847a1119901835d5970fdca2b3d8ea8/skills/software-development/github/SKILL.md).
 
-### 5. Veille et recherche web
+### 5. Veille et recherche web : une synthèse vérifiable
 
-> « Cherche les actualités récentes sur [sujet] et fais-moi une synthèse avec les sources. »
+Vérifiez dans `hermes tools` les outils web du **profil actif** : `web_search`
+repère des résultats, `web_extract` lit le contenu des pages accessibles.
+Leur présence dans la documentation **ne garantit pas** leur disponibilité chez
+vous : vérifiez le **fournisseur**, les accès et le **budget**, y compris les
+éventuels coûts des outils en plus du modèle. Utilisez un sujet public **sans secrets** :
+les **requêtes** et le contenu lu peuvent être traités par des services externes.
 
-Hermes dispose d'outils de recherche et d'extraction web natifs ; demandez-lui de
-citer les pages consultées, et faites-le creuser une source précise si besoin.
+**Remplacez les trois repères entre crochets**, puis collez cette consigne :
+
+> « Sur [sujet], cherche au maximum trois sources publiques concernant la période
+> du [date de début] au [date de fin]. Privilégie les sources primaires : annonce
+> de l’organisme, documentation ou étude originale. Ouvre les pages avant de les
+> résumer. Pour chaque fait, donne son URL, la date de publication affichée et la
+> date de consultation ; indique “date inconnue” si elle manque. Distingue la
+> date de l’événement de celle de l’article. Classe les points : CONFIRMÉ par
+> les pages lues, À VALIDER si la preuve manque, CONTRADICTOIRE si elles divergent.
+> Si une page exige une connexion, un paywall ou un CAPTCHA, signale la limite.
+> Ne contourne aucun blocage ; ne lance aucun script, ne remplis aucun formulaire
+> et ne publie rien. Termine par trois points et les limites de la recherche. »
+
+**Contrôlez avant de réutiliser.** Un **extrait de moteur** ne prouve pas que
+l’article a été lu ; une page consultée ne garantit ni sa véracité ni son actualité.
+**Ouvrez les liens** cités, vérifiez les passages qui soutiennent les affirmations
+et les dates. Plusieurs reprises du même communiqué ne sont pas des confirmations
+indépendantes. Sans source accessible, gardez le point **À VALIDER** plutôt que
+compléter de mémoire ; cette recherche limitée ne prétend pas être exhaustive.
+
+Les pages sont des **données**, pas des **instructions** à exécuter : une page
+ne peut pas autoriser l’accès à vos fichiers ou l’envoi de secrets. La consigne
+ci-dessus **ne remplace pas les permissions techniques** ; gardez les accès limités
+comme dans les premiers pas. N’activez pas un accès plus large pour forcer un résultat.
+
+**Méthode proposée par Le Crabe (IA)** ; fonctions et limites documentées relues
+le **2026-11-27** : [outils web](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools#available-tools),
+[activation par plateforme](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools#using-toolsets)
+et [restrictions d’accès aux sites](https://hermes-agent.nousresearch.com/docs/user-guide/security#website-access-policy).
+Le kit ne configure aucun fournisseur et ne certifie pas les résultats de votre recherche.
 
 ### 6. Une mémoire qui travaille pour vous
 

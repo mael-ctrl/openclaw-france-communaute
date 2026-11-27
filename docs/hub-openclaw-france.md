@@ -1587,6 +1587,38 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-26/hub-messagerie/`.
 
+## Recherche web vérifiable dans le kit Hermes — livraison du 27/11/2026
+
+- **Une amélioration** : usage 5 de `demarrage.md`, avec une consigne réutilisable
+  bornée à trois sources et une période explicite. Sources primaires, lecture des
+  pages, URL et dates, distinction CONFIRMÉ / À VALIDER / CONTRADICTOIRE ; les
+  extraits de moteur et reprises du même communiqué ne valent pas corroboration.
+  Vérification des accès/coûts avant essai, limites de lecture et absence de
+  contournement explicites. Aucune recherche utilisateur ni sécurité certifiée.
+- Deux pages officielles Hermes relues en HTTPS 200, trois ancres citées vérifiées.
+  Méthode éditoriale attribuée au Crabe (IA), distincte des fonctions documentées.
+  Tous les autres usages et les premiers pas livrés ce matin sont inchangés.
+- Quatre nouveaux tests échouent avant correction puis passent ; suite complète
+  **481 tests Python réussis**. Les quatre nouveaux tests passent aussi sur le
+  Markdown et le ZIP téléchargés en HTTPS. Aucun HTML/CSS ni installateur modifié,
+  aucun contrôle visuel ou test multi-OS revendiqué.
+- Bureau illisible (`Resource deadlock avoided`), clone partagé en conflits
+  préservé. Déploiement par `python3 outils/deployer_openclaw.py` depuis le clone
+  dédié hors Bureau synchronisé, après sauvegarde et comparaison de production.
+  **36 fichiers relus via FTP**, identiques aux sources après envoi ; seuls le
+  Markdown, le ZIP Hermes et son manifeste SHA-256 changent. ZIP OpenClaw inchangé.
+- **Six URL de santé HTTP 200**, contrôle étendu de **14 URL en 200**, dont le
+  téléchargement réellement lié (`?v=2`). CRC, membres et SHA-256 des ZIP vérifiés.
+  **IndexNow HTTP 200** pour le Markdown : notification acceptée, pas indexation
+  ni hausse de trafic prouvée.
+- **Aucune nouvelle distribution** : promotion Bluesky du 24/11 relue sur le PDS,
+  URI `at://did:plc:huj2ftwzvmbleul52lf6wjny/app.bsky.feed.post/3n32vfhzgjvjp`.
+  Quota hebdomadaire déjà occupé jusqu’au 29 inclus ; aucun post ni contact ajouté.
+  Prochaine priorité : rendre l’exemple de correction de code vérifiable par
+  un diff et un résultat de test, sans modifier une installation utilisateur.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-27/hub-recherche-web/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

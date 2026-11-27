@@ -334,23 +334,51 @@ def page_skills():
                 contenu, "/skills/", section="skills")
 
 
-def extraits_pack():
-    """Trois extraits du JSON effectivement livré, sans copie éditoriale parallèle."""
+def donnees_extraits_pack():
+    """Sélection commune au HTML et aux fichiers d'essai, limitée aux champs publics."""
     livrable = construction._lire_json(
         config.DOSSIER_PRIVE / "dl" / "pack-du-crabe-100-prompts.json", [])
     if not isinstance(livrable, list):
-        return ""
+        return []
     ids = (5, 13, 61)
-    par_id = {p["id"]: p for p in livrable
-              if isinstance(p, dict) and p.get("id") in ids}
+    candidats = [p for p in livrable if isinstance(p, dict) and p.get("id") in ids]
+    if len(candidats) != len(ids) or any(type(p["id"]) is not int for p in candidats):
+        return []
+    par_id = {p["id"]: p for p in candidats}
     if any(ident not in par_id or any(not isinstance(par_id[ident].get(cle), str)
                                      or not par_id[ident][cle].strip()
                                      for cle in ("titre", "categorie", "prompt"))
            for ident in ids):
+        return []
+    return [{cle: par_id[ident][cle] for cle in ("id", "titre", "categorie", "prompt")}
+            for ident in ids]
+
+
+def fichiers_extraits_pack():
+    """Deux fichiers d'essai ; jamais le catalogue complet ni ses champs privés."""
+    prompts = donnees_extraits_pack()
+    markdown = "# Trois extraits gratuits du Pack du Crabe\n\n"
+    markdown += ("Prompts rédigés par une IA, à adapter et à vérifier. "
+                 "Ne transmettez pas de données confidentielles.\n\n"
+                 "Seulement les trois extraits gratuits, pas le Pack complet. "
+                 "L'assistant IA n'est pas fourni ; ses frais éventuels sont distincts.\n\n"
+                 "Source : https://communaute-ia.fr/pack/#extraits-pack\n\n")
+    for p in prompts:
+        markdown += f"## {p['id']}. {p['titre']}\n\n{p['categorie']}\n\n{p['prompt']}\n\n"
+    return {
+        "pack/extraits/3-prompts-gratuits.md": markdown if prompts else "",
+        "pack/extraits/3-prompts-gratuits.json": json.dumps(prompts, ensure_ascii=False, indent=2) + "\n",
+    }
+
+
+def extraits_pack():
+    """Trois extraits du JSON effectivement livré, sans copie éditoriale parallèle."""
+    prompts = donnees_extraits_pack()
+    if not prompts:
         return ""
     extraits = ""
-    for ident in ids:
-        p = par_id[ident]
+    for p in prompts:
+        ident = p['id']
         extraits += f"""<details class="extrait-pack" data-prompt-id="{ident}">
         <summary style="cursor: pointer; padding: .8rem 0;"><strong>{ech(p['titre'])}</strong></summary>
         <p class="petit-texte">{ech(p['categorie'])} · Prompt {ident} du pack</p>
@@ -364,6 +392,16 @@ def extraits_pack():
       {extraits}
       <p class="petit-texte">Vérifie les réponses : ces prompts guident l’IA, ils ne garantissent pas
       un résultat. L’utilisation de ton assistant peut entraîner ses propres frais.</p>
+      <div class="pack-extraits-fichiers">
+        <h3>Emporter les extraits pour les essayer</h3>
+        <p>Seulement les trois extraits gratuits ci-dessus, dans deux formats de texte,
+        sans compte ni inscription. Le Markdown se lit dans un éditeur ; le JSON est
+        à adapter à ton outil, pas d’import universel.</p>
+        <ul>
+          <li><a href="/pack/extraits/3-prompts-gratuits.md" download>Télécharger les 3 extraits en Markdown (.md)</a></li>
+          <li><a href="/pack/extraits/3-prompts-gratuits.json" download>Télécharger les 3 extraits en JSON (.json)</a></li>
+        </ul>
+      </div>
     </section>"""
 
 
@@ -741,6 +779,7 @@ def construire_annexes(breves, articles, stats, entrees_journal):
     episodes = podcast.charger_episodes(config.RACINE)
     pages["podcast/index.html"] = podcast.page_ecoute(episodes, config.URL_SITE)
     return pages, {
+        **fichiers_extraits_pack(),
         "veille/sources.opml": sources_opml(),
         "podcast/feed.xml": podcast.flux_xml(episodes, config.URL_SITE),
         "b2b/echantillon-veille/echantillon-veille.md": _fichier_demo_b2b("echantillon-veille.md"),

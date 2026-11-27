@@ -1,5 +1,13 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Podcast du 27 novembre — revue prête, recette terminée le 28
+
+**135,936 s**, quatre sujets des dernières brèves disponibles (24/25, dates dites à l'oral), voix Denise `+8%`. **481 tests Python réussis**, build réel, audio/texte exacts et **31 GUID uniques** avec le pilote ; anciens épisodes préservés. Jour éditorial du 27 conservé malgré la clôture après minuit. [Dossier et sources](podcast-2026-11-27.md).
+
+**P9 :** run antérieur `46077365778` : contrats réussis, pipeline annulé à la limite officielle de **45 min**, sauvegarde **skipped**. Le successeur `46082372772` sur l'ancien SHA reste en cours au relevé du 27 à 23:34 UTC ; il ne contient pas cet épisode. Page/RSS publics alors à **30 GUID**. Pull partagé refusé pour conflits, conservés ; travail isolé, aucun cache/verrou/délai modifié. Production audio acquise, publication du nouvel épisode et sauvegarde cloud à vérifier séparément après push.
+
+---
+
 ## Chantier site du 27 novembre — reprise et raccourcis du kit Hermes
 
 **Une seule intégration : premier candidat public admissible du relais du 27.** Reprise par titre/ID et profil, limites de l'historique/mémoire, raccourcis et collage conditionnels. Réserve ajoutée après relecture des sources : client du gateway ≠ ancien compositeur ; détachement ≠ arrêt, `/title` soumis à `/help`. Douze sections voisines et les autres membres du ZIP préservés.

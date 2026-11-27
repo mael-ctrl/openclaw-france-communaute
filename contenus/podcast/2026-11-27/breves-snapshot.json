@@ -1,0 +1,176 @@
+{
+  "sha": "dcf367a9323868aa0c0c772414bd5079c3e6c9b0",
+  "observed_at": "2026-11-27T21:32:03.543153+00:00",
+  "breves": [
+    {
+      "id": "37e6d5e175f8cc99",
+      "slug": "simon-willison-identifie-trois-points-de-bascule-des-llm-en-douze-mois-37e6d5",
+      "titre": "Simon Willison identifie trois points de bascule des LLM en douze mois",
+      "resume": "À l'AI Engineer Code Summit, Simon Willison a décrit trois points de bascule des capacités des LLM et des agents de code en douze mois. Il revient sur Claude Opus 4.5, sorti le 24 novembre 2025 : Anthropic affirmait alors que le modèle gérait l'ambiguïté et arbitrait entre compromis sans assistance, et qu'il trouvait le correctif sur des bugs multi-systèmes. Un an après, Willison estime que ces promesses ont tenu.",
+      "tags": [
+        "claude",
+        "agents",
+        "dev"
+      ],
+      "importance": 3,
+      "source": "Simon Willison",
+      "lien_source": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "date_source": "2026-11-24T23:02:07+00:00",
+      "date_redac": "2026-11-25T00:39:16+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 791,
+        "sortie": 1209
+      }
+    },
+    {
+      "id": "f84318c739820410",
+      "slug": "codex-la-preversion-0-174-0-alpha-4-publiee-par-openai-sur-github-f84318",
+      "titre": "Codex : la préversion 0.174.0-alpha.4 publiée par OpenAI sur GitHub",
+      "resume": "OpenAI met en ligne la préversion 0.174.0-alpha.4 de Codex, son outil de développement, sur le dépôt GitHub openai/codex. La publication est datée du 24 novembre et porte le label alpha, ce qui la désigne comme une version de test en amont d'une sortie stable. L'extrait ne détaille pas le contenu de la mise à jour. Le rythme des versions alpha donne la mesure de l'itération continue sur l'outil.",
+      "tags": [
+        "openai",
+        "dev",
+        "agents"
+      ],
+      "importance": 1,
+      "source": "Codex (releases, préversions incluses)",
+      "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.4",
+      "date_source": "2026-11-24T23:06:32+00:00",
+      "date_redac": "2026-11-25T00:39:10+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 602,
+        "sortie": 491
+      }
+    },
+    {
+      "id": "c15884125cadd7ab",
+      "slug": "codex-la-preversion-0-174-0-alpha-5-est-disponible-c15884",
+      "titre": "Codex : la préversion 0.174.0-alpha.5 est disponible",
+      "resume": "OpenAI a publié la préversion 0.174.0-alpha.5 de Codex, dans sa déclinaison Rust. La note de version se limite au numéro de build : aucun détail sur les changements apportés n'est fourni. Il s'agit d'une version alpha, donc instable par nature et destinée aux tests.",
+      "tags": [
+        "openai",
+        "dev",
+        "agents"
+      ],
+      "importance": 1,
+      "source": "Codex (releases, préversions incluses)",
+      "lien_source": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.5",
+      "date_source": "2026-11-25T00:06:14+00:00",
+      "date_redac": "2026-11-25T00:39:05+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 603,
+        "sortie": 690
+      }
+    },
+    {
+      "id": "23d35b9c4e1c5829",
+      "slug": "pour-yale-nvidia-nuit-a-la-puissance-industrielle-des-etats-unis-23d35b",
+      "titre": "Pour Yale, Nvidia nuit à la puissance industrielle des États-Unis",
+      "resume": "Jeffrey Sonnenfeld, de Yale, juge que le retour de Jensen Huang comme PDG et administrateur de Nvidia, soutenu par la Maison-Blanche, pourrait être une erreur majeure. Il y voit un risque de responsabilité personnelle « historique » pour les administrateurs, face à une accumulation de procès. Il demande aussi si le pays ne célèbre pas une entreprise qui a mis des puces avancées entre les mains de ses adversaires.",
+      "tags": [
+        "business",
+        "matériel",
+        "sécurité"
+      ],
+      "importance": 3,
+      "source": "TechCrunch IA",
+      "lien_source": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "date_source": "2026-11-25T00:12:02+00:00",
+      "date_redac": "2026-11-25T00:38:59+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 690,
+        "sortie": 1182
+      }
+    },
+    {
+      "id": "f9285e87927239c7",
+      "slug": "hermes-agent-publie-un-instantane-de-commit-estampille-v0-0-0-f9285e",
+      "titre": "Hermes Agent publie un instantané de commit estampillé v0.0.0",
+      "resume": "Hermes Agent, le projet d'agent de NousResearch, a publié sur GitHub un instantané de commit référencé v0.0.0. La fiche de release ne contient qu'un identifiant de commit (e68a1d67e2f4…) et un bundle d'environnement vide : aucune note de version ni description fonctionnelle n'y est associée. Le lien renvoie directement au tag correspondant du dépôt.",
+      "tags": [
+        "hermes",
+        "agents",
+        "open-source",
+        "dev"
+      ],
+      "importance": 1,
+      "source": "Hermes Agent (releases)",
+      "lien_source": "https://github.com/NousResearch/hermes-agent/releases/tag/commit.20261125T001913Z-v0.0.0",
+      "date_source": "2026-11-25T00:19:13+00:00",
+      "date_redac": "2026-11-25T00:38:54+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 636,
+        "sortie": 530
+      }
+    },
+    {
+      "id": "a01c6e94e4190e43",
+      "slug": "litellm-v1-110-4-images-docker-signees-et-scans-de-securite-en-ci-a01c6e",
+      "titre": "LiteLLM v1.110.4 : images Docker signées et scans de sécurité en CI",
+      "resume": "LiteLLM publie la version 1.110.4, mise à jour de maintenance de sa branche stable. Le projet documente la vérification de signature des images Docker avec cosign, liée au workflow GitHub de release. La CI scanne désormais la ligne stable avec OSV et grype après chaque merge ; côté correctifs, nginx passe à 1.31.10 (zlib 1.4-r0) et un patch d'authentification limite l'index des end-users.",
+      "tags": [
+        "open-source",
+        "dev",
+        "sécurité"
+      ],
+      "importance": 2,
+      "source": "LiteLLM (releases, préversions incluses)",
+      "lien_source": "https://github.com/BerriAI/litellm/releases/tag/v1.110.4",
+      "date_source": "2026-11-25T00:31:02+00:00",
+      "date_redac": "2026-11-25T00:38:50+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 792,
+        "sortie": 1114
+      }
+    },
+    {
+      "id": "6439efdc4fcbd054",
+      "slug": "pydantic-ai-2-74-computertool-dans-le-cur-couts-gemini-corriges-6439ef",
+      "titre": "Pydantic AI 2.74 : ComputerTool dans le cœur, coûts Gemini corrigés",
+      "resume": "Pydantic AI 2.74.0 intègre ComputerTool et pydantic_ai.computer_use au cœur du framework, inscrits dans NATIVE_TOOLS_REQUIRING_CONFIG : l'outil exige un computer tool pour ses appels. Sur GPT-6.2, les instructions statiques passent désormais en messages d'entrée, le modèle ne cachant pas les instructions de haut niveau ; et le streaming d'un modèle gemini* via OpenAIProvider rapporte les totaux d'usage finaux de l'endpoint au lieu de leur somme, donc des coûts revus à la baisse.",
+      "tags": [
+        "dev",
+        "agents",
+        "openai",
+        "gemini"
+      ],
+      "importance": 2,
+      "source": "Pydantic AI (releases, préversions incluses)",
+      "lien_source": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.74.0",
+      "date_source": "2026-11-24T21:24:29+00:00",
+      "date_redac": "2026-11-24T22:09:20+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 838,
+        "sortie": 1406
+      }
+    },
+    {
+      "id": "ab5623c18831c48b",
+      "slug": "pydantic-ai-la-version-1-107-11-est-en-ligne-sans-detail-sur-les-chang-ab5623",
+      "titre": "Pydantic AI : la version 1.107.11 est en ligne, sans détail sur les changements",
+      "resume": "Pydantic AI publie la version 1.107.11, datée du 24 novembre 2026. Cette mise à jour succède à la version 1.107.10, comme l'indique le changelog complet mis en ligne sur GitHub. Les notes de version ne détaillent pas les changements apportés : elles se contentent de renvoyer vers la comparaison entre les deux versions.",
+      "tags": [
+        "agents",
+        "dev",
+        "open-source"
+      ],
+      "importance": 1,
+      "source": "Pydantic AI (releases, préversions incluses)",
+      "lien_source": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.11",
+      "date_source": "2026-11-24T21:24:35+00:00",
+      "date_redac": "2026-11-24T22:09:06+00:00",
+      "gen": {
+        "modele": "deepseek-flash",
+        "entree": 617,
+        "sortie": 617
+      }
+    }
+  ]
+}

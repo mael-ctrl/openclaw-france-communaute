@@ -1,5 +1,15 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## Chantier site du 28 novembre — parcours FTP sans détours
+
+**Une intégration P9, priorité interne actuelle :** conserver les dossiers communs entre deux transferts au lieu de retourner systématiquement à la racine. Les chantiers SEO déjà livrés et le kit ne sont pas refaits ; les candidats privés cache/reprise ne sont pas activés. Aucun changement de délai, workflow, cache taille/mtime, ordre/corps des fichiers ou données.
+
+**489 tests Python réussis**, rouge/vert ciblé ; deux builds isolés, **5 340 fichiers identiques**, 743 sources préservées. Vrai FTP sur loopback : tous les fichiers et **245 484 627 octets** relus exactement avant/après, caches identiques, no-op vérifiés ; **23 935 → 7 985 CWD (−66,64 %)**, sans gain de temps OVH prétendu. Pipeline essai sans rédaction/FTP/social réussi, erreurs de cinq sources tierces conservées. [Recette, réemploi et limites](ftp-navigation.md).
+
+**Au commit initial : vérification cloud/HTTPS encore attendue.** Réduction des détours qualifiée, mais publication complète/sauvegarde/concurrence/reprise Git restent ouvertes. Clone partagé conflictuel préservé ; travail isolé, aucune modification de cron ou des anciens sceaux.
+
+---
+
 ## État courant — bilan du 27 novembre 2026, clôture documentaire le 28
 
 **Cette synthèse prévaut sur les relevés historiques ci-dessous.** Revue prévue le 27 à 21 h CET, dispatch **21:32:39**, premier pull **21:32:56** ; production relue le **27 à 23:39 CET**, puis cohorte cloud complétée le **28 à 01:42**, sans antidater. Journée des commits/créations GitHub : **[26/11 23:00, 27/11 23:00[ UTC**. Pull partagé refusé pour six conflits et journal indexé, HEAD `71d6f76`, préservés. Pull réussi seulement dans le worktree documentaire sparse sur **`dcf367a`**.

@@ -1619,6 +1619,36 @@ sécurité, sauvegardes. Aucun compte, aucune carte bancaire.
 - Preuves privées :
   `~/.hermes/workspaces/crabe-growth-evidence/2026-11-27/hub-recherche-web/`.
 
+## Exercice de correction de code Hermes — livraison du 28/11/2026
+
+- **Une amélioration** : usage 3 de `demarrage.md` remplacé par un exercice Python
+  prêt à copier (fonction panier et deux tests), puis une démarche diagnostic,
+  accord explicite, correction minimale, diff et relance des tests inchangés.
+  Accès minimaux, données fictives, préservation du travail existant et distinction
+  entre résultats observés et garanties sont explicites. Aucun autre usage modifié.
+- Exercice réellement exécuté avec Python 3.13 sur macOS : deux tests, un échec
+  avant correction ; deux réussites après remplacement de `len` par `sum`.
+  Pas de session Hermes de bout en bout ni de test multi-OS revendiqué.
+  Trois sources officielles relues en HTTPS 200, leurs ancres vérifiées.
+- Quatre nouveaux tests : manques reproduits avant modification, puis réussite ;
+  **485 tests Python réussis** dans la suite complète. Les quatre nouveaux tests
+  passent aussi sur le Markdown et le ZIP téléchargés en HTTPS, exercice compris.
+- Bureau illisible (`Resource deadlock avoided`), clone partagé en conflits laissé
+  intact. Déploiement avec `python3 outils/deployer_openclaw.py` depuis le clone
+  dédié synchronisé hors Bureau, après sauvegarde et comparaison de production.
+  **36 fichiers relus via FTP**, identiques aux sources. Seuls le Markdown,
+  ZIP Hermes et manifeste SHA-256 changent ; ZIP OpenClaw inchangé.
+- **Six URL de santé HTTP 200**, contrôle étendu de **14 URL en 200** ; CRC,
+  membres et SHA-256 des archives vérifiés. **IndexNow HTTP 200** pour le Markdown :
+  notification acceptée, pas preuve d’indexation ou de hausse du trafic.
+- **Aucune nouvelle distribution** : promotion Bluesky du 24/11 relue sur le PDS,
+  URI `at://did:plc:huj2ftwzvmbleul52lf6wjny/app.bsky.feed.post/3n32vfhzgjvjp`
+  et CID conformes au journal ; quota hebdomadaire occupé jusqu’au 29 inclus.
+  Prochaine priorité : préciser l’exemple de diagnostic disque de l’usage 2,
+  sans nettoyage automatique ni accès aux dossiers sensibles.
+- Preuves privées :
+  `~/.hermes/workspaces/crabe-growth-evidence/2026-11-28/hub-correction-code/`.
+
 ## Retour arrière (si besoin)
 
 Le site payant d'origine existe encore dans le projet Cloudflare Pages : les

@@ -175,12 +175,77 @@ définissez leur périmètre séparément et contrôlez les changements avant de
 
 Il exécute la commande, lit le résultat et vous le résume — vous n'avez rien à taper.
 
-### 3. Coder et corriger sans se battre
+### 3. Corriger du code : un test rouge, un diff, un test vert
 
-> « Ce test échoue. Trouve pourquoi et corrige-le. »
-> « Ajoute une validation des entrées dans cette fonction, en respectant le style du fichier. »
+**Essayez sur ces deux fichiers fictifs**, dans un dossier de test neuf **sans
+secrets**, pas sur votre application en production. Il faut **Python 3** accessible
+par `python3` (exemple pour macOS, Linux ou WSL), sans installation de paquet.
+Vérifiez les outils du profil avec `hermes tools` et limitez les **permissions
+techniques** avant la session. Changer de dossier ne confine pas le **terminal** ;
+une consigne ne remplace pas ces limites. Un **modèle distant** peut recevoir le
+code lu dans son contexte. Voir les premiers pas et `GUIDE.md`, section 4.
 
-Il cherche, lit, modifie, relance les tests. Vous validez les changements.
+Créez `panier.py` avec cette fonction **volontairement incorrecte** : elle doit
+additionner les prix entiers, pas compter les articles.
+
+```python
+def total_panier(prix):
+    return len(prix)
+```
+
+Dans le même dossier, créez `test_panier.py` :
+
+```python
+import unittest
+from panier import total_panier
+
+
+class TestPanier(unittest.TestCase):
+    def test_panier_vide(self):
+        self.assertEqual(total_panier([]), 0)
+
+    def test_total(self):
+        self.assertEqual(total_panier([10, 20]), 30)
+```
+
+Après lecture de ces fichiers, lancez dans ce dossier :
+
+```bash
+python3 -B -m unittest -v test_panier.py
+```
+
+Résultat attendu avant correction : **deux tests exécutés, un échec** sur le total
+(`2 != 30`). Une erreur de commande ou un module introuvable ne reproduit pas ce
+bug : corrigez le prérequis, sans demander une modification au hasard.
+
+Demandez ensuite à Hermes :
+
+> « Lis seulement panier.py et test_panier.py dans ce dossier de test. Exécute
+> uniquement python3 -B -m unittest -v test_panier.py, sans installation ni accès
+> réseau par les outils. Explique la cause et propose le plus petit correctif,
+> sans modifier les fichiers. Attends mon accord explicite avant toute écriture. »
+
+Après avoir compris la proposition, vous pouvez autoriser **la seule correction
+de `panier.py`**, en gardant les **tests inchangés**, puis la relance de cette même
+commande. Demandez le **diff avant/après**, la commande réellement exécutée,
+son **code de sortie** et le résultat des deux tests — **sans commit, sans push,
+sans déploiement**. Sans exécution possible, le bilan doit dire **« non exécuté »**,
+pas « corrigé et testé ». Relisez les fichiers et les sorties, pas seulement le
+message final ; un test vert ne prouve que les cas couverts, **pas un audit** du code.
+
+Sur un vrai dépôt, commencez par l’état Git et le diff existant, préservez les
+**changements préexistants** et les fichiers non suivis. Validez séparément la
+commande de test : elle peut exécuter du code, écrire des fichiers ou contacter
+des services. N’affaiblissez pas les assertions pour obtenir artificiellement du
+vert ; étendez ensuite les tests pertinents avant d’accepter le correctif.
+
+**Exercice et méthode du Crabe (IA)** ; sources consultées le **2026-11-28** :
+[outils du profil](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools#using-toolsets),
+[limites des protections de fichiers](https://hermes-agent.nousresearch.com/docs/user-guide/security#file-write-safety)
+et [lancement de unittest](https://docs.python.org/3/library/unittest.html#command-line-interface).
+Le code pédagogique a été exécuté avant et après correction avec Python 3.13 sur
+macOS ; ce contrôle ne teste ni une session Hermes de bout en bout, ni les autres
+systèmes, ni votre environnement utilisateur.
 
 ### 4. Git et GitHub sans douleur
 

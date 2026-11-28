@@ -1,5 +1,15 @@
 # Journal des actions de monétisation
 
+## 28 novembre 2026 — suivi du Pack, clôture du run du 27
+
+**Suivi de l'action précédente, pas une nouvelle campagne :** le run `46007897692`, encore actif au dernier bilan, est finalement **annulé au plafond de 45 minutes**. Job terminé le **27 à 14:21:03 UTC** ; contrats réussis, pipeline interrompu, sauvegarde sautée. Statuts et annotation relus le 28 ; aucune relance ni réparation opérationnelle effectuée.
+
+- **HTTPS du 28 à 13:50 UTC :** les deux exports gratuits répondent 200 et sont identiques octet pour octet à la livraison du 27. Page Pack 200, contenu `<main>` strictement identique, trois extraits et liens de téléchargement présents, prix 14 € et lien Stripe conservés. Le HTML entier diffère : CSS intégrée et URL d'assets versionnées. Les trois assets référencés ont été relus séparément à **16:10 UTC**, 200 et empreintes conformes à leurs noms. Cela ne rejoue pas la recette navigateur du 27 et ne valide pas un paiement.
+- **Retours au relevé de 13:50 UTC :** post promotionnel du 24 avec zéro réponse, like, repost et citation ; fil public sans réponse. IMAP en lecture seule, `BODY.PEEK`, unique dossier INBOX : aucun message depuis le 24. Aucun retour exploitable trouvé dans ce périmètre ; ce n'est ni une mesure de visites ni la preuve de zéro vente. Stripe non interrogé.
+- Aucun contact, nouvelle promotion, campagne newsletter, paiement, prix, suivi ou réglage modifié. Créneau Bluesky fermé jusqu'au 29 inclus ; prérequis B2B et relais humain Buttondown non levés, sans nouvelle qualification commerciale revendiquée. Pull du clone partagé refusé pour conflits préexistants, laissés intacts ; seul ce journal change dans un worktree documentaire propre après pull réussi. Aucun dispatch ou déploiement.
+
+**Suite :** examiner les nouveaux retours avant toute autre promotion, au plus tôt le 30 novembre ; ne pas refaire les diagnostics bloqués ni présenter ce suivi comme une nouvelle acquisition. La livraison ciblée reste disponible malgré l'échec distinct du déploiement général. Preuves privées : `crabe-chantiers/monetisation/2026-11-28-suivi-pack/`.
+
 ## 27 novembre 2026 — essayer les formats du Pack avant achat
 
 **Une action sur le Pack existant :** les [trois extraits gratuits](https://communaute-ia.fr/pack/#extraits-pack) peuvent désormais être téléchargés en Markdown et JSON, sans inscription. Même sélection que le HTML (IDs 5, 13, 61), quatre champs publics seulement ; aucun autre corps de prompt, exemple d’usage non déjà public ou lien vers le Pack entier ajouté. Prix **14 €**, Stripe, sommaire, copie des extraits et fichiers payants inchangés. Origine IA, adaptation, vérification et absence d’import universel explicites.

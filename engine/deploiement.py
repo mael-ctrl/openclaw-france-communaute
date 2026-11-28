@@ -55,6 +55,7 @@ def deployer(verbeux=True):
         ftp.cwd(base)
 
     envois, total_octets = 0, 0
+    dossier_courant = []  # composants relatifs à la base, confirmés par CWD
     for fichier in sorted(config.DOSSIER_SORTIE.rglob("*")):
         if not fichier.is_file():
             continue
@@ -64,25 +65,32 @@ def deployer(verbeux=True):
         if etat.get(relatif) == empreinte:
             continue
         parties = relatif.split("/")
-        if len(parties) > 1:
-            for partie in parties[:-1]:
-                try:
-                    ftp.cwd(partie)
-                except ftplib.error_perm:
-                    ftp.mkd(partie)
-                    ftp.cwd(partie)
-            with open(fichier, "rb") as fh:
-                ftp.storbinary("STOR " + parties[-1], fh, blocksize=262144)
-            for _ in range(len(parties) - 1):
-                ftp.cwd("..")
-        else:
-            with open(fichier, "rb") as fh:
-                ftp.storbinary("STOR " + parties[0], fh, blocksize=262144)
+        cible = parties[:-1]
+        commun = 0
+        for actuel, attendu in zip(dossier_courant, cible):
+            if actuel != attendu:
+                break
+            commun += 1
+        while len(dossier_courant) > commun:
+            ftp.cwd("..")
+            dossier_courant.pop()
+        for partie in cible[commun:]:
+            try:
+                ftp.cwd(partie)
+            except ftplib.error_perm:
+                ftp.mkd(partie)
+                ftp.cwd(partie)
+            dossier_courant.append(partie)
+        with open(fichier, "rb") as fh:
+            ftp.storbinary("STOR " + parties[-1], fh, blocksize=262144)
         etat[relatif] = empreinte
         envois += 1
         total_octets += st.st_size
         if verbeux:
             print(f"   ↑ {relatif} ({st.st_size} o)")
+    while dossier_courant:
+        ftp.cwd("..")
+        dossier_courant.pop()
     ftp.quit()
 
     config.FICHIER_DEPLOY_ETAT.write_text(json.dumps(etat, ensure_ascii=False, indent=0),

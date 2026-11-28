@@ -1,5 +1,34 @@
 # 🗺️ Roadmap — La Communauté 🦀 (média + monétisation)
 
+## État courant — bilan du 27 novembre 2026, clôture documentaire le 28
+
+**Cette synthèse prévaut sur les relevés historiques ci-dessous.** Revue prévue le 27 à 21 h CET, dispatch **21:32:39**, premier pull **21:32:56** ; production relue le **27 à 23:39 CET**, puis cohorte cloud complétée le **28 à 01:42**, sans antidater. Journée des commits/créations GitHub : **[26/11 23:00, 27/11 23:00[ UTC**. Pull partagé refusé pour six conflits et journal indexé, HEAD `71d6f76`, préservés. Pull réussi seulement dans le worktree documentaire sparse sur **`dcf367a`**.
+
+**Neuf commits ; 24 runs cloud, tous annulés : 23 pendant pipeline avec sauvegarde ignorée, un sans job.** Deux acquis distincts : **le cron vivant refuse désormais le rebase avant moteur et restitue l'échec 65** ; **catalogue et podcast rétablis en HTTPS** (566 articles Git = sitemap, édition du 26 complète, 30 GUID). Ces contrôles ne prouvent pas une sauvegarde cloud réussie ni une coordination résolue. Kit Hermes, exports des trois extraits du Pack et LlamaIndex confirmés publiés.
+
+| Chantier | État vérifié / provenance du bilan | Prochaine étape / dépendance |
+|---|---|---|
+| P1 — Actu / indexation | ✅ LlamaIndex `cd1200c` : **45 couples OPML exacts à Git**, compteur 45 flux. **566 articles Git = sitemap**, zéro absent/supplémentaire. 🔴 **Six dates News dans les 48 h**, aucune future, sous le seuil de dix | Publication complète et récente via P9 ; surveiller les catalogues sans refaire LlamaIndex ni redater les contenus. Le rétablissement du sitemap ne vérifie pas chaque HTML ou son indexation |
+| P2 — Site / garde locale | ✅ Cron réel du 27 à **09:10 : refus 65 sur rebase-merge**, scheduler `failed`, avant moteur. Copie active exacte au script Git, syntaxe valide. Kit reprise/raccourcis `1e35bcc` publié ; **474 Python/huit Node** rapportés, non rejoués ici | Garde acquise, **ne pas la réinstaller**. Reprise Git et coordination restent P9 ; ne pas confondre refus protecteur et réparation du clone. [Dossier kit](kit-reprise-session.md) |
+| P3 — Podcast | ✅ Édition du **26 rétablie**, audio/script/GUID vérifiés. **Complément du 28 à 04:27 : édition du 27 versionnée `2321e23`, audio exact HTTP 200, mais script absent de la page et GUID absent du flux resté à 30 uniques** | Suivre le chantier existant et rétablir page/flux ; ne recréer aucun audio/GUID. Publication du 27 **partielle**, complément distinct du bilan du 27 et de la sauvegarde cloud |
+| P4 — Newsletter | 🔶 Notice du 25 conservée ; relais support humain et véritable essai mono-destinataire toujours non établis | Campagne fermée ; aucun nouveau ticket/alias, réponse IA de substitution ou surcoût. Dépendance différée, pas de deuxième demande humaine |
+| P5 — Monétisation | ✅ `44a9ec3` : **trois extraits téléchargeables Markdown/JSON**, deux URL 200, JSON exact aux champs publics des IDs **5/13/61** ; prix 14 €, paiement et livrables inchangés selon la recette. 🔴 KPI et quatre veilles du 27 : Stripe OAuth refusé | **Action humaine unique : réautoriser Stripe**, puis attribuer les paiements. Aucune vente déduite des téléchargements de recette ; B2B 200/mentions 404, autres prérequis cumulatifs non levés. [Preuves](monetisation.md) |
+| P6 — Presse / distribution | 🔶 Courrier/distribution silencieux ; suivi Mastodon du soir terminé silencieusement à **22:32**. Aucune permission, approbation ou retombée nouvelle attestée | Suivi sans renvoi ; **aucune nouvelle promotion Bluesky jusqu'au 29 inclus**. Actualités automatiques distinctes ; les exports sur notre site ne consomment pas un quota de plateforme tierce |
+| P7 — Record / récupération | 🔴 **23 sauvegardes cloud ignorées**, aucune réussie sur la cohorte du 27. Vague : matrice de **153 chemins / 536 décisions**, récupération locale selon le rapport, dépendante du magasin du 24 | Préserver les variantes et les deux lots ; arbitrage explicite avant reprise, récupération indépendante/export/rétention distante à qualifier. Ni fusion automatique des sceaux ni nouvelle capsule identique |
+| P8 — Skool | 🔶 Brouillon « Récap du mois : les trouvailles à garder ensemble », calendrier seul car source locale conflictuelle ; aucune publication attestée. **18/22 historique**, non recompté | Session authentifiée : réconcilier M6, membres et publications ; brouillon ≠ animation réalisée |
+| P9 — Organisation / exploitation | ✅ Admission locale maintenant observée dans le cron réel. 🔴 Rebase conflictuel et interruptions cloud persistants. Trois remises/trois replays parent selon rapport ; **98 pièces du manifeste revérifiées intactes ici**. Cache avec contrôle distant toujours privé/non activé | **Priorité interne :** utiliser la matrice des variantes pour une reprise Git conservatrice, coordonner les producteurs, puis qualifier reprise/persistance/rétention cloud. Pas de cache/verrou ou hausse de timeout improvisés. **19 010 772 992 octets libres** au contrôle du 27 à 23:39 ; aucune purge/build ici |
+| P10 — Hub / affiliation | ✅ Reprise/raccourcis puis veille web sourcée `cb1272d` coexistent : **Markdown/ZIP/sommes exacts à Git en HTTPS**. Affiliation inactive | Ne pas refaire ces deux corrections ; prochain exemple code à qualifier séparément par diff/tests. Installation réelle multi-OS non démontrée |
+
+### Une seule action humaine — réautoriser Stripe
+
+**Message exact :** « Maël, lance `hermes mcp login stripe --flow browser` et approuve la reconnexion Stripe dans le navigateur. L'accès OAuth est refusé et le renouvellement automatique échoue : les ventes du Crabe ne sont plus vérifiables. »
+
+**L'email URGENCE à l'adresse d'escalade convenue doit partir si ce blocage empêche le pilotage financier.** Destinataire, objet et texte exacts préparés dans `crabe-chantiers/gouvernance/2026-11-27/revue-2133/escalade-mael.txt`, hors dépôt public ; **non envoyés**. Autres dépendances conservées sans seconde sollicitation ni validation déduite du silence.
+
+**Mesure : 1 230 IP uniques estimées le 26, +378 / +44,4 %**, selon le KPI du 27 collecté sur clone isolé ; média + hub, robots identifiés exclus. Blob trafic Git arrêté au 22. Ni personnes garanties, ni trafic du 27, ni gain attribué aux livraisons ; ventes/cumul indisponibles, jamais zéro. [Bilan détaillé](ceo-log.md#2026-11-27--bilan-du-soir-refus-local-effectif-et-catalogue-rétabli). Revue documentaire seulement : aucun déploiement, dispatch, cron, email, post, paiement ou Discord déclenché ; livraison locale uniquement.
+
+---
+
 ## Podcast du 27 novembre — revue prête, recette terminée le 28
 
 **135,936 s**, quatre sujets des dernières brèves disponibles (24/25, dates dites à l'oral), voix Denise `+8%`. **481 tests Python réussis**, build réel, audio/texte exacts et **31 GUID uniques** avec le pilote ; anciens épisodes préservés. Jour éditorial du 27 conservé malgré la clôture après minuit. [Dossier et sources](podcast-2026-11-27.md).
@@ -16,7 +45,7 @@
 
 ---
 
-## État courant — 26 novembre 2026, clôture vérifiée le 27 à 00 h 24 CET
+## État antérieur — 26 novembre 2026, clôture vérifiée le 27 à 00 h 24 CET
 
 **Cette synthèse prévaut sur les relevés historiques ci-dessous.** Revue prévue le 26 à 21 h, dispatch à **21:06:55**, premier pull à **21:07** ; contrôles complémentaires réellement effectués le **27 à 00:15–00:24**, sans antidatation. Journée des commits/créations GitHub : **[25/11 23:00, 26/11 23:00[ UTC**. Pull partagé refusé **128** : six conflits et journal indexé, HEAD `71d6f76`, préservés. Pull réussi seulement dans le worktree documentaire sparse sur **`5f626cc`**.
 
